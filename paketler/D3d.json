@@ -1,0 +1,801 @@
+{
+  "_paket": "D3d — Sivillerin panik replikleri: ilk günlerde silah sesi (PANIC_DAY_GUNFIRE), 265",
+  "_dosya": "RadioData_lua",
+  "satirlar": {
+    "RD_ALifeLine_3203533e10a81435": {
+      "tr": "O neydi?!"
+    },
+    "RD_ALifeLine_6330ae4d232a4dbd": {
+      "tr": "Duydun mu? Duyduğunu söyle, kafayı yemediğimi söyle-"
+    },
+    "RD_ALifeLine_7783da780331540e": {
+      "tr": "Ellerim durmuyor.. biri bana ne yapacağımı söylesin"
+    },
+    "RD_ALifeLine_7ce87a681f13692f": {
+      "tr": "Nereden geliyor? Ne taraftan geldi?"
+    },
+    "RD_ALifeLine_463b0a0022c4fdfc": {
+      "tr": "O taraftan mı? O taraftan, yok, ŞU taraftan!"
+    },
+    "RD_ALifeLine_0ed26e724c58d991": {
+      "tr": "Ne tarafa gidiyoruz, NE taraf, biri birini seçsin!"
+    },
+    "RD_ALifeLine_1ff9dce976ac2ea9": {
+      "tr": "Uzaklaşın, ondan uzaklaşın, HADİ!"
+    },
+    "RD_ALifeLine_4dbea41e310fb4d1": {
+      "tr": "Kulak kesildim ve bir daha DUYMAK istemiyorum"
+    },
+    "RD_ALifeLine_7f104fe37041b766": {
+      "tr": "Silah mıydı o?.. Tahmin ediyorsan söyle"
+    },
+    "RD_ALifeLine_14da510e63868e11": {
+      "tr": "YERE! Ne olduğu umurumda değil, yere yat!"
+    },
+    "RD_ALifeLine_6cb0217e09afcd3b": {
+      "tr": "Biri mi ateş ediyor?.. Kime ateş ederler ki?!"
+    },
+    "RD_ALifeLine_1d21e1d61fe0b18b": {
+      "tr": "Yere, yere, yatın, herkes yere!"
+    },
+    "RD_ALifeLine_78ad28f74c0ea240": {
+      "tr": "B-biri mi geliyor?.. Yardıma geldiklerini nereden bileceğiz?!"
+    },
+    "RD_ALifeLine_3d5332c5157a2d86": {
+      "tr": "Ya biri çığlık attıysa?.. Sen de öyle duydun mu?"
+    },
+    "RD_ALifeLine_004e5a0c624c780a": {
+      "tr": "Ne olur kimseye bir şey olmasın.. ne olur"
+    },
+    "RD_ALifeLine_3e4c004818fe315a": {
+      "tr": "Bir çocuk olmasın.. Allah'ım ne olur çocuk olmasın!!"
+    },
+    "RD_ALifeLine_4492893404ccaf7a": {
+      "tr": "Kafamdan çıkaramıyorum.. kafamı susturamıyorum!"
+    },
+    "RD_ALifeLine_1f5553ec63cd4653": {
+      "tr": "Bir şey mi patladı?.. Allah'ım o neydi?!"
+    },
+    "RD_ALifeLine_167ddf6b3acf667f": {
+      "tr": "Midemde hissettim.. kusacağım"
+    },
+    "RD_ALifeLine_04e5df4f48d70f52": {
+      "tr": "Baktırmayın bana.. bakmadan da yeterince duyuyorum!"
+    },
+    "RD_ALifeLine_729aa84347167814": {
+      "tr": "Daha ne kadar kötüleşecek?! Biri daha kötü olamayacağını söylesin"
+    },
+    "RD_ALifeLine_2c27fcf326b07281": {
+      "tr": "Dışarıda ne yapacağını bilen biri var mı?!"
+    },
+    "RD_ALifeLine_7789c1940a12e761": {
+      "tr": "Hey!.. Beni duyuyorsan YARDIM lazım!"
+    },
+    "RD_ALifeLine_6202c138409785d1": {
+      "tr": "Biri gelsin beni alsın! Ne olur GELİN ALIN BENİ!"
+    },
+    "RD_ALifeLine_5cd2fa0c3c67bc8f": {
+      "tr": "Kimse o tarafa gitmesin.. ne olur gitmeyin!"
+    },
+    "RD_ALifeLine_3a7bdb7048e8c15c": {
+      "tr": "Ne olur kimseye bir şey olmasın.. ne olur sadece GÜRÜLTÜ olsun!"
+    },
+    "RD_ALifeLine_4988f9ba65132bb2": {
+      "tr": "Allah'ım, burada da başladı"
+    },
+    "RD_ALifeLine_13cf81254ca2b3e2": {
+      "tr": "O tarafa gitme.. ne olur biraz aklını kullan!"
+    },
+    "RD_ALifeLine_1259ecd47dd58d7f": {
+      "tr": "Neyi dinlediğimi anlayamıyorum.. bir saniye ver bana!"
+    },
+    "RD_ALifeLine_0fcfc49c782e2439": {
+      "tr": "Ben oraya ÇIKMIYORUUUM, beni zorla çıkaramazsın!"
+    },
+    "RD_ALifeLine_5cdbf85d7356446f": {
+      "tr": "Kalbim ağzımda atıyor!"
+    },
+    "RD_ALifeLine_7c28db660e62c232": {
+      "tr": "Yaklaşıyor mu?.. Anlayamıyorum ANLAYAMIYORUM!"
+    },
+    "RD_ALifeLine_5e71688a2baa36ff": {
+      "tr": "Eğil!.. Olabildiğince eğil!"
+    },
+    "RD_ALifeLine_7f7de87c648aaf87": {
+      "tr": "Aman Allah'ıııım, aman ALLAH'IM!"
+    },
+    "RD_ALifeLine_7813382357a19595": {
+      "tr": "Uzakta olsun istiyorum.. daha da uzakta olmak istiyorum!"
+    },
+    "RD_ALifeLine_6e67353b27a68934": {
+      "tr": "Annemi istiyorum.. kaç yaşında olduğum umurumda değil, annemi istiyorum"
+    },
+    "RD_ALifeLine_2d0db2150c5ab46b": {
+      "tr": "Dışarıda birden fazla şey mi var?.. Bunu nasıl ANLARSIN?!"
+    },
+    "RD_ALifeLine_2faa408831267a73": {
+      "tr": "Ya bir insansa? Tanıdığım biri?"
+    },
+    "RD_ALifeLine_7169056e45120bf4": {
+      "tr": "Ne zaman dayanabilirim desem başka bir şey yıkıyor beni"
+    },
+    "RD_ALifeLine_233bb07d52c3fefa": {
+      "tr": "Hemen arkamızda mı?.. Önce nereye bakacağımı bilmiyorum!"
+    },
+    "RD_ALifeLine_2d074ca503adfa3d": {
+      "tr": "Kendi kalbimi duyuyorum.. bir saniye susun NE OLUR!"
+    },
+    "RD_ALifeLine_0bb71ec550fd58b5": {
+      "tr": "Kıpırdama... ses çıkarma... geçecek, geçmek zorunda"
+    },
+    "RD_ALifeLine_0abae0f201d4cc8d": {
+      "tr": "Gidiyor muyuz? Kalıyor muyuz?"
+    },
+    "RD_ALifeLine_533a67cc34c4d7e7": {
+      "tr": "HEMEN eğil!!"
+    },
+    "RD_ALifeLine_46afa198515e420c": {
+      "tr": "Beni daha yakına götürmeyin.. daha iyi görmek istemiyorum"
+    },
+    "RD_ALifeLine_5e13461c31113e0c": {
+      "tr": "Fazla.. bir anda fazla geliyor be!"
+    },
+    "RD_ALifeLine_45e552080e614e5a": {
+      "tr": "Dışarıda kim varsa.. nasıl dayanıyorlar?!"
+    },
+    "RD_ALifeLine_60f4d7207a03a97c": {
+      "tr": "Buraya gel, görebileceğim yerde dur!"
+    },
+    "RD_ALifeLine_79c54edc7dcc9b2c": {
+      "tr": "Birinin bir şey yapması gerekmiyor mu?.. Biz neden öylece BURADAYIZ?!"
+    },
+    "RD_ALifeLine_52940e2c31f17c63": {
+      "tr": "Neden bu kadar gürültülü? Televizyonda hiç bu kadar gürültülü olmuyor"
+    },
+    "RD_ALifeLine_538c1726677069a5": {
+      "tr": "Bitti mi? Bitmediyse bitti deme!"
+    },
+    "RD_ALifeLine_174674cc1e90d801": {
+      "tr": "Allah'ım, dışarıda neler oluyor, neler OLUYOR!"
+    },
+    "RD_ALifeLine_00ecb2373b69da89": {
+      "tr": "Kaçalım mı?.. Bir koşmaya başlarsam durabilir miyim bilmiyorum!"
+    },
+    "RD_ALifeLine_355a79cd3a1ebd75": {
+      "tr": "Ona kadar sayacağım, durmazsa çığlık atacağım"
+    },
+    "RD_ALifeLine_2d55204c2386b478": {
+      "tr": "Duydum, duydum.. Allah'ım, titremem geçmiyor"
+    },
+    "RD_ALifeLine_57c1c74766e05dbd": {
+      "tr": "Bütün dünyanın sesini kim açtı?"
+    },
+    "RD_ALifeLine_7e720ea061d6dcae": {
+      "tr": "Koşayım mı? Yürüyeyim mi? Saklanayım mı? Biri hangisi olduğunu söylesin!"
+    },
+    "RD_ALifeLine_47bfb1d20199147e": {
+      "tr": "Öyle bir irkildim ki canım acıdı.. kahretsin"
+    },
+    "RD_ALifeLine_0b4ac1e437eb70bb": {
+      "tr": "Allah'ım.. sevdiğim kimse dışarıda olmasın"
+    },
+    "RD_ALifeLine_63667bd83f889ed5": {
+      "tr": "Dur.. dur.. kendi nefesimin ötesini duyayım!"
+    },
+    "RD_ALifeLine_2b4180a27717c035": {
+      "tr": "Yardım diye bağırmak istiyorum.. yok- ya yanlış şey duyarsa?!"
+    },
+    "RD_ALifeLine_1d19609967b20c0b": {
+      "tr": "Kimse gelmeye söz vermedi.. ben neden biri gelecek diye düşünüp durdum?!"
+    },
+    "RD_ALifeLine_47a4168250b72626": {
+      "tr": "HEY!.. Beni duyan varsa ne olur YARDIM edin!"
+    },
+    "RD_ALifeLine_02e85200685cd6dd": {
+      "tr": "Göğsümde duyuyorum, göğsümde, midemde"
+    },
+    "RD_ALifeLine_3419c7925082f2ca": {
+      "tr": "Yere mi yatalım?.. Bunu BİLEN var mı, yoksa hepimiz tahmin mi ediyoruz?!"
+    },
+    "RD_ALifeLine_15ee130d73a184eb": {
+      "tr": "Tanıdığımız biri mi? Tanıdığımız biri olabilir"
+    },
+    "RD_ALifeLine_6b5f96606b709ca9": {
+      "tr": "Benimle onun arasında bir şey olsun istiyorum.. ne olursa!"
+    },
+    "RD_ALifeLine_5d704fa97d1dd685": {
+      "tr": "Hey, kimse birilerini aradı mı? Birinin aramış olması lazım!"
+    },
+    "RD_ALifeLine_177098ee56acefdd": {
+      "tr": "Her şey olabilir.. neden aklıma iyi bir şey gelmiyor?!"
+    },
+    "RD_ALifeLine_22ab9de3547a9e8d": {
+      "tr": "Keşke bütün bunları uyuyarak geçirseydim.. keşke yapabilsem"
+    },
+    "RD_ALifeLine_08044e3100951076": {
+      "tr": "Biri bana bir şey olmadığını söylesin istiyorum.. söyleyemezler biliyorum ama İSTİYORUM"
+    },
+    "RD_ALifeLine_1d9050212b33aa09": {
+      "tr": "Hazır olun.. ben düşünemeden gitmemiz gerekebilir"
+    },
+    "RD_ALifeLine_3ce70a4055503b3a": {
+      "tr": "Şşşt, herkes dursun, dursun, dinleyin"
+    },
+    "RD_ALifeLine_1eafa6fe046a905b": {
+      "tr": "Sesin böyle yayılmasından hoşlanmadım.. hiç hoşlanmadım"
+    },
+    "RD_ALifeLine_0097a4746704a446": {
+      "tr": "Ya birinin yardıma ihtiyacı varsa?.. Öylece dışarı fırlayamam"
+    },
+    "RD_ALifeLine_43c5f4c50c7b5197": {
+      "tr": "Bakmaya GİTMİYORUZ, her neyse, bizimle hiçbir ilgisi yok"
+    },
+    "RD_ALifeLine_4372a971560018b5": {
+      "tr": "Sırada ne geleceğini beklemeye dayanamıyorum"
+    },
+    "RD_ALifeLine_781e49a23c584a49": {
+      "tr": "Ya onları üstümüze çekerse?!"
+    },
+    "RD_ALifeLine_74aa988302a0143c": {
+      "tr": "Bu ordu mu? Ne olur ordu olduğunu söyle?"
+    },
+    "RD_ALifeLine_748b744e22503da2": {
+      "tr": "Eskiden gürültüyü SEVERDİM.. havai fişek falan.. artık değil"
+    },
+    "RD_ALifeLine_405928187c240b45": {
+      "tr": "Babam tüfeğini ateşlediğinde gözümü bile kırpmazdım.. şimdi neden titremem geçmiyor?"
+    },
+    "RD_ALifeLine_08a6b6887dac3994": {
+      "tr": "O- o her neyse.. ne olur peşimizde olmasın"
+    },
+    "RD_ALifeLine_55f9d1220def9951": {
+      "tr": "Duyulduğundan daha uzakta olduğunu söyle"
+    },
+    "RD_ALifeLine_1a695945744821d2": {
+      "tr": "Kulaklarım çınlıyor, yoksa bu- yok, benim, sadece ben!"
+    },
+    "RD_ALifeLine_066d4ba453a74af5": {
+      "tr": "Kaçmak istiyorum ama ne tarafa bilmiyorum.. BİLMİYORUM"
+    },
+    "RD_ALifeLine_56336b9856f233a2": {
+      "tr": "Eskiden itfaiye sirenini duyunca yardım geliyor derdim.. ya şimdi?!"
+    },
+    "RD_ALifeLine_4134c0a12d07a2c3": {
+      "tr": "Daha fazlasını duymak istemiyorum.. ne olur biri ne yapacağımı söylesin"
+    },
+    "RD_ALifeLine_34f6fb391f4e0099": {
+      "tr": "Ne olur bir şey söyle.. herhangi bir şey.. dayanamıyorum"
+    },
+    "RD_ALifeLine_388a52455e6ea3ae": {
+      "tr": "Yardıma mı gidelim? Gidelim mi- ...yok, gitmiyoruz, gitmiyoruz"
+    },
+    "RD_ALifeLine_1ffba33c01797d43": {
+      "tr": "Birinin bize ihtiyacı olsa yanlarına nasıl ulaşırız ki?!"
+    },
+    "RD_ALifeLine_512d52ba7cbfa907": {
+      "tr": "Ne kadar kötü olduğunu bilmek istemiyorum.. İSTEMİYORUM!"
+    },
+    "RD_ALifeLine_201dce4c2de94c6f": {
+      "tr": "Seslenmek istiyorum.. ama ya bu tarafa gelirse?!"
+    },
+    "RD_ALifeLine_79c7b4b84de61aa6": {
+      "tr": "Ordu olabilir mi?.. Ne olur biri bizi almaya gelsin"
+    },
+    "RD_ALifeLine_1818307415d47041": {
+      "tr": "Ne olur.. beni burada dışarıda bırakma"
+    },
+    "RD_ALifeLine_280482593a713635": {
+      "tr": "Bir mi yüz mü anlayamıyorum, anlayamıyorum"
+    },
+    "RD_ALifeLine_318ddaf00b679e36": {
+      "tr": "Dışarıda mı?.. Nereden geldiğini çıkaramıyorum"
+    },
+    "RD_ALifeLine_129fc2004867f756": {
+      "tr": "Bir anlam vermeye çalışıyorum.. hiçbir şeyi yerine oturtamıyorum"
+    },
+    "RD_ALifeLine_3f799a2c69c5c0ab": {
+      "tr": "İnsan bir dakika rahat edemez mi.. bunsuz tek bir dakika be?!"
+    },
+    "RD_ALifeLine_63a3a3656d9ad473": {
+      "tr": "Kusacağım, öyle gürültülüydü ki..."
+    },
+    "RD_ALifeLine_1258b20b2cd8b8e8": {
+      "tr": "Nereden geldiğini anlayamıyorum.. nasıl kaçacağım ben?!"
+    },
+    "RD_ALifeLine_0f4714355e092689": {
+      "tr": "Bir tane daha olursa gidiyorum, çekip gidiyorum!"
+    },
+    "RD_ALifeLine_6b73eb5a36bd31a5": {
+      "tr": "Biri mi bağırdı?.. Ne olduğunu çıkarabilen var mı?"
+    },
+    "RD_ALifeLine_229a456b52b982eb": {
+      "tr": "Komşu ilçeden geliyor gibiydi, komşu ilçe olduğunu söyle!"
+    },
+    "RD_ALifeLine_53b5cc6c6b568765": {
+      "tr": "O yardımsa neden hâlâ seslenmekten korkuyorum?!"
+    },
+    "RD_ALifeLine_0da2ec4235a416d2": {
+      "tr": "Saklanmalıyız, nereye saklanacağız!"
+    },
+    "RD_ALifeLine_104ca6340c402458": {
+      "tr": "Birinin neler olduğunu bilmesi lazım, biri BİLMEK zorunda"
+    },
+    "RD_ALifeLine_4df28370283ec896": {
+      "tr": "Bomba mıydı silah mı? Farkını anlayamıyorum"
+    },
+    "RD_ALifeLine_62e1334e307ed484": {
+      "tr": "Şşt.. ne olur.. dinlemek için bir saniye lazım"
+    },
+    "RD_ALifeLine_24074f854f46959a": {
+      "tr": "Gözlerim her şeye kayıyor.. dur artık, DUR"
+    },
+    "RD_ALifeLine_07a95dc00aa51b6c": {
+      "tr": "Nefeslerimi sayıyorum.. hep şaşırıyorum, kahretsin"
+    },
+    "RD_ALifeLine_27aa45917079b35d": {
+      "tr": "Ayakta durmaya çalışıyorum.. düşmeme izin verme"
+    },
+    "RD_ALifeLine_30b239234758322b": {
+      "tr": "Sessiz, sessiz, bir sonrakini bekleyin, nereden geldiğini anlarız"
+    },
+    "RD_ALifeLine_6084669401883d2a": {
+      "tr": "Ne olur bana güvendesin deme.. BİLMEDEN deme"
+    },
+    "RD_ALifeLine_03302aaf5924d3f2": {
+      "tr": "Biri yardım mı istiyordu? Duydun mu, biri sesleniyordu-"
+    },
+    "RD_ALifeLine_5ceca56f0639968d": {
+      "tr": "Yanımda kal.. beni burada bunu tek başıma dinlemeye bırakma!"
+    },
+    "RD_ALifeLine_440dba4a1a2919ba": {
+      "tr": "Biri neler olduğunu öğrenebilir mi?.. Ne olur!"
+    },
+    "RD_ALifeLine_4a0d12315c693336": {
+      "tr": "Nefret ediyorum, bilmemekten nefret ediyorum, nefret ediyorum"
+    },
+    "RD_ALifeLine_3540258d4cdd9910": {
+      "tr": "Bunun kötü bir rüya olması için her şeyimi verirdim.. her şeyimi"
+    },
+    "RD_ALifeLine_318767f217849bb7": {
+      "tr": "Kimde silah var? Silahı olan biri lazım, kimde silah var"
+    },
+    "RD_ALifeLine_2928bc856b20e5a2": {
+      "tr": "Yüze kadar sayıyorum, yüze kadar başka ses gelmezse gidiyoruz"
+    },
+    "RD_ALifeLine_2189471f1157cda8": {
+      "tr": "Dün gitmeliydik, neden dün gitmedik"
+    },
+    "RD_ALifeLine_51e1cc3248b19f5b": {
+      "tr": "Ne olur Allah'ım, uzakta olsun"
+    },
+    "RD_ALifeLine_284506a5482a1fcc": {
+      "tr": "Sessiz olun.. kimin duyabileceğini bilmeden seslenmeyin"
+    },
+    "RD_ALifeLine_299b9763781609a7": {
+      "tr": "Ne olur ne olduğunu öğrenmek zorunda kalmadan bitsin"
+    },
+    "RD_ALifeLine_36cdef783e2575b7": {
+      "tr": "Televizyonda her türlü şeyi duydum.. hiçbiri ne yapacağımı söylemedi!"
+    },
+    "RD_ALifeLine_65bcd55768b2cb0f": {
+      "tr": "Seslensem mi?.. Ya biri cevap verirse?!"
+    },
+    "RD_ALifeLine_360c23bc1dc778c7": {
+      "tr": "O sesi kafamdan atamıyorum.. hiç atamayacağım"
+    },
+    "RD_ALifeLine_1da29f6475cbfcae": {
+      "tr": "Ya kız kardeşim dışarıdaysa?.. Hâlâ iyi olabileceğini söyle"
+    },
+    "RD_ALifeLine_13aa254c2879eae8": {
+      "tr": "Kalbim yavaşlamıyor, yavaşlamıyor, yavaşlatamıyorum"
+    },
+    "RD_ALifeLine_45f1ec1204c3e1c4": {
+      "tr": "Şunun arkasına- bir şeyin arkasına eğil, ne olursa, çabuk"
+    },
+    "RD_ALifeLine_5430975e6b307c7f": {
+      "tr": "Bunun içinde bir şeyler duyuyorum.. duymak istemediğim şeyler"
+    },
+    "RD_ALifeLine_2c5580ea6871ae00": {
+      "tr": "Biri bunu açıklamalı.. ben ne halt etmeliyim?!"
+    },
+    "RD_ALifeLine_61fe1dc63883b6b4": {
+      "tr": "Keşke köpeğimin mızmızlandığını duyabilsem.. hep yaptığı o mızmızlanmayı"
+    },
+    "RD_ALifeLine_1e420e731342d349": {
+      "tr": "Bunsuz bir dakikaya ihtiyacım var.. tek bir dakika!"
+    },
+    "RD_ALifeLine_0727c3be49582956": {
+      "tr": "Ne olur polis olsun.. ne olur"
+    },
+    "RD_ALifeLine_290759c85d31229a": {
+      "tr": "Hiçbir şeyi sayamıyorum.. nefesimi bile düzene sokamıyorum"
+    },
+    "RD_ALifeLine_212a2d427c9d61c2": {
+      "tr": "Ellerimi ne yapacağımı bilmiyorum, ellerimi ne yapayım?"
+    },
+    "RD_ALifeLine_1468f8e325086b07": {
+      "tr": "Bir şey gören oldu mu?.. Bakan ben olmak istemiyorum"
+    },
+    "RD_ALifeLine_49dadb4c3936accc": {
+      "tr": "Bütün kaslarım sıradakini bekliyor.. gevşeyemiyorum"
+    },
+    "RD_ALifeLine_7f1f1c545c66ccfc": {
+      "tr": "Baksam mı?.. Bakmak istemiyorum ama öylece de duramam"
+    },
+    "RD_ALifeLine_3d479a9b4e3ca201": {
+      "tr": "Ne olur bunun sıradan bir sebebi olduğunu söyle.. ne olur"
+    },
+    "RD_ALifeLine_0be2d6322ea5e329": {
+      "tr": "Uyumaya çalışırken bunu yine duyacağım.. biliyorum"
+    },
+    "RD_ALifeLine_6a90630d635d34b5": {
+      "tr": "Her şey çok gürültülü, bütün ilçe çok gürültülü"
+    },
+    "RD_ALifeLine_7c719c6069483086": {
+      "tr": "Birinin geldiğini mi düşünüyorsun?.. Ya bizim için gelmiyorlarsa?!"
+    },
+    "RD_ALifeLine_057e9bc813c9a861": {
+      "tr": "Belki biri bizi görebilir?.. Gelip alırlar mı bizi?!"
+    },
+    "RD_ALifeLine_335963741db73323": {
+      "tr": "Bundan bir şey anladın mı?.. Kafam bomboş oldu"
+    },
+    "RD_ALifeLine_6356864a5f4ee58c": {
+      "tr": "Ne olur kurtarma ekibi olsun, ne olur"
+    },
+    "RD_ALifeLine_689506de3fc3a889": {
+      "tr": "Dışarıda dinleyen biri varsa.. neler oluyor söyleyin be!"
+    },
+    "RD_ALifeLine_287360f97a41af14": {
+      "tr": "Bu hayatım boyunca duyduğum en gürültülü şey"
+    },
+    "RD_ALifeLine_61f63f44174f1229": {
+      "tr": "Ah, bir daha asla uyuyamayacağım"
+    },
+    "RD_ALifeLine_417354412480a039": {
+      "tr": "Ne diye bağırırsın ki?.. İmdat mı?.. Duyan olur mu?!"
+    },
+    "RD_ALifeLine_45cc7b975a199516": {
+      "tr": "Ne İSTİYORLAR, bunu her kim yapıyorsa?"
+    },
+    "RD_ALifeLine_72232e2779f0b66a": {
+      "tr": "Kim yapar bunu?.. Neden biri böyle bir şey yapar?!"
+    },
+    "RD_ALifeLine_75ca53bd6c6c0f74": {
+      "tr": "Dur, dur, bu sesi biliyorum, bu- yok, bilmiyorum"
+    },
+    "RD_ALifeLine_388dd9814fd01d27": {
+      "tr": "Yere yatıp orada kalmak istiyorum.. ne kadar sürerse sürsün"
+    },
+    "RD_ALifeLine_78cc937a5ef29ed2": {
+      "tr": "Savaş gibiydi, yaşlıların anlattığı şeyler gibiydi"
+    },
+    "RD_ALifeLine_712114cf7eb42b4d": {
+      "tr": "Sessizlik istiyorum.. yok, artık ne istediğimi bilmiyorum!"
+    },
+    "RD_ALifeLine_55a7e90c66fcc59e": {
+      "tr": "Benim kadar korkan başka biri var mı?.. Ne olur bir şey söyleyin"
+    },
+    "RD_ALifeLine_388a4ab62d78a849": {
+      "tr": "Birini arayabilsem.. önce kimi arardım ki?!"
+    },
+    "RD_ALifeLine_3c8ed5b66a927a67": {
+      "tr": "Nereye gideceğimi bilmiyorum.. bir yön bile seçemiyorum"
+    },
+    "RD_ALifeLine_2a2f7eab230e86ca": {
+      "tr": "Eskiden avcılar beni uyandırıyor diye söylenirdim.. HEPSİNİ geri alıyorum"
+    },
+    "RD_ALifeLine_283caf5b5bd69f9c": {
+      "tr": "Tüh, ne gürültüydü, tüh, pardon"
+    },
+    "RD_ALifeLine_0775ecc5030cd73c": {
+      "tr": "Ne olur sabit durmama yardım et.. titremem geçmiyor"
+    },
+    "RD_ALifeLine_4e62ee8d570382f5": {
+      "tr": "Ya, ben sadece postamı almak istemiştim"
+    },
+    "RD_ALifeLine_12ac7632780a4e57": {
+      "tr": "Gözümü kapayabileceğim bir yerde olmak için sağ kolumu verirdim"
+    },
+    "RD_ALifeLine_0499fe4005745bbb": {
+      "tr": "Dur, dur, bir- bir tane daha, bir tane daha gelecek mi dinle"
+    },
+    "RD_ALifeLine_755a6db92b22b8e6": {
+      "tr": "Kendime sakin ol deyip duruyorum.. zerre faydası yok"
+    },
+    "RD_ALifeLine_5c01bb8c720b3884": {
+      "tr": "Göremeyeceğim yere gitme.. ne olur!"
+    },
+    "RD_ALifeLine_699e04481482411d": {
+      "tr": "Kendi insanlarımın yanına dönüyorum.. ne kadar uzak olursa olsun!"
+    },
+    "RD_ALifeLine_3e76354a4b4c05ae": {
+      "tr": "Yaklaş.. yok, ne yapacağımı ben de bilmiyorum!"
+    },
+    "RD_ALifeLine_0a1498de528e71b6": {
+      "tr": "Olabildiğince eğil.. YERE!"
+    },
+    "RD_ALifeLine_46ac48904aa3cd15": {
+      "tr": "Ailem yanımda olsun istiyorum.. iyi olduklarını bilmek istiyorum"
+    },
+    "RD_ALifeLine_43ff30ea28d7bc67": {
+      "tr": "Keşke köpeğim burada olsaydı.. keşke sarılacak biri olsaydı"
+    },
+    "RD_ALifeLine_52cb70e22db23d1b": {
+      "tr": "Bir şeye tutunun! Kulaklarınızı kapatın!"
+    },
+    "RD_ALifeLine_2ca3161a7579c54b": {
+      "tr": "Eskiden o hortum sirenini denerlerdi.. keşke bu da sadece bir deneme olsa"
+    },
+    "RD_ALifeLine_50f2ee9a2c081e2b": {
+      "tr": "Başka bir şey duydun mu?.. Bir şeyi kaçırmak istemiyorum"
+    },
+    "RD_ALifeLine_4a76b80c717877b8": {
+      "tr": "Eğil.. biraz yavaşla, ayağın kaymasın"
+    },
+    "RD_ALifeLine_7fec50b9779909a0": {
+      "tr": "Bu benim kaldırabileceğimden fazla.. artık gidebilir miyiz?"
+    },
+    "RD_ALifeLine_0fb56533514dc5d7": {
+      "tr": "Bir saniye konuşma.. sırada ne olacağını duymak istiyorum"
+    },
+    "RD_ALifeLine_6a39da630deb8707": {
+      "tr": "Bir dakika ver.. kendimi toparlayamıyorum"
+    },
+    "RD_ALifeLine_6aaa72ea1c05570e": {
+      "tr": "Bakmaya gitmeyin.. kimsenin bakmaya gitmesine gerek yok"
+    },
+    "RD_ALifeLine_138f92a0089162f5": {
+      "tr": "Sadece bekle.. beni bir yere sürüklemeden önce on dakika ver"
+    },
+    "RD_ALifeLine_6d7283fd57abaf59": {
+      "tr": "Duydum, ikinci kere duymama gerek yok"
+    },
+    "RD_ALifeLine_7d5156853b649ba7": {
+      "tr": "Tek bir ses, aklıma hemen en kötüsü geliyor.. elimde değil"
+    },
+    "RD_ALifeLine_23ff4f5b3f2aebf5": {
+      "tr": "O bir silahsa biri onu bıraksın artık!"
+    },
+    "RD_ALifeLine_08ad46ff69d9178b": {
+      "tr": "Yeterince uzak mı?.. Artık yeterince uzak diye bir şey var mı?"
+    },
+    "RD_ALifeLine_53c3979d20f26022": {
+      "tr": "Duydun mu? Bütün ilçe bir anda öğrendi"
+    },
+    "RD_ALifeLine_7d9949f02bc27436": {
+      "tr": "Ya dışarıda biri paniğe kapıldıysa?.. Ya silahlıysa?!"
+    },
+    "RD_ALifeLine_4a7b5ec94369b3e4": {
+      "tr": "Ne olur kahramanlık yapmaya kalkma.. ne olur eğilip kal"
+    },
+    "RD_ALifeLine_406a2d532a9236a4": {
+      "tr": "Eğilin.. koşup gidersen seni takip edemem"
+    },
+    "RD_ALifeLine_158454b861d0dc81": {
+      "tr": "Ben gidip bakarım, yok, gitmiyorum, gitmiyorum, burada benimle kalın!"
+    },
+    "RD_ALifeLine_2024bd0c5f6516e2": {
+      "tr": "Ne olur seslenmeyin.. kimin cevap vereceğini bilmeden olmaz!"
+    },
+    "RD_ALifeLine_4dca3def09787c99": {
+      "tr": "Ne yapacağımı bilmem lazım.. ben düşünürken eğilin!"
+    },
+    "RD_ALifeLine_4b982800528dd351": {
+      "tr": "Beni duyan herkes eğilsin.. ne olur!"
+    },
+    "RD_ALifeLine_37dc0c1c3216eb3f": {
+      "tr": "Hiçbir ses bana böyle saklanma isteği vermemişti"
+    },
+    "RD_ALifeLine_1e5297533e12045f": {
+      "tr": "Bunun ailemin yanından bile geçmediğine inanmak istiyorum.. inanmak istiyorum"
+    },
+    "RD_ALifeLine_3b3b373208189b9f": {
+      "tr": "Hiçbir yere gitmeyin.. yok, dur, neyin doğru olduğunu bilmiyorum!"
+    },
+    "RD_ALifeLine_4029a7cf1495e06f": {
+      "tr": "Çocuklarımın iyi olduğunu bilmem lazım.. bilmem lazım"
+    },
+    "RD_ALifeLine_401c2b63638a44d7": {
+      "tr": "Gözümün önünden ayrılma.. ne olur görebileceğim yerde dur!"
+    },
+    "RD_ALifeLine_2a8cc09058010bad": {
+      "tr": "Kulaklarımı kapatmak istiyorum.. ama ya bir şeyi kaçırırsam?!"
+    },
+    "RD_ALifeLine_6783af7b43318e09": {
+      "tr": "Nefes alamıyorum, alamıyorum, öyle gürültülüydü ki, ÖYLE gürültülüydü ki..."
+    },
+    "RD_ALifeLine_79da00ef5bd73397": {
+      "tr": "Küçük kızım aklımdan çıkmıyor.. ya o da bunu duyuyorsa?!"
+    },
+    "RD_ALifeLine_492ff35b50b2631c": {
+      "tr": "Söyleyin bana o neydi, birinin bana söylemesi lazım!"
+    },
+    "RD_ALifeLine_0f0d1dde56acbfe1": {
+      "tr": "Allah'ım keşke annemin nerede olduğunu bilseydim"
+    },
+    "RD_ALifeLine_47f427fc6adf4f9b": {
+      "tr": "Kapatmam gereken bir şey varmış gibi geliyor.. düşünemiyorum!"
+    },
+    "RD_ALifeLine_2d33297a2c474bab": {
+      "tr": "Savaşta daha kötüsünü duydum.. yine böyle titreyeceğim aklıma gelmezdi"
+    },
+    "RD_ALifeLine_5cc3268920669533": {
+      "tr": "Beni merak etmeyin, yere yatın, hadi"
+    },
+    "RD_ALifeLine_4d34932c69e91d50": {
+      "tr": "Bu da ne böyle!"
+    },
+    "RD_ALifeLine_1c57f85476e9143a": {
+      "tr": "Yere yatmaya kimse gururlanmasın.. şimdi değil!"
+    },
+    "RD_ALifeLine_7b32419b3173196a": {
+      "tr": "Şşş, dinleyin, şşş, duyayım, kulaklarım eskisi gibi değil"
+    },
+    "RD_ALifeLine_790d2a024e84ef83": {
+      "tr": "Eskiden bir sesi herkesten önce tanırdım.. şimdi kulaklarım pek yardımcı olmuyor"
+    },
+    "RD_ALifeLine_7b3180c6478bb1d2": {
+      "tr": "Ömrüm boyunca silah sesi duydum.. bununla çocuk gibi saklanasım geldi"
+    },
+    "RD_ALifeLine_5dea788a17cfb73a": {
+      "tr": "Allah'ım, umarım kimsenin annesi bunu duymak zorunda kalmaz"
+    },
+    "RD_ALifeLine_468533d87d38b1bb": {
+      "tr": "Lan silah mıydı o?.. Duymak istediğimi söyleme bana!"
+    },
+    "RD_ALifeLine_2987ab9b26f1a998": {
+      "tr": "Vay, bu- yok, bu hiç hoş değil!"
+    },
+    "RD_ALifeLine_6d5e1aba75cc50e6": {
+      "tr": "Bu polis mi? Polis mi, polisler mi ateş ediyor!"
+    },
+    "RD_ALifeLine_24d609f63b531cbe": {
+      "tr": "Hey! HEY!.. Biri beni duysun ne olur!"
+    },
+    "RD_ALifeLine_3b168a8d307c85db": {
+      "tr": "Eve gitmek istiyorum.. sadece eve gitmek istiyorum"
+    },
+    "RD_ALifeLine_794e5f97264e3f90": {
+      "tr": "Birinin yardıma ihtiyacı olsa.. öylece dururdum, değil mi?!"
+    },
+    "RD_ALifeLine_07a7c090592a4c9b": {
+      "tr": "Bakmak istiyorum, gidip bakmak istiyorum, yok, istemiyorum, hiç istemiyorum..."
+    },
+    "RD_ALifeLine_337b62315818287b": {
+      "tr": "Tamam, bu bugüne kadarki en gürültülü şeydi, kulaklarım gitti!"
+    },
+    "RD_ALifeLine_6fae31d832b6a526": {
+      "tr": "Yarabbi, silah sesi miydi o? Silah sesiydi, değil mi"
+    },
+    "RD_ALifeLine_1ac9c3c414d1acd6": {
+      "tr": "Bir şeyin arkasına eğil, kıpırda, KIPIRDA!"
+    },
+    "RD_ALifeLine_190442e20e16aef0": {
+      "tr": "Hiç bu kadar eve dönmek istememiştim.. hiç"
+    },
+    "RD_ALifeLine_762bdccc668ff019": {
+      "tr": "Nereye gideyim? Nereye gideceğim hakkında hiçbir fikrim yok, bilen var mı"
+    },
+    "RD_ALifeLine_7debbd2303b74745": {
+      "tr": "Bu yardım anlamına gelebilir mi?.. Allah'ım, bağırsam mı saklansam mı bilmiyorum!"
+    },
+    "RD_ALifeLine_53bc711c733c4aa1": {
+      "tr": "Birinin kötü bir şakası sandım, değilmiş galiba"
+    },
+    "RD_ALifeLine_12fb18e617f7d06f": {
+      "tr": "Aman Allah'ım, silah mıydı o? Gerçekten silah mıydı?"
+    },
+    "RD_ALifeLine_05e084ff586236b5": {
+      "tr": "Kafamda duymaya devam ediyorum.. ÇIKSIN istiyorum!"
+    },
+    "RD_ALifeLine_339879f638db639c": {
+      "tr": "Hangi taraf güvenli? Ne olur sadece hangi taraf olduğunu söyle?"
+    },
+    "RD_ALifeLine_106b887738003d44": {
+      "tr": "Titriyorum, bak nasıl titriyorum, durduramıyorum"
+    },
+    "RD_ALifeLine_79f4f15d7efa48b8": {
+      "tr": "Burada dışarıda olmak istemiyorum, evde olmak istiyorum, eve gitmek istiyorum"
+    },
+    "RD_ALifeLine_1636c9b84e84abb6": {
+      "tr": "Ne olur bizi arayan biri olsun.. ne olur biri bizi arıyor olsun"
+    },
+    "RD_ALifeLine_0ea4a13f4b72f5f5": {
+      "tr": "Bir dakika kıpırdama.. işi kulakların yapsın"
+    },
+    "RD_ALifeLine_6404ce7916f2db78": {
+      "tr": "Kim bilmiyorum, nerede bilmiyorum, öğrenmesem daha iyi"
+    },
+    "RD_ALifeLine_718479f44b56bb09": {
+      "tr": "O kadar merak ediyorsan git bak.. ben burada beklerim"
+    },
+    "RD_ALifeLine_1a7d2f6d5c684a53": {
+      "tr": "Eh, yemek çanını çalmanın bir yolu da bu"
+    },
+    "RD_ALifeLine_42f0c9e162481b36": {
+      "tr": "Olması gerekenden gürültülü, tek diyeceğim bu"
+    },
+    "RD_ALifeLine_53f63a703c116a50": {
+      "tr": "Yere, yat, kahramanlık yok, yerde kal!"
+    },
+    "RD_ALifeLine_2c702bc50a446aa0": {
+      "tr": "Biri alet düşürse irkilirdim.. bu çok daha beter be"
+    },
+    "RD_ALifeLine_00d20656093fb82a": {
+      "tr": "Of be.. eve gitmek istiyorum, neyin yaptığı umurumda bile değil"
+    },
+    "RD_ALifeLine_5d763b813505edd0": {
+      "tr": "Bir ses duyunca bile bir şeyi tamir etmem lazım diye düşünüyorum.. of be"
+    },
+    "RD_ALifeLine_18319b983b9a9bea": {
+      "tr": "Kimsenin bunu neyin yaptığına bakmaya gitmesine gerek yok.. rahat bırakın"
+    },
+    "RD_ALifeLine_2aa8f49c6bc0a7dc": {
+      "tr": "Eskiden sadece dinleyerek neyin tamir istediğini anlardım.. bununla olmuyor"
+    },
+    "RD_ALifeLine_7c4b54a1757ff602": {
+      "tr": "Duydun mu?!.. Bakmaya giden ben olmak istemiyorum"
+    },
+    "RD_ALifeLine_660651b71cd8063e": {
+      "tr": "Fabrika sessizleşince bir şeylerin ters gittiğini anlamıştım"
+    },
+    "RD_ALifeLine_1ec686b12ec53556": {
+      "tr": "Paldır küldür dalmayın.. durumu daha da kötüleştirmeden önce bir dakika verin"
+    },
+    "RD_ALifeLine_2cc31841623cb274": {
+      "tr": "Aklıma ilk gelen bizi çağıracakları.. kim hâlâ çağırıyor ki be?"
+    },
+    "RD_ALifeLine_0d4e16b62ecc13bb": {
+      "tr": "Eğilin.. neyin içine girdiğimizi bilmeden o tarafa gitmeyin"
+    },
+    "RD_ALifeLine_2d01ef05719d99cb": {
+      "tr": "Rahat bırakın.. sırf merakını gidermek için kimsenin yaklaşmasına gerek yok"
+    },
+    "RD_ALifeLine_6582130b2bb2c1f0": {
+      "tr": "Biri bana ne yapılması gerektiğini söylesin.. söyleyin işte!"
+    },
+    "RD_ALifeLine_1c13434e6b3b33bd": {
+      "tr": "Hâlâ merkez bana ne yapacağımı söyleyecek sanıyorum.. şu söylediğime bak be"
+    },
+    "RD_ALifeLine_260d712829000cb5": {
+      "tr": "Birinin bana ihtiyacı olacak, gitmeliyim, yok, gitmemeliyim"
+    },
+    "RD_ALifeLine_3321c45f5e94f215": {
+      "tr": "Eğilin.. ne olur bana ihtiyaç duymadan önce bir saniye verin!"
+    },
+    "RD_ALifeLine_16aa043527211ba6": {
+      "tr": "Ya birinin bana ihtiyacı varsa?.. Kafamı toparlamadan gidemem"
+    },
+    "RD_ALifeLine_42125da76071683c": {
+      "tr": "O yaralı biriyse.. yok, böyle düşünmeye başlayamam"
+    },
+    "RD_ALifeLine_7fb2cde61d23da8b": {
+      "tr": "Bunun için bana ihtiyaç duyulsun istemiyorum.. Allah affetsin, istemiyorum"
+    },
+    "RD_ALifeLine_579f38ad7b5ce1eb": {
+      "tr": "Nefes alın, herkes nefes alsın, burundan, yavaşça"
+    },
+    "RD_ALifeLine_7d18b1850280bb00": {
+      "tr": "Rabbim, o her kimse yanında ol, yanında ol!"
+    },
+    "RD_ALifeLine_06d5599366df5d70": {
+      "tr": "Sakin olun, durun, herkes, ne olur durun"
+    },
+    "RD_ALifeLine_7e40c64d470a63c7": {
+      "tr": "Dua edelim, dua- dua ede- yapamıyorum, sözler çıkmıyor!"
+    },
+    "RD_ALifeLine_4f97e85a2ce714a3": {
+      "tr": "Gidip bakmalıyım, bir papaza ihtiyaçları olabilir, ama yapamıyorum, kıpırdayamıyorum!"
+    },
+    "RD_ALifeLine_7f1d8bc212907503": {
+      "tr": "Rabbim.. biri bizi duysun, biri GELSİN!"
+    },
+    "RD_ALifeLine_7c0fa19c46f6a8a4": {
+      "tr": "Eğilin ne olur.. Rab orada da duyar"
+    },
+    "RD_ALifeLine_0f4882414430c7f8": {
+      "tr": "Otuz yıl çadır vaazı verdim, böyle bir ses hiç duymadım"
+    }
+  }
+}

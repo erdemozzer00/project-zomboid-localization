@@ -1,0 +1,7536 @@
+{
+ "_paket": "D13",
+ "_grup": "d13",
+ "_baslik": "Cinsiyet yer tutuculu NPC sözleri (barks ve cevaplar, bütün roller)",
+ "_parcalar": [
+  [
+   1,
+   300
+  ],
+  [
+   301,
+   600
+  ],
+  [
+   601,
+   835
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "RD_ALifeLine_6b9a6a935f617e58",
+   "{sir}, lower the weapon - I'm not going to say it in a nicer voice",
+   [
+    "ALifeDialogue_barks_aimed_1.lua",
+    "AIMED_AT",
+    "reg=law"
+   ]
+  ],
+  "2": [
+   "RD_ALifeLine_4a1dba3072038811",
+   "{g:Son|Young lady}, the last man who aimed at me in this county is buried in Rosewood",
+   [
+    "ALifeDialogue_barks_aimed_1.lua",
+    "AIMED_AT",
+    "reg=law|tmp=veteran"
+   ]
+  ],
+  "3": [
+   "RD_ALifeLine_262aea5d47296b3c",
+   "{sir}! Put it down! I'm nineteen, {sir}, please put it down!",
+   [
+    "ALifeDialogue_barks_aimed_1.lua",
+    "AIMED_AT",
+    "role=soldier_green"
+   ]
+  ],
+  "4": [
+   "RD_ALifeLine_21553119077b68d1",
+   "Put it down, {g:man|lady}, this ain't the play - this ain't never the play",
+   [
+    "ALifeDialogue_barks_aimed_1.lua",
+    "AIMED_AT",
+    "reg=gang"
+   ]
+  ],
+  "5": [
+   "RD_ALifeLine_387d98da61efc0fb",
+   "You got a death wish, {g:pal|lady}?",
+   [
+    "ALifeDialogue_barks_aimed_1.lua",
+    "AIMED_AT",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "6": [
+   "RD_ALifeLine_7722db486d91d838",
+   "Alleys, {g:man|lady}, not main roads, and stay out of sight",
+   [
+    "ALifeDialogue_replies_ask_1.lua",
+    "ASK_ADVICE",
+    "reg=gang|st=neutral,careful"
+   ]
+  ],
+  "7": [
+   "RD_ALifeLine_52d1f0df3faa5704",
+   "Don't stop, {g:brother|sister}, the ones who stop don't last",
+   [
+    "ALifeDialogue_replies_ask_1.lua",
+    "ASK_ADVICE",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "8": [
+   "RD_ALifeLine_48155576160d0f26",
+   "Don't be a hero, {sir}, heroes were the first reports I had to write",
+   [
+    "ALifeDialogue_replies_ask_1.lua",
+    "ASK_ADVICE",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "9": [
+   "RD_ALifeLine_5b579a9733c6a8d5",
+   "Pick a side, {g:man|lady} - Loners get eaten, by them, or by us",
+   [
+    "ALifeDialogue_replies_ask_1.lua",
+    "ASK_ADVICE",
+    "reg=gang|st=friendly,neutral"
+   ]
+  ],
+  "10": [
+   "RD_ALifeLine_1578febe3083304f",
+   "Free bed for a stranger? Ha! Nothing's free, {g:pal|lady}",
+   [
+    "ALifeDialogue_replies_ask_2.lua",
+    "ASK_ALONE_NIGHT",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "11": [
+   "RD_ALifeLine_667f89b95b717125",
+   "Clubhouse isn't a hotel, {g:brother|sister}",
+   [
+    "ALifeDialogue_replies_ask_2.lua",
+    "ASK_ALONE_NIGHT",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "12": [
+   "RD_ALifeLine_672a086716720dbd",
+   "Bullets cost blood, {g:pal|lady}, mine or someone else's, which do you want to pay with?",
+   [
+    "ALifeDialogue_replies_ask_2.lua",
+    "ASK_AMMO",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "13": [
+   "RD_ALifeLine_18b0172e2fc91fdb",
+   "I'm careful about it, {g:man|lady}. The thought of running out scares me",
+   [
+    "ALifeDialogue_replies_ask_2.lua",
+    "ASK_AMMO",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "14": [
+   "RD_ALifeLine_0f99650d4b877cfb",
+   "We keep our ammo for ourselves, {g:brother|sister}, you'll have to find your own",
+   [
+    "ALifeDialogue_replies_ask_2.lua",
+    "ASK_AMMO",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "15": [
+   "RD_ALifeLine_080c408766474586",
+   "Tell you what, {g:brother|sister}, if you've got something to trade, I might part with a few",
+   [
+    "ALifeDialogue_replies_ask_2.lua",
+    "ASK_AMMO",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "16": [
+   "RD_ALifeLine_72fe3eff6c415336",
+   "Department issue stays with the department, I can't hand out rounds, {sir}, not even now",
+   [
+    "ALifeDialogue_replies_ask_2.lua",
+    "ASK_AMMO",
+    "reg=law|tmp=seasoned|st=neutral,friendly"
+   ]
+  ],
+  "17": [
+   "RD_ALifeLine_6878183d43106c21",
+   "I can't promise ammunition, {sir}. You'll need another source",
+   [
+    "ALifeDialogue_replies_ask_2.lua",
+    "ASK_AMMO",
+    "reg=law|tmp=veteran|st=friendly"
+   ]
+  ],
+  "18": [
+   "RD_ALifeLine_7da13fc97c97d440",
+   "I, uh, I can't agree to that. I'm sorry, {g:man|lady}",
+   [
+    "ALifeDialogue_replies_ask_2.lua",
+    "ASK_AMMO",
+    "reg=military|tmp=fresh|st=friendly,neutral"
+   ]
+  ],
+  "19": [
+   "RD_ALifeLine_11ccf67f3244f7dd",
+   "It's classified, {sir}, for the safety of everyone inside",
+   [
+    "ALifeDialogue_replies_ask_2.lua",
+    "ASK_BASE",
+    "reg=law,swat|st=friendly"
+   ]
+  ],
+  "20": [
+   "RD_ALifeLine_2006437621994f4a",
+   "You can ask to look, {g:man|lady}. Don't put your hands on me",
+   [
+    "ALifeDialogue_replies_ask_3.lua",
+    "ASK_BITTEN",
+    "reg=gang|st=neutral,careful"
+   ]
+  ],
+  "21": [
+   "RD_ALifeLine_5e544e1d134fa51f",
+   "Ask before you check anybody, {g:brother|sister}. Fear isn't permission",
+   [
+    "ALifeDialogue_replies_ask_3.lua",
+    "ASK_BITTEN",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "22": [
+   "RD_ALifeLine_4c7f17393f071d61",
+   "Watch your mouth, {g:boy|girl}, or I'll shut it for you",
+   [
+    "ALifeDialogue_replies_ask_3.lua",
+    "ASK_BITTEN",
+    "reg=club|st=hostile"
+   ]
+  ],
+  "23": [
+   "RD_ALifeLine_6d6877a141fb78b3",
+   "We can talk about checking each other, {sir}. Carefully, and only if we agree",
+   [
+    "ALifeDialogue_replies_ask_3.lua",
+    "ASK_BITTEN",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "24": [
+   "RD_ALifeLine_4c26d59e27f3209f",
+   "{sir}, I wasn't told, and I was in uniform, that ought to tell you how much anybody knew",
+   [
+    "ALifeDialogue_replies_ask_3.lua",
+    "ASK_CAUSE",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "25": [
+   "RD_ALifeLine_623b216c3c286bfd",
+   "Cure? You're dreaming, {g:man|lady}",
+   [
+    "ALifeDialogue_replies_ask_4.lua",
+    "ASK_CURE",
+    "reg=gang|st=friendly,neutral"
+   ]
+  ],
+  "26": [
+   "RD_ALifeLine_6b9f90bf05194b78",
+   "I hope so, {g:brother|sister}, I really do... we lost two good men and I'd do anything to stop that",
+   [
+    "ALifeDialogue_replies_ask_4.lua",
+    "ASK_CURE",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "27": [
+   "RD_ALifeLine_699ffdb92d062ac7",
+   "No, {sir}, whatever you heard at a roadblock or on a CB, it isn't true",
+   [
+    "ALifeDialogue_replies_ask_4.lua",
+    "ASK_CURE",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "28": [
+   "RD_ALifeLine_0fbf33854f84bbf0",
+   "Danger? You're standing in it, {g:buddy|lady} - Hah",
+   [
+    "ALifeDialogue_replies_ask_5.lua",
+    "ASK_DANGER",
+    "role=raider,raider_boss|tmp=predator|st=friendly,neutral"
+   ]
+  ],
+  "29": [
+   "RD_ALifeLine_54affd1a436e4525",
+   "You're lookin' at it, {g:man|lady}",
+   [
+    "ALifeDialogue_replies_ask_5.lua",
+    "ASK_DANGER",
+    "role=gang_member,gang_boss|tmp=predator|st=careful"
+   ]
+  ],
+  "30": [
+   "RD_ALifeLine_5ffa5b873c8c5357",
+   "Everybody, {g:man|lady}, everybody's dangerous, me included",
+   [
+    "ALifeDialogue_replies_ask_5.lua",
+    "ASK_DANGER",
+    "role=prisoner|tmp=predator|st=friendly,neutral"
+   ]
+  ],
+  "31": [
+   "RD_ALifeLine_0c4df82e4bd8e5ad",
+   "You're the danger, {g:young man|young lady}",
+   [
+    "ALifeDialogue_replies_ask_5.lua",
+    "ASK_DANGER",
+    "role=family_elder|st=careful"
+   ]
+  ],
+  "32": [
+   "RD_ALifeLine_00a6df9a27e7fcbf",
+   "Everything's dangerous, {g:pal|lady}, the dead, the living, the weather, your own stupid feet",
+   [
+    "ALifeDialogue_replies_ask_5.lua",
+    "ASK_DANGER",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "33": [
+   "RD_ALifeLine_51f969504b903bce",
+   "Honestly? Be careful, {g:man|lady}, they come out of nowhere, I almost got bitten twice earlier today, scared the shit out of me",
+   [
+    "ALifeDialogue_replies_ask_5.lua",
+    "ASK_DANGER",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "34": [
+   "RD_ALifeLine_658e6fd2057fe09c",
+   "Listen, {g:brother|sister}, the places that look safe are the ones that'll kill you",
+   [
+    "ALifeDialogue_replies_ask_5.lua",
+    "ASK_DANGER",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "35": [
+   "RD_ALifeLine_6b3986b90caf93ef",
+   "{sir}, the biggest danger is folks who've decided the rules don't apply anymore - and the dead, but you knew that",
+   [
+    "ALifeDialogue_replies_ask_5.lua",
+    "ASK_DANGER",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "36": [
+   "RD_ALifeLine_187a0ea960305198",
+   "Can't disclose, {sir}",
+   [
+    "ALifeDialogue_replies_ask_6.lua",
+    "ASK_DESTINATION",
+    "role=soldier,soldier_green|tmp=seasoned,fresh|st=careful"
+   ]
+  ],
+  "37": [
+   "RD_ALifeLine_0b5e600c289c3a35",
+   "That's personal, {g:pal|lady}",
+   [
+    "ALifeDialogue_replies_ask_8.lua",
+    "ASK_FAMILY",
+    "role=law_corrections|tmp=seasoned|st=careful"
+   ]
+  ],
+  "38": [
+   "RD_ALifeLine_4c96bda807454c09",
+   "Why should I tell you, {mister}, what's it to you?",
+   [
+    "ALifeDialogue_replies_ask_8.lua",
+    "ASK_FAMILY",
+    "role=worker|st=careful"
+   ]
+  ],
+  "39": [
+   "RD_ALifeLine_240e6c3834fea20a",
+   "Go beg somewhere else, {g:brother|sister}",
+   [
+    "ALifeDialogue_replies_ask_9.lua",
+    "ASK_FOOD",
+    "reg=club|st=hostile"
+   ]
+  ],
+  "40": [
+   "RD_ALifeLine_53033bb704e827c3",
+   "We keep emergency rations for folks in real trouble - you walking and talking? Then I can give you one bar, {sir}",
+   [
+    "ALifeDialogue_replies_ask_9.lua",
+    "ASK_FOOD",
+    "reg=law|tmp=seasoned|st=friendly,neutral"
+   ]
+  ],
+  "41": [
+   "RD_ALifeLine_52a57eba74ee288f",
+   "Negative on food, team's on short rations as it is - keep moving, {sir}",
+   [
+    "ALifeDialogue_replies_ask_9.lua",
+    "ASK_FOOD",
+    "reg=swat|st=neutral,careful"
+   ]
+  ],
+  "42": [
+   "RD_ALifeLine_0507134b789c09b9",
+   "Fort Knox, {g:man|lady}, everyone knows the Army's holed up there, with the gold",
+   [
+    "ALifeDialogue_replies_ask_9.lua",
+    "ASK_FORT_KNOX",
+    "reg=gang|st=neutral,careful"
+   ]
+  ],
+  "43": [
+   "RD_ALifeLine_6dced9c55e396833",
+   "I hope the gate opens soon, {g:brother|sister}",
+   [
+    "ALifeDialogue_replies_ask_9.lua",
+    "ASK_FORT_KNOX",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "44": [
+   "RD_ALifeLine_3ea0b25166a0d934",
+   "I tried the gate - MP said civilians go home, I said I don't have one anymore - he said I'm sorry, {sir}, go home",
+   [
+    "ALifeDialogue_replies_ask_9.lua",
+    "ASK_FORT_KNOX",
+    "reg=civilian,family|tmp=fresh|st=friendly,neutral"
+   ]
+  ],
+  "45": [
+   "RD_ALifeLine_5e383b6c50b87238",
+   "Fort Knox is federal ground, {sir}, they didn't listen to the county before, and they sure don't now",
+   [
+    "ALifeDialogue_replies_ask_9.lua",
+    "ASK_FORT_KNOX",
+    "reg=law|st=friendly,neutral"
+   ]
+  ],
+  "46": [
+   "RD_ALifeLine_603a92b45caedf93",
+   "Forget the gold, {g:man|lady}, I want whatever's in the armory",
+   [
+    "ALifeDialogue_replies_ask_9.lua",
+    "ASK_FORT_KNOX",
+    "reg=gang|st=friendly,neutral"
+   ]
+  ],
+  "47": [
+   "RD_ALifeLine_53a9fef63ec67357",
+   "What government, {g:pal|lady}, I haven't seen a suit since Friday, and nobody's missing them",
+   [
+    "ALifeDialogue_replies_ask_9.lua",
+    "ASK_GOVERNMENT",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "48": [
+   "RD_ALifeLine_2ce1d6607c3d2f32",
+   "Government's a joke, {g:man|lady}, the only law around here is us",
+   [
+    "ALifeDialogue_replies_ask_9.lua",
+    "ASK_GOVERNMENT",
+    "reg=gang|st=neutral,careful"
+   ]
+  ],
+  "49": [
+   "RD_ALifeLine_25d9666515281f08",
+   "They might be trying to help, {g:brother|sister}, but we haven't seen any proof of it",
+   [
+    "ALifeDialogue_replies_ask_9.lua",
+    "ASK_GOVERNMENT",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "50": [
+   "RD_ALifeLine_1f44e867526f5cca",
+   "You've got a reputation, {mister}, and I won't give you my people",
+   [
+    "ALifeDialogue_replies_ask_10.lua",
+    "ASK_GROUP",
+    "reg=civilian,family,worker,rescue|st=friendly,neutral|rep=bad,worst"
+   ]
+  ],
+  "51": [
+   "RD_ALifeLine_3e8eb0bc255a54db",
+   "Not my problem, {g:pal|lady}, deal with it yourself",
+   [
+    "ALifeDialogue_replies_ask_11.lua",
+    "ASK_HELP",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "52": [
+   "RD_ALifeLine_72fc3f934fe6216c",
+   "We don't help strangers, {g:brother|sister}",
+   [
+    "ALifeDialogue_replies_ask_11.lua",
+    "ASK_HELP",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "53": [
+   "RD_ALifeLine_39ec209632389be7",
+   "There's no hope, {g:pal|lady}, the world ended, I'm just deciding how comfortable to be",
+   [
+    "ALifeDialogue_replies_ask_11.lua",
+    "ASK_HOPE",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "54": [
+   "RD_ALifeLine_4fcd21b27f920395",
+   "{g:Brother|Sister}, you've got to believe it, or you may as well lie down right now",
+   [
+    "ALifeDialogue_replies_ask_11.lua",
+    "ASK_HOPE",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "55": [
+   "RD_ALifeLine_19a6864a0e5a8c71",
+   "I got lucky, {g:man|lady}, lucky, the horde missed us by a block",
+   [
+    "ALifeDialogue_replies_ask_12.lua",
+    "ASK_HORDE",
+    "reg=gang|st=friendly"
+   ]
+  ],
+  "56": [
+   "RD_ALifeLine_0f2957776ed1d2de",
+   "{g:Brother|Sister}, you see one, you run, no hero crap",
+   [
+    "ALifeDialogue_replies_ask_12.lua",
+    "ASK_HORDE",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "57": [
+   "RD_ALifeLine_5b082c3a2e77c8ca",
+   "It's the whole set, {g:man|lady}, all of 'em, count that",
+   [
+    "ALifeDialogue_replies_ask_12.lua",
+    "ASK_HOW_MANY",
+    "reg=gang|st=neutral,careful"
+   ]
+  ],
+  "58": [
+   "RD_ALifeLine_2eb8354c0a08eb17",
+   "The whole block, {g:man|lady}, every corner you walked past had somebody watching you",
+   [
+    "ALifeDialogue_replies_ask_12.lua",
+    "ASK_HOW_MANY",
+    "reg=gang|st=friendly,neutral"
+   ]
+  ],
+  "59": [
+   "RD_ALifeLine_5e7046f32242f0a3",
+   "That's none of your business, {mister}, I'm not telling a stranger",
+   [
+    "ALifeDialogue_replies_ask_13.lua",
+    "ASK_HOW_SURVIVED",
+    "role=family_youth|st=careful"
+   ]
+  ],
+  "60": [
+   "RD_ALifeLine_1ec74dee033bf3b5",
+   "Law enforcement, I'm asking the questions here, {sir}",
+   [
+    "ALifeDialogue_replies_ask_13.lua",
+    "ASK_JOB_BEFORE",
+    "role=law_deputy,law_officer|tmp=seasoned|st=careful"
+   ]
+  ],
+  "61": [
+   "RD_ALifeLine_0b043b4f6e868cfc",
+   "That's not your concern, {g:pal|lady}",
+   [
+    "ALifeDialogue_replies_ask_13.lua",
+    "ASK_JOB_BEFORE",
+    "reg=law|st=hostile"
+   ]
+  ],
+  "62": [
+   "RD_ALifeLine_5ceab5e22aa838b7",
+   "You want my spots? Dream on, {g:pal|lady}, find your own, I'm not giving that up",
+   [
+    "ALifeDialogue_replies_ask_15.lua",
+    "ASK_LOOT_SPOT",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "63": [
+   "RD_ALifeLine_51d65740554bc03d",
+   "Not telling you, {g:man|lady}, my crew needs it more",
+   [
+    "ALifeDialogue_replies_ask_15.lua",
+    "ASK_LOOT_SPOT",
+    "reg=gang|st=neutral,careful"
+   ]
+  ],
+  "64": [
+   "RD_ALifeLine_1335f0ac3ce5fcc7",
+   "Truck stops, {g:brother|sister}, always the truck stops, the diner kitchens, the cooler in back",
+   [
+    "ALifeDialogue_replies_ask_15.lua",
+    "ASK_LOOT_SPOT",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "65": [
+   "RD_ALifeLine_1015160b16c7d6c7",
+   "Try the roadside motels, {g:brother|sister}, the vending machines are usually half full",
+   [
+    "ALifeDialogue_replies_ask_15.lua",
+    "ASK_LOOT_SPOT",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "66": [
+   "RD_ALifeLine_027933a24adb6e4b",
+   "I hear they've got a field hospital at the base, might be worth checking out, {g:brother|sister}",
+   [
+    "ALifeDialogue_replies_ask_16.lua",
+    "ASK_MILITARY",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "67": [
+   "RD_ALifeLine_7f5a631004e8d6cc",
+   "Can't say, {sir}",
+   [
+    "ALifeDialogue_replies_ask_17.lua",
+    "ASK_MISS",
+    "role=soldier,soldier_green|tmp=seasoned,fresh|st=careful"
+   ]
+  ],
+  "68": [
+   "RD_ALifeLine_1a2855982a849d9e",
+   "I miss people, {g:man|lady}, just people, normal people who didn't want to kill me",
+   [
+    "ALifeDialogue_replies_ask_17.lua",
+    "ASK_MISS",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "69": [
+   "RD_ALifeLine_6a5f5a73381bfc7e",
+   "Private Wheeler, {sir} - uh, Kyle - I'm Kyle, I don't think I have to call you {sir}",
+   [
+    "ALifeDialogue_replies_ask_17.lua",
+    "ASK_NAME",
+    "reg=military|tmp=fresh|st=friendly,neutral,careful|sex=m"
+   ]
+  ],
+  "70": [
+   "RD_ALifeLine_6b59f3ed644e7c59",
+   "You want my name so you can tell somebody? Wrong question, {g:pal|lady}",
+   [
+    "ALifeDialogue_replies_ask_17.lua",
+    "ASK_NAME",
+    "reg=raider,gang,club,prison|st=hostile"
+   ]
+  ],
+  "71": [
+   "RD_ALifeLine_5750c706068bd7ad",
+   "I need everything, {g:pal|lady}, same as you",
+   [
+    "ALifeDialogue_replies_ask_18.lua",
+    "ASK_NEED",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "72": [
+   "RD_ALifeLine_58377f2248eb53a1",
+   "A cold beer and a warm bed would be nice, {g:brother|sister}",
+   [
+    "ALifeDialogue_replies_ask_18.lua",
+    "ASK_NEED",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "73": [
+   "RD_ALifeLine_7bad654f1cef4b0d",
+   "What I need is discretion, you look like a {g:man|woman} who talks",
+   [
+    "ALifeDialogue_replies_ask_18.lua",
+    "ASK_NEED",
+    "reg=crime|st=neutral,careful"
+   ]
+  ],
+  "74": [
+   "RD_ALifeLine_65390b30294b1d71",
+   "Radio batteries, {sir}, dispatch went quiet on the tenth and I'd like to know it's the batteries",
+   [
+    "ALifeDialogue_replies_ask_18.lua",
+    "ASK_NEED",
+    "reg=law|tmp=seasoned|st=friendly,neutral"
+   ]
+  ],
+  "75": [
+   "RD_ALifeLine_792d411756b1e9bc",
+   "Team needs nothing from civilians, thank you, {sir}",
+   [
+    "ALifeDialogue_replies_ask_18.lua",
+    "ASK_NEED",
+    "reg=swat|st=neutral,friendly"
+   ]
+  ],
+  "76": [
+   "RD_ALifeLine_563fe1d876f265b6",
+   "News? I'm the news, {g:pal|lady}, and what I'm telling you is turn around",
+   [
+    "ALifeDialogue_replies_ask_19.lua",
+    "ASK_NEWS",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "77": [
+   "RD_ALifeLine_3f79c46879437026",
+   "Honestly? I got nothing good, {g:man|lady}, it's all bad and getting worse, wish I could tell you something better",
+   [
+    "ALifeDialogue_replies_ask_19.lua",
+    "ASK_NEWS",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "78": [
+   "RD_ALifeLine_2a8347a0630c2d83",
+   "Not much good to share, {g:brother|sister}, but if I hear something I'll let you know",
+   [
+    "ALifeDialogue_replies_ask_19.lua",
+    "ASK_NEWS",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "79": [
+   "RD_ALifeLine_07751a5e5168a4d3",
+   "I've had worse, {g:brother|sister}, a lot worse",
+   [
+    "ALifeDialogue_replies_ask_20.lua",
+    "ASK_OKAY",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "80": [
+   "RD_ALifeLine_1c6e64402c44ea6d",
+   "Don't worry about me, {g:son|young lady}, I'm the last one anybody needs to worry over",
+   [
+    "ALifeDialogue_replies_ask_20.lua",
+    "ASK_OKAY",
+    "role=law_sheriff|st=neutral"
+   ]
+  ],
+  "81": [
+   "RD_ALifeLine_145e26ad28112d7e",
+   "Honestly? I haven't seen a soul, {g:man|lady}, it's been so lonely, you're a sight for sore eyes",
+   [
+    "ALifeDialogue_replies_ask_20.lua",
+    "ASK_OTHER_SURVIVORS",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "82": [
+   "RD_ALifeLine_12cf5bd34f273772",
+   "{g:Brother|Sister}, if you find anyone, send them our way, we can help",
+   [
+    "ALifeDialogue_replies_ask_20.lua",
+    "ASK_OTHER_SURVIVORS",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "83": [
+   "RD_ALifeLine_7ebe33ef5e1a0643",
+   "Yes, {sir}, I've got a list of addresses with people still inside - I check on them when I can",
+   [
+    "ALifeDialogue_replies_ask_20.lua",
+    "ASK_OTHER_SURVIVORS",
+    "reg=law|st=friendly,neutral"
+   ]
+  ],
+  "84": [
+   "RD_ALifeLine_61c609fd2504b443",
+   "Working, {g:pal|lady}, you're standing in the middle of my workday",
+   [
+    "ALifeDialogue_replies_ask_21.lua",
+    "ASK_PLANS",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "85": [
+   "RD_ALifeLine_2be03b643e8459a9",
+   "Honest answer? No clue, {g:man|lady}, lots of coffee and we'll see",
+   [
+    "ALifeDialogue_replies_ask_21.lua",
+    "ASK_PLANS",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "86": [
+   "RD_ALifeLine_229075c8730ac04d",
+   "Police, {g:man|lady}? They fled, left the neighborhood to rot",
+   [
+    "ALifeDialogue_replies_ask_21.lua",
+    "ASK_POLICE",
+    "reg=gang|st=neutral,careful"
+   ]
+  ],
+  "87": [
+   "RD_ALifeLine_2820ddce5de044aa",
+   "You're talking to them, {sir}, what's left of the shift, anyhow",
+   [
+    "ALifeDialogue_replies_ask_21.lua",
+    "ASK_POLICE",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "88": [
+   "RD_ALifeLine_7bfd4fa8773352c6",
+   "I miss music, {g:man|lady}, I'd kill for one song on the radio, just one",
+   [
+    "ALifeDialogue_replies_ask_22.lua",
+    "ASK_RADIO",
+    "reg=gang|st=friendly"
+   ]
+  ],
+  "89": [
+   "RD_ALifeLine_4745473b45830869",
+   "Anything useful on the dial, {g:brother|sister}, I'd love to know",
+   [
+    "ALifeDialogue_replies_ask_22.lua",
+    "ASK_RADIO",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "90": [
+   "RD_ALifeLine_3acc505104274d4f",
+   "Radio's how you find people, people with stuff, you keep yours on, {mister}",
+   [
+    "ALifeDialogue_replies_ask_22.lua",
+    "ASK_RADIO",
+    "reg=outlaw,raider,prison|st=friendly,neutral"
+   ]
+  ],
+  "91": [
+   "RD_ALifeLine_097d8aa57442c623",
+   "Plenty of those around, {g:brother|sister}, mostly deserters and looters",
+   [
+    "ALifeDialogue_replies_ask_22.lua",
+    "ASK_RAIDERS",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "92": [
+   "RD_ALifeLine_4acde0c46a20b917",
+   "Raiders? {g:Buddy|Lady}, you're talking to one, relax, we're off the clock",
+   [
+    "ALifeDialogue_replies_ask_22.lua",
+    "ASK_RAIDERS",
+    "reg=raider,outlaw|st=friendly,neutral"
+   ]
+  ],
+  "93": [
+   "RD_ALifeLine_4b104d1d738df74c",
+   "Not here, {g:young man|young lady}",
+   [
+    "ALifeDialogue_replies_ask_23.lua",
+    "ASK_SAFE_PLACE",
+    "role=family_elder|st=careful"
+   ]
+  ],
+  "94": [
+   "RD_ALifeLine_1f3661b70362c4f9",
+   "Stay with us a night, {g:brother|sister}, we will figure something out",
+   [
+    "ALifeDialogue_replies_ask_23.lua",
+    "ASK_SAFE_PLACE",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "95": [
+   "RD_ALifeLine_57d523640295b712",
+   "That's classified, {sir}, whatever you are",
+   [
+    "ALifeDialogue_replies_ask_23.lua",
+    "ASK_SAFE_PLACE",
+    "reg=military,elite|st=careful"
+   ]
+  ],
+  "96": [
+   "RD_ALifeLine_59709e7f0a8848ae",
+   "Safe? Nothing's safe, {g:pal|lady}, what planet are you living on?",
+   [
+    "ALifeDialogue_replies_ask_23.lua",
+    "ASK_SAFE_ZONE",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "97": [
+   "RD_ALifeLine_3c4abcdd217122d2",
+   "If you find one, come back and tell us, {g:man|lady}, I'd follow you there in a heartbeat",
+   [
+    "ALifeDialogue_replies_ask_23.lua",
+    "ASK_SAFE_ZONE",
+    "reg=gang|st=friendly"
+   ]
+  ],
+  "98": [
+   "RD_ALifeLine_6f262bda17d6b155",
+   "Ain't no safe place, {g:brother|sister}, just places that are less bad",
+   [
+    "ALifeDialogue_replies_ask_23.lua",
+    "ASK_SAFE_ZONE",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "99": [
+   "RD_ALifeLine_1257ddb079281d69",
+   "Designated shelter was the high school gym, I can't recommend it anymore, {sir}, I'm the one who cleared it",
+   [
+    "ALifeDialogue_replies_ask_23.lua",
+    "ASK_SAFE_ZONE",
+    "reg=law,swat|st=friendly,neutral|day=5,9999"
+   ]
+  ],
+  "100": [
+   "RD_ALifeLine_00d924276b4eafb1",
+   "Safe place? {Mister}, you're standing on ours, and you ain't in it",
+   [
+    "ALifeDialogue_replies_ask_23.lua",
+    "ASK_SAFE_ZONE",
+    "reg=outlaw,raider,crime|st=friendly,neutral"
+   ]
+  ],
+  "101": [
+   "RD_ALifeLine_0f27e19e15e3aa5f",
+   "I don't scare, {g:man|lady}, I watch my people, that's what keeps me busy",
+   [
+    "ALifeDialogue_replies_ask_24.lua",
+    "ASK_SCARED",
+    "reg=gang|st=neutral,careful"
+   ]
+  ],
+  "102": [
+   "RD_ALifeLine_35a859f66301fe0f",
+   "All the time, {g:brother|sister}, all the damn time, it doesn't stop, you just learn to walk through it",
+   [
+    "ALifeDialogue_replies_ask_24.lua",
+    "ASK_SCARED",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "103": [
+   "RD_ALifeLine_13720fac1a16f803",
+   "I've been scared since Friday, {g:son|young lady}, only the dead stop being scared",
+   [
+    "ALifeDialogue_replies_ask_24.lua",
+    "ASK_SCARED",
+    "role=law_sheriff|st=neutral,careful"
+   ]
+  ],
+  "104": [
+   "RD_ALifeLine_6064d09b3e66bbf1",
+   "Scared? Hahaha, I'm having the time of my life, {g:man|lady}",
+   [
+    "ALifeDialogue_replies_ask_24.lua",
+    "ASK_SCARED",
+    "reg=raider,gang,club,prison|st=friendly,neutral"
+   ]
+  ],
+  "105": [
+   "RD_ALifeLine_0fbb16f10bc77e8f",
+   "You want to trade with me? Hope you brought something good, {g:pal|lady}",
+   [
+    "ALifeDialogue_replies_ask_25.lua",
+    "ASK_TRADE",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "106": [
+   "RD_ALifeLine_1c75c2b518cc9120",
+   "Trading is an art, {g:brother|sister}, and I'm a patient man",
+   [
+    "ALifeDialogue_replies_ask_25.lua",
+    "ASK_TRADE",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "107": [
+   "RD_ALifeLine_1ef99f9a2ba9f9e9",
+   "I can't barter county property, {sir}, but what I carry in my own pockets is mine - let's see",
+   [
+    "ALifeDialogue_replies_ask_25.lua",
+    "ASK_TRADE",
+    "reg=law|tmp=seasoned|st=friendly,neutral"
+   ]
+  ],
+  "108": [
+   "RD_ALifeLine_66add984617ec5c1",
+   "The team doesn't trade on the street - sorry, {sir}",
+   [
+    "ALifeDialogue_replies_ask_25.lua",
+    "ASK_TRADE",
+    "reg=swat|st=neutral,friendly|world=road"
+   ]
+  ],
+  "109": [
+   "RD_ALifeLine_30d9e7852d9c0626",
+   "Your loss, {g:pal|lady}",
+   [
+    "ALifeDialogue_no_misc_1.lua",
+    "ASK_TRADE",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral"
+   ]
+  ],
+  "110": [
+   "RD_ALifeLine_63719411695521bc",
+   "Find your own, {g:pal|lady}. I don't know where you'll find one",
+   [
+    "ALifeDialogue_replies_ask_26.lua",
+    "ASK_WEAPON",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "111": [
+   "RD_ALifeLine_145961993877720a",
+   "Weapons are personal, {g:brother|sister}, like a good pair of boots",
+   [
+    "ALifeDialogue_replies_ask_26.lua",
+    "ASK_WEAPON",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "112": [
+   "RD_ALifeLine_1ee86f183a556fcc",
+   "Can't agree to arm you, {sir}. You'll have to find your own equipment",
+   [
+    "ALifeDialogue_replies_ask_26.lua",
+    "ASK_WEAPON",
+    "reg=law|st=friendly"
+   ]
+  ],
+  "113": [
+   "RD_ALifeLine_173d36147a93878b",
+   "Negative, {sir} - keep your distance from the team",
+   [
+    "ALifeDialogue_replies_ask_26.lua",
+    "ASK_WEAPON",
+    "reg=swat|st=neutral,careful,hostile"
+   ]
+  ],
+  "114": [
+   "RD_ALifeLine_6c8a4bd60fa411a7",
+   "Honestly? I dunno, {g:man|lady}... one minute I am having a beer, next my neighbor is chewing his wife's arm, can't unsee it",
+   [
+    "ALifeDialogue_replies_ask_27.lua",
+    "ASK_WHAT_HAPPENED",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "115": [
+   "RD_ALifeLine_25f89c6845e34bb9",
+   "{g:Brother|Sister}, I don't know either, but I know we gotta stick together now",
+   [
+    "ALifeDialogue_replies_ask_27.lua",
+    "ASK_WHAT_HAPPENED",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "116": [
+   "RD_ALifeLine_418ffb89550af856",
+   "{sir}, it was a mass casualty event that got away from everybody, all the way up",
+   [
+    "ALifeDialogue_replies_ask_27.lua",
+    "ASK_WHAT_HAPPENED",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "117": [
+   "RD_ALifeLine_1679ee761b83aad5",
+   "Whole city's eating itself, {g:man|lady}, we rolled out of Louisville while it was still on fire",
+   [
+    "ALifeDialogue_replies_ask_27.lua",
+    "ASK_WHAT_HAPPENED",
+    "reg=gang|st=friendly,neutral"
+   ]
+  ],
+  "118": [
+   "RD_ALifeLine_22dfc70b1d7871a0",
+   "The end of your luck, {g:pal|lady}, that's what happened - now keep walking before it gets worse",
+   [
+    "ALifeDialogue_replies_ask_27.lua",
+    "ASK_WHAT_HAPPENED",
+    "reg=raider,prison,gang|st=careful,hostile"
+   ]
+  ],
+  "119": [
+   "RD_ALifeLine_7e9503fa2cf588ef",
+   "Tears don't work on me, {g:pal|lady}, I ran out of mine years ago",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "BEG",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "120": [
+   "RD_ALifeLine_4f23d9b7739d31e9",
+   "Crying on my block, {g:man|lady} - that's sad, empty your pockets and cry somewhere else",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "BEG",
+    "reg=gang|st=hostile"
+   ]
+  ],
+  "121": [
+   "RD_ALifeLine_02b483255ae7bccf",
+   "Stand up, {g:brother|sister}, I don't respect a man who begs",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "BEG",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "122": [
+   "RD_ALifeLine_3f2e2c563a30c543",
+   "{sir}, nobody's shooting you - stay on your knees, keep your hands up, and breathe",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "BEG",
+    "reg=law|st=neutral,careful"
+   ]
+  ],
+  "123": [
+   "RD_ALifeLine_6ba0e95d6ae6bee0",
+   "Get up, {mister}, nobody's killing anyone",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "BEG",
+    "role=militia|st=neutral,careful"
+   ]
+  ],
+  "124": [
+   "RD_ALifeLine_70c49d6c26874abd",
+   "Please don't cry, {mister}, my daddy cried like that at the hospital and I can't hear it again",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "BEG",
+    "role=family_youth|st=neutral,friendly"
+   ]
+  ],
+  "125": [
+   "RD_ALifeLine_1b0193956a3358d6",
+   "{g:Son|Young lady}, I'm seventy, some mornings I can't win against a jar lid - get up",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "BEG",
+    "role=family_elder|st=friendly,neutral"
+   ]
+  ],
+  "126": [
+   "RD_ALifeLine_69cd26310af7ee9f",
+   "Get up, {g:man|lady}, I ain't killing nobody over sneakers, just taking the sneakers",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "BEG",
+    "reg=gang|st=careful,neutral"
+   ]
+  ],
+  "127": [
+   "RD_ALifeLine_4336dde320ba50a4",
+   "You don't have to bribe me, {g:man|lady}, I'm not that kind of guy... what've you got?",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "BRIBE",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "128": [
+   "RD_ALifeLine_31940aec572578df",
+   "{g:Brother|Sister}, I don't take bribes... unless they're really good ones",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "BRIBE",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "129": [
+   "RD_ALifeLine_4d8f204e646cc341",
+   "We don't take bribes in these parts, {mister}",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "BRIBE",
+    "role=militia|st=neutral,careful"
+   ]
+  ],
+  "130": [
+   "RD_ALifeLine_7394b0a91c88fb39",
+   "A bribe? No {sir}, I've got a spine, put it away",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "BRIBE",
+    "tmp=veteran|st=friendly,neutral"
+   ]
+  ],
+  "131": [
+   "RD_ALifeLine_4d0ff6ca0ed35f16",
+   "{mister}, I did this for twelve bucks an hour before - I can do it for nothing now",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "BRIBE",
+    "role=rescue_firefighter|st=friendly,neutral"
+   ]
+  ],
+  "132": [
+   "RD_ALifeLine_62b4a61c4574af1b",
+   "Nobody's yelling, {g:man|lady}, this is a normal voice",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "CALM_DOWN",
+    "reg=gang|st=neutral,careful"
+   ]
+  ],
+  "133": [
+   "RD_ALifeLine_0645fd6754065a31",
+   "I'm calm, {g:brother|sister}, calmest man in the county",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "CALM_DOWN",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "134": [
+   "RD_ALifeLine_5fbea6682ca5f132",
+   "I'm calm, {mister}, it's the situation that isn't",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "CALM_DOWN",
+    "role=militia|st=neutral,careful"
+   ]
+  ],
+  "135": [
+   "RD_ALifeLine_4950737516b9b301",
+   "{sir}, I'll be calm when your hands are still, and right now they're not",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "CALM_DOWN",
+    "role=law_trooper|st=careful"
+   ]
+  ],
+  "136": [
+   "RD_ALifeLine_6d4092ae5ae65789",
+   "Hold up, {sir}, this area's closed",
+   [
+    "ALifeDialogue_barks_misc_2.lua",
+    "CAREFUL_KEEP_BACK",
+    "reg=law"
+   ]
+  ],
+  "137": [
+   "RD_ALifeLine_232a9824417b4fbf",
+   "Give me a little room, {sir}",
+   [
+    "ALifeDialogue_barks_misc_2.lua",
+    "CAREFUL_KEEP_BACK",
+    "reg=law"
+   ]
+  ],
+  "138": [
+   "RD_ALifeLine_6f99f7ac2e938d55",
+   "Not through here, {sir}, turn back",
+   [
+    "ALifeDialogue_barks_misc_2.lua",
+    "CAREFUL_KEEP_BACK",
+    "reg=law"
+   ]
+  ],
+  "139": [
+   "RD_ALifeLine_414368cd7437e7e7",
+   "{sir}, you need to leave this area - back the way you came",
+   [
+    "ALifeDialogue_barks_misc_2.lua",
+    "CAREFUL_KEEP_BACK",
+    "reg=law|tmp=seasoned,veteran"
+   ]
+  ],
+  "140": [
+   "RD_ALifeLine_6f64ecc839bd11cb",
+   "{Sir}, I have told you to leave, do it now",
+   [
+    "ALifeDialogue_barks_misc_2.lua",
+    "CAREFUL_LAST_WARNING",
+    "reg=law"
+   ]
+  ],
+  "141": [
+   "RD_ALifeLine_3fbbf0ab2bb2ee79",
+   "Enough, {sir}, leave immediately",
+   [
+    "ALifeDialogue_barks_misc_2.lua",
+    "CAREFUL_LAST_WARNING",
+    "reg=law"
+   ]
+  ],
+  "142": [
+   "RD_ALifeLine_091e20456bf04106",
+   "Chilled to the bone, {g:brother|sister}, but I've got a jacket and a plan",
+   [
+    "ALifeDialogue_replies_coldq_1.lua",
+    "COLDQ_CHILLED",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "143": [
+   "RD_ALifeLine_3180304b514864e7",
+   "Freezing, {g:pal|lady}, and if I find a coat I'll take it, I don't care whose it is",
+   [
+    "ALifeDialogue_replies_coldq_1.lua",
+    "COLDQ_FREEZING",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "144": [
+   "RD_ALifeLine_6977f1ec120771f8",
+   "Freezing, {g:brother|sister}, and the leather isn't helping, I need a fire",
+   [
+    "ALifeDialogue_replies_coldq_1.lua",
+    "COLDQ_FREEZING",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "145": [
+   "RD_ALifeLine_7454704d52c872f3",
+   "Fever and a cough, {g:brother|sister}, I'm riding it out, don't worry, it's not the bad kind",
+   [
+    "ALifeDialogue_replies_coldq_1.lua",
+    "COLDQ_SICK",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "146": [
+   "RD_ALifeLine_2c45421f76c1efb0",
+   "I'm fine, {g:brother|sister}, leather keeps the wind out, even in this",
+   [
+    "ALifeDialogue_replies_coldq_1.lua",
+    "COLDQ_WELL_COLD",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "147": [
+   "RD_ALifeLine_1c2e874d25f438d2",
+   "Not at all, {g:brother|sister}, it's perfect riding weather",
+   [
+    "ALifeDialogue_replies_coldq_1.lua",
+    "COLDQ_WELL_MILD",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "148": [
+   "RD_ALifeLine_0a1f915c0debe5e5",
+   "{g:Brother|Sister}, I ride with my own, I don't tag along with strangers",
+   [
+    "ALifeDialogue_replies_come_1.lua",
+    "COME_WITH_ME",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "149": [
+   "RD_ALifeLine_262873147b1dd14e",
+   "{g:Son|Young lady}, I'm seventy-one, I'll come as far as the mailbox and that's me being generous",
+   [
+    "ALifeDialogue_replies_come_1.lua",
+    "COME_WITH_ME",
+    "role=family_elder|st=friendly|world=building"
+   ]
+  ],
+  "150": [
+   "RD_ALifeLine_3117569562d2cdd0",
+   "Wow... thanks, {g:man|lady}, that really means a lot, I'm not used to kindness",
+   [
+    "ALifeDialogue_replies_compliment_1.lua",
+    "COMPLIMENT",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "151": [
+   "RD_ALifeLine_3e5f2bc4463c97fd",
+   "Heh. I'll take that, {g:brother|sister}",
+   [
+    "ALifeDialogue_replies_compliment_1.lua",
+    "COMPLIMENT",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "152": [
+   "RD_ALifeLine_05dabd5a780cb5f2",
+   "Somebody's out there - watch {him}",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_PLAYER",
+    "reg=law"
+   ]
+  ],
+  "153": [
+   "RD_ALifeLine_4bb5976764d51147",
+   "Hand it over? {g:Pal|Lady}, I'm the one who robs people, you've got the wrong guy",
+   [
+    "ALifeDialogue_replies_demand_1.lua",
+    "DEMAND_ITEMS",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "154": [
+   "RD_ALifeLine_583b68f700bf843b",
+   "Rob me? On my own block? {g:Brother|Sister}, you must be new",
+   [
+    "ALifeDialogue_replies_demand_1.lua",
+    "DEMAND_ITEMS",
+    "reg=gang|st=neutral,careful"
+   ]
+  ],
+  "155": [
+   "RD_ALifeLine_5727b1634cb639e6",
+   "Rob me? You're a dead {g:man|woman}!",
+   [
+    "ALifeDialogue_replies_demand_1.lua",
+    "DEMAND_ITEMS",
+    "reg=gang|st=hostile"
+   ]
+  ],
+  "156": [
+   "RD_ALifeLine_74faf06339e65ec4",
+   "Rob me, {mister}? On my own land?",
+   [
+    "ALifeDialogue_replies_demand_1.lua",
+    "DEMAND_ITEMS",
+    "role=militia|st=neutral,careful"
+   ]
+  ],
+  "157": [
+   "RD_ALifeLine_22c778411435b010",
+   "{mister}, I've arrested people for less at the Kroger in West Point - I can still do it",
+   [
+    "ALifeDialogue_replies_demand_1.lua",
+    "DEMAND_ITEMS",
+    "reg=law|tmp=seasoned|st=careful,neutral|sex=f"
+   ]
+  ],
+  "158": [
+   "RD_ALifeLine_6ad883f151d3be4f",
+   "{g:Son|Young lady}, I couldn't hit you if I tried - put it down",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "DONT_SHOOT",
+    "role=family_elder|st=neutral,careful"
+   ]
+  ],
+  "159": [
+   "RD_ALifeLine_2e1125080171bcc2",
+   "Nobody's shooting anybody yet, {g:brother|sister}, so let's keep it that way",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "DONT_SHOOT",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "160": [
+   "RD_ALifeLine_6b7a6ead46b1c7d6",
+   "We shoot at things that threaten us, {mister}, don't be one",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "DONT_SHOOT",
+    "role=militia|st=neutral,careful"
+   ]
+  ],
+  "161": [
+   "RD_ALifeLine_525d53466084b275",
+   "{g:Son|Young lady}, I haven't fired a gun since I was fourteen, and I missed then",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "DONT_SHOOT",
+    "role=rescue_clergy|st=friendly"
+   ]
+  ],
+  "162": [
+   "RD_ALifeLine_7a35cd0c05a4349e",
+   "{g:Son|Young lady}, I've got eleven rounds and a whole county, you ain't worth one of them",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "DONT_SHOOT",
+    "role=law_sheriff|st=neutral"
+   ]
+  ],
+  "163": [
+   "RD_ALifeLine_6bcb6a323ccebe5f",
+   "Police, {sir}, anyone home?",
+   [
+    "ALifeDialogue_barks_misc_3.lua",
+    "DOOR_KNOCK",
+    "reg=law,swat"
+   ]
+  ],
+  "164": [
+   "RD_ALifeLine_3dbd80964e175f1a",
+   "Drop my weapon? You'll have to pry it from my cold dead fingers, {g:pal|lady}",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "DROP_WEAPON",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "165": [
+   "RD_ALifeLine_3a27c099793e03d7",
+   "I never put one down in my life, {g:brother|sister}, not even in my sleep",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "DROP_WEAPON",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "166": [
+   "RD_ALifeLine_0f1e96404766702d",
+   "I need it to protect my family, {mister}, not on your life",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "DROP_WEAPON",
+    "role=militia|st=neutral,careful"
+   ]
+  ],
+  "167": [
+   "RD_ALifeLine_793619062ebaf765",
+   "Hahaha! Drop mine? {g:Pal|Lady}, I got three more in the truck",
+   [
+    "ALifeDialogue_replies_misc_1.lua",
+    "DROP_WEAPON",
+    "reg=raider|tmp=predator|st=hostile|world=vehicle"
+   ]
+  ],
+  "168": [
+   "RD_ALifeLine_3ff0234d1634732d",
+   "Thanks, {g:man|lady}... I needed that, I really did",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "ENCOURAGE",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "169": [
+   "RD_ALifeLine_273b76f8251c3557",
+   "Nice words, {g:brother|sister}, but words don't fill a stomach",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "ENCOURAGE",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "170": [
+   "RD_ALifeLine_61e780e758ab2097",
+   "Take {him}!",
+   [
+    "ALifeDialogue_barks_enc_1.lua",
+    "ENC_BETRAY",
+    "reg=outlaw,club,crime"
+   ]
+  ],
+  "171": [
+   "RD_ALifeLine_25d184901df79c72",
+   "Down {him} - go, go, go!",
+   [
+    "ALifeDialogue_barks_enc_1.lua",
+    "ENC_BETRAY",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "172": [
+   "RD_ALifeLine_60fee9fb61e9206d",
+   "Behind {him}! Hit {him} now!",
+   [
+    "ALifeDialogue_barks_enc_1.lua",
+    "ENC_BETRAY",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "173": [
+   "RD_ALifeLine_69a17d6528984076",
+   "Lay {him} out, quick!",
+   [
+    "ALifeDialogue_barks_enc_1.lua",
+    "ENC_BETRAY",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "174": [
+   "RD_ALifeLine_2ee5d720443042b5",
+   "Done talking. Take {him} from behind!",
+   [
+    "ALifeDialogue_barks_enc_1.lua",
+    "ENC_BETRAY",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "175": [
+   "RD_ALifeLine_53c647e86e77da21",
+   "Now! Get {him}!",
+   [
+    "ALifeDialogue_barks_enc_1.lua",
+    "ENC_BETRAY",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "176": [
+   "RD_ALifeLine_518100af22255c7e",
+   "There {he} is - stand right there",
+   [
+    "ALifeDialogue_barks_enc_1.lua",
+    "ENC_CAME_OUT",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "177": [
+   "RD_ALifeLine_3ad9dcaa56b8f9e0",
+   "Shit, {he} saw you. Forget it",
+   [
+    "ALifeDialogue_barks_enc_1.lua",
+    "ENC_CAUGHT",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "178": [
+   "RD_ALifeLine_2b73ee1212a7850c",
+   "We lost {him}, let's head back",
+   [
+    "ALifeDialogue_barks_enc_1.lua",
+    "ENC_GIVE_UP",
+    "reg=law"
+   ]
+  ],
+  "179": [
+   "RD_ALifeLine_56a4d08a06ca6422",
+   "Forget it, {he}'s long gone",
+   [
+    "ALifeDialogue_barks_enc_1.lua",
+    "ENC_GIVE_UP",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "180": [
+   "RD_ALifeLine_4c5540a9321c25f5",
+   "Leave {him}. {He} ain't worth the shells",
+   [
+    "ALifeDialogue_barks_enc_1.lua",
+    "ENC_LEAVE",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "181": [
+   "RD_ALifeLine_23ec37fa159f7612",
+   "That's {him}, you're coming with us, one way or the other",
+   [
+    "ALifeDialogue_barks_enc_1.lua",
+    "ENC_REVENGE",
+    "reg=law"
+   ]
+  ],
+  "182": [
+   "RD_ALifeLine_3420c79673efcc56",
+   "That's {him}! {He} put my brother in the ground!",
+   [
+    "ALifeDialogue_barks_enc_1.lua",
+    "ENC_REVENGE",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "183": [
+   "RD_ALifeLine_5b2686f329f51b19",
+   "Look who wandered into our lap. Keep {him} breathing, I got plans",
+   [
+    "ALifeDialogue_barks_enc_1.lua",
+    "ENC_REVENGE",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "184": [
+   "RD_ALifeLine_77bc2e70444bfe12",
+   "Nothing! Where the hell did {he} go?",
+   [
+    "ALifeDialogue_barks_enc_1.lua",
+    "ENC_SEARCH_DONE",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "185": [
+   "RD_ALifeLine_27b706322cb430c0",
+   "I got the door - go get {him}",
+   [
+    "ALifeDialogue_barks_enc_1.lua",
+    "ENC_SEARCH_POST",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "186": [
+   "RD_ALifeLine_2597993b4b182854",
+   "In there - go find {him}",
+   [
+    "ALifeDialogue_barks_enc_1.lua",
+    "ENC_SEARCH_START",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "187": [
+   "RD_ALifeLine_2d6cc7762be683f5",
+   "Boys, looks like {he}'s not talking",
+   [
+    "ALifeDialogue_barks_enc_2.lua",
+    "ENC_SILENCE_LAST",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "188": [
+   "RD_ALifeLine_096bc20a5dde5b4a",
+   "Light {him} up!",
+   [
+    "ALifeDialogue_barks_enc_2.lua",
+    "ENC_TURN",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "189": [
+   "RD_ALifeLine_7f76a96a05f0dbcb",
+   "I'm done talking. Take {him} down!",
+   [
+    "ALifeDialogue_barks_enc_2.lua",
+    "ENC_TURN",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "190": [
+   "RD_ALifeLine_027e54964803e4e2",
+   "Shoot {him}! Shoot {him} now!",
+   [
+    "ALifeDialogue_barks_enc_2.lua",
+    "ENC_TURN",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "191": [
+   "RD_ALifeLine_63fea67e698260ad",
+   "See you, {g:pal|lady}",
+   [
+    "ALifeDialogue_replies_farewell_1.lua",
+    "FAREWELL",
+    "role=worker|st=friendly,neutral"
+   ]
+  ],
+  "192": [
+   "RD_ALifeLine_78d6073942283550",
+   "See you? Not if I see you first, {g:pal|lady}",
+   [
+    "ALifeDialogue_replies_farewell_1.lua",
+    "FAREWELL",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "193": [
+   "RD_ALifeLine_6e4411c9021d9c1c",
+   "Later, {g:man|lady}, it's rough out there, go easy",
+   [
+    "ALifeDialogue_replies_farewell_1.lua",
+    "FAREWELL",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "194": [
+   "RD_ALifeLine_038fbb0f34ab2f40",
+   "Ride easy, {g:brother|sister}",
+   [
+    "ALifeDialogue_replies_farewell_1.lua",
+    "FAREWELL",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "195": [
+   "RD_ALifeLine_561906b45455f1e7",
+   "Come back around soon, {g:brother|sister}, we'll save you a beer",
+   [
+    "ALifeDialogue_replies_farewell_1.lua",
+    "FAREWELL",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "196": [
+   "RD_ALifeLine_4164278d7167fc10",
+   "See ya, {g:pal|lady}, mind the dark",
+   [
+    "ALifeDialogue_replies_farewell_1.lua",
+    "FAREWELL",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly"
+   ]
+  ],
+  "197": [
+   "RD_ALifeLine_1129398760e22f35",
+   "Bye, {sir}, take care, I'm a little jealous you're free to go",
+   [
+    "ALifeDialogue_replies_farewell_1.lua",
+    "FAREWELL",
+    "role=soldier_green|st=friendly,neutral"
+   ]
+  ],
+  "198": [
+   "RD_ALifeLine_7e52f92d0c2c100b",
+   "There's a fire by the old gas station, {g:brother|sister}, a few folks, no trouble",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "FIREQ_NEAR",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "199": [
+   "RD_ALifeLine_729079f5539b0e2b",
+   "Freeze, then, {g:pal|lady}, I'm not your mother",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "FIREQ_NONE",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "200": [
+   "RD_ALifeLine_261b65380c86504c",
+   "Nothing lit that I know of, {g:brother|sister}, build your own",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "FIREQ_NONE",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "201": [
+   "RD_ALifeLine_677168ac2bf6c5ee",
+   "{g:Son|Young lady} - {g:son|young lady}, I've been married thirty-one years - go on, now",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "FLIRT",
+    "role=rescue_clergy|st=friendly,neutral"
+   ]
+  ],
+  "202": [
+   "RD_ALifeLine_21a4c9d52814cf4f",
+   "Save it, {g:pal|lady}, I don't have time for romance when I'm trying not to die",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "FLIRT",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "203": [
+   "RD_ALifeLine_6c664fde2ef1da66",
+   "{g:Brother|Sister}, I'm too old and too tired for that",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "FLIRT",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "204": [
+   "RD_ALifeLine_6c733f77285c9128",
+   "{g:Buddy|Lady}, I ain't showered since the fourth, you need to reconsider your standards",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "FLIRT",
+    "reg=worker|tmp=seasoned|st=neutral|mood=funny"
+   ]
+  ],
+  "205": [
+   "RD_ALifeLine_3a8a8a8025bf98d6",
+   "Follow you? I follow nobody, {g:pal|lady}",
+   [
+    "ALifeDialogue_replies_follow_1.lua",
+    "FOLLOW_ME",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "206": [
+   "RD_ALifeLine_7c5eb804213b106e",
+   "I don't tag along, {g:brother|sister}",
+   [
+    "ALifeDialogue_replies_follow_1.lua",
+    "FOLLOW_ME",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "207": [
+   "RD_ALifeLine_29e8a8435dac2c53",
+   "No {sir}, I stay where my back's covered, you go on ahead",
+   [
+    "ALifeDialogue_replies_follow_1.lua",
+    "FOLLOW_ME",
+    "reg=civilian,family,worker,rescue|tmp=seasoned|st=careful,neutral"
+   ]
+  ],
+  "208": [
+   "RD_ALifeLine_37a4b0744f67187e",
+   "How far? Sorry - sorry, {sir}, I just-- how far is it?",
+   [
+    "ALifeDialogue_replies_follow_1.lua",
+    "FOLLOW_ME",
+    "role=soldier_green|tmp=fresh|st=careful,neutral"
+   ]
+  ],
+  "209": [
+   "RD_ALifeLine_5faa90cf5f8d39da",
+   "You first, yeah, you go on ahead - I'll be right behind you, {g:buddy|lady}",
+   [
+    "ALifeDialogue_replies_follow_1.lua",
+    "FOLLOW_ME",
+    "reg=raider,outlaw|tmp=predator|st=hostile"
+   ]
+  ],
+  "210": [
+   "RD_ALifeLine_0cbc0b461fae2c4b",
+   "Your funeral, {g:pal|lady}",
+   [
+    "ALifeDialogue_no_misc_1.lua",
+    "GENERIC",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral"
+   ]
+  ],
+  "211": [
+   "RD_ALifeLine_1bfb8c3d2ecea062",
+   "Finders keepers, {g:pal|lady}, losers weepers",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "GIVE_BACK",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "212": [
+   "RD_ALifeLine_328105685990ac77",
+   "What's mine is mine, {g:brother|sister}, and what was yours is mine too",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "GIVE_BACK",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "213": [
+   "RD_ALifeLine_2358f02e37561147",
+   "I'm sorry, {g:brother|sister}, but I can't give it back",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "GIVE_BACK",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "214": [
+   "RD_ALifeLine_1277adc8324fdb0e",
+   "I had a house, a truck and forty years of National Geographics - get in line, {g:son|young lady}",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "GIVE_BACK",
+    "role=family_elder|st=neutral,friendly|world=vehicle"
+   ]
+  ],
+  "215": [
+   "RD_ALifeLine_5693e9dc7764819f",
+   "Property room's closed, {g:pal|lady} - Permanently",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "GIVE_BACK",
+    "role=law_corrections|st=neutral,hostile"
+   ]
+  ],
+  "216": [
+   "RD_ALifeLine_7cd499330e7016ba",
+   "Go home, {g:man|lady} - you want that back more than you want to keep breathing? Pick one",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "GIVE_BACK",
+    "reg=gang|st=careful"
+   ]
+  ],
+  "217": [
+   "RD_ALifeLine_7fe6be8641c876c2",
+   "{sir}, we're talking, you can wait or you can ask",
+   [
+    "ALifeDialogue_barks_misc_4.lua",
+    "GOSSIP_VISITOR",
+    "reg=law"
+   ]
+  ],
+  "218": [
+   "RD_ALifeLine_610e6cfe1800e4f3",
+   "Hold on - {Sir}, step up where I can see you and say your piece",
+   [
+    "ALifeDialogue_barks_misc_4.lua",
+    "GOSSIP_VISITOR",
+    "reg=law"
+   ]
+  ],
+  "219": [
+   "RD_ALifeLine_032999101480155e",
+   "Hold the thought, {g:brother|sister} - hey - you lost?",
+   [
+    "ALifeDialogue_barks_misc_4.lua",
+    "GOSSIP_VISITOR",
+    "reg=club"
+   ]
+  ],
+  "220": [
+   "RD_ALifeLine_26f5d9b94c6e5ce8",
+   "We're mid conversation - what do you need, {sir}?",
+   [
+    "ALifeDialogue_barks_misc_4.lua",
+    "GOSSIP_VISITOR",
+    "reg=law|tmp=seasoned"
+   ]
+  ],
+  "221": [
+   "RD_ALifeLine_5381cacd11c5de56",
+   "Chilled to the bone, not sick, {g:brother|sister}, I know the difference",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "GOTQ_CHILLED",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "222": [
+   "RD_ALifeLine_01f52424336b3cb0",
+   "Little cough, {g:brother|sister}, little fever, nothing to worry about, it's not the bad stuff",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "GOTQ_SICK",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "223": [
+   "RD_ALifeLine_67667ba748647dcf",
+   "Healthy as a bull, {g:brother|sister}, never been sick a day in my life",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "GOTQ_WELL",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "224": [
+   "RD_ALifeLine_01301a5d37f0e14c",
+   "Go away? {g:Buddy|Lady}, we just got here, look around - count us",
+   [
+    "ALifeDialogue_replies_go_1.lua",
+    "GO_AWAY",
+    "reg=raider|st=hostile"
+   ]
+  ],
+  "225": [
+   "RD_ALifeLine_22ff2359612f1fc6",
+   "Hey, no problem, {g:man|lady}, I'm gone",
+   [
+    "ALifeDialogue_replies_go_1.lua",
+    "GO_AWAY",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "226": [
+   "RD_ALifeLine_7d2ee6b70a962cdf",
+   "{g:Brother|Sister}, I'll go when I feel like going",
+   [
+    "ALifeDialogue_replies_go_1.lua",
+    "GO_AWAY",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "227": [
+   "RD_ALifeLine_0ec375de50dc56f6",
+   "Six years of guards telling me where to go, you ain't wearing no uniform, {g:pal|lady}",
+   [
+    "ALifeDialogue_replies_go_1.lua",
+    "GO_AWAY",
+    "reg=prison|st=hostile"
+   ]
+  ],
+  "228": [
+   "RD_ALifeLine_120970a37d8d9aac",
+   "Understood, {sir}, I'll give you your space, stay safe out there",
+   [
+    "ALifeDialogue_replies_go_1.lua",
+    "GO_AWAY",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "229": [
+   "RD_ALifeLine_28daac930b631294",
+   "Yes, {sir}, I'm going, I'm going",
+   [
+    "ALifeDialogue_replies_go_1.lua",
+    "GO_AWAY",
+    "role=soldier_green|st=friendly,neutral"
+   ]
+  ],
+  "230": [
+   "RD_ALifeLine_34fd9050068722a6",
+   "Hey, {g:brother|sister}, cold one?",
+   [
+    "ALifeDialogue_replies_greeting_1.lua",
+    "GREETING",
+    "reg=club|st=friendly,neutral"
+   ]
+  ],
+  "231": [
+   "RD_ALifeLine_64e9c268003f3c34",
+   "Stay where you are, {g:young man|young lady}",
+   [
+    "ALifeDialogue_replies_greeting_1.lua",
+    "GREETING",
+    "role=family_elder|st=careful"
+   ]
+  ],
+  "232": [
+   "RD_ALifeLine_24ebbc444a053b4b",
+   "Afternoon, {g:pal|lady}",
+   [
+    "ALifeDialogue_replies_greeting_1.lua",
+    "GREETING",
+    "role=worker|st=friendly,neutral"
+   ]
+  ],
+  "233": [
+   "RD_ALifeLine_2628aa136dff00fc",
+   "Hey! Hey, hey, hey, {g:man|lady}, it's good to see another face, come closer!",
+   [
+    "ALifeDialogue_replies_greeting_1.lua",
+    "GREETING",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "234": [
+   "RD_ALifeLine_5cc8b0df33040030",
+   "Howdy, {g:brother|sister}, what brings you to our neck of the woods?",
+   [
+    "ALifeDialogue_replies_greeting_1.lua",
+    "GREETING",
+    "reg=club|st=neutral,careful|world=trees"
+   ]
+  ],
+  "235": [
+   "RD_ALifeLine_0e5cf5f836231c3c",
+   "Hey, {g:brother|sister}, come on over, there's room by the fire",
+   [
+    "ALifeDialogue_replies_greeting_1.lua",
+    "GREETING",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "236": [
+   "RD_ALifeLine_5bbb74682a25d5bb",
+   "Say your prayers instead of hello, {g:pal|lady}",
+   [
+    "ALifeDialogue_replies_greeting_1.lua",
+    "GREETING",
+    "reg=outlaw,raider,gang,club,crime,prison|st=hostile"
+   ]
+  ],
+  "237": [
+   "RD_ALifeLine_6ccb857821167896",
+   "Oh great, the highwayman {himself}, and all I got is a flashlight",
+   [
+    "ALifeDialogue_replies_greeting_1.lua",
+    "GREETING",
+    "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad"
+   ]
+  ],
+  "238": [
+   "RD_ALifeLine_05e52a0c2005670a",
+   "{sir}, whoever you are today, we've heard about you at every post, hell of a thing",
+   [
+    "ALifeDialogue_replies_greeting_1.lua",
+    "GREETING",
+    "reg=law,swat|st=friendly,neutral|rep=best"
+   ]
+  ],
+  "239": [
+   "RD_ALifeLine_1bfda53867acdb28",
+   "Whoa- you're {him}, you're them, the one we've been told about, honored, truly",
+   [
+    "ALifeDialogue_replies_greeting_1.lua",
+    "GREETING",
+    "reg=military,elite|st=friendly,neutral|rep=best"
+   ]
+  ],
+  "240": [
+   "RD_ALifeLine_599bcc5c5ecf3a42",
+   "Well, WELL, the Villain {himself}, walking right up, heh, what do you want?",
+   [
+    "ALifeDialogue_replies_greeting_1.lua",
+    "GREETING",
+    "reg=outlaw,raider,gang,club,crime,prison|st=neutral,careful,hostile|rep=worst"
+   ]
+  ],
+  "241": [
+   "RD_ALifeLine_09482fe348e70240",
+   "Um, hi, {sir}, sorry, I'm new, hi, what do I do?",
+   [
+    "ALifeDialogue_replies_greeting_1.lua",
+    "GREETING",
+    "role=soldier_green|st=friendly,neutral"
+   ]
+  ],
+  "242": [
+   "RD_ALifeLine_1b257c4d38071891",
+   "Hello, {sir}, hello, {sir}, can I help you? I think I'm allowed to help",
+   [
+    "ALifeDialogue_replies_greeting_1.lua",
+    "GREETING",
+    "role=soldier_green|st=friendly,neutral"
+   ]
+  ],
+  "243": [
+   "RD_ALifeLine_2cf416fa04a45f88",
+   "Uh, hi - {Sir}, I'm supposed to ask if you've got a fever",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "role=soldier_green"
+   ]
+  ],
+  "244": [
+   "RD_ALifeLine_002479f36ca04bda",
+   "Hey {g:buddy|lady}, nice boots - what size?",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=raider,gang,club,prison"
+   ]
+  ],
+  "245": [
+   "RD_ALifeLine_182be6fb2701c530",
+   "{sir}, they aren't people anymore - don't hesitate",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|st=friendly,neutral|day=0,3"
+   ]
+  ],
+  "246": [
+   "RD_ALifeLine_4e06d8872536d646",
+   "Afternoon, {sir} - keep your hands visible and we won't have a problem",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law|st=friendly,neutral"
+   ]
+  ],
+  "247": [
+   "RD_ALifeLine_3dc9818804756d1a",
+   "{Sir}, got a minute? Just a couple of questions",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law|st=friendly,neutral"
+   ]
+  ],
+  "248": [
+   "RD_ALifeLine_1e4fd04d69d74689",
+   "Move along, {sir}, this is a restricted area",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=military|st=friendly,neutral"
+   ]
+  ],
+  "249": [
+   "RD_ALifeLine_0377ad7144a90c22",
+   "Morning, {g:brother|sister} - Beer's warm, but it's free",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=club|st=friendly,neutral"
+   ]
+  ],
+  "250": [
+   "RD_ALifeLine_2c95492d089a4735",
+   "Well, well, well, look who finally showed {his} face",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|rep=worst"
+   ]
+  ],
+  "251": [
+   "RD_ALifeLine_5bf45e407c435a0b",
+   "You don't want to run, {sir}, I've got friends all around",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|rep=worst"
+   ]
+  ],
+  "252": [
+   "RD_ALifeLine_1d3696fa1fba5f5c",
+   "I know your face from the bulletin, {sir}, don't run",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|rep=worst"
+   ]
+  ],
+  "253": [
+   "RD_ALifeLine_71680c8b2d364467",
+   "Easy, {sir}, stand still, I'm going to read you something",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|rep=worst"
+   ]
+  ],
+  "254": [
+   "RD_ALifeLine_63a2896b1cc5d4dc",
+   "I'll be civil if you will, {sir}",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|rep=bad"
+   ]
+  ],
+  "255": [
+   "RD_ALifeLine_7c1ebf9e00525767",
+   "{Sir}, it's good to meet you, the department talks about you",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|rep=good"
+   ]
+  ],
+  "256": [
+   "RD_ALifeLine_276641f876f382d1",
+   "{Sir}, a moment?",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|rep=good"
+   ]
+  ],
+  "257": [
+   "RD_ALifeLine_3a58881a7892e072",
+   "Good to meet you, {sir}, the whole station's heard your name",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|rep=good"
+   ]
+  ],
+  "258": [
+   "RD_ALifeLine_46a9d02a0e22a8d1",
+   "Welcome, {sir}, welcome, come by anytime",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|rep=good"
+   ]
+  ],
+  "259": [
+   "RD_ALifeLine_1c59b5450dc284db",
+   "{sir}, it's an honor, the whole department talks about you",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|rep=best"
+   ]
+  ],
+  "260": [
+   "RD_ALifeLine_5f4af9890555de9e",
+   "There {he} is, the one the whole department toasts",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|rep=best"
+   ]
+  ],
+  "261": [
+   "RD_ALifeLine_54a4991d322a5e4f",
+   "It's an honor, {sir}, the chief wanted me to say so",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|rep=best"
+   ]
+  ],
+  "262": [
+   "RD_ALifeLine_6c73fe09169cef02",
+   "Honor, {sir}",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|rep=best"
+   ]
+  ],
+  "263": [
+   "RD_ALifeLine_164549cc41e7c6f7",
+   "Honored, {sir}, the chief insisted I say it",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|rep=best"
+   ]
+  ],
+  "264": [
+   "RD_ALifeLine_3896f1d11b3f87d3",
+   "Please, let me shake your hand, {sir}",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|rep=best"
+   ]
+  ],
+  "265": [
+   "RD_ALifeLine_17eab1204d0b85f7",
+   "Take whatever you need, {sir}, it's yours",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|rep=best"
+   ]
+  ],
+  "266": [
+   "RD_ALifeLine_10e017cd602f323d",
+   "{Sir}",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|rep=best"
+   ]
+  ],
+  "267": [
+   "RD_ALifeLine_5de1463433a27fda",
+   "Shit, it's {HIM}, keep your voice down, don't piss {him} off",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|rep=worst"
+   ]
+  ],
+  "268": [
+   "RD_ALifeLine_01cf91365cd4df38",
+   "Shit, {he}'s here, {he}'s actually here, who's got a drink for {him}?",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|rep=worst"
+   ]
+  ],
+  "269": [
+   "RD_ALifeLine_0315b3fc1d838b5f",
+   "Shit, it's {him}",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|rep=worst"
+   ]
+  ],
+  "270": [
+   "RD_ALifeLine_17958e4a1f2a7867",
+   "The Legend {himself}, keep your hands to yourself and your voices down",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|rep=best"
+   ]
+  ],
+  "271": [
+   "RD_ALifeLine_2c46690e6bc26e9f",
+   "{Sir}, stay indoors if you can, we're asking everybody",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "reg=law|st=friendly,neutral|day=0,4"
+   ]
+  ],
+  "272": [
+   "RD_ALifeLine_090ed44861fc6df4",
+   "I need you to walk away from the area and go home, {sir}, please",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "reg=law|st=friendly,neutral|day=0,4"
+   ]
+  ],
+  "273": [
+   "RD_ALifeLine_390aa45b3c5290c3",
+   "Keep your hands where I can see them, {sir}",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "reg=law|st=careful"
+   ]
+  ],
+  "274": [
+   "RD_ALifeLine_5e79e0636c10b515",
+   "Stay right there, {sir}, I'll come to you",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "reg=law|st=careful"
+   ]
+  ],
+  "275": [
+   "RD_ALifeLine_32e3b49e05e7fb43",
+   "Do as I say, {sir}! Nobody gets hurt",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "reg=law|st=hostile"
+   ]
+  ],
+  "276": [
+   "RD_ALifeLine_5dddf02f0dec9d51",
+   "Kentucky State Police, {sir}, are you alright?",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "role=law_trooper|st=friendly,neutral"
+   ]
+  ],
+  "277": [
+   "RD_ALifeLine_1810afe461cdfe18",
+   "I'm not in the mood, {sir}, step back",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "role=law_trooper|st=careful,hostile"
+   ]
+  ],
+  "278": [
+   "RD_ALifeLine_594439c71a83f811",
+   "No closer, {sir}",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "role=law_officer|st=careful,hostile"
+   ]
+  ],
+  "279": [
+   "RD_ALifeLine_247ba32a7d929860",
+   "Stay careful, {sir}. These are bad days",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "reg=swat|st=friendly,neutral|day=0,4"
+   ]
+  ],
+  "280": [
+   "RD_ALifeLine_1ff7f7422bff52fa",
+   "I'm, uh, sorry, {sir}, do I ask for papers? I'm not sure what to ask",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "role=soldier_green|st=friendly,neutral"
+   ]
+  ],
+  "281": [
+   "RD_ALifeLine_23917fbd7b23f548",
+   "Morning, {sir}, did you see anything unusual overnight?",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral|hour=5,10"
+   ]
+  ],
+  "282": [
+   "RD_ALifeLine_43433d7128ba7f91",
+   "Afternoon, {sir}, we're asking folks to be indoors by dark",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral|hour=13,17"
+   ]
+  ],
+  "283": [
+   "RD_ALifeLine_483729997e00dbcd",
+   "Evening, {sir}, there's a curfew at nine, you might want to hurry",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral|hour=17,20"
+   ]
+  ],
+  "284": [
+   "RD_ALifeLine_29ca9ee9137ce469",
+   "{Sir}, it's after curfew, where are you headed?",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral|hour=21,4"
+   ]
+  ],
+  "285": [
+   "RD_ALifeLine_4370d5c57e3dc7d4",
+   "It's late, {sir}, you should be inside",
+   [
+    "ALifeDialogue_barks_greet_2.lua",
+    "GREET_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral|hour=21,4"
+   ]
+  ],
+  "286": [
+   "RD_ALifeLine_3deddb5b531b4cdc",
+   "Drink something, {sir}, I've seen three guys drop already",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral|world=hot"
+   ]
+  ],
+  "287": [
+   "RD_ALifeLine_65be232b3dc00e78",
+   "Miserable weather, {sir}, find cover",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral|world=rain"
+   ]
+  ],
+  "288": [
+   "RD_ALifeLine_549a04a26fa6636e",
+   "{Sir}, I'm going to need you to listen carefully for a second",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "289": [
+   "RD_ALifeLine_56c13b6976794b9e",
+   "{Sir}, any injuries? Need a medic?",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "290": [
+   "RD_ALifeLine_5bc935661df647a4",
+   "{Sir}, can I see your hands? Thank you, relax",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "291": [
+   "RD_ALifeLine_34057662561b1b67",
+   "{Sir}, got any idea where the nearest working phone is? Neither do I",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "292": [
+   "RD_ALifeLine_1fee899d03c2aef7",
+   "{Sir}, I have to ask, any fever, any bites, any wounds?",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=military,elite|st=friendly,neutral"
+   ]
+  ],
+  "293": [
+   "RD_ALifeLine_4d2a435f1e24ea07",
+   "{Sir}, are you alone? Where did you come from?",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=military,elite|st=friendly,neutral"
+   ]
+  ],
+  "294": [
+   "RD_ALifeLine_711f997831895d9c",
+   "{Sir}, move along, you're wasting daylight",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=military,elite|st=friendly,neutral|hour=7,18"
+   ]
+  ],
+  "295": [
+   "RD_ALifeLine_62dd381028f1f836",
+   "So, {g:buddy|lady}, what's your story?",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral"
+   ]
+  ],
+  "296": [
+   "RD_ALifeLine_043197c464e6ea84",
+   "Hey, {g:mister|sister}, you got something to trade?",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral"
+   ]
+  ],
+  "297": [
+   "RD_ALifeLine_1c0cfa7440d905ef",
+   "{Sir}, you look like trouble, and I like trouble, so, sit",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral"
+   ]
+  ],
+  "298": [
+   "RD_ALifeLine_2327dc6b43c42057",
+   "You new around here, {g:pal|girl}?",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral"
+   ]
+  ],
+  "299": [
+   "RD_ALifeLine_6e032dcd3628b36e",
+   "You're not from here, I can tell, {sir}",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral"
+   ]
+  ],
+  "300": [
+   "RD_ALifeLine_42ae1b5a50d4c988",
+   "Careful, {g:pal|honey}, the road's not friendly",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral|world=road"
+   ]
+  ],
+  "301": [
+   "RD_ALifeLine_171b5feb41075e8a",
+   "Yes, {sir}?",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral"
+   ]
+  ],
+  "302": [
+   "RD_ALifeLine_42926cab57e3c0fe",
+   "Hold on there, {sir}, I've got a few questions",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral"
+   ]
+  ],
+  "303": [
+   "RD_ALifeLine_5631b0c4106a7a37",
+   "{Sir}, are you carrying anything I should know about?",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral"
+   ]
+  ],
+  "304": [
+   "RD_ALifeLine_246ef6fd27842210",
+   "Excuse me, {sir}, can you tell me which way you came?",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral"
+   ]
+  ],
+  "305": [
+   "RD_ALifeLine_0154b34b69bc657f",
+   "Do you need help, {sir}? You look tired",
+   [
+    "ALifeDialogue_barks_greet_3.lua",
+    "GREET_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral"
+   ]
+  ],
+  "306": [
+   "RD_ALifeLine_4cfe7db91c1acb4a",
+   "{sir}-- {SIR}! Don't! I'm lowering mine! I'm backing out!",
+   [
+    "ALifeDialogue_barks_misc_4.lua",
+    "GUN_FEAR",
+    "role=soldier_green"
+   ]
+  ],
+  "307": [
+   "RD_ALifeLine_0267a4007f105544",
+   "Ain't worth it! {He}'s got iron, {he}'s got IRON!",
+   [
+    "ALifeDialogue_barks_misc_4.lua",
+    "GUN_FEAR",
+    "reg=outlaw,raider,gang,club|tmp=fresh,seasoned"
+   ]
+  ],
+  "308": [
+   "RD_ALifeLine_2b7f04dd46aee228",
+   "Run! RUN! {He} come heavy and we came stupid!",
+   [
+    "ALifeDialogue_barks_misc_4.lua",
+    "GUN_FEAR",
+    "reg=raider,gang|tmp=fresh"
+   ]
+  ],
+  "309": [
+   "RD_ALifeLine_75aee21900c32d75",
+   "Nobody puts my hands up, {mister}, certainly not on my own land",
+   [
+    "ALifeDialogue_replies_hands_1.lua",
+    "HANDS_UP",
+    "role=militia|st=neutral,careful"
+   ]
+  ],
+  "310": [
+   "RD_ALifeLine_636c808b7bb4c26a",
+   "Harvest in these hills is a blessing, {g:brother|sister}, corn, apples, pumpkins",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "HARQ_AUTUMN",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "311": [
+   "RD_ALifeLine_5015bf6561677327",
+   "We don't farm, {g:brother|sister}, but I've heard folks are planting potatoes",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "HARQ_SPRING",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "312": [
+   "RD_ALifeLine_7b4750041af98d0e",
+   "Everything's growing, {g:brother|sister}, and everything's being stolen, a bad combination",
+   [
+    "ALifeDialogue_replies_misc_2.lua",
+    "HARQ_SUMMER",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "313": [
+   "RD_ALifeLine_1d3923f1301abfd6",
+   "Heat like this cooks a man alive, {g:brother|sister}, and I'm out of beer",
+   [
+    "ALifeDialogue_replies_misc_3.lua",
+    "HEATQ",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "314": [
+   "RD_ALifeLine_5ec71dcf139fecae",
+   "Thanks, {g:man|lady}, really, you don't know how much that means, seriously",
+   [
+    "ALifeDialogue_yes_misc_1.lua",
+    "HELP_THEM",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "315": [
+   "RD_ALifeLine_0a50071700da19fa",
+   "Good, {g:brother|sister}, that's the spirit, now grab a shovel",
+   [
+    "ALifeDialogue_yes_misc_1.lua",
+    "HELP_THEM",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "316": [
+   "RD_ALifeLine_77ed8d4732d14f81",
+   "Appreciate it, {sir}, yell out if you see anything moving - anything at all",
+   [
+    "ALifeDialogue_yes_misc_1.lua",
+    "HELP_THEM",
+    "reg=law"
+   ]
+  ],
+  "317": [
+   "RD_ALifeLine_59cc562277a17288",
+   "Alright, {g:brother|sister}, no pressure",
+   [
+    "ALifeDialogue_no_misc_1.lua",
+    "HELP_THEM",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "318": [
+   "RD_ALifeLine_2e924f2527b4acf4",
+   "Your loss, {g:pal|lady}, I'd have paid you",
+   [
+    "ALifeDialogue_no_misc_1.lua",
+    "HELP_THEM",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral"
+   ]
+  ],
+  "319": [
+   "RD_ALifeLine_2e587bc5796f2399",
+   "Understood, {sir}, then clear the street, please",
+   [
+    "ALifeDialogue_no_misc_1.lua",
+    "HELP_THEM",
+    "reg=law|world=road"
+   ]
+  ],
+  "320": [
+   "RD_ALifeLine_77b800874cbe9ee8",
+   "That's an officer you shot, {g:pal|lady} - you're done",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=law|st=neutral,careful,hostile"
+   ]
+  ],
+  "321": [
+   "RD_ALifeLine_0777ba5547e1c20e",
+   "Struck! Cover me, I'm turning on {him}",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=swat"
+   ]
+  ],
+  "322": [
+   "RD_ALifeLine_7e0de50958b970aa",
+   "Ah! Sarge! Sarge, {he} hit me! What do I-- Sarge!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "role=soldier_green"
+   ]
+  ],
+  "323": [
+   "RD_ALifeLine_2136092465faf807",
+   "Big mistake, {g:pal|lady} - big mistake",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=crime"
+   ]
+  ],
+  "324": [
+   "RD_ALifeLine_78d427335acb4c58",
+   "Gah! Easy, {g:brother|sister}, easy! I ain't with them!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=club,outlaw|st=friendly,neutral"
+   ]
+  ],
+  "325": [
+   "RD_ALifeLine_1bd8b6dd3c6c92dd",
+   "Hit! {Sir}, on the ground - right now",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=law"
+   ]
+  ],
+  "326": [
+   "RD_ALifeLine_18af0a093dc234a5",
+   "AH! You little-- get {him}! GET {HIM}!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=raider|tmp=predator"
+   ]
+  ],
+  "327": [
+   "RD_ALifeLine_79d987890e207a7e",
+   "Took one in the vest! Find {him}!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=military|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "328": [
+   "RD_ALifeLine_439fc332165e5c03",
+   "Blade - not deep, {he}'s close, deal with {him}",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=elite|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "329": [
+   "RD_ALifeLine_126854a64d134ade",
+   "That hurt! Don't let {him} near me again!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=elite|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "330": [
+   "RD_ALifeLine_372b729b7795ad1a",
+   "Ow! {He} plugged me! Kill {him}!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "331": [
+   "RD_ALifeLine_46758cef05bc34ed",
+   "I'm bleeding! {He} slashed me, get {him}!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "332": [
+   "RD_ALifeLine_4f2cfad055aa8ff4",
+   "You hit me with a bat, you stupid... Get {him}!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "333": [
+   "RD_ALifeLine_1e40855f5f046859",
+   "Ha! {He} slugged me, boys, we got a fighter!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "334": [
+   "RD_ALifeLine_4ae23d91716a92aa",
+   "Stabbed! {He} stabbed me! Back off with the blade, now!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=law|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "335": [
+   "RD_ALifeLine_6186831628ea74d7",
+   "Blade! I'm cut! Put {him} down!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "336": [
+   "RD_ALifeLine_3067e2220942ae85",
+   "{he} hit me with a pipe! Take {him} down!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "337": [
+   "RD_ALifeLine_572153b52dfc8bb7",
+   "Took a punch! {He}'s swinging at us, get {him} down!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "338": [
+   "RD_ALifeLine_6aea4ac50b14dcc6",
+   "{he} swung on me! Take {him} down!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "339": [
+   "RD_ALifeLine_6929afeb09ae3e37",
+   "Second volley! Everybody, on {him}!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "role=militia"
+   ]
+  ],
+  "340": [
+   "RD_ALifeLine_1551bcd471256f38",
+   "That's twice! Police! Put {him} down!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "reg=swat"
+   ]
+  ],
+  "341": [
+   "RD_ALifeLine_79ef167452e1733a",
+   "Sergeant! It's on purpose! {He}'s doing it on purpose!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "role=soldier_green"
+   ]
+  ],
+  "342": [
+   "RD_ALifeLine_61fa60de03cc68f5",
+   "You're the first {g:man|woman} in eight years I get to hit back - thank you",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "role=prisoner"
+   ]
+  ],
+  "343": [
+   "RD_ALifeLine_5bbef5105389d131",
+   "Ain't no coming back from two - drop {him}",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "reg=gang"
+   ]
+  ],
+  "344": [
+   "RD_ALifeLine_41612075345ed91e",
+   "Brothers! We got one who wants a story told about {him}!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "reg=club"
+   ]
+  ],
+  "345": [
+   "RD_ALifeLine_710ea9476f995bd6",
+   "{he}'s committed, so am I",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "role=swat_lead"
+   ]
+  ],
+  "346": [
+   "RD_ALifeLine_26d042290db28e4e",
+   "Boys, this one's mine, nobody touch {him} but me",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "reg=raider|tmp=predator"
+   ]
+  ],
+  "347": [
+   "RD_ALifeLine_5fec36843db2e4b6",
+   "{he} hit me twice, do {him} slow, so the rest of 'em learn it",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "role=raider_boss"
+   ]
+  ],
+  "348": [
+   "RD_ALifeLine_2072c8375d73d4ce",
+   "Take {him} off the road, quiet",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "role=biker_boss|world=road"
+   ]
+  ],
+  "349": [
+   "RD_ALifeLine_1d4666251a1c14ea",
+   "Struck again with the crowbar - take {him} down, now!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "reg=law|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "350": [
+   "RD_ALifeLine_24555d686bb14d39",
+   "Punched twice - you're resisting - get {him} on the ground!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "reg=law|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "351": [
+   "RD_ALifeLine_22cdaac92355d087",
+   "Hit again! {He}'s still shooting! Take {him} down!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "reg=law,swat,military,elite|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "352": [
+   "RD_ALifeLine_5bbb09b266add3e7",
+   "{he} clubbed me twice! Knock {him} down!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "reg=law,swat,military,elite|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "353": [
+   "RD_ALifeLine_26519ebf11f837fd",
+   "Another punch! Take {him} down!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "reg=law,swat,military,elite|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "354": [
+   "RD_ALifeLine_7b9fb079318710d4",
+   "{he} swung again! Take {him}!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "reg=law,swat,military,elite|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "355": [
+   "RD_ALifeLine_15ba6d5c385ca341",
+   "{he} shot me twice! Bury {him}!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "356": [
+   "RD_ALifeLine_1cca45952ed734b4",
+   "Again with the knife? Now it's personal - cut {him}!",
+   [
+    "ALifeDialogue_barks_hit_1.lua",
+    "HIT_BY_PLAYER_AGAIN",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral,careful,hostile"
+   ]
+  ],
+  "357": [
+   "RD_ALifeLine_474994396ee5f4fe",
+   "Same as ever, {g:brother|sister} - roll on",
+   [
+    "ALifeDialogue_replies_how_1.lua",
+    "HOW_ARE_YOU",
+    "reg=club|st=friendly,neutral"
+   ]
+  ],
+  "358": [
+   "RD_ALifeLine_71c646497dbe6644",
+   "Tired, {g:man|lady}... tired in a way sleep doesn't fix",
+   [
+    "ALifeDialogue_replies_how_1.lua",
+    "HOW_ARE_YOU",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "359": [
+   "RD_ALifeLine_43af04dd5ab31c18",
+   "Still breathing, {g:brother|sister}, which is a victory these days",
+   [
+    "ALifeDialogue_replies_how_1.lua",
+    "HOW_ARE_YOU",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "360": [
+   "RD_ALifeLine_63a5ac2b4ed91c04",
+   "You're a dead {g:man|woman}, you dumb son of a bitch!",
+   [
+    "ALifeDialogue_replies_insult_1.lua",
+    "INSULT",
+    "reg=raider|st=hostile"
+   ]
+  ],
+  "361": [
+   "RD_ALifeLine_7f9a30496a1d5249",
+   "{mister}, you've got a lot of nerve, and not a lot of sense",
+   [
+    "ALifeDialogue_replies_insult_1.lua",
+    "INSULT",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "362": [
+   "RD_ALifeLine_546e58f171af2c3b",
+   "Six years of COs cussing me at morning count, you sound like home, {g:man|lady}",
+   [
+    "ALifeDialogue_replies_insult_1.lua",
+    "INSULT",
+    "reg=prison|st=neutral,careful"
+   ]
+  ],
+  "363": [
+   "RD_ALifeLine_78e4d96b1edabd95",
+   "{g:Son|Young lady}, I've been called every name in the book by people who'd later bring me a pie",
+   [
+    "ALifeDialogue_replies_insult_1.lua",
+    "INSULT",
+    "role=law_sheriff|st=neutral,careful"
+   ]
+  ],
+  "364": [
+   "RD_ALifeLine_7536195e669b9276",
+   "{g:Son|Young lady}, I was a drill instructor at Knox for six years - that wasn't even a warm-up - step back",
+   [
+    "ALifeDialogue_replies_insult_1.lua",
+    "INSULT",
+    "role=soldier_nco|st=careful,neutral"
+   ]
+  ],
+  "365": [
+   "RD_ALifeLine_721310432a25b0a8",
+   "I'm just doing what they told me! I'm nineteen, {g:man|lady}, I don't know anything!",
+   [
+    "ALifeDialogue_replies_insult_1.lua",
+    "INSULT",
+    "role=soldier_green|st=careful,neutral"
+   ]
+  ],
+  "366": [
+   "RD_ALifeLine_2949ed437b0ff461",
+   "Friendly is relative, {g:pal|lady}, who's friendly to me?",
+   [
+    "ALifeDialogue_replies_misc_3.lua",
+    "I_AM_FRIENDLY",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "367": [
+   "RD_ALifeLine_3294ef0e171253de",
+   "Friendly's a nice start, {g:brother|sister}, now earn the rest",
+   [
+    "ALifeDialogue_replies_misc_3.lua",
+    "I_AM_FRIENDLY",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "368": [
+   "RD_ALifeLine_0f5ac4990764d458",
+   "Alright, {g:brother|sister}, ride along, but the patch is something you earn",
+   [
+    "ALifeDialogue_yes_misc_1.lua",
+    "JOIN_GROUP",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "369": [
+   "RD_ALifeLine_52216c8903cf6123",
+   "Glad to have you, {g:brother|sister}, we could use a fresh face and a strong back",
+   [
+    "ALifeDialogue_yes_misc_1.lua",
+    "JOIN_GROUP",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "370": [
+   "RD_ALifeLine_1c3c2a26089bc451",
+   "Your choice, {g:brother|sister}, the road's long and lonely",
+   [
+    "ALifeDialogue_no_misc_1.lua",
+    "JOIN_GROUP",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "371": [
+   "RD_ALifeLine_351531a24becde91",
+   "I'd love the company, {g:man|lady}, but the boss decides - I'll ask him, wait here",
+   [
+    "ALifeDialogue_replies_join_1.lua",
+    "JOIN_REQUEST",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "372": [
+   "RD_ALifeLine_3e292f4c1c5cfba3",
+   "This ain't a social club, {g:brother|sister}, we've got rules, and prospects do the dirty work",
+   [
+    "ALifeDialogue_replies_join_1.lua",
+    "JOIN_REQUEST",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "373": [
+   "RD_ALifeLine_50bfa8c759855bd1",
+   "I like your attitude, {g:brother|sister}, come on, but you pull your weight",
+   [
+    "ALifeDialogue_replies_join_1.lua",
+    "JOIN_REQUEST",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "374": [
+   "RD_ALifeLine_143e63a57dad71bb",
+   "Join us?! Ha, we'd be honored, honestly, the Villain {himself}!",
+   [
+    "ALifeDialogue_replies_join_1.lua",
+    "JOIN_REQUEST",
+    "reg=outlaw,raider,gang,club,crime,prison|st=neutral,careful,hostile|rep=worst"
+   ]
+  ],
+  "375": [
+   "RD_ALifeLine_1433bcf84d974ada",
+   "Ha! Good for you, {g:brother|sister}, laughter's rare these days",
+   [
+    "ALifeDialogue_replies_misc_3.lua",
+    "LAUGH",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "376": [
+   "RD_ALifeLine_252ac23851366976",
+   "Laugh while you can, {g:brother|sister}",
+   [
+    "ALifeDialogue_replies_misc_3.lua",
+    "LAUGH",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "377": [
+   "RD_ALifeLine_4a5f860b1f5f70b7",
+   "Ha ha, you got me, {g:brother|sister}, I needed that",
+   [
+    "ALifeDialogue_replies_misc_3.lua",
+    "LAUGH",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "378": [
+   "RD_ALifeLine_6c0a612d53646ea3",
+   "My hand stays where it is, {g:brother|sister}",
+   [
+    "ALifeDialogue_replies_misc_3.lua",
+    "LOWER_WEAPON",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "379": [
+   "RD_ALifeLine_546b7be71d1ac1bb",
+   "Not while you've got that pointed at me, {mister}",
+   [
+    "ALifeDialogue_replies_misc_3.lua",
+    "LOWER_WEAPON",
+    "role=militia|st=neutral,careful"
+   ]
+  ],
+  "380": [
+   "RD_ALifeLine_1dfd9f851eca8439",
+   "Weapon's down, {sir}, now let's talk calmly",
+   [
+    "ALifeDialogue_replies_misc_3.lua",
+    "LOWER_WEAPON",
+    "reg=law,swat|st=friendly,neutral,careful"
+   ]
+  ],
+  "381": [
+   "RD_ALifeLine_2c7765fc798fbd22",
+   "Maybe? Maybe isn't an answer, {g:pal|lady}, make up your mind",
+   [
+    "ALifeDialogue_replies_misc_3.lua",
+    "MAYBE",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "382": [
+   "RD_ALifeLine_34a3d6bb0c72aac7",
+   "Maybe? {g:Brother|Sister}, you've got to commit to something",
+   [
+    "ALifeDialogue_replies_misc_3.lua",
+    "MAYBE",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "383": [
+   "RD_ALifeLine_07921bd3665eb177",
+   "Yeah, {g:man|lady}, let's talk, nobody wants to die",
+   [
+    "ALifeDialogue_replies_misc_4.lua",
+    "NEGOTIATE",
+    "reg=gang|st=friendly"
+   ]
+  ],
+  "384": [
+   "RD_ALifeLine_77246a892bbd5ccf",
+   "I'll hear you out, {g:brother|sister}, but I'm making no promises",
+   [
+    "ALifeDialogue_replies_misc_4.lua",
+    "NEGOTIATE",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "385": [
+   "RD_ALifeLine_73caa29e478ac699",
+   "Work it out? I know how deals go, {g:man|lady}, took a plea in '89 - worst deal of my life",
+   [
+    "ALifeDialogue_replies_misc_4.lua",
+    "NEGOTIATE",
+    "reg=prison|st=neutral,careful"
+   ]
+  ],
+  "386": [
+   "RD_ALifeLine_65ca14361b9b60b6",
+   "Nah, whatever you say, {g:man|lady}",
+   [
+    "ALifeDialogue_replies_misc_4.lua",
+    "NO",
+    "reg=gang|st=neutral,careful"
+   ]
+  ],
+  "387": [
+   "RD_ALifeLine_022d7bfa05a2fb73",
+   "No what, {g:brother|sister}? I didn't ask a thing",
+   [
+    "ALifeDialogue_replies_misc_4.lua",
+    "NO",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "388": [
+   "RD_ALifeLine_2781f4c70b7be512",
+   "Nobody offered you nothing, {g:pal|lady} - save the no for when somebody does",
+   [
+    "ALifeDialogue_replies_misc_4.lua",
+    "NO",
+    "reg=worker|st=friendly,neutral"
+   ]
+  ],
+  "389": [
+   "RD_ALifeLine_1dad65b72d606757",
+   "No what, {sir}? I didn't ask you anything - you feeling alright?",
+   [
+    "ALifeDialogue_replies_misc_4.lua",
+    "NO",
+    "reg=law|st=friendly,neutral"
+   ]
+  ],
+  "390": [
+   "RD_ALifeLine_5e4985494c4cb313",
+   "Yeah, {g:brother|sister}? Something on your mind?",
+   [
+    "ALifeDialogue_replies_npc_1.lua",
+    "NPC_OPEN",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "391": [
+   "RD_ALifeLine_7cb3c2993dc5f041",
+   "Hey, {g:brother|sister}, good to see you, what's going on?",
+   [
+    "ALifeDialogue_replies_npc_1.lua",
+    "NPC_OPEN",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "392": [
+   "RD_ALifeLine_40d624691fe40fb9",
+   "Honestly, {g:man|lady}? Yes, I'm drowning here, I'd take any help",
+   [
+    "ALifeDialogue_replies_offer_1.lua",
+    "OFFER_HELP",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "393": [
+   "RD_ALifeLine_4ee4f7886e8fbab9",
+   "What do you offer, {g:brother|sister}?",
+   [
+    "ALifeDialogue_replies_offer_1.lua",
+    "OFFER_HELP",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "394": [
+   "RD_ALifeLine_7ebc5279427b1c17",
+   "{sir}, if you want to help, you can watch the north end of the road while I check this house",
+   [
+    "ALifeDialogue_replies_offer_1.lua",
+    "OFFER_HELP",
+    "reg=law|tmp=seasoned|st=friendly|world=building,road"
+   ]
+  ],
+  "395": [
+   "RD_ALifeLine_12e43932576e4e9d",
+   "Negative, {sir} - stay clear of the operation",
+   [
+    "ALifeDialogue_replies_offer_1.lua",
+    "OFFER_HELP",
+    "reg=swat|st=neutral,friendly"
+   ]
+  ],
+  "396": [
+   "RD_ALifeLine_27e5ab884f6cfe08",
+   "Hey, thanks, {g:man|lady}, that's actually decent of you, I didn't expect it",
+   [
+    "ALifeDialogue_replies_offer_1.lua",
+    "OFFER_ITEM",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "397": [
+   "RD_ALifeLine_7a250b6b68627739",
+   "A gift? What's the angle, {g:brother|sister}?",
+   [
+    "ALifeDialogue_replies_offer_1.lua",
+    "OFFER_ITEM",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "398": [
+   "RD_ALifeLine_121ae5416aa0704d",
+   "Thanks, {g:brother|sister}, that's a good thing you did",
+   [
+    "ALifeDialogue_replies_offer_1.lua",
+    "OFFER_ITEM",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "399": [
+   "RD_ALifeLine_261ef6c656af06da",
+   "I can't accept gifts, {sir} - old rules, but, okay, I'll put it toward the shelter",
+   [
+    "ALifeDialogue_replies_offer_1.lua",
+    "OFFER_ITEM",
+    "reg=law|tmp=seasoned|st=friendly,neutral"
+   ]
+  ],
+  "400": [
+   "RD_ALifeLine_3eae48f2086d2a33",
+   "Good, {g:brother|sister}, that's all I ask",
+   [
+    "ALifeDialogue_replies_misc_4.lua",
+    "OK_ACK",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "401": [
+   "RD_ALifeLine_1649418b1ef761fe",
+   "Yes {sir}",
+   [
+    "ALifeDialogue_barks_misc_6.lua",
+    "ORDER_ACK",
+    "reg=law"
+   ]
+  ],
+  "402": [
+   "RD_ALifeLine_5ae251e073d24e00",
+   "Empty, {g:pal|lady}, you're out of luck",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_FRISK_EMPTY",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "403": [
+   "RD_ALifeLine_6e86511e01f4a80a",
+   "Hands where {he} can see them, easy",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_GROUP_HANDS_UP",
+    "reg=law,swat"
+   ]
+  ],
+  "404": [
+   "RD_ALifeLine_7b4417f72915fdad",
+   "Easy, boys, {he}'s got the drop, everyone keep calm",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_HANDS_UP_OK",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "405": [
+   "RD_ALifeLine_32f434cb672b4562",
+   "Okay, boys, {he} wins this one, let's blow",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_LEAVE_OK",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "406": [
+   "RD_ALifeLine_4be298cd64df02e9",
+   "Wrong move, {g:pal|lady} - wrong move!",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_REFUSE",
+    "reg=law,swat"
+   ]
+  ],
+  "407": [
+   "RD_ALifeLine_3691540e40a69d29",
+   "Hostile! Take {him} down!",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_REFUSE",
+    "reg=military,elite"
+   ]
+  ],
+  "408": [
+   "RD_ALifeLine_49ed02af3b31016f",
+   "You've got a mouth on you, kid, boys, show {him} what we do!",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_REFUSE",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "409": [
+   "RD_ALifeLine_57d4452638fd1b84",
+   "You asked for it! Get {him}!",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_REFUSE",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "410": [
+   "RD_ALifeLine_20450e4d38d12d8e",
+   "You've got some nerve, boys, show {him} what we think of orders",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_REFUSE",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "411": [
+   "RD_ALifeLine_1ea4ce677fcec8b0",
+   "Who the hell do you think you are? Kill {him}!",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_REFUSE",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "412": [
+   "RD_ALifeLine_780a1feb5317229c",
+   "Get {him}! Don't let {him} walk away!",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_REFUSE",
+    "reg=outlaw,club,crime"
+   ]
+  ],
+  "413": [
+   "RD_ALifeLine_295affe456ac32ff",
+   "You think you scare me? Kill {him}!",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_REFUSE",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "414": [
+   "RD_ALifeLine_169759ef71f2c74c",
+   "Big mistake! Get {him}!",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_REFUSE",
+    "reg=raider,gang,prison"
+   ]
+  ],
+  "415": [
+   "RD_ALifeLine_2d1dff554446e4b1",
+   "Not a chance, {g:pal|lady}",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_REFUSE_SOFT",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "416": [
+   "RD_ALifeLine_42c99d3177362577",
+   "{he}'s not backing off - weapons up!",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_RESIST_FIGHT",
+    "reg=law,swat"
+   ]
+  ],
+  "417": [
+   "RD_ALifeLine_442af5a01aecdb04",
+   "Trouble, {he} won't stand down",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_RESIST_FIGHT",
+    "reg=military,elite"
+   ]
+  ],
+  "418": [
+   "RD_ALifeLine_68dfca4f616612f4",
+   "Screw it, shoot {him}!",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_RESIST_FIGHT",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "419": [
+   "RD_ALifeLine_3e6b92065e687647",
+   "Now! Now! Take {him} down!",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_RESIST_FIGHT",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "420": [
+   "RD_ALifeLine_1799dbb526f49ab8",
+   "Blow {his} head off!",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_RESIST_FIGHT",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "421": [
+   "RD_ALifeLine_59270eb879f943ba",
+   "Do {him}, now, do {him}!",
+   [
+    "ALifeDialogue_barks_ord_1.lua",
+    "ORD_RESIST_FIGHT",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "422": [
+   "RD_ALifeLine_213ea3654485ee09",
+   "{he}'s crazy, get out of here!",
+   [
+    "ALifeDialogue_barks_ord_2.lua",
+    "ORD_RESIST_FLEE",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "423": [
+   "RD_ALifeLine_0d0388de3f39a551",
+   "Remember the face, we'll see {him} again",
+   [
+    "ALifeDialogue_barks_ord_2.lua",
+    "ORD_ROBBED_RELIEF",
+    "reg=law,swat"
+   ]
+  ],
+  "424": [
+   "RD_ALifeLine_78c5989022eda3f8",
+   "Not doing that again, no {sir}!",
+   [
+    "ALifeDialogue_barks_ord_2.lua",
+    "ORD_ROBBED_RELIEF",
+    "reg=military,elite"
+   ]
+  ],
+  "425": [
+   "RD_ALifeLine_71ebdd1475b50a2d",
+   "Next time {he} won't be so lucky",
+   [
+    "ALifeDialogue_barks_ord_2.lua",
+    "ORD_ROBBED_RELIEF",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "426": [
+   "RD_ALifeLine_37958dcf01eeda3a",
+   "Move, get distance, eyes on {him}",
+   [
+    "ALifeDialogue_barks_ord_2.lua",
+    "ORD_ROBBED_RUN",
+    "reg=law,swat"
+   ]
+  ],
+  "427": [
+   "RD_ALifeLine_132aef1c1c1679e6",
+   "I'll hunt {him} down, mark my words",
+   [
+    "ALifeDialogue_barks_ord_2.lua",
+    "ORD_ROBBED_RUN",
+    "reg=law,swat"
+   ]
+  ],
+  "428": [
+   "RD_ALifeLine_239474306a7d483f",
+   "{he}'s marked, {he}'s a dead {g:man|woman} walking, I'll find {him}",
+   [
+    "ALifeDialogue_barks_ord_2.lua",
+    "ORD_ROBBED_RUN",
+    "reg=law,swat"
+   ]
+  ],
+  "429": [
+   "RD_ALifeLine_6642067601828d1a",
+   "Fall back - keep your eyes on {him}",
+   [
+    "ALifeDialogue_barks_ord_2.lua",
+    "ORD_ROBBED_RUN",
+    "reg=military,elite"
+   ]
+  ],
+  "430": [
+   "RD_ALifeLine_6298af5551a8461c",
+   "You're a dead {g:man|woman} - remember that",
+   [
+    "ALifeDialogue_barks_ord_2.lua",
+    "ORD_ROBBED_RUN",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "431": [
+   "RD_ALifeLine_58b45d5104430ae4",
+   "Move out, we'll find {him} later",
+   [
+    "ALifeDialogue_barks_ord_2.lua",
+    "ORD_ROBBED_RUN",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "432": [
+   "RD_ALifeLine_6630fb6e0ef6b2a3",
+   "{he} had the nerve to rob US, {he}'s a dead {g:man|woman}",
+   [
+    "ALifeDialogue_barks_ord_2.lua",
+    "ORD_ROBBED_RUN",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "433": [
+   "RD_ALifeLine_7dbaa17238edf612",
+   "{he} robbed us, can you believe it? ROBBED us!",
+   [
+    "ALifeDialogue_barks_ord_2.lua",
+    "ORD_ROBBED_RUN",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "434": [
+   "RD_ALifeLine_4768a1af15aaabf9",
+   "{He}'s got a crowbar! Back up and draw down on {him}!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law"
+   ]
+  ],
+  "435": [
+   "RD_ALifeLine_2e78fd121b7dd30e",
+   "{He}'s swinging at us! Back away!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat,military,elite"
+   ]
+  ],
+  "436": [
+   "RD_ALifeLine_18c6e3e54b40707c",
+   "{He}'s shooting! Get down, get down!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "437": [
+   "RD_ALifeLine_1f96225a38a8ea44",
+   "{He}'s got a knife! Take {him} down!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "438": [
+   "RD_ALifeLine_195e036d75d217f1",
+   "{He}'s got a bat, grab something!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "439": [
+   "RD_ALifeLine_1dc1a0f51bdbe537",
+   "Fists up! {He}'s coming at us!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "440": [
+   "RD_ALifeLine_11eec8c85b85c55d",
+   "I don't run anything, {g:pal|lady}, go bother the boss",
+   [
+    "ALifeDialogue_barks_party_1.lua",
+    "PARTY_JOIN_NO_LEADER",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "441": [
+   "RD_ALifeLine_4063e48a5573f40c",
+   "Bring grub, {g:boy|girl}, the pot's empty",
+   [
+    "ALifeDialogue_barks_party_2.lua",
+    "PARTY_TASK_FOOD",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "442": [
+   "RD_ALifeLine_33bf3d50703f8c98",
+   "Find grub, {g:boy|girl}",
+   [
+    "ALifeDialogue_barks_party_2.lua",
+    "PARTY_TASK_FOOD",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "443": [
+   "RD_ALifeLine_70e608bb457400e7",
+   "Keep walking, {g:pal|lady}, that's a good pal",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=crime"
+   ]
+  ],
+  "444": [
+   "RD_ALifeLine_67a45cdb09b81d7c",
+   "{Sir}, I'm going to need you to stay on the sidewalk, thank you",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law|st=friendly,neutral|world=road"
+   ]
+  ],
+  "445": [
+   "RD_ALifeLine_77ea295e31e6d057",
+   "Not stopping, {sir}, just passing through",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law|st=friendly,neutral"
+   ]
+  ],
+  "446": [
+   "RD_ALifeLine_62d40a656e1b2e55",
+   "Everything okay, {sir}? You look like you've been walking all day",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law|st=friendly,neutral"
+   ]
+  ],
+  "447": [
+   "RD_ALifeLine_636ea307464e8ee3",
+   "Keep to the left, {sir}",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law|st=friendly,neutral"
+   ]
+  ],
+  "448": [
+   "RD_ALifeLine_0bffd39b7b587786",
+   "How're you doing today, {sir}?",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law|st=friendly,neutral"
+   ]
+  ],
+  "449": [
+   "RD_ALifeLine_6a4b31c558b39b75",
+   "{Sir}, go about your business",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=swat|st=friendly,neutral"
+   ]
+  ],
+  "450": [
+   "RD_ALifeLine_02723f430f1b9c7c",
+   "Ride safe, {g:brother|sister}",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=club|st=friendly,neutral"
+   ]
+  ],
+  "451": [
+   "RD_ALifeLine_6e55c09360c8bbeb",
+   "Hey, {g:brother|sister}, long walk",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=club|st=friendly,neutral"
+   ]
+  ],
+  "452": [
+   "RD_ALifeLine_24c425e9576afc4b",
+   "Keep it clean in this town, {sir}, I'll be around",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|rep=bad"
+   ]
+  ],
+  "453": [
+   "RD_ALifeLine_7551d6cc4bb4a49a",
+   "Keep it clean, {sir}",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|rep=bad"
+   ]
+  ],
+  "454": [
+   "RD_ALifeLine_28ba09e06e050fce",
+   "Good to see you out there, {sir}, we heard what you've been doing for folks",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|rep=good"
+   ]
+  ],
+  "455": [
+   "RD_ALifeLine_5ef4d04d368f8882",
+   "Hello there, {sir}",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|rep=good"
+   ]
+  ],
+  "456": [
+   "RD_ALifeLine_0c4bffcf37c97ed3",
+   "Hello there, {sir}, good to see you out here",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|rep=good"
+   ]
+  ],
+  "457": [
+   "RD_ALifeLine_34add63461db4710",
+   "Shit, that's {him}, keep your voices down",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|rep=worst"
+   ]
+  ],
+  "458": [
+   "RD_ALifeLine_4b4c6a353410319b",
+   "Don't piss {him} off, I'm begging you",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|rep=worst"
+   ]
+  ],
+  "459": [
+   "RD_ALifeLine_748b656557ea5ece",
+   "I heard what {he} did, and I want no part",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|rep=worst"
+   ]
+  ],
+  "460": [
+   "RD_ALifeLine_745f36dc587487b4",
+   "Boss, that's {him}, should I wave or hide?",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|rep=worst"
+   ]
+  ],
+  "461": [
+   "RD_ALifeLine_3df73025342c5b5a",
+   "{He}'s here",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|rep=worst"
+   ]
+  ],
+  "462": [
+   "RD_ALifeLine_6cfb9c2d22b94f75",
+   "Shit, it's {him}, everybody calm",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|rep=worst"
+   ]
+  ],
+  "463": [
+   "RD_ALifeLine_7f70aa3854919831",
+   "Ha, a do-gooder, nobody tell {him} what we did",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|rep=good"
+   ]
+  ],
+  "464": [
+   "RD_ALifeLine_279d0b616f0decb7",
+   "Wave at the do-gooder, it makes {him} nervous",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|rep=good"
+   ]
+  ],
+  "465": [
+   "RD_ALifeLine_2790bd255879b5f5",
+   "Stay inside, {sir}! Don't go near anybody who's sick",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law|st=friendly,neutral|day=0,4"
+   ]
+  ],
+  "466": [
+   "RD_ALifeLine_1bc61dcf2b6d15d9",
+   "County says stay home, {sir}. I'm supposed to tell everybody",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law|st=friendly,neutral|day=0,4"
+   ]
+  ],
+  "467": [
+   "RD_ALifeLine_3d0eafe350a6a009",
+   "Afternoon, {sir}, anybody giving you trouble out here?",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law|st=friendly,neutral|hour=12,17"
+   ]
+  ],
+  "468": [
+   "RD_ALifeLine_30ea5c0243744050",
+   "Nobody's coming, {sir}, you probably figured that out already",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law|tmp=seasoned,veteran|st=friendly,neutral|day=5,9999"
+   ]
+  ],
+  "469": [
+   "RD_ALifeLine_10ba962e51c7c388",
+   "Give me some room, {sir}",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law|st=careful"
+   ]
+  ],
+  "470": [
+   "RD_ALifeLine_7320a1b6608b49ff",
+   "Walk on slowly, {sir}, keep your hands out",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law|st=careful"
+   ]
+  ],
+  "471": [
+   "RD_ALifeLine_14258b2878c24e84",
+   "Walk toward me slowly, {sir}",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law|st=careful"
+   ]
+  ],
+  "472": [
+   "RD_ALifeLine_30053b431f03fd62",
+   "I'm warning you, {sir}!",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=law|st=hostile"
+   ]
+  ],
+  "473": [
+   "RD_ALifeLine_59c99027529650a1",
+   "State Police, you okay, {sir}?",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "role=law_trooper|st=friendly,neutral"
+   ]
+  ],
+  "474": [
+   "RD_ALifeLine_3deda46720140d01",
+   "Uh, hi, {sir}, sorry, I'm not supposed to talk to you",
+   [
+    "ALifeDialogue_barks_passing_4.lua",
+    "PASSING_PLAYER",
+    "role=soldier_green|st=friendly,neutral"
+   ]
+  ],
+  "475": [
+   "RD_ALifeLine_0c35f3ba61326d16",
+   "There {he} is",
+   [
+    "ALifeDialogue_barks_passing_4.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|rep=worst"
+   ]
+  ],
+  "476": [
+   "RD_ALifeLine_18ee8ab973853baa",
+   "Don't let {him} out of your sight",
+   [
+    "ALifeDialogue_barks_passing_4.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|rep=worst"
+   ]
+  ],
+  "477": [
+   "RD_ALifeLine_0dea93a130b01c9e",
+   "Hold it, {sir}, I know that face",
+   [
+    "ALifeDialogue_barks_passing_4.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|rep=worst"
+   ]
+  ],
+  "478": [
+   "RD_ALifeLine_25c4dca35621102c",
+   "Honor to see you, {sir}, the whole shift says so",
+   [
+    "ALifeDialogue_barks_passing_4.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|rep=best"
+   ]
+  ],
+  "479": [
+   "RD_ALifeLine_2fc44f9511571b03",
+   "Anything you need, {sir}, the department's behind you",
+   [
+    "ALifeDialogue_barks_passing_4.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|rep=best"
+   ]
+  ],
+  "480": [
+   "RD_ALifeLine_76eedc1c38f951f1",
+   "{Sir}, good to see you back",
+   [
+    "ALifeDialogue_barks_passing_4.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|rep=best"
+   ]
+  ],
+  "481": [
+   "RD_ALifeLine_061a9c650a89f03a",
+   "It's {him}, boys, it's actually {him}",
+   [
+    "ALifeDialogue_barks_passing_4.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|rep=best"
+   ]
+  ],
+  "482": [
+   "RD_ALifeLine_683ee4c25fc3ee6f",
+   "Honor, {sir}, honest",
+   [
+    "ALifeDialogue_barks_passing_4.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|rep=best"
+   ]
+  ],
+  "483": [
+   "RD_ALifeLine_5e9bc42c128bb8ec",
+   "We owe you a lot, {sir}",
+   [
+    "ALifeDialogue_barks_passing_4.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|rep=best"
+   ]
+  ],
+  "484": [
+   "RD_ALifeLine_1636de8d738668e8",
+   "Keep going, {sir}. We're watching this side",
+   [
+    "ALifeDialogue_barks_passing_4.lua",
+    "PASSING_PLAYER",
+    "reg=military,elite|rep=best"
+   ]
+  ],
+  "485": [
+   "RD_ALifeLine_0529a8eb57dbb098",
+   "Morning, {sir}, everything alright?",
+   [
+    "ALifeDialogue_barks_passing_4.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|st=friendly,neutral|hour=5,10"
+   ]
+  ],
+  "486": [
+   "RD_ALifeLine_73fc0c3f7bc87458",
+   "Afternoon, {sir}, stay out of the sun if you can",
+   [
+    "ALifeDialogue_barks_passing_4.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|st=friendly,neutral|hour=13,17"
+   ]
+  ],
+  "487": [
+   "RD_ALifeLine_5f1cdede5338e7ad",
+   "Evening, {sir}, you're cutting it close",
+   [
+    "ALifeDialogue_barks_passing_4.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|st=friendly,neutral|hour=17,20"
+   ]
+  ],
+  "488": [
+   "RD_ALifeLine_074b48357c5b3b3a",
+   "Late for walking, {sir}, you got a reason?",
+   [
+    "ALifeDialogue_barks_passing_4.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|st=friendly,neutral|hour=21,4"
+   ]
+  ],
+  "489": [
+   "RD_ALifeLine_4b7b27751e04c2a9",
+   "Drink water, {sir}, I'm not kidding about it",
+   [
+    "ALifeDialogue_barks_passing_4.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral|world=hot"
+   ]
+  ],
+  "490": [
+   "RD_ALifeLine_7a7ce1e35e8dc9ae",
+   "Wet out, keep your footing, {sir}",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral|world=rain"
+   ]
+  ],
+  "491": [
+   "RD_ALifeLine_636d3b6b5dc38ea4",
+   "Layer up, {sir}, it only gets worse",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat,military,elite|st=friendly,neutral|world=cold"
+   ]
+  ],
+  "492": [
+   "RD_ALifeLine_0214ca64763aceab",
+   "Radio's dead, so I'm just walking, {sir}, say hi to anybody you see",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=law|st=friendly,neutral|day=5,13"
+   ]
+  ],
+  "493": [
+   "RD_ALifeLine_0c5ea82c327b9bb8",
+   "{Sir}, move along, it's all clear",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "494": [
+   "RD_ALifeLine_0453e7cc1c5d7583",
+   "{Sir}, keep to the right, please",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "495": [
+   "RD_ALifeLine_5aa725ff6a4ea1e5",
+   "Folks like you, {sir}, make the day better",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "496": [
+   "RD_ALifeLine_012c8e7121166710",
+   "{Sir}, you're alright, go on",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "497": [
+   "RD_ALifeLine_5b54c5be1c750f09",
+   "Let {him} through, {he}'s not the problem",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "498": [
+   "RD_ALifeLine_144be3a037f8cc87",
+   "{Sir}, area's restricted, continue on",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=military,elite|st=friendly,neutral"
+   ]
+  ],
+  "499": [
+   "RD_ALifeLine_717fea1978dc1f30",
+   "{Sir}, you're clear, go ahead",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=military,elite|st=friendly,neutral"
+   ]
+  ],
+  "500": [
+   "RD_ALifeLine_0d22ec7a4cd3086f",
+   "Civilian, {sir}, you shouldn't be here",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=military,elite|st=friendly,neutral"
+   ]
+  ],
+  "501": [
+   "RD_ALifeLine_45f299cd7668a3b4",
+   "Eyes on {him}, but don't aim",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=military,elite|st=friendly,neutral"
+   ]
+  ],
+  "502": [
+   "RD_ALifeLine_333152c23e6504a7",
+   "Hey, {g:pal|lady}, long walk, huh?",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral"
+   ]
+  ],
+  "503": [
+   "RD_ALifeLine_23e2467a3df27d92",
+   "{Sir}, you lost? Or just looking?",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral"
+   ]
+  ],
+  "504": [
+   "RD_ALifeLine_4dfd787d00119d26",
+   "Move along, {g:buddy|honey}, nothing here",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral"
+   ]
+  ],
+  "505": [
+   "RD_ALifeLine_49b471247d944790",
+   "Easy, {g:friend|sister}, we're only looking",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral"
+   ]
+  ],
+  "506": [
+   "RD_ALifeLine_7845dc611b13e69d",
+   "Quit staring, {g:pal|lady}, it's rude",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral"
+   ]
+  ],
+  "507": [
+   "RD_ALifeLine_6b04620853141870",
+   "Anybody know {him}? No? Keep going",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral"
+   ]
+  ],
+  "508": [
+   "RD_ALifeLine_689b3f9a09a55478",
+   "Hey, {he}'s waving, how cute",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral"
+   ]
+  ],
+  "509": [
+   "RD_ALifeLine_353ee50871d8745b",
+   "Shame about the road, {g:mister|miss}, nobody's keeping it up",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral|world=road"
+   ]
+  ],
+  "510": [
+   "RD_ALifeLine_6febb14562c5b64d",
+   "Hold it, {sir}, please",
+   [
+    "ALifeDialogue_barks_passing_5.lua",
+    "PASSING_PLAYER",
+    "role=swat_operator|st=careful,hostile"
+   ]
+  ],
+  "511": [
+   "RD_ALifeLine_132668406bcf0481",
+   "That's rough, {g:buddy|lady}... that's the worst thing anyone's ever told me, and I've heard a lot",
+   [
+    "ALifeDialogue_replies_player_1.lua",
+    "PLAYER_BITTEN",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "512": [
+   "RD_ALifeLine_1a13985d34e0d1c2",
+   "Bitten, huh... well, that's a damn shame, {g:brother|sister}",
+   [
+    "ALifeDialogue_replies_player_1.lua",
+    "PLAYER_BITTEN",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "513": [
+   "RD_ALifeLine_7485ec90712389d3",
+   "Come sit, {g:brother|sister}, sit down, tell me how it happened, I'll stay with you",
+   [
+    "ALifeDialogue_replies_player_1.lua",
+    "PLAYER_BITTEN",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "514": [
+   "RD_ALifeLine_2b59863e1f281657",
+   "Aw, hell, that's rough, {g:man|lady} - here, take the bottle - drink it all, no sense saving it now",
+   [
+    "ALifeDialogue_replies_player_1.lua",
+    "PLAYER_BITTEN",
+    "reg=outlaw,crime|st=friendly,neutral"
+   ]
+  ],
+  "515": [
+   "RD_ALifeLine_1b86257e33f76dfd",
+   "Sucks to be you, {g:pal|lady}, I don't have a medic in my pocket",
+   [
+    "ALifeDialogue_replies_player_1.lua",
+    "PLAYER_HURT",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "516": [
+   "RD_ALifeLine_58eee87a1e00a6c2",
+   "Looks bad, {g:brother|sister}, you want a swig of this? It won't fix anything, but it takes the edge off",
+   [
+    "ALifeDialogue_replies_player_1.lua",
+    "PLAYER_HURT",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "517": [
+   "RD_ALifeLine_1c91bceb5c79a0c4",
+   "Sit down, {g:brother|sister}, take it easy, I'll look for a first aid kit",
+   [
+    "ALifeDialogue_replies_player_1.lua",
+    "PLAYER_HURT",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "518": [
+   "RD_ALifeLine_4d2360346f150bb8",
+   "I'm sorry, {g:brother|sister}, truly, we've all lost someone",
+   [
+    "ALifeDialogue_replies_player_1.lua",
+    "PLAYER_SAD",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "519": [
+   "RD_ALifeLine_4f51e36614bd7815",
+   "Everyone's scared, {g:pal|lady}, stop making it your personality",
+   [
+    "ALifeDialogue_replies_player_1.lua",
+    "PLAYER_SCARED",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "520": [
+   "RD_ALifeLine_003719891df18ea8",
+   "Fear's natural, {g:brother|sister}, it's what you do next that matters",
+   [
+    "ALifeDialogue_replies_player_1.lua",
+    "PLAYER_SCARED",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "521": [
+   "RD_ALifeLine_37d3118f1efa168e",
+   "Hunger's a hell of a thing, {g:brother|sister}",
+   [
+    "ALifeDialogue_replies_player_2.lua",
+    "PLAYER_TIRED_HUNGRY",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "522": [
+   "RD_ALifeLine_4136ff54442bab31",
+   "Come on, {g:man|lady}, I've got a family",
+   [
+    "ALifeDialogue_barks_misc_7.lua",
+    "PLEAD",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "523": [
+   "RD_ALifeLine_67481cab24bcfb7f",
+   "A shot of whiskey with honey, {g:brother|sister}, cures anything",
+   [
+    "ALifeDialogue_replies_misc_4.lua",
+    "REMQ_WELL",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "524": [
+   "RD_ALifeLine_6320187a47192331",
+   "You didn't hear me? {g:Brother|Sister}, clean out your ears",
+   [
+    "ALifeDialogue_replies_misc_4.lua",
+    "REPEAT",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "525": [
+   "RD_ALifeLine_25f480c50cd4f7ba",
+   "I didn't say anything, {sir} - you doing okay? You look a little turned around",
+   [
+    "ALifeDialogue_replies_misc_4.lua",
+    "REPEAT",
+    "reg=law|st=friendly,neutral"
+   ]
+  ],
+  "526": [
+   "RD_ALifeLine_1f5467990bc67f66",
+   "{He}'s too good with that gun! Back off, back off!",
+   [
+    "ALifeDialogue_barks_misc_7.lua",
+    "RETREAT",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "527": [
+   "RD_ALifeLine_5186658331f0960a",
+   "Screw this! We're out of here, {he}'s shooting!",
+   [
+    "ALifeDialogue_barks_misc_7.lua",
+    "RETREAT",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "528": [
+   "RD_ALifeLine_4a86eb6234d09c05",
+   "Those fists hurt, back off! We'll get {him} later!",
+   [
+    "ALifeDialogue_barks_misc_7.lua",
+    "RETREAT",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "529": [
+   "RD_ALifeLine_7b4c31ae155d35cf",
+   "{He} swings too hard! Pull back!",
+   [
+    "ALifeDialogue_barks_misc_7.lua",
+    "RETREAT",
+    "reg=outlaw,raider,gang,club,crime,prison"
+   ]
+  ],
+  "530": [
+   "RD_ALifeLine_54d260e23a4798e3",
+   "{He}'s driving that truck at us! Fall back!",
+   [
+    "ALifeDialogue_barks_misc_7.lua",
+    "RETREAT",
+    "reg=outlaw,raider,gang,club,crime,prison|world=vehicle"
+   ]
+  ],
+  "531": [
+   "RD_ALifeLine_2e9505b82e2d18e6",
+   "Why you following us, {g:man|lady}? Back off!",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_DONT_FOLLOW",
+    "reg=gang|tmp=predator,seasoned"
+   ]
+  ],
+  "532": [
+   "RD_ALifeLine_181a50cc1053a8ee",
+   "{g:Pal|Lady}, other way - I won't ask again",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_DONT_FOLLOW",
+    "reg=club|tmp=predator,seasoned,veteran"
+   ]
+  ],
+  "533": [
+   "RD_ALifeLine_209c33e24c63e130",
+   "Back off, {g:buddy|lady}, nothing good for you up this way",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_DONT_FOLLOW",
+    "reg=club|tmp=predator,seasoned,veteran"
+   ]
+  ],
+  "534": [
+   "RD_ALifeLine_5d6e92f82bff0b61",
+   "Back off! BACK OFF! I got eyes in the back of my head, {g:man|lady}!",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_DONT_FOLLOW",
+    "reg=prison|tmp=predator,seasoned"
+   ]
+  ],
+  "535": [
+   "RD_ALifeLine_5c251c474e5234e4",
+   "Turn around, {g:man|lady}, don't make this your last walk",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_DONT_FOLLOW",
+    "reg=gang"
+   ]
+  ],
+  "536": [
+   "RD_ALifeLine_2b10b8c422f3cdce",
+   "Should've listened, {g:pal|lady}",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_EXECUTE",
+    "reg=club|tmp=predator,seasoned,veteran"
+   ]
+  ],
+  "537": [
+   "RD_ALifeLine_7e7076a3687a1df0",
+   "It's business - finish {him}",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_EXECUTE",
+    "reg=crime|tmp=seasoned,predator"
+   ]
+  ],
+  "538": [
+   "RD_ALifeLine_62165e8158915583",
+   "Two minutes was all you had to give me - do {him}",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_EXECUTE",
+    "reg=crime,outlaw"
+   ]
+  ],
+  "539": [
+   "RD_ALifeLine_49eee5a022e3003b",
+   "{he} picked it - go on",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_EXECUTE",
+    "reg=crime,gang"
+   ]
+  ],
+  "540": [
+   "RD_ALifeLine_45504e000ade4a92",
+   "Open {him} up and take {his} boots after!",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_EXECUTE",
+    "reg=raider|tmp=predator"
+   ]
+  ],
+  "541": [
+   "RD_ALifeLine_36ccf9c42b293a91",
+   "That's on you, {g:man|lady} - light {him}",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_EXECUTE",
+    "reg=gang"
+   ]
+  ],
+  "542": [
+   "RD_ALifeLine_3dbce7963c8e79f1",
+   "God, alright - put {him} down",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_EXECUTE",
+    "reg=outlaw|tmp=seasoned"
+   ]
+  ],
+  "543": [
+   "RD_ALifeLine_6f8ccde7045a1b64",
+   "{he} made {his} choice at the second ask - finish it",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_EXECUTE",
+    "reg=crime,club,outlaw|tmp=veteran"
+   ]
+  ],
+  "544": [
+   "RD_ALifeLine_2596518b502bab0e",
+   "Get your hands up, {g:man|lady}, I ain't gonna say it nice twice",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_HANDS_UP_1",
+    "reg=gang|tmp=predator,seasoned"
+   ]
+  ],
+  "545": [
+   "RD_ALifeLine_37bc35896b033ff7",
+   "Get your hands over your head and keep 'em there, {g:pal|lady}",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_HANDS_UP_1",
+    "reg=club|tmp=predator,seasoned,veteran"
+   ]
+  ],
+  "546": [
+   "RD_ALifeLine_2b485ed3527c8206",
+   "Palms to the sky, {g:buddy|lady}, like you're flagging down a ride",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_HANDS_UP_1",
+    "reg=club|tmp=predator,seasoned,veteran"
+   ]
+  ],
+  "547": [
+   "RD_ALifeLine_00369d0c3dc847f7",
+   "Hands up, {g:man|lady}, hands UP - don't make me repeat myself out here",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_HANDS_UP_1",
+    "reg=gang"
+   ]
+  ],
+  "548": [
+   "RD_ALifeLine_7a9b9ead43892a67",
+   "Don't make me walk over there! Hands up, {g:man|lady}!",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_HANDS_UP_2",
+    "reg=gang|tmp=predator,seasoned"
+   ]
+  ],
+  "549": [
+   "RD_ALifeLine_40b1a22e6d4ce3e4",
+   "Hands in the air, {g:pal|lady}, I'm watching that right hand real close",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_HANDS_UP_2",
+    "reg=club|tmp=predator,seasoned,veteran"
+   ]
+  ],
+  "550": [
+   "RD_ALifeLine_2901ce03222030b0",
+   "Get 'em up, get 'em up! My finger's shaking, {g:man|lady}!",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_HANDS_UP_2",
+    "reg=prison|tmp=predator,seasoned"
+   ]
+  ],
+  "551": [
+   "RD_ALifeLine_747015ec5be19c03",
+   "Come on, {g:man|lady}, hands up - I really don't feel like digging",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_HANDS_UP_2",
+    "reg=outlaw|tmp=seasoned,predator"
+   ]
+  ],
+  "552": [
+   "RD_ALifeLine_08b009de57f30d21",
+   "Hands up or you dead, {g:man|lady}! Last time!",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_HANDS_UP_3",
+    "reg=gang|tmp=predator,seasoned"
+   ]
+  ],
+  "553": [
+   "RD_ALifeLine_209e0a360174ed2d",
+   "Don't die stupid, {g:man|lady}! Hands in the air!",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_HANDS_UP_3",
+    "reg=gang|tmp=predator,seasoned"
+   ]
+  ],
+  "554": [
+   "RD_ALifeLine_32c433067765cf08",
+   "Up, or you don't walk away, your choice, {g:pal|lady}",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_HANDS_UP_3",
+    "reg=club|role=biker_boss"
+   ]
+  ],
+  "555": [
+   "RD_ALifeLine_004e8de40b5d5f75",
+   "Don't you take another step, {g:man|lady}!",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_MOVE",
+    "reg=gang|tmp=predator,seasoned"
+   ]
+  ],
+  "556": [
+   "RD_ALifeLine_4821994017dcbff6",
+   "Ain't nobody dismissed you, {g:pal|lady}",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_MOVE",
+    "reg=club|tmp=predator,seasoned,veteran"
+   ]
+  ],
+  "557": [
+   "RD_ALifeLine_0a3608344a3b8408",
+   "You don't leave the party before the host, {g:buddy|lady}",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_MOVE",
+    "reg=club|tmp=predator,seasoned,veteran"
+   ]
+  ],
+  "558": [
+   "RD_ALifeLine_41308dde12c0079b",
+   "Wrong direction, {g:pal|lady} - turn around",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_MOVE",
+    "reg=club|tmp=predator,seasoned,veteran"
+   ]
+  ],
+  "559": [
+   "RD_ALifeLine_360fba5413cfd502",
+   "Turn around, {g:bud|lady}, that road don't go anywhere you'll live to see",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_MOVE",
+    "reg=outlaw|tmp=seasoned,predator|world=road"
+   ]
+  ],
+  "560": [
+   "RD_ALifeLine_4c2b565a36053e4e",
+   "Where you going, {g:man|lady}? We wasn't finished talking",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_MOVE",
+    "reg=gang"
+   ]
+  ],
+  "561": [
+   "RD_ALifeLine_194c12864fadd892",
+   "All you're getting from me is a sad face, {g:man|lady}",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_NOTHING",
+    "reg=gang|tmp=predator,seasoned"
+   ]
+  ],
+  "562": [
+   "RD_ALifeLine_362e387e34731dc5",
+   "Nothing for us? {g:Pal|Lady}, you'll never hear me live this down",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_NOTHING",
+    "reg=club|tmp=predator,seasoned,veteran"
+   ]
+  ],
+  "563": [
+   "RD_ALifeLine_51883278236eeae4",
+   "{g:Buddy|Lady}, this was about as useful as a ditch full of the dead",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_NOTHING",
+    "reg=club|tmp=predator"
+   ]
+  ],
+  "564": [
+   "RD_ALifeLine_6eb5a9c446b72ce3",
+   "Not taking a thing - that's cruel, {g:man|lady}",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_NOTHING",
+    "reg=prison|tmp=predator,seasoned"
+   ]
+  ],
+  "565": [
+   "RD_ALifeLine_7936a8e462bddac8",
+   "Hahaha! Look at {him}! All that fear and I'm not even taking anything!",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_NOTHING",
+    "reg=raider|tmp=predator"
+   ]
+  ],
+  "566": [
+   "RD_ALifeLine_1103f72451914a64",
+   "Go your way, {g:man|lady}, don't follow us",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_RELEASE",
+    "reg=gang|tmp=predator,seasoned"
+   ]
+  ],
+  "567": [
+   "RD_ALifeLine_1320e53c4d308645",
+   "Walk on, {g:pal|lady}, we're heading the other way - keep it like that",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_RELEASE",
+    "reg=club|tmp=predator,seasoned,veteran"
+   ]
+  ],
+  "568": [
+   "RD_ALifeLine_19c7aa4046cf5723",
+   "Aight, you done - walk it off, {g:man|lady}",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_RELEASE",
+    "reg=gang"
+   ]
+  ],
+  "569": [
+   "RD_ALifeLine_28f1cf914ac3d4ad",
+   "Hold still, {g:man|lady}, I'm patting you down",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_SEARCH",
+    "reg=gang|tmp=predator,seasoned"
+   ]
+  ],
+  "570": [
+   "RD_ALifeLine_0235856242613f5d",
+   "Easy, {g:pal|lady}, just checking the load you're hauling",
+   [
+    "ALifeDialogue_barks_robbery_1.lua",
+    "ROBBERY_SEARCH",
+    "reg=club|tmp=predator,seasoned,veteran"
+   ]
+  ],
+  "571": [
+   "RD_ALifeLine_68ef661a7da67392",
+   "Shut the hell up, {g:man|lady}!",
+   [
+    "ALifeDialogue_barks_robbery_2.lua",
+    "ROBBERY_SHUT_UP",
+    "reg=gang|tmp=predator,seasoned"
+   ]
+  ],
+  "572": [
+   "RD_ALifeLine_06f97af749b54e3d",
+   "Lower the volume, {g:pal|lady}, them dead folks got good ears",
+   [
+    "ALifeDialogue_barks_robbery_2.lua",
+    "ROBBERY_SHUT_UP",
+    "reg=club|tmp=predator,seasoned,veteran"
+   ]
+  ],
+  "573": [
+   "RD_ALifeLine_3cdbf07c53f8d727",
+   "Shut the hell up! Twenty years of noise, {g:man|lady}, I want QUIET!",
+   [
+    "ALifeDialogue_barks_robbery_2.lua",
+    "ROBBERY_SHUT_UP",
+    "reg=prison|tmp=predator,seasoned"
+   ]
+  ],
+  "574": [
+   "RD_ALifeLine_6b801dfd42e8684e",
+   "Shut up, {g:man|lady}, the whole street don't need your business",
+   [
+    "ALifeDialogue_barks_robbery_2.lua",
+    "ROBBERY_SHUT_UP",
+    "reg=gang|world=road"
+   ]
+  ],
+  "575": [
+   "RD_ALifeLine_0dbbcf5f60ffe294",
+   "Stand still, {g:man|lady}, you in the wrong neighborhood",
+   [
+    "ALifeDialogue_barks_robbery_2.lua",
+    "ROBBERY_SPOT",
+    "reg=gang|tmp=predator,seasoned"
+   ]
+  ],
+  "576": [
+   "RD_ALifeLine_6b81f31c374af1d0",
+   "Pull over, {g:pal|lady}, figure of speech - stand still",
+   [
+    "ALifeDialogue_barks_robbery_2.lua",
+    "ROBBERY_SPOT",
+    "reg=club|tmp=predator,seasoned,veteran"
+   ]
+  ],
+  "577": [
+   "RD_ALifeLine_2c86045031407882",
+   "Well, look at this - a pedestrian, right there's far enough, {g:pal|lady}",
+   [
+    "ALifeDialogue_barks_robbery_2.lua",
+    "ROBBERY_SPOT",
+    "reg=club|tmp=predator,seasoned,veteran"
+   ]
+  ],
+  "578": [
+   "RD_ALifeLine_08050efe76b536e2",
+   "{g:Fella|Lady}, that's close enough - stand there and breathe for me",
+   [
+    "ALifeDialogue_barks_robbery_2.lua",
+    "ROBBERY_SPOT",
+    "reg=club|role=biker_boss"
+   ]
+  ],
+  "579": [
+   "RD_ALifeLine_600e00f72c988e1c",
+   "Ride's over, {g:buddy|lady}, plant your feet!",
+   [
+    "ALifeDialogue_barks_robbery_2.lua",
+    "ROBBERY_SPOT",
+    "reg=club|tmp=predator"
+   ]
+  ],
+  "580": [
+   "RD_ALifeLine_7ef07fc1435667e0",
+   "Right there, {g:bud|lady} - quit walking",
+   [
+    "ALifeDialogue_barks_robbery_2.lua",
+    "ROBBERY_SPOT",
+    "reg=outlaw|tmp=seasoned,predator"
+   ]
+  ],
+  "581": [
+   "RD_ALifeLine_4066a2e532a00fa6",
+   "Put that down, {g:man|lady}! You ain't gonna use it!",
+   [
+    "ALifeDialogue_barks_robbery_2.lua",
+    "ROBBERY_WEAPON_DOWN",
+    "reg=gang|tmp=predator,seasoned"
+   ]
+  ],
+  "582": [
+   "RD_ALifeLine_4109fc432c99d085",
+   "Look around you, {g:pal|lady}, count us, then put it down",
+   [
+    "ALifeDialogue_barks_robbery_2.lua",
+    "ROBBERY_WEAPON_DOWN",
+    "reg=club|role=biker_boss"
+   ]
+  ],
+  "583": [
+   "RD_ALifeLine_042c3eed14c755a6",
+   "Weapon DOWN! I'm crazy, {g:man|lady}, I got papers that say so!",
+   [
+    "ALifeDialogue_barks_robbery_2.lua",
+    "ROBBERY_WEAPON_DOWN",
+    "reg=prison|tmp=predator,seasoned"
+   ]
+  ],
+  "584": [
+   "RD_ALifeLine_566fe4bb2fa01b1f",
+   "Ooh, {he}'s feeling brave! Put it down, precious!",
+   [
+    "ALifeDialogue_barks_robbery_2.lua",
+    "ROBBERY_WEAPON_DOWN",
+    "reg=raider|tmp=predator"
+   ]
+  ],
+  "585": [
+   "RD_ALifeLine_02cd5ae20944dad8",
+   "You holding trouble in the wrong place, {g:man|lady}, set it down",
+   [
+    "ALifeDialogue_barks_robbery_2.lua",
+    "ROBBERY_WEAPON_DOWN",
+    "reg=gang"
+   ]
+  ],
+  "586": [
+   "RD_ALifeLine_00e0fca41260eed6",
+   "Fall rides are the best, {g:brother|sister}, colors on the hills, crisp air, no bugs",
+   [
+    "ALifeDialogue_replies_misc_4.lua",
+    "SEAQ_AUTUMN",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "587": [
+   "RD_ALifeLine_6a71dd100f408507",
+   "Spring was riding season, {g:brother|sister}, first warm day, a hundred bikes on the highway",
+   [
+    "ALifeDialogue_replies_misc_4.lua",
+    "SEAQ_SPRING",
+    "reg=club|st=neutral,careful|world=road"
+   ]
+  ],
+  "588": [
+   "RD_ALifeLine_163e46d14323e62b",
+   "Summer on the block was the best, {g:man|lady}, hydrants open, music loud, kids everywhere",
+   [
+    "ALifeDialogue_replies_misc_4.lua",
+    "SEAQ_SUMMER",
+    "reg=gang|st=neutral,careful"
+   ]
+  ],
+  "589": [
+   "RD_ALifeLine_7fbc3c8622c171f2",
+   "Summer rides, {g:brother|sister}, windows down, wind in your face, I miss it",
+   [
+    "ALifeDialogue_replies_misc_4.lua",
+    "SEAQ_SUMMER",
+    "reg=club|st=neutral,careful|world=window"
+   ]
+  ],
+  "590": [
+   "RD_ALifeLine_5a51c6016a0ac65b",
+   "Winter, we hole up, {g:brother|sister}, drink, wait it out",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "SEAQ_WINTER",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "591": [
+   "RD_ALifeLine_62009a704f21c63c",
+   "Alright, {sir}, eat it here, where I can see you - no offense meant",
+   [
+    "ALifeDialogue_yes_misc_1.lua",
+    "SHARE_FOOD",
+    "reg=law"
+   ]
+  ],
+  "592": [
+   "RD_ALifeLine_63dab2f35a2371bb",
+   "Understood - move along then, {sir}",
+   [
+    "ALifeDialogue_no_misc_1.lua",
+    "SHARE_FOOD",
+    "reg=law,swat"
+   ]
+  ],
+  "593": [
+   "RD_ALifeLine_2d7c484219cdd578",
+   "Back off, {g:man|lady}! I'm jumpy! I'm real jumpy!",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_CAREFUL",
+    "reg=prison"
+   ]
+  ],
+  "594": [
+   "RD_ALifeLine_5f2cf09f33556b7c",
+   "Back up, {g:man|lady}! We see you!",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_CAREFUL",
+    "reg=gang"
+   ]
+  ],
+  "595": [
+   "RD_ALifeLine_2878b45c5baa3383",
+   "Turn around, {g:man|lady}, nothing for you here!",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_CAREFUL",
+    "reg=gang"
+   ]
+  ],
+  "596": [
+   "RD_ALifeLine_7cf93c7c06030c51",
+   "Hold it right there, {g:pal|lady}, we don't know you",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_CAREFUL",
+    "reg=club"
+   ]
+  ],
+  "597": [
+   "RD_ALifeLine_1e26a66861462d9f",
+   "Don't get any closer to the fire, {g:pal|lady}",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_CAREFUL",
+    "reg=club"
+   ]
+  ],
+  "598": [
+   "RD_ALifeLine_383a516e49b8bf42",
+   "That's far enough, {g:bud|lady}",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_CAREFUL",
+    "reg=outlaw"
+   ]
+  ],
+  "599": [
+   "RD_ALifeLine_2aef4b4460f24c46",
+   "You lost, {g:buddy|lady}? Come on, we'll point you right",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_FRIENDLY",
+    "reg=raider"
+   ]
+  ],
+  "600": [
+   "RD_ALifeLine_7b774d337f5a6c13",
+   "Quit shouting and get in here, {g:man|lady}!",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_FRIENDLY",
+    "reg=prison|world=inside"
+   ]
+  ],
+  "601": [
+   "RD_ALifeLine_11df279f56c9539d",
+   "We hear you, {g:man|lady}! Come on over!",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_FRIENDLY",
+    "reg=gang"
+   ]
+  ],
+  "602": [
+   "RD_ALifeLine_1db6fa5c025cb7bc",
+   "Easy, brothers, this one's alright, come on in, {g:pal|lady}",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_FRIENDLY",
+    "reg=club"
+   ]
+  ],
+  "603": [
+   "RD_ALifeLine_6f95bb9a3bb18781",
+   "Right here, {g:pal|lady} - walk slow past the dog, he don't know you yet",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_FRIENDLY",
+    "reg=club"
+   ]
+  ],
+  "604": [
+   "RD_ALifeLine_63d1427e526fdab5",
+   "{he}'s testing us - nobody answer",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_CAREFUL",
+    "reg=crime,club,outlaw"
+   ]
+  ],
+  "605": [
+   "RD_ALifeLine_040ac3010713acd1",
+   "Don't say a word back, let {him} wonder",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_CAREFUL",
+    "reg=crime,club,outlaw"
+   ]
+  ],
+  "606": [
+   "RD_ALifeLine_12b290e949765f66",
+   "Keep {him} talking, somebody get around the side",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_CAREFUL",
+    "reg=law,military|tmp=veteran"
+   ]
+  ],
+  "607": [
+   "RD_ALifeLine_71130d947ef32686",
+   "One more yell and I put one in the dirt next to {him}",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_CAREFUL",
+    "reg=outlaw,crime"
+   ]
+  ],
+  "608": [
+   "RD_ALifeLine_1e1391e76978c115",
+   "{he} takes one more step, somebody take the shot",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_CAREFUL",
+    "reg=outlaw,crime"
+   ]
+  ],
+  "609": [
+   "RD_ALifeLine_52cb6fbf3eca9397",
+   "Real quiet now, let's see what {he} does",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_CAREFUL",
+    "reg=club,crime,gang"
+   ]
+  ],
+  "610": [
+   "RD_ALifeLine_3edc048f570b6bf2",
+   "Nobody move, see what {he} does",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_CAREFUL",
+    "reg=club,crime,gang"
+   ]
+  ],
+  "611": [
+   "RD_ALifeLine_1b5825ef60f83221",
+   "Three times {he}'s hollered now, {he}'s fishing for something",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_CAREFUL",
+    "reg=military,law,crime|tmp=veteran"
+   ]
+  ],
+  "612": [
+   "RD_ALifeLine_08d9e2c76e311595",
+   "Hold, hold - let {him} show {himself} first",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_CAREFUL",
+    "reg=military,law,crime|tmp=veteran"
+   ]
+  ],
+  "613": [
+   "RD_ALifeLine_2a3ce6d940534838",
+   "Keep {him} talking and get somebody up on the roof",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_CAREFUL",
+    "reg=crime,club,outlaw|world=building,rooftop"
+   ]
+  ],
+  "614": [
+   "RD_ALifeLine_32cf9a94427197de",
+   "{he}'s counting us, that's what the yelling's for - don't answer",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_CAREFUL",
+    "reg=crime,outlaw,military|tmp=veteran"
+   ]
+  ],
+  "615": [
+   "RD_ALifeLine_742d4a2735b02e6c",
+   "I want two on the back while {he}'s hollering out front",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_CAREFUL",
+    "reg=crime,club,gang"
+   ]
+  ],
+  "616": [
+   "RD_ALifeLine_32fac83c184c60bd",
+   "Nobody answers - let {him} talk to the wind",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_CAREFUL",
+    "reg=club|world=wind"
+   ]
+  ],
+  "617": [
+   "RD_ALifeLine_7cca66ef299e5144",
+   "Don't fight them, {he}'s fishing and we're not biting",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_CAREFUL",
+    "reg=crime|tmp=veteran"
+   ]
+  ],
+  "618": [
+   "RD_ALifeLine_4b3e0b6339359cd1",
+   "We hear you, {g:brother|sister} - quiet now",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_FRIENDLY",
+    "reg=club,gang,crime"
+   ]
+  ],
+  "619": [
+   "RD_ALifeLine_68f88aed2e183e0f",
+   "Heard {him} - stand by",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_FRIENDLY",
+    "role=elite_delta,elite_operator"
+   ]
+  ],
+  "620": [
+   "RD_ALifeLine_6723d08f0a1d7c6c",
+   "Loud, but {he}'s ours - let {him} in",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_FRIENDLY",
+    "reg=outlaw,crime,club"
+   ]
+  ],
+  "621": [
+   "RD_ALifeLine_0bcd74373f71b7fa",
+   "That's a voice we know - let {him} come on",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_FRIENDLY",
+    "reg=crime,outlaw"
+   ]
+  ],
+  "622": [
+   "RD_ALifeLine_2a07469519022770",
+   "There {he} is! Go get {him}!",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider,gang,prison,outlaw"
+   ]
+  ],
+  "623": [
+   "RD_ALifeLine_7db5ad8e5a2ba97b",
+   "There - hear that? Go on, take {him}",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider,gang,prison,outlaw"
+   ]
+  ],
+  "624": [
+   "RD_ALifeLine_5d16986123dcc48f",
+   "{he}'s calling us out, let's oblige {him}",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=club,gang,crime"
+   ]
+  ],
+  "625": [
+   "RD_ALifeLine_19f4668f63d8ecd1",
+   "Keep looking. Don't let {him} surprise you",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider,outlaw,gang,club"
+   ]
+  ],
+  "626": [
+   "RD_ALifeLine_692a17581b52326e",
+   "Loud little rabbit, ain't {he}?",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider,prison,club"
+   ]
+  ],
+  "627": [
+   "RD_ALifeLine_23780a5f461c60eb",
+   "Target's announcing {himself} - move",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=military,elite,swat"
+   ]
+  ],
+  "628": [
+   "RD_ALifeLine_0d87868d2fd877ba",
+   "Flank the barn, {he}'s on the far side of it",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider,club,outlaw"
+   ]
+  ],
+  "629": [
+   "RD_ALifeLine_199e04572685833d",
+   "Go around on the left, {he}'s on the road",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=military,swat,law|world=road"
+   ]
+  ],
+  "630": [
+   "RD_ALifeLine_52ad342f527bf9bb",
+   "Oh, {he}'s brave, let's go see how brave",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=prison,raider"
+   ]
+  ],
+  "631": [
+   "RD_ALifeLine_7affea4717bb3389",
+   "{he}'s close, kill the light and wait for {him}",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider,gang,outlaw|hour=20,5"
+   ]
+  ],
+  "632": [
+   "RD_ALifeLine_11b0da52602b267d",
+   "You just made a big mistake, {g:pal|lady}!",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=club,gang,raider,crime"
+   ]
+  ],
+  "633": [
+   "RD_ALifeLine_26d7581753750bea",
+   "Hah. {He}'s lost - listen to {him}",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider,prison,gang"
+   ]
+  ],
+  "634": [
+   "RD_ALifeLine_4643a6942180de4c",
+   "Take {him} alive if you can, if you can't, don't",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=crime,club|tmp=veteran,predator"
+   ]
+  ],
+  "635": [
+   "RD_ALifeLine_7439b4a14faa14cf",
+   "{he}'s calling us - be rude not to answer",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=club,crime,raider"
+   ]
+  ],
+  "636": [
+   "RD_ALifeLine_14256493513ad710",
+   "Listen to {him}, {he} don't even know {he}'s advertising",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=crime,outlaw,club|tmp=veteran,seasoned"
+   ]
+  ],
+  "637": [
+   "RD_ALifeLine_6db2db224404a0d1",
+   "Keep listening. We don't know what {he} wants",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider,gang,club"
+   ]
+  ],
+  "638": [
+   "RD_ALifeLine_729a51895f6517e7",
+   "Let {him} keep yelling. I wanna hear if {he} cracks",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider,prison|tmp=predator"
+   ]
+  ],
+  "639": [
+   "RD_ALifeLine_06319664459309f3",
+   "{he}'s yelling for help, ain't that convenient",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider,prison|tmp=predator"
+   ]
+  ],
+  "640": [
+   "RD_ALifeLine_57a710e23f6de8d3",
+   "That's the one from this morning - get {him}",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider,gang,outlaw|hour=4,11"
+   ]
+  ],
+  "641": [
+   "RD_ALifeLine_1792c25069a3353f",
+   "Nobody move, {he}'ll come back to the noise {he} made",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=crime,club,outlaw"
+   ]
+  ],
+  "642": [
+   "RD_ALifeLine_219efe6a455272c4",
+   "{he}'s alone, you can hear alone",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider,prison,gang|tmp=predator"
+   ]
+  ],
+  "643": [
+   "RD_ALifeLine_2386d1657697ecd9",
+   "Take {him} breathing if you can, I got questions",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "role=raider_boss,gang_boss,biker_boss"
+   ]
+  ],
+  "644": [
+   "RD_ALifeLine_4b335a4536ecb767",
+   "Go get {him}, and don't be all day about it",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "role=raider_boss,gang_boss,biker_boss"
+   ]
+  ],
+  "645": [
+   "RD_ALifeLine_0f5b772a0eb0f698",
+   "That's {him}, same voice as Tanner Road - go",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider,gang,crime"
+   ]
+  ],
+  "646": [
+   "RD_ALifeLine_161dae625f241b8f",
+   "Move quiet, let {him} keep yelling, it's helping us",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=crime,outlaw,raider"
+   ]
+  ],
+  "647": [
+   "RD_ALifeLine_6f139a047bf96fc9",
+   "Quiet, let {him} yell once more and we'll have {him}",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=crime,outlaw,raider"
+   ]
+  ],
+  "648": [
+   "RD_ALifeLine_1cf73a071da3c219",
+   "Hear that? That's a {g:man|woman} who thinks somebody's coming for {him}",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=prison,raider,gang|tmp=predator"
+   ]
+  ],
+  "649": [
+   "RD_ALifeLine_25a27d1e2e35e784",
+   "Cut the road behind {him}, {he} ain't leaving on it",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider,club,crime|world=road"
+   ]
+  ],
+  "650": [
+   "RD_ALifeLine_7a2b154d7b709f11",
+   "{he}'s making enough noise to wake the county",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider,outlaw,prison"
+   ]
+  ],
+  "651": [
+   "RD_ALifeLine_3b24c07a7115283d",
+   "{he} wants found - find {him}",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=crime,raider,outlaw"
+   ]
+  ],
+  "652": [
+   "RD_ALifeLine_27146e55367478cc",
+   "Loud man, empty road - get around behind {him}",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider,crime,outlaw|world=road"
+   ]
+  ],
+  "653": [
+   "RD_ALifeLine_589d11457daa2446",
+   "Go, and bring back whatever {he}'s carrying",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=gang,raider,crime"
+   ]
+  ],
+  "654": [
+   "RD_ALifeLine_5f7ffd7267cb4efb",
+   "Somebody's begging for attention out there - give {him} some",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider,gang|tmp=predator"
+   ]
+  ],
+  "655": [
+   "RD_ALifeLine_283cf3eb54a91c9b",
+   "Heh, {he}'s gonna do that one more time, I can feel it",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=raider|tmp=predator"
+   ]
+  ],
+  "656": [
+   "RD_ALifeLine_18188ea55e2f2c05",
+   "Yo, that's {him} - go on, wrap it up",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=gang"
+   ]
+  ],
+  "657": [
+   "RD_ALifeLine_71697e7164f87c39",
+   "{he}'s making it easy, I don't trust easy - go careful",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_HOSTILE",
+    "reg=outlaw|tmp=seasoned"
+   ]
+  ],
+  "658": [
+   "RD_ALifeLine_0331a8a8074ebb79",
+   "Unknown voice, forty yards - watch {him}",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_NEUTRAL",
+    "reg=military,elite"
+   ]
+  ],
+  "659": [
+   "RD_ALifeLine_04d3e5751a2217d3",
+   "{sir}, lower your voice",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_NEUTRAL",
+    "reg=law,swat"
+   ]
+  ],
+  "660": [
+   "RD_ALifeLine_3ad9bacb677867a1",
+   "Probably just some drifter - let {him} holler",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_NEUTRAL",
+    "reg=crime,club,outlaw"
+   ]
+  ],
+  "661": [
+   "RD_ALifeLine_41d27e0d55749785",
+   "Let {him} holler, costs us nothing to listen",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_NEUTRAL",
+    "reg=crime,club,outlaw"
+   ]
+  ],
+  "662": [
+   "RD_ALifeLine_057cf71c7582cdc8",
+   "Everybody quiet - let {him} come to us",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_NEUTRAL",
+    "reg=law,military|tmp=veteran"
+   ]
+  ],
+  "663": [
+   "RD_ALifeLine_120ace9f03273cd4",
+   "{Sir}, quiet down out there",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_NEUTRAL",
+    "reg=law"
+   ]
+  ],
+  "664": [
+   "RD_ALifeLine_2cc02b5b39e1866d",
+   "{sir}, identify yourself before you keep shouting!",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_NEUTRAL",
+    "reg=law"
+   ]
+  ],
+  "665": [
+   "RD_ALifeLine_762556dd06b22966",
+   "Nobody move, let's hear {him} say something useful",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_NEUTRAL",
+    "reg=law,military,crime"
+   ]
+  ],
+  "666": [
+   "RD_ALifeLine_7d44c1b340c27f4f",
+   "{he}'s loud, loud means new out here, or stupid",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_NEUTRAL",
+    "reg=outlaw,crime,club|tmp=seasoned,veteran"
+   ]
+  ],
+  "667": [
+   "RD_ALifeLine_69a5a2b92c39513a",
+   "Whoever that is, {he}'s either asking or advertising",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_NEUTRAL",
+    "reg=crime,outlaw,club"
+   ]
+  ],
+  "668": [
+   "RD_ALifeLine_2c14845373163b74",
+   "That's either a {g:man|woman} or a very confident problem",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HEARD_NEUTRAL",
+    "reg=outlaw,crime|mood=funny"
+   ]
+  ],
+  "669": [
+   "RD_ALifeLine_3111b9fb70e0c34e",
+   "You shouldn't have made a sound, {g:pal|lady}",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_HOSTILE",
+    "reg=club"
+   ]
+  ],
+  "670": [
+   "RD_ALifeLine_66811f5f2afb061d",
+   "Don't yell, {g:man|lady}! What do you want?",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_NEUTRAL",
+    "reg=prison"
+   ]
+  ],
+  "671": [
+   "RD_ALifeLine_7fa0f5ec0e463ab9",
+   "Say what you gotta say, {g:man|lady}",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_NEUTRAL",
+    "reg=gang"
+   ]
+  ],
+  "672": [
+   "RD_ALifeLine_2a8b36083c249d9e",
+   "Keep it short, {g:man|lady} - what?",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_NEUTRAL",
+    "reg=gang"
+   ]
+  ],
+  "673": [
+   "RD_ALifeLine_12364eca2101d489",
+   "What'll it be, {g:pal|lady}?",
+   [
+    "ALifeDialogue_barks_shout_1.lua",
+    "SHOUT_NEUTRAL",
+    "reg=club"
+   ]
+  ],
+  "674": [
+   "RD_ALifeLine_332f890a68969a33",
+   "Not a chance, {g:pal|lady}, find your own entertainment",
+   [
+    "ALifeDialogue_no_misc_2.lua",
+    "SHOW_ARMS",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral"
+   ]
+  ],
+  "675": [
+   "RD_ALifeLine_69abc30c27522871",
+   "Small talk is for people with time, {g:brother|sister}",
+   [
+    "ALifeDialogue_replies_small_1.lua",
+    "SMALL_TALK",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "676": [
+   "RD_ALifeLine_20e412fc43edca6b",
+   "Sit, {g:brother|sister}, have a drink if you got one, tell me everything",
+   [
+    "ALifeDialogue_replies_small_1.lua",
+    "SMALL_TALK",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "677": [
+   "RD_ALifeLine_67c7fce164c23fd9",
+   "Falling snow, {g:brother|sister}, the quietest thing in the world",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "SNOWQ_FALLING",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "678": [
+   "RD_ALifeLine_510e2a565fa40c34",
+   "Packed snow's slick, {g:brother|sister}, can't even push a bike through it",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "SNOWQ_GROUND",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "679": [
+   "RD_ALifeLine_38bbbb1d78ab19dc",
+   "Sorry? Sorry doesn't fix anything, {g:pal|lady}, but I'll let it slide",
+   [
+    "ALifeDialogue_replies_sorry_1.lua",
+    "SORRY",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "680": [
+   "RD_ALifeLine_5f7e70d50cc55f14",
+   "It's alright, {g:man|lady}, we all get jumpy, forget about it",
+   [
+    "ALifeDialogue_replies_sorry_1.lua",
+    "SORRY",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "681": [
+   "RD_ALifeLine_388eb8e87937b687",
+   "Apology accepted, {g:brother|sister}, but I'm watching you",
+   [
+    "ALifeDialogue_replies_sorry_1.lua",
+    "SORRY",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "682": [
+   "RD_ALifeLine_0eff7d8753d64513",
+   "It's okay, {g:brother|sister}, it's forgotten",
+   [
+    "ALifeDialogue_replies_sorry_1.lua",
+    "SORRY",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "683": [
+   "RD_ALifeLine_43e54c0230964666",
+   "Hold it right there, {g:buddy|lady}, you're on private property now!",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=club,outlaw,crime"
+   ]
+  ],
+  "684": [
+   "RD_ALifeLine_74ec8c5372058cce",
+   "There, by the mailbox, that's a {g:man|woman} - hey! You! Stand still!",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=raider,gang|hour=20,5|world=building"
+   ]
+  ],
+  "685": [
+   "RD_ALifeLine_0aeed0a735da7c1e",
+   "Light {him} up! There, there! Don't move!",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=raider,prison|hour=20,5"
+   ]
+  ],
+  "686": [
+   "RD_ALifeLine_32210afc0add510e",
+   "I smelled {him} before I saw {him} - hey! You! Hands out!",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=raider|tmp=predator|hour=20,5"
+   ]
+  ],
+  "687": [
+   "RD_ALifeLine_5a0381b666710b03",
+   "Somebody's here. Stay quiet and watch {him}",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=raider,crime|hour=21,4"
+   ]
+  ],
+  "688": [
+   "RD_ALifeLine_57d7e466328f9011",
+   "Hey! You out walking at two in the morning? Stand still, {g:man|lady}",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=gang|hour=0,4"
+   ]
+  ],
+  "689": [
+   "RD_ALifeLine_102089277f338b9f",
+   "Hear that gravel? That's a {g:man|woman} - hey, friend - stop walking, please",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=club,crime|hour=21,4"
+   ]
+  ],
+  "690": [
+   "RD_ALifeLine_72ff4ebd27531997",
+   "A {g:man|woman} on the road at this hour is desperate or paid - stop there",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=crime|tmp=veteran|hour=22,3|world=road"
+   ]
+  ],
+  "691": [
+   "RD_ALifeLine_72605e423f2a676b",
+   "Somebody out there! I hear {him}! HEY! STOP!",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=prison|hour=21,4"
+   ]
+  ],
+  "692": [
+   "RD_ALifeLine_4b4fc9253fa2ef4c",
+   "Eight years of nights, I know a {g:man|woman} moving in the dark - freeze!",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=prison|hour=20,5"
+   ]
+  ],
+  "693": [
+   "RD_ALifeLine_43e5d2ea581169d7",
+   "Stop, nobody sneaks up on a {g:man|woman} who don't sleep - stand still",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=outlaw|tmp=seasoned|hour=22,3"
+   ]
+  ],
+  "694": [
+   "RD_ALifeLine_3d8db72d001cd086",
+   "There's a {g:man|woman} in that field - don't shoot, {he} might be worth something",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "role=raider_boss,gang_boss,biker_boss|hour=20,5"
+   ]
+  ],
+  "695": [
+   "RD_ALifeLine_68e5db7b19d6b52b",
+   "There's no reason for a {g:man|woman} to be walking now - stop and explain it",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=crime,club|tmp=veteran|hour=22,3"
+   ]
+  ],
+  "696": [
+   "RD_ALifeLine_76adb61b57623ec6",
+   "Look at {him}, middle of the road, high noon, not a thought in {his} head - HEY!",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=raider|hour=10,16|world=road"
+   ]
+  ],
+  "697": [
+   "RD_ALifeLine_703cd18e0e9bf5e6",
+   "Broad daylight and {he} walks like {he} owns the county - hey! Freeze!",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=raider,gang|hour=8,18"
+   ]
+  ],
+  "698": [
+   "RD_ALifeLine_647754ea20c4bb2c",
+   "{he}'s got a full bag, I can see it bouncing - hey! Don't move!",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=raider,gang,prison|hour=7,19"
+   ]
+  ],
+  "699": [
+   "RD_ALifeLine_342512ca5d288493",
+   "Hot as it is and {he}'s still walking - stop {him} before {he} finds shade!",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=raider,club|hour=11,17"
+   ]
+  ],
+  "700": [
+   "RD_ALifeLine_152248c73c59b1ab",
+   "Look at {him} strolling - hey! Yeah, you! Stand still!",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=gang|hour=8,18"
+   ]
+  ],
+  "701": [
+   "RD_ALifeLine_07b0629926784963",
+   "Everybody's watching and {he}'s still walking - stop, {g:man|lady}! Stop!",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=gang,prison|hour=8,18"
+   ]
+  ],
+  "702": [
+   "RD_ALifeLine_2c5638ce46f4f91d",
+   "There's a {g:fella|woman} on the road - hey! Hold it up there!",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=club|hour=6,19|world=road"
+   ]
+  ],
+  "703": [
+   "RD_ALifeLine_202181ac2adcc456",
+   "{g:Man|Woman} in the open, no cover, no hurry - stop {him}",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=crime|tmp=veteran|hour=8,18"
+   ]
+  ],
+  "704": [
+   "RD_ALifeLine_652a728879e49135",
+   "Look! A {g:guy|woman}! Out in the sun! HEY! STOP!",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=prison|hour=7,18"
+   ]
+  ],
+  "705": [
+   "RD_ALifeLine_12a161c05f8616be",
+   "That one's armed. I want a word with {him}",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=crime,club|tmp=veteran|fact=player_armed"
+   ]
+  ],
+  "706": [
+   "RD_ALifeLine_47e438267592342c",
+   "Hold there, {sir}. I need a word",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=law|st=friendly,neutral,careful"
+   ]
+  ],
+  "707": [
+   "RD_ALifeLine_1f1ca2e16d7d4ea2",
+   "One {g:guy|woman}, all alone... see if {he}'s got friends",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SPOT_STRANGER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=neutral,careful"
+   ]
+  ],
+  "708": [
+   "RD_ALifeLine_166d7de53c815a73",
+   "You need something, {sir}? Speak up",
+   [
+    "ALifeDialogue_barks_stare_1.lua",
+    "STARE_PLAYER",
+    "reg=law|tmp=seasoned|st=friendly,neutral"
+   ]
+  ],
+  "709": [
+   "RD_ALifeLine_30519d737648933b",
+   "{sir}, you're inside arm's reach - back it up",
+   [
+    "ALifeDialogue_barks_stare_1.lua",
+    "STARE_PLAYER",
+    "reg=law"
+   ]
+  ],
+  "710": [
+   "RD_ALifeLine_32cc94f334e4c8f2",
+   "{g:Brother|Sister}, you picked the wrong curb",
+   [
+    "ALifeDialogue_barks_stare_1.lua",
+    "STARE_PLAYER",
+    "reg=club|st=neutral,careful|world=road"
+   ]
+  ],
+  "711": [
+   "RD_ALifeLine_1e1e7ecc424d6373",
+   "Alright, {g:brother|sister}, floor's yours, don't wake the president",
+   [
+    "ALifeDialogue_yes_misc_2.lua",
+    "STAY_NIGHT",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "712": [
+   "RD_ALifeLine_4e4568e25edc62c0",
+   "{g:Son|Young lady}, you don't give orders to a man who's got thirty years on you and a bad attitude",
+   [
+    "ALifeDialogue_replies_stop_1.lua",
+    "STOP_FREEZE",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "713": [
+   "RD_ALifeLine_5e752ebf2560929e",
+   "You freeze up, {g:boy|girl}, before I put you on ice!",
+   [
+    "ALifeDialogue_replies_stop_1.lua",
+    "STOP_FREEZE",
+    "reg=club|st=hostile"
+   ]
+  ],
+  "714": [
+   "RD_ALifeLine_16611c3c3176bd02",
+   "{mister}, you're on my land, and nobody tells me to freeze on my land",
+   [
+    "ALifeDialogue_replies_stop_1.lua",
+    "STOP_FREEZE",
+    "role=militia|st=neutral,careful"
+   ]
+  ],
+  "715": [
+   "RD_ALifeLine_77df425b01146a65",
+   "Freeze yourself, {g:pal|lady}, let's see who blinks first",
+   [
+    "ALifeDialogue_replies_stop_1.lua",
+    "STOP_FREEZE",
+    "reg=law,swat|st=careful,hostile"
+   ]
+  ],
+  "716": [
+   "RD_ALifeLine_59788a255c6d76f8",
+   "No food handouts, {sir}. I'm sorry",
+   [
+    "ALifeDialogue_barks_supply_1.lua",
+    "SUPPLY_NO_FOOD",
+    "reg=law|st=friendly,neutral"
+   ]
+  ],
+  "717": [
+   "RD_ALifeLine_49b20130246ca1b6",
+   "I can't hand out rations, {sir}. I wish I had a better answer",
+   [
+    "ALifeDialogue_barks_supply_1.lua",
+    "SUPPLY_NO_FOOD",
+    "reg=law|st=friendly,neutral"
+   ]
+  ],
+  "718": [
+   "RD_ALifeLine_7bec7b7e2685a9bb",
+   "Nah, {g:man|lady}, we ain't sharing. Sorry",
+   [
+    "ALifeDialogue_barks_supply_1.lua",
+    "SUPPLY_NO_FOOD",
+    "reg=gang|st=friendly,neutral"
+   ]
+  ],
+  "719": [
+   "RD_ALifeLine_6d4d143b68befa43",
+   "{g:Brother|Sister}, I can't share food. Try somebody else",
+   [
+    "ALifeDialogue_barks_supply_1.lua",
+    "SUPPLY_NO_FOOD",
+    "reg=club|st=friendly,neutral"
+   ]
+  ],
+  "720": [
+   "RD_ALifeLine_79010c2b23ab9ffc",
+   "Can't hand out medical supplies, {sir}. Sorry",
+   [
+    "ALifeDialogue_barks_supply_1.lua",
+    "SUPPLY_NO_MEDS",
+    "reg=law|st=friendly,neutral"
+   ]
+  ],
+  "721": [
+   "RD_ALifeLine_350af1e531d6b519",
+   "{g:Brother|Sister}, I can't share medical supplies. Sorry",
+   [
+    "ALifeDialogue_barks_supply_1.lua",
+    "SUPPLY_NO_MEDS",
+    "reg=club|st=friendly,neutral"
+   ]
+  ],
+  "722": [
+   "RD_ALifeLine_0459cf6b642e6768",
+   "Meds? That's what I'm hunting too, {g:pal|lady}",
+   [
+    "ALifeDialogue_barks_supply_1.lua",
+    "SUPPLY_NO_MEDS",
+    "reg=prison|st=friendly,neutral"
+   ]
+  ],
+  "723": [
+   "RD_ALifeLine_726d148f3b213bc5",
+   "Not sharing, {g:man|lady}. Don't press me",
+   [
+    "ALifeDialogue_barks_supply_1.lua",
+    "SUPPLY_NO_WATER",
+    "reg=gang|st=friendly,neutral"
+   ]
+  ],
+  "724": [
+   "RD_ALifeLine_4b9c064d6429dc30",
+   "I've got to think of myself too. Sorry, {g:brother|sister}",
+   [
+    "ALifeDialogue_barks_supply_1.lua",
+    "SUPPLY_NO_WATER",
+    "reg=club|st=friendly,neutral"
+   ]
+  ],
+  "725": [
+   "RD_ALifeLine_1b5851f67b332b13",
+   "Alright! Alright, {g:man|lady}! You got it! It's yours!",
+   [
+    "ALifeDialogue_barks_misc_8.lua",
+    "SURRENDER",
+    "reg=gang,crime|tmp=fresh"
+   ]
+  ],
+  "726": [
+   "RD_ALifeLine_1caa403341857de9",
+   "You give up?! Too late, {g:buddy|lady}, too late!",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "SURRENDER",
+    "reg=raider|st=hostile"
+   ]
+  ],
+  "727": [
+   "RD_ALifeLine_09d09f4249898709",
+   "Surrender accepted, {g:brother|sister}, now be real still",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "SURRENDER",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "728": [
+   "RD_ALifeLine_17ce623a7e07118e",
+   "Too late for that, {g:pal|lady}",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "SURRENDER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=hostile"
+   ]
+  ],
+  "729": [
+   "RD_ALifeLine_027a0d4577dbe564",
+   "Amen, {g:brother|sister}, amen, hell's right here, welcome",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "SWEAR_VENT",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "730": [
+   "RD_ALifeLine_63e8be79326a08f9",
+   "Yeah, {g:man|lady}, I feel you, let it out, scream if you have to, I won't tell anyone",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "SWEAR_VENT",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "731": [
+   "RD_ALifeLine_472a645e43a84614",
+   "Ain't that the truth, {g:man|lady}",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "SWEAR_VENT",
+    "reg=gang|st=neutral,careful"
+   ]
+  ],
+  "732": [
+   "RD_ALifeLine_4b0bcd1578871780",
+   "Hell's right, {g:brother|sister}, we should've stayed in bed",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "SWEAR_VENT",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "733": [
+   "RD_ALifeLine_4abbc331268640cc",
+   "Ha! Look at him go - yeah, {g:boy|girl}, it is exactly that bad",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "SWEAR_VENT",
+    "reg=raider,gang|tmp=predator|st=hostile"
+   ]
+  ],
+  "734": [
+   "RD_ALifeLine_7364ac933c87dd07",
+   "{g:Brother|Sister}, not now - seriously",
+   [
+    "ALifeDialogue_barks_talk_1.lua",
+    "TALK_BUSY_COMBAT",
+    "reg=club"
+   ]
+  ],
+  "735": [
+   "RD_ALifeLine_7399f1bb6c53e42e",
+   "Noted, {sir}, you made an impression, a bad one",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_COOLS",
+    "reg=law,swat"
+   ]
+  ],
+  "736": [
+   "RD_ALifeLine_4a7bcc890b772799",
+   "I don't like where this is going, {sir}",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_COOLS",
+    "reg=law,swat"
+   ]
+  ],
+  "737": [
+   "RD_ALifeLine_698f8235229266f4",
+   "You're on my list now, {sir}",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_COOLS",
+    "reg=law,swat"
+   ]
+  ],
+  "738": [
+   "RD_ALifeLine_57ba0d664df3a349",
+   "That's all the time I have for this, {sir}",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_ENDS",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "739": [
+   "RD_ALifeLine_37c4d4c7160c9ba5",
+   "This conversation is over, {sir}, I've got work to do",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_ENDS",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "740": [
+   "RD_ALifeLine_2a8583dc677a45f8",
+   "Conversation's over, {sir}, step away",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_ENDS",
+    "reg=law,swat|st=careful"
+   ]
+  ],
+  "741": [
+   "RD_ALifeLine_74da746d01a003d2",
+   "{sir}, say that again, slower",
+   [
+    "ALifeDialogue_barks_talk_1.lua",
+    "TALK_FALLBACK_1",
+    "reg=law"
+   ]
+  ],
+  "742": [
+   "RD_ALifeLine_66959c2f3e9b50a3",
+   "One more time, {sir}, and speak up for me",
+   [
+    "ALifeDialogue_barks_talk_1.lua",
+    "TALK_FALLBACK_1",
+    "reg=law|tmp=seasoned"
+   ]
+  ],
+  "743": [
+   "RD_ALifeLine_4041b67d08a05033",
+   "One more time, {sir}, and don't mumble at a deputy",
+   [
+    "ALifeDialogue_barks_talk_1.lua",
+    "TALK_FALLBACK_1",
+    "role=law_deputy,law_officer"
+   ]
+  ],
+  "744": [
+   "RD_ALifeLine_1e05aa9e1e1e6d04",
+   "I've buried people all week, {g:son|young lady} - plain words",
+   [
+    "ALifeDialogue_barks_talk_1.lua",
+    "TALK_FALLBACK_2",
+    "role=rescue_clergy"
+   ]
+  ],
+  "745": [
+   "RD_ALifeLine_23e0214727ded96e",
+   "{sir}, tell me plain what it is you want from me",
+   [
+    "ALifeDialogue_barks_talk_1.lua",
+    "TALK_FALLBACK_2",
+    "reg=law"
+   ]
+  ],
+  "746": [
+   "RD_ALifeLine_69cfda2a02ddc9fb",
+   "Second time, {sir}, the short version, plain words",
+   [
+    "ALifeDialogue_barks_talk_1.lua",
+    "TALK_FALLBACK_2",
+    "reg=law"
+   ]
+  ],
+  "747": [
+   "RD_ALifeLine_64e1e5005d44025b",
+   "{sir}, this is a yes or no question",
+   [
+    "ALifeDialogue_barks_talk_1.lua",
+    "TALK_FALLBACK_3",
+    "reg=law"
+   ]
+  ],
+  "748": [
+   "RD_ALifeLine_44b45e6563011a02",
+   "{sir}, a yes or a no, final time I'm asking",
+   [
+    "ALifeDialogue_barks_talk_1.lua",
+    "TALK_FALLBACK_3",
+    "reg=law"
+   ]
+  ],
+  "749": [
+   "RD_ALifeLine_5f225eec25eea2c2",
+   "Is that a yes, Sergeant? I mean, {sir} - is it a yes?",
+   [
+    "ALifeDialogue_barks_talk_1.lua",
+    "TALK_FALLBACK_3",
+    "role=soldier_green"
+   ]
+  ],
+  "750": [
+   "RD_ALifeLine_41b6fb5531816e76",
+   "We're done here - move along, {sir}",
+   [
+    "ALifeDialogue_barks_talk_1.lua",
+    "TALK_FALLBACK_END",
+    "reg=law"
+   ]
+  ],
+  "751": [
+   "RD_ALifeLine_0044c95920a6e810",
+   "That's all the time I've got, {sir} - move along",
+   [
+    "ALifeDialogue_barks_talk_1.lua",
+    "TALK_FALLBACK_END",
+    "reg=law"
+   ]
+  ],
+  "752": [
+   "RD_ALifeLine_110eec254ebace88",
+   "You sound like a {g:man|woman} arguing with the weather",
+   [
+    "ALifeDialogue_barks_talk_1.lua",
+    "TALK_IGNORE_HOSTILE",
+    "reg=club,crime,outlaw|tmp=veteran|st=hostile"
+   ]
+  ],
+  "753": [
+   "RD_ALifeLine_5b41753000568a3b",
+   "That's a lot of questions, {sir}, wrap it up",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_NOSY",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "754": [
+   "RD_ALifeLine_0ee81eb009796ca3",
+   "You're running long on questions, {sir}",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_NOSY",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "755": [
+   "RD_ALifeLine_11ece84b7722c437",
+   "What is it you actually want, {sir}? That's plenty of questions",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_NOSY",
+    "reg=law,swat|st=careful"
+   ]
+  ],
+  "756": [
+   "RD_ALifeLine_7e8c91de23eaf4b8",
+   "Plenty of questions for a stranger, {sir}",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_NOSY",
+    "reg=law,swat|st=careful"
+   ]
+  ],
+  "757": [
+   "RD_ALifeLine_177a13072466e875",
+   "That's personal, {sir}, ask me something else",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_NOT_FAMILIAR",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "758": [
+   "RD_ALifeLine_794f01465146bb59",
+   "Not a topic for a first conversation, {sir}",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_NOT_FAMILIAR",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "759": [
+   "RD_ALifeLine_52f846bd3eea44f6",
+   "That's not your concern, {sir}",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_NOT_FAMILIAR",
+    "reg=law,swat|st=careful"
+   ]
+  ],
+  "760": [
+   "RD_ALifeLine_53c25dfc01aa571c",
+   "Don't know you, {sir}, not answering that",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_NOT_FAMILIAR",
+    "reg=law,swat|st=careful"
+   ]
+  ],
+  "761": [
+   "RD_ALifeLine_13ea1eec465b25b7",
+   "Not yet, {sir}, I don't know you well enough",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_NOT_YET",
+    "reg=law,swat"
+   ]
+  ],
+  "762": [
+   "RD_ALifeLine_28ca2a3324149474",
+   "I'll pass for now, {sir}",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_NOT_YET",
+    "reg=law,swat"
+   ]
+  ],
+  "763": [
+   "RD_ALifeLine_534d82ac17c671bb",
+   "Ask me again later, {sir}",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_NOT_YET",
+    "reg=law,swat"
+   ]
+  ],
+  "764": [
+   "RD_ALifeLine_60201db1294d1961",
+   "I don't have any information for you, {sir}",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_NO_INFO",
+    "reg=law,swat"
+   ]
+  ],
+  "765": [
+   "RD_ALifeLine_65d073406b5844ba",
+   "Nothing to share with you, {sir}",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_NO_INFO",
+    "reg=law,swat"
+   ]
+  ],
+  "766": [
+   "RD_ALifeLine_07eecec478aa0ac8",
+   "Not now, {sir}, I'll talk when I'm ready",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_REFUSES",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "767": [
+   "RD_ALifeLine_4b13665c0841da84",
+   "Come back another time, {sir}",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_REFUSES",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "768": [
+   "RD_ALifeLine_381c09c10386d965",
+   "I said we're done, {sir}, keep moving",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_REFUSES",
+    "reg=law,swat|st=careful"
+   ]
+  ],
+  "769": [
+   "RD_ALifeLine_23ea4bc73b9f715d",
+   "No more talk, {sir}, that's final for now",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_REFUSES",
+    "reg=law,swat|st=careful"
+   ]
+  ],
+  "770": [
+   "RD_ALifeLine_54c22a4932f91138",
+   "Asked and answered, {sir}",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_REPEAT_1",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "771": [
+   "RD_ALifeLine_0edaaf0c25db90ad",
+   "I covered that already, {sir}, go ahead with something else",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_REPEAT_1",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "772": [
+   "RD_ALifeLine_5175c62924a90fcf",
+   "I answered that, {sir}, don't ask it again",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_REPEAT_1",
+    "reg=law,swat|st=careful"
+   ]
+  ],
+  "773": [
+   "RD_ALifeLine_72f07d4049cdc8e8",
+   "That's three times, {sir}, I'd advise you to move on",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_REPEAT_2",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "774": [
+   "RD_ALifeLine_6977d3e37e977f63",
+   "We're done with that question, {sir}",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_REPEAT_2",
+    "reg=law,swat|st=friendly,neutral"
+   ]
+  ],
+  "775": [
+   "RD_ALifeLine_20e7c7f13d82a7b1",
+   "Third time, {sir}, there won't be a fourth answer",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_REPEAT_2",
+    "reg=law,swat|st=careful"
+   ]
+  ],
+  "776": [
+   "RD_ALifeLine_48a858ef2fd28e9c",
+   "You're pushing it, {sir}, back off with the repeats",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_REPEAT_2",
+    "reg=law,swat|st=careful"
+   ]
+  ],
+  "777": [
+   "RD_ALifeLine_6738e4c1628c8f06",
+   "I'm starting to think we might get along, {sir}",
+   [
+    "ALifeDialogue_replies_talk_1.lua",
+    "TALK_WARMS",
+    "reg=law,swat"
+   ]
+  ],
+  "778": [
+   "RD_ALifeLine_32c972967ce13a51",
+   "Alright, {g:brother|sister}, this one's for you: why did the zombie cross the road?",
+   [
+    "ALifeDialogue_replies_tell_1.lua",
+    "TELL_JOKE",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "779": [
+   "RD_ALifeLine_7015b1a43365d974",
+   "Not today, {g:pal|lady}, I'm all out of laughs",
+   [
+    "ALifeDialogue_replies_tell_1.lua",
+    "TELL_JOKE",
+    "tmp=veteran|st=friendly,neutral"
+   ]
+  ],
+  "780": [
+   "RD_ALifeLine_7207445d3da4bd52",
+   "Nothing to tell, {g:man|lady}",
+   [
+    "ALifeDialogue_replies_tell_1.lua",
+    "TELL_STORY",
+    "role=prisoner|tmp=predator|st=careful"
+   ]
+  ],
+  "781": [
+   "RD_ALifeLine_0ec32c2c48962089",
+   "One story, {g:brother|sister}... my daddy was a coal miner, black lung at fifty",
+   [
+    "ALifeDialogue_replies_tell_1.lua",
+    "TELL_STORY",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "782": [
+   "RD_ALifeLine_426fdc3233fffda8",
+   "Anytime, {g:brother|sister}",
+   [
+    "ALifeDialogue_replies_thanks_1.lua",
+    "THANKS",
+    "reg=club|st=friendly,neutral"
+   ]
+  ],
+  "783": [
+   "RD_ALifeLine_4cb1177d0ac5aec1",
+   "Yeah, well... you're welcome, {g:man|lady}, it felt good to do something decent for once",
+   [
+    "ALifeDialogue_replies_thanks_1.lua",
+    "THANKS",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "784": [
+   "RD_ALifeLine_3840c3dc655a9c36",
+   "Don't mention it, {g:brother|sister}, that's what the club's for",
+   [
+    "ALifeDialogue_replies_thanks_1.lua",
+    "THANKS",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "785": [
+   "RD_ALifeLine_5cf56c1078ece1cf",
+   "Thanks? Hahaha, from the Villain {himself}, I'll frame it",
+   [
+    "ALifeDialogue_replies_thanks_1.lua",
+    "THANKS",
+    "reg=outlaw,raider,gang,club,crime,prison|st=neutral,careful,hostile|rep=worst"
+   ]
+  ],
+  "786": [
+   "RD_ALifeLine_5136c6343b341947",
+   "You're THANKING me? Don't be weird, {g:man|lady}",
+   [
+    "ALifeDialogue_replies_thanks_1.lua",
+    "THANKS",
+    "reg=outlaw,raider,gang,club,crime,prison|st=neutral,careful,hostile|rep=worst"
+   ]
+  ],
+  "787": [
+   "RD_ALifeLine_4479a7fd4964841e",
+   "No sweat, {g:buddy|lady}, we're all on the same line",
+   [
+    "ALifeDialogue_replies_thanks_1.lua",
+    "THANKS",
+    "role=worker|st=friendly,neutral"
+   ]
+  ],
+  "788": [
+   "RD_ALifeLine_384220b008ad9303",
+   "Oh! You're welcome, {sir}, I, uh, I did something right",
+   [
+    "ALifeDialogue_replies_thanks_1.lua",
+    "THANKS",
+    "role=soldier_green|st=friendly,neutral"
+   ]
+  ],
+  "789": [
+   "RD_ALifeLine_35820ee769054fab",
+   "No worries, {g:brother|sister}, no worries",
+   [
+    "ALifeDialogue_replies_thanks_1.lua",
+    "THANKS",
+    "role=biker|st=friendly,neutral"
+   ]
+  ],
+  "790": [
+   "RD_ALifeLine_14bf4e6c5ba073fb",
+   "Kill me? You couldn't kill a fly in a jar, {g:pal|lady}!",
+   [
+    "ALifeDialogue_replies_threaten_1.lua",
+    "THREATEN",
+    "reg=raider|st=hostile"
+   ]
+  ],
+  "791": [
+   "RD_ALifeLine_3baa458f68adf858",
+   "You said that on my block? You just signed something, {g:man|lady}",
+   [
+    "ALifeDialogue_replies_threaten_1.lua",
+    "THREATEN",
+    "reg=gang|st=hostile"
+   ]
+  ],
+  "792": [
+   "RD_ALifeLine_7c6f79352df1f81e",
+   "{mister}, I've been threatened by better men than you, and they're all buried out back",
+   [
+    "ALifeDialogue_replies_threaten_1.lua",
+    "THREATEN",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "793": [
+   "RD_ALifeLine_3c52b3c55bb05546",
+   "I've been threatened by half this county, {g:son|young lady}, none of them followed through",
+   [
+    "ALifeDialogue_replies_threaten_1.lua",
+    "THREATEN",
+    "role=law_sheriff|st=neutral,careful"
+   ]
+  ],
+  "794": [
+   "RD_ALifeLine_522becd1464ca040",
+   "{mister}, I've got a rifle and eleven neighbors who would hear it if I fired",
+   [
+    "ALifeDialogue_replies_threaten_1.lua",
+    "THREATEN",
+    "role=militia|st=neutral,careful"
+   ]
+  ],
+  "795": [
+   "RD_ALifeLine_4038fe191880a0b4",
+   "Careful, {sir}, threatening an officer's a serious offense",
+   [
+    "ALifeDialogue_replies_threaten_1.lua",
+    "THREATEN",
+    "reg=law,swat|st=friendly,neutral,careful"
+   ]
+  ],
+  "796": [
+   "RD_ALifeLine_2a698a8f570f75ab",
+   "{sir}, take that back and walk away, I don't want to write anything up today",
+   [
+    "ALifeDialogue_replies_threaten_1.lua",
+    "THREATEN",
+    "role=law_officer,law_deputy|st=neutral"
+   ]
+  ],
+  "797": [
+   "RD_ALifeLine_152bb33b3d3b5ebe",
+   "{g:Buddy|Lady}, I'm the one with the radio and the car - don't do this to yourself",
+   [
+    "ALifeDialogue_replies_threaten_1.lua",
+    "THREATEN",
+    "reg=law|st=friendly|world=vehicle"
+   ]
+  ],
+  "798": [
+   "RD_ALifeLine_65499ef15030588e",
+   "Your loss, {g:pal|lady}, you'll be sorry when you're hungry",
+   [
+    "ALifeDialogue_no_misc_2.lua",
+    "TRADE_OFFER",
+    "reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral"
+   ]
+  ],
+  "799": [
+   "RD_ALifeLine_1c5551f759a00aba",
+   "Understood, {sir} - carry on",
+   [
+    "ALifeDialogue_no_misc_2.lua",
+    "TRADE_OFFER",
+    "reg=law,swat"
+   ]
+  ],
+  "800": [
+   "RD_ALifeLine_5b3631d24b4115d2",
+   "I wait for nobody, {g:pal|lady}, least of all you",
+   [
+    "ALifeDialogue_replies_wait_1.lua",
+    "WAIT_HERE",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "801": [
+   "RD_ALifeLine_21364d541a489012",
+   "I wait for no {g:man|lady}, not even the president",
+   [
+    "ALifeDialogue_replies_wait_1.lua",
+    "WAIT_HERE",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "802": [
+   "RD_ALifeLine_3a3d31f23fc73b73",
+   "Alright, {g:brother|sister}, we'll walk a bit, but I set the pace",
+   [
+    "ALifeDialogue_yes_misc_2.lua",
+    "WALK_TOGETHER",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "803": [
+   "RD_ALifeLine_091b590f22945335",
+   "Gladly, {g:brother|sister}, I could use the company",
+   [
+    "ALifeDialogue_yes_misc_2.lua",
+    "WALK_TOGETHER",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "804": [
+   "RD_ALifeLine_0181f8102e1898a9",
+   "Suit yourself, {g:brother|sister}, the road is yours",
+   [
+    "ALifeDialogue_no_misc_2.lua",
+    "WALK_TOGETHER",
+    "reg=club|st=neutral,careful|world=road"
+   ]
+  ],
+  "805": [
+   "RD_ALifeLine_40108987042924a3",
+   "Leather, whiskey, and a good buddy to lean against, {g:brother|sister}, that's the trick",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "WARMQ_COLD",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "806": [
+   "RD_ALifeLine_0e6d722122e10290",
+   "It's not cold, {g:pal|lady}, what's the problem?",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "WARMQ_MILD",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "807": [
+   "RD_ALifeLine_3ea8ace460fe79e7",
+   "It's easy this time of year, {g:brother|sister}, a jacket and a smile",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "WARMQ_MILD",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "808": [
+   "RD_ALifeLine_7d93680114e125a8",
+   "Drop the weapon, {sir}, drop it now",
+   [
+    "ALifeDialogue_barks_misc_9.lua",
+    "WARNING_LOWER_WEAPON",
+    "reg=law"
+   ]
+  ],
+  "809": [
+   "RD_ALifeLine_3b34efe13e15627c",
+   "Stop! Stay where you are, {sir}",
+   [
+    "ALifeDialogue_barks_misc_9.lua",
+    "WARNING_STOP",
+    "reg=law"
+   ]
+  ],
+  "810": [
+   "RD_ALifeLine_1540fa8675110bde",
+   "Hold it, don't come any closer, {sir}",
+   [
+    "ALifeDialogue_barks_misc_9.lua",
+    "WARNING_STOP",
+    "reg=law"
+   ]
+  ],
+  "811": [
+   "RD_ALifeLine_4f73d53b7fd6f8b6",
+   "Stop right there, {g:pal|lady}",
+   [
+    "ALifeDialogue_barks_misc_9.lua",
+    "WARNING_STOP",
+    "reg=raider,outlaw,gang,club,crime,prison"
+   ]
+  ],
+  "812": [
+   "RD_ALifeLine_59b16bb273998590",
+   "Where's the trouble? Show me, {g:brother|sister}, now",
+   [
+    "ALifeDialogue_replies_warn_1.lua",
+    "WARN_DANGER",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "813": [
+   "RD_ALifeLine_03bf71140f1308a8",
+   "Good eye, {g:brother|sister}, I'd have walked right into it",
+   [
+    "ALifeDialogue_replies_warn_1.lua",
+    "WARN_DANGER",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "814": [
+   "RD_ALifeLine_04e639373586f5c0",
+   "Whoa- whoa, thanks, {g:man|lady}, I was looking the other way, that was close, really close",
+   [
+    "ALifeDialogue_replies_warn_1.lua",
+    "WARN_ZOMBIES",
+    "reg=raider|st=friendly"
+   ]
+  ],
+  "815": [
+   "RD_ALifeLine_1b77bd88471bdd81",
+   "Where're they at? Tell me where, {g:brother|sister}, I'm not seeing a damn thing",
+   [
+    "ALifeDialogue_replies_warn_1.lua",
+    "WARN_ZOMBIES",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "816": [
+   "RD_ALifeLine_1fd9beee75ae36a0",
+   "Good catch, {g:brother|sister}, I'd have walked right into them, appreciate it",
+   [
+    "ALifeDialogue_replies_warn_1.lua",
+    "WARN_ZOMBIES",
+    "reg=club|st=friendly"
+   ]
+  ],
+  "817": [
+   "RD_ALifeLine_1307da7527c70691",
+   "Nobody, {g:pal|lady}, nobody at all, and you'd be smart to leave it that way",
+   [
+    "ALifeDialogue_replies_who_1.lua",
+    "WHO_ARE_YOU",
+    "reg=raider|st=neutral,careful"
+   ]
+  ],
+  "818": [
+   "RD_ALifeLine_0defa73f40a7c762",
+   "It gets cold fast, {g:brother|sister}, one day it's sweater weather, the next you're frozen",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "WINQ_AUTUMN",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "819": [
+   "RD_ALifeLine_35fd038962df86ed",
+   "Winter was a killer, {g:brother|sister}, we spent it in the clubhouse, burning furniture",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "WINQ_SPRING",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "820": [
+   "RD_ALifeLine_59dd50ad1c772d4a",
+   "Winter's far away, {g:brother|sister}, enjoy the heat while you can",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "WINQ_SUMMER",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "821": [
+   "RD_ALifeLine_1760dd003690fb8d",
+   "Winter in Kentucky isn't Alaska, {g:brother|sister}, but it'll still kill you if you're stupid",
+   [
+    "ALifeDialogue_replies_misc_5.lua",
+    "WINQ_WINTER",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "822": [
+   "RD_ALifeLine_5cccfa6119d0959d",
+   "Sun's out, {g:man|lady}, almost like nothing's wrong, then you hear the moaning",
+   [
+    "ALifeDialogue_replies_wxq_1.lua",
+    "WXQ_CLEAR",
+    "reg=gang|st=neutral,careful"
+   ]
+  ],
+  "823": [
+   "RD_ALifeLine_50ca811609992a28",
+   "Perfect riding weather, {g:brother|sister}, and nowhere to go, ain't that a kick?",
+   [
+    "ALifeDialogue_replies_wxq_1.lua",
+    "WXQ_CLEAR",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "824": [
+   "RD_ALifeLine_35839b6631eadc85",
+   "Cold wind on a bike is like getting slapped, {g:brother|sister}, over and over",
+   [
+    "ALifeDialogue_replies_wxq_1.lua",
+    "WXQ_COLD",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "825": [
+   "RD_ALifeLine_78995b2c7c8edea1",
+   "I hate riding in fog, {g:brother|sister}. Makes me want to stop somewhere and wait",
+   [
+    "ALifeDialogue_replies_wxq_1.lua",
+    "WXQ_FOG",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "826": [
+   "RD_ALifeLine_2cedf07e0f315c0a",
+   "Heat's melting the road, {g:brother|sister}, and my patience with it",
+   [
+    "ALifeDialogue_replies_wxq_1.lua",
+    "WXQ_HOT",
+    "reg=club|st=neutral,careful|world=vehicle,road"
+   ]
+  ],
+  "827": [
+   "RD_ALifeLine_0c15fcab6f50f293",
+   "Rain on the road, {g:brother|sister}, the worst for a bike, the best for thinking",
+   [
+    "ALifeDialogue_replies_wxq_1.lua",
+    "WXQ_RAIN",
+    "reg=club|st=neutral,careful|world=road"
+   ]
+  ],
+  "828": [
+   "RD_ALifeLine_01a0c73849d536d5",
+   "Snow on the block, {g:man|lady}, the whole neighborhood looks peaceful, don't it?",
+   [
+    "ALifeDialogue_replies_wxq_1.lua",
+    "WXQ_SNOW",
+    "reg=gang|st=neutral,careful"
+   ]
+  ],
+  "829": [
+   "RD_ALifeLine_7d930d3b305920fe",
+   "Snow, no riding, {g:brother|sister}, I'm stuck in and I hate it",
+   [
+    "ALifeDialogue_replies_wxq_1.lua",
+    "WXQ_SNOW",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "830": [
+   "RD_ALifeLine_63dd3d602aaff7a5",
+   "Lightning struck over by the water tower, {g:man|lady}, I jumped a foot, I'm not ashamed",
+   [
+    "ALifeDialogue_replies_wxq_1.lua",
+    "WXQ_STORM",
+    "reg=gang|st=neutral,careful"
+   ]
+  ],
+  "831": [
+   "RD_ALifeLine_2afc3ec06d372f75",
+   "A good storm is worth a barrel of whiskey, {g:brother|sister}, if you've got a roof",
+   [
+    "ALifeDialogue_replies_wxq_1.lua",
+    "WXQ_STORM",
+    "reg=club|st=neutral,careful|world=building"
+   ]
+  ],
+  "832": [
+   "RD_ALifeLine_4e13d530274e6a98",
+   "Yes? To what, {g:brother|sister}? I didn't ask anything",
+   [
+    "ALifeDialogue_replies_misc_6.lua",
+    "YES",
+    "reg=club|st=neutral,careful"
+   ]
+  ],
+  "833": [
+   "RD_ALifeLine_3ae694a862754a88",
+   "Yes to what, {g:buddy|lady}? I ain't the foreman, I don't hand out work",
+   [
+    "ALifeDialogue_replies_misc_6.lua",
+    "YES",
+    "reg=worker|st=friendly,neutral"
+   ]
+  ],
+  "834": [
+   "RD_ALifeLine_5958ea292f0aedf6",
+   "Yes, {sir}? I didn't ask you anything - something you need to report?",
+   [
+    "ALifeDialogue_replies_misc_6.lua",
+    "YES",
+    "reg=law|st=friendly,neutral"
+   ]
+  ],
+  "835": [
+   "RD_ALifeLine_53e0850b7bc14807",
+   "Yes... {sir}? Sorry - are you talking to me? I thought you were talking to the sergeant",
+   [
+    "ALifeDialogue_replies_misc_6.lua",
+    "YES",
+    "reg=military|tmp=fresh|st=friendly,neutral,careful"
+   ]
+  ]
+ }
+}

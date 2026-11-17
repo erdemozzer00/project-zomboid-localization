@@ -1,0 +1,4931 @@
+{
+ "_paket": "Y2",
+ "_grup": "radyo",
+ "_dosya": "IG_UI",
+ "_baslik": "1.5.0 radyo olayları ve telsiz sohbeti",
+ "_parcalar": [
+  [
+   1,
+   134
+  ],
+  [
+   135,
+   257
+  ],
+  [
+   258,
+   418
+  ],
+  [
+   419,
+   545
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "IGUI_ALifeUI_509c86e71391a693",
+   "Barn roof",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "GÖREV"
+   ]
+  ],
+  "2": [
+   "IGUI_ALifeUI_0e9864172a7ea40d",
+   "Piper and Wes Lund are stuck on a barn roof with the dead all around it, about {dist} steps {dir} of you",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "GÖREV"
+   ]
+  ],
+  "3": [
+   "IGUI_ALifeUI_26fc0b394f601f96",
+   "Get to the barn",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "GÖREV"
+   ]
+  ],
+  "4": [
+   "IGUI_ALifeUI_2c020a4734f570ea",
+   "Get the Lunds off the roof",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "GÖREV"
+   ]
+  ],
+  "5": [
+   "IGUI_ALifeUI_19277aa43ba3b261",
+   "Anyone, anyone, please, I found Dad's radio in the loft and I'm whispering because they can hear me",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Piper telsizde"
+   ]
+  ],
+  "6": [
+   "IGUI_ALifeUI_190e65e5572df6fa",
+   "My brother and I are on the barn roof, about {dist} steps {dir} of you, there must be a dozen of them down in the yard",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Piper telsizde"
+   ]
+  ],
+  "7": [
+   "IGUI_ALifeUI_2d7c2fc651e191e4",
+   "We can't climb down and the ladder is under them, please say you heard this",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Piper telsizde"
+   ]
+  ],
+  "8": [
+   "IGUI_ALifeUI_4e92c338523b900e",
+   "Can you hear me? Please say something quietly",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Piper telsizde"
+   ]
+  ],
+  "9": [
+   "IGUI_ALifeUI_371fb5df5a4aa67e",
+   "Hold on, I'm coming for you",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "10": [
+   "IGUI_ALifeUI_0af6cfb477141dc0",
+   "Okay, okay, we'll be quiet, Wes is holding my sleeve, please hurry",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Piper telsizde"
+   ]
+  ],
+  "11": [
+   "IGUI_ALifeUI_2852fab4296da307",
+   "Stay low and don't make a sound",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "12": [
+   "IGUI_ALifeUI_14f657d71a734db0",
+   "Staying flat, the shingles are cold, nobody is moving",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Piper telsizde"
+   ]
+  ],
+  "13": [
+   "IGUI_ALifeUI_29b78b156c259b9b",
+   "I can't make it, sorry",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "14": [
+   "IGUI_ALifeUI_2c0a32c8355d2fd1",
+   "Oh, okay, that's okay, we'll think of something",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Piper telsizde"
+   ]
+  ],
+  "15": [
+   "IGUI_ALifeUI_6efd128555e42ea8",
+   "Is it over? Is the quiet over?",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Wes"
+   ]
+  ],
+  "16": [
+   "IGUI_ALifeUI_3beedb7c2e580f31",
+   "Don't shout, there are so many, the ladder is right under them",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Piper"
+   ]
+  ],
+  "17": [
+   "IGUI_ALifeUI_7236025d5b7645f2",
+   "What do we do? Tell us what to do",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Piper"
+   ]
+  ],
+  "18": [
+   "IGUI_ALifeUI_073ffd3b154039bf",
+   "I'll draw them off, come down when you hear the noise",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "19": [
+   "IGUI_ALifeUI_682ee3245665577c",
+   "Okay, Wes, on my count, one more breath, go",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Piper"
+   ]
+  ],
+  "20": [
+   "IGUI_ALifeUI_3258587c638fae49",
+   "Come down the back, I'll cover the corner",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "21": [
+   "IGUI_ALifeUI_26bb3c951776ac3d",
+   "The back is the hay door, we can swing from there, Wes, hold the rope",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Piper"
+   ]
+  ],
+  "22": [
+   "IGUI_ALifeUI_3947e6bb005622b3",
+   "Stay put, I'm clearing the yard",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "23": [
+   "IGUI_ALifeUI_15e23f0c5a522241",
+   "Please not loud, please not loud",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Piper"
+   ]
+  ],
+  "24": [
+   "IGUI_ALifeUI_45e7a5450043b2f0",
+   "Too many, I'm leaving",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "25": [
+   "IGUI_ALifeUI_4edcfeee4a314100",
+   "Wait, no, please",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Wes"
+   ]
+  ],
+  "26": [
+   "IGUI_ALifeUI_6a6c1cfb19e354d9",
+   "You pulled the dead off the yard and the Lunds got down",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "SONUÇ"
+   ]
+  ],
+  "27": [
+   "IGUI_ALifeUI_0ef2120858ff44c4",
+   "Dad said watch the east road, somebody was glassing the farms from the ridge, take care of yourself",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Piper"
+   ]
+  ],
+  "28": [
+   "IGUI_ALifeUI_0ddaf081697a2449",
+   "The Lunds slipped down the hay door behind you",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "SONUÇ"
+   ]
+  ],
+  "29": [
+   "IGUI_ALifeUI_6ae768ba3f26b780",
+   "We did it, we did it quietly, can I tell people",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Wes"
+   ]
+  ],
+  "30": [
+   "IGUI_ALifeUI_3bc77801702da72e",
+   "You shot the yard clear and the whole valley heard",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "SONUÇ"
+   ]
+  ],
+  "31": [
+   "IGUI_ALifeUI_6ef23bc372bbd1ca",
+   "Thank you, thank you, but they heard that for miles",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Piper"
+   ]
+  ],
+  "32": [
+   "IGUI_ALifeUI_6444331b354a3846",
+   "You left the Lunds on the roof",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "SONUÇ"
+   ]
+  ],
+  "33": [
+   "IGUI_ALifeUI_089b0d087c1d4f7f",
+   "The Lunds waited on the roof and you said nothing",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "SONUÇ"
+   ]
+  ],
+  "34": [
+   "IGUI_ALifeUI_6e38f1be1afea9df",
+   "You told Piper you could not come",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "SONUÇ"
+   ]
+  ],
+  "35": [
+   "IGUI_ALifeUI_1f20e80e1c63b892",
+   "Piper's whisper went unanswered",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "SONUÇ"
+   ]
+  ],
+  "36": [
+   "IGUI_ALifeUI_27c77adb62258b97",
+   "The barn roof was empty when you got there",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "SONUÇ"
+   ]
+  ],
+  "37": [
+   "IGUI_ALifeUI_5da23ffe41a67522",
+   "a farm girl and her little brother got off a barn roof because somebody drew a whole yard of dead away",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "SÖYLENTİ"
+   ]
+  ],
+  "38": [
+   "IGUI_ALifeUI_61cd020d3cb11d9c",
+   "two kids came down a hay door quiet as mice on the say so of a voice on the band",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "SÖYLENTİ"
+   ]
+  ],
+  "39": [
+   "IGUI_ALifeUI_28ae05872b63c470",
+   "a shooter cleared a barn yard and every dead thing for a mile turned that way after",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "SÖYLENTİ"
+   ]
+  ],
+  "40": [
+   "IGUI_ALifeUI_0d5797430f05c323",
+   "two kids sat on a barn roof all night while the one who heard them walked off",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "SÖYLENTİ"
+   ]
+  ],
+  "41": [
+   "IGUI_ALifeUI_08d634620387d2b0",
+   "Is that you from Orrin's band, he said a voice walks to people, he was right",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Piper telsizde"
+   ]
+  ],
+  "42": [
+   "IGUI_ALifeUI_684643940af73ec7",
+   "It's Piper again, the roof was bad, this is worse, but I whispered anyway",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Piper telsizde"
+   ]
+  ],
+  "43": [
+   "IGUI_ALifeUI_26ce1ed04eed00f2",
+   "Still up here, Wes asked me to say please again",
+   [
+    "ALifeRadioEvent_barn_roof.lua",
+    "barn_roof",
+    "Piper telsizde"
+   ]
+  ],
+  "44": [
+   "IGUI_ALifeUI_0588c77a38ff9fb7",
+   "Dead air",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "GÖREV"
+   ]
+  ],
+  "45": [
+   "IGUI_ALifeUI_40fe32f45245b0df",
+   "A ham operator named Orrin Fitch wants batteries. His house is about {dist} steps {dir} of you",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "GÖREV"
+   ]
+  ],
+  "46": [
+   "IGUI_ALifeUI_5bc3d33d0444a423",
+   "Get to Orrin's house",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "GÖREV"
+   ]
+  ],
+  "47": [
+   "IGUI_ALifeUI_101312521da9378b",
+   "Talk to Orrin",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "GÖREV"
+   ]
+  ],
+  "48": [
+   "IGUI_ALifeUI_416b30c034a5aaa4",
+   "CQ, CQ, CQ, this is Kilo Echo Seven, Orrin Fitch, is anybody home",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin telsizde"
+   ]
+  ],
+  "49": [
+   "IGUI_ALifeUI_3b1359b018dec4c3",
+   "Fourteen days since I heard a live voice, I counted them on the wall, Kilo Echo Seven",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin telsizde"
+   ]
+  ],
+  "50": [
+   "IGUI_ALifeUI_1796ff447719e4fe",
+   "The big set is on its last battery and I'm about {dist} steps {dir} of you, if you've got spares I'll make it worth your walk",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin telsizde"
+   ]
+  ],
+  "51": [
+   "IGUI_ALifeUI_710948f47af7cbd8",
+   "I hear things on this band nobody else is listening to, Kilo Echo Seven",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin telsizde"
+   ]
+  ],
+  "52": [
+   "IGUI_ALifeUI_2c96e68117c1ea9e",
+   "Say something, anything, I'll even take the weather",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin telsizde"
+   ]
+  ],
+  "53": [
+   "IGUI_ALifeUI_60de86f57130b659",
+   "I'll bring batteries",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "54": [
+   "IGUI_ALifeUI_7b168ed829103867",
+   "Bless the batteries, Kilo Echo Seven, the door's the green one, knock three times",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin telsizde"
+   ]
+  ],
+  "55": [
+   "IGUI_ALifeUI_6c3e2e2722052bbe",
+   "What kind of thing do you hear?",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "56": [
+   "IGUI_ALifeUI_6b0236cc06def95d",
+   "Convoys, calls, a man who reads numbers all night, I'll tell you more in person, Kilo Echo Seven",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin telsizde"
+   ]
+  ],
+  "57": [
+   "IGUI_ALifeUI_306f0d4d5a627249",
+   "Tell me now, I'm not walking all that way for static",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "58": [
+   "IGUI_ALifeUI_62d51325241348a5",
+   "Batteries first, I'm lonely, not stupid, Kilo Echo Seven",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin telsizde"
+   ]
+  ],
+  "59": [
+   "IGUI_ALifeUI_008b7b5c3bd7d02b",
+   "I can't spare any, sorry",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "60": [
+   "IGUI_ALifeUI_6f9640df0d800777",
+   "That's fine, that's fine, I'll be here, I'm always here, Kilo Echo Seven",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin telsizde"
+   ]
+  ],
+  "61": [
+   "IGUI_ALifeUI_45c656c24eaefce3",
+   "Is that a footstep? That's a footstep, I know a footstep when I hear one",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin"
+   ]
+  ],
+  "62": [
+   "IGUI_ALifeUI_76c90c6b44357e6e",
+   "Come in, come in, mind the cables, they're expensive and I'm fond of them",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin"
+   ]
+  ],
+  "63": [
+   "IGUI_ALifeUI_7cfdfab955f6a80b",
+   "Did you bring anything for the big set?",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin"
+   ]
+  ],
+  "64": [
+   "IGUI_ALifeUI_1b68314d575f1168",
+   "Here, a battery for the big set",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "65": [
+   "IGUI_ALifeUI_0aeab90b39d308e2",
+   "That's a good thought but it's not in your hand, Kilo Echo Seven",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin"
+   ]
+  ],
+  "66": [
+   "IGUI_ALifeUI_632efb6c2c93adb2",
+   "Hear that hum? That's the sound of a man being alive, Kilo Echo Seven",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin"
+   ]
+  ],
+  "67": [
+   "IGUI_ALifeUI_730bc3256097aa49",
+   "I just came to talk",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "68": [
+   "IGUI_ALifeUI_42aa127c33e624f3",
+   "Then sit, sit, I'll read you the log, day one, a dog barked, day two, the dog stopped",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin"
+   ]
+  ],
+  "69": [
+   "IGUI_ALifeUI_0ea7ad7e77099e08",
+   "Give me the radio, you won't need it",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "70": [
+   "IGUI_ALifeUI_7c72df743f495b36",
+   "That's the only thing I've got that talks back, no, no, no",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin"
+   ]
+  ],
+  "71": [
+   "IGUI_ALifeUI_4ce3bffa0f7895f5",
+   "Wrong house, I'm leaving",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "72": [
+   "IGUI_ALifeUI_341d2f4c7dbb8887",
+   "Of course, of course, Kilo Echo Seven, out",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin"
+   ]
+  ],
+  "73": [
+   "IGUI_ALifeUI_30c72553514740b8",
+   "You brought Orrin Fitch a battery and he gave you a tip",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "SONUÇ"
+   ]
+  ],
+  "74": [
+   "IGUI_ALifeUI_53fc6bc53a954402",
+   "Whatever comes over this band next, I'll point it your way first, Kilo Echo Seven",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin"
+   ]
+  ],
+  "75": [
+   "IGUI_ALifeUI_17fc1ca66ae01194",
+   "You sat with Orrin and listened to the log",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "SONUÇ"
+   ]
+  ],
+  "76": [
+   "IGUI_ALifeUI_3f82113a28a96137",
+   "That's the longest anyone has stayed, thank you, thank you",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin"
+   ]
+  ],
+  "77": [
+   "IGUI_ALifeUI_003c7dfc29bc2c36",
+   "You tried to take Orrin's radio",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "SONUÇ"
+   ]
+  ],
+  "78": [
+   "IGUI_ALifeUI_041717135662a7a0",
+   "I'll remember the voice, I never forget a voice, Kilo Echo Seven",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin"
+   ]
+  ],
+  "79": [
+   "IGUI_ALifeUI_02d314df08e9918f",
+   "You pushed Orrin for his secrets",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "SONUÇ"
+   ]
+  ],
+  "80": [
+   "IGUI_ALifeUI_1e7cef405e8d4080",
+   "You left Orrin's house without a word",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "SONUÇ"
+   ]
+  ],
+  "81": [
+   "IGUI_ALifeUI_0cdd294c42d8c025",
+   "You told Orrin you had no batteries",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "SONUÇ"
+   ]
+  ],
+  "82": [
+   "IGUI_ALifeUI_4d60326d3b5b9f0c",
+   "Orrin's call went unanswered",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "SONUÇ"
+   ]
+  ],
+  "83": [
+   "IGUI_ALifeUI_7daa6916719dbdd7",
+   "Orrin's house was dark when you got there",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "SONUÇ"
+   ]
+  ],
+  "84": [
+   "IGUI_ALifeUI_1e40ad4b6b28d34c",
+   "Nell Brannock, bless her, she told everyone on this band about the voice that walks to people",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin telsizde"
+   ]
+  ],
+  "85": [
+   "IGUI_ALifeUI_6bdd9c1f0468e5e6",
+   "Harlan Voss is not a name to trust on any band, Kilo Echo Seven, I have it in the log",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin telsizde"
+   ]
+  ],
+  "86": [
+   "IGUI_ALifeUI_14d4287f2f75c649",
+   "Kilo Echo Seven again, Orrin, it's been a while, and I counted",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin telsizde"
+   ]
+  ],
+  "87": [
+   "IGUI_ALifeUI_4bc3fdb00f673188",
+   "Day one of waiting, still no footsteps, Kilo Echo Seven",
+   [
+    "ALifeRadioEvent_dead_air.lua",
+    "dead_air",
+    "Orrin telsizde"
+   ]
+  ],
+  "88": [
+   "IGUI_ALifeUI_657cad1a2c0ec5d9",
+   "Mobile trader",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "GÖREV"
+   ]
+  ],
+  "89": [
+   "IGUI_ALifeUI_08c05f0866a9eefd",
+   "Harlan Voss is selling out of a car trunk {dist} steps {dir} of you",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "GÖREV"
+   ]
+  ],
+  "90": [
+   "IGUI_ALifeUI_6b4ff54a7a0528ba",
+   "Get to Harlan's pitch",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "GÖREV"
+   ]
+  ],
+  "91": [
+   "IGUI_ALifeUI_00edab222290fc37",
+   "Talk to Harlan",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "GÖREV"
+   ]
+  ],
+  "92": [
+   "IGUI_ALifeUI_488a631b4f8f93dc",
+   "Break break, this is Harlan Voss, mobile trading, anyone with ears",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan telsizde"
+   ]
+  ],
+  "93": [
+   "IGUI_ALifeUI_30fc313f09f79f6c",
+   "I'm parked about {dist} steps {dir} of you, trunk full of things you need",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan telsizde"
+   ]
+  ],
+  "94": [
+   "IGUI_ALifeUI_47d8de4823e4f5ce",
+   "Bullets, batteries, bandages, no questions, I like doing business in daylight",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan telsizde"
+   ]
+  ],
+  "95": [
+   "IGUI_ALifeUI_57a9be607b4153ae",
+   "Bring a friend if you want, I like witnesses, they keep me honest",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan telsizde"
+   ]
+  ],
+  "96": [
+   "IGUI_ALifeUI_36fcc9bb543d8dbd",
+   "Come alone and come straight up the road where I can see you, I'm packing up soon",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan telsizde"
+   ]
+  ],
+  "97": [
+   "IGUI_ALifeUI_34fcce8f77f0429f",
+   "So, are we doing business or am I talking to static?",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan telsizde"
+   ]
+  ],
+  "98": [
+   "IGUI_ALifeUI_480ef41e0f1f9596",
+   "I'll come by",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "99": [
+   "IGUI_ALifeUI_3629a70d15b02f77",
+   "Smart, mind the pumps, the left one leaks",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan telsizde"
+   ]
+  ],
+  "100": [
+   "IGUI_ALifeUI_7c9abc1a6098cf2c",
+   "more",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "101": [
+   "IGUI_ALifeUI_6f5e60c6640651b1",
+   "What are you selling, exactly?",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "102": [
+   "IGUI_ALifeUI_06bf4b9b5d6a71c0",
+   "Nine mil, shells, a few batteries, a first aid kit I'm not proud of",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan telsizde"
+   ]
+  ],
+  "103": [
+   "IGUI_ALifeUI_7cbf87d87af01a12",
+   "Whatever you have, you're sharing it",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "104": [
+   "IGUI_ALifeUI_6e56f31c6717a805",
+   "Wrong channel, friend, I've got a minder and a shotgun, think it over",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan telsizde"
+   ]
+  ],
+  "105": [
+   "IGUI_ALifeUI_4b8bc178122c2714",
+   "Suit yourself, the road's long and I'm still here",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan telsizde"
+   ]
+  ],
+  "106": [
+   "IGUI_ALifeUI_0b5a714d7d91e6d5",
+   "Right on time, I like you already, don't make me regret it",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan"
+   ]
+  ],
+  "107": [
+   "IGUI_ALifeUI_2a7c549e5cd711cf",
+   "Closer, closer, that's it, nice and slow, no sudden anything",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan"
+   ]
+  ],
+  "108": [
+   "IGUI_ALifeUI_007c8f635f83a012",
+   "Bag on the ground, friend",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Doyle"
+   ]
+  ],
+  "109": [
+   "IGUI_ALifeUI_13bd2efa7269e238",
+   "Well? What's it going to be",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan"
+   ]
+  ],
+  "110": [
+   "IGUI_ALifeUI_5021b07b27094389",
+   "Two bandages and a box of nine mil, call it fair and don't tell anyone how fair",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan"
+   ]
+  ],
+  "111": [
+   "IGUI_ALifeUI_72f0ad717ec99a5b",
+   "That's robbery, cut it in half",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "112": [
+   "IGUI_ALifeUI_5f65c31d402cc1b0",
+   "Half? Doyle, did you hear that? Half",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan"
+   ]
+  ],
+  "113": [
+   "IGUI_ALifeUI_36e2af7d372e1d2d",
+   "Maybe next time",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "114": [
+   "IGUI_ALifeUI_52c7c914318a8cb6",
+   "There's always a next time, that's the whole job",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan"
+   ]
+  ],
+  "115": [
+   "IGUI_ALifeUI_500ae89e066090d3",
+   "Alright, the bag's on the ground",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "116": [
+   "IGUI_ALifeUI_269468d84692ed7c",
+   "Good, good, now the other one too",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan"
+   ]
+  ],
+  "117": [
+   "IGUI_ALifeUI_5cda82c3153d7ee7",
+   "Back off, my friends are in the trees",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "118": [
+   "IGUI_ALifeUI_2e1cbf945a223c0c",
+   "Friends, huh? Doyle, count the trees",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan"
+   ]
+  ],
+  "119": [
+   "IGUI_ALifeUI_1e3f7a9b3b31502b",
+   "Something's off, I'm leaving",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "120": [
+   "IGUI_ALifeUI_2a8429a230810a4f",
+   "No, you're not",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Doyle"
+   ]
+  ],
+  "121": [
+   "IGUI_ALifeUI_03880d7069f968f5",
+   "You did a fair deal with Harlan Voss",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "SONUÇ"
+   ]
+  ],
+  "122": [
+   "IGUI_ALifeUI_34bdea0b34512f7f",
+   "Pleasure, tell your friends the road still has a store",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan"
+   ]
+  ],
+  "123": [
+   "IGUI_ALifeUI_5e33035836aa9a15",
+   "You insulted Harlan Voss over the price",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "SONUÇ"
+   ]
+  ],
+  "124": [
+   "IGUI_ALifeUI_6cc440bd726c93a4",
+   "Cheap and loud, that's two things I can't sell",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan"
+   ]
+  ],
+  "125": [
+   "IGUI_ALifeUI_251399763e307e92",
+   "You left Harlan's pitch with nothing",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "SONUÇ"
+   ]
+  ],
+  "126": [
+   "IGUI_ALifeUI_7b5d9ba333c2fd4e",
+   "Harlan Voss lightened your bag",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "SONUÇ"
+   ]
+  ],
+  "127": [
+   "IGUI_ALifeUI_2d4f1f8c55bbdb8a",
+   "No hard feelings, it's just business with a different font",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan"
+   ]
+  ],
+  "128": [
+   "IGUI_ALifeUI_35b3fa990cbeb24c",
+   "Harlan's deal was rigged and it went loud",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "SONUÇ"
+   ]
+  ],
+  "129": [
+   "IGUI_ALifeUI_455f28de24ae6e54",
+   "You threatened a trader on an open channel",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "SONUÇ"
+   ]
+  ],
+  "130": [
+   "IGUI_ALifeUI_30bb3fe01010a1b1",
+   "You turned the trader down",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "SONUÇ"
+   ]
+  ],
+  "131": [
+   "IGUI_ALifeUI_6020f3e4217d2339",
+   "The trader got nothing but static",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "SONUÇ"
+   ]
+  ],
+  "132": [
+   "IGUI_ALifeUI_6631d1992e6d4f26",
+   "Harlan Voss packed up before you got there",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "SONUÇ"
+   ]
+  ],
+  "133": [
+   "IGUI_ALifeUI_7cd53fe57733b81e",
+   "Harlan Voss again, remember the pumps? Left one still leaks",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan telsizde"
+   ]
+  ],
+  "134": [
+   "IGUI_ALifeUI_42a1494677a9cbda",
+   "Light's going soon, I won't wait around",
+   [
+    "ALifeRadioEvent_gas_trader.lua",
+    "gas_trader",
+    "Harlan telsizde"
+   ]
+  ],
+  "135": [
+   "IGUI_ALifeUI_4441435914419db0",
+   "Locked in",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "GÖREV"
+   ]
+  ],
+  "136": [
+   "IGUI_ALifeUI_20c350c60b85cad2",
+   "Nell Brannock called for help on the radio. Her house is about {dist} steps {dir} of you",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "GÖREV"
+   ]
+  ],
+  "137": [
+   "IGUI_ALifeUI_0c071ef311b1fc69",
+   "Get to the Brannock house",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "GÖREV"
+   ]
+  ],
+  "138": [
+   "IGUI_ALifeUI_4e0f535f2e00b3c1",
+   "Talk to Nell",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "GÖREV"
+   ]
+  ],
+  "139": [
+   "IGUI_ALifeUI_62fe96f35d3ab01d",
+   "Get the family out",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "GÖREV"
+   ]
+  ],
+  "140": [
+   "IGUI_ALifeUI_734588f42f2ec6fe",
+   "Hello? Hello? Anybody on this channel?",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell telsizde"
+   ]
+  ],
+  "141": [
+   "IGUI_ALifeUI_7317e7317e5893c0",
+   "It's Nell Brannock, I'm in a house about {dist} steps {dir} of you by the sound of your signal",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell telsizde"
+   ]
+  ],
+  "142": [
+   "IGUI_ALifeUI_7c7607124757ab90",
+   "Tell them about the door, Nell",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Cass telsizde"
+   ]
+  ],
+  "143": [
+   "IGUI_ALifeUI_125a7c1c273c5878",
+   "Front door's jammed, the wardrobe is against the back one, and there's thirty of them in the yard pushing at the fence",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell telsizde"
+   ]
+  ],
+  "144": [
+   "IGUI_ALifeUI_0e2fc455792e084e",
+   "Three kids upstairs and about two days of water, that's all we've got",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell telsizde"
+   ]
+  ],
+  "145": [
+   "IGUI_ALifeUI_5955db09623a45ce",
+   "Please, tell me somebody's there",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell telsizde"
+   ]
+  ],
+  "146": [
+   "IGUI_ALifeUI_489b69a37e39c0cd",
+   "Stay quiet, I'm coming",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "147": [
+   "IGUI_ALifeUI_0eb36d187ea9cde1",
+   "Oh thank God, oh thank God, one, two, three, okay, okay",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell telsizde"
+   ]
+  ],
+  "148": [
+   "IGUI_ALifeUI_01cf4b4d312692f1",
+   "We'll bang on the window twice when we see you",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Cass telsizde"
+   ]
+  ],
+  "149": [
+   "IGUI_ALifeUI_4c9a3ddf0569c31b",
+   "How many are outside?",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "150": [
+   "IGUI_ALifeUI_0f1c198a6567a91f",
+   "I stopped counting at thirty, they just stand there leaning on the fence",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell telsizde"
+   ]
+  ],
+  "151": [
+   "IGUI_ALifeUI_682835cf529bd4d8",
+   "Why would anyone count them, Nell? What good does counting do?",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Cass telsizde"
+   ]
+  ],
+  "152": [
+   "IGUI_ALifeUI_769fd1c07be8891a",
+   "How do I know this isn't a trap?",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "153": [
+   "IGUI_ALifeUI_793272dd5f0b1a41",
+   "A trap for what? We've got a wardrobe and a can of peaches",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Cass telsizde"
+   ]
+  ],
+  "154": [
+   "IGUI_ALifeUI_30c5ad8b75a107ff",
+   "Cass, stop it, they're right to ask",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell telsizde"
+   ]
+  ],
+  "155": [
+   "IGUI_ALifeUI_4e287354241b52c5",
+   "Not my problem, find someone else",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "156": [
+   "IGUI_ALifeUI_6ca1e8856b2fb0bb",
+   "Sure, sure, I understand, you look after yourself out there",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell telsizde"
+   ]
+  ],
+  "157": [
+   "IGUI_ALifeUI_251b8b866959443d",
+   "Is that the radio voice? You actually came",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell"
+   ]
+  ],
+  "158": [
+   "IGUI_ALifeUI_6c36806644915f52",
+   "Hands where I can see them, who sent you? Anyone? Anyone at all?",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Cass"
+   ]
+  ],
+  "159": [
+   "IGUI_ALifeUI_49e26d2565bfc3ea",
+   "Please, the gate's the only way, they'll hear us if we run",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell"
+   ]
+  ],
+  "160": [
+   "IGUI_ALifeUI_64389c821bfaca54",
+   "Get everyone to the back, I'll draw them off the gate",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "161": [
+   "IGUI_ALifeUI_2827da4e56a4bae0",
+   "Okay, okay, back door, kids first, four, five, six",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell"
+   ]
+  ],
+  "162": [
+   "IGUI_ALifeUI_14b3b5444c7d0048",
+   "What do I get for this?",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "163": [
+   "IGUI_ALifeUI_7c6d328f51aab5e6",
+   "What do you get? What do you want, the wardrobe?",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Cass"
+   ]
+  ],
+  "164": [
+   "IGUI_ALifeUI_6453ebe609e27e4a",
+   "Show me the door first",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "165": [
+   "IGUI_ALifeUI_7861582361d030a0",
+   "Round the side, mind the glass",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell"
+   ]
+  ],
+  "166": [
+   "IGUI_ALifeUI_05f3c1ae0b54ee44",
+   "Changed my mind, I'm sorry",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "167": [
+   "IGUI_ALifeUI_6b90d3c64829137d",
+   "You came this far, that's more than anyone",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell"
+   ]
+  ],
+  "168": [
+   "IGUI_ALifeUI_6cf0ee9e713dd94e",
+   "You got the Brannocks out through the back",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "SONUÇ"
+   ]
+  ],
+  "169": [
+   "IGUI_ALifeUI_2c62619d5af467b1",
+   "Take the beans, take the crowbar, take whatever you like",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell"
+   ]
+  ],
+  "170": [
+   "IGUI_ALifeUI_007195ee58abda83",
+   "You haggled with a family behind a wardrobe",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "SONUÇ"
+   ]
+  ],
+  "171": [
+   "IGUI_ALifeUI_53adecea644dad22",
+   "Go on then, we'll manage",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell"
+   ]
+  ],
+  "172": [
+   "IGUI_ALifeUI_6506c6c920398b66",
+   "You walked away from the Brannock house",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "SONUÇ"
+   ]
+  ],
+  "173": [
+   "IGUI_ALifeUI_66b3ea842638dcbf",
+   "You told Nell no on the radio",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "SONUÇ"
+   ]
+  ],
+  "174": [
+   "IGUI_ALifeUI_57d9725b4b62e04e",
+   "The call went unanswered",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "SONUÇ"
+   ]
+  ],
+  "175": [
+   "IGUI_ALifeUI_1315062a11659553",
+   "You never made it to the Brannock house",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "SONUÇ"
+   ]
+  ],
+  "176": [
+   "IGUI_ALifeUI_0a9c6b29679a3141",
+   "It's Nell Brannock again, you probably don't remember the voice",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell telsizde"
+   ]
+  ],
+  "177": [
+   "IGUI_ALifeUI_0dc4472e1e561e3a",
+   "It's been hours, are you still coming? Please say you're still coming",
+   [
+    "ALifeRadioEvent_locked_in.lua",
+    "locked_in",
+    "Nell telsizde"
+   ]
+  ],
+  "178": [
+   "IGUI_ALifeUI_646499b67bd8e7b4",
+   "Convoy in the ditch",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "GÖREV"
+   ]
+  ],
+  "179": [
+   "IGUI_ALifeUI_6282a59427aa5aa1",
+   "Sergeant Whitcomb is down with a bad leg beside a wrecked convoy {dist} steps {dir} of you",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "GÖREV"
+   ]
+  ],
+  "180": [
+   "IGUI_ALifeUI_0a26f0fb1844a930",
+   "Find the wrecked convoy",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "GÖREV"
+   ]
+  ],
+  "181": [
+   "IGUI_ALifeUI_514ba11e5342b043",
+   "Talk to Whitcomb",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "GÖREV"
+   ]
+  ],
+  "182": [
+   "IGUI_ALifeUI_4705dee329943bbc",
+   "Any station, any station, Sergeant Dale Whitcomb, Kentucky Guard, 149th",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale telsizde"
+   ]
+  ],
+  "183": [
+   "IGUI_ALifeUI_38141fe72f41c8d2",
+   "I've got a hole in my leg and two trucks in a ditch about {dist} steps {dir} of you",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale telsizde"
+   ]
+  ],
+  "184": [
+   "IGUI_ALifeUI_4b1f054f2805bf9d",
+   "One of them is still sealed, I'm not allowed to say what's in it, I'm also not allowed to bleed out, doing badly at both",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale telsizde"
+   ]
+  ],
+  "185": [
+   "IGUI_ALifeUI_5ac78ec82d5e5cf6",
+   "Can you copy? Say again, can you copy?",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale telsizde"
+   ]
+  ],
+  "186": [
+   "IGUI_ALifeUI_4c38d19712b5a58a",
+   "Hold on, I'm coming with bandages",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "187": [
+   "IGUI_ALifeUI_0ce23bef20ca5b47",
+   "Copy that, civilian, I'll hold the ditch",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale telsizde"
+   ]
+  ],
+  "188": [
+   "IGUI_ALifeUI_24d0ae5a6f197a68",
+   "What's in the sealed truck?",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "189": [
+   "IGUI_ALifeUI_7f6702dd007086f9",
+   "Orders say sealed, my leg says medicine, my gut says crates of something heavy",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale telsizde"
+   ]
+  ],
+  "190": [
+   "IGUI_ALifeUI_14a5f3f52bacb92d",
+   "You a deserter?",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "191": [
+   "IGUI_ALifeUI_6bb48a7f49422984",
+   "I'm a man in a ditch, you pick the word",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale telsizde"
+   ]
+  ],
+  "192": [
+   "IGUI_ALifeUI_46e088d03b2a55da",
+   "Sounds like a problem for the army",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "193": [
+   "IGUI_ALifeUI_2d8906102a5f581b",
+   "The army left an hour after the ditch did, copy, out",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale telsizde"
+   ]
+  ],
+  "194": [
+   "IGUI_ALifeUI_3e2ba3631bb41443",
+   "Easy, easy, I've got a rifle but I can't stand up to use it",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale"
+   ]
+  ],
+  "195": [
+   "IGUI_ALifeUI_05a13b770016c237",
+   "Sorry, sir, ma'am, whoever you are, it's the leg talking",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale"
+   ]
+  ],
+  "196": [
+   "IGUI_ALifeUI_0a8361cc346ce62a",
+   "Can you do anything about this leg?",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale"
+   ]
+  ],
+  "197": [
+   "IGUI_ALifeUI_7281640962a5788f",
+   "Let me look at that leg",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "198": [
+   "IGUI_ALifeUI_5cb8b82334d84b76",
+   "Tight as you can, I've had worse, I think",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale"
+   ]
+  ],
+  "199": [
+   "IGUI_ALifeUI_3f3260ae069a8a82",
+   "Forget the leg, open the truck",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "200": [
+   "IGUI_ALifeUI_2c0b0dd4260b2595",
+   "That's not what the sealed means, but you've got the hands",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale"
+   ]
+  ],
+  "201": [
+   "IGUI_ALifeUI_2578cd035596f803",
+   "Give me the manifest and I'll tell people where you are",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "202": [
+   "IGUI_ALifeUI_1d3374213b165855",
+   "In the cab, notebook, I'd be grateful, I'd also be gone",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale"
+   ]
+  ],
+  "203": [
+   "IGUI_ALifeUI_79b15b2c5eb20e8b",
+   "No, I understand, I wouldn't either",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale"
+   ]
+  ],
+  "204": [
+   "IGUI_ALifeUI_2cdc85cd1bd8f9c5",
+   "You patched Sergeant Whitcomb's leg",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "SONUÇ"
+   ]
+  ],
+  "205": [
+   "IGUI_ALifeUI_73f0932c06976a53",
+   "Take the notebook, it has the route, and the name of the man who left us",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale"
+   ]
+  ],
+  "206": [
+   "IGUI_ALifeUI_5a91bc164d7817c3",
+   "You took the convoy manifest and left Whitcomb where he lay",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "SONUÇ"
+   ]
+  ],
+  "207": [
+   "IGUI_ALifeUI_576b1af56c95d397",
+   "Tell someone with a radio the road still has a sergeant on it",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale"
+   ]
+  ],
+  "208": [
+   "IGUI_ALifeUI_3570415e63c37b20",
+   "You went through the sealed truck while Whitcomb watched",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "SONUÇ"
+   ]
+  ],
+  "209": [
+   "IGUI_ALifeUI_21175f182200cf2f",
+   "Someone will count what's missing, I'd like it not to be me",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale"
+   ]
+  ],
+  "210": [
+   "IGUI_ALifeUI_0cf58061425ed477",
+   "You left Sergeant Whitcomb in the ditch",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "SONUÇ"
+   ]
+  ],
+  "211": [
+   "IGUI_ALifeUI_01dd050675d438da",
+   "You told the sergeant it was an army problem",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "SONUÇ"
+   ]
+  ],
+  "212": [
+   "IGUI_ALifeUI_5a383add6cb2bab4",
+   "The sergeant's call went unanswered",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "SONUÇ"
+   ]
+  ],
+  "213": [
+   "IGUI_ALifeUI_707e5ca11e781001",
+   "The convoy was empty when you finally got there",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "SONUÇ"
+   ]
+  ],
+  "214": [
+   "IGUI_ALifeUI_58fcc7a9583466b0",
+   "Whitcomb again, the leg and I are on speaking terms now",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale telsizde"
+   ]
+  ],
+  "215": [
+   "IGUI_ALifeUI_58f371055b10b7cf",
+   "Still here, still bleeding politely",
+   [
+    "ALifeRadioEvent_lost_convoy.lua",
+    "lost_convoy",
+    "Dale telsizde"
+   ]
+  ],
+  "216": [
+   "IGUI_ALifeUI_066f8c6b6374078b",
+   "Night clinic",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "GÖREV"
+   ]
+  ],
+  "217": [
+   "IGUI_ALifeUI_44e36f58315d6276",
+   "Doctor Ingrid Solheim needs antibiotics for her patients. Her clinic is about {dist} steps {dir} of you",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "GÖREV"
+   ]
+  ],
+  "218": [
+   "IGUI_ALifeUI_594313732e0f121e",
+   "Get to the clinic",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "GÖREV"
+   ]
+  ],
+  "219": [
+   "IGUI_ALifeUI_742a92c206e3edb8",
+   "Talk to Doctor Solheim",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "GÖREV"
+   ]
+  ],
+  "220": [
+   "IGUI_ALifeUI_76e329b92c86900b",
+   "This is Doctor Ingrid Solheim, I have six patients and a fridge that has stopped being a fridge",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid telsizde"
+   ]
+  ],
+  "221": [
+   "IGUI_ALifeUI_70e75b1748af8d53",
+   "Sepsis, fractura, febris, that's infection, a break and a fever, forgive me, I'm tired",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid telsizde"
+   ]
+  ],
+  "222": [
+   "IGUI_ALifeUI_174e3cde47ef9841",
+   "I'm out of antibiotics, I'm about {dist} steps {dir} of you, if you have a bottle, I can pay you in kind",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid telsizde"
+   ]
+  ],
+  "223": [
+   "IGUI_ALifeUI_0e9af9af57b5befd",
+   "Is there a human on this frequency?",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid telsizde"
+   ]
+  ],
+  "224": [
+   "IGUI_ALifeUI_4d6929a90a52d661",
+   "I'll bring what I can find",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "225": [
+   "IGUI_ALifeUI_2c99f9603cd03ea9",
+   "Thank you, thank you, ring the bell by the side door, the front is a bad idea",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid telsizde"
+   ]
+  ],
+  "226": [
+   "IGUI_ALifeUI_1eded3f2158d8a40",
+   "Antibiotics first, then anything for pain, then a good night's sleep that nobody can sell me",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid telsizde"
+   ]
+  ],
+  "227": [
+   "IGUI_ALifeUI_3c56d0ff0199abd5",
+   "What's it worth to you?",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "228": [
+   "IGUI_ALifeUI_6d8ca63436bcd0a9",
+   "A kit, a proper kit, and my gratitude, in that order",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid telsizde"
+   ]
+  ],
+  "229": [
+   "IGUI_ALifeUI_0cbdfef71f564b9b",
+   "I have nothing to spare",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "230": [
+   "IGUI_ALifeUI_75d33ca8620cad97",
+   "Then I'll find another way, I always do, even when I shouldn't",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid telsizde"
+   ]
+  ],
+  "231": [
+   "IGUI_ALifeUI_37ce3f9e165c8876",
+   "You made it, you actually made it, sit, no, stand, I don't know, hello",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid"
+   ]
+  ],
+  "232": [
+   "IGUI_ALifeUI_340de668004603ed",
+   "Tell me you've got antibiotics, I'll weep, professionally",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid"
+   ]
+  ],
+  "233": [
+   "IGUI_ALifeUI_6869423a519f77fe",
+   "What did you bring me?",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid"
+   ]
+  ],
+  "234": [
+   "IGUI_ALifeUI_0da2c87430a73f1a",
+   "Here, antibiotics",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "235": [
+   "IGUI_ALifeUI_69a5182a3bb8b55c",
+   "You don't actually have any, do you? It's okay, I'm used to hope",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid"
+   ]
+  ],
+  "236": [
+   "IGUI_ALifeUI_69733f9a6c7873f9",
+   "Ex malo bonum, out of bad comes good, take the kit, you've earned it",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid"
+   ]
+  ],
+  "237": [
+   "IGUI_ALifeUI_3817309219b47915",
+   "Painkillers, will that do?",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "238": [
+   "IGUI_ALifeUI_199d98345d740b22",
+   "You mean the idea of painkillers, I assume, because your pockets say otherwise",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid"
+   ]
+  ],
+  "239": [
+   "IGUI_ALifeUI_210632955308e555",
+   "It'll do for tonight, and tonight is all I'm planning",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid"
+   ]
+  ],
+  "240": [
+   "IGUI_ALifeUI_525b4f4719876c28",
+   "I can't bring anything, but I can hold a lamp",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "241": [
+   "IGUI_ALifeUI_5c8519e834135be0",
+   "Hold it steady, don't look, look if you must",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid"
+   ]
+  ],
+  "242": [
+   "IGUI_ALifeUI_45fcfe241ec90c6e",
+   "Hand over the supplies, I'll tell you if you need them",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "243": [
+   "IGUI_ALifeUI_71b36b757ae326d9",
+   "Over my dead body, which is on the list for tonight",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid"
+   ]
+  ],
+  "244": [
+   "IGUI_ALifeUI_0cb537a467288979",
+   "You brought Doctor Solheim her antibiotics",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "SONUÇ"
+   ]
+  ],
+  "245": [
+   "IGUI_ALifeUI_651e029d67f96edb",
+   "Go carefully, and when you bleed, come here first",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid"
+   ]
+  ],
+  "246": [
+   "IGUI_ALifeUI_45b1e34b4ab8b046",
+   "You gave Doctor Solheim your painkillers",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "SONUÇ"
+   ]
+  ],
+  "247": [
+   "IGUI_ALifeUI_04b525fb5add0d16",
+   "Dolor is a bad word in any language, thank you",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid"
+   ]
+  ],
+  "248": [
+   "IGUI_ALifeUI_382a2a825cc6ce38",
+   "You held the lamp while Doctor Solheim worked",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "SONUÇ"
+   ]
+  ],
+  "249": [
+   "IGUI_ALifeUI_5dcbaf9e4efdd625",
+   "Steady hands, you should do this for a living",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid"
+   ]
+  ],
+  "250": [
+   "IGUI_ALifeUI_1802b71e332c3622",
+   "You tried to take medicine from a doctor",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "SONUÇ"
+   ]
+  ],
+  "251": [
+   "IGUI_ALifeUI_41e595844d393899",
+   "You left the clinic empty handed",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "SONUÇ"
+   ]
+  ],
+  "252": [
+   "IGUI_ALifeUI_5fb06d5620617cf0",
+   "You told Doctor Solheim you had no medicine",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "SONUÇ"
+   ]
+  ],
+  "253": [
+   "IGUI_ALifeUI_2638cc3c25a377b3",
+   "Doctor Solheim's call went unanswered",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "SONUÇ"
+   ]
+  ],
+  "254": [
+   "IGUI_ALifeUI_73d4c8d022d7ae0b",
+   "The clinic was quiet when you got there",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "SONUÇ"
+   ]
+  ],
+  "255": [
+   "IGUI_ALifeUI_4df849497c8c48a3",
+   "A man with a green door told me a stranger brings batteries, is that you?",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid telsizde"
+   ]
+  ],
+  "256": [
+   "IGUI_ALifeUI_344bcd4d42b2b406",
+   "Doctor Solheim again, the fridge is still not a fridge",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid telsizde"
+   ]
+  ],
+  "257": [
+   "IGUI_ALifeUI_3f4cc3cd54b84630",
+   "Febris is climbing, I won't wait much longer",
+   [
+    "ALifeRadioEvent_night_clinic.lua",
+    "night_clinic",
+    "Ingrid telsizde"
+   ]
+  ],
+  "258": [
+   "IGUI_ALifeUI_5c3bebf32a1a8dd1",
+   "Night courier",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "GÖREV"
+   ]
+  ],
+  "259": [
+   "IGUI_ALifeUI_0f4d97bc118f3ee3",
+   "A courier named Ines Moreau is waiting in the dark of a warehouse about {dist} steps {dir} of you",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "GÖREV"
+   ]
+  ],
+  "260": [
+   "IGUI_ALifeUI_13b6b74e2a3132c4",
+   "Get to the warehouse",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "GÖREV"
+   ]
+  ],
+  "261": [
+   "IGUI_ALifeUI_4e0cbae32d57877d",
+   "Talk to Ines",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "GÖREV"
+   ]
+  ],
+  "262": [
+   "IGUI_ALifeUI_57a0ae1e2259a531",
+   "Ines Moreau, line crew courier, I'm in a warehouse about {dist} steps {dir} of you and my torch just died",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines telsizde"
+   ]
+  ],
+  "263": [
+   "IGUI_ALifeUI_6153411e4cadaa50",
+   "I have a parcel that has to reach the next town by dawn and the stairs to the loading dock are pitch black",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines telsizde"
+   ]
+  ],
+  "264": [
+   "IGUI_ALifeUI_03c2d8e844630f51",
+   "A light and a battery would do it, I'd pay in whatever I'm allowed to pay in",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines telsizde"
+   ]
+  ],
+  "265": [
+   "IGUI_ALifeUI_45b030ec6f606868",
+   "Is this channel open? Say yes if it's open",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines telsizde"
+   ]
+  ],
+  "266": [
+   "IGUI_ALifeUI_7a2dfec3340ec642",
+   "Sit tight, I'll bring a light",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "267": [
+   "IGUI_ALifeUI_326d2854637fcdb7",
+   "I'm in the office with the door shut, knock twice and say the weather",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines telsizde"
+   ]
+  ],
+  "268": [
+   "IGUI_ALifeUI_0b02526317f5107f",
+   "What's in the parcel?",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "269": [
+   "IGUI_ALifeUI_786dc55a4d6c1713",
+   "Paper, mostly, don't ask the other thing, I'm not allowed",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines telsizde"
+   ]
+  ],
+  "270": [
+   "IGUI_ALifeUI_7c2b7e3536e7e354",
+   "I can't, sorry",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "271": [
+   "IGUI_ALifeUI_5d8f2f976d28f0a2",
+   "Understood, I'll feel my way along the wall",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines telsizde"
+   ]
+  ],
+  "272": [
+   "IGUI_ALifeUI_356644864a90543b",
+   "Two knocks and a weather report, that's the code, you're good at this",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines"
+   ]
+  ],
+  "273": [
+   "IGUI_ALifeUI_29fa9e0f43d2fea2",
+   "Dark in here, dark on the stairs, dark everywhere, I hate it",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines"
+   ]
+  ],
+  "274": [
+   "IGUI_ALifeUI_3f98827a6e0a7639",
+   "Did you bring a light?",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines"
+   ]
+  ],
+  "275": [
+   "IGUI_ALifeUI_14a2e7af55db98c6",
+   "Here, a torch and a battery",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "276": [
+   "IGUI_ALifeUI_0ff630ee462335e0",
+   "I need both a torch and a battery, you're missing one",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines"
+   ]
+  ],
+  "277": [
+   "IGUI_ALifeUI_345a3464403ccb20",
+   "Light, glorious light, look at the stairs, I can count them",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines"
+   ]
+  ],
+  "278": [
+   "IGUI_ALifeUI_7672758b10bcd27c",
+   "I only have a battery for yours",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "279": [
+   "IGUI_ALifeUI_591ee2c61ad2c2d6",
+   "That's kind, but your pockets say otherwise",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines"
+   ]
+  ],
+  "280": [
+   "IGUI_ALifeUI_5218218212a5e415",
+   "That'll bring mine back to life, thank you, thank you",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines"
+   ]
+  ],
+  "281": [
+   "IGUI_ALifeUI_23c6d3ca12df46a7",
+   "Let me see what's in that parcel",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "282": [
+   "IGUI_ALifeUI_4af024665a155fe1",
+   "No, that's the one thing nobody gets to do",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines"
+   ]
+  ],
+  "283": [
+   "IGUI_ALifeUI_4a88beda6456e51f",
+   "Wrong warehouse, I'm leaving",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "284": [
+   "IGUI_ALifeUI_42cbaeef37a61081",
+   "Understood, go quietly",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines"
+   ]
+  ],
+  "285": [
+   "IGUI_ALifeUI_11560a7149857e89",
+   "You gave Ines Moreau a torch and she reached the loading dock",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "SONUÇ"
+   ]
+  ],
+  "286": [
+   "IGUI_ALifeUI_2293a5346968eac9",
+   "Take this map of the line routes and the pen, the pen is just a pen, the map is not",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines"
+   ]
+  ],
+  "287": [
+   "IGUI_ALifeUI_063a6c7e1a74bd6d",
+   "You gave Ines Moreau a fresh battery",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "SONUÇ"
+   ]
+  ],
+  "288": [
+   "IGUI_ALifeUI_3dcc40a72533dc14",
+   "It's not much but it's enough, tell no one I got through",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines"
+   ]
+  ],
+  "289": [
+   "IGUI_ALifeUI_58b9d9cd168ca7c3",
+   "You pushed Ines Moreau to show you the parcel",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "SONUÇ"
+   ]
+  ],
+  "290": [
+   "IGUI_ALifeUI_0a7d2d3d03ad56b2",
+   "I'll remember who asked",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines"
+   ]
+  ],
+  "291": [
+   "IGUI_ALifeUI_19aa1f9823d809e9",
+   "You left Ines Moreau in the dark",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "SONUÇ"
+   ]
+  ],
+  "292": [
+   "IGUI_ALifeUI_75bb06db41621dad",
+   "You told Ines you could not bring a light",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "SONUÇ"
+   ]
+  ],
+  "293": [
+   "IGUI_ALifeUI_1b30761965d9e00a",
+   "Ines's call went unanswered",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "SONUÇ"
+   ]
+  ],
+  "294": [
+   "IGUI_ALifeUI_3f3fb42d05ea7b1a",
+   "The warehouse office was empty when you got there",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "SONUÇ"
+   ]
+  ],
+  "295": [
+   "IGUI_ALifeUI_7b5358aa5e4cad17",
+   "a courier crossed a pitch black warehouse and made it out because somebody brought a torch",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "SÖYLENTİ"
+   ]
+  ],
+  "296": [
+   "IGUI_ALifeUI_516cd13e19709597",
+   "a courier on the line crew circuit is back on the road with a borrowed battery",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "SÖYLENTİ"
+   ]
+  ],
+  "297": [
+   "IGUI_ALifeUI_552ffba53c4acf36",
+   "a stranger leaned on a courier to open her parcel and she never forgot it",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "SÖYLENTİ"
+   ]
+  ],
+  "298": [
+   "IGUI_ALifeUI_0f73ed672f03a2b9",
+   "Harlan Voss runs bad fuel on that road, I'd go round, the long way",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines telsizde"
+   ]
+  ],
+  "299": [
+   "IGUI_ALifeUI_42bb202323fd59b8",
+   "Ines Moreau again, still carrying, still in the dark",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines telsizde"
+   ]
+  ],
+  "300": [
+   "IGUI_ALifeUI_4cf67cfd763f784f",
+   "Dawn's getting closer and my light isn't",
+   [
+    "ALifeRadioEvent_night_courier.lua",
+    "night_courier",
+    "Ines telsizde"
+   ]
+  ],
+  "301": [
+   "IGUI_ALifeUI_2e291c3e0ce409f0",
+   "Porch light",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "GÖREV"
+   ]
+  ],
+  "302": [
+   "IGUI_ALifeUI_4c45d0766b4fc390",
+   "A woman called Ellie wants help for her husband at a farmhouse {dist} steps {dir} of you",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "GÖREV"
+   ]
+  ],
+  "303": [
+   "IGUI_ALifeUI_6a1c4fc752a38e27",
+   "Get to the farmhouse",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "GÖREV"
+   ]
+  ],
+  "304": [
+   "IGUI_ALifeUI_623ee3602391fd2a",
+   "Find Ellie",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "GÖREV"
+   ]
+  ],
+  "305": [
+   "IGUI_ALifeUI_775b916b2a639a6e",
+   "Please, please, anybody, my husband Marcus is hurt, we're at a farmhouse about {dist} steps {dir} of you",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Ellie telsizde"
+   ]
+  ],
+  "306": [
+   "IGUI_ALifeUI_45645b7751ada79c",
+   "He fell off the porch, it's not bad, it's his chest, it's bad",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Ellie telsizde"
+   ]
+  ],
+  "307": [
+   "IGUI_ALifeUI_71a5049a47071b01",
+   "There's nobody around, it's very quiet, the road is clear, you won't see a single thing on the way",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Ellie telsizde"
+   ]
+  ],
+  "308": [
+   "IGUI_ALifeUI_767a942f61d153b4",
+   "Not that line, the other one",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Rook telsizde"
+   ]
+  ],
+  "309": [
+   "IGUI_ALifeUI_440d4bf148320c06",
+   "Sorry, that was Mike, my husband Mike, the line's bad",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Ellie telsizde"
+   ]
+  ],
+  "310": [
+   "IGUI_ALifeUI_74adbabe7bf3a5a1",
+   "Come alone, and leave the guns in the car, they scare him",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Ellie telsizde"
+   ]
+  ],
+  "311": [
+   "IGUI_ALifeUI_04c10cd204fecb2a",
+   "You're coming, aren't you?",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Ellie telsizde"
+   ]
+  ],
+  "312": [
+   "IGUI_ALifeUI_75863a391ee6caa8",
+   "I'm on my way",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "313": [
+   "IGUI_ALifeUI_33eb430f5f8631ae",
+   "Bless you, bless you, the porch light's on, come straight to the front",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Ellie telsizde"
+   ]
+  ],
+  "314": [
+   "IGUI_ALifeUI_167762386bd82a87",
+   "Which is it, Marcus or Mike?",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "315": [
+   "IGUI_ALifeUI_4e1a71bb3f999259",
+   "Both, he has two names, who cares, he's dying",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Ellie telsizde"
+   ]
+  ],
+  "316": [
+   "IGUI_ALifeUI_0e4846e800bbed31",
+   "I'm bringing company, a lot of it",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "317": [
+   "IGUI_ALifeUI_110df8ae467378e1",
+   "That's fine, that's fine, the more the merrier, honestly",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Ellie telsizde"
+   ]
+  ],
+  "318": [
+   "IGUI_ALifeUI_572439ae680ed750",
+   "I'll send someone else",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "319": [
+   "IGUI_ALifeUI_65c0fea67382a353",
+   "No! Don't send anyone, just you, I mean, just come, please",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Ellie telsizde"
+   ]
+  ],
+  "320": [
+   "IGUI_ALifeUI_25ed01032584417b",
+   "Marcus, Mike, whatever, he's fine, he's in the cellar, fine",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Ellie"
+   ]
+  ],
+  "321": [
+   "IGUI_ALifeUI_7fdc47aa0bb296c6",
+   "Bag on the ground and nobody gets hurt, probably",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Rook"
+   ]
+  ],
+  "322": [
+   "IGUI_ALifeUI_49e4eaf648cbe945",
+   "Fine, take what you want",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "323": [
+   "IGUI_ALifeUI_306a15393acb5e5c",
+   "See, was that so hard? Pell, stop humming",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Rook"
+   ]
+  ],
+  "324": [
+   "IGUI_ALifeUI_32c24e8f79039ae5",
+   "My friends have you in their sights",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "325": [
+   "IGUI_ALifeUI_192024505ebcda86",
+   "Pell? Stop humming and count the trees",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Rook"
+   ]
+  ],
+  "326": [
+   "IGUI_ALifeUI_44f4786570b898a9",
+   "Ellie, there's no husband, is there?",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "327": [
+   "IGUI_ALifeUI_340cee7871667f3d",
+   "There was one, once, ask Rook, he was nicer than you",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Ellie"
+   ]
+  ],
+  "328": [
+   "IGUI_ALifeUI_31c3746018e0e9a4",
+   "Oh, that's a shame",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Pell"
+   ]
+  ],
+  "329": [
+   "IGUI_ALifeUI_543e07984534248c",
+   "The porch crew believed you had friends in the trees",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "SONUÇ"
+   ]
+  ],
+  "330": [
+   "IGUI_ALifeUI_5880aabe0ced93d9",
+   "Fine, fine, nobody is dying today, nobody here",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Rook"
+   ]
+  ],
+  "331": [
+   "IGUI_ALifeUI_1902afc450ff1265",
+   "You gave the porch crew what they asked for",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "SONUÇ"
+   ]
+  ],
+  "332": [
+   "IGUI_ALifeUI_7b719cd822e166db",
+   "The porch light was bait and it turned into a fight",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "SONUÇ"
+   ]
+  ],
+  "333": [
+   "IGUI_ALifeUI_5f6d6a471f6a5201",
+   "You walked away from the porch light",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "SONUÇ"
+   ]
+  ],
+  "334": [
+   "IGUI_ALifeUI_447b97850243a587",
+   "You did not take the bait",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "SONUÇ"
+   ]
+  ],
+  "335": [
+   "IGUI_ALifeUI_3d6e4de40f373280",
+   "You let the pleading go unanswered",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "SONUÇ"
+   ]
+  ],
+  "336": [
+   "IGUI_ALifeUI_5992b07457455374",
+   "The porch light went out before you got there",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "SONUÇ"
+   ]
+  ],
+  "337": [
+   "IGUI_ALifeUI_4e34aa8467763feb",
+   "Hello again, it's Ellie, my husband's fine now, Marcus, Mike, whoever",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Ellie telsizde"
+   ]
+  ],
+  "338": [
+   "IGUI_ALifeUI_5fd021a76bf19cfc",
+   "The light's still on, are you still coming? Hurry",
+   [
+    "ALifeRadioEvent_porch_light.lua",
+    "porch_light",
+    "Ellie telsizde"
+   ]
+  ],
+  "339": [
+   "IGUI_ALifeUI_21ef1c256e6a58d8",
+   "The quiet choir",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "GÖREV"
+   ]
+  ],
+  "340": [
+   "IGUI_ALifeUI_59474ae01b028b43",
+   "A choir is humming along to your radio. Their house is about {dist} steps {dir} of you",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "GÖREV"
+   ]
+  ],
+  "341": [
+   "IGUI_ALifeUI_01f1f67810a0789a",
+   "Find the house with the lit lamps",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "GÖREV"
+   ]
+  ],
+  "342": [
+   "IGUI_ALifeUI_5f645f3106515965",
+   "Speak to Sister Wren",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "GÖREV"
+   ]
+  ],
+  "343": [
+   "IGUI_ALifeUI_7c46379a14c4033f",
+   "One for the quiet, two for the hush, three for the one who is listening",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Sister telsizde"
+   ]
+  ],
+  "344": [
+   "IGUI_ALifeUI_738bcc064ef16437",
+   "We can hear your radio hum, it's such a lovely hum, we're about {dist} steps {dir} of it",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Sister telsizde"
+   ]
+  ],
+  "345": [
+   "IGUI_ALifeUI_21a7a1067f191b06",
+   "She means the house with the porch, the lamps are lit, they've been lit a while",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Brother telsizde"
+   ]
+  ],
+  "346": [
+   "IGUI_ALifeUI_41f3773764292d7b",
+   "Four for the door, five for the floor, six for the one who is coming",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Sister telsizde"
+   ]
+  ],
+  "347": [
+   "IGUI_ALifeUI_7e3b780c05e68345",
+   "Are you humming? Hum back, please",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Sister telsizde"
+   ]
+  ],
+  "348": [
+   "IGUI_ALifeUI_108bd8c601403fa9",
+   "We know, we always know, the door's open, it's been open since you first tuned in",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Sister telsizde"
+   ]
+  ],
+  "349": [
+   "IGUI_ALifeUI_35697ce40e9c95f7",
+   "Who are you people?",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "350": [
+   "IGUI_ALifeUI_5325a80e1474badc",
+   "A choir, a small one, there used to be more, there will be",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Brother telsizde"
+   ]
+  ],
+  "351": [
+   "IGUI_ALifeUI_2498d1c23d716c62",
+   "Mmm, mmm, mmm",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "352": [
+   "IGUI_ALifeUI_3047f30f63746b9c",
+   "Ahh, there you are, there you are, come sit",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Sister telsizde"
+   ]
+  ],
+  "353": [
+   "IGUI_ALifeUI_708f485a476bfd6d",
+   "I'm tracing this call",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "354": [
+   "IGUI_ALifeUI_7a261f3d39e08187",
+   "We're all traced here, friend, every one of us",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Brother telsizde"
+   ]
+  ],
+  "355": [
+   "IGUI_ALifeUI_217572f353c8bd09",
+   "There you are, we left the door open and you came in by the window of the road",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Sister"
+   ]
+  ],
+  "356": [
+   "IGUI_ALifeUI_41377a0056695edc",
+   "Nobody ever arrives, they only return",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Brother"
+   ]
+  ],
+  "357": [
+   "IGUI_ALifeUI_328b932908de6709",
+   "Will you sit with us a while? It's only a song",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Sister"
+   ]
+  ],
+  "358": [
+   "IGUI_ALifeUI_3cd44ea3171e9796",
+   "Alright, I'll sit",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "359": [
+   "IGUI_ALifeUI_174e48621f84117b",
+   "Hush now, hush, we'll turn the radio down, there, isn't that nicer",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Sister"
+   ]
+  ],
+  "360": [
+   "IGUI_ALifeUI_29d88b7f7f3a7eeb",
+   "What's the song about?",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "361": [
+   "IGUI_ALifeUI_3c0ad79856642412",
+   "About whoever is listening, it has a new verse every time",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Brother"
+   ]
+  ],
+  "362": [
+   "IGUI_ALifeUI_666d4bc9239b2a5b",
+   "I'm only passing, I'll go",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "363": [
+   "IGUI_ALifeUI_7dace1e010c0b9b2",
+   "Nobody leaves, they only return",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Sister"
+   ]
+  ],
+  "364": [
+   "IGUI_ALifeUI_01a04e44392c06d7",
+   "Put the candles out, all of them",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "365": [
+   "IGUI_ALifeUI_67443e561d9e8459",
+   "That's the one thing we can't allow",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Brother"
+   ]
+  ],
+  "366": [
+   "IGUI_ALifeUI_47754bbc7b720369",
+   "You sat with the choir until the singing stopped",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "SONUÇ"
+   ]
+  ],
+  "367": [
+   "IGUI_ALifeUI_730ab2dd6189bea4",
+   "You can go now, you came in loud and you're leaving quiet, take the candles",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Sister"
+   ]
+  ],
+  "368": [
+   "IGUI_ALifeUI_10137b416bb0344f",
+   "The choir would not let you leave quietly",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "SONUÇ"
+   ]
+  ],
+  "369": [
+   "IGUI_ALifeUI_64b29e436d68a740",
+   "Six for the one who is leaving, seven for the one who stays",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Sister"
+   ]
+  ],
+  "370": [
+   "IGUI_ALifeUI_2215fba874c5c0d1",
+   "You told the choir you were tracing them",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "SONUÇ"
+   ]
+  ],
+  "371": [
+   "IGUI_ALifeUI_79f1db786e2946bc",
+   "You stopped listening to the choir",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "SONUÇ"
+   ]
+  ],
+  "372": [
+   "IGUI_ALifeUI_2be48024683789ac",
+   "The humming faded without an answer",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "SONUÇ"
+   ]
+  ],
+  "373": [
+   "IGUI_ALifeUI_3e4ebce408793945",
+   "The lamps were out when you got to the house",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "SONUÇ"
+   ]
+  ],
+  "374": [
+   "IGUI_ALifeUI_102f582a616193a9",
+   "You're back, we kept the verse for you, it's almost finished",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Sister telsizde"
+   ]
+  ],
+  "375": [
+   "IGUI_ALifeUI_19d009974f38c29a",
+   "Seven for the heaven, eight for the wait, nine for the one who is late",
+   [
+    "ALifeRadioEvent_quiet_choir.lua",
+    "quiet_choir",
+    "Sister telsizde"
+   ]
+  ],
+  "376": [
+   "IGUI_ALifeUI_72bd2d3038dd9c74",
+   "Signal smoke",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "GÖREV"
+   ]
+  ],
+  "377": [
+   "IGUI_ALifeUI_70d5f52b6dc2c070",
+   "A hunter named Cal Dreyer is laid up with a torn leg about {dist} steps {dir} of you, a thin smoke marks the spot",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "GÖREV"
+   ]
+  ],
+  "378": [
+   "IGUI_ALifeUI_703a40fa41c47954",
+   "Follow the smoke",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "GÖREV"
+   ]
+  ],
+  "379": [
+   "IGUI_ALifeUI_4ff0c3b07e62bc27",
+   "Talk to Cal",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "GÖREV"
+   ]
+  ],
+  "380": [
+   "IGUI_ALifeUI_148662885708cf5f",
+   "Cal Dreyer here, fell through a rotten porch chasing a deer, which I'd like to point out I did not get",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal telsizde"
+   ]
+  ],
+  "381": [
+   "IGUI_ALifeUI_031696d104711e71",
+   "Leg's opened up and I can't stand on it, I lit a smoky fire so you can find me, about {dist} steps {dir} of you",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal telsizde"
+   ]
+  ],
+  "382": [
+   "IGUI_ALifeUI_67d78f4879731d31",
+   "Bring a bandage and something to clean it with and I'll owe you a venison dinner I may never cook",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal telsizde"
+   ]
+  ],
+  "383": [
+   "IGUI_ALifeUI_57f97d6f42367a74",
+   "Anybody there? Speak up, I'm losing blood but not my manners",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal telsizde"
+   ]
+  ],
+  "384": [
+   "IGUI_ALifeUI_16f60bee6f0b6766",
+   "Keep the fire going, I'm on my way",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "385": [
+   "IGUI_ALifeUI_3538125b76c9c8db",
+   "Fire's going, I'll feed it my last chair, no hurry, fast hurry",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal telsizde"
+   ]
+  ],
+  "386": [
+   "IGUI_ALifeUI_736fa65a068a33db",
+   "How bad is it, really?",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "387": [
+   "IGUI_ALifeUI_090035105cfb3918",
+   "Bone is where it should be, skin isn't, I've had worse at weddings",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal telsizde"
+   ]
+  ],
+  "388": [
+   "IGUI_ALifeUI_78a970de1d8de041",
+   "I can't come, sorry",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "389": [
+   "IGUI_ALifeUI_2bb9724177c6a53e",
+   "Understood, understood, I'll tell the deer you said hello",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal telsizde"
+   ]
+  ],
+  "390": [
+   "IGUI_ALifeUI_313efcde2099c423",
+   "There you are, the smoke worked, I'm a genius with a tragic leg",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal"
+   ]
+  ],
+  "391": [
+   "IGUI_ALifeUI_7487257426f55e0d",
+   "I need a bandage on this and something to clean it, in that order or the other order",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal"
+   ]
+  ],
+  "392": [
+   "IGUI_ALifeUI_387709105ecc9ac0",
+   "What have you got for me?",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal"
+   ]
+  ],
+  "393": [
+   "IGUI_ALifeUI_1e41602434970aae",
+   "Hold still, I'll clean it and wrap it",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "394": [
+   "IGUI_ALifeUI_16c048b228bdab19",
+   "That's the idea but you're short a bandage or something to clean with",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal"
+   ]
+  ],
+  "395": [
+   "IGUI_ALifeUI_78a7342313b6009c",
+   "Ow, ow, thank you, ow, this is the most alive I've felt all week",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal"
+   ]
+  ],
+  "396": [
+   "IGUI_ALifeUI_458825551b591b90",
+   "I only have a bandage, it will have to do",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "397": [
+   "IGUI_ALifeUI_485a704a645262ed",
+   "You don't have one on you, friend",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal"
+   ]
+  ],
+  "398": [
+   "IGUI_ALifeUI_1389aa336d10c300",
+   "Better than nothing, and I'm good at nothing",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal"
+   ]
+  ],
+  "399": [
+   "IGUI_ALifeUI_30179057648adf27",
+   "Nice rifle, I'll take it off your hands",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "400": [
+   "IGUI_ALifeUI_56cc06e25c6844b7",
+   "You'll take it off my cold hands, and they're getting colder, so decide",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal"
+   ]
+  ],
+  "401": [
+   "IGUI_ALifeUI_4724b708018f3210",
+   "I can't help after all",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "402": [
+   "IGUI_ALifeUI_0576ecc72da8778a",
+   "Fine, fine, tell the smoke I'm still here",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal"
+   ]
+  ],
+  "403": [
+   "IGUI_ALifeUI_22e215070f8fcb09",
+   "You cleaned and wrapped Cal Dreyer's leg",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "SONUÇ"
+   ]
+  ],
+  "404": [
+   "IGUI_ALifeUI_31d86da44d6e4619",
+   "Take the shells, I'll find deer without them, and thank you, you hear me, thank you",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal"
+   ]
+  ],
+  "405": [
+   "IGUI_ALifeUI_37002e6e6b4ee3d9",
+   "You wrapped Cal Dreyer's leg with what you had",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "SONUÇ"
+   ]
+  ],
+  "406": [
+   "IGUI_ALifeUI_3f550159593be5af",
+   "It'll hold till morning, I owe you one",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal"
+   ]
+  ],
+  "407": [
+   "IGUI_ALifeUI_4aa10bf0250df067",
+   "You tried to take Cal Dreyer's rifle",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "SONUÇ"
+   ]
+  ],
+  "408": [
+   "IGUI_ALifeUI_57243c4e196527e7",
+   "I never forget a face and I've got a lot of time to practice",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal"
+   ]
+  ],
+  "409": [
+   "IGUI_ALifeUI_49aded06404722a8",
+   "You left Cal Dreyer by his fire",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "SONUÇ"
+   ]
+  ],
+  "410": [
+   "IGUI_ALifeUI_1c4a0ac5257652f9",
+   "You told Cal you could not come",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "SONUÇ"
+   ]
+  ],
+  "411": [
+   "IGUI_ALifeUI_660421ad7359a0f2",
+   "Cal's call went unanswered",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "SONUÇ"
+   ]
+  ],
+  "412": [
+   "IGUI_ALifeUI_5fba535d51329756",
+   "Only the ashes of Cal's fire were left",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "SONUÇ"
+   ]
+  ],
+  "413": [
+   "IGUI_ALifeUI_5978c39b1584b9c6",
+   "a hunter with a torn leg is walking again because someone followed his smoke and brought a bandage",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "SÖYLENTİ"
+   ]
+  ],
+  "414": [
+   "IGUI_ALifeUI_19bb14c814fc99fa",
+   "a hunter got his leg wrapped by a stranger who followed his smoke",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "SÖYLENTİ"
+   ]
+  ],
+  "415": [
+   "IGUI_ALifeUI_0fb2847912a82106",
+   "a stranger tried to take a hunter's rifle while he lay hurt by his own fire",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "SÖYLENTİ"
+   ]
+  ],
+  "416": [
+   "IGUI_ALifeUI_16122ccc11a6cb6f",
+   "There's a doctor on the band at night, I'd hold my tongue about my leg until daylight",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal telsizde"
+   ]
+  ],
+  "417": [
+   "IGUI_ALifeUI_2fbf73db3b723255",
+   "Cal Dreyer again, the leg held, the pride did not",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal telsizde"
+   ]
+  ],
+  "418": [
+   "IGUI_ALifeUI_6c624e94388abfba",
+   "Smoke is thin now, I'm out of chairs",
+   [
+    "ALifeRadioEvent_signal_smoke.lua",
+    "signal_smoke",
+    "Cal telsizde"
+   ]
+  ],
+  "419": [
+   "IGUI_ALifeUI_5ecce54a6c5495c4",
+   "Last bus",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "GÖREV"
+   ]
+  ],
+  "420": [
+   "IGUI_ALifeUI_6f16d39b40ee921b",
+   "Greta Halloran and Amos Pike have a stalled school bus about {dist} steps {dir} of you",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "GÖREV"
+   ]
+  ],
+  "421": [
+   "IGUI_ALifeUI_708db22f610bcbb7",
+   "Find the stalled bus",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "GÖREV"
+   ]
+  ],
+  "422": [
+   "IGUI_ALifeUI_0f82185b1138230f",
+   "Talk to Greta",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "GÖREV"
+   ]
+  ],
+  "423": [
+   "IGUI_ALifeUI_2919090d1fe9e385",
+   "This is Greta Halloran, the Dunmore school bus, if anyone is out there please answer",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Greta telsizde"
+   ]
+  ],
+  "424": [
+   "IGUI_ALifeUI_30d05b153a1a85eb",
+   "Amos says the engine is flooded or dead or both, we're about {dist} steps {dir} of you, on the road",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Greta telsizde"
+   ]
+  ],
+  "425": [
+   "IGUI_ALifeUI_19a7c48066c27998",
+   "Fourteen kids and me, nine, ten, I keep counting, I'm sorry, I count when I'm scared",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Greta telsizde"
+   ]
+  ],
+  "426": [
+   "IGUI_ALifeUI_5d32c58b64a32d96",
+   "Did you copy? Are you near the road?",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Greta telsizde"
+   ]
+  ],
+  "427": [
+   "IGUI_ALifeUI_66ee6d231b371a48",
+   "Hang tight, I'll bring tools",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "428": [
+   "IGUI_ALifeUI_63e2412529f15525",
+   "A wrench and a screwdriver and she'll run, I swear on her mirrors",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Amos telsizde"
+   ]
+  ],
+  "429": [
+   "IGUI_ALifeUI_0c74f6b10074c7a3",
+   "Is anyone hurt?",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "430": [
+   "IGUI_ALifeUI_3829179758149e51",
+   "Scrapes and a sprained wrist, nothing worse, they're being brave, mostly",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Greta telsizde"
+   ]
+  ],
+  "431": [
+   "IGUI_ALifeUI_49a0c2ad151720b4",
+   "I can't get there",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "432": [
+   "IGUI_ALifeUI_7f7141850b03eb30",
+   "I understand, I do, we'll try the walk",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Greta telsizde"
+   ]
+  ],
+  "433": [
+   "IGUI_ALifeUI_6d43f074211f0362",
+   "You're real, you're actually real, kids, look, a real person",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Amos"
+   ]
+  ],
+  "434": [
+   "IGUI_ALifeUI_37a755747049c1e6",
+   "Eleven, twelve, thirteen, fourteen, everyone is here, thank you for coming",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Greta"
+   ]
+  ],
+  "435": [
+   "IGUI_ALifeUI_3c7a183e10034dcd",
+   "Got a wrench for her? She needs a wrench and a screwdriver",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Amos"
+   ]
+  ],
+  "436": [
+   "IGUI_ALifeUI_3636bf564321558c",
+   "Here, take the wrench and the screwdriver",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "437": [
+   "IGUI_ALifeUI_0b248e631a92199d",
+   "That's not in your hands yet, I need both, the wrench and the screwdriver",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Amos"
+   ]
+  ],
+  "438": [
+   "IGUI_ALifeUI_3eb3147c21bdfed2",
+   "Hear her cough, there she goes, she's alive, good girl",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Amos"
+   ]
+  ],
+  "439": [
+   "IGUI_ALifeUI_3080d15449327bba",
+   "Come with me, I'll walk you to a safe place",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "440": [
+   "IGUI_ALifeUI_7363108c7d88f2b2",
+   "The kids can walk, they've walked worse, line up, line up",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Greta"
+   ]
+  ],
+  "441": [
+   "IGUI_ALifeUI_438ee965599d1899",
+   "I can spare some food for the kids",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "442": [
+   "IGUI_ALifeUI_3c11273d4b28cad5",
+   "You're kind, but I don't see it in your hands",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Greta"
+   ]
+  ],
+  "443": [
+   "IGUI_ALifeUI_5ab1b3aa6c930ae8",
+   "Look at that, apples, everybody say thank you",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Greta"
+   ]
+  ],
+  "444": [
+   "IGUI_ALifeUI_1d9a203855af712b",
+   "I can't help, sorry",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "OYUNCU SEÇENEĞİ"
+   ]
+  ],
+  "445": [
+   "IGUI_ALifeUI_20bf95c2025c5792",
+   "Of course, of course, thank you for coming",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Greta"
+   ]
+  ],
+  "446": [
+   "IGUI_ALifeUI_178f3574463f7852",
+   "You gave Amos the tools and the school bus started",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "SONUÇ"
+   ]
+  ],
+  "447": [
+   "IGUI_ALifeUI_135524941f17ab07",
+   "Take the road atlas, I have three, and tell the road we said thank you",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Amos"
+   ]
+  ],
+  "448": [
+   "IGUI_ALifeUI_1077fa9453209667",
+   "You walked the schoolchildren off the road",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "SONUÇ"
+   ]
+  ],
+  "449": [
+   "IGUI_ALifeUI_4d7fc4651b99e9fb",
+   "Fourteen, fourteen, all fourteen, thank you",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Greta"
+   ]
+  ],
+  "450": [
+   "IGUI_ALifeUI_4016dba469dc58a5",
+   "You fed the children on the stalled bus",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "SONUÇ"
+   ]
+  ],
+  "451": [
+   "IGUI_ALifeUI_5a122027799a28dc",
+   "They'll remember the apples, honestly they will",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Greta"
+   ]
+  ],
+  "452": [
+   "IGUI_ALifeUI_2f677ae04d0d848b",
+   "You left the school bus where it stood",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "SONUÇ"
+   ]
+  ],
+  "453": [
+   "IGUI_ALifeUI_7e47aa2c2f4bb652",
+   "You told Greta you could not reach the bus",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "SONUÇ"
+   ]
+  ],
+  "454": [
+   "IGUI_ALifeUI_214624711e1e3da4",
+   "Greta's count went unanswered",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "SONUÇ"
+   ]
+  ],
+  "455": [
+   "IGUI_ALifeUI_7000e2d0363481a0",
+   "The school bus was empty when you got there",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "SONUÇ"
+   ]
+  ],
+  "456": [
+   "IGUI_ALifeUI_2d47d0345648c3bf",
+   "a school bus got its engine started on the Dunmore road because somebody brought a wrench",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "SÖYLENTİ"
+   ]
+  ],
+  "457": [
+   "IGUI_ALifeUI_575e0e153bc95892",
+   "a teacher walked fourteen kids off a stalled bus behind a stranger from the radio",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "SÖYLENTİ"
+   ]
+  ],
+  "458": [
+   "IGUI_ALifeUI_03ece63e3766c515",
+   "somebody left apples with a busload of schoolkids on the road",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "SÖYLENTİ"
+   ]
+  ],
+  "459": [
+   "IGUI_ALifeUI_64b14fd02110db29",
+   "Heard there was a sergeant in a ditch who got patched up by a stranger, hope the stranger is you",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Amos telsizde"
+   ]
+  ],
+  "460": [
+   "IGUI_ALifeUI_19b311443d358f60",
+   "Greta again, the bus is still here, we are still counting",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Greta telsizde"
+   ]
+  ],
+  "461": [
+   "IGUI_ALifeUI_0674b66b4cc6f9dc",
+   "Bus is still dead, kids are still hopeful",
+   [
+    "ALifeRadioEvent_stalled_bus.lua",
+    "stalled_bus",
+    "Amos telsizde"
+   ]
+  ],
+  "462": [
+   "IGUI_ALifeUI_20566f386f466007",
+   "Patrol Three",
+   [
+    "ALifeRadioChatter.lua",
+    "bridge_clear",
+    "ÇAĞRI ADI"
+   ]
+  ],
+  "463": [
+   "IGUI_ALifeUI_7eba453c6b0ac615",
+   "Bridge is clear, heading back",
+   [
+    "ALifeRadioChatter.lua",
+    "bridge_clear",
+    "Patrol Three"
+   ]
+  ],
+  "464": [
+   "IGUI_ALifeUI_7c85aa685b7da0b2",
+   "Gate",
+   [
+    "ALifeRadioChatter.lua",
+    "bridge_clear",
+    "ÇAĞRI ADI"
+   ]
+  ],
+  "465": [
+   "IGUI_ALifeUI_36e323430a82fff4",
+   "Copy, kettle is on",
+   [
+    "ALifeRadioChatter.lua",
+    "bridge_clear",
+    "Gate"
+   ]
+  ],
+  "466": [
+   "IGUI_ALifeUI_60e1c3023060722e",
+   "Patrol Two",
+   [
+    "ALifeRadioChatter.lua",
+    "hardware_store",
+    "ÇAĞRI ADI"
+   ]
+  ],
+  "467": [
+   "IGUI_ALifeUI_66dff4e8189490d3",
+   "Two of them at the hardware store, leaving them be",
+   [
+    "ALifeRadioChatter.lua",
+    "hardware_store",
+    "Patrol Two"
+   ]
+  ],
+  "468": [
+   "IGUI_ALifeUI_7fa6706814b0f980",
+   "Good call, stay off the glass",
+   [
+    "ALifeRadioChatter.lua",
+    "hardware_store",
+    "Gate"
+   ]
+  ],
+  "469": [
+   "IGUI_ALifeUI_42afae004457a15f",
+   "Dogs barking on the north road again",
+   [
+    "ALifeRadioChatter.lua",
+    "dogs_north",
+    "Patrol Three"
+   ]
+  ],
+  "470": [
+   "IGUI_ALifeUI_1ab96a5b7834ca97",
+   "Dogs or something under them",
+   [
+    "ALifeRadioChatter.lua",
+    "dogs_north",
+    "Gate"
+   ]
+  ],
+  "471": [
+   "IGUI_ALifeUI_0eb37d5547097551",
+   "Not stopping to find out",
+   [
+    "ALifeRadioChatter.lua",
+    "dogs_north",
+    "Patrol Three"
+   ]
+  ],
+  "472": [
+   "IGUI_ALifeUI_60e1ac8a305f1e5c",
+   "Patrol One",
+   [
+    "ALifeRadioChatter.lua",
+    "dark_boot",
+    "ÇAĞRI ADI"
+   ]
+  ],
+  "473": [
+   "IGUI_ALifeUI_6f05f0dc45fca1a6",
+   "Dark as the inside of a boot out here",
+   [
+    "ALifeRadioChatter.lua",
+    "dark_boot",
+    "Patrol One"
+   ]
+  ],
+  "474": [
+   "IGUI_ALifeUI_6bba670530625ea4",
+   "Hold at the culvert till first light",
+   [
+    "ALifeRadioChatter.lua",
+    "dark_boot",
+    "Gate"
+   ]
+  ],
+  "475": [
+   "IGUI_ALifeUI_4422857119937bd5",
+   "Anybody near the water tower",
+   [
+    "ALifeRadioChatter.lua",
+    "water_tower",
+    "Gate"
+   ]
+  ],
+  "476": [
+   "IGUI_ALifeUI_054adecd6e0c356d",
+   "Two minutes out, nothing moving",
+   [
+    "ALifeRadioChatter.lua",
+    "water_tower",
+    "Patrol Two"
+   ]
+  ],
+  "477": [
+   "IGUI_ALifeUI_6499dfa16ca5e62b",
+   "Stalled sedan on the county road, doors open, nobody in it",
+   [
+    "ALifeRadioChatter.lua",
+    "stalled_sedan",
+    "Patrol Two"
+   ]
+  ],
+  "478": [
+   "IGUI_ALifeUI_3192d7061eeddf59",
+   "Mark it and keep walking",
+   [
+    "ALifeRadioChatter.lua",
+    "stalled_sedan",
+    "Gate"
+   ]
+  ],
+  "479": [
+   "IGUI_ALifeUI_005e861a2b78d7cb",
+   "Morning check, everybody sound off",
+   [
+    "ALifeRadioChatter.lua",
+    "morning_check",
+    "Gate"
+   ]
+  ],
+  "480": [
+   "IGUI_ALifeUI_117d898361c06535",
+   "Three, and cold",
+   [
+    "ALifeRadioChatter.lua",
+    "morning_check",
+    "Patrol Three"
+   ]
+  ],
+  "481": [
+   "IGUI_ALifeUI_11bf3a040cc08f17",
+   "Light is going, be inside before dark",
+   [
+    "ALifeRadioChatter.lua",
+    "light_going",
+    "Gate"
+   ]
+  ],
+  "482": [
+   "IGUI_ALifeUI_637401096792ead1",
+   "Almost there, my feet hate me",
+   [
+    "ALifeRadioChatter.lua",
+    "light_going",
+    "Patrol Three"
+   ]
+  ],
+  "483": [
+   "IGUI_ALifeUI_3d74145c5d07de60",
+   "Loud and cold",
+   [
+    "ALifeRadioChatter.lua",
+    "radio_check",
+    "Patrol One"
+   ]
+  ],
+  "484": [
+   "IGUI_ALifeUI_166d3d1c3144750f",
+   "Keep it short folks, batteries do not grow on trees",
+   [
+    "ALifeRadioChatter.lua",
+    "short_please",
+    "Gate"
+   ]
+  ],
+  "485": [
+   "IGUI_ALifeUI_3c7bce5b4db2935a",
+   "Soup at six, bring your own spoon",
+   [
+    "ALifeRadioChatter.lua",
+    "soup_six",
+    "Gate"
+   ]
+  ],
+  "486": [
+   "IGUI_ALifeUI_35faebc71d76fef6",
+   "We lost a goat, if you see a goat it is ours",
+   [
+    "ALifeRadioChatter.lua",
+    "lost_goat",
+    "Gate"
+   ]
+  ],
+  "487": [
+   "IGUI_ALifeUI_503a849863683e82",
+   "I have seen several goats, which one",
+   [
+    "ALifeRadioChatter.lua",
+    "lost_goat",
+    "Stranger"
+   ]
+  ],
+  "488": [
+   "IGUI_ALifeUI_7fd4938e3d1184d2",
+   "The angry one",
+   [
+    "ALifeRadioChatter.lua",
+    "lost_goat",
+    "Gate"
+   ]
+  ],
+  "489": [
+   "IGUI_ALifeUI_7627ed045aa96e38",
+   "Generator is down, if you hear banging that is us fixing it",
+   [
+    "ALifeRadioChatter.lua",
+    "generator",
+    "Gate"
+   ]
+  ],
+  "490": [
+   "IGUI_ALifeUI_1ab97ea1138231fa",
+   "All quiet on the north side",
+   [
+    "ALifeRadioChatter.lua",
+    "quiet_worry",
+    "Gate"
+   ]
+  ],
+  "491": [
+   "IGUI_ALifeUI_630c7de1426a8440",
+   "Quiet is when I start to worry",
+   [
+    "ALifeRadioChatter.lua",
+    "quiet_worry",
+    "Patrol Two"
+   ]
+  ],
+  "492": [
+   "IGUI_ALifeUI_2e0e24076d934333",
+   "Smoke over the east ridge, not ours",
+   [
+    "ALifeRadioChatter.lua",
+    "east_smoke",
+    "Patrol One"
+   ]
+  ],
+  "493": [
+   "IGUI_ALifeUI_1b155ed64953c88b",
+   "Mark it, stay off that side",
+   [
+    "ALifeRadioChatter.lua",
+    "east_smoke",
+    "Gate"
+   ]
+  ],
+  "494": [
+   "IGUI_ALifeUI_53408b9d2028f4ee",
+   "Found a kid's bike in the road, left it where it lay",
+   [
+    "ALifeRadioChatter.lua",
+    "kid_bike",
+    "Patrol Three"
+   ]
+  ],
+  "495": [
+   "IGUI_ALifeUI_2e0ded2767b6890b",
+   "Tracks in the snow, bare feet, I did not follow them",
+   [
+    "ALifeRadioChatter.lua",
+    "bare_feet",
+    "Patrol Two"
+   ]
+  ],
+  "496": [
+   "IGUI_ALifeUI_09b1416a44f1e102",
+   "Snow is piling up on the south ramp, shovels needed",
+   [
+    "ALifeRadioChatter.lua",
+    "south_ramp",
+    "Gate"
+   ]
+  ],
+  "497": [
+   "IGUI_ALifeUI_4dd9dbec59c84fba",
+   "Tell them to bring the good shovel this time",
+   [
+    "ALifeRadioChatter.lua",
+    "south_ramp",
+    "Patrol One"
+   ]
+  ],
+  "498": [
+   "IGUI_ALifeUI_57d7c117231f47d8",
+   "Trader Mae",
+   [
+    "ALifeRadioChatter.lua",
+    "mae_knife",
+    "ÇAĞRI ADI"
+   ]
+  ],
+  "499": [
+   "IGUI_ALifeUI_4182caff4433e527",
+   "Cans, batteries, one good knife, trading till noon",
+   [
+    "ALifeRadioChatter.lua",
+    "mae_knife",
+    "Trader Mae"
+   ]
+  ],
+  "500": [
+   "IGUI_ALifeUI_55353d176cba951f",
+   "What do you want for the knife",
+   [
+    "ALifeRadioChatter.lua",
+    "mae_knife",
+    "Stranger"
+   ]
+  ],
+  "501": [
+   "IGUI_ALifeUI_3cf67acc223dcad7",
+   "Dry socks, I am serious",
+   [
+    "ALifeRadioChatter.lua",
+    "mae_knife",
+    "Trader Mae"
+   ]
+  ],
+  "502": [
+   "IGUI_ALifeUI_65ffc6f159441ddc",
+   "Anyone want salt, I have far too much salt",
+   [
+    "ALifeRadioChatter.lua",
+    "mae_salt",
+    "Trader Mae"
+   ]
+  ],
+  "503": [
+   "IGUI_ALifeUI_57d79c99231cf3ae",
+   "Trader Dob",
+   [
+    "ALifeRadioChatter.lua",
+    "dob_gas",
+    "ÇAĞRI ADI"
+   ]
+  ],
+  "504": [
+   "IGUI_ALifeUI_2c550aae6e95578f",
+   "Gas for sale, fair price, no haggling before breakfast",
+   [
+    "ALifeRadioChatter.lua",
+    "dob_gas",
+    "Trader Dob"
+   ]
+  ],
+  "505": [
+   "IGUI_ALifeUI_5b0e511a6377bd88",
+   "Lost my good thermos, find it and I owe you a can",
+   [
+    "ALifeRadioChatter.lua",
+    "mae_thermos",
+    "Trader Mae"
+   ]
+  ],
+  "506": [
+   "IGUI_ALifeUI_0e962ed2153fcfa0",
+   "Got bandages by the crate, do not ask where from",
+   [
+    "ALifeRadioChatter.lua",
+    "dob_bandages",
+    "Trader Dob"
+   ]
+  ],
+  "507": [
+   "IGUI_ALifeUI_185c61656941f7db",
+   "Roads are soup, nobody is moving trucks today",
+   [
+    "ALifeRadioChatter.lua",
+    "mae_mud",
+    "Trader Mae"
+   ]
+  ],
+  "508": [
+   "IGUI_ALifeUI_00f833be0823a580",
+   "Traded my spare boots for a cat, best deal this month",
+   [
+    "ALifeRadioChatter.lua",
+    "mae_boots",
+    "Patrol Two"
+   ]
+  ],
+  "509": [
+   "IGUI_ALifeUI_08a71e487cdca104",
+   "I want my boots back, the cat is a fraud",
+   [
+    "ALifeRadioChatter.lua",
+    "mae_boots",
+    "Trader Mae"
+   ]
+  ],
+  "510": [
+   "IGUI_ALifeUI_180839bc1340c194",
+   "Coffee substitute, roasted acorns, do not ask",
+   [
+    "ALifeRadioChatter.lua",
+    "mae_coffee",
+    "Trader Mae"
+   ]
+  ],
+  "511": [
+   "IGUI_ALifeUI_31a464810168aad6",
+   "Anyone on this band",
+   [
+    "ALifeRadioChatter.lua",
+    "anyone_there",
+    "Stranger"
+   ]
+  ],
+  "512": [
+   "IGUI_ALifeUI_206047f85219d6ac",
+   "Anyone at all",
+   [
+    "ALifeRadioChatter.lua",
+    "anyone_there",
+    "Stranger"
+   ]
+  ],
+  "513": [
+   "IGUI_ALifeUI_34d517b632f69326",
+   "Guess not",
+   [
+    "ALifeRadioChatter.lua",
+    "anyone_there",
+    "Stranger"
+   ]
+  ],
+  "514": [
+   "IGUI_ALifeUI_021e171c5f8021c5",
+   "If you hear this I am on the red roof west of the diner, no hurry",
+   [
+    "ALifeRadioChatter.lua",
+    "red_roof",
+    "Stranger"
+   ]
+  ],
+  "515": [
+   "IGUI_ALifeUI_02e93b6300cb1cc8",
+   "Lost track of the days again",
+   [
+    "ALifeRadioChatter.lua",
+    "lost_days",
+    "Stranger"
+   ]
+  ],
+  "516": [
+   "IGUI_ALifeUI_3ebe0ce0734caa9b",
+   "Is that a church bell still going",
+   [
+    "ALifeRadioChatter.lua",
+    "church_bell",
+    "Stranger"
+   ]
+  ],
+  "517": [
+   "IGUI_ALifeUI_2d74954d7ea38853",
+   "No wait, that is my kettle, sorry",
+   [
+    "ALifeRadioChatter.lua",
+    "church_bell",
+    "Stranger"
+   ]
+  ],
+  "518": [
+   "IGUI_ALifeUI_745d9751134e1829",
+   "Anybody hear that engine just now",
+   [
+    "ALifeRadioChatter.lua",
+    "engine_heard",
+    "Stranger"
+   ]
+  ],
+  "519": [
+   "IGUI_ALifeUI_3d1f6f6163814716",
+   "Heard it, west side, going away from us",
+   [
+    "ALifeRadioChatter.lua",
+    "engine_heard",
+    "Patrol Two"
+   ]
+  ],
+  "520": [
+   "IGUI_ALifeUI_3ae83f87194a8b73",
+   "Anyone know if the lake water is any good",
+   [
+    "ALifeRadioChatter.lua",
+    "lake_water",
+    "Stranger"
+   ]
+  ],
+  "521": [
+   "IGUI_ALifeUI_7699c0b32d4d8e98",
+   "Moving north tomorrow, anybody want a spare mattress",
+   [
+    "ALifeRadioChatter.lua",
+    "mattress",
+    "Stranger"
+   ]
+  ],
+  "522": [
+   "IGUI_ALifeUI_59bd840e44594d1e",
+   "Why would you carry a mattress",
+   [
+    "ALifeRadioChatter.lua",
+    "mattress",
+    "Trader Mae"
+   ]
+  ],
+  "523": [
+   "IGUI_ALifeUI_4a86f6ae7025fe93",
+   "Test test, is this thing on",
+   [
+    "ALifeRadioChatter.lua",
+    "test_test",
+    "Stranger"
+   ]
+  ],
+  "524": [
+   "IGUI_ALifeUI_25a50f0e02dab344",
+   "Yes, and stop shouting",
+   [
+    "ALifeRadioChatter.lua",
+    "test_test",
+    "Gate"
+   ]
+  ],
+  "525": [
+   "IGUI_ALifeUI_70de1d70134b9f06",
+   "Whoever left the porch light on, thank you",
+   [
+    "ALifeRadioChatter.lua",
+    "porch_light",
+    "Stranger"
+   ]
+  ],
+  "526": [
+   "IGUI_ALifeUI_0e699098103ccf6a",
+   "It helped more than you know",
+   [
+    "ALifeRadioChatter.lua",
+    "porch_light",
+    "Stranger"
+   ]
+  ],
+  "527": [
+   "IGUI_ALifeUI_57a2f608119eaade",
+   "Who keeps humming on this channel",
+   [
+    "ALifeRadioChatter.lua",
+    "humming",
+    "Stranger"
+   ]
+  ],
+  "528": [
+   "IGUI_ALifeUI_00980cd76d4f216f",
+   "Late Operator",
+   [
+    "ALifeRadioChatter.lua",
+    "cant_sleep",
+    "ÇAĞRI ADI"
+   ]
+  ],
+  "529": [
+   "IGUI_ALifeUI_184ce9147546edf5",
+   "Cannot sleep, anybody up",
+   [
+    "ALifeRadioChatter.lua",
+    "cant_sleep",
+    "Late Operator"
+   ]
+  ],
+  "530": [
+   "IGUI_ALifeUI_0d447a3f764de1c9",
+   "Fine, I will talk to the static",
+   [
+    "ALifeRadioChatter.lua",
+    "cant_sleep",
+    "Late Operator"
+   ]
+  ],
+  "531": [
+   "IGUI_ALifeUI_210b11ba1118fb75",
+   "Third night with the same song stuck in my head",
+   [
+    "ALifeRadioChatter.lua",
+    "same_song",
+    "Late Operator"
+   ]
+  ],
+  "532": [
+   "IGUI_ALifeUI_7a5999c5676810c5",
+   "Moon is out, I can see every one of them in the yard like furniture",
+   [
+    "ALifeRadioChatter.lua",
+    "moon_yard",
+    "Late Operator"
+   ]
+  ],
+  "533": [
+   "IGUI_ALifeUI_2e61ecb662f167d1",
+   "My knee says rain by morning",
+   [
+    "ALifeRadioChatter.lua",
+    "knee_rain",
+    "Late Operator"
+   ]
+  ],
+  "534": [
+   "IGUI_ALifeUI_1f3deaff1f019c56",
+   "Counting cars on the highway from my window, zero so far tonight",
+   [
+    "ALifeRadioChatter.lua",
+    "counting_cars",
+    "Late Operator"
+   ]
+  ],
+  "535": [
+   "IGUI_ALifeUI_303cfa7b3c6ece92",
+   "Rain is coming in sideways, pull the patrols back",
+   [
+    "ALifeRadioChatter.lua",
+    "rain_sideways",
+    "Gate"
+   ]
+  ],
+  "536": [
+   "IGUI_ALifeUI_37e2de1e2385db42",
+   "Already under the awning",
+   [
+    "ALifeRadioChatter.lua",
+    "rain_sideways",
+    "Patrol Two"
+   ]
+  ],
+  "537": [
+   "IGUI_ALifeUI_06d8866e71e8d562",
+   "Lightning on the ridge, keep the sets off the roof",
+   [
+    "ALifeRadioChatter.lua",
+    "lightning_ridge",
+    "Gate"
+   ]
+  ],
+  "538": [
+   "IGUI_ALifeUI_46344aed5f51b8c6",
+   "Copy, taking mine inside",
+   [
+    "ALifeRadioChatter.lua",
+    "lightning_ridge",
+    "Patrol One"
+   ]
+  ],
+  "539": [
+   "IGUI_ALifeUI_59dd80ae600713ac",
+   "Thunder is right on top of me, going off the air",
+   [
+    "ALifeRadioChatter.lua",
+    "thunder_close",
+    "Stranger"
+   ]
+  ],
+  "540": [
+   "IGUI_ALifeUI_3e6d7976347aea79",
+   "Cannot see past the hood, creeping",
+   [
+    "ALifeRadioChatter.lua",
+    "fog_hood",
+    "Patrol Three"
+   ]
+  ],
+  "541": [
+   "IGUI_ALifeUI_76a9097d4bf3c399",
+   "Walk it, do not drive it",
+   [
+    "ALifeRadioChatter.lua",
+    "fog_hood",
+    "Gate"
+   ]
+  ],
+  "542": [
+   "IGUI_ALifeUI_31c68e7853cd3962",
+   "Fog so thick I walked into a mailbox",
+   [
+    "ALifeRadioChatter.lua",
+    "fog_mailbox",
+    "Stranger"
+   ]
+  ],
+  "543": [
+   "IGUI_ALifeUI_7cb5053851e7a58b",
+   "krrk ... shhhhh ... kk",
+   [
+    "ALifeRadioChatter.lua",
+    "static_a",
+    ""
+   ]
+  ],
+  "544": [
+   "IGUI_ALifeUI_74b058bc4af24c76",
+   "zzt ... copy that ... zzt ... say again",
+   [
+    "ALifeRadioChatter.lua",
+    "static_b",
+    ""
+   ]
+  ],
+  "545": [
+   "IGUI_ALifeUI_061785923ba2a842",
+   "shhhh ... a voice, very far, counting ... shhhh",
+   [
+    "ALifeRadioChatter.lua",
+    "static_c",
+    ""
+   ]
+  ]
+ }
+}

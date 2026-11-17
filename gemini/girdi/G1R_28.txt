@@ -1,0 +1,466 @@
+# PAKET G1R · parça 28/35 · satır 9533-9913 (381 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar oyunda şu an skill'den önceki eski bir çeviriyle görünüyor; sıfırdan, İngilizceden kur. Her başlığın altındaki 'NEREDE:' oyuncunun bu sözle nasıl karşılaştığını, '#' notu sahneyi anlatır. Önce bunları oku, satırı o anda o yerde duyulacak sözle yaz.
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+##### SAFE_MOMENT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Kısa bir güvende an; derin nefes.
+9533 | tmp=seasoned | First quiet all day, I don't trust it, but I'll take it
+9534 | tmp=veteran|mood=warm | Sit down a minute, your legs will thank you later
+9535 | tmp=veteran|mood=warm | You hold onto a minute like this, you hold on tight
+9536 | tmp=seasoned|mood=grim | Listen, nothing, when did nothing get so loud?
+9537 | tmp=seasoned|mood=grim | Whole county's holding its breath, same as me
+9538 | reg=civilian,family,worker|day=14,9999|world=road | Birds are back on this street, that's a good sign
+9539 | tmp=fresh|day=0,6 | Third day, feels like a month already
+9540 | tmp=seasoned|day=10,40 | Two weeks now, I've stopped counting out loud
+9541 | tmp=veteran|day=150,9999|mood=grim | Six months, nobody's coming, we're the plan now
+9542 | tmp=fresh|day=0,10 | I keep waiting for a siren, any siren
+9543 | role=rescue_medical|mood=warm | Wash your hands when you get a chance, habit's worth keeping
+9544 | hour=9,16|mood=warm | Sun's out, doesn't fix a thing, but it's nice
+9545 | tmp=seasoned|hour=8,17|mood=sad | Smells like cut grass, nobody's cutting grass
+9546 | role=rescue_clergy|mood=warm | Thank you, Lord, for one hour of peace, just this hour
+9547 | role=family_elder|mood=warm|world=building | My mamaw used to say a quiet porch is a full life
+9548 | reg=worker,family|mood=warm | I fixed the gate hinge, small thing, felt good
+9549 | mood=warm | You alright? Say it out loud, it helps
+9550 | tmp=veteran | If you're gonna eat, do it while you can
+9551 | reg=civilian,family,worker,rescue|world=building,road | Somebody left a pot on the stove two streets over and the whole house went up, check your burners, y'all
+9552 | reg=civilian,family,worker,rescue | It's so quiet I can hear the bugs again
+9553 | reg=civilian,family,worker,rescue | Let's just sit for a minute, please
+9554 | reg=civilian,family,worker,rescue | Nothing, nothing at all, I almost forgot what nothing sounds like
+9555 | reg=civilian,family,worker,rescue | I'm going to sit here and not think for ten whole seconds, watch me
+9556 | reg=civilian,family,worker,rescue | Listen, hear that? That's the sound of nobody trying to kill us
+9557 | reg=civilian,family,worker,rescue | For one minute, just one, let's pretend everything is fine
+9558 | reg=civilian,family,worker,rescue | The dust's settling, finally, let it settle, let it settle
+9559 | reg=civilian,family,worker,rescue | I could sleep for a week, I could sleep for ten years
+9560 | reg=civilian,family,worker,rescue | It's peaceful, and I can't remember the last time that was true
+9561 | reg=civilian,family,worker,rescue | Just sit with me and enjoy this
+9562 | reg=civilian,family,worker,rescue | Can we stay like this a little longer?
+9563 | reg=civilian,family,worker,rescue | Quiet right now, nice and quiet, let's not ruin it
+9564 | reg=civilian,family,worker,rescue | I can hear my own heartbeat, that's how quiet it is
+9565 | reg=civilian,family,worker,rescue | Just breathe, everybody, nobody's chasing us right now
+9566 | reg=civilian,family,worker,rescue | Moments like this, I almost forget what's out there... almost
+9567 | reg=civilian,family,worker,rescue | Nothing's biting, nothing's chasing, I might actually be able to eat
+9568 | reg=civilian | I think we're safe for a minute, let's not waste it
+9569 | reg=civilian | Birds, did you hear that? Actual birds
+9570 | reg=family | Maybe we'll sleep through the night, wouldn't that be something?
+9571 | reg=family | Look at us, together, safe, breathing, what more do we need?
+9572 | reg=family | There, now, doesn't this feel better? A little peace, a little quiet
+9573 | reg=rescue | Rest while you can, we may not get another chance
+9574 | st=friendly,neutral | I could swear that cloud looks like a pot roast, don't tell me it doesn't
+9575 | - | Listen to that, silence, real silence
+9576 | - | Nobody's screaming, nobody's shooting, nobody's coming
+9577 | - | Okay, a minute, just one minute, let's enjoy this
+9578 | - | Breathe in, breathe out, nothing wants us right now
+9579 | - | Sit down, take a load off, we've earned it
+9580 | - | It's quiet, can you believe that, it's QUIET
+9581 | - | Enjoy it while it lasts, enjoy every second
+9582 | - | Just for now, just right now, we're okay
+9583 | - | Let me close my eyes, just for a second
+9584 | - | Not a single sound, I forgot what that was like
+9585 | - | Hmmm, hmm, hm, hmmm, hmm
+9586 | - | Don't mind me, just humming
+9587 | - | That felt good, a minute off
+9588 | reg=civilian,family,worker|tmp=fresh|mood=warm | It's almost like a normal day, almost
+9589 | reg=civilian,family,worker|tmp=fresh|mood=warm | I can hear a bird, a real bird, it's still singing
+9590 | reg=civilian,family,worker|tmp=fresh|mood=warm | Look at the sky, it's still blue, it's still so blue
+9591 | reg=civilian,family,worker|tmp=seasoned|mood=calm|world=water | Mmm hmm hmmm, my granddaddy's tune, down by the river
+9592 | reg=civilian,family,worker|mood=funny | La la la, which song was that, some old commercial jingle
+9593 | reg=civilian,family,worker|mood=funny | Dum-dee-dum, that's all I got, I forgot the rest
+9594 | role=rescue_clergy | Lord, thank you for this quiet, thank you for this moment
+9595 | role=rescue_clergy | Our Father, who art in heaven, hallowed be thy name, thy kingdom come-
+9596 | role=rescue_clergy | Please keep them safe, please keep them all safe, Lord, I'm begging
+9597 | role=rescue_clergy | Hear my prayer, hear it, please, we are so tired
+9598 | role=rescue_clergy | Amen... thank you, Lord, amen
+9599 | role=rescue_clergy | I pray for them, even the ones out there, even them
+9600 | role=rescue_clergy | Psalm twenty-three, the Lord is my shepherd, I shall not want-
+9601 | role=rescue_clergy | Dear God, if you're listening, we could use some help down here
+9602 | role=rescue_clergy | Hail Mary, full of grace, the Lord is with thee-
+9603 | role=rescue_clergy|hour=16,5 | God be with us tonight, and with those we've lost
+9604 | role=rescue_firefighter | Moment of silence for the guys we lost, the whole company
+9605 | reg=civilian,family,worker|mood=warm | Lord, bless our little circle, keep us together
+9606 | reg=civilian,family,worker|mood=warm | Mama taught me this prayer, every night before bed, I still say it
+
+##### SCAVENGE_START #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Malzeme toplamaya başlıyor.
+9607 | reg=civilian,family,worker,rescue | I'm going to look around, wait here
+9608 | reg=civilian,family,worker,rescue | Let's see if there's anything left in here
+9609 | reg=civilian,family,worker,rescue | I'm hungry, time to find something
+
+##### SEARCH_COMPLETE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Arama başlıyor/bitti/ekip dağılarak arıyor.
+9610 | reg=civilian,family,worker,rescue | That's all of it, let's go
+9611 | reg=civilian,family,worker,rescue | I think that's everything
+9612 | - | That's it, that's everything
+9613 | - | All done here, we're done
+9614 | - | Finished, nothing else worth taking
+9615 | - | Cleaned out, let's go
+9616 | - | We've got what we came for
+9617 | - | That's the last of it
+9618 | - | Done, done and done, let's get out of here
+9619 | - | Whole place checked, top to bottom
+9620 | - | Not a shred left, we took it all
+9621 | - | I'm done looking for now, still keep an eye out
+9622 | reg=civilian,family,worker|tmp=fresh|mood=fear | Can we go? Please? Can we go now?
+9623 | reg=civilian,family,worker|tmp=fresh|mood=fear | Done, we're done, okay, let's leave, quick
+9624 | reg=civilian,family,worker|tmp=seasoned|mood=calm | That's all of it here, tidy up and we go
+9625 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Good, now let's get it all back to the others
+9626 | reg=civilian,family,worker|mood=funny | Alright, store's closed, thanks for shopping with us
+
+##### SEARCH_SPLIT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Arama başlıyor/bitti/ekip dağılarak arıyor.
+9627 | reg=civilian,family,worker,rescue | I'll take the left side
+
+##### SEARCH_START #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Arama başlıyor/bitti/ekip dağılarak arıyor.
+9628 | reg=civilian,family,worker,rescue | I'll check upstairs, you check down here
+9629 | reg=civilian,family,worker,rescue | Let's look, quietly
+
+##### SEASON_AUTUMN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Mevsim hakkında söz.
+9630 | - | Leaves turning, sugar maples are lovely out by Fort Knox
+9631 | - | Used to be fall meant the smell of curing tobacco
+9632 | - | Autumn... hell, I don't even know what to get ready for
+9633 | - | Woodsmoke in the air, somebody's got a stove going
+9634 | - | Frost's coming, I feel it in the mornings
+9635 | - | Acorns everywhere, squirrels are fat this year
+9636 | - | The air smells like apples and wet leaves
+9637 | - | Days getting shorter, I count them
+9638 | - | Bourbon barrels age better in cool weather, at least somebody's happy
+9639 | - | Geese going south, smart birds
+9640 | - | Cool nights, warm days, the best of both
+9641 | - | Smoke from chimneys, if anyone had chimneys going
+9642 | - | Harvest time, if anyone had a harvest
+9643 | reg=civilian,family,worker,rescue|tmp=seasoned | Friday night football was a thing once, whole county showed up
+9644 | reg=civilian,family,worker,rescue|tmp=seasoned | Harvest, whatever's in the fields, take it before the frost
+9645 | reg=civilian,family,worker,rescue|tmp=fresh | Canning season, mother would've had every jar filled by now
+9646 | reg=civilian,family,worker,rescue|tmp=fresh | School should've started, wonder where all the kids are
+9647 | reg=civilian,family,worker,rescue | Cider and doughnuts at the fair, remember those?
+9648 | reg=civilian,family,worker|mood=sad | Football season, Friday nights, I miss the lights
+9649 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Leaves are loud underfoot, watch where you step
+
+##### SEASON_SPRING #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Mevsim hakkında söz.
+9650 | - | Redbuds are out, they don't know anything happened
+9651 | - | Mud season, boots never dry
+9652 | - | Dogwoods bloom around Easter, if anyone's counting
+9653 | - | Spring peepers at night, frogs don't care about any of this
+9654 | - | Planting weather, if there was anybody to plant for
+9655 | - | First warm day and everyone's outside, same as ever
+9656 | - | Pollen's thick, my eyes are running again
+9657 | - | Warm enough to sleep outside, first time in months
+9658 | - | Warm days, cold nights, wear layers, spring tricks you
+9659 | - | Birds, so many birds, loud ones
+9660 | - | A good time of year, mostly
+9661 | world=water | Creeks are up with the thaw, don't cross at low spots
+9662 | reg=civilian,family,worker,rescue|tmp=seasoned | Derby's coming up, used to be a whole county event
+9663 | reg=civilian,family,worker,rescue|tmp=seasoned | Tornado weather, too, always watch the sky in April
+9664 | reg=civilian,family,worker,rescue | Gardens, that's what I want, plant something, anything
+9665 | reg=civilian,family,worker,rescue|tmp=fresh|world=road | The grass is growing through the cracks in the parking lot
+9666 | reg=civilian,family,worker,rescue|tmp=fresh | Easter's soon, Mama would've hidden eggs in the yard
+9667 | world=building | Daffodils by the mailbox, nobody's picked them, nobody will
+9668 | world=water,road | Mud season, every road's a river
+9669 | reg=civilian,family,worker|mood=warm|world=trees | Buds on the trees, new leaves, new beginnings, maybe
+9670 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Plant what you can, we'll need it by fall
+
+##### SEASON_SUMMER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Mevsim hakkında söz.
+9671 | world=building | Cicadas, wall of noise, like nothing happened
+9672 | - | Summer heat, sticky as syrup
+9673 | - | Corn's knee high by the Fourth, nobody's counting this year
+9674 | - | I wonder if the fireflies will come back this summer
+9675 | - | Long days, short nights, wish the nights were longer
+9676 | - | Thunderstorms every afternoon, you could set a clock
+9677 | - | Humid enough to wear, everything sticks
+9678 | - | Bugs, heat, dust, it's all the same
+9679 | - | Cicadas screaming and the world's gone quiet, funny pair
+9680 | - | Bugs, bugs, bugs, they're eating me alive
+9681 | - | Sun is up at five, sets at nine
+9682 | - | Lightning bugs, at least there are lightning bugs
+9683 | world=fence | Honeysuckle on the fence, smells like when I was ten
+9684 | reg=civilian,family,worker,rescue|tmp=seasoned | Sweet corn, tomatoes, only good thing about the heat
+9685 | reg=civilian,family,worker,rescue|tmp=seasoned | Dog days, everything slow, everything mean
+9686 | reg=civilian,family,worker,rescue|tmp=fresh | The Fourth was sparklers in the yard, feels like years ago
+9687 | reg=civilian,family,worker,rescue|tmp=fresh | Public pool would've been open by now, funny what I miss
+9688 | world=water | Creek's low, fish are easy, just saying
+9689 | reg=civilian,family,worker|mood=sad|world=water | Summer break, we should be at the lake right now
+9690 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Use the daylight, rest in the heat, work in the cool
+
+##### SEASON_WINTER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Mevsim hakkında söz.
+9691 | - | Winter in Kentucky, you never know, sixty one day, ice the next
+9692 | - | Short days, long nights, both too long
+9693 | - | Wood pile's the only thing I check twice a day now
+9694 | - | Firewood's currency now, I swear
+9695 | - | Nobody tells you how loud a house gets when everybody's quiet and it's cold
+9696 | - | Pipes burst every winter, used to complain, now I wish they were all I had to worry about
+9697 | - | Daylight's gone by five, I hate winter evenings
+9698 | - | Remember the March storm? We thought that was bad
+9699 | - | Ice storms take the power every year, nothing to take now
+9700 | - | Snow slows the dead down some, thank Christ
+9701 | - | Nothing grows now, whatever we've got is whatever we've got
+9702 | - | Long winter coming, we need to ration
+9703 | - | Winter's here, and it's biting
+9704 | - | Cold season, hard season
+9705 | - | Winter, winter, winter, God help us
+9706 | - | Days are short, nights are long
+9707 | - | First frost, and the hard time begins
+9708 | reg=civilian,family,worker,rescue|tmp=seasoned | Hogs used to be killed this time of year, hams hung till spring
+9709 | reg=civilian,family,worker,rescue|tmp=seasoned | By January the whole county'll be one long hunger
+9710 | reg=civilian,family,worker,rescue|tmp=fresh|world=building | Christmas lights on that porch are still up, somebody's idea of hope
+9711 | reg=civilian,family,worker,rescue|tmp=fresh | Holidays, never thought I'd hate them, this year I do
+9712 | reg=civilian,family,worker,rescue|tmp=fresh | Mama made fudge every December, I can still taste it
+9713 | reg=civilian,family,worker|mood=sad | Christmas, my kids' first Christmas without me, I hope
+9714 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Need more firewood and blankets before it really hits
+
+##### SEEK_WARMTH #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Isınacak yer arıyor.
+9715 | - | I need to get warm, back in a minute
+9716 | - | Heading for the fire
+9717 | - | Gotta get inside before I lose my toes
+9718 | - | Come on, let's get out of this wind
+9719 | - | Fire first, then we think
+9720 | - | There's smoke over there, people, maybe, warm, definitely
+9721 | - | I'm going to stand somewhere warm and not talk for a while
+9722 | - | Out of the wind, that's all I want
+9723 | - | Right, enough, I'm finding a heater
+9724 | - | If there's a wood stove in any of these houses, that's where I am
+9725 | world=building | Going to find a stove or a fireplace, anything
+9726 | world=building | Somewhere with a roof and a stove, come on
+9727 | role=family_man,family_woman,law_sergeant,soldier_nco,swat_lead,raider_boss,gang_boss | Everybody to the fire, move
+9728 | reg=civilian,family,worker,rescue|world=road | We'll sit this one out inside, the wind can have the street
+9729 | reg=civilian,family,worker,rescue|tmp=fresh | I'm not freezing out here... let's go
+9730 | reg=civilian,family,worker,rescue|tmp=seasoned | Boil some water, find some blankets, let's get moving
+9731 | role=rescue_medical,rescue_firefighter | Get these folks warm, move it
+
+##### SHIVER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Soğuktan titriyor.
+9732 | - | B-b-brr, can't stop shaking
+9733 | - | My teeth won't quit chattering
+9734 | - | Too c-cold, I can't even hold the straps
+9735 | - | Shaking so hard I'm making noise, sorry
+9736 | - | I'm f-fine, just a chill, just a little chill
+9737 | - | It's in my bones now, can't shake it off
+9738 | - | Hands won't close, hands won't close
+9739 | - | I've got to get warm, right now, not later
+9740 | - | Brrr, somebody get a fire going, please
+9741 | - | Can't hold my gun straight, that's your problem too, you know
+9742 | - | Brrr, brrr
+9743 | - | I can't stop shaking
+9744 | - | Teeth chattering, listen to them
+9745 | - | Shaking like a leaf
+9746 | - | Stop it, stop it, I can't stop
+9747 | - | It's the cold, it's just the cold, it's just
+9748 | - | My whole body's rattling
+9749 | - | Shiver, shiver, shake, shake
+9750 | - | Hold me, hold me, I'm freezing
+9751 | - | Get closer, I need your warmth
+9752 | reg=civilian,family,worker,rescue|tmp=fresh | I can't feel my toes anymore, that's bad, right?
+9753 | reg=civilian,family,worker,rescue|tmp=fresh | Is this what hypothermia feels like? I read about it once
+9754 | reg=civilian,family,worker,rescue|tmp=fresh | Mom's chili, hot bath, both, I want both
+9755 | reg=civilian,family,worker,rescue|tmp=fresh | Stop the shaking, stop the shaking, stop--
+9756 | reg=civilian,family,worker,rescue|tmp=seasoned | Nothing for it but a fire and a dry shirt
+9757 | reg=civilian,family,worker,rescue|role=rescue_medical,rescue_firefighter | Shivering means it's working, when it stops, that's when to worry
+9758 | role=rescue_medical | Shivers, normal, sit down, get warm, drink something hot
+9759 | reg=civilian,family,worker|tmp=fresh|mood=fear | I'm cold, but that's not all of it... I can't stop shaking
+9760 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Shivering means you're alive, keep it going
+9761 | reg=civilian,family,worker|mood=funny | I'm shaking like a dog at the vet
+
+##### SHOUT_HEARD_CAREFUL #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Uzaktan gelen bir bağırışa cevap veriyor.
+9762 | reg=civilian,family,worker,outlaw | That's close, too close, get ready
+9763 | reg=family,civilian | Stay back, whoever you are!
+9764 | reg=family | Get back from that voice... stay quiet
+9765 | reg=family | Keep your voice down... don't answer yet
+9766 | reg=family | Keep quiet and listen, don't answer yet
+9767 | reg=family,civilian|hour=19,5|world=door | I'm not opening that door for anybody, not tonight
+9768 | reg=family,civilian,worker | I heard that, stay careful and listen
+9769 | reg=law,civilian,family | We are armed and we are awake, stay back!
+9770 | reg=outlaw,worker,crime|tmp=seasoned,veteran | That voice crosses the ditch, it don't cross back
+9771 | reg=family,worker,civilian|tmp=seasoned | Cover the gate, I'll do the talking, nobody else talks
+9772 | reg=family,civilian,worker|hour=20,4 | Nobody lights a lamp, nobody
+9773 | reg=family,civilian,worker|hour=20,4 | Move away from the light, all of you
+9774 | reg=family,civilian|world=window | Everybody off the windows, now
+
+##### SHOUT_HEARD_FRIENDLY #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Uzaktan gelen bir bağırışa cevap veriyor.
+9775 | reg=civilian,family,worker | Hey, over here! We hear you!
+9776 | reg=civilian,family,worker | We hear you! Quit hollering before something else does!
+9777 | reg=civilian,family,worker | Yeah! We hear you! Come on in!
+9778 | reg=civilian,family,worker|tmp=seasoned | That's one of ours, somebody wave back
+9779 | reg=family,civilian|tmp=fresh | Lord, you scared me half to death, hi
+9780 | reg=civilian,family,worker,rescue|tmp=seasoned,veteran | Hush, they can hear you same as me
+9781 | reg=worker,civilian | Yeah, yeah, we see you, come on in slow
+9782 | reg=worker,civilian | Hey, yeah, we heard you the first time
+9783 | reg=worker,civilian | That's a friendly, let 'em through
+9784 | reg=rescue | Is somebody hurt? Where are you?
+9785 | reg=civilian,family|tmp=seasoned | Hollering like that is how folks get eaten, hi, though
+9786 | reg=family,civilian|tmp=fresh|day=0,20 | That you? Thank God, we thought we were the only ones left
+9787 | reg=worker,rescue,civilian | Good to hear a live voice for once
+9788 | reg=family,worker,rescue | Hey there, don't come running, just walk
+9789 | reg=family|tmp=fresh | Mama, it's a person, not one of them!
+9790 | reg=civilian,family,worker,outlaw,crime | Relax, that's the one who helped us
+9791 | reg=rescue,family,worker|tmp=seasoned | Loud as a church bell, that one
+9792 | reg=civilian,family|mood=funny | That's them, somebody put the kettle on, heh, no kettle
+9793 | reg=worker,civilian,family | Yeah! Over here! Walk, don't run, you'll trip on the wire!
+9794 | reg=civilian,worker|tmp=seasoned|mood=funny | Bless you for yelling, we'd have shot a quiet one
+9795 | reg=civilian,worker,rescue|tmp=seasoned | Hollering's fine by me, I've missed noise that ain't moaning
+9796 | reg=civilian,family|tmp=fresh | A friendly voice, first one since Tuesday
+9797 | reg=civilian,family|tmp=fresh | Yeah, we hear you, keep it down, please
+9798 | reg=civilian,family|tmp=fresh | It's a person! A real one! Hi! HI!
+9799 | reg=family,worker,civilian | We got you, come up the drive, not through the corn
+9800 | reg=civilian,worker | That's our people, ease off them triggers
+9801 | role=family_youth|world=vehicle | Mama, it's the one who helped Daddy with the truck
+9802 | reg=civilian,worker,rescue | Well, somebody's alive out there, good on you
+9803 | reg=civilian,worker,rescue | Good, they're alive, somebody answer 'em
+9804 | reg=civilian,worker|mood=warm | Holler again in ten minutes and I'll have a fire going
+9805 | reg=civilian,family,worker|mood=warm | I know that voice, hey! HEY! Over here!
+9806 | reg=family,worker | That's them hollering, open the gate, Earl
+9807 | reg=worker,civilian|tmp=seasoned | Holler back so they know, just the once, though
+9808 | reg=civilian,worker,family | Hey! We're up here! Look up!
+9809 | reg=family,civilian,worker|hour=17,21 | We heard you, come on, before the light goes
+9810 | reg=family | That's a friend, put the rifle down, Junior
+9811 | reg=civilian,outlaw,worker|mood=warm | Somebody's happy to see us, that's new
+9812 | reg=worker,civilian,rescue | We hear you fine, save your throat
+
+##### SHOUT_HEARD_NEUTRAL #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Uzaktan gelen bir bağırışa cevap veriyor.
+9813 | reg=civilian,family,worker | Who's yelling out there?
+9814 | reg=civilian,family,worker,rescue | Somebody's gonna bring the whole county down on us
+9815 | reg=family,civilian|tmp=fresh | Oh no, oh no, not so loud, please
+9816 | reg=family,civilian|tmp=fresh | My heart just about quit, who is that?
+9817 | reg=civilian,worker,outlaw|tmp=seasoned | That's a person out there, people come in two kinds now
+9818 | reg=family,civilian|tmp=fresh,seasoned | Is that a person or a trick?
+9819 | reg=civilian,family,rescue|tmp=seasoned,veteran | Hold on, nobody move till we know who that is
+9820 | reg=civilian,worker,outlaw | Wonderful, now every dead thing on Halbert Street knows we're here
+9821 | reg=civilian,family,worker|tmp=seasoned | Don't yell back, wave if you have to say something
+9822 | reg=rescue,worker,civilian | Folks lose their minds out here, I tell you
+9823 | reg=civilian,worker,family | Somebody's hollering, could be anybody at all
+9824 | reg=civilian,family|tmp=fresh | Lord, hush, just hush
+9825 | reg=civilian,family|tmp=fresh | Should we answer? Should we? I don't know if we should
+9826 | reg=outlaw,crime,civilian | Somebody wants to be found, that's their business, not mine
+9827 | reg=family,civilian,club | That ain't one of ours, I know all our voices
+9828 | reg=worker,civilian|tmp=seasoned | That's a live voice, past that, I've got nothing
+9829 | reg=civilian,outlaw,worker|tmp=seasoned | I'd answer, but I've been wrong about voices before
+9830 | reg=civilian,worker,crime | Somebody wants something, everybody wants something
+9831 | reg=family,worker,gang | Don't nobody move, just listen a minute
+9832 | reg=civilian,family,club | Anybody know that voice? No? Then we wait
+
+##### SICK_COMPLAINT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Hastalıktan yakınıyor.
+9833 | - | I think I'm coming down with something
+9834 | - | Throat's scratchy, that's how it starts
+9835 | - | Head's all stuffed up, great timing, world
+9836 | - | Got a tickle in my chest I don't like
+9837 | - | Feels like a cold, just a cold, I hope
+9838 | - | Ache all over, probably the weather, probably
+9839 | - | Not a bite, before anybody asks, just a cold
+9840 | - | It's a cold, no bite, no scratch, I've checked
+9841 | - | I feel hot and cold at the same time, not a good sign
+9842 | - | Eyes burning, nose running, perfect
+9843 | - | Swallowing hurts, can't be good
+9844 | reg=civilian,family,worker,rescue|tmp=fresh | I'm sick, plain sick, don't panic, nobody panic
+9845 | reg=civilian,family,worker,rescue|tmp=fresh | If I sound terrible, it's because I do, stay back a bit
+9846 | reg=civilian,family,worker,rescue|tmp=seasoned | Caught it sleeping on that cold floor, I'd bet
+9847 | reg=civilian,family,worker,rescue | Grandma would've had me in bed with a hot water bottle by now
+9848 | role=rescue_medical | Doc's orders: rest, Doc's got no orders out here
+9849 | role=rescue_medical | Running a low fever, I know the signs, not infected, just ill
+
+##### SICK_RECOVERED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Hastalığı geçti.
+9850 | - | Nose is clear, first real breath in days
+9851 | - | Think the cold's finally gone
+9852 | - | Feeling like a person again
+9853 | - | Head's clear, throat's fine, I'd forgotten what that was like
+9854 | - | Fever broke, honest to God, I feel new
+9855 | - | No more cough, thank you, whoever's listening
+9856 | - | Better, finally... mostly, anyway
+9857 | - | Back to a hundred percent, maybe ninety, ninety-five
+9858 | reg=civilian,family,worker,rescue | Slept it off, thank goodness for small mercies
+9859 | reg=civilian,family,worker,rescue|tmp=seasoned | Cold's gone, let's not talk about how I sounded
+
+##### SMOKE_END #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Sigara yakıyor ya da bitirdi.
+9860 | reg=civilian,family,worker,rescue | That's better, that settles me
+
+##### SMOKE_START #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Sigara yakıyor ya da bitirdi.
+9861 | reg=civilian,family,worker,rescue | Don't tell anyone, I'm having one cigarette
+
+##### SNEEZE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Hapşırık sonrası söz.
+9862 | - | Achoo
+9863 | - | Ah-CHOO, sorry
+9864 | - | Hah-- choo!
+9865 | - | Excuse me
+9866 | - | Pardon me
+9867 | - | Ahchoo! Ugh
+9868 | - | Huh-- HAH-choo
+9869 | - | Hhh-- hah-TCHOO
+9870 | - | Sorry, dust, or something
+9871 | - | Sorry, sorry, it's the cold
+9872 | - | Ugh, there goes my nose again
+9873 | - | That one came out of nowhere
+9874 | - | Achoo! Don't look at me like that
+9875 | - | Bless me, nobody else will
+9876 | - | Hah-choo! Oh, that hurt my head
+9877 | - | Ah-- ah-- ahCHOO, great, now my eyes are watering
+9878 | - | Sorry, tickle in the nose, again
+9879 | reg=civilian,family,worker,rescue | Mom always said three sneezes means company, I hope not
+9880 | reg=civilian,family,worker,rescue|tmp=fresh | Gesundheit, somebody say it, come on
+
+##### SNOW_FALLING #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Kar yağıyor ya da yer karla kaplı.
+9881 | - | Snow, well, that settles that
+9882 | - | It's snowing, of course it is
+9883 | - | I don't need snow on top of everything else
+9884 | - | Snow covers everything, even this
+9885 | - | Quiet snow, almost peaceful, almost
+9886 | - | Tracks are going to show in this, mind your feet
+9887 | - | Big flakes, wet ones, that sticks
+9888 | - | Cold and snowing, could be worse, could be raining
+9889 | - | White all over, hide a body in a drift and nobody'd know till spring
+9890 | - | Hear that? Nothing, snow eats the sound
+9891 | - | Flakes in my eyelashes, cold, but it's pretty
+9892 | - | Snow... I almost want to laugh
+9893 | - | Flakes, soft ones, big ones, falling slow
+9894 | - | Everything's going white
+9895 | - | Snow's sticking, it's already sticking
+9896 | - | First snow, and it comes now
+9897 | - | Flurries, just flurries, but they're pretty
+9898 | - | My eyelashes have snow on them
+9899 | - | Snow in my hair, snow on my nose, snow down my neck
+9900 | reg=civilian,family,worker,rescue | First snow of the year, used to be a holiday around here
+9901 | reg=civilian,family,worker,rescue|tmp=fresh | My kids would have loved this, snow day, school closed
+9902 | reg=civilian,family,worker,rescue|tmp=fresh | Hold out your tongue, come on, nobody's watching
+9903 | reg=civilian,family,worker,rescue|tmp=seasoned | First one always feels like a gift, today I'm not so sure
+9904 | reg=civilian,family,worker,rescue|tmp=seasoned | Snow in Kentucky, you can set your watch by the ice that follows
+9905 | reg=civilian,family,worker,rescue|tmp=seasoned | Looks like the March storm all over again, buried everything
+9906 | world=road | If it keeps this up we won't see the road by morning
+9907 | reg=civilian,family,worker|tmp=fresh|mood=sad | Snow day used to mean no school and hot cocoa
+9908 | reg=civilian,family,worker|tmp=fresh|mood=sad | We always built a snowman, always, my brother's was crooked
+9909 | reg=civilian,family,worker|tmp=fresh|mood=warm|world=road | Snowball fights in the yard, the whole street, laughing
+9910 | reg=civilian,family,worker|tmp=fresh|mood=warm | It's so pretty, I can't help it, it's pretty
+9911 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Snow hides noise, snow shows tracks, think about that
+9912 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Wrap up, wet feet freeze faster than dry ones
+9913 | reg=civilian,family,worker|mood=funny | Anyone want to build a snowman? Anyone? Okay, no, fine

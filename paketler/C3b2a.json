@@ -1,0 +1,611 @@
+{
+  "_paket": "C3b2a — Oluşturucu: kıyafet takımı açıklamaları (1–200/598)",
+  "_dosya": "Creator_lua",
+  "satirlar": {
+    "IGUI_ALifeUI_2fc4589639b1d5cf": {
+      "tr": "baharlık baret, fosforlu yelek ve asker botu",
+      "not": "Biçim: mevsim + giysiler (baharlık / yazlık / sonbaharlık / kışlık). Satırda 'Fraksiyon - açıklama' olarak görünür; fraksiyon kısmı C3b1'de çevrildi. Giysi adları vanilla'yla uyumlu (fosforlu yelek, havacı gözlüğü, kolej ceketi, panço, eşofman). Dar satırda kırpıldığı için tekil ve kısa tutuldu."
+    },
+    "IGUI_ALifeUI_665e24650eafb363": {
+      "tr": "yazlık tişört, yelek ve bandana"
+    },
+    "IGUI_ALifeUI_5f59f83f299d341c": {
+      "tr": "sonbaharlık oduncu gömleği, fosforlu yelek ve eldiven"
+    },
+    "IGUI_ALifeUI_5c37a29f24645bb6": {
+      "tr": "kışlık şişme mont, yün bere ve kalın eldiven"
+    },
+    "IGUI_ALifeUI_2c41eba37552fce1": {
+      "tr": "baharlık orman kamuflajlı üniforma ve çelik yelek",
+      "not": "BDU = sahra üniforması → 'kamuflajlı üniforma'. Flak vest → çelik yelek."
+    },
+    "IGUI_ALifeUI_445c53c80259fb6e": {
+      "tr": "yazlık haki tişört ve boonie şapka"
+    },
+    "IGUI_ALifeUI_1e98df3e0c6edbb9": {
+      "tr": "sonbaharlık arazi ceketi ve şapka"
+    },
+    "IGUI_ALifeUI_69ad7ca9237417ef": {
+      "tr": "kışlık kaput, yün bere ve atkı",
+      "not": "Greatcoat → kaput (askerî uzun palto)."
+    },
+    "IGUI_ALifeUI_003e286207e6f2a9": {
+      "tr": "yazlık haki tişört ve boonie şapka"
+    },
+    "IGUI_ALifeUI_752c58ae0054b839": {
+      "tr": "sonbaharlık arazi ceketi ve siyah eldiven"
+    },
+    "IGUI_ALifeUI_3a91a5d456dee171": {
+      "tr": "baharlık karışık üniforma gömleği ve şapka"
+    },
+    "IGUI_ALifeUI_1c0d3af93b63b565": {
+      "tr": "yazlık üniforma tişörtü ve havacı gözlüğü"
+    },
+    "IGUI_ALifeUI_5b8390c52d8cdaa0": {
+      "tr": "sonbaharlık polis ve şerif ceketi"
+    },
+    "IGUI_ALifeUI_3c2768f06a5d79ff": {
+      "tr": "kışlık ceket, yün bere ve çizgili atkı"
+    },
+    "IGUI_ALifeUI_33a8fdc84cc6430f": {
+      "tr": "baharlık istasyon tişörtü ve itfaiye şapkası"
+    },
+    "IGUI_ALifeUI_721272c41a512b90": {
+      "tr": "yazlık itfaiye tişörtü ve güneş şapkası"
+    },
+    "IGUI_ALifeUI_7c1e93f641989854": {
+      "tr": "sonbaharlık istasyon ceketi ve kask"
+    },
+    "IGUI_ALifeUI_0f32db4928676827": {
+      "tr": "kışlık itfaiye ceketi ve örgü bere"
+    },
+    "IGUI_ALifeUI_12d58c1a32aeeeb7": {
+      "tr": "baharlık oduncu gömleği, panço ve iş botu"
+    },
+    "IGUI_ALifeUI_0af1559760074a08": {
+      "tr": "yazlık bandana, tişört ve boonie şapka"
+    },
+    "IGUI_ALifeUI_2b45c1c8372ac658": {
+      "tr": "sonbaharlık oduncu gömleği, deri ve av yeleği"
+    },
+    "IGUI_ALifeUI_518e2fa35b8050f2": {
+      "tr": "kışlık şişme mont, atkı ve yün bere"
+    },
+    "IGUI_ALifeUI_437f5cfb0cfbf2c6": {
+      "tr": "baharlık gri gömlek ve eyalet polisi şapkası"
+    },
+    "IGUI_ALifeUI_6768c2f2102597a5": {
+      "tr": "yazlık gri tişört ve havacı gözlüğü"
+    },
+    "IGUI_ALifeUI_550aa03412b27831": {
+      "tr": "sonbaharlık polis ceketi ve kazak"
+    },
+    "IGUI_ALifeUI_5021714a055b0c82": {
+      "tr": "kışlık ceket, yün bere ve mavi beyaz atkı"
+    },
+    "IGUI_ALifeUI_2ed9080d1b8b652d": {
+      "tr": "baharlık bej üniforma gömleği ve şerif şapkası"
+    },
+    "IGUI_ALifeUI_64e0cf1f26ed8a64": {
+      "tr": "yazlık bej tişört ve havacı gözlüğü"
+    },
+    "IGUI_ALifeUI_2bfb9519782de050": {
+      "tr": "sonbaharlık şerif ceketi ve kovboy çizmesi"
+    },
+    "IGUI_ALifeUI_6431ef977394d54a": {
+      "tr": "kışlık kuzu derisi, yün bere ve çizgili atkı"
+    },
+    "IGUI_ALifeUI_106c7bc871733d36": {
+      "tr": "baharlık mavi gömlek ve iş ceketi"
+    },
+    "IGUI_ALifeUI_04fd5fff3f6a4a02": {
+      "tr": "yazlık kısa kollu gömlek ve Kentucky şapkası"
+    },
+    "IGUI_ALifeUI_66ffc5203300881d": {
+      "tr": "sonbaharlık polis ceketi ve kahverengi iş ceketi"
+    },
+    "IGUI_ALifeUI_767df5e66fd93e2e": {
+      "tr": "kışlık ceket, yün bere ve kırmızı beyaz atkı"
+    },
+    "IGUI_ALifeUI_5e6770861b6bf51d": {
+      "tr": "baharlık gardiyan gömleği ve siyah ceket"
+    },
+    "IGUI_ALifeUI_4ff2ba802d463183": {
+      "tr": "yazlık gardiyan tişörtü ve şerif şapkası"
+    },
+    "IGUI_ALifeUI_19a51d533c5cb776": {
+      "tr": "sonbaharlık siyah deri ceket ve kazak"
+    },
+    "IGUI_ALifeUI_7993fa525b18a29f": {
+      "tr": "kışlık lacivert ve kuzu derisi, yün bere ve atkı"
+    },
+    "IGUI_ALifeUI_3f5e00271d32f952": {
+      "tr": "baharlık korucu gömleği ve boonie şapka"
+    },
+    "IGUI_ALifeUI_74fdc32e6af2fa06": {
+      "tr": "yazlık korucu tişörtü ve hasır şapka"
+    },
+    "IGUI_ALifeUI_2bf5bf5f00c42abf": {
+      "tr": "sonbaharlık korucu ceketi ve kat kat av giysisi"
+    },
+    "IGUI_ALifeUI_38ab755828fcbe55": {
+      "tr": "kışlık korucu ceketi, yün bere ve atkı"
+    },
+    "IGUI_ALifeUI_4b5e345734cda800": {
+      "tr": "baharlık gömlek, kravat ve yelek"
+    },
+    "IGUI_ALifeUI_71200fdb6551272b": {
+      "tr": "yazlık kısa kollu gömlek ve fötr şapka"
+    },
+    "IGUI_ALifeUI_3d6abd2e0ca98936": {
+      "tr": "sonbaharlık takım ceketi ve yelek"
+    },
+    "IGUI_ALifeUI_2226331c5b8fb851": {
+      "tr": "kışlık deri mont, atkı ve eldiven"
+    },
+    "IGUI_ALifeUI_1c28eeea2bdfd1c0": {
+      "tr": "baharlık haki tulum, şapka ve iş botu"
+    },
+    "IGUI_ALifeUI_2538658d4a47433b": {
+      "tr": "yazlık tulum, bandana ve spor ayakkabı"
+    },
+    "IGUI_ALifeUI_0702c5e75eb88cbd": {
+      "tr": "sonbaharlık tulum, örgü bere ve eldiven"
+    },
+    "IGUI_ALifeUI_4124bee32e1ab2a5": {
+      "tr": "kışlık çalıntı mont, yün bere ve atkı"
+    },
+    "IGUI_ALifeUI_0dc4f5fd303cb510": {
+      "tr": "yazlık haki tişört ve siperli şapka"
+    },
+    "IGUI_ALifeUI_144a578b4e9e1f51": {
+      "tr": "baharlık ütülü haki üniforma ve çelik yelek"
+    },
+    "IGUI_ALifeUI_42c4fb2c373dd4b9": {
+      "tr": "yazlık haki tişört, havacı gözlüğü ve siperli şapka"
+    },
+    "IGUI_ALifeUI_17abec3336de4bdf": {
+      "tr": "baharlık haki üniforma, baret ve fosforlu yelek"
+    },
+    "IGUI_ALifeUI_222e64091eea4593": {
+      "tr": "yazlık haki tişört ve baret"
+    },
+    "IGUI_ALifeUI_76399daa65d9b41c": {
+      "tr": "sonbaharlık arazi ceketi ve iş eldiveni"
+    },
+    "IGUI_ALifeUI_7d1479ce189ac415": {
+      "tr": "kışlık arazi montu, baret ve atkı"
+    },
+    "IGUI_ALifeUI_3268e5ab226e588e": {
+      "tr": "sonbaharlık arazi ceketi ve eldiven"
+    },
+    "IGUI_ALifeUI_6bc49bb525fb50ea": {
+      "tr": "kışlık kaput ve yün bere"
+    },
+    "IGUI_ALifeUI_3d2dd3271280beb5": {
+      "tr": "baharlık üniforma gömleği ve siperli şapka"
+    },
+    "IGUI_ALifeUI_6dc0e74c60c04a26": {
+      "tr": "yazlık beyaz gömlek, kravat ve güneş gözlüğü"
+    },
+    "IGUI_ALifeUI_4e2919846af7c454": {
+      "tr": "sonbaharlık ceket ve plakalı yelek"
+    },
+    "IGUI_ALifeUI_78f18f7c251c2c07": {
+      "tr": "kışlık polis ceketi, atkı ve eldiven"
+    },
+    "IGUI_ALifeUI_2ec542172a7858eb": {
+      "tr": "baharlık kapüşonlu, haki pantolon ve asker botu"
+    },
+    "IGUI_ALifeUI_567f138d2fb9841a": {
+      "tr": "yazlık tişört, bandana ve asker botu"
+    },
+    "IGUI_ALifeUI_1ed444ab67945c5e": {
+      "tr": "sonbaharlık oduncu gömleği ve arazi ceketi"
+    },
+    "IGUI_ALifeUI_2127006051167d9c": {
+      "tr": "kışlık şişme mont, yün bere ve eldiven"
+    },
+    "IGUI_ALifeUI_6a0030fd36279fe6": {
+      "tr": "baharlık itfaiye tişörtü ve istasyon şapkası"
+    },
+    "IGUI_ALifeUI_5bb99199053f84fc": {
+      "tr": "yazlık kırmızı tişört ve beyzbol şapkası"
+    },
+    "IGUI_ALifeUI_37930c870db44cc5": {
+      "tr": "sonbaharlık itfaiye ceketi ve kask"
+    },
+    "IGUI_ALifeUI_08af9cfc5412a6bf": {
+      "tr": "kışlık itfaiye ceketi, yün bere ve atkı"
+    },
+    "IGUI_ALifeUI_28ce7d7110acffb1": {
+      "tr": "baharlık medikal forma, lacivert pantolon ve fosforlu yelek"
+    },
+    "IGUI_ALifeUI_0f36b64c1b24e93a": {
+      "tr": "yazlık medikal tişört ve beyzbol şapkası"
+    },
+    "IGUI_ALifeUI_324e60072ac512b8": {
+      "tr": "sonbaharlık lacivert ambulans ceketi"
+    },
+    "IGUI_ALifeUI_3aafb18c44ecac03": {
+      "tr": "kışlık lacivert ceket, yün bere ve atkı"
+    },
+    "IGUI_ALifeUI_3249ae7518fb27b3": {
+      "tr": "baharlık medikal forma, hırka ve beyaz klinik giysisi"
+    },
+    "IGUI_ALifeUI_41116449173fedc6": {
+      "tr": "yazlık medikal forma ve cerrahi bone"
+    },
+    "IGUI_ALifeUI_39a9b89d00e696ef": {
+      "tr": "sonbaharlık beyaz önlük ve lacivert ceket"
+    },
+    "IGUI_ALifeUI_795111dc4534df51": {
+      "tr": "kışlık palto, yün bere ve atkı"
+    },
+    "IGUI_ALifeUI_4d5bc2054a82fd52": {
+      "tr": "baharlık beyaz giysi, hırka ve kırmızı şapka"
+    },
+    "IGUI_ALifeUI_776a628f7ae7652a": {
+      "tr": "yazlık beyaz tişört ve siperlik"
+    },
+    "IGUI_ALifeUI_6a7cd5593cfb90a1": {
+      "tr": "sonbaharlık lacivert ceket ve kırmızı atkı"
+    },
+    "IGUI_ALifeUI_6d60dcb34085eead": {
+      "tr": "kışlık şişme mont, yün bere ve kırmızı beyaz atkı"
+    },
+    "IGUI_ALifeUI_75f794e230d0b64e": {
+      "tr": "baharlık blazer, balıkçı yaka ve grup tişörtü"
+    },
+    "IGUI_ALifeUI_2a9a3da14ac3f2da": {
+      "tr": "yazlık istasyon şapkası, polo tişört ve kemik çerçeveli gözlük"
+    },
+    "IGUI_ALifeUI_7061ff3c239148b2": {
+      "tr": "sonbaharlık deri ceket, oduncu gömleği ve triko"
+    },
+    "IGUI_ALifeUI_6611fd490b66b2c1": {
+      "tr": "kışlık uzun palto, çizgili atkı ve yün bere"
+    },
+    "IGUI_ALifeUI_579c4fa5011b428b": {
+      "tr": "baharlık fosforlu yelek, lacivert iş ceketi ve baret"
+    },
+    "IGUI_ALifeUI_48b533592a3fb3b1": {
+      "tr": "yazlık tişört, fosforlu yelek ve askılı tulum"
+    },
+    "IGUI_ALifeUI_607401467abadc34": {
+      "tr": "sonbaharlık oduncu gömleği, yelek ve elektrikçi eldiveni"
+    },
+    "IGUI_ALifeUI_3a0956cb165116e0": {
+      "tr": "kışlık kuzu derisi, yün bere ve atkı"
+    },
+    "IGUI_ALifeUI_6efa3a7a6b516824": {
+      "tr": "baharlık hasır şapka, deri ceket ve binici çizmesi"
+    },
+    "IGUI_ALifeUI_010eafc717c73031": {
+      "tr": "yazlık hasır şapka, tişört ve askılı tulum"
+    },
+    "IGUI_ALifeUI_59ed1f2d6c26dc39": {
+      "tr": "sonbaharlık oduncu gömleği, yelek ve deri"
+    },
+    "IGUI_ALifeUI_0fbe50bf45214836": {
+      "tr": "kışlık kuzu derisi, kırmızı beyaz atkı ve çizme"
+    },
+    "IGUI_ALifeUI_4083bca21c143434": {
+      "tr": "baharlık kahverengi deri, kot ve kovboy çizmesi"
+    },
+    "IGUI_ALifeUI_5b03c8542f595535": {
+      "tr": "yazlık kovboy şapkası, havacı gözlüğü ve kısa kollu gömlek"
+    },
+    "IGUI_ALifeUI_7f704eb14dd3a860": {
+      "tr": "sonbaharlık deri yelek ve oduncu gömleği"
+    },
+    "IGUI_ALifeUI_59d2c56b75059378": {
+      "tr": "kışlık kuzu derisi, uzun palto ve binici çizmesi"
+    },
+    "IGUI_ALifeUI_5abecd1635883c94": {
+      "tr": "baharlık askılı tulum, hasır şapka ve lastik çizme"
+    },
+    "IGUI_ALifeUI_4531012812449b5d": {
+      "tr": "yazlık hasır şapka, tişört ve bandana"
+    },
+    "IGUI_ALifeUI_31a0971765590088": {
+      "tr": "sonbaharlık oduncu gömleği, yelek ve yün giysi"
+    },
+    "IGUI_ALifeUI_5e674dcf43fbc454": {
+      "tr": "baharlık muşamba, baret ve fosforlu yelek"
+    },
+    "IGUI_ALifeUI_1c0b690a0ad7db23": {
+      "tr": "yazlık tişört, balıkçı şapkası ve askılı tulum"
+    },
+    "IGUI_ALifeUI_4df725c5258b16f2": {
+      "tr": "sonbaharlık oduncu gömleği, muşamba ve lastik çizme"
+    },
+    "IGUI_ALifeUI_265f03cc47444f0c": {
+      "tr": "baharlık pazar takımı, elbise ve bere"
+    },
+    "IGUI_ALifeUI_5024baf678f94588": {
+      "tr": "yazlık kısa kollu gömlek, kravat ve güneş şapkası"
+    },
+    "IGUI_ALifeUI_56390a72010d4368": {
+      "tr": "sonbaharlık takım ceketi, hırka ve eldiven"
+    },
+    "IGUI_ALifeUI_7e95a97c4868c12e": {
+      "tr": "kışlık siyah palto, yün bere ve atkı"
+    },
+    "IGUI_ALifeUI_4e2081d70dc948ce": {
+      "tr": "baharlık tezgâh için gömlek, kravat ve hırka"
+    },
+    "IGUI_ALifeUI_1cff0160492c4af9": {
+      "tr": "yazlık kısa kollu gömlek, altın saat ve okuma gözlüğü"
+    },
+    "IGUI_ALifeUI_18314f861212b3f0": {
+      "tr": "sonbaharlık yelek, takım ceketi ve atkı"
+    },
+    "IGUI_ALifeUI_6c55b1e667816169": {
+      "tr": "kışlık kuzu derisi, uzun palto ve yün bere"
+    },
+    "IGUI_ALifeUI_5818e3296f1dbc17": {
+      "tr": "baharlık oduncu gömleği, panço ve boonie şapka"
+    },
+    "IGUI_ALifeUI_2c8c2cd62d929ad1": {
+      "tr": "yazlık boonie şapka, kamuflaj şapka ve tişört"
+    },
+    "IGUI_ALifeUI_658d716902c31a0b": {
+      "tr": "sonbaharlık kamuflaj, turuncu yelek ve oduncu gömleği"
+    },
+    "IGUI_ALifeUI_67c8f3691b539f15": {
+      "tr": "kışlık kamuflajlı şişme mont, yün bere ve eldiven"
+    },
+    "IGUI_ALifeUI_4a4f326a11ba584e": {
+      "tr": "baharlık lacivert ceket, beyaz tişört ve lastik çizme"
+    },
+    "IGUI_ALifeUI_49a1f74527f43a05": {
+      "tr": "yazlık balıkçı şapkası, tişört ve önlük"
+    },
+    "IGUI_ALifeUI_64d9af8b09c2e618": {
+      "tr": "sonbaharlık oduncu gömleği, yelek ve triko"
+    },
+    "IGUI_ALifeUI_17d0126c7854ffc7": {
+      "tr": "kışlık lacivert mont, mavi beyaz atkı ve çizme"
+    },
+    "IGUI_ALifeUI_60b33b662ab2c5f9": {
+      "tr": "baharlık itfaiye tişörtü, lacivert ceket ve itfaiye pantolonu"
+    },
+    "IGUI_ALifeUI_0dd6f4e469a413dc": {
+      "tr": "yazlık itfaiye şapkası ve itfaiye tişörtü"
+    },
+    "IGUI_ALifeUI_50bcc55638b14df6": {
+      "tr": "sonbaharlık istasyon ceketi, kask ve iş botu"
+    },
+    "IGUI_ALifeUI_0e7996690694a1c7": {
+      "tr": "kışlık itfaiye ceketi, atkı ve yün bere"
+    },
+    "IGUI_ALifeUI_589426c052e3ed72": {
+      "tr": "baharlık lacivert mont, bere ve V yaka triko"
+    },
+    "IGUI_ALifeUI_765b948621096b26": {
+      "tr": "yazlık kırmızı şapka, polo tişört, hafif elbise ve kumaş pantolon"
+    },
+    "IGUI_ALifeUI_58db1a955e0c13de": {
+      "tr": "sonbaharlık deri ceket, fötr şapka ve balıkçı yaka"
+    },
+    "IGUI_ALifeUI_5803823b7082155d": {
+      "tr": "kışlık uzun palto, kırmızı beyaz atkı ve çizme"
+    },
+    "IGUI_ALifeUI_4bc942f708b624d3": {
+      "tr": "baharlık fosforlu yelek, iş gömleği ve baret"
+    },
+    "IGUI_ALifeUI_5ee894605fb26385": {
+      "tr": "yazlık tohum şirketi şapkası, tişört ve askılı tulum"
+    },
+    "IGUI_ALifeUI_255787417f67df54": {
+      "tr": "sonbaharlık iş tulumu, oduncu gömleği ve ustabaşı yeleği"
+    },
+    "IGUI_ALifeUI_2b6c5e5d699d70d1": {
+      "tr": "kışlık şişme mont, eldiven ve yün bere"
+    },
+    "IGUI_ALifeUI_1324dcdc0cbebeb6": {
+      "tr": "baharlık medikal forma, klinik önlüğü ve lastik çizme"
+    },
+    "IGUI_ALifeUI_7de8b9824a37e207": {
+      "tr": "yazlık medikal forma, cerrahi bone ve hasır şapka"
+    },
+    "IGUI_ALifeUI_02bf358c7b81a6be": {
+      "tr": "sonbaharlık oduncu gömleği, triko ve çiftlik ceketi"
+    },
+    "IGUI_ALifeUI_1121eae218d6109f": {
+      "tr": "kışlık kuzu derisi, atkı ve çiftlik ziyareti çizmesi"
+    },
+    "IGUI_ALifeUI_223ff1422a23c67c": {
+      "tr": "baharlık iş tulumu, eldiven ve hurdalık teçhizatı"
+    },
+    "IGUI_ALifeUI_35323d192ccec3d3": {
+      "tr": "yazlık tişört, bandana ve askılı tulum"
+    },
+    "IGUI_ALifeUI_33ae0c7a4a42fccf": {
+      "tr": "sonbaharlık oduncu gömleği, ceket ve baret"
+    },
+    "IGUI_ALifeUI_74c4ce57211114ea": {
+      "tr": "kışlık şişme mont ve yün bere"
+    },
+    "IGUI_ALifeUI_578289ef47f8ebb6": {
+      "tr": "baharlık siyah deri, kapüşonlu ve spor ayakkabı"
+    },
+    "IGUI_ALifeUI_75b133d40044f9f4": {
+      "tr": "yazlık grup tişörtü, bandana ve havacı gözlüğü"
+    },
+    "IGUI_ALifeUI_38d2a568369b5266": {
+      "tr": "sonbaharlık oduncu gömleği, kolej ceketi ve deri yelek"
+    },
+    "IGUI_ALifeUI_71eef9b0455e94e7": {
+      "tr": "kışlık kuzu derisi, şişme mont ve örgü bere"
+    },
+    "IGUI_ALifeUI_019cbff555c5a95b": {
+      "tr": "yazlık askılı tulum, tişört ve hasır şapka"
+    },
+    "IGUI_ALifeUI_724957a43e86f1fa": {
+      "tr": "sonbaharlık oduncu gömleği, çiftlik ceketi ve panço"
+    },
+    "IGUI_ALifeUI_0ebc54f20abd110c": {
+      "tr": "kışlık askılı tulum üstüne şişme mont, yün bere"
+    },
+    "IGUI_ALifeUI_7a40204f6f2c951a": {
+      "tr": "baharlık eşofman üstü ve spor ayakkabı"
+    },
+    "IGUI_ALifeUI_6daa27401e34875d": {
+      "tr": "yazlık spor tişörtü, siperlik ve havacı gözlüğü"
+    },
+    "IGUI_ALifeUI_109537491e2c670b": {
+      "tr": "sonbaharlık kolej ceketi ve kanvas yelek"
+    },
+    "IGUI_ALifeUI_1e7fcf8621d474b8": {
+      "tr": "kışlık şişme mont, yün bere ve atkı"
+    },
+    "IGUI_ALifeUI_313a81322728fda1": {
+      "tr": "baharlık deri, kot ve lastik plaka zırh"
+    },
+    "IGUI_ALifeUI_6366ed055365d16c": {
+      "tr": "yazlık tişört, bandana ve lastik zırh"
+    },
+    "IGUI_ALifeUI_15e5a6112d6a27b2": {
+      "tr": "sonbaharlık oduncu gömleği, deri ve tahta zırh"
+    },
+    "IGUI_ALifeUI_35261cf362a1cbdf": {
+      "tr": "kışlık kuzu derisi, yün bere ve yastıklı pantolon"
+    },
+    "IGUI_ALifeUI_4dc44a766bcaf03a": {
+      "tr": "baharlık deri ceket, grup tişörtü ve siyah bot"
+    },
+    "IGUI_ALifeUI_00d0163b1bc9e3f3": {
+      "tr": "yazlık siyah tişört, bandana ve güneş gözlüğü"
+    },
+    "IGUI_ALifeUI_6e9fa1254d67e4fb": {
+      "tr": "sonbaharlık deri, oduncu gömleği ve parmaksız eldiven"
+    },
+    "IGUI_ALifeUI_6f438d5d686bd0a4": {
+      "tr": "kışlık kuzu derisi, armalı yelek, yün bere ve atkı",
+      "not": "'the cut' = motorcu kulübünün armalı yeleği → 'armalı yelek'."
+    },
+    "IGUI_ALifeUI_48dd05612f519cce": {
+      "tr": "baharlık kolej ceketi, tişört ve iş botu"
+    },
+    "IGUI_ALifeUI_0814003764eedfec": {
+      "tr": "yazlık forma, şapka ve bol kot"
+    },
+    "IGUI_ALifeUI_641c153a518570ba": {
+      "tr": "sonbaharlık kapüşonlu, kolej ceketi ve bot"
+    },
+    "IGUI_ALifeUI_2e187713431b108c": {
+      "tr": "kışlık ceket, yün bere ve atkı"
+    },
+    "IGUI_ALifeUI_602dc95a186dee1f": {
+      "tr": "baharlık deri ceket, bandana ve siyah eldiven"
+    },
+    "IGUI_ALifeUI_3bb2cf4f333ae0d2": {
+      "tr": "sonbaharlık oduncu gömleği, iş tulumu ve deri"
+    },
+    "IGUI_ALifeUI_47220a1a624248af": {
+      "tr": "kışlık şişme mont, yün bere ve siyah eldiven"
+    },
+    "IGUI_ALifeUI_4b87cba32ef5c769": {
+      "tr": "baharlık hokey forması, eşofman ve omuzluk"
+    },
+    "IGUI_ALifeUI_42727ce848a83ae7": {
+      "tr": "yazlık forma, ter bandı ve spor şort"
+    },
+    "IGUI_ALifeUI_2a8f4de2164e93a7": {
+      "tr": "sonbaharlık forma altına kapüşonlu ve kask"
+    },
+    "IGUI_ALifeUI_2dfe48c926caef18": {
+      "tr": "kışlık kolej ceketi, yün bere ve hokey koruyucusu"
+    },
+    "IGUI_ALifeUI_4c6f548400677c0e": {
+      "tr": "baharlık haki arazi ceketi ve tahta plaka zırh"
+    },
+    "IGUI_ALifeUI_7830d0100e6322d3": {
+      "tr": "yazlık boonie şapka, fosforlu yelek ve haki tişört"
+    },
+    "IGUI_ALifeUI_4edee68e0f009a7a": {
+      "tr": "sonbaharlık yamalı av yeleği ve oduncu gömleği"
+    },
+    "IGUI_ALifeUI_427ae4bc7d126100": {
+      "tr": "kışlık kuzu derisi, subay paltosu ve yün bere"
+    },
+    "IGUI_ALifeUI_4caa06f44de6c949": {
+      "tr": "baharlık kamyoncu şapkası, kot ve deri ceket"
+    },
+    "IGUI_ALifeUI_76401c6e1c337052": {
+      "tr": "yazlık kamyoncu şapkası, tişört ve havacı gözlüğü"
+    },
+    "IGUI_ALifeUI_7d10924832d821e2": {
+      "tr": "sonbaharlık oduncu gömleği, kamyoncu yeleği ve deri"
+    },
+    "IGUI_ALifeUI_49eb4f40195050c2": {
+      "tr": "kışlık kuzu derisi, şişme mont ve yün bere"
+    },
+    "IGUI_ALifeUI_38591a981332a205": {
+      "tr": "baharlık atış alanı polosu, yelek ve atış gözlüğü"
+    },
+    "IGUI_ALifeUI_57ce719767b59185": {
+      "tr": "yazlık atış alanı şapkası, tişört ve boonie şapka"
+    },
+    "IGUI_ALifeUI_7b71e3bd4c34989e": {
+      "tr": "sonbaharlık oduncu gömleği, av yeleği ve kamuflaj"
+    },
+    "IGUI_ALifeUI_462dd136243b551f": {
+      "tr": "kışlık av montu, yün bere ve eldiven"
+    },
+    "IGUI_ALifeUI_0d7446ca4c9b6333": {
+      "tr": "baharlık ordu malı tişört, panço ve yürüyüş botu",
+      "not": "surplus = ordu malı."
+    },
+    "IGUI_ALifeUI_5c70bed816935a15": {
+      "tr": "yazlık boonie şapka, haki tişört ve güneş gözlüğü"
+    },
+    "IGUI_ALifeUI_74c9d7111aef4573": {
+      "tr": "sonbaharlık oduncu gömleği, arazi ceketi ve yelek"
+    },
+    "IGUI_ALifeUI_24ae33d2218cd81b": {
+      "tr": "baharlık hırka, kravat ve tebeşir beyazı gömlek"
+    },
+    "IGUI_ALifeUI_5bbc6632649a56d8": {
+      "tr": "yazlık polo tişört ve okul şapkası"
+    },
+    "IGUI_ALifeUI_6cc0e1826be6c44b": {
+      "tr": "sonbaharlık kazak ve kolej ceketi"
+    },
+    "IGUI_ALifeUI_7aec3e4871b16acd": {
+      "tr": "kışlık yün palto, atkı ve eldiven"
+    },
+    "IGUI_ALifeUI_4efdd6dd3580c7dd": {
+      "tr": "baharlık kovboy şapkası, kot ve deri yelek"
+    },
+    "IGUI_ALifeUI_04db6de8689de1c0": {
+      "tr": "yazlık hasır şapka, tişört ve kovboy çizmesi"
+    },
+    "IGUI_ALifeUI_5e7d6c4206f6c21c": {
+      "tr": "sonbaharlık oduncu gömleği, deri yelek ve fötr şapka"
+    },
+    "IGUI_ALifeUI_3fd3503848d311d5": {
+      "tr": "kışlık kuzu derisi, atkı ve yün bere"
+    },
+    "IGUI_ALifeUI_490681f626a4a257": {
+      "tr": "baharlık güverte tulumu, örgü bere ve lastik çizme"
+    },
+    "IGUI_ALifeUI_5b0953d80154081b": {
+      "tr": "yazlık tişört, bandana ve paçası kıvrık kot"
+    },
+    "IGUI_ALifeUI_244b133e60984a7e": {
+      "tr": "sonbaharlık oduncu gömleği, turuncu güverte yeleği ve muşamba"
+    },
+    "IGUI_ALifeUI_4bc4363628fe55fd": {
+      "tr": "kışlık şişme mont, yün bere ve atkı"
+    },
+    "IGUI_ALifeUI_086fea931fa0404d": {
+      "tr": "baharlık kahverengi deri, kovboy şapkası ve kovboy çizmesi"
+    },
+    "IGUI_ALifeUI_08088c71489dbbe2": {
+      "tr": "yazlık tişört, kovboy şapkası ve güneş gözlüğü"
+    }
+  }
+}

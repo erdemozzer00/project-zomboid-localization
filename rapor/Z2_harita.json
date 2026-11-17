@@ -1,0 +1,8094 @@
+{
+ "_paket": "Z2",
+ "_grup": "z2",
+ "_baslik": "Ziyaretçi paneli: soru düğmeleri, olay seçenekleri, kişi tarifleri, öğrenilen bilgiler, kapı eylem satırları",
+ "_parcalar": [
+  [
+   1,
+   300
+  ],
+  [
+   301,
+   600
+  ],
+  [
+   601,
+   897
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "RD_ALifeLine_128748b70c0ec3e1",
+   "Break it up",
+   [
+    "events",
+    "VE_ARGUE_PARTY",
+    "olay seçeneği"
+   ]
+  ],
+  "2": [
+   "RD_ALifeLine_1e2f8cbd7f67fc61",
+   "Side with one",
+   [
+    "events",
+    "VE_ARGUE_PARTY",
+    "olay seçeneği"
+   ]
+  ],
+  "3": [
+   "RD_ALifeLine_3129a5e64f593131",
+   "Leave them",
+   [
+    "events",
+    "VE_ARGUE_PARTY",
+    "olay seçeneği"
+   ]
+  ],
+  "4": [
+   "RD_ALifeLine_18837488708dca2a",
+   "Tell them what you know",
+   [
+    "events",
+    "VE_ARMY_QUESTION",
+    "olay seçeneği"
+   ]
+  ],
+  "5": [
+   "RD_ALifeLine_0b88041f172d46be",
+   "Lie",
+   [
+    "events",
+    "VE_ARMY_QUESTION",
+    "olay seçeneği"
+   ]
+  ],
+  "6": [
+   "RD_ALifeLine_2f45e33b2675ddea",
+   "Give one",
+   [
+    "events",
+    "VE_BLANKET",
+    "olay seçeneği"
+   ]
+  ],
+  "7": [
+   "RD_ALifeLine_71f76ff3505a0a6a",
+   "Light the stove",
+   [
+    "events",
+    "VE_BLANKET",
+    "olay seçeneği"
+   ]
+  ],
+  "8": [
+   "RD_ALifeLine_4590b427654077ff",
+   "Sink's there",
+   [
+    "events",
+    "VE_BLOOD_WASH",
+    "olay seçeneği"
+   ]
+  ],
+  "9": [
+   "RD_ALifeLine_7531b2eb53b55d0e",
+   "Use the bucket",
+   [
+    "events",
+    "VE_BLOOD_WASH",
+    "olay seçeneği"
+   ]
+  ],
+  "10": [
+   "RD_ALifeLine_05eabb743cb43e89",
+   "Lend one",
+   [
+    "events",
+    "VE_BORROW_BOOK",
+    "olay seçeneği"
+   ]
+  ],
+  "11": [
+   "RD_ALifeLine_1b24f77433735b12",
+   "Look on the shelf",
+   [
+    "events",
+    "VE_BORROW_BOOK",
+    "olay seçeneği"
+   ]
+  ],
+  "12": [
+   "RD_ALifeLine_51878a5345c4d673",
+   "Take this",
+   [
+    "events",
+    "VE_CHANGE_CLOTHES",
+    "olay seçeneği"
+   ]
+  ],
+  "13": [
+   "RD_ALifeLine_2c55e2024b992f57",
+   "Use the bathroom",
+   [
+    "events",
+    "VE_CHANGE_CLOTHES",
+    "olay seçeneği"
+   ]
+  ],
+  "14": [
+   "RD_ALifeLine_7b1a46c27872b5f8",
+   "Nothing, sorry",
+   [
+    "events",
+    "VE_CHANGE_CLOTHES",
+    "olay seçeneği"
+   ]
+  ],
+  "15": [
+   "RD_ALifeLine_3756501800a85080",
+   "Make tea",
+   [
+    "events",
+    "VE_COUGH_WORRY",
+    "olay seçeneği"
+   ]
+  ],
+  "16": [
+   "RD_ALifeLine_205597fa500a4616",
+   "Let me look",
+   [
+    "events",
+    "VE_COUGH_WORRY",
+    "olay seçeneği"
+   ]
+  ],
+  "17": [
+   "RD_ALifeLine_366ea41d3482b741",
+   "Keep your distance",
+   [
+    "events",
+    "VE_COUGH_WORRY",
+    "olay seçeneği"
+   ]
+  ],
+  "18": [
+   "RD_ALifeLine_3644828804d138c8",
+   "Sit with them",
+   [
+    "events",
+    "VE_CRY_QUIET",
+    "olay seçeneği"
+   ]
+  ],
+  "19": [
+   "RD_ALifeLine_1895167779b5254a",
+   "Give space",
+   [
+    "events",
+    "VE_CRY_QUIET",
+    "olay seçeneği"
+   ]
+  ],
+  "20": [
+   "RD_ALifeLine_750f05b679f8ca01",
+   "Keep quiet",
+   [
+    "events",
+    "VE_DID_YOU_HEAR",
+    "olay seçeneği"
+   ]
+  ],
+  "21": [
+   "RD_ALifeLine_4a09e24c010fbf98",
+   "Pour one",
+   [
+    "events",
+    "VE_DRINK_ASK",
+    "olay seçeneği"
+   ]
+  ],
+  "22": [
+   "RD_ALifeLine_26b5e23a54377d05",
+   "Accept",
+   [
+    "events",
+    "VE_GIFT_BACK",
+    "olay seçeneği"
+   ]
+  ],
+  "23": [
+   "RD_ALifeLine_423471f951df5950",
+   "Refuse kindly",
+   [
+    "events",
+    "VE_GIFT_BACK",
+    "olay seçeneği"
+   ]
+  ],
+  "24": [
+   "RD_ALifeLine_34e0f4425dbc83bc",
+   "We don't, but go on",
+   [
+    "events",
+    "VE_GRACE",
+    "olay seçeneği"
+   ]
+  ],
+  "25": [
+   "RD_ALifeLine_092b8311494af3d9",
+   "Not at the table",
+   [
+    "events",
+    "VE_GRACE",
+    "olay seçeneği"
+   ]
+  ],
+  "26": [
+   "RD_ALifeLine_224bafbd1bae2332",
+   "It came like this",
+   [
+    "events",
+    "VE_HOUSE_COMMENT",
+    "olay seçeneği"
+   ]
+  ],
+  "27": [
+   "RD_ALifeLine_148ea9936882a2d0",
+   "Both: the curtains too",
+   [
+    "events",
+    "VE_HOUSE_COMMENT",
+    "olay seçeneği"
+   ]
+  ],
+  "28": [
+   "RD_ALifeLine_1701cb3d7a9f1e64",
+   "Eat first",
+   [
+    "events",
+    "VE_HUNGRY_EARN",
+    "olay seçeneği"
+   ]
+  ],
+  "29": [
+   "RD_ALifeLine_248a45d06985f90d",
+   "Carry water",
+   [
+    "events",
+    "VE_HUNGRY_EARN",
+    "olay seçeneği"
+   ]
+  ],
+  "30": [
+   "RD_ALifeLine_72a85f9d451e7905",
+   "Wish them well",
+   [
+    "events",
+    "VE_LEAVING_AT_DAWN",
+    "olay seçeneği"
+   ]
+  ],
+  "31": [
+   "RD_ALifeLine_51555e2f7452fd4c",
+   "Ask them to stay",
+   [
+    "events",
+    "VE_LEAVING_AT_DAWN",
+    "olay seçeneği"
+   ]
+  ],
+  "32": [
+   "RD_ALifeLine_5a3e0d6171f0156c",
+   "Lock together",
+   [
+    "events",
+    "VE_LOCK_DOORS",
+    "olay seçeneği"
+   ]
+  ],
+  "33": [
+   "RD_ALifeLine_7c8646d05ba0f664",
+   "Help",
+   [
+    "events",
+    "VE_LOST_ITEM",
+    "olay seçeneği"
+   ]
+  ],
+  "34": [
+   "RD_ALifeLine_3df29c945d23ac1f",
+   "Tell me about it",
+   [
+    "events",
+    "VE_MEMORY_OBJECT",
+    "olay seçeneği"
+   ]
+  ],
+  "35": [
+   "RD_ALifeLine_788959664fdf37d8",
+   "Put it away, keep it safe",
+   [
+    "events",
+    "VE_MEMORY_OBJECT",
+    "olay seçeneği"
+   ]
+  ],
+  "36": [
+   "RD_ALifeLine_303aaeb10bc02a10",
+   "Joke back",
+   [
+    "events",
+    "VE_MIRROR",
+    "olay seçeneği"
+   ]
+  ],
+  "37": [
+   "RD_ALifeLine_505b92393ef2c050",
+   "Say they look fine",
+   [
+    "events",
+    "VE_MIRROR",
+    "olay seçeneği"
+   ]
+  ],
+  "38": [
+   "RD_ALifeLine_66a8f808190f564c",
+   "Say nothing",
+   [
+    "events",
+    "VE_MIRROR",
+    "olay seçeneği"
+   ]
+  ],
+  "39": [
+   "RD_ALifeLine_725fb60f57e58d80",
+   "Reassure",
+   [
+    "events",
+    "VE_NIGHTMARE",
+    "olay seçeneği"
+   ]
+  ],
+  "40": [
+   "RD_ALifeLine_11979ed22be7fa08",
+   "Ask what it was",
+   [
+    "events",
+    "VE_NIGHTMARE",
+    "olay seçeneği"
+   ]
+  ],
+  "41": [
+   "RD_ALifeLine_1a9b5eeb563927f0",
+   "Take the chair",
+   [
+    "events",
+    "VE_NIGHT_WINDOW",
+    "olay seçeneği"
+   ]
+  ],
+  "42": [
+   "RD_ALifeLine_08a428d213c7b888",
+   "Keep the lights off",
+   [
+    "events",
+    "VE_NIGHT_WINDOW",
+    "olay seçeneği"
+   ]
+  ],
+  "43": [
+   "RD_ALifeLine_7d6d7c3478ce7bde",
+   "No need",
+   [
+    "events",
+    "VE_OFFER_HELP",
+    "olay seçeneği"
+   ]
+  ],
+  "44": [
+   "RD_ALifeLine_49ff85492748e6d7",
+   "What does your companion need?",
+   [
+    "events",
+    "VE_PARTNER_WORRY",
+    "olay seçeneği"
+   ]
+  ],
+  "45": [
+   "RD_ALifeLine_13398f46350d61c4",
+   "I can check on your companion",
+   [
+    "events",
+    "VE_PARTNER_WORRY",
+    "olay seçeneği"
+   ]
+  ],
+  "46": [
+   "RD_ALifeLine_7422a632268feaf3",
+   "I can't help",
+   [
+    "events",
+    "VE_PARTNER_WORRY",
+    "olay seçeneği"
+   ]
+  ],
+  "47": [
+   "RD_ALifeLine_470c908c6ebdf1b5",
+   "Let them be",
+   [
+    "events",
+    "VE_PHONE_TRY",
+    "olay seçeneği"
+   ]
+  ],
+  "48": [
+   "RD_ALifeLine_06285f403e6c7c28",
+   "Who's in the photograph?",
+   [
+    "events",
+    "VE_PHOTO_SHOW",
+    "olay seçeneği"
+   ]
+  ],
+  "49": [
+   "RD_ALifeLine_0b880d66172dcfe1",
+   "Nod",
+   [
+    "events",
+    "VE_PHOTO_SHOW",
+    "olay seçeneği"
+   ]
+  ],
+  "50": [
+   "RD_ALifeLine_5ec73f787202cb5d",
+   "Tune it",
+   [
+    "events",
+    "VE_RADIO_NEWS",
+    "olay seçeneği"
+   ]
+  ],
+  "51": [
+   "RD_ALifeLine_22d5cb5a66b6cca4",
+   "Nothing but static",
+   [
+    "events",
+    "VE_RADIO_NEWS",
+    "olay seçeneği"
+   ]
+  ],
+  "52": [
+   "RD_ALifeLine_009a80525729716b",
+   "Share a trick",
+   [
+    "events",
+    "VE_RECIPE",
+    "olay seçeneği"
+   ]
+  ],
+  "53": [
+   "RD_ALifeLine_7c8789f05be82f66",
+   "Joke",
+   [
+    "events",
+    "VE_RECIPE",
+    "olay seçeneği"
+   ]
+  ],
+  "54": [
+   "RD_ALifeLine_4e83af742b871ddb",
+   "Refuse",
+   [
+    "events",
+    "VE_REPAY",
+    "olay seçeneği"
+   ]
+  ],
+  "55": [
+   "RD_ALifeLine_0922250f676be6d2",
+   "Ask more",
+   [
+    "events",
+    "VE_RUMOR",
+    "olay seçeneği"
+   ]
+  ],
+  "56": [
+   "RD_ALifeLine_678270ed68eb282a",
+   "Leave them on",
+   [
+    "events",
+    "VE_SHOES_DOOR",
+    "olay seçeneği"
+   ]
+  ],
+  "57": [
+   "RD_ALifeLine_3afe3cff6157f946",
+   "On the porch",
+   [
+    "events",
+    "VE_SMOKE_ASK",
+    "olay seçeneği"
+   ]
+  ],
+  "58": [
+   "RD_ALifeLine_7ac0b8737ac6a565",
+   "Not in the house",
+   [
+    "events",
+    "VE_SMOKE_ASK",
+    "olay seçeneği"
+   ]
+  ],
+  "59": [
+   "RD_ALifeLine_7c8c8d685d1e33fc",
+   "Stay",
+   [
+    "events",
+    "VE_STAY_ANOTHER",
+    "olay seçeneği"
+   ]
+  ],
+  "60": [
+   "RD_ALifeLine_455bada82e744a9e",
+   "Change the subject",
+   [
+    "events",
+    "VE_TEASE",
+    "olay seçeneği"
+   ]
+  ],
+  "61": [
+   "RD_ALifeLine_54223fa609377525",
+   "Try it",
+   [
+    "events",
+    "VE_TV_WORKS",
+    "olay seçeneği"
+   ]
+  ],
+  "62": [
+   "RD_ALifeLine_1c2dcdac68142ad5",
+   "No power to spare",
+   [
+    "events",
+    "VE_TV_WORKS",
+    "olay seçeneği"
+   ]
+  ],
+  "63": [
+   "RD_ALifeLine_533be54c488d57f2",
+   "Only static",
+   [
+    "events",
+    "VE_TV_WORKS",
+    "olay seçeneği"
+   ]
+  ],
+  "64": [
+   "RD_ALifeLine_4cafe09b06074ae0",
+   "Bathroom's there",
+   [
+    "events",
+    "VE_WASH_UP",
+    "olay seçeneği"
+   ]
+  ],
+  "65": [
+   "RD_ALifeLine_46afa78e3ac0fbe3",
+   "Not right now",
+   [
+    "events",
+    "VE_WASH_UP",
+    "olay seçeneği"
+   ]
+  ],
+  "66": [
+   "RD_ALifeLine_7749213678b1f205",
+   "Admit the leak",
+   [
+    "events",
+    "VE_WEATHER_ROOF",
+    "olay seçeneği"
+   ]
+  ],
+  "67": [
+   "RD_ALifeLine_6aacdc5c6e2a4644",
+   "Tell the truth",
+   [
+    "events",
+    "VE_WHAT_DID_YOU_DO",
+    "olay seçeneği"
+   ]
+  ],
+  "68": [
+   "RD_ALifeLine_21fd78f43d138020",
+   "A joke",
+   [
+    "events",
+    "VE_WHAT_DID_YOU_DO",
+    "olay seçeneği"
+   ]
+  ],
+  "69": [
+   "RD_ALifeLine_7c8c681e5d1bdcba",
+   "Skip",
+   [
+    "events",
+    "VE_WHAT_DID_YOU_DO",
+    "olay seçeneği"
+   ]
+  ],
+  "70": [
+   "RD_ALifeLine_038cefb11e1b8ab0",
+   "Take the bed",
+   [
+    "events",
+    "VE_WHERE_TO_LIE",
+    "olay seçeneği"
+   ]
+  ],
+  "71": [
+   "RD_ALifeLine_5d3cdf6f1c90e7c7",
+   "The couch",
+   [
+    "events",
+    "VE_WHERE_TO_LIE",
+    "olay seçeneği"
+   ]
+  ],
+  "72": [
+   "RD_ALifeLine_4007ab0e5933a17a",
+   "Floor by the stove",
+   [
+    "events",
+    "VE_WHERE_TO_LIE",
+    "olay seçeneği"
+   ]
+  ],
+  "73": [
+   "RD_ALifeLine_3872739118b7cfe0",
+   "*Checks the clean hands once more*",
+   [
+    "lines",
+    "VP_DOLINES_FRESH",
+    "kapı eylem satırı"
+   ]
+  ],
+  "74": [
+   "RD_ALifeLine_6316d57d253afa9e",
+   "*Turns one hand then the other*",
+   [
+    "lines",
+    "VP_DOLINES_FRESH",
+    "kapı eylem satırı"
+   ]
+  ],
+  "75": [
+   "RD_ALifeLine_1db28f925c7d7eb7",
+   "*Studies the clean palms for a moment*",
+   [
+    "lines",
+    "VP_DOLINES_FRESH",
+    "kapı eylem satırı"
+   ]
+  ],
+  "76": [
+   "RD_ALifeLine_2ee1e90b15dae676",
+   "*Studies the pale marks where the dirt was*",
+   [
+    "lines",
+    "VP_DOLINES_FRESH",
+    "kapı eylem satırı"
+   ]
+  ],
+  "77": [
+   "RD_ALifeLine_759faf1f6a454dcd",
+   "*Runs a thumb over a washed knuckle*",
+   [
+    "lines",
+    "VP_DOLINES_FRESH",
+    "kapı eylem satırı"
+   ]
+  ],
+  "78": [
+   "RD_ALifeLine_7b5e2273489bdfb0",
+   "*Touches a clean fingertip with the opposite thumb*",
+   [
+    "lines",
+    "VP_DOLINES_FRESH",
+    "kapı eylem satırı"
+   ]
+  ],
+  "79": [
+   "RD_ALifeLine_67b30d2d4ebdba53",
+   "*Looks at a wrist then lowers both hands*",
+   [
+    "lines",
+    "VP_DOLINES_FRESH",
+    "kapı eylem satırı"
+   ]
+  ],
+  "80": [
+   "RD_ALifeLine_759829892e40a6bc",
+   "*Offers a hand then glances down at its clean palm*",
+   [
+    "lines",
+    "VP_DOLINES_FRESH",
+    "kapı eylem satırı"
+   ]
+  ],
+  "81": [
+   "RD_ALifeLine_1a5154a545d35bf2",
+   "*Lets the player see a small smile before looking away*",
+   [
+    "lines",
+    "VP_DOLINES_FRESH",
+    "kapı eylem satırı"
+   ]
+  ],
+  "82": [
+   "RD_ALifeLine_5de451133d29c71d",
+   "*Shifts a little closer without raising the voice*",
+   [
+    "lines",
+    "VP_DOLINES_FRESH",
+    "kapı eylem satırı"
+   ]
+  ],
+  "83": [
+   "RD_ALifeLine_492364b10246c638",
+   "What's it about?",
+   [
+    "questions",
+    "VQ_BOOK_ABOUT",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "84": [
+   "RD_ALifeLine_73fab5ef3ff13f79",
+   "What happens in it?",
+   [
+    "questions",
+    "VQ_BOOK_ABOUT",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "85": [
+   "RD_ALifeLine_631cf49820cf168d",
+   "Tell me the story",
+   [
+    "questions",
+    "VQ_BOOK_ABOUT",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "86": [
+   "RD_ALifeLine_7762ffac4825dfc8",
+   "Would you read it again?",
+   [
+    "questions",
+    "VQ_BOOK_AGAIN",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "87": [
+   "RD_ALifeLine_6ba787b802ec4b9a",
+   "Is it a keeper?",
+   [
+    "questions",
+    "VQ_BOOK_AGAIN",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "88": [
+   "RD_ALifeLine_461edc4e58c6b1f7",
+   "Read it twice?",
+   [
+    "questions",
+    "VQ_BOOK_AGAIN",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "89": [
+   "RD_ALifeLine_6a00e3d37d813f9c",
+   "Who's your favorite character?",
+   [
+    "questions",
+    "VQ_BOOK_CHARACTER",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "90": [
+   "RD_ALifeLine_600b5b75195c5b5f",
+   "Who do you like in it?",
+   [
+    "questions",
+    "VQ_BOOK_CHARACTER",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "91": [
+   "RD_ALifeLine_72cd6f8b61323110",
+   "Anybody in it like you?",
+   [
+    "questions",
+    "VQ_BOOK_CHARACTER",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "92": [
+   "RD_ALifeLine_66feafc1209cd208",
+   "How does it end?",
+   [
+    "questions",
+    "VQ_BOOK_ENDING",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "93": [
+   "RD_ALifeLine_3932ccb71bc2da6d",
+   "Did you finish it?",
+   [
+    "questions",
+    "VQ_BOOK_ENDING",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "94": [
+   "RD_ALifeLine_38d028203264cc58",
+   "What happens at the end?",
+   [
+    "questions",
+    "VQ_BOOK_ENDING",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "95": [
+   "RD_ALifeLine_4d6088016b81e9e8",
+   "Is it a hard read?",
+   [
+    "questions",
+    "VQ_BOOK_HARD",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "96": [
+   "RD_ALifeLine_22fff51c169f39fc",
+   "Is it slow going?",
+   [
+    "questions",
+    "VQ_BOOK_HARD",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "97": [
+   "RD_ALifeLine_1f942d8357bba053",
+   "Do you have to concentrate?",
+   [
+    "questions",
+    "VQ_BOOK_HARD",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "98": [
+   "RD_ALifeLine_114eb6d475b1dee9",
+   "Would you ever let someone else read it?",
+   [
+    "questions",
+    "VQ_BOOK_LEND",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "99": [
+   "RD_ALifeLine_3340cbbf587124d8",
+   "Is it a book you'd want to share?",
+   [
+    "questions",
+    "VQ_BOOK_LEND",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "100": [
+   "RD_ALifeLine_6fb6b8d75367e542",
+   "Would you rather keep that one for yourself?",
+   [
+    "questions",
+    "VQ_BOOK_LEND",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "101": [
+   "RD_ALifeLine_7c9596df39499499",
+   "Is it any good?",
+   [
+    "questions",
+    "VQ_BOOK_LIKE",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "102": [
+   "RD_ALifeLine_32f506a56dabc7d8",
+   "Do you like it?",
+   [
+    "questions",
+    "VQ_BOOK_LIKE",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "103": [
+   "RD_ALifeLine_5bfcfbb267f67a18",
+   "Worth the time?",
+   [
+    "questions",
+    "VQ_BOOK_LIKE",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "104": [
+   "RD_ALifeLine_3149f5eb3ef6c7b2",
+   "Why that one?",
+   [
+    "questions",
+    "VQ_BOOK_WHY",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "105": [
+   "RD_ALifeLine_599e31a0543af54b",
+   "Why that book?",
+   [
+    "questions",
+    "VQ_BOOK_WHY",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "106": [
+   "RD_ALifeLine_413b8e593679bb7b",
+   "How did you come by it?",
+   [
+    "questions",
+    "VQ_BOOK_WHY",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "107": [
+   "RD_ALifeLine_22c9c9bb2f919bdf",
+   "Pay them a compliment",
+   [
+    "questions",
+    "VQ_CLOSER_COMPLIMENT",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "108": [
+   "RD_ALifeLine_6614bc883438cb4a",
+   "Tell them they look well",
+   [
+    "questions",
+    "VQ_CLOSER_COMPLIMENT",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "109": [
+   "RD_ALifeLine_23e8a33f227405f4",
+   "Say something kind about them",
+   [
+    "questions",
+    "VQ_CLOSER_COMPLIMENT",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "110": [
+   "RD_ALifeLine_02647d6807364ad7",
+   "You're easy to talk to",
+   [
+    "questions",
+    "VQ_CLOSER_EASYTALK",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "111": [
+   "RD_ALifeLine_55edd7be47651d83",
+   "I like talking with you",
+   [
+    "questions",
+    "VQ_CLOSER_EASYTALK",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "112": [
+   "RD_ALifeLine_0687ab92746d153d",
+   "Talking with you helps",
+   [
+    "questions",
+    "VQ_CLOSER_EASYTALK",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "113": [
+   "RD_ALifeLine_3575a85349fd1c30",
+   "That's enough for tonight",
+   [
+    "questions",
+    "VQ_CLOSER_ENOUGH",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "114": [
+   "RD_ALifeLine_6a2706293efe6a65",
+   "No hard feelings, let's talk about something else",
+   [
+    "questions",
+    "VQ_CLOSER_ENOUGH",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "115": [
+   "RD_ALifeLine_3022cea95f188f95",
+   "Say goodnight, and mean it",
+   [
+    "questions",
+    "VQ_CLOSER_GOODNIGHT",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "116": [
+   "RD_ALifeLine_097a105f17e6240c",
+   "Wish them a quiet night",
+   [
+    "questions",
+    "VQ_CLOSER_GOODNIGHT",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "117": [
+   "RD_ALifeLine_7b7fecb15705a843",
+   "Say goodnight",
+   [
+    "questions",
+    "VQ_CLOSER_GOODNIGHT",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "118": [
+   "RD_ALifeLine_6a0ebfb034de7842",
+   "Would you be comfortable holding hands?",
+   [
+    "questions",
+    "VQ_CLOSER_HANDS",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "119": [
+   "RD_ALifeLine_665fbe223a6c36fa",
+   "May I offer you my hand?",
+   [
+    "questions",
+    "VQ_CLOSER_HANDS",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "120": [
+   "RD_ALifeLine_43ca6f1a262f0cbd",
+   "Would you rather I kept my hands to myself?",
+   [
+    "questions",
+    "VQ_CLOSER_HANDS",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "121": [
+   "RD_ALifeLine_3eac7bd80efaff65",
+   "Would you like me to stay a little longer?",
+   [
+    "questions",
+    "VQ_CLOSER_LAMP",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "122": [
+   "RD_ALifeLine_31a2123a3f462ad9",
+   "Want to keep talking, or leave it there?",
+   [
+    "questions",
+    "VQ_CLOSER_LAMP",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "123": [
+   "RD_ALifeLine_500c34ae02c31e02",
+   "Would a little more company be welcome?",
+   [
+    "questions",
+    "VQ_CLOSER_LAMP",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "124": [
+   "RD_ALifeLine_0f65cc70598e9504",
+   "Would you like to be a little closer?",
+   [
+    "questions",
+    "VQ_CLOSER_SITCLOSE",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "125": [
+   "RD_ALifeLine_3070e3483656d73f",
+   "Would closer be all right with you?",
+   [
+    "questions",
+    "VQ_CLOSER_SITCLOSE",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "126": [
+   "RD_ALifeLine_104cd69718cf69aa",
+   "Want some company, or more space?",
+   [
+    "questions",
+    "VQ_CLOSER_SITCLOSE",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "127": [
+   "RD_ALifeLine_471592b27230fbb8",
+   "Would you like to keep me company a little longer?",
+   [
+    "questions",
+    "VQ_CLOSER_STAYUP",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "128": [
+   "RD_ALifeLine_2df1b484792e992f",
+   "Want to talk a little longer?",
+   [
+    "questions",
+    "VQ_CLOSER_STAYUP",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "129": [
+   "RD_ALifeLine_1ff487322a6d5df1",
+   "Would you rather stay up or call it a night?",
+   [
+    "questions",
+    "VQ_CLOSER_STAYUP",
+    "soru düğmesi, sekme=closer"
+   ]
+  ],
+  "130": [
+   "RD_ALifeLine_4977f9257b6376ee",
+   "Would you like a chance to wash?",
+   [
+    "questions",
+    "VQ_HOUSE_BATH",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "131": [
+   "RD_ALifeLine_4a897f4e1b701d7a",
+   "Want to see if there's somewhere to clean up?",
+   [
+    "questions",
+    "VQ_HOUSE_BATH",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "132": [
+   "RD_ALifeLine_178de9f649f61c30",
+   "Could a little washing water help, if there's some spare?",
+   [
+    "questions",
+    "VQ_HOUSE_BATH",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "133": [
+   "RD_ALifeLine_72e8e5867babaa1d",
+   "Would you like to rest if we can find a free spot?",
+   [
+    "questions",
+    "VQ_HOUSE_BED",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "134": [
+   "RD_ALifeLine_279ce76d673e38e0",
+   "Could you use somewhere to lie down?",
+   [
+    "questions",
+    "VQ_HOUSE_BED",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "135": [
+   "RD_ALifeLine_7be5755a52715ce7",
+   "Want to look for a place to rest?",
+   [
+    "questions",
+    "VQ_HOUSE_BED",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "136": [
+   "RD_ALifeLine_163452906751dfc4",
+   "Is that a good one?",
+   [
+    "questions",
+    "VQ_HOUSE_BOOK",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "137": [
+   "RD_ALifeLine_5f39550347e686de",
+   "What's the book?",
+   [
+    "questions",
+    "VQ_HOUSE_BOOK",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "138": [
+   "RD_ALifeLine_64e6981439b02f57",
+   "Would sitting for a while help?",
+   [
+    "questions",
+    "VQ_HOUSE_CHAIR",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "139": [
+   "RD_ALifeLine_417581a25e80d7b9",
+   "Want to find somewhere you can sit?",
+   [
+    "questions",
+    "VQ_HOUSE_CHAIR",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "140": [
+   "RD_ALifeLine_52b28ee3367b1cee",
+   "Could you use a seat?",
+   [
+    "questions",
+    "VQ_HOUSE_CHAIR",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "141": [
+   "RD_ALifeLine_786493ff17612017",
+   "Anything you want to do around here?",
+   [
+    "questions",
+    "VQ_HOUSE_CHORES",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "142": [
+   "RD_ALifeLine_13fc08e121aae024",
+   "Feel like helping with something?",
+   [
+    "questions",
+    "VQ_HOUSE_CHORES",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "143": [
+   "RD_ALifeLine_703e93d627252197",
+   "Need something to keep your hands busy?",
+   [
+    "questions",
+    "VQ_HOUSE_CHORES",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "144": [
+   "RD_ALifeLine_1b32e7d329edb5db",
+   "Could you use a meal, if we find something spare?",
+   [
+    "questions",
+    "VQ_HOUSE_FOOD",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "145": [
+   "RD_ALifeLine_4eb2c7c23f96842b",
+   "Anything you'd rather not eat?",
+   [
+    "questions",
+    "VQ_HOUSE_FOOD",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "146": [
+   "RD_ALifeLine_4354fc8c6116d8df",
+   "Want to see whether there's anything to share?",
+   [
+    "questions",
+    "VQ_HOUSE_FOOD",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "147": [
+   "RD_ALifeLine_0b737d3e3c8ce9d2",
+   "Could you use something to eat, if there's any spare?",
+   [
+    "questions",
+    "VQ_HOUSE_KITCHEN",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "148": [
+   "RD_ALifeLine_25f531e03f8b68c1",
+   "Want to see what we might manage for a meal?",
+   [
+    "questions",
+    "VQ_HOUSE_KITCHEN",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "149": [
+   "RD_ALifeLine_69ec256a10aac2d7",
+   "Would you rather talk about food later?",
+   [
+    "questions",
+    "VQ_HOUSE_KITCHEN",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "150": [
+   "RD_ALifeLine_4bb2dbe23599b207",
+   "Would light help, if we can arrange it?",
+   [
+    "questions",
+    "VQ_HOUSE_LIGHTS",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "151": [
+   "RD_ALifeLine_2eb308600992725f",
+   "Do you prefer light or darkness when you rest?",
+   [
+    "questions",
+    "VQ_HOUSE_LIGHTS",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "152": [
+   "RD_ALifeLine_7d7094c1180e9c21",
+   "Would a light make resting easier?",
+   [
+    "questions",
+    "VQ_HOUSE_LIGHTS",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "153": [
+   "RD_ALifeLine_129cda0d5f92ed90",
+   "Are the doors worrying you?",
+   [
+    "questions",
+    "VQ_HOUSE_LOCKS",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "154": [
+   "RD_ALifeLine_6dbb09521f31bf76",
+   "What would you want checked before resting?",
+   [
+    "questions",
+    "VQ_HOUSE_LOCKS",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "155": [
+   "RD_ALifeLine_3673caa878469fef",
+   "Would knowing the way out help?",
+   [
+    "questions",
+    "VQ_HOUSE_LOCKS",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "156": [
+   "RD_ALifeLine_30a314e04a924d38",
+   "Would you like to use a mirror?",
+   [
+    "questions",
+    "VQ_HOUSE_MIRROR",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "157": [
+   "RD_ALifeLine_688d9c281251d55e",
+   "Want a moment to straighten yourself up?",
+   [
+    "questions",
+    "VQ_HOUSE_MIRROR",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "158": [
+   "RD_ALifeLine_1e5313493542d58f",
+   "Would a chance to freshen up help?",
+   [
+    "questions",
+    "VQ_HOUSE_MIRROR",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "159": [
+   "RD_ALifeLine_60c5843b41cabc24",
+   "Any noises worrying you?",
+   [
+    "questions",
+    "VQ_HOUSE_NOISE",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "160": [
+   "RD_ALifeLine_37daf9bc1f17067c",
+   "Noise bothering you?",
+   [
+    "questions",
+    "VQ_HOUSE_NOISE",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "161": [
+   "RD_ALifeLine_4a676ada3013f7fa",
+   "Do noises keep you awake?",
+   [
+    "questions",
+    "VQ_HOUSE_NOISE",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "162": [
+   "RD_ALifeLine_2a2f314b179d6a65",
+   "Anybody you'd try calling?",
+   [
+    "questions",
+    "VQ_HOUSE_PHONE",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "163": [
+   "RD_ALifeLine_0f1ea5df41cb5664",
+   "Would you try a call if we found a working line?",
+   [
+    "questions",
+    "VQ_HOUSE_PHONE",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "164": [
+   "RD_ALifeLine_2779b3c959650639",
+   "Anyone you wish you could reach by phone?",
+   [
+    "questions",
+    "VQ_HOUSE_PHONE",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "165": [
+   "RD_ALifeLine_53134889205cc331",
+   "Would you like some air, if it's safe to step out?",
+   [
+    "questions",
+    "VQ_HOUSE_PORCH",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "166": [
+   "RD_ALifeLine_111bf0e13ac6059c",
+   "Would you rather stay inside?",
+   [
+    "questions",
+    "VQ_HOUSE_PORCH",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "167": [
+   "RD_ALifeLine_7bf917aa74030a16",
+   "Want to see if there's a quiet spot outside?",
+   [
+    "questions",
+    "VQ_HOUSE_PORCH",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "168": [
+   "RD_ALifeLine_40082fa157449a11",
+   "Would you like a minute to pray?",
+   [
+    "questions",
+    "VQ_HOUSE_PRAYER",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "169": [
+   "RD_ALifeLine_4b5908485810be6e",
+   "Do you want some quiet to pray?",
+   [
+    "questions",
+    "VQ_HOUSE_PRAYER",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "170": [
+   "RD_ALifeLine_55ce5d9a0ac05f50",
+   "Need a minute alone with God?",
+   [
+    "questions",
+    "VQ_HOUSE_PRAYER",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "171": [
+   "RD_ALifeLine_373a8bdf54eb3db3",
+   "Quiet in here, isn't it",
+   [
+    "questions",
+    "VQ_HOUSE_QUIET",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "172": [
+   "RD_ALifeLine_5d408bf43f8a89ff",
+   "Does the quiet bother you?",
+   [
+    "questions",
+    "VQ_HOUSE_QUIET",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "173": [
+   "RD_ALifeLine_632154c05a50a972",
+   "Want some noise?",
+   [
+    "questions",
+    "VQ_HOUSE_QUIET",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "174": [
+   "RD_ALifeLine_69ada8f115498498",
+   "Would you like to try listening to the radio?",
+   [
+    "questions",
+    "VQ_HOUSE_RADIO",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "175": [
+   "RD_ALifeLine_2914f2a83a9bdbf7",
+   "Want to see if we can hear anything useful?",
+   [
+    "questions",
+    "VQ_HOUSE_RADIO",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "176": [
+   "RD_ALifeLine_075df0ee6f3d263c",
+   "Would the radio help, if we can get it working?",
+   [
+    "questions",
+    "VQ_HOUSE_RADIO",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "177": [
+   "RD_ALifeLine_05f42d3925833f18",
+   "What would make you feel a little safer?",
+   [
+    "questions",
+    "VQ_HOUSE_SAFE",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "178": [
+   "RD_ALifeLine_6a6819134e616d0d",
+   "Anything here making you uneasy?",
+   [
+    "questions",
+    "VQ_HOUSE_SAFE",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "179": [
+   "RD_ALifeLine_069732df3e21a002",
+   "Do you feel comfortable enough to stay?",
+   [
+    "questions",
+    "VQ_HOUSE_SAFE",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "180": [
+   "RD_ALifeLine_49547adb4f9933f0",
+   "Want to see if there's anything worth reading?",
+   [
+    "questions",
+    "VQ_HOUSE_SHELF",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "181": [
+   "RD_ALifeLine_6813ec1c717f243b",
+   "Would looking through some books help, if we find any?",
+   [
+    "questions",
+    "VQ_HOUSE_SHELF",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "182": [
+   "RD_ALifeLine_049e47635bdb1058",
+   "Anything you'd like to find on a shelf?",
+   [
+    "questions",
+    "VQ_HOUSE_SHELF",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "183": [
+   "RD_ALifeLine_23e7ca971953e04b",
+   "Any smells bothering you?",
+   [
+    "questions",
+    "VQ_HOUSE_SMELL",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "184": [
+   "RD_ALifeLine_6fb9c9d0658638ff",
+   "How does the place seem to you?",
+   [
+    "questions",
+    "VQ_HOUSE_SMELL",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "185": [
+   "RD_ALifeLine_4e74740c2d455f7a",
+   "Anything about this place putting you off?",
+   [
+    "questions",
+    "VQ_HOUSE_SMELL",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "186": [
+   "RD_ALifeLine_74c28f84635aa079",
+   "Want to see if there's a quieter spot?",
+   [
+    "questions",
+    "VQ_HOUSE_STAIRS",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "187": [
+   "RD_ALifeLine_3266c4b707921811",
+   "Would you rather have a little privacy?",
+   [
+    "questions",
+    "VQ_HOUSE_STAIRS",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "188": [
+   "RD_ALifeLine_3de1106f72f23787",
+   "Anything you need before we look around?",
+   [
+    "questions",
+    "VQ_HOUSE_STAIRS",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "189": [
+   "RD_ALifeLine_4981d99520330d1f",
+   "Would you like to see if we can find some warmth?",
+   [
+    "questions",
+    "VQ_HOUSE_STOVE",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "190": [
+   "RD_ALifeLine_225d59484738c953",
+   "Could a warmer spot help, if there is one?",
+   [
+    "questions",
+    "VQ_HOUSE_STOVE",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "191": [
+   "RD_ALifeLine_506c73256b50e55d",
+   "Still having trouble keeping warm?",
+   [
+    "questions",
+    "VQ_HOUSE_STOVE",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "192": [
+   "RD_ALifeLine_62ac523b5c74a2f4",
+   "Want to see if the TV works?",
+   [
+    "questions",
+    "VQ_HOUSE_TV",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "193": [
+   "RD_ALifeLine_66f6ec85024b3363",
+   "Care to try the television?",
+   [
+    "questions",
+    "VQ_HOUSE_TV",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "194": [
+   "RD_ALifeLine_5e3944a614138375",
+   "Would the TV help?",
+   [
+    "questions",
+    "VQ_HOUSE_TV",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "195": [
+   "RD_ALifeLine_44f75c777c3d41ff",
+   "Warm enough in here?",
+   [
+    "questions",
+    "VQ_HOUSE_WARM",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "196": [
+   "RD_ALifeLine_3904a92916faf82f",
+   "Want another layer?",
+   [
+    "questions",
+    "VQ_HOUSE_WARM",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "197": [
+   "RD_ALifeLine_6a5cb7a43c4a57aa",
+   "Cold in here?",
+   [
+    "questions",
+    "VQ_HOUSE_WARM",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "198": [
+   "RD_ALifeLine_4d568bf26fb0a07b",
+   "Anything I should know to make this easier?",
+   [
+    "questions",
+    "VQ_HOUSE_WELCOME",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "199": [
+   "RD_ALifeLine_1311de564f01ed27",
+   "Tell me if you need a little space",
+   [
+    "questions",
+    "VQ_HOUSE_WELCOME",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "200": [
+   "RD_ALifeLine_3b48f58f0e0caedb",
+   "You don't have to keep making conversation",
+   [
+    "questions",
+    "VQ_HOUSE_WELCOME",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "201": [
+   "RD_ALifeLine_3753fccf35e3afc6",
+   "What do you make of the view from here?",
+   [
+    "questions",
+    "VQ_HOUSE_WINDOW",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "202": [
+   "RD_ALifeLine_75ddb4ce56869a95",
+   "Anything out there catching your attention?",
+   [
+    "questions",
+    "VQ_HOUSE_WINDOW",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "203": [
+   "RD_ALifeLine_50f44d3d104fda06",
+   "Would looking outside help, or make things worse?",
+   [
+    "questions",
+    "VQ_HOUSE_WINDOW",
+    "soru düğmesi, sekme=house"
+   ]
+  ],
+  "204": [
+   "RD_ALifeLine_47de320f401fe27b",
+   "What are you carrying?",
+   [
+    "questions",
+    "VQ_NOW_CARRYING",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "205": [
+   "RD_ALifeLine_2921629e1afcd4f5",
+   "What did you bring with you?",
+   [
+    "questions",
+    "VQ_NOW_CARRYING",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "206": [
+   "RD_ALifeLine_613e2ba47b69cb0b",
+   "Can I see what you've got?",
+   [
+    "questions",
+    "VQ_NOW_CARRYING",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "207": [
+   "RD_ALifeLine_71f99c645e250c02",
+   "Are those clothes all you have?",
+   [
+    "questions",
+    "VQ_NOW_CLOTHES",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "208": [
+   "RD_ALifeLine_7022ae2b27b7117f",
+   "Need something clean?",
+   [
+    "questions",
+    "VQ_NOW_CLOTHES",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "209": [
+   "RD_ALifeLine_1ab695b73d9810df",
+   "Want a change of clothes?",
+   [
+    "questions",
+    "VQ_NOW_CLOTHES",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "210": [
+   "RD_ALifeLine_70af98b050113d3d",
+   "Are you cold?",
+   [
+    "questions",
+    "VQ_NOW_COLD",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "211": [
+   "RD_ALifeLine_362b3c7a10cdd79f",
+   "Having trouble keeping warm?",
+   [
+    "questions",
+    "VQ_NOW_COLD",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "212": [
+   "RD_ALifeLine_4d1aa16c5fb32482",
+   "Would another layer help?",
+   [
+    "questions",
+    "VQ_NOW_COLD",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "213": [
+   "RD_ALifeLine_27a4a46b4767dd53",
+   "Do you need something to take the edge off?",
+   [
+    "questions",
+    "VQ_NOW_CRAVING",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "214": [
+   "RD_ALifeLine_377a8b9e3e2a3098",
+   "Is it the shakes?",
+   [
+    "questions",
+    "VQ_NOW_CRAVING",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "215": [
+   "RD_ALifeLine_368ee4114a58099c",
+   "Is there somewhere you're trying to reach?",
+   [
+    "questions",
+    "VQ_NOW_DEST",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "216": [
+   "RD_ALifeLine_79ba94830074b714",
+   "Where does the road end for you?",
+   [
+    "questions",
+    "VQ_NOW_DEST",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "217": [
+   "RD_ALifeLine_4f2667307a45051c",
+   "Anyone expecting you there?",
+   [
+    "questions",
+    "VQ_NOW_DEST",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "218": [
+   "RD_ALifeLine_52bfc86235480d0c",
+   "Do you drink?",
+   [
+    "questions",
+    "VQ_NOW_DRINK",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "219": [
+   "RD_ALifeLine_7c5691ed6b08858e",
+   "Need a drink?",
+   [
+    "questions",
+    "VQ_NOW_DRINK",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "220": [
+   "RD_ALifeLine_253bd9a5783de076",
+   "Is it the drink?",
+   [
+    "questions",
+    "VQ_NOW_DRINK",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "221": [
+   "RD_ALifeLine_7c18ca1b11c418fb",
+   "What happens next?",
+   [
+    "questions",
+    "VQ_NOW_FUTURE",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "222": [
+   "RD_ALifeLine_5bd5f6222d9845b5",
+   "What are you going to do?",
+   [
+    "questions",
+    "VQ_NOW_FUTURE",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "223": [
+   "RD_ALifeLine_6b6eb15d58668718",
+   "Can you see all right?",
+   [
+    "questions",
+    "VQ_NOW_GLASSES",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "224": [
+   "RD_ALifeLine_079c487f542d04ed",
+   "Do you wear glasses?",
+   [
+    "questions",
+    "VQ_NOW_GLASSES",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "225": [
+   "RD_ALifeLine_225b8a3416002abd",
+   "How's your eyesight?",
+   [
+    "questions",
+    "VQ_NOW_GLASSES",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "226": [
+   "RD_ALifeLine_4887bff46e5980b6",
+   "Can you help with anything?",
+   [
+    "questions",
+    "VQ_NOW_HELP",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "227": [
+   "RD_ALifeLine_003ecb1f744cf194",
+   "Are you any good with tools?",
+   [
+    "questions",
+    "VQ_NOW_HELP",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "228": [
+   "RD_ALifeLine_3e9cc0576afdcc6c",
+   "What can you do?",
+   [
+    "questions",
+    "VQ_NOW_HELP",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "229": [
+   "RD_ALifeLine_6a016aec63cf6a7f",
+   "Are you hungry?",
+   [
+    "questions",
+    "VQ_NOW_HUNGRY",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "230": [
+   "RD_ALifeLine_02f7c7f576863c11",
+   "When did you last eat?",
+   [
+    "questions",
+    "VQ_NOW_HUNGRY",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "231": [
+   "RD_ALifeLine_18f4420778dcc407",
+   "Have you eaten?",
+   [
+    "questions",
+    "VQ_NOW_HUNGRY",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "232": [
+   "RD_ALifeLine_710d791128a538ed",
+   "Are you hurt?",
+   [
+    "questions",
+    "VQ_NOW_HURT",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "233": [
+   "RD_ALifeLine_0c3c98cf09a33c28",
+   "Anything hurt?",
+   [
+    "questions",
+    "VQ_NOW_HURT",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "234": [
+   "RD_ALifeLine_0f5211d974b886dc",
+   "You all right?",
+   [
+    "questions",
+    "VQ_NOW_HURT",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "235": [
+   "RD_ALifeLine_6e97354a5603ec72",
+   "Are you thinking of leaving?",
+   [
+    "questions",
+    "VQ_NOW_LEAVE",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "236": [
+   "RD_ALifeLine_3f4eaca365c0901c",
+   "Want to get going?",
+   [
+    "questions",
+    "VQ_NOW_LEAVE",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "237": [
+   "RD_ALifeLine_53c44a263191c88c",
+   "When do you want to head out?",
+   [
+    "questions",
+    "VQ_NOW_LEAVE",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "238": [
+   "RD_ALifeLine_0ce6c0f837fa384c",
+   "Hear something?",
+   [
+    "questions",
+    "VQ_NOW_LISTENING",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "239": [
+   "RD_ALifeLine_709bda525cab56fa",
+   "What are you listening for?",
+   [
+    "questions",
+    "VQ_NOW_LISTENING",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "240": [
+   "RD_ALifeLine_26bf94933e3d7587",
+   "What kind of mood are you in?",
+   [
+    "questions",
+    "VQ_NOW_MOOD",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "241": [
+   "RD_ALifeLine_2397fc0b52583b61",
+   "How are you really?",
+   [
+    "questions",
+    "VQ_NOW_MOOD",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "242": [
+   "RD_ALifeLine_611a933344263967",
+   "Heard anything today?",
+   [
+    "questions",
+    "VQ_NOW_NEWS",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "243": [
+   "RD_ALifeLine_1dc4bfa1071f11e1",
+   "Any news from the road?",
+   [
+    "questions",
+    "VQ_NOW_NEWS",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "244": [
+   "RD_ALifeLine_243f3e8671798534",
+   "What did you hear on the road?",
+   [
+    "questions",
+    "VQ_NOW_NEWS",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "245": [
+   "RD_ALifeLine_011562632c89e68f",
+   "How's your traveling companion?",
+   [
+    "questions",
+    "VQ_NOW_PARTNER",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "246": [
+   "RD_ALifeLine_70a9f1f50ecad6de",
+   "Is the person with you all right?",
+   [
+    "questions",
+    "VQ_NOW_PARTNER",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "247": [
+   "RD_ALifeLine_62024920629421fb",
+   "Anything worrying you about your companion?",
+   [
+    "questions",
+    "VQ_NOW_PARTNER",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "248": [
+   "RD_ALifeLine_08663dad0b8e6354",
+   "Where to from here?",
+   [
+    "questions",
+    "VQ_NOW_PLAN",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "249": [
+   "RD_ALifeLine_2079f31d22876251",
+   "How was the road?",
+   [
+    "questions",
+    "VQ_NOW_ROAD",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "250": [
+   "RD_ALifeLine_49b830ca0eecc197",
+   "What was the road like?",
+   [
+    "questions",
+    "VQ_NOW_ROAD",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "251": [
+   "RD_ALifeLine_23a9e736203aaaa1",
+   "Which way did you come?",
+   [
+    "questions",
+    "VQ_NOW_ROAD",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "252": [
+   "RD_ALifeLine_3c4f9cf409e26290",
+   "Is something frightening you?",
+   [
+    "questions",
+    "VQ_NOW_SCARED",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "253": [
+   "RD_ALifeLine_6bcf372851573324",
+   "You want to talk about it?",
+   [
+    "questions",
+    "VQ_NOW_SCARED",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "254": [
+   "RD_ALifeLine_56a3e52c0dc734ec",
+   "How are your feet?",
+   [
+    "questions",
+    "VQ_NOW_SHOES",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "255": [
+   "RD_ALifeLine_7fc781467eba7c24",
+   "Any trouble with your feet?",
+   [
+    "questions",
+    "VQ_NOW_SHOES",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "256": [
+   "RD_ALifeLine_5e7c555e1bd47c84",
+   "Need different shoes?",
+   [
+    "questions",
+    "VQ_NOW_SHOES",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "257": [
+   "RD_ALifeLine_677d2b841f30349b",
+   "Are you feeling ill?",
+   [
+    "questions",
+    "VQ_NOW_SICK",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "258": [
+   "RD_ALifeLine_6a39b221280ef4e0",
+   "You sick?",
+   [
+    "questions",
+    "VQ_NOW_SICK",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "259": [
+   "RD_ALifeLine_1916a0b03ec5d1ba",
+   "How long have you been like this?",
+   [
+    "questions",
+    "VQ_NOW_SICK",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "260": [
+   "RD_ALifeLine_7565ec091b1102a0",
+   "Do you smoke?",
+   [
+    "questions",
+    "VQ_NOW_SMOKE",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "261": [
+   "RD_ALifeLine_5fc136d339403829",
+   "Want a cigarette?",
+   [
+    "questions",
+    "VQ_NOW_SMOKE",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "262": [
+   "RD_ALifeLine_1efcb59550d17b22",
+   "Need a smoke?",
+   [
+    "questions",
+    "VQ_NOW_SMOKE",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "263": [
+   "RD_ALifeLine_418712c53659d861",
+   "How long do you want to stay?",
+   [
+    "questions",
+    "VQ_NOW_STAY",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "264": [
+   "RD_ALifeLine_4804e6087578e88d",
+   "Are you planning to stay a while?",
+   [
+    "questions",
+    "VQ_NOW_STAY",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "265": [
+   "RD_ALifeLine_3eb05d266d3265c6",
+   "Do you need a few nights?",
+   [
+    "questions",
+    "VQ_NOW_STAY",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "266": [
+   "RD_ALifeLine_49ad6f675aa0c155",
+   "Are you thirsty?",
+   [
+    "questions",
+    "VQ_NOW_THIRSTY",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "267": [
+   "RD_ALifeLine_2ec2d4cd6f6dba27",
+   "When did you last have a drink?",
+   [
+    "questions",
+    "VQ_NOW_THIRSTY",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "268": [
+   "RD_ALifeLine_21f3cf3f4033560a",
+   "Could you use something to drink?",
+   [
+    "questions",
+    "VQ_NOW_THIRSTY",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "269": [
+   "RD_ALifeLine_52a0c2f424f21d3f",
+   "Could you use a rest?",
+   [
+    "questions",
+    "VQ_NOW_TIRED",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "270": [
+   "RD_ALifeLine_761171372529553a",
+   "When did you last get some sleep?",
+   [
+    "questions",
+    "VQ_NOW_TIRED",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "271": [
+   "RD_ALifeLine_21c28ef93ac1033d",
+   "How are you managing without much rest?",
+   [
+    "questions",
+    "VQ_NOW_TIRED",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "272": [
+   "RD_ALifeLine_2c0076d414037bc8",
+   "Do you trust me?",
+   [
+    "questions",
+    "VQ_NOW_TRUST",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "273": [
+   "RD_ALifeLine_4aa2f68f4d568a4c",
+   "How are you feeling about me?",
+   [
+    "questions",
+    "VQ_NOW_TRUST",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "274": [
+   "RD_ALifeLine_615079f529e0d3da",
+   "Are you comfortable here?",
+   [
+    "questions",
+    "VQ_NOW_TRUST",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "275": [
+   "RD_ALifeLine_6997692806250c47",
+   "What do you need most?",
+   [
+    "questions",
+    "VQ_NOW_WANT",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "276": [
+   "RD_ALifeLine_1e5c797d2ab7af23",
+   "Is there something I can get you?",
+   [
+    "questions",
+    "VQ_NOW_WANT",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "277": [
+   "RD_ALifeLine_1e417de9385bf81d",
+   "What would help right now?",
+   [
+    "questions",
+    "VQ_NOW_WANT",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "278": [
+   "RD_ALifeLine_6451661c6823f021",
+   "Would a chance to wash help?",
+   [
+    "questions",
+    "VQ_NOW_WASH",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "279": [
+   "RD_ALifeLine_2111a9800c0694f0",
+   "Do you want to clean up, if we can manage it?",
+   [
+    "questions",
+    "VQ_NOW_WASH",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "280": [
+   "RD_ALifeLine_539a244f7dbb00de",
+   "Could you use somewhere to wash?",
+   [
+    "questions",
+    "VQ_NOW_WASH",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "281": [
+   "RD_ALifeLine_098ea998431bb741",
+   "What are you looking at?",
+   [
+    "questions",
+    "VQ_NOW_WATCHING",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "282": [
+   "RD_ALifeLine_664eb1be1c919405",
+   "See anything out there?",
+   [
+    "questions",
+    "VQ_NOW_WATCHING",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "283": [
+   "RD_ALifeLine_50d1f80b73f3473c",
+   "What's out the window?",
+   [
+    "questions",
+    "VQ_NOW_WATCHING",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "284": [
+   "RD_ALifeLine_329727291d707205",
+   "What are you worried about?",
+   [
+    "questions",
+    "VQ_NOW_WORRY",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "285": [
+   "RD_ALifeLine_321e91e92c1ac78a",
+   "What's on your mind?",
+   [
+    "questions",
+    "VQ_NOW_WORRY",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "286": [
+   "RD_ALifeLine_472ed7502d0725ab",
+   "What's weighing on you?",
+   [
+    "questions",
+    "VQ_NOW_WORRY",
+    "soru düğmesi, sekme=now"
+   ]
+  ],
+  "287": [
+   "RD_ALifeLine_1b8f753f22e34007",
+   "Choose some alcohol to give them",
+   [
+    "questions",
+    "VQ_OFFER_ALCOHOL",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "288": [
+   "RD_ALifeLine_47a2045e12345c35",
+   "Offer alcohol from my supplies",
+   [
+    "questions",
+    "VQ_OFFER_ALCOHOL",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "289": [
+   "RD_ALifeLine_4b0c816a61b2854b",
+   "See if I have a drink I can spare",
+   [
+    "questions",
+    "VQ_OFFER_ALCOHOL",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "290": [
+   "RD_ALifeLine_3b604f2f621632d2",
+   "See what first aid supplies I can spare",
+   [
+    "questions",
+    "VQ_OFFER_BANDAGE",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "291": [
+   "RD_ALifeLine_7e3edcfe0ce5eefc",
+   "Choose medicine to give them",
+   [
+    "questions",
+    "VQ_OFFER_BANDAGE",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "292": [
+   "RD_ALifeLine_70edd537487e94cd",
+   "Offer first aid supplies from my things",
+   [
+    "questions",
+    "VQ_OFFER_BANDAGE",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "293": [
+   "RD_ALifeLine_285a07a20c6455cb",
+   "Look for a useful item to give them",
+   [
+    "questions",
+    "VQ_OFFER_BATTERIES",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "294": [
+   "RD_ALifeLine_63c7b8271a22ada4",
+   "See if I have batteries or a light to spare",
+   [
+    "questions",
+    "VQ_OFFER_BATTERIES",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "295": [
+   "RD_ALifeLine_301a111106913d45",
+   "Choose something useful they can keep",
+   [
+    "questions",
+    "VQ_OFFER_BATTERIES",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "296": [
+   "RD_ALifeLine_1abe4c3418bcf0c6",
+   "Discuss finding somewhere they could rest",
+   [
+    "questions",
+    "VQ_OFFER_BED",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "297": [
+   "RD_ALifeLine_602f1b7a611ba624",
+   "Ask if a place to rest would help",
+   [
+    "questions",
+    "VQ_OFFER_BED",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "298": [
+   "RD_ALifeLine_0f21e9da640663fb",
+   "Offer to look for a free sleeping spot",
+   [
+    "questions",
+    "VQ_OFFER_BED",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "299": [
+   "RD_ALifeLine_1ccadcb3369fc516",
+   "Offer a blanket",
+   [
+    "questions",
+    "VQ_OFFER_BLANKET",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "300": [
+   "RD_ALifeLine_752a79b21ba7c762",
+   "Give them something warm",
+   [
+    "questions",
+    "VQ_OFFER_BLANKET",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "301": [
+   "RD_ALifeLine_1919f510447e2e40",
+   "Share a blanket",
+   [
+    "questions",
+    "VQ_OFFER_BLANKET",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "302": [
+   "RD_ALifeLine_2995e8ad71288483",
+   "Offer a book to keep",
+   [
+    "questions",
+    "VQ_OFFER_BOOK",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "303": [
+   "RD_ALifeLine_5398169735a318e1",
+   "Give them something to read",
+   [
+    "questions",
+    "VQ_OFFER_BOOK",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "304": [
+   "RD_ALifeLine_0ba205ad45e43423",
+   "Choose a book to give them",
+   [
+    "questions",
+    "VQ_OFFER_BOOK",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "305": [
+   "RD_ALifeLine_159ff24345313166",
+   "Look for a light source to give them",
+   [
+    "questions",
+    "VQ_OFFER_CANDLE",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "306": [
+   "RD_ALifeLine_2b6d475137e29266",
+   "Choose a useful item they can keep",
+   [
+    "questions",
+    "VQ_OFFER_CANDLE",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "307": [
+   "RD_ALifeLine_555cbd7e54d9f77c",
+   "See what I can spare for the night",
+   [
+    "questions",
+    "VQ_OFFER_CANDLE",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "308": [
+   "RD_ALifeLine_0ebeb8817fa622c7",
+   "Ask if they'd enjoy a game sometime",
+   [
+    "questions",
+    "VQ_OFFER_CARDS",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "309": [
+   "RD_ALifeLine_52d5440928438b25",
+   "Suggest a game, if a deck turns up",
+   [
+    "questions",
+    "VQ_OFFER_CARDS",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "310": [
+   "RD_ALifeLine_1a30137234ed3012",
+   "Talk about playing cards",
+   [
+    "questions",
+    "VQ_OFFER_CARDS",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "311": [
+   "RD_ALifeLine_6d4fd79d18f8cb2f",
+   "Offer something to wear",
+   [
+    "questions",
+    "VQ_OFFER_CLOTHES",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "312": [
+   "RD_ALifeLine_77b032481e23bfab",
+   "Offer a change of clothes",
+   [
+    "questions",
+    "VQ_OFFER_CLOTHES",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "313": [
+   "RD_ALifeLine_4f5007ea5e155ab5",
+   "See if any of my clothes fit",
+   [
+    "questions",
+    "VQ_OFFER_CLOTHES",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "314": [
+   "RD_ALifeLine_600d66ff5d51a33a",
+   "Choose a warm layer to give them",
+   [
+    "questions",
+    "VQ_OFFER_COAT",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "315": [
+   "RD_ALifeLine_74a0722772f245fb",
+   "Offer clothing they can keep",
+   [
+    "questions",
+    "VQ_OFFER_COAT",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "316": [
+   "RD_ALifeLine_18616f1138c01032",
+   "See if I can spare something warmer",
+   [
+    "questions",
+    "VQ_OFFER_COAT",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "317": [
+   "RD_ALifeLine_432085d80fa40178",
+   "Look for something to give them to drink",
+   [
+    "questions",
+    "VQ_OFFER_DRINK",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "318": [
+   "RD_ALifeLine_7bcb0aae35f283b1",
+   "Offer a drink from my supplies",
+   [
+    "questions",
+    "VQ_OFFER_DRINK",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "319": [
+   "RD_ALifeLine_6b12b49851a30885",
+   "See what I can spare to drink",
+   [
+    "questions",
+    "VQ_OFFER_DRINK",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "320": [
+   "RD_ALifeLine_6447efcf12bcb081",
+   "Offer something to eat",
+   [
+    "questions",
+    "VQ_OFFER_FOOD",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "321": [
+   "RD_ALifeLine_4aa0839f7d17fdfc",
+   "Give them food",
+   [
+    "questions",
+    "VQ_OFFER_FOOD",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "322": [
+   "RD_ALifeLine_6bfac31c20011e39",
+   "Share some food",
+   [
+    "questions",
+    "VQ_OFFER_FOOD",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "323": [
+   "RD_ALifeLine_0759e2080ffa39e8",
+   "Look for glasses I can give them",
+   [
+    "questions",
+    "VQ_OFFER_GLASSES",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "324": [
+   "RD_ALifeLine_282b3c623eadbf93",
+   "See if I have a useful item to spare",
+   [
+    "questions",
+    "VQ_OFFER_GLASSES",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "325": [
+   "RD_ALifeLine_524ad650472647fb",
+   "Choose an item they can keep",
+   [
+    "questions",
+    "VQ_OFFER_GLASSES",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "326": [
+   "RD_ALifeLine_027af6d8427ba988",
+   "Look for a map I can give them",
+   [
+    "questions",
+    "VQ_OFFER_MAP",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "327": [
+   "RD_ALifeLine_4b85c26a12acb2ae",
+   "Choose a useful item from my supplies",
+   [
+    "questions",
+    "VQ_OFFER_MAP",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "328": [
+   "RD_ALifeLine_4197cb2b07bb5e44",
+   "See what I can spare to help with the road",
+   [
+    "questions",
+    "VQ_OFFER_MAP",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "329": [
+   "RD_ALifeLine_349e8fed3ce08db5",
+   "See what medicine I can offer",
+   [
+    "questions",
+    "VQ_OFFER_MEDS",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "330": [
+   "RD_ALifeLine_41f0d38701eaf5fb",
+   "Choose some medicine to give them",
+   [
+    "questions",
+    "VQ_OFFER_MEDS",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "331": [
+   "RD_ALifeLine_3b72b86e6feb70bb",
+   "Offer medicine from my supplies",
+   [
+    "questions",
+    "VQ_OFFER_MEDS",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "332": [
+   "RD_ALifeLine_3eb029226f41ca84",
+   "Look for footwear I can give them",
+   [
+    "questions",
+    "VQ_OFFER_SHOES",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "333": [
+   "RD_ALifeLine_13aa20aa17e983c1",
+   "Choose something to wear from my supplies",
+   [
+    "questions",
+    "VQ_OFFER_SHOES",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "334": [
+   "RD_ALifeLine_33f1c2860d90d919",
+   "See what clothing I can spare",
+   [
+    "questions",
+    "VQ_OFFER_SHOES",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "335": [
+   "RD_ALifeLine_5ab4e2550d219aa6",
+   "Offer a cigarette",
+   [
+    "questions",
+    "VQ_OFFER_SMOKES",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "336": [
+   "RD_ALifeLine_0f8614f065baf209",
+   "Share a pack",
+   [
+    "questions",
+    "VQ_OFFER_SMOKES",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "337": [
+   "RD_ALifeLine_55f1a36a55153f0d",
+   "Give them a smoke",
+   [
+    "questions",
+    "VQ_OFFER_SMOKES",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "338": [
+   "RD_ALifeLine_1671482535fc59a2",
+   "Discuss a chance to wash, if it can be arranged",
+   [
+    "questions",
+    "VQ_OFFER_SOAP",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "339": [
+   "RD_ALifeLine_1e618a5d07e1e192",
+   "Ask if washing up would help",
+   [
+    "questions",
+    "VQ_OFFER_SOAP",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "340": [
+   "RD_ALifeLine_4a3518774bc1ef21",
+   "Offer to look for somewhere to wash",
+   [
+    "questions",
+    "VQ_OFFER_SOAP",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "341": [
+   "RD_ALifeLine_50b520730959800d",
+   "Offer them a tool to keep",
+   [
+    "questions",
+    "VQ_OFFER_TOOL",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "342": [
+   "RD_ALifeLine_1b346a0865cc9833",
+   "Choose a tool to give them",
+   [
+    "questions",
+    "VQ_OFFER_TOOL",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "343": [
+   "RD_ALifeLine_2492494c336220f6",
+   "See what useful item I can spare",
+   [
+    "questions",
+    "VQ_OFFER_TOOL",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "344": [
+   "RD_ALifeLine_65043f394b6c8dd4",
+   "Ask what small job they might be willing to do",
+   [
+    "questions",
+    "VQ_OFFER_WORK",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "345": [
+   "RD_ALifeLine_5e0218a31bdc9d3e",
+   "Talk about helping out, without a bargain",
+   [
+    "questions",
+    "VQ_OFFER_WORK",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "346": [
+   "RD_ALifeLine_6d073fd0295dc2e0",
+   "See if they'd like something useful to do",
+   [
+    "questions",
+    "VQ_OFFER_WORK",
+    "soru düğmesi, sekme=offer"
+   ]
+  ],
+  "347": [
+   "RD_ALifeLine_3ee42ba5429251ed",
+   "What was your boss like?",
+   [
+    "questions",
+    "VQ_PAST_BOSS",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "348": [
+   "RD_ALifeLine_19d3b8890d377f0a",
+   "Who did you work for?",
+   [
+    "questions",
+    "VQ_PAST_BOSS",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "349": [
+   "RD_ALifeLine_44ce12fc0b436f85",
+   "Was it a good place to work?",
+   [
+    "questions",
+    "VQ_PAST_BOSS",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "350": [
+   "RD_ALifeLine_52f7082c18c0478e",
+   "What was it like growing up?",
+   [
+    "questions",
+    "VQ_PAST_CHILDHOOD",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "351": [
+   "RD_ALifeLine_1765c6a276408c52",
+   "What were you like as a kid?",
+   [
+    "questions",
+    "VQ_PAST_CHILDHOOD",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "352": [
+   "RD_ALifeLine_05c7871e239fdac1",
+   "Did you go to church?",
+   [
+    "questions",
+    "VQ_PAST_CHURCH",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "353": [
+   "RD_ALifeLine_054b72df4f5154f1",
+   "Which church?",
+   [
+    "questions",
+    "VQ_PAST_CHURCH",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "354": [
+   "RD_ALifeLine_7955aeff50f3adf2",
+   "You a churchgoing person?",
+   [
+    "questions",
+    "VQ_PAST_CHURCH",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "355": [
+   "RD_ALifeLine_38b8275a51ceca64",
+   "Did you have a daughter?",
+   [
+    "questions",
+    "VQ_PAST_DAUGHTER",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "356": [
+   "RD_ALifeLine_0e499f150d7a86e8",
+   "Would you tell me about a daughter, if you had one?",
+   [
+    "questions",
+    "VQ_PAST_DAUGHTER",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "357": [
+   "RD_ALifeLine_3a4c84f847caab35",
+   "Any daughters in your family?",
+   [
+    "questions",
+    "VQ_PAST_DAUGHTER",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "358": [
+   "RD_ALifeLine_0b841a6f00b24bf0",
+   "Where were you on the first day?",
+   [
+    "questions",
+    "VQ_PAST_DAYONE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "359": [
+   "RD_ALifeLine_3eee890153e9ab6b",
+   "What do you remember about day one?",
+   [
+    "questions",
+    "VQ_PAST_DAYONE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "360": [
+   "RD_ALifeLine_7f5222bf5d06ee0a",
+   "How did it start for you?",
+   [
+    "questions",
+    "VQ_PAST_DAYONE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "361": [
+   "RD_ALifeLine_25a0d5c57b6e2605",
+   "Anybody you couldn't stand?",
+   [
+    "questions",
+    "VQ_PAST_ENEMY",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "362": [
+   "RD_ALifeLine_7463a4a378ad2137",
+   "Ever have an enemy?",
+   [
+    "questions",
+    "VQ_PAST_ENEMY",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "363": [
+   "RD_ALifeLine_3d5cd7f96191bc47",
+   "Who did you fall out with?",
+   [
+    "questions",
+    "VQ_PAST_ENEMY",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "364": [
+   "RD_ALifeLine_1bb3214b2b17fad4",
+   "Is there anyone you're hoping to find?",
+   [
+    "questions",
+    "VQ_PAST_FAMILY",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "365": [
+   "RD_ALifeLine_054f73446fc2dec8",
+   "Want to tell me about your family?",
+   [
+    "questions",
+    "VQ_PAST_FAMILY",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "366": [
+   "RD_ALifeLine_6bd1109d40598a94",
+   "Anyone you want to get word to?",
+   [
+    "questions",
+    "VQ_PAST_FAMILY",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "367": [
+   "RD_ALifeLine_6675e310615fd522",
+   "What was your first job?",
+   [
+    "questions",
+    "VQ_PAST_FIRSTJOB",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "368": [
+   "RD_ALifeLine_2b9702b20a4a8cd6",
+   "How'd you start out?",
+   [
+    "questions",
+    "VQ_PAST_FIRSTJOB",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "369": [
+   "RD_ALifeLine_22e516e13d4f7227",
+   "First thing you ever got paid for?",
+   [
+    "questions",
+    "VQ_PAST_FIRSTJOB",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "370": [
+   "RD_ALifeLine_412fc94451b35b2f",
+   "When did you know something was wrong?",
+   [
+    "questions",
+    "VQ_PAST_FIRSTSIGN",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "371": [
+   "RD_ALifeLine_4d48c45e0d75b65d",
+   "What was the first sign?",
+   [
+    "questions",
+    "VQ_PAST_FIRSTSIGN",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "372": [
+   "RD_ALifeLine_7a85c63f74f06acb",
+   "How did you first find out?",
+   [
+    "questions",
+    "VQ_PAST_FIRSTSIGN",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "373": [
+   "RD_ALifeLine_7435d4811f2760e4",
+   "What's the hardest thing you've done?",
+   [
+    "questions",
+    "VQ_PAST_HARDEST",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "374": [
+   "RD_ALifeLine_57c3c1f569900ff1",
+   "What was the hardest part?",
+   [
+    "questions",
+    "VQ_PAST_HARDEST",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "375": [
+   "RD_ALifeLine_6f5bccdf72e0270d",
+   "Worst thing you've been through?",
+   [
+    "questions",
+    "VQ_PAST_HARDEST",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "376": [
+   "RD_ALifeLine_77df442d46448129",
+   "Is there something you're not telling me?",
+   [
+    "questions",
+    "VQ_PAST_HIDING",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "377": [
+   "RD_ALifeLine_5c7f48520cf55c43",
+   "You holding something back?",
+   [
+    "questions",
+    "VQ_PAST_HIDING",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "378": [
+   "RD_ALifeLine_03e575d57b1d2702",
+   "Is there more to it?",
+   [
+    "questions",
+    "VQ_PAST_HIDING",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "379": [
+   "RD_ALifeLine_0f984afc521cfce2",
+   "How did you pass the time?",
+   [
+    "questions",
+    "VQ_PAST_HOBBY",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "380": [
+   "RD_ALifeLine_631ee53233b70182",
+   "What did you do on a Saturday?",
+   [
+    "questions",
+    "VQ_PAST_HOBBY",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "381": [
+   "RD_ALifeLine_564ade7132595d15",
+   "What did you do after work?",
+   [
+    "questions",
+    "VQ_PAST_HOBBY",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "382": [
+   "RD_ALifeLine_332fb25677b50266",
+   "What was your house like?",
+   [
+    "questions",
+    "VQ_PAST_HOUSE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "383": [
+   "RD_ALifeLine_477db98779404a5d",
+   "What did your place look like?",
+   [
+    "questions",
+    "VQ_PAST_HOUSE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "384": [
+   "RD_ALifeLine_4db6572f2791dc72",
+   "Did you have a porch?",
+   [
+    "questions",
+    "VQ_PAST_HOUSE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "385": [
+   "RD_ALifeLine_17986255704b22d3",
+   "What's that you're holding on to?",
+   [
+    "questions",
+    "VQ_PAST_KEEPSAKE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "386": [
+   "RD_ALifeLine_6354c027563180d6",
+   "Where did you get that?",
+   [
+    "questions",
+    "VQ_PAST_KEEPSAKE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "387": [
+   "RD_ALifeLine_01ae6ded28e85af1",
+   "Why do you carry that?",
+   [
+    "questions",
+    "VQ_PAST_KEEPSAKE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "388": [
+   "RD_ALifeLine_1d58e73d167b04b2",
+   "When was the last normal day?",
+   [
+    "questions",
+    "VQ_PAST_LASTNORMAL",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "389": [
+   "RD_ALifeLine_1b5200683406c2d8",
+   "What was the last good day?",
+   [
+    "questions",
+    "VQ_PAST_LASTNORMAL",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "390": [
+   "RD_ALifeLine_386e8db574f9aceb",
+   "Remember the last ordinary day?",
+   [
+    "questions",
+    "VQ_PAST_LASTNORMAL",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "391": [
+   "RD_ALifeLine_6e8b6e5f0acd705b",
+   "Did you lose your job?",
+   [
+    "questions",
+    "VQ_PAST_LAYOFF",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "392": [
+   "RD_ALifeLine_2787e94b02fd7430",
+   "Were you laid off?",
+   [
+    "questions",
+    "VQ_PAST_LAYOFF",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "393": [
+   "RD_ALifeLine_7d84c9346198d39b",
+   "When did the work dry up?",
+   [
+    "questions",
+    "VQ_PAST_LAYOFF",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "394": [
+   "RD_ALifeLine_7330583d09583344",
+   "Did you leave anyone behind?",
+   [
+    "questions",
+    "VQ_PAST_LEFTBEHIND",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "395": [
+   "RD_ALifeLine_4ffcfd8038755af9",
+   "Anybody you had to leave?",
+   [
+    "questions",
+    "VQ_PAST_LEFTBEHIND",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "396": [
+   "RD_ALifeLine_0d5ddc5646dedf9e",
+   "Who didn't come with you?",
+   [
+    "questions",
+    "VQ_PAST_LEFTBEHIND",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "397": [
+   "RD_ALifeLine_2856091d09b94e82",
+   "Who have you lost?",
+   [
+    "questions",
+    "VQ_PAST_LOST",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "398": [
+   "RD_ALifeLine_3228a6197dd82d6d",
+   "Did you lose somebody?",
+   [
+    "questions",
+    "VQ_PAST_LOST",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "399": [
+   "RD_ALifeLine_1c30aa70374aac54",
+   "Anybody you couldn't get to?",
+   [
+    "questions",
+    "VQ_PAST_LOST",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "400": [
+   "RD_ALifeLine_43608be12c187d14",
+   "Anyone special?",
+   [
+    "questions",
+    "VQ_PAST_LOVE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "401": [
+   "RD_ALifeLine_2bd420351c837f5c",
+   "Were you ever married?",
+   [
+    "questions",
+    "VQ_PAST_LOVE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "402": [
+   "RD_ALifeLine_0ef0587254c73e14",
+   "Anybody in your life?",
+   [
+    "questions",
+    "VQ_PAST_LOVE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "403": [
+   "RD_ALifeLine_51a4305062c9cfac",
+   "Who taught you what you know?",
+   [
+    "questions",
+    "VQ_PAST_MENTOR",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "404": [
+   "RD_ALifeLine_237649cc617251a4",
+   "Who looked after you?",
+   [
+    "questions",
+    "VQ_PAST_MENTOR",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "405": [
+   "RD_ALifeLine_6ef243b030d044ab",
+   "Anyone you looked up to?",
+   [
+    "questions",
+    "VQ_PAST_MENTOR",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "406": [
+   "RD_ALifeLine_4460205645deab7f",
+   "How were you set for money?",
+   [
+    "questions",
+    "VQ_PAST_MONEY",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "407": [
+   "RD_ALifeLine_105447db2c15e9a7",
+   "Was money tight?",
+   [
+    "questions",
+    "VQ_PAST_MONEY",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "408": [
+   "RD_ALifeLine_54b5d76f4c5d5854",
+   "Were you getting by?",
+   [
+    "questions",
+    "VQ_PAST_MONEY",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "409": [
+   "RD_ALifeLine_6b2d58ac50d8b344",
+   "What were the nights like, before?",
+   [
+    "questions",
+    "VQ_PAST_NIGHTS",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "410": [
+   "RD_ALifeLine_4b0ce19375caad7b",
+   "Tell me about the nights",
+   [
+    "questions",
+    "VQ_PAST_NIGHTS",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "411": [
+   "RD_ALifeLine_4cc4d5e45886302f",
+   "What was the worst of the nights?",
+   [
+    "questions",
+    "VQ_PAST_NIGHTS",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "412": [
+   "RD_ALifeLine_0cc8ee9e0afd7e64",
+   "Want to tell me about your folks?",
+   [
+    "questions",
+    "VQ_PAST_PARENTS",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "413": [
+   "RD_ALifeLine_673e576515311cdf",
+   "Do you know what happened to your parents?",
+   [
+    "questions",
+    "VQ_PAST_PARENTS",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "414": [
+   "RD_ALifeLine_59b867f121a8fd05",
+   "What were your parents like?",
+   [
+    "questions",
+    "VQ_PAST_PARENTS",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "415": [
+   "RD_ALifeLine_376811561787c32c",
+   "Did you have a dog?",
+   [
+    "questions",
+    "VQ_PAST_PETS",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "416": [
+   "RD_ALifeLine_5136016552133b15",
+   "Any animals at home?",
+   [
+    "questions",
+    "VQ_PAST_PETS",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "417": [
+   "RD_ALifeLine_7023b9490ddcd310",
+   "Ever have a pet?",
+   [
+    "questions",
+    "VQ_PAST_PETS",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "418": [
+   "RD_ALifeLine_7925f44a29691c8f",
+   "Is that your family in the photograph?",
+   [
+    "questions",
+    "VQ_PAST_PHOTO",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "419": [
+   "RD_ALifeLine_1592a6ea28a6b6f9",
+   "Who is that in the photo?",
+   [
+    "questions",
+    "VQ_PAST_PHOTO",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "420": [
+   "RD_ALifeLine_01975a5a234c038e",
+   "What's your favorite place?",
+   [
+    "questions",
+    "VQ_PAST_PLACE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "421": [
+   "RD_ALifeLine_2e27cd2d29cbb6a3",
+   "Where did you feel at home?",
+   [
+    "questions",
+    "VQ_PAST_PLACE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "422": [
+   "RD_ALifeLine_35a9c4c016266ba6",
+   "Where would you go to get away?",
+   [
+    "questions",
+    "VQ_PAST_PLACE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "423": [
+   "RD_ALifeLine_00fbf2212653de57",
+   "What are you proud of?",
+   [
+    "questions",
+    "VQ_PAST_PROUD",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "424": [
+   "RD_ALifeLine_60062af84d052d3c",
+   "Best thing you ever did?",
+   [
+    "questions",
+    "VQ_PAST_PROUD",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "425": [
+   "RD_ALifeLine_70da4fd43b64a792",
+   "What did you get right?",
+   [
+    "questions",
+    "VQ_PAST_PROUD",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "426": [
+   "RD_ALifeLine_2f52c9a73fead2c1",
+   "Anything you'd do over?",
+   [
+    "questions",
+    "VQ_PAST_REGRET",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "427": [
+   "RD_ALifeLine_094ea0910f73c1c3",
+   "Any regrets?",
+   [
+    "questions",
+    "VQ_PAST_REGRET",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "428": [
+   "RD_ALifeLine_52be5e260fe3b496",
+   "What would you take back?",
+   [
+    "questions",
+    "VQ_PAST_REGRET",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "429": [
+   "RD_ALifeLine_1319e969788fada5",
+   "Ever wear a ring?",
+   [
+    "questions",
+    "VQ_PAST_RING",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "430": [
+   "RD_ALifeLine_24a6a60a0bdb95c3",
+   "Is there a story behind a ring?",
+   [
+    "questions",
+    "VQ_PAST_RING",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "431": [
+   "RD_ALifeLine_3afc71f14868e2a7",
+   "Did you ever have a ring?",
+   [
+    "questions",
+    "VQ_PAST_RING",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "432": [
+   "RD_ALifeLine_13c63c6c5809e76d",
+   "Where did you go to school?",
+   [
+    "questions",
+    "VQ_PAST_SCHOOL",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "433": [
+   "RD_ALifeLine_1943d52c339100cc",
+   "How far did you get in school?",
+   [
+    "questions",
+    "VQ_PAST_SCHOOL",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "434": [
+   "RD_ALifeLine_431aa132502201b0",
+   "School a long time ago?",
+   [
+    "questions",
+    "VQ_PAST_SCHOOL",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "435": [
+   "RD_ALifeLine_7b9348502f308406",
+   "Have you got brothers or sisters?",
+   [
+    "questions",
+    "VQ_PAST_SIBLING",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "436": [
+   "RD_ALifeLine_5fd8f2a2509be535",
+   "Any brothers or sisters?",
+   [
+    "questions",
+    "VQ_PAST_SIBLING",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "437": [
+   "RD_ALifeLine_76bce2d402af5213",
+   "What about your sister, your brother?",
+   [
+    "questions",
+    "VQ_PAST_SIBLING",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "438": [
+   "RD_ALifeLine_6afbe4d17fb6e497",
+   "Have you seen it up close?",
+   [
+    "questions",
+    "VQ_PAST_SICKSEEN",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "439": [
+   "RD_ALifeLine_1617262665433cd9",
+   "Did you see someone turn?",
+   [
+    "questions",
+    "VQ_PAST_SICKSEEN",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "440": [
+   "RD_ALifeLine_7651b9b06a91bfd8",
+   "Seen the sick ones?",
+   [
+    "questions",
+    "VQ_PAST_SICKSEEN",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "441": [
+   "RD_ALifeLine_37704bec198a52d6",
+   "Did you have a son?",
+   [
+    "questions",
+    "VQ_PAST_SON",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "442": [
+   "RD_ALifeLine_55360fe901dffce9",
+   "Would you tell me about a son, if you had one?",
+   [
+    "questions",
+    "VQ_PAST_SON",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "443": [
+   "RD_ALifeLine_5270d00a3db072d9",
+   "Any sons in your family?",
+   [
+    "questions",
+    "VQ_PAST_SON",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "444": [
+   "RD_ALifeLine_1a3a1606661bdf55",
+   "Did you ever share a home with someone?",
+   [
+    "questions",
+    "VQ_PAST_SPOUSE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "445": [
+   "RD_ALifeLine_5899dd36538a8c8f",
+   "Would you rather not talk about marriage?",
+   [
+    "questions",
+    "VQ_PAST_SPOUSE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "446": [
+   "RD_ALifeLine_39f492c245d067f6",
+   "Anyone you shared a home with?",
+   [
+    "questions",
+    "VQ_PAST_SPOUSE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "447": [
+   "RD_ALifeLine_213ca87f5f4e04c6",
+   "What was the town like?",
+   [
+    "questions",
+    "VQ_PAST_TOWN",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "448": [
+   "RD_ALifeLine_2ffb75064e2fe20e",
+   "What was it like where you lived?",
+   [
+    "questions",
+    "VQ_PAST_TOWN",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "449": [
+   "RD_ALifeLine_2cf30aec283f57bc",
+   "Everybody know everybody there?",
+   [
+    "questions",
+    "VQ_PAST_TOWN",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "450": [
+   "RD_ALifeLine_680226635bbe1025",
+   "Been far from here?",
+   [
+    "questions",
+    "VQ_PAST_TRAVEL",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "451": [
+   "RD_ALifeLine_66214e3f6b411e1a",
+   "Where's the farthest you've been?",
+   [
+    "questions",
+    "VQ_PAST_TRAVEL",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "452": [
+   "RD_ALifeLine_19fac73e580e0f3d",
+   "You ever travel?",
+   [
+    "questions",
+    "VQ_PAST_TRAVEL",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "453": [
+   "RD_ALifeLine_5d854a5d49255835",
+   "Ever been in trouble?",
+   [
+    "questions",
+    "VQ_PAST_TROUBLE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "454": [
+   "RD_ALifeLine_3bfb30b77b77fe5b",
+   "Ever get in trouble with the law?",
+   [
+    "questions",
+    "VQ_PAST_TROUBLE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "455": [
+   "RD_ALifeLine_3ea530d40d6caadd",
+   "You ever get in a jam?",
+   [
+    "questions",
+    "VQ_PAST_TROUBLE",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "456": [
+   "RD_ALifeLine_6e0f852878075c0c",
+   "Did you ever serve?",
+   [
+    "questions",
+    "VQ_PAST_WAR",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "457": [
+   "RD_ALifeLine_313001f73b75f97d",
+   "You serve?",
+   [
+    "questions",
+    "VQ_PAST_WAR",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "458": [
+   "RD_ALifeLine_0d32466b71718ce5",
+   "Were you in the service?",
+   [
+    "questions",
+    "VQ_PAST_WAR",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "459": [
+   "RD_ALifeLine_019448947c953820",
+   "What did you do for work?",
+   [
+    "questions",
+    "VQ_PAST_WORK",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "460": [
+   "RD_ALifeLine_338087883da8fd8b",
+   "What was your line of work?",
+   [
+    "questions",
+    "VQ_PAST_WORK",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "461": [
+   "RD_ALifeLine_24169bfb432e6449",
+   "What did you do before all this?",
+   [
+    "questions",
+    "VQ_PAST_WORK",
+    "soru düğmesi, sekme=past"
+   ]
+  ],
+  "462": [
+   "RD_ALifeLine_33092f0645afd8a6",
+   "Do you know anything about 'A promise'?",
+   [
+    "questions",
+    "VQ_PERSON_A_PROMISE",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "463": [
+   "RD_ALifeLine_1fc4a5277aa1264e",
+   "Did you ever see a city at night?",
+   [
+    "questions",
+    "VQ_PERSON_CITY_NIGHT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "464": [
+   "RD_ALifeLine_7a13adbf76615811",
+   "Who chose the name Rose?",
+   [
+    "questions",
+    "VQ_PERSON_ROSE_NAME",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "465": [
+   "RD_ALifeLine_66c41cb03814319f",
+   "You're all right",
+   [
+    "questions",
+    "VQ_REACT_COMPLIMENT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "466": [
+   "RD_ALifeLine_37de6a415d9ea70c",
+   "Good for you",
+   [
+    "questions",
+    "VQ_REACT_COMPLIMENT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "467": [
+   "RD_ALifeLine_7de650f96fb14b1a",
+   "Would a gift help?",
+   [
+    "questions",
+    "VQ_REACT_GIFT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "468": [
+   "RD_ALifeLine_20fa10273539454a",
+   "Is there something I might offer?",
+   [
+    "questions",
+    "VQ_REACT_GIFT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "469": [
+   "RD_ALifeLine_3fc6fe844672c9d1",
+   "Anything useful I could look for?",
+   [
+    "questions",
+    "VQ_REACT_GIFT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "470": [
+   "RD_ALifeLine_397b8fab2b543aac",
+   "Take care of yourself",
+   [
+    "questions",
+    "VQ_REACT_GOODBYE",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "471": [
+   "RD_ALifeLine_079cb6b9243bba40",
+   "Be careful out there",
+   [
+    "questions",
+    "VQ_REACT_GOODBYE",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "472": [
+   "RD_ALifeLine_3813b4f32bff5011",
+   "You're useless",
+   [
+    "questions",
+    "VQ_REACT_INSULT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "473": [
+   "RD_ALifeLine_6e3280b60a148fde",
+   "Get out of my sight",
+   [
+    "questions",
+    "VQ_REACT_INSULT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "474": [
+   "RD_ALifeLine_62d9d0045d52e24d",
+   "Forgive me",
+   [
+    "questions",
+    "VQ_REACT_SORRY",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "475": [
+   "RD_ALifeLine_1feac9174ba1fdb3",
+   "I'm grateful",
+   [
+    "questions",
+    "VQ_REACT_THANKS",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "476": [
+   "RD_ALifeLine_2fdacb3f265b742d",
+   "Do as I say or else",
+   [
+    "questions",
+    "VQ_REACT_THREAT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "477": [
+   "RD_ALifeLine_67b7ad9d75e78696",
+   "I'll make you leave",
+   [
+    "questions",
+    "VQ_REACT_THREAT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "478": [
+   "RD_ALifeLine_45eccb2e0a380a4d",
+   "Don't test me",
+   [
+    "questions",
+    "VQ_REACT_THREAT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "479": [
+   "RD_ALifeLine_4b4d1bda07db99a1",
+   "Sorry, I didn't catch that",
+   [
+    "questions",
+    "VQ_REACT_UNKNOWN",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "480": [
+   "RD_ALifeLine_1c1d203b424d617f",
+   "Got any advice?",
+   [
+    "questions",
+    "VQ_TALK_ADVICE",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "481": [
+   "RD_ALifeLine_6e4ae39d28a01d77",
+   "What would you tell me?",
+   [
+    "questions",
+    "VQ_TALK_ADVICE",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "482": [
+   "RD_ALifeLine_474f27ed0a5bef36",
+   "What do you know that I don't?",
+   [
+    "questions",
+    "VQ_TALK_ADVICE",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "483": [
+   "RD_ALifeLine_105c6d6d7dd98f0e",
+   "Mind if I ask how old you are?",
+   [
+    "questions",
+    "VQ_TALK_AGE",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "484": [
+   "RD_ALifeLine_72f019103f40fa7f",
+   "Would you rather keep your age to yourself?",
+   [
+    "questions",
+    "VQ_TALK_AGE",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "485": [
+   "RD_ALifeLine_1ab8f31b3b536b87",
+   "What helps when it gets bad?",
+   [
+    "questions",
+    "VQ_TALK_COMFORT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "486": [
+   "RD_ALifeLine_1ab755af1c07a3fa",
+   "Anything that helps?",
+   [
+    "questions",
+    "VQ_TALK_COMFORT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "487": [
+   "RD_ALifeLine_57360a2e23619064",
+   "What do you do when it gets bad?",
+   [
+    "questions",
+    "VQ_TALK_COMFORT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "488": [
+   "RD_ALifeLine_515094725cfd0028",
+   "You've got a nice way about you",
+   [
+    "questions",
+    "VQ_TALK_COMPLIMENT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "489": [
+   "RD_ALifeLine_03943bc640fee8f7",
+   "You're good company",
+   [
+    "questions",
+    "VQ_TALK_COMPLIMENT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "490": [
+   "RD_ALifeLine_2fdd50752da8d222",
+   "I like talking to you",
+   [
+    "questions",
+    "VQ_TALK_COMPLIMENT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "491": [
+   "RD_ALifeLine_27045eed72c1efa0",
+   "What can't you stand?",
+   [
+    "questions",
+    "VQ_TALK_DISLIKES",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "492": [
+   "RD_ALifeLine_1d3fc89c14a3eccc",
+   "What gets under your skin?",
+   [
+    "questions",
+    "VQ_TALK_DISLIKES",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "493": [
+   "RD_ALifeLine_41548824675aaa76",
+   "What drives you up the wall?",
+   [
+    "questions",
+    "VQ_TALK_DISLIKES",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "494": [
+   "RD_ALifeLine_6505ed0574bdd471",
+   "What do you dream about?",
+   [
+    "questions",
+    "VQ_TALK_DREAMS",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "495": [
+   "RD_ALifeLine_528cc4b128d7805e",
+   "Dream much lately?",
+   [
+    "questions",
+    "VQ_TALK_DREAMS",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "496": [
+   "RD_ALifeLine_4622efb860a41d58",
+   "Ever dream about before?",
+   [
+    "questions",
+    "VQ_TALK_DREAMS",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "497": [
+   "RD_ALifeLine_7b1eee0026f83fab",
+   "What scares you most?",
+   [
+    "questions",
+    "VQ_TALK_FEAR",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "498": [
+   "RD_ALifeLine_6c4abd0c7938175a",
+   "What keeps you up?",
+   [
+    "questions",
+    "VQ_TALK_FEAR",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "499": [
+   "RD_ALifeLine_3f873f06210141df",
+   "What are you afraid of?",
+   [
+    "questions",
+    "VQ_TALK_FEAR",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "500": [
+   "RD_ALifeLine_6aa2664a4ccc4b0c",
+   "Where were you the first night?",
+   [
+    "questions",
+    "VQ_TALK_FIRSTNIGHT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "501": [
+   "RD_ALifeLine_0498b4d514cde5fd",
+   "How did you spend the first night?",
+   [
+    "questions",
+    "VQ_TALK_FIRSTNIGHT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "502": [
+   "RD_ALifeLine_478637ab000d08e9",
+   "What do you remember about the first night?",
+   [
+    "questions",
+    "VQ_TALK_FIRSTNIGHT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "503": [
+   "RD_ALifeLine_7e069af4728fcdc5",
+   "What's your favorite thing to eat?",
+   [
+    "questions",
+    "VQ_TALK_FOOD",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "504": [
+   "RD_ALifeLine_00b1f77b27e775cc",
+   "What would you eat if you could?",
+   [
+    "questions",
+    "VQ_TALK_FOOD",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "505": [
+   "RD_ALifeLine_198fda4916041406",
+   "What does a good supper look like to you?",
+   [
+    "questions",
+    "VQ_TALK_FOOD",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "506": [
+   "RD_ALifeLine_4fb1895036654a27",
+   "Where did you come in from?",
+   [
+    "questions",
+    "VQ_TALK_FROM",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "507": [
+   "RD_ALifeLine_40f6caba0c43d314",
+   "Got any little habits you never got rid of?",
+   [
+    "questions",
+    "VQ_TALK_HABIT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "508": [
+   "RD_ALifeLine_4e66ed500422dc73",
+   "Anything you catch yourself doing without thinking?",
+   [
+    "questions",
+    "VQ_TALK_HABIT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "509": [
+   "RD_ALifeLine_7d9f52dd1d4cfe5f",
+   "Any old habit that stuck with you?",
+   [
+    "questions",
+    "VQ_TALK_HABIT",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "510": [
+   "RD_ALifeLine_542909e23b70ff5f",
+   "Who did the cooking at your house?",
+   [
+    "questions",
+    "VQ_TALK_HOMECOOK",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "511": [
+   "RD_ALifeLine_3c9d93d3177249ef",
+   "Who cooked?",
+   [
+    "questions",
+    "VQ_TALK_HOMECOOK",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "512": [
+   "RD_ALifeLine_0013d1a035f94023",
+   "What did your kitchen smell like?",
+   [
+    "questions",
+    "VQ_TALK_HOMECOOK",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "513": [
+   "RD_ALifeLine_7b99fbf12f3656f2",
+   "What are you hoping for?",
+   [
+    "questions",
+    "VQ_TALK_HOPE",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "514": [
+   "RD_ALifeLine_27125f81529cc737",
+   "What are you counting on?",
+   [
+    "questions",
+    "VQ_TALK_HOPE",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "515": [
+   "RD_ALifeLine_3ac232cf37ca652b",
+   "What do you hope happens?",
+   [
+    "questions",
+    "VQ_TALK_HOPE",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "516": [
+   "RD_ALifeLine_4dc06c971a04afee",
+   "How are you doing?",
+   [
+    "questions",
+    "VQ_TALK_HOWARE",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "517": [
+   "RD_ALifeLine_6940bb1b14a41238",
+   "You holding together?",
+   [
+    "questions",
+    "VQ_TALK_HOWARE",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "518": [
+   "RD_ALifeLine_764a770f469d61c9",
+   "Got a joke?",
+   [
+    "questions",
+    "VQ_TALK_JOKE",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "519": [
+   "RD_ALifeLine_63b5a54e2d228bb2",
+   "Know any jokes?",
+   [
+    "questions",
+    "VQ_TALK_JOKE",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "520": [
+   "RD_ALifeLine_5f40e1bb7b53ae4e",
+   "Tell me something funny",
+   [
+    "questions",
+    "VQ_TALK_JOKE",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "521": [
+   "RD_ALifeLine_305ef9e52d4040e8",
+   "When did you last laugh?",
+   [
+    "questions",
+    "VQ_TALK_LAUGH",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "522": [
+   "RD_ALifeLine_5e1c404715d1b710",
+   "Remember laughing?",
+   [
+    "questions",
+    "VQ_TALK_LAUGH",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "523": [
+   "RD_ALifeLine_5b0ef1de7119969e",
+   "What made you laugh last?",
+   [
+    "questions",
+    "VQ_TALK_LAUGH",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "524": [
+   "RD_ALifeLine_5933dbc22a537b5b",
+   "What do you like to do?",
+   [
+    "questions",
+    "VQ_TALK_LIKES",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "525": [
+   "RD_ALifeLine_492406cf3922052d",
+   "What do you do for fun?",
+   [
+    "questions",
+    "VQ_TALK_LIKES",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "526": [
+   "RD_ALifeLine_68e4368808025eec",
+   "What do you enjoy?",
+   [
+    "questions",
+    "VQ_TALK_LIKES",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "527": [
+   "RD_ALifeLine_6bc9a67f33adfe61",
+   "You believe in luck?",
+   [
+    "questions",
+    "VQ_TALK_LUCK",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "528": [
+   "RD_ALifeLine_5fa068bd07b1860b",
+   "Think we got lucky?",
+   [
+    "questions",
+    "VQ_TALK_LUCK",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "529": [
+   "RD_ALifeLine_0e188bc247018835",
+   "Is it luck or something else?",
+   [
+    "questions",
+    "VQ_TALK_LUCK",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "530": [
+   "RD_ALifeLine_0f8b9b6053b33fcc",
+   "What do you listen to?",
+   [
+    "questions",
+    "VQ_TALK_MUSIC",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "531": [
+   "RD_ALifeLine_338cc69a49ccce8b",
+   "Got a favorite song?",
+   [
+    "questions",
+    "VQ_TALK_MUSIC",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "532": [
+   "RD_ALifeLine_19eee6e665c820ee",
+   "You a music person?",
+   [
+    "questions",
+    "VQ_TALK_MUSIC",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "533": [
+   "RD_ALifeLine_4225841c391916bd",
+   "Who are you?",
+   [
+    "questions",
+    "VQ_TALK_NAME",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "534": [
+   "RD_ALifeLine_1f9065bc35b7f5e2",
+   "What do I call you?",
+   [
+    "questions",
+    "VQ_TALK_NAME",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "535": [
+   "RD_ALifeLine_735ca6a949d40159",
+   "Who lived next door to you?",
+   [
+    "questions",
+    "VQ_TALK_NEIGHBORS",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "536": [
+   "RD_ALifeLine_0a8bfb5d786e935d",
+   "You know your neighbors?",
+   [
+    "questions",
+    "VQ_TALK_NEIGHBORS",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "537": [
+   "RD_ALifeLine_296c5f7617f94bc3",
+   "Who'd you wave to in the morning?",
+   [
+    "questions",
+    "VQ_TALK_NEIGHBORS",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "538": [
+   "RD_ALifeLine_0b14d1ca706438d8",
+   "Anything making you uneasy?",
+   [
+    "questions",
+    "VQ_TALK_NERVOUS",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "539": [
+   "RD_ALifeLine_3a38ece772421325",
+   "Something on your mind?",
+   [
+    "questions",
+    "VQ_TALK_NERVOUS",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "540": [
+   "RD_ALifeLine_61be4e6965589a95",
+   "Would you rather talk about something else?",
+   [
+    "questions",
+    "VQ_TALK_NERVOUS",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "541": [
+   "RD_ALifeLine_080cc8ef11cfc4c2",
+   "What do people call you?",
+   [
+    "questions",
+    "VQ_TALK_NICKNAME",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "542": [
+   "RD_ALifeLine_67eb8b497a622f13",
+   "Got a nickname?",
+   [
+    "questions",
+    "VQ_TALK_NICKNAME",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "543": [
+   "RD_ALifeLine_3a04176341c69a2f",
+   "What did your friends call you?",
+   [
+    "questions",
+    "VQ_TALK_NICKNAME",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "544": [
+   "RD_ALifeLine_49bd194c7d1c9bba",
+   "Do you pray, these days?",
+   [
+    "questions",
+    "VQ_TALK_PRAYER",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "545": [
+   "RD_ALifeLine_659d93d15f117a1d",
+   "Anybody listening, do you think?",
+   [
+    "questions",
+    "VQ_TALK_PRAYER",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "546": [
+   "RD_ALifeLine_50343769166dac71",
+   "Want a quiet minute?",
+   [
+    "questions",
+    "VQ_TALK_QUIET",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "547": [
+   "RD_ALifeLine_2665961a22f4e6d6",
+   "Mind if I keep you company without talking?",
+   [
+    "questions",
+    "VQ_TALK_QUIET",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "548": [
+   "RD_ALifeLine_1f8bc497351815f9",
+   "Want company, or some time to yourself?",
+   [
+    "questions",
+    "VQ_TALK_QUIET",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "549": [
+   "RD_ALifeLine_06472b976558cdfd",
+   "Sleeping okay?",
+   [
+    "questions",
+    "VQ_TALK_SLEEP",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "550": [
+   "RD_ALifeLine_02264526217bb3ff",
+   "Getting any sleep?",
+   [
+    "questions",
+    "VQ_TALK_SLEEP",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "551": [
+   "RD_ALifeLine_37b7ba2238fdbfab",
+   "You rest at all?",
+   [
+    "questions",
+    "VQ_TALK_SLEEP",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "552": [
+   "RD_ALifeLine_17e0cffa48af5ff8",
+   "You follow ball?",
+   [
+    "questions",
+    "VQ_TALK_SPORTS",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "553": [
+   "RD_ALifeLine_76f55a2b478acbcd",
+   "Who do you pull for?",
+   [
+    "questions",
+    "VQ_TALK_SPORTS",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "554": [
+   "RD_ALifeLine_6c61a5615769776a",
+   "You a basketball person?",
+   [
+    "questions",
+    "VQ_TALK_SPORTS",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "555": [
+   "RD_ALifeLine_6071f15e0fe64a20",
+   "Tell me a story",
+   [
+    "questions",
+    "VQ_TALK_STORY",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "556": [
+   "RD_ALifeLine_54f4b1c552810da7",
+   "Got a story?",
+   [
+    "questions",
+    "VQ_TALK_STORY",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "557": [
+   "RD_ALifeLine_0fe6393864c02c75",
+   "Tell me about something that happened",
+   [
+    "questions",
+    "VQ_TALK_STORY",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "558": [
+   "RD_ALifeLine_46bd954735492543",
+   "What did you watch?",
+   [
+    "questions",
+    "VQ_TALK_TV",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "559": [
+   "RD_ALifeLine_3388f64448dcfa87",
+   "Got a favorite show?",
+   [
+    "questions",
+    "VQ_TALK_TV",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "560": [
+   "RD_ALifeLine_07eb1b6345486a75",
+   "What was on at your house?",
+   [
+    "questions",
+    "VQ_TALK_TV",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "561": [
+   "RD_ALifeLine_6998e94454e8a1dd",
+   "What do you make of the weather?",
+   [
+    "questions",
+    "VQ_TALK_WEATHER",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "562": [
+   "RD_ALifeLine_7883e98327190bca",
+   "Think the weather will hold?",
+   [
+    "questions",
+    "VQ_TALK_WEATHER",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "563": [
+   "RD_ALifeLine_246e4dee72c55873",
+   "Any better at guessing the weather than I am?",
+   [
+    "questions",
+    "VQ_TALK_WEATHER",
+    "soru düğmesi, sekme=talk"
+   ]
+  ],
+  "564": [
+   "RD_ALifeLine_087213900c6f16ad",
+   "What happened to the animals?",
+   [
+    "questions",
+    "VQ_WORLD_ANIMALS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "565": [
+   "RD_ALifeLine_42f95faf6589eba4",
+   "Seen any cattle?",
+   [
+    "questions",
+    "VQ_WORLD_ANIMALS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "566": [
+   "RD_ALifeLine_291787d10806b4fd",
+   "Are the dogs all right?",
+   [
+    "questions",
+    "VQ_WORLD_ANIMALS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "567": [
+   "RD_ALifeLine_2d1a993f0038a65c",
+   "Heard anything about the Army?",
+   [
+    "questions",
+    "VQ_WORLD_ARMY",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "568": [
+   "RD_ALifeLine_193e6f623a5686b0",
+   "Will the Army come?",
+   [
+    "questions",
+    "VQ_WORLD_ARMY",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "569": [
+   "RD_ALifeLine_7dcd8a58232c2243",
+   "What about the Guard?",
+   [
+    "questions",
+    "VQ_WORLD_ARMY",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "570": [
+   "RD_ALifeLine_7aea4a64186a7730",
+   "What do you do about the bitten?",
+   [
+    "questions",
+    "VQ_WORLD_BITTEN",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "571": [
+   "RD_ALifeLine_781aa1ad700cfb6d",
+   "Anyone survive a bite?",
+   [
+    "questions",
+    "VQ_WORLD_BITTEN",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "572": [
+   "RD_ALifeLine_48992b7a70c0f05e",
+   "What happens when somebody's bitten?",
+   [
+    "questions",
+    "VQ_WORLD_BITTEN",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "573": [
+   "RD_ALifeLine_45260986597212d0",
+   "What do you think caused this?",
+   [
+    "questions",
+    "VQ_WORLD_CAUSE",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "574": [
+   "RD_ALifeLine_64761e8e7d8c0a48",
+   "Who's to blame?",
+   [
+    "questions",
+    "VQ_WORLD_CAUSE",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "575": [
+   "RD_ALifeLine_4a3d78e569c79251",
+   "Where did it come from?",
+   [
+    "questions",
+    "VQ_WORLD_CAUSE",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "576": [
+   "RD_ALifeLine_013f06283c940c5c",
+   "Are you sure about that?",
+   [
+    "questions",
+    "VQ_WORLD_CAUSE_CHALLENGE",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "577": [
+   "RD_ALifeLine_695c255d255729ab",
+   "Is that what you really think?",
+   [
+    "questions",
+    "VQ_WORLD_CAUSE_CHALLENGE",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "578": [
+   "RD_ALifeLine_66a6ab161e9d565e",
+   "Is the church still open?",
+   [
+    "questions",
+    "VQ_WORLD_CHURCH",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "579": [
+   "RD_ALifeLine_686a67b15158aa7d",
+   "Anybody at the churches?",
+   [
+    "questions",
+    "VQ_WORLD_CHURCH",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "580": [
+   "RD_ALifeLine_7514a1f36d6fc07e",
+   "Seen the preachers?",
+   [
+    "questions",
+    "VQ_WORLD_CHURCH",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "581": [
+   "RD_ALifeLine_600daac8646e458b",
+   "What about Louisville?",
+   [
+    "questions",
+    "VQ_WORLD_CITY",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "582": [
+   "RD_ALifeLine_5fedf83b448403dc",
+   "Have you heard from the city?",
+   [
+    "questions",
+    "VQ_WORLD_CITY",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "583": [
+   "RD_ALifeLine_6f437ce87bccd0d3",
+   "Is Louisville any better?",
+   [
+    "questions",
+    "VQ_WORLD_CITY",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "584": [
+   "RD_ALifeLine_6fc57f291b24a3e6",
+   "What do you make of the dead ones?",
+   [
+    "questions",
+    "VQ_WORLD_DEAD",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "585": [
+   "RD_ALifeLine_131ce9ae23aefc25",
+   "What are they?",
+   [
+    "questions",
+    "VQ_WORLD_DEAD",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "586": [
+   "RD_ALifeLine_321b744d45230b3e",
+   "Do they feel anything?",
+   [
+    "questions",
+    "VQ_WORLD_DEAD",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "587": [
+   "RD_ALifeLine_0cb7b14e1ac92ae2",
+   "Does any of it make sense to you?",
+   [
+    "questions",
+    "VQ_WORLD_FAITH",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "588": [
+   "RD_ALifeLine_488de6497b0e90d8",
+   "Is God in this somewhere?",
+   [
+    "questions",
+    "VQ_WORLD_FAITH",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "589": [
+   "RD_ALifeLine_2765bf5875ff699d",
+   "Why do you think it happened?",
+   [
+    "questions",
+    "VQ_WORLD_FAITH",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "590": [
+   "RD_ALifeLine_66adba73314d82dc",
+   "Seen any fires?",
+   [
+    "questions",
+    "VQ_WORLD_FIRE",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "591": [
+   "RD_ALifeLine_5e03979d4b6da937",
+   "Anything burning out there?",
+   [
+    "questions",
+    "VQ_WORLD_FIRE",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "592": [
+   "RD_ALifeLine_250794bb144f4893",
+   "Smell smoke?",
+   [
+    "questions",
+    "VQ_WORLD_FIRE",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "593": [
+   "RD_ALifeLine_1c0dc17f41f03dc5",
+   "Seen soldiers?",
+   [
+    "questions",
+    "VQ_WORLD_GUARD",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "594": [
+   "RD_ALifeLine_3bed88e472eeacbe",
+   "Seen the Guard?",
+   [
+    "questions",
+    "VQ_WORLD_GUARD",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "595": [
+   "RD_ALifeLine_4d55b248790b9953",
+   "Anyone in uniform around?",
+   [
+    "questions",
+    "VQ_WORLD_GUARD",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "596": [
+   "RD_ALifeLine_57fdbdba4cfba9ff",
+   "Seen any helicopters?",
+   [
+    "questions",
+    "VQ_WORLD_HELI",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "597": [
+   "RD_ALifeLine_7247c7626757bc32",
+   "Heard the choppers?",
+   [
+    "questions",
+    "VQ_WORLD_HELI",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "598": [
+   "RD_ALifeLine_2c2d15951da75aac",
+   "Anybody flying?",
+   [
+    "questions",
+    "VQ_WORLD_HELI",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "599": [
+   "RD_ALifeLine_68763ad759664390",
+   "Do you think it ends?",
+   [
+    "questions",
+    "VQ_WORLD_HOPE",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "600": [
+   "RD_ALifeLine_254bc6dd15dd2853",
+   "Think we get through it?",
+   [
+    "questions",
+    "VQ_WORLD_HOPE",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "601": [
+   "RD_ALifeLine_37d89f7f1f8a154a",
+   "Is there any reason to hope?",
+   [
+    "questions",
+    "VQ_WORLD_HOPE",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "602": [
+   "RD_ALifeLine_48213e683717bf9b",
+   "Is the hospital still open?",
+   [
+    "questions",
+    "VQ_WORLD_HOSPITAL",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "603": [
+   "RD_ALifeLine_341674bf73f1673b",
+   "Anyone at the hospital?",
+   [
+    "questions",
+    "VQ_WORLD_HOSPITAL",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "604": [
+   "RD_ALifeLine_7d57666d3bc115b5",
+   "Where do the doctors go?",
+   [
+    "questions",
+    "VQ_WORLD_HOSPITAL",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "605": [
+   "RD_ALifeLine_2abf8e4a10e75018",
+   "What about the children?",
+   [
+    "questions",
+    "VQ_WORLD_KIDS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "606": [
+   "RD_ALifeLine_49483e73514a4ec3",
+   "Seen any kids?",
+   [
+    "questions",
+    "VQ_WORLD_KIDS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "607": [
+   "RD_ALifeLine_025267452c9abbac",
+   "Where do the children go?",
+   [
+    "questions",
+    "VQ_WORLD_KIDS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "608": [
+   "RD_ALifeLine_2966ebd758245d9d",
+   "Seen the sheriff?",
+   [
+    "questions",
+    "VQ_WORLD_LAW",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "609": [
+   "RD_ALifeLine_780d8982329f3c29",
+   "Is anyone still enforcing anything?",
+   [
+    "questions",
+    "VQ_WORLD_LAW",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "610": [
+   "RD_ALifeLine_5803b3a514191dc5",
+   "Any law left?",
+   [
+    "questions",
+    "VQ_WORLD_LAW",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "611": [
+   "RD_ALifeLine_1a77c1462297c017",
+   "Seen any looters?",
+   [
+    "questions",
+    "VQ_WORLD_LOOTERS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "612": [
+   "RD_ALifeLine_4e34908d7bcb33bf",
+   "Anybody taking what isn't theirs?",
+   [
+    "questions",
+    "VQ_WORLD_LOOTERS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "613": [
+   "RD_ALifeLine_71252d8738f55a3a",
+   "Are people turning on each other?",
+   [
+    "questions",
+    "VQ_WORLD_LOOTERS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "614": [
+   "RD_ALifeLine_3181fbd86746fe5f",
+   "Where do you find medicine?",
+   [
+    "questions",
+    "VQ_WORLD_MEDICINE",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "615": [
+   "RD_ALifeLine_377cb2fb2e5bd45e",
+   "Is there any medicine left?",
+   [
+    "questions",
+    "VQ_WORLD_MEDICINE",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "616": [
+   "RD_ALifeLine_7dbe8965720c1ff7",
+   "Know a pharmacy that's still stocked?",
+   [
+    "questions",
+    "VQ_WORLD_MEDICINE",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "617": [
+   "RD_ALifeLine_0cd831702df6d11a",
+   "Would you show mercy to the bitten?",
+   [
+    "questions",
+    "VQ_WORLD_MERCY",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "618": [
+   "RD_ALifeLine_0228e688550608c0",
+   "Could you do it, if you had to?",
+   [
+    "questions",
+    "VQ_WORLD_MERCY",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "619": [
+   "RD_ALifeLine_30250deb084dfd2b",
+   "What would you do for someone bitten?",
+   [
+    "questions",
+    "VQ_WORLD_MERCY",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "620": [
+   "RD_ALifeLine_58e62e86661ded0d",
+   "Is money worth anything now?",
+   [
+    "questions",
+    "VQ_WORLD_MONEY",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "621": [
+   "RD_ALifeLine_7c8636726db486d6",
+   "What's a dollar good for?",
+   [
+    "questions",
+    "VQ_WORLD_MONEY",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "622": [
+   "RD_ALifeLine_78c271fe7bac4836",
+   "What do people trade?",
+   [
+    "questions",
+    "VQ_WORLD_MONEY",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "623": [
+   "RD_ALifeLine_54f3ea9e343ca347",
+   "Who's still around here?",
+   [
+    "questions",
+    "VQ_WORLD_NEIGHBOURS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "624": [
+   "RD_ALifeLine_264307e47f23b398",
+   "Seen any neighbors?",
+   [
+    "questions",
+    "VQ_WORLD_NEIGHBOURS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "625": [
+   "RD_ALifeLine_4a358443051374b2",
+   "Anyone else holed up near here?",
+   [
+    "questions",
+    "VQ_WORLD_NEIGHBOURS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "626": [
+   "RD_ALifeLine_005288b96469720d",
+   "What's going on out there?",
+   [
+    "questions",
+    "VQ_WORLD_NEWS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "627": [
+   "RD_ALifeLine_46d6765712d58496",
+   "Are the nights worse?",
+   [
+    "questions",
+    "VQ_WORLD_NIGHTS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "628": [
+   "RD_ALifeLine_324effd4793568b2",
+   "Is it worse after dark?",
+   [
+    "questions",
+    "VQ_WORLD_NIGHTS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "629": [
+   "RD_ALifeLine_7e1ffa5b7c807dd2",
+   "What happens at night?",
+   [
+    "questions",
+    "VQ_WORLD_NIGHTS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "630": [
+   "RD_ALifeLine_1995a2727198d1eb",
+   "Are the phones working anywhere?",
+   [
+    "questions",
+    "VQ_WORLD_PHONES",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "631": [
+   "RD_ALifeLine_7b844d6d117b969d",
+   "Got a phone line out?",
+   [
+    "questions",
+    "VQ_WORLD_PHONES",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "632": [
+   "RD_ALifeLine_130e758452c11ea9",
+   "Did you try calling anyone?",
+   [
+    "questions",
+    "VQ_WORLD_PHONES",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "633": [
+   "RD_ALifeLine_1d43b3784021c676",
+   "What would you do if you were me?",
+   [
+    "questions",
+    "VQ_WORLD_PLANS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "634": [
+   "RD_ALifeLine_1b8b2b9a01912e05",
+   "What should we do?",
+   [
+    "questions",
+    "VQ_WORLD_PLANS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "635": [
+   "RD_ALifeLine_7fa9078f18b6f5e2",
+   "What should we do next?",
+   [
+    "questions",
+    "VQ_WORLD_PLANS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "636": [
+   "RD_ALifeLine_3c9e1904147578bd",
+   "How long will the power last?",
+   [
+    "questions",
+    "VQ_WORLD_POWER",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "637": [
+   "RD_ALifeLine_39605e801e40e288",
+   "Is the power on where you came from?",
+   [
+    "questions",
+    "VQ_WORLD_POWER",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "638": [
+   "RD_ALifeLine_0ffb5ce2274e93b5",
+   "Will the lights stay on?",
+   [
+    "questions",
+    "VQ_WORLD_POWER",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "639": [
+   "RD_ALifeLine_05e8b3447af4bc5e",
+   "Hear anything on the radio?",
+   [
+    "questions",
+    "VQ_WORLD_RADIO",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "640": [
+   "RD_ALifeLine_4cdb0bc905f37dc0",
+   "Anything on the airwaves?",
+   [
+    "questions",
+    "VQ_WORLD_RADIO",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "641": [
+   "RD_ALifeLine_112e1c3929c8c7c3",
+   "Have you heard a broadcast?",
+   [
+    "questions",
+    "VQ_WORLD_RADIO",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "642": [
+   "RD_ALifeLine_6eeccf0b028ffb43",
+   "Are the roads open?",
+   [
+    "questions",
+    "VQ_WORLD_ROAD",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "643": [
+   "RD_ALifeLine_0ee6dc5d2c365f77",
+   "Which roads are bad?",
+   [
+    "questions",
+    "VQ_WORLD_ROAD",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "644": [
+   "RD_ALifeLine_502f0ebc18d0093f",
+   "Can a person get through?",
+   [
+    "questions",
+    "VQ_WORLD_ROAD",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "645": [
+   "RD_ALifeLine_05422b4b770286eb",
+   "Where are people finding food?",
+   [
+    "questions",
+    "VQ_WORLD_SUPPLIES",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "646": [
+   "RD_ALifeLine_1d660db3323115b7",
+   "Is there any food left?",
+   [
+    "questions",
+    "VQ_WORLD_SUPPLIES",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "647": [
+   "RD_ALifeLine_07414b9b1720900a",
+   "What's left in the stores?",
+   [
+    "questions",
+    "VQ_WORLD_SUPPLIES",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "648": [
+   "RD_ALifeLine_60fb193259d9c880",
+   "What's it like in town?",
+   [
+    "questions",
+    "VQ_WORLD_TOWN",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "649": [
+   "RD_ALifeLine_3e13d3d94166488b",
+   "What did you see in town?",
+   [
+    "questions",
+    "VQ_WORLD_TOWN",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "650": [
+   "RD_ALifeLine_7fea7cc55bd77584",
+   "Is anyone left in town?",
+   [
+    "questions",
+    "VQ_WORLD_TOWN",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "651": [
+   "RD_ALifeLine_0747ded928814ae5",
+   "Seen any trucks?",
+   [
+    "questions",
+    "VQ_WORLD_TRUCKS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "652": [
+   "RD_ALifeLine_4130c80964cc1b41",
+   "Anyone moving on the highway?",
+   [
+    "questions",
+    "VQ_WORLD_TRUCKS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "653": [
+   "RD_ALifeLine_5f223dfa3c37f9c6",
+   "Anything on I-65?",
+   [
+    "questions",
+    "VQ_WORLD_TRUCKS",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "654": [
+   "RD_ALifeLine_6d8b4d5539820220",
+   "Is the water running?",
+   [
+    "questions",
+    "VQ_WORLD_WATER",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "655": [
+   "RD_ALifeLine_4c617fd70faba556",
+   "Is the water safe?",
+   [
+    "questions",
+    "VQ_WORLD_WATER",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "656": [
+   "RD_ALifeLine_16bcec8d3a63cadd",
+   "Where do you get water?",
+   [
+    "questions",
+    "VQ_WORLD_WATER",
+    "soru düğmesi, sekme=world"
+   ]
+  ],
+  "657": [
+   "RD_ALifeLine_01618ae466dc877c",
+   "an elderly man with clipped white hair and a crisp collar above patched overalls",
+   [
+    "people",
+    "vp_1006.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "658": [
+   "RD_ALifeLine_3724121424dd6792",
+   "Promised Elmer help and has not gone back",
+   [
+    "people",
+    "vp_1006.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "659": [
+   "RD_ALifeLine_5b5a8bb806e8a6c2",
+   "Cannot place familiar names despite his boasting",
+   [
+    "people",
+    "vp_1006.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "660": [
+   "RD_ALifeLine_48f5aac81253c55d",
+   "Sent Raymond away instead of sharing his home",
+   [
+    "people",
+    "vp_1006.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "661": [
+   "RD_ALifeLine_297a08ec3b10b8f7",
+   "Heard Elmer call before turning away",
+   [
+    "people",
+    "vp_1006.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "662": [
+   "RD_ALifeLine_6e8acbd820b07517",
+   "Wants to face Elmer himself rather than send someone",
+   [
+    "people",
+    "vp_1006.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "663": [
+   "RD_ALifeLine_515da1a00191c6a8",
+   "a broad older man with neat silver hair and a faded field jacket",
+   [
+    "people",
+    "vp_1013.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "664": [
+   "RD_ALifeLine_4bdd92cb4992e3eb",
+   "Conceals prescribed diabetes pills",
+   [
+    "people",
+    "vp_1013.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "665": [
+   "RD_ALifeLine_4f9c5d006d9fc7eb",
+   "Played Sunday baseball, never college ball",
+   [
+    "people",
+    "vp_1013.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "666": [
+   "RD_ALifeLine_49f06dd66d893019",
+   "Rejected Nina's marriage and ignored her invitations",
+   [
+    "people",
+    "vp_1013.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "667": [
+   "RD_ALifeLine_50977fbf563f3e5f",
+   "Has concealed pension cash in his jacket",
+   [
+    "people",
+    "vp_1013.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "668": [
+   "RD_ALifeLine_27697125586e1dac",
+   "North means a late attempt to visit Nina",
+   [
+    "people",
+    "vp_1013.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "669": [
+   "RD_ALifeLine_24e167013a21260f",
+   "a broad quiet man with close brown hair and a weathered straw hat",
+   [
+    "people",
+    "vp_1027.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "670": [
+   "RD_ALifeLine_149934250458ceae",
+   "Kept Nettie's queen of clubs against his promise",
+   [
+    "people",
+    "vp_1027.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "671": [
+   "RD_ALifeLine_3d6151274edd3d19",
+   "Sews work cuffs using Nettie's tin",
+   [
+    "people",
+    "vp_1027.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "672": [
+   "RD_ALifeLine_7d6737400928bcb5",
+   "Lyle made the last payment on the house",
+   [
+    "people",
+    "vp_1027.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "673": [
+   "RD_ALifeLine_312888dd79d42cee",
+   "Left June with a traveler beside the creek",
+   [
+    "people",
+    "vp_1027.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "674": [
+   "RD_ALifeLine_6a86680b0ccabf80",
+   "Never fetched the help he promised June",
+   [
+    "people",
+    "vp_1027.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "675": [
+   "RD_ALifeLine_0c7aa5d16e3a1447",
+   "a poised woman with an auburn bob and paint freckles on her work coat",
+   [
+    "people",
+    "vp_1028.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "676": [
+   "RD_ALifeLine_141c13877fb2da4b",
+   "Took the socket tin Earl left to Lorna",
+   [
+    "people",
+    "vp_1028.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "677": [
+   "RD_ALifeLine_3a83a92415a315d8",
+   "Did not finish the 1970 evening course",
+   [
+    "people",
+    "vp_1028.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "678": [
+   "RD_ALifeLine_2c7623f85187f3c1",
+   "Quietly replaced money in Lorna's household",
+   [
+    "people",
+    "vp_1028.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "679": [
+   "RD_ALifeLine_469c690963cee3f4",
+   "Family waiting is a cover for estrangement",
+   [
+    "people",
+    "vp_1028.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "680": [
+   "RD_ALifeLine_0c80e26f11f9c2e8",
+   "Took panel money from her employer for drink",
+   [
+    "people",
+    "vp_1028.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "681": [
+   "RD_ALifeLine_53dcd8f754d8b3a6",
+   "a young woman with a dark ponytail and a worn denim jacket",
+   [
+    "people",
+    "vp_1050.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "682": [
+   "RD_ALifeLine_295770ac7bee0af6",
+   "Took Eli's inherited brass whistle without asking",
+   [
+    "people",
+    "vp_1050.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "683": [
+   "RD_ALifeLine_53dcba312e8438be",
+   "Writes hidden poems rather than singing",
+   [
+    "people",
+    "vp_1050.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "684": [
+   "RD_ALifeLine_279e5b8668c0bccf",
+   "Valedictorian of a class of nine",
+   [
+    "people",
+    "vp_1050.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "685": [
+   "RD_ALifeLine_2ae300b402d04c24",
+   "Avoided the scholarship renewal interview",
+   [
+    "people",
+    "vp_1050.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "686": [
+   "RD_ALifeLine_2c48587a57375dc5",
+   "Did not make the promised call before phone failure",
+   [
+    "people",
+    "vp_1050.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "687": [
+   "RD_ALifeLine_65940c9d37699859",
+   "a strong shouldered woman with a chestnut bob and a faded work shirt",
+   [
+    "people",
+    "vp_1059.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "688": [
+   "RD_ALifeLine_1f1ee4b95c11e1ba",
+   "Left Lewis in 1992, before any outbreak excuse",
+   [
+    "people",
+    "vp_1059.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "689": [
+   "RD_ALifeLine_6f2a8a901fdbb4c5",
+   "Concealed a chronic lung diagnosis from Lewis",
+   [
+    "people",
+    "vp_1059.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "690": [
+   "RD_ALifeLine_65e0f4ab4da666a0",
+   "Invented a CB road warning under false authority",
+   [
+    "people",
+    "vp_1059.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "691": [
+   "RD_ALifeLine_03e74f6e28448e42",
+   "Returned to prayer after losing certainty with Nolan",
+   [
+    "people",
+    "vp_1059.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "692": [
+   "RD_ALifeLine_31173de73d534813",
+   "Needs a cap after quietly giving hers to Mona",
+   [
+    "people",
+    "vp_1059.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "693": [
+   "RD_ALifeLine_76cb68ee4b9c2a0a",
+   "a silver-haired man with a neat haircut and an immaculate collar",
+   [
+    "people",
+    "vp_1066.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "694": [
+   "RD_ALifeLine_06dd1cb0666e2968",
+   "Returned clinic keys rather than losing them",
+   [
+    "people",
+    "vp_1066.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "695": [
+   "RD_ALifeLine_44c192aa4c1eb470",
+   "Read and retained Gertrude's private journal",
+   [
+    "people",
+    "vp_1066.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "696": [
+   "RD_ALifeLine_464c9e7118e138b5",
+   "Falsified employment dates, not nursing qualifications",
+   [
+    "people",
+    "vp_1066.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "697": [
+   "RD_ALifeLine_1bcc0a7674bac19e",
+   "False wiring inspectors robbed his household in 1988",
+   [
+    "people",
+    "vp_1066.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "698": [
+   "RD_ALifeLine_00555cab09ff38e6",
+   "Application never submitted; wants no new post",
+   [
+    "people",
+    "vp_1066.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "699": [
+   "RD_ALifeLine_1095233b0823a747",
+   "a broad-shouldered older man with clipped gray hair and a worn camera strap",
+   [
+    "people",
+    "vp_1070.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "700": [
+   "RD_ALifeLine_2871f4ec0522c42b",
+   "Broke Marion Kemp's promise about a teaching photograph",
+   [
+    "people",
+    "vp_1070.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "701": [
+   "RD_ALifeLine_36fbab8543ce70d4",
+   "Never fought a boxing bout",
+   [
+    "people",
+    "vp_1070.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "702": [
+   "RD_ALifeLine_10253fc64e722336",
+   "False mileage claims paid for engine repairs",
+   [
+    "people",
+    "vp_1070.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "703": [
+   "RD_ALifeLine_6c1121683365ba00",
+   "Estranged from Inez since 1985",
+   [
+    "people",
+    "vp_1070.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "704": [
+   "RD_ALifeLine_38d4adda778f2d72",
+   "The bitten stranger unsettled Earl's prayer and certainty",
+   [
+    "people",
+    "vp_1070.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "705": [
+   "RD_ALifeLine_0dc688237264a267",
+   "a warm-eyed woman with dark hair pinned neatly above her cardigan and scrubs",
+   [
+    "people",
+    "vp_1078.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "706": [
+   "RD_ALifeLine_64a44e3a2045b3a1",
+   "Gus's death and Rose's flight from the ward",
+   [
+    "people",
+    "vp_1078.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "707": [
+   "RD_ALifeLine_35e8bed754648686",
+   "Changed a jury vote out of exhaustion",
+   [
+    "people",
+    "vp_1078.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "708": [
+   "RD_ALifeLine_17e0dfd837e8eed9",
+   "False attendance covered a fishing absence",
+   [
+    "people",
+    "vp_1078.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "709": [
+   "RD_ALifeLine_0fabeb6d697b99a3",
+   "Marriage was partly an escape from family demands",
+   [
+    "people",
+    "vp_1078.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "710": [
+   "RD_ALifeLine_0a0b0065471fea67",
+   "Brent's deck was taken from June against her wishes",
+   [
+    "people",
+    "vp_1078.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "711": [
+   "RD_ALifeLine_3b2b2a97561d941a",
+   "a slender elderly man with tidy white hair and a soft cardigan",
+   [
+    "people",
+    "vp_1084.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "712": [
+   "RD_ALifeLine_76218a5e7eee6587",
+   "Left Beatrice and Lewis at the footbridge",
+   [
+    "people",
+    "vp_1084.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "713": [
+   "RD_ALifeLine_691c58825cbcb62d",
+   "Francis died before Everett answered his letter",
+   [
+    "people",
+    "vp_1084.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "714": [
+   "RD_ALifeLine_4ffa95fe603aa973",
+   "Madeline never got the promised lake trip",
+   [
+    "people",
+    "vp_1084.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "715": [
+   "RD_ALifeLine_089fe06d64887ae7",
+   "Pacemaker concealed to avoid being supervised",
+   [
+    "people",
+    "vp_1084.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "716": [
+   "RD_ALifeLine_6ee1733166575017",
+   "Doris Wiles secretly taught Everett tap",
+   [
+    "people",
+    "vp_1084.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "717": [
+   "RD_ALifeLine_69d2d4570f59b768",
+   "a composed man with clipped ash-brown hair and a carefully knotted tie",
+   [
+    "people",
+    "vp_1090.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "718": [
+   "RD_ALifeLine_2777cc59398d6860",
+   "Hid the 1991 cataract diagnosis from the committee",
+   [
+    "people",
+    "vp_1090.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "719": [
+   "RD_ALifeLine_7d0c975b50beb39f",
+   "Raymond read the lessons for his completion course",
+   [
+    "people",
+    "vp_1090.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "720": [
+   "RD_ALifeLine_338e653762511892",
+   "Entered Ruth's tomatoes under his own name",
+   [
+    "people",
+    "vp_1090.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "721": [
+   "RD_ALifeLine_1688d99b7e5999d3",
+   "Excluded nonmembers from the cellar supplies",
+   [
+    "people",
+    "vp_1090.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "722": [
+   "RD_ALifeLine_7041ca7c37525a13",
+   "Destroyed the neighbors' petition instead of presenting it",
+   [
+    "people",
+    "vp_1090.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "723": [
+   "RD_ALifeLine_719e6dfc251549c7",
+   "a weathered preacher with a tidy gray beard and a frayed jacket",
+   [
+    "people",
+    "vp_1097.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "724": [
+   "RD_ALifeLine_01aefa3d7aec4500",
+   "Dismissed the head count before Philip disappeared",
+   [
+    "people",
+    "vp_1097.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "725": [
+   "RD_ALifeLine_11a074270751d588",
+   "Passing through conceals a lifetime near Elizabethtown",
+   [
+    "people",
+    "vp_1097.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "726": [
+   "RD_ALifeLine_04935eb123f6e456",
+   "Paid three striking families' groceries after condemning them",
+   [
+    "people",
+    "vp_1097.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "727": [
+   "RD_ALifeLine_163c42bb228c2e88",
+   "Could not believe the reunion promise at Nola's funeral",
+   [
+    "people",
+    "vp_1097.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "728": [
+   "RD_ALifeLine_767d6aa84c2068e6",
+   "Hid eighty dollars from selling Nola's ring",
+   [
+    "people",
+    "vp_1097.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "729": [
+   "RD_ALifeLine_43fe0cdb0bc719b0",
+   "a quiet man with cropped dark hair and neatly fastened shirt cuffs",
+   [
+    "people",
+    "vp_1140.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "730": [
+   "RD_ALifeLine_3566e6a9783a83f4",
+   "Conceals unexplained fainting spells from hiring crews",
+   [
+    "people",
+    "vp_1140.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "731": [
+   "RD_ALifeLine_6d7e9a962166b317",
+   "Wrote other prisoners' tender letters",
+   [
+    "people",
+    "vp_1140.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "732": [
+   "RD_ALifeLine_5ca5a039624c9813",
+   "Paid impossible medical bills to avoid naming Beth's death",
+   [
+    "people",
+    "vp_1140.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "733": [
+   "RD_ALifeLine_3bfe6d2042f4dbe7",
+   "Took Beth's corsage back against his burial promise",
+   [
+    "people",
+    "vp_1140.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "734": [
+   "RD_ALifeLine_0354b5233f5f1710",
+   "Never cleared Calvin for the police call Zachary requested",
+   [
+    "people",
+    "vp_1140.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "735": [
+   "RD_ALifeLine_5119e3115fbe7fea",
+   "a woman with long copper-brown hair and a dime necklace above her windbreaker",
+   [
+    "people",
+    "vp_1157.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "736": [
+   "RD_ALifeLine_6e96adae6245c0e7",
+   "Forged Earl's permission to use the vending van",
+   [
+    "people",
+    "vp_1157.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "737": [
+   "RD_ALifeLine_4ff58df22171c0a7",
+   "Took Nettie's dime necklace rather than receiving it",
+   [
+    "people",
+    "vp_1157.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "738": [
+   "RD_ALifeLine_4b968595674db528",
+   "Invented a survived infected bite and showed an old lamp burn",
+   [
+    "people",
+    "vp_1157.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "739": [
+   "RD_ALifeLine_7a49de0429b52223",
+   "Quit the 1980 arithmetic course after two failed tests",
+   [
+    "people",
+    "vp_1157.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "740": [
+   "RD_ALifeLine_52af3d5f32caccae",
+   "Covered Jude's driving in their father's fatal 1966 wreck",
+   [
+    "people",
+    "vp_1157.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "741": [
+   "RD_ALifeLine_3f3049911e7e93e6",
+   "a young woman with a brown ponytail and a cardigan beneath her apron",
+   [
+    "people",
+    "vp_1178.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "742": [
+   "RD_ALifeLine_5a614486794aa107",
+   "Owes Alma the entire 126-dollar room advance",
+   [
+    "people",
+    "vp_1178.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "743": [
+   "RD_ALifeLine_25cebc1d28451910",
+   "Funeral alto learned by ear and concealed from diner crew",
+   [
+    "people",
+    "vp_1178.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "744": [
+   "RD_ALifeLine_78b6f7ae2f3b44f5",
+   "Claimed Lenora's blue sweater as her own 4-H work",
+   [
+    "people",
+    "vp_1178.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "745": [
+   "RD_ALifeLine_392f326c7167e56b",
+   "Kept Lenora's watch after its return was requested",
+   [
+    "people",
+    "vp_1178.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "746": [
+   "RD_ALifeLine_5937c3e44a977909",
+   "Reported Irene to gain her Saturday hours",
+   [
+    "people",
+    "vp_1178.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "747": [
+   "RD_ALifeLine_3df9e60f5c02fce2",
+   "a sharp-eyed woman with a copper bob and a worn surplus jacket",
+   [
+    "people",
+    "vp_1186.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "748": [
+   "RD_ALifeLine_55c0bc8425339372",
+   "Left injured Paul after promising help",
+   [
+    "people",
+    "vp_1186.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "749": [
+   "RD_ALifeLine_460c3b947e324929",
+   "Claimed Sela's checkers trophy as her own win",
+   [
+    "people",
+    "vp_1186.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "750": [
+   "RD_ALifeLine_06a921dd692f0296",
+   "Reported false attendance but omitted Rosa's reason",
+   [
+    "people",
+    "vp_1186.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "751": [
+   "RD_ALifeLine_1a47754362b24eae",
+   "Concealed intermittent wrist weakness from 1980",
+   [
+    "people",
+    "vp_1186.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "752": [
+   "RD_ALifeLine_206690bc166b8fa8",
+   "Betrayed Ila's address to force reconciliation",
+   [
+    "people",
+    "vp_1186.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "753": [
+   "RD_ALifeLine_176d612b18e3e4bc",
+   "a gentle-faced woman with a honey-gray bob and a well-kept cardigan",
+   [
+    "people",
+    "vp_1207.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "754": [
+   "RD_ALifeLine_7aa076da5eb5759b",
+   "Has mouthed the ends of prayers since Vera died",
+   [
+    "people",
+    "vp_1207.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "755": [
+   "RD_ALifeLine_4f12ac89551d6f62",
+   "Took the lottery ticket from Mrs. Venn's dresser",
+   [
+    "people",
+    "vp_1207.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "756": [
+   "RD_ALifeLine_7be2d8f63e7d0f8f",
+   "Only cleaned the room of the singer she claims to have met",
+   [
+    "people",
+    "vp_1207.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "757": [
+   "RD_ALifeLine_073b81a475d6d731",
+   "Her river safety claim is reassurance without evidence",
+   [
+    "people",
+    "vp_1207.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "758": [
+   "RD_ALifeLine_60a04066089b6b6c",
+   "Burned Vera's letter so Bess would not know she wanted to leave",
+   [
+    "people",
+    "vp_1207.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "759": [
+   "RD_ALifeLine_5eb7019e757036a4",
+   "a broad man with neatly cropped brown hair and a paint-speckled work shirt",
+   [
+    "people",
+    "vp_1208.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "760": [
+   "RD_ALifeLine_681ae91917f62ece",
+   "Took Merritt's paint and called it spoiled stock",
+   [
+    "people",
+    "vp_1208.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "761": [
+   "RD_ALifeLine_126a1bb91ffba475",
+   "His father's cold pipe protects Celia's bird drawing",
+   [
+    "people",
+    "vp_1208.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "762": [
+   "RD_ALifeLine_372b9ec60b500b35",
+   "Della carried Clive with him despite his solitary hero account",
+   [
+    "people",
+    "vp_1208.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "763": [
+   "RD_ALifeLine_6c63a32e0e92f54e",
+   "Diary calls Della a stranger to support the carrying lie",
+   [
+    "people",
+    "vp_1208.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "764": [
+   "RD_ALifeLine_6d26dd6f5d744456",
+   "Let Della lose her job for his theft and took her workbench",
+   [
+    "people",
+    "vp_1208.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "765": [
+   "RD_ALifeLine_459cae246ff7d166",
+   "a woman with dark hair pinned back above rumpled scrubs and a wool cardigan",
+   [
+    "people",
+    "vp_1227.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "766": [
+   "RD_ALifeLine_7da861996c0e76b0",
+   "Took Marla's car without permission during her search",
+   [
+    "people",
+    "vp_1227.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "767": [
+   "RD_ALifeLine_350d3e2a4e363aa0",
+   "Speaks only two French courtesies despite her claim",
+   [
+    "people",
+    "vp_1227.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "768": [
+   "RD_ALifeLine_3313cd742f7f3773",
+   "Never returned the church blanket after the 1963 flood",
+   [
+    "people",
+    "vp_1227.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "769": [
+   "RD_ALifeLine_4361396e42f531e7",
+   "Heard Connie's message but pretended the call never came",
+   [
+    "people",
+    "vp_1227.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "770": [
+   "RD_ALifeLine_590b09af35b5ec33",
+   "Drove away while Marla called from the car park",
+   [
+    "people",
+    "vp_1227.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "771": [
+   "RD_ALifeLine_43700608192ee04e",
+   "a young woman with long dark-brown hair and a worn denim jacket",
+   [
+    "people",
+    "vp_1228.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "772": [
+   "RD_ALifeLine_3a767ca77ac0a9de",
+   "Invented a college acceptance letter to obtain a room",
+   [
+    "people",
+    "vp_1228.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "773": [
+   "RD_ALifeLine_50dcd1930a68f8cd",
+   "Sold Rex's record and called it part of her collection",
+   [
+    "people",
+    "vp_1228.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "774": [
+   "RD_ALifeLine_6a2698610134a383",
+   "Slept beside a graveyard after losing her rented room",
+   [
+    "people",
+    "vp_1228.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "775": [
+   "RD_ALifeLine_1529378252fb449f",
+   "Concealed a fall on bus steps behind her walking complaint",
+   [
+    "people",
+    "vp_1228.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "776": [
+   "RD_ALifeLine_46ae3fe9197bd4a1",
+   "Wants Louisville independence despite agreeing to go north",
+   [
+    "people",
+    "vp_1228.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "777": [
+   "RD_ALifeLine_2eec2b827e83e28c",
+   "a grinning young man with close dark hair and rolled shirt sleeves",
+   [
+    "people",
+    "vp_1250.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "778": [
+   "RD_ALifeLine_2a4f40952cbf643a",
+   "Stole Mavis's canner for a motorcycle part",
+   [
+    "people",
+    "vp_1250.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "779": [
+   "RD_ALifeLine_1e152aaa06734693",
+   "Refused a ride and failed his first helper day",
+   [
+    "people",
+    "vp_1250.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "780": [
+   "RD_ALifeLine_52f243d623a6ead7",
+   "Conceals intermittent ringing since a 1987 bell",
+   [
+    "people",
+    "vp_1250.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "781": [
+   "RD_ALifeLine_704cef5a0fa6a5a8",
+   "Forged Mavis's consent on the sale receipt",
+   [
+    "people",
+    "vp_1250.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "782": [
+   "RD_ALifeLine_0ea6732335a996f1",
+   "Shoved Leonard and allowed the false fall account",
+   [
+    "people",
+    "vp_1250.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "783": [
+   "RD_ALifeLine_7005396f051f9e97",
+   "a woman with chestnut hair tied back and a scrubbed work shirt",
+   [
+    "people",
+    "vp_1256.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "784": [
+   "RD_ALifeLine_2581d0304ed9bbe1",
+   "Drove away after striking adult cyclist Morris Dean",
+   [
+    "people",
+    "vp_1256.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "785": [
+   "RD_ALifeLine_042c230569a3f42c",
+   "Concealed infant photographs and fears replacement",
+   [
+    "people",
+    "vp_1256.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "786": [
+   "RD_ALifeLine_2991b59c00adaf60",
+   "Stopped praying after a conversion she still mentions",
+   [
+    "people",
+    "vp_1256.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "787": [
+   "RD_ALifeLine_7c0560842a346e82",
+   "Offered Laurel's work for fuel without her consent",
+   [
+    "people",
+    "vp_1256.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "788": [
+   "RD_ALifeLine_1a1d3b1d7c847de9",
+   "Authored the car booklet credited to her brother",
+   [
+    "people",
+    "vp_1256.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "789": [
+   "RD_ALifeLine_1bab36c028a68baa",
+   "a composed woman with long dark hair and a neatly buttoned work shirt",
+   [
+    "people",
+    "vp_1257.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "790": [
+   "RD_ALifeLine_4cdefdee1e3ff6b3",
+   "Left the duplex before the outbreak warnings",
+   [
+    "people",
+    "vp_1257.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "791": [
+   "RD_ALifeLine_386e11c60773eb20",
+   "Borrowed from Pearl after paying Russell's bills",
+   [
+    "people",
+    "vp_1257.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "792": [
+   "RD_ALifeLine_22cec9a91e19bf9c",
+   "Failed to board the bus and called April",
+   [
+    "people",
+    "vp_1257.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "793": [
+   "RD_ALifeLine_5bc2429369af777f",
+   "Anonymous cloth book cover went to adult reader Evan",
+   [
+    "people",
+    "vp_1257.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "794": [
+   "RD_ALifeLine_12102c1a77e72697",
+   "Offers her own detailed fishing stream drawings",
+   [
+    "people",
+    "vp_1257.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "795": [
+   "RD_ALifeLine_7dd0f85426e006dc",
+   "a broad-faced man with short dark hair and a carefully pressed shirt",
+   [
+    "people",
+    "vp_1258.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "796": [
+   "RD_ALifeLine_28a2bafc1e4e66c4",
+   "Mother Adele, sister Nell and Nell's son Evan",
+   [
+    "people",
+    "vp_1258.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "797": [
+   "RD_ALifeLine_2fb41c3f1e8c622b",
+   "Owes all six hundred borrowed from Grady",
+   [
+    "people",
+    "vp_1258.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "798": [
+   "RD_ALifeLine_4f5a191f72a53c7d",
+   "Nell asked him to stop calling and no longer replies",
+   [
+    "people",
+    "vp_1258.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "799": [
+   "RD_ALifeLine_19c7938c4b555a4d",
+   "Allowed Evan to be blamed for Clint's open gate",
+   [
+    "people",
+    "vp_1258.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "800": [
+   "RD_ALifeLine_1a57e8cd06090fda",
+   "Keeps fifty dollars in the polish tin instead of repaying Grady",
+   [
+    "people",
+    "vp_1258.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "801": [
+   "RD_ALifeLine_7901138b4a71f4ae",
+   "Lost the Christmas trip money on a horse and left Adele alone",
+   [
+    "people",
+    "vp_1258.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "802": [
+   "RD_ALifeLine_49a209c55f5fda94",
+   "a broad young man with neatly clipped brown hair and clean plain cuffs",
+   [
+    "people",
+    "vp_1289.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "803": [
+   "RD_ALifeLine_7bd82b457e5a848e",
+   "Hides eighty-six dollars for a barbell behind the photograph",
+   [
+    "people",
+    "vp_1289.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "804": [
+   "RD_ALifeLine_511c56437512e5ce",
+   "Pretended to know a dead stranger to stop the mockery",
+   [
+    "people",
+    "vp_1289.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "805": [
+   "RD_ALifeLine_556f781d2a547104",
+   "Secretly draws comic pictures of Willie's lifting club",
+   [
+    "people",
+    "vp_1289.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "806": [
+   "RD_ALifeLine_00e835180fcc3dd1",
+   "Falsified Len's timber receipt and kept the difference",
+   [
+    "people",
+    "vp_1289.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "807": [
+   "RD_ALifeLine_7ce505c22f52644e",
+   "Felt momentary relief when brother Reuben died",
+   [
+    "people",
+    "vp_1289.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "808": [
+   "RD_ALifeLine_35a520ca2c13c290",
+   "a young farmhand with close black hair and a clean work shirt collar",
+   [
+    "people",
+    "vp_1296.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "809": [
+   "RD_ALifeLine_1a53afb447f7cba2",
+   "Farmhand on an employer's ground, not a landowner",
+   [
+    "people",
+    "vp_1296.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "810": [
+   "RD_ALifeLine_69a1e84d1941a073",
+   "Left Nube tied despite promising Alonso to bring the dog",
+   [
+    "people",
+    "vp_1296.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "811": [
+   "RD_ALifeLine_61a5e7d609d3346b",
+   "Old machinery injury reduced hearing on one side",
+   [
+    "people",
+    "vp_1296.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "812": [
+   "RD_ALifeLine_56050b3f441e7eee",
+   "Julia's Graceland loan remains unpaid",
+   [
+    "people",
+    "vp_1296.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "813": [
+   "RD_ALifeLine_30e9204b35425d21",
+   "Quietly learned sewing to mend Leticia's keepsake",
+   [
+    "people",
+    "vp_1296.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "814": [
+   "RD_ALifeLine_313271c452a75c78",
+   "a woman with neat dark braids and a well-worn work shirt",
+   [
+    "people",
+    "vp_1297.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "815": [
+   "RD_ALifeLine_0fcb346a6034542e",
+   "Left without taking Simon's message to Jorge",
+   [
+    "people",
+    "vp_1297.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "816": [
+   "RD_ALifeLine_32351758322339bf",
+   "Old unexplained cough predates the new fever",
+   [
+    "people",
+    "vp_1297.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "817": [
+   "RD_ALifeLine_096783950ddbc2cf",
+   "Took Lucia's cloth from reserved family linen",
+   [
+    "people",
+    "vp_1297.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "818": [
+   "RD_ALifeLine_0a25794957d1657c",
+   "Her report caused Berta's dismissal",
+   [
+    "people",
+    "vp_1297.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "819": [
+   "RD_ALifeLine_5f8698d572ce2558",
+   "Keeps Berta's good memories for her adult daughter",
+   [
+    "people",
+    "vp_1297.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "820": [
+   "RD_ALifeLine_33c399f9409c4d5a",
+   "a woman with an ash-brown bob and wire glasses above a soft cardigan",
+   [
+    "people",
+    "vp_1317.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "821": [
+   "RD_ALifeLine_2d99598c1e18b2b9",
+   "Two short attempts to stop drinking; told Ruth the second lasted",
+   [
+    "people",
+    "vp_1317.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "822": [
+   "RD_ALifeLine_7be1b0b0219435eb",
+   "Removed conflicting dates to invent one evacuation plan",
+   [
+    "people",
+    "vp_1317.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "823": [
+   "RD_ALifeLine_77fe99352f12224d",
+   "Used the invented name Elaine Marsh at the clinic",
+   [
+    "people",
+    "vp_1317.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "824": [
+   "RD_ALifeLine_7f4575cc1d8b329a",
+   "Secret romance manuscript by her pen name Gail Stone",
+   [
+    "people",
+    "vp_1317.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "825": [
+   "RD_ALifeLine_562bf4144e8435e7",
+   "Drunken spying accusation led Ruth to cut off contact",
+   [
+    "people",
+    "vp_1317.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "826": [
+   "RD_ALifeLine_049b385d36d0d946",
+   "a lean carpenter with cropped brown hair and a pencil tucked behind his ear",
+   [
+    "people",
+    "vp_1321.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "827": [
+   "RD_ALifeLine_36664e781f73d0ba",
+   "Stopped completing prayers after the farm sale",
+   [
+    "people",
+    "vp_1321.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "828": [
+   "RD_ALifeLine_1efc7e9d23efb44a",
+   "Made Rae a pantry step without claiming credit",
+   [
+    "people",
+    "vp_1321.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "829": [
+   "RD_ALifeLine_6f60d3eb1ca782f9",
+   "Never served despite letting crew members assume it",
+   [
+    "people",
+    "vp_1321.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "830": [
+   "RD_ALifeLine_3fa664a71e868e63",
+   "Has not told Harlan about nausea and a hot spell",
+   [
+    "people",
+    "vp_1321.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "831": [
+   "RD_ALifeLine_495dab5c75fb6118",
+   "Has considered departing without Harlan",
+   [
+    "people",
+    "vp_1321.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "832": [
+   "RD_ALifeLine_7e4c40675bd71b89",
+   "a wiry man with ash-gray hair and a tidy beard above worn denim",
+   [
+    "people",
+    "vp_1322.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "833": [
+   "RD_ALifeLine_160d625202f36a26",
+   "Used Howard Grant with the 1968 relief committee",
+   [
+    "people",
+    "vp_1322.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "834": [
+   "RD_ALifeLine_42f12437495eb327",
+   "Pain began with a 1991 ladder fall",
+   [
+    "people",
+    "vp_1322.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "835": [
+   "RD_ALifeLine_405c443a7301c3f9",
+   "Owes thirty-two dollars taken from worker relief",
+   [
+    "people",
+    "vp_1322.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "836": [
+   "RD_ALifeLine_72d18e802a9cfdf6",
+   "Riverside local hiding behind a traveler story",
+   [
+    "people",
+    "vp_1322.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "837": [
+   "RD_ALifeLine_19ca0d1a10242e02",
+   "Taught Sunday school for belonging despite doubt",
+   [
+    "people",
+    "vp_1322.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "838": [
+   "RD_ALifeLine_086ecd52558c88c0",
+   "a broad-shouldered carpenter with sandy hair and a faded denim jacket",
+   [
+    "people",
+    "vp_1332.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "839": [
+   "RD_ALifeLine_62b8ae97737b9a35",
+   "Two hidden failures to stop smoking",
+   [
+    "people",
+    "vp_1332.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "840": [
+   "RD_ALifeLine_0a703395006f5e60",
+   "Took Leon's thimble without telling Vera",
+   [
+    "people",
+    "vp_1332.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "841": [
+   "RD_ALifeLine_70a319b9642f935e",
+   "Parade band mistaken for military service",
+   [
+    "people",
+    "vp_1332.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "842": [
+   "RD_ALifeLine_4efce0ba74842072",
+   "Forged the timber insurance receipt for forty dollars",
+   [
+    "people",
+    "vp_1332.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "843": [
+   "RD_ALifeLine_1a081f1a462996d8",
+   "Refuses communion over his private belief about Leon's death",
+   [
+    "people",
+    "vp_1332.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "844": [
+   "RD_ALifeLine_53cd747a7c46011d",
+   "a wiry roofer with dark hair tied back and a fitted denim work jacket",
+   [
+    "people",
+    "vp_1338.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "845": [
+   "RD_ALifeLine_4c14258853278c81",
+   "Left the trainees before Dale's ladder fall",
+   [
+    "people",
+    "vp_1338.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "846": [
+   "RD_ALifeLine_2a2210e42fc260c7",
+   "Lost her rented room and hides her need for a bed",
+   [
+    "people",
+    "vp_1338.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "847": [
+   "RD_ALifeLine_754d2c3277737d3e",
+   "Changed the expiry date on her safety card",
+   [
+    "people",
+    "vp_1338.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "848": [
+   "RD_ALifeLine_14c99cb32020bc54",
+   "Gwen lost her job after Elise reported the wage complaint",
+   [
+    "people",
+    "vp_1338.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "849": [
+   "RD_ALifeLine_7da39e007141c4d4",
+   "Sold the memorial quilt to repair her truck",
+   [
+    "people",
+    "vp_1338.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "850": [
+   "RD_ALifeLine_497c7cef51f976e3",
+   "a neatly dressed librarian with a chestnut bob and a soft knitted cardigan",
+   [
+    "people",
+    "vp_1345.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "851": [
+   "RD_ALifeLine_7c57b1bd2daffb90",
+   "Used Mrs Vale for visits to Colin's prison",
+   [
+    "people",
+    "vp_1345.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "852": [
+   "RD_ALifeLine_02e18008040f714a",
+   "Colin refuses the visits she keeps requesting",
+   [
+    "people",
+    "vp_1345.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "853": [
+   "RD_ALifeLine_576935e272c16a0e",
+   "Forged Ellis's acknowledgment of the will",
+   [
+    "people",
+    "vp_1345.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "854": [
+   "RD_ALifeLine_3c79cfc64c8b6809",
+   "Falsely withdrew and sold thirty donated books",
+   [
+    "people",
+    "vp_1345.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "855": [
+   "RD_ALifeLine_2935fe304257422e",
+   "Burned Colin's admission and left a neighbor under suspicion",
+   [
+    "people",
+    "vp_1345.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "856": [
+   "RD_ALifeLine_5b5d2684659b285f",
+   "a poised pianist with long chestnut hair and a dark denim jacket",
+   [
+    "people",
+    "vp_1349.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "857": [
+   "RD_ALifeLine_1e01dc9c4fe439b6",
+   "Left the stranger calling from the road beside the cellar stair",
+   [
+    "people",
+    "vp_1349.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "858": [
+   "RD_ALifeLine_0bca34da74b98e9d",
+   "Wrote Otis's piano arrangements anonymously",
+   [
+    "people",
+    "vp_1349.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "859": [
+   "RD_ALifeLine_1ad8a66c23e834f7",
+   "Ran from the 1981 solo set despite her boast",
+   [
+    "people",
+    "vp_1349.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "860": [
+   "RD_ALifeLine_36b566d9657e98fa",
+   "Took the furnace benefit pot with marked cards",
+   [
+    "people",
+    "vp_1349.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "861": [
+   "RD_ALifeLine_1ee7e7d57c93edff",
+   "Washed Arlen's car after his admitted hit and run",
+   [
+    "people",
+    "vp_1349.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "862": [
+   "RD_ALifeLine_35f6a2c844ec2f39",
+   "a reserved school cook with a careful dark braid and a neatly fastened cardigan",
+   [
+    "people",
+    "vp_1353.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "863": [
+   "RD_ALifeLine_709cb4f25dfd129d",
+   "Covered the canning-jar cut to her left calf",
+   [
+    "people",
+    "vp_1353.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "864": [
+   "RD_ALifeLine_120c989c424c9cfe",
+   "Owes Lottie sixty dollars from the hidden Nashville bet",
+   [
+    "people",
+    "vp_1353.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "865": [
+   "RD_ALifeLine_27cd072d70ede208",
+   "Prayed for Ada's waiting to end and feels guilty",
+   [
+    "people",
+    "vp_1353.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "866": [
+   "RD_ALifeLine_06d7bfb45c3dfa83",
+   "Let Lottie bury the ashes despite Ada's wish",
+   [
+    "people",
+    "vp_1353.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "867": [
+   "RD_ALifeLine_365118fc555fe9be",
+   "Set the cabin fire and called it an accident",
+   [
+    "people",
+    "vp_1353.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "868": [
+   "RD_ALifeLine_150746855e499484",
+   "a composed woman with a chestnut bun and a carefully fastened cardigan",
+   [
+    "people",
+    "vp_1381.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "869": [
+   "RD_ALifeLine_196de1397f888c25",
+   "Washed Renee's blouse after promising not to, shrinking its cuffs",
+   [
+    "people",
+    "vp_1381.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "870": [
+   "RD_ALifeLine_5ab659f06490a387",
+   "Passed bought peaches off as her own crop and preserving",
+   [
+    "people",
+    "vp_1381.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "871": [
+   "RD_ALifeLine_02ae6eda4492bd9b",
+   "Still owes Clarice two hundred and twenty for the car",
+   [
+    "people",
+    "vp_1381.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "872": [
+   "RD_ALifeLine_089b46f92e4b3937",
+   "Charged Mrs Wentz for four hours after doing two",
+   [
+    "people",
+    "vp_1381.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "873": [
+   "RD_ALifeLine_1597e6fa165d1287",
+   "Separated from Elmer since 1984 and does not want to reunite",
+   [
+    "people",
+    "vp_1381.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "874": [
+   "RD_ALifeLine_39e02cfe222967f4",
+   "an elderly woman with softly pinned silver hair and a knitted scarf",
+   [
+    "people",
+    "vp_1387.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "875": [
+   "RD_ALifeLine_25a67c6e4bdb5293",
+   "Conceals arthritis diagnosed in 1987 from son Merle",
+   [
+    "people",
+    "vp_1387.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "876": [
+   "RD_ALifeLine_44d323ff5e47d139",
+   "Cried privately for both husbands despite denying it",
+   [
+    "people",
+    "vp_1387.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "877": [
+   "RD_ALifeLine_48007384016fe165",
+   "Left for Lexington without telling Oren in 1972",
+   [
+    "people",
+    "vp_1387.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "878": [
+   "RD_ALifeLine_2789183b70f278f0",
+   "Covered Lester's 1981 night in jail with a farm-work account",
+   [
+    "people",
+    "vp_1387.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "879": [
+   "RD_ALifeLine_37e8bc4a1c2c39d3",
+   "Secretly saw Basil for three months in 1962 while married",
+   [
+    "people",
+    "vp_1387.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "880": [
+   "RD_ALifeLine_041ba524535062f3",
+   "a lean man with cropped dark hair and a tidy beard above worn denim",
+   [
+    "people",
+    "vp_1399.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "881": [
+   "RD_ALifeLine_1576a2b4692ac644",
+   "Stole Ada's Bible to sell, kept it and denied seeing it",
+   [
+    "people",
+    "vp_1399.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "882": [
+   "RD_ALifeLine_5e4e8dae6f0d05ba",
+   "Claimed high-school completion after leaving ninth grade",
+   [
+    "people",
+    "vp_1399.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "883": [
+   "RD_ALifeLine_756d02bf457669e5",
+   "Conceals the 1986 roofing fall and broken left leg from employers",
+   [
+    "people",
+    "vp_1399.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "884": [
+   "RD_ALifeLine_159cd7cc5f381423",
+   "Wrote a false reference under Roy Kellum's name in 1990",
+   [
+    "people",
+    "vp_1399.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "885": [
+   "RD_ALifeLine_2a42f9234bd3cc35",
+   "Still remembers the private guitar tune he wrote for baby Corey",
+   [
+    "people",
+    "vp_1399.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "886": [
+   "RD_ALifeLine_6eed23634dd4c3e1",
+   "a neat young man with short chestnut hair and a loosened tie",
+   [
+    "people",
+    "vp_1410.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "887": [
+   "RD_ALifeLine_7ecbecd24a21683a",
+   "Left Orval at the Radcliff shop after promising to wait",
+   [
+    "people",
+    "vp_1410.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "888": [
+   "RD_ALifeLine_6fd2dba60ff99de6",
+   "Collected eighty dollars for invented insurance journeys in 1986",
+   [
+    "people",
+    "vp_1410.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "889": [
+   "RD_ALifeLine_03415e616ec0f054",
+   "Accepted a sales territory before the wedding after promising Celia to stop",
+   [
+    "people",
+    "vp_1410.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "890": [
+   "RD_ALifeLine_4a2da7f062dd6d54",
+   "Still carries the tie and savings hidden from Celia during divorce",
+   [
+    "people",
+    "vp_1410.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "891": [
+   "RD_ALifeLine_67f607e42b09dcb0",
+   "Reported Elsie despite knowing she had replaced the till money",
+   [
+    "people",
+    "vp_1410.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "892": [
+   "RD_ALifeLine_0580153c78dd2ceb",
+   "a tidy man with cropped dark hair and a carefully buttoned work shirt",
+   [
+    "people",
+    "vp_1435.desc",
+    "kişi tarifi"
+   ]
+  ],
+  "893": [
+   "RD_ALifeLine_5d5f3b2e7fe2f861",
+   "Three failed store restarts hidden behind the claim of one bad year",
+   [
+    "people",
+    "vp_1435.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "894": [
+   "RD_ALifeLine_57967431407a1370",
+   "The brother in the Guard is invented; Dewayne has only sister Janice",
+   [
+    "people",
+    "vp_1435.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "895": [
+   "RD_ALifeLine_6d63d1c569459c33",
+   "Paid for May's deliberate window break and blamed a branch",
+   [
+    "people",
+    "vp_1435.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "896": [
+   "RD_ALifeLine_20bab7ac4e3b17d7",
+   "Stole Ruth's cash with her spare key and let her blame an intruder",
+   [
+    "people",
+    "vp_1435.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ],
+  "897": [
+   "RD_ALifeLine_2e2e588d1e3c1acc",
+   "Conceals Dr Nessel's 1990 panic-attack diagnosis from Janice",
+   [
+    "people",
+    "vp_1435.facts",
+    "oyuncunun öğrendiği bilgi"
+   ]
+  ]
+ }
+}

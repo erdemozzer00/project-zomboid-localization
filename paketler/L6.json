@@ -1,0 +1,62 @@
+{
+    "_paket": "L6 — Oyuncu bildirimleri ve uzaktan duyulan uyarılar (K46, Claude çevirisi)",
+    "_dosya": "IG_UI_lua",
+    "satirlar": {
+        "IGUI_ALifeUI_764ff65b11937a10": {
+            "tr": "Konuşmak için kapıya yaklaş",
+            "not": "Oyuncu bildirimi (Talk.typedNotices → Party.notice → SafehouseClient.notice, ek)."
+        },
+        "IGUI_ALifeUI_570b5e5f341e44d5": {
+            "tr": "Şu an cevap veremiyor",
+            "not": "Oyuncu bildirimi (Talk.typedNotices → Party.notice → SafehouseClient.notice, ek)."
+        },
+        "IGUI_ALifeUI_1de2d12105c4cabf": {
+            "tr": "Şimdi olmaz! Çatışma ya da tehlike geçince Konuş'u tekrar dene",
+            "not": "Oyuncu bildirimi (Talk.typedNotices → Party.notice → SafehouseClient.notice, ek)."
+        },
+        "IGUI_ALifeUI_1c9bb8155dbe88c4": {
+            "tr": "Konuşamayacak kadar acı çekiyor. İyileşmesine yardım et, sonra tekrar dene",
+            "not": "Oyuncu bildirimi (Talk.typedNotices → Party.notice → SafehouseClient.notice, ek)."
+        },
+        "IGUI_ALifeUI_29fc3fa806b30124": {
+            "tr": "Burada takas yok. Teklif görmek için bir tüccarla Konuş'u aç",
+            "not": "Oyuncu bildirimi (Talk.typedNotices → Party.notice → SafehouseClient.notice, ek)."
+        },
+        "IGUI_ALifeUI_4ecc486d0423b86c": {
+            "tr": "Şu an takas teklif edemiyor. Konuş'u sonra tekrar dene",
+            "not": "Oyuncu bildirimi (Talk.typedNotices → Party.notice → SafehouseClient.notice, ek)."
+        },
+        "IGUI_ALifeUI_4a4c70f328d76442": {
+            "tr": "Son takası daha bitmedi. Konuş'u sonra tekrar dene",
+            "not": "Oyuncu bildirimi (Talk.typedNotices → Party.notice → SafehouseClient.notice, ek)."
+        },
+        "IGUI_ALifeUI_6d26e1713d706f70": {
+            "tr": "Takas etmeden önce kapıyı aç",
+            "not": "Oyuncu bildirimi (Talk.typedNotices → Party.notice → SafehouseClient.notice, ek)."
+        },
+        "IGUI_ALifeUI_0ecadae5234c8fe3": {
+            "tr": "Yoldan büyük, silahlı bir grup geliyormuş. Güvenli bir yere geç",
+            "not": "Haber bildirimi (Standoff.notify → Input.showNotice, Text.ui)."
+        },
+        "IGUI_ALifeUI_37d820a82bea9727": {
+            "tr": "Üç grup az önce birlikte yola çıkmış. Gözün yolda olsun",
+            "not": "Haber bildirimi (Standoff.notify → Input.showNotice, Text.ui)."
+        },
+        "IGUI_ALifeUI_3ef4edd04295a55c": {
+            "tr": "İleriden insanların sana geri dön diye bağırdığını duyuyorsun",
+            "not": "Uzaktan duyulan uyarı (Careful.heardWords → Careful.relay, ek; setHaloNote)."
+        },
+        "IGUI_ALifeUI_463836a57465b0e4": {
+            "tr": "İleriden çatışma sesi geliyor, biri sana uzak dur diye bağırıyor",
+            "not": "Uzaktan duyulan uyarı (Careful.heardWords → Careful.relay, ek; setHaloNote)."
+        },
+        "IGUI_ALifeUI_5d82728e30b6b10a": {
+            "tr": "Yine bağırıyorlar, son uyarı gibi duruyor",
+            "not": "Uzaktan duyulan uyarı (Careful.heardWords → Careful.relay, ek; setHaloNote)."
+        },
+        "IGUI_ALifeUI_43ce4e4728e38168": {
+            "tr": "Sana geri çekil diye bağırıyorlar, uzaklaş oradan",
+            "not": "Uzaktan duyulan uyarı (Careful.heardWords → Careful.relay, ek; setHaloNote)."
+        }
+    }
+}

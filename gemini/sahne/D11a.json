@@ -1,0 +1,22 @@
+{
+ "_baslik": "Evet cevapları: NPC bir şey sordu ya da teklif etti, oyuncu EVET dedi; NPC'nin tepkisi",
+ "_genel": "Bu dosyadaki HER satırda oyuncu NPC'nin sorusuna/teklifine EVET dedi; satır NPC'nin buna tepkisi. Olay adı sorunun ne olduğunu gösterir. Bütün rollerden NPC'ler (sivil, aile, kolluk, asker, haydut, çete…); kim konuştuğu reg/role etiketinde, oyuncuya tutumu st etiketinde. NPC DOĞRUDAN OYUNCUYA konuşuyor: tekil 'sen'. Sesi role ve tutuma göre kur (sivil ürkek ya da sıcak, asker/polis kısa ve mesafeli, haydut kaba).",
+ "JOIN_GROUP": "NPC oyuncuya 'bizim gruba katılmak ister misin' diye sormuştu.",
+ "JOIN_REQUEST": "Gruba katılma meselesi açılmıştı (NPC sordu ya da istedi); satırın kendisinden kimin kime katıldığını çıkar.",
+ "HELP_THEM": "NPC oyuncudan yardım istemişti.",
+ "TRADE_OFFER": "NPC takas teklif etmişti.",
+ "ASK_TRADE": "Takas konusu açılmıştı.",
+ "WALK_TOGETHER": "NPC 'biraz birlikte yürüyelim mi' diye sormuştu.",
+ "STAY_NIGHT": "NPC 'geceyi yanında/burada geçirebilir miyim' diye sormuştu.",
+ "SHARE_FOOD": "NPC oyuncudan yiyecek paylaşmasını istemişti.",
+ "LEAVE_NOW": "NPC oyuncudan gitmesini istemişti.",
+ "SHOW_ARMS": "NPC ısırık var mı diye oyuncudan kollarını göstermesini istemişti.",
+ "TELL_MORE": "NPC bir şey anlatırken 'devam edeyim mi / daha anlatayım mı' diye sormuştu.",
+ "COME_WITH_ME": "Birlikte gitme teklifi açılmıştı.",
+ "PLAYER_BITTEN": "NPC 'ısırıldın mı?' diye sormuştu (EVET = ısırıldım, HAYIR = ısırılmadım).",
+ "SURRENDER": "Teslim olma / canını bağışlama konusu (NPC yalvarmıştı).",
+ "GIVE_BACK": "Alınan eşyanın geri verilmesi konusu.",
+ "NPC_OPEN": "NPC açılışta 'iyi misin / her şey yolunda mı' gibi bir şey sormuştu.",
+ "GENERIC": "Genel bir soruya verilen cevap.",
+ "ASK_*": "Oyuncu bu konuda soru sormuş, NPC cevap verip 'daha bilmek ister misin / dinler misin' gibi bir şey sormuştu."
+}

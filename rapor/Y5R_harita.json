@@ -1,0 +1,1446 @@
+{
+  "_paket": "Y5R",
+  "_grup": "agac_arayuz",
+  "_dosya": "IG_UI_lua",
+  "_noktalama": false,
+  "_baslik": "Y5 yeniden çeviri · eski Türkçe gösterilmez",
+  "_parcalar": [
+    [
+      1,
+      159
+    ]
+  ],
+  "satirlar": {
+    "1": [
+      "IGUI_ALifeUI_7c86f8b35bc59c3d",
+      "Info",
+      [
+        "ALifeUI2TalkTrees.lua",
+        "labels",
+        "Info"
+      ]
+    ],
+    "2": [
+      "IGUI_ALifeUI_73e34b1d6551ab17",
+      "Can you spare some help?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_HELP",
+        "text"
+      ]
+    ],
+    "3": [
+      "IGUI_ALifeUI_184c27864b70c4bb",
+      "They weigh what they can give",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_HELP",
+        "impact"
+      ]
+    ],
+    "4": [
+      "IGUI_ALifeUI_57e525e25c584a9f",
+      "I'm short on food",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_HELP_A",
+        "text"
+      ]
+    ],
+    "5": [
+      "IGUI_ALifeUI_4e40a4d111897f54",
+      "They say what they can spare",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_HELP_A",
+        "impact"
+      ]
+    ],
+    "6": [
+      "IGUI_ALifeUI_0576077307af77fa",
+      "I'll pay you back",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_HELP_A1",
+        "text"
+      ]
+    ],
+    "7": [
+      "IGUI_ALifeUI_1b53f7e43aeee24b",
+      "A deal starts to take shape",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_HELP_A1",
+        "impact"
+      ]
+    ],
+    "8": [
+      "IGUI_ALifeUI_6127b9425be43df5",
+      "Shake on it",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_HELP_A2",
+        "text"
+      ]
+    ],
+    "9": [
+      "IGUI_ALifeUI_721c6d104050997f",
+      "They'll remember the deal",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_HELP_A2",
+        "impact"
+      ]
+    ],
+    "10": [
+      "IGUI_ALifeUI_69c7a38656c8ec78",
+      "I've helped people around here",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_HELP_B",
+        "text"
+      ]
+    ],
+    "11": [
+      "IGUI_ALifeUI_41ab9891065d03ce",
+      "Your name carries some weight",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_HELP_B",
+        "impact"
+      ]
+    ],
+    "12": [
+      "IGUI_ALifeUI_0555770a1c8a2ea0",
+      "Then I'll ask for a bigger favour",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_HELP_B1",
+        "text"
+      ]
+    ],
+    "13": [
+      "IGUI_ALifeUI_2503f5bb09f09c0f",
+      "They size up how far they'll go",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_HELP_B1",
+        "impact"
+      ]
+    ],
+    "14": [
+      "IGUI_ALifeUI_29cca89e462a8a47",
+      "Forget it, I'll manage",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_HELP_C",
+        "text"
+      ]
+    ],
+    "15": [
+      "IGUI_ALifeUI_45d46c7c59b5b012",
+      "You leave the door open",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_HELP_C",
+        "impact"
+      ]
+    ],
+    "16": [
+      "IGUI_ALifeUI_660bc7a72efc1cc8",
+      "Can we swap some things?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_TRADE",
+        "text"
+      ]
+    ],
+    "17": [
+      "IGUI_ALifeUI_48c48a2612d95fd2",
+      "They tell you what they're short of",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_TRADE_A",
+        "impact"
+      ]
+    ],
+    "18": [
+      "IGUI_ALifeUI_13e9e4cc1387465d",
+      "I'll keep an eye out for it",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_TRADE_A1",
+        "text"
+      ]
+    ],
+    "19": [
+      "IGUI_ALifeUI_18f25f2162f95695",
+      "They'll remember you offered",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_TRADE_A1",
+        "impact"
+      ]
+    ],
+    "20": [
+      "IGUI_ALifeUI_71ca41004d44d398",
+      "What would you pay for it?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_TRADE_A2",
+        "text"
+      ]
+    ],
+    "21": [
+      "IGUI_ALifeUI_5c4328a77291ceb9",
+      "They name something real",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_TRADE_A2",
+        "impact"
+      ]
+    ],
+    "22": [
+      "IGUI_ALifeUI_64ad03ed7e725581",
+      "I can fix things",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_TRADE_B",
+        "text"
+      ]
+    ],
+    "23": [
+      "IGUI_ALifeUI_42118aae6e7986fa",
+      "Your hands are worth something",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_TRADE_B",
+        "impact"
+      ]
+    ],
+    "24": [
+      "IGUI_ALifeUI_2aac5a7a43d29240",
+      "Needs mechanics skill",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_TRADE_B",
+        "risk"
+      ]
+    ],
+    "25": [
+      "IGUI_ALifeUI_7e706c67056bad55",
+      "Name a job and a price",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_TRADE_B1",
+        "text"
+      ]
+    ],
+    "26": [
+      "IGUI_ALifeUI_19ae06a27bf57b46",
+      "They put a price on your skill",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_TRADE_B1",
+        "impact"
+      ]
+    ],
+    "27": [
+      "IGUI_ALifeUI_4d586af31cfc10e6",
+      "Never mind, just looking",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_TRADE_C",
+        "text"
+      ]
+    ],
+    "28": [
+      "IGUI_ALifeUI_390dac3a1b22fa00",
+      "No harm done",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_TRADE_C",
+        "impact"
+      ]
+    ],
+    "29": [
+      "IGUI_ALifeUI_6a81b81b30593064",
+      "Tell me about this area",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_AREA",
+        "text"
+      ]
+    ],
+    "30": [
+      "IGUI_ALifeUI_3e4afc4b79709bf5",
+      "They talk about what they know",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_AREA",
+        "impact"
+      ]
+    ],
+    "31": [
+      "IGUI_ALifeUI_757ea5856c7e0542",
+      "Where is it dangerous?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_AREA_A",
+        "text"
+      ]
+    ],
+    "32": [
+      "IGUI_ALifeUI_5ceb826513dba04e",
+      "They point out the bad spots",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_AREA_A",
+        "impact"
+      ]
+    ],
+    "33": [
+      "IGUI_ALifeUI_2a5b20156d1c70f2",
+      "How do I avoid it?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_AREA_A1",
+        "text"
+      ]
+    ],
+    "34": [
+      "IGUI_ALifeUI_788530fc147588b1",
+      "Free advice on staying unseen",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_AREA_A1",
+        "impact"
+      ]
+    ],
+    "35": [
+      "IGUI_ALifeUI_07354d996bb5e25a",
+      "Anywhere worth searching?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_AREA_B",
+        "text"
+      ]
+    ],
+    "36": [
+      "IGUI_ALifeUI_4cdff71c23e215b2",
+      "They hint at untouched places",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_AREA_B",
+        "impact"
+      ]
+    ],
+    "37": [
+      "IGUI_ALifeUI_2e3457c22df6801e",
+      "Anyone else been through there?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_AREA_B1",
+        "text"
+      ]
+    ],
+    "38": [
+      "IGUI_ALifeUI_66e0ef75060a16f6",
+      "They say who's been around",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_AREA_B1",
+        "impact"
+      ]
+    ],
+    "39": [
+      "IGUI_ALifeUI_01e13b40645891b3",
+      "Where would you sleep around here?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_AREA_C",
+        "text"
+      ]
+    ],
+    "40": [
+      "IGUI_ALifeUI_44df72dd09c0ae7b",
+      "They name a quiet corner",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_AREA_C",
+        "impact"
+      ]
+    ],
+    "41": [
+      "IGUI_ALifeUI_44797df445b6a7c2",
+      "They tell you how they see themselves",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FACTION",
+        "impact"
+      ]
+    ],
+    "42": [
+      "IGUI_ALifeUI_49e41dce439bf029",
+      "How long have you been together?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FACTION_A",
+        "text"
+      ]
+    ],
+    "43": [
+      "IGUI_ALifeUI_07f6bb1c2cb5fe8d",
+      "They tell you how it started",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FACTION_A",
+        "impact"
+      ]
+    ],
+    "44": [
+      "IGUI_ALifeUI_3a0b4da8193064cd",
+      "What do you want out here?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FACTION_A1",
+        "text"
+      ]
+    ],
+    "45": [
+      "IGUI_ALifeUI_20445d4a6fcef702",
+      "They tell you what they're after",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FACTION_A1",
+        "impact"
+      ]
+    ],
+    "46": [
+      "IGUI_ALifeUI_33c7b0ee7a14ef75",
+      "Who are your enemies?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FACTION_A2",
+        "text"
+      ]
+    ],
+    "47": [
+      "IGUI_ALifeUI_0212836419465b56",
+      "They name who to be careful of",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FACTION_A2",
+        "impact"
+      ]
+    ],
+    "48": [
+      "IGUI_ALifeUI_130f7a650fbc61c3",
+      "Could I ever run with you?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FACTION_B",
+        "text"
+      ]
+    ],
+    "49": [
+      "IGUI_ALifeUI_68c11d6b4866c62b",
+      "They weigh whether you could join",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FACTION_B",
+        "impact"
+      ]
+    ],
+    "50": [
+      "IGUI_ALifeUI_392ae1a32c4614bd",
+      "What would I have to prove?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FACTION_B1",
+        "text"
+      ]
+    ],
+    "51": [
+      "IGUI_ALifeUI_6704af5e320f54dc",
+      "They tell you what counts",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FACTION_B1",
+        "impact"
+      ]
+    ],
+    "52": [
+      "IGUI_ALifeUI_1976dfb516db6656",
+      "How do you keep watch?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FACTION_C",
+        "text"
+      ]
+    ],
+    "53": [
+      "IGUI_ALifeUI_17498c4e49530bb6",
+      "They tell you how they stay alive",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FACTION_C",
+        "impact"
+      ]
+    ],
+    "54": [
+      "IGUI_ALifeUI_200d25eb47802a14",
+      "Seen anything dangerous lately?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_THREAT",
+        "text"
+      ]
+    ],
+    "55": [
+      "IGUI_ALifeUI_537cc99f55369512",
+      "They tell you what's close",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_THREAT",
+        "impact"
+      ]
+    ],
+    "56": [
+      "IGUI_ALifeUI_546ca4ec40658afc",
+      "They tell you what they counted",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_THREAT_A",
+        "impact"
+      ]
+    ],
+    "57": [
+      "IGUI_ALifeUI_3341503956b0ac83",
+      "They point you away from trouble",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_THREAT_A1",
+        "impact"
+      ]
+    ],
+    "58": [
+      "IGUI_ALifeUI_7f1d8a4d1c26068c",
+      "I can deal with it",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_THREAT_B",
+        "text"
+      ]
+    ],
+    "59": [
+      "IGUI_ALifeUI_5f7a4c1031ffc02d",
+      "They look at how you carry yourself",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_THREAT_B",
+        "impact"
+      ]
+    ],
+    "60": [
+      "IGUI_ALifeUI_7fee3cf617c6c35d",
+      "Needs aiming skill",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_THREAT_B",
+        "risk"
+      ]
+    ],
+    "61": [
+      "IGUI_ALifeUI_071d004a4a4b41d2",
+      "Then watch my back",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_THREAT_B1",
+        "text"
+      ]
+    ],
+    "62": [
+      "IGUI_ALifeUI_1e6ed7a82b5b59d2",
+      "They agree to cover you",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_THREAT_B1",
+        "impact"
+      ]
+    ],
+    "63": [
+      "IGUI_ALifeUI_5af5d9a115223f4d",
+      "They nod and let it go",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_THREAT_C",
+        "impact"
+      ]
+    ],
+    "64": [
+      "IGUI_ALifeUI_14b5d4794f4e83fc",
+      "Any chance of a place to rest?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_SHELTER",
+        "text"
+      ]
+    ],
+    "65": [
+      "IGUI_ALifeUI_3a8112441ac7e245",
+      "They think about where you could stay",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_SHELTER",
+        "impact"
+      ]
+    ],
+    "66": [
+      "IGUI_ALifeUI_6eeb87791222badf",
+      "Just for tonight",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_SHELTER_A",
+        "text"
+      ]
+    ],
+    "67": [
+      "IGUI_ALifeUI_722fa0016e2ebaae",
+      "They decide whether to trust you",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_SHELTER_A",
+        "impact"
+      ]
+    ],
+    "68": [
+      "IGUI_ALifeUI_7cc8a7f41159cf89",
+      "I'll keep watch",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_SHELTER_A1",
+        "text"
+      ]
+    ],
+    "69": [
+      "IGUI_ALifeUI_57dae39026b68866",
+      "They like that you're offering",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_SHELTER_A1",
+        "impact"
+      ]
+    ],
+    "70": [
+      "IGUI_ALifeUI_078cbecb41677194",
+      "Wake me if anything moves",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_SHELTER_A2",
+        "text"
+      ]
+    ],
+    "71": [
+      "IGUI_ALifeUI_1723cb103bda6c27",
+      "You rest with one ear open",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_SHELTER_A2",
+        "impact"
+      ]
+    ],
+    "72": [
+      "IGUI_ALifeUI_35524a7c4d45fb3c",
+      "I can pay for it",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_SHELTER_B",
+        "text"
+      ]
+    ],
+    "73": [
+      "IGUI_ALifeUI_4388447d50fb996c",
+      "They name a price for the roof",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_SHELTER_B",
+        "impact"
+      ]
+    ],
+    "74": [
+      "IGUI_ALifeUI_7fb84e99445c95f6",
+      "I'll bring it by morning",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_SHELTER_B1",
+        "text"
+      ]
+    ],
+    "75": [
+      "IGUI_ALifeUI_2de864d1691f13f0",
+      "They'll hold you to it",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_SHELTER_B1",
+        "impact"
+      ]
+    ],
+    "76": [
+      "IGUI_ALifeUI_231df1cd205aa554",
+      "Maybe somewhere nearby then",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_SHELTER_C",
+        "text"
+      ]
+    ],
+    "77": [
+      "IGUI_ALifeUI_4a4f5f0f52c2a4aa",
+      "They point somewhere else",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_SHELTER_C",
+        "impact"
+      ]
+    ],
+    "78": [
+      "IGUI_ALifeUI_659cef0e3cbc29d0",
+      "Could I join your group?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_JOIN",
+        "text"
+      ]
+    ],
+    "79": [
+      "IGUI_ALifeUI_5cb91d774ab458bd",
+      "They think about whether you fit",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_JOIN",
+        "impact"
+      ]
+    ],
+    "80": [
+      "IGUI_ALifeUI_78c6ba4377ece95d",
+      "They tell you what the group lacks",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_JOIN_A",
+        "impact"
+      ]
+    ],
+    "81": [
+      "IGUI_ALifeUI_663f9a5c5a308dd2",
+      "I can do that",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_JOIN_A1",
+        "text"
+      ]
+    ],
+    "82": [
+      "IGUI_ALifeUI_1634f42b735fa588",
+      "They test you with a question",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_JOIN_A1",
+        "impact"
+      ]
+    ],
+    "83": [
+      "IGUI_ALifeUI_677092d5083fb829",
+      "I'll bring supplies",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_JOIN_B",
+        "text"
+      ]
+    ],
+    "84": [
+      "IGUI_ALifeUI_249e65060765c9fe",
+      "A gift opens the conversation",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_JOIN_B",
+        "impact"
+      ]
+    ],
+    "85": [
+      "IGUI_ALifeUI_4637bd2f6a461311",
+      "How much would be enough?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_JOIN_B1",
+        "text"
+      ]
+    ],
+    "86": [
+      "IGUI_ALifeUI_1097a6c63f6abf2f",
+      "They name what it takes",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_JOIN_B1",
+        "impact"
+      ]
+    ],
+    "87": [
+      "IGUI_ALifeUI_4dc173ac06aad152",
+      "I'm not ready, just asking",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_JOIN_C",
+        "text"
+      ]
+    ],
+    "88": [
+      "IGUI_ALifeUI_44c479ba45d75638",
+      "You leave it for later",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_JOIN_C",
+        "impact"
+      ]
+    ],
+    "89": [
+      "IGUI_ALifeUI_0cca68430d4468c7",
+      "Easy, nobody wants trouble here",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_CALM",
+        "text"
+      ]
+    ],
+    "90": [
+      "IGUI_ALifeUI_5b6876e03a9e3eaf",
+      "You try to cool things down",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_CALM",
+        "impact"
+      ]
+    ],
+    "91": [
+      "IGUI_ALifeUI_0103e6270e68644e",
+      "I'm putting my weapon down",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_CALM_A",
+        "text"
+      ]
+    ],
+    "92": [
+      "IGUI_ALifeUI_441ad96230380f8f",
+      "You show you mean it",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_CALM_A",
+        "impact"
+      ]
+    ],
+    "93": [
+      "IGUI_ALifeUI_3773c0e07426c1f8",
+      "Now tell me what's wrong",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_CALM_A1",
+        "text"
+      ]
+    ],
+    "94": [
+      "IGUI_ALifeUI_7d08f5183ed115c0",
+      "They start to open up",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_CALM_A1",
+        "impact"
+      ]
+    ],
+    "95": [
+      "IGUI_ALifeUI_19c596bd3653cc14",
+      "Look around, we're both outnumbered",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_CALM_B",
+        "text"
+      ]
+    ],
+    "96": [
+      "IGUI_ALifeUI_32c3278b155a468c",
+      "You change how they see the odds",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_CALM_B",
+        "impact"
+      ]
+    ],
+    "97": [
+      "IGUI_ALifeUI_15ece8410adf381f",
+      "Let's both walk away",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_CALM_B1",
+        "text"
+      ]
+    ],
+    "98": [
+      "IGUI_ALifeUI_56728e4d2deb74c9",
+      "You offer a way out",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_CALM_B1",
+        "impact"
+      ]
+    ],
+    "99": [
+      "IGUI_ALifeUI_683dcd20606139ac",
+      "I'll walk away, no harm done",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_CALM_C",
+        "text"
+      ]
+    ],
+    "100": [
+      "IGUI_ALifeUI_3506daad29ebef64",
+      "You back off",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_CALM_C",
+        "impact"
+      ]
+    ],
+    "101": [
+      "IGUI_ALifeUI_7812494331579894",
+      "Lower your weapon, we can talk",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_STAND",
+        "text"
+      ]
+    ],
+    "102": [
+      "IGUI_ALifeUI_755f76637d8d417a",
+      "You test how far they'll go",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_STAND",
+        "impact"
+      ]
+    ],
+    "103": [
+      "IGUI_ALifeUI_7d9e91036a164c22",
+      "I'll lower mine too",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_STAND_A",
+        "text"
+      ]
+    ],
+    "104": [
+      "IGUI_ALifeUI_4c4d7ed1602b96b9",
+      "You trade trust for trust",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_STAND_A",
+        "impact"
+      ]
+    ],
+    "105": [
+      "IGUI_ALifeUI_12474d5844c76889",
+      "Now, who sent you?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_STAND_A1",
+        "text"
+      ]
+    ],
+    "106": [
+      "IGUI_ALifeUI_3c5d20c05bdf88a6",
+      "They start explaining themselves",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_STAND_A1",
+        "impact"
+      ]
+    ],
+    "107": [
+      "IGUI_ALifeUI_3fe393e60181c32a",
+      "Last chance, lower it",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_STAND_B",
+        "text"
+      ]
+    ],
+    "108": [
+      "IGUI_ALifeUI_56e382b0394ea0d6",
+      "You press them hard",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_STAND_B",
+        "impact"
+      ]
+    ],
+    "109": [
+      "IGUI_ALifeUI_077ba91672a1073f",
+      "Hand it over",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_STAND_B1",
+        "text"
+      ]
+    ],
+    "110": [
+      "IGUI_ALifeUI_796290d33a07dfa2",
+      "They decide how scared they are",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_STAND_B1",
+        "impact"
+      ]
+    ],
+    "111": [
+      "IGUI_ALifeUI_035ea9b7346a84cc",
+      "Fine, keep it, just stay back",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_STAND_C",
+        "text"
+      ]
+    ],
+    "112": [
+      "IGUI_ALifeUI_1c7538a817e840cf",
+      "You give ground",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_STAND_C",
+        "impact"
+      ]
+    ],
+    "113": [
+      "IGUI_ALifeUI_51aa3cdf42410f7c",
+      "Good to see you again",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_REUNION",
+        "text"
+      ]
+    ],
+    "114": [
+      "IGUI_ALifeUI_2822b98a7c76ef51",
+      "They remember you",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_REUNION",
+        "impact"
+      ]
+    ],
+    "115": [
+      "IGUI_ALifeUI_6e2bb1a245f91e24",
+      "They tell you how the days went",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_REUNION_A",
+        "impact"
+      ]
+    ],
+    "116": [
+      "IGUI_ALifeUI_318e3bf619f2c90c",
+      "Anything new since?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_REUNION_A1",
+        "text"
+      ]
+    ],
+    "117": [
+      "IGUI_ALifeUI_1695fa06342ec454",
+      "They bring you up to date",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_REUNION_A1",
+        "impact"
+      ]
+    ],
+    "118": [
+      "IGUI_ALifeUI_28165fd477da1555",
+      "Still alive thanks to you",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_REUNION_B",
+        "text"
+      ]
+    ],
+    "119": [
+      "IGUI_ALifeUI_7825236d6a223954",
+      "A little gratitude goes a long way",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_REUNION_B",
+        "impact"
+      ]
+    ],
+    "120": [
+      "IGUI_ALifeUI_3e0588dc4c777add",
+      "I owe you one",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_REUNION_B1",
+        "text"
+      ]
+    ],
+    "121": [
+      "IGUI_ALifeUI_3ffe4ae11feab1ad",
+      "They file it away for later",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_REUNION_B1",
+        "impact"
+      ]
+    ],
+    "122": [
+      "IGUI_ALifeUI_2023cf482f9f0954",
+      "Can't stay long",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_REUNION_C",
+        "text"
+      ]
+    ],
+    "123": [
+      "IGUI_ALifeUI_4684aab27fd8f3ad",
+      "You keep it short",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_REUNION_C",
+        "impact"
+      ]
+    ],
+    "124": [
+      "IGUI_ALifeUI_4331afd10f65f14a",
+      "Watch yourself out there",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_WARN",
+        "text"
+      ]
+    ],
+    "125": [
+      "IGUI_ALifeUI_605f612901a037b6",
+      "You pass on a warning",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_WARN",
+        "impact"
+      ]
+    ],
+    "126": [
+      "IGUI_ALifeUI_3199e36a4d3a6f75",
+      "Stay inside after dark",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_WARN_A",
+        "text"
+      ]
+    ],
+    "127": [
+      "IGUI_ALifeUI_3622c6697eb5ac1b",
+      "They take it seriously",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_WARN_A",
+        "impact"
+      ]
+    ],
+    "128": [
+      "IGUI_ALifeUI_0767692d6096fe0e",
+      "Lock up and keep quiet",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_WARN_A1",
+        "text"
+      ]
+    ],
+    "129": [
+      "IGUI_ALifeUI_416968ef75871951",
+      "They agree to be careful",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_WARN_A1",
+        "impact"
+      ]
+    ],
+    "130": [
+      "IGUI_ALifeUI_5219e5f17d3261d7",
+      "I'll check on you later",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_WARN_B",
+        "text"
+      ]
+    ],
+    "131": [
+      "IGUI_ALifeUI_27823db06d18559e",
+      "You offer to come back",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_WARN_B",
+        "impact"
+      ]
+    ],
+    "132": [
+      "IGUI_ALifeUI_3243b01100ac121e",
+      "Keep a candle low, I'll find you",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_WARN_B1",
+        "text"
+      ]
+    ],
+    "133": [
+      "IGUI_ALifeUI_3b690da7550b8b31",
+      "You set a sign between you",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_WARN_B1",
+        "impact"
+      ]
+    ],
+    "134": [
+      "IGUI_ALifeUI_12965d7d31205d82",
+      "Just a heads up",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_WARN_C",
+        "text"
+      ]
+    ],
+    "135": [
+      "IGUI_ALifeUI_75f1385f7c347bfe",
+      "You leave it at that",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_WARN_C",
+        "impact"
+      ]
+    ],
+    "136": [
+      "IGUI_ALifeUI_3d7f49c42875bbed",
+      "Can I ask a favour?",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FAVOUR",
+        "text"
+      ]
+    ],
+    "137": [
+      "IGUI_ALifeUI_5ca111aa0528171a",
+      "They hear you out",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FAVOUR",
+        "impact"
+      ]
+    ],
+    "138": [
+      "IGUI_ALifeUI_7e5f6e8421d26a19",
+      "Keep an eye on my stuff",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FAVOUR_A",
+        "text"
+      ]
+    ],
+    "139": [
+      "IGUI_ALifeUI_2af69bcd08ac45da",
+      "They agree to watch your things",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FAVOUR_A",
+        "impact"
+      ]
+    ],
+    "140": [
+      "IGUI_ALifeUI_3aed785a76921ec5",
+      "Just until I'm back",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FAVOUR_A1",
+        "text"
+      ]
+    ],
+    "141": [
+      "IGUI_ALifeUI_67497cf765beef72",
+      "They set a time limit",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FAVOUR_A1",
+        "impact"
+      ]
+    ],
+    "142": [
+      "IGUI_ALifeUI_11b3446a18d1bae6",
+      "Thanks, I owe you",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FAVOUR_A2",
+        "text"
+      ]
+    ],
+    "143": [
+      "IGUI_ALifeUI_4344a72c0df658e6",
+      "They take note of the debt",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FAVOUR_A2",
+        "impact"
+      ]
+    ],
+    "144": [
+      "IGUI_ALifeUI_72cac8df5f65e678",
+      "Vouch for me with your people",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FAVOUR_B",
+        "text"
+      ]
+    ],
+    "145": [
+      "IGUI_ALifeUI_3f5b27ff2cfd7000",
+      "You ask them to speak for you",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FAVOUR_B",
+        "impact"
+      ]
+    ],
+    "146": [
+      "IGUI_ALifeUI_31dad465278b2bc4",
+      "I'll make it right",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FAVOUR_B1",
+        "text"
+      ]
+    ],
+    "147": [
+      "IGUI_ALifeUI_4d45264d669f582b",
+      "They give you the benefit of the doubt",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FAVOUR_B1",
+        "impact"
+      ]
+    ],
+    "148": [
+      "IGUI_ALifeUI_1c571f225dda8598",
+      "Never mind",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FAVOUR_C",
+        "text"
+      ]
+    ],
+    "149": [
+      "IGUI_ALifeUI_729f0e48670c47c7",
+      "You drop it",
+      [
+        "ALifeTalkTreesData.lua",
+        "TT_FAVOUR_C",
+        "impact"
+      ]
+    ],
+    "150": [
+      "IGUI_ALifeUI_7f524002198f822b",
+      "Ask who they are and how they're holding up",
+      [
+        "ALifeCaptiveTrees.lua",
+        "asks",
+        "1"
+      ]
+    ],
+    "151": [
+      "IGUI_ALifeUI_122579494438ecc9",
+      "Their first answer, short and wary",
+      [
+        "ALifeCaptiveTrees.lua",
+        "impacts",
+        "1"
+      ]
+    ],
+    "152": [
+      "IGUI_ALifeUI_00daa2c05f718f85",
+      "Ask what they were doing out here",
+      [
+        "ALifeCaptiveTrees.lua",
+        "asks",
+        "2"
+      ]
+    ],
+    "153": [
+      "IGUI_ALifeUI_6c34899d006d6607",
+      "What they were doing out here",
+      [
+        "ALifeCaptiveTrees.lua",
+        "impacts",
+        "2"
+      ]
+    ],
+    "154": [
+      "IGUI_ALifeUI_522553ec7f528697",
+      "Ask who they run with",
+      [
+        "ALifeCaptiveTrees.lua",
+        "asks",
+        "3"
+      ]
+    ],
+    "155": [
+      "IGUI_ALifeUI_103e0b092537c434",
+      "Who they run with and who gives orders",
+      [
+        "ALifeCaptiveTrees.lua",
+        "impacts",
+        "3"
+      ]
+    ],
+    "156": [
+      "IGUI_ALifeUI_1b409e41698a9ddc",
+      "Ask where their people sleep",
+      [
+        "ALifeCaptiveTrees.lua",
+        "asks",
+        "4"
+      ]
+    ],
+    "157": [
+      "IGUI_ALifeUI_16e39caf0941e66f",
+      "Where the group sleeps and how it keeps watch",
+      [
+        "ALifeCaptiveTrees.lua",
+        "impacts",
+        "4"
+      ]
+    ],
+    "158": [
+      "IGUI_ALifeUI_32f1ad42736d5a59",
+      "Ask what it would take to win them over",
+      [
+        "ALifeCaptiveTrees.lua",
+        "asks",
+        "5"
+      ]
+    ],
+    "159": [
+      "IGUI_ALifeUI_756ce37f2a7a0327",
+      "What they would trade for a way out",
+      [
+        "ALifeCaptiveTrees.lua",
+        "impacts",
+        "5"
+      ]
+    ]
+  }
+}

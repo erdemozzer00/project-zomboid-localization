@@ -1,0 +1,2266 @@
+{
+  "_paket": "D6a — Sivillerin yoldan geçen başka bir NPC'yi selamlaması (PASSING_NPC_GREET), 710",
+  "_dosya": "RadioData_lua",
+  "satirlar": {
+    "RD_ALifeLine_26c539fa3b3d052a": {
+      "tr": "Hey, ikiniz iyi misiniz?",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('you two'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_45bde3ba6685c248": {
+      "tr": "Bir şey çıktı mı?"
+    },
+    "RD_ALifeLine_48a45b652e357d32": {
+      "tr": "Taşımaya değer bir şey çıktı mı?"
+    },
+    "RD_ALifeLine_103a6c8b7c7cf4f0": {
+      "tr": "Okula mı gidiyorsun? Otobüs varmış, duydum."
+    },
+    "RD_ALifeLine_2f8e56255bc8a15e": {
+      "tr": "Kiliseye mi gidiyorsun? Açık galiba."
+    },
+    "RD_ALifeLine_4e11c26232bcc25a": {
+      "tr": "Annenler nasıl?"
+    },
+    "RD_ALifeLine_78d01d391813c609": {
+      "tr": "Köpek hala yanında mı?"
+    },
+    "RD_ALifeLine_054a4e937bca26ca": {
+      "tr": "Seni kilise pikniğinden beri görmemiştim."
+    },
+    "RD_ALifeLine_46669dac7a2290e2": {
+      "tr": "Bugün şerif yardımcısı gördün mü?"
+    },
+    "RD_ALifeLine_7f0c77bf327f4ff2": {
+      "tr": "Kmart bomboş, boşuna yorulma."
+    },
+    "RD_ALifeLine_0ad3728f14249425": {
+      "tr": "Radyo bugün cızırtıdan geçilmiyor, sen bir şey duydun mu?"
+    },
+    "RD_ALifeLine_6051fc6d7600f488": {
+      "tr": "Hırdavatçıyı silip süpürmüşler ama arka odaya el sürmemişlerdir belki."
+    },
+    "RD_ALifeLine_7843295c552da94c": {
+      "tr": "Hey, sağsın! Kimseyle karşılaşırız diye ummuyordum."
+    },
+    "RD_ALifeLine_002c139e3b03722a": {
+      "tr": "Nereden geliyorsun? O taraf fena mı?"
+    },
+    "RD_ALifeLine_3658f4dd7e661828": {
+      "tr": "Suyun azaldıysa yarım bidon suyum var."
+    },
+    "RD_ALifeLine_312e5fd42a7a9462": {
+      "tr": "Bir şey yediniz mi? Konserve mısır bulduk.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('You folks'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_43d130cc3e584892": {
+      "tr": "Hey, geldin ha! İçim içimi yiyordu."
+    },
+    "RD_ALifeLine_32550fbb2a7f3ca7": {
+      "tr": "Peşinde biri var mı? Yok mu? Tamam, geç."
+    },
+    "RD_ALifeLine_21b833371e892b5f": {
+      "tr": "Hey, hey, bir dur- yok, boş ver, işin var gibi."
+    },
+    "RD_ALifeLine_7575f71b7ff85817": {
+      "tr": "Az önce bir ses duydun mu? Yok yok, boş ver... bir şey değildir.",
+      "not": "Birebir değil: nervous half-question + geri alma ('Never mind') Türkçedeki 'yok yok, boş ver' kalıbıyla; 'forget it' → 'bir şey değildir'."
+    },
+    "RD_ALifeLine_0ffb772d0ba097c6": {
+      "tr": "Pardon, geçelim, müsaade."
+    },
+    "RD_ALifeLine_5aeeaff549e5024d": {
+      "tr": "Buyur, önce sen geç, acelemiz yok."
+    },
+    "RD_ALifeLine_16449cc271c4a670": {
+      "tr": "Biz karışmıyoruz, sadece geçiyoruz."
+    },
+    "RD_ALifeLine_48ac4019293d0b69": {
+      "tr": "Biraz beraber yürüyelim mi? Kalabalık güvenlidir, bilirsin."
+    },
+    "RD_ALifeLine_27ce61d8412ae408": {
+      "tr": "Şükür, koşmayan biri de varmış."
+    },
+    "RD_ALifeLine_271a46d73ed5df31": {
+      "tr": "Sigaran var mı? Yarım bile olur."
+    },
+    "RD_ALifeLine_72a1cabf3323409b": {
+      "tr": "İnsan! Buralarda bir biz kaldık sanıyorduk."
+    },
+    "RD_ALifeLine_222cfca85684316a": {
+      "tr": "Ben eve gidiyorum, sen de mi? Herkes eve gidiyor."
+    },
+    "RD_ALifeLine_675f67d37d84bb74": {
+      "tr": "Hey, sizde fazladan konserve açacağı var mı?"
+    },
+    "RD_ALifeLine_0a064b404eb4a6a2": {
+      "tr": "Yüzün tanıdık geldi, bankada mı çalışıyordun?"
+    },
+    "RD_ALifeLine_010c64284c388c7b": {
+      "tr": "Hey, sen Carl'ın kız kardeşisin, değil mi? Carl nasıl, dayanıyor mu?"
+    },
+    "RD_ALifeLine_4aeede78558ae36d": {
+      "tr": "Eski değirmenin oradan geçme, içeride bir sürüsü olduğunu duyduk."
+    },
+    "RD_ALifeLine_039b862263fa371b": {
+      "tr": "Yavaş git, o sokağın her yeri cam."
+    },
+    "RD_ALifeLine_4d8ad7cb3237028f": {
+      "tr": "Hey, bekle, yanlış yöne gidiyorsun, ben bilirim."
+    },
+    "RD_ALifeLine_124d7c8f0dcc889b": {
+      "tr": "Isırılmadın, değil mi? Sadece soruyorum, alınma."
+    },
+    "RD_ALifeLine_77898806329a90f5": {
+      "tr": "Nerede kalıyorsunuz? Kimse bir sığınaktan söz etmedi.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('you guys'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_0b6eeecb57660030": {
+      "tr": "Louisville'den haber var mı? Bir şey, herhangi bir şey?"
+    },
+    "RD_ALifeLine_72e159541eb262a4": {
+      "tr": "Bir helikopter gördük, sen de gördün mü? Ne tarafa gitti?"
+    },
+    "RD_ALifeLine_580478581195b1ac": {
+      "tr": "Kmart'ta işler nasıl gitti? Söyleme, ben biliyorum."
+    },
+    "RD_ALifeLine_6a73ab434f69bfe6": {
+      "tr": "Hala Elm'deki eski evde misin? Oradan duman çıktığını görmüyorum da."
+    },
+    "RD_ALifeLine_73496ec22c8e907e": {
+      "tr": "Pruitt'lerin evinde kimse yok, kapıyı çalıp durma."
+    },
+    "RD_ALifeLine_20ec1cdf4ff3cde9": {
+      "tr": "Benzincide sığır kurusundan başka bir şey kalmamış, ona da el sürmem."
+    },
+    "RD_ALifeLine_409414c14f0d707b": {
+      "tr": "West Point'te amatör telsizci biri varmış, tanıyor musun?"
+    },
+    "RD_ALifeLine_5971e21d3f93e03d": {
+      "tr": "Köprü hala kapalı mı? Biri kapalı demişti."
+    },
+    "RD_ALifeLine_081d586f1e09d7f1": {
+      "tr": "Ordunun Fort Knox'ta kampı varmış diyorlar, doğru mu?"
+    },
+    "RD_ALifeLine_01ab4ff951e0e8aa": {
+      "tr": "El sallayacaktım ama ayağım aksıyor, buradan selam."
+    },
+    "RD_ALifeLine_7577372c3ac0c8d2": {
+      "tr": "Satılık bir şeyin varsa alırım, o kadar çaresizim."
+    },
+    "RD_ALifeLine_5a455e5c6ad86b13": {
+      "tr": "Fazladan bir canın yoktur herhalde? Benimki bitmek üzere."
+    },
+    "RD_ALifeLine_311005245627350a": {
+      "tr": "Arkada dere suyunu kaynatıyoruz, lazım olursa söyle."
+    },
+    "RD_ALifeLine_009652a57a70b167": {
+      "tr": "Biraz oturup soluklanmaya ihtiyacın var gibi, çök şöyle."
+    },
+    "RD_ALifeLine_1714e69761a32654": {
+      "tr": "Bir doktor görürsen bana gönder, şu döküntü bir türlü geçmiyor."
+    },
+    "RD_ALifeLine_19d3297654f6dc95": {
+      "tr": "İkiniz birlikte misiniz? İyi, akıllıca.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('You two'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_2b3d2cda31af882c": {
+      "tr": "Sigaram bitti, insanlar niye bırakıyormuş yavaş yavaş anlıyorum."
+    },
+    "RD_ALifeLine_0aafa3ef0a0a52d8": {
+      "tr": "Oğlan iyi mi? Cumadan beri görmedim."
+    },
+    "RD_ALifeLine_7731becd2b54aca3": {
+      "tr": "Şu yukarıdaki kilise mi? Kiliseye benziyor."
+    },
+    "RD_ALifeLine_3b5553217341ec24": {
+      "tr": "Üstü kapalı beyaz bir pikap gördün mü? Amcamınki öyle."
+    },
+    "RD_ALifeLine_0710b1c76000e270": {
+      "tr": "Banka veznedarıydım, işe yarar hiçbir şey bilmem."
+    },
+    "RD_ALifeLine_421c380f4c49e2b4": {
+      "tr": "Az önceki uğultuyu duydun mu? Yoksa bir tek ben mi?"
+    },
+    "RD_ALifeLine_68f4bef7533a28fd": {
+      "tr": "Biri yemek mi yapıyor? Pastırma kokusu aldım sandım, yalan çıktı."
+    },
+    "RD_ALifeLine_4012eb0c0e5b7ddc": {
+      "tr": "Kuzeyden haber var mı? Ne olursa, söylenti bile olur."
+    },
+    "RD_ALifeLine_23a51bbb2c1a8551": {
+      "tr": "Nasıl uyudun? Biliyorum, biliyorum, aptal soru."
+    },
+    "RD_ALifeLine_016e397a0a1e9479": {
+      "tr": "Bebek kimdeyse sustursun lütfen, ses çok uzaktan duyuluyor."
+    },
+    "RD_ALifeLine_32f1ef152a2823c8": {
+      "tr": "Tanıdık geldin ama çıkaramadım, kusura bakma, yüzleri hatırlamam."
+    },
+    "RD_ALifeLine_37a1065f75938e06": {
+      "tr": "İkiniz ne yaptığını bilen insanlar gibisiniz, imreniyorum.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('You two'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_48c3b925659606e2": {
+      "tr": "Kiliseyi gördün mü? Açık mı? Ne olur açık de."
+    },
+    "RD_ALifeLine_0f21c74030c7fc98": {
+      "tr": "Hırdavatçıya gidiyorum, bilmem gereken bir şey var mı?"
+    },
+    "RD_ALifeLine_2115ec1f2e125ff2": {
+      "tr": "Az önce bağıran sen miydin? Değil mi? O zaman kimdi?"
+    },
+    "RD_ALifeLine_22e14db037599daf": {
+      "tr": "Eczaneyi buldun mu? Bir şey kalmış mı? Aspirin bile olur."
+    },
+    "RD_ALifeLine_4e39070906d6d147": {
+      "tr": "Nehre daha çok var mı? Ayaklarım bitti."
+    },
+    "RD_ALifeLine_54ace8ef3652f99f": {
+      "tr": "Sence yağmur yağar mı? Dizim yağar diyor ama dizim hep yanılır."
+    },
+    "RD_ALifeLine_172222aa4cee0a4e": {
+      "tr": "Suyu olan bir kuyu biliyor musun? Kovamız neredeyse boş."
+    },
+    "RD_ALifeLine_1cfec3af48c3c36b": {
+      "tr": "Köşedeki ihtiyar hala yaşıyor mu? Eskiden el sallardı."
+    },
+    "RD_ALifeLine_332b01af092d74ac": {
+      "tr": "Hey, iyi misin? Yardım lazım mı?"
+    },
+    "RD_ALifeLine_4d6041484ae9ba5f": {
+      "tr": "Sende yer var mı? Bizim çatımız yok."
+    },
+    "RD_ALifeLine_4fa02b9c77c73ec3": {
+      "tr": "Ağır bir şey mi taşıyorsun? İstersen sırayla ben alayım."
+    },
+    "RD_ALifeLine_36d5ccd84a2d5779": {
+      "tr": "Seni lokantadan hatırlıyorum, pankek yiyen sendin, değil mi?"
+    },
+    "RD_ALifeLine_609de9c37f53b0c6": {
+      "tr": "İkiniz de ne kadar derli toplusunuz, nasıl yapıyorsunuz?",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('You two'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_571ef8805a08e8a7": {
+      "tr": "Oradan geçmek güvenli mi? Kobay olmak istemiyorum."
+    },
+    "RD_ALifeLine_6578ccd65a20a43c": {
+      "tr": "Hey, ailen nasıl? Herkes ayakta mı?"
+    },
+    "RD_ALifeLine_3a198ad774561235": {
+      "tr": "Köpeğime aldırma, yaşlı ve kör ama kuzu gibi."
+    },
+    "RD_ALifeLine_7245e93c1a741220": {
+      "tr": "Kırmızı şapkalı bir adam görürsen Sue'nun onu aradığını söyle."
+    },
+    "RD_ALifeLine_391b90473360bd49": {
+      "tr": "Az önce bir geyik gördük, haftanın en güzel anıydı."
+    },
+    "RD_ALifeLine_74a7e2f624334aec": {
+      "tr": "Rosewood'u basmışlar, ben o yana gitmezdim."
+    },
+    "RD_ALifeLine_3566323e30efe015": {
+      "tr": "West Point'te en son barikat vardı, arkasında kim var bilmiyorum."
+    },
+    "RD_ALifeLine_119435357fd0c72b": {
+      "tr": "Riverside sakin, gitmeyi düşünüyorsan söyleyeyim."
+    },
+    "RD_ALifeLine_6bc643a4199eaff3": {
+      "tr": "March Ridge'de bir kilise topluluğu insanları yanına alıyor."
+    },
+    "RD_ALifeLine_31acb0b804fa0362": {
+      "tr": "Brandenburg'dan mı geçtin? Köprü hala yerinde mi?"
+    },
+    "RD_ALifeLine_3f5b1ebd19f478d0": {
+      "tr": "İlçe panayırını hatırlıyor musun? Aklımdan o huni kekleri çıkmıyor."
+    },
+    "RD_ALifeLine_007e12a9109f04f6": {
+      "tr": "Main'deki lokantada hiç yedin mi? İlçenin en iyi turtası orada."
+    },
+    "RD_ALifeLine_0c33c9e0575fe4fe": {
+      "tr": "Eniştemin Ohio'da teknesi var, bir şekilde ulaşabilirsek."
+    },
+    "RD_ALifeLine_55fb61602de80402": {
+      "tr": "Kuru bir çorap için en iyi botlarımı veririm, şaka yapmıyorum."
+    },
+    "RD_ALifeLine_04794ce37d399c87": {
+      "tr": "Ordu üssü hakkında bir şey duydun mu? Ne olursa."
+    },
+    "RD_ALifeLine_27bba9306e631343": {
+      "tr": "Bir şey ikram ederdim ama elimde dere suyundan başka bir şey yok."
+    },
+    "RD_ALifeLine_7eb1bb825486e8f6": {
+      "tr": "Başını sokacak yer mi arıyorsun? Rayların yanında boş bir karavan var.",
+      "not": "'hole up' → başını sokacak yer; trailer → karavan."
+    },
+    "RD_ALifeLine_310b96175f29073f": {
+      "tr": "VFW salonu hala ayakta, kapısı da kilitleniyor."
+    },
+    "RD_ALifeLine_6713658f572d65da": {
+      "tr": "Okulun arkasındaki gölün suyuna güvenme, kokusu tuhaf."
+    },
+    "RD_ALifeLine_20b44c7211ddb112": {
+      "tr": "Sence Wildcats bu sezon maça çıkar mı? Ciddi soruyorum."
+    },
+    "RD_ALifeLine_7e5666aa5583d158": {
+      "tr": "İyi bir şarkı bilir misin? Tam şimdi lazım."
+    },
+    "RD_ALifeLine_2778559e2a000806": {
+      "tr": "Duyur, kilisenin mutfağında salı günleri çorba çıkıyor."
+    },
+    "RD_ALifeLine_17c80a395bfd547f": {
+      "tr": "Dokuzundan beri adam gibi kahve içmedim, demliği olanla evlenirim."
+    },
+    "RD_ALifeLine_5c7de16f1b16dc63": {
+      "tr": "Yürüyüşün güzel, sanki nereye gittiğini biliyorsun."
+    },
+    "RD_ALifeLine_28dc6f9e5b9611b4": {
+      "tr": "Nereye gittiğini söyleme, bilmek istemiyorum, ne olur ne olmaz."
+    },
+    "RD_ALifeLine_3fb185567c8ce688": {
+      "tr": "Louisville'li misin? Çok üzüldüm, Louisville'i duydum."
+    },
+    "RD_ALifeLine_30313a2016c1efc9": {
+      "tr": "Kuzenim Elizabethtown'da tamirci, görürsen Carol'ün sağ olduğunu söyle."
+    },
+    "RD_ALifeLine_55da6032017ee7c6": {
+      "tr": "Hiç bunun kötü bir rüya olduğunu düşünüyor musun? Ben sürekli düşünüyorum."
+    },
+    "RD_ALifeLine_23f4533d0157300e": {
+      "tr": "Seni görmek iyi geldi, vallahi. Uzun bir hafta oldu."
+    },
+    "RD_ALifeLine_35de5d690107bd67": {
+      "tr": "Hey, komşu. Geceyi nasıl atlattın?"
+    },
+    "RD_ALifeLine_557491091e65052e": {
+      "tr": "Keyifli bir gezinti, şu çığlıkları saymazsan."
+    },
+    "RD_ALifeLine_7e37366329901ec5": {
+      "tr": "Fiyaskoyla biten bir çifte randevuya benziyorsunuz, selam.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('You two'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_0ef3cd444e9e15d6": {
+      "tr": "Hey, iyi misin? Yani gerçekten iyi misin?"
+    },
+    "RD_ALifeLine_31247ce230e3546f": {
+      "tr": "Günlerdir kimseyle konuşmadım, o yüzden... selam, herhalde."
+    },
+    "RD_ALifeLine_584dcf53458d6b7f": {
+      "tr": "Nasıl gittiğini sorma, ortada zaten."
+    },
+    "RD_ALifeLine_3a0c60107a76b412": {
+      "tr": "Yine bir gün, yine bir ceset. Selam."
+    },
+    "RD_ALifeLine_3f3e37d95d876b0f": {
+      "tr": "Hey- hey, sen misin? Gerçekten sen misin? Çok şükür."
+    },
+    "RD_ALifeLine_3080ced942bcc25c": {
+      "tr": "Acele etme, bugün peşimizde kimse yok."
+    },
+    "RD_ALifeLine_4684af7f3081e476": {
+      "tr": "Sadece geçiyoruz, bela aramıyoruz."
+    },
+    "RD_ALifeLine_457882f761a5e316": {
+      "tr": "Sakin ol, dostuz, yürüyoruz sadece."
+    },
+    "RD_ALifeLine_210a170c502a22c7": {
+      "tr": "Sen orada dur, biz burada duralım."
+    },
+    "RD_ALifeLine_35bb587e1e1bd0f5": {
+      "tr": "Biz iyiyiz, sağ ol."
+    },
+    "RD_ALifeLine_7456c78249a1ddb0": {
+      "tr": "Yürü, yoluna bak."
+    },
+    "RD_ALifeLine_45677b1458e675e1": {
+      "tr": "Yanımıza kimse yaklaşmasın."
+    },
+    "RD_ALifeLine_4d21129d43114a7d": {
+      "tr": "Bu taraftan olmaz."
+    },
+    "RD_ALifeLine_707cf4cd1b35e436": {
+      "tr": "İyi misin? Bir şey görmüş gibisin."
+    },
+    "RD_ALifeLine_462b370e6e2591dd": {
+      "tr": "Ordu hakkında söylenenler doğru mu? Duydun mu?"
+    },
+    "RD_ALifeLine_17a49f791b707e58": {
+      "tr": "Bunun gerçekten yaşandığına inanamıyorum, sen inanabiliyor musun?"
+    },
+    "RD_ALifeLine_418b672846876808": {
+      "tr": "Kız kardeşim West Point'te, oradan haber aldın mı?"
+    },
+    "RD_ALifeLine_352fa2ae34aa227b": {
+      "tr": "Sen bu işte benden iyi gidiyor musun?"
+    },
+    "RD_ALifeLine_3916befe156600e1": {
+      "tr": "Nereye gidiyorsun? Ben de gelebilir miyim? Kusura bakma, yalnız kalmak istemiyorum..."
+    },
+    "RD_ALifeLine_2b4367980e6b291e": {
+      "tr": "Uyudun mu? Ben uyuyamadım, hep bir şeyler duydum."
+    },
+    "RD_ALifeLine_303df5e3095886ef": {
+      "tr": "Burada bir tek ben varım sanıyordum."
+    },
+    "RD_ALifeLine_0b84bbd436347add": {
+      "tr": "Sıradan bir cumaydı, değil mi? Hep onu düşünüyorum."
+    },
+    "RD_ALifeLine_31be53574dae328e": {
+      "tr": "Lütfen bir planın olduğunu söyle, benim fikrim kalmadı."
+    },
+    "RD_ALifeLine_333899751a94e684": {
+      "tr": "Şerif yardımcıları adliyedeymiş diyorlar, biliyor musun?"
+    },
+    "RD_ALifeLine_12df173363365227": {
+      "tr": "Tek istediğim eve gitmek ama ev artık yok."
+    },
+    "RD_ALifeLine_227bdcff24737df2": {
+      "tr": "Arabası olan birini tanıyor musun? Çalışan bir araba?"
+    },
+    "RD_ALifeLine_18d29cca01da2b1e": {
+      "tr": "Durum kötüye mi gidiyor? Bana kötüye gidiyor gibi geliyor."
+    },
+    "RD_ALifeLine_57ea99aa7330e437": {
+      "tr": "Hep işte olmam gerekiyor gibi geliyor, deli miyim ben?"
+    },
+    "RD_ALifeLine_2cf0dcd802517fb2": {
+      "tr": "Sence bir tedavi bulurlar mı? Bulmazlar diyeceksen söyleme."
+    },
+    "RD_ALifeLine_5fb0619620c93777": {
+      "tr": "Ailemi altı gündür görmedim, düşünmemeye çalışıyorum."
+    },
+    "RD_ALifeLine_1c0fe00109c37579": {
+      "tr": "Affedersin, yeşil paltolu bir kadın gördün mü? Annem o."
+    },
+    "RD_ALifeLine_2baa8f4e201e77e6": {
+      "tr": "Pazar günü kilisedeydin, değil mi? Seni orada gördüm sandım."
+    },
+    "RD_ALifeLine_10f8810054746305": {
+      "tr": "Radyon var mı? Saatimle değişirim."
+    },
+    "RD_ALifeLine_65bd315030c5613e": {
+      "tr": "Nereye gittiğimi bilmiyorum, güneşin peşinden yürüyorum."
+    },
+    "RD_ALifeLine_59b52d0f0194cfad": {
+      "tr": "Sen de korkuyor musun, yoksa bir tek ben mi? Ne olur korkuyorum de."
+    },
+    "RD_ALifeLine_148dc1fd7893c60a": {
+      "tr": "Biri gelip bize ne yapacağımızı söyler diye bekleyip duruyorum."
+    },
+    "RD_ALifeLine_024cc52a3848146f": {
+      "tr": "Kusura bakma, ben bu işi beceremiyorum... Dost musun?"
+    },
+    "RD_ALifeLine_5229c445701a7143": {
+      "tr": "Lütfen, okula mı gidiyorsun? Tek başıma gitmeye cesaret edemiyorum."
+    },
+    "RD_ALifeLine_3705a3251e6648d8": {
+      "tr": "Radyo istasyonlarına ne oldu, biliyor musun? Hepsi cızırtı."
+    },
+    "RD_ALifeLine_539f867e5c39b434": {
+      "tr": "West Point'te evleri yakıyorlarmış, doğru mu? Bir hanımdan duydum."
+    },
+    "RD_ALifeLine_544a4979406e4008": {
+      "tr": "Günlerdir yabancı biriyle konuşmadım, o yüzden... merhaba, kusura bakma."
+    },
+    "RD_ALifeLine_21de0e27768ae6b1": {
+      "tr": "Ne olur gerçek ol... ah, çok şükür, gerçeksin."
+    },
+    "RD_ALifeLine_0d3eaf2a14cce2a1": {
+      "tr": "Saate bakmak için telefonumu arıyorum, sonra aklıma geliyor."
+    },
+    "RD_ALifeLine_6b465ae27d3aec62": {
+      "tr": "O silah mı? Dolu mu? Pardon, aptalca bir soru."
+    },
+    "RD_ALifeLine_19818de0183865a6": {
+      "tr": "Ne yapmamız gerektiği hakkında bir fikrin var mı? Biri bilmeli gibi."
+    },
+    "RD_ALifeLine_2af307d4284f57e3": {
+      "tr": "Daha ağlamadım, ağlayacağım andan korkuyorum."
+    },
+    "RD_ALifeLine_1e8aacfd3a4b514d": {
+      "tr": "Yoldaki şeyi gördün mü? Aklımdan çıkmıyor."
+    },
+    "RD_ALifeLine_205c54d90677436a": {
+      "tr": "Sabahın köründen beri yürüyorum, ayaklarım ölüyor."
+    },
+    "RD_ALifeLine_24561eaf3dfedc08": {
+      "tr": "Kiliseyi denedik, kilitli, kapıyı açmıyorlar."
+    },
+    "RD_ALifeLine_7976f70e193c0d7a": {
+      "tr": "Kocam hala dışarıda, onu arıyorum. Gri iş gömleği giyen birini gördün mü?"
+    },
+    "RD_ALifeLine_4531e1b8167d18ea": {
+      "tr": "Yol sakin, geçebilirsin, temiz."
+    },
+    "RD_ALifeLine_242c612c033b840e": {
+      "tr": "Bilmem gereken bir şey gördün mü? Hayır mı? İyi."
+    },
+    "RD_ALifeLine_31a6b1686697c8c9": {
+      "tr": "Dün bir kutu şeftali buldum, Noel sabahı gibiydi."
+    },
+    "RD_ALifeLine_3549188804ddbfa2": {
+      "tr": "Ben seni görmedim, sen beni görmedin, bana uyar."
+    },
+    "RD_ALifeLine_720f38a936271d61": {
+      "tr": "Buralarda köpekler fazla pervasızlaştı, haberin olsun."
+    },
+    "RD_ALifeLine_5b069aa65e0d7f66": {
+      "tr": "Bu taraftaki her evi aradım, bir şey kalmadı, vaktini boşa harcama."
+    },
+    "RD_ALifeLine_4bf01a0d65c0b15e": {
+      "tr": "Benzinciye uğrama, oraya ilk ben gittim."
+    },
+    "RD_ALifeLine_00727eb8686e2da3": {
+      "tr": "Sarı evdeki ihtiyarı gördün mü? Artık el sallamıyor."
+    },
+    "RD_ALifeLine_52a60597278a216a": {
+      "tr": "Aranızda tüfek kullanmasını bilen var mı? Sadece soruyorum."
+    },
+    "RD_ALifeLine_78c08ee646b21b77": {
+      "tr": "Konuşmak güvenli mi? Tamam, o zaman doğu yakası nasıl?"
+    },
+    "RD_ALifeLine_7fa4724373d3f371": {
+      "tr": "İyi bir haber duydun mu? Herhangi bir şey? Söylenti bile olur."
+    },
+    "RD_ALifeLine_445d4e62739f70af": {
+      "tr": "Tepede bir yerim var, sakin, bilmen gerekirse."
+    },
+    "RD_ALifeLine_41cfe5ed6cb98569": {
+      "tr": "Fazla cana yakın olana güvenme, buradakiler hariç tabii."
+    },
+    "RD_ALifeLine_3af6c6da7527da43": {
+      "tr": "Yere serdiklerimin sayısını tutuyorum, on dörtte, sen kaçta?"
+    },
+    "RD_ALifeLine_3258f73f6881546f": {
+      "tr": "Ben olsam bir sonraki sokağı dolanırdım, okulun yanında bir köpek sürüsü var."
+    },
+    "RD_ALifeLine_3828c981364f669a": {
+      "tr": "Arsanın arkasında bir dere buldum, bildiğim kadarıyla temiz."
+    },
+    "RD_ALifeLine_5fe75a1833e74ef3": {
+      "tr": "Bir paket pili kafeinli bir şeyle değişirim."
+    },
+    "RD_ALifeLine_2ba1b6b00018cd3e": {
+      "tr": "İnsanların torpido gözüne ne bıraktığına şaşarsın."
+    },
+    "RD_ALifeLine_07e067e27562b116": {
+      "tr": "Hala insan kabul eden bir kilise var, lazım olursa."
+    },
+    "RD_ALifeLine_67721d61459ec271": {
+      "tr": "Elm'de yedi ceset saydım, bir daha oraya gitmem."
+    },
+    "RD_ALifeLine_5753057a451c78d4": {
+      "tr": "En son konuştuğum herif ayakkabılarımı istedi, gergin görünüyorsam kusura bakma."
+    },
+    "RD_ALifeLine_2ee959dc6197e6fa": {
+      "tr": "El sallama. Sallayanı fark ediyorlar."
+    },
+    "RD_ALifeLine_445854236af05f0a": {
+      "tr": "Geçebilirsin ama şşt, dinlemeye çalışıyorum."
+    },
+    "RD_ALifeLine_40afcd8f6d9bd7c4": {
+      "tr": "Sol tarafa dikkat, cam var, ayağımla öğrendim."
+    },
+    "RD_ALifeLine_031248430e2c380e": {
+      "tr": "Çakmağın yoktur herhalde? Bir kutu mısıra değişirim."
+    },
+    "RD_ALifeLine_7b0ea3464b7a0a5a": {
+      "tr": "Haritam dereye düştü, tahminen yürüyorum."
+    },
+    "RD_ALifeLine_1724ba140fbe10d8": {
+      "tr": "Çok mu taşıyorsun? Ben eskiden on dört kilo taşırdım, şimdi beş kilo.",
+      "not": "Birim: 30 lb / 12 lb → 14 kg / 5 kg (Türk oyuncu için; sayılar yaklaşık)."
+    },
+    "RD_ALifeLine_0a33a6a65a7ad81e": {
+      "tr": "Çok konuşmam ama dinlerim."
+    },
+    "RD_ALifeLine_2bf1709d7689830d": {
+      "tr": "Bir kutu fasulyeyi temiz bir çorapla değişirim."
+    },
+    "RD_ALifeLine_11386cf30f56fe2f": {
+      "tr": "Sincap temizlemeyi bilir misin? Öğreniyorum, hiç hoş değil."
+    },
+    "RD_ALifeLine_2cccb98571e6a253": {
+      "tr": "Burada ıslık çalma, ses uzağa gidiyor."
+    },
+    "RD_ALifeLine_12bd427a52eb85cb": {
+      "tr": "Çan sesi duyarsan kilisedir, ölüler değil, büyük ihtimalle."
+    },
+    "RD_ALifeLine_4ab68e1511b1ea7f": {
+      "tr": "Pine'da küçük bir ev var, kapısı açık, kimse yok, buyur, serbest."
+    },
+    "RD_ALifeLine_11b248a4364093b5": {
+      "tr": "Kapısız uyuyabileceğim bir yer biliyor musun? Uzun hikaye."
+    },
+    "RD_ALifeLine_220923f020340033": {
+      "tr": "Duydun mu? Radyoda söylüyorlar, her yerde bu haber."
+    },
+    "RD_ALifeLine_1c19d2480bcf441f": {
+      "tr": "Köprüyü kapatmışlar diyorlar, doğru mu?"
+    },
+    "RD_ALifeLine_700168d84ff489a7": {
+      "tr": "Main'e yaklaşma, çok kötü, insanlar öylece- insanlara saldırıyor."
+    },
+    "RD_ALifeLine_6a756cf5452d00ae": {
+      "tr": "Hey! Isırıldın mı? Isırılan var mı? Göster bakayım!"
+    },
+    "RD_ALifeLine_48ff9d6315096b9f": {
+      "tr": "Nereye gidiyorsun? Biz okula gidiyoruz, otobüs varmış diyorlar."
+    },
+    "RD_ALifeLine_4b5f243949c3e4b5": {
+      "tr": "Eve gitme, ne olursa olsun eve gitme."
+    },
+    "RD_ALifeLine_34c267f13e11c45f": {
+      "tr": "Komşum karısını yemeye kalktı, şaka yapmıyorum, kendi gözlerimle gördüm."
+    },
+    "RD_ALifeLine_0de72c3743d9ac79": {
+      "tr": "İlçe ofisini aradım, hep meşgul çalıyor."
+    },
+    "RD_ALifeLine_770975525575c7ae": {
+      "tr": "Haber var mı? Bir şey? Herhangi bir şey?"
+    },
+    "RD_ALifeLine_53f442f35f49168a": {
+      "tr": "Kuduz diyorlar ama ben inanmıyorum, sen inanıyor musun?"
+    },
+    "RD_ALifeLine_607c0fe33775ee90": {
+      "tr": "Herkes koşuyor, nereye koşuyor bu insanlar?"
+    },
+    "RD_ALifeLine_67b8fda40d3316a3": {
+      "tr": "Evde kal diyorlar ama içerisi de güvenli değil."
+    },
+    "RD_ALifeLine_7dc26560618a641f": {
+      "tr": "Helikopterleri gördün mü? Ordu geliyor, değil mi? Değil mi?"
+    },
+    "RD_ALifeLine_26d87ff2037e16d2": {
+      "tr": "Film gibi ama değil, Allah'ım, değil.",
+      "not": "'God' ünlem: Allah'ım (K35)."
+    },
+    "RD_ALifeLine_37b63dc155d7feda": {
+      "tr": "Geri kalma.. bir selam verelim de yürüyelim."
+    },
+    "RD_ALifeLine_498b343002d3b7dc": {
+      "tr": "Merhaba komşu, evde her şey yolunda mı?"
+    },
+    "RD_ALifeLine_5bacbb6c517c3be7": {
+      "tr": "Bir şeye ihtiyacınız var mı? Fazladan fasulyemiz var, başka pek bir şey yok.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('Y'all'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_2ca9a0db5d3dcd0d": {
+      "tr": "Evde bir tencere çorba kaynıyor, yolun düşerse uğra."
+    },
+    "RD_ALifeLine_55ab5691252a7ee9": {
+      "tr": "Merhaba.. kusura bakma, bugün biraz tedirginiz.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Hitap değil, birinci çoğul kişi eki (biz); 'siz' kalıbı yanlış uyarı."
+      }
+    },
+    "RD_ALifeLine_0ad888c437b69df1": {
+      "tr": "Selam, bebek biraz huysuz, aldırma."
+    },
+    "RD_ALifeLine_67037e2d32a1b4c9": {
+      "tr": "Dün evinden bir ses duyduk, iyi misin?"
+    },
+    "RD_ALifeLine_15d8cf1a4a0bfc88": {
+      "tr": "Hepimiz iyiyiz, sağ ol, sadece biraz açız."
+    },
+    "RD_ALifeLine_7722a16a1b3f9c81": {
+      "tr": "Selam, yan tarafı göçük bir kombi gördün mü? Kardeşim sürüyor."
+    },
+    "RD_ALifeLine_02a80294161ac1e8": {
+      "tr": "Kiliseye mi gidiyorsunuz? Yemek varmış diye duyduk.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('y'all'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_7fa6ff603eac920f": {
+      "tr": "Çekiç lazım mı? Fazladan var, ödünç alabilirsin."
+    },
+    "RD_ALifeLine_231d6a64030e9a71": {
+      "tr": "Dedem selam söylüyor, başka bir şey de pek söylemiyor artık."
+    },
+    "RD_ALifeLine_12913415231204f9": {
+      "tr": "Başka bir aile görmek iyi geldi, doğrusu."
+    },
+    "RD_ALifeLine_3176b7d33d2aa573": {
+      "tr": "Başka birini görmek iyi geldi.. duramıyor olsanız da."
+    },
+    "RD_ALifeLine_2428fe8600e7af88": {
+      "tr": "Uzaklaşma.. gözümün önünde dur."
+    },
+    "RD_ALifeLine_2558af870ad679a2": {
+      "tr": "Yorgun görünüyorsunuz, isterseniz biraz oturun.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('You folks'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_1e89c00941c33694": {
+      "tr": "Annemlere gidiyoruz, Rosewood'da oturuyor, orası güvenli mi, biliyor musun?"
+    },
+    "RD_ALifeLine_21860d242383bb8e": {
+      "tr": "Sakin.. hepimiz biraz ürkeğiz."
+    },
+    "RD_ALifeLine_6f3a41877a1a2b23": {
+      "tr": "Annenler nasıl? Geçen gün annen aklıma gelmişti."
+    },
+    "RD_ALifeLine_084380161c69c8b7": {
+      "tr": "İki yedek battaniyemiz var, lazım olursa."
+    },
+    "RD_ALifeLine_3cdb58b11c8079f8": {
+      "tr": "Okulla ilgili bir şey duydun mu? Oğlumun öğretmeni orada."
+    },
+    "RD_ALifeLine_182bbad80f4d8425": {
+      "tr": "Maşallah, güzel bir ailen var, Allah hepsini korusun.",
+      "not": "'God bless 'em' → Maşallah + Allah korusun (K35)."
+    },
+    "RD_ALifeLine_66c1217610f9bdb6": {
+      "tr": "Köpeğimiz kayıp, adı Biscuit, cumadan beri eve uğramadı."
+    },
+    "RD_ALifeLine_328137f219fbc4da": {
+      "tr": "Dik dik baktık, kusura bakma, günlerdir bir aile görmemiştik."
+    },
+    "RD_ALifeLine_35a0d47342f995c5": {
+      "tr": "İyi ki karşılaştık.. yalnız bir yürüyüştü."
+    },
+    "RD_ALifeLine_3de721aa3010d410": {
+      "tr": "Ateşte bir tencere fasulye var, acıktıysan bol bol var."
+    },
+    "RD_ALifeLine_1aaf8289402d1e4e": {
+      "tr": "Selam, biz Parker'lar, Ridge Road'da otururuz."
+    },
+    "RD_ALifeLine_7cbb774601599ac6": {
+      "tr": "Kiliseye gittik ama doluymuş, biz de kız kardeşimlere gidiyoruz."
+    },
+    "RD_ALifeLine_7935dc4663c4cff3": {
+      "tr": "Küçüğe dikkat, her şeye doğru koşuyor."
+    },
+    "RD_ALifeLine_6b7a768c4fd9cdcc": {
+      "tr": "Okuldan haber var mı? Kızımın öğretmeni orada galiba."
+    },
+    "RD_ALifeLine_2e5d1be7069b28fa": {
+      "tr": "Kamyonetin benzini bitti, yürüyoruz, sorma."
+    },
+    "RD_ALifeLine_52bd3d4f739e5568": {
+      "tr": "Kalabalık bir aileyiz, gürültü eksik olmaz, aldırma."
+    },
+    "RD_ALifeLine_7b9aa655545c8cde": {
+      "tr": "Wildcats tişörtlü bir oğlan gören oldu mu? On yaşında, hep ortadan kayboluyor."
+    },
+    "RD_ALifeLine_73ffd24342d3c116": {
+      "tr": "Yatacak yer lazım mı? Yerde bir köşe bulursun, pek bir şey değil."
+    },
+    "RD_ALifeLine_34de6df16a656eae": {
+      "tr": "Sadece el salla.. yavaşça, ellerini görsünler."
+    },
+    "RD_ALifeLine_765e6c462b09418c": {
+      "tr": "Su kulesinin oradan silah sesi geldi, biz dolaşıp gidiyoruz."
+    },
+    "RD_ALifeLine_79bd471e4bf36da0": {
+      "tr": "Bir el arabası getirdik, yavaş ama bebeği taşıyor."
+    },
+    "RD_ALifeLine_570929136d4100c5": {
+      "tr": "Güzel köpekmiş, bizimki cuma günü kaçtı."
+    },
+    "RD_ALifeLine_73a3a99f6620f535": {
+      "tr": "Dedem yoruldu, burada biraz soluklanıyoruz, sakıncası yoksa."
+    },
+    "RD_ALifeLine_622ebcca32757642": {
+      "tr": "Evden salı günü çıktık, hayatımda yaptığım en hüzünlü şeydi."
+    },
+    "RD_ALifeLine_6c1b14184f56a75a": {
+      "tr": "Yalnız olmaman iyi.. insan birbirini kollamalı."
+    },
+    "RD_ALifeLine_63bd0c6123b80d2e": {
+      "tr": "Yan yana kalın.. yola devam ediyoruz."
+    },
+    "RD_ALifeLine_22c804bf7c28d93a": {
+      "tr": "Arabada yer var mı? Bebeğimiz yoruldu."
+    },
+    "RD_ALifeLine_2ae80bd509d8255d": {
+      "tr": "Selam ver bakalım tatlım, iyi insanlar, korkulacak bir şey yok."
+    },
+    "RD_ALifeLine_4b1ba06b2fd989cc": {
+      "tr": "Aynı yöne gidiyoruz galiba, arkandan gelsek olur mu?"
+    },
+    "RD_ALifeLine_3d4d49bf6550b808": {
+      "tr": "Tuvaleti olan bir yer biliyor musun? Gülme, doğru dürüst bir tuvalet."
+    },
+    "RD_ALifeLine_210f66b6619eede8": {
+      "tr": "Köpeğimiz uysaldır, sadece kokuyor, kusura bakma."
+    },
+    "RD_ALifeLine_790d77e25cc6b5be": {
+      "tr": "Herkese merhaba.. umarım dayanıyorsunuzdur."
+    },
+    "RD_ALifeLine_05609e6079c386a3": {
+      "tr": "Dururduk, sohbet ederdik ama bebeğin altı değişecek, hoşça kal."
+    },
+    "RD_ALifeLine_1218248356671a38": {
+      "tr": "İnsanların birbirine sahip çıktığını görmek umut veriyor."
+    },
+    "RD_ALifeLine_0a64c32629a2b7ae": {
+      "tr": "Biz Lutheran kilisesinde kalıyoruz, yer lazımsa gel."
+    },
+    "RD_ALifeLine_42230d524df660b9": {
+      "tr": "Evet, kırmızı el arabası bizim, hayır, satılık değil."
+    },
+    "RD_ALifeLine_7e1cc65e323bb87c": {
+      "tr": "Biz Tanner'lar, Hardin Springs Road'danız, Tanner'ları tanır mıydın?"
+    },
+    "RD_ALifeLine_7bcd4ee705ca2f64": {
+      "tr": "Fazla ayakkabın var mı? Küçük her şeyden büyüdü."
+    },
+    "RD_ALifeLine_723793634610a3df": {
+      "tr": "Doğum günü yaptık, inanabiliyor musun? Yedi yaşına girdi."
+    },
+    "RD_ALifeLine_5e9eb85d19adc347": {
+      "tr": "Bir kibrit verebilir misin? Ateş yakmaya çalışıyoruz ama her şey nemli."
+    },
+    "RD_ALifeLine_58ea0e6e2d4df58c": {
+      "tr": "Pazar yemeklerini özledim, bilirsin, sofranın kalabalık olduğu günleri."
+    },
+    "RD_ALifeLine_07b0386e420e5bd7": {
+      "tr": "Kedi gören var mı? Gri, bir kulağı eksik, adı Pickle."
+    },
+    "RD_ALifeLine_5340aee536fc60f0": {
+      "tr": "Oğlum asker olup olmadığını soruyor, ben hayır dedim."
+    },
+    "RD_ALifeLine_7ba17da205468bac": {
+      "tr": "Kayınvalidem selam söylüyor, kıyamet alametleri diyor, ben de bugün salı diyorum."
+    },
+    "RD_ALifeLine_41357d6928b6cc28": {
+      "tr": "Bebeğin ilk kelimesi 'köpek' oldu, en azından güzel bir şey."
+    },
+    "RD_ALifeLine_561818907ac57f4d": {
+      "tr": "Dedem oğlanlara balık tutmayı öğretmişti, şimdi en işe yarayan şey o."
+    },
+    "RD_ALifeLine_1aa915280d8d022c": {
+      "tr": "Baptist kilisesine mi gidiyorsun? Orada mutfak varmış diye duyduk."
+    },
+    "RD_ALifeLine_74c8b71a65067068": {
+      "tr": "Selam, biz Whitaker'lar, yolun aşağısındanız, bizi hatırlarsın."
+    },
+    "RD_ALifeLine_7b3a5a7948703c06": {
+      "tr": "Bak.. kurtulan başkaları da varmış."
+    },
+    "RD_ALifeLine_27b073ee7012e861": {
+      "tr": "Selam, sadece yürüyoruz, evimizi kaybettik..."
+    },
+    "RD_ALifeLine_7409faf86347135f": {
+      "tr": "Ne olur dost olun.. artık yeter, çok çektik."
+    },
+    "RD_ALifeLine_4ee4f1d359bcfc11": {
+      "tr": "Yabancılara lakap takmaya başladım.. kimin kim olduğunu aklımda tutmama yarıyor."
+    },
+    "RD_ALifeLine_07248108285ba08d": {
+      "tr": "Bebeğin ağlamasından rahatsızsan şimdi söyle."
+    },
+    "RD_ALifeLine_49648a9e6384d275": {
+      "tr": "Sadece geçiyoruz.. bela istemiyoruz."
+    },
+    "RD_ALifeLine_0abd9e407d7ec3e7": {
+      "tr": "Sakin, burada kavga arayan yok."
+    },
+    "RD_ALifeLine_1a4c91fb76555055": {
+      "tr": "Biz karışmayız, geçip gidiyoruz."
+    },
+    "RD_ALifeLine_026ca77a6bccc571": {
+      "tr": "Sana verecek bir şeyimiz yok."
+    },
+    "RD_ALifeLine_14b2e6ae7d2feb07": {
+      "tr": "Yavrum, o senin oğlan mı? Ne kadar uzamış."
+    },
+    "RD_ALifeLine_2bd10d1b2cf5786e": {
+      "tr": "Annen nasıl? Kilisedeki yemekten beri görmedim."
+    },
+    "RD_ALifeLine_2b21b8cf53343348": {
+      "tr": "Allah'ım, tanıdık bir yüz görmek ne iyi."
+    },
+    "RD_ALifeLine_0f887a411e969b47": {
+      "tr": "Köpeklere dikkat et, artık yabancıdan hoşlanmıyorlar."
+    },
+    "RD_ALifeLine_35e10e4071782468": {
+      "tr": "Şu çocuklara yanımdan ayrılmayın diyorum, dinleyen yok."
+    },
+    "RD_ALifeLine_06c8aa5036f4e446": {
+      "tr": "Dizlerim bu tepeyi çıkmaz, ben buradan el sallayayım."
+    },
+    "RD_ALifeLine_1c5cdea97a4679e2": {
+      "tr": "Bu iş bitince kahveye gel, ben hayatta kalırsam tabii."
+    },
+    "RD_ALifeLine_300011bc77e30beb": {
+      "tr": "Allah seni de sevdiklerini de korusun, kim olursan ol.",
+      "not": "Yaşlı aile büyüğü (din adamı değil): 'The Lord look after you' → 'Allah seni korusun' (K35)."
+    },
+    "RD_ALifeLine_1ad957f9221456cd": {
+      "tr": "Güzelim, yaşına göre gayet iyi yürüyorsun."
+    },
+    "RD_ALifeLine_1d56216a2517e5e1": {
+      "tr": "Önümden çok insan geçti, hepsine bir dua ettim."
+    },
+    "RD_ALifeLine_5ec2e91d69d87fce": {
+      "tr": "Bacaklar eskisi gibi değil, ben sandalyeden el sallayayım."
+    },
+    "RD_ALifeLine_026bd8913b94d775": {
+      "tr": "Hey. Okuldan mısınız? Değil mi? Pardon.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('You guys'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_3ef618960384654b": {
+      "tr": "Vay, selam. Sigaranız var mı?"
+    },
+    "RD_ALifeLine_287c98c524fe09c5": {
+      "tr": "Ne işler bunlar böyle, değil mi? İyi misiniz?",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('You guys'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_72f49d9d2d777fff": {
+      "tr": "Küçük kardeşim de benimle, yedi yaşında, oyun sanıyor."
+    },
+    "RD_ALifeLine_3154328b22a7191c": {
+      "tr": "Ya, arkadaki adamı gördün mü? Ya!"
+    },
+    "RD_ALifeLine_6bf002441f09454a": {
+      "tr": "Hey, göle mi gidiyorsun? Şaka şaka."
+    },
+    "RD_ALifeLine_2a2e1c7469beeb15": {
+      "tr": "Hey, Pepsiniz yoktur herhalde? Yok mu? Sormakla kaybetmem.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('you guys'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_60ad01df3e8f3a85": {
+      "tr": "Buralarda yaşıtım biri var mı, biliyor musunuz?",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('you guys'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_25e0a48f75202fe1": {
+      "tr": "Kardeşimle 'ölüyü bul' oynuyoruz, anneme söyleme."
+    },
+    "RD_ALifeLine_3967b10b75b2d951": {
+      "tr": "Pardon, aileyi yatak olan bir yere götürmeye çalışıyoruz."
+    },
+    "RD_ALifeLine_00cc196e693bcc51": {
+      "tr": "Ben Tom, Henderson'larda kalıyoruz, eksiğin olursa uğra."
+    },
+    "RD_ALifeLine_351480645da2e2be": {
+      "tr": "Brandenburg yolu açık mı, bilen var mı?"
+    },
+    "RD_ALifeLine_7f8dd22b33a6eb37": {
+      "tr": "Merhaba, rahatsız etmek istemem ama klinik nerede, biliyor musun?"
+    },
+    "RD_ALifeLine_2371cf8101346941": {
+      "tr": "Mama var mı? Sormaya utanıyorum ama bir bebeğim var."
+    },
+    "RD_ALifeLine_6085e4623c97f546": {
+      "tr": "Kocam hemen arkamda, el arabası onda."
+    },
+    "RD_ALifeLine_371f782a1c3ceb15": {
+      "tr": "Günaydın, azıcık uyuyabildin mi?"
+    },
+    "RD_ALifeLine_3731eae238258e15": {
+      "tr": "Günaydın, ölü gibisin, ben de öyleyim."
+    },
+    "RD_ALifeLine_2bed42c66a3287ae": {
+      "tr": "Erkenden yola düşmüşsün, ha?"
+    },
+    "RD_ALifeLine_7c3bb14b32115696": {
+      "tr": "Günaydın, kahven var mı? Yok mu? Bende de yok."
+    },
+    "RD_ALifeLine_059cb24128fa8df9": {
+      "tr": "Güneş doğdu, kımıldayalım."
+    },
+    "RD_ALifeLine_1e0db58949bce877": {
+      "tr": "Günaydın, gece bir şey duydun mu?"
+    },
+    "RD_ALifeLine_3e0c203304183d78": {
+      "tr": "Hey, günaydın. Annenler nasıl?"
+    },
+    "RD_ALifeLine_31b7793c5438312f": {
+      "tr": "Günaydın, kiliseye mi gidiyorsun? Yulaf lapası varmış."
+    },
+    "RD_ALifeLine_0662fc292f371e5a": {
+      "tr": "Günaydın... sabahtan kalan neyse artık."
+    },
+    "RD_ALifeLine_36f06de91daa3cb6": {
+      "tr": "Hadi kalk, gün aydı! Hıh, bunu hiç gülmeden diyemedim."
+    },
+    "RD_ALifeLine_0a661754674c9360": {
+      "tr": "Günaydın. Bir geceyi daha çıkardık, çok şükür."
+    },
+    "RD_ALifeLine_0474de5d2eab32b6": {
+      "tr": "Selam, günaydın, dışarısı hala kötü mü?"
+    },
+    "RD_ALifeLine_7dfa1a27358a2cef": {
+      "tr": "Günaydın, dünkü gibi, değil mi?"
+    },
+    "RD_ALifeLine_0b389570366918cb": {
+      "tr": "Günaydın, iyi günler derdim ama... bilirsin."
+    },
+    "RD_ALifeLine_4e2a9f0078ced240": {
+      "tr": "Hey, öğle olmuş bile! Gün nereye gitti?"
+    },
+    "RD_ALifeLine_38a2626f55b8ae2f": {
+      "tr": "Bir şey yediniz mi? Bizde kraker var.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('You folks'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_252b432421582b1d": {
+      "tr": "Öğle vakti, gölge arıyorsan şurada bir sundurma var."
+    },
+    "RD_ALifeLine_42442fa86034eea6": {
+      "tr": "Öğle yemeği mi? Ha! Ne öğle yemeği, kraker var kraker."
+    },
+    "RD_ALifeLine_4260950e4bbb03e4": {
+      "tr": "Güneş kavuruyor, su yok, işte böyle bir gün, merhaba."
+    },
+    "RD_ALifeLine_2f31d3a477c09bca": {
+      "tr": "İyi günler, eve mi dönüyorsun?"
+    },
+    "RD_ALifeLine_191bf8cf52e8d766": {
+      "tr": "Uzun bir gün oldu, ha? Oturabiliyorsan otur."
+    },
+    "RD_ALifeLine_68f5394d1f0b2076": {
+      "tr": "İyi günler, yeni bir şey var mı?"
+    },
+    "RD_ALifeLine_28f6a89b75023c5b": {
+      "tr": "İyi günler, hava kararmadan bir yer bulsan iyi olur."
+    },
+    "RD_ALifeLine_3353e6df2e04b343": {
+      "tr": "İyi günler, bir şeye ihtiyacınız var mı? Azıcık bir şeyimiz var.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('you folks'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_29e54f25343e7504": {
+      "tr": "İyi günler, köpeklere aldırma, sadece arkadaşlık arıyorlar."
+    },
+    "RD_ALifeLine_5a0029bf24e5975e": {
+      "tr": "Ay, iyi günler, selam, seni görmemişim, kusura bakma."
+    },
+    "RD_ALifeLine_6d4206cf33deb13b": {
+      "tr": "İyi akşamlar, yatacak bir yerin var mı?"
+    },
+    "RD_ALifeLine_10c9b73a12c6b50a": {
+      "tr": "Hava kararıyor, bir yer bul, biz giriyoruz."
+    },
+    "RD_ALifeLine_79494e1c400db950": {
+      "tr": "İyi akşamlar, yorgun görünüyorsun, git biraz dinlen."
+    },
+    "RD_ALifeLine_1c43b04c2e5afb93": {
+      "tr": "Akşam yemeği yine soğuk fasulye, istersen bize katıl."
+    },
+    "RD_ALifeLine_0f298a8d2ed800cb": {
+      "tr": "Hey, iyi akşamlar, geceyi kilisede geçireceğiz, sen de geliyor musun?"
+    },
+    "RD_ALifeLine_6e47cc3b0f65859f": {
+      "tr": "Güneş batıyor, burada olmak istemezsin."
+    },
+    "RD_ALifeLine_0260f7fd3724fc91": {
+      "tr": "Güneş iyice alçaldı, bir yer bulmamız lazım, neresi olursa."
+    },
+    "RD_ALifeLine_4fa52f8b3b2c1e27": {
+      "tr": "Akşam karanlığında huysuzlaşıyorlarmış, bir yerde okumuştum."
+    },
+    "RD_ALifeLine_61086b6945e68287": {
+      "tr": "İyi akşamlar, yolda dikkatli olun, hava neredeyse karardı."
+    },
+    "RD_ALifeLine_64f197f228f92d8e": {
+      "tr": "Şşt, sessiz, geceleri her şeyi duyuyorlar."
+    },
+    "RD_ALifeLine_6126e8a52ad3e101": {
+      "tr": "Kim var orada? Ha, sensin, selam."
+    },
+    "RD_ALifeLine_6bdbeeb07c31781f": {
+      "tr": "Gece gezintisi mi? Ya cesursun ya aptal."
+    },
+    "RD_ALifeLine_17c8ac2d5e94b627": {
+      "tr": "Sen de mi uyuyamadın? Ben de."
+    },
+    "RD_ALifeLine_0720ce2377f12870": {
+      "tr": "Sesini kıs, burada hiçbir şey görünmüyor."
+    },
+    "RD_ALifeLine_041b5a2b1f14363b": {
+      "tr": "Hey, ateşin var mı? Fener değil, sigara için."
+    },
+    "RD_ALifeLine_37287bb01b2e04a9": {
+      "tr": "Ay ışığı çok, gölgeden git."
+    },
+    "RD_ALifeLine_057422ee4a14becd": {
+      "tr": "Fener yakma, kilometrelerce öteden görüyorlar."
+    },
+    "RD_ALifeLine_271fe2a42e5a8cc6": {
+      "tr": "Işık kalmayınca yıldızlar bu kadar sık çıkıyormuş."
+    },
+    "RD_ALifeLine_0e2f742e53b097a0": {
+      "tr": "Dinlersen karanlığın bir sesi var, hoş da değil."
+    },
+    "RD_ALifeLine_57b9526278d13da4": {
+      "tr": "Gezmek için geç değil mi? Uyuyabildiğin kadar uyu."
+    },
+    "RD_ALifeLine_7fa8be06525930be": {
+      "tr": "En kötüsü gece, kolay gelsin."
+    },
+    "RD_ALifeLine_395ab8e32aaba89b": {
+      "tr": "Lanet olsun ne sıcak, eriyeceğim."
+    },
+    "RD_ALifeLine_01a338f935ea1bf2": {
+      "tr": "Suyun var mı? Ilık olsun, ölüyorum."
+    },
+    "RD_ALifeLine_31abffbc2a37b40e": {
+      "tr": "Gömleğim sırtıma yapıştı, yazdan nefret ediyorum."
+    },
+    "RD_ALifeLine_62fc5f2a031b3aa5": {
+      "tr": "Sıcak bastırdı değil mi? Pardon, bunu söylemek için can atıyordum."
+    },
+    "RD_ALifeLine_35eb00830769e9f3": {
+      "tr": "Bu sıcakta açıkta kalma, bir gölge bul."
+    },
+    "RD_ALifeLine_3747fcaf3caf8422": {
+      "tr": "Bu sıcakta herkes tersleniyor, ben de çıkışırsam kusura bakma."
+    },
+    "RD_ALifeLine_0c5e223b307e87f2": {
+      "tr": "Otuz iki derece ve biz yürüyoruz, Allah yardımcımız olsun.",
+      "not": "Birim: 90°F → 32°C."
+    },
+    "RD_ALifeLine_0ab2b60307e830d5": {
+      "tr": "Bu sıcak gözüme bir şeyler gösteriyor, sen de görüyorsun, değil mi?"
+    },
+    "RD_ALifeLine_06d1ebb005d5e082": {
+      "tr": "Yakında bir dere var mı? Her şeyi içerim."
+    },
+    "RD_ALifeLine_35bdbc473ba97e00": {
+      "tr": "Bana mı öyle geliyor, yoksa daha mı ısındı? Başım dönüyor."
+    },
+    "RD_ALifeLine_4616974f51f05133": {
+      "tr": "Yine yağmur, tabii ya, yağmaz mı."
+    },
+    "RD_ALifeLine_3a9111372ff80a05": {
+      "tr": "Gel şuraya, ısırmam."
+    },
+    "RD_ALifeLine_6a3df61966be7de4": {
+      "tr": "Botlarım su doldu, her adımda şap şap ediyor."
+    },
+    "RD_ALifeLine_482f9d9c5a272ec9": {
+      "tr": "İkiniz de su içinde kalmış fare gibisiniz, merhaba.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('You two'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_1cfff52163d9f32c": {
+      "tr": "Yağmur dizlerimi sızlatıyor, seninkiler nasıl?"
+    },
+    "RD_ALifeLine_370485d016106e43": {
+      "tr": "Sana yetti mi bu soğuk? Parmaklarımı hissetmiyorum."
+    },
+    "RD_ALifeLine_5707cb836bcf68fa": {
+      "tr": "Montun var mı? Hangisi olursa."
+    },
+    "RD_ALifeLine_1a87c64e792f5666": {
+      "tr": "Rüzgar buralarda her kokuyu, her sesi taşıyor."
+    },
+    "RD_ALifeLine_4b0f076957d8be8e": {
+      "tr": "Bu sisle üç metre ötesini göremiyorum, nereye bastığına bak.",
+      "not": "Birim: 10 feet → 3 metre (sis sahnesi)."
+    },
+    "RD_ALifeLine_5ebde75e63323d11": {
+      "tr": "Sisin içinden çıktın, selam, az kalsın ödüm kopacaktı."
+    },
+    "RD_ALifeLine_06de946606954e2c": {
+      "tr": "Fırtına geliyor, kokusunu alıyorsun, içeri gir."
+    },
+    "RD_ALifeLine_0b13dc6d706347bb": {
+      "tr": "Kar. Kar beklemiyordum, sen bekliyor muydun?"
+    },
+    "RD_ALifeLine_4837aff2655dd69a": {
+      "tr": "Kara dokunma, üşütürsün, annem hep böyle derdi."
+    },
+    "RD_ALifeLine_436f00c2176820fd": {
+      "tr": "Yaz en güzel zamandı, değil mi? Bir de halimize bak."
+    },
+    "RD_ALifeLine_64611c986b1ca4ea": {
+      "tr": "Ateşböcekleri çıkmış, hiç yoktan iyi, değil mi?"
+    },
+    "RD_ALifeLine_343d91032963272e": {
+      "tr": "Yapraklar sararıyor, güzel, bu zamanda bile."
+    },
+    "RD_ALifeLine_00b07dc75b0a0b72": {
+      "tr": "Kış geliyor, ne odunum var ne montum, hiçbir şeyim yok."
+    },
+    "RD_ALifeLine_6d5c43da38b90d06": {
+      "tr": "Hey, ekip nasıl?"
+    },
+    "RD_ALifeLine_46d63d1d42a4a94f": {
+      "tr": "Yedek bir anahtarı olan var mı? Benimki ayaklanıp gitti."
+    },
+    "RD_ALifeLine_3d0e3b6f1bde3c08": {
+      "tr": "Hey. Benzin buldun mu? Takas ederim."
+    },
+    "RD_ALifeLine_50281aad21fdaf6d": {
+      "tr": "Fabrikada mı çalışıyordun? Yüzün tanıdık geldi."
+    },
+    "RD_ALifeLine_29b20c2a2e304b69": {
+      "tr": "Cehennem gibi bir hafta, ha? Cehennem gibi."
+    },
+    "RD_ALifeLine_09cb1cdf76f191dc": {
+      "tr": "Hey, ustabaşını gördünüz mü? Bana kimse eve gidebilirsin demedi.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('you guys'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_2299c66a6bdb5d06": {
+      "tr": "Kereste deposuna mı gidiyorsunuz? Çivi varmış diye duydum.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('You guys'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_797006324c511390": {
+      "tr": "Selam, saat kaç olduysa artık, hesabı şaşırdım."
+    },
+    "RD_ALifeLine_4a6546941cbd3656": {
+      "tr": "Sağ mısın? İyi, bilmem gereken buydu."
+    },
+    "RD_ALifeLine_271f324e4d5800ce": {
+      "tr": "Yükleme rampasının oradan geçme, ortalık savaş alanı."
+    },
+    "RD_ALifeLine_6ec5606433e9694c": {
+      "tr": "Ailene selamımı söyle, görürsen."
+    },
+    "RD_ALifeLine_32b5578144568e55": {
+      "tr": "Orada kamyon tamir eden var mı? Benimki hendeğe girdi."
+    },
+    "RD_ALifeLine_3f3964391432e0e2": {
+      "tr": "Hey, sigaran var mı? Borcum olsun."
+    },
+    "RD_ALifeLine_086c5aed511ffc5b": {
+      "tr": "Bir şey yedin mi? Bende soğuk fasulye ve bir çatal var."
+    },
+    "RD_ALifeLine_293df0fc512055ac": {
+      "tr": "O yüke dikkat, kayışlar iyice eskimiş."
+    },
+    "RD_ALifeLine_5d89761c2e79a080": {
+      "tr": "Kötü şans, ha? Her şey batmadan maaşını alabildin mi?"
+    },
+    "RD_ALifeLine_22589aeb0613c34b": {
+      "tr": "Sendika temsilcisi bu konuda bir şey demişti ama dinlememiştim."
+    },
+    "RD_ALifeLine_1e5a26705d5bebb1": {
+      "tr": "Fabrika düdüğünü duydun mu? Ben duydum sandım, herhalde bir şey değildi."
+    },
+    "RD_ALifeLine_7dba2b5f4901fd68": {
+      "tr": "Dikkat et, rayların oralarda birkaç tane gördüm."
+    },
+    "RD_ALifeLine_2a26a72720c9e670": {
+      "tr": "Dale'e söyle, matkabı bende, yani sağsa."
+    },
+    "RD_ALifeLine_255632d275d0eff2": {
+      "tr": "Hey, onu dikkatli tut, birinin gözünü çıkaracaksın."
+    },
+    "RD_ALifeLine_1f7777df374a9733": {
+      "tr": "Ne zamandır yürüyorsun? Biri beni arabayla alsa fena olmazdı, ha."
+    },
+    "RD_ALifeLine_783cc7097aca14da": {
+      "tr": "Artık iş botunu nereden buluyorsunuz? Cidden soruyorum.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('you folks'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_24938aeb6b88f762": {
+      "tr": "Marathon istasyonuna mı gidiyorsunuz? Temiz yapmışlar, boşuna gitmeyin.",
+      "not": "'Marathon station' bir benzin istasyonu adı; 'istasyon' kalır.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('Y'all'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_1580206658d375b8": {
+      "tr": "Düz kontak yapmayı bilir misin? Sadece merak."
+    },
+    "RD_ALifeLine_59c33d815122bdc2": {
+      "tr": "Hey, konserve fabrikasında mı çalışıyordun? Tanıdım sandım."
+    },
+    "RD_ALifeLine_6b9f1df1166d3107": {
+      "tr": "Ustabaşı bize nakit ödeyeceğini söylemişti, sonra öldü, işte böyle."
+    },
+    "RD_ALifeLine_1cf333de3960a968": {
+      "tr": "Boru anahtarı olan var mı? Bir sızıntım var, lafın gelişi değil, gerçekten."
+    },
+    "RD_ALifeLine_7cba87261182f7b8": {
+      "tr": "Motor tamir eder misin? Çalışmayan bir kamyonum var."
+    },
+    "RD_ALifeLine_5ea3ee0d6cc3a63b": {
+      "tr": "Kaynakçıydım, şimdi kaynatacak bir şey kalmadı."
+    },
+    "RD_ALifeLine_690e1a6377fed8ee": {
+      "tr": "Hey, yedek kemerin var mı? Benimki dağılıyor."
+    },
+    "RD_ALifeLine_395512f4042586ae": {
+      "tr": "Fabrika hala yanıyor mu? Söndüren olmadı."
+    },
+    "RD_ALifeLine_5205773229b4458b": {
+      "tr": "Ellerim yara bere, belim tutuldu, merhaba."
+    },
+    "RD_ALifeLine_5cf95697347f0fcc": {
+      "tr": "Traktör satardım, şimdi birinin koltuk minderini şapka diye giyiyorum."
+    },
+    "RD_ALifeLine_5038f6b64d2b831a": {
+      "tr": "Seninle çalışmamış mıydım? Mart'ta kerestede? Uzun boylu olan?"
+    },
+    "RD_ALifeLine_14f4dd8a75213ba7": {
+      "tr": "Mavi tulumlu bir adam gören oldu mu? Eniştem olur kendisi."
+    },
+    "RD_ALifeLine_642db58d0a93c561": {
+      "tr": "Hey, düdüğü duydun mu? Vardiya düdüğünü? Bahse girerim hala çalıyordur."
+    },
+    "RD_ALifeLine_5eaaccd21299e022": {
+      "tr": "Paydos da ne paydosmuş, ha?"
+    },
+    "RD_ALifeLine_5beee06f683bc99f": {
+      "tr": "Hey, ipin var mı? Birkaç karış yeter.",
+      "not": "Birim: 'a couple of feet' (ip) → 'birkaç karış'."
+    },
+    "RD_ALifeLine_0b563716365b44c7": {
+      "tr": "Yükleme rampasındaki adamları gördün mü? Ekibimi arıyorum."
+    },
+    "RD_ALifeLine_4f9eb84849d51b8a": {
+      "tr": "Motorlu testere kullanmayı bilir misiniz çocuklar? Bende bir tane var ama benzini yok.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('You boys'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_13ffde1655b62fdf": {
+      "tr": "Ustabaşını görürsen istifa ettiğimi söyle."
+    },
+    "RD_ALifeLine_2e211cbe65a5e508": {
+      "tr": "Hey, alet edevattan anlayan birine benziyorsun, yanılıyor muyum?"
+    },
+    "RD_ALifeLine_3bbe43b12ec38ab3": {
+      "tr": "İş bulabildin mi? Zaten sanmıyordum."
+    },
+    "RD_ALifeLine_2b7b9bab73a3a4ba": {
+      "tr": "Değirmenin oradan yanık kokusu geliyor, gördün mü?"
+    },
+    "RD_ALifeLine_67e166c01edfdcc6": {
+      "tr": "Hey, ayağıma çivi battı, temiz bir bezin var mı?"
+    },
+    "RD_ALifeLine_7a3a6d7a71bf99a9": {
+      "tr": "CB telsizin hala çalışıyor mu? On dokuzuncu kanalda kimse var mı?"
+    },
+    "RD_ALifeLine_6df11458627a8f6f": {
+      "tr": "31W'deki Sunoco'da benzin varmış, mecbursan."
+    },
+    "RD_ALifeLine_59bdb311112d72bc": {
+      "tr": "Viski fabrikası adam alıyormuş diye duydum, ama bourbon kalmamış."
+    },
+    "RD_ALifeLine_36bae92e2449df0f": {
+      "tr": "Hey, dostum Ray yan ilçede, görürsen selamımı söyle.",
+      "not": "'buddy' → 'dostum' (K5: 'kanka' gibi jargon yok)."
+    },
+    "RD_ALifeLine_68ef73816ec6fc37": {
+      "tr": "Eski köprüyü kullanma, korkuluk çürümüş."
+    },
+    "RD_ALifeLine_38ce63974cb72ea3": {
+      "tr": "Atölyede bir torna tezgahı bulduk, yenmiyor ama güzel şey."
+    },
+    "RD_ALifeLine_217dc65617102a41": {
+      "tr": "Güzel alet kemeri, bir bakabilir miyim? Sadece merak."
+    },
+    "RD_ALifeLine_14c47d3e3ec058f6": {
+      "tr": "Buzdolabı tamir edebilen birine ihtiyacı olan var mı? Çalışan buzdolabı kalmadı ama olsun, el becerisi."
+    },
+    "RD_ALifeLine_66bf0d3364249ac4": {
+      "tr": "Kahretsin, ödümü kopardın, kedi gibi ürkek oldum.",
+      "not": "Küfür gücü kaynağa göre: 'Shit' → Kahretsin."
+    },
+    "RD_ALifeLine_2270f1e436e961f3": {
+      "tr": "Siktir, belim, siktir! Bu işi yapmak için fazla yaşlandım.",
+      "not": "Küfür gücü kaynağa göre: 'Fuck' → Siktir (D1/D2 ölçüsü, işçi, sırt ağrısı)."
+    },
+    "RD_ALifeLine_390354106a4eae36": {
+      "tr": "Lanet çocuklar öğle yemeği çantasını kapıp kaçtı, umarım afiyetle yerler."
+    },
+    "RD_ALifeLine_228f1eab614a2b46": {
+      "tr": "İş zor ama hiç olmazsa kimse bana bağırmıyor."
+    },
+    "RD_ALifeLine_3bc80d8726748e8f": {
+      "tr": "Bu kadar hiçbir şey bulmak da ne rezil şans.",
+      "not": "Küfür kaynağa göre hafif: 'Piss poor' → rezil."
+    },
+    "RD_ALifeLine_65fc4f2c39acf24f": {
+      "tr": "İyi günümdeyim derdim ama yalanın parası ödenmiyor."
+    },
+    "RD_ALifeLine_6c887d6167868b4f": {
+      "tr": "Eleman alıyor musunuz? İşsizim, hemen başlarım.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('You guys'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_28b5eea00cb597c9": {
+      "tr": "Nefret ediyorum bundan, hepsinden, selam, nasılsın."
+    },
+    "RD_ALifeLine_02ff28200d8c586a": {
+      "tr": "Bütün ekibimi kaybettim, işte... selam."
+    },
+    "RD_ALifeLine_14d7ce5b2d8d0c54": {
+      "tr": "Burada bir emekçi daha görmek iyi geldi."
+    },
+    "RD_ALifeLine_264ca5461b517802": {
+      "tr": "Hendeğe bakma, bakma sakın."
+    },
+    "RD_ALifeLine_6bebbef04da64e4e": {
+      "tr": "Hey- hey, sessizce arkamdan yaklaşma, ya!"
+    },
+    "RD_ALifeLine_1b82aae97e57feca": {
+      "tr": "Sessiz sakin, hoşuma gidiyor."
+    },
+    "RD_ALifeLine_11d718875bd9d774": {
+      "tr": "Fabrikanın kapandığını duydun mu? Sana da eve git dediler mi?"
+    },
+    "RD_ALifeLine_4fb35747359da13f": {
+      "tr": "Arkadaşım yükleme rampasında ısırıldı, bana bir şey sorma."
+    },
+    "RD_ALifeLine_38551c144a75c51f": {
+      "tr": "Virüs diyorlar, virüs, grip gibi, yutmuyorum."
+    },
+    "RD_ALifeLine_680a267a07e11a7e": {
+      "tr": "Sirenleri duydun mu? Cumadan beri susmuyor."
+    },
+    "RD_ALifeLine_7c603d3311ecb9a3": {
+      "tr": "Ne yaparsan yap, üçüncü vardiyadakilere yaklaşma."
+    },
+    "RD_ALifeLine_34221d764fceaeff": {
+      "tr": "Fabrikadan uzak dur, içerisi kötü."
+    },
+    "RD_ALifeLine_114ef51d5495817a": {
+      "tr": "Yemek kabımı sakladım, tutunacak şeye bak."
+    },
+    "RD_ALifeLine_3661ff39409b8a67": {
+      "tr": "Yine aynı şey, alışmış olmam lazımdı artık."
+    },
+    "RD_ALifeLine_154e748f0b3d0404": {
+      "tr": "Ustabaşı gelmeyecek, değil mi? Ben beklemeyi bıraktım."
+    },
+    "RD_ALifeLine_26cf2aa34c580822": {
+      "tr": "Vardiya aynı, ölü başka."
+    },
+    "RD_ALifeLine_4a4cb7e5646ad2a6": {
+      "tr": "Fazla mesai yazmayı özleyeceğim aklıma gelmezdi."
+    },
+    "RD_ALifeLine_1aec71172f6d5535": {
+      "tr": "Hırdavatçıda bir şey kalmış mı? Bir çekiçle biraz çivi lazım."
+    },
+    "RD_ALifeLine_14b7275555ace102": {
+      "tr": "Başladığım ekipten geriye ben kaldım, gerisini sorma."
+    },
+    "RD_ALifeLine_5088613358dd6725": {
+      "tr": "Forkliftli bir herifle karşılaştım, o şey neler yapıyor, görsen şaşarsın."
+    },
+    "RD_ALifeLine_77ae783a61693656": {
+      "tr": "Yedek bir çift iş eldivenim var, sana lazım olacak gibi."
+    },
+    "RD_ALifeLine_5cc0900951f8ada9": {
+      "tr": "Kilisenin pompasını tamir ettim, artık tesisatçı da benim."
+    },
+    "RD_ALifeLine_56b192c339d15f3a": {
+      "tr": "Artık herkesin bir işi var, benimki ışıkları yanık tutmak, komik."
+    },
+    "RD_ALifeLine_63c6e2873b27738f": {
+      "tr": "Kimse bana hangi vardiya olduğunu söylemiyor, ben de hepsinde çalışıyorum."
+    },
+    "RD_ALifeLine_7afe27a5515f361c": {
+      "tr": "Sakin, sadece geçiyorum."
+    },
+    "RD_ALifeLine_0d4281fb04a8cf19": {
+      "tr": "Eller görünsün, benimkiler gibi."
+    },
+    "RD_ALifeLine_60cd17b4177c82ea": {
+      "tr": "Ekibimden uzak dur."
+    },
+    "RD_ALifeLine_3c7fd6292b85f7aa": {
+      "tr": "Hey, yaralanan var mı?"
+    },
+    "RD_ALifeLine_4519d3cf33beb17e": {
+      "tr": "Hepiniz iyi misiniz? Bir şeye ihtiyacınız var mı?",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('You all'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_29642d2d0fe5a186": {
+      "tr": "Merkezde su var, susadıysan.",
+      "not": "'the station' (kurtarma/itfaiye ekibi) → 'merkez'; 'istasyon' tren istasyonu çağrışımı yapar."
+    },
+    "RD_ALifeLine_2976ddee26a2a74b": {
+      "tr": "Selam, itfaiyeden geliyoruz, korkma."
+    },
+    "RD_ALifeLine_1aeb799073f1e8b7": {
+      "tr": "Cama dikkat, yeni temizledik."
+    },
+    "RD_ALifeLine_6f550e6f4bec87ef": {
+      "tr": "Merhaba, aranızda sağlıkçı var mı? Bir yardım eli lazım."
+    },
+    "RD_ALifeLine_597ed6fd00b43563": {
+      "tr": "Dolaşıyoruz, endişelenme, dostuz."
+    },
+    "RD_ALifeLine_0b2f251d5b8ebb82": {
+      "tr": "Aranızda ısırılan var mı? Herkese sormam gerek, kusura bakmayın."
+    },
+    "RD_ALifeLine_128b589a2a0f83e8": {
+      "tr": "Merkezde bir iki boş portatif yatak var."
+    },
+    "RD_ALifeLine_187d673b7b524d36": {
+      "tr": "Selam, uyumadık. Hala ayaktayız."
+    },
+    "RD_ALifeLine_5e93f1664d414e2a": {
+      "tr": "Selam, evlere bakıyoruz, içeride hayatta biri var mıydı, gördün mü?"
+    },
+    "RD_ALifeLine_2e1e92ec7af4e5b9": {
+      "tr": "Hey, yanında sargı bezi var mı? Steril bir şey?"
+    },
+    "RD_ALifeLine_0678430f2de48fc4": {
+      "tr": "Yaralı biri görürsen bize haber ver, gelir alırız, söz."
+    },
+    "RD_ALifeLine_56969a8b1ab02a5c": {
+      "tr": "Dün üç kişi kaybettik, o yüzden sayımız eksik görünüyorsa sebebi bu."
+    },
+    "RD_ALifeLine_5b06724e57e06bea": {
+      "tr": "Hey, suya ihtiyacın var gibi, azıcık var bizde."
+    },
+    "RD_ALifeLine_2d2b870c36b87d45": {
+      "tr": "Merhaba. Yaralı var mı? Sargı bezimiz de suyumuz da var."
+    },
+    "RD_ALifeLine_61a18c7b6ff8694f": {
+      "tr": "İyi misin? Rengin atmış, gel biraz otur."
+    },
+    "RD_ALifeLine_49b6163776ac0e4e": {
+      "tr": "Sargı bezi lazım mı? Birkaç tane var, temiz değil ama yoktan iyi."
+    },
+    "RD_ALifeLine_724bf9a172cdb1dc": {
+      "tr": "Selam, insanlara bakıyoruz, orada herkes iyi mi?"
+    },
+    "RD_ALifeLine_1f90af10570fb76b": {
+      "tr": "Doktor gören oldu mu? Elimizde derin kesiği olan bir adam var."
+    },
+    "RD_ALifeLine_66d4412b0ca2903c": {
+      "tr": "Nereye gidiyorsun? Hayatta kalanları arıyoruz, bir yer biliyorsan söyle."
+    },
+    "RD_ALifeLine_771d0ba12b69802a": {
+      "tr": "Kilisede yerimiz var, lazım olursa."
+    },
+    "RD_ALifeLine_1c5d84f83d799243": {
+      "tr": "Merhaba, durdurduğum için kusura bakma, hemşire değilsindir herhalde?"
+    },
+    "RD_ALifeLine_1f8752231989178a": {
+      "tr": "Church Street'te her eve baktık, son üçüne kimse cevap vermedi."
+    },
+    "RD_ALifeLine_6573d01217bf2190": {
+      "tr": "Lütfen, bir şey duyarsan söyle, koşa koşa geliriz."
+    },
+    "RD_ALifeLine_47ca342e2306094c": {
+      "tr": "Merhaba, tıbbi yardıma ihtiyacınız var mı? Biz gönüllüleriz.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('folks'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_17de50891bd08f21": {
+      "tr": "Lütfen, fazladan battaniyesi olan var mı? Hastamız var."
+    },
+    "RD_ALifeLine_51d6e287785c8cf1": {
+      "tr": "Selam, kiliseye gidiyoruz, yaralılar orada."
+    },
+    "RD_ALifeLine_1a4524f120717419": {
+      "tr": "Bol su için arkadaşlar, herkese söylüyorum."
+    },
+    "RD_ALifeLine_74cfaff63cfe9a4c": {
+      "tr": "Yaralı, yanık, hasta var mı? Sadece kontrol ediyorum."
+    },
+    "RD_ALifeLine_021e255d56e172bd": {
+      "tr": "Nabzı atan varsa görüşmek isteriz, ha ha, şaka bu."
+    },
+    "RD_ALifeLine_07305ef47350cd1f": {
+      "tr": "Hey, yedek gazlı bez var mı? Bitti, durum kötüleşiyor."
+    },
+    "RD_ALifeLine_1968864f3c3ddf60": {
+      "tr": "Ölülerin bir listesi bizde, bir ismi kontrol etmek istersen."
+    },
+    "RD_ALifeLine_00328f637cdb49cc": {
+      "tr": "Klinik herkese açık, soru sormayız."
+    },
+    "RD_ALifeLine_0e4ed06d04c7d48c": {
+      "tr": "Kalp masajı biliyor musun? Bir çift ele daha ihtiyacımız var."
+    },
+    "RD_ALifeLine_299c46c4636e689b": {
+      "tr": "Cumadan beri ayaktayız, ağır kalırsam kabahat bende, sende değil."
+    },
+    "RD_ALifeLine_19116baa472ea38f": {
+      "tr": "Hey, iyi ki karşılaştık, bugün gülümseyen ilk insanlarsınız.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('first people'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_54699ad930f33efb": {
+      "tr": "Yürüyen bir grup daha, çok şükür, sonuncular biziz sanmıştım..."
+    },
+    "RD_ALifeLine_7594fae53566a2e7": {
+      "tr": "Eski değirmene girme, orada beş kişi bulduk."
+    },
+    "RD_ALifeLine_2fb0b9a675540918": {
+      "tr": "Acelemiz yok, şu an yaralı yok, selam."
+    },
+    "RD_ALifeLine_01f26308744a4966": {
+      "tr": "Ev ziyareti için güzel bir gün, evde kimse yok ama olsun."
+    },
+    "RD_ALifeLine_062fe3f8160a4e08": {
+      "tr": "Sana nereye gideceğini söyleyen oldu mu? Biz bile bilmiyoruz."
+    },
+    "RD_ALifeLine_0c813aec5b5a643a": {
+      "tr": "Birlikte kalın, dağılmayın, biri yaralanırsa bize seslenin."
+    },
+    "RD_ALifeLine_1fc946350b290980": {
+      "tr": "Merkezde yer azalıyor ama bir köşe buluruz."
+    },
+    "RD_ALifeLine_528de99f37c83b6f": {
+      "tr": "Lütfen mesafeni koru, yaralılarımız var."
+    },
+    "RD_ALifeLine_17cd5b7c063df359": {
+      "tr": "Yoluna devam et lütfen, sana yardım edemeyiz."
+    },
+    "RD_ALifeLine_1bbc57626d91415d": {
+      "tr": "Araç merkezde, bize ihtiyacın olursa seslen."
+    },
+    "RD_ALifeLine_44fb73375d769e89": {
+      "tr": "Hiçbir şey yakma, bütün sokak kağıt gibi kuru."
+    },
+    "RD_ALifeLine_616002672ceed385": {
+      "tr": "Burada her yerde hortum var, ayağına dikkat."
+    },
+    "RD_ALifeLine_28eea94f3ac695ed": {
+      "tr": "Merkezde yemek var, yemek denirse."
+    },
+    "RD_ALifeLine_54ec99d413d89070": {
+      "tr": "O tarafta duman var mı? Hep görüyoruz."
+    },
+    "RD_ALifeLine_103d49c8753623b8": {
+      "tr": "Merkez sokağın aşağısında, yardım lazımsa oradayız."
+    },
+    "RD_ALifeLine_2b04ac80112d2e58": {
+      "tr": "Bir evden gaz kokusu gelirse kibrit çakma, hemen uzaklaş."
+    },
+    "RD_ALifeLine_0708a07c35b6ab3c": {
+      "tr": "Hortumu kaybettik. Elimde bir kova bir de huysuzluk var."
+    },
+    "RD_ALifeLine_2aad7654003af913": {
+      "tr": "Gaz kokusu alırsan hiçbir şey yakma, uzaklaş."
+    },
+    "RD_ALifeLine_44ca6b74162873b7": {
+      "tr": "Yangın muslukları kuru, o yüzden kova, hep kova."
+    },
+    "RD_ALifeLine_08c400660186fa59": {
+      "tr": "Ateşi olan var mı? Herkese bakıyorum, lütfen."
+    },
+    "RD_ALifeLine_3e842bbf3f83c790": {
+      "tr": "Ellerini yıka, biliyorum, biliyorum, su yok ama yine de yıka."
+    },
+    "RD_ALifeLine_1189ab980d8c0552": {
+      "tr": "Hemşireyim, yaralı varsa bakarım, çabuk olalım."
+    },
+    "RD_ALifeLine_70229d39780230aa": {
+      "tr": "Aynı bardaktan içme, aynı mataradan içme, ciddiyim."
+    },
+    "RD_ALifeLine_0e7f6600729dcf8c": {
+      "tr": "Hasta olan var mı? Saklama, erken olursa yardımcı olabiliriz."
+    },
+    "RD_ALifeLine_05d6bd477bc56a23": {
+      "tr": "Ateşi olan var mı? Bir bakayım, çabuk, söz."
+    },
+    "RD_ALifeLine_7cd78ae4454a5747": {
+      "tr": "Bir şeyler iç. Kupkuru olmuşsun."
+    },
+    "RD_ALifeLine_150151c532d30a22": {
+      "tr": "Kırık kemiği yerine oturtabilirim, gereken olursa söylesin."
+    },
+    "RD_ALifeLine_5064684e46f02b35": {
+      "tr": "Bir muayeneye ihtiyacın var gibi, çabucak bakabilir miyim?"
+    },
+    "RD_ALifeLine_13e3ce13381affb7": {
+      "tr": "Öksürük var mı? Ateş var mı? Önemli, söz."
+    },
+    "RD_ALifeLine_4fdf6e4d7360557e": {
+      "tr": "Dikiş atmayı bilen var mı? Sıra sıra kesik var."
+    },
+    "RD_ALifeLine_653614253112d6d3": {
+      "tr": "Biraz su iç. Bunu hemşire olarak söylüyorum, annen gibi değil."
+    },
+    "RD_ALifeLine_7257795d43bed305": {
+      "tr": "Huzur sizinle olsun, dostlarım."
+    },
+    "RD_ALifeLine_3542738f729e6c37": {
+      "tr": "Allah yolunu açık etsin.",
+      "not": "Din adamı: 'God keep you' → Allah (K35)."
+    },
+    "RD_ALifeLine_6f9a6be770bb9309": {
+      "tr": "Kilisede ayin yapıyoruz, herkes davetli."
+    },
+    "RD_ALifeLine_4a59756e5abbbe8e": {
+      "tr": "İstersen yolculuğun için dua edeyim."
+    },
+    "RD_ALifeLine_716f77a95ea9bf02": {
+      "tr": "Ben buranın papazıyım, konuşmak istersen kapım açık."
+    },
+    "RD_ALifeLine_53781a2e4c47d838": {
+      "tr": "Huzur olsun sana ve sevdiklerine, kim olursan ol."
+    },
+    "RD_ALifeLine_530e7fe6122b5aef": {
+      "tr": "Önümden geçen herkes için dua ederim, sen de duaya dahilsin."
+    },
+    "RD_ALifeLine_6054f3aa6af463dd": {
+      "tr": "Rab seninle, dünya olmasa bile.",
+      "not": "Din adamı: Lord → Rab (K35)."
+    },
+    "RD_ALifeLine_02555af417bcf81f": {
+      "tr": "Tepedeki kilisenin papazıyım, kapım her zaman açık."
+    },
+    "RD_ALifeLine_0b07ab97734569d6": {
+      "tr": "Kusura bakma, gerilince çok konuşurum. Rab seni korusun.",
+      "not": "Din adamı: 'bless you' → 'Rab seni korusun'."
+    },
+    "RD_ALifeLine_28c4ecc80da5e4d0": {
+      "tr": "İkiniz de lütuf içinde yürüyün.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('both of you'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_10b7d41530770a15": {
+      "tr": "Rab seni korusun kardeşim, kim olursan ol.",
+      "not": "Din adamı: Rab (K35)."
+    },
+    "RD_ALifeLine_01eb90d66c47fb82": {
+      "tr": "Dua etmek istersen buradayım, istemezsen de buradayım."
+    },
+    "RD_ALifeLine_13625a2078273aee": {
+      "tr": "Rab'bin bir planı varmış derler, ama benimle paylaşmadı.",
+      "not": "Din adamı: Rab'bin."
+    },
+    "RD_ALifeLine_0c053f963a2bd49e": {
+      "tr": "Benimle bir dakika dua eder misin? Benim için değil, kaybettiklerimiz için."
+    },
+    "RD_ALifeLine_0005d1da5c5f5b73": {
+      "tr": "Hoş geldin, hoş geldin, kilise açık, kimi istersen getir."
+    },
+    "RD_ALifeLine_2661f31b50f45ee6": {
+      "tr": "Allah ikinizi de korusun, yola dikkat."
+    },
+    "RD_ALifeLine_0f3818ef2fb4ed02": {
+      "tr": "Ara yolları gösteren bir haritası olan var mı?"
+    },
+    "RD_ALifeLine_4ce3ac1846dede0e": {
+      "tr": "Kestirme bilen var mı? Şu yoldan bıktım."
+    },
+    "RD_ALifeLine_5f10883761775c96": {
+      "tr": "Piggly Wiggly'yi boşaltmışlar ama depo kapısı hala kilitli."
+    },
+    "RD_ALifeLine_5383a0643df020c1": {
+      "tr": "Sabahtan beri yürüyorum, sanırım daire çiziyorum."
+    },
+    "RD_ALifeLine_78fb46ea4b5bc044": {
+      "tr": "Dikkat, o verandanın üçüncü basamağı çürük, bunu başımdan geçerek öğrendim."
+    },
+    "RD_ALifeLine_685634851f7af3e7": {
+      "tr": "Öğleden sonra ana yoldan gitme, dışarıda çok fazlalar."
+    },
+    "RD_ALifeLine_76d226052940d88d": {
+      "tr": "Kocam ahıra bakıyor, hemen arkandayız."
+    },
+    "RD_ALifeLine_4fde2ce37196e800": {
+      "tr": "Kocam yabancılardan çekinir, ben konuşayım, selam."
+    },
+    "RD_ALifeLine_0251bedc224f385f": {
+      "tr": "Kocam selam söylüyor, kendisi utanıyor."
+    },
+    "RD_ALifeLine_49ad3c540f3b8bc2": {
+      "tr": "İyi misin? Küçük kızım iyi olup olmadığını soruyor."
+    },
+    "RD_ALifeLine_5145436132123e41": {
+      "tr": "Rosewood'a gitmeye çalışıyoruz, orası güvenli mi? Güvenli bir yer var mı ki?"
+    },
+    "RD_ALifeLine_59b783705b838af4": {
+      "tr": "Ne olur yemeğin olduğunu söyle, azıcık olsun, kraker bile."
+    },
+    "RD_ALifeLine_300cd12e3abc7b14": {
+      "tr": "Uyumadım, kucağımda bebek var, dağılıyorum, selam."
+    },
+    "RD_ALifeLine_391171e431391999": {
+      "tr": "Dışarıda birini gördün mü? Aksayarak yürüyen bir adam? Kardeşim."
+    },
+    "RD_ALifeLine_21dda323074528a0": {
+      "tr": "Sanki normalmiş gibi yürüyoruz, buna inanamıyorum."
+    },
+    "RD_ALifeLine_2c22e250298c6974": {
+      "tr": "Burada güvende miyiz? Ne olur, artık ne yapacağımı bilmiyorum."
+    },
+    "RD_ALifeLine_723f8e144e5bbd8d": {
+      "tr": "Bak.. başka insanlar var, tamam, tamam."
+    },
+    "RD_ALifeLine_5e16902671821e66": {
+      "tr": "Susmayı öğrendik.. kabalık değil, yorgunluk."
+    },
+    "RD_ALifeLine_25afd00a301c0f2c": {
+      "tr": "Büyüğümüz on üç yaşında, şimdiden benden iyi nişan alıyor."
+    },
+    "RD_ALifeLine_5e9ca3c055053e2f": {
+      "tr": "Dokunmak zorunda olmadığın şeylere dokunma.. bunun üstüne bir de hastalanmaya dayanamam."
+    },
+    "RD_ALifeLine_78d129a9543fa877": {
+      "tr": "Bir ineğimiz var, inanabiliyor musun? Şehrin ortasında bir inek."
+    },
+    "RD_ALifeLine_627fb9f707ea8dc3": {
+      "tr": "Birlikte kalın.. duymaktan bıksanız da."
+    },
+    "RD_ALifeLine_56685dc9426814a7": {
+      "tr": "Berrak görünüyor diye suyu içmem.. riske değmez."
+    },
+    "RD_ALifeLine_5d0026c468489d83": {
+      "tr": "Yumurtayı mermiyle takas ediyoruz, iki taraf da kazançlı."
+    },
+    "RD_ALifeLine_536c74ca46f49c59": {
+      "tr": "Büyüğüm nöbet tutuyor, ben de sayıyı tutuyorum."
+    },
+    "RD_ALifeLine_29c3c10538043df8": {
+      "tr": "Küçüğü suya yaklaştırma, son zamanlarda iyi değil."
+    },
+    "RD_ALifeLine_69e9570631ea1b90": {
+      "tr": "Yolun aşağısında boş bir ev var, kuyusu da var, lazım olursa."
+    },
+    "RD_ALifeLine_06619ca24f47822c": {
+      "tr": "Yolun yukarısında bir ahır var, orada yattık, kuru."
+    },
+    "RD_ALifeLine_2ef1d7044ffabb15": {
+      "tr": "Şu yol ekibi cumadan beri çalışıyor, para alan yok."
+    },
+    "RD_ALifeLine_3f8c81bc08847f20": {
+      "tr": "Seni görmek iyi geldi, atlatmışsın, çok sevindim."
+    },
+    "RD_ALifeLine_2d8b78935c12c247": {
+      "tr": "İkiniz bir aile gibisiniz, buna sevindim.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('You two'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_7824fbda7f3cb716": {
+      "tr": "Merhaba dostlar, buradasınız, çok sevindim, gerçekten.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('friends'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_64e4d41b2ea47666": {
+      "tr": "Hala gülümsüyorsun, bu da bir şey."
+    },
+    "RD_ALifeLine_0d2a3bc21cfe86d6": {
+      "tr": "Merhaba, bugün kendimde değilim, kusura bakma."
+    },
+    "RD_ALifeLine_1d949ad2493900f1": {
+      "tr": "Bu hafta birini kaybettim, sessizsem o yüzden."
+    },
+    "RD_ALifeLine_3154e0e631c7d24c": {
+      "tr": "Selam, insan görmek iyi geldi ama konuşacak halim yok."
+    },
+    "RD_ALifeLine_11a9ef6c2909ba11": {
+      "tr": "Hey, ya kayboldun ya da ilginç bir yere gidiyorsun, hangisi?"
+    },
+    "RD_ALifeLine_7e3cf74411261bd3": {
+      "tr": "İkiniz partiye gidiyor gibisiniz, umarım pasta vardır.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('You two'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_0f2b5f5479a25843": {
+      "tr": "Aklımı görürsen söyle, eve dönsün."
+    },
+    "RD_ALifeLine_3764f5093fe62fe5": {
+      "tr": "Piknik için güzel bir gün, yeter ki sepeti açma."
+    },
+    "RD_ALifeLine_344c777226480395": {
+      "tr": "Arkaya bakma, içgüdünün sesini dinle."
+    },
+    "RD_ALifeLine_2b39401e55017ee8": {
+      "tr": "Yine bir gün, yine bir düzine, merhaba."
+    },
+    "RD_ALifeLine_45df32af28c88ed1": {
+      "tr": "Sen misin? Ah, çok şükür, sensin."
+    },
+    "RD_ALifeLine_3156788a3bfb349c": {
+      "tr": "Öyle ürkütme beni, zor tutunuyorum."
+    },
+    "RD_ALifeLine_6f99b1a52ed81d22": {
+      "tr": "Dur! Sen gerçek misin? Bir şey söyle!"
+    },
+    "RD_ALifeLine_7a8306e628096de8": {
+      "tr": "Ne istiyorsun? Pardon, uzun bir gün oldu, selam."
+    },
+    "RD_ALifeLine_66a068ec7f8e3a6b": {
+      "tr": "Saçım hakkında tek kelime etme, bir haftadır böyle."
+    },
+    "RD_ALifeLine_6a96ab775565493e": {
+      "tr": "Hey, hey"
+    },
+    "RD_ALifeLine_19e81fd77fa661e8": {
+      "tr": "Hadi bakalım"
+    },
+    "RD_ALifeLine_27693e733d5afab5": {
+      "tr": "Ha, iyi"
+    },
+    "RD_ALifeLine_7e158bad7beb47a0": {
+      "tr": "Dururdum, konuşurdum ama bebek uyuyor, araba da dağılmak üzere. Bir oturursam bir daha kalkamam."
+    },
+    "RD_ALifeLine_5422d2e930b41a42": {
+      "tr": "Selam"
+    },
+    "RD_ALifeLine_01e9eb014611eae5": {
+      "tr": "İyi misiniz?",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('Y'all'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_69640880563b5b67": {
+      "tr": "İyi misin?"
+    },
+    "RD_ALifeLine_61ee86b12b5d1161": {
+      "tr": "İdare ediyor musun?"
+    },
+    "RD_ALifeLine_45d9a4c807819619": {
+      "tr": "Ne haber?"
+    },
+    "RD_ALifeLine_79f219e719e118fa": {
+      "tr": "Nereye böyle?"
+    },
+    "RD_ALifeLine_2f93aa9203a944f3": {
+      "tr": "Seni görmek güzel"
+    },
+    "RD_ALifeLine_3cfd7597146c03bf": {
+      "tr": "Ayaktasın demek"
+    },
+    "RD_ALifeLine_341eab0007287128": {
+      "tr": "Dikkat et, tatlım"
+    },
+    "RD_ALifeLine_1561080e3306073e": {
+      "tr": "Yavaş ol bakalım"
+    },
+    "RD_ALifeLine_4c174f80748a98a2": {
+      "tr": "Acele etme"
+    },
+    "RD_ALifeLine_0dd38c260d2449c3": {
+      "tr": "Sen geç"
+    },
+    "RD_ALifeLine_03fe54d349a93a97": {
+      "tr": "Buyur, önce sen"
+    },
+    "RD_ALifeLine_68f057963c63424d": {
+      "tr": "Pardon, müsaade"
+    },
+    "RD_ALifeLine_1da9518b09c9b60f": {
+      "tr": "Pardon, geçiyoruz"
+    },
+    "RD_ALifeLine_7b7f63447c434370": {
+      "tr": "Başına dikkat"
+    },
+    "RD_ALifeLine_73ae92d3375b3bb7": {
+      "tr": "Adımına dikkat et"
+    },
+    "RD_ALifeLine_1a12af7b0ee8d078": {
+      "tr": "İçeri mi giriyorsunuz?",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('Y'all'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_3ccca4527e63dd1f": {
+      "tr": "Uzağa mı?"
+    },
+    "RD_ALifeLine_3ff15e8c65658818": {
+      "tr": "Kimseyi gördün mü?"
+    },
+    "RD_ALifeLine_422d66f92937b706": {
+      "tr": "Arkada kimse var mı?"
+    },
+    "RD_ALifeLine_1aeb651a3379c737": {
+      "tr": "Önde bir şey var mı?"
+    },
+    "RD_ALifeLine_20d6a6763e835cdb": {
+      "tr": "Her şey sakin mi?"
+    },
+    "RD_ALifeLine_2b3f5c0c2e087c21": {
+      "tr": "Dayanıyor musun?"
+    },
+    "RD_ALifeLine_31278dd5258b63fd": {
+      "tr": "Merhaba komşu"
+    },
+    "RD_ALifeLine_454e38937c68cb84": {
+      "tr": "Yiyecek var mı?"
+    },
+    "RD_ALifeLine_15c26fa068553013": {
+      "tr": "Su var mı?"
+    },
+    "RD_ALifeLine_7753febf3e07bbc2": {
+      "tr": "Kusura bakma, acelemiz var"
+    },
+    "RD_ALifeLine_60b19c1623eba366": {
+      "tr": "İyi misin, tatlım?"
+    },
+    "RD_ALifeLine_68f9d0d10df2a65a": {
+      "tr": "Sen yoluna bak, biz iyiyiz"
+    },
+    "RD_ALifeLine_07ecdcca1b0f640a": {
+      "tr": "Allah nasip ederse görüşürüz",
+      "not": "'God willing' → Allah nasip ederse (K35)."
+    },
+    "RD_ALifeLine_353f903640feca14": {
+      "tr": "Görüşürüz"
+    },
+    "RD_ALifeLine_233a6ef4388a6ae8": {
+      "tr": "Hah, buradaymışsın"
+    },
+    "RD_ALifeLine_561948f436542dbc": {
+      "tr": "Merhaba komşular"
+    },
+    "RD_ALifeLine_15784c6c48cddb74": {
+      "tr": "Ha, işte"
+    },
+    "RD_ALifeLine_1829670a6c0a967a": {
+      "tr": "Hey, ikiniz!",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('you two'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_2b70b78b1391807c": {
+      "tr": "Yavaş"
+    },
+    "RD_ALifeLine_30795cd558b877b3": {
+      "tr": "Şşş, tamam, sessiz"
+    },
+    "RD_ALifeLine_3ceec4093e53ba84": {
+      "tr": "Buraya"
+    },
+    "RD_ALifeLine_16bc89db1404ade3": {
+      "tr": "Bekle beni"
+    },
+    "RD_ALifeLine_0eb10c1116fe78f1": {
+      "tr": "Hemen arkandayım"
+    },
+    "RD_ALifeLine_6482477e1ed72f66": {
+      "tr": "Pardon, kusura bakma"
+    },
+    "RD_ALifeLine_3ffd14e779c5e158": {
+      "tr": "Ha, buradasın"
+    },
+    "RD_ALifeLine_4e7959b8610ad0f6": {
+      "tr": "Her 4 Temmuz'da sokak partisi yapardık. O insanların yarısını şimdi bulamıyorum."
+    },
+    "RD_ALifeLine_658418af3bf4d162": {
+      "tr": "Kızım ne zaman eve döneceğimizi soruyor. Ben yakında diyorum, o da öyle bakıp duruyor."
+    },
+    "RD_ALifeLine_3c47f033510dc768": {
+      "tr": "Gelirken enfekte gördün mü? Biz saymayı bıraktık."
+    },
+    "RD_ALifeLine_7dce11e04c0a65ca": {
+      "tr": "Şu şeyler güneşten hoşlanmıyor, ya da ben öyle sanıyorum, merhaba."
+    },
+    "RD_ALifeLine_17527a7c7c48842f": {
+      "tr": "Dikkat et, ölüler yavaştır ama asla durmazlar, bilirsin."
+    },
+    "RD_ALifeLine_04fd61683c1f43ed": {
+      "tr": "Enfekteler ateşi sevmiyor, biz de küçük bir ateşi hep yanık tutuyoruz."
+    },
+    "RD_ALifeLine_06fb8d7a2c713de9": {
+      "tr": "Canavarlar.. onlar için daha uygun bir kelime bulamıyorum."
+    },
+    "RD_ALifeLine_60c848df2eb15b0b": {
+      "tr": "Hey, sessiz olursan fark etmiyorlar, en azından bizde böyle oldu."
+    },
+    "RD_ALifeLine_77140a97579f4268": {
+      "tr": "Garajda bir tane bulduk, dört kişi zor hallettik."
+    },
+    "RD_ALifeLine_08169c4f43ecf1cc": {
+      "tr": "Küçüklerin onları yakından görmesine izin verme, doğru değil."
+    },
+    "RD_ALifeLine_5e0f00e05ca23e65": {
+      "tr": "Kokuları var, daha görmeden anlarsın."
+    },
+    "RD_ALifeLine_1306770240545f7e": {
+      "tr": "Az önceki inlemeyi duydun mu? Bir şey değildir dedim."
+    },
+    "RD_ALifeLine_64e80f1d4d5df79b": {
+      "tr": "Wilson'lar Louisville'e varmış, öyle diyorlar, inşallah doğru çıkar.",
+      "not": "'I hope it's true' → inşallah (K35)."
+    },
+    "RD_ALifeLine_20fdbd5c4f717acc": {
+      "tr": "Kuzenim bir kamyoncudan Fort Knox'taki köprünün kapalı olduğunu duymuş."
+    },
+    "RD_ALifeLine_5a16e1954f2ca156": {
+      "tr": "Hey, dondurmacının dondurucusu hala çalışıyormuş, söylenti tabii."
+    },
+    "RD_ALifeLine_14a44e89275e7d1f": {
+      "tr": "Third'de biri jeneratör çalıştırıyormuş, duydum."
+    },
+    "RD_ALifeLine_5ebf101739f08ba7": {
+      "tr": "Adliyeye bir liste asmışlar, isimler yazıyor, bir bakmalısın."
+    },
+    "RD_ALifeLine_0adf55336009e5c0": {
+      "tr": "Bill Wallace'ın çiftliğinde kuyu var, yolun düşerse seni ben yolladım de.",
+      "not": "'tell him I sent you' → 'seni ben yolladım de'."
+    },
+    "RD_ALifeLine_0e8fd32f1c3c2aad": {
+      "tr": "Kilise çanını duydun mu? Biri çalıyor, Allah razı olsun.",
+      "not": "'bless them' → Allah razı olsun (K35)."
+    },
+    "RD_ALifeLine_5f31b73d1451bb3b": {
+      "tr": "Belediye başkanı gitmiş, öyle diyorlar, helikopterle ayrılmış, ben öyle duydum."
+    },
+    "RD_ALifeLine_6660fd903447d1dd": {
+      "tr": "Herkes bizi alıp götürecek bir trenden bahsediyor, ben inanmıyorum."
+    },
+    "RD_ALifeLine_797cfada6cef167f": {
+      "tr": "Bu yoldaki herkesi köpeklerinden tanırdım. Şimdi ne kimseyi tanıyorum ne de köpeklerin nereye gittiğini biliyorum."
+    },
+    "RD_ALifeLine_2abbc965737374d6": {
+      "tr": "Otuz yıl bu ilçenin her ara yolunu öğrendim, hiçbiri güvenli bir yere çıkmıyor."
+    },
+    "RD_ALifeLine_20f7b11a158699d3": {
+      "tr": "Hala ayaktasın, bakıyorum."
+    },
+    "RD_ALifeLine_2c77c8ff173ac140": {
+      "tr": "Dokuz gün oldu, sayıyor musun? Ben altıda şaşırdım."
+    },
+    "RD_ALifeLine_7544f6bb373fe933": {
+      "tr": "Ordu gitti, söyleyen oldu mu? Yalnızız."
+    },
+    "RD_ALifeLine_5517135f56e896d5": {
+      "tr": "Hey, haftayı çıkardın, aferin sana."
+    },
+    "RD_ALifeLine_1bd47ce93e2c5767": {
+      "tr": "Radyo salı günü sustu, haber kaynağım sensin artık."
+    },
+    "RD_ALifeLine_78d3858117658a5b": {
+      "tr": "İki gündür kimseyi görmedim, o yüzden... merhaba."
+    },
+    "RD_ALifeLine_1aa6bd7464d22b54": {
+      "tr": "Bir planın var mı? Çünkü bende kalmadı."
+    },
+    "RD_ALifeLine_7a6c731f057208af": {
+      "tr": "Herkes yürüyor, herkes nereye gidiyor?"
+    },
+    "RD_ALifeLine_19a3a9c9733038a2": {
+      "tr": "İki hafta oldu, inanabiliyor musun? İki haftadır bu hal."
+    },
+    "RD_ALifeLine_7a9569162cfee56d": {
+      "tr": "Yine merhaba, hala buralardasın, sevindim."
+    },
+    "RD_ALifeLine_59181ab755c1b6c5": {
+      "tr": "Bir kuyu bulduk, suya ihtiyacın olursa Baptist kilisesinin arkasında."
+    },
+    "RD_ALifeLine_2820e7d47b9d9367": {
+      "tr": "Takas var mı? Bende çorap var, temiz sayılır."
+    },
+    "RD_ALifeLine_363ec4a377206be7": {
+      "tr": "Tanıdığım herkes gitti, bundan sonra arkadaşım sensin, kusura bakma."
+    },
+    "RD_ALifeLine_6a2249e202e976c9": {
+      "tr": "Pizzanın tadı neydi, hatırlıyor musun? Ben unutuyorum."
+    },
+    "RD_ALifeLine_2b4a298a5128c3da": {
+      "tr": "Bir ay olmuş bile, aklın alıyor mu?"
+    },
+    "RD_ALifeLine_2a0f76c3583782b2": {
+      "tr": "Bugün günlerden ne diye sorma, hiçbir fikrim yok."
+    },
+    "RD_ALifeLine_7292867468b0f291": {
+      "tr": "Bu kadar yaşadıysan çoğundan akıllısın."
+    },
+    "RD_ALifeLine_0d3da7c858b215b5": {
+      "tr": "Bahçemiz toparlanıyor, tohumun varsa takas ederiz."
+    },
+    "RD_ALifeLine_2d21e5fe1acc344a": {
+      "tr": "Küçük bir grubuz, on kişiyiz, yer var, lazımsa."
+    },
+    "RD_ALifeLine_1e7a12b04c7ddb27": {
+      "tr": "Orduyu beklemeyi bıraktım, mısır ekmeye başladım."
+    },
+    "RD_ALifeLine_532f5bdd5c036659": {
+      "tr": "İyi akşamlar, yeni bir şey yok."
+    },
+    "RD_ALifeLine_55c88dcc5c3dfc26": {
+      "tr": "Vay, dikkat et, ev hala için için yanıyor."
+    },
+    "RD_ALifeLine_0aedeaf241495cf7": {
+      "tr": "Dunn'ları duydun mu? Şafakta çıkıp gitmişler, nereye gittiklerini kimse bilmiyor."
+    },
+    "RD_ALifeLine_6d8e13ff62bda442": {
+      "tr": "Bir dakika içeri gelmek ister misiniz? Veranda gölgede.",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta çoğul alıcı ('Y'all'); PASSING_NPC_GREET'te konuşan NPC başka bir NPC'ye ya da gruba seslenir, Türkçede çoğul korundu."
+      }
+    },
+    "RD_ALifeLine_3a3757bd21537f9e": {
+      "tr": "Kocamı gördün mü? Boyu bir seksen kadar, kızıl sakallı, pazarda kaybettim.",
+      "not": "Birim: six foot → bir seksen."
+    },
+    "RD_ALifeLine_2dd64c297c2a500a": {
+      "tr": "Hey, o kamyonu tanıyorum. Şimdi kim kullanıyor? Yok, boş ver."
+    },
+    "RD_ALifeLine_215f3f762adf6262": {
+      "tr": "Karım işte olduğumu sanıyor, ona da işteyim diyorum, ben de mahallede dolanıyorum."
+    },
+    "RD_ALifeLine_427342f87f482e06": {
+      "tr": "Bu sabah bir adamı hendekten çıkardık, bir şeyi yok, sadece utanıyor."
+    },
+    "RD_ALifeLine_5d934fc85ee5cb14": {
+      "tr": "Doktor değilim ama bu sokakta doktor rolü yapıyorum."
+    },
+    "RD_ALifeLine_2c7975d4301e1299": {
+      "tr": "Öğle oldu, beş saattir yürüyoruz, ayaklarım lapa lapa."
+    },
+    "RD_ALifeLine_4a7c32323fc98b7e": {
+      "tr": "O şeyleri gördün mü? Gördün mü? Bir tek ben görmüş olamam!"
+    },
+    "RD_ALifeLine_31c9151b527a5b3f": {
+      "tr": "Hasta mı bunlar, ölü mü? Söyle bana, bilmen lazım."
+    },
+    "RD_ALifeLine_6cf0ec865af0bc97": {
+      "tr": "Amcam bakkala gitti, öyle döndü geldi, ben dayanamıyorum."
+    },
+    "RD_ALifeLine_4104d3ef6ac9d279": {
+      "tr": "O Bay Jenkins'ti, o paltoyu her yerde tanırım, oydu."
+    },
+    "RD_ALifeLine_535551536368ad04": {
+      "tr": "Kim yönetiyor burayı? Birinin yönetmesi lazım!"
+    },
+    "RD_ALifeLine_3f54c21324f5f82b": {
+      "tr": "Her gün önce köpekleri, sonra ölüleri sayarım, en son da kendimi."
+    },
+    "RD_ALifeLine_64a1c74d6be46332": {
+      "tr": "Artık sopayla yatıyorum, bir de dua."
+    },
+    "RD_ALifeLine_05cf665c612ddc31": {
+      "tr": "Ölüler dinlenmez, biz de yürüyeceksek gözümüz görürken yürürüz."
+    },
+    "RD_ALifeLine_18e99a805c42447a": {
+      "tr": "Grubumuzda kimse ısırılmadı, öyle de kalacak."
+    },
+    "RD_ALifeLine_7a6c92b706fda5a3": {
+      "tr": "Okulun bodrumunda bir konserve zulası bulmuşlar, o benim, istediğin kişiye sor."
+    }
+  }
+}

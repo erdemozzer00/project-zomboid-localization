@@ -1,0 +1,288 @@
+{
+ "_paket": "Y9",
+ "_grup": "bitis_soz",
+ "_dosya": "RadioData_lua",
+ "_baslik": "1.5.0 bitiş: telsiz kartı ve helikopter pilotunun sözleri",
+ "_parcalar": [
+  [
+   1,
+   28
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "RD_ALifeLine_7a6693d31141f1a6",
+   "Extraction window is closed, nobody on the roof",
+   [
+    "ALifeEndingCallData.lua",
+    "failure",
+    "1",
+    "1"
+   ]
+  ],
+  "2": [
+   "RD_ALifeLine_0d9aa426143da8e5",
+   "No contact on the roof, window closed",
+   [
+    "ALifeEndingCallData.lua",
+    "failure",
+    "3",
+    "1"
+   ]
+  ],
+  "3": [
+   "RD_ALifeLine_1ab69ee6589c65a6",
+   "Comms are going dark, this is the last call from the US military on this band today",
+   [
+    "ALifeEndingCallData.lua",
+    "cut",
+    "1"
+   ]
+  ],
+  "4": [
+   "RD_ALifeLine_20d957d829b971c9",
+   "This is the US military again",
+   [
+    "ALifeEndingCallData.lua",
+    "nodes",
+    "open",
+    "alt1 (geri dönüş, startLines)",
+    "1"
+   ]
+  ],
+  "5": [
+   "RD_ALifeLine_49785dfb7ed44211",
+   "This is the United States military",
+   [
+    "ALifeEndingData.lua",
+    "lines",
+    "broadcast",
+    "1"
+   ]
+  ],
+  "6": [
+   "RD_ALifeLine_50eb396d174c8f58",
+   "Copy that, we hear you survivor",
+   [
+    "ALifeEndingData.lua",
+    "lines",
+    "reply",
+    "1"
+   ]
+  ],
+  "7": [
+   "RD_ALifeLine_7619bef9070b0c84",
+   "Extraction window is closed",
+   [
+    "ALifeEndingData.lua",
+    "lines",
+    "missed",
+    "1"
+   ]
+  ],
+  "8": [
+   "RD_ALifeLine_7ec1f0d66390d0ab",
+   "Get in, quick",
+   [
+    "ALifeEndingData.lua",
+    "lines.pilot",
+    "board"
+   ]
+  ],
+  "9": [
+   "RD_ALifeLine_4f61003c4bd06dad",
+   "Are we good to go",
+   [
+    "ALifeEndingData.lua",
+    "lines.pilot",
+    "ready"
+   ]
+  ],
+  "10": [
+   "RD_ALifeLine_12ae541921e09f9f",
+   "Take your time, we wait 20 more minutes",
+   [
+    "ALifeEndingData.lua",
+    "lines.pilot",
+    "waiting"
+   ]
+  ],
+  "11": [
+   "RD_ALifeLine_258ab57e641e3de3",
+   "Hold on, taking off",
+   [
+    "ALifeEndingData.lua",
+    "lines.pilot",
+    "go"
+   ]
+  ],
+  "12": [
+   "RD_ALifeLine_681ddcde43a41fa1",
+   "Look at it burn",
+   [
+    "ALifeEndingData.lua",
+    "talk",
+    "intro"
+   ]
+  ],
+  "13": [
+   "RD_ALifeLine_066d32e03cd65fe1",
+   "Yeah, we all keep that list, just don't read it out loud",
+   [
+    "ALifeEndingData.lua",
+    "talk.beats",
+    "regret",
+    "unsaved"
+   ]
+  ],
+  "14": [
+   "RD_ALifeLine_203dda70366c45d6",
+   "Liar or saint, either way you're still breathing",
+   [
+    "ALifeEndingData.lua",
+    "talk.beats",
+    "regret",
+    "nothing"
+   ]
+  ],
+  "15": [
+   "RD_ALifeLine_0fbb63f653dac270",
+   "Trust is a bullet with your name on it, you learned that cheap",
+   [
+    "ALifeEndingData.lua",
+    "talk.beats",
+    "regret",
+    "trust"
+   ]
+  ],
+  "16": [
+   "RD_ALifeLine_40b148e61dc42b68",
+   "Long enough to learn what it costs, welcome to the club",
+   [
+    "ALifeEndingData.lua",
+    "talk.beats",
+    "regret",
+    "stayed"
+   ]
+  ],
+  "17": [
+   "RD_ALifeLine_62f1ea3079c37386",
+   "Fair, silence is an answer too",
+   [
+    "ALifeEndingData.lua",
+    "talk.beats",
+    "regret",
+    "silent"
+   ]
+  ],
+  "18": [
+   "RD_ALifeLine_19dd510362f2204c",
+   "Quiet was the first thing they took, keep the memory",
+   [
+    "ALifeEndingData.lua",
+    "talk.beats",
+    "miss",
+    "mornings"
+   ]
+  ],
+  "19": [
+   "RD_ALifeLine_319ff8086c9810e7",
+   "They got the easy part, you carry them now",
+   [
+    "ALifeEndingData.lua",
+    "talk.beats",
+    "miss",
+    "buried"
+   ]
+  ],
+  "20": [
+   "RD_ALifeLine_7c56be391052f12d",
+   "Cold, I like it, cold keeps you alive",
+   [
+    "ALifeEndingData.lua",
+    "talk.beats",
+    "miss",
+    "nothing"
+   ]
+  ],
+  "21": [
+   "RD_ALifeLine_728d7d3c273982ca",
+   "Ha, aim low, I respect it",
+   [
+    "ALifeEndingData.lua",
+    "talk.beats",
+    "miss",
+    "bed"
+   ]
+  ],
+  "22": [
+   "RD_ALifeLine_149c721a7f2a4688",
+   "Yeah, me neither",
+   [
+    "ALifeEndingData.lua",
+    "talk.beats",
+    "miss",
+    "silent"
+   ]
+  ],
+  "23": [
+   "RD_ALifeLine_4070b3fc0577f10d",
+   "Good answer, worst part is I almost believe you",
+   [
+    "ALifeEndingData.lua",
+    "talk.beats",
+    "worth",
+    "every"
+   ]
+  ],
+  "24": [
+   "RD_ALifeLine_7e8b9f137308de1f",
+   "Smart, nobody knows till they're on the ground",
+   [
+    "ALifeEndingData.lua",
+    "talk.beats",
+    "worth",
+    "ask"
+   ]
+  ],
+  "25": [
+   "RD_ALifeLine_3d5034fb26bfc0a8",
+   "I would if they could answer",
+   [
+    "ALifeEndingData.lua",
+    "talk.beats",
+    "worth",
+    "stayed"
+   ]
+  ],
+  "26": [
+   "RD_ALifeLine_0c9baf4a24d4287d",
+   "Honest, at least you're not selling me anything",
+   [
+    "ALifeEndingData.lua",
+    "talk.beats",
+    "worth",
+    "no"
+   ]
+  ],
+  "27": [
+   "RD_ALifeLine_6879143f24e3c78b",
+   "Sure, keep it",
+   [
+    "ALifeEndingData.lua",
+    "talk.beats",
+    "worth",
+    "silent"
+   ]
+  ],
+  "28": [
+   "RD_ALifeLine_420875883d1027bd",
+   "Hold on, we're almost out",
+   [
+    "ALifeEndingData.lua",
+    "talk",
+    "outro"
+   ]
+  ]
+ }
+}

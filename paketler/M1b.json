@@ -1,0 +1,147 @@
+{
+  "_paket": "M1b — Murlo'nun geliştirme sürümü (1.5.0 sonrası, 2026-11-10): Sandbox yeni 33 + metni değişen 2 satır (Claude, 50 altı kuralı)",
+  "_dosya": "Sandbox",
+  "_surum_farki": true,
+  "satirlar": {
+    "Sandbox_ProjectALife.HeliFrequency_tooltip": {
+      "tr": "A-Life helikopterlerinin ne sıklıkla geldiği: geçişler ve takviye çağrıları. Günler geçtikçe helikopterler seyrekleşir. Düşük yarı yarıya, Yüksek iki kat sık; Kapalı bütün geçişleri, devriyeleri ve ilk geçişleri durdurur (takviye helikopterleri kendi ayarına bağlıdır). 'A-Life helikopterleri' açık olmalı.\nVarsayılan: Normal (2).",
+      "not": "Metni değişti: seyrekleşme ve Kapalı seçeneği eklendi."
+    },
+    "Sandbox_ProjectALife.HeliFrequency_option4": {
+      "tr": "Kapalı",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.HeliHostile": {
+      "tr": "Düşman ve baskın helikopterleri",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.HeliHostile_tooltip": {
+      "tr": "Helikopterlerin düşmanlaşıp saldırmak için çevrende dönmesine ve büyük baskınların helikopterle gelmesine (silahlı baskın helikopteri, helikopter indirmesi) izin verir. Kapalı: hiçbir helikopter saldırmaz, baskınlar yaya ya da arabayla gelir.\nVarsayılan: açık.",
+      "not": "'helicopter drop' → mevcut 'helikopter indirmesi'."
+    },
+    "Sandbox_ProjectALife.CarsTrafficFrequency_tooltip": {
+      "tr": "Yollarda ne kadar NPC arabası olduğu: çevre trafiği, arabadan ateş açma ve yanaşma. Düşük yaklaşık yüzde 40, Yüksek 1,5 kat; Kapalı bütün çevre NPC trafiğini durdurur (baskın, polis müdahalesi ve senaryolu arabalar kendi ayarlarına bağlıdır). 'NPC'ler araç kullanır' açık olmalı.\nVarsayılan: Normal (2).",
+      "not": "Metni değişti. drive-by/pull-up mevcut 'Arabadan geçerken ateş' / 'Arabayla yanaşma' ile uyumlu."
+    },
+    "Sandbox_ProjectALife.CarsTrafficFrequency_option4": {
+      "tr": "Kapalı",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.TalkWindowStyle": {
+      "tr": "Konuşma penceresi türü",
+      "not": "Mevcut 'Konuşma penceresi' kullanımı."
+    },
+    "Sandbox_ProjectALife.TalkWindowStyle_tooltip": {
+      "tr": "Oyunculara hangi konuşma penceresinin açılacağı. Yeni, yan paneldir; Eski sinematik, numaralı cevapları olan önceki penceredir. Zorunlu bir değer seçmezsen oyuncunun Günlük'teki ayarı geçerli olur.\nVarsayılan: Yeni.",
+      "not": "Journal → Günlük (UI.json ve IG_UI ile aynı)."
+    },
+    "Sandbox_ProjectALife.TalkWindowStyle_option1": {
+      "tr": "Yeni",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.TalkWindowStyle_option2": {
+      "tr": "Eski sinematik",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.TalkWindowStyle_option3": {
+      "tr": "Yeni (zorunlu)",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.TalkWindowStyle_option4": {
+      "tr": "Eski sinematik (zorunlu)",
+      "not": ""
+    },
+    "Sandbox_ProjectALife_6Ambient": {
+      "tr": "A-Life: Ortam sesleri",
+      "not": "Sayfa başlığı (EN'de EXPERT öneki yok)."
+    },
+    "Sandbox_ProjectALife.MetaSoundEnabled": {
+      "tr": "Meta ortam sesleri",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.MetaSoundEnabled_tooltip": {
+      "tr": "Ortam seslerinin ana şalteri: telefonlar, alarmlar, televizyon ve radyo cızırtısı, polis telsizi konuşmaları, uzaktan gelen silah sesleri ve çığlıklar, çanlar ve sirenler, deniz ve orman, sayı istasyonu. Kapalıyken hepsi susar.\nVarsayılan: açık.",
+      "not": "'Master switch' → mevcut 'Ana şalter'."
+    },
+    "Sandbox_ProjectALife.MetaSoundPhones": {
+      "tr": "Telefonlar ve bip sesleri",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.MetaSoundPhones_tooltip": {
+      "tr": "Ev telefonları, ölülerin telefonları ve alarm bipleri. Bu kapalıyken cesetlerdeki telefonlar zombi de çekmez.\nVarsayılan: açık.",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.MetaSoundTvRadio": {
+      "tr": "Televizyon ve radyo cızırtısı",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.MetaSoundTvRadio_tooltip": {
+      "tr": "Acil durum yayını sinyalleri, telsizden takviye çağrıları ve radyonun kesilmesi.\nVarsayılan: açık.",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.MetaSoundPolice": {
+      "tr": "Polis telsizi konuşmaları",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.MetaSoundPolice_tooltip": {
+      "tr": "Yakınındaki polis arabalarından gelen merkez anonsları.\nVarsayılan: açık.",
+      "not": "dispatch → merkez anonsu."
+    },
+    "Sandbox_ProjectALife.MetaSoundGunfire": {
+      "tr": "Uzaktan silah sesleri ve çığlıklar",
+      "not": "Mevcut 'Uzaktan gelen silah sesleri' ile uyumlu."
+    },
+    "Sandbox_ProjectALife.MetaSoundGunfire_tooltip": {
+      "tr": "Uzaklardaki çatışmalar, top atışları, patlamalar, çığlıklar ve yardım çağrıları.\nVarsayılan: açık.",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.MetaSoundBells": {
+      "tr": "Çanlar ve sirenler",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.MetaSoundBells_tooltip": {
+      "tr": "Kilise çanları, polis ve acil servis sirenleri, hava saldırısı sirenleri.\nVarsayılan: açık.",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.MetaSoundNature": {
+      "tr": "Doğa sesleri",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.MetaSoundNature_tooltip": {
+      "tr": "Açık suya yakınken dalga sesleri, ormanda rüzgâr.\nVarsayılan: açık.",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.MetaSoundNumbers": {
+      "tr": "Sayı istasyonu",
+      "not": "numbers station: şifreli sayı okuyan radyo yayını."
+    },
+    "Sandbox_ProjectALife.MetaSoundNumbers_tooltip": {
+      "tr": "Radyolarda ve televizyonlarda sayı istasyonu ve gong sesi.\nVarsayılan: açık.",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.MetaSoundVolume": {
+      "tr": "Meta ses düzeyi (yüzde)",
+      "not": "Mevcut '(yüzde)' kalıbı."
+    },
+    "Sandbox_ProjectALife.MetaSoundVolume_tooltip": {
+      "tr": "Yukarıdaki bütün meta ortam seslerinin düzeyini ayarlar. 0'da hepsi susar.\nVarsayılan: 100.",
+      "not": ""
+    },
+    "Sandbox_ProjectALife.CarsSpawnDistance": {
+      "tr": "NPC arabalarının ortaya çıkma mesafesi (kare)",
+      "not": "SÖZLÜK: dünyada kendiliğinden belirme → ortaya çıkma."
+    },
+    "Sandbox_ProjectALife.CarsSpawnDistance_tooltip": {
+      "tr": "Çevredeki NPC arabaları (yoldan geçenler, oyun başı trafiği, sen yaklaşınca gerçeğe dönüşen arabalar) bir oyuncuya bundan daha yakında asla belirmez. Baskın, yanaşma, arabadan ateş ve polis arabaları daha yakında belirebilir ama asla görüş alanında belirmez; duvar arkası da görüş alanından sayılır.\nVarsayılan: 70.",
+      "not": "'walls do not hide them' = görüş kontrolünde duvar hesaba katılmaz."
+    },
+    "Sandbox_ProjectALife.CarsBaseKeepOut": {
+      "tr": "Arabalar üslerden uzak durur (kare)",
+      "not": "Mevcut 'Karakollar oyuncu üslerinden uzak durur (kare)' kalıbı."
+    },
+    "Sandbox_ProjectALife.CarsBaseKeepOut_tooltip": {
+      "tr": "NPC arabaları oyuncu üssünün sınırına bu mesafeden yakın asla ortaya çıkmaz ya da belirmez; gelen ekipler bu sınırdan önce durup arabadan iner. 0'da yalnızca üssün kendisine girmezler.\nVarsayılan: 40.",
+      "not": ""
+    }
+  }
+}

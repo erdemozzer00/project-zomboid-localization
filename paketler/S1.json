@@ -1,0 +1,98 @@
+{
+  "_paket": "S1 — Sandbox: Başlangıç sayfası (0Start) + sayfa başlıkları",
+  "_dosya": "Sandbox",
+  "satirlar": {
+    "Sandbox_ProjectALife_0Start": {"tr": "A-Life: BURADAN BAŞLA"},
+    "Sandbox_ProjectALife_1People": {"tr": "A-Life: İnsanlar ve gruplar"},
+    "Sandbox_ProjectALife_2Danger": {"tr": "A-Life: Tehlike ve çatışma"},
+    "Sandbox_ProjectALife_3Talk": {"tr": "A-Life: Sohbet ve itibar", "not": "\"Conversation\" için arayüzde zaten \"SOHBET\" kullanılmış (A-LIFE / SOHBET)."},
+    "Sandbox_ProjectALife_4Bases": {"tr": "A-Life: Üsler ve ziyaretçiler"},
+    "Sandbox_ProjectALife_4Visitors": {"tr": "A-Life: Misafir ağırlama", "not": "Sayfadaki ayarlar evine gelen misafirlerin oturması, kitap okuması, kıyafet değiştirmesi, flört etmesi gibi şeyler. \"Visitors as people\" düz çevrilince anlamsızlaşıyor; \"Misafir ağırlama\" sayfanın ne olduğunu Türkçede tek bakışta anlatıyor. Sözlüğe yeni terim: guest = misafir."},
+    "Sandbox_ProjectALife_5World": {"tr": "A-Life: Dünya ve etkinlikler"},
+    "Sandbox_ProjectALife_6Sound": {"tr": "A-Life: Ses ve performans"},
+    "Sandbox_ProjectALife_7ExpertBehavior": {"tr": "A-Life: UZMAN - davranış modülleri"},
+    "Sandbox_ProjectALife_8ExpertCombat": {"tr": "A-Life: UZMAN - çatışma ince ayarı"},
+    "Sandbox_ProjectALife_9Admin": {"tr": "A-Life: Yönetici ve hata ayıklama"},
+    "Sandbox_ProjectALife_9Compat": {"tr": "A-Life: UZMAN - uyumluluk"},
+
+    "Sandbox_ProjectALife.PresetDifficulty": {"tr": "Zorluk: NPC'ler ne kadar tehlikeli"},
+    "Sandbox_ProjectALife.PresetDifficulty_tooltip": {"tr": "Hafif: hasar 50, sağlık 80, baskınlar 60. günden itibaren. Yalnızca varsayılan değerinde duran ayarlar değişir; nüfus yoğunluğu ayrı ayarlanır. Tam etki için oyunu yeniden yükle. Düşman sınırı yalnızca dünyaya yeni katılanlara uygulanır.\nVarsayılan: Standart (2).", "not": "\"50 damage, 80 health\" yüzde değerleri; %% eklemedim çünkü EN'de yok, \"hasar 50, sağlık 80\" sırası ayar adlarıyla (hasar/sağlık yüzdesi) okunuyor."},
+    "Sandbox_ProjectALife.PresetDifficulty_option1": {"tr": "Hafif"},
+    "Sandbox_ProjectALife.PresetDifficulty_option2": {"tr": "Standart"},
+    "Sandbox_ProjectALife.PresetDifficulty_option3": {"tr": "Zor"},
+    "Sandbox_ProjectALife.PresetDifficulty_option4": {"tr": "Acımasız"},
+
+    "Sandbox_ProjectALife.PresetWorld": {"tr": "Dünya nüfusu: kaç kişi"},
+    "Sandbox_ProjectALife.PresetWorld_tooltip": {"tr": "Normal: 200 hayatta kalan, 45 yerleşim yeri, 6 karakol. Baskınlar da buna göre ölçeklenir. Yalnızca varsayılan değerinde duran ayarlar değişir; grup sınırları anında güncellenir, diğerleri için oyunu yeniden yükle. Stres testi desteklenmez, oyun kasabilir.\nVarsayılan: Normal (3).", "not": "Eski uzun metin tamamen değişmiş; yeni kısa metin baştan çevrildi."},
+    "Sandbox_ProjectALife.PresetWorld_option1": {"tr": "Issız", "not": "Senin eski kelimen korundu; açıklama kısmı EN'den kalkmış."},
+    "Sandbox_ProjectALife.PresetWorld_option2": {"tr": "Seyrek"},
+    "Sandbox_ProjectALife.PresetWorld_option3": {"tr": "Normal", "not": "EN'de \"Balanced\" → \"Normal\" olmuş; eski \"Dengeli\" artık geçersiz."},
+    "Sandbox_ProjectALife.PresetWorld_option4": {"tr": "Kalabalık"},
+    "Sandbox_ProjectALife.PresetWorld_option5": {"tr": "Stres testi (desteklenmez, kasabilir)", "not": "EN'de \"Insane\" → \"Stress test\" olmuş; eski \"Çılgın\" artık geçersiz. \"Kasabilir\" oyuncu ağzı (lag)."},
+
+    "Sandbox_ProjectALife.Raid_Chance": {"tr": "Baskınlar: kontrol başına olasılık (yüzde)"},
+    "Sandbox_ProjectALife.Raid_Chance_tooltip": {"tr": "Her kontrolde keşifçilerin bir baskın hazırlığına başlama olasılığı. 0 yaparsan otomatik baskınlar durur; bekleme süresi ve en erken gün sınırları yine geçerli.\nVarsayılan: 0.01.", "not": "Ondalık ayırıcı nokta kaldı (0.01): ayar kutusu sayıyı noktayla gösteriyor."},
+
+    "Sandbox_ProjectALife.Raid_SirenAircraftSounds": {"tr": "Siren ve uçak sesleri"},
+    "Sandbox_ProjectALife.Raid_SirenAircraftSounds_tooltip": {"tr": "Başlangıçtaki sirenleri, jetleri ve baskın uçaklarının seslerini açıp kapatır. Helikopterle gelen baskınlar için ayrıca A-Life helikopterleri ayarının açık olması gerekir.\nVarsayılan: açık.", "not": "\"the helicopter option\" = Raid_Helicopter ayarı (\"A-Life helicopters\"). O ayarın adı S3/S6'da \"A-Life helikopterleri\" olarak çevrilecek (C1)."},
+
+    "Sandbox_ProjectALife.ALifeEnabled": {"tr": "Düşman fraksiyonlar"},
+    "Sandbox_ProjectALife.ALifeEnabled_tooltip": {"tr": "Kapalıyken düşman fraksiyonlar, otomatik baskınlar ve yeni karakollar olmaz. Dost, tarafsız ve temkinli hayatta kalanlar yine ortaya çıkabilir.\nVarsayılan: açık."},
+
+    "Sandbox_ProjectALife.NightActivity": {"tr": "Karanlıkta da hareket eden hayatta kalanlar"},
+    "Sandbox_ProjectALife.NightActivity_tooltip": {"tr": "Geceleri kaç grubun yoluna ve işine devam edeceğini belirler. Herkes sığınır seçilirse kimse dışarıda kalmaz; Gözü karalar seçilirse grupların çoğu hareket etmeye devam eder.\nVarsayılan: Orta olasılık (3).", "not": "Seçenek adlarına atıf var; aşağıdaki iki öneri kabul edilmezse bu metin \"Risk almayanlar / Risk alanlar\" ile güncellenir."},
+    "Sandbox_ProjectALife.NightActivity_option1": {"tr": "Herkes sığınır", "oneri": true, "not": "ÖNERİ (eski: \"Risk almayanlar\"). Seçeneğin etkisi \"herkes geceyi bir yere kapanarak geçirir\"; \"Risk almayanlar\" kimlerin seçildiğini anlatıyor gibi duruyor, ne olacağını değil."},
+    "Sandbox_ProjectALife.NightActivity_option2": {"tr": "Düşük olasılık"},
+    "Sandbox_ProjectALife.NightActivity_option3": {"tr": "Orta olasılık"},
+    "Sandbox_ProjectALife.NightActivity_option4": {"tr": "Yüksek olasılık"},
+    "Sandbox_ProjectALife.NightActivity_option5": {"tr": "Gözü karalar", "oneri": true, "not": "ÖNERİ (eski: \"Risk alanlar\"). \"Risk takers\"ın Türkçedeki doğal karşılığı; K5'teki ölçülü ağız hissine de uyuyor."},
+
+    "Sandbox_ProjectALife.MaxHostiles": {"tr": "Gezgin hayatta kalan sınırı (NPC)", "not": "Ayar artık yalnızca düşmanları değil barışçıl gezginleri de sayıyor; eski \"düşman NPC üst sınırı\" bu yüzden yanlış olurdu."},
+    "Sandbox_ProjectALife.MaxHostiles_tooltip": {"tr": "Dünyadaki canlı NPC sayısı bu sınıra ulaşınca yeni gezgin ekipler çıkmaz; barışçıl hayatta kalanlar da bu sayıya dahil. Bu, bölgenin toplam nüfusu değil; var olan ekipler yerinde kalır.\nVarsayılan: 12."},
+
+    "Sandbox_ProjectALife.DropsWeaponChance": {"tr": "Cesette silah kalma olasılığı", "not": "Senin eski çevirin korundu: EN'ye sadece \"NPC\" eklenmiş, anlam aynı ve \"cesette kalma\" daha açık."},
+    "Sandbox_ProjectALife.DropsWeaponChance_tooltip": {"tr": "NPC profiline göre seçeneğinde her NPC'nin kendi olasılığı, NPC ganimeti yüzdesiyle çarpılır. Diğer seçenekler tüm silahlar için tek bir olasılık belirler ve o yüzdeyi yok sayar; Cesette silah kalması ayarının açık olması gerekir.\nVarsayılan: NPC profiline göre (1).", "not": "\"NPC weapon drops\" = WeaponDrops ayarı; adı başka pakette \"Cesette silah kalması\" olacak (C1). \"NPC ganimeti\" bu paketteki LootNpcDropPercent başlığına atıf."},
+    "Sandbox_ProjectALife.DropsWeaponChance_option1": {"tr": "NPC profiline göre"},
+    "Sandbox_ProjectALife.DropsWeaponChance_option2": {"tr": "Kapalı (%%0)"},
+    "Sandbox_ProjectALife.DropsWeaponChance_option3": {"tr": "Çok düşük (%%0-10)"},
+    "Sandbox_ProjectALife.DropsWeaponChance_option4": {"tr": "Düşük (%%10-20)"},
+    "Sandbox_ProjectALife.DropsWeaponChance_option5": {"tr": "Orta (%%20-30)"},
+    "Sandbox_ProjectALife.DropsWeaponChance_option6": {"tr": "Yüksek (%%30-50)"},
+    "Sandbox_ProjectALife.DropsWeaponChance_option7": {"tr": "Çok yüksek (%%50-70)"},
+    "Sandbox_ProjectALife.DropsWeaponChance_option8": {"tr": "Neredeyse her zaman (%%70-99)"},
+    "Sandbox_ProjectALife.DropsWeaponChance_option9": {"tr": "Her zaman (%%100)"},
+
+    "Sandbox_ProjectALife.Voice": {"tr": "NPC seslendirmeleri", "not": "Senin eski çevirin korundu; yeni EN aynı anlamda."},
+    "Sandbox_ProjectALife.Voice_tooltip": {"tr": "Seslendirmesi olan replikleri sesli oynatır. Kapalıyken konuşmalar yalnızca yazı olarak kalır; acı ve ölüm sesleri bundan bağımsız.\nVarsayılan: kapalı."},
+
+    "Sandbox_ProjectALife.AimDifficulty": {"tr": "NPC'lerin oyunculara karşı nişan becerisi", "not": "Senin eski çevirin korundu; yeni EN aynı anlamda."},
+    "Sandbox_ProjectALife.AimDifficulty_tooltip": {"tr": "Zorluk arttıkça NPC'lerin oyunculara ateşi daha isabetli olur. Orta, her NPC'nin kendi nişan becerisini kullanır; zombilere karşı isabet ayrı ayarlanır.\nVarsayılan: Orta (3)."},
+    "Sandbox_ProjectALife.AimDifficulty_option1": {"tr": "Çok kolay"},
+    "Sandbox_ProjectALife.AimDifficulty_option2": {"tr": "Kolay"},
+    "Sandbox_ProjectALife.AimDifficulty_option3": {"tr": "Orta"},
+    "Sandbox_ProjectALife.AimDifficulty_option4": {"tr": "Zor"},
+    "Sandbox_ProjectALife.AimDifficulty_option5": {"tr": "Çok zor"},
+    "Sandbox_ProjectALife.AimDifficulty_option6": {"tr": "Acımasız"},
+
+    "Sandbox_ProjectALife.NpcDamagePercent": {"tr": "NPC'lerin oyunculara verdiği hasar (yüzde)"},
+    "Sandbox_ProjectALife.NpcDamagePercent_tooltip": {"tr": "NPC'lerin oyunculara yakın dövüşte ve ateşli silahla verdiği hasarı ölçekler. 50'de her vuruş normal hasarın yarısını verir, 100'de normal hasar.\nVarsayılan: 72."},
+    "Sandbox_ProjectALife.NpcHealthPercent": {"tr": "NPC'lerin tam sağlığı (yüzde)"},
+    "Sandbox_ProjectALife.NpcHealthPercent_tooltip": {"tr": "Her hayatta kalanın normal sağlığını ölçekler. 80'de normal sağlıklarının beşte dördüne sahip olurlar; meslek farkları yine geçerli.\nVarsayılan: 98."},
+
+    "Sandbox_ProjectALife.RateMetaEvents": {"tr": "Arka plan olaylarının sıklığı", "not": "Senin eski çevirin korundu: yeni EN \"Distant world events\" ama ayar hâlâ bir sıklık seçimi; senin başlığın ne yaptığını daha iyi anlatıyor."},
+    "Sandbox_ProjectALife.RateMetaEvents_tooltip": {"tr": "Uzaktan gelen silah seslerini, helikopterleri ve diğer arka plan olaylarını ayarlar. Düşük, olay sınırlarını yarıya indirir ve aralarındaki bekleme süresini iki katına çıkarır.\nVarsayılan: Normal (2)."},
+    "Sandbox_ProjectALife.RateMetaEvents_option1": {"tr": "Düşük"},
+    "Sandbox_ProjectALife.RateMetaEvents_option2": {"tr": "Normal"},
+    "Sandbox_ProjectALife.RateMetaEvents_option3": {"tr": "Yüksek"},
+    "Sandbox_ProjectALife.RateMetaEvents_option4": {"tr": "Çok yüksek"},
+    "Sandbox_ProjectALife.RateMetaEvents_option5": {"tr": "Çok bol"},
+
+    "Sandbox_ProjectALife.ReputationTracking": {"tr": "İtibarını takip et"},
+    "Sandbox_ProjectALife.ReputationTracking_tooltip": {"tr": "Öldürmeleri, yardımları ve kötü davranışları kayda alır; değişiklikleri bildirir ve puanları karakter penceresinde gösterir. Kapalıyken hem takip hem gösterim durur.\nVarsayılan: açık."},
+
+    "Sandbox_ProjectALife.LootNpcDropPercent": {"tr": "NPC ganimeti: cesette ne kadar eşya kalır (yüzde)"},
+    "Sandbox_ProjectALife.LootNpcDropPercent_tooltip": {"tr": "NPC'nin taşıdığı her eşyanın cesette kalma olasılığı. 100'de taşıdığı her şey cesette kalır (varsayılan); daha düşük değerler cesetleri boşaltır. Eşyaları azaltmak yerine kötüleştirmek istersen aşağıdaki yıpranma ayarını kullan. Cesette silah kalma olasılığı sabit bir değere ayarlıysa silahlar için bu ayarın yerine geçer.\nVarsayılan: 100."},
+    "Sandbox_ProjectALife.LootNpcWearPercent": {"tr": "NPC ganimeti: cesetteki eşyalar ne kadar yıpranmış (yüzde)"},
+    "Sandbox_ProjectALife.LootNpcWearPercent_tooltip": {"tr": "NPC cesetlerinden çıkan eşyalar hırpalanmış olur: silahların çoğu bozuk ya da bozulmak üzere, şarjörler neredeyse boş, kıyafetler ve yelekler lime lime, mermi tek tük çıkar. NPC'ler hayattayken çalışan silahlarla savaşır; yıpranma öldükleri anda uygulanır. 0'da her şey sapasağlam kalır, 100'de tam yıpranma.\nVarsayılan: 100."}
+  }
+}

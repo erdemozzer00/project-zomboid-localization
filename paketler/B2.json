@@ -1,0 +1,405 @@
+{
+  "_paket": "B2 — 1.4.5 farkları: Sandbox yeni ve değişen satırlar",
+  "_dosya": "Sandbox",
+  "_surum_farki": true,
+  "satirlar": {
+    "Sandbox_ProjectALife.PresetDifficulty": {
+      "tr": "Zorluk",
+      "not": "EN kısaldı ('Difficulty: how dangerous NPCs are' → 'Difficulty')."
+    },
+    "Sandbox_ProjectALife.PresetDifficulty_tooltip": {
+      "tr": "NPC'ler ne kadar tehlikeli. Kolay: hasar yarıya iner, sağlık 80, baskınlar 60. günden itibaren. Yalnızca varsayılan değerinde duran ayarlar değişir; nüfus yoğunluğu ayrı ayarlanır. Tam etki için oyunu yeniden yükle.\nVarsayılan: Kolay (1).",
+      "not": "Varsayılan Standart'tan Kolay'a döndü."
+    },
+    "Sandbox_ProjectALife.PresetDifficulty_option1": {
+      "tr": "Kolay",
+      "not": "Light → Easy. Seçenekler vanilla gibi Kolay / Orta / Zor / Acımasız."
+    },
+    "Sandbox_ProjectALife.PresetDifficulty_option2": {
+      "tr": "Orta",
+      "not": "Standard → Medium."
+    },
+    "Sandbox_ProjectALife.PresetDifficulty_option4": {
+      "tr": "Acımasız",
+      "not": "Brutal → Hardcore. 'Acımasız' aynı anlamı veriyor, oyuncunun alıştığı ad korundu."
+    },
+    "Sandbox_ProjectALife.PresetWorld": {
+      "tr": "Kaç NPC",
+      "not": "EN: 'World size: how many people' → 'How many NPCs'."
+    },
+    "Sandbox_ProjectALife.PresetWorld_tooltip": {
+      "tr": "Savaş Sınavı: en yüksek sınırlar. Aynı anda çok sayıda NPC hayatta olur. İyi bir bilgisayar ister. Yalnızca sınırları değiştirir, olasılıkları ya da zamanlamayı değil. Olağan seçim yine Kalabalık.\nVarsayılan: Kalabalık (4)."
+    },
+    "Sandbox_ProjectALife.PresetWorld_option1": {
+      "tr": "Çok az",
+      "not": "Deserted → Very few."
+    },
+    "Sandbox_ProjectALife.PresetWorld_option2": {
+      "tr": "Az",
+      "not": "Sparse → Few."
+    },
+    "Sandbox_ProjectALife.PresetWorld_option3": {
+      "tr": "Orta",
+      "not": "Normal → Medium."
+    },
+    "Sandbox_ProjectALife.PresetWorld_option4": {
+      "tr": "Kalabalık",
+      "not": "Crowded → High; TR aynı kaldı ('Yüksek' NPC sayısı için doğal değil)."
+    },
+    "Sandbox_ProjectALife.PresetWorld_option5": {
+      "tr": "En fazla (desteklenmez, kasabilir)",
+      "not": "Stress test → Maximum."
+    },
+    "Sandbox_ProjectALife.PresetWorld_option6": {
+      "tr": "Savaş Sınavı",
+      "not": "The War Challenge: büyük savaş ön ayarı. 'Challenge' oyunun meydan okuma senaryosu anlamında; 'Sınav' kısa ve oyun dilinde."
+    },
+    "Sandbox_ProjectALife.PersistentSquadCap_tooltip": {
+      "tr": "Yeniden başlatmadan sonra korunan karakol garnizonlarını ve kalıcı ekipleri sınırlar. Uzaktaki gezgin grupların ve başlangıçta binalara yerleşenlerin kendi sınırları var. Düşürürsen bir sonraki kayıtta etkili olur.\nVarsayılan: 60.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.KeepEncounterNpcs": {
+      "tr": "Barışçıl yolcuları yeniden başlatınca koru"
+    },
+    "Sandbox_ProjectALife.KeepEncounterNpcs_tooltip": {
+      "tr": "Karşılaştığın ziyaretçiler, yolcular ve tüccarlar oyundan çıkınca dünyada kalır. Yağmacılar ve diğer düşman gruplar kalmaz. Kayıtlı karakol ve ekip sınırına sayılır.\nVarsayılan: açık.",
+      "not": "Atıf: 'saved crew limit' → ayarın adı 'Kayıtlı karakol ve ekip sınırı'."
+    },
+    "Sandbox_ProjectALife.OutpostTaskSquadCap_tooltip": {
+      "tr": "Her karakoldan aynı anda çıkan devriye, malzeme toplama ve av ekiplerini sınırlar. 0'da hiç ekip gönderilmez. Ekipler oturum boyunca kalır; karakol kayıtlı kalır.\nVarsayılan: 3.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.Party_LoneWeight_tooltip": {
+      "tr": "Kendiliğinden oluşan 1-3 kişilik grupların büyük gruplara göre ne sıklıkta çıkacağını belirler. Yükseldikçe küçük grup artar; fraksiyona özel kurallar önce gelir.\nVarsayılan: 2.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.Party_GroupWeight_tooltip": {
+      "tr": "Kendiliğinden oluşan 4 ve daha kalabalık grupların küçük gruplara göre ne sıklıkta çıkacağını belirler. Ağırlıklar eşitse iki boyutun da seçilme şansı aynı.\nVarsayılan: 2.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.Offline_FoundGapHours": {
+      "tr": "Yeni gezgin grup aralığı (oyun saati)",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.Offline_FoundGapHours_tooltip": {
+      "tr": "Uzakta yeni gezgin grupların oluşması arasındaki en kısa süreyi belirler. Var olan gruplar kalır; dünya genelindeki grup sınırı ve yerel sakin dönemler yine geçerli.\nVarsayılan: 3.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.Offline_ApproachGapHours": {
+      "tr": "Sana doğru gelen gruplar (aradaki oyun saati)"
+    },
+    "Sandbox_ProjectALife.Offline_ApproachGapHours_tooltip": {
+      "tr": "Uzaktaki (1500 kareye kadar) gezgin grupların sana doğru yola çıkıp gözden uzakta varması arasındaki gündüz oyun saatini belirler. Düşman olanlar 3. güne kadar bekler. 0'da kapalı.\nVarsayılan: 6."
+    },
+    "Sandbox_ProjectALife.Assassins_GapHours": {
+      "tr": "Karakol av ekipleri: aradaki oyun saati"
+    },
+    "Sandbox_ProjectALife.Assassins_GapHours_tooltip": {
+      "tr": "Her düşman karakolun gönderdiği av ekipleri arasındaki oyun saati. 7. günden itibaren, hava karardıktan sonra, oyuncu başına bir ekip. Her 24 oyun saatinde yenilenen fraksiyon gözlemlerini kullanır. 0'da kapalı.\nVarsayılan: 72."
+    },
+    "Sandbox_ProjectALife.Raid_MinDay_tooltip": {
+      "tr": "Dünya bu yaşa gelmeden otomatik baskın başlamaz. Örneğin 60, ilk 60 oyun gününde baskını engeller.\nVarsayılan: 21.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.Raid_CooldownDays_tooltip": {
+      "tr": "Otomatik geniş çaplı baskınlar arasındaki en kısa süreyi belirler. Örneğin 14'te iki baskın arasında en az iki oyun haftası olur.\nVarsayılan: 14.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.Raid_Chance_tooltip": {
+      "tr": "Her kontrolde keşifçilerin bir baskın hazırlığına başlama olasılığı. 0 yaparsan otomatik baskınlar durur; bekleme süresi ve en erken gün sınırları yine geçerli.\nVarsayılan: 0.025.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.Raid_Waves_tooltip": {
+      "tr": "Bir baskındaki saldırı dalgası sayısını belirler. Toplam saldırgan sınırı yine geçerli; fazladan dalga bu sınırı aşmaz.\nVarsayılan: 4.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.Raid_GroupSize_tooltip": {
+      "tr": "Her dalgada istenen saldırgan sayısını belirler. Toplam baskın sınırı ve diğer ortaya çıkma sınırları gerçek sayıyı düşürebilir.\nVarsayılan: 8.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.Raid_MaxAttackers_tooltip": {
+      "tr": "Bütün otomatik baskın dalgalarındaki saldırganları sınırlar ve dalgalara eşit dağıtır. Önceden gelen keşifçiler sayılmaz. Yöneticinin zorla başlattığı baskınlar bu sınırı yok sayar.\nVarsayılan: 12.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.Raid_ScoutSize_tooltip": {
+      "tr": "Otomatik geniş çaplı bir baskından önce kaç düşman keşifçisinin geleceğini belirler. Baskının toplam saldırgan sınırından ayrı sayılırlar.\nVarsayılan: 4.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.Support_Chance_tooltip": {
+      "tr": "İzin verilen bir takviye çağrısının karşılık bulma olasılığını belirler. Örneğin 50'de her çağrının yanıt alma şansı yarı yarıya.\nVarsayılan: 35.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.Support_CooldownHours_tooltip": {
+      "tr": "Aynı grubun başarılı takviye çağrıları arasındaki en kısa bekleme süresini belirler. Örneğin 6, çeyrek oyun günü beklemek demek.\nVarsayılan: 1.5.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.Support_GroupSize_tooltip": {
+      "tr": "Takviye büyüklüğünü yalnızca çağıran NPC'nin ya da fraksiyonunun kendi değeri yoksa belirler. Profillerde seçilen büyüklüklerin yerine geçmez.\nVarsayılan: 4.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.Support_MaxCalls_tooltip": {
+      "tr": "Bir grubun kaç kez takviye isteyebileceğini sınırlar; böylece takviye çağrıları sonu gelmeden tekrarlanmaz.\nVarsayılan: 2.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.Support_SpotlightChance_tooltip": {
+      "tr": "Helikopter desteği isteme yetkisi olan bir NPC'nin projektör çağırma olasılığını belirler. Yalnızca kara desteği çağırabilenler bunu isteyemez.\nVarsayılan: 20.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.OfflineSquadCap": {
+      "tr": "Uzaktaki gezgin grup sınırı",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.OfflineSquadCap_tooltip": {
+      "tr": "Kayıtlı gezgin gruplar yeniden başlatmadan sonra, gezgin grup sıklığına göre ölçeklenen bu sınıra kadar geri gelir; 0'da ya da Yalnızca yakın çevre modunda Kayıtlı karakol ve ekip sınırı uygulanır. Düşürürsen yeni grup çıkmaz; fazlası yeniden yüklemeye kadar dolaşmayı sürdürür.\nVarsayılan: 45.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.OfflineTickSeconds_tooltip": {
+      "tr": "Uzaktaki gezgin grupların ne sıklıkla hareket edip karar verdiğini belirler. Aralık uzadıkça güncelleme azalır.\nVarsayılan: 20.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.OutpostsMaxSites_tooltip": {
+      "tr": "Haritada aynı anda en fazla kaç karakol bulunabileceğini sınırlar. 0'da karakollar kapanır.\nVarsayılan: 9.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.OutpostsPerCity_tooltip": {
+      "tr": "Her kasabada tahkimli binalara kurulan en fazla kaç karakol olabileceğini sınırlar. Açık arazideki kampların ayrı sınırı var.\nVarsayılan: 2.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.OutpostsInterval_tooltip": {
+      "tr": "Yeni karakol kurulma şansları arasındaki süre. Uyku ve zaman hızlandırma da sayılır. Oyun saati durursa kontroller bunun yerine aynı sayıda gerçek dakikayla yapılır.\nVarsayılan: 20.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.OutpostsChance_tooltip": {
+      "tr": "Uygun bir yer varsa, karakol kontrolünün yeni bir karakol kurma olasılığı.\nVarsayılan: 35.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.PopulationRate_tooltip": {
+      "tr": "Fraksiyonlarla kendiliğinden karşılaşma olasılığını ölçekler. 50'de bu kontrollerin grup getirme şansı normalin yarısına iner.\nVarsayılan: 200.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.GroupScale_tooltip": {
+      "tr": "Kendiliğinden ortaya çıkan gruplardaki NPC sayısını ölçekler. 100'de gruplar özgün boyutlarını korur. Fraksiyon boyut sınırları yine geçerli.\nVarsayılan: 125.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.MaxHostiles": {
+      "tr": "Gezgin hayatta kalan sınırı (NPC)",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.MaxHostiles_tooltip": {
+      "tr": "Dünyadaki canlı NPC sayısı bu sınıra ulaşınca yeni gezgin ekipler çıkmaz; barışçıl hayatta kalanlar da bu sayıya dahil. Bu, bölgenin toplam nüfusu değil; var olan ekipler yerinde kalır.\nVarsayılan: 32.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.EncounterChance_tooltip": {
+      "tr": "Her kendiliğinden karşılaşma kontrolünde grup çıkma olasılığını belirler. Hem oyun saatlik fraksiyon kontrolleri hem de oyun dakikalık karşılaşma kontrolleri bunu kullanır.\nVarsayılan: 15.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.EncounterInterval_tooltip": {
+      "tr": "Kendiliğinden fraksiyon karşılaşması kontrolleri arasındaki süreyi belirler. Kontrol boşa çıkabilir; bu, karşılaşmalar arasında garantili bir süre değil.\nVarsayılan: 3.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.PopulateOnStart_tooltip": {
+      "tr": "Her dünyada bir kez, bina sınırına kadar uygun binaların yüzde 10'unu, 20'sini ya da 35'ini işaretler. Sakinler biri yaklaşınca ortaya çıkar ve kaydedilir. Salgının ilk günlerinde hareketlilik ayarı bunu kapatmaz.\nVarsayılan: Az yaygın (3).",
+      "not": "Anlam değişti: 'does not enable this' → 'does not turn it off'; varsayılan Kapalı → Az yaygın."
+    },
+    "Sandbox_ProjectALife.TownWelcomeGroups_tooltip": {
+      "tr": "Her yeni karaktere kaç karşılama grubu düşeceğini ve bir kasabada aynı anda kaçının yaşayabileceğini belirler; birkaç oyuncu aynı yerde başlasa bile.\nVarsayılan: 8.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.PopulateMax_tooltip": {
+      "tr": "Haritanın tamamında başlangıç sakinleri için seçilen bina sayısını sınırlar. Seçim her dünyada bir kez yapılır; polis merkezleri, itfaiyeler ve klinikler önce seçilir.\nVarsayılan: 75.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.CensusSize_tooltip": {
+      "tr": "Dünya başladığında sınırlı bir hayatta kalan havuzu belirler. Kendiliğinden oluşan gruplar ve takviyeler buradan çekilir; ölümler havuzu azaltır. Kayıpların yerini yavaş yavaş gelen yeni insanlar doldurur. Yöneticinin oluşturduğu NPC'ler sayılmaz.\nVarsayılan: 360.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.EncounterRollInterval_tooltip": {
+      "tr": "Rastgele karşılaşma kontrolleri arasındaki süreyi belirler; uyurken ve zamanı hızlandırırken de geçerli. Grubun çıkıp çıkmayacağına yine karşılaşma olasılığı karar verir.\nVarsayılan: 45.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.RateGroups": {
+      "tr": "Gezgin grup sıklığı",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.RateGroups_tooltip": {
+      "tr": "Kendiliğinden gelen grupları ve uzaktaki gezgin grup sınırını birlikte ölçekler. Düşük ikisini de yarıya indirir; Çok bol sınırlar içinde kalarak üç katına çıkarır.\nVarsayılan: Normal (2).",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.OutpostsOutsideCity_tooltip": {
+      "tr": "Orman kampları, saha üsleri ve yardım istasyonları gibi açık arazideki yerleri, kasabadaki tahkimli binalardan ayrı olarak sınırlar. 0'da açık arazi yerleri kapanır.\nVarsayılan: 4.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.Safehouse_KnockSounds_tooltip": {
+      "tr": "Ziyaretçilerin kapıyı ya da pencereyi çaldığını yaklaşık 50 kare öteden duyarsın. Eve zorla girilince içerideki ilk kapı açıldığında ses çıkar. Kapalı: yalnızca yazılı bildirim.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.PlansEnabled_tooltip": {
+      "tr": "Serbest gruplar erzak ya da sığınak gibi hedefler seçer, bunu aralarında konuşur ve iş bitene, önleri kesilene, yaralanana ya da tehdit altına girene kadar peşinden gider. Kapalı: gruplar yine dolaşıp boş durur.\nVarsayılan: açık.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.GunsVsZombiesPercent_tooltip": {
+      "tr": "Bir zombiyi vurabilecek durumdaki NPC'nin bunu ne sıklıkla yaptığı. Silah sesi daha çok zombi çeker; bu yüzden değeri düşürürsen NPC'ler zombilerin etrafından dolanır, tek zombiye yakın dövüşle girişir ve silahlarını NPC'lerle oyunculara saklar. Köşeye sıkıştıklarında, yaralandıklarında, yaralı bir oyuncuyu korurken, yolu tıkayan bir sürüye karşı ya da asker veya polis olarak görevdeyken yine ateş ederler. 0, köşeye sıkışmadıkça asla demek. 100 eski davranış. Dünya 14 günlük olana kadar varsayılan 50, 70 gibi davranır; ilk günlerde NPC'ler daha çok ateş eder. Varsayılan: 50."
+    },
+    "Sandbox_ProjectALife.NpcShotNoise": {
+      "tr": "[Uzman] NPC silah seslerinin duyulma mesafesi (yüzde)"
+    },
+    "Sandbox_ProjectALife.NpcShotNoise_tooltip": {
+      "tr": "Zombilerin ve diğerlerinin NPC silah sesini ne kadar uzaktan duyduğunu ölçekler. 50'de bir atış yarı mesafeye ulaşır. Oyuncular ve NPC'ler de aynı kısalmış mesafeden duyar. NPC'lerin ateşi sürüleri haritanın öbür ucundan çektiği kalabalık sunucularda düşür. Varsayılan: 100."
+    },
+    "Sandbox_ProjectALife.SeedPerTown": {
+      "tr": "Kasaba başına başlangıç gezgin grubu",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.SeedPerTown_tooltip": {
+      "tr": "Dünya başladığında her kasabaya kaç gezgin grup verileceğini belirler. Büyük dünyalarda uzaktaki gezgin grup sınırı fazladan gruba izin verebilir.\nVarsayılan: 3.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.SeedClearTiles_tooltip": {
+      "tr": "Başlangıçtaki gezgin grupların oyuncuya bundan yakın yerleştirilmesini engeller. Gruplar sonradan yine gelebilir. 0'da bu başlangıç mesafesi kapanır.\nVarsayılan: 150.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.NeighbourGroups": {
+      "tr": "Mahalledeki gezgin grup sınırı",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.NeighbourGroups_tooltip": {
+      "tr": "240 kare içinde zaten bu kadar grup yaşıyorsa yeni gezgin grup çıkmaz. 4. günden itibaren sınır bir azalır ama birin altına inmez.\nVarsayılan: 4.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.RespawnCooldownDays_tooltip": {
+      "tr": "NPC ölümlerinden sonra yaklaşık 120 karelik bir alanda yeni gezgin grupları engeller. Ağır kayıplar gecikmeyi uzatır. 0'da bu gecikme kapanır.\nVarsayılan: 3.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.SpawnKeepOutTiles_tooltip": {
+      "tr": "Rastgele grupların ortaya çıkıp yürüyerek geleceği, oyunculara en yakın mesafe. Görüş ve yüklü harita sınırları da geçerli; mesafe çok büyükse grup hiç ortaya çıkmayabilir.\nVarsayılan: 45."
+    },
+    "Sandbox_ProjectALife.OutpostsBuildBudget_tooltip": {
+      "tr": "Tur başına en fazla iş birimi. Yüksek değerler işi daha çabuk bitirir ama sunucu takılmalarını artırabilir. Yolculuk sonrası karakol inşaatı molası yine geçerli.\nVarsayılan: 100.",
+      "not": "Yalnızca varsayılan değer ve/veya roaming → travelling değişti; TR'de varsayılan güncellendi ('gezgin' iki anlama da uyuyor)."
+    },
+    "Sandbox_ProjectALife.LootNpcDropPercent_tooltip": {
+      "tr": "Taşınan her eşyanın NPC'nin cesedinde kalma olasılığı. 100'de her şey kalır; düşük değerlerde daha az eşya kalır. Sabit NPC silah düşürme olasılıkları önce gelir. Daha yıpranmış eşya için aşağıdaki yıpranma ayarını kullan.\nVarsayılan: 100."
+    },
+    "Sandbox_ProjectALife.LootNpcWearPercent_tooltip": {
+      "tr": "Ölünce eşyalara ve mermiye eklenen yıpranma. 0'da yıpranma eklenmez; 100 tam yıpranma. Sabit NPC silah durumu ayarları önce gelir. Silahlar yine bozuk düşebilir: çalışan silah için Cesette kalan silahın durumu ayarını kullan.\nVarsayılan: 100.",
+      "not": "Ayar adına atıf: 'Cesette kalan silahın durumu' (DropsWeaponCondition)."
+    },
+    "Sandbox_ProjectALife.Outposts_TrioEnabled": {
+      "tr": "Karakollar ortak grup gönderir"
+    },
+    "Sandbox_ProjectALife.Outposts_TrioEnabled_tooltip": {
+      "tr": "Yerleşmiş karakollar var olan üç timi birlikte yola çıkarabilir. Bu insanlar karakoldan ayrılır; fazladan hayatta kalan oluşturulmaz.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.Outposts_TrioGapDays": {
+      "tr": "Ortak gruplar: aradaki gün"
+    },
+    "Sandbox_ProjectALife.Outposts_TrioGapDays_tooltip": {
+      "tr": "Her karakoldan ortak grupların yola çıkışı arasındaki oyun günü. 0 yaparsan bu çıkışlar durur.\nVarsayılan: 5."
+    },
+    "Sandbox_ProjectALife.Outposts_TrioMaxActive": {
+      "tr": "Ortak gruplar: etkin karakol"
+    },
+    "Sandbox_ProjectALife.Outposts_TrioMaxActive_tooltip": {
+      "tr": "Ortak grubu aynı anda dışarıda olabilecek en fazla karakol sayısı. 0 yaparsan çıkışlar durur. Savaş Sınavı bu sınırı 3'e çıkarır.\nVarsayılan: 2."
+    },
+    "Sandbox_ProjectALife.Outposts_TrioMinAgeDays": {
+      "tr": "Ortak gruplar: karakol yaşı"
+    },
+    "Sandbox_ProjectALife.Outposts_TrioMinAgeDays_tooltip": {
+      "tr": "Üç tim gönderebilmek için karakol en az bu kadar oyun günü önce kurulmuş olmalı. 0'da yeterince insanı olan yeni bir karakol da gönderebilir.\nVarsayılan: 7."
+    },
+    "Sandbox_ProjectALife.Outposts_MegaEnabled": {
+      "tr": "Büyük yürüyüş grupları"
+    },
+    "Sandbox_ProjectALife.Outposts_MegaEnabled_tooltip": {
+      "tr": "Otomatik, bu grupları Kolay zorlukta kapalı, diğerlerinde açık tutar. Her dünya ön ayarında bu kuralı geçersiz kılmak için Kapalı ya da Açık seç.\nVarsayılan: Otomatik: Kolay'da kapalı, diğerlerinde açık (1).",
+      "not": "EN hâlâ eski adı 'Light' kullanıyor; zorluk seçeneğinin yeni TR adı 'Kolay' yazıldı."
+    },
+    "Sandbox_ProjectALife.Outposts_MegaEnabled_option1": {
+      "tr": "Otomatik: Kolay'da kapalı, diğerlerinde açık"
+    },
+    "Sandbox_ProjectALife.Outposts_MegaEnabled_option2": {
+      "tr": "Kapalı"
+    },
+    "Sandbox_ProjectALife.Outposts_MegaEnabled_option3": {
+      "tr": "Açık"
+    },
+    "Sandbox_ProjectALife.Outposts_MegaGapDays": {
+      "tr": "Büyük yürüyüş grupları: aradaki gün"
+    },
+    "Sandbox_ProjectALife.Outposts_MegaGapDays_tooltip": {
+      "tr": "Her karakoldan büyük grupların yola çıkışı arasındaki oyun günü. Var olan insanları kullanırlar ve dışarıdayken karakolu zayıflatırlar. 0 yaparsan çıkışlar durur.\nVarsayılan: 12."
+    },
+    "Sandbox_ProjectALife.Outposts_MegaSize": {
+      "tr": "Büyük yürüyüş grupları: kişi"
+    },
+    "Sandbox_ProjectALife.Outposts_MegaSize_tooltip": {
+      "tr": "Bir karakoldan ve onun var olan timlerinden bir araya getirilen kişi sayısı. Yeterince insanı olmayan karakol grubu gönderemez. Oluşturma yine birkaç kareye yayılır.\nVarsayılan: 16.",
+      "not": "'Rendering remains spread across frames' = performans için görüntüye getirme kare kare yapılır."
+    },
+    "Sandbox_ProjectALife.Outposts_MegaMaxActive": {
+      "tr": "Büyük yürüyüş grupları: dünya sınırı"
+    },
+    "Sandbox_ProjectALife.Outposts_MegaMaxActive_tooltip": {
+      "tr": "Aynı anda dışarıda olabilecek en fazla büyük yürüyüş grubu, fraksiyon başına bir tane. 0 yaparsan çıkışlar durur. Savaş Sınavı dünya sınırını 2'ye çıkarır.\nVarsayılan: 1."
+    },
+    "Sandbox_ProjectALife.Outposts_MegaMinAgeDays": {
+      "tr": "Büyük yürüyüş grupları: karakol yaşı"
+    },
+    "Sandbox_ProjectALife.Outposts_MegaMinAgeDays_tooltip": {
+      "tr": "Büyük grup gönderebilmek için karakol en az bu kadar oyun günü önce kurulmuş olmalı. 0'da yeterince insanı olan yeni bir karakol da gönderebilir.\nVarsayılan: 10."
+    },
+    "Sandbox_ProjectALife.Late_FactionsEnabled": {
+      "tr": "Geç gelen düşman fraksiyonlar"
+    },
+    "Sandbox_ProjectALife.Late_FactionsEnabled_tooltip": {
+      "tr": "En erken günlerinden sonra seyrek görülen, daha sert düşman fraksiyonlar ekler. Silahları ve kıyafetleri oyunda zaten var olan eşyalar. Kapalıysa bu yeni fraksiyonlar gelmez.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.Late_FactionStartDay": {
+      "tr": "Geç fraksiyonlar: en erken gün"
+    },
+    "Sandbox_ProjectALife.Late_FactionStartDay_tooltip": {
+      "tr": "Yeni yağmacı ve tehlikeli madde kıyafetli fraksiyonlar için en erken dünya günü. Özel kuvvetlerin ayrı bir en erken günü var. 0'da en erken gün sınırı yok.\nVarsayılan: 14.",
+      "not": "hazmat = tehlikeli madde (koruyucu kıyafetli karantina birlikleri)."
+    },
+    "Sandbox_ProjectALife.Late_WeaponScalePercent": {
+      "tr": "Geç dönem silah gelişimi (yüzde)"
+    },
+    "Sandbox_ProjectALife.Late_WeaponScalePercent_tooltip": {
+      "tr": "13. günden sonra yeni gruplardaki silah, mermi ve zırh gelişimini ölçekler. İlk günlerin yıpranmış silah eğrisi değişmez. 0 yaparsan bu gelişim kapanır.\nVarsayılan: 100."
+    },
+    "Sandbox_ProjectALife.Late_SpecialForcesStartDay": {
+      "tr": "Özel kuvvetler: en erken gün"
+    },
+    "Sandbox_ProjectALife.Late_SpecialForcesStartDay_tooltip": {
+      "tr": "Seyrek görülen dört-altı kişilik özel kuvvet grupları için en erken dünya günü. 0'da en erken gün sınırı yok; geç gelen düşman fraksiyonlar yine açık olmalı.\nVarsayılan: 21."
+    },
+    "Sandbox_ProjectALife.Combat_SniperAwareness": {
+      "tr": "Uzak atışlara tepki (yüzde)"
+    },
+    "Sandbox_ProjectALife.Combat_SniperAwareness_tooltip": {
+      "tr": "Uzaktan gelen bir isabete, yakından geçen merminin vızıltısına ya da gözü önünde öldürülen birine tepki verme olasılığı. Gizli bir nişancıyı bilmek yetmez, gerçek bir işaret gerekir. 0 yaparsan kapanır.\nVarsayılan: 100."
+    },
+    "Sandbox_ProjectALife.Combat_SniperAwarenessTiles": {
+      "tr": "Uzak atış: en kısa mesafe"
+    },
+    "Sandbox_ProjectALife.Combat_SniperAwarenessTiles_tooltip": {
+      "tr": "En az bu kadar kare öteden yapılan atışlar uzak atış tepkisini tetikleyebilir. Dürbünlü tüfekler daha yakından da sayılabilir; olağan görüş ve sahiplik kontrolleri yine geçerli.\nVarsayılan: 40."
+    },
+    "Sandbox_ProjectALife_2War": {
+      "tr": "A-Life: Savaş ve takviyeler",
+      "not": "Yeni ayar sayfası başlığı."
+    },
+    "Sandbox_ProjectALife.Audio_NpcFootsteps": {
+      "tr": "NPC ayak sesi düzeyi (yüzde)"
+    },
+    "Sandbox_ProjectALife.Audio_NpcFootsteps_tooltip": {
+      "tr": "Yakındaki A-Life hayatta kalanlarının ayak seslerinin bu bilgisayardaki düzeyi. 0 yaparsan kapanır. Zombilerin duyduğu sesi değiştirmez.\nVarsayılan: 100."
+    },
+    "Sandbox_ProjectALife.Outposts_BridgeHostile": {
+      "tr": "Düşman askerî kontrol noktaları"
+    },
+    "Sandbox_ProjectALife.Outposts_BridgeHostile_tooltip": {
+      "tr": "Askerî kontrol noktası ekipleri varsayılan olarak düşman; ateş etmeden önce bir kez uyarırlar. Kapalıysa eski temkinli tutumlarına döner. Kazanılmış ilişkiler ve çatışma güvenliği yine geçerli.\nVarsayılan: açık."
+    }
+  }
+}

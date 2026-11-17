@@ -1,0 +1,579 @@
+{
+  "_paket": "E2 — Eksik sözlerin ikinci turu: oyunun İngilizce doldurduğu değerler (E2), 190 (çeviri: harici AI; kalite incelemesi yapılmadı)",
+  "_dosya": "RadioData_lua",
+  "satirlar": {
+    "RD_ALifeLine_2d50c9716e2c1d43": {
+      "tr": "Duyduğuma göre {n} tane devirmişsin. Helal sana."
+    },
+    "RD_ALifeLine_57fb4b2c69c193b3": {
+      "tr": "Bizim {kind}, {at}, {where}."
+    },
+    "RD_ALifeLine_27b0124a6a163a8c": {
+      "tr": "Bir {kind} bulduk, {at}, {where}. Girmeden önce kapıyı çal."
+    },
+    "RD_ALifeLine_22ba67ed561ac6f5": {
+      "tr": "Yattığım yer {at}, {where}. Söylediğime pişman etme beni."
+    },
+    "RD_ALifeLine_3fba0b2830a859e9": {
+      "tr": "Bu iş başladı başlayalı hep aynı çatı altındayız: {at}, {where}."
+    },
+    "RD_ALifeLine_624cad5a51f55341": {
+      "tr": "Yatacak yer lazımsa uğra, bizim {kind} {at}, {where}."
+    },
+    "RD_ALifeLine_0e46fc9b54ad042d": {
+      "tr": "Işıkları kısık tutarız, {at}, {where}."
+    },
+    "RD_ALifeLine_7eb082282eb37734": {
+      "tr": "Aletini kendin getir, bir {kind} kurduk {at}, {where}."
+    },
+    "RD_ALifeLine_7e6122d31cbc5f8c": {
+      "tr": "Madem soruyorsun: {where}, {at}, eski avlunun arkası."
+    },
+    "RD_ALifeLine_5481142b2f68cec5": {
+      "tr": "Barınağımız {at}, {where}. Lüks bir şey değil."
+    },
+    "RD_ALifeLine_7db1b6704634c052": {
+      "tr": "Yaralı biri çıkarsa hep bir karyola ayırırız, {kind} {at}, {where}."
+    },
+    "RD_ALifeLine_7f11303a7afe73bc": {
+      "tr": "Biz {at}, {where}. Önce sağlıkçıyı sor."
+    },
+    "RD_ALifeLine_18b4f4b871f63774": {
+      "tr": "Pencerede ışık yanan yeri ara: {at}, {where}."
+    },
+    "RD_ALifeLine_25f082b500386277": {
+      "tr": "Yaralıları sararım, {at}, {where}. Kanıyorsan erken gel."
+    },
+    "RD_ALifeLine_0f711e3718b812ca": {
+      "tr": "Benim {kind}, {at}, {where}. İçeride temiz sargı bezi var."
+    },
+    "RD_ALifeLine_2a5581d20b56d9ad": {
+      "tr": "Bir bostanım var, bir de {kind}; {at}, {where}. Sıraları ezme."
+    },
+    "RD_ALifeLine_7ec07dc57a6ccda3": {
+      "tr": "Beni bulacağın yer {at}, {where}. Bahçenin kokusunu takip et."
+    },
+    "RD_ALifeLine_45a042ee4763a627": {
+      "tr": "Dükkânım da yatağım da {at}, {where}. Yanında bir anahtar getir."
+    },
+    "RD_ALifeLine_202f6d9f7c307023": {
+      "tr": "Garajın üstünde oturuyorum, {at}, {where}. Jeneratörün sesini dinle."
+    },
+    "RD_ALifeLine_42e5d91c0f3ecc69": {
+      "tr": "Burayı kendi ellerimle yaptım, {at}, {where}. Duvarlara bir bak, ne düşündüğünü söyle."
+    },
+    "RD_ALifeLine_571c780b30e4efa5": {
+      "tr": "Pencereleri tahta çakılı olan yer: {at}, {where}."
+    },
+    "RD_ALifeLine_47b33dfe1d7e7a16": {
+      "tr": "Sessiz bir {kind} tutuyoruz, {at}, {where}. Herkese yer var."
+    },
+    "RD_ALifeLine_5fbeeff5088a57a9": {
+      "tr": "Gel, bizimle otur, {at}, {where}. Kapı açık."
+    },
+    "RD_ALifeLine_54008c19676fa3db": {
+      "tr": "İstasyon ekibinin kaldığı yer {at}, {where}. Kırmızı kapıyı ara."
+    },
+    "RD_ALifeLine_32f529df7f8cffde": {
+      "tr": "Kamyonu bırakmadık, gözden kaçmayız: {at}, {where}."
+    },
+    "RD_ALifeLine_7ab8bb7c50bb96d3": {
+      "tr": "Karakolumuz {at}, {where}. Masaya kaydını yaptır.",
+      "onayli_uslup_istisnalari": {
+        "dir": "'yaptır' emir kipinde ettirgen eki (masaya kaydını yaptır = kaydettir); bildirme eki -dır değil."
+      }
+    },
+    "RD_ALifeLine_17b9764610864229": {
+      "tr": "İşimizi bir {kind} üzerinden yürütüyoruz, {at}, {where}. Silahlı, gürültülü gelme."
+    },
+    "RD_ALifeLine_06be64f932610929": {
+      "tr": "Mevzimiz {at}, {where}. Ellerin açıkta yaklaş."
+    },
+    "RD_ALifeLine_2c2ec1cd71b7dafe": {
+      "tr": "Bunu benden duymadın: {at}, {where}."
+    },
+    "RD_ALifeLine_1f5c9d4b723fe84b": {
+      "tr": "Artık bizdensin; {at}, {where}. Lazım olursa bir ranza var."
+    },
+    "RD_ALifeLine_1c2c63316bf5bb97": {
+      "tr": "İstediğin zaman uğra, {at}, {where}. Onlara sana güvenebileceklerini söylerim."
+    },
+    "RD_ALifeLine_2ca2f4684d49b294": {
+      "tr": "Hak ettin. Karakol {at}, {where}; masaya haber veririm, seni beklesinler."
+    },
+    "RD_ALifeLine_35a65fbf6f19aca3": {
+      "tr": "Söylememe izin var artık: {at}, {where}. Kendine sakla."
+    },
+    "RD_ALifeLine_40a3e9d77a02f19f": {
+      "tr": "Bunu pek kimse duymaz: {at}, {where}. Yanında kimseyi getirme."
+    },
+    "RD_ALifeLine_33787a1315a43842": {
+      "tr": "Tezgâhı çoğu gün şurada kurarım: {at}, {where}. Takas edecek değerli bir şey getir."
+    },
+    "RD_ALifeLine_6c91ef394cb60723": {
+      "tr": "Tezgâhım {at}, {where}. Akşama kadar oradayım."
+    },
+    "RD_ALifeLine_5236c61943fb48c5": {
+      "tr": "Söyledim ya: {at}, {where}."
+    },
+    "RD_ALifeLine_68f591a5664dbd61": {
+      "tr": "Önceki yerle aynı, {at}, {where}."
+    },
+    "RD_ALifeLine_28396a7f75606e4f": {
+      "tr": "Hala {at}, {where}. Değişen bir şey yok."
+    },
+    "RD_ALifeLine_65dbad714e2bfa14": {
+      "tr": "Bu kadar çabuk mu unuttun? {at}, {where}."
+    },
+    "RD_ALifeLine_2562e4883a2705c7": {
+      "tr": "Balık hafızası ha? {at}, {where}."
+    },
+    "RD_ALifeLine_32cd8e383e64c6c7": {
+      "tr": "Bu sefer bir yere yaz: {at}, {where}."
+    },
+    "RD_ALifeLine_7182c4e513453409": {
+      "tr": "Dediğim gibi: {at}, {where}."
+    },
+    "RD_ALifeLine_3a456f617fee2aa5": {
+      "tr": "Yuvam bir {kind}, {at}, {where}. Pek bir şey sayılmaz."
+    },
+    "RD_ALifeLine_11a07c1625bcf07a": {
+      "tr": "Deliğimiz {at}, {where}. Bir süredir orada tıkılıp kaldık."
+    },
+    "RD_ALifeLine_76bc931a38412765": {
+      "tr": "Bir {kind} var, {at}, {where}. Bakarsan bulursun."
+    },
+    "RD_ALifeLine_678ab7821256bf34": {
+      "tr": "Sana güveniyorum, işte yeri: {at}, {where}. Adımı söyle, beni sor."
+    },
+    "RD_ALifeLine_3a5d6e7106865b63": {
+      "tr": "Kapım sana açık: {at}, {where}."
+    },
+    "RD_ALifeLine_5efd588018e8f9fe": {
+      "tr": "Üstü brandalı masayı ara, {at}, {where}."
+    },
+    "RD_ALifeLine_237d8b8c7ea8894d": {
+      "tr": "Tezgâhım yer değiştirir ama bu sıralar {at}, {where}."
+    },
+    "RD_ALifeLine_1cf29225298a4f5a": {
+      "tr": "{who}. Bunlar olmadan önce {job} olarak çalışıyordum. Şimdi tek derdim yarına uyanabilmek."
+    },
+    "RD_ALifeLine_748c4fff052e3af9": {
+      "tr": "Adım {who}, {job} olarak çalışırdım, mesleğin bir anlamı olduğu zamanlarda."
+    },
+    "RD_ALifeLine_1c0e00cf23e3fa74": {
+      "tr": "Ben {who}, bir {job}; normal bir hayatım, faturalarım vardı, hepsi... gitti."
+    },
+    "RD_ALifeLine_7606c110255cf220": {
+      "tr": "{who}, {job} olarak çalışırdım... şimdi başkasının hayatı gibi geliyor."
+    },
+    "RD_ALifeLine_1072279262ab1c82": {
+      "tr": "{who}. Meslekten {job}, elim hala işini biliyor, tek eksik maaş."
+    },
+    "RD_ALifeLine_744342b868cf92b2": {
+      "tr": "Adım {who}, her şey dağılana kadar {job} olarak çalıştım."
+    },
+    "RD_ALifeLine_7d7b8d1a01262239": {
+      "tr": "{who}. Bir {job}, yine de öyleyim; birinin olması lazım."
+    },
+    "RD_ALifeLine_2884ee701c76cb1e": {
+      "tr": "Ben {who}, bir {job}. Geçimimi insanları hayatta tutmaktan sağlardım, şimdi de deniyorum."
+    },
+    "RD_ALifeLine_2f5135582a661aaa": {
+      "tr": "{who}, bir {job} olarak görev yapıyordum. Rozetin artık pek anlamı yok, yine de takıyorum."
+    },
+    "RD_ALifeLine_1a24119938061963": {
+      "tr": "Adım {who}. Eskiden {job}, iş bitti ama ben hep öyle davranıyorum."
+    },
+    "RD_ALifeLine_13800c2363e75015": {
+      "tr": "{who}. Bir zamanlar {job}, bilmen gereken bu kadar."
+    },
+    "RD_ALifeLine_44d2e1865ae8daba": {
+      "tr": "Adım {who}, bir {job}. Emirler kesildi, ben durmadım."
+    },
+    "RD_ALifeLine_4f4071441e1938eb": {
+      "tr": "{who}. Bir {job} olduğumu söylesem inanır mısın? Ha!"
+    },
+    "RD_ALifeLine_49e2c86e16a33ca8": {
+      "tr": "Bana {who} derler. Bir zamanlar {job} olarak çalıştım, şimdi kurallar başka."
+    },
+    "RD_ALifeLine_597387e751fd1aaf": {
+      "tr": "{who}. Sana ne lan, ne diye merak ettin?"
+    },
+    "RD_ALifeLine_6e0a586771a270b4": {
+      "tr": "{who}. Alacağın bu kadar."
+    },
+    "RD_ALifeLine_0ea5d77847ce6d70": {
+      "tr": "{who}. {span} oldu dışarıdayım, hikâyem bu."
+    },
+    "RD_ALifeLine_78fddd0d1e8c00b5": {
+      "tr": "Ben {who}. Söyleyecek pek bir şey yok, nefes alıyorum, o kadar."
+    },
+    "RD_ALifeLine_54b356f865b980f0": {
+      "tr": "{who}, ısırılmayan o kalabalıktan biri."
+    },
+    "RD_ALifeLine_103fc06b3677391e": {
+      "tr": "{who}, sıradan bir insan, sıradan bir hayat... sonra bu çıktı başımıza."
+    },
+    "RD_ALifeLine_6521d3db7b6e36a4": {
+      "tr": "Ben {who}. Bir evim, bir işim, ödemelerim vardı... bilirsin işte."
+    },
+    "RD_ALifeLine_30f0b33872a84f84": {
+      "tr": "{who}. Elimden geldiği kadar yardım ederim, hepsi bu."
+    },
+    "RD_ALifeLine_2ef19dd75e3b6c5f": {
+      "tr": "{who}. Düzeni korumaya çalışıyorum, ne kaldıysa ondan."
+    },
+    "RD_ALifeLine_29c4a15d58732e7d": {
+      "tr": "{who}, ağzımdan çıkacak bu kadar."
+    },
+    "RD_ALifeLine_3be87fe45f3a5753": {
+      "tr": "{who}. Şimdi uzak dur."
+    },
+    "RD_ALifeLine_50c8a28c17b7bae5": {
+      "tr": "Her şey cehenneme döndüğünden beri {span} oldu, {season}."
+    },
+    "RD_ALifeLine_2de6a4a749cb35d5": {
+      "tr": "İlk günden beri; hesap edersek {span}, ben saymayı bıraktım."
+    },
+    "RD_ALifeLine_034ba67707d08090": {
+      "tr": "Dışarıda mı? {span}, her gününü tek tek yaşadım, {season}."
+    },
+    "RD_ALifeLine_6cd0b5c07ddc6698": {
+      "tr": "Allah'ım... {span} mı olmuş, bu kadar mı sürdü, {season}."
+    },
+    "RD_ALifeLine_687d514d320256d0": {
+      "tr": "Üç aşağı beş yukarı {span} oldu, {season}."
+    },
+    "RD_ALifeLine_128b12b03cf892de": {
+      "tr": "Aradan {span} geçti, her gün sarılacak yeni biri çıkıyor, {season}."
+    },
+    "RD_ALifeLine_4954d1443b3bcdd9": {
+      "tr": "İlk geceden bu yana {span}, {season}."
+    },
+    "RD_ALifeLine_6ffbba2821554819": {
+      "tr": "Göreve ilk çağrıldığımızdan beri {span} oldu, {season}."
+    },
+    "RD_ALifeLine_6233fb6d7862062f": {
+      "tr": "{span} boyunca ayakta kalan hep ben oldum, {season}."
+    },
+    "RD_ALifeLine_1b098e191430e608": {
+      "tr": "Yeterince uzun bir süre, sayarsan {span}, {season}."
+    },
+    "RD_ALifeLine_6b2cf80116a685b9": {
+      "tr": "{badat} {bad} var, sakın yaklaşma lan! Ama {goodat} {good} adam gibi adamlar."
+    },
+    "RD_ALifeLine_3157f2af09718d64": {
+      "tr": "{bad} var ya, {badat}; onlara bulaşma. {goodat} {good} mı? Onlara güvenirim."
+    },
+    "RD_ALifeLine_31b6b1a1127f836b": {
+      "tr": "Bize dert açan {badat} {bad} oldu... ama {goodat} {good} temiz."
+    },
+    "RD_ALifeLine_3e6a064b2df9135b": {
+      "tr": "Düşman: {bad}, {badat}. Dost: {good}, {goodat}. İkisi de işaretli."
+    },
+    "RD_ALifeLine_16f989c71931a4d0": {
+      "tr": "Şu {badat} {bad} yok mu, hepsi göt herif! Ama {goodat} {good} borcunu öder."
+    },
+    "RD_ALifeLine_008180b1659dea41": {
+      "tr": "Oraya sakın gitme, {badat} {bad} var. Şaka yapmıyorum."
+    },
+    "RD_ALifeLine_5b0a40ae194b81b9": {
+      "tr": "Yanına bile yaklaşma, {badat} {bad} var... Üstünde ne varsa alırlar."
+    },
+    "RD_ALifeLine_429d694f7f480d16": {
+      "tr": "Tehlikeli yer: {badat} {bad} var. Uzak dur."
+    },
+    "RD_ALifeLine_66ec13e73be32fd3": {
+      "tr": "Ben bile uğramam, {badat} {bad} var."
+    },
+    "RD_ALifeLine_5854810f2face184": {
+      "tr": "{goodat} {good} var, iyi insanlar. Seni benim gönderdiğimi söyle."
+    },
+    "RD_ALifeLine_268704476ed0b02b": {
+      "tr": "Yanında insan lazımsa {goodat} {good} var. Dürüst, ağırbaşlı insanlar."
+    },
+    "RD_ALifeLine_64beae700ed6112d": {
+      "tr": "{good} var, {goodat}; kimsenin başına bela olmazlar."
+    },
+    "RD_ALifeLine_1ad93ce05e48908a": {
+      "tr": "{contact} diye birini tanıyor musun, {contactat} oturan? Evet, ben de adını duydum."
+    },
+    "RD_ALifeLine_508e5c786deccaf6": {
+      "tr": "{contact}, hani {contactat} yaşayan, onunla tanışmışsın demek. Dünya küçükmüş."
+    },
+    "RD_ALifeLine_505a3ddc5a84ccdb": {
+      "tr": "Ben en azından şöyle duydum: {event}."
+    },
+    "RD_ALifeLine_2b2f25db653005a7": {
+      "tr": "Millet diyor ki {event}."
+    },
+    "RD_ALifeLine_749a4de95179406d": {
+      "tr": "Duydum da, {event}. Ürkütücü şeyler."
+    },
+    "RD_ALifeLine_32edbd22032ea74c": {
+      "tr": "Söylenene göre {event}. Başını eğ, ortalıkta görünme."
+    },
+    "RD_ALifeLine_667f8688292aaddc": {
+      "tr": "Aman Allah'ım, duymadın mı? {event}."
+    },
+    "RD_ALifeLine_14bb1c340318d317": {
+      "tr": "Haber geldi: {event}."
+    },
+    "RD_ALifeLine_369ea1731927644d": {
+      "tr": "Gelen raporlara göre {event}."
+    },
+    "RD_ALifeLine_0a27c4ca5811b433": {
+      "tr": "Ağızdan ağıza dolaşan söz şu: {event}."
+    },
+    "RD_ALifeLine_159da14704645932": {
+      "tr": "Şu söyleniyor: {event}... Ha, iyi ki ben değil onlar."
+    },
+    "RD_ALifeLine_208cd1c637412d39": {
+      "tr": "{contact} var ya, {contactat} oturan, tanırsın hani. Onunla konuştuğunu duydum."
+    },
+    "RD_ALifeLine_2b011f556b839593": {
+      "tr": "{contactat} yaşayan {contact}, senin gibi birinden bahsetti."
+    },
+    "RD_ALifeLine_336b6c5174718c93": {
+      "tr": "Şöyle bir durum var: {event}. Üstüne {badat} {bad} var, dikkat et."
+    },
+    "RD_ALifeLine_31cc15d524e72d01": {
+      "tr": "Buralarda ne mi var? {event}. Gözünü dört açmak lazım."
+    },
+    "RD_ALifeLine_413d6c16281dde11": {
+      "tr": "Durum düzelmiyor, kötüleşiyor: {event}."
+    },
+    "RD_ALifeLine_7a7b91534ce8d461": {
+      "tr": "Durum şu: {event}. Tetikte kal."
+    },
+    "RD_ALifeLine_5eb9ce286d9538c8": {
+      "tr": "Lafın gelişi diyeyim, {event}. Benim sorunum değil ama."
+    },
+    "RD_ALifeLine_46d5cc8c43fef58c": {
+      "tr": "Merak edip karıştırma: {badat} {bad} var."
+    },
+    "RD_ALifeLine_71eeb1422b342d7b": {
+      "tr": "{badat} dikkatli ol, insanlar pek cana yakın değil."
+    },
+    "RD_ALifeLine_2a6587953d3c40e0": {
+      "tr": "En önemlisi: {badat} {bad} var, onlardan uzak dur."
+    },
+    "RD_ALifeLine_4226b73b4a8d39f4": {
+      "tr": "Düşmanlar mevzilenmiş, {badat}. Kaçın."
+    },
+    "RD_ALifeLine_42a05bad2ded58a1": {
+      "tr": "{placeat} bir {place} var, yanına kimsenin yaklaştığını görmedim. Bakmaya değebilir."
+    },
+    "RD_ALifeLine_4f07d7b6232244cb": {
+      "tr": "Gördüğüm kadarıyla kimsenin içine girmediği bir {place} var, {placeat}."
+    },
+    "RD_ALifeLine_76bdc58c7d9db0b4": {
+      "tr": "{place} arıyorsan, {placeat} bir tane var, bildiğim kadarıyla daha kimse karıştırmamış."
+    },
+    "RD_ALifeLine_3e13c3eb72a3d2a5": {
+      "tr": "Güvenli bir yer lazımsa {goodat} {good} seni geri çevirmez."
+    },
+    "RD_ALifeLine_1948fbe748d0c5ec": {
+      "tr": "Bildiğim en güvenli yer mi? {goodat} {good}."
+    },
+    "RD_ALifeLine_3c639e966b4f2c9f": {
+      "tr": "{who}. Bir zamanlar {job} olarak çalışırdım.. {span} önce hayatımın tamamı buydu."
+    },
+    "RD_ALifeLine_3191bff949a4dbcd": {
+      "tr": "Ben mi? {who}.. Zamanında bir {job}, şimdi nefes almamı sağlayan her neyse o."
+    },
+    "RD_ALifeLine_6baf36ea737674ea": {
+      "tr": "Senin için işaretledim. {badat} {bad} var, başına bela olurlar. {goodat} {good} ise seni görür görmez vurmaz."
+    },
+    "RD_ALifeLine_11ddfc2936fbb3ff": {
+      "tr": "İşaretledim. {badat} {bad} var.. yanlarına bile yaklaşma."
+    },
+    "RD_ALifeLine_25ca731e7a23129a": {
+      "tr": "{goodat} {good} var. İyi insanlar, yani şimdilerde iyi ne demekse."
+    },
+    "RD_ALifeLine_1de6dca6099365b0": {
+      "tr": "Bir de {placeat} {place} var. En son geçtiğimde kimse dokunmamış gibiydi, bir bak."
+    },
+    "RD_ALifeLine_48b1624b62438276": {
+      "tr": "Evet, {what}"
+    },
+    "RD_ALifeLine_4f04c0e134ea12a1": {
+      "tr": "Ne tesadüf, {what}"
+    },
+    "RD_ALifeLine_71e0ed5b70ea24ce": {
+      "tr": "Telsizde dönen laf şu: {what}"
+    },
+    "RD_ALifeLine_2bfebe9b2dd5710a": {
+      "tr": "Telsizi kısık tutuyorum, {what}"
+    },
+    "RD_ALifeLine_6926f7d46533dfc8": {
+      "tr": "Yakaladığım tek şey şu: {what}"
+    },
+    "RD_ALifeLine_6ab78052317a33ce": {
+      "tr": "{what} Ortalıkta dolaşan söz bu."
+    },
+    "RD_ALifeLine_169270943f7e21ac": {
+      "tr": "Kendi kulaklarımla duydum, {what}"
+    },
+    "RD_ALifeLine_471c25d347b16de1": {
+      "tr": "{what} Şimdi yürü git."
+    },
+    "RD_ALifeLine_28ceb31662681e0e": {
+      "tr": "{what} Benden alabileceğin bu kadar."
+    },
+    "RD_ALifeLine_1bdd742c516f8914": {
+      "tr": "Peki.. {home} var, orada kalıyorum. Yanında kimseyi getirme."
+    },
+    "RD_ALifeLine_241d69eb2a48b3cb": {
+      "tr": "Tamam. Kaldığım yer şurası: {home}. Kapıyı iki kere vur."
+    },
+    "RD_ALifeLine_378909db5a7f0431": {
+      "tr": "Birkaç hafta oldu, kalanlar bir köşeye çekilip mevzilendi.. mesela {outpost} var."
+    },
+    "RD_ALifeLine_1627dd731b48203b": {
+      "tr": "Evet, bazı insanlar yerleşmiş: {outpost}. Dost mu düşman mı, bilmiyorum."
+    },
+    "RD_ALifeLine_60b648803dea8b5d": {
+      "tr": "Bu {season} baş belası olacak."
+    },
+    "RD_ALifeLine_4e1f45194241dec4": {
+      "tr": "Sen {season} için nasıl hazırlanıyorsun?"
+    },
+    "RD_ALifeLine_4ffb25787d4dd459": {
+      "tr": "Güvenli mi? Hayır. Daha güvenlisi var: {outpost}. Seni hâlâ seviyorlarsa tabii."
+    },
+    "RD_ALifeLine_575f651d19740a87": {
+      "tr": "Burada {season} acımasız geçiyor."
+    },
+    "RD_ALifeLine_795e5e5845b8d8c4": {
+      "tr": "Galiba şurası: {home}. Telefonlar ben arayamadan kesildi."
+    },
+    "RD_ALifeLine_4699806c3b0692cd": {
+      "tr": "Bizim bir noktamız var: {outpost}. Çitler çekili, nöbetçiler duruyor. Kontrol noktasından geldiğini söyle."
+    },
+    "RD_ALifeLine_2b04a8be57824c4d": {
+      "tr": "Bizde de öyle. Bizimkilerden birine rastlarsan yönlendir: {outpost}. Seninkiler için de geçerli."
+    },
+    "RD_ALifeLine_4cdb489e0d9914e5": {
+      "tr": "Hareketlilik var: {outpost}. Geceleri ışık yanıyor. Bizimkiler olabilir, herhangi biri de."
+    },
+    "RD_ALifeLine_689b1b8a60db589c": {
+      "tr": "Birileri kurulmuş: {outpost}. Onlar bizi öğrenmeden ben kim olduklarını öğrenmeliyim."
+    },
+    "RD_ALifeLine_0df1fb2a7cb89970": {
+      "tr": "Karım. {home} var, o civarda olmalı.. eğer.. oradaysa. Değilse bunu masanın üstüne bırak."
+    },
+    "RD_ALifeLine_6b376f2836300ba9": {
+      "tr": "Bir grup şunu elinde tutuyormuş: {outpost}. En son duyduğum buydu."
+    },
+    "RD_ALifeLine_416ee8987963af6d": {
+      "tr": "Bizimkilerden bir kısmı oraya mevzilenmiş. {outpost} var ya, orası."
+    },
+    "RD_ALifeLine_3f4870f04298e4d2": {
+      "tr": "Onlara şundan bahset: {outpost}. Elimden gelen bu kadar."
+    },
+    "RD_ALifeLine_49a717364e8b8012": {
+      "tr": "Baskıncılar yuvalanmış: {outpost}. Kaç kafa, kaç tüfek var, sayılması lazım."
+    },
+    "RD_ALifeLine_7c720dd105cabb93": {
+      "tr": "Kamyonlarımızı gözetleyen bir ekip var, orada: {outpost}. Karşılığında ben de onları gözetlemek istiyorum."
+    },
+    "RD_ALifeLine_51a0c23f35aeff12": {
+      "tr": "Bizim oradaki noktaya bir haber gitmeli: {outpost}. Telsiz güvenli değil, herkes dinliyor."
+    },
+    "RD_ALifeLine_46826ae80c6b4711": {
+      "tr": "Kurye işi. Bunu teslim edeceksin: {outpost}. Mühürlü."
+    },
+    "RD_ALifeLine_4aa2cc0471397394": {
+      "tr": "{outpost} bizim elimizde. Gelirsen hoş karşılanırsın, çoğunlukla."
+    },
+    "RD_ALifeLine_0b9e15014bed9a28": {
+      "tr": "Bizim noktamız da var: {outpost}."
+    },
+    "RD_ALifeLine_0cef82915bd1f07e": {
+      "tr": "Bazıları var. Bir grup, şurada: {outpost}. Eski Muhafızlar, hâlâ paylaşıyorlar."
+    },
+    "RD_ALifeLine_5128018629476d79": {
+      "tr": "Birkaç kişi var. Çocukları yanlarına alan bir yer var: {outpost}. Gerisini sen düşün."
+    },
+    "RD_ALifeLine_1a194d5a25729299": {
+      "tr": "Evet. Şu insanlara cephane götür: {outpost}. Ellerinde kalmamış, ben de o kadar yolu artık yürüyemem."
+    },
+    "RD_ALifeLine_541f41ec37ead188": {
+      "tr": "Bu kutuyu şuraya götür: {outpost}. Onlara benden çok lazım."
+    },
+    "RD_ALifeLine_0b9718c62c3878b9": {
+      "tr": "Hastalara bu {season} ağır gelecek."
+    },
+    "RD_ALifeLine_2daf0fe3454a0669": {
+      "tr": "Herkes {season} ile nasıl başa çıkıyor?"
+    },
+    "RD_ALifeLine_0b90acc77e1df5e6": {
+      "tr": "Off.. Bana hasta listesini sor. Bu {season} bize böyle davranıyor."
+    },
+    "RD_ALifeLine_225e5c69198d5398": {
+      "tr": "Artık her {season} berbat, hepsi birbirinden beter."
+    },
+    "RD_ALifeLine_5387b32d430a37cd": {
+      "tr": "Yine {season} geldi, ha? Zaman artık başka işliyor."
+    },
+    "RD_ALifeLine_4b007071209a32b6": {
+      "tr": "Bir {profession}, ha.. Tamam, sana yakıştı, tamam."
+    },
+    "RD_ALifeLine_3fab503a477435f0": {
+      "tr": "Şu {season} dedikleri ya sefil ya güzel, içinde kaç ölü dolaşıyorsa ona göre."
+    },
+    "RD_ALifeLine_3341980d126975b0": {
+      "tr": "Şurada insanlar var: {outpost}. Dumanlarını gördüm, yaklaşmadım."
+    },
+    "RD_ALifeLine_1bde1b000c2e2b9c": {
+      "tr": "Eskiden bir {profession}."
+    },
+    "RD_ALifeLine_36e41d6d02437d7a": {
+      "tr": "Ha, {season}.. Eskiden bir şeydi, şimdi sadece sefil olmanın başka bir yolu."
+    },
+    "RD_ALifeLine_02a52c2941cc6d11": {
+      "tr": "Evim mi? {home} var, fena sayılmaz. Duvarlar sağlam, koku da.. alışırız."
+    },
+    "RD_ALifeLine_1f35ff9b2a6d72f4": {
+      "tr": "İnsanlarla tanıştım, yer {outpost}. Fena değiller, kibar davranırsan."
+    },
+    "RD_ALifeLine_55a265725919ffa2": {
+      "tr": "Bir grup var, çoğunlukla takas yapıyorlar. Yeri {outpost}. İstersen gösteririm."
+    },
+    "RD_ALifeLine_4a7a343c37fe0763": {
+      "tr": "Öncesi mi? Başka bir hayat gibi geliyor.. ekmeğimi bir {profession} olarak kazanıyordum."
+    },
+    "RD_ALifeLine_76fae9ff4ec11e20": {
+      "tr": "Şimdiden {season} olmuş mu? Zaman acayip."
+    },
+    "RD_ALifeLine_4476214c36157a74": {
+      "tr": "Geri dönüyorum: {home}. Kedimi unuttum. Biliyorum. BİLİYORUM. Ama kedimi unuttum."
+    },
+    "RD_ALifeLine_50d7638361ec0a1b": {
+      "tr": "Hazırlık mı? Günü çıkarmaya çalışıyorum, {season} diye bir şey düşünecek halim yok."
+    },
+    "RD_ALifeLine_55be6bb91d3927d5": {
+      "tr": "Mevsimin {season} olduğunu biliyorum. Bana bu yeter. Günler takvimi olanların derdi."
+    },
+    "RD_ALifeLine_093a0f6d40054c4a": {
+      "tr": "Ben- tamam. Şurası: {home}. Kimseyi getirme. N'olur. İhtiyacın olursa yalnız sen gel."
+    },
+    "RD_ALifeLine_3d091f822518687c": {
+      "tr": "Bak, iyi birine benziyorsun. Adres {home}. Önce kapıyı çal. Sert çal. Sonra adını söyle."
+    },
+    "RD_ALifeLine_4e71c7346bebe294": {
+      "tr": "Gelip bir bakmak ha.. Kimse önermemişti bunu. ..Tamam. Gideceğin yer: {home}. Yalnız geleceksin, gündüz geleceksin."
+    },
+    "RD_ALifeLine_15a4fb730c70731e": {
+      "tr": "..Tamam. Sana güveniyorum. Yer {home}. Pişman etme beni."
+    },
+    "RD_ALifeLine_70ac5406502b015d": {
+      "tr": "{outpost} var, herkes oraya gidiyor. Hiç gitmedin mi? Al."
+    },
+    "RD_ALifeLine_0976d94c5cf05916": {
+      "tr": "Şimdi {season}, tek derdim bu. Suyumu dondurur mu dondurmaz mı?"
+    }
+  }
+}

@@ -1,0 +1,1355 @@
+{
+ "_paket": "Y13",
+ "_grup": "arayuz_b12b",
+ "_dosya": "Creator_lua",
+ "_plan": "B12b",
+ "_noktalama": false,
+ "_bosluk_koru": true,
+ "_baslik": "1.5.0 Oluşturucu sabit yazıları (Creator_lua)",
+ "_parcalar": [
+  [
+   1,
+   80
+  ],
+  [
+   81,
+   156
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "IGUI_ALifeUI_7c8b60b95cf22b21",
+   "ROLE",
+   [
+    "ALifeCreatorDense.lua:20"
+   ]
+  ],
+  "2": [
+   "IGUI_ALifeUI_7c8bc3a65d11de88",
+   "SETS",
+   [
+    "ALifeCreatorDense.lua:21"
+   ]
+  ],
+  "3": [
+   "IGUI_ALifeUI_0d637cfd0c4901fe",
+   "Firearm",
+   [
+    "ALifeCreatorDense.lua:125"
+   ]
+  ],
+  "4": [
+   "IGUI_ALifeUI_0dbc20e25a0c9672",
+   "OFF  ",
+   [
+    "ALifeCreatorDense.lua:171"
+   ]
+  ],
+  "5": [
+   "IGUI_ALifeUI_6e7efcc14d6abd80",
+   "CLEAR SEARCH",
+   [
+    "ALifeCreatorDense.lua:200"
+   ]
+  ],
+  "6": [
+   "IGUI_ALifeUI_7a22ba01315b0c2f",
+   "SHOW ALL",
+   [
+    "ALifeCreatorDense.lua:201"
+   ]
+  ],
+  "7": [
+   "IGUI_ALifeUI_33484d4a7a96d949",
+   "no weapon",
+   [
+    "ALifeCreatorDense.lua:325"
+   ]
+  ],
+  "8": [
+   "IGUI_ALifeUI_3c3261171fb85e4c",
+   "The car this faction's crews drive when they arrive by car.",
+   [
+    "ALifeCreatorFactionSupport.lua:100"
+   ]
+  ],
+  "9": [
+   "IGUI_ALifeUI_4dd26ecc252d6203",
+   "ARRIVAL VEHICLE",
+   [
+    "ALifeCreatorFactionSupport.lua:100"
+   ]
+  ],
+  "10": [
+   "IGUI_ALifeUI_10edc9ff1c7451c6",
+   "Default car",
+   [
+    "ALifeCreatorFactionSupport.lua:102"
+   ]
+  ],
+  "11": [
+   "IGUI_ALifeUI_1c4bcbbe2df97762",
+   "Default keeps the standard arrival car. A crew larger than two of the chosen vehicle uses the default car instead.",
+   [
+    "ALifeCreatorFactionSupport.lua:103"
+   ]
+  ],
+  "12": [
+   "IGUI_ALifeUI_032041d5256f16bf",
+   "Paint colour",
+   [
+    "ALifeCreatorFactionSupport.lua:104"
+   ]
+  ],
+  "13": [
+   "IGUI_ALifeUI_08f9b26c6fc4dde1",
+   "Some vehicles, such as police cars, keep their own livery.",
+   [
+    "ALifeCreatorFactionSupport.lua:108"
+   ]
+  ],
+  "14": [
+   "IGUI_ALifeUI_283c42fc29ecd72e",
+   "random paint",
+   [
+    "ALifeCreatorFactionSupport.lua:115"
+   ]
+  ],
+  "15": [
+   "IGUI_ALifeUI_2fb77dfd722eb765",
+   "Not installed: arrivals use the default car.",
+   [
+    "ALifeCreatorFactionSupport.lua:120"
+   ]
+  ],
+  "16": [
+   "IGUI_ALifeUI_0cf7d0f430a99bd9",
+   "CLICK AGAIN TO CONFIRM",
+   [
+    "ALifeCreatorUxSafety.lua:76"
+   ]
+  ],
+  "17": [
+   "IGUI_ALifeUI_4d6b0ebb05e57811",
+   "CONFIRM?",
+   [
+    "ALifeCreatorUxSafety.lua:76"
+   ]
+  ],
+  "18": [
+   "IGUI_ALifeUI_78353da10246ccfb",
+   "CLICK TO CONFIRM",
+   [
+    "ALifeCreatorUxSafety.lua:76"
+   ]
+  ],
+  "19": [
+   "IGUI_ALifeUI_3aa3b4a854964f50",
+   "NPC deleted.",
+   [
+    "ALifeCreatorUxSafety.lua:149"
+   ]
+  ],
+  "20": [
+   "IGUI_ALifeUI_7c8d009d5d58ccdb",
+   "UNDO",
+   [
+    "ALifeCreatorUxSafety.lua:149"
+   ]
+  ],
+  "21": [
+   "IGUI_ALifeUI_62eb17095a226bbc",
+   "CLICK AGAIN TO RESET - THE SERVER LIST IS REPLACED, FACTIONS YOU MADE STAY",
+   [
+    "ALifeCreatorUxSafety.lua:164"
+   ]
+  ],
+  "22": [
+   "IGUI_ALifeUI_4953b1cc5b28df01",
+   "CLICK AGAIN TO RESET - YOUR CURRENT FACTION FILE IS KEPT AS A .BACKUP.INI COPY",
+   [
+    "ALifeCreatorUxSafety.lua:166"
+   ]
+  ],
+  "23": [
+   "IGUI_ALifeUI_32993efd79f0015e",
+   "Built-in factions go back to default. Factions you made yourself stay. A single-player faction file is kept as a .backup.ini copy. Click twice within 3 seconds to confirm.",
+   [
+    "ALifeCreatorUxSafety.lua:206"
+   ]
+  ],
+  "24": [
+   "IGUI_ALifeUI_2b454a5b764dfe5b",
+   "Click twice within 3 seconds to confirm.",
+   [
+    "ALifeCreatorUxSafety.lua:207"
+   ]
+  ],
+  "25": [
+   "IGUI_ALifeUI_04fb621548d45304",
+   "UI part failed to load: ",
+   [
+    "ALifeCreatorUx.lua:124"
+   ]
+  ],
+  "26": [
+   "IGUI_ALifeUI_2c2343845c8c82af",
+   "Edit the people in the selected faction: roster on the left, full editor on the right.",
+   [
+    "ALifeCreatorUx.lua:130"
+   ]
+  ],
+  "27": [
+   "IGUI_ALifeUI_4dff6ad241b46c82",
+   "Edit the selected faction itself: identity, relations, spawning, behavior defaults, support and wardrobe.",
+   [
+    "ALifeCreatorUx.lua:131"
+   ]
+  ],
+  "28": [
+   "IGUI_ALifeUI_7beb65d833d97d33",
+   "Name, gender, tag, class and spawn weight.",
+   [
+    "ALifeCreatorUx.lua:132"
+   ]
+  ],
+  "29": [
+   "IGUI_ALifeUI_60e3a55a40858732",
+   "Skin, hair, beard, outfit sets and the clothing slots.",
+   [
+    "ALifeCreatorUx.lua:133"
+   ]
+  ],
+  "30": [
+   "IGUI_ALifeUI_12b2ab3704f1fa8d",
+   "Face choices for this NPC.",
+   [
+    "ALifeCreatorUx.lua:134"
+   ]
+  ],
+  "31": [
+   "IGUI_ALifeUI_16d4d4140ac4eb1a",
+   "Weapons, attachments and magazines.",
+   [
+    "ALifeCreatorUx.lua:135"
+   ]
+  ],
+  "32": [
+   "IGUI_ALifeUI_31fe9096613f2303",
+   "Health, skills, damage, loot and combat support.",
+   [
+    "ALifeCreatorUx.lua:136"
+   ]
+  ],
+  "33": [
+   "IGUI_ALifeUI_03f58ba9148d1bdf",
+   "Behavior profile, doctrine and voice.",
+   [
+    "ALifeCreatorUx.lua:137"
+   ]
+  ],
+  "34": [
+   "IGUI_ALifeUI_6d776dbe2a909192",
+   "Per-NPC ability overrides. Empty means inherit from the faction.",
+   [
+    "ALifeCreatorUx.lua:138"
+   ]
+  ],
+  "35": [
+   "IGUI_ALifeUI_731cb5e374da24bc",
+   "How this faction treats the player and every other faction.",
+   [
+    "ALifeCreatorUx.lua:139"
+   ]
+  ],
+  "36": [
+   "IGUI_ALifeUI_49408c2629faedae",
+   "Where, when and how often this faction appears.",
+   [
+    "ALifeCreatorUx.lua:140"
+   ]
+  ],
+  "37": [
+   "IGUI_ALifeUI_62cd8e1d5f3e0510",
+   "Ability defaults for every member of this faction.",
+   [
+    "ALifeCreatorUx.lua:141"
+   ]
+  ],
+  "38": [
+   "IGUI_ALifeUI_79875b7e21fd3cf3",
+   "Backup calls: squad size, number of calls and allied factions.",
+   [
+    "ALifeCreatorUx.lua:142"
+   ]
+  ],
+  "39": [
+   "IGUI_ALifeUI_2002096560be720b",
+   "Season outfits for the whole faction.",
+   [
+    "ALifeCreatorUx.lua:143"
+   ]
+  ],
+  "40": [
+   "IGUI_ALifeUI_0d6d695009fd2be6",
+   "Back to the faction list and member roster.",
+   [
+    "ALifeCreatorUx.lua:144"
+   ]
+  ],
+  "41": [
+   "IGUI_ALifeUI_10efa28824763179",
+   "Show every member.",
+   [
+    "ALifeCreatorUx.lua:145"
+   ]
+  ],
+  "42": [
+   "IGUI_ALifeUI_438b064201cd4d1c",
+   "Show members that carry a firearm.",
+   [
+    "ALifeCreatorUx.lua:146"
+   ]
+  ],
+  "43": [
+   "IGUI_ALifeUI_0065e4665526e2d1",
+   "Show members that carry a melee weapon.",
+   [
+    "ALifeCreatorUx.lua:147"
+   ]
+  ],
+  "44": [
+   "IGUI_ALifeUI_4489de2637330365",
+   "Make the member list narrower.",
+   [
+    "ALifeCreatorUx.lua:148"
+   ]
+  ],
+  "45": [
+   "IGUI_ALifeUI_775e84047e4b731d",
+   "Make the member list wider.",
+   [
+    "ALifeCreatorUx.lua:149"
+   ]
+  ],
+  "46": [
+   "IGUI_ALifeUI_6b8f419c6d2aa843",
+   "Previous page.",
+   [
+    "ALifeCreatorUx.lua:150"
+   ]
+  ],
+  "47": [
+   "IGUI_ALifeUI_3dde5eb34e265a0b",
+   "Next page.",
+   [
+    "ALifeCreatorUx.lua:151"
+   ]
+  ],
+  "48": [
+   "IGUI_ALifeUI_1c68d6021a7bfab1",
+   "Create a folder to group factions. Drag a faction onto a folder to file it.",
+   [
+    "ALifeCreatorUx.lua:152"
+   ]
+  ],
+  "49": [
+   "IGUI_ALifeUI_7b366d9235fb51b2",
+   "Create a new faction.",
+   [
+    "ALifeCreatorUx.lua:153"
+   ]
+  ],
+  "50": [
+   "IGUI_ALifeUI_623afcca57f822ba",
+   "Add a new NPC preset to the selected faction.",
+   [
+    "ALifeCreatorUx.lua:155"
+   ]
+  ],
+  "51": [
+   "IGUI_ALifeUI_33a87cf2502ed332",
+   "Open the settings of the selected faction.",
+   [
+    "ALifeCreatorUx.lua:156"
+   ]
+  ],
+  "52": [
+   "IGUI_ALifeUI_5151271f15c57cea",
+   "Copy the selected faction with all its NPC presets.",
+   [
+    "ALifeCreatorUx.lua:157"
+   ]
+  ],
+  "53": [
+   "IGUI_ALifeUI_61e9d5cd1ea1ec78",
+   "Copy the selected NPC preset.",
+   [
+    "ALifeCreatorUx.lua:158"
+   ]
+  ],
+  "54": [
+   "IGUI_ALifeUI_3e254617484c7b3f",
+   "Delete the selected item. Click twice within 3 seconds to confirm.",
+   [
+    "ALifeCreatorUx.lua:159"
+   ]
+  ],
+  "55": [
+   "IGUI_ALifeUI_6666d43919473b03",
+   "Send every Creator faction and NPC to the server (multiplayer admins).",
+   [
+    "ALifeCreatorUx.lua:160"
+   ]
+  ],
+  "56": [
+   "IGUI_ALifeUI_5771f53528cdb51e",
+   "Close the Creator. Pending edits are saved first.",
+   [
+    "ALifeCreatorUx.lua:161"
+   ]
+  ],
+  "57": [
+   "IGUI_ALifeUI_4d309def30f0cc84",
+   "Show the next enabled outfit set on the live model.",
+   [
+    "ALifeCreatorUx.lua:163"
+   ]
+  ],
+  "58": [
+   "IGUI_ALifeUI_7adf999712ae24ba",
+   "Keep the authored color of the selected clothing item.",
+   [
+    "ALifeCreatorUx.lua:164"
+   ]
+  ],
+  "59": [
+   "IGUI_ALifeUI_64afc27332e8d740",
+   "Pick any color for the selected clothing slot.",
+   [
+    "ALifeCreatorUx.lua:165"
+   ]
+  ],
+  "60": [
+   "IGUI_ALifeUI_4b6d6c145382d2e4",
+   "Members with no weapon or no ammo. Click to show only them.",
+   [
+    "ALifeCreatorUx.lua:175"
+   ]
+  ],
+  "61": [
+   "IGUI_ALifeUI_7c8490435b52dbdd",
+   "FAIL",
+   [
+    "ALifeCreatorUxStatus.lua:56"
+   ]
+  ],
+  "62": [
+   "IGUI_ALifeUI_4bcc49e73a4dcf7c",
+   "COMPLETE",
+   [
+    "ALifeCreatorUxStatus.lua:57"
+   ]
+  ],
+  "63": [
+   "IGUI_ALifeUI_0df21a4a0e96e675",
+   "RESET",
+   [
+    "ALifeCreatorUxStatus.lua:58"
+   ]
+  ],
+  "64": [
+   "IGUI_ALifeUI_527acfaf19a4b603",
+   "REMOVED",
+   [
+    "ALifeCreatorUxStatus.lua:58"
+   ]
+  ],
+  "65": [
+   "IGUI_ALifeUI_302a94fa5b3acac1",
+   "RESTORED",
+   [
+    "ALifeCreatorUxStatus.lua:59"
+   ]
+  ],
+  "66": [
+   "IGUI_ALifeUI_52558da13d17ba6c",
+   "UNSAVED CHANGES  -  AUTOSAVE PENDING",
+   [
+    "ALifeCreatorUxStatus.lua:77"
+   ]
+  ],
+  "67": [
+   "IGUI_ALifeUI_4008fa8c160cc610",
+   "TEXT TOO LARGE FOR THIS SCREEN",
+   [
+    "ALifeCreatorUxStatus.lua:86"
+   ]
+  ],
+  "68": [
+   "IGUI_ALifeUI_681bdf2e3f23849a",
+   "Save faction and NPC edits now. Shortcut: Ctrl + S. Edits also autosave.",
+   [
+    "ALifeCreatorUxStatus.lua:125"
+   ]
+  ],
+  "69": [
+   "IGUI_ALifeUI_260d5a100be1d75a",
+   "NO FACTION SELECTED",
+   [
+    "ALifeCreatorUxStatus.lua:239"
+   ]
+  ],
+  "70": [
+   "IGUI_ALifeUI_2d187c916f334a57",
+   "Pick a faction in the list on the left.",
+   [
+    "ALifeCreatorUxStatus.lua:239"
+   ]
+  ],
+  "71": [
+   "IGUI_ALifeUI_2ff5e93c109e09c5",
+   "THIS FACTION HAS NO MEMBERS YET",
+   [
+    "ALifeCreatorUxStatus.lua:242"
+   ]
+  ],
+  "72": [
+   "IGUI_ALifeUI_3ff6dedf69ff1c53",
+   "Click + NEW MEMBER to add the first NPC preset.",
+   [
+    "ALifeCreatorUxStatus.lua:242"
+   ]
+  ],
+  "73": [
+   "IGUI_ALifeUI_3169675721214c85",
+   "Every member has a weapon and ammo.",
+   [
+    "ALifeCreatorUxStatus.lua:243"
+   ]
+  ],
+  "74": [
+   "IGUI_ALifeUI_64c7dd3603e8613a",
+   "NO MEMBER MATCHES \"",
+   [
+    "ALifeCreatorUxStatus.lua:245"
+   ]
+  ],
+  "75": [
+   "IGUI_ALifeUI_1ec4b50e76fa6080",
+   "NO MEMBERS MATCH THIS FILTER",
+   [
+    "ALifeCreatorUxStatus.lua:247"
+   ]
+  ],
+  "76": [
+   "IGUI_ALifeUI_61a2bb6f16f18fbf",
+   "Choose ALL to see every member.",
+   [
+    "ALifeCreatorUxStatus.lua:247"
+   ]
+  ],
+  "77": [
+   "IGUI_ALifeUI_5f409f9311174be5",
+   "NO FACTION MATCHES \"",
+   [
+    "ALifeCreatorUxStatus.lua:252"
+   ]
+  ],
+  "78": [
+   "IGUI_ALifeUI_73f08cbb7681b2aa",
+   "Clear the search box to see every faction.",
+   [
+    "ALifeCreatorUxStatus.lua:252"
+   ]
+  ],
+  "79": [
+   "IGUI_ALifeUI_661750446726e935",
+   "Click + NEW FACTION to create the first one.",
+   [
+    "ALifeCreatorUxStatus.lua:253"
+   ]
+  ],
+  "80": [
+   "IGUI_ALifeUI_768d7c456ef2dc57",
+   "NO FACTIONS YET",
+   [
+    "ALifeCreatorUxStatus.lua:253"
+   ]
+  ],
+  "81": [
+   "IGUI_ALifeUI_7c8816dc5c245b0e",
+   "LOOK",
+   [
+    "ALifeCreatorUxTabs.lua:10"
+   ]
+  ],
+  "82": [
+   "IGUI_ALifeUI_7c852ca65b76318a",
+   "GEAR",
+   [
+    "ALifeCreatorUxTabs.lua:11"
+   ]
+  ],
+  "83": [
+   "IGUI_ALifeUI_1f98fb753ff86b41",
+   "ABILITIES",
+   [
+    "ALifeCreatorUxTabs.lua:15"
+   ]
+  ],
+  "84": [
+   "IGUI_ALifeUI_0d88396b55ede712",
+   "Name, gender and notes. Tag, class and spawn weight are in the folded block.",
+   [
+    "ALifeCreatorUxTabs.lua:17"
+   ]
+  ],
+  "85": [
+   "IGUI_ALifeUI_2ae42dc12331d842",
+   "Skin, hair, beard, outfit sets and clothing slots (APPEARANCE), face choices (FACES).",
+   [
+    "ALifeCreatorUxTabs.lua:18"
+   ]
+  ],
+  "86": [
+   "IGUI_ALifeUI_44caa4643ef7fd63",
+   "COMBAT: health, skills, damage and loot. BEHAVIOR: doctrine and voice. ABILITIES: per-NPC overrides.",
+   [
+    "ALifeCreatorUxTabs.lua:20"
+   ]
+  ],
+  "87": [
+   "IGUI_ALifeUI_5f15894946bc10f1",
+   "IDENTITY, LOOK, GEAR and BEHAVIOR. LOOK and BEHAVIOR have a second row.",
+   [
+    "ALifeCreatorUxTabs.lua:132"
+   ]
+  ],
+  "88": [
+   "IGUI_ALifeUI_11e3bdb011ba20b5",
+   "Click to fold or unfold this block.",
+   [
+    "ALifeCreatorUxTabs.lua:200"
+   ]
+  ],
+  "89": [
+   "IGUI_ALifeUI_10d05af83011a50f",
+   "FEWER COLUMNS",
+   [
+    "ALifeCreatorUxTabs.lua:211"
+   ]
+  ],
+  "90": [
+   "IGUI_ALifeUI_554dbd7c21e0ebd9",
+   "MORE COLUMNS",
+   [
+    "ALifeCreatorUxTabs.lua:211"
+   ]
+  ],
+  "91": [
+   "IGUI_ALifeUI_0a8932cf4253c47c",
+   "Show behavior, ammo, outfit sets and spawn weight in the member table.",
+   [
+    "ALifeCreatorUxTabs.lua:224"
+   ]
+  ],
+  "92": [
+   "IGUI_ALifeUI_7004e49570031681",
+   "Free set, any season: not part of the faction wardrobe",
+   [
+    "ALifeCreatorLookSeasons.lua:7"
+   ]
+  ],
+  "93": [
+   "IGUI_ALifeUI_351e51f81b966bfa",
+   "Generate fills missing sets and season tags. NPCs that already have their own untagged outfits are skipped: their outfits and tags stay exactly as authored, and the game still dresses them for the season on its own.",
+   [
+    "ALifeCreatorLookSeasons.lua:10"
+   ]
+  ],
+  "94": [
+   "IGUI_ALifeUI_7ae862dd2b13e37a",
+   "Moved to the NPC editor: Look tab, OUTFIT SETS. Sets A to D are the faction's spring, summer, autumn and winter outfits.",
+   [
+    "ALifeCreatorLookSeasons.lua:11"
+   ]
+  ],
+  "95": [
+   "IGUI_ALifeUI_06848b91691aae09",
+   "FACTION WARDROBE BY SEASON",
+   [
+    "ALifeCreatorLookSeasons.lua:61"
+   ]
+  ],
+  "96": [
+   "IGUI_ALifeUI_7498eec1043bb624",
+   "EDIT FACTION SET",
+   [
+    "ALifeCreatorLookSeasons.lua:75"
+   ]
+  ],
+  "97": [
+   "IGUI_ALifeUI_1f88f8f87348434a",
+   "Open the faction wardrobe editor for the selected set. A to D are the faction's spring, summer, autumn and winter outfits.",
+   [
+    "ALifeCreatorLookSeasons.lua:78"
+   ]
+  ],
+  "98": [
+   "IGUI_ALifeUI_2fb7559436430427",
+   "Refresh this faction's seasonal sets from the shipped wardrobe. A preview opens first, nothing changes until you accept.",
+   [
+    "ALifeCreatorLookSeasons.lua:84"
+   ]
+  ],
+  "99": [
+   "IGUI_ALifeUI_6315344f3a8864af",
+   "Limit the faction list to factions that ship with the mod.",
+   [
+    "ALifeCreatorLookSeasons.lua:90"
+   ]
+  ],
+  "100": [
+   "IGUI_ALifeUI_29fb47a357354805",
+   "Moved to NPC Look.",
+   [
+    "ALifeCreatorLookSeasons.lua:122"
+   ]
+  ],
+  "101": [
+   "IGUI_ALifeUI_1eb81eb97d67ff55",
+   "A block-walled garrison with towers",
+   [
+    "ALifeCreatorCore.lua:97"
+   ]
+  ],
+  "102": [
+   "IGUI_ALifeUI_516f59c96943e2da",
+   "A fenced farm with a field and a pen",
+   [
+    "ALifeCreatorCore.lua:98"
+   ]
+  ],
+  "103": [
+   "IGUI_ALifeUI_3425d0931877f0fa",
+   "A palisaded market with stalls",
+   [
+    "ALifeCreatorCore.lua:99"
+   ]
+  ],
+  "104": [
+   "IGUI_ALifeUI_12179f2e1c087b19",
+   "A walled cell block and exercise yard",
+   [
+    "ALifeCreatorCore.lua:100"
+   ]
+  ],
+  "105": [
+   "IGUI_ALifeUI_326720d130071ac0",
+   "A small fenced lodge and fire circle",
+   [
+    "ALifeCreatorCore.lua:101"
+   ]
+  ],
+  "106": [
+   "IGUI_ALifeUI_4d5357c54ee08fe9",
+   "A scrap palisade held by raiders",
+   [
+    "ALifeCreatorCore.lua:102"
+   ]
+  ],
+  "107": [
+   "IGUI_ALifeUI_5b9f2ac662a33784",
+   "Horde retreat",
+   [
+    "ALifeCreatorCore.lua:312"
+   ]
+  ],
+  "108": [
+   "IGUI_ALifeUI_103eb0101c9b448c",
+   "Suppression",
+   [
+    "ALifeCreatorCore.lua:318"
+   ]
+  ],
+  "109": [
+   "IGUI_ALifeUI_14d8516250b52f9f",
+   "Covering fire",
+   [
+    "ALifeCreatorCore.lua:318"
+   ]
+  ],
+  "110": [
+   "IGUI_ALifeUI_6591ddb04d863921",
+   "Squad push",
+   [
+    "ALifeCreatorCore.lua:319"
+   ]
+  ],
+  "111": [
+   "IGUI_ALifeUI_51eec6c528b32d2b",
+   "Focus fire",
+   [
+    "ALifeCreatorCore.lua:320"
+   ]
+  ],
+  "112": [
+   "IGUI_ALifeUI_7f741ff60be0d87e",
+   "Friendly line",
+   [
+    "ALifeCreatorCore.lua:320"
+   ]
+  ],
+  "113": [
+   "IGUI_ALifeUI_67c830ab3bbe4dcb",
+   "In a stalled firefight one shooter runs out to a side angle with a line on the enemy while the rest keep it pinned.",
+   [
+    "ALifeCreatorCore.lua:349"
+   ]
+  ],
+  "114": [
+   "IGUI_ALifeUI_2397c21715234057",
+   "Rounds that crack past this NPC pin it down: worse aim, slower to shoot back, bursts held while pinned, and a push into cover.",
+   [
+    "ALifeCreatorCore.lua:350"
+   ]
+  ],
+  "115": [
+   "IGUI_ALifeUI_120e5f9766971e7f",
+   "Any rifle in the squad can lay steady covering fire while a squadmate moves to cover or flanks.",
+   [
+    "ALifeCreatorCore.lua:351"
+   ]
+  ],
+  "116": [
+   "IGUI_ALifeUI_0589b2ad7a6150b0",
+   "When the enemy reloads or goes down, the squad re-aims and advances together in a line, shooting.",
+   [
+    "ALifeCreatorCore.lua:352"
+   ]
+  ],
+  "117": [
+   "IGUI_ALifeUI_7eea27be4a0b7641",
+   "The squad prefers the target a squadmate just called, so fire lands on one enemy instead of spreading.",
+   [
+    "ALifeCreatorCore.lua:353"
+   ]
+  ],
+  "118": [
+   "IGUI_ALifeUI_0c2b6b833ec8c829",
+   "Holds fire and sidesteps when a squadmate stands in the line of fire.",
+   [
+    "ALifeCreatorCore.lua:354"
+   ]
+  ],
+  "119": [
+   "IGUI_ALifeUI_0202c2283dc5119c",
+   "Example: Raiders, Story factions",
+   [
+    "ALifeCreatorCore.lua:4255"
+   ]
+  ],
+  "120": [
+   "IGUI_ALifeUI_508c34bb50532a8e",
+   "FACTIONS RESET - DELETED NPCS COULD NOT BE RESTORED",
+   [
+    "ALifeCreatorCore.lua:5839"
+   ]
+  ],
+  "121": [
+   "IGUI_ALifeUI_6673c0d227e87154",
+   "FACTIONS RESET TO DEFAULT - OLD FILE KEPT AS .BACKUP.INI",
+   [
+    "ALifeCreatorCore.lua:5841"
+   ]
+  ],
+  "122": [
+   "IGUI_ALifeUI_7c12c5e07965fd6d",
+   "the save could not start",
+   [
+    "ALifeCreatorSaveQueue.lua:162"
+   ]
+  ],
+  "123": [
+   "IGUI_ALifeUI_571e44832757bba9",
+   "the written file did not match the edit",
+   [
+    "ALifeCreatorSaveQueue.lua:163"
+   ]
+  ],
+  "124": [
+   "IGUI_ALifeUI_16d6e0025003f3ae",
+   "an error while writing",
+   [
+    "ALifeCreatorSaveQueue.lua:164"
+   ]
+  ],
+  "125": [
+   "IGUI_ALifeUI_0836afa5661002fe",
+   "the NPC list changed while writing",
+   [
+    "ALifeCreatorSaveQueue.lua:165"
+   ]
+  ],
+  "126": [
+   "IGUI_ALifeUI_7805341b5664b6cc",
+   "by weapon",
+   [
+    "ALifeCreatorUxLook.lua:120"
+   ]
+  ],
+  "127": [
+   "IGUI_ALifeUI_56f922d417fdf8d0",
+   "PROGRAM",
+   [
+    "ALifeCreatorUxLook.lua:327"
+   ]
+  ],
+  "128": [
+   "IGUI_ALifeUI_2f8eb4d41a999a1d",
+   "PARTIES",
+   [
+    "ALifeCreatorUxLook.lua:328"
+   ]
+  ],
+  "129": [
+   "IGUI_ALifeUI_0f23891c2b3b3a05",
+   "base:",
+   [
+    "ALifeCreatorCompat.lua:27"
+   ]
+  ],
+  "130": [
+   "IGUI_ALifeUI_022f323a6abdb855",
+   "LAYER MOVED TO ",
+   [
+    "ALifeCreatorCompat.lua:185"
+   ]
+  ],
+  "131": [
+   "IGUI_ALifeUI_1996cf246012cac9",
+   "A-LIFE CREATOR",
+   [
+    "ALifeCreatorMenuTile.lua:125"
+   ]
+  ],
+  "132": [
+   "IGUI_ALifeUI_2fc1d1d92db66dd9",
+   "1993 / DevBuild UI 2",
+   [
+    "faction_registry.alife: about.heading (fraksiyon kartı alt satırı)"
+   ]
+  ],
+  "133": [
+   "IGUI_ALifeUI_043683621f86f225",
+   "Argent Isolation",
+   [
+    "faction_registry.alife: attireNames fraksiyon kısmı (kıyafet takımı adı)"
+   ]
+  ],
+  "134": [
+   "IGUI_ALifeUI_14909587453f4175",
+   "Blackglass",
+   [
+    "faction_registry.alife: attireNames fraksiyon kısmı (kıyafet takımı adı)"
+   ]
+  ],
+  "135": [
+   "IGUI_ALifeUI_554257ba0fd271d8",
+   "Iron Orchard",
+   [
+    "faction_registry.alife: attireNames fraksiyon kısmı (kıyafet takımı adı)"
+   ]
+  ],
+  "136": [
+   "IGUI_ALifeUI_0dba67f71a751042",
+   "summer vests and bandanas",
+   [
+    "faction_registry.alife: attireNames.B açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "137": [
+   "IGUI_ALifeUI_1d0d39a6422ad11b",
+   "summer tees and caps",
+   [
+    "faction_registry.alife: attireNames.B açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "138": [
+   "IGUI_ALifeUI_23d4af5c36b4902a",
+   "spring flannel and denim",
+   [
+    "faction_registry.alife: attireNames.A açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "139": [
+   "IGUI_ALifeUI_32471a313173191d",
+   "summer camo tees and body armour",
+   [
+    "faction_registry.alife: attireNames.B açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "140": [
+   "IGUI_ALifeUI_32bbb00e566cd6c3",
+   "spring camo jackets and body armour",
+   [
+    "faction_registry.alife: attireNames.A açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "141": [
+   "IGUI_ALifeUI_34799f6d499deb8c",
+   "summer light coveralls and boots",
+   [
+    "faction_registry.alife: attireNames.B açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "142": [
+   "IGUI_ALifeUI_34fe907139d01926",
+   "winter padded jackets",
+   [
+    "faction_registry.alife: attireNames.D açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "143": [
+   "IGUI_ALifeUI_3a20d26c287067be",
+   "autumn hunting layers and leather",
+   [
+    "faction_registry.alife: attireNames.C açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "144": [
+   "IGUI_ALifeUI_3a388ad431121768",
+   "winter coveralls with wool hats and gloves",
+   [
+    "faction_registry.alife: attireNames.D açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "145": [
+   "IGUI_ALifeUI_3af9edd47dc25d53",
+   "spring coveralls and gas masks",
+   [
+    "faction_registry.alife: attireNames.A açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "146": [
+   "IGUI_ALifeUI_404f5e292e2edcd9",
+   "spring uniform shirts and service caps",
+   [
+    "faction_registry.alife: attireNames.A açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "147": [
+   "IGUI_ALifeUI_52aa9f6970f67c3f",
+   "spring flannel and leather",
+   [
+    "faction_registry.alife: attireNames.A açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "148": [
+   "IGUI_ALifeUI_52b6709a2fe09346",
+   "autumn coveralls and hi-vis vests",
+   [
+    "faction_registry.alife: attireNames.C açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "149": [
+   "IGUI_ALifeUI_52d95b522c6fcddc",
+   "autumn work jackets",
+   [
+    "faction_registry.alife: attireNames.C açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "150": [
+   "IGUI_ALifeUI_5672c19228a1b0e7",
+   "winter padded jackets and wool hats",
+   [
+    "faction_registry.alife: attireNames.D açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "151": [
+   "IGUI_ALifeUI_5c843366260f6cb9",
+   "spring mismatched work jackets and caps",
+   [
+    "faction_registry.alife: attireNames.A açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "152": [
+   "IGUI_ALifeUI_610b703571983401",
+   "winter army coats and wool hats",
+   [
+    "faction_registry.alife: attireNames.D açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "153": [
+   "IGUI_ALifeUI_69151122378e2b9c",
+   "autumn camo field jackets",
+   [
+    "faction_registry.alife: attireNames.C açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "154": [
+   "IGUI_ALifeUI_795c58f7095b1b17",
+   "summer olive drab tees, aviators and boonie hats",
+   [
+    "faction_registry.alife: attireNames.B açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "155": [
+   "IGUI_ALifeUI_7ba1c96a7a07df2d",
+   "autumn leather jackets",
+   [
+    "faction_registry.alife: attireNames.C açıklama (kıyafet dolabı satırı)"
+   ]
+  ],
+  "156": [
+   "IGUI_ALifeUI_7cfd33ee1a833fdd",
+   "summer tees and bandanas",
+   [
+    "faction_registry.alife: attireNames.B açıklama (kıyafet dolabı satırı)"
+   ]
+  ]
+ },
+ "_terimler": [
+  [
+   "Faction",
+   "Fraksiyon"
+  ],
+  [
+   "Squad",
+   "Tim"
+  ],
+  [
+   "Crew",
+   "Ekip"
+  ],
+  [
+   "Group",
+   "Grup"
+  ],
+  [
+   "Default",
+   "Varsayılan"
+  ],
+  [
+   "Creator",
+   "Oluşturucu"
+  ],
+  [
+   "Preset",
+   "Şablon"
+  ],
+  [
+   "Profile",
+   "Profil"
+  ],
+  [
+   "Loot",
+   "Ganimet"
+  ],
+  [
+   "selected",
+   "Seçili"
+  ],
+  [
+   "weapon",
+   "Silah"
+  ],
+  [
+   "edit",
+   "Düzenle"
+  ],
+  [
+   "members",
+   "Üyeler"
+  ],
+  [
+   "create",
+   "Oluştur"
+  ],
+  [
+   "outfit",
+   "Kıyafet"
+  ],
+  [
+   "vehicle",
+   "Araç"
+  ],
+  [
+   "ammo",
+   "Mermi"
+  ],
+  [
+   "behavior",
+   "Davranış"
+  ],
+  [
+   "roster",
+   "Kadro"
+  ],
+  [
+   "search",
+   "Arama"
+  ],
+  [
+   "melee",
+   "Yakın dövüş"
+  ],
+  [
+   "saved",
+   "Kaydedildi"
+  ],
+  [
+   "delete",
+   "Sil"
+  ],
+  [
+   "melee weapon",
+   "Yakın dövüş silahı"
+  ],
+  [
+   "police",
+   "Polis"
+  ],
+  [
+   "allied",
+   "Müttefik"
+  ],
+  [
+   "attachments",
+   "Eklentiler"
+  ],
+  [
+   "beard",
+   "Sakal"
+  ],
+  [
+   "built-in",
+   "Yerleşik"
+  ],
+  [
+   "cars",
+   "Arabalar"
+  ],
+  [
+   "combat",
+   "Çatışma"
+  ],
+  [
+   "combat support",
+   "Çatışma desteği"
+  ],
+  [
+   "damage",
+   "Hasar"
+  ],
+  [
+   "gender",
+   "Cinsiyet"
+  ],
+  [
+   "hair",
+   "Saç"
+  ],
+  [
+   "identity",
+   "Kimlik"
+  ],
+  [
+   "inherit",
+   "Devral"
+  ],
+  [
+   "magazines",
+   "Şarjörler"
+  ],
+  [
+   "model",
+   "Model"
+  ],
+  [
+   "no ammo",
+   "Mermi yok"
+  ],
+  [
+   "Gear",
+   "Teçhizat"
+  ],
+  [
+   "Friendly",
+   "Dost"
+  ],
+  [
+   "horde",
+   "sürü"
+  ],
+  [
+   "spring",
+   "İlkbahar"
+  ],
+  [
+   "summer",
+   "Yaz"
+  ],
+  [
+   "jacket",
+   "Ceket"
+  ],
+  [
+   "autumn",
+   "Sonbahar"
+  ],
+  [
+   "winter",
+   "Kış"
+  ],
+  [
+   "outfit sets",
+   "Kıyafet takımları"
+  ],
+  [
+   "raiders",
+   "Yağmacılar"
+  ],
+  [
+   "vest",
+   "Yelek"
+  ],
+  [
+   "raider",
+   "Yağmacı"
+  ],
+  [
+   "spawn weight",
+   "Oluşturma ağırlığı"
+  ],
+  [
+   "mask",
+   "Maske"
+  ],
+  [
+   "notes",
+   "Notlar"
+  ],
+  [
+   "refresh",
+   "Yenile"
+  ],
+  [
+   "any season",
+   "Her mevsim"
+  ],
+  [
+   "appearance",
+   "Görünüm"
+  ],
+  [
+   "layers",
+   "Katmanlar"
+  ],
+  [
+   "save",
+   "Kaydet"
+  ]
+ ]
+}

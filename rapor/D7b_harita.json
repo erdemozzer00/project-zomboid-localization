@@ -1,0 +1,4715 @@
+{
+ "_paket": "D7b",
+ "_grup": "d7b",
+ "_baslik": "Kolluğun (law + swat) salgının ilk günlerindeki panik sözleri: PANIC, PANIC_DAY_*",
+ "_parcalar": [
+  [
+   1,
+   300
+  ],
+  [
+   301,
+   522
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "RD_ALifeLine_49d4c1f1525df0e4",
+   "Shots fired! Take cover!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law"
+   ]
+  ],
+  "2": [
+   "RD_ALifeLine_34ff6c4b7033578b",
+   "Be careful! Please, be careful!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law"
+   ]
+  ],
+  "3": [
+   "RD_ALifeLine_2055b980179f0979",
+   "Knife! Knife! Back up!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law"
+   ]
+  ],
+  "4": [
+   "RD_ALifeLine_273f978037a05734",
+   "Fall back! Fall back!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law"
+   ]
+  ],
+  "5": [
+   "RD_ALifeLine_47de9f7b62b0ce06",
+   "Vehicle struck the barricade! Scatter!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law|world=vehicle"
+   ]
+  ],
+  "6": [
+   "RD_ALifeLine_6f0bd5073f2de2e7",
+   "We're losing it! Back to the cars!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law|world=cars"
+   ]
+  ],
+  "7": [
+   "RD_ALifeLine_115c022235375a3c",
+   "Withdraw! Now!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=swat"
+   ]
+  ],
+  "8": [
+   "RD_ALifeLine_3781382b639eca3c",
+   "I can't do this! I can't THINK!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "9": [
+   "RD_ALifeLine_4bbc88e4241fda0e",
+   "10-33, 10-33, Officer needs assistance!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "10": [
+   "RD_ALifeLine_05014bf972070690",
+   "I need backup NOW!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "11": [
+   "RD_ALifeLine_22ed3bdd0ae8216b",
+   "Get BACK, get back from me!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "12": [
+   "RD_ALifeLine_318f78c12f95fdb9",
+   "Fall back, fall BACK, everybody fall back!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "13": [
+   "RD_ALifeLine_12f26212643858ca",
+   "Dispatch, I'm cut off, I'm cut off, say again, CUT OFF!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "14": [
+   "RD_ALifeLine_36ea486d7d288594",
+   "Oh God, they're on my left, on my LEFT!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "15": [
+   "RD_ALifeLine_2eb1ca3650d59e90",
+   "Move! MOVE! Everybody out!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "16": [
+   "RD_ALifeLine_0603dd980a455e30",
+   "Stay with me, don't leave me out here!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "17": [
+   "RD_ALifeLine_45313e7b05f9fff4",
+   "Back! Get BACK! Stay away from me!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "18": [
+   "RD_ALifeLine_2cbd1eb33c2f457c",
+   "Cover me, I'm going, COVER ME!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "19": [
+   "RD_ALifeLine_257bb7094a4827b5",
+   "Run! Everybody run! Go go go, GO!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "20": [
+   "RD_ALifeLine_52a333ce0536ebdb",
+   "Backup! BACKUP! Unit 9 to anyone, anyone!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "21": [
+   "RD_ALifeLine_65088f24602e3bda",
+   "My radio's dead, my radio's DEAD!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "22": [
+   "RD_ALifeLine_570b5c5903de7039",
+   "They're through the line, they're through the line!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "23": [
+   "RD_ALifeLine_48bf94111ea8a8f8",
+   "Keep them off me, off, OFF!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "24": [
+   "RD_ALifeLine_70cc52ca6b4b26e0",
+   "There's too many for us, FALL BACK!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "25": [
+   "RD_ALifeLine_694abb0f21d05d45",
+   "I can't hold them, I can't!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "26": [
+   "RD_ALifeLine_5d2dfb2b6fd2e28b",
+   "Where's my partner? Where's my backup? WHERE?!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "27": [
+   "RD_ALifeLine_4596d65d2eb29826",
+   "Pruitt! Mullins! Anyone! Someone say something!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "28": [
+   "RD_ALifeLine_301d4a085f74bbbc",
+   "I'm out of room, I've got nowhere left to go!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "29": [
+   "RD_ALifeLine_0b31762a59ec0f42",
+   "Dispatch, are you there? Dispatch? DISPATCH!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "30": [
+   "RD_ALifeLine_3ba6f5ba1d63b094",
+   "I can't believe this is happening, I can't believe it!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "31": [
+   "RD_ALifeLine_63d513051fada214",
+   "Hey! HEY! Over here! I need help over here!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "32": [
+   "RD_ALifeLine_4c866d411b44ac54",
+   "They don't stop, they don't STOP, why don't they stop!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "33": [
+   "RD_ALifeLine_61abafac5f3a4d99",
+   "Radio, radio, somebody get on the radio!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "34": [
+   "RD_ALifeLine_57cfc1be1fb35700",
+   "I can't raise anybody, no one on any channel!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "35": [
+   "RD_ALifeLine_2ff5fe6738c06cef",
+   "Get the civilians out first, I'll hold, GO!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "36": [
+   "RD_ALifeLine_185bf613763ee2e8",
+   "I'm out of ammo, I'm out, I've got nothing left!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "37": [
+   "RD_ALifeLine_68c5791862bea209",
+   "Don't leave me, partner, don't leave me!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "38": [
+   "RD_ALifeLine_5bc699ee7d982750",
+   "Where's the chief? Where's anyone who's in charge?",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "39": [
+   "RD_ALifeLine_0e5591b06c36e0c9",
+   "Someone say something, please say something on the radio",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "40": [
+   "RD_ALifeLine_13c7167f38f09c85",
+   "Where's the Guard? Where's the DAMN Guard?!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "41": [
+   "RD_ALifeLine_2dd826db0295b235",
+   "Thirteen years on the job and this is how-",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "42": [
+   "RD_ALifeLine_156b481c4abebe0c",
+   "Easy, easy, I've got it, I've- no, I don't, I don't!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "43": [
+   "RD_ALifeLine_354aad4726d77ba1",
+   "I always knew the badge wouldn't help, I just never thought it'd be today",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "44": [
+   "RD_ALifeLine_72d24c2f4247b6dd",
+   "Fall back to the station! Fall back, fall back!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=law_sheriff,law_sergeant|day=0,2|mood=fear"
+   ]
+  ],
+  "45": [
+   "RD_ALifeLine_3700fb6a59eb6951",
+   "Take the civilians, I'll cover, GO!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=law_sheriff,law_sergeant|day=0,2|mood=fear"
+   ]
+  ],
+  "46": [
+   "RD_ALifeLine_421f75e818bcbc94",
+   "To me, to ME, everybody to me!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=law_sheriff,law_sergeant|day=0,2|mood=fear"
+   ]
+  ],
+  "47": [
+   "RD_ALifeLine_3c3731714eb36eec",
+   "All units, we're losing the street, all units, fall back",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=grim|world=road"
+   ]
+  ],
+  "48": [
+   "RD_ALifeLine_1e03a685775559ae",
+   "I'm not ordering anyone to stay, go, get out, go!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=fear"
+   ]
+  ],
+  "49": [
+   "RD_ALifeLine_624a078678d6c3dc",
+   "Whatever you're going to do, do it NOW!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=fear"
+   ]
+  ],
+  "50": [
+   "RD_ALifeLine_49ab21ca51857f56",
+   "Overrun! We're overrun, pull back, break!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=swat_lead,swat_operator|day=0,2|mood=fear"
+   ]
+  ],
+  "51": [
+   "RD_ALifeLine_0766f96173e6d720",
+   "Can't hold this lane, can't hold it, moving!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=swat_lead,swat_operator|day=0,2|mood=fear"
+   ]
+  ],
+  "52": [
+   "RD_ALifeLine_0e8e6aa141569259",
+   "Man in trouble, man in trouble, cover him, COVER HIM!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=swat_lead,swat_operator|day=0,2|mood=fear"
+   ]
+  ],
+  "53": [
+   "RD_ALifeLine_1976811e7aa48ae0",
+   "Cover my left, my LEFT!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=swat_lead,swat_operator|day=0,4|mood=fear"
+   ]
+  ],
+  "54": [
+   "RD_ALifeLine_5433dd4f3f072659",
+   "Lead, lead, I'm pinned, I need cover!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=swat_lead,swat_operator|day=0,4|mood=fear"
+   ]
+  ],
+  "55": [
+   "RD_ALifeLine_626a30ac3ce775a2",
+   "Lead, I can't hold the sector, I'm falling back!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=swat_lead,swat_operator|day=0,4|mood=fear"
+   ]
+  ],
+  "56": [
+   "RD_ALifeLine_7a49cedb4a4f27f0",
+   "Pull back to the stack, pull back, tight",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "57": [
+   "RD_ALifeLine_0eaf256e0b8173b4",
+   "Officer down- no, I'm up, I'm up, I'm up!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=law_deputy,law_officer,law_trooper|day=0,2|mood=fear"
+   ]
+  ],
+  "58": [
+   "RD_ALifeLine_0c6f2bb071301970",
+   "I'm cut off from the unit, anybody copy?",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=law_deputy,law_officer,law_trooper|day=0,2|mood=fear"
+   ]
+  ],
+  "59": [
+   "RD_ALifeLine_78975c6705359f7c",
+   "Unit 12, I need EVERY unit, anybody!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=law_deputy,law_officer,law_trooper|day=0,4|mood=fear"
+   ]
+  ],
+  "60": [
+   "RD_ALifeLine_32e4e68178964743",
+   "I'm not trained for this!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=law_deputy,law_officer,law_trooper|day=0,4|mood=fear"
+   ]
+  ],
+  "61": [
+   "RD_ALifeLine_4b24ab277df2041d",
+   "Please, please, I've got a daughter, I've got a daughter!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=law_deputy,law_officer,law_trooper|day=0,4|mood=fear"
+   ]
+  ],
+  "62": [
+   "RD_ALifeLine_40177f73294f2611",
+   "Lock it down, I can't hold the gate much longer!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=law_corrections|day=0,2|mood=fear"
+   ]
+  ],
+  "63": [
+   "RD_ALifeLine_5185e72e63c62a89",
+   "They're too much! We need to get away!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=law_corrections|day=0,4|mood=fear"
+   ]
+  ],
+  "64": [
+   "RD_ALifeLine_7725402615f30ec3",
+   "Fall back to the cruiser!",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "reg=law,swat|day=0,2|mood=fear|world=vehicle"
+   ]
+  ],
+  "65": [
+   "RD_ALifeLine_12c2589a7a380338",
+   "I'm sorry, I'm sorry, I should've told you to run an hour ago",
+   [
+    "ALifeDialogue_barks_panic_1.lua",
+    "PANIC",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=grim"
+   ]
+  ],
+  "66": [
+   "RD_ALifeLine_2b037467027f0b83",
+   "Stick together! Everybody in the group!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "67": [
+   "RD_ALifeLine_71e80a19599de098",
+   "Close it up, close it UP!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "68": [
+   "RD_ALifeLine_1fb309ae1ada1e02",
+   "Where's Deputy Mullins? Mullins, report!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "69": [
+   "RD_ALifeLine_7cb75bf74aeb8002",
+   "Hatcher! Where's Hatcher? HATCHER!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "70": [
+   "RD_ALifeLine_010fcffd3287617d",
+   "Hold the line, hold it!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "71": [
+   "RD_ALifeLine_2165667d6b2bbb77",
+   "Folks, one group, please!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "72": [
+   "RD_ALifeLine_5e660b615f7c83c9",
+   "I can't lose another one today!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "73": [
+   "RD_ALifeLine_39ea67bb3eadc8aa",
+   "I lost my partner, I lost him back there!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "74": [
+   "RD_ALifeLine_22450f3d44b0ce32",
+   "Wait! Wait for the slow ones, wait for them!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "75": [
+   "RD_ALifeLine_2341ac7722787b69",
+   "Don't scatter! If they scatter, they die!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "76": [
+   "RD_ALifeLine_0da2ef0c7095949f",
+   "Hey! You! Back in the group, back with the others!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "77": [
+   "RD_ALifeLine_3d44c3e11173fed3",
+   "Mrs Haskins! Over here! Stay with Mr Haskins!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "78": [
+   "RD_ALifeLine_062a2c0b11e95207",
+   "Nobody runs ahead.. stay where we can see you!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "79": [
+   "RD_ALifeLine_73e3fd9f21e4a6b8",
+   "Slow down, Pruitt, you're losing the group!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "80": [
+   "RD_ALifeLine_02212af602709fe5",
+   "Where's the old man? The old man in the green cap! Where is he?",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "81": [
+   "RD_ALifeLine_2d236a33363f8820",
+   "Are we all here? Everybody sing out!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "82": [
+   "RD_ALifeLine_5903904e0ab7f6d4",
+   "Civilians in the middle, officers on the outside, go",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "83": [
+   "RD_ALifeLine_259c4bfc01be1871",
+   "Pruitt, you've got rear, you've got the rear",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "84": [
+   "RD_ALifeLine_4a71ae740df4a8e3",
+   "Keep them together, nobody wanders off",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "85": [
+   "RD_ALifeLine_007f84a47109a119",
+   "Behind me, in a line, single file",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "86": [
+   "RD_ALifeLine_37557a7f2859056f",
+   "Count your people, call it out, I want a number",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "87": [
+   "RD_ALifeLine_0e928e922dbbdba6",
+   "On me, on me, form on me",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "88": [
+   "RD_ALifeLine_2591b71c77f6c6ae",
+   "Hold your intervals, no bunching, no straggling",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "89": [
+   "RD_ALifeLine_523202613bee63a4",
+   "I need two on the left, two, now",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "90": [
+   "RD_ALifeLine_48210dda314200b2",
+   "Check your partner, call out",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "91": [
+   "RD_ALifeLine_580d9ad70c73f46b",
+   "Pace yourselves, we're walking, we're not running",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "92": [
+   "RD_ALifeLine_68c99fba377f8749",
+   "Last man, call it, tell me when you're clear",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "93": [
+   "RD_ALifeLine_3f14cc014e465196",
+   "Who's missing? Somebody tell me who's missing",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "94": [
+   "RD_ALifeLine_7f412ef67380a48e",
+   "Two by two, partner up, hold your partner's belt!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "95": [
+   "RD_ALifeLine_298d7c5b4fa4a161",
+   "Folks, if you lose sight of me, stop, stand still, I'll find you",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "96": [
+   "RD_ALifeLine_01545b825d127e10",
+   "Link up, hand on the shoulder in front!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "97": [
+   "RD_ALifeLine_797f716676660042",
+   "Count at every stop, I want a number, loud",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "98": [
+   "RD_ALifeLine_112a89583793a6dd",
+   "Pairs, folks, find a partner, don't walk alone",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "99": [
+   "RD_ALifeLine_383823e405c9ad4c",
+   "Wait at the corner, everyone wait, let me look!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "100": [
+   "RD_ALifeLine_0bd4c9952fd70ea3",
+   "Rear guard, report, are we all still together?",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "101": [
+   "RD_ALifeLine_212bee4547268fc3",
+   "Sound off! Everybody sound off!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "102": [
+   "RD_ALifeLine_5b1400ee6d381afe",
+   "No one breaks formation, nobody, not for any reason",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "103": [
+   "RD_ALifeLine_6344594948d15697",
+   "Get me the radio, I've lost the radio!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "104": [
+   "RD_ALifeLine_0b330d2a5ca6e06f",
+   "Ma'am, stay with your group, please, stay with the others",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "105": [
+   "RD_ALifeLine_66da792a6294cc2a",
+   "Sir, I need you to stay with everybody else, sir",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "106": [
+   "RD_ALifeLine_687183b31639c0bb",
+   "Nobody wander off, please, folks, please!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "107": [
+   "RD_ALifeLine_05ff63e05b4985fc",
+   "Mullins is down- no, he's up, he's up, MOVE!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "108": [
+   "RD_ALifeLine_6eed281e016b5096",
+   "Keep close.. don't let anybody get left behind!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "109": [
+   "RD_ALifeLine_551c92cf65bfbba2",
+   "Everybody still with us? Raise a hand, raise your hand",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "110": [
+   "RD_ALifeLine_01bacb012d54fb5f",
+   "I can't count them all, there's too many, they keep moving around",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "111": [
+   "RD_ALifeLine_5f553c854f94de05",
+   "I need to see everyone.. don't go off on your own!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "112": [
+   "RD_ALifeLine_42c6295e4f5ef775",
+   "Wait.. slow down I can't keep track of you!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "113": [
+   "RD_ALifeLine_5d26ffd76c18bf8f",
+   "I'm asking nicely, folks, stay with the group, please",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "114": [
+   "RD_ALifeLine_3d02a0e82e257eb7",
+   "Four of you with me, the rest follow, tight, tight",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "115": [
+   "RD_ALifeLine_005cc39e2dba2f4f",
+   "Does everyone have somebody beside them? Check!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "116": [
+   "RD_ALifeLine_26c62c727d415b87",
+   "Folks, if you can't see me, I can't see you, stay where I can see you!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "117": [
+   "RD_ALifeLine_4a05a2512491c4f7",
+   "Hold hands with the person next to you, please, I'm serious...",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "118": [
+   "RD_ALifeLine_1853c9e55ecbab5a",
+   "If you have water.. pass it to whoever needs it",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "119": [
+   "RD_ALifeLine_562774e052699fc6",
+   "Sixteen of us left, I get fifteen now, somebody count again!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "120": [
+   "RD_ALifeLine_346f0029564be1c8",
+   "Don't talk, don't whisper, just follow",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "121": [
+   "RD_ALifeLine_07ae49c95a11f6d9",
+   "I'm going to need two deputies back there with the stragglers",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "122": [
+   "RD_ALifeLine_241acf0f585a5b1f",
+   "One of you's missing, I can feel it, so nobody wanders!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "123": [
+   "RD_ALifeLine_7d51aaf86411ee7d",
+   "We don't leave anyone, we are not leaving anybody out here",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "124": [
+   "RD_ALifeLine_72f51fd23ce76a22",
+   "Runners get left, I'm sorry, but runners get left",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "125": [
+   "RD_ALifeLine_1e0774fe0dd2f895",
+   "Voices down, tight formation, no stopping",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "126": [
+   "RD_ALifeLine_67a9af3055427ead",
+   "When I say go, we go, all of us, at the same time",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "127": [
+   "RD_ALifeLine_4e5d5e1a7dde9f04",
+   "We're going to move slowly so the slowest can keep up",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "128": [
+   "RD_ALifeLine_23ac407251bb57c5",
+   "Form on me! Form up!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_sheriff,law_sergeant|day=0,2"
+   ]
+  ],
+  "129": [
+   "RD_ALifeLine_07fe102a6660c750",
+   "Single file behind me, pace is mine, no one passes me!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_sheriff,law_sergeant|day=0,4"
+   ]
+  ],
+  "130": [
+   "RD_ALifeLine_386e35ed121e887c",
+   "Deputies on the corners, everyone else inside the box",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_sheriff,law_sergeant|day=0,4"
+   ]
+  ],
+  "131": [
+   "RD_ALifeLine_160872a22962df5a",
+   "Slow, steady, we're going to walk them out of here",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_sheriff,law_sergeant|day=0,4"
+   ]
+  ],
+  "132": [
+   "RD_ALifeLine_255cb1080967d8d0",
+   "Deputies on the corners, keep them tight, steady pace!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_sheriff,law_sergeant|day=0,4"
+   ]
+  ],
+  "133": [
+   "RD_ALifeLine_5a05fe9401a5876e",
+   "Nobody goes off alone, I don't care if you hear your mother calling",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=grim"
+   ]
+  ],
+  "134": [
+   "RD_ALifeLine_5036b0df64abb100",
+   "I'm responsible for every one of you, and I intend to bring every one of you through",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=grim"
+   ]
+  ],
+  "135": [
+   "RD_ALifeLine_46e6ff970e5ca45a",
+   "I count eleven, I should count twelve, find the twelfth",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=fear"
+   ]
+  ],
+  "136": [
+   "RD_ALifeLine_35a2ab6e764ab78f",
+   "Hatcher, take point, Pruitt, rear, God help us all!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=fear"
+   ]
+  ],
+  "137": [
+   "RD_ALifeLine_3cbb1a097d187cc3",
+   "Pass it down the line, we turn left at the church",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=fear"
+   ]
+  ],
+  "138": [
+   "RD_ALifeLine_6f3509827f5f63d7",
+   "Stack up, tight, tight!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=swat_lead,swat_operator|day=0,2"
+   ]
+  ],
+  "139": [
+   "RD_ALifeLine_4a7423ba05bd043a",
+   "Team, on me, on me",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "140": [
+   "RD_ALifeLine_374df349140ef12e",
+   "Call your sector, call it",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "141": [
+   "RD_ALifeLine_2dd49bd366b70a68",
+   "Keep your sectors, nobody turns their back",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "142": [
+   "RD_ALifeLine_76cade9a7af91764",
+   "Check, check, count off by number",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "143": [
+   "RD_ALifeLine_396ac28855f98a34",
+   "Team, check sectors, call your people!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "144": [
+   "RD_ALifeLine_5d7391dc66bd43f6",
+   "Civilians inside the stack, tight, tight",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "145": [
+   "RD_ALifeLine_1d486beb42a67bf2",
+   "Rotate the point, rotate, nobody walks point twice",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "146": [
+   "RD_ALifeLine_38af08b970290bcb",
+   "Civilians inside the stack, operators on the outside",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=swat_lead|day=0,4"
+   ]
+  ],
+  "147": [
+   "RD_ALifeLine_4512b6c42ceab2ba",
+   "Lead, I've lost the stack, where's the stack?",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=swat_operator|day=0,4|mood=fear"
+   ]
+  ],
+  "148": [
+   "RD_ALifeLine_22094fc873ea2f88",
+   "Line up, in twos, like the yard",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_corrections|day=0,4"
+   ]
+  ],
+  "149": [
+   "RD_ALifeLine_597f522614e3b3cd",
+   "Hands on the shoulders in front of you, walk",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_corrections|day=0,4"
+   ]
+  ],
+  "150": [
+   "RD_ALifeLine_1c5b8e5a02a204f9",
+   "Nobody out of line, nobody, I've done this with two hundred men",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_corrections|day=0,4"
+   ]
+  ],
+  "151": [
+   "RD_ALifeLine_57e1c7a0300d33f8",
+   "I count twelve, I should count thirteen, who's the thirteenth!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_corrections|day=0,4|mood=fear"
+   ]
+  ],
+  "152": [
+   "RD_ALifeLine_79c55cca6566db61",
+   "Count off, in twos, like count time!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_corrections|day=0,4|mood=fear"
+   ]
+  ],
+  "153": [
+   "RD_ALifeLine_5792767f67b5cbbb",
+   "Stay with me, I know where the station is!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_deputy,law_officer|day=0,2|mood=fear"
+   ]
+  ],
+  "154": [
+   "RD_ALifeLine_4705b9fc37c47191",
+   "Ma'am, ma'am, don't let go of him, HOLD his hand!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_deputy,law_officer|day=0,2|mood=fear"
+   ]
+  ],
+  "155": [
+   "RD_ALifeLine_24fcb7800beaca46",
+   "Dispatch, I've got a group of eleven civilians, one deputy, say again",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_deputy,law_officer|day=0,4|mood=fear"
+   ]
+  ],
+  "156": [
+   "RD_ALifeLine_10a060cc0b867014",
+   "Sir, ma'am, please, nobody get ahead of me!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_deputy,law_officer|day=0,4|mood=fear"
+   ]
+  ],
+  "157": [
+   "RD_ALifeLine_05f6c0e64d4923f2",
+   "I'm new at this, I know, but follow me, I'll get us there!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_deputy,law_officer|day=0,4|mood=fear"
+   ]
+  ],
+  "158": [
+   "RD_ALifeLine_6aa5d2bd40bce12c",
+   "Sir? Sir, you're drifting, come back to the group...",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_deputy,law_officer|day=0,4|mood=fear"
+   ]
+  ],
+  "159": [
+   "RD_ALifeLine_5b1503b228962602",
+   "I'm the only one with a gun, so everyone stay behind me, okay?",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_deputy,law_officer|day=0,4|mood=fear"
+   ]
+  ],
+  "160": [
+   "RD_ALifeLine_5415c9b8494c8354",
+   "State Police, I'm leading, stay behind the hat!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_trooper|day=0,4"
+   ]
+  ],
+  "161": [
+   "RD_ALifeLine_7d3a1a764f7baa9f",
+   "Keep up, ma'am, I'm right here",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_trooper|day=0,4"
+   ]
+  ],
+  "162": [
+   "RD_ALifeLine_5a2443b01ba6a35b",
+   "Stay behind the trooper, I know where we're going",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_trooper|day=0,4"
+   ]
+  ],
+  "163": [
+   "RD_ALifeLine_1b7b085b57da3056",
+   "I am NOT going back for anybody who wanders off again",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "164": [
+   "RD_ALifeLine_1551501713f2f25f",
+   "Hatcher, back in line, back in the line, I'm not asking",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "reg=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "165": [
+   "RD_ALifeLine_66f46845263f52cb",
+   "No one stops, nobody, for anything I say, you stick together!",
+   [
+    "ALifeDialogue_barks_panic_2.lua",
+    "PANIC_DAY_GROUP",
+    "role=law_sheriff,law_sergeant|day=0,2|mood=fear"
+   ]
+  ],
+  "166": [
+   "RD_ALifeLine_73673b1f1546a5ee",
+   "Shots fired, shots fired, all units",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "167": [
+   "RD_ALifeLine_34fc7fe020acdc5a",
+   "Heads down, get your heads down",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "168": [
+   "RD_ALifeLine_37307080061d4650",
+   "Down, folks, everybody down, I've got you, DOWN!",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "169": [
+   "RD_ALifeLine_40866b66037b1a67",
+   "Which way is it? Mullins, which way?",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "170": [
+   "RD_ALifeLine_71fcafc31728b4a2",
+   "Who's shooting? Are WE shooting? Tell me that isn't us",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "171": [
+   "RD_ALifeLine_4599335339b58ef9",
+   "My wife's out there, I need to get on the radio",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "172": [
+   "RD_ALifeLine_009b9e6c264bdbc3",
+   "Somebody screamed, did you hear that",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "173": [
+   "RD_ALifeLine_518659be7db7a304",
+   "That was big, that was real big, that's a gas line!",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "174": [
+   "RD_ALifeLine_15949e546860aa2a",
+   "Get down get down get DOWN!",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "175": [
+   "RD_ALifeLine_2301fd885534692f",
+   "That one was right on top of us, did anyone see where it came from?",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "176": [
+   "RD_ALifeLine_7700bf3a7ea2a7b6",
+   "Folks! Get inside, go on, inside, stay there!",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "177": [
+   "RD_ALifeLine_6503686e0db3bace",
+   "Get down! Please get DOWN!",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "178": [
+   "RD_ALifeLine_62a94aab4c95a19f",
+   "Don't fire, nobody fire, we're the good guys!!",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "179": [
+   "RD_ALifeLine_60cbab55244ff0b5",
+   "Call the armory, tell them we need the Guard, tell them NOW!",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "180": [
+   "RD_ALifeLine_22d7a9937a781c54",
+   "That's from the supermarket, that came from the supermarket!",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "181": [
+   "RD_ALifeLine_3ebdc08d472b2f97",
+   "Those are screams, those are people screaming, a LOT of people!",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "182": [
+   "RD_ALifeLine_7c0e2a1a5bfe65af",
+   "Holy God, was that a- that was a cannon, wasn't it?",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "183": [
+   "RD_ALifeLine_3703798d438be9ca",
+   "Mullins, down, DOWN, I've got you!",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "184": [
+   "RD_ALifeLine_400934e00e39c2dd",
+   "Hold your fire! Hold fire! Don't answer it!",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "185": [
+   "RD_ALifeLine_5720c55223fb733a",
+   "Get that woman down, get her DOWN, ma'am, down!",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "186": [
+   "RD_ALifeLine_7740fdc55f516d94",
+   "Dispatch, I've got shots, location unknown",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_deputy,law_officer,law_trooper|day=0,2|mood=fear"
+   ]
+  ],
+  "187": [
+   "RD_ALifeLine_351adc261d24a610",
+   "10-33, 10-33, I'm hearing automatic fire, say again, AUTOMATIC fire",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_deputy,law_officer,law_trooper|day=0,2|mood=fear"
+   ]
+  ],
+  "188": [
+   "RD_ALifeLine_48e4f57b64d4c11b",
+   "Dispatch, I need a twenty on that gunfire",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_deputy,law_officer,law_trooper|day=0,4"
+   ]
+  ],
+  "189": [
+   "RD_ALifeLine_75d82be41f817fff",
+   "All units, be advised, multiple shots, I can't give you a number",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_deputy,law_officer,law_trooper|day=0,4"
+   ]
+  ],
+  "190": [
+   "RD_ALifeLine_687f94b03362afd9",
+   "Any unit, any unit, anyone out toward Rosewood?",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_deputy,law_officer,law_trooper|day=0,4"
+   ]
+  ],
+  "191": [
+   "RD_ALifeLine_3c8e5e0b29d013d5",
+   "Unit 9, what's your twenty? Unit 9?",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_deputy,law_officer,law_trooper|day=0,4"
+   ]
+  ],
+  "192": [
+   "RD_ALifeLine_5bf249611f7ea5ae",
+   "Radio's jammed, everybody's talking at once, one at a time, ONE at a time!",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_deputy,law_officer,law_trooper|day=0,4|mood=fear"
+   ]
+  ],
+  "193": [
+   "RD_ALifeLine_2de8853534446857",
+   "Control, say again, I couldn't hear you over the shooting",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_deputy,law_officer,law_trooper|day=0,4|mood=fear"
+   ]
+  ],
+  "194": [
+   "RD_ALifeLine_1cef1b595ed94859",
+   "Who's running Code 3 out there? Who IS that?",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_deputy,law_officer,law_trooper|day=0,4|mood=fear"
+   ]
+  ],
+  "195": [
+   "RD_ALifeLine_05c25cba52078db4",
+   "Dispatch, there's a siren I can't account for, is that ours?",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_deputy,law_officer,law_trooper|day=0,4|mood=grim"
+   ]
+  ],
+  "196": [
+   "RD_ALifeLine_5fa5daa937afda67",
+   "That siren isn't ours, I don't know whose it is",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_deputy,law_officer,law_trooper|day=0,4|mood=grim"
+   ]
+  ],
+  "197": [
+   "RD_ALifeLine_35c3f49938d1ea75",
+   "Everybody get low, get behind something solid",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "198": [
+   "RD_ALifeLine_0c2a9fea3ea01c93",
+   "Pruitt, cover left, I've got right",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "199": [
+   "RD_ALifeLine_261735ef56879193",
+   "No one goes to see, nobody, it could be anything",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "200": [
+   "RD_ALifeLine_0d16f2dd78bffca0",
+   "Stay with me, we go back toward the station, slow",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "201": [
+   "RD_ALifeLine_2a99e51e08c6d922",
+   "Civilians behind us, all of them, back",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "202": [
+   "RD_ALifeLine_64e8b60218f5c151",
+   "Hold your position, I don't know what's out there, hold",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "203": [
+   "RD_ALifeLine_45ff092b2466ee1b",
+   "Where's it coming from? Give me a direction, any direction",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "204": [
+   "RD_ALifeLine_4c433545723c656c",
+   "I heard shooting, and now I'm waiting for the next sound",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "205": [
+   "RD_ALifeLine_350b189e5f80f982",
+   "Wait, wait, listen, I want to hear it again before we move",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "206": [
+   "RD_ALifeLine_5210a6cb1d4dc8ad",
+   "Hurry up, get inside the station, hurry",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "207": [
+   "RD_ALifeLine_468e14ca6b322867",
+   "Hatcher, take the east side, I'll take the west",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "208": [
+   "RD_ALifeLine_46b9c17f487e1225",
+   "Unit 14, Unit 14, give me a status, one word",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "209": [
+   "RD_ALifeLine_364004f50778f3c1",
+   "I'd say half a mile, maybe less, hard to tell",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "210": [
+   "RD_ALifeLine_5d9744bd1e16850f",
+   "Don't run toward it, we move away, calm, we move AWAY",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "211": [
+   "RD_ALifeLine_465e780142ee5198",
+   "I know that sound, that's a twelve gauge, that's a shotgun",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "212": [
+   "RD_ALifeLine_35e40e536d4f4326",
+   "That's military, I know that rhythm, that's an M-16",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "213": [
+   "RD_ALifeLine_7de980180288aed0",
+   "I can't tell if it's one guy or a whole army",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "214": [
+   "RD_ALifeLine_3d95b9d538cc9484",
+   "What's the Guard doing, are they firing, why's the Guard firing?",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "215": [
+   "RD_ALifeLine_31a1f0b30815c6e5",
+   "All right, all right, I hear it, easy, easy...",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "216": [
+   "RD_ALifeLine_5e87a2ac5c00b297",
+   "With that echo you can't tell a thing, not a thing",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "217": [
+   "RD_ALifeLine_19ad7fe9310e0c6e",
+   "That's a woman, we have to go, no, we can't go, hold",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "218": [
+   "RD_ALifeLine_082f2742172db693",
+   "There's gonna be fire, get the fire department on- oh, right!",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "219": [
+   "RD_ALifeLine_738d1a424a22330e",
+   "That's a Huey, that's an Army Huey, they're finally here!",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "220": [
+   "RD_ALifeLine_0c96647b02673c00",
+   "Wave it down, flash something, hand me the- here, here...",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "221": [
+   "RD_ALifeLine_421f6e6f553846ee",
+   "Sirens in every direction, which one are we supposed to follow?",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "222": [
+   "RD_ALifeLine_3b291d8e71b2f62b",
+   "I thought I was ready, I trained for this, nobody trained for THIS",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "223": [
+   "RD_ALifeLine_74a003723f0b5d10",
+   "Another one, there's another one, that's two guns, maybe three",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "224": [
+   "RD_ALifeLine_5e933c253e111b9a",
+   "Hear that? The dogs just all started at once",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "225": [
+   "RD_ALifeLine_48afb6b73dc21b27",
+   "I count three shooters, no, two, I can't tell",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "226": [
+   "RD_ALifeLine_29465100083ed8b5",
+   "It was a scream, wasn't it? Tell me it was a scream",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "227": [
+   "RD_ALifeLine_4e3bd8ae46cac45e",
+   "Anybody on channel two? Channel two? Anyone?",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "228": [
+   "RD_ALifeLine_793be3de31a7c26d",
+   "Glass breaking, I hear glass, a lot of glass",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "229": [
+   "RD_ALifeLine_0d526cfd4ffae4bd",
+   "Dispatch hasn't answered in fifteen minutes, fifteen",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "230": [
+   "RD_ALifeLine_7ef88de049620fe8",
+   "Get low and listen, tell me how many different guns",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "231": [
+   "RD_ALifeLine_6c9a36420050871b",
+   "Where are the shots going? Who are they AIMED at?",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "232": [
+   "RD_ALifeLine_4b09ef8517da19ae",
+   "Run toward the shooting? Is that what the job says? Because it's not what I want",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "233": [
+   "RD_ALifeLine_060c3337091ff369",
+   "The sirens are all wrong, they're going the wrong direction",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "234": [
+   "RD_ALifeLine_134e9dcc24e878ed",
+   "Another one, a third one, there's three of them out there...",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "235": [
+   "RD_ALifeLine_52c0e4e51e8e7205",
+   "Wait, listen, there it is again, that's pistols, a lot of pistols",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "236": [
+   "RD_ALifeLine_3c6d5a6d5edbc053",
+   "My ears are shot, I can't tell where it's coming from...",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "237": [
+   "RD_ALifeLine_47e52e9918531649",
+   "Someone's shooting at somebody and it isn't us, which is something",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "238": [
+   "RD_ALifeLine_5eb7b7a61ac7feb3",
+   "That's a deer rifle, who's hunting a deer in July",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "239": [
+   "RD_ALifeLine_15bcaf4e42ef4ede",
+   "Ten years on the job and I've never walked toward gunfire this slow",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "240": [
+   "RD_ALifeLine_13740bea2cb81038",
+   "Breathe, you've been shot at before, breathe",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "241": [
+   "RD_ALifeLine_78ce314d7ba858dd",
+   "No one told me it would sound like that out here",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "242": [
+   "RD_ALifeLine_7995d0646820f7cb",
+   "It's not stopping, they're just flying over",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "243": [
+   "RD_ALifeLine_3b53577a0169f3f5",
+   "They're headed for the fort, they're heading for Knox",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "244": [
+   "RD_ALifeLine_4946e0a658bad456",
+   "It's quiet now, I don't like quiet now",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "245": [
+   "RD_ALifeLine_4853e6ee3e976636",
+   "Wasn't anything on the schedule for today, nothing like this",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "246": [
+   "RD_ALifeLine_7cb2e59355bc1cac",
+   "When the radio goes quiet in the middle of all that, that's when I worry",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "247": [
+   "RD_ALifeLine_114b1b6b3d3e4c75",
+   "That's a thirty-ought, that's not one of ours",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "248": [
+   "RD_ALifeLine_64f617ad3d84b42c",
+   "I've been in two shootings and both times I could see the guy",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "249": [
+   "RD_ALifeLine_6c4733fd50e24619",
+   "You hear that? Nobody's in charge out there, nobody at all",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "250": [
+   "RD_ALifeLine_30a0c0b616fedbec",
+   "I'll bet you every cent I've got that's the Guard",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "251": [
+   "RD_ALifeLine_462367c201ca971c",
+   "Everybody calm and down, that's an order",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_sheriff,law_sergeant|day=0,2"
+   ]
+  ],
+  "252": [
+   "RD_ALifeLine_5895e3694e802d75",
+   "Nobody answers that fire, nobody, we don't know who it is!",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_sheriff,law_sergeant|day=0,2"
+   ]
+  ],
+  "253": [
+   "RD_ALifeLine_42459ea5757cfabf",
+   "Pruitt, go to the radio, Hatcher, keep eyes on the east side",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_sheriff,law_sergeant|day=0,4"
+   ]
+  ],
+  "254": [
+   "RD_ALifeLine_6ac541390b9bc2db",
+   "No one returns fire at anything until we know what it is",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_sheriff,law_sergeant|day=0,4"
+   ]
+  ],
+  "255": [
+   "RD_ALifeLine_73a6c5564ee4095e",
+   "We hold here, we're not going toward that noise",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_sheriff,law_sergeant|day=0,4"
+   ]
+  ],
+  "256": [
+   "RD_ALifeLine_6d2ce92d29e1ee44",
+   "Get those folks in a group and keep them down",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_sheriff,law_sergeant|day=0,4"
+   ]
+  ],
+  "257": [
+   "RD_ALifeLine_220cb40e1cd8d388",
+   "Get me a map, I want to know what's out that way",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_sheriff,law_sergeant|day=0,4"
+   ]
+  ],
+  "258": [
+   "RD_ALifeLine_33b615124c26e508",
+   "I don't like not knowing who's firing, I don't like that at all",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=grim"
+   ]
+  ],
+  "259": [
+   "RD_ALifeLine_6ae4a62a41a5cf17",
+   "Count the shots for me, how many, how far, give me something",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=grim"
+   ]
+  ],
+  "260": [
+   "RD_ALifeLine_15eabb5c25de3ea8",
+   "We've never had this much gunfire in this county, never",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=grim"
+   ]
+  ],
+  "261": [
+   "RD_ALifeLine_14f07b8f76319d4b",
+   "That was close, a lot closer than it should be...",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_sheriff,law_sergeant|day=0,2|mood=fear"
+   ]
+  ],
+  "262": [
+   "RD_ALifeLine_0d24e6f3384086e9",
+   "Shots! Can you tell where they're coming from?",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=swat_lead,swat_operator|day=0,2|mood=fear"
+   ]
+  ],
+  "263": [
+   "RD_ALifeLine_57c5675d1095f0db",
+   "Down, down, move to cover, I've got the lane",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "264": [
+   "RD_ALifeLine_2a07faeb619e30f0",
+   "Who's shooting? Are we taking fire? Say again, are we taking fire",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "265": [
+   "RD_ALifeLine_20d0fbb61fe347b2",
+   "Hold, hold, we don't know who's friendly out there",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "266": [
+   "RD_ALifeLine_5f4cb7354acab009",
+   "Sector clear, no visual, say again, no visual",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "267": [
+   "RD_ALifeLine_485d5a0526176e75",
+   "Confirm, that's not us, I repeat, that is NOT us",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=swat_lead,swat_operator|day=0,4|mood=fear"
+   ]
+  ],
+  "268": [
+   "RD_ALifeLine_7a3aa27702101824",
+   "Multiple weapons, multiple positions, I can't call it",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=swat_lead,swat_operator|day=0,4|mood=fear"
+   ]
+  ],
+  "269": [
+   "RD_ALifeLine_1a966164509c51ae",
+   "We're not the only ones armed in this county anymore",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=swat_lead,swat_operator|day=0,4|mood=grim"
+   ]
+  ],
+  "270": [
+   "RD_ALifeLine_7862f6020a367825",
+   "Operators, check your sectors, call it, left, right, rear",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=swat_lead|day=0,4"
+   ]
+  ],
+  "271": [
+   "RD_ALifeLine_6d413fe11548370b",
+   "Team lead, are we fighting back? Do we fight back?",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=swat_operator|day=0,2|mood=fear"
+   ]
+  ],
+  "272": [
+   "RD_ALifeLine_6889a95d09705c5e",
+   "That's coming from the direction of the jail, hell, that's coming from the jail",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_corrections|day=0,4|mood=fear"
+   ]
+  ],
+  "273": [
+   "RD_ALifeLine_096c6b396b1070cd",
+   "Lock it down, lock it all down, that's gunfire",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_corrections|day=0,2|mood=fear"
+   ]
+  ],
+  "274": [
+   "RD_ALifeLine_250e364774ed7eec",
+   "I heard shots. Can't tell where from",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_corrections|day=0,2|mood=fear"
+   ]
+  ],
+  "275": [
+   "RD_ALifeLine_4d3521814912fe31",
+   "If that's the inmates I'm not going back in there",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_corrections|day=0,4|mood=grim"
+   ]
+  ],
+  "276": [
+   "RD_ALifeLine_39de4cfb77ab3448",
+   "Troop, Three-One, I've got heavy gunfire out here, say again, heavy gunfire",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_trooper|day=0,4"
+   ]
+  ],
+  "277": [
+   "RD_ALifeLine_78ef217f0567194f",
+   "Troop, Three-One, I'm taking fire on the interstate, say again, fire",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_trooper|day=0,4"
+   ]
+  ],
+  "278": [
+   "RD_ALifeLine_01fc56a9393bec7e",
+   "I've heard a lot of guns on a lot of traffic stops, that's not a stop",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_trooper|day=0,4|mood=grim"
+   ]
+  ],
+  "279": [
+   "RD_ALifeLine_5f9b9a442d476b14",
+   "Somebody please tell me who's authorized to fire out there",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "280": [
+   "RD_ALifeLine_13e06b942b73c4c4",
+   "I asked for a briefing and I got a hiss on channel one!",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "281": [
+   "RD_ALifeLine_2a81409d1faaae22",
+   "Someone's on the roof of the bank, I can hear the echo",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "reg=law,swat|day=0,4|mood=fear|world=rooftop"
+   ]
+  ],
+  "282": [
+   "RD_ALifeLine_0adeed9c097310a4",
+   "Keep your heads down and your voices lower",
+   [
+    "ALifeDialogue_barks_panic_3.lua",
+    "PANIC_DAY_GUNFIRE",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=fear"
+   ]
+  ],
+  "283": [
+   "RD_ALifeLine_4a8ada5644f39ef9",
+   "Folks, get inside, get indoors, NOW!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "284": [
+   "RD_ALifeLine_612063c857ab80d4",
+   "Try to find somewhere safe. Help each other!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "285": [
+   "RD_ALifeLine_5539c4db31ddb7bc",
+   "Dispatch, I'm taking shelter in the nearest building, I'm going in!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "286": [
+   "RD_ALifeLine_2a5bb0c63bc3b7b5",
+   "Move, move, MOVE, I've got the rear!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "287": [
+   "RD_ALifeLine_51f4fc1e0953ca1f",
+   "Inside! I said inside! Everyone INSIDE!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "288": [
+   "RD_ALifeLine_46ef31c24c585ca0",
+   "Lock it down! Lock down the whole building!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "289": [
+   "RD_ALifeLine_1985850160a407ef",
+   "Tell them to get down behind something solid!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "290": [
+   "RD_ALifeLine_2480a39709681ad9",
+   "Run if you have to, but run THAT way, away from them!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "291": [
+   "RD_ALifeLine_1133449146072b2b",
+   "Behind me, everybody behind me, move back slow",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "292": [
+   "RD_ALifeLine_0f6cc57e50684132",
+   "Get them in the gym, get them in the gym, it's the biggest thing around...",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "293": [
+   "RD_ALifeLine_31ae9efe5cfff575",
+   "Get down! Get in! Get out of the open! Somebody GO!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "294": [
+   "RD_ALifeLine_122515537f75879c",
+   "Quiet, everybody quiet, I can hear it right outside!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "295": [
+   "RD_ALifeLine_2796637a5602a3c4",
+   "Tell them to stop crying, they have to stop, please, tell them",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "296": [
+   "RD_ALifeLine_5bc2f92842b06bc2",
+   "Stay down! Wait a second!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "297": [
+   "RD_ALifeLine_4d2bf13f277c1454",
+   "Quick! Under the desks, GO!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "298": [
+   "RD_ALifeLine_3463c221181e5ade",
+   "Go home, lock your doors, stay away from the windows",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|world=window"
+   ]
+  ],
+  "299": [
+   "RD_ALifeLine_321ef83c2f741737",
+   "Clear the street, everybody off the street!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear|world=road"
+   ]
+  ],
+  "300": [
+   "RD_ALifeLine_1ea6760a1db1b151",
+   "Into the nearest building, anything with a lock, go",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "301": [
+   "RD_ALifeLine_2ea281f546906cb4",
+   "Back into your homes, everyone, that's an order",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "302": [
+   "RD_ALifeLine_0511730214c6f032",
+   "Fall back to the station, move, we're falling back",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "303": [
+   "RD_ALifeLine_7e09daa247e0b0ec",
+   "Everybody into the station, we lock it down",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "304": [
+   "RD_ALifeLine_461b37fb7836162a",
+   "Get the shotguns out of the rack, load them, then wait!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "305": [
+   "RD_ALifeLine_55ed024f5bc2abca",
+   "This way, folks, follow me, right behind me",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "306": [
+   "RD_ALifeLine_3c2a6fdb40bcef32",
+   "Single file, calmly, don't run, nobody runs",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "307": [
+   "RD_ALifeLine_57c2276005e46f86",
+   "You, sir, take her arm, get her in, go",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "308": [
+   "RD_ALifeLine_3c05f00d6117ea3d",
+   "Dispatch, we're pulling back to the station, repeat, pulling back",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "309": [
+   "RD_ALifeLine_3d71cf344ba78dd0",
+   "Heads down, move steady, I'm right behind you!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "310": [
+   "RD_ALifeLine_6b2935543b0ea86e",
+   "Everybody keep your voices down, no lights, no radios",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "311": [
+   "RD_ALifeLine_489610fb67751356",
+   "Everyone up, everybody up, we're not staying out here",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "312": [
+   "RD_ALifeLine_579d534b1da749d9",
+   "Don't use the sirens, no lights, no sirens, they follow noise",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "313": [
+   "RD_ALifeLine_30923d5236fadde1",
+   "Folks, I need you quiet and I need you still, please",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "314": [
+   "RD_ALifeLine_3640ecc14e8c124d",
+   "Come on, let's go, up, move",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "315": [
+   "RD_ALifeLine_788a1174164ccfd8",
+   "Get to the courthouse, the old one, it's got stone walls",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "316": [
+   "RD_ALifeLine_5d73d8b55c0dad00",
+   "Take the jail, the jail's got bars on everything",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "317": [
+   "RD_ALifeLine_45c5d74413c8c114",
+   "Lights off in the station, no one on the radio!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "318": [
+   "RD_ALifeLine_4658a74108280dac",
+   "Knock on every house, tell them all to stay in, lock up",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "319": [
+   "RD_ALifeLine_107aa01e6c7fbcf7",
+   "Take the high school, lock the gym",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "320": [
+   "RD_ALifeLine_69d6b42009fbe4db",
+   "Pharmacy's got a back room, nobody'll see you in there!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "321": [
+   "RD_ALifeLine_081cdfb13808f2e3",
+   "Move the filing cabinets, stack them against the front",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "322": [
+   "RD_ALifeLine_4c21eb812489dd8c",
+   "Nobody out on the roads, nobody, get off them",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|world=road"
+   ]
+  ],
+  "323": [
+   "RD_ALifeLine_6369d4fa34c3d133",
+   "Take cover! Behind the cruiser, go!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear|world=vehicle"
+   ]
+  ],
+  "324": [
+   "RD_ALifeLine_273a58cb41db46ba",
+   "Barricade the front, move the desks, move EVERYTHING",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "325": [
+   "RD_ALifeLine_26eefd8e2d4ebfe1",
+   "All units, fall back to the courthouse!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "326": [
+   "RD_ALifeLine_4edb6723076cc040",
+   "Cover me, I'm going to the radio",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "327": [
+   "RD_ALifeLine_3c58409e4994b977",
+   "Go, go, I've got your back, GO",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "328": [
+   "RD_ALifeLine_2671f7f4631995a9",
+   "Keep them quiet in there, keep them QUIET, we don't want attention",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "329": [
+   "RD_ALifeLine_0e6c24c722158811",
+   "Ma'am, ma'am, I need you to calm down and walk, just walk",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "330": [
+   "RD_ALifeLine_30b6bb54768309a9",
+   "Try to find somewhere safe. Don't go wandering!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "331": [
+   "RD_ALifeLine_01b7272805a9b56e",
+   "Where do I put them? Where do I put forty people?",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "332": [
+   "RD_ALifeLine_5a7ab1b15a3e7040",
+   "Oh God, the back's open, someone shut the back, SHUT it!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "333": [
+   "RD_ALifeLine_2d1e979b6144ab3f",
+   "I don't have enough bullets for this, so we hide, understand? We hide",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "334": [
+   "RD_ALifeLine_74b6458b5c8fd700",
+   "Away from the front, get back from the front, stay back",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "335": [
+   "RD_ALifeLine_29aa387d21ae84de",
+   "Find somewhere to hide. I'll try to help",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "336": [
+   "RD_ALifeLine_43392dfc30835714",
+   "Where's a key? Does anybody have a key to the back?",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "337": [
+   "RD_ALifeLine_1b1a189209fc38de",
+   "One more person, one more, squeeze in, squeeze, squeeze!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "338": [
+   "RD_ALifeLine_356432e316680a45",
+   "We're sitting ducks out here, we have to move",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "339": [
+   "RD_ALifeLine_7723bd326b425867",
+   "Church is open, go to the church, go, go",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "340": [
+   "RD_ALifeLine_3c0b3f923c4b5061",
+   "Heads below the windowsills, everybody, stay below the sills",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "341": [
+   "RD_ALifeLine_3e589c281b5c5f86",
+   "The hospital's closer, take them to the hospital, go",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "342": [
+   "RD_ALifeLine_7a24d68a76b290eb",
+   "Nobody leaves, nobody comes in, until I've heard from county",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "343": [
+   "RD_ALifeLine_4effad1e3c79a1c8",
+   "Stay out of sight. Don't draw their attention",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "344": [
+   "RD_ALifeLine_1c1eeed65ec558fd",
+   "Where the hell are we going to put them? Where do we put everybody?",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "345": [
+   "RD_ALifeLine_3a5b4ec76bdd4c11",
+   "Slide the bolt, slide it, quietly, QUIETLY",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "346": [
+   "RD_ALifeLine_414c70487402b164",
+   "Hold the door, hold it, HOLD IT!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear|world=door"
+   ]
+  ],
+  "347": [
+   "RD_ALifeLine_067fb37228f36c1f",
+   "We'll hold in there, as long as we can, as long as we can",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "348": [
+   "RD_ALifeLine_398786635140ac4d",
+   "I can't protect a town from out here, I need to get these people inside!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "349": [
+   "RD_ALifeLine_529f4af025df13d6",
+   "Nobody leaves the building until I say so, nobody",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "350": [
+   "RD_ALifeLine_2108a8fc6ba38c2e",
+   "First time in eleven years I've told people to run from something",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "351": [
+   "RD_ALifeLine_68400f641e78cbd6",
+   "When this is over I'm taking a very long vacation",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "352": [
+   "RD_ALifeLine_7589f0c4363d7d9e",
+   "I can't guard a whole town, so I'm going to guard this one building",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "353": [
+   "RD_ALifeLine_4ee3fca43a9b5220",
+   "Let the radio go quiet, noise draws them, we go quiet too",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "354": [
+   "RD_ALifeLine_6573958f6410f138",
+   "Anybody who can get to a basement, go to a basement",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|world=building"
+   ]
+  ],
+  "355": [
+   "RD_ALifeLine_0aefc7bb1695d147",
+   "Pruitt, bring the van around, no- never mind, we walk",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|world=vehicle"
+   ]
+  ],
+  "356": [
+   "RD_ALifeLine_2b0f3ef436fdc73b",
+   "Controlled, folks, controlled, one at a time through!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_sheriff,law_sergeant|day=0,2"
+   ]
+  ],
+  "357": [
+   "RD_ALifeLine_36cff2057509dca8",
+   "Everyone follow the deputy, he knows a place",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_sheriff,law_sergeant|day=0,2"
+   ]
+  ],
+  "358": [
+   "RD_ALifeLine_65a305ea4e3fb07b",
+   "Hatcher, you take the left stairs, Pruitt, the right, I'll hold the front",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_sheriff,law_sergeant|day=0,4|world=stairs"
+   ]
+  ],
+  "359": [
+   "RD_ALifeLine_08b99e4e13a2081f",
+   "We go in, we lock it, we wait for word, that's the plan",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=grim"
+   ]
+  ],
+  "360": [
+   "RD_ALifeLine_2e66395713f749ff",
+   "We don't need a fight. Let's try to stay out of sight",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=grim"
+   ]
+  ],
+  "361": [
+   "RD_ALifeLine_42ca059b1504099c",
+   "No one panics, I need every one of you thinking",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_sheriff,law_sergeant|day=0,4"
+   ]
+  ],
+  "362": [
+   "RD_ALifeLine_02762aad0002d4db",
+   "Easy, easy, we've got time, but not a lot of it",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_sheriff,law_sergeant|day=0,4"
+   ]
+  ],
+  "363": [
+   "RD_ALifeLine_1c865b9545841c61",
+   "Nobody leaves cover until I give the signal, nobody",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_sheriff,law_sergeant|day=0,4"
+   ]
+  ],
+  "364": [
+   "RD_ALifeLine_703600b526468629",
+   "Count heads as they go in, I want every name",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=fear"
+   ]
+  ],
+  "365": [
+   "RD_ALifeLine_4f72f20b7925b460",
+   "Everyone in, EVERYONE, I'll be last!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_sheriff,law_sergeant|day=0,2|mood=fear"
+   ]
+  ],
+  "366": [
+   "RD_ALifeLine_1daf601615063716",
+   "Move to cover, tight, tight",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=swat_lead,swat_operator|day=0,2"
+   ]
+  ],
+  "367": [
+   "RD_ALifeLine_748ca5d225803084",
+   "Stay careful! We need to move!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "368": [
+   "RD_ALifeLine_0e24602a4361160f",
+   "Try to find somewhere safer. I'll watch for you",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "369": [
+   "RD_ALifeLine_089b79e049d9adbf",
+   "On me, we're falling back to a defensible position",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "370": [
+   "RD_ALifeLine_199ccc794596f21b",
+   "Pull back, civilians in the middle, go",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "371": [
+   "RD_ALifeLine_17d6f29754ebc12c",
+   "Hold the entrance, two in, two out, civilians in the middle",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "372": [
+   "RD_ALifeLine_282765464dab5583",
+   "Secure the entrance, nobody in, nobody out",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=swat_lead,swat_operator|day=0,4|mood=fear"
+   ]
+  ],
+  "373": [
+   "RD_ALifeLine_393a5722461ed812",
+   "Where do we go? Lead?",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=swat_operator|day=0,4|mood=fear"
+   ]
+  ],
+  "374": [
+   "RD_ALifeLine_10bba08d56e682e5",
+   "Lock them in, lock them all in, I don't care who they are",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_corrections|day=0,2|mood=fear"
+   ]
+  ],
+  "375": [
+   "RD_ALifeLine_2eb3aa1d7d444713",
+   "Cell block's the safest place in town, get them in the block",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_corrections|day=0,4"
+   ]
+  ],
+  "376": [
+   "RD_ALifeLine_60f8811b1927264c",
+   "Cell block's got one way in, put the civilians in the cells, lock them in",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_corrections|day=0,4"
+   ]
+  ],
+  "377": [
+   "RD_ALifeLine_454f56d235502b86",
+   "Ironic, hiding in a jail, ironic as hell",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_corrections|day=0,4|mood=grim"
+   ]
+  ],
+  "378": [
+   "RD_ALifeLine_1d5a953c1af03524",
+   "This way, come on, they're coming!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_deputy,law_officer|day=0,2|mood=fear"
+   ]
+  ],
+  "379": [
+   "RD_ALifeLine_7de2f7c772daeb8a",
+   "Everybody down, stay down, I'll shut it",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_deputy,law_officer|day=0,2|mood=fear"
+   ]
+  ],
+  "380": [
+   "RD_ALifeLine_7a74373d67bcdea4",
+   "Please, can anybody hear me? I need help!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_deputy,law_officer|day=0,2|mood=fear"
+   ]
+  ],
+  "381": [
+   "RD_ALifeLine_757af02e605b7bec",
+   "Everybody down, behind the shelves, I'll check the back!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_deputy,law_officer|day=0,2|mood=fear"
+   ]
+  ],
+  "382": [
+   "RD_ALifeLine_6b44c4ef0c175eb6",
+   "Dispatch, I'm barricaded in, I've got eight civilians, say again, EIGHT",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_deputy,law_officer|day=0,4|mood=fear"
+   ]
+  ],
+  "383": [
+   "RD_ALifeLine_1cb18beb2c42774e",
+   "Dispatch, say again, are the Guard coming? Is anybody coming?",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_deputy,law_officer|day=0,4|mood=fear"
+   ]
+  ],
+  "384": [
+   "RD_ALifeLine_4f43f4074d69f117",
+   "Folks, in here, I've got a back room, it's got a lock",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_deputy,law_officer|day=0,4|world=inside"
+   ]
+  ],
+  "385": [
+   "RD_ALifeLine_2e5fce180076ee08",
+   "State Police, move inside, do it now, do it quietly",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_trooper|day=0,4"
+   ]
+  ],
+  "386": [
+   "RD_ALifeLine_5a750ac74ec649c6",
+   "I'm taking you folks to the barracks, stay behind me, quietly!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_trooper|day=0,4"
+   ]
+  ],
+  "387": [
+   "RD_ALifeLine_7c31013b7ea1e74c",
+   "Troop, request any available unit at my location, any",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_trooper|day=0,4|mood=fear"
+   ]
+  ],
+  "388": [
+   "RD_ALifeLine_3f3651367d36af5a",
+   "Why's nobody coming? Where's the backup, where's the damn BACKUP!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "389": [
+   "RD_ALifeLine_6ff426d2519266dc",
+   "Use the cruisers as a wall and then run for the building!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,2|mood=fear|world=cars,building"
+   ]
+  ],
+  "390": [
+   "RD_ALifeLine_143d720820ba9bca",
+   "I need two volunteers to watch the doors",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|world=door"
+   ]
+  ],
+  "391": [
+   "RD_ALifeLine_310b323045dbb9e6",
+   "Hold that door! HOLD it, I'm bringing more!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear|world=door"
+   ]
+  ],
+  "392": [
+   "RD_ALifeLine_62d640de61a9e81c",
+   "Try to get somewhere safer. I'll keep watching!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_deputy,law_officer|day=0,4"
+   ]
+  ],
+  "393": [
+   "RD_ALifeLine_2fc8ac271bf0eb46",
+   "Cover the stairs, cover the back, we're staying put!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=swat_lead,swat_operator|day=0,4|world=stairs"
+   ]
+  ],
+  "394": [
+   "RD_ALifeLine_09820bfe43781bcb",
+   "In the cell, in, it's the safest room in the county!",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "role=law_corrections|day=0,4|mood=fear"
+   ]
+  ],
+  "395": [
+   "RD_ALifeLine_6752ee62231905e8",
+   "Folks, I know it's hot in here, I know, but the windows stay shut",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=grim|world=window,inside,hot"
+   ]
+  ],
+  "396": [
+   "RD_ALifeLine_3828541e421ab099",
+   "Check the roof access, check it, is it locked?",
+   [
+    "ALifeDialogue_barks_panic_4.lua",
+    "PANIC_DAY_HIDE",
+    "reg=law,swat|day=0,4|mood=fear|world=building"
+   ]
+  ],
+  "397": [
+   "RD_ALifeLine_485c107b1326474c",
+   "County deputy! Stop right there, sir, STOP!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "398": [
+   "RD_ALifeLine_01b81c002f28c885",
+   "Sir, I need you to stop walking, sir, SIR!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "399": [
+   "RD_ALifeLine_7a22711956b3a1ff",
+   "Ma'am, show me your hands, ma'am, let me see your hands!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "400": [
+   "RD_ALifeLine_6f6b0c367f685e49",
+   "Sir, you're not listening, why aren't you listening?",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "401": [
+   "RD_ALifeLine_4118dc9462774f9d",
+   "Police! Stop! ...he's not stopping",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "402": [
+   "RD_ALifeLine_542c19ef1ce9a88d",
+   "Sir, I'm trying to help you, let me help you, sir-",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "403": [
+   "RD_ALifeLine_36bd39f15352e75c",
+   "Jesus Christ, Pruitt, tell me you see that",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "404": [
+   "RD_ALifeLine_3453aa236820ce2a",
+   "Mullins? Mullins, you see him? You see what he's doing?",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "405": [
+   "RD_ALifeLine_055aff2947c510a0",
+   "That's Earl Tucker, I've arrested Earl Tucker six times, that is NOT Earl",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "406": [
+   "RD_ALifeLine_3cd416ff0fc9c4fd",
+   "I went to school with him",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "407": [
+   "RD_ALifeLine_134c9baf2719182f",
+   "Think, think, there's a procedure, there's gotta be a- no, there isn't!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "408": [
+   "RD_ALifeLine_4778f7d812481dd7",
+   "Don't touch him, don't let him touch you, folks, back away",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "409": [
+   "RD_ALifeLine_692a18bc4047e90d",
+   "Get somewhere safer, please, NOW!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "410": [
+   "RD_ALifeLine_459b89bb03482798",
+   "That's PCP, that's gotta be PCP, some kind of bad batch",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "411": [
+   "RD_ALifeLine_16cb4dea7a48b341",
+   "I can't fire on a civilian, I don't care what he looks like...",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "412": [
+   "RD_ALifeLine_0b2b6823100630c0",
+   "I can't just shoot a man in his bathrobe, Sarge, I can't",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "413": [
+   "RD_ALifeLine_2aa771ee6f426c4d",
+   "Is he armed? ...he's not even doing anything, he's just walking!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "414": [
+   "RD_ALifeLine_0a08b1635d0b5f45",
+   "What is it, what IS it, someone tell me what I'm looking at...",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "415": [
+   "RD_ALifeLine_2792450e5d52b7d6",
+   "Don't shoot, wait, hold on, wait",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "416": [
+   "RD_ALifeLine_5c505c1f52462eb4",
+   "Mrs Haskins, it's Deputy Hatcher, you KNOW me!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "417": [
+   "RD_ALifeLine_3dc3fae7674c3102",
+   "I put his boy through juvenile once, he's gonna- no, he's not gonna do anything",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "418": [
+   "RD_ALifeLine_5e0a264e5b2a43e9",
+   "Get on the radio, someone get on the radio and say it, say what it is",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "419": [
+   "RD_ALifeLine_7d3208bc1a3d6ccf",
+   "It's a person, it is STILL a person, don't forget it's still a person",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "420": [
+   "RD_ALifeLine_4a5ee413382da2fe",
+   "He's looking at my belt, why's he looking at my belt",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "421": [
+   "RD_ALifeLine_16719e695f7d4340",
+   "That's the second one this hour, the SECOND one, Dispatch is gonna think I'm drunk!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "422": [
+   "RD_ALifeLine_72f03f4673fe5387",
+   "God help us, God help every one of us in this county!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "423": [
+   "RD_ALifeLine_0316256b449746a7",
+   "It's got a school ID badge on it, a school ID, God!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "424": [
+   "RD_ALifeLine_6ac346363eab86af",
+   "Don't cuff him, don't try to cuff him, cuffs won't help",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "425": [
+   "RD_ALifeLine_1756ce3e4c77de2b",
+   "Sir, are you injured? Do you need an ambulance? ...sir?",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "426": [
+   "RD_ALifeLine_58e6e6f35e3d6b5f",
+   "Hands! Show me your hands! ...he doesn't have any hands I can see, he's just walking",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,2|mood=fear"
+   ]
+  ],
+  "427": [
+   "RD_ALifeLine_45d6e47f423b90b8",
+   "That's your last warning, sir, last warning!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "428": [
+   "RD_ALifeLine_572382a1752672cd",
+   "State Police! Stop where you are, do not come any closer!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "429": [
+   "RD_ALifeLine_271eb644651fb34b",
+   "Back up, sir, I'm not going to tell you again",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "430": [
+   "RD_ALifeLine_3e378c2211f18677",
+   "Down on the ground, get down on the ground NOW",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "431": [
+   "RD_ALifeLine_75942853502084d3",
+   "My training didn't cover this, nothing covered this",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "432": [
+   "RD_ALifeLine_24897d151d154d45",
+   "Eyes on me, Mullins, look at me, not at him, at ME",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "433": [
+   "RD_ALifeLine_7b353db633321fd8",
+   "Back up, folks, everybody back up, give me room",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "434": [
+   "RD_ALifeLine_0817486b0820c6d1",
+   "Nobody approach him, I said nobody, that includes you, sir",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "435": [
+   "RD_ALifeLine_5570172901764ff5",
+   "Folks, go home and lock up, go on home",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "436": [
+   "RD_ALifeLine_5e5711214fb9d650",
+   "Clear the area, move it",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "437": [
+   "RD_ALifeLine_2f649d8a15b4a6d1",
+   "Is it- are they all like that? Are they ALL like that?",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "438": [
+   "RD_ALifeLine_2fc3a1cc3be6d1b4",
+   "Cover the left, nothing gets past on the left",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "439": [
+   "RD_ALifeLine_699d370d2c381a24",
+   "I count five, no, six, hold up, six",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "440": [
+   "RD_ALifeLine_7cf146fc652773c5",
+   "Keep it between us, away from the crowd",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "441": [
+   "RD_ALifeLine_074f711218355ac0",
+   "Slow, slow, it's slow, keep your distance, it can't reach you!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "442": [
+   "RD_ALifeLine_218ef8493718b42e",
+   "Dispatch, do you have a code for unknown disturbance? Use that one",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4"
+   ]
+  ],
+  "443": [
+   "RD_ALifeLine_323c183f5767eb25",
+   "Dispatch, Unit 12, I've got a subject, uh, ambulatory, non-responsive",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_deputy,law_officer|day=0,2|mood=fear"
+   ]
+  ],
+  "444": [
+   "RD_ALifeLine_697b3ee9405ab4d6",
+   "Dispatch, I need EMS on- no, cancel that, don't send EMS",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_deputy,law_officer|day=0,2|mood=fear"
+   ]
+  ],
+  "445": [
+   "RD_ALifeLine_76d0a85856b525a6",
+   "10-33, 10-33, I need backup at- hell, I don't even know where I am!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_deputy,law_officer|day=0,2|mood=fear"
+   ]
+  ],
+  "446": [
+   "RD_ALifeLine_449828ff3ed273d2",
+   "Dispatch, I don't have a code for this",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_deputy,law_officer|day=0,2|mood=fear"
+   ]
+  ],
+  "447": [
+   "RD_ALifeLine_0c5a23b43b11742c",
+   "All units, all units, they're not drunks, repeat, NOT drunks",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_deputy,law_officer|day=0,2|mood=fear"
+   ]
+  ],
+  "448": [
+   "RD_ALifeLine_4df7870b6a85a27b",
+   "Come back, Dispatch, send anyone, I don't care who",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_deputy,law_officer|day=0,2|mood=fear"
+   ]
+  ],
+  "449": [
+   "RD_ALifeLine_7207825e5b2bec0f",
+   "Hatcher, you take the left, I'll take the, hell, I don't know!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_deputy,law_officer|day=0,2|mood=fear"
+   ]
+  ],
+  "450": [
+   "RD_ALifeLine_6e7fc252747f6aa2",
+   "Unit 6 to Dispatch, say again, say again your last",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_deputy,law_officer|day=0,4"
+   ]
+  ],
+  "451": [
+   "RD_ALifeLine_0bda389664294857",
+   "Control, be advised, we've got more than one",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_deputy,law_officer|day=0,4"
+   ]
+  ],
+  "452": [
+   "RD_ALifeLine_36021f821642ee42",
+   "Base, this is Four, I've got another one, that's the fourth on my beat",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_deputy,law_officer|day=0,4"
+   ]
+  ],
+  "453": [
+   "RD_ALifeLine_3e3b0c0b3060832b",
+   "Dispatch, do you copy? ...Dispatch?",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_deputy,law_officer|day=0,4|mood=fear"
+   ]
+  ],
+  "454": [
+   "RD_ALifeLine_4be1a9cc6316c481",
+   "I've never fired my weapon outside the range, don't make me start",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_deputy,law_officer|day=0,4|mood=fear"
+   ]
+  ],
+  "455": [
+   "RD_ALifeLine_16db9f9e52fc9014",
+   "Ma'am, ma'am, I need you to walk away from that man, that is not your husband",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_deputy,law_officer|day=0,4|mood=fear"
+   ]
+  ],
+  "456": [
+   "RD_ALifeLine_42c64cd36e7ce7b7",
+   "Eleven years a deputy and I'm standing here with my hand shaking",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "457": [
+   "RD_ALifeLine_31a82c966974d77b",
+   "Stay behind me, everybody behind me, nobody go around me",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "458": [
+   "RD_ALifeLine_260779e31d5f7f81",
+   "Keep the little ones back, get them away from here",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "459": [
+   "RD_ALifeLine_46dd5de7671815ad",
+   "Maybe he's on something, maybe, that'd be better, that would be SO much better!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "460": [
+   "RD_ALifeLine_2b7e49ea458f554a",
+   "Dispatch said a disturbance, nobody said anything about this...",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "461": [
+   "RD_ALifeLine_3f86583f12c32472",
+   "He's still a citizen, until someone tells me different he's a citizen",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "462": [
+   "RD_ALifeLine_2f288122293ebd6c",
+   "I hear it coming and I still can't believe it's what it is",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "463": [
+   "RD_ALifeLine_593d462c3e03e091",
+   "Radio's nothing but static, nothing but a hiss, I keep hitting the button...",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "464": [
+   "RD_ALifeLine_4ed17218298a495e",
+   "Where's the Army? Aren't they supposed to be here? Where's the Guard?",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "465": [
+   "RD_ALifeLine_69bb9218004c25e5",
+   "I'm okay, I'm good, I'm- hold on, hold on-",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "466": [
+   "RD_ALifeLine_1f6474c407be21fe",
+   "Don't turn your back on it, don't ever turn your back, just back up...",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "467": [
+   "RD_ALifeLine_5a4ccc195a1a5118",
+   "I'm not afraid, I'm not, I'm just- I'm just going to need a minute!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "468": [
+   "RD_ALifeLine_1c40007611684df7",
+   "Crank? Is it crank? It's gotta be crank",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "469": [
+   "RD_ALifeLine_46cc4e9a05f6d271",
+   "I know that shirt, he waited tables at the diner, Tuesday specials",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "470": [
+   "RD_ALifeLine_1f510a852b1254f7",
+   "I called it in as an unresponsive male, then he got up",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "471": [
+   "RD_ALifeLine_3412446e08db6b27",
+   "Mrs Haskins, go back inside, ma'am, go back in, please!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "472": [
+   "RD_ALifeLine_578f474e578d7b86",
+   "Back up, folks, I'm going to try talking to him!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "473": [
+   "RD_ALifeLine_584e0fdf4e31f517",
+   "Why's nobody stopping them? Where's the county? Where is everyone?",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "474": [
+   "RD_ALifeLine_6b89e5330fdc3249",
+   "Get on the radio and say something, anything, say it's not a joke!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "475": [
+   "RD_ALifeLine_0cff850d797814ed",
+   "Make the call, I need somebody else to make this call",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "476": [
+   "RD_ALifeLine_6946172a2a64cab3",
+   "Voices down, it hears everything",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "477": [
+   "RD_ALifeLine_065b54e4354661eb",
+   "I've got a wife and a boy at home and I'm standing here talking to THAT",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "478": [
+   "RD_ALifeLine_728a7a3f0e109a39",
+   "Write it down, somebody write it down, nobody will believe it",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "479": [
+   "RD_ALifeLine_1312b16522d34c19",
+   "We don't have a policy for this, nobody ever wrote one",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "480": [
+   "RD_ALifeLine_024839174030bc40",
+   "I took a first aid class once, that's all I've got",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "481": [
+   "RD_ALifeLine_7e4b690035b5af68",
+   "I've pulled over the strangest things in my life, that tops all of it",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "482": [
+   "RD_ALifeLine_571b01945dccd829",
+   "Easy, folks, easy, nobody run, running makes it worse",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_sheriff,law_sergeant|day=0,2"
+   ]
+  ],
+  "483": [
+   "RD_ALifeLine_199a8b9f7c5448d4",
+   "Everybody stay right where you are and breathe",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_sheriff,law_sergeant|day=0,4"
+   ]
+  ],
+  "484": [
+   "RD_ALifeLine_3258cba0351e54b1",
+   "Steady, Deputy, steady, give me your eyes on the left",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_sheriff,law_sergeant|day=0,4"
+   ]
+  ],
+  "485": [
+   "RD_ALifeLine_53179709150734fa",
+   "I say again, nobody fires until I've seen it for myself",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_sheriff,law_sergeant|day=0,4"
+   ]
+  ],
+  "486": [
+   "RD_ALifeLine_75ed594155ff4ca5",
+   "Pruitt, take the left, Hatcher the right, nobody goes near it",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_sheriff,law_sergeant|day=0,4"
+   ]
+  ],
+  "487": [
+   "RD_ALifeLine_71bd7f6b57098bc7",
+   "Nobody approaches, nobody touches, nobody takes pictures",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_sheriff,law_sergeant|day=0,4"
+   ]
+  ],
+  "488": [
+   "RD_ALifeLine_654562d77d57b464",
+   "All right, we hold here, just watch it",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=grim"
+   ]
+  ],
+  "489": [
+   "RD_ALifeLine_4c18a0c7657f5447",
+   "That's a bad sign, that's a real bad sign, I won't lie to you",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=grim"
+   ]
+  ],
+  "490": [
+   "RD_ALifeLine_37da787a3a4a01ec",
+   "I've known that man twenty years, and I'm telling you, that's not him",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=grim"
+   ]
+  ],
+  "491": [
+   "RD_ALifeLine_3a24a1b44ebe883b",
+   "I've been doing this thirty years, I've never- okay",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_sheriff,law_sergeant|day=0,2|mood=fear"
+   ]
+  ],
+  "492": [
+   "RD_ALifeLine_3fa26cc00ce06f02",
+   "I knew that man, folks, I'm telling you I KNEW him",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_sheriff|day=0,4|mood=grim"
+   ]
+  ],
+  "493": [
+   "RD_ALifeLine_61037a8f1ce33485",
+   "Hands off your weapons, I said hands OFF, it's not a threat yet",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_sergeant|day=0,2"
+   ]
+  ],
+  "494": [
+   "RD_ALifeLine_2bda949f02eecf71",
+   "That person isn't answering. What's wrong with them?",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=swat_lead,swat_operator|day=0,2"
+   ]
+  ],
+  "495": [
+   "RD_ALifeLine_4e12e81c6ea08372",
+   "Weapons tight, weapons TIGHT, nobody fires!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "496": [
+   "RD_ALifeLine_292f1c63242deeeb",
+   "Stack on me, on me, tight, tight",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "497": [
+   "RD_ALifeLine_3a34a73a71dd8ca4",
+   "Subject is advancing, no verbal response, repeat, no response",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "498": [
+   "RD_ALifeLine_35e15ae24309e7c3",
+   "Hold, I've got eyes, I'll call it",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=swat_lead,swat_operator|day=0,4"
+   ]
+  ],
+  "499": [
+   "RD_ALifeLine_284d5be872d15c9b",
+   "Hold, hold, he's not armed!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=swat_lead,swat_operator|day=0,2|mood=fear"
+   ]
+  ],
+  "500": [
+   "RD_ALifeLine_23b418f951eb52bf",
+   "He didn't even flinch, did you see that, he didn't FLINCH!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=swat_lead,swat_operator|day=0,2|mood=fear"
+   ]
+  ],
+  "501": [
+   "RD_ALifeLine_37978650355d59c9",
+   "Team lead, I've got eyes on a person, a person, just one person!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=swat_lead,swat_operator|day=0,2|mood=fear"
+   ]
+  ],
+  "502": [
+   "RD_ALifeLine_7eb5289a2ec95d85",
+   "Breathe, operators, breathe, we are fine, we are fine",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=swat_lead,swat_operator|day=0,4|mood=fear"
+   ]
+  ],
+  "503": [
+   "RD_ALifeLine_741e251c2922298e",
+   "Subject non-responsive, subject advancing, request permission",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=swat_lead,swat_operator|day=0,4|mood=fear"
+   ]
+  ],
+  "504": [
+   "RD_ALifeLine_612fb84e20442ef8",
+   "We're not fighting a civilian, I want that understood, civilian",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=swat_lead|day=0,4"
+   ]
+  ],
+  "505": [
+   "RD_ALifeLine_3204cdcd6d27e1e0",
+   "Nobody trained us for this, I trained for hostage rooms, not THIS",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=swat_operator|day=0,4|mood=fear"
+   ]
+  ],
+  "506": [
+   "RD_ALifeLine_22c3d44d12844a55",
+   "That's not one of ours, I'd know him, he's not one of mine",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_corrections|day=0,4"
+   ]
+  ],
+  "507": [
+   "RD_ALifeLine_75adca4526113718",
+   "Inmate- no, nobody I know, he's just- somebody",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_corrections|day=0,4"
+   ]
+  ],
+  "508": [
+   "RD_ALifeLine_3fc84bed75e80fcc",
+   "Nine years working cellblock and nobody ever walked like that",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_corrections|day=0,2|mood=fear"
+   ]
+  ],
+  "509": [
+   "RD_ALifeLine_00e41bb55b3a340e",
+   "Back to your- there's no back, there's no- forget it, just back up!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_corrections|day=0,2|mood=fear"
+   ]
+  ],
+  "510": [
+   "RD_ALifeLine_31830d3c75127da0",
+   "Troop, this is Three-One, say again, you're breaking up",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_trooper|day=0,2"
+   ]
+  ],
+  "511": [
+   "RD_ALifeLine_627b75e5347a452a",
+   "Troop, I've got a problem, I've got- you'll want to see this",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_trooper|day=0,4|mood=fear"
+   ]
+  ],
+  "512": [
+   "RD_ALifeLine_352e798a1dd3377c",
+   "Troop, are you reading me? Come back, I'm not kidding!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_trooper|day=0,4|mood=fear"
+   ]
+  ],
+  "513": [
+   "RD_ALifeLine_7f7d064d4593f521",
+   "State Police, I need that man to stop, sir",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_trooper|day=0,4"
+   ]
+  ],
+  "514": [
+   "RD_ALifeLine_112b4d113eda646a",
+   "Dispatch, I've got an individual, no pulse, walking, ten-twenty is Dixie Highway",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_trooper|day=0,4"
+   ]
+  ],
+  "515": [
+   "RD_ALifeLine_56d09ed4424feb01",
+   "I've pulled over every kind of drunk there is, that's not one",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_trooper|day=0,4|mood=grim"
+   ]
+  ],
+  "516": [
+   "RD_ALifeLine_7ee23ee12a151734",
+   "Tell me who decided to give me a badge and nothing else!",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "517": [
+   "RD_ALifeLine_3d9d119d7828d1df",
+   "Nobody warned us, nobody, not one word from the county",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "reg=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "518": [
+   "RD_ALifeLine_7f6f1683254d4c9d",
+   "My daddy was a deputy, he never saw one thing like this",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_deputy,law_officer|day=0,4|mood=grim"
+   ]
+  ],
+  "519": [
+   "RD_ALifeLine_08c4232c64a5dfd0",
+   "Pruitt, I say fire, you fire, until then you do nothing",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_sheriff,law_sergeant|day=0,4|mood=fear"
+   ]
+  ],
+  "520": [
+   "RD_ALifeLine_469206bf1401440c",
+   "We're built to handle people, and that's not a person",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=swat_lead,swat_operator|day=0,4|mood=grim"
+   ]
+  ],
+  "521": [
+   "RD_ALifeLine_1371809176de1f14",
+   "There's one of them. Don't let it grab you",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_corrections|day=0,4|mood=fear"
+   ]
+  ],
+  "522": [
+   "RD_ALifeLine_16d7d5b112eaf2cf",
+   "I've seen a man go still in a cell, I've never seen one get up",
+   [
+    "ALifeDialogue_barks_panic_5.lua",
+    "PANIC_DAY_ZOMBIE",
+    "role=law_corrections|day=0,4|mood=grim"
+   ]
+  ]
+ }
+}

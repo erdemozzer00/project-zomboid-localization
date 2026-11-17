@@ -1,0 +1,141 @@
+"""Arayüz girdileri (Y10-Y15) için ekran notları: Lua dosya adı -> (başlık, metnin göründüğü ekran).
+
+Kaynak: rapor/arayuz_siniflar_1.5.0.md (konu), B_paket_plani_1.5.0.md (NEREDE), kodun kendisi (Text.ui çağrısının bulunduğu
+fonksiyon). Hiçbir şey çevirmez. `bolum` (isteğe bağlı): (ilk_satır, son_satır, açıklama) Lua satır aralığına göre alt not.
+Sıra aynı zamanda girdideki blok sırasıdır (oyuncunun karşılaştığı sıraya yakın).
+"""
+
+NEREDE = {
+    # ---- Y10: yol arkadaşı sayfası ve harita ipuçları ----
+    "ALifeCompanionSheet": ("EMİR ÇARKI · YOL ARKADAŞI SAYFASI", "Emir çarkındaki dilim; tıklayınca yol arkadaşı sayfası açılır"),
+    "ALifeCompanionSheetAdmin": ("YÖNETİCİ KONSOLU · SEKME", "Yönetici konsolunda yol arkadaşlarını listeleyen sekmenin başlığı"),
+    "ALifeCompanionSheetUi": ("YOL ARKADAŞI SAYFASI · BOŞ DURUM", "Yol arkadaşı sayfası penceresi; yol arkadaşı yokken ya da henüz seçilmemişken çıkan yönlendirme yazıları"),
+    "ALifeCompanionBar": ("YOL ARKADAŞI ÇUBUĞU", "Yol arkadaşı çubuğunda onay isteyen düğmeye ilk tıklayınca çıkan ipucu"),
+    "ALifeCompanionSheetData": ("YOL ARKADAŞI SAYFASI", "Yol arkadaşı sayfası penceresi: sekmeler (Stats, Tasks, Journal, Gear), beceri ve ruh hâli çubukları, yol arkadaşıyla ilişki, günlük kayıtları",
+                                [(1, 125, "sekme adları, beceri adları, meslek unvanları, ruh hâli ve aciliyet etiketleri"),
+                                 (126, 230, "durum çubukları (açlık, susuzluk…), güven, yol arkadaşıyla ilişki"),
+                                 (231, 425, "emir etiketleri, mermi ve çanta bilgisi"),
+                                 (426, 500, "günlük (Journal) kayıtları: yol arkadaşıla yaşananlar"),
+                                 (501, 999, "düğmeler ve boş durum yazıları")]),
+    "ALifeCompanionSheetPanels": ("YOL ARKADAŞI SAYFASI · SAYAÇLAR", "Yol arkadaşı sayfasında yol arkadaşıla aranızdaki iyilik ve şikâyet sayaçlarının adı"),
+    "ALifeCompanionSheetGear": ("YOL ARKADAŞI SAYFASI · TEÇHİZAT", "Yol arkadaşı sayfasının Teçhizat sekmesi: yol arkadaşının taşıdığı eşyalar, ver/al/kuşan/bırak düğmeleri, eşya etiketleri"),
+    "ALifeCompanionInventory": ("YOL ARKADAŞI ENVANTERİ", "Yol arkadaşının envanteriyle işlem yaparken: kategori adları, işlem sonucu ve olmayınca nedenini söyleyen kısa bildirimler"),
+    "ALifeCompanionTalk": ("KONUŞMA PENCERESİ · YOL ARKADAŞI EMİRLERİ", "Konuşma penceresinde yol arkadaşına verilen emir düğmeleri (text) ve altlarında çıkan sonuç/risk notları (impact, risk)"),
+    "ALifeInjuredMenu": ("YARALI MENÜSÜ", "Yaralıya müdahale menüsünün seçenekleri (kanamayı durdur, kırığı sar, ağrı kesici ver gibi)"),
+    "ALifeSquadMapOverlay": ("TİM HARİTASI · KATMAN", "Dünya haritasında tim katmanının filtre ve etiket düğmeleri; araç ve helikopter durumları"),
+    "ALifeSquadMapGlyphs": ("TİM HARİTASI · SİMGE İPUCU", "Haritada tim simgesinin üstüne gelince çıkan taşıt durumu"),
+    "ALifeSquadMapTooltip": ("TİM HARİTASI · İPUCU", "Haritada bir tim simgesinin üstüne gelince çıkan ipucu kutusu: grup türü, görevi, anlık eylemi, taşıtı, sıradaki tim bilgisi",
+                             [(1, 33, "grup türü adları ve helikopter durumları (kutunun başlığı)"),
+                              (34, 50, "timin genel görevi/faaliyeti (Attacking, Patrolling, Garrisoned…)"),
+                              (51, 61, "timin o anki küçük eylemi (küçük harfle, 'şu an …' cümlesinin parçası olarak okunur)"),
+                              (62, 75, "taşıt, yön ve alt bilgi satırları (Doing, Going to, Danger, Next squad…)"),
+                              (76, 200, "ipucunun son satırları: tim sınırı ve yönetici notları")]),
+    "ALifeCompanionRules": ("YOL ARKADAŞI KURALLARI", "Yol arkadaşı kural tablosundaki kısa sözcükler"),
+    "ALifeCompanions": ("YOL ARKADAŞI BECERİLERİ", "Yol arkadaşı beceri tablosundaki kısa sözcükler"),
+
+    # ---- Y11: ilan panosu, radyo ve dünya olayı bildirimleri ----
+    "ALifeRadioClient": ("RADYO · BİLDİRİM", "Oyuncu telsizinden bir çağrıyı duyamadığında ekranda çıkan kısa bildirim ve başlığı (telsiz kapalı, cızırtı, sessiz, güçsüz)"),
+    "ALifeRadioReserved": ("RADYO · KANAL ADI", "Radyo ön ayarının kanal adı"),
+    "ALifeOutpostRadioMenu": ("KARAKOL TELSİZİ", "Karakola ait telsize sağ tıklayınca çıkan menü"),
+    "ALifeSafehouseClient": ("GÜVENLİ EV MENÜSÜ", "Güvenli evin araçlar menüsü ve kapıdaki ziyaretçi menüsü"),
+    "ALifeAudioWireClient": ("TELEFON · SAĞ TIK MENÜSÜ", "Telefona sağ tıklayınca çıkan seçenekler"),
+    "ALifeCaptivesClient": ("ESİR BİLDİRİMLERİ", "Esirle ilgili ekranın üstünde çıkan kısa bildirimler ve sağ tık menüsü seçenekleri"),
+    "ALifeCaptivesData": ("ESİR · KONUŞMA SATIRI", "Konuşma penceresinde oyuncunun seçtiği satır"),
+    "ALifeNoveltyBoardData": ("İLAN PANOSU", "Panoya sağ tıklayınca açılan pano: başlıklar (RAID WATCH, REQUESTS, WORD) ve altındaki tek cümlelik haberler; {name} kişi adı, {thing} eşya"),
+    "ALifeNoveltyBoardClient": ("İLAN PANOSU · MENÜ", "Panoya sağ tıklayınca çıkan seçenek"),
+    "ALifeNoveltyNotesData": ("EL YAZISI NOTLAR · BAŞLIKLAR", "Bulunan notun türünü söyleyen etiket ve not okununca çıkan başlık/ilk satır"),
+    "ALifeNoveltyNotesClient": ("EL YAZISI NOT · MENÜ", "Notun üstüne sağ tıklayınca çıkan seçenek ve not penceresinin etiketi"),
+    "ALifeNoveltyNotes": ("EL YAZISI NOT · EŞYA ADI", "Bulunan notun eşya adı; çantanın adı ({name} çantası)"),
+    "ALifeNoveltyRumorsData": ("SÖYLENTİ · ETİKET", "Söylenti kartının başlığı ve etiketi"),
+    "ALifeNoveltyRumors": ("SÖYLENTİ · ÖZNE", "Söylenti cümlesinin içine giren kısa öznenin adı"),
+    "ALifeNoveltyLostData": ("KAYIP EŞYA · ETİKET", "Kayıp eşya isteğinin etiketi ve eşya adı"),
+    "ALifeNoveltyMemorialsData": ("ANIT · ETİKET", "Mezar ve anıt işaretinin etiketi ve künyenin adı"),
+    "ALifeNoveltyCore": ("KONUM TARİFİ", "Haberlerde bir yerin nerede olduğunu söyleyen kısa kalıplar ({dist} adım, {dir} yön, {town} kasaba)"),
+    "ALifeOutpostPresets": ("KARAKOL TÜRLERİ", "Yönetici karakol kurarken seçilen karakol türü adları"),
+    "ALifeRevenge": ("SÖYLENTİ · İNTİKAM", "Oyuncuyu aradıklarını anlatan söylenti cümlesi"),
+    "ALifeModuleRobbery": ("SOYGUN · SEÇENEK", "Soygun karşılaşmasında oyuncunun seçeneği"),
+    "ALifeActivityService": ("FAALİYET DURUMU", "NPC faaliyet durumunu belirten sözcük"),
+    "ALifeVisitorInstance": ("ZİYARETÇİ", "Ziyaretçi verisinde geçen sözcük"),
+    "ALifeTreeServer": ("KONUŞMA · GÖREV YOK", "Konuşmada oyuncuya görev verilemeyince çıkan not"),
+
+    # ---- Y12: Oluşturucu ----
+    "ALifeCreatorDense": ("OLUŞTURUCU · LİSTE VE FİLTRE", "Oluşturucu ekranında fraksiyon/üye listesi, arama ve filtre düğmeleri; boş liste yönlendirmeleri"),
+    "ALifeCreatorWardrobeCard": ("OLUŞTURUCU · GARDIROP KARTI", "Oluşturucuda üyenin kıyafet takımı kartı: yuva, sezon etiketleri ve uyarı notları"),
+    "ALifeCreatorFactionSupport": ("OLUŞTURUCU · FRAKSİYON DESTEĞİ", "Oluşturucuda fraksiyonun araç seçimi gibi destek alanları"),
+    "ALifeCreatorQuiet": ("OLUŞTURUCU · MENÜ MÜZİĞİ", "Oluşturucu açıkken menü müziğini kapatan düğme ve notu"),
+    "ALifeCreatorUxSafety": ("OLUŞTURUCU · KURTARMA", "Oluşturucuda silinen NPC geri getirilince çıkan durum yazısı"),
+    "ALifeMenuPrefs": ("TANILAMA UYARISI", "Tanılama kendiliğinden kapatılınca çıkan bildirim (oyun açılışında açık kalmışsa ya da 30 dakika dolunca)"),
+    "ALifeCreatorUx": ("OLUŞTURUCU · ANA EKRAN", "Oluşturucu ana ekranı: sekme, düğme ve filtre ipuçları (fareyle üstüne gelince)"),
+    "ALifeCreatorUxStatus": ("OLUŞTURUCU · DURUM ŞERİDİ", "Oluşturucu alt şeridi: kayıt durumu, uyarılar, boş ekran yönlendirmeleri ve düğme ipuçları"),
+    "ALifeCreatorUxTabs": ("OLUŞTURUCU · SEKMELER", "Oluşturucu sekme başlıkları ve sekme ipuçları"),
+    "ALifeCreatorLookSeasons": ("OLUŞTURUCU · KIYAFET SEZONLARI", "Oluşturucuda kıyafet takımlarına sezon etiketi veren araç"),
+    "ALifeCreatorCore": ("OLUŞTURUCU · ÇEKİRDEK", "Oluşturucunun ayar adları, ön ayar açıklamaları ve karşılaşma özetleri"),
+    "ALifeCreatorCombat": ("OLUŞTURUCU · SAVAŞ AYARLARI", "Oluşturucuda NPC'nin savaş değerleri"),
+    "ALifeCreatorSaveQueue": ("OLUŞTURUCU · KAYIT SIRASI", "Oluşturucuda kayıt sırasında çıkan durum ve hata yazıları"),
+    "ALifeCreatorUxLook": ("OLUŞTURUCU · GÖRÜNÜM", "Oluşturucuda görünüm sekmesi"),
+    "ALifeCreatorCompat": ("OLUŞTURUCU · UYUMLULUK", "Oluşturucunun başka modlarla uyumluluk kaydı yazıları"),
+    "ALifeCreatorMenuTile": ("OLUŞTURUCU · ANA MENÜ KARESİ", "Ana menüdeki Oluşturucu karosu"),
+
+    "faction_registry_about": ("OLUŞTURUCU · FRAKSİYON KARTI", "Oluşturucuda fraksiyon kartının alt satırında çıkan sürüm yazısı"),
+    "faction_registry_ad": ("OLUŞTURUCU · KIYAFET TAKIMI ADI", "Kıyafet takımı adındaki fraksiyon bölümü: fraksiyon adı (özel ad)"),
+    "faction_registry_aciklama": ("OLUŞTURUCU · KIYAFET DOLABI SATIRI", "Oluşturucuda kıyafet takımının altında küçük yazıyla çıkan açıklama: mevsimle başlar (spring, summer, autumn, winter), kıyafet listesi sayar; cümle değil, küçük harfli bir ifade, sonda nokta yok"),
+
+    # ---- Y14: itibar, başlangıç, günlük, sürüş, bitiş ekranı ----
+    "ALifeUI2RepTabModel": ("İTİBAR SEKMESİ · EYLEM KAYITLARI", "Günlüğün İtibar sekmesinde, itibarını değiştiren eylemlerin kısa kayıtları ('… öldürdün' gibi; geçmiş zaman)"),
+    "ALifeUI2RepTab": ("İTİBAR SEKMESİ", "Günlüğün İtibar sekmesi: fraksiyon listesi, seviye ve değişim satırları"),
+    "ALifeRepTab": ("İTİBAR SEKMESİ · SON DEĞİŞİKLİKLER", "İtibar sekmesinin 'son değişiklikler' bölümü; sunucu puanı gizliyse yazısı"),
+    "ALifeRepView": ("İTİBAR GÖRÜNÜMÜ", "İtibar değişince çıkan bildirim ve fraksiyonun sana bakışını söyleyen satırlar ({who} grup adı)"),
+    "ALifeRepIcons": ("İTİBAR · SİMGE İPUCU", "İtibar sekmesinde bir eylem simgesinin üstüne gelince çıkan kısa açıklama (geçmiş zaman)"),
+    "ALifeUI2RepBar": ("İTİBAR ÇUBUĞU", "İtibar çubuğunun başlık etiketleri (FACTION STANDING, WHAT THIS MEANS, NEW STANDING)"),
+    "ALifeUI2RepBar2": ("İTİBAR ÇUBUĞU · SON DEĞİŞİKLİK", "İtibar çubuğunun altındaki 'son değişiklik' etiketi"),
+    "ALifeUI2RepProgress": ("İTİBAR İLERLEMESİ", "İtibar seviyesi ilerleme şeridi ({day} gün, {level} seviye, {amount} puan)"),
+    "ALifeUI2StartPickData": ("BAŞLANGIÇ SEÇİMİ · KARTLAR", "Yeni oyunun başında çıkan başlangıç ön ayarı kartları: başlık, tek satır özellikler ({value} sayı), alıntı, alt başlık"),
+    "ALifeUI2StartPick": ("BAŞLANGIÇ SEÇİMİ · DÜĞMELER", "Başlangıç seçimi ekranının alt düğmeleri ve tuş ipuçları"),
+    "ALifeStartApply": ("BAŞLANGIÇ AYARI UYGULANDI", "Başlangıç ön ayarı seçilince oyunun üst köşesinde çıkan bildirim ({difficulty} zorluk, {population} nüfus)"),
+    "ALifeUI2Intro": ("OYUN GİRİŞİ · İPUÇLARI", "Yeni oyunun başında çıkan kısa tanıtım ipuçları"),
+    "ALifeUI2Read": ("KONUŞMA · HAVA OKUMA", "Konuşma penceresinde karşındakinin ruh hâlini okuyan etiketler ve ipuçları"),
+    "ALifeUI2JournalUi": ("GÜNLÜK", "A-Life Günlüğü penceresi: sekme adları ve boş durum yönlendirmeleri"),
+    "ALifeUI2JournalSettings": ("GÜNLÜK · AYARLAR", "Günlük > Ayarlar ekranındaki örnek konuşma kutusunun yazısı"),
+    "ALifeUI2JournalBtn": ("GÜNLÜK · DÜĞME", "A-Life Günlüğünü açan düğmenin adı"),
+    "ALifeUI2Notify": ("BİLDİRİM GEÇMİŞİ", "Günlükteki bildirim geçmişi: kategori adları, bölüm başlıkları, boş durum yazısı"),
+    "ALifeUI2LoadBar": ("YÜKLEME ŞERİDİ", "Oyun açılırken profillerin yüklendiğini gösteren şerit"),
+    "ALifeUI2StreamerBubble": ("YAYINCI MODU SORUSU", "Yayıncı modunu öneren konuşma balonu ve cevap düğmeleri"),
+    "ALifePauseMenu": ("DURAKLATMA MENÜSÜ", "Oyunu duraklatınca çıkan menüdeki A-Life düğmesi"),
+    "ALifeDriveHereClient": ("SÜRÜŞ · BURAYA SÜR", "Haritada nokta seçip yol arkadaşına arabayı oraya sürdürürken çıkan uyarı ve onay yazıları"),
+    "ALifeDrivingCrewPicker": ("SÜRÜŞ · MÜRETTEBAT SEÇİCİ", "Yol arkadaşlarını arabaya yerleştirme penceresindeki satır etiketi"),
+    "ALifeCarOffline": ("ARABA · UYARI", "Yüklenmemiş araba için çıkan uyarı"),
+    "ALifeCarLife": ("ARABA · HARİTA ETİKETİ", "Haritada arabanın durumunu söyleyen kısa etiket"),
+    "ALifeEndingClient": ("BİTİŞ EKRANI", "Oyun bittikten sonra çıkan özet ekranı: istatistik satırları"),
+    "ALifeEndingCard": ("BİTİŞ KARTI", "Bitiş kartı: düğmeler ve alt istatistik satırı"),
+    "ALifeEndingCallData": ("BİTİŞ · TELSİZ ÇAĞRISI UYARISI", "Bitiş görevini kabul etmeden önce çıkan uyarı penceresi"),
+    "ALifeCreditsData": ("JENERİK", "Oyun sonu jeneriği: başlıklar ve teşekkür metinleri (destekçi adları çevrilmez)"),
+    "ALifeCreditsRoll": ("JENERİK · İPUCU", "Jenerik akarken köşede çıkan tuş ipucu"),
+    "ALifeScout": ("GÖZCÜ RAPORU", "Gözcü raporu bildiriminin başlığı"),
+    "ALifeInjuryRules": ("YARA KURALLARI", "Yara kuralı tablosundaki yön sözcükleri"),
+    "ALifeWounds": ("YARA KURALLARI", "Yara metni tarama listesindeki sözcük"),
+    "ALifeSpeech": ("KONUŞMA", "Konuşma kodundaki durum sözcüğü"),
+    "ALifeModLootData": ("YAĞMA VERİSİ", "Yağma eşleştirme listesindeki sözcük"),
+    "ALifeCars6": ("ARABA", "Araba kodundaki durum sözcüğü"),
+    "ALifeJuggernautVoice": ("SES", "Ses kodundaki durum sözcüğü"),
+    "ALifeVoiceLegacyProfiles": ("SES PROFİLİ", "Ses profili verisindeki sözcük"),
+
+    # ---- genel: veriden gelen (dosyası belli olmayan) Oluşturucu satırları ----
+}
+
+# Yalnız kod içinde geçen, ekranda görünmesi beklenmeyen (ya da belirsiz) kısa sözcük dosyaları. Girdide ayrı blokta, "KISA SÖZCÜK" etiketiyle
+KOD_SOZCUK = {"ALifeCompanionRules", "ALifeCompanions", "ALifeActivityService", "ALifeVisitorInstance", "ALifeInjuryRules", "ALifeWounds",
+              "ALifeSpeech", "ALifeModLootData", "ALifeCars6", "ALifeJuggernautVoice", "ALifeVoiceLegacyProfiles"}
+
+# Oluşturucu "dosyası belli olmayan" 91 satırın ilk 7 sırası vb. için bölüm tanımı: (ilk_sıra, son_sıra, ilk_metin_başı, başlık, ekran)
+# Sıra, B_paket_plani B12 listesindeki ('?' dosyalı) satır sırasıdır; ilk_metin_başı koruma amaçlı (liste değişirse durur).
+CREATOR_VERI = [
+    (1, 4, "Right-click an A-Life", "OYUNCU İPUÇLARI · TANILAMA", "Oyun içinde ve ayarlarda çıkan yönlendirme yazıları: NPC düzenleme ve Tanılama ipucu"),
+    (5, 13, "Tolliver Freight", "KİŞİ VE GRUP ADI ETİKETLERİ", "Kişi ve grup etiketleri ('Ad - Unvan'); kaynak dosyası belirsiz. Kişi ve grup adları aynen kalır, yalnız unvan (Boss, Gunman, Lookout, Driver, Loader) çevrilir"),
+    (14, 14, "A Black Hawk", "KARŞILAŞMA ÖZETİ", "Yönetici karşılaşma listesindeki tek cümlelik karşılaşma özeti"),
+    (15, 16, "MAX", "KISA ETİKETLER", "İki küçük etiket (kaynak dosyası belirsiz; MAX bir üst sınırı, Optional zorunlu olmayan alanı belirtir gibi görünüyor)"),
+    (17, 32, "Up: LEVEL", "ŞABLON CÜMLELER", "Kaynak dosyası belirsiz şablon cümleler: itibar seviyesi satırları (Up/Down: LEVEL…), ayar özetleri (NPC damage…), grup haberleri ({faction} grup, {where} yer, {waves} dalga). Yer tutucular doldurulunca tek satır olarak okunur"),
+    (33, 45, "Very light", "OLUŞTURUCU · DAYANIKLILIK DÜZEYLERİ", "Oluşturucuda NPC'nin sağlık düzeyi adları (kısa etiket) ve her düzeyin açıklaması"),
+    (46, 61, "Base HP", "OLUŞTURUCU · AYAR İPUÇLARI (SAVAŞ)", "Oluşturucuda bir ayarın üstüne gelince çıkan açıklama; ayar adları ekranda İngilizce etiketle durur (Strength, Aiming, Gear gibi). Sayıları aynen koru"),
+    (62, 80, "Name shown", "OLUŞTURUCU · AYAR İPUÇLARI (ÜYE VE ŞABLON)", "Oluşturucuda üye/şablon alanlarının üstüne gelince çıkan açıklama. Büyük harfli adlar (Set name, Mixed, Common, Rare) arayüz etiketidir"),
+    (81, 89, "Lets this faction", "OLUŞTURUCU · AYAR İPUÇLARI (FRAKSİYON)", "Oluşturucuda fraksiyon alanlarının üstüne gelince çıkan açıklama"),
+]

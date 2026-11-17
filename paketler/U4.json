@@ -1,0 +1,632 @@
+{
+    "_paket": "U4 — IG_UI: Kapı, ziyaretçi, güvenli ev, kapıdan bakma",
+    "_dosya": "IG_UI",
+    "satirlar": {
+        "IGUI_ALifeUI_58ef65812ed57cf0": {
+            "tr": "Elinde: {item}"
+        },
+        "IGUI_ALifeUI_07aa18e95d491efb": {
+            "tr": "Yabancı"
+        },
+        "IGUI_ALifeUI_40c978a8066a1c5e": {
+            "tr": "bitkin"
+        },
+        "IGUI_ALifeUI_197dc44b0c769c35": {
+            "tr": "acı içinde",
+            "not": "G \"acı çekiyor\" fiil; \"Görünüşü: …\" listesinde sıfatların yanına giriyor."
+        },
+        "IGUI_ALifeUI_3c983ec95bbbe6e1": {
+            "tr": "yiyecek bir şey"
+        },
+        "IGUI_ALifeUI_7e7bfb003a6a1b7b": {
+            "tr": "ağrı kesici bir şey"
+        },
+        "IGUI_ALifeUI_7c88a33c5c2cccae": {
+            "tr": "Bak"
+        },
+        "IGUI_ALifeUI_1e71fb952be9de77": {
+            "tr": "sıcak bir yemek"
+        },
+        "IGUI_ALifeUI_08f8c3bf74d6bd02": {
+            "tr": "bir fincan kahve"
+        },
+        "IGUI_ALifeUI_7226836d4e4f9a19": {
+            "tr": "biraz dinlenmek"
+        },
+        "IGUI_ALifeUI_213ef4e24d054016": {
+            "tr": "geceyi geçirecek bir yatak"
+        },
+        "IGUI_ALifeUI_33fc735f15734764": {
+            "tr": "bir duş"
+        },
+        "IGUI_ALifeUI_2c7ebcb36cca2de3": {
+            "tr": "elini yüzünü yıkamak"
+        },
+        "IGUI_ALifeUI_58ce73cf6015951e": {
+            "tr": "temiz kıyafetler"
+        },
+        "IGUI_ALifeUI_1f3f4acb7133a31a": {
+            "tr": "bir battaniye"
+        },
+        "IGUI_ALifeUI_7cdf99be1940e055": {
+            "tr": "sıcak bir soba"
+        },
+        "IGUI_ALifeUI_3d96b9cd63005f2e": {
+            "tr": "daha sağlam botlar"
+        },
+        "IGUI_ALifeUI_067c244c055cf35c": {
+            "tr": "bir bandaj"
+        },
+        "IGUI_ALifeUI_19f027150ac662c7": {
+            "tr": "oğluna ilaç"
+        },
+        "IGUI_ALifeUI_57f72116040c2d29": {
+            "tr": "karısına ilaç"
+        },
+        "IGUI_ALifeUI_1a6f9f7f762e7589": {
+            "tr": "bir çakmak"
+        },
+        "IGUI_ALifeUI_00893adf6e78073d": {
+            "tr": "bir içki"
+        },
+        "IGUI_ALifeUI_5faacb7e4efd3f30": {
+            "tr": "titremesinin geçmesi"
+        },
+        "IGUI_ALifeUI_51abe2cc26dab36d": {
+            "tr": "ordudan haber"
+        },
+        "IGUI_ALifeUI_51c7ce9b2daf6546": {
+            "tr": "kasabadan haber"
+        },
+        "IGUI_ALifeUI_2a0d6ed55bb2eb04": {
+            "tr": "ailesinden haber"
+        },
+        "IGUI_ALifeUI_017d299661ef86ce": {
+            "tr": "bir radyo"
+        },
+        "IGUI_ALifeUI_1939ddd65cbbd010": {
+            "tr": "bir televizyon"
+        },
+        "IGUI_ALifeUI_015cfea13fc71d51": {
+            "tr": "bir telefon"
+        },
+        "IGUI_ALifeUI_0eedb22610f63b4d": {
+            "tr": "bir harita"
+        },
+        "IGUI_ALifeUI_6ca6d5af2eadf03a": {
+            "tr": "arabayla bir yere bırakılmak",
+            "not": "G \"bir yolculuk\": \"a ride\" birinin onu arabayla götürmesi."
+        },
+        "IGUI_ALifeUI_7ee746087be6da07": {
+            "tr": "biraz yalnız kalmak"
+        },
+        "IGUI_ALifeUI_18f8fe152b97df37": {
+            "tr": "işe yaramak"
+        },
+        "IGUI_ALifeUI_327166c837eeec35": {
+            "tr": "yapacak bir iş"
+        },
+        "IGUI_ALifeUI_0d208f3415eb9604": {
+            "tr": "birinin ona inanması",
+            "not": "G \"inanılmak\" tek başına anlaşılmıyor."
+        },
+        "IGUI_ALifeUI_6a95bb214c385490": {
+            "tr": "konuşmak"
+        },
+        "IGUI_ALifeUI_0ead1e045dfafc39": {
+            "tr": "bir kilise"
+        },
+        "IGUI_ALifeUI_03abf79906473122": {
+            "tr": "dua edecek bir an"
+        },
+        "IGUI_ALifeUI_6c9e2a962c8aae67": {
+            "tr": "bir kitap"
+        },
+        "IGUI_ALifeUI_6278a2fa2f4f9965": {
+            "tr": "bir el iskambil"
+        },
+        "IGUI_ALifeUI_314f6ed3052cddc1": {
+            "tr": "kalem kâğıt"
+        },
+        "IGUI_ALifeUI_0da857a5220eb314": {
+            "tr": "bir mektubun yerine ulaşması",
+            "not": "G \"ulaştırılacak bir mektup\" isteği tersine çeviriyor."
+        },
+        "IGUI_ALifeUI_3b5b769d1e81881e": {
+            "tr": "ailesini bulmak"
+        },
+        "IGUI_ALifeUI_302573280a1732c3": {
+            "tr": "birini bulmak"
+        },
+        "IGUI_ALifeUI_45f7a6952f72b5aa": {
+            "tr": "birini gömmek"
+        },
+        "IGUI_ALifeUI_71913777330ac298": {
+            "tr": "güvenli bir yer"
+        },
+        "IGUI_ALifeUI_1bc68c6e008977e7": {
+            "tr": "kilitlenebilen kapılar"
+        },
+        "IGUI_ALifeUI_0e2a616e62273acc": {
+            "tr": "bir mum"
+        },
+        "IGUI_ALifeUI_52057dcb6978feca": {
+            "tr": "köpeğine mama"
+        },
+        "IGUI_ALifeUI_0eed9ce510f4ec24": {
+            "tr": "bir şapka"
+        },
+        "IGUI_ALifeUI_3ad614a3602fb207": {
+            "tr": "bir fotoğrafın saklanması"
+        },
+        "IGUI_ALifeUI_1ee62e7438a7dee1": {
+            "tr": "hava kararmadan ayrılmak"
+        },
+        "IGUI_ALifeUI_468f7023277dd202": {
+            "tr": "kışı burada geçirmek"
+        },
+        "IGUI_ALifeUI_5bc6e4b975e80e71": {
+            "tr": "birkaç gece kalmak"
+        },
+        "IGUI_ALifeUI_29879cf4179ddbb0": {
+            "tr": "eve dönmek"
+        },
+        "IGUI_ALifeUI_24de45360e7f4e4c": {
+            "tr": "nehri geçmek"
+        },
+        "IGUI_ALifeUI_01be92d5747b2867": {
+            "tr": "Louisville'e ulaşmak"
+        },
+        "IGUI_ALifeUI_01be78976d31dcda": {
+            "tr": "bir doktora görünmek"
+        },
+        "IGUI_ALifeUI_02bffa9f37658a67": {
+            "tr": "kilitlenebilen bir kapı"
+        },
+        "IGUI_ALifeUI_11aeb6090bf614b7": {
+            "tr": "sakin bir köşe"
+        },
+        "IGUI_ALifeUI_7644e990094a2cc0": {
+            "tr": "oğlunun onu affetmesi",
+            "not": "G \"oğlundan af\" kısa ama anlaşılmıyor."
+        },
+        "IGUI_ALifeUI_0332e8a130dd0a9e": {
+            "tr": "Şimdi olmaz"
+        },
+        "IGUI_ALifeUI_3a92cd4c67fd74e5": {
+            "tr": "Vereceğin şeyi seç"
+        },
+        "IGUI_ALifeUI_0ba23c427a9c7949": {
+            "tr": "Bunun için şu an verebileceğin bir şey yok."
+        },
+        "IGUI_ALifeUI_60114b314f9be379": {
+            "tr": "yeni yıkanmış"
+        },
+        "IGUI_ALifeUI_188b683804a23848": {
+            "tr": "Üstünde: {list}",
+            "not": "Ziyaretçi paneli tek kişiyi anlatıyor; G \"Giydikleri\" → tekil."
+        },
+        "IGUI_ALifeUI_4de4a6890c68cf2c": {
+            "tr": "Üstünde: seçebildiğin bir şey yok",
+            "not": "G \"seçemediğin bir şeyler\" anlamı kaydırıyor."
+        },
+        "IGUI_ALifeUI_42067f6c0857535b": {
+            "tr": "Elinde: {list}"
+        },
+        "IGUI_ALifeUI_3c7bf7230b396422": {
+            "tr": "Görünüşü: {list}",
+            "not": "Çoğul → tekil (U3 kararı: kapıdaki tek kişi)."
+        },
+        "IGUI_ALifeUI_54d6299b191f6a11": {
+            "tr": "İhtiyacı olabilir: {list}",
+            "not": "Çoğul → tekil (U3 kararı: kapıdaki tek kişi)."
+        },
+        "IGUI_ALifeUI_24dbdfb8161e14dc": {
+            "tr": "Çantasında görülenler: {list}",
+            "not": "Çoğul → tekil (U3 kararı: kapıdaki tek kişi)."
+        },
+        "IGUI_ALifeUI_5e31fac8627af478": {
+            "tr": "Bildiğin: {note}"
+        },
+        "IGUI_ALifeUI_49d659340279c93a": {
+            "tr": "Henüz görülecek bir şey yok."
+        },
+        "IGUI_ALifeUI_24f0dcf4622eb1eb": {
+            "tr": "En son ne zaman yemek yedin?"
+        },
+        "IGUI_ALifeUI_54356b3256505924": {
+            "tr": "Nereden geliyorsun?"
+        },
+        "IGUI_ALifeUI_53d961b018c588ca": {
+            "tr": "Karşılığında çalışabilir misin?"
+        },
+        "IGUI_ALifeUI_2d4582d310c8baf9": {
+            "tr": "Genelde ne takas edersin?"
+        },
+        "IGUI_ALifeUI_4340af837c35e967": {
+            "tr": "Malları nereden buluyorsun?"
+        },
+        "IGUI_ALifeUI_5af50333564b88f6": {
+            "tr": "Almayacağın bir şey var mı?"
+        },
+        "IGUI_ALifeUI_6262cbf74ba70346": {
+            "tr": "Neden içeride kalalım? Dışarıda ne var?",
+            "not": "G \"Neden içeride kalıyorsun?\" yanlış: polis evdekilere içeride kalın diyor, oyuncu nedenini soruyor."
+        },
+        "IGUI_ALifeUI_21ed47bb597d1403": {
+            "tr": "Emri kim verdi?"
+        },
+        "IGUI_ALifeUI_188d53011a199785": {
+            "tr": "Kimliğini görebilir miyim?"
+        },
+        "IGUI_ALifeUI_167dea08670ac0da": {
+            "tr": "Bu sayım ne için?"
+        },
+        "IGUI_ALifeUI_7502b2912e95b285": {
+            "tr": "Liste ne olacak?"
+        },
+        "IGUI_ALifeUI_7b5401863f5e17f4": {
+            "tr": "Yardım gelecek mi?"
+        },
+        "IGUI_ALifeUI_01c419e02e294edb": {
+            "tr": "Silahları neden istiyorsun?"
+        },
+        "IGUI_ALifeUI_770df055424c9faa": {
+            "tr": "Geri alacak mıyım?"
+        },
+        "IGUI_ALifeUI_5a5c44ac68d7d40a": {
+            "tr": "Hangi karakoldansın?"
+        },
+        "IGUI_ALifeUI_3e1888d351c2ec5b": {
+            "tr": "Amirin kim?",
+            "not": "G \"Çavuşun\": bunlar polis kılığında; polis için \"amir\" daha doğal."
+        },
+        "IGUI_ALifeUI_1d41ccf44deba9f4": {
+            "tr": "Arama emri ne için?"
+        },
+        "IGUI_ALifeUI_7b62d60c7cfbeb84": {
+            "tr": "Dün gece nerede uyudun?"
+        },
+        "IGUI_ALifeUI_694035706eaeea70": {
+            "tr": "Bir şeyden mi kaçıyorsun?"
+        },
+        "IGUI_ALifeUI_188d04ec36676525": {
+            "tr": "Burada ne işe yararsın?"
+        },
+        "IGUI_ALifeUI_6fe5edce22027441": {
+            "tr": "Seni ne kovalıyor?"
+        },
+        "IGUI_ALifeUI_27945c251202d632": {
+            "tr": "Kaç tane var?"
+        },
+        "IGUI_ALifeUI_2e60781a48d078a0": {
+            "tr": "Nereye gittiğini gördüler mi?"
+        },
+        "IGUI_ALifeUI_7c8efb07022150a6": {
+            "tr": "Nasıl oldu?"
+        },
+        "IGUI_ALifeUI_0a94d5be0b86c141": {
+            "tr": "Mikrop kaptı mı?",
+            "not": "\"Enfekte mi?\" yara için konuşma dilinde \"mikrop kapmak\"."
+        },
+        "IGUI_ALifeUI_5df9375d25c78ae2": {
+            "tr": "İlacın var mı?"
+        },
+        "IGUI_ALifeUI_4d1214f06bf2848a": {
+            "tr": "Kimin adamısın?",
+            "not": "Haraççı sahnesi: \"Kiminlesin?\" yerine yerinde ağız."
+        },
+        "IGUI_ALifeUI_65217a13521815e8": {
+            "tr": "Hayır dersem ne olur?"
+        },
+        "IGUI_ALifeUI_71aeec312d946103": {
+            "tr": "Başka kimlerden haraç topluyorsun?"
+        },
+        "IGUI_ALifeUI_331fddc5627b125c": {
+            "tr": "Üç değil, iki malzeme"
+        },
+        "IGUI_ALifeUI_153fa83a7887883c": {
+            "tr": "Ne tür insanlar?"
+        },
+        "IGUI_ALifeUI_7340852d7bad2124": {
+            "tr": "Hangi yöne gidiyorlardı?"
+        },
+        "IGUI_ALifeUI_4e9ad7f5541066eb": {
+            "tr": "Kaç kişiydiler?"
+        },
+        "IGUI_ALifeUI_6fd6d79632500f69": {
+            "tr": "Bunu nerede buldun?"
+        },
+        "IGUI_ALifeUI_3150a9ad47624404": {
+            "tr": "Yakınında kimseyi gördün mü?"
+        },
+        "IGUI_ALifeUI_699ccc720a077c24": {
+            "tr": "Gerçekten teşekkür ederim",
+            "not": "U3'teki \"Sağ ol, gerçekten\" (Thanks, I mean it) ile aynı çıkmasın."
+        },
+        "IGUI_ALifeUI_2db2393b1f2318bb": {
+            "tr": "Ne kadar içtin?"
+        },
+        "IGUI_ALifeUI_654e4cc83ac8aca2": {
+            "tr": "Evin nerede?"
+        },
+        "IGUI_ALifeUI_5d2936ae2c0a6fe9": {
+            "tr": "Evine git de ayıl biraz",
+            "not": "G \"Eve git ve uykuyla geçir\" anlaşılmıyor (sarhoş sahnesi)."
+        },
+        "IGUI_ALifeUI_420a0a9937d06407": {
+            "tr": "Nasıl bir ayin bu?"
+        },
+        "IGUI_ALifeUI_09089f2b058cd623": {
+            "tr": "Ayin nerede oluyor?"
+        },
+        "IGUI_ALifeUI_2602df266b5cc13a": {
+            "tr": "Bağış da alıyor musun?"
+        },
+        "IGUI_ALifeUI_4574f2916d15f19b": {
+            "tr": "Sağ ol ama istemem"
+        },
+        "IGUI_ALifeUI_4b73f01f5f37e8d7": {
+            "tr": "Bugün olmaz, sağ ol"
+        },
+        "IGUI_ALifeUI_0c26ffe40a4a86e3": {
+            "tr": "Neleri tedavi ediyorsun?"
+        },
+        "IGUI_ALifeUI_6074ac996bc17b9b": {
+            "tr": "Ücreti ne kadar?"
+        },
+        "IGUI_ALifeUI_7f7cdefb02a95c58": {
+            "tr": "Eğitimini nerede aldın?"
+        },
+        "IGUI_ALifeUI_2dd445ac614381a4": {
+            "tr": "Diploman var mı?",
+            "not": "Doktor için \"ruhsat\" yerine \"diploma\"."
+        },
+        "IGUI_ALifeUI_21fbf2312b43632c": {
+            "tr": "Not kimden?"
+        },
+        "IGUI_ALifeUI_0d8492ef634ed33b": {
+            "tr": "İçinde ne var?"
+        },
+        "IGUI_ALifeUI_4f31654f1908ac00": {
+            "tr": "Neden kendin götürmüyorsun?"
+        },
+        "IGUI_ALifeUI_0f5738d65b24a53e": {
+            "tr": "Zahmet ettin, sağ ol"
+        },
+        "IGUI_ALifeUI_54c49c5b656f16a0": {
+            "tr": "Ne kadar demiştin?"
+        },
+        "IGUI_ALifeUI_108fdb1829ad04a4": {
+            "tr": "Tam olarak kimsin?"
+        },
+        "IGUI_ALifeUI_31260ce45e8fc407": {
+            "tr": "Ne demek, komşuluk bu",
+            "not": "Hafif ağız."
+        },
+        "IGUI_ALifeUI_6ac64eec44bb6d31": {
+            "tr": "Arkadaşına ne oldu?"
+        },
+        "IGUI_ALifeUI_448f3d674f4800c8": {
+            "tr": "Orası tehlikeli mi?"
+        },
+        "IGUI_ALifeUI_0ebda0bd05cafa88": {
+            "tr": "Arkadaşının yanında kaç kişi var?",
+            "not": "G \"Yanlarında\" kimi kastettiği belirsiz."
+        },
+        "IGUI_ALifeUI_3147e2b802223fdb": {
+            "tr": "Yanında çocuk var mı?"
+        },
+        "IGUI_ALifeUI_1890572e51c547d5": {
+            "tr": "Evine ne oldu?"
+        },
+        "IGUI_ALifeUI_31f26fb478b76a55": {
+            "tr": "Nasılsın bakalım?"
+        },
+        "IGUI_ALifeUI_751d77dd6729290e": {
+            "tr": "Nerede kalıyordun?"
+        },
+        "IGUI_ALifeUI_7b6d65282472eba2": {
+            "tr": "Biri sana sorun çıkardı mı?"
+        },
+        "IGUI_ALifeUI_785b337e02d12126": {
+            "tr": "Geri döndüğüne sevindim"
+        },
+        "IGUI_ALifeUI_589091a84debf386": {
+            "tr": "Ne konuda yardımcı olabilirsin?"
+        },
+        "IGUI_ALifeUI_5e59ee037ceb689b": {
+            "tr": "Önceki yerinden neden ayrıldın?"
+        },
+        "IGUI_ALifeUI_0e0ef97012b7c6f2": {
+            "tr": "Ne kadar süreden bahsediyoruz?"
+        },
+        "IGUI_ALifeUI_21369f4a3f973777": {
+            "tr": "Buraya geldiğini gören oldu mu?"
+        },
+        "IGUI_ALifeUI_3b5fb7df1a0d70d2": {
+            "tr": "Kuru bir şeyler ister misin?"
+        },
+        "IGUI_ALifeUI_4928dff3560b4608": {
+            "tr": "Ne kadar sürecek?"
+        },
+        "IGUI_ALifeUI_615fbaa01479f599": {
+            "tr": "Ne zamandır böyle?"
+        },
+        "IGUI_ALifeUI_18b666f4514b8a33": {
+            "tr": "Neresi acıyor?"
+        },
+        "IGUI_ALifeUI_5b5780933da8f69e": {
+            "tr": "Bunun için ilaç falan içtin mi?",
+            "not": "G \"bir şey aldın mı\" satın almak gibi okunuyor."
+        },
+        "IGUI_ALifeUI_050ded612ec97d0d": {
+            "tr": "Bana geldiğine sevindim"
+        },
+        "IGUI_ALifeUI_15c185c8462b432b": {
+            "tr": "Hakkımda ne dediler?"
+        },
+        "IGUI_ALifeUI_697e0dea5021fa15": {
+            "tr": "Hangi radyoydu?",
+            "not": "G \"istasyon\": burada radyo kanalı."
+        },
+        "IGUI_ALifeUI_22f55c841dca1d3f": {
+            "tr": "Başka kim duydu?"
+        },
+        "IGUI_ALifeUI_6c86703f068faa68": {
+            "tr": "Söylediğin için sağ ol"
+        },
+        "IGUI_ALifeUI_65bfcf923075532c": {
+            "tr": "Pencereden göz at"
+        },
+        "IGUI_ALifeUI_7095a5c154abfec6": {
+            "tr": "Buradan bakamazsın",
+            "not": "Kb: \"siz\" → \"sen\" (K7); EN'de olmayan sondaki nokta kaldırıldı."
+        },
+        "IGUI_ALifeUI_5c8a07f8059624fb": {
+            "tr": "Kapıya giden yolu bir şey kapatıyor"
+        },
+        "IGUI_ALifeUI_1f1d8c5e457f71ad": {
+            "tr": "Kapı dürbününden bakma kapalı",
+            "not": "Sözlük: peephole = kapı dürbünü (S5)."
+        },
+        "IGUI_ALifeUI_0088e334329d17bf": {
+            "tr": "Yakında bakabileceğin bir kapı yok",
+            "not": "Kb: \"siz\" → \"sen\" (K7); EN'de olmayan sondaki nokta kaldırıldı."
+        },
+        "IGUI_ALifeUI_631e9dd429478d2a": {
+            "tr": "Esc: geri çekil"
+        },
+        "IGUI_ALifeUI_781b7d9603733e57": {
+            "tr": "Kapıyı aç"
+        },
+        "IGUI_ALifeUI_59a4a4841df99cbe": {
+            "tr": "Kim o?"
+        },
+        "IGUI_ALifeUI_46ea4b88083e4c68": {
+            "tr": "Geri çekil"
+        },
+        "IGUI_ALifeUI_7c8e704a5da27970": {
+            "tr": "Temkinli",
+            "not": "Kb \"Tedirgin\" → tutum etiketi \"Temkinli\" (sözlük, U3)."
+        },
+        "IGUI_ALifeUI_27805a1c161e34db": {
+            "tr": "Hayvan"
+        },
+        "IGUI_ALifeUI_52ffeac03a6d1133": {
+            "tr": "Araç"
+        },
+        "IGUI_ALifeUI_6a67bdc5065417ed": {
+            "tr": "Silahı kalkık: {item}",
+            "not": "Kb \"Silah doğrultuldu\" olay gibi; bu, dürbünden görülen kişinin durumu."
+        },
+        "IGUI_ALifeUI_136a104712bc59ad": {
+            "tr": "Silahı kalkık"
+        },
+        "IGUI_ALifeUI_5168ee46432607d5": {
+            "tr": "Kanıyor"
+        },
+        "IGUI_ALifeUI_7cb05148062429fe": {
+            "tr": "1 kare"
+        },
+        "IGUI_ALifeUI_2536051354885007": {
+            "tr": "Kimse yok"
+        },
+        "IGUI_ALifeUI_11315f172c0b27bd": {
+            "tr": "Tetikleyiciler için üs gerekir: bir evin içine gir ve test üssü oluştur",
+            "not": "Kb: \"siz\" → \"sen\" (K7); EN'de olmayan sondaki nokta kaldırıldı."
+        },
+        "IGUI_ALifeUI_7a30fa4b5f09e5cc": {
+            "tr": "Tetikleyiciler için üs gerekir: bu ev test üssü olacak"
+        },
+        "IGUI_ALifeUI_0a05479408f5419a": {
+            "tr": "Tetikleyiciler için üs gerekir: bir eve sağ tıkla ya da içine gir",
+            "not": "Kb: \"siz\" → \"sen\" (K7); EN'de olmayan sondaki nokta kaldırıldı."
+        },
+        "IGUI_ALifeUI_0d3bd64d114697d7": {
+            "tr": "Güvenli ev etkileşimleri (hata ayıklama)"
+        },
+        "IGUI_ALifeUI_61f035c404309dfc": {
+            "tr": "Burada test üssü oluştur"
+        },
+        "IGUI_ALifeUI_27b712244643aaf0": {
+            "tr": "Güvenli ev durumunu göster"
+        },
+        "IGUI_ALifeUI_760b1ffb3bd75895": {
+            "tr": "Güvenli ev tanılamasını kaydet",
+            "not": "Kb \"verilerini dök\" birebir çeviri."
+        },
+        "IGUI_ALifeUI_3d46fe890564c956": {
+            "tr": "Yerleştirme öz testini çalıştır (tüm satırlar, oluşturma yok)"
+        },
+        "IGUI_ALifeUI_3793115a4e8291fa": {
+            "tr": "Ziyaretçiler: doğma noktalarını göster"
+        },
+        "IGUI_ALifeUI_3d97d05401f3e94b": {
+            "tr": "Test üssünü temizle"
+        },
+        "IGUI_ALifeUI_40e4f3475a94b282": {
+            "tr": "Duvardaki işaretleri yıka"
+        },
+        "IGUI_ALifeUI_58eb86424ae8e819": {
+            "tr": "İtibar metni..."
+        },
+        "IGUI_ALifeUI_6efa703f22477669": {
+            "tr": "İtibar kaybı mesajı göster"
+        },
+        "IGUI_ALifeUI_38b081bc149a741e": {
+            "tr": "İtibar kazancı mesajı göster"
+        },
+        "IGUI_ALifeUI_42742b4d1d3c6b88": {
+            "tr": "Sonraki güvenli ev kontrolünü hemen çalıştır",
+            "not": "director → \"güvenli ev sistemi\"; \"yönetici\" admin'e ayrıldı (S7)."
+        },
+        "IGUI_ALifeUI_708e889d6a5a2ba3": {
+            "tr": "tanılama kapalı"
+        },
+        "IGUI_ALifeUI_36ad38a93a3133b2": {
+            "tr": "çok hızlı; bir saniye sonra tekrar dene",
+            "not": "Kb: \"siz\" → \"sen\" (K7); EN'de olmayan sondaki nokta kaldırıldı."
+        },
+        "IGUI_ALifeUI_1f58e60f7d937d40": {
+            "tr": "güvenli ev sistemi çalışmıyor",
+            "not": "director → \"sistem\" (admin = yönetici ile karışmasın)."
+        },
+        "IGUI_ALifeUI_5a7e91f30b4444fb": {
+            "tr": "güvenli ev sistemi hata verdi; sunucu günlüğüne bak",
+            "not": "Kb: \"siz\" → \"sen\" (K7); EN'de olmayan sondaki nokta kaldırıldı."
+        },
+        "IGUI_ALifeUI_5aa9a02204b9b59c": {
+            "tr": "A-Life güvenli ev isteği reddedildi: {reason}"
+        },
+        "IGUI_ALifeUI_103d4c0f62aa2692": {
+            "tr": "Güvenli evinin kapısında biri var."
+        },
+        "IGUI_ALifeUI_5a29018c41480316": {
+            "tr": "Pencerenin önünde biri var."
+        },
+        "IGUI_ALifeUI_7b7b8fab60e1ea29": {
+            "tr": "Güvenli evde son kapı çalınışı: biri geldi."
+        },
+        "IGUI_ALifeUI_5d1be39069998f14": {
+            "tr": "Ziyaretçi"
+        },
+        "IGUI_ALifeUI_0ec96e3f000ae15d": {
+            "tr": "Silahlarını indir"
+        },
+        "IGUI_ALifeUI_39f23859678acf14": {
+            "tr": "Gitmesini söyle",
+            "not": "Çoğul → tekil (U3 kararı: kapıdaki tek kişi)."
+        },
+        "IGUI_ALifeUI_5341bb4759a55ab0": {
+            "tr": "Üstünü ara",
+            "not": "Çoğul → tekil (U3 kararı: kapıdaki tek kişi)."
+        },
+        "IGUI_ALifeUI_17fd612d2d1c1fbb": {
+            "tr": "Yiyecek ver"
+        },
+        "IGUI_ALifeUI_09186c9f10d83dfe": {
+            "tr": "{name} haritana işaretlendi"
+        }
+    }
+}

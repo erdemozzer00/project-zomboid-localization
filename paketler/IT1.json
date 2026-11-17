@@ -1,0 +1,504 @@
+{
+  "_paket": "IT1 — İtibar ekranı, baştan çeviri (K57), 166 (çeviri: harici AI; kalite incelemesi yapılmadı)",
+  "_dosya": "IG_UI",
+  "satirlar": {
+    "IGUI_ALifeUI_6c1f89d67a823ce0": {
+      "tr": "Tarafsız"
+    },
+    "IGUI_ALifeUI_3ec166335cb815d5": {
+      "tr": "İtibar takibi kapalı. Sandbox ayarlarından Kişisel itibarı takip et seçeneğini aç."
+    },
+    "IGUI_ALifeUI_1003dcac734df61f": {
+      "tr": "takip kapalı"
+    },
+    "IGUI_ALifeUI_7b4ee93f0ff6dbe3": {
+      "tr": "sunucu bekleniyor"
+    },
+    "IGUI_ALifeUI_05afa9f96c847fc7": {
+      "tr": "Öldürdüğün İnsan:"
+    },
+    "IGUI_ALifeUI_781e75c057fd031d": {
+      "tr": "İtibar:"
+    },
+    "IGUI_ALifeUI_77d6fefb26cb7e0b": {
+      "tr": "İTİBAR"
+    },
+    "IGUI_ALifeUI_1d0424e964d4b612": {
+      "tr": "YENİ ARAN"
+    },
+    "IGUI_ALifeUI_62518cf065d99102": {
+      "tr": "Puan {score}"
+    },
+    "IGUI_ALifeUI_35715db06e5bbb40": {
+      "tr": "Düşman"
+    },
+    "IGUI_ALifeUI_13cb9757120e0ce4": {
+      "tr": "Temkinli"
+    },
+    "IGUI_ALifeUI_59a7b77c4dbd37cc": {
+      "tr": "Dost"
+    },
+    "IGUI_ALifeUI_41aa73332913b1ed": {
+      "tr": "İtibarın değişti"
+    },
+    "IGUI_ALifeUI_448e50923bc6c09f": {
+      "tr": "SON DEĞİŞİKLİKLER"
+    },
+    "IGUI_ALifeUI_56857bba771bbd24": {
+      "tr": "Henüz bir şey değişmedi"
+    },
+    "IGUI_ALifeUI_6451e280766882e9": {
+      "tr": "Yardım ettikçe, soydukça, öldürdükçe bu puan oynar."
+    },
+    "IGUI_ALifeUI_7fee2f47771bdfdb": {
+      "tr": "FRAKSİYONLA ARAN"
+    },
+    "IGUI_ALifeUI_53b845a84816ec03": {
+      "tr": "Sunucu bekleniyor"
+    },
+    "IGUI_ALifeUI_2f9eea17341fc0f7": {
+      "tr": "Bu sunucuda puan gizli"
+    },
+    "IGUI_ALifeUI_003a2a1817981333": {
+      "tr": "BU NE DEMEK"
+    },
+    "IGUI_ALifeUI_29e393f76b0a3b68": {
+      "tr": "Bir üstü: {score} puanda {name}, {left} kaldı"
+    },
+    "IGUI_ALifeUI_7bcf34e736828efb": {
+      "tr": "Bir üstü: {score} puanda yeni seviye, {left} kaldı"
+    },
+    "IGUI_ALifeUI_4b1530a7303d5d6e": {
+      "tr": "Bir altı: {score} puanın altında {name}, {left} kaldı"
+    },
+    "IGUI_ALifeUI_2a89a18e586a121b": {
+      "tr": "Bir altı: {score} puanın altında daha düşük seviye, {left} kaldı"
+    },
+    "IGUI_ALifeUI_1537a6606ad75f7e": {
+      "tr": "İTİBARIN"
+    },
+    "IGUI_ALifeUI_7a69addd0377d516": {
+      "tr": "Son değişiklik"
+    },
+    "IGUI_ALifeUI_3ffe502341fc7f0b": {
+      "tr": "{day}. gün {time}"
+    },
+    "IGUI_ALifeUI_6835903b2e1cce4a": {
+      "tr": "Sen {reason}"
+    },
+    "IGUI_ALifeUI_01ec785f66821a7e": {
+      "tr": "{amount} İTİBAR"
+    },
+    "IGUI_ALifeUI_5eb47b633c758bdb": {
+      "tr": "SEVİYE {level}"
+    },
+    "IGUI_ALifeUI_7aa2f5cb68019700": {
+      "tr": "SEVİYE {level} için {amount} kaldı"
+    },
+    "IGUI_ALifeUI_404821502899141c": {
+      "tr": "Henüz değişiklik yok"
+    },
+    "IGUI_ALifeUI_1832d68d0a20fe61": {
+      "tr": "Seviyen"
+    },
+    "IGUI_ALifeUI_28e79009458a07ac": {
+      "tr": "Seviyenin üstüne gel ya da tıkla, anlamını gör"
+    },
+    "IGUI_ALifeUI_3e38143512850752": {
+      "tr": "SEVİYELER"
+    },
+    "IGUI_ALifeUI_0f4740830459a2d0": {
+      "tr": "Bilinmeyen seviye"
+    },
+    "IGUI_ALifeUI_70d418246d49931c": {
+      "tr": "İTİBAR NASIL İŞLER"
+    },
+    "IGUI_ALifeUI_7c8656c15ba1fe65": {
+      "tr": "Gizle"
+    },
+    "IGUI_ALifeUI_7c8c5c285d1b16b8": {
+      "tr": "Göster"
+    },
+    "IGUI_ALifeUI_7db4189a7343965f": {
+      "tr": "FRAKSİYONLARLA ARAN"
+    },
+    "IGUI_ALifeUI_51d4d66d703ff104": {
+      "tr": "Henüz fraksiyon yok"
+    },
+    "IGUI_ALifeUI_5133b28e1be77026": {
+      "tr": "Karşılaştığın ya da muhatap olduğun gruplar burada görünür"
+    },
+    "IGUI_ALifeUI_3a6d04ea66fba69e": {
+      "tr": "{count} tane daha"
+    },
+    "IGUI_ALifeUI_36d8dbc807db44a2": {
+      "tr": "Ayrıca karşılaştıkların: {names}"
+    },
+    "IGUI_ALifeUI_602182fa483b6c70": {
+      "tr": "Yardım ettikçe, soydukça, öldürdükçe bu puan oynar"
+    },
+    "IGUI_ALifeUI_217856b6610d144d": {
+      "tr": "Sana düşman birini öldürdün"
+    },
+    "IGUI_ALifeUI_55a25e5d412ad81e": {
+      "tr": "Bir yağmacıyı ya da çete üyesini öldürdün"
+    },
+    "IGUI_ALifeUI_1614854312ee4145": {
+      "tr": "Kimseye zararı olmayan birini öldürdün"
+    },
+    "IGUI_ALifeUI_687fa73c0b526e32": {
+      "tr": "Uzak duran birini öldürdün"
+    },
+    "IGUI_ALifeUI_160677a85b54f330": {
+      "tr": "Bir dostunu öldürdün"
+    },
+    "IGUI_ALifeUI_03d5c863392a2762": {
+      "tr": "Teslim olmuş birini vurdun"
+    },
+    "IGUI_ALifeUI_5a7da6b90427e6c8": {
+      "tr": "Önce sana saldıran birini öldürdün"
+    },
+    "IGUI_ALifeUI_2df934bf25dd7663": {
+      "tr": "Bir hayatta kalanı öldürdün"
+    },
+    "IGUI_ALifeUI_09f1148248c2bad1": {
+      "tr": "Bir soygunu durdurdun"
+    },
+    "IGUI_ALifeUI_2b39fdb83abc4e39": {
+      "tr": "Önce sana saldıran birini püskürttün"
+    },
+    "IGUI_ALifeUI_2c8336df48de22bd": {
+      "tr": "Bir ziyaretçinin yüzüne kapıyı çarptın"
+    },
+    "IGUI_ALifeUI_4d76b3ee45346d85": {
+      "tr": "Bir ziyaretçiyi içeri aldın"
+    },
+    "IGUI_ALifeUI_35fda7dd698d714a": {
+      "tr": "Bir misafire gece kalacak yer verdin"
+    },
+    "IGUI_ALifeUI_083e62e96702c8b0": {
+      "tr": "Bir hayatta kalanın yarasını sardın"
+    },
+    "IGUI_ALifeUI_32a41dbf06e307ea": {
+      "tr": "Kovalanan birine sığınak oldun"
+    },
+    "IGUI_ALifeUI_0b1886970222dcb8": {
+      "tr": "Bir komşuna göz kulak oldun"
+    },
+    "IGUI_ALifeUI_2f47841677a26d30": {
+      "tr": "Kapıda yemeğini paylaştın"
+    },
+    "IGUI_ALifeUI_38573629430debc1": {
+      "tr": "Kapıda tatlı bir söz söyledin"
+    },
+    "IGUI_ALifeUI_1514953e3c0e418e": {
+      "tr": "Dürüstçe takas yaptın"
+    },
+    "IGUI_ALifeUI_73b9cab52420f187": {
+      "tr": "Nüfus sayımına cevap verdin"
+    },
+    "IGUI_ALifeUI_3a89641f7703d877": {
+      "tr": "Birinin verdiği işi bitirdin"
+    },
+    "IGUI_ALifeUI_4af5d02d7b064a8a": {
+      "tr": "Bir yardım çağrısına koştun"
+    },
+    "IGUI_ALifeUI_5da0e7e24419ce68": {
+      "tr": "Bir hayatta kalanla omuz omuza dövüştün"
+    },
+    "IGUI_ALifeUI_37ad0d8c5a1008c7": {
+      "tr": "Bir hayatta kalana yol arkadaşı oldun"
+    },
+    "IGUI_ALifeUI_0e0f00df6f2fa86f": {
+      "tr": "Grup için üstüne düşeni yaptın"
+    },
+    "IGUI_ALifeUI_005db27b3b71f7cd": {
+      "tr": "Bir hayatta kalanı soydun"
+    },
+    "IGUI_ALifeUI_76ba91d45e5835b7": {
+      "tr": "Bir anlaşmayı bozdun"
+    },
+    "IGUI_ALifeUI_632bb5127ec5e727": {
+      "tr": "Grubu bırakıp gittin"
+    },
+    "IGUI_ALifeUI_56a2eeb477779e60": {
+      "tr": "Grubu yüzüstü bıraktın"
+    },
+    "IGUI_ALifeUI_3e14f49168f66145": {
+      "tr": "Kuru sıkı tehdit savurdun"
+    },
+    "IGUI_ALifeUI_5d24ed0437fe97eb": {
+      "tr": "Yaralı bir hayatta kalana yardım ettin"
+    },
+    "IGUI_ALifeUI_6f01a5fb687e1987": {
+      "tr": "Bir hayatta kalana yardım ettin"
+    },
+    "IGUI_ALifeUI_1c3ee6e41098099a": {
+      "tr": "Yaralı bir hayatta kalanı hırpaladın"
+    },
+    "IGUI_ALifeUI_03f1d087467e1375": {
+      "tr": "Sana düşman kesildiler: içlerinden birine saldırdın"
+    },
+    "IGUI_ALifeUI_26c33bcc1b414e38": {
+      "tr": "Sana düşman kesildiler: içlerinden birini yaraladın"
+    },
+    "IGUI_ALifeUI_3e0436fe08fac738": {
+      "tr": "Sana düşman kesildiler: içlerinden birini öldürdün"
+    },
+    "IGUI_ALifeUI_23dd828c6a21a3a3": {
+      "tr": "Sana düşman kesildiler: sabırlarını taşırdın"
+    },
+    "IGUI_ALifeUI_4633d050002a2b7e": {
+      "tr": "Sana düşman kesildiler"
+    },
+    "IGUI_ALifeUI_431a1a60747a8a5b": {
+      "tr": "Meşru müdafaa, fraksiyonla aran aynı"
+    },
+    "IGUI_ALifeUI_3a9ae9a002178b63": {
+      "tr": "Zaten düşmandılar, fraksiyonla aran aynı"
+    },
+    "IGUI_ALifeUI_6db47800081bec8d": {
+      "tr": "Bu eylemin günlük sınırı doldu"
+    },
+    "IGUI_ALifeUI_18f0365a23e28715": {
+      "tr": "Günlük kazanç sınırı doldu"
+    },
+    "IGUI_ALifeUI_6c371c9e46607753": {
+      "tr": "Grubu sana düşman kesilebilir"
+    },
+    "IGUI_ALifeUI_04d760a608e9727b": {
+      "tr": "değişiklik yok"
+    },
+    "IGUI_ALifeUI_1ffd2fef752d6a3b": {
+      "tr": "Onlarla karşılaştın"
+    },
+    "IGUI_ALifeUI_231faec86a6c3a7b": {
+      "tr": "Bir kez ulaş, sana nasıl davrandıklarını gör"
+    },
+    "IGUI_ALifeUI_73f4a78361d7f8b8": {
+      "tr": "Kendini savunmak itibarını asla düşürmez"
+    },
+    "IGUI_ALifeUI_264f5cfa430df199": {
+      "tr": "Meşru müdafaa: önce o ateş ettiyse, saldırdıysa ya da seni soyduysa"
+    },
+    "IGUI_ALifeUI_49b5cf434835918b": {
+      "tr": "Ellerini kaldırana dokunursan hanene eksi yazılır"
+    },
+    "IGUI_ALifeUI_6689b4fd7aa7cda5": {
+      "tr": "Zararsız birini öldürmek pahalıya patlar, grubu da öfkelenir"
+    },
+    "IGUI_ALifeUI_0beb8d891bda75f8": {
+      "tr": "Yardım ettikçe yükselir: sığınak, yemek, tedavi, bitirdiğin işler"
+    },
+    "IGUI_ALifeUI_0834364e19e4901b": {
+      "tr": "Günlük kazancın sınırı var. Her eylem günde birkaç kez sayılır"
+    },
+    "IGUI_ALifeUI_7fec8150671b40c7": {
+      "tr": "Zamanla sıfıra doğru kayar, en kötü seviyeler hariç"
+    },
+    "IGUI_ALifeUI_0b87c7421729c9a5": {
+      "tr": "???"
+    },
+    "IGUI_ALifeUI_7be1e487356f5dcb": {
+      "tr": "İtibar"
+    },
+    "IGUI_ALifeUI_4d313a603d631497": {
+      "tr": "Henüz ulaşmadın"
+    },
+    "IGUI_ALifeUI_2bfe049d1e566dee": {
+      "tr": "Ünün senden önce gidiyor. İnsanlar sana duyduklarına göre davranıyor."
+    },
+    "IGUI_ALifeUI_7eeb6a4264bf0238": {
+      "tr": "Sunucu bekleniyor..."
+    },
+    "IGUI_ALifeUI_0e15232324312104": {
+      "tr": "Puan"
+    },
+    "IGUI_ALifeUI_78e1026571c29ef4": {
+      "tr": "İtibarın"
+    },
+    "IGUI_ALifeUI_1e9e0cd7075eaf9a": {
+      "tr": "Ulaşmadığın seviyeler gizli kalır"
+    },
+    "IGUI_ALifeUI_795cd3734c3c70ef": {
+      "tr": "Öldürdüğün insan"
+    },
+    "IGUI_ALifeUI_6a8c217a37e27ade": {
+      "tr": "Öldürdüğün zombi"
+    },
+    "IGUI_ALifeUI_17997a4100d3780d": {
+      "tr": "Ulaşmadığın seviyeler gizli kalır. Bilinen: {known}/{total}."
+    },
+    "IGUI_ALifeUI_64e784530e3c2b29": {
+      "tr": "Buradasın"
+    },
+    "IGUI_ALifeUI_4e68d9982fac613c": {
+      "tr": "Dost: {who}"
+    },
+    "IGUI_ALifeUI_78ed9db0213117c2": {
+      "tr": "Sana karşı temkinli: {who}"
+    },
+    "IGUI_ALifeUI_254927e447b07173": {
+      "tr": "Senden saklanan: {who}"
+    },
+    "IGUI_ALifeUI_26eaaeac09cb2dd6": {
+      "tr": "Senden korkan: {who}"
+    },
+    "IGUI_ALifeUI_150a7e341feee655": {
+      "tr": "Seninle pazarlığa oturan: {who}"
+    },
+    "IGUI_ALifeUI_0b880329172d42b8": {
+      "tr": "Kanun"
+    },
+    "IGUI_ALifeUI_21f38190733a4e96": {
+      "tr": "Askerî"
+    },
+    "IGUI_ALifeUI_54c0e540366a3686": {
+      "tr": "Siviller"
+    },
+    "IGUI_ALifeUI_46a5aebf01da01e2": {
+      "tr": "Aileler"
+    },
+    "IGUI_ALifeUI_0d3adeb75147b140": {
+      "tr": "Çeteler"
+    },
+    "IGUI_ALifeUI_4617c0c53f0e284a": {
+      "tr": "Puanın {low} ile {high} arasında oynar. Her değişiklik aynı puan üzerinden sayılır"
+    },
+    "IGUI_ALifeUI_17d8101c614d60d0": {
+      "tr": "Henüz kimse sana farklı davranmıyor"
+    },
+    "IGUI_ALifeUI_62de07062e748c9c": {
+      "tr": "Soyduğun kişiler ellerindekini verir"
+    },
+    "IGUI_ALifeUI_2bc36c9d6a2c9cbc": {
+      "tr": "İş teklif eden: yok"
+    },
+    "IGUI_ALifeUI_3afb9dd222ef0765": {
+      "tr": "İş teklif eden: insanların %%{percent} kadarı"
+    },
+    "IGUI_ALifeUI_4464b7952e0d78ff": {
+      "tr": "{who} artık sana daha iyi gözle bakıyor, {steps}"
+    },
+    "IGUI_ALifeUI_6dbbf5e300fbf820": {
+      "tr": "{who} artık sana daha kötü gözle bakıyor, {steps}"
+    },
+    "IGUI_ALifeUI_05f75deb7525fa3e": {
+      "tr": "{amount} İtibar"
+    },
+    "IGUI_ALifeUI_1c05fbea3102ae0b": {
+      "tr": "Artık {name} olarak tanınıyorsun"
+    },
+    "IGUI_ALifeUI_79928aa84fb28be6": {
+      "tr": "İtibarın yükseldi"
+    },
+    "IGUI_ALifeUI_285691c505a0091c": {
+      "tr": "İtibarın düştü"
+    },
+    "IGUI_ALifeUI_53bf1a85457f6f11": {
+      "tr": "İtibar {score} (önceden {old})"
+    },
+    "IGUI_ALifeUI_7c46e00831d62a2a": {
+      "tr": "Önceden {old}"
+    },
+    "IGUI_ALifeUI_32850a9516614ba3": {
+      "tr": "{low} ile {high} arası"
+    },
+    "IGUI_ALifeUI_3f437ff33879bb97": {
+      "tr": "düşman bir hayatta kalanı öldürdün"
+    },
+    "IGUI_ALifeUI_03c64bc9621c433b": {
+      "tr": "bir suçluyu öldürdün"
+    },
+    "IGUI_ALifeUI_5410e7c2294127cf": {
+      "tr": "kimseye zararı olmayan birini öldürdün"
+    },
+    "IGUI_ALifeUI_5428b5d33b3dfe19": {
+      "tr": "uzak duran birini öldürdün"
+    },
+    "IGUI_ALifeUI_298eb0ac6d5964f4": {
+      "tr": "bir dostunu öldürdün"
+    },
+    "IGUI_ALifeUI_5db536b215311a6f": {
+      "tr": "teslim olmuş birini vurdun"
+    },
+    "IGUI_ALifeUI_4986b09002b73eab": {
+      "tr": "önce sana saldıran birini öldürdün, meşru müdafaa"
+    },
+    "IGUI_ALifeUI_4473bf6971cc7584": {
+      "tr": "bir hayatta kalanı öldürdün"
+    },
+    "IGUI_ALifeUI_206b9f2c14b1ba05": {
+      "tr": "bir soygunu durdurdun"
+    },
+    "IGUI_ALifeUI_0662a52f24e515ca": {
+      "tr": "bir ziyaretçinin yüzüne kapıyı çarptın"
+    },
+    "IGUI_ALifeUI_52060d777d7aa627": {
+      "tr": "bir ziyaretçiyi içeri aldın"
+    },
+    "IGUI_ALifeUI_65d03098386603b5": {
+      "tr": "bir misafire kalacak yer verdin"
+    },
+    "IGUI_ALifeUI_118b63f87bb4904c": {
+      "tr": "bir ziyaretçinin yarasını sardın"
+    },
+    "IGUI_ALifeUI_487156051e7164d2": {
+      "tr": "kovalanan birine sığınak oldun"
+    },
+    "IGUI_ALifeUI_7a40b1b561064b97": {
+      "tr": "bir komşuna göz kulak oldun"
+    },
+    "IGUI_ALifeUI_49b29a973f3a2895": {
+      "tr": "kapıda yemeğini paylaştın"
+    },
+    "IGUI_ALifeUI_277f614821f15ab3": {
+      "tr": "kapıda tatlı bir söz söyledin"
+    },
+    "IGUI_ALifeUI_4a57f0bd26d9f86b": {
+      "tr": "dürüstçe takas yaptın"
+    },
+    "IGUI_ALifeUI_1301a89f5c50803c": {
+      "tr": "nüfus sayımına cevap verdin"
+    },
+    "IGUI_ALifeUI_76b53ba31050b391": {
+      "tr": "bir komşunun verdiği işi bitirdin"
+    },
+    "IGUI_ALifeUI_32c3b6d51dab2afe": {
+      "tr": "bir yardım çağrısına koştun"
+    },
+    "IGUI_ALifeUI_456ece8a66beaec9": {
+      "tr": "bir hayatta kalanla omuz omuza dövüştün"
+    },
+    "IGUI_ALifeUI_07214e9867e99547": {
+      "tr": "bir hayatta kalana yol arkadaşı oldun"
+    },
+    "IGUI_ALifeUI_20f130b94db64797": {
+      "tr": "grup için üstüne düşeni yaptın"
+    },
+    "IGUI_ALifeUI_16d83d250760f701": {
+      "tr": "bir hayatta kalanı soydun"
+    },
+    "IGUI_ALifeUI_420a2fc1565dac5e": {
+      "tr": "bir anlaşmayı bozdun"
+    },
+    "IGUI_ALifeUI_73e2b2456acd799b": {
+      "tr": "grubu bırakıp gittin"
+    },
+    "IGUI_ALifeUI_3c6ecea452c4320d": {
+      "tr": "grubu yüzüstü bıraktın"
+    },
+    "IGUI_ALifeUI_46588fa2294c6c32": {
+      "tr": "kuru sıkı tehdit savurdun"
+    },
+    "IGUI_ALifeUI_320c1f2a28266682": {
+      "tr": "yaralı bir hayatta kalanı hırpaladın"
+    },
+    "IGUI_ALifeUI_70071cde16853713": {
+      "tr": "yaralı bir hayatta kalana yardım ettin"
+    },
+    "IGUI_ALifeUI_057c30a6346d18bb": {
+      "tr": "bir hayatta kalana yardım ettin"
+    }
+  }
+}

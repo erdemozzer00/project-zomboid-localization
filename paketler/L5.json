@@ -1,0 +1,134 @@
+{
+    "_paket": "L5 — Ziyaretçi sekme adları (5) ve sığınak bildirimleri (27) (K46, Claude çevirisi)",
+    "_dosya": "IG_UI_lua",
+    "satirlar": {
+        "IGUI_ALifeUI_7c8a99bf5cb25ab1": {
+            "tr": "Geçmiş",
+            "not": "Ziyaretçi konuşma penceresi: sekme adı (VT.tabLabels → Menu.groupLabel, Text.ui). Kişinin geçmişiyle ilgili sorular."
+        },
+        "IGUI_ALifeUI_0b880d79172dcff4": {
+            "tr": "Şimdi",
+            "not": "Ziyaretçi konuşma penceresi: sekme adı (VT.tabLabels → Menu.groupLabel, Text.ui). Kişinin şu anki durumu ve ihtiyaçları."
+        },
+        "IGUI_ALifeUI_0d54c3cb64b78160": {
+            "tr": "Ev",
+            "not": "Ziyaretçi konuşma penceresi: sekme adı (VT.tabLabels → Menu.groupLabel, Text.ui). Evin içinde yapılacaklar ve ev hayatı."
+        },
+        "IGUI_ALifeUI_0dce3e595e5ece93": {
+            "tr": "İkram",
+            "not": "Ziyaretçi konuşma penceresi: sekme adı (VT.tabLabels → Menu.groupLabel, Text.ui). Yiyecek, içecek, battaniye, sigara, yatak gibi şeyler sunma. Kısa olsun: sekmeler dar."
+        },
+        "IGUI_ALifeUI_2c09deb26adac7a2": {
+            "tr": "Yakınlık",
+            "not": "Ziyaretçi konuşma penceresi: sekme adı (VT.tabLabels → Menu.groupLabel, Text.ui). İltifat, yakınlaşma soruları."
+        },
+        "IGUI_ALifeUI_656e2a0632e37c02": {
+            "tr": "Pencerelerdeki tahtalar sökülmüş, yerde cam kırıkları var. Sen yokken biri evle uğraşmış.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). sabotage"
+        },
+        "IGUI_ALifeUI_43546fad42b10090": {
+            "tr": "Depodaki yakıt bıraktığından az. Biri yakıt çekmiş.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). gas_siphoned"
+        },
+        "IGUI_ALifeUI_2249352e48881e6d": {
+            "tr": "Bahçen yolunmuş. Biri olgun ürünleri almış.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). garden_raided"
+        },
+        "IGUI_ALifeUI_5b0daf4f42c1dba9": {
+            "tr": "Dışarıdan bir el feneri ışığı pencerelerini tarıyor, sonra sönüyor.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). flashlight_window"
+        },
+        "IGUI_ALifeUI_5bc1d5147f6eb6db": {
+            "tr": "Evin yanında boş konserveler ve çöp var. Biri bir gece boyunca burayı gözetlemiş.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). camp_traces, 1 gece"
+        },
+        "IGUI_ALifeUI_3fbea8b90f3c055b": {
+            "tr": "Ön kapı açık duruyor. Sen kapalı bırakmıştın.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). door_left_open"
+        },
+        "IGUI_ALifeUI_466f819901e23eb1": {
+            "tr": "Kapı üç kez çalınıyor. Bakıyorsun, kimse yok.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). knock_nobody"
+        },
+        "IGUI_ALifeUI_454b993819d6a296": {
+            "tr": "Radyoda biri jeneratörü çalışan bir evden bahsediyor. Seninkine benziyor.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). radio_chatter. Yakında çalışan radyo varsa metin radyodan söylenir, o yol İngilizce kalır."
+        },
+        "IGUI_ALifeUI_3a41de832a19d8e5": {
+            "tr": "Uzaktan silah sesleri. Birkaç el, sonra ses kesiliyor.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). distant_gunshot"
+        },
+        "IGUI_ALifeUI_61f1aa765804e8c9": {
+            "tr": "Karanlıkta bir yerde bir köpek havlıyor. Bir süre kesilmiyor.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). dog_barking"
+        },
+        "IGUI_ALifeUI_2a8abe7544e8709f": {
+            "tr": "Yakınlarda bir yerde cam kırılıyor. Sonra yine sessizlik.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). glass_breaks_near"
+        },
+        "IGUI_ALifeUI_7fa5f59370e53bce": {
+            "tr": "Kapının yanında tebeşirle bir simge var. Yolcuların işareti: burada iyi insanlar yaşıyor.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). markTexts.kind"
+        },
+        "IGUI_ALifeUI_1c8eb131055792f0": {
+            "tr": "Kapının yanında tebeşirle bir simge var. Yolcuların işareti: bu evde yiyecek var.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). markTexts.food"
+        },
+        "IGUI_ALifeUI_3c97a14275929222": {
+            "tr": "Kapının yanında tebeşirle bir simge var. Yolcuların işareti: silahlılar, uzak dur.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). markTexts.armed"
+        },
+        "IGUI_ALifeUI_75db9e33067c0b23": {
+            "tr": "Ön kapının yanında taze boya: göz hizasında kocaman bir X. Biri bu evi işaretlemiş.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). markTexts.paint_x"
+        },
+        "IGUI_ALifeUI_5331cd39557b4623": {
+            "tr": "Kapının yanına çentikler kazınmış. Biri burada kaç kişi yaşadığını sayıyor.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). markTexts.tally"
+        },
+        "IGUI_ALifeUI_49b6e98e5a8d7314": {
+            "tr": "Ön kapının yanındaki duvara kan sürülmüş. Hala taze.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). markTexts.blood"
+        },
+        "IGUI_ALifeUI_3f447b662364b5ee": {
+            "tr": "Kapının yanında bir işaret var.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). markTexts yedeği"
+        },
+        "IGUI_ALifeUI_6971ba8d4f82fa39": {
+            "tr": "İşareti duvardan ovup sildin.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). işareti temizleme"
+        },
+        "IGUI_ALifeUI_6487937a0f072fdf": {
+            "tr": "Mesajı ulaştırdın. Bunu unutmayacaklar.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). ulak işi bitti"
+        },
+        "IGUI_ALifeUI_3d7b1ce47c89b663": {
+            "tr": "Yardımına gerçekten ihtiyaç vardı. Ellerindekini seninle paylaştılar.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). yardım çağrısı bitti"
+        },
+        "IGUI_ALifeUI_23636bfe256478a4": {
+            "tr": "Notu ulaştırmak için verilen süre doldu.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). ulak işi süresi geçti"
+        },
+        "IGUI_ALifeUI_30628b45772c71f1": {
+            "tr": "Orada her ne olduysa artık bitti.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). yardım çağrısı süresi geçti"
+        },
+        "IGUI_ALifeUI_7123495235d019ad": {
+            "tr": "Evin yanında boş konserveler ve çöp var. Biri iki gece boyunca burayı gözetlemiş.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). camp_traces, 2 gece"
+        },
+        "IGUI_ALifeUI_105d687d5085c8c7": {
+            "tr": "Evin yanında boş konserveler ve çöp var. Biri iki gece boyunca burayı gözetlemiş. Küçük bir ateş de yakmış.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). camp_traces, 2 gece, ateşli"
+        },
+        "IGUI_ALifeUI_659fbce27c9e3864": {
+            "tr": "Evin yanında boş konserveler ve çöp var. Biri üç gece boyunca burayı gözetlemiş.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). camp_traces, 3 gece"
+        },
+        "IGUI_ALifeUI_715eb58c72453a65": {
+            "tr": "Evin yanında boş konserveler ve çöp var. Biri üç gece boyunca burayı gözetlemiş. Küçük bir ateş de yakmış.",
+            "not": "Başın üstünde bildirim: sığınak olayı (Director.tell → SafehouseClient.notice). camp_traces, 3 gece, ateşli"
+        }
+    }
+}

@@ -1,0 +1,1194 @@
+{
+  "_paket": "AD1 — 1.5.1 yönetici ve geliştirici arayüzü (anahtarsız çizilen metinler; çeviri için ek kodu gerekir), 396 (çeviri: harici AI; kalite incelemesi yapılmadı)",
+  "_dosya": "IG_UI_lua",
+  "satirlar": {
+    "IGUI_ALifeUI_117bb9f63ec66d34": {
+      "tr": "Yol arkadaşı sayfasını aç: nitelikler, görevler, günlük ve teçhizat"
+    },
+    "IGUI_ALifeUI_5592de8a372e1c08": {
+      "tr": "Yol arkadaşı sayfası, seninle birlikte yol alan hayatta kalanları gösterir: sağlık, ihtiyaçlar, beceriler, emirler, günlük ve teçhizat."
+    },
+    "IGUI_ALifeUI_480f06714c01df4b": {
+      "tr": "Kaydedildi: varsayılan araba, "
+    },
+    "IGUI_ALifeUI_34524c9c2a7f0ace": {
+      "tr": "KATALOG HATASI: "
+    },
+    "IGUI_ALifeUI_5a6984c437829fe5": {
+      "tr": " BU SİLAHA TAKILI"
+    },
+    "IGUI_ALifeUI_53a70c015449e861": {
+      "tr": "Bin ve sür"
+    },
+    "IGUI_ALifeUI_1dcbc9a141508e9c": {
+      "tr": "Arabayı durdur, ardından bağlı ekip insin ve arabadan uzaklaşsın."
+    },
+    "IGUI_ALifeUI_770427231f8bfbb0": {
+      "tr": "Ekibi ayır"
+    },
+    "IGUI_ALifeUI_3db2d2c305c64b41": {
+      "tr": "Ekip indikten sonra bu aracın NPC bağlantılarını kaldır."
+    },
+    "IGUI_ALifeUI_6a9985094c5f7f29": {
+      "tr": "İstenen mod değişikliğini iptal et. Başlamış olan durma ya da inme tamamlanır; sürüş kendiliğinden yeniden başlamaz."
+    },
+    "IGUI_ALifeUI_60bc95de52d3b565": {
+      "tr": "Şoför koltuğuna geç"
+    },
+    "IGUI_ALifeUI_7203d0f17ed074f1": {
+      "tr": "Binişi iptal et"
+    },
+    "IGUI_ALifeUI_309dd7b5635ba5c9": {
+      "tr": "Bağlı NPC yolcuları tek tek bindir. Araba durur halde kalsın; şoför koltuğu oyuncu için boş bırakılır."
+    },
+    "IGUI_ALifeUI_2d55158d3905a4d7": {
+      "tr": "Oyuncu sürer"
+    },
+    "IGUI_ALifeUI_2b0ac5645b4191ba": {
+      "tr": "Oyun kontrolleriyle normal şekilde sür. Oyuncu sürer modunda kayıtlı rotalar izlenmez."
+    },
+    "IGUI_ALifeUI_0c1faff60c763db4": {
+      "tr": "Yolcu inişlerini bir sonraki duruşa sıraya al. Bu işlem oyuncunun sürdüğü arabayı frenlemez."
+    },
+    "IGUI_ALifeUI_6cb530ad29fe3015": {
+      "tr": "Hala arabaya yaklaşan NPC'lerin binişini iptal et. Oturan yolcular içeride kalır; araba oyuncunun kontrolünde kalır."
+    },
+    "IGUI_ALifeUI_3adcf351122eaaaf": {
+      "tr": "Tüm NPC'leri ayır. Oturan yolcular güvenli bir duruşu bekler ve bağlantıları kaldırılmadan önce arabadan uzaklaşır."
+    },
+    "IGUI_ALifeUI_7f37bf4e6d502297": {
+      "tr": "Ölüleri ekipten çıkar"
+    },
+    "IGUI_ALifeUI_5f2837683ccd7662": {
+      "tr": "Yalnızca ölümü doğrulanan ekip üyelerini ayırır. Duran arabaya en fazla 40 kare uzakta ol. Rota ve hayattaki ekip korunur."
+    },
+    "IGUI_ALifeUI_04b0bf8f1589fef0": {
+      "tr": "Ayırmayı iptal et"
+    },
+    "IGUI_ALifeUI_3417df9b508cb5cf": {
+      "tr": "NPC bağlantılarını düzenle | Araba "
+    },
+    "IGUI_ALifeUI_42ab69b01a3a0f9d": {
+      "tr": "Salt okunur ayar tarayıcısını bu aramayla açar."
+    },
+    "IGUI_ALifeUI_55fe556352438492": {
+      "tr": "Ortaya çıkarma sekmesini fraksiyon tarayıcısında bu aramayla açar."
+    },
+    "IGUI_ALifeUI_1f2cba9b700f700c": {
+      "tr": "YENİ ARABA"
+    },
+    "IGUI_ALifeUI_24b9e50a14b44382": {
+      "tr": "Gelişmiş"
+    },
+    "IGUI_ALifeUI_5227b2c74e7dac25": {
+      "tr": "Önce tara. Sen onaylamadan hiçbir şey silinmez."
+    },
+    "IGUI_ALifeUI_0e0c21c8222279d7": {
+      "tr": "DURUM"
+    },
+    "IGUI_ALifeUI_1311223b09733ded": {
+      "tr": "Modül tablosu: "
+    },
+    "IGUI_ALifeUI_6020a2747061a643": {
+      "tr": "HIZLI ORTAYA ÇIKARMA"
+    },
+    "IGUI_ALifeUI_6437efc25348511f": {
+      "tr": "HIZLI İŞLEMLER"
+    },
+    "IGUI_ALifeUI_377b2a317ae73d49": {
+      "tr": "SON ORTAYA ÇIKANLAR"
+    },
+    "IGUI_ALifeUI_1e0722b2643fc783": {
+      "tr": "BASKIN dalgası "
+    },
+    "IGUI_ALifeUI_7d6f9d387956a832": {
+      "tr": "Baskın yok"
+    },
+    "IGUI_ALifeUI_0f26d69778eef6d1": {
+      "tr": "NPC'ler, dünya, itibar"
+    },
+    "IGUI_ALifeUI_74e64fb7602d2208": {
+      "tr": "EN YAKIN NPC'LER"
+    },
+    "IGUI_ALifeUI_2935803b39cf9682": {
+      "tr": "NÜFUS SAYIMI"
+    },
+    "IGUI_ALifeUI_18d84e0a5d143c44": {
+      "tr": "Düşman yap"
+    },
+    "IGUI_ALifeUI_20b07776540108ab": {
+      "tr": "Bu fraksiyonu sana düşman yap. Geri alınabilir"
+    },
+    "IGUI_ALifeUI_1ea74f873e397796": {
+      "tr": "Temel değere dön"
+    },
+    "IGUI_ALifeUI_07349ee808680f2d": {
+      "tr": "Özel ayarı kaldır"
+    },
+    "IGUI_ALifeUI_2476ed3530b09540": {
+      "tr": "AYARLA"
+    },
+    "IGUI_ALifeUI_569b25f520b48c87": {
+      "tr": "Tüm A-Life seçenekleri; değeri, varsayılanı ve geldiği ön ayarla birlikte."
+    },
+    "IGUI_ALifeUI_5f4d023d7a1395af": {
+      "tr": "Sandbox seçenekleri tarayıcısı"
+    },
+    "IGUI_ALifeUI_3427e0b269e7012e": {
+      "tr": "DÜNYA DURUMU"
+    },
+    "IGUI_ALifeUI_62826e2f48499093": {
+      "tr": "ÜS ZİYARETİ"
+    },
+    "IGUI_ALifeUI_63e08132639d3b65": {
+      "tr": "Araç çubuğuna sabitle (en fazla "
+    },
+    "IGUI_ALifeUI_6f683c084eaf2932": {
+      "tr": "A-Life Yönetimi"
+    },
+    "IGUI_ALifeUI_02cb31ca574eb8f4": {
+      "tr": "İstediğin denetimi bul. Çalıştırmak için bir sonuca tıkla."
+    },
+    "IGUI_ALifeUI_565566af03480247": {
+      "tr": "Bu sekme oluşturulamadı: "
+    },
+    "IGUI_ALifeUI_1e2bedb11a8d40b3": {
+      "tr": "İnsanlar: NPC'ler, timler, ziyaretçiler, baskıncılar"
+    },
+    "IGUI_ALifeUI_6649091001cb2a24": {
+      "tr": "Üsler: karakollar, kamplar, sahneler, dekorlar"
+    },
+    "IGUI_ALifeUI_596203b50699bfdb": {
+      "tr": "A-Life'ın yerleştirdiği arabalar"
+    },
+    "IGUI_ALifeUI_53c1d41731afce2f": {
+      "tr": "Harita işaretleri ve kişi listeleri"
+    },
+    "IGUI_ALifeUI_2d98fce07ee63084": {
+      "tr": "A-Life dünya verisi (mod verisi)"
+    },
+    "IGUI_ALifeUI_62917fee74250771": {
+      "tr": "NPC cesetleri ve A-Life'ın verdiği ganimet"
+    },
+    "IGUI_ALifeUI_05bf1a4b6cd53b6f": {
+      "tr": "Seni takip eden yol arkadaşları"
+    },
+    "IGUI_ALifeUI_1be59e296406d21f": {
+      "tr": "İtibar (riskli)"
+    },
+    "IGUI_ALifeUI_01ee7cf96ccef53d": {
+      "tr": "Doğrulanmamış nesneler (riskli)"
+    },
+    "IGUI_ALifeUI_4bb3f61c1232745d": {
+      "tr": "Güvenli evlerin içindeki nesneler de"
+    },
+    "IGUI_ALifeUI_0126163665acc0aa": {
+      "tr": "Oluşturucu verisinin sunucu kopyası (riskli)"
+    },
+    "IGUI_ALifeUI_058c6d2266e1a742": {
+      "tr": "Bekliyor"
+    },
+    "IGUI_ALifeUI_0e18810f25003b3a": {
+      "tr": "Konumlar"
+    },
+    "IGUI_ALifeUI_7a264dce13ee37cf": {
+      "tr": "Atlandı"
+    },
+    "IGUI_ALifeUI_0bb2af9966b95d84": {
+      "tr": "Korumalı"
+    },
+    "IGUI_ALifeUI_56289b057be69f89": {
+      "tr": "Doğrulanmadı"
+    },
+    "IGUI_ALifeUI_6ad31b377c02d08c": {
+      "tr": "Burada kaldırılan harita işaretleri: "
+    },
+    "IGUI_ALifeUI_5e5fa6ab0b4c0d67": {
+      "tr": "Dünya haritasını bir kez aç, sonra buna yeniden bas."
+    },
+    "IGUI_ALifeUI_3040b6ba55b433d5": {
+      "tr": "A-LIFE TEMİZLİĞİ"
+    },
+    "IGUI_ALifeUI_0c9b5dcb30b2dcac": {
+      "tr": "Dünya: temizlik başlatılmadı"
+    },
+    "IGUI_ALifeUI_3c9c3a453b507694": {
+      "tr": "Dünya: TEMİZLİK SÜRÜYOR, A-Life ortaya çıkarma kilitli"
+    },
+    "IGUI_ALifeUI_634a9d82229cd74b": {
+      "tr": "Dünya: TEMİZLİK BİTTİ, A-Life bu dünyada devre dışı"
+    },
+    "IGUI_ALifeUI_725c1a85532bd4d8": {
+      "tr": "Neler kaldırılsın"
+    },
+    "IGUI_ALifeUI_1bf61614326c717e": {
+      "tr": "Kilitliyken reddedilen ortaya çıkarmalar: "
+    },
+    "IGUI_ALifeUI_2c87083d7c03f911": {
+      "tr": "Temizlik"
+    },
+    "IGUI_ALifeUI_2a73819377f34fc8": {
+      "tr": "İnsanlı karakol: "
+    },
+    "IGUI_ALifeUI_6dffd5f442453d32": {
+      "tr": "Daha gelişmiş ortaya çıkarma: Yönetici konsolu > Ortaya Çıkarma."
+    },
+    "IGUI_ALifeUI_33d8ff3f190dd083": {
+      "tr": "A-Life: ortaya çıkarıldı "
+    },
+    "IGUI_ALifeUI_4852b8e519758b32": {
+      "tr": " .. tostring(entry.note or "
+    },
+    "IGUI_ALifeUI_1bb100da298488db": {
+      "tr": "Kadroyu sunucu seçsin."
+    },
+    "IGUI_ALifeUI_1dfa691264a69fb9": {
+      "tr": "Bu grubu daraltmak ya da açmak için tıkla."
+    },
+    "IGUI_ALifeUI_2367d44b3ada25c9": {
+      "tr": "Güvenli ev olayını zorlar "
+    },
+    "IGUI_ALifeUI_359504c36297b10a": {
+      "tr": "Ortaya çıkarılacak şey. Aşağıdaki liste türe göre değişir."
+    },
+    "IGUI_ALifeUI_371bc07a17f85904": {
+      "tr": "Doğal ortaya çıkma: kapalı, aç"
+    },
+    "IGUI_ALifeUI_07a9a3c13b7bfbb7": {
+      "tr": "Oluşturucu: kapalı, bunu da kapat"
+    },
+    "IGUI_ALifeUI_09bfe0fb4ddae87b": {
+      "tr": "Ortaya Çıkarma'ya dön"
+    },
+    "IGUI_ALifeUI_65f6bb993dc22ffb": {
+      "tr": "Ortaya Çıkarma'ya geri döner. Mevcut tüm seçimler ve gelişmiş ayarlar korunur."
+    },
+    "IGUI_ALifeUI_00ab6e1002e759ca": {
+      "tr": "Varsayılana sıfırla"
+    },
+    "IGUI_ALifeUI_16128c52711846f6": {
+      "tr": "Yalnızca Gelişmiş ayarları sıfırlar. Timin ve ortaya çıkma konumun korunur. Önce sorar."
+    },
+    "IGUI_ALifeUI_71f72578408ab898": {
+      "tr": "Seçili kadro: "
+    },
+    "IGUI_ALifeUI_5908e6c37ccef226": {
+      "tr": "Hazır değil: "
+    },
+    "IGUI_ALifeUI_0bf0ca3e0ef1c62e": {
+      "tr": "Fraksiyon timi, üye, kadro, karşılaşma, karakol, ziyaretçi, baskın, destek."
+    },
+    "IGUI_ALifeUI_30c7d80f06e72576": {
+      "tr": "Ortaya çıkarma türü"
+    },
+    "IGUI_ALifeUI_38a5dd107f35375e": {
+      "tr": "Kaç NPC ortaya çıkarılacak, 1 ile 8 arası."
+    },
+    "IGUI_ALifeUI_4889d4825c895c7b": {
+      "tr": "Adet"
+    },
+    "IGUI_ALifeUI_5175c10f2a8f7bfd": {
+      "tr": "Oyunculara karşı tutum"
+    },
+    "IGUI_ALifeUI_59d92aac6de93f71": {
+      "tr": "Dost, tarafsız, temkinli ya da düşman."
+    },
+    "IGUI_ALifeUI_2f4a79720f95300f": {
+      "tr": "Nerede ortaya çıksın"
+    },
+    "IGUI_ALifeUI_36a02a1c7eed4e54": {
+      "tr": "Yakınında, tıklanan hedefte, koordinatta, işarette ya da karşılaşma kuralına göre."
+    },
+    "IGUI_ALifeUI_5f14241733ef2316": {
+      "tr": "Uykuda ortaya çıkar"
+    },
+    "IGUI_ALifeUI_75b889a06e47966f": {
+      "tr": "Timi beden olmadan, harita işareti olarak oluştur."
+    },
+    "IGUI_ALifeUI_4bbb8cf532bb3252": {
+      "tr": "Doğal gün aralığı denetimleri olmadan yönetici ortaya çıkarması."
+    },
+    "IGUI_ALifeUI_79e2638051730125": {
+      "tr": "Huni ve gün sınırlarını yok say"
+    },
+    "IGUI_ALifeUI_74938e64023bb6ac": {
+      "tr": "Tekrarlanabilir kadro."
+    },
+    "IGUI_ALifeUI_628b406c1126071d": {
+      "tr": "Toplu işlemlerin listesi, her biri ayrı geri alınabilir."
+    },
+    "IGUI_ALifeUI_785aa3e03dafdfa2": {
+      "tr": "Ortaya çıkarma geçmişi ve geri alma"
+    },
+    "IGUI_ALifeUI_4c2eaa4227adf7f9": {
+      "tr": "Kayıtlı ortaya çıkarma ön ayarları"
+    },
+    "IGUI_ALifeUI_678f066a30c32a28": {
+      "tr": "Formun tamamını bir adla kaydet ve yükle."
+    },
+    "IGUI_ALifeUI_2c93ea6c64be3f5b": {
+      "tr": "Başlangıç ayarları isteği tamamlandı"
+    },
+    "IGUI_ALifeUI_0a46ef425d716000": {
+      "tr": " .. spec.stem .. "
+    },
+    "IGUI_ALifeUI_1ce92046296dd518": {
+      "tr": "Yapı planını okuyacak kişi için serbest not."
+    },
+    "IGUI_ALifeUI_3b387fa91c31a0cd": {
+      "tr": "Kaydedilemedi: "
+    },
+    "IGUI_ALifeUI_5b7e37ae52f02182": {
+      "tr": "Klasör açılamadı: "
+    },
+    "IGUI_ALifeUI_156720fe38a7e23b": {
+      "tr": "[DEV] A-Life Araçları"
+    },
+    "IGUI_ALifeUI_77f40e8443813d82": {
+      "tr": "Dünyada alan sürükle"
+    },
+    "IGUI_ALifeUI_160ac3796c67457a": {
+      "tr": "Çapa seç"
+    },
+    "IGUI_ALifeUI_025c54db554e2b16": {
+      "tr": "Benim katımı kullan"
+    },
+    "IGUI_ALifeUI_5b61994d610ba8bd": {
+      "tr": "İşaret koy"
+    },
+    "IGUI_ALifeUI_0559542810ea5deb": {
+      "tr": "İşaretlerin. Kaldırmak için birini seç."
+    },
+    "IGUI_ALifeUI_1c5feef8107722fa": {
+      "tr": "Seçiliyi kaldır"
+    },
+    "IGUI_ALifeUI_41d33bcd0277616d": {
+      "tr": "Sonuncuyu geri al"
+    },
+    "IGUI_ALifeUI_6a83a14f21276598": {
+      "tr": "Tümünü temizle"
+    },
+    "IGUI_ALifeUI_5f36f4c971d782d5": {
+      "tr": "Alanı yakala"
+    },
+    "IGUI_ALifeUI_69b0b5893b67d945": {
+      "tr": "Panoya kopyala"
+    },
+    "IGUI_ALifeUI_094452a86765845a": {
+      "tr": "Dosyaya kaydet"
+    },
+    "IGUI_ALifeUI_44875594165155e7": {
+      "tr": "Dosya yolunu kopyala"
+    },
+    "IGUI_ALifeUI_0729ba2973fbfbaf": {
+      "tr": "Tümünü sıfırla"
+    },
+    "IGUI_ALifeUI_0d321dd0420168d9": {
+      "tr": "Ön"
+    },
+    "IGUI_ALifeUI_5f9ef4952e7c6da3": {
+      "tr": "Başlangıç katı"
+    },
+    "IGUI_ALifeUI_4297ea8c7d53c264": {
+      "tr": "İşaret"
+    },
+    "IGUI_ALifeUI_0d0db2681ee25653": {
+      "tr": "Çizim"
+    },
+    "IGUI_ALifeUI_0e1e75942678484f": {
+      "tr": "Depola"
+    },
+    "IGUI_ALifeUI_47d63e5a2a030b27": {
+      "tr": "Tüm işaretleri kaldırır. İki kez tıklaman gerekir."
+    },
+    "IGUI_ALifeUI_3b9c247f0a144b04": {
+      "tr": "Tüm işaretleri kaldırır. Şu an olmaz: "
+    },
+    "IGUI_ALifeUI_589caae2094182a0": {
+      "tr": "Bir yakalama sürüyor."
+    },
+    "IGUI_ALifeUI_31dfad8061fa99e5": {
+      "tr": "A-Life Kurucu (geliştirici)"
+    },
+    "IGUI_ALifeUI_14fbabe2110baa3b": {
+      "tr": "Önce tam bu hedefi önizle (3. adım)."
+    },
+    "IGUI_ALifeUI_6359cb8905d6b4ef": {
+      "tr": "Yerleştirilecek "
+    },
+    "IGUI_ALifeUI_669f100043b075d0": {
+      "tr": "Listeyi yenile"
+    },
+    "IGUI_ALifeUI_151a624f0f6284ed": {
+      "tr": "Dosya yükle"
+    },
+    "IGUI_ALifeUI_3dfd2e872d00a272": {
+      "tr": "Hedef kareyi seç"
+    },
+    "IGUI_ALifeUI_6c978a0a4546b00a": {
+      "tr": "Benim karemi kullan"
+    },
+    "IGUI_ALifeUI_767dd43b682df8b8": {
+      "tr": "Sola döndür"
+    },
+    "IGUI_ALifeUI_46a7236c396207c4": {
+      "tr": "Sağa döndür"
+    },
+    "IGUI_ALifeUI_7f5aa3900504aac2": {
+      "tr": "Damgayı yerleştir"
+    },
+    "IGUI_ALifeUI_5f139a036d561777": {
+      "tr": "Son damgayı geri al"
+    },
+    "IGUI_ALifeUI_7c853f075b5d6747": {
+      "tr": "Dosya"
+    },
+    "IGUI_ALifeUI_6a94047c50dd0689": {
+      "tr": "Yukarı kat"
+    },
+    "IGUI_ALifeUI_7c8d20305d40cd48": {
+      "tr": "Dönüş"
+    },
+    "IGUI_ALifeUI_7345a9f85a14221f": {
+      "tr": "A-Life Damga (geliştirici)"
+    },
+    "IGUI_ALifeUI_01021a4038abd88b": {
+      "tr": "Yapı planı bas..."
+    },
+    "IGUI_ALifeUI_2a2874d57791cb51": {
+      "tr": "Düzenlemeyi bitir"
+    },
+    "IGUI_ALifeUI_7d051ea26ab227f0": {
+      "tr": "Mod: varış noktası"
+    },
+    "IGUI_ALifeUI_16b6a5085f7aada2": {
+      "tr": "<TEXT> <RGB:"
+    },
+    "IGUI_ALifeUI_0d4998aa5ddbe755": {
+      "tr": "Beni ortala"
+    },
+    "IGUI_ALifeUI_362638ff034eedc1": {
+      "tr": "Konumunu ortala ve rota düzenlemeyi bitir; böylece yakındaki arabaları seçebilirsin."
+    },
+    "IGUI_ALifeUI_367c83510784c7ab": {
+      "tr": "Arabayı ortala"
+    },
+    "IGUI_ALifeUI_555155c479b71ec2": {
+      "tr": "Seçili arabayı ortala; rotası ve düzenleme modu değişmez."
+    },
+    "IGUI_ALifeUI_4d507ad910dcfdca": {
+      "tr": "Rotayı düzenle"
+    },
+    "IGUI_ALifeUI_3affd8cd18938353": {
+      "tr": "Sıranın kırmızı çerçevesi, rota düzenlemenin etkin olduğunu gösterir. Haritaya eklenen yeni noktalar her zaman ara noktadır. İniş noktası yapmak için aşağıdan birini seç."
+    },
+    "IGUI_ALifeUI_18790ba70ea7d896": {
+      "tr": "Rota ön ayarları"
+    },
+    "IGUI_ALifeUI_4476e05e7ead9087": {
+      "tr": "Ara noktalı rotaları adıyla kaydet, başka bir arabaya yükle. Ön ayarlar oyun yeniden başlasa da silinmez."
+    },
+    "IGUI_ALifeUI_54e68da81a90ca9f": {
+      "tr": "Dururken: tek bir varış noktası ya da kontrol noktası sırası seç. Sürerken: haritaya tıkladığın yer ara nokta olarak eklenir."
+    },
+    "IGUI_ALifeUI_4806bd33381206de": {
+      "tr": "Konumumu ekle"
+    },
+    "IGUI_ALifeUI_13830c623b05bdb5": {
+      "tr": "Ara nokta"
+    },
+    "IGUI_ALifeUI_5822800d61ac10c6": {
+      "tr": "İniş noktası"
+    },
+    "IGUI_ALifeUI_4ed8ca82391c31fc": {
+      "tr": "Seçili noktada durulmaz, geçilip gidilir. Yeni noktalar hep bu türde olur. Var olan bir noktayı değiştirmek için arabayı park et."
+    },
+    "IGUI_ALifeUI_6127024d2d86dddd": {
+      "tr": "Seçili noktada fren yap ve NPC ekibini indir. Yalnızca bu nokta değişir. Var olan bir noktayı değiştirmek için arabayı park et."
+    },
+    "IGUI_ALifeUI_1b79e68e7fc8afce": {
+      "tr": "X/Y uygula"
+    },
+    "IGUI_ALifeUI_501110f35dbc887a": {
+      "tr": "Ara noktayı sil"
+    },
+    "IGUI_ALifeUI_18d8107d66826e73": {
+      "tr": "Rotayı tamamen temizle"
+    },
+    "IGUI_ALifeUI_78e0a88e7e2ac1d6": {
+      "tr": "Tüm ara noktaları sil. Araba hareket halindeyse onu da durdur."
+    },
+    "IGUI_ALifeUI_47221b0729e351f2": {
+      "tr": "Bu araba + genel"
+    },
+    "IGUI_ALifeUI_1dbb715812f90a5a": {
+      "tr": "Canlı kaydı duraklat"
+    },
+    "IGUI_ALifeUI_7383b90c167db280": {
+      "tr": "Baş üstü mesajlar: AÇIK"
+    },
+    "IGUI_ALifeUI_6eec906f558acc36": {
+      "tr": "Sürüş bildirimlerini karakterinin üstünde göster. Kapatsan da tüm mesajlar bu kayıtta kalır. Bu oyun oturumu boyunca geçerli."
+    },
+    "IGUI_ALifeUI_6122059e1816aea1": {
+      "tr": "Canlı kaydı sürdür"
+    },
+    "IGUI_ALifeUI_375ae7bf5412f1df": {
+      "tr": "Sınırlı yeni bir yakalama başlatır; bellekteki önceki yakalamanın yerini alır. Saklamak istiyorsan önce öncekini dışa aktar."
+    },
+    "IGUI_ALifeUI_1426f1922f93e0fb": {
+      "tr": "Mod: kontrol noktaları"
+    },
+    "IGUI_ALifeUI_21d1c7ef2019d816": {
+      "tr": "Yeni olarak kaydet"
+    },
+    "IGUI_ALifeUI_49327516580b21b0": {
+      "tr": "Ekranda görünen sırayı adıyla yeni bir rota olarak kaydet. Ulaşılmış ara noktalar artık bu sırada yer almaz."
+    },
+    "IGUI_ALifeUI_0c69bd133b48b7ee": {
+      "tr": "Kayıtlı ön ayarı güncelle"
+    },
+    "IGUI_ALifeUI_436a96ed447efbf0": {
+      "tr": "Ön ayarı sil"
+    },
+    "IGUI_ALifeUI_67b9123a5193c1df": {
+      "tr": "Arabaya yükle"
+    },
+    "IGUI_ALifeUI_3ee05d8a140501dc": {
+      "tr": "Kişisele kopyala"
+    },
+    "IGUI_ALifeUI_7e9365f6631bc7ea": {
+      "tr": "Seçili kayıtlı rotayı kopyala. Kopyayı farklı adla saklamak için bir ad gir. Var olan adların üzerine asla yazılmaz."
+    },
+    "IGUI_ALifeUI_1051c66978387184": {
+      "tr": "Bu arabaya uygulandı. Planlayıcı değişiklikleri, yol yeniden hesaplanırken arabayı kısa süre yavaşlatabilir."
+    },
+    "IGUI_ALifeUI_71306e701e04b48e": {
+      "tr": "<TEXT> Araba "
+    },
+    "IGUI_ALifeUI_1bd7dfa40a3759ba": {
+      "tr": "Varsayılanlar alanlara yüklendi. Etkinleştirmek için Arabaya uygula'ya bas."
+    },
+    "IGUI_ALifeUI_715eb67a3bcd721d": {
+      "tr": "Duyarlı sürüş varsayılanlarını alanlara yükle, ardından Arabaya uygula."
+    },
+    "IGUI_ALifeUI_64e002cc510ef902": {
+      "tr": "Ön ayar değişiklikleri: viraj 2, ileri bakış 6, dönüş hızı 5.4. Denemek için Arabaya uygula'ya bas."
+    },
+    "IGUI_ALifeUI_30d9324d637e879f": {
+      "tr": "Deneysel başlangıç noktası: üç değeri değiştirir, uygulanmış diğer ayarlara dokunmaz."
+    },
+    "IGUI_ALifeUI_5a48d5cf626f8feb": {
+      "tr": "Geri bildirim için bu arabanın uygulanmış ayarlarını ve henüz uygulanmamış düzenlemelerini kopyala."
+    },
+    "IGUI_ALifeUI_7d9bf59856d29c91": {
+      "tr": "Bir tim ve karşılaşma seç, ikisini tek seferde sahaya sür."
+    },
+    "IGUI_ALifeUI_49da054540b0d890": {
+      "tr": "KARŞILAŞMA + TİM ORTAYA ÇIKAR"
+    },
+    "IGUI_ALifeUI_73f69c1633ea1e24": {
+      "tr": "GELİŞMİŞ SEÇENEKLER  >"
+    },
+    "IGUI_ALifeUI_0238d4fc4e8bcf9c": {
+      "tr": "BURADA SİMÜLE ET"
+    },
+    "IGUI_ALifeUI_494c11572ea9901b": {
+      "tr": "KURALA GÖRE SİMÜLE ET"
+    },
+    "IGUI_ALifeUI_508bec0d24ff52b4": {
+      "tr": "FRAKSİYON TİMİ ORTAYA ÇIKAR"
+    },
+    "IGUI_ALifeUI_249e1cfc6860b581": {
+      "tr": "KALICI: VARSAYILAN"
+    },
+    "IGUI_ALifeUI_1cf7ddc84c17a0ca": {
+      "tr": "DÜNYA HARİTASINDAKİ TİMLER"
+    },
+    "IGUI_ALifeUI_0242be2b5c4dfccd": {
+      "tr": "REDDEDİLEN FRAKSİYONLAR: "
+    },
+    "IGUI_ALifeUI_3aee3d8e47d2a78d": {
+      "tr": "REDDEDİLEN YENİLEME: "
+    },
+    "IGUI_ALifeUI_348f9ce765514b43": {
+      "tr": "Önce bir karşılaşma seç."
+    },
+    "IGUI_ALifeUI_7ebfec513ff9f44c": {
+      "tr": "Bu oyuncunun konumu yok."
+    },
+    "IGUI_ALifeUI_676e5f1279920e5d": {
+      "tr": "Burada simüle ediliyor..."
+    },
+    "IGUI_ALifeUI_2d1de0044dd7273b": {
+      "tr": "Karşılaşmanın kendi kuralına göre yerleştiriliyor..."
+    },
+    "IGUI_ALifeUI_5e89c4881d96bb8a": {
+      "tr": "Önce bir fraksiyon seç."
+    },
+    "IGUI_ALifeUI_74975e171b0d86d2": {
+      "tr": "Kara kutu dökümü isteniyor..."
+    },
+    "IGUI_ALifeUI_129b18fe13b150cc": {
+      "tr": "Modül QA dökümü isteniyor..."
+    },
+    "IGUI_ALifeUI_57021b35242964cd": {
+      "tr": "SAHNE + TİM, TEK SEFERDE"
+    },
+    "IGUI_ALifeUI_31a533da344af856": {
+      "tr": "Gelişmiş: konum / boyut / kalıcılık"
+    },
+    "IGUI_ALifeUI_3545f3f1732a2366": {
+      "tr": "(henüz rapor yok)"
+    },
+    "IGUI_ALifeUI_2387f0c30a5da75a": {
+      "tr": "henüz bir şey yerleştirilmedi"
+    },
+    "IGUI_ALifeUI_6749ef4b030cc7bb": {
+      "tr": "Tick başına en ağır (ms): "
+    },
+    "IGUI_ALifeUI_4802d3617a970f37": {
+      "tr": "Sunucu profil aracı: "
+    },
+    "IGUI_ALifeUI_35b146a27a994009": {
+      "tr": "Tanılama burada açık ve oyunu yavaşlatıyor"
+    },
+    "IGUI_ALifeUI_49b39f9460a5e4a1": {
+      "tr": "Project A-Life Durumu"
+    },
+    "IGUI_ALifeUI_2cae61a8093d1e90": {
+      "tr": "İmleç"
+    },
+    "IGUI_ALifeUI_4dacfff354963366": {
+      "tr": "30 ileride"
+    },
+    "IGUI_ALifeUI_47b9f9f9027c76ae": {
+      "tr": "Durum, hızlı işlemler, son ortaya çıkanlar"
+    },
+    "IGUI_ALifeUI_0a9d2351094650ee": {
+      "tr": "Tam ortaya çıkarma formu"
+    },
+    "IGUI_ALifeUI_15f802f078d2fe32": {
+      "tr": "Baskınlar, destek, ziyaretler, karakollar"
+    },
+    "IGUI_ALifeUI_5dbac4c631d04bfe": {
+      "tr": "Nüfus sayımı, itibar, kayıtlar, seçenekler, araçlar"
+    },
+    "IGUI_ALifeUI_538cde337b0df978": {
+      "tr": "Nüfus sayımı, timler, en yakın NPC'ler"
+    },
+    "IGUI_ALifeUI_735b54914730ce25": {
+      "tr": "NPC arabaları ortaya çıkar, yola gönder, izle"
+    },
+    "IGUI_ALifeUI_580d4ec63e9af9af": {
+      "tr": "Seninki ve fraksiyon bazında"
+    },
+    "IGUI_ALifeUI_0b279fcb7c1056d7": {
+      "tr": "Sağlık, hata raporu dökümleri, hatalar, kayıtlar"
+    },
+    "IGUI_ALifeUI_775e447f6e649b71": {
+      "tr": "Tüm sandbox seçenekleri, salt okunur"
+    },
+    "IGUI_ALifeUI_0f26b1335ab7775a": {
+      "tr": "Kalıntıları tara ve kaldır"
+    },
+    "IGUI_ALifeUI_5f8ccb7c55717098": {
+      "tr": "TEMİZLİK"
+    },
+    "IGUI_ALifeUI_3fdda7f62bab6deb": {
+      "tr": "Test olayları, ortaya çıkma aşamaları, üs ziyaretleri, kayıt tutma"
+    },
+    "IGUI_ALifeUI_7c85e5e55b9b26b7": {
+      "tr": "SUNUCU"
+    },
+    "IGUI_ALifeUI_0cbdd4506409ed10": {
+      "tr": "YÖNETİCİ"
+    },
+    "IGUI_ALifeUI_1b103b994224000f": {
+      "tr": "ERİŞİM YOK"
+    },
+    "IGUI_ALifeUI_6eaa5a3a32cbe81e": {
+      "tr": "ANAHTARLAR"
+    },
+    "IGUI_ALifeUI_45b210170aaa9c3d": {
+      "tr": "ORTAM OLAYLARI"
+    },
+    "IGUI_ALifeUI_0b1d6e9d58b5a3fe": {
+      "tr": "ORTAYA ÇIKMA AŞAMASI ÖNİZLEMESİ"
+    },
+    "IGUI_ALifeUI_3c4b682301c33eb8": {
+      "tr": "YAĞMALANMIŞ BİNALAR"
+    },
+    "IGUI_ALifeUI_32d0347b7da500f7": {
+      "tr": "ÜS ZİYARETLERİ"
+    },
+    "IGUI_ALifeUI_0291e80a35b2a66a": {
+      "tr": "KAYIT VE TESTLER"
+    },
+    "IGUI_ALifeUI_60b131017f239ef2": {
+      "tr": "Tek bir fraksiyonun üyelerinden kurulan tim. Kadroyu sen sabitlemezsen üyeleri sunucu seçer."
+    },
+    "IGUI_ALifeUI_7447db9429b22169": {
+      "tr": "Fraksiyon timi"
+    },
+    "IGUI_ALifeUI_50e6dcca56f7f114": {
+      "tr": "Tek üye"
+    },
+    "IGUI_ALifeUI_662eefef502c2bfa": {
+      "tr": "Seçilen tek bir üye, adet kadar kopyalanır."
+    },
+    "IGUI_ALifeUI_6dfcffb06c91ecb4": {
+      "tr": "Özel kadro"
+    },
+    "IGUI_ALifeUI_75f862dd6fc3471c": {
+      "tr": "Seçilen en fazla sekiz üye, tam listedeki gibi."
+    },
+    "IGUI_ALifeUI_56afbedc51d50f31": {
+      "tr": "Bir fraksiyondan kadrosu kurulan hazır karşılaşma: devriye, kontrol noktası ya da kamp gibi."
+    },
+    "IGUI_ALifeUI_18d6f7a653e55395": {
+      "tr": "İnsanlı karakol"
+    },
+    "IGUI_ALifeUI_375cfe4b4e335ffc": {
+      "tr": "Bir karakol ön ayarını olduğu yerde kurar ve içine adam yerleştirir. Kurulum birkaç saniyeye yayılır."
+    },
+    "IGUI_ALifeUI_22d575445c31350c": {
+      "tr": "Güvenli ev yöneticisiyle test üssün için üs ziyareti ya da güvenli ev olayı başlatır."
+    },
+    "IGUI_ALifeUI_36f6a2093ade1782": {
+      "tr": "Üs ziyaretçisi"
+    },
+    "IGUI_ALifeUI_146610be385717a2": {
+      "tr": "Sana karşı dalga dalga gelen, zorla başlatılmış tam ölçekli bir baskın başlatır."
+    },
+    "IGUI_ALifeUI_7c8bb1275cf6f0b9": {
+      "tr": "Baskın"
+    },
+    "IGUI_ALifeUI_1194eeeb2a5cb56f": {
+      "tr": "Sana en yakın NPC'nin takviye çağırmasını sağlar."
+    },
+    "IGUI_ALifeUI_3877fa2e33122d0f": {
+      "tr": "Destek çağrısı"
+    },
+    "IGUI_ALifeUI_579908bc1374e06e": {
+      "tr": "Her üye, fraksiyonunun oyunculara karşı belirlediği tutumu korur."
+    },
+    "IGUI_ALifeUI_0fcfa22c2365ddf7": {
+      "tr": "Müttefik: sana yardım eder, saldırmaz."
+    },
+    "IGUI_ALifeUI_1123fbd323fe023e": {
+      "tr": "Sana bulaşmaz, saldırılırsa kendini savunur."
+    },
+    "IGUI_ALifeUI_5d11541901490af7": {
+      "tr": "Önce uyarır; kalırsan ya da yaklaşırsan ateş eder."
+    },
+    "IGUI_ALifeUI_5f9a02f47e7128e5": {
+      "tr": "Görür görmez saldırır."
+    },
+    "IGUI_ALifeUI_0ad6c2db15cdbb43": {
+      "tr": "Yakındaki kapları arar, malzeme toplar."
+    },
+    "IGUI_ALifeUI_050b2e8e4da18937": {
+      "tr": "Çevrede aktif olarak hedef arar."
+    },
+    "IGUI_ALifeUI_6c30829d21de58f3": {
+      "tr": "Talep eden oyuncunun izini sürer, tekrar tekrar saldırır."
+    },
+    "IGUI_ALifeUI_48ad45fe782f072f": {
+      "tr": "Kamp kurar ve orada yaşar."
+    },
+    "IGUI_ALifeUI_55da82f11fc92f1d": {
+      "tr": "Yola çekilmiş arabalar, arkalarında dizili silahlar."
+    },
+    "IGUI_ALifeUI_4840565c2a4f85fa": {
+      "tr": "Senin konumunda ya da senden belli bir mesafe ve yönde."
+    },
+    "IGUI_ALifeUI_6ab32bb31b15f06b": {
+      "tr": "Yakınımda"
+    },
+    "IGUI_ALifeUI_1d24a19757929501": {
+      "tr": "Sağ tık menüsündeki \"A-Life ortaya çıkma hedefi olarak kullan\" seçeneğiyle seçtiğin karede."
+    },
+    "IGUI_ALifeUI_5ee1019405737b7f": {
+      "tr": "Tıklanan hedef"
+    },
+    "IGUI_ALifeUI_4bf46928691b6afa": {
+      "tr": "Tam bir X, Y, Z konumunda."
+    },
+    "IGUI_ALifeUI_58cc36571dcd5286": {
+      "tr": "Koordinatlar"
+    },
+    "IGUI_ALifeUI_3765e81c20937ed7": {
+      "tr": "Etkin bir karşılaşma, tim ya da karakol işaretinde."
+    },
+    "IGUI_ALifeUI_0de6b6004bd53e9a": {
+      "tr": "Karşılaşma kuralı"
+    },
+    "IGUI_ALifeUI_2a76426a6c1f4493": {
+      "tr": "Karşılaşmanın kendi yerleştirme kuralına göre, yakınında."
+    },
+    "IGUI_ALifeUI_3046d43d3b46dd11": {
+      "tr": "Herhangi bir fraksiyon"
+    },
+    "IGUI_ALifeUI_6925290d1a540dfe": {
+      "tr": "Dünyada kendiliğinden ortaya çıkan rastgele bir fraksiyon."
+    },
+    "IGUI_ALifeUI_03bd0fce41df4c7f": {
+      "tr": "Senin tarafında olan rastgele bir fraksiyon."
+    },
+    "IGUI_ALifeUI_06413c7e1a4c9d7f": {
+      "tr": "Herhangi bir dost fraksiyon"
+    },
+    "IGUI_ALifeUI_2786257e50ad6023": {
+      "tr": "Sana bulaşmayan rastgele bir fraksiyon."
+    },
+    "IGUI_ALifeUI_3977d88a04e9ceae": {
+      "tr": "Herhangi bir tarafsız fraksiyon"
+    },
+    "IGUI_ALifeUI_0916059c4ac8c610": {
+      "tr": "Önce uyaran, sonra ateş eden rastgele bir fraksiyon."
+    },
+    "IGUI_ALifeUI_5abe61c46da0d93b": {
+      "tr": "Herhangi bir temkinli fraksiyon"
+    },
+    "IGUI_ALifeUI_12a6c15851709508": {
+      "tr": "Görür görmez saldıran rastgele bir fraksiyon."
+    },
+    "IGUI_ALifeUI_242d1b3543be8976": {
+      "tr": "Herhangi bir düşman fraksiyon"
+    },
+    "IGUI_ALifeUI_18831a606001f783": {
+      "tr": "Herhangi bir kolluk"
+    },
+    "IGUI_ALifeUI_73a2ce7d2a0f334d": {
+      "tr": "Rastgele bir polis, şerif, eyalet polisi ya da cezaevi fraksiyonu."
+    },
+    "IGUI_ALifeUI_2afd4260591ced9a": {
+      "tr": "Herhangi bir askeri"
+    },
+    "IGUI_ALifeUI_4e6c160f70a29572": {
+      "tr": "Rastgele bir ordu ya da Ulusal Muhafız fraksiyonu."
+    },
+    "IGUI_ALifeUI_5f279c4367d76bf7": {
+      "tr": "Herhangi bir hayatta kalan"
+    },
+    "IGUI_ALifeUI_5faa96121153ac8c": {
+      "tr": "Rastgele bir sivil, aile, işçi ya da hayatta kalanlar federasyonu fraksiyonu."
+    },
+    "IGUI_ALifeUI_5607d8755078c33a": {
+      "tr": "Herhangi bir kalıntı"
+    },
+    "IGUI_ALifeUI_630f541e532fffbb": {
+      "tr": "Eski düzenden kalma, üniformalı rastgele bir kalıntı fraksiyonu."
+    },
+    "IGUI_ALifeUI_4a3ff560408ca161": {
+      "tr": "Önümde"
+    },
+    "IGUI_ALifeUI_5acb18d13740c992": {
+      "tr": "Davranış doktrini"
+    },
+    "IGUI_ALifeUI_57f7571b5ce8cb11": {
+      "tr": "Çatışma koordinasyonunu geçersiz kılar. Bireysel YZ'de herkes kendi başına savaşır; Ateş timi saldırıları ve kapıdan girişleri koordine eder; CQB oda temizleme taktikleri kullanır. Profili kullan, çevreye ve yakındaki tim arkadaşlarına göre kendisi seçer. Devriye davranışı ve silah disiplini geçerli kalır."
+    },
+    "IGUI_ALifeUI_5b13705e4231d0c2": {
+      "tr": "Uzman rolü"
+    },
+    "IGUI_ALifeUI_2f4665887b1e7ed4": {
+      "tr": "İlk üyeye uzman rolü verir."
+    },
+    "IGUI_ALifeUI_403eee20030b4c5a": {
+      "tr": "Üyeler hasar almaz. Hile niteliğinde: yalnızca test için."
+    },
+    "IGUI_ALifeUI_580915900e329a59": {
+      "tr": "Konum kilitli"
+    },
+    "IGUI_ALifeUI_6d25a3553d4fabd6": {
+      "tr": "Üyeler yerinden kıpırdamaz; yalnızca döner ve ateş eder."
+    },
+    "IGUI_ALifeUI_25351dc60d2094dc": {
+      "tr": "Timi kaydet"
+    },
+    "IGUI_ALifeUI_1fa8af584f939259": {
+      "tr": "Kalıcı tim sınırı içinde timi kaydetme ve yüklemede korur."
+    },
+    "IGUI_ALifeUI_5fcc904d1e346284": {
+      "tr": "Bakış / hat yönü"
+    },
+    "IGUI_ALifeUI_202e9c3f19ada34f": {
+      "tr": "Düzenin, kampın ya da barikatın baktığı yön."
+    },
+    "IGUI_ALifeUI_0cea96e45208e74e": {
+      "tr": "Birim aralığı"
+    },
+    "IGUI_ALifeUI_635922444eb0a1f4": {
+      "tr": "Üyeler belirirken aralarındaki kare sayısı."
+    },
+    "IGUI_ALifeUI_094d67807570a735": {
+      "tr": "Davranış yarıçapı"
+    },
+    "IGUI_ALifeUI_2631c2d82cb2dd9c": {
+      "tr": "Kare cinsinden devriye, nöbet ve kamp yarıçapı."
+    },
+    "IGUI_ALifeUI_6a844dcb02e9e2a0": {
+      "tr": "Nasıl gelsinler"
+    },
+    "IGUI_ALifeUI_4c3871cb195f732f": {
+      "tr": "Yaya: yakında belirir. Helikopter: gecikmeli varış. Arabayla: içindeki ekip, haritada yüklü bir yoldan yakındaki boş bir iniş noktasına sürer."
+    },
+    "IGUI_ALifeUI_49caa5af62428f8a": {
+      "tr": "Varış animasyonu"
+    },
+    "IGUI_ALifeUI_1053eed540a10c15": {
+      "tr": "Beden belirdiğinde uygulanan animasyon ön ayarı."
+    },
+    "IGUI_ALifeUI_0cc92b4820b07a27": {
+      "tr": "Algılama menzili"
+    },
+    "IGUI_ALifeUI_440751550e4055d9": {
+      "tr": "Üyelerin hedefleri kaç kare uzaktan fark ettiği."
+    },
+    "IGUI_ALifeUI_3020047441f131fc": {
+      "tr": "Hareket sınırı"
+    },
+    "IGUI_ALifeUI_593bb28236f13f62": {
+      "tr": "Üyeler doğma noktasından bundan daha uzağa giderse geri döner."
+    },
+    "IGUI_ALifeUI_2877fd3c13aff336": {
+      "tr": "Kesin HP"
+    },
+    "IGUI_ALifeUI_3ffddeba61c94e97": {
+      "tr": "Her üyenin sağlık puanını belirler."
+    },
+    "IGUI_ALifeUI_565d9d7d01f30477": {
+      "tr": "Hasar azaltma %"
+    },
+    "IGUI_ALifeUI_0c936eca1e2f2997": {
+      "tr": "Gelen hasarın yok sayılan yüzdesi."
+    },
+    "IGUI_ALifeUI_08306c5625b5c4f8": {
+      "tr": "Verilen hasar %"
+    },
+    "IGUI_ALifeUI_62bfccd53a9fd531": {
+      "tr": "Silahın normal hasarının ne kadarının verildiği, yüzde olarak."
+    },
+    "IGUI_ALifeUI_411889fb5e23461a": {
+      "tr": "Ölünce taşınan silahın yere düşme olasılığı."
+    },
+    "IGUI_ALifeUI_546ee06f3a8c6e43": {
+      "tr": "Düşen silahın durumu."
+    },
+    "IGUI_ALifeUI_34f91e6649427810": {
+      "tr": "Kıyafet durumu"
+    },
+    "IGUI_ALifeUI_46402fd46251f020": {
+      "tr": "Düşen kıyafetin durumu."
+    },
+    "IGUI_ALifeUI_780d230320431b04": {
+      "tr": "Destek çağırabilir"
+    },
+    "IGUI_ALifeUI_0900870e5e4e76d4": {
+      "tr": "Timin telsizle takviye istemesine izin verir ya da yasaklar."
+    },
+    "IGUI_ALifeUI_6738566f79865ad4": {
+      "tr": "Kim çağırabilir"
+    },
+    "IGUI_ALifeUI_207261997f495403": {
+      "tr": "Çağrıyı hangi üyenin yapabileceği."
+    },
+    "IGUI_ALifeUI_116dcb870f48696c": {
+      "tr": "İzinli destek"
+    },
+    "IGUI_ALifeUI_6738648e50cc02ea": {
+      "tr": "Kara takviyesi, helikopter ya da ikisi birden."
+    },
+    "IGUI_ALifeUI_343a3e6b45ee025a": {
+      "tr": "Bu timin helikopter desteği modu."
+    },
+    "IGUI_ALifeUI_3fc545d5323fbb9f": {
+      "tr": "Destek timi boyutu"
+    },
+    "IGUI_ALifeUI_7bbaa31634c8efa6": {
+      "tr": "Takviye timindeki üye sayısı."
+    },
+    "IGUI_ALifeUI_2d18769e24bc98f2": {
+      "tr": "Destek çağrısı (en fazla)"
+    },
+    "IGUI_ALifeUI_243f0b95036c1382": {
+      "tr": "Timin kaç kez çağrı yapabileceği."
+    },
+    "IGUI_ALifeUI_498436837acb9397": {
+      "tr": "Destek bekleme süresi (sa)"
+    },
+    "IGUI_ALifeUI_3bd6648d426bc12b": {
+      "tr": "İki çağrı arasındaki oyun saati."
+    },
+    "IGUI_ALifeUI_5517cbd04c511f1d": {
+      "tr": "Baskın dalgaları"
+    },
+    "IGUI_ALifeUI_62a876c4306ad35d": {
+      "tr": "Zorla başlatılan baskındaki saldırı dalgası sayısı."
+    },
+    "IGUI_ALifeUI_4533168d56ceb067": {
+      "tr": "Dalga başına oyun dakikası"
+    },
+    "IGUI_ALifeUI_5e8bfac415ad16c2": {
+      "tr": "Baskın dalgaları arasındaki oyun dakikası."
+    },
+    "IGUI_ALifeUI_7ad7217a7fd29cd5": {
+      "tr": "Baskın helikopteri"
+    },
+    "IGUI_ALifeUI_193439706ffa56e9": {
+      "tr": "Baskının helikopterle gelip gelmeyeceği."
+    },
+    "IGUI_ALifeUI_439bcb4a1acd5249": {
+      "tr": "30 kare ileride, dolaşan 3 düşman asker."
+    },
+    "IGUI_ALifeUI_7b9d002263c2713f": {
+      "tr": "3 kişilik test timi"
+    },
+    "IGUI_ALifeUI_55544bbd669c6a32": {
+      "tr": "Konumunda devriye gezen bir dost sıhhiyeci."
+    },
+    "IGUI_ALifeUI_6dc822095e04bd4f": {
+      "tr": "Burada dost sıhhiyeci"
+    },
+    "IGUI_ALifeUI_4fe2f6f74ecc1ad6": {
+      "tr": "Hemen baskın"
+    },
+    "IGUI_ALifeUI_5ab774e61cfe8040": {
+      "tr": "Sana karşı zorla başlatılan tam ölçekli bir baskın."
+    },
+    "IGUI_ALifeUI_08a3c4234ee00cbf": {
+      "tr": "Hemen ziyaretçi"
+    },
+    "IGUI_ALifeUI_15af72bc7f56f9fc": {
+      "tr": "Test üssünde bir üs ziyaretçisi."
+    },
+    "IGUI_ALifeUI_672ce171513a6339": {
+      "tr": "Haraç zinciri"
+    },
+    "IGUI_ALifeUI_1a684b8965ca4e44": {
+      "tr": "Haraç kapısı"
+    },
+    "IGUI_ALifeUI_1a67fa8365abaa30": {
+      "tr": "Haraç kalesi"
+    },
+    "IGUI_ALifeUI_273725a160b86ab1": {
+      "tr": "Baskıncı kampı"
+    },
+    "IGUI_ALifeUI_3d696f3148d0f6ae": {
+      "tr": "Baskıncı hisarı"
+    },
+    "IGUI_ALifeUI_1b32afc75a91c700": {
+      "tr": "Pusu yuvası"
+    },
+    "IGUI_ALifeUI_1b31a7555a4e3550": {
+      "tr": "Pusu hattı"
+    },
+    "IGUI_ALifeUI_7d295ce64518d859": {
+      "tr": "Devriye noktası"
+    },
+    "IGUI_ALifeUI_300a38f15a28e859": {
+      "tr": "İleri karakol"
+    },
+    "IGUI_ALifeUI_57ed563074c715f9": {
+      "tr": "Askeri depo"
+    },
+    "IGUI_ALifeUI_4220148f3d271a44": {
+      "tr": "Yol kontrolü"
+    },
+    "IGUI_ALifeUI_2e7d168b1f74aad3": {
+      "tr": "Kontrol noktası denetimi"
+    },
+    "IGUI_ALifeUI_06650b2047d1be0d": {
+      "tr": "Saha istasyonu"
+    },
+    "IGUI_ALifeUI_4e0ea85b26ecaff0": {
+      "tr": "Çiftlik evi kampı"
+    },
+    "IGUI_ALifeUI_5eda958067a23088": {
+      "tr": "Çiftlik avlusu"
+    },
+    "IGUI_ALifeUI_52e50d007e1e4a5c": {
+      "tr": "Tüccar durağı"
+    },
+    "IGUI_ALifeUI_4c63300a25e56c6c": {
+      "tr": "Ticaret karakolu"
+    },
+    "IGUI_ALifeUI_5f20f0e61a99799b": {
+      "tr": "Hurdacı kampı"
+    },
+    "IGUI_ALifeUI_333d881a2e961620": {
+      "tr": "Hurdalık kampı"
+    },
+    "IGUI_ALifeUI_671e22741ae71eab": {
+      "tr": "Kır evi"
+    },
+    "IGUI_ALifeUI_4ce983496918b8f6": {
+      "tr": "Ahırlı çiftlik"
+    },
+    "IGUI_ALifeUI_295c92b87f64d5f2": {
+      "tr": "Pazar tezgahları"
+    },
+    "IGUI_ALifeUI_70eecf8626979650": {
+      "tr": "Depolu pazar"
+    },
+    "IGUI_ALifeUI_611857695e37f6fd": {
+      "tr": "Surlu üs"
+    },
+    "IGUI_ALifeUI_20665ad60391bdca": {
+      "tr": "Semt kliniği"
+    },
+    "IGUI_ALifeUI_3fdc22e05b3abae0": {
+      "tr": "İşgal edilmiş hurdalık"
+    },
+    "IGUI_ALifeUI_553c181f1876e7a2": {
+      "tr": "Çiftlik yerleşimi"
+    },
+    "IGUI_ALifeUI_167f09a835481425": {
+      "tr": "Zincirli kapı"
+    },
+    "IGUI_ALifeUI_418e53f10897e76a": {
+      "tr": "Kulübeli zincirli kapı"
+    },
+    "IGUI_ALifeUI_167eb8a235297011": {
+      "tr": "Zincirli kale"
+    },
+    "IGUI_ALifeUI_48cea0d42a0c57c3": {
+      "tr": "Saç duvarlı kamp"
+    },
+    "IGUI_ALifeUI_3a9e0cf67d7ad194": {
+      "tr": "Saç duvarlı hisar"
+    },
+    "IGUI_ALifeUI_081f34553c6992a3": {
+      "tr": "Çapraz ateş siperi"
+    },
+    "IGUI_ALifeUI_082167233cf2ce2d": {
+      "tr": "Çapraz ateş hattı"
+    },
+    "IGUI_ALifeUI_19d3b7b0321f906d": {
+      "tr": "Hurdalık"
+    },
+    "IGUI_ALifeUI_6c1754c078d9de78": {
+      "tr": "Atölyeli hurdalık"
+    },
+    "IGUI_ALifeUI_730411724308345e": {
+      "tr": "Nöbetçi kulübesi"
+    },
+    "IGUI_ALifeUI_6905e7d730b9987a": {
+      "tr": "Surlu ileri karakol"
+    },
+    "IGUI_ALifeUI_335616095bf11f43": {
+      "tr": "Çitli ikmal sahası"
+    },
+    "IGUI_ALifeUI_69a33d2d4820d670": {
+      "tr": "Ekip arabası barikatı"
+    },
+    "IGUI_ALifeUI_4956f97a4293a28a": {
+      "tr": "Nezarethaneli kontrol noktası"
+    },
+    "IGUI_ALifeUI_7c6d737a33581c0c": {
+      "tr": "Saha karakolu"
+    }
+  }
+}

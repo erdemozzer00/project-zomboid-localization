@@ -1,0 +1,2279 @@
+{
+  "_paket": "Y10R",
+  "_grup": "arayuz_b10",
+  "_dosya": "IG_UI",
+  "_plan": "B10",
+  "_noktalama": false,
+  "_bosluk_koru": true,
+  "_baslik": "Y10 yeniden çeviri · eski Türkçe gösterilmez",
+  "_parcalar": [
+    [
+      1,
+      240
+    ]
+  ],
+  "satirlar": {
+    "1": [
+      "IGUI_ALifeUI_10b564593d02cc03",
+      "Companion sheet",
+      [
+        "ALifeCompanionSheet.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "2": [
+      "IGUI_ALifeUI_56faac8937e190be",
+      "COMPANIONS",
+      [
+        "ALifeCompanionSheetAdmin.lua",
+        "title",
+        "title"
+      ]
+    ],
+    "3": [
+      "IGUI_ALifeUI_1ed259197d759a1b",
+      "No companions yet. Right-click a friendly survivor and ask them to come with you.",
+      [
+        "ALifeCompanionSheetUi.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "4": [
+      "IGUI_ALifeUI_1409c3b231d09d02",
+      "Pick a companion on the left.",
+      [
+        "ALifeCompanionSheetUi.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "5": [
+      "IGUI_ALifeUI_1e8c770949d516de",
+      "Click again to confirm",
+      [
+        "ALifeCompanionBar.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "6": [
+      "IGUI_ALifeUI_0e1e3a5626749ee5",
+      "Stats",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "7": [
+      "IGUI_ALifeUI_0e26330d357b44bc",
+      "Tasks",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "8": [
+      "IGUI_ALifeUI_4f8903547a9a6b4a",
+      "Journal",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "9": [
+      "IGUI_ALifeUI_7c85b9065b7ea32a",
+      "Gear",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "10": [
+      "IGUI_ALifeUI_16099edf0dd7f75f",
+      "First aid",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "11": [
+      "IGUI_ALifeUI_4ea1cab50c129dcc",
+      "Carpentry",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "12": [
+      "IGUI_ALifeUI_0db27ec83d495778",
+      "Music",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "13": [
+      "IGUI_ALifeUI_076b4bab402462e3",
+      "Foraging",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "14": [
+      "IGUI_ALifeUI_0c9e63c04b9e0837",
+      "Fighter",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "15": [
+      "IGUI_ALifeUI_74d976bb66a4ea0b",
+      "Builder",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "16": [
+      "IGUI_ALifeUI_7c83b3d35af8123b",
+      "Cook",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "17": [
+      "IGUI_ALifeUI_1b60571d70db23c9",
+      "Forager",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "18": [
+      "IGUI_ALifeUI_4df9446549face83",
+      "Musician",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "19": [
+      "IGUI_ALifeUI_390faf144acc414d",
+      "Companion",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "20": [
+      "IGUI_ALifeUI_6a688de07c640e1c",
+      "Devoted",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "21": [
+      "IGUI_ALifeUI_566eaf9f02646104",
+      "Urgent",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "22": [
+      "IGUI_ALifeUI_70da1151473de596",
+      "Getting low",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "23": [
+      "IGUI_ALifeUI_3e8aa6e6637fa4d7",
+      "Out of sight",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "24": [
+      "IGUI_ALifeUI_16bdbf741417c7d6",
+      "Waiting",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "25": [
+      "IGUI_ALifeUI_372d352057ae3f2f",
+      "Health",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "26": [
+      "IGUI_ALifeUI_3855c6f372463e74",
+      "Hunger",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "27": [
+      "IGUI_ALifeUI_5365e2a8579efa25",
+      "Thirst",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "28": [
+      "IGUI_ALifeUI_51ee982e2ff08c4b",
+      "Stress",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "29": [
+      "IGUI_ALifeUI_533907ca1d7ac450",
+      "Tiredness",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "30": [
+      "IGUI_ALifeUI_5146e91c10c23a96",
+      "Skills",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "31": [
+      "IGUI_ALifeUI_076377717dacb32e",
+      "{count} loaded",
+      [
+        "ALifeCompanionSheetData.lua",
+        "line",
+        "line"
+      ]
+    ],
+    "32": [
+      "IGUI_ALifeUI_087a7b611c3671ac",
+      "{count} spare",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "33": [
+      "IGUI_ALifeUI_0e2f8f0937c2f632",
+      "Trust",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "34": [
+      "IGUI_ALifeUI_20c412bb7c719d91",
+      "About to leave",
+      [
+        "ALifeCompanionSheetData.lua",
+        "text",
+        "text"
+      ]
+    ],
+    "35": [
+      "IGUI_ALifeUI_7c892f965c4f1a42",
+      "Mood",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "36": [
+      "IGUI_ALifeUI_7f8d3e0827791017",
+      "Thinking about leaving",
+      [
+        "ALifeCompanionSheetData.lua",
+        "text",
+        "text"
+      ]
+    ],
+    "37": [
+      "IGUI_ALifeUI_1f5a8dfd050785df",
+      "Joined today",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "38": [
+      "IGUI_ALifeUI_367901dc53000b6e",
+      "{count} days together",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "39": [
+      "IGUI_ALifeUI_6eef5584600b1d85",
+      "With you",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "40": [
+      "IGUI_ALifeUI_2eb0085641871a0a",
+      "You and them",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "41": [
+      "IGUI_ALifeUI_035be17134f3fd16",
+      "Guarding a spot",
+      [
+        "ALifeCompanionSheetData.lua",
+        "text",
+        "text"
+      ]
+    ],
+    "42": [
+      "IGUI_ALifeUI_1a9a50a46539dc0d",
+      "Up next",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "43": [
+      "IGUI_ALifeUI_143408c433ae5779",
+      "Room job",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "44": [
+      "IGUI_ALifeUI_753ac12126a48c64",
+      "Doing now",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "45": [
+      "IGUI_ALifeUI_32d48ac92922da11",
+      "Firing",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "46": [
+      "IGUI_ALifeUI_7649a6225fa5f022",
+      "Items on the ground",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "47": [
+      "IGUI_ALifeUI_0dc123c54e06a2ed",
+      "Noise",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "48": [
+      "IGUI_ALifeUI_0e2ddb07375b3c0a",
+      "Torch",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "49": [
+      "IGUI_ALifeUI_0e1e9f58267ae397",
+      "Style",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "50": [
+      "IGUI_ALifeUI_74c336c12e1e322d",
+      "Standing orders",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "51": [
+      "IGUI_ALifeUI_156d8d4365772de6",
+      "{count} rounds",
+      [
+        "ALifeCompanionSheetData.lua",
+        "text",
+        "text"
+      ]
+    ],
+    "52": [
+      "IGUI_ALifeUI_385f49541acfa24d",
+      "In the weapon",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "53": [
+      "IGUI_ALifeUI_1adb9c0625311567",
+      "Spare ammo",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "54": [
+      "IGUI_ALifeUI_0b87d88f172aa44e",
+      "Bag",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "55": [
+      "IGUI_ALifeUI_05d91b6708c26274",
+      "Items carried",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "56": [
+      "IGUI_ALifeUI_7f72f0e55a9310bf",
+      "Weight carried",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "57": [
+      "IGUI_ALifeUI_79b2980103e9bb1b",
+      "You helped a stranger",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "58": [
+      "IGUI_ALifeUI_7d09c30f7af2e4d4",
+      "You shared food",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "59": [
+      "IGUI_ALifeUI_1f6e2e2a12d54f05",
+      "You shared water",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "60": [
+      "IGUI_ALifeUI_4981b58454ae486b",
+      "You patched them up",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "61": [
+      "IGUI_ALifeUI_7d06fc717a46d9c0",
+      "You shared ammo",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "62": [
+      "IGUI_ALifeUI_4cb0eb8255c02a0b",
+      "You played it careful",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "63": [
+      "IGUI_ALifeUI_4cba3bc1378b3ae5",
+      "You played music",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "64": [
+      "IGUI_ALifeUI_33246e823dcc2555",
+      "You killed someone who gave up",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "65": [
+      "IGUI_ALifeUI_27594f0007b56c31",
+      "You killed a bystander",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "66": [
+      "IGUI_ALifeUI_5d0c43144751b21f",
+      "You robbed a friendly",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "67": [
+      "IGUI_ALifeUI_34a5674c7541c518",
+      "You left them behind",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "68": [
+      "IGUI_ALifeUI_6e6e95ea3400cf5a",
+      "Shots landed close by",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "69": [
+      "IGUI_ALifeUI_48ec355038855c2f",
+      "You hit them",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "70": [
+      "IGUI_ALifeUI_5e6abf5c72b8273e",
+      "You ignored them",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "71": [
+      "IGUI_ALifeUI_465701397b3294ef",
+      "Something happened between you",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "72": [
+      "IGUI_ALifeUI_255cc99c57faed79",
+      "Noticed a piano",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "73": [
+      "IGUI_ALifeUI_7c2adcca2bdc2003",
+      "Noticed an arcade machine",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "74": [
+      "IGUI_ALifeUI_28b1b64452c43830",
+      "Noticed a bathtub",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "75": [
+      "IGUI_ALifeUI_70d5da680de3a3b5",
+      "Noticed something playing music",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "76": [
+      "IGUI_ALifeUI_3cd530ba01795cd0",
+      "Noticed a guitar",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "77": [
+      "IGUI_ALifeUI_70984bb02e35abde",
+      "Noticed a television",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "78": [
+      "IGUI_ALifeUI_257ca3b47a04b3cf",
+      "Noticed a radio",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "79": [
+      "IGUI_ALifeUI_2eb79298797028bf",
+      "Noticed a fireplace",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "80": [
+      "IGUI_ALifeUI_19d79d1a730036a8",
+      "Noticed something",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "81": [
+      "IGUI_ALifeUI_34cddc1853391252",
+      "Joined you",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "82": [
+      "IGUI_ALifeUI_584816f63cc40628",
+      "Parted ways",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "83": [
+      "IGUI_ALifeUI_7c84255d5b18c87b",
+      "Died",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "84": [
+      "IGUI_ALifeUI_17f247f552dc4bc4",
+      "Now sees you as: {level}",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "85": [
+      "IGUI_ALifeUI_2cc73d6940116305",
+      "Wanted a word",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "86": [
+      "IGUI_ALifeUI_5328f7f54d371bba",
+      "Picked up: {item}",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "87": [
+      "IGUI_ALifeUI_2f0f639a0eb080d0",
+      "Picked something up",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "88": [
+      "IGUI_ALifeUI_24e184a32b417498",
+      "Day {day}",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "89": [
+      "IGUI_ALifeUI_6d8d74a631643642",
+      "Cancel order",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "90": [
+      "IGUI_ALifeUI_3d6c503a58990084",
+      "Part ways",
+      [
+        "ALifeCompanionSheetData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "91": [
+      "IGUI_ALifeUI_0b568e6e37a43f18",
+      "Nothing written down yet",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "92": [
+      "IGUI_ALifeUI_4e0e7f4c5effd95d",
+      "Nothing to show yet",
+      [
+        "ALifeCompanionSheetData.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "93": [
+      "IGUI_ALifeUI_7b086adc77b9b9c2",
+      "Favours",
+      [
+        "ALifeCompanionSheetPanels.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "94": [
+      "IGUI_ALifeUI_73c30ef831023ae7",
+      "Complaints",
+      [
+        "ALifeCompanionSheetPanels.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "95": [
+      "IGUI_ALifeUI_6cd8a4ce09497e91",
+      "What they are carrying",
+      [
+        "ALifeCompanionSheetGear.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "96": [
+      "IGUI_ALifeUI_7c8cca2c5d3b8cf6",
+      "Take",
+      [
+        "ALifeCompanionSheetGear.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "97": [
+      "IGUI_ALifeUI_1ad2816729ce78be",
+      "Unequip",
+      [
+        "ALifeCompanionSheetGear.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "98": [
+      "IGUI_ALifeUI_0d1f91cb3052f490",
+      "Equip",
+      [
+        "ALifeCompanionSheetGear.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "99": [
+      "IGUI_ALifeUI_7c844cfc5b1b28f6",
+      "Drop",
+      [
+        "ALifeCompanionSheetGear.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "100": [
+      "IGUI_ALifeUI_3a01bbce687a9b54",
+      "In use",
+      [
+        "ALifeCompanionSheetGear.lua",
+        "tag",
+        "tag"
+      ]
+    ],
+    "101": [
+      "IGUI_ALifeUI_7c8eabcd5da623e3",
+      "Worn",
+      [
+        "ALifeCompanionSheetGear.lua",
+        "tag",
+        "tag"
+      ]
+    ],
+    "102": [
+      "IGUI_ALifeUI_0ff553c07a1cf3db",
+      "Back to their items",
+      [
+        "ALifeCompanionSheetGear.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "103": [
+      "IGUI_ALifeUI_1f5d58ef105839db",
+      "Give an item",
+      [
+        "ALifeCompanionSheetGear.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "104": [
+      "IGUI_ALifeUI_7439a93c34afb236",
+      "Open full inventory",
+      [
+        "ALifeCompanionSheetGear.lua",
+        "open",
+        "open"
+      ]
+    ],
+    "105": [
+      "IGUI_ALifeUI_44b77dbe52674e70",
+      "View only. Only their owner can move items.",
+      [
+        "ALifeCompanionSheetGear.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "106": [
+      "IGUI_ALifeUI_0e33f99923eb7bc7",
+      "Carrying",
+      [
+        "ALifeCompanionSheetGear.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "107": [
+      "IGUI_ALifeUI_27bf98183be29c25",
+      "Give from your items",
+      [
+        "ALifeCompanionSheetGear.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "108": [
+      "IGUI_ALifeUI_17ddef7b349abd55",
+      "You have nothing to give",
+      [
+        "ALifeCompanionSheetGear.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "109": [
+      "IGUI_ALifeUI_7c85ccb25b7fba00",
+      "Give",
+      [
+        "ALifeCompanionSheetGear.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "110": [
+      "IGUI_ALifeUI_01c7356b35be7477",
+      "They are carrying nothing",
+      [
+        "ALifeCompanionSheetGear.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "111": [
+      "IGUI_ALifeUI_3de712fb65f34d98",
+      "{count} more items are not shown",
+      [
+        "ALifeCompanionSheetGear.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "112": [
+      "IGUI_ALifeUI_0da94b8c128e29f3",
+      "Food and water",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "113": [
+      "IGUI_ALifeUI_0e2dcf78375a7795",
+      "Tools",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "114": [
+      "IGUI_ALifeUI_0dd5f429603f931f",
+      "Other",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "115": [
+      "IGUI_ALifeUI_4374b4b92db161ce",
+      "Inventory access is turned off",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "116": [
+      "IGUI_ALifeUI_02d062374e06e339",
+      "They are not here",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "117": [
+      "IGUI_ALifeUI_5f63fc904afaea03",
+      "Only their owner can do that",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "118": [
+      "IGUI_ALifeUI_584a7a7720507060",
+      "Stand closer to them",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "119": [
+      "IGUI_ALifeUI_55f715c558d1a1b5",
+      "That item is no longer there",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "120": [
+      "IGUI_ALifeUI_4c161ceb10451145",
+      "They are using that weapon. Unequip it first",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "121": [
+      "IGUI_ALifeUI_710b843125071f50",
+      "They are wearing that",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "122": [
+      "IGUI_ALifeUI_7019bf6d7ab9a5cf",
+      "Too heavy to carry",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "123": [
+      "IGUI_ALifeUI_42dc44036fb3c0ef",
+      "One moment",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "124": [
+      "IGUI_ALifeUI_011d91a1381b0544",
+      "They will not use that weapon",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "125": [
+      "IGUI_ALifeUI_4f267e635129936b",
+      "That is not a weapon",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "126": [
+      "IGUI_ALifeUI_5fe79412216e0e31",
+      "That is not possible",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "127": [
+      "IGUI_ALifeUI_0e26103a3579295d",
+      "Taken",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "128": [
+      "IGUI_ALifeUI_0d3f6380525c3555",
+      "Given",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "129": [
+      "IGUI_ALifeUI_3cb33a2831fcfa82",
+      "Equipped",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "130": [
+      "IGUI_ALifeUI_15e68edb500ce279",
+      "Unequipped. You can take it now",
+      [
+        "ALifeCompanionInventory.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "131": [
+      "IGUI_ALifeUI_0dcdcfaa3d88ffc1",
+      "They join you and follow your lead",
+      [
+        "ALifeCompanionTalk.lua",
+        "impact",
+        "impact"
+      ]
+    ],
+    "132": [
+      "IGUI_ALifeUI_588c67d95b172bdb",
+      "You can part ways any time",
+      [
+        "ALifeCompanionTalk.lua",
+        "risk",
+        "risk"
+      ]
+    ],
+    "133": [
+      "IGUI_ALifeUI_6d3c152b44a1b478",
+      "They fall in behind you",
+      [
+        "ALifeCompanionTalk.lua",
+        "impact",
+        "impact"
+      ]
+    ],
+    "134": [
+      "IGUI_ALifeUI_11ea38e53821cfaf",
+      "Hold here",
+      [
+        "ALifeCompanionTalk.lua",
+        "text",
+        "text"
+      ]
+    ],
+    "135": [
+      "IGUI_ALifeUI_7fdb4c272787cb00",
+      "They stay put and watch",
+      [
+        "ALifeCompanionTalk.lua",
+        "impact",
+        "impact"
+      ]
+    ],
+    "136": [
+      "IGUI_ALifeUI_260426e90ea87066",
+      "Stack up on this door",
+      [
+        "ALifeCompanionTalk.lua",
+        "text",
+        "text"
+      ]
+    ],
+    "137": [
+      "IGUI_ALifeUI_254c79ca6f481b17",
+      "They line up beside the nearest door and wait",
+      [
+        "ALifeCompanionTalk.lua",
+        "impact",
+        "impact"
+      ]
+    ],
+    "138": [
+      "IGUI_ALifeUI_494028e643819c2e",
+      "Needs a door close by",
+      [
+        "ALifeCompanionTalk.lua",
+        "risk",
+        "risk"
+      ]
+    ],
+    "139": [
+      "IGUI_ALifeUI_561b7c9c34c98d3b",
+      "Stop the bleeding",
+      [
+        "ALifeInjuredMenu.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "140": [
+      "IGUI_ALifeUI_000641ce028b6224",
+      "Splint the leg",
+      [
+        "ALifeInjuredMenu.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "141": [
+      "IGUI_ALifeUI_153054d610ce74fb",
+      "Give painkillers",
+      [
+        "ALifeInjuredMenu.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "142": [
+      "IGUI_ALifeUI_18d58fee3dee6d4a",
+      "Give water",
+      [
+        "ALifeInjuredMenu.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "143": [
+      "IGUI_ALifeUI_5da36fa93a572b03",
+      "Mercy kill",
+      [
+        "ALifeInjuredMenu.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "144": [
+      "IGUI_ALifeUI_499764616fe0a8b1",
+      "Parked",
+      [
+        "ALifeSquadMapOverlay.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "145": [
+      "IGUI_ALifeUI_1dbbb5e729a89d35",
+      "Left behind",
+      [
+        "ALifeSquadMapOverlay.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "146": [
+      "IGUI_ALifeUI_7c8646c95ba0f65d",
+      "Heli",
+      [
+        "ALifeSquadMapOverlay.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "147": [
+      "IGUI_ALifeUI_14fadadf64a5d11b",
+      "Planned",
+      [
+        "ALifeSquadMapOverlay.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "148": [
+      "IGUI_ALifeUI_206aecaa31df445b",
+      "Fighting",
+      [
+        "ALifeSquadMapOverlay.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "149": [
+      "IGUI_ALifeUI_3734a74d12e28d97",
+      "Routes: on",
+      [
+        "ALifeSquadMapOverlay.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "150": [
+      "IGUI_ALifeUI_1dc9905929ee71fc",
+      "Routes: off",
+      [
+        "ALifeSquadMapOverlay.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "151": [
+      "IGUI_ALifeUI_146c7f55073a822f",
+      "Just got out",
+      [
+        "ALifeSquadMapOverlay.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "152": [
+      "IGUI_ALifeUI_4d22b6c2751eb66f",
+      "Session only",
+      [
+        "ALifeSquadMapOverlay.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "153": [
+      "IGUI_ALifeUI_0fdf452420b7db54",
+      "Labels: smart",
+      [
+        "ALifeSquadMapOverlay.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "154": [
+      "IGUI_ALifeUI_6282d81078e3e3ba",
+      "Labels: all",
+      [
+        "ALifeSquadMapOverlay.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "155": [
+      "IGUI_ALifeUI_32e508805e5c4cb4",
+      "Labels: none",
+      [
+        "ALifeSquadMapOverlay.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "156": [
+      "IGUI_ALifeUI_28f4000e1228c13f",
+      "Search squads",
+      [
+        "ALifeSquadMapOverlay.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "157": [
+      "IGUI_ALifeUI_3fc8802558c8c5be",
+      "In a car",
+      [
+        "ALifeSquadMapGlyphs.lua",
+        "liste",
+        "liste Glyphs"
+      ]
+    ],
+    "158": [
+      "IGUI_ALifeUI_0ed6b48d3f698bb8",
+      "In a helicopter",
+      [
+        "ALifeSquadMapGlyphs.lua",
+        "liste",
+        "liste Glyphs"
+      ]
+    ],
+    "159": [
+      "IGUI_ALifeUI_005978fa35eaeb52",
+      "of",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "liste",
+        "liste Tip"
+      ]
+    ],
+    "160": [
+      "IGUI_ALifeUI_196e109f60e99eb5",
+      "Family group",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "family",
+        "family"
+      ]
+    ],
+    "161": [
+      "IGUI_ALifeUI_4c92bada5c163cdc",
+      "Federation crew",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "federation",
+        "federation"
+      ]
+    ],
+    "162": [
+      "IGUI_ALifeUI_094e6dbc206ea285",
+      "Rescue crew",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "rescue",
+        "rescue"
+      ]
+    ],
+    "163": [
+      "IGUI_ALifeUI_437d62ab791b2e0d",
+      "Criminals",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "crime",
+        "crime"
+      ]
+    ],
+    "164": [
+      "IGUI_ALifeUI_7c85a9a45b7d9da2",
+      "Gang",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "gang",
+        "gang"
+      ]
+    ],
+    "165": [
+      "IGUI_ALifeUI_0c5f5c90735e35d0",
+      "Elite unit",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "elite",
+        "elite"
+      ]
+    ],
+    "166": [
+      "IGUI_ALifeUI_5f8dcbff44221dad",
+      "Prison group",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "prison",
+        "prison"
+      ]
+    ],
+    "167": [
+      "IGUI_ALifeUI_6081bfda15023ef2",
+      "Helicopter circling",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "heli_orbit",
+        "heli_orbit"
+      ]
+    ],
+    "168": [
+      "IGUI_ALifeUI_6b2c07b61aa9da03",
+      "Helicopter flying over",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "heli_pass",
+        "heli_pass"
+      ]
+    ],
+    "169": [
+      "IGUI_ALifeUI_78b998ac59da46d0",
+      "Helicopter dropping a crew",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "heli_drop",
+        "heli_drop"
+      ]
+    ],
+    "170": [
+      "IGUI_ALifeUI_137730d43bc39866",
+      "Camping",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "camp",
+        "camp"
+      ]
+    ],
+    "171": [
+      "IGUI_ALifeUI_29c453bb05e90c80",
+      "Standing guard",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "guard",
+        "guard"
+      ]
+    ],
+    "172": [
+      "IGUI_ALifeUI_15d1c99c0a727994",
+      "Raiding",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "raid",
+        "raid"
+      ]
+    ],
+    "173": [
+      "IGUI_ALifeUI_5cf630555e41b8f5",
+      "Holding a roadblock",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "blockade",
+        "blockade"
+      ]
+    ],
+    "174": [
+      "IGUI_ALifeUI_19d59dbb70f90a7b",
+      "Defending a site",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "poi_defenders",
+        "poi_defenders"
+      ]
+    ],
+    "175": [
+      "IGUI_ALifeUI_5109fbcc3bd0a04c",
+      "Holding an outpost",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "outpost",
+        "outpost"
+      ]
+    ],
+    "176": [
+      "IGUI_ALifeUI_79b947b23a927fd2",
+      "Hunting a survivor",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "assassination",
+        "assassination"
+      ]
+    ],
+    "177": [
+      "IGUI_ALifeUI_655cc44f6ac6b837",
+      "Attacking",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "assault",
+        "assault"
+      ]
+    ],
+    "178": [
+      "IGUI_ALifeUI_754b0a3c68a05063",
+      "Robbing someone",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "rob",
+        "rob"
+      ]
+    ],
+    "179": [
+      "IGUI_ALifeUI_502b4c855816bb58",
+      "Escorting",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "escort",
+        "escort"
+      ]
+    ],
+    "180": [
+      "IGUI_ALifeUI_610bc7f23a94f74c",
+      "Patrolling",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "patrol",
+        "patrol"
+      ]
+    ],
+    "181": [
+      "IGUI_ALifeUI_74ef4f29407a301c",
+      "Circling",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "orbit",
+        "orbit"
+      ]
+    ],
+    "182": [
+      "IGUI_ALifeUI_0f3e635e347fc62a",
+      "Rejoining the group",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "rejoin",
+        "rejoin"
+      ]
+    ],
+    "183": [
+      "IGUI_ALifeUI_39c1f40c73bb3bc9",
+      "Moving forward",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "forward",
+        "forward"
+      ]
+    ],
+    "184": [
+      "IGUI_ALifeUI_56a77d1049fd7223",
+      "Garrisoned",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "garrisoned",
+        "garrisoned"
+      ]
+    ],
+    "185": [
+      "IGUI_ALifeUI_1fe4273a2a31a5a5",
+      "Resting",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "idle",
+        "idle"
+      ]
+    ],
+    "186": [
+      "IGUI_ALifeUI_07731f282c279df5",
+      "standing guard",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "hold",
+        "hold"
+      ]
+    ],
+    "187": [
+      "IGUI_ALifeUI_7bee35f520173678",
+      "holding position",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "hold_pressure",
+        "hold_pressure"
+      ]
+    ],
+    "188": [
+      "IGUI_ALifeUI_038e0b4420fb2982",
+      "resting on patrol",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "patrol_rest",
+        "patrol_rest"
+      ]
+    ],
+    "189": [
+      "IGUI_ALifeUI_57fbf2dd6ee2cb5b",
+      "watching the area",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "scan",
+        "scan"
+      ]
+    ],
+    "190": [
+      "IGUI_ALifeUI_0b39fa275eb09339",
+      "searching a body",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "search_body",
+        "search_body"
+      ]
+    ],
+    "191": [
+      "IGUI_ALifeUI_16451603060aedaa",
+      "collecting supplies",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "collect_supplies",
+        "collect_supplies"
+      ]
+    ],
+    "192": [
+      "IGUI_ALifeUI_6d63908972d375a8",
+      "searching a container",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "search_container",
+        "search_container"
+      ]
+    ],
+    "193": [
+      "IGUI_ALifeUI_176f307b10650db4",
+      "warming up",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "warming",
+        "warming"
+      ]
+    ],
+    "194": [
+      "IGUI_ALifeUI_40da322c38f296fe",
+      "dropping off supplies",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "deposit_supplies",
+        "deposit_supplies"
+      ]
+    ],
+    "195": [
+      "IGUI_ALifeUI_4800029b5464b863",
+      "catching their breath",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "recover_endurance",
+        "recover_endurance"
+      ]
+    ],
+    "196": [
+      "IGUI_ALifeUI_066a23df7a94f6b0",
+      "on the radio",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "radio_call",
+        "radio_call"
+      ]
+    ],
+    "197": [
+      "IGUI_ALifeUI_456d6e9f41f7a6e1",
+      "avoiding zombies",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "avoid_zombies",
+        "avoid_zombies"
+      ]
+    ],
+    "198": [
+      "IGUI_ALifeUI_08d2daa00176d9ff",
+      "visiting",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "visit_hold",
+        "visit_hold"
+      ]
+    ],
+    "199": [
+      "IGUI_ALifeUI_172ec6ce6a534f82",
+      "barricading",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "fortify_opening",
+        "fortify_opening"
+      ]
+    ],
+    "200": [
+      "IGUI_ALifeUI_0477b22a11d9fc68",
+      "treating a wounded friend",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "treat_groupmate",
+        "treat_groupmate"
+      ]
+    ],
+    "201": [
+      "IGUI_ALifeUI_58dbae3009e563d0",
+      "in a standoff",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "standoff_hold",
+        "standoff_hold"
+      ]
+    ],
+    "202": [
+      "IGUI_ALifeUI_4d06d958594e844a",
+      "dragging a wounded friend",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "rescue_drag",
+        "rescue_drag"
+      ]
+    ],
+    "203": [
+      "IGUI_ALifeUI_64f9410260da6f63",
+      "frozen with fear",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "panic_freeze",
+        "panic_freeze"
+      ]
+    ],
+    "204": [
+      "IGUI_ALifeUI_158cb73474ed2a0d",
+      "sitting",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "idle_sit_ground",
+        "idle_sit_ground"
+      ]
+    ],
+    "205": [
+      "IGUI_ALifeUI_3348fe8a001aa50c",
+      "Car parked nearby",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "parked",
+        "parked"
+      ]
+    ],
+    "206": [
+      "IGUI_ALifeUI_7b62538827f06b8a",
+      "Car left behind",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "abandoned",
+        "abandoned"
+      ]
+    ],
+    "207": [
+      "IGUI_ALifeUI_480e593130edb054",
+      "On foot",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "foot",
+        "foot"
+      ]
+    ],
+    "208": [
+      "IGUI_ALifeUI_0d0c2e181e7d8123",
+      "Doing",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "doing",
+        "doing"
+      ]
+    ],
+    "209": [
+      "IGUI_ALifeUI_0d443734538f22bb",
+      "Group",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "group",
+        "group"
+      ]
+    ],
+    "210": [
+      "IGUI_ALifeUI_5f98bbc8445bf914",
+      "Going to",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "going",
+        "going"
+      ]
+    ],
+    "211": [
+      "IGUI_ALifeUI_7c8565bb5b5fc429",
+      "From",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "home",
+        "home"
+      ]
+    ],
+    "212": [
+      "IGUI_ALifeUI_0d06956e1d24a76b",
+      "Debug",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "debug",
+        "debug"
+      ]
+    ],
+    "213": [
+      "IGUI_ALifeUI_2d973a5b2522ccd6",
+      "Danger",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "danger",
+        "danger"
+      ]
+    ],
+    "214": [
+      "IGUI_ALifeUI_3e1da98604f7ff69",
+      "Next squad",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "next",
+        "next"
+      ]
+    ],
+    "215": [
+      "IGUI_ALifeUI_6b43d7fb73be84a1",
+      "Squads out",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "out",
+        "out"
+      ]
+    ],
+    "216": [
+      "IGUI_ALifeUI_10b89c3c7077f8d8",
+      "game time",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "game",
+        "game"
+      ]
+    ],
+    "217": [
+      "IGUI_ALifeUI_5423ab1f608c052f",
+      "In a fight",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "fight",
+        "fight"
+      ]
+    ],
+    "218": [
+      "IGUI_ALifeUI_6490f6867e29ca48",
+      "arrives in",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "arrives",
+        "arrives"
+      ]
+    ],
+    "219": [
+      "IGUI_ALifeUI_33a3091672401602",
+      "marked encounter",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "encounter",
+        "encounter"
+      ]
+    ],
+    "220": [
+      "IGUI_ALifeUI_203bd83f2a083d4f",
+      "Right-click for actions",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "hint",
+        "hint"
+      ]
+    ],
+    "221": [
+      "IGUI_ALifeUI_555b4e9b6075054e",
+      "far away",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "far",
+        "far"
+      ]
+    ],
+    "222": [
+      "IGUI_ALifeUI_3b9440611bd2b3ee",
+      "more lines",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "more",
+        "more"
+      ]
+    ],
+    "223": [
+      "IGUI_ALifeUI_3dd768931a8b251b",
+      "under a minute",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "under",
+        "under"
+      ]
+    ],
+    "224": [
+      "IGUI_ALifeUI_2978a3c0585fa9c6",
+      "This session only",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "session",
+        "session"
+      ]
+    ],
+    "225": [
+      "IGUI_ALifeUI_2bd29838639fd3c0",
+      "Saved with the world",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "saved",
+        "saved"
+      ]
+    ],
+    "226": [
+      "IGUI_ALifeUI_4e38dee21b9394a1",
+      "Guarding an outpost",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "garrison",
+        "garrison"
+      ]
+    ],
+    "227": [
+      "IGUI_ALifeUI_2f13af8d39f9dd60",
+      "Marked encounter",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "marked",
+        "marked"
+      ]
+    ],
+    "228": [
+      "IGUI_ALifeUI_31021d951e1cb23f",
+      "Outpost squad out",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "outpostSquad",
+        "outpostSquad"
+      ]
+    ],
+    "229": [
+      "IGUI_ALifeUI_4a90186637259d33",
+      "squad(s) sent out",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "sentOut",
+        "sentOut"
+      ]
+    ],
+    "230": [
+      "IGUI_ALifeUI_1c5ef4fc6c36d752",
+      "squads",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "squads",
+        "squads"
+      ]
+    ],
+    "231": [
+      "IGUI_ALifeUI_763bae2f5c6e2d6d",
+      "Site is",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "siteIs",
+        "siteIs"
+      ]
+    ],
+    "232": [
+      "IGUI_ALifeUI_0403f2cb2c5880c1",
+      "this site type sends no squads",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "preset",
+        "preset"
+      ]
+    ],
+    "233": [
+      "IGUI_ALifeUI_3b36a8db701ca0cd",
+      "team limit is 0 in sandbox",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "sandbox",
+        "sandbox"
+      ]
+    ],
+    "234": [
+      "IGUI_ALifeUI_41e6fe380f1aa0f9",
+      "lowered by an admin",
+      [
+        "ALifeSquadMapTooltip.lua",
+        "admin",
+        "admin"
+      ]
+    ],
+    "235": [
+      "IGUI_ALifeUI_14834b90263b8507",
+      "people",
+      [
+        "ALifeCompanionRules.lua",
+        "weapons",
+        "SÖZCÜK · CompanionRules"
+      ]
+    ],
+    "236": [
+      "IGUI_ALifeUI_0059783c35eae848",
+      "in",
+      [
+        "ALifeCompanionRules.lua",
+        "ride",
+        "SÖZCÜK · CompanionRules"
+      ]
+    ],
+    "237": [
+      "IGUI_ALifeUI_0fa5ea463808917d",
+      "foraging",
+      [
+        "ALifeCompanionRules.lua",
+        "liste",
+        "SÖZCÜK · CompanionRules"
+      ]
+    ],
+    "238": [
+      "IGUI_ALifeUI_20d9e3923dee0673",
+      "Arianne",
+      [
+        "ALifeCompanionRules.lua",
+        "name",
+        "SÖZCÜK · CompanionRules"
+      ]
+    ],
+    "239": [
+      "IGUI_ALifeUI_3440dcbf1f6fb3ff",
+      "Cooking",
+      [
+        "ALifeCompanions.lua",
+        "cooking",
+        "SÖZCÜK · Companions"
+      ]
+    ],
+    "240": [
+      "IGUI_ALifeUI_76ea3b03763ed0be",
+      "Mechanics",
+      [
+        "ALifeCompanions.lua",
+        "mechanics",
+        "SÖZCÜK · Companions"
+      ]
+    ]
+  },
+  "_terimler": [
+    [
+      "Gear",
+      "Teçhizat"
+    ],
+    [
+      "Companion",
+      "Yol arkadaşı"
+    ],
+    [
+      "Survivor",
+      "Hayatta kalan"
+    ],
+    [
+      "weapon",
+      "Silah"
+    ],
+    [
+      "ammo",
+      "Mermi"
+    ],
+    [
+      "friendly",
+      "Dost"
+    ],
+    [
+      "they are carrying",
+      "Üstünde şunlar var"
+    ],
+    [
+      "water",
+      "Su"
+    ],
+    [
+      "cancel",
+      "İptal"
+    ],
+    [
+      "Hold",
+      "Dur"
+    ],
+    [
+      "Outpost",
+      "Karakol"
+    ],
+    [
+      "Squad",
+      "Tim"
+    ],
+    [
+      "Crew",
+      "Ekip"
+    ],
+    [
+      "Group",
+      "Grup"
+    ],
+    [
+      "Encounter",
+      "Karşılaşma"
+    ],
+    [
+      "helicopter",
+      "Helikopter"
+    ],
+    [
+      "saved",
+      "Kaydedildi"
+    ],
+    [
+      "camping",
+      "kamp yapıyor"
+    ],
+    [
+      "criminal",
+      "Suçlu"
+    ],
+    [
+      "elite",
+      "Seçkin"
+    ],
+    [
+      "painkillers",
+      "Ağrı kesici"
+    ],
+    [
+      "patrol",
+      "Devriye"
+    ],
+    [
+      "patrolling",
+      "devriye geziyor"
+    ],
+    [
+      "rescue",
+      "Kurtarma"
+    ],
+    [
+      "search",
+      "Arama"
+    ]
+  ]
+}

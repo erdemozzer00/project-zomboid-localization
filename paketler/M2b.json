@@ -1,0 +1,379 @@
+{
+  "_paket": "M2b — 1.5.2 yeni Sandbox seçenekleri, 124 (çeviri: harici AI; kalite incelemesi yapılmadı)",
+  "_dosya": "Sandbox",
+  "satirlar": {
+    "Sandbox_ProjectALife_0Switches": {
+      "tr": "A-Life: Özellikler"
+    },
+    "Sandbox_ProjectALife_2Aircraft": {
+      "tr": "A-Life: Hava Araçları"
+    },
+    "Sandbox_ProjectALife_2Cars": {
+      "tr": "A-Life: Arabalar ve Araçlar"
+    },
+    "Sandbox_ProjectALife_2Weapons": {
+      "tr": "A-Life: Silahlar"
+    },
+    "Sandbox_ProjectALife.LoadoutsGunMode": {
+      "tr": "NPC ateşli silah kaynağı"
+    },
+    "Sandbox_ProjectALife.LoadoutsGunMode_tooltip": {
+      "tr": "Fraksiyon kadrosu: her fraksiyon kendi ateşli silahlarını korur. Sabit yüzde: hazır NPC'lerin kaçının ateşli silah taşıyacağını sonraki ayar belirler. Oluşturucu profilleri değişmez.\nVarsayılan: Fraksiyon kadrosu (varsayılan).",
+      "not": "Kullanıcı onayıyla varsayılan metni option1 adıyla mekanik olarak eşitlendi."
+    },
+    "Sandbox_ProjectALife.LoadoutsGunMode_option1": {
+      "tr": "Fraksiyon kadrosu (varsayılan)"
+    },
+    "Sandbox_ProjectALife.LoadoutsGunMode_option2": {
+      "tr": "NPC'lerin sabit yüzdesi ateşli silah taşır"
+    },
+    "Sandbox_ProjectALife.LoadoutsGunPercent": {
+      "tr": "Ateşli silah taşıyan NPC'ler (yüzde)"
+    },
+    "Sandbox_ProjectALife.LoadoutsGunPercent_tooltip": {
+      "tr": "Yalnızca Sabit yüzde seçiliyken kullanılır: 10, on hazır NPC'den birinin ateşli silah taşıması demek; 100'de fraksiyonunun silahsız bıraktıkları dahil hepsi taşır. Kayıt yeniden yüklenince değişmez.\nVarsayılan: 100."
+    },
+    "Sandbox_ProjectALife.FeatureJuggernauts": {
+      "tr": "Ağır Zırhlılar"
+    },
+    "Sandbox_ProjectALife.FeatureJuggernauts_tooltip": {
+      "tr": "Kapalı: baskınlarda da başka yerlerde de hiç Ağır Zırhlı NPC oluşturulmaz.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FeatureEndings": {
+      "tr": "Sonlar ve Oris kulesi"
+    },
+    "Sandbox_ProjectALife.FeatureEndings_tooltip": {
+      "tr": "Kapalı: 365. gündeki son, sinematiği ve Oris kulesi savaşı hiç başlamaz. Hiçbir sayaç işlemez.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FeatureRadio": {
+      "tr": "Radyo ve saha bandı"
+    },
+    "Sandbox_ProjectALife.FeatureRadio_tooltip": {
+      "tr": "Kapalı: A-Life radyo yayını, saha bandı konuşması ya da sayı istasyonu eklemez.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FeatureVisitors": {
+      "tr": "Ziyaretçiler ve tüccarlar"
+    },
+    "Sandbox_ProjectALife.FeatureVisitors_tooltip": {
+      "tr": "Kapalı: oyuncu üssüne hiç ziyaretçi ya da tüccar gelmez, ziyaretçi olayları çalışmaz.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FeatureQuests": {
+      "tr": "Görevler, işler ve operasyonlar"
+    },
+    "Sandbox_ProjectALife.FeatureQuests_tooltip": {
+      "tr": "Kapalı: NPC'ler Left Behind dahil hiçbir iş, operasyon ya da görev vermez. İş panosu ve işaretler de olmaz.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FeatureSpeechBubbles": {
+      "tr": "Konuşma balonları"
+    },
+    "Sandbox_ProjectALife.FeatureSpeechBubbles_tooltip": {
+      "tr": "Kapalı: NPC'lerin başının üstünde konuşma balonu çıkmaz. Diyalog pencereleri etkilenmez.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FeatureNpcCars": {
+      "tr": "Araba süren NPC'ler"
+    },
+    "Sandbox_ProjectALife.FeatureNpcCars_tooltip": {
+      "tr": "Bütün NPC araç sistemlerinin ana anahtarı: NPC arabaları, sanal trafik, arabayla gelişler, araba karşılaşmaları, araba eylemleri ve çevrimdışı araba simülasyonu. Kapalı: hiçbir NPC araba sürmez, hiç NPC arabası oluşmaz.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FeatureDriveBys": {
+      "tr": "Arabadan saldırı"
+    },
+    "Sandbox_ProjectALife.FeatureDriveBys_tooltip": {
+      "tr": "Kapalı: NPC arabaları geçerken ateş açmaz, pusu kurmaz.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FeaturePoliceResponse": {
+      "tr": "Polis müdahalesi"
+    },
+    "Sandbox_ProjectALife.FeaturePoliceResponse_tooltip": {
+      "tr": "Kapalı: polis arabaları ve memurlar suça, silah sesine ya da alarma gelmez.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FeatureSpecialWeapons": {
+      "tr": "Özel silahlar"
+    },
+    "Sandbox_ProjectALife.FeatureSpecialWeapons_tooltip": {
+      "tr": "Kapalı: NPC'lere ağır makineli tüfek ya da JS-5 SMG verilmez. Yerine sıradan silah kullanırlar.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FeatureReputation": {
+      "tr": "İtibar"
+    },
+    "Sandbox_ProjectALife.FeatureReputation_tooltip": {
+      "tr": "Kapalı: itibar izlenmez: kazanç, kayıp, çubuk ve bildirim olmaz; NPC'ler fraksiyon varsayılanını kullanır, itibara bağlı konuşmalar açık olur. Kayıtlı itibar korunur.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FeatureOutpostFastBuild": {
+      "tr": "Hızlı karakol inşası"
+    },
+    "Sandbox_ProjectALife.FeatureOutpostFastBuild_tooltip": {
+      "tr": "Açık: yüklü alandaki karakol yerleri birkaç tik içinde hızla kurulur, önce sabit kontrol noktaları; bekleyen yer de alanı yüklendiği an kurulur. Kapalı: her turda tek inşa bütçesi.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FeatureOutpostCrewAccess": {
+      "tr": "Karakol ekiplerine çıkış yolu"
+    },
+    "Sandbox_ProjectALife.FeatureOutpostCrewAccess_tooltip": {
+      "tr": "Açık: karakollar ekibe geçit bırakır, son açık kapı tahtayla kapatılmaz, barikatlar en son kurulur; kendi barikatının arkasında 90 saniye mahsur kalan ekip onu söker. Kapalı: eski yerleşim.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FeatureCustomAnimations": {
+      "tr": "Özel animasyonlar"
+    },
+    "Sandbox_ProjectALife.FeatureCustomAnimations_tooltip": {
+      "tr": "Açık: NPC'ler A-Life animasyon setlerini kullanır (asker ve polis yürüyüşleri ve tutuşları, çömelme, diz çökme ve yere yatma pozları, özel ölüm, vurulma ve iple iniş klipleri). Kapalı: NPC'ler yalnızca oyunun kendi animasyonlarını kullanır; hareket, çatışma ve ölüm çalışmaya devam eder. Değiştirdikten sonra kaydı yeniden yükle.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.HeliMusic": {
+      "tr": "Helikopter müziği"
+    },
+    "Sandbox_ProjectALife.HeliMusic_tooltip": {
+      "tr": "Bazı helikopter geçişlerinde müzik çalar. Kapalı: hiçbir helikopter müzik çalmaz, yalnızca rotor sesi duyulur. Her oyuncu günlükteki Ayarlar, Helikopter müziği kısmından kendisi için de kapatabilir. Parça ağırlıkları A-Life: Hava Araçları sayfasında.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.HeliOrbitMax": {
+      "tr": "Helikopter tur atma sınırı (dakika)"
+    },
+    "Sandbox_ProjectALife.HeliOrbitMax_tooltip": {
+      "tr": "Senin ya da üssünün üstünde tur atan helikopter bu kadar dakika sonra uzaklaşır; aynı yerde altı oyun saati boyunca yenisi tur atmaz. 0 sınırsız demek.\nVarsayılan: 8."
+    },
+    "Sandbox_ProjectALife.HeliAttract": {
+      "tr": "Helikopter sesi zombileri çeker"
+    },
+    "Sandbox_ProjectALife.HeliAttract_tooltip": {
+      "tr": "Açık: helikopter rotorları, gelişleri ve projektörleri zombileri çeken ses çıkarır. Kapalı: sen yine duyarsın ama zombileri çekmez.\nVarsayılan: kapalı."
+    },
+    "Sandbox_ProjectALife.HeliMusicNone": {
+      "tr": "Helikopter geçişi: müziksiz ağırlığı"
+    },
+    "Sandbox_ProjectALife.HeliMusicNone_tooltip": {
+      "tr": "Geçişte hiç müzik çalmamasının göreli olasılığı. Olasılıklar, ağırlıkların toplama bölünmesiyle bulunur; toplamın 100 etmesi gerekmez. Hepsi sıfırsa müzik çalmaz. Helikopter müziği açık olmalı.\nVarsayılan: 50."
+    },
+    "Sandbox_ProjectALife.HeliMusicS1": {
+      "tr": "Helikopter geçişi: 1. müzik parçası ağırlığı"
+    },
+    "Sandbox_ProjectALife.HeliMusicS1_tooltip": {
+      "tr": "Geçişte 1. müzik parçasının göreli olasılığı. Olasılıklar, ağırlıkların toplama bölünmesiyle bulunur. 0 olursa hiç çalmaz.\nVarsayılan: 25."
+    },
+    "Sandbox_ProjectALife.HeliMusicS2": {
+      "tr": "Helikopter geçişi: 2. müzik parçası ağırlığı"
+    },
+    "Sandbox_ProjectALife.HeliMusicS2_tooltip": {
+      "tr": "Helikopter geçişindeki 2. müzik parçasının göreli şansı. Şans, ağırlığın ağırlıklar toplamına bölümüne eşit. 0 olursa hiç çalmaz.\nVarsayılan: 25."
+    },
+    "Sandbox_ProjectALife.HeliMusicS3": {
+      "tr": "Helikopter geçişi: 3. müzik parçası ağırlığı"
+    },
+    "Sandbox_ProjectALife.HeliMusicS3_tooltip": {
+      "tr": "Helikopter geçişindeki 3. müzik parçasının göreli şansı. Şans, ağırlığın ağırlıklar toplamına bölümüne eşit. 0 olursa hiç çalmaz.\nVarsayılan: 25."
+    },
+    "Sandbox_ProjectALife.HeliMusicS4": {
+      "tr": "Helikopter geçişi: 4. müzik parçası ağırlığı"
+    },
+    "Sandbox_ProjectALife.HeliMusicS4_tooltip": {
+      "tr": "Helikopter geçişindeki 4. müzik parçasının (Bad to the Bone) göreli şansı. Şans, ağırlığın ağırlıklar toplamına bölümüne eşit. 0 olursa hiç çalmaz.\nVarsayılan: 25."
+    },
+    "Sandbox_ProjectALife.HeliMusicS5": {
+      "tr": "Helikopter geçişi: 5. müzik parçası ağırlığı"
+    },
+    "Sandbox_ProjectALife.HeliMusicS5_tooltip": {
+      "tr": "Helikopter geçişindeki 5. müzik parçasının (California Dreamin') göreli şansı. Şans, ağırlığın ağırlıklar toplamına bölümüne eşit. 0 olursa hiç çalmaz.\nVarsayılan: 25."
+    },
+    "Sandbox_ProjectALife.HeliMusicS6": {
+      "tr": "Helikopter geçişi: 6. müzik parçası ağırlığı"
+    },
+    "Sandbox_ProjectALife.HeliMusicS6_tooltip": {
+      "tr": "Helikopter geçişindeki 6. müzik parçasının (Mother) göreli şansı. Şans, ağırlığın ağırlıklar toplamına bölümüne eşit. 0 olursa hiç çalmaz.\nVarsayılan: 25."
+    },
+    "Sandbox_ProjectALife.CarArrivalDoorsOpenWhenEmpty": {
+      "tr": "Geliş araçları: ekip inince kapı kilidi açılsın"
+    },
+    "Sandbox_ProjectALife.CarArrivalDoorsOpenWhenEmpty_tooltip": {
+      "tr": "A-Life ekiplerinin geldiği araçlar, ekip hayatta ve yakındayken kilitli kalır. Açık: araçta kimse kalmayınca kapıların kilidi açılır, aracı alabilirsin.\nVarsayılan: kapalı."
+    },
+    "Sandbox_ProjectALife.M60Enabled": {
+      "tr": "NPC'lerde M60 makineli tüfeği aç"
+    },
+    "Sandbox_ProjectALife.M60Enabled_tooltip": {
+      "tr": "Kapalıyken, normalde M60 makineli tüfek taşıyacak Ağır Zırhlılar, kule nişancıları ve Oluşturucu ön ayarları onun yerine M16 saldırı tüfeği taşır.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.RealMisses": {
+      "tr": "Iskalanan atışlar ıska gibi görünsün"
+    },
+    "Sandbox_ProjectALife.RealMisses_tooltip": {
+      "tr": "İsabet zarını tutturamayan atış düz ıska sayılır: kan yok, tepki yok, yere düşme yok. Dünya başlarken oyunun kendi Ateşli Silahlar Hasar Şansı Kullanır ayarını Devre Dışı yapar; kapatınca eski değer geri yüklenir.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.ZombieHitFloor": {
+      "tr": "Zombilere karşı en düşük isabet şansı (yüzde)"
+    },
+    "Sandbox_ProjectALife.ZombieHitFloor_tooltip": {
+      "tr": "Oyunun isabet şansı ne kadar düşerse düşsün (gece, tam otomatik, uzak mesafe), zombilere nişan alarak yaptığın atışların en az bu kadarı hasar verir. 0: orijinal oyundaki gibi.\nVarsayılan: 50"
+    },
+    "Sandbox_ProjectALife.ZombieMinBulletDamage": {
+      "tr": "Zombiye isabet eden merminin en düşük hasarı"
+    },
+    "Sandbox_ProjectALife.ZombieMinBulletDamage_tooltip": {
+      "tr": "Zombiye isabet eden mermi, canının en az bu kadarını götürür; böylece kola ve bacağa gelen isabetler de işe yarar (zombinin canı 0.5 ile 3.8 arasında). 0: orijinal oyundaki gibi.\nVarsayılan: 0.15"
+    },
+    "Sandbox_ProjectALife.CompatGunsmith93": {
+      "tr": "[Uzman] Gunsmith: The 1993 Arsenal desteği"
+    },
+    "Sandbox_ProjectALife.CompatGunsmith93_tooltip": {
+      "tr": "Gunsmith: The 1993 Arsenal etkinken NPC silahlarının bir kısmı, fraksiyon kategorisine göre düşük, orta ve yüksek kademedeki 1993 silahlarına dönüşür; parçaları NPC ortaya çıkarken takılır. Kapalı: mod yok sayılır, NPC'ler oyunun kendi silahlarını kullanır. Mod yüklü değilse hiçbir etkisi olmaz.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CompatGunsmith93HighDay": {
+      "tr": "[Uzman] Gunsmith yüksek kademe başlangıç günü"
+    },
+    "Sandbox_ProjectALife.CompatGunsmith93HighDay_tooltip": {
+      "tr": "NPC'lerin yüksek kademe 1993 silahlarını (saldırı tüfekleri, muharebe tüfekleri, Desert Eagle) taşımaya başlayabileceği dünya günü. Öncesinde yüksek kademe çıkan zarlar orta kademeye düşer.\nVarsayılan: 90."
+    },
+    "Sandbox_ProjectALife.BulletPenetration_option1": {
+      "tr": "Kapalı"
+    },
+    "Sandbox_ProjectALife.BulletPenetration_option2": {
+      "tr": "Tüfekler ve av tüfekleri (varsayılan)"
+    },
+    "Sandbox_ProjectALife.BulletPenetration_option3": {
+      "tr": "Tüm ateşli silahlar"
+    },
+    "Sandbox_ProjectALife.NpcLadders": {
+      "tr": "NPC'ler dik merdiven tırmanır"
+    },
+    "Sandbox_ProjectALife.NpcLadders_tooltip": {
+      "tr": "NPC'ler, başka kattaki hedefe normal merdivenle ulaşamıyorsa dik merdivene tırmanır (oyun sürümü 42.22 ve sonrası). Dik merdiven yoksa etkisi olmaz.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FeatureNpcTrampleCrops": {
+      "tr": "NPC'ler ekinleri çiğner"
+    },
+    "Sandbox_ProjectALife.FeatureNpcTrampleCrops_tooltip": {
+      "tr": "Açık: A-Life NPC'leri, oyunun kendi zombileri gibi üstünden geçtikleri ekinleri yok edebilir. Kapalı: NPC'ler ekinleri kendi başına asla yok etmez.\nVarsayılan: kapalı."
+    },
+    "Sandbox_ProjectALife.PhonesEnabled": {
+      "tr": "Telefonlar"
+    },
+    "Sandbox_ProjectALife.PhonesEnabled_tooltip": {
+      "tr": "Çalan bütün telefonları açar ya da kapatır: ev telefonları, ölülerin telefonları ve çantanda çalabilen Cep Telefonu eşyası.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.PhonesFrequency": {
+      "tr": "Telefon çalma sıklığı"
+    },
+    "Sandbox_ProjectALife.PhonesFrequency_tooltip": {
+      "tr": "Telefonların bir oyun haftasında kaç kez çaldığı; ev telefonları ve taşınan Cep Telefonları birlikte sayılır. Düşük: haftada yaklaşık 3. Orta: 5. Yüksek: 7, eski oran.\nVarsayılan: Düşük (1)."
+    },
+    "Sandbox_ProjectALife.PhonesFrequency_option1": {
+      "tr": "Düşük"
+    },
+    "Sandbox_ProjectALife.PhonesFrequency_option2": {
+      "tr": "Orta"
+    },
+    "Sandbox_ProjectALife.PhonesFrequency_option3": {
+      "tr": "Yüksek"
+    },
+    "Sandbox_ProjectALife.PhonesRarity": {
+      "tr": "Cep Telefonu sıklığı"
+    },
+    "Sandbox_ProjectALife.PhonesRarity_tooltip": {
+      "tr": "Sıradan bir zombi cesedinde çalabilen ve cevaplanabilen bir Cep Telefonu çıkma sıklığı. A-Life hayatta kalanlarında hiç çıkmaz. Düşük: yaklaşık 330 cesette 1. Orta: 100'de 1. Yüksek: 33'te 1.\nVarsayılan: Düşük (1)."
+    },
+    "Sandbox_ProjectALife.PhonesRarity_option1": {
+      "tr": "Düşük"
+    },
+    "Sandbox_ProjectALife.PhonesRarity_option2": {
+      "tr": "Orta"
+    },
+    "Sandbox_ProjectALife.PhonesRarity_option3": {
+      "tr": "Yüksek"
+    },
+    "Sandbox_ProjectALife.PhonesReplySeconds": {
+      "tr": "Telefonda cevap süresi (saniye)"
+    },
+    "Sandbox_ProjectALife.PhonesReplySeconds_tooltip": {
+      "tr": "Telefon görüşmesinde arayan kapatmadan önce cevap seçmek için ne kadar süren olduğu. Süre her yeni replikte baştan başlar. Cevapsız kalan arama tekrar çalmaz.\nVarsayılan: 15."
+    },
+    "Sandbox_ProjectALife.CompatCompanionDogs": {
+      "tr": "[Uzman] Companion Dogs adaptörü"
+    },
+    "Sandbox_ProjectALife.CompatCompanionDogs_tooltip": {
+      "tr": "Companion Dogs etkinken A-Life uyumluluk adaptörünü açar: yol arkadaşı köpekler yalnızca aşağıdaki köpek ayarlarının izin verdiği NPC'lerle dövüşür, NPC'ler de karşılık verebilir. Dünya başlarken bir kez uygulanır; değiştirdikten sonra yeniden başlat. Kapatmak yalnızca bu adaptörü devre dışı bırakır, öteki modu değil. Ayrı uyumluluk yaması etkinken kendiliğinden devre dışı kalır."
+    },
+    "Sandbox_ProjectALife.CompatDogsTarget": {
+      "tr": "[Uzman] Yol arkadaşı köpekler NPC'lere saldırır"
+    },
+    "Sandbox_ProjectALife.CompatDogsTarget_tooltip": {
+      "tr": "Yol arkadaşı köpeğin hangi A-Life NPC'lerine saldırabileceğini, NPC'nin köpeğin sahibine karşı tutumuna göre belirler. Sahibinin kendi adamlarına, teslim olmuş ve yaralı NPC'lere asla saldırmaz.\nVarsayılan: Yalnızca düşman (1)."
+    },
+    "Sandbox_ProjectALife.CompatDogsTarget_option1": {
+      "tr": "Yalnızca düşman"
+    },
+    "Sandbox_ProjectALife.CompatDogsTarget_option2": {
+      "tr": "Düşman ve temkinli"
+    },
+    "Sandbox_ProjectALife.CompatDogsTarget_option3": {
+      "tr": "Dost olmayan herkes"
+    },
+    "Sandbox_ProjectALife.CompatDogsTarget_option4": {
+      "tr": "Herkes"
+    },
+    "Sandbox_ProjectALife.CompatDogsTarget_option5": {
+      "tr": "Asla"
+    },
+    "Sandbox_ProjectALife.CompatDogsCanDieByNPC": {
+      "tr": "[Uzman] NPC'ler yol arkadaşı köpeği öldürebilir"
+    },
+    "Sandbox_ProjectALife.CompatDogsCanDieByNPC_tooltip": {
+      "tr": "Kapalı: NPC vuruşları aşağıdaki sağlık eşiğinde durur; köpek eşiğe inince ya da panikteyse NPC'ler onu rahat bırakır. Açık: alt sınır yok, köpek NPC vuruşlarıyla ölebilir.\nVarsayılan: kapalı."
+    },
+    "Sandbox_ProjectALife.CompatDogsHealthThreshold": {
+      "tr": "[Uzman] Yol arkadaşı köpek sağlık eşiği"
+    },
+    "Sandbox_ProjectALife.CompatDogsHealthThreshold_tooltip": {
+      "tr": "Köpeğin azami sağlığının oranı: NPC vuruşları bu noktada durur (NPC'ler köpekleri öldüremiyorken) ve köpek aşağıdaki duruma geçer.\nVarsayılan: 0.1."
+    },
+    "Sandbox_ProjectALife.CompatDogsThresholdStatus": {
+      "tr": "[Uzman] Yol arkadaşı köpeğin eşikteki durumu"
+    },
+    "Sandbox_ProjectALife.CompatDogsThresholdStatus_tooltip": {
+      "tr": "NPC'nin sağlık eşiğine kadar düşürdüğü köpeğin geçeceği durum. Hiç paniklemeyen ırklar her zaman dehşete kapılır.\nVarsayılan: Panikte (1)."
+    },
+    "Sandbox_ProjectALife.CompatDogsThresholdStatus_option1": {
+      "tr": "Panikte"
+    },
+    "Sandbox_ProjectALife.CompatDogsThresholdStatus_option2": {
+      "tr": "Dehşette"
+    },
+    "Sandbox_ProjectALife.CompatDogsNpcDamageMult": {
+      "tr": "[Uzman] Yol arkadaşı köpeğin NPC'ye ısırık hasarı"
+    },
+    "Sandbox_ProjectALife.CompatDogsNpcDamageMult_tooltip": {
+      "tr": "Yol arkadaşı köpeğin ısırığının A-Life NPC'sine verdiği hasarın çarpanı (NPC'nin kendi sağlık havuzuna göre ölçeklenir).\nVarsayılan: 1.0."
+    },
+    "Sandbox_ProjectALife.CompatDogsNpcDefenseMult": {
+      "tr": "[Uzman] Yol arkadaşı köpeğin NPC'lere karşı savunması"
+    },
+    "Sandbox_ProjectALife.CompatDogsNpcDefenseMult_tooltip": {
+      "tr": "A-Life NPC'sinin vuruşunun yol arkadaşı köpeğe verdiği hasarı bu değere böler. Değer yükseldikçe köpek daha az hasar alır.\nVarsayılan: 1.0."
+    },
+    "Sandbox_ProjectALife.CompatDogsAlertHumans": {
+      "tr": "[Uzman] Yol arkadaşı köpeklerde NPC uyarısı"
+    },
+    "Sandbox_ProjectALife.CompatDogsAlertHumans_tooltip": {
+      "tr": "Açık: köpeğin nöbet uyarısı, koku becerisine göre (düzeyler aşağıda) A-Life NPC'lerini de kapsayabilir. Kapalı: uyarı yalnızca zombileri kapsar. Sahibinin kendi adamları uyarıyı hiç tetiklemez.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CompatDogsSenseLevel": {
+      "tr": "[Uzman] Yol arkadaşı köpeğin NPC sezme koku düzeyi"
+    },
+    "Sandbox_ProjectALife.CompatDogsSenseLevel_tooltip": {
+      "tr": "A-Life NPC'lerinin nöbet uyarısını tetikleyebilmesi için köpeğe gereken koku becerisi. Companion Dogs'ta köpek becerileri kapalıysa her köpek tam becerili sayılır.\nVarsayılan: 2."
+    },
+    "Sandbox_ProjectALife.CompatDogsStanceLevel": {
+      "tr": "[Uzman] Yol arkadaşı köpeğin düşman NPC ayırt etme koku düzeyi"
+    },
+    "Sandbox_ProjectALife.CompatDogsStanceLevel_tooltip": {
+      "tr": "Köpeğin yalnızca sahibine düşman NPC'ler için uyarı verip ötekileri yok saydığı koku becerisi. Sezme düzeyinin altına inemez.\nVarsayılan: 8."
+    },
+    "Sandbox_ProjectALife.ServerDiagnostics": {
+      "tr": "Sunucu tanılaması"
+    },
+    "Sandbox_ProjectALife.ServerDiagnostics_tooltip": {
+      "tr": "Yalnızca adanmış ve barındırılan sunucular için. Açıkken sunucu kara kutuyu, çatışma izini, araç dökümünü ve rapor geçmişini sürekli çalıştırır, A-Life konsol günlüğünün tamamını yazar. Kapalıyken bunlar sessiz kalır, kalabalık konsol satırları sınırlanır; kaydediciyi başlatan yönetici için 30 dakikalığına açılır. Tek oyunculu oyun ve istemciler etkilenmez.\nVarsayılan: kapalı"
+    },
+    "Sandbox_ProjectALife.QuickSpawnGroupSize": {
+      "tr": "Hızlı oluşturma grup boyutu"
+    },
+    "Sandbox_ProjectALife.QuickSpawnGroupSize_tooltip": {
+      "tr": "Bir fraksiyon oluşturduğunda yönetici hızlı oluşturmasının kaç NPC çıkaracağı. Önce lider gelir. Daha fazla üyeye ihtiyaç duyan fraksiyon kendi alt sınırını korur.\nVarsayılan: 5."
+    }
+  }
+}

@@ -1,0 +1,633 @@
+ÇEVRİLEBİLİR AMA ÇEVRİLMEMİŞ KALANLAR — 2026-11-11 taraması
+Mod: Steam 1.5.1 (kaynak/en 1.5.0'dı). Üç geçiş: (1) kurulu EN JSON'ları ↔ teslim, (2) Lua'daki hash anahtarlı metinler ↔ teslim, (3) anahtarsız çizilen metinler (araclar/kacan_tara.py).
+
+ÖZET
+  Anahtarı olan her metin Türkçe: IG_UI_lua 864/864, IG_UI_kacan 306/306, Creator_lua 1.889/1.889, RadioData_lua 114.466/114.466.
+  Türkçe değeri İngilizce görünen satır yok. TR=EN kalanlar bilerek: ünlem/ses (Ahh, Brr, Argh…), kişi ve grup adları, 'Normal'.
+  Gerçek kalan iş 3 küme:
+    A) 47 arayüz satırı  → hazır paketler M1a/M1b, onayınızı bekliyor (50 altı: Claude çevirir, Gemini gerekmez).
+    B) 396 yönetici/geliştirici arayüzü metni → çevrilebilir ama YENİ EK KODU gerekir (K52 kapsamında). Karar sizin.
+    C) 72 metin → çoğu sunucuda dolan, iç not ya da oyuncuya çizilmeyen; ayrıntı aşağıda. Önerim: bırakmak.
+
+A) M1 (İŞLENMEYİ BEKLİYOR)
+  Kurulu 1.5.1 EN dosyalarında teslimde olmayan 14 IG_UI + 33 Sandbox anahtar var; paketler/M1a.json (14) ve M1b.json (35, 2 değişen tooltip dahil) bunların hepsini kapsıyor,
+  paketlerdeki EN metni kurulu 1.5.1 ile birebir aynı. Sıra: kaynak/en 1.5.1'e güncellenir → onayla M1a/M1b → son_kontrol → workshop_kur.
+
+B) YÖNETİCİ / GELİŞTİRİCİ ARAYÜZÜ — 396 metin, 41 dosya
+  Neden çevrilmedi: bu dosyalar Text.ui'den geçmiyor, drawText/ISButton'a ham İngilizce veriyor ve birleştirmeli ("Staffed outpost: " .. label). Çeviri için
+  Oluşturucu eki (ALifeTR_Creator.lua) gibi dar, pcall'lı bir ek ya da yapımcının Text.ui'ye alması gerekir. Oyuncuların çoğu bu ekranları görmez (yönetici konsolu, spawn/temizlik/sürüş panelleri).
+  Dosya dökümü:
+     113  ALifeSpawnPlan.lua
+      26  ALifeSpawnerPanel.lua
+      26  ALifeDrivingPanel.lua
+      25  ALifeCleanupWindow.lua
+      22  ALifeBuildWindow.lua
+      21  ALifeEncounterConsole.lua
+      21  ALifeAdminActions.lua
+      19  ALifeOutpostTemplateData.lua
+      17  ALifeDrivingCrewPicker.lua
+      13  ALifeStampWindow.lua
+       9  ALifeOutpostTemplateV2Raid.lua
+       8  ALifeDrivingPresetPanel.lua
+       7  ALifeDrivingTuningPanel.lua
+       6  ALifeAdminTabOverview.lua
+       6  ALifeOutpostTemplateV2State.lua
+       5  ALifeAdminTabReputation.lua
+       4  ALifeStatusWindow.lua
+       4  ALifeOutpostTemplateV2Folk.lua
+       4  ALifeOutpostTemplateV2Grand.lua
+       3  ALifeAdminWindow.lua
+       3  ALifeDebugSpawner.lua
+       3  ALifeSpawnerBrowser.lua
+       3  ALifeBuildSession.lua
+       2  ALifeAdminConsole.lua
+       2  ALifeAdminTabCars.lua
+       2  ALifeAdminTabDiagnostics.lua
+       2  ALifeAdminTabPopulation.lua
+       2  ALifeAdminTabSettings.lua
+       2  ALifeAdminTabWorld.lua
+       2  ALifeStampClient.lua
+       2  ALifeCompanionSheetAdmin.lua
+       2  ALifeCreatorCore.lua
+       2  ALifeUI2QuickSpawn.lua
+       1  ALifeAdminTabCleanup.lua
+       1  ALifeAdminUI.lua
+       1  ALifeGmPlan.lua
+       1  ALifeStartApplyClient.lua
+       1  ALifeBuildCapture.lua
+       1  ALifeBuildTools.lua
+       1  ALifeDrivingPerformancePanel.lua
+       1  ALifeCreatorFactionSupport.lua
+
+C) DİĞER GÖRÜNÜR ADAYLAR — 72 metin (kod yolları rapor/kacan_ek_1.5.0.md'de incelenmişti; bu turda kaynak değişmeyenleri yeniden doğrulamadım, sığınak mektubu ve bitiş yer adlarının sunucu tarafında olduğunu kodda yeniden gördüm)
+  Bırakma gerekçeleri: yer tutuculu bitiş/görev/mektup metinleri sunucuda dolup kayda yazılıyor; 'Delay next squad…' geliştirici bölük haritası menüsü;
+  'US Military/Captain Ruiz' konuşmacı adı; 'A note from {faction}' vb. sığınak mektupları sunucudan gelir; 'Situations: …' yönetici eylemi; animasyon adları yalnız yönetici listesinde.
+  ALifeAnimations.lua
+      Surrender
+      Wave
+      Salute
+      Shrug
+      Shout
+      Taunt
+      Thumbs down
+      Hesitate
+      Heavy breathing
+      Tired stretch
+  ALifeEndingCallData.lua
+      US Military
+      Captain Ruiz
+      data only, no reputation call is wired
+      {name}, that's me
+      {name}, now talk
+      Fine, {name} here
+      {name}, confirm it
+  ALifeEndingData.lua
+      Louisville hospital
+      Louisville General Hospital
+      Oris Tower
+      Valley Station
+      Riverside
+      Brandenburg
+      I am a survivor, looking for extraction
+      Don't Fear the Reaper
+      Storm the Oris Tower
+      The military will land a helicopter on the {place} roof
+      The army lifts survivors off the {place} roof at {time}, {when}. One chance
+      The army is lifting survivors off a roof. Answer them to get the time and the place
+  ALifeMissionDefs.lua
+      Dell Tolliver's crew dropped their bags in a {place} when a horde came through. He wants Earl's bag back.
+      Get to the {place}
+      Clear the {place}
+  ALifeParty.lua
+      Scout the building marked on your map, then come back to the group
+      Bring the group 
+      keep watch
+      Keep watch around the group for a while, stay close and stay awake
+      clear the street
+      Thin out the dead around the group, put down 
+  ALifeSafehouseEvents.lua
+      A note from {faction}
+      A warning
+      Read this
+      Terms
+      Directions
+      About the trouble
+      Missing
+      Notice
+      A letter
+      For you
+  ALifeSituationsData.lua
+      Encircled depot
+      Sheriff checkpoint
+      Farmhouse under horde
+      Hostage swap
+      Pinned clinic
+      Broken-down truck
+      Situations: clear all
+      Removes the ring zombies and forgets the active situations, the crews stay
+      Situations: reset the save state
+      Forgets cooldowns and once-per-save marks
+      Situations: counters
+      Prints the situation counters
+  ALifeSquadMap.lua
+      A-Life: squad map ON (open the world map, hover a dot)
+      A-Life: squad map off
+      A-Life: waiting for server data
+  ALifeSquadMapOverlay.lua
+      Send a squad out now
+      Delay next squad by 1 hour
+      Delay next squad by 24 hours
+      Delay next squad by 7 days
+      Delay next squad by 30 days
+      Max squads +1
+      Max squads -1
+      Delete this squad (
+  ALifeUI2JournalSettings.lua
+      Marla
+
+NOT (1.5.1 değişikliği): ALifeNpcOpinion.lua'daki 3 yedek replik ('I'm not telling you anything.' vb.) artık yalnızca TalkSocial metni yoksa kullanılan sunucu yedeği; oyuncuya normalde TalkSocial'daki çevrilmiş varyantlar gider.
+
+SİLİNEN ESKİ ÇEVİRİ TXT'LERİ (işlenip onaylanmış paketler): gemini/girdi + gemini/cikti içindeki E1_*.txt (36+36) ve E2_*.txt (2+2). Kalanlar: G1 (100 girdi, yalnız G1_1 geldi), K44 sahne girdileri (SNB/SNC/SNE 20), gemini/sahne, taslak/.
+
+GEMINI İÇİN TXT GEREKMİYOR: çevrilmeyen diyalog kalmadı. Yönetici arayüzü (B) yapılırsa Claude'un B paketi olur (50 üstü ise Gemini'ye hazırlanır).
+
+
+EK: B KÜMESİNİN TÜM METİNLERİ (dosya / metin)
+
+[ALifeSpawnPlan.lua] 113
+  'Faction squad'
+  "A squad drawn from one faction's members. The server picks the members unless you fix the roster."
+  'Single member'
+  'One chosen member, copied as many times as the count says.'
+  'Custom roster'
+  'Up to eight chosen members, exactly as listed.'
+  'A ready-made encounter such as a patrol, checkpoint or camp, cast from a faction.'
+  'Staffed outpost'
+  'Builds an outpost preset on the spot and staffs it. The build is sliced over several seconds.'
+  'Base visitor'
+  'Forces a base visit or safehouse event for your test base, using the safehouse director.'
+  'Raid'
+  'Starts a forced full-scale raid with waves against you.'
+  'Support call'
+  'Makes the NPC nearest to you call for reinforcements.'
+  'Each member keeps the stance its faction gives toward players.'
+  'Ally: helps you and does not attack.'
+  'Leaves you alone and defends itself.'
+  'Warns first, then shoots if you stay or come closer.'
+  'Attacks on sight.'
+  'Searches nearby containers and collects supplies.'
+  'Actively searches the local area for targets.'
+  'Tracks the requesting player and keeps re-engaging.'
+  'Builds a campsite and lives there.'
+  'Cars across the road with a line of guns behind them.'
+  'Near me'
+  'At your position, or at a distance and heading from you.'
+  'Clicked target'
+  'At the square you chose with the right-click entry Use as A-Life spawn target.'
+  'Coordinates'
+  'At an exact X, Y, Z.'
+  'At a live encounter, squad or outpost marker.'
+  'Encounter rule'
+  "Where the encounter's own placement rule puts it, near you."
+  'Any faction'
+  'A random faction that spawns in the world on its own.'
+  'Any friendly faction'
+  'A random faction that is on your side.'
+  'Any neutral faction'
+  'A random faction that leaves you alone.'
+  'Any careful faction'
+  'A random faction that warns first, then shoots.'
+  'Any hostile faction'
+  'A random faction that attacks on sight.'
+  'Any law'
+  'A random police, sheriff, trooper or corrections faction.'
+  'Any military'
+  'A random army or National Guard faction.'
+  'Any survivor'
+  'A random civilian, family, worker or survivor-federation faction.'
+  'Any remnant'
+  'A random faction of uniformed remnants of the old order.'
+  'Ahead of me'
+  'Behaviour doctrine'
+  'Overrides combat coordination. Individual AI fights independently; Fireteam coordinates attacks and door entry; CQB uses room-clearing tacti'
+  'Specialist role'
+  'Gives the first member a specialist role.'
+  'Members take no damage. Cheat-like: for testing only.'
+  'Position locked'
+  'Members stand still and only turn and shoot.'
+  'Save squad'
+  'Keeps the squad across save and load, within the persistent squad limit.'
+  'Facing / line heading'
+  'The direction a formation, camp or blockade faces.'
+  'Unit spacing'
+  'Tiles between members when they appear.'
+  'Behaviour radius'
+  'Patrol, guard and camp radius in tiles.'
+  'How they arrive'
+  'Foot: appear nearby. Helicopter: delayed arrival. By car: seated crew drives from a loaded road to a clear nearby dismount point.'
+  'Arrival animation'
+  'The animation preset applied when the body appears.'
+  'Detection range'
+  'How far members notice targets, in tiles.'
+  'Movement leash'
+  'Members return when they wander farther than this from the spawn point.'
+  'Exact HP'
+  "Sets every member's health points."
+  'Damage reduction %'
+  'Percent of incoming damage ignored.'
+  'Damage output %'
+  "Percent of the weapon's normal damage dealt."
+  'Chance that the carried weapon drops on death.'
+  'Condition of the dropped weapon.'
+  'Clothing condition'
+  'Condition of the dropped clothing.'
+  'Can call support'
+  'Allows or forbids the squad to radio for backup.'
+  'Who may call'
+  'Which member may place the call.'
+  'Allowed support'
+  'Ground reinforcements, a helicopter or both.'
+  'Helicopter support mode for this squad.'
+  'Support squad size'
+  'Members in the reinforcement squad.'
+  'Support calls (max)'
+  'How many calls the squad may place.'
+  'Support cooldown (h)'
+  'Game hours between calls.'
+  'Raid waves'
+  'Number of attack waves of a forced raid.'
+  'Game minutes per wave'
+  'Game minutes between raid waves.'
+  'Raid helicopter'
+  'Whether the raid arrives with a helicopter.'
+  'Test squad of 3'
+  '3 hostile military 30 tiles ahead, roaming.'
+  'Friendly medic here'
+  'One friendly medic at your position, patrolling.'
+  'Raid now'
+  'A forced full-scale raid on you.'
+  'Visitor now'
+  'A base visitor at your test base.'
+
+[ALifeSpawnerPanel.lua] 26
+  'Back to Spawn'
+  'Reset to defaults'
+  'What to spawn. The list below changes with the type.'
+  'Natural spawns: off, switch on'
+  'Creator: off, switch off too'
+  'Return to Spawn. All current selections and advanced settings are kept.'
+  'Reset only Advanced settings. Your squad and spawn location are kept. Asks first.'
+  'Selected roster: '
+  'Not ready: '
+  'Spawn type'
+  'Faction squad, member, roster, encounter, outpost, visitor, raid, support.'
+  'Spawn count'
+  'How many NPCs to spawn, 1 to 8.'
+  'Stance toward players'
+  'Friendly, neutral, careful or hostile.'
+  'Where to spawn'
+  'Near you, clicked target, coordinates, marker or the encounter rule.'
+  'Spawn dormant'
+  'Create the squad as a map marker without bodies.'
+  'Ignore funnel and day gating'
+  'Admin spawn without the natural day-window checks.'
+  'Reproducible roster.'
+  'Spawn history and undo'
+  'List of batches with per-batch undo.'
+  'Saved spawn presets'
+  'Save and load the whole form by name.'
+
+[ALifeDrivingPanel.lua] 26
+  'Center on me'
+  'Center on car'
+  'Edit route'
+  'Route presets'
+  'Add my position'
+  'Waypoint'
+  'Dismount point'
+  'Apply X/Y'
+  'Delete waypoint'
+  'Clear entire route'
+  'Done editing'
+  'Mode: destination'
+  'This car + general'
+  'Pause live log'
+  'Overhead messages: ON'
+  'Resume live log'
+  '<TEXT> <RGB:'
+  'Center on your current position and finish route editing so you can select nearby cars.'
+  'Center on the selected car without changing its route or edit mode.'
+  'The red queue border means route editing is active. New map points are always waypoints. Select one below to make it a dismount point.'
+  'Save named waypoint routes and load them onto another car. Presets remain after restarting the game.'
+  'When stopped: choose one destination or a queue of checkpoints. While driving: map clicks append waypoints.'
+  'The selected point is passed through. New points always use this type. Park the car to change an existing point.'
+  'At the selected point, brake and let the NPC crew out. This changes only this point. Park the car to change an existing point.'
+  'Delete every waypoint. If driving, also stop the car.'
+  'Show driving feedback above your character. Turning this off keeps all messages in this log. Lasts for this game session.'
+
+[ALifeCleanupWindow.lua] 25
+  'CLEANUP A-LIFE'
+  'What to remove'
+  'Spawns refused while locked: '
+  'People: NPCs, squads, visitors, raiders'
+  'Bases: outposts, camps, scenes, props'
+  'Vehicles A-Life placed'
+  'Map markers and contact lists'
+  'A-Life world data (mod data)'
+  'NPC corpses and A-Life issued loot'
+  'Companions that follow you'
+  'Reputation (risky)'
+  'Unverified objects (risky)'
+  'Also objects inside safehouses'
+  'Server copy of Creator data (risky)'
+  'Pending'
+  'Sites'
+  'Skipped'
+  'Protected'
+  'Unverified'
+  'Map markers removed here: '
+  'Open the world map once, then press this again.'
+  'World: no cleanup started'
+  'World: CLEANUP RUNNING, A-Life spawning is locked'
+  'World: CLEANUP DONE, A-Life is inert in this world'
+  'Cleanup'
+
+[ALifeBuildWindow.lua] 22
+  'Drag area in world'
+  'Pick anchor'
+  'Use my floor'
+  'Place marker'
+  'Remove selected'
+  'Undo last'
+  'Clear all'
+  'Capture area'
+  'Copy to clipboard'
+  'Save to file'
+  'Copy file path'
+  'Reset all'
+  'A-Life Builder (dev)'
+  'Your markers. Pick one to remove it.'
+  'Front'
+  'Floors from'
+  'Marker'
+  'Store'
+  'Draws'
+  'Remove every marker. Asks you to click twice.'
+  'Remove every marker. Not now: '
+  'A capture is running.'
+
+[ALifeEncounterConsole.lua] 21
+  'SPAWN ENCOUNTER + SQUAD'
+  'ADVANCED OPTIONS  >'
+  'SIMULATE HERE'
+  'SIMULATE BY RULE'
+  'SPAWN FACTION SQUAD'
+  'PERSISTENT: DEFAULT'
+  'SQUADS ON WORLD MAP'
+  'SCENE + SQUAD, ONE DEPLOY'
+  'Advanced: place / size / persist'
+  '(no report yet)'
+  'nothing placed yet'
+  'Choose a squad and encounter, then deploy both with one action.'
+  'FACTIONS REFUSED: '
+  'REFRESH REFUSED: '
+  'Pick an encounter first.'
+  'No position for this player.'
+  'Simulating here...'
+  "Placing by the encounter's own rule..."
+  'Pick a faction first.'
+  'Requesting black box dump...'
+  'Requesting module QA dump...'
+
+[ALifeAdminActions.lua] 21
+  'Status, quick actions, recent spawns'
+  'Full spawn form'
+  'Raids, support, visits, outposts'
+  'Census, reputation, logs, options, tools'
+  'Census, squads, nearest NPCs'
+  'Spawn NPC cars, send them, watch them'
+  'Yours and per faction'
+  'Health, bug-report dumps, errors, logs'
+  'Every sandbox option, read only'
+  'CLEANUP'
+  'Scan and remove leftovers'
+  'Test events, spawn stages, base visits, logging'
+  'HOST'
+  'ADMIN'
+  'NO ACCESS'
+  'SWITCHES'
+  'AMBIENT EVENTS'
+  'SPAWN STAGE PREVIEW'
+  'PICKED-OVER BUILDINGS'
+  'BASE VISITS'
+  'LOGGING AND TESTS'
+
+[ALifeOutpostTemplateData.lua] 19
+  'Toll chain'
+  'Toll gate'
+  'Toll fort'
+  'Raider camp'
+  'Raider stronghold camp'
+  'Ambush nest'
+  'Ambush line'
+  'Patrol post'
+  'Forward post'
+  'Military depot'
+  'Road control'
+  'Checkpoint control'
+  'Field station'
+  'Farmstead camp'
+  'Farm compound'
+  'Trader stop'
+  'Trading post'
+  'Scrapper camp'
+  'Salvage yard camp'
+
+[ALifeDrivingCrewPicker.lua] 17
+  'Get in & drive'
+  'Detach crew'
+  "Enter driver's seat"
+  'Cancel boarding'
+  'Player drives'
+  'Remove dead crew'
+  'Cancel detach'
+  'Edit NPC attachments | Car '
+  'Stop this car, then let the attached crew get out and walk clear.'
+  "Remove this car's NPC links after the crew has exited."
+  'Cancel the requested mode change. Stopping or exiting already begun will finish; driving does not restart automatically.'
+  'Board linked NPC passengers individually. Keep the car stopped; the driver seat stays free for a player.'
+  'Drive normally using the game controls. Saved routes are not followed in Player drives mode.'
+  'Queue passenger exits at the next stop. This does not brake a player-driven car.'
+  'Cancel NPCs still approaching. Seated passengers stay inside; the car stays under player control.'
+  'Detach all NPCs. Seated passengers wait for a safe stop and walk clear before their links are removed.'
+  'Release confirmed dead crew only. Stand within 40 tiles of the stopped car. Route and living crew are kept.'
+
+[ALifeStampWindow.lua] 13
+  'Refresh list'
+  'Load file'
+  'Pick target square'
+  'Use my square'
+  'Turn left'
+  'Turn right'
+  'Place stamp'
+  'Undo last stamp'
+  'A-Life Stamp (dev)'
+  'File'
+  'Floors up'
+  'Turn'
+  'Stamp a blueprint...'
+
+[ALifeOutpostTemplateV2Raid.lua] 9
+  'Chain gate'
+  'Chain gate with booth'
+  'Chain fort'
+  'Plate-wall camp'
+  'Plate-wall stronghold'
+  'Crossfire hide'
+  'Crossfire line'
+  'Salvage yard'
+  'Workshop salvage yard'
+
+[ALifeDrivingPresetPanel.lua] 8
+  'Save as new'
+  'Update saved preset'
+  'Delete preset'
+  'Load onto car'
+  'Copy to personal'
+  'Mode: checkpoints'
+  'Save the currently displayed queue as a new named route. Reached waypoints are no longer in this queue.'
+  'Copy the selected saved route. Enter a name to save the copy under a different name. Existing names are never overwritten.'
+
+[ALifeDrivingTuningPanel.lua] 7
+  'Applied to this car. Planner changes may briefly slow it while rebuilding the path.'
+  '<TEXT> Car '
+  'Defaults loaded into the fields. Press Apply to car to activate them.'
+  'Load the responsive driving defaults into the fields, then Apply to car.'
+  'Preset edits: cornering 2, lookahead 6, return speed 5.4. Press Apply to car to test.'
+  'Experimental starting point: adjusts three values, keeping other applied settings.'
+  "Copy this car's applied settings and any unapplied edits for feedback."
+
+[ALifeAdminTabOverview.lua] 6
+  'QUICK SPAWN'
+  'QUICK ACTIONS'
+  'RECENT SPAWNS'
+  'RAID wave '
+  'No raid'
+  'NPCs, world, reputation'
+
+[ALifeOutpostTemplateV2State.lua] 6
+  'Guard-shack post'
+  'Walled forward post'
+  'Fenced supply yard'
+  'Cruiser roadblock'
+  'Checkpoint with cells'
+  'Field precinct'
+
+[ALifeAdminTabReputation.lua] 5
+  'Make hostile'
+  'Back to baseline'
+  'ADJUST'
+  'Make this faction hostile to you. Reversible'
+  'Remove the override'
+
+[ALifeStatusWindow.lua] 4
+  'Project A-Life Status'
+  'Heaviest per tick (ms): '
+  'Server profiler: '
+  'Diagnostics is on here and slows the game'
+
+[ALifeOutpostTemplateV2Folk.lua] 4
+  'Homestead'
+  'Farm with barn'
+  'Market stalls'
+  'Market with back store'
+
+[ALifeOutpostTemplateV2Grand.lua] 4
+  'Walled base'
+  'Walk-in clinic'
+  'Occupied scrapyard'
+  'Farm settlement'
+
+[ALifeAdminWindow.lua] 3
+  'A-Life Admin'
+  'Find any control. Click a result to run it.'
+  'This tab failed to build: '
+
+[ALifeDebugSpawner.lua] 3
+  'Staffed outpost: '
+  'More advanced spawning: Admin Console > Spawn.'
+  'A-Life: spawned '
+
+[ALifeSpawnerBrowser.lua] 3
+  'Let the server pick the cast.'
+  'Click to fold or unfold this group.'
+  'Forces the safehouse event '
+
+[ALifeBuildSession.lua] 3
+  'A free text note for whoever reads the blueprint.'
+  'Save failed: '
+  'Could not open the folder: '
+
+[ALifeAdminConsole.lua] 2
+  'Opens the read-only settings browser with this search.'
+  'Opens the spawn tab with this search in the faction browser.'
+
+[ALifeAdminTabCars.lua] 2
+  'Advanced'
+  'NEW CAR'
+
+[ALifeAdminTabDiagnostics.lua] 2
+  'STATE'
+  'Module table: '
+
+[ALifeAdminTabPopulation.lua] 2
+  'NEAREST NPCS'
+  'CENSUS'
+
+[ALifeAdminTabSettings.lua] 2
+  'Sandbox options browser'
+  'Every A-Life option with its value, default and preset origin.'
+
+[ALifeAdminTabWorld.lua] 2
+  'WORLD STATE'
+  'BASE VISIT'
+
+[ALifeStampClient.lua] 2
+  'Preview this exact target first (step 3).'
+  'Will place '
+
+[ALifeCompanionSheetAdmin.lua] 2
+  'Open the companion sheet: stats, tasks, journal and gear'
+  'The companion sheet lists the survivors travelling with you: health, needs, skills, orders, journal and gear.'
+
+[ALifeCreatorCore.lua] 2
+  'CATALOG ERROR: '
+  ' ATTACHED TO THIS WEAPON'
+
+[ALifeUI2QuickSpawn.lua] 2
+  'Cursor'
+  '30 ahead'
+
+[ALifeAdminTabCleanup.lua] 1
+  'Scan first. Nothing is deleted until you confirm.'
+
+[ALifeAdminUI.lua] 1
+  'Pin to the toolbar (up to '
+
+[ALifeGmPlan.lua] 1
+  ' .. tostring(entry.note or '
+
+[ALifeStartApplyClient.lua] 1
+  'Start settings request finished'
+
+[ALifeBuildCapture.lua] 1
+  ' .. spec.stem .. '
+
+[ALifeBuildTools.lua] 1
+  '[DEV] A-Life Tools'
+
+[ALifeDrivingPerformancePanel.lua] 1
+  'Starts a new bounded capture, replacing the previous in-memory capture. Export the previous one first if you want to keep it.'
+
+[ALifeCreatorFactionSupport.lua] 1
+  'Saved: default car, '

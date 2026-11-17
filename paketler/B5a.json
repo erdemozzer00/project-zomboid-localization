@@ -1,0 +1,72 @@
+{
+  "_paket": "B5a — 1.5.0 farkları: Sandbox değişen 19 (8 sayfa başlığı, 11 açıklama/seçenek); kalkan PresetWorld 8 onayla'da düşer",
+  "_dosya": "Sandbox",
+  "_surum_farki": true,
+  "satirlar": {
+    "Sandbox_ProjectALife.PresetDifficulty_tooltip": {
+      "tr": "NPC'lerin ne kadar sert dövüştüğü ve baskınların ne sıklıkla geldiği. Yalnızca varsayılan değerinde duran ayarlar değişir. Tam etki için oyunu yeniden yükle. Ayrıntılar UZMAN ön ayar değerleri sayfasında.\nVarsayılan: Normal (2). Tek oyunculuda başlangıç kartları yine de Kolay seçili açılır.",
+      "not": "Sayfa atfı: yeni sayfa 'A-Life: EXPERT - Preset values (Difficulty and Population)' B6'da 'A-Life: UZMAN - Ön ayar değerleri (Zorluk ve Nüfus)' olacak; atıf ona göre."
+    },
+    "Sandbox_ProjectALife.PresetDifficulty_option2": {
+      "tr": "Normal",
+      "not": "Medium → Normal oldu; 'Orta' yerine."
+    },
+    "Sandbox_ProjectALife.AimPlayerPercent_tooltip": {
+      "tr": "NPC ateşinin oyunculara ne sıklıkla isabet ettiğine uygulanan genel çarpan; NPC'lerin oyunculara karşı nişan becerisi ayarının ve her karakterin kendi isabetinin üstüne eklenir. 100 değiştirmez. NPC'ler çatışmanın ilk saniyelerinde, uzak mesafede ve hareket eden hedefe karşı da daha kötü nişan alır. Varsayılan: 85.",
+      "not": "Yalnız sona varsayılan eklendi; metnin geri kalanı aynı."
+    },
+    "Sandbox_ProjectALife.WarningEnabled_tooltip": {
+      "tr": "Kapalı: düşman ekipler gördükleri yerde saldırır. Açık: kaç ekibin gördüğü yerde saldıracağını itibarın belirler (Uzman sayfası); geri kalanlar önce teslim olmanı ister ya da uyarır. Temkinli fraksiyonlar kendi kurallarını uygular.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.WarningChance_tooltip": {
+      "tr": "Gördüğü yerde saldırmaya ayarlı ekiplerin yine de uyarma oranı. Her grup bir kez zar atar ve sonucu değişmez. 0 hiçbiri, 100 hepsi demek. İtibar bunu değiştirmez; baskınların kendi olasılığı var.\nVarsayılan: 15."
+    },
+    "Sandbox_ProjectALife.WarningRaidChance_tooltip": {
+      "tr": "Yağmacıların, suikastçıların, yol pusucularının ve yöneticinin oluşturduğu saldırganların önce uyarma oranını belirler. Kötü itibar bu oranı düşürür, iyi itibar yükseltir. 0'da hepsi gördüğü yerde saldırır.\nVarsayılan: 10."
+    },
+    "Sandbox_ProjectALife.GunsVsZombiesPercent_tooltip": {
+      "tr": "Bir zombiyi vurabilecek durumdaki NPC'nin bunu ne sıklıkla yaptığı. Silah sesi daha çok zombi çeker; bu yüzden değeri düşürürsen NPC'ler zombilerin etrafından dolanır, tek zombiye yakın dövüşle girişir ve silahlarını NPC'lerle oyunculara saklar. Köşeye sıkıştıklarında, yaralandıklarında, yaralı bir oyuncuyu korurken, yolu tıkayan bir sürüye karşı ya da asker veya polis olarak görevdeyken yine ateş ederler. 0, köşeye sıkışmadıkça asla demek. 100 eski davranış. Varsayılan: 70. Eski bir kayıtta saklı kalmış 50 değeri ilk 14 gün yine 70 gibi davranır.",
+      "not": "Yalnız son iki cümle değişti."
+    },
+    "Sandbox_ProjectALife.GunNoiseZombies_tooltip": {
+      "tr": "25 kare içinde bundan fazla zombi varsa NPC; köşeye sıkışmadıkça, yaralı değilse ya da yaralı bir oyuncuyu korumuyorsa ateş etmez. 0 bu kontrolü kapatır. Varsayılan: 24 (eski kayıtlarda saklı kalmış eski varsayılan 8, 24 sayılır)."
+    },
+    "Sandbox_ProjectALife.Outposts_TrioMaxActive_tooltip": {
+      "tr": "Ortak grubu aynı anda dışarıda olabilecek en fazla karakol sayısı. 0 yaparsan çıkışlar durur.\nVarsayılan: 2.",
+      "not": "Savaş Sınavı cümlesi kalktı (ön ayar moddan çıktı)."
+    },
+    "Sandbox_ProjectALife.Outposts_MegaEnabled_tooltip": {
+      "tr": "Otomatik, bu grupları Kolay zorlukta kapalı, diğerlerinde açık tutar. Bu kuralı her zorlukta geçersiz kılmak için Kapalı ya da Açık seç.\nVarsayılan: Otomatik: Kolay'da kapalı, diğerlerinde açık (1)."
+    },
+    "Sandbox_ProjectALife.Outposts_MegaMaxActive_tooltip": {
+      "tr": "Aynı anda dışarıda olabilecek en fazla büyük yürüyüş grubu, fraksiyon başına bir tane. 0 yaparsan çıkışlar durur.\nVarsayılan: 1.",
+      "not": "Savaş Sınavı cümlesi kalktı."
+    },
+    "Sandbox_ProjectALife_1People": {
+      "tr": "A-Life: UZMAN - İnsanlar ve ortaya çıkma",
+      "not": "Sayfa başlıkları mevcut 'A-Life: UZMAN - …' biçiminde (7ExpertBehavior gibi). spawning = dünyada belirme → ortaya çıkma (SOZLUK B)."
+    },
+    "Sandbox_ProjectALife_2Danger": {
+      "tr": "A-Life: UZMAN - Tehlike, baskınlar ve yaralanmalar"
+    },
+    "Sandbox_ProjectALife_3Talk": {
+      "tr": "A-Life: UZMAN - Sohbet ve itibar"
+    },
+    "Sandbox_ProjectALife_4Bases": {
+      "tr": "A-Life: UZMAN - Üsler ve karakollar"
+    },
+    "Sandbox_ProjectALife_4Visitors": {
+      "tr": "A-Life: UZMAN - Ziyaretçiler ve yol arkadaşları",
+      "not": "companion = Yol Arkadaşı (IG_UI'deki mevcut kullanım)."
+    },
+    "Sandbox_ProjectALife_5World": {
+      "tr": "A-Life: UZMAN - Dünya ve etkinlikler"
+    },
+    "Sandbox_ProjectALife_6Sound": {
+      "tr": "A-Life: UZMAN - Ses, helikopterler ve performans"
+    },
+    "Sandbox_ProjectALife_2War": {
+      "tr": "A-Life: UZMAN - Savaş, arabalar ve fraksiyonlar"
+    }
+  }
+}

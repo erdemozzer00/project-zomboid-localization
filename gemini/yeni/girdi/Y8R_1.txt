@@ -1,0 +1,469 @@
+# PAKET Y8R · parça 1/1 · satır 1-243 (243 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# BASKIN KARTI VE BİTİŞ ANLATISI: GÖZCÜ satırları baskın kartında çıkan kısa gözcü cümleleridir: bir gözcü, uzaktan ya da yakından baskını haber veriyor (ses: baskıncı çete, asker, kolluk, silahlı yerel halk; taşıt: yaya, araç, helikopter). Her başlık TEK bir aşamanın birbirinin alternatifi sözleridir, oyunda biri rastgele seçilir; her satırı tek başına, kartta bir bakışta okunacak kısa uyarı olarak kur ve ses grubuna uydur. KART satırları kartın büyük harfli başlık/şerit etiketleri ve yön, uzaklık, grup büyüklüğü, süre ifadeleridir. ANLATI satırları oyun sonunda ekranda sırayla akan bitiş anlatısıdır (ANLATI BAŞLIĞI büyük harfli bölüm başlığı); aynı başlık altındaki satırlar ardışık okunan tek bir hikâyedir, 'sen' = oyuncu, geçmiş zaman, edebî ama sade. Sonda noktayı İngilizcedeki gibi bırak (gözcü cümlelerinde nokta yok). {yer_tutucu} ve sayılar aynen kalır.
+# Girdi biçimi: N | etiket | İngilizce
+
+##### BASKIN KARTI · KART ETİKETLERİ (compass) #####
+# NEREDE: Kartta baskının geldiği yön
+1 | KART | Northeast
+2 | KART | Southeast
+3 | KART | Southwest
+4 | KART | Northwest
+
+##### BASKIN KARTI · KART ETİKETLERİ (diger) #####
+# NEREDE: Baskın kartındaki öteki kısa ifadeler ({dir} yön, {dist} uzaklık yer tutucuları ve dalga sayacı)
+5 | KART | {dir}, {dist}
+6 | KART | WAVE {wave}/{waves}
+
+##### BASKIN KARTI · KART ETİKETLERİ (distance) #####
+# NEREDE: Kartta baskının uzaklığını söyleyen kısa ifade
+7 | KART | far out
+8 | KART | a few streets out
+9 | KART | close by
+
+##### BASKIN KARTI · KART ETİKETLERİ (etas) #####
+# NEREDE: Kartta baskının ne zaman geleceğini söyleyen kısa ifade
+10 | KART | most of a day out
+11 | KART | a few hours out
+12 | KART | about an hour out
+13 | KART | minutes out
+14 | KART | any second now
+
+##### BASKIN KARTI · KART ETİKETLERİ (plain) #####
+# NEREDE: Baskın kartının sade, tek cümlelik uyarısı (gözcü sesi olmadan)
+15 | KART | Raid incoming
+16 | KART | They are here
+17 | KART | Under attack
+18 | KART | They are breaking in
+19 | KART | They are holding position
+20 | KART | They are pulling back
+21 | KART | It is over
+
+##### BASKIN KARTI · KART ETİKETLERİ (sizes) #####
+# NEREDE: Kartta baskıncı grubunun büyüklüğünü söyleyen kısa ifade
+22 | KART | a handful
+23 | KART | a warband
+24 | KART | a crew
+
+##### BASKIN KARTI · KART ETİKETLERİ (strip) #####
+# NEREDE: Kartın alt şeridindeki büyük harfli aşama etiketi
+25 | KART | INCOMING
+
+##### BASKIN KARTI · KART ETİKETLERİ (tags) #####
+# NEREDE: Baskın kartının büyük harfli üst etiketi (aşamayı söyler)
+26 | KART | RAID INCOMING
+27 | KART | RAID ARRIVED
+28 | KART | RAIDERS RETREAT
+29 | KART | AFTERMATH
+
+##### BASKIN KARTI · KART ETİKETLERİ (unknown) #####
+# NEREDE: Baskıncının adı bilinmiyorsa adın yerine kullanılan ifade
+30 | KART | unknown crew
+
+##### BASKIN KARTI · GÖZCÜ · uyarı: baskın yola çıktı, saatler var · baskıncı çete #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: baskıncı çete. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+31 | GÖZCÜ | Raiders are loading up, hours out
+32 | GÖZCÜ | A crew is getting ready to hit you
+33 | GÖZCÜ | Word is a gang wants your stuff
+34 | GÖZCÜ | A gang is gearing up for your place
+
+##### BASKIN KARTI · GÖZCÜ · uyarı: baskın yola çıktı, saatler var · asker birliği #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: asker birliği. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+35 | GÖZCÜ | Soldiers are planning a hit on you
+36 | GÖZCÜ | Orders went out, a unit is coming
+37 | GÖZCÜ | A patrol unit has you marked
+38 | GÖZCÜ | Radio traffic, a strike on this area
+
+##### BASKIN KARTI · GÖZCÜ · uyarı: baskın yola çıktı, saatler var · kolluk (polis, SWAT) #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: kolluk (polis, SWAT). Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+39 | GÖZCÜ | Officers are putting a raid together
+40 | GÖZCÜ | Law is lining up a raid on you
+41 | GÖZCÜ | Warrants and radios, they are coming
+42 | GÖZCÜ | Cops are gearing up to hit your place
+
+##### BASKIN KARTI · GÖZCÜ · uyarı: baskın yola çıktı, saatler var · silahlı yerel halk #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: silahlı yerel halk. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+43 | GÖZCÜ | Armed locals are working up a raid
+44 | GÖZCÜ | A group nearby wants what you have
+45 | GÖZCÜ | Chatter says a raid is coming
+46 | GÖZCÜ | Some survivors are plotting against you
+
+##### BASKIN KARTI · GÖZCÜ · yaklaşıyor · baskıncı çete · araçla #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: baskıncı çete; baskın araçla geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+47 | GÖZCÜ | Raiders by car, coming fast
+48 | GÖZCÜ | A convoy of junkers is rolling in
+49 | GÖZCÜ | Engines on the road, raiders close
+
+##### BASKIN KARTI · GÖZCÜ · yaklaşıyor · baskıncı çete · yaya #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: baskıncı çete; baskın yaya geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+50 | GÖZCÜ | Here they come, a crew on foot
+51 | GÖZCÜ | Boots on the road, raiders close
+52 | GÖZCÜ | Raiders closing in, get ready
+
+##### BASKIN KARTI · GÖZCÜ · yaklaşıyor · baskıncı çete · helikopterle #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: baskıncı çete; baskın helikopterle geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+53 | GÖZCÜ | They have a helicopter, brace up
+54 | GÖZCÜ | Rotors getting loud, they have air
+55 | GÖZCÜ | A chopper is coming in loaded
+
+##### BASKIN KARTI · GÖZCÜ · yaklaşıyor · asker birliği · araçla #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: asker birliği; baskın araçla geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+56 | GÖZCÜ | Trucks on the road, soldiers inside
+57 | GÖZCÜ | A column is rolling toward you
+58 | GÖZCÜ | Engines in formation, brace up
+
+##### BASKIN KARTI · GÖZCÜ · yaklaşıyor · asker birliği · yaya #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: asker birliği; baskın yaya geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+59 | GÖZCÜ | A unit is moving on your position
+60 | GÖZCÜ | Boots in step, they are coming
+61 | GÖZCÜ | Soldiers are closing on foot
+
+##### BASKIN KARTI · GÖZCÜ · yaklaşıyor · asker birliği · helikopterle #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: asker birliği; baskın helikopterle geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+62 | GÖZCÜ | Rotors soon, troops aboard
+63 | GÖZCÜ | Helicopter inbound, they come in hot
+64 | GÖZCÜ | A bird is inbound with troops
+
+##### BASKIN KARTI · GÖZCÜ · yaklaşıyor · kolluk (polis, SWAT) · araçla #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: kolluk (polis, SWAT); baskın araçla geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+65 | GÖZCÜ | Sirens on the road, law is close
+66 | GÖZCÜ | Cruisers inbound, get ready
+67 | GÖZCÜ | Patrol cars rolling in
+
+##### BASKIN KARTI · GÖZCÜ · yaklaşıyor · kolluk (polis, SWAT) · yaya #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: kolluk (polis, SWAT); baskın yaya geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+68 | GÖZCÜ | Flashlights and boots, law is close
+69 | GÖZCÜ | Officers are closing on foot
+70 | GÖZCÜ | Law is moving on your door
+
+##### BASKIN KARTI · GÖZCÜ · yaklaşıyor · kolluk (polis, SWAT) · helikopterle #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: kolluk (polis, SWAT); baskın helikopterle geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+71 | GÖZCÜ | Law has a bird in the air
+72 | GÖZCÜ | A helicopter is inbound with officers
+73 | GÖZCÜ | Rotors and spotlights, law is close
+
+##### BASKIN KARTI · GÖZCÜ · yaklaşıyor · silahlı yerel halk · araçla #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: silahlı yerel halk; baskın araçla geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+74 | GÖZCÜ | Armed locals coming by car
+75 | GÖZCÜ | Pickups are rolling toward you
+76 | GÖZCÜ | Engines on the road, locals armed
+
+##### BASKIN KARTI · GÖZCÜ · yaklaşıyor · silahlı yerel halk · yaya #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: silahlı yerel halk; baskın yaya geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+77 | GÖZCÜ | A mob with guns is on the way
+78 | GÖZCÜ | Armed locals are closing in
+79 | GÖZCÜ | People with guns, coming your way
+
+##### BASKIN KARTI · GÖZCÜ · yaklaşıyor · silahlı yerel halk · helikopterle #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: silahlı yerel halk; baskın helikopterle geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+80 | GÖZCÜ | A chopper is coming, armed locals
+81 | GÖZCÜ | Rotors close, they came by air
+82 | GÖZCÜ | Survivors with a helicopter, inbound
+
+##### BASKIN KARTI · GÖZCÜ · geldi · baskıncı çete · araçla #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: baskıncı çete; baskın araçla geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+83 | GÖZCÜ | Junkers skidding to a stop
+84 | GÖZCÜ | Raiders out of their cars
+85 | GÖZCÜ | Raiders just rolled up
+
+##### BASKIN KARTI · GÖZCÜ · geldi · baskıncı çete · yaya #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: baskıncı çete; baskın yaya geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+86 | GÖZCÜ | They are in the street now
+87 | GÖZCÜ | Raiders on your block, on foot
+88 | GÖZCÜ | Raiders are here, on foot
+
+##### BASKIN KARTI · GÖZCÜ · geldi · baskıncı çete · helikopterle #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: baskıncı çete; baskın helikopterle geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+89 | GÖZCÜ | A chopper unloaded raiders
+90 | GÖZCÜ | Raiders hit the ground from a heli
+91 | GÖZCÜ | They dropped in from the air
+
+##### BASKIN KARTI · GÖZCÜ · geldi · asker birliği · araçla #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: asker birliği; baskın araçla geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+92 | GÖZCÜ | A column stopped, soldiers spilling out
+93 | GÖZCÜ | Soldiers dismounting, spreading out
+94 | GÖZCÜ | Troops out of the trucks
+
+##### BASKIN KARTI · GÖZCÜ · geldi · asker birliği · yaya #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: asker birliği; baskın yaya geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+95 | GÖZCÜ | A unit just took the street
+96 | GÖZCÜ | Troops on foot, spreading out
+97 | GÖZCÜ | Soldiers are in position
+
+##### BASKIN KARTI · GÖZCÜ · geldi · asker birliği · helikopterle #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: asker birliği; baskın helikopterle geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+98 | GÖZCÜ | Troops dropping from the bird
+99 | GÖZCÜ | Soldiers coming down, heli overhead
+100 | GÖZCÜ | Heli overhead, troops on the ground
+
+##### BASKIN KARTI · GÖZCÜ · geldi · kolluk (polis, SWAT) · araçla #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: kolluk (polis, SWAT); baskın araçla geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+101 | GÖZCÜ | Cruisers stopped, officers out
+102 | GÖZCÜ | Patrol cars pulled up
+103 | GÖZCÜ | Law is out of the cars, weapons up
+
+##### BASKIN KARTI · GÖZCÜ · geldi · kolluk (polis, SWAT) · yaya #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: kolluk (polis, SWAT); baskın yaya geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+104 | GÖZCÜ | Badges and long guns, up the road
+105 | GÖZCÜ | Law just showed up on foot
+106 | GÖZCÜ | Officers are on the street
+
+##### BASKIN KARTI · GÖZCÜ · geldi · kolluk (polis, SWAT) · helikopterle #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: kolluk (polis, SWAT); baskın helikopterle geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+107 | GÖZCÜ | A law chopper is hovering, men down
+108 | GÖZCÜ | Officers dropping from a heli
+109 | GÖZCÜ | Heli overhead, officers on the ground
+
+##### BASKIN KARTI · GÖZCÜ · geldi · silahlı yerel halk · araçla #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: silahlı yerel halk; baskın araçla geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+110 | GÖZCÜ | Armed locals out of their cars
+111 | GÖZCÜ | Pickups pulled up, armed people out
+112 | GÖZCÜ | A convoy of locals just arrived
+
+##### BASKIN KARTI · GÖZCÜ · geldi · silahlı yerel halk · yaya #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: silahlı yerel halk; baskın yaya geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+113 | GÖZCÜ | A mob is in the street
+114 | GÖZCÜ | Strangers with guns, on foot
+115 | GÖZCÜ | Armed locals showed up
+
+##### BASKIN KARTI · GÖZCÜ · geldi · silahlı yerel halk · helikopterle #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: silahlı yerel halk; baskın helikopterle geliyor. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+116 | GÖZCÜ | They came in by air, guns out
+117 | GÖZCÜ | Survivors dropped in by chopper
+118 | GÖZCÜ | A heli unloaded armed locals
+
+##### BASKIN KARTI · GÖZCÜ · saldırı sürüyor · baskıncı çete #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: baskıncı çete. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+119 | GÖZCÜ | Gunfire, they are coming for the door
+120 | GÖZCÜ | They are shooting, take cover
+121 | GÖZCÜ | Raiders opened fire
+122 | GÖZCÜ | They are pushing hard, stay low
+
+##### BASKIN KARTI · GÖZCÜ · saldırı sürüyor · asker birliği #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: asker birliği. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+123 | GÖZCÜ | They are advancing in pairs
+124 | GÖZCÜ | Fire teams are advancing
+125 | GÖZCÜ | Controlled bursts, they are pushing in
+126 | GÖZCÜ | Soldiers opened fire, find cover
+
+##### BASKIN KARTI · GÖZCÜ · saldırı sürüyor · kolluk (polis, SWAT) #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: kolluk (polis, SWAT). Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+127 | GÖZCÜ | Shots, they are pushing the entrance
+128 | GÖZCÜ | Officers opened fire
+129 | GÖZCÜ | Law is advancing under cover
+130 | GÖZCÜ | They are firing on your position
+
+##### BASKIN KARTI · GÖZCÜ · saldırı sürüyor · silahlı yerel halk #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: silahlı yerel halk. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+131 | GÖZCÜ | Shooting, they are coming at you
+132 | GÖZCÜ | Armed locals are rushing in
+133 | GÖZCÜ | They opened fire, get down
+134 | GÖZCÜ | Shots from every side
+##### BASKIN KARTI · GÖZCÜ · kapıyı kırmaya çalışıyorlar · baskıncı çete #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: baskıncı çete. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+135 | GÖZCÜ | The door is giving, they are inside
+136 | GÖZCÜ | Somebody kicked the door in
+
+##### BASKIN KARTI · GÖZCÜ · kapıyı kırmaya çalışıyorlar · asker birliği #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: asker birliği. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+137 | GÖZCÜ | They breached, stacking up inside
+138 | GÖZCÜ | Door blown, soldiers inside
+139 | GÖZCÜ | Entry made, they are flooding in
+
+##### BASKIN KARTI · GÖZCÜ · kapıyı kırmaya çalışıyorlar · kolluk (polis, SWAT) #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: kolluk (polis, SWAT). Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+140 | GÖZCÜ | Officers breached the entrance
+141 | GÖZCÜ | Door rammed, officers inside
+142 | GÖZCÜ | They forced the door, weapons up
+
+##### BASKIN KARTI · GÖZCÜ · kapıyı kırmaya çalışıyorlar · silahlı yerel halk #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: silahlı yerel halk. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+143 | GÖZCÜ | They are smashing their way in
+144 | GÖZCÜ | Windows and doors going down
+145 | GÖZCÜ | They are inside, hurry
+
+##### BASKIN KARTI · GÖZCÜ · mevzide bekliyorlar · baskıncı çete #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: baskıncı çete. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+146 | GÖZCÜ | Raiders hanging back, watching
+147 | GÖZCÜ | Quiet, they are waiting for something
+148 | GÖZCÜ | They stopped, holding outside
+
+##### BASKIN KARTI · GÖZCÜ · mevzide bekliyorlar · asker birliği #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: asker birliği. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+149 | GÖZCÜ | They are holding the perimeter
+150 | GÖZCÜ | A unit stopped, covering all exits
+151 | GÖZCÜ | They hold position, eyes on you
+
+##### BASKIN KARTI · GÖZCÜ · mevzide bekliyorlar · kolluk (polis, SWAT) #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: kolluk (polis, SWAT). Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+152 | GÖZCÜ | Law is waiting outside, weapons up
+153 | GÖZCÜ | Officers set up a perimeter
+154 | GÖZCÜ | They hold at the cars, watching
+
+##### BASKIN KARTI · GÖZCÜ · mevzide bekliyorlar · silahlı yerel halk #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: silahlı yerel halk. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+155 | GÖZCÜ | Armed locals are holding back
+156 | GÖZCÜ | They stopped, looking for a way in
+157 | GÖZCÜ | They are waiting outside, nervous
+
+##### BASKIN KARTI · GÖZCÜ · geri çekiliyorlar · baskıncı çete #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: baskıncı çete. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+158 | GÖZCÜ | Raiders are pulling back
+159 | GÖZCÜ | They have had enough, backing off
+160 | GÖZCÜ | The crew is running
+
+##### BASKIN KARTI · GÖZCÜ · geri çekiliyorlar · asker birliği #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: asker birliği. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+161 | GÖZCÜ | They are falling back in order
+162 | GÖZCÜ | Soldiers are pulling out
+163 | GÖZCÜ | The unit is withdrawing
+
+##### BASKIN KARTI · GÖZCÜ · geri çekiliyorlar · kolluk (polis, SWAT) #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: kolluk (polis, SWAT). Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+164 | GÖZCÜ | Law is pulling out
+165 | GÖZCÜ | They are retreating to the cars
+166 | GÖZCÜ | Officers are falling back
+
+##### BASKIN KARTI · GÖZCÜ · geri çekiliyorlar · silahlı yerel halk #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: silahlı yerel halk. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+167 | GÖZCÜ | Armed locals are running off
+168 | GÖZCÜ | The mob is breaking up
+169 | GÖZCÜ | They are backing off
+
+##### BASKIN KARTI · GÖZCÜ · baskın bitti · baskıncı çete #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: baskıncı çete. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+170 | GÖZCÜ | The street is empty, they are done
+171 | GÖZCÜ | It is quiet, the raiders are gone
+172 | GÖZCÜ | No more raiders, check your people
+
+##### BASKIN KARTI · GÖZCÜ · baskın bitti · asker birliği #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: asker birliği. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+173 | GÖZCÜ | No more soldiers, it is over
+174 | GÖZCÜ | The unit is gone, check your gear
+175 | GÖZCÜ | Quiet again, the unit is finished
+
+##### BASKIN KARTI · GÖZCÜ · baskın bitti · kolluk (polis, SWAT) #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: kolluk (polis, SWAT). Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+176 | GÖZCÜ | It is over, officers gone
+177 | GÖZCÜ | Law is gone, check the doors
+178 | GÖZCÜ | No more officers, the road is quiet
+
+##### BASKIN KARTI · GÖZCÜ · baskın bitti · silahlı yerel halk #####
+# NEREDE: Baskın kartında gözcünün kısa uyarı cümlesi; konuşan: silahlı yerel halk. Bu bloktaki satırlar birbirinin alternatifi, oyunda biri rastgele seçilir
+179 | GÖZCÜ | No more shooting, it is over
+180 | GÖZCÜ | Quiet again, check your stuff
+181 | GÖZCÜ | The locals are gone, it is over
+
+##### BİTİŞ ANLATISI · detention #####
+# NEREDE: Oyun sonunda ekranda sırayla akan bitiş hikâyesi; BAŞLIK büyük harfli bölüm adı, altındaki satırlar hikâyenin ardışık cümleleri
+182 | ANLATI BAŞLIĞI | THEY KEPT YOU UNDER GUARD
+183 | ANLATI | At the base, you were held while the guards checked who had arrived.
+184 | ANLATI | Reports came in slowly. Nobody would say when the checks would end.
+185 | ANLATI | The holding-cell door stayed locked. You were still waiting for their decision.
+
+##### BİTİŞ ANLATISI · execution #####
+# NEREDE: Oyun sonunda ekranda sırayla akan bitiş hikâyesi; BAŞLIK büyük harfli bölüm adı, altındaki satırlar hikâyenin ardışık cümleleri
+186 | ANLATI BAŞLIĞI | THEY KNEW WHAT YOU WERE
+187 | ANLATI | The army took you through the base under guard. Your killings had reached them first.
+188 | ANLATI | Eight soldiers waited in the courtyard. You were taken to the wall.
+189 | ANLATI | You were executed. By morning, the courtyard was empty again.
+
+##### BİTİŞ ANLATISI · leader #####
+# NEREDE: Oyun sonunda ekranda sırayla akan bitiş hikâyesi; BAŞLIK büyük harfli bölüm adı, altındaki satırlar hikâyenin ardışık cümleleri
+190 | ANLATI BAŞLIĞI | YOU LED THEM HOME
+191 | ANLATI | The first shelters went up in a quiet valley. You helped make a place to stay.
+192 | ANLATI | More roofs followed. Then a wall. What began as a camp became a settlement.
+193 | ANLATI | Years later, lights still burned behind those walls. The place you helped build had grown.
+
+##### BİTİŞ ANLATISI · low_profile #####
+# NEREDE: Oyun sonunda ekranda sırayla akan bitiş hikâyesi; BAŞLIK büyük harfli bölüm adı, altındaki satırlar hikâyenin ardışık cümleleri
+194 | ANLATI BAŞLIĞI | YOU LEFT QUIETLY
+195 | ANLATI | You walked off the landing strip alone. There was no reason to stay.
+196 | ANLATI | Beyond the airstrip, the road was quiet. You kept walking.
+197 | ANLATI | You found a cabin far from the road. The radio stayed on. For now, that was enough.
+
+##### BİTİŞ ANLATISI · mixed #####
+# NEREDE: Oyun sonunda ekranda sırayla akan bitiş hikâyesi; BAŞLIK büyük harfli bölüm adı, altındaki satırlar hikâyenin ardışık cümleleri
+198 | ANLATI BAŞLIĞI | THE ROAD WENT ON
+199 | ANLATI | The flight was over. What happened in Knox stayed part of your story.
+200 | ANLATI | You left the airstrip behind. There was still a road ahead.
+201 | ANLATI | In a cabin beyond the road, you listened to the radio. What came next was still unwritten.
+
+##### BİTİŞ ANLATISI · soldier #####
+# NEREDE: Oyun sonunda ekranda sırayla akan bitiş hikâyesi; BAŞLIK büyük harfli bölüm adı, altındaki satırlar hikâyenin ardışık cümleleri
+202 | ANLATI BAŞLIĞI | THE ARMY WANTED YOU
+203 | ANLATI | At the base, a uniform and a rifle waited on a desk. You signed on.
+204 | ANLATI | You marched out with the next patrol. Survival had become a duty.
+205 | ANLATI | The dead kept coming. From your watchpost, you kept them in sight.
+
+##### BİTİŞ ANLATISI · KISA SÜRÜM · detention #####
+# NEREDE: Bitiş hikâyesinin kısa anlatımı: aynı bitişin ardışık cümleleri
+206 | ANLATI | At the base they locked you up while they checked who you were
+207 | ANLATI | Reports trickled in. Nobody said how long the checks would take
+208 | ANLATI | The cell door stayed shut. You're still waiting on their call
+
+##### BİTİŞ ANLATISI · KISA SÜRÜM · execution #####
+# NEREDE: Bitiş hikâyesinin kısa anlatımı: aynı bitişin ardışık cümleleri
+209 | ANLATI | They marched you through the base under guard. Word of your killings got there first
+210 | ANLATI | Eight soldiers in the courtyard. They walked you to the wall
+211 | ANLATI | One volley. By morning the courtyard was empty again
+
+##### BİTİŞ ANLATISI · KISA SÜRÜM · leader #####
+# NEREDE: Bitiş hikâyesinin kısa anlatımı: aynı bitişin ardışık cümleleri
+212 | ANLATI | First shelters in a quiet valley. You helped raise them
+213 | ANLATI | Then roofs. Then a wall. The camp turned into a town
+214 | ANLATI | Years on, the lights still burn behind those walls
+
+##### BİTİŞ ANLATISI · KISA SÜRÜM · low_profile #####
+# NEREDE: Bitiş hikâyesinin kısa anlatımı: aynı bitişin ardışık cümleleri
+215 | ANLATI | You walked off the airstrip alone. Nothing left to stay for
+216 | ANLATI | Past the fence the road was quiet. You kept walking
+217 | ANLATI | A cabin far from anyone, the radio on. For now that's enough
+
+##### BİTİŞ ANLATISI · KISA SÜRÜM · mixed #####
+# NEREDE: Bitiş hikâyesinin kısa anlatımı: aynı bitişin ardışık cümleleri
+218 | ANLATI | The flight was over. Knox stays with you
+219 | ANLATI | The airstrip fell behind. Still road ahead
+220 | ANLATI | A cabin, a radio, a long night. What comes next is yours
+
+##### BİTİŞ ANLATISI · KISA SÜRÜM · soldier #####
+# NEREDE: Bitiş hikâyesinin kısa anlatımı: aynı bitişin ardışık cümleleri
+221 | ANLATI | A uniform and a rifle on the desk. You signed
+222 | ANLATI | Next patrol, you marched out with them. Surviving was the job now
+223 | ANLATI | The dead kept coming. You kept watch
+
+##### BİTİŞ · HESAPLAŞMA SATIRLARI · ghost #####
+# NEREDE: Bitişte oyuncuya yaşananları alt alta sayan kısa anlatı satırları; {zombies}, {humans}, {rep} yer tutucuları sayı ya da ifadeyle dolar
+224 | ANLATI BAŞLIĞI | NOBODY KNOWS YOUR NAME
+225 | ANLATI | You walked off the landing strip alone
+226 | ANLATI | No file, no flag, nobody waiting for you
+227 | ANLATI | A radio keeps asking who is out there
+228 | ANLATI | You never answer
+
+##### BİTİŞ · HESAPLAŞMA SATIRLARI · leader #####
+# NEREDE: Bitişte oyuncuya yaşananları alt alta sayan kısa anlatı satırları; {zombies}, {humans}, {rep} yer tutucuları sayı ya da ifadeyle dolar
+229 | ANLATI | The heli set you down in a quiet valley
+230 | ANLATI | Survivors came, then more, then a wall
+231 | ANLATI | People trusted you, so they stayed
+232 | ANLATI | A new place, a safe place, and it was yours
+
+##### BİTİŞ · HESAPLAŞMA SATIRLARI · monster #####
+# NEREDE: Bitişte oyuncuya yaşananları alt alta sayan kısa anlatı satırları; {zombies}, {humans}, {rep} yer tutucuları sayı ya da ifadeyle dolar
+233 | ANLATI | The army took you to their base
+234 | ANLATI | No trial, they had already read your file
+235 | ANLATI | {zombies} zombies, {humans} people, {rep}
+236 | ANLATI | You were executed right after
+237 | ANLATI | They knew you were a monster
+
+##### BİTİŞ · HESAPLAŞMA SATIRLARI · soldier #####
+# NEREDE: Bitişte oyuncuya yaşananları alt alta sayan kısa anlatı satırları; {zombies}, {humans}, {rep} yer tutucuları sayı ya da ifadeyle dolar
+238 | ANLATI | The army saw your kill count and signed you on
+239 | ANLATI | A uniform, a rifle, a number instead of a name
+240 | ANLATI | The dead keep coming
+241 | ANLATI | So do you
+
+##### BİTİŞ ANLATISI · ORDU GÖZALTI #####
+# NEREDE: Bitiş anlatısında ordunun oyuncuyu gözaltına aldığı sonun iki ardışık cümlesi (veri dosyasından, kaynağı belirsiz)
+242 | ANLATI | Your file stayed on a desk while they reviewed what had happened.
+243 | ANLATI | The army took you into custody. Your record raised questions they would not ignore.

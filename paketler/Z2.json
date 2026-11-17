@@ -1,0 +1,2701 @@
+{
+    "_paket": "Z2 — Ziyaretçi paneli: soru düğmeleri, olay seçenekleri, kişi tarifleri, öğrenilen bilgiler, kapı eylem satırları, 897 (çeviri: harici AI; kalite incelemesi yapılmadı)",
+    "_dosya": "RadioData_lua",
+    "satirlar": {
+        "RD_ALifeLine_128748b70c0ec3e1": {
+            "tr": "Ayır onları"
+        },
+        "RD_ALifeLine_1e2f8cbd7f67fc61": {
+            "tr": "Birinin tarafını tut"
+        },
+        "RD_ALifeLine_3129a5e64f593131": {
+            "tr": "Kendi hallerine bırak"
+        },
+        "RD_ALifeLine_18837488708dca2a": {
+            "tr": "Bildiklerini anlat"
+        },
+        "RD_ALifeLine_0b88041f172d46be": {
+            "tr": "Yalan söyle"
+        },
+        "RD_ALifeLine_2f45e33b2675ddea": {
+            "tr": "Bir battaniye ver"
+        },
+        "RD_ALifeLine_71f76ff3505a0a6a": {
+            "tr": "Sobayı yak"
+        },
+        "RD_ALifeLine_4590b427654077ff": {
+            "tr": "Lavabo şurada"
+        },
+        "RD_ALifeLine_7531b2eb53b55d0e": {
+            "tr": "Kovayı kullan"
+        },
+        "RD_ALifeLine_05eabb743cb43e89": {
+            "tr": "Birini ödünç ver"
+        },
+        "RD_ALifeLine_1b24f77433735b12": {
+            "tr": "Rafa bak"
+        },
+        "RD_ALifeLine_51878a5345c4d673": {
+            "tr": "Al, bunu giy"
+        },
+        "RD_ALifeLine_2c55e2024b992f57": {
+            "tr": "Banyoyu kullan"
+        },
+        "RD_ALifeLine_7b1a46c27872b5f8": {
+            "tr": "Yok bir şey, kusura bakma"
+        },
+        "RD_ALifeLine_3756501800a85080": {
+            "tr": "Çay yap"
+        },
+        "RD_ALifeLine_205597fa500a4616": {
+            "tr": "Bir bakayım"
+        },
+        "RD_ALifeLine_366ea41d3482b741": {
+            "tr": "Uzak dur"
+        },
+        "RD_ALifeLine_3644828804d138c8": {
+            "tr": "Yanında otur"
+        },
+        "RD_ALifeLine_1895167779b5254a": {
+            "tr": "Yalnız bırak"
+        },
+        "RD_ALifeLine_750f05b679f8ca01": {
+            "tr": "Sessiz kal"
+        },
+        "RD_ALifeLine_4a09e24c010fbf98": {
+            "tr": "Bir bardak doldur"
+        },
+        "RD_ALifeLine_26b5e23a54377d05": {
+            "tr": "Kabul et"
+        },
+        "RD_ALifeLine_423471f951df5950": {
+            "tr": "Nazikçe reddet"
+        },
+        "RD_ALifeLine_34e0f4425dbc83bc": {
+            "tr": "Biz etmeyiz ama sen devam et"
+        },
+        "RD_ALifeLine_092b8311494af3d9": {
+            "tr": "Sofrada olmaz"
+        },
+        "RD_ALifeLine_224bafbd1bae2332": {
+            "tr": "Ev zaten böyleydi"
+        },
+        "RD_ALifeLine_148ea9936882a2d0": {
+            "tr": "İkisi de, perdeler de"
+        },
+        "RD_ALifeLine_1701cb3d7a9f1e64": {
+            "tr": "Önce ye"
+        },
+        "RD_ALifeLine_248a45d06985f90d": {
+            "tr": "Su taşı"
+        },
+        "RD_ALifeLine_72a85f9d451e7905": {
+            "tr": "İyi yolculuklar dile"
+        },
+        "RD_ALifeLine_51555e2f7452fd4c": {
+            "tr": "Kalmasını iste"
+        },
+        "RD_ALifeLine_5a3e0d6171f0156c": {
+            "tr": "Birlikte kilitle"
+        },
+        "RD_ALifeLine_7c8646d05ba0f664": {
+            "tr": "Yardım et"
+        },
+        "RD_ALifeLine_3df29c945d23ac1f": {
+            "tr": "Anlat bakalım"
+        },
+        "RD_ALifeLine_788959664fdf37d8": {
+            "tr": "Kaldır, güvende dursun"
+        },
+        "RD_ALifeLine_303aaeb10bc02a10": {
+            "tr": "Şakayla karşılık ver"
+        },
+        "RD_ALifeLine_505b92393ef2c050": {
+            "tr": "İyi göründüğünü söyle"
+        },
+        "RD_ALifeLine_66a8f808190f564c": {
+            "tr": "Bir şey söyleme"
+        },
+        "RD_ALifeLine_725fb60f57e58d80": {
+            "tr": "Rahatlat"
+        },
+        "RD_ALifeLine_11979ed22be7fa08": {
+            "tr": "Ne gördüğünü sor"
+        },
+        "RD_ALifeLine_1a9b5eeb563927f0": {
+            "tr": "Sandalyeye otur"
+        },
+        "RD_ALifeLine_08a428d213c7b888": {
+            "tr": "Işıkları kapalı tut"
+        },
+        "RD_ALifeLine_7d6d7c3478ce7bde": {
+            "tr": "Gerek yok"
+        },
+        "RD_ALifeLine_49ff85492748e6d7": {
+            "tr": "Yol arkadaşının neye ihtiyacı var?"
+        },
+        "RD_ALifeLine_13398f46350d61c4": {
+            "tr": "Yol arkadaşına bir bakabilirim"
+        },
+        "RD_ALifeLine_7422a632268feaf3": {
+            "tr": "Yardım edemem"
+        },
+        "RD_ALifeLine_470c908c6ebdf1b5": {
+            "tr": "Bırak denesin"
+        },
+        "RD_ALifeLine_06285f403e6c7c28": {
+            "tr": "Fotoğraftaki kim?"
+        },
+        "RD_ALifeLine_0b880d66172dcfe1": {
+            "tr": "Başını salla"
+        },
+        "RD_ALifeLine_5ec73f787202cb5d": {
+            "tr": "Frekansı ayarla"
+        },
+        "RD_ALifeLine_22d5cb5a66b6cca4": {
+            "tr": "Cızırtıdan başka bir şey yok"
+        },
+        "RD_ALifeLine_009a80525729716b": {
+            "tr": "Bir püf noktası ver"
+        },
+        "RD_ALifeLine_7c8789f05be82f66": {
+            "tr": "Şaka yap"
+        },
+        "RD_ALifeLine_4e83af742b871ddb": {
+            "tr": "Reddet"
+        },
+        "RD_ALifeLine_0922250f676be6d2": {
+            "tr": "Daha fazlasını sor"
+        },
+        "RD_ALifeLine_678270ed68eb282a": {
+            "tr": "Ayakkabıları çıkarma"
+        },
+        "RD_ALifeLine_3afe3cff6157f946": {
+            "tr": "Verandada"
+        },
+        "RD_ALifeLine_7ac0b8737ac6a565": {
+            "tr": "Evin içinde olmaz"
+        },
+        "RD_ALifeLine_7c8c8d685d1e33fc": {
+            "tr": "Kal"
+        },
+        "RD_ALifeLine_455bada82e744a9e": {
+            "tr": "Konuyu değiştir"
+        },
+        "RD_ALifeLine_54223fa609377525": {
+            "tr": "Dene"
+        },
+        "RD_ALifeLine_1c2dcdac68142ad5": {
+            "tr": "Harcayacak elektrik yok"
+        },
+        "RD_ALifeLine_533be54c488d57f2": {
+            "tr": "Sadece parazit"
+        },
+        "RD_ALifeLine_4cafe09b06074ae0": {
+            "tr": "Banyo şurada"
+        },
+        "RD_ALifeLine_46afa78e3ac0fbe3": {
+            "tr": "Şimdi olmaz"
+        },
+        "RD_ALifeLine_7749213678b1f205": {
+            "tr": "Çatının aktığını kabul et"
+        },
+        "RD_ALifeLine_6aacdc5c6e2a4644": {
+            "tr": "Doğruyu söyle"
+        },
+        "RD_ALifeLine_21fd78f43d138020": {
+            "tr": "Şaka yap"
+        },
+        "RD_ALifeLine_7c8c681e5d1bdcba": {
+            "tr": "Geç"
+        },
+        "RD_ALifeLine_038cefb11e1b8ab0": {
+            "tr": "Yatağı al"
+        },
+        "RD_ALifeLine_5d3cdf6f1c90e7c7": {
+            "tr": "Kanepeye yat"
+        },
+        "RD_ALifeLine_4007ab0e5933a17a": {
+            "tr": "Yerde, sobanın yanında"
+        },
+        "RD_ALifeLine_3872739118b7cfe0": {
+            "tr": "*Temiz ellerine bir kez daha bakıyor*"
+        },
+        "RD_ALifeLine_6316d57d253afa9e": {
+            "tr": "*Bir elini çeviriyor, sonra ötekini*"
+        },
+        "RD_ALifeLine_1db28f925c7d7eb7": {
+            "tr": "*Bir an temiz avuçlarını inceliyor*"
+        },
+        "RD_ALifeLine_2ee1e90b15dae676": {
+            "tr": "*Kirin kalktığı yerlerdeki soluk izleri inceliyor*"
+        },
+        "RD_ALifeLine_759faf1f6a454dcd": {
+            "tr": "*Başparmağını yıkanmış bir parmak boğumunda gezdiriyor*"
+        },
+        "RD_ALifeLine_7b5e2273489bdfb0": {
+            "tr": "*Temiz bir parmak ucuna öbür elinin başparmağıyla dokunuyor*"
+        },
+        "RD_ALifeLine_67b30d2d4ebdba53": {
+            "tr": "*Bileğine bakıyor, sonra iki elini de indiriyor*"
+        },
+        "RD_ALifeLine_759829892e40a6bc": {
+            "tr": "*Elini uzatıyor, sonra temiz avucuna bir göz atıyor*"
+        },
+        "RD_ALifeLine_1a5154a545d35bf2": {
+            "tr": "*Küçük bir gülümseme belli edip bakışını kaçırıyor*"
+        },
+        "RD_ALifeLine_5de451133d29c71d": {
+            "tr": "*Sesini yükseltmeden biraz daha yakına kayıyor*"
+        },
+        "RD_ALifeLine_492364b10246c638": {
+            "tr": "Konusu ne?"
+        },
+        "RD_ALifeLine_73fab5ef3ff13f79": {
+            "tr": "İçinde neler oluyor?"
+        },
+        "RD_ALifeLine_631cf49820cf168d": {
+            "tr": "Hikayeyi bir anlat"
+        },
+        "RD_ALifeLine_7762ffac4825dfc8": {
+            "tr": "Bir daha okur muydun?"
+        },
+        "RD_ALifeLine_6ba787b802ec4b9a": {
+            "tr": "Saklamalık bir kitap mı?"
+        },
+        "RD_ALifeLine_461edc4e58c6b1f7": {
+            "tr": "İki kez okunur mu?"
+        },
+        "RD_ALifeLine_6a00e3d37d813f9c": {
+            "tr": "En sevdiğin karakter kim?"
+        },
+        "RD_ALifeLine_600b5b75195c5b5f": {
+            "tr": "İçinde kimi seviyorsun?"
+        },
+        "RD_ALifeLine_72cd6f8b61323110": {
+            "tr": "İçinde sana benzeyen biri var mı?"
+        },
+        "RD_ALifeLine_66feafc1209cd208": {
+            "tr": "Nasıl bitiyor?"
+        },
+        "RD_ALifeLine_3932ccb71bc2da6d": {
+            "tr": "Bitirdin mi?"
+        },
+        "RD_ALifeLine_38d028203264cc58": {
+            "tr": "Sonunda ne oluyor?"
+        },
+        "RD_ALifeLine_4d6088016b81e9e8": {
+            "tr": "Okuması zor mu?"
+        },
+        "RD_ALifeLine_22fff51c169f39fc": {
+            "tr": "Yavaş ilerliyor mu?"
+        },
+        "RD_ALifeLine_1f942d8357bba053": {
+            "tr": "Odaklanman gerekiyor mu?"
+        },
+        "RD_ALifeLine_114eb6d475b1dee9": {
+            "tr": "Başkasının okumasına hiç izin verir misin?"
+        },
+        "RD_ALifeLine_3340cbbf587124d8": {
+            "tr": "Paylaşmak isteyeceğin bir kitap mı?"
+        },
+        "RD_ALifeLine_6fb6b8d75367e542": {
+            "tr": "Bunu kendine saklamak mı istersin?"
+        },
+        "RD_ALifeLine_7c9596df39499499": {
+            "tr": "İyi mi bu?"
+        },
+        "RD_ALifeLine_32f506a56dabc7d8": {
+            "tr": "Hoşuna gidiyor mu?"
+        },
+        "RD_ALifeLine_5bfcfbb267f67a18": {
+            "tr": "Vaktine değer mi?"
+        },
+        "RD_ALifeLine_3149f5eb3ef6c7b2": {
+            "tr": "Neden o?"
+        },
+        "RD_ALifeLine_599e31a0543af54b": {
+            "tr": "Neden o kitap?"
+        },
+        "RD_ALifeLine_413b8e593679bb7b": {
+            "tr": "Eline nasıl geçti?"
+        },
+        "RD_ALifeLine_22c9c9bb2f919bdf": {
+            "tr": "Ona bir iltifat et"
+        },
+        "RD_ALifeLine_6614bc883438cb4a": {
+            "tr": "İyi göründüğünü söyle"
+        },
+        "RD_ALifeLine_23e8a33f227405f4": {
+            "tr": "Hakkında güzel bir şey söyle"
+        },
+        "RD_ALifeLine_02647d6807364ad7": {
+            "tr": "Seninle konuşmak kolay"
+        },
+        "RD_ALifeLine_55edd7be47651d83": {
+            "tr": "Seninle konuşmayı seviyorum"
+        },
+        "RD_ALifeLine_0687ab92746d153d": {
+            "tr": "Seninle konuşmak iyi geliyor"
+        },
+        "RD_ALifeLine_3575a85349fd1c30": {
+            "tr": "Bu gece için bu kadar yeter"
+        },
+        "RD_ALifeLine_6a2706293efe6a65": {
+            "tr": "Gönül koyma, başka bir şeyden konuşalım"
+        },
+        "RD_ALifeLine_3022cea95f188f95": {
+            "tr": "İçtenlikle iyi geceler de"
+        },
+        "RD_ALifeLine_097a105f17e6240c": {
+            "tr": "Sakin bir gece dile"
+        },
+        "RD_ALifeLine_7b7fecb15705a843": {
+            "tr": "İyi geceler de"
+        },
+        "RD_ALifeLine_6a0ebfb034de7842": {
+            "tr": "El ele tutuşsak rahat eder misin?"
+        },
+        "RD_ALifeLine_665fbe223a6c36fa": {
+            "tr": "Elimi uzatabilir miyim?"
+        },
+        "RD_ALifeLine_43ca6f1a262f0cbd": {
+            "tr": "Ellerimi kendime saklamamı mı istersin?"
+        },
+        "RD_ALifeLine_3eac7bd80efaff65": {
+            "tr": "Biraz daha kalmamı ister misin?"
+        },
+        "RD_ALifeLine_31a2123a3f462ad9": {
+            "tr": "Devam edelim mi, burada bırakalım mı?"
+        },
+        "RD_ALifeLine_500c34ae02c31e02": {
+            "tr": "Biraz daha yanında olmam iyi gelir mi?"
+        },
+        "RD_ALifeLine_0f65cc70598e9504": {
+            "tr": "Biraz yakın olmak ister misin?"
+        },
+        "RD_ALifeLine_3070e3483656d73f": {
+            "tr": "Yaklaşırsam sorun olur mu?"
+        },
+        "RD_ALifeLine_104cd69718cf69aa": {
+            "tr": "Yanında biri mi olsun, yoksa yalnız mı kalmak istersin?"
+        },
+        "RD_ALifeLine_471592b27230fbb8": {
+            "tr": "Biraz daha bana eşlik eder misin?"
+        },
+        "RD_ALifeLine_2df1b484792e992f": {
+            "tr": "Biraz daha konuşalım mı?"
+        },
+        "RD_ALifeLine_1ff487322a6d5df1": {
+            "tr": "Uyanık kalmak mı istersin, yatmak mı?"
+        },
+        "RD_ALifeLine_4977f9257b6376ee": {
+            "tr": "Yıkanmak ister misin?"
+        },
+        "RD_ALifeLine_4a897f4e1b701d7a": {
+            "tr": "Temizlenebileceğin bir yer var mı, bakalım mı?"
+        },
+        "RD_ALifeLine_178de9f649f61c30": {
+            "tr": "Artan su varsa biraz yıkanmak iyi gelir mi?"
+        },
+        "RD_ALifeLine_72e8e5867babaa1d": {
+            "tr": "Boş bir yer bulursak dinlenmek ister misin?"
+        },
+        "RD_ALifeLine_279ce76d673e38e0": {
+            "tr": "Uzanacak bir yer işine yarar mı?"
+        },
+        "RD_ALifeLine_7be5755a52715ce7": {
+            "tr": "Dinlenecek bir yer arayalım mı?"
+        },
+        "RD_ALifeLine_163452906751dfc4": {
+            "tr": "İyi bir kitap mı o?"
+        },
+        "RD_ALifeLine_5f39550347e686de": {
+            "tr": "O hangi kitap?"
+        },
+        "RD_ALifeLine_64e6981439b02f57": {
+            "tr": "Biraz oturmak iyi gelir mi?"
+        },
+        "RD_ALifeLine_417581a25e80d7b9": {
+            "tr": "Oturabileceğin bir yer bulalım mı?"
+        },
+        "RD_ALifeLine_52b28ee3367b1cee": {
+            "tr": "Bir sandalye işine yarar mı?"
+        },
+        "RD_ALifeLine_786493ff17612017": {
+            "tr": "Burada yapmak istediğin bir şey var mı?"
+        },
+        "RD_ALifeLine_13fc08e121aae024": {
+            "tr": "Bir işe yardım etmek ister misin?"
+        },
+        "RD_ALifeLine_703e93d627252197": {
+            "tr": "Elin meşgul olsun diye bir iş ister misin?"
+        },
+        "RD_ALifeLine_1b32e7d329edb5db": {
+            "tr": "Fazladan bir şey bulursak yemek ister misin?"
+        },
+        "RD_ALifeLine_4eb2c7c23f96842b": {
+            "tr": "Yemek istemediğin bir şey var mı?"
+        },
+        "RD_ALifeLine_4354fc8c6116d8df": {
+            "tr": "Paylaşacak bir şey var mı, bakalım mı?"
+        },
+        "RD_ALifeLine_0b737d3e3c8ce9d2": {
+            "tr": "Artan varsa bir şeyler yemek ister misin?"
+        },
+        "RD_ALifeLine_25f531e03f8b68c1": {
+            "tr": "Yemek için neler ayarlayabiliriz, bakalım mı?"
+        },
+        "RD_ALifeLine_69ec256a10aac2d7": {
+            "tr": "Yemek konusunu sonraya bırakalım mı?"
+        },
+        "RD_ALifeLine_4bb2dbe23599b207": {
+            "tr": "Ayarlayabilirsek ışık iyi gelir mi?"
+        },
+        "RD_ALifeLine_2eb308600992725f": {
+            "tr": "Dinlenirken ışık mı istersin, karanlık mı?"
+        },
+        "RD_ALifeLine_7d7094c1180e9c21": {
+            "tr": "Bir ışık dinlenmeyi kolaylaştırır mı?"
+        },
+        "RD_ALifeLine_129cda0d5f92ed90": {
+            "tr": "Kapılar mı endişelendiriyor seni?"
+        },
+        "RD_ALifeLine_6dbb09521f31bf76": {
+            "tr": "Dinlenmeden önce neyi kontrol edelim?"
+        },
+        "RD_ALifeLine_3673caa878469fef": {
+            "tr": "Çıkış yolunu bilmek iyi gelir mi?"
+        },
+        "RD_ALifeLine_30a314e04a924d38": {
+            "tr": "Aynaya bakmak ister misin?"
+        },
+        "RD_ALifeLine_688d9c281251d55e": {
+            "tr": "Biraz toparlanmak ister misin?"
+        },
+        "RD_ALifeLine_1e5313493542d58f": {
+            "tr": "Biraz ferahlamak iyi gelir mi?"
+        },
+        "RD_ALifeLine_60c5843b41cabc24": {
+            "tr": "Seni endişelendiren sesler var mı?"
+        },
+        "RD_ALifeLine_37daf9bc1f17067c": {
+            "tr": "Gürültü mü rahatsız ediyor?"
+        },
+        "RD_ALifeLine_4a676ada3013f7fa": {
+            "tr": "Sesler uykunu kaçırıyor mu?"
+        },
+        "RD_ALifeLine_2a2f314b179d6a65": {
+            "tr": "Aramak isteyeceğin biri var mı?"
+        },
+        "RD_ALifeLine_0f1ea5df41cb5664": {
+            "tr": "Çalışan bir hat bulsak arar mısın?"
+        },
+        "RD_ALifeLine_2779b3c959650639": {
+            "tr": "Telefonla ulaşmak istediğin biri var mı?"
+        },
+        "RD_ALifeLine_53134889205cc331": {
+            "tr": "Güvenliyse çıkıp biraz hava alır mısın?"
+        },
+        "RD_ALifeLine_111bf0e13ac6059c": {
+            "tr": "İçeride kalmayı mı tercih edersin?"
+        },
+        "RD_ALifeLine_7bf917aa74030a16": {
+            "tr": "Dışarıda sakin bir yer var mı, bakalım mı?"
+        },
+        "RD_ALifeLine_40082fa157449a11": {
+            "tr": "Dua etmek için bir dakika ister misin?"
+        },
+        "RD_ALifeLine_4b5908485810be6e": {
+            "tr": "Dua etmek için biraz sessizlik ister misin?"
+        },
+        "RD_ALifeLine_55ce5d9a0ac05f50": {
+            "tr": "Allah'la baş başa bir dakika ister misin?"
+        },
+        "RD_ALifeLine_373a8bdf54eb3db3": {
+            "tr": "Burada çok sessiz, değil mi?"
+        },
+        "RD_ALifeLine_5d408bf43f8a89ff": {
+            "tr": "Sessizlik rahatsız ediyor mu seni?"
+        },
+        "RD_ALifeLine_632154c05a50a972": {
+            "tr": "Biraz ses ister misin?"
+        },
+        "RD_ALifeLine_69ada8f115498498": {
+            "tr": "Radyo dinlemeyi denemek ister misin?"
+        },
+        "RD_ALifeLine_2914f2a83a9bdbf7": {
+            "tr": "İşe yarar bir şey duyabilir miyiz, bakalım mı?"
+        },
+        "RD_ALifeLine_075df0ee6f3d263c": {
+            "tr": "Çalıştırabilirsek radyo iyi gelir mi?"
+        },
+        "RD_ALifeLine_05f42d3925833f18": {
+            "tr": "Ne olsa kendini biraz daha güvende hissedersin?"
+        },
+        "RD_ALifeLine_6a6819134e616d0d": {
+            "tr": "Burada seni huzursuz eden bir şey var mı?"
+        },
+        "RD_ALifeLine_069732df3e21a002": {
+            "tr": "Burada kalacak kadar rahat hissediyor musun?"
+        },
+        "RD_ALifeLine_49547adb4f9933f0": {
+            "tr": "Okumaya değer bir şey var mı, bakalım mı?"
+        },
+        "RD_ALifeLine_6813ec1c717f243b": {
+            "tr": "Kitap bulursak karıştırmak iyi gelir mi?"
+        },
+        "RD_ALifeLine_049e47635bdb1058": {
+            "tr": "Rafta bulmak istediğin bir şey var mı?"
+        },
+        "RD_ALifeLine_23e7ca971953e04b": {
+            "tr": "Rahatsız eden bir koku var mı?"
+        },
+        "RD_ALifeLine_6fb9c9d0658638ff": {
+            "tr": "Burayı nasıl buldun?"
+        },
+        "RD_ALifeLine_4e74740c2d455f7a": {
+            "tr": "Buranın hoşuna gitmeyen bir yanı var mı?"
+        },
+        "RD_ALifeLine_74c28f84635aa079": {
+            "tr": "Daha sakin bir yer var mı, bakalım mı?"
+        },
+        "RD_ALifeLine_3266c4b707921811": {
+            "tr": "Biraz kendi başına kalmak ister misin?"
+        },
+        "RD_ALifeLine_3de1106f72f23787": {
+            "tr": "Etrafa bakmadan önce ihtiyacın olan bir şey var mı?"
+        },
+        "RD_ALifeLine_4981d99520330d1f": {
+            "tr": "Isınacak bir yer bulabilir miyiz, bakalım mı?"
+        },
+        "RD_ALifeLine_225d59484738c953": {
+            "tr": "Varsa daha sıcak bir yer iyi gelir mi?"
+        },
+        "RD_ALifeLine_506c73256b50e55d": {
+            "tr": "Hala ısınamıyor musun?"
+        },
+        "RD_ALifeLine_62ac523b5c74a2f4": {
+            "tr": "Televizyon çalışıyor mu, bakalım mı?"
+        },
+        "RD_ALifeLine_66f6ec85024b3363": {
+            "tr": "Televizyonu denemek ister misin?"
+        },
+        "RD_ALifeLine_5e3944a614138375": {
+            "tr": "Televizyon iyi gelir mi?"
+        },
+        "RD_ALifeLine_44f75c777c3d41ff": {
+            "tr": "Burası yeterince sıcak mı?"
+        },
+        "RD_ALifeLine_3904a92916faf82f": {
+            "tr": "Bir kat daha giyer misin?"
+        },
+        "RD_ALifeLine_6a5cb7a43c4a57aa": {
+            "tr": "Burada üşüyor musun?"
+        },
+        "RD_ALifeLine_4d568bf26fb0a07b": {
+            "tr": "İşi kolaylaştıracak bir şey bilmem gerekiyor mu?"
+        },
+        "RD_ALifeLine_1311de564f01ed27": {
+            "tr": "Biraz yalnız kalmak istersen söyle"
+        },
+        "RD_ALifeLine_3b48f58f0e0caedb": {
+            "tr": "Sohbeti sürdürmek zorunda değilsin"
+        },
+        "RD_ALifeLine_3753fccf35e3afc6": {
+            "tr": "Buradan görünene ne diyorsun?"
+        },
+        "RD_ALifeLine_75ddb4ce56869a95": {
+            "tr": "Dışarıda dikkatini çeken bir şey var mı?"
+        },
+        "RD_ALifeLine_50f44d3d104fda06": {
+            "tr": "Dışarı bakmak iyi mi gelir, kötü mü?"
+        },
+        "RD_ALifeLine_47de320f401fe27b": {
+            "tr": "Ne taşıyorsun?"
+        },
+        "RD_ALifeLine_2921629e1afcd4f5": {
+            "tr": "Yanında ne getirdin?"
+        },
+        "RD_ALifeLine_613e2ba47b69cb0b": {
+            "tr": "Elindekilere bir bakabilir miyim?"
+        },
+        "RD_ALifeLine_71f99c645e250c02": {
+            "tr": "Bütün giysilerin bunlar mı?"
+        },
+        "RD_ALifeLine_7022ae2b27b7117f": {
+            "tr": "Temiz bir şeye ihtiyacın var mı?"
+        },
+        "RD_ALifeLine_1ab695b73d9810df": {
+            "tr": "Üstünü değiştirmek ister misin?"
+        },
+        "RD_ALifeLine_70af98b050113d3d": {
+            "tr": "Üşüyor musun?"
+        },
+        "RD_ALifeLine_362b3c7a10cdd79f": {
+            "tr": "Isınmakta zorlanıyor musun?"
+        },
+        "RD_ALifeLine_4d1aa16c5fb32482": {
+            "tr": "Bir kat daha giymek iyi gelir mi?"
+        },
+        "RD_ALifeLine_27a4a46b4767dd53": {
+            "tr": "Biraz rahatlatacak bir şey ister misin?"
+        },
+        "RD_ALifeLine_377a8b9e3e2a3098": {
+            "tr": "Titreme mi tuttu?"
+        },
+        "RD_ALifeLine_368ee4114a58099c": {
+            "tr": "Varmaya çalıştığın bir yer var mı?"
+        },
+        "RD_ALifeLine_79ba94830074b714": {
+            "tr": "Senin yolun nerede bitiyor?"
+        },
+        "RD_ALifeLine_4f2667307a45051c": {
+            "tr": "Orada seni bekleyen biri var mı?"
+        },
+        "RD_ALifeLine_52bfc86235480d0c": {
+            "tr": "İçki içer misin?"
+        },
+        "RD_ALifeLine_7c5691ed6b08858e": {
+            "tr": "İçkiye ihtiyacın var mı?"
+        },
+        "RD_ALifeLine_253bd9a5783de076": {
+            "tr": "İçki yüzünden mi?"
+        },
+        "RD_ALifeLine_7c18ca1b11c418fb": {
+            "tr": "Sonra ne olacak?"
+        },
+        "RD_ALifeLine_5bd5f6222d9845b5": {
+            "tr": "Ne yapacaksın?"
+        },
+        "RD_ALifeLine_6b6eb15d58668718": {
+            "tr": "İyi görebiliyor musun?"
+        },
+        "RD_ALifeLine_079c487f542d04ed": {
+            "tr": "Gözlük takıyor musun?"
+        },
+        "RD_ALifeLine_225b8a3416002abd": {
+            "tr": "Görüşün nasıl?"
+        },
+        "RD_ALifeLine_4887bff46e5980b6": {
+            "tr": "Bir işe yardım edebilir misin?"
+        },
+        "RD_ALifeLine_003ecb1f744cf194": {
+            "tr": "Aletlerle aran nasıl?"
+        },
+        "RD_ALifeLine_3e9cc0576afdcc6c": {
+            "tr": "Neler yapabilirsin?"
+        },
+        "RD_ALifeLine_6a016aec63cf6a7f": {
+            "tr": "Aç mısın?"
+        },
+        "RD_ALifeLine_02f7c7f576863c11": {
+            "tr": "En son ne zaman yedin?"
+        },
+        "RD_ALifeLine_18f4420778dcc407": {
+            "tr": "Bir şey yedin mi?"
+        },
+        "RD_ALifeLine_710d791128a538ed": {
+            "tr": "Yaralı mısın?"
+        },
+        "RD_ALifeLine_0c3c98cf09a33c28": {
+            "tr": "Bir yerin acıyor mu?"
+        },
+        "RD_ALifeLine_0f5211d974b886dc": {
+            "tr": "İyi misin?"
+        },
+        "RD_ALifeLine_6e97354a5603ec72": {
+            "tr": "Gitmeyi mi düşünüyorsun?"
+        },
+        "RD_ALifeLine_3f4eaca365c0901c": {
+            "tr": "Yola koyulmak ister misin?"
+        },
+        "RD_ALifeLine_53c44a263191c88c": {
+            "tr": "Ne zaman çıkmak istiyorsun?"
+        },
+        "RD_ALifeLine_0ce6c0f837fa384c": {
+            "tr": "Bir şey mi duydun?"
+        },
+        "RD_ALifeLine_709bda525cab56fa": {
+            "tr": "Neye kulak kesildin?"
+        },
+        "RD_ALifeLine_26bf94933e3d7587": {
+            "tr": "Nasıl bir ruh halindesin?"
+        },
+        "RD_ALifeLine_2397fc0b52583b61": {
+            "tr": "Nasılsın sahiden?"
+        },
+        "RD_ALifeLine_611a933344263967": {
+            "tr": "Bugün bir şey duydun mu?"
+        },
+        "RD_ALifeLine_1dc4bfa1071f11e1": {
+            "tr": "Yoldan haber var mı?"
+        },
+        "RD_ALifeLine_243f3e8671798534": {
+            "tr": "Yolda ne duydun?"
+        },
+        "RD_ALifeLine_011562632c89e68f": {
+            "tr": "Yol arkadaşın nasıl?"
+        },
+        "RD_ALifeLine_70a9f1f50ecad6de": {
+            "tr": "Yanındaki kişi iyi mi?"
+        },
+        "RD_ALifeLine_62024920629421fb": {
+            "tr": "Arkadaşın için endişelendiğin bir şey var mı?"
+        },
+        "RD_ALifeLine_08663dad0b8e6354": {
+            "tr": "Buradan sonra nereye?"
+        },
+        "RD_ALifeLine_2079f31d22876251": {
+            "tr": "Yol nasıldı?"
+        },
+        "RD_ALifeLine_49b830ca0eecc197": {
+            "tr": "Yol nasıl bir haldeydi?"
+        },
+        "RD_ALifeLine_23a9e736203aaaa1": {
+            "tr": "Hangi yoldan geldin?"
+        },
+        "RD_ALifeLine_3c4f9cf409e26290": {
+            "tr": "Bir şey mi korkutuyor seni?"
+        },
+        "RD_ALifeLine_6bcf372851573324": {
+            "tr": "Bunu konuşmak ister misin?"
+        },
+        "RD_ALifeLine_56a3e52c0dc734ec": {
+            "tr": "Ayakların nasıl?"
+        },
+        "RD_ALifeLine_7fc781467eba7c24": {
+            "tr": "Ayaklarında sorun var mı?"
+        },
+        "RD_ALifeLine_5e7c555e1bd47c84": {
+            "tr": "Başka ayakkabı ister misin?"
+        },
+        "RD_ALifeLine_677d2b841f30349b": {
+            "tr": "Kendini hasta mı hissediyorsun?"
+        },
+        "RD_ALifeLine_6a39b221280ef4e0": {
+            "tr": "Hasta mısın?"
+        },
+        "RD_ALifeLine_1916a0b03ec5d1ba": {
+            "tr": "Ne zamandır böylesin?"
+        },
+        "RD_ALifeLine_7565ec091b1102a0": {
+            "tr": "Sigara içiyor musun?"
+        },
+        "RD_ALifeLine_5fc136d339403829": {
+            "tr": "Sigara ister misin?"
+        },
+        "RD_ALifeLine_1efcb59550d17b22": {
+            "tr": "Sigara lazım mı?"
+        },
+        "RD_ALifeLine_418712c53659d861": {
+            "tr": "Ne kadar kalmak istiyorsun?"
+        },
+        "RD_ALifeLine_4804e6087578e88d": {
+            "tr": "Bir süre kalmayı mı düşünüyorsun?"
+        },
+        "RD_ALifeLine_3eb05d266d3265c6": {
+            "tr": "Birkaç geceye ihtiyacın var mı?"
+        },
+        "RD_ALifeLine_49ad6f675aa0c155": {
+            "tr": "Susadın mı?"
+        },
+        "RD_ALifeLine_2ec2d4cd6f6dba27": {
+            "tr": "En son ne zaman bir şey içtin?"
+        },
+        "RD_ALifeLine_21f3cf3f4033560a": {
+            "tr": "İçecek bir şey ister misin?"
+        },
+        "RD_ALifeLine_52a0c2f424f21d3f": {
+            "tr": "Biraz dinlenmek ister misin?"
+        },
+        "RD_ALifeLine_761171372529553a": {
+            "tr": "En son ne zaman uyudun?"
+        },
+        "RD_ALifeLine_21c28ef93ac1033d": {
+            "tr": "Pek dinlenemeden nasıl idare ediyorsun?"
+        },
+        "RD_ALifeLine_2c0076d414037bc8": {
+            "tr": "Bana güveniyor musun?"
+        },
+        "RD_ALifeLine_4aa2f68f4d568a4c": {
+            "tr": "Bana karşı ne hissediyorsun?"
+        },
+        "RD_ALifeLine_615079f529e0d3da": {
+            "tr": "Burada rahat mısın?"
+        },
+        "RD_ALifeLine_6997692806250c47": {
+            "tr": "En çok neye ihtiyacın var?"
+        },
+        "RD_ALifeLine_1e5c797d2ab7af23": {
+            "tr": "Sana getirebileceğim bir şey var mı?"
+        },
+        "RD_ALifeLine_1e417de9385bf81d": {
+            "tr": "Şu an ne iyi gelir?"
+        },
+        "RD_ALifeLine_6451661c6823f021": {
+            "tr": "Yıkanabilmek iyi gelir mi?"
+        },
+        "RD_ALifeLine_2111a9800c0694f0": {
+            "tr": "Ayarlayabilirsek temizlenmek ister misin?"
+        },
+        "RD_ALifeLine_539a244f7dbb00de": {
+            "tr": "Yıkanacak bir yer işine yarar mı?"
+        },
+        "RD_ALifeLine_098ea998431bb741": {
+            "tr": "Neye bakıyorsun?"
+        },
+        "RD_ALifeLine_664eb1be1c919405": {
+            "tr": "Dışarıda bir şey görüyor musun?"
+        },
+        "RD_ALifeLine_50d1f80b73f3473c": {
+            "tr": "Pencerenin dışında ne var?"
+        },
+        "RD_ALifeLine_329727291d707205": {
+            "tr": "Ne için endişeleniyorsun?"
+        },
+        "RD_ALifeLine_321e91e92c1ac78a": {
+            "tr": "Aklında ne var?"
+        },
+        "RD_ALifeLine_472ed7502d0725ab": {
+            "tr": "Sana ne ağır geliyor?"
+        },
+        "RD_ALifeLine_1b8f753f22e34007": {
+            "tr": "Ona verecek bir içki seç"
+        },
+        "RD_ALifeLine_47a2045e12345c35": {
+            "tr": "Malzemelerimden içki ver"
+        },
+        "RD_ALifeLine_4b0c816a61b2854b": {
+            "tr": "Verebileceğim bir içkim var mı, bakayım"
+        },
+        "RD_ALifeLine_3b604f2f621632d2": {
+            "tr": "Verebileceğim ilk yardım malzemesi var mı, bakayım"
+        },
+        "RD_ALifeLine_7e3edcfe0ce5eefc": {
+            "tr": "Ona verecek bir ilaç seç"
+        },
+        "RD_ALifeLine_70edd537487e94cd": {
+            "tr": "Elimdeki ilk yardım malzemelerinden ver"
+        },
+        "RD_ALifeLine_285a07a20c6455cb": {
+            "tr": "Verecek işe yarar bir şey ara"
+        },
+        "RD_ALifeLine_63c7b8271a22ada4": {
+            "tr": "Fazladan pil ya da ışığım var mı, bakayım"
+        },
+        "RD_ALifeLine_301a111106913d45": {
+            "tr": "Kalsın diye işe yarar bir şey seç"
+        },
+        "RD_ALifeLine_1abe4c3418bcf0c6": {
+            "tr": "Dinlenebileceği bir yer bulmayı konuş"
+        },
+        "RD_ALifeLine_602f1b7a611ba624": {
+            "tr": "Dinlenecek bir yerin iyi gelip gelmeyeceğini sor"
+        },
+        "RD_ALifeLine_0f21e9da640663fb": {
+            "tr": "Boş bir yatacak yer aramayı teklif et"
+        },
+        "RD_ALifeLine_1ccadcb3369fc516": {
+            "tr": "Battaniye teklif et"
+        },
+        "RD_ALifeLine_752a79b21ba7c762": {
+            "tr": "Ona sıcak tutacak bir şey ver"
+        },
+        "RD_ALifeLine_1919f510447e2e40": {
+            "tr": "Battaniyeni paylaş"
+        },
+        "RD_ALifeLine_2995e8ad71288483": {
+            "tr": "Saklasın diye bir kitap ver"
+        },
+        "RD_ALifeLine_5398169735a318e1": {
+            "tr": "Okuyacak bir şey ver"
+        },
+        "RD_ALifeLine_0ba205ad45e43423": {
+            "tr": "Vermek için bir kitap seç"
+        },
+        "RD_ALifeLine_159ff24345313166": {
+            "tr": "Verecek bir ışık kaynağı ara"
+        },
+        "RD_ALifeLine_2b6d475137e29266": {
+            "tr": "Saklayabileceği işe yarar bir şey seç"
+        },
+        "RD_ALifeLine_555cbd7e54d9f77c": {
+            "tr": "Bu gece için ne ayırabilirim, bir bak"
+        },
+        "RD_ALifeLine_0ebeb8817fa622c7": {
+            "tr": "Bir ara oyun oynamak ister mi, sor"
+        },
+        "RD_ALifeLine_52d5440928438b25": {
+            "tr": "Bir deste çıkarsa oyun öner"
+        },
+        "RD_ALifeLine_1a30137234ed3012": {
+            "tr": "İskambil kağıdından söz et"
+        },
+        "RD_ALifeLine_6d4fd79d18f8cb2f": {
+            "tr": "Giyecek bir şey ver"
+        },
+        "RD_ALifeLine_77b032481e23bfab": {
+            "tr": "Üstüne değişecek bir şey ver"
+        },
+        "RD_ALifeLine_4f5007ea5e155ab5": {
+            "tr": "Kıyafetlerimden ona uyan var mı, bak"
+        },
+        "RD_ALifeLine_600d66ff5d51a33a": {
+            "tr": "Sıcak tutacak bir kat seç"
+        },
+        "RD_ALifeLine_74a0722772f245fb": {
+            "tr": "Saklayabileceği bir giysi ver"
+        },
+        "RD_ALifeLine_18616f1138c01032": {
+            "tr": "Daha sıcak tutan bir şey ayırabilir miyim, bak"
+        },
+        "RD_ALifeLine_432085d80fa40178": {
+            "tr": "İçecek bir şey ara"
+        },
+        "RD_ALifeLine_7bcb0aae35f283b1": {
+            "tr": "Erzağımdan bir içecek ver"
+        },
+        "RD_ALifeLine_6b12b49851a30885": {
+            "tr": "İçmesi için ne ayırabilirim, bir bak"
+        },
+        "RD_ALifeLine_6447efcf12bcb081": {
+            "tr": "Yiyecek bir şey ver"
+        },
+        "RD_ALifeLine_4aa0839f7d17fdfc": {
+            "tr": "Yemek ver"
+        },
+        "RD_ALifeLine_6bfac31c20011e39": {
+            "tr": "Yemeğimi paylaş"
+        },
+        "RD_ALifeLine_0759e2080ffa39e8": {
+            "tr": "Verecek bir gözlük ara"
+        },
+        "RD_ALifeLine_282b3c623eadbf93": {
+            "tr": "Ayırabileceğim işe yarar bir şey var mı, bak"
+        },
+        "RD_ALifeLine_524ad650472647fb": {
+            "tr": "Saklayabileceği bir eşya seç"
+        },
+        "RD_ALifeLine_027af6d8427ba988": {
+            "tr": "Verecek bir harita ara"
+        },
+        "RD_ALifeLine_4b85c26a12acb2ae": {
+            "tr": "Erzağımdan işe yarar bir şey seç"
+        },
+        "RD_ALifeLine_4197cb2b07bb5e44": {
+            "tr": "Yola yarayacak ne ayırabilirim, bir bak"
+        },
+        "RD_ALifeLine_349e8fed3ce08db5": {
+            "tr": "Hangi ilacı verebilirim, bir bak"
+        },
+        "RD_ALifeLine_41f0d38701eaf5fb": {
+            "tr": "Verecek bir ilaç seç"
+        },
+        "RD_ALifeLine_3b72b86e6feb70bb": {
+            "tr": "Erzağımdan ilaç ver"
+        },
+        "RD_ALifeLine_3eb029226f41ca84": {
+            "tr": "Verecek bir ayakkabı ara"
+        },
+        "RD_ALifeLine_13aa20aa17e983c1": {
+            "tr": "Erzağımdan giyecek bir şey seç"
+        },
+        "RD_ALifeLine_33f1c2860d90d919": {
+            "tr": "Ayırabileceğim bir giysi var mı, bak"
+        },
+        "RD_ALifeLine_5ab4e2550d219aa6": {
+            "tr": "Sigara ikram et"
+        },
+        "RD_ALifeLine_0f8614f065baf209": {
+            "tr": "Paketi paylaş"
+        },
+        "RD_ALifeLine_55f1a36a55153f0d": {
+            "tr": "Bir sigara ver"
+        },
+        "RD_ALifeLine_1671482535fc59a2": {
+            "tr": "Ayarlanabilirse, yıkanma konusunu aç"
+        },
+        "RD_ALifeLine_1e618a5d07e1e192": {
+            "tr": "Yıkanmak iyi gelir mi, diye sor"
+        },
+        "RD_ALifeLine_4a3518774bc1ef21": {
+            "tr": "Yıkanacak bir yer bulmayı teklif et"
+        },
+        "RD_ALifeLine_50b520730959800d": {
+            "tr": "Saklasın diye bir alet ver"
+        },
+        "RD_ALifeLine_1b346a0865cc9833": {
+            "tr": "Verecek bir alet seç"
+        },
+        "RD_ALifeLine_2492494c336220f6": {
+            "tr": "Ayırabileceğim işe yarar bir şey var mı, bak"
+        },
+        "RD_ALifeLine_65043f394b6c8dd4": {
+            "tr": "Yapmaya razı olacağı küçük bir iş var mı, sor"
+        },
+        "RD_ALifeLine_5e0218a31bdc9d3e": {
+            "tr": "Karşılık beklemeden yardımdan söz et"
+        },
+        "RD_ALifeLine_6d073fd0295dc2e0": {
+            "tr": "İşe yarar bir şey yapmak ister mi, bak"
+        },
+        "RD_ALifeLine_3ee42ba5429251ed": {
+            "tr": "Patronun nasıl biriydi?"
+        },
+        "RD_ALifeLine_19d3b8890d377f0a": {
+            "tr": "Kimin yanında çalışıyordun?"
+        },
+        "RD_ALifeLine_44ce12fc0b436f85": {
+            "tr": "Çalışmak için iyi bir yer miydi?"
+        },
+        "RD_ALifeLine_52f7082c18c0478e": {
+            "tr": "Çocukluğun nasıl geçti?"
+        },
+        "RD_ALifeLine_1765c6a276408c52": {
+            "tr": "Çocukken nasıl biriydin?"
+        },
+        "RD_ALifeLine_05c7871e239fdac1": {
+            "tr": "Kiliseye gider miydin?"
+        },
+        "RD_ALifeLine_054b72df4f5154f1": {
+            "tr": "Hangi kiliseye?"
+        },
+        "RD_ALifeLine_7955aeff50f3adf2": {
+            "tr": "Kiliseye giden biri misin?"
+        },
+        "RD_ALifeLine_38b8275a51ceca64": {
+            "tr": "Kızın var mıydı?"
+        },
+        "RD_ALifeLine_0e499f150d7a86e8": {
+            "tr": "Kızın olsaydı, bana ondan bahseder miydin?"
+        },
+        "RD_ALifeLine_3a4c84f847caab35": {
+            "tr": "Ailende kız çocuğu var mı?"
+        },
+        "RD_ALifeLine_0b841a6f00b24bf0": {
+            "tr": "İlk gün neredeydin?"
+        },
+        "RD_ALifeLine_3eee890153e9ab6b": {
+            "tr": "İlk günden ne hatırlıyorsun?"
+        },
+        "RD_ALifeLine_7f5222bf5d06ee0a": {
+            "tr": "Senin için nasıl başladı?"
+        },
+        "RD_ALifeLine_25a0d5c57b6e2605": {
+            "tr": "Çekemediğin biri oldu mu?"
+        },
+        "RD_ALifeLine_7463a4a378ad2137": {
+            "tr": "Hiç düşmanın oldu mu?"
+        },
+        "RD_ALifeLine_3d5cd7f96191bc47": {
+            "tr": "Kimle araran bozuldu?"
+        },
+        "RD_ALifeLine_1bb3214b2b17fad4": {
+            "tr": "Bulmayı umduğun biri var mı?"
+        },
+        "RD_ALifeLine_054f73446fc2dec8": {
+            "tr": "Ailenden bahsetmek ister misin?"
+        },
+        "RD_ALifeLine_6bd1109d40598a94": {
+            "tr": "Haber iletmek istediğin biri var mı?"
+        },
+        "RD_ALifeLine_6675e310615fd522": {
+            "tr": "İlk işin neydi?"
+        },
+        "RD_ALifeLine_2b9702b20a4a8cd6": {
+            "tr": "İşe nasıl başladın?"
+        },
+        "RD_ALifeLine_22e516e13d4f7227": {
+            "tr": "İlk para kazandığın şey neydi?"
+        },
+        "RD_ALifeLine_412fc94451b35b2f": {
+            "tr": "Bir şeylerin ters gittiğini ne zaman anladın?"
+        },
+        "RD_ALifeLine_4d48c45e0d75b65d": {
+            "tr": "İlk belirti neydi?"
+        },
+        "RD_ALifeLine_7a85c63f74f06acb": {
+            "tr": "İlk nasıl öğrendin?"
+        },
+        "RD_ALifeLine_7435d4811f2760e4": {
+            "tr": "Yaptığın en zor şey neydi?"
+        },
+        "RD_ALifeLine_57c3c1f569900ff1": {
+            "tr": "En zor kısmı neydi?"
+        },
+        "RD_ALifeLine_6f5bccdf72e0270d": {
+            "tr": "Başından geçen en kötü şey ne?"
+        },
+        "RD_ALifeLine_77df442d46448129": {
+            "tr": "Bana söylemediğin bir şey mi var?"
+        },
+        "RD_ALifeLine_5c7f48520cf55c43": {
+            "tr": "Bir şey mi saklıyorsun?"
+        },
+        "RD_ALifeLine_03e575d57b1d2702": {
+            "tr": "Daha fazlası var mı?"
+        },
+        "RD_ALifeLine_0f984afc521cfce2": {
+            "tr": "Vaktini nasıl geçirirdin?"
+        },
+        "RD_ALifeLine_631ee53233b70182": {
+            "tr": "Cumartesileri ne yapardın?"
+        },
+        "RD_ALifeLine_564ade7132595d15": {
+            "tr": "İşten sonra ne yapardın?"
+        },
+        "RD_ALifeLine_332fb25677b50266": {
+            "tr": "Evin nasıl bir yerdi?"
+        },
+        "RD_ALifeLine_477db98779404a5d": {
+            "tr": "Yaşadığın yer neye benziyordu?"
+        },
+        "RD_ALifeLine_4db6572f2791dc72": {
+            "tr": "Verandan var mıydı?"
+        },
+        "RD_ALifeLine_17986255704b22d3": {
+            "tr": "Sıkı sıkı tuttuğun şey ne?"
+        },
+        "RD_ALifeLine_6354c027563180d6": {
+            "tr": "Onu nereden buldun?"
+        },
+        "RD_ALifeLine_01ae6ded28e85af1": {
+            "tr": "Onu neden yanında taşıyorsun?"
+        },
+        "RD_ALifeLine_1d58e73d167b04b2": {
+            "tr": "Son normal gün hangisiydi?"
+        },
+        "RD_ALifeLine_1b5200683406c2d8": {
+            "tr": "Son güzel gün hangisiydi?"
+        },
+        "RD_ALifeLine_386e8db574f9aceb": {
+            "tr": "Son sıradan günü hatırlıyor musun?"
+        },
+        "RD_ALifeLine_6e8b6e5f0acd705b": {
+            "tr": "İşini mi kaybettin?"
+        },
+        "RD_ALifeLine_2787e94b02fd7430": {
+            "tr": "İşten mi çıkarıldın?"
+        },
+        "RD_ALifeLine_7d84c9346198d39b": {
+            "tr": "İşler ne zaman kesildi?"
+        },
+        "RD_ALifeLine_7330583d09583344": {
+            "tr": "Geride bıraktığın biri var mı?"
+        },
+        "RD_ALifeLine_4ffcfd8038755af9": {
+            "tr": "Bırakmak zorunda kaldığın biri oldu mu?"
+        },
+        "RD_ALifeLine_0d5ddc5646dedf9e": {
+            "tr": "Seninle gelmeyen kim?"
+        },
+        "RD_ALifeLine_2856091d09b94e82": {
+            "tr": "Kimleri kaybettin?"
+        },
+        "RD_ALifeLine_3228a6197dd82d6d": {
+            "tr": "Birini mi kaybettin?"
+        },
+        "RD_ALifeLine_1c30aa70374aac54": {
+            "tr": "Ulaşamadığın biri var mı?"
+        },
+        "RD_ALifeLine_43608be12c187d14": {
+            "tr": "Özel biri var mı?"
+        },
+        "RD_ALifeLine_2bd420351c837f5c": {
+            "tr": "Hiç evlendin mi?"
+        },
+        "RD_ALifeLine_0ef0587254c73e14": {
+            "tr": "Hayatında biri var mı?"
+        },
+        "RD_ALifeLine_51a4305062c9cfac": {
+            "tr": "Bildiklerini sana kim öğretti?"
+        },
+        "RD_ALifeLine_237649cc617251a4": {
+            "tr": "Sana kim göz kulak oldu?"
+        },
+        "RD_ALifeLine_6ef243b030d044ab": {
+            "tr": "Örnek aldığın biri var mı?"
+        },
+        "RD_ALifeLine_4460205645deab7f": {
+            "tr": "Para durumun nasıldı?"
+        },
+        "RD_ALifeLine_105447db2c15e9a7": {
+            "tr": "Para sıkıntısı var mıydı?"
+        },
+        "RD_ALifeLine_54b5d76f4c5d5854": {
+            "tr": "Geçinebiliyor muydun?"
+        },
+        "RD_ALifeLine_6b2d58ac50d8b344": {
+            "tr": "Eskiden geceler nasıldı?"
+        },
+        "RD_ALifeLine_4b0ce19375caad7b": {
+            "tr": "Gecelerden bahset"
+        },
+        "RD_ALifeLine_4cc4d5e45886302f": {
+            "tr": "Gecelerin en kötüsü neydi?"
+        },
+        "RD_ALifeLine_0cc8ee9e0afd7e64": {
+            "tr": "Anne babandan bahsetmek ister misin?"
+        },
+        "RD_ALifeLine_673e576515311cdf": {
+            "tr": "Anne babana ne olduğunu biliyor musun?"
+        },
+        "RD_ALifeLine_59b867f121a8fd05": {
+            "tr": "Anne baban nasıl insanlardı?"
+        },
+        "RD_ALifeLine_376811561787c32c": {
+            "tr": "Köpeğin var mıydı?"
+        },
+        "RD_ALifeLine_5136016552133b15": {
+            "tr": "Evde hayvan var mıydı?"
+        },
+        "RD_ALifeLine_7023b9490ddcd310": {
+            "tr": "Hiç evcil hayvanın oldu mu?"
+        },
+        "RD_ALifeLine_7925f44a29691c8f": {
+            "tr": "Fotoğraftakiler senin ailen mi?"
+        },
+        "RD_ALifeLine_1592a6ea28a6b6f9": {
+            "tr": "Fotoğraftaki kim?"
+        },
+        "RD_ALifeLine_01975a5a234c038e": {
+            "tr": "En sevdiğin yer neresi?"
+        },
+        "RD_ALifeLine_2e27cd2d29cbb6a3": {
+            "tr": "Kendini nerede evinde hissederdin?"
+        },
+        "RD_ALifeLine_35a9c4c016266ba6": {
+            "tr": "Kaçıp gitmek istesen nereye giderdin?"
+        },
+        "RD_ALifeLine_00fbf2212653de57": {
+            "tr": "Neyle gurur duyuyorsun?"
+        },
+        "RD_ALifeLine_60062af84d052d3c": {
+            "tr": "Yaptığın en güzel şey neydi?"
+        },
+        "RD_ALifeLine_70da4fd43b64a792": {
+            "tr": "Neyi doğru yaptın?"
+        },
+        "RD_ALifeLine_2f52c9a73fead2c1": {
+            "tr": "Yeniden yapmak istediğin bir şey var mı?"
+        },
+        "RD_ALifeLine_094ea0910f73c1c3": {
+            "tr": "Pişmanlığın var mı?"
+        },
+        "RD_ALifeLine_52be5e260fe3b496": {
+            "tr": "Neyi geri almak isterdin?"
+        },
+        "RD_ALifeLine_1319e969788fada5": {
+            "tr": "Hiç yüzük taktın mı?"
+        },
+        "RD_ALifeLine_24a6a60a0bdb95c3": {
+            "tr": "Bir yüzüğün hikayesi var mı?"
+        },
+        "RD_ALifeLine_3afc71f14868e2a7": {
+            "tr": "Hiç yüzüğün oldu mu?"
+        },
+        "RD_ALifeLine_13c63c6c5809e76d": {
+            "tr": "Hangi okula gittin?"
+        },
+        "RD_ALifeLine_1943d52c339100cc": {
+            "tr": "Okulu nereye kadar okudun?"
+        },
+        "RD_ALifeLine_431aa132502201b0": {
+            "tr": "Okul çok önceydi, değil mi?"
+        },
+        "RD_ALifeLine_7b9348502f308406": {
+            "tr": "Kardeşin var mı?"
+        },
+        "RD_ALifeLine_5fd8f2a2509be535": {
+            "tr": "Erkek ya da kız kardeşin var mı?"
+        },
+        "RD_ALifeLine_76bce2d402af5213": {
+            "tr": "Peki ya kız kardeşin, erkek kardeşin?"
+        },
+        "RD_ALifeLine_6afbe4d17fb6e497": {
+            "tr": "Yakından gördün mü?"
+        },
+        "RD_ALifeLine_1617262665433cd9": {
+            "tr": "Birinin dönüştüğünü gördün mü?"
+        },
+        "RD_ALifeLine_7651b9b06a91bfd8": {
+            "tr": "Hasta olanları gördün mü?"
+        },
+        "RD_ALifeLine_37704bec198a52d6": {
+            "tr": "Oğlun var mıydı?"
+        },
+        "RD_ALifeLine_55360fe901dffce9": {
+            "tr": "Oğlun olsaydı, bana ondan bahseder miydin?"
+        },
+        "RD_ALifeLine_5270d00a3db072d9": {
+            "tr": "Ailende erkek çocuk var mı?"
+        },
+        "RD_ALifeLine_1a3a1606661bdf55": {
+            "tr": "Hiç biriyle aynı evde yaşadın mı?"
+        },
+        "RD_ALifeLine_5899dd36538a8c8f": {
+            "tr": "Evlilikten konuşmak istemez misin?"
+        },
+        "RD_ALifeLine_39f492c245d067f6": {
+            "tr": "Evini paylaştığın biri oldu mu?"
+        },
+        "RD_ALifeLine_213ca87f5f4e04c6": {
+            "tr": "Kasaba nasıl bir yerdi?"
+        },
+        "RD_ALifeLine_2ffb75064e2fe20e": {
+            "tr": "Yaşadığın yer nasıldı?"
+        },
+        "RD_ALifeLine_2cf30aec283f57bc": {
+            "tr": "Orada herkes birbirini tanır mıydı?"
+        },
+        "RD_ALifeLine_680226635bbe1025": {
+            "tr": "Buradan uzaklara gittin mi?"
+        },
+        "RD_ALifeLine_66214e3f6b411e1a": {
+            "tr": "En uzak nereye gittin?"
+        },
+        "RD_ALifeLine_19fac73e580e0f3d": {
+            "tr": "Hiç seyahat ettin mi?"
+        },
+        "RD_ALifeLine_5d854a5d49255835": {
+            "tr": "Hiç başın belaya girdi mi?"
+        },
+        "RD_ALifeLine_3bfb30b77b77fe5b": {
+            "tr": "Hiç kanunla başın derde girdi mi?"
+        },
+        "RD_ALifeLine_3ea530d40d6caadd": {
+            "tr": "Hiç köşeye sıkıştığın oldu mu?"
+        },
+        "RD_ALifeLine_6e0f852878075c0c": {
+            "tr": "Askerlik yaptın mı?"
+        },
+        "RD_ALifeLine_313001f73b75f97d": {
+            "tr": "Askere gittin mi?"
+        },
+        "RD_ALifeLine_0d32466b71718ce5": {
+            "tr": "Orduda mı bulundun?"
+        },
+        "RD_ALifeLine_019448947c953820": {
+            "tr": "Ne iş yapardın?"
+        },
+        "RD_ALifeLine_338087883da8fd8b": {
+            "tr": "Mesleğin neydi?"
+        },
+        "RD_ALifeLine_24169bfb432e6449": {
+            "tr": "Bunlardan önce ne iş yapıyordun?"
+        },
+        "RD_ALifeLine_33092f0645afd8a6": {
+            "tr": "'Bir söz' hakkında bir şey biliyor musun?",
+            "not": "başlık gibi duruyor, özel adsa İngilizce kalabilir"
+        },
+        "RD_ALifeLine_1fc4a5277aa1264e": {
+            "tr": "Hiç gece bir şehir gördün mü?"
+        },
+        "RD_ALifeLine_7a13adbf76615811": {
+            "tr": "Rose adını kim koydu?"
+        },
+        "RD_ALifeLine_66c41cb03814319f": {
+            "tr": "Fena değilsin"
+        },
+        "RD_ALifeLine_37de6a415d9ea70c": {
+            "tr": "Aferin sana"
+        },
+        "RD_ALifeLine_7de650f96fb14b1a": {
+            "tr": "Bir hediye işe yarar mı?"
+        },
+        "RD_ALifeLine_20fa10273539454a": {
+            "tr": "Verebileceğim bir şey var mı?"
+        },
+        "RD_ALifeLine_3fc6fe844672c9d1": {
+            "tr": "Arayıp bulabileceğim işe yarar bir şey var mı?"
+        },
+        "RD_ALifeLine_397b8fab2b543aac": {
+            "tr": "Kendine iyi bak"
+        },
+        "RD_ALifeLine_079cb6b9243bba40": {
+            "tr": "Dikkatli ol"
+        },
+        "RD_ALifeLine_3813b4f32bff5011": {
+            "tr": "Hiçbir işe yaramazsın"
+        },
+        "RD_ALifeLine_6e3280b60a148fde": {
+            "tr": "Çekil gözümün önünden"
+        },
+        "RD_ALifeLine_62d9d0045d52e24d": {
+            "tr": "Beni affet"
+        },
+        "RD_ALifeLine_1feac9174ba1fdb3": {
+            "tr": "Minnettarım"
+        },
+        "RD_ALifeLine_2fdacb3f265b742d": {
+            "tr": "Dediğimi yap, yoksa..."
+        },
+        "RD_ALifeLine_67b7ad9d75e78696": {
+            "tr": "Seni buradan yollarım"
+        },
+        "RD_ALifeLine_45eccb2e0a380a4d": {
+            "tr": "Sınama beni"
+        },
+        "RD_ALifeLine_4b4d1bda07db99a1": {
+            "tr": "Pardon, anlamadım"
+        },
+        "RD_ALifeLine_1c1d203b424d617f": {
+            "tr": "Bir tavsiyen var mı?"
+        },
+        "RD_ALifeLine_6e4ae39d28a01d77": {
+            "tr": "Bana ne derdin?"
+        },
+        "RD_ALifeLine_474f27ed0a5bef36": {
+            "tr": "Benim bilmediğim ne biliyorsun?"
+        },
+        "RD_ALifeLine_105c6d6d7dd98f0e": {
+            "tr": "Kaç yaşında olduğunu sorsam sakıncası var mı?"
+        },
+        "RD_ALifeLine_72f019103f40fa7f": {
+            "tr": "Yaşını kendine saklamayı mı tercih edersin?"
+        },
+        "RD_ALifeLine_1ab8f31b3b536b87": {
+            "tr": "Her şey kötüleşince ne işe yarar?"
+        },
+        "RD_ALifeLine_1ab755af1c07a3fa": {
+            "tr": "İşe yarayan bir şey var mı?"
+        },
+        "RD_ALifeLine_57360a2e23619064": {
+            "tr": "İşler kötüye gidince ne yaparsın?"
+        },
+        "RD_ALifeLine_515094725cfd0028": {
+            "tr": "Hoş bir halin var"
+        },
+        "RD_ALifeLine_03943bc640fee8f7": {
+            "tr": "Sohbeti güzel"
+        },
+        "RD_ALifeLine_2fdd50752da8d222": {
+            "tr": "Seninle konuşmak hoşuma gidiyor"
+        },
+        "RD_ALifeLine_27045eed72c1efa0": {
+            "tr": "Neye tahammülün yok?"
+        },
+        "RD_ALifeLine_1d3fc89c14a3eccc": {
+            "tr": "Neler sinirine dokunuyor?"
+        },
+        "RD_ALifeLine_41548824675aaa76": {
+            "tr": "Neler seni çıldırtıyor?"
+        },
+        "RD_ALifeLine_6505ed0574bdd471": {
+            "tr": "Neyin rüyasını görüyorsun?"
+        },
+        "RD_ALifeLine_528cc4b128d7805e": {
+            "tr": "Son zamanlarda çok rüya görüyor musun?"
+        },
+        "RD_ALifeLine_4622efb860a41d58": {
+            "tr": "Eski günleri hiç rüyanda görüyor musun?"
+        },
+        "RD_ALifeLine_7b1eee0026f83fab": {
+            "tr": "En çok neden korkuyorsun?"
+        },
+        "RD_ALifeLine_6c4abd0c7938175a": {
+            "tr": "Seni uykusuz bırakan ne?"
+        },
+        "RD_ALifeLine_3f873f06210141df": {
+            "tr": "Neden korkuyorsun?"
+        },
+        "RD_ALifeLine_6aa2664a4ccc4b0c": {
+            "tr": "İlk gece neredeydin?"
+        },
+        "RD_ALifeLine_0498b4d514cde5fd": {
+            "tr": "İlk geceyi nasıl geçirdin?"
+        },
+        "RD_ALifeLine_478637ab000d08e9": {
+            "tr": "İlk geceden ne hatırlıyorsun?"
+        },
+        "RD_ALifeLine_7e069af4728fcdc5": {
+            "tr": "En sevdiğin yemek ne?"
+        },
+        "RD_ALifeLine_00b1f77b27e775cc": {
+            "tr": "Mümkün olsa ne yemek isterdin?"
+        },
+        "RD_ALifeLine_198fda4916041406": {
+            "tr": "Sana göre güzel bir akşam yemeği nasıl olur?"
+        },
+        "RD_ALifeLine_4fb1895036654a27": {
+            "tr": "Buraya nereden geldin?"
+        },
+        "RD_ALifeLine_40f6caba0c43d314": {
+            "tr": "Bir türlü bırakamadığın küçük alışkanlıkların var mı?"
+        },
+        "RD_ALifeLine_4e66ed500422dc73": {
+            "tr": "Farkında olmadan yaptığın bir şey var mı?"
+        },
+        "RD_ALifeLine_7d9f52dd1d4cfe5f": {
+            "tr": "Eskiden kalma, peşini bırakmayan bir alışkanlık var mı?"
+        },
+        "RD_ALifeLine_542909e23b70ff5f": {
+            "tr": "Evde yemeği kim yapardı?"
+        },
+        "RD_ALifeLine_3c9d93d3177249ef": {
+            "tr": "Yemeği kim yapardı?"
+        },
+        "RD_ALifeLine_0013d1a035f94023": {
+            "tr": "Mutfağın nasıl kokardı?"
+        },
+        "RD_ALifeLine_7b99fbf12f3656f2": {
+            "tr": "Neyi umuyorsun?"
+        },
+        "RD_ALifeLine_27125f81529cc737": {
+            "tr": "Neye güveniyorsun?"
+        },
+        "RD_ALifeLine_3ac232cf37ca652b": {
+            "tr": "Ne olmasını umuyorsun?"
+        },
+        "RD_ALifeLine_4dc06c971a04afee": {
+            "tr": "Nasılsın?"
+        },
+        "RD_ALifeLine_6940bb1b14a41238": {
+            "tr": "Dayanıyor musun?"
+        },
+        "RD_ALifeLine_764a770f469d61c9": {
+            "tr": "Fıkran var mı?"
+        },
+        "RD_ALifeLine_63b5a54e2d228bb2": {
+            "tr": "Fıkra bilir misin?"
+        },
+        "RD_ALifeLine_5f40e1bb7b53ae4e": {
+            "tr": "Komik bir şey anlat"
+        },
+        "RD_ALifeLine_305ef9e52d4040e8": {
+            "tr": "En son ne zaman güldün?"
+        },
+        "RD_ALifeLine_5e1c404715d1b710": {
+            "tr": "Gülmeyi hatırlıyor musun?"
+        },
+        "RD_ALifeLine_5b0ef1de7119969e": {
+            "tr": "Seni en son ne güldürdü?"
+        },
+        "RD_ALifeLine_5933dbc22a537b5b": {
+            "tr": "Ne yapmaktan hoşlanırsın?"
+        },
+        "RD_ALifeLine_492406cf3922052d": {
+            "tr": "Eğlence olsun diye ne yaparsın?"
+        },
+        "RD_ALifeLine_68e4368808025eec": {
+            "tr": "Nelerden keyif alırsın?"
+        },
+        "RD_ALifeLine_6bc9a67f33adfe61": {
+            "tr": "Şansa inanır mısın?"
+        },
+        "RD_ALifeLine_5fa068bd07b1860b": {
+            "tr": "Sence şanslı mıydık?"
+        },
+        "RD_ALifeLine_0e188bc247018835": {
+            "tr": "Şans mı, başka bir şey mi?"
+        },
+        "RD_ALifeLine_0f8b9b6053b33fcc": {
+            "tr": "Ne dinlersin?"
+        },
+        "RD_ALifeLine_338cc69a49ccce8b": {
+            "tr": "Sevdiğin bir şarkı var mı?"
+        },
+        "RD_ALifeLine_19eee6e665c820ee": {
+            "tr": "Müzik sever misin?"
+        },
+        "RD_ALifeLine_4225841c391916bd": {
+            "tr": "Sen kimsin?"
+        },
+        "RD_ALifeLine_1f9065bc35b7f5e2": {
+            "tr": "Sana ne diyeyim?"
+        },
+        "RD_ALifeLine_735ca6a949d40159": {
+            "tr": "Yan komşun kimdi?"
+        },
+        "RD_ALifeLine_0a8bfb5d786e935d": {
+            "tr": "Komşularını tanır mıydın?"
+        },
+        "RD_ALifeLine_296c5f7617f94bc3": {
+            "tr": "Sabahları kime el sallardın?"
+        },
+        "RD_ALifeLine_0b14d1ca706438d8": {
+            "tr": "Seni huzursuz eden bir şey var mı?"
+        },
+        "RD_ALifeLine_3a38ece772421325": {
+            "tr": "Aklında bir şey mi var?"
+        },
+        "RD_ALifeLine_61be4e6965589a95": {
+            "tr": "Başka bir şeyden konuşmak ister misin?"
+        },
+        "RD_ALifeLine_080cc8ef11cfc4c2": {
+            "tr": "Sana ne diyorlar?"
+        },
+        "RD_ALifeLine_67eb8b497a622f13": {
+            "tr": "Takma adın var mı?"
+        },
+        "RD_ALifeLine_3a04176341c69a2f": {
+            "tr": "Arkadaşların sana ne derdi?"
+        },
+        "RD_ALifeLine_49bd194c7d1c9bba": {
+            "tr": "Bu aralar dua ediyor musun?"
+        },
+        "RD_ALifeLine_659d93d15f117a1d": {
+            "tr": "Sence dinleyen biri var mı?"
+        },
+        "RD_ALifeLine_50343769166dac71": {
+            "tr": "Biraz sessiz kalmak ister misin?"
+        },
+        "RD_ALifeLine_2665961a22f4e6d6": {
+            "tr": "Konuşmadan yanında oturabilir miyim?"
+        },
+        "RD_ALifeLine_1f8bc497351815f9": {
+            "tr": "Yanında biri mi olsun, yalnız mı kalmak istersin?"
+        },
+        "RD_ALifeLine_06472b976558cdfd": {
+            "tr": "İyi uyuyor musun?"
+        },
+        "RD_ALifeLine_02264526217bb3ff": {
+            "tr": "Uyuyabiliyor musun?"
+        },
+        "RD_ALifeLine_37b7ba2238fdbfab": {
+            "tr": "Hiç dinleniyor musun?"
+        },
+        "RD_ALifeLine_17e0cffa48af5ff8": {
+            "tr": "Maçları takip eder misin?"
+        },
+        "RD_ALifeLine_76f55a2b478acbcd": {
+            "tr": "Hangi takımı tutuyorsun?"
+        },
+        "RD_ALifeLine_6c61a5615769776a": {
+            "tr": "Basketbol sever misin?"
+        },
+        "RD_ALifeLine_6071f15e0fe64a20": {
+            "tr": "Bir hikaye anlat"
+        },
+        "RD_ALifeLine_54f4b1c552810da7": {
+            "tr": "Anlatacak bir hikayen var mı?"
+        },
+        "RD_ALifeLine_0fe6393864c02c75": {
+            "tr": "Başından geçen bir olayı anlat"
+        },
+        "RD_ALifeLine_46bd954735492543": {
+            "tr": "Ne izlerdin?"
+        },
+        "RD_ALifeLine_3388f64448dcfa87": {
+            "tr": "Sevdiğin bir dizi var mı?"
+        },
+        "RD_ALifeLine_07eb1b6345486a75": {
+            "tr": "Evde televizyonda ne açık olurdu?"
+        },
+        "RD_ALifeLine_6998e94454e8a1dd": {
+            "tr": "Havaya ne dersin?"
+        },
+        "RD_ALifeLine_7883e98327190bca": {
+            "tr": "Sence hava böyle kalır mı?"
+        },
+        "RD_ALifeLine_246e4dee72c55873": {
+            "tr": "Havayı benden iyi tahmin edebilir misin?"
+        },
+        "RD_ALifeLine_087213900c6f16ad": {
+            "tr": "Hayvanlara ne oldu?"
+        },
+        "RD_ALifeLine_42f95faf6589eba4": {
+            "tr": "Hiç sığır gördün mü?"
+        },
+        "RD_ALifeLine_291787d10806b4fd": {
+            "tr": "Köpekler iyi mi?"
+        },
+        "RD_ALifeLine_2d1a993f0038a65c": {
+            "tr": "Ordu hakkında bir şey duydun mu?"
+        },
+        "RD_ALifeLine_193e6f623a5686b0": {
+            "tr": "Ordu gelecek mi?"
+        },
+        "RD_ALifeLine_7dcd8a58232c2243": {
+            "tr": "Peki ya Ulusal Muhafız?"
+        },
+        "RD_ALifeLine_7aea4a64186a7730": {
+            "tr": "Isırılanlara karşı ne yapıyorsun?"
+        },
+        "RD_ALifeLine_781aa1ad700cfb6d": {
+            "tr": "Isırıktan kurtulan oldu mu?"
+        },
+        "RD_ALifeLine_48992b7a70c0f05e": {
+            "tr": "Biri ısırılınca ne oluyor?"
+        },
+        "RD_ALifeLine_45260986597212d0": {
+            "tr": "Sence buna ne yol açtı?"
+        },
+        "RD_ALifeLine_64761e8e7d8c0a48": {
+            "tr": "Suçlu kim?"
+        },
+        "RD_ALifeLine_4a3d78e569c79251": {
+            "tr": "Bu nereden çıktı?"
+        },
+        "RD_ALifeLine_013f06283c940c5c": {
+            "tr": "Emin misin?"
+        },
+        "RD_ALifeLine_695c255d255729ab": {
+            "tr": "Gerçekten böyle mi düşünüyorsun?"
+        },
+        "RD_ALifeLine_66a6ab161e9d565e": {
+            "tr": "Kilise hala açık mı?"
+        },
+        "RD_ALifeLine_686a67b15158aa7d": {
+            "tr": "Kiliselerde kimse var mı?"
+        },
+        "RD_ALifeLine_7514a1f36d6fc07e": {
+            "tr": "Papazları gördün mü?"
+        },
+        "RD_ALifeLine_600daac8646e458b": {
+            "tr": "Louisville ne durumda?"
+        },
+        "RD_ALifeLine_5fedf83b448403dc": {
+            "tr": "Şehirden haber aldın mı?"
+        },
+        "RD_ALifeLine_6f437ce87bccd0d3": {
+            "tr": "Louisville daha mı iyi?"
+        },
+        "RD_ALifeLine_6fc57f291b24a3e6": {
+            "tr": "Ölüler hakkında ne düşünüyorsun?"
+        },
+        "RD_ALifeLine_131ce9ae23aefc25": {
+            "tr": "Onlar ne?"
+        },
+        "RD_ALifeLine_321b744d45230b3e": {
+            "tr": "Bir şey hissediyorlar mı?"
+        },
+        "RD_ALifeLine_0cb7b14e1ac92ae2": {
+            "tr": "Bunların sana göre bir anlamı var mı?"
+        },
+        "RD_ALifeLine_488de6497b0e90d8": {
+            "tr": "Tanrı bunun içinde bir yerde mi?"
+        },
+        "RD_ALifeLine_2765bf5875ff699d": {
+            "tr": "Sence neden oldu?"
+        },
+        "RD_ALifeLine_66adba73314d82dc": {
+            "tr": "Yangın gördün mü?"
+        },
+        "RD_ALifeLine_5e03979d4b6da937": {
+            "tr": "Dışarıda yanan bir şey var mı?"
+        },
+        "RD_ALifeLine_250794bb144f4893": {
+            "tr": "Duman kokusu alıyor musun?"
+        },
+        "RD_ALifeLine_1c0dc17f41f03dc5": {
+            "tr": "Asker gördün mü?"
+        },
+        "RD_ALifeLine_3bed88e472eeacbe": {
+            "tr": "Muhafızları gördün mü?"
+        },
+        "RD_ALifeLine_4d55b248790b9953": {
+            "tr": "Etrafta üniformalı biri var mı?"
+        },
+        "RD_ALifeLine_57fdbdba4cfba9ff": {
+            "tr": "Helikopter gördün mü?"
+        },
+        "RD_ALifeLine_7247c7626757bc32": {
+            "tr": "Helikopter sesi duydun mu?"
+        },
+        "RD_ALifeLine_2c2d15951da75aac": {
+            "tr": "Uçan biri var mı?"
+        },
+        "RD_ALifeLine_68763ad759664390": {
+            "tr": "Sence bu biter mi?"
+        },
+        "RD_ALifeLine_254bc6dd15dd2853": {
+            "tr": "Sence bundan kurtulur muyuz?"
+        },
+        "RD_ALifeLine_37d89f7f1f8a154a": {
+            "tr": "Umut etmek için bir sebep var mı?"
+        },
+        "RD_ALifeLine_48213e683717bf9b": {
+            "tr": "Hastane hala açık mı?"
+        },
+        "RD_ALifeLine_341674bf73f1673b": {
+            "tr": "Hastanede kimse var mı?"
+        },
+        "RD_ALifeLine_7d57666d3bc115b5": {
+            "tr": "Doktorlar nereye gidiyor?"
+        },
+        "RD_ALifeLine_2abf8e4a10e75018": {
+            "tr": "Çocuklar ne durumda?"
+        },
+        "RD_ALifeLine_49483e73514a4ec3": {
+            "tr": "Hiç çocuk gördün mü?"
+        },
+        "RD_ALifeLine_025267452c9abbac": {
+            "tr": "Çocuklar nereye gidiyor?"
+        },
+        "RD_ALifeLine_2966ebd758245d9d": {
+            "tr": "Şerifi gördün mü?"
+        },
+        "RD_ALifeLine_780d8982329f3c29": {
+            "tr": "Hala bir şeyleri uygulatan biri var mı?"
+        },
+        "RD_ALifeLine_5803b3a514191dc5": {
+            "tr": "Kanun diye bir şey kaldı mı?"
+        },
+        "RD_ALifeLine_1a77c1462297c017": {
+            "tr": "Hiç yağmacı gördün mü?"
+        },
+        "RD_ALifeLine_4e34908d7bcb33bf": {
+            "tr": "Başkasının malına el koyan var mı?"
+        },
+        "RD_ALifeLine_71252d8738f55a3a": {
+            "tr": "İnsanlar birbirine düşüyor mu?"
+        },
+        "RD_ALifeLine_3181fbd86746fe5f": {
+            "tr": "İlacı nereden buluyorsun?"
+        },
+        "RD_ALifeLine_377cb2fb2e5bd45e": {
+            "tr": "Hiç ilaç kaldı mı?"
+        },
+        "RD_ALifeLine_7dbe8965720c1ff7": {
+            "tr": "Hala stoku olan bir eczane biliyor musun?"
+        },
+        "RD_ALifeLine_0cd831702df6d11a": {
+            "tr": "Isırılana merhamet eder miydin?"
+        },
+        "RD_ALifeLine_0228e688550608c0": {
+            "tr": "Mecbur kalsan yapabilir miydin?"
+        },
+        "RD_ALifeLine_30250deb084dfd2b": {
+            "tr": "Isırılmış biri için ne yapardın?"
+        },
+        "RD_ALifeLine_58e62e86661ded0d": {
+            "tr": "Para hala bir işe yarıyor mu?"
+        },
+        "RD_ALifeLine_7c8636726db486d6": {
+            "tr": "Bir dolar şimdi neye yarar?"
+        },
+        "RD_ALifeLine_78c271fe7bac4836": {
+            "tr": "İnsanlar neyle takas ediyor?"
+        },
+        "RD_ALifeLine_54f3ea9e343ca347": {
+            "tr": "Buralarda kim kaldı?"
+        },
+        "RD_ALifeLine_264307e47f23b398": {
+            "tr": "Hiç komşu gördün mü?"
+        },
+        "RD_ALifeLine_4a358443051374b2": {
+            "tr": "Buralarda saklanan başka biri var mı?"
+        },
+        "RD_ALifeLine_005288b96469720d": {
+            "tr": "Dışarıda neler oluyor?"
+        },
+        "RD_ALifeLine_46d6765712d58496": {
+            "tr": "Geceler daha mı kötü?"
+        },
+        "RD_ALifeLine_324effd4793568b2": {
+            "tr": "Hava kararınca durum daha mı kötü?"
+        },
+        "RD_ALifeLine_7e1ffa5b7c807dd2": {
+            "tr": "Geceleri ne oluyor?"
+        },
+        "RD_ALifeLine_1995a2727198d1eb": {
+            "tr": "Telefonlar bir yerde çalışıyor mu?"
+        },
+        "RD_ALifeLine_7b844d6d117b969d": {
+            "tr": "Elinde dışarıya açılan bir hat var mı?"
+        },
+        "RD_ALifeLine_130e758452c11ea9": {
+            "tr": "Hiç kimseyi aramayı denedin mi?"
+        },
+        "RD_ALifeLine_1d43b3784021c676": {
+            "tr": "Yerimde olsan ne yapardın?"
+        },
+        "RD_ALifeLine_1b8b2b9a01912e05": {
+            "tr": "Ne yapmalıyız?"
+        },
+        "RD_ALifeLine_7fa9078f18b6f5e2": {
+            "tr": "Bundan sonra ne yapmalıyız?"
+        },
+        "RD_ALifeLine_3c9e1904147578bd": {
+            "tr": "Elektrik daha ne kadar dayanır?"
+        },
+        "RD_ALifeLine_39605e801e40e288": {
+            "tr": "Geldiğin yerde elektrik var mı?"
+        },
+        "RD_ALifeLine_0ffb5ce2274e93b5": {
+            "tr": "Işıklar yanık kalacak mı?"
+        },
+        "RD_ALifeLine_05e8b3447af4bc5e": {
+            "tr": "Telsizde bir şey duydun mu?"
+        },
+        "RD_ALifeLine_4cdb0bc905f37dc0": {
+            "tr": "Frekanslarda bir şey var mı?"
+        },
+        "RD_ALifeLine_112e1c3929c8c7c3": {
+            "tr": "Hiç yayın yakaladın mı?"
+        },
+        "RD_ALifeLine_6eeccf0b028ffb43": {
+            "tr": "Yollar açık mı?"
+        },
+        "RD_ALifeLine_0ee6dc5d2c365f77": {
+            "tr": "Hangi yollar kötü?"
+        },
+        "RD_ALifeLine_502f0ebc18d0093f": {
+            "tr": "Oradan geçmek mümkün mü?"
+        },
+        "RD_ALifeLine_05422b4b770286eb": {
+            "tr": "İnsanlar yiyeceği nerede buluyor?"
+        },
+        "RD_ALifeLine_1d660db3323115b7": {
+            "tr": "Hiç yiyecek kaldı mı?"
+        },
+        "RD_ALifeLine_07414b9b1720900a": {
+            "tr": "Marketlerde ne kaldı?"
+        },
+        "RD_ALifeLine_60fb193259d9c880": {
+            "tr": "Kasabada durum nasıl?"
+        },
+        "RD_ALifeLine_3e13d3d94166488b": {
+            "tr": "Kasabada ne gördün?"
+        },
+        "RD_ALifeLine_7fea7cc55bd77584": {
+            "tr": "Kasabada kimse kaldı mı?"
+        },
+        "RD_ALifeLine_0747ded928814ae5": {
+            "tr": "Hiç kamyon gördün mü?"
+        },
+        "RD_ALifeLine_4130c80964cc1b41": {
+            "tr": "Otoyolda hareket eden var mı?"
+        },
+        "RD_ALifeLine_5f223dfa3c37f9c6": {
+            "tr": "I-65'te bir şey var mı?"
+        },
+        "RD_ALifeLine_6d8b4d5539820220": {
+            "tr": "Su akıyor mu?"
+        },
+        "RD_ALifeLine_4c617fd70faba556": {
+            "tr": "Suyu içmek güvenli mi?"
+        },
+        "RD_ALifeLine_16bcec8d3a63cadd": {
+            "tr": "Suyu nereden alıyorsun?"
+        },
+        "RD_ALifeLine_01618ae466dc877c": {
+            "tr": "kısa kesilmiş beyaz saçlı, yamalı tulumunun üstünde ütülü bir yaka taşıyan yaşlı bir adam"
+        },
+        "RD_ALifeLine_3724121424dd6792": {
+            "tr": "Elmer'a yardım sözü verdi, geri dönmedi"
+        },
+        "RD_ALifeLine_5b5a8bb806e8a6c2": {
+            "tr": "Caka satıyor ama tanıdık isimleri yerine oturtamıyor"
+        },
+        "RD_ALifeLine_48f5aac81253c55d": {
+            "tr": "Raymond'ı evine almak yerine başından savdı"
+        },
+        "RD_ALifeLine_297a08ec3b10b8f7": {
+            "tr": "Elmer'ın çağırdığını duydu, sonra yüz çevirdi"
+        },
+        "RD_ALifeLine_6e8acbd820b07517": {
+            "tr": "Elmer'a birini yollamak yerine bizzat yüzleşmek istiyor"
+        },
+        "RD_ALifeLine_515da1a00191c6a8": {
+            "tr": "bakımlı gümüş saçlı, solmuş bir arazi ceketi giyen iri yapılı yaşlı bir adam"
+        },
+        "RD_ALifeLine_4bdd92cb4992e3eb": {
+            "tr": "Doktorun yazdığı şeker haplarını saklıyor"
+        },
+        "RD_ALifeLine_4f9c5d006d9fc7eb": {
+            "tr": "Pazar günleri beyzbol oynardı, üniversite takımında hiç oynamadı"
+        },
+        "RD_ALifeLine_49f06dd66d893019": {
+            "tr": "Nina'nın evliliğini kabul etmedi, davetlerini yanıtsız bıraktı"
+        },
+        "RD_ALifeLine_50977fbf563f3e5f": {
+            "tr": "Emekli maaşı nakdini ceketinde saklıyor"
+        },
+        "RD_ALifeLine_27697125586e1dac": {
+            "tr": "Kuzeye gidişi, Nina'yı görmek için geç kalmış bir girişim"
+        },
+        "RD_ALifeLine_24e167013a21260f": {
+            "tr": "kısa kahverengi saçlı, yıpranmış hasır şapkalı, iri yapılı sessiz bir adam"
+        },
+        "RD_ALifeLine_149934250458ceae": {
+            "tr": "Verdiği söze rağmen Nettie'nin sinek kızını sakladı"
+        },
+        "RD_ALifeLine_3d6151274edd3d19": {
+            "tr": "Nettie'nin teneke kutusunu kullanıp iş manşetlerini dikiyor"
+        },
+        "RD_ALifeLine_7d6737400928bcb5": {
+            "tr": "Evin son ödemesini Lyle yaptı"
+        },
+        "RD_ALifeLine_312888dd79d42cee": {
+            "tr": "June'u dere kenarında bir yolcuyla bırakıp gitti"
+        },
+        "RD_ALifeLine_6a86680b0ccabf80": {
+            "tr": "June'a söz verdiği yardımı hiç getirmedi"
+        },
+        "RD_ALifeLine_0c7aa5d16e3a1447": {
+            "tr": "küt kesilmiş kestane kızılı saçlı, iş ceketinde boya çilleri olan, ağırbaşlı bir kadın"
+        },
+        "RD_ALifeLine_141c13877fb2da4b": {
+            "tr": "Earl'ün Lorna'ya bıraktığı lokma anahtar kutusunu aldı"
+        },
+        "RD_ALifeLine_3a83a92415a315d8": {
+            "tr": "1970'teki akşam kursunu bitirmedi"
+        },
+        "RD_ALifeLine_2c7623f85187f3c1": {
+            "tr": "Lorna'nın evinde parayı sessizce yerine koydu"
+        },
+        "RD_ALifeLine_469c690963cee3f4": {
+            "tr": "Aile bekliyor demesi, küslüğün bahanesi"
+        },
+        "RD_ALifeLine_0c80e26f11f9c2e8": {
+            "tr": "İçki için işvereninin panel parasını aldı"
+        },
+        "RD_ALifeLine_53dcd8f754d8b3a6": {
+            "tr": "koyu renk at kuyruklu, eskimiş kot ceketli genç bir kadın"
+        },
+        "RD_ALifeLine_295770ac7bee0af6": {
+            "tr": "Eli'ye miras kalan pirinç düdüğü izin almadan aldı"
+        },
+        "RD_ALifeLine_53dcba312e8438be": {
+            "tr": "Şarkı söylemek yerine gizli şiirler yazıyor"
+        },
+        "RD_ALifeLine_279e5b8668c0bccf": {
+            "tr": "Dokuz kişilik sınıfın birincisi"
+        },
+        "RD_ALifeLine_2ae300b402d04c24": {
+            "tr": "Burs yenileme mülakatından kaçındı"
+        },
+        "RD_ALifeLine_2c48587a57375dc5": {
+            "tr": "Telefonlar çökmeden önce söz verdiği aramayı yapmadı"
+        },
+        "RD_ALifeLine_65940c9d37699859": {
+            "tr": "güçlü omuzlu, kestane küt saçlı, solmuş iş gömlekli bir kadın"
+        },
+        "RD_ALifeLine_1f1ee4b95c11e1ba": {
+            "tr": "Lewis'i 1992'de, salgın bahanesi ortaya çıkmadan önce terk etti"
+        },
+        "RD_ALifeLine_6f2a8a901fdbb4c5": {
+            "tr": "Lewis'ten kronik akciğer teşhisini gizledi"
+        },
+        "RD_ALifeLine_65e0f4ab4da666a0": {
+            "tr": "Yalan bir yetki iddiasıyla CB telsizde uydurma bir yol uyarısı yaptı"
+        },
+        "RD_ALifeLine_03e74f6e28448e42": {
+            "tr": "Nolan konusunda emin olamayınca yeniden duaya döndü"
+        },
+        "RD_ALifeLine_31173de73d534813": {
+            "tr": "Şapkasını Mona'ya sessizce verdi, bir şapkaya ihtiyacı var"
+        },
+        "RD_ALifeLine_76cb68ee4b9c2a0a": {
+            "tr": "düzgün kesilmiş gümüş saçlı, yakası lekesiz bir adam"
+        },
+        "RD_ALifeLine_06dd1cb0666e2968": {
+            "tr": "Klinik anahtarlarını kaybetmek yerine geri teslim etti"
+        },
+        "RD_ALifeLine_44c192aa4c1eb470": {
+            "tr": "Gertrude'un özel günlüğünü okuyup alıkoydu"
+        },
+        "RD_ALifeLine_464c9e7118e138b5": {
+            "tr": "Çalışma tarihlerini sahteledi, hemşirelik yeterliliğini değil"
+        },
+        "RD_ALifeLine_1bcc0a7674bac19e": {
+            "tr": "Sahte elektrik müfettişleri 1988'de evini soydu"
+        },
+        "RD_ALifeLine_00555cab09ff38e6": {
+            "tr": "Başvurusunu hiç yollamadı, yeni bir göreve talip değil"
+        },
+        "RD_ALifeLine_1095233b0823a747": {
+            "tr": "geniş omuzlu, kısa kesilmiş gri saçlı, eskimiş makine askılı yaşlıca bir adam"
+        },
+        "RD_ALifeLine_2871f4ec0522c42b": {
+            "tr": "Marion Kemp'e verdiği öğretici fotoğraf sözünü bozdu"
+        },
+        "RD_ALifeLine_36fbab8543ce70d4": {
+            "tr": "Hiç boks maçı yapmadı"
+        },
+        "RD_ALifeLine_10253fc64e722336": {
+            "tr": "Sahte kilometre beyanlarıyla motor tamirlerini karşıladı"
+        },
+        "RD_ALifeLine_6c1121683365ba00": {
+            "tr": "1985'ten beri Inez'le arası bozuk"
+        },
+        "RD_ALifeLine_38d4adda778f2d72": {
+            "tr": "Isırılmış yabancı Earl'ün duasını ve emin oluşunu sarstı"
+        },
+        "RD_ALifeLine_0dc688237264a267": {
+            "tr": "hırkasının ve hastane formasının üstünde düzgünce toplanmış koyu saçlı, gözleri sıcak bir kadın"
+        },
+        "RD_ALifeLine_64a44e3a2045b3a1": {
+            "tr": "Gus'ın ölümü ve Rose'un koğuştan kaçışı"
+        },
+        "RD_ALifeLine_35e8bed754648686": {
+            "tr": "Yorgunluktan jüri oyunu değiştirdi"
+        },
+        "RD_ALifeLine_17e0dfd837e8eed9": {
+            "tr": "Sahte yoklama kaydıyla bir balık tutma devamsızlığını örttü"
+        },
+        "RD_ALifeLine_0fabeb6d697b99a3": {
+            "tr": "Evlilik kısmen ailenin isteklerinden kaçıştı"
+        },
+        "RD_ALifeLine_0a0b0065471fea67": {
+            "tr": "Brent'in destesi June'dan isteği dışında alındı"
+        },
+        "RD_ALifeLine_3b2b2a97561d941a": {
+            "tr": "düzgün beyaz saçlı, yumuşak bir hırka giyen, ince yapılı yaşlı bir adam"
+        },
+        "RD_ALifeLine_76218a5e7eee6587": {
+            "tr": "Beatrice'le Lewis'i yaya köprüsünde bıraktı"
+        },
+        "RD_ALifeLine_691c58825cbcb62d": {
+            "tr": "Everett cevap yazmadan Francis öldü"
+        },
+        "RD_ALifeLine_4ffa95fe603aa973": {
+            "tr": "Madeline'e söz verilen göl gezisi hiç yapılmadı"
+        },
+        "RD_ALifeLine_089fe06d64887ae7": {
+            "tr": "Kalp pilini, gözetim altına alınmamak için gizledi"
+        },
+        "RD_ALifeLine_6ee1733166575017": {
+            "tr": "Doris Wiles, Everett'e gizlice step dansı öğretti"
+        },
+        "RD_ALifeLine_69d2d4570f59b768": {
+            "tr": "kısa kesilmiş küllü kumral saçlı, kravatı özenle bağlı, ağırbaşlı bir adam"
+        },
+        "RD_ALifeLine_2777cc59398d6860": {
+            "tr": "1991'deki katarakt teşhisini kuruldan gizledi"
+        },
+        "RD_ALifeLine_7d0c975b50beb39f": {
+            "tr": "Raymond, bitirme kursunun derslerini okudu"
+        },
+        "RD_ALifeLine_338e653762511892": {
+            "tr": "Ruth'un domateslerini kendi adıyla yarışmaya soktu"
+        },
+        "RD_ALifeLine_1688d99b7e5999d3": {
+            "tr": "Üye olmayanları kiler erzağından dışarıda bıraktı"
+        },
+        "RD_ALifeLine_7041ca7c37525a13": {
+            "tr": "Komşuların dilekçesini sunmak yerine yok etti"
+        },
+        "RD_ALifeLine_719e6dfc251549c7": {
+            "tr": "yılların yıprattığı, bakımlı gri sakallı, ceketi sökülmüş bir vaiz"
+        },
+        "RD_ALifeLine_01aefa3d7aec4500": {
+            "tr": "Philip kaybolmadan önce kişi sayımını önemsemedi"
+        },
+        "RD_ALifeLine_11a074270751d588": {
+            "tr": "Yoldan geçiyorum demesi, Elizabethtown civarındaki bir ömrü gizliyor"
+        },
+        "RD_ALifeLine_04935eb123f6e456": {
+            "tr": "Grevdeki üç ailenin market borcunu, onları kınadıktan sonra ödedi"
+        },
+        "RD_ALifeLine_163c42bb228c2e88": {
+            "tr": "Nola'nın cenazesinde yeniden kavuşma vaadine inanamadı"
+        },
+        "RD_ALifeLine_767d6aa84c2068e6": {
+            "tr": "Nola'nın yüzüğünü satıp aldığı seksen doları gizledi"
+        },
+        "RD_ALifeLine_43fe0cdb0bc719b0": {
+            "tr": "kısa kesilmiş koyu saçlı, gömlek manşetleri düzgünce iliklenmiş sessiz bir adam"
+        },
+        "RD_ALifeLine_3566e6a9783a83f4": {
+            "tr": "İşe alan ekiplerden açıklanamayan bayılma nöbetlerini gizliyor"
+        },
+        "RD_ALifeLine_6d7e9a962166b317": {
+            "tr": "Başka mahkumlar adına duygulu mektuplar yazdı"
+        },
+        "RD_ALifeLine_5ca5a039624c9813": {
+            "tr": "Beth'in ölümünü dile getirmemek için altından kalkılmaz hastane faturaları ödedi"
+        },
+        "RD_ALifeLine_3bfe6d2042f4dbe7": {
+            "tr": "Beth'le gömmeye söz verdiği halde yaka çiçeğini geri aldı"
+        },
+        "RD_ALifeLine_0354b5233f5f1710": {
+            "tr": "Zachary'nin istediği polis çağrısında Calvin'i hiç aklamadı"
+        },
+        "RD_ALifeLine_5119e3115fbe7fea": {
+            "tr": "uzun bakır kahvesi saçlı, rüzgarlığının üstünde on sentlik bozuk para kolyesi olan bir kadın"
+        },
+        "RD_ALifeLine_6e96adae6245c0e7": {
+            "tr": "Otomat minibüsünü kullanmak için Earl'ün iznini sahteledi"
+        },
+        "RD_ALifeLine_4ff58df22171c0a7": {
+            "tr": "Nettie'nin on sentlik kolyesini verilmeden aldı"
+        },
+        "RD_ALifeLine_4b968595674db528": {
+            "tr": "Enfekte ısırıktan sağ kalma hikayesi uydurdu, eski bir lamba yanığını gösterdi"
+        },
+        "RD_ALifeLine_7a49de0429b52223": {
+            "tr": "1980'de iki başarısız sınavdan sonra aritmetik kursunu bıraktı"
+        },
+        "RD_ALifeLine_52af3d5f32caccae": {
+            "tr": "Babalarının öldüğü 1966 kazasında Jude'un sürücü olduğunu örttü"
+        },
+        "RD_ALifeLine_3f3049911e7e93e6": {
+            "tr": "kahverengi at kuyruklu, önlüğünün altında hırka giyen genç bir kadın"
+        },
+        "RD_ALifeLine_5a614486794aa107": {
+            "tr": "Alma'ya 126 dolarlık oda avansının tamamını borçlu"
+        },
+        "RD_ALifeLine_25cebc1d28451910": {
+            "tr": "Cenazelerde söylediği alto partisini kulaktan öğrendi, lokanta ekibinden sakladı"
+        },
+        "RD_ALifeLine_78b6f7ae2f3b44f5": {
+            "tr": "Lenora'nın mavi kazağını kendi 4-H işi olarak gösterdi"
+        },
+        "RD_ALifeLine_392f326c7167e56b": {
+            "tr": "İadesi istendiği halde Lenora'nın saatini elinde tuttu"
+        },
+        "RD_ALifeLine_5937c3e44a977909": {
+            "tr": "Cumartesi saatlerini kapmak için Irene'i şikayet etti"
+        },
+        "RD_ALifeLine_3df9e60f5c02fce2": {
+            "tr": "keskin bakışlı, bakır rengi küt saçlı, eskimiş ordu fazlası ceketli bir kadın"
+        },
+        "RD_ALifeLine_55c0bc8425339372": {
+            "tr": "Yardım sözü verip yaralı Paul'ü bıraktı"
+        },
+        "RD_ALifeLine_460c3b947e324929": {
+            "tr": "Sela'nın dama kupasını kendi zaferi diye sahiplendi"
+        },
+        "RD_ALifeLine_06a921dd692f0296": {
+            "tr": "Sahte yoklama bildirdi, Rosa'nın gerekçesini söylemedi"
+        },
+        "RD_ALifeLine_1a47754362b24eae": {
+            "tr": "1980'den beri ara ara gelen bilek güçsüzlüğünü gizledi"
+        },
+        "RD_ALifeLine_206690bc166b8fa8": {
+            "tr": "Barışmaya zorlamak için Ila'nın adresini ele verdi"
+        },
+        "RD_ALifeLine_176d612b18e3e4bc": {
+            "tr": "yumuşak yüzlü, bal grisi küt saçlı, bakımlı hırkalı bir kadın"
+        },
+        "RD_ALifeLine_7aa076da5eb5759b": {
+            "tr": "Vera öldüğünden beri duaların sonunu sadece dudak oynatarak söylüyor"
+        },
+        "RD_ALifeLine_4f12ac89551d6f62": {
+            "tr": "Bayan Venn'in şifonyerinden piyango biletini aldı"
+        },
+        "RD_ALifeLine_7be2d8f63e7d0f8f": {
+            "tr": "Tanıştığını iddia ettiği şarkıcının yalnızca odasını temizledi"
+        },
+        "RD_ALifeLine_073b81a475d6d731": {
+            "tr": "Nehir güvenli demesi, kanıtsız bir teselli"
+        },
+        "RD_ALifeLine_60a04066089b6b6c": {
+            "tr": "Bess gitmek istediğini bilmesin diye Vera'nın mektubunu yaktı"
+        },
+        "RD_ALifeLine_5eb7019e757036a4": {
+            "tr": "düzgün kesilmiş kahverengi saçlı, boya lekeli iş gömlekli iri yapılı bir adam"
+        },
+        "RD_ALifeLine_681ae91917f62ece": {
+            "tr": "Merritt'in boyasını alıp bozulmuş mal diye geçirdi"
+        },
+        "RD_ALifeLine_126a1bb91ffba475": {
+            "tr": "Babasının soğumuş piposu Celia'nın kuş çizimini koruyor"
+        },
+        "RD_ALifeLine_372b9ec60b500b35": {
+            "tr": "Tek başına kahramanlık anlatsa da Clive'ı Della'yla birlikte taşıdı"
+        },
+        "RD_ALifeLine_6c63a32e0e92f54e": {
+            "tr": "Taşıma yalanını desteklemek için günlükte Della'ya yabancı diyor"
+        },
+        "RD_ALifeLine_6d26dd6f5d744456": {
+            "tr": "Hırsızlığı yüzünden Della'nın işini kaybetmesine göz yumdu, tezgahını aldı"
+        },
+        "RD_ALifeLine_459cae246ff7d166": {
+            "tr": "geri toplanmış koyu saçlı, buruşuk hemşire formalı ve yün hırkalı bir kadın"
+        },
+        "RD_ALifeLine_7da861996c0e76b0": {
+            "tr": "Arama sürerken Marla'nın arabasını izinsiz aldı"
+        },
+        "RD_ALifeLine_350d3e2a4e363aa0": {
+            "tr": "İddiasına rağmen yalnızca iki Fransızca nezaket sözü biliyor"
+        },
+        "RD_ALifeLine_3313cd742f7f3773": {
+            "tr": "1963 selinden sonra kilise battaniyesini hiç geri vermedi"
+        },
+        "RD_ALifeLine_4361396e42f531e7": {
+            "tr": "Connie'nin mesajını duydu, arama hiç gelmemiş gibi yaptı"
+        },
+        "RD_ALifeLine_590b09af35b5ec33": {
+            "tr": "Marla otoparktan seslenirken arabayla uzaklaştı"
+        },
+        "RD_ALifeLine_43700608192ee04e": {
+            "tr": "uzun koyu kahverengi saçlı, eskimiş kot ceketli genç bir kadın"
+        },
+        "RD_ALifeLine_3a767ca77ac0a9de": {
+            "tr": "Oda tutmak için sahte bir üniversite kabul mektubu uydurdu"
+        },
+        "RD_ALifeLine_50dcd1930a68f8cd": {
+            "tr": "Rex'in plağını satıp kendi koleksiyonundan dedi"
+        },
+        "RD_ALifeLine_6a2698610134a383": {
+            "tr": "Kiralık odasını kaybedince mezarlığın yanında uyudu"
+        },
+        "RD_ALifeLine_1529378252fb449f": {
+            "tr": "Otobüs basamağındaki düşüşünü yürüme yakınmasının ardına gizledi"
+        },
+        "RD_ALifeLine_46ae3fe9197bd4a1": {
+            "tr": "Kuzeye gitmeyi kabul etse de Louisville'de kendi başına olmak istiyor"
+        },
+        "RD_ALifeLine_2eec2b827e83e28c": {
+            "tr": "sırıtan, kısa koyu saçlı, gömlek kollarını sıvamış genç bir adam"
+        },
+        "RD_ALifeLine_2a4f40952cbf643a": {
+            "tr": "Motosiklet parçası için Mavis'in konserve makinesini çaldı"
+        },
+        "RD_ALifeLine_1e152aaa06734693": {
+            "tr": "Bir araba teklifini reddetti, yardımcılığın ilk gününde başarısız oldu"
+        },
+        "RD_ALifeLine_52f243d623a6ead7": {
+            "tr": "1987'deki çan sesinden beri ara ara süren kulak çınlamasını gizliyor"
+        },
+        "RD_ALifeLine_704cef5a0fa6a5a8": {
+            "tr": "Satış makbuzundaki Mavis'in onayını sahteledi"
+        },
+        "RD_ALifeLine_0ea6732335a996f1": {
+            "tr": "Leonard'ı itti, düştü diye anlatılan yalana ses çıkarmadı"
+        },
+        "RD_ALifeLine_7005396f051f9e97": {
+            "tr": "arkada toplanmış kestane saçlı, yıkanmış iş gömlekli bir kadın"
+        },
+        "RD_ALifeLine_2581d0304ed9bbe1": {
+            "tr": "Yetişkin bisikletli Morris Dean'e çarpıp arabayla uzaklaştı"
+        },
+        "RD_ALifeLine_042c230569a3f42c": {
+            "tr": "Bebek fotoğraflarını gizledi, yerine başkası geçer diye korkuyor"
+        },
+        "RD_ALifeLine_2991b59c00adaf60": {
+            "tr": "Hala sözünü ettiği o inanç değişiminden sonra dua etmeyi bıraktı"
+        },
+        "RD_ALifeLine_7c0560842a346e82": {
+            "tr": "Laurel'in emeğini rızası olmadan yakıt karşılığı teklif etti"
+        },
+        "RD_ALifeLine_1a1d3b1d7c847de9": {
+            "tr": "Kardeşine mal edilen araba kitapçığını kendisi yazdı"
+        },
+        "RD_ALifeLine_1bab36c028a68baa": {
+            "tr": "uzun koyu saçlı, iş gömleğinin düğmeleri düzgünce ilikli, ağırbaşlı bir kadın"
+        },
+        "RD_ALifeLine_4cdefdee1e3ff6b3": {
+            "tr": "Salgın uyarılarından önce ikiz evden ayrıldı"
+        },
+        "RD_ALifeLine_386e11c60773eb20": {
+            "tr": "Russell'ın faturalarını ödedikten sonra Pearl'den borç aldı"
+        },
+        "RD_ALifeLine_22cec9a91e19bf9c": {
+            "tr": "Otobüse binemedi ve April'ı aradı"
+        },
+        "RD_ALifeLine_5bc2429369af777f": {
+            "tr": "Adsız bez kitap kaplığı yetişkin okuyucu Evan'a gitti"
+        },
+        "RD_ALifeLine_12102c1a77e72697": {
+            "tr": "Balık tutulan derelerin ayrıntılı çizimlerini kendisi yapıp sunuyor"
+        },
+        "RD_ALifeLine_7dd0f85426e006dc": {
+            "tr": "geniş yüzlü, kısa koyu saçlı, gömleği özenle ütülü bir adam"
+        },
+        "RD_ALifeLine_28a2bafc1e4e66c4": {
+            "tr": "Annesi Adele, kız kardeşi Nell, Nell'in oğlu Evan"
+        },
+        "RD_ALifeLine_2fb41c3f1e8c622b": {
+            "tr": "Grady'den ödünç aldığı altı yüzün hepsini borçlu"
+        },
+        "RD_ALifeLine_4f5a191f72a53c7d": {
+            "tr": "Nell aramayı bırakmasını istedi, artık cevap vermiyor"
+        },
+        "RD_ALifeLine_19c7938c4b555a4d": {
+            "tr": "Clint'in açık bıraktığı kapı yüzünden Evan'ın suçlanmasına ses çıkarmadı"
+        },
+        "RD_ALifeLine_1a57e8cd06090fda": {
+            "tr": "Grady'ye borcunu ödemek yerine cila tenekesinde elli dolar saklıyor"
+        },
+        "RD_ALifeLine_7901138b4a71f4ae": {
+            "tr": "Noel yolculuğu parasını bir ata yatırıp kaybetti, Adele'yi yalnız bıraktı"
+        },
+        "RD_ALifeLine_49a209c55f5fda94": {
+            "tr": "düzgün kesilmiş kahverengi saçlı, sade ve temiz kolluklu iri yapılı genç bir adam"
+        },
+        "RD_ALifeLine_7bd82b457e5a848e": {
+            "tr": "Halter için seksen altı doları fotoğrafın arkasında saklıyor"
+        },
+        "RD_ALifeLine_511c56437512e5ce": {
+            "tr": "Alay edilmesin diye ölmüş bir yabancıyı tanıyormuş gibi yaptı"
+        },
+        "RD_ALifeLine_556f781d2a547104": {
+            "tr": "Willie'nin halter kulübünün komik resimlerini gizlice çiziyor"
+        },
+        "RD_ALifeLine_00e835180fcc3dd1": {
+            "tr": "Len'in kereste makbuzunu sahteledi, farkı cebe indirdi"
+        },
+        "RD_ALifeLine_7ce505c22f52644e": {
+            "tr": "Kardeşi Reuben öldüğünde bir an rahatlama hissetti"
+        },
+        "RD_ALifeLine_35a520ca2c13c290": {
+            "tr": "kısa siyah saçlı, iş gömleği yakası temiz genç bir ırgat"
+        },
+        "RD_ALifeLine_1a53afb447f7cba2": {
+            "tr": "İşverenin tarlasında ırgat, toprak sahibi değil"
+        },
+        "RD_ALifeLine_69a1e84d1941a073": {
+            "tr": "Alonso'ya köpeği getireceğine söz verdiği halde Nube'u bağlı bıraktı"
+        },
+        "RD_ALifeLine_61a5e7d609d3346b": {
+            "tr": "Eski bir makine kazası bir tarafta işitmesini azalttı"
+        },
+        "RD_ALifeLine_56050b3f441e7eee": {
+            "tr": "Julia'nın Graceland borcu hala ödenmedi"
+        },
+        "RD_ALifeLine_30e9204b35425d21": {
+            "tr": "Leticia'nın hatırasını onarmak için sessizce dikiş öğrendi"
+        },
+        "RD_ALifeLine_313271c452a75c78": {
+            "tr": "düzgün koyu örgülü, iyice eskimiş iş gömlekli bir kadın"
+        },
+        "RD_ALifeLine_0fcb346a6034542e": {
+            "tr": "Simon'ın Jorge'ye mesajını götürmeden gitti"
+        },
+        "RD_ALifeLine_32351758322339bf": {
+            "tr": "Açıklanamayan eski öksürüğü yeni ateşten önce başlamıştı"
+        },
+        "RD_ALifeLine_096783950ddbc2cf": {
+            "tr": "Lucia'nın kumaşını ayrılmış aile çamaşırlarından aldı"
+        },
+        "RD_ALifeLine_0a25794957d1657c": {
+            "tr": "Yaptığı bildirim Berta'nın işten çıkarılmasına yol açtı"
+        },
+        "RD_ALifeLine_5f8698d572ce2558": {
+            "tr": "Berta'nın güzel anılarını yetişkin kızı için saklıyor"
+        },
+        "RD_ALifeLine_33c399f9409c4d5a": {
+            "tr": "küllü kumral küt saçlı, yumuşak hırkasının üstünde tel çerçeveli gözlüklü bir kadın"
+        },
+        "RD_ALifeLine_2d99598c1e18b2b9": {
+            "tr": "İçkiyi bırakmak için iki kısa deneme yaptı, ikincisinin sürdüğünü Ruth'a söyledi"
+        },
+        "RD_ALifeLine_7be1b0b0219435eb": {
+            "tr": "Çelişen tarihleri çıkarıp tek bir tahliye planı uydurdu"
+        },
+        "RD_ALifeLine_77fe99352f12224d": {
+            "tr": "Klinikte uydurma Elaine Marsh adını kullandı"
+        },
+        "RD_ALifeLine_7f4575cc1d8b329a": {
+            "tr": "Gail Stone takma adıyla yazılmış gizli bir aşk romanı taslağı"
+        },
+        "RD_ALifeLine_562bf4144e8435e7": {
+            "tr": "Sarhoşken yaptığı casusluk suçlaması yüzünden Ruth görüşmeyi kesti"
+        },
+        "RD_ALifeLine_049b385d36d0d946": {
+            "tr": "kulağının arkasına kurşun kalem sıkıştırmış, kısa kahverengi saçlı, ince yapılı bir marangoz"
+        },
+        "RD_ALifeLine_36664e781f73d0ba": {
+            "tr": "Çiftlik satıldıktan sonra duaları tamamlamayı bıraktı"
+        },
+        "RD_ALifeLine_1efc7e9d23efb44a": {
+            "tr": "Rae için kiler basamağını yapıp hakkını sahiplenmedi"
+        },
+        "RD_ALifeLine_6f60d3eb1ca782f9": {
+            "tr": "Ekip arkadaşlarının öyle sanmasına göz yumduğu halde hiç askerlik yapmadı"
+        },
+        "RD_ALifeLine_3fa664a71e868e63": {
+            "tr": "Harlan'a bulantı ve ateş basmasını söylemedi"
+        },
+        "RD_ALifeLine_495dab5c75fb6118": {
+            "tr": "Harlan'sız ayrılmayı düşündü",
+            "onayli_uslup_istisnalari": {
+                "hitap": "Yanlış alarm: Harlan'sız, -sız eki."
+            }
+        },
+        "RD_ALifeLine_7e4c40675bd71b89": {
+            "tr": "kül rengi saçlı, bakımlı sakallı, eskimiş kot giyen sıska ama sert yapılı bir adam"
+        },
+        "RD_ALifeLine_160d625202f36a26": {
+            "tr": "1968 yardım komitesinde Howard Grant'ı kullandı"
+        },
+        "RD_ALifeLine_42f12437495eb327": {
+            "tr": "Ağrısı 1991'de merdivenden düşmekle başladı"
+        },
+        "RD_ALifeLine_405c443a7301c3f9": {
+            "tr": "İşçi yardımından aldığı otuz iki doları borçlu"
+        },
+        "RD_ALifeLine_72d18e802a9cfdf6": {
+            "tr": "Riverside'lı, yolcu hikayesinin arkasına saklanıyor"
+        },
+        "RD_ALifeLine_19ca0d1a10242e02": {
+            "tr": "Şüphesine rağmen aidiyet için pazar okulunda ders verdi"
+        },
+        "RD_ALifeLine_086ecd52558c88c0": {
+            "tr": "geniş omuzlu, kumral saçlı, solmuş kot ceketli bir marangoz"
+        },
+        "RD_ALifeLine_62b8ae97737b9a35": {
+            "tr": "Sigarayı bırakmaya çalışıp iki kez gizlice başarısız oldu"
+        },
+        "RD_ALifeLine_0a703395006f5e60": {
+            "tr": "Leon'un yüksüğünü Vera'ya söylemeden aldı"
+        },
+        "RD_ALifeLine_70a319b9642f935e": {
+            "tr": "Geçit töreni bandosunda çalması askerlik sanıldı"
+        },
+        "RD_ALifeLine_4efce0ba74842072": {
+            "tr": "Kırk dolar için kereste sigorta makbuzunu sahteledi"
+        },
+        "RD_ALifeLine_1a081f1a462996d8": {
+            "tr": "Leon'un ölümüne dair kendi içindeki inanç yüzünden komünyon almıyor"
+        },
+        "RD_ALifeLine_53cd747a7c46011d": {
+            "tr": "sıska ama sert yapılı, saçları arkadan toplanmış, vücuda oturan kot iş ceketli bir çatı işçisi kadın"
+        },
+        "RD_ALifeLine_4c14258853278c81": {
+            "tr": "Dale merdivenden düşmeden önce stajyerleri bırakıp gitti"
+        },
+        "RD_ALifeLine_2a2210e42fc260c7": {
+            "tr": "Kiralık odasını kaybetti, yatağa ihtiyacı olduğunu saklıyor"
+        },
+        "RD_ALifeLine_754d2c3277737d3e": {
+            "tr": "Güvenlik kartındaki son kullanma tarihini değiştirdi"
+        },
+        "RD_ALifeLine_14c99cb32020bc54": {
+            "tr": "Elise maaş şikayetini bildirdikten sonra Gwen işini kaybetti"
+        },
+        "RD_ALifeLine_7da39e007141c4d4": {
+            "tr": "Kamyonunu onarmak için anma yorganını sattı"
+        },
+        "RD_ALifeLine_497c7cef51f976e3": {
+            "tr": "özenle giyinmiş, kestane küt saçlı, yumuşak örgü hırkalı bir kütüphaneci"
+        },
+        "RD_ALifeLine_7c57b1bd2daffb90": {
+            "tr": "Colin'i hapishanede ziyaret edebilmek için Bayan Vale'i kullandı"
+        },
+        "RD_ALifeLine_02e18008040f714a": {
+            "tr": "Sürekli istediği ziyaretleri Colin reddediyor"
+        },
+        "RD_ALifeLine_576935e272c16a0e": {
+            "tr": "Ellis'in vasiyeti kabul ettiğine dair onayı sahteledi"
+        },
+        "RD_ALifeLine_3c79cfc64c8b6809": {
+            "tr": "Bağışlanan otuz kitabı sahte kayıtla düşüp sattı"
+        },
+        "RD_ALifeLine_2935fe304257422e": {
+            "tr": "Colin'in itirafını yaktı, bir komşusunu şüphe altında bıraktı"
+        },
+        "RD_ALifeLine_5b5d2684659b285f": {
+            "tr": "uzun kestane saçlı, koyu kot ceketli, ağırbaşlı bir piyanist"
+        },
+        "RD_ALifeLine_1e01dc9c4fe439b6": {
+            "tr": "Yoldan seslenen yabancıyı kiler merdiveninin yanında bıraktı"
+        },
+        "RD_ALifeLine_0bca34da74b98e9d": {
+            "tr": "Otis'in piyano düzenlemelerini isimsiz yazdı"
+        },
+        "RD_ALifeLine_1ad8a66c23e834f7": {
+            "tr": "Övündüğüne rağmen 1981'deki solo setten kaçtı"
+        },
+        "RD_ALifeLine_36b566d9657e98fa": {
+            "tr": "Kalorifer yardım gecesindeki parayı işaretli kartlarla aldı"
+        },
+        "RD_ALifeLine_1ee7e7d57c93edff": {
+            "tr": "Arlen çarpıp kaçtığını itiraf ettikten sonra arabasını yıkadı"
+        },
+        "RD_ALifeLine_35f6a2c844ec2f39": {
+            "tr": "özenli koyu örgülü, hırkası düzgünce ilikli, çekingen bir okul aşçısı kadın"
+        },
+        "RD_ALifeLine_709cb4f25dfd129d": {
+            "tr": "Konserve kavanozundan sol baldırındaki kesiği örttü"
+        },
+        "RD_ALifeLine_120c989c424c9cfe": {
+            "tr": "Gizli Nashville bahsinden Lottie'ye altmış dolar borçlu"
+        },
+        "RD_ALifeLine_27cd072d70ede208": {
+            "tr": "Ada'nın beklemesi bitsin diye dua etti, suçluluk duyuyor"
+        },
+        "RD_ALifeLine_06d7bfb45c3dfa83": {
+            "tr": "Ada'nın isteğine rağmen Lottie'nin külleri gömmesine izin verdi"
+        },
+        "RD_ALifeLine_365118fc555fe9be": {
+            "tr": "Kulübe yangınını çıkarıp kaza dedi"
+        },
+        "RD_ALifeLine_150746855e499484": {
+            "tr": "kestane topuzlu, hırkası özenle ilikli, ağırbaşlı bir kadın"
+        },
+        "RD_ALifeLine_196de1397f888c25": {
+            "tr": "Yıkamayacağına söz verdikten sonra Renee'nin bluzunu yıkadı, manşetleri çekti"
+        },
+        "RD_ALifeLine_5ab659f06490a387": {
+            "tr": "Satın aldığı şeftalileri kendi mahsulü ve konservesi diye geçirdi"
+        },
+        "RD_ALifeLine_02ae6eda4492bd9b": {
+            "tr": "Araba için Clarice'e hala iki yüz yirmi borçlu"
+        },
+        "RD_ALifeLine_089b46f92e4b3937": {
+            "tr": "İki saat çalışıp Bayan Wentz'den dört saatlik ücret aldı"
+        },
+        "RD_ALifeLine_1597e6fa165d1287": {
+            "tr": "1984'ten beri Elmer'dan ayrı yaşıyor, tekrar birleşmek istemiyor"
+        },
+        "RD_ALifeLine_39e02cfe222967f4": {
+            "tr": "yumuşakça toplanmış gümüş saçlı, örgü atkılı yaşlı bir kadın"
+        },
+        "RD_ALifeLine_25a67c6e4bdb5293": {
+            "tr": "1987'de konan artrit teşhisini oğlu Merle'den gizliyor"
+        },
+        "RD_ALifeLine_44d323ff5e47d139": {
+            "tr": "İnkar etse de iki kocası için gizlice ağladı"
+        },
+        "RD_ALifeLine_48007384016fe165": {
+            "tr": "1972'de Oren'e söylemeden Lexington'a gitti"
+        },
+        "RD_ALifeLine_2789183b70f278f0": {
+            "tr": "Lester'ın 1981'de hapiste geçirdiği geceyi çiftlik işi diye örttü"
+        },
+        "RD_ALifeLine_37e8bc4a1c2c39d3": {
+            "tr": "1962'de evliyken üç ay boyunca gizlice Basil'i gördü"
+        },
+        "RD_ALifeLine_041ba524535062f3": {
+            "tr": "kısa kesilmiş koyu saçlı, bakımlı sakallı, eskimiş kot giyen ince bir adam"
+        },
+        "RD_ALifeLine_1576a2b4692ac644": {
+            "tr": "Satmak için Ada'nın İncil'ini çaldı, elinde tuttu ve görmediğini söyledi"
+        },
+        "RD_ALifeLine_5e4e8dae6f0d05ba": {
+            "tr": "Dokuzuncu sınıfta bıraktığı halde lise bitirdiğini söyledi"
+        },
+        "RD_ALifeLine_756d02bf457669e5": {
+            "tr": "1986'daki çatı düşüşünü ve kırık sol bacağını işverenlerinden gizliyor"
+        },
+        "RD_ALifeLine_159cd7cc5f381423": {
+            "tr": "1990'da Roy Kellum'un adıyla sahte bir referans yazdı"
+        },
+        "RD_ALifeLine_2a42f9234bd3cc35": {
+            "tr": "Bebek Corey için yazdığı özel gitar ezgisini hala hatırlıyor"
+        },
+        "RD_ALifeLine_6eed23634dd4c3e1": {
+            "tr": "kısa kestane saçlı, kravatı gevşemiş, düzgün görünümlü genç bir adam"
+        },
+        "RD_ALifeLine_7ecbecd24a21683a": {
+            "tr": "Beklemeye söz verdiği halde Orval'ı Radcliff'teki dükkanda bıraktı"
+        },
+        "RD_ALifeLine_6fd2dba60ff99de6": {
+            "tr": "1986'da uydurma sigorta yolculukları için seksen dolar topladı"
+        },
+        "RD_ALifeLine_03415e616ec0f054": {
+            "tr": "Celia'ya bırakacağına söz verdikten sonra düğünden önce bir satış bölgesi kabul etti"
+        },
+        "RD_ALifeLine_4a2da7f062dd6d54": {
+            "tr": "Boşanma sırasında Celia'dan gizlediği kravatı ve birikimi hala taşıyor"
+        },
+        "RD_ALifeLine_67f607e42b09dcb0": {
+            "tr": "Elsie kasa parasını yerine koyduğunu bildiği halde onu ihbar etti"
+        },
+        "RD_ALifeLine_0580153c78dd2ceb": {
+            "tr": "kısa kesilmiş koyu saçlı, iş gömleği özenle ilikli, derli toplu bir adam"
+        },
+        "RD_ALifeLine_5d5f3b2e7fe2f861": {
+            "tr": "Tek kötü yıl dediği şeyin ardında üç başarısız dükkan denemesi var"
+        },
+        "RD_ALifeLine_57967431407a1370": {
+            "tr": "Ulusal Muhafız'daki kardeş uydurma, Dewayne'in yalnızca kız kardeşi Janice var"
+        },
+        "RD_ALifeLine_6d63d1c569459c33": {
+            "tr": "May'in bilerek kırdığı camın parasını ödedi, suçu bir dala yıktı"
+        },
+        "RD_ALifeLine_20bab7ac4e3b17d7": {
+            "tr": "Ruth'un yedek anahtarıyla parasını çaldı, Ruth'un izinsiz giren birini suçlamasına izin verdi"
+        },
+        "RD_ALifeLine_2e2e588d1e3c1acc": {
+            "tr": "Dr. Nessel'in 1990'daki panik atak teşhisini Janice'ten gizliyor"
+        }
+    }
+}

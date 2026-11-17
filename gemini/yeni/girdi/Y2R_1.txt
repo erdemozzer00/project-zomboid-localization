@@ -1,0 +1,332 @@
+# PAKET Y2R · parça 1/2 · satır 1-300 (300 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# RADYO OLAYLARI: Oyuncunun telsizinden (Field Band) gelen yardım çağrıları ve olaylar. Her '##### OLAY ... #####' başlığı tek bir olaydır; KİŞİLER satırı konuşanları (ad, rol, huy) verir, satırlar olayın akış sırasıyla gelir. Etiketler: '<Ad> telsizde' = o kişi telsizden konuşuyor (oyuncuyu görmüyor, sesi kısık/cızırtılı olabilir), '<Ad>' = olay yerinde ya da cevap olarak söylüyor, 'OYUNCU SEÇENEĞİ' = oyuncunun seçip söylediği cevap düğmesi (birinci tekil, kısa), 'SONUÇ' = olay bitince oyuncuya gösterilen anlatım ('sen' = oyuncu, geçmiş zaman), 'GÖREV' = görev kartındaki başlık/özet/adım, 'SÖYLENTİ' = olaydan sonra başka NPC'lerin anlattığı cümle; oyunda 'Evet, {what}' / 'Telsizde duydum, {what}' gibi bir cümlenin içine konur, küçük harfle başlar, noktasız biter. Kişi adlarını aynen yaz. {dist} adım sayısı, {dir} yön (kuzeyinde, doğusunda…) olarak dolar: '{dist} adım {dir}' gibi kur.
+# TELSİZ SOHBETİ: Radyoda rastgele duyulan kısa telsiz konuşmaları (devriyeler, nöbetçiler, uzak gruplar). Her başlık bir konuşma; etiket konuşanın telsiz çağrı adı. Çağrı adı satırları (ÇAĞRI ADI) kısa ve telsiz diline uygun çevrilir.
+# Girdi biçimi: N | etiket | İngilizce
+
+##### OLAY barn_roof · Barn roof #####
+# KİŞİLER: Piper Lund (kadın, Farm hand on the roof; whispers everything, even when shouting would be safer); Wes Lund (erkek, Her little brother; keeps asking if the quiet is over yet)
+# YER: farm
+1 | GÖREV | Barn roof
+2 | GÖREV | Piper and Wes Lund are stuck on a barn roof with the dead all around it, about {dist} steps {dir} of you
+3 | GÖREV | Get to the barn
+4 | GÖREV | Get the Lunds off the roof
+5 | Piper telsizde | Anyone, anyone, please, I found Dad's radio in the loft and I'm whispering because they can hear me
+6 | Piper telsizde | My brother and I are on the barn roof, about {dist} steps {dir} of you, there must be a dozen of them down in the yard
+7 | Piper telsizde | We can't climb down and the ladder is under them, please say you heard this
+8 | Piper telsizde | Can you hear me? Please say something quietly
+9 | OYUNCU SEÇENEĞİ | Hold on, I'm coming for you
+10 | Piper telsizde | Okay, okay, we'll be quiet, Wes is holding my sleeve, please hurry
+11 | OYUNCU SEÇENEĞİ | Stay low and don't make a sound
+12 | Piper telsizde | Staying flat, the shingles are cold, nobody is moving
+13 | OYUNCU SEÇENEĞİ | I can't make it, sorry
+14 | Piper telsizde | Oh, okay, that's okay, we'll think of something
+15 | Wes | Is it over? Is the quiet over?
+16 | Piper | Don't shout, there are so many, the ladder is right under them
+17 | Piper | What do we do? Tell us what to do
+18 | OYUNCU SEÇENEĞİ | I'll draw them off, come down when you hear the noise
+19 | Piper | Okay, Wes, on my count, one more breath, go
+20 | OYUNCU SEÇENEĞİ | Come down the back, I'll cover the corner
+21 | Piper | The back is the hay door, we can swing from there, Wes, hold the rope
+22 | OYUNCU SEÇENEĞİ | Stay put, I'm clearing the yard
+23 | Piper | Please not loud, please not loud
+24 | OYUNCU SEÇENEĞİ | Too many, I'm leaving
+25 | Wes | Wait, no, please
+26 | SONUÇ | You pulled the dead off the yard and the Lunds got down
+27 | Piper | Dad said watch the east road, somebody was glassing the farms from the ridge, take care of yourself
+28 | SONUÇ | The Lunds slipped down the hay door behind you
+29 | Wes | We did it, we did it quietly, can I tell people
+30 | SONUÇ | You shot the yard clear and the whole valley heard
+31 | Piper | Thank you, thank you, but they heard that for miles
+32 | SONUÇ | You left the Lunds on the roof
+33 | SONUÇ | The Lunds waited on the roof and you said nothing
+34 | SONUÇ | You told Piper you could not come
+35 | SONUÇ | Piper's whisper went unanswered
+36 | SONUÇ | The barn roof was empty when you got there
+37 | SÖYLENTİ | a farm girl and her little brother got off a barn roof because somebody drew a whole yard of dead away
+38 | SÖYLENTİ | two kids came down a hay door quiet as mice on the say so of a voice on the band
+39 | SÖYLENTİ | a shooter cleared a barn yard and every dead thing for a mile turned that way after
+40 | SÖYLENTİ | two kids sat on a barn roof all night while the one who heard them walked off
+41 | Piper telsizde | Is that you from Orrin's band, he said a voice walks to people, he was right
+42 | Piper telsizde | It's Piper again, the roof was bad, this is worse, but I whispered anyway
+43 | Piper telsizde | Still up here, Wes asked me to say please again
+
+##### OLAY dead_air · Dead air #####
+# KİŞİLER: Orrin Fitch (erkek, Ham operator; signs off every sentence with his call sign and reads old log entries aloud for company)
+# YER: house
+44 | GÖREV | Dead air
+45 | GÖREV | A ham operator named Orrin Fitch wants batteries. His house is about {dist} steps {dir} of you
+46 | GÖREV | Get to Orrin's house
+47 | GÖREV | Talk to Orrin
+48 | Orrin telsizde | CQ, CQ, CQ, this is Kilo Echo Seven, Orrin Fitch, is anybody home
+49 | Orrin telsizde | Fourteen days since I heard a live voice, I counted them on the wall, Kilo Echo Seven
+50 | Orrin telsizde | The big set is on its last battery and I'm about {dist} steps {dir} of you, if you've got spares I'll make it worth your walk
+51 | Orrin telsizde | I hear things on this band nobody else is listening to, Kilo Echo Seven
+52 | Orrin telsizde | Say something, anything, I'll even take the weather
+53 | OYUNCU SEÇENEĞİ | I'll bring batteries
+54 | Orrin telsizde | Bless the batteries, Kilo Echo Seven, the door's the green one, knock three times
+55 | OYUNCU SEÇENEĞİ | What kind of thing do you hear?
+56 | Orrin telsizde | Convoys, calls, a man who reads numbers all night, I'll tell you more in person, Kilo Echo Seven
+57 | OYUNCU SEÇENEĞİ | Tell me now, I'm not walking all that way for static
+58 | Orrin telsizde | Batteries first, I'm lonely, not stupid, Kilo Echo Seven
+59 | OYUNCU SEÇENEĞİ | I can't spare any, sorry
+60 | Orrin telsizde | That's fine, that's fine, I'll be here, I'm always here, Kilo Echo Seven
+61 | Orrin | Is that a footstep? That's a footstep, I know a footstep when I hear one
+62 | Orrin | Come in, come in, mind the cables, they're expensive and I'm fond of them
+63 | Orrin | Did you bring anything for the big set?
+64 | OYUNCU SEÇENEĞİ | Here, a battery for the big set
+65 | Orrin | That's a good thought but it's not in your hand, Kilo Echo Seven
+66 | Orrin | Hear that hum? That's the sound of a man being alive, Kilo Echo Seven
+67 | OYUNCU SEÇENEĞİ | I just came to talk
+68 | Orrin | Then sit, sit, I'll read you the log, day one, a dog barked, day two, the dog stopped
+69 | OYUNCU SEÇENEĞİ | Give me the radio, you won't need it
+70 | Orrin | That's the only thing I've got that talks back, no, no, no
+71 | OYUNCU SEÇENEĞİ | Wrong house, I'm leaving
+72 | Orrin | Of course, of course, Kilo Echo Seven, out
+73 | SONUÇ | You brought Orrin Fitch a battery and he gave you a tip
+74 | Orrin | Whatever comes over this band next, I'll point it your way first, Kilo Echo Seven
+75 | SONUÇ | You sat with Orrin and listened to the log
+76 | Orrin | That's the longest anyone has stayed, thank you, thank you
+77 | SONUÇ | You tried to take Orrin's radio
+78 | Orrin | I'll remember the voice, I never forget a voice, Kilo Echo Seven
+79 | SONUÇ | You pushed Orrin for his secrets
+80 | SONUÇ | You left Orrin's house without a word
+81 | SONUÇ | You told Orrin you had no batteries
+82 | SONUÇ | Orrin's call went unanswered
+83 | SONUÇ | Orrin's house was dark when you got there
+84 | Orrin telsizde | Nell Brannock, bless her, she told everyone on this band about the voice that walks to people
+85 | Orrin telsizde | Harlan Voss is not a name to trust on any band, Kilo Echo Seven, I have it in the log
+86 | Orrin telsizde | Kilo Echo Seven again, Orrin, it's been a while, and I counted
+87 | Orrin telsizde | Day one of waiting, still no footsteps, Kilo Echo Seven
+
+##### OLAY gas_trader · Mobile trader #####
+# KİŞİLER: Harlan Voss (erkek, Mobile trader; never says a price twice and never says it first); Doyle (erkek, Trunk minder; chews a toothpick and only talks when Harlan taps the hood)
+# YER: gas, road
+88 | GÖREV | Mobile trader
+89 | GÖREV | Harlan Voss is selling out of a car trunk {dist} steps {dir} of you
+90 | GÖREV | Get to Harlan's pitch
+91 | GÖREV | Talk to Harlan
+92 | Harlan telsizde | Break break, this is Harlan Voss, mobile trading, anyone with ears
+93 | Harlan telsizde | I'm parked about {dist} steps {dir} of you, trunk full of things you need
+94 | Harlan telsizde | Bullets, batteries, bandages, no questions, I like doing business in daylight
+95 | Harlan telsizde | Bring a friend if you want, I like witnesses, they keep me honest
+96 | Harlan telsizde | Come alone and come straight up the road where I can see you, I'm packing up soon
+97 | Harlan telsizde | So, are we doing business or am I talking to static?
+98 | OYUNCU SEÇENEĞİ | I'll come by
+99 | Harlan telsizde | Smart, mind the pumps, the left one leaks
+100 | OYUNCU SEÇENEĞİ | more
+101 | OYUNCU SEÇENEĞİ | What are you selling, exactly?
+102 | Harlan telsizde | Nine mil, shells, a few batteries, a first aid kit I'm not proud of
+103 | OYUNCU SEÇENEĞİ | Whatever you have, you're sharing it
+104 | Harlan telsizde | Wrong channel, friend, I've got a minder and a shotgun, think it over
+105 | Harlan telsizde | Suit yourself, the road's long and I'm still here
+106 | Harlan | Right on time, I like you already, don't make me regret it
+107 | Harlan | Closer, closer, that's it, nice and slow, no sudden anything
+108 | Doyle | Bag on the ground, friend
+109 | Harlan | Well? What's it going to be
+110 | Harlan | Two bandages and a box of nine mil, call it fair and don't tell anyone how fair
+111 | OYUNCU SEÇENEĞİ | That's robbery, cut it in half
+112 | Harlan | Half? Doyle, did you hear that? Half
+113 | OYUNCU SEÇENEĞİ | Maybe next time
+114 | Harlan | There's always a next time, that's the whole job
+115 | OYUNCU SEÇENEĞİ | Alright, the bag's on the ground
+116 | Harlan | Good, good, now the other one too
+117 | OYUNCU SEÇENEĞİ | Back off, my friends are in the trees
+118 | Harlan | Friends, huh? Doyle, count the trees
+119 | OYUNCU SEÇENEĞİ | Something's off, I'm leaving
+120 | Doyle | No, you're not
+121 | SONUÇ | You did a fair deal with Harlan Voss
+122 | Harlan | Pleasure, tell your friends the road still has a store
+123 | SONUÇ | You insulted Harlan Voss over the price
+124 | Harlan | Cheap and loud, that's two things I can't sell
+125 | SONUÇ | You left Harlan's pitch with nothing
+126 | SONUÇ | Harlan Voss lightened your bag
+127 | Harlan | No hard feelings, it's just business with a different font
+128 | SONUÇ | Harlan's deal was rigged and it went loud
+129 | SONUÇ | You threatened a trader on an open channel
+130 | SONUÇ | You turned the trader down
+131 | SONUÇ | The trader got nothing but static
+132 | SONUÇ | Harlan Voss packed up before you got there
+133 | Harlan telsizde | Harlan Voss again, remember the pumps? Left one still leaks
+134 | Harlan telsizde | Light's going soon, I won't wait around
+##### OLAY locked_in · Locked in #####
+# KİŞİLER: Nell Brannock (kadın, School bus driver; counts her breaths out loud when she is scared); Cass Brannock (erkek, Her brother, line cook; answers every question with another question)
+# YER: house
+135 | GÖREV | Locked in
+136 | GÖREV | Nell Brannock called for help on the radio. Her house is about {dist} steps {dir} of you
+137 | GÖREV | Get to the Brannock house
+138 | GÖREV | Talk to Nell
+139 | GÖREV | Get the family out
+140 | Nell telsizde | Hello? Hello? Anybody on this channel?
+141 | Nell telsizde | It's Nell Brannock, I'm in a house about {dist} steps {dir} of you by the sound of your signal
+142 | Cass telsizde | Tell them about the door, Nell
+143 | Nell telsizde | Front door's jammed, the wardrobe is against the back one, and there's thirty of them in the yard pushing at the fence
+144 | Nell telsizde | Three kids upstairs and about two days of water, that's all we've got
+145 | Nell telsizde | Please, tell me somebody's there
+146 | OYUNCU SEÇENEĞİ | Stay quiet, I'm coming
+147 | Nell telsizde | Oh thank God, oh thank God, one, two, three, okay, okay
+148 | Cass telsizde | We'll bang on the window twice when we see you
+149 | OYUNCU SEÇENEĞİ | How many are outside?
+150 | Nell telsizde | I stopped counting at thirty, they just stand there leaning on the fence
+151 | Cass telsizde | Why would anyone count them, Nell? What good does counting do?
+152 | OYUNCU SEÇENEĞİ | How do I know this isn't a trap?
+153 | Cass telsizde | A trap for what? We've got a wardrobe and a can of peaches
+154 | Nell telsizde | Cass, stop it, they're right to ask
+155 | OYUNCU SEÇENEĞİ | Not my problem, find someone else
+156 | Nell telsizde | Sure, sure, I understand, you look after yourself out there
+157 | Nell | Is that the radio voice? You actually came
+158 | Cass | Hands where I can see them, who sent you? Anyone? Anyone at all?
+159 | Nell | Please, the gate's the only way, they'll hear us if we run
+160 | OYUNCU SEÇENEĞİ | Get everyone to the back, I'll draw them off the gate
+161 | Nell | Okay, okay, back door, kids first, four, five, six
+162 | OYUNCU SEÇENEĞİ | What do I get for this?
+163 | Cass | What do you get? What do you want, the wardrobe?
+164 | OYUNCU SEÇENEĞİ | Show me the door first
+165 | Nell | Round the side, mind the glass
+166 | OYUNCU SEÇENEĞİ | Changed my mind, I'm sorry
+167 | Nell | You came this far, that's more than anyone
+168 | SONUÇ | You got the Brannocks out through the back
+169 | Nell | Take the beans, take the crowbar, take whatever you like
+170 | SONUÇ | You haggled with a family behind a wardrobe
+171 | Nell | Go on then, we'll manage
+172 | SONUÇ | You walked away from the Brannock house
+173 | SONUÇ | You told Nell no on the radio
+174 | SONUÇ | The call went unanswered
+175 | SONUÇ | You never made it to the Brannock house
+176 | Nell telsizde | It's Nell Brannock again, you probably don't remember the voice
+177 | Nell telsizde | It's been hours, are you still coming? Please say you're still coming
+
+##### OLAY lost_convoy · Convoy in the ditch #####
+# KİŞİLER: Dale Whitcomb (erkek, Guard sergeant, wounded; salutes whoever is nearest, then apologises for it)
+# YER: road
+178 | GÖREV | Convoy in the ditch
+179 | GÖREV | Sergeant Whitcomb is down with a bad leg beside a wrecked convoy {dist} steps {dir} of you
+180 | GÖREV | Find the wrecked convoy
+181 | GÖREV | Talk to Whitcomb
+182 | Dale telsizde | Any station, any station, Sergeant Dale Whitcomb, Kentucky Guard, 149th
+183 | Dale telsizde | I've got a hole in my leg and two trucks in a ditch about {dist} steps {dir} of you
+184 | Dale telsizde | One of them is still sealed, I'm not allowed to say what's in it, I'm also not allowed to bleed out, doing badly at both
+185 | Dale telsizde | Can you copy? Say again, can you copy?
+186 | OYUNCU SEÇENEĞİ | Hold on, I'm coming with bandages
+187 | Dale telsizde | Copy that, civilian, I'll hold the ditch
+188 | OYUNCU SEÇENEĞİ | What's in the sealed truck?
+189 | Dale telsizde | Orders say sealed, my leg says medicine, my gut says crates of something heavy
+190 | OYUNCU SEÇENEĞİ | You a deserter?
+191 | Dale telsizde | I'm a man in a ditch, you pick the word
+192 | OYUNCU SEÇENEĞİ | Sounds like a problem for the army
+193 | Dale telsizde | The army left an hour after the ditch did, copy, out
+194 | Dale | Easy, easy, I've got a rifle but I can't stand up to use it
+195 | Dale | Sorry, sir, ma'am, whoever you are, it's the leg talking
+196 | Dale | Can you do anything about this leg?
+197 | OYUNCU SEÇENEĞİ | Let me look at that leg
+198 | Dale | Tight as you can, I've had worse, I think
+199 | OYUNCU SEÇENEĞİ | Forget the leg, open the truck
+200 | Dale | That's not what the sealed means, but you've got the hands
+201 | OYUNCU SEÇENEĞİ | Give me the manifest and I'll tell people where you are
+202 | Dale | In the cab, notebook, I'd be grateful, I'd also be gone
+203 | Dale | No, I understand, I wouldn't either
+204 | SONUÇ | You patched Sergeant Whitcomb's leg
+205 | Dale | Take the notebook, it has the route, and the name of the man who left us
+206 | SONUÇ | You took the convoy manifest and left Whitcomb where he lay
+207 | Dale | Tell someone with a radio the road still has a sergeant on it
+208 | SONUÇ | You went through the sealed truck while Whitcomb watched
+209 | Dale | Someone will count what's missing, I'd like it not to be me
+210 | SONUÇ | You left Sergeant Whitcomb in the ditch
+211 | SONUÇ | You told the sergeant it was an army problem
+212 | SONUÇ | The sergeant's call went unanswered
+213 | SONUÇ | The convoy was empty when you finally got there
+214 | Dale telsizde | Whitcomb again, the leg and I are on speaking terms now
+215 | Dale telsizde | Still here, still bleeding politely
+
+##### OLAY night_clinic · Night clinic #####
+# KİŞİLER: Ingrid Solheim (kadın, Emergency doctor; names every injury in Latin first, then apologises and says it in English)
+# YER: medical, house
+216 | GÖREV | Night clinic
+217 | GÖREV | Doctor Ingrid Solheim needs antibiotics for her patients. Her clinic is about {dist} steps {dir} of you
+218 | GÖREV | Get to the clinic
+219 | GÖREV | Talk to Doctor Solheim
+220 | Ingrid telsizde | This is Doctor Ingrid Solheim, I have six patients and a fridge that has stopped being a fridge
+221 | Ingrid telsizde | Sepsis, fractura, febris, that's infection, a break and a fever, forgive me, I'm tired
+222 | Ingrid telsizde | I'm out of antibiotics, I'm about {dist} steps {dir} of you, if you have a bottle, I can pay you in kind
+223 | Ingrid telsizde | Is there a human on this frequency?
+224 | OYUNCU SEÇENEĞİ | I'll bring what I can find
+225 | Ingrid telsizde | Thank you, thank you, ring the bell by the side door, the front is a bad idea
+226 | Ingrid telsizde | Antibiotics first, then anything for pain, then a good night's sleep that nobody can sell me
+227 | OYUNCU SEÇENEĞİ | What's it worth to you?
+228 | Ingrid telsizde | A kit, a proper kit, and my gratitude, in that order
+229 | OYUNCU SEÇENEĞİ | I have nothing to spare
+230 | Ingrid telsizde | Then I'll find another way, I always do, even when I shouldn't
+231 | Ingrid | You made it, you actually made it, sit, no, stand, I don't know, hello
+232 | Ingrid | Tell me you've got antibiotics, I'll weep, professionally
+233 | Ingrid | What did you bring me?
+234 | OYUNCU SEÇENEĞİ | Here, antibiotics
+235 | Ingrid | You don't actually have any, do you? It's okay, I'm used to hope
+236 | Ingrid | Ex malo bonum, out of bad comes good, take the kit, you've earned it
+237 | OYUNCU SEÇENEĞİ | Painkillers, will that do?
+238 | Ingrid | You mean the idea of painkillers, I assume, because your pockets say otherwise
+239 | Ingrid | It'll do for tonight, and tonight is all I'm planning
+240 | OYUNCU SEÇENEĞİ | I can't bring anything, but I can hold a lamp
+241 | Ingrid | Hold it steady, don't look, look if you must
+242 | OYUNCU SEÇENEĞİ | Hand over the supplies, I'll tell you if you need them
+243 | Ingrid | Over my dead body, which is on the list for tonight
+244 | SONUÇ | You brought Doctor Solheim her antibiotics
+245 | Ingrid | Go carefully, and when you bleed, come here first
+246 | SONUÇ | You gave Doctor Solheim your painkillers
+247 | Ingrid | Dolor is a bad word in any language, thank you
+248 | SONUÇ | You held the lamp while Doctor Solheim worked
+249 | Ingrid | Steady hands, you should do this for a living
+250 | SONUÇ | You tried to take medicine from a doctor
+251 | SONUÇ | You left the clinic empty handed
+252 | SONUÇ | You told Doctor Solheim you had no medicine
+253 | SONUÇ | Doctor Solheim's call went unanswered
+254 | SONUÇ | The clinic was quiet when you got there
+255 | Ingrid telsizde | A man with a green door told me a stranger brings batteries, is that you?
+256 | Ingrid telsizde | Doctor Solheim again, the fridge is still not a fridge
+257 | Ingrid telsizde | Febris is climbing, I won't wait much longer
+##### OLAY night_courier · Night courier #####
+# KİŞİLER: Ines Moreau (kadın, Courier waiting for a light; never says what is in the parcel and never lets go of it)
+# YER: warehouse
+258 | GÖREV | Night courier
+259 | GÖREV | A courier named Ines Moreau is waiting in the dark of a warehouse about {dist} steps {dir} of you
+260 | GÖREV | Get to the warehouse
+261 | GÖREV | Talk to Ines
+262 | Ines telsizde | Ines Moreau, line crew courier, I'm in a warehouse about {dist} steps {dir} of you and my torch just died
+263 | Ines telsizde | I have a parcel that has to reach the next town by dawn and the stairs to the loading dock are pitch black
+264 | Ines telsizde | A light and a battery would do it, I'd pay in whatever I'm allowed to pay in
+265 | Ines telsizde | Is this channel open? Say yes if it's open
+266 | OYUNCU SEÇENEĞİ | Sit tight, I'll bring a light
+267 | Ines telsizde | I'm in the office with the door shut, knock twice and say the weather
+268 | OYUNCU SEÇENEĞİ | What's in the parcel?
+269 | Ines telsizde | Paper, mostly, don't ask the other thing, I'm not allowed
+270 | OYUNCU SEÇENEĞİ | I can't, sorry
+271 | Ines telsizde | Understood, I'll feel my way along the wall
+272 | Ines | Two knocks and a weather report, that's the code, you're good at this
+273 | Ines | Dark in here, dark on the stairs, dark everywhere, I hate it
+274 | Ines | Did you bring a light?
+275 | OYUNCU SEÇENEĞİ | Here, a torch and a battery
+276 | Ines | I need both a torch and a battery, you're missing one
+277 | Ines | Light, glorious light, look at the stairs, I can count them
+278 | OYUNCU SEÇENEĞİ | I only have a battery for yours
+279 | Ines | That's kind, but your pockets say otherwise
+280 | Ines | That'll bring mine back to life, thank you, thank you
+281 | OYUNCU SEÇENEĞİ | Let me see what's in that parcel
+282 | Ines | No, that's the one thing nobody gets to do
+283 | OYUNCU SEÇENEĞİ | Wrong warehouse, I'm leaving
+284 | Ines | Understood, go quietly
+285 | SONUÇ | You gave Ines Moreau a torch and she reached the loading dock
+286 | Ines | Take this map of the line routes and the pen, the pen is just a pen, the map is not
+287 | SONUÇ | You gave Ines Moreau a fresh battery
+288 | Ines | It's not much but it's enough, tell no one I got through
+289 | SONUÇ | You pushed Ines Moreau to show you the parcel
+290 | Ines | I'll remember who asked
+291 | SONUÇ | You left Ines Moreau in the dark
+292 | SONUÇ | You told Ines you could not bring a light
+293 | SONUÇ | Ines's call went unanswered
+294 | SONUÇ | The warehouse office was empty when you got there
+295 | SÖYLENTİ | a courier crossed a pitch black warehouse and made it out because somebody brought a torch
+296 | SÖYLENTİ | a courier on the line crew circuit is back on the road with a borrowed battery
+297 | SÖYLENTİ | a stranger leaned on a courier to open her parcel and she never forgot it
+298 | Ines telsizde | Harlan Voss runs bad fuel on that road, I'd go round, the long way
+299 | Ines telsizde | Ines Moreau again, still carrying, still in the dark
+300 | Ines telsizde | Dawn's getting closer and my light isn't

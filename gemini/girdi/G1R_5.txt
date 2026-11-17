@@ -1,0 +1,434 @@
+# PAKET G1R · parça 5/35 · satır 1447-1807 (361 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar oyunda şu an skill'den önceki eski bir çeviriyle görünüyor; sıfırdan, İngilizceden kur. Her başlığın altındaki 'NEREDE:' oyuncunun bu sözle nasıl karşılaştığını, '#' notu sahneyi anlatır. Önce bunları oku, satırı o anda o yerde duyulacak sözle yaz.
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+##### ENC_SILENCE_LAST #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu hala susuyor; son uyarı.
+1447 | reg=civilian,family,worker,rescue | I'm counting in my head and I'm almost out. Talk
+1448 | reg=civilian,family,worker,rescue | Talk to me, right now, I can't keep waiting on you
+1449 | reg=civilian,family,worker,rescue | Answer me or I'll, I don't know, just answer
+1450 | reg=civilian,family,worker,rescue | Say something, my hands aren't steady, and that's bad for you
+1451 | reg=civilian,family,worker,rescue | One more time, then we're done being polite
+1452 | reg=civilian,family,worker,rescue | Don't make me do this! Answer me!
+1453 | reg=civilian,family,worker,rescue | Please, say something, you're scaring us
+
+##### ENC_SURPRISE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yolda karşılaşma: NPC grubu oyuncuyla karşı karşıya; sorgulama, pazarlık, tehdit ya da ayrılış. Çoğunlukla doğrudan oyuncuya, 'sen'.
+1454 | reg=civilian,family,worker,rescue | Hey! You there! Hold it, I mean it!
+1455 | reg=civilian,family,worker,rescue | Oh God, who's that? Stay put, stay put!
+1456 | reg=civilian,family,worker,rescue | Don't, don't move, please. Let me think a second
+1457 | reg=civilian,family,worker,rescue | Damn, you scared the life out of me! Freeze!
+1458 | reg=civilian,family,worker,rescue | Easy! Easy now, I see you, so just stand there
+1459 | reg=civilian,family,worker,rescue | Is that a person? Hold up, stay where you are!
+1460 | reg=civilian,family,worker,rescue | Whoa- stop right there! Not one step closer!
+1461 | reg=civilian,family,worker,rescue | Oh Lord, there's somebody here, don't move!
+
+##### ENC_TURN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yolda karşılaşma: NPC grubu oyuncuyla karşı karşıya; sorgulama, pazarlık, tehdit ya da ayrılış. Çoğunlukla doğrudan oyuncuya, 'sen'.
+1462 | reg=civilian,family,worker,rescue | I'm sorry. God, I'm sorry, stay back!
+1463 | reg=civilian,family,worker,rescue | No more talking! Back away or we shoot!
+1464 | reg=civilian,family,worker,rescue | We tried! You heard us try! Now back off!
+1465 | reg=civilian,family,worker,rescue | Don't make me! Please don't make me do this!
+1466 | reg=civilian,family,worker,rescue | Far enough! Not another step!
+1467 | reg=civilian,family,worker,rescue | Get behind me! All of you, get behind me!
+1468 | reg=civilian,family,worker,rescue | That's it! Get back! Get back!
+
+##### ENC_WALK_AWAY #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yolda karşılaşma: NPC grubu oyuncuyla karşı karşıya; sorgulama, pazarlık, tehdit ya da ayrılış. Çoğunlukla doğrudan oyuncuya, 'sen'.
+1469 | reg=civilian,family,worker,rescue | Hey! I wasn't finished! Come back here
+1470 | reg=civilian,family,worker,rescue | Stop, don't turn your back on us!
+1471 | reg=civilian,family,worker,rescue | Hold on, hold on, I've still got a question for you
+1472 | reg=civilian,family,worker,rescue | Don't walk away from me like that, I've got a right to know
+1473 | reg=civilian,family,worker,rescue | Wait! Please, one more thing and you can go
+1474 | reg=civilian,family,worker,rescue | No, no, no, turn back around! Slowly!
+1475 | reg=civilian,family,worker,rescue | Wait, where are you going? Don't just walk off!
+
+##### ENC_WARNING_SHOT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Uyarı ateşi açtı; oyuncuya.
+1476 | reg=civilian,family,worker,rescue | That was me being serious, come on out, now
+1477 | reg=civilian,family,worker,rescue | Did you hear that? I'm not bluffing, please come out
+1478 | reg=civilian,family,worker,rescue | I shot high on purpose, don't make me shoot lower
+1479 | reg=civilian,family,worker,rescue | Steady, everybody! It was only a warning, come out!
+1480 | reg=civilian,family,worker,rescue | That was a warning! Please, just come out!
+
+##### ENTER_BUILDING #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Binaya giriyor; ekibe.
+1481 | reg=civilian,family,worker,rescue | Hello? Is anyone in here?
+1482 | reg=civilian,family,worker,rescue | I'm coming in, please don't shoot
+
+##### EXHAUSTED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bitkin düştü.
+1483 | reg=civilian,family,worker,rescue | I can't, I can't keep going, I need to rest
+1484 | reg=civilian,family,worker,rescue | My legs are shaking, I have to sit
+
+##### EXIT_BUILDING #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Binadan çıkıyor; ekibe.
+1485 | reg=civilian,family,worker,rescue | Okay, we're going out, quietly
+
+##### FALL_BACK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Geri çekilme çağrısı; ekibe.
+1486 | reg=civilian,family,worker,rescue | We have to go back! Go back!
+1487 | reg=civilian,family,worker,rescue|world=vehicle | Back! Back to the car! Run!
+
+##### FLANK_COMPLETE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Kuşatma/yandan dolanma tamam; ekibe.
+1488 | reg=civilian,family,worker,rescue | I'm round the side, I'm in place
+1489 | reg=civilian,family,worker,rescue | Made it behind them, keep them looking at you
+1490 | reg=civilian,family,worker,rescue | Got a clear shot from here, it's now or never
+1491 | reg=civilian,family,worker,rescue | In position, side, ready when you are
+1492 | reg=civilian,family,worker,rescue | I'm here, I'm here, they have no idea
+
+##### FLANK_START #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yandan dolanmaya başlıyor; ekibe.
+1493 | reg=civilian,family,worker,rescue|tmp=fresh | I'll- I'll go around, okay? Around the side? Is that okay?
+1494 | reg=civilian,family,worker,rescue|tmp=fresh | Somebody has to go left, I guess it's me, God help me
+1495 | reg=civilian,family,worker,rescue|tmp=fresh | Wait, let me try the side, I think I can get behind it
+1496 | reg=civilian,family,worker,rescue|tmp=fresh | I'm going wide- that's ME out here, don't shoot me!
+1497 | reg=civilian,family,worker,rescue|tmp=fresh | Don't look at me, I'm going around, I'm going around...
+1498 | reg=civilian,family,worker,rescue|tmp=fresh | Cover me from here, I'm sneaking to the left
+1499 | reg=civilian,family,worker,rescue|tmp=fresh | I'll try to come at it from behind, just keep it busy
+1500 | reg=civilian,family,worker,rescue|tmp=seasoned | Going left, keep their eyes on you
+1501 | reg=civilian,family,worker,rescue|tmp=seasoned | I'll swing round the back, you hold the front
+1502 | reg=civilian,family,worker,rescue|tmp=seasoned | On my way around, give me thirty seconds
+1503 | reg=civilian,family,worker,rescue|tmp=seasoned | Taking the left, you take the right, meet in the middle
+1504 | reg=civilian,family,worker,rescue|tmp=seasoned | I'll circle wide, keep them looking at you
+1505 | reg=civilian,family,worker,rescue|tmp=seasoned | Going around, keep it noisy up front
+1506 | reg=civilian,family,worker,rescue|tmp=seasoned | Pulling around the side, don't shoot at movement on your left
+1507 | reg=civilian,family,worker,rescue|tmp=seasoned | Out wide, quiet, don't let them see me
+1508 | reg=civilian,family,worker,rescue|tmp=seasoned | Quick, circle the far side, I'll keep them busy
+1509 | reg=civilian,family,worker,rescue|mood=calm | I'll come at them from the side
+1510 | reg=civilian,family,worker,rescue|mood=calm | Moving round, you hold here
+1511 | role=worker | Keep 'em busy, I'm taking the long way
+
+##### FOOD_MEMORY #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Eskiden yediği bir yemeği özlemle anıyor.
+1512 | tmp=seasoned|mood=funny | I'd kill a man for a biscuit, a real one, with gravy
+1513 | tmp=seasoned|mood=funny | Coffee with sugar... when'd you last have sugar?
+1514 | tmp=seasoned|mood=funny | Three days on crackers, I'm not complaining, I'm reporting
+1515 | reg=worker,civilian,family|mood=warm | Fried catfish on a Friday, that's what I want
+1516 | mood=warm | Momma's cornbread in the iron skillet, nothing like it
+1517 | reg=worker,outlaw,club,law|mood=funny | Cold beer, just one cold beer, that's all I ask
+1518 | tmp=seasoned|mood=sad | Canned peaches taste like Christmas now, sad, ain't it
+1519 | role=family_youth|mood=funny | I ate a whole birthday cake once, regret nothing
+1520 | role=rescue_firefighter|mood=sad | Chili at the fire hall every October, whole town came
+1521 | role=rescue_clergy,family_woman|mood=warm | Church potluck, six kinds of casserole, heaven
+1522 | reg=worker,law,civilian|tmp=veteran|mood=warm|world=road | Diner on the highway did a pie, Lord, that pie
+1523 | tmp=fresh|hour=12,20 | My stomach's been growling since noon, ignore it
+1524 | tmp=veteran|mood=grim | Ration it... I've seen what running out does to people
+1525 | reg=family,worker|day=60,9999|mood=warm | Garden out back's still producing, small mercies
+1526 | reg=family|mood=funny | My two wouldn't touch a green bean in June, now they fight over the can
+1527 | tmp=veteran|mood=grim|world=building | Hot food and a roof, that's rich now
+1528 | reg=civilian,family,worker,rescue | I'd give my left boot for a Spiffo's burger right now
+1529 | reg=civilian,family,worker,rescue | Sweet tea with real ice
+1530 | reg=civilian,family,worker,rescue | I'd give a finger for my aunt's banana pudding
+1531 | reg=civilian,family,worker,rescue | A greasy cheeseburger, a basket of fries, a cold Coke
+1532 | reg=civilian,family,worker,rescue | Mom's meatloaf, the one with the ketchup glaze, oh God
+1533 | reg=civilian,family,worker,rescue | I'd trade my left hand for one of my mom's biscuits
+1534 | reg=civilian,family,worker,rescue | Meatloaf, Thursday night meatloaf, gravy and all, God
+1535 | reg=civilian,family,worker,rescue | Pizza, a big greasy pizza with extra cheese, I'd cry
+1536 | reg=civilian,family,worker,rescue | A cold Coke in a glass bottle, the one that fizzes up your nose
+1537 | reg=civilian,family,worker,rescue | Hot dogs on the grill, in the backyard, fourth of July, with the whole family
+1538 | reg=civilian,family,worker,rescue | Fried chicken from the Colonel's, the original recipe, that's all I think about
+1539 | reg=family | Grandmother's pecan pie, the one with the crust that just melted
+
+##### FOUND_AMMO #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Etrafta bir şey buldu (mermi, kan, ceset, yiyecek, ilaç, iz, su, silah); kendine ya da ekibe.
+1540 | reg=civilian,family,worker,rescue|world=inside | There's bullets in here, is that good?
+1541 | reg=civilian,family,worker,rescue | Found some shells, I think Daddy's gun takes these
+1542 | reg=civilian,family,worker,rescue | Bullets, I'll take them
+1543 | world=inside | Ammo! There's ammo in here!
+1544 | - | Hell, I'll take that
+1545 | - | Bullets, actual bullets, hand me that
+1546 | - | Yes, YES, finally, rounds
+1547 | - | Oh that's a beautiful sight, hand it over
+1548 | - | A few loose rounds, but I'll take them
+1549 | - | Ammo, tucked right in the back, nobody looked
+1550 | - | Hey, found some, they fit mine, they actually fit
+1551 | - | Got bullets, who'd have thought, got bullets
+1552 | - | Rounds in a drawer, under the socks, classic
+1553 | - | More ammunition, I could kiss somebody
+1554 | - | That's gonna keep me going another day or two
+1555 | - | Whoever left this, bless them, bless them
+1556 | - | Oh, nice, the right kind, for once
+1557 | - | This was somebody's stash, they won't miss it
+1558 | - | Not a lot, but it's something, and something's everything
+1559 | - | Rounds, hell yes, I was down to nothing
+1560 | - | Hold on, hold on, I need to count this
+1561 | - | Lucky, so lucky, I was about to start throwing rocks
+1562 | reg=civilian,family,worker|tmp=fresh|mood=fear | Please be the right size... please, please
+1563 | reg=civilian,family,worker|tmp=fresh|mood=fear | Bullets! I got bullets, I can actually do this
+1564 | reg=civilian,family,worker|tmp=fresh|mood=fear | Oh thank God, thank God, thank God
+1565 | reg=civilian,family,worker|tmp=fresh|mood=fear | I don't want to touch it, but I'm glad it's here
+1566 | reg=civilian,family,worker|tmp=fresh|mood=fear | Don't point it at me, don't point it, ohhh
+1567 | reg=civilian,family,worker|tmp=fresh|mood=fear | It's so little, is that enough? Is that enough for all of them?
+1568 | reg=civilian,family,worker|tmp=fresh|mood=fear | My hands are shaking, I keep dropping them, sorry, sorry
+1569 | reg=civilian,family,worker|tmp=fresh|mood=fear | Is it, is it the right kind? I don't know the right kind
+1570 | reg=civilian,family,worker|tmp=fresh|mood=warm | Holy- bullets! We might actually make it!
+1571 | reg=civilian,family,worker|tmp=fresh|mood=warm | Ha! Whoever left that, thank you, thank you so much
+1572 | reg=civilian,family,worker|tmp=fresh|mood=warm | I'm gonna cry, over finding ammunition, can you believe it
+1573 | reg=civilian,family,worker|tmp=fresh|mood=warm | Daddy always said never go anywhere without a spare box, bless him
+1574 | reg=civilian,family,worker|tmp=fresh|mood=warm | Finders keepers, and I'm keeping it, ha
+1575 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Count them, split them, no hoarding
+1576 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Good, now we've got options
+1577 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Check the brand, don't want a dud
+1578 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Ammunition, let's be fair about sharing it
+1579 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Goes in the bag with the rest, keep it dry
+1580 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Not enough to be reckless, enough to be careful
+1581 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Spread it out, don't keep it all in one pack
+1582 | reg=civilian,family,worker|mood=funny | Hey, it's like Christmas in July, heh
+1583 | reg=civilian,family,worker|mood=funny | Well, look who's popular all of a sudden
+1584 | reg=civilian,family,worker|mood=funny | Gimme, gimme, gimme, I'll even say please
+1585 | reg=civilian,family,worker|mood=grim | Some poor soul died without using it
+1586 | reg=civilian,family,worker|mood=grim | They'd have wanted someone to put it to use, I guess
+1587 | reg=rescue | Not my first choice for a find, but it'll do
+1588 | reg=rescue | Ammo, for us or for someone else, I'll carry it
+1589 | reg=rescue | Can't heal with it, can't eat it, but it'll keep us alive
+
+##### FOUND_BLOOD #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Etrafta bir şey buldu (mermi, kan, ceset, yiyecek, ilaç, iz, su, silah); kendine ya da ekibe.
+1590 | reg=civilian,family,worker,rescue | Hold up, I don't like this
+1591 | reg=civilian,family,worker,rescue | Something happened here, look at the floor
+1592 | reg=civilian,family,worker,rescue | Don't step in it, somebody was hurt
+1593 | - | Somebody bled here, not a little, either
+1594 | - | Look at this, a smear, somebody was dragged
+1595 | - | Fresh? No, it's gone brown, a day old maybe
+1596 | - | Drops going that way, see the drops?
+1597 | - | Somebody bled out here, I'd say
+1598 | - | This is way too much blood for one person
+1599 | - | That's a trail, it's a trail, follow it or don't
+1600 | - | Splatter up high, whoever it was, they were standing
+1601 | - | Blood, and it hasn't dried all the way, think about that
+1602 | - | Spilled a lot, lost a lot, there's no coming back from this much
+1603 | - | Look at it, it's everywhere, the floor's sticky
+1604 | - | Smell that? Iron, like pennies in your mouth
+1605 | - | Somebody tried to wipe it up, gave up halfway
+1606 | - | There's a boot print in the blood, only one
+1607 | - | Blood... I don't want to think about whose
+1608 | - | Drag marks, see them, something heavy got pulled
+1609 | - | Blood, I don't want to imagine what happened
+1610 | world=door | Blood on the doorframe, handprint and all
+1611 | world=building,inside | Blood on the carpet, blood on the wall, what happened in here
+1612 | world=stairs | Blood on the stairs, going up, not down
+1613 | reg=civilian,family,worker|tmp=fresh|mood=fear | Wait. Whoever left this might still be close
+1614 | reg=civilian,family,worker|tmp=fresh|mood=fear | Whose is that? Whose blood is that?
+1615 | reg=civilian,family,worker|tmp=fresh|mood=fear | Is it still here? Are they still here? Whatever did this?
+1616 | reg=civilian,family,worker|tmp=fresh|mood=fear | I'm not going in there, I'm not, I'm NOT
+1617 | reg=civilian,family,worker|tmp=fresh|mood=fear | Is that human? Please tell me that's not human
+1618 | reg=civilian,family,worker|tmp=fresh|mood=fear | Look away, look away, don't look at the floor
+1619 | reg=civilian,family,worker|tmp=fresh|mood=fear | It's fresh, it's still wet, whoever did that is still close!
+1620 | reg=civilian,family,worker|tmp=fresh|mood=fear | Let's go, let's go, let's go now, please
+1621 | reg=civilian,family,worker|tmp=fresh|mood=fear | There's a shoe in it, a little shoe, oh God
+1622 | reg=civilian,family,worker|tmp=fresh|mood=fear|world=building | I feel sick, it's, it's everywhere, even on the ceiling
+1623 | reg=civilian,family,worker|tmp=fresh|mood=fear|world=building | The kitchen looks like a, like a crime scene
+1624 | reg=civilian,family,worker|tmp=fresh|mood=sad|world=building | Somebody lived here, look, there's a calendar on the fridge
+1625 | reg=civilian,family,worker|tmp=fresh|mood=sad | Family photos, and blood across the faces, that's, that's just cruel
+1626 | reg=civilian,family,worker|tmp=fresh|mood=sad | There's blood on that... don't touch it
+1627 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Blood trail, check where it leads before we commit
+1628 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Dried, so a day, maybe two, we're not too late for anything
+1629 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Don't step in it, it tracks, and tracks draw them
+1630 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Drag mark, one body, toward the back, whatever took them might be there
+1631 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Bring a rag for your boots, leave no marks
+1632 | reg=civilian,family,worker|tmp=seasoned|mood=calm|world=inside | Dark, almost black, old, nothing fresh in here
+1633 | reg=civilian,family,worker|mood=grim | Used to be I'd wince, now I read it like a map
+1634 | reg=civilian,family,worker|mood=grim | Blood tells you what happened, and what's still to come
+1635 | reg=civilian,family,worker|mood=grim | Nobody cleans up anymore, nobody ever cleans up
+1636 | reg=civilian,family,worker|mood=funny | Somebody had a rough night, and a bad cleaning lady
+1637 | reg=civilian,family,worker|mood=funny | Looks like the kind of Sunday dinner my uncle throws
+1638 | reg=rescue | That's arterial, see the pattern? Somebody lost a lot, fast
+1639 | reg=rescue | Blood, tourniquet, pressure, nothing here to do any of that for
+1640 | reg=rescue | Hope they got a bandage on before they left, hope
+1641 | reg=rescue | Stay away from the fluids, we don't know what's in them
+1642 | role=rescue_medical | Based on the pool, that's two liters, maybe more, I don't like it
+1643 | role=rescue_medical | Nobody walks away from that much blood, but I'm checking anyway
+1644 | role=rescue_medical | If there are survivors, they're in shock, careful with the light
+1645 | hour=21,4 | Blood in the dark, black as oil on the floor, I just stepped in it
+1646 | hour=21,4 | Can't see the red in the dark, only feel it, sticky, sticky
+
+##### FOUND_BODY #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Etrafta bir şey buldu (mermi, kan, ceset, yiyecek, ilaç, iz, su, silah); kendine ya da ekibe.
+1647 | reg=civilian,family,worker,rescue | Oh no, there's somebody here, they're not moving
+1648 | reg=civilian,family,worker,rescue | Don't look, don't look at that, just keep walking
+1649 | reg=civilian,family,worker,rescue | A body, somebody's mother, somebody's son
+1650 | reg=civilian,family,worker,rescue|tmp=fresh | I've never seen a dead person before this week, never
+1651 | - | There's a body, over here, there's somebody lying here
+1652 | - | Got a body, don't touch it yet
+1653 | - | Oh hell, a dead one, a real dead one, not walking
+1654 | - | Somebody didn't make it, and nobody covered them
+1655 | - | Body here, been here a while, by the smell
+1656 | - | Look, don't look, I don't know, just a body
+1657 | - | Another one, God, another one
+1658 | - | Poor soul, nobody to even close his eyes
+1659 | - | Dead, stone dead, no breathing, I checked
+1660 | - | Not moving, not breathing, just lying there like he's asleep
+1661 | - | Lying there, like they just stopped
+1662 | - | Whoever it was, they were running, look at the way they fell
+1663 | - | Fresh? No, not fresh, stop asking
+1664 | - | Someone put a blanket over this one once, wind took it
+1665 | - | Looks like he sat down and gave up, right here
+1666 | - | Check the pockets, someone should check the pockets
+1667 | - | Hasn't been touched, nobody's been through his things
+1668 | - | Already picked over, somebody got here first
+1669 | - | I'd say two days, maybe three, in this heat
+1670 | - | Flies already, damn it, flies already
+1671 | reg=civilian,family,worker|tmp=fresh|mood=fear | Oh my God, there's a person on the floor, a PERSON!
+1672 | reg=civilian,family,worker|tmp=fresh|mood=fear | Is that- is that a- is she dead? Is she DEAD?
+1673 | reg=civilian,family,worker|tmp=fresh|mood=fear | Don't look, don't look, I looked, I shouldn't have looked
+1674 | reg=civilian,family,worker|tmp=fresh|mood=fear | He's, he's so still, why is he so still
+1675 | reg=civilian,family,worker|tmp=fresh|mood=fear | I can't be here, I can't be near this, I'm sorry, I'm so sorry
+1676 | reg=civilian,family,worker|tmp=fresh|mood=fear | Is it going to get up? Is it? Does it get up?
+1677 | reg=civilian,family,worker|tmp=fresh|mood=fear | Somebody should, we should, we can't just leave them
+1678 | reg=civilian,family,worker|tmp=fresh|mood=fear | Don't step on- oh God, I stepped on his hand
+1679 | reg=civilian,family,worker|tmp=fresh|mood=fear | Jesus... somebody ought to cover them
+1680 | reg=civilian,family,worker|tmp=fresh|mood=fear | Her shoes, look at her shoes, she's got her good shoes on
+1681 | reg=civilian,family,worker|tmp=fresh|mood=fear | Shoot it in the head, shoot it, in case, just in case
+1682 | reg=civilian,family,worker|tmp=fresh|mood=fear | I can't stop thinking it was somebody's mother
+1683 | reg=civilian,family,worker|tmp=fresh|mood=fear | What if he's not dead, what if he's just, just sleeping
+1684 | reg=civilian,family,worker|tmp=fresh|mood=fear | I'm going to be sick, give me a second, a second
+1685 | reg=civilian,family,worker|tmp=fresh|mood=sad | Look at him... God I can't look at him
+1686 | reg=civilian,family,worker|tmp=fresh|mood=sad | She had a ring on, still has, somebody loved her
+1687 | reg=civilian,family,worker|tmp=fresh|mood=sad | Somebody's out there looking for him, and he's here
+1688 | reg=civilian,family,worker|tmp=fresh|mood=sad | That's a church dress, she was going to church, on a Friday
+1689 | reg=civilian,family,worker|tmp=fresh|mood=sad | His lunchbox is right there, who dies with a lunchbox
+1690 | reg=civilian,family,worker|tmp=fresh|mood=sad | Whoever you were, I'm sorry, nobody should end like that
+1691 | reg=civilian,family,worker|tmp=fresh|mood=sad | Cover him up, would someone please cover him up
+1692 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Check if the head's open, if it's not, take care of it
+1693 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Body, no wounds I can see, check before we leave it
+1694 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Bite on the arm... you know how this ends
+1695 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Dead, been dead, we pass on, no sense lingering
+1696 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Take his pack, he doesn't need it, but say thank you first
+1697 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Look at his boots, they're better than mine, sad, ain't it
+1698 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Don't touch without gloves, don't touch with bare hands, ever
+1699 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Count the days, he was careful, he made it six at least
+1700 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Cause of death: not our business, we don't need to know
+1701 | reg=civilian,family,worker|tmp=seasoned|mood=grim | Another empty seat at somebody's table
+1702 | reg=civilian,family,worker|tmp=seasoned|mood=grim | Bodies don't bother me anymore, that bothers me
+1703 | reg=civilian,family,worker|tmp=seasoned|mood=grim | Used to cry, now I just check for the shoes
+1704 | reg=civilian,family,worker|mood=funny | He's not complaining about the heat, at least there's that, heh
+1705 | reg=civilian,family,worker|mood=funny | Guess that's one way to skip the line
+1706 | reg=civilian,family,worker|mood=funny | Sorry buddy, wish I had a blanket
+1707 | reg=rescue | Body- stay back, let me check, I'll check
+1708 | reg=rescue | No pulse, no breath, call it, time of death, what time is it
+1709 | reg=rescue | Check for bite marks, check the scalp, do it fast
+1710 | reg=rescue | Don't move the body, a body can still bite
+1711 | reg=rescue | Sixty seconds, that's all it takes, sixty seconds to turn
+1712 | reg=rescue | Lividity says hours, this one's been here a while
+1713 | reg=rescue | I can't help them, I wish I could still help them
+1714 | role=rescue_medical|mood=grim | Seen worse in the ER, but never so many in one week
+1715 | role=rescue_medical|mood=grim | I'd have done CPR, I would, I'd have kept going, honest to God
+1716 | role=rescue_medical|mood=grim | Someone should write the time down, someone should write it down
+1717 | role=rescue_clergy | Lord, receive this soul, whoever it was, whatever they did
+1718 | role=rescue_clergy | Give me a minute, I'll say a few words, it's the least I can do
+1719 | role=rescue_clergy | Peace, friend, wherever you are now, peace
+1720 | role=rescue_firefighter | Seen too many, never gets easier, never
+1721 | role=rescue_firefighter | Cover the face, cover the face, that's what we always did
+1722 | hour=21,4 | A body in the dark, I almost tripped over it, almost
+1723 | hour=21,4 | In the dark you don't see them till you're standing on them
+1724 | hour=7,17 | Sun on a body, that's the worst way to find one
+
+##### FOUND_FOOD #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Etrafta bir şey buldu (mermi, kan, ceset, yiyecek, ilaç, iz, su, silah); kendine ya da ekibe.
+1725 | reg=civilian,family,worker,rescue | Oh, food, thank God
+1726 | reg=civilian,family,worker,rescue | Peaches! There's peaches!
+1727 | reg=civilian,family,worker,rescue | Food, I'll take what we can get
+1728 | - | Food! There's food here!
+1729 | - | Real food, not just the junk, real food
+1730 | - | Somebody left a stash, a good one
+1731 | - | Jackpot, a whole shelf of it
+1732 | - | It's sealed, it's dry, it's perfect
+1733 | - | Oh, thank Christ, something to eat
+1734 | - | We can trade this, we can use this, we can do something with this
+1735 | - | Don't open it yet, pack it, we'll sort it later
+1736 | - | A little goes a long way, make it last
+1737 | - | That'll keep us going a couple of days, at least
+1738 | - | Dented cans, but the labels are fine
+1739 | - | Bring a bag, bring two, this is a lot
+1740 | - | Now that's a find, that's real food
+1741 | - | All this just sitting here, how did nobody get to it
+1742 | - | Hmm, not even spoiled, we got lucky
+1743 | hour=16,5 | Look what I found, we're eating tonight
+1744 | reg=civilian,family,worker|tmp=fresh|mood=fear | Oh, thank goodness, thank goodness, thank goodness
+1745 | reg=civilian,family,worker|tmp=fresh|mood=fear | Quick, quick, take it before somebody comes
+1746 | reg=civilian,family,worker|tmp=fresh|mood=fear | Is it safe? Is it okay? Does it smell bad? Smell it, smell it
+1747 | reg=civilian,family,worker|tmp=fresh|mood=fear | Don't make a sound, just stuff it in the bag
+1748 | reg=civilian,family,worker|tmp=fresh|mood=warm | I could kiss whoever left this
+1749 | reg=civilian,family,worker|tmp=fresh|mood=warm | My mama would be so proud I found this, ha, I never find anything
+1750 | reg=civilian,family,worker|tmp=fresh|mood=warm | This is like finding gold, only better, gold doesn't taste good
+1751 | reg=civilian,family,worker|tmp=fresh|mood=warm | Ohhh, it's like a miracle, a stupid beautiful miracle
+1752 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Count it, ration it, nobody eats without telling me
+1753 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Take what we can carry, mark the rest
+1754 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Check every can, bulging means bad
+1755 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Leave some for the next folks, they'll need it too
+1756 | reg=civilian,family,worker|tmp=seasoned|mood=funny | Not exactly the Colonel's, but I'll take it
+1757 | reg=civilian,family,worker|tmp=seasoned|mood=funny | Mamaw would be rolling over in her grave at this menu, heh
+1758 | reg=civilian,family,worker|mood=sad | Kids used to fight over this stuff, now it's just sitting here
+1759 | reg=civilian,family,worker|mood=sad | This was somebody's weekly shopping, and they never came back for it
+1760 | reg=rescue | Good, this will help the weak ones, bring it to them
+1761 | reg=rescue | Share it out, fair, fair for everyone
+1762 | role=rescue_clergy | Bless this food, and the hands that left it, and the ones that found it
+
+##### FOUND_MEDICINE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Etrafta bir şey buldu (mermi, kan, ceset, yiyecek, ilaç, iz, su, silah); kendine ya da ekibe.
+1763 | reg=civilian,family,worker,rescue | Medicine! Grandma's been out for days
+1764 | reg=civilian,family,worker,rescue | Medical supplies. That's something
+1765 | reg=civilian,family,worker,rescue | Is this the right medicine? I can't read it
+1766 | world=inside | Medicine! There's medicine in here!
+1767 | - | Pills, bandages, something, anything, look
+1768 | - | First aid, a real first aid kit
+1769 | - | Oh that's worth more than a rifle right now
+1770 | - | Medical supplies! Careful, don't drop it!
+1771 | - | Hey, there's a whole cabinet of the stuff
+1772 | - | Somebody's pharmacy, or what's left of it
+1773 | - | Meds, and nobody got to them, unbelievable
+1774 | - | This might save somebody's life, mark this place
+1775 | - | Look at the labels, careful, careful, I don't know half of these
+1776 | - | Antiseptic, gauze, tape, yes, yes, YES
+1777 | - | Painkillers, hallelujah, painkillers
+1778 | - | Not a ton, but it's more than we had an hour ago
+1779 | - | Somebody stocked up for something, and never needed it
+1780 | - | Take it all, it weighs nothing and it's worth everything
+1781 | - | Grab it quick, somebody else is going to want it
+1782 | - | Finally, one thing went right today
+1783 | reg=civilian,family,worker|tmp=fresh|mood=fear | Oh thank God, oh thank God, we can help her now, can't we? Can't we?
+1784 | reg=civilian,family,worker|tmp=fresh|mood=fear | Is this the right kind? I don't know the right kind, what do I do with it
+1785 | reg=civilian,family,worker|tmp=fresh|mood=fear | Don't spill it, don't spill it, hands, stop shaking
+1786 | reg=civilian,family,worker|tmp=fresh|mood=fear | I'm not a nurse, I'm not, I'm just scared
+1787 | reg=civilian,family,worker|tmp=fresh|mood=fear | If I read the wrong label and kill somebody, I couldn't-
+1788 | reg=civilian,family,worker|tmp=fresh|mood=warm | Oh, thank God, this might help
+1789 | reg=civilian,family,worker|tmp=fresh|mood=warm | We can fix him now, we really can, he might be okay
+1790 | reg=civilian,family,worker|tmp=fresh|mood=warm | Ohhh, I could cry with relief over finding this
+1791 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Split it, keep half for emergencies, give half to whoever needs it
+1792 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Check the dates, check them twice, expired is worse than none
+1793 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Don't take more than we need, someone else might need it too
+1794 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Keep it dry and out of the sun, mark the bag
+1795 | reg=civilian,family,worker|mood=sad | Maybe it'll help someone. That's something
+1796 | reg=civilian,family,worker|mood=sad | Wish I'd found this a week ago, wish I'd found it Tuesday
+1797 | reg=civilian,family,worker|mood=funny | A drugstore! Finally, my kind of shopping, heh
+1798 | reg=civilian,family,worker|mood=funny | Doctor's orders, take two of these and call me in the morning, ha
+1799 | reg=rescue | Finally, something I can work with
+1800 | reg=rescue | That's real gauze, that's real saline, I could cry
+1801 | reg=rescue | I can do something with this, I can actually do something
+1802 | reg=rescue | Sterile packs, it's a gift, a gift from God
+1803 | role=rescue_medical | Medical supplies, maybe they'll help someone
+1804 | role=rescue_medical | I'll triage this, sort it, label it, nobody touches it but me
+1805 | role=rescue_medical | Keep it for the serious ones, don't waste it on scrapes
+1806 | role=rescue_medical | Back to being a nurse, even if it's just for a minute
+1807 | role=rescue_clergy | Blessed be, thank you, Lord, for this small mercy

@@ -1,0 +1,2536 @@
+{
+ "_paket": "Y14",
+ "_grup": "arayuz_b13",
+ "_dosya": "IG_UI",
+ "_plan": "B13",
+ "_noktalama": false,
+ "_bosluk_koru": true,
+ "_baslik": "1.5.0 itibar, başlangıç, günlük, sürüş, bitiş ekranı ve jenerik",
+ "_parcalar": [
+  [
+   1,
+   139
+  ],
+  [
+   140,
+   261
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "IGUI_ALifeUI_217856b6610d144d",
+   "Killed someone hostile to you",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "kill_hostile",
+    "kill_hostile"
+   ]
+  ],
+  "2": [
+   "IGUI_ALifeUI_55a25e5d412ad81e",
+   "Killed a raider or gang member",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "kill_crime",
+    "kill_crime"
+   ]
+  ],
+  "3": [
+   "IGUI_ALifeUI_5a7da6b90427e6c8",
+   "Killed someone who went for you first",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "kill_attackedFirst",
+    "kill_attackedFirst"
+   ]
+  ],
+  "4": [
+   "IGUI_ALifeUI_09f1148248c2bad1",
+   "Stopped a hold-up",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "kill_robber",
+    "kill_robber"
+   ]
+  ],
+  "5": [
+   "IGUI_ALifeUI_2b39fdb83abc4e39",
+   "Fought off someone who went for you first",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "hit_defence",
+    "hit_defence"
+   ]
+  ],
+  "6": [
+   "IGUI_ALifeUI_35fda7dd698d714a",
+   "Gave a guest a roof for the night",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "deed_let_sleep",
+    "deed_let_sleep"
+   ]
+  ],
+  "7": [
+   "IGUI_ALifeUI_083e62e96702c8b0",
+   "Patched up a wounded survivor",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "deed_treated_wounded",
+    "deed_treated_wounded"
+   ]
+  ],
+  "8": [
+   "IGUI_ALifeUI_3a89641f7703d877",
+   "Finished a job for someone",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "deed_finished_job",
+    "deed_finished_job"
+   ]
+  ],
+  "9": [
+   "IGUI_ALifeUI_03f1d087467e1375",
+   "Turned on you: you attacked one of them",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "10": [
+   "IGUI_ALifeUI_26c33bcc1b414e38",
+   "Turned on you: you hurt one of them",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "11": [
+   "IGUI_ALifeUI_3e0436fe08fac738",
+   "Turned on you: you killed one of them",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "12": [
+   "IGUI_ALifeUI_23dd828c6a21a3a3",
+   "Turned on you: you pushed them too far",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "13": [
+   "IGUI_ALifeUI_4633d050002a2b7e",
+   "Turned on you",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "14": [
+   "IGUI_ALifeUI_431a1a60747a8a5b",
+   "Self-defence, no faction change",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "15": [
+   "IGUI_ALifeUI_3a9ae9a002178b63",
+   "They were hostile, no faction change",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "16": [
+   "IGUI_ALifeUI_6db47800081bec8d",
+   "Daily limit for this deed",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "17": [
+   "IGUI_ALifeUI_18f0365a23e28715",
+   "Daily gain cap reached",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "18": [
+   "IGUI_ALifeUI_6c371c9e46607753",
+   "Their people may turn on you",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "19": [
+   "IGUI_ALifeUI_04d760a608e9727b",
+   "no change",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "20": [
+   "IGUI_ALifeUI_1ffd2fef752d6a3b",
+   "You have met them",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "last",
+    "last"
+   ]
+  ],
+  "21": [
+   "IGUI_ALifeUI_231faec86a6c3a7b",
+   "Reach it once to see how people treat you",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "hint",
+    "hint"
+   ]
+  ],
+  "22": [
+   "IGUI_ALifeUI_73f4a78361d7f8b8",
+   "Defending yourself never costs reputation",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "23": [
+   "IGUI_ALifeUI_264f5cfa430df199",
+   "Self-defence: they shot first, went for you or robbed you",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "24": [
+   "IGUI_ALifeUI_49b5cf434835918b",
+   "Once their hands are up, hurting them counts against you",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "25": [
+   "IGUI_ALifeUI_6689b4fd7aa7cda5",
+   "Killing the harmless costs a lot and angers their people",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "26": [
+   "IGUI_ALifeUI_0beb8d891bda75f8",
+   "Helping raises it: shelter, food, healing, finished jobs",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "27": [
+   "IGUI_ALifeUI_0834364e19e4901b",
+   "Gains are capped per day. Each deed counts a few times a day",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "28": [
+   "IGUI_ALifeUI_7fec8150671b40c7",
+   "Over time it drifts back to zero, but not at the worst levels",
+   [
+    "ALifeUI2RepTabModel.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "29": [
+   "IGUI_ALifeUI_404821502899141c",
+   "No changes yet",
+   [
+    "ALifeUI2RepTab.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "30": [
+   "IGUI_ALifeUI_1832d68d0a20fe61",
+   "Your level",
+   [
+    "ALifeUI2RepTab.lua",
+    "chip",
+    "chip"
+   ]
+  ],
+  "31": [
+   "IGUI_ALifeUI_28e79009458a07ac",
+   "Hover or click a level to see what it means",
+   [
+    "ALifeUI2RepTab.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "32": [
+   "IGUI_ALifeUI_3e38143512850752",
+   "LEVELS",
+   [
+    "ALifeUI2RepTab.lua",
+    "head",
+    "head"
+   ]
+  ],
+  "33": [
+   "IGUI_ALifeUI_0f4740830459a2d0",
+   "Unknown level",
+   [
+    "ALifeUI2RepTab.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "34": [
+   "IGUI_ALifeUI_70d418246d49931c",
+   "HOW REPUTATION WORKS",
+   [
+    "ALifeUI2RepTab.lua",
+    "label",
+    "label"
+   ]
+  ],
+  "35": [
+   "IGUI_ALifeUI_7c8c5c285d1b16b8",
+   "Show",
+   [
+    "ALifeUI2RepTab.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "36": [
+   "IGUI_ALifeUI_7db4189a7343965f",
+   "FACTION STANDINGS",
+   [
+    "ALifeUI2RepTab.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "37": [
+   "IGUI_ALifeUI_5133b28e1be77026",
+   "Groups you meet or deal with show up here",
+   [
+    "ALifeUI2RepTab.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "38": [
+   "IGUI_ALifeUI_51d4d66d703ff104",
+   "No factions yet",
+   [
+    "ALifeUI2RepTab.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "39": [
+   "IGUI_ALifeUI_3a6d04ea66fba69e",
+   "{count} more",
+   [
+    "ALifeUI2RepTab.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "40": [
+   "IGUI_ALifeUI_36d8dbc807db44a2",
+   "Also met: {names}",
+   [
+    "ALifeUI2RepTab.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "41": [
+   "IGUI_ALifeUI_602182fa483b6c70",
+   "Helping, robbing and killing move this score",
+   [
+    "ALifeUI2RepTab.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "42": [
+   "IGUI_ALifeUI_0b87c7421729c9a5",
+   "???",
+   [
+    "ALifeRepTab.lua",
+    "unknown",
+    "unknown"
+   ]
+  ],
+  "43": [
+   "IGUI_ALifeUI_4d313a603d631497",
+   "Not reached yet",
+   [
+    "ALifeRepTab.lua",
+    "hint",
+    "hint"
+   ]
+  ],
+  "44": [
+   "IGUI_ALifeUI_448e50923bc6c09f",
+   "RECENT CHANGES",
+   [
+    "ALifeRepTab.lua",
+    "title",
+    "title"
+   ]
+  ],
+  "45": [
+   "IGUI_ALifeUI_56857bba771bbd24",
+   "Nothing has changed yet",
+   [
+    "ALifeRepTab.lua",
+    "title",
+    "title"
+   ]
+  ],
+  "46": [
+   "IGUI_ALifeUI_6451e280766882e9",
+   "Helping, robbing and killing move this score.",
+   [
+    "ALifeRepTab.lua",
+    "hint",
+    "hint"
+   ]
+  ],
+  "47": [
+   "IGUI_ALifeUI_0e15232324312104",
+   "Score",
+   [
+    "ALifeRepTab.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "48": [
+   "IGUI_ALifeUI_2f9eea17341fc0f7",
+   "The score is hidden on this server",
+   [
+    "ALifeRepTab.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "49": [
+   "IGUI_ALifeUI_1e9e0cd7075eaf9a",
+   "Levels you have not reached stay hidden",
+   [
+    "ALifeRepTab.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "50": [
+   "IGUI_ALifeUI_4e68d9982fac613c",
+   "Friendly: {who}",
+   [
+    "ALifeRepView.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "51": [
+   "IGUI_ALifeUI_78ed9db0213117c2",
+   "Careful with you: {who}",
+   [
+    "ALifeRepView.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "52": [
+   "IGUI_ALifeUI_254927e447b07173",
+   "Hide from you: {who}",
+   [
+    "ALifeRepView.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "53": [
+   "IGUI_ALifeUI_26eaaeac09cb2dd6",
+   "Afraid of you: {who}",
+   [
+    "ALifeRepView.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "54": [
+   "IGUI_ALifeUI_150a7e341feee655",
+   "Will bargain with you: {who}",
+   [
+    "ALifeRepView.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "55": [
+   "IGUI_ALifeUI_4617c0c53f0e284a",
+   "Your score runs from {low} to {high}. Every change counts in the same points",
+   [
+    "ALifeRepView.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "56": [
+   "IGUI_ALifeUI_17d8101c614d60d0",
+   "Nobody treats you differently yet",
+   [
+    "ALifeRepView.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "57": [
+   "IGUI_ALifeUI_62de07062e748c9c",
+   "Robbery victims hand things over",
+   [
+    "ALifeRepView.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "58": [
+   "IGUI_ALifeUI_2bc36c9d6a2c9cbc",
+   "Jobs on offer: nobody",
+   [
+    "ALifeRepView.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "59": [
+   "IGUI_ALifeUI_4464b7952e0d78ff",
+   "{who} think better of you now, {steps}",
+   [
+    "ALifeRepView.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "60": [
+   "IGUI_ALifeUI_6dbbf5e300fbf820",
+   "{who} think worse of you now, {steps}",
+   [
+    "ALifeRepView.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "61": [
+   "IGUI_ALifeUI_29e393f76b0a3b68",
+   "Up: {name} at {score}, {left} to go",
+   [
+    "ALifeRepView.lua",
+    "up",
+    "up"
+   ]
+  ],
+  "62": [
+   "IGUI_ALifeUI_7bcf34e736828efb",
+   "Up: a new level at {score}, {left} to go",
+   [
+    "ALifeRepView.lua",
+    "up",
+    "up"
+   ]
+  ],
+  "63": [
+   "IGUI_ALifeUI_4b1530a7303d5d6e",
+   "Down: {name} below {score}, {left} to go",
+   [
+    "ALifeRepView.lua",
+    "down",
+    "down"
+   ]
+  ],
+  "64": [
+   "IGUI_ALifeUI_2a89a18e586a121b",
+   "Down: a lower level below {score}, {left} to go",
+   [
+    "ALifeRepView.lua",
+    "down",
+    "down"
+   ]
+  ],
+  "65": [
+   "IGUI_ALifeUI_41aa73332913b1ed",
+   "Reputation changed",
+   [
+    "ALifeRepView.lua",
+    "reason",
+    "reason"
+   ]
+  ],
+  "66": [
+   "IGUI_ALifeUI_4986b09002b73eab",
+   "killed someone who went for you first, in self-defence",
+   [
+    "ALifeRepIcons.lua",
+    "kill_attackedFirst",
+    "kill_attackedFirst"
+   ]
+  ],
+  "67": [
+   "IGUI_ALifeUI_206b9f2c14b1ba05",
+   "stopped a hold-up",
+   [
+    "ALifeRepIcons.lua",
+    "kill_robber",
+    "kill_robber"
+   ]
+  ],
+  "68": [
+   "IGUI_ALifeUI_1d0424e964d4b612",
+   "NEW STANDING",
+   [
+    "ALifeUI2RepBar.lua",
+    "headTone",
+    "headTone"
+   ]
+  ],
+  "69": [
+   "IGUI_ALifeUI_62518cf065d99102",
+   "Score {score}",
+   [
+    "ALifeUI2RepBar.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "70": [
+   "IGUI_ALifeUI_7fee2f47771bdfdb",
+   "FACTION STANDING",
+   [
+    "ALifeUI2RepBar.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "71": [
+   "IGUI_ALifeUI_003a2a1817981333",
+   "WHAT THIS MEANS",
+   [
+    "ALifeUI2RepBar.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "72": [
+   "IGUI_ALifeUI_7a69addd0377d516",
+   "Last change",
+   [
+    "ALifeUI2RepBar2.lua",
+    "lastLabel",
+    "lastLabel"
+   ]
+  ],
+  "73": [
+   "IGUI_ALifeUI_3ffe502341fc7f0b",
+   "Day {day} {time}",
+   [
+    "ALifeUI2RepProgress.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "74": [
+   "IGUI_ALifeUI_6835903b2e1cce4a",
+   "You {reason}",
+   [
+    "ALifeUI2RepProgress.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "75": [
+   "IGUI_ALifeUI_5eb47b633c758bdb",
+   "LEVEL {level}",
+   [
+    "ALifeUI2RepProgress.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "76": [
+   "IGUI_ALifeUI_7aa2f5cb68019700",
+   "{amount} to LEVEL {level}",
+   [
+    "ALifeUI2RepProgress.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "77": [
+   "IGUI_ALifeUI_6efcdd433a0ac4c9",
+   "First raids from day {value}",
+   [
+    "ALifeUI2StartPickData.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "78": [
+   "IGUI_ALifeUI_0e8a38c610a41958",
+   "Up to {value} hostile NPCs",
+   [
+    "ALifeUI2StartPickData.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "79": [
+   "IGUI_ALifeUI_6552bb922395a3ec",
+   "Survivor pool of {value}",
+   [
+    "ALifeUI2StartPickData.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "80": [
+   "IGUI_ALifeUI_5c5bccf308461b0a",
+   "Up to {value} outposts",
+   [
+    "ALifeUI2StartPickData.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "81": [
+   "IGUI_ALifeUI_0007f88365669b1f",
+   "A peaceful playthrough",
+   [
+    "ALifeUI2StartPickData.lua",
+    "desc",
+    "desc"
+   ]
+  ],
+  "82": [
+   "IGUI_ALifeUI_4b39182540d904b3",
+   "We suffer more often in imagination than in reality",
+   [
+    "ALifeUI2StartPickData.lua",
+    "quote",
+    "quote"
+   ]
+  ],
+  "83": [
+   "IGUI_ALifeUI_50dcf4f928199eb8",
+   "Seneca",
+   [
+    "ALifeUI2StartPickData.lua",
+    "by",
+    "by"
+   ]
+  ],
+  "84": [
+   "IGUI_ALifeUI_38655d2b0a6b751b",
+   "The standard A-Life experience, where mistakes can get you killed",
+   [
+    "ALifeUI2StartPickData.lua",
+    "desc",
+    "desc"
+   ]
+  ],
+  "85": [
+   "IGUI_ALifeUI_01ae59080414d0df",
+   "Marcus Aurelius",
+   [
+    "ALifeUI2StartPickData.lua",
+    "by",
+    "by"
+   ]
+  ],
+  "86": [
+   "IGUI_ALifeUI_049951b63dfee931",
+   "I am rising to the work of a human being",
+   [
+    "ALifeUI2StartPickData.lua",
+    "quote",
+    "quote"
+   ]
+  ],
+  "87": [
+   "IGUI_ALifeUI_44826fe17148b7f4",
+   "Stay aware of your surroundings or you will get killed",
+   [
+    "ALifeUI2StartPickData.lua",
+    "desc",
+    "desc"
+   ]
+  ],
+  "88": [
+   "IGUI_ALifeUI_00ecc3e66b1ad647",
+   "What does not kill me makes me stronger",
+   [
+    "ALifeUI2StartPickData.lua",
+    "quote",
+    "quote"
+   ]
+  ],
+  "89": [
+   "IGUI_ALifeUI_54276d050724664b",
+   "Nietzsche",
+   [
+    "ALifeUI2StartPickData.lua",
+    "by",
+    "by"
+   ]
+  ],
+  "90": [
+   "IGUI_ALifeUI_3d3678927f851728",
+   "In a world full of hatred, you stand tall and never falter. The hardcore A-Life experience",
+   [
+    "ALifeUI2StartPickData.lua",
+    "desc",
+    "desc"
+   ]
+  ],
+  "91": [
+   "IGUI_ALifeUI_4c62cad12eb1e7e8",
+   "Death hangs over thee. While thou livest, while it is in thy power, be good",
+   [
+    "ALifeUI2StartPickData.lua",
+    "quote",
+    "quote"
+   ]
+  ],
+  "92": [
+   "IGUI_ALifeUI_306005f860e4dcf3",
+   "Bright days, slow trouble",
+   [
+    "ALifeUI2StartPickData.lua",
+    "tag",
+    "tag"
+   ]
+  ],
+  "93": [
+   "IGUI_ALifeUI_30c88d3413cc3c9b",
+   "NPCs are forgiving and raids come late. Room to learn the world.",
+   [
+    "ALifeUI2StartPickData.lua",
+    "desc",
+    "desc"
+   ]
+  ],
+  "94": [
+   "IGUI_ALifeUI_460aca8602798a5e",
+   "The intended balance",
+   [
+    "ALifeUI2StartPickData.lua",
+    "tag",
+    "tag"
+   ]
+  ],
+  "95": [
+   "IGUI_ALifeUI_1bca582f21dafb0f",
+   "The default A-Life experience. Fair fights and steady pressure.",
+   [
+    "ALifeUI2StartPickData.lua",
+    "desc",
+    "desc"
+   ]
+  ],
+  "96": [
+   "IGUI_ALifeUI_737dfcd26c9b365f",
+   "Dusk is coming",
+   [
+    "ALifeUI2StartPickData.lua",
+    "tag",
+    "tag"
+   ]
+  ],
+  "97": [
+   "IGUI_ALifeUI_1563b9f9039e31f3",
+   "Tougher NPCs, earlier raids and fewer warnings before a fight.",
+   [
+    "ALifeUI2StartPickData.lua",
+    "desc",
+    "desc"
+   ]
+  ],
+  "98": [
+   "IGUI_ALifeUI_3df3648f0d3a270c",
+   "Night, and no mercy",
+   [
+    "ALifeUI2StartPickData.lua",
+    "tag",
+    "tag"
+   ]
+  ],
+  "99": [
+   "IGUI_ALifeUI_3963163376e06b16",
+   "NPCs hit hard and raids come early and often. Expect to lose people.",
+   [
+    "ALifeUI2StartPickData.lua",
+    "desc",
+    "desc"
+   ]
+  ],
+  "100": [
+   "IGUI_ALifeUI_4f13db681dcb0367",
+   "Empty roads",
+   [
+    "ALifeUI2StartPickData.lua",
+    "tag",
+    "tag"
+   ]
+  ],
+  "101": [
+   "IGUI_ALifeUI_5fa752e97e2270bf",
+   "Few survivors. Long quiet stretches and rare encounters.",
+   [
+    "ALifeUI2StartPickData.lua",
+    "desc",
+    "desc"
+   ]
+  ],
+  "102": [
+   "IGUI_ALifeUI_4bb20cdf6e77943f",
+   "A few neighbours",
+   [
+    "ALifeUI2StartPickData.lua",
+    "tag",
+    "tag"
+   ]
+  ],
+  "103": [
+   "IGUI_ALifeUI_763d8a8b4bb2593f",
+   "Some groups and outposts. Encounters now and then.",
+   [
+    "ALifeUI2StartPickData.lua",
+    "desc",
+    "desc"
+   ]
+  ],
+  "104": [
+   "IGUI_ALifeUI_438460a8504c7b90",
+   "A living county",
+   [
+    "ALifeUI2StartPickData.lua",
+    "tag",
+    "tag"
+   ]
+  ],
+  "105": [
+   "IGUI_ALifeUI_01257c192a5796bc",
+   "Groups, outposts and encounters all around. The default.",
+   [
+    "ALifeUI2StartPickData.lua",
+    "desc",
+    "desc"
+   ]
+  ],
+  "106": [
+   "IGUI_ALifeUI_3b46d4bd1396e9d3",
+   "Crowded",
+   [
+    "ALifeUI2StartPickData.lua",
+    "tag",
+    "tag"
+   ]
+  ],
+  "107": [
+   "IGUI_ALifeUI_629ae5bc59271fbf",
+   "Heavy crowds and many outposts. May lag on weaker PCs.",
+   [
+    "ALifeUI2StartPickData.lua",
+    "desc",
+    "desc"
+   ]
+  ],
+  "108": [
+   "IGUI_ALifeUI_1e59b4600b6017ca",
+   "Choose your difficulty",
+   [
+    "ALifeUI2StartPickData.lua",
+    "title",
+    "title"
+   ]
+  ],
+  "109": [
+   "IGUI_ALifeUI_6386e2162c7c78fd",
+   "Step 1 of 2",
+   [
+    "ALifeUI2StartPickData.lua",
+    "eyebrow",
+    "eyebrow"
+   ]
+  ],
+  "110": [
+   "IGUI_ALifeUI_0dc84fbf51775119",
+   "How hard NPCs fight and how soon raids come",
+   [
+    "ALifeUI2StartPickData.lua",
+    "sub",
+    "sub"
+   ]
+  ],
+  "111": [
+   "IGUI_ALifeUI_1b8151487f308d94",
+   "Choose the population",
+   [
+    "ALifeUI2StartPickData.lua",
+    "title",
+    "title"
+   ]
+  ],
+  "112": [
+   "IGUI_ALifeUI_65dc0ab72800c5c6",
+   "Step 2 of 2",
+   [
+    "ALifeUI2StartPickData.lua",
+    "eyebrow",
+    "eyebrow"
+   ]
+  ],
+  "113": [
+   "IGUI_ALifeUI_35f320170640de92",
+   "How many survivors, groups and outposts the world holds",
+   [
+    "ALifeUI2StartPickData.lua",
+    "sub",
+    "sub"
+   ]
+  ],
+  "114": [
+   "IGUI_ALifeUI_0ceea0fe2812e3cf",
+   "Keep the game mode settings",
+   [
+    "ALifeUI2StartPick.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "115": [
+   "IGUI_ALifeUI_5d3c9dbe7414a1a5",
+   "Keep my sandbox settings",
+   [
+    "ALifeUI2StartPick.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "116": [
+   "IGUI_ALifeUI_0e1e3a1526749de0",
+   "Start",
+   [
+    "ALifeUI2StartPick.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "117": [
+   "IGUI_ALifeUI_7112e572710ae72e",
+   "Left and Right choose    Enter confirms    Backspace goes back    Esc keeps the game mode settings",
+   [
+    "ALifeUI2StartPick.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "118": [
+   "IGUI_ALifeUI_45e3992d25eef1dd",
+   "Left and Right choose    Enter confirms    Backspace goes back    Esc keeps your sandbox settings",
+   [
+    "ALifeUI2StartPick.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "119": [
+   "IGUI_ALifeUI_5ebea587010a4c54",
+   "Start settings applied",
+   [
+    "ALifeStartApply.lua",
+    "title",
+    "title"
+   ]
+  ],
+  "120": [
+   "IGUI_ALifeUI_1b28de3b2dfac3f5",
+   "{difficulty} difficulty, {population} population",
+   [
+    "ALifeStartApply.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "121": [
+   "IGUI_ALifeUI_3611909b7ca6bb12",
+   "Right-click works too",
+   [
+    "ALifeUI2Intro.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "122": [
+   "IGUI_ALifeUI_3db87e626bcd2947",
+   "Click the Talk tag by a nearby NPC",
+   [
+    "ALifeUI2Intro.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "123": [
+   "IGUI_ALifeUI_1d7a65a539b76ece",
+   "Every faction remembers what you do",
+   [
+    "ALifeUI2Intro.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "124": [
+   "IGUI_ALifeUI_28eb275056722036",
+   "See it in the Reputation tab",
+   [
+    "ALifeUI2Intro.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "125": [
+   "IGUI_ALifeUI_2a1bca7b42a95801",
+   "Your world preset is set in Sandbox",
+   [
+    "ALifeUI2Intro.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "126": [
+   "IGUI_ALifeUI_4ac4061d188debc4",
+   "Preset",
+   [
+    "ALifeUI2Intro.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "127": [
+   "IGUI_ALifeUI_788b88bc7e46a163",
+   "Project A-Life page, at world creation",
+   [
+    "ALifeUI2Intro.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "128": [
+   "IGUI_ALifeUI_09cd83dd3629db57",
+   "Click for next",
+   [
+    "ALifeUI2Intro.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "129": [
+   "IGUI_ALifeUI_7c8377e45af46636",
+   "Calm",
+   [
+    "ALifeUI2Read.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "130": [
+   "IGUI_ALifeUI_0e28504636033005",
+   "Tense",
+   [
+    "ALifeUI2Read.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "131": [
+   "IGUI_ALifeUI_10860cfc28010675",
+   "About to snap",
+   [
+    "ALifeUI2Read.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "132": [
+   "IGUI_ALifeUI_6b7fda7b4ba79b79",
+   "Reads as a threat",
+   [
+    "ALifeUI2Read.lua",
+    "tip",
+    "tip"
+   ]
+  ],
+  "133": [
+   "IGUI_ALifeUI_75eda5193bbdcdd6",
+   "Gun out",
+   [
+    "ALifeUI2Read.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "134": [
+   "IGUI_ALifeUI_7c868baa5ba52a0a",
+   "Hurt",
+   [
+    "ALifeUI2Read.lua",
+    "label",
+    "label"
+   ]
+  ],
+  "135": [
+   "IGUI_ALifeUI_125179af450dfa7f",
+   "Confirming takes longer",
+   [
+    "ALifeUI2Read.lua",
+    "tip",
+    "tip"
+   ]
+  ],
+  "136": [
+   "IGUI_ALifeUI_7293356314464a31",
+   "Shaking",
+   [
+    "ALifeUI2Read.lua",
+    "label",
+    "label"
+   ]
+  ],
+  "137": [
+   "IGUI_ALifeUI_1b14c2e06e8a6ebb",
+   "Uniform",
+   [
+    "ALifeUI2Read.lua",
+    "label",
+    "label"
+   ]
+  ],
+  "138": [
+   "IGUI_ALifeUI_56f7404d61cfbbb3",
+   "Fatigues",
+   [
+    "ALifeUI2Read.lua",
+    "label",
+    "label"
+   ]
+  ],
+  "139": [
+   "IGUI_ALifeUI_27caf8c05cded4df",
+   "Armour",
+   [
+    "ALifeUI2Read.lua",
+    "label",
+    "label"
+   ]
+  ],
+  "140": [
+   "IGUI_ALifeUI_0b8804e7172d49d2",
+   "Log",
+   [
+    "ALifeUI2JournalUi.lua",
+    "label",
+    "label"
+   ]
+  ],
+  "141": [
+   "IGUI_ALifeUI_0b000c8b0aab3552",
+   "Settings",
+   [
+    "ALifeUI2JournalUi.lua",
+    "label",
+    "label"
+   ]
+  ],
+  "142": [
+   "IGUI_ALifeUI_177737364a248389",
+   "Talk to people. A task starts from a conversation.",
+   [
+    "ALifeUI2JournalUi.lua",
+    "liste",
+    "liste"
+   ]
+  ],
+  "143": [
+   "IGUI_ALifeUI_56dcacbd1b12a923",
+   "Tracked",
+   [
+    "ALifeUI2JournalUi.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "144": [
+   "IGUI_ALifeUI_0b8800a7172d3952",
+   "LOG",
+   [
+    "ALifeUI2JournalUi.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "145": [
+   "IGUI_ALifeUI_0e2f37dc37bdb145",
+   "Track",
+   [
+    "ALifeUI2JournalUi.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "146": [
+   "IGUI_ALifeUI_7381736e49ab1c3b",
+   "Stop tracking",
+   [
+    "ALifeUI2JournalUi.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "147": [
+   "IGUI_ALifeUI_3112b96b61bb666a",
+   "Task arrow",
+   [
+    "ALifeUI2JournalUi.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "148": [
+   "IGUI_ALifeUI_1b4db50524b509b7",
+   "Nobody yet",
+   [
+    "ALifeUI2JournalUi.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "149": [
+   "IGUI_ALifeUI_75c743c575a750f6",
+   "People you talk to show up here",
+   [
+    "ALifeUI2JournalUi.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "150": [
+   "IGUI_ALifeUI_279113ab4f02b239",
+   "Last seen: day {n}",
+   [
+    "ALifeUI2JournalUi.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "151": [
+   "IGUI_ALifeUI_1641e12a3efaf317",
+   "Talked {n} times",
+   [
+    "ALifeUI2JournalUi.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "152": [
+   "IGUI_ALifeUI_4af088262a890972",
+   "Mark home",
+   [
+    "ALifeUI2JournalUi.lua",
+    "label",
+    "label"
+   ]
+  ],
+  "153": [
+   "IGUI_ALifeUI_7cba440b7b6eb171",
+   "Over here, keep your head down",
+   [
+    "ALifeUI2JournalSettings.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "154": [
+   "IGUI_ALifeUI_397203d352932206",
+   "A-Life Journal",
+   [
+    "ALifeUI2JournalBtn.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "155": [
+   "IGUI_ALifeUI_613c45e766a9731b",
+   "Safehouse",
+   [
+    "ALifeUI2Notify.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "156": [
+   "IGUI_ALifeUI_5249dd0f07db4fe5",
+   "System",
+   [
+    "ALifeUI2Notify.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "157": [
+   "IGUI_ALifeUI_4584f6b701aa503c",
+   "Nothing has happened yet.",
+   [
+    "ALifeUI2Notify.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "158": [
+   "IGUI_ALifeUI_0e1b86c833056b97",
+   "TODAY",
+   [
+    "ALifeUI2Notify.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "159": [
+   "IGUI_ALifeUI_0e3c3ce148d091f8",
+   "{n} entries",
+   [
+    "ALifeUI2Notify.lua",
+    "more",
+    "more"
+   ]
+  ],
+  "160": [
+   "IGUI_ALifeUI_1ec5483f314cfc37",
+   "{n} of {m}",
+   [
+    "ALifeUI2LoadBar.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "161": [
+   "IGUI_ALifeUI_479e1e372c818bd8",
+   "Building profiles",
+   [
+    "ALifeUI2LoadBar.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "162": [
+   "IGUI_ALifeUI_67dace397c8701ad",
+   "Reading profiles",
+   [
+    "ALifeUI2LoadBar.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "163": [
+   "IGUI_ALifeUI_5de9c74c382f8165",
+   "Hey, are you a content creator?",
+   [
+    "ALifeUI2StreamerBubble.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "164": [
+   "IGUI_ALifeUI_5f3c4458477f85de",
+   "Cool! Do you want us to disable potentially copyrighted music?",
+   [
+    "ALifeUI2StreamerBubble.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "165": [
+   "IGUI_ALifeUI_6ac5b59b3592e1a7",
+   "Alright, have fun!",
+   [
+    "ALifeUI2StreamerBubble.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "166": [
+   "IGUI_ALifeUI_03ba351572bcfb8e",
+   "Done! You can always revert this in settings by disabling Streamer Mode",
+   [
+    "ALifeUI2StreamerBubble.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "167": [
+   "IGUI_ALifeUI_2fd02bec1f0d77d3",
+   "Cool! You can always turn it on by enabling Streamer Mode",
+   [
+    "ALifeUI2StreamerBubble.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "168": [
+   "IGUI_ALifeUI_1947707c274a8e8b",
+   "We ask so content creators can play without copyrighted music, enjoy A-Life!",
+   [
+    "ALifeUI2StreamerBubble.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "169": [
+   "IGUI_ALifeUI_2f6b43af35735338",
+   "A-Life: report a bug",
+   [
+    "ALifePauseMenu.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "170": [
+   "IGUI_ALifeUI_5cd90ca020539c25",
+   "That spot is too close for the car to drive to.",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "171": [
+   "IGUI_ALifeUI_0377a8a1483bcb20",
+   "That spot is too far away.",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "172": [
+   "IGUI_ALifeUI_31ebfd4a6027aae3",
+   "That spot is not loaded yet.",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "173": [
+   "IGUI_ALifeUI_4935f46a00910f82",
+   "A car cannot drive indoors.",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "174": [
+   "IGUI_ALifeUI_4aa79d5c63308333",
+   "There is no clear room for the car near that spot.",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "175": [
+   "IGUI_ALifeUI_18e348f052b37919",
+   "The car is busy. Wait for it, or stop it first.",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "176": [
+   "IGUI_ALifeUI_286a82a62248a14b",
+   "Only an admin can drive NPC cars.",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "177": [
+   "IGUI_ALifeUI_2e59bf674144ac43",
+   "Drive here is switched off in the sandbox options.",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "178": [
+   "IGUI_ALifeUI_29e9cf2130e3077c",
+   "A player drives this car.",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "179": [
+   "IGUI_ALifeUI_1838297d045a618a",
+   "NPC driving is not enabled for this session.",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "180": [
+   "IGUI_ALifeUI_5315e9462615c1ea",
+   "There is no NPC car with a crew near you.",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "181": [
+   "IGUI_ALifeUI_0633548616446853",
+   "Press Drive to clicked spot on the Cars page first.",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "182": [
+   "IGUI_ALifeUI_6f54d99927cc5051",
+   "The car found no road to leave on.",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "183": [
+   "IGUI_ALifeUI_5b945e9908679fc1",
+   "The car cannot go there: {why}",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "184": [
+   "IGUI_ALifeUI_4bd8ed6d056e7efe",
+   "The car cannot go there.",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "185": [
+   "IGUI_ALifeUI_07d1a7ef5bd2d946",
+   "{name} is driving there",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "186": [
+   "IGUI_ALifeUI_7b304ba02299e452",
+   "Send the car here",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "187": [
+   "IGUI_ALifeUI_4200060b1327e341",
+   "{name} is stopping",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "188": [
+   "IGUI_ALifeUI_601b75720bc038f0",
+   "{tiles} tiles away, {pct} percent of the straight line is road or pavement. The car plans its own route and stops if it is blocked.",
+   [
+    "ALifeDriveHereClient.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "189": [
+   "IGUI_ALifeUI_40c6b2e404dbf77b",
+   "The straight line crosses {n} blocked or unloaded spots.",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "190": [
+   "IGUI_ALifeUI_02293bc55db66b4f",
+   "(companion)",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "191": [
+   "IGUI_ALifeUI_16118c9838229a49",
+   "Drive here: {name}",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "192": [
+   "IGUI_ALifeUI_5d2c5fc9485f7ebd",
+   "Drive here",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "193": [
+   "IGUI_ALifeUI_227d15387c172641",
+   "Stop {name}",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "194": [
+   "IGUI_ALifeUI_1233672261873c5f",
+   "Drive here...",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "195": [
+   "IGUI_ALifeUI_7d0b8271748d5261",
+   "The car stopped: {why}",
+   [
+    "ALifeDriveHereClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "196": [
+   "IGUI_ALifeUI_3a016cf76875db89",
+   "In car",
+   [
+    "ALifeDrivingCrewPicker.lua",
+    "liste",
+    "liste"
+   ]
+  ],
+  "197": [
+   "IGUI_ALifeUI_3a68ca0c381ac812",
+   "The car is not loaded.",
+   [
+    "ALifeCarOffline.lua",
+    "not_loaded",
+    "not_loaded"
+   ]
+  ],
+  "198": [
+   "IGUI_ALifeUI_428a4ae667d64582",
+   "travelling",
+   [
+    "ALifeCarLife.lua",
+    "board",
+    "board"
+   ]
+  ],
+  "199": [
+   "IGUI_ALifeUI_3f2bbf6d409af61c",
+   "resting",
+   [
+    "ALifeCarLife.lua",
+    "stop",
+    "stop"
+   ]
+  ],
+  "200": [
+   "IGUI_ALifeUI_3faab62d6b22022c",
+   "Days survived",
+   [
+    "ALifeEndingClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "201": [
+   "IGUI_ALifeUI_33e5f0792b9618c0",
+   "People killed",
+   [
+    "ALifeEndingClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "202": [
+   "IGUI_ALifeUI_4a71ea964e2cc00f",
+   "Cities flown over",
+   [
+    "ALifeEndingClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "203": [
+   "IGUI_ALifeUI_0e77c40566f6094e",
+   "Flight distance",
+   [
+    "ALifeEndingClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "204": [
+   "IGUI_ALifeUI_626cb7580cbbc863",
+   "Factions met",
+   [
+    "ALifeEndingClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "205": [
+   "IGUI_ALifeUI_2c84992411fcd156",
+   "Your regret",
+   [
+    "ALifeEndingClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "206": [
+   "IGUI_ALifeUI_7d46945f562b353e",
+   "You will miss",
+   [
+    "ALifeEndingClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "207": [
+   "IGUI_ALifeUI_524b776172aa7f87",
+   "Known as",
+   [
+    "ALifeEndingClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "208": [
+   "IGUI_ALifeUI_2c9e259672d36532",
+   "People helped",
+   [
+    "ALifeEndingClient.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "209": [
+   "IGUI_ALifeUI_1e018a917de3718b",
+   "THIS IS HOW YOU SURVIVED",
+   [
+    "ALifeEndingClient.lua",
+    "line",
+    "line"
+   ]
+  ],
+  "210": [
+   "IGUI_ALifeUI_678355f217d83bf9",
+   "at least {zombies} zombies, {humans} people, {rep}",
+   [
+    "ALifeEndingCard.lua",
+    "statsLine",
+    "statsLine"
+   ]
+  ],
+  "211": [
+   "IGUI_ALifeUI_3e0add4a7f80b0ae",
+   "Days: {days} | Helped: {helped} | Help days: {helpdays}",
+   [
+    "ALifeEndingCard.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "212": [
+   "IGUI_ALifeUI_6112898167bf8533",
+   "Recorded kills: civilians {civilian}, surrendered {surrendered}, allies {allied}, hostile {hostile}, unclassified {unknown}.",
+   [
+    "ALifeEndingCard.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "213": [
+   "IGUI_ALifeUI_4c50c719422718f7",
+   "Partial history: recorded counts only.",
+   [
+    "ALifeEndingCard.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "214": [
+   "IGUI_ALifeUI_4a953e69462763fe",
+   "History coverage: unknown.",
+   [
+    "ALifeEndingCard.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "215": [
+   "IGUI_ALifeUI_05145b6c76859850",
+   "Animals killed: {animals}.",
+   [
+    "ALifeEndingCard.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "216": [
+   "IGUI_ALifeUI_5765f68641a07e06",
+   "Your record also includes combat.",
+   [
+    "ALifeEndingCard.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "217": [
+   "IGUI_ALifeUI_7622b43d684a82da",
+   "You also helped people along the way.",
+   [
+    "ALifeEndingCard.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "218": [
+   "IGUI_ALifeUI_39369cd95c70c4bc",
+   "Some deaths remain unclassified.",
+   [
+    "ALifeEndingCard.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "219": [
+   "IGUI_ALifeUI_6dd0d276437de1f2",
+   "Your record does not point to one clear role.",
+   [
+    "ALifeEndingCard.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "220": [
+   "IGUI_ALifeUI_1268b8055085d1eb",
+   "Keep playing",
+   [
+    "ALifeEndingCard.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "221": [
+   "IGUI_ALifeUI_175d51b731455f20",
+   "Warning",
+   [
+    "ALifeEndingCallData.lua",
+    "title",
+    "title"
+   ]
+  ],
+  "222": [
+   "IGUI_ALifeUI_69c229fd267e081a",
+   "Completing this mission may end your playthrough, make sure to save, or cancel the mission by not completing it",
+   [
+    "ALifeEndingCallData.lua",
+    "text",
+    "text"
+   ]
+  ],
+  "223": [
+   "IGUI_ALifeUI_3a1b2a88619fe09e",
+   "Impact",
+   [
+    "ALifeEndingCallData.lua",
+    "impactTitle",
+    "impactTitle"
+   ]
+  ],
+  "224": [
+   "IGUI_ALifeUI_32d7867e46d28857",
+   "Everyone on the channel hears it",
+   [
+    "ALifeEndingCallData.lua",
+    "impact",
+    "impact"
+   ]
+  ],
+  "225": [
+   "IGUI_ALifeUI_60a35d6732b970ce",
+   "Command lets it slide this once",
+   [
+    "ALifeEndingCallData.lua",
+    "impact",
+    "impact"
+   ]
+  ],
+  "226": [
+   "IGUI_ALifeUI_2c0557fb7ab5665c",
+   "Raiders and survivors will remember",
+   [
+    "ALifeEndingCallData.lua",
+    "impact",
+    "impact"
+   ]
+  ],
+  "227": [
+   "IGUI_ALifeUI_7c7b84a656e3c244",
+   "Thank you for playing Project A-Life",
+   [
+    "ALifeCreditsData.lua",
+    "closing",
+    "closing"
+   ]
+  ],
+  "228": [
+   "IGUI_ALifeUI_3a878bc361835eeb",
+   "Credits",
+   [
+    "ALifeCreditsData.lua",
+    "kicker",
+    "kicker"
+   ]
+  ],
+  "229": [
+   "IGUI_ALifeUI_789b4ba30bd52373",
+   "First of all. Thank you to all of our supporters",
+   [
+    "ALifeCreditsData.lua",
+    "note",
+    "note"
+   ]
+  ],
+  "230": [
+   "IGUI_ALifeUI_245d3cc92b997bb8",
+   "Platinum Supporters",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "231": [
+   "IGUI_ALifeUI_0cc224f52f8830dd",
+   "Diamond Supporters",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "232": [
+   "IGUI_ALifeUI_61129d720f8a948b",
+   "Gold Supporters",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "233": [
+   "IGUI_ALifeUI_59a052d52d0a527c",
+   "Silver Supporters",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "234": [
+   "IGUI_ALifeUI_24708c42397c15a7",
+   "A-Life Credits",
+   [
+    "ALifeCreditsData.lua",
+    "divider",
+    "divider"
+   ]
+  ],
+  "235": [
+   "IGUI_ALifeUI_7910e43f67d9d731",
+   "A-Life Developers",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "236": [
+   "IGUI_ALifeUI_7f0c931a40fd62db",
+   "3D Modeling",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "237": [
+   "IGUI_ALifeUI_0a2941a64a7f8eee",
+   "Lead Gamemasters",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "238": [
+   "IGUI_ALifeUI_7008d326507a974d",
+   "Gamemasters",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "239": [
+   "IGUI_ALifeUI_752aa5953b337fc7",
+   "Voice Acting Leads",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "240": [
+   "IGUI_ALifeUI_5390d9a529e1ad60",
+   "Voice Actors",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "241": [
+   "IGUI_ALifeUI_394cebdf6aef2665",
+   "Sound Engineers",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "242": [
+   "IGUI_ALifeUI_608209397852e634",
+   "Technical Writer",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "243": [
+   "IGUI_ALifeUI_06754617728a62cb",
+   "Art & Writing Team",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "244": [
+   "IGUI_ALifeUI_5360755041c64fb6",
+   "Staff Team",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "245": [
+   "IGUI_ALifeUI_64d8683f0a19a268",
+   "Community Manager",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "246": [
+   "IGUI_ALifeUI_19f2fa4745f233ca",
+   "Translation Lead",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "247": [
+   "IGUI_ALifeUI_39c06da41d662ab2",
+   "Translators",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "248": [
+   "IGUI_ALifeUI_786d75816afe77a2",
+   "Mod Contributors",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "249": [
+   "IGUI_ALifeUI_25f97b51375bfbc7",
+   "Special Thanks to the Following",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "250": [
+   "IGUI_ALifeUI_2d7f7dad1f4ca4b4",
+   "Shinto Project",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "251": [
+   "IGUI_ALifeUI_51294d050e21bb45",
+   "Additional Credits",
+   [
+    "ALifeCreditsData.lua",
+    "heading",
+    "heading"
+   ]
+  ],
+  "252": [
+   "IGUI_ALifeUI_304e560c467a83de",
+   "Left click / Space to skip",
+   [
+    "ALifeCreditsRoll.lua",
+    "hint",
+    "hint"
+   ]
+  ],
+  "253": [
+   "IGUI_ALifeUI_0ef20ec54184e89d",
+   "Scout report",
+   [
+    "ALifeScout.lua",
+    "title",
+    "title"
+   ]
+  ],
+  "254": [
+   "IGUI_ALifeUI_59e475790dd70879",
+   "arriving",
+   [
+    "ALifeCars6.lua",
+    "liste",
+    "SÖZCÜK · Cars6"
+   ]
+  ],
+  "255": [
+   "IGUI_ALifeUI_105ee19a578521f3",
+   "south",
+   [
+    "ALifeInjuryRules.lua",
+    "liste",
+    "SÖZCÜK · InjuryRules"
+   ]
+  ],
+  "256": [
+   "IGUI_ALifeUI_7c961db45f82b868",
+   "east",
+   [
+    "ALifeInjuryRules.lua",
+    "liste",
+    "SÖZCÜK · InjuryRules"
+   ]
+  ],
+  "257": [
+   "IGUI_ALifeUI_021c42de0ed4ce36",
+   "hiding",
+   [
+    "ALifeJuggernautVoice.lua",
+    "liste",
+    "SÖZCÜK · JuggernautVoice"
+   ]
+  ],
+  "258": [
+   "IGUI_ALifeUI_625d6f68121a49e0",
+   "hunting",
+   [
+    "ALifeModLootData.lua",
+    "liste",
+    "SÖZCÜK · ModLootData"
+   ]
+  ],
+  "259": [
+   "IGUI_ALifeUI_28a58b4529c372f5",
+   "fighting",
+   [
+    "ALifeSpeech.lua",
+    "liste",
+    "SÖZCÜK · Speech"
+   ]
+  ],
+  "260": [
+   "IGUI_ALifeUI_7c9e690c61865330",
+   "text",
+   [
+    "ALifeVoiceLegacyProfiles.lua",
+    "liste",
+    "SÖZCÜK · VoiceLegacyProfiles"
+   ]
+  ],
+  "261": [
+   "IGUI_ALifeUI_2177a32411a218d3",
+   "hold fire",
+   [
+    "ALifeWounds.lua",
+    "liste",
+    "SÖZCÜK · Wounds"
+   ]
+  ]
+ },
+ "_terimler": [
+  [
+   "Reputation",
+   "İtibar"
+  ],
+  [
+   "faction standing",
+   "fraksiyonla aran"
+  ],
+  [
+   "Faction",
+   "Fraksiyon"
+  ],
+  [
+   "Shelter",
+   "Sığınak"
+  ],
+  [
+   "Outpost",
+   "Karakol"
+  ],
+  [
+   "Group",
+   "Grup"
+  ],
+  [
+   "Guest",
+   "Misafir"
+  ],
+  [
+   "Encounter",
+   "Karşılaşma"
+  ],
+  [
+   "Raid",
+   "Baskın"
+  ],
+  [
+   "Default",
+   "Varsayılan"
+  ],
+  [
+   "Preset",
+   "Ön ayar"
+  ],
+  [
+   "Hostile",
+   "Düşman"
+  ],
+  [
+   "Friendly",
+   "Dost"
+  ],
+  [
+   "Survivor",
+   "Hayatta kalan"
+  ],
+  [
+   "standing",
+   "aran"
+  ],
+  [
+   "hardcore",
+   "Acımasız"
+  ],
+  [
+   "neighbours",
+   "Komşular"
+  ],
+  [
+   "rare",
+   "Nadir"
+  ],
+  [
+   "Hold fire",
+   "Ateş kes"
+  ],
+  [
+   "Drive here",
+   "Buraya sür"
+  ],
+  [
+   "Safehouse",
+   "Güvenli ev"
+  ],
+  [
+   "Crew",
+   "Ekip"
+  ],
+  [
+   "Companion",
+   "Yol arkadaşı"
+  ],
+  [
+   "Profile",
+   "Profil"
+  ],
+  [
+   "Streamer Mode",
+   "Yayıncı modu"
+  ],
+  [
+   "Report a bug",
+   "Hata bildir"
+  ],
+  [
+   "tile",
+   "kare"
+  ],
+  [
+   "animal",
+   "Hayvan"
+  ],
+  [
+   "cars",
+   "Arabalar"
+  ],
+  [
+   "civilian",
+   "Sivil"
+  ],
+  [
+   "thank you",
+   "Teşekkür ederim"
+  ],
+  [
+   "cancel",
+   "İptal"
+  ],
+  [
+   "civilians",
+   "Siviller"
+  ],
+  [
+   "known",
+   "Tanıdık"
+  ],
+  [
+   "last seen",
+   "Son görülme"
+  ],
+  [
+   "raiders",
+   "Yağmacılar"
+  ],
+  [
+   "allied",
+   "Müttefik"
+  ],
+  [
+   "combat",
+   "Çatışma"
+  ],
+  [
+   "raider",
+   "Yağmacı"
+  ],
+  [
+   "save",
+   "Kaydet"
+  ],
+  [
+   "skip",
+   "Atla"
+  ]
+ ]
+}

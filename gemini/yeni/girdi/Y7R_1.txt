@@ -1,0 +1,542 @@
+# PAKET Y7R · parça 1/1 · satır 1-264 (264 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# NPC SÖZLERİ: Etiketi NPC, ESİR, TELSİZ ya da PİLOT olan her satır bir karakterin ağzından konuşma, cümle noktalamasıyla. '·' ile başlayan satırlar bağlam (oyuncunun seçtiği satır ya da zaten çevrilmiş söz): çıktıya yazılmaz.
+# Girdi biçimi: N | etiket | İngilizce
+
+##### DURUM · Encircled depot · NPC SÖZLERİ #####
+# NEREDE: oyuncu kuşatılmış, yolu kesmiş ya da işi başından aşkın bir grupla karşılaşır; NPC'lerden biri yaklaşınca konuşur (karşılaşınca), oyuncu konuşma penceresinden bir satır seçince cevap verir. Aynı etiketli satırlardan biri rastgele söylenir
+1 | NPC (karşılaşınca) | Hands are up, hands are up, don't shoot, we're Tolliver Freight
+2 | NPC (karşılaşınca) | Easy, we're freight not fighters, they've got the whole depot ringed
+· OYUNCU SEÇENEĞİ | What happened here
+3 | NPC (cevap) | One truck backfired and the whole street turned toward us
+4 | NPC (cevap) | We came back for the last load and the road closed behind us
+· OYUNCU SEÇENEĞİ | I'll thin the ring for you
+5 | NPC (cevap) | Bless you, we've got your back, shout when it's thin
+6 | NPC (cevap) | Do that and there's freight in it for you
+7 | NPC (cevap, aynı satır yeniden seçilince) | Still counting them out there, keep going
+· OYUNCU SEÇENEĞİ | The ring is gone, what do I get
+8 | NPC (cevap) | Take it, you earned it, Dell would shake your hand
+9 | NPC (cevap, koşul tutmadığında) | Ring's still closed, we owe you nothing yet
+· OYUNCU SEÇENEĞİ | Hand over the stash
+10 | NPC (cevap) | Fine, fine, take it, you're no better than the ring
+· OYUNCU SEÇENEĞİ | Where's the next drop
+11 | NPC (cevap) | There's a drop past the water tower, if the road holds
+· OYUNCU SEÇENEĞİ | Not my problem
+12 | NPC (cevap) | Didn't think you'd stay, we'll manage
+
+##### DURUM · Sheriff checkpoint · NPC SÖZLERİ #####
+# NEREDE: oyuncu kuşatılmış, yolu kesmiş ya da işi başından aşkın bir grupla karşılaşır; NPC'lerden biri yaklaşınca konuşur (karşılaşınca), oyuncu konuşma penceresinden bir satır seçince cevap verir. Aynı etiketli satırlardan biri rastgele söylenir
+13 | NPC (karşılaşınca) | Hold up there friend, routine stop, nobody's in trouble
+14 | NPC (karşılaşınca) | Evening, we're only checking folks for bites before they pass
+· OYUNCU SEÇENEĞİ | Check me, I'm clean
+15 | NPC (cevap) | All clear, move along, watch the road past the line
+· OYUNCU SEÇENEĞİ | What are you checking for
+16 | NPC (cevap) | Bites, mostly, and anyone hauling more than they can explain
+· OYUNCU SEÇENEĞİ | What's past the line
+17 | NPC (cevap) | Bad stretch two miles on, a crew sits on the shoulder, go around
+· OYUNCU SEÇENEĞİ | I'm not stopping
+18 | NPC (cevap) | Your call, but we'll know your face next time
+
+##### DURUM · Farmhouse under horde · NPC SÖZLERİ #####
+# NEREDE: oyuncu kuşatılmış, yolu kesmiş ya da işi başından aşkın bir grupla karşılaşır; NPC'lerden biri yaklaşınca konuşur (karşılaşınca), oyuncu konuşma penceresinden bir satır seçince cevap verir. Aynı etiketli satırlardan biri rastgele söylenir
+19 | NPC (karşılaşınca) | That's far enough, we've got a horde on the porch and a rifle on you
+20 | NPC (karşılaşınca) | We're busy, if you're here to help say so quick
+· OYUNCU SEÇENEĞİ | What's out there
+21 | NPC (cevap) | Forty of them, maybe more, they came off the road at dusk
+· OYUNCU SEÇENEĞİ | I'll help hold the line
+22 | NPC (cevap) | Then get on the left side, keep low and keep moving
+23 | NPC (cevap, aynı satır yeniden seçilince) | Left side, they keep coming round the barn
+· OYUNCU SEÇENEĞİ | It's quiet now
+24 | NPC (cevap) | The pantry's yours for an hour, you've earned it
+25 | NPC (cevap, koşul tutmadığında) | Not yet, they're still at the fence
+· OYUNCU SEÇENEĞİ | Take this, you look hungry
+26 | NPC (cevap) | Well that's decent of you, ma would've liked you
+27 | NPC (cevap, koşul tutmadığında) | You've got nothing on you, but thanks for the thought
+· OYUNCU SEÇENEĞİ | Good luck to you
+28 | NPC (cevap) | Go careful, they're not done with us
+
+##### DURUM · Hostage swap · NPC SÖZLERİ #####
+# NEREDE: oyuncu kuşatılmış, yolu kesmiş ya da işi başından aşkın bir grupla karşılaşır; NPC'lerden biri yaklaşınca konuşur (karşılaşınca), oyuncu konuşma penceresinden bir satır seçince cevap verir. Aynı etiketli satırlardan biri rastgele söylenir
+29 | NPC (karşılaşınca) | Walk away or pay up, the farmhand goes either way, your choice
+30 | NPC (karşılaşınca) | You want him breathing, you bring us something worth the trouble
+· OYUNCU SEÇENEĞİ | Take this, let him go
+31 | NPC (cevap) | Pleasure doing business, he's yours, take him and go
+32 | NPC (cevap, koşul tutmadığında) | That's not enough, don't waste our time
+· OYUNCU SEÇENEĞİ | Let him go or this gets loud
+33 | NPC (cevap) | Wrong answer friend, wrong answer
+· OYUNCU SEÇENEĞİ | Who is he to you
+34 | NPC (cevap) | He walked onto our road, simple as that, nothing personal
+· OYUNCU SEÇENEĞİ | Not my business
+35 | NPC (cevap) | Smart, keep walking
+
+##### DURUM · Pinned clinic · NPC SÖZLERİ #####
+# NEREDE: oyuncu kuşatılmış, yolu kesmiş ya da işi başından aşkın bir grupla karşılaşır; NPC'lerden biri yaklaşınca konuşur (karşılaşınca), oyuncu konuşma penceresinden bir satır seçince cevap verir. Aynı etiketli satırlardan biri rastgele söylenir
+36 | NPC (karşılaşınca) | Over here, we're out of everything and they're on the door
+37 | NPC (karşılaşınca) | Please, the medic's pinned in here, anything for the wounded
+· OYUNCU SEÇENEĞİ | Here, bandages for the wounded
+38 | NPC (cevap) | Oh thank god, take this, it's all we can give
+39 | NPC (cevap, koşul tutmadığında) | You've got nothing for us, but thank you for stopping
+· OYUNCU SEÇENEĞİ | I'll clear the door
+40 | NPC (cevap) | We'll keep the windows, just clear the door
+41 | NPC (cevap, aynı satır yeniden seçilince) | Still two or three on the step, keep going
+· OYUNCU SEÇENEĞİ | The door is clear
+42 | NPC (cevap) | It's not much but it's real, take it
+43 | NPC (cevap, koşul tutmadığında) | Not yet, they're still on the step
+· OYUNCU SEÇENEĞİ | How bad is it
+44 | NPC (cevap) | No bandages, no antibiotics, and four on the cots
+· OYUNCU SEÇENEĞİ | I can't stay
+45 | NPC (cevap) | We understand, go safe
+
+##### DURUM · Broken-down truck · NPC SÖZLERİ #####
+# NEREDE: oyuncu kuşatılmış, yolu kesmiş ya da işi başından aşkın bir grupla karşılaşır; NPC'lerden biri yaklaşınca konuşur (karşılaşınca), oyuncu konuşma penceresinden bir satır seçince cevap verir. Aynı etiketli satırlardan biri rastgele söylenir
+46 | NPC (karşılaşınca) | Hey, hey! got any petrol, she's bone dry
+47 | NPC (karşılaşınca) | You there! two minutes of your time, our truck's dead
+· OYUNCU SEÇENEĞİ | Here, a can of petrol
+48 | NPC (cevap) | You're a lifesaver, here, it's not much but it's honest
+49 | NPC (cevap, koşul tutmadığında) | No can on you? shame, worth asking
+· OYUNCU SEÇENEĞİ | I'll watch the road for you
+50 | NPC (cevap) | That's all we need, an hour and she'll turn over
+51 | NPC (cevap, aynı satır yeniden seçilince) | Give us a bit longer, almost there
+· OYUNCU SEÇENEĞİ | Is she running yet
+52 | NPC (cevap) | She's running! here, for your trouble
+53 | NPC (cevap, koşul tutmadığında) | Not yet, she's still coughing
+· OYUNCU SEÇENEĞİ | Where were you headed
+54 | NPC (cevap) | North, with a load that's already late
+· OYUNCU SEÇENEĞİ | Sorry, I've got nothing
+55 | NPC (cevap) | No worries, we'll flag the next one
+
+##### ESİR · Eat something, drink up #####
+# NEREDE: oyuncunun elindeki esir, oyuncu konuşma penceresinden bu satırı seçince cevap verir. Cevap esirin kim olduğuna (etiketteki grup) ve duruma göre seçilir; aynı etiketli satırlardan biri rastgele söylenir
+· OYUNCU SEÇENEĞİ | Eat something, drink up
+56 | ESİR (sivil/işçi/kurtarıcı · bugün zaten yemişken) | I already ate today
+57 | ESİR (sivil/işçi/kurtarıcı · bugün zaten yemişken) | Not hungry yet, thanks
+58 | ESİR (kolluk · bugün zaten yemişken) | I was fed already
+· ESİR (kolluk · bugün zaten yemişken) | Not now
+59 | ESİR (asker · bugün zaten yemişken) | Already fed
+60 | ESİR (asker · bugün zaten yemişken) | Negative, I ate
+61 | ESİR (kanun dışı · bugün zaten yemişken) | You fed me, remember
+62 | ESİR (kanun dışı · bugün zaten yemişken) | I'm good for now
+63 | ESİR (yağmacı · bugün zaten yemişken) | I ate, back off
+· ESİR (yağmacı · bugün zaten yemişken) | Not yet
+64 | ESİR (diğer · bugün zaten yemişken) | I ate already
+· ESİR (diğer · bugün zaten yemişken) | Later
+65 | ESİR (sivil/işçi/kurtarıcı · oyuncunun verecek yiyeceği/suyu yokken) | You've got nothing for me?
+· ESİR (sivil/işçi/kurtarıcı · oyuncunun verecek yiyeceği/suyu yokken) | Please, anything
+· ESİR (kolluk · oyuncunun verecek yiyeceği/suyu yokken) | Nothing at all?
+66 | ESİR (kolluk · oyuncunun verecek yiyeceği/suyu yokken) | I'll wait
+67 | ESİR (asker · oyuncunun verecek yiyeceği/suyu yokken) | No ration, no water?
+68 | ESİR (asker · oyuncunun verecek yiyeceği/suyu yokken) | I'll hold
+69 | ESİR (kanun dışı · oyuncunun verecek yiyeceği/suyu yokken) | Empty hands, that's cold
+70 | ESİR (kanun dışı · oyuncunun verecek yiyeceği/suyu yokken) | Come back with something
+71 | ESİR (yağmacı · oyuncunun verecek yiyeceği/suyu yokken) | Nothing? Figures
+72 | ESİR (yağmacı · oyuncunun verecek yiyeceği/suyu yokken) | Starve me then
+73 | ESİR (diğer · oyuncunun verecek yiyeceği/suyu yokken) | You have nothing?
+· ESİR (diğer · oyuncunun verecek yiyeceği/suyu yokken) | I'll wait
+· ESİR (sivil/işçi/kurtarıcı · yemek ve su verilince) | Thank you, I mean it
+74 | ESİR (sivil/işçi/kurtarıcı · yemek ve su verilince) | God, I needed that
+· ESİR (kolluk · yemek ve su verilince) | Noted
+75 | ESİR (kolluk · yemek ve su verilince) | Fine, I'll eat
+76 | ESİR (asker · yemek ve su verilince) | Received
+· ESİR (asker · yemek ve su verilince) | I'll take it
+77 | ESİR (kanun dışı · yemek ve su verilince) | Huh, you feed all your prisoners
+78 | ESİR (kanun dışı · yemek ve su verilince) | Alright, I'll eat your bread
+79 | ESİR (yağmacı · yemek ve su verilince) | Don't think this makes us friends
+· ESİR (yağmacı · yemek ve su verilince) | Give it here
+· ESİR (diğer · yemek ve su verilince) | Thanks
+80 | ESİR (diğer · yemek ve su verilince) | I was starving
+##### ESİR · How are you holding up #####
+# NEREDE: oyuncunun elindeki esir, oyuncu konuşma penceresinden bu satırı seçince cevap verir. Cevap esirin kim olduğuna (etiketteki grup) ve duruma göre seçilir; aynı etiketli satırlardan biri rastgele söylenir
+· OYUNCU SEÇENEĞİ | How are you holding up
+· ESİR (sivil/işçi/kurtarıcı · hâl hatır, 0. kademe (küskün ya da hiç beslenmemiş)) | What do you want from me
+81 | ESİR (sivil/işçi/kurtarıcı · hâl hatır, 0. kademe (küskün ya da hiç beslenmemiş)) | Just let me go
+82 | ESİR (kolluk · hâl hatır, 0. kademe (küskün ya da hiç beslenmemiş)) | I have nothing to say
+83 | ESİR (kolluk · hâl hatır, 0. kademe (küskün ya da hiç beslenmemiş)) | Ask my lawyer
+84 | ESİR (asker · hâl hatır, 0. kademe (küskün ya da hiç beslenmemiş)) | I'm not talking
+85 | ESİR (asker · hâl hatır, 0. kademe (küskün ya da hiç beslenmemiş)) | Name and number, that's all
+· ESİR (kanun dışı · hâl hatır, 0. kademe (küskün ya da hiç beslenmemiş)) | Get lost
+86 | ESİR (kanun dışı · hâl hatır, 0. kademe (küskün ya da hiç beslenmemiş)) | You don't scare me
+· ESİR (yağmacı · hâl hatır, 0. kademe (küskün ya da hiç beslenmemiş)) | Go to hell
+87 | ESİR (yağmacı · hâl hatır, 0. kademe (küskün ya da hiç beslenmemiş)) | Not saying a word
+· ESİR (diğer · hâl hatır, 0. kademe (küskün ya da hiç beslenmemiş)) | Leave me alone
+· ESİR (diğer · hâl hatır, 0. kademe (küskün ya da hiç beslenmemiş)) | I'm not talking
+88 | ESİR (sivil/işçi/kurtarıcı · hâl hatır, 1. kademe (1 gün beslenmiş)) | My name's not worth much now, but I'm still here
+89 | ESİR (sivil/işçi/kurtarıcı · hâl hatır, 1. kademe (1 gün beslenmiş)) | I just wanted to get home
+90 | ESİR (kolluk · hâl hatır, 1. kademe (1 gün beslenmiş)) | Don't write anything down
+91 | ESİR (kolluk · hâl hatır, 1. kademe (1 gün beslenmiş)) | You want a statement, you won't get one
+92 | ESİR (asker · hâl hatır, 1. kademe (1 gün beslenmiş)) | I'm keeping to my orders
+93 | ESİR (asker · hâl hatır, 1. kademe (1 gün beslenmiş)) | Nothing you can use
+94 | ESİR (kanun dışı · hâl hatır, 1. kademe (1 gün beslenmiş)) | Fine, you're not what I expected
+95 | ESİR (kanun dışı · hâl hatır, 1. kademe (1 gün beslenmiş)) | Food helps the mood a bit
+96 | ESİR (yağmacı · hâl hatır, 1. kademe (1 gün beslenmiş)) | Don't get comfortable
+97 | ESİR (yağmacı · hâl hatır, 1. kademe (1 gün beslenmiş)) | You feed me, I'll listen, that's all
+98 | ESİR (diğer · hâl hatır, 1. kademe (1 gün beslenmiş)) | Thanks for the food
+99 | ESİR (diğer · hâl hatır, 1. kademe (1 gün beslenmiş)) | I'll listen, that's all
+100 | ESİR (sivil/işçi/kurtarıcı · hâl hatır, 2. kademe (2 gün beslenmiş)) | We were moving south, then they took the road
+101 | ESİR (sivil/işçi/kurtarıcı · hâl hatır, 2. kademe (2 gün beslenmiş)) | My family's out there somewhere
+102 | ESİR (kolluk · hâl hatır, 2. kademe (2 gün beslenmiş)) | I was on patrol, they hit us from the trees
+103 | ESİR (kolluk · hâl hatır, 2. kademe (2 gün beslenmiş)) | I lost my partner today
+104 | ESİR (asker · hâl hatır, 2. kademe (2 gün beslenmiş)) | We got split, my squad's gone
+105 | ESİR (asker · hâl hatır, 2. kademe (2 gün beslenmiş)) | Command left us out here
+106 | ESİR (kanun dışı · hâl hatır, 2. kademe (2 gün beslenmiş)) | It started as a favour, then it was a job
+107 | ESİR (kanun dışı · hâl hatır, 2. kademe (2 gün beslenmiş)) | Nobody forgives a debt around here
+108 | ESİR (yağmacı · hâl hatır, 2. kademe (2 gün beslenmiş)) | We took what we could, that's it
+109 | ESİR (yağmacı · hâl hatır, 2. kademe (2 gün beslenmiş)) | Nobody asked me if I wanted this
+110 | ESİR (diğer · hâl hatır, 2. kademe (2 gün beslenmiş)) | I was just trying to eat
+111 | ESİR (diğer · hâl hatır, 2. kademe (2 gün beslenmiş)) | It went bad fast
+112 | ESİR (sivil/işçi/kurtarıcı · hâl hatır, 3. kademe (3 gün beslenmiş)) | The ones in charge don't care who gets hurt
+113 | ESİR (sivil/işçi/kurtarıcı · hâl hatır, 3. kademe (3 gün beslenmiş)) | I don't sleep anymore
+114 | ESİR (kolluk · hâl hatır, 3. kademe (3 gün beslenmiş)) | My chief doesn't know I'm alive
+115 | ESİR (kolluk · hâl hatır, 3. kademe (3 gün beslenmiş)) | We were short on everything
+116 | ESİR (asker · hâl hatır, 3. kademe (3 gün beslenmiş)) | Orders kept changing, nobody told us why
+117 | ESİR (asker · hâl hatır, 3. kademe (3 gün beslenmiş)) | We ran out of ammo twice
+118 | ESİR (kanun dışı · hâl hatır, 3. kademe (3 gün beslenmiş)) | The boss takes the best and leaves the rest
+119 | ESİR (kanun dışı · hâl hatır, 3. kademe (3 gün beslenmiş)) | I wanted out for months
+120 | ESİR (yağmacı · hâl hatır, 3. kademe (3 gün beslenmiş)) | The boss would skin me for this
+121 | ESİR (yağmacı · hâl hatır, 3. kademe (3 gün beslenmiş)) | I'm not scared of you, I'm scared of them
+122 | ESİR (diğer · hâl hatır, 3. kademe (3 gün beslenmiş)) | They never told me the plan
+· ESİR (diğer · hâl hatır, 3. kademe (3 gün beslenmiş)) | I'm tired
+123 | ESİR (sivil/işçi/kurtarıcı · hâl hatır, 4. kademe (4 gün beslenmiş)) | You could've killed me and you fed me, why
+124 | ESİR (sivil/işçi/kurtarıcı · hâl hatır, 4. kademe (4 gün beslenmiş)) | I owe you, I know that
+125 | ESİR (kolluk · hâl hatır, 4. kademe (4 gün beslenmiş)) | You're fair, I'll give you that
+126 | ESİR (kolluk · hâl hatır, 4. kademe (4 gün beslenmiş)) | Maybe you're not the problem
+127 | ESİR (asker · hâl hatır, 4. kademe (4 gün beslenmiş)) | You treated me by the book, I respect that
+128 | ESİR (asker · hâl hatır, 4. kademe (4 gün beslenmiş)) | I might consider talking
+129 | ESİR (kanun dışı · hâl hatır, 4. kademe (4 gün beslenmiş)) | You've got a funny way of running a jail
+130 | ESİR (kanun dışı · hâl hatır, 4. kademe (4 gün beslenmiş)) | I'm starting to think you're alright
+131 | ESİR (yağmacı · hâl hatır, 4. kademe (4 gün beslenmiş)) | Nobody's ever done that for me
+132 | ESİR (yağmacı · hâl hatır, 4. kademe (4 gün beslenmiş)) | Don't tell them I said this
+133 | ESİR (diğer · hâl hatır, 4. kademe (4 gün beslenmiş)) | You kept your word
+134 | ESİR (diğer · hâl hatır, 4. kademe (4 gün beslenmiş)) | I might know things
+135 | ESİR (sivil/işçi/kurtarıcı · hâl hatır, 5. kademe (5 gün beslenmiş)) | Ask me anything, I'll answer
+136 | ESİR (sivil/işçi/kurtarıcı · hâl hatır, 5. kademe (5 gün beslenmiş)) | I'd rather fight for you than run
+137 | ESİR (kolluk · hâl hatır, 5. kademe (5 gün beslenmiş)) | I'll cooperate, you've earned it
+138 | ESİR (kolluk · hâl hatır, 5. kademe (5 gün beslenmiş)) | If you let me go I won't forget it
+139 | ESİR (asker · hâl hatır, 5. kademe (5 gün beslenmiş)) | I'm ready to talk, say what you need
+140 | ESİR (asker · hâl hatır, 5. kademe (5 gün beslenmiş)) | I'd follow a leader like you
+141 | ESİR (kanun dışı · hâl hatır, 5. kademe (5 gün beslenmiş)) | Alright, you won me over, ask
+142 | ESİR (kanun dışı · hâl hatır, 5. kademe (5 gün beslenmiş)) | I'd go with you if you asked
+143 | ESİR (yağmacı · hâl hatır, 5. kademe (5 gün beslenmiş)) | You win, ask what you want
+144 | ESİR (yağmacı · hâl hatır, 5. kademe (5 gün beslenmiş)) | I'd ride with you
+145 | ESİR (diğer · hâl hatır, 5. kademe (5 gün beslenmiş)) | Ask me anything
+146 | ESİR (diğer · hâl hatır, 5. kademe (5 gün beslenmiş)) | I'd stick with you
+
+##### ESİR · Where do your people sleep #####
+# NEREDE: oyuncunun elindeki esir, oyuncu konuşma penceresinden bu satırı seçince cevap verir. Cevap esirin kim olduğuna (etiketteki grup) ve duruma göre seçilir; aynı etiketli satırlardan biri rastgele söylenir
+· OYUNCU SEÇENEĞİ | Where do your people sleep
+147 | ESİR (sivil/işçi/kurtarıcı · bugün zaten soruldu ya da küskün) | I don't trust you enough for that
+· ESİR (sivil/işçi/kurtarıcı · bugün zaten soruldu ya da küskün) | Not yet
+· ESİR (kolluk/asker · bugün zaten soruldu ya da küskün) | Not talking about that
+· ESİR (kolluk/asker · bugün zaten soruldu ya da küskün) | Not yet
+148 | ESİR (kanun dışı · bugün zaten soruldu ya da küskün) | You haven't earned that
+· ESİR (kanun dışı · bugün zaten soruldu ya da küskün) | Not yet
+· ESİR (yağmacı · bugün zaten soruldu ya da küskün) | Nope
+· ESİR (yağmacı · bugün zaten soruldu ya da küskün) | Not yet
+· ESİR (diğer · bugün zaten soruldu ya da küskün) | Not yet
+· ESİR (diğer · bugün zaten soruldu ya da küskün) | Later
+149 | ESİR (sivil/işçi/kurtarıcı · bildiği her şeyi söylemiş) | I told you already
+150 | ESİR (sivil/işçi/kurtarıcı · bildiği her şeyi söylemiş) | That's all I know
+151 | ESİR (kolluk · bildiği her şeyi söylemiş) | Already said it
+152 | ESİR (kolluk · bildiği her şeyi söylemiş) | That's all of it
+153 | ESİR (asker · bildiği her şeyi söylemiş) | Already reported
+154 | ESİR (asker · bildiği her şeyi söylemiş) | No further
+155 | ESİR (kanun dışı · bildiği her şeyi söylemiş) | I already gave you that
+156 | ESİR (kanun dışı · bildiği her şeyi söylemiş) | That's all I've got
+157 | ESİR (yağmacı · bildiği her şeyi söylemiş) | Told you once
+· ESİR (yağmacı · bildiği her şeyi söylemiş) | That's everything
+158 | ESİR (diğer · bildiği her şeyi söylemiş) | I told you
+159 | ESİR (diğer · bildiği her şeyi söylemiş) | That's all
+160 | ESİR (sivil/işçi/kurtarıcı · konuşur, bir yer söyler) | There's a place they keep, I'll show you where
+161 | ESİR (sivil/işçi/kurtarıcı · konuşur, bir yer söyler) | I'll tell you, just keep me safe
+162 | ESİR (kolluk · konuşur, bir yer söyler) | Fine, there's a post I know, I'll point it out
+163 | ESİR (kolluk · konuşur, bir yer söyler) | Here, I'll mark it, don't make me regret it
+164 | ESİR (asker · konuşur, bir yer söyler) | Coordinates, then we're done
+165 | ESİR (asker · konuşur, bir yer söyler) | Sector's yours, check your map
+166 | ESİR (kanun dışı · konuşur, bir yer söyler) | Alright, they hole up out there, look at your map
+167 | ESİR (kanun dışı · konuşur, bir yer söyler) | I'll show you, then we're even
+168 | ESİR (yağmacı · konuşur, bir yer söyler) | Out there, I marked it, now stay off me
+169 | ESİR (yağmacı · konuşur, bir yer söyler) | They sleep out there, you won't like it
+170 | ESİR (diğer · konuşur, bir yer söyler) | I'll show you where
+171 | ESİR (diğer · konuşur, bir yer söyler) | It's marked, don't ask twice
+172 | ESİR (sivil/işçi/kurtarıcı · söylemez) | I don't know, honestly
+173 | ESİR (sivil/işçi/kurtarıcı · söylemez) | I'd tell you if I knew
+174 | ESİR (kolluk · söylemez) | I can't, not yet
+175 | ESİR (kolluk · söylemez) | Ask me later
+176 | ESİR (asker · söylemez) | Not in my clearance
+· ESİR (asker · söylemez) | Not yet
+· ESİR (kanun dışı · söylemez) | You haven't earned that
+177 | ESİR (kanun dışı · söylemez) | Not yet, pal
+178 | ESİR (yağmacı · söylemez) | Never heard of it
+179 | ESİR (yağmacı · söylemez) | Try someone else
+· ESİR (diğer · söylemez) | I don't know
+· ESİR (diğer · söylemez) | Not today
+180 | ESİR (sivil/işçi/kurtarıcı · söyleyecek bir yer bilmiyor) | We never had a place, we moved around
+181 | ESİR (sivil/işçi/kurtarıcı · söyleyecek bir yer bilmiyor) | There's nowhere to show you
+182 | ESİR (kolluk · söyleyecek bir yer bilmiyor) | No post, we're on the road
+183 | ESİR (kolluk · söyleyecek bir yer bilmiyor) | Nothing to mark
+184 | ESİR (asker · söyleyecek bir yer bilmiyor) | No fixed position
+185 | ESİR (asker · söyleyecek bir yer bilmiyor) | Nothing to give you
+186 | ESİR (kanun dışı · söyleyecek bir yer bilmiyor) | No camp, just a few roads
+187 | ESİR (kanun dışı · söyleyecek bir yer bilmiyor) | Nothing to show
+188 | ESİR (yağmacı · söyleyecek bir yer bilmiyor) | We don't stay put
+· ESİR (yağmacı · söyleyecek bir yer bilmiyor) | Nothing to mark
+189 | ESİR (diğer · söyleyecek bir yer bilmiyor) | There's nowhere
+· ESİR (diğer · söyleyecek bir yer bilmiyor) | Nothing to show
+
+##### ESİR · Talk, or this gets worse #####
+# NEREDE: oyuncunun elindeki esir, oyuncu konuşma penceresinden bu satırı seçince cevap verir. Cevap esirin kim olduğuna (etiketteki grup) ve duruma göre seçilir; aynı etiketli satırlardan biri rastgele söylenir
+· OYUNCU SEÇENEĞİ | Talk, or this gets worse
+190 | ESİR (sivil/işçi/kurtarıcı · zorla sorguda konuşur) | Okay okay, stop, I'll show you
+191 | ESİR (sivil/işçi/kurtarıcı · zorla sorguda konuşur) | Please, don't, I'll tell you
+192 | ESİR (kolluk · zorla sorguda konuşur) | Fine, I'll tell you, put that down
+193 | ESİR (kolluk · zorla sorguda konuşur) | You didn't hear this from me
+194 | ESİR (asker · zorla sorguda konuşur) | Alright, you've got your answer
+195 | ESİR (asker · zorla sorguda konuşur) | I'll give you the position
+196 | ESİR (kanun dışı · zorla sorguda konuşur) | Alright, you win, look at your map
+197 | ESİR (kanun dışı · zorla sorguda konuşur) | Easy, easy, I'll tell you
+198 | ESİR (yağmacı · zorla sorguda konuşur) | Damn it, fine, it's marked
+199 | ESİR (yağmacı · zorla sorguda konuşur) | Fine, you got it
+· ESİR (diğer · zorla sorguda konuşur) | Alright, I'll tell you
+200 | ESİR (diğer · zorla sorguda konuşur) | Stop, I'll show you
+201 | ESİR (sivil/işçi/kurtarıcı · zorla sorguda direnir) | I can't, I really don't know
+202 | ESİR (sivil/işçi/kurtarıcı · zorla sorguda direnir) | Do what you want, I don't know
+203 | ESİR (kolluk · zorla sorguda direnir) | I'm not saying anything
+· ESİR (kolluk · zorla sorguda direnir) | Go ahead
+· ESİR (asker · zorla sorguda direnir) | Not a word
+· ESİR (asker · zorla sorguda direnir) | No comment
+204 | ESİR (kanun dışı · zorla sorguda direnir) | Go ahead, I don't scare easy
+205 | ESİR (kanun dışı · zorla sorguda direnir) | You hit like my mother
+206 | ESİR (yağmacı · zorla sorguda direnir) | Do it, I'll still say nothing
+· ESİR (yağmacı · zorla sorguda direnir) | Not a word
+· ESİR (diğer · zorla sorguda direnir) | I won't talk
+· ESİR (diğer · zorla sorguda direnir) | Not a word
+
+##### ESİR · Walk away, you're free #####
+# NEREDE: oyuncunun elindeki esir, oyuncu konuşma penceresinden bu satırı seçince cevap verir. Cevap esirin kim olduğuna (etiketteki grup) ve duruma göre seçilir; aynı etiketli satırlardan biri rastgele söylenir
+· OYUNCU SEÇENEĞİ | Walk away, you're free
+207 | ESİR (sivil/işçi/kurtarıcı · serbest bırakılınca) | Thank you, I won't forget this
+208 | ESİR (sivil/işçi/kurtarıcı · serbest bırakılınca) | I'll go quietly
+209 | ESİR (kolluk · serbest bırakılınca) | Understood, I'll leave
+210 | ESİR (kolluk · serbest bırakılınca) | I won't be back
+211 | ESİR (asker · serbest bırakılınca) | Copy, leaving
+· ESİR (asker · serbest bırakılınca) | Moving out
+212 | ESİR (kanun dışı · serbest bırakılınca) | You're letting me walk, huh
+213 | ESİR (kanun dışı · serbest bırakılınca) | I owe you one
+214 | ESİR (yağmacı · serbest bırakılınca) | Don't expect me to like you for it
+215 | ESİR (yağmacı · serbest bırakılınca) | I'm gone
+· ESİR (diğer · serbest bırakılınca) | Thanks
+· ESİR (diğer · serbest bırakılınca) | I'm gone
+##### ESİR · I'm handing you over #####
+# NEREDE: oyuncunun elindeki esir, oyuncu konuşma penceresinden bu satırı seçince cevap verir. Cevap esirin kim olduğuna (etiketteki grup) ve duruma göre seçilir; aynı etiketli satırlardan biri rastgele söylenir
+· OYUNCU SEÇENEĞİ | I'm handing you over
+216 | ESİR (sivil/işçi/kurtarıcı · kolluğa teslim edilirken) | Please, not them
+217 | ESİR (sivil/işçi/kurtarıcı · kolluğa teslim edilirken) | I'll do what they say
+· ESİR (kolluk · kolluğa teslim edilirken) | Understood
+218 | ESİR (kolluk · kolluğa teslim edilirken) | I'll answer for it
+219 | ESİR (asker · kolluğa teslim edilirken) | Taken into custody, noted
+220 | ESİR (asker · kolluğa teslim edilirken) | I'll answer to them
+221 | ESİR (kanun dışı · kolluğa teslim edilirken) | Rotten deal, but fine
+222 | ESİR (kanun dışı · kolluğa teslim edilirken) | Whatever, it's over
+223 | ESİR (yağmacı · kolluğa teslim edilirken) | Don't do this
+· ESİR (yağmacı · kolluğa teslim edilirken) | I'll remember this
+224 | ESİR (diğer · kolluğa teslim edilirken) | Please no
+· ESİR (diğer · kolluğa teslim edilirken) | Fine
+
+##### ESİR · Come with me #####
+# NEREDE: oyuncunun elindeki esir, oyuncu konuşma penceresinden bu satırı seçince cevap verir. Cevap esirin kim olduğuna (etiketteki grup) ve duruma göre seçilir; aynı etiketli satırlardan biri rastgele söylenir
+· OYUNCU SEÇENEĞİ | Come with me
+· ESİR (sivil/işçi/kurtarıcı · henüz katılmaz) | I can't, I'm sorry
+· ESİR (sivil/işçi/kurtarıcı · henüz katılmaz) | Not yet
+225 | ESİR (kolluk · henüz katılmaz) | I can't switch sides
+· ESİR (kolluk · henüz katılmaz) | Not yet
+· ESİR (asker · henüz katılmaz) | Negative
+· ESİR (asker · henüz katılmaz) | Not yet
+· ESİR (kanun dışı · henüz katılmaz) | Not yet, pal
+· ESİR (kanun dışı · henüz katılmaz) | Not today
+· ESİR (yağmacı · henüz katılmaz) | Not a chance
+· ESİR (yağmacı · henüz katılmaz) | Not yet
+· ESİR (diğer · henüz katılmaz) | Not yet
+· ESİR (diğer · henüz katılmaz) | I can't
+226 | ESİR (sivil/işçi/kurtarıcı · katılmayı kabul eder) | I'll stick with you, you've been fair
+· ESİR (sivil/işçi/kurtarıcı · katılmayı kabul eder) | Lead the way
+227 | ESİR (kolluk · katılmayı kabul eder) | I'll follow you, you've been straight
+· ESİR (kolluk · katılmayı kabul eder) | Lead on
+228 | ESİR (asker · katılmayı kabul eder) | I'll follow orders, yours now
+· ESİR (asker · katılmayı kabul eder) | Lead the way
+· ESİR (kanun dışı · katılmayı kabul eder) | Alright, I'm with you
+· ESİR (kanun dışı · katılmayı kabul eder) | Lead the way
+229 | ESİR (yağmacı · katılmayı kabul eder) | I'm with you, don't make me regret it
+· ESİR (yağmacı · katılmayı kabul eder) | Lead the way
+· ESİR (diğer · katılmayı kabul eder) | I'm with you
+· ESİR (diğer · katılmayı kabul eder) | Lead on
+
+##### ESİR · This ends here #####
+# NEREDE: oyuncunun elindeki esir, oyuncu konuşma penceresinden bu satırı seçince cevap verir. Cevap esirin kim olduğuna (etiketteki grup) ve duruma göre seçilir; aynı etiketli satırlardan biri rastgele söylenir
+· OYUNCU SEÇENEĞİ | This ends here
+230 | ESİR (sivil/işçi/kurtarıcı · öldürülmeden hemen önce) | No, please
+231 | ESİR (sivil/işçi/kurtarıcı · öldürülmeden hemen önce) | Don't do it
+232 | ESİR (kolluk · öldürülmeden hemen önce) | Do it then
+· ESİR (kolluk · öldürülmeden hemen önce) | Make it quick
+233 | ESİR (asker · öldürülmeden hemen önce) | Get it over with
+· ESİR (asker · öldürülmeden hemen önce) | Make it quick
+· ESİR (kanun dışı · öldürülmeden hemen önce) | Go on then
+234 | ESİR (kanun dışı · öldürülmeden hemen önce) | Do it
+235 | ESİR (yağmacı · öldürülmeden hemen önce) | Do it, coward
+236 | ESİR (yağmacı · öldürülmeden hemen önce) | Pull the trigger
+· ESİR (diğer · öldürülmeden hemen önce) | Please no
+· ESİR (diğer · öldürülmeden hemen önce) | Do it
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · open #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+237 | TELSİZ (US Military, cevap şeridinin sorusu) | Attention survivor on this channel, We are looking for one person in the Knox zone, State your name, we need to know who we are talking to
+238 | TELSİZ (US Military, cevap şeridinin sorusu, koşullu çeşit) | This is the US military again, The offer is still open, state your name
+· OYUNCU SEÇENEĞİ | {name}, that's me
+· OYUNCU SEÇENEĞİ | Who is asking
+· OYUNCU SEÇENEĞİ | Fuck you military scum
+· OYUNCU SEÇENEĞİ | Say nothing, listen
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · who #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+239 | TELSİZ (US Military, cevap şeridinin sorusu) | Who we are is not your concern, Name first, then I answer anything you want
+· OYUNCU SEÇENEĞİ | {name}, now talk
+· OYUNCU SEÇENEĞİ | Put your officer on
+· OYUNCU SEÇENEĞİ | Prove you are military
+· OYUNCU SEÇENEĞİ | Forget it
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · defy1 #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+240 | TELSİZ (US Military, cevap şeridinin sorusu) | Say again, survivor, You are on an open channel, everyone is hearing you
+· OYUNCU SEÇENEĞİ | You heard me, military scum
+· OYUNCU SEÇENEĞİ | Forget it, I was angry
+· OYUNCU SEÇENEĞİ | Say it louder, let Knox hear
+· OYUNCU SEÇENEĞİ | Send your bird, I'll wait with a rifle
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · listen #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+241 | TELSİZ (US Military, cevap şeridinin sorusu) | I know someone is on the line, the carrier is open, Say something, a name is enough
+· OYUNCU SEÇENEĞİ | {name}
+· OYUNCU SEÇENEĞİ | Who is that officer
+· OYUNCU SEÇENEĞİ | Click off
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · how #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+242 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu) | Your trail's easy to read.. long run, still breathing
+243 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu, koşullu çeşit) | Word travels, people on the road talk about you, mostly good
+244 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu, koşullu çeşit) | Your name came up in files we do not like, do not read into it
+· OYUNCU SEÇENEĞİ | Go on
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · open_ch #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+245 | TELSİZ (US Military, cevap şeridinin sorusu) | Open means open, every survivor and every faction on this band hears us, Raiders, soldiers, kids with a handset, all of them
+· OYUNCU SEÇENEĞİ | Understood, go on
+· OYUNCU SEÇENEĞİ | Then why use it
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · comp_early #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+246 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu) | How many are with you?, Seats are tight, let me say the offer first and then we talk numbers
+· OYUNCU SEÇENEĞİ | Say it
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · officer_intro #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+247 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu) | Easy, easy.. this is Captain Ruiz, my operator plays it by the book, We lost track of one survivor out there, I need a name, I need to know it's you
+· OYUNCU SEÇENEĞİ | {name}, confirm it
+· OYUNCU SEÇENEĞİ | Why do you need me
+· OYUNCU SEÇENEĞİ | I don't trust you
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · proof #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+248 | TELSİZ (US Military, cevap şeridinin sorusu) | Authentication code is Kestrel Nine, That is all you get on an open channel
+· OYUNCU SEÇENEĞİ | Fine, {name} here
+· OYUNCU SEÇENEĞİ | Not good enough
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · defy2 #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+249 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu) | That's ENOUGH, This is Captain Ruiz, I'm the one who has to log this, Last chance to take it back
+· OYUNCU SEÇENEĞİ | Log it
+· OYUNCU SEÇENEĞİ | Fine, I take it back
+· OYUNCU SEÇENEĞİ | Come near me and I'll shoot
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · bargain #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+250 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu) | Ruiz here, I'll give it to you straight
+· OYUNCU SEÇENEĞİ | Can my people come
+· OYUNCU SEÇENEĞİ | What do you offer
+· OYUNCU SEÇENEĞİ | What about Knox and the quarantine
+· OYUNCU SEÇENEĞİ | Who are you really
+· OYUNCU SEÇENEĞİ | All right, I've heard enough
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · open_why #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+251 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu) | Our long range sets are dead, this is the only band that still carries, I don't like it either, trust me
+· OYUNCU SEÇENEĞİ | Fine, back to it
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · bring #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+252 | TELSİZ (US Military, cevap şeridinin sorusu) | Bring what you can carry and nothing that slows you, Weapons stay on you, eat and sleep before the day
+· OYUNCU SEÇENEĞİ | Got it
+· OYUNCU SEÇENEĞİ | Will the tower be clear
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · late #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+253 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu) | You get thirty minutes, no more, After that the bird lifts and we try again in three days, if there's fuel
+· OYUNCU SEÇENEĞİ | Fair enough
+· OYUNCU SEÇENEĞİ | Thirty minutes is nothing, give me longer
+· OYUNCU SEÇENEĞİ | Then I'm not coming
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · comp #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+254 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu) | How many are with you?, Seats are tight, I can't promise more than one extra
+· OYUNCU SEÇENEĞİ | Then we all stay
+· OYUNCU SEÇENEĞİ | Two seats or no deal
+· OYUNCU SEÇENEĞİ | I'll come alone then
+· OYUNCU SEÇENEĞİ | Ask command, they will find room
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · desperate #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+255 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu) | Because when the comms go, the line closes with 'em, I'm not supposed to tell you that
+· OYUNCU SEÇENEĞİ | Then I'll be there
+· OYUNCU SEÇENEĞİ | That sounds like a trap
+· OYUNCU SEÇENEĞİ | Let me think again
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · refuse1 #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+256 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu) | I'll ask once more.. you sure?, A seat with your name on it, roof of the Oris Tower, 14:00, 3 days
+· OYUNCU SEÇENEĞİ | I'm sure, forget me
+· OYUNCU SEÇENEĞİ | Why me
+· OYUNCU SEÇENEĞİ | Wait, I'll come
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · b_offer #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+257 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu) | A bed, food, a doctor and a wall that holds, A safe zone behind the quarantine line, nobody asks about your past
+258 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu, koşullu çeşit) | A place to hide and a clean slate, I leave your file where it is
+· OYUNCU SEÇENEĞİ | Go on
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · b_knox #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+259 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu) | Knox is lost outside the cordon, we hold what we hold, The quarantine line doesn't move for anyone, not you, not me
+· OYUNCU SEÇENEĞİ | I see
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · b_who #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+260 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu) | Captain Ruiz, third relief, I lost my unit in the first month, I'm what's left of the people you wanted to hear from
+· OYUNCU SEÇENEĞİ | Sorry to hear it
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · tower #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+261 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu) | No.. expect company on the way up, that's why I said careful, Whoever lives in that tower wasn't invited to our party
+· OYUNCU SEÇENEĞİ | I'll clear it myself
+· OYUNCU SEÇENEĞİ | Then give me cover from the air
+· OYUNCU SEÇENEĞİ | Too hot for me
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · trap #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+262 | TELSİZ (US Military, cevap şeridinin sorusu) | A trap needs bait, You are one hungry survivor, we would not burn a helicopter on that
+· OYUNCU SEÇENEĞİ | Fair, I'll be there
+· OYUNCU SEÇENEĞİ | Still no
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · why_me #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuyu arar. Bu satır, oyuncunun cevap seçtiği şeridin üstünde TEK bir soru metni olarak görünür: ordunun ayrı ayrı söylediği cümleler oyunda ', ' ile art arda eklenmiş. Cümleleri aynı sırayla çevir, aralarına yine ', ' koy (cümle sonuna nokta koyma, son cümle hariç)
+263 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu) | Because you're still alive, after all this time, We need people who know how to stay that way
+264 | TELSİZ (Captain Ruiz, cevap şeridinin sorusu, koşullu çeşit) | Because people follow you, we want that on our side of the line
+· OYUNCU SEÇENEĞİ | Say that again
+· OYUNCU SEÇENEĞİ | Still no

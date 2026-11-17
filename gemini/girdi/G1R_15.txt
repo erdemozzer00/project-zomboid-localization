@@ -1,0 +1,443 @@
+# PAKET G1R · parça 15/35 · satır 4952-5293 (342 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar oyunda şu an skill'den önceki eski bir çeviriyle görünüyor; sıfırdan, İngilizceden kur. Her başlığın altındaki 'NEREDE:' oyuncunun bu sözle nasıl karşılaştığını, '#' notu sahneyi anlatır. Önce bunları oku, satırı o anda o yerde duyulacak sözle yaz.
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+##### NPC_ASKS_ROAD #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# NPC kendiliğinden oyuncuya geldiği yolun durumunu, yolda tehlike olup olmadığını soruyor.
+4952 | st=friendly | See anything on your way here I should know about?
+4953 | st=friendly | How was the way here? Anything bad?
+4954 | st=friendly | Any trouble behind you? I'd rather hear it from you
+4955 | st=friendly | What did you run into out there?
+4956 | st=friendly | Anything I should keep away from if I go that way?
+4957 | st=friendly | Getting here go alright, or did you have to run?
+4958 | st=neutral | Anything happening out there?
+4959 | st=neutral | You see much trouble on your way here?
+4960 | st=neutral | Anything I should watch for if I go that way?
+4961 | st=neutral | What's it like back where you came from?
+4962 | st=neutral | Did you pass anything dangerous?
+4963 | st=neutral | How's it looking where you came from?
+4964 | st=careful | Anything following you here?
+4965 | st=careful | You bring any trouble with you?
+4966 | st=careful | What's behind you? Anything I need to worry about?
+4967 | st=careful | It clear where you came from?
+4968 | st=careful | You see anything bad on the way here?
+4969 | st=careful | Any trouble out there? I'm asking about where you came from, not your business
+
+##### ORDER_ACK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Emri aldı, onaylıyor.
+4970 | reg=civilian,family,worker,rescue | Okay, I'll do it
+4971 | reg=civilian,family,worker,rescue | Yeah yeah, I heard ya
+4972 | reg=civilian,family,worker,rescue | I'll try
+4973 | reg=civilian,family,worker,rescue | Got it, I think
+4974 | reg=civilian,family,worker,rescue | Yeah, okay
+4975 | reg=civilian,family,worker,rescue | Yes, yes, okay, I'm doing it
+4976 | reg=civilian,family,worker,rescue | You got it, doing it now
+4977 | reg=civilian,family,worker,rescue | Sure thing, right away
+4978 | reg=civilian,family,worker,rescue|tmp=fresh | I'll- yeah, I'll try, no promises though
+
+##### ORD_ASK_ORDERS #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+4979 | reg=civilian,family,worker,rescue | Why are you asking me? I'm not in the military, I'm a plumber
+
+##### ORD_ASK_SHELTER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+4980 | reg=civilian,family,worker,rescue | Taking people in? Maybe, we've got limited space, depends who you are
+4981 | reg=civilian,family,worker,rescue | I heard of a place, but I don't know if it's real, I wouldn't bet my life on it
+4982 | reg=civilian,family,worker,rescue | We took in a couple of folks last week, but we're full now, I'm sorry
+4983 | reg=civilian,family,worker,rescue | Shelter? Ask around, someone might have a spare room, a barn, anything
+4984 | reg=civilian,family,worker,rescue | There's a rumor of a safe spot, but rumors die as fast as people
+4985 | reg=civilian,family,worker,rescue | We can't take anyone, but I can point you in a direction, for what it's worth
+4986 | reg=civilian,family,worker,rescue | We heard a church was taking people in, might be a rumor
+4987 | reg=civilian,family,worker,rescue | Not that I know of, everyone's staying put or dead
+4988 | reg=civilian,family,worker,rescue|tmp=fresh | Please, if you find a place, tell me, tell me, I'm desperate too
+4989 | reg=family | Our door's open to anyone in need, child, anyone
+4990 | reg=civilian,family,worker,rescue|world=water | There's talk of a place past the river, nobody's come back to confirm
+4991 | reg=civilian,family,worker,rescue|world=fence | Try the high school, last I heard, it had a fence
+
+##### ORD_AT_EASE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+4992 | reg=civilian,family,worker,rescue|tmp=fresh | Oh, thank you, thank you, I'm going, I won't forget this
+4993 | reg=civilian,family,worker,rescue|tmp=fresh | Oh thank God, thank you, thank you, I'm going, I'm going
+4994 | reg=civilian,family,worker,rescue|tmp=fresh | Thank you- lowering 'em, see, no sudden moves
+4995 | reg=civilian,family,worker,rescue|tmp=fresh | Going- I'm going, thank you, Jesus, thank you
+4996 | reg=civilian,family,worker,rescue|tmp=seasoned | Finally, took you long enough, my arms were killing me
+4997 | reg=civilian,family,worker,rescue|tmp=seasoned | Finally, my arms were killing me
+4998 | reg=civilian,family,worker,rescue|tmp=seasoned | Thanks, now beat it before I change my mind
+4999 | reg=civilian,family,worker,rescue|tmp=seasoned | Thanks, I guess, now beat it
+5000 | reg=family | Lord, I thought we were done for, thank you kindly
+5001 | reg=civilian,family,worker,rescue | Thank you, thank you, we'll go
+5002 | reg=civilian,family,worker,rescue | Oh God, okay, I'm going, I'm going
+5003 | reg=civilian,family,worker,rescue | Thank you... I won't forget you didn't hurt us
+
+##### ORD_DROP_OK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+5004 | reg=civilian,family,worker,rescue|tmp=fresh | Putting it down- slow, see? I'm so scared I can't feel my hands
+5005 | reg=civilian,family,worker,rescue|tmp=fresh | It's down, it's down, I dropped it, please don't, please...
+5006 | reg=civilian,family,worker,rescue|tmp=fresh | Take it, take it, I never wanted the thing, my dad made me carry it
+5007 | reg=civilian,family,worker,rescue|tmp=fresh | Okay, dropping it, it's on the ground, see? don't shoot me
+5008 | reg=civilian,family,worker,rescue|tmp=fresh | Down! It's down! Oh God, I almost dropped it on my foot, sorry, sorry
+5009 | reg=civilian,family,worker,rescue|tmp=fresh | It's down, it's down, it's on the ground, I don't want it, I never wanted it!
+5010 | reg=civilian,family,worker,rescue|tmp=fresh | Here, here, take it, it was my father's, I don't even know how to use it
+5011 | reg=civilian,family,worker,rescue|tmp=fresh | Please, don't hurt me, I dropped it, I DROPPED it, see?
+5012 | reg=civilian,family,worker,rescue|tmp=fresh | Oh God, oh God, I'm shaking so hard I nearly shot myself, there, it's down
+5013 | reg=civilian,family,worker,rescue|tmp=seasoned | It's down, don't shoot
+5014 | reg=civilian,family,worker,rescue|tmp=seasoned | There, it's on the floor, are you happy? now back off
+5015 | reg=civilian,family,worker,rescue|tmp=seasoned | Dropping it, but don't think this is over
+5016 | reg=civilian,family,worker,rescue|tmp=seasoned | Weapon's down, fine, go on, say what you want to say
+5017 | reg=civilian,family,worker,rescue|tmp=seasoned | It's down, it's down, relax, jeez
+5018 | reg=civilian,family,worker,rescue|tmp=seasoned | There, down, now we're both unarmed, happy?
+5019 | reg=civilian,family,worker,rescue|tmp=seasoned | Fine, dropping it, stop waving that thing around
+5020 | reg=civilian,family,worker,rescue|tmp=seasoned | It's down, you can relax now, jeez
+5021 | reg=civilian,family,worker,rescue|tmp=seasoned | It's down, but I'm grabbing it again if you try anything
+5022 | reg=civilian,family,worker,rescue|st=careful,neutral | Down, there, don't come closer, I mean it
+5023 | reg=family | Honey, there you go, no need to get excited
+5024 | reg=civilian,family,worker,rescue|tmp=veteran | Dropped
+5025 | reg=civilian,family,worker,rescue|tmp=veteran | Down
+5026 | reg=civilian,family,worker,rescue | Here, I'm dropping it, please, it's down
+5027 | reg=civilian,family,worker,rescue | I never wanted to use it anyway, it's on the ground
+5028 | reg=civilian,family,worker,rescue | Look, it's down, it's on the ground- don't hurt us!
+5029 | reg=civilian,family,worker,rescue | Dropping it, I'm dropping it
+
+##### ORD_FOLLOW_OK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+5030 | reg=civilian,family,worker,rescue | Right behind you, don't go too fast
+5031 | reg=civilian,family,worker,rescue | Go ahead, I'm right behind you
+5032 | reg=civilian,family,worker,rescue | I'll come with you, just don't leave me behind
+5033 | reg=civilian,family,worker,rescue | Alright, I'm right behind you, please be careful
+5034 | reg=civilian,family,worker,rescue | Anywhere's better than here, go on, I'm following
+5035 | reg=civilian,family,worker,rescue|tmp=fresh | I'll come, I'll come- just don't leave me out here, please
+5036 | reg=civilian,family,worker,rescue|tmp=fresh | Right on your heels, not a peep out of me
+5037 | reg=civilian,family,worker,rescue|tmp=fresh | Yes, yes, I'm coming, lead the way, I'll do whatever you say
+5038 | reg=civilian,family,worker,rescue|tmp=fresh | Okay!! Okay, I'll follow, I'll be right behind you, don't go too fast!
+5039 | reg=civilian,family,worker,rescue|tmp=fresh | Lead the way, lead the way, I'll do exactly what you say
+5040 | reg=civilian,family,worker,rescue|tmp=fresh | Right behind you, right behind, step for step
+5041 | reg=civilian,family,worker,rescue|tmp=seasoned | I'm on your tail, quit looking back at me and walk
+5042 | reg=civilian,family,worker,rescue|tmp=seasoned | Fine, lead on, but I'm watching everything
+5043 | reg=civilian,family,worker,rescue|tmp=seasoned | Following, following, hurry up, would you?
+5044 | reg=civilian,family,worker,rescue|tmp=seasoned | I'm behind you, but if this is a trap, I'll haunt you
+5045 | reg=civilian,family,worker,rescue|tmp=seasoned | Lead on, I'm on your heels
+5046 | reg=civilian,family,worker,rescue|tmp=seasoned | Fine, walking, watch the pace
+5047 | reg=family | Alright, dear, I'm coming, take it slow, my hips aren't what they used to be
+5048 | reg=family | Slowly, dear, I'm not as quick as I used to be
+
+##### ORD_FRISK_EMPTY #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+5049 | reg=civilian,family,worker,rescue | Nothing, there's nothing left, I already gave it all away
+5050 | reg=civilian,family,worker,rescue | You've got everything, there's nothing else, honest
+5051 | reg=civilian,family,worker,rescue | Search me, search me, I've got nothing
+5052 | reg=civilian,family,worker,rescue | I've got nothing else, nothing, look
+5053 | reg=civilian,family,worker,rescue | That's it, I swear, that's everything
+5054 | reg=civilian,family,worker,rescue | There's nothing left, please believe me
+
+##### ORD_FRISK_FAR #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+5055 | reg=civilian,family,worker,rescue | Come over here and search me, I'm not moving, I've got nothing to hide
+5056 | reg=civilian,family,worker,rescue | Come closer if you want to search, I'm not going to throw it to you
+5057 | reg=civilian,family,worker,rescue | You want to check me? Come check me, I'm not moving
+5058 | reg=civilian,family,worker,rescue | I'm not moving, if you want it, come here, slow
+5059 | reg=civilian,family,worker,rescue | Come closer, I'm not putting my hands down
+
+##### ORD_FRISK_ITEMS #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+5060 | reg=civilian,family,worker,rescue|tmp=fresh | Please, not that, please, it's all I have left, please...
+5061 | reg=civilian,family,worker,rescue|tmp=fresh | Take it, take it all- but not the picture, please, it's just a picture!
+5062 | reg=civilian,family,worker,rescue|tmp=fresh | That's everything, there's nothing else, that's it
+5063 | reg=civilian,family,worker,rescue|tmp=fresh | Take it, but leave the photo, please, it's my son
+5064 | reg=civilian,family,worker,rescue|tmp=seasoned | There, empty pockets, take everything, you low-life
+5065 | reg=civilian,family,worker,rescue|tmp=seasoned | Fine, take it all, I hope it chokes you
+5066 | reg=civilian,family,worker,rescue|tmp=seasoned | Go ahead, take it, I've lost more than this
+5067 | reg=civilian,family,worker,rescue|tmp=seasoned | There, empty pockets, take it all, I hope it chokes you
+5068 | reg=civilian,family,worker,rescue|tmp=seasoned | Fine, fine, take what you want, I've lost more than this
+5069 | reg=family | Oh, honey, not my medicine, please, leave me my medicine
+5070 | reg=civilian,family,worker,rescue | That's it, that's everything we've got, honest to God
+5071 | reg=civilian,family,worker,rescue | Take it, just leave us enough to last the night
+5072 | reg=civilian,family,worker,rescue | Please, that's our food. ...Fine, take it
+
+##### ORD_FRISK_WEAPONS #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+5073 | reg=civilian,family,worker,rescue|tmp=fresh | Here, here, take them, please, I don't want them anyway
+5074 | reg=civilian,family,worker,rescue|tmp=fresh | Take them, take them, I just want to go home
+5075 | reg=civilian,family,worker,rescue|tmp=fresh | That's all of it, that's it, that's everything
+5076 | reg=civilian,family,worker,rescue|tmp=fresh | Take them, take them all, I never wanted them anyway
+5077 | reg=civilian,family,worker,rescue|tmp=fresh | This is all I have, it's all of it
+5078 | reg=civilian,family,worker,rescue|tmp=seasoned | There, take them, you've got your toys now
+5079 | reg=civilian,family,worker,rescue|tmp=seasoned | Take them all, I'll find another one
+5080 | reg=civilian,family,worker,rescue|tmp=seasoned | Here, that's all I've got, you happy?
+5081 | reg=civilian,family,worker,rescue|tmp=seasoned | There, take it, that's everything, you vulture
+5082 | reg=civilian,family,worker,rescue|tmp=seasoned | Fine, take 'em, I know where to find more
+5083 | reg=family | Take it, honey, take it, we don't want any trouble
+5084 | reg=family | Take it, dear, take whatever you need
+5085 | reg=civilian,family,worker,rescue | Take it, take it all, just don't hurt me
+5086 | reg=civilian,family,worker,rescue | That's all I have, please, just go
+5087 | reg=civilian,family,worker,rescue | Here, it's the only thing keeping us alive, take it
+
+##### ORD_GROUP_HANDS_UP #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+5088 | reg=civilian,family | Mine are up too, don't shoot!
+5089 | reg=civilian,family | Don't shoot, please don't shoot us
+5090 | reg=civilian,family | Everybody stay calm, nobody move
+5091 | reg=worker | Hands up, fellas, do it
+5092 | reg=worker | Not worth dying over, hands up
+5093 | reg=worker | Easy now, nobody's reaching for nothing
+5094 | reg=worker | Do as they say, just do it
+5095 | reg=rescue | Easy, we don't want a fight
+5096 | reg=rescue | Please, we're only trying to help people
+5097 | reg=rescue | Hands up, everyone, slowly
+5098 | reg=rescue | We don't want any harm, hands up
+5099 | reg=civilian,family,worker,rescue|tmp=fresh | Don't shoot us, please, please, we're not armed!
+5100 | reg=civilian,family,worker,rescue|tmp=fresh | They got GUNS!! Up, get 'em up, everybody, UP!
+5101 | reg=civilian,family,worker,rescue|tmp=fresh | We surrender, we surrender, please!
+5102 | reg=civilian,family,worker,rescue|tmp=fresh | Please don't shoot us, we're just people, we're just people!
+5103 | reg=civilian,family,worker,rescue|tmp=seasoned | Hands up, no heroes, no heroes
+5104 | reg=civilian,family,worker,rescue|tmp=seasoned | Put 'em up, everybody, put 'em up, don't be stupid
+5105 | reg=civilian,family,worker,rescue|tmp=seasoned | Easy, everyone, hands up, nobody move
+5106 | reg=civilian,family,worker,rescue|tmp=seasoned | Hands up, nobody try anything dumb
+5107 | reg=civilian,family,worker,rescue|tmp=seasoned | Up, all of you, don't get us killed
+5108 | reg=family | Hands up... come on it's alright just do it
+
+##### ORD_HANDS_UP_OK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+5109 | reg=civilian,family,worker,rescue|tmp=fresh | Hands are up- see 'em? God, this can't be real
+5110 | reg=civilian,family,worker,rescue|tmp=fresh | Hands up, hands up, I can't stop shaking, I'm so sorry
+5111 | reg=civilian,family,worker,rescue|tmp=fresh | Okay!! Okay, they're up, they're UP, don't shoot, please don't shoot...
+5112 | reg=civilian,family,worker,rescue|tmp=fresh | Hands up, hands up, I'm doing it, I'm- oh God, I'm shaking so bad
+5113 | reg=civilian,family,worker,rescue|tmp=fresh | Please!! I've got kids, I've got nothing, here, look, look!
+5114 | reg=civilian,family,worker,rescue|tmp=fresh | I'm unarmed, I'm unarmed, no, really, look at my hands, see them?
+5115 | reg=civilian,family,worker,rescue|tmp=fresh | Don't hurt me, don't hurt me, I'll do whatever you say, whatever you say...
+5116 | reg=civilian,family,worker,rescue|tmp=fresh | Up, up they go, God, why, why is this happening...
+5117 | reg=civilian,family,worker,rescue|tmp=fresh | Don't shoot!! Hands- look, they're empty, DON'T SHOOT!!
+5118 | reg=civilian,family,worker,rescue|tmp=fresh | I'm not armed, I'm just a- I used to sell insurance, please!
+5119 | reg=civilian,family,worker,rescue|tmp=fresh | There, there, they're up, they're so high, they're touching the sky, please
+5120 | reg=civilian,family,worker,rescue|tmp=fresh | Mercy, mercy, mercy, I'll do anything, anything you say, anything...
+5121 | reg=civilian,family,worker,rescue|tmp=fresh | Whatever you want, whatever, just don't hurt my little girl, please
+5122 | reg=civilian,family,worker,rescue|tmp=fresh | They're up, they're up... sorry, God, I'm so sorry...
+5123 | reg=civilian,family,worker,rescue|tmp=seasoned | Up, and no tricks, I'm too old for tricks
+5124 | reg=civilian,family,worker,rescue|tmp=seasoned | Hands up, let's talk like adults
+5125 | reg=civilian,family,worker,rescue|tmp=seasoned | Hands up, see? Nobody's reaching for nothing, relax
+5126 | reg=civilian,family,worker,rescue|tmp=seasoned | Fine, fine, there, you've got my attention, now what do you want?
+5127 | reg=civilian,family,worker,rescue|tmp=seasoned | Up they go, slow and easy, you're the one with the gun, you call it
+5128 | reg=civilian,family,worker,rescue|tmp=seasoned | Alright, relax, I'm not going to do anything stupid
+5129 | reg=civilian,family,worker,rescue|tmp=seasoned | Jeez, fine, hands up, happy now?
+5130 | reg=civilian,family,worker,rescue|tmp=seasoned | Hands are up, no weapon, I'm not stupid enough to try something
+5131 | reg=civilian,family,worker,rescue|tmp=seasoned | Up, up they go, take your time, I'm not going anywhere
+5132 | reg=civilian,family,worker,rescue|tmp=seasoned | Fine, there, you've got me, what now?
+5133 | reg=civilian,family,worker,rescue|tmp=seasoned | Calm down, I'm doing it, you don't have to wave that around
+5134 | reg=civilian,family,worker,rescue|tmp=seasoned | Hands up, see? I'm a reasonable person, talk to me
+5135 | reg=civilian,family,worker,rescue|st=careful,neutral | Hands up, huh, you're making a mistake, but fine
+5136 | reg=family | Oh Lord... there hands up don't hurt me please!
+5137 | reg=family | Honey, I'm an old lady, hands up, what could I do to you?
+5138 | reg=family | My hands are up, honey, I'm an old woman, please, I mean no harm
+5139 | reg=family | There, there, please, please be gentle
+5140 | reg=civilian,family,worker,rescue|tmp=veteran | Hands up, slowly, no sudden moves
+5141 | reg=civilian,family,worker,rescue|tmp=veteran | Up, understood
+5142 | reg=civilian,family,worker,rescue | They're up, they're UP, see? Please don't shoot!
+5143 | reg=civilian,family,worker,rescue | Don't hurt me, look, my hands are empty
+5144 | reg=civilian,family,worker,rescue | Easy, easy, I'm doing it, hands are up
+5145 | reg=civilian,family,worker,rescue | Alright, whatever you say, just stay calm
+5146 | reg=civilian,family,worker,rescue | God, okay, I'm not armed, I swear
+
+##### ORD_LEAVE_OK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+5147 | reg=civilian,family,worker,rescue | Alright, we're leaving, no trouble
+5148 | reg=civilian,family,worker,rescue | Okay, we're going, we didn't want trouble
+5149 | reg=civilian,family,worker,rescue | Alright, we'll find somewhere else, come on, let's go
+5150 | reg=civilian,family,worker,rescue | We're leaving, please, just let us go in peace
+5151 | reg=civilian,family,worker,rescue | You don't have to ask twice, come on, move
+5152 | reg=civilian,family,worker,rescue|tmp=fresh | Okay, we're going, we're leaving, don't shoot, we're leaving!
+5153 | reg=civilian,family,worker,rescue|tmp=fresh | Come on, everyone, let's go, let's go before somebody gets hurt
+5154 | reg=civilian,family,worker,rescue|tmp=fresh | We're going, we're going, God, we're going...
+5155 | reg=civilian,family,worker,rescue|tmp=fresh | We'll find somewhere else, just... just don't hurt us
+5156 | reg=civilian,family,worker,rescue|tmp=fresh | We're going, we're going, we're leaving right now, please don't hurt anyone!
+5157 | reg=civilian,family,worker,rescue|tmp=fresh | We're going, we'll find someplace else... we always do, I guess
+5158 | reg=civilian,family,worker,rescue|tmp=seasoned | Fine, we're going, you don't have to be so rude about it
+5159 | reg=civilian,family,worker,rescue|tmp=seasoned | We heard you, come on, pack up, we're out
+5160 | reg=civilian,family,worker,rescue|tmp=seasoned | Alright, you win, we're gone, happy?
+5161 | reg=civilian,family,worker,rescue|tmp=seasoned | Fine, we're out, it's not like it was a palace anyway
+5162 | reg=civilian,family,worker,rescue|tmp=seasoned | We'll go, we'll go, no need to wave the gun at us
+5163 | reg=civilian,family,worker,rescue|tmp=seasoned | Pack up, everyone, we're not welcome here
+5164 | reg=family | Come on... we're leaving gather your things quickly!
+5165 | reg=family | Come along... we're leaving quickly!
+
+##### ORD_PRO_LAW #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu kendini meslek sahibi (polis, sağlıkçı, asker, tüccar) olarak tanıttı; NPC'nin buna cevabı.
+5166 | reg=civilian,family,worker,rescue | Thank God, a cop, a real cop, please tell me you've got backup
+5167 | reg=civilian,family,worker,rescue | You're law? Oh, that's a relief, a huge relief, we've been so scared
+5168 | reg=civilian,family,worker,rescue | A badge! Finally, someone who knows what they're doing, please help us
+5169 | reg=civilian,family,worker,rescue | Good, good, we have a few problems you might sort out
+5170 | reg=civilian,family,worker,rescue | Officer, I've never been so glad to see a uniform
+5171 | reg=civilian,family,worker,rescue | Thank God, a cop, please, can you help us? We've been alone for days
+5172 | reg=civilian,family,worker,rescue | You're police? Oh, thank God, there's so many of them out there
+5173 | reg=civilian,family,worker,rescue | A deputy... I almost cried, what do we do?
+5174 | reg=civilian,family,worker,rescue|tmp=fresh | Please, please help us, we don't know what to do, we need someone like you
+
+##### ORD_PRO_MEDIC #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu kendini meslek sahibi (polis, sağlıkçı, asker, tüccar) olarak tanıttı; NPC'nin buna cevabı.
+5175 | reg=civilian,family,worker,rescue | A medic?! Thank God- c'mon, this way, we got people hurting
+5176 | reg=civilian,family,worker,rescue | Please, please look at her, she's burning up, please
+5177 | reg=civilian,family,worker,rescue | You're a doctor? A nurse? Anything, anything, just help
+5178 | reg=civilian,family,worker,rescue | Finally, someone with training, I can finally rest my hands
+5179 | reg=civilian,family,worker,rescue | A doctor? Please, somebody here's hurt, can you look?
+5180 | reg=civilian,family,worker,rescue | You know medicine? Thank God, we're out of bandages
+5181 | reg=civilian,family,worker,rescue | Please, if you can help, help, we'll give what we can
+5182 | reg=civilian,family,worker,rescue|tmp=fresh | Oh thank God, do you know how to help injured people?
+
+##### ORD_PRO_MILITARY #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu kendini meslek sahibi (polis, sağlıkçı, asker, tüccar) olarak tanıttı; NPC'nin buna cevabı.
+5183 | reg=civilian,family,worker,rescue | A soldier? Oh, thank goodness, are the others coming?
+5184 | reg=civilian,family,worker,rescue | You served? Maybe you know what's going on, please, tell us
+5185 | reg=civilian,family,worker,rescue | A veteran! We could use your help, we really could
+5186 | reg=civilian,family,worker,rescue | You were in the army? That's good, I feel better already
+5187 | reg=civilian,family,worker,rescue | A soldier, please, tell me you know what to do
+5188 | reg=civilian,family,worker,rescue | A veteran, thank God, someone who knows what they're doing
+5189 | reg=civilian,family,worker,rescue|tmp=fresh | Soldier? Are you here to rescue us? Please say yes
+
+##### ORD_PRO_TRADE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu kendini meslek sahibi (polis, sağlıkçı, asker, tüccar) olarak tanıttı; NPC'nin buna cevabı.
+5190 | reg=civilian,family,worker,rescue|world=generator | You can fix things? Oh, thank God, the generator's been dead for days
+5191 | reg=civilian,family,worker,rescue|world=door,building | A builder? Perfect, we could use some walls, some doors, some hope
+5192 | reg=civilian,family,worker,rescue | You're handy? Come, come, I've got a list as long as my arm
+5193 | reg=civilian,family,worker,rescue | A handyman, that's worth more than food right now
+5194 | reg=civilian,family,worker,rescue | You can build? Please, we'd pay anything for a hand with the boards
+5195 | reg=civilian,family,worker,rescue|world=building | You can fix stuff? I've got a leaky roof and a broken radio and a bad attitude
+5196 | reg=civilian,family,worker,rescue|tmp=fresh | A handyman?! Please, please, can you look at this, it's been broken forever
+5197 | reg=civilian,family,worker,rescue|world=door | You can fix things? We've got a door that won't stay shut, if you've got a minute
+
+##### ORD_REFUSE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+5198 | reg=civilian,family,worker,rescue|tmp=fresh | No!! No, I won't, I won't, leave us alone!
+5199 | reg=civilian,family,worker,rescue|tmp=fresh | I said no!! Get away from us!
+5200 | reg=civilian,family,worker,rescue|tmp=fresh | Back off!! Back OFF!! We have guns too!
+5201 | reg=civilian,family,worker,rescue|tmp=fresh | No!! No, no, no, I won't, you can't make me!
+5202 | reg=civilian,family,worker,rescue|tmp=fresh | Go away!! Leave us alone!! We have guns too!!
+5203 | reg=civilian,family,worker,rescue|tmp=fresh | I said NO, back off, back OFF!!
+5204 | reg=civilian,family,worker,rescue|tmp=seasoned | Not a chance, you're not getting anything from us
+5205 | reg=civilian,family,worker,rescue|tmp=seasoned | You must be out of your mind if you think I'm going to do that
+5206 | reg=civilian,family,worker,rescue|tmp=seasoned | Go to hell, we're not listening to you
+5207 | reg=civilian,family,worker,rescue|tmp=seasoned | Not a chance, you can shove that order up your ass
+5208 | reg=civilian,family,worker,rescue|tmp=seasoned | Make me, go ahead, just try
+5209 | reg=civilian,family,worker,rescue|tmp=seasoned | You really think you can boss us around? Think again
+5210 | reg=family | How dare you, we are a family, you leave us alone!
+5211 | reg=civilian,family,worker,rescue | No! No, get away from me! Stay back!
+5212 | reg=civilian,family,worker,rescue | You're crazy! I'm not doing anything you say!
+5213 | reg=civilian,family,worker,rescue | Leave us alone! Leave us ALONE!
+5214 | reg=civilian,family,worker,rescue | I won't let you hurt us! Back off!
+
+##### ORD_REFUSE_SOFT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+5215 | reg=civilian,family,worker,rescue|tmp=fresh | No, I'm sorry, I can't, please don't be mad, I just can't
+5216 | reg=civilian,family,worker,rescue|tmp=fresh | I don't want to, I really don't, please understand
+5217 | reg=civilian,family,worker,rescue|tmp=fresh | No... sorry, no, I can't do that
+5218 | reg=civilian,family,worker,rescue|tmp=fresh | I don't want to, I really don't, I'm too scared
+5219 | reg=civilian,family,worker,rescue|tmp=seasoned | No, thanks, I'm not doing that
+5220 | reg=civilian,family,worker,rescue|tmp=seasoned | I'd rather not, if it's all the same to you
+5221 | reg=civilian,family,worker,rescue|tmp=seasoned | Nope, I'll pass, find somebody else
+5222 | reg=civilian,family,worker,rescue|tmp=seasoned | Nah, I'll pass, find someone else
+5223 | reg=civilian,family,worker,rescue|tmp=seasoned | No thanks, not today
+5224 | reg=family | Oh, I couldn't, honey, I just couldn't
+5225 | reg=family | I couldn't, dear, I wouldn't know how
+5226 | reg=civilian,family,worker,rescue | I... I can't, I'm sorry, please don't ask me that
+5227 | reg=civilian,family,worker,rescue | No, I don't know you, I'm not doing that
+5228 | reg=civilian,family,worker,rescue | Please, I don't want any trouble, I'm just trying to get by
+5229 | reg=civilian,family,worker,rescue | I won't, you can't make me, please just go
+
+##### ORD_RESIST_FIGHT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+5230 | reg=civilian,family | No, no, I'm not doing this
+5231 | reg=civilian,family | You ain't taking our stuff!
+5232 | reg=civilian,family | Back off! I mean it!
+5233 | reg=civilian,family | Get away from us!
+5234 | reg=worker | I've worked too hard for this, no
+5235 | reg=worker | Get lost, last warning
+5236 | reg=worker | You want it? Come and get it
+5237 | reg=rescue | No, not like this, we'll defend ourselves
+5238 | reg=rescue | Please stop, we will not let you
+5239 | reg=rescue | Back away, I mean it
+5240 | reg=civilian,family,worker,rescue | Don't do it, don't, put it down, put it down!
+5241 | reg=civilian,family,worker,rescue | Oh no, they're going for a gun, everybody get ready!
+5242 | reg=civilian,family,worker,rescue | Screw this, I'm not going down without a fight!
+5243 | reg=civilian,family,worker,rescue | Fight back!! We're not giving up!
+5244 | reg=civilian,family,worker,rescue | Grab something, anything, now!
+
+##### ORD_RESIST_FLEE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+5245 | reg=civilian,family | I can't, I can't, I'm sorry! Run!
+5246 | reg=civilian,family | Go, go, everybody go!
+5247 | reg=civilian,family | No! I'm getting out of here!
+5248 | reg=civilian,family | Run! Just run!
+5249 | reg=worker | To hell with this, run!
+5250 | reg=worker | Not my fight, I'm leaving
+5251 | reg=worker | Come on, let's go! Move!
+5252 | reg=worker | Out of here, now!
+5253 | reg=rescue | We have to get out of here, go!
+5254 | reg=rescue | Go, everyone, go!
+5255 | reg=rescue | Please, please just let us leave!
+5256 | reg=civilian,family,worker,rescue|tmp=fresh | I'm not staying here!
+5257 | reg=civilian,family,worker,rescue|tmp=fresh | Oh God, scatter, scatter, split up!!
+5258 | reg=civilian,family,worker,rescue|tmp=fresh | I can't, I can't, I'm out of here!!
+5259 | reg=civilian,family,worker,rescue|tmp=fresh | RUN!! Go, go, GET OUT OF HERE!!
+5260 | reg=civilian,family,worker,rescue|tmp=fresh | You're not catching me!
+5261 | reg=civilian,family,worker,rescue|tmp=seasoned | Move, move, run, run, don't look back!
+5262 | reg=civilian,family,worker,rescue|tmp=seasoned | Screw this, I'm gone!
+5263 | reg=civilian,family,worker,rescue|tmp=seasoned | Scatter, scatter, meet up later!
+5264 | reg=civilian,family,worker,rescue|tmp=seasoned | Move, move, move, now!
+5265 | reg=family | RUN! Go go GO!
+5266 | reg=family | RUN!! Go on I'm right behind you!
+
+##### ORD_ROBBED_RELIEF #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu NPC'yi soydu; NPC'nin tepkisi (rahatlama ya da kaçış).
+5267 | reg=civilian,family | We're alive, we're alive
+5268 | reg=worker | That went bad, but we walk away
+5269 | reg=worker | Things are just things, we're breathing
+5270 | reg=worker | I'll be watching my back from now on
+5271 | reg=rescue | Everybody alright? Count off, is everybody here?
+5272 | reg=rescue | Thank God nobody was hurt
+5273 | reg=rescue | Check each other for wounds, then we move
+5274 | reg=civilian,family,worker,rescue|tmp=fresh | We're alive, we're alive, that's the main thing, we're alive
+5275 | reg=civilian,family,worker,rescue|tmp=fresh | Heads, count heads!! Is everybody here? Anybody missing?
+5276 | reg=civilian,family,worker,rescue|tmp=fresh | They're gone... Christ, I thought that was it
+5277 | reg=civilian,family,worker,rescue|tmp=seasoned | Damn, damn, damn, at least we've got our lives
+5278 | reg=civilian,family,worker,rescue|tmp=seasoned | Everybody okay? Anyone hurt? Check yourselves
+5279 | reg=civilian,family,worker,rescue|tmp=seasoned | Count heads, count heads, who's missing?
+5280 | reg=family | Thank the Lord, thank the Lord, we're all together
+
+##### ORD_ROBBED_RUN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu NPC'yi soydu; NPC'nin tepkisi (rahatlama ya da kaçış).
+5281 | reg=civilian,family | Please don't follow us! Please!
+5282 | reg=civilian,family | Oh God, go, GO, don't stop
+5283 | reg=civilian,family | Don't look back, just go
+5284 | reg=civilian,family | We're alive, keep going
+5285 | reg=worker | Damn thief, keep moving
+5286 | reg=worker | Years of work, gone, just go
+5287 | reg=worker | Don't turn around, walk fast
+5288 | reg=worker | Leave it, leave it, let's go
+5289 | reg=rescue | We're alive, that's what matters, go
+5290 | reg=rescue | Stay together, keep moving
+5291 | reg=civilian,family,worker,rescue|tmp=fresh | RUN!! Just run, c'mon, c'mon, don't turn around!!
+5292 | reg=civilian,family,worker,rescue|tmp=fresh | I'll remember your face!! I'll remember your face, you hear me?!
+5293 | reg=civilian,family,worker,rescue|tmp=seasoned | We were robbed in broad daylight, can you believe it?!

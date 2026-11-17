@@ -1,0 +1,65 @@
+{
+  "client_date": "2026-10-24",
+  "source_file": "C:\\Users\\Erdem\\Downloads\\duzeltmeler-20261024-1303.json",
+  "source_sha256": "d02733eed46eea7e1f0432e06ac3a008e1ae1b3173bc85b33f8ab53cd1cfa2b7",
+  "received": 625,
+  "actual_changes": 624,
+  "already_in_final_form": [
+    {
+      "row": 251,
+      "sekme": "Diyalog",
+      "anahtar": "RD_ALifeLine_301d5dbf7d0caea4",
+      "final_tr": "Sence Louisville'de hâlâ hayatta olan var mı? Kim olursa?",
+      "reason": "Yazım düzeltmesinden sonra mevcut onaylı çeviriyle aynı."
+    }
+  ],
+  "by_tab": {
+    "Diyalog": 603,
+    "Lua": 17,
+    "Sandbox": 2,
+    "IG_UI": 3
+  },
+  "proofread_rows": 63,
+  "unchanged_from_user_wording": 562,
+  "approved_style_exceptions": 4,
+  "packages": {
+    "K1a": 3,
+    "K1b": 2,
+    "K1c": 17,
+    "K1d": 602
+  },
+  "all_625_match_approved_delivery_and_html": true,
+  "unrelated_translations_unchanged": true,
+  "key_membership_and_order_unchanged": true,
+  "guard_scenarios_passed": 9,
+  "d5a_approved": false,
+  "backup": "C:\\Users\\Erdem\\Zomboid\\ALifeTR_Correction_Backups\\2026-10-24-100817",
+  "installed_steam_copy_present": false,
+  "steam_published": false,
+  "html_applied_edit_cleanup": {
+    "submitted_edits_retired": 625,
+    "proofread_receipts": 63,
+    "scenarios_passed": 6,
+    "newer_and_unsubmitted_edits_preserved": true,
+    "changed_source_or_translation_preserved": true
+  },
+  "workshop_preparation": "C:\\Users\\Erdem\\Zomboid\\Workshop\\ProjectALife_TR\\Contents\\mods\\ProjectALifeTR",
+  "original_download_unchanged": true,
+  "final_verification": {
+    "all_625_match_approved_delivery_html_workshop": true,
+    "actual_changed_values": {
+      "approved": 624,
+      "delivery": 624
+    },
+    "no_unrelated_translation_changes": true,
+    "unchanged_upstream_files": 1751,
+    "font_hook_unchanged": true,
+    "d5a_unapproved_rows": 1000,
+    "workshop_changed_files": [
+      "common/media/lua/shared/Translate/TR/IG_UI.json",
+      "common/media/lua/shared/Translate/TR/RadioData.json",
+      "common/media/lua/shared/Translate/TR/Sandbox.json"
+    ],
+    "original_download_unchanged": true
+  }
+}

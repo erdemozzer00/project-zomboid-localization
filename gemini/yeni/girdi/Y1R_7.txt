@@ -1,0 +1,401 @@
+# PAKET Y1R · parça 7/8 · satır 2027-2363 (337 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+# SAHNE: Konuşanlar SUÇ DÜNYASI: yağmacı haydutlar, kanun kaçakları, firari mahkumlar, sokak çeteleri, motosiklet çeteleri, organize suç adamları. Ton: kaba, kısa, tehditkar, alaycı; kendi aralarında laubali. Küfür KAYNAKTAKİ kadar (kaynakta yoksa ekleme). Yöresel ağız ya da internet argosu yok; sokak Türkçesi ölçülü.
+
+
+##### PANIC_DAY_GROUP #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Salgının ilk günlerinde panik (zombi görme, silah sesi, saklanma, grup halinde).
+2027 | role=gang_member,gang_boss|day=0,4|mood=fear | Where'd he go? He was right behind me!
+
+##### PASSING_NPC_GREET #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yoldan geçerken başka bir NPC'yi ya da grubu selamlıyor; oyuncu kenardan duyar.
+2028 | reg=gang | Yo, tell your people the east side's clear
+
+##### RETREAT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Geri çekilme; ekibe.
+2029 | reg=gang,crime,club|tmp=seasoned | Bail! BAIL! Break contact and regroup!
+
+##### SHOUT_NEUTRAL #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Uzaktaki birine/oyuncuya bağırıyor (dost, tarafsız, temkinli ya da düşmanca).
+2030 | reg=crime | Say what you want, please
+
+# SAHNE: Konuşanlar salgının geç döneminin DÜŞMAN grupları. faction=alife_iron_orchard: Iron Orchard Raiders, istemek yerine almayı seçmiş meyve bahçesi işçileri ve yol hırsızları; kıyafetleri uyumsuz, silahları hırpalanmış. faction=alife_argent_isolation: Argent Isolation Corps, kimsenin çağrılarına cevap vermediği halde görevi sürdüren bir dekontaminasyon birliği; koruyucu tulumlarını çıkarmıyorlar, mermiyi paylaşıyorlar, yabancıları yollarından kovuyorlar. faction=alife_blackglass: Blackglass Detachment, emir beklemeyi bırakmış küçük bir askerî müfreze; hafif yolculuk ediyor, birbirini kolluyor, erzakını tehdit edeni kovalıyor. Grup adları çevrilmez (Orchard, Argent, Blackglass). Ton: yorgun, yıpranmış, sert.
+
+##### AFTER_FIGHT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Konuşan, oyuncunun karşılaştığı bir grubun üyesi (etiketteki faction); söz oyuncuya ya da kendi arkadaşlarına, olay anında atılır. Kimse cevap vermez; bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Çatışma yeni bitti; nefes nefese, kendine ya da yanındakilere söylenen söz.
+2031 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Check yourselves for bites, all of you
+2032 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Count heads, who's hurt
+2033 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Clear, I think, stay sharp anyway
+2034 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Reload and report, quick
+2035 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | That's the last of them, for now
+2036 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Anybody bleeding, say so now
+2037 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Good work, keep the line tight
+2038 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Write it down, we lost nobody
+2039 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Sound off, who's hit
+2040 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Contact clear, reload and resume
+2041 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Check your sectors, then your gear
+2042 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Casualty report, now
+2043 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Good fire discipline, keep it up
+2044 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Secure the area, then we move
+2045 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Medic up if you're bleeding
+2046 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Log it, move out in five
+2047 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Check the bodies, take what's good
+2048 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Who's bleeding, besides them
+2049 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | That was easy, spread out
+2050 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Loot first, cry later
+2051 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Anybody hurt, walk it off
+2052 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Strip them, fast
+2053 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Told you we'd win
+2054 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Count the bullets we have left
+2055 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Count who's left, quick
+2056 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Anybody tagged, say so
+2057 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Clean the mess, fast
+2058 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Take their stuff, leave the rest
+# SAHNE: Konuşanlar salgının geç döneminin DÜŞMAN grupları. faction=alife_iron_orchard: Iron Orchard Raiders, istemek yerine almayı seçmiş meyve bahçesi işçileri ve yol hırsızları; kıyafetleri uyumsuz, silahları hırpalanmış. faction=alife_argent_isolation: Argent Isolation Corps, kimsenin çağrılarına cevap vermediği halde görevi sürdüren bir dekontaminasyon birliği; koruyucu tulumlarını çıkarmıyorlar, mermiyi paylaşıyorlar, yabancıları yollarından kovuyorlar. faction=alife_blackglass: Blackglass Detachment, emir beklemeyi bırakmış küçük bir askerî müfreze; hafif yolculuk ediyor, birbirini kolluyor, erzakını tehdit edeni kovalıyor. Grup adları çevrilmez (Orchard, Argent, Blackglass). Ton: yorgun, yıpranmış, sert.
+
+##### AFTER_FIGHT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Konuşan, oyuncunun karşılaştığı bir grubun üyesi (etiketteki faction); söz oyuncuya ya da kendi arkadaşlarına, olay anında atılır. Kimse cevap vermez; bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Çatışma yeni bitti; nefes nefese, kendine ya da yanındakilere söylenen söz.
+2059 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | That'll teach them
+2060 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Patch up, then we move
+2061 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Nobody talks about this
+2062 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Good, we hold the block
+2063 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Anyone hurt, let me see
+2064 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Sit down, let me check that
+2065 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Breathe, you're alive
+2066 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Count the wounded, then count again
+2067 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Bandages first, questions after
+2068 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Good, we all made it
+2069 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Keep pressure on that
+2070 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Rest, then we go
+2071 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Anybody hurt, check your hands
+2072 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Good swing, keep the pipe handy
+2073 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Clean up, then back to work
+2074 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Count the crew
+2075 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | That was close, damn it
+2076 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Get the toolbox, we're not done
+2077 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Breathe, then lift
+2078 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | We made it, barely
+2079 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Is everyone alright, anyone hurt
+2080 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Thank God, we're alive
+2081 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Let me see your arm, please
+2082 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Check the kids first
+2083 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | That was too close
+2084 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Lock up again, then rest
+2085 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | We did it, we actually did it
+2086 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Count heads, then supper
+
+##### ENC_PAID #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Konuşan, oyuncunun karşılaştığı bir grubun üyesi (etiketteki faction); söz oyuncuya ya da kendi arkadaşlarına, olay anında atılır. Kimse cevap vermez; bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yolda karşılaşma: NPC grubu oyuncuyla karşı karşıya; sorgulama, pazarlık, tehdit ya da ayrılış. Çoğunlukla doğrudan oyuncuya, 'sen'.
+2087 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | That's the fee, you're free to go
+2088 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Fine, you're square with us, move along
+2089 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Taken, pass through, mind the road
+2090 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Good, no trouble then
+2091 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Receipt's in your head, go
+2092 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | That settles it, off you go
+2093 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Alright, pass, and don't make me regret it
+2094 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Done, keep walking
+2095 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Transit fee accepted, you may proceed
+2096 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Cleared, continue north
+2097 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Payment noted, move along
+2098 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | You are clear, do not linger
+2099 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Acceptable, pass the checkpoint
+2100 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Proceed, stay on the road
+2101 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | That will do, go
+2102 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Move on, civilian
+2103 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Smart, you can go
+2104 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Pleasure doing business, now vanish
+2105 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Good, you live another day
+2106 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | That'll hold us, scram
+2107 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Pay and walk, you learn fast
+2108 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Fine, off with you
+2109 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Next time bring more
+2110 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Don't come back empty
+2111 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Fair enough, you're good with us
+2112 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Respect, you can pass
+2113 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Paid up, go on
+2114 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | That's all we needed, walk
+2115 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Smart, stay out of trouble
+2116 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | We're even, don't push it
+2117 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Alright, you know how it works
+2118 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Thanks, now you're a friend
+2119 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Thank you, that helps more than you know
+2120 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Bless you, go safe
+2121 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | That will buy bandages, thank you
+2122 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | We appreciate it, take care
+2123 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Kind of you, really
+2124 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Go on, and be careful
+2125 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Thank you, friend
+2126 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | God bless, stay alive
+2127 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Fair, go on through
+2128 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Thanks, that covers the fuel
+2129 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Alright, you're good
+2130 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Pass, mind the machinery
+2131 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Pleasure, don't loiter
+2132 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Fine, we're square
+2133 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Go on, move along
+2134 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Good, safe trip
+2135 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Thank you, truly, go safe
+2136 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | That's very kind, we'll remember it
+2137 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Alright, you're welcome to pass
+2138 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Bless you, friend
+2139 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Fair enough, off you go
+2140 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | We'll be fine, thanks to you
+2141 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Come back anytime
+
+##### FALL_BACK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Konuşan, oyuncunun karşılaştığı bir grubun üyesi (etiketteki faction); söz oyuncuya ya da kendi arkadaşlarına, olay anında atılır. Kimse cevap vermez; bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Geri çekilme çağrısı; ekibe.
+2142 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Fall back, fall back, regroup
+2143 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Pull back to the line, now
+2144 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Retreat in order, cover each other
+2145 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Back to the post, move move
+2146 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | We can't hold, disengage
+2147 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Withdraw, I'll cover
+2148 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Back up, regroup at the station
+2149 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Out, everyone out, now
+2150 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Withdraw to the second line
+2151 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Fall back, covering fire
+2152 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Disengage and regroup on me
+2153 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Pull out, pull out
+2154 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | We're breaking contact, move
+2155 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Retreat to the perimeter, now
+2156 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Leapfrog back, go
+2157 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Break off, rally at the base
+2158 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Run, run, back to the cars
+2159 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Get out, get out
+2160 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Not worth dying, go
+2161 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Back, back, they've got us
+2162 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Every man for himself
+2163 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Bail out, grab what you can
+2164 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Leave him, move
+2165 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Retreat, you idiots, retreat
+2166 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Back, fall back, move
+2167 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Pull out, this isn't the day
+2168 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Cover me, I'm leaving
+2169 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Split up, meet at the spot
+2170 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Out, out, before it gets worse
+2171 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Retreat, regroup in the alley
+2172 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Bail, we'll fight later
+2173 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Not worth it, go
+2174 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Back to the ambulance, everyone
+2175 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Pull back, protect the kit
+2176 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Retreat, we can't treat in this
+2177 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Go go, grab the stretcher
+2178 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Back, back, to the clinic
+2179 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | We leave now, together
+2180 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Move, don't leave anyone
+2181 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Out, now, we regroup later
+2182 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Drop it, retreat
+2183 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Fall back, all of you
+2184 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Get out of here, go
+2185 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Back, get behind something
+2186 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Not worth it, leave it
+2187 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Run, all of you, run
+# SAHNE: Konuşanlar salgının geç döneminin DÜŞMAN grupları. faction=alife_iron_orchard: Iron Orchard Raiders, istemek yerine almayı seçmiş meyve bahçesi işçileri ve yol hırsızları; kıyafetleri uyumsuz, silahları hırpalanmış. faction=alife_argent_isolation: Argent Isolation Corps, kimsenin çağrılarına cevap vermediği halde görevi sürdüren bir dekontaminasyon birliği; koruyucu tulumlarını çıkarmıyorlar, mermiyi paylaşıyorlar, yabancıları yollarından kovuyorlar. faction=alife_blackglass: Blackglass Detachment, emir beklemeyi bırakmış küçük bir askerî müfreze; hafif yolculuk ediyor, birbirini kolluyor, erzakını tehdit edeni kovalıyor. Grup adları çevrilmez (Orchard, Argent, Blackglass). Ton: yorgun, yıpranmış, sert.
+
+##### FALL_BACK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Konuşan, oyuncunun karşılaştığı bir grubun üyesi (etiketteki faction); söz oyuncuya ya da kendi arkadaşlarına, olay anında atılır. Kimse cevap vermez; bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Geri çekilme çağrısı; ekibe.
+2188 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Back inside, quick, quick
+2189 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Run for cover, everybody
+2190 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Get the children, go
+2191 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Retreat, don't look back
+2192 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Down, get low, move
+2193 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Pull back, protect the door
+2194 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Home, home, hurry
+2195 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Fall back, all of you, go
+
+##### FOUND_FOOD #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Konuşan, oyuncunun karşılaştığı bir grubun üyesi (etiketteki faction); söz oyuncuya ya da kendi arkadaşlarına, olay anında atılır. Kimse cevap vermez; bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Etrafta bir şey buldu (mermi, kan, ceset, yiyecek, ilaç, iz, su, silah); kendine ya da ekibe.
+2196 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Rations, thank God, split them fair
+2197 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Food, good, log it for the post
+2198 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Cans, bag them, nobody eats alone
+2199 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | That feeds the squad a day, nice
+2200 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Keep it, we share at the station
+2201 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Dry goods, a decent find
+2202 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Put it in the patrol bag
+2203 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Don't eat it all at once, people
+2204 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Supplies located, bag them
+2205 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Rations secured, tell the sergeant
+2206 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Good find, ration it properly
+2207 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Food stock, log and carry
+2208 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Provisions, split among the squad
+2209 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Mark the location for resupply
+2210 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Don't waste it, soldier
+2211 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Pack it, we move in two
+2212 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Food, mine, back off
+2213 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Jackpot, a whole shelf
+2214 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Cans, grab the lot
+2215 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Eat now, argue later
+2216 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Hands off, I saw it first
+2217 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Stash it before the boss sees
+2218 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | That's dinner and tomorrow
+2219 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Share it, or bleed for it
+2220 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Food, bring it back to the house
+2221 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Good, the family eats tonight
+2222 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Cans, take them, split later
+2223 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Don't tell the others yet
+2224 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Stock for the safehouse, nice
+2225 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Hide it, I'll count it
+2226 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | That's worth something on the street
+2227 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | We can trade this
+2228 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Food, we can feed the ward
+2229 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Thank God, bring it to the clinic
+2230 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Cans, share them, the sick first
+2231 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | That's a lifeline, keep it safe
+2232 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Sealed, good, log it
+2233 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Wounded first, then the rest
+2234 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | We eat last, remember
+2235 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | A blessing, truly
+2236 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Food, share it with the crew
+2237 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Cans, put them in the cab
+2238 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Lunch, boys, a real one
+2239 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Good find, don't hog it
+2240 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Stash it in the truck
+2241 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | That feeds the shift
+2242 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Hands off the good stuff, split it
+2243 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Better than yesterday's nothing
+2244 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Food, we can last another week
+2245 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Bring it home, careful
+2246 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Cans, share them out, fair shares
+2247 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | That's a blessing, really
+2248 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | The kids will eat well tonight
+2249 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Put it in the pantry, count it
+2250 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Don't tell anyone where this came from
+2251 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Thank goodness
+
+##### GREET_PLAYER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Konuşan, oyuncunun karşılaştığı bir grubun üyesi (etiketteki faction); söz oyuncuya ya da kendi arkadaşlarına, olay anında atılır. Kimse cevap vermez; bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncuyu selamlıyor/karşılıyor; doğrudan oyuncuya, 'sen'.
+2252 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Evening, you holding up alright
+2253 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Stay off the main road if you can, it's not safe
+2254 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Badge says I ask, so how's it going out there
+2255 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Keep your hands easy and we'll get along fine
+2256 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Good, a live one, anything to report
+2257 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | You hurt, you hungry, you need anything from us
+2258 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Walk careful, I've buried enough folks this week
+2259 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | County still stands here, remember that
+2260 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | State your business, civilian
+2261 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Keep your distance and keep your hands visible
+2262 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | You're in an active area, move along
+2263 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Stay clear of the perimeter, that's an order
+2264 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Identify yourself and your destination
+2265 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | If you're lost, head north, we'll show you
+2266 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Be advised, the road ahead is not secure
+2267 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Do not approach vehicles without permission
+2268 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Well look what walked in
+2269 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | You lost, friend, or just stupid
+2270 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Hands where I can see them, then we talk
+2271 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | You got something worth keeping, show me
+2272 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | This road's ours, remember that
+2273 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Smile, stranger, I'm in a good mood
+2274 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Don't run, it's boring when they run
+2275 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Say your piece, then say goodbye
+2276 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | You come looking for something or somebody
+2277 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Keep it friendly and nobody gets hurt
+2278 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Strangers don't last long around here, so talk
+2279 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Business or trouble, pick one
+2280 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | I know every face in this part of town, not yours
+2281 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Relax, I'm just curious
+2282 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | You got a name, or should I make one up
+2283 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Nice day for walking, risky too
+2284 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Are you hurt, do you need help
+2285 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Thank God, someone alive, come here
+2286 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | We've got water and bandages if you need them
+2287 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | You look pale, sit down a minute
+2288 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Anyone bitten, tell me now, no judgment
+2289 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Take care out there, please
+2290 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | We're doing what we can, stay safe
+2291 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Come to the station, it's warmer there
+2292 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Hey, you looking for work or trouble
+2293 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Shift's long, but the pay's still food
+2294 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Careful with the heavy gear, it bites
+2295 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | You handy with tools, we could use one
+2296 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Don't mind the noise, we're fixing what we can
+2297 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Everything's falling apart, and we're gluing it
+2298 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Got a smoke, or a minute at least
+2299 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Watch your step, it's all junk out here
+2300 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Oh, hello, you're not one of them, are you
+2301 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Please don't make noise, the kids are sleeping
+2302 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | We keep to ourselves, but you seem decent
+2303 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Welcome, sort of, we have little to share
+2304 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Careful, we've had visitors who weren't friendly
+2305 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | You look tired, sit a moment
+2306 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | We've been here since the start, you hungry
+2307 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Keep your voice low, please
+
+##### HEARD_GUNSHOT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Konuşan, oyuncunun karşılaştığı bir grubun üyesi (etiketteki faction); söz oyuncuya ya da kendi arkadaşlarına, olay anında atılır. Kimse cevap vermez; bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bir ses duydu (alarm, kapı, ayak sesi, cam, silah, insan sesi); kendine ya da yanındakine.
+2308 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Shots, east side, move up
+2309 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | That's not ours, hold position
+2310 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Gunfire, eyes open, nobody runs off alone
+2311 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Somebody's fighting, check your corners
+2312 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Contact somewhere close, call it in
+2313 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | That was a pistol, maybe two blocks
+2314 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Easy, let it come to us
+2315 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Shots fired, stay behind the car
+2316 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Weapons fire, bearing east, weapons ready
+# SAHNE: Konuşanlar salgının geç döneminin DÜŞMAN grupları. faction=alife_iron_orchard: Iron Orchard Raiders, istemek yerine almayı seçmiş meyve bahçesi işçileri ve yol hırsızları; kıyafetleri uyumsuz, silahları hırpalanmış. faction=alife_argent_isolation: Argent Isolation Corps, kimsenin çağrılarına cevap vermediği halde görevi sürdüren bir dekontaminasyon birliği; koruyucu tulumlarını çıkarmıyorlar, mermiyi paylaşıyorlar, yabancıları yollarından kovuyorlar. faction=alife_blackglass: Blackglass Detachment, emir beklemeyi bırakmış küçük bir askerî müfreze; hafif yolculuk ediyor, birbirini kolluyor, erzakını tehdit edeni kovalıyor. Grup adları çevrilmez (Orchard, Argent, Blackglass). Ton: yorgun, yıpranmış, sert.
+
+##### HEARD_GUNSHOT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Konuşan, oyuncunun karşılaştığı bir grubun üyesi (etiketteki faction); söz oyuncuya ya da kendi arkadaşlarına, olay anında atılır. Kimse cevap vermez; bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bir ses duydu (alarm, kapı, ayak sesi, cam, silah, insan sesi); kendine ya da yanındakine.
+2317 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Contact, unknown, hold your sectors
+2318 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Single shots, stay on overwatch
+2319 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Fire from the north, check the line
+2320 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Unidentified shooter, mark the position
+2321 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Rifle report, one klick out
+2322 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Hold fire, observe first
+2323 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Shots fired, report your status
+2324 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Somebody's shooting, go see who
+2325 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | That's not ours, grab your piece
+2326 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Shots, free loot maybe, move
+2327 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Fighting out there, hurry up
+2328 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Who's firing in my yard
+2329 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Gunfire, let's eat
+2330 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Shut up, listen, where was that
+2331 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Trouble, spread out
+2332 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Somebody's in our territory, check it
+2333 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Shots, find out who's stepping on us
+2334 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | That's close, grab the iron
+2335 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Not ours, keep your head down
+2336 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Gunfire, call the others
+2337 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Someone's picking a fight, let them
+2338 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Quiet, listen for more
+2339 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Easy, don't rush into it
+2340 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Shots, someone may need us
+2341 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Stay behind the truck, I'll look
+2342 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Gunfire, keep your head down
+2343 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Hold on, wait for it to quiet
+2344 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Somebody's hurt out there, maybe
+2345 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Careful, we don't go in blind
+2346 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | That's close, grab the kit
+2347 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Quiet, listen for screaming
+2348 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Gunshots, drop the wrench, listen
+2349 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Somebody's loud, stay behind the truck
+2350 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | That's close, grab the pipe
+2351 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Not our business, keep working
+2352 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Shots, hide the tools
+2353 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Trouble, boss, you hear that
+2354 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Hold on, let it pass
+2355 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Quiet, don't draw them to the yard
+2356 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Shots, get the kids inside
+2357 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Somebody's out there, lock the door
+2358 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Stay down, stay quiet
+2359 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | That was close, grab the shotgun
+2360 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Not again, hide
+2361 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Gunfire, check the windows
+2362 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Get away from the glass
+2363 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Everyone to the cellar

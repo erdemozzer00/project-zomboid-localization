@@ -1,0 +1,2099 @@
+{
+ "_paket": "CR1",
+ "_grup": "arayuz_creator",
+ "_dosya": "Creator_lua",
+ "_noktalama": false,
+ "_bosluk_koru": true,
+ "_baslik": "Oluşturucu cümleleri, baştan çeviri (K57)",
+ "_parcalar": [
+  [
+   1,
+   146
+  ],
+  [
+   147,
+   297
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "IGUI_ALifeUI_3db84c5f5966cc7f",
+   "Out from base and home again",
+   [
+    "ALifeCreatorCore.lua:58"
+   ]
+  ],
+  "2": [
+   "IGUI_ALifeUI_6b6b0bcf0a47bd3e",
+   "A station turned into a base",
+   [
+    "ALifeCreatorCore.lua:81"
+   ]
+  ],
+  "3": [
+   "IGUI_ALifeUI_298fce0877d04a92",
+   "A built camp in the open",
+   [
+    "ALifeCreatorCore.lua:83"
+   ]
+  ],
+  "4": [
+   "IGUI_ALifeUI_516f59c96943e2da",
+   "A fenced farm with a field and a pen",
+   [
+    "ALifeCreatorCore.lua:98"
+   ]
+  ],
+  "5": [
+   "IGUI_ALifeUI_12179f2e1c087b19",
+   "A walled cell block and exercise yard",
+   [
+    "ALifeCreatorCore.lua:100"
+   ]
+  ],
+  "6": [
+   "IGUI_ALifeUI_326720d130071ac0",
+   "A small fenced lodge and fire circle",
+   [
+    "ALifeCreatorCore.lua:101"
+   ]
+  ],
+  "7": [
+   "IGUI_ALifeUI_4d5357c54ee08fe9",
+   "A scrap palisade held by raiders",
+   [
+    "ALifeCreatorCore.lua:102"
+   ]
+  ],
+  "8": [
+   "IGUI_ALifeUI_30800f026a96033b",
+   "Avoid zombies (Off = fight them)",
+   [
+    "ALifeCreatorCore.lua:306"
+   ]
+  ],
+  "9": [
+   "IGUI_ALifeUI_6e72450a0f0a9077",
+   "Follow the leader's current order instead of selecting an unrelated task.",
+   [
+    "ALifeCreatorCore.lua:318"
+   ]
+  ],
+  "10": [
+   "IGUI_ALifeUI_2e3b77e47c1d0860",
+   "Hold the assigned guard, route, blockade or garrison stance until the squad changes it.",
+   [
+    "ALifeCreatorCore.lua:319"
+   ]
+  ],
+  "11": [
+   "IGUI_ALifeUI_3ecbacb40d928d32",
+   "React to overwhelming danger and recover after reaching a safer distance.",
+   [
+    "ALifeCreatorCore.lua:320"
+   ]
+  ],
+  "12": [
+   "IGUI_ALifeUI_5f7fe49a0ccee5e8",
+   "Members of civilian class (and, less easily, rescue and worker class) leave distant zombies alone and run as a group when too many close in; police, military and criminal members, veterans and hardened members stay steady. Set each member's class on its Identity page. The world Fear switch and Fear days also apply.",
+   [
+    "ALifeCreatorCore.lua:321"
+   ]
+  ],
+  "13": [
+   "IGUI_ALifeUI_58059b175f7dc553",
+   "Back away and run from a player or hostile who aims or raises a firearm, toward cover that breaks line of sight, then return once the gun has been out of sight for a few seconds. Armed members never use it, and leaders, snipers and ambushers hold their ground. Inherit follows the member's class: on for civilian, worker and rescue, off for police, military and criminal; On forces it for this member or faction. The world Gun fear switch and chance also apply.",
+   [
+    "ALifeCreatorCore.lua:322"
+   ]
+  ],
+  "14": [
+   "IGUI_ALifeUI_6e3dffc145846af5",
+   "Back away while facing and aiming at the threat; fire remains available during the retreat.",
+   [
+    "ALifeCreatorCore.lua:323"
+   ]
+  ],
+  "15": [
+   "IGUI_ALifeUI_0745cd3d04102464",
+   "Allow a full break-contact escape. The world Flee switch must also be enabled; a faction or NPC override cannot bypass it.",
+   [
+    "ALifeCreatorCore.lua:324"
+   ]
+  ],
+  "16": [
+   "IGUI_ALifeUI_355ec6cf331c5e5f",
+   "A hostile crew shouts a warning and gives the player a moment before the first shot, may knock before it enters a base, and may stop him for a few questions and a toll. Off means kill on sight: no warning, no grace, no toll question, and a hold-up never starts. On means this crew always warns, except in a raid. Raid crews, assassins and ambushers ship Off, and raids, assassinations and highway ambushes are kill on sight whatever a crew's setting. The Warning sandbox settings give an Off crew a chance to warn anyway and put a time limit on every warning.",
+   [
+    "ALifeCreatorCore.lua:325"
+   ]
+  ],
+  "17": [
+   "IGUI_ALifeUI_4a28cf5958f580d9",
+   "Move laterally while keeping the weapon and attention on the current target.",
+   [
+    "ALifeCreatorCore.lua:326"
+   ]
+  ],
+  "18": [
+   "IGUI_ALifeUI_1f38a6dd0f4271af",
+   "Vary the approach path under fire instead of running in one predictable line.",
+   [
+    "ALifeCreatorCore.lua:327"
+   ]
+  ],
+  "19": [
+   "IGUI_ALifeUI_4f769d2920637264",
+   "Search for nearby cover and fight from it when the path and line of fire are valid.",
+   [
+    "ALifeCreatorCore.lua:328"
+   ]
+  ],
+  "20": [
+   "IGUI_ALifeUI_731ae810153ebd52",
+   "Queue at an entrance so squad members do not jam the same doorway.",
+   [
+    "ALifeCreatorCore.lua:329"
+   ]
+  ],
+  "21": [
+   "IGUI_ALifeUI_4d21d9c24ce5ae5b",
+   "Clear close interior spaces in a controlled room-to-room sequence.",
+   [
+    "ALifeCreatorCore.lua:330"
+   ]
+  ],
+  "22": [
+   "IGUI_ALifeUI_741019221e47daa3",
+   "Move to a side angle when another squad member already occupies the target's attention.",
+   [
+    "ALifeCreatorCore.lua:331"
+   ]
+  ],
+  "23": [
+   "IGUI_ALifeUI_712a2d7f486b6642",
+   "Melee fighters step back and sideways between swings with their face to the enemy, back off from a press of zombies and step back in. Needs the Melee crew sandbox switch.",
+   [
+    "ALifeCreatorCore.lua:332"
+   ]
+  ],
+  "24": [
+   "IGUI_ALifeUI_46c16f237be023dc",
+   "In a melee group one member engages and the others circle to the far side of the target. Needs the Melee crew sandbox switch.",
+   [
+    "ALifeCreatorCore.lua:333"
+   ]
+  ],
+  "25": [
+   "IGUI_ALifeUI_7344b1c043d69b17",
+   "A fighter holding an axe cuts through doors and windows faster and does it when checking a noise. Needs the Melee crew sandbox switch.",
+   [
+    "ALifeCreatorCore.lua:334"
+   ]
+  ],
+  "26": [
+   "IGUI_ALifeUI_6b66e37d506f4b7a",
+   "Walk up on a player at a walk, shout the warning from range, then close in to strike. Needs the Melee crew sandbox switch.",
+   [
+    "ALifeCreatorCore.lua:335"
+   ]
+  ],
+  "27": [
+   "IGUI_ALifeUI_45b1958b5fe5a375",
+   "Retreat early when a few zombies close in, then return. Needs the Melee crew sandbox switch.",
+   [
+    "ALifeCreatorCore.lua:336"
+   ]
+  ],
+  "28": [
+   "IGUI_ALifeUI_1023e40f4761c62d",
+   "How this NPC treats zombies. Inherit keeps the standard caution: detour or wait when a crowd stands on the route, leave a zombie alone while on a mission, fight it when it attacks. On avoids zombies harder: waits or detours for a single one and fights only when attacked. Off fights zombies on sight: no travel waits or detours, and guns are never held back.",
+   [
+    "ALifeCreatorCore.lua:337"
+   ]
+  ],
+  "29": [
+   "IGUI_ALifeUI_55bfba8d5d58545c",
+   "Inherit and On keep the standard gun discipline: a gun user may leave the gun stowed and use a melee weapon, a rifle-butt shove or walk past a zombie. Off makes this NPC use the weapon it holds against zombies: no holding fire, no switch to melee, no shove at point blank. Ammo-out and reload swaps stay.",
+   [
+    "ALifeCreatorCore.lua:338"
+   ]
+  ],
+  "30": [
+   "IGUI_ALifeUI_7a170c833d2a3022",
+   "Treat wounds during a safe pause and return to the previous squad task afterwards.",
+   [
+    "ALifeCreatorCore.lua:339"
+   ]
+  ],
+  "31": [
+   "IGUI_ALifeUI_1cb7d27d500f1d77",
+   "Search valid containers, reserve loot and carry useful supplies for the squad.",
+   [
+    "ALifeCreatorCore.lua:340"
+   ]
+  ],
+  "32": [
+   "IGUI_ALifeUI_56c66c63737d1d0b",
+   "After combat, search at most two bodies (at most one infected). Take a bounded quarter of non-clothing items, prioritizing weapons. Gear remains recoverable.",
+   [
+    "ALifeCreatorCore.lua:341"
+   ]
+  ],
+  "33": [
+   "IGUI_ALifeUI_0230e7745ac4cae7",
+   "Inspect recent sounds, sightings and clues without forgetting the squad objective.",
+   [
+    "ALifeCreatorCore.lua:342"
+   ]
+  ],
+  "34": [
+   "IGUI_ALifeUI_292173e720572d53",
+   "Use believable calm-state activities while no urgent task or threat is active.",
+   [
+    "ALifeCreatorCore.lua:343"
+   ]
+  ],
+  "35": [
+   "IGUI_ALifeUI_697ca5d744230829",
+   "Return isolated members to a safe formation around the squad leader.",
+   [
+    "ALifeCreatorCore.lua:344"
+   ]
+  ],
+  "36": [
+   "IGUI_ALifeUI_6761e10c20f3da7e",
+   "Travel as a formation instead of sending every member through an independent path.",
+   [
+    "ALifeCreatorCore.lua:345"
+   ]
+  ],
+  "37": [
+   "IGUI_ALifeUI_42c951d863785fac",
+   "Maintain useful spacing so the squad does not form a single vulnerable cluster.",
+   [
+    "ALifeCreatorCore.lua:346"
+   ]
+  ],
+  "38": [
+   "IGUI_ALifeUI_6f6483f775d486fb",
+   "Let patrols pause together for rest, idle activities and conversation. Rest timing and the master switch come from sandbox settings.",
+   [
+    "ALifeCreatorCore.lua:347"
+   ]
+  ],
+  "39": [
+   "IGUI_ALifeUI_03c0c8e020453339",
+   "A free group picks a goal (loot a building, find a radio, get supplies, find a roof for the night), talks it over, walks there and sticks to it until it is done, blocked or too dangerous. The sandbox Groups make plans switch also applies.",
+   [
+    "ALifeCreatorCore.lua:348"
+   ]
+  ],
+  "40": [
+   "IGUI_ALifeUI_4b2108546bc43f63",
+   "Hold up a player: weapons down, hands up, a few valuable items taken, then the crew leaves. Refusing gets him shot. Inherit robs by register (raiders almost always, mercenaries about half the time) and only when the player is alone. On means this crew always tries, whatever its faction and whoever he is with.",
+   [
+    "ALifeCreatorCore.lua:349"
+   ]
+  ],
+  "41": [
+   "IGUI_ALifeUI_67c830ab3bbe4dcb",
+   "In a stalled firefight one shooter runs out to a side angle with a line on the enemy while the rest keep it pinned.",
+   [
+    "ALifeCreatorCore.lua:349"
+   ]
+  ],
+  "42": [
+   "IGUI_ALifeUI_2397c21715234057",
+   "Rounds that crack past this NPC pin it down: worse aim, slower to shoot back, bursts held while pinned, and a push into cover.",
+   [
+    "ALifeCreatorCore.lua:350"
+   ]
+  ],
+  "43": [
+   "IGUI_ALifeUI_120e5f9766971e7f",
+   "Any rifle in the squad can lay steady covering fire while a squadmate moves to cover or flanks.",
+   [
+    "ALifeCreatorCore.lua:351"
+   ]
+  ],
+  "44": [
+   "IGUI_ALifeUI_0589b2ad7a6150b0",
+   "When the enemy reloads or goes down, the squad re-aims and advances together in a line, shooting.",
+   [
+    "ALifeCreatorCore.lua:352"
+   ]
+  ],
+  "45": [
+   "IGUI_ALifeUI_7eea27be4a0b7641",
+   "The squad prefers the target a squadmate just called, so fire lands on one enemy instead of spreading.",
+   [
+    "ALifeCreatorCore.lua:353"
+   ]
+  ],
+  "46": [
+   "IGUI_ALifeUI_0c2b6b833ec8c829",
+   "Holds fire and sidesteps when a squadmate stands in the line of fire.",
+   [
+    "ALifeCreatorCore.lua:354"
+   ]
+  ],
+  "47": [
+   "IGUI_ALifeUI_34ed96af22b2a787",
+   "Demands made of players at gunpoint",
+   [
+    "ALifeCreatorCore.lua:356"
+   ]
+  ],
+  "48": [
+   "IGUI_ALifeUI_1eeb3b257cedc240",
+   "Overrides this module for the current scope.",
+   [
+    "ALifeCreatorCore.lua:1126"
+   ]
+  ],
+  "49": [
+   "IGUI_ALifeUI_590fac162acef96c",
+   "ENABLE AN OUTFIT SET TO PREVIEW",
+   [
+    "ALifeCreatorCore.lua:2063"
+   ]
+  ],
+  "50": [
+   "IGUI_ALifeUI_04df09c43524c811",
+   "No outfit set is enabled for spawning",
+   [
+    "ALifeCreatorCore.lua:2068"
+   ]
+  ],
+  "51": [
+   "IGUI_ALifeUI_5cc793f33e8f7aa9",
+   "Choose a primary or secondary firearm first.",
+   [
+    "ALifeCreatorCore.lua:2483"
+   ]
+  ],
+  "52": [
+   "IGUI_ALifeUI_645c9eef4bf941d5",
+   "UNVERIFIED MOD PARTS MAY ERROR OR CRASH - USE AT YOUR OWN RISK.",
+   [
+    "ALifeCreatorCore.lua:2617"
+   ]
+  ],
+  "53": [
+   "IGUI_ALifeUI_673da12a7c5caf99",
+   "Only parts whose mount list names this weapon.",
+   [
+    "ALifeCreatorCore.lua:2619"
+   ]
+  ],
+  "54": [
+   "IGUI_ALifeUI_3566db932caf3d6a",
+   "Equal chance per choice. None leaves this slot empty.",
+   [
+    "ALifeCreatorCore.lua:2675"
+   ]
+  ],
+  "55": [
+   "IGUI_ALifeUI_31d3863d25a4e33d",
+   "Search item name or type...",
+   [
+    "ALifeCreatorCore.lua:2678"
+   ]
+  ],
+  "56": [
+   "IGUI_ALifeUI_421a49c800a141b3",
+   "Text-only personality.",
+   [
+    "ALifeCreatorCore.lua:3067"
+   ]
+  ],
+  "57": [
+   "IGUI_ALifeUI_1e87837e67c596c3",
+   "Unknown profile - the runtime will use the roaming hostile fallback.",
+   [
+    "ALifeCreatorCore.lua:3081"
+   ]
+  ],
+  "58": [
+   "IGUI_ALifeUI_6120c5e12cd68596",
+   "NPC audio disabled for voice review. Text dialogue remains enabled.",
+   [
+    "ALifeCreatorCore.lua:3091"
+   ]
+  ],
+  "59": [
+   "IGUI_ALifeUI_4466b0b44a4d3503",
+   "No lines for this reaction.",
+   [
+    "ALifeCreatorCore.lua:3100"
+   ]
+  ],
+  "60": [
+   "IGUI_ALifeUI_703224c54c527b98",
+   "Vanilla Build 42 styles plus loaded mod styles. Select a head to apply it.",
+   [
+    "ALifeCreatorCore.lua:3855"
+   ]
+  ],
+  "61": [
+   "IGUI_ALifeUI_58cdc960140b415a",
+   "Search style name...",
+   [
+    "ALifeCreatorCore.lua:3862"
+   ]
+  ],
+  "62": [
+   "IGUI_ALifeUI_022a246e3241482f",
+   "FOLDER CHANGE FAILED - COULD NOT SAVE",
+   [
+    "ALifeCreatorCore.lua:4068"
+   ]
+  ],
+  "63": [
+   "IGUI_ALifeUI_2a112b5b0cddd86f",
+   "Example: Raiders, Story factions, Test groups...",
+   [
+    "ALifeCreatorCore.lua:4095"
+   ]
+  ],
+  "64": [
+   "IGUI_ALifeUI_2a0a48ea7f86d299",
+   "COPY PARTIAL - SOME FACTIONS SENT, CHECKING SERVER",
+   [
+    "ALifeCreatorCore.lua:4154"
+   ]
+  ],
+  "65": [
+   "IGUI_ALifeUI_553a7aa019b104fa",
+   "FOLDER COPY FAILED - COULD NOT SAVE",
+   [
+    "ALifeCreatorCore.lua:4155"
+   ]
+  ],
+  "66": [
+   "IGUI_ALifeUI_0a8c08450ad4ae69",
+   "COPY PARTIAL - FACTIONS ADDED, NPC SAVE FAILED",
+   [
+    "ALifeCreatorCore.lua:4160"
+   ]
+  ],
+  "67": [
+   "IGUI_ALifeUI_6966609b3b0f95ea",
+   "COPY PARTIAL - NPCS ADDED, FOLDER SAVE FAILED",
+   [
+    "ALifeCreatorCore.lua:4166"
+   ]
+  ],
+  "68": [
+   "IGUI_ALifeUI_0e88f7d915d5a5e8",
+   "Folder actions: rename, copy or delete",
+   [
+    "ALifeCreatorCore.lua:4611"
+   ]
+  ],
+  "69": [
+   "IGUI_ALifeUI_46f9fb8e0af06340",
+   "Could not save faction. Your edits are still open.",
+   [
+    "ALifeCreatorCore.lua:5116"
+   ]
+  ],
+  "70": [
+   "IGUI_ALifeUI_17e7ad0e03f260ea",
+   "Save incomplete. Some edits were sent; checking server.",
+   [
+    "ALifeCreatorCore.lua:5117"
+   ]
+  ],
+  "71": [
+   "IGUI_ALifeUI_00245156530f19c4",
+   "COPY FAILED - COULD NOT SAVE FACTION",
+   [
+    "ALifeCreatorCore.lua:5131"
+   ]
+  ],
+  "72": [
+   "IGUI_ALifeUI_1c6c22dc50bed52a",
+   "COPY PARTIAL - FACTION ADDED, NPC SAVE FAILED",
+   [
+    "ALifeCreatorCore.lua:5147"
+   ]
+  ],
+  "73": [
+   "IGUI_ALifeUI_4fa882402f4f7b19",
+   "NEW FACTION FAILED - COULD NOT SAVE",
+   [
+    "ALifeCreatorCore.lua:5167"
+   ]
+  ],
+  "74": [
+   "IGUI_ALifeUI_6f846efc1a5ebc00",
+   "FACTION DELETE FAILED - COULD NOT SAVE",
+   [
+    "ALifeCreatorCore.lua:5183"
+   ]
+  ],
+  "75": [
+   "IGUI_ALifeUI_1c0ab83865c91c60",
+   "FACTION AND ITS NPC PRESETS REMOVED",
+   [
+    "ALifeCreatorCore.lua:5191"
+   ]
+  ],
+  "76": [
+   "IGUI_ALifeUI_2ab4aa973d19766d",
+   "TOO LONG TO COPY - CODE SAVED TO ZOMBOID/LUA/ALIFE_FACTION_CODE.TXT",
+   [
+    "ALifeCreatorCore.lua:5265"
+   ]
+  ],
+  "77": [
+   "IGUI_ALifeUI_45e831cd52cf1abb",
+   "EXPORT FAILED: CODE COULD NOT BE COPIED OR SAVED",
+   [
+    "ALifeCreatorCore.lua:5267"
+   ]
+  ],
+  "78": [
+   "IGUI_ALifeUI_60f5293c55b7eea5",
+   "SHARE FAILED - THE FOLDER HAS NO FACTIONS",
+   [
+    "ALifeCreatorCore.lua:5301"
+   ]
+  ],
+  "79": [
+   "IGUI_ALifeUI_7ed6787c7f64b5a4",
+   "TOO LONG TO COPY - FOLDER CODE SAVED TO ZOMBOID/LUA/ALIFE_FACTION_CODE.TXT",
+   [
+    "ALifeCreatorCore.lua:5316"
+   ]
+  ],
+  "80": [
+   "IGUI_ALifeUI_3cd04f3d4f597af2",
+   "SHARE FAILED: CODE COULD NOT BE COPIED OR SAVED",
+   [
+    "ALifeCreatorCore.lua:5318"
+   ]
+  ],
+  "81": [
+   "IGUI_ALifeUI_3ff801283af054ee",
+   "NO CODE COPIED  -  COPY A SHARE CODE FIRST",
+   [
+    "ALifeCreatorCore.lua:5339"
+   ]
+  ],
+  "82": [
+   "IGUI_ALifeUI_06a8eaf44b046713",
+   "IMPORT FAILED: FACTION COULD NOT BE SAVED",
+   [
+    "ALifeCreatorCore.lua:5396"
+   ]
+  ],
+  "83": [
+   "IGUI_ALifeUI_2847c08247f03d84",
+   "IMPORT PARTIAL: FACTION ADDED, NPCS FAILED",
+   [
+    "ALifeCreatorCore.lua:5401"
+   ]
+  ],
+  "84": [
+   "IGUI_ALifeUI_6c2c2faa2da6c031",
+   "FOLDER DELETE FAILED - COULD NOT SAVE (",
+   [
+    "ALifeCreatorCore.lua:5475"
+   ]
+  ],
+  "85": [
+   "IGUI_ALifeUI_09e28e9c0b14dcaf",
+   "Could not save NPC. Your edits are still open.",
+   [
+    "ALifeCreatorCore.lua:5592"
+   ]
+  ],
+  "86": [
+   "IGUI_ALifeUI_3c3eabe5078b7045",
+   "NPC COPY FAILED - COULD NOT SAVE",
+   [
+    "ALifeCreatorCore.lua:5788"
+   ]
+  ],
+  "87": [
+   "IGUI_ALifeUI_1b68387802e9c38b",
+   "NEW NPC FAILED - COULD NOT SAVE",
+   [
+    "ALifeCreatorCore.lua:5803"
+   ]
+  ],
+  "88": [
+   "IGUI_ALifeUI_249971ff71c71aed",
+   "NPC DELETE FAILED - COULD NOT SAVE",
+   [
+    "ALifeCreatorCore.lua:5813"
+   ]
+  ],
+  "89": [
+   "IGUI_ALifeUI_508c34bb50532a8e",
+   "FACTIONS RESET - DELETED NPCS COULD NOT BE RESTORED",
+   [
+    "ALifeCreatorCore.lua:5839"
+   ]
+  ],
+  "90": [
+   "IGUI_ALifeUI_6673c0d227e87154",
+   "FACTIONS RESET TO DEFAULT - OLD FILE KEPT AS .BACKUP.INI",
+   [
+    "ALifeCreatorCore.lua:5841"
+   ]
+  ],
+  "91": [
+   "IGUI_ALifeUI_2043d19d4ca44874",
+   "RESET FAILED - DEFAULT FACTIONS NOT LOADED",
+   [
+    "ALifeCreatorCore.lua:5858"
+   ]
+  ],
+  "92": [
+   "IGUI_ALifeUI_037b426c0bc7a5c8",
+   "RESET FAILED - COULD NOT SAVE",
+   [
+    "ALifeCreatorCore.lua:5870"
+   ]
+  ],
+  "93": [
+   "IGUI_ALifeUI_663bb633229563af",
+   "SYNCING CREATOR TO SERVER...",
+   [
+    "ALifeCreatorCore.lua:5900"
+   ]
+  ],
+  "94": [
+   "IGUI_ALifeUI_1b4e33a0269948dd",
+   "SAVED LOCALLY -- APPLIES WHEN YOU START OR HOST A WORLD",
+   [
+    "ALifeCreatorCore.lua:5905"
+   ]
+  ],
+  "95": [
+   "IGUI_ALifeUI_4b2e853d42a11c06",
+   "APPLY FAILED - EDITS STILL OPEN",
+   [
+    "ALifeCreatorCore.lua:5962"
+   ]
+  ],
+  "96": [
+   "IGUI_ALifeUI_53a1ddcb76ca75bf",
+   "Search factions...",
+   [
+    "ALifeCreatorCore.lua:6194"
+   ]
+  ],
+  "97": [
+   "IGUI_ALifeUI_11c7bc01789e9336",
+   "Copies this faction and all its NPCs as one share code. Paste it on Discord. Also saved to Zomboid/Lua/alife_faction_code.txt as a backup.",
+   [
+    "ALifeCreatorCore.lua:6242"
+   ]
+  ],
+  "98": [
+   "IGUI_ALifeUI_45e5c21f2ff08845",
+   "Copy a share code, then click: it is added as a new faction. With no code copied, loads Zomboid/Lua/alife_faction_code.txt.",
+   [
+    "ALifeCreatorCore.lua:6244"
+   ]
+  ],
+  "99": [
+   "IGUI_ALifeUI_634ed3bf3fedb914",
+   "Search members...",
+   [
+    "ALifeCreatorCore.lua:6304"
+   ]
+  ],
+  "100": [
+   "IGUI_ALifeUI_4e542fdf27383e9d",
+   "Create a member in the currently selected faction.",
+   [
+    "ALifeCreatorCore.lua:6420"
+   ]
+  ],
+  "101": [
+   "IGUI_ALifeUI_08dd4f556d60517c",
+   "Previous member - saves pending edits first.",
+   [
+    "ALifeCreatorCore.lua:6428"
+   ]
+  ],
+  "102": [
+   "IGUI_ALifeUI_2e5948a968d4b6b2",
+   "Next member - keep faction settings open while previewing the roster.",
+   [
+    "ALifeCreatorCore.lua:6429"
+   ]
+  ],
+  "103": [
+   "IGUI_ALifeUI_69a45bd27fa3e118",
+   "Save current faction and NPC edits now. Shortcut: Ctrl + S.",
+   [
+    "ALifeCreatorCore.lua:6742"
+   ]
+  ],
+  "104": [
+   "IGUI_ALifeUI_767654f32034b591",
+   "Core AI stays active. Assign a loaded custom module ID only when a separate module provides one.",
+   [
+    "ALifeCreatorCore.lua:6827"
+   ]
+  ],
+  "105": [
+   "IGUI_ALifeUI_583cd40245da495c",
+   "Built-in systems and optional integrations - not a live health report",
+   [
+    "ALifeCreatorCore.lua:6848"
+   ]
+  ],
+  "106": [
+   "IGUI_ALifeUI_5b87427e316422d5",
+   "Decision tree / persistent task queue",
+   [
+    "ALifeCreatorCore.lua:6851"
+   ]
+  ],
+  "107": [
+   "IGUI_ALifeUI_57fdff3c08475ccf",
+   "Targets, memory, hearing and threat scoring",
+   [
+    "ALifeCreatorCore.lua:6852"
+   ]
+  ],
+  "108": [
+   "IGUI_ALifeUI_451b56a305504e48",
+   "Speech, combat barks and death sounds",
+   [
+    "ALifeCreatorCore.lua:6856"
+   ]
+  ],
+  "109": [
+   "IGUI_ALifeUI_19f2337b7cddf1b4",
+   "Exact runtime rules: chance, squad size, location, time, placement, scene and AI profile.",
+   [
+    "ALifeCreatorCore.lua:6913"
+   ]
+  ],
+  "110": [
+   "IGUI_ALifeUI_3e4b7c7760d82bb5",
+   "Built-in factions go back to default. Factions you made yourself stay.",
+   [
+    "ALifeCreatorCore.lua:7143"
+   ]
+  ],
+  "111": [
+   "IGUI_ALifeUI_612cc9222cd485e4",
+   "MEMBERS RESET - TAG DELETE NOT SAVED; RETRY",
+   [
+    "ALifeCreatorCore.lua:7556"
+   ]
+  ],
+  "112": [
+   "IGUI_ALifeUI_2c2343845c8c82af",
+   "Edit the people in the selected faction: roster on the left, full editor on the right.",
+   [
+    "ALifeCreatorUx.lua:130"
+   ]
+  ],
+  "113": [
+   "IGUI_ALifeUI_4dff6ad241b46c82",
+   "Edit the selected faction itself: identity, relations, spawning, behavior defaults, support and wardrobe.",
+   [
+    "ALifeCreatorUx.lua:131"
+   ]
+  ],
+  "114": [
+   "IGUI_ALifeUI_7beb65d833d97d33",
+   "Name, gender, tag, class and spawn weight.",
+   [
+    "ALifeCreatorUx.lua:132"
+   ]
+  ],
+  "115": [
+   "IGUI_ALifeUI_60e3a55a40858732",
+   "Skin, hair, beard, outfit sets and the clothing slots.",
+   [
+    "ALifeCreatorUx.lua:133"
+   ]
+  ],
+  "116": [
+   "IGUI_ALifeUI_12b2ab3704f1fa8d",
+   "Face choices for this NPC.",
+   [
+    "ALifeCreatorUx.lua:134"
+   ]
+  ],
+  "117": [
+   "IGUI_ALifeUI_16d4d4140ac4eb1a",
+   "Weapons, attachments and magazines.",
+   [
+    "ALifeCreatorUx.lua:135"
+   ]
+  ],
+  "118": [
+   "IGUI_ALifeUI_31fe9096613f2303",
+   "Health, skills, damage, loot and combat support.",
+   [
+    "ALifeCreatorUx.lua:136"
+   ]
+  ],
+  "119": [
+   "IGUI_ALifeUI_03f58ba9148d1bdf",
+   "Behavior profile, doctrine and voice.",
+   [
+    "ALifeCreatorUx.lua:137"
+   ]
+  ],
+  "120": [
+   "IGUI_ALifeUI_6d776dbe2a909192",
+   "Per-NPC ability overrides. Empty means inherit from the faction.",
+   [
+    "ALifeCreatorUx.lua:138"
+   ]
+  ],
+  "121": [
+   "IGUI_ALifeUI_731cb5e374da24bc",
+   "How this faction treats the player and every other faction.",
+   [
+    "ALifeCreatorUx.lua:139"
+   ]
+  ],
+  "122": [
+   "IGUI_ALifeUI_49408c2629faedae",
+   "Where, when and how often this faction appears.",
+   [
+    "ALifeCreatorUx.lua:140"
+   ]
+  ],
+  "123": [
+   "IGUI_ALifeUI_62cd8e1d5f3e0510",
+   "Ability defaults for every member of this faction.",
+   [
+    "ALifeCreatorUx.lua:141"
+   ]
+  ],
+  "124": [
+   "IGUI_ALifeUI_79875b7e21fd3cf3",
+   "Backup calls: squad size, number of calls and allied factions.",
+   [
+    "ALifeCreatorUx.lua:142"
+   ]
+  ],
+  "125": [
+   "IGUI_ALifeUI_2002096560be720b",
+   "Season outfits for the whole faction.",
+   [
+    "ALifeCreatorUx.lua:143"
+   ]
+  ],
+  "126": [
+   "IGUI_ALifeUI_0d6d695009fd2be6",
+   "Back to the faction list and member roster.",
+   [
+    "ALifeCreatorUx.lua:144"
+   ]
+  ],
+  "127": [
+   "IGUI_ALifeUI_10efa28824763179",
+   "Show every member.",
+   [
+    "ALifeCreatorUx.lua:145"
+   ]
+  ],
+  "128": [
+   "IGUI_ALifeUI_438b064201cd4d1c",
+   "Show members that carry a firearm.",
+   [
+    "ALifeCreatorUx.lua:146"
+   ]
+  ],
+  "129": [
+   "IGUI_ALifeUI_0065e4665526e2d1",
+   "Show members that carry a melee weapon.",
+   [
+    "ALifeCreatorUx.lua:147"
+   ]
+  ],
+  "130": [
+   "IGUI_ALifeUI_4489de2637330365",
+   "Make the member list narrower.",
+   [
+    "ALifeCreatorUx.lua:148"
+   ]
+  ],
+  "131": [
+   "IGUI_ALifeUI_775e84047e4b731d",
+   "Make the member list wider.",
+   [
+    "ALifeCreatorUx.lua:149"
+   ]
+  ],
+  "132": [
+   "IGUI_ALifeUI_6b8f419c6d2aa843",
+   "Previous page.",
+   [
+    "ALifeCreatorUx.lua:150"
+   ]
+  ],
+  "133": [
+   "IGUI_ALifeUI_3dde5eb34e265a0b",
+   "Next page.",
+   [
+    "ALifeCreatorUx.lua:151"
+   ]
+  ],
+  "134": [
+   "IGUI_ALifeUI_1c68d6021a7bfab1",
+   "Create a folder to group factions. Drag a faction onto a folder to file it.",
+   [
+    "ALifeCreatorUx.lua:152"
+   ]
+  ],
+  "135": [
+   "IGUI_ALifeUI_7b366d9235fb51b2",
+   "Create a new faction.",
+   [
+    "ALifeCreatorUx.lua:153"
+   ]
+  ],
+  "136": [
+   "IGUI_ALifeUI_623afcca57f822ba",
+   "Add a new NPC preset to the selected faction.",
+   [
+    "ALifeCreatorUx.lua:155"
+   ]
+  ],
+  "137": [
+   "IGUI_ALifeUI_33a87cf2502ed332",
+   "Open the settings of the selected faction.",
+   [
+    "ALifeCreatorUx.lua:156"
+   ]
+  ],
+  "138": [
+   "IGUI_ALifeUI_5151271f15c57cea",
+   "Copy the selected faction with all its NPC presets.",
+   [
+    "ALifeCreatorUx.lua:157"
+   ]
+  ],
+  "139": [
+   "IGUI_ALifeUI_61e9d5cd1ea1ec78",
+   "Copy the selected NPC preset.",
+   [
+    "ALifeCreatorUx.lua:158"
+   ]
+  ],
+  "140": [
+   "IGUI_ALifeUI_3e254617484c7b3f",
+   "Delete the selected item. Click twice within 3 seconds to confirm.",
+   [
+    "ALifeCreatorUx.lua:159"
+   ]
+  ],
+  "141": [
+   "IGUI_ALifeUI_6666d43919473b03",
+   "Send every Creator faction and NPC to the server (multiplayer admins).",
+   [
+    "ALifeCreatorUx.lua:160"
+   ]
+  ],
+  "142": [
+   "IGUI_ALifeUI_5771f53528cdb51e",
+   "Close the Creator. Pending edits are saved first.",
+   [
+    "ALifeCreatorUx.lua:161"
+   ]
+  ],
+  "143": [
+   "IGUI_ALifeUI_4d309def30f0cc84",
+   "Show the next enabled outfit set on the live model.",
+   [
+    "ALifeCreatorUx.lua:163"
+   ]
+  ],
+  "144": [
+   "IGUI_ALifeUI_7adf999712ae24ba",
+   "Keep the authored color of the selected clothing item.",
+   [
+    "ALifeCreatorUx.lua:164"
+   ]
+  ],
+  "145": [
+   "IGUI_ALifeUI_64afc27332e8d740",
+   "Pick any color for the selected clothing slot.",
+   [
+    "ALifeCreatorUx.lua:165"
+   ]
+  ],
+  "146": [
+   "IGUI_ALifeUI_4b6d6c145382d2e4",
+   "Members with no weapon or no ammo. Click to show only them.",
+   [
+    "ALifeCreatorUx.lua:175"
+   ]
+  ],
+  "147": [
+   "IGUI_ALifeUI_40f128955f2611cd",
+   "PLANNING CANCELLED - NOTHING WAS CHANGED",
+   [
+    "ALifeCreatorSeasonalActions.lua:237"
+   ]
+  ],
+  "148": [
+   "IGUI_ALifeUI_046f0b923871d8bb",
+   "PLANNING FAILED - NOTHING WAS CHANGED",
+   [
+    "ALifeCreatorSeasonalActions.lua:282"
+   ]
+  ],
+  "149": [
+   "IGUI_ALifeUI_2c15c3bb012bd069",
+   "BULK WARDROBE: OPEN THE LOCAL CREATOR STORE OUTSIDE MULTIPLAYER",
+   [
+    "ALifeCreatorSeasonalActions.lua:294"
+   ]
+  ],
+  "150": [
+   "IGUI_ALifeUI_505b09f826c95382",
+   "WAIT FOR THE CURRENT SAVE OR PLAN, THEN PREVIEW AGAIN",
+   [
+    "ALifeCreatorSeasonalActions.lua:299"
+   ]
+  ],
+  "151": [
+   "IGUI_ALifeUI_37fc6d537b09a474",
+   "SAVE OPEN EDITS FIRST, THEN PREVIEW AGAIN",
+   [
+    "ALifeCreatorSeasonalActions.lua:304"
+   ]
+  ],
+  "152": [
+   "IGUI_ALifeUI_1ce958f01465c8bf",
+   "Only listed missing wardrobe fields are filled. NPCs with their own untagged outfits are skipped:",
+   [
+    "ALifeCreatorSeasonalActions.lua:332"
+   ]
+  ],
+  "153": [
+   "IGUI_ALifeUI_196f822478960dcf",
+   "their outfits and season tags stay exactly as authored and the game still dresses them for the season.",
+   [
+    "ALifeCreatorSeasonalActions.lua:333"
+   ]
+  ],
+  "154": [
+   "IGUI_ALifeUI_390116356838b5a6",
+   "Another bulk save is still running. Wait for it to finish, then press CONFIRM AND SAVE again.",
+   [
+    "ALifeCreatorSeasonalActions.lua:359"
+   ]
+  ],
+  "155": [
+   "IGUI_ALifeUI_4ca586a342faa7c4",
+   "The NPC store could not be read at startup, so nothing was changed. Close and reopen the Creator, then preview again.",
+   [
+    "ALifeCreatorSeasonalActions.lua:361"
+   ]
+  ],
+  "156": [
+   "IGUI_ALifeUI_5250915e516e1ece",
+   "The faction store could not be read at startup, so nothing was changed. Close and reopen the Creator, then preview again.",
+   [
+    "ALifeCreatorSeasonalActions.lua:364"
+   ]
+  ],
+  "157": [
+   "IGUI_ALifeUI_490eb8564a40a0ac",
+   "The plan holds an NPC without an id, so nothing was changed. Cancel and preview again.",
+   [
+    "ALifeCreatorSeasonalActions.lua:369"
+   ]
+  ],
+  "158": [
+   "IGUI_ALifeUI_2e668e8a60964215",
+   "The list of safety copies could not be read, so nothing was changed.",
+   [
+    "ALifeCreatorSeasonalActions.lua:380"
+   ]
+  ],
+  "159": [
+   "IGUI_ALifeUI_229c43095e293e5b",
+   "The safety copy name was refused, so nothing was changed.",
+   [
+    "ALifeCreatorSeasonalActions.lua:381"
+   ]
+  ],
+  "160": [
+   "IGUI_ALifeUI_4d7572995381ef81",
+   "The current store file could not be read for the safety copy, so nothing was changed.",
+   [
+    "ALifeCreatorSeasonalActions.lua:382"
+   ]
+  ],
+  "161": [
+   "IGUI_ALifeUI_5108e0b832a807f3",
+   "The safety copy of the current store could not be written (disk full or read-only?), so nothing was changed.",
+   [
+    "ALifeCreatorSeasonalActions.lua:383"
+   ]
+  ],
+  "162": [
+   "IGUI_ALifeUI_03fa0c18663b3d56",
+   "The safety copy of the current store did not match the original, so nothing was changed.",
+   [
+    "ALifeCreatorSeasonalActions.lua:384"
+   ]
+  ],
+  "163": [
+   "IGUI_ALifeUI_15a9aff30b9da825",
+   "The safety copy list could not be updated, so nothing was changed.",
+   [
+    "ALifeCreatorSeasonalActions.lua:385"
+   ]
+  ],
+  "164": [
+   "IGUI_ALifeUI_066afba01c1c7fe0",
+   "The safety copy of the current store failed, so nothing was changed.",
+   [
+    "ALifeCreatorSeasonalActions.lua:389"
+   ]
+  ],
+  "165": [
+   "IGUI_ALifeUI_0947bad315936a7a",
+   "OPEN EDITS CHANGED - wait for save, then cancel and preview again",
+   [
+    "ALifeCreatorSeasonalActions.lua:399"
+   ]
+  ],
+  "166": [
+   "IGUI_ALifeUI_305e35d0615bead6",
+   "DATA CHANGED - cancel and preview again",
+   [
+    "ALifeCreatorSeasonalActions.lua:404"
+   ]
+  ],
+  "167": [
+   "IGUI_ALifeUI_31a7f09c425af90b",
+   "Bulk seasonal changes require the local Creator store, not an active multiplayer client.",
+   [
+    "ALifeCreatorSeasonalActions.lua:408"
+   ]
+  ],
+  "168": [
+   "IGUI_ALifeUI_1fa9b61f09e8ced2",
+   "The NPC store refused the update, so nothing was changed. Cancel, wait a moment and preview again.",
+   [
+    "ALifeCreatorSeasonalActions.lua:417"
+   ]
+  ],
+  "169": [
+   "IGUI_ALifeUI_582579be53f1a7de",
+   "SAVING - first a safety copy of the current store, then one background profile transaction, then faction defaults",
+   [
+    "ALifeCreatorSeasonalActions.lua:428"
+   ]
+  ],
+  "170": [
+   "IGUI_ALifeUI_423a6c8c61075fed",
+   "Who calls, how they arrive, and whether a night helicopter also searches the contact.",
+   [
+    "ALifeCreatorFactionSupport.lua:51"
+   ]
+  ],
+  "171": [
+   "IGUI_ALifeUI_4ee519be70b52069",
+   "Who can call backup?",
+   [
+    "ALifeCreatorFactionSupport.lua:57"
+   ]
+  ],
+  "172": [
+   "IGUI_ALifeUI_2be8467b3f6d8d06",
+   "Radio operator: only the squad's radio operator can call. Everyone: any member may call. Disabled: no faction calls. The shared squad cooldown and call limit prevent repeated calls; NPC overrides still apply.",
+   [
+    "ALifeCreatorFactionSupport.lua:60"
+   ]
+  ],
+  "173": [
+   "IGUI_ALifeUI_4d88ebd029a7063d",
+   "How does support arrive?",
+   [
+    "ALifeCreatorFactionSupport.lua:61"
+   ]
+  ],
+  "174": [
+   "IGUI_ALifeUI_4ab2b8c663c4ef84",
+   "Pull-up sound (no vehicle is spawned)",
+   [
+    "ALifeCreatorFactionSupport.lua:70"
+   ]
+  ],
+  "175": [
+   "IGUI_ALifeUI_7df0e4082c9e1251",
+   "Maximum lifetime calls for the calling squad; zero disables requests. The world's call cap, cooldown and active-NPC budget may reduce this number. Reinforcements cannot call more reinforcements.",
+   [
+    "ALifeCreatorFactionSupport.lua:80"
+   ]
+  ],
+  "176": [
+   "IGUI_ALifeUI_16a47c4c78d4d9ea",
+   "Uses this faction for this call, not a random pool. Another faction must be friendly or allied in at least one direction; otherwise backup uses the caller's own faction. Calls after the third use the same faction.",
+   [
+    "ALifeCreatorFactionSupport.lua:87"
+   ]
+  ],
+  "177": [
+   "IGUI_ALifeUI_63f4c42936444116",
+   "Add backup choices: set factions Friendly / Allied in Relations.",
+   [
+    "ALifeCreatorFactionSupport.lua:89"
+   ]
+  ],
+  "178": [
+   "IGUI_ALifeUI_3c3261171fb85e4c",
+   "The car this faction's crews drive when they arrive by car.",
+   [
+    "ALifeCreatorFactionSupport.lua:100"
+   ]
+  ],
+  "179": [
+   "IGUI_ALifeUI_4babcb2c0bcedff2",
+   "Disabled by default; NPC overrides may allow calls.",
+   [
+    "ALifeCreatorFactionSupport.lua:101"
+   ]
+  ],
+  "180": [
+   "IGUI_ALifeUI_71cd109f4cac2850",
+   "Car sound + distant squad; radio position updates for five seconds.",
+   [
+    "ALifeCreatorFactionSupport.lua:102"
+   ]
+  ],
+  "181": [
+   "IGUI_ALifeUI_1c4bcbbe2df97762",
+   "Default keeps the standard arrival car. A crew larger than two of the chosen vehicle uses the default car instead.",
+   [
+    "ALifeCreatorFactionSupport.lua:103"
+   ]
+  ],
+  "182": [
+   "IGUI_ALifeUI_2bf02e171a1f5547",
+   "No helicopter role: backup falls back to ground.",
+   [
+    "ALifeCreatorFactionSupport.lua:103"
+   ]
+  ],
+  "183": [
+   "IGUI_ALifeUI_0e75a65c003869c1",
+   "Ground squad + night/outdoor searchlight.",
+   [
+    "ALifeCreatorFactionSupport.lua:104"
+   ]
+  ],
+  "184": [
+   "IGUI_ALifeUI_273003f975cc08df",
+   "Night/outdoor searchlight reports to the calling squad; no troops.",
+   [
+    "ALifeCreatorFactionSupport.lua:104"
+   ]
+  ],
+  "185": [
+   "IGUI_ALifeUI_19e022d675edd780",
+   "Helicopter insertion plus a spotlight on the same identified outdoor target at night.",
+   [
+    "ALifeCreatorFactionSupport.lua:105"
+   ]
+  ],
+  "186": [
+   "IGUI_ALifeUI_4b959b9b2f77c14d",
+   "Ground or helicopter squad, chosen per call.",
+   [
+    "ALifeCreatorFactionSupport.lua:106"
+   ]
+  ],
+  "187": [
+   "IGUI_ALifeUI_6ab0866e4e6e06f9",
+   "Helicopter squad insertion; world limits still apply.",
+   [
+    "ALifeCreatorFactionSupport.lua:107"
+   ]
+  ],
+  "188": [
+   "IGUI_ALifeUI_08f9b26c6fc4dde1",
+   "Some vehicles, such as police cars, keep their own livery.",
+   [
+    "ALifeCreatorFactionSupport.lua:108"
+   ]
+  ],
+  "189": [
+   "IGUI_ALifeUI_2fb77dfd722eb765",
+   "Not installed: arrivals use the default car.",
+   [
+    "ALifeCreatorFactionSupport.lua:120"
+   ]
+  ],
+  "190": [
+   "IGUI_ALifeUI_051235944df0110d",
+   "{n} factions, {m} NPCs change; {k} NPCs keep their own outfits; {w} warnings",
+   [
+    "kalıp (birleşik yazı)"
+   ]
+  ],
+  "191": [
+   "IGUI_ALifeUI_0e77fa243c64b023",
+   "{x} World switches and valid task conditions always apply.",
+   [
+    "kalıp (birleşik yazı)"
+   ]
+  ],
+  "192": [
+   "IGUI_ALifeUI_19aa9e17232d42fa",
+   "{x} Use faction follows its default, then the NPC behavior profile when the faction has no override.",
+   [
+    "kalıp (birleşik yazı)"
+   ]
+  ],
+  "193": [
+   "IGUI_ALifeUI_249dc585764c607a",
+   "{x} Click to open the full vanilla and modded icon catalog. Right-click to clear this slot.",
+   [
+    "kalıp (birleşik yazı)"
+   ]
+  ],
+  "194": [
+   "IGUI_ALifeUI_3395a75158755bd2",
+   "Relative faction selection weight, 0 to {n}, not a percentage. Zero disables natural spawning. Sandbox settings control overall encounter frequency.",
+   [
+    "kalıp (birleşik yazı)"
+   ]
+  ],
+  "195": [
+   "IGUI_ALifeUI_4a6c9a586513ffc7",
+   "Everything is listed ({n}). Amber groups are off-season, off-role or novelty.",
+   [
+    "kalıp (birleşik yazı)"
+   ]
+  ],
+  "196": [
+   "IGUI_ALifeUI_4dcd343350b43428",
+   "{x} Use NPC profile leaves the choice to each member's behavior profile. Individual NPC overrides take precedence.",
+   [
+    "kalıp (birleşik yazı)"
+   ]
+  ],
+  "197": [
+   "IGUI_ALifeUI_511466485d3e7d3d",
+   "{n} recordings + contextual text. Preview a reaction below.",
+   [
+    "kalıp (birleşik yazı)"
+   ]
+  ],
+  "198": [
+   "IGUI_ALifeUI_560142901d7ebee7",
+   "Open the icon catalog for {x}. Select up to four spawn choices.",
+   [
+    "kalıp (birleşik yazı)"
+   ]
+  ],
+  "199": [
+   "IGUI_ALifeUI_69da588574727104",
+   "Click to edit {x}. Right-click to clear.",
+   [
+    "kalıp (birleşik yazı)"
+   ]
+  ],
+  "200": [
+   "IGUI_ALifeUI_709e7cf12e1b3b42",
+   "Base HP, 0-200. Zero uses the standard NPC HP. The NPC health option and the world health multiplier scale it on spawn, like stock NPCs; the summary shows the result. Default: {n} HP. Other skills use 1-10 ratings.",
+   [
+    "kalıp (birleşik yazı)"
+   ]
+  ],
+  "201": [
+   "IGUI_ALifeUI_11dc749247e9bc10",
+   "Readable identity first; internal IDs stay out of the way.",
+   [
+    "ALifeCreatorIdentity.lua:27"
+   ]
+  ],
+  "202": [
+   "IGUI_ALifeUI_6d521af221309b88",
+   "WHO IS THIS NPC?",
+   [
+    "ALifeCreatorIdentity.lua:27"
+   ]
+  ],
+  "203": [
+   "IGUI_ALifeUI_76bcd7ea58767f0a",
+   "Tag describes the member's job. Class sets how the member behaves under threat. Spawn Weight In Group controls how often this preset is selected.",
+   [
+    "ALifeCreatorIdentity.lua:29"
+   ]
+  ],
+  "204": [
+   "IGUI_ALifeUI_256475160a3e51b1",
+   "Tags improve filtering. Notes are private creator metadata.",
+   [
+    "ALifeCreatorIdentity.lua:31"
+   ]
+  ],
+  "205": [
+   "IGUI_ALifeUI_41e44d3c4965d5b7",
+   "How this member behaves under threat. Civilians and workers are fearful, soldiers, police and criminals stay steady. Same as faction follows the faction's class.",
+   [
+    "ALifeCreatorIdentity.lua:67"
+   ]
+  ],
+  "206": [
+   "IGUI_ALifeUI_5453004223863cd9",
+   "How often this preset is selected within its faction. Common is the normal rate; Rare and Very Rare keep specialists from taking over a squad.",
+   [
+    "ALifeCreatorIdentity.lua:69"
+   ]
+  ],
+  "207": [
+   "IGUI_ALifeUI_0278f0713d74f132",
+   "Each NPC spawned from this preset gets its own name, never repeated in the world. Pick Set name to give every NPC of this preset the same name.",
+   [
+    "ALifeCreatorIdentity.lua:101"
+   ]
+  ],
+  "208": [
+   "IGUI_ALifeUI_41e5cfcd2b025775",
+   "TAG NAME: 1 TO 48 CHARACTERS",
+   [
+    "ALifeCreatorIdentity.lua:238"
+   ]
+  ],
+  "209": [
+   "IGUI_ALifeUI_4e35fcdb1011ebb1",
+   "Delete this custom tag from this faction. Its members return to Scout.",
+   [
+    "ALifeCreatorIdentity.lua:283"
+   ]
+  ],
+  "210": [
+   "IGUI_ALifeUI_47490dc24dcc4987",
+   "Choose a color for the new tag.",
+   [
+    "ALifeCreatorIdentity.lua:292"
+   ]
+  ],
+  "211": [
+   "IGUI_ALifeUI_4008fa8c160cc610",
+   "TEXT TOO LARGE FOR THIS SCREEN",
+   [
+    "ALifeCreatorUxStatus.lua:86"
+   ]
+  ],
+  "212": [
+   "IGUI_ALifeUI_681bdf2e3f23849a",
+   "Save faction and NPC edits now. Shortcut: Ctrl + S. Edits also autosave.",
+   [
+    "ALifeCreatorUxStatus.lua:125"
+   ]
+  ],
+  "213": [
+   "IGUI_ALifeUI_2d187c916f334a57",
+   "Pick a faction in the list on the left.",
+   [
+    "ALifeCreatorUxStatus.lua:239"
+   ]
+  ],
+  "214": [
+   "IGUI_ALifeUI_2ff5e93c109e09c5",
+   "THIS FACTION HAS NO MEMBERS YET",
+   [
+    "ALifeCreatorUxStatus.lua:242"
+   ]
+  ],
+  "215": [
+   "IGUI_ALifeUI_3ff6dedf69ff1c53",
+   "Click + NEW MEMBER to add the first NPC preset.",
+   [
+    "ALifeCreatorUxStatus.lua:242"
+   ]
+  ],
+  "216": [
+   "IGUI_ALifeUI_3169675721214c85",
+   "Every member has a weapon and ammo.",
+   [
+    "ALifeCreatorUxStatus.lua:243"
+   ]
+  ],
+  "217": [
+   "IGUI_ALifeUI_61a2bb6f16f18fbf",
+   "Choose ALL to see every member.",
+   [
+    "ALifeCreatorUxStatus.lua:247"
+   ]
+  ],
+  "218": [
+   "IGUI_ALifeUI_73f08cbb7681b2aa",
+   "Clear the search box to see every faction.",
+   [
+    "ALifeCreatorUxStatus.lua:252"
+   ]
+  ],
+  "219": [
+   "IGUI_ALifeUI_661750446726e935",
+   "Click + NEW FACTION to create the first one.",
+   [
+    "ALifeCreatorUxStatus.lua:253"
+   ]
+  ],
+  "220": [
+   "IGUI_ALifeUI_7af7763420cc95be",
+   "Keep up to four random spawn options per clothing slot. Off: the next click replaces the slot.",
+   [
+    "ALifeCreatorAppearance.lua:70"
+   ]
+  ],
+  "221": [
+   "IGUI_ALifeUI_49a3dea16bac3429",
+   "Any season: this set can spawn all year. A season: it only spawns then, and in that season it replaces the any-season sets. The season follows the outdoor temperature, checked when the NPC is dressed and again while it lives: winter set at 4 C or colder, summer set at 22 C or warmer, spring or autumn in between (the date only picks which). Rain, wind and snow count as one step colder. Without a climate reading the date decides: winter Dec-Feb, spring Mar-May, summer Jun-Aug, autumn Sep-Nov.",
+   [
+    "ALifeCreatorAppearance.lua:79"
+   ]
+  ],
+  "222": [
+   "IGUI_ALifeUI_35478dda464f280f",
+   "Cycles only through outfit sets marked Enable this set for spawning. A random pool choice is shown each time.",
+   [
+    "ALifeCreatorAppearance.lua:83"
+   ]
+  ],
+  "223": [
+   "IGUI_ALifeUI_1725a8be184dec0e",
+   "Click to choose clothing. Right-click to remove all choices from this slot.",
+   [
+    "ALifeCreatorAppearance.lua:117"
+   ]
+  ],
+  "224": [
+   "IGUI_ALifeUI_4d5086d811d9b72c",
+   "Keep the authored color of the selected clothing item. It stays stable across preview refreshes.",
+   [
+    "ALifeCreatorAppearance.lua:129"
+   ]
+  ],
+  "225": [
+   "IGUI_ALifeUI_43215fff5ce39184",
+   "Apply this exact color to the selected clothing slot.",
+   [
+    "ALifeCreatorAppearance.lua:140"
+   ]
+  ],
+  "226": [
+   "IGUI_ALifeUI_6e719c6911991da2",
+   "Open the full color picker for the selected clothing slot.",
+   [
+    "ALifeCreatorAppearance.lua:146"
+   ]
+  ],
+  "227": [
+   "IGUI_ALifeUI_79bff26d35891735",
+   "Makeup for the outfit set selected below. The swatch is the shade itself: the game ships every lipstick and eyeshadow colour as its own item, and the face paints as textures, so there is no tint to pick. A beard is a model and makeup is a skin texture: the game always draws the beard over it.",
+   [
+    "ALifeCreatorAppearance.lua:187"
+   ]
+  ],
+  "228": [
+   "IGUI_ALifeUI_110bc34a010870b0",
+   "Multiplies the weapon's damage: 25% = one quarter, 100% = normal, 200% = double.",
+   [
+    "ALifeCreatorCombat.lua:51"
+   ]
+  ],
+  "229": [
+   "IGUI_ALifeUI_55c520fb3d88b85d",
+   "Reduces incoming damage. At 25%, the NPC takes 75% of the hit. Maximum reduction: 90%.",
+   [
+    "ALifeCreatorCombat.lua:52"
+   ]
+  ],
+  "230": [
+   "IGUI_ALifeUI_4682de9b490ffacc",
+   "Loot after death, not the chance to spawn armed. Choose weapons in Loadout. Each NPC gets a stable chance within the range. Always (100%) keeps issued weapons; Off removes them. Does not create missing weapons or control magazine drops.",
+   [
+    "ALifeCreatorCombat.lua:62"
+   ]
+  ],
+  "231": [
+   "IGUI_ALifeUI_3c0161217a47cab3",
+   "None 0% / Very Low 5% / Low 20% / Moderate 50% / High 75% / Very High 90% / Always 100%. Existing custom percentages are preserved.",
+   [
+    "ALifeCreatorCombat.lua:64"
+   ]
+  ],
+  "232": [
+   "IGUI_ALifeUI_275634156988481b",
+   "Use faction + assigned role preserves the faction policy. Yes gives this member radio-calling ability without replacing its combat specialist. Admin spawn overrides still take precedence.",
+   [
+    "ALifeCreatorCombat.lua:84"
+   ]
+  ],
+  "233": [
+   "IGUI_ALifeUI_560b16350a062caa",
+   "Spotlight needs Helicopter or Ground / helicopter delivery. The combined setting brings a ground squad and the light; Helicopter alone brings only the light. With Squad insertion, the combined setting chooses either delivery per call.",
+   [
+    "ALifeCreatorCombat.lua:85"
+   ]
+  ],
+  "234": [
+   "IGUI_ALifeUI_1a91001e63379781",
+   "This NPC cannot request backup.",
+   [
+    "ALifeCreatorCombat.lua:91"
+   ]
+  ],
+  "235": [
+   "IGUI_ALifeUI_4989448c79f26178",
+   "Squad size and backup faction use faction settings.",
+   [
+    "ALifeCreatorCombat.lua:92"
+   ]
+  ],
+  "236": [
+   "IGUI_ALifeUI_2f58fe6e022b8287",
+   "Visitor-only factions never spawn on their own",
+   [
+    "ALifeCreatorFactionSpawning.lua:106"
+   ]
+  ],
+  "237": [
+   "IGUI_ALifeUI_5aa4dac75498f1b0",
+   "Friendly and neutral factions can appear naturally. Scouts, ambushes and raids require a hostile faction.",
+   [
+    "ALifeCreatorFactionSpawning.lua:112"
+   ]
+  ],
+  "238": [
+   "IGUI_ALifeUI_6292dfa32cac0cec",
+   "Inclusive first and last day; day 0 is the first. Leave either blank to keep that end open.",
+   [
+    "ALifeCreatorFactionSpawning.lua:122"
+   ]
+  ],
+  "239": [
+   "IGUI_ALifeUI_6ce2fda321812377",
+   "When new encounters may begin. Existing squads finish their tasks; they do not disappear at the end of this window.",
+   [
+    "ALifeCreatorFactionSpawning.lua:131"
+   ]
+  ],
+  "240": [
+   "IGUI_ALifeUI_66ebf3a85104b1da",
+   "Relative weight. Blank uses sandbox defaults; zero disables this party type.",
+   [
+    "ALifeCreatorFactionSpawning.lua:146"
+   ]
+  ],
+  "241": [
+   "IGUI_ALifeUI_2d99e0f65df88ed9",
+   "Placement distance is managed by A-Life.",
+   [
+    "ALifeCreatorFactionSpawning.lua:148"
+   ]
+  ],
+  "242": [
+   "IGUI_ALifeUI_266fb42c5a9ec1f4",
+   "None selected - no natural encounters",
+   [
+    "ALifeCreatorFactionSpawning.lua:225"
+   ]
+  ],
+  "243": [
+   "IGUI_ALifeUI_23a675ff5f194d39",
+   "All registered towns, including towns added later. Untick to choose individual towns below.",
+   [
+    "ALifeCreatorFactionSpawning.lua:251"
+   ]
+  ],
+  "244": [
+   "IGUI_ALifeUI_69ffb6147c565b38",
+   "Keep up to four random spawn options per weapon slot. Off: the next click replaces the slot.",
+   [
+    "ALifeCreatorLoadout.lua:11"
+   ]
+  ],
+  "245": [
+   "IGUI_ALifeUI_2f44f03e7604cedd",
+   "Main weapon carried in hand.",
+   [
+    "ALifeCreatorLoadout.lua:25"
+   ]
+  ],
+  "246": [
+   "IGUI_ALifeUI_045b1a2c5f220ff8",
+   "Backup firearm available when the primary is unsuitable.",
+   [
+    "ALifeCreatorLoadout.lua:27"
+   ]
+  ],
+  "247": [
+   "IGUI_ALifeUI_4a2240277b2ee120",
+   "Close-range fallback carried on the belt or back.",
+   [
+    "ALifeCreatorLoadout.lua:29"
+   ]
+  ],
+  "248": [
+   "IGUI_ALifeUI_4d34add0426a5c29",
+   "Counts are complete magazines, tubes or cylinders - not loose rounds.",
+   [
+    "ALifeCreatorLoadout.lua:51"
+   ]
+  ],
+  "249": [
+   "IGUI_ALifeUI_1ebafbd030a8aaeb",
+   "Unlimited combat reloads. Death loot still rolls once per authored magazine below.",
+   [
+    "ALifeCreatorLoadout.lua:74"
+   ]
+  ],
+  "250": [
+   "IGUI_ALifeUI_2ac6b3381e5a416d",
+   "One independent roll per primary/sidearm magazine. Three magazines at 20% means three rolls, even with infinite ammo. Fixed magazines drop loose rounds.",
+   [
+    "ALifeCreatorLoadout.lua:80"
+   ]
+  ],
+  "251": [
+   "IGUI_ALifeUI_7970be186b104a14",
+   "Configure compatible scopes, sights, slings, recoil pads and other parts for the selected firearms.",
+   [
+    "ALifeCreatorLoadout.lua:88"
+   ]
+  ],
+  "252": [
+   "IGUI_ALifeUI_70aafa6764e2dc3b",
+   "Selects the complete baseline behavior package: priorities, engagement style and allowed abilities.",
+   [
+    "ALifeCreatorBehavior.lua:14"
+   ]
+  ],
+  "253": [
+   "IGUI_ALifeUI_0ed7f4d438bc2252",
+   "Assigns one specialist doctrine. Use Modules for smaller per-NPC exceptions.",
+   [
+    "ALifeCreatorBehavior.lua:19"
+   ]
+  ],
+  "254": [
+   "IGUI_ALifeUI_01275b0901c2ab13",
+   "Controls whether the NPC initially appears armed and prepared. Mixed follows the authored loadout pool.",
+   [
+    "ALifeCreatorBehavior.lua:24"
+   ]
+  ],
+  "255": [
+   "IGUI_ALifeUI_1eea68511ac33724",
+   "Select a behavior profile to see exactly what it does.",
+   [
+    "ALifeCreatorBehavior.lua:25"
+   ]
+  ],
+  "256": [
+   "IGUI_ALifeUI_1f6b651937009c65",
+   "Chooses the voice pack used for warnings, combat reactions and death sounds.",
+   [
+    "ALifeCreatorBehavior.lua:32"
+   ]
+  ],
+  "257": [
+   "IGUI_ALifeUI_6b9114103e075037",
+   "Select the reaction category used by Play voice preview. It does not change combat behavior.",
+   [
+    "ALifeCreatorBehavior.lua:37"
+   ]
+  ],
+  "258": [
+   "IGUI_ALifeUI_4d02959b28db5714",
+   "Select a voice and reaction to preview.",
+   [
+    "ALifeCreatorBehavior.lua:41"
+   ]
+  ],
+  "259": [
+   "IGUI_ALifeUI_7004e49570031681",
+   "Free set, any season: not part of the faction wardrobe",
+   [
+    "ALifeCreatorLookSeasons.lua:7"
+   ]
+  ],
+  "260": [
+   "IGUI_ALifeUI_351e51f81b966bfa",
+   "Generate fills missing sets and season tags. NPCs that already have their own untagged outfits are skipped: their outfits and tags stay exactly as authored, and the game still dresses them for the season on its own.",
+   [
+    "ALifeCreatorLookSeasons.lua:10"
+   ]
+  ],
+  "261": [
+   "IGUI_ALifeUI_7ae862dd2b13e37a",
+   "Moved to the NPC editor: Look tab, OUTFIT SETS. Sets A to D are the faction's spring, summer, autumn and winter outfits.",
+   [
+    "ALifeCreatorLookSeasons.lua:11"
+   ]
+  ],
+  "262": [
+   "IGUI_ALifeUI_1f88f8f87348434a",
+   "Open the faction wardrobe editor for the selected set. A to D are the faction's spring, summer, autumn and winter outfits.",
+   [
+    "ALifeCreatorLookSeasons.lua:78"
+   ]
+  ],
+  "263": [
+   "IGUI_ALifeUI_2fb7559436430427",
+   "Refresh this faction's seasonal sets from the shipped wardrobe. A preview opens first, nothing changes until you accept.",
+   [
+    "ALifeCreatorLookSeasons.lua:84"
+   ]
+  ],
+  "264": [
+   "IGUI_ALifeUI_6315344f3a8864af",
+   "Limit the faction list to factions that ship with the mod.",
+   [
+    "ALifeCreatorLookSeasons.lua:90"
+   ]
+  ],
+  "265": [
+   "IGUI_ALifeUI_29fb47a357354805",
+   "Moved to NPC Look.",
+   [
+    "ALifeCreatorLookSeasons.lua:122"
+   ]
+  ],
+  "266": [
+   "IGUI_ALifeUI_4d6b0ebb05e57811",
+   "CONFIRM?",
+   [
+    "ALifeCreatorUxSafety.lua:76"
+   ]
+  ],
+  "267": [
+   "IGUI_ALifeUI_3aa3b4a854964f50",
+   "NPC deleted.",
+   [
+    "ALifeCreatorUxSafety.lua:149"
+   ]
+  ],
+  "268": [
+   "IGUI_ALifeUI_62eb17095a226bbc",
+   "CLICK AGAIN TO RESET - THE SERVER LIST IS REPLACED, FACTIONS YOU MADE STAY",
+   [
+    "ALifeCreatorUxSafety.lua:164"
+   ]
+  ],
+  "269": [
+   "IGUI_ALifeUI_4953b1cc5b28df01",
+   "CLICK AGAIN TO RESET - YOUR CURRENT FACTION FILE IS KEPT AS A .BACKUP.INI COPY",
+   [
+    "ALifeCreatorUxSafety.lua:166"
+   ]
+  ],
+  "270": [
+   "IGUI_ALifeUI_32993efd79f0015e",
+   "Built-in factions go back to default. Factions you made yourself stay. A single-player faction file is kept as a .backup.ini copy. Click twice within 3 seconds to confirm.",
+   [
+    "ALifeCreatorUxSafety.lua:206"
+   ]
+  ],
+  "271": [
+   "IGUI_ALifeUI_2b454a5b764dfe5b",
+   "Click twice within 3 seconds to confirm.",
+   [
+    "ALifeCreatorUxSafety.lua:207"
+   ]
+  ],
+  "272": [
+   "IGUI_ALifeUI_0d88396b55ede712",
+   "Name, gender and notes. Tag, class and spawn weight are in the folded block.",
+   [
+    "ALifeCreatorUxTabs.lua:17"
+   ]
+  ],
+  "273": [
+   "IGUI_ALifeUI_2ae42dc12331d842",
+   "Skin, hair, beard, outfit sets and clothing slots (APPEARANCE), face choices (FACES).",
+   [
+    "ALifeCreatorUxTabs.lua:18"
+   ]
+  ],
+  "274": [
+   "IGUI_ALifeUI_44caa4643ef7fd63",
+   "COMBAT: health, skills, damage and loot. BEHAVIOR: doctrine and voice. ABILITIES: per-NPC overrides.",
+   [
+    "ALifeCreatorUxTabs.lua:20"
+   ]
+  ],
+  "275": [
+   "IGUI_ALifeUI_5f15894946bc10f1",
+   "IDENTITY, LOOK, GEAR and BEHAVIOR. LOOK and BEHAVIOR have a second row.",
+   [
+    "ALifeCreatorUxTabs.lua:132"
+   ]
+  ],
+  "276": [
+   "IGUI_ALifeUI_11e3bdb011ba20b5",
+   "Click to fold or unfold this block.",
+   [
+    "ALifeCreatorUxTabs.lua:200"
+   ]
+  ],
+  "277": [
+   "IGUI_ALifeUI_0a8932cf4253c47c",
+   "Show behavior, ammo, outfit sets and spawn weight in the member table.",
+   [
+    "ALifeCreatorUxTabs.lua:224"
+   ]
+  ],
+  "278": [
+   "IGUI_ALifeUI_3bd9793652b37d87",
+   "No clothing data for this set.",
+   [
+    "ALifeCreatorOutfitHealth.lua:130"
+   ]
+  ],
+  "279": [
+   "IGUI_ALifeUI_3faa0c347a36011c",
+   "Proposes replacements for the first problem of this outfit set. Nothing changes until you press APPLY on a proposal.",
+   [
+    "ALifeCreatorOutfitHealth.lua:179"
+   ]
+  ],
+  "280": [
+   "IGUI_ALifeUI_52e8b6f64fd0d943",
+   "Nothing changes until you press APPLY. PREVIEW shows it on the character.",
+   [
+    "ALifeCreatorOutfitHealth.lua:255"
+   ]
+  ],
+  "281": [
+   "IGUI_ALifeUI_1fb119d807143e14",
+   "No automatic proposal for this issue. Use the slot picker (SHOW ALL) and choose by hand.",
+   [
+    "ALifeCreatorOutfitHealth.lua:259"
+   ]
+  ],
+  "282": [
+   "IGUI_ALifeUI_68fe30553c0ea6f9",
+   "Saving NPC...",
+   [
+    "ALifeCreatorSaveQueue.lua:80"
+   ]
+  ],
+  "283": [
+   "IGUI_ALifeUI_571e44832757bba9",
+   "the written file did not match the edit",
+   [
+    "ALifeCreatorSaveQueue.lua:163"
+   ]
+  ],
+  "284": [
+   "IGUI_ALifeUI_0836afa5661002fe",
+   "the NPC list changed while writing",
+   [
+    "ALifeCreatorSaveQueue.lua:165"
+   ]
+  ],
+  "285": [
+   "IGUI_ALifeUI_398fc25f054abfd5",
+   "Saving NPC... the Creator opens when it is done",
+   [
+    "ALifeCreatorSaveQueue.lua:301"
+   ]
+  ],
+  "286": [
+   "IGUI_ALifeUI_2355d3d53355048b",
+   "Faction defaults; enabled member seasonal outfits take priority.",
+   [
+    "ALifeCreatorWardrobe.lua:153"
+   ]
+  ],
+  "287": [
+   "IGUI_ALifeUI_223d9b030b41131b",
+   "Generate fills missing sets and season tags. NPCs that already have their own untagged outfits are skipped:",
+   [
+    "ALifeCreatorWardrobe.lua:197"
+   ]
+  ],
+  "288": [
+   "IGUI_ALifeUI_336e01b36d5237d3",
+   "their outfits and tags stay exactly as authored, and the game still dresses them for the season on its own.",
+   [
+    "ALifeCreatorWardrobe.lua:198"
+   ]
+  ],
+  "289": [
+   "IGUI_ALifeUI_620e425b74775655",
+   "Compatible overlays appear here only when their source mod is enabled.",
+   [
+    "ALifeCreatorFaces.lua:11"
+   ]
+  ],
+  "290": [
+   "IGUI_ALifeUI_082ac2b3004543b5",
+   "Choose a compatible modded face overlay. This does not replace the vanilla face model.",
+   [
+    "ALifeCreatorFaces.lua:19"
+   ]
+  ],
+  "291": [
+   "IGUI_ALifeUI_4a456c3928623427",
+   "Visitor only: appears at your door during visits, never in the open world",
+   [
+    "ALifeCreatorFactionIdentity.lua:20"
+   ]
+  ],
+  "292": [
+   "IGUI_ALifeUI_019acc431f8f0d91",
+   "A visitor-only faction never spawns on its own, joins raids or counts toward world pressure. Its members only walk up to your door during visits.",
+   [
+    "ALifeCreatorFactionIdentity.lua:23"
+   ]
+  ],
+  "293": [
+   "IGUI_ALifeUI_02c8761102cb5c65",
+   "Hover a setting or its info icon for a plain-language explanation.",
+   [
+    "ALifeCreatorModules.lua:10"
+   ]
+  ],
+  "294": [
+   "IGUI_ALifeUI_40806b166817615b",
+   "INHERIT = USE FACTION SETTING | ON/OFF = THIS NPC ONLY",
+   [
+    "ALifeCreatorModules.lua:19"
+   ]
+  ],
+  "295": [
+   "IGUI_ALifeUI_4cdcbeb30accdbb3",
+   "NO MATCH IN THIS VIEW - SHOW ALL FINDS ",
+   [
+    "ALifeCreatorClothingView.lua:138"
+   ]
+  ],
+  "296": [
+   "IGUI_ALifeUI_433c91167086284f",
+   "NPC overrides win; world switches still apply.",
+   [
+    "ALifeCreatorFactionModules.lua:10"
+   ]
+  ],
+  "297": [
+   "IGUI_ALifeUI_495c64060a58123e",
+   "Could not save folders.",
+   [
+    "ALifeCreatorFolders.lua:384"
+   ]
+  ]
+ }
+}

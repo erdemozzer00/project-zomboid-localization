@@ -1,0 +1,621 @@
+{
+  "_paket": "D4a — Sivillerin enfekteyle karşılaşma replikleri (CONTACT_INFECTED), 205",
+  "_dosya": "RadioData_lua",
+  "satirlar": {
+    "RD_ALifeLine_7fd83b5e2024cc3e": {
+      "tr": "Ölülerden biri. Seni yakalamasına izin verme"
+    },
+    "RD_ALifeLine_3831b65c46d83596": {
+      "tr": "O, konuşulacak biri değil"
+    },
+    "RD_ALifeLine_69bfde0b6c726eb9": {
+      "tr": "Ah, olamaz. Yine onlardan biri"
+    },
+    "RD_ALifeLine_46bf1e283dfc3cde": {
+      "tr": "Gözünü dört aç. Ölüler ölü kalmıyor"
+    },
+    "RD_ALifeLine_630cc794778e214b": {
+      "tr": "Görüyorum. Keşke görmeseydim"
+    },
+    "RD_ALifeLine_48ffbdb6000ff2ac": {
+      "tr": "O şeyin ağzından uzak dur"
+    },
+    "RD_ALifeLine_57918fe8615247b1": {
+      "tr": "Seslenip nefesini boşa harcama"
+    },
+    "RD_ALifeLine_6fe1d4d257a8e292": {
+      "tr": "O gitmiş. Belli oluyor"
+    },
+    "RD_ALifeLine_63c6c7f3003971a9": {
+      "tr": "Bir ölü. Şimdi dikkatli ol"
+    },
+    "RD_ALifeLine_49a199ce4b54ac4c": {
+      "tr": "Onları böyle görmekten nefret ediyorum"
+    },
+    "RD_ALifeLine_508a1adb05730378": {
+      "tr": "İşte bir tane. Dur bir düşüneyim"
+    },
+    "RD_ALifeLine_2bab50cd179de2f7": {
+      "tr": "Kanma sakın. O iyi değil"
+    },
+    "RD_ALifeLine_784b5b6a560f4f75": {
+      "tr": "Ah, Tanrım. Yaşayan biri değil"
+    },
+    "RD_ALifeLine_5fe04dd8460db752": {
+      "tr": "O şeye dikkat et. Gevşeme"
+    },
+    "RD_ALifeLine_3b552acf63382821": {
+      "tr": "Enfekte - mesafeni koru"
+    },
+    "RD_ALifeLine_7b1291804f0acc72": {
+      "tr": "Şuna dikkat et, seni yakalamasın"
+    },
+    "RD_ALifeLine_61ac5acd3bd9cf46": {
+      "tr": "Yürüyen bir ölü - gözler açık"
+    },
+    "RD_ALifeLine_26b90e8549748c78": {
+      "tr": "Misafirimiz var, ama konuşanından değil"
+    },
+    "RD_ALifeLine_5a1cfe1d6cd4909a": {
+      "tr": "O bir hayatta kalan değil - hazır ol"
+    },
+    "RD_ALifeLine_17bc41257c298ad8": {
+      "tr": "Ellerini ağzından uzak tut"
+    },
+    "RD_ALifeLine_659af6bb6b8a2c9f": {
+      "tr": "Gördüm - bana yer aç"
+    },
+    "RD_ALifeLine_2911de4756765679": {
+      "tr": "Rahat hareket et, köşeye sıkışma"
+    },
+    "RD_ALifeLine_7be4ce131b5a17e2": {
+      "tr": "Gözünü dört aç, o şey ölü"
+    },
+    "RD_ALifeLine_0e02875728fa4717": {
+      "tr": "Ölülerden biri - ayağını nereye bastığına dikkat et"
+    },
+    "RD_ALifeLine_53e655716beba33f": {
+      "tr": "Orada - nasıl hareket ettiğini görüyor musun?"
+    },
+    "RD_ALifeLine_41f8ad6f32e639c7": {
+      "tr": "Sessiz olun, bunu halledebiliriz"
+    },
+    "RD_ALifeLine_57c7fc9a7fcf2c5b": {
+      "tr": "Enfekte görünüyor - aranızdaki mesafeye dikkat edin"
+    },
+    "RD_ALifeLine_44f9492f1a1d3012": {
+      "tr": "Hep bir kaçış yolu bırak - her zaman"
+    },
+    "RD_ALifeLine_422f9c0074500e3b": {
+      "tr": "Acele etme, ellerine dikkat et"
+    },
+    "RD_ALifeLine_5187d0f00e4a5529": {
+      "tr": "Ölü bir şey hâlâ hareket ediyor"
+    },
+    "RD_ALifeLine_6f477f350a74ace1": {
+      "tr": "Gördüm - başkası var mı diye bakmaya devam et"
+    },
+    "RD_ALifeLine_0575436d672814f0": {
+      "tr": "Gerektiğinden fazla yaklaşma"
+    },
+    "RD_ALifeLine_01ec650a0c705dc8": {
+      "tr": "Dişlerine dikkat et, bir ısırık yeter"
+    },
+    "RD_ALifeLine_54bbe69a75ce159c": {
+      "tr": "O gitmiş - konuşmaya çalışma"
+    },
+    "RD_ALifeLine_47e218a62e98aecd": {
+      "tr": "Enfekte - sakin ol"
+    },
+    "RD_ALifeLine_2fb9100a663b8379": {
+      "tr": "Onun için toplanmayın"
+    },
+    "RD_ALifeLine_3f648a8d65df0fa0": {
+      "tr": "Savuracak kadar yer bırak kendine"
+    },
+    "RD_ALifeLine_45e860c31a86ba1a": {
+      "tr": "Ayakta kal, bakınmaya devam et"
+    },
+    "RD_ALifeLine_63d4df521c1b0d7c": {
+      "tr": "Şunun görüntüsü hiç hoşuma gitmedi"
+    },
+    "RD_ALifeLine_612200c50de42f2f": {
+      "tr": "Yine ölü bir surat, başlıyoruz"
+    },
+    "RD_ALifeLine_721b18f92240ecc8": {
+      "tr": "Dalmadan önce etrafımıza bir bakalım"
+    },
+    "RD_ALifeLine_038783686f5dc988": {
+      "tr": "Sadece birine takılıp kalma"
+    },
+    "RD_ALifeLine_31642ae02c1e1471": {
+      "tr": "Görüyor musun? Geride dur"
+    },
+    "RD_ALifeLine_218df5c44ab7f210": {
+      "tr": "Sakin, paniğe gerek yok"
+    },
+    "RD_ALifeLine_046a7b3b2f56004c": {
+      "tr": "Bu enfekte, hiç şüphe yok"
+    },
+    "RD_ALifeLine_3370d78d30ddbf3e": {
+      "tr": "O elleri kendinden uzak tut"
+    },
+    "RD_ALifeLine_4e210eff7a7b4172": {
+      "tr": "O şeyle arana biraz mesafe koy"
+    },
+    "RD_ALifeLine_21ad7374501773a8": {
+      "tr": "Gördüm - kör noktamı kolla"
+    },
+    "RD_ALifeLine_18d83fd752a16446": {
+      "tr": "Bunun yüzünden kimse ısırılmayacak"
+    },
+    "RD_ALifeLine_43aa54dd5dc633e6": {
+      "tr": "Sakin ol - doğru anı kolla"
+    },
+    "RD_ALifeLine_538530581691a482": {
+      "tr": "Bir ölü - aklını kaybetme"
+    },
+    "RD_ALifeLine_52af4d7e2d7ccf15": {
+      "tr": "Hazır ol, hâlâ canını yakabilir"
+    },
+    "RD_ALifeLine_53d7e7932daa94de": {
+      "tr": "Bununla tokalaşan olmayacak"
+    },
+    "RD_ALifeLine_272bc4994409e057": {
+      "tr": "Ona sırtını dönme"
+    },
+    "RD_ALifeLine_70963f37372b045a": {
+      "tr": "Çok yaklaşıyor, KAÇ!"
+    },
+    "RD_ALifeLine_28ca4ec635cb6b07": {
+      "tr": "Hepimiz biliyoruz o ne... gözler açık"
+    },
+    "RD_ALifeLine_5db16929252d224d": {
+      "tr": "Gözün enfektede, kulağın her şeyde olsun"
+    },
+    "RD_ALifeLine_5f8bbace68e31f14": {
+      "tr": "Yerde kalana kadar gözünü ayırma"
+    },
+    "RD_ALifeLine_400b4e3712a62460": {
+      "tr": "Acele etme, şansını zorlama"
+    },
+    "RD_ALifeLine_39bb9052074db27a": {
+      "tr": "O bela - ona yer aç"
+    },
+    "RD_ALifeLine_602ac6cb5ff8cdac": {
+      "tr": "Dikkat et, ölü demek zararsız demek değil"
+    },
+    "RD_ALifeLine_138928f339c03202": {
+      "tr": "Soğukkanlı ol, bunu daha önce de gördük"
+    },
+    "RD_ALifeLine_7fec39b273d798af": {
+      "tr": "Bir enfekte gördüm - ayağını nereye bastığına dikkat et"
+    },
+    "RD_ALifeLine_7ccd718b4f5c570b": {
+      "tr": "İşte orada, kimse aptalca bir şey yapmasın"
+    },
+    "RD_ALifeLine_2d7e010340113c8f": {
+      "tr": "Allah'ım, onlardan biri, bana bakıyor"
+    },
+    "RD_ALifeLine_0940688a1cf84d30": {
+      "tr": "Dur, şu onlardan biri mi? Onlardan biri işte"
+    },
+    "RD_ALifeLine_0186b31718e3482c": {
+      "tr": "Kıpırdama, ileride bir tane var, kıpırdama"
+    },
+    "RD_ALifeLine_4aa270fe3d542e17": {
+      "tr": "Olamaz, bir tane daha"
+    },
+    "RD_ALifeLine_7cf29d3b2946762b": {
+      "tr": "Dikkat, şu bir tuhaf yürüyor, onlardan biri"
+    },
+    "RD_ALifeLine_577b1ac17759c714": {
+      "tr": "Şurada, şeyin yanında- hastalardan biri!"
+    },
+    "RD_ALifeLine_0a6fde8659950f42": {
+      "tr": "Onlardan biri, tek bir tane... bir taneyle başa çıkarız, değil mi?"
+    },
+    "RD_ALifeLine_1f79a3711fdc15f2": {
+      "tr": "Şey- millet? Millet, orada bir- tam orada bir tane var"
+    },
+    "RD_ALifeLine_7a4d9dd02579b735": {
+      "tr": "Dur, yürüyüşüne bak, bu normal değil"
+    },
+    "RD_ALifeLine_4023348c6db49a63": {
+      "tr": "Sanırım onlardan biri, haklıyım bence, koluna bak"
+    },
+    "RD_ALifeLine_491e62805934ff9f": {
+      "tr": "Orada bir adam var, ama bir tuhaf, hiç hoşuma gitmedi"
+    },
+    "RD_ALifeLine_4cc4cbc320c846d3": {
+      "tr": "Arkamda dur, ileride o şeylerden biri var"
+    },
+    "RD_ALifeLine_3ba82380345c0c93": {
+      "tr": "Sessiz, sessiz, sessiz, ölülerden biri orada öylece duruyor"
+    },
+    "RD_ALifeLine_1788a2ce7a455024": {
+      "tr": "Allah'ım, bu adam birinin kocasıydı, şuna bak"
+    },
+    "RD_ALifeLine_0f497e95307ef85b": {
+      "tr": "Olamaz.. bakamıyorum ona, yapamıyorum bunu"
+    },
+    "RD_ALifeLine_1bd9e6f5602978cf": {
+      "tr": "O- o onlardan biri mi? Yaralı gibi durmuyor, sadece bir yanlışlık var"
+    },
+    "RD_ALifeLine_69ae446865f0d5ec": {
+      "tr": "İleride enfekte var, en az bir, belki iki"
+    },
+    "RD_ALifeLine_480d340f5bb59b07": {
+      "tr": "Bak, bak, sessiz ol. Onu buraya çekmesek iyi olur"
+    },
+    "RD_ALifeLine_2678ca8b6f659eb3": {
+      "tr": "Bir ölü daha, dünkü gibi, her zamanki gibi..."
+    },
+    "RD_ALifeLine_353ff6e64f65de55": {
+      "tr": "Sadece bir tane, şükürler olsun, sadece bir tane"
+    },
+    "RD_ALifeLine_715039596b83dca4": {
+      "tr": "Öyle kıpırdamadan durmalarından nefret ediyorum, yürümelerinden de beter"
+    },
+    "RD_ALifeLine_764de59110ab63d6": {
+      "tr": "Yavaş, yavaş, etrafından dolaşabiliriz, değil mi?"
+    },
+    "RD_ALifeLine_4c553ae67fe6e11f": {
+      "tr": "Ay, Allah'ım, bu koku, yakında, yakınlarda bir tane var"
+    },
+    "RD_ALifeLine_6de2943d7fec81fd": {
+      "tr": "Geri çekil, yavaş, yavaş, daha bakmıyor"
+    },
+    "RD_ALifeLine_36eda4bd0988f53f": {
+      "tr": "Lütfen insan ol... merhaba? Lütfen- ah, yok"
+    },
+    "RD_ALifeLine_4564b51f78718272": {
+      "tr": "O onlardan biri, değil mi? Yanıldığımı söyle"
+    },
+    "RD_ALifeLine_5e1dcb2d3c69922f": {
+      "tr": "Dikkat, dikkat, tam orada bir tane duruyor"
+    },
+    "RD_ALifeLine_3c57c60f38562466": {
+      "tr": "Ah be, ah be, sanırım bu tarafa geliyor"
+    },
+    "RD_ALifeLine_43ee19cc7e1e4a54": {
+      "tr": "Kalbim yerinden çıkacak, tam orada bir tane var"
+    },
+    "RD_ALifeLine_23d2a5dc25c6e32b": {
+      "tr": "Bir ölü. Yavaşça, sessizce, ona yer açın"
+    },
+    "RD_ALifeLine_29714fdf2bd81b9d": {
+      "tr": "İleride bir tane, yavaş yürüyor"
+    },
+    "RD_ALifeLine_7407390b4a3740d4": {
+      "tr": "Önümüzde bir tane, tam karşıda, yavaş ve sakin"
+    },
+    "RD_ALifeLine_0152f3a524299065": {
+      "tr": "İleride bir ölü var, bize gelsin"
+    },
+    "RD_ALifeLine_656bd7c511c8d7cc": {
+      "tr": "Sakin ol, sadece bir tane, daha kötülerini atlattık"
+    },
+    "RD_ALifeLine_0ed0d1ab633ee560": {
+      "tr": "Onlardan biri. Yavaş olacağını sanma"
+    },
+    "RD_ALifeLine_4bc17e945c782e1c": {
+      "tr": "Tek bir enfekte, gördüğüm kadarıyla yanında kimse yok"
+    },
+    "RD_ALifeLine_22bf881d5ee42969": {
+      "tr": "Sessiz olun. Dışarıda bir tane var, dikkat çekmesek iyi olur"
+    },
+    "RD_ALifeLine_4f62d8ce29fcf1df": {
+      "tr": "Bir tane sayıyorum, dur, yok, arkasında bir tane daha var"
+    },
+    "RD_ALifeLine_126121fe14dbb980": {
+      "tr": "Enfekte. Gözünü üstünden ayırma"
+    },
+    "RD_ALifeLine_64e5376e0dc74fc7": {
+      "tr": "Tamam, bir tane, yalnız, ortalığı ayağa kaldırmayalım"
+    },
+    "RD_ALifeLine_5ee1182859407af7": {
+      "tr": "Ay, bir tane daha, her yere dalıp duruyorlar"
+    },
+    "RD_ALifeLine_33ad3d2e74656597": {
+      "tr": "Kıpırdama, şansımız varsa ilgisini kaybeder"
+    },
+    "RD_ALifeLine_24fa51c745b8c375": {
+      "tr": "Hızlı değil ama hiç de vazgeçmez, o yüzden oyalanma"
+    },
+    "RD_ALifeLine_7c36b96372cca962": {
+      "tr": "Bir tane geliyor, temiz bir vuruş yapabilecek kim var?"
+    },
+    "RD_ALifeLine_0696d1b737ad5401": {
+      "tr": "Önde bir tane var, sessiz olun, yavaşça geri çekilin"
+    },
+    "RD_ALifeLine_71dec38b66c0fc4e": {
+      "tr": "Hay aksi, burayı temizlediğimizi sanıyordum"
+    },
+    "RD_ALifeLine_4f04d1910369f1e7": {
+      "tr": "Bir ölü, kimse panik yapmasın, bunun nasıl gittiğini biliyoruz"
+    },
+    "RD_ALifeLine_5ce95908179f5a0a": {
+      "tr": "Bir tane daha, üstündeki kıyafetlere bak, zavallı adam"
+    },
+    "RD_ALifeLine_05a542680af4e1a4": {
+      "tr": "Tek bir enfekte, hiç ses çıkarmadan indirelim"
+    },
+    "RD_ALifeLine_13cbf219669266f9": {
+      "tr": "Pekâlâ, bir tane var. Ağzınızı kapalı tutun, ona yer açın"
+    },
+    "RD_ALifeLine_1c89d39d4a2da0f5": {
+      "tr": "Kolu ters sallanıyor, yavaş, bu kolay lokma"
+    },
+    "RD_ALifeLine_125f75ff2bbf71ce": {
+      "tr": "Ateş etme, dur, sadece bir tane, bütün mahalleyi buraya getirmek istemiyorum"
+    },
+    "RD_ALifeLine_6b0eb31c00404919": {
+      "tr": "Evet, görüyorum, bir saniye düşüneyim"
+    },
+    "RD_ALifeLine_1fc1137c0aa464cb": {
+      "tr": "O onlardan biri, orası kesin. Yanına yaklaşma"
+    },
+    "RD_ALifeLine_1fd0b12611b9cd91": {
+      "tr": "Onlardan biri daha, kahretsin, hep bir tane daha oluyor"
+    },
+    "RD_ALifeLine_6af8b25516139b59": {
+      "tr": "AH- olamaz, hayır hayır hayır, ONLARDAN biri!"
+    },
+    "RD_ALifeLine_5f5bba77354e724b": {
+      "tr": "Bir- bir tane var, yürüyor, bize doğru YÜRÜYOR!"
+    },
+    "RD_ALifeLine_6b04036b7c7c0f3c": {
+      "tr": "Allah'ım- o hasta, HASTA, yüzüne bak!!"
+    },
+    "RD_ALifeLine_47228b2926175ef6": {
+      "tr": "Şu- şu Bay Hadley mi? Hayır, hayır olamaz- O, aman Yarabbi-"
+    },
+    "RD_ALifeLine_5117e7b640e4e052": {
+      "tr": "B-bekle, bekle, bekle, hareket ediyor! HAREKET EDİYOR!"
+    },
+    "RD_ALifeLine_7f897f034b3a4c58": {
+      "tr": "Enfekte! ENFEKTE! Biri- kim olursa- tam orada bir tane var!"
+    },
+    "RD_ALifeLine_5de0abd418659895": {
+      "tr": "Bakma ona, bakma, sadece- sadece yavaşça geri çekil..."
+    },
+    "RD_ALifeLine_2f1c42ac7e8f9cf3": {
+      "tr": "Ahhh olamaz, olamaaz, yine mi, ne olur yine olmasın"
+    },
+    "RD_ALifeLine_16527a2b08642e25": {
+      "tr": "Şu şeye bak! Siktir, siktir-"
+    },
+    "RD_ALifeLine_044429765c5dd3de": {
+      "tr": "Neden hâlâ yürüyor, yarısı- hayır, bakma ona"
+    },
+    "RD_ALifeLine_3bcb84ec31fabfd5": {
+      "tr": "Hastalardan biri! Tam orada! Tam ORADA!!"
+    },
+    "RD_ALifeLine_6b9a027b5a098598": {
+      "tr": "Nefes- nefes alamıyorum, bir tane geliyor, bir tane-"
+    },
+    "RD_ALifeLine_4d21b7266937d3c8": {
+      "tr": "Allah'ım bize bakıyor, bakıyor, KAÇ, hadi hadi hadi"
+    },
+    "RD_ALifeLine_369b9fef647a86b1": {
+      "tr": "Hey- hey, HEY, şurada bir tane var! Onlardan biri!"
+    },
+    "RD_ALifeLine_50badd2b079aa1db": {
+      "tr": "Hayır, hayır, şimdi olmaz, daha yeni nefeslendim, ŞİMDİ olmaz!"
+    },
+    "RD_ALifeLine_15108c3e79a553eb": {
+      "tr": "Onlardan biri, onlardan biri, onlardan biri-"
+    },
+    "RD_ALifeLine_699f528d24650452": {
+      "tr": "Biri bana sarhoş olduğunu söylesin, lütfen sadece bir sarhoş olduğunu söyleyin..."
+    },
+    "RD_ALifeLine_7d474aae3c9bbcd5": {
+      "tr": "Ahh! Ölü! Ölü, tam orada!"
+    },
+    "RD_ALifeLine_4db258b561c9b6f6": {
+      "tr": "Aman Yarabbi, gelmeye devam ediyorlar, durmadan GELİYORLAR"
+    },
+    "RD_ALifeLine_47b527f84f0f4be1": {
+      "tr": "Şşş... bir tane var, tam orada, nefes bile almıyorum"
+    },
+    "RD_ALifeLine_3aa18bbe063fa488": {
+      "tr": "Bir tane görüyorum! Görüyorum! Ne yapacağız, ne YAPACAĞIZ?!"
+    },
+    "RD_ALifeLine_08c3aba5587f5773": {
+      "tr": "O- Yarabbi, o bir insandı, değil mi? Değil mi?"
+    },
+    "RD_ALifeLine_4175c4da744c347f": {
+      "tr": "Dizlerimin bağı çözüldü, bir tane geliyor ve dizlerimde DERMAN YOK"
+    },
+    "RD_ALifeLine_60ea69e74a5ef4e6": {
+      "tr": "Enfekte! Dikkat et, DİKKAT ET!"
+    },
+    "RD_ALifeLine_1847a1f30983e5af": {
+      "tr": "Aman Yarabbi, dosdoğru üstüme geliyor, neden ben?!"
+    },
+    "RD_ALifeLine_0e66aaed5e77b1ff": {
+      "tr": "Bir tane daha, kahretsin, bir tane daha, bunun sonu ne zaman gelecek"
+    },
+    "RD_ALifeLine_69ddd00b0a20f66e": {
+      "tr": "Yüzünü gördüm, keşke görmeseydim, artık hepsi birine benziyor"
+    },
+    "RD_ALifeLine_5ebca1f14e31c680": {
+      "tr": "İndirilecek bir tane daha, ondan sonra bir tane daha, ondan sonra bir tane daha..."
+    },
+    "RD_ALifeLine_7209737a35fa48ed": {
+      "tr": "Orospu çocuğu, bir tane daha, kahrolası lanet şey"
+    },
+    "RD_ALifeLine_57f862bc31a5c028": {
+      "tr": "Hadi ama- yine mi?! Cidden mi?! Yine mi?!"
+    },
+    "RD_ALifeLine_69b99a4e76e7a304": {
+      "tr": "Defol git buradan, seninle uğraşacak halim yok"
+    },
+    "RD_ALifeLine_65cb2e1b55d7b460": {
+      "tr": "Bir tane görüyorum. Etrafından dolaşalım, yaklaşmak istemiyorum"
+    },
+    "RD_ALifeLine_53fed23477404c3b": {
+      "tr": "İleride bir ölü var, şimdilik endişelenecek bir şey yok"
+    },
+    "RD_ALifeLine_5db09cb72115a061": {
+      "tr": "Solda bir zombi... yok, yanlış kelime, onlardan biri, solda"
+    },
+    "RD_ALifeLine_064e54e6493f97de": {
+      "tr": "Tek bir tane, yavaş, vaktimiz var"
+    },
+    "RD_ALifeLine_184a995819da9529": {
+      "tr": "Gözler açık, bir tane geliyor, yavaş yavaş"
+    },
+    "RD_ALifeLine_2dc341e877db44f3": {
+      "tr": "Yalnız bir taneye benziyor, bakarız icabına"
+    },
+    "RD_ALifeLine_7e4975304481683b": {
+      "tr": "Öylece dolaşıyor, geçmesini bekleyebiliriz"
+    },
+    "RD_ALifeLine_5d7525ab544e5beb": {
+      "tr": "Allah'ım, dışarıda onlardan biri var, zavallı ruhunu Allah korusun"
+    },
+    "RD_ALifeLine_3142272814b5bd80": {
+      "tr": "O eskiden bir insandı çocuklar, bunu unutmayın"
+    },
+    "RD_ALifeLine_696b2e9b2bb8cb56": {
+      "tr": "Aman- ölülerden biri, canım, gel buraya"
+    },
+    "RD_ALifeLine_6dce2bc63cbfbc7e": {
+      "tr": "O bakışı daha önce bir yüzde görmüştüm, ama yaşayan bir yüzdü"
+    },
+    "RD_ALifeLine_5c1a2062220e025f": {
+      "tr": "Allah'ım, hareket ediyor, oysa etmemesi lazım"
+    },
+    "RD_ALifeLine_3a98909c6de20a33": {
+      "tr": "Sakın yaklaşmasına izin verme, duydun mu? Geride dur"
+    },
+    "RD_ALifeLine_7effc3fd53838019": {
+      "tr": "Olamaz, hayır, Allah'ım, bir tanesini daha seyrettirme bana"
+    },
+    "RD_ALifeLine_2bfec6a2193e7fbf": {
+      "tr": "Ben bu şeyler için fazla yavaşım, devam edin, bana nerede duracağımı söyleyin"
+    },
+    "RD_ALifeLine_464b72f70a50dbf9": {
+      "tr": "Siktir- aman Allah'ım, bir tane var, bir tane var!"
+    },
+    "RD_ALifeLine_133da4fb6d0285db": {
+      "tr": "Annem bakma dedi ama baktım, geliyor!!"
+    },
+    "RD_ALifeLine_68049e0072333c0f": {
+      "tr": "Dur- olamaz, bu... bu gerçek, GERÇEK"
+    },
+    "RD_ALifeLine_61e6bad044d253e6": {
+      "tr": "Lan, lan, LAN, yürüyen bir ölü var! Tam orada!"
+    },
+    "RD_ALifeLine_058a11f94bc06729": {
+      "tr": "Vay- vay be, hey, hey millet, onlardan biri!"
+    },
+    "RD_ALifeLine_274c608c0d9a6799": {
+      "tr": "Korkmuyorum, korkmuyorum, ben- ahhh Allah'ım çok korkuyorum"
+    },
+    "RD_ALifeLine_5ff12d98748eb900": {
+      "tr": "Cidden mi?! Tam şimdi mi?! Zaten zor ayakta duruyorum!"
+    },
+    "RD_ALifeLine_2fb69f99626814c5": {
+      "tr": "Rabbim, bizi esirge, yine aramızda onlardan biri var"
+    },
+    "RD_ALifeLine_0f3be7e51c37d936": {
+      "tr": "Affet beni, bakamıyorum ona, bakamıyorum, cemaatimizdendi..."
+    },
+    "RD_ALifeLine_529bf7ef0b2902fb": {
+      "tr": "Ah, kardeşim, seni tanıyorum, ne olur sen olma..."
+    },
+    "RD_ALifeLine_1119297729dc3c6a": {
+      "tr": "Arkamda durun, bunu yüzden fazla cenazede söyledim, şimdi de bu"
+    },
+    "RD_ALifeLine_5085d8e40ea91108": {
+      "tr": "Solunda onlardan biri, arkasındaki kalabalığa dikkat et"
+    },
+    "RD_ALifeLine_4b1cb0c7654281d8": {
+      "tr": "Bir tane görüyorum, ben onu oyalarım, herkes yerinde kalsın"
+    },
+    "RD_ALifeLine_19fab3106a294a38": {
+      "tr": "Tamam, bir tane geliyor, bu tür şeyler için eğitim aldık, sayılır"
+    },
+    "RD_ALifeLine_1a5d9c6079ff2a81": {
+      "tr": "Hiç hoşuma gitmedi, bir tane geliyor, grubu sıkı tutun"
+    },
+    "RD_ALifeLine_616ebe387d8d7d47": {
+      "tr": "Enfektelerden biri. Bunun bir insan olduğuna inanmak zor"
+    },
+    "RD_ALifeLine_0eac7450546ff0b7": {
+      "tr": "Tamam, yolun aşağısında bir hasta var, ve onun için yapılacak bir şey yok"
+    },
+    "RD_ALifeLine_5fb659ae238b9446": {
+      "tr": "Dokunma ona, yanına yaklaştırma, onun için yapabileceğim bir şey yok"
+    },
+    "RD_ALifeLine_49be09d660517684": {
+      "tr": "Bu kalp krizi değil, bambaşka bir şey bu"
+    },
+    "RD_ALifeLine_11e8be991f94275a": {
+      "tr": "Hay aksi, tam orada onlardan biri var"
+    },
+    "RD_ALifeLine_1121074d2a84be88": {
+      "tr": "Kahretsin, bir tane daha gelmiş, daha yeni öncekini halletmiştim"
+    },
+    "RD_ALifeLine_7bc53b904b7fc29c": {
+      "tr": "Dur, ben o adamı tanıyorum, aynı vardiyada çalışıyorduk, olamaz"
+    },
+    "RD_ALifeLine_01c3b05f5edebbcc": {
+      "tr": "Bir tane var, bir tane var, ben hallederim, herkes yoldan çekilsin"
+    },
+    "RD_ALifeLine_262e6a8d7e2daf1e": {
+      "tr": "Dışarıda bir tane var, beklemek mi istersin yoksa ben mi halledeyim?"
+    },
+    "RD_ALifeLine_2ce9c0810b8fa711": {
+      "tr": "Hey patron, şey, boş ver, unut gitsin, ileride onlardan biri var"
+    },
+    "RD_ALifeLine_00bb938e13eed762": {
+      "tr": "Gördüm, bir daha görmeme gerek yok, onlardan biri, hadi gidelim"
+    },
+    "RD_ALifeLine_418f4d4e60f485e6": {
+      "tr": "İleride bir tane, sessiz, ben icabına bakarım"
+    },
+    "RD_ALifeLine_44265b4e06c6af4d": {
+      "tr": "Tamam, görüyorum onu, uzakta, bekleyebilirim"
+    },
+    "RD_ALifeLine_4238059552eef891": {
+      "tr": "Her zamanki gibi, ileride bir tane, yalnız bir iş bu"
+    },
+    "RD_ALifeLine_555e5c771da30c12": {
+      "tr": "Bir ölü. Hiç havamda değilim"
+    },
+    "RD_ALifeLine_7ffd57d51d7dbff9": {
+      "tr": "Bir dakika bile kendime kalamıyorum"
+    },
+    "RD_ALifeLine_6f38d90d412ff9a3": {
+      "tr": "Allah'ım, tam orada bir tane var, bize bakıyor"
+    },
+    "RD_ALifeLine_1e2c6d347526cc3c": {
+      "tr": "Bir tane var, canım, arkama geç, gel buraya"
+    },
+    "RD_ALifeLine_470785213dd38e73": {
+      "tr": "O onlardan biri, değil mi, sakın öyle olmadığını söyleme"
+    },
+    "RD_ALifeLine_6e73510672b040d4": {
+      "tr": "Bir enfekte, dosdoğru bize geliyor, kıpırdamamız lazım"
+    },
+    "RD_ALifeLine_4e52bb35683c5886": {
+      "tr": "Bağırma, bağırma, bağırma, sadece sessiz ol"
+    },
+    "RD_ALifeLine_7802431e35e6f621": {
+      "tr": "Bir tane var, ileride, sesinizi kısın"
+    },
+    "RD_ALifeLine_73165d31746e9ed6": {
+      "tr": "Bu kötü bir tane, buradan anlaşılıyor, etrafından dolaşalım"
+    },
+    "RD_ALifeLine_04c70234016006fb": {
+      "tr": "Kahretsin, şu lanet ölülerden biri, yavaşlayın çocuklar"
+    },
+    "RD_ALifeLine_1aa27b1e2c668903": {
+      "tr": "Evet, işte orada, ne zaman dönsek bir tane çıkıyor"
+    }
+  }
+}

@@ -1,0 +1,806 @@
+{
+  "_paket": "U2 — Fraksiyon adları (katalog)",
+  "_dosya": "IG_UI",
+  "satirlar": {
+    "IGUI_ALifeUI_33d4c59b50ecb321": {
+      "tr": "Kettle Works Tayfası",
+      "baglam": "Industrial Salvagers · tutum: neutral · A large salvage gang out of the works yard. Numbers instead of discipline: they arrive together and they swarm."
+    },
+    "IGUI_ALifeUI_7c9dbe3b28de3a3c": {
+      "tr": "Kentucky Muhafızları - 149. Zırhlı Tugay",
+      "baglam": "Military Holdouts · tutum: careful · What is left of a Kentucky Army National Guard detachment of the 149th Armored Brigade. They hold their range, work in lanes, and treat a firefight as a job rat"
+    },
+    "IGUI_ALifeUI_33296b8f4fe83d12": {
+      "tr": "101. Hava İndirme - Knox Kordon Müfrezesi",
+      "baglam": "Military Quarantine Force · tutum: careful · The Army's line round the Exclusion Zone, drawn by the 101st Airborne Division (Air Assault) out of Fort Campbell, still standing where the order left it. Masks"
+    },
+    "IGUI_ALifeUI_70ae2d8168d8823e": {
+      "tr": "Knox Şerif Yardımcıları",
+      "baglam": "Law Remnant · tutum: neutral · Deputies still running the county by their own reading of it. Shotguns at the door, sidearms behind, and an officer who calls the shots."
+    },
+    "IGUI_ALifeUI_5d07593a248f3abb": {
+      "tr": "14. İtfaiye İstasyonu Ekibi",
+      "baglam": "Emergency Services · tutum: allied · A fire crew that never stood down. Axes and one shotgun between them, they move as one body and they carry their wounded out."
+    },
+    "IGUI_ALifeUI_4986a0713112d5d3": {
+      "tr": "Riverside'daki Sağ Kalanlar",
+      "not": "Sadece kesme işareti: ’ (kıvrık) yerine ' (düz). Diğer bütün satırlarda düz olan kullanılıyor.",
+      "oneri": true,
+      "baglam": "Civilian Holdouts · tutum: careful · Neighbours who armed themselves. Not soldiers: they scavenge, they stay together, and they break when it turns bad."
+    },
+    "IGUI_ALifeUI_23c4014e051998c5": {
+      "tr": "4. Bölge Eyalet Polisleri",
+      "not": "Eski: \"4 No.lu Karakolun Eyalet Polisleri\". Sözlükte outpost = karakol oldu; bu ad oyuncuya A-Life karakolu gibi okunabilir. KSP'nin \"Post 4\"ü bir bölge karakolu, \"4. Bölge\" hem kısa hem çakışmasız.",
+      "oneri": true,
+      "baglam": "1993 / Law Enforcement · tutum: neutral · Post 4 troopers still working US-31W in the first week: roadblocks, missing-person sweeps, a radio that still answers."
+    },
+    "IGUI_ALifeUI_2653d224391266eb": {
+      "tr": "İlçe Şerifliği",
+      "not": "Eski: \"Şerif\". Fraksiyon tek kişi değil, şerif ve yardımcılarından kalanlar (blurb: \"the county sheriff and what is left of his deputies\").",
+      "oneri": true,
+      "baglam": "1993 / Law Enforcement · tutum: friendly · The county sheriff and what is left of his deputies, holding the courthouse road and the town squares while the county still means something."
+    },
+    "IGUI_ALifeUI_214357cf1e950acc": {
+      "tr": "Muldraugh Polisi",
+      "baglam": "1993 / Law Enforcement · tutum: careful · Muldraugh's chief and his two cruisers. Small-town police: they know everybody, and they are not ready for this."
+    },
+    "IGUI_ALifeUI_383353687bb40eb4": {
+      "tr": "Tutukevi Görev Ekibi",
+      "not": "Eski: \"Cezaevi Görev Ekibi\". Bu adliye bodrumundaki ilçe tutukevi (jail); \"cezaevi\" Rosewood hapishanesi (prison) için kullanılıyor. Ayrım korunursa iki fraksiyon karışmaz.",
+      "oneri": true,
+      "baglam": "1993 / Law Enforcement · tutum: careful · The jail detail from the courthouse basement, keeping the lockup and the block around it while the trusties still answer to them."
+    },
+    "IGUI_ALifeUI_13321b770c09bf51": {
+      "tr": "Doğa Koruma Görevlileri",
+      "baglam": "1993 / Law Enforcement · tutum: neutral · Fish and Wildlife officers on the rivers and in the knobs, the only law in the back country and used to being alone."
+    },
+    "IGUI_ALifeUI_29b91803546ef549": {
+      "tr": "Adliyede Kalanlar",
+      "baglam": "1993 / Law Enforcement · tutum: careful · The clerks and one deputy who never left the courthouse. They keep records nobody will read and a door nobody gets through."
+    },
+    "IGUI_ALifeUI_0b7d4b3c47002e95": {
+      "tr": "Yol Ekibi Firarileri",
+      "baglam": "1993 / Law Enforcement · tutum: neutral · A roadside work crew that walked off when the officer stopped coming back. Boilersuits under stolen jackets, moving at night."
+    },
+    "IGUI_ALifeUI_7203827e7fc942aa": {
+      "tr": "ABD Ordusu Zırhlı Okulu Kadrosu - Fort Knox",
+      "baglam": "1993 / Military · tutum: careful · US Army Armor Center cadre off Fort Knox, the Armor School instructors and crews, working the 31W corridor in the first week with a helicopter still on call."
+    },
+    "IGUI_ALifeUI_5a0ab60f692a2ff5": {
+      "tr": "Fort Knox Askeri Polis Bölüğü",
+      "baglam": "1993 / Military · tutum: careful · Fort Knox military police on the roads into the installation: checkpoints, curfew, and a patience that is running out."
+    },
+    "IGUI_ALifeUI_4559d63d1ea94b57": {
+      "tr": "149. Zırhlı Tugay - İstihkâmcılar",
+      "baglam": "1993 / Military · tutum: careful · A Kentucky Guard engineer platoon of the 149th Armored Brigade, called up for the bridge works and the road blocks. Tools, trucks, and one rifle in three."
+    },
+    "IGUI_ALifeUI_3c715a8518936452": {
+      "tr": "123. Zırhlı 2. Tabur - Piyade Müfrezesi",
+      "not": "G: \"2. Tabur 123. Zırhlı - Tüfek Müfrezesi\". Türkçede birlik büyükten küçüğe yazılır; \"rifle detail\" askerî Türkçede piyade.",
+      "oneri": true,
+      "baglam": "1993 / Military · tutum: careful · A Kentucky Army National Guard rifle detail of 2nd Battalion, 123rd Armor -- your neighbours with a drill weekend -- holding a cordon it was told to hold."
+    },
+    "IGUI_ALifeUI_4ddbc17b734b43c6": {
+      "tr": "ABD Darphane Polisi - Kasa Görev Ekibi",
+      "baglam": "1993 / Military · tutum: careful · United States Mint Police from the depository. Another service, another uniform, a much smaller number; they answer to nobody here."
+    },
+    "IGUI_ALifeUI_09baad1a3d97a5b9": {
+      "tr": "Geride Kalanlar",
+      "baglam": "1993 / Military · tutum: careful · The Left-Behind: soldiers who stopped taking orders and kept the rifles. They are not looking for a fight, and they win the ones they get."
+    },
+    "IGUI_ALifeUI_199c3da66369de64": {
+      "tr": "Gönüllü İtfaiye",
+      "baglam": "1993 / Relief and Utilities · tutum: careful · The volunteer fire department, pagers on every belt, still answering calls in the first days because nobody told them to stop."
+    },
+    "IGUI_ALifeUI_501013037d2d3dd9": {
+      "tr": "İlçe Acil Sağlık",
+      "baglam": "1993 / Relief and Utilities · tutum: friendly · A county ambulance crew working the highway wrecks until the fuel and the will run out."
+    },
+    "IGUI_ALifeUI_301a08fd26016f69": {
+      "tr": "Hastane Çalışanları",
+      "baglam": "1993 / Relief and Utilities · tutum: careful · Hospital staff holding a ward in Louisville: scrubs, tired eyes, and the only people who still know what to do with a wound."
+    },
+    "IGUI_ALifeUI_10d2d844100f4791": {
+      "tr": "Amerikan Kızılhaçı - Yardım Konvoyu",
+      "baglam": "1993 / Relief and Utilities · tutum: careful · A relief column that made it into the county: cots, water and a coordinator with a clipboard, asking where the shelter is."
+    },
+    "IGUI_ALifeUI_5a97f4ae2f5893eb": {
+      "tr": "Radyo İstasyonu",
+      "baglam": "1993 / Relief and Utilities · tutum: careful · The Station: three people, a transmitter and a generator, still on the air for whoever is listening."
+    },
+    "IGUI_ALifeUI_7686973864d88d3a": {
+      "tr": "Hat Bakım Ekibi",
+      "baglam": "1993 / Relief and Utilities · tutum: careful · A utility line crew caught out on a service road with the bucket truck, trying to get home."
+    },
+    "IGUI_ALifeUI_1e96f4377a4214d4": {
+      "tr": "Vittitoe Ambarları",
+      "baglam": "1993 / Families · tutum: careful · Vittitoe Barns: six hundred acres of burley east of Muldraugh, four brothers, a granary and an armoury. They feed people who work."
+    },
+    "IGUI_ALifeUI_38012b05586e9ad6": {
+      "tr": "Renfro Yolu",
+      "baglam": "1993 / Families · tutum: hostile · Renfro Road: thirty years of running liquor into a dry county. The road is theirs now, and they charge to use it."
+    },
+    "IGUI_ALifeUI_70f25d21644d3acc": {
+      "tr": "Tackett Hollow",
+      "baglam": "1993 / Families · tutum: careful · Tackett Hollow: marijuana in the corn, one federal case, nobody talked. Same ground, same silence, more guns."
+    },
+    "IGUI_ALifeUI_26d9b3a4313bb744": {
+      "tr": "Bledsoe İskelesi",
+      "baglam": "1993 / Families · tutum: careful · Bledsoe Landing: barge deckhands and gravel dredgers at the West Point ramp. They move people and goods on the water, for a price."
+    },
+    "IGUI_ALifeUI_701921802af4833b": {
+      "tr": "Prather Cemaati",
+      "baglam": "1993 / Families · tutum: careful · Prather Congregation: a West Point church that took people in and asks what you believe. They will feed you; they will not arm you."
+    },
+    "IGUI_ALifeUI_3df5d5dc2234438a": {
+      "tr": "Coyle Rehinci Dükkânı",
+      "baglam": "1993 / Families · tutum: hostile · Coyle Pawn: bought what soldiers sold. The county's fence and gun market; they sell to anyone with something to trade."
+    },
+    "IGUI_ALifeUI_1ec1c07b49c4cc2b": {
+      "tr": "Ledford Kampı",
+      "baglam": "1993 / Families · tutum: careful · Ledford Camp: a deer camp and a cockfighting pit in the knobs. Hunters who moved to a new animal, and sporting about it."
+    },
+    "IGUI_ALifeUI_59a11b2434faf87a": {
+      "tr": "Kessinger Mandırası",
+      "baglam": "1993 / Families · tutum: careful · Kessinger Dairy: a big family that walled the milking parlour and took in the cousins. Exhausted, careful, dangerous when pushed."
+    },
+    "IGUI_ALifeUI_6542a74a2cdc8855": {
+      "tr": "Slaughter İtfaiye Binası",
+      "baglam": "1993 / Families · tutum: careful · Slaughter Fire Hall: the chief and two generations of volunteers. They kept the pumper running and put out fires for payment in fuel."
+    },
+    "IGUI_ALifeUI_5c11748016498fb1": {
+      "tr": "Napier Karavan Yerleşimi",
+      "baglam": "1993 / Families · tutum: careful · Napier Row: laid off in the drawdown, took the trailer row and the ground it sits on. A chip on every shoulder."
+    },
+    "IGUI_ALifeUI_3457b5d35a6a0c8d": {
+      "tr": "Whitaker Silosu",
+      "baglam": "1993 / Families · tutum: careful · Whitaker Elevator: bought and dried the county's corn. They own the food and the scales, and they will starve you out."
+    },
+    "IGUI_ALifeUI_465ee8fe1345588f": {
+      "tr": "Dabney Veteriner Kliniği",
+      "not": "Eski: \"Dabney Kliniği\". Blurb: \"a vet and a boarding barn\"; ilçedeki tek doktor bir veteriner, esprisi de bu.",
+      "oneri": true,
+      "baglam": "1993 / Families · tutum: careful · Dabney Practice: a vet and a boarding barn turned holdout. Medicine at a price nobody likes, from the only doctor left in the county."
+    },
+    "IGUI_ALifeUI_2358948b449ed87a": {
+      "tr": "Crume Hurdalığı",
+      "baglam": "1993 / Families · tutum: careful · Crume Scrap: crushed cars on 31W, now cutting steel plate for anyone with fuel. They armour the trucks, and themselves."
+    },
+    "IGUI_ALifeUI_687f582212c5fafb": {
+      "tr": "Hobbs Kardeşler",
+      "baglam": "1993 / Families · tutum: hostile · The Hobbs brothers: small-time thieves with no home, following other people's fights and taking what is left."
+    },
+    "IGUI_ALifeUI_0ece3aca2ab7751b": {
+      "tr": "Mısır Tarlası Tayfası",
+      "baglam": "1993 / Local Crews · tutum: hostile · The Cornfield Men: growers who never had much use for the law and have less now. Patient, hidden, and armed for the harvest."
+    },
+    "IGUI_ALifeUI_69e1766c7106d384": {
+      "tr": "İlçe Sınırı Kaçakçıları",
+      "baglam": "1993 / Local Crews · tutum: hostile · County Line Runners: bootleggers who know every back road between the wet county and the dry one, and who is on them."
+    },
+    "IGUI_ALifeUI_08ac571f4e94456d": {
+      "tr": "Dixie Yol Tayfası",
+      "baglam": "1993 / Local Crews · tutum: hostile · Dixie Road Crew: highway thieves who set the road and wait. When a car stops, they come out of both ditches."
+    },
+    "IGUI_ALifeUI_467053ae1d2f679d": {
+      "tr": "Demir At Motosiklet Kulübü",
+      "baglam": "1993 / Local Crews · tutum: hostile · Iron Horse Club: the local motorcycle club, a garage on 31W and a grudge against the Louisville chapters."
+    },
+    "IGUI_ALifeUI_15b05b6211c5f46b": {
+      "tr": "Derby Caddesi Çetesi",
+      "baglam": "1993 / Local Crews · tutum: hostile · Derby Street Set: a Louisville corner crew that kept its block when the police stopped coming."
+    },
+    "IGUI_ALifeUI_11877ac75a225066": {
+      "tr": "Ambar Parçacıları",
+      "baglam": "1993 / Local Crews · tutum: careful · Barn Cutters: a chop shop in a tobacco barn. Parts for anything, no questions, cash or fuel."
+    },
+    "IGUI_ALifeUI_3fac48cd051d2338": {
+      "tr": "Çukur Ekibi",
+      "baglam": "1993 / Local Crews · tutum: hostile · The Pit: a fighting ring that outgrew its warehouse. Padded, helmeted, and hungry for a crowd."
+    },
+    "IGUI_ALifeUI_3537aceb1e73cafd": {
+      "tr": "Haraç Çetesi",
+      "baglam": "1993 / Local Crews · tutum: hostile · The Toll: a protection racket dressed up as a militia. One stretch of road, a gate, and a price that goes up."
+    },
+    "IGUI_ALifeUI_41006a363f6cf6b5": {
+      "tr": "Kamyoncu Durağı Komünü",
+      "baglam": "1993 / Survivors · tutum: careful · Truck Stop Commune: drivers who were passing through and stayed. Diesel, CB radio, and a lot of guns behind the counter."
+    },
+    "IGUI_ALifeUI_558b0ad077bc4743": {
+      "tr": "İlçe Atıcılık Kulübü",
+      "baglam": "1993 / Survivors · tutum: careful · County Gun Club: people who owned rifles before it was necessary, and know how to use them."
+    },
+    "IGUI_ALifeUI_57e47b9910786d50": {
+      "tr": "Hazırlıkçılar",
+      "baglam": "1993 / Survivors · tutum: careful · The Prepared: a family that built the cellar for exactly this, and does not want company."
+    },
+    "IGUI_ALifeUI_5ff1754b40c336f7": {
+      "tr": "Okul Binası",
+      "baglam": "1993 / Survivors · tutum: careful · Schoolhouse: teachers who kept the building and whoever came to it. Friendly, organised, and out of food."
+    },
+    "IGUI_ALifeUI_041647646d3481c6": {
+      "tr": "Hayvan Pazarı Kooperatifi",
+      "baglam": "1993 / Survivors · tutum: careful · Stockyard Co-op: cattlemen who pooled the herds and the feed. Nobody eats for free."
+    },
+    "IGUI_ALifeUI_5646f73056a89eeb": {
+      "tr": "Nehir Tayfası",
+      "baglam": "1993 / Survivors · tutum: careful · Rivermen: towboat and barge crews off the Ohio, working the wharfs for whatever floats."
+    },
+    "IGUI_ALifeUI_08fded904bb97593": {
+      "tr": "Outlaws MC",
+      "baglam": "1993 / Clubs and Networks · tutum: hostile · Outlaws MC: the Louisville chapter, a clubhouse, and a road they mean to own. Patrols, tolls and fuel runs -- the club has influence, and it wants more."
+    },
+    "IGUI_ALifeUI_0b082e5206f0d17a": {
+      "tr": "Grim Reapers MC",
+      "baglam": "1993 / Clubs and Networks · tutum: hostile · Grim Reapers MC: the other Louisville club, a separate clubhouse and an old war with the Outlaws that did not end with the world."
+    },
+    "IGUI_ALifeUI_14493bbf62e3b054": {
+      "tr": "Undertakers MC",
+      "baglam": "1993 / Clubs and Networks · tutum: hostile · Undertakers MC: riders from out of the region, come to see what the Outlaws are holding, and friendly to them."
+    },
+    "IGUI_ALifeUI_2e5c24ee2ee75b52": {
+      "tr": "Dixie Mafyası - İlçe Bağlantıları",
+      "baglam": "1993 / Clubs and Networks · tutum: careful · Dixie Mafia contacts: the highway network of thieves and fences from prison days, working the motels on 31W."
+    },
+    "IGUI_ALifeUI_6101189d4e3a2980": {
+      "tr": "Cornbread Mafyası - Kalan Bağlantılar",
+      "baglam": "1993 / Clubs and Networks · tutum: hostile · Cornbread Mafia remnants: growers from the syndicate years who still know where the patches are and still do not talk."
+    },
+    "IGUI_ALifeUI_589eb14c54aae1c6": {
+      "tr": "Chicago Outfit - Mahsur Kalan Bağlantılar",
+      "baglam": "1993 / Clubs and Networks · tutum: hostile · Chicago Outfit contacts stranded in a Louisville motel, with a car, a briefcase and a phone that does not ring."
+    },
+    "IGUI_ALifeUI_3411b1fa53e2da9b": {
+      "tr": "Vice Lords - Mahsur Kalan Tayfa",
+      "baglam": "1993 / Clubs and Networks · tutum: hostile · Vice Lords crew stranded in Louisville: one block, held hard, with I-65 closed behind them."
+    },
+    "IGUI_ALifeUI_34b073c3294dcee1": {
+      "tr": "Gangster Disciples - Mahsur Kalan Tayfa",
+      "baglam": "1993 / Clubs and Networks · tutum: careful · Gangster Disciples crew stranded in Louisville, holding a block of their own and watching the Vice Lords' block."
+    },
+    "IGUI_ALifeUI_5079af283fd67c78": {
+      "tr": "Bloods - Victory Park Tayfası",
+      "baglam": "1993 / Clubs and Networks · tutum: careful · Bloods -- the Victory Park crew. Red on every cap, a set of streets, and a war across the park that outlasted the city."
+    },
+    "IGUI_ALifeUI_6bd54e7361ad2db9": {
+      "tr": "Crips - Victory Park Tayfası",
+      "baglam": "1993 / Clubs and Networks · tutum: hostile · Crips -- the Victory Park crew. Blue on every cap, the other half of the park, the other half of the war."
+    },
+    "IGUI_ALifeUI_71f090b2330b163f": {
+      "tr": "First Family - Mahsur Kalan Bağlantılar",
+      "baglam": "1993 / Clubs and Networks · tutum: careful · First Family contacts: made men who drove down from the north and cannot drive back. Suits, sidearms, and a plan."
+    },
+    "IGUI_ALifeUI_5c71efb424544d96": {
+      "tr": "Rosewood Polisi",
+      "baglam": "1993 / Police and Corrections · tutum: neutral · Rosewood Police: the station by the prison road, three officers and the town."
+    },
+    "IGUI_ALifeUI_182267eb45debaea": {
+      "tr": "Riverside Polisi",
+      "baglam": "1993 / Police and Corrections · tutum: careful · Riverside Police: a chief and two officers on the river road."
+    },
+    "IGUI_ALifeUI_1a34ca5a7ca69b7f": {
+      "tr": "West Point Polisi",
+      "baglam": "1993 / Police and Corrections · tutum: careful · West Point Police: the station on the Dixie Highway, holding the town and the river bank."
+    },
+    "IGUI_ALifeUI_44fdfae81283ad2c": {
+      "tr": "Louisville Polis Departmanı",
+      "baglam": "1993 / Police and Corrections · tutum: neutral · Louisville Division of Police: city police inside the city line, and not on speaking terms with the county force."
+    },
+    "IGUI_ALifeUI_0b131c8924604fe8": {
+      "tr": "Jefferson İlçe Polisi",
+      "baglam": "1993 / Police and Corrections · tutum: neutral · Jefferson County Police: the county force outside the city line, and not on speaking terms with the city one."
+    },
+    "IGUI_ALifeUI_1932515f7354c28c": {
+      "tr": "KSP Özel Müdahale Timi",
+      "baglam": "1993 / Police and Corrections · tutum: careful · KSP Special Response Team: the state police tactical unit, sent in once and never called back."
+    },
+    "IGUI_ALifeUI_52406ae634dc7e79": {
+      "tr": "Rosewood Cezaevi",
+      "baglam": "1993 / Police and Corrections · tutum: careful · Rosewood Corrections: the prison staff who kept the gate, the walls and whoever was inside them."
+    },
+    "IGUI_ALifeUI_2b28217816d51833": {
+      "tr": "Cezaevi Revir Görevlileri",
+      "baglam": "1993 / Police and Corrections · tutum: careful · Prison infirmary staff: two nurses and a doctor behind a locked wing, still treating whoever comes to the door."
+    },
+    "IGUI_ALifeUI_41552084465f861c": {
+      "tr": "Cezaevi Sığınak Grubu",
+      "baglam": "1993 / Police and Corrections · tutum: hostile · Prison shelter group: inmates who barred a cell block and want nothing but to be left alone in it."
+    },
+    "IGUI_ALifeUI_315d0bc72ecb4d71": {
+      "tr": "Avlu Sırtlanları",
+      "baglam": "1993 / Police and Corrections · tutum: hostile · Prison yard predators: the men the walls were for. Magazines taped over the chest, shivs, and the guards' shotgun."
+    },
+    "IGUI_ALifeUI_398bf2ce149be8de": {
+      "tr": "Firari Mahkûm İkilisi",
+      "baglam": "1993 / Police and Corrections · tutum: neutral · A prison escape pair on the road to the woods, in stolen jackets over prison khaki."
+    },
+    "IGUI_ALifeUI_06afc4c02dbbffe9": {
+      "tr": "Gardiyanlardan Kalanlar",
+      "baglam": "1993 / Police and Corrections · tutum: careful · Corrections remnants: guards who held a wing after the state stopped paying, then a house after the wing fell."
+    },
+    "IGUI_ALifeUI_7721c2147a73e6e0": {
+      "tr": "Eyalet Polislerinden Kalanlar",
+      "baglam": "1993 / Uniformed Remnants · tutum: careful · Trooper remnants: a post that never got relieved. Grey shirts under civilian coats, still stopping cars on 31W."
+    },
+    "IGUI_ALifeUI_463983ee67277482": {
+      "tr": "Şeriflikten Kalanlar",
+      "baglam": "1993 / Uniformed Remnants · tutum: careful · County law remnants: deputies running their own county out of a house, the badge still on the belt."
+    },
+    "IGUI_ALifeUI_321add226cd7135f": {
+      "tr": "Kentucky Muhafızlarından Kalanlar - 149. Zırhlı Tugay",
+      "not": "G: \"Kentucky Muhafızları Kalıntıları\". \"Kalıntı\" harabe çağrışımı yapıyor; senin \"Gardiyanlardan Kalanlar\", \"Şeriflikten Kalanlar\" kalıbına uyduruldu.",
+      "oneri": true,
+      "baglam": "1993 / Uniformed Remnants · tutum: careful · Kentucky Guard remnants: a 149th Armored Brigade platoon that stopped taking orders and kept the field depot."
+    },
+    "IGUI_ALifeUI_45c3881c52f87146": {
+      "tr": "149. Zırhlı Tugay - Direnen İstihkâmcılar",
+      "not": "G: \"İstihkâmcı Direnişçileri\". Senin \"Direnen Postacılar\" kalıbı.",
+      "oneri": true,
+      "baglam": "1993 / Uniformed Remnants · tutum: careful · Engineer holdouts: 149th Armored Brigade Guard engineers who kept the workshop and the generator, and trade repairs for food."
+    },
+    "IGUI_ALifeUI_3f1b53ef1593ec36": {
+      "tr": "1. Zırhlı Eğitim Tugayından Kalanlar",
+      "not": "G: \"…Kalıntıları\". Aynı gerekçe.",
+      "oneri": true,
+      "baglam": "1993 / Uniformed Remnants · tutum: careful · Training remnants: a 1st Armor Training Brigade platoon cut off on the range roads, half-trained and led by one sergeant."
+    },
+    "IGUI_ALifeUI_1bab024976b44359": {
+      "tr": "Doğa Koruma Görevlilerinden Kalanlar",
+      "baglam": "1993 / Uniformed Remnants · tutum: careful · Conservation remnants: two officers living out of a forest camp, keeping the woods the way they always did."
+    },
+    "IGUI_ALifeUI_1af3874621b01451": {
+      "tr": "149. Zırhlı Tugay - Ulaştırma Müfrezesi",
+      "baglam": "1993 / Uniformed Remnants · tutum: careful · Guard transport detail of the 149th Armored Brigade: truck drivers with a convoy that went nowhere, guarding what is on the trucks."
+    },
+    "IGUI_ALifeUI_107b6ad2302c9bd9": {
+      "tr": "Ireland Ordu Hastanesi - Sağlık Müfrezesi",
+      "baglam": "1993 / Uniformed Remnants · tutum: careful · Army medical detail: a field aid station out of Ireland Army Community Hospital at Fort Knox, treating soldiers first and everybody eventually."
+    },
+    "IGUI_ALifeUI_509071b12a05febc": {
+      "tr": "Görev Dışı Paramedikler",
+      "baglam": "1993 / Workers · tutum: careful · Off-duty paramedics holding a house and a kit bag, still going out when they hear a crash."
+    },
+    "IGUI_ALifeUI_3b87b93533aa0116": {
+      "tr": "Hastane Servisinden Sağ Kalanlar",
+      "baglam": "1993 / Workers · tutum: careful · Ward survivors: the patients and one nurse who were on the floor the hospital lost, and kept the ward."
+    },
+    "IGUI_ALifeUI_461be2ed78164d01": {
+      "tr": "Altyapı İşçilerinden Kalanlar",
+      "baglam": "1993 / Workers · tutum: careful · Utility survivors: a co-op crew holding a workshop, trading generator work for anything that burns."
+    },
+    "IGUI_ALifeUI_4bac281803580821": {
+      "tr": "Karayolları Bakım Ekibi",
+      "baglam": "1993 / Workers · tutum: careful · The state highway crew, dump trucks and salt shed, still clearing wrecks in the first days."
+    },
+    "IGUI_ALifeUI_57ed158e49dd285e": {
+      "tr": "Telefon Hattı Ekibi",
+      "baglam": "1993 / Workers · tutum: neutral · A two-man telephone crew at a switching point, waiting for a dial tone that is not coming."
+    },
+    "IGUI_ALifeUI_7b88886e1a71a3c7": {
+      "tr": "Su İdaresi Çalışanları",
+      "baglam": "1993 / Workers · tutum: careful · Waterworks staff keeping the pumps going as long as the diesel lasts."
+    },
+    "IGUI_ALifeUI_1598db28594e5175": {
+      "tr": "Temizlik İşleri Ekibi",
+      "baglam": "1993 / Workers · tutum: careful · A sanitation crew that kept the truck and the yard. They know every back alley in town."
+    },
+    "IGUI_ALifeUI_1a1a78b623c7f8b1": {
+      "tr": "Sağ Kalan Demiryolu Bakımcıları",
+      "baglam": "1993 / Workers · tutum: careful · Rail maintenance survivors along the CSX line: a siding, a hi-rail truck, and miles of track nobody else walks."
+    },
+    "IGUI_ALifeUI_0cc5d1127b516908": {
+      "tr": "Burbon Deposu İşçileri",
+      "baglam": "1993 / Workers · tutum: careful · Rickhouse hands: distillery workers holding a warehouse worth a fortune in barrels, and they know it."
+    },
+    "IGUI_ALifeUI_75a162b55e3d4899": {
+      "tr": "Depo Gece Vardiyası",
+      "baglam": "1993 / Workers · tutum: careful · Warehouse night shift: the crew that was on the floor when it happened and never went home. Awake all night."
+    },
+    "IGUI_ALifeUI_14afe6f2386e5bf1": {
+      "tr": "Eczanedeki Sağ Kalanlar",
+      "baglam": "1993 / Workers · tutum: careful · Pharmacy survivors: the pharmacist, a technician and the stock room, which everyone in the county wants."
+    },
+    "IGUI_ALifeUI_63a8199c5b23e1e1": {
+      "tr": "Direnen Postacılar",
+      "baglam": "1993 / Workers · tutum: careful · Postal holdouts: carriers who know every house on the route and which ones are still answering."
+    },
+    "IGUI_ALifeUI_568e724849e6f54e": {
+      "tr": "Bell Ailesi",
+      "baglam": "1993 / Families · tutum: careful · The Bell household, Riverside: a family in its own house with the doors barred and the shotgun by the stairs."
+    },
+    "IGUI_ALifeUI_7e538c8c6409bef6": {
+      "tr": "Freeman Verandası",
+      "baglam": "1993 / Families · tutum: careful · Freeman Porch: a Louisville row house, three generations, and a porch nobody steps onto uninvited."
+    },
+    "IGUI_ALifeUI_5d959e796224ea3c": {
+      "tr": "Hensley Meyve Bahçesi",
+      "baglam": "1993 / Families · tutum: careful · Hensley Orchard on the Fallas Lake edge: apples, a cider press, and a family that will trade fruit for ammunition."
+    },
+    "IGUI_ALifeUI_4868b421231ba1f2": {
+      "tr": "Mercer Oto Tamir",
+      "baglam": "1993 / Families · tutum: careful · Mercer Auto: a Muldraugh garage family that keeps the shop, fixes what rolls in, and sleeps upstairs."
+    },
+    "IGUI_ALifeUI_5ebdb71b18e00dba": {
+      "tr": "Ortiz Mutfağı",
+      "baglam": "1993 / Families · tutum: careful · Ortiz Kitchen: a Louisville restaurant family living over the shop, feeding the block from what is left in the walk-in."
+    },
+    "IGUI_ALifeUI_239978f13a48647a": {
+      "tr": "Nguyen Terzihanesi",
+      "baglam": "1993 / Families · tutum: careful · Nguyen Tailors: a small Louisville shop, a family behind the shutters, and a very good eye for who is at the door."
+    },
+    "IGUI_ALifeUI_5ecd80cd49cab175": {
+      "tr": "Bauer Mandırası",
+      "baglam": "1993 / Families · tutum: careful · Bauer Dairy near Ekron: German farm stock, a herd to keep alive and a fence line they walk twice a day."
+    },
+    "IGUI_ALifeUI_2b8846102bc60665": {
+      "tr": "Walker İkiz Evleri",
+      "baglam": "1993 / Families · tutum: careful · The Walker duplex, West Point: two families who knocked the wall through and share one door."
+    },
+    "IGUI_ALifeUI_6c5cf0845ec64d6d": {
+      "tr": "Price Moteli",
+      "baglam": "1993 / Families · tutum: careful · Price Motor Court: the family that ran the roadside motel and still rents rooms, for the right trade."
+    },
+    "IGUI_ALifeUI_4aeb2ccf7db8a422": {
+      "tr": "Sutter Hırdavat",
+      "baglam": "1993 / Families · tutum: careful · Sutter Hardware, Rosewood: nails, chain, tools and a family that sleeps in the stock room with a shotgun."
+    },
+    "IGUI_ALifeUI_3d5d63fb4f40fdf0": {
+      "tr": "Lawson Kuzenleri",
+      "baglam": "1993 / Families · tutum: careful · The Lawson cousins in a March Ridge house: four of them, related by marriage and by what they did to keep it."
+    },
+    "IGUI_ALifeUI_616b23ae4d9d49fa": {
+      "tr": "Turner Çiftliği",
+      "baglam": "1993 / Families · tutum: careful · Turner Homestead outside Brandenburg: a smallholding, a well, and a family that has never needed the town."
+    },
+    "IGUI_ALifeUI_7a2a7d5f284c7a83": {
+      "tr": "Yolda Kalan Yolcu",
+      "baglam": "1993 / Lone Survivors and Households · tutum: careful · A stranded commuter in a suit, still carrying the briefcase, walking home from a car that will not start."
+    },
+    "IGUI_ALifeUI_228c8e9807736881": {
+      "tr": "Kaybolmuş Doğa Yürüyüşçüsü",
+      "baglam": "1993 / Lone Survivors and Households · tutum: neutral · A lost hiker on the trails who has not seen a road in days and does not know what happened to the towns."
+    },
+    "IGUI_ALifeUI_6dde43010c07f80a": {
+      "tr": "Gece Vardiyası Hemşiresi",
+      "baglam": "1993 / Lone Survivors and Households · tutum: friendly · A night-shift nurse who walked off the ward with her kit and has been walking since."
+    },
+    "IGUI_ALifeUI_6f87b85c0c8089e0": {
+      "tr": "Emekli Komşu",
+      "baglam": "1993 / Lone Survivors and Households · tutum: careful · A retired neighbour who is not leaving the house, thank you, and has the revolver from the bedside drawer."
+    },
+    "IGUI_ALifeUI_272fbd635e7e328e": {
+      "tr": "Mahsur Kalan Kurye",
+      "baglam": "1993 / Lone Survivors and Households · tutum: careful · A stranded courier with a satchel of somebody else's mail and a bicycle helmet, working the roads."
+    },
+    "IGUI_ALifeUI_2af55db97f9b7299": {
+      "tr": "Yol Kenarı Tamircisi",
+      "baglam": "1993 / Lone Survivors and Households · tutum: neutral · A roadside mechanic under somebody's bonnet, with a toolbox and no intention of leaving the car."
+    },
+    "IGUI_ALifeUI_340a80795675059d": {
+      "tr": "Evli Çift",
+      "baglam": "1993 / Lone Survivors and Households · tutum: careful · A married couple who left the house together and have not been apart since."
+    },
+    "IGUI_ALifeUI_712fe5ca6cc7282c": {
+      "tr": "Yetişkin Kardeşler",
+      "baglam": "1993 / Lone Survivors and Households · tutum: neutral · Adult siblings working the neighbourhood house by house, arguing the whole way."
+    },
+    "IGUI_ALifeUI_6711ef8538efd79a": {
+      "tr": "İş Arkadaşları",
+      "baglam": "1993 / Lone Survivors and Households · tutum: careful · Two co-workers who were on shift together and are still on shift, in a way."
+    },
+    "IGUI_ALifeUI_67179ce975b45658": {
+      "tr": "Balıkçı Dostlar",
+      "baglam": "1993 / Lone Survivors and Households · tutum: careful · Fishing partners at a cabin on the bank, living off the river and a deer rifle."
+    },
+    "IGUI_ALifeUI_583e3d8c62ba3019": {
+      "tr": "Moteldeki Yolcular",
+      "baglam": "1993 / Lone Survivors and Households · tutum: neutral · Two travellers from a motel room on 31W, out of state, out of gas and out of ideas."
+    },
+    "IGUI_ALifeUI_1376e5a41c7d7ba4": {
+      "tr": "Apartman Nöbetçileri",
+      "baglam": "1993 / Lone Survivors and Households · tutum: careful · Apartment watch: one Louisville block that organised, floor by floor, with a rota on the stairwell door."
+    },
+    "IGUI_ALifeUI_50aa3c89724166d6": {
+      "tr": "Karavan Parkı Komşuları",
+      "baglam": "1993 / Lone Survivors and Households · tutum: careful · Trailer neighbours at the other end of the Muldraugh park: not Napiers, and they want that understood."
+    },
+    "IGUI_ALifeUI_66c7429c21c850d7": {
+      "tr": "Lokanta Ahalisi",
+      "baglam": "1993 / Lone Survivors and Households · tutum: careful · Diner survivors: the cook, the waitress and the regulars who were there when it started, still there."
+    },
+    "IGUI_ALifeUI_2002982c091c9f87": {
+      "tr": "Kilise Gönüllüleri",
+      "baglam": "1993 / Lone Survivors and Households · tutum: friendly · Church volunteers running a shelter in a church that is not Prather's, and glad of the difference."
+    },
+    "IGUI_ALifeUI_07241e4030334743": {
+      "tr": "Yaya Sığınmacılar",
+      "baglam": "1993 / Lone Survivors and Households · tutum: neutral · Refugee walkers: a column out of Louisville coming down 31W on foot, carrying everything, going anywhere."
+    },
+    "IGUI_ALifeUI_206f2aec51224664": {
+      "tr": "Napier Haraççıları",
+      "baglam": "1993 / Late Factions · tutum: hostile · Napier Collectors: the Napier cousins who went from taking the trailer row to taking everything on the roads around it."
+    },
+    "IGUI_ALifeUI_4593f3440f8c75db": {
+      "tr": "Knob Pusucuları",
+      "baglam": "1993 / Late Factions · tutum: hostile · Knob Stalkers: hunters who work the farm edges at night with scoped rifles and never show themselves twice."
+    },
+    "IGUI_ALifeUI_07d8a83132102213": {
+      "tr": "Kemik Yağmacıları",
+      "baglam": "1993 / Late Factions · tutum: hostile · Bone Raiders: the far camp, armoured in bone and hide, come down from the knobs when the food runs out."
+    },
+    "IGUI_ALifeUI_3cd9735614d7c31d": {
+      "tr": "Kül Tayfası",
+      "baglam": "1993 / Late Factions · tutum: hostile · Cinder Crew: burned out of the industrial yards and black with it. Masks, aprons, leather, and a grudge against everything standing."
+    },
+    "IGUI_ALifeUI_2bac922673f7881a": {
+      "tr": "Hurdalık Yağmacıları",
+      "baglam": "1993 / Late Factions · tutum: hostile · Scrapyard Reavers: a taken workshop, tire and plate armour, sawblade axes. They are slow, and they do not stop."
+    },
+    "IGUI_ALifeUI_5097016e7f54a8fe": {
+      "tr": "Sahte Kontrol Noktası Çetesi",
+      "baglam": "1993 / Late Factions · tutum: hostile · False Checkpoint Crew: stolen uniforms and a real barrier on a side road. They wave you closer, then they take the car."
+    },
+    "IGUI_ALifeUI_725c0bbc01da67e0": {
+      "tr": "İlçe Yolu Milisleri",
+      "baglam": "1993 / Late Factions · tutum: careful · County Road Militia: farmers and veterans who put a gate on the crossroads and answer to the families behind it."
+    },
+    "IGUI_ALifeUI_538af2e36b719bc0": {
+      "tr": "Konvoy Avcıları",
+      "baglam": "1993 / Late Factions · tutum: hostile · Convoy Predators: the late road crews with body armour, helmets and a captured rifle, hunting the routes between shelters."
+    },
+    "IGUI_ALifeUI_33a91c17766b9d85": {
+      "tr": "5. Özel Kuvvetler Grubu (Hava İndirme) - İzole Müfreze",
+      "not": "G: \"Mahsur Kalmış Müfreze\". \"Stranded\" zaten \"Mahsur Kalan\" (Chicago Outfit vb.); \"Isolated\" Delta Force'taki gibi \"İzole\" olunca ikisi ayrışıyor ve ad kısalıyor.",
+      "oneri": true,
+      "baglam": "1993 / Late Factions · tutum: careful · U.S. Army Special Forces, an isolated A-team of the 5th Special Forces Group (Airborne) from Fort Campbell, on one late mission that has nothing to do with the "
+    },
+    "IGUI_ALifeUI_446043a039895f2b": {
+      "tr": "Delta Force - İzole Tim",
+      "not": "Sadece tire: – (uzun) yerine - (EN'deki gibi kısa).",
+      "oneri": true,
+      "baglam": "1993 / Late Factions · tutum: hostile · Delta Force, an isolated team long after anyone expected one. Nobody knows what they are here for. Aim of ten."
+    },
+    "IGUI_ALifeUI_76d94910281fcc9e": {
+      "tr": "Ofis Çalışanları",
+      "baglam": "1993 / Lone Survivors and Households · tutum: careful · Office staff who walked out of the building on the first morning in their good shoes and name tags. Nobody has told them where to go."
+    },
+    "IGUI_ALifeUI_2260618c062ef4ab": {
+      "tr": "Kaybolmuş Turist",
+      "baglam": "1993 / Lone Survivors and Households · tutum: careful · A tourist from out of state who pulled off 31W to see Fort Knox and got lost when the rental car broke down."
+    },
+    "IGUI_ALifeUI_76b7527a61e85ce9": {
+      "tr": "Anne Babasını Arayan Genç",
+      "baglam": "1993 / Lone Survivors and Households · tutum: careful · A teenager going house to house looking for Mom and Dad and calling for them at every door."
+    },
+    "IGUI_ALifeUI_1dd3429b159a2ba2": {
+      "tr": "Yolda Kalan Kamyoncu",
+      "baglam": "1993 / Lone Survivors and Households · tutum: neutral · A long-haul driver whose rig went off the interstate ramp. Still waiting for a tow and calling dispatch on the CB."
+    },
+    "IGUI_ALifeUI_51508c87577b4d54": {
+      "tr": "Otostopçu",
+      "baglam": "1993 / Lone Survivors and Households · tutum: neutral · A hitchhiker on the shoulder of 31W holding a cardboard sign that says NASHVILLE. Rides have been slow."
+    },
+    "IGUI_ALifeUI_044393656f088a01": {
+      "tr": "Çiftlik İşçisi",
+      "baglam": "1993 / Lone Survivors and Households · tutum: careful · A hired hand who stayed on after the family that owns the farm drove off. Still feeding the stock and waiting to get paid."
+    },
+    "IGUI_ALifeUI_2e5fd2df5b653ed4": {
+      "tr": "Üniversite Öğrencisi",
+      "baglam": "1993 / Lone Survivors and Households · tutum: neutral · A college kid walking home from Louisville to the family place in the county, sleeping in barns and living on vending machine snacks."
+    },
+    "IGUI_ALifeUI_208234a156d47766": {
+      "tr": "Yaşlı Gazi",
+      "not": "Eski: \"Yaşlı Eski Asker\". Vietnam gazisi; \"Yaşlı Eski\" tekrar gibi duruyor. Unvanlarda da veteran = gazi kullanılıyor.",
+      "oneri": true,
+      "baglam": "1993 / Lone Survivors and Households · tutum: careful · A Vietnam vet who lives alone at the end of a gravel road and has no use for visitors."
+    },
+    "IGUI_ALifeUI_65465c705aa400cf": {
+      "tr": "Otter Creek Kapancıları",
+      "baglam": "1993 / Lone Survivors and Households · tutum: careful · Two trappers who run their lines along Otter Creek and sell the hides. They know the woods and do not care for company."
+    },
+    "IGUI_ALifeUI_701d1b7a4fa5273f": {
+      "tr": "Mattingly Evi",
+      "baglam": "1993 / Families · tutum: careful · Three generations of Mattinglys in one house in Irvington. The downstairs windows are boarded and somebody is always awake."
+    },
+    "IGUI_ALifeUI_1227527a349a0f0c": {
+      "tr": "Skaggs Çiftliği",
+      "baglam": "1993 / Families · tutum: careful · A tobacco farm outside Echo Creek with a smokehouse full of hams. The Skaggs family keeps count of everybody who comes up the lane."
+    },
+    "IGUI_ALifeUI_3c277ba06b173e4e": {
+      "tr": "Hornback Evi",
+      "baglam": "1993 / Families · tutum: careful · A Valley Station family laid off from the plant in the spring. They have been living off the canned goods in the basement since."
+    },
+    "IGUI_ALifeUI_6b7f80fe5c032a25": {
+      "tr": "Pruitt Ailesi",
+      "baglam": "1993 / Families · tutum: careful · The Pruitts left Louisville in the station wagon on the second day and have lived out of it since. They are low on gas and have nowhere to go."
+    },
+    "IGUI_ALifeUI_27dfe3c619460e7c": {
+      "tr": "Yol Boyu Toplayıcıları",
+      "baglam": "1993 / Local Crews · tutum: careful · Opportunists working the roads in the first weeks: they strip the houses and cars nobody came back for, tell strangers to keep walking, and take what an outnumb"
+    },
+    "IGUI_ALifeUI_351573c76c2bdbd2": {
+      "tr": "Knox İlk Müdahale Ekipleri",
+      "baglam": "1993 / Relief and Utilities · tutum: careful · Knox First Responders: deputies, firefighters and paramedics who stopped waiting for a dispatcher and started working together. A badge or a helmet on each of t"
+    },
+    "IGUI_ALifeUI_038264af321c75f6": {
+      "tr": "Rolling Fork Yerleşimi",
+      "baglam": "1993 / Lone Survivors and Households · tutum: careful · Rolling Fork Settlement: families, strays and two veterans who pooled what they had behind one fence. They grow, trade and take in people who work, and they wan"
+    },
+    "IGUI_ALifeUI_5c45f309280ef61a": {
+      "tr": "Uzun Yolun Yolcuları",
+      "not": "G: \"Uzun Yol Hayatta Kalanları\" (tamlama bozuk). Blurb: bir ay sonra hâlâ yolda olan insanlar.",
+      "oneri": true,
+      "baglam": "1993 / Lone Survivors and Households · tutum: neutral · Long Road Survivors: people still on the move a month in, in tarp, hide and patched denim, carrying what they could make. Most of them only want to pass."
+    },
+    "IGUI_ALifeUI_65cac2750b787268": {
+      "tr": "Louisville Ulaşım Grevi Ekibi",
+      "baglam": "1993 / Survivors · tutum: neutral · Louisville Transit Strike Crew: bus drivers and shop mechanics who walked out the week before and now drive one bus south together. They carry wrenches and unio"
+    },
+    "IGUI_ALifeUI_05ac18c24cd5e5f7": {
+      "tr": "100. Eğitim Tümeni Yedek Askerleri - Fort Knox",
+      "not": "G: \"100. Tümen (BT) Yedek Askerleri\". HATA: IT burada \"Institutional Training\" (blurb'de yazıyor), bilgi teknolojisi değil.",
+      "oneri": true,
+      "baglam": "1993 / Military · tutum: careful · Fort Knox Reservists: weekend soldiers of the 100th Division (Institutional Training) who reported to a post that was already gone. Worn fatigues under civilian"
+    },
+    "IGUI_ALifeUI_69156aa6359ba16b": {
+      "tr": "Salt River Kayıkçıları",
+      "baglam": "1993 / Survivors · tutum: careful · Salt River Ferrymen: a johnboat crew moving people over the river for fuel or tinned food. They hold the landing, and they wave you off before they let you near"
+    },
+    "IGUI_ALifeUI_1a979b99153741ac": {
+      "tr": "Meade Kaçak İçki Kooperatifi",
+      "not": "G: \"Meade County …\". Senin kalıbın: \"Knox County Deputies\" → \"Knox Şerif Yardımcıları\" (County düşüyor).",
+      "oneri": true,
+      "baglam": "1993 / Local Crews · tutum: careful · Meade County Moonshine Co-op: stills in the hollows, a fuel trade on the side. They will sell to anyone with something to swap and remember anyone who tries to "
+    },
+    "IGUI_ALifeUI_43e9c80c7912f95b": {
+      "tr": "Kereste Fabrikası İşçileri",
+      "baglam": "1993 / Workers · tutum: careful · Sawmill Hands: a logging crew off the Muldraugh cut, felling axes and bats, boots planted. They work in pairs, circle what they cannot take head on, and give a "
+    },
+    "IGUI_ALifeUI_3e9e60d048e9b92a": {
+      "tr": "Knox Birliği",
+      "baglam": "Survivor Federations and Late Crews · tutum: careful · Neighbours, farmers and former responders sharing a council and a watch. They ask to see your hands, not your badge."
+    },
+    "IGUI_ALifeUI_2d9abcf16d544c4e": {
+      "tr": "Tepeler Milis Birliği",
+      "not": "G: \"Sırt Milis Birliği\". \"Sırt\" tek başına vücut ya da dağ sırtı mı belli değil; blurb vadiye bakan çiftlik haneleri.",
+      "oneri": true,
+      "baglam": "Survivor Federations and Late Crews · tutum: careful · Farm households taking turns on the valley roads. Travellers can pass; stealing from a farm is another matter."
+    },
+    "IGUI_ALifeUI_1e66bab17421b69a": {
+      "tr": "Vadi Kervan Birliği",
+      "baglam": "Survivor Federations and Late Crews · tutum: neutral · Drivers, traders and guards carrying supplies between settlements. Their markets need a clear road and somebody watching it."
+    },
+    "IGUI_ALifeUI_3f06176e5becbc0b": {
+      "tr": "Ekron Çiftlik Kooperatifi",
+      "baglam": "Survivor Federations and Late Crews · tutum: friendly · Several farms pooling seed, tools and a night watch. There is work for strangers who can put a weapon down."
+    },
+    "IGUI_ALifeUI_12e784bf6e039a9b": {
+      "tr": "Riverside Feribot Birliği",
+      "not": "G: \"Nehir Kıyısı Feribot Birliği\". Riverside kasaba adı (K2); \"Riverside Polisi\" vb. her yerde korunuyor.",
+      "oneri": true,
+      "baglam": "Survivor Federations and Late Crews · tutum: neutral · Dock hands and river families keeping their landing supplied. They trade fish and repairs, and watch the bank after dark."
+    },
+    "IGUI_ALifeUI_73424ec07842a9b9": {
+      "tr": "Mount Hope Kardeşliği",
+      "baglam": "Survivor Federations and Late Crews · tutum: friendly · A kitchen, a schoolroom and a gate watch run by families who took each other in. Help is welcome; trouble stays outside."
+    },
+    "IGUI_ALifeUI_007400382c485fea": {
+      "tr": "Dökümhane Kolektifi",
+      "baglam": "Survivor Federations and Late Crews · tutum: neutral · Mechanics and metalworkers keeping a salvage yard running. They will repair what they can if you bring something worth trading."
+    },
+    "IGUI_ALifeUI_190a057c0546b099": {
+      "tr": "Koyak Paktı",
+      "not": "G: \"Vadi Paktı\". \"Vadi\" zaten Valley Caravan League'de kullanılıyor; hollow (dağ arasındaki dar dere yatağı) = koyak.",
+      "oneri": true,
+      "baglam": "Survivor Federations and Late Crews · tutum: careful · Hollow families sharing hunting ground and stores. They prefer an agreed meeting place to strangers walking into camp."
+    },
+    "IGUI_ALifeUI_76f46ecd2ff18de6": {
+      "tr": "Klinik Halkası",
+      "not": "G: \"Klinik Çemberi\". İnsan topluluğu için Türkçede \"halka\" doğal (dost halkası), \"çember\" geometrik.",
+      "oneri": true,
+      "baglam": "Survivor Federations and Late Crews · tutum: friendly · Carers and volunteers running small clinics with whatever they can find. A guarded door buys the patients some peace."
+    },
+    "IGUI_ALifeUI_7d8331ca44975a3f": {
+      "tr": "Kırmızı Çizgi Yağmacıları",
+      "not": "G: İngilizce bırakmış. K3: tanımlayıcı ad, çevrilir (senin \"Iron Horse Club\" → \"Demir At Motosiklet Kulübü\" kalıbı). Redline = motorun kırmızı çizgisi; çalıntı yakıtla yaşayan yol çetesi.",
+      "oneri": true,
+      "baglam": "Survivor Federations and Late Crews · tutum: hostile · A highway crew living off stolen fuel and other people's convoys. If they block the road, it is not a rescue."
+    },
+    "IGUI_ALifeUI_5c2a21fb147526c3": {
+      "tr": "Öşürcüler",
+      "not": "G: İngilizce bırakmış. Tithe (ondalık vergi) Türkçede tarihsel karşılığıyla öşür; \"soygunu katkı payı diye adlandıran silahlı tahsildarlar\"a birebir oturuyor. 💡 özgün terim.",
+      "oneri": true,
+      "baglam": "Survivor Federations and Late Crews · tutum: careful · Armed collectors who call robbery a contribution. They demand a share before they shoot, and remember a refusal."
+    },
+    "IGUI_ALifeUI_40feae8656c16437": {
+      "tr": "Gece Vardiyası",
+      "not": "G: İngilizce bırakmış. Karanlıkta baskın yapan çete; ad bilerek ironik. \"Depo Gece Vardiyası\"ndan (Warehouse Night Shift) \"Depo\" ile ayrışıyor.",
+      "oneri": true,
+      "baglam": "Survivor Federations and Late Crews · tutum: hostile · Raiders who travel after dark and return with food, fuel and somebody else's tools. Their lookout listens before the crew moves."
+    },
+    "IGUI_ALifeUI_74a182e5365a79b6": {
+      "tr": "Demir Koro",
+      "not": "G: İngilizce bırakmış. K3.",
+      "oneri": true,
+      "baglam": "Survivor Federations and Late Crews · tutum: hostile · A long-haul warband with a watch roster and a stockpile. They take settlements seriously enough to plan an attack."
+    },
+    "IGUI_ALifeUI_244bcf8f66322b28": {
+      "tr": "Komşular",
+      "baglam": "Visitors · tutum: neutral · People from the streets around you who knock because the lights went out or the radio went quiet. They only ever walk up to your door."
+    },
+    "IGUI_ALifeUI_0139755b709ac2e8": {
+      "tr": "Yersiz Yurtsuzlar",
+      "not": "G: \"Başıboşlar\" (aşağılayıcı). Blurb: otostopçular, yürüyenler, elinde çantası olup gidecek yeri olmayanlar; deyim tam bunu anlatıyor.",
+      "oneri": true,
+      "baglam": "Visitors · tutum: neutral · Hitchhikers, walkers and people with a bag and no destination. They turn up at a door once and move on."
+    },
+    "IGUI_ALifeUI_00b3209e68c5d7af": {
+      "tr": "Akrabalar",
+      "not": "G: \"Aile Halkı\" (yapay). Blurb: komşu çiftliklerden anne baba, büyükanne, teyze, amca.",
+      "oneri": true,
+      "baglam": "Visitors · tutum: neutral · Parents, grandparents, aunts and uncles from the farms and houses nearby, come to ask after your household."
+    },
+    "IGUI_ALifeUI_000cc9cf50b11cc6": {
+      "tr": "İşten Çıkarılanlar",
+      "baglam": "Visitors · tutum: neutral · Plant hands and drivers who lost the job before the world did. They know the roads and carry nothing worth taking."
+    },
+    "IGUI_ALifeUI_2bdda31f0b91a3a6": {
+      "tr": "Cemaat",
+      "not": "G: \"Kilise Halkı\". Papaz, diyakoz, koro ve cemaat üyeleri; senin \"Prather Cemaati\" ile de uyumlu.",
+      "oneri": true,
+      "baglam": "Visitors · tutum: neutral · Pastors, deacons, choir women and congregation members making rounds to see who is left."
+    },
+    "IGUI_ALifeUI_1188b958519ec8f3": {
+      "tr": "Sağlık Çalışanları",
+      "baglam": "Visitors · tutum: neutral · Aides, nurses and the odd country doctor who walk the roads with a bag, offering what little they have."
+    },
+    "IGUI_ALifeUI_361d8b5761202481": {
+      "tr": "Esnaf",
+      "baglam": "Visitors · tutum: neutral · Carpenters, linemen, painters and the barber. People whose hands are good for something, calling to trade a favour."
+    },
+    "IGUI_ALifeUI_30adede9606667b5": {
+      "tr": "Yaşlılar",
+      "baglam": "Visitors · tutum: neutral · Old couples, widowers and retired teachers who stayed put and come out slowly, mostly to talk."
+    },
+    "IGUI_ALifeUI_75124c895adfddd2": {
+      "tr": "Genç Yetişkinler",
+      "baglam": "Visitors · tutum: neutral · College kids sent home, grocery clerks and musicians in their twenties. Adults every one, a little too curious for their own good."
+    },
+    "IGUI_ALifeUI_3c51589008a496aa": {
+      "tr": "Eski Askerler",
+      "baglam": "Visitors · tutum: neutral · Vietnam and Gulf veterans, a guardsman and a deputy, all out of uniform. They are civilians who remember what a checkpoint is."
+    },
+    "IGUI_ALifeUI_0ed32a5a3f1034de": {
+      "tr": "Kaba Saba Ama Zararsız",
+      "not": "G: \"Kaba Ama Zararsız\". Sadece görünüşü sert olanlar; \"kaba saba\" kişiliği değil görüntüyü anlatıyor.",
+      "oneri": true,
+      "baglam": "Visitors · tutum: neutral · Gentle bikers, tattooed drifters and hard-living regulars who look worse than they are. Nothing in their hands."
+    },
+    "IGUI_ALifeUI_5ad27260597a0b06": {
+      "tr": "Yabancılar",
+      "baglam": "Visitors · tutum: neutral · People who were not from here: shop families, farm labourers, tourists, and the ones with a theory about everything."
+    },
+    "IGUI_ALifeUI_6783d8e11855516a": {
+      "tr": "Durgunsu Fareleri",
+      "not": "G: \"Slackwater Fareleri\". Slackwater yer adı değil, nehirde akıntısız su; kıyı leşçileri.",
+      "oneri": true,
+      "baglam": "1993 / Late Factions · tutum: hostile · Bank-side scavengers off the Ohio shore: rubber boots, fishing hats and yellow oilskins. They work the landings at dusk, take what the water leaves and are gone"
+    },
+    "IGUI_ALifeUI_6697426a5ada856a": {
+      "tr": "Kara Akciğer Çetesi",
+      "not": "G: \"Kara Ciğer Ekibi\" (\"ciğer\" yemek gibi okunuyor). Black lung = madencilerin kara akciğer hastalığı; düşman çete olduğu için ekip → çete.",
+      "oneri": true,
+      "baglam": "1993 / Late Factions · tutum: hostile · Out-of-work miners from the coalfield counties, walking the county with lamp helmets and dust masks over soot-dark faces. They dig in, hold a hill and fight lik"
+    },
+    "IGUI_ALifeUI_4cca008e32c70afe": {
+      "tr": "Breaker Nine Konvoyu",
+      "baglam": "1993 / Late Factions · tutum: hostile · Independent truckers who kept hauling and learned that the road pays better when you stop the other man's load. Hi-vis vests, mirror shades and a CB on every da"
+    },
+    "IGUI_ALifeUI_502133bc28200bc9": {
+      "tr": "Longshot Çetesi",
+      "not": "G: \"Longshot Ekibi\". Düşman çete; ekip → çete. Longshot (yarışta sürpriz at) özel ad olarak kalabilir.",
+      "oneri": true,
+      "baglam": "1993 / Late Factions · tutum: hostile · Grooms, tipsters and exercise riders from the racetrack barns who ran out of purse money. They wear jockey helmets and riding boots, work the farm lanes by day "
+    }
+  }
+}

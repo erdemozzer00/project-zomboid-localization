@@ -1,0 +1,941 @@
+{
+  "_paket": "D9b — Haydutların barks'ı (yağmacı, kanun kaçağı, firari mahkum; asker + haydut karışık kayıtlar dahil), 303; parça [4, 5] / 5, bekleyen [1, 2, 3] (çeviri: harici AI; kalite incelemesi yapılmadı)",
+  "_dosya": "RadioData_lua",
+  "satirlar": {
+    "RD_ALifeLine_0f50bafb02030d3d": {
+      "tr": "Şuna bak! Hele bu, bizimle eve gelir!"
+    },
+    "RD_ALifeLine_75aec8d521811355": {
+      "tr": "Bunu sevdim. Geri mi isteyeceksin?"
+    },
+    "RD_ALifeLine_295cc5521fdeea76": {
+      "tr": "Bunu biz alıyoruz, sakın ağlama, ayıp olur"
+    },
+    "RD_ALifeLine_34dadda26e022560": {
+      "tr": "Bulan alır, yem. Biz de seni bulduk"
+    },
+    "RD_ALifeLine_70752fa2745cc7af": {
+      "tr": "Bu bende kalıyor. Aferin köpek"
+    },
+    "RD_ALifeLine_65b57cca464e1ae9": {
+      "tr": "Hepsi bu mu? Çocuklar, sonunda elimize bir şeyler geçti!",
+      "not": "gerçek çoğul"
+    },
+    "RD_ALifeLine_2d518cd3336fbc70": {
+      "tr": "BENİM! Bu artık benim!"
+    },
+    "RD_ALifeLine_24c4fb431f497be6": {
+      "tr": "Oh be, oh be! Avluda bayram var!"
+    },
+    "RD_ALifeLine_4d7aa68d76277b7a": {
+      "tr": "Bu bizim! Atlatırsın nasılsa!"
+    },
+    "RD_ALifeLine_7667582b36468397": {
+      "tr": "Ha! Bu benim, salak!"
+    },
+    "RD_ALifeLine_37b087e3699b0704": {
+      "tr": "Bunu alıyorum, derdin mi var? Varsa içine at!"
+    },
+    "RD_ALifeLine_7e73f420543bf400": {
+      "tr": "Şuna bak! Bak neler bulduk!"
+    },
+    "RD_ALifeLine_543143eb722cc80c": {
+      "tr": "Devlet bir zamanlar elimde ne varsa aldı, şimdi devlet benim"
+    },
+    "RD_ALifeLine_79be74420d71c5bc": {
+      "tr": "İş görür, bunu alıyoruz"
+    },
+    "RD_ALifeLine_53358ae569559cfa": {
+      "tr": "Artık bizim, kalbine alma"
+    },
+    "RD_ALifeLine_7f5524a7460ffa4b": {
+      "tr": "Bana senden daha lazım, bana kalırsa"
+    },
+    "RD_ALifeLine_5816111008461ec3": {
+      "tr": "İş görür, sağ ol"
+    },
+    "RD_ALifeLine_749884e345036297": {
+      "tr": "Bunu alıyorum, pardon... yok, pardon değil"
+    },
+    "RD_ALifeLine_74fec1f365dca409": {
+      "tr": "Hep biri birinden alıyor, artık işler böyle yürüyor"
+    },
+    "RD_ALifeLine_3382122a1806e54e": {
+      "tr": "Bu ne böyle? Her neyse, artık benim"
+    },
+    "RD_ALifeLine_20a0ea6c50332122": {
+      "tr": "BENİM! Sekiz yıl... sekiz lanet yıl, sonunda bir şeyim oldu!"
+    },
+    "RD_ALifeLine_1e99587722bd887c": {
+      "tr": "Aldığım bende kalır, hepsi, tek kelime etme"
+    },
+    "RD_ALifeLine_537ad8382df63840": {
+      "tr": "Bunu alıyorum, benim için ne kadar değerli bilemezsin"
+    },
+    "RD_ALifeLine_2bcf66524b67855f": {
+      "tr": "Ooh, bu, bu benimle geliyor, tartışması yok"
+    },
+    "RD_ALifeLine_2c625dd40959c23f": {
+      "tr": "Bu benim iyiliğim, kötülüğümü öğrenmeye kalkma"
+    },
+    "RD_ALifeLine_09e661d400f9571a": {
+      "tr": "İşime yarayanı alırım, sen de aynısını yaparsın, numara yapma"
+    },
+    "RD_ALifeLine_13c613811c04be4d": {
+      "tr": "Alıyorum, içim ne zaman hazırsa o zaman bir şey hissederim, o zamana kadar yok"
+    },
+    "RD_ALifeLine_110fd1b54e48f34b": {
+      "tr": "SİLAHI BIRAK! BIRAK YOKSA ELİNDE ÖLÜRSÜN!"
+    },
+    "RD_ALifeLine_240bfadd5e1bb759": {
+      "tr": "Şunu bırak, yem! BIRAK!"
+    },
+    "RD_ALifeLine_4a8f792e1da61dfb": {
+      "tr": "Hepimizle bununla mı dövüşeceksin? İNDİR ŞUNU!"
+    },
+    "RD_ALifeLine_58891f2531f61d23": {
+      "tr": "SİLAH YERE! Tekmeyle uzağa at, yavaş!"
+    },
+    "RD_ALifeLine_618c2e6b380dc1ac": {
+      "tr": "Ooo, bak, oyuncak! İNDİR ŞUNU, yoksa bir yerine sokarım!"
+    },
+    "RD_ALifeLine_3904ce36026897ac": {
+      "tr": "Elini aç, düşsün! ŞİMDİ!"
+    },
+    "RD_ALifeLine_2ebece08081f20a1": {
+      "tr": "Denersen yere düşmeden ölürsün! BIRAK!"
+    },
+    "RD_ALifeLine_4f4b63a125f9cf32": {
+      "tr": "BIRAK ŞUNU! Dişlerini ipe dizip boynuma takarım!"
+    },
+    "RD_ALifeLine_6084cfbe160641a7": {
+      "tr": "BIRAK! BIRAK BIRAK BIRAK BIRAK!"
+    },
+    "RD_ALifeLine_3ae0a2415b375f17": {
+      "tr": "İNDİR ŞUNU! Bana çekersen pişman olursun, yemin ederim!"
+    },
+    "RD_ALifeLine_063d1fbc68e36b17": {
+      "tr": "Bırak! Bıçağı fazla tutan adamların geberdiğini gördüm!"
+    },
+    "RD_ALifeLine_4edb91ef0a434baf": {
+      "tr": "Sert mi takılacaksın?! İNDİR ŞUNU!"
+    },
+    "RD_ALifeLine_610af4aa4ff9c100": {
+      "tr": "At! Kendinden uzağa at! UZAĞA!"
+    },
+    "RD_ALifeLine_52e5c181543754f9": {
+      "tr": "İndir yoksa elinden alıp seni onunla doğrarım!"
+    },
+    "RD_ALifeLine_5ef484e130fc9e8b": {
+      "tr": "İndir, ikinci şansın olmaz"
+    },
+    "RD_ALifeLine_3c73f94949627459": {
+      "tr": "Silahı bırak, kavgaya mecalim yok, sende de yok"
+    },
+    "RD_ALifeLine_701a5c986381d99f": {
+      "tr": "İNDİR! Eşyaların için ölmeye değmez!"
+    },
+    "RD_ALifeLine_51cac28e1fb91254": {
+      "tr": "Şunu toprağa bırak, yabancı. Yavaş"
+    },
+    "RD_ALifeLine_162eac2c7d44e3ff": {
+      "tr": "Bırak düşsün, gelip aldırtma bana"
+    },
+    "RD_ALifeLine_12058ce44bc1214c": {
+      "tr": "Silah yere, ben de hiç görmemiş gibi yapayım"
+    },
+    "RD_ALifeLine_016742ce68447f22": {
+      "tr": "İNDİR! Yan yan yedirtirim sana!"
+    },
+    "RD_ALifeLine_0e9f26ce165a826c": {
+      "tr": "İndir şunu! Bir herifin ne zaman kalkışacağını bilirim, o da sensin!"
+    },
+    "RD_ALifeLine_582f0166344c20d2": {
+      "tr": "BIRAK! Katil değilsin, kokundan belli!"
+    },
+    "RD_ALifeLine_201e618464481426": {
+      "tr": "İndir şunu, beni gerçekten niyetli adamlar denedi, sen onlardan değilsin"
+    },
+    "RD_ALifeLine_44de1105765e5ddd": {
+      "tr": "Neyse, şu an kimse beni öldürmeye çalışmıyor, güzel gün"
+    },
+    "RD_ALifeLine_5b37864b36682ad8": {
+      "tr": "Huzur sıkıcı, bir şey çıkarmak isteyen var mı?"
+    },
+    "RD_ALifeLine_3f7e07c06637392d": {
+      "tr": "Gardiyan yok, alarm yok, buna alışabilirim"
+    },
+    "RD_ALifeLine_679319b035957181": {
+      "tr": "Olduğun yerde dur! Bir adım yaklaşma!"
+    },
+    "RD_ALifeLine_02633d6514c37fca": {
+      "tr": "Sesini duyduk, şimdi geri çekil, yavaş"
+    },
+    "RD_ALifeLine_6750e1f31cfdcb1d": {
+      "tr": "Buraya gelme, şaka yapmıyorum"
+    },
+    "RD_ALifeLine_44462a9433f32cd0": {
+      "tr": "Mesafeni koru, gürültücü!"
+    },
+    "RD_ALifeLine_7fc1ed3e56c778be": {
+      "tr": "Üstünde silah var, kımıldama!"
+    },
+    "RD_ALifeLine_59361d072a19e3a2": {
+      "tr": "Dur orada! Çocuklar, gözünüz bunda olsun!",
+      "not": "gerçek çoğul",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Gruba ya da birden çok kişiye söyleniyor (\"gözünüz\") ya da ek biz/iyelik biçimi; tek kişiye \"siz\" hitabı değil."
+      }
+    },
+    "RD_ALifeLine_177575680a30f336": {
+      "tr": "İstediğin kadar bağır, ama yaklaşırsan işin biter"
+    },
+    "RD_ALifeLine_40a067587a6c9e2c": {
+      "tr": "Sakin! Şurada, görebileceğimiz yerde kal!"
+    },
+    "RD_ALifeLine_44eabfe776032b9a": {
+      "tr": "Dön ve yürü, kimse heyecanlanmasın"
+    },
+    "RD_ALifeLine_091b1bd6175b9627": {
+      "tr": "Misafir aramıyoruz, geri dur"
+    },
+    "RD_ALifeLine_28cff792186c1eab": {
+      "tr": "Namlum üstünde, orada kal"
+    },
+    "RD_ALifeLine_617040e31d0ddf2b": {
+      "tr": "Üstümüze yürüme, geri dur!"
+    },
+    "RD_ALifeLine_0e84773f7dcb60cc": {
+      "tr": "Ellerin görünsün, yolun o yanında kal!"
+    },
+    "RD_ALifeLine_743d725b0a5bd36b": {
+      "tr": "Geri! Geri dedim!"
+    },
+    "RD_ALifeLine_36528f544684b4c4": {
+      "tr": "Yaklaşma bize! Seni kim gönderdi?!"
+    },
+    "RD_ALifeLine_47d435a44c66cd7a": {
+      "tr": "Uzak dur! Seninle işimiz yok!"
+    },
+    "RD_ALifeLine_78f102d84e12b575": {
+      "tr": "Dur orada! Polis misin? Geri çekil!"
+    },
+    "RD_ALifeLine_0f08c8c81be9cc53": {
+      "tr": "Yaklaşma! Canını yakarız! Yemin ederim!"
+    },
+    "RD_ALifeLine_2da781e90a3d53b8": {
+      "tr": "Görebileceğim yerde kal! Yana kımıldama!"
+    },
+    "RD_ALifeLine_778487a47380ed76": {
+      "tr": "Hayır, hayır! Orada kal!"
+    },
+    "RD_ALifeLine_3e302c0626cc6c3b": {
+      "tr": "Uzak dur! Bağıran kimseye güvenmem!"
+    },
+    "RD_ALifeLine_46ef46886c222d6e": {
+      "tr": "Geri çekil! Geri çekil yoksa işler kötüleşir!"
+    },
+    "RD_ALifeLine_02f652621574ed7a": {
+      "tr": "Buralara gelme! Biz geri dönmüyoruz!"
+    },
+    "RD_ALifeLine_4f9bcb812a896402": {
+      "tr": "Kımıldama! Orada kal!"
+    },
+    "RD_ALifeLine_2157954c07a8c77c": {
+      "tr": "Orada kal, güvenecek havada değilim"
+    },
+    "RD_ALifeLine_0f809f7c0e0a630a": {
+      "tr": "Yaklaşma, bu hafta iki kere üstüme ateş edildi"
+    },
+    "RD_ALifeLine_4fbeeb6d5aecaec4": {
+      "tr": "Mesafeni koru, anlaşırız"
+    },
+    "RD_ALifeLine_2d7ea5f93b0a5aaf": {
+      "tr": "Oradan da duyuyorum, orada kal"
+    },
+    "RD_ALifeLine_4bc819b23415619c": {
+      "tr": "Çekil, insanlardan hoşlanmam"
+    },
+    "RD_ALifeLine_05c3c6a0475390f0": {
+      "tr": "Dur, seni tanımıyorum ve tanımak da istemiyorum"
+    },
+    "RD_ALifeLine_055e1e7404c29a83": {
+      "tr": "Açıkta kal, görebileyim"
+    },
+    "RD_ALifeLine_5dbf898c3e461117": {
+      "tr": "Beni ayağa kaldırma, geri dur"
+    },
+    "RD_ALifeLine_7fd45bb92abbcbbe": {
+      "tr": "Yürümeye devam et yabancı, ters yöne"
+    },
+    "RD_ALifeLine_400da1e06d216108": {
+      "tr": "Geri dur, yanıma gelen son herif botlarımı çaldı"
+    },
+    "RD_ALifeLine_7e380d8e2d275ef3": {
+      "tr": "Dur, aramızda biraz yol kalsın"
+    },
+    "RD_ALifeLine_7ed41d292bc360da": {
+      "tr": "Buraya, yol kurdu! Bizden iyisin!"
+    },
+    "RD_ALifeLine_443e7bd50aeeab24": {
+      "tr": "Gel yanımıza, ısırmayız, yani seni ısırmayız"
+    },
+    "RD_ALifeLine_5c97d9930e454548": {
+      "tr": "Bağıran sen misin? Gel de bir şeyler iç!"
+    },
+    "RD_ALifeLine_2d4b67190cead34c": {
+      "tr": "Evet, duyduk! Gel, iyi adamlardansın!"
+    },
+    "RD_ALifeLine_7da1be6c475f8fa5": {
+      "tr": "Bağırmayı bırak da gel, ateş yakmışız"
+    },
+    "RD_ALifeLine_6380bfbc440a6c06": {
+      "tr": "Ekibin dostu! Buraya!"
+    },
+    "RD_ALifeLine_1c0dd6cd5104b56f": {
+      "tr": "Vay, kimler gelmiş! Getir kıçını buraya!"
+    },
+    "RD_ALifeLine_00afd41e5e0fe56c": {
+      "tr": "Buradayız! Sesini kıs yoksa ölüleri başımıza toplarsın!"
+    },
+    "RD_ALifeLine_16cde4356524807a": {
+      "tr": "Buraya! Nereye bastığına dikkat et!"
+    },
+    "RD_ALifeLine_7636894762886ade": {
+      "tr": "Gel içeri! Dostlara kimse ateş etmez, çoğunlukla"
+    },
+    "RD_ALifeLine_3b9bbed51c6eda6c": {
+      "tr": "Öyle bağırınca, bizim duymamız şansın"
+    },
+    "RD_ALifeLine_3177d31909ae24c7": {
+      "tr": "Bu yana! Adına bir kutu ılık fasulye ayırdık!"
+    },
+    "RD_ALifeLine_632a7eaa6eb746ff": {
+      "tr": "Buraya! Rahat ol, bizimle sorun yok!"
+    },
+    "RD_ALifeLine_4825ae6745413f1f": {
+      "tr": "Hey! Gel buraya, sorun yok, seni hatırlıyorum!"
+    },
+    "RD_ALifeLine_6c8437bd4e8395c8": {
+      "tr": "Sen misin? Gel gel, yerimiz var!"
+    },
+    "RD_ALifeLine_3f4f70e80c907910": {
+      "tr": "Evet duyduk! Şu şeyler gelmeden gel buraya!"
+    },
+    "RD_ALifeLine_01b9f54325b84968": {
+      "tr": "Herkes sakin, bu adam tamam!",
+      "not": "gerçek çoğul"
+    },
+    "RD_ALifeLine_3f5c06eb57ee41c3": {
+      "tr": "Buraya! Bıçaklamayız, söz!"
+    },
+    "RD_ALifeLine_278f0eee10f95071": {
+      "tr": "Gel! Çıktığımızdan beri ilk dost yüz!"
+    },
+    "RD_ALifeLine_11822d52099699b5": {
+      "tr": "Yo! Bu yana! Eğil!"
+    },
+    "RD_ALifeLine_064ddbde65fa61d0": {
+      "tr": "Gel buraya! Spades oynar mısın? Biz oynuyoruz!"
+    },
+    "RD_ALifeLine_694549493663bf81": {
+      "tr": "Gel içeri! Ani hareket yok yalnız, tedirginiz!",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Gruba ya da birden çok kişiye söyleniyor (\"tedirginiz\") ya da ek biz/iyelik biçimi; tek kişiye \"siz\" hitabı değil."
+      }
+    },
+    "RD_ALifeLine_3fa23263130804c9": {
+      "tr": "Tamam! Dostuz! Dost! Gel buraya!"
+    },
+    "RD_ALifeLine_50fdaf191d94920e": {
+      "tr": "Buraya yabancı, sorun yok"
+    },
+    "RD_ALifeLine_0c8d1fd53a4fab86": {
+      "tr": "Evet duydum, istersen gel biraz otur"
+    },
+    "RD_ALifeLine_3e7a6d4d7233b41e": {
+      "tr": "Gel, kahvemiz var, yani kahveyi hatırlayan sıcak su"
+    },
+    "RD_ALifeLine_3118d10c2e7e9fa3": {
+      "tr": "Buraya, ama sessiz, başım çatlıyor"
+    },
+    "RD_ALifeLine_4b76105601d1f0cb": {
+      "tr": "Gel, pek bir şey yok ama gölge var"
+    },
+    "RD_ALifeLine_2aea199e1dfd0731": {
+      "tr": "Geldin demek, geleceğini biliyordum, gel"
+    },
+    "RD_ALifeLine_13cd1be43bb3254b": {
+      "tr": "Buraya! Üstümüze koşma ama!"
+    },
+    "RD_ALifeLine_25fc2aa2278975f8": {
+      "tr": "Gel, her dost dosttur, benim de pek azı var"
+    },
+    "RD_ALifeLine_6726a4116000140c": {
+      "tr": "Gir içeri, bağırmayı dışarıda bırak"
+    },
+    "RD_ALifeLine_44b2080022dd9964": {
+      "tr": "Evet evet, görüyoruz, gel de sürü toplama"
+    },
+    "RD_ALifeLine_646171c7219ff799": {
+      "tr": "Gel içeri, soymam seni, bana çok benziyorsun"
+    },
+    "RD_ALifeLine_369cb6f72babec6c": {
+      "tr": "Sen misin? İyi, yoldan içeri gel"
+    },
+    "RD_ALifeLine_17b5ae9d01ee0fce": {
+      "tr": "Yabancılara bağırıp cevap vermem, hiç vermedim"
+    },
+    "RD_ALifeLine_76dee5f418f1ea49": {
+      "tr": "Duydunuz mu? Yemek zili, çocuklar",
+      "not": "gerçek çoğul",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Gruba ya da birden çok kişiye söyleniyor (\"Duydunuz\") ya da ek biz/iyelik biçimi; tek kişiye \"siz\" hitabı değil."
+      }
+    },
+    "RD_ALifeLine_3bd71e3270d25137": {
+      "tr": "Bir daha bağır, koca ağız, yerini bulmama yardım et"
+    },
+    "RD_ALifeLine_10f3cde87a45085b": {
+      "tr": "Birinin akşam yemeği kendini ilan ediyor"
+    },
+    "RD_ALifeLine_0f898ab96466aa53": {
+      "tr": "Buradayım. Bir daha söyle"
+    },
+    "RD_ALifeLine_188546ac23317155": {
+      "tr": "Biri bağırıyor, nedenini çok da umursamıyorum"
+    },
+    "RD_ALifeLine_4c9282964d5568cd": {
+      "tr": "Oh, duyduk seni! Gel buraya, yem!"
+    },
+    "RD_ALifeLine_60f525342cc5ca0a": {
+      "tr": "Bağırmaya devam et! Seni bulmayı kolaylaştırıyor!"
+    },
+    "RD_ALifeLine_75481f574eb5909b": {
+      "tr": "Şurada! Git al şunu!"
+    },
+    "RD_ALifeLine_75de91dc1bc64504": {
+      "tr": "Bağıracak ekibi yanlış seçtin!"
+    },
+    "RD_ALifeLine_2eb662973e7d1908": {
+      "tr": "Anneni çağır bakalım! Gelmeyecek!"
+    },
+    "RD_ALifeLine_11c3ad4b69b12be8": {
+      "tr": "Buldum seni! Çocuklar, taze et!",
+      "not": "gerçek çoğul"
+    },
+    "RD_ALifeLine_55f39a87299a5236": {
+      "tr": "Çıkaracağın son ses bu olacak!"
+    },
+    "RD_ALifeLine_01a606a668e127ff": {
+      "tr": "İlgi mi istiyorsun? Aldın!"
+    },
+    "RD_ALifeLine_218183f27a7a510c": {
+      "tr": "Koca hata, gürültücü!"
+    },
+    "RD_ALifeLine_0cdfc37c40ef0dec": {
+      "tr": "Duydunuz mu çocuklar? Yemek zili!",
+      "not": "gerçek çoğul",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Gruba ya da birden çok kişiye söyleniyor (\"Duydunuz\") ya da ek biz/iyelik biçimi; tek kişiye \"siz\" hitabı değil."
+      }
+    },
+    "RD_ALifeLine_10592744174c6769": {
+      "tr": "Oh, öldün artık!"
+    },
+    "RD_ALifeLine_27ba08d33e7c886a": {
+      "tr": "Daha yüksek bağır! Yüksek olanı sevdim!"
+    },
+    "RD_ALifeLine_303a35b439d0bddd": {
+      "tr": "Bizim yolda kimse bağıramaz! Öldür şunları!"
+    },
+    "RD_ALifeLine_20feb2182589dfe0": {
+      "tr": "İşte oradalar! Yakala şunları!"
+    },
+    "RD_ALifeLine_248bcf12312d4f8e": {
+      "tr": "Bağırmamalıydın! Şimdi benimsin!"
+    },
+    "RD_ALifeLine_029b43870294fcf0": {
+      "tr": "Gardiyan! Bir gardiyan! Öldür şunu!"
+    },
+    "RD_ALifeLine_2a04adf6438fd103": {
+      "tr": "Duydum seni! Duydum! Geliyorum!"
+    },
+    "RD_ALifeLine_03f9ba885d33422c": {
+      "tr": "Büyük ağız, kısa ömür!"
+    },
+    "RD_ALifeLine_085722611d7b137e": {
+      "tr": "Birazdan çok daha fazla bağıracaksın!"
+    },
+    "RD_ALifeLine_60ab197b297f21b1": {
+      "tr": "Kimse beni bir daha kilitleyemez! Yakala şunları!"
+    },
+    "RD_ALifeLine_2fe43ad72e6e8ab4": {
+      "tr": "Bu herif dert istiyor! Dert geldi!"
+    },
+    "RD_ALifeLine_224618352407abdc": {
+      "tr": "Buldum seni! Hahaha, buldum!"
+    },
+    "RD_ALifeLine_72f6ea377b34cacd": {
+      "tr": "O ağzı sonsuza kadar kapat!"
+    },
+    "RD_ALifeLine_098cd9d24affd213": {
+      "tr": "Orada! Saldır! Saldır!"
+    },
+    "RD_ALifeLine_1fbe8afc0def4ac2": {
+      "tr": "On iki yıl bekledim, ve işte buradasın!"
+    },
+    "RD_ALifeLine_107e150d030211f5": {
+      "tr": "Yine sen, tamam, bitirelim şu işi"
+    },
+    "RD_ALifeLine_77b5b2826e1fe844": {
+      "tr": "Duydum seni, duymamalıydım"
+    },
+    "RD_ALifeLine_6aef65b45c7cd86a": {
+      "tr": "İşte, vur"
+    },
+    "RD_ALifeLine_54f8de651baff23e": {
+      "tr": "Susmayı hiç öğrenmedin, değil mi?"
+    },
+    "RD_ALifeLine_5c4f544009c9d05c": {
+      "tr": "Yorgunum ama o kadar da değil, hallet şunları"
+    },
+    "RD_ALifeLine_452cdcbb53e44524": {
+      "tr": "Bana bağırmak, yaptığın son hata"
+    },
+    "RD_ALifeLine_3e921fea4ba5ddc9": {
+      "tr": "Şurada, kaçmalarına izin verme"
+    },
+    "RD_ALifeLine_362a2a6108a5230d": {
+      "tr": "Yoluna devam etmeliydin"
+    },
+    "RD_ALifeLine_652cb8e42ebb0280": {
+      "tr": "Tamam, istiyorsan al"
+    },
+    "RD_ALifeLine_0e156ab138d824f2": {
+      "tr": "Kahrolası aptal, ateş et"
+    },
+    "RD_ALifeLine_1eff90e953b2b687": {
+      "tr": "Senin gibileri uyardım, kimse dinlemiyor"
+    },
+    "RD_ALifeLine_1e32907b7f0f0ac1": {
+      "tr": "Eh, bizi buldun, keşke bulmasaydın"
+    },
+    "RD_ALifeLine_2c74c5d878315a16": {
+      "tr": "Evet? Kim bağırıyor?"
+    },
+    "RD_ALifeLine_7a66747471fee9a7": {
+      "tr": "Duyduk, ne iş, söyle"
+    },
+    "RD_ALifeLine_62f4f5633a9f9787": {
+      "tr": "Ne istiyorsun, çıkar ağzındakini"
+    },
+    "RD_ALifeLine_3b797ff6212e9148": {
+      "tr": "Birinin ağzı büyük, ne var?"
+    },
+    "RD_ALifeLine_5301137811a8958d": {
+      "tr": "Bize mi bağırıyorsun? Diyeceğini de"
+    },
+    "RD_ALifeLine_20b7e66e730245b5": {
+      "tr": "Buradayız, konuş"
+    },
+    "RD_ALifeLine_0764dbd83b937b08": {
+      "tr": "Kim o? Dost mu dert mi?"
+    },
+    "RD_ALifeLine_34d7bbaa03fd632d": {
+      "tr": "Sakin ol dahi, ne var?"
+    },
+    "RD_ALifeLine_73d0c1b05269ef7d": {
+      "tr": "Kulaklarımız var, bağırma niye?"
+    },
+    "RD_ALifeLine_57dbbebe0c131a32": {
+      "tr": "Konuş o zaman, bütün günümüz yok"
+    },
+    "RD_ALifeLine_01ab21fe05e70097": {
+      "tr": "Gürültücüsün ha? Devam et"
+    },
+    "RD_ALifeLine_6c139ce7188ef7ae": {
+      "tr": "Ne istiyorsun yabancı?"
+    },
+    "RD_ALifeLine_3284566e6de60113": {
+      "tr": "Bizim gibi bir ekibe bağırmak, cesaret mi aptallık mı, hangisi?"
+    },
+    "RD_ALifeLine_32eab6de433af70e": {
+      "tr": "Kim o? Ne istiyorsun?"
+    },
+    "RD_ALifeLine_4d9df64665431bfe": {
+      "tr": "Evet? Ne? Ne var?"
+    },
+    "RD_ALifeLine_41f8391a50539f99": {
+      "tr": "Duyuyoruz, kimsin?"
+    },
+    "RD_ALifeLine_57d6715547784914": {
+      "tr": "Bizimle mi konuşuyorsun? Ne?"
+    },
+    "RD_ALifeLine_3610e46a707a4af9": {
+      "tr": "Kim soruyor? Gardiyan değilsin, değil mi?"
+    },
+    "RD_ALifeLine_30ead17f260084ef": {
+      "tr": "Söyle, ne istiyorsan söyle"
+    },
+    "RD_ALifeLine_0834d1a84a5cfc24": {
+      "tr": "Evet evet duyduk! Ne?!"
+    },
+    "RD_ALifeLine_0de782207d159394": {
+      "tr": "Bu gürültü niye? Peşinde biri mi var?"
+    },
+    "RD_ALifeLine_491b279b3a7d1070": {
+      "tr": "Konuş, yalan söyleme, anlarım"
+    },
+    "RD_ALifeLine_3f23c5356f5a180a": {
+      "tr": "Evet buradayız, e yani?"
+    },
+    "RD_ALifeLine_1bb394fb3393162c": {
+      "tr": "Oradan konuşmaya devam et"
+    },
+    "RD_ALifeLine_587b00d616bba93d": {
+      "tr": "Evet, duydum, ne istiyorsun?"
+    },
+    "RD_ALifeLine_7ba6867b172c708a": {
+      "tr": "Söyle, tahmin edecek halim yok"
+    },
+    "RD_ALifeLine_376ffb4a7bef3cea": {
+      "tr": "Kim bağırıyor orada? Konuş"
+    },
+    "RD_ALifeLine_7ca5b0d256149818": {
+      "tr": "Bir şeye mi ihtiyacın var, yoksa bağırmayı mı seviyorsun?"
+    },
+    "RD_ALifeLine_2789d11332d6a131": {
+      "tr": "Konuş, bir dakika dinlerim"
+    },
+    "RD_ALifeLine_7390f10a07eefb0e": {
+      "tr": "Sorun ne?"
+    },
+    "RD_ALifeLine_1f3e7ea272b8947d": {
+      "tr": "Misafir aramıyoruz ama devam et"
+    },
+    "RD_ALifeLine_3584a4695def5581": {
+      "tr": "Biri çok gürültülü, e?"
+    },
+    "RD_ALifeLine_4b38a27b43f88aa7": {
+      "tr": "Ordu geliyor diyeceksen duymak istemiyorum"
+    },
+    "RD_ALifeLine_4bd1a7ab6e60b454": {
+      "tr": "Söyleyeceğini söyle, sonra yoluna bak"
+    },
+    "RD_ALifeLine_336e3a9432e7b0bc": {
+      "tr": "Evet buradayız, Allah bilir niye, ne var?"
+    },
+    "RD_ALifeLine_459380363a939117": {
+      "tr": "Dikkat, canlı biri var! Hey! Kımıldama!"
+    },
+    "RD_ALifeLine_0baee8e76ab2c254": {
+      "tr": "Dışarıda biri var! Gardiyan olabilir! Yok, değil, hey sen, kımıldama!"
+    },
+    "RD_ALifeLine_6d6ed3fb39cc6149": {
+      "tr": "Hey! Seninle konuşacağım! Yürümeyi bırak!"
+    },
+    "RD_ALifeLine_28f8047e25f68496": {
+      "tr": "Kimse beni bir daha kilitleyemez! Sen! Kımıldama, Allah şahidim olsun!"
+    },
+    "RD_ALifeLine_640418511d4ac05b": {
+      "tr": "Burada biri var! Durdur şunu. Konuşacağım!"
+    },
+    "RD_ALifeLine_7070a8782dc29a1f": {
+      "tr": "Gözünüz açık olsun, biri sınırımızda, hey! Olduğun yerde dur!",
+      "not": "gerçek çoğul",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Gruba ya da birden çok kişiye söyleniyor (\"Gözünüz\") ya da ek biz/iyelik biçimi; tek kişiye \"siz\" hitabı değil."
+      }
+    },
+    "RD_ALifeLine_442a4f587715c15c": {
+      "tr": "Maaş günü bize doğru geliyor çocuklar! Hey, dur!",
+      "not": "gerçek çoğul"
+    },
+    "RD_ALifeLine_195f13af011ef31a": {
+      "tr": "Dur, orada biri var, sen! Dur, ellerin dışarıda olsun"
+    },
+    "RD_ALifeLine_36f189d56c53bc23": {
+      "tr": "Dışarıda biri var, ölü de değil! Yakala!"
+    },
+    "RD_ALifeLine_670cbe970fc11682": {
+      "tr": "Şunun botlarına bak! Hey! Dur, bir giyip bakacağım!"
+    },
+    "RD_ALifeLine_06bc76d22dedf9c4": {
+      "tr": "Dışarıda bir şey kıpırdıyor, ışığı daha yakma, yaklaşsın"
+    },
+    "RD_ALifeLine_327acc133051e618": {
+      "tr": "Bot sesi duydum, bot, onlar değil, onlar ayak sürüyerek yürür, hey! Dur!"
+    },
+    "RD_ALifeLine_4502821648e6fa50": {
+      "tr": "Dur! Bu gece zaten bir şeyi öldürdük! İkincisi sen olma!"
+    },
+    "RD_ALifeLine_365a196842bab9a8": {
+      "tr": "Koşma, geceleyin burada koşarsan onlara çarparsın, dur!"
+    },
+    "RD_ALifeLine_274ea05838822c51": {
+      "tr": "Ooh, gece kuşu, gel buraya gece kuşu, HEY! Dur!"
+    },
+    "RD_ALifeLine_3dcb0487231108e9": {
+      "tr": "Kim o?! Kımıldama! Bir şey söyle ya da kımıldama!"
+    },
+    "RD_ALifeLine_428597ba6e4de042": {
+      "tr": "Dur, elimde fener var ve kullanmaktan korkmam, orada kal"
+    },
+    "RD_ALifeLine_2ee7cddd2d54ea34": {
+      "tr": "Yürümeyi bırak, gözlerim kötü ama kulaklarım gayet iyi"
+    },
+    "RD_ALifeLine_2baaa2f7230af8bf": {
+      "tr": "Dışarıda bizimle birisi var! Hey! Çık da göreyim!"
+    },
+    "RD_ALifeLine_3535c04e6fbd3f81": {
+      "tr": "DUR! Nereye gittiğini sanıyorsun?"
+    },
+    "RD_ALifeLine_1efc3ea07cd403b2": {
+      "tr": "Güneşin altında maaş günü çocuklar! Sen! DUR!",
+      "not": "gerçek çoğul"
+    },
+    "RD_ALifeLine_0a24ffd36cb5f78e": {
+      "tr": "Gün ışığı! Sekiz yıl oldu, sonunda bunu gün ışığında yapabiliyorum! KIMILDAMA!"
+    },
+    "RD_ALifeLine_19d8c8334face95a": {
+      "tr": "Sen! Evet! Seni iyi görüyorum! Kımıldama!"
+    },
+    "RD_ALifeLine_1d3b2709033ecc95": {
+      "tr": "Dur orada, ışık iyi, hepinizi görüyorum",
+      "not": "gerçek çoğul"
+    },
+    "RD_ALifeLine_5bc9b0ca5be1cec7": {
+      "tr": "Dur, bunu gün ışığında yapmayı severim, hata az olur"
+    },
+    "RD_ALifeLine_796c0f2f5b251721": {
+      "tr": "Senin gibi bakan adamlarla altı yıl yattım, artık hiçbiri bakmıyor"
+    },
+    "RD_ALifeLine_5ffe0905295aea8b": {
+      "tr": "Peşimden gelmeye devam et, bakalım sonu nasıl olacak"
+    },
+    "RD_ALifeLine_08a6fa71205c9e63": {
+      "tr": "Bakmaya devam et, ben göz toplarım, sor etrafa"
+    },
+    "RD_ALifeLine_1218378506fa5f17": {
+      "tr": "Neye bakıyorsun?"
+    },
+    "RD_ALifeLine_3f1f3a474e0b134d": {
+      "tr": "Fotoğrafını çek, daha uzun sürer"
+    },
+    "RD_ALifeLine_4523aaf744f66743": {
+      "tr": "Botların hoşuma gitti, alabilirim"
+    },
+    "RD_ALifeLine_345b99ff5dd81d65": {
+      "tr": "Neye bakıyorsun?"
+    },
+    "RD_ALifeLine_4005b43953651bb3": {
+      "tr": "Dön, yürü, hemen"
+    },
+    "RD_ALifeLine_365c07036b2aee21": {
+      "tr": "Yemek sadaka değil. Defol"
+    },
+    "RD_ALifeLine_2cc3d0cd21a0db60": {
+      "tr": "Yemek mi istiyorsun, kilerli ölü bir adam bul"
+    },
+    "RD_ALifeLine_799235763d7e34ab": {
+      "tr": "Hah, seni seven birine sor, biz aldığımızı yeriz"
+    },
+    "RD_ALifeLine_7446ad37602921a4": {
+      "tr": "Yemek mi? Seni kahvaltı etmeden yürü bakalım"
+    },
+    "RD_ALifeLine_5117f27959d6ef24": {
+      "tr": "Yemek mi? Ha, kapılar açılalı beri doğru dürüst yemedim"
+    },
+    "RD_ALifeLine_7ddaacac0b586b23": {
+      "tr": "Sana verecek yemeğim yok, sorun mu var?"
+    },
+    "RD_ALifeLine_3224452c31cf57ae": {
+      "tr": "Sargı mı? Tabii, başkasının verandasında kanasın"
+    },
+    "RD_ALifeLine_50b9e71f22b9eb22": {
+      "tr": "Yaralı mısın? Benim sorunum değil"
+    },
+    "RD_ALifeLine_32d109c66a54f49a": {
+      "tr": "Kendin bul. Suyumu paylaşmam"
+    },
+    "RD_ALifeLine_41d77907675e228c": {
+      "tr": "İstesem at yalağından bile içersin, bugün değil"
+    },
+    "RD_ALifeLine_162403b9786b7053": {
+      "tr": "Su paralı. Bedavaya vermem"
+    },
+    "RD_ALifeLine_34ce8eea31b2e937": {
+      "tr": "Yok. Susuzluğun ne olduğunu bilirim. Kendime bakıyorum"
+    },
+    "RD_ALifeLine_76c4bb692c08da21": {
+      "tr": "Kelepçele, lanet olsun, umurumda değil, yeter ki ateş etmeyi bırak"
+    },
+    "RD_ALifeLine_59d2a61943b62ce3": {
+      "tr": "Buradan çıktım diye sorularına cevap verirken ölmek için çıkmadım!"
+    },
+    "RD_ALifeLine_144ea2dc1b377247": {
+      "tr": "Bir daha söyle, bu sefer ağzını aç"
+    },
+    "RD_ALifeLine_2008e8b42d0452a3": {
+      "tr": "Ne dedin? Botlarına bakıyordum"
+    },
+    "RD_ALifeLine_419251ae53c6e2ee": {
+      "tr": "Ne? Yüksek söyle, yem"
+    },
+    "RD_ALifeLine_09a131ce5de1ead4": {
+      "tr": "Hı? Bir daha söyle, yüksek, bir şey demek ister gibi"
+    },
+    "RD_ALifeLine_039ef5675d95f88a": {
+      "tr": "Bir daha söyle, insanları tahmin etmeyi haziranda bıraktım"
+    },
+    "RD_ALifeLine_406c9d69244f3f1f": {
+      "tr": "Bir domuzdan daha akıllı sesler duydum"
+    },
+    "RD_ALifeLine_5105c174139cd040": {
+      "tr": "Hala olmadı, benim bildiğim bir kelime kullan"
+    },
+    "RD_ALifeLine_7e942a030c5c6371": {
+      "tr": "Hala ses çıkarıyorsun, ben hala kelime duymuyorum"
+    },
+    "RD_ALifeLine_6f366f7a72b29dbf": {
+      "tr": "Tekrar dene, bu sefer boğazını kullan"
+    },
+    "RD_ALifeLine_0cbb51f70e2de9b0": {
+      "tr": "Bir gardiyana söyler gibi söyle, kısa ve net"
+    },
+    "RD_ALifeLine_70cf03cd0ab2a207": {
+      "tr": "İkinci vuruş, topu ıskalıyorsun"
+    },
+    "RD_ALifeLine_31fe6b376e64b477": {
+      "tr": "Tek hece, sende bir tane var mı?"
+    },
+    "RD_ALifeLine_530ce6b55a1a0190": {
+      "tr": "Dilini mi yuttun? Cevap lazım"
+    },
+    "RD_ALifeLine_50e56af64b2ca61f": {
+      "tr": "Evet mi hayır mı, yem, ben seçmeden!"
+    },
+    "RD_ALifeLine_41b039522b4d9c0c": {
+      "tr": "Tek kelime! TEK! Evet! Ya! Da! Hayır!"
+    },
+    "RD_ALifeLine_002d8a984f600fd9": {
+      "tr": "EVET ya da HAYIR! İçimde sabır kalmadı!"
+    },
+    "RD_ALifeLine_140c83781dc27466": {
+      "tr": "Evet de, hayır de, umursamayı bırakmadan birini de"
+    },
+    "RD_ALifeLine_10dd84d86fe995da": {
+      "tr": "Yaşlıyım ve güneş batıyor, evet mi hayır mı?"
+    },
+    "RD_ALifeLine_61e301710920116f": {
+      "tr": "Hadi git, sonra lazım olabilecek havayı tüketiyorsun"
+    },
+    "RD_ALifeLine_7dcca6e84916c89f": {
+      "tr": "Defol, başımı ağrıttın"
+    },
+    "RD_ALifeLine_263d3c5e2800c42b": {
+      "tr": "Seninle işim bitti, kaybol, yoksa sana bir iş bulurum"
+    },
+    "RD_ALifeLine_590d170904c3115d": {
+      "tr": "Konuşma bitti. Fikrimi değiştirmeden git"
+    },
+    "RD_ALifeLine_6d53fadf27413543": {
+      "tr": "Bu kadar, git, içerideyken en çok bundan bıktım, konuşmaktan"
+    },
+    "RD_ALifeLine_2b290014580bf184": {
+      "tr": "Bitti, git, hava kararmadan"
+    },
+    "RD_ALifeLine_6a287f1e7e1c683a": {
+      "tr": "Yemekle konuşmam"
+    },
+    "RD_ALifeLine_2de43e1b68a1b5c8": {
+      "tr": "Hey, konuşuyor! Çocuklar, dinleyin şunu!",
+      "not": "gerçek çoğul"
+    },
+    "RD_ALifeLine_514953a77f21a0fb": {
+      "tr": "Çene çal sen, ben nereye sıkacağıma karar vereyim"
+    },
+    "RD_ALifeLine_3757cda42512cd50": {
+      "tr": "Senden istemediğim tek şey sesin"
+    },
+    "RD_ALifeLine_1abc776056495575": {
+      "tr": "Yere konuş, gittiğin yer orası"
+    },
+    "RD_ALifeLine_0b8b89ee61c06141": {
+      "tr": "O ağız, sende hala çalışan tek yer"
+    },
+    "RD_ALifeLine_4930203f58d7bded": {
+      "tr": "Konuşmaya devam et, anlatıcı adamı severim"
+    },
+    "RD_ALifeLine_46e53406392c3a86": {
+      "tr": "Bir kamu avukatından daha iyi konuşma dinlemişim"
+    },
+    "RD_ALifeLine_54eff39502955be9": {
+      "tr": "Sözler bana sekiz yıl yedirdi, sözlerden vazgeçtim"
+    },
+    "RD_ALifeLine_66d5489019582a9b": {
+      "tr": "Bana bu kadar uzun konuşan son adam hala avluda, altında"
+    },
+    "RD_ALifeLine_74b51eea316f860e": {
+      "tr": "Şşş, şşş, tamam, daha iyi geldi değil mi?"
+    },
+    "RD_ALifeLine_6bd278365e7f629d": {
+      "tr": "Devam et, ailenle ilgili olanı anlat, onu bayılırım"
+    },
+    "RD_ALifeLine_4d421bbf1f05eaac": {
+      "tr": "Her kelime, kaçarken sana verdiğim bir adım avantajdan götürüyor"
+    },
+    "RD_ALifeLine_588df4b87a93e7e4": {
+      "tr": "Dinleme havamda değilim, senin de şanslı olduğun yok"
+    },
+    "RD_ALifeLine_4c62741276be1fa0": {
+      "tr": "Şşş, dinle"
+    },
+    "RD_ALifeLine_65d6b88c1ca20a33": {
+      "tr": "Gürültülü nefes alan olursa vururum"
+    },
+    "RD_ALifeLine_3df71abc75660629": {
+      "tr": "Kımıldama... bir de nefesini kıs"
+    },
+    "RD_ALifeLine_1ec24e7511da3dcc": {
+      "tr": "Avludan çıktın ama hala kaçacak yerin yok!"
+    },
+    "RD_ALifeLine_7f9af89b0095068b": {
+      "tr": "Tutukluğu gider, gider şunu, öyle dikilme"
+    },
+    "RD_ALifeLine_17e929d42dabe9db": {
+      "tr": "Olamaz, olamaz, ateş etmiyor, ne yapacağım?"
+    },
+    "RD_ALifeLine_6cb20bc318b8536d": {
+      "tr": "Şu salak şey tıkandı kaldı"
+    },
+    "RD_ALifeLine_613b690674ef11ed": {
+      "tr": "Şunu ekibimden uzaklaştır, ŞİMDİ, öldür, öldür!"
+    },
+    "RD_ALifeLine_0e3e606d57769f39": {
+      "tr": "Şunu üstümden al yoksa ikinizi de vururum"
+    },
+    "RD_ALifeLine_1deabf672f7ba68b": {
+      "tr": "Biri şuna bir çare bulsun, suratıma geldi, KAHRETSİN"
+    },
+    "RD_ALifeLine_5338abe5042be87e": {
+      "tr": "Çekil, çekil, daha yeni çıktım, ÇEKİL ÜSTÜMDEN!"
+    },
+    "RD_ALifeLine_628c56e96f27774b": {
+      "tr": "Hayır, hayır, olmaz, cezamı çektim, bırakın beni!"
+    },
+    "RD_ALifeLine_2118ec5a381ce257": {
+      "tr": "Geri, geri, ben... yok, sus, GERİ"
+    },
+    "RD_ALifeLine_737477d96e4cf6f6": {
+      "tr": "Uzak dur, ölü piç, UZAK DUR!"
+    },
+    "RD_ALifeLine_0da40e4f2b264ba1": {
+      "tr": "Yaklaşma lan, pis orospu çocuğu, yaklaşma!"
+    },
+    "RD_ALifeLine_1ed34d71546d2ba2": {
+      "tr": "Çok yakın, çok yakın, nişan alamıyorum!"
+    }
+  }
+}

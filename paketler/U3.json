@@ -1,0 +1,913 @@
+{
+    "_paket": "U3 — IG_UI: Konuşma sistemi",
+    "_dosya": "IG_UI",
+    "satirlar": {
+        "IGUI_ALifeUI_41816d621ba54f96": {
+            "tr": "Kişisel"
+        },
+        "IGUI_ALifeUI_0e6425af6c046394": {
+            "tr": "Dünya"
+        },
+        "IGUI_ALifeUI_510863b821fd69ba": {
+            "tr": "Malzemeler"
+        },
+        "IGUI_ALifeUI_757c8afd15806cf3": {
+            "tr": "(soruldu)",
+            "not": "G \"(istedi)\" yanlış: soru zaten sorulmuş işareti."
+        },
+        "IGUI_ALifeUI_0b10e38232da3a99": {
+            "tr": "(yeni)"
+        },
+        "IGUI_ALifeUI_0de4820e296da948": {
+            "tr": "(sonra)"
+        },
+        "IGUI_ALifeUI_263b56a567c167cf": {
+            "tr": "(istediği)",
+            "not": "G \"(istenen)\" → NPC'nin istediği eşya."
+        },
+        "IGUI_ALifeUI_19a6e93a1372aec7": {
+            "tr": "Dost - seninle konuşmaktan memnun",
+            "not": "Tutum etiketi: Dost / Tarafsız / Temkinli / Düşman (sözlük)."
+        },
+        "IGUI_ALifeUI_2cfa34687ba79ccb": {
+            "tr": "Tarafsız - seni dinler"
+        },
+        "IGUI_ALifeUI_74fe090b4b415bdf": {
+            "tr": "Temkinli - mesafeni korumanı istiyor"
+        },
+        "IGUI_ALifeUI_056293402df9b191": {
+            "tr": "Düşman - konuşacak havada değil",
+            "not": "G \"Düşmanca\" → \"Düşman\" (sözlük: tutum etiketi)."
+        },
+        "IGUI_ALifeUI_3598c5704263030f": {
+            "tr": "Seni tartıyor..."
+        },
+        "IGUI_ALifeUI_0e4ec6d659a91d31": {
+            "tr": "Ziyaret"
+        },
+        "IGUI_ALifeUI_7c8cca535d3b8d7f": {
+            "tr": "Konuş"
+        },
+        "IGUI_ALifeUI_0b87d6a4172a6a7f": {
+            "tr": "Sor"
+        },
+        "IGUI_ALifeUI_7c892ffa5c4f1bcc": {
+            "tr": "Devamı",
+            "not": "G \"Daha fazla\" → \"Devamı\" (aynı düğmenin sayfalı hâli eski çeviride \"Devamı\")."
+        },
+        "IGUI_ALifeUI_0d9755542992177e": {
+            "tr": "Ayrıl"
+        },
+        "IGUI_ALifeUI_3c83daef3a29f4bd": {
+            "tr": "{name} ile konuşuyorsun"
+        },
+        "IGUI_ALifeUI_2cd6dc4354287a44": {
+            "tr": "Bir yabancıyla konuşuyorsun"
+        },
+        "IGUI_ALifeUI_26226a6e4b89e6e4": {
+            "tr": "Cevap bekleniyor..."
+        },
+        "IGUI_ALifeUI_72776b3323643a58": {
+            "tr": "Sana bir şey sordu. Bir cevap seç.",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_18c8de35380246b7": {
+            "tr": "Başka bir şeyi sesli söylemek için sohbet tuşuna bas."
+        },
+        "IGUI_ALifeUI_30ab4a8e65d86a50": {
+            "tr": "Buraya alışabildin mi?"
+        },
+        "IGUI_ALifeUI_0317597812d60a8d": {
+            "tr": "Ne kadar kalacaksın?"
+        },
+        "IGUI_ALifeUI_27f7d6f90c46f3a5": {
+            "tr": "Yanında başka biri var mı?"
+        },
+        "IGUI_ALifeUI_18887b8758a0b3ab": {
+            "tr": "Yaralı mısın? Isırık var mı?"
+        },
+        "IGUI_ALifeUI_2b4200b0299d73e3": {
+            "tr": "İptal"
+        },
+        "IGUI_ALifeUI_1261ce8c036cde6e": {
+            "tr": "Devamı  /  {page} / {count}"
+        },
+        "IGUI_ALifeUI_7a93e8d56fab5a40": {
+            "tr": "Evet... İdare ediyorum işte."
+        },
+        "IGUI_ALifeUI_2844fcb67eaaa8eb": {
+            "tr": "Yok. Pek sayılmaz."
+        },
+        "IGUI_ALifeUI_3886b6da45febf29": {
+            "tr": "Grubuyla birlikte yolculuk etmeyi teklif et; bu onları ekibine katmaz ve onlara emir vermeni sağlamaz."
+        },
+        "IGUI_ALifeUI_6bca14f84fe4844a": {
+            "tr": "Bunu az önce sordun. Yine sorarsan canı sıkılır.",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_28570c020a1017e7": {
+            "tr": "Pek tanımadığı birinden bunu iyi karşılamayabilir.",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_0b883c421730b155": {
+            "tr": "Sen"
+        },
+        "IGUI_ALifeUI_764929051448cb89": {
+            "tr": "Konuşma sistemi yüklenmedi. Modu güncelledikten sonra oyunu yeniden başlat.",
+            "not": "K7/K21: eski \"başlatın\" → \"başlat\"; \"diyalog\" → \"konuşma\" (S4'teki gibi)."
+        },
+        "IGUI_ALifeUI_729f0bbd7c1ccbec": {
+            "tr": "Henüz bir cevap yok. Tekrar deneyebilirsin."
+        },
+        "IGUI_ALifeUI_3c1705ff71af928a": {
+            "tr": "Aynı katta ve en fazla altı kare mesafede olmalısın."
+        },
+        "IGUI_ALifeUI_6250b51a306af4ca": {
+            "tr": "Önce duvarın aynı tarafına geçmelisin."
+        },
+        "IGUI_ALifeUI_73043e3746cbfd1f": {
+            "tr": "Sana karşı düşmanca davranıyor. Şu an konuşmanın sırası değil."
+        },
+        "IGUI_ALifeUI_323e549d5d16149d": {
+            "tr": "Şu an çatışıyor. Ortalık sakinleşince tekrar dene."
+        },
+        "IGUI_ALifeUI_353bbe877b414df4": {
+            "tr": "Birlikte yola çıkacak kadar sana güvenmiyor."
+        },
+        "IGUI_ALifeUI_089e6ab9014e1564": {
+            "tr": "Sana evet ya da hayır diye yanıtlayacağın bir soru sormadı."
+        },
+        "IGUI_ALifeUI_056822905f07bfef": {
+            "tr": "Bir saniye bekle."
+        },
+        "IGUI_ALifeUI_65d497245978abdb": {
+            "tr": "Şu an söyleyecek başka bir şeyi yok."
+        },
+        "IGUI_ALifeUI_1c2ea6c13a7971fa": {
+            "tr": "Bu sunucuda NPC sohbetleri kapalı.",
+            "not": "K21: \"diyalogları devre dışı bırakılmış\" → \"sohbetleri kapalı\" (S4'teki terim, daha kısa)."
+        },
+        "IGUI_ALifeUI_30ec0ed337dd3add": {
+            "tr": "Bu kişiyle artık konuşulamıyor."
+        },
+        "IGUI_ALifeUI_0daa7a56647159b7": {
+            "tr": "Konuşma sona erdi."
+        },
+        "IGUI_ALifeUI_2d1f8cb60b73fad7": {
+            "tr": "Ellerini indirdi.",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_4f2e31e64c64128d": {
+            "tr": "Konuşmayı bitirdi.",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_4c4b6332761429d1": {
+            "tr": "Şu an konuşmak istemiyor.",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_0b10e94a3d3285e3": {
+            "tr": "Şu an kapında ya da pencerende değil. Biraz yaklaş.",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_1d1a27590b318186": {
+            "tr": "Önce ona yaklaş, üç kare kadar."
+        },
+        "IGUI_ALifeUI_1c8558f6792e62ad": {
+            "tr": "Önce kapıya geç."
+        },
+        "IGUI_ALifeUI_63c13382717b786d": {
+            "tr": "Önce kapıyı aç."
+        },
+        "IGUI_ALifeUI_64663ace05d275b1": {
+            "tr": "Şu an kapıya gelemiyor.",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_26e1d7ab3978b632": {
+            "tr": "Alacağı bir yiyeceğin yok: çürük de olmaz, çiğ de."
+        },
+        "IGUI_ALifeUI_6fbbdb2562ad081f": {
+            "tr": "Verebileceğin bandaj ya da dezenfektan yok."
+        },
+        "IGUI_ALifeUI_19a6d8123818ce46": {
+            "tr": "Bu listenin süresi doldu. Vereceğin şeyi yeniden seç."
+        },
+        "IGUI_ALifeUI_075b0ff659581a16": {
+            "tr": "Bu eşya artık yok. Vereceğin şeyi yeniden seç."
+        },
+        "IGUI_ALifeUI_652f900127552c7e": {
+            "tr": "Eşya listesi şu an açılamıyor."
+        },
+        "IGUI_ALifeUI_3093142b6aa6cfe3": {
+            "tr": "Vermek için bir yiyecek seç"
+        },
+        "IGUI_ALifeUI_3eaac656674ef948": {
+            "tr": "Vermek için bir tıbbi malzeme seç"
+        },
+        "IGUI_ALifeUI_754b25dc4ff0a9b4": {
+            "tr": "Ödünç vereceğin aleti seç"
+        },
+        "IGUI_ALifeUI_0953133d45d6a62f": {
+            "tr": "Yiyecek istemedi.",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_1e80526265f98034": {
+            "tr": "Yaraları zaten sarılmış."
+        },
+        "IGUI_ALifeUI_443f23ec2584d057": {
+            "tr": "Şu an takas edecek bir şeyi yok.",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_1acc3f01781054b5": {
+            "tr": "Elinde ondan yeterince yok."
+        },
+        "IGUI_ALifeUI_125a0a46385ef0bd": {
+            "tr": "Takas edecek kadar sana güvenmiyor.",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_379428c60c036038": {
+            "tr": "Önce ortadaki teklifi bitir."
+        },
+        "IGUI_ALifeUI_14a83ae07731a264": {
+            "tr": "Önce elinde ne olduğunu sor."
+        },
+        "IGUI_ALifeUI_350c2509093d0565": {
+            "tr": "Üstü hâlâ aranıyor."
+        },
+        "IGUI_ALifeUI_381bf0085c450d84": {
+            "tr": "Üstünü aramayı zaten istedin."
+        },
+        "IGUI_ALifeUI_21155cc04c27d482": {
+            "tr": "Üstündekilere bakılamadı. Tekrar dene."
+        },
+        "IGUI_ALifeUI_5903896c6cc5aa68": {
+            "tr": "Cevap verecek kimse evde yok."
+        },
+        "IGUI_ALifeUI_24da1abc28631c8d": {
+            "tr": "Şu an böyle bir seçenek yok."
+        },
+        "IGUI_ALifeUI_5b8152247b7fe28b": {
+            "tr": "Envanterde bir sorun var. Tekrar dene."
+        },
+        "IGUI_ALifeUI_215eb9da11164624": {
+            "tr": "Şu an cevap vermiyor."
+        },
+        "IGUI_ALifeUI_30a2760054571e48": {
+            "tr": "Bunu şu an yapamadı, tekrar dene",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_67ef2b5c357243b9": {
+            "tr": "Şu an ekleyecek bir şeyi yok",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_21099d250b10e6d9": {
+            "tr": "Ne dediğini anlamadı",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_40694abc7aa513dc": {
+            "tr": "Buraya henüz kimse uğramıyor"
+        },
+        "IGUI_ALifeUI_713f44ec37135336": {
+            "tr": "Bu evi tanımıyor gibi",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_12fb8f6d5b16630e": {
+            "tr": "Şu an kapıya gelen yok"
+        },
+        "IGUI_ALifeUI_3f04c6da248ea8f5": {
+            "tr": "Bunu yalnızca sunucu halledebilir",
+            "not": "G \"ev sahibi\" yanlış: kodda client/server yetkisi; host = sunucu."
+        },
+        "IGUI_ALifeUI_0c1f97153365b085": {
+            "tr": "Burada blöf yapacak bir şey yok"
+        },
+        "IGUI_ALifeUI_4905400732a92b55": {
+            "tr": "Çağrı işareti yok",
+            "not": "callsign → \"çağrı işareti\" (telsiz terimi); G \"çağrı kodu\"."
+        },
+        "IGUI_ALifeUI_0c47040b6d1ddfbd": {
+            "tr": "Bunu sana henüz sormadı",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_138ecabd7bd7054d": {
+            "tr": "Bir saniye bekle",
+            "not": "Eski çevirideki \"Give them a second.\" ile aynı."
+        },
+        "IGUI_ALifeUI_00cc34e50d96065a": {
+            "tr": "Konuşmak için kapı seçeneklerinden birini seç"
+        },
+        "IGUI_ALifeUI_6b6a66e51b10706f": {
+            "tr": "Kapının açık mı kapalı mı olduğunu anlayamıyorsun"
+        },
+        "IGUI_ALifeUI_0466e85d48aab6c8": {
+            "tr": "Kimse silahlarını istemedi"
+        },
+        "IGUI_ALifeUI_0944818a401d00dd": {
+            "tr": "Bu konuşmanın süresi doldu, yenisini başlat"
+        },
+        "IGUI_ALifeUI_0e3adfe13361d187": {
+            "tr": "İçeri girmek istemiyor",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_59d3b592547c6aed": {
+            "tr": "Bu eşya şu an verilemez"
+        },
+        "IGUI_ALifeUI_2d05ea6978558fc9": {
+            "tr": "Şu an sana verecek işi yok",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_6a7ddd5e1980324e": {
+            "tr": "Ödünç bir şey istemiyor",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_01f3da387dff9180": {
+            "tr": "Adil bir takasta alacağı hiçbir şeyin yok"
+        },
+        "IGUI_ALifeUI_5245005623e1b99c": {
+            "tr": "Ödünç verecek yedek aletin yok"
+        },
+        "IGUI_ALifeUI_7869c0080dcfb5ad": {
+            "tr": "Bunun için yeterli eşyan yok"
+        },
+        "IGUI_ALifeUI_25e3a3d71b4d2439": {
+            "tr": "İstediğini ödeyecek kadar eşyan yok"
+        },
+        "IGUI_ALifeUI_5249487a2ab96946": {
+            "tr": "Seninle yürümüyor",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_52ee52000fded0fe": {
+            "tr": "Burada seninle yürümez",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_33e702c73300d3b1": {
+            "tr": "Bir şey istemedi",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_6376eaab67526126": {
+            "tr": "Bunu şu an yapamazsın"
+        },
+        "IGUI_ALifeUI_4df7f2f4065e6861": {
+            "tr": "Hayır dedi",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_67fc3c3c267add84": {
+            "tr": "Teslim suya düştü"
+        },
+        "IGUI_ALifeUI_03a657b55c07167c": {
+            "tr": "Başka bir teklifle uğraşıyor, bir saniye bekle",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_61dbdb9a69c8ac55": {
+            "tr": "Teslimde bir aksilik oldu, çantanı kontrol et"
+        },
+        "IGUI_ALifeUI_54c9f35c0c2783b1": {
+            "tr": "Çantan değişti, elinde ne olduğunu yeniden sor"
+        },
+        "IGUI_ALifeUI_50debf286d22d023": {
+            "tr": "Bu teklif suya düştü, yeniden sor"
+        },
+        "IGUI_ALifeUI_59427ea030ec6851": {
+            "tr": "Takastan caydı",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_3016088c30fee671": {
+            "tr": "Takas şu an yapılamıyor"
+        },
+        "IGUI_ALifeUI_60c485ae7e466fcd": {
+            "tr": "Takasta bir aksilik oldu, çantanı kontrol et"
+        },
+        "IGUI_ALifeUI_39e6113410630358": {
+            "tr": "Hâlâ elindekileri ayıklıyor, bir saniye bekle",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_7242beb56ddad55c": {
+            "tr": "Şu an tedavi edilecek bir şey yok"
+        },
+        "IGUI_ALifeUI_1721a6815c2a9b8a": {
+            "tr": "Buna ne diyeceğini bilemiyor",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_118699102baca9f8": {
+            "tr": "Konuşmaya hazır değil",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_15d923221baeb79a": {
+            "tr": "Artık dostça davranmıyor",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_1854fecd277a9918": {
+            "tr": "Şu an söyleyecek bir şeyi yok",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_4c9f980b73594c73": {
+            "tr": "Şu an bunu sormanın sırası değil"
+        },
+        "IGUI_ALifeUI_2ae32a2e5027e575": {
+            "tr": "Bu, burada açılacak bir konu değil"
+        },
+        "IGUI_ALifeUI_5fc4faf30255cc31": {
+            "tr": "Burada misafir değil",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_70d3933632a0fe26": {
+            "tr": "Düşünüyor, birazdan tekrar dene",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_3a025fb6599aa8f0": {
+            "tr": "Şu an kim olduğunu çıkaramıyor",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_677cb42d37f2ea44": {
+            "tr": "Ne demek istediğini anlamadı",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_6662b5e75b4433f7": {
+            "tr": "Bunu şu an senden alamaz",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_032c51563e112de3": {
+            "tr": "Teklifini geri çevirdi",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_6e47c30d4d5cd576": {
+            "tr": "Lafın ucunu kaçırdı, tekrar dene",
+            "not": "Hafif ağız: \"lafın ucunu kaçırdı\" (EN \"lost the thread\")."
+        },
+        "IGUI_ALifeUI_5d55c17d651e14b8": {
+            "tr": "O an geçti"
+        },
+        "IGUI_ALifeUI_1672582228226f98": {
+            "tr": "Üstünde şunlar var:",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_42aea7ca3ffb995e": {
+            "tr": "Üstünde hiç eşya yok.",
+            "not": "G: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_1fd42fa80408284a": {
+            "tr": "Hayatta Kalan {n}"
+        },
+        "IGUI_ALifeUI_5216d5341ef69b8c": {
+            "tr": "[A-LIFE] Yakındaki biriyle konuş"
+        },
+        "IGUI_ALifeUI_25638d2613c86774": {
+            "tr": "Ziyaretçi: {name}"
+        },
+        "IGUI_ALifeUI_12f2e5f5141fa970": {
+            "tr": "Hayırdır, seni buraya ne getirdi?",
+            "not": "Hafif ağız: \"Hayırdır\"."
+        },
+        "IGUI_ALifeUI_37209eaf6991329d": {
+            "tr": "Benden ne istiyorsun?"
+        },
+        "IGUI_ALifeUI_4ab2f24b49b8265e": {
+            "tr": "Tam olarak neye ihtiyacın var?"
+        },
+        "IGUI_ALifeUI_48737a0c6ec67c99": {
+            "tr": "Yaralı mısın, ısırıldın mı?"
+        },
+        "IGUI_ALifeUI_41ffe50b66019527": {
+            "tr": "Yalnız mı geldin?"
+        },
+        "IGUI_ALifeUI_2ea36b584e0be190": {
+            "tr": "Ne kadar kalman lazım?"
+        },
+        "IGUI_ALifeUI_26100f1a7215b823": {
+            "tr": "Biraz daha anlat"
+        },
+        "IGUI_ALifeUI_1c5871bd3046066b": {
+            "tr": "Bilmem gereken ne var?"
+        },
+        "IGUI_ALifeUI_7b6dd1ae0b4a2649": {
+            "tr": "Kimliğine bakabilir miyim?"
+        },
+        "IGUI_ALifeUI_5fabd22e6debf4d1": {
+            "tr": "Teşekkür ederim"
+        },
+        "IGUI_ALifeUI_5a1d715326820ae9": {
+            "tr": "Bir kısmı sende kalsın, hak ettin"
+        },
+        "IGUI_ALifeUI_6645f5ba7d29a80d": {
+            "tr": "Biraz aşağı inemez miyiz?",
+            "not": "Pazarlık: \"aşağı inmek\" (fiyat kırma) daha doğal."
+        },
+        "IGUI_ALifeUI_0f1230f57912a828": {
+            "tr": "Biraz yiyecek verebilirim [bir eşya ver]"
+        },
+        "IGUI_ALifeUI_2d4eb34b3e3b9f8d": {
+            "tr": "Takaslık neyin var?"
+        },
+        "IGUI_ALifeUI_65f009cc0fb0e38d": {
+            "tr": "Anlaştık, takas yapalım [takası onayla]"
+        },
+        "IGUI_ALifeUI_793703f514c90abc": {
+            "tr": "Olmaz, eşyalarım bende kalsın",
+            "not": "G \"eşyalarımı saklıyorum\" (hide gibi okunuyor) düzeltildi."
+        },
+        "IGUI_ALifeUI_398e150815e34d65": {
+            "tr": "Silahını bir kenara koy, sonra konuşalım"
+        },
+        "IGUI_ALifeUI_0c515c763e2c6aa1": {
+            "tr": "Üstünde ne var bir bakayım [üstünü ara]"
+        },
+        "IGUI_ALifeUI_38855509439c1902": {
+            "tr": "Evdekiler bunlar, bildiğimiz kadarıyla ısırılan yok",
+            "not": "G \"Evde kimler var\" soru gibi okunuyor; bu oyuncunun cevabı."
+        },
+        "IGUI_ALifeUI_0a02b1784cd988fd": {
+            "tr": "Evdekiler bunlar... birimiz ısırıldı"
+        },
+        "IGUI_ALifeUI_664d186b67a0da00": {
+            "tr": "İçeri gelebilirsin"
+        },
+        "IGUI_ALifeUI_6c4e785a4a2782d2": {
+            "tr": "Dur, şuna bir bakayım [bandaj ya da dezenfektan kullan]"
+        },
+        "IGUI_ALifeUI_3c51e80529858235": {
+            "tr": "Peki, yardım ederim [işi kabul et]"
+        },
+        "IGUI_ALifeUI_09a1f02d61540153": {
+            "tr": "Bir alet ödünç alabilirsin [birini ödünç ver]"
+        },
+        "IGUI_ALifeUI_61ee1ec147492791": {
+            "tr": "Al bakalım [elindeki silahları teslim et]"
+        },
+        "IGUI_ALifeUI_3664203f0ad7fa2b": {
+            "tr": "Bir de bana bak [iki malzeme öde]"
+        },
+        "IGUI_ALifeUI_3b42f2e6648e0f33": {
+            "tr": "Çağrı işaretin ne?"
+        },
+        "IGUI_ALifeUI_302b42b856049913": {
+            "tr": "Al bunu ve bizi rahat bırak [üç malzeme öde]"
+        },
+        "IGUI_ALifeUI_2a18fe824b5d43ee": {
+            "tr": "Silahlıyız ve sayımız fazla. Yoluna git."
+        },
+        "IGUI_ALifeUI_2ed1aac8620e875b": {
+            "tr": "Artık gitme vaktin geldi"
+        },
+        "IGUI_ALifeUI_00a0347652b84a9a": {
+            "tr": "Sana yardım edemem, lütfen git"
+        },
+        "IGUI_ALifeUI_51042e255984644f": {
+            "tr": "Defol git evimin önünden!",
+            "not": "K8 seviyesinde."
+        },
+        "IGUI_ALifeUI_29ba4a4b43d5f806": {
+            "tr": "Başka bir insan görmek ne güzel."
+        },
+        "IGUI_ALifeUI_11707295469c6352": {
+            "tr": "Hey. Yaşayan birini görmek ne güzel."
+        },
+        "IGUI_ALifeUI_6d3e385d2f64840b": {
+            "tr": "Buralarda birine rastlayacağımı hiç sanmıyordum."
+        },
+        "IGUI_ALifeUI_71dd30d424bc5116": {
+            "tr": "İki dakika konuşalım mı?"
+        },
+        "IGUI_ALifeUI_7bfd5c74608fd2c1": {
+            "tr": "Nasıl idare ediyorsun?",
+            "not": "G \"Nasıl dayanıyorsun?\" çeviri kokuyor."
+        },
+        "IGUI_ALifeUI_1083ea6c466b98e1": {
+            "tr": "İyi misin?"
+        },
+        "IGUI_ALifeUI_7f4c710e4ba80c18": {
+            "tr": "Buralarda işler nasıl?"
+        },
+        "IGUI_ALifeUI_0bcfe4b42ff8f908": {
+            "tr": "Yaralı mısın? Pek iyi görünmüyorsun"
+        },
+        "IGUI_ALifeUI_5584e49b77eb1025": {
+            "tr": "Hey, iyi misin? Kırık çıkık var mı?"
+        },
+        "IGUI_ALifeUI_2378220d74b171ee": {
+            "tr": "Sakin ol. Yaralandın mı?"
+        },
+        "IGUI_ALifeUI_6f80dca459e1c5e8": {
+            "tr": "Yardım lazım mı?"
+        },
+        "IGUI_ALifeUI_2e97e6073e5ecd93": {
+            "tr": "Dur yardım edeyim, bir saniye otur"
+        },
+        "IGUI_ALifeUI_547616dd4728f0f9": {
+            "tr": "Senin için yapabileceğim bir şey var mı?"
+        },
+        "IGUI_ALifeUI_0257b25c41fd058c": {
+            "tr": "Dayan, hâlâ ayaktasın"
+        },
+        "IGUI_ALifeUI_0fcd8f2774a9e541": {
+            "tr": "Nefes al. Şimdilik geçti"
+        },
+        "IGUI_ALifeUI_6df2b59b7f1d0251": {
+            "tr": "İyisin, ben buradayım"
+        },
+        "IGUI_ALifeUI_4da2d7be44433a7b": {
+            "tr": "Sağ ol, gerçekten"
+        },
+        "IGUI_ALifeUI_70ed52144daf4408": {
+            "tr": "Çok makbule geçti"
+        },
+        "IGUI_ALifeUI_48c82c2a6c3fef2d": {
+            "tr": "Bunun için sağ ol"
+        },
+        "IGUI_ALifeUI_04231445440ca8a0": {
+            "tr": "Kusura bakma, ağzımdan yanlış çıktı",
+            "not": "G \"Pardon, yanlış çıktı\" eksik."
+        },
+        "IGUI_ALifeUI_3e354d5e0a5e9a64": {
+            "tr": "Benim hatam, üstüne gelmiyorum"
+        },
+        "IGUI_ALifeUI_53ca724d147711cb": {
+            "tr": "Zorlamak istemedim"
+        },
+        "IGUI_ALifeUI_30f6cd4548ee698a": {
+            "tr": "Kendine iyi bak. Görüşürüz"
+        },
+        "IGUI_ALifeUI_045e76dc7f9106aa": {
+            "tr": "Seni işinden alıkoymayayım",
+            "not": "G \"İşine dönmene izin vereyim\" birebir çeviri."
+        },
+        "IGUI_ALifeUI_0be57ebb40992911": {
+            "tr": "Hadi eyvallah, sağ kal",
+            "not": "Hafif ağız: \"eyvallah\"."
+        },
+        "IGUI_ALifeUI_24169bfb432e6449": {
+            "tr": "Bütün bunlardan önce ne iş yapardın?"
+        },
+        "IGUI_ALifeUI_0aea48b767c3a2b8": {
+            "tr": "Anlatacak bir hikâyen var mı? Kafamı dağıtmaya ihtiyacım var."
+        },
+        "IGUI_ALifeUI_7256fc68002d0279": {
+            "tr": "Dışarıda bir yerlerde ailen var mı?"
+        },
+        "IGUI_ALifeUI_25c1869708d8fc63": {
+            "tr": "En çok neyi özlüyorsun?"
+        },
+        "IGUI_ALifeUI_2350eefb62900977": {
+            "tr": "Kiminle takılıyorsun?"
+        },
+        "IGUI_ALifeUI_46516a365b1bea37": {
+            "tr": "Hakkımda ne duydun?"
+        },
+        "IGUI_ALifeUI_3ba8f9d52270382a": {
+            "tr": "Nerede kalıyorsun?"
+        },
+        "IGUI_ALifeUI_36bca8782b705f0b": {
+            "tr": "Biraz benimle yürür müsün?"
+        },
+        "IGUI_ALifeUI_08ef37405afd0597": {
+            "tr": "Sağ ol, buraya kadar yeter."
+        },
+        "IGUI_ALifeUI_7abc32d917a13f44": {
+            "tr": "Nereye gidiyorsun?"
+        },
+        "IGUI_ALifeUI_06012a9255a9d734": {
+            "tr": "Belki birlikte çalışabiliriz?"
+        },
+        "IGUI_ALifeUI_5c382dd155d16040": {
+            "tr": "Adın ne?"
+        },
+        "IGUI_ALifeUI_72fbed6418a87260": {
+            "tr": "Buralarda bir şeyler duydun mu hiç?"
+        },
+        "IGUI_ALifeUI_7461b41279c82e40": {
+            "tr": "Buralarda dikkat etmem gereken bir şey var mı?"
+        },
+        "IGUI_ALifeUI_7f4540d24386b142": {
+            "tr": "Malzeme bulmak için bakmaya değer bir yer var mı?"
+        },
+        "IGUI_ALifeUI_1c1d203b424d617f": {
+            "tr": "Bir tavsiyen var mı?"
+        },
+        "IGUI_ALifeUI_05df3c0c4960e0b1": {
+            "tr": "İşler nasıl bu kadar sarpa sardı?"
+        },
+        "IGUI_ALifeUI_136ca51944354224": {
+            "tr": "Orduya ne oldu peki?"
+        },
+        "IGUI_ALifeUI_08a178007fa38a22": {
+            "tr": "Ulusal Muhafızlar'dan bir ses seda var mı?"
+        },
+        "IGUI_ALifeUI_0d04c4814d795d5d": {
+            "tr": "Dışarıda hâlâ asker kalmış mıdır sence?"
+        },
+        "IGUI_ALifeUI_53ba75806a50875c": {
+            "tr": "Askerler hakkında bir şeyler duydun mu hiç?"
+        },
+        "IGUI_ALifeUI_416ee55c51fe1627": {
+            "tr": "Fort Knox hakkında bir şeyler duydun mu?"
+        },
+        "IGUI_ALifeUI_5585c0000e3633d7": {
+            "tr": "Radyoda işe yarar bir şeyler var mı?"
+        },
+        "IGUI_ALifeUI_431c09265db99b86": {
+            "tr": "Fazladan yiyeceğin var mı?"
+        },
+        "IGUI_ALifeUI_53d78c685f3b6c5d": {
+            "tr": "Nerede içme suyu bulabileceğimi biliyor musun?"
+        },
+        "IGUI_ALifeUI_603eeb224063dbd1": {
+            "tr": "Biraz tıbbi malzeme verebilir misin?"
+        },
+        "IGUI_ALifeUI_04ffd57810402dc2": {
+            "tr": "Olur, tamam.",
+            "not": "K21: eski \"Olur, bana uyar.\" Aynı metin NPC'nin emri kabul repliği olarak da kullanılıyor; \"bana uyar\" orada tuhaf kaçıyor."
+        },
+        "IGUI_ALifeUI_45d4e40d4c0ced40": {
+            "tr": "Hayır, şu an olmaz."
+        },
+        "IGUI_ALifeUI_750fd5b0364d2fbf": {
+            "tr": "Kimse. Yoldan geçiyorum sadece."
+        },
+        "IGUI_ALifeUI_693e62591db9b8f6": {
+            "tr": "Bir tek ben varım."
+        },
+        "IGUI_ALifeUI_5798a9172058e8de": {
+            "tr": "Yakında başkalarımız da var."
+        },
+        "IGUI_ALifeUI_21a24b4976b2a197": {
+            "tr": "Pek bir şey yok. Biraz yiyecek, biraz su."
+        },
+        "IGUI_ALifeUI_7364636563ec5bca": {
+            "tr": "Tamam. Silahı indirdim."
+        },
+        "IGUI_ALifeUI_2111bc8c33020952": {
+            "tr": "Ne lazımsa al. Sorun çıkarmam.",
+            "not": "G \"Sorun çıkarma\" anlamı ters çevirmiş (EN: ben sorun çıkarmam)."
+        },
+        "IGUI_ALifeUI_1683f696753d591f": {
+            "tr": "Gidiyorum. Aramızda bir sorun yok."
+        },
+        "IGUI_ALifeUI_7cc42e88473426c0": {
+            "tr": "Hayır. Olmaz öyle şey."
+        },
+        "IGUI_ALifeUI_6f2f76931e2d6e81": {
+            "tr": "Arkadaşına söyle, görebileceğim yerde dursun.",
+            "not": "G \"beni görebileceğim yerde\" bozuk cümle."
+        },
+        "IGUI_ALifeUI_5a8268e512235f81": {
+            "tr": "Bir çift ele daha ihtiyacın olabilir."
+        },
+        "IGUI_ALifeUI_23deafd910e99a9b": {
+            "tr": "Bilmem gereken bir şeyler duydun mu?"
+        },
+        "IGUI_ALifeUI_5fecdfe52eb16e92": {
+            "tr": "Buralarda ne var ne yok?"
+        },
+        "IGUI_ALifeUI_0065e2dc4c896bce": {
+            "tr": "Kasaba dışından bir haber var mı?"
+        },
+        "IGUI_ALifeUI_6e4787114b408dcc": {
+            "tr": "Bundan sonra nereye?",
+            "not": "K21: eski \"Sırada nereye gitmek var?\" kulağa çeviri gibi geliyordu."
+        },
+        "IGUI_ALifeUI_6beebf3d070e1323": {
+            "tr": "Buralarda mı kalacaksın?"
+        },
+        "IGUI_ALifeUI_5c12d11e0617d624": {
+            "tr": "Sonraki durağın neresi?"
+        },
+        "IGUI_ALifeUI_1fab2e80323d1093": {
+            "tr": "Şimdiye kadar neler öğrendin?"
+        },
+        "IGUI_ALifeUI_39b8662123403f38": {
+            "tr": "Hayatta kalmak için bir tavsiyen var mı?"
+        },
+        "IGUI_ALifeUI_3caa556358a13a9d": {
+            "tr": "Keşke en baştan bilseydim dediğin bir şey var mı?"
+        },
+        "IGUI_ALifeUI_598fedfd0c138ae4": {
+            "tr": "Fazladan yiyeceğin var mı?"
+        },
+        "IGUI_ALifeUI_52b7d49405974541": {
+            "tr": "Yiyecek bir şeyin var mı? Benimki az kaldı."
+        },
+        "IGUI_ALifeUI_347fe89c4ce1d30a": {
+            "tr": "Bana bir lokma bir şey verebilir misin?"
+        },
+        "IGUI_ALifeUI_1e37ae7775acd1d8": {
+            "tr": "Bu işler başlamadan önce ne iş yapıyordun?",
+            "not": "K21: eski çeviri \"What did you do before all this?\" ile birebir aynıydı; aynı sorunun varyantı olduğu için farklılaştırıldı."
+        },
+        "IGUI_ALifeUI_7645244351031c0a": {
+            "tr": "Normal bir günün nasıl geçerdi?"
+        },
+        "IGUI_ALifeUI_513bf4e25d5175ee": {
+            "tr": "Buralı mısın? Eskiden ne iş yapardın?"
+        },
+        "IGUI_ALifeUI_0d5cf8a4560517b2": {
+            "tr": "İdare ediyorum, sorduğun için sağ ol"
+        },
+        "IGUI_ALifeUI_28c25d4e2c067125": {
+            "tr": "Açıkçası pek iyi değilim"
+        },
+        "IGUI_ALifeUI_3f8236864befc3e5": {
+            "tr": "O konuya girmesek iyi olur"
+        },
+        "IGUI_ALifeUI_0311bfdb603912a0": {
+            "tr": "Kaldığım yere dönüyorum"
+        },
+        "IGUI_ALifeUI_75bd19304cc1a4f3": {
+            "tr": "Malzeme arıyorum"
+        },
+        "IGUI_ALifeUI_5cf31df3239f2b7e": {
+            "tr": "Orası bende kalsın"
+        },
+        "IGUI_ALifeUI_1d63680c230fdafa": {
+            "tr": "Geldiğim yerlerde anlatmaya değer bir şey yok"
+        },
+        "IGUI_ALifeUI_765763316b408ccf": {
+            "tr": "Yolda ölüler gördüm, dikkatli ol"
+        },
+        "IGUI_ALifeUI_6872dd3c71bdd192": {
+            "tr": "Pek uzağa gitmedim, sana fazla bir şey söyleyemem"
+        },
+        "IGUI_ALifeUI_4ef9055972c0c442": {
+            "tr": "Bu ne kadar sürecek?"
+        },
+        "IGUI_ALifeUI_4ed0cd507930457c": {
+            "tr": "Uyardığın için sağ ol"
+        },
+        "IGUI_ALifeUI_275517d44ae5ec40": {
+            "tr": "Ne istiyorsun?"
+        },
+        "IGUI_ALifeUI_03e8f238033d1400": {
+            "tr": "Seninkine ne oldu?"
+        },
+        "IGUI_ALifeUI_32128e4d556165d8": {
+            "tr": "Reddedebilir. Bu, ne kadar silahlı göründüğüne, ne kadar korktuğuna ve yanında kimin durduğuna bağlı.",
+            "not": "Kb: çoğul (\"-lar\") → tekil; konuşulan kişi tek NPC (eski çevirilerle aynı)."
+        },
+        "IGUI_ALifeUI_6e5d23f14b37b28a": {
+            "tr": "Söz dinleme olasılığı: %%{n}",
+            "not": "Kb \"{n}%%\" → Türkçe sırayla \"%%{n}\" (C3)."
+        },
+        "IGUI_ALifeUI_7ab75f106bfa19c2": {
+            "tr": "Bunu, bütün bunlardan önceki mesleğin yüzünden görüyorsun."
+        },
+        "IGUI_ALifeUI_603bc87e55112454": {
+            "tr": "Sana dost olması gerekir."
+        },
+        "IGUI_ALifeUI_07f45412185a846f": {
+            "tr": "Az önce sorduğu soruya cevabın."
+        },
+        "IGUI_ALifeUI_669ddd595b9a10f1": {
+            "tr": "Yardım iste. Neyi paylaşacağına o karar verir."
+        },
+        "IGUI_ALifeUI_1ff4586a181a0d35": {
+            "tr": "Sesli söyle. Onunla nasıl konuştuğunu hatırlayabilir."
+        },
+        "IGUI_ALifeUI_51e5f0b82a702259": {
+            "tr": "Görüş"
+        },
+        "IGUI_ALifeUI_2df30a2c70da70f7": {
+            "tr": "1-9 cevap    Tab konu    Space geç    Esc ayrıl",
+            "not": "C1: \"leave\" → \"Ayrıl\" düğmesiyle aynı."
+        },
+        "IGUI_ALifeUI_69b3d5f529052ce6": {
+            "tr": "A seç    B ayrıl    LB / RB konu    Y devamı",
+            "not": "C1: \"Ayrıl\", \"Devamı\" düğmeleriyle aynı."
+        },
+        "IGUI_ALifeUI_5684cb7b1b2ccab9": {
+            "tr": "Space: geç"
+        },
+        "IGUI_ALifeUI_2cd3195527f4d705": {
+            "tr": "Henüz bir şey yok."
+        },
+        "IGUI_ALifeUI_35edb1d476bd1153": {
+            "tr": "Şu an sana nasıl davrandığından anlaşılır.",
+            "not": "Kb \"bakarak öğren\" emir gibi okunuyor; bu, görüş değerinin nereden geldiğini açıklıyor."
+        },
+        "IGUI_ALifeUI_4bf25b861ac47620": {
+            "tr": "Yakındakilere bir şey söyle. Bağırmak için ! ile başla."
+        },
+        "IGUI_ALifeUI_439f0dd7546d5cbd": {
+            "tr": "Yanıtla: {name}",
+            "not": "C1: S4 tooltip'i \"Konuş ya da Yanıtla düğmesi\" diyor; Kb \"{name} adlı kişiye yanıt ver\" düğme için uzun."
+        },
+        "IGUI_ALifeUI_260cc929167a21aa": {
+            "tr": "Konuş: {name} (kapıda)",
+            "not": "C1: düğme \"Konuş\" ile başlamalı (S4)."
+        },
+        "IGUI_ALifeUI_0848707102753ab6": {
+            "tr": "Konuş: {name} (pencerede)"
+        },
+        "IGUI_ALifeUI_78c6b4251fd7a838": {
+            "tr": "Konuş: {name}"
+        },
+        "IGUI_ALifeUI_6b30b28840727457": {
+            "tr": "Yanıtlamak için tıkla. Üstüne sağ tıklamak da olur."
+        },
+        "IGUI_ALifeUI_1f35ab110183584e": {
+            "tr": "Konuşmayı başlatmak için tıkla. Sağ tık da olur."
+        },
+        "IGUI_ALifeUI_7c84403b5b1a5fdd": {
+            "tr": "Kapı"
+        },
+        "IGUI_ALifeUI_5a79f6e25c616e51": {
+            "tr": "Pencere"
+        }
+    }
+}

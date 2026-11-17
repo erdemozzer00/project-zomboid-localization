@@ -1,0 +1,89 @@
+{
+ "_paket": "M3b",
+ "_grup": "arayuz_guncelleme_sandbox",
+ "_dosya": "Sandbox",
+ "_noktalama": false,
+ "_bosluk_koru": true,
+ "_satir_sonu": true,
+ "_baslik": "1.5.2 içerik güncellemesi, yeni ve değişen Sandbox metinleri",
+ "_parcalar": [
+  [
+   1,
+   8
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "Sandbox_ProjectALife.Heli_BackupGapHours",
+   "Helicopter backup gap (game hours)",
+   [
+    "Sandbox.json",
+    "A-Life: Aircraft",
+    "ALife.Heli_BackupGapHours"
+   ]
+  ],
+  "2": [
+   "Sandbox_ProjectALife.Heli_BackupGapHours_tooltip",
+   "Least time between two backup helicopters for the same player. A call inside the gap is answered by car. Helicopter frequency Low or High stretches or shortens it. 0 means no gap.\nDefault 12.",
+   [
+    "Sandbox.json",
+    "A-Life: Aircraft",
+    "ALife.Heli_BackupGapHours"
+   ]
+  ],
+  "3": [
+   "Sandbox_ProjectALife.BlockadeVehicles",
+   "Road blockade vehicles",
+   [
+    "Sandbox.json",
+    "A-Life: Cars & Vehicles",
+    "ALife.Blockade_Vehicles"
+   ]
+  ],
+  "4": [
+   "Sandbox_ProjectALife.BlockadeVehicles_tooltip",
+   "Which cars a road blockade is built from. By faction gives police cars to law crews, military vehicles to army crews and civilian cars to everyone else.\nDefault By faction (1).",
+   [
+    "Sandbox.json",
+    "A-Life: Cars & Vehicles",
+    "ALife.Blockade_Vehicles"
+   ]
+  ],
+  "5": [
+   "Sandbox_ProjectALife.BlockadeVehicles_option1",
+   "By faction",
+   [
+    "Sandbox.json",
+    "A-Life: Cars & Vehicles",
+    "ALife.Blockade_Vehicles"
+   ]
+  ],
+  "6": [
+   "Sandbox_ProjectALife.BlockadeVehicles_option2",
+   "Police cars",
+   [
+    "Sandbox.json",
+    "A-Life: Cars & Vehicles",
+    "ALife.Blockade_Vehicles"
+   ]
+  ],
+  "7": [
+   "Sandbox_ProjectALife.BlockadeVehicles_option3",
+   "Civilian cars",
+   [
+    "Sandbox.json",
+    "A-Life: Cars & Vehicles",
+    "ALife.Blockade_Vehicles"
+   ]
+  ],
+  "8": [
+   "Sandbox_ProjectALife.ReputationHysteresis_tooltip",
+   "Moving away from Neutral changes your label at once. Moving back toward Neutral waits until your score is this many points past the edge of the level you leave. Higher values reduce flicker\nDefault 15.",
+   [
+    "Sandbox.json",
+    "A-Life: Talk",
+    "ALife.Reputation_Hysteresis"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,495 @@
+# PAKET Y3R · parça 1/1 · satır 1-303 (303 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# ARAYÜZDEN GELEN DİYALOG: Bunlar menü yazısı değil, bir karakterin söylediği ya da yazdığı sözler; Y1/Y2 gibi sahnede kurulur. Etiket kim konuşuyor: OYUNCU (oyuncunun karakteri, birinci tekil, kısa), NPC (cevap/uyarı), NOT (yazılı not). {yer_tutucu} aynen kalır ({where} yer, {place} yer adı, {faction} grup, {name} kişi, {day} gün, {dist}/{dir} adım/yön). Aynı blokta alt alta duran satırlar aynı sözün başka söylenişleri ya da aynı notun satırlarıdır; hepsini ayrı ayrı çevir.
+# Girdi biçimi: N | etiket | İngilizce
+
+##### GÖREV PANOSU #####
+# NEREDE: oyuncu NPC'ye iş sorar (SORU) ve işi bitirince ona haber verir (RAPOR); görev başlığı/özeti çevrilmez
+1 | OYUNCU RAPORU | The house is clear
+2 | OYUNCU SORUSU | Got a house that needs clearing?
+3 | OYUNCU RAPORU | You're safe, this is the place
+4 | OYUNCU SORUSU | Anyone need walking to the next town?
+5 | OYUNCU RAPORU | I brought the medicine
+6 | OYUNCU SORUSU | Anyone short on medicine?
+7 | OYUNCU RAPORU | Here's the water
+8 | OYUNCU SORUSU | Need water carried in?
+9 | OYUNCU RAPORU | I've got the parts
+10 | OYUNCU SORUSU | Is a generator giving you trouble?
+11 | OYUNCU RAPORU | I found your crate
+12 | OYUNCU SORUSU | Anything need recovering?
+13 | OYUNCU RAPORU | I scouted the road
+14 | OYUNCU SORUSU | Need a road scouted?
+15 | OYUNCU RAPORU | I delivered it
+16 | OYUNCU SORUSU | Got a message to send?
+17 | OYUNCU RAPORU | I brought the planks
+18 | OYUNCU SORUSU | Need building material hauled?
+19 | OYUNCU RAPORU | I've got the meat
+20 | OYUNCU SORUSU | Need food brought in?
+21 | OYUNCU RAPORU | I found them
+22 | OYUNCU SORUSU | Is anyone missing?
+23 | OYUNCU RAPORU | The night is over
+24 | OYUNCU SORUSU | Need someone on the gate tonight?
+25 | OYUNCU RAPORU | It's burned
+26 | OYUNCU SORUSU | Anything that needs burning?
+27 | OYUNCU RAPORU | I've got a battery
+28 | OYUNCU SORUSU | Need a battery for something?
+29 | OYUNCU RAPORU | I brought help
+30 | OYUNCU SORUSU | Anyone badly hurt here?
+31 | OYUNCU RAPORU | I got your things back
+32 | OYUNCU SORUSU | Did someone take something from you?
+33 | OYUNCU RAPORU | The trade is done
+34 | OYUNCU SORUSU | Got goods to move between camps?
+35 | OYUNCU RAPORU | The pack is gone
+36 | OYUNCU SORUSU | Is a pack of the dead hanging around?
+37 | OYUNCU RAPORU | The signal is lit
+38 | OYUNCU SORUSU | Need a signal lit?
+39 | OYUNCU RAPORU | The power is back
+40 | OYUNCU SORUSU | Is the power out here?
+41 | OYUNCU RAPORU | I found the parts
+42 | OYUNCU SORUSU | Anything broken that needs a part?
+43 | OYUNCU RAPORU | They're out and alive
+44 | OYUNCU SORUSU | Is anyone trapped somewhere?
+45 | OYUNCU RAPORU | The harvest is safe
+46 | OYUNCU SORUSU | Got crops that need watching?
+47 | OYUNCU RAPORU | I made the meeting
+48 | OYUNCU SORUSU | Anyone need a meeting arranged?
+49 | OYUNCU RAPORU | The noise is gone
+50 | OYUNCU SORUSU | Is something making noise nearby?
+51 | OYUNCU RAPORU | I checked on them
+52 | OYUNCU SORUSU | Anyone you haven't heard from?
+53 | OYUNCU RAPORU | I've got the cloth
+54 | OYUNCU SORUSU | Need clean cloth for dressings?
+55 | OYUNCU RAPORU | The horde is gone
+56 | OYUNCU SORUSU | Is a horde in the way?
+57 | OYUNCU RAPORU | The warning went out
+58 | OYUNCU SORUSU | Anything the next camp should hear?
+59 | OYUNCU RAPORU | I checked the lookout
+60 | OYUNCU SORUSU | Is an old lookout still manned?
+
+##### GÖREV PANOSU · ZORLUK/HATIRLATMA #####
+# NEREDE: oyuncu görevi nasıl yapacağını seçer (temkinli ya da sert) ve verilmiş işi sorar
+61 | OYUNCU SEÇENEĞİ | I'll take it slow and careful
+62 | OYUNCU SEÇENEĞİ | I'll go in hard and finish it
+63 | OYUNCU SEÇENEĞİ | I'll hand over what I'm carrying
+64 | OYUNCU SEÇENEĞİ | I'll see what I can find
+65 | OYUNCU SEÇENEĞİ | Got some on me right now
+66 | OYUNCU SEÇENEĞİ | For that? I'll go where the good stuff is
+67 | OYUNCU SEÇENEĞİ | Can't help, sorry
+68 | OYUNCU SEÇENEĞİ | About that job of yours
+
+##### GÖREV TEKLİFİ #####
+# NEREDE: oyuncu NPC'ye iş ya da nöbet bulup bulmadığını sorar
+69 | OYUNCU SEÇENEĞİ | Got a building that needs watching?
+70 | OYUNCU SEÇENEĞİ | Need a lookout up high?
+71 | OYUNCU SEÇENEĞİ | Any other work going around?
+72 | OYUNCU SEÇENEĞİ | The job's done, I held it
+73 | OYUNCU SEÇENEĞİ | Everyone take a window and watch
+
+##### GRUP KONUŞMASI #####
+# NEREDE: oyuncu bir gruptan biriyle konuşurken menüden bu soruları seçer
+74 | OYUNCU SEÇENEĞİ | Heard of anyone planning a raid?
+75 | OYUNCU SEÇENEĞİ | Know where the bad crews sleep?
+76 | OYUNCU SEÇENEĞİ | How do I stop a bad bleed?
+77 | OYUNCU SEÇENEĞİ | What do you do with the bitten?
+78 | OYUNCU SEÇENEĞİ | Anyone dangerous working this area?
+79 | OYUNCU SEÇENEĞİ | Do I need papers to move around?
+80 | OYUNCU SEÇENEĞİ | What unit are you with?
+81 | OYUNCU SEÇENEĞİ | Any word on what's out there?
+82 | OYUNCU SEÇENEĞİ | How are the crops holding up?
+83 | OYUNCU SEÇENEĞİ | Got food to swap for something?
+84 | OYUNCU SEÇENEĞİ | Know anything about cars and fuel?
+85 | OYUNCU SEÇENEĞİ | Any spare tools you can part with?
+86 | OYUNCU SEÇENEĞİ | How would you hold a house against a crew?
+87 | OYUNCU SEÇENEĞİ | Any wrecks or fires I should stay clear of?
+88 | OYUNCU SEÇENEĞİ | Say a word for the ones we lost?
+89 | OYUNCU SEÇENEĞİ | I'm police, look at this badge
+90 | OYUNCU SEÇENEĞİ | Fall in with me
+91 | OYUNCU SEÇENEĞİ | Hold here and keep your eyes open
+92 | OYUNCU SEÇENEĞİ | Watch this building for me
+93 | OYUNCU SEÇENEĞİ | Move along, we're done here
+94 | OYUNCU SEÇENEĞİ | Can you spare some supplies?
+95 | OYUNCU SEÇENEĞİ | Stand down, I've got it from here
+96 | OYUNCU SEÇENEĞİ | Got anything you could spare?
+
+##### KONUŞMA · TAKİP SORULARI #####
+# NEREDE: oyuncu bir NPC'ye, önceki cevabının ardından devam sorusu sorar
+97 | OYUNCU SEÇENEĞİ | What do you do around here?
+98 | OYUNCU SEÇENEĞİ | Got anything to trade?
+99 | OYUNCU SEÇENEĞİ | Who else is around here?
+100 | OYUNCU SEÇENEĞİ | How do I find the place?
+101 | OYUNCU SEÇENEĞİ | Mind if I stop by sometime?
+102 | OYUNCU SEÇENEĞİ | Where exactly?
+103 | OYUNCU SEÇENEĞİ | Who's behind it?
+104 | OYUNCU SEÇENEĞİ | Anything I can help with?
+105 | OYUNCU SEÇENEĞİ | How did you end up here?
+106 | OYUNCU SEÇENEĞİ | Who else trades around here?
+107 | OYUNCU SEÇENEĞİ | Anyone friendly I can trust?
+108 | OYUNCU SEÇENEĞİ | Anyone I should avoid?
+
+##### KONUŞMA · GENEL SORULAR #####
+# NEREDE: oyuncu bir NPC'ye sohbet sorusu sorar; ayrı satırlar aynı sorunun başka söylenişleri
+109 | OYUNCU SEÇENEĞİ | Was it worth it
+110 | OYUNCU SEÇENEĞİ | So what's your story?
+111 | OYUNCU SEÇENEĞİ (başka söylenişi) | Who are you, anyway?
+112 | OYUNCU SEÇENEĞİ (başka söylenişi) | How'd you end up out here?
+113 | OYUNCU SEÇENEĞİ | Who's trouble around here, who's alright?
+114 | OYUNCU SEÇENEĞİ (başka söylenişi) | Who can I trust out here?
+115 | OYUNCU SEÇENEĞİ (başka söylenişi) | Anyone I should steer clear of?
+116 | OYUNCU SEÇENEĞİ | How long you been out here?
+117 | OYUNCU SEÇENEĞİ (başka söylenişi) | You been on your own long?
+118 | OYUNCU SEÇENEĞİ (başka söylenişi) | How long you been surviving this?
+119 | OYUNCU SEÇENEĞİ | Heard any rumours?
+120 | OYUNCU SEÇENEĞİ (başka söylenişi) | Anything going around? Talk, rumours, whatever
+121 | OYUNCU SEÇENEĞİ (başka söylenişi) | What are people saying?
+122 | NPC | I should have listened
+123 | OYUNCU SEÇENEĞİ | Tough
+
+##### KONUŞMA · GENEL SORULAR · give_thanks #####
+# NEREDE: oyuncu bir NPC'ye sohbet sorusu sorar; ayrı satırlar aynı sorunun başka söylenişleri
+124 | OYUNCU SEÇENEĞİ | I won't forget this
+##### KONUŞMA · KAPI VE KARŞILAŞMA CEVAPLARI #####
+# NEREDE: kapıdaki ya da yolda karşılaştığı biri soru sorunca oyuncunun verdiği cevaplar
+125 | OYUNCU SEÇENEĞİ | We're armed and there are more of us, walk away
+126 | OYUNCU SEÇENEĞİ | Sorry, I can't help you, you need to go
+127 | OYUNCU SEÇENEĞİ | Good to see another person
+128 | OYUNCU SEÇENEĞİ (başka söylenişi) | Didn't expect company out here
+129 | OYUNCU SEÇENEĞİ (başka söylenişi) | Easy, you hurt?
+130 | OYUNCU SEÇENEĞİ (başka söylenişi) | Breathe, it's over for now
+131 | OYUNCU SEÇENEĞİ | Take care, see you around
+132 | OYUNCU SEÇENEĞİ | You got a story? I could use a distraction
+133 | OYUNCU SEÇENEĞİ | Thanks, that's far enough
+134 | OYUNCU SEÇENEĞİ | Got any meds you could spare?
+135 | OYUNCU SEÇENEĞİ | No, not right now
+136 | OYUNCU SEÇENEĞİ | Nobody, just passing through
+137 | OYUNCU SEÇENEĞİ | It's just me
+138 | OYUNCU SEÇENEĞİ | There's more of us, close by
+139 | OYUNCU SEÇENEĞİ | Not much, some food, a little water
+140 | OYUNCU SEÇENEĞİ | Alright, weapon's down
+141 | OYUNCU SEÇENEĞİ | Take what you need, no trouble
+142 | OYUNCU SEÇENEĞİ | I'm going, we don't have a problem
+143 | OYUNCU SEÇENEĞİ | No, not happening
+144 | OYUNCU SEÇENEĞİ | Tell your friend to stay where I can see him
+145 | OYUNCU SEÇENEĞİ | You could use another pair of hands
+
+##### KONUŞMA · DURUMA GÖRE #####
+# NEREDE: oyuncu kendi durumundan (yaralı, hekim, öldürdükleri) söz eder
+146 | OYUNCU SEÇENEĞİ | Cleared a few on the way here
+147 | OYUNCU SEÇENEĞİ | Rough day, I'm not at my best
+148 | OYUNCU SEÇENEĞİ | I know a bit of first aid
+149 | OYUNCU SEÇENEĞİ | Strange hour to be out
+150 | OYUNCU SEÇENEĞİ | So what do you folks make of me?
+
+##### ARAÇ KONUŞMASI #####
+# NEREDE: oyuncu bir NPC'den araç için yakıt, akü, tamir ister ya da kendi yakıtını verir
+151 | OYUNCU SEÇENEĞİ | Here, take my can and fill up
+152 | OYUNCU SEÇENEĞİ | Siphon it out of my tank
+153 | OYUNCU SEÇENEĞİ | Can't help, I've got nothing spare
+154 | OYUNCU SEÇENEĞİ | Pop the hood, I'll jump that battery
+155 | OYUNCU SEÇENEĞİ | Let me look at that engine
+156 | OYUNCU SEÇENEĞİ | Get in, I'll take you along
+157 | OYUNCU SEÇENEĞİ | Fuel for supplies, deal?
+158 | OYUNCU SEÇENEĞİ | Which way are you headed? I know the road
+
+##### KARŞILAŞMA CEVAPLARI #####
+# NEREDE: silahlı bir grupla karşılaşmada oyuncunun cevapları (sabıkalı, polis, yardım)
+159 | OYUNCU SEÇENEĞİ | I'm police. Here's my badge
+160 | OYUNCU SEÇENEĞİ | I did time myself
+161 | OYUNCU SEÇENEĞİ | I'm police
+162 | OYUNCU SEÇENEĞİ | I'll help you out
+163 | OYUNCU SEÇENEĞİ | Here, take some of mine
+
+##### RADYO SORUSU #####
+# NEREDE: oyuncu NPC'ye telsizde duyduklarını sorar
+164 | OYUNCU SEÇENEĞİ | Heard anything on the radio lately?
+
+##### MESLEK SÖZLERİ #####
+# NEREDE: oyuncunun mesleğine göre kendini tanıtması (hekim, aşçı, eski asker…)
+165 | OYUNCU SEÇENEĞİ | I know first aid, let me patch someone up
+166 | OYUNCU SEÇENEĞİ | Let me look at that, I have stitched worse
+167 | OYUNCU SEÇENEĞİ | I can cook, give me a little and I will make it count
+168 | OYUNCU SEÇENEĞİ | I shoot straight, show me where the trouble is
+169 | OYUNCU SEÇENEĞİ | After what I did around here, take me in
+170 | OYUNCU SEÇENEĞİ | Ask around, people here know what I did
+171 | OYUNCU SEÇENEĞİ | I'm known around here, ask anyone, let me through
+172 | OYUNCU SEÇENEĞİ | People say I deal straight, so let's trade fair
+173 | OYUNCU SEÇENEĞİ | You know my name, so nobody charges me a toll
+174 | OYUNCU SEÇENEĞİ | We have been straight with each other, where are you headed?
+175 | OYUNCU SEÇENEĞİ | I can haul heavy loads, point me at the big stash
+
+##### KAPI CEVAPLARI #####
+# NEREDE: oyuncu kapıdaki ya da yoldaki birine kısa cevap verir
+176 | OYUNCU SEÇENEĞİ | Just passing through
+177 | OYUNCU SEÇENEĞİ | There are more of us
+178 | OYUNCU SEÇENEĞİ | Not much on me
+179 | OYUNCU SEÇENEĞİ | Weapon's down
+180 | OYUNCU SEÇENEĞİ | Take what you need
+181 | OYUNCU SEÇENEĞİ | Watch your friend
+182 | OYUNCU SEÇENEĞİ | Need another pair of hands
+
+##### BİTİŞ · HESAPLAŞMA #####
+# NEREDE: oyuncunun son sorusu; cümle kalıbı aynı
+183 | OYUNCU SEÇENEĞİ | Was it worth it, you said every second
+184 | OYUNCU SORUSU | Was it worth it, you said ask me when we land
+185 | OYUNCU SEÇENEĞİ | Was it worth it, you said ask the ones who stayed
+186 | OYUNCU SEÇENEĞİ | Was it worth it, you said no
+
+##### HAVA VE RUH HÂLİ · rain #####
+# NEREDE: yakındaki NPC, hava ya da hâle göre (yağmur, soğuk, gün doğumu…) oyuncuya kendiliğinden tek cümle söyler
+187 | NPC | Rain again. At least it washes the smell off
+188 | NPC | Cover. Now. Not worth getting soaked for
+189 | NPC | Hear that on the roof? I missed that sound
+190 | NPC | Wet socks, wet rifle, wet mood
+191 | NPC | Gutters are working, grab a bucket
+192 | NPC | Rain covers our noise. Also theirs
+
+##### HAVA VE RUH HÂLİ · storm #####
+# NEREDE: yakındaki NPC, hava ya da hâle göre (yağmur, soğuk, gün doğumu…) oyuncuya kendiliğinden tek cümle söyler
+193 | NPC | That thunder covers a lot of noise. Good night to move
+194 | NPC | Lightning hit something big, you saw that
+195 | NPC | Nobody goes out in this
+196 | NPC | Storm like this, even the dead stay down
+
+##### HAVA VE RUH HÂLİ · fog #####
+# NEREDE: yakındaki NPC, hava ya da hâle göre (yağmur, soğuk, gün doğumu…) oyuncuya kendiliğinden tek cümle söyler
+197 | NPC | Can't see ten steps. They can't see us either
+198 | NPC | Keep talking so I know you're there
+199 | NPC | Hate fog. Everything looks like a person
+
+##### HAVA VE RUH HÂLİ · snow #####
+# NEREDE: yakındaki NPC, hava ya da hâle göre (yağmur, soğuk, gün doğumu…) oyuncuya kendiliğinden tek cümle söyler
+200 | NPC | Snow. Tracks everywhere, ours too
+201 | NPC | Put something dry on, you're turning blue
+202 | NPC | First snow and nobody is moving much
+
+##### HAVA VE RUH HÂLİ · hot #####
+# NEREDE: yakındaki NPC, hava ya da hâle göre (yağmur, soğuk, gün doğumu…) oyuncuya kendiliğinden tek cümle söyler
+203 | NPC | Hot as hell, drink something
+204 | NPC | Sweat through my shirt already
+205 | NPC | Bodies go bad faster in this. Stay upwind
+
+##### HAVA VE RUH HÂLİ · cold #####
+# NEREDE: yakındaki NPC, hava ya da hâle göre (yağmur, soğuk, gün doğumu…) oyuncuya kendiliğinden tek cümle söyler
+206 | NPC | Fingers don't work in this cold
+207 | NPC | Frost on every window this morning
+208 | NPC | Cold like this finds every hole in your coat
+
+##### HAVA VE RUH HÂLİ · night #####
+# NEREDE: yakındaki NPC, hava ya da hâle göre (yağmur, soğuk, gün doğumu…) oyuncuya kendiliğinden tek cümle söyler
+209 | NPC | Dark soon. Keep the fire low
+210 | NPC | Night shift. Eyes open
+211 | NPC | Quiet tonight. Too quiet maybe
+
+##### HAVA VE RUH HÂLİ · dawn #####
+# NEREDE: yakındaki NPC, hava ya da hâle göre (yağmur, soğuk, gün doğumu…) oyuncuya kendiliğinden tek cümle söyler
+212 | NPC | Made it to morning again
+213 | NPC | Sun's coming up. Another one survived
+214 | NPC | Coffee would be great right now, just saying
+
+##### SÖYLENTİ · kill_other #####
+# NEREDE: NPC bir grubun başına gelen olayı söylenti olarak anlatır; {where} yer, {faction} grup adı
+215 | NPC | Folks say one of that crew went down {where}.. nobody saw who
+216 | NPC | Those people lost somebody {where} this week, a stranger did it, they say
+217 | NPC | Somebody put one of their runners in the ground {where}, keep your head down around them
+
+##### SÖYLENTİ · kill_same #####
+# NEREDE: NPC bir grubun başına gelen olayı söylenti olarak anlatır; {where} yer, {faction} grup adı
+218 | NPC | One of ours dropped {where}. If you saw anything, now is the time
+219 | NPC | We lost a man {where}. Quiet job, no warning, they say a stranger
+
+##### SÖYLENTİ · raid #####
+# NEREDE: NPC bir grubun başına gelen olayı söylenti olarak anlatır; {where} yer, {faction} grup adı
+220 | NPC | A crew hit a house {where}, took EVERYTHING
+221 | NPC | Heard shooting {where}.. that was them, I'd bet on it
+222 | NPC | Those people are organized now, raids, not scavenging
+
+##### SÖYLENTİ · returned #####
+# NEREDE: NPC bir grubun başına gelen olayı söylenti olarak anlatır; {where} yer, {faction} grup adı
+223 | NPC | Somebody carried a dead man's tags home {where}. People still do that
+224 | NPC | Heard a stranger brought {name} their lost things back {where}. Good people exist
+
+##### KAYIP EŞYA · ask #####
+# NEREDE: kayıp eşyasını arayan NPC oyuncudan bulmasını ister; bulunca teşekkür eder; {thing} eşya, {where} yer
+225 | NPC | I lost my {thing} {where}. Can't sleep without it
+226 | NPC | You look like you can walk. I dropped my {thing} {where}. It matters to me
+227 | NPC | My {thing} is out there {where}. Find it and I owe you
+
+##### KAYIP EŞYA · thanks #####
+# NEREDE: kayıp eşyasını arayan NPC oyuncudan bulmasını ister; bulunca teşekkür eder; {thing} eşya, {where} yer
+228 | NPC | That's it. That's the one. Thank you
+229 | NPC | You found it. I thought it was gone
+
+##### KAYIP EŞYA #####
+# NEREDE: kayıp eşyasını arayan NPC oyuncudan bulmasını ister; bulunca teşekkür eder; {thing} eşya, {where} yer
+230 | NPC | Lost and found
+231 | NPC | {name} lost their {thing}: {where}
+232 | NPC | Returned
+233 | NPC | {name} has their {thing} back
+
+##### ARANIYORSUN HABERİ #####
+# NEREDE: birinin oyuncuyu aradığı yolda duyulan söylenti olarak oyuncuya iletilir; {faction} grup adı
+234 | NPC | One {faction} guy took a car, he's after you
+235 | NPC | A lone {faction} man is driving out to find you
+236 | NPC | {faction} loaded up their trucks, word is they're coming for you
+237 | NPC | Heard {faction} are driving out to find you
+238 | NPC | Single engine on the road, one {faction} man, close
+239 | NPC | Engines, more than one, {faction} most likely
+240 | NPC | {faction} cars on the road, they're close
+241 | NPC | Somebody's asking around for you, one {faction} guy on his own
+242 | NPC | A lone {faction} man has your name
+243 | NPC | {faction} haven't forgotten what you did
+244 | NPC | Heard {faction} sent people to find you
+245 | NPC | He's close, one {faction} man, keep your eyes open
+246 | NPC | That {faction} loner is almost on you
+247 | NPC | {faction} are close, watch the roads
+248 | NPC | Scouts say {faction} are almost here
+249 | NPC | Engines on the road, could be {faction}
+
+##### GÖZCÜ HABERİ #####
+# NEREDE: gözcü telsizden yakındaki bir yeri haber verir; {place} yer, {dist} adım, {dir} yön
+250 | NPC | Eyes on {place}, {dist} steps {dir} of you, go slow
+251 | NPC | You're almost on it, {place} is {dist} steps {dir}, keep low
+252 | NPC | Movement at {place}, they're up and about, mind yourself
+
+##### EL YAZISI NOT #####
+# NEREDE: oyuncunun bir yerde bulup okuduğu, ölen ya da giden birinin yazdığı not; aynı kutudaki satırlar tek bir not
+253 | NOT | If you are reading this I did not make it
+254 | NOT | Left my kit {where}
+255 | NOT | Take it, somebody should
+
+##### EL YAZISI NOT #####
+# NEREDE: oyuncunun bir yerde bulup okuduğu, ölen ya da giden birinin yazdığı not; aynı kutudaki satırlar tek bir not
+256 | NOT | Not much in it but it is clean and it is yours now
+257 | NOT | Hid my bag {where}
+
+##### EL YAZISI NOT #####
+# NEREDE: oyuncunun bir yerde bulup okuduğu, ölen ya da giden birinin yazdığı not; aynı kutudaki satırlar tek bir not
+258 | NOT | I was going back for it
+259 | NOT | Bag is {where}
+
+##### EL YAZISI NOT #####
+# NEREDE: oyuncunun bir yerde bulup okuduğu, ölen ya da giden birinin yazdığı not; aynı kutudaki satırlar tek bir not
+260 | NOT | Eat something for me
+261 | NOT | Beans, bandages, whatever I could carry
+262 | NOT | Whoever finds this, {where}
+##### EL YAZISI NOT #####
+# NEREDE: oyuncunun bir yerde bulup okuduğu, ölen ya da giden birinin yazdığı not; aynı kutudaki satırlar tek bir not
+263 | NOT | They are still out here {place}
+264 | NOT | Do not trust the road after dark
+265 | NOT | Ran with a crew until this week
+
+##### EL YAZISI NOT #####
+# NEREDE: oyuncunun bir yerde bulup okuduğu, ölen ya da giden birinin yazdığı not; aynı kutudaki satırlar tek bir not
+266 | NOT | Stay clear of {place}
+267 | NOT | I looked too long and got spotted
+
+##### EL YAZISI NOT #####
+# NEREDE: oyuncunun bir yerde bulup okuduğu, ölen ya da giden birinin yazdığı not; aynı kutudaki satırlar tek bir not
+268 | NOT | Whatever you hear {place}, do not answer it
+
+##### EL YAZISI NOT #####
+# NEREDE: oyuncunun bir yerde bulup okuduğu, ölen ya da giden birinin yazdığı not; aynı kutudaki satırlar tek bir not
+269 | NOT | Three of us went {place}, one came back
+270 | NOT | That was me, not for long
+
+##### EL YAZISI NOT #####
+# NEREDE: oyuncunun bir yerde bulup okuduğu, ölen ya da giden birinin yazdığı not; aynı kutudaki satırlar tek bir not
+271 | NOT | Keep the group together
+272 | NOT | I am sorry about the radio
+273 | NOT | {friend}, if you find this
+
+##### EL YAZISI NOT #####
+# NEREDE: oyuncunun bir yerde bulup okuduğu, ölen ya da giden birinin yazdığı not; aynı kutudaki satırlar tek bir not
+274 | NOT | You were right about {place}
+
+##### EL YAZISI NOT #####
+# NEREDE: oyuncunun bir yerde bulup okuduğu, ölen ya da giden birinin yazdığı not; aynı kutudaki satırlar tek bir not
+275 | NOT | To {friend}
+276 | NOT | Tell them I held the door
+277 | NOT | Stay off the roads at night
+
+##### EL YAZISI NOT #####
+# NEREDE: oyuncunun bir yerde bulup okuduğu, ölen ya da giden birinin yazdığı not; aynı kutudaki satırlar tek bir not
+278 | NOT | A crew moved through {place} twice this week
+279 | NOT | Nobody answers the radio anymore
+
+##### EL YAZISI NOT #####
+# NEREDE: oyuncunun bir yerde bulup okuduğu, ölen ya da giden birinin yazdığı not; aynı kutudaki satırlar tek bir not
+280 | NOT | Counting cans, counting days
+281 | NOT | Day {day}, still here
+
+##### EL YAZISI NOT #####
+# NEREDE: oyuncunun bir yerde bulup okuduğu, ölen ya da giden birinin yazdığı not; aynı kutudaki satırlar tek bir not
+282 | NOT | Quiet {place}, too quiet
+
+##### EL YAZISI NOT #####
+# NEREDE: oyuncunun bir yerde bulup okuduğu, ölen ya da giden birinin yazdığı not; aynı kutudaki satırlar tek bir not
+283 | NOT | We were here, {name}
+284 | NOT | Wrote this so somebody knows
+
+##### ANIT YAZISI #####
+# NEREDE: ölen birinin mezarına/işaretine kazınmış kısa yazı; {day} gün sayısı
+285 | NOT | Taken by the dead, day {day}
+
+##### ANIT YAZISI #####
+# NEREDE: ölen birinin mezarına/işaretine kazınmış kısa yazı; {day} gün sayısı
+286 | NOT | The ground is scraped flat. Day {day}
+
+##### ANIT YAZISI #####
+# NEREDE: ölen birinin mezarına/işaretine kazınmış kısa yazı; {day} gün sayısı
+287 | NOT | Day {day}. The dead got there first
+
+##### ANIT YAZISI #####
+# NEREDE: ölen birinin mezarına/işaretine kazınmış kısa yazı; {day} gün sayısı
+288 | NOT | Shot down, day {day}. Nobody buried more than this
+
+##### ANIT YAZISI #####
+# NEREDE: ölen birinin mezarına/işaretine kazınmış kısa yazı; {day} gün sayısı
+289 | NOT | A person did this, day {day}
+
+##### ANIT YAZISI #####
+# NEREDE: ölen birinin mezarına/işaretine kazınmış kısa yazı; {day} gün sayısı
+290 | NOT | Went down here, day {day}
+
+##### ANIT YAZISI #####
+# NEREDE: ölen birinin mezarına/işaretine kazınmış kısa yazı; {day} gün sayısı
+291 | NOT | Day {day}. Tag and a candle
+
+##### ANIT YAZISI #####
+# NEREDE: ölen birinin mezarına/işaretine kazınmış kısa yazı; {day} gün sayısı
+292 | NOT | Left by {friend}
+
+##### ANIT YAZISI #####
+# NEREDE: ölen birinin mezarına/işaretine kazınmış kısa yazı; {day} gün sayısı
+293 | NOT | Nobody stayed to say anything
+
+##### ANIT YAZISI #####
+# NEREDE: ölen birinin mezarına/işaretine kazınmış kısa yazı; {day} gün sayısı
+294 | NOT | No no no
+
+##### ANIT YAZISI #####
+# NEREDE: ölen birinin mezarına/işaretine kazınmış kısa yazı; {day} gün sayısı
+295 | NOT | Not him
+
+##### ANIT YAZISI #####
+# NEREDE: ölen birinin mezarına/işaretine kazınmış kısa yazı; {day} gün sayısı
+296 | NOT | Stay with me
+
+##### ANIT YAZISI #####
+# NEREDE: ölen birinin mezarına/işaretine kazınmış kısa yazı; {day} gün sayısı
+297 | NOT | Damn it, not like this
+
+##### ANIT YAZISI #####
+# NEREDE: ölen birinin mezarına/işaretine kazınmış kısa yazı; {day} gün sayısı
+298 | NOT | We were so close
+
+##### ANIT YAZISI #####
+# NEREDE: ölen birinin mezarına/işaretine kazınmış kısa yazı; {day} gün sayısı
+299 | NOT | I'll carry the tag
+
+##### DİĞER #####
+# NEREDE: oyunda bir karakterin söylediği söz
+300 | OYUNCU SEÇENEĞİ | Who is behind it?
+301 | OYUNCU SEÇENEĞİ | I'm police. Look at this badge
+302 | OYUNCU SEÇENEĞİ | What do you folks make of me
+303 | NPC | Ran with {faction} until this week

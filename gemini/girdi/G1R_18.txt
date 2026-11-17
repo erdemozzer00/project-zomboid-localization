@@ -1,0 +1,394 @@
+# PAKET G1R · parça 18/35 · satır 6008-6388 (381 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar oyunda şu an skill'den önceki eski bir çeviriyle görünüyor; sıfırdan, İngilizceden kur. Her başlığın altındaki 'NEREDE:' oyuncunun bu sözle nasıl karşılaştığını, '#' notu sahneyi anlatır. Önce bunları oku, satırı o anda o yerde duyulacak sözle yaz.
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+##### PANIC_DAY_GUNFIRE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Salgının ilk günlerinde panik (zombi görme, silah sesi, saklanma, grup halinde).
+6008 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4 | Shoot, that was loud, shoot, sorry
+6009 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4 | Please help me hold still... I can't quit shaking
+6010 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4 | Man, I just wanted to get my mail
+6011 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4 | I'd give my right arm to be somewhere I could shut my eyes
+6012 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4 | Hang on, hang on, let me just- one more, listen for one more
+6013 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4 | I keep telling myself easy... it doesn't help worth a damn
+6014 | reg=family|tmp=fresh|day=0,2|mood=fear | Don't go where I can't see you... please!
+6015 | reg=family|tmp=fresh|day=0,2|mood=fear | I'm getting back to my people... I don't care how far!
+6016 | reg=family|tmp=fresh|day=0,2|mood=fear | Come closer... no I don't know what to do either!
+6017 | reg=family|tmp=fresh|day=0,2|mood=fear | Get down as low as you can... DOWN!
+6018 | reg=family|tmp=fresh|sex=m|day=0,2|mood=fear | I want my family with me... I want to know they're all right
+6019 | reg=family,civilian|tmp=fresh|day=0,2|mood=fear | I wish my dog was here... I wish I had somebody to hold on to
+6020 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,2|mood=fear | Hold on to something! Cover your ears!
+6021 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | They used to test that tornado siren... I wish this was just a test
+6022 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Hear anything else?... I don't want to miss something
+6023 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Get low... slow down a little don't lose your footing
+6024 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | That's more than I can take... can we go now?
+6025 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Don't talk for a second... I want to hear what happens next
+6026 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Give me a minute... I can't get my bearings
+6027 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Don't go looking... nobody needs to go looking
+6028 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Just wait... give me ten minutes before you make me go anywhere
+6029 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Heard it, don't need to hear it twice
+6030 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | One noise and I'm thinking the worst... I can't help it
+6031 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=grim | If that's a gun somebody ought to put it down!
+6032 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=grim | Far enough?... Is anything far enough now?
+6033 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=grim | Hear that? Everybody in the county just found out at once
+6034 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=grim | What if somebody out there's panicking?... What if they're armed?!
+6035 | reg=family|tmp=fresh|day=0,4|mood=fear | Please don't try to be brave... please just stay low
+6036 | role=family_man|day=0,2|mood=fear | Stay low... I can't keep track of you if you go running off
+6037 | role=family_man|day=0,2|mood=fear | I'll go look, no, I'm not going, I'm not, stay here with me!
+6038 | role=family_man|day=0,2|mood=fear | Please don't call out... not till we know who might answer!
+6039 | role=family_man|day=0,4|mood=fear | I ought to know what to do... just stay down while I think!
+6040 | role=family_man|day=0,4|mood=fear | Anybody who can hear me keep low... please!
+6041 | role=family_man|day=0,4|mood=fear | Never heard anything that made me want to hide like this
+6042 | role=family_man|day=0,4 | I want to believe that's nowhere near my family... I want to believe it
+6043 | role=family_man|day=0,4|mood=grim | Don't go anywhere... no wait I don't know what's best!
+6044 | role=family_woman|day=0,2|mood=fear | I need to know my kids are all right... I need to know
+6045 | role=family_woman|day=0,2|mood=fear | Don't go out of sight... please stay where I can see you!
+6046 | role=family_woman|day=0,2|mood=fear | I want to cover my ears... but what if I miss something?!
+6047 | role=family_woman|day=0,2|mood=fear | I can't breathe, I can't, it was so loud, it was SO loud...
+6048 | role=family_woman|day=0,4|mood=fear | I keep thinking of my little girl... what if she's hearing this too?!
+6049 | role=family_woman|day=0,4|mood=fear | Tell me what that was, I need somebody to tell me!
+6050 | role=family_woman|day=0,4|mood=fear | God I wish I knew where my mother was
+6051 | role=family_woman|day=0,4 | I keep thinking there's something I ought to switch off... I can't think!
+6052 | role=family_elder|day=0,2|mood=fear | I heard worse in the war... didn't think I'd be shaking like this again
+6053 | role=family_elder|day=0,2|mood=fear | Don't you worry about me, just get yourselves down, go on
+6054 | role=family_elder|day=0,2|mood=fear | What in the world!
+6055 | role=family_elder|day=0,4|mood=fear | Nobody's too proud to get down... not now!
+6056 | role=family_elder|day=0,4|mood=fear | Hush, listen, hush, let me hear it, my ears aren't what they were
+6057 | role=family_elder|day=0,4 | Used to know a sound before anyone else... ears don't help me much now
+6058 | role=family_elder|day=0,4 | I've heard guns my whole life... this has me wanting to hide like a child
+6059 | role=family_elder|day=0,4|mood=grim | Lord I hope nobody's mama has to hear about this
+6060 | role=family_youth|day=0,2|mood=fear | Dude was that a gun?... Don't just tell me what you think I wanna hear!
+6061 | role=family_youth|day=0,2|mood=fear | Whoa, that- no, that's not cool at all!
+6062 | role=family_youth|day=0,2|mood=fear | Is that the cops? Is it, are the cops shooting!
+6063 | role=family_youth|day=0,2|mood=fear | Hey! HEY!... Somebody hear me please!
+6064 | role=family_youth|day=0,4|mood=fear | I wanna go home... I just wanna go home
+6065 | role=family_youth|day=0,4|mood=fear | If somebody needs help... I'd just stand there wouldn't I?!
+6066 | role=family_youth|day=0,4|mood=fear | I wanna look, I wanna go look, no, I don't, I really don't...
+6067 | role=family_youth|day=0,4 | Okay, that was like the loudest thing ever, my ears are gone!
+6068 | role=civilian_man|day=0,2|mood=fear | Jesus, was that gunfire? That was gunfire, wasn't it
+6069 | role=civilian_man|day=0,2|mood=fear | Get down behind something, move it, MOVE!
+6070 | role=civilian_man|day=0,4 | I've never wanted to go back home this bad... never
+6071 | role=civilian_man|day=0,4|mood=fear | Where do I go? I got no idea where to go, anyone know where to go
+6072 | role=civilian_man|day=0,4|mood=fear | Could that mean help?... God I don't know whether to shout or hide!
+6073 | role=civilian_man|day=0,4|mood=grim | I thought it was someone's bad idea of a joke, I guess not
+6074 | role=civilian_woman|day=0,2|mood=fear | Oh my God, was that a gun? Was that really a gun?
+6075 | role=civilian_woman|day=0,2|mood=fear | I keep hearing it in my head... I want it OUT!
+6076 | role=civilian_woman|day=0,2|mood=fear | Which way is safe? Please just tell me which way?
+6077 | role=civilian_woman|day=0,4|mood=fear | I'm shaking, look at me shaking, I can't make it stop
+6078 | role=civilian_woman|day=0,4|mood=fear | I don't want to be out here, I want to be home, I want to go home
+6079 | role=civilian_woman|day=0,4 | Please let it be somebody looking for us... please let somebody be looking
+6080 | role=civilian_loner|day=0,4 | Keep still a minute... let your ears do the work
+6081 | role=civilian_loner|day=0,4 | Don't know who, don't know where, I'd rather not find out
+6082 | role=civilian_loner|day=0,4 | Go have a look if you're that curious... I'll wait right here
+6083 | role=civilian_loner|day=0,4|mood=grim | Well, that's one way to ring the dinner bell
+6084 | role=civilian_loner|day=0,4|mood=grim | Louder than it ought to be, that's all I'm saying
+6085 | role=civilian_loner|day=0,4|mood=fear | Down, get down, no heroics, just stay down!
+6086 | role=worker|day=0,2 | I used to jump when somebody dropped a tool... this is a hell of a lot worse
+6087 | role=worker|day=0,4|mood=fear | Hell... I want to go home I don't even care what's making it
+6088 | role=worker|day=0,4|mood=angry | Can't even hear a noise without thinking I ought to fix something... hell
+6089 | role=worker|day=0,4 | Nobody needs to go see what made it... leave it alone
+6090 | role=worker|day=0,4 | Used to know what needed fixing just by listening... can't do that with this
+6091 | role=worker|day=0,2|mood=fear | Did you hear that?!... I don't want to be the one going to look
+6092 | role=worker|day=0,4|mood=grim | I knew something was off when the plant went quiet
+6093 | role=rescue_firefighter|day=0,2 | Don't go rushing in... give me a moment before I go making things worse
+6094 | role=rescue_firefighter|day=0,4|mood=fear | First thing I think is they'll call us... who the hell's still calling?
+6095 | role=rescue_firefighter|day=0,4|mood=fear | Get low... don't go toward it till we know what we're walking into
+6096 | role=rescue_firefighter|day=0,4 | Leave it alone... nobody needs to get closer just to satisfy themselves
+6097 | role=rescue_firefighter|day=0,4 | I want somebody to tell me what needs doing... just tell me!
+6098 | role=rescue_firefighter|day=0,4|mood=grim | Keep thinking the station will tell me what to do... hell listen to me
+6099 | role=rescue_medical|day=0,2|mood=fear | Someone's gonna need me, I should go, no, I shouldn't go
+6100 | role=rescue_medical|day=0,2|mood=fear | Stay down... please give me a second before you need me!
+6101 | role=rescue_medical|day=0,4|mood=fear | What if somebody needs me?... I can't go till I can think straight
+6102 | role=rescue_medical|day=0,4|mood=fear | If that's somebody hurt... no I can't start thinking like that
+6103 | role=rescue_medical|day=0,4|mood=grim | I don't want to be needed for this... God forgive me I don't
+6104 | role=rescue_medical|day=0,4 | Breathe, everybody breathe, in through the nose, slow
+6105 | role=rescue_clergy|day=0,2|mood=fear | Lord, be with whoever that was, be with them!
+6106 | role=rescue_clergy|day=0,2|mood=fear | Peace, be still, everyone, please be still
+6107 | role=rescue_clergy|day=0,4|mood=fear | Let us pray, let- let us- I can't, I can't get the words out!
+6108 | role=rescue_clergy|day=0,4|mood=fear | I should go see, they might need a pastor, but I can't, I can't move!
+6109 | role=rescue_clergy|day=0,4|mood=fear | Dear Lord... let somebody hear us let somebody COME!
+6110 | role=rescue_clergy|day=0,4 | Down please... the Lord can hear you down there too
+6111 | role=rescue_clergy|day=0,4|mood=grim | Thirty years of tent revivals and I never heard noise like that
+
+##### PANIC_DAY_HIDE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Salgının ilk günlerinde panik (zombi görme, silah sesi, saklanma, grup halinde).
+6112 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Inside, inside, INSIDE!
+6113 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Find somewhere to hide! Go on, all of you!
+6114 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Everybody inside right now, don't stop to look
+6115 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Lock it lock it LOCK IT!
+6116 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Is it locked? IS IT LOCKED?
+6117 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Under the bed, go, go, under the bed!
+6118 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | In the bathtub, get in the bathtub, pull the curtain
+6119 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Try to stay out of sight, stay low
+6120 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Find a place to hide, quick, GO
+6121 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Behind the Dumpster, quick, behind it, get low!
+6122 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | RUN!
+6123 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Not a sound!
+6124 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | This way, come on!
+6125 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Don't you look back, DON'T!
+6126 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Move your feet, move, MOVE!
+6127 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Quiet, quiet, no one breathe...
+6128 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Shh, shh, keep quiet, please!
+6129 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Where do we GO?
+6130 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Ma'am! This way! Come on!
+6131 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Keep back! Don't let anything grab you!
+6132 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Oh no, hide, I've got to hide, where do I hide?
+6133 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Get low, get lower, flatter, flatter
+6134 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Don't stand there, move
+6135 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Everyone in, everybody in, is everybody in
+6136 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Just let me iiin, please let me in, please, PLEASE!
+6137 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Hurry, hurry, it's coming, it's coming this way...
+6138 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | We're not safe here, we have to go, now, NOW
+6139 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | I can't breathe, go without me, hide, you hide
+6140 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Faster, FASTER, it's right there
+6141 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Did it see us go in? Did it SEE us?
+6142 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Keep hold of my hand, don't let go, whatever happens don't let go!
+6143 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Grab Grandma, grab her other arm, we're going!
+6144 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Let them in, we have to let them in- no, we can't, we CAN'T
+6145 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Hurry up hurry up hurry UP!
+6146 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Psst, quiet, quiet! Don't give yourself away!
+6147 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Behind the church, behind it, get down behind it!
+6148 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Not there, it's open there, THERE, behind the shelves!
+6149 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Lord, hide us, Lord, hide us, hide us...
+6150 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | I can't find the key, I can't find the key, where's the key?!
+6151 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Out the back, they're at the front!
+6152 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Oh God, it's going for the neighbors' house, GET DOWN!
+6153 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Wait! Wait for me! Don't go without me!
+6154 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | I want to go home, I'm not safe here...
+6155 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | The yard! Not the yard! Anywhere but the yard!
+6156 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Mama, Mama, hold me, hold me, hold me...
+6157 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Nonono, don't hide there, that's the first place they'll look-
+6158 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | The dog's still out there! Leave him! No, get him, no!
+6159 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | I hear it scratching, I hear it scratching on the wood!
+6160 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Stay down! Don't make a sound!
+6161 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Storm shelter! The storm shelter, I've got the key!
+6162 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | The camper! Get in the camper, I've got the key!
+6163 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Easy... don't make a sound
+6164 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Bolt it, chain it, every lock we've got
+6165 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Push something against it, anything heavy, push!
+6166 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Don't slam it, shut it quiet, quiet...
+6167 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Get in the back, all the way in the back!
+6168 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Leave it, leave the bag, leave EVERYTHING, go
+6169 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Just go, don't think!
+6170 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Hold your breath, hold it, it's right outside!
+6171 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Is it safe in there? I don't know if it's safe in there
+6172 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Not that house, not that one, THIS one, this one's got a- come on
+6173 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Anywhere, just get out of the open, I don't care where
+6174 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Lights! Every light in the house, off, OFF!
+6175 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Get out of sight if you can, go!
+6176 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | My legs won't, you go, go on, hide, go
+6177 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Keep quiet, please, they might hear!
+6178 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | We need to go, we have to GO, we can't stay put!
+6179 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Close it, close the gate behind you!
+6180 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Biscuit! Get Biscuit inside, GET HER!
+6181 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I'm not coming out, you can't make me
+6182 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Hand over your mouth, don't breathe on the glass
+6183 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Over here, over here, there's room, squeeze in
+6184 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Where's the back way out? There's gotta be a back way out
+6185 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Middle of the room, away from the edges!
+6186 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Count to a hundred and don't make a sound, ready, one
+6187 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Behind me, everyone behind me, then in
+6188 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Try that one, try that house, try it, maybe nobody's home
+6189 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Please let someone's house be open, please
+6190 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Under a blanket, get under a blanket, don't let it see you
+6191 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Wait for it to pass, wait, nobody moves, wait!
+6192 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Hush that radio, hush it, turn it all the way down!
+6193 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Stay back from the front, back from the front room!
+6194 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Wait till you hear it go... wait... not yet...
+6195 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Where's your other shoe? Forget it, forget the shoe, GO
+6196 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | The church! The church is open, run for the church!
+6197 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Fort Knox, they'll let us in at the fort, they have to
+6198 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Get in, don't say a word...
+6199 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Find somewhere to hide! Help each other!
+6200 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Pull the shades, pull them all, hurry!
+6201 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | The freezer room, the walk-in, in the walk-in, move!
+6202 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Pull your feet in, tuck them up, don't let them show...
+6203 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Crouch down, no peeking, not even one peek!
+6204 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Just a minute, give me a minute, I can't run, I'm sorry!
+6205 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Down the hill, go, get low on the way!
+6206 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Did you lock it? You didn't lock it, did you? Go back, no, don't go back!
+6207 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Hide the food, hide it, if someone sees food they'll want in!
+6208 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Easy, nice and easy, one at a time, everyone through!
+6209 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Get on your belly, flat as a pancake, stay flat!
+6210 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Nope, can't, can't be here, we have to find somewhere else-
+6211 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Is anybody home? ANYBODY? Please open up, please!
+6212 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Keep it quiet, we don't need any more trouble
+6213 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Don't look out, you'll draw it, just don't look!
+6214 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | It's gonna break it down, it's gonna break the whole thing down!
+6215 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Back up, there's another one, there's two!
+6216 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Where's Daddy? Is Daddy coming?!
+6217 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Not that way! That's where they came from, THAT way!
+6218 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Roll under, roll, roll, tuck in-
+6219 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Dear Jesus, let the lock hold...
+6220 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Run in a line, don't scatter, a LINE!
+6221 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Try to find somewhere they can't see us!
+6222 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Lock yourselves in and don't come out till I knock four times...
+6223 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Library, the library, nobody ever goes in the library...
+6224 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Springhouse, down the hill, the springhouse!
+6225 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Not the church, that's the first place anybody would look!
+6226 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Walk in like it's a regular day, don't run, just walk in
+6227 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Keep quiet... please, just for a moment
+6228 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Everybody hold your breath, now go!
+6229 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Under the pew, under it, little ones first
+6230 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Cover the little ones with coats, put your coats over them
+6231 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Behind the freezers, they're loud, nobody hears us!
+6232 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Hide in plain sight, stand still, just stand like a mannequin
+6233 | reg=family|tmp=fresh|day=0,2|mood=fear | Keep quiet, please, don't let them hear us
+6234 | reg=family|tmp=fresh|day=0,2|mood=fear | Help each other get somewhere safe!
+6235 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=window | Shut the curtains, they can see in
+6236 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=window | Away from the windows, stay away from the windows!
+6237 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=window | Cover the window, put a sheet over it
+6238 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=window | Is the window latched? Someone latch the window!
+6239 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=inside | Hey! In here! Get in here before it sees you!
+6240 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=inside | We're in here, we're in, no one make a sound
+6241 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=inside | They know we're in here, they KNOW, they can smell us!
+6242 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=door | Shut the door! SHUT THE DOOR!
+6243 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=door | Get the door, get it!
+6244 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=door | Hold the door, hold it with me!
+6245 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=door | It's trying the door, trying the DOOR!
+6246 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=door | Don't open it, don't open it for anyone, not for ANYBODY!
+6247 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=door | That's Pete, that's Pete's voice, let him in!
+6248 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=door | That's not Pete, step BACK from the door!
+6249 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=door | Open up! Open the door! They're behind me!
+6250 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=door | The fire station! They've got a steel door! Run for the fire station!
+6251 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=door | Away from the glass doors!
+6252 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=door | Lock the door, lock the door!
+6253 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=door | Is the back door shut? Someone check the back door
+6254 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=door | Wedge a chair under the door, a chair, anything...
+6255 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=door | Open the door! Open it, let me in!
+6256 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=door | Someone knock twice if it's you, twice, I won't open for once
+6257 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=vehicle | Get in the truck! In the truck!
+6258 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=vehicle | Lock the doors on the truck, all the doors
+6259 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=vehicle | Who's got the keys to the truck?
+6260 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=vehicle | Go, go, drive, just drive, drive!
+6261 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=road | Off the street, get off the street, now!
+6262 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=road | Not the road, stay off the road, go through the yards
+6263 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=road | Cross the street, quick, now, before they turn around
+6264 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=fence | Over the fence, go, go over, I'll boost you!
+6265 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=fence | The fence won't hold, it won't hold, go, go
+6266 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=stairs | Quiet on the stairs!
+6267 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=stairs | Pull the ladder up behind you, pull it up!
+6268 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=stairs | Stairs, two at a time, no stopping, no looking!
+6269 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=stairs | Hay loft, up, up, pull the ladder after you!
+6270 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=stairs | Don't use the stairs, they creak, find another way
+6271 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=trees | Into the trees, go, keep low!
+6272 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=building | In the basement, get down the basement, hurry
+6273 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=building | Get in the pantry, squeeze in
+6274 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=building | Lock yourselves in the bathroom, I'll hold the hall
+6275 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=building | Down in the cellar, everybody, count heads on the way down!
+6276 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=building | Get the mattress up against the wall, higher!
+6277 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=building | Church basement, everybody in the church basement, quietly!
+6278 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=building | I'm locking myself in the bathroom, I'm sorry
+6279 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=building | Put your hand on the wall, follow it, find the corner!
+6280 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=building | Under the sink, under the sink, I fit, I fit in there...
+6281 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=inside | In here! In here, quick, IN HERE!
+6282 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=inside | There's no more room in here, there's no room, I'm sorry, I'm so sorry!
+6283 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=inside | Why's it so hot in here? Why can't I breathe?
+6284 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=inside | I can't breathe in here, I can't, open it, no, don't open it!
+6285 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Find somewhere safer! Don't draw attention to us!
+6286 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Shoes off, walk soft, soft as you can-
+6287 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | No flashlight, put it out!
+6288 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | The tobacco barn! Go to the barn, nobody ever checks the barn!
+6289 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Culvert, there's a culvert past the field, go!
+6290 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | One at a time, go on, quick, quick, quick!
+6291 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Go through, I'll pull it shut behind us!
+6292 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Get your boots on and your bag, we may have to bolt!
+6293 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | The feed store has a back office, it's got a lock, in!
+6294 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Shut it, lock it, don't let those things follow us!
+6295 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Tack room, the tack room's got a bar across it
+6296 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Tool shed, squeeze in with the mower, go!
+6297 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Take your keys out of your pocket, they jingle...
+6298 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Who has asthma? Do you have your inhaler? Do you?
+6299 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|world=vehicle | Cut the engine, cut it, just coast in
+6300 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Put the dog in the back and shut him up!
+6301 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Count to sixty, listen hard, we'll see after
+6302 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | School's got a gym, it's big, we could all fit
+6303 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Maybe the police can help, I don't know anymore
+6304 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Quit dawdling, we haven't got all day
+6305 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Crawlspace is dry, it's tight but it's dry, we'll fit!
+6306 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Don't touch the phone, not a sound, we're not here
+6307 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Squeeze in behind the water heater, there's room, squeeze
+6308 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Right, we make no noise, we eat cold, we don't light a thing
+6309 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Nice and slow now, running only gets their attention
+6310 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Kroger stockroom, in the back, behind the pallets
+6311 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Slip in behind me, one at a time, like the line at the post office
+6312 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear|world=building | Porch light off, leave it off, don't let anything know we're home
+6313 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear|world=building | Off the porch, off the steps, they're watching the steps
+6314 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|world=door | Back door, side door, now both again
+6315 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|world=building | Root cellar, they won't find us in the root cellar
+6316 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|world=building | The old smokehouse, thick walls, one way in
+6317 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=door,building | Move the couch, move it, put it against the door!
+6318 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4 | We wait it out right here, nobody moves
+6319 | role=family_man|day=0,2|mood=fear|world=building | Nobody leaves this house, you hear me, not even for the dog!
+6320 | role=family_man|day=0,4|mood=fear|world=building | Everybody to the middle of the house, away from the outside walls!
+6321 | role=family_man|day=0,2|mood=fear | Inside, all of you, I'll bring up the rear, GO!
+6322 | role=family_man|day=0,4 | Lock up, turn every lock, I'll check the back!
+6323 | role=family_man|day=0,4|mood=fear | Is there anything we can use to keep them out?
+6324 | role=family_man|day=0,4|mood=fear | Hold on to the little ones, I'll go first, wait for my signal...
+6325 | role=family_woman|day=0,2|mood=fear | Everybody! Find somewhere safe, NOW!
+6326 | role=family_woman|day=0,2|mood=fear | Stay close! Please!
+6327 | role=family_woman|day=0,2|mood=fear | Come to Mama, come on, come here, in my arms, quick!
+6328 | role=family_woman|day=0,4|mood=fear | Under the bed, sweetheart, don't come out till I say, not till I say
+6329 | role=family_woman|day=0,4|mood=fear | Tom, Tom, shut it, get it shut, pleeease!
+6330 | role=family_woman|day=0,4|mood=fear | I'm not leaving anybody behind if I can help it!
+6331 | role=family_elder|day=0,4|mood=fear | Go on, you young ones, run, don't mind me!
+6332 | role=family_elder|day=0,4|mood=fear | Lord, help us get through this, every one of us
+6333 | role=family_elder|day=0,4|mood=fear | Try to get somewhere safe, quick, go on!
+6334 | role=family_elder|day=0,4 | Hush now, quiet as church mice, hush
+6335 | role=family_elder|day=0,2|mood=fear | I'll be fine, I'll be fine, you go hide, go on, I'll find a spot...
+6336 | role=family_elder|day=0,2|mood=fear | Help me up, somebody help me up, I can't move this fast!
+6337 | role=family_elder|day=0,4|world=building | Back of the pantry, there's room, I used to hide there from storms
+6338 | role=family_youth|day=0,2|mood=fear | Over here! Quietly!
+6339 | role=family_youth|day=0,2|mood=fear | I'll hold it, you go, go, I got it, GO!
+6340 | role=family_youth|day=0,2|mood=fear | Oh man, oh man, oh man, I'm not ready for this!
+6341 | role=family_youth|day=0,2|mood=fear|world=inside | Dude, in here, in HERE, dude, come ON!
+6342 | role=family_youth|day=0,4|mood=fear | Mom! Dad! Hurry!
+6343 | role=family_youth|day=0,4|mood=fear | Where do we hide? Where? Nobody told me where to hide!
+6344 | role=family_youth|day=0,4 | Heads down, don't be stupid, DOWN!
+6345 | role=civilian_man|day=0,2|mood=fear|world=inside | Everyone get inside, get in here!
+6346 | role=civilian_man|day=0,4|mood=fear | Keep your head down!
+6347 | role=civilian_man|day=0,4|mood=fear | Not me, not me, I'm hiding, I'm hiding right here...
+6348 | role=civilian_man|day=0,4|mood=fear | I know a back way, follow me, no talking...
+6349 | role=civilian_man|day=0,4 | Wait, wait, there's space under there, there's space
+6350 | role=civilian_man|day=0,2|mood=fear | Run! I'm not kidding, RUN!
+6351 | role=civilian_woman|day=0,2|mood=fear | In, in, get in, quick, close it behind you!
+6352 | role=civilian_woman|day=0,2|mood=fear | Take my hand, I've got you, this way!
+6353 | role=civilian_woman|day=0,4|mood=fear | Don't scream, please, please don't scream
+6354 | role=civilian_woman|day=0,4|mood=fear | Behind here, behind the shelves, shhh, shhh...
+6355 | role=civilian_woman|day=0,4|mood=fear | I can't do this, I can't, I have to hide, I'm sorry!
+6356 | role=civilian_woman|day=0,4 | Get low, hold my hand, we go together
+6357 | role=civilian_loner|day=0,2 | Inside, quiet, now!
+6358 | role=civilian_loner|day=0,4 | I know a place, follow me, heads down, no talking!
+6359 | role=civilian_loner|day=0,4 | Slow, easy, this way, stay off the open ground
+6360 | role=civilian_loner|day=0,4 | Over there, that shed, go!
+6361 | role=civilian_loner|day=0,4|mood=grim | Nobody make a sound, they hear everything
+6362 | role=civilian_loner|day=0,4|world=window | Not the big building, too many windows, the small one
+6363 | role=worker|day=0,2|mood=fear | Try to find something that'll keep them out!
+6364 | role=worker|day=0,2|mood=fear | Move, goddammit, they're getting closer!
+6365 | role=worker|day=0,4 | Lock up the place, lock everything, then the back
+6366 | role=worker|day=0,4 | Shut it down, shut the whole line down, everybody out the side
+6367 | role=worker|day=0,4|mood=fear | Get in the break room, it's got the strongest lock, GO!
+6368 | role=worker|day=0,4|mood=angry | I told them to put a better lock on this place, I TOLD them!
+6369 | role=worker|day=0,4|world=stairs | Come on, boys, up in the loft, pull the ladder up behind you
+6370 | role=rescue_firefighter|day=0,2 | Everyone out of the open, into the building, move!
+6371 | role=rescue_firefighter|day=0,4|mood=fear | Heads down, single file, nobody pushes, go!
+6372 | role=rescue_firefighter|day=0,4 | Count off as you go through, I want a head count
+6373 | role=rescue_firefighter|day=0,4 | Help anybody who needs it, don't panic
+6374 | role=rescue_firefighter|day=0,4 | Check the back before you settle, every exit
+6375 | role=rescue_firefighter|day=0,2|mood=fear | Get in, I'll close it!
+6376 | role=rescue_medical|day=0,4 | Help anybody who needs it. Gently, quickly
+6377 | role=rescue_medical|day=0,4 | Nobody's hurt? Anybody hurt? Quick, say so now, before we hide
+6378 | role=rescue_medical|day=0,2|mood=fear | Get away from the open, in, in, inside, go!
+6379 | role=rescue_medical|day=0,4|mood=fear | Stay with me, breathe, slow breaths, we're going in now
+6380 | role=rescue_medical|day=0,4|mood=fear | Sit down, sit, keep your voice low, I'll check everyone later...
+6381 | role=rescue_clergy|day=0,2|mood=fear | Into the church, quickly, the Lord's house has room for all of you!
+6382 | role=rescue_clergy|day=0,2|mood=fear | Down on your knees, and keep your heads below the pews!
+6383 | role=rescue_clergy|day=0,4|mood=fear | Come in, come in, there's room, there's always room...
+6384 | role=rescue_clergy|day=0,4|mood=fear | Bar it, God forgive me for barring a church, BAR IT!
+6385 | role=rescue_clergy|day=0,4|mood=fear | In the sanctuary, in the back, please hurry!
+6386 | role=rescue_clergy|day=0,4 | Try to stay out of sight, we can do this
+6387 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=grim | My shift's over, I'm going home, down to my basement, staying put
+6388 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|world=window | Just keep the lights off and the curtains shut and wait

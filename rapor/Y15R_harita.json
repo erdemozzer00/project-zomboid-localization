@@ -1,0 +1,913 @@
+{
+  "_paket": "Y15R",
+  "_grup": "arayuz_b14",
+  "_dosya": "IG_UI_lua",
+  "_plan": "B14",
+  "_noktalama": false,
+  "_bosluk_koru": true,
+  "_baslik": "Y15 yeniden çeviri · eski Türkçe gösterilmez",
+  "_parcalar": [
+    [
+      1,
+      87
+    ]
+  ],
+  "satirlar": {
+    "1": [
+      "IGUI_ALifeUI_3b9835152c8332a2",
+      "Credits speed",
+      [
+        "client/ProjectALife/Ending/ALifeCreditsRoll.lua:48",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "2": [
+      "IGUI_ALifeUI_218a251224e5117b",
+      "How fast the credits roll after the ending",
+      [
+        "client/ProjectALife/Ending/ALifeCreditsRoll.lua:49",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "3": [
+      "IGUI_ALifeUI_56aefe551219ad34",
+      "Talk window",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:9",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "4": [
+      "IGUI_ALifeUI_1703547b0c38d3d7",
+      "Old cinematic",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:10",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "5": [
+      "IGUI_ALifeUI_2a505a9a0acf2ba2",
+      "Server default",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:10",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "6": [
+      "IGUI_ALifeUI_49a8c27862891a03",
+      "Server default follows the sandbox option (New unless the host changed it). Old cinematic: the previous window with numbered answers",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:11",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "7": [
+      "IGUI_ALifeUI_08ff81dd2ee8551d",
+      "Animated",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:13",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "8": [
+      "IGUI_ALifeUI_51e584322dad4d59",
+      "Static",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:13",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "9": [
+      "IGUI_ALifeUI_795b126c175795da",
+      "Typed out, or all at once",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:13",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "10": [
+      "IGUI_ALifeUI_3c4bf17e2086f290",
+      "Talk panel",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:14",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "11": [
+      "IGUI_ALifeUI_0e0631a5136f1efe",
+      "Right",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:15",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "12": [
+      "IGUI_ALifeUI_1c30314f32bcb64a",
+      "Where it sits on the screen",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:15",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "13": [
+      "IGUI_ALifeUI_2b8aacab6fd8c760",
+      "Centre",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:15",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "14": [
+      "IGUI_ALifeUI_7c8877925c2a29c2",
+      "Left",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:15",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "15": [
+      "IGUI_ALifeUI_391a82c64b08c430",
+      "Talk animation",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:16",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "16": [
+      "IGUI_ALifeUI_02ce7a1b1cb7fed4",
+      "How long the selection fill and the opening take",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:17",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "17": [
+      "IGUI_ALifeUI_7c851df55b5b52a3",
+      "Fast",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:17",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "18": [
+      "IGUI_ALifeUI_7c8c6d2c5d1c22dc",
+      "Slow",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:17",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "19": [
+      "IGUI_ALifeUI_46bbd19e7285d6cb",
+      "Timed answer bar",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:18",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "20": [
+      "IGUI_ALifeUI_3eb7c9e54bbb7528",
+      "Shows how long a timed question stays open",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:19",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "21": [
+      "IGUI_ALifeUI_30d25f803464b820",
+      "Panel width",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:20",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "22": [
+      "IGUI_ALifeUI_44ed324378d9e98f",
+      "Narrow",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:21",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "23": [
+      "IGUI_ALifeUI_7e9338157dc12d65",
+      "Narrow covers less of the view",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:21",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "24": [
+      "IGUI_ALifeUI_26cc99a43ca5ff1d",
+      "Talk prompts",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:22",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "25": [
+      "IGUI_ALifeUI_11d6b3dc1ca72214",
+      "Near: only within 4 tiles",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:23",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "26": [
+      "IGUI_ALifeUI_7c898fad5c6ec267",
+      "Near",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:23",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "27": [
+      "IGUI_ALifeUI_48e72ae4459121fa",
+      "Close when hurt",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:24",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "28": [
+      "IGUI_ALifeUI_3ba81ef767781dd5",
+      "Leave the talk when you are hit",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:25",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "29": [
+      "IGUI_ALifeUI_5df788084dd078da",
+      "Subtitle band",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:26",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "30": [
+      "IGUI_ALifeUI_0d999e9f2a1cd905",
+      "Light",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:27",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "31": [
+      "IGUI_ALifeUI_51eec2072ff3280a",
+      "Strong",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:27",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "32": [
+      "IGUI_ALifeUI_713aed1e644d26e2",
+      "Dark band behind subtitles",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:27",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "33": [
+      "IGUI_ALifeUI_04f4deee7622d7b8",
+      "Talk subtitles in 3D",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:28",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "34": [
+      "IGUI_ALifeUI_0db8505c77f0bcaf",
+      "Needs Viewpoint",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:29",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "35": [
+      "IGUI_ALifeUI_2c7523643b420dde",
+      "Shout subtitles in 3D",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:30",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "36": [
+      "IGUI_ALifeUI_514694464e3889ed",
+      "Risky replies",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:32",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "37": [
+      "IGUI_ALifeUI_21463d186d9a196b",
+      "One press",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:33",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "38": [
+      "IGUI_ALifeUI_2bbf8c6b2fd0a503",
+      "Hold or tap twice to confirm",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:33",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "39": [
+      "IGUI_ALifeUI_7c86714e5ba394b2",
+      "Hold",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:33",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "40": [
+      "IGUI_ALifeUI_439653207357d536",
+      "Motion",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:34",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "41": [
+      "IGUI_ALifeUI_1ed5295a2304ad87",
+      "Reduced",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:35",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "42": [
+      "IGUI_ALifeUI_53f1dd1d72bab643",
+      "Reduced: no shake, pulse or slide",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:35",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "43": [
+      "IGUI_ALifeUI_7c85721a5b608bba",
+      "Full",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:35",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "44": [
+      "IGUI_ALifeUI_75fee97838aefcda",
+      "Task tracker",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:36",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "45": [
+      "IGUI_ALifeUI_52dc2eb252858721",
+      "The task you track, in a screen corner",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:37",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "46": [
+      "IGUI_ALifeUI_4a93ceb1655eaa19",
+      "Popups",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:38",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "47": [
+      "IGUI_ALifeUI_014710e251ed1e19",
+      "Important",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:39",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "48": [
+      "IGUI_ALifeUI_4b747f815a6fa137",
+      "Left side. Off still shows danger. Log tab keeps all",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:39",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "49": [
+      "IGUI_ALifeUI_682849e5169b4da3",
+      "Popups at once",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:40",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "50": [
+      "IGUI_ALifeUI_29453a88082aa1be",
+      "More wait in line",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:41",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "51": [
+      "IGUI_ALifeUI_15488ef6435c98aa",
+      "Tracker size",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:42",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "52": [
+      "IGUI_ALifeUI_5313d7944a8a1d8b",
+      "Auto: full after a change, then one line",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:43",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "53": [
+      "IGUI_ALifeUI_65d9007907219821",
+      "One line",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:43",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "54": [
+      "IGUI_ALifeUI_7c82b5405ab50bce",
+      "Auto",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:43",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "55": [
+      "IGUI_ALifeUI_5f4e0de72a037d88",
+      "Intro cards",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:44",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "56": [
+      "IGUI_ALifeUI_1e4653406795f570",
+      "Three hints at the start",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:45",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "57": [
+      "IGUI_ALifeUI_2763a67b74dfee83",
+      "Always",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:45",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "58": [
+      "IGUI_ALifeUI_7c8a428c5c936c4c",
+      "Once",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Prefs.lua:45",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "59": [
+      "IGUI_ALifeUI_24e9bd913b615d3d",
+      "On: music that may be copyrighted is skipped. Sounds and voices stay",
+      [
+        "client/ProjectALife/UI2/ALifeUI2StreamerBubble.lua:56",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "60": [
+      "IGUI_ALifeUI_1178306339b1e1f9",
+      "Streamer question",
+      [
+        "client/ProjectALife/UI2/ALifeUI2StreamerBubble.lua:59",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "61": [
+      "IGUI_ALifeUI_210a36333225248e",
+      "Answered",
+      [
+        "client/ProjectALife/UI2/ALifeUI2StreamerBubble.lua:60",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "62": [
+      "IGUI_ALifeUI_2c88f67e187bbb6b",
+      "Ask again",
+      [
+        "client/ProjectALife/UI2/ALifeUI2StreamerBubble.lua:60",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "63": [
+      "IGUI_ALifeUI_6b09dd931713f91d",
+      "Ask again: the bubble asks on the next new game",
+      [
+        "client/ProjectALife/UI2/ALifeUI2StreamerBubble.lua:60",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "64": [
+      "IGUI_ALifeUI_092c0f855ac59df4",
+      "Points at the task you track, with the distance",
+      [
+        "client/ProjectALife/UI2/ALifeUI2TaskArrow.lua:19",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "65": [
+      "IGUI_ALifeUI_3e255f2544195d66",
+      "Tracker place",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Tracker.lua:19",
+        "label",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "66": [
+      "IGUI_ALifeUI_22d638df2cfb3b01",
+      "Top right",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Tracker.lua:20",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "67": [
+      "IGUI_ALifeUI_63203fac01f27b93",
+      "Bottom right",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Tracker.lua:20",
+        "names",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "68": [
+      "IGUI_ALifeUI_67a854b177374078",
+      "Corner the task tracker sits in",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Tracker.lua:20",
+        "tip",
+        "ayar",
+        "arayuz"
+      ]
+    ],
+    "69": [
+      "IGUI_ALifeUI_286448f4774fe789",
+      "Text and motion",
+      [
+        "client/ProjectALife/UI2/ALifeUI2JournalSettings.lua:18",
+        "label",
+        "ayar_grubu",
+        "arayuz"
+      ]
+    ],
+    "70": [
+      "IGUI_ALifeUI_458a05ce3dc23ddc",
+      "Subtitles",
+      [
+        "client/ProjectALife/UI2/ALifeUI2JournalSettings.lua:19",
+        "label",
+        "ayar_grubu",
+        "arayuz"
+      ]
+    ],
+    "71": [
+      "IGUI_ALifeUI_716d0307011b5a5f",
+      "Tasks and popups",
+      [
+        "client/ProjectALife/UI2/ALifeUI2JournalSettings.lua:20",
+        "label",
+        "ayar_grubu",
+        "arayuz"
+      ]
+    ],
+    "72": [
+      "IGUI_ALifeUI_0d664b937622a694",
+      "Intro",
+      [
+        "client/ProjectALife/UI2/ALifeUI2JournalSettings.lua:21",
+        "label",
+        "ayar_grubu",
+        "arayuz"
+      ]
+    ],
+    "73": [
+      "IGUI_ALifeUI_4d435d8804565852",
+      "Kill the dead inside",
+      [
+        "shared/ProjectALife/Missions/ALifeMissionDefs.lua:109",
+        "detail",
+        "gorev_asamasi",
+        "arayuz"
+      ]
+    ],
+    "74": [
+      "IGUI_ALifeUI_2209a4887b3bdc34",
+      "A brown duffel with a name on the strap",
+      [
+        "shared/ProjectALife/Missions/ALifeMissionDefs.lua:110",
+        "detail",
+        "gorev_asamasi",
+        "arayuz"
+      ]
+    ],
+    "75": [
+      "IGUI_ALifeUI_44737990437fa1ca",
+      "Find Earl's bag",
+      [
+        "shared/ProjectALife/Missions/ALifeMissionDefs.lua:110",
+        "text",
+        "gorev_asamasi",
+        "arayuz"
+      ]
+    ],
+    "76": [
+      "IGUI_ALifeUI_35b369ba3c92cede",
+      "Comply, talk, fight or run",
+      [
+        "shared/ProjectALife/Missions/ALifeMissionDefs.lua:111",
+        "detail",
+        "gorev_asamasi",
+        "arayuz"
+      ]
+    ],
+    "77": [
+      "IGUI_ALifeUI_54b41a4f0afc528c",
+      "Get out alive",
+      [
+        "shared/ProjectALife/Missions/ALifeMissionDefs.lua:111",
+        "text",
+        "gorev_asamasi",
+        "arayuz"
+      ]
+    ],
+    "78": [
+      "IGUI_ALifeUI_1ff1ded14a835922",
+      "Bring the bag to Dell",
+      [
+        "shared/ProjectALife/Missions/ALifeMissionDefs.lua:112",
+        "text",
+        "gorev_asamasi",
+        "arayuz"
+      ]
+    ],
+    "79": [
+      "IGUI_ALifeUI_56fd33566f878edf",
+      "Talk to Dell and hand it over",
+      [
+        "shared/ProjectALife/Missions/ALifeMissionDefs.lua:112",
+        "detail",
+        "gorev_asamasi",
+        "arayuz"
+      ]
+    ],
+    "80": [
+      "IGUI_ALifeUI_4e8cacaf2dc907ee",
+      "Reward",
+      [
+        "shared/ProjectALife/Missions/ALifeMissionDefs.lua:28",
+        "label",
+        "gorev_cipi",
+        "arayuz"
+      ]
+    ],
+    "81": [
+      "IGUI_ALifeUI_40492a5c16091c95",
+      "Hand over",
+      [
+        "shared/ProjectALife/Missions/ALifeMissionDefs.lua:38",
+        "label",
+        "gorev_cipi",
+        "arayuz"
+      ]
+    ],
+    "82": [
+      "IGUI_ALifeUI_7afd8c067af6da59",
+      "Abandon",
+      [
+        "shared/ProjectALife/Missions/ALifeMissionDefs.lua:42",
+        "label",
+        "gorev_cipi",
+        "arayuz"
+      ]
+    ],
+    "83": [
+      "IGUI_ALifeUI_2c3f039e1f3e89f3",
+      "Comply",
+      [
+        "shared/ProjectALife/Missions/ALifeMissionDefs.lua:46",
+        "label",
+        "gorev_cipi",
+        "arayuz"
+      ]
+    ],
+    "84": [
+      "IGUI_ALifeUI_0d2d0b9940ca930c",
+      "Fight",
+      [
+        "shared/ProjectALife/Missions/ALifeMissionDefs.lua:54",
+        "label",
+        "gorev_cipi",
+        "arayuz"
+      ]
+    ],
+    "85": [
+      "IGUI_ALifeUI_2f6274ca0cab9cc1",
+      "Tactics",
+      [
+        "client/ProjectALife/Companions/ALifeCompanionClient.lua:37",
+        "label",
+        "arkadas_carki",
+        "arayuz"
+      ]
+    ],
+    "86": [
+      "IGUI_ALifeUI_0d69556976ec8824",
+      "Items",
+      [
+        "client/ProjectALife/Companions/ALifeCompanionClient.lua:39",
+        "label",
+        "arkadas_carki",
+        "arayuz"
+      ]
+    ],
+    "87": [
+      "IGUI_ALifeUI_0e099e97143f0b76",
+      "Rooms",
+      [
+        "client/ProjectALife/Companions/ALifeCompanionClient.lua:40",
+        "label",
+        "arkadas_carki",
+        "arayuz"
+      ]
+    ]
+  },
+  "_terimler": [
+    [
+      "Default",
+      "Varsayılan"
+    ],
+    [
+      "tile",
+      "kare"
+    ],
+    [
+      "cinematic",
+      "Sinematik"
+    ],
+    [
+      "animation",
+      "Animasyon"
+    ],
+    [
+      "new game",
+      "Yeni oyun"
+    ],
+    [
+      "risky",
+      "Riskli"
+    ]
+  ]
+}

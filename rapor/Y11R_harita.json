@@ -1,0 +1,743 @@
+{
+  "_paket": "Y11R",
+  "_grup": "arayuz_b11",
+  "_dosya": "IG_UI",
+  "_plan": "B11",
+  "_noktalama": false,
+  "_bosluk_koru": true,
+  "_baslik": "Y11 yeniden çeviri · eski Türkçe gösterilmez",
+  "_parcalar": [
+    [
+      1,
+      76
+    ]
+  ],
+  "satirlar": {
+    "1": [
+      "IGUI_ALifeUI_7f1c7e4379ce5586",
+      "The call is on your radio but it sits in the pack. Take it in your hands to hear it",
+      [
+        "ALifeRadioClient.lua",
+        "text",
+        "text"
+      ]
+    ],
+    "2": [
+      "IGUI_ALifeUI_6f5d534b68d8234f",
+      "Your radio is off. Someone could be calling",
+      [
+        "ALifeRadioClient.lua",
+        "text",
+        "text"
+      ]
+    ],
+    "3": [
+      "IGUI_ALifeUI_71f483605d9a44d4",
+      "Voices on the air at {mhz} MHz. Turn your radio on, pick the Field Band preset, keep it in your hands",
+      [
+        "ALifeRadioClient.lua",
+        "text",
+        "text"
+      ]
+    ],
+    "4": [
+      "IGUI_ALifeUI_5880a72e66eec5f9",
+      "Faint voices out there somewhere. A walkie talkie or a ham set would catch them",
+      [
+        "ALifeRadioClient.lua",
+        "text",
+        "text"
+      ]
+    ],
+    "5": [
+      "IGUI_ALifeUI_0c8342dd0f53ec80",
+      "Find a ham or military radio and turn it on",
+      [
+        "ALifeRadioClient.lua",
+        "text",
+        "text"
+      ]
+    ],
+    "6": [
+      "IGUI_ALifeUI_3362cab409a9e889",
+      "A call is going out on {mhz} MHz. You need a powered radio",
+      [
+        "ALifeRadioClient.lua",
+        "text",
+        "text"
+      ]
+    ],
+    "7": [
+      "IGUI_ALifeUI_2423edf677b2743c",
+      "Static on your radio. Someone could be calling on {mhz} MHz",
+      [
+        "ALifeRadioClient.lua",
+        "text",
+        "text"
+      ]
+    ],
+    "8": [
+      "IGUI_ALifeUI_116512a061dca7bd",
+      "Your radio is muted. Someone could be calling",
+      [
+        "ALifeRadioClient.lua",
+        "text",
+        "text"
+      ]
+    ],
+    "9": [
+      "IGUI_ALifeUI_4655293d645002ba",
+      "Radio quiet",
+      [
+        "ALifeRadioClient.lua",
+        "title",
+        "title"
+      ]
+    ],
+    "10": [
+      "IGUI_ALifeUI_17aa56e153799504",
+      "Field Band",
+      [
+        "ALifeRadioReserved.lua",
+        "name",
+        "name"
+      ]
+    ],
+    "11": [
+      "IGUI_ALifeUI_53be53cc712d3a89",
+      "Outpost radio",
+      [
+        "ALifeOutpostRadioMenu.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "12": [
+      "IGUI_ALifeUI_53f9abb9440fd71f",
+      "Safehouse tools",
+      [
+        "ALifeSafehouseClient.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "13": [
+      "IGUI_ALifeUI_6d61ee980a6d5d17",
+      "At the door",
+      [
+        "ALifeSafehouseClient.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "14": [
+      "IGUI_ALifeUI_5b10d0596d81b881",
+      "Silence phone",
+      [
+        "ALifeAudioWireClient.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "15": [
+      "IGUI_ALifeUI_02308c0a6d8478d3",
+      "Take phone",
+      [
+        "ALifeAudioWireClient.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "16": [
+      "IGUI_ALifeUI_37b844c721e6fc74",
+      "Prisoner taken",
+      [
+        "ALifeCaptivesClient.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "17": [
+      "IGUI_ALifeUI_011bad7a44e2660f",
+      "Prisoner fed",
+      [
+        "ALifeCaptivesClient.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "18": [
+      "IGUI_ALifeUI_5fe3d51368c2eba2",
+      "A prisoner is starving",
+      [
+        "ALifeCaptivesClient.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "19": [
+      "IGUI_ALifeUI_2ba39f48607fddc7",
+      "A prisoner broke loose",
+      [
+        "ALifeCaptivesClient.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "20": [
+      "IGUI_ALifeUI_61fb803d09935990",
+      "You lost a prisoner",
+      [
+        "ALifeCaptivesClient.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "21": [
+      "IGUI_ALifeUI_01085c89581ef21d",
+      "Their tip led nowhere",
+      [
+        "ALifeCaptivesClient.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "22": [
+      "IGUI_ALifeUI_4c7a277a1b8e8e0a",
+      "They are marking it, give it a moment",
+      [
+        "ALifeCaptivesClient.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "23": [
+      "IGUI_ALifeUI_1ac7d8c371e770e8",
+      "Feed prisoner",
+      [
+        "ALifeCaptivesClient.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "24": [
+      "IGUI_ALifeUI_5523cdae38dffb06",
+      "Take prisoner",
+      [
+        "ALifeCaptivesClient.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "25": [
+      "IGUI_ALifeUI_69c4656d25f0b40e",
+      "Come with me",
+      [
+        "ALifeCaptivesData.lua",
+        "text",
+        "text"
+      ]
+    ],
+    "26": [
+      "IGUI_ALifeUI_41feec19097a2f68",
+      "Notice board",
+      [
+        "ALifeNoveltyBoardData.lua",
+        "itemName",
+        "itemName"
+      ]
+    ],
+    "27": [
+      "IGUI_ALifeUI_6008f5b25105dc90",
+      "Raid on: {waves} waves left",
+      [
+        "ALifeNoveltyBoardData.lua",
+        "raidLive",
+        "raidLive"
+      ]
+    ],
+    "28": [
+      "IGUI_ALifeUI_246b61db24e037d3",
+      "Raid on, {waves} waves left",
+      [
+        "ALifeNoveltyBoardData.lua",
+        "raidLiveNoFaction",
+        "raidLiveNoFaction"
+      ]
+    ],
+    "29": [
+      "IGUI_ALifeUI_7f7eb8cf427e1c10",
+      "Scouts about: someone is sizing you up",
+      [
+        "ALifeNoveltyBoardData.lua",
+        "raidScouts",
+        "raidScouts"
+      ]
+    ],
+    "30": [
+      "IGUI_ALifeUI_6bfa960e2670eed0",
+      "Scouts about, somebody is being sized up",
+      [
+        "ALifeNoveltyBoardData.lua",
+        "raidScoutsNoFaction",
+        "raidScoutsNoFaction"
+      ]
+    ],
+    "31": [
+      "IGUI_ALifeUI_00c1f995601c19d3",
+      "Last raid hit on day {day}",
+      [
+        "ALifeNoveltyBoardData.lua",
+        "raidLast",
+        "raidLast"
+      ]
+    ],
+    "32": [
+      "IGUI_ALifeUI_76ca01fb73a559ad",
+      "No raid on record",
+      [
+        "ALifeNoveltyBoardData.lua",
+        "raidNone",
+        "raidNone"
+      ]
+    ],
+    "33": [
+      "IGUI_ALifeUI_2778e95400a6171a",
+      "{name} holds a building",
+      [
+        "ALifeNoveltyBoardData.lua",
+        "taskMan",
+        "taskMan"
+      ]
+    ],
+    "34": [
+      "IGUI_ALifeUI_016aa60d78e3e9b6",
+      "{name} is on the lookout",
+      [
+        "ALifeNoveltyBoardData.lua",
+        "taskLookout",
+        "taskLookout"
+      ]
+    ],
+    "35": [
+      "IGUI_ALifeUI_57200f5b4e858be4",
+      "{name} has a job going",
+      [
+        "ALifeNoveltyBoardData.lua",
+        "taskOther",
+        "taskOther"
+      ]
+    ],
+    "36": [
+      "IGUI_ALifeUI_0839d7b759c60fbc",
+      "{name} lost their {thing}, bring it back",
+      [
+        "ALifeNoveltyBoardData.lua",
+        "lost",
+        "lost"
+      ]
+    ],
+    "37": [
+      "IGUI_ALifeUI_005156c83d271027",
+      "No work posted",
+      [
+        "ALifeNoveltyBoardData.lua",
+        "noWork",
+        "noWork"
+      ]
+    ],
+    "38": [
+      "IGUI_ALifeUI_7774f62420a3fbfc",
+      "No word on the road",
+      [
+        "ALifeNoveltyBoardData.lua",
+        "noWord",
+        "noWord"
+      ]
+    ],
+    "39": [
+      "IGUI_ALifeUI_1bb1f1962e365147",
+      "RAID WATCH",
+      [
+        "ALifeNoveltyBoardData.lua",
+        "headRaid",
+        "headRaid"
+      ]
+    ],
+    "40": [
+      "IGUI_ALifeUI_2b8ce6ae74692a37",
+      "REQUESTS",
+      [
+        "ALifeNoveltyBoardData.lua",
+        "headRequests",
+        "headRequests"
+      ]
+    ],
+    "41": [
+      "IGUI_ALifeUI_7c8e1f635d9db239",
+      "WORD",
+      [
+        "ALifeNoveltyBoardData.lua",
+        "headWord",
+        "headWord"
+      ]
+    ],
+    "42": [
+      "IGUI_ALifeUI_171c11c860765b86",
+      "Read the notice board",
+      [
+        "ALifeNoveltyBoardClient.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "43": [
+      "IGUI_ALifeUI_0deb6bed2040ad7b",
+      "Note: a stash",
+      [
+        "ALifeNoveltyNotesData.lua",
+        "stash",
+        "stash"
+      ]
+    ],
+    "44": [
+      "IGUI_ALifeUI_39ffcd1d1bb90473",
+      "Note: a letter",
+      [
+        "ALifeNoveltyNotesData.lua",
+        "letter",
+        "letter"
+      ]
+    ],
+    "45": [
+      "IGUI_ALifeUI_3f3e0038616815a4",
+      "Note: a warning",
+      [
+        "ALifeNoveltyNotesData.lua",
+        "warning",
+        "warning"
+      ]
+    ],
+    "46": [
+      "IGUI_ALifeUI_65f70206080229a8",
+      "Note: a page from a journal",
+      [
+        "ALifeNoveltyNotesData.lua",
+        "journal",
+        "journal"
+      ]
+    ],
+    "47": [
+      "IGUI_ALifeUI_3701768a036c2881",
+      "Note read",
+      [
+        "ALifeNoveltyNotesData.lua",
+        "found",
+        "found"
+      ]
+    ],
+    "48": [
+      "IGUI_ALifeUI_59d375cd53db204b",
+      "Stash {where}",
+      [
+        "ALifeNoveltyNotesData.lua",
+        "stash",
+        "stash"
+      ]
+    ],
+    "49": [
+      "IGUI_ALifeUI_555232b842e932b6",
+      "Somebody wrote this down for a reason",
+      [
+        "ALifeNoveltyNotesData.lua",
+        "read",
+        "read"
+      ]
+    ],
+    "50": [
+      "IGUI_ALifeUI_7c89303d5c68f8cd",
+      "NOTE",
+      [
+        "ALifeNoveltyNotesClient.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "51": [
+      "IGUI_ALifeUI_093098092d9b3714",
+      "Read the note",
+      [
+        "ALifeNoveltyNotesClient.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "52": [
+      "IGUI_ALifeUI_2a96148522cab485",
+      "Handwritten note",
+      [
+        "ALifeNoveltyNotes.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "53": [
+      "IGUI_ALifeUI_3cf7d8f404e453ad",
+      "{name}'s bag",
+      [
+        "ALifeNoveltyNotes.lua",
+        "bagName",
+        "bagName"
+      ]
+    ],
+    "54": [
+      "IGUI_ALifeUI_0dfac81c10ba330b",
+      "RUMOR",
+      [
+        "ALifeNoveltyRumorsData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "55": [
+      "IGUI_ALifeUI_7d56862b125e4d59",
+      "Word on the road",
+      [
+        "ALifeNoveltyRumorsData.lua",
+        "title",
+        "title"
+      ]
+    ],
+    "56": [
+      "IGUI_ALifeUI_1b2a0654629af83e",
+      "the locals",
+      [
+        "ALifeNoveltyRumors.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "57": [
+      "IGUI_ALifeUI_18e846ba069b8bd3",
+      "dog tags",
+      [
+        "ALifeNoveltyLostData.lua",
+        "thing",
+        "thing"
+      ]
+    ],
+    "58": [
+      "IGUI_ALifeUI_677b52516fd411be",
+      "{name}'s {thing}",
+      [
+        "ALifeNoveltyLostData.lua",
+        "itemName",
+        "itemName"
+      ]
+    ],
+    "59": [
+      "IGUI_ALifeUI_52c6358660a4f48a",
+      "REQUEST",
+      [
+        "ALifeNoveltyLostData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "60": [
+      "IGUI_ALifeUI_711c0a472ece978c",
+      "{name}'s dog tag",
+      [
+        "ALifeNoveltyMemorialsData.lua",
+        "tagName",
+        "tagName"
+      ]
+    ],
+    "61": [
+      "IGUI_ALifeUI_0d31e33c4f3953b5",
+      "GRAVE",
+      [
+        "ALifeNoveltyMemorialsData.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "62": [
+      "IGUI_ALifeUI_6ec76c33769f934b",
+      "right where you stand",
+      [
+        "ALifeNoveltyCore.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "63": [
+      "IGUI_ALifeUI_15a200553057e57f",
+      "about {dist} steps {dir} of here",
+      [
+        "ALifeNoveltyCore.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "64": [
+      "IGUI_ALifeUI_0b04139c18121368",
+      "in {town}",
+      [
+        "ALifeNoveltyCore.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "65": [
+      "IGUI_ALifeUI_71f057e1385f6c34",
+      "near {town}",
+      [
+        "ALifeNoveltyCore.lua",
+        "ui",
+        "ui"
+      ]
+    ],
+    "66": [
+      "IGUI_ALifeUI_0e4e462c5244d70f",
+      "Military fort",
+      [
+        "ALifeOutpostPresets.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "67": [
+      "IGUI_ALifeUI_61ae40ed0533275f",
+      "Survivor farmstead",
+      [
+        "ALifeOutpostPresets.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "68": [
+      "IGUI_ALifeUI_06f75d962a436073",
+      "Trader market yard",
+      [
+        "ALifeOutpostPresets.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "69": [
+      "IGUI_ALifeUI_317a7df61d4bddd9",
+      "Prison yard",
+      [
+        "ALifeOutpostPresets.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "70": [
+      "IGUI_ALifeUI_326ae64f29fc68df",
+      "Ranger camp",
+      [
+        "ALifeOutpostPresets.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "71": [
+      "IGUI_ALifeUI_5e889a8e7665ffc1",
+      "Raider stronghold",
+      [
+        "ALifeOutpostPresets.lua",
+        "label",
+        "label"
+      ]
+    ],
+    "72": [
+      "IGUI_ALifeUI_30375e025aaadaa8",
+      "Word is {faction} people are asking around about you",
+      [
+        "ALifeRevenge.lua",
+        "liste",
+        "liste Revenge.notices"
+      ]
+    ],
+    "73": [
+      "IGUI_ALifeUI_07e78ec81e34821a",
+      "Insult them",
+      [
+        "ALifeModuleRobbery.lua",
+        "insult",
+        "insult"
+      ]
+    ],
+    "74": [
+      "IGUI_ALifeUI_25990eb854bde0e4",
+      "No tasks right now",
+      [
+        "ALifeTreeServer.lua",
+        "liste",
+        "liste"
+      ]
+    ],
+    "75": [
+      "IGUI_ALifeUI_32bf7204310f0cc3",
+      "fleeing",
+      [
+        "ALifeActivityService.lua",
+        "liste",
+        "SÖZCÜK · ActivityService"
+      ]
+    ],
+    "76": [
+      "IGUI_ALifeUI_1484fde226a33885",
+      "person",
+      [
+        "ALifeVisitorInstance.lua",
+        "liste",
+        "SÖZCÜK · VisitorInstance"
+      ]
+    ]
+  },
+  "_terimler": [
+    [
+      "Faction",
+      "Fraksiyon"
+    ],
+    [
+      "Safehouse",
+      "Güvenli ev"
+    ],
+    [
+      "Outpost",
+      "Karakol"
+    ],
+    [
+      "Raid",
+      "Baskın"
+    ],
+    [
+      "Preset",
+      "Ön ayar"
+    ],
+    [
+      "Survivor",
+      "Hayatta kalan"
+    ],
+    [
+      "prisoner",
+      "Esir"
+    ],
+    [
+      "lookout",
+      "Gözcülük"
+    ],
+    [
+      "sizing you up",
+      "Seni tartıyor"
+    ],
+    [
+      "starving",
+      "Açlıktan ölüyor"
+    ]
+  ]
+}

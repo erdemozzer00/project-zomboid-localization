@@ -1,0 +1,849 @@
+{
+  "_paket": "D3c — Sivillerin panik replikleri: ilk günlerde saklanma (PANIC_DAY_HIDE), 281",
+  "_dosya": "RadioData_lua",
+  "satirlar": {
+    "RD_ALifeLine_2bc31a7104d795c1": {
+      "tr": "İçeri, içeri, İÇERİ!"
+    },
+    "RD_ALifeLine_198343386dcb701b": {
+      "tr": "Saklanacak bir yer bulun! Hadi, herkes!"
+    },
+    "RD_ALifeLine_3715ebd269d5df6e": {
+      "tr": "Herkes hemen içeri, durup bakmayın"
+    },
+    "RD_ALifeLine_120332ac0e13e9c1": {
+      "tr": "Kilitle kilitle KİLİTLE!"
+    },
+    "RD_ALifeLine_1affd6ba40bc82bb": {
+      "tr": "Kilitli mi? KİLİTLİ Mİ?"
+    },
+    "RD_ALifeLine_44dd141174da9a07": {
+      "tr": "Yatağın altına, hadi, hadi, yatağın altına!"
+    },
+    "RD_ALifeLine_77ef1ad31c4ac514": {
+      "tr": "Küvete, küvete gir, perdeyi çek"
+    },
+    "RD_ALifeLine_4589dd675d6761b7": {
+      "tr": "Görünmemeye çalış. Alçakta kal"
+    },
+    "RD_ALifeLine_7420dee467c4e6c8": {
+      "tr": "Saklanacak bir yer bul, çabuk, HADİ"
+    },
+    "RD_ALifeLine_4dbc3b8d2abfd862": {
+      "tr": "Çöp konteynerinin arkasına, çabuk, arkasına, eğil!"
+    },
+    "RD_ALifeLine_7c8b7a5d5cf3be39": {
+      "tr": "KAÇ!"
+    },
+    "RD_ALifeLine_3516d83b25ca6aa1": {
+      "tr": "Tek ses yok!"
+    },
+    "RD_ALifeLine_3c584b014815a985": {
+      "tr": "Bu taraftan, hadi!"
+    },
+    "RD_ALifeLine_2601006a2e0e24e2": {
+      "tr": "Sakın arkana bakma, SAKIN!"
+    },
+    "RD_ALifeLine_4d29e3af0dd0e10e": {
+      "tr": "Kıpırdat şu ayaklarını, yürü, YÜRÜ!"
+    },
+    "RD_ALifeLine_1d9bda677be46051": {
+      "tr": "Sessiz, sessiz, kimse nefes almasın..."
+    },
+    "RD_ALifeLine_268a9b225987d019": {
+      "tr": "Şşt, şşt, sessiz olun, ne olur!"
+    },
+    "RD_ALifeLine_593b8f2730adb49c": {
+      "tr": "Nereye GİDECEĞİZ?"
+    },
+    "RD_ALifeLine_3d49b07f1995aca9": {
+      "tr": "Hanımefendi! Bu taraftan! Hadi!"
+    },
+    "RD_ALifeLine_493aad70483951ca": {
+      "tr": "Uzak durun! Hiçbir şey kapmasın sakın!"
+    },
+    "RD_ALifeLine_2befb09303d6c3e6": {
+      "tr": "Olamaz, saklan, saklanmam lazım, nereye saklanayım?"
+    },
+    "RD_ALifeLine_3a1c0fd778a823b0": {
+      "tr": "Eğil, daha çok eğil, yapış yere, yapış"
+    },
+    "RD_ALifeLine_217b3c425557bbc1": {
+      "tr": "Orada durma, yürü"
+    },
+    "RD_ALifeLine_0e051eb40ad97b3e": {
+      "tr": "Herkes içeri, herkes içeri, herkes içeride mi"
+    },
+    "RD_ALifeLine_0438f80237540cad": {
+      "tr": "Beni içeri aliiin, ne olur içeri alın, ne olur, NE OLUR!"
+    },
+    "RD_ALifeLine_289548850c503fc2": {
+      "tr": "Çabuk, çabuk, geliyor, bu tarafa geliyor..."
+    },
+    "RD_ALifeLine_7ee2a36110cb7706": {
+      "tr": "Burası güvenli değil, gitmemiz lazım, şimdi, ŞİMDİ"
+    },
+    "RD_ALifeLine_2192cd336d0b1c44": {
+      "tr": "Nefes alamıyorum, bensiz gidin, saklanın, hadi saklanın"
+    },
+    "RD_ALifeLine_535aabe87e487853": {
+      "tr": "Daha hızlı, DAHA HIZLI, tam şurada"
+    },
+    "RD_ALifeLine_569e6e1331c90c24": {
+      "tr": "İçeri girdiğimizi gördü mü? GÖRDÜ MÜ bizi?"
+    },
+    "RD_ALifeLine_4415fb096302c5fe": {
+      "tr": "Elimi bırakma, bırakma, ne olursa olsun bırakma!"
+    },
+    "RD_ALifeLine_38c0f272696fb1c8": {
+      "tr": "Nineyi tut, öbür kolundan tut, gidiyoruz!"
+    },
+    "RD_ALifeLine_73c42c2d4e6db647": {
+      "tr": "Onları içeri alalım, almamız lazım- hayır, alamayız, ALAMAYIZ"
+    },
+    "RD_ALifeLine_5f510a371051a231": {
+      "tr": "Çabuk çabuk ÇABUK!"
+    },
+    "RD_ALifeLine_479a16e02c23edd4": {
+      "tr": "Pst, sessiz, sessiz! Yerini belli etme!"
+    },
+    "RD_ALifeLine_462d37a15ef72c28": {
+      "tr": "Kilisenin arkasına, arkasına, arkasına çömel!"
+    },
+    "RD_ALifeLine_5922e4de29f0761f": {
+      "tr": "Orası değil, orası açık, ORASI, rafların arkası!"
+    },
+    "RD_ALifeLine_6eb502d609cff0c8": {
+      "tr": "Allah'ım, sakla bizi, Allah'ım, sakla bizi, sakla..."
+    },
+    "RD_ALifeLine_0b24d5d6302d23dc": {
+      "tr": "Kaç, Debbie, KAÇ, beni bekleme!"
+    },
+    "RD_ALifeLine_12f1c35c7f2da124": {
+      "tr": "Anahtarı bulamıyorum, anahtarı bulamıyorum, anahtar nerede?!"
+    },
+    "RD_ALifeLine_6758bdea6844312e": {
+      "tr": "Arkadan çıkın, ön taraftalar!"
+    },
+    "RD_ALifeLine_174c666b65a3a4eb": {
+      "tr": "Allah'ım, komşunun evine gidiyor, EĞİL!"
+    },
+    "RD_ALifeLine_2f5b1849410557a5": {
+      "tr": "Bekle! Bekle beni! Bensiz gitme!"
+    },
+    "RD_ALifeLine_421287110dff8bd4": {
+      "tr": "Eve gitmek istiyorum, burada güvende değilim..."
+    },
+    "RD_ALifeLine_6833fa58584a08a3": {
+      "tr": "Bahçe! Bahçe olmaz! Bahçe hariç her yer!"
+    },
+    "RD_ALifeLine_4e9ff37833a49ee2": {
+      "tr": "Anne, anne, sarıl bana, sarıl, sarıl..."
+    },
+    "RD_ALifeLine_2800b52a00e90e49": {
+      "tr": "Hayırhayır, oraya saklanma, ilk bakacakları yer orası-"
+    },
+    "RD_ALifeLine_137af48904df3d00": {
+      "tr": "Köpek hâlâ dışarıda! Bırak onu! Yok, al onu, yok!"
+    },
+    "RD_ALifeLine_0a70c08e64233afa": {
+      "tr": "Tırmaladığını duyuyorum, tahtayı tırmaladığını duyuyorum!"
+    },
+    "RD_ALifeLine_2d7700951dad39a5": {
+      "tr": "Eğilin! Ses çıkarmayın!"
+    },
+    "RD_ALifeLine_2ee19a476c1b56dc": {
+      "tr": "Fırtına sığınağı! Fırtına sığınağı, anahtar bende!"
+    },
+    "RD_ALifeLine_7609a00c0ef97181": {
+      "tr": "Karavan! Karavana binin, anahtar bende!"
+    },
+    "RD_ALifeLine_4215e85a787eba40": {
+      "tr": "Yavaş... ses çıkarma"
+    },
+    "RD_ALifeLine_2945da801a1fcd53": {
+      "tr": "Sürgüle, zincirle, ne kadar kilit varsa"
+    },
+    "RD_ALifeLine_327737ad545eea57": {
+      "tr": "Önüne bir şey dayayın, ağır ne varsa, itin!"
+    },
+    "RD_ALifeLine_27d0271e2e682efd": {
+      "tr": "Çarpma, sessizce kapat, sessiz..."
+    },
+    "RD_ALifeLine_6879a7b66607596c": {
+      "tr": "Arkaya geçin, en arkaya!"
+    },
+    "RD_ALifeLine_416f91d42f6739be": {
+      "tr": "Bırak, çantayı bırak, HER ŞEYİ bırak, git"
+    },
+    "RD_ALifeLine_68823c9853a4a103": {
+      "tr": "Git işte, düşünme!"
+    },
+    "RD_ALifeLine_36e3a0e9570932f6": {
+      "tr": "Nefesini tut, tut, tam kapının dışında!"
+    },
+    "RD_ALifeLine_174cd27f5af3f161": {
+      "tr": "İçerisi güvenli mi? Güvenli mi bilmiyorum"
+    },
+    "RD_ALifeLine_004a32be3bd52aa6": {
+      "tr": "O ev değil, o değil, BU, bunun bir- hadi"
+    },
+    "RD_ALifeLine_43f2181976459468": {
+      "tr": "Neresi olursa, açıktan çekilin yeter, neresi olduğu umurumda değil"
+    },
+    "RD_ALifeLine_614f6296646efa8a": {
+      "tr": "Işıklar! Evdeki bütün ışıkları söndürün, SÖNDÜRÜN!"
+    },
+    "RD_ALifeLine_34cd36ac3def5b7c": {
+      "tr": "Görünmeyecek bir yere geç, hadi!"
+    },
+    "RD_ALifeLine_4e96f96e3861a0ec": {
+      "tr": "Bacaklarım gitmiyor, sen git, hadi, saklan, git"
+    },
+    "RD_ALifeLine_1871a26b49301286": {
+      "tr": "Sessiz olun, ne olur, duyabilirler!"
+    },
+    "RD_ALifeLine_0544db750651063e": {
+      "tr": "Gitmemiz lazım, GİTMEMİZ lazım, burada kalamayız!"
+    },
+    "RD_ALifeLine_3ecf44bd782bf730": {
+      "tr": "Kapat, bahçe kapısını arkandan kapat!"
+    },
+    "RD_ALifeLine_1bb8bc487f8fa69b": {
+      "tr": "Biscuit! Biscuit'i içeri alın, YAKALAYIN ONU!"
+    },
+    "RD_ALifeLine_510fc0f540b6cbc6": {
+      "tr": "Ben çıkmıyorum, beni zorla çıkaramazsın"
+    },
+    "RD_ALifeLine_7e32f18d56440721": {
+      "tr": "Elini ağzına kapat, cama nefes verme"
+    },
+    "RD_ALifeLine_6a3bba5d4d8c4193": {
+      "tr": "Buraya, buraya, yer var, sığış"
+    },
+    "RD_ALifeLine_224405ff4b4e119c": {
+      "tr": "Arkadan çıkış nerede? Arkadan bir çıkış olmalı"
+    },
+    "RD_ALifeLine_6bf3c5fa1a411202": {
+      "tr": "Odanın ortasına, kenarlardan uzak durun!"
+    },
+    "RD_ALifeLine_6a34d3d2476ec5a9": {
+      "tr": "Yüze kadar say, ses çıkarma, hazır mısın, bir"
+    },
+    "RD_ALifeLine_0def383729c90d1e": {
+      "tr": "Arkama, herkes arkama, sonra içeri"
+    },
+    "RD_ALifeLine_5821415e375d56f1": {
+      "tr": "Şunu dene, şu evi dene, dene, belki evde kimse yok"
+    },
+    "RD_ALifeLine_4150868b0429c336": {
+      "tr": "Ne olur birinin evi açık olsun, ne olur"
+    },
+    "RD_ALifeLine_4c3577723d759d41": {
+      "tr": "Battaniyenin altına, battaniyenin altına gir, seni görmesin"
+    },
+    "RD_ALifeLine_77043bb555aadba7": {
+      "tr": "Geçmesini bekleyin, bekleyin, kimse kıpırdamasın, bekleyin!"
+    },
+    "RD_ALifeLine_65c679da39b3ed3e": {
+      "tr": "Sustur şu radyoyu, sustur, sesini sonuna kadar kıs!"
+    },
+    "RD_ALifeLine_233ec17c06accbc5": {
+      "tr": "Ön taraftan uzak durun, ön odadan uzak!"
+    },
+    "RD_ALifeLine_358489494cffa230": {
+      "tr": "Gittiğini duyana kadar bekle... bekle... daha değil..."
+    },
+    "RD_ALifeLine_3e8bb601360ef72c": {
+      "tr": "Öbür ayakkabın nerede? Boş ver, ayakkabıyı boş ver, HADİ"
+    },
+    "RD_ALifeLine_5fb5e4263fc8d866": {
+      "tr": "Kilise! Kilise açık, kiliseye koşun!"
+    },
+    "RD_ALifeLine_3c055f410e138e4d": {
+      "tr": "Fort Knox, askerî üste bizi içeri alırlar, almak zorundalar"
+    },
+    "RD_ALifeLine_78cbe0e52766ead0": {
+      "tr": "Gir içeri, tek kelime etme..."
+    },
+    "RD_ALifeLine_6a863c525247fe69": {
+      "tr": "Saklanacak bir yer bulun! Birbirinize yardım edin!"
+    },
+    "RD_ALifeLine_37f1f5de16b3e21c": {
+      "tr": "Panjurları indirin, hepsini indirin, çabuk!"
+    },
+    "RD_ALifeLine_5d274eba6f73f48e": {
+      "tr": "Soğuk hava deposu, depoya, depoya girin, yürüyün!"
+    },
+    "RD_ALifeLine_6958a77e0a3b4de2": {
+      "tr": "Ayaklarını çek, topla, görünmesin..."
+    },
+    "RD_ALifeLine_6e560a1159257c6b": {
+      "tr": "Çömelin, kimse bakmasın, bir kere bile bakmasın!"
+    },
+    "RD_ALifeLine_4430f5ea2dc01657": {
+      "tr": "Bir dakika, bir dakika ver, koşamıyorum, özür dilerim!"
+    },
+    "RD_ALifeLine_61f046eb1ebb58ed": {
+      "tr": "Tepeden aşağı, hadi, yolda eğilerek git!"
+    },
+    "RD_ALifeLine_1706d72c39f51d45": {
+      "tr": "Kilitledin mi? Kilitlemedin, değil mi? Geri dön, yok, dönme!"
+    },
+    "RD_ALifeLine_6cd416506dbaf80e": {
+      "tr": "Yiyecekleri saklayın, saklayın, biri yiyecek görürse içeri girmek ister!"
+    },
+    "RD_ALifeLine_10d223b5063fcba5": {
+      "tr": "Sakin, yavaş yavaş, teker teker, herkes geçsin!"
+    },
+    "RD_ALifeLine_03eef25519d9b4b9": {
+      "tr": "Yüzüstü yat, yere yapış, kalkma!"
+    },
+    "RD_ALifeLine_6470be5a52f999ec": {
+      "tr": "Yok, olmaz, burada olmaz, başka bir yer bulmamız lazım-"
+    },
+    "RD_ALifeLine_43a7614450f09898": {
+      "tr": "Evde kimse var mı? KİMSE? Ne olur açın, ne olur!"
+    },
+    "RD_ALifeLine_4386aa72560a6e84": {
+      "tr": "Sessiz olalım. Başımıza daha fazla dert açmayalım"
+    },
+    "RD_ALifeLine_255e0d371474cece": {
+      "tr": "Dışarı bakma, onu çekersin, bakma işte!"
+    },
+    "RD_ALifeLine_153f6768240e9a32": {
+      "tr": "Kıracak, kırıp içeri girecek!"
+    },
+    "RD_ALifeLine_2d8cb1da26b3c55d": {
+      "tr": "Geri çekil, bir tane daha var, iki tane!"
+    },
+    "RD_ALifeLine_76fdb0005ecfca8e": {
+      "tr": "Babam nerede? Babam geliyor mu?!"
+    },
+    "RD_ALifeLine_58438a5f359eaa00": {
+      "tr": "O taraf değil! Onlar oradan geldi, BU taraf!"
+    },
+    "RD_ALifeLine_21a48a553749b4c9": {
+      "tr": "Altına yuvarlan, yuvarlan, yuvarlan, büzül-"
+    },
+    "RD_ALifeLine_5d20acb3006c8d93": {
+      "tr": "Yarabbi, kilit dayansın..."
+    },
+    "RD_ALifeLine_0f2cbec279868170": {
+      "tr": "Sıra halinde koşun, dağılmayın, SIRA HALİNDE!"
+    },
+    "RD_ALifeLine_5e67ac3560c6e923": {
+      "tr": "Bizi göremeyecekleri bir yer bulmaya çalışın!"
+    },
+    "RD_ALifeLine_10924b4f34240043": {
+      "tr": "İçeriden kilitleyin ve ben dört kere vurmadan çıkmayın..."
+    },
+    "RD_ALifeLine_7df67c6e3e3b54a8": {
+      "tr": "Kütüphane, kütüphaneye, kimse kütüphaneye girmez..."
+    },
+    "RD_ALifeLine_48b65645713cf8b9": {
+      "tr": "Kaynak evi, tepenin aşağısındaki kaynak evine!"
+    },
+    "RD_ALifeLine_49eb6938655dae42": {
+      "tr": "Kilise olmaz, herkesin ilk bakacağı yer orası!"
+    },
+    "RD_ALifeLine_4a0fcb99083f0dfc": {
+      "tr": "Sıradan bir günmüş gibi gir, koşma, sadece yürüyüp gir"
+    },
+    "RD_ALifeLine_3716fb4828f52c9a": {
+      "tr": "Sessiz ol... ne olur, bir dakikalığına"
+    },
+    "RD_ALifeLine_58c029dc6817ff8c": {
+      "tr": "Herkes nefesini tutsun, şimdi gidin!"
+    },
+    "RD_ALifeLine_641e327718ae79e7": {
+      "tr": "Sıraların altına, altına, önce küçükler"
+    },
+    "RD_ALifeLine_24dc12052dc11508": {
+      "tr": "Küçükleri montlarla örtün, montlarınızı üstlerine atın"
+    },
+    "RD_ALifeLine_60632a973ce97f4f": {
+      "tr": "Dondurucuların arkasına, gürültülüler, kimse bizi duymaz!"
+    },
+    "RD_ALifeLine_0b1e2e126cbcf9c5": {
+      "tr": "Göz önünde saklan, kıpırdama, manken gibi dur"
+    },
+    "RD_ALifeLine_720c02f46c7c2b73": {
+      "tr": "Sessiz olun, ne olur. Bizi duymasınlar"
+    },
+    "RD_ALifeLine_0a00a7d26cb21dbf": {
+      "tr": "Güvenli bir yere ulaşmak için birbirinize yardım edin!"
+    },
+    "RD_ALifeLine_476834c379796781": {
+      "tr": "Perdeleri kapat, içeriyi görebiliyorlar"
+    },
+    "RD_ALifeLine_413599d353de8ec3": {
+      "tr": "Pencerelerden uzak, pencerelerden uzak durun!"
+    },
+    "RD_ALifeLine_1d4a933e7ff4a1f5": {
+      "tr": "Pencereyi ört, üstüne bir çarşaf geç"
+    },
+    "RD_ALifeLine_51655ce5399cb668": {
+      "tr": "Pencerenin mandalı kapalı mı? Biri pencereyi mandallasın!"
+    },
+    "RD_ALifeLine_0f7db230411bb27d": {
+      "tr": "Hey! Buraya! Seni görmeden buraya gir!"
+    },
+    "RD_ALifeLine_5311d487677da243": {
+      "tr": "İçerideyiz, girdik, kimse ses çıkarmasın"
+    },
+    "RD_ALifeLine_4c52194379f0fecd": {
+      "tr": "İçeride olduğumuzu biliyorlar, BİLİYORLAR, kokumuzu alıyorlar!"
+    },
+    "RD_ALifeLine_2d667ebc34b940a8": {
+      "tr": "Kapıyı kapat! KAPIYI KAPAT!"
+    },
+    "RD_ALifeLine_31a95e0c2bcbb815": {
+      "tr": "Kapıyı tut, tut!"
+    },
+    "RD_ALifeLine_22bf63a43578c0d8": {
+      "tr": "Kapıyı tut, benimle birlikte tut!"
+    },
+    "RD_ALifeLine_584bb5f652752cc2": {
+      "tr": "Kapıyı zorluyor, KAPIYI zorluyor!"
+    },
+    "RD_ALifeLine_0cf03c3a7778561b": {
+      "tr": "Açma, kimseye açma, KİMSEYE açma!"
+    },
+    "RD_ALifeLine_5de6b209415aecf5": {
+      "tr": "Bu Pete, Pete'in sesi bu, içeri al onu!"
+    },
+    "RD_ALifeLine_7c97bb233290f69a": {
+      "tr": "Bu Pete değil, kapıdan GERİ çekil!"
+    },
+    "RD_ALifeLine_064c4d9d68b4d289": {
+      "tr": "Açın! Açın kapıyı! Arkamdalar!"
+    },
+    "RD_ALifeLine_4a5a92f633440b00": {
+      "tr": "İtfaiye! Çelik kapıları var! İtfaiyeye koşun!"
+    },
+    "RD_ALifeLine_64b7f6be7a6d3873": {
+      "tr": "Cam kapılardan uzak durun!"
+    },
+    "RD_ALifeLine_26a488e81992ff2a": {
+      "tr": "Kapıyı kilitle, kapıyı kilitle!"
+    },
+    "RD_ALifeLine_6566a8f021c303c8": {
+      "tr": "Arka kapı kapalı mı? Biri arka kapıya baksın"
+    },
+    "RD_ALifeLine_73a841154cfdb7dc": {
+      "tr": "Kapının altına bir sandalye sıkıştır, sandalye, ne olursa..."
+    },
+    "RD_ALifeLine_79deb5c53803ffd8": {
+      "tr": "Kapıyı açın! Açın, beni içeri alın!"
+    },
+    "RD_ALifeLine_50afd18904f84b57": {
+      "tr": "Sensen iki kere vur, iki, bir kere vurursan açmam"
+    },
+    "RD_ALifeLine_5693609d366a1600": {
+      "tr": "Kamyona binin! Kamyona!"
+    },
+    "RD_ALifeLine_3332824a6d80c6f0": {
+      "tr": "Kamyonun kapılarını kilitle, bütün kapıları"
+    },
+    "RD_ALifeLine_074c24e76d8c0c56": {
+      "tr": "Kamyonun anahtarı kimde?"
+    },
+    "RD_ALifeLine_18ac0bbc6ab6042d": {
+      "tr": "Hadi, hadi, sür, sür işte, sür!"
+    },
+    "RD_ALifeLine_49276d1936fc6d84": {
+      "tr": "Sokaktan çekilin, sokaktan çekilin, hemen!"
+    },
+    "RD_ALifeLine_18827e5631b29870": {
+      "tr": "Yoldan gitme, yoldan uzak dur, bahçelerin içinden geç"
+    },
+    "RD_ALifeLine_1d6179315ec0cb34": {
+      "tr": "Karşıya geç, çabuk, hemen, onlar dönmeden"
+    },
+    "RD_ALifeLine_403bd9ec5d0dfdf9": {
+      "tr": "Çitin üstünden, hadi, hadi atla, ben seni kaldırırım!"
+    },
+    "RD_ALifeLine_4d1ab6dc347d96a7": {
+      "tr": "Çit dayanmaz, dayanmaz, hadi, hadi"
+    },
+    "RD_ALifeLine_012a36236a067c12": {
+      "tr": "Merdivende sessiz olun!"
+    },
+    "RD_ALifeLine_78e3534b271e974a": {
+      "tr": "Merdiveni arkandan çek, yukarı çek!"
+    },
+    "RD_ALifeLine_2419c40812b7d3ca": {
+      "tr": "Merdiven, ikişer ikişer, durmak yok, bakmak yok!"
+    },
+    "RD_ALifeLine_0bf60afb07807165": {
+      "tr": "Samanlığa, yukarı, yukarı, merdiveni arkandan çek!"
+    },
+    "RD_ALifeLine_02ab095a33b9acaa": {
+      "tr": "Merdiveni kullanma, gıcırdıyor, başka yol bul"
+    },
+    "RD_ALifeLine_2126a090770ccfcb": {
+      "tr": "Ağaçların arasına, hadi, eğil!"
+    },
+    "RD_ALifeLine_5e6e58e06ea85d3d": {
+      "tr": "Bodruma, bodruma inin, çabuk"
+    },
+    "RD_ALifeLine_7a64551d24342f10": {
+      "tr": "Tavan arasına, tavan arasına çık, kapağı kapat"
+    },
+    "RD_ALifeLine_2b22e8032253a98f": {
+      "tr": "Kilere gir, sığış"
+    },
+    "RD_ALifeLine_5abba25978c3a369": {
+      "tr": "Banyoya kapanın, kilitleyin, koridoru ben tutarım"
+    },
+    "RD_ALifeLine_789824516c8a4212": {
+      "tr": "Mahzene, herkes aşağı, inerken kafa sayın!"
+    },
+    "RD_ALifeLine_4c1e11946ff25273": {
+      "tr": "Yatağı duvara dayayın, daha yukarı!"
+    },
+    "RD_ALifeLine_5013d07d765530b4": {
+      "tr": "Kilisenin bodrumuna, herkes kilisenin bodrumuna, sessizce!"
+    },
+    "RD_ALifeLine_2187e57f29fff1a1": {
+      "tr": "Kendimi banyoya kilitliyorum, özür dilerim"
+    },
+    "RD_ALifeLine_016ef4a85386b0ba": {
+      "tr": "Elini duvara koy, takip et, köşeyi bul!"
+    },
+    "RD_ALifeLine_0ea0efff3cce0a3e": {
+      "tr": "Lavabonun altına, lavabonun altına, sığarım, oraya sığarım..."
+    },
+    "RD_ALifeLine_6e7eda4548cda5ef": {
+      "tr": "Buraya! Buraya, çabuk, BURAYA!"
+    },
+    "RD_ALifeLine_140d74d37998a493": {
+      "tr": "Burada yer kalmadı, yer yok, özür dilerim, çok özür dilerim!"
+    },
+    "RD_ALifeLine_1fa78614555ad402": {
+      "tr": "Burası neden bu kadar sıcak? Neden nefes alamıyorum?"
+    },
+    "RD_ALifeLine_06cf444e5f642055": {
+      "tr": "Burada nefes alamıyorum, alamıyorum, aç şunu, yok, açma!"
+    },
+    "RD_ALifeLine_1f8e586e58129ed4": {
+      "tr": "Daha güvenli bir yer bul! Dikkat çekme!"
+    },
+    "RD_ALifeLine_153172d747fa03ec": {
+      "tr": "Ayakkabıları çıkar, yumuşak bas, olabildiğince yumuşak-"
+    },
+    "RD_ALifeLine_660975290f489119": {
+      "tr": "Fener yok, söndür onu!"
+    },
+    "RD_ALifeLine_265634dd5916b127": {
+      "tr": "Tütün ambarı! Ambara gidin, ambara kimse bakmaz!"
+    },
+    "RD_ALifeLine_35e77681592121a7": {
+      "tr": "Menfez, tarlanın ötesinde bir menfez var, hadi!"
+    },
+    "RD_ALifeLine_2c4c20fa2ff80cdd": {
+      "tr": "Teker teker, hadi, çabuk, çabuk, çabuk!"
+    },
+    "RD_ALifeLine_2e35f4c96087cc8a": {
+      "tr": "Geç, arkamızdan ben kapatırım!"
+    },
+    "RD_ALifeLine_7aceab441f84b953": {
+      "tr": "Botlarını giy, çantanı al, kaçmamız gerekebilir!"
+    },
+    "RD_ALifeLine_0c2886b95a48d8bb": {
+      "tr": "Yem dükkânının arkasında bir ofis var, kilidi var, girin!"
+    },
+    "RD_ALifeLine_48867f291f5c922f": {
+      "tr": "Kapat, kilitle, şu şeyler peşimizden gelmesin!"
+    },
+    "RD_ALifeLine_441e4d7c33c75f74": {
+      "tr": "Koşum odası, koşum odasının kapısında sürgü var"
+    },
+    "RD_ALifeLine_7960c5e837f3aaea": {
+      "tr": "Alet kulübesi, çim biçme makinesinin yanına sığış, hadi!"
+    },
+    "RD_ALifeLine_52a94dbb0c5ce2d4": {
+      "tr": "Anahtarlarını cebinden çıkar, şıngırdıyorlar..."
+    },
+    "RD_ALifeLine_5e35171412d482df": {
+      "tr": "Kimde astım var? İnhalerin yanında mı? Yanında mı?"
+    },
+    "RD_ALifeLine_7361c4f649082f54": {
+      "tr": "Motoru kapat, kapat, öyle kayarak gir"
+    },
+    "RD_ALifeLine_3f2ddf1a427026a2": {
+      "tr": "Köpeği arkaya koy, sesini kes şunun!"
+    },
+    "RD_ALifeLine_01f9576841d9eccd": {
+      "tr": "Altmışa kadar say, iyi dinle, sonra bakarız"
+    },
+    "RD_ALifeLine_4b26c0e21b3381da": {
+      "tr": "Okulun spor salonu var, büyük, hepimiz sığarız"
+    },
+    "RD_ALifeLine_5f5e9ba007689953": {
+      "tr": "Belki polis yardım edebilir. Artık hiçbir şey bilmiyorum"
+    },
+    "RD_ALifeLine_6ff0fd19244fdea6": {
+      "tr": "Oyalanmayı bırak, bütün günümüz yok"
+    },
+    "RD_ALifeLine_1299922a055805db": {
+      "tr": "Döşeme altı kuru, dar ama kuru, sığarız!"
+    },
+    "RD_ALifeLine_41beeddd4b6da043": {
+      "tr": "Telefona dokunma, tek ses yok, biz burada yokuz"
+    },
+    "RD_ALifeLine_082da3a63189a587": {
+      "tr": "Şofbenin arkasına sığış, yer var, sığış"
+    },
+    "RD_ALifeLine_716d061b00411f7d": {
+      "tr": "Tamam, hiç ses çıkarmıyoruz, soğuk yiyoruz, hiçbir şey yakmıyoruz"
+    },
+    "RD_ALifeLine_244598906420b02a": {
+      "tr": "Şimdi yavaş yavaş, koşmak sadece dikkatlerini çeker"
+    },
+    "RD_ALifeLine_5d29cc84025c0814": {
+      "tr": "Kroger'ın deposu, arkada, paletlerin arkası"
+    },
+    "RD_ALifeLine_57cf90033b6ddd52": {
+      "tr": "Arkamdan süzülün, teker teker, postanedeki sıra gibi"
+    },
+    "RD_ALifeLine_430d59b721d1304f": {
+      "tr": "Veranda ışığını söndür, sönük kalsın, evde olduğumuzu hiçbir şey anlamasın"
+    },
+    "RD_ALifeLine_4ff2c8a6697e72b5": {
+      "tr": "Verandadan çekil, merdivenlerden çekil, merdivenleri gözlüyorlar"
+    },
+    "RD_ALifeLine_50dacb4252485515": {
+      "tr": "Arka kapı, yan kapı, şimdi ikisine bir daha bak"
+    },
+    "RD_ALifeLine_187cb32072e6ea19": {
+      "tr": "Kiler mahzeni, bizi kiler mahzeninde bulamazlar"
+    },
+    "RD_ALifeLine_797036457ba9c976": {
+      "tr": "Eski tütsühane, duvarları kalın, tek girişi var"
+    },
+    "RD_ALifeLine_709f3187413edbc8": {
+      "tr": "Kanepeyi çekin, çekin, kapıya dayayın!"
+    },
+    "RD_ALifeLine_20c8603a5461641a": {
+      "tr": "Burada bekleyip atlatıyoruz, kimse kıpırdamıyor"
+    },
+    "RD_ALifeLine_06e71ad71dc55dba": {
+      "tr": "Janet, kızları al, mahzene indir, HADİ!"
+    },
+    "RD_ALifeLine_590078de0c3136e6": {
+      "tr": "Kimse bu evden çıkmıyor, anlaşıldı mı, köpek için bile!"
+    },
+    "RD_ALifeLine_2229847b07e05e8e": {
+      "tr": "Herkes evin ortasına, dış duvarlardan uzak durun!"
+    },
+    "RD_ALifeLine_3f4bab631b40bda4": {
+      "tr": "İçeri, herkes, en arkadan ben geliyorum, HADİ!"
+    },
+    "RD_ALifeLine_105430563194fb86": {
+      "tr": "Kilitleyin, her kilidi çevirin, arkaya ben bakarım!"
+    },
+    "RD_ALifeLine_46d01471449fec09": {
+      "tr": "Onları dışarıda tutmak için kullanabileceğimiz bir şey var mı?"
+    },
+    "RD_ALifeLine_000f1db26ec8ead2": {
+      "tr": "Küçükleri tutun, önden ben gideceğim, işaretimi bekleyin..."
+    },
+    "RD_ALifeLine_1d34f8aa759b76b9": {
+      "tr": "Herkes! Güvenli bir yer bulun, HEMEN!"
+    },
+    "RD_ALifeLine_2321b58900c2e83c": {
+      "tr": "Yakın durun! Ne olur!"
+    },
+    "RD_ALifeLine_41e540b06cdfe0a7": {
+      "tr": "Anneye gel, hadi, buraya gel, kucağıma, çabuk!"
+    },
+    "RD_ALifeLine_240338473ce1c59b": {
+      "tr": "Yatağın altına tatlım, ben söyleyene kadar çıkma, ben söylemeden olmaz"
+    },
+    "RD_ALifeLine_6cec70cc524eebb6": {
+      "tr": "Tom, Tom, kapat, kapat şunu, ne oluuur!"
+    },
+    "RD_ALifeLine_69dbe78b29d48d08": {
+      "tr": "Carl, tüfek, yok, yok, içeri gel!"
+    },
+    "RD_ALifeLine_196df4013dbac901": {
+      "tr": "Elimden geldikçe kimseyi geride bırakmıyorum!"
+    },
+    "RD_ALifeLine_314f25ab792f8911": {
+      "tr": "Hadi, gençler, koşun, beni boş verin!"
+    },
+    "RD_ALifeLine_0a71be207365830a": {
+      "tr": "Allah'ım, bunu atlatmamıza yardım et. Her birimizin"
+    },
+    "RD_ALifeLine_5e69d1a57b1441cb": {
+      "tr": "Güvenli bir yere gitmeye çalışın, çabuk, hadi!"
+    },
+    "RD_ALifeLine_13f5372948d5dc9b": {
+      "tr": "Şşş, şimdi sus, çıt çıkarmayın, şşş"
+    },
+    "RD_ALifeLine_282c2b1622f7b115": {
+      "tr": "Ben iyiyim, iyiyim, gidin saklanın, hadi, ben bir yer bulurum..."
+    },
+    "RD_ALifeLine_404494813530cf00": {
+      "tr": "Kaldırın beni, biri kaldırsın, bu kadar hızlı hareket edemem!"
+    },
+    "RD_ALifeLine_4f4a350a318ac2f2": {
+      "tr": "Kilerin dibinde yer var, eskiden fırtınada orada saklanırdım"
+    },
+    "RD_ALifeLine_5835278842b1ba6e": {
+      "tr": "Buraya! Sessizce!"
+    },
+    "RD_ALifeLine_063ec51a3c569a4f": {
+      "tr": "Ben tutarım, sen git, git, bende, GİT!"
+    },
+    "RD_ALifeLine_63fe53f512ca1095": {
+      "tr": "Of be, of be, of be, buna hazır değilim!"
+    },
+    "RD_ALifeLine_2b07da1928371dd2": {
+      "tr": "Lan, buraya, BURAYA, lan, HADİ!"
+    },
+    "RD_ALifeLine_087f7e847fba411d": {
+      "tr": "Anne! Baba! Çabuk!"
+    },
+    "RD_ALifeLine_2aabe2773dde3341": {
+      "tr": "Nereye saklanacağız? Nereye? Kimse nereye saklanacağımı söylemedi!"
+    },
+    "RD_ALifeLine_3e86537d3b4ce7b4": {
+      "tr": "Eğilin, aptallık etmeyin, EĞİLİN!"
+    },
+    "RD_ALifeLine_55d953177532473f": {
+      "tr": "Herkes içeri, buraya girin!"
+    },
+    "RD_ALifeLine_464fcd502019e994": {
+      "tr": "Başını eğ!"
+    },
+    "RD_ALifeLine_535836f25af9e16e": {
+      "tr": "Ben değil, ben değil, saklanıyorum, tam burada saklanıyorum..."
+    },
+    "RD_ALifeLine_35c575b33c74f137": {
+      "tr": "Arka yol biliyorum, beni takip edin, konuşmak yok..."
+    },
+    "RD_ALifeLine_165dabac40d40f64": {
+      "tr": "Dur, dur, şunun altında yer var, yer var"
+    },
+    "RD_ALifeLine_3d90e00f381a991a": {
+      "tr": "Kaç! Şaka yapmıyorum, KAÇ!"
+    },
+    "RD_ALifeLine_21b43d7204b2eab7": {
+      "tr": "İçeri, içeri, gir, çabuk, arkandan kapat!"
+    },
+    "RD_ALifeLine_6d463069302382a8": {
+      "tr": "Elimi tut, seni tutuyorum, bu taraftan!"
+    },
+    "RD_ALifeLine_406b3f404fb2f61f": {
+      "tr": "Çığlık atma, ne olur, ne olur çığlık atma"
+    },
+    "RD_ALifeLine_7eb6591d5247ebc8": {
+      "tr": "Buraya, rafların arkasına, şşşt, şşşt..."
+    },
+    "RD_ALifeLine_3107857456f8f6aa": {
+      "tr": "Yapamam, yapamıyorum, saklanmam lazım, özür dilerim!"
+    },
+    "RD_ALifeLine_273cd7e436a3aac9": {
+      "tr": "Eğil, elimi tut, birlikte gidiyoruz"
+    },
+    "RD_ALifeLine_0b3653ca07a08c8e": {
+      "tr": "İçeri, sessiz, hemen!"
+    },
+    "RD_ALifeLine_0ade9a3372d77e62": {
+      "tr": "Bir yer biliyorum, beni takip et, başını eğ, konuşmak yok!"
+    },
+    "RD_ALifeLine_138b4dcb14705061": {
+      "tr": "Yavaş, sakin, bu taraftan, açık araziden uzak dur"
+    },
+    "RD_ALifeLine_4011b9d77baa0275": {
+      "tr": "Şurası, şu kulübe, hadi!"
+    },
+    "RD_ALifeLine_029df1e01c0c256a": {
+      "tr": "Kimse ses çıkarmasın, her şeyi duyuyorlar"
+    },
+    "RD_ALifeLine_386340bc421d5b4e": {
+      "tr": "Büyük bina olmaz, penceresi çok, küçük olan"
+    },
+    "RD_ALifeLine_453fd2c062aa36c1": {
+      "tr": "Onları dışarıda tutacak bir şey bulmaya çalışın!"
+    },
+    "RD_ALifeLine_6c6314d94d2b87c4": {
+      "tr": "Yürüyün, Allah kahretsin, yaklaşıyorlar!"
+    },
+    "RD_ALifeLine_63d4dbd84303a24c": {
+      "tr": "Burayı kilitleyin, her yeri kilitleyin, sonra arkayı"
+    },
+    "RD_ALifeLine_4f07e45c43b39c07": {
+      "tr": "Durdurun, bütün hattı durdurun, herkes yan kapıdan çıksın"
+    },
+    "RD_ALifeLine_0d3c52a22893853c": {
+      "tr": "Mola odasına girin, en sağlam kilit orada, HADİ!"
+    },
+    "RD_ALifeLine_2d7d054833989b60": {
+      "tr": "Buraya daha iyi bir kilit takın dedim, SÖYLEDİM!"
+    },
+    "RD_ALifeLine_156cad18526dfe29": {
+      "tr": "Hadi beyler, çatı arasına, merdiveni arkanızdan çekin"
+    },
+    "RD_ALifeLine_7e9898d82857596c": {
+      "tr": "Herkes açıktan çekilsin, binaya, yürüyün!"
+    },
+    "RD_ALifeLine_429836a24239e75a": {
+      "tr": "Başlar eğik, tek sıra, kimse itmesin, hadi!"
+    },
+    "RD_ALifeLine_721b4b2c7f47e35d": {
+      "tr": "Geçerken sayı söyleyin, kafa sayımı istiyorum"
+    },
+    "RD_ALifeLine_2f3425bc45b1ee31": {
+      "tr": "İhtiyacı olana yardım edin. Panik yok"
+    },
+    "RD_ALifeLine_3caadf3403eba2e6": {
+      "tr": "Yerleşmeden önce arkayı kontrol edin, bütün çıkışları"
+    },
+    "RD_ALifeLine_1710eca71a235998": {
+      "tr": "Girin, ben kapatırım!"
+    },
+    "RD_ALifeLine_002da9ff4e7080f1": {
+      "tr": "İhtiyacı olana yardım edin. Nazikçe, çabucak"
+    },
+    "RD_ALifeLine_5d8ddd6e4d49d86d": {
+      "tr": "Yaralı yok mu? Yaralanan var mı? Çabuk, saklanmadan önce şimdi söyleyin"
+    },
+    "RD_ALifeLine_67cf5ca263f800ef": {
+      "tr": "Açıktan çekilin, içeri, içeri, içeriye, hadi!"
+    },
+    "RD_ALifeLine_32d915885b74c013": {
+      "tr": "Yanımda kal, nefes al, yavaş nefes, şimdi içeri giriyoruz"
+    },
+    "RD_ALifeLine_337fa71c359bfd1f": {
+      "tr": "Otur, otur, sesini alçak tut, herkese sonra bakacağım..."
+    },
+    "RD_ALifeLine_4175c9524b466d54": {
+      "tr": "Kiliseye, çabuk, Rabbin evinde herkese yer var!"
+    },
+    "RD_ALifeLine_257ebde1523cc12b": {
+      "tr": "Diz çökün, başlarınızı sıraların altında tutun!"
+    },
+    "RD_ALifeLine_4cbe75e80012f2e9": {
+      "tr": "Gelin, gelin, yer var, her zaman yer var..."
+    },
+    "RD_ALifeLine_7100e38b035a16eb": {
+      "tr": "Sürgüleyin, Allah affetsin, kilise kapısı sürgülüyorum, SÜRGÜLEYİN!"
+    },
+    "RD_ALifeLine_1775642a754bec7c": {
+      "tr": "Ana salona, arkaya, ne olur acele edin!"
+    },
+    "RD_ALifeLine_366474791a54554a": {
+      "tr": "Görünmemeye çalışın. Bunu başarabiliriz"
+    },
+    "RD_ALifeLine_261b52f53ba5a6af": {
+      "tr": "Vardiyam bitti, eve gidiyorum, bodruma inip orada kalacağım"
+    },
+    "RD_ALifeLine_49c91a700496a282": {
+      "tr": "Işıkları kapalı, perdeleri çekik tut ve bekle"
+    }
+  }
+}

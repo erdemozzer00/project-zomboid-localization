@@ -1,0 +1,370 @@
+# PAKET Y14R · parça 1/1 · satır 1-261 (261 satır)
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# Kurallar: aşağıdaki ARAYÜZ kuralları (sahne/karakter canlandırma yok). Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.
+# ARAYÜZ DOSYASI: Bu satırlar konuşma değil, EKRAN METNİ: düğme, ayar, ipucu, bildirim, etiket. Sahne ya da karakter canlandırma yok; kısa, net ve tutarlı yaz.
+# BİÇİM: Etiketlerde emir ya da isim biçimi kullan ('Kaydet', 'Teçhizat'). 'siz' hitabı yok, '-dır' yok; ipucu ve açıklamada gerekirse 'sen'. Sonda nokta İngilizcedeki gibi: İngilizcede yoksa yazma, varsa koru.
+# KORUNACAKLAR: {yer_tutucu}, %%, %1, \n ve <...> etiketleri ile renk kodları aynen kalır. Kısaltmalar (HP, NPC, GM, MHz…) ve özel adlar (kişi, grup, yer, silah adı) çevrilmez. Sayıları ve birimleri koru.
+# UZUNLUK: Türkçe İngilizceden belirgin uzun olmasın; düğmelerde ve sekme adlarında en fazla yaklaşık 1,3 katı. Sığmıyorsa kısalt, anlamı koru.
+# BÜYÜK HARF: İngilizcede BÜYÜK HARFLİ yazılmış etiket Türkçede de büyük harfli olur (İ/ı kurallarıyla).
+# EKRAN: Her ##### başlığının altındaki 'EKRAN:' notu metnin hangi ekranda ya da panelde göründüğünü söyler; önce onu oku. Etiket sütunu kodda alanın adıdır (ui, tip, label…), çıktıya yazma.
+# TERİMLER (bağlayıcı; yalnız bu dosyada geçenler; sözcük aynı anlamda geçiyorsa bu karşılığı kullan): Reputation → İtibar; faction standing → fraksiyonla aran; Faction → Fraksiyon; Shelter → Sığınak; Outpost → Karakol; Group → Grup; Guest → Misafir; Encounter → Karşılaşma; Raid → Baskın; Default → Varsayılan; Preset → Ön ayar; Hostile → Düşman; Friendly → Dost; Survivor → Hayatta kalan; standing → aran; hardcore → Acımasız; neighbours → Komşular; rare → Nadir
+# Girdi biçimi: N | etiket | İngilizce
+
+##### İTİBAR SEKMESİ · EYLEM KAYITLARI #####
+# EKRAN: Günlüğün İtibar sekmesinde, itibarını değiştiren eylemlerin kısa kayıtları ('… öldürdün' gibi; geçmiş zaman)
+1 | kill_hostile | Killed someone hostile to you
+2 | kill_crime | Killed a raider or gang member
+3 | kill_attackedFirst | Killed someone who went for you first
+4 | kill_robber | Stopped a hold-up
+5 | hit_defence | Fought off someone who went for you first
+6 | deed_let_sleep | Gave a guest a roof for the night
+7 | deed_treated_wounded | Patched up a wounded survivor
+8 | deed_finished_job | Finished a job for someone
+9 | ui | Turned on you: you attacked one of them
+10 | ui | Turned on you: you hurt one of them
+11 | ui | Turned on you: you killed one of them
+12 | ui | Turned on you: you pushed them too far
+13 | ui | Turned on you
+14 | ui | Self-defence, no faction change
+15 | ui | They were hostile, no faction change
+16 | ui | Daily limit for this deed
+17 | ui | Daily gain cap reached
+18 | ui | Their people may turn on you
+19 | ui | no change
+20 | last | You have met them
+21 | hint | Reach it once to see how people treat you
+22 | text | Defending yourself never costs reputation
+23 | text | Self-defence: they shot first, went for you or robbed you
+24 | text | Once their hands are up, hurting them counts against you
+25 | text | Killing the harmless costs a lot and angers their people
+26 | text | Helping raises it: shelter, food, healing, finished jobs
+27 | text | Gains are capped per day. Each deed counts a few times a day
+28 | text | Over time it drifts back to zero, but not at the worst levels
+
+##### İTİBAR SEKMESİ #####
+# EKRAN: Günlüğün İtibar sekmesi: fraksiyon listesi, seviye ve değişim satırları
+29 | ui | No changes yet
+30 | chip | Your level
+31 | ui | Hover or click a level to see what it means
+32 | head | LEVELS
+33 | ui | Unknown level
+34 | label | HOW REPUTATION WORKS
+35 | ui | Show
+36 | text | FACTION STANDINGS
+37 | ui | Groups you meet or deal with show up here
+38 | text | No factions yet
+39 | text | {count} more
+40 | ui | Also met: {names}
+41 | ui | Helping, robbing and killing move this score
+
+##### İTİBAR SEKMESİ · SON DEĞİŞİKLİKLER #####
+# EKRAN: İtibar sekmesinin 'son değişiklikler' bölümü; sunucu puanı gizliyse yazısı
+42 | unknown | ???
+43 | hint | Not reached yet
+44 | title | RECENT CHANGES
+45 | title | Nothing has changed yet
+46 | hint | Helping, robbing and killing move this score.
+47 | ui | Score
+48 | ui | The score is hidden on this server
+49 | ui | Levels you have not reached stay hidden
+
+##### İTİBAR GÖRÜNÜMÜ #####
+# EKRAN: İtibar değişince çıkan bildirim ve fraksiyonun sana bakışını söyleyen satırlar ({who} grup adı)
+50 | ui | Friendly: {who}
+51 | ui | Careful with you: {who}
+52 | ui | Hide from you: {who}
+53 | ui | Afraid of you: {who}
+54 | ui | Will bargain with you: {who}
+55 | ui | Your score runs from {low} to {high}. Every change counts in the same points
+56 | text | Nobody treats you differently yet
+57 | text | Robbery victims hand things over
+58 | text | Jobs on offer: nobody
+59 | text | {who} think better of you now, {steps}
+60 | text | {who} think worse of you now, {steps}
+61 | up | Up: {name} at {score}, {left} to go
+62 | up | Up: a new level at {score}, {left} to go
+63 | down | Down: {name} below {score}, {left} to go
+64 | down | Down: a lower level below {score}, {left} to go
+65 | reason | Reputation changed
+
+##### İTİBAR · SİMGE İPUCU #####
+# EKRAN: İtibar sekmesinde bir eylem simgesinin üstüne gelince çıkan kısa açıklama (geçmiş zaman)
+66 | kill_attackedFirst | killed someone who went for you first, in self-defence
+67 | kill_robber | stopped a hold-up
+
+##### İTİBAR ÇUBUĞU #####
+# EKRAN: İtibar çubuğunun başlık etiketleri (FACTION STANDING, WHAT THIS MEANS, NEW STANDING)
+68 | headTone | NEW STANDING
+69 | ui | Score {score}
+70 | ui | FACTION STANDING
+71 | ui | WHAT THIS MEANS
+
+##### İTİBAR ÇUBUĞU · SON DEĞİŞİKLİK #####
+# EKRAN: İtibar çubuğunun altındaki 'son değişiklik' etiketi
+72 | lastLabel | Last change
+
+##### İTİBAR İLERLEMESİ #####
+# EKRAN: İtibar seviyesi ilerleme şeridi ({day} gün, {level} seviye, {amount} puan)
+73 | ui | Day {day} {time}
+74 | ui | You {reason}
+75 | ui | LEVEL {level}
+76 | ui | {amount} to LEVEL {level}
+
+##### BAŞLANGIÇ SEÇİMİ · KARTLAR (1/2) #####
+# EKRAN: Yeni oyunun başında çıkan başlangıç ön ayarı kartları: başlık, tek satır özellikler ({value} sayı), alıntı, alt başlık
+77 | ui | First raids from day {value}
+78 | ui | Up to {value} hostile NPCs
+79 | ui | Survivor pool of {value}
+80 | ui | Up to {value} outposts
+81 | desc | A peaceful playthrough
+82 | quote | We suffer more often in imagination than in reality
+83 | by | Seneca
+84 | desc | The standard A-Life experience, where mistakes can get you killed
+85 | by | Marcus Aurelius
+86 | quote | I am rising to the work of a human being
+87 | desc | Stay aware of your surroundings or you will get killed
+88 | quote | What does not kill me makes me stronger
+89 | by | Nietzsche
+90 | desc | In a world full of hatred, you stand tall and never falter. The hardcore A-Life experience
+91 | quote | Death hangs over thee. While thou livest, while it is in thy power, be good
+92 | tag | Bright days, slow trouble
+93 | desc | NPCs are forgiving and raids come late. Room to learn the world.
+94 | tag | The intended balance
+95 | desc | The default A-Life experience. Fair fights and steady pressure.
+
+##### BAŞLANGIÇ SEÇİMİ · KARTLAR (2/2) #####
+# EKRAN: Yeni oyunun başında çıkan başlangıç ön ayarı kartları: başlık, tek satır özellikler ({value} sayı), alıntı, alt başlık
+96 | tag | Dusk is coming
+97 | desc | Tougher NPCs, earlier raids and fewer warnings before a fight.
+98 | tag | Night, and no mercy
+99 | desc | NPCs hit hard and raids come early and often. Expect to lose people.
+100 | tag | Empty roads
+101 | desc | Few survivors. Long quiet stretches and rare encounters.
+102 | tag | A few neighbours
+103 | desc | Some groups and outposts. Encounters now and then.
+104 | tag | A living county
+105 | desc | Groups, outposts and encounters all around. The default.
+106 | tag | Crowded
+107 | desc | Heavy crowds and many outposts. May lag on weaker PCs.
+108 | title | Choose your difficulty
+109 | eyebrow | Step 1 of 2
+110 | sub | How hard NPCs fight and how soon raids come
+111 | title | Choose the population
+112 | eyebrow | Step 2 of 2
+113 | sub | How many survivors, groups and outposts the world holds
+
+##### BAŞLANGIÇ SEÇİMİ · DÜĞMELER #####
+# EKRAN: Başlangıç seçimi ekranının alt düğmeleri ve tuş ipuçları
+114 | ui | Keep the game mode settings
+115 | ui | Keep my sandbox settings
+116 | ui | Start
+117 | ui | Left and Right choose    Enter confirms    Backspace goes back    Esc keeps the game mode settings
+118 | ui | Left and Right choose    Enter confirms    Backspace goes back    Esc keeps your sandbox settings
+
+##### BAŞLANGIÇ AYARI UYGULANDI #####
+# EKRAN: Başlangıç ön ayarı seçilince oyunun üst köşesinde çıkan bildirim ({difficulty} zorluk, {population} nüfus)
+119 | title | Start settings applied
+120 | text | {difficulty} difficulty, {population} population
+
+##### OYUN GİRİŞİ · İPUÇLARI #####
+# EKRAN: Yeni oyunun başında çıkan kısa tanıtım ipuçları
+121 | ui | Right-click works too
+122 | ui | Click the Talk tag by a nearby NPC
+123 | ui | Every faction remembers what you do
+124 | ui | See it in the Reputation tab
+125 | ui | Your world preset is set in Sandbox
+126 | ui | Preset
+127 | ui | Project A-Life page, at world creation
+128 | ui | Click for next
+
+##### KONUŞMA · HAVA OKUMA #####
+# EKRAN: Konuşma penceresinde karşındakinin ruh hâlini okuyan etiketler ve ipuçları
+129 | ui | Calm
+130 | ui | Tense
+131 | ui | About to snap
+132 | tip | Reads as a threat
+133 | ui | Gun out
+134 | label | Hurt
+135 | tip | Confirming takes longer
+136 | label | Shaking
+137 | label | Uniform
+138 | label | Fatigues
+139 | label | Armour
+# TERİMLER (bağlayıcı; yalnız bu dosyada geçenler; sözcük aynı anlamda geçiyorsa bu karşılığı kullan): Hold fire → Ateş kes; Drive here → Buraya sür; Faction → Fraksiyon; Safehouse → Güvenli ev; Crew → Ekip; Companion → Yol arkadaşı; Profile → Profil; Hostile → Düşman; Streamer Mode → Yayıncı modu; Report a bug → Hata bildir; Survivor → Hayatta kalan; tile → kare; animal → Hayvan; cars → Arabalar; civilian → Sivil; thank you → Teşekkür ederim; cancel → İptal; civilians → Siviller; known → Tanıdık; last seen → Son görülme; raiders → Yağmacılar; allied → Müttefik; combat → Çatışma; raider → Yağmacı; save → Kaydet; skip → Atla
+# Girdi biçimi: N | etiket | İngilizce
+
+##### GÜNLÜK #####
+# EKRAN: A-Life Günlüğü penceresi: sekme adları ve boş durum yönlendirmeleri
+140 | label | Log
+141 | label | Settings
+142 | liste | Talk to people. A task starts from a conversation.
+143 | ui | Tracked
+144 | ui | LOG
+145 | ui | Track
+146 | ui | Stop tracking
+147 | text | Task arrow
+148 | ui | Nobody yet
+149 | ui | People you talk to show up here
+150 | ui | Last seen: day {n}
+151 | ui | Talked {n} times
+152 | label | Mark home
+
+##### GÜNLÜK · AYARLAR #####
+# EKRAN: Günlük > Ayarlar ekranındaki örnek konuşma kutusunun yazısı
+153 | ui | Over here, keep your head down
+
+##### GÜNLÜK · DÜĞME #####
+# EKRAN: A-Life Günlüğünü açan düğmenin adı
+154 | ui | A-Life Journal
+
+##### BİLDİRİM GEÇMİŞİ #####
+# EKRAN: Günlükteki bildirim geçmişi: kategori adları, bölüm başlıkları, boş durum yazısı
+155 | ui | Safehouse
+156 | ui | System
+157 | ui | Nothing has happened yet.
+158 | ui | TODAY
+159 | more | {n} entries
+
+##### YÜKLEME ŞERİDİ #####
+# EKRAN: Oyun açılırken profillerin yüklendiğini gösteren şerit
+160 | ui | {n} of {m}
+161 | ui | Building profiles
+162 | ui | Reading profiles
+
+##### YAYINCI MODU SORUSU #####
+# EKRAN: Yayıncı modunu öneren konuşma balonu ve cevap düğmeleri
+163 | ui | Hey, are you a content creator?
+164 | ui | Cool! Do you want us to disable potentially copyrighted music?
+165 | ui | Alright, have fun!
+166 | ui | Done! You can always revert this in settings by disabling Streamer Mode
+167 | ui | Cool! You can always turn it on by enabling Streamer Mode
+168 | ui | We ask so content creators can play without copyrighted music, enjoy A-Life!
+
+##### DURAKLATMA MENÜSÜ #####
+# EKRAN: Oyunu duraklatınca çıkan menüdeki A-Life düğmesi
+169 | ui | A-Life: report a bug
+
+##### SÜRÜŞ · BURAYA SÜR #####
+# EKRAN: Haritada nokta seçip yol arkadaşına arabayı oraya sürdürürken çıkan uyarı ve onay yazıları
+170 | ui | That spot is too close for the car to drive to.
+171 | ui | That spot is too far away.
+172 | ui | That spot is not loaded yet.
+173 | ui | A car cannot drive indoors.
+174 | ui | There is no clear room for the car near that spot.
+175 | ui | The car is busy. Wait for it, or stop it first.
+176 | ui | Only an admin can drive NPC cars.
+177 | ui | Drive here is switched off in the sandbox options.
+178 | ui | A player drives this car.
+179 | ui | NPC driving is not enabled for this session.
+180 | ui | There is no NPC car with a crew near you.
+181 | ui | Press Drive to clicked spot on the Cars page first.
+182 | ui | The car found no road to leave on.
+183 | ui | The car cannot go there: {why}
+184 | ui | The car cannot go there.
+185 | ui | {name} is driving there
+186 | ui | Send the car here
+187 | ui | {name} is stopping
+188 | text | {tiles} tiles away, {pct} percent of the straight line is road or pavement. The car plans its own route and stops if it is blocked.
+189 | ui | The straight line crosses {n} blocked or unloaded spots.
+190 | ui | (companion)
+191 | ui | Drive here: {name}
+192 | ui | Drive here
+193 | ui | Stop {name}
+194 | ui | Drive here...
+195 | ui | The car stopped: {why}
+
+##### SÜRÜŞ · MÜRETTEBAT SEÇİCİ #####
+# EKRAN: Yol arkadaşlarını arabaya yerleştirme penceresindeki satır etiketi
+196 | liste | In car
+
+##### ARABA · UYARI #####
+# EKRAN: Yüklenmemiş araba için çıkan uyarı
+197 | not_loaded | The car is not loaded.
+
+##### ARABA · HARİTA ETİKETİ #####
+# EKRAN: Haritada arabanın durumunu söyleyen kısa etiket
+198 | board | travelling
+199 | stop | resting
+
+##### BİTİŞ EKRANI #####
+# EKRAN: Oyun bittikten sonra çıkan özet ekranı: istatistik satırları
+200 | ui | Days survived
+201 | ui | People killed
+202 | ui | Cities flown over
+203 | ui | Flight distance
+204 | ui | Factions met
+205 | ui | Your regret
+206 | ui | You will miss
+207 | ui | Known as
+208 | ui | People helped
+209 | line | THIS IS HOW YOU SURVIVED
+
+##### BİTİŞ KARTI #####
+# EKRAN: Bitiş kartı: düğmeler ve alt istatistik satırı
+210 | statsLine | at least {zombies} zombies, {humans} people, {rep}
+211 | ui | Days: {days} | Helped: {helped} | Help days: {helpdays}
+212 | ui | Recorded kills: civilians {civilian}, surrendered {surrendered}, allies {allied}, hostile {hostile}, unclassified {unknown}.
+213 | ui | Partial history: recorded counts only.
+214 | ui | History coverage: unknown.
+215 | ui | Animals killed: {animals}.
+216 | ui | Your record also includes combat.
+217 | ui | You also helped people along the way.
+218 | ui | Some deaths remain unclassified.
+219 | ui | Your record does not point to one clear role.
+220 | ui | Keep playing
+
+##### BİTİŞ · TELSİZ ÇAĞRISI UYARISI #####
+# EKRAN: Bitiş görevini kabul etmeden önce çıkan uyarı penceresi
+221 | title | Warning
+222 | text | Completing this mission may end your playthrough, make sure to save, or cancel the mission by not completing it
+223 | impactTitle | Impact
+224 | impact | Everyone on the channel hears it
+225 | impact | Command lets it slide this once
+226 | impact | Raiders and survivors will remember
+
+##### JENERİK #####
+# EKRAN: Oyun sonu jeneriği: başlıklar ve teşekkür metinleri (destekçi adları çevrilmez)
+227 | closing | Thank you for playing Project A-Life
+228 | kicker | Credits
+229 | note | First of all. Thank you to all of our supporters
+230 | heading | Platinum Supporters
+231 | heading | Diamond Supporters
+232 | heading | Gold Supporters
+233 | heading | Silver Supporters
+234 | divider | A-Life Credits
+235 | heading | A-Life Developers
+236 | heading | 3D Modeling
+237 | heading | Lead Gamemasters
+238 | heading | Gamemasters
+239 | heading | Voice Acting Leads
+240 | heading | Voice Actors
+241 | heading | Sound Engineers
+242 | heading | Technical Writer
+243 | heading | Art & Writing Team
+244 | heading | Staff Team
+245 | heading | Community Manager
+246 | heading | Translation Lead
+247 | heading | Translators
+248 | heading | Mod Contributors
+249 | heading | Special Thanks to the Following
+250 | heading | Shinto Project
+251 | heading | Additional Credits
+
+##### JENERİK · İPUCU #####
+# EKRAN: Jenerik akarken köşede çıkan tuş ipucu
+252 | hint | Left click / Space to skip
+
+##### GÖZCÜ RAPORU #####
+# EKRAN: Gözcü raporu bildiriminin başlığı
+253 | title | Scout report
+
+##### KISA SÖZCÜKLER (kod içinde geçen; ekranda görünüp görünmediği belirsiz) #####
+# EKRAN: Oyunun kodunda tek başına geçen kısa sözcükler (durum, yön, eşleştirme sözcüğü). Bağlam yok: sözcüğü en yaygın, yalın anlamıyla küçük harfle çevir; kişi adı ve kod gibi duruyorsa aynen bırak
+254 | SÖZCÜK · Cars6 | arriving
+255 | SÖZCÜK · InjuryRules | south
+256 | SÖZCÜK · InjuryRules | east
+257 | SÖZCÜK · JuggernautVoice | hiding
+258 | SÖZCÜK · ModLootData | hunting
+259 | SÖZCÜK · Speech | fighting
+260 | SÖZCÜK · VoiceLegacyProfiles | text
+261 | SÖZCÜK · Wounds | hold fire

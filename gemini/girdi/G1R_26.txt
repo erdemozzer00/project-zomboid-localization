@@ -1,0 +1,370 @@
+# PAKET G1R · parça 26/35 · satır 8803-9155 (353 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar oyunda şu an skill'den önceki eski bir çeviriyle görünüyor; sıfırdan, İngilizceden kur. Her başlığın altındaki 'NEREDE:' oyuncunun bu sözle nasıl karşılaştığını, '#' notu sahneyi anlatır. Önce bunları oku, satırı o anda o yerde duyulacak sözle yaz.
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+##### PASSING_PLAYER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yoldan geçerken oyuncuya laf atıyor, 'sen'.
+8803 | reg=civilian,family,worker,rescue|st=friendly,neutral | You first, we'll wait
+8804 | reg=civilian,family,worker,rescue|st=friendly,neutral | Could be worse, hi
+8805 | reg=civilian,family,worker,rescue|st=friendly,neutral | How're you holding up, honey?
+8806 | reg=civilian,family,worker,rescue|st=friendly,neutral | Didn't know there was anybody left
+8807 | reg=civilian,family,worker,rescue|st=friendly,neutral | Isn't it peaceful? I hate it
+8808 | reg=civilian,family,worker,rescue|st=friendly,neutral | Seen any infected today? I don't like not knowing where they went
+8809 | reg=civilian,family,worker,rescue|st=friendly,neutral | Those things don't sleep, I keep trying anyway
+8810 | reg=civilian,family,worker,rescue|st=friendly,neutral | I call them monsters... I'm not gonna pretend they're anything else
+8811 | reg=civilian,family,worker,rescue|st=friendly,neutral | Quit whistling, would you? They'll hear you
+8812 | reg=civilian,family,worker,rescue|st=friendly,neutral | Heard the infected get thicker toward Louisville, true?
+8813 | reg=civilian,family,worker,rescue|st=friendly,neutral | You ever see one just standing there? It's the standing that gets me
+8814 | reg=civilian,family,worker,rescue|st=friendly,neutral | I keep trying to guess what those things want, what the hell for?
+8815 | reg=civilian,family,worker,rescue|st=friendly,neutral | If you've got a dog, keep him quiet, the dead go for barking
+8816 | reg=civilian,family,worker,rescue|st=friendly,neutral|psex=f | Ma'am, you shouldn't be out here alone, it's not safe
+8817 | reg=civilian,family,worker,rescue|st=friendly,neutral|psex=f | Hey, miss, if you need somewhere to rest, we've got a spare room
+8818 | reg=civilian,family,worker,rescue|st=friendly,neutral|psex=f | Ma'am, I don't mean to pry, but are you hurt?
+8819 | reg=civilian,family,worker,rescue|st=friendly,neutral|psex=f | Miss, wait, have you eaten? You look worn out
+8820 | reg=civilian,family,worker,rescue|st=friendly,neutral|psex=f | Ma'am, how'd you end up out here alone?
+8821 | reg=civilian,family,worker,rescue|st=friendly,neutral|psex=m | I'd check the way ahead before you commit to it, don't trust a shortcut
+8822 | reg=civilian,family,worker,rescue|st=friendly,neutral|psex=m | Hey, fella, you look like you've walked a hundred miles
+8823 | reg=civilian,family,worker,rescue|st=friendly,neutral|psex=m | Son, are you hungry? We've got a little something
+8824 | reg=civilian,family,worker,rescue|st=friendly,neutral|psex=m | Sir, how'd you end up out here alone?
+8825 | reg=civilian,family,worker,rescue|st=friendly,neutral|psex=m | Hey, fella, got a spare match?
+8826 | reg=civilian|st=friendly,neutral|world=road | Which way to the highway? I got turned around
+8827 | reg=civilian|st=friendly,neutral|world=road | Is the road through Brandenburg open? Anybody say?
+8828 | reg=civilian|tmp=seasoned|st=friendly,neutral|world=road | Mile marker eleven's blocked, take the old road
+8829 | reg=civilian|tmp=seasoned|st=friendly,neutral|world=road | If you're looking for gas, don't, I've checked every pump on this road
+8830 | reg=civilian|tmp=seasoned|st=friendly,neutral|world=building | Bad idea to rest there, the wall's coming down, trust your eyes
+8831 | reg=civilian|tmp=seasoned|st=friendly,neutral|hour=16,22 | The mill's got a roof and a few cans, but I'd go before dusk
+8832 | role=family_elder|st=friendly,neutral|world=building | Come sit on the porch, I'll tell you a story, I've got all day
+8833 | reg=worker|tmp=seasoned|st=friendly,neutral | The pump house still has pressure, I checked, if you need a drink
+8834 | reg=worker|tmp=seasoned|st=friendly,neutral | Thirty-one years on the line, and the line's the only thing I know
+8835 | reg=worker|tmp=seasoned|st=friendly,neutral | You got a screwdriver? My whole life's held together with screws and spite
+8836 | role=rescue_clergy|st=friendly,neutral|world=door | Church doors are open, and I mean always open
+8837 | role=rescue_firefighter|st=friendly,neutral|world=building | Careful of the burnt house, the porch is coming down!
+8838 | reg=civilian,family|tmp=fresh|st=friendly,neutral|day=0,4 | Those things, those- people, they're people, aren't they? Were they?
+8839 | reg=civilian,family|tmp=fresh|st=friendly,neutral|day=0,4 | Did you see them? The sick ones? Please tell me you saw them too
+8840 | reg=civilian,family|tmp=fresh|st=friendly,neutral|day=0,4 | I keep calling them monsters, what else do you call that?
+8841 | reg=civilian,family|tmp=fresh|st=friendly,neutral|day=0,4 | They're not dead, they can't be dead, they're walking, aren't they?
+8842 | reg=civilian,family|tmp=fresh|st=friendly,neutral|day=0,4 | You heard how it spreads? Nobody gives me the same answer
+8843 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|day=5,9999|world=hot | Infected in this heat, I can't even catch my breath
+8844 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|day=5,9999|hour=16,22 | Harder to spot those things after sundown, so, I plan around that
+8845 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|day=5,9999 | You learn which ones are fast and which are just loud
+8846 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|day=5,9999 | A dead one will follow you for a mile if you let it, so don't let it
+8847 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|day=5,9999 | I name the ones I see regularly, it keeps me sane, mostly
+8848 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|day=5,9999 | First one I put down was my neighbor, and I haven't talked about it since
+8849 | reg=worker|st=friendly,neutral|world=hot | Fuck, it's hot, I've got blisters on both heels and a Walkman with dead batteries
+8850 | reg=civilian,family,worker,rescue|st=careful | Please don't come closer, please
+8851 | reg=civilian,family,worker,rescue|st=careful | I can't help you, I'm sorry
+8852 | reg=civilian,family,worker,rescue|st=careful | We've got nothing, so, please
+8853 | reg=civilian,family,worker,rescue|st=careful | Just let us pass
+8854 | reg=civilian,family,worker,rescue|st=hostile | Go away!
+8855 | reg=civilian,family,worker,rescue|st=hostile | Don't come near us!
+8856 | reg=civilian,family,worker,rescue|st=hostile | We said no
+8857 | reg=civilian,family,worker,rescue|st=hostile | Get lost, please
+8858 | reg=civilian,family,worker,rescue|st=hostile | Not one step more!
+8859 | role=family_man|st=careful,hostile | Not near us... please!
+8860 | role=family_man|st=careful,hostile | Stay away from my wife!
+8861 | role=family_woman|st=careful,hostile | Stay away from my babies!
+8862 | role=family_woman|st=careful,hostile | Please, we don't want trouble
+8863 | role=rescue_firefighter|st=hostile|world=vehicle | Get clear of the truck!
+8864 | role=rescue_medical|st=hostile | Don't come closer, please, I can't risk it!
+8865 | role=rescue_clergy|st=hostile | Not here, please, not at the church!
+8866 | role=civilian_loner|st=hostile | Walk on, I don't want you
+8867 | role=worker|st=hostile | Back away from the crew!
+8868 | reg=law|role=law_deputy,law_sheriff | Sheriff's office, carry on
+8869 | reg=law|tmp=seasoned|world=road | Keep to the sidewalk, please
+8870 | reg=swat | Police, coming by, stay put
+8871 | reg=swat | Keep moving
+8872 | reg=swat | Clear the area, please
+8873 | reg=swat | Don't hang around here
+8874 | role=law_trooper | Stay off the interstate, old habit, but I mean it
+8875 | role=law_trooper | Don't park on the shoulder, habit, but I still mean it
+8876 | role=law_sheriff,law_trooper|hour=17,22 | Evening, citizen
+8877 | reg=law | Deputy coming by, keep to the right
+8878 | reg=law | Watch yourself out here
+8879 | reg=law | If you hear a helicopter, don't wave at it, get indoors
+8880 | reg=law|hour=16,5|world=road | Stay off the main road after dark
+8881 | reg=law,swat|st=friendly,neutral|day=0,3 | Aim for the head, move along
+8882 | reg=law,swat|st=friendly,neutral|day=0,3 | Don't get bitten, stay safe
+8883 | reg=law,swat|st=friendly,neutral|day=0,3 | Head shots, folks, head shots
+8884 | reg=law,swat|st=friendly,neutral|day=0,3 | Don't stop for people you don't know, just walk on through
+8885 | reg=law,swat|st=friendly,neutral|day=0,3 | They aren't human, remember that
+8886 | reg=law,swat|st=friendly,neutral|day=0,3 | Stay alive, citizen
+8887 | reg=law,swat|st=friendly,neutral|day=0,3 | Careful out there, they're everywhere
+8888 | reg=law,swat|st=friendly,neutral|day=0,3 | Don't let them touch you
+8889 | reg=law,swat|st=friendly,neutral|day=0,3 | Fight for your life, friend
+8890 | reg=law,swat|st=friendly,neutral|day=0,3|world=road | Stay off the highway, it's a trap
+8891 | reg=law|st=friendly,neutral|day=0,5 | Eyes up out here, it's getting worse by the hour
+8892 | reg=law|st=friendly,neutral|day=0,5 | Hands where I can see 'em, please, nothing personal
+8893 | reg=law|st=friendly,neutral|world=road | Evening, stay on the sidewalk
+8894 | reg=law|st=friendly,neutral | Move along, folks, nothing happening here
+8895 | reg=law|st=friendly,neutral | Move along, please
+8896 | reg=law|st=friendly,neutral | You're alright, just keep to the open, please
+8897 | reg=law|st=friendly,neutral | Hey, you need anything, you holler, I'm not far
+8898 | reg=law|st=friendly,neutral | Deputy coming through, don't mind me
+8899 | reg=law|st=friendly,neutral | County's still got a few of us, if that counts for something
+8900 | reg=law|st=friendly,neutral | Need a hand? I'm walking that way anyway
+8901 | reg=law|st=friendly,neutral | Let me know if you see smoke or anything move wrong
+8902 | reg=law|st=friendly,neutral | You hear about the roadblock? Dixie's shut north of here
+8903 | reg=law|st=friendly,neutral | Anybody following you? Don't look, just tell me
+8904 | reg=law|st=friendly,neutral | Hey, over here, you got a minute? No? Okay, go on
+8905 | reg=law|st=friendly,neutral | Haven't seen a civilian in an hour, so you made my day
+8906 | reg=law|st=friendly,neutral | We lost the radio at three, so I'm the radio now
+8907 | reg=law|st=friendly,neutral | Folks have been leaving food on the porch of the station, if you're hungry
+8908 | reg=law|st=friendly,neutral | I used to hand out parking tickets, now I hand out directions
+8909 | reg=law|st=friendly,neutral | Quiet block, so far, I'm not saying it out loud again
+8910 | reg=law|st=friendly,neutral | If you're headed for the courthouse, it's locked, but somebody's inside
+8911 | reg=law|st=friendly,neutral | Ask the next deputy, I'm a trooper, not a tour guide
+8912 | reg=law|st=friendly,neutral | I'm not looking for trouble, just keeping the peace, what's left of it
+8913 | reg=law|st=friendly,neutral | Don't pick up anything you find, it could be evidence, or worse
+8914 | reg=law|st=friendly,neutral | Anyone with a radio, please tune to channel nine, we're trying
+8915 | reg=law|st=friendly,neutral | We're moving through, so, give us room, thank you
+8916 | reg=law|st=friendly,neutral | County, coming through
+8917 | reg=law|st=friendly,neutral | Passing on your right, thanks
+8918 | reg=law|st=friendly,neutral | You alright?
+8919 | reg=law|st=friendly,neutral | Need anything?
+8920 | reg=law|st=friendly,neutral | You hurt?
+8921 | reg=swat|st=friendly,neutral | Clear
+8922 | reg=swat|st=friendly,neutral | Move on
+8923 | reg=swat|st=friendly,neutral | Police, coming through
+8924 | reg=swat|st=friendly,neutral | Clear on my left
+8925 | reg=swat|st=friendly,neutral | Eyes up, we've got a civilian
+8926 | reg=swat|st=friendly,neutral | Hold still, we'll pass
+8927 | reg=swat|st=friendly,neutral | We're not here for you, and I'd like to keep it that way
+8928 | reg=swat|st=friendly,neutral | Keep your hands visible, no offense
+8929 | reg=swat|st=friendly,neutral | You're good, go on
+8930 | reg=swat|st=friendly,neutral | That's a good distance, hold it there
+8931 | reg=swat|st=friendly,neutral | Stay off the corner, we've cleared it
+8932 | reg=swat|st=friendly,neutral | We've got this block, you take the next
+8933 | reg=law,swat | Stay safe, citizen
+8934 | reg=law,swat | Move along carefully
+8935 | reg=law,swat|world=road | Keep to the road, citizen
+8936 | reg=law,swat|rep=bad | Keep it moving and keep your nose clean
+8937 | reg=law,swat|rep=bad | Don't cause trouble
+8938 | reg=law,swat|rep=bad | Heard some things about you, didn't like any of them
+8939 | reg=law,swat|rep=bad | Don't cause trouble on my watch, we're clear?
+8940 | reg=law,swat|rep=bad | You're on my radar, so be good
+8941 | reg=law,swat|rep=bad | Walk on by, quietly, no funny business
+8942 | reg=law,swat|rep=bad | I know the name, I'd like to not hear it again
+8943 | reg=law,swat|rep=bad | Hm, you
+8944 | reg=law,swat|rep=bad | I'm watching you, so, behave
+8945 | reg=law,swat|rep=bad | We've got notes on you
+8946 | reg=law,swat|rep=bad | Don't give me a reason
+8947 | reg=law,swat|rep=bad | I heard, and I didn't like it
+8948 | reg=law,swat|rep=bad | You again, huh?
+8949 | reg=law,swat|rep=good | Take it easy, now
+8950 | reg=law,swat|rep=good | Stay safe, partner
+8951 | reg=law,swat|rep=good | We owe you one, tell us if you need anything
+8952 | reg=law,swat|rep=good | Our whole shift's been talking about you, in a good way
+8953 | reg=law,swat|rep=good | Hey, you're the one from the roster, thank you, honest
+8954 | reg=law,swat|rep=good | Come by the station if you need anything, we're pulling for you
+8955 | reg=law,swat|rep=good | Glad you're walking this beat, it's a little safer now
+8956 | reg=law,swat|rep=good | Thanks for what you've done, we noticed
+8957 | reg=law,swat|rep=good | The office speaks well of you
+8958 | reg=law,swat|rep=good | Anything you need, just ask
+8959 | reg=law,swat|rep=good | Glad you're still around
+8960 | reg=law,swat|rep=good | Good to know somebody's out there on our side
+8961 | reg=law|st=friendly,neutral|day=0,4 | Folks, go home and lock up, help's on the way!
+8962 | reg=law|st=friendly,neutral|day=0,4 | We're clearing the area, get indoors please!
+8963 | reg=law|st=friendly,neutral|day=0,4 | If you see someone hurt, don't touch them, call it in
+8964 | reg=law|st=friendly,neutral|day=0,4 | We've got units en route, just stay where you are
+8965 | reg=law|st=friendly,neutral|day=0,4 | Please remain calm, we're doing everything we can
+8966 | reg=law|st=friendly,neutral|day=0,4 | Anybody bitten, report to the station, don't hide it
+8967 | reg=law|st=friendly,neutral|day=0,4 | Do you have family nearby? Get to them and stay put
+8968 | reg=law|st=friendly,neutral|day=0,4 | Don't approach the sick ones, that's an order, not a suggestion
+8969 | reg=law|st=friendly,neutral|day=0,4 | I can't promise you anything, I'm still trying to find out what's happened
+8970 | reg=law|st=friendly,neutral|day=0,4 | You see anything strange, you tell a deputy, got it?
+8971 | reg=law|st=friendly,neutral|day=0,4 | We've got reports from Louisville that I can't repeat, so just go home
+8972 | reg=law|st=friendly,neutral|day=0,4 | Radio says the Army's sending people, so give it a little longer
+8973 | reg=law|st=friendly,neutral|day=0,4|world=road | Get off the road and get inside, I'll explain later
+8974 | reg=law|st=friendly,neutral|hour=12,17 | Afternoon, folks, a little quieter, please
+8975 | reg=law|st=friendly,neutral|mood=warm | Good to see somebody walking upright, I'll tell you that
+8976 | reg=law|st=friendly,neutral|mood=calm | Quiet around here, enjoy it while it lasts
+8977 | reg=law|st=friendly,neutral|mood=funny | No, I'm not going to ask for your license, relax
+8978 | reg=law|st=friendly,neutral|mood=grim | Don't look in the church lot, I'm saying that for your own good
+8979 | reg=law|st=friendly,neutral|mood=sad | Lost two of mine this week, so, if I'm short, that's why...
+8980 | reg=law|st=friendly,neutral|hour=17,21|mood=angry | Evening, and damn the radio, damn the weather, damn everything
+8981 | reg=law|tmp=seasoned,veteran|st=friendly,neutral|day=5,9999 | I stopped counting the dead, started counting the living, it's a short list
+8982 | reg=law|tmp=seasoned,veteran|st=friendly,neutral|day=5,9999 | Haven't been home in nine days, my dog's probably writing me a letter
+8983 | reg=law|tmp=seasoned,veteran|st=friendly,neutral|day=5,9999 | Same corner, same quiet, same coffee, minus the coffee
+8984 | reg=law|tmp=seasoned,veteran|st=friendly,neutral|day=5,9999 | My shift ended last Sunday, I just never got relieved
+8985 | reg=law|tmp=seasoned,veteran|st=friendly,neutral|day=5,9999 | Command's gone silent, which I take to mean they're busy
+8986 | reg=law|tmp=seasoned,veteran|st=friendly,neutral|day=5,9999 | If you see another deputy, tell him I'm alive
+8987 | reg=law|tmp=seasoned,veteran|st=friendly,neutral|day=5,9999 | I've talked to more dead people this week than live ones, so, hello
+8988 | reg=law|tmp=seasoned,veteran|st=friendly,neutral|day=5,9999 | Used to be a speeding ticket was a big day, that's all I'm saying
+8989 | reg=law|tmp=seasoned,veteran|st=friendly,neutral|day=5,9999 | Ask me again in a month if I still believe in the badge
+8990 | reg=law|tmp=seasoned,veteran|st=friendly,neutral|day=5,9999 | They don't teach this at the academy, I'd have transferred
+8991 | reg=law|st=careful | Hands where I can see them, please
+8992 | reg=law|st=careful | Easy, I don't know you yet
+8993 | reg=law|st=careful | That's far enough, thank you
+8994 | reg=law|st=careful | Stay right there while I look you over
+8995 | reg=law|st=careful | Whoa, easy, stay there a second
+8996 | reg=law|st=careful | Don't reach for anything, thank you
+8997 | reg=law|st=careful | I'd like to see your hands, thanks
+8998 | reg=law|st=careful | A little farther back, please
+8999 | reg=law|st=careful | Stand where you are, I'll come to you
+9000 | reg=law|st=hostile | Back off, now!
+9001 | reg=law|st=hostile | Turn around and go!
+9002 | reg=law|st=hostile | Stop right where you are!
+9003 | reg=law|st=hostile | Don't make me ask again
+9004 | reg=law|st=hostile | Last time, step back!
+9005 | role=law_deputy|st=friendly,neutral|hour=7,16 | Morning- no, afternoon, I think, sorry, long shift
+9006 | role=law_deputy|st=friendly,neutral | You see a white van with no plates? Come tell me if you do
+9007 | role=law_deputy|st=friendly,neutral | Never thought I'd miss writing speeding tickets
+9008 | role=law_deputy|st=friendly,neutral | Anybody's dog loose over there? I keep getting calls
+9009 | role=law_deputy|st=friendly,neutral | The jail's full of the ones we couldn't leave outside, I'm not saying more
+9010 | role=law_deputy|st=friendly,neutral|sex=m | My wife thinks I'm at the station, I'm at the station, in a way
+9011 | role=law_deputy|st=careful,hostile | Keep walking, I'll watch you go
+9012 | role=law_deputy|st=careful,hostile | Stop, I'm not in the mood
+9013 | role=law_trooper|st=friendly,neutral | Interstate's closed, so I'm walking, which is new
+9014 | role=law_trooper|st=friendly,neutral | Stay off the bridges, the whole lot of them
+9015 | role=law_trooper|st=friendly,neutral | Haven't seen a trooper in days, so I'm talking to everybody, sorry
+9016 | role=law_trooper|st=friendly,neutral | I've worked car wrecks for fifteen years, and I never saw this
+9017 | role=law_trooper|st=friendly,neutral|world=road | Be advised, the road south of here is blocked
+9018 | role=law_trooper|st=careful,hostile | State Police, don't move
+9019 | role=law_trooper|st=careful,hostile | Stay clear of the roadblock
+9020 | role=law_corrections|st=friendly,neutral | Twenty years at the county jail and I didn't count heads like this
+9021 | role=law_corrections|st=friendly,neutral | Cell blocks got out Saturday, so if you see orange, tell me
+9022 | role=law_corrections|st=friendly,neutral | Used to be I knew where everyone was at every hour
+9023 | role=law_corrections|st=friendly,neutral | I miss lockdown, honest to God, nothing outside makes sense
+9024 | role=law_corrections|st=careful,hostile | Keep your hands out where I can see them
+9025 | role=law_corrections|st=careful,hostile | Move along, I don't want a count on you
+9026 | role=law_corrections|st=careful,hostile | Hands out front, slowly
+9027 | role=law_corrections|st=careful,hostile | Don't make me use the keys, I've got other things
+9028 | role=law_sergeant|st=friendly,neutral | Sergeant here, what's your business?
+9029 | role=law_sergeant|st=friendly,neutral | I don't have enough men to cover this block, so be quick
+9030 | role=law_sergeant|st=friendly,neutral | My deputies are good, just tired, don't take it personal
+9031 | role=law_sergeant|st=friendly,neutral|world=road | Rest where you can, then go, the road isn't going anywhere
+9032 | role=law_sergeant|st=careful,hostile | Hold up there, I need to see your hands
+9033 | role=law_sergeant|st=careful,hostile | Don't test me today
+9034 | role=law_sergeant|st=careful,hostile | Sergeant here, stay where you are
+9035 | role=law_sergeant|st=careful,hostile | Don't take another step, understood?
+9036 | role=law_officer|st=friendly,neutral | Officer here, you doing alright?
+9037 | role=law_officer|st=friendly,neutral | Need something? Not that I've got much to give
+9038 | role=law_officer|st=friendly,neutral | Please don't go into the grocery, we've got it taped off
+9039 | role=law_officer|st=friendly,neutral | We're short on everything but paperwork
+9040 | role=law_officer|st=careful,hostile | Let me see your hands, please
+9041 | role=law_officer|st=careful,hostile|world=vehicle | Don't come near the cruiser, sorry, but no
+9042 | reg=swat|st=friendly,neutral|day=0,4 | Get indoors, civilian, we've got reports of violence!
+9043 | reg=swat|st=friendly,neutral|day=0,4 | Stay inside until it's cleared, understand?
+9044 | reg=swat|st=friendly,neutral|day=0,4 | Don't try to help anyone who's bitten, understood?
+9045 | reg=swat|st=careful,hostile | Back up
+9046 | reg=swat|st=careful,hostile | Do not approach
+9047 | reg=swat|st=careful,hostile | That's close enough
+9048 | reg=law,swat|rep=worst | You're on the list, don't think I forgot
+9049 | reg=law,swat|rep=worst | Well, well, look who walked into my county
+9050 | reg=law,swat|rep=worst | Show me your hands, I've read your file
+9051 | reg=law,swat|rep=worst | Keep walking, hands out, no sudden anything
+9052 | reg=law,swat|rep=worst | I know who you are, and I'm watching every step
+9053 | reg=law,swat|rep=worst | Don't you move, I've been waiting for this
+9054 | reg=law,swat|rep=worst | That's the one from the bulletin!
+9055 | reg=law,swat|rep=worst | We've got a report on you, so, stop
+9056 | reg=law,swat|rep=worst | Keep walking and don't speak, I'm watching
+9057 | reg=law,swat|rep=worst | You're wanted, don't make it worse
+9058 | reg=law,swat|rep=best | Deputies talk about you at roll call, every shift
+9059 | reg=law,swat|rep=best | You're the reason a few of us are still alive
+9060 | reg=law,swat|rep=best | It's good to know you're out there, truly
+9061 | reg=law,swat|rep=best | Make way, everybody, it's the one from the stories
+9062 | reg=law,swat|rep=best | Make way
+9063 | reg=law,swat|rep=best | The whole shift's heard about you
+9064 | reg=law,swat|rep=best | Word is you've done more than the department
+9065 | reg=law,swat|rep=best | Make way, folks, make way
+9066 | reg=law,swat|st=friendly,neutral|hour=5,10 | Morning, folks, nothing happening here
+9067 | reg=law,swat|st=friendly,neutral|hour=5,10 | Morning, I keep reaching for a cup that isn't there
+9068 | reg=law,swat|st=friendly,neutral|hour=5,10 | Early start, anybody bothering you out here?
+9069 | reg=law,swat|st=friendly,neutral|hour=13,17 | Afternoon, anybody told you about the curfew? We're trying one
+9070 | reg=law,swat|st=friendly,neutral|hour=13,17 | Afternoon, long shift, don't mind me
+9071 | reg=law,swat|st=friendly,neutral|hour=17,20 | Get indoors before dark, if you've got a place
+9072 | reg=law,swat|st=friendly,neutral|hour=17,20|world=road | Evening, we're closing this street in an hour
+9073 | reg=law,swat|st=friendly,neutral|hour=21,4 | Dark out, better use your flashlight sparingly
+9074 | reg=law,swat|st=friendly,neutral|hour=21,4 | Quiet night, knock on wood
+9075 | reg=law,swat|st=friendly,neutral|hour=21,4 | Night patrol, so don't take it personally
+9076 | reg=law|tmp=seasoned,veteran|st=friendly,neutral|hour=21,4 | Twelve hours in, I'd kill for a bed
+9077 | reg=law|tmp=seasoned,veteran|st=friendly,neutral|hour=21,4 | I used to love night shift, now I hate every minute
+9078 | reg=law,swat|st=careful,hostile|hour=21,4 | Hold up, it's the middle of the night
+9079 | reg=law,swat|st=careful,hostile|hour=21,4 | Hands out in front of you, slowly
+9080 | reg=law,swat|st=careful,hostile|hour=21,4 | Turn on your light, slowly, where I can see it
+9081 | reg=law|st=friendly,neutral|day=5,13 | County's still got a handful of us, if you need something, ask
+9082 | reg=law|st=friendly,neutral|day=5,13 | Nobody's issued new orders, so, I'm making them up
+9083 | reg=law|st=friendly,neutral|day=14,9999 | I stopped keeping a log, there's nobody to read it
+9084 | reg=law|st=friendly,neutral|day=14,9999 | You're the first person I've talked to in days, so, hello
+9085 | reg=law|st=friendly,neutral|day=14,9999 | Used to arrest people, now I just hope they keep walking
+9086 | reg=law,swat|st=friendly,neutral | Pedestrian, one, unarmed as far as I can see
+9087 | reg=law,swat|st=friendly,neutral | Civilian approaching, looks clean, hold your fire
+9088 | reg=law,swat|st=friendly,neutral | We've got a pedestrian, one, hold position
+9089 | reg=law,swat|st=friendly,neutral | Radio it in, one civilian, moving south
+9090 | reg=law,swat|st=friendly,neutral | Eyes up, we've got company on foot
+9091 | reg=law,swat|st=friendly,neutral|psex=f|world=road | Ma'am, you need an escort? It's a long road
+9092 | reg=law,swat|st=friendly,neutral|psex=m | Sir, you don't happen to have a spare cigarette, do you?
+9093 | role=law_sheriff|st=friendly,neutral | The department's what's left of me and six deputies
+9094 | role=law_sheriff|st=friendly,neutral | I'm the one who's supposed to have answers, and I don't
+9095 | role=law_sheriff|st=friendly,neutral | If you need the law, you're looking at it, for what that's worth
+9096 | role=law_sheriff|st=friendly,neutral | People keep asking me what to do, so, I'm making it up
+9097 | role=law_sheriff|st=friendly,neutral | Anybody giving you trouble? Come by the office, I'll hear it
+9098 | role=law_sheriff|st=friendly,neutral|world=road | I've been to every house on this road, and I'm tired of knocking
+9099 | role=law_sheriff|st=careful,hostile | Hands out in front, please
+9100 | role=law_sheriff|st=careful,hostile | Easy, it's been a long day
+9101 | reg=law|st=friendly,neutral|world=building | Please stay off the roof, folks, we've had two fall
+9102 | reg=law|tmp=seasoned,veteran|st=friendly,neutral | I'm getting too old for this, I know, I know, everyone says it
+9103 | reg=law|tmp=seasoned,veteran|st=friendly,neutral | County's one tired man with a badge, that's me, hello
+9104 | reg=law|tmp=seasoned,veteran|st=friendly,neutral | Damn radio, damn dispatcher, damn everything, hello
+9105 | reg=law|tmp=seasoned,veteran|st=friendly,neutral | I signed up for... hell, not this
+9106 | reg=law|tmp=seasoned,veteran|st=friendly,neutral | I keep getting asked what to do. Hell if I know
+9107 | role=law_officer|st=hostile | Officer, hold it there!
+9108 | role=law_officer|st=hostile | Do not move!
+9109 | role=law_deputy|st=hostile | Deputy, county, stop!
+9110 | role=law_deputy|st=hostile | That's far enough, I mean business!
+9111 | reg=swat|st=careful | Stay put, civilian
+9112 | reg=swat|st=careful | Hold position, we'll pass
+9113 | reg=swat|st=careful | Stay behind the line, please
+9114 | reg=swat|st=careful | Hands where we can see, thank you
+9115 | reg=swat|st=hostile | Away, now!
+9116 | reg=swat|st=hostile | Last warning, move!
+9117 | role=swat_lead|st=careful,hostile | Hold there, I won't say it twice
+9118 | role=swat_lead|st=careful,hostile | Team, eyes on the civilian
+9119 | role=swat_operator|st=careful,hostile | Don't come closer, I'm not kidding
+
+##### PATROL_CHECKPOINT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Devriyede kontrol noktasına vardı.
+9120 | tmp=seasoned,veteran | I'll keep watching as we go
+9121 | tmp=veteran | Mark this spot, we come back through here at dark
+9122 | tmp=veteran | Halfway, water if you need it, then we push
+9123 | tmp=veteran|hour=4,11|fact=recent_human_contact | Keep an eye out, I don't like surprises
+9124 | tmp=seasoned|world=road | Two more streets and we turn back
+9125 | tmp=seasoned|world=road | Nothing here, next street, then we call it
+9126 | tmp=seasoned|mood=grim|world=building | Same dead man on the same porch, I hate this route
+9127 | tmp=seasoned,veteran|hour=16,20 | Dark soon, last sweep, then inside
+9128 | tmp=seasoned | Don't like this stretch, never do
+9129 | reg=civilian,family,worker,rescue | Nothing's changed here, good
+9130 | reg=civilian,family,worker,rescue | Same as yesterday, keep going
+9131 | - | Checkpoint, nothing to report
+9132 | - | Passing by, all clear
+9133 | - | Same spot, same view, same nothing
+9134 | - | Marking the time, eight-forty, quiet
+9135 | - | Everything's where we left it
+9136 | - | Same as last time, nothing changed
+9137 | - | Looks the same as it did an hour ago
+9138 | - | Still all clear here, still all clear
+9139 | - | Walking my rounds, boring as ever
+9140 | - | Round and round we go, like a carousel
+9141 | - | Another loop, another yawn
+9142 | - | Check, check, check, I could do this in my sleep, maybe I am
+9143 | world=door,fence | Checked the door, checked the fence, checked the gate
+9144 | world=road | All quiet on the, on the street, I guess
+9145 | reg=civilian,family,worker|tmp=fresh|mood=fear | Checkpoint, everything's okay, right? It's okay?
+9146 | reg=civilian,family,worker|tmp=fresh|mood=fear | Did you see that? No? Okay, nothing, I thought I saw something
+9147 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Nobody's touched the tripwire, good
+9148 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Dogs aren't barking, so I'm calling that good
+9149 | reg=civilian,family,worker|tmp=seasoned|mood=calm|world=window | Gate's still locked, windows still boarded, good enough
+9150 | reg=civilian,family,worker|mood=funny | Round the block, round the block, I'm becoming a mailman
+9151 | reg=civilian,family,worker|mood=funny | If I find a stray cat, it's coming home with me
+9152 | hour=21,4 | Dark checkpoint, quiet, but the quiet's got eyes
+9153 | hour=21,4 | Flashlight off, just starlight, all clear
+9154 | hour=5,8 | Sunrise at the checkpoint, nothing but birdsong, nice
+
+##### PATROL_START #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Devriyeye çıkıyor.
+9155 | reg=civilian,family,worker,rescue|world=fence | I'll walk the fence line, be right back

@@ -1,0 +1,44 @@
+# PAKET Y1SR · parça 1/1 · satır 1-6 (6 satır)
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: yalnızca numaralı satırlar, her biri 'N | Türkçe' (K1/K2 etiketini yazma), numaralar aynen, hiçbirini atlama.
+# SAHNE BLOKLARI: Her '##### SAHNE ... #####' başlığı bir, iki ya da daha çok NPC'nin kendi aralarındaki (tek kişiyse kendi kendine) TEK bir konuşmasıdır; satırlar sırayla söylenir. K1, K2, K3 konuşmacı numaralarıdır, aynı sahnede hep aynı kişi. Başlıktaki koşullar: reg/r1/r2/r3 = konuşanın rolü (r1 = K1), x1=f ya da x1=m = K1 kadın/erkek, mood = ruh hali, day/hour = salgının günü/saat, world = mekân, faction = grup. '· ' ile başlayan satırlar BAĞLAMDIR (numarasızdır, çevirme, çıktıya yazma); numaralı satırların tamamını çevir. Sahneyi baştan sona oku, konuşma bir bütündür: sözü devralma, 'o', 'bu', 'sen' göndermeleri ve ritim sahne boyunca tutarlı olsun.
+
+##### SAHNE fw_l23_t3e_share_the_barn · meet · 3 kişi · r1=civilian,family,worker|r2=civilian,family,worker|r3=law,swat|day=0,12|mood=calm|world=door,stairs,building|out=part #####
+  · K1 | We've been sleeping in the hayloft at the Lowe farm   → Lowe çiftliğindeki samanlıkta yatıyoruz.
+  · K2 | We found a root cellar two fields over, dry, and the door bars shut   → İki tarla ötede toprak altı bir kiler bulduk. Kuru, kapısı da sürgüyle kapanıyor.
+  · K3 | Anywhere with one door and a way out the other side, that's what I'd pick   → Tek kapısı olup öbür tarafta da çıkışı olan yer neresiyse, ben onu seçerdim.
+  · K1 | The hayloft has a ladder we can pull up   → Samanlığın merdiveni var, yukarı çekip kaldırabiliriz.
+1 | K2 | Our cellar has a bar on the inside
+  · K3 | Then you both have a plan, stick to it   → O zaman ikinizin de bir planı var, ona sadık kalın.
+
+##### SAHNE s2_c01_second_summer_034 · any · 2 kişi · reg=civilian,family|tmp=seasoned|day=335,400|hour=12,17|mood=grim|world=building #####
+  · K1 | Second summer, I was hoping the first one was a fluke   → İkinci yaz. Birincinin tesadüf olduğunu umuyordum.
+  · K2 | Kentucky don't do flukes, it does July   → Kentucky'de tesadüf olmaz, temmuz olur.
+  · K1 | Last year I had a whole list of things I missed, now I just miss being dry   → Geçen yıl özlediğim şeylerin koca bir listesi vardı. Şimdi sadece kuru olmayı özlüyorum.
+  · K2 | Go sit in the root cellar a spell, it's sixty down there   → Bir süre kök mahzenine git otur, orası on altı derece.
+2 | K1 | I'm moving down there, bring my supper down
+
+##### SAHNE s2_c04_green_sky_024 · any · 3 kişi · reg=civilian,family|tmp=seasoned|day=260,340|hour=13,21|mood=fear|world=door,building,wind #####
+  · K1 | Sky's gone green, that's tornado green   → Gökyüzü yeşile döndü, bu hortum yeşili.
+  · K2 | Cellar, everybody, grab the lantern   → Mahzene, herkes, feneri al!
+  · K3 | There's two of them standing right by the cellar doors   → Mahzen kapılarının hemen yanında iki tane duruyor.
+3 | K1 | Then we go down through the kitchen, now, the wind'll take care of those two, or it won't
+
+##### SAHNE s2_routine_lockup_044 · any · 2 kişi · reg=civilian,family|tmp=seasoned|day=15,400|hour=20,23|world=door,window,building #####
+  · K1 | Back door   → Arka kapı.
+  · K2 | Barred   → Sürgülü.
+4 | K1 | Cellar door
+  · K2 | Chained, front's nailed, windows are boarded, same as last night   → Zincirli. Ön kapı çivili, pencereler tahtalı, dünkü gibi.
+  · K1 | Same as last night is the whole point   → Dünkü gibi olsun, bütün mesele bu.
+
+##### SAHNE fw_ld5_school_a047 · plan · 2 kişi · reg=civilian,family,worker,rescue|day=2,30|mood=calm|world=water #####
+  · K1 | Science lab at the high school keeps bleach and rubbing alcohol, all of it   → Lisenin fen laboratuvarında çamaşır suyu, tıbbi alkol, her şey var.
+  · K2 | For the water?   → Su için mi?
+  · K1 | For everything, I ain't drinking that creek till it's treated   → Her şey için. Arıtılmadan o derenin suyunu içmem.
+5 | K2 | Lab's on the second floor, I hate that climb
+
+##### SAHNE s6_c03_attic_ladder_008 · any · 2 kişi · reg=elite|tmp=veteran|mood=grim|world=stairs,building #####
+  · K1 | Four rooms, a closet, an attic   → Dört oda, bir dolap, bir tavan arası.
+  · K2 | Attic?   → Tavan arası mı?
+  · K1 | Pull-down ladder, scratching up there since we came in   → Açılır merdiveni var, girdiğimizden beri yukarıdan tırmalama sesi geliyor.
+6 | K2 | Then it stays an attic, nail it shut

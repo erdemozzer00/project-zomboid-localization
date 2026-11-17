@@ -1,0 +1,173 @@
+# PAKET Y12R · parça 1/1 · satır 1-117 (117 satır)
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# Kurallar: aşağıdaki ARAYÜZ kuralları (sahne/karakter canlandırma yok). Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.
+# ARAYÜZ DOSYASI: Bu satırlar konuşma değil, EKRAN METNİ: düğme, ayar, ipucu, bildirim, etiket. Sahne ya da karakter canlandırma yok; kısa, net ve tutarlı yaz.
+# BİÇİM: Etiketlerde emir ya da isim biçimi kullan ('Kaydet', 'Teçhizat'). 'siz' hitabı yok, '-dır' yok; ipucu ve açıklamada gerekirse 'sen'. Sonda nokta İngilizcedeki gibi: İngilizcede yoksa yazma, varsa koru.
+# KORUNACAKLAR: {yer_tutucu}, %%, %1, \n ve <...> etiketleri ile renk kodları aynen kalır. Kısaltmalar (HP, NPC, GM, MHz…) ve özel adlar (kişi, grup, yer, silah adı) çevrilmez. Sayıları ve birimleri koru.
+# UZUNLUK: Türkçe İngilizceden belirgin uzun olmasın; düğmelerde ve sekme adlarında en fazla yaklaşık 1,3 katı. Sığmıyorsa kısalt, anlamı koru.
+# BÜYÜK HARF: İngilizcede BÜYÜK HARFLİ yazılmış etiket Türkçede de büyük harfli olur (İ/ı kurallarıyla).
+# EKRAN: Her ##### başlığının altındaki 'EKRAN:' notu metnin hangi ekranda ya da panelde göründüğünü söyler; önce onu oku. Etiket sütunu kodda alanın adıdır (ui, tip, label…), çıktıya yazma.
+# TERİMLER (bağlayıcı; yalnız bu dosyada geçenler; sözcük aynı anlamda geçiyorsa bu karşılığı kullan): Gear → Teçhizat; Faction → Fraksiyon; Squad → Tim; Crew → Ekip; Group → Grup; Encounter → Karşılaşma; Raid → Baskın; Diagnostics → Tanılama; Default → Varsayılan; Creator → Oluşturucu; Companion → Yol arkadaşı; Preset → Şablon; Loot → Ganimet; Hostile → Düşman; Friendly → Dost; Neutral → Tarafsız; Survivor → Hayatta kalan; weapon → Silah; damage → Hasar; ammo → Mermi; helicopter → Helikopter; magazines → Şarjörler; members → Üyeler; set name → Sabit ad; armor → Zırh; behavior → Davranış; combat → Çatışma; roster → Kadro; search → Arama; selected → Seçili; weapons → Silahlar; melee → Yakın dövüş; aiming → Nişan; civilians → Siviller; lookout → Gözcülük; party → Grup; police → Polis; strength → Güç; very high → Çok yüksek; workers → İşçiler
+# Girdi biçimi: N | etiket | İngilizce
+
+##### OLUŞTURUCU · LİSTE VE FİLTRE #####
+# EKRAN: Oluşturucu ekranında fraksiyon/üye listesi, arama ve filtre düğmeleri; boş liste yönlendirmeleri
+1 | ui | Clear the search or press NEW
+2 | ui | Press NEW to make the first one
+3 | ui | Pick one on the left or press NEW
+4 | ui | No faction selected
+5 | ui | Every member has a weapon and ammo
+6 | ui | Clear the filter to see everyone
+7 | ui | No members match
+8 | ui | Add the first one
+9 | ui | No members in this faction yet
+10 | ui | No faction selected: pick one or press NEW
+11 | hint | Ctrl+S saves now
+
+##### OLUŞTURUCU · GARDIROP KARTI #####
+# EKRAN: Oluşturucuda üyenin kıyafet takımı kartı: yuva, sezon etiketleri ve uyarı notları
+12 | ui | Both sit on the same body spot, one hides the other
+13 | ui | They would clip through each other
+14 | note | Not in the clothing guide, no season or role rating
+15 | ui | Warmth
+16 | role | Role fit
+17 | head | Collides with {name}
+18 | slot | {slot} slot
+19 | label | COLLIDES
+
+##### OLUŞTURUCU · FRAKSİYON DESTEĞİ #####
+# EKRAN: Oluşturucuda fraksiyonun araç seçimi gibi destek alanları
+20 | ui | Default car ({car})
+21 | ui | {name} - {seats} seats
+22 | ui | {car} (not installed)
+
+##### OLUŞTURUCU · MENÜ MÜZİĞİ #####
+# EKRAN: Oluşturucu açıkken menü müziğini kapatan düğme ve notu
+23 | ui | MUSIC: MUTED
+24 | ui | MUSIC: ON
+25 | ui | Menu music is muted while the Creator is open. Click to hear it again
+
+##### OLUŞTURUCU · KURTARMA #####
+# EKRAN: Oluşturucuda silinen NPC geri getirilince çıkan durum yazısı
+26 | ui | NPC RESTORED
+
+##### TANILAMA UYARISI #####
+# EKRAN: Tanılama kendiliğinden kapatılınca çıkan bildirim (oyun açılışında açık kalmışsa ya da 30 dakika dolunca)
+27 | - | A-Life Diagnostics was left on, so it was switched off. Turn it on again in Options > Project A-Life
+28 | - | A-Life Diagnostics switched itself off after 30 minutes. Turn it on again in Options > Project A-Life
+
+##### OYUNCU İPUÇLARI · TANILAMA #####
+# EKRAN: Oyun içinde ve ayarlarda çıkan yönlendirme yazıları: NPC düzenleme ve Tanılama ipucu
+29 | veri | Right-click an A-Life NPC to edit it.
+30 | veri | NPCs
+31 | veri | Diagnostics is off - tick it in Options
+32 | veri | Turn it on under A-Life > Diagnostics or in Options > Project A-Life. It slows the game, so leave it off unless you are testing.
+
+##### KİŞİ VE GRUP ADI ETİKETLERİ #####
+# EKRAN: Kişi ve grup etiketleri ('Ad - Unvan'); kaynak dosyası belirsiz. Kişi ve grup adları aynen kalır, yalnız unvan (Boss, Gunman, Lookout, Driver, Loader) çevrilir
+33 | veri | Tolliver Freight
+34 | veri | Six Mile Boys
+35 | veri | Dell Tolliver - Freight Boss
+36 | veri | Wade Pruitt - Six Mile Boss
+37 | veri | Curtis - Six Mile Gunman
+38 | veri | Lyle - Six Mile Lookout
+39 | veri | Ronnie - Six Mile Gunman
+40 | veri | Tolliver Freight - Driver
+41 | veri | Tolliver Freight - Loader
+
+##### KARŞILAŞMA ÖZETİ #####
+# EKRAN: Yönetici karşılaşma listesindeki tek cümlelik karşılaşma özeti
+42 | veri | A Black Hawk that hovers near you, lowers its ladder and puts its squad on the ground to attack, then flies on. Used for backup calls in place of the helicopter some of the time; weight 0.
+
+##### KISA ETİKETLER #####
+# EKRAN: İki küçük etiket (kaynak dosyası belirsiz; MAX bir üst sınırı, Optional zorunlu olmayan alanı belirtir gibi görünüyor)
+43 | veri | MAX
+44 | veri | Optional
+
+##### ŞABLON CÜMLELER #####
+# EKRAN: Kaynak dosyası belirsiz şablon cümleler: itibar seviyesi satırları (Up/Down: LEVEL…), ayar özetleri (NPC damage…), grup haberleri ({faction} grup, {where} yer, {waves} dalga). Yer tutucular doldurulunca tek satır olarak okunur
+45 | veri | Up: LEVEL {level} at {score}, {left} to go
+46 | veri | Down: LEVEL {level} at {score}, {left} to go
+47 | veri | NPC damage {value}%%
+48 | veri | NPC health {value}%%
+49 | veri | Jobs on offer: {percent}%% of people
+50 | veri | {name}, {faction}
+51 | veri | {faction} moved through {place} twice this week
+52 | veri | Folks say a {faction} man went down {where}. Nobody saw who
+53 | veri | {faction} lost somebody {where} this week. A stranger did it, they say
+54 | veri | Somebody put a {faction} runner in the ground {where}. Keep your head down around them
+55 | veri | A {faction} crew hit a house {where}. Took everything
+56 | veri | Heard shooting {where}, that was {faction}
+57 | veri | {faction} are organized now. Raids, not scavenging
+58 | veri | Raid on: {faction}, {waves} waves left
+59 | veri | Scouts about: {faction} are sizing someone up
+60 | veri | NPC damage {damage}%%, up to {hostile} hostile NPCs, survivor pool {census}
+
+##### OLUŞTURUCU · DAYANIKLILIK DÜZEYLERİ #####
+# EKRAN: Oluşturucuda NPC'nin sağlık düzeyi adları (kısa etiket) ve her düzeyin açıklaması
+61 | veri | Very light
+62 | veri | Standard
+63 | veri | Boss level
+64 | veri | Drops almost at once, a hit or two
+65 | veri | Softer than most NPCs
+66 | veri | A normal NPC, the default
+67 | veri | Takes a beating, a notch above normal
+68 | veri | Hard to put down, expect a long fight
+69 | veri | Boss level, soaks up a lot of lead
+70 | veri | {hp} HP
+71 | veri | Rifle: about {rifle} body hits. Pistol: about {pistol}
+72 | veri | In game after world scaling: about {hp} HP
+73 | veri | Hired as a companion it gets {mult} times this
+
+##### OLUŞTURUCU · AYAR İPUÇLARI (SAVAŞ) #####
+# EKRAN: Oluşturucuda bir ayarın üstüne gelince çıkan açıklama; ayar adları ekranda İngilizce etiketle durur (Strength, Aiming, Gear gibi). Sayıları aynen koru
+74 | veri | Base HP, 0 to 200. 0 uses the default of {hp}. The world health setting and the NPC class scale it on spawn
+75 | veri | Strength, 1 to 10. Harder melee hits and heavier shoves
+76 | veri | Endurance, 1 to 10. Fights and runs longer before getting winded
+77 | veri | Awareness, 1 to 10. Notices zombies, players and noise sooner
+78 | veri | Aiming, 1 to 10. Tighter groups and fewer missed shots
+79 | veri | Accuracy against players. 100 is normal, 50 misses a lot, 200 rarely misses. The world aim difficulty stacks on top
+80 | veri | Accuracy against zombies. 100 is normal, lower wastes more ammo
+81 | veri | Weapon damage dealt. 100 is normal, 50 is half, 200 is double
+82 | veri | Incoming damage blocked. At 25 it takes 75 percent of each hit. The cap is 90
+83 | veri | Chance its weapon drops on death. Not a spawn chance, pick weapons in Gear. Always keeps issued weapons, Off removes them
+84 | veri | Chance worn armor drops on death. None 0, Very Low 5, Low 20, Moderate 50, High 75, Very High 90, Always 100
+85 | veri | Condition of the dropped weapon out of 10. Higher is closer to new
+86 | veri | Condition of the dropped armor out of 10. Higher is closer to new
+87 | veri | Who may call backup. Use faction setting follows the faction, Disabled means this NPC never calls
+88 | veri | How called backup arrives: ground vehicle, helicopter, or either
+89 | veri | Helicopter role for backup. Squad insertion drops a crew, Spotlight lights the target
+
+##### OLUŞTURUCU · AYAR İPUÇLARI (ÜYE VE ŞABLON) #####
+# EKRAN: Oluşturucuda üye/şablon alanlarının üstüne gelince çıkan açıklama. Büyük harfli adlar (Set name, Mixed, Common, Rare) arayüz etiketidir
+90 | veri | Name shown for this preset. Spawned NPCs roll their own names unless NPC name is Set name
+91 | veri | Decides the body model and the random name pool
+92 | veri | Random names never repeat in the world. Set name gives every NPC of this preset the same name
+93 | veri | The name every NPC of this preset gets. Only used with Set name
+94 | veri | Job tag for this member. It shows in the roster and in the filters
+95 | veri | How this member acts under threat. Civilians and workers panic, soldiers, police and criminals hold steady. Same as faction follows the faction class
+96 | veri | How often this preset is picked inside its faction. Common is normal, Rare keeps specialists from filling a squad
+97 | veri | Search tags for the roster filter, separated by commas
+98 | veri | Private note for you, never shown in game
+99 | veri | The whole baseline behavior package: priorities, fighting style and allowed abilities
+100 | veri | One specialist doctrine for this NPC. Use Abilities for smaller exceptions
+101 | veri | Whether it spawns armed and ready. Mixed follows the loadout pool
+102 | veri | Voice pack for warnings, combat shouts and death sounds
+103 | veri | Reaction the voice preview plays. It does not change behavior
+104 | veri | Unlimited combat reloads. Death loot still rolls once per authored magazine
+105 | veri | Spare ammo can drop with the body when this NPC dies
+106 | veri | Spare magazines for the main weapon
+107 | veri | Spare magazines for the sidearm
+108 | veri | One roll per magazine for what drops on death. Three magazines at 20 percent means three rolls
+
+##### OLUŞTURUCU · AYAR İPUÇLARI (FRAKSİYON) #####
+# EKRAN: Oluşturucuda fraksiyon alanlarının üstüne gelince çıkan açıklama
+109 | veri | Lets this faction show up on its own in the world. Off keeps it for admin spawns and visits
+110 | veri | Never spawns on its own, joins raids or counts toward world pressure. Members only walk up to your door on visits
+111 | veri | Friendly and neutral factions can appear naturally. Scouts, ambushes and raids need a hostile faction
+112 | veri | Relative weight against other factions, not a percentage. Zero stops natural spawning. Sandbox settings set the overall rate
+113 | veri | First and last game day, both included. Day 0 is the first. Leave one blank to keep that end open
+114 | veri | When new encounters may begin. Squads already out finish their task, they do not vanish at the end of the window
+115 | veri | Lone survivors, groups, or both. The size ranges below apply per type
+116 | veri | Relative weight of this party type. Blank uses the sandbox default, zero turns the type off
+117 | veri | Every registered town, including ones added later. Untick to pick towns one by one

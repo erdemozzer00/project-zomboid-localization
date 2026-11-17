@@ -1,0 +1,63 @@
+{
+  "_paket": "M1a — Murlo'nun geliştirme sürümü (1.5.0 sonrası, 2026-11-10): IG_UI yeni 8 + 1.5.0'dan çevrilmemiş 6 satır (Claude, 50 altı kuralı)",
+  "_dosya": "IG_UI",
+  "_surum_farki": true,
+  "satirlar": {
+    "IGUI_ALifeUI_2f3ae11f770d358c": {
+      "tr": "A-Life başlatılamadı: {reason}. Oyunu yeniden başlat ve console.txt dosyasını gönder",
+      "not": "Başlatma hatası bildirimi."
+    },
+    "IGUI_ALifeUI_25a424440c4c8b89": {
+      "tr": "A-Life başlatılıyor ({n}. deneme): {reason}",
+      "not": "Başlatma yeniden deneme bildirimi."
+    },
+    "IGUI_ALifeUI_3a8614c5611f54ed": {
+      "tr": "Oluşturucu",
+      "not": "SÖZLÜK: Creator → Oluşturucu."
+    },
+    "IGUI_ALifeUI_72b91a4f074cfac0": {
+      "tr": "A-Life paneli",
+      "not": ""
+    },
+    "IGUI_ALifeUI_4c53dd7b1a265c19": {
+      "tr": "Tanılama kendiliğinden kapandı, A-Life ayarlarından yeniden açabilirsin",
+      "not": "SÖZLÜK: Diagnostics → Tanılama."
+    },
+    "IGUI_ALifeUI_3f9607ac2a53ef2f": {
+      "tr": "Bu sunucuda yönetici yetkisi gerekir",
+      "not": "Soluk seçenek açıklaması."
+    },
+    "IGUI_ALifeUI_4caae9c2670d5cca": {
+      "tr": "Sunucu bunu kapattı",
+      "not": "Soluk seçenek açıklaması."
+    },
+    "IGUI_ALifeUI_2556778a77e1b63a": {
+      "tr": "Tanılama, A-Life sağ tık menüsünü de açar. Bu sunucu yalnızca yöneticilere izin veriyorsa burada soluk görünür.",
+      "not": "Mevcut 'sağ tık menüsü' kullanımıyla aynı."
+    },
+    "IGUI_ALifeUI_0e1c093025eb69fd": {
+      "tr": "Oluştur",
+      "not": "ALifeAdminActions: spawn.go düğmesi ('Send the form'). SÖZLÜK: yönetici eylemi spawn → oluştur."
+    },
+    "IGUI_ALifeUI_0d0c71e41e81b0ab": {
+      "tr": "Doyle",
+      "not": "Kişi adı (ALifeNames), çevrilmez."
+    },
+    "IGUI_ALifeUI_27c657cf214411a6": {
+      "tr": "SAVUNMA YARILDI",
+      "not": "ALifeRaidText baskın evresi (breach), kardeşleri: SALDIRI, MEVZİDE, YAĞMACILAR GERİ ÇEKİLİYOR, BASKIN SONRASI."
+    },
+    "IGUI_ALifeUI_54870740366b676a": {
+      "tr": "GELDİLER",
+      "not": "ALifeRaidText şeridi: INCOMING, ARRIVED, ASSAULT, RESOLVED. 'RAID ARRIVED' → 'YAĞMACILAR GELDİ' ile uyumlu."
+    },
+    "IGUI_ALifeUI_2fce865603105e7f": {
+      "tr": "SONA ERDİ",
+      "not": "ALifeRaidText şeridi, baskın bitti."
+    },
+    "IGUI_ALifeHint_tier_tank": {
+      "tr": "Tank gibi",
+      "not": "Dayanıklılık kademesi; kardeşleri Çok hafif / Hafif / Standart / Zor iş / Boss düzeyi; açıklaması 'Kolay kolay yere serilmez'."
+    }
+  }
+}

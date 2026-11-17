@@ -1,0 +1,1132 @@
+# Güncelleme karşılaştırma raporu
+
+
+## IG_UI
+
+| | Anahtar | Kelime (EN) |
+|---|---:|---:|
+| Eski EN / TR | 1044 | |
+| Yeni EN | 2495 | |
+| Aynen kalan (TR hazır) | 1018 | |
+| **Yeni eklenen** | 1477 | 8071 |
+| — metni eskiden birebir var (bağlama göre kontrol edilmeli) | 0 | |
+| — eski bir metne benziyor (düzenlenmiş olabilir) | 46 | |
+| **Metni değişen** (anahtar aynı) | 0 | 0 |
+| Silinen | 26 | |
+
+### Yeni ama eski bir metne benzeyenler
+
+- `IGUI_ALifeUI_02983fdb5571fbf1` (benzerlik %80, eski `IGUI_ALifeUI_67ffc50d0bf5553a`)
+  - Yeni EN: 'Open classic spawn panel'
+  - Eski EN: 'Open spawn panel'
+  - Eski TR: 'NPC oluşturma panelini aç'
+- `IGUI_ALifeUI_26226a6e4b89e6e4` (benzerlik %70, eski `IGUI_ALifeUI_2fd3dd1f518303d4`)
+  - Yeni EN: 'Waiting for an answer...'
+  - Eski EN: 'Waiting for a reply'
+  - Eski TR: 'Cevap bekleniyor'
+- `IGUI_ALifeUI_2b4200b0299d73e3` (benzerlik %62, eski `IGUI_ALifeUI_13cb9757120e0ce4`)
+  - Yeni EN: 'Cancel'
+  - Eski EN: 'Careful'
+  - Eski TR: 'Temkinli'
+- `IGUI_ALifeUI_314f6ed3052cddc1` (benzerlik %69, eski `IGUI_ALifeUI_67ffc50d0bf5553a`)
+  - Yeni EN: 'pen and paper'
+  - Eski EN: 'Open spawn panel'
+  - Eski TR: 'NPC oluşturma panelini aç'
+- `IGUI_ALifeUI_3c8779f1435edc45` (benzerlik %76, eski `IGUI_ALifeUI_6f9fba2a12a5a46b`)
+  - Yeni EN: 'WARNING: THIS TANKS PERFORMANCE WHILE IT IS ON. Leave it off unless you are testing or sending a bug report. Off by default. Shows the A-Life right-click entries: the test tools (spawner, dumps, map layers) and the Creator. In multiplayer the server accepts them only from an admin.'
+  - Eski EN: 'Off by default. Shows the A-Life right-click entries: the test tools (spawner, dumps, map layers) and the Creator. In multiplayer the server accepts them only from an admin.'
+  - Eski TR: "Varsayılan olarak kapalıdır. A-Life'ın sağ tık menüsündeki test araçlarını (NPC oluşturma aracı, veri dökümleri ve harita katmanları) ve Oluşturucuyu gösterir. Çok oyunculu oyunda sunucu bu araçları yalnızca yöneticilerin kullanmasına izin verir."
+- `IGUI_ALifeUI_2aabf716744e0bd7` (benzerlik %87, eski `IGUI_ALifeUI_6e408ede0bfb639c`)
+  - Yeni EN: 'Off by default. Records NPC activity for bug reports. Needs Diagnostics and slows the game while on. Costs nothing while off.'
+  - Eski EN: 'Off by default. Records NPC activity for bug reports. Needs Diagnostics. Costs nothing while off.'
+  - Eski TR: 'Varsayılan olarak kapalıdır. Hata raporları için NPC etkinliklerini kaydeder. Tanılamanın açık olması gerekir. Kapalıyken ek yük oluşturmaz.'
+- `IGUI_ALifeUI_30f6cd4548ee698a` (benzerlik %73, eski `IGUI_ALifeUI_3e55c7337a2608c0`)
+  - Yeni EN: 'Take care. See you around'
+  - Eski EN: '[Leave]  See you around.'
+  - Eski TR: '[Ayrıl] Görüşürüz.'
+- `IGUI_ALifeUI_33296b8f4fe83d12` (benzerlik %72, eski `IGUI_ALifeUI_0d634b9d7ed412e2`)
+  - Yeni EN: '101st Airborne - Knox Cordon Detachment'
+  - Eski EN: 'Knox Cordon Detachment'
+  - Eski TR: 'Knox Kordon Müfrezesi'
+- `IGUI_ALifeUI_7203827e7fc942aa` (benzerlik %64, eski `IGUI_ALifeUI_2fb11ba23f1a3989`)
+  - Yeni EN: 'US Army Armor School Cadre - Fort Knox'
+  - Eski EN: 'Armor School Cadre'
+  - Eski TR: 'Zırhlı Birlikler Okulu Kadrosu'
+- `IGUI_ALifeUI_5a0ab60f692a2ff5` (benzerlik %68, eski `IGUI_ALifeUI_2097bb7c0e2b517d`)
+  - Yeni EN: 'Fort Knox Military Police Company'
+  - Eski EN: 'Post Military Police'
+  - Eski TR: 'Üs Askerî Polisi'
+- `IGUI_ALifeUI_321add226cd7135f` (benzerlik %68, eski `IGUI_ALifeUI_5172806a6343a4bd`)
+  - Yeni EN: 'Kentucky Guard Remnants - 149th Armored Bde'
+  - Eski EN: 'Kentucky Guard Remnant'
+  - Eski TR: 'Kentucky Ulusal Muhafızlarından Kalanlar'
+- `IGUI_ALifeUI_45c3881c52f87146` (benzerlik %63, eski `IGUI_ALifeUI_4d6fc95c48bbca28`)
+  - Yeni EN: '149th Armored Bde - Engineer Holdouts'
+  - Eski EN: 'Engineer Holdouts'
+  - Eski TR: 'Atölyeyi Koruyan İstihkâmcılar'
+- `IGUI_ALifeUI_3f1b53ef1593ec36` (benzerlik %65, eski `IGUI_ALifeUI_664646bf760c9aa7`)
+  - Yeni EN: '1st Armor Training Brigade Remnants'
+  - Eski EN: 'Training Remnants'
+  - Eski TR: 'Eğitim Birliğinden Kalanlar'
+- `IGUI_ALifeUI_1af3874621b01451` (benzerlik %66, eski `IGUI_ALifeUI_584b72ae096903ba`)
+  - Yeni EN: '149th Armored Bde - Transport Detail'
+  - Eski EN: 'Guard Transport Detail'
+  - Eski TR: 'Ulusal Muhafız Sevkiyat Görev Ekibi'
+- `IGUI_ALifeUI_107b6ad2302c9bd9` (benzerlik %67, eski `IGUI_ALifeUI_31ff044d499d80ee`)
+  - Yeni EN: 'Ireland Army Hospital - Medical Detail'
+  - Eski EN: 'Army Medical Detail'
+  - Eski TR: 'Ordu Sıhhiye Görev Ekibi'
+- `IGUI_ALifeUI_33a91c17766b9d85` (benzerlik %65, eski `IGUI_ALifeUI_50cebf435eb64ce7`)
+  - Yeni EN: '5th SFG (Airborne) - Isolated Detachment'
+  - Eski EN: 'U.S. Army Special Forces - Isolated Detachment'
+  - Eski TR: 'ABD Kara Kuvvetleri Özel Kuvvetleri – İzole Müfreze'
+- `IGUI_ALifeUI_3e9e60d048e9b92a` (benzerlik %62, eski `IGUI_ALifeUI_0d634b9d7ed412e2`)
+  - Yeni EN: 'Knox Commonwealth'
+  - Eski EN: 'Knox Cordon Detachment'
+  - Eski TR: 'Knox Kordon Müfrezesi'
+- `IGUI_ALifeUI_16a56f3f36368598` (benzerlik %62, eski `IGUI_ALifeUI_1baa77307f9a938b`)
+  - Yeni EN: 'Travis - Engineer'
+  - Eski EN: 'Guard Engineers'
+  - Eski TR: 'Ulusal Muhafız İstihkâmcıları'
+- `IGUI_ALifeUI_0a597c9d61797cac` (benzerlik %69, eski `IGUI_ALifeUI_1baa77307f9a938b`)
+  - Yeni EN: 'Ray - Engineer'
+  - Eski EN: 'Guard Engineers'
+  - Eski TR: 'Ulusal Muhafız İstihkâmcıları'
+- `IGUI_ALifeUI_5dbf67ef1f6cb958` (benzerlik %70, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Luis - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_183cef430731c42d` (benzerlik %64, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Yvonne - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_24aa0f6a1de9f83e` (benzerlik %64, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Curtis - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_1243cff44f3cd6f8` (benzerlik %64, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Angela - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_0a899bbe1d3dfaad` (benzerlik %67, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Jesse - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_0a1a128b38bca119` (benzerlik %73, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Ada - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_6180bcd971b540b7` (benzerlik %70, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Lyle - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_4f898e516ab1b534` (benzerlik %67, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Maria - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_2b5c547a110ede40` (benzerlik %73, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Ray - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_4fc6ff6d29547b26` (benzerlik %62, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Darlene - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_1e536a207c27a837` (benzerlik %73, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Gus - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_6e26b7ee4f0ea835` (benzerlik %64, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Bonnie - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_252032b46d92c84e` (benzerlik %70, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Leon - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_408b33070b0da6fe` (benzerlik %64, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Sheila - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_29d3f3c847b600f7` (benzerlik %70, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Adam - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_3ed566a87ce54151` (benzerlik %64, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Claire - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_2f2868533e8eac86` (benzerlik %67, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Laura - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_612b90617937c8c7` (benzerlik %67, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Andre - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_43a35608306450ac` (benzerlik %67, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Helen - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_05cc1cae27624bba` (benzerlik %70, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Nina - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_052d03441ec957fa` (benzerlik %64, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Lonnie - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_4b7bb21c770eb435` (benzerlik %67, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Ellen - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_5ca6b6ec53eb2f6f` (benzerlik %70, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Otis - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_7d09bbff5464dab9` (benzerlik %67, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Tammy - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_5624b7d13e0938c6` (benzerlik %62, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Darnell - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_4dbcaa4f5a9ca214` (benzerlik %67, eski `IGUI_ALifeUI_561ddb7301f4cd06`)
+  - Yeni EN: 'Renee - Survivor'
+  - Eski EN: 'Survivor'
+  - Eski TR: 'Hayatta Kalan'
+- `IGUI_ALifeUI_708e889d6a5a2ba3` (benzerlik %67, eski `IGUI_ALifeUI_5079fdd4722aa54b`)
+  - Yeni EN: 'diagnostics are off'
+  - Eski EN: 'Diagnostics'
+  - Eski TR: 'Tanılama'
+
+### Silinen
+
+- `IGUI_ALifeUI_67ffc50d0bf5553a`: 'Open spawn panel'
+- `IGUI_ALifeUI_2046998210fc367b`: 'Spawn faction squad here...'
+- `IGUI_ALifeUI_6f34bec43b086ce4`: 'Spawn encounter here...'
+- `IGUI_ALifeUI_13cb9757120e0ce4`: 'Careful'
+- `IGUI_ALifeUI_2fd3dd1f518303d4`: 'Waiting for a reply'
+- `IGUI_ALifeUI_37e3572d13cae47a`: 'A-LIFE  /  CONVERSATION'
+- `IGUI_ALifeUI_1440670619152148`: 'More topics'
+- `IGUI_ALifeUI_3e55c7337a2608c0`: '[Leave]  See you around.'
+- `IGUI_ALifeUI_561ddb7301f4cd06`: 'Survivor'
+- `IGUI_ALifeUI_22d79d981d36a3d4`: 'A-LIFE'
+- `IGUI_ALifeUI_1cbf10477b956039`: 'Shows A-Life admin, debug and Creator tools in right-click menus. Off by default. NPC talk is always available. Diagnostics also enables these tools and greys this row while it is ticked.'
+- `IGUI_ALifeUI_5079fdd4722aa54b`: 'Diagnostics'
+- `IGUI_ALifeUI_6f9fba2a12a5a46b`: 'Off by default. Shows the A-Life right-click entries: the test tools (spawner, dumps, map layers) and the Creator. In multiplayer the server accepts them only from an admin.'
+- `IGUI_ALifeUI_6e408ede0bfb639c`: 'Off by default. Records NPC activity for bug reports. Needs Diagnostics. Costs nothing while off.'
+- `IGUI_ALifeUI_5172806a6343a4bd`: 'Kentucky Guard Remnant'
+- `IGUI_ALifeUI_0d634b9d7ed412e2`: 'Knox Cordon Detachment'
+- `IGUI_ALifeUI_2fb11ba23f1a3989`: 'Armor School Cadre'
+- `IGUI_ALifeUI_2097bb7c0e2b517d`: 'Post Military Police'
+- `IGUI_ALifeUI_1baa77307f9a938b`: 'Guard Engineers'
+- `IGUI_ALifeUI_261c3fca6f209729`: 'Guard Rifle Detail'
+- `IGUI_ALifeUI_61d4e9b035bd9934`: 'National Guard Remnants'
+- `IGUI_ALifeUI_4d6fc95c48bbca28`: 'Engineer Holdouts'
+- `IGUI_ALifeUI_664646bf760c9aa7`: 'Training Remnants'
+- `IGUI_ALifeUI_584b72ae096903ba`: 'Guard Transport Detail'
+- `IGUI_ALifeUI_31ff044d499d80ee`: 'Army Medical Detail'
+- `IGUI_ALifeUI_50cebf435eb64ce7`: 'U.S. Army Special Forces - Isolated Detachment'
+
+## Sandbox
+
+| | Anahtar | Kelime (EN) |
+|---|---:|---:|
+| Eski EN / TR | 310 | |
+| Yeni EN | 1067 | |
+| Aynen kalan (TR hazır) | 90 | |
+| **Yeni eklenen** | 763 | 11633 |
+| — metni eskiden birebir var (bağlama göre kontrol edilmeli) | 17 | |
+| — eski bir metne benziyor (düzenlenmiş olabilir) | 0 | |
+| **Metni değişen** (anahtar aynı) | 214 | 2812 |
+| Silinen | 6 | |
+
+### Metni değişen
+
+- `Sandbox_ProjectALife.ProfessionAffectsAttitude`
+  - Eski EN: 'Profession affects NPC attitude'
+  - Yeni EN: 'Profession-based NPC attitudes'
+  - Mevcut TR: "Meslek, NPC'lerin tutumunu etkiler"
+- `Sandbox_ProjectALife.ProfessionAffectsAttitude_tooltip`
+  - Eski EN: 'Allows your profession to change NPC attitudes, including profession rules set in the Creator. Off by default. Faction and folder relations still apply.'
+  - Yeni EN: 'Lets your profession affect how NPCs treat you, including Creator rules. Off: profession has no attitude effect; faction and folder relations still apply.\nDefault off.'
+  - Mevcut TR: "Mesleğinizin NPC'lerin size karşı tutumunu değiştirmesine izin verir. Oluşturucu'da tanımlanan meslek kuralları da buna dahildir. Varsayılan olarak kapalıdır. Fraksiyon ve klasör ilişkileri uygulanmaya devam eder."
+- `Sandbox_ProjectALife.PresetWorld`
+  - Eski EN: 'World preset (moves every setting below)'
+  - Yeni EN: 'World size: how many people'
+  - Mevcut TR: 'Hazır dünya ayarı (aşağıdaki tüm ayarları etkiler)'
+- `Sandbox_ProjectALife.PresetWorld_tooltip`
+  - Eski EN: "IF THE GAME STUTTERS, TURN THIS DOWN FIRST. Everything this mod costs in frame time comes from how many people the world is carrying, and this one setting decides that. The default is deliberately on the generous side so a new world feels inhabited; drop it one step and the county is still populated but noticeably cheaper. Rough guide on a mid-range machine: Deserted and Sparse are close to free, Balanced is the level everything is tested at, Crowded asks real work of a weaker CPU, and Insane is a stress test rather than a way to play. A dedicated server feels every step harder than singleplayer, because it simulates for everyone at once. One knob for every number below it. It sets how many survivors the world carries, how many towns are manned at the start, how often you meet them, whether they travel alone or in groups, how many outposts stand, when raids start and how far apart they are, and how large a raid wave, a scout party or a backup call is. Balanced is the tested default and writes nothing at all, so an existing save keeps every number it already has. Any option you set yourself still wins: the preset only moves options left at their own default, so tune one slider and the preset will not touch it -- the one thing it cannot see is you deliberately choosing the value that was already the default (for the four limits below, also the default of an older version). Offline squads, saved groups, outpost task squads and manned places never go below their defaults on Deserted or Sparse, so a quieter preset never removes anyone from a world already under way; Crowded and Insane raise them, Insane to 60 offline squads (default 18) and 4 task squads per outpost (default 2). Changed during a game, the preset moves only the offline squad and saved group limits until the next load. Insane deliberately goes past the mod's own hard caps: up to 220 live hostiles (tested ceiling 120), 24 outposts (12), 4 per town (2), 12 outdoor camps (6) and 8-strong scout parties (3). It is not tested at those numbers -- expect a heavier server, expect bugs, and back up your save first."
+  - Yeni EN: 'Normal: 200 survivors, 45 resident sites, 6 outposts. Raids scale too. Only default-valued options change; group caps update live, others need reload. Stress test unsupported; may lag.\nDefault Normal (3).'
+  - Mevcut TR: 'OYUN TAKILIYORSA ÖNCE BU AYARI DÜŞÜRÜN. Modun performansa getirdiği yük, dünyadaki insan sayısından kaynaklanır; bu ayar da o sayıyı belirler. Yeni bir dünyada başka insanların da yaşadığı hissini vermek için varsayılan nüfus bilerek biraz yüksek tutulmuştur. Bir kademe düşürdüğünüzde bölgede hâlâ insanlar olur, ancak performans yükü belirgin biçimde azalır. Orta düzey bir bilgisayar için kabaca: Issız ve Seyrek neredeyse hiç yük getirmez. Tüm testler Dengeli ayarında yapılır. Kalabalık, zayıf işlemcileri zorlar. Çılgın ise oynamaktan çok sistemi zorlamak içindir. Bağımsız bir sunucu, tüm oyuncular için aynı anda simülasyon yürüttüğünden her kademede tek oyunculu oyuna göre daha fazla zorlanır. Bu tek ayar, aşağıdaki bütün sayısal değerleri etkiler: dünyadaki hayatta kalanların sayısını, başlangıçta kaç kasabaya NPC yerleştirileceğini, onlarla ne sıklıkta karşılaşacağınızı, tek başlarına mı yoksa gruplar hâlinde mi gezeceklerini, üs sayısını, baskınların ne zaman başlayacağını ve aralıklarını, baskın dalgalarındaki, keşif gruplarındaki ve takviye ekiplerindeki kişi sayısını belirler. Dengeli, test edilmiş varsayılan ayardır ve hiçbir şeye dokunmaz; elinizdeki kayıtta olan ayarlar aynen kalır. Elle değiştirdiğiniz ayarlar her zaman önceliklidir: hazır ayar yalnızca kendi varsayılan değerinde bırakılmış seçenekleri değiştirir. Bir kaydırıcıyı değiştirdiyseniz ona dokunmaz. Ancak bir seçeneği bilerek yine varsayılan değerine getirip getirmediğinizi ayırt edemez; aşağıdaki dört sınır için eski sürümlerin varsayılan değerleri de buna dahildir. Issız ve Seyrek ayarlarında arka planda simüle edilen ekiplerin, kaydedilen grupların, üs görev ekiplerinin ve NPC yerleştirilen mekânların sınırları varsayılanın altına düşmez. Böylece nüfusu azaltan bir hazır ayar, devam eden dünyadan kimseyi silmez. Kalabalık ve Çılgın bu sınırları yükseltir. Çılgın ayarında arka plandaki ekip sınırı 60 (varsayılan 18), üs başına görev ekibi sınırı 4 (varsayılan 2) olur. Oyun sırasında değiştirildiğinde, bir sonraki yüklemeye kadar yalnızca arka plandaki ekip ve kaydedilen grup sınırlarını etkiler. Çılgın ayarı, modun kendi üst sınırlarını bilerek aşar: aynı anda 220 yaşayan düşman (test edilmiş üst sınır 120), 24 üs (12), kasaba başına 4 üs (2), açık arazide 12 kamp (6) ve 8 kişilik keşif grupları (3). Bu değerler test edilmemiştir. Sunucu yükünün artmasını ve hatalarla karşılaşmayı bekleyin; önce kaydınızı yedekleyin.'
+- `Sandbox_ProjectALife.PresetWorld_option1`
+  - Eski EN: 'Deserted -- almost nobody left (lightest on FPS)'
+  - Yeni EN: 'Deserted'
+  - Mevcut TR: "Issız -- neredeyse kimse kalmamış (FPS'yi en az etkiler)"
+- `Sandbox_ProjectALife.PresetWorld_option2`
+  - Eski EN: 'Sparse -- a few lone survivors (light on FPS)'
+  - Yeni EN: 'Sparse'
+  - Mevcut TR: "Seyrek -- tek tük hayatta kalanlar (FPS'yi az etkiler)"
+- `Sandbox_ProjectALife.PresetWorld_option3`
+  - Eski EN: 'Balanced -- the tested default, moderate FPS cost (no change)'
+  - Yeni EN: 'Normal'
+  - Mevcut TR: 'Dengeli -- test edilmiş varsayılan, orta düzey FPS etkisi (değişiklik yapmaz)'
+- `Sandbox_ProjectALife.PresetWorld_option4`
+  - Eski EN: 'Crowded -- groups, outposts and frequent raids (heavy on FPS)'
+  - Yeni EN: 'Crowded'
+  - Mevcut TR: "Kalabalık -- gruplar, üsler ve sık baskınlar (FPS'yi ciddi ölçüde etkiler)"
+- `Sandbox_ProjectALife.PresetWorld_option5`
+  - Eski EN: 'Insane -- past the tested limits, unsupported (will cost frames)'
+  - Yeni EN: 'Stress test (unsupported, may lag)'
+  - Mevcut TR: 'Çılgın -- test edilmiş sınırların ötesinde, desteklenmiyor (FPS düşer)'
+- `Sandbox_ProjectALife.RealisticOutbreak`
+  - Eski EN: 'Realistic outbreak'
+  - Yeni EN: 'Early outbreak activity'
+  - Mevcut TR: 'Gerçekçi salgın'
+- `Sandbox_ProjectALife.RealisticOutbreak_tooltip`
+  - Eski EN: 'The first days of the outbreak, the way they would go. The National Guard holds a checkpoint on the bridge north of West Point, and the first three days bring more of everything. After day 3 the police and the army are gone from the roads for good; the bridge checkpoint is abandoned after 72 hours and everything it placed is removed. On by default.'
+  - Yeni EN: 'Adds extra activity for the first 3 game days and a National Guard checkpoint north of West Point. After 72 hours, road police, army and the checkpoint disappear.\nDefault on.'
+  - Mevcut TR: "Salgının ilk günlerini gerçekçi biçimde canlandırır. Ulusal Muhafızlar, West Point'in kuzeyindeki köprüde bir kontrol noktası kurar; ilk üç gün boyunca dünyadaki hareketlilik artar. Üçüncü günden sonra polis ve asker yollardan kalıcı olarak çekilir. Köprüdeki kontrol noktası 72 saat sonra terk edilir ve kontrol noktası oluşturulurken yerleştirilen her şey kaldırılır. Varsayılan olarak açıktır."
+- `Sandbox_ProjectALife.PersistentSquadCap`
+  - Eski EN: 'Saved group limit (outposts, persistent crews)'
+  - Yeni EN: 'Saved outpost and crew limit'
+  - Mevcut TR: 'Kaydedilen grup sınırı (üsler, kalıcı ekipler)'
+- `Sandbox_ProjectALife.PersistentSquadCap_tooltip`
+  - Eski EN: 'How many groups are written into the save and come back after a restart, default 20. It counts outpost garrisons and crews an admin or an encounter made persistent. Offline squads are not counted: they come back up to the offline squad limit. Residents of places manned at the start are saved with their buildings and not counted either. Everyone else lasts the current session. Lowering it leaves the extra groups out of the next save, never removing anyone in front of you; a change made in game applies within a game minute.'
+  - Yeni EN: 'Limits outpost garrisons and persistent crews kept after restart. Distant roaming groups and starting building residents have separate limits. Lowering it affects the next save.\nDefault 45.'
+  - Mevcut TR: "Kaç grubun kayda yazılacağını ve oyun yeniden başlatıldığında geri geleceğini belirler. Varsayılan 20'dir. Üs garnizonları ile yöneticinin veya bir karşılaşmanın kalıcı kıldığı ekipler bu sınıra dahildir. Arka planda simüle edilen ekipler dahil değildir; onlar kendi ekip sınırlarına kadar geri gelir. Başlangıçta NPC yerleştirilen mekânların sakinleri de binalarıyla birlikte kaydedilir ve bu sınıra dahil edilmez. Diğer herkes yalnızca mevcut oturum boyunca kalır. Sınırı düşürmek, fazla grupları bir sonraki kaydın dışında bırakır; gözünüzün önündeki kimseyi silmez. Oyun sırasında yapılan değişiklik bir oyun dakikası içinde uygulanır."
+- `Sandbox_ProjectALife.OutpostTaskSquadCap`
+  - Eski EN: 'Temporary task squads per outpost'
+  - Yeni EN: 'Active teams per outpost'
+  - Mevcut TR: 'Üs başına geçici görev ekibi sınırı'
+- `Sandbox_ProjectALife.OutpostTaskSquadCap_tooltip`
+  - Eski EN: 'Simultaneous patrol, scavenging or hunting teams from each outpost. Default 2, at most 4; zero disables dispatches. Crews are session-only; the site remains saved.'
+  - Yeni EN: 'Caps simultaneous patrol, scavenging and hunting teams from each outpost. At 0, none are sent. Teams last for the session; the outpost stays saved.\nDefault 2.'
+  - Mevcut TR: "Her üssün aynı anda gönderebileceği devriye, malzeme toplama veya av ekibi sayısıdır. Varsayılan 2, en fazla 4'tür. Sıfır, ekip gönderilmesini kapatır. Bu ekipler yalnızca mevcut oturum boyunca kalır; üs kaydedilir."
+- `Sandbox_ProjectALife.Party_LoneWeight`
+  - Eski EN: 'Lone survivor weight'
+  - Yeni EN: 'Small-party frequency weight'
+  - Mevcut TR: 'Küçük grupların göreli sıklığı'
+- `Sandbox_ProjectALife.Party_LoneWeight_tooltip`
+  - Eski EN: 'Relative frequency of natural 1–3-person parties. Faction overrides take priority.'
+  - Yeni EN: 'Sets the relative frequency of natural 1-3-person parties compared with larger groups. Higher means more small parties; faction-specific rules take priority.\nDefault 3.'
+  - Mevcut TR: 'Kendiliğinden oluşan 1–3 kişilik grupların diğer gruplara göre ne sıklıkta seçileceğini belirler. Fraksiyona özel ayarlar önceliklidir.'
+- `Sandbox_ProjectALife.Party_GroupWeight`
+  - Eski EN: 'Group weight'
+  - Yeni EN: 'Large-group frequency weight'
+  - Mevcut TR: 'Büyük grupların göreli sıklığı'
+- `Sandbox_ProjectALife.Party_GroupWeight_tooltip`
+  - Eski EN: 'Relative frequency of natural 4+ person groups. Default is one group for every three lone parties.'
+  - Yeni EN: 'Sets the relative frequency of natural groups of 4 or more compared with small parties. Equal weights give both sizes equal selection weight.\nDefault 1.'
+  - Mevcut TR: 'Kendiliğinden oluşan 4 veya daha fazla kişilik grupların göreli sıklığıdır. Varsayılan olarak her üç küçük gruba karşılık bir büyük grup oluşur.'
+- `Sandbox_ProjectALife.Offline_FoundGapHours`
+  - Eski EN: 'Offline founding interval (game hours)'
+  - Yeni EN: 'New roaming group interval (game hours)'
+  - Mevcut TR: 'Arka planda yeni ekip oluşturma aralığı (oyun saati)'
+- `Sandbox_ProjectALife.Offline_FoundGapHours_tooltip`
+  - Eski EN: 'Minimum time between new offline parties, default 1.5; the offline squad cap still applies.'
+  - Yeni EN: 'Sets the minimum time between new distant roaming groups. Existing groups stay; the world group limit and local quiet periods still apply.\nDefault 6.'
+  - Mevcut TR: "Arka planda yeni ekiplerin oluşturulması arasındaki en kısa süredir. Varsayılan 1.5'tir; arka plandaki ekip sınırı uygulanmaya devam eder."
+- `Sandbox_ProjectALife.Raid_Enabled`
+  - Eski EN: 'Enable scout-led raids'
+  - Yeni EN: 'Automatic scout-led raids'
+  - Mevcut TR: 'Keşifle başlayan baskınları etkinleştir'
+- `Sandbox_ProjectALife.Raid_Enabled_tooltip`
+  - Eski EN: 'Automatic raids require a successfully spawned enemy scout party, buildup time, and the minimum day. The admin panel can force a raid.'
+  - Yeni EN: 'Enables automatic raids: a radio warning, scouts arriving unseen, then a buildup before the attack. The earliest raid day still applies. Admins can force raids.\nDefault on.'
+  - Mevcut TR: 'Otomatik bir baskın için düşman keşif grubunun başarıyla oluşturulması, hazırlık süresinin dolması ve baskınların başlayabileceği en erken güne ulaşılması gerekir. Yönetici panelinden doğrudan baskın başlatılabilir.'
+- `Sandbox_ProjectALife.Raid_MinDay`
+  - Eski EN: 'Earliest raid day'
+  - Yeni EN: 'Earliest automatic raid (world-age days)'
+  - Mevcut TR: 'Baskınların başlayabileceği en erken gün'
+- `Sandbox_ProjectALife.Raid_MinDay_tooltip`
+  - Eski EN: 'Automatic raids cannot begin before this world-age day.'
+  - Yeni EN: 'Automatic raids cannot begin before the world reaches this age. For example, 60 prevents them during the first 60 game days.\nDefault 30.'
+  - Mevcut TR: 'Otomatik baskınlar, dünya oluşturulduktan sonra bu güne ulaşılmadan başlayamaz.'
+- `Sandbox_ProjectALife.Raid_CooldownDays`
+  - Eski EN: 'Raid cooldown (game days)'
+  - Yeni EN: 'Minimum gap between raids (game days)'
+  - Mevcut TR: 'Baskınlar arası bekleme süresi (oyun günü)'
+- `Sandbox_ProjectALife.Raid_CooldownDays_tooltip`
+  - Eski EN: 'Minimum time between automatic full-scale raids.'
+  - Yeni EN: 'Sets the minimum time between automatic full-scale raids. For example, 14 requires at least two game weeks between raids.\nDefault 21.'
+  - Mevcut TR: 'Otomatik geniş çaplı baskınlar arasındaki en kısa süredir.'
+- `Sandbox_ProjectALife.Raid_Chance`
+  - Eski EN: 'Raid/scout chance per check (percent)'
+  - Yeni EN: 'Raids: chance per check (percent)'
+  - Mevcut TR: 'Kontrol başına baskın/keşif olasılığı (yüzde)'
+- `Sandbox_ProjectALife.Raid_Chance_tooltip`
+  - Eski EN: 'Chance to start the scout-led buildup on each check (every 10 game minutes by default). The default 0.02 with a 14-day cooldown means about one full-scale raid every six or seven weeks. 0 turns automatic raids off.'
+  - Yeni EN: 'Chance for scouts to begin a raid buildup on each check. Set 0 to stop automatic raids; cooldown and earliest-day limits still apply.\nDefault 0.01.'
+  - Mevcut TR: 'Her kontrolde keşifle başlayan baskın hazırlığının başlatılma olasılığıdır. Varsayılan olarak her 10 oyun dakikasında bir kontrol yapılır. Varsayılan 0.02 değeri, 14 günlük bekleme süresiyle birlikte yaklaşık altı veya yedi haftada bir geniş çaplı baskın anlamına gelir. 0, otomatik baskınları kapatır.'
+- `Sandbox_ProjectALife.Raid_CheckMinutes`
+  - Eski EN: 'Check interval (game minutes)'
+  - Yeni EN: '[Expert] Check interval (game minutes)'
+  - Mevcut TR: 'Baskın kontrol aralığı (oyun dakikası)'
+- `Sandbox_ProjectALife.Raid_Waves`
+  - Eski EN: 'Raid waves'
+  - Yeni EN: 'Waves per raid (waves)'
+  - Mevcut TR: 'Baskın dalgası sayısı'
+- `Sandbox_ProjectALife.Raid_Waves_tooltip`
+  - Eski EN: 'Number of attacking waves per raid.'
+  - Yeni EN: 'Sets the number of attacking waves in a raid. The total attacker limit still applies, so extra waves do not bypass that limit.\nDefault 3.'
+  - Mevcut TR: 'Her baskındaki saldırı dalgası sayısıdır.'
+- `Sandbox_ProjectALife.Raid_GroupSize`
+  - Eski EN: 'NPCs per raid wave'
+  - Yeni EN: 'Requested attackers per raid wave (NPCs)'
+  - Mevcut TR: 'Baskın dalgası başına NPC sayısı'
+- `Sandbox_ProjectALife.Raid_GroupSize_tooltip`
+  - Eski EN: 'Requested attackers in each wave. Spawn admission still enforces runtime limits.'
+  - Yeni EN: 'Sets the requested attackers in each wave. The total raid limit and other spawn limits can reduce the actual number.\nDefault 6.'
+  - Mevcut TR: 'Her dalga için istenen saldırgan sayısıdır. NPC oluşturulurken oyun sırasında geçerli olan sınırlar yine uygulanır.'
+- `Sandbox_ProjectALife.Raid_WaveDelayMinutes`
+  - Eski EN: 'Delay between waves (game minutes)'
+  - Yeni EN: '[Expert] Delay between waves (game minutes)'
+  - Mevcut TR: 'Dalgalar arası bekleme süresi (oyun dakikası)'
+- `Sandbox_ProjectALife.Raid_Helicopter`
+  - Eski EN: 'Helicopters'
+  - Yeni EN: 'A-Life helicopters'
+  - Mevcut TR: 'Helikopterler'
+- `Sandbox_ProjectALife.Raid_Helicopter_tooltip`
+  - Eski EN: 'Every A-Life helicopter: raid and reinforcement drops, night searchlights and flyovers. Off means none of them fly.'
+  - Yeni EN: 'Allows all A-Life helicopters: raid and backup arrivals, night searchlights and flyovers. Off: none of these helicopters fly.\nDefault on.'
+  - Mevcut TR: "A-Life'ın bütün helikopterlerini kapsar: baskın ve takviye indirmeleri, gece projektörleri ve bölge üzerinden geçişler. Kapatıldığında hiçbiri uçmaz."
+- `Sandbox_ProjectALife.Raid_ScoutBuildupHours`
+  - Eski EN: 'Scout buildup (game hours)'
+  - Yeni EN: '[Expert] Scout buildup (game hours)'
+  - Mevcut TR: 'Keşif sonrası hazırlık süresi (oyun saati)'
+- `Sandbox_ProjectALife.Raid_ScoutLifetimeHours`
+  - Eski EN: 'Scout intelligence lifetime (game hours)'
+  - Yeni EN: '[Expert] Scout intelligence lifetime (game hours)'
+  - Mevcut TR: 'Keşif bilgisinin geçerlilik süresi (oyun saati)'
+- `Sandbox_ProjectALife.Raid_ScoutSize`
+  - Eski EN: 'Enemy scout party size'
+  - Yeni EN: 'Scouts before an automatic raid (NPCs)'
+  - Mevcut TR: 'Düşman keşif grubunun büyüklüğü'
+- `Sandbox_ProjectALife.Raid_ScoutSize_tooltip`
+  - Eski EN: 'Number of enemy scouts sent before an automatic full-scale raid.'
+  - Yeni EN: "Sets how many enemy scouts arrive before an automatic full-scale raid. They are separate from the raid's total attacker limit.\nDefault 3."
+  - Mevcut TR: 'Otomatik geniş çaplı bir baskından önce gönderilen düşman keşif grubundaki kişi sayısıdır.'
+- `Sandbox_ProjectALife.Support_Chance_tooltip`
+  - Eski EN: 'Chance of a permitted support call succeeding.'
+  - Yeni EN: 'Sets the chance that an allowed backup call succeeds. For example, 50 gives each permitted call a one-in-two chance of an answer.\nDefault 20.'
+  - Mevcut TR: 'İzin verilen bir takviye çağrısının başarılı olma olasılığıdır.'
+- `Sandbox_ProjectALife.Support_CooldownHours`
+  - Eski EN: 'Backup cooldown (game hours)'
+  - Yeni EN: 'Gap between successful backup calls (game hours)'
+  - Mevcut TR: 'Takviye bekleme süresi (oyun saati)'
+- `Sandbox_ProjectALife.Support_CooldownHours_tooltip`
+  - Eski EN: 'Minimum game time between successful calls by the same group.'
+  - Yeni EN: 'Sets the minimum wait between successful backup calls by the same group. For example, 6 means it must wait a quarter of a game day.\nDefault 3.'
+  - Mevcut TR: 'Aynı grubun başarılı takviye çağrıları arasında geçmesi gereken en kısa oyun süresidir.'
+- `Sandbox_ProjectALife.Support_GroupSize`
+  - Eski EN: 'Default backup squad size'
+  - Yeni EN: 'Backup group fallback size (NPCs)'
+  - Mevcut TR: 'Varsayılan takviye ekibi büyüklüğü'
+- `Sandbox_ProjectALife.Support_GroupSize_tooltip`
+  - Eski EN: 'Fallback when the caller/faction has no authored support size.'
+  - Yeni EN: 'Sets backup size only when the calling NPC or its faction has no size of its own. It does not replace sizes chosen in their profiles.\nDefault 3.'
+  - Mevcut TR: 'Çağrıyı yapan NPC veya fraksiyon için özel bir takviye büyüklüğü tanımlanmamışsa bu değer kullanılır.'
+- `Sandbox_ProjectALife.Support_MaxCalls`
+  - Eski EN: 'Maximum backup calls per group'
+  - Yeni EN: 'Backup call limit per group (calls)'
+  - Mevcut TR: 'Grup başına takviye çağrısı sınırı'
+- `Sandbox_ProjectALife.Support_MaxCalls_tooltip`
+  - Eski EN: 'Limits repeated reinforcement requests from one group.'
+  - Yeni EN: 'Limits how many reinforcement requests one group may make, preventing repeated backup calls without end.\nDefault 1.'
+  - Mevcut TR: 'Bir grubun yapabileceği takviye çağrılarının sayısını sınırlar.'
+- `Sandbox_ProjectALife.Support_SpotlightChance`
+  - Eski EN: 'Spotlight call chance (percent)'
+  - Yeni EN: 'Helicopter searchlight call chance (percent)'
+  - Mevcut TR: 'Projektör desteği çağırma olasılığı (yüzde)'
+- `Sandbox_ProjectALife.Support_SpotlightChance_tooltip`
+  - Eski EN: 'Chance for an authorized helicopter spotlight call. Ground-only callers cannot use it.'
+  - Yeni EN: 'Sets the chance of a searchlight call from an NPC authorized to request helicopter support. Ground-only callers cannot request it.\nDefault 12.'
+  - Mevcut TR: "İzni olan NPC'lerin helikopter projektörü desteği çağırma olasılığıdır. Yalnızca kara desteği çağırabilenler bunu kullanamaz."
+- `Sandbox_ProjectALife.Support_SpotlightSeconds`
+  - Eski EN: 'Spotlight duration (real seconds)'
+  - Yeni EN: 'Searchlight flight duration (real seconds)'
+  - Mevcut TR: 'Projektör desteği süresi (gerçek saniye)'
+- `Sandbox_ProjectALife.Support_SpotlightSeconds_tooltip`
+  - Eski EN: 'Follows the target player while outdoors; goes dark indoors.'
+  - Yeni EN: 'Sets how long a requested searchlight flight lasts before the helicopter leaves.\nDefault 180.'
+  - Mevcut TR: 'Projektör, hedef oyuncuyu dışarıdayken takip eder; oyuncu içeri girdiğinde söner.'
+- `Sandbox_ProjectALife.Support_HelicopterSeconds`
+  - Eski EN: 'Helicopter support duration (real seconds)'
+  - Yeni EN: 'Support helicopter effect duration (real seconds)'
+  - Mevcut TR: 'Destek helikopteri süresi (gerçek saniye)'
+- `Sandbox_ProjectALife.Support_HelicopterSeconds_tooltip`
+  - Eski EN: 'Duration of the virtual support helicopter presentation.'
+  - Yeni EN: "Sets how long the support helicopter's flyover effects last. This does not set how long ground reinforcements stay.\nDefault 35."
+  - Mevcut TR: 'Destek helikopterinin ses ve görsel efektlerinin süresidir.'
+- `Sandbox_ProjectALife.Scavenge_BuildingRadius`
+  - Eski EN: 'Scavenging building search radius'
+  - Yeni EN: 'Scavenging building search radius (tiles)'
+  - Mevcut TR: 'Malzeme toplamak için bina arama yarıçapı'
+- `Sandbox_ProjectALife.Scavenge_BuildingRadius_tooltip`
+  - Eski EN: 'Maximum distance for selecting a nearby building; larger values increase search work.'
+  - Yeni EN: 'Sets how far scavengers look for a nearby building. Higher values widen the search but increase the work needed to find one.\nDefault 27.'
+  - Mevcut TR: 'Malzeme aramak için seçilecek binanın en fazla ne kadar uzakta olabileceğini belirler. Yüksek değerler arama yükünü artırır, işlemciyi daha çok yorar.'
+- `Sandbox_ProjectALife.Scavenge_CarryLimit`
+  - Eski EN: 'Scavenged items carried before returning'
+  - Yeni EN: 'Scavenged items before returning (items)'
+  - Mevcut TR: 'Dönüş öncesi toplanacak eşya sınırı'
+- `Sandbox_ProjectALife.Scavenge_CarryLimit_tooltip`
+  - Eski EN: 'Maximum collected items before heading back to the camp/base depot.'
+  - Yeni EN: 'Scavengers return to their camp or base depot after collecting this many items. For example, 4 sends them home with four collected items.\nDefault 8.'
+  - Mevcut TR: 'Kamp veya üs deposuna dönmeden önce toplanabilecek en fazla eşya sayısıdır.'
+- `Sandbox_ProjectALife.Scavenge_ReturnAfterBuildings`
+  - Eski EN: 'Return after buildings searched'
+  - Yeni EN: 'Buildings searched before returning (buildings)'
+  - Mevcut TR: 'Dönüş öncesi aranacak bina sayısı'
+- `Sandbox_ProjectALife.Scavenge_ReturnAfterBuildings_tooltip`
+  - Eski EN: 'Bring supplies home after searching this many buildings.'
+  - Yeni EN: 'Scavengers bring supplies home after searching this many buildings. For example, 3 allows three building searches before returning.\nDefault 2.'
+  - Mevcut TR: 'Bu kadar bina arandıktan sonra toplanan malzemeler üsse götürülür.'
+- `Sandbox_ProjectALife.ALifeEnabled`
+  - Eski EN: 'Enable hostile A-Life'
+  - Yeni EN: 'Hostile factions'
+  - Mevcut TR: 'Düşman A-Life etkinliğini aç'
+- `Sandbox_ProjectALife.ALifeEnabled_tooltip`
+  - Eski EN: 'Off: no hostile factions spawn, and raids and outposts stop. Friendly, neutral and careful NPCs still spawn.'
+  - Yeni EN: 'Off prevents hostile factions, automatic raids and new outposts. Friendly, neutral and cautious survivors can still appear.\nDefault on.'
+  - Mevcut TR: "Kapalıyken düşman fraksiyonlar çıkmaz; baskınlar kesilir ve yeni üs kurulmaz. Dost, tarafsız ve temkinli NPC'ler haritada belirmeye devam eder."
+- `Sandbox_ProjectALife.NpcNight`
+  - Eski EN: 'NPCs at night'
+  - Yeni EN: 'NPC night sight'
+  - Mevcut TR: "NPC'lerin gece görüşü"
+- `Sandbox_ProjectALife.NpcNight_tooltip`
+  - Eski EN: 'Flashlights: NPCs carry a light and see 12 tiles in the dark (20 with the light on you). Night vision: NPCs simply see at night; give them the goggles yourself.'
+  - Yeni EN: 'Flashlights: NPCs see 12 tiles in darkness, or 20 when their light reaches you. Night vision: they can see at night, but you must supply goggles yourself.\nDefault Flashlights (1).'
+  - Mevcut TR: "El fenerleri: NPC'ler fener taşır ve karanlıkta 12 kare uzağı görür. Işığı size tuttuklarında bu mesafe 20 kareye çıkar. Gece görüşü: NPC'ler geceleri doğrudan görebilir; gözlük takmalarını istiyorsanız gece görüş gözlüklerini kendiniz vermelisiniz."
+- `Sandbox_ProjectALife.NightActivity`
+  - Eski EN: 'Night activity chance'
+  - Yeni EN: 'Survivors active after dark'
+  - Mevcut TR: 'Gece etkin olma olasılığı'
+- `Sandbox_ProjectALife.NightActivity_tooltip`
+  - Eski EN: 'How likely a squad is to keep moving and working after dark. The rest find a house for the night or make a camp: they draw the curtains, hang sheets over the windows, sit tight until morning and leave the dead outside alone. No risks: everybody holes up. Risk takers: hardly anybody does.'
+  - Yeni EN: 'How many groups keep travelling and working at night. No risks makes everyone shelter; Risk takers keeps most groups active.\nDefault Moderate chance (3).'
+  - Mevcut TR: 'Ekiplerin hava karardıktan sonra hareket etmeye ve çalışmaya devam etme olasılığını belirler. Diğerleri geceyi geçirmek için bir ev bulur ya da kamp kurar: perdeleri çeker, pencerelere çarşaf asar, sabaha kadar bekler ve dışarıdaki ölülere bulaşmaz. Risk almayanlar seçeneğinde herkes sığınır; Risk alanlar seçeneğinde ise neredeyse kimse sığınmaz.'
+- `Sandbox_ProjectALife.OfflineSquadCap`
+  - Eski EN: 'Offline squads on the map'
+  - Yeni EN: 'Distant roaming group limit'
+  - Mevcut TR: 'Arka planda dolaşan ekip sınırı'
+- `Sandbox_ProjectALife.OfflineSquadCap_tooltip`
+  - Eski EN: 'How many squads travel the map while nobody is near, default 18. They are kept in the save and come back after a restart up to this number; the saved group limit does not apply to them, except at 0 or in local-only mode, where it decides how many are kept. The roaming group rate scales it, and from the fourth day the world thins out to about a third by the third week. 0 turns the offline world off; encounters near players and outposts remain. A change made in game applies within a game minute: a higher number lets new squads found; a lower one, or 0, founds none and the squads already out keep moving until the next load, which retires the extra ones.'
+  - Yeni EN: 'Saved roaming groups return up to this rate-scaled limit after restart; at 0 or in Local only, the saved-crew cap applies. Lowering stops new groups; extras keep moving until reload.\nDefault 30.'
+  - Mevcut TR: "Yakınlarında oyuncu yokken haritada dolaşan ekiplerin sayısını belirler. Varsayılan 18'dir. Bu ekipler kaydedilir ve oyun yeniden başlatıldığında bu sınıra kadar geri gelir. Kaydedilen grup sınırı normalde onlara uygulanmaz; ancak bu değer 0 olduğunda veya yalnızca yakın çevre modunda kaçının korunacağını kaydedilen grup sınırı belirler. Gezgin grup sıklığı bu sayıyı etkiler. Dördüncü günden itibaren nüfus azalır; üçüncü haftada yaklaşık üçte birine iner. 0, arka plandaki dünya simülasyonunu kapatır; oyuncuların yakınındaki karşılaşmalar ve üsler kalır. Oyun sırasında yapılan değişiklik bir oyun dakikası içinde uygulanır. Daha yüksek değerler yeni ekiplerin oluşturulmasına izin verir. Değer düşürülürse veya 0 yapılırsa yeni ekip oluşturulmaz; mevcut ekipler bir sonraki yüklemeye kadar dolaşmaya devam eder. Fazla ekipler o yüklemede kaldırılır."
+- `Sandbox_ProjectALife.OfflineTickSeconds`
+  - Eski EN: 'Offline update every (seconds)'
+  - Yeni EN: 'Distant group update interval (real seconds)'
+  - Mevcut TR: 'Arka plan güncelleme aralığı (saniye)'
+- `Sandbox_ProjectALife.OfflineTickSeconds_tooltip`
+  - Eski EN: 'How often offline squads move and decide.'
+  - Yeni EN: 'Sets how often distant roaming groups move and make decisions. Longer intervals mean fewer updates.\nDefault 20.'
+  - Mevcut TR: 'Arka planda simüle edilen ekiplerin hareket ve kararlarının ne sıklıkta güncelleneceğini belirler.'
+- `Sandbox_ProjectALife.OfflineTravelTilesPerHour`
+  - Eski EN: 'Offline travel speed (tiles per hour)'
+  - Yeni EN: '[Expert] Offline travel speed (tiles per hour)'
+  - Mevcut TR: 'Arka plandaki yolculuk hızı (kare/oyun saati)'
+- `Sandbox_ProjectALife.OfflineRevenge`
+  - Eski EN: 'Squads hold grudges'
+  - Yeni EN: 'Returning survivor grudges'
+  - Mevcut TR: 'Ekipler intikam alır'
+- `Sandbox_ProjectALife.OfflineRevenge_tooltip`
+  - Eski EN: 'A squad that lost people to you and got away comes back for you two to three days later, with backup.'
+  - Yeni EN: 'Groups that lose members to you and escape can return for revenge two to three game days later, bringing backup.\nDefault on.'
+  - Mevcut TR: 'Sizin yüzünüzden üyelerini kaybedip kaçmayı başaran bir ekip, iki veya üç gün sonra takviyeyle peşinize düşer.'
+- `Sandbox_ProjectALife.OutpostsEnabled`
+  - Eski EN: 'Outposts rise over time'
+  - Yeni EN: 'New fortified NPC outposts'
+  - Mevcut TR: 'Zamanla üsler kurulur'
+- `Sandbox_ProjectALife.OutpostsEnabled_tooltip`
+  - Eski EN: 'Fortified stations, held houses and forest camps appear over time, manned by a garrison that never leaves.'
+  - Yeni EN: 'Lets fortified stations, occupied houses and forest camps appear over time, with garrisons that remain at their site.\nDefault on.'
+  - Mevcut TR: 'Zamanla tahkim edilmiş üsler, savunulan evler ve orman kampları ortaya çıkar. Buraları, görev yerinden ayrılmayan bir garnizon korur.'
+- `Sandbox_ProjectALife.OutpostsMaxSites`
+  - Eski EN: 'Outposts at once (max)'
+  - Yeni EN: 'World outpost limit'
+  - Mevcut TR: 'Aynı anda bulunabilecek üs sınırı'
+- `Sandbox_ProjectALife.OutpostsMaxSites_tooltip`
+  - Eski EN: 'How many outposts may stand at the same time. 0 turns them off.'
+  - Yeni EN: 'Limits how many outposts may exist at once across the map. At 0, outposts are disabled.\nDefault 6.'
+  - Mevcut TR: 'Aynı anda en fazla kaç üs bulunabileceğini belirler. 0, üsleri kapatır.'
+- `Sandbox_ProjectALife.OutpostsPerCity`
+  - Eski EN: 'Outposts per town'
+  - Yeni EN: 'Outpost limit per town'
+  - Mevcut TR: 'Kasaba başına üs sınırı'
+- `Sandbox_ProjectALife.OutpostsPerCity_tooltip`
+  - Eski EN: 'How many outposts one town may hold.'
+  - Yeni EN: 'Limits how many fortified-building outposts each town may hold. Outdoor camps have a separate limit.\nDefault 1.'
+  - Mevcut TR: 'Bir kasabada en fazla kaç üs bulunabileceğini belirler.'
+- `Sandbox_ProjectALife.OutpostsInterval`
+  - Eski EN: 'Outpost roll every (minutes)'
+  - Yeni EN: 'New-outpost checks (game minutes)'
+  - Mevcut TR: 'Üs oluşma kontrol aralığı (dakika)'
+- `Sandbox_ProjectALife.OutpostsInterval_tooltip`
+  - Eski EN: 'How often the world rolls for a new outpost, in game minutes (sleeping and fast-forward roll too). A world whose clock stands still falls back to the same number of real minutes.'
+  - Yeni EN: 'Time between chances to found an outpost. Sleep and fast-forward count. If the game clock stops, checks use this many real minutes instead.\nDefault 30.'
+  - Mevcut TR: 'Yeni bir üs oluşturma olasılığının kaç oyun dakikasında bir değerlendirileceğini belirler. Uyurken ve zaman hızlandırıldığında da kontroller sürer. Dünya saati ilerlemiyorsa aynı sayıda gerçek dakika kullanılır.'
+- `Sandbox_ProjectALife.OutpostsChance`
+  - Eski EN: 'Outpost roll chance (%%)'
+  - Yeni EN: 'New-outpost chance per check (percent)'
+  - Mevcut TR: 'Kontrol başına üs oluşma olasılığı (%%)'
+- `Sandbox_ProjectALife.OutpostsChance_tooltip`
+  - Eski EN: 'The chance each roll founds a new outpost.'
+  - Yeni EN: 'Chance that an outpost check founds a new site, if a suitable location is available.\nDefault 20.'
+  - Mevcut TR: 'Her kontrolde yeni bir üs kurulma olasılığıdır.'
+- `Sandbox_ProjectALife.OutpostsBuildRadius`
+  - Eski EN: 'Outposts build within (tiles)'
+  - Yeni EN: 'Outpost building distance from players (tiles)'
+  - Mevcut TR: 'Üs kurulumu için oyuncuya uzaklık sınırı (kare)'
+- `Sandbox_ProjectALife.OutpostsBuildRadius_tooltip`
+  - Eski EN: 'A proposed outpost is built only while a player is this close (so the ground is loaded), and never within 40 tiles of anyone.'
+  - Yeni EN: 'Normal outposts start within this distance, at least 40 tiles from players. Fixed checkpoints may start up to 200 tiles away; all need loaded ground.\nDefault 120.'
+  - Mevcut TR: 'Planlanan bir üs, arazinin yüklenmiş olması için yalnızca bir oyuncu bu mesafe içindeyken kurulur. Hiçbir oyuncunun 40 kare yakınına kurulmaz.'
+- `Sandbox_ProjectALife.OutpostsSpawnRadius`
+  - Eski EN: 'Garrison spawns within (tiles)'
+  - Yeni EN: 'Distance that brings outpost guards in (tiles)'
+  - Mevcut TR: 'Garnizon oluşumu için oyuncuya uzaklık sınırı (kare)'
+- `Sandbox_ProjectALife.OutpostsSpawnRadius_tooltip`
+  - Eski EN: 'A built outpost is manned when a player comes this close.'
+  - Yeni EN: 'A built outpost receives its garrison when a player comes within this distance.\nDefault 90.'
+  - Mevcut TR: 'Kurulmuş bir üssün garnizonu, bir oyuncu üsse bu kadar yaklaştığında oluşturulur.'
+- `Sandbox_ProjectALife.SupportEnabled`
+  - Eski EN: 'Squads call for backup'
+  - Yeni EN: 'NPC backup calls'
+  - Mevcut TR: 'Ekipler takviye çağırır'
+- `Sandbox_ProjectALife.SupportEnabled_tooltip`
+  - Eski EN: 'A squad in contact may call a quick-reaction squad; limited calls, a cooldown, and a real chance of no answer.'
+  - Yeni EN: 'Groups in contact may request backup, with limited calls, a cooldown and a chance of no answer.\nDefault on.'
+  - Mevcut TR: 'Çatışmaya giren bir ekip, hızlı müdahale ekibi çağırabilir. Çağrı sayısı sınırlıdır ve çağrılar arasında bekleme süresi vardır. Çağrı yanıtsız da kalabilir.'
+- `Sandbox_ProjectALife.PopulationRate`
+  - Eski EN: 'Encounter frequency (percent)'
+  - Yeni EN: 'Natural encounter frequency (percent)'
+  - Mevcut TR: 'Karşılaşma sıklığı (yüzde)'
+- `Sandbox_ProjectALife.PopulationRate_tooltip`
+  - Eski EN: 'Scales the global encounter gate. 100 is the balanced default.'
+  - Yeni EN: 'Scales the chance of natural faction encounters. At 50, these checks have half their normal chance of bringing a group.\nDefault 150.'
+  - Mevcut TR: "Genel karşılaşma olasılığını ölçekler. Dengeli varsayılan değer 100'dür."
+- `Sandbox_ProjectALife.GroupScale`
+  - Eski EN: 'Group size (percent)'
+  - Yeni EN: 'Natural group size (percent)'
+  - Mevcut TR: 'Grup büyüklüğü (yüzde)'
+- `Sandbox_ProjectALife.GroupScale_tooltip`
+  - Eski EN: 'Scales natural group sizes. 100 keeps the authored sizes.'
+  - Yeni EN: 'Scales the number of NPCs in naturally appearing groups. At 100, groups keep their original sizes. Faction size limits still apply.\nDefault 100.'
+  - Mevcut TR: 'Kendiliğinden oluşan gruplardaki kişi sayısını ölçekler. 100, tanımlanmış grup büyüklüklerini korur.'
+- `Sandbox_ProjectALife.SimulationRadius`
+  - Eski EN: 'Detailed simulation radius'
+  - Yeni EN: 'Active NPC distance (tiles)'
+  - Mevcut TR: 'Ayrıntılı simülasyon yarıçapı'
+- `Sandbox_ProjectALife.SimulationRadius_tooltip`
+  - Eski EN: 'Distance in tiles at which persistent actors receive physical shells.'
+  - Yeni EN: 'Sets how close saved NPCs must be to a player before they appear as physical characters. Larger distances keep more nearby NPCs active.\nDefault 90.'
+  - Mevcut TR: "Kalıcı NPC'lerin oyun dünyasında fiziksel olarak belirmeye başladığı mesafedir. Kare cinsinden ölçülür."
+- `Sandbox_ProjectALife.MaxHostiles`
+  - Eski EN: 'Maximum living hostile actors'
+  - Yeni EN: 'Roaming survivor limit (NPCs)'
+  - Mevcut TR: 'Yaşayan düşman NPC üst sınırı'
+- `Sandbox_ProjectALife.MaxHostiles_tooltip`
+  - Eski EN: 'Hard cap for natural persistent hostile actors.'
+  - Yeni EN: 'Stops new roaming crews at this living-NPC count, including peaceful survivors. It is not the county population; existing crews stay.\nDefault 12.'
+  - Mevcut TR: "Kendiliğinden oluşan kalıcı düşman NPC'ler için kesin üst sınırdır."
+- `Sandbox_ProjectALife.EncounterChance`
+  - Eski EN: 'Encounter chance per check (percent)'
+  - Yeni EN: 'Natural encounter chance per check (percent)'
+  - Mevcut TR: 'Kontrol başına karşılaşma olasılığı (yüzde)'
+- `Sandbox_ProjectALife.EncounterChance_tooltip`
+  - Eski EN: 'Chance per roll for both natural spawners: the faction director rolls once per encounter check interval, the encounter director once per encounter roll interval. Default 25.'
+  - Yeni EN: 'Sets the chance of a group on each natural encounter check. Both the game-hour faction checks and game-minute encounter checks use it.\nDefault 10.'
+  - Mevcut TR: "Her iki otomatik oluşturma sisteminin kontrol başına kullandığı olasılıktır. Fraksiyon sistemi, Karşılaşma kontrol aralığı ayarına göre; karşılaşma sistemi ise Karşılaşma oluşturma aralığı ayarına göre birer kontrol yapar. Varsayılan 25'tir."
+- `Sandbox_ProjectALife.EncounterInterval`
+  - Eski EN: 'Encounter check interval (game hours)'
+  - Yeni EN: 'Faction encounter check interval (game hours)'
+  - Mevcut TR: 'Karşılaşma kontrol aralığı (oyun saati)'
+- `Sandbox_ProjectALife.EncounterInterval_tooltip`
+  - Eski EN: 'Game hours between natural hostile encounter checks.'
+  - Yeni EN: 'Sets the time between natural faction encounter checks. A check can fail; this is not a guaranteed time between meetings.\nDefault 8.'
+  - Mevcut TR: 'Kendiliğinden oluşan düşman karşılaşmalarının kontrolleri arasındaki oyun saati sayısıdır.'
+- `Sandbox_ProjectALife.SafehouseMargin`
+  - Eski EN: 'Safehouse exclusion margin'
+  - Yeni EN: 'Multiplayer safehouse spawn buffer (tiles)'
+  - Mevcut TR: 'Sığınak çevresinde NPC oluşmayan ek alan'
+- `Sandbox_ProjectALife.SafehouseMargin_tooltip`
+  - Eski EN: 'Extra no-spawn tiles around multiplayer safehouses.'
+  - Yeni EN: 'Extra no-spawn distance around claimed multiplayer safehouses. At 8, new NPCs cannot spawn within eight extra tiles of the claim.\nDefault 8.'
+  - Mevcut TR: 'Çok oyunculu oyundaki sığınakların çevresinde NPC oluşturulmasını engelleyen ek mesafedir. Kare cinsinden ölçülür.'
+- `Sandbox_ProjectALife.Warfare`
+  - Eski EN: 'Hostile faction conflict'
+  - Yeni EN: 'Faction battles'
+  - Mevcut TR: 'Düşman fraksiyonlar arası çatışma'
+- `Sandbox_ProjectALife.Warfare_tooltip`
+  - Eski EN: 'Allows hostile A-Life factions to fight one another.'
+  - Yeni EN: 'Allows hostile NPC factions to fight each other.\nDefault on.'
+  - Mevcut TR: 'Düşman A-Life fraksiyonlarının birbirleriyle çatışmasına izin verir.'
+- `Sandbox_ProjectALife.Retreat`
+  - Eski EN: 'Allow retreat'
+  - Yeni EN: 'Injured hostile retreats'
+  - Mevcut TR: 'Geri çekilmeye izin ver'
+- `Sandbox_ProjectALife.Retreat_tooltip`
+  - Eski EN: 'Injured hostile NPCs may retreat.'
+  - Yeni EN: 'Allows wounded hostile NPCs to retreat from a fight.\nDefault on.'
+  - Mevcut TR: "Yaralı düşman NPC'ler geri çekilebilir."
+- `Sandbox_ProjectALife.Scavenging`
+  - Eski EN: 'Allow scavenging'
+  - Yeni EN: 'Hostile scavenging'
+  - Mevcut TR: 'Malzeme toplamaya izin ver'
+- `Sandbox_ProjectALife.Scavenging_tooltip`
+  - Eski EN: 'Hostile looters may take nearby supplies.'
+  - Yeni EN: 'Allows hostile looters to take nearby supplies.\nDefault on.'
+  - Mevcut TR: 'Düşman yağmacılar yakındaki malzemeleri alabilir.'
+- `Sandbox_ProjectALife.Investigate`
+  - Eski EN: 'Investigate disturbances'
+  - Yeni EN: 'Investigation of disturbances'
+  - Mevcut TR: 'Şüpheli sesleri ve izleri araştır'
+- `Sandbox_ProjectALife.Investigate_tooltip`
+  - Eski EN: 'Hostiles walk toward gunfire, shouts and other traces they notice.'
+  - Yeni EN: 'Hostile NPCs may walk toward gunfire, shouts and other signs of activity they notice.\nDefault on.'
+  - Mevcut TR: 'Düşmanlar silah seslerine, bağırışlara ve fark ettikleri diğer izlere doğru ilerler.'
+- `Sandbox_ProjectALife.Regroup`
+  - Eski EN: 'Regroup on the leader'
+  - Yeni EN: '[Expert] Regroup on the leader'
+  - Mevcut TR: 'Liderin yanında yeniden toplan'
+- `Sandbox_ProjectALife.GroupMarch`
+  - Eski EN: 'Move as a group'
+  - Yeni EN: '[Expert] Move as a group'
+  - Mevcut TR: 'Grup hâlinde hareket et'
+- `Sandbox_ProjectALife.WeaponDrops`
+  - Eski EN: 'Allow weapon drops'
+  - Yeni EN: 'NPC weapon drops'
+  - Mevcut TR: 'Cesetlerde silah kalmasına izin ver'
+- `Sandbox_ProjectALife.WeaponDrops_tooltip`
+  - Eski EN: 'Eligible NPC weapons may survive into corpse inventory.'
+  - Yeni EN: 'Allows eligible NPC guns and melee weapons to remain on their bodies for looting. The weapon drop chance still applies.\nDefault on.'
+  - Mevcut TR: 'Uygun NPC silahları ölümden sonra cesedin envanterinde kalabilir.'
+- `Sandbox_ProjectALife.DropsWeaponChance`
+  - Eski EN: 'Weapon drop chance'
+  - Yeni EN: 'NPC weapon drop chance'
+  - Mevcut TR: 'Cesette silah kalma olasılığı'
+- `Sandbox_ProjectALife.DropsWeaponChance_tooltip`
+  - Eski EN: "How often a dead NPC's gun or melee weapon stays on the body. Per NPC profile keeps each profile's own chance from the Creator. Anything else is the chance for every NPC. A spawn from the admin spawner still uses its own row. Needs Allow weapon drops on."
+  - Yeni EN: "Per NPC profile uses each NPC's own chance times the NPC loot percent. Another choice sets one chance for all weapons and ignores that percent; needs NPC weapon drops.\nDefault Per NPC profile (1)."
+  - Mevcut TR: "Ölen bir NPC'nin ateşli veya yakın dövüş silahının cesette ne sıklıkta kalacağını belirler. NPC profiline göre seçeneği, her profilin Oluşturucu'da tanımlanmış olasılığını korur. Diğer seçenekler bütün NPC'ler için ortak olasılığı belirler. Yönetici panelinden oluşturulan NPC'ler yine kendi satırlarında seçilen ayarı kullanır. Cesetlerde silah kalmasına izin ver ayarının açık olması gerekir."
+- `Sandbox_ProjectALife.DropsWeaponCondition_tooltip`
+  - Eski EN: "What shape a dropped weapon is in. Per NPC profile keeps each profile's own rating and the early-game curve, where the first weeks mostly give you broken or nearly broken guns. Anything else is the condition of every dropped weapon, from every NPC. Broken means it has to be repaired before it works. The NPC still fights with it at full strength."
+  - Yeni EN: 'Sets dropped weapon condition, not NPC combat strength. Per NPC profile keeps its rating and early-game wear curve; Broken needs repairs before use.\nDefault Per NPC profile (1).'
+  - Mevcut TR: "Cesette kalan silahın ne durumda olacağını belirler. NPC profiline göre seçeneği, her profilin kendi değerini ve oyunun ilk dönemindeki ilerleyişi korur; ilk haftalarda çoğunlukla bozuk ya da bozulmak üzere olan silahlar bulunur. Diğer seçenekler, bütün NPC'lerin cesetlerinde kalan bütün silahlar için aynı durumu belirler. Bozuk bir silahın çalışması için önce onarılması gerekir. NPC, hayattayken bu silahı yine tam etkinlikle kullanır."
+- `Sandbox_ProjectALife.WeaponJamming`
+  - Eski EN: 'Enable NPC weapon jamming'
+  - Yeni EN: 'NPC firearm jams'
+  - Mevcut TR: 'NPC silahlarında tutukluk'
+- `Sandbox_ProjectALife.WeaponJamming_tooltip`
+  - Eski EN: 'Non-revolver NPC firearms can fail to fire, click, then be visibly racked clear.'
+  - Yeni EN: 'Allows NPC firearms other than revolvers to jam: the gun clicks instead of firing, then the NPC racks it clear.\nDefault on.'
+  - Mevcut TR: 'Toplu tabancalar dışındaki NPC ateşli silahları tutukluk yapabilir. Silah ateş almaz ve bir tık sesi duyulur; NPC, görülebilen bir mekanizma hareketiyle tutukluğu giderir.'
+- `Sandbox_ProjectALife.WeaponJamChance`
+  - Eski EN: 'NPC weapon jam chance (percent)'
+  - Yeni EN: '[Expert] NPC weapon jam chance (percent)'
+  - Mevcut TR: 'NPC silahının tutukluk olasılığı (yüzde)'
+- `Sandbox_ProjectALife.BreachStrength`
+  - Eski EN: 'NPC breach strength (percent)'
+  - Yeni EN: '[Expert] NPC breach strength (percent)'
+  - Mevcut TR: "NPC'lerin engel kırma gücü (yüzde)"
+- `Sandbox_ProjectALife.MultiHit`
+  - Eski EN: 'NPC multi-hit (experimental)'
+  - Yeni EN: '[Expert] NPC multi-hit (experimental)'
+  - Mevcut TR: 'NPC çoklu vuruşu (deneysel)'
+- `Sandbox_ProjectALife.BulletPenetration`
+  - Eski EN: 'Bullet penetration (experimental)'
+  - Yeni EN: '[Expert] Bullet penetration (experimental)'
+  - Mevcut TR: 'Merminin hedefi delip geçmesi (deneysel)'
+- `Sandbox_ProjectALife.PopulateOnStart`
+  - Eski EN: 'Populate places on start (experimental)'
+  - Yeni EN: 'Starting building residents (experimental)'
+  - Mevcut TR: 'Başlangıçta mekânlara NPC yerleştir (deneysel)'
+- `Sandbox_ProjectALife.PopulateOnStart_tooltip`
+  - Eski EN: "Once per world, the towns' rooms are read and a share of the places a survivor would hold -- police stations, fire houses, clinics and the dentist, gun stores, warehouses, gas stations, motels, diners, churches, schools, stores and houses -- are marked to be manned: Rare 10%%, Uncommon 20%%, Common 35%% of them, every town at least two. A marked place gets its residents the first time a player comes near, from a faction that fits the room: police in the station, the fire department in the fire house, hospital staff on the ward, a family in a house. They are persistent and saved with the world. Off by default; Realistic outbreak does not turn it on."
+  - Yeni EN: 'Marks 10, 20 or 35 percent of suitable buildings once per world. Residents appear when approached and are saved. Realistic outbreak does not enable this.\nDefault Off (1).'
+  - Mevcut TR: "Kasabalardaki mekânlar her dünyada bir kez taranır. Hayatta kalanların yerleşebileceği polis merkezleri, itfaiye istasyonları, klinikler ve dişçi muayenehaneleri, silah dükkânları, depolar, benzin istasyonları, moteller, lokantalar, kiliseler, okullar, dükkânlar ve evlerin bir bölümü NPC yerleştirilmek üzere işaretlenir. Nadir ayarında bu yerlerin %%10'u, Az yaygın ayarında %%20'si, Yaygın ayarında %%35'i seçilir; her kasabada en az iki yer işaretlenir. İşaretlenen bir yere bir oyuncu ilk kez yaklaştığında, o mekâna uygun bir fraksiyondan NPC'ler yerleştirilir: polis merkezine polisler, itfaiye istasyonuna itfaiyeciler, hastane koğuşuna hastane çalışanları, eve bir aile. Bu NPC'ler kalıcıdır ve dünyayla birlikte kaydedilir. Varsayılan olarak kapalıdır; Gerçekçi salgın ayarı bunu açmaz."
+- `Sandbox_ProjectALife.PopulateMax`
+  - Eski EN: 'Populated places at most'
+  - Yeni EN: 'Starting inhabited building limit'
+  - Mevcut TR: 'NPC yerleştirilecek mekân sınırı'
+- `Sandbox_ProjectALife.PopulateMax_tooltip`
+  - Eski EN: 'The most places in the whole world that Populate places on start may man, default 45. The places are chosen once per world; the heaviest (stations, fire houses, clinics) are kept first.'
+  - Yeni EN: 'Limits buildings selected for starting residents across the whole map. Selection happens once per world; stations, firehouses and clinics take priority.\nDefault 45.'
+  - Mevcut TR: "Başlangıçta mekânlara NPC yerleştir ayarının, dünya genelinde en fazla kaç mekânı doldurabileceğini belirler. Varsayılan 45'tir. Mekânlar her dünya için bir kez seçilir; polis merkezleri, itfaiye istasyonları ve klinikler gibi seçim ağırlığı yüksek yerler önce seçilir."
+- `Sandbox_ProjectALife.Search`
+  - Eski EN: 'Search for lost targets'
+  - Yeni EN: '[Expert] Search for lost targets'
+  - Mevcut TR: 'Gözden kaybolan hedefleri ara'
+- `Sandbox_ProjectALife.SearchShout`
+  - Eski EN: 'React to player shouts'
+  - Yeni EN: '[Expert] React to player shouts'
+  - Mevcut TR: 'Oyuncunun bağırışlarına tepki ver'
+- `Sandbox_ProjectALife.SearchCallout`
+  - Eski EN: 'Group location callouts'
+  - Yeni EN: '[Expert] Group location callouts'
+  - Mevcut TR: 'Grup içi konum bildirimleri'
+- `Sandbox_ProjectALife.Clues`
+  - Eski EN: 'Investigate player traces'
+  - Yeni EN: 'Investigation of survivor traces'
+  - Mevcut TR: 'Oyuncunun bıraktığı izleri araştır'
+- `Sandbox_ProjectALife.Clues_tooltip`
+  - Eski EN: 'With nothing to fight, NPCs search areas where they notice signs of survivors.'
+  - Yeni EN: 'When not fighting, NPCs search areas with signs that survivors are nearby, such as barricades or a running generator.\nDefault on.'
+  - Mevcut TR: "NPC'ler çatışacak bir hedef yokken, hayatta kalanlara ait izler fark ettikleri bölgeleri araştırır."
+- `Sandbox_ProjectALife.CluesVehicles`
+  - Eski EN: 'Notice vehicles'
+  - Yeni EN: 'Vehicle traces'
+  - Mevcut TR: 'Araçları fark et'
+- `Sandbox_ProjectALife.CluesVehicles_tooltip`
+  - Eski EN: 'A running or hotwired vehicle marks the area around it as worth searching.'
+  - Yeni EN: 'Running or hotwired vehicles attract NPC searches in the surrounding area.\nDefault on.'
+  - Mevcut TR: 'Motoru çalışan veya düz kontak yapılmış bir araç, çevresinin araştırmaya değer olduğunu gösterir.'
+- `Sandbox_ProjectALife.CluesBarricades`
+  - Eski EN: 'Notice barricades'
+  - Yeni EN: 'Barricade traces'
+  - Mevcut TR: 'Barikatları fark et'
+- `Sandbox_ProjectALife.CluesBarricades_tooltip`
+  - Eski EN: "Planked windows and doors mark a building as somebody's."
+  - Yeni EN: 'Planks on doors and windows make NPCs treat a building as occupied and worth investigating.\nDefault on.'
+  - Mevcut TR: 'Tahtayla kapatılmış pencere ve kapılar, binanın birileri tarafından kullanıldığını gösterir.'
+- `Sandbox_ProjectALife.CluesPlayerBuilt`
+  - Eski EN: 'Notice built walls'
+  - Yeni EN: 'Player-built structure traces'
+  - Mevcut TR: 'İnşa edilmiş duvarları fark et'
+- `Sandbox_ProjectALife.CluesPlayerBuilt_tooltip`
+  - Eski EN: 'Player-built walls, gates and fences mark a location as occupied.'
+  - Yeni EN: 'Player-built walls, gates and fences make NPCs treat a place as occupied and worth investigating.\nDefault on.'
+  - Mevcut TR: 'Oyuncuların yaptığı duvarlar, büyük kapılar ve çitler, bir yerde insanların yaşadığını gösterir.'
+- `Sandbox_ProjectALife.CluesPower`
+  - Eski EN: 'Notice running generators'
+  - Yeni EN: 'Generator traces'
+  - Mevcut TR: 'Çalışan jeneratörleri fark et'
+- `Sandbox_ProjectALife.CluesPower_tooltip`
+  - Eski EN: 'An active generator is strong evidence somebody is living nearby.'
+  - Yeni EN: 'A running generator gives NPCs a strong sign that someone lives nearby, attracting investigation.\nDefault on.'
+  - Mevcut TR: 'Çalışan bir jeneratör, yakınlarda birinin yaşadığına dair güçlü bir işarettir.'
+- `Sandbox_ProjectALife.CluesWeight`
+  - Eski EN: 'Trace investigation eagerness'
+  - Yeni EN: 'Survivor-trace sensitivity (times normal)'
+  - Mevcut TR: 'İzleri araştırma isteği'
+- `Sandbox_ProjectALife.CluesWeight_tooltip`
+  - Eski EN: 'Scales how readily NPCs act on traces. Higher investigates weaker evidence; lower needs a stronger lead.'
+  - Yeni EN: 'Scales how readily NPCs investigate survivor traces. Higher values let weaker evidence draw a search; lower values require stronger evidence.\nDefault 1.0.'
+  - Mevcut TR: "NPC'lerin izleri araştırmaya ne kadar istekli olacağını belirler. Yüksek değerlerde daha zayıf izlerin de peşine düşerler; düşük değerlerde daha güçlü bir ipucu gerekir."
+- `Sandbox_ProjectALife.Voice`
+  - Eski EN: 'NPC voice audio'
+  - Yeni EN: 'Recorded NPC voices'
+  - Mevcut TR: 'NPC seslendirmeleri'
+- `Sandbox_ProjectALife.Voice_tooltip`
+  - Eski EN: 'Plays recorded voice clips for what NPCs say. Off by default: NPCs talk in text only. Pain and death sounds are not affected.'
+  - Yeni EN: 'Enables recorded speech where available. Off keeps conversations as text; pain and death sounds are separate.\nDefault off.'
+  - Mevcut TR: 'NPC replikleri için ses kayıtları çalar. Varsayılan olarak kapalıdır; NPC konuşmaları yalnızca yazıyla gösterilir. Acı ve ölüm sesleri etkilenmez.'
+- `Sandbox_ProjectALife.ShowAdminTools_tooltip`
+  - Eski EN: 'The spawn panel, encounter list, outpost builder and raid setup. Turn this off for a clean right-click menu; Runtime status and the Creator stay either way. Admins on a server are unaffected.'
+  - Yeni EN: 'The admin console, spawn panel, encounter list, outpost builder and raid setup in the right-click menu. Players also need Diagnostics ticked in Options. Turn this off for a clean right-click menu; the Creator (Insert key) and world status (Home key) stay on their keys and the pause menu. Admins on a server are unaffected.\nDefault on.'
+  - Mevcut TR: 'NPC oluşturma panelini, karşılaşma listesini, üs kurma aracını ve baskın ayarlarını gösterir. Sağ tık menüsünü sadeleştirmek için kapatabilirsiniz. Çalışma zamanı durumu ve Oluşturucu her iki durumda da menüde kalır. Sunucu yöneticileri bu ayardan etkilenmez.'
+- `Sandbox_ProjectALife.VehicleDamage`
+  - Eski EN: 'NPCs take damage from vehicles'
+  - Yeni EN: 'Vehicle damage to NPCs'
+  - Mevcut TR: "NPC'ler araçlardan hasar alır"
+- `Sandbox_ProjectALife.VehicleDamage_tooltip`
+  - Eski EN: 'A moving vehicle hurts an NPC it hits, scaled by speed. Turn this off to stop the vehicle check running at all. NPCs still cannot reach you through an intact car window either way.'
+  - Yeni EN: 'Moving vehicles hurt NPCs they hit, with damage based on speed. Off: collisions do no NPC damage. Intact car windows still protect you from NPC attacks either way.\nDefault on.'
+  - Mevcut TR: "Hareket eden bir araç, çarptığı NPC'ye hızına bağlı olarak hasar verir. Kapatıldığında araç çarpması kontrolü hiç çalışmaz. Her iki durumda da NPC'ler sağlam bir araç camının içinden size ulaşamaz."
+- `Sandbox_ProjectALife.AimDifficulty`
+  - Eski EN: 'NPC aim vs players'
+  - Yeni EN: 'NPC shooting accuracy against players'
+  - Mevcut TR: "NPC'lerin oyunculara karşı nişan becerisi"
+- `Sandbox_ProjectALife.AimDifficulty_tooltip`
+  - Eski EN: "How often NPC gunfire hits players. Medium is each NPC's own aiming skill, unchanged. Very Easy is 40%% of it, Easy 65%%, Hard 125%%, Very Hard 150%%, Hardcore 180%%. Accuracy against zombies is set on the Combat page."
+  - Yeni EN: 'Higher choices make NPC gunfire more accurate against players. Medium keeps their own aiming skill; zombie accuracy is separate.\nDefault Medium (3).'
+  - Mevcut TR: "NPC atışlarının oyunculara ne sıklıkta isabet edeceğini belirler. Orta ayarında her NPC'nin kendi nişan becerisi değişmeden kullanılır. Çok kolay, bu becerinin %%40'ını; Kolay %%65'ini; Zor %%125'ini; Çok zor %%150'sini; Acımasız %%180'ini kullanır. Zombilere karşı isabet oranı Çatışma sayfasından ayarlanır."
+- `Sandbox_ProjectALife.AimZombiePercent`
+  - Eski EN: 'NPC accuracy vs zombies (%%)'
+  - Yeni EN: '[Expert] NPC accuracy vs zombies (%%)'
+  - Mevcut TR: "NPC'lerin zombilere karşı isabet oranı (%%)"
+- `Sandbox_ProjectALife.Tracers`
+  - Eski EN: 'Show bullet streaks'
+  - Yeni EN: 'NPC bullet streaks'
+  - Mevcut TR: 'Mermi izlerini göster'
+- `Sandbox_ProjectALife.Tracers_tooltip`
+  - Eski EN: 'Draws a visible streak along each shot an NPC fires. Muzzle flash, gunfire and casings are unaffected either way.'
+  - Yeni EN: 'Shows a visible streak along NPC gunshots. Turning this off does not change muzzle flashes, gunfire sounds or casings.\nDefault on.'
+  - Mevcut TR: "NPC'lerin her atışında merminin izlediği yolu görünür bir çizgiyle gösterir. Namlu parlaması, silah sesleri ve kovanlar her iki durumda da aynı kalır."
+- `Sandbox_ProjectALife.ModuleCover`
+  - Eski EN: 'Shooters use cover'
+  - Yeni EN: '[Expert] Shooters use cover'
+  - Mevcut TR: "Ateşli silah kullanan NPC'ler siper alır"
+- `Sandbox_ProjectALife.ModuleWithdraw`
+  - Eski EN: 'Shooters withdraw and re-engage'
+  - Yeni EN: '[Expert] Shooters withdraw and re-engage'
+  - Mevcut TR: "Ateşli silah kullanan NPC'ler geri çekilip yeniden saldırır"
+- `Sandbox_ProjectALife.ModuleHealing`
+  - Eski EN: 'Module: dress wounds'
+  - Yeni EN: '[Expert] Module: dress wounds'
+  - Mevcut TR: 'Modül: yaraları sarma'
+- `Sandbox_ProjectALife.Wounds_tooltip`
+  - Eski EN: 'Hits mark NPCs: a leg wound takes their run away, and below ten percent health they bleed out in seconds unless they bandage.'
+  - Yeni EN: 'Hits cause bruises, fractures, cuts, bullet wounds or bites. Leg wounds slow NPCs, arm wounds spoil aim, and open wounds bleed until bandaged; below 10 percent health, bleed-out is rapid.\nDefault on.'
+  - Mevcut TR: "Alınan darbeler NPC'leri etkiler: bacak yarası koşmalarını engeller. Canları yüzde onun altına indiğinde, bandaj yapmazlarsa saniyeler içinde kan kaybından ölürler."
+- `Sandbox_ProjectALife.SprintEnabled`
+  - Eski EN: 'Movement: sprint bursts'
+  - Yeni EN: '[Expert] Movement: sprint bursts'
+  - Mevcut TR: 'Hareket: kısa süreli deparlar'
+- `Sandbox_ProjectALife.ModuleGunner`
+  - Eski EN: 'Behavior: gunner suppression'
+  - Yeni EN: '[Expert] Behavior: gunner suppression'
+  - Mevcut TR: 'Davranış: baskı ateşi'
+- `Sandbox_ProjectALife.Encounters`
+  - Eski EN: 'Random encounters'
+  - Yeni EN: 'Random group encounters'
+  - Mevcut TR: 'Rastgele karşılaşmalar'
+- `Sandbox_ProjectALife.Encounters_tooltip`
+  - Eski EN: "The encounter director: patrols, raids, scavenging parties, assassination squads and garrisons rolled from the catalog near players, placed by the map's own town zones."
+  - Yeni EN: 'Allows groups such as patrols, scavengers and hostile crews to appear near players in suitable map areas.\nDefault on.'
+  - Mevcut TR: 'Karşılaşma sistemi, oyuncuların yakınında katalogdan seçilen devriyeler, baskınlar, malzeme toplama grupları, suikast ekipleri ve garnizonlar oluşturur. Yerleşimleri haritanın kendi kasaba bölgelerine göre belirlenir.'
+- `Sandbox_ProjectALife.EncounterRollInterval`
+  - Eski EN: 'Encounter roll interval (game minutes)'
+  - Yeni EN: 'Random encounter check interval (game minutes)'
+  - Mevcut TR: 'Karşılaşma oluşturma aralığı (oyun dakikası)'
+- `Sandbox_ProjectALife.EncounterRollInterval_tooltip`
+  - Eski EN: 'Game minutes between encounter director rolls (sleeping and fast-forward roll too). Default 60, range 10-720. The spawn chance per roll comes from the encounter chance option.'
+  - Yeni EN: 'Sets the time between random encounter checks, including while sleeping or fast-forwarding. The encounter chance still decides whether a group appears.\nDefault 120.'
+  - Mevcut TR: "Karşılaşma sisteminin oluşturma kontrolleri arasındaki oyun dakikası sayısıdır. Uyurken ve zaman hızlandırıldığında da kontroller sürer. Varsayılan 60, aralık 10-720'dir. Her kontroldeki oluşturma olasılığı, Kontrol başına karşılaşma olasılığı ayarından alınır."
+- `Sandbox_ProjectALife.DormantTtl`
+  - Eski EN: 'Unvisited NPC lifetime (world hours)'
+  - Yeni EN: 'Unvisited NPC cleanup delay (game hours)'
+  - Mevcut TR: "Ziyaret edilmeyen NPC'lerin kalma süresi (oyun saati)"
+- `Sandbox_ProjectALife.DormantTtl_tooltip`
+  - Eski EN: 'A parked NPC nobody has been near for this many in-game hours is cleaned up. Persistent NPCs (admin anchors, encounter garrisons) never expire. 0 disables the cleanup.'
+  - Yeni EN: 'Removes inactive NPCs after nobody has approached them for this long. Persistent crews, such as anchored NPCs and garrisons, never expire. At 0, cleanup is disabled.\nDefault 8.'
+  - Mevcut TR: "Yakınında oyuncu olmadığı için etkin olmayan bir NPC, bu kadar oyun saati boyunca kimse yaklaşmazsa kaldırılır. Kalıcı NPC'ler, örneğin yöneticinin sabitlediği NPC'ler ve karşılaşma garnizonları, bu süreye bağlı olarak kaldırılmaz. 0, bu temizliği kapatır."
+- `Sandbox_ProjectALife.ModuleBehaviors`
+  - Eski EN: 'NPC conducts (leader, sniper, medic...)'
+  - Yeni EN: '[Expert] NPC conducts (leader, sniper, medic...)'
+  - Mevcut TR: 'NPC rol davranışları (lider, keskin nişancı, sıhhiyeci...)'
+- `Sandbox_ProjectALife.ModuleStrafe`
+  - Eski EN: 'Shooters aim while moving'
+  - Yeni EN: '[Expert] Shooters aim while moving'
+  - Mevcut TR: "Ateşli silah kullanan NPC'ler hareket ederken nişan alır"
+- `Sandbox_ProjectALife.WorldMode`
+  - Eski EN: 'A-Life world mode'
+  - Yeni EN: 'World simulation mode'
+  - Mevcut TR: 'A-Life dünya modu'
+- `Sandbox_ProjectALife.WorldMode_tooltip`
+  - Eski EN: 'Full: squads roam the whole map while nobody is near (offline simulation) and appear when you get close; outposts rise and fall on their own. Local only: no offline squads -- NPC groups exist only near players (cheapest); outposts still rise.'
+  - Yeni EN: "Full keeps groups travelling beyond players' view. Local only stops new distant groups; existing ones retire on reload. Outposts can still develop in either mode.\nDefault Full A-Life (offline squads roam the map) (1)."
+  - Mevcut TR: 'Tam: Ekipler, yakınlarında kimse yokken de bütün haritada dolaşır. Bu hareketler arka planda simüle edilir; yaklaştığınızda ekipler görünür hâle gelir. Üsler kendiliğinden kurulup ortadan kalkar. Yalnızca yakın çevre: Arka planda ekip simülasyonu yapılmaz; NPC grupları yalnızca oyuncuların yakınında bulunur. Performans yükü en düşük seçenektir. Üsler kurulmaya devam eder.'
+- `Sandbox_ProjectALife.RateEncounters`
+  - Eski EN: 'Encounter rate'
+  - Yeni EN: 'Random encounter frequency'
+  - Mevcut TR: 'Karşılaşma sıklığı'
+- `Sandbox_ProjectALife.RateEncounters_tooltip`
+  - Eski EN: 'How often the encounter director rolls a new group near players. Low halves the chance, Abundant triples it (the roll interval is unchanged).'
+  - Yeni EN: 'Scales the chance of a random group near players without changing check intervals. Low halves the chance; Abundant triples it.\nDefault Normal (2).'
+  - Mevcut TR: 'Karşılaşma sisteminin oyuncuların yakınında ne sıklıkta yeni grup oluşturacağını etkiler. Düşük, olasılığı yarıya indirir; Çok bol, üç katına çıkarır. Kontrol aralığı değişmez.'
+- `Sandbox_ProjectALife.RateGroups`
+  - Eski EN: 'Roaming group rate'
+  - Yeni EN: 'Roaming group abundance'
+  - Mevcut TR: 'Gezgin grup sıklığı'
+- `Sandbox_ProjectALife.RateGroups_tooltip`
+  - Eski EN: 'How many groups the world keeps: the spawn multiplier and the offline squad cap together. Low halves both, Abundant triples them (within their own ceilings).'
+  - Yeni EN: 'Scales natural group arrivals and the distant roaming group limit together. Low halves both; Abundant triples them, within their limits.\nDefault Normal (2).'
+  - Mevcut TR: 'Dünyada kaç grup bulunacağını etkiler; grup oluşturma çarpanını ve arka plandaki ekip sınırını birlikte değiştirir. Düşük, ikisini de yarıya indirir; Çok bol, üst tavanı aşmadan üç katına çıkarır.'
+- `Sandbox_ProjectALife.RateSurvivors`
+  - Eski EN: 'Survivor rate'
+  - Yeni EN: 'Friendly and neutral group frequency'
+  - Mevcut TR: 'Dost ve tarafsız fraksiyonların seçilme sıklığı'
+- `Sandbox_ProjectALife.RateSurvivors_tooltip`
+  - Eski EN: 'How often the factions that are friendly or neutral to the player are picked when a group is founded. Low halves their weight against the hostile ones, Abundant triples it.'
+  - Yeni EN: 'Scales how often friendly, neutral and wary factions are picked compared with hostile ones. Low halves their selection weight; Abundant triples it.\nDefault Normal (2).'
+  - Mevcut TR: 'Yeni bir grup oluşturulurken oyuncuya dost veya tarafsız fraksiyonların ne sıklıkta seçileceğini belirler. Düşük, düşman fraksiyonlara göre seçilme ağırlıklarını yarıya indirir; Çok bol, üç katına çıkarır.'
+- `Sandbox_ProjectALife.RateMetaEvents`
+  - Eski EN: 'Meta event rate'
+  - Yeni EN: 'Distant world events'
+  - Mevcut TR: 'Arka plan olaylarının sıklığı'
+- `Sandbox_ProjectALife.RateMetaEvents_tooltip`
+  - Eski EN: "Distant gunfire, helicopters, car crashes and the world's ambience: Low halves the daily and weekly caps and doubles the gap between events, Abundant triples the caps and shortens the gap."
+  - Yeni EN: 'Changes distant gunfire, helicopters and other background events. Low halves event limits and doubles the wait between them.\nDefault Normal (2).'
+  - Mevcut TR: 'Uzaktan gelen silah seslerini, helikopterleri, trafik kazalarını ve ortama canlılık katan diğer olayları etkiler. Düşük, günlük ve haftalık üst sınırları yarıya indirip olaylar arasındaki süreyi iki katına çıkarır. Çok bol, üst sınırları üç katına çıkarıp aradaki süreyi kısaltır.'
+- `Sandbox_ProjectALife.OutpostsOutsideCity`
+  - Eski EN: 'Camps and field bases outside towns (max)'
+  - Yeni EN: 'Outdoor camp and base limit'
+  - Mevcut TR: 'Kasaba dışındaki kamp ve saha üssü sınırı'
+- `Sandbox_ProjectALife.OutpostsOutsideCity_tooltip`
+  - Eski EN: 'How many outdoor sites -- forest camps, field bases, aid stations, depots -- may stand at once, on top of the per-town limit for fortified buildings. 0 disables outdoor sites.'
+  - Yeni EN: 'Limits outdoor sites such as forest camps, field bases and aid stations, separate from fortified town buildings. At 0, outdoor sites are disabled.\nDefault 2.'
+  - Mevcut TR: 'Tahkim edilmiş binalar için kasaba başına uygulanan sınıra ek olarak, açık arazide aynı anda kaç yerleşim bulunabileceğini belirler. Orman kampları, saha üsleri, yardım istasyonları ve depolar buna dahildir. 0, açık arazi yerleşimlerini kapatır.'
+- `Sandbox_ProjectALife.PatrolRestEnabled`
+  - Eski EN: 'Patrols rest'
+  - Yeni EN: 'Patrol and scout rest stops'
+  - Mevcut TR: 'Devriyeler dinlenir'
+- `Sandbox_ProjectALife.PatrolRestEnabled_tooltip`
+  - Eski EN: 'Patrols and scout parties stop off the road every few hours and after a fight: a circle, one sits, one smokes, the rest drink and talk, then the route resumes.'
+  - Yeni EN: 'Patrols and scouts pause off the road every few hours and after fights to sit, smoke, drink or talk, then resume their route.\nDefault on.'
+  - Mevcut TR: 'Devriyeler ve keşif grupları birkaç saatte bir ve çatışmalardan sonra yolun kenarında mola verir. Halka olurlar; biri oturur, biri sigara içer, diğerleri bir şeyler içip konuşur. Ardından rotalarına devam ederler.'
+- `Sandbox_ProjectALife.PatrolRestMinMinutes`
+  - Eski EN: 'Patrol rest: minimum (game minutes)'
+  - Yeni EN: 'Shortest patrol rest (game minutes)'
+  - Mevcut TR: 'Devriye molası: en kısa süre (oyun dakikası)'
+- `Sandbox_ProjectALife.PatrolRestMinMinutes_tooltip`
+  - Eski EN: 'The shortest rest, in game minutes.'
+  - Yeni EN: 'Sets the minimum length of a patrol rest. For example, 30 means each rest lasts at least half a game hour.\nDefault 20.'
+  - Mevcut TR: 'Oyun dakikası cinsinden en kısa mola süresidir.'
+- `Sandbox_ProjectALife.PatrolRestMaxMinutes`
+  - Eski EN: 'Patrol rest: maximum (game minutes)'
+  - Yeni EN: 'Longest patrol rest (game minutes)'
+  - Mevcut TR: 'Devriye molası: en uzun süre (oyun dakikası)'
+- `Sandbox_ProjectALife.PatrolRestMaxMinutes_tooltip`
+  - Eski EN: 'The longest rest, in game minutes.'
+  - Yeni EN: 'Sets the maximum length of a patrol rest. For example, 60 limits each rest to one game hour.\nDefault 45.'
+  - Mevcut TR: 'Oyun dakikası cinsinden en uzun mola süresidir.'
+- `Sandbox_ProjectALife.PatrolRestEveryHours`
+  - Eski EN: 'Patrol rest: every (game hours)'
+  - Yeni EN: 'Scheduled patrol rest interval (game hours)'
+  - Mevcut TR: 'Devriye molası: aralık (oyun saati)'
+- `Sandbox_ProjectALife.PatrolRestEveryHours_tooltip`
+  - Eski EN: 'Game hours between scheduled rests, per squad, with some jitter. A rest after a fight comes on its own.'
+  - Yeni EN: "Sets the usual time between a group's planned rests, with some variation. Rest after a fight is separate from this schedule.\nDefault 3.0."
+  - Mevcut TR: 'Her ekibin planlı molaları arasındaki oyun saati sayısıdır; süre küçük rastgele sapmalar gösterebilir. Çatışma sonrası molalar bu düzenden bağımsızdır.'
+- `Sandbox_ProjectALife.TalkEnabled`
+  - Eski EN: 'NPCs answer players who talk'
+  - Yeni EN: 'NPC replies to chat'
+  - Mevcut TR: "NPC'ler konuşan oyunculara cevap verir"
+- `Sandbox_ProjectALife.TalkEnabled_tooltip`
+  - Eski EN: 'Type in chat near NPCs and they answer: questions, requests, threats, yes or no. They also react with words when you hit them or help them in a fight.'
+  - Yeni EN: 'Nearby NPCs answer typed questions, requests, threats and yes-or-no replies. They also speak when you hit them or help them fight.\nDefault on.'
+  - Mevcut TR: "NPC'lerin yakınında sohbete yazdığınızda sorulara, isteklere, tehditlere ve evet/hayır yanıtlarına karşılık verirler. Onlara vurduğunuzda veya bir çatışmada yardım ettiğinizde de konuşarak tepki gösterirler."
+- `Sandbox_ProjectALife.TalkSinglePlayerChat`
+  - Eski EN: 'Chat box in single player'
+  - Yeni EN: 'Single-player chat box'
+  - Mevcut TR: 'Tek oyunculu oyunda sohbet kutusu'
+- `Sandbox_ProjectALife.TalkSinglePlayerChat_tooltip`
+  - Eski EN: 'Single player has no chat window. With this on, the Toggle chat key opens a small line to talk to NPCs. Start a line with ! to shout it.'
+  - Yeni EN: 'The Toggle chat key opens a small chat line for talking to NPCs in single player. Start a message with ! to shout.\nDefault on.'
+  - Mevcut TR: "Tek oyunculu oyunda sohbet penceresi bulunmaz. Bu ayar açıkken sohbeti açıp kapatma tuşu, NPC'lerle konuşabileceğiniz küçük bir yazı alanı açar. Bağırmak için yazdığınız satıra ! ile başlayın."
+- `Sandbox_ProjectALife.TalkPresence`
+  - Eski EN: 'NPCs notice players nearby'
+  - Yeni EN: 'NPC greetings and attention'
+  - Mevcut TR: "NPC'ler yakındaki oyuncuları fark eder"
+- `Sandbox_ProjectALife.TalkPresence_tooltip`
+  - Eski EN: 'Friendly and neutral people stop and look at you when you come close and say something; friends passing by say a word; outlaw crews call out a stranger.'
+  - Yeni EN: 'Friendly and neutral NPCs notice you nearby, stop and look when you speak. Passing friends greet you; outlaw groups call out strangers.\nDefault on.'
+  - Mevcut TR: "Dost ve tarafsız NPC'ler yaklaştığınızda durup size bakar ve konuşur. Yanınızdan geçen dostlar selam verir; kanun kaçağı gruplar yabancılara seslenir."
+- `Sandbox_ProjectALife.TalkRiskAssessment`
+  - Eski EN: 'Fresh survivors avoid fights'
+  - Yeni EN: "Fresh survivors' reluctance to fight"
+  - Mevcut TR: 'Deneyimsiz hayatta kalanlar çatışmadan kaçınır'
+- `Sandbox_ProjectALife.TalkRiskAssessment_tooltip`
+  - Eski EN: 'Scared ordinary people do not open fire on someone who has not attacked them, and back off when they are badly outgunned. Veterans and predators never do.'
+  - Yeni EN: 'Fresh survivors avoid unprovoked fights, but hostile relations, grudges and self-defence still allow attacks. Veterans and predators ignore this caution.\nDefault on.'
+  - Mevcut TR: 'Korkmuş sıradan insanlar kendilerine saldırmayan birine ateş açmaz; karşı taraf silah bakımından açıkça üstünse geri çekilirler. Çatışmaya alışkın olanlar ve saldırgan tipler ise böyle davranmaz.'
+- `Sandbox_ProjectALife.RobberyEnabled`
+  - Eski EN: 'Robberies'
+  - Yeni EN: 'Outlaw hold-ups'
+  - Mevcut TR: 'Soygunlar'
+- `Sandbox_ProjectALife.RobberyEnabled_tooltip`
+  - Eski EN: 'Outlaw crews may hold up a lone player instead of shooting: hands up, the weapon down, three or four valuable items taken, then they leave. Refuse, and they shoot.'
+  - Yeni EN: 'Outlaws may rob a lone player instead of shooting: hands up, weapon down, three or four valuables taken, then they leave. Refusal can lead to shooting.\nDefault on.'
+  - Mevcut TR: 'Kanun kaçağı gruplar, yalnız bir oyuncuya ateş etmek yerine onu soyabilir. Ellerini kaldırıp silahını bırakmasını ister, üç veya dört değerli eşyasını alır ve uzaklaşırlar. Oyuncu reddederse ateş açarlar.'
+- `Sandbox_ProjectALife.RobberyChance`
+  - Eski EN: 'Robbery chance (percent of normal)'
+  - Yeni EN: 'Outlaw hold-up frequency (percent of normal)'
+  - Mevcut TR: 'Soygun olasılığı (normal değerin yüzdesi)'
+- `Sandbox_ProjectALife.RobberyChance_tooltip`
+  - Eski EN: 'Scales how often an outlaw crew chooses to rob instead of fighting. 100 is normal, 0 never, 200 twice as often.'
+  - Yeni EN: 'Scales how often outlaws choose robbery rather than a fight. 0 means never; 200 means twice the normal rate, not a guaranteed robbery.\nDefault 100.'
+  - Mevcut TR: "Kanun kaçağı bir grubun çatışmak yerine soygunu seçme sıklığını ölçekler. 100 normal sıklıktır; 0'da hiç soygun olmaz, 200'de iki kat sık olur."
+- `Sandbox_ProjectALife.RadioKnoxCounty`
+  - Eski EN: 'Knox County Radio Channel'
+  - Yeni EN: 'Knox County survivor radio'
+  - Mevcut TR: 'Knox County Radyosu'
+- `Sandbox_ProjectALife.RadioKnoxCounty_tooltip`
+  - Eski EN: 'A survivor-run station with scanner traffic, military chatter, call-ins, stories, jokes and rumours about what is really happening in your world.'
+  - Yeni EN: 'Adds a survivor-run station with scanner traffic, military chatter, calls, stories, jokes and rumors about events in your world.\nDefault on.'
+  - Mevcut TR: 'Hayatta kalanların işlettiği bir radyo istasyonu. Dinlenen telsiz frekanslarından konuşmalar, askerî haberleşmeler, dinleyici bağlantıları, hikâyeler, şakalar ve dünyanızda gerçekten olup bitenlere dair söylentiler yayınlar.'
+- `Sandbox_ProjectALife.RadioKnoxFrequency`
+  - Eski EN: 'Knox County Radio frequency (kHz)'
+  - Yeni EN: 'Knox County radio frequency (kHz)'
+  - Mevcut TR: 'Knox County Radyosu frekansı (kHz)'
+- `Sandbox_ProjectALife.RadioKnoxFrequency_tooltip`
+  - Eski EN: 'Default 99600 = 99.6 MHz. Choose an unused FM frequency if the emergency station or another mod already occupies it. The station never replaces another channel. Restart the server after changing this; open a radio to add the matching preset.'
+  - Yeni EN: 'Choose an unused frequency; 100000 means 100 MHz. Other channels are never replaced. Restart the server after changes, then open a radio to add the matching preset.\nDefault 99600.'
+  - Mevcut TR: 'Varsayılan 99600 = 99.6 MHz. Acil durum yayını veya başka bir mod bu frekansı kullanıyorsa boş bir FM frekansı seçin. İstasyon hiçbir zaman başka bir kanalın yerini almaz. Bu ayarı değiştirdikten sonra sunucuyu yeniden başlatın; bu frekansı hazır kanal listesine eklemek için bir radyo açın.'
+- `Sandbox_ProjectALife.AmmoSpawnPercent`
+  - Eski EN: 'NPC spawn ammunition (percent)'
+  - Yeni EN: 'Starting NPC ammunition (percent of profile)'
+  - Mevcut TR: "NPC'lerin başlangıç mermisi (yüzde)"
+- `Sandbox_ProjectALife.AmmoSpawnPercent_tooltip`
+  - Eski EN: 'Rounds an NPC is issued at spawn, as a percent of what its profile says. 100 is the profile. Every gun keeps at least one full load. Infinite-ammo profiles are not changed.'
+  - Yeni EN: 'Scales the ammo an NPC starts with; 100 keeps its profile amount. Each gun retains at least one full load. Infinite-ammo profiles are unchanged.\nDefault 100.'
+  - Mevcut TR: 'NPC oluşturulurken verilen mermi miktarını, profilinde tanımlanan miktarın yüzdesi olarak belirler. 100, profildeki miktarı kullanır. Her silah için en az bir tam dolumluk mermi korunur. Sonsuz mermi kullanan profiller bu ayardan etkilenmez.'
+- `Sandbox_ProjectALife.AmmoReserveLoads`
+  - Eski EN: 'NPC reserve ceiling (loads)'
+  - Yeni EN: 'Spare NPC ammunition limit (gun loads)'
+  - Mevcut TR: 'NPC yedek mermi sınırı (dolum)'
+- `Sandbox_ProjectALife.AmmoReserveLoads_tooltip`
+  - Eski EN: 'The most spare rounds an NPC can carry for one gun, counted in loads of that gun (its magazine or tube, at least 6 rounds). It caps the spawn kit and ammunition the NPC picks up. 0 means no ceiling. Default 6.'
+  - Yeni EN: 'Caps starting and collected spare ammo in gun loads of at least 6 rounds. Smaller kits stay smaller; 2 permits two spare loads. 0 removes the cap; infinite-ammo profiles are unchanged.\nDefault 2.'
+  - Mevcut TR: "Bir NPC'nin tek bir silah için taşıyabileceği en fazla yedek mermi miktarını dolum sayısıyla belirler. Bir dolum, silahın şarjörünü veya şarjör borusunu tamamen dolduracak mermi sayısıdır; sınır hesaplanırken bu sayı en az 6 kabul edilir. Bu sınır hem başlangıçta verilen hem de NPC'nin sonradan topladığı mermilere uygulanır. 0, sınırı kaldırır. Varsayılan 6'dır."
+- `Sandbox_ProjectALife.AmmoBottomless_tooltip`
+  - Eski EN: 'Which profiles may keep the Infinite ammunition tick. Creator profiles only keeps it for profiles you made or edited; the shipped roster then runs dry like everyone else.'
+  - Yeni EN: 'Chooses which NPC profiles may use infinite ammo. Creator profiles only limits it to profiles you made or edited; stock NPCs can run dry.\nDefault Creator profiles only (1).'
+  - Mevcut TR: "Hangi profillerde Sonsuz mermi seçeneğinin kullanılabileceğini belirler. Yalnızca Oluşturucu profilleri seçeneği, buna sadece sizin oluşturduğunuz veya düzenlediğiniz profillerde izin verir; modla gelen hazır profillerin mermisi diğer NPC'ler gibi tükenir."
+- `Sandbox_ProjectALife.AmmoHonestDrops`
+  - Eski EN: 'Ammo drops follow what the NPC carried'
+  - Yeni EN: 'Ammo drops from remaining supplies'
+  - Mevcut TR: "NPC'nin bıraktığı mermiler taşıdığı miktarla sınırlıdır"
+- `Sandbox_ProjectALife.AmmoHonestDrops_tooltip`
+  - Eski EN: "On: a body drops at most its profile's magazine limit, filled only from rounds it still carried when it died. Off: one roll per magazine the profile was issued, full, however much was fired."
+  - Yeni EN: 'On: dropped magazines use only ammo the NPC had left, up to its profile limit. Off: each issued magazine gets a drop roll and can be full even after its rounds were fired.\nDefault on.'
+  - Mevcut TR: 'Açık: Cesetten çıkan şarjör sayısı profildeki sınırı aşmaz; şarjörler yalnızca NPC öldüğünde üzerinde kalan mermilerle doldurulur. Kapalı: Profildeki başlangıç şarjörlerinin her biri için ayrı bir düşme kontrolü yapılır. Ne kadar mermi harcanmış olursa olsun, çıkan şarjörler tam doludur.'
+- `Sandbox_ProjectALife.EarlyLooters`
+  - Eski EN: 'Early-game looter crews (percent)'
+  - Yeni EN: 'Early looter frequency (percent)'
+  - Mevcut TR: 'Oyunun başındaki yağmacı grupları (yüzde)'
+- `Sandbox_ProjectALife.EarlyLooters_tooltip`
+  - Eski EN: 'How often the Roadside Pickers turn up: small scavenging crews who warn you off and may hold you up, common in the first two weeks and gone by the fourth. 100 is the default weight, 0 turns them off.'
+  - Yeni EN: 'Scales Roadside Pickers, small looting crews that may warn or rob you. They are common in the first two weeks and gone by week four. At 0, they do not appear.\nDefault 100.'
+  - Mevcut TR: 'Yol Boyu Toplayıcıları ile karşılaşma sıklığını belirler. Malzeme toplayan bu küçük gruplar uzak durmanızı söyler ve sizi soyabilir. İlk iki hafta sık görülürler; dördüncü haftanın sonunda artık ortaya çıkmazlar. 100, varsayılan seçilme ağırlığıdır; 0, ortaya çıkmalarını kapatır.'
+- `Sandbox_ProjectALife.SeasonalDress`
+  - Eski EN: 'NPCs dress for the season'
+  - Yeni EN: 'Seasonal NPC clothing'
+  - Mevcut TR: "NPC'ler mevsime göre giyinir"
+- `Sandbox_ProjectALife.SeasonalDress_tooltip`
+  - Eski EN: 'Winter adds coats, hats, gloves and scarves to empty slots; summer takes off heavy winter layers. Uniforms keep their uniform. Profiles with their own seasonal outfit sets are left as authored.'
+  - Yeni EN: 'Adds winter layers, removes heavy layers in summer and adds rainwear in wet weather. Uniforms and profiles with their own seasonal outfits are preserved.\nDefault on.'
+  - Mevcut TR: "Kışın boş kıyafet yuvalarına mont, şapka, eldiven ve atkı eklenir; yazın kalın kışlık kıyafetler çıkarılır. Üniformalı NPC'ler üniformalarını korur. Kendi mevsimlik kıyafet setleri tanımlanmış profiller bu ayarla değiştirilmez."
+
+### Yeni anahtar, metni eskiden birebir var (bağlam farklı olabilir, körü körüne kopyalanmamalı)
+
+- `Sandbox_ProjectALife.PresetDifficulty_option3` ← `Sandbox_ProjectALife.AimDifficulty_option4`: 'Hard' → TR: 'Zor'
+- `Sandbox_ProjectALife.ReputationMode_option1` ← `Sandbox_ProjectALife.PopulateOnStart_option1`: 'Off' → TR: 'Kapalı'
+- `Sandbox_ProjectALife.TalkGroupMeetings_option1` ← `Sandbox_ProjectALife.PopulateOnStart_option1`: 'Off' → TR: 'Kapalı'
+- `Sandbox_ProjectALife.TalkGroupMeetings_option2` ← `Sandbox_ProjectALife.PopulateOnStart_option2`: 'Rare' → TR: 'Nadir'
+- `Sandbox_ProjectALife.TalkGroupMeetings_option3` ← `Sandbox_ProjectALife.RateEncounters_option2`: 'Normal' → TR: 'Normal'
+- `Sandbox_ProjectALife.FearLevel_option2` ← `Sandbox_ProjectALife.RateEncounters_option2`: 'Normal' → TR: 'Normal'
+- `Sandbox_ProjectALife.Safehouse_Events_option1` ← `Sandbox_ProjectALife.PopulateOnStart_option1`: 'Off' → TR: 'Kapalı'
+- `Sandbox_ProjectALife.Safehouse_Events_option2` ← `Sandbox_ProjectALife.PopulateOnStart_option2`: 'Rare' → TR: 'Nadir'
+- `Sandbox_ProjectALife.Safehouse_Events_option3` ← `Sandbox_ProjectALife.RateEncounters_option2`: 'Normal' → TR: 'Normal'
+- `Sandbox_ProjectALife.Safehouse_Entry_option2` ← `Sandbox_ProjectALife.AmmoBottomless_option3`: 'Never' → TR: 'Hiçbir profil'
+- `Sandbox_ProjectALife.Text_NpcChatLog_option1` ← `Sandbox_ProjectALife.PopulateOnStart_option1`: 'Off' → TR: 'Kapalı'
+- `Sandbox_ProjectALife.ActivitiesHunting_option1` ← `Sandbox_ProjectALife.PopulateOnStart_option1`: 'Off' → TR: 'Kapalı'
+- `Sandbox_ProjectALife.Visitors_ProactiveEvents_option1` ← `Sandbox_ProjectALife.PopulateOnStart_option1`: 'Off' → TR: 'Kapalı'
+- `Sandbox_ProjectALife.Visitors_ProactiveEvents_option2` ← `Sandbox_ProjectALife.PopulateOnStart_option2`: 'Rare' → TR: 'Nadir'
+- `Sandbox_ProjectALife.Visitors_ProactiveEvents_option3` ← `Sandbox_ProjectALife.RateEncounters_option2`: 'Normal' → TR: 'Normal'
+- `Sandbox_ProjectALife.Visitors_Privacy_option2` ← `Sandbox_ProjectALife.RateEncounters_option2`: 'Normal' → TR: 'Normal'
+- `Sandbox_ProjectALife.Visitors_Flirt_option1` ← `Sandbox_ProjectALife.PopulateOnStart_option1`: 'Off' → TR: 'Kapalı'
+
+### Silinen
+
+- `Sandbox_ProjectALife_1General`: 'Project A-Life - GENERAL'
+- `Sandbox_ProjectALife_2Population`: 'Project A-Life - POPULATION'
+- `Sandbox_ProjectALife_3Encounters`: 'Project A-Life - ENCOUNTERS'
+- `Sandbox_ProjectALife_4Behavior`: 'Project A-Life - BEHAVIOR'
+- `Sandbox_ProjectALife_5Combat`: 'Project A-Life - COMBAT'
+- `Sandbox_ProjectALife_6Raids`: 'Project A-Life - RAIDS & SUPPORT'

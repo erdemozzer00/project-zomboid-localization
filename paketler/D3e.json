@@ -1,0 +1,756 @@
+{
+  "_paket": "D3e — Sivillerin panik replikleri: ilk günlerde grup halinde kaçış (PANIC_DAY_GROUP), 250",
+  "_dosya": "RadioData_lua",
+  "satirlar": {
+    "RD_ALifeLine_075ba8ed4577cc8d": {
+      "tr": "Bekleyin.. beni geride bırakmayın!"
+    },
+    "RD_ALifeLine_6eda5c2b11a94d85": {
+      "tr": "Danny! DANNY! Danny'yi gören var mı?!"
+    },
+    "RD_ALifeLine_76f7fbd20b2a401b": {
+      "tr": "Birbirinizden ayrılmayın, herkes!"
+    },
+    "RD_ALifeLine_04e3cffb261777c0": {
+      "tr": "Sayın, kim eksik?"
+    },
+    "RD_ALifeLine_48f645ad62b9b8e3": {
+      "tr": "Dağılmayın! Ne olursa olsun!"
+    },
+    "RD_ALifeLine_77ec04a735c2bb86": {
+      "tr": "Bebek kimde?!"
+    },
+    "RD_ALifeLine_5301679e5d849d3d": {
+      "tr": "Herkes burada mı? Herkes BURADA MI?"
+    },
+    "RD_ALifeLine_383a4a89087c97d3": {
+      "tr": "Hiçbir şey için durmayın, yürüyün!"
+    },
+    "RD_ALifeLine_6883ada761110475": {
+      "tr": "Herkesi göremiyorum, herkesi göremiyorum, göre-"
+    },
+    "RD_ALifeLine_0fdd0f1d553907dd": {
+      "tr": "Beklemeyin, gidin, GİDİN, ben yetişirim, hadi!"
+    },
+    "RD_ALifeLine_2da172b077ef6c42": {
+      "tr": "Hemen arkamdaydı!"
+    },
+    "RD_ALifeLine_19628ada4142bf72": {
+      "tr": "MARCUS! Marcus, neredesin?"
+    },
+    "RD_ALifeLine_023752221110aae5": {
+      "tr": "Onun için geri dönme, her neyse, geri dönme!"
+    },
+    "RD_ALifeLine_7192b1be38e5fecf": {
+      "tr": "İtmeyi kes! Kes şunu, birini yere düşüreceksin!"
+    },
+    "RD_ALifeLine_26948988584f4c4b": {
+      "tr": "Herkes sussun ve DİNLESİN!"
+    },
+    "RD_ALifeLine_43f173eb660ff3ca": {
+      "tr": "Sol dedim! SOL! O sol değil, öbür sol!"
+    },
+    "RD_ALifeLine_36ffaf6640a3614a": {
+      "tr": "Katie! Katie, buraya, annenin yanına, hemen!"
+    },
+    "RD_ALifeLine_68e20b6b61b0d9a4": {
+      "tr": "Wendell, bekle, WENDELL, bizi bırakma!"
+    },
+    "RD_ALifeLine_6a8bd5a855fe0884": {
+      "tr": "Crystal! Crystal, bana bak, ona değil!"
+    },
+    "RD_ALifeLine_17d5cfab7343655e": {
+      "tr": "Brandon, hayır, BRANDON, gruba geri dön!"
+    },
+    "RD_ALifeLine_7f9dcb5459737287": {
+      "tr": "Hadi, burada kimseyi bırakmıyoruz"
+    },
+    "RD_ALifeLine_795a3ab17eb2b54a": {
+      "tr": "Dağılmayın, dağılmayın, dağılan yakalanır..."
+    },
+    "RD_ALifeLine_29af84514cf3c5d9": {
+      "tr": "Baba? Baba! Baba, hâlâ bizimle misin?!"
+    },
+    "RD_ALifeLine_326ab0017ee3ea3c": {
+      "tr": "Herkes sıraya, SIRAYA, kimse sıradan çıkmasın!"
+    },
+    "RD_ALifeLine_55a7a59d70fa55e6": {
+      "tr": "Planı olan var mı? KİMSENİN planı yok mu?"
+    },
+    "RD_ALifeLine_2f5412ba7bc33e01": {
+      "tr": "Çakıldan çıkın, çimene basın, herkes!"
+    },
+    "RD_ALifeLine_3a52f36f70d0c884": {
+      "tr": "Hızımızı en yavaşımız belirler, onu bekliyoruz!"
+    },
+    "RD_ALifeLine_59e47c82631651b4": {
+      "tr": "Herkes bana baksın, yolu biliyorum!"
+    },
+    "RD_ALifeLine_72214d917ef21784": {
+      "tr": "Anneee! Anne, bizi bekle! ANNE!"
+    },
+    "RD_ALifeLine_03b71ae8531b6146": {
+      "tr": "Baba! Baba, yetiş! Baba!"
+    },
+    "RD_ALifeLine_0f05b0b842fbe67b": {
+      "tr": "Verna! Verna, küçüğü al, kap onu!"
+    },
+    "RD_ALifeLine_2c3c462a62ee3602": {
+      "tr": "Gidiyoruz, herkes kalksın, hemen, kalkın!"
+    },
+    "RD_ALifeLine_18e1014a07a81d69": {
+      "tr": "Ayrılmayın, sakın! Yalnız kalana saldırıyorlar!"
+    },
+    "RD_ALifeLine_009dcbb246ff1a1c": {
+      "tr": "Ellie! Ellie, buraya, sesimi takip et!"
+    },
+    "RD_ALifeLine_1834802825913f0e": {
+      "tr": "Yakın durun! Ne olur yakın durun!"
+    },
+    "RD_ALifeLine_153f82ba53407a37": {
+      "tr": "Neden herkes duruyor? Neden herkes DURDU?"
+    },
+    "RD_ALifeLine_670727e93c83ce8c": {
+      "tr": "Hadi, millet, hadi, kimseyi daha kaybetmek istemiyorum!"
+    },
+    "RD_ALifeLine_045b1b9e0dc30b01": {
+      "tr": "Eğer ayrılırsak.. yok yok, sadece yakın durun!"
+    },
+    "RD_ALifeLine_531302f56bf06e7e": {
+      "tr": "Hank yok, Hank bir şey için geri mi döndü? HANK?"
+    },
+    "RD_ALifeLine_3c9b005f000710fd": {
+      "tr": "Annemi kaybettim, kaybettim - arkamdaydı, şimdi yok!"
+    },
+    "RD_ALifeLine_758e0477058e0cf6": {
+      "tr": "Durun! Durun! Herkes dursun! Josh nerede?"
+    },
+    "RD_ALifeLine_6a77e24537fb0b75": {
+      "tr": "Wayne Kardeş! Henderson'ları bekle!"
+    },
+    "RD_ALifeLine_17cacdc822f03cce": {
+      "tr": "Çabuk... ne olur!"
+    },
+    "RD_ALifeLine_30d4485053c97d19": {
+      "tr": "El ele tutuşun, herkes el ele, bırakmayın!"
+    },
+    "RD_ALifeLine_2cd320d81f2173ae": {
+      "tr": "Dede, yetiş, DEDE!"
+    },
+    "RD_ALifeLine_058281756f621242": {
+      "tr": "Bana yapış, daha da yakın"
+    },
+    "RD_ALifeLine_5f51914815929ea5": {
+      "tr": "Onu geride bırakmayın, onu bırakmıyoruz!"
+    },
+    "RD_ALifeLine_50e617020e4e7810": {
+      "tr": "Kimse geride kalmıyor, sayıyorum!"
+    },
+    "RD_ALifeLine_25719c7c2caf58fb": {
+      "tr": "Birbirinizi gözden kaybetmeyin, anlaşıldı mı, GÖZDEN!"
+    },
+    "RD_ALifeLine_2d69cca377afd9d9": {
+      "tr": "Ellerinizi öndekine koyun, hadi, omuzlarına"
+    },
+    "RD_ALifeLine_6f84cf5421aa9570": {
+      "tr": "Bir yeninden tut, kimin olursa tut, yeter ki bırakma"
+    },
+    "RD_ALifeLine_291f15a16b853cf5": {
+      "tr": "Kol kola girin, sıkı, kilisedeymiş gibi"
+    },
+    "RD_ALifeLine_5ffd2d05639212ac": {
+      "tr": "Toplanın, sıkı, daha sıkı, saymam lazım"
+    },
+    "RD_ALifeLine_322155646cda4a99": {
+      "tr": "Sakın bir yere ayrılma!"
+    },
+    "RD_ALifeLine_6e9bd66715c8537e": {
+      "tr": "Tek grup, tek, biz TEK grubuz"
+    },
+    "RD_ALifeLine_48df2cf618d39ad8": {
+      "tr": "Küçükler ortaya, yaşlılar ortaya, hadi"
+    },
+    "RD_ALifeLine_20501ea6419b3594": {
+      "tr": "Yavaşlayın, nine için yavaşlayın, o kadar hızlı gidemez!"
+    },
+    "RD_ALifeLine_7007b3b4207d6912": {
+      "tr": "Elini TUTUYORDUM, tam buradaydı, sonra-"
+    },
+    "RD_ALifeLine_4f255980331ef21b": {
+      "tr": "Biri eksik, yeniden sayın!"
+    },
+    "RD_ALifeLine_7e46764017795cf9": {
+      "tr": "Geri dönemeyiz, dönemeyiz, üzgünüm"
+    },
+    "RD_ALifeLine_558a9d2415d049b7": {
+      "tr": "Ağlamayı kes, daha da kötüleştiriyorsun!"
+    },
+    "RD_ALifeLine_6901ed056bdae0e0": {
+      "tr": "Lider ben değilim, bana bakmayın"
+    },
+    "RD_ALifeLine_73fc4b4d0513c7a6": {
+      "tr": "Sen karar ver, ben veremem, başkası karar versin!"
+    },
+    "RD_ALifeLine_6888fcfe457887cb": {
+      "tr": "Ne tarafa? Sen söyle ne tarafa, ben SENİ takip ederim!"
+    },
+    "RD_ALifeLine_09aa152824331a16": {
+      "tr": "Bilmiyorum, öndeki adamı takip ediyorum sadece"
+    },
+    "RD_ALifeLine_1086984d1486d9e6": {
+      "tr": "Tasha nerede? Tasha bizimleydi, bir dakika önce bizimleydi"
+    },
+    "RD_ALifeLine_4ee2e34a2f212608": {
+      "tr": "Luis, kardeşinin elini tut - sakın bırakma!"
+    },
+    "RD_ALifeLine_41a19af5788b1119": {
+      "tr": "Opal! OPAL! Yavaşlayın, yetişemiyor, biri Opal'ı alsın!"
+    },
+    "RD_ALifeLine_4bda92000ed056f2": {
+      "tr": "Jolene ayağını incitti, bizim- biri Jolene'e yardım etsin"
+    },
+    "RD_ALifeLine_7f0d99c44638b3d7": {
+      "tr": "Cody, sen öndesin, başa geç"
+    },
+    "RD_ALifeLine_247fce932b7d4a02": {
+      "tr": "Heather, en arkadasın, arkayı sen kolla..."
+    },
+    "RD_ALifeLine_09185d3e3e706022": {
+      "tr": "Rhonda, küçükler sende, onları önünde tut!"
+    },
+    "RD_ALifeLine_3c25deb01a8ec3c4": {
+      "tr": "Kenny, su nerede, su kimde?"
+    },
+    "RD_ALifeLine_2cf0a91250fd9be6": {
+      "tr": "Küçük Dale yok, Küçük Dale'in gittiğini gören oldu mu?"
+    },
+    "RD_ALifeLine_5a02bb3f17ae706f": {
+      "tr": "Darnell, sen annenin yanında kal, duydun mu, hemen yanında"
+    },
+    "RD_ALifeLine_60f350c27488a6d0": {
+      "tr": "Missy, tatlım, elimi tut, seni tuttum"
+    },
+    "RD_ALifeLine_1cef68981b5a3057": {
+      "tr": "Kimse konuşmasın, kimse koşmasın, beni takip edin, sessiz!"
+    },
+    "RD_ALifeLine_57fb38a34032c192": {
+      "tr": "Yavaş gidin, yavaş dedim, koşmuyoruz, onların istediği koşmamız..."
+    },
+    "RD_ALifeLine_350585fc01f91b02": {
+      "tr": "Yiyecekleri kim taşıyor? Biri yiyecekleri alsın, ne olur..."
+    },
+    "RD_ALifeLine_32dc6de121a5a988": {
+      "tr": "Kucağa alın onu, biri kucağına alsın, yürüyemiyor..."
+    },
+    "RD_ALifeLine_7aebbe2728c03d31": {
+      "tr": "Annem nerede? Annem tam buradaydı!"
+    },
+    "RD_ALifeLine_0e1a4ba5323baa4b": {
+      "tr": "Dur, dur, ninemin ilaçlarını unuttuk, yok, boş ver, BOŞ VER"
+    },
+    "RD_ALifeLine_3ab82d0b00b5cd85": {
+      "tr": "Kafa sayın, ben yedi sayıyorum, sekiz olmalıydı!"
+    },
+    "RD_ALifeLine_5cd74160700b89e6": {
+      "tr": "İri adamın arkasına geç, hemen arkasına"
+    },
+    "RD_ALifeLine_1a34dfd74dbdb263": {
+      "tr": "En arkadaki kimse sesini çıkarsın, bir şey söyle, orada mısın?"
+    },
+    "RD_ALifeLine_1b9df0323301c346": {
+      "tr": "Adınızı söyleyin, adınızı söyleyin ki burada olduğunuzu bileyim!"
+    },
+    "RD_ALifeLine_3e803cab1da60900": {
+      "tr": "Herkesi tutamam, iki elim var sadece!"
+    },
+    "RD_ALifeLine_52bf100e05ff81a6": {
+      "tr": "Biz bir grubuz, kimseyi bırakmayız!"
+    },
+    "RD_ALifeLine_531fe3b42e3ddf89": {
+      "tr": "Yarabbi, herkes nereye gitti? Herkes NEREYE gitti?"
+    },
+    "RD_ALifeLine_565f02e65a19c423": {
+      "tr": "Hey! Hey, arkadaki, hızlan!"
+    },
+    "RD_ALifeLine_7e338de34acaeeca": {
+      "tr": "Hayır, Bay Pruitt'i BIRAKMIYORUZ, kolunu omzuna at!"
+    },
+    "RD_ALifeLine_689fcdc1585ab001": {
+      "tr": "Yanında kim varsa al. Beni bekleme"
+    },
+    "RD_ALifeLine_6bc2e6d806d49716": {
+      "tr": "Kimse geride kalmasın, ne olur, kimseyi bırakmayın"
+    },
+    "RD_ALifeLine_7c5ee2d6401e853b": {
+      "tr": "Jimmy Ray, yemin ederim- JIMMY RAY, buraya gel!"
+    },
+    "RD_ALifeLine_44a02f08152217da": {
+      "tr": "Onlara bakma, sırtıma bak, sadece sırtıma"
+    },
+    "RD_ALifeLine_69bae1d648904583": {
+      "tr": "Kırmızı montu takip et, gözünden kaçırma"
+    },
+    "RD_ALifeLine_75bea0220ab44b83": {
+      "tr": "Görebileceğim yerde dur!"
+    },
+    "RD_ALifeLine_0de66252479ba5b2": {
+      "tr": "Yaralı var mı? Şimdi söyleyin, hemen şimdi söyleyin!"
+    },
+    "RD_ALifeLine_0a0c9c825275586a": {
+      "tr": "Fener babanda, babanın ışığını görebileceğin yerde kal"
+    },
+    "RD_ALifeLine_65838e094ad8a43f": {
+      "tr": "Bir, iki, üç... dördüncü nerede? Dördüncü kim?!"
+    },
+    "RD_ALifeLine_1d39cbfc1496b6c4": {
+      "tr": "Yetişemiyor, bekleyemeyiz, beklemek zorundayız, Allah kahretsin!"
+    },
+    "RD_ALifeLine_484c34184e2f76d9": {
+      "tr": "Oğlanı sen taşı, çantayı ben alırım, yok, bırak çantayı, BIRAK!"
+    },
+    "RD_ALifeLine_089b82a911ce28b2": {
+      "tr": "Herkes yakın dursun.. kimseyi geride bırakmayın!"
+    },
+    "RD_ALifeLine_6b2ea4a15bbbdb04": {
+      "tr": "Nefes al, ver, al, ver, hadi, benimle"
+    },
+    "RD_ALifeLine_6d8826d54ea6978f": {
+      "tr": "Hem seni hem suyu taşıyamam, taşıyamam, birini seç!"
+    },
+    "RD_ALifeLine_3e2a133f3ac2372a": {
+      "tr": "Ayrılıyoruz, yok, ayrılmıyoruz, evet ayrılıyoruz, HAYIR ayrılmıyoruz"
+    },
+    "RD_ALifeLine_26d85fd81d3dcb9d": {
+      "tr": "Dolores, Eugene'i bekle, yavaş, BEKLE onu!"
+    },
+    "RD_ALifeLine_7b6df7647af2bc77": {
+      "tr": "Travis, kardeşin nerede? Nerede o, Travis?"
+    },
+    "RD_ALifeLine_597936c927c05617": {
+      "tr": "Shawn? Shawn! Bir şey söyle, bir ses çıkar, ne olursa"
+    },
+    "RD_ALifeLine_26363ec009b438fa": {
+      "tr": "Mitch yok, daha- daha az önce buradaydı, Mitch yok"
+    },
+    "RD_ALifeLine_35a39d9a7ea3f8db": {
+      "tr": "Durun.. yavaşlayın, yetişemiyorum!"
+    },
+    "RD_ALifeLine_1509704f2a310d0c": {
+      "tr": "Biri annemin yanında kalmalı, yürümüyor"
+    },
+    "RD_ALifeLine_25e4ee007b6c2a98": {
+      "tr": "Beni bırakın diyor, onu bırakmıyoruz"
+    },
+    "RD_ALifeLine_15d80a8c4acdc787": {
+      "tr": "Birini kaybettik, kim olduğunu anlayamıyorum!"
+    },
+    "RD_ALifeLine_544acca92965dc19": {
+      "tr": "Neredesin? Nerede olduğunu söyle, seni göremiyoruz!"
+    },
+    "RD_ALifeLine_21834b90075ef6d4": {
+      "tr": "İpe tutunun, herkes ipe tutunsun"
+    },
+    "RD_ALifeLine_2ea7352b4a94deb2": {
+      "tr": "O oğlanı sakın gözünden ayırma"
+    },
+    "RD_ALifeLine_104148724ed94dff": {
+      "tr": "Geri gel, yalnız gitme!"
+    },
+    "RD_ALifeLine_19f7bce5647c11ba": {
+      "tr": "Çabuk ol, geride kalıyorsun!"
+    },
+    "RD_ALifeLine_36371bf27ad63e39": {
+      "tr": "Sıranın sonunu göremiyorum!"
+    },
+    "RD_ALifeLine_7c3a7e2b246f1b9f": {
+      "tr": "Elini tut, tut, üşüyor, titriyor"
+    },
+    "RD_ALifeLine_781f72a60076b21d": {
+      "tr": "Minik bacaklar, küçükleri kucaklayın, taşıyın"
+    },
+    "RD_ALifeLine_72445ab745fe097f": {
+      "tr": "Ne olur görebileceğim yerde dur, yalvarıyorum!"
+    },
+    "RD_ALifeLine_155d6e7551ed1a6c": {
+      "tr": "Ne olur, beni arkanda bırakma!"
+    },
+    "RD_ALifeLine_38346867441653a8": {
+      "tr": "Herkes adresini söylesin, ayrılırsak diye, yüksek sesle söyleyin!"
+    },
+    "RD_ALifeLine_0f1aefa20b0e3d80": {
+      "tr": "Nereye gittiğimizi kimseye söylemeyin, hiç kimseye!"
+    },
+    "RD_ALifeLine_43c5b4851447e557": {
+      "tr": "Kimse için durmuyoruz, durmamı isteme"
+    },
+    "RD_ALifeLine_40f6e328423528d3": {
+      "tr": "Sessiz.. tek ses yok, ne olur!"
+    },
+    "RD_ALifeLine_7570f4c4622b0479": {
+      "tr": "Ayak izlerime bas, benim bastığım yere bas"
+    },
+    "RD_ALifeLine_0b2dfa483cc88693": {
+      "tr": "Fısılda, sadece fısılda, yanındakine fısılda"
+    },
+    "RD_ALifeLine_7825195d43b062e8": {
+      "tr": "Sırayla nöbet tutun, onar dakika"
+    },
+    "RD_ALifeLine_4569b6aa19ec446f": {
+      "tr": "Küçük kafaları sayın, küçükleri, bir, iki, üç"
+    },
+    "RD_ALifeLine_5a73c50a3914728a": {
+      "tr": "İkisini birden taşıyamam, Joey'yi sen al, Amy'yi ben alırım!"
+    },
+    "RD_ALifeLine_7898503634c80892": {
+      "tr": "Yavaş, yavaş, bebek ağır, yavaşlayın"
+    },
+    "RD_ALifeLine_7b8a18a7557c77d6": {
+      "tr": "Bebek arabasını bırakma, bırakma, elimizdeki tek araba o"
+    },
+    "RD_ALifeLine_645c8f793828766e": {
+      "tr": "Kimde saat var? Ne kadar zamandır yürüdüğümüzü bilmemiz lazım"
+    },
+    "RD_ALifeLine_4d00c7170c313d1e": {
+      "tr": "Tammy, say bizi, herkesi say, şu an sayı sayamıyorum!"
+    },
+    "RD_ALifeLine_6c814a2360ccdf0e": {
+      "tr": "Gömleğimin arkasından tut, ne olursa olsun, bırakma"
+    },
+    "RD_ALifeLine_25c332641fddffa7": {
+      "tr": "Oğlanlar, babanızın yanına, kızlar, benim yanıma!"
+    },
+    "RD_ALifeLine_298ddefd601a8756": {
+      "tr": "Elimi o kadar sıkı tutma, yok, sıkı tut, ahh bilmiyorum..."
+    },
+    "RD_ALifeLine_79af2274751716c6": {
+      "tr": "Tek sıra, sessiz, önden ben gidiyorum!"
+    },
+    "RD_ALifeLine_31c618f018cbcba8": {
+      "tr": "El kalkarsa dur demek, el görünce DURUN!"
+    },
+    "RD_ALifeLine_7b9761b860a71152": {
+      "tr": "Yürüyün, koşmayın, bir daha söylemeyeceğim"
+    },
+    "RD_ALifeLine_5cff65146fb6d4dc": {
+      "tr": "Boşluktan teker teker geçin, kimse itmesin"
+    },
+    "RD_ALifeLine_74d8491a681d7413": {
+      "tr": "İkişerli eşleşin, birini bulun, elini tutun, kimse yalnız yürümesin"
+    },
+    "RD_ALifeLine_1f590a0918fde707": {
+      "tr": "Gözler öndekinin ensesinde"
+    },
+    "RD_ALifeLine_69ee452c56be5c8d": {
+      "tr": "Önde değil, arkada değil, ortada yürüyorsun"
+    },
+    "RD_ALifeLine_1384295d48cb5b8d": {
+      "tr": "Arkaya ilet, duruyoruz"
+    },
+    "RD_ALifeLine_633a19e5193ad86f": {
+      "tr": "Arkaya ilet, temiz, devam ediyoruz!"
+    },
+    "RD_ALifeLine_1312d8990345be96": {
+      "tr": "Pete, Bay Odom'un öbür koluna gir"
+    },
+    "RD_ALifeLine_42a3f9d33bb8357a": {
+      "tr": "Telsiz kontrolü, kim varsa, teker teker!"
+    },
+    "RD_ALifeLine_0a13232248a50cd8": {
+      "tr": "Sıkı! Kapatın arayı, sıkı!"
+    },
+    "RD_ALifeLine_7f7a1fbb69cae670": {
+      "tr": "Artçı, artçı kimde? Artçı, ses ver"
+    },
+    "RD_ALifeLine_40b98ddc2fa15126": {
+      "tr": "Artçı tamam, artçı eksiksiz"
+    },
+    "RD_ALifeLine_4e365a78270cc111": {
+      "tr": "Eller cepte, hiçbir şeye dokunmayın, çıt yok"
+    },
+    "RD_ALifeLine_3e01ffd45851f4d4": {
+      "tr": "Peki, sen önden git, nereye gidiyoruz? ...aynen öyle"
+    },
+    "RD_ALifeLine_468712a932268201": {
+      "tr": "Corinne, solumda dur, Hank, sağımda dur"
+    },
+    "RD_ALifeLine_74cad2537a8accd3": {
+      "tr": "Gus, en arka sensin, eksik olursa bana söyle!"
+    },
+    "RD_ALifeLine_775f47c068434193": {
+      "tr": "Lorraine, şu ikisinin elini tut, ortada tut onları"
+    },
+    "RD_ALifeLine_4b7ea944112c9cee": {
+      "tr": "Rosalee, yolu sen biliyorsun, önden sen git"
+    },
+    "RD_ALifeLine_68d9a7d838ff3fb9": {
+      "tr": "Eşyalarınızı toplayın, taşıyamayacağınızı bırakın"
+    },
+    "RD_ALifeLine_40a763b96e78bed8": {
+      "tr": "Kimse kol mesafesinden uzaklaşmasın, anlaşıldı mı, kimse"
+    },
+    "RD_ALifeLine_05c88f5540f256f1": {
+      "tr": "Bir arada kalın.. kendi başınıza bir yere ayrılmayın"
+    },
+    "RD_ALifeLine_5f96c4f75aaa041e": {
+      "tr": "Sesli sayın ki hepinizin burada olduğunu duyayım"
+    },
+    "RD_ALifeLine_4b44fdc2517f9ea7": {
+      "tr": "İçinizden tek bir çıt bile duymak istemiyorum"
+    },
+    "RD_ALifeLine_7cf7bead20001264": {
+      "tr": "Birbirinize bağlanın, kemer, ayakkabı bağı, ne olursa"
+    },
+    "RD_ALifeLine_380f932257c9828a": {
+      "tr": "Kimse bana söylemeden gitmiyor, kimse"
+    },
+    "RD_ALifeLine_67f2055436ea704a": {
+      "tr": "Hadi, hadi, vakit kaybediyoruz"
+    },
+    "RD_ALifeLine_60a273813492918f": {
+      "tr": "Biriyle yürü, birini bul, onunla yürü!"
+    },
+    "RD_ALifeLine_3c9cb2e77f3f1024": {
+      "tr": "Burayı bilen var mı? Nerede olduğumuzu bilen var mı?"
+    },
+    "RD_ALifeLine_1c810a09665d1026": {
+      "tr": "Dönün, hepinizin yüzüne bir bakayım"
+    },
+    "RD_ALifeLine_3d7be0807788359f": {
+      "tr": "Gerekirse dinlenin, yeter ki sesimin duyulacağı yerde olun"
+    },
+    "RD_ALifeLine_5760ad9a619a2503": {
+      "tr": "Kimse kaçmayacak, kimse, yoksa herkesin boynuna çan asarım"
+    },
+    "RD_ALifeLine_6ecb89db7d7bfd2d": {
+      "tr": "Henderson'lar önde, biz ortadayız, Pruitt'ler arkayı tutsun!"
+    },
+    "RD_ALifeLine_7cf330594e108e8f": {
+      "tr": "Çimenden yürüyün, çakıl ses yapıyor!"
+    },
+    "RD_ALifeLine_7aab90ed0bbbb8a8": {
+      "tr": "Kimse oturmasın, kimse, oturanı taşıyamam"
+    },
+    "RD_ALifeLine_6017700a5f5afd91": {
+      "tr": "Ben başaramazsam, Amos, onlara sen önderlik et, anladın mı?"
+    },
+    "RD_ALifeLine_4569960933812701": {
+      "tr": "Sızlanmayı kes, kes şunu, seni duyabiliyorlar!"
+    },
+    "RD_ALifeLine_33cd10fc3f452b8d": {
+      "tr": "Peki, git, istiyorsan git, ama kendi başınasın"
+    },
+    "RD_ALifeLine_0523fdba3ef8c790": {
+      "tr": "Baştan beraber gidelim demiştim"
+    },
+    "RD_ALifeLine_7daf195605dfc61f": {
+      "tr": "Burada bekleyin, herkes burada beklesin, ben gidip yola bakacağım"
+    },
+    "RD_ALifeLine_3f91dd5170e8d224": {
+      "tr": "Herkes ortaya, dış tarafta ben yürüyeceğim"
+    },
+    "RD_ALifeLine_389d0a8616e5fc32": {
+      "tr": "Babanıza yapışın, daha yakın..."
+    },
+    "RD_ALifeLine_73f3463473e66a22": {
+      "tr": "Sakın annenin elini bırakma, duydun mu?"
+    },
+    "RD_ALifeLine_78bbb2b56f24088e": {
+      "tr": "Kimse geride kalmıyor, kimse, hiçbir sebeple"
+    },
+    "RD_ALifeLine_6a728f035e6a33a7": {
+      "tr": "Danny, kardeşinin elini tut, TUT!"
+    },
+    "RD_ALifeLine_79b50cf36c8d8818": {
+      "tr": "Becky, Jenny, Sam, Katie... Katie? KATIE?!"
+    },
+    "RD_ALifeLine_185de0e4020415ef": {
+      "tr": "Kızlarım nerede?"
+    },
+    "RD_ALifeLine_3b9351d71863136f": {
+      "tr": "Önden ben giderim, sen takip et, bir adım arkamdan, fazla değil"
+    },
+    "RD_ALifeLine_2f8a1de77abe0385": {
+      "tr": "Birbirinize tutunun.. bırakmayın!"
+    },
+    "RD_ALifeLine_1f82bb43004ad8c3": {
+      "tr": "Dedenin yanında kal, dedenin hemen yanında kal!"
+    },
+    "RD_ALifeLine_37dbc14577ae115b": {
+      "tr": "Bebek arabasını tut, sabit tut, sabit!"
+    },
+    "RD_ALifeLine_5150625f49a9c20c": {
+      "tr": "Her birinizi görebileceğim yerde istiyorum, her birinizi"
+    },
+    "RD_ALifeLine_44ec9e3524958bbc": {
+      "tr": "Emily Ann nerede? Bebeğim nerede?"
+    },
+    "RD_ALifeLine_4f0447e321e625a8": {
+      "tr": "Yürü, bakma, sadece yürü"
+    },
+    "RD_ALifeLine_53a2762b4f6e03ac": {
+      "tr": "Bekle! Kaçıp gitme, BEKLE!"
+    },
+    "RD_ALifeLine_7b180e1046d8d25a": {
+      "tr": "Ben yavaş giderim, önden gidin, ben yetişirim"
+    },
+    "RD_ALifeLine_353f1955772b9047": {
+      "tr": "Şşş şimdi.. birbirimizden ayrılmayacağız"
+    },
+    "RD_ALifeLine_64525d687573eb03": {
+      "tr": "Kuzenlerinizin yanında kalın, herkes"
+    },
+    "RD_ALifeLine_04b7e1d145dfa6ea": {
+      "tr": "Bebekleri ortada tutun, bebekler ortada"
+    },
+    "RD_ALifeLine_66b198846d8d1c48": {
+      "tr": "Paltoma tutun, küçüğüm, sıkı tutun!"
+    },
+    "RD_ALifeLine_593a62412f03063c": {
+      "tr": "Hemen arkanızdayım, beni beklemeyin!"
+    },
+    "RD_ALifeLine_285403bd6d9707ca": {
+      "tr": "Nine bende, tuttum, gidin, GİDİN!"
+    },
+    "RD_ALifeLine_6abaa14e69783f34": {
+      "tr": "Lan, bizi ekme, LAN!"
+    },
+    "RD_ALifeLine_76ce20574f369ffa": {
+      "tr": "Bekleyin! Millet!"
+    },
+    "RD_ALifeLine_595a273a6415273e": {
+      "tr": "Arkayı ben kollarım, ben kollarım"
+    },
+    "RD_ALifeLine_41612f811658f255": {
+      "tr": "Annem nerede? Tam buradaydı, nereye gitti?"
+    },
+    "RD_ALifeLine_73d2e60b373926f3": {
+      "tr": "Tamam, herkes burada mı? Herkes? Kimse yok mu?"
+    },
+    "RD_ALifeLine_4ebc2a6231f4def4": {
+      "tr": "Şey, millet, bir arada falan kalalım, değil mi? Doğru mu bu?"
+    },
+    "RD_ALifeLine_1efdaf0362b66f39": {
+      "tr": "Beni takip edin, galiba nereye olduğunu biliyorum, nereye olduğunu bildiğimden epey eminim"
+    },
+    "RD_ALifeLine_5bf6e748444f69f6": {
+      "tr": "Gruplar daha güvenli, bir yerde okumuştum"
+    },
+    "RD_ALifeLine_0aab944244b660fb": {
+      "tr": "Hey, hey, kimse ayrılmasın, grupta kalın!"
+    },
+    "RD_ALifeLine_735ca73232aa597a": {
+      "tr": "Ne olur, millet, ne olur benimle kalın!"
+    },
+    "RD_ALifeLine_66bfa5522ac825da": {
+      "tr": "Hiçbirinizi tanımıyorum, ama ne olur, kimse gitmesin!"
+    },
+    "RD_ALifeLine_36ca194b6bf06d59": {
+      "tr": "Sayın, ben başlıyorum, bir, iki kim?"
+    },
+    "RD_ALifeLine_12c74cfa5f38b07d": {
+      "tr": "Birbirinize tutunun, ne olur, ne olur tutunun!"
+    },
+    "RD_ALifeLine_5be30dbc339e179b": {
+      "tr": "Fazla kalabalık, fazla gürültü, sesinizi kısın"
+    },
+    "RD_ALifeLine_7c4643a86514ac66": {
+      "tr": "Önderlik etmiyorum ama önden yürürüm"
+    },
+    "RD_ALifeLine_1b5b59077041576e": {
+      "tr": "Kalabalık tek kişiden daha gürültülü olur, biraz açılın, yok, sıkı durun"
+    },
+    "RD_ALifeLine_2689ceb5042fc795": {
+      "tr": "Bir arada kalın ya da kalmayın, ben bu taraftan gidiyorum"
+    },
+    "RD_ALifeLine_3e7e3c9c173363f9": {
+      "tr": "Ekip, yanıma! Baretler!"
+    },
+    "RD_ALifeLine_62daec8b7caa3af1": {
+      "tr": "Vardiyaya göre sayın, birinci vardiya, ikinci, başla"
+    },
+    "RD_ALifeLine_0d4ac90962118839": {
+      "tr": "Ronnie, Eddie'den ayrılma, Eddie, Ronnie'den ayrılma, kimse yalnız değil"
+    },
+    "RD_ALifeLine_36ba67a15cb24ae8": {
+      "tr": "Herkes adını söylesin, söyleyin, sayım lazım!"
+    },
+    "RD_ALifeLine_23fd7d916120c98e": {
+      "tr": "Öne fırlama, kahretsin.. görebileceğim yerde dur!"
+    },
+    "RD_ALifeLine_6acea1357371a3ca": {
+      "tr": "Ayak sürümeyi bırakın, zamanımız sınırlı"
+    },
+    "RD_ALifeLine_0d777c5d61704f1b": {
+      "tr": "Eş sistemi, eşinizi bulun, ona tutunun"
+    },
+    "RD_ALifeLine_306a7a5a52d40d26": {
+      "tr": "Sayın, numaranızı söyleyin, yüksek sesle"
+    },
+    "RD_ALifeLine_47e1e33631827dc2": {
+      "tr": "Kimse hattan çıkmasın, hatta kalın"
+    },
+    "RD_ALifeLine_440ce2ee44ecda77": {
+      "tr": "Herkes tamam mı? Beni duyuyorsanız evet deyin"
+    },
+    "RD_ALifeLine_2b2735c10bf9f4a2": {
+      "tr": "Kim eksik? KİM EKSİK?"
+    },
+    "RD_ALifeLine_09f6d0b20ee41fa6": {
+      "tr": "Yürüyemeyenlerin yanında yürüyün, her birinin!"
+    },
+    "RD_ALifeLine_57e2fac81a74fc1e": {
+      "tr": "Yaşlılar ve hastalar ortaya, sağlamlar dışa"
+    },
+    "RD_ALifeLine_242a13280f22a5f8": {
+      "tr": "Yaralı var mı? Şimdi söyleyin, şimdi, yola çıkmadan!"
+    },
+    "RD_ALifeLine_2eb6ea640d5b7702": {
+      "tr": "Yavaş, yavaş, bu hıza dayanacak gücü yok"
+    },
+    "RD_ALifeLine_49ef7a4a35fa54e5": {
+      "tr": "El ele tutuşun, herkes, el ele!"
+    },
+    "RD_ALifeLine_288b52cb65dd3d82": {
+      "tr": "Toplanın, cemaatim, yakın toplanın"
+    },
+    "RD_ALifeLine_0f001c784fd4f4df": {
+      "tr": "Wayne Kardeş nerede? Wayne Kardeş'i gören var mı?"
+    },
+    "RD_ALifeLine_27696d47670d180d": {
+      "tr": "Kimse yalnız gitmesin, kimse, tek kişi bile..."
+    },
+    "RD_ALifeLine_475117ba6c66a343": {
+      "tr": "Kardeşlerim, kimse yalnız yürümeyecek, ilk eli ben tutarım"
+    },
+    "RD_ALifeLine_634686f25387021f": {
+      "tr": "Bud Amca, Tammy Kuzen'in öbür elini tut, çabuk!"
+    },
+    "RD_ALifeLine_75818a7d55e76acf": {
+      "tr": "Köpek nerede? Biri köpeği alsın!"
+    },
+    "RD_ALifeLine_0507deb763c82768": {
+      "tr": "Dedemin sandalyesini bırak, bırak, sandalye taşımıyoruz!"
+    },
+    "RD_ALifeLine_0165063917c40b90": {
+      "tr": "Eşya toplamak için durmayın, fotoğraf albümlerini kapın, gidin!"
+    },
+    "RD_ALifeLine_2a35ad251be52d77": {
+      "tr": "Annemin ilaçlarını al, ilaçları al, bize lazım olan bu kadar"
+    },
+    "RD_ALifeLine_0c92fa550b5bd5ef": {
+      "tr": "Fener kimsede var mı? Fener kimde?"
+    },
+    "RD_ALifeLine_0a0168402b9b2f8d": {
+      "tr": "Bebek çantası nerede? Bebek çantası kimde?"
+    },
+    "RD_ALifeLine_33d2a23362abd125": {
+      "tr": "Verandada hâlâ kim var? Verandada hâlâ biri var!"
+    },
+    "RD_ALifeLine_20bb483d027ffb36": {
+      "tr": "On dokuz saydım, bu sabah yirmi bir saymıştım, kim yok?"
+    },
+    "RD_ALifeLine_7b17b1f8462ec6af": {
+      "tr": "Çit boyunca gidin, yok, ondan uzak durun, çitten uzak!"
+    }
+  }
+}

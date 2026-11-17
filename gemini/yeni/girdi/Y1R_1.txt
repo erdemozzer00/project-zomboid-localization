@@ -1,0 +1,567 @@
+# PAKET Y1R · parça 1/8 · satır 1-334 (334 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+# SAHNE: Oyunda NPC'lerin ağzından çıkan kısa sözler. Çoğu birbirine ya da oyuncuya, o anda, tek cümleyle söylenir. Tek kişiye 'sen' de; gruba seslenen, açıkça çoğul satırlarda çoğul kullan. Ekranda baloncukta görünür, kısa ve konuşulur tut.
+
+##### SOZ_KONUSMA #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'ye listeden bir soru sordu; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'.
+# NPC'nin oyuncuya verdiği cevaplar: tehlike anında yanında durmasına izin verme, peşinden gelme, geçiş izni, insanların neyi hatırladığı. Oyuncuya 'sen'.
+1 | - | Nothing spare right now, if a trader knocks hear them out and check the offer before you agree
+
+# SAHNE: Oyuncunun bir evi (sığınağı) var. Yabancılar kapısını çalar; oyuncu kapıdan konuşur, isterse içeri alır, misafir bir gece kalır, yiyecek/su/yatak alabilir, sohbet eder, sonra gider ya da tekrar gelir. Satırların hepsi ZİYARETÇİNİN oyuncuya söylediği sözler; oyuncuya 'sen' de. Her başlıkta konuşanın kim olduğu yazıyor: sesini yaşına, geçmişine ve karakterine göre kur (yaşlı köylü, genç anne, eski asker…); aynı kişinin bütün satırları aynı ağızdan çıksın. 'güven=lo/mid/hi' ziyaretçinin oyuncuya güveni (düşük: çekingen, kısa; yüksek: açık, sıcak); 'any' her durumda. '..' kısa duraklama ya da yarım kalan düşünce: Türkçede '...' ya da cümleyi bölerek ver. Kasaba ve kişi adları İngilizce kalır. Birimleri çevir (mil → km, Fahrenheit → Celsius). 'oyuncunun sorusu' satırı oyuncunun kapıda sorduğu soru, numaralı satırlar ziyaretçinin cevabı.
+
+##### VISIT_TELL_WHERE_SLEEP #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2 | reg=civilian,family,worker,rescue|fact=visit_looks_past_you | That's a nice place, which room do you sleep in, upstairs or down here
+
+##### DOOR_LEAVE_REPLY #####
+# NEREDE: Oyuncunun sığınağının kapısında. Kapıyı çalan yabancı, kapının arkasındaki oyuncuya konuşuyor; bu, oyuncunun kapıdan söylediğine ya da yaptığına yabancının cevabı. Tek kişiye 'sen'; içeridekilerin hepsine seslenen satırlarda ('folks', 'everyone', 'all of you') çoğul.
+# Oyuncu kapıyı açmadı, yabancıya gitmesini söyledi; yabancının buna cevabı (anlayış, kırgınlık ya da öfke).
+3 | reg=civilian,family,worker,rescue|fact=refused | Yeah... yeah, I get it, can't blame you
+4 | reg=civilian,family,worker,rescue|fact=refused | No hard feelings, really, I'd be scared of me too
+
+##### DOOR_WHO_REPLY #####
+# NEREDE: Oyuncunun sığınağının kapısında. Kapıyı çalan yabancı, kapının arkasındaki oyuncuya konuşuyor; bu, oyuncunun kapıdan söylediğine ya da yaptığına yabancının cevabı. Tek kişiye 'sen'; içeridekilerin hepsine seslenen satırlarda ('folks', 'everyone', 'all of you') çoğul.
+# Oyuncu kapının arkasından 'Kim o?' diye sordu; kapıdaki yabancı kendini tanıtıyor, neden geldiğini söylüyor.
+5 | reg=civilian,family,worker,rescue|fact=trader | I've got batteries, needles, thread, aspirin, a few cans, tell me what you're short on
+6 | reg=law,swat|fact=law_census | Census, folks, it's quick, I need to know who lives here and if anyone's sick
+7 | reg=law,swat|fact=law_census | Sheriff's department, we're doing a quick headcount, I need to know how many live here
+8 | reg=law,swat|fact=law_census | We're checking on everyone, folks, tell me if anybody's sick or missing
+9 | reg=law,swat|fact=law_census | Just a census, nothing to worry about, I need to know how many are inside
+10 | reg=law,swat|fact=law_census | We're also asking about bites, tell me if anyone in there is bitten
+11 | reg=military,elite|fact=law_census | Army, counting residents, I need the number of people inside
+
+# SAHNE: Oyunda NPC'nin söylediği, içinde oyunun doldurduğu bir değer olan satırlar. Olay adı ve rol etiketi kim, hangi durumda konuştuğunu gösterir. YER TUTUCULAR oyunda TÜRKÇE değerle dolar (konuşma eki çevirir): {town} kasaba adı, İngilizce kalır (Rosewood, West Point) · {den} isim öbeği: 'Rosewood kuzey yakasındaki bir ev', 'Muldraugh merkezindeki motel' ya da 'bir daha dönmeyeceğim bir yer' · {destination} kasaba adı ya da 'daha sakin bir yer' · {name} kişi adı (Earl, Darlene) · {street} sokak adı, İngilizce (Main Street) · {weapon} silahın adı küçük harfle ya da 'o silah' · {time} 'sabah 9', 'öğleden sonra 3', 'akşam 8', 'gece yarısı', 'öğle vakti' · {date} '4 Temmuz' · {weekday} 'Pazartesi' · {day} sayı (salgının kaçıncı günü) · {faction}/{group} grup adı ya da 'bir tayfa' · {where} 'buraya yakın bir yer' · {kind} 'yer' · {count} 'birkaç' · {from}/{to} 'yolun ilerisi' · {unit}/{callsign} telsiz çağrı kodu (4-Adam-22). KURAL: yer tutucunun adını aynen yaz, sayısını ve adını değiştirme. Yer tutucuya DOĞRUDAN ek getirme ({town}'da, {name}'e YOK): eki gerektirmeyen kur: '{town} tarafında', '{town} civarında', '{den} tarafında', '{time} gibi', '{day}. gün', '{name}, ...' (hitap), '{weekday} günü', '{date} tarihinde'. Değer cümle başında da gelebilir. İki yer tutucuyu yan yana koyma, araya en az bir sözcük gir.
+
+##### ALLY_DOWN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yanındaki arkadaşı vuruldu/yere düştü; şok ya da öfke.
+12 | reg=civilian,family,worker,rescue | {name} is down! Somebody help!
+13 | reg=civilian,family,worker,rescue | Oh God, {name}, get up!
+14 | reg=civilian,family,worker,rescue | {name}, stay with me, stay with me!
+15 | reg=law,swat | {name} is down! Cover {name}!
+16 | reg=law,swat | Officer down, it's {name}!
+17 | reg=law,swat | {name} is hit, get a medic!
+18 | reg=military,elite | {name} is down! Man down!
+19 | reg=military,elite | Man down, it's {name}, cover!
+20 | reg=military,elite | {name} hit, need a medic!
+21 | reg=outlaw,raider,gang,club,crime,prison | {name} is down, kill them all!
+22 | reg=outlaw,raider,gang,club,crime,prison | Fuck, {name} is hit, {name}!
+23 | reg=outlaw,raider,gang,club,crime,prison | They got {name}, make 'em pay!
+
+##### ALLY_HIT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yanındaki arkadaşı yaralandı; ekibe seslenir.
+24 | reg=civilian,family,worker,rescue | {name}, you're hit, hold on!
+25 | reg=civilian,family,worker,rescue | {name}, stay down, I've got you!
+26 | reg=civilian,family,worker,rescue | They hit {name}, help!
+27 | reg=law,swat | {name} is hit, cover!
+28 | reg=law,swat | {name}, you hit? Talk to me!
+29 | reg=law,swat | {name} took one, cover!
+30 | reg=military,elite | {name} hit, medic!
+31 | reg=military,elite | {name} is wounded, cover!
+32 | reg=military,elite | {name}, status, are you hit?
+33 | reg=outlaw,raider,gang,club,crime,prison | {name} is hit, hit them back!
+34 | reg=outlaw,raider,gang,club,crime,prison | Shit, {name} got hit!
+35 | reg=outlaw,raider,gang,club,crime,prison | {name}, you still standing?
+
+##### LEADER_DOWN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Grubun lideri düştü; şok.
+36 | reg=civilian,family,worker,rescue | {name} is down! Who leads now?
+37 | reg=civilian,family,worker,rescue | Oh God, {name} is down, what do we do?
+38 | reg=law,swat | {name} is down! I have command!
+39 | reg=law,swat | Lead's down, it's {name}, I'm taking over
+40 | reg=military,elite | {name} is down! Assuming command!
+41 | reg=military,elite | Leader down, it's {name}, I have the squad
+42 | reg=outlaw,raider,gang,club,crime,prison | {name} is down! Who's running this now?
+43 | reg=outlaw,raider,gang,club,crime,prison | Fuck, {name} is dead, I'm in charge!
+
+##### MATE_HIT_BY_PLAYER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu arkadaşına vurdu; oyuncuya öfke, 'sen'.
+44 | tmp=fresh | {name}! Oh God, {name}, get up! GET UP!
+45 | reg=civilian,family,worker | {name}'s hit! Somebody just hit {name}!
+46 | reg=civilian,family,worker | That's {name}! {name}, you alright? {name}!
+47 | reg=civilian,family,worker | You hit {name} and never said one word to them
+48 | reg=civilian,family|tmp=fresh | They shot {name}! Oh God, {name}!
+49 | reg=civilian,family|tmp=fresh | Leave {name} be! Please, they're not sick!
+50 | reg=civilian,family|tmp=fresh | Somebody help, they're hurting {name}!
+51 | reg=civilian,family|tmp=fresh | Why {name}? They were the ones who wanted to help you!
+52 | reg=worker,civilian|tmp=seasoned | Man down! That one hit {name}!
+53 | role=militia | You shot {name}! Everybody, open up!
+54 | reg=worker | That's {name}, one of ours! What's your problem?
+55 | reg=law|tmp=seasoned | They hit {name}! {name}'s down, cover {name}!
+56 | reg=swat | {name}'s hit! Cover {name}!
+57 | reg=military|tmp=seasoned | Man down! {name} is hit!
+58 | role=soldier_green | They shot {name}! What do I do? What do I do?!
+59 | role=mercenary | They hit {name}, kill the shooter
+60 | reg=raider|tmp=predator | They got {name}! Kill 'em!
+61 | reg=raider,gang,club,prison | Oh hell no, not {name}! You're dead!
+62 | role=prisoner | They hit {name}! Nobody hits {name} but me!
+63 | role=gang_member | They hit {name}! Light 'em up!
+64 | role=biker | They hit {name}! Brothers, get 'em!
+65 | role=outlaw | Shit, {name}'s hit! Cover {name}!
+66 | reg=crime | They hit {name}, bad for business, handle it
+67 | reg=civilian,family | You hit {name}! They never hurt anybody!
+68 | reg=outlaw,worker,civilian | {name}'s hit! Somebody get {name}!
+69 | reg=raider,club,outlaw | They got {name}! Boys!
+70 | reg=gang,prison,raider | They dropped {name}! {name}'s on the ground!
+71 | reg=civilian,family,worker,rescue|st=friendly,neutral,careful,hostile | He shot {name}! He shot one of us! Somebody do something!
+72 | reg=civilian,family,worker,rescue|st=friendly,neutral,careful,hostile | He stabbed {name}! Somebody help!
+73 | reg=civilian,family,worker,rescue|st=friendly,neutral,careful,hostile | He hit {name} with a bat! Stop him!
+74 | reg=civilian,family,worker,rescue|st=friendly,neutral,careful,hostile | He punched {name}! Somebody stop him!
+75 | reg=civilian,family,worker,rescue|st=friendly,neutral,careful,hostile | He ran over {name}! Call for help!
+76 | reg=civilian,family,worker,rescue|st=friendly,neutral,careful,hostile | He swung at {name}! Stop him!
+77 | reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral,careful,hostile | He shot {name}! Kill that bastard!
+78 | reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral,careful,hostile | He knifed {name}! Gut him!
+79 | reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral,careful,hostile | He bashed {name}! Beat him back!
+80 | reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral,careful,hostile | He slugged {name}! Break his hands!
+81 | reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral,careful,hostile | He swung on {name}, that's a mistake
+82 | reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral,careful,hostile|world=vehicle | He ran over {name} with the car! Kill the driver!
+83 | reg=outlaw,raider,gang,club,crime,prison|rep=worst | He hit {name}! Get him!
+
+# SAHNE: Olay adı OYUNCUNUN konuşma menüsünden NPC'ye sorduğu soru; satır NPC'nin o soruya cevabı. Bütün rollerden NPC'ler (sivil, aile, kolluk, asker, haydut, çete…); kim konuştuğu role etiketinde, oyuncuya tutumu st etiketinde. NPC DOĞRUDAN OYUNCUYA konuşuyor: tekil 'sen'. Sesi role ve tutuma göre kur (sivil ürkek ya da sıcak, asker/polis kısa ve mesafeli, haydut kaba). Soru konusu başlık satırında (##### ASK_X #####) yazar; cevap o soruya uymalı ama kaynakta olmayan ayrıntı ekleme.
+
+##### ASK_DATE #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Oyuncunun sorusu, örnekler: "what day is it" / "whats the date" / "what is the date"
+84 | reg=civilian,family,worker,rescue|st=careful | Does it matter
+
+##### ASK_DRINK #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Oyuncunun sorusu, örnekler: "got any booze" / "want a beer" / "got any whiskey"
+85 | reg=crime|st=neutral,friendly | Vodka I have, real vodka, not your rotgut, it costs like real vodka, still want it?
+
+##### ASK_LOCKED_DOOR #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Oyuncunun sorusu, örnekler: "can you open this" / "do you have the key" / "got the key"
+86 | role=worker | Picks, shims, drill, hammer, there's a dozen ways in, depends what you've got on you
+
+##### ASK_MEDS #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Oyuncunun sorusu, örnekler: "do you have medicine" / "got any bandages" / "do you have antibiotics"
+87 | reg=civilian,family,worker,rescue|st=careful | No, none to spare
+88 | st=friendly,neutral | Meds? I wish... I'm down to half a bottle of aspirin
+89 | st=friendly,neutral | Nothing, sorry, I've been hunting for some myself
+90 | st=friendly,neutral | No, nothing, if you find a pharmacy that isn't stripped, tell me
+91 | reg=rescue|role=rescue_firefighter|st=friendly | Squad bag's got a trauma dressing and a splint, show me where you're hurt
+
+##### ASK_ORIGIN_TODAY #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Oyuncunun sorusu, örnekler: "where did you come from" / "where have you been" / "where did you come in from"
+92 | reg=civilian,family,worker,rescue|st=careful | Why do you care
+93 | reg=gang|st=neutral,careful | Been moving around, checking on our people, that's all
+
+##### ASK_REAL #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Oyuncunun sorusu, örnekler: "are you real" / "am i dreaming" / "is this really happening"
+94 | reg=civilian,family,worker,rescue|st=careful | I'm real, and I'm in no mood, stay back
+
+##### ASK_TOOLS #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Oyuncunun sorusu, örnekler: "got any tools" / "need a hammer" / "where can i find a crowbar"
+95 | reg=civilian,family,worker,rescue|st=friendly,neutral | Tools? I've got a hammer, a screwdriver, and some duct tape, say what you need
+96 | reg=club|st=neutral,careful | Tools cost money, {g:brother|sister}, show me what you have
+
+##### ASK_WATER #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Oyuncunun sorusu, örnekler: "do you have water" / "is the water safe" / "where can i get water"
+97 | st=friendly,neutral | Toilet tanks, the back part, it's clean, I swear
+98 | st=friendly,neutral | Water heaters hold a lot, if you can get the valve open
+99 | st=friendly,neutral | Got none to spare, but boil anything you find, twice
+
+# SAHNE: Bu satırlarda {g:erkek|kadın}, {he}, {him}, {his}, {sir}, {mister} gibi cinsiyet yer tutucuları var; oyun bunları konuşulan kişinin cinsiyetine göre doldurur. Olay adı ve rol/koşul etiketi başlıkta yazar: sivil, aile, kolluk, asker, haydut, çete… Sesi role ve tutuma göre kur. Yer tutucular Türkçede cinsiyete göre değişmeyen kelimeye bağlanmalı: {g:a|b} içindeki iki seçeneği de Türkçe yaz (ör. {g:bey|hanım}, {g:oğlum|kızım}); {he}/{him}/{his} gibi İngilizce zamir yer tutucularına bağlı kalma, cümleyi o zamirle çevirme: 'o' kullan ya da cümleyi zamirsiz kur ve yer tutucuyu yalnızca gerçekten kaynak bilgiyi taşıyorsa koru. Hitap {sir}/{mister} ise Türkçe karşılığı {g:bey|hanım} gibi kur. Her satırda süslü parantez kullanımı kaynaktakiyle aynı sayıda ve biçimde kalsın.
+
+##### AGREE #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu EVET düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+100 | reg=outlaw,raider,gang,club,crime,prison|st=friendly,neutral | Damn right, {g:brother|sister}, damn right
+
+##### AGREE #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu HAYIR düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+101 | reg=outlaw,raider,gang,club,crime,prison | Whatever, {g:man|lady}, live in your own world
+
+##### ASK_BITTEN #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+102 | reg=law,swat|st=friendly,neutral | We can check each other, {sir}, carefully, if we both agree, alright?
+
+##### NPC_OPEN #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı; bu, pencere açılınca NPC'nin oyuncuya yüz yüze ilk sözü, 'sen'. Oyuncu okuyup bir konu seçecek.
+103 | reg=club|st=neutral,careful | Yeah, {g:brother|sister}? Say what's on your mind
+
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+
+##### NPC_OPEN #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı; bu, pencere açılınca NPC'nin oyuncuya yüz yüze ilk sözü, 'sen'. Oyuncu okuyup bir konu seçecek.
+# Konuşma penceresi açıldı; NPC'nin oyuncuya ilk sözü, çoğu zaman 'iyi misin', 'ne istiyorsun' gibi bir soru.
+104 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | Hi, hi there, you alright? you're not bitten, are you?
+105 | reg=civilian,family,worker,rescue|st=careful | Whatever it is, make it quick
+106 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|hour=22,4 | Shh... hi, are you okay? you shouldn't be up at this hour
+107 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Hey, you look rough, sit, tell me what you need
+108 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | You're making me nervous, what do you want
+109 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Let's make this quick, alright
+110 | role=militia|st=neutral,careful | Yes, neighbor? Tell me what's troubling you
+
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+
+##### GREET_PLAYER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncuyu selamlıyor/karşılıyor; doğrudan oyuncuya, 'sen'.
+111 | reg=civilian,family|tmp=fresh|sex=f | Just... say hi back, that's all I wanted, somebody else talking
+112 | reg=worker,civilian|tmp=seasoned|sex=m | I ain't shaking hands, nobody does anymore, no offense
+113 | reg=civilian|st=friendly,neutral | I don't shake hands anymore, but... hello
+114 | reg=worker|st=friendly,neutral | I was a mechanic, don't ask me to fix anything that runs on hope
+115 | reg=civilian|tmp=seasoned|st=friendly,neutral|mood=sad | Haven't heard my own name out loud in a week... weird, huh
+116 | reg=civilian,family,worker,rescue|st=friendly,neutral | Yeah? Can I help you?
+117 | reg=civilian,family,worker,rescue|st=friendly,neutral | Hm? Oh... hi
+118 | reg=civilian,family,worker,rescue|st=friendly,neutral | Hi... you doing okay?
+119 | reg=civilian,family,worker,rescue|st=friendly,neutral | Easy, easy, I'm friendly
+120 | reg=civilian,family,worker,rescue|st=friendly,neutral | Whoa, hey! A real person
+121 | reg=civilian,family,worker,rescue|st=friendly,neutral | Sorry, did you say something?
+122 | reg=civilian,family,worker,rescue|st=friendly,neutral | Sorry, do I know you?
+123 | reg=civilian,family,worker,rescue|st=friendly,neutral | Sorry, sorry, didn't see you there
+124 | reg=civilian,family,worker,rescue|st=friendly,neutral | Ah! Jesus, you snuck up on me
+125 | reg=civilian,family,worker,rescue|st=friendly,neutral | Oh! Hey... hi
+126 | reg=civilian,family,worker,rescue|st=friendly,neutral | Hm? Yeah, hi, sorry, miles away
+127 | reg=civilian,family,worker,rescue|st=friendly,neutral | Monsters... that's what I call them now, I gave up on a better word
+
+##### GENERIC #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu EVET düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+# Genel bir soruya verilen cevap.
+128 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Good, I appreciate that
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+
+##### GENERIC #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu EVET düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+# Genel bir soruya verilen cevap.
+129 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Say no more, good
+130 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Alright, then let's get moving
+
+##### GENERIC #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu HAYIR düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+# Genel bir soruya verilen cevap.
+131 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Got it, nothing more to say
+132 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Then we agree to disagree
+133 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Eh, it was a long shot anyway
+134 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Fair, I respect that
+135 | - | Okay, don't say I didn't offer
+136 | - | Alright, I won't bring it up again
+137 | - | Got it, I'll drop it
+
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+
+##### HIT_BY_PLAYER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu ona vurdu/ateş etti (ilk kez); oyuncuya tepki, 'sen'.
+138 | - | Is this what you are now? Huh?!
+
+##### HIT_BY_PLAYER_AGAIN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu ona yine vurdu; daha sert tepki, 'sen'.
+139 | reg=civilian|tmp=fresh|sex=f | I got a name, I'm a PERSON, does that do anything for you at all?!
+140 | - | You just don't quit, do you?!
+
+##### OUT_OF_AMMO #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Mermisi bitti; ekibe.
+141 | - | No more rounds! None!
+142 | - | Click... click... oh no
+143 | - | Gun's useless now, I need something else!
+144 | - | Nothing left to feed it!
+145 | - | Out of bullets... now what?!
+146 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | I'm OUT, somebody give me a mag!
+147 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | Click, click, empty, I need ammo!
+148 | role=rescue_clergy | Empty, out of bullets, cover me
+149 | role=rescue_clergy | Nothing left in it, I need ammo now
+
+##### PASSING_PLAYER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yoldan geçerken oyuncuya laf atıyor, 'sen'.
+150 | reg=family|tmp=fresh|st=friendly,neutral | Don't mind us, just checking houses
+
+##### RELOAD #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Şarjör değiştiriyor/silahı dolduruyor; ekibe 'koruyun'.
+151 | - | Reloading, give me a second!
+152 | - | Come on, hands... come ON, reload
+153 | - | Swapping mags, keep watching!
+154 | - | Busy, busy, gun's empty!
+155 | - | Reloading, back off a step, give me room!
+156 | - | Mag's dry! One second!
+157 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | Reloading, come on, load, load
+158 | role=family_elder | Need to reload, give me a second, cover me
+159 | role=rescue_clergy | Reloading, hold on, steady, steady
+160 | role=rescue_clergy | Hold on, reloading, keep them off me
+
+##### ZOMBIE_CLOSE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Zombi çok yakında; ekibe ya da kendine uyarı.
+161 | - | It's right there, move, MOVE
+162 | - | No no no, not any closer!
+
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+
+##### PANIC #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Panik anı.
+163 | - | Please, please, please just let this end!
+164 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Help! Somebody help, HELP!
+165 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Answer me! Somebody answer me! ANYBODY!
+166 | role=family_man|day=0,2|mood=fear | Run, don't wait for me, RUN!
+167 | role=family_man|day=0,4|mood=fear | Hold on to my shoulder, don't let go!
+168 | role=family_woman|day=0,4|mood=fear | Oh God, where'd she go?!
+
+##### PANIC_DAY_GROUP #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Salgının ilk günlerinde panik (zombi görme, silah sesi, saklanma, grup halinde).
+169 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | WHERE ARE YOU?! Where'd you go?!
+170 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Over here! Over HERE, right now!
+171 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Wait, WAIT, don't leave us!
+172 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | No, NO, get back in the group!
+173 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Grab him! Grab him, he's falling behind!
+174 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Wait! Wait for the others!
+175 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Hold her hand, don't you dare let go!
+176 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Slow down! SLOW DOWN, she can't keep up, somebody get her!
+177 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | You, you're up front, take the lead
+178 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | You're last, so you watch the back...
+179 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | You got the slow ones, keep 'em in front of you!
+180 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Where's the water, who's got the water?!
+181 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | He's gone, did anybody see him go?!
+182 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | You stay with her, you hear, right with her
+183 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Honey, take my hand, I got you
+184 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | No, we're NOT leaving him, put his arm over your shoulder!
+185 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | So help me- GET OVER HERE!
+186 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Wait for him, he's slow, WAIT for him!
+187 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Where's your brother? Where IS he?!
+188 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Hey?! HEY! Say something, make a noise, any noise
+189 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I can't carry both, you take him, I got her!
+190 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Somebody count us, count everyone, I can't do numbers right now!
+191 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Take those two, keep 'em in the middle
+192 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=grim | If I don't make it, you lead them, understand?!
+193 | role=family_man|day=0,2|mood=fear | One, two, three... four? Where's FOUR?!
+194 | role=family_woman|day=0,2|mood=fear | Where is she? Where IS she?!
+195 | role=worker|day=0,4 | You two, stay on each other, nobody alone
+196 | role=rescue_clergy|day=0,4|mood=fear | Where's the preacher? Has anyone seen the preacher?
+197 | reg=family|tmp=fresh|day=0,4|mood=fear | Take her other hand, hurry, HURRY!
+
+##### PANIC_DAY_HIDE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Salgının ilk günlerinde panik (zombi görme, silah sesi, saklanma, grup halinde).
+198 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Run, RUN, don't wait for me!
+199 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=building | Upstairs, get upstairs and shut the door behind you
+200 | role=family_man|day=0,2|mood=fear|world=building | Get down, get inside, GO!
+201 | role=family_woman|day=0,4|mood=fear | The shotgun, no, no, forget it, get inside!
+
+##### PANIC_DAY_ZOMBIE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Salgının ilk günlerinde panik (zombi görme, silah sesi, saklanma, grup halinde).
+202 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Hey? HEY! Say something, say anything- please!!
+203 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Get away from the- HEY! Not one more step!
+204 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4 | Wait, is that- why's he not wearing shoes? Why's he walking like that?
+205 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4 | Get back here, don't go up to it, DON'T
+206 | role=family_man|day=0,2|mood=fear | Out the back, out the back, NOW!
+207 | role=family_man|day=0,2|mood=fear | Stay put! Stay in there, don't open up for anyone!
+208 | role=family_woman|day=0,4 | Somebody tell me what to do, somebody always knows what to do
+209 | role=worker|day=0,2|mood=fear | Cripes, back up, quit pokin' at it
+210 | role=rescue_clergy|day=0,2|mood=fear | Brother, can you hear me? It's the pastor, brother?
+211 | role=rescue_clergy|day=0,2|mood=fear | Sister, it's your pastor, please, please stop
+
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+
+##### CONTACT_INFECTED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Enfekte/zombi görüldü; ekibe uyarı.
+212 | reg=civilian,family,worker,rescue|wp=melee|grp=squad | Dead ones, use the bat, no shots!
+213 | reg=civilian,family,worker,rescue|wp=melee|grp=squad | Keep it quiet, no gunfire!
+214 | reg=civilian,family,worker,rescue|wp=melee|grp=squad | Swing, don't shoot, you'll draw more
+215 | - | Oh no... not another one
+216 | - | Dead one... careful, careful
+217 | - | There's one... okay, okay, think
+218 | - | That's no survivor, get ready
+219 | - | Heads up, that thing's coming
+220 | - | Another dead one... mind your feet
+221 | - | Shh... quiet, we got this one
+222 | - | There's one of 'em, don't let it get close
+223 | - | Don't bother talking to it, nobody's home
+224 | - | One of them... keep calm, keep CALM
+225 | - | Look around first, they never come alone
+226 | - | Look at the skin... yeah, that's one of 'em
+227 | - | Don't let those hands get on you
+228 | - | I see it, watch my left
+229 | - | Easy... wait for it... wait
+230 | - | It's slow, but it bites just the same
+231 | - | Watch that one, but listen for the others
+232 | - | Shit, one of them, watch where you step
+233 | reg=civilian,family,worker,rescue|tmp=fresh | Quiet, one of the dead ones is just standing there
+234 | reg=civilian,family,worker,rescue|tmp=fresh | God, look at him, one of them, back away
+235 | reg=civilian,family,worker,rescue|tmp=fresh | Is that one of them? It looks wrong, don't move
+236 | reg=civilian,family,worker,rescue|tmp=fresh | Dead one standing still, watch it, don't move
+237 | reg=civilian,family,worker,rescue|tmp=seasoned | Don't shoot, it's just one, shots draw more
+238 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | Infected ahead, it's walking right at us, oh Jesus
+239 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | Infected! INFECTED! Somebody, there's one right there!
+240 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | It's still walking, half of it's gone, don't look, move
+241 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | That's not a drunk, it's one of them, back up
+242 | reg=civilian,family,worker,rescue|tmp=seasoned|mood=grim | Another one to put down, there's always another
+243 | reg=civilian,family,worker,rescue|mood=calm | One infected on the left, watch it
+244 | role=family_elder | One of the dead, y'all, back away slow
+245 | role=family_elder | One of them ahead, stay clear of it
+246 | role=family_elder | Infected ahead, I can't outrun it, cover me
+247 | role=rescue_clergy | Infected ahead, stay behind me, I'll hold it
+248 | role=rescue_clergy | Stay behind me, one infected ahead
+249 | role=rescue_firefighter | One coming, stay calm, keep your distance
+250 | role=rescue_medical | Infected ahead, nothing we can do for it, back off
+251 | role=rescue_medical | Don't let it touch you, keep your distance
+252 | role=worker | Another one wandering in, I'll take it
+253 | role=worker | One ahead, I'll handle it, keep clear
+254 | role=worker | Boss, one of them ahead
+255 | role=civilian_woman | One infected heading straight for us, move
+
+##### MATE_HIT_BY_PLAYER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu arkadaşına vurdu; oyuncuya öfke, 'sen'.
+256 | reg=civilian,family|tmp=fresh | Lord, they hit her- hey, HEY, look at me, look at me
+257 | reg=civilian,family,rescue | That's one of our own, you fool! Folks like that bury the dead for free!
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+
+##### MATE_HIT_BY_PLAYER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu arkadaşına vurdu; oyuncuya öfke, 'sen'.
+258 | reg=family,civilian,worker | You hit one of ours, you son of a bitch
+259 | - | You just made yourself some enemies!
+260 | - | Who's next, huh? Who's NEXT?!
+261 | - | Oh, we saw that, we ALL saw that!
+
+##### PLEAD #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yalvarıyor (öldürme, bırak).
+262 | reg=civilian,family,worker,rescue|wd=hurt | I'm hurt already, please stop
+263 | reg=civilian,family,worker,rescue|wd=hurt | I'm bleeding, please, I give up
+264 | reg=civilian,family,worker,rescue|wd=hurt | Don't, I'm already wounded
+265 | reg=civilian,family,worker,rescue|wd=hurt | I'm hurt, please, stop
+266 | reg=civilian,family,worker,rescue|wd=hurt | Please, I'm bleeding
+267 | reg=civilian,family,worker,rescue|wd=hurt | Don't, I'm already hurt
+268 | reg=civilian,family,worker,rescue|wd=hurt | I can't fight, I'm hit
+
+##### SAFE_MOMENT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Kısa bir güvende an; derin nefes.
+269 | - | Feels weird not being scared for once
+270 | - | Shoes off for five minutes, don't judge me
+
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+
+##### PASSING_NPC_GREET #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yoldan geçerken başka bir NPC'yi ya da grubu selamlıyor; oyuncu kenardan duyar.
+271 | reg=civilian | Hey, don't I know you? From before? ...no? Okay
+272 | reg=civilian | You still at the old place? Haven't seen a light on there in days
+273 | reg=civilian | Nobody home up the road, so don't bother knocking
+274 | reg=civilian | You ever eat at that diner in town? Best pie in the county
+275 | reg=civilian,family,worker,rescue | Morning... or whatever it is
+276 | reg=civilian,family,worker,rescue | Look who's still kicking
+277 | reg=civilian,family,worker,rescue | Oh good, you made it back
+278 | reg=civilian,family,worker,rescue | Somebody's still got power across town, I heard
+279 | reg=civilian,family,worker,rescue | There's a farm out east with a good well, if you're passing, say I sent you
+
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+
+##### HEARD_GLASS #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bir ses duydu (alarm, kapı, ayak sesi, cam, silah, insan sesi); kendine ya da yanındakine.
+280 | - | Somebody's breaking glass... careful
+
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+
+##### CORPSE_FOUND #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Ceset buldu.
+281 | - | Poor bastard... wonder who he was
+
+##### FOUND_AMMO #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Etrafta bir şey buldu (mermi, kan, ceset, yiyecek, ilaç, iz, su, silah); kendine ya da ekibe.
+282 | - | Ammo... feels like a prayer answered
+
+##### FOUND_FOOD #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Etrafta bir şey buldu (mermi, kan, ceset, yiyecek, ilaç, iz, su, silah); kendine ya da ekibe.
+283 | - | Hey! Who's hungry? Look at THIS!
+
+##### FOUND_MEDICINE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Etrafta bir şey buldu (mermi, kan, ceset, yiyecek, ilaç, iz, su, silah); kendine ya da ekibe.
+284 | - | Meds... check the dates before anybody swallows anything
+
+##### FOUND_WATER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Etrafta bir şey buldu (mermi, kan, ceset, yiyecek, ilaç, iz, su, silah); kendine ya da ekibe.
+285 | - | Water... check it before you drink it
+
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+
+##### AFTER_FIGHT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Çatışma yeni bitti; nefes nefese, kendine ya da yanındakilere söylenen söz.
+286 | reg=civilian,family,worker,rescue|wd=hurt|cb=calm | I need a bandage, it hurts
+287 | reg=civilian,family,worker,rescue|wd=hurt|cb=calm | Oh God, I'm still bleeding
+288 | reg=civilian,family,worker,rescue|wd=hurt|cb=calm | Somebody look at my wound
+
+##### AIMED_AT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Biri (çoğunlukla oyuncu) ona silah doğrulttu; doğrudan doğrultana tepki, 'sen'.
+289 | - | Back off a few feet and we'll talk, okay?
+290 | - | Like I don't have enough to be scared of already
+291 | - | I heard you, I heard you... lower it
+292 | - | I'm trying to stay calm here, help me out
+293 | reg=civilian,family,worker,rescue | Please, please, I'm not done yet, I'm not DONE
+294 | reg=civilian,family,worker,rescue | My heart's going like a hammer... give me a second
+295 | reg=civilian,family,worker,rescue|wp=none | I'm unarmed, please!
+296 | reg=civilian,family,worker,rescue|wp=none | I've got nothing, don't shoot!
+297 | reg=civilian,family,worker,rescue|wp=none | Hands up, hands up, I'm not armed!
+298 | reg=civilian,family,worker,rescue|wp=gun | Easy, easy, I'll put it down
+299 | reg=civilian,family,worker,rescue|wp=gun | Don't shoot, I'm not going to use it
+300 | reg=civilian,family,worker,rescue|wp=gun | Okay, okay, lowering it
+301 | reg=civilian,family,worker,rescue|wd=hurt|wp=melee | Please, I'm hurt, don't
+302 | reg=civilian,family,worker,rescue|wd=hurt|wp=melee | I'm hurt, put it down
+303 | reg=civilian,family,worker,rescue|wd=hurt|wp=melee | Please, I can't fight
+
+##### ALLY_DOWN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yanındaki arkadaşı vuruldu/yere düştü; şok ya da öfke.
+304 | - | Man down! Somebody's DOWN!
+305 | - | Get to them, careful, CAREFUL!
+306 | - | Don't you get shot pulling them out!
+307 | - | We gotta get to them, come on!
+308 | - | Can anybody reach them?!
+309 | - | Cover me, I'm going to get them!
+310 | - | Wait... wait, think, don't run out there
+311 | - | Stay with me! Stay WITH me!
+312 | reg=civilian,family,worker,rescue|tmp=fresh | Oh- OH- oh no, oh no no no no NO- not her, not HER!!
+313 | reg=civilian,family,worker,rescue|tmp=seasoned | Ah, shit, hey, hey, come on, buddy
+314 | reg=civilian,family,worker,rescue|tmp=seasoned | Stay with me, stay with me, you hear me?!
+315 | reg=civilian,family,worker,rescue|tmp=seasoned | Fuck, fuck, fuck, FUCK, talk to me!! Talk to me!!
+316 | reg=civilian,family,worker,rescue|tmp=seasoned | Hey?? HEY?? Answer me!!
+317 | reg=civilian,family,worker,rescue|tmp=veteran | Dammit, no
+318 | reg=civilian,family,worker,rescue|grp=squad | No! No, he's down!
+319 | reg=civilian,family,worker,rescue|grp=squad | Get up, please get up!
+320 | reg=civilian,family,worker,rescue|grp=squad | Oh God, they got him!
+321 | reg=civilian,family,worker,rescue|grp=squad | She's not moving!
+322 | reg=civilian,family,worker,rescue|wd=hurt|grp=solo | Someone's down, I'm hit too
+323 | reg=civilian,family,worker,rescue|wd=hurt|grp=solo | They got one, I'm hit
+324 | reg=civilian,family,worker,rescue|wd=hurt|grp=solo | He's down, I can't help
+
+##### ALLY_HIT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yanındaki arkadaşı yaralandı; ekibe seslenir.
+325 | - | Don't play tough, how bad is it?!
+326 | - | Where'd it get you?!
+327 | - | You're hit! Get down, get DOWN!
+328 | - | Somebody help, they're hit!
+329 | reg=civilian,family,worker,rescue | Hang on! Stay with me!
+330 | reg=civilian,family,worker,rescue | Oh God, they're hurt! Somebody HELP!
+331 | reg=civilian,family,worker,rescue|grp=squad | She's hit, she's hit!
+332 | reg=civilian,family,worker,rescue|grp=squad | He's been hit!
+333 | reg=civilian,family,worker,rescue|grp=squad | Are you okay?! Say something!
+334 | reg=civilian,family,worker,rescue|grp=squad | Hold on, I'm coming!

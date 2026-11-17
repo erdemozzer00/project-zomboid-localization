@@ -1,0 +1,966 @@
+{
+  "_paket": "D4c — Sivillerin yere düşme (INJURED_DOWN), güvende an (SAFE_MOMENT) ve arkadaşa vurulma (MATE_HIT_BY_PLAYER) replikleri, 320",
+  "_dosya": "RadioData_lua",
+  "satirlar": {
+    "RD_ALifeLine_195230a21cc78fc8": {
+      "tr": "Ahh.. bacağım.. BACAĞIM.."
+    },
+    "RD_ALifeLine_5ecd5bbe301b5394": {
+      "tr": "Biri.. lütfen.. kim olursa.."
+    },
+    "RD_ALifeLine_133248ad356995d2": {
+      "tr": "Allah'ım.. Allah'ım çok acıyor.."
+    },
+    "RD_ALifeLine_2e00f4bc7d0cb4dc": {
+      "tr": "Kıpırdatamıyorum.. ahh.. yapamıyorum.."
+    },
+    "RD_ALifeLine_0235db2d1ce35578": {
+      "tr": "Beni bırakma.. ne olur beni burada bırakma.."
+    },
+    "RD_ALifeLine_4441eb947dc19718": {
+      "tr": "Ahh.. titriyorum.. neden titriyorum.."
+    },
+    "RD_ALifeLine_75632d5937821664": {
+      "tr": "Dayan.. dayan.. biraz daha dayan.."
+    },
+    "RD_ALifeLine_58531d422552fba8": {
+      "tr": "Mmh.. böyle olmaz.. böyle olmamalı.."
+    },
+    "RD_ALifeLine_0b72b20469fdcdc3": {
+      "tr": "Hey.. HEY! Kimse yok mu?!"
+    },
+    "RD_ALifeLine_2533c973730f5a15": {
+      "tr": "Ahhh.. uyanık kal.. uyanık kal.. uyan.."
+    },
+    "RD_ALifeLine_6f2f0dff784f7718": {
+      "tr": "Gözlerim.. her şey griye dönüyor.. ahh.."
+    },
+    "RD_ALifeLine_64a6c8997fcf03a2": {
+      "tr": "Düzgün nefes alamıyorum.. ahh.. alamıyorum.."
+    },
+    "RD_ALifeLine_1f883e6d21783aa3": {
+      "tr": "Yardım.. yardım edin.. biri.."
+    },
+    "RD_ALifeLine_0b007d4269116d7d": {
+      "tr": "Ahh-- ay ay ay.. dokunma ona.."
+    },
+    "RD_ALifeLine_6aa2d03c2d37a967": {
+      "tr": "Ngh.. bir dakika.. bir dakika ver.."
+    },
+    "RD_ALifeLine_017b2f594bede9b1": {
+      "tr": "Hâlâ buradayım.. ahh.. hâlâ buradayım.."
+    },
+    "RD_ALifeLine_2e58ef4638f62f88": {
+      "tr": "Lütfen.. azıcık su.."
+    },
+    "RD_ALifeLine_386f20f24106c789": {
+      "tr": "Acıyor.. acıyor.. acıyor.."
+    },
+    "RD_ALifeLine_13d3174279b49bbe": {
+      "tr": "Ahh.. herkes nereye gitti.."
+    },
+    "RD_ALifeLine_3d18fda06c43ed14": {
+      "tr": "Biri geri gelsin.. lütfen.."
+    },
+    "RD_ALifeLine_7c6faa0a0eeaf926": {
+      "tr": "Elimi hissetmiyorum.. neden hissetmiyorum.."
+    },
+    "RD_ALifeLine_7778676b6b82f32d": {
+      "tr": "Ahh.. kıpırdama.. kıpırdama.."
+    },
+    "RD_ALifeLine_0b1e90c979f3aa67": {
+      "tr": "Lütfen.. karanlık olmasın.. daha değil.."
+    },
+    "RD_ALifeLine_4f5e71d63fcb7217": {
+      "tr": "Ahh.. sadece uyumak istiyorum.."
+    },
+    "RD_ALifeLine_176c94907e79e9a6": {
+      "tr": "Olamaz.. olamaz olamaz.. ahh.."
+    },
+    "RD_ALifeLine_402bbbaa760e9728": {
+      "tr": "Yavaş.. yavaş.. nefes al.. nefes al.."
+    },
+    "RD_ALifeLine_65ee5a4e72b46389": {
+      "tr": "Kimse yok mu.. buradayım.. ahh.."
+    },
+    "RD_ALifeLine_750caa7b6ffeb4bb": {
+      "tr": "Böğrüm.. ahh.. böğrüm.."
+    },
+    "RD_ALifeLine_0de57f5963eb26e1": {
+      "tr": "Bulmasınlar.. beni bulmasınlar.. ahh.."
+    },
+    "RD_ALifeLine_2060694f750628c4": {
+      "tr": "Şşş.. sessiz.. sessiz ol.. ahh.."
+    },
+    "RD_ALifeLine_20cb58a41fc6dade": {
+      "tr": "Ngh.. yapabilirim.. yapabilirim.."
+    },
+    "RD_ALifeLine_1f7de6a975adf212": {
+      "tr": "Aptal.. ne aptalım.. ahh.."
+    },
+    "RD_ALifeLine_4567ab056b851150": {
+      "tr": "Ahh.. yerimde durmalıydım.."
+    },
+    "RD_ALifeLine_690b1cdb5d9879bd": {
+      "tr": "Biri.. bir şey desin.. herhangi bir şey.."
+    },
+    "RD_ALifeLine_03c36ea556dd2c73": {
+      "tr": "Mmm.. ah.. her şey dönüyor.."
+    },
+    "RD_ALifeLine_2f2b769d0b5ce2df": {
+      "tr": "Duyuyorum.. ahh.. onları duyuyorum.."
+    },
+    "RD_ALifeLine_32c496b2127e10b9": {
+      "tr": "Daha değil.. daha değil.. ahh.."
+    },
+    "RD_ALifeLine_4414b7a20fd4741e": {
+      "tr": "Hadi.. HADİ.. kalk.. ahh.."
+    },
+    "RD_ALifeLine_33ab394d0287a42a": {
+      "tr": "Islak.. ahh.. her yer ıslak.."
+    },
+    "RD_ALifeLine_61ad649a16c1bb35": {
+      "tr": "Hey.. sen misin?.. merhaba?"
+    },
+    "RD_ALifeLine_494c27a60bcab6f1": {
+      "tr": "Ahh.. onlara denediğimi söyle.."
+    },
+    "RD_ALifeLine_6c43660f1839188a": {
+      "tr": "Lütfen.. yalnız kalmak istemiyorum.."
+    },
+    "RD_ALifeLine_61ad55ca65e417a3": {
+      "tr": "Nefes al.. bir.. iki.. ahh.. nefes al.."
+    },
+    "RD_ALifeLine_7cc0433a5b3a34a2": {
+      "tr": "Başım.. zonkluyor.. ahh.."
+    },
+    "RD_ALifeLine_239cf6cc758750a8": {
+      "tr": "Ellerim uyuştu.. hissizler.. ahh.."
+    },
+    "RD_ALifeLine_423890d40d8902e1": {
+      "tr": "Biri.. kötü yaralandım.."
+    },
+    "RD_ALifeLine_59ae331f17647fde": {
+      "tr": "Ahh.. kalkamıyorum.. kalkamıyorum.."
+    },
+    "RD_ALifeLine_1ff64af2577e9eae": {
+      "tr": "Gitme.. ahh.. gitme.."
+    },
+    "RD_ALifeLine_6c5c525347713a4c": {
+      "tr": "Ahh-- ngh.. tamam.. tamam.. geçti.."
+    },
+    "RD_ALifeLine_463bf3410953d65d": {
+      "tr": "Biraz yardım.. buraya.. ahh.."
+    },
+    "RD_ALifeLine_5b039af1428f5b0c": {
+      "tr": "Allah'ım.. yanıyor.. ahh.. yanıyor.."
+    },
+    "RD_ALifeLine_3c4f2a24295e3de9": {
+      "tr": "Ahhh.. neden ben.. neden ben.."
+    },
+    "RD_ALifeLine_73c517e56027b0e7": {
+      "tr": "Anne?.. o sen.. ahh.. hayır.. hayır.."
+    },
+    "RD_ALifeLine_37a785e724d52271": {
+      "tr": "Bekle.. beni bekle.. ahh.."
+    },
+    "RD_ALifeLine_5ad61314645b6f1b": {
+      "tr": "Kanıyor.. ahh.. galiba kanıyorum.."
+    },
+    "RD_ALifeLine_7c3a518b6ed2a63c": {
+      "tr": "Koşmamalıydım.. ahh.. koşmamalıydım.."
+    },
+    "RD_ALifeLine_5188a0831a7a3b71": {
+      "tr": "Lütfen.. lütfen.. lütfen.."
+    },
+    "RD_ALifeLine_1a4817d13c1dfd34": {
+      "tr": "Konuşmaya devam edin.. biri konuşmaya devam etsin.."
+    },
+    "RD_ALifeLine_1146027e122e3bf6": {
+      "tr": "Ahh.. ahh.. tamam.. tamam.. hâlâ buradayım.."
+    },
+    "RD_ALifeLine_23e01fae6874efbc": {
+      "tr": "Çok yorgunum.. ahh.. çok yorgunum.."
+    },
+    "RD_ALifeLine_7ea087eb383478bf": {
+      "tr": "Kaburgalarım.. her nefeste.. ahh.."
+    },
+    "RD_ALifeLine_506b558d297d0929": {
+      "tr": "Ngh.. bir saniye dinleneyim.. bir saniye.."
+    },
+    "RD_ALifeLine_6cc5c70e65b60316": {
+      "tr": "Bez olan var mı?.. ahh.. herhangi bir şey.."
+    },
+    "RD_ALifeLine_54a9aab45a41090a": {
+      "tr": "Ahh.. sessiz.. fazla sessiz.."
+    },
+    "RD_ALifeLine_26b16df4087ad77f": {
+      "tr": "Özür dilerim.. özür dilerim.. ahh.. özür dilerim.."
+    },
+    "RD_ALifeLine_6564ff5a748ec220": {
+      "tr": "İMDAT! Biri YARDIM ETSİN!"
+    },
+    "RD_ALifeLine_44f7718c0383983b": {
+      "tr": "Ahh.. silahım nerede.. nerede benim.. ahh.."
+    },
+    "RD_ALifeLine_5c8f12ab03176a71": {
+      "tr": "Burada ölmeyeceğim.. ahh.. ÖLMEYECEĞİM.."
+    },
+    "RD_ALifeLine_51003698687456e4": {
+      "tr": "Ahh.. yer ne kadar sert.."
+    },
+    "RD_ALifeLine_2a643fa5340514f4": {
+      "tr": "Lütfen.. yeter ki onlar gelmesin.."
+    },
+    "RD_ALifeLine_58cd92475e76ed48": {
+      "tr": "Ahh.. bir saat daha.. sadece bir saat daha.."
+    },
+    "RD_ALifeLine_41d536875a414a72": {
+      "tr": "Konuşmak acıtıyor.. ahh.. acıtı.."
+    },
+    "RD_ALifeLine_0b57f8e50965a301": {
+      "tr": "Biri burada olduğumu biliyor.. değil mi?.. ahh.."
+    },
+    "RD_ALifeLine_1b6182c603b4a5d5": {
+      "tr": "Hâlâ kanıyor mu?.. ahh.. kanıyor mu?.."
+    },
+    "RD_ALifeLine_3b7cffec3404cc1c": {
+      "tr": "Mmf.. ah.. tamam.. tamam.. sadece nefes al.."
+    },
+    "RD_ALifeLine_71471642317dbc14": {
+      "tr": "Allah'ım... hayır, bakamıyorum..."
+    },
+    "RD_ALifeLine_0243749f2cc7e849": {
+      "tr": "Ahhh.. sırtım.. sırtımda bir şey var.."
+    },
+    "RD_ALifeLine_3d66bc0a1de2f73e": {
+      "tr": "Lütfen.. benimle dua edin.. ahh.. biri.."
+    },
+    "RD_ALifeLine_0e7ff6f71f58a34f": {
+      "tr": "Gözlerini açık tut.. ahh.. açık.."
+    },
+    "RD_ALifeLine_10200b5e3e32e78e": {
+      "tr": "Ay.. ay.. ay.. ahh.. ay.."
+    },
+    "RD_ALifeLine_4159c02b31e1c4bc": {
+      "tr": "Gitmek istemiyorum.. ahh.. daha değil.."
+    },
+    "RD_ALifeLine_3cc60bbe2eaa6e36": {
+      "tr": "Bunu duyan varsa.. ahh.. buradayım.."
+    },
+    "RD_ALifeLine_2f3b06cb6b9a063c": {
+      "tr": "Ngh.. bir ayak.. sonra öteki.. ahh.. yapamıyorum.."
+    },
+    "RD_ALifeLine_0d1a61e93ffffbc5": {
+      "tr": "Sadece bir sıyrıktı.. ahh.. sadece bir.."
+    },
+    "RD_ALifeLine_42e211b146a710a2": {
+      "tr": "Hadi AMA! Şimdi olmaz! Ahh.."
+    },
+    "RD_ALifeLine_46ba1d1070d92015": {
+      "tr": "Ahh.. sağlıkçı lazım.. kim olursa.."
+    },
+    "RD_ALifeLine_79b0464179c4f738": {
+      "tr": "Bak.. bu halde bir işe yaramam.. ahh.."
+    },
+    "RD_ALifeLine_2b3bfa7e08a67d04": {
+      "tr": "Sanki.. ahh.. sanki batıyorum.."
+    },
+    "RD_ALifeLine_63a1d8e53244407e": {
+      "tr": "Lütfen acele et.. lütfen.. ahh.."
+    },
+    "RD_ALifeLine_2aa26b84576f8050": {
+      "tr": "Gözlerini kapatma.. kapatma.. ahh.."
+    },
+    "RD_ALifeLine_6248f3350a24b3f6": {
+      "tr": "Biri.. orada biri var mı?.. ahh.."
+    },
+    "RD_ALifeLine_3437f120676e4747": {
+      "tr": "Hey.. hey.. yaşıyorum.. ahh.. hâlâ yaşıyorum.."
+    },
+    "RD_ALifeLine_1eb4294900f6621b": {
+      "tr": "Ahh.. ayak sesi duyuyorum.. sen misin?.."
+    },
+    "RD_ALifeLine_6e15d0d33f4894d6": {
+      "tr": "Kimse gelmiyor.. ahh.. kimse gelmiyor.."
+    },
+    "RD_ALifeLine_2b48e45611b907d1": {
+      "tr": "Gelecekler.. hep gelirler.. ahh.."
+    },
+    "RD_ALifeLine_4f5c92205491f5a6": {
+      "tr": "Bastırmaya devam et.. ahh.. bırakma.."
+    },
+    "RD_ALifeLine_70ee80847dc49d63": {
+      "tr": "Nefes alıyorum.. nefes alıyorum.. tamam.. hâlâ nefes alıyorum.."
+    },
+    "RD_ALifeLine_37ed8c641f9f61e5": {
+      "tr": "Mmm.. baba.. ahh.. özür dilerim.."
+    },
+    "RD_ALifeLine_0eea790a1426c459": {
+      "tr": "Ahh.. yardım.. sadece.. yardım.."
+    },
+    "RD_ALifeLine_2ed876036aad385f": {
+      "tr": "Kıpırdama.. kıpırdama.. nghh.."
+    },
+    "RD_ALifeLine_037d936d4c435b51": {
+      "tr": "Bakma.. bana öyle bakma.."
+    },
+    "RD_ALifeLine_65e575cd2c04eabc": {
+      "tr": "Hadi hadi hadi.. ahh.. kendine gel.."
+    },
+    "RD_ALifeLine_543a76094156e1dc": {
+      "tr": "Ah be.. ah be.. bu kötü.."
+    },
+    "RD_ALifeLine_193ec05c16378591": {
+      "tr": "Ahh.. biraz daha.. yapamıyorum.."
+    },
+    "RD_ALifeLine_0a6347c25e52b056": {
+      "tr": "Bunu duyuyor musun?.. ahh.. onlar mı?.."
+    },
+    "RD_ALifeLine_0a7c4925753753d2": {
+      "tr": "Daha cesur olurum sanıyordum.. ahh.."
+    },
+    "RD_ALifeLine_7316f58d2c7e6e9b": {
+      "tr": "Ahh.. en azından sessiz.. ahh.. sessiz.."
+    },
+    "RD_ALifeLine_2328f5132b1dbcfe": {
+      "tr": "Biri.. lütfen.. beni gördüğünü söyle.."
+    },
+    "RD_ALifeLine_62ede8f20fff47d1": {
+      "tr": "Ngh.. bir nefes daha.. bir tane daha.."
+    },
+    "RD_ALifeLine_75d11d8632aedc58": {
+      "tr": "Ahh.. parmaklarım.. kapanmıyorlar.."
+    },
+    "RD_ALifeLine_6b722d5f5657f129": {
+      "tr": "O kadar kötü olmadığını söyle.. ahh.. söyle.."
+    },
+    "RD_ALifeLine_1d4c1eb23c360523": {
+      "tr": "Özür dilerim.. ahh.. çok özür dilerim.."
+    },
+    "RD_ALifeLine_482831cc3e073e81": {
+      "tr": "Ahh.. az kalsın.. çok az kalsın.."
+    },
+    "RD_ALifeLine_505310e704ed1efe": {
+      "tr": "Mmm.. yer kayıyor.. ahh.."
+    },
+    "RD_ALifeLine_39c24cd550e6b4ec": {
+      "tr": "Sadece.. sadece kal.. benimle kal.. ahh.."
+    },
+    "RD_ALifeLine_5470c0a73b3288e0": {
+      "tr": "Ahh.. ayağa kalkmam lazım.. kalkmam.. ahh.."
+    },
+    "RD_ALifeLine_455c0bf220fc4fd9": {
+      "tr": "Allah'ım.. bana güç ver.. ahh.. azıcık.."
+    },
+    "RD_ALifeLine_067c864410bdacec": {
+      "tr": "Çocuklarım.. ahh.. biri.. çocuklarım.."
+    },
+    "RD_ALifeLine_593913986d9c3444": {
+      "tr": "Sadece eve gitmek istiyordum.. ahh.."
+    },
+    "RD_ALifeLine_0d6a6af51cb2e2a2": {
+      "tr": "Lütfen.. kötü biri değilim.. ahh.."
+    },
+    "RD_ALifeLine_3b19eca84aabeb36": {
+      "tr": "Ahh.. ailem var.. lütfen.."
+    },
+    "RD_ALifeLine_376e87c4395f7c98": {
+      "tr": "Neredeyse varmıştık.. ahh.. neredeyse.."
+    },
+    "RD_ALifeLine_171ae53122472638": {
+      "tr": "Karıma söylemeyin.. ahh.. daha söylemeyin.."
+    },
+    "RD_ALifeLine_789df78c7deb5db4": {
+      "tr": "Şşş.. geçecek.. geçecek.. ahh.. geçecek.."
+    },
+    "RD_ALifeLine_66771a6f02db002b": {
+      "tr": "Bunun ne olduğunu biliyorum.. ahh.. daha kötülerini tedavi ettim.."
+    },
+    "RD_ALifeLine_660c1fe56536652f": {
+      "tr": "Bütün gün ilk defa sessiz, güvenmiyorum ama kabulüm"
+    },
+    "RD_ALifeLine_6924d10c479ed900": {
+      "tr": "Bir dakika otur, bacakların sonra sana teşekkür eder"
+    },
+    "RD_ALifeLine_093bd3363bf4e461": {
+      "tr": "Böyle bir dakikaya sıkı tutun, sımsıkı tutun"
+    },
+    "RD_ALifeLine_630985691484ecdc": {
+      "tr": "Dinle, hiçbir şey yok - hiçlik ne zaman bu kadar gürültülü oldu?"
+    },
+    "RD_ALifeLine_616e1dab75ab99bf": {
+      "tr": "Bütün ilçe nefesini tutmuş, tıpkı benim gibi"
+    },
+    "RD_ALifeLine_5785cddc6f6034b6": {
+      "tr": "Kuşlar bu sokağa geri dönmüş, iyiye işaret"
+    },
+    "RD_ALifeLine_0411513e223edc19": {
+      "tr": "Üçüncü gün, şimdiden bir ay gibi geliyor"
+    },
+    "RD_ALifeLine_31a5e17a00b72d26": {
+      "tr": "İki hafta oldu, yüksek sesle saymayı bıraktım"
+    },
+    "RD_ALifeLine_4250610c6aaf7d21": {
+      "tr": "Altı ay - kimse gelmiyor, plan artık biziz"
+    },
+    "RD_ALifeLine_3fc9418342e87aaa": {
+      "tr": "Bir siren bekleyip duruyorum - herhangi bir siren"
+    },
+    "RD_ALifeLine_7a9ca8a1117a8d05": {
+      "tr": "Fırsat bulunca ellerini yıka, bu alışkanlık kalsın"
+    },
+    "RD_ALifeLine_34598f3d3312b6de": {
+      "tr": "Güneş çıktı, hiçbir şeyi düzeltmiyor ama güzel"
+    },
+    "RD_ALifeLine_0b29867534294e4c": {
+      "tr": "Biçilmiş çim kokuyor, oysa kimse çim biçmiyor"
+    },
+    "RD_ALifeLine_2510fe5f01c6151a": {
+      "tr": "Rabbim, bir saatlik huzur için şükürler olsun, sadece bu saat için"
+    },
+    "RD_ALifeLine_4c71624e4a7f450c": {
+      "tr": "Ninem derdi ki, sessiz bir veranda dolu bir hayattır"
+    },
+    "RD_ALifeLine_1742709144fa799c": {
+      "tr": "Normal bir pazar günüymüş gibi yapabilir miyiz? Sadece bir dakikalığına?"
+    },
+    "RD_ALifeLine_26a8365c5fbd18fd": {
+      "tr": "Bahçe kapısının menteşesini tamir ettim - ufak iş - ama iyi geldi"
+    },
+    "RD_ALifeLine_23e961b866174d4b": {
+      "tr": "İyi misin? Yüksek sesle söyle, faydası olur"
+    },
+    "RD_ALifeLine_1cd515080215c044": {
+      "tr": "Yemek yiyeceksen, fırsatın varken ye"
+    },
+    "RD_ALifeLine_34ac64ba17be16bd": {
+      "tr": "İki sokak ötede biri ocakta tencere unutmuş, bütün ev yandı - ocaklarınıza bakın, millet"
+    },
+    "RD_ALifeLine_6cc01d8a0e50b75a": {
+      "tr": "O kadar sessiz ki böcekleri yine duyabiliyorum"
+    },
+    "RD_ALifeLine_3cb453c358bb6b0e": {
+      "tr": "Bir dakika oturalım - lütfen"
+    },
+    "RD_ALifeLine_7a291f9411e5dabe": {
+      "tr": "Hiçbir şey, hiç ama hiçbir şey, sessizliğin sesini neredeyse unutmuştum"
+    },
+    "RD_ALifeLine_116473485fabc3e4": {
+      "tr": "Burada oturup tam on saniye hiçbir şey düşünmeyeceğim, izle beni"
+    },
+    "RD_ALifeLine_74e35ecc7fd7ac11": {
+      "tr": "Dinle, duyuyor musun? Bu, bizi öldürmeye çalışan kimsenin olmamasının sesi"
+    },
+    "RD_ALifeLine_7404b567707f06bb": {
+      "tr": "Bir dakikalığına, sadece bir dakika, her şey yolundaymış gibi yapalım"
+    },
+    "RD_ALifeLine_104f2e6523d53d32": {
+      "tr": "Toz yatışıyor, sonunda, bırak yatışsın, bırak yatışsın"
+    },
+    "RD_ALifeLine_396e3d081b38ee01": {
+      "tr": "Bir hafta uyuyabilirim, on yıl uyuyabilirim"
+    },
+    "RD_ALifeLine_17e5a828196da039": {
+      "tr": "Huzurlu, en son ne zaman böyleydi hatırlamıyorum bile"
+    },
+    "RD_ALifeLine_4c50c6822ca4e1fb": {
+      "tr": "Otur yanıma, tadını çıkar"
+    },
+    "RD_ALifeLine_747c1e5d09114f27": {
+      "tr": "Biraz daha böyle kalabilir miyiz?"
+    },
+    "RD_ALifeLine_75e0401c15c1b81a": {
+      "tr": "Huzur böyle bir şey miydi? Açıkçası unutmuşum"
+    },
+    "RD_ALifeLine_76fa5d0537958674": {
+      "tr": "Şimdilik sessiz, güzel güzel sessiz, bozmayalım"
+    },
+    "RD_ALifeLine_0673d099400b5761": {
+      "tr": "Kendi kalp atışımı duyabiliyorum, o kadar sessiz"
+    },
+    "RD_ALifeLine_275319ae4df46717": {
+      "tr": "Herkes nefes alsın, şu an kimse peşimizde değil"
+    },
+    "RD_ALifeLine_43acfd6012348dd0": {
+      "tr": "Böyle anlarda dışarıda ne olduğunu neredeyse unutuyorum... neredeyse"
+    },
+    "RD_ALifeLine_6628dd94233d1f78": {
+      "tr": "Isıran yok, kovalayan yok, belki gerçekten bir şeyler yiyebilirim"
+    },
+    "RD_ALifeLine_462933a07f0f729e": {
+      "tr": "Galiba bir dakikalığına güvendeyiz, boşa harcamayalım"
+    },
+    "RD_ALifeLine_556193fe3e33969c": {
+      "tr": "Kuşlar - duydun mu? Gerçek kuşlar"
+    },
+    "RD_ALifeLine_34d3f0ea411c2594": {
+      "tr": "Belki bu gece deliksiz uyuruz - ne güzel olurdu, değil mi?"
+    },
+    "RD_ALifeLine_66df08ac4ec20756": {
+      "tr": "Şu halimize bak, bir aradayız, güvendeyiz, nefes alıyoruz, daha ne isteriz?"
+    },
+    "RD_ALifeLine_6434ac6813aa2abb": {
+      "tr": "İşte, şimdi daha iyi değil mi? Biraz huzur, biraz sessizlik"
+    },
+    "RD_ALifeLine_3cf7a0ad5d455f70": {
+      "tr": "Yıldızlar hâlâ aynı görünüyor... bu da bir şey"
+    },
+    "RD_ALifeLine_27882aec1540421c": {
+      "tr": "Sakin vardiya, nazar değdirme"
+    },
+    "RD_ALifeLine_788534523a674188": {
+      "tr": "Bir sigara içmenin tam zamanı"
+    },
+    "RD_ALifeLine_7db281df662d0a4f": {
+      "tr": "Fırsatın varken dinlen, bir daha şansımız olmayabilir"
+    },
+    "RD_ALifeLine_5cc7948b3d8f7db5": {
+      "tr": "Böyle anlar bir nimet - değerini bil"
+    },
+    "RD_ALifeLine_55b22bc15d0ccfe5": {
+      "tr": "Bir dakikalık huzur, iyi kullanalım, eller dinlensin"
+    },
+    "RD_ALifeLine_09956828143ebb58": {
+      "tr": "Yemin ederim şu bulut fırında et gibi görünüyor - öyle değil deme sakın"
+    },
+    "RD_ALifeLine_4d8af2713153cf45": {
+      "tr": "Dinle şunu, sessizlik, gerçek sessizlik"
+    },
+    "RD_ALifeLine_1f96462b202d8ce1": {
+      "tr": "Kimse bağırmıyor, kimse ateş etmiyor, kimse gelmiyor"
+    },
+    "RD_ALifeLine_1f16676b0c491ea3": {
+      "tr": "Tamam, bir dakika, sadece bir dakika, tadını çıkaralım"
+    },
+    "RD_ALifeLine_7943962104e6c6ea": {
+      "tr": "Nefes al, nefes ver, şu an hiçbir şey peşimizde değil"
+    },
+    "RD_ALifeLine_7f9ade241fb8ac5d": {
+      "tr": "Otur, yükünü bırak, bunu hak ettik"
+    },
+    "RD_ALifeLine_63da620a1b70c581": {
+      "tr": "Sessiz, inanabiliyor musun, SESSİZ"
+    },
+    "RD_ALifeLine_44b3a74d47012bcb": {
+      "tr": "Sürerken tadını çıkar, her saniyesinin"
+    },
+    "RD_ALifeLine_68a5437b79270666": {
+      "tr": "Şimdilik, sadece şu an, iyiyiz"
+    },
+    "RD_ALifeLine_2b4b30bd0f7bdd6b": {
+      "tr": "Gözlerimi kapatayım, bir saniyeliğine"
+    },
+    "RD_ALifeLine_4644514240f5e4b5": {
+      "tr": "Tek bir ses yok, nasıl bir şeydi unutmuşum"
+    },
+    "RD_ALifeLine_5b1d9a925edf6576": {
+      "tr": "Hmmm, hmm, hm, hmmm, hmm"
+    },
+    "RD_ALifeLine_1a5e7334525cbdc0": {
+      "tr": "La la la, la la, la la la"
+    },
+    "RD_ALifeLine_573c2c422a092c9f": {
+      "tr": "Dım dı dım, dı dım, dı dım"
+    },
+    "RD_ALifeLine_0f3583784fcfe4cc": {
+      "tr": "Bana aldırma, mırıldanıyorum sadece"
+    },
+    "RD_ALifeLine_5a474c340af1c7fb": {
+      "tr": "İyi geldi, bir dakikalık mola"
+    },
+    "RD_ALifeLine_504e87545567ad7c": {
+      "tr": "Neredeyse normal bir gün gibi, neredeyse"
+    },
+    "RD_ALifeLine_42648f3d310e9e08": {
+      "tr": "Bir kuş duyuyorum, gerçek bir kuş, hâlâ ötüyor"
+    },
+    "RD_ALifeLine_669762a21150b3be": {
+      "tr": "Gökyüzüne bak, hâlâ mavi, hâlâ masmavi"
+    },
+    "RD_ALifeLine_463743af46666276": {
+      "tr": "Hmmm, hmm, hmmm, kusura bakma, annemin söylediği bir şarkı"
+    },
+    "RD_ALifeLine_6c1bbe967bb8bd80": {
+      "tr": "İçimden mırıldanmak geliyor. Bu kadar sessizken yanlış geliyor"
+    },
+    "RD_ALifeLine_31a20a0c70c1a90a": {
+      "tr": "Allah'ım, lütfen, bu gece sessiz kalsın"
+    },
+    "RD_ALifeLine_265b73833f371af2": {
+      "tr": "Bitti mi? Gerçekten bitti mi? Şimdilik?"
+    },
+    "RD_ALifeLine_3894f14b570c294d": {
+      "tr": "Fazla sessiz, fazla sessiz, ama kabulüm"
+    },
+    "RD_ALifeLine_5af25fbf401069cf": {
+      "tr": "Alçak sesle bir şey mırıldanıyorum, bir ilahi, eski bir tane, sözlerinin hepsini hatırlamıyorum"
+    },
+    "RD_ALifeLine_6990a9d26ba43a5d": {
+      "tr": "Bir dakika ayaklarımı uzatıyorum, ama bir gözüm açık"
+    },
+    "RD_ALifeLine_2ee1982b5d4a0873": {
+      "tr": "Sessiz anlar bedava, tadını çıkar"
+    },
+    "RD_ALifeLine_02323c195c55c8dd": {
+      "tr": "Mmm hmm hmmm, dedemin şarkısı, nehir kıyısında"
+    },
+    "RD_ALifeLine_6e4a19511aa138d8": {
+      "tr": "Dı-dı-dı-dı, şarkı kafamdan çıkmıyor, dilime takıldı, heh"
+    },
+    "RD_ALifeLine_03ab4e4538055ce0": {
+      "tr": "La la la, hangi şarkıydı bu, eski bir reklam müziği"
+    },
+    "RD_ALifeLine_61da5e501e955900": {
+      "tr": "Dım-dı-dım, bu kadarını biliyorum, gerisini unuttum"
+    },
+    "RD_ALifeLine_1175e0f63e61742d": {
+      "tr": "Hmm hmm hmmm, ninni, çocuk servisinde söylerdim, sakinleştirir onları"
+    },
+    "RD_ALifeLine_3f16b7d12d2402bd": {
+      "tr": "Bir yıkanıp çantayı tamamlayayım, bir dakika nefes alayım"
+    },
+    "RD_ALifeLine_24b8d5b92a11b4a3": {
+      "tr": "Rabbim, bu sessizlik için şükürler olsun, bu an için şükürler olsun"
+    },
+    "RD_ALifeLine_112c773d340a3ed5": {
+      "tr": "Göklerdeki Babamız, adın kutsal kılınsın, egemenliğin gelsin-"
+    },
+    "RD_ALifeLine_4ceb8d7076a97ba4": {
+      "tr": "Lütfen onları koru, hepsini koru, Rabbim, yalvarıyorum"
+    },
+    "RD_ALifeLine_23421f405dfcf4f8": {
+      "tr": "Duamı duy, duy, lütfen, çok yorulduk"
+    },
+    "RD_ALifeLine_61791b7b39e8eb6e": {
+      "tr": "Amin... şükürler olsun Rabbim, amin"
+    },
+    "RD_ALifeLine_3a7efa2a720c9782": {
+      "tr": "Onlar için dua ediyorum, dışarıdakiler için bile, onlar için bile"
+    },
+    "RD_ALifeLine_3f442e3015f50522": {
+      "tr": "Mezmur yirmi üç, Rab çobanımdır, eksiğim olmaz-"
+    },
+    "RD_ALifeLine_79a0c8452f034505": {
+      "tr": "Bu küçük yeri kutsa, bu iyi insanları kutsa"
+    },
+    "RD_ALifeLine_7c896ea81f7dd2c1": {
+      "tr": "Senin için dua ediyorum, bütün dünya için dua ediyorum, neden olmasın"
+    },
+    "RD_ALifeLine_6063dbc7051debc0": {
+      "tr": "Allah'ım, dinliyorsan, burada biraz yardıma ihtiyacımız var"
+    },
+    "RD_ALifeLine_7f8322e3061a1ecd": {
+      "tr": "Selam sana Meryem, lütuf dolu, Rab seninledir-"
+    },
+    "RD_ALifeLine_7afbf279106af06c": {
+      "tr": "Sükûnet bul ruhum, sükûnet bul, en sevdiğim bu"
+    },
+    "RD_ALifeLine_6e7a68ab3bca22b9": {
+      "tr": "Allah bu gece bizimle olsun, kaybettiklerimizle de"
+    },
+    "RD_ALifeLine_5376133b44497281": {
+      "tr": "Kaybettiğimiz arkadaşlar için saygı duruşu, bütün bölük için"
+    },
+    "RD_ALifeLine_425a2a50120a9db7": {
+      "tr": "Rabbim, küçük çevremizi kutsa, bizi bir arada tut"
+    },
+    "RD_ALifeLine_4daebcd31fce3d1e": {
+      "tr": "Başaramayanlar için içinden bir dua et"
+    },
+    "RD_ALifeLine_515fd9505e2c788b": {
+      "tr": "Bu duayı annem öğretti, her gece yatmadan önce, hâlâ okurum"
+    },
+    "RD_ALifeLine_161871752c51c785": {
+      "tr": "Bir gün doğumu daha, bir gün batımı daha için şükürler olsun Rabbim"
+    },
+    "RD_ALifeLine_4dd41ac56f75f054": {
+      "tr": "Karanlıkta sessizlik, hafif cırcır böcekleri, uzakta bir baykuş, neredeyse huzurlu"
+    },
+    "RD_ALifeLine_6967c4af61a69a63": {
+      "tr": "Yıldızlar çıkmış, ay yok, ses yok, dert yok"
+    },
+    "RD_ALifeLine_0de57ae162597ee8": {
+      "tr": "Hmmm, hmm, bir gece şarkısı, uykulu, ağır"
+    },
+    "RD_ALifeLine_5a7e46f40fd9e145": {
+      "tr": "Gün doğumu, yumuşak ışık, yine kuşlar, Allah'ım, ne güzel"
+    },
+    "RD_ALifeLine_34e1f51b4105ac2c": {
+      "tr": "Sessiz sabah, yerde sis, cennet gibi görünüyor"
+    },
+    "RD_ALifeLine_642bbb400c05764d": {
+      "tr": "Gün batımı, turuncu gökyüzü, uzun gölgeler, dua etmenin tam vakti"
+    },
+    "RD_ALifeLine_7661499956484c38": {
+      "tr": "Altın saat derlerdi, günün en güzel ışığı"
+    },
+    "RD_ALifeLine_67daad222ac862de": {
+      "tr": "Bitti mi? Lütfen bittiğini söyle, kısa bir süreliğine de olsa"
+    },
+    "RD_ALifeLine_2ae0839520c31f0a": {
+      "tr": "Sessizlikten tüylerim diken diken oldu, tuhaf mı?"
+    },
+    "RD_ALifeLine_169d27e20740d7dc": {
+      "tr": "Bitti mi? İyi miyiz? Lütfen bir dakikalığına iyi olduğumuzu söyle"
+    },
+    "RD_ALifeLine_0a2ed7bd5eec0ed8": {
+      "tr": "Bu güzel, çok güzel, yarını düşünmeyeceğim bile"
+    },
+    "RD_ALifeLine_44c238c1332ed0c9": {
+      "tr": "Nazar değdirme, ağzına bile alma, sadece tadını çıkar"
+    },
+    "RD_ALifeLine_475e1b002e821ea0": {
+      "tr": "Sessiz, ha? Kabulüm, ama yine de bir gözüm açık"
+    },
+    "RD_ALifeLine_37f555cf6e726e80": {
+      "tr": "DANNY! Allah'ım, Danny, kalk! KALK!"
+    },
+    "RD_ALifeLine_128c96bc2bc23155": {
+      "tr": "Vurdun onu! O daha-- onu VURDUN!"
+    },
+    "RD_ALifeLine_7d73bdfc14aa31ca": {
+      "tr": "Yere düştü! Yere düştü, biri yardım etsin!"
+    },
+    "RD_ALifeLine_1b72dc6976b02ec8": {
+      "tr": "Hey- HEY! Bunu neden yaptın?!"
+    },
+    "RD_ALifeLine_369aa35f03a640f7": {
+      "tr": "Kıpırdamıyor - hey, hey, kıpırdamıyor"
+    },
+    "RD_ALifeLine_020b90e63f9ea55a": {
+      "tr": "Benimle kal - benimle kal, duydun mu? KAL"
+    },
+    "RD_ALifeLine_4d3ad92e4c158785": {
+      "tr": "Yaralı var! Hemen BURAYA el lazım!"
+    },
+    "RD_ALifeLine_00073157630b4091": {
+      "tr": "Bastır! İki elinle! Üstüne yüklen!"
+    },
+    "RD_ALifeLine_27008ba300d9e3cd": {
+      "tr": "O bizdendi, seni orospu çocu-- BİZDENDİ!"
+    },
+    "RD_ALifeLine_5247f73a396d2190": {
+      "tr": "Bir çocuğu vardı - biliyor musun? Bir çocuğu vardı!"
+    },
+    "RD_ALifeLine_6759caee5f269b02": {
+      "tr": "Seksen mil birlikte yürüdük - seksen mil..."
+    },
+    "RD_ALifeLine_4036e4850b66b64b": {
+      "tr": "Neden? Elleri AŞAĞIDAYDI! Neden?!"
+    },
+    "RD_ALifeLine_446f2b017fdf01f8": {
+      "tr": "Yoldan çekin onu! Sürükleyin, dikilip durmayın!"
+    },
+    "RD_ALifeLine_7ae95208654007b4": {
+      "tr": "Hey, hey, hadi, burada olmaz, şu lanet kaldırımda olmaz"
+    },
+    "RD_ALifeLine_15979e3c48fffad4": {
+      "tr": "Seni tuttum, seni tuttum - bana bak, ona değil"
+    },
+    "RD_ALifeLine_686028261790009d": {
+      "tr": "Rabbim, ona sahip çık - lütfen ona sahip çık"
+    },
+    "RD_ALifeLine_60b1dbfe17115835": {
+      "tr": "Kaçın! Bize ateş ediyor! KAÇIN!"
+    },
+    "RD_ALifeLine_019e5be12225fd34": {
+      "tr": "Danny vuruldu! Biri Danny'yi vurdu!"
+    },
+    "RD_ALifeLine_3a5e8161065677f3": {
+      "tr": "Bu Junior! Junior, iyi misin? JUNIOR!"
+    },
+    "RD_ALifeLine_4141a61543641e59": {
+      "tr": "Ona vurdun, oysa sana tek bir kelime bile etmemişti"
+    },
+    "RD_ALifeLine_13a6533d7e1982c9": {
+      "tr": "Hey! O bizden biri!"
+    },
+    "RD_ALifeLine_0e44e2ea28fb1508": {
+      "tr": "O bizden! Rahat bırak onları!"
+    },
+    "RD_ALifeLine_05ddb73a732f7560": {
+      "tr": "Ray'i vurdular! Allah'ım, Ray!"
+    },
+    "RD_ALifeLine_3e4cda1e0b86d662": {
+      "tr": "Dur! Rahat bırak onu! Hiçbir şey yapmadı!"
+    },
+    "RD_ALifeLine_1ffecd0542e085a0": {
+      "tr": "Bırak onu! Lütfen, hasta değil!"
+    },
+    "RD_ALifeLine_76a4bb33421b030b": {
+      "tr": "Biri yardım etsin, Pete'e zarar veriyorlar!"
+    },
+    "RD_ALifeLine_4be4d41440585620": {
+      "tr": "Neden o? Sana yardım etmek isteyen oydu!"
+    },
+    "RD_ALifeLine_7a270f264003d4e0": {
+      "tr": "Allah'ım, Wanda'yı vurdular - Wanda, bana bak - bana bak"
+    },
+    "RD_ALifeLine_60df0ed5124c1fd7": {
+      "tr": "Su taşıyordu! Elleri su doluydu!"
+    },
+    "RD_ALifeLine_73e44a1913a89d2e": {
+      "tr": "Birimize zarar verdiler! Bir daha olmasına izin vermeyin!"
+    },
+    "RD_ALifeLine_04f6e7ba044e222d": {
+      "tr": "Vuruldu! Vuruldu! Biri ne yapacağımı söylesin!"
+    },
+    "RD_ALifeLine_223d3a96260174db": {
+      "tr": "Bizden birine vurdun! Neden yaptın bunu?"
+    },
+    "RD_ALifeLine_244b5a963baf1d67": {
+      "tr": "Bizden birine zarar verdiler! Bırakın artık!"
+    },
+    "RD_ALifeLine_2a3cf8f626ae0a2a": {
+      "tr": "O bizden biriydi! Kes şunu!"
+    },
+    "RD_ALifeLine_3067f9d44322654f": {
+      "tr": "Anne! Çekil başından! Çekil!"
+    },
+    "RD_ALifeLine_40fe3c5b40b6ea8b": {
+      "tr": "Çek ellerini! Rahat bırak onları!"
+    },
+    "RD_ALifeLine_2ed3ce7c3096864e": {
+      "tr": "Torunumu rahat bırak, yoksa Allah şahidim olsun!"
+    },
+    "RD_ALifeLine_2ba4d4e14805f565": {
+      "tr": "Yere düştü! Şu Gary'ye vurdu!"
+    },
+    "RD_ALifeLine_23e7bde43bc7cf2d": {
+      "tr": "Hey! Biri yardım etsin! Durup seyretmeyin!"
+    },
+    "RD_ALifeLine_6a9814a164eb8e50": {
+      "tr": "Hey! Arkadaşımdan uzak dur!"
+    },
+    "RD_ALifeLine_2d33084e62dff1db": {
+      "tr": "Hey! O benimle! Geri çekil!"
+    },
+    "RD_ALifeLine_3c6fa5164b4a006e": {
+      "tr": "Bu Dwayne, bizimle! Derdin ne senin?"
+    },
+    "RD_ALifeLine_6f6cc2c27a2c8b39": {
+      "tr": "Ona bir daha dokunma! Bakayım, bırak bakayım!"
+    },
+    "RD_ALifeLine_0a78f7e51cb087d3": {
+      "tr": "Allah aşkına, dur! Onun kimseye zararı yok!"
+    },
+    "RD_ALifeLine_5b9c2d8033644ebb": {
+      "tr": "Hey! O benim ortağım! Geri çekil!"
+    },
+    "RD_ALifeLine_627eef4d1748ebaa": {
+      "tr": "Glenda'ya vurdun! Altmış iki yaşında kadın!"
+    },
+    "RD_ALifeLine_192fd6495c3079af": {
+      "tr": "Oğluma ateş ettin, bunun dönüşü yok"
+    },
+    "RD_ALifeLine_6bb4e6cb7eb86aed": {
+      "tr": "O Kardeş Stiles, seni ahmak! İnsanları parasız gömer!"
+    },
+    "RD_ALifeLine_2dd81c8d77400868": {
+      "tr": "Blue'yu vurdular - köpeği, lanet köpeği vurdun"
+    },
+    "RD_ALifeLine_2c93253a0c4c0831": {
+      "tr": "Sağlıkçımızı vurdular, elimizdeki tek kişi oydu"
+    },
+    "RD_ALifeLine_7354150804ede7fa": {
+      "tr": "Roy vuruldu! Biri Roy'u alsın!"
+    },
+    "RD_ALifeLine_53faf7490d26d979": {
+      "tr": "Rahat bırak onları! Duydun mu beni?"
+    },
+    "RD_ALifeLine_74fb6aff7e25e798": {
+      "tr": "Hey! O iş sana düşmezdi!"
+    },
+    "RD_ALifeLine_6d159bcd0d9c0efd": {
+      "tr": "Sakın başka birine zarar verme!"
+    },
+    "RD_ALifeLine_773059ad3d6cae65": {
+      "tr": "Ne yaptığını gördüm. Geri çekil!"
+    },
+    "RD_ALifeLine_0bb6f2202d1b7c7f": {
+      "tr": "Bunu yaparak kendine düşman ediniyorsun!"
+    },
+    "RD_ALifeLine_5a44b40f31f1e58d": {
+      "tr": "İnsanlara zarar vermeyi kes!"
+    },
+    "RD_ALifeLine_2bc7093f202c2e87": {
+      "tr": "Hepimizle mi başın belaya girsin istiyorsun?"
+    },
+    "RD_ALifeLine_1f55405b76437614": {
+      "tr": "Ne halt ediyorsun sen?"
+    },
+    "RD_ALifeLine_576ce79604151a6f": {
+      "tr": "O bizden! Bırak artık!"
+    },
+    "RD_ALifeLine_67fc4c195b92e349": {
+      "tr": "Yeter! Uzaklaş onlardan!"
+    },
+    "RD_ALifeLine_15b5c9ec0fcfd180": {
+      "tr": "Kendine yeni bir kurban aramaya kalkma!"
+    },
+    "RD_ALifeLine_129420267d68c75b": {
+      "tr": "Bunu görmezden gelmeyeceğiz!"
+    },
+    "RD_ALifeLine_4f1a07f258018a56": {
+      "tr": "Ne yaptığını kimse umursamıyor mu sanıyorsun?"
+    },
+    "RD_ALifeLine_2ce404807e5b09c7": {
+      "tr": "Benim insanlarımdan uzak dur!"
+    },
+    "RD_ALifeLine_4bc6e38f6d71fe9d": {
+      "tr": "Danny'yi vurdu! Vurdu onu! Biri bir şey yapsın!"
+    },
+    "RD_ALifeLine_07cbee4571b0c93b": {
+      "tr": "Ateş etme! Lütfen başka kimseye ateş etme!"
+    },
+    "RD_ALifeLine_59452c2b02e7d2ae": {
+      "tr": "Bize ateş ediyor! Kaçın! Bir şeyin arkasına geçin!"
+    },
+    "RD_ALifeLine_274e2ba0629da1ac": {
+      "tr": "Arkadaşımı vurdun! Neden yaptın bunu?!"
+    },
+    "RD_ALifeLine_17f7df0a6d0d3be7": {
+      "tr": "Danny'yi bıçakladı! Biri yardım etsin!"
+    },
+    "RD_ALifeLine_7b80712318d929fc": {
+      "tr": "Başka kimseyi kesme! Lütfen, kaldır o bıçağı!"
+    },
+    "RD_ALifeLine_087df99c23d72807": {
+      "tr": "Danny'ye sopayla vurdu! Durdurun onu!"
+    },
+    "RD_ALifeLine_2d16967c3182b45f": {
+      "tr": "O boruyla başka kimseye vurma! Lütfen!"
+    },
+    "RD_ALifeLine_1015a20e105bfcf3": {
+      "tr": "Danny'yi yumrukladı! Biri durdursun onu!"
+    },
+    "RD_ALifeLine_3dc9bc7e51c6aff0": {
+      "tr": "Başka kimseyi yumruklama! Lütfen!"
+    },
+    "RD_ALifeLine_7631e03215f17b71": {
+      "tr": "Danny'yi ezdi! Yardım çağırın!"
+    },
+    "RD_ALifeLine_7e5896ff5d4e817c": {
+      "tr": "Danny'ye savurdu! Durdurun onu!"
+    },
+    "RD_ALifeLine_01823f7322378792": {
+      "tr": "Yine yapıyor, YİNE yapıyor, biri durdursun onu!"
+    },
+    "RD_ALifeLine_49323bd47c181c2e": {
+      "tr": "Allah'ım, vurdu, VURDU, tehlikeli olduğunu söylemiştim!"
+    },
+    "RD_ALifeLine_37d34e88417edb4f": {
+      "tr": "Hey!! Rahat bırak onu, seni zorba!"
+    },
+    "RD_ALifeLine_0cb665b165cd8785": {
+      "tr": "İşte, söylemiştim, belalı biri demiştim, SÖYLEMİŞTİM!"
+    },
+    "RD_ALifeLine_0fbbea192af7cf2c": {
+      "tr": "Ne?! Neden ona vurdun? O bizimle!"
+    },
+    "RD_ALifeLine_2b3c24cb46b74298": {
+      "tr": "Dur!! O bir dost, ne yapıyorsun?"
+    }
+  }
+}

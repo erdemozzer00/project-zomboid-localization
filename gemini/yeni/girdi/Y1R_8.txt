@@ -1,0 +1,582 @@
+# PAKET Y1R · parça 8/8 · satır 2364-2702 (339 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+# SAHNE: Konuşanlar salgının geç döneminin DÜŞMAN grupları. faction=alife_iron_orchard: Iron Orchard Raiders, istemek yerine almayı seçmiş meyve bahçesi işçileri ve yol hırsızları; kıyafetleri uyumsuz, silahları hırpalanmış. faction=alife_argent_isolation: Argent Isolation Corps, kimsenin çağrılarına cevap vermediği halde görevi sürdüren bir dekontaminasyon birliği; koruyucu tulumlarını çıkarmıyorlar, mermiyi paylaşıyorlar, yabancıları yollarından kovuyorlar. faction=alife_blackglass: Blackglass Detachment, emir beklemeyi bırakmış küçük bir askerî müfreze; hafif yolculuk ediyor, birbirini kolluyor, erzakını tehdit edeni kovalıyor. Grup adları çevrilmez (Orchard, Argent, Blackglass). Ton: yorgun, yıpranmış, sert.
+
+
+##### HORDE_SPOTTED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Konuşan, oyuncunun karşılaştığı bir grubun üyesi (etiketteki faction); söz oyuncuya ya da kendi arkadaşlarına, olay anında atılır. Kimse cevap vermez; bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Zombi sürüsü görüldü.
+2364 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Horde on the road, fall back to the cars
+2365 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Too many, we pull back and hold the post
+2366 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Dead in the street, hundreds, let's move
+2367 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Don't fire, they'll all come, quiet back
+2368 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Big group coming, grab your gear
+2369 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | That's a wall of them, we leave now
+2370 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Whole block's moving, tell everyone
+2371 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | No heroics, we regroup at the station
+2372 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Large group inbound, fall back to the barrier
+2373 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Mass of infected, reposition now
+2374 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Too many to engage, withdraw
+2375 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Do not fire, you'll draw them all, move out
+2376 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Heavy movement from the south, secure the vehicle
+2377 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Count is unmanageable, retreat to the base
+2378 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Infected wave, no engagement
+2379 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Everyone mount up, we leave
+2380 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Dead everywhere, drop the loot and run
+2381 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Too many, scatter
+2382 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Forget it, let them have the place
+2383 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Move move, they're all over
+2384 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Nobody shoots, run quiet
+2385 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | That's a whole city of them, go
+2386 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | We can't fight that, out
+2387 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Leave the car, leave everything, go
+2388 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Dead on the street, get inside
+2389 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Too many, leave the corner
+2390 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Lock up, hide until they pass
+2391 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | No noise, they'll go by
+2392 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | That's trouble we can't shoot
+2393 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Whole block's crawling, move
+2394 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Back to the safehouse, now
+2395 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Forget the deal, run
+2396 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Dead coming, back off, now
+2397 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Too many, we leave the patient and pray
+2398 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | No sirens, they'll follow it, go quiet
+2399 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Pack up, we move now
+2400 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | That's a flood of them, retreat
+2401 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | We can't save everyone, go
+2402 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Hold the kit, run
+2403 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Everyone in the vehicle, hurry
+2404 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Dead coming, close up, hold
+2405 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Too many, drop it and run
+2406 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Lock it down, now
+2407 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | They're everywhere, we're leaving
+2408 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Leave the tools, go
+2409 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | That's a mob, retreat now
+2410 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Quiet, quiet, let them pass
+2411 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Pack up, we're out
+2412 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Dead coming, bar the doors
+2413 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Too many, stay silent, don't move
+2414 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Blankets over the windows, now
+2415 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | They'll pass, they have to pass
+2416 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Don't light the stove, they'll smell it
+2417 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Back inside, everyone inside
+2418 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Quiet, quiet, quiet
+2419 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | God help us, hold on
+
+##### KILL_CONFIRMED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Konuşan, oyuncunun karşılaştığı bir grubun üyesi (etiketteki faction); söz oyuncuya ya da kendi arkadaşlarına, olay anında atılır. Kimse cevap vermez; bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Düşmanı öldürdü; ekibe rapor.
+2420 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | One less, stay low
+2421 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | He's done, move on
+2422 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Confirmed, keep scanning
+2423 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | That's a clean one
+2424 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Down and staying down
+2425 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Dead, next
+2426 | faction=ksp post, sheriff, muldraugh pd, county jail, conservation, courthouse ve 12 grup daha | Tell dispatch, if anyone's left to tell
+2427 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Hostile down
+2428 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Target neutralized
+2429 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Confirmed kill, advance
+2430 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Tango down
+2431 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Clear in this sector
+2432 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Neutralized, report it
+2433 | faction=armor school, mp brigade, guard engineers, guard infantry, deserters, guard remnants ve 10 grup daha | Dead, move up
+2434 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Lights out
+2435 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Dead as a doornail
+2436 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | One more for the pile
+2437 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | Stay down, loser
+2438 | faction=dixie road, pit, tollmen, prison predators, napier collectors, knob stalkers ve 19 grup daha | He won't be needing that
+2439 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | He's done
+2440 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | That's one problem fixed
+2441 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Quiet now
+2442 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Another one gone
+2443 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | He knew the rules
+2444 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | Dead, drag him off
+# SAHNE: Konuşanlar salgının geç döneminin DÜŞMAN grupları. faction=alife_iron_orchard: Iron Orchard Raiders, istemek yerine almayı seçmiş meyve bahçesi işçileri ve yol hırsızları; kıyafetleri uyumsuz, silahları hırpalanmış. faction=alife_argent_isolation: Argent Isolation Corps, kimsenin çağrılarına cevap vermediği halde görevi sürdüren bir dekontaminasyon birliği; koruyucu tulumlarını çıkarmıyorlar, mermiyi paylaşıyorlar, yabancıları yollarından kovuyorlar. faction=alife_blackglass: Blackglass Detachment, emir beklemeyi bırakmış küçük bir askerî müfreze; hafif yolculuk ediyor, birbirini kolluyor, erzakını tehdit edeni kovalıyor. Grup adları çevrilmez (Orchard, Argent, Blackglass). Ton: yorgun, yıpranmış, sert.
+
+##### KILL_CONFIRMED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Konuşan, oyuncunun karşılaştığı bir grubun üyesi (etiketteki faction); söz oyuncuya ya da kendi arkadaşlarına, olay anında atılır. Kimse cevap vermez; bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Düşmanı öldürdü; ekibe rapor.
+2445 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | He's down, keep your eyes open
+2446 | faction=renfro, coyle, hobbs, cornfield, countyline, dixie network ve 11 grup daha | That's the end of him
+2447 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | He's gone, I'm sorry
+2448 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | No pulse, that's it
+2449 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Nothing more to do
+2450 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | That's the end of it
+2451 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Down, thank God
+2452 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | He won't get up again
+2453 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | Done, he's down, check around
+2454 | faction=vfd, county ems, hospital, red cross, prather, schoolhouse ve 7 grup daha | He's down, stay sharp
+2455 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Got him with the wrench
+2456 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Stay down, buddy
+2457 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | One less, keep your eyes open
+2458 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Done, back to work
+2459 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | Dead, finally
+2460 | faction=lineworkers, bledsoe, crume, chopshop, rivermen, utility survivors ve 11 grup daha | He won't bother us
+2461 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | It's down, it's really down
+2462 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | He's down, thank God, keep watching
+2463 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Get the shovel, bury it
+2464 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | One less to worry about
+2465 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | He's gone
+2466 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Done, I think it's done
+2467 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | He's down, keep moving
+2468 | faction=radio station, vittitoe, tackett, ledford, kessinger, slaughter ve 38 grup daha | Finally, he's down
+
+# SAHNE: Bu dosyadaki HER satırda oyuncu NPC'nin sorusuna/teklifine EVET dedi; satır NPC'nin buna tepkisi. Olay adı sorunun ne olduğunu gösterir. Bütün rollerden NPC'ler (sivil, aile, kolluk, asker, haydut, çete…); kim konuştuğu reg/role etiketinde, oyuncuya tutumu st etiketinde. NPC DOĞRUDAN OYUNCUYA konuşuyor: tekil 'sen'. Sesi role ve tutuma göre kur (sivil ürkek ya da sıcak, asker/polis kısa ve mesafeli, haydut kaba).
+
+##### AGREE #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu EVET düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+2469 | reg=civilian,family,worker,rescue|st=friendly,neutral | Yeah? Oh thank God, I thought it was just me
+2470 | reg=civilian,family,worker,rescue|st=friendly,neutral | Okay, good, so I'm not going crazy
+2471 | reg=civilian,family,worker,rescue|st=friendly,neutral | Right?! Finally somebody says it
+2472 | reg=civilian,family,worker,rescue|st=friendly,neutral | Ha, yeah, I knew you'd get it
+2473 | reg=civilian,family,worker,rescue|st=careful | Huh, well, at least we agree on that much
+2474 | reg=family|st=friendly,neutral | Bless you, dear, it's good not to be alone in it
+2475 | reg=law,swat | Glad we see it the same way
+2476 | reg=military,elite | Copy, same page then
+2477 | reg=outlaw,raider,gang,club,crime,prison | Heh, there you go, you get it
+2478 | - | Yeah, I figured you'd been there too
+2479 | - | Good, then I don't have to explain it
+2480 | - | Mm, then you know exactly what I mean
+
+##### ASK_RAIDERS #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu EVET düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+# Oyuncu bu konuda soru sormuş, NPC cevap verip 'daha bilmek ister misin / dinler misin' gibi bir şey sormuştu.
+2481 | - | They took a farmhouse on the eighth, one woman got out the back, the rest didn't
+2482 | - | They don't take prisoners, they take everything else
+
+##### HELP_THEM #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu EVET düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+# NPC oyuncudan yardım istemişti.
+2483 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Good, let's get to it then
+2484 | reg=military|st=neutral,careful | Acknowledged, appreciate the cooperation
+
+##### JOIN_GROUP #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu EVET düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+# NPC oyuncuya 'bizim gruba katılmak ister misin' diye sormuştu.
+2485 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Good, we'll sort out the details later
+
+##### LEAVE_NOW #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu EVET düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+# NPC oyuncudan gitmesini istemişti.
+2486 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Good, thanks
+2487 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Alright, stay safe out there
+2488 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Smart move
+2489 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Thanks for not making it a thing
+
+##### SUSPECT #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu EVET düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+2490 | reg=civilian,family,worker,rescue | Then get away from me, right now
+2491 | reg=civilian,family,worker,rescue | I knew it, I KNEW it, stay back!
+2492 | reg=civilian,family,worker,rescue|st=friendly,neutral | Oh God... okay, okay, just go, please
+2493 | reg=family | Then you'll get nothing from me, not a word
+2494 | reg=law,swat | Then we have a problem, step back, hands where I can see them
+2495 | reg=military,elite | Then this conversation is over, move along
+2496 | reg=outlaw,raider,gang,club,crime,prison | Ha, at least you're honest, now get lost
+2497 | reg=outlaw,raider,gang,club,crime,prison | Then you picked the wrong one to try it on
+2498 | - | Well, that's honest, it's also the end of this talk
+2499 | - | Then turn around and walk, while I'm still asking nicely
+
+##### TRADE_OFFER #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu EVET düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+# NPC takas teklif etmişti.
+2500 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Deal... probably, let's see it first
+
+##### WALK_TOGETHER #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu EVET düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+# NPC 'biraz birlikte yürüyelim mi' diye sormuştu.
+2501 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Smart, let's go
+2502 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Sure, keep a few steps back, so we don't bunch up
+
+##### WANT_TROUBLE #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu EVET düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+2503 | reg=outlaw,raider,gang,club,crime,prison | Then come on, let's see it
+2504 | reg=outlaw,raider,gang,club,crime,prison | Ha! Alright, I've been bored all day
+2505 | reg=civilian,family,worker,rescue|st=friendly,neutral | Oh God, no, no, please, I don't want this
+2506 | reg=civilian,family,worker,rescue | Then I'm not going to make it easy for you
+2507 | reg=law,swat | Then you just made the worst call of your day
+2508 | reg=military,elite | Then you'll lose, and fast
+2509 | - | Then step up, I'm right here
+2510 | - | You'll be sorry you said that before long
+
+# SAHNE: Bu dosyadaki HER satırda oyuncu NPC'nin sorusuna/teklifine HAYIR dedi; satır NPC'nin buna tepkisi (kırgınlık, anlayış, korku, öfke…). Olay adı sorunun ne olduğunu gösterir. Bütün rollerden NPC'ler (sivil, aile, kolluk, asker, haydut, çete…); kim konuştuğu reg/role etiketinde, oyuncuya tutumu st etiketinde. NPC DOĞRUDAN OYUNCUYA konuşuyor: tekil 'sen'. Sesi role ve tutuma göre kur (sivil ürkek ya da sıcak, asker/polis kısa ve mesafeli, haydut kaba).
+
+##### AGREE #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu HAYIR düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+2511 | reg=civilian,family,worker,rescue|st=friendly,neutral | No? Huh, maybe it's just me then
+2512 | reg=civilian,family,worker,rescue|st=friendly,neutral | Oh... okay, guess I'm the odd one out
+2513 | reg=civilian,family,worker,rescue|st=friendly,neutral | Really? Lucky you, honestly
+2514 | reg=civilian,family,worker,rescue|st=careful | Fine, keep your own opinion
+2515 | reg=family|st=friendly,neutral | Well, aren't you the lucky one, dear
+2516 | reg=law,swat | Fair enough, we see it different
+2517 | reg=military,elite | Noted, we disagree
+2518 | reg=outlaw,raider,gang,club,crime,prison | Pfft, then you ain't paying attention
+2519 | - | Then you've been luckier than me, that's all
+2520 | - | Huh, alright, forget I said it
+2521 | - | Suit yourself, I know what I've seen
+2522 | - | Fine, believe what you want, I'm not arguing
+
+##### ASK_DEN #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu HAYIR düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+# Oyuncu bu konuda soru sormuş, NPC cevap verip 'daha bilmek ister misin / dinler misin' gibi bir şey sormuştu.
+2523 | - | Then keep clear of the east side, and we never had this conversation
+
+##### HELP_THEM #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu HAYIR düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+# NPC oyuncudan yardım istemişti.
+2524 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | Yeah... everybody's stretched thin, I know
+2525 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | Okay... okay, I'll figure something out
+2526 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | Sure, sure, forget I said anything
+2527 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Fine, I won't take it personal
+2528 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Alright, I'll make it work
+2529 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Eh, story of my life
+
+##### JOIN_GROUP #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu HAYIR düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+# NPC oyuncuya 'bizim gruba katılmak ister misin' diye sormuştu.
+2530 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Got it, you don't owe me reasons
+2531 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Hah, alright, more beans for us
+2532 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Offer's good for a while, think on it
+
+##### SUSPECT #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu HAYIR düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+2533 | reg=civilian,family,worker,rescue | Then quit asking things like that
+2534 | reg=civilian,family,worker,rescue|st=friendly,neutral | Okay... okay, sorry, I'm just jumpy
+2535 | reg=civilian,family,worker,rescue|st=careful | You'd say no either way, wouldn't you
+2536 | reg=family | Then mind your manners and we'll get along
+2537 | reg=law,swat | Then you won't mind me keeping an eye on you
+2538 | reg=military,elite | Then stop asking and keep moving
+2539 | reg=outlaw,raider,gang,club,crime,prison | Sure you ain't, sure
+2540 | reg=outlaw,raider,gang,club,crime,prison | Then quit poking around, poking gets people hurt
+2541 | - | Alright, I'll take that, but I'm watching you
+2542 | - | Then we're fine, just don't give me a reason
+
+##### TRADE_OFFER #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu HAYIR düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+# NPC takas teklif etmişti.
+2543 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Fine, I'll hang on to my stuff
+2544 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Fair enough, can't blame a guy for trying
+2545 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Eh, your call, somebody else'll bite
+
+##### WALK_TOGETHER #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu HAYIR düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+# NPC 'biraz birlikte yürüyelim mi' diye sormuştu.
+2546 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Sure, see you around
+2547 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Fine by me, I'm faster alone
+2548 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Eh, I talk too much anyway
+
+##### WANT_TROUBLE #####
+# NEREDE: Konuşma penceresinde. NPC oyuncuya bir şey sordu ya da teklif etti, oyuncu HAYIR düğmesine bastı; bu, NPC'nin o cevaba yüz yüze tepkisi. Oyuncu okuyup konuşmaya devam eder.
+2549 | reg=outlaw,raider,gang,club,crime,prison | Smart, now get out of my face
+2550 | reg=outlaw,raider,gang,club,crime,prison | Didn't think so, run along
+2551 | reg=outlaw,raider,gang,club,crime,prison | Yeah, that's what I figured, keep walking
+2552 | reg=civilian,family,worker,rescue | Good, good, neither do I, let's both calm down
+2553 | reg=civilian,family,worker,rescue | Then we leave it, okay, we just leave it
+2554 | reg=law,swat | Good, keep it that way then, move along
+2555 | reg=military,elite | Good, move along then
+2556 | - | Then back off and we're done here
+2557 | - | Right answer, now keep it that way
+
+# SAHNE: Olay adı OYUNCUNUN konuşma menüsünden seçtiği konu/eylem (GREETING = oyuncu selam verdi, FAREWELL = vedalaştı, THANKS = teşekkür etti, FOLLOW = 'beni takip et' dedi, WAIT = 'bekle', COME = 'gel', GO = 'git', STOP = 'dur', INSULT = hakaret etti, THREATEN = tehdit etti, COMPLIMENT = iltifat etti, SORRY = özür diledi, DEMAND = bir şey talep etti, HANDS = 'ellerini kaldır', WHO = 'sen kimsin', HOW = 'nasılsın'…); satır NPC'nin buna cevabı. Bütün rollerden NPC'ler (sivil, aile, kolluk, asker, haydut, çete…); kim konuştuğu reg/role etiketinde, oyuncuya tutumu st etiketinde. NPC DOĞRUDAN OYUNCUYA konuşuyor: tekil 'sen'. Sesi role ve tutuma göre kur (sivil ürkek ya da sıcak, asker/polis kısa ve mesafeli, haydut kaba).
+
+##### COLDQ_WELL_MILD #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Oyuncu 'üşüyor musun' diye sordu; olayın sonu NPC'nin durumunu gösterir (SICK hasta, FREEZING donuyor, CHILLED üşümeye başladı, WELL_COLD hava soğuk ama giyinik, WELL_MILD hava ılık).
+2558 | - | Cold? No, you look it, though
+2559 | - | It's not that bad, not yet anyway
+2560 | reg=civilian,family,worker,rescue|st=friendly,neutral | No, I'm fine, why, you look like you need a coat more than me
+
+##### COME_WITH_ME #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2561 | reg=raider|st=friendly | Honestly, I'd love to, I'm so tired of being alone, but I don't know you, give me a reason?
+2562 | reg=military,elite|st=friendly|rep=good | Alright, you lead, we doing this?
+
+##### COMPLIMENT #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2563 | reg=civilian,family,worker,rescue|st=careful | What do you want
+
+##### FAREWELL #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2564 | reg=civilian,family|tmp=fresh|st=friendly,neutral|hour=16,5 | Okay, bye, please be careful, okay? Stay off the open streets after dark
+
+##### FOLLOW_ME #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2565 | reg=raider|st=friendly | Alright, but if it's a trap, I'm shooting first, got it?
+2566 | reg=crime|st=friendly | Lead on, but you tell me where on the way, deal?
+
+##### GREETING #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2567 | reg=swat|st=friendly,neutral | Hold on, tell me what you need
+2568 | reg=law|st=friendly,neutral|day=0,5 | Citizen, glad you're okay, you got somewhere safe to go?
+2569 | role=rescue_firefighter|st=friendly,neutral | Hey... hey there, everything okay?
+2570 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Hi, I guess... now what do you want
+2571 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | What do you want? Make it short
+2572 | reg=military|st=friendly | Hello, friend, welcome, you doing alright?
+2573 | reg=civilian,family,worker,rescue|tmp=seasoned|st=neutral | Hey, tell me what you need
+# SAHNE: Olay adı OYUNCUNUN konuşma menüsünden seçtiği konu/eylem (GREETING = oyuncu selam verdi, FAREWELL = vedalaştı, THANKS = teşekkür etti, FOLLOW = 'beni takip et' dedi, WAIT = 'bekle', COME = 'gel', GO = 'git', STOP = 'dur', INSULT = hakaret etti, THREATEN = tehdit etti, COMPLIMENT = iltifat etti, SORRY = özür diledi, DEMAND = bir şey talep etti, HANDS = 'ellerini kaldır', WHO = 'sen kimsin', HOW = 'nasılsın'…); satır NPC'nin buna cevabı. Bütün rollerden NPC'ler (sivil, aile, kolluk, asker, haydut, çete…); kim konuştuğu reg/role etiketinde, oyuncuya tutumu st etiketinde. NPC DOĞRUDAN OYUNCUYA konuşuyor: tekil 'sen'. Sesi role ve tutuma göre kur (sivil ürkek ya da sıcak, asker/polis kısa ve mesafeli, haydut kaba).
+
+##### GREETING #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2574 | reg=civilian,family,worker,rescue|tmp=seasoned|st=neutral | Hello, tell me what you need
+2575 | reg=law,swat|st=friendly | Hello there, citizen, are you alright?
+2576 | role=law_sheriff|st=friendly,neutral | Sheriff's office, folks call me Sheriff, I didn't catch your name, friend
+2577 | reg=law,swat|st=friendly,neutral|hour=6,11 | Morning, we're doing our rounds, tell us if there's anything to report
+
+##### HOW_ARE_YOU #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2578 | st=friendly,neutral | Better than the guy I took these boots from
+2579 | st=friendly,neutral | I can answer that properly, or I can say fine, got time for the proper one?
+2580 | st=friendly,neutral | I was fine till I started thinking about it... not your fault
+2581 | st=friendly,neutral | Tired of hearing my own thoughts... talking helps
+2582 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | I'm okay... slept four hours straight, that's a record
+2583 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Not too bad, considering... you're the first to ask all week
+2584 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Honestly? Lucky... most days I just feel lucky
+2585 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | So-so... better now, you?
+2586 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Still kicking, knees hate me, but still kicking
+2587 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|hour=22,4 | Sleepless, you can't sleep either?
+
+##### INSULT #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2588 | reg=law,swat|st=friendly,neutral|rep=good | That's out of character, must be a rough day
+
+##### JOIN_REQUEST #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2589 | reg=crime|st=friendly | Let's discuss it over a drink, if I can find one, deal?
+2590 | reg=military,elite|st=friendly | We're always short on people... you good with following orders?
+
+##### OFFER_HELP #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2591 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Oh hell yes, grab the other end of this!
+2592 | reg=prison|st=friendly | I... yeah, maybe, if you really mean it, do you?
+2593 | reg=family|role=family_elder|st=friendly,neutral|world=fence | The fence out back is down and I'm too old to lift the posts, you look like you've got a back on you, give me a hand?
+2594 | reg=elite|st=friendly|world=trees | Spot the treeline for me, call out movement, can you do that?
+2595 | reg=outlaw|st=friendly,neutral | Help, huh, I got a job needs two, pays in shells, no questions asked, you in?
+2596 | reg=crime|st=neutral,friendly | Helpful people get paid in my business, carry a package to Irvington for me, don't open it, deal?
+
+##### OFFER_ITEM #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2597 | reg=civilian,family,worker,rescue|st=careful | Why, though
+2598 | st=neutral | Hold on, nobody gives stuff away for nothing
+
+##### PLAYER_HURT #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Oyuncu kendi durumunu söyledi: PLAYER_BITTEN = ısırıldım, PLAYER_HURT = yaralıyım, PLAYER_SAD = üzgünüm, PLAYER_SCARED = korkuyorum, PLAYER_TIRED_HUNGRY = yorgun/açım. Satır NPC'nin tepkisi.
+2599 | reg=civilian,family,worker,rescue|st=neutral | Hurt? Where? Show me, let me see how bad it is
+
+##### PLAYER_SAD #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Oyuncu kendi durumunu söyledi: PLAYER_BITTEN = ısırıldım, PLAYER_HURT = yaralıyım, PLAYER_SAD = üzgünüm, PLAYER_SCARED = korkuyorum, PLAYER_TIRED_HUNGRY = yorgun/açım. Satır NPC'nin tepkisi.
+2600 | reg=civilian,family,worker,rescue|st=friendly|mood=sad | Tell me about them... what they were like, what their name was
+
+##### SMALL_TALK #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Oyuncu laf arası sohbet açtı; NPC gündelik, eski günlere dair bir şey söylüyor.
+2601 | reg=raider|st=friendly,neutral | Your boots are good, I'd kill for a pair like that
+
+##### THANKS #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2602 | reg=civilian,family,worker,rescue|st=friendly,neutral | Pfft, don't mention it, just stay alive
+
+##### WARN_ZOMBIES #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2603 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Thanks, I owe you one, point me where
+
+##### WHO_ARE_YOU #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2604 | reg=civilian,family,worker,rescue|st=careful | Who's asking
+
+##### WXQ_COLD #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Oyuncu 'hava nasıl' diye sordu; olayın sonu şu anki havayı gösterir (RAIN yağmur, HOT sıcak, SNOW kar, STORM fırtına, COLD soğuk, CLEAR açık, FOG sis).
+2605 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | I can't feel my fingers, I can't feel my face, I can't feel anything, that can't be good
+
+##### WXQ_HOT #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Oyuncu 'hava nasıl' diye sordu; olayın sonu şu anki havayı gösterir (RAIN yağmur, HOT sıcak, SNOW kar, STORM fırtına, COLD soğuk, CLEAR açık, FOG sis).
+2606 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | M-my head is pounding, my vision's swimming, I think this is it
+
+##### NPC_OPEN #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı; bu, pencere açılınca NPC'nin oyuncuya yüz yüze ilk sözü, 'sen'. Oyuncu okuyup bir konu seçecek.
+# Oyuncu konuşma penceresini açtı; NPC'nin ilk karşılaması.
+2607 | reg=crime|st=friendly | Ah, hello there, come closer, tell me what's on your mind
+
+# SAHNE: Olay adı OYUNCUNUN konuşma menüsünden seçtiği şey; satır NPC'nin buna cevabı. DROP_WEAPON = oyuncu 'silahını bırak' dedi, LOWER_WEAPON = 'silahını indir', DONT_SHOOT = 'ateş etme', I_AM_FRIENDLY = 'dostum', CALM_DOWN = 'sakin ol', NEGOTIATE = 'konuşalım', BRIBE = rüşvet teklif etti, BEG = yalvardı/diz çöktü, SURRENDER = teslim oldu, GIVE_BACK = 'aldığını geri ver', ENCOURAGE = moral verdi, FLIRT = flört etti, LAUGH = güldü, REPEAT = 'ne dedin, tekrar et', SWEAR_VENT = küfrederek dert yandı, OK_ACK = 'tamam' dedi, YES/NO/MAYBE = oyuncu ortada soru yokken 'evet/hayır/belki' dedi, HOME_NONE / HOME_REFUSE = oyuncu 'nerede kalıyorsun' diye sordu, STAY_NIGHT = 'burada kalabilir miyim' dedi. Bütün rollerden NPC'ler (sivil, aile, kolluk, asker, haydut, çete…); kim konuştuğu reg/role etiketinde, oyuncuya tutumu st etiketinde. NPC DOĞRUDAN OYUNCUYA konuşuyor: tekil 'sen'. Sesi role ve tutuma göre kur (sivil ürkek ya da sıcak, asker/polis kısa ve mesafeli, haydut kaba).
+
+##### BRIBE #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2608 | reg=raider|st=neutral,careful | A bribe, huh? I like you already, let's see it
+
+##### NEGOTIATE #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2609 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Go on, let's hear it
+2610 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Go on, make your offer
+2611 | reg=raider|st=neutral,careful | Negotiate? Alright, put an offer on the table
+2612 | reg=crime|st=neutral,careful | I'm always open to a negotiation, name your terms
+
+##### REPEAT #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2613 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Come again
+
+##### WINQ_SUMMER #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Oyuncu 'kış nasıl geçecek / kışa hazır mısın' diye sordu; olayın sonu şu anki mevsim.
+2614 | reg=civilian,family,worker,rescue|tmp=fresh | Haven't thought about it, maybe I should
+
+# SAHNE: Olay adı OYUNCUNUN konuşma menüsünden NPC'ye sorduğu soru (ASK_NAME = adın ne, ASK_OKAY = iyi misin, ASK_FOOD = yiyecek var mı, ASK_BITTEN = ısırıldın mı, ASK_ADVICE = tavsiye ver, ASK_DANGER = tehlike var mı, ASK_BASE/ASK_SAFE_PLACE = üs/güvenli yer nerede, ASK_NEWS = haber var mı, ASK_WEAPON/ASK_AMMO = silah/mermi, ASK_TRADE = takas, ASK_HELP = yardım, ASK_FAMILY = ailen, ASK_HOMETOWN = nerelisin, ASK_JOB_BEFORE = eskiden ne iş yapardın, ASK_PLANS = planın ne, ASK_HOPE = umut var mı, ASK_CAUSE/ASK_WHAT_HAPPENED = salgın nasıl başladı/ne oldu, ASK_GOVERNMENT/ASK_MILITARY/ASK_POLICE = hükümet/ordu/polis, ASK_SCARED = korkuyor musun…); satır NPC'nin o soruya cevabı. Bütün rollerden NPC'ler (sivil, aile, kolluk, asker, haydut, çete…); kim konuştuğu role etiketinde, oyuncuya tutumu st etiketinde. NPC DOĞRUDAN OYUNCUYA konuşuyor: tekil 'sen'. Sesi role ve tutuma göre kur (sivil ürkek ya da sıcak, asker/polis kısa ve mesafeli, haydut kaba). Soru konusu başlık satırında (##### ASK_X #####) yazar; cevap o soruya uymalı ama kaynakta olmayan ayrıntı ekleme.
+
+##### ASK_ALONE_NIGHT #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2615 | reg=civilian,family,worker,rescue|st=careful | No, not tonight
+2616 | role=militia | Negative, we can't take overnighters... find a barn, bar it, sleep light
+2617 | reg=military,elite|st=friendly|rep=good | Yeah, we can set you up for the night, you staying?
+
+##### ASK_AMMO #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Yanındakinden mermi istiyor.
+2618 | reg=raider|st=neutral,careful | Ammo's worth more than gold these days, make me an offer
+2619 | reg=elite|st=neutral,careful,hostile | No ammo for you
+2620 | reg=raider,gang,prison|tmp=predator|st=hostile | Sure, keep asking... wanna see how friendly I get?
+
+##### ASK_BASE #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2621 | reg=civilian|st=friendly,neutral|world=building | We hold a house, three families, one bathroom... don't ask me where
+
+##### ASK_BITTEN #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2622 | reg=civilian,family|tmp=seasoned|st=friendly,neutral | You can look, from there, then we'll agree what happens next, okay?
+2623 | reg=rescue|st=friendly,neutral | If it eases your mind I'll show you... want me to?
+2624 | reg=elite|st=friendly,neutral | Careful around each other means asking before touching... so, can I look?
+2625 | reg=military,elite|st=careful,hostile | Don't assume anybody's safe, so do we check each other, or not?
+2626 | reg=civilian|tmp=fresh|st=friendly,neutral | Look, you can ask, just don't make it sound like a sentence you already passed, okay?
+
+##### ASK_CAUSE #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2627 | reg=civilian,family|tmp=fresh|st=friendly,neutral | Rabies, chemicals, who knows... don't you just want somebody to tell us the truth?
+
+##### ASK_DANGER #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2628 | role=law_deputy,law_officer|tmp=seasoned|st=friendly,neutral | Looters, armed ones, stay back from the stores in town
+2629 | role=rescue_firefighter|st=friendly,neutral | Gas leaks, stay out of basements
+
+##### ASK_DESTINATION #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2630 | role=civilian_loner | Don't know yet... I follow the deer, and the deer have moved on
+2631 | role=civilian_loner|st=friendly,neutral | Wherever the deer are
+
+##### ASK_FAMILY #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2632 | role=swat_lead,swat_operator|tmp=veteran|st=careful | Not discussing family
+2633 | st=friendly,neutral | I don't have news I'd trust... so I try not to guess
+2634 | st=friendly,neutral | I don't want sympathy right now... company would be alright
+
+##### ASK_GOVERNMENT #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2635 | reg=law,swat|st=careful,hostile | The government out here is whoever's armed, keep walking
+
+##### ASK_GROUP #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2636 | role=biker,biker_boss|tmp=predator,veteran|st=careful | You're asking a club member about the club, that's cute
+2637 | role=rescue_medical|st=friendly,neutral | We run the aid station... nobody works for anybody, we just show up
+2638 | role=civilian_loner|st=friendly,neutral | Just me
+2639 | reg=civilian,family,worker|tmp=seasoned,veteran|st=friendly,neutral|world=fence | We don't have a fancy name, we got a well and a fence, that's us
+2640 | reg=civilian,family,worker|tmp=seasoned,veteran|st=neutral | Decent people, mostly... we keep a list of the ones who aren't
+2641 | reg=civilian,family,worker|tmp=seasoned,veteran|st=friendly | Just us folks, there's room at the table if you're handy with a hammer, you want in?
+2642 | role=militia|st=friendly,neutral|world=road | We watch the roads so the families can sleep, that's who
+2643 | reg=worker|st=friendly,neutral | Bunch of us from the shop, welders, a plumber, and one guy who SWEARS he's an electrician
+2644 | role=law_officer,law_sergeant|st=friendly,neutral | Police department, we're working with the folks here till somebody tells us different
+2645 | reg=swat|st=friendly,neutral | County tactical team, attached to these people for now
+2646 | reg=outlaw|st=friendly,neutral | I travel with a few quiet folks, we trade and we don't ask
+2647 | role=deserter|st=friendly,neutral | Used to be the Army, now I'm with these guys, and they don't ask for my service number
+2648 | reg=raider|st=friendly,neutral | You heard of us? ...You will
+2649 | role=raider_boss|st=friendly,neutral,careful | I built this crew out of drunks and bad decisions, and it runs better than the county did
+2650 | reg=gang|st=friendly,neutral|world=building | We run this side of town, look at the walls, we sign our work
+2651 | role=biker_boss|st=friendly,neutral|world=road | Twenty-two years on these roads, the end of the world is just another run
+2652 | reg=raider,gang,club,prison|st=hostile | You just walked into OUR part of the county, bad day for you
+
+##### ASK_HELP #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2653 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | I can try, I don't know what I can do, but I can try, tell me what you need
+2654 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | Slow down, breathe, start from the beginning, tell me what's wrong
+2655 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Depends how bad it is, and how long it'll take
+2656 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Say the word, and I'm there, just tell me what you need
+2657 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=recent_zombie_contact | Y-yes, yes, quickly, tell me what you need
+2658 | reg=raider|st=neutral,careful | Help? Sure, for a price, show me what you got
+2659 | reg=outlaw|st=friendly | Alright, I'll see what I can do... what is it?
+2660 | reg=law|st=neutral,careful | Are you in danger? Tell me if anyone's hurt
+2661 | role=militia|st=friendly | Of course, we look after our own, and you're one of us now, what do you need?
+2662 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly | Help you? Oh God, I'm not strong, I'm not brave, but I'll try, tell me what you need
+2663 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly | Yes, yes, let me grab my stuff, show me what's wrong
+
+##### ASK_HOPE #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2664 | reg=civilian,family,worker,rescue|st=friendly,neutral | No gunfire since breakfast, that's something
+
+##### ASK_JOB_BEFORE #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2665 | role=law_sheriff,law_sergeant|tmp=veteran|st=careful | I wear a badge, and you can see it if you need to
+
+##### ASK_MILITARY #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2666 | role=civilian_man,civilian_woman|tmp=fresh|st=friendly,neutral|day=4,14 | I saw a convoy go north... and it never came back, and I don't know what that means
+
+##### ASK_MISS #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2667 | st=friendly,neutral | Somebody knowing how I take my coffee... such a small thing
+2668 | st=friendly,neutral | Ordering pizza and bitching that it took forty minutes
+2669 | st=friendly,neutral | Being bored... real, safe, stupid bored
+
+##### ASK_NAME #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2670 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Does it help you any, knowing?
+2671 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Ask me again once I know you a little
+2672 | reg=raider|st=friendly | Name's Dutch, not my real one but it works, and yours is...
+2673 | reg=club|st=neutral,careful | Road name's Hatchet, that's what the brothers use, now you
+2674 | reg=law|st=neutral,careful | Deputy Hollis, county, and you are...
+2675 | reg=law|st=neutral,careful | Trooper Meyers, state police, I'll need your name
+2676 | reg=swat|st=neutral,careful | We use callsigns, mine's Raven, your turn
+2677 | reg=military|st=neutral,careful | Specialist Reyes, and you are...
+2678 | role=militia|st=neutral,careful | Harlan Fisher, farm just off the county line, and yours is...
+
+##### ASK_NEWS #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2679 | role=elite_operator,elite_delta,mercenary|tmp=veteran|st=careful | Nothing to tell
+
+##### ASK_OKAY #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2680 | reg=civilian,family|tmp=fresh|st=friendly,neutral|world=fence | I'd rather take things slow today... can we not rush it?
+
+##### ASK_PLANS #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2681 | reg=military|st=friendly | Trying to find survivors and get them somewhere safe, you doing okay?
+
+##### ASK_RAIDERS #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2682 | reg=family|tmp=seasoned|st=neutral | A crew comes through on Sundays, that's why we don't cook on Sundays anymore
+2683 | role=rescue_clergy|st=neutral,friendly|hour=16,5 | I won't call anybody evil, I will say don't be out walking after dark
+
+##### ASK_SAFE_PLACE #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2684 | reg=civilian|st=friendly,neutral|world=building | Churches are good, thick doors... we spent two nights in one
+2685 | reg=crime|st=neutral,careful | There are secured locations, I can introduce you, with the right reference
+2686 | reg=civilian,family|tmp=seasoned,veteran|st=friendly,neutral|world=stairs | Best spot I ever found was a water tower, ladder cage, locked gate, hot as blazes, but nothing climbs
+
+##### ASK_TRADE #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+2687 | reg=worker|st=friendly,neutral | I've got tools, lots of tools, name what you need
+2688 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | Trade? Like... swap stuff? God, I haven't done that since the yard sale, okay, let's see what you've got
+2689 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | Oh! Yes! Yes, maybe, I've got a lighter that works and some matches, tell me what you're after
+2690 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | I'm low on matches, high on string, say what you need
+2691 | reg=civilian,family,worker,rescue|st=friendly | Always for a friend, just say what you're looking for
+2692 | role=worker | I've got tools, wire, rope, nails, make me an offer
+2693 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Trade? Yeah, with you I'll talk... show me what you brought
+2694 | reg=gang|st=neutral,careful | Trade? Show me what you got
+2695 | role=militia|st=neutral,careful | Trading is how we survive, show me what you have
+2696 | reg=military,elite|st=friendly,neutral|rep=good | Approved, you've got a clean record, tell me what you need
+2697 | reg=law,swat|st=friendly,neutral | I can't barter county property, but my own gear is mine, let's see what you have
+2698 | reg=military,elite|st=friendly,neutral | Soldiers trade rations for everything, name what you need
+2699 | reg=military,elite|st=friendly,neutral | I've got MREs and not much else, make me an offer
+2700 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly | Deal-making time, name what you need most
+2701 | reg=civilian,worker|tmp=seasoned|st=neutral | Last fella traded me a jar of pickles with a dead man's finger in it, so I'm looking close, still wanna trade?
+2702 | reg=gang|st=neutral | The block does business, boss sets the rates, you take the rates or you take a walk, which is it?

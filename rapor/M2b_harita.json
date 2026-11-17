@@ -1,0 +1,1137 @@
+{
+ "_paket": "M2b",
+ "_grup": "arayuz_update_sandbox",
+ "_dosya": "Sandbox",
+ "_noktalama": false,
+ "_bosluk_koru": true,
+ "_satir_sonu": true,
+ "_baslik": "1.5.2 yeni Sandbox seçenekleri",
+ "_parcalar": [
+  [
+   1,
+   48
+  ],
+  [
+   49,
+   95
+  ],
+  [
+   96,
+   124
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "Sandbox_ProjectALife_0Switches",
+   "A-Life: Features",
+   [
+    "Sandbox.json",
+    "sekme"
+   ]
+  ],
+  "2": [
+   "Sandbox_ProjectALife_2Aircraft",
+   "A-Life: Aircraft",
+   [
+    "Sandbox.json",
+    "sekme"
+   ]
+  ],
+  "3": [
+   "Sandbox_ProjectALife_2Cars",
+   "A-Life: Cars & Vehicles",
+   [
+    "Sandbox.json",
+    "sekme"
+   ]
+  ],
+  "4": [
+   "Sandbox_ProjectALife_2Weapons",
+   "A-Life: Weapons",
+   [
+    "Sandbox.json",
+    "sekme"
+   ]
+  ],
+  "5": [
+   "Sandbox_ProjectALife.LoadoutsGunMode",
+   "NPC firearm source",
+   [
+    "sandbox-options.txt:ALife.Loadouts_GunMode",
+    "A-Life: START HERE",
+    "ayar adı"
+   ]
+  ],
+  "6": [
+   "Sandbox_ProjectALife.LoadoutsGunMode_tooltip",
+   "Faction roster keeps each faction's own guns. Fixed percent lets the next option decide how many built-in NPCs carry a gun. Creator profiles are unchanged.\nDefault Faction roster (1).",
+   [
+    "sandbox-options.txt:ALife.Loadouts_GunMode",
+    "A-Life: START HERE",
+    "ipucu"
+   ]
+  ],
+  "7": [
+   "Sandbox_ProjectALife.LoadoutsGunMode_option1",
+   "Faction roster (default)",
+   [
+    "sandbox-options.txt:ALife.Loadouts_GunMode",
+    "A-Life: START HERE",
+    "seçenek 1"
+   ]
+  ],
+  "8": [
+   "Sandbox_ProjectALife.LoadoutsGunMode_option2",
+   "Fixed percent of NPCs carry a gun",
+   [
+    "sandbox-options.txt:ALife.Loadouts_GunMode",
+    "A-Life: START HERE",
+    "seçenek 2"
+   ]
+  ],
+  "9": [
+   "Sandbox_ProjectALife.LoadoutsGunPercent",
+   "NPCs carrying a gun (percent)",
+   [
+    "sandbox-options.txt:ALife.Loadouts_GunPercent",
+    "A-Life: START HERE",
+    "ayar adı"
+   ]
+  ],
+  "10": [
+   "Sandbox_ProjectALife.LoadoutsGunPercent_tooltip",
+   "Used only with Fixed percent: 10 means one built-in NPC in ten carries a gun, 100 means all do, even ones their faction leaves unarmed. Stays the same after a reload.\nDefault 100.",
+   [
+    "sandbox-options.txt:ALife.Loadouts_GunPercent",
+    "A-Life: START HERE",
+    "ipucu"
+   ]
+  ],
+  "11": [
+   "Sandbox_ProjectALife.FeatureJuggernauts",
+   "Juggernauts",
+   [
+    "sandbox-options.txt:ALife.Feature_Juggernauts",
+    "A-Life: Features",
+    "ayar adı"
+   ]
+  ],
+  "12": [
+   "Sandbox_ProjectALife.FeatureJuggernauts_tooltip",
+   "Off: no heavily armoured juggernaut NPC is ever created, in raids or anywhere else.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Feature_Juggernauts",
+    "A-Life: Features",
+    "ipucu"
+   ]
+  ],
+  "13": [
+   "Sandbox_ProjectALife.FeatureEndings",
+   "Endings and Oris tower",
+   [
+    "sandbox-options.txt:ALife.Feature_Endings",
+    "A-Life: Features",
+    "ayar adı"
+   ]
+  ],
+  "14": [
+   "Sandbox_ProjectALife.FeatureEndings_tooltip",
+   "Off: the 365-day ending, its cinematic and the Oris tower war never start. Nothing ticks.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Feature_Endings",
+    "A-Life: Features",
+    "ipucu"
+   ]
+  ],
+  "15": [
+   "Sandbox_ProjectALife.FeatureRadio",
+   "Radio and field band",
+   [
+    "sandbox-options.txt:ALife.Feature_Radio",
+    "A-Life: Features",
+    "ayar adı"
+   ]
+  ],
+  "16": [
+   "Sandbox_ProjectALife.FeatureRadio_tooltip",
+   "Off: A-Life adds no radio broadcasts, field band chatter or numbers station.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Feature_Radio",
+    "A-Life: Features",
+    "ipucu"
+   ]
+  ],
+  "17": [
+   "Sandbox_ProjectALife.FeatureVisitors",
+   "Visitors and traders",
+   [
+    "sandbox-options.txt:ALife.Feature_Visitors",
+    "A-Life: Features",
+    "ayar adı"
+   ]
+  ],
+  "18": [
+   "Sandbox_ProjectALife.FeatureVisitors_tooltip",
+   "Off: no visitor or trader ever comes to a player base and visitor events do not run.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Feature_Visitors",
+    "A-Life: Features",
+    "ipucu"
+   ]
+  ],
+  "19": [
+   "Sandbox_ProjectALife.FeatureQuests",
+   "Quests, tasks and missions",
+   [
+    "sandbox-options.txt:ALife.Feature_Quests",
+    "A-Life: Features",
+    "ayar adı"
+   ]
+  ],
+  "20": [
+   "Sandbox_ProjectALife.FeatureQuests_tooltip",
+   "Off: NPCs offer no tasks, missions or quests, including Left Behind. No task board and no markers.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Feature_Quests",
+    "A-Life: Features",
+    "ipucu"
+   ]
+  ],
+  "21": [
+   "Sandbox_ProjectALife.FeatureSpeechBubbles",
+   "Speech bubbles",
+   [
+    "sandbox-options.txt:ALife.Feature_SpeechBubbles",
+    "A-Life: Features",
+    "ayar adı"
+   ]
+  ],
+  "22": [
+   "Sandbox_ProjectALife.FeatureSpeechBubbles_tooltip",
+   "Off: NPCs show no speech bubbles above their heads. Dialogue windows are unaffected.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Feature_SpeechBubbles",
+    "A-Life: Features",
+    "ipucu"
+   ]
+  ],
+  "23": [
+   "Sandbox_ProjectALife.FeatureNpcCars",
+   "NPCs driving cars",
+   [
+    "sandbox-options.txt:ALife.Feature_NpcCars",
+    "A-Life: Features",
+    "ayar adı"
+   ]
+  ],
+  "24": [
+   "Sandbox_ProjectALife.FeatureNpcCars_tooltip",
+   "Master switch for every NPC vehicle system: NPC cars, virtual traffic, car arrivals, car encounters, car actions and car offline simulation. Off: no NPC ever drives and no NPC car spawns.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Feature_NpcCars",
+    "A-Life: Features",
+    "ipucu"
+   ]
+  ],
+  "25": [
+   "Sandbox_ProjectALife.FeatureDriveBys",
+   "Drive-bys",
+   [
+    "sandbox-options.txt:ALife.Feature_DriveBys",
+    "A-Life: Features",
+    "ayar adı"
+   ]
+  ],
+  "26": [
+   "Sandbox_ProjectALife.FeatureDriveBys_tooltip",
+   "Off: NPC cars never carry out drive-by shootings or ambushes.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Feature_DriveBys",
+    "A-Life: Features",
+    "ipucu"
+   ]
+  ],
+  "27": [
+   "Sandbox_ProjectALife.FeaturePoliceResponse",
+   "Police response",
+   [
+    "sandbox-options.txt:ALife.Feature_PoliceResponse",
+    "A-Life: Features",
+    "ayar adı"
+   ]
+  ],
+  "28": [
+   "Sandbox_ProjectALife.FeaturePoliceResponse_tooltip",
+   "Off: police cars and officers never answer crimes, gunfire or alarms.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Feature_PoliceResponse",
+    "A-Life: Features",
+    "ipucu"
+   ]
+  ],
+  "29": [
+   "Sandbox_ProjectALife.FeatureSpecialWeapons",
+   "Special weapons",
+   [
+    "sandbox-options.txt:ALife.Feature_SpecialWeapons",
+    "A-Life: Features",
+    "ayar adı"
+   ]
+  ],
+  "30": [
+   "Sandbox_ProjectALife.FeatureSpecialWeapons_tooltip",
+   "Off: NPCs never get the heavy machine gun or the JS-5 SMG. They use ordinary weapons instead.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Feature_SpecialWeapons",
+    "A-Life: Features",
+    "ipucu"
+   ]
+  ],
+  "31": [
+   "Sandbox_ProjectALife.FeatureReputation",
+   "Reputation",
+   [
+    "sandbox-options.txt:ALife.Feature_Reputation",
+    "A-Life: Features",
+    "ayar adı"
+   ]
+  ],
+  "32": [
+   "Sandbox_ProjectALife.FeatureReputation_tooltip",
+   "Off: reputation is not tracked: no gains, losses, bar or toasts, NPCs use their faction default and reputation-gated talk is open. Stored reputation is kept.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Feature_Reputation",
+    "A-Life: Features",
+    "ipucu"
+   ]
+  ],
+  "33": [
+   "Sandbox_ProjectALife.FeatureOutpostFastBuild",
+   "Fast outpost building",
+   [
+    "sandbox-options.txt:ALife.Feature_OutpostFastBuild",
+    "A-Life: Features",
+    "ayar adı"
+   ]
+  ],
+  "34": [
+   "Sandbox_ProjectALife.FeatureOutpostFastBuild_tooltip",
+   "On: sites on loaded ground are built in a short burst over a few ticks, fixed checkpoints first, and a waiting site builds the moment its ground loads. Off: one build budget per round.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Feature_OutpostFastBuild",
+    "A-Life: Features",
+    "ipucu"
+   ]
+  ],
+  "35": [
+   "Sandbox_ProjectALife.FeatureOutpostCrewAccess",
+   "Outpost crews keep a way out",
+   [
+    "sandbox-options.txt:ALife.Feature_OutpostCrewAccess",
+    "A-Life: Features",
+    "ayar adı"
+   ]
+  ],
+  "36": [
+   "Sandbox_ProjectALife.FeatureOutpostCrewAccess_tooltip",
+   "On: outposts leave the crew a walkway, the last open door is never boarded, barricades go up last, and a crew stuck behind its own barricade for 90 seconds tears it down. Off: old placement.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Feature_OutpostCrewAccess",
+    "A-Life: Features",
+    "ipucu"
+   ]
+  ],
+  "37": [
+   "Sandbox_ProjectALife.FeatureCustomAnimations",
+   "Custom animations",
+   [
+    "sandbox-options.txt:ALife.Feature_CustomAnimations",
+    "A-Life: Features",
+    "ayar adı"
+   ]
+  ],
+  "38": [
+   "Sandbox_ProjectALife.FeatureCustomAnimations_tooltip",
+   "On: NPCs use the A-Life animation sets (military and police gaits and holds, crouch, kneel and prone poses, custom death, hit and rappel clips). Off: NPCs use only the vanilla animations; movement, combat and death keep working. Reload the save after changing it.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Feature_CustomAnimations",
+    "A-Life: Features",
+    "ipucu"
+   ]
+  ],
+  "39": [
+   "Sandbox_ProjectALife.HeliMusic",
+   "Helicopter music",
+   [
+    "sandbox-options.txt:ALife.Heli_Music",
+    "A-Life: Features",
+    "ayar adı"
+   ]
+  ],
+  "40": [
+   "Sandbox_ProjectALife.HeliMusic_tooltip",
+   "Some helicopter flybys play a music track. Off: no helicopter ever plays music, only the rotor. Each player can also turn it off for themselves in the journal Settings, Helicopter music. The track weights are on the A-Life: Aircraft page.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Heli_Music",
+    "A-Life: Features",
+    "ipucu"
+   ]
+  ],
+  "41": [
+   "Sandbox_ProjectALife.HeliOrbitMax",
+   "Helicopter circling limit (minutes)",
+   [
+    "sandbox-options.txt:ALife.Heli_OrbitMaxMinutes",
+    "A-Life: Aircraft",
+    "ayar adı"
+   ]
+  ],
+  "42": [
+   "Sandbox_ProjectALife.HeliOrbitMax_tooltip",
+   "A helicopter that circles you or your base flies away after this many minutes, and no new one circles the same place for six game hours. 0 means no limit.\nDefault 8.",
+   [
+    "sandbox-options.txt:ALife.Heli_OrbitMaxMinutes",
+    "A-Life: Aircraft",
+    "ipucu"
+   ]
+  ],
+  "43": [
+   "Sandbox_ProjectALife.HeliAttract",
+   "Helicopter noise attracts zombies",
+   [
+    "sandbox-options.txt:ALife.Heli_AttractZombies",
+    "A-Life: Aircraft",
+    "ayar adı"
+   ]
+  ],
+  "44": [
+   "Sandbox_ProjectALife.HeliAttract_tooltip",
+   "On: helicopter rotors, arrivals and searchlights make noise that pulls zombies in. Off: they stay audible to you but do not draw zombies.\nDefault off.",
+   [
+    "sandbox-options.txt:ALife.Heli_AttractZombies",
+    "A-Life: Aircraft",
+    "ipucu"
+   ]
+  ],
+  "45": [
+   "Sandbox_ProjectALife.HeliMusicNone",
+   "Helicopter flyby: no-music weight",
+   [
+    "sandbox-options.txt:ALife.Heli_Music_NoneWeight",
+    "A-Life: Aircraft",
+    "ayar adı"
+   ]
+  ],
+  "46": [
+   "Sandbox_ProjectALife.HeliMusicNone_tooltip",
+   "Relative chance that a flyby plays no music. Chances are the weights divided by their sum, so they need not add up to 100. All zero: no music. Needs Helicopter flyby music on.\nDefault 50.",
+   [
+    "sandbox-options.txt:ALife.Heli_Music_NoneWeight",
+    "A-Life: Aircraft",
+    "ipucu"
+   ]
+  ],
+  "47": [
+   "Sandbox_ProjectALife.HeliMusicS1",
+   "Helicopter flyby: music track 1 weight",
+   [
+    "sandbox-options.txt:ALife.Heli_Music_Song1Weight",
+    "A-Life: Aircraft",
+    "ayar adı"
+   ]
+  ],
+  "48": [
+   "Sandbox_ProjectALife.HeliMusicS1_tooltip",
+   "Relative chance of flyby music track 1. Chances are the weights divided by their sum. 0 never plays it.\nDefault 25.",
+   [
+    "sandbox-options.txt:ALife.Heli_Music_Song1Weight",
+    "A-Life: Aircraft",
+    "ipucu"
+   ]
+  ],
+  "49": [
+   "Sandbox_ProjectALife.HeliMusicS2",
+   "Helicopter flyby: music track 2 weight",
+   [
+    "sandbox-options.txt:ALife.Heli_Music_Song2Weight",
+    "A-Life: Aircraft",
+    "ayar adı"
+   ]
+  ],
+  "50": [
+   "Sandbox_ProjectALife.HeliMusicS2_tooltip",
+   "Relative chance of flyby music track 2. Chances are the weights divided by their sum. 0 never plays it.\nDefault 25.",
+   [
+    "sandbox-options.txt:ALife.Heli_Music_Song2Weight",
+    "A-Life: Aircraft",
+    "ipucu"
+   ]
+  ],
+  "51": [
+   "Sandbox_ProjectALife.HeliMusicS3",
+   "Helicopter flyby: music track 3 weight",
+   [
+    "sandbox-options.txt:ALife.Heli_Music_Song3Weight",
+    "A-Life: Aircraft",
+    "ayar adı"
+   ]
+  ],
+  "52": [
+   "Sandbox_ProjectALife.HeliMusicS3_tooltip",
+   "Relative chance of flyby music track 3. Chances are the weights divided by their sum. 0 never plays it.\nDefault 25.",
+   [
+    "sandbox-options.txt:ALife.Heli_Music_Song3Weight",
+    "A-Life: Aircraft",
+    "ipucu"
+   ]
+  ],
+  "53": [
+   "Sandbox_ProjectALife.HeliMusicS4",
+   "Helicopter flyby: music track 4 weight",
+   [
+    "sandbox-options.txt:ALife.Heli_Music_Song4Weight",
+    "A-Life: Aircraft",
+    "ayar adı"
+   ]
+  ],
+  "54": [
+   "Sandbox_ProjectALife.HeliMusicS4_tooltip",
+   "Relative chance of flyby music track 4 (Bad to the Bone). Chances are the weights divided by their sum. 0 never plays it.\nDefault 25.",
+   [
+    "sandbox-options.txt:ALife.Heli_Music_Song4Weight",
+    "A-Life: Aircraft",
+    "ipucu"
+   ]
+  ],
+  "55": [
+   "Sandbox_ProjectALife.HeliMusicS5",
+   "Helicopter flyby: music track 5 weight",
+   [
+    "sandbox-options.txt:ALife.Heli_Music_Song5Weight",
+    "A-Life: Aircraft",
+    "ayar adı"
+   ]
+  ],
+  "56": [
+   "Sandbox_ProjectALife.HeliMusicS5_tooltip",
+   "Relative chance of flyby music track 5 (California Dreamin'). Chances are the weights divided by their sum. 0 never plays it.\nDefault 25.",
+   [
+    "sandbox-options.txt:ALife.Heli_Music_Song5Weight",
+    "A-Life: Aircraft",
+    "ipucu"
+   ]
+  ],
+  "57": [
+   "Sandbox_ProjectALife.HeliMusicS6",
+   "Helicopter flyby: music track 6 weight",
+   [
+    "sandbox-options.txt:ALife.Heli_Music_Song6Weight",
+    "A-Life: Aircraft",
+    "ayar adı"
+   ]
+  ],
+  "58": [
+   "Sandbox_ProjectALife.HeliMusicS6_tooltip",
+   "Relative chance of flyby music track 6 (Mother). Chances are the weights divided by their sum. 0 never plays it.\nDefault 25.",
+   [
+    "sandbox-options.txt:ALife.Heli_Music_Song6Weight",
+    "A-Life: Aircraft",
+    "ipucu"
+   ]
+  ],
+  "59": [
+   "Sandbox_ProjectALife.CarArrivalDoorsOpenWhenEmpty",
+   "Arrival cars: unlock doors once the crew is out",
+   [
+    "sandbox-options.txt:ALife.Car_ArrivalDoorsOpenWhenEmpty",
+    "A-Life: Cars & Vehicles",
+    "ayar adı"
+   ]
+  ],
+  "60": [
+   "Sandbox_ProjectALife.CarArrivalDoorsOpenWhenEmpty_tooltip",
+   "Cars that A-Life crews arrive in stay locked while their crew is alive and nearby. On: the doors unlock once nobody sits in the car, so you can take it.\nDefault off.",
+   [
+    "sandbox-options.txt:ALife.Car_ArrivalDoorsOpenWhenEmpty",
+    "A-Life: Cars & Vehicles",
+    "ipucu"
+   ]
+  ],
+  "61": [
+   "Sandbox_ProjectALife.M60Enabled",
+   "Enable M60 machine gun on NPCs",
+   [
+    "sandbox-options.txt:ALife.Weapons_M60Enabled",
+    "A-Life: Weapons",
+    "ayar adı"
+   ]
+  ],
+  "62": [
+   "Sandbox_ProjectALife.M60Enabled_tooltip",
+   "Juggernauts, tower gunners and Creator presets that would carry the M60 machine gun carry an M16 assault rifle instead when this is off.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Weapons_M60Enabled",
+    "A-Life: Weapons",
+    "ipucu"
+   ]
+  ],
+  "63": [
+   "Sandbox_ProjectALife.RealMisses",
+   "Missed shots look like misses",
+   [
+    "sandbox-options.txt:ALife.Weapons_RealMisses",
+    "A-Life: Weapons",
+    "ayar adı"
+   ]
+  ],
+  "64": [
+   "Sandbox_ProjectALife.RealMisses_tooltip",
+   "A shot that fails its to-hit roll is a plain miss: no blood, no reaction, no knock-down. Sets the vanilla Firearms Use Damage Chance to Disabled at world start; off restores the old value.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Weapons_RealMisses",
+    "A-Life: Weapons",
+    "ipucu"
+   ]
+  ],
+  "65": [
+   "Sandbox_ProjectALife.ZombieHitFloor",
+   "Minimum hit chance against zombies (percent)",
+   [
+    "sandbox-options.txt:ALife.Weapons_ZombieHitFloor",
+    "A-Life: Weapons",
+    "ayar adı"
+   ]
+  ],
+  "66": [
+   "Sandbox_ProjectALife.ZombieHitFloor_tooltip",
+   "At least this share of your aimed shots at zombies deal damage, however low the engine hit chance falls (night, full auto, long range). 0 is vanilla.\nDefault 50",
+   [
+    "sandbox-options.txt:ALife.Weapons_ZombieHitFloor",
+    "A-Life: Weapons",
+    "ipucu"
+   ]
+  ],
+  "67": [
+   "Sandbox_ProjectALife.ZombieMinBulletDamage",
+   "Minimum damage of a bullet hit on a zombie",
+   [
+    "sandbox-options.txt:ALife.Weapons_ZombieMinBulletDamage",
+    "A-Life: Weapons",
+    "ayar adı"
+   ]
+  ],
+  "68": [
+   "Sandbox_ProjectALife.ZombieMinBulletDamage_tooltip",
+   "A bullet that hits a zombie takes at least this much of its health, so arm and leg hits count too (a zombie has 0.5 to 3.8 health). 0 is vanilla.\nDefault 0.15",
+   [
+    "sandbox-options.txt:ALife.Weapons_ZombieMinBulletDamage",
+    "A-Life: Weapons",
+    "ipucu"
+   ]
+  ],
+  "69": [
+   "Sandbox_ProjectALife.CompatGunsmith93",
+   "[Expert] Gunsmith: The 1993 Arsenal support",
+   [
+    "sandbox-options.txt:ALife.Compat_Gunsmith93",
+    "A-Life: Weapons",
+    "ayar adı"
+   ]
+  ],
+  "70": [
+   "Sandbox_ProjectALife.CompatGunsmith93_tooltip",
+   "With Gunsmith: The 1993 Arsenal active, a share of NPC guns become its 1993 firearms in low, mid and high tiers by faction category, with parts fitted at spawn. Off: the mod is ignored and NPCs keep vanilla guns. Does nothing when the mod is not loaded.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Compat_Gunsmith93",
+    "A-Life: Weapons",
+    "ipucu"
+   ]
+  ],
+  "71": [
+   "Sandbox_ProjectALife.CompatGunsmith93HighDay",
+   "[Expert] Gunsmith high tier from day",
+   [
+    "sandbox-options.txt:ALife.Compat_Gunsmith93_HighTierDay",
+    "A-Life: Weapons",
+    "ayar adı"
+   ]
+  ],
+  "72": [
+   "Sandbox_ProjectALife.CompatGunsmith93HighDay_tooltip",
+   "World day from which NPCs may carry the high tier 1993 guns (assault rifles, battle rifles, the Desert Eagle). Before it, high tier rolls fall back to mid tier.\nDefault 90.",
+   [
+    "sandbox-options.txt:ALife.Compat_Gunsmith93_HighTierDay",
+    "A-Life: Weapons",
+    "ipucu"
+   ]
+  ],
+  "73": [
+   "Sandbox_ProjectALife.BulletPenetration_option1",
+   "Off",
+   [
+    "sandbox-options.txt:ALife.Combat_BulletPenetration",
+    "A-Life: Weapons",
+    "seçenek 1"
+   ]
+  ],
+  "74": [
+   "Sandbox_ProjectALife.BulletPenetration_option2",
+   "Rifles and shotguns (default)",
+   [
+    "sandbox-options.txt:ALife.Combat_BulletPenetration",
+    "A-Life: Weapons",
+    "seçenek 2"
+   ]
+  ],
+  "75": [
+   "Sandbox_ProjectALife.BulletPenetration_option3",
+   "All firearms",
+   [
+    "sandbox-options.txt:ALife.Combat_BulletPenetration",
+    "A-Life: Weapons",
+    "seçenek 3"
+   ]
+  ],
+  "76": [
+   "Sandbox_ProjectALife.NpcLadders",
+   "NPCs climb ladders",
+   [
+    "sandbox-options.txt:ALife.NPC_Ladders",
+    "A-Life: EXPERT - Danger, raids and injuries",
+    "ayar adı"
+   ]
+  ],
+  "77": [
+   "Sandbox_ProjectALife.NpcLadders_tooltip",
+   "NPCs climb ladders (game 42.22 and later) to reach a target on another floor when there is no stairs route. Does nothing without ladders.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.NPC_Ladders",
+    "A-Life: EXPERT - Danger, raids and injuries",
+    "ipucu"
+   ]
+  ],
+  "78": [
+   "Sandbox_ProjectALife.FeatureNpcTrampleCrops",
+   "NPCs trample crops",
+   [
+    "sandbox-options.txt:ALife.Feature_NpcTrampleCrops",
+    "A-Life: EXPERT - World and activities",
+    "ayar adı"
+   ]
+  ],
+  "79": [
+   "Sandbox_ProjectALife.FeatureNpcTrampleCrops_tooltip",
+   "On: A-Life NPCs can destroy crops they walk over, like vanilla zombies. Off: crops are never destroyed by NPCs alone.\nDefault off.",
+   [
+    "sandbox-options.txt:ALife.Feature_NpcTrampleCrops",
+    "A-Life: EXPERT - World and activities",
+    "ipucu"
+   ]
+  ],
+  "80": [
+   "Sandbox_ProjectALife.PhonesEnabled",
+   "Phones",
+   [
+    "sandbox-options.txt:ALife.Phones_Enabled",
+    "A-Life: Ambient sounds",
+    "ayar adı"
+   ]
+  ],
+  "81": [
+   "Sandbox_ProjectALife.PhonesEnabled_tooltip",
+   "Turns every ringing phone off or on: house phones, the phones of the dead and the Cell Phone item that can ring in your bag.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.Phones_Enabled",
+    "A-Life: Ambient sounds",
+    "ipucu"
+   ]
+  ],
+  "82": [
+   "Sandbox_ProjectALife.PhonesFrequency",
+   "Phone ring frequency",
+   [
+    "sandbox-options.txt:ALife.Phones_Frequency",
+    "A-Life: Ambient sounds",
+    "ayar adı"
+   ]
+  ],
+  "83": [
+   "Sandbox_ProjectALife.PhonesFrequency_tooltip",
+   "How often phones ring in a game week, house phones and carried Cell Phones together. Low: about 3 a week. Medium: 5. High: 7, the old rate.\nDefault Low (1).",
+   [
+    "sandbox-options.txt:ALife.Phones_Frequency",
+    "A-Life: Ambient sounds",
+    "ipucu"
+   ]
+  ],
+  "84": [
+   "Sandbox_ProjectALife.PhonesFrequency_option1",
+   "Low",
+   [
+    "sandbox-options.txt:ALife.Phones_Frequency",
+    "A-Life: Ambient sounds",
+    "seçenek 1"
+   ]
+  ],
+  "85": [
+   "Sandbox_ProjectALife.PhonesFrequency_option2",
+   "Medium",
+   [
+    "sandbox-options.txt:ALife.Phones_Frequency",
+    "A-Life: Ambient sounds",
+    "seçenek 2"
+   ]
+  ],
+  "86": [
+   "Sandbox_ProjectALife.PhonesFrequency_option3",
+   "High",
+   [
+    "sandbox-options.txt:ALife.Phones_Frequency",
+    "A-Life: Ambient sounds",
+    "seçenek 3"
+   ]
+  ],
+  "87": [
+   "Sandbox_ProjectALife.PhonesRarity",
+   "Cell Phone rarity",
+   [
+    "sandbox-options.txt:ALife.Phones_Rarity",
+    "A-Life: Ambient sounds",
+    "ayar adı"
+   ]
+  ],
+  "88": [
+   "Sandbox_ProjectALife.PhonesRarity_tooltip",
+   "How often a plain zombie body carries a Cell Phone that can ring and be answered. Never an A-Life survivor. Low: about 1 body in 330. Medium: 1 in 100. High: 1 in 33.\nDefault Low (1).",
+   [
+    "sandbox-options.txt:ALife.Phones_Rarity",
+    "A-Life: Ambient sounds",
+    "ipucu"
+   ]
+  ],
+  "89": [
+   "Sandbox_ProjectALife.PhonesRarity_option1",
+   "Low",
+   [
+    "sandbox-options.txt:ALife.Phones_Rarity",
+    "A-Life: Ambient sounds",
+    "seçenek 1"
+   ]
+  ],
+  "90": [
+   "Sandbox_ProjectALife.PhonesRarity_option2",
+   "Medium",
+   [
+    "sandbox-options.txt:ALife.Phones_Rarity",
+    "A-Life: Ambient sounds",
+    "seçenek 2"
+   ]
+  ],
+  "91": [
+   "Sandbox_ProjectALife.PhonesRarity_option3",
+   "High",
+   [
+    "sandbox-options.txt:ALife.Phones_Rarity",
+    "A-Life: Ambient sounds",
+    "seçenek 3"
+   ]
+  ],
+  "92": [
+   "Sandbox_ProjectALife.PhonesReplySeconds",
+   "Phone call reply time (seconds)",
+   [
+    "sandbox-options.txt:ALife.Phones_ReplySeconds",
+    "A-Life: Ambient sounds",
+    "ayar adı"
+   ]
+  ],
+  "93": [
+   "Sandbox_ProjectALife.PhonesReplySeconds_tooltip",
+   "How long you have to pick a reply in a phone call before the caller hangs up. The timer restarts on every new line. A missed call does not ring again.\nDefault 15.",
+   [
+    "sandbox-options.txt:ALife.Phones_ReplySeconds",
+    "A-Life: Ambient sounds",
+    "ipucu"
+   ]
+  ],
+  "94": [
+   "Sandbox_ProjectALife.CompatCompanionDogs",
+   "[Expert] Companion Dogs adapter",
+   [
+    "sandbox-options.txt:ALife.Compat_CompanionDogs",
+    "A-Life: EXPERT - compatibility",
+    "ayar adı"
+   ]
+  ],
+  "95": [
+   "Sandbox_ProjectALife.CompatCompanionDogs_tooltip",
+   "Enable the A-Life compatibility adapter when Companion Dogs is active: companion dogs fight only the NPCs the dog options below allow, and NPCs can fight back. Applied once at world startup; restart after changing this. Turning it off disables only this adapter, not the other mod. It stands down by itself while the separate compatibility patch is enabled.",
+   [
+    "sandbox-options.txt:ALife.Compat_CompanionDogs",
+    "A-Life: EXPERT - compatibility",
+    "ipucu"
+   ]
+  ],
+  "96": [
+   "Sandbox_ProjectALife.CompatDogsTarget",
+   "[Expert] Companion dogs attack NPCs",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_Target",
+    "A-Life: EXPERT - compatibility",
+    "ayar adı"
+   ]
+  ],
+  "97": [
+   "Sandbox_ProjectALife.CompatDogsTarget_tooltip",
+   "Which A-Life NPCs a companion dog may attack, by their stance towards its owner. The owner's own people, NPCs that surrendered and injured NPCs are never attacked.\nDefault Hostile only (1).",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_Target",
+    "A-Life: EXPERT - compatibility",
+    "ipucu"
+   ]
+  ],
+  "98": [
+   "Sandbox_ProjectALife.CompatDogsTarget_option1",
+   "Hostile only",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_Target",
+    "A-Life: EXPERT - compatibility",
+    "seçenek 1"
+   ]
+  ],
+  "99": [
+   "Sandbox_ProjectALife.CompatDogsTarget_option2",
+   "Hostile and careful",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_Target",
+    "A-Life: EXPERT - compatibility",
+    "seçenek 2"
+   ]
+  ],
+  "100": [
+   "Sandbox_ProjectALife.CompatDogsTarget_option3",
+   "All but friendly",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_Target",
+    "A-Life: EXPERT - compatibility",
+    "seçenek 3"
+   ]
+  ],
+  "101": [
+   "Sandbox_ProjectALife.CompatDogsTarget_option4",
+   "Everyone",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_Target",
+    "A-Life: EXPERT - compatibility",
+    "seçenek 4"
+   ]
+  ],
+  "102": [
+   "Sandbox_ProjectALife.CompatDogsTarget_option5",
+   "Never",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_Target",
+    "A-Life: EXPERT - compatibility",
+    "seçenek 5"
+   ]
+  ],
+  "103": [
+   "Sandbox_ProjectALife.CompatDogsCanDieByNPC",
+   "[Expert] NPCs can kill companion dogs",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_CanDieByNPC",
+    "A-Life: EXPERT - compatibility",
+    "ayar adı"
+   ]
+  ],
+  "104": [
+   "Sandbox_ProjectALife.CompatDogsCanDieByNPC_tooltip",
+   "Off: an NPC's hits stop at the health threshold below, and NPCs leave a dog alone once it is there or panicking. On: no floor, and the dog can die from NPC hits.\nDefault off.",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_CanDieByNPC",
+    "A-Life: EXPERT - compatibility",
+    "ipucu"
+   ]
+  ],
+  "105": [
+   "Sandbox_ProjectALife.CompatDogsHealthThreshold",
+   "[Expert] Companion dog health threshold",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_HealthThreshold",
+    "A-Life: EXPERT - compatibility",
+    "ayar adı"
+   ]
+  ],
+  "106": [
+   "Sandbox_ProjectALife.CompatDogsHealthThreshold_tooltip",
+   "Fraction of a dog's maximum health where NPC hits stop (while NPCs cannot kill dogs) and the dog takes the status below.\nDefault 0.1.",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_HealthThreshold",
+    "A-Life: EXPERT - compatibility",
+    "ipucu"
+   ]
+  ],
+  "107": [
+   "Sandbox_ProjectALife.CompatDogsThresholdStatus",
+   "[Expert] Companion dog status at the threshold",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_ThresholdStatus",
+    "A-Life: EXPERT - compatibility",
+    "ayar adı"
+   ]
+  ],
+  "108": [
+   "Sandbox_ProjectALife.CompatDogsThresholdStatus_tooltip",
+   "What a dog hit down to the health threshold by an NPC becomes. A breed that can never panic is always made terrified.\nDefault Panicking (1).",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_ThresholdStatus",
+    "A-Life: EXPERT - compatibility",
+    "ipucu"
+   ]
+  ],
+  "109": [
+   "Sandbox_ProjectALife.CompatDogsThresholdStatus_option1",
+   "Panicking",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_ThresholdStatus",
+    "A-Life: EXPERT - compatibility",
+    "seçenek 1"
+   ]
+  ],
+  "110": [
+   "Sandbox_ProjectALife.CompatDogsThresholdStatus_option2",
+   "Terrified",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_ThresholdStatus",
+    "A-Life: EXPERT - compatibility",
+    "seçenek 2"
+   ]
+  ],
+  "111": [
+   "Sandbox_ProjectALife.CompatDogsNpcDamageMult",
+   "[Expert] Companion dog bite damage on NPCs",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_NpcDamageMult",
+    "A-Life: EXPERT - compatibility",
+    "ayar adı"
+   ]
+  ],
+  "112": [
+   "Sandbox_ProjectALife.CompatDogsNpcDamageMult_tooltip",
+   "Multiplier on the damage a companion dog's bite does to an A-Life NPC (scaled to the NPC's own health pool).\nDefault 1.0.",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_NpcDamageMult",
+    "A-Life: EXPERT - compatibility",
+    "ipucu"
+   ]
+  ],
+  "113": [
+   "Sandbox_ProjectALife.CompatDogsNpcDefenseMult",
+   "[Expert] Companion dog defense against NPCs",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_NpcDefenseMult",
+    "A-Life: EXPERT - compatibility",
+    "ayar adı"
+   ]
+  ],
+  "114": [
+   "Sandbox_ProjectALife.CompatDogsNpcDefenseMult_tooltip",
+   "Divides the damage an A-Life NPC's hit does to a companion dog. Higher means the dog takes less.\nDefault 1.0.",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_NpcDefenseMult",
+    "A-Life: EXPERT - compatibility",
+    "ipucu"
+   ]
+  ],
+  "115": [
+   "Sandbox_ProjectALife.CompatDogsAlertHumans",
+   "[Expert] Companion dogs alert on NPCs",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_AlertHumans",
+    "A-Life: EXPERT - compatibility",
+    "ayar adı"
+   ]
+  ],
+  "116": [
+   "Sandbox_ProjectALife.CompatDogsAlertHumans_tooltip",
+   "On: a dog's sentinel alert can include A-Life NPCs, by its scent skill (levels below). Off: the alert covers zombies only. The owner's own people never raise it.\nDefault on.",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_AlertHumans",
+    "A-Life: EXPERT - compatibility",
+    "ipucu"
+   ]
+  ],
+  "117": [
+   "Sandbox_ProjectALife.CompatDogsSenseLevel",
+   "[Expert] Companion dog scent level to sense NPCs",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_SenseLevel",
+    "A-Life: EXPERT - compatibility",
+    "ayar adı"
+   ]
+  ],
+  "118": [
+   "Sandbox_ProjectALife.CompatDogsSenseLevel_tooltip",
+   "Scent skill a dog needs before A-Life NPCs raise its sentinel alert at all. With dog skills off in Companion Dogs every dog counts as fully skilled.\nDefault 2.",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_SenseLevel",
+    "A-Life: EXPERT - compatibility",
+    "ipucu"
+   ]
+  ],
+  "119": [
+   "Sandbox_ProjectALife.CompatDogsStanceLevel",
+   "[Expert] Companion dog scent level to tell hostile NPCs",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_StanceLevel",
+    "A-Life: EXPERT - compatibility",
+    "ayar adı"
+   ]
+  ],
+  "120": [
+   "Sandbox_ProjectALife.CompatDogsStanceLevel_tooltip",
+   "Scent skill at which a dog alerts only on NPCs hostile to its owner and ignores the rest. Never below the sense level.\nDefault 8.",
+   [
+    "sandbox-options.txt:ALife.CompatDogs_StanceLevel",
+    "A-Life: EXPERT - compatibility",
+    "ipucu"
+   ]
+  ],
+  "121": [
+   "Sandbox_ProjectALife.ServerDiagnostics",
+   "Server diagnostics",
+   [
+    "sandbox-options.txt:ALife.Server_Diagnostics",
+    "A-Life: Admin and debug",
+    "ayar adı"
+   ]
+  ],
+  "122": [
+   "Sandbox_ProjectALife.ServerDiagnostics_tooltip",
+   "Dedicated and hosted servers only. When on, the server runs the blackbox, combat trace, car dump and report history all the time and prints its full A-Life console log. When off, they stay quiet and chatty console lines are capped, and an admin who starts the recorder gets 30 minutes of them. Single player and clients are not affected.\nDefault off",
+   [
+    "sandbox-options.txt:ALife.Server_Diagnostics",
+    "A-Life: Admin and debug",
+    "ipucu"
+   ]
+  ],
+  "123": [
+   "Sandbox_ProjectALife.QuickSpawnGroupSize",
+   "Quick spawn group size",
+   [
+    "sandbox-options.txt:ALife.QuickSpawn_GroupSize",
+    "A-Life: Admin and debug",
+    "ayar adı"
+   ]
+  ],
+  "124": [
+   "Sandbox_ProjectALife.QuickSpawnGroupSize_tooltip",
+   "How many NPCs the admin quick spawn makes when you spawn a faction. The leader comes first. A faction that needs more members keeps its own minimum.\nDefault 5.",
+   [
+    "sandbox-options.txt:ALife.QuickSpawn_GroupSize",
+    "A-Life: Admin and debug",
+    "ipucu"
+   ]
+  ]
+ }
+}

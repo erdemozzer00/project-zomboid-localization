@@ -1,0 +1,1710 @@
+{
+  "_paket": "D6b — Sivillerin tehlike sezmesi: duyulan sesler (HEARD_*), sürü (HORDE_*) ve sürünen zombi (CRAWLER_SPOTTED), 560",
+  "_dosya": "RadioData_lua",
+  "satirlar": {
+    "RD_ALifeLine_7e9601f86755578f": {
+      "tr": "Alarm! Biri alarmı çaldırdı! Hepsi buraya gelecek!"
+    },
+    "RD_ALifeLine_133f3e3965ceda3f": {
+      "tr": "Bu alarm hepsini başımıza toplayacak, kaçın!"
+    },
+    "RD_ALifeLine_7457a221796e361d": {
+      "tr": "Alarm! Biri alarmı tetikledi!"
+    },
+    "RD_ALifeLine_220147ee4056898c": {
+      "tr": "Bir alarm çalıyor, duyuyor musun?"
+    },
+    "RD_ALifeLine_47efc16b5c2fb741": {
+      "tr": "Şu alarmı kim çaldırdı, kahretsin?",
+      "not": "Küfür gücü kaynağa göre: 'the hell' → 'kahretsin'."
+    },
+    "RD_ALifeLine_7ebdbe673ab60d93": {
+      "tr": "Kapatın şunu, biri şu şeyi KAPATSIN"
+    },
+    "RD_ALifeLine_4731dad23f8b1fe5": {
+      "tr": "Bu zırıltı ilçedeki ne kadar ölü varsa uyandıracak."
+    },
+    "RD_ALifeLine_5893d3b105982778": {
+      "tr": "Alarm, alarm, alarm... neden susmuyor bu?"
+    },
+    "RD_ALifeLine_38c72eb75f004b6d": {
+      "tr": "Harika, şimdi de ötmeye başladı, kilise çanı kadar gürültülü."
+    },
+    "RD_ALifeLine_106f9ff24f7670f2": {
+      "tr": "Biri bütün sokağı ışıl ışıl edip öttürüyor."
+    },
+    "RD_ALifeLine_1f5878716613a6bc": {
+      "tr": "Bu ses kilometrelerce duyulur, farkındasın, değil mi?"
+    },
+    "RD_ALifeLine_206193162a9886a3": {
+      "tr": "Harika, bir de alarm, sessiz kalmak da bitti."
+    },
+    "RD_ALifeLine_111e180f660253e5": {
+      "tr": "Hala çalıyor, hala çalıyor, niye hala çalıyor?"
+    },
+    "RD_ALifeLine_3e557bd8562b95b0": {
+      "tr": "Alarm mı bu, siren mi? Artık ayırt bile edemiyorum."
+    },
+    "RD_ALifeLine_572b033a71d52c87": {
+      "tr": "Kulak tırmalıyor, bir de ahmakça bir ses."
+    },
+    "RD_ALifeLine_707255b466745d9a": {
+      "tr": "Kasabada hala pille çalışan bir şey var ve çığlık atıyor."
+    },
+    "RD_ALifeLine_385712ea3150795f": {
+      "tr": "Kulaklarım çınlıyor, oysa yanımda bile değil."
+    },
+    "RD_ALifeLine_0e3b6683434432fe": {
+      "tr": "Bu onları pastaya üşüşen sinekler gibi toplayacak."
+    },
+    "RD_ALifeLine_115674bc65a8ca30": {
+      "tr": "Hala çalışan tek şey de alarm çıktı."
+    },
+    "RD_ALifeLine_45b923873241eb53": {
+      "tr": "Duydun mu? Biri bütün mahalleyi uyandırdı."
+    },
+    "RD_ALifeLine_4f7670f256d9040d": {
+      "tr": "Kapatmaya gelen de yok, işin acı tarafı bu."
+    },
+    "RD_ALifeLine_0a8055cd2d07208d": {
+      "tr": "Alarm kimin olursa olsun, parası varmış demek."
+    },
+    "RD_ALifeLine_2c81078a66ca1a4c": {
+      "tr": "Hayır hayır hayır- sustursun şunu, biri sustursun!"
+    },
+    "RD_ALifeLine_27edfd5846188682": {
+      "tr": "Onları çağırıyor, hepsini çağırıyor, Allah'ım."
+    },
+    "RD_ALifeLine_4f2698d9206ed906": {
+      "tr": "O sesten nefret ediyorum, çığlık gibi, bir makinenin çığlığı."
+    },
+    "RD_ALifeLine_157d1c205f797cdc": {
+      "tr": "Susturun şunu, ne olur, ne olur biri sustursun."
+    },
+    "RD_ALifeLine_538d0eb86b27b1bc": {
+      "tr": "Hepsi gelecek, sese gelecekler, hep öyle yapıyorlar."
+    },
+    "RD_ALifeLine_471f8c66131f1f5f": {
+      "tr": "Kalbim, kalbimi dinle, boğazımda atıyor."
+    },
+    "RD_ALifeLine_530ba6fc597e05eb": {
+      "tr": "Yardım mı geliyor? Biri mi geliyor? Polis mi geliyor?"
+    },
+    "RD_ALifeLine_18bc344e1b6efd43": {
+      "tr": "Siren yardım demek, değil mi? Değil mi? ...yok, sadece bir alarm."
+    },
+    "RD_ALifeLine_3c0b068525491615": {
+      "tr": "Araba alarmı bu, tanıdım, Ford galiba."
+    },
+    "RD_ALifeLine_65b3286e55e530d5": {
+      "tr": "Alarm- alarm bu- orada hayatta biri olabilir!"
+    },
+    "RD_ALifeLine_77c24040255fe548": {
+      "tr": "Yaklaşma, sakın, onları üstüne çeker."
+    },
+    "RD_ALifeLine_395429e44110d366": {
+      "tr": "Gidiyor muyuz? Gidiyoruz de, gitmek istiyorum."
+    },
+    "RD_ALifeLine_6158a8ca689d722e": {
+      "tr": "Alarmlar kendi kendine susmaz, pil bir gün biter."
+    },
+    "RD_ALifeLine_20f758c468940a11": {
+      "tr": "Bırak, pil bitince susar, biz de o zamana gitmiş oluruz."
+    },
+    "RD_ALifeLine_5ed6e2bd344f5a7a": {
+      "tr": "Biri bir yere girdi de o yüzden çalıyor, bahse girerim."
+    },
+    "RD_ALifeLine_52c17b2706f91d7c": {
+      "tr": "Ya tuzak ya kaza, ikisi de aynı yere varır."
+    },
+    "RD_ALifeLine_5d504c8d7a0b1d64": {
+      "tr": "Dakikaları say, on dakika sonra hala çalıyorsa hepsi gelir."
+    },
+    "RD_ALifeLine_57de71014127c29a": {
+      "tr": "Bizim alarmımız değil, bizim sorunumuz değil, yürüyelim."
+    },
+    "RD_ALifeLine_7a0d52450a7cbb61": {
+      "tr": "Alarmlı evlerin parası vardı, parası olanın silahı vardı, bir düşün."
+    },
+    "RD_ALifeLine_140313ef544199c3": {
+      "tr": "Yürümeye devam et, dönüp bakma bile."
+    },
+    "RD_ALifeLine_031cd88f3b203724": {
+      "tr": "Bu ilçede hiç olmazsa bir şey hala tıkır tıkır işliyor, he."
+    },
+    "RD_ALifeLine_12f502523405aa19": {
+      "tr": "Yine birinin ninesi şifreyi unutmuş."
+    },
+    "RD_ALifeLine_757642715b9f3b78": {
+      "tr": "Yaşlı Bay Lyle'ın alarmıdır, o şifreyi hiç hatırlayamazdı."
+    },
+    "RD_ALifeLine_7e3b6c942797950d": {
+      "tr": "Knox County'nin en gürültülü şeyi bu alarm, hem de kayınvalidemi duymuş biri olarak söylüyorum."
+    },
+    "RD_ALifeLine_4170a4651d031a71": {
+      "tr": "4 Temmuz gibi, sadece şarkısı daha kötü."
+    },
+    "RD_ALifeLine_64cb43791879974d": {
+      "tr": "Alarm, hırsızlık olabilir, içeride mahsur kalan biri olabilir, çığlık var mı dinleyin."
+    },
+    "RD_ALifeLine_529e55287849d718": {
+      "tr": "Alarmsa biri tetiklemiştir, yaralı biri de olabilir."
+    },
+    "RD_ALifeLine_6d3f995d2485032d": {
+      "tr": "Yavaş gidin, ses misafir çeker, uzaktan bakacağız."
+    },
+    "RD_ALifeLine_48e66ca3243bf622": {
+      "tr": "Biri dikkat çekiyor, alarm bunun için var, biz karşılık vermeyelim."
+    },
+    "RD_ALifeLine_53e30cd25f5d6bde": {
+      "tr": "Bu yangın alarmı, o tonu bilirim, ding ding ding."
+    },
+    "RD_ALifeLine_0e58afa06ad30338": {
+      "tr": "Duman dedektörü mü? Yangın paneli mi? Hangisi olursa, birinin binası belada."
+    },
+    "RD_ALifeLine_6bae3c246775abee": {
+      "tr": "Eskiden bu ses göreve çıkmak demekti, şimdi tehlike demek."
+    },
+    "RD_ALifeLine_59f886ea743604ff": {
+      "tr": "Gecenin ortasında alarm mı, olmaz, OLMAZ be."
+    },
+    "RD_ALifeLine_4ec39e5e7fd931c3": {
+      "tr": "Zifiri karanlık, üstüne bir de siren, gece de gece."
+    },
+    "RD_ALifeLine_12d537a44d2fcef2": {
+      "tr": "Bir kapı kapandı, biri burada."
+    },
+    "RD_ALifeLine_5831d5425b2249c6": {
+      "tr": "Dur, bir kapı sesi duydum."
+    },
+    "RD_ALifeLine_25b41e3b37786a6f": {
+      "tr": "Bir kapı- biri bir kapı açtı."
+    },
+    "RD_ALifeLine_5132d5c35dd7df93": {
+      "tr": "Biri kapı açtı, menteşeyi duydum, yemin ederim."
+    },
+    "RD_ALifeLine_341775cc25398085": {
+      "tr": "Tık, gıcırtı, kapıydı bu."
+    },
+    "RD_ALifeLine_0ebd2d59527959c8": {
+      "tr": "Kapı mı çarptı, yoksa ben mi kuruntu yapıyorum?"
+    },
+    "RD_ALifeLine_2fc98c94059c8170": {
+      "tr": "Duydun mu? Sürgü, kesin sürgü."
+    },
+    "RD_ALifeLine_697977d433ab3293": {
+      "tr": "Kapı kapandı, yumuşak, dikkatli."
+    },
+    "RD_ALifeLine_6fecf9d300166274": {
+      "tr": "Bir kapı, yakında bir yerde, usulca kapandı."
+    },
+    "RD_ALifeLine_3ac0e8bd59ac76cc": {
+      "tr": "İçeride biri var, kapı kolunun döndüğünü duydum."
+    },
+    "RD_ALifeLine_7e97b5ef36534798": {
+      "tr": "O menteşenin yağa ihtiyacı var, ta uzaktan duyuluyor."
+    },
+    "RD_ALifeLine_4cb0fcde69ab621e": {
+      "tr": "Tel kapı, tel kapının çarpmasını her yerde tanırım."
+    },
+    "RD_ALifeLine_7944d76319ee31ea": {
+      "tr": "Şşt, kapıydı, bir sonraki sesi bekle."
+    },
+    "RD_ALifeLine_2a98469577e3f203": {
+      "tr": "Kilit tıkladı, biri ya da bir şey kapıyı kilitledi."
+    },
+    "RD_ALifeLine_6dd2fe23224692ab": {
+      "tr": "Arka kapı ya da ön kapı, biri az önce oynadı."
+    },
+    "RD_ALifeLine_7fc93c12709565cf": {
+      "tr": "Rüzgar mı, el mi? Durmadan kendime soruyorum."
+    },
+    "RD_ALifeLine_3683cb8927909aa6": {
+      "tr": "Takırtı, belki rüzgarda sallanan bir kapıdır?"
+    },
+    "RD_ALifeLine_5cef962c4e2258d9": {
+      "tr": "Allah'ım, kapı sesi duydum! Kim var orada?"
+    },
+    "RD_ALifeLine_00600a5e1e973fe2": {
+      "tr": "Kapı, kapı kıpırdadı, kıpırdadığını gördün mü?"
+    },
+    "RD_ALifeLine_59e3247023259437": {
+      "tr": "B-biz onu kilitlemiştik, KİLİTLEMİŞTİK, değil mi?"
+    },
+    "RD_ALifeLine_354f6a8855f85ae2": {
+      "tr": "Kapıya benziyordu. Sessiz ol, dinlemem lazım!"
+    },
+    "RD_ALifeLine_659706e0116b8700": {
+      "tr": "Yapamam, yapamam, bakmaya gidemem, sen git bak."
+    },
+    "RD_ALifeLine_2f6e1d5074260ea9": {
+      "tr": "Biri giriyor, biri giriyor, saklanın!"
+    },
+    "RD_ALifeLine_2d7065174dc22c37": {
+      "tr": "Bu bir oyun, oyun olmak zorunda, kapılar kendi kendine açılmaz."
+    },
+    "RD_ALifeLine_3a712fc736a9b0f7": {
+      "tr": "Açma, sakın, ne olursa olsun açma."
+    },
+    "RD_ALifeLine_1dd0c74c725f1483": {
+      "tr": "Kapı, bir kat aşağıda, vaktimiz var."
+    },
+    "RD_ALifeLine_52d1ba983de8dc9d": {
+      "tr": "Yavaş, önce kilidi deneriz."
+    },
+    "RD_ALifeLine_379f49d735511a74": {
+      "tr": "Rüzgardır belki, büyük ihtimalle rüzgar, yine de bir bak."
+    },
+    "RD_ALifeLine_3bb0aa6a071a130b": {
+      "tr": "Bu evde gıcırdayan tek kapı o, bizim alarmımız."
+    },
+    "RD_ALifeLine_0bfb6f2d6501eef4": {
+      "tr": "Seslenme, koridoru kolla, kapı bize gerekeni söyler."
+    },
+    "RD_ALifeLine_02586b876fe2b83c": {
+      "tr": "Eskiden kapı sesi evde biri var demekti."
+    },
+    "RD_ALifeLine_334daedb25d1a523": {
+      "tr": "Kapı çarpınca geç kalmış bir çocuğun eve girdiği günleri özledim."
+    },
+    "RD_ALifeLine_5ed6d48e710eb9b2": {
+      "tr": "Biri vakti zamanında o kapıdan gülerek geçmiştir, eminim."
+    },
+    "RD_ALifeLine_6e141a64025f10da": {
+      "tr": "Hayaletse terbiyesi berbat."
+    },
+    "RD_ALifeLine_0387583b38aec81f": {
+      "tr": "Kapının kendi kafası var, eski karım gibi."
+    },
+    "RD_ALifeLine_2c8644c61453c065": {
+      "tr": "Kapı sesi, biri hareket ediyor, barınak arayan biri olabilir."
+    },
+    "RD_ALifeLine_080d85ea64a06abb": {
+      "tr": "Sakin, sakin, hastaysa seslenir."
+    },
+    "RD_ALifeLine_50a035f430d83610": {
+      "tr": "İçeride biri var, dikkat, yaralı mı yoksa avda mı bilmiyoruz."
+    },
+    "RD_ALifeLine_75da1b601a7cf90e": {
+      "tr": "Gece kapı sesi, lanet olsun, bundan kötüsü yok."
+    },
+    "RD_ALifeLine_2fbcdc247382c3bd": {
+      "tr": "Karanlıkta kapı gıcırtısı, filmlerde hep böyle başlar."
+    },
+    "RD_ALifeLine_600ee7e50d38220b": {
+      "tr": "Ayak sesi, ayak sesi duyuyorum, sessiz olun."
+    },
+    "RD_ALifeLine_70ba4e7840d400cd": {
+      "tr": "Yukarıda biri yürüyor, kıpırdamayın."
+    },
+    "RD_ALifeLine_59960839660ed931": {
+      "tr": "Şşt- ayak sesi, dinle, ayak sesi."
+    },
+    "RD_ALifeLine_13a359f12be6c7e9": {
+      "tr": "Dışarıda biri yürüyor, çakılları duyuyor musun?"
+    },
+    "RD_ALifeLine_4cddc2e47fa0d91f": {
+      "tr": "Bu ayak sesi, kesinlikle ayak sesi."
+    },
+    "RD_ALifeLine_12df21917ba8b5b1": {
+      "tr": "Adım sesleri, ağır, biraz sürüklenen."
+    },
+    "RD_ALifeLine_06ba13ac22e225d0": {
+      "tr": "Şurada ayak sürüyen bir ses duydum, sen duydun mu?"
+    },
+    "RD_ALifeLine_7a0c5d3973d1dec9": {
+      "tr": "Bot mu? Spor ayakkabı mı? Çıplak ayak mı? Anlayamıyorum, anlayamıyorum."
+    },
+    "RD_ALifeLine_1a430b592185074b": {
+      "tr": "Sessiz, sessiz, bir hareket var."
+    },
+    "RD_ALifeLine_4269973f6c80deb5": {
+      "tr": "Dur, dur, konuşma, Allah şahidim olsun yürüme sesi duydum.",
+      "not": "'honest to God' → Allah şahidim olsun (K35)."
+    },
+    "RD_ALifeLine_7e6a782375369c4d": {
+      "tr": "Tak tak tak, sonra hiçbir şey... Kesilmesinden nefret ediyorum."
+    },
+    "RD_ALifeLine_5982ad8b3ea59216": {
+      "tr": "Biri volta atıyor, bir ileri bir geri, bir ileri bir geri."
+    },
+    "RD_ALifeLine_30fd7b3b1ba4292b": {
+      "tr": "Dışarıda ayak sürüyen bir şey var ve bu geyik değil."
+    },
+    "RD_ALifeLine_3a891b8a7992761d": {
+      "tr": "Bu birden fazla kişi, yoksa aklımı kaçırıyorum."
+    },
+    "RD_ALifeLine_7ba408f57a8de2d2": {
+      "tr": "Bir dakika, zemin gıcırdadı mı, yoksa ben mi hayal ettim?"
+    },
+    "RD_ALifeLine_11c44ff509430d59": {
+      "tr": "Sürtünme, sürtünme, sürüklenme- evet, onlardan biri."
+    },
+    "RD_ALifeLine_4928a81e5038c46c": {
+      "tr": "Hafif adımlar.. kim var orada anlayamıyorum."
+    },
+    "RD_ALifeLine_4641a5653462442e": {
+      "tr": "O yürüyüşü tanıyorum, hayır tanımıyorum, keşke tanısaydım."
+    },
+    "RD_ALifeLine_7962e67d17ecf42f": {
+      "tr": "O sürtünme sesini duydun mu? Dinle, yine geldi."
+    },
+    "RD_ALifeLine_6ee9f1c36be25c49": {
+      "tr": "Yapraklar çıtırdıyor, duydun mu? Biri yaprakların üstünde yürüyor."
+    },
+    "RD_ALifeLine_28968680282c6e8a": {
+      "tr": "Ah hayır... dışarıda biri var, duydum."
+    },
+    "RD_ALifeLine_5046799c440a5fe0": {
+      "tr": "Nefes alma, nefes alma, nefesimi duyacaklar."
+    },
+    "RD_ALifeLine_267497312d4075de": {
+      "tr": "Onları DUYUYORUM, hemen dışarıdalar!"
+    },
+    "RD_ALifeLine_26fc43e319f0dd8c": {
+      "tr": "Onlar, onlar olmalı, bir- bir- ayak sürüyen bir şey."
+    },
+    "RD_ALifeLine_507db4fa092ae8b3": {
+      "tr": "Ne olur dışarıdaki hayatta biri olsun, ne olur."
+    },
+    "RD_ALifeLine_075e0f9e7f0f4e1d": {
+      "tr": "Ayak sesi. Sessiz ol, dinleyeyim."
+    },
+    "RD_ALifeLine_759f3cfa5436e9a0": {
+      "tr": "K-kim o orada? Kim bu? Alo?? ...kimse, neden kimse cevap vermiyor."
+    },
+    "RD_ALifeLine_29cd8aae74f083d1": {
+      "tr": "Her gıcırtıda sonum geldi sanıyorum, her gıcırtıda."
+    },
+    "RD_ALifeLine_76c363cc067cdb99": {
+      "tr": "Kusacağım, kusacağım."
+    },
+    "RD_ALifeLine_0feabf9b139ab554": {
+      "tr": "Birden fazla var, iki, üç, hayır hayır hayır."
+    },
+    "RD_ALifeLine_5d4c0d235d88a3cb": {
+      "tr": "Köpek mi? Köpek de, ne olur, köpek de."
+    },
+    "RD_ALifeLine_65109f45759d2320": {
+      "tr": "Arkama geç, çıt yok."
+    },
+    "RD_ALifeLine_063cde177e8257e6": {
+      "tr": "Ayak sürüyen biri bu, ben bilirim, çok gördüm."
+    },
+    "RD_ALifeLine_040eae8d782c3d42": {
+      "tr": "Geliyor mu gidiyor mu anlayamıyorum, bu daha kötü."
+    },
+    "RD_ALifeLine_18c459d313a7b06d": {
+      "tr": "Babam bir adamın ruh halini yürüyüşünden anlarsın derdi, bu galiba öfkeli."
+    },
+    "RD_ALifeLine_1355e6c462a59aa1": {
+      "tr": "Ağır adım, herhalde insan, bot, topuğu duyuyor musun?"
+    },
+    "RD_ALifeLine_7db4fc2c399e6ad8": {
+      "tr": "Sürüklenme, ayak sürüme, onlardan biri, acelesi yok."
+    },
+    "RD_ALifeLine_6a52624526419910": {
+      "tr": "İki çift ayak sesi, biri hızlı, biri yavaş, yağmacılar ve peşlerinde bir tane."
+    },
+    "RD_ALifeLine_3e4e1b315dc8f184": {
+      "tr": "Sessiz ol, geçsin, sebep verme."
+    },
+    "RD_ALifeLine_67e1f15e0d03a073": {
+      "tr": "Bakma, bakma, geçmesini bekle."
+    },
+    "RD_ALifeLine_6cf8c90f0c36537e": {
+      "tr": "Hafif adım, dikkatli adım, av adımı, hoşlanmam."
+    },
+    "RD_ALifeLine_7d7cc4c17258a7ae": {
+      "tr": "Yalnız değil, bir takipçi var, ilkinin arkasında biri."
+    },
+    "RD_ALifeLine_77d902620b539f61": {
+      "tr": "Düzenli adımlar, insan bu, sürüklenenler değil."
+    },
+    "RD_ALifeLine_0917b8a124fc9bf4": {
+      "tr": "Çakıllar çıtırdadı, onu ele veren bu oldu."
+    },
+    "RD_ALifeLine_53e26893159a071e": {
+      "tr": "Ben bakmaya gidiyorum, sen kapıyı tut, yavaş, yavaş."
+    },
+    "RD_ALifeLine_63319a053d49b574": {
+      "tr": "Dışarıdaki de bizim gibi kaybolmuş biri."
+    },
+    "RD_ALifeLine_331887306104db7f": {
+      "tr": "Hiç ayak seslerini dinleyip komşundur diye düşündün mü?"
+    },
+    "RD_ALifeLine_15185437442afce5": {
+      "tr": "Billy köşeyi dönecek diye bekleyip duruyorum."
+    },
+    "RD_ALifeLine_22f052ee462507ab": {
+      "tr": "Hepsi eve doğru yürüyor, hiçbir yere çıkmayan bir eve."
+    },
+    "RD_ALifeLine_38fbefec59c0288c": {
+      "tr": "Postacıysa iki ay geç kalmış."
+    },
+    "RD_ALifeLine_37d3f7dc035502f1": {
+      "tr": "He, biri aksıyor, ayakkabıları kötüdür herhalde."
+    },
+    "RD_ALifeLine_2c85ee5f40c3dbb3": {
+      "tr": "Noel Baba de, hadi, bir kerecik."
+    },
+    "RD_ALifeLine_3970f1ea6375cee3": {
+      "tr": "Ayak sesi, hasta olabilir, tehdit olabilir, ışığı aşağıda tut."
+    },
+    "RD_ALifeLine_4cd3fa706eba0541": {
+      "tr": "Biri yaklaşıyor, seslenme, bekle ve izle."
+    },
+    "RD_ALifeLine_1191f40619ba2140": {
+      "tr": "Düzensiz yürüyüş, yaralı ya da onlardan biri, anlayana kadar mesafeni koru."
+    },
+    "RD_ALifeLine_07f2350e535190df": {
+      "tr": "Yaralılarsa yardım etmek isterim, değillerse gitmek."
+    },
+    "RD_ALifeLine_037581ee027d2f39": {
+      "tr": "Gece ayak sesi, gerçekten, GERÇEKTEN gece ayak seslerinden hoşlanmıyorum."
+    },
+    "RD_ALifeLine_1f5e22b04543191d": {
+      "tr": "Geceleri her şey daha gürültülü, her adım kafamın içinde atılıyor gibi."
+    },
+    "RD_ALifeLine_34c282f9636c7e1a": {
+      "tr": "Bu saatte kim dolaşır? İyi biri değil, söyleyeyim."
+    },
+    "RD_ALifeLine_4c6347c46bfa7a34": {
+      "tr": "Güpegündüz yürüyen biri, ya cesur ya aptal, belki ikisi birden."
+    },
+    "RD_ALifeLine_2026ec510b920876": {
+      "tr": "Gündüz yürüyenler, hiç olmazsa geldiklerini görebiliyorum."
+    },
+    "RD_ALifeLine_6db8f30f490a65f8": {
+      "tr": "Cam kırılıyor. O sesten hoşlanmıyorum."
+    },
+    "RD_ALifeLine_7fbf5fe15a1f25b6": {
+      "tr": "Duydun mu? Cam."
+    },
+    "RD_ALifeLine_00318f28230d4d34": {
+      "tr": "Cam! Biri cam kırdı!"
+    },
+    "RD_ALifeLine_15103aa84c7cdf29": {
+      "tr": "Pencereydi, değil mi?"
+    },
+    "RD_ALifeLine_04a3a5643b8cb740": {
+      "tr": "Duydun mu? Paramparça oldu, pencere gibi."
+    },
+    "RD_ALifeLine_2a77aef3145aeb56": {
+      "tr": "Bir şey kırıldı, büyük bir şey, cam olduğu kesin."
+    },
+    "RD_ALifeLine_22c0c5094c68e244": {
+      "tr": "Cam kırılıyor ve kıran biz değiliz."
+    },
+    "RD_ALifeLine_25ce4af7129bb321": {
+      "tr": "Off, büyük bir cam, sert düştü."
+    },
+    "RD_ALifeLine_66befca34db3d009": {
+      "tr": "Şangırtı, sonra sessizlik, sessizlikten nefret ediyorum."
+    },
+    "RD_ALifeLine_29714ad04071f27a": {
+      "tr": "Bir pencere gitti, sesini bilirim."
+    },
+    "RD_ALifeLine_1f741cc04f9aac0b": {
+      "tr": "Çatırtı, şıngırtı, çatırtı, biri meşgul."
+    },
+    "RD_ALifeLine_217989db35c345d9": {
+      "tr": "Dikkat, dikkat, cam sesi uzağa gider."
+    },
+    "RD_ALifeLine_01f8f58c72e73778": {
+      "tr": "Cam bu, cam bu, şşt, dinle."
+    },
+    "RD_ALifeLine_6fbad1a9037347b7": {
+      "tr": "Biri cam kırıyor olabilir. Dikkatli ol."
+    },
+    "RD_ALifeLine_45182e6672b9597d": {
+      "tr": "Ya da bir pencere düşmüştür, kim bilir, bu kasaba böyle."
+    },
+    "RD_ALifeLine_28657f0a003cfa84": {
+      "tr": "Şişe belki, ya da ayna, yok, kesin pencere."
+    },
+    "RD_ALifeLine_65b0d3897783e29c": {
+      "tr": "Cam kırılma sesi duydum, bir saniye kımıldamayalım."
+    },
+    "RD_ALifeLine_53976b156601dd22": {
+      "tr": "Bu birinin bir yere girme sesi değil miydi?"
+    },
+    "RD_ALifeLine_0a4ba6875b45adee": {
+      "tr": "O NEYDİ?! İçeride biri var! Biri giriyor!"
+    },
+    "RD_ALifeLine_49a8a42b6843b9df": {
+      "tr": "Cam- Allah'ım, cam, bir şey camdan giriyor!"
+    },
+    "RD_ALifeLine_6e822b951e257db5": {
+      "tr": "Onlar mı? İnsanlar mı? Hangisi daha kötü bilmiyorum."
+    },
+    "RD_ALifeLine_1dc99d4f0c2942a1": {
+      "tr": "Sessiz ol, sessiz ol, nefesimizi duyacaklar."
+    },
+    "RD_ALifeLine_7c1c23fd1378eb53": {
+      "tr": "Çok yakındı, dişlerimde hissettim."
+    },
+    "RD_ALifeLine_5ad46def021bd4fa": {
+      "tr": "Ne olur hayvan olsun, bir kedi, bir rakun, her neyse."
+    },
+    "RD_ALifeLine_5fa9c9d11c280117": {
+      "tr": "Cam! Allah'ım, kıran ne?"
+    },
+    "RD_ALifeLine_4eceea1020caed05": {
+      "tr": "Şşt... kıpırdama, çıt çıkarma."
+    },
+    "RD_ALifeLine_683492d87a2382a1": {
+      "tr": "Dizlerimin bağı çözüldü, gerçekten."
+    },
+    "RD_ALifeLine_5e672168407d018a": {
+      "tr": "Pencere, bir kat, bizimki değil, biri ortalığı dağıtıyor."
+    },
+    "RD_ALifeLine_6b9101547e12648e": {
+      "tr": "Ya hırsız ya onlardan biri, ikisi de bize kötü."
+    },
+    "RD_ALifeLine_78eb7000469d350e": {
+      "tr": "Cam, bir de metal, araba camı derim."
+    },
+    "RD_ALifeLine_313bf46647eb0493": {
+      "tr": "Biri arama yapıyor, gürültülü, hak ettiğini bulur."
+    },
+    "RD_ALifeLine_746497d50f88c9ea": {
+      "tr": "Şimdi sessiz, yatışsın, bir şey kıpırdıyor mu bakalım."
+    },
+    "RD_ALifeLine_15603a15448f3b3c": {
+      "tr": "Eh, adamın depozitosu da gitti."
+    },
+    "RD_ALifeLine_31fb5c9457eea6aa": {
+      "tr": "Ev sahibi çok sinirlenecek, bahse girerim, he."
+    },
+    "RD_ALifeLine_05038b1c2e21bb83": {
+      "tr": "Selam vermenin de böylesi!"
+    },
+    "RD_ALifeLine_7674b98474167e9b": {
+      "tr": "Birinin evi kırıldı, belki de bütün hayatı."
+    },
+    "RD_ALifeLine_0b1e52e01526d12c": {
+      "tr": "Eskiden birinin manzaralı penceresiydi bu."
+    },
+    "RD_ALifeLine_54daedf64028a270": {
+      "tr": "Cam, orada biri yaralanmıştır, şanslıysa hafif, değilse daha beter."
+    },
+    "RD_ALifeLine_0fbb769b279252e0": {
+      "tr": "Gözümü binadan ayırmıyorum, biri kanayarak çıkarsa diye."
+    },
+    "RD_ALifeLine_1404f06b48d77f2f": {
+      "tr": "Kırık cam kesik demek, enfeksiyon demek, yani ben demek."
+    },
+    "RD_ALifeLine_31fa9d952c860ee8": {
+      "tr": "Gece pencere kırılıyor, keşke duymasaydım."
+    },
+    "RD_ALifeLine_0a02963b1a008331": {
+      "tr": "Biri giriyor, karanlıkta, ayağının altında o kadar cam varken."
+    },
+    "RD_ALifeLine_5b466a3b7e94a819": {
+      "tr": "Silah sesiydi! Kim ateş ediyor?"
+    },
+    "RD_ALifeLine_463c33467ebd05ef": {
+      "tr": "Silah sesi, yakınlarda bir yerde, başımızı eğelim."
+    },
+    "RD_ALifeLine_4d89fd030a98bf8c": {
+      "tr": "Duydun mu? Biri ateş etti."
+    },
+    "RD_ALifeLine_30ef27fd6c84e8d8": {
+      "tr": "Silah- silahtı, değil mi?"
+    },
+    "RD_ALifeLine_791ed02b3b6d7c61": {
+      "tr": "Silah sesi! Biri az önce ateş etti!"
+    },
+    "RD_ALifeLine_2d300efa1763ce4f": {
+      "tr": "Duydun mu? Duyduğunu söyle."
+    },
+    "RD_ALifeLine_76ae112916c3fe59": {
+      "tr": "Silahtı, kamyonumu üstüne bahse girerim."
+    },
+    "RD_ALifeLine_6b6eb0bf68f30bc3": {
+      "tr": "Pat, öylece, dışarıda silahı olan biri var."
+    },
+    "RD_ALifeLine_2ee73fa1119b7b03": {
+      "tr": "Bir tane daha, dinle- bir atış daha."
+    },
+    "RD_ALifeLine_69fedc156b9962f9": {
+      "tr": "Tek atış, sonra hiçbir şey, o hiçbir şeyden nefret ediyorum."
+    },
+    "RD_ALifeLine_205af0660da99f75": {
+      "tr": "Ateş ediyorlar, biri ateş ediyor- duyuyor musun?"
+    },
+    "RD_ALifeLine_34eceab3744a0384": {
+      "tr": "Duydun mu? Duydun mu?? Havai fişek değil bu, artık değil."
+    },
+    "RD_ALifeLine_719cc5f0525ed959": {
+      "tr": "Tek atış, sadece bir tane, bu ne anlama geliyor?"
+    },
+    "RD_ALifeLine_42e5bde54a29736b": {
+      "tr": "Dur- şşş, şşş, dinle, yine mi patladı?"
+    },
+    "RD_ALifeLine_43fa92657d521160": {
+      "tr": "O çatırtı, tüfekti, tüfeği bilirim."
+    },
+    "RD_ALifeLine_16caef440a023141": {
+      "tr": "Dışarıda biri başı belada ya da biri bela çıkarıyor."
+    },
+    "RD_ALifeLine_58e87fea1b4f2aa5": {
+      "tr": "Yine başladı, pat pat, sonra sessizlik."
+    },
+    "RD_ALifeLine_529d645707002548": {
+      "tr": "Harika, şimdi kulağı olan herkes ateş edenin yerini biliyor."
+    },
+    "RD_ALifeLine_3f73873a24a05de7": {
+      "tr": "Her kimse, etraftaki bütün ölülere yemek zilini çaldı."
+    },
+    "RD_ALifeLine_7afd19d732dcd231": {
+      "tr": "Silah sesi, nereden geldiğini anlayamıyorum, en kötüsü bu."
+    },
+    "RD_ALifeLine_779d06e37d1dcdb2": {
+      "tr": "Çok gürültülüydü, ÇOK gürültülüydü, burada kim böyle ateş eder?"
+    },
+    "RD_ALifeLine_0dfecc4b454d4e9f": {
+      "tr": "He, demek mermisi olan tek biz değilmişiz, ha."
+    },
+    "RD_ALifeLine_547f48ec6fa08670": {
+      "tr": "Araba egzoz patlatmadı herhalde?"
+    },
+    "RD_ALifeLine_18281a1c67cf7d16": {
+      "tr": "Silah mı?! Gerçek silahtı bu!"
+    },
+    "RD_ALifeLine_60071bf83d705180": {
+      "tr": "Yat, yat yere, biri ateş ediyor!"
+    },
+    "RD_ALifeLine_16aed57b281225d3": {
+      "tr": "N-neydi o? Silah mı? Silahtı!"
+    },
+    "RD_ALifeLine_03fb513018efddba": {
+      "tr": "Hayır hayır hayır, ateş sesine dayanamam."
+    },
+    "RD_ALifeLine_272dcfe3560c9cd9": {
+      "tr": "Ne olur uzaktan olduğunu söyle, ne olur uzak de."
+    },
+    "RD_ALifeLine_48401da229f411fa": {
+      "tr": "Yarabbi, yerimden sıçradım, kalbim davul gibi çarpıyor.",
+      "not": "'Oh Jesus' ünlem → Yarabbi (K35)."
+    },
+    "RD_ALifeLine_0ccc16a56f8744ab": {
+      "tr": "O ses- o sesten titremem geçmiyor."
+    },
+    "RD_ALifeLine_7163e7c637bdcbd5": {
+      "tr": "Ordu mu bu? Bu- yok, ordu böyle ateş etmez, değil mi?"
+    },
+    "RD_ALifeLine_23fe03db1723d68e": {
+      "tr": "Kim ateş ediyor? KİM ATEŞ EDİYOR?!"
+    },
+    "RD_ALifeLine_0754082f27df0c3e": {
+      "tr": "Buna hazır değilim, bunların hiçbirine hazır değilim."
+    },
+    "RD_ALifeLine_15024fcf27223664": {
+      "tr": "İnsanlara ateş ediyorlar, gerçekten insanlara ateş ediyorlar."
+    },
+    "RD_ALifeLine_149a25d66c7995ed": {
+      "tr": "O- bizimkilerden biri miydi? Ne olur bizimkilerden biri olmasın."
+    },
+    "RD_ALifeLine_6a9b2f8036024381": {
+      "tr": "S-susun, herkes sussun, bizi duyacaklar."
+    },
+    "RD_ALifeLine_419d5ff4641da85b": {
+      "tr": "Annem hep silahlar gelecek derdi, bu kadar çabuk olur sanmazdım."
+    },
+    "RD_ALifeLine_6f8984140db495f0": {
+      "tr": "Ahh hayır, hayııır, bir tane daha, bir tane daha-"
+    },
+    "RD_ALifeLine_3929262464de7394": {
+      "tr": "Bu dişlerimi titretti, DİŞLERİMİ."
+    },
+    "RD_ALifeLine_0caeda1b7aa1b3fc": {
+      "tr": "Biri mi çığlık attı, yoksa ben miydim?"
+    },
+    "RD_ALifeLine_36caebf96981c894": {
+      "tr": "Bunu göğsümde hissettim."
+    },
+    "RD_ALifeLine_3a5173392052b261": {
+      "tr": "Kulaklarım çınlıyor, bizim silah bile değildi."
+    },
+    "RD_ALifeLine_29698eea06abd9f6": {
+      "tr": "Dışarıda biri ölüyor ve biz burada öylece duruyoruz."
+    },
+    "RD_ALifeLine_65e915ac2c63e428": {
+      "tr": "O tarafa gitme, ne olur oraya doğru gitme."
+    },
+    "RD_ALifeLine_56e845d76f4a5adc": {
+      "tr": "Yine 4 Temmuz gibi, sadece kimse gülmüyor."
+    },
+    "RD_ALifeLine_0a4150111be13e8a": {
+      "tr": "Babamı istiyorum, kusura bakma, aptalca biliyorum, babamı istiyorum."
+    },
+    "RD_ALifeLine_3299c6582b720206": {
+      "tr": "Hadi, hadi, duvarı olan bir yere gidelim."
+    },
+    "RD_ALifeLine_6c609b687f7f59a4": {
+      "tr": "Geri çekil, geri çekil, pencerelerden uzaklaş."
+    },
+    "RD_ALifeLine_307107064f1dd943": {
+      "tr": "Tüfek, orta mesafe, belki sürgülü, bizim sorunumuz değil."
+    },
+    "RD_ALifeLine_414f1d643d2d056f": {
+      "tr": "Tek atış, aralıklı, biri bir şey avlıyor."
+    },
+    "RD_ALifeLine_7105b2b70bd9bbb5": {
+      "tr": "Boş ver, kim olduğunu bilmiyoruz, bilmek de istemiyoruz."
+    },
+    "RD_ALifeLine_518c1f9458f13ea4": {
+      "tr": "Silah sesi artık daha çok yayılıyor, onları da çeker."
+    },
+    "RD_ALifeLine_2bf044f85a7cadd1": {
+      "tr": "Tamam, not aldık, işimize dönelim."
+    },
+    "RD_ALifeLine_7a3fab1f54738f99": {
+      "tr": "Silah sesi davet değil, ben olduğum yerde kalıyorum."
+    },
+    "RD_ALifeLine_1a926ae05177d3ef": {
+      "tr": "Bizim değil, o yüzden başını eğ, yürümeye devam et."
+    },
+    "RD_ALifeLine_6e0827c3481c762f": {
+      "tr": "İki-iki-iki, geyik tüfeği bu, her kasımda duyarım.",
+      "not": "'Two-two-two' = .222 kalibre tüfek; konuşma dilinde 'iki-iki-iki' bırakıldı."
+    },
+    "RD_ALifeLine_32b7c0bf3fb9b99a": {
+      "tr": "Biri bir şey kanıtlamaya çalışıyor, akşama kadar bedelini öder."
+    },
+    "RD_ALifeLine_7f7395530a2c8f5c": {
+      "tr": "Bu atış misafir çağırır, hem de elinde güveçle gelen cinsinden değil."
+    },
+    "RD_ALifeLine_1d269a763c0b5056": {
+      "tr": "Say, kaç tane duyduğunu söyle."
+    },
+    "RD_ALifeLine_1d3cb4985944405c": {
+      "tr": "Bir saniye kıpırdama, bir sonrakinin nereden geleceğini duyalım."
+    },
+    "RD_ALifeLine_5da169ab547a553c": {
+      "tr": "Tabanca, yok, tüfek, kahretsin, artık ayıramıyorum."
+    },
+    "RD_ALifeLine_2e32560869ae3796": {
+      "tr": "Ona doğru koşma, ondan uzaklaşmaya da koşma, olduğun yerde kal."
+    },
+    "RD_ALifeLine_116490047b6a9ff4": {
+      "tr": "Evet, duydum, artık sıçramıyorum, eskiden sıçrardım."
+    },
+    "RD_ALifeLine_6c663827592f5a6a": {
+      "tr": "Silah sesi kapıları kontrol etmek için iyi bir sebep."
+    },
+    "RD_ALifeLine_252e253a1a48962b": {
+      "tr": "Birinin hala mermisi var, birinin hala bir sebebi."
+    },
+    "RD_ALifeLine_6ff866c8780516fe": {
+      "tr": "Dışarıdaki her atış bir insan, biliyor musun? Bir insan-"
+    },
+    "RD_ALifeLine_60041ebc0c7916c6": {
+      "tr": "Hiç bitmeyen bir 4 Temmuz gibi."
+    },
+    "RD_ALifeLine_52b0d2e1219a3575": {
+      "tr": "Biri son mermisini atıyor, bahse girerim, birinin sonuncusu."
+    },
+    "RD_ALifeLine_5554fa885620ec05": {
+      "tr": "Hep başkasının kocasıdır diye düşünüyorum."
+    },
+    "RD_ALifeLine_12c0bd6a2c66a64f": {
+      "tr": "Kuşlara ateş etmiyorlar, değil mi?"
+    },
+    "RD_ALifeLine_412585e3096159db": {
+      "tr": "Neye ateş ettiklerini bilmek istemiyorum."
+    },
+    "RD_ALifeLine_3c3209d9149495fa": {
+      "tr": "Umarım çabuk olmuştur, her neyse."
+    },
+    "RD_ALifeLine_2cab98c53e41ba6d": {
+      "tr": "Allah yardımcısı olsun, ucundaki kimse.",
+      "not": "'God help' → Allah yardımcısı olsun (K35)."
+    },
+    "RD_ALifeLine_1acd7f244da5007e": {
+      "tr": "Eskiden bu ses geyik mevsimi demekti, babamın botları kapı önünde."
+    },
+    "RD_ALifeLine_11b344d82c785f15": {
+      "tr": "İşte yemek zili, gidip selam vermek isteyen var mı? Var mı? Yok."
+    },
+    "RD_ALifeLine_11c5b0ac5ba74a0b": {
+      "tr": "Birinin günü bizimkinden de kötü, bu neredeyse güzel, he."
+    },
+    "RD_ALifeLine_42fedcfc196ec519": {
+      "tr": "Vurulacaksam, bari öğle yemeğinden sonra olsun."
+    },
+    "RD_ALifeLine_5895c2e13f9e7c81": {
+      "tr": "Uykum da gitti."
+    },
+    "RD_ALifeLine_096f2f690bcf8422": {
+      "tr": "Pat pat, he, taşralı usulü sabah alarmı."
+    },
+    "RD_ALifeLine_6123371d49779699": {
+      "tr": "Bubba sonunda av fişeklerini bulmuş galiba."
+    },
+    "RD_ALifeLine_2d65ba1d4ce5f65f": {
+      "tr": "Biri onlara susturucu kullanmalarını söylesin, ölüleri uyandıracaklar... ha, dur."
+    },
+    "RD_ALifeLine_4f5d90e00693ea76": {
+      "tr": "Silah sesi, biri yaralanmış olabilir, çantan elinin altında olsun."
+    },
+    "RD_ALifeLine_6e68017f1cdc106b": {
+      "tr": "İsabet olduysa dışarıda bir hasta var demek."
+    },
+    "RD_ALifeLine_71a367197f1b01f1": {
+      "tr": "Ateş edildi, yatın!"
+    },
+    "RD_ALifeLine_640ed08517dc5696": {
+      "tr": "O sesten nefret ediyorum, ardından gelenden de."
+    },
+    "RD_ALifeLine_2ab7cab72ba75283": {
+      "tr": "Say, devam ediyorsa biri yere düşmüş demek."
+    },
+    "RD_ALifeLine_2cbcccd55b323b16": {
+      "tr": "O ses ya bana ihtiyaç var ya da çok geç kaldım demek, arası yok."
+    },
+    "RD_ALifeLine_419fc8a64c8ccc5b": {
+      "tr": "Çanta hazır, dışarıda yardım isteyen çıkarsa diye."
+    },
+    "RD_ALifeLine_273b149317303319": {
+      "tr": "Sağlıkçılar ateş edene doğru koşmaz, kendime hep hatırlatıyorum."
+    },
+    "RD_ALifeLine_15a8049c6b95ccfa": {
+      "tr": "Kurşun yarası, muhtemelen göğüs, aklımda hep göğüs oluyor."
+    },
+    "RD_ALifeLine_605026a57184d18f": {
+      "tr": "Dört saatlik eğitim aldım ve hiçbiri BUNUN karşısında ne yapacağımı söylemiyor."
+    },
+    "RD_ALifeLine_2f7398676b27657a": {
+      "tr": "Rabbim, kim olursa olsun, tetiği çeken kim olursa olsun, merhamet et.",
+      "not": "Din adamı: Lord → Rabbim (K35)."
+    },
+    "RD_ALifeLine_7a2fae8141ccfd8a": {
+      "tr": "Dışarıda kim varsa onun için bir dua et, ben ederim, iki taraf için de."
+    },
+    "RD_ALifeLine_7dc6ada10e0ad27e": {
+      "tr": "İtfaiye araçları, merdivenler, her gün onları bu gürültüye tercih ederim."
+    },
+    "RD_ALifeLine_2d21acb773b5781f": {
+      "tr": "Silah sesi yaralı demek, yaralı bize demek, hazırlanın."
+    },
+    "RD_ALifeLine_6d8ab06c6af7ae37": {
+      "tr": "Karanlıkta silah sesi, bundan kötüsü yok, hiç yok."
+    },
+    "RD_ALifeLine_03b5da7b66f822e6": {
+      "tr": "Geceleri silah sesi yatak odanda patlıyor gibi gelir."
+    },
+    "RD_ALifeLine_590ca88a0c7b6d50": {
+      "tr": "Nereden geldiğini görmeye çalışsam da göremem, karanlık yutuyor."
+    },
+    "RD_ALifeLine_156eab6c32ff14fd": {
+      "tr": "Gün battıktan sonra atış hoşuma gitmiyor, arkasından ne geleceğini göremezsin."
+    },
+    "RD_ALifeLine_05bab8742988e229": {
+      "tr": "Gece silah sesi, demek biri ya cesur ya aptal ya da ikisi birden."
+    },
+    "RD_ALifeLine_092bdcd35073a943": {
+      "tr": "Güpegündüz ateş ediyorlar, cesaret ister."
+    },
+    "RD_ALifeLine_714238b138631667": {
+      "tr": "Güneş doğmuş, biri çoktan tetiğe asılıyor."
+    },
+    "RD_ALifeLine_25fac8693453be5c": {
+      "tr": "Gündüz atışı, yani neye nişan aldıklarını görüyorlar, bu daha kötü."
+    },
+    "RD_ALifeLine_002f06b31b036e0f": {
+      "tr": "Öğle vakti yine silah sesi, sıcak yetmiyormuş gibi."
+    },
+    "RD_ALifeLine_405ce3b8588d42e5": {
+      "tr": "Biri konuşuyordu, gerçek insanlar."
+    },
+    "RD_ALifeLine_015c2fbf6f526241": {
+      "tr": "Sesler! Şurada! Biri hayatta!"
+    },
+    "RD_ALifeLine_394765d110a55222": {
+      "tr": "Sesler! Ses duydum!"
+    },
+    "RD_ALifeLine_609a1e9555f82fc2": {
+      "tr": "Biri konuşuyor, şşt, dinle."
+    },
+    "RD_ALifeLine_3d7a78b65a32e3a5": {
+      "tr": "Dur, ses vardı, hem de gerçek."
+    },
+    "RD_ALifeLine_2d09ca8b1c86cf3d": {
+      "tr": "Dışarıda biri var, mırıldandığını duydum."
+    },
+    "RD_ALifeLine_00e9e39412261f6a": {
+      "tr": "Konuşuyorlar, konuşuyordu, kesinlikle konuşuyordu."
+    },
+    "RD_ALifeLine_55b705f11573b3e9": {
+      "tr": "Bir ses.. kimin konuştuğunu seçemiyorum."
+    },
+    "RD_ALifeLine_6d499ada357fb648": {
+      "tr": "Bir dakika, bir dakika, biri bir şey söyledi, çok uzaktan."
+    },
+    "RD_ALifeLine_5ea2958b42a64310": {
+      "tr": "Tartışıyorlar, duydun mu? İki kişi tartışıyor."
+    },
+    "RD_ALifeLine_27abafd377a8b124": {
+      "tr": "Şarkı mı? Biri gerçekten şarkı mı söylüyor?"
+    },
+    "RD_ALifeLine_488e1801625cc342": {
+      "tr": "Kahkaha, dışarıda gülen var, kim gülüyor?"
+    },
+    "RD_ALifeLine_232dbcfc0359df10": {
+      "tr": "Radyo olabilir mi? Radyo mu bu? Radyodan bir ses mi?"
+    },
+    "RD_ALifeLine_5e5e58df7b3517ca": {
+      "tr": "Çığlık, yardım çığlığı, bu bir yardım çığlığı."
+    },
+    "RD_ALifeLine_49f0f9d10fac8665": {
+      "tr": "Bir adam alçak sesle konuşuyor, çok alçak, duyulmamaya çalışıyor."
+    },
+    "RD_ALifeLine_2caaebf346671b30": {
+      "tr": "Fısıltı, o fısıltıyı duydun mu? Rüzgar değil."
+    },
+    "RD_ALifeLine_2ebdb38f2099905c": {
+      "tr": "Allah'ım, insanlar var, başka insanlar var."
+    },
+    "RD_ALifeLine_5544c27a19dd523e": {
+      "tr": "O- tanıdığımız biri mi? Alo?? ALO??"
+    },
+    "RD_ALifeLine_254d764116eb402c": {
+      "tr": "Cevap verme, verme, kim olduğunu bilmiyoruz."
+    },
+    "RD_ALifeLine_4d4e23b6375f442e": {
+      "tr": "Yardım olabilir... ya da en kötüsü, anlayamıyorum."
+    },
+    "RD_ALifeLine_1cc236a83cda2e08": {
+      "tr": "Çok sakin konuşuyorlar, neden bu kadar sakinler?"
+    },
+    "RD_ALifeLine_3510c47d68333523": {
+      "tr": "Kalbim bir sürprize daha dayanamaz."
+    },
+    "RD_ALifeLine_588c60326fd72cb6": {
+      "tr": "Biri geliyor, biri geliyor, ne yapacağız?"
+    },
+    "RD_ALifeLine_7e75b16502efb31a": {
+      "tr": "Cevap vermek için bağırmak istiyorum ama çok korkuyorum."
+    },
+    "RD_ALifeLine_19e9cee763c4ef5c": {
+      "tr": "Bir ses! Dışarıda başka biri HAYATTA!"
+    },
+    "RD_ALifeLine_5ace71045ab6ff48": {
+      "tr": "Sesler, gerçek sesler, neredeyse ağlayacaktım, ağladım."
+    },
+    "RD_ALifeLine_727da67b28658072": {
+      "tr": "Bir insan daha, inanamıyorum, bir tane daha."
+    },
+    "RD_ALifeLine_4516b69a420bdee1": {
+      "tr": "Ne olur iyi biri ol, ne olur iyi bir insan ol."
+    },
+    "RD_ALifeLine_4a38627f2f80e15f": {
+      "tr": "Ses varsa insan var demek, insan da ya dert ya takas demek."
+    },
+    "RD_ALifeLine_6d6c01d55fb9e101": {
+      "tr": "Sessiz, görünmeden önce ne söylediklerini duyalım."
+    },
+    "RD_ALifeLine_4ab8c4262891c367": {
+      "tr": "Sesler uzağa gider, bizimki de, alçak konuş."
+    },
+    "RD_ALifeLine_3299741f7e96cb6b": {
+      "tr": "El sallama, bağırma, gelmek isterlerse bize gelsinler."
+    },
+    "RD_ALifeLine_18b561744d64e516": {
+      "tr": "Rahat görünüyorlar, acele yok, muhtemelen bir kamp."
+    },
+    "RD_ALifeLine_5ba9b23b4d30805c": {
+      "tr": "Biri hala konuşuyor, bu da bir şey."
+    },
+    "RD_ALifeLine_037a73c266a8bbcb": {
+      "tr": "O ses bir an kardeşime benzedi, sadece bir an."
+    },
+    "RD_ALifeLine_2e4aa8893ed63adb": {
+      "tr": "Bizden başka kimseyi duymayalı çok oldu."
+    },
+    "RD_ALifeLine_2934cf966455e628": {
+      "tr": "Hey, mahalle mangalına benziyor, mangal hariç."
+    },
+    "RD_ALifeLine_52b134633c643207": {
+      "tr": "Biri maç yüzünden tartışıyordur, bahse girerim, he."
+    },
+    "RD_ALifeLine_50662ef45e6ee259": {
+      "tr": "Bu hafta duyduğum akıllı sesli ilk konuşma, Allah razı olsun onlardan.",
+      "not": "'bless 'em' → Allah razı olsun (K35)."
+    },
+    "RD_ALifeLine_17b36bd20226550f": {
+      "tr": "Bir ses, yaralı olabilir, kıpırdama, acı sesi var mı dinle."
+    },
+    "RD_ALifeLine_4e2a5fcc16d70a0e": {
+      "tr": "Usulca seslen, yardıma ihtiyaçları olabilir, korkuyor olabilirler."
+    },
+    "RD_ALifeLine_61e22b0634425a53": {
+      "tr": "Biri çağırıyorsa cevap veririz, dikkatlice, siperden."
+    },
+    "RD_ALifeLine_1369cfdf1897a74b": {
+      "tr": "Karanlıkta sesler, Rabbim, yumuşak sesler olsun.",
+      "not": "Din adamı: Lord → Rabbim (K35)."
+    },
+    "RD_ALifeLine_4f1c654e342a7cc2": {
+      "tr": "Karanlıkta bir ses duymak beni her seferinde ürpertiyor."
+    },
+    "RD_ALifeLine_1c4a35a34a2bc701": {
+      "tr": "Gece vakti konuşma sesi, bu saatte kim konuşuyor?"
+    },
+    "RD_ALifeLine_7ae20cc4521bcc93": {
+      "tr": "Gün ışığında sesler, saklanmıyorlar, ya cesaretli ya çaresiz."
+    },
+    "RD_ALifeLine_7e8c1f0a626cf2e2": {
+      "tr": "Bir kalabalık! Koca bir kalabalık geliyor!"
+    },
+    "RD_ALifeLine_169879e9540833fe": {
+      "tr": "Bu tarafa geliyorlar! Yüzlercesi! Kaçın!"
+    },
+    "RD_ALifeLine_1941ca7b537aa1ac": {
+      "tr": "Ah hayır, ah hayır- çok fazlalar, gitmeliyiz."
+    },
+    "RD_ALifeLine_7a3cfc896d3454c7": {
+      "tr": "Geliyorlar, geliyorlar, hepsi bu tarafa geliyor!!"
+    },
+    "RD_ALifeLine_1a07aecd0dcd96e1": {
+      "tr": "KOŞ! Koş koş koş koş, doğruca bize geliyorlar!"
+    },
+    "RD_ALifeLine_7775029c02bef1c4": {
+      "tr": "Allah'ım, bizi DUYDULAR!"
+    },
+    "RD_ALifeLine_1b6b6bc80e363189": {
+      "tr": "Hangi yöne, hangi yöne, HANGİ YÖNE gidiyoruz?!"
+    },
+    "RD_ALifeLine_7098a8f630cfe114": {
+      "tr": "Kımılda! KIMILDA! Kalk, kalk, vakit yok!"
+    },
+    "RD_ALifeLine_27745837716ea988": {
+      "tr": "Buradan duyuyorum, o boğuk gürültü... Allah'ım."
+    },
+    "RD_ALifeLine_27f8d08a55339317": {
+      "tr": "Yarabbi, ne olur hayır, bu kadarından kaçamayız, KAÇAMAYIZ.",
+      "not": "'Oh Jesus' ünlem → Yarabbi (K35)."
+    },
+    "RD_ALifeLine_2526cc2c529cbe32": {
+      "tr": "Öyle dikilme, GİT! GİT! Neredeyse üstümüzdeler!"
+    },
+    "RD_ALifeLine_6f6473571e881fd5": {
+      "tr": "Anne, geliyorlar, durdur onları, durdursuuun."
+    },
+    "RD_ALifeLine_6923c86c68f29000": {
+      "tr": "Gürültü yüzünden oldu, gürültü, biri gürültü yaptı, kim yaptı?!"
+    },
+    "RD_ALifeLine_00bfd5620fa9404d": {
+      "tr": "Bittik- artık çok geç- hayır, GİT, GİT!"
+    },
+    "RD_ALifeLine_2c640da022d3ac9c": {
+      "tr": "Yerin sarsıldığını hissediyorum, yoksa ben mi titriyorum? Ben miyim?"
+    },
+    "RD_ALifeLine_6c146e010f33838b": {
+      "tr": "Çabuk! Acele et! Ne olur, ne olur, acele et!!"
+    },
+    "RD_ALifeLine_6fcf521c2bebd6f3": {
+      "tr": "Yaklaşıyorlar, yaklaşıyorlar, hiç yavaşlamıyorlar-"
+    },
+    "RD_ALifeLine_6e37206862706d89": {
+      "tr": "İşte geliyorlar, herkes kalksın, kalkın!"
+    },
+    "RD_ALifeLine_509fe90a0b8d8e32": {
+      "tr": "Kalabalık bize doğru geliyor, gitmemiz lazım, hemen."
+    },
+    "RD_ALifeLine_66b9e6ff7f7d59b3": {
+      "tr": "Bizi fark ettiler galiba, yön değiştirdiler."
+    },
+    "RD_ALifeLine_017deaf13046e26c": {
+      "tr": "Toplanın, toplanın, alabildiğinizi alın, geliyorlar."
+    },
+    "RD_ALifeLine_56887f467f83d0c0": {
+      "tr": "Hoşuma gitmedi, tamam, yürüyoruz."
+    },
+    "RD_ALifeLine_392ff7b1037e4520": {
+      "tr": "Çabuk, çabuk, kalk, yaklaşıyorlar."
+    },
+    "RD_ALifeLine_2b5f4ff02139c73f": {
+      "tr": "Yanımda kal, bu kalabalıkta beni kaybetme!"
+    },
+    "RD_ALifeLine_41cbba583b37ce1f": {
+      "tr": "Hepsi bize doğru geliyor, hepsi, gidelim!"
+    },
+    "RD_ALifeLine_3f69468434d38745": {
+      "tr": "Bırak, çantaları bırak, sadece git, geliyorlar."
+    },
+    "RD_ALifeLine_2cf3182735f40936": {
+      "tr": "Geliyorlar! Allah'ım, burada kalamayız!"
+    },
+    "RD_ALifeLine_0562b651126c2f48": {
+      "tr": "Arkana bakma, yürümeye devam et, arkana bakma."
+    },
+    "RD_ALifeLine_30397b8c1b4905dd": {
+      "tr": "Zombi sürüsü harekete geçti, bize geliyor, toplanın."
+    },
+    "RD_ALifeLine_1f1b6e4068229971": {
+      "tr": "En fazla birkaç dakikamız var, kapıp gidin."
+    },
+    "RD_ALifeLine_4ca9f582563dbf29": {
+      "tr": "Bize döndüler, artık beklemek yok."
+    },
+    "RD_ALifeLine_41ab8c66104d9c9a": {
+      "tr": "Dikkat, o kalabalık bize geliyor, hareket zamanı."
+    },
+    "RD_ALifeLine_2a8883da5c1ca97c": {
+      "tr": "Yürü, koşma, koşmak ses çıkarır ama HIZLI yürü."
+    },
+    "RD_ALifeLine_1b21a8d82ab7633f": {
+      "tr": "Hadi herkes, sıkı durun, sessizce çıkıyoruz."
+    },
+    "RD_ALifeLine_03e82a285c2fcd39": {
+      "tr": "Gürültü onları getirdi, bir daha asla, hemen çıkıyoruz."
+    },
+    "RD_ALifeLine_1d7af1186daffb04": {
+      "tr": "Geliyorlar ama yavaşlar, hala sıyrılabiliriz."
+    },
+    "RD_ALifeLine_70226ffd0874f607": {
+      "tr": "Arkadakileri toplayın, yaklaşıyorlar, gidelim."
+    },
+    "RD_ALifeLine_7ab407eb2c92ad63": {
+      "tr": "Karşı koyma, deneme bile, yollarından çekil."
+    },
+    "RD_ALifeLine_76fd13c50e3bf998": {
+      "tr": "Tamam, geliyorlar, ne yapılacağı belli."
+    },
+    "RD_ALifeLine_0139bfd92523ee0a": {
+      "tr": "Lanet olsun, lanet olsun, biri gürültü yaptı, biliyordum."
+    },
+    "RD_ALifeLine_0c0d5beb270f3263": {
+      "tr": "Ateş eden salak kimdi? KİM?! Şimdi bak!"
+    },
+    "RD_ALifeLine_75fb5e1436bbf664": {
+      "tr": "İşte geliyorlar, çok sağ ol, ÇOK sağ ol."
+    },
+    "RD_ALifeLine_7a1c2629432eb730": {
+      "tr": "Dalga geliyor ve durduramıyoruz..."
+    },
+    "RD_ALifeLine_7ccffe3f1366521e": {
+      "tr": "Hep gelirler, ne kadar sessiz olursan ol, hep gelirler."
+    },
+    "RD_ALifeLine_205c00a75bb31bcb": {
+      "tr": "Geliyorlar ama vaktimiz var, sakin olun, eşyalarınızı toplayın."
+    },
+    "RD_ALifeLine_253221ec50cb4001": {
+      "tr": "Herkes sessizce, bize doğru geliyorlar, ayrılıyoruz."
+    },
+    "RD_ALifeLine_380f3038166212fd": {
+      "tr": "Zombi sürüsü geliyor, ama yürüyüp uzaklaşabiliriz."
+    },
+    "RD_ALifeLine_51da64c63e74f2b6": {
+      "tr": "Aman Allah'ım, bu tarafa geliyorlar, beni bırakın, bırakın, gidin.",
+      "not": "Yaşlı aile büyüğü: 'Oh, Lord' → Aman Allah'ım (K35)."
+    },
+    "RD_ALifeLine_2acdefc33792e319": {
+      "tr": "Hızlı yürüyemem.. sen git, sen git!"
+    },
+    "RD_ALifeLine_4c312d521522f8da": {
+      "tr": "Kaldırın beni, kaldırın, lütfen, geliyorlar."
+    },
+    "RD_ALifeLine_55d69f4c43bd32ba": {
+      "tr": "Hay sıçayım, hay sıçayım, hay sıçayım, geliyorlar!",
+      "not": "Küfür gücü kaynağa göre: 'Oh shit' → 'Hay sıçayım' (D1/D2 ölçüsü, genç karakter)."
+    },
+    "RD_ALifeLine_18bb2f1801b72309": {
+      "tr": "Anne! Baba! Geliyorlar, hadi ARTIK!"
+    },
+    "RD_ALifeLine_5b770cb378c7cbb0": {
+      "tr": "Git, git, git, neyi bekliyorsun?! GELİYORLAR!"
+    },
+    "RD_ALifeLine_264da8507fc3bc54": {
+      "tr": "Kımılda! ŞİMDİ! Geliyorlar!"
+    },
+    "RD_ALifeLine_332f537e3f8e8a92": {
+      "tr": "Elimi tut, elimi tut, bırakma, koşuyoruz."
+    },
+    "RD_ALifeLine_6e18390079dc3d02": {
+      "tr": "Herkes arkamda, HEMEN çıkıyoruz, geliyorlar."
+    },
+    "RD_ALifeLine_5f179e261043a15d": {
+      "tr": "Küçükleri kapın, gidiyoruz, git, git, GİT!"
+    },
+    "RD_ALifeLine_43ae039125c65256": {
+      "tr": "Tahliye, tahliye, herkes harekete, bu tarafa geliyorlar."
+    },
+    "RD_ALifeLine_07509ce467858c4c": {
+      "tr": "Tek sıra halinde çıkın, bize geliyorlar, itişmek yok."
+    },
+    "RD_ALifeLine_760b90d240393986": {
+      "tr": "Dikkat, dikkat, tahliye noktasına gidin, beni takip edin."
+    },
+    "RD_ALifeLine_2f03bb1c1c7ced45": {
+      "tr": "Kimseyi taşıyamam, yürüyebiliyorsan yürü, koşabiliyorsan KOŞ."
+    },
+    "RD_ALifeLine_5d098ed92998deb3": {
+      "tr": "Geliyorlar, yaralıları da alın, bırakmayın."
+    },
+    "RD_ALifeLine_1457b91159e01503": {
+      "tr": "Sessizce gidelim, şimdi, Rab bizimle ama kımıldayın.",
+      "not": "Din adamı: 'the Lord is with us' → Rab bizimle (K35)."
+    },
+    "RD_ALifeLine_6d8ac5291ccf90b9": {
+      "tr": "Ah, Babamız, geliyorlar, burayı terk edelim.",
+      "not": "Din adamı: 'Oh, Father' = dua ünlemi → 'Babamız'."
+    },
+    "RD_ALifeLine_1b4386116707e71e": {
+      "tr": "Doğruca bize geliyorlar, eşyalarınızı kapın da gidelim."
+    },
+    "RD_ALifeLine_580dba332d3ee341": {
+      "tr": "Hay aksi, hay aksi, geliyorlar, aletleri boş ver, bırak."
+    },
+    "RD_ALifeLine_7419d8ec533d07d0": {
+      "tr": "Bu kadar, burada işimiz bitti, herkes kımıldasın."
+    },
+    "RD_ALifeLine_307c533a4d33ddd1": {
+      "tr": "Geliyorlar, ben çıkıyorum."
+    },
+    "RD_ALifeLine_38a859ee5d650be5": {
+      "tr": "Zombi sürüsü yolda, ben yokum."
+    },
+    "RD_ALifeLine_5ffb955754774afe": {
+      "tr": "Geliyorlar, geliyorlar, çabuk, benimle gel."
+    },
+    "RD_ALifeLine_6c21ab8a2a333818": {
+      "tr": "Ah hayır, hayır, bizi duydular, duydular, gitmeliyiz."
+    },
+    "RD_ALifeLine_5e964d7e0c89a28a": {
+      "tr": "Geliyorlar, çıkalım, bu ihtimali sevmedim."
+    },
+    "RD_ALifeLine_38a2b67c0eeebaf8": {
+      "tr": "Toparlan, geliyorlar, tartışacak vakit yok."
+    },
+    "RD_ALifeLine_2d2a0a7043784bdd": {
+      "tr": "Aman Allah'ım, ne kadar çok!"
+    },
+    "RD_ALifeLine_1becaf091496858f": {
+      "tr": "Hepsi geliyor! Hepsi!"
+    },
+    "RD_ALifeLine_23710a17295044c5": {
+      "tr": "Kaçın! Çok fazlalar!"
+    },
+    "RD_ALifeLine_57c3277c594bcc32": {
+      "tr": "Şunların hepsine bak."
+    },
+    "RD_ALifeLine_74b0e9b95df7effd": {
+      "tr": "Ah hayır, ah HAYIR, yüzlerce var, YÜZLERCE!"
+    },
+    "RD_ALifeLine_4a9d0a766194ddd5": {
+      "tr": "Sayamıyorum, sayamıyorum, çok fazlalar!"
+    },
+    "RD_ALifeLine_26f5a3186a1fd447": {
+      "tr": "Yarabbi, ne çok, GELMEYE devam ediyorlar, sonu yok!",
+      "not": "'Oh Jesus' ünlem → Yarabbi (K35)."
+    },
+    "RD_ALifeLine_17c334bb4b005613": {
+      "tr": "Yarabbi, sanki bütün kasaba kalkıp yürümüş!",
+      "not": "'Jesus' ünlem → Yarabbi (K35)."
+    },
+    "RD_ALifeLine_3fb960f0452c494c": {
+      "tr": "Kimse kıpırdamasın, kimse nefes almasın, koca bir kalabalık var."
+    },
+    "RD_ALifeLine_4c89c9816663a5e8": {
+      "tr": "Öldük, öldük, tam öldük, şu sayıya bak!"
+    },
+    "RD_ALifeLine_39da9cd21e876059": {
+      "tr": "Ahh Allah'ım, zombi sürüsü, bir SÜRÜ, anne, sürü sürü geliyorlar!",
+      "not": "'horde/herd' → 'zombi sürüsü' (vanilla ve ayarlar 'sürü'); 'bir sürü' (= çok) ile karışmasın diye 'zombi' eklendi."
+    },
+    "RD_ALifeLine_2e533d6e117d031c": {
+      "tr": "Dalga gibi, bu- şuna bak, hareket eden koca bir yığın."
+    },
+    "RD_ALifeLine_453f38403a6c5fd6": {
+      "tr": "Olamaz, dönüşecek bu kadar insan kalmış olamaz!"
+    },
+    "RD_ALifeLine_6fe5cd6e400c0b9d": {
+      "tr": "Yüz vardır, yüz ve... ah, saymayı bıraktım."
+    },
+    "RD_ALifeLine_0b1ef08063513f82": {
+      "tr": "Neden bu kadar çok? Hepsi nereden ÇIKTI?"
+    },
+    "RD_ALifeLine_70c5f6d933833499": {
+      "tr": "Hepsi aynı yöne yürüyor, hepsi birlikte, sanki bir şey biliyorlar."
+    },
+    "RD_ALifeLine_6ca5f7866fc34602": {
+      "tr": "Ne olur düşündüğüm şey olmadığını söyle, ne olur."
+    },
+    "RD_ALifeLine_269734c57216c2b6": {
+      "tr": "Galiba kusacağım, koca bir kalabalık var."
+    },
+    "RD_ALifeLine_3c6e3c0756c0d806": {
+      "tr": "Koca bir cemaat gibi, ama hepsi... Allah'ım."
+    },
+    "RD_ALifeLine_3a8f365276938b32": {
+      "tr": "İlerde büyük bir grup var, eğilin."
+    },
+    "RD_ALifeLine_48343c0b138fdfe0": {
+      "tr": "Ses çıkarma, ileride bir ölü kalabalığı var."
+    },
+    "RD_ALifeLine_535a770d4832a167": {
+      "tr": "Vay... bu kaç tane böyle?"
+    },
+    "RD_ALifeLine_338c7aaf6ad61393": {
+      "tr": "Bununla savaşamayız, savaşamayız, dolaşmalıyız."
+    },
+    "RD_ALifeLine_192fac4819eefe24": {
+      "tr": "Sessiz! Kaç tane olduklarına bak, sessiz!"
+    },
+    "RD_ALifeLine_667f0bfe0c032c19": {
+      "tr": "Bu bize fazla, çok ama çok fazla."
+    },
+    "RD_ALifeLine_6e96208e11c07467": {
+      "tr": "Başka yoldan gitmeliyiz, bir kalabalık var ve bu tarafa geliyor."
+    },
+    "RD_ALifeLine_4fc1ea6e12e7cd2a": {
+      "tr": "Bir grup, otuz kadar, belki daha fazla."
+    },
+    "RD_ALifeLine_68b3f9e27fb73ed7": {
+      "tr": "Şu gruba bak, hepsi birlikte yürüyor."
+    },
+    "RD_ALifeLine_130797e22d215ba3": {
+      "tr": "Koca bir güruh, yirmiye kadar saydım, bıraktım."
+    },
+    "RD_ALifeLine_3aa2961239e15fbb": {
+      "tr": "Cenaze mi bu? Neden bu kadarı bir arada?"
+    },
+    "RD_ALifeLine_5fc5541f51ac5381": {
+      "tr": "Herkes geri çekilsin, sessizce, sessizce, dışarıda büyük bir grup var."
+    },
+    "RD_ALifeLine_27a8ccb756f62830": {
+      "tr": "Büyük grup, elliden fazla, dikkatlerini çekme."
+    },
+    "RD_ALifeLine_2be2735450d2e36a": {
+      "tr": "Yukarıda zombi sürüsü var, usulca geri çekil, ses çıkarma."
+    },
+    "RD_ALifeLine_6ebb984e61112bf6": {
+      "tr": "Bu kalabalık, hem de gerçek, hemen gidiyoruz."
+    },
+    "RD_ALifeLine_672bd94e323f58bd": {
+      "tr": "Düzinelercesi, öylece sürükleniyorlar, acele etmiyorlar."
+    },
+    "RD_ALifeLine_1f4a222c016fc167": {
+      "tr": "Ateş etme, bağırma, diğer yoldan gidiyoruz."
+    },
+    "RD_ALifeLine_378a09f74ae3f9c0": {
+      "tr": "Kırk, elli tane var- bununla savaşmayacağız."
+    },
+    "RD_ALifeLine_69c8b4476cd0c99e": {
+      "tr": "Bu mermimizden fazla, yürüyelim."
+    },
+    "RD_ALifeLine_002305b77fe06f9c": {
+      "tr": "Büyük bir grup, birinin çıkardığı gürültüye gidiyorlar."
+    },
+    "RD_ALifeLine_077660fe721e8ddb": {
+      "tr": "Sonra sayarsın, şimdi yürü."
+    },
+    "RD_ALifeLine_6a14baad7ae72bbe": {
+      "tr": "Daha küçüklerini gördüm, bunun gibisini hiç, dikkatlice geri çekil."
+    },
+    "RD_ALifeLine_00a40a281918ada4": {
+      "tr": "Bir grup var, doğu tarafı, sessizce dolaşıp geçeriz."
+    },
+    "RD_ALifeLine_51edaa22709d171e": {
+      "tr": "Göğüslemek için çok fazlalar, dikkatli olursak sıyrılabiliriz."
+    },
+    "RD_ALifeLine_7a163a8f17756ee4": {
+      "tr": "İşte zombi sürüsü... herkesin fısıldadığı bu."
+    },
+    "RD_ALifeLine_00e40e473b4ca82e": {
+      "tr": "Demek kasabanın geri kalanı buraya gelmiş..."
+    },
+    "RD_ALifeLine_6468c86d5f4af9af": {
+      "tr": "Günlerdir geleceğini görüyordum, işte burada, bir ölü kalabalığı."
+    },
+    "RD_ALifeLine_484dcbc9706728d4": {
+      "tr": "İlerde büyük bir grup var, uzaktan dolaşacağız."
+    },
+    "RD_ALifeLine_4b09cc84674d1be8": {
+      "tr": "Epey kalabalık, görünmeyelim."
+    },
+    "RD_ALifeLine_75027e9a376f630e": {
+      "tr": "Zombi sürüsü. Yavaş hareket et, mesafeni koru."
+    },
+    "RD_ALifeLine_71e6c66d3d2acd70": {
+      "tr": "Göklerdeki Allah'ım, şuna bak, hepsi, hepsi bir zamanlar canlıydı.",
+      "not": "Yaşlı aile büyüğü: 'Lord in Heaven' → Göklerdeki Allah'ım (K35)."
+    },
+    "RD_ALifeLine_5c0d10194a811a26": {
+      "tr": "Ne kadar çok, ne kadar çok, hepsi birilerinin çocuğuydu."
+    },
+    "RD_ALifeLine_32ea5b172451861f": {
+      "tr": "Aman Allah'ım... yavrum, sakın şuna bakma."
+    },
+    "RD_ALifeLine_43bdbf191d685b1b": {
+      "tr": "Vay anasını, vay ANASINI, konser gibi, ölülerin konseri!",
+      "not": "Genç karakterin tepkisi: 'Holy crap' → 'Vay anasını' (kaynakla aynı ağırlıkta)."
+    },
+    "RD_ALifeLine_06fa52d732a9459d": {
+      "tr": "Bin tane var gibi! Bin!"
+    },
+    "RD_ALifeLine_3712f83e31faf1c2": {
+      "tr": "Bununla savaşamayız, değil mi? Savaşamayız?! Ne olur savaşamayız de."
+    },
+    "RD_ALifeLine_59d606f24cfdc0e1": {
+      "tr": "Geri çekil.. çok fazlalar, GERİ ÇEKİL!"
+    },
+    "RD_ALifeLine_133e79bf0501e0d9": {
+      "tr": "Dönüyoruz, hemen, herkes, sessizce."
+    },
+    "RD_ALifeLine_08a066025283b446": {
+      "tr": "Ah canım, ne kadar çok, gidelim, sessizce gidelim."
+    },
+    "RD_ALifeLine_3cff60db116f9b25": {
+      "tr": "Oraya yaklaşmam, bizi öbür yoldan götür!",
+      "not": "Tekil emir; kaynak 'us' ama konuşan tek bir yetişkine seslenir."
+    },
+    "RD_ALifeLine_04877e4f3af55a38": {
+      "tr": "İlerde kalabalık bir enfekte yığını var, savaşmıyoruz, tekrar ediyorum, savaşmıyoruz."
+    },
+    "RD_ALifeLine_4991fd280870d744": {
+      "tr": "Bu insanı ezip geçen türden bir kalabalık, geri çekil."
+    },
+    "RD_ALifeLine_26780d89760e70b5": {
+      "tr": "Büyük grup, büyük grup, yollarından uzak dur."
+    },
+    "RD_ALifeLine_2d9fa16a52b02198": {
+      "tr": "Yüz kişiyi tedavi edemem, edemem, Allah'ım."
+    },
+    "RD_ALifeLine_4200586a743e785c": {
+      "tr": "Bütün kariyerim boyunca hasta tedavi ettim, ama şunlar... içlerinde artık kimse yok."
+    },
+    "RD_ALifeLine_70960ae01d1d3dd1": {
+      "tr": "Büyük bir kalabalık, Rab bize yardım etsin, ölülerden bir kalabalık.",
+      "not": "Din adamı: Rab (K35)."
+    },
+    "RD_ALifeLine_2a9379f33eb33e83": {
+      "tr": "Şşş.. bizi duymasınlar."
+    },
+    "RD_ALifeLine_4f8de7112134eccf": {
+      "tr": "Vay be, koca bir kalabalık, yüz tane var rahat."
+    },
+    "RD_ALifeLine_6cb3894062f7cf52": {
+      "tr": "Sanki bütün vardiya sıraya girmiş, hepsi."
+    },
+    "RD_ALifeLine_014eaa270f3d7848": {
+      "tr": "Ah be, oraya yaklaşmıyoruz, olmaz, yok."
+    },
+    "RD_ALifeLine_3d1d42ad48fc9d66": {
+      "tr": "Kalabalık, büyük, ben dolaşırım."
+    },
+    "RD_ALifeLine_4fa0d58847cac804": {
+      "tr": "Bu bir zombi sürüsü, hem de gerçek, ben gidiyorum."
+    },
+    "RD_ALifeLine_7cddba395265990c": {
+      "tr": "Çok fazlalar... Allah'ım... sessiz ol, kıpırdama."
+    },
+    "RD_ALifeLine_587792dd6eda73f2": {
+      "tr": "Hiç ses çıkarma, bu tarafa büyük bir kalabalık geliyor."
+    },
+    "RD_ALifeLine_7dff135805d8b393": {
+      "tr": "İlerde büyük bir grup var, o kavgayı istemiyoruz."
+    },
+    "RD_ALifeLine_133ec22e1737fd6b": {
+      "tr": "Altmış tane vardır, geri çekil, sessizce."
+    },
+    "RD_ALifeLine_3610d0151d201bfa": {
+      "tr": "Dikkat! Yerde sürünen biri var!"
+    },
+    "RD_ALifeLine_4f5106b73644757e": {
+      "tr": "Aşağıda! Bacakları yok!"
+    },
+    "RD_ALifeLine_624daf3925e8b9fe": {
+      "tr": "Ah! Yerde bir şey var!"
+    },
+    "RD_ALifeLine_2781694035be821c": {
+      "tr": "Aman Allah'ım, bu- SÜRÜNÜYOR, hala geliyor ve sürünüyor!"
+    },
+    "RD_ALifeLine_07e70c46061443a5": {
+      "tr": "Aşağıda! AŞAĞIDA! Ayaklarımın dibinde bir şey sürünüyor!"
+    },
+    "RD_ALifeLine_0c485d1e0b5de544": {
+      "tr": "Öf- öf- ÖF, bacağı yok, nasıl hala- hayııır"
+    },
+    "RD_ALifeLine_7f43e1e43696972e": {
+      "tr": "Bana bakıyor, tam bana bakıyor, midem bulanıyor."
+    },
+    "RD_ALifeLine_4c6a520616bc4302": {
+      "tr": "Oraya basma, basma, yerde bir tane var!"
+    },
+    "RD_ALifeLine_224873256e403026": {
+      "tr": "Ölü sandım, tam yanından geçtim, ölü sandım!"
+    },
+    "RD_ALifeLine_756568004594439d": {
+      "tr": "Kendini elleriyle çekiyor, Allah'ım, ELLERİYLE."
+    },
+    "RD_ALifeLine_15f2c3685aa6a34f": {
+      "tr": "Neden durmuyor? Yürüyemiyor bile ama durmuyor!"
+    },
+    "RD_ALifeLine_3e2578254730a6e6": {
+      "tr": "Bir şey botumu yakaladı- AAAH- yok, yok, iyiyim, sadece- orada, aşağıda."
+    },
+    "RD_ALifeLine_4c65947036718cbd": {
+      "tr": "Kahretsin, kahretsin, bileklerine dikkat, aşağıda bir tane var... yerde yani, yerde!"
+    },
+    "RD_ALifeLine_58e3b50931cf0c84": {
+      "tr": "Uzanıyor, UZANIYOR, o kadar alçakta ki neredeyse takılıp düşüyordum."
+    },
+    "RD_ALifeLine_70d5ed4963f8838e": {
+      "tr": "Ah hayır, sürünen biri, küçük bir tane... bakamıyorum."
+    },
+    "RD_ALifeLine_4f37e4853c70d6a0": {
+      "tr": "Yerde bir tane var, ayağına dikkat."
+    },
+    "RD_ALifeLine_45cc275047f75268": {
+      "tr": "Dikkat, şurada biri sürünüyor, uzak dur."
+    },
+    "RD_ALifeLine_1848a5c727252f69": {
+      "tr": "Aşağıda bir şey var, galiba bizi takip etmeye çalışıyor."
+    },
+    "RD_ALifeLine_552b7b9b56171ccc": {
+      "tr": "Hey, hey, aşağı bak, biri kendini sürüklüyor."
+    },
+    "RD_ALifeLine_5f908a2c41e7430b": {
+      "tr": "Yavaş, yavaş, ayağa kalkamıyor ama seni yakalamasına izin verme."
+    },
+    "RD_ALifeLine_34d0297037ea5040": {
+      "tr": "Dur, o yoldan gitme, orada onlardan biri yatıyor."
+    },
+    "RD_ALifeLine_217bd44b07dd2f99": {
+      "tr": "Neredeyse üstüne basıyordum, ceset sandım."
+    },
+    "RD_ALifeLine_3d3e3629493ed5d2": {
+      "tr": "Bacakları yok galiba, nasıl hareket ediyor?"
+    },
+    "RD_ALifeLine_28386c8e42067f20": {
+      "tr": "Ah, Allah'ım, sürünüşüne bak, hem üzücü hem korkutucu."
+    },
+    "RD_ALifeLine_43bfac7319081125": {
+      "tr": "Sürünen biri! Şurada, kenarda, görüyor musun?"
+    },
+    "RD_ALifeLine_0547b5f37dbbeb8a": {
+      "tr": "Yerde, ayaklarını uzak tut."
+    },
+    "RD_ALifeLine_183c71c33cf0c66d": {
+      "tr": "Sürünen, alçakta, bileklerine dikkat."
+    },
+    "RD_ALifeLine_4d8ea04d7c0f84a6": {
+      "tr": "Üstünden atlama, çevresinden dolaş, uzak dur."
+    },
+    "RD_ALifeLine_53bd226a1f953276": {
+      "tr": "Yerde bir tane var, uzaktan hallederiz."
+    },
+    "RD_ALifeLine_21fbf47d326da724": {
+      "tr": "Aşağıda, bacaklarını yaklaştırma."
+    },
+    "RD_ALifeLine_5a33a7ab19ea5556": {
+      "tr": "Sürünen, üç metre, ben hallederim.",
+      "not": "Birim: ten feet → üç metre."
+    },
+    "RD_ALifeLine_2b7507fc0098d76d": {
+      "tr": "Ayağına dikkat, biri sürünüyor."
+    },
+    "RD_ALifeLine_5551d34f3d7b50d7": {
+      "tr": "Karnı üstünde bir ölü, ona sırtını dönme."
+    },
+    "RD_ALifeLine_5a7118ae12caa80e": {
+      "tr": "Yerdeki, yavaş, gelsin de ezeriz."
+    },
+    "RD_ALifeLine_7f26ea157f9b6dce": {
+      "tr": "Dikkat, bazen ölü numarası yapıyorlar, bir adım geride dur."
+    },
+    "RD_ALifeLine_6535c09c202ab6b9": {
+      "tr": "Sürünenlerden nefret ediyorum, bakmadığın anda yakalıyorlar."
+    },
+    "RD_ALifeLine_20d3f2074f537c6d": {
+      "tr": "Basmadan önce aşağı bak, bir tane var."
+    },
+    "RD_ALifeLine_6bd6bff81d4efaa0": {
+      "tr": "Şu bacağını sürüklüyor, kimse yaklaşmasın."
+    },
+    "RD_ALifeLine_52cbb6432cabf253": {
+      "tr": "Sürünerek bile bizi istiyor... ne kadar çok istiyor."
+    },
+    "RD_ALifeLine_59431ff571952764": {
+      "tr": "Zavallı, yürüyemiyor, hala geliyor."
+    },
+    "RD_ALifeLine_75bf23d820d60ee5": {
+      "tr": "Sürüklenişine bak, neredeyse saygı duyacaksın."
+    },
+    "RD_ALifeLine_69b90f754869b3cb": {
+      "tr": "Yerde bir tane var, endişelenecek bir şey yok."
+    },
+    "RD_ALifeLine_0ce634e12e7c1fde": {
+      "tr": "Şurada yerde sürünen biri var, etrafından dolaş."
+    },
+    "RD_ALifeLine_7798c49e39d479fd": {
+      "tr": "Yerdeki enfekte, mesafeyi korursak tehdit değil."
+    },
+    "RD_ALifeLine_376f5a5332064a8f": {
+      "tr": "Ah zavallı, sürünüyor, Allah merhamet etsin.",
+      "not": "'Lord have mercy' → Allah merhamet etsin (K35)."
+    },
+    "RD_ALifeLine_0d226cce6158ca52": {
+      "tr": "Nereye bastığına dikkat et canım, yerde bir tane var."
+    },
+    "RD_ALifeLine_41bc4f2949598b13": {
+      "tr": "Bakmak istemiyorum, bitince söyle."
+    },
+    "RD_ALifeLine_2bc5e6da130c8226": {
+      "tr": "İğrenç! İğrenç iğrenç iğrenç! Biri sürünüyor!"
+    },
+    "RD_ALifeLine_711e3e8275371bbd": {
+      "tr": "Ya, bacakları yok ve HALA geliyor!"
+    },
+    "RD_ALifeLine_7df787e56569fd09": {
+      "tr": "Çok iğrenç ya, bu sadece- sürünüyor!"
+    },
+    "RD_ALifeLine_7bd8042f659c01b0": {
+      "tr": "Alçak hedef, alçak hedef, solda sürünen var."
+    },
+    "RD_ALifeLine_0b459673217068b2": {
+      "tr": "Adımına dikkat, biri sürünüyor, çevresinden geniş dolaş."
+    },
+    "RD_ALifeLine_7d4d1384201ab4fc": {
+      "tr": "Sürünen, aletim bende, botlarını uzak tut."
+    },
+    "RD_ALifeLine_62467cfd06a450c9": {
+      "tr": "Yerde biri var, hayır, değil, enfekte, sürünüyor."
+    },
+    "RD_ALifeLine_0ce3daf03531f9a8": {
+      "tr": "Allah'ım, neredeyse yardım etmeye gidiyordum, hasta değil."
+    },
+    "RD_ALifeLine_541d8887513368f0": {
+      "tr": "Yanına diz çökme, ısırır, yere düştü ama bitmedi."
+    },
+    "RD_ALifeLine_588b697259ffd56f": {
+      "tr": "Rabbim, şimdi bile, canlılara doğru sürükleniyor.",
+      "not": "Din adamı: Lord → Rabbim (K35)."
+    },
+    "RD_ALifeLine_6e042b2c1a5c3c80": {
+      "tr": "Usulca etrafından dolaş, Rab bizi affetsin.",
+      "not": "Din adamı: Rab (K35)."
+    },
+    "RD_ALifeLine_3005084149c552e9": {
+      "tr": "Şurada sürünen biri var, ben ezerim."
+    },
+    "RD_ALifeLine_6b68503a450da6c6": {
+      "tr": "Aman be, karnı üstünde, botlarına dikkat."
+    },
+    "RD_ALifeLine_6f4b35bc18c647d3": {
+      "tr": "Dikkat, aşağıda bir tane var... yerde yani, yerde."
+    },
+    "RD_ALifeLine_094c82072695bc5a": {
+      "tr": "Sürünen, alçakta, ben dolaşırım."
+    },
+    "RD_ALifeLine_3a9660971bd70484": {
+      "tr": "Ölünün biri sürünüyor, acele yok."
+    }
+  }
+}

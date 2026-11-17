@@ -1,0 +1,372 @@
+{
+    "_paket": "S8 — Sandbox: Uzman davranış (7ExpertBehavior)",
+    "_dosya": "Sandbox",
+    "satirlar": {
+        "Sandbox_ProjectALife.OfflineTravelTilesPerHour": {
+            "tr": "[Uzman] Arka planda yolculuk hızı (saatte kare)",
+            "not": "EN'e [Expert] eklendi; eski başlık korunup [Uzman] eklendi."
+        },
+        "Sandbox_ProjectALife.OfflineTravelTilesPerHour_tooltip": {
+            "tr": "Arka plandaki bir ekibin bir oyun saatinde yürüdüğü mesafe. Varsayılan 150, yani varsayılan gün uzunluğunda yürüyüş hızı; kasabalar arası 1700-3400 kare.",
+            "not": "K21: eskide üç \"-dır\" vardı (mesafedir, 150'dir, karedir); sadeleştirildi."
+        },
+        "Sandbox_ProjectALife.Regroup": {
+            "tr": "[Uzman] Liderin yanında yeniden toplan"
+        },
+        "Sandbox_ProjectALife.Regroup_tooltip": {
+            "tr": "Geride kalan üyeler, başıboş dolaşmak yerine gruplarına yetişir."
+        },
+        "Sandbox_ProjectALife.GroupMarch": {
+            "tr": "[Uzman] Grup hâlinde hareket et"
+        },
+        "Sandbox_ProjectALife.GroupMarch_tooltip": {
+            "tr": "Grup üyeleri ayrı ayrı yürümek yerine düzen içinde birlikte ilerler."
+        },
+        "Sandbox_ProjectALife.BreachStrength": {
+            "tr": "[Uzman] NPC'lerin engel kırma gücü (yüzde)"
+        },
+        "Sandbox_ProjectALife.BreachStrength_tooltip": {
+            "tr": "NPC'lerin zorla girerken kapıya, pencereye ve barikata ne kadar sert yüklendiğini belirler. 100 test edilmiş varsayılan: pencere üç, kalas dört darbede, sıradan bir kapı yaklaşık yarım dakikada gider; biri vururken diğerleri onu korur. Düşürürsen daha uzun sürer, artırırsan içeri daha çabuk dalarlar.",
+            "not": "K21: eski \"değer 100'dür\" → \"-dır\"sız; son cümleye hafif ağız (\"içeri daha çabuk dalarlar\")."
+        },
+        "Sandbox_ProjectALife.Search": {
+            "tr": "[Uzman] Gözden kaybolan hedefleri ara"
+        },
+        "Sandbox_ProjectALife.Search_tooltip": {
+            "tr": "NPC'ler hedefin en son görüldüğü yere gider ve vazgeçmeden önce bölgeyi arar."
+        },
+        "Sandbox_ProjectALife.SearchShout": {
+            "tr": "[Uzman] Oyuncunun bağırışlarına tepki ver"
+        },
+        "Sandbox_ProjectALife.SearchShout_tooltip": {
+            "tr": "Bağırırsan sesini duyan bütün NPC'ler sana doğru gelir.",
+            "not": "K7: eski \"sesinizi… size\" → \"sen\"."
+        },
+        "Sandbox_ProjectALife.SearchCallout": {
+            "tr": "[Uzman] Grup içi konum bildirimleri"
+        },
+        "Sandbox_ProjectALife.SearchCallout_tooltip": {
+            "tr": "Bir şey fark eden NPC, yerini grubuna bir kez bildirir. Konum bilgisi sürekli güncellenmez."
+        },
+        "Sandbox_ProjectALife.ModuleCover": {
+            "tr": "[Uzman] Ateşli silah kullanan NPC'ler siper alır"
+        },
+        "Sandbox_ProjectALife.ModuleCover_tooltip": {
+            "tr": "Ateşli silah kullanan NPC'ler yeniden doldurmak için ateş hattından çıkar, yaralanınca teması keser ve duvarlarla köşelerin gerisinden çatışır."
+        },
+        "Sandbox_ProjectALife.ModuleWithdraw": {
+            "tr": "[Uzman] Ateşli silah kullanan NPC'ler geri çekilip yeniden saldırır"
+        },
+        "Sandbox_ProjectALife.ModuleWithdraw_tooltip": {
+            "tr": "Çatışmada üstünlüğü kaybeden bir atıcı teması keser, yaklaşık bir sokak kadar geriye çekilir ve gözden uzak bir yere sığınır; yakınlarda bina varsa içine girer. Ardından başka bir yönden yeniden saldırır. Yalnızca menzilli silah kullananları etkiler; yakın dövüşçüler her zaman hedefe yaklaşır."
+        },
+        "Sandbox_ProjectALife.ModuleHealing": {
+            "tr": "[Uzman] Modül: yaraları sarma"
+        },
+        "Sandbox_ProjectALife.ModuleHealing_tooltip": {
+            "tr": "Çatışma sonrasında yaralı bir NPC durup yaralarını sarar; topallaması ve kanaması geçer."
+        },
+        "Sandbox_ProjectALife.SprintEnabled": {
+            "tr": "[Uzman] Hareket: kısa süreli deparlar"
+        },
+        "Sandbox_ProjectALife.SprintEnabled_tooltip": {
+            "tr": "Yakın dövüş için yaklaşırken, sipere geçerken ve geri çekilirken kısa süreli deparlara izin verir. Kapalıyken bu hareketler koşarak veya yürüyerek yapılır."
+        },
+        "Sandbox_ProjectALife.ModuleGunner": {
+            "tr": "[Uzman] Davranış: baskı ateşi"
+        },
+        "Sandbox_ProjectALife.ModuleGunner_tooltip": {
+            "tr": "Hedefini gözden kaybeden bir atıcı, hedefin son bilinen konumuna sağa sola tarayarak tam otomatik ateş eder ve şarjörünü boşaltır. Tabanca kullanan NPC'ler de şarjörlerini boşaltır."
+        },
+        "Sandbox_ProjectALife.ModuleBehaviors": {
+            "tr": "[Uzman] NPC rol davranışları (lider, keskin nişancı, sıhhiyeci...)"
+        },
+        "Sandbox_ProjectALife.ModuleBehaviors_tooltip": {
+            "tr": "Rollere özgü davranışları etkinleştirir: grubunu konuşlandırıp toparlayan ekip liderleri, mesafesini koruyan keskin nişancılar, yaralıları saran sıhhiyeciler, karanlıkta bekleyen pusucular ve sessizce öldüren saldırganlar. Kapatıldığında bu davranışların tümü devre dışı kalır."
+        },
+        "Sandbox_ProjectALife.ModuleStrafe": {
+            "tr": "[Uzman] Ateşli silah kullanan NPC'ler hareket ederken nişan alır"
+        },
+        "Sandbox_ProjectALife.ModuleStrafe_tooltip": {
+            "tr": "Ateşli silah kullanan NPC'ler yürürken, gerilerken veya yana adım atarken silahlarını hedeflerine ya da hedefin son görüldüğü yere doğrultmaya devam eder."
+        },
+        "Sandbox_ProjectALife.AppearanceLoadoutVariation": {
+            "tr": "[Uzman] Kişiye göre silah çeşitliliği"
+        },
+        "Sandbox_ProjectALife.AppearanceLoadoutVariation_tooltip": {
+            "tr": "Profilinde aynı yer için birkaç silah listelenen kişilerin her biri bunlardan birini alır. Kapalı: hep listedeki ilk silah kullanılır. Tek silahlı profiller etkilenmez. Varsayılan: açık."
+        },
+        "Sandbox_ProjectALife.ColdSeverity": {
+            "tr": "[Uzman] Soğuk: şiddet (%%)"
+        },
+        "Sandbox_ProjectALife.ColdSeverity_tooltip": {
+            "tr": "Soğuğun NPC'leri ne kadar sert çarptığını ve soğuk algınlığının cezalarının ne kadar ağır olduğunu belirler. 0 = NPC'ler hiç üşümez. 100 = varsayılan ve hafif. 300 = sert kışlar. Varsayılan: 100."
+        },
+        "Sandbox_ProjectALife.ColdChance": {
+            "tr": "[Uzman] Soğuk: soğuk algınlığına yakalanma olasılığı (çok üşüyen her saat için %%)"
+        },
+        "Sandbox_ProjectALife.ColdChance_tooltip": {
+            "tr": "Çok üşüyerek geçen her oyun saatinde bir NPC'nin soğuk algınlığına yakalanma taban olasılığı (NPC ne kadar üşümüş ve ıslaksa o kadar artar). 0 = üşüme hiçbir zaman soğuk algınlığına dönüşmez. Varsayılan: 6."
+        },
+        "Sandbox_ProjectALife.ColdSneezeNoise": {
+            "tr": "[Uzman] Soğuk: hapşırık ve öksürük biraz ses çıkarır"
+        },
+        "Sandbox_ProjectALife.ColdSneezeNoise_tooltip": {
+            "tr": "Hasta bir NPC'nin hapşırığı ya da öksürüğü, yakındaki zombilerin duyabileceği küçük bir ses çıkarır (birkaç kare). Sessiz kalsınlar istersen kapat."
+        },
+        "Sandbox_ProjectALife.FairTell": {
+            "tr": "[Uzman] Düşmanlar ilk saldırıdan önce uyarır"
+        },
+        "Sandbox_ProjectALife.FairTell_tooltip": {
+            "tr": "Düşman bir NPC, kendisine saldırmamış bir oyuncuya ilk darbesini ya da ilk atışını, oyuncunun fark etmek için adil bir şansı olmadan asla indirmez: bağırarak uyarı, duyulan bir kapı ya da pencere sesi veya NPC'nin İlk temas payı boyunca açıkça görünmesi. Karşılık vermek hiçbir zaman gecikmez.",
+            "not": "C1: \"first-contact grace\" → bir alttaki ayarın adı \"İlk temas payı\"."
+        },
+        "Sandbox_ProjectALife.FairGrace": {
+            "tr": "[Uzman] İlk temas payı (saniye)",
+            "not": "grace → \"pay\" (tanınan süre)."
+        },
+        "Sandbox_ProjectALife.FairGrace_tooltip": {
+            "tr": "Düşman bir NPC'nin önce bağırmadan saldırabilmesi için ne kadar süredir senin görüş alanında olması gerektiği."
+        },
+        "Sandbox_ProjectALife.FairWarningLead": {
+            "tr": "[Uzman] İlk saldırıdan önce uyarı süresi (saniye)"
+        },
+        "Sandbox_ProjectALife.FairWarningLead_tooltip": {
+            "tr": "Düşman NPC'nin uyarı bağırışı ile ilk darbesi ya da atışı arasındaki süre."
+        },
+        "Sandbox_ProjectALife.FairEntryLead": {
+            "tr": "[Uzman] Kapı ya da pencere sesinden sonra uyarı süresi (saniye)"
+        },
+        "Sandbox_ProjectALife.FairEntryLead_tooltip": {
+            "tr": "Düşman bir NPC'nin kapı açma ya da pencereden girme sesi ile yakındaki bir oyuncuya ilk saldırısı arasındaki süre."
+        },
+        "Sandbox_ProjectALife.FairWindowOpen": {
+            "tr": "[Uzman] NPC'nin pencere açma süresi (saniye)"
+        },
+        "Sandbox_ProjectALife.FairWindowOpen_tooltip": {
+            "tr": "Bir NPC'nin içinden geçmeden önce kapalı bir pencereyi açması için gereken süre. Pencerenin açıldığı duyulabilir."
+        },
+        "Sandbox_ProjectALife.FairFightMemory": {
+            "tr": "[Uzman] Kavgayı kimin başlattığını hatırlama (oyun dakikası)"
+        },
+        "Sandbox_ProjectALife.FairFightMemory_tooltip": {
+            "tr": "NPC'lerin bir oyuncuyla kavgayı kimin başlattığını ne kadar süre hatırladığı. Bu süre içinde karşılık vermek meşru müdafaa sayılır ve kavgayı başlatan NPC kurban gibi konuşmaz."
+        },
+        "Sandbox_ProjectALife.EncounterSurprise": {
+            "tr": "[Uzman] Şaşkınlık anı (saniye)"
+        },
+        "Sandbox_ProjectALife.EncounterSurprise_tooltip": {
+            "tr": "Düşman bir ekibin bir oyuncuyu fark ettikten sonra ateşi ne kadar tuttuğu: cevap vermek, silahı bırakmak, elleri kaldırmak ya da önce davranmak için tanınan süre. Ekibe nişan almak ya da saldırmak bu anı hemen bitirir."
+        },
+        "Sandbox_ProjectALife.EncounterAnswer": {
+            "tr": "[Uzman] Soruya cevap verme süresi (saniye)"
+        },
+        "Sandbox_ProjectALife.EncounterAnswer_tooltip": {
+            "tr": "Yolunu kesen bir ekibin soruyu yeniden sormadan önce cevap için ne kadar beklediği ('Cevap verecek misin?'). Üçüncü sessizlikten sonra ekip, fraksiyonuna göre ya gider, ya uyarır ya da saldırır."
+        },
+        "Sandbox_ProjectALife.EncounterCalloutTime": {
+            "tr": "[Uzman] Dışarı çağırma sabrı (saniye)",
+            "not": "S2'deki \"Binadan dışarı çağırma\" ile aynı kavram."
+        },
+        "Sandbox_ProjectALife.EncounterCalloutTime_tooltip": {
+            "tr": "Bina dışındaki bir ekibin, binayı aramadan ya da çekip gitmeden önce oyuncunun cevap vermesini ya da dışarı çıkmasını ne kadar beklediği; bu sırada tekrar tekrar seslenir ve bir uyarı ateşi açar. Kalan süre oyuncuya gösterilir."
+        },
+        "Sandbox_ProjectALife.EncounterSearch": {
+            "tr": "[Uzman] Bina arama süresi (saniye)"
+        },
+        "Sandbox_ProjectALife.EncounterSearch_tooltip": {
+            "tr": "Bir ekibin, oyuncunun saklandığını düşündüğü binayı ne kadar aradığı: biri kapıda bekler, diğerleri oda oda arar. Sonra vazgeçip yoluna devam eder."
+        },
+        "Sandbox_ProjectALife.EncounterLostSight": {
+            "tr": "[Uzman] Saklanan oyuncuyu kaybetme süresi (saniye)"
+        },
+        "Sandbox_ProjectALife.EncounterLostSight_tooltip": {
+            "tr": "Bir NPC'nin artık göremediği ya da duyamadığı oyuncunun peşini ne kadar sürdürdüğü. Bundan sonra yalnızca oyuncunun en son nerede görüldüğünü bilir ve oradan aramaya başlar."
+        },
+        "Sandbox_ProjectALife.EncounterFixBlur": {
+            "tr": "[Uzman] Avcılara gelen ihbarın isabeti (kare)"
+        },
+        "Sandbox_ProjectALife.EncounterFixBlur_tooltip": {
+            "tr": "Av, baskın ya da intikam ekibi yola çıkarken hedefinin yeri hakkında TEK bir ihbar alır; bu ihbar en fazla bu kadar kare şaşabilir. Oyuncunun anlık konumunu asla takip etmez; arar ve vazgeçer."
+        },
+        "Sandbox_ProjectALife.EncounterCues": {
+            "tr": "[Uzman] Senaryolu uyarılar ve restleşmeler"
+        },
+        "Sandbox_ProjectALife.EncounterCues_tooltip": {
+            "tr": "Restleşmeler ve soygunlar kafaların üstündeki yazılar yerine jestlere ve mesafeye dayanır: her aşamada (fark etme, talep, kırılma, ayrılış) tek bir sesli replik, gerisi konuşma penceresine düşer, aradaki anları el işaretleri ve baş sallamalar taşır. Her replik tekrar etmeyecek şekilde seçilir. Kapalı: her replik eskisi gibi kafanın üstünde bağırılır.\nVarsayılan: açık.",
+            "not": "stand-off → \"restleşme\" (S2'deki WarningHold ile aynı); talk panel → \"konuşma penceresi\" (S7)."
+        },
+        "Sandbox_ProjectALife.FriskScripted": {
+            "tr": "[Uzman] Soygunda canlandırmalı üst araması"
+        },
+        "Sandbox_ProjectALife.FriskScripted_tooltip": {
+            "tr": "Soygunda ekipten biri (boşta başkası varsa asla konuşan değil) kol mesafesine kadar yaklaşır ve bir animasyon ile üç üst arama sesinden biriyle üstünü arar. Arama tam olarak ses süresince sürer. Uzaklaşırsan ya da kavga edersen durur ve ekip tepki verir. Kapalı: eski anlık arama.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.MeleeCrewEnabled": {
+            "tr": "[Uzman] Yakın dövüş ekibi (test fraksiyonu ve modüller)",
+            "not": "N: \"tayfa\" → \"ekip\" (sözlük B: bu ayar adı için açıkça karar verilmişti). Bütün MeleeCrew başlıklarında aynı."
+        },
+        "Sandbox_ProjectALife.MeleeCrewEnabled_tooltip": {
+            "tr": "Ana şalter. Açık: Kereste Fabrikası İşçileri ekibi ortaya çıkabilir ve beş yakın dövüş modülü çalışır. Kapalı: fraksiyon ortaya çıkmaz, Oluşturucu'da ve hata ayıklama oluşturucusunda gizlenir; bütün yakın dövüş modülleri devre dışı kalır.",
+            "not": "N: \"oluşturulabilir\" → \"ortaya çıkabilir\" (sözlük: kendiliğinden belirme), \"tayfa\" → \"ekip\"."
+        },
+        "Sandbox_ProjectALife.MeleeCrewFootwork": {
+            "tr": "[Uzman] Yakın dövüş ekibi: ayak hareketleri modülü"
+        },
+        "Sandbox_ProjectALife.MeleeCrewFootwork_tooltip": {
+            "tr": "Savuruşlar arasında yana adım atar, zombiler üstüne geldiğinde geri çekilir ve ardından tekrar ileri çıkar. İkililere ve gruplara göre ayarlı.",
+            "not": "N: \"ayarlanmıştır\" → \"-dır\"sız."
+        },
+        "Sandbox_ProjectALife.MeleeCrewFlank": {
+            "tr": "[Uzman] Yakın dövüş ekibi: kuşatma ikilisi modülü"
+        },
+        "Sandbox_ProjectALife.MeleeCrewFlank_tooltip": {
+            "tr": "Yakın dövüş grubunda bir üye hedefi oyalarken diğerleri hedefin arka tarafına doğru dolaşır."
+        },
+        "Sandbox_ProjectALife.MeleeCrewBreach": {
+            "tr": "[Uzman] Yakın dövüş ekibi: baltalı kırıcı modülü"
+        },
+        "Sandbox_ProjectALife.MeleeCrewBreach_tooltip": {
+            "tr": "Balta taşıyan bir dövüşçü kapı ve pencereleri daha hızlı kırar ve bir sesi kontrol ederken de bunu yapar. Normal nezaket kuralları yine geçerli.",
+            "not": "N: \"giriş kuralları yine geçerlidir\" → \"nezaket kuralları yine geçerli\" (EN \"courtesy\"; \"-dır\" kalktı)."
+        },
+        "Sandbox_ProjectALife.MeleeCrewIntimidate": {
+            "tr": "[Uzman] Yakın dövüş ekibi: gözdağı vererek yaklaşma modülü"
+        },
+        "Sandbox_ProjectALife.MeleeCrewIntimidate_tooltip": {
+            "tr": "Oyuncunun üzerine yürür, uzaktan uyarısını bağırır ve ardından yaklaşır. İlk darbenin ne zaman inebileceğine yine normal uyarı kuralları karar verir.",
+            "not": "N: küçük sadeleştirme."
+        },
+        "Sandbox_ProjectALife.MeleeCrewCaution": {
+            "tr": "[Uzman] Yakın dövüş ekibi: temkinli geri çekilme modülü"
+        },
+        "Sandbox_ProjectALife.MeleeCrewCaution_tooltip": {
+            "tr": "Birkaç zombi yaklaştığında, daha düşük bir kalabalık eşiğiyle mevcut geri çekilme davranışını kullanarak teması erkenden keser."
+        },
+        "Sandbox_ProjectALife.MeleeCrewCautionCrowd": {
+            "tr": "[Uzman] Yakın dövüş ekibi: geri çekilmeyi tetikleyen zombi sayısı"
+        },
+        "Sandbox_ProjectALife.MeleeCrewCautionCrowd_tooltip": {
+            "tr": "Ekip üyesinin yakınında kaç zombi olunca geri çekileceğini belirler. Normal dövüşçüler için beş zombi gerekir.",
+            "not": "N: \"Tayfa üyesinin\" → \"Ekip üyesinin\"."
+        },
+        "Sandbox_ProjectALife.DiscretionFightPercent": {
+            "tr": "[Uzman] Durum değerlendirmesi: çatışma eşiği (yüzde)"
+        },
+        "Sandbox_ProjectALife.DiscretionFightPercent_tooltip": {
+            "tr": "Bir ekip, puanı bu değere ulaşınca çatışmaya girer. Düşük değer daha cüretkâr, yüksek değer daha temkinli ekipler demek. Varsayılan: 50.",
+            "not": "N: \"Varsayılan 50'dir\" → \"Varsayılan: 50.\" (K5). Aynı düzeltme bu sayfadaki bütün N tooltip'lerinde var."
+        },
+        "Sandbox_ProjectALife.DiscretionLowAmmoRounds": {
+            "tr": "[Uzman] Durum değerlendirmesi: az mermi sınırı"
+        },
+        "Sandbox_ProjectALife.DiscretionLowAmmoRounds_tooltip": {
+            "tr": "Bir ekip çatışmayı tartarken, şarjörde ve yedekte toplam bu sayıdan az mermisi olan ateşli silah yakın dövüş silahı sayılır. Varsayılan: 6.",
+            "not": "N: \"az mermi sayılan atış sayısı\" → \"az mermi sınırı\" (rounds = mermi, atış değil)."
+        },
+        "Sandbox_ProjectALife.DiscretionPatienceSeconds": {
+            "tr": "[Uzman] Durum değerlendirmesi: çekimser ekibin saldırıya geçme süresi (saniye)"
+        },
+        "Sandbox_ProjectALife.DiscretionPatienceSeconds_tooltip": {
+            "tr": "Sırf şartlar aleyhine olduğu için geri duran bir ekip, sen yakında kalmaya devam edersen bu kadar saniye sonra çatışmaya girer. Mermisi az olan ya da zombilerin sardığı ekipler bu şekilde asla saldırıya geçmez. Varsayılan: 45.",
+            "not": "N: \"ederseniz\" → \"edersen\" (K7)."
+        },
+        "Sandbox_ProjectALife.CalmDownHours": {
+            "tr": "[Uzman] Sakinleşme: oyun saati"
+        },
+        "Sandbox_ProjectALife.CalmDownHours_tooltip": {
+            "tr": "Kışkırtılmış temkinli bir fraksiyonun affetmesi için geçmesi gereken oyun saati. Varsayılan: 2."
+        },
+        "Sandbox_ProjectALife.BreachPolicy": {
+            "tr": "[Uzman] Zorla giriş için geçerli bir neden gerekir"
+        },
+        "Sandbox_ProjectALife.BreachPolicy_tooltip": {
+            "tr": "NPC'ler bir binaya yalnızca baskın yaparken ya da yağmalarken zorla girer; önce kilitli olmayan kapıyı kullanır, kapıyı kırmadan önce pencereyi dener ve bir oyuncunun üssüne girmeden önce seslenir. Varsayılan: açık."
+        },
+        "Sandbox_ProjectALife.ZombieFocusRadius": {
+            "tr": "[Uzman] Zombi odağı: yarıçap (kare)"
+        },
+        "Sandbox_ProjectALife.ZombieFocusRadius_tooltip": {
+            "tr": "Bu mesafe içindeki zombilerle her zaman dövüşülür. Varsayılan: 8."
+        },
+        "Sandbox_ProjectALife.CautionAvoidTiles": {
+            "tr": "[Uzman] Zombilerden kaçınma: ileriye bakma mesafesi (kare)"
+        },
+        "Sandbox_ProjectALife.CautionAvoidTiles_tooltip": {
+            "tr": "NPC'lerin rotalarında ne kadar ilerideki zombileri kollayacağını belirler. Varsayılan: 12."
+        },
+        "Sandbox_ProjectALife.GroupLifeEnabled": {
+            "tr": "[Uzman] Grup yaşamı: dağılma, sığınma ve boşta kalma rolleri"
+        },
+        "Sandbox_ProjectALife.GroupLifeEnabled_tooltip": {
+            "tr": "Gruplar tek bir küme hâlinde değil gevşek bir düzende yürür, ortalık sakinken aynı kareyi paylaşmaz ve dinlenmek için durduklarında yakındaki bir eve ya da sığınağa girip farklı işlerle vakit geçirir: biri köşede oturur, biri nöbet tutar, ikisi karşılıklı konuşur, biri laf atar, biri sessiz kalır, diğerleri bir şeyler yer ya da sigara içer. Tehlike anında bu düzen hemen bozulur. Kapalı: eski davranışa dönülür. Varsayılan: açık."
+        },
+        "Sandbox_ProjectALife.GroupLifeSpread": {
+            "tr": "[Uzman] Grup yaşamı: dağılma genişliği (%%)"
+        },
+        "Sandbox_ProjectALife.GroupLifeSpread_tooltip": {
+            "tr": "Yolculuk eden bir grubun ne kadar geniş yayılacağını belirler. 100 normal düzen, 50 onları birbirine daha yakın tutar, 150 daha geniş yayar, 0 düzeni kapatır. Varsayılan: 100.",
+            "not": "N: \"normal düzendir\" → \"normal düzen\"."
+        },
+        "Sandbox_ProjectALife.GroupLifeShelterIdleMinutes": {
+            "tr": "[Uzman] Grup yaşamı: dinlenme süresi (oyun dakikası)"
+        },
+        "Sandbox_ProjectALife.GroupLifeShelterIdleMinutes_tooltip": {
+            "tr": "Bir grup molasının olağan süresi, oyun dakikası olarak. Her mola bu değerin yarısı ile iki katı arasında sürer. Varsayılan: 20, yani 10 ila 40 dakika.",
+            "not": "N: \"süresidir\", \"20'dir\" → \"-dır\"sız."
+        },
+        "Sandbox_ProjectALife.GroupLifeRoles": {
+            "tr": "[Uzman] Grup yaşamı: boşta kalma rolleri"
+        },
+        "Sandbox_ProjectALife.GroupLifeRoles_tooltip": {
+            "tr": "Bir grup dinlenirken her üye kendine ait bir yer ve duruşla bir rol alır (gözcü, oturan, konuşan, laf atan, sessiz kalan, yemek yiyen, sigara içen). Kapalı: yalnızca dağılıp ayakta dururlar. Varsayılan: açık.",
+            "not": "N: \"yorum yapan\" → \"laf atan\" (GroupLifeEnabled'daki \"biri laf atar\" ile aynı)."
+        },
+        "Sandbox_ProjectALife.StealthEnabled": {
+            "tr": "[Uzman] NPC'ler gizlice hareket eder"
+        },
+        "Sandbox_ProjectALife.StealthEnabled_tooltip": {
+            "tr": "NPC'ler kasabada dolaşırken ya da malzeme toplarken bazen gizlice (yavaş ve çömelerek) hareket eder. Bir oyuncu ya da düşman NPC görünce gizlenmeyi bırakırlar. Gizlice hareket eden NPC'leri zombiler daha zor fark eder; bu etki dünyanın zombi görüş ve duyma ayarlarına uyar. Varsayılan: açık.",
+            "not": "N: edilgen \"zombiler tarafından fark edilmesi\" → \"zombiler daha zor fark eder\" (K5); vanilla ayar adları Görüş/Duyma."
+        },
+        "Sandbox_ProjectALife.StealthFrequency": {
+            "tr": "[Uzman] Gizlice hareket etme: sıklık (%%)"
+        },
+        "Sandbox_ProjectALife.StealthFrequency_tooltip": {
+            "tr": "Sakin bir NPC'nin ya da grubun hareket ederken ne sıklıkta gizleneceğini belirler. Zombilerin yakınında bu oran artar. 0 asla, 100 her zaman. Varsayılan: 30.",
+            "not": "N: \"demektir\" kalktı."
+        },
+        "Sandbox_ProjectALife.StealthNotice": {
+            "tr": "[Uzman] Gizlice hareket etme: zombi fark etme mesafesi (%%)"
+        },
+        "Sandbox_ProjectALife.StealthNotice_tooltip": {
+            "tr": "Zombilerin gizlice hareket eden bir NPC'yi normal mesafenin yüzde kaçı kadar uzaktan fark edeceğini belirler. Zombilerin görüşü ya da duyması Zayıf ise gizlenme güçlenir, Keskin ise zayıflar. Varsayılan: 50.",
+            "not": "N: \"keskin görüş ve hassas duyu\" → vanilla seçenek adları (Görüş/Duyma: Keskin, Normal, Zayıf)."
+        },
+        "Sandbox_ProjectALife.SpawnCheckpointMinTiles": {
+            "tr": "[Uzman] Kontrol noktalarının en yakın mesafesi (kare)"
+        },
+        "Sandbox_ProjectALife.SpawnCheckpointMinTiles_tooltip": {
+            "tr": "Yol barikatları ve kontrol noktaları bir oyuncuya, oyuncu üssüne ya da bir oyuncunun son beş dakikada arabayla geçtiği yere bu mesafeden yakın asla kurulmaz; çıkmaz yollara da kurulmaz. Varsayılan: 150."
+        },
+        "Sandbox_ProjectALife.CautionDangerRouting": {
+            "tr": "[Uzman] NPC'lerin tehlikeden dolanması"
+        },
+        "Sandbox_ProjectALife.CautionDangerRouting_tooltip": {
+            "tr": "Yürüyen NPC'ler yakındaki zombi kalabalıklarının, yeni çatışmaların ya da yüksek seslerin etrafından kısa sapmalarla dolanır. Güvenli bir sapma bulamazlarsa bekler ya da güvenli olmayan hedeften vazgeçerler. Koşma ve çatışma hareketleri kendi kurallarıyla sürer."
+        },
+        "Sandbox_ProjectALife.CautionHazardCheck": {
+            "tr": "[Uzman] NPC hareketinde tehlike kontrolü"
+        },
+        "Sandbox_ProjectALife.CautionHazardCheck_tooltip": {
+            "tr": "Planlanan hareket parçalarında yanan kareleri, yanan kamp ateşlerini ve suyu kontrol eder. NPC'ler bilinen tehlike içeren parçaları reddeder. Bütün hareket hızlarında geçerli."
+        },
+        "Sandbox_ProjectALife.OutpostsBuildBudget": {
+            "tr": "[Uzman] Tur başına karakol inşaat işi"
+        },
+        "Sandbox_ProjectALife.OutpostsBuildBudget_tooltip": {
+            "tr": "Tur başına en fazla iş birimi. Yüksek değerler işi daha çabuk bitirir ama sunucu takılmalarını artırabilir. Yolculuk sonrası karakol inşaatı molası yine geçerli.\nVarsayılan: 250.",
+            "not": "C1: \"multiplayer streaming pauses\" → S7'deki ayar adı \"Yolculuk sonrası karakol inşaatı molası\"."
+        }
+    }
+}

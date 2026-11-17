@@ -1,0 +1,3905 @@
+{
+ "_paket": "D17",
+ "_grup": "d17",
+ "_baslik": "Atlanan NPC konuşmaları: grup sohbetleri, plan sözleri, yaralı ve panik sesleri, uyarılar, kısa cevaplar",
+ "_parcalar": [
+  [
+   1,
+   300
+  ],
+  [
+   301,
+   432
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "RD_ALifeLine_3553922f5b14266e",
+   "Stack up on the door!",
+   [
+    "ALifeModuleBreach.lua",
+    "CATISMA_KAPI",
+    ""
+   ]
+  ],
+  "2": [
+   "RD_ALifeLine_2424050c0b5fb8a5",
+   "Everybody on the wall by the door, quiet",
+   [
+    "ALifeModuleBreach.lua",
+    "CATISMA_KAPI",
+    ""
+   ]
+  ],
+  "3": [
+   "RD_ALifeLine_4eba872e304f75cb",
+   "Get on the wall by the door and shut up",
+   [
+    "ALifeModuleBreach.lua",
+    "CATISMA_KAPI",
+    ""
+   ]
+  ],
+  "4": [
+   "RD_ALifeLine_5b9a1be953bb5938",
+   "Look out! Help our friend!",
+   [
+    "ALifeModuleBreach.lua",
+    "CATISMA_KAPI",
+    ""
+   ]
+  ],
+  "5": [
+   "RD_ALifeLine_524c70022567d53f",
+   "Help them! Keep your eyes open!",
+   [
+    "ALifeModuleBreach.lua",
+    "CATISMA_KAPI",
+    ""
+   ]
+  ],
+  "6": [
+   "RD_ALifeLine_5cf568384b747771",
+   "Back them up, don't just stand there!",
+   [
+    "ALifeModuleBreach.lua",
+    "CATISMA_KAPI",
+    ""
+   ]
+  ],
+  "7": [
+   "RD_ALifeLine_7a00b67e5e0f5122",
+   "Everybody set? Opening it",
+   [
+    "ALifeModuleBreach.lua",
+    "CATISMA_KAPI",
+    ""
+   ]
+  ],
+  "8": [
+   "RD_ALifeLine_0101aee479681ab2",
+   "Looks empty, in we go",
+   [
+    "ALifeModuleBreach.lua",
+    "CATISMA_KAPI",
+    ""
+   ]
+  ],
+  "9": [
+   "RD_ALifeLine_1d65888b67be5325",
+   "Distant rifle! Get off that line!",
+   [
+    "ALifeSniperAwareness.lua",
+    "CATISMA_KESKIN",
+    ""
+   ]
+  ],
+  "10": [
+   "RD_ALifeLine_729abfd23c7c5058",
+   "They cut the radio!",
+   [
+    "ALifeOutpostRadio.lua",
+    "CATISMA_TELSIZ",
+    ""
+   ]
+  ],
+  "11": [
+   "RD_ALifeLine_1259c3856db1cea9",
+   "Let's move out- how's your day going?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "12": [
+   "RD_ALifeLine_4c63e57a7fd63261",
+   "Shit, same as always- you?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "13": [
+   "RD_ALifeLine_19cfa8aa4ef50b82",
+   "Could be better, y'know",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "14": [
+   "RD_ALifeLine_1a89658e58bd8b37",
+   "Still here though... that counts for something",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "15": [
+   "RD_ALifeLine_126a13b41a661ebc",
+   "Ready? Next block's ours- anybody sleep last night?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "16": [
+   "RD_ALifeLine_7f40f81429dee8d2",
+   "About an hour, then somebody started snoring",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "17": [
+   "RD_ALifeLine_318407986db6b2a1",
+   "That was a chainsaw, man",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "18": [
+   "RD_ALifeLine_66bb4d0a3f23f22e",
+   "Yeah, the chainsaw in the next sleeping bag",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "19": [
+   "RD_ALifeLine_591b072b7a177d00",
+   "Let's go, anything you want us watching for?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "20": [
+   "RD_ALifeLine_314461485109a66c",
+   "Coffee... I'd kill for a real cup",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "21": [
+   "RD_ALifeLine_49ccb6c741569b99",
+   "Just find water, I'll settle for that",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "22": [
+   "RD_ALifeLine_72dcaf093b024030",
+   "Water, then coffee... a guy can dream",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "23": [
+   "RD_ALifeLine_09c657e8758de506",
+   "We'll go together- you holding up alright?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "24": [
+   "RD_ALifeLine_6f0d0c28367f10e2",
+   "Ask me again when we're back",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "25": [
+   "RD_ALifeLine_44c4a6453fc8c2c4",
+   "Yeah, ok, I'll take the first corner",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "26": [
+   "RD_ALifeLine_47aa4be65cff86a9",
+   "And I'll watch behind us",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "27": [
+   "RD_ALifeLine_101750c017f64dd3",
+   "Time to move- same route or the next block?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "28": [
+   "RD_ALifeLine_3a0c479c2054d690",
+   "Next block, that house yesterday was picked clean",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "29": [
+   "RD_ALifeLine_64c6df92263028ac",
+   "There was a shed behind it we never checked",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "30": [
+   "RD_ALifeLine_5948194b226be62a",
+   "Let's look on the way back",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "31": [
+   "RD_ALifeLine_4fa88f500ddf9c8a",
+   "Come on, daylight's wasting! What's for dinner if we find squat?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "32": [
+   "RD_ALifeLine_1a5bb01a6f42d0a3",
+   "Beans... again",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "33": [
+   "RD_ALifeLine_24a98f4b5afd6c3d",
+   "Never thought I'd miss burnt toast",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "34": [
+   "RD_ALifeLine_04439027382cdb94",
+   "Keep talking food and I'm turning around",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "35": [
+   "RD_ALifeLine_6fd54a887a5a88c4",
+   "Let's head out- you look like you got something on your mind",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "36": [
+   "RD_ALifeLine_55b06fb7458f8ad2",
+   "I used to drive this way to work",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "37": [
+   "RD_ALifeLine_716b00ca0bb5b43d",
+   "You want to take another way?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "38": [
+   "RD_ALifeLine_524df7de42467b4f",
+   "Nah, I'm alright... just feels strange",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "39": [
+   "RD_ALifeLine_6235296f268e2c72",
+   "Everybody ready? Take a minute if you need it",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "40": [
+   "RD_ALifeLine_1c4ef13d7de78265",
+   "I'm good. Just give me a second to get going",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "41": [
+   "RD_ALifeLine_248124b758945450",
+   "Mine snapped halfway home yesterday",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "42": [
+   "RD_ALifeLine_5dc41fc45618d0d8",
+   "I used to mend mine with tape. Never looked pretty",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "43": [
+   "RD_ALifeLine_7ab837f27688ae0c",
+   "We oughta count the food before we move",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "44": [
+   "RD_ALifeLine_246ac20343752a33",
+   "Count the water jugs, cans can wait",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "45": [
+   "RD_ALifeLine_59915a8940e1cafb",
+   "Fine, but leave one bag packed in case we have to run",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "46": [
+   "RD_ALifeLine_3e410d2e66769d1e",
+   "I keep wondering what the weather's going to do",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "47": [
+   "RD_ALifeLine_4ff6077702580db7",
+   "We ought to think about keeping things dry",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "48": [
+   "RD_ALifeLine_71342e495d7388a1",
+   "Yeah. I'd rather think about it now than when we're soaked",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "49": [
+   "RD_ALifeLine_47801bfc4b5f4574",
+   "We take the side road, stay off the junction",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "50": [
+   "RD_ALifeLine_7078cb1e7bce21fe",
+   "Might take longer. We don't know what the way through is like",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "51": [
+   "RD_ALifeLine_27bcd8a53874e7d7",
+   "I'll take a longer walk over a stupid chance",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "52": [
+   "RD_ALifeLine_7f309fcf715cd761",
+   "Anything moving out there?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "53": [
+   "RD_ALifeLine_74190fb37371935b",
+   "Nothing I'm willing to stop looking over",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "54": [
+   "RD_ALifeLine_3056381966df31ca",
+   "Keep looking anyway, that's when they show up",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "55": [
+   "RD_ALifeLine_4eceb74721149fa1",
+   "How long is your shift?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "56": [
+   "RD_ALifeLine_3b6bbd0108ab9b16",
+   "Long enough that I'd rather not keep count",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "57": [
+   "RD_ALifeLine_2949b60367644ff7",
+   "I'll bring you something warm before then",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "58": [
+   "RD_ALifeLine_1cd4727c1e28a3c8",
+   "Did you hear that, out past the wire?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "59": [
+   "RD_ALifeLine_3a5067097f04b3a5",
+   "I keep hoping it's branches. Makes a change from expecting the worst",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "60": [
+   "RD_ALifeLine_656d2d705f88351a",
+   "One of these days it won't be, and I'll be the one who warned you",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "61": [
+   "RD_ALifeLine_08d8d291795cc376",
+   "What do you want us watching for?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "62": [
+   "RD_ALifeLine_7f914399603c5d50",
+   "Anybody coming close. I'd rather get a warning than a surprise",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "63": [
+   "RD_ALifeLine_657d51d25892f94d",
+   "Good. Same goes for me if you see me nodding off",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "64": [
+   "RD_ALifeLine_79f5cc1c08c7761f",
+   "I miss having a garden to worry about",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "65": [
+   "RD_ALifeLine_6fdd9f4461de5405",
+   "I'd like to try growing something again",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "66": [
+   "RD_ALifeLine_4e42f8024b1898da",
+   "Something besides another damn argument, I hope",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "67": [
+   "RD_ALifeLine_2fc5020845ff11f3",
+   "My old garden got eaten almost as fast as I planted it",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "68": [
+   "RD_ALifeLine_3f92cb0954dc49f2",
+   "Rabbits?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "69": [
+   "RD_ALifeLine_5c4c8e702e3e40a6",
+   "Sometimes. Mostly I blamed them because I didn't know what I was doing",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "70": [
+   "RD_ALifeLine_6a1295466cd43bf2",
+   "My dad could tell you all about soil. I mostly remember carrying the bags",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "71": [
+   "RD_ALifeLine_6e4e09e33e7c11fe",
+   "Mine handed me a shovel and called that a lesson",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "72": [
+   "RD_ALifeLine_7049bfb549d9fc4d",
+   "Well, if we ever get a garden, you can do the digging",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "73": [
+   "RD_ALifeLine_16fc7dd65366bdc3",
+   "What would you plant first?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "74": [
+   "RD_ALifeLine_445b22812a3cbe87",
+   "Beans, probably. I might actually keep those alive",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "75": [
+   "RD_ALifeLine_7c2dbca26141a881",
+   "Beans it is then... I'm sick of 'em just thinking about it",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "76": [
+   "RD_ALifeLine_0dfb1bd35a7db8cb",
+   "Will it start?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "77": [
+   "RD_ALifeLine_4f38f3cf2e5d581e",
+   "I couldn't tell you till I've had a look",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "78": [
+   "RD_ALifeLine_14f156c55ebc9898",
+   "Then we look before deciding what's wrong. I hate guessing with engines",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "79": [
+   "RD_ALifeLine_03ecc9653fc66aa1",
+   "If we're relying on that generator, somebody ought to check it",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "80": [
+   "RD_ALifeLine_69d8d00911d241ed",
+   "You volunteering, or telling me?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "81": [
+   "RD_ALifeLine_13afad812ff238d6",
+   "I'm asking. I'd like to know before we're relying on it",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "82": [
+   "RD_ALifeLine_7f2d2f312f2096bc",
+   "I'd want a look at the tires before we take that thing anywhere",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "83": [
+   "RD_ALifeLine_7b8fd4af2a7ffacf",
+   "You know what to look for?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "84": [
+   "RD_ALifeLine_7e56b846696769b5",
+   "Enough to ask somebody who knows more than me",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "85": [
+   "RD_ALifeLine_6ab8a620480662a1",
+   "Sit down, you been up since before light",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "86": [
+   "RD_ALifeLine_5d50a8e13a0b2de2",
+   "If I sit down I won't get up again",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "87": [
+   "RD_ALifeLine_60da85d97b60ce4d",
+   "That's sorta the idea",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "88": [
+   "RD_ALifeLine_130393781fda8bd9",
+   "Nothing useful, I sold insurance",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "89": [
+   "RD_ALifeLine_28de5f0e725738be",
+   "You'd be surprised what turns out useful",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "90": [
+   "RD_ALifeLine_36a50ef527cea40b",
+   "I could murder a cup of coffee",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "91": [
+   "RD_ALifeLine_4eb8f3b143ed486b",
+   "Even the stuff we used to make?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "92": [
+   "RD_ALifeLine_5dbd26be0ae1c272",
+   "I'd drink yours at this point. That's how bad it's got",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "93": [
+   "RD_ALifeLine_20334da71d62e92d",
+   "Don't say that out loud!",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "94": [
+   "RD_ALifeLine_336c661d2c4ec32c",
+   "Too late, already said it... guess we deal with it",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "95": [
+   "RD_ALifeLine_2bf54d70655ea83f",
+   "Do you ever stop worrying about people?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "96": [
+   "RD_ALifeLine_729089671330a690",
+   "For a little while. Then I remember somebody else",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "97": [
+   "RD_ALifeLine_1cc255203e702ea1",
+   "If you need a minute, ask. You don't have to do all the worrying at once",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "98": [
+   "RD_ALifeLine_4dd2281f4cc216dd",
+   "I miss opening a clean packet and not thinking twice about it",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "99": [
+   "RD_ALifeLine_46205ff57a432555",
+   "Hospital laundry smell? I never thought I'd miss it",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "100": [
+   "RD_ALifeLine_02bf7b0c1807624f",
+   "Me neither. Funny what stays with you",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "101": [
+   "RD_ALifeLine_614cee2d49361a56",
+   "SHIT- you just crashed the car!",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "102": [
+   "RD_ALifeLine_6c1112eb0928fa83",
+   "I didn't see it, I swear to God I didn't see that car!",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "103": [
+   "RD_ALifeLine_031d02c04cae41ce",
+   "Now what?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "104": [
+   "RD_ALifeLine_47e7207a7abd1511",
+   "I dunno, let me think... maybe we walk to the next town up the road",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "105": [
+   "RD_ALifeLine_77f763743f98ef46",
+   "I keep wanting to check the car again",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "106": [
+   "RD_ALifeLine_5300e2fa2080ae37",
+   "For something you forgot?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "107": [
+   "RD_ALifeLine_550160f914f45998",
+   "For an excuse not to start walking, mostly",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "108": [
+   "RD_ALifeLine_3decc3285add83f9",
+   "Then it stays, nobody's dying over a bag",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "109": [
+   "RD_ALifeLine_4339aa377ea5c439",
+   "Is everyone alright? Anyone bleeding?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "110": [
+   "RD_ALifeLine_293e0fd32764eba0",
+   "I can't think straight. Give me a second",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "111": [
+   "RD_ALifeLine_093f08112f7030bd",
+   "Sit down a sec, nobody's driving anything today",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "112": [
+   "RD_ALifeLine_4a18b8980d0b9231",
+   "Let's have a look before we decide what we're doing",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "113": [
+   "RD_ALifeLine_599a79037359ad9b",
+   "Which way is the nearest town?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "114": [
+   "RD_ALifeLine_4bef5bb07aa00c8c",
+   "I'd rather check the route than guess how long it'll take",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "115": [
+   "RD_ALifeLine_13dd765222328d4f",
+   "Great, more walking and wondering",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "116": [
+   "RD_ALifeLine_4f3408195b4fa3af",
+   "So we hug the edge and keep our mouths shut",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "117": [
+   "RD_ALifeLine_32f192f95f20f3a6",
+   "I don't know what's wrong yet",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "118": [
+   "RD_ALifeLine_7e4ae16036427f20",
+   "Could be. I'm not calling it before we've looked",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "119": [
+   "RD_ALifeLine_2df75588538ea357",
+   "Give me a little time to look",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "120": [
+   "RD_ALifeLine_55f03ee51c13d10c",
+   "That's what you said before!",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "121": [
+   "RD_ALifeLine_75fcef9d22e2f381",
+   "And I'll say it again in ten, watch the road",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "122": [
+   "RD_ALifeLine_4029bf4f4bbcbd13",
+   "Anyone coming?",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "123": [
+   "RD_ALifeLine_57262f924e2ea598",
+   "I keep expecting to see somebody",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "124": [
+   "RD_ALifeLine_45fa7d146b66eccd",
+   "Keep watching. I'd rather you said you weren't sure than told me it's clear",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "125": [
+   "RD_ALifeLine_1cede5f0058ae514",
+   "Yeah. I wasn't going to promise you anything",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "126": [
+   "RD_ALifeLine_0c99c08b601d3528",
+   "If it won't start we push it off the road and walk",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "127": [
+   "RD_ALifeLine_762fc57024a5abdd",
+   "We're not leaving the car!",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "128": [
+   "RD_ALifeLine_77fdd8696c15323d",
+   "We're not sleeping in it either",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "129": [
+   "RD_ALifeLine_2078cc8e6504fc3b",
+   "Ten more minutes, then we talk about walking",
+   [
+    "ALifeGossip.lua",
+    "GOSSIP",
+    ""
+   ]
+  ],
+  "130": [
+   "RD_ALifeLine_70350e42143816fe",
+   "Someone there!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "131": [
+   "RD_ALifeLine_30e133c144eb9308",
+   "Get down!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "132": [
+   "RD_ALifeLine_5fba777a2297578d",
+   "Cover! Cover!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "133": [
+   "RD_ALifeLine_2e5d10c147bca285",
+   "Someone's out there!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "134": [
+   "RD_ALifeLine_6eacbe6808e506e4",
+   "Hey! Hey, who is that?!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "135": [
+   "RD_ALifeLine_5a10fecd2813b318",
+   "Oh God, get down!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "136": [
+   "RD_ALifeLine_569b94a57e2ffbf7",
+   "Stay behind me!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "137": [
+   "RD_ALifeLine_48a027156c7b6b0d",
+   "Is that a person? Get inside!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "138": [
+   "RD_ALifeLine_7098ce440f792e84",
+   "Don't let them see you!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "139": [
+   "RD_ALifeLine_27de5e0f4b65035c",
+   "Jesus, they're right there!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "140": [
+   "RD_ALifeLine_29c272bb066fb0c0",
+   "Down! Get down!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "141": [
+   "RD_ALifeLine_0818de4530c4a261",
+   "Who's that? Who is that?!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "142": [
+   "RD_ALifeLine_1c95e74f549f3be2",
+   "Everybody quiet, quiet!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "143": [
+   "RD_ALifeLine_490b7f5d7b3e2629",
+   "Eyes up, somebody's there!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "144": [
+   "RD_ALifeLine_14d006da6d8956b4",
+   "Hey! Who the hell is that?",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "145": [
+   "RD_ALifeLine_3d7e39657bfd5e8e",
+   "Heads up, we got company!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "146": [
+   "RD_ALifeLine_1158088910e57548",
+   "Shit, spread out!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "147": [
+   "RD_ALifeLine_55d193a4416dd562",
+   "Get your piece up, get it up!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "148": [
+   "RD_ALifeLine_4c7b35a57417cbb8",
+   "Who's that? Look!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "149": [
+   "RD_ALifeLine_2a2fecce1e812ac9",
+   "Down, get down, down!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "150": [
+   "RD_ALifeLine_55cf9b4041a4f2c9",
+   "Don't just stand there, move!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "151": [
+   "RD_ALifeLine_50ef2a257c4dc44e",
+   "Somebody tell me that's one of ours",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "152": [
+   "RD_ALifeLine_69034408252f62c8",
+   "Trouble, right there!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "153": [
+   "RD_ALifeLine_5bc1fa512c851b07",
+   "Watch the stranger, watch the stranger!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "154": [
+   "RD_ALifeLine_19124bae779c817e",
+   "Back up, don't crowd me!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "155": [
+   "RD_ALifeLine_0ed3ef0a23586b01",
+   "Steady!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "156": [
+   "RD_ALifeLine_445dcfcd59305ebe",
+   "Hold the line!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "157": [
+   "RD_ALifeLine_33a5ab0a6725f061",
+   "Eyes up, on me!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "158": [
+   "RD_ALifeLine_0f085e66164849c0",
+   "Steady, steady!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "159": [
+   "RD_ALifeLine_5957638a33ee25d7",
+   "Easy now, easy",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "160": [
+   "RD_ALifeLine_59db123f34084f82",
+   "Stay together, nobody run!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "161": [
+   "RD_ALifeLine_7cd191d4627ec0c4",
+   "Breathe, we're all right!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "162": [
+   "RD_ALifeLine_12943a70705f6c89",
+   "Eyes up, stay with me!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "163": [
+   "RD_ALifeLine_75152f0730b046a8",
+   "Steady, damn it!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "164": [
+   "RD_ALifeLine_25191b24332d2fd4",
+   "Nobody runs!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "165": [
+   "RD_ALifeLine_101616ab3f21d6d6",
+   "Eyes up, stay on me!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "166": [
+   "RD_ALifeLine_45a3495937c08cf4",
+   "Settle down, settle down!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "167": [
+   "RD_ALifeLine_6c2395a82db3deee",
+   "Stay together, stay together!",
+   [
+    "ALifeModulePanic.lua",
+    "PANIK",
+    ""
+   ]
+  ],
+  "168": [
+   "RD_ALifeLine_38f9636d42126fb5",
+   "Yeah, that works",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "169": [
+   "RD_ALifeLine_33aa3a346699ee22",
+   "Fine by me, I'm sick of walking in circles",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "170": [
+   "RD_ALifeLine_6cccd4262ea0b111",
+   "This is it, try the doors before you go in",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "171": [
+   "RD_ALifeLine_52c04efb5ca89012",
+   "Quiet now, I'll take the front",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "172": [
+   "RD_ALifeLine_4c1c06643c962f07",
+   "That's as long as I'm willing to keep looking",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "173": [
+   "RD_ALifeLine_2a1e703a2501ae6d",
+   "We've spent enough time here, let's not hang around",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "174": [
+   "RD_ALifeLine_45ca445e5106e8bc",
+   "Maybe we can find a radio somewhere around here",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "175": [
+   "RD_ALifeLine_1cda1c3b3cd12951",
+   "Somebody's gotta be broadcasting, we need a radio",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "176": [
+   "RD_ALifeLine_5f2e76416291f9a6",
+   "Anything beats not knowing what's going on",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "177": [
+   "RD_ALifeLine_44af700934c244d1",
+   "Yeah, I wanna hear somebody else's voice for once",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "178": [
+   "RD_ALifeLine_1a5201a716c167be",
+   "Have a proper look before you decide there's nothing useful",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "179": [
+   "RD_ALifeLine_6f9bdc9e47dddc35",
+   "Look for a dial or a cord, anything",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "180": [
+   "RD_ALifeLine_469fc95e2bdb5663",
+   "Might be worth another look before we give up",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "181": [
+   "RD_ALifeLine_116dde797f9ba56c",
+   "Let's check carefully. I want something we can actually rely on",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "182": [
+   "RD_ALifeLine_7eb4bd32401a536f",
+   "I don't have an answer I trust yet, damn it",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "183": [
+   "RD_ALifeLine_43be5c2a352cc645",
+   "Not ready to call that a success",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "184": [
+   "RD_ALifeLine_4fc87f9126a2b548",
+   "Okay, that's enough of that",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "185": [
+   "RD_ALifeLine_5d9dfe6a4492bc87",
+   "We looked, that's all we can do",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "186": [
+   "RD_ALifeLine_08f3c28328f70b1d",
+   "Better than waiting for the dead to find us",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "187": [
+   "RD_ALifeLine_113912aa00efc48e",
+   "Hell, I'll go, I ain't staying put",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "188": [
+   "RD_ALifeLine_4a42e2813e8a9a7a",
+   "We go now, before it gets dark",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "189": [
+   "RD_ALifeLine_3e498a314426cfef",
+   "Well, we made it, now we see who's here",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "190": [
+   "RD_ALifeLine_313d78855c4107f9",
+   "Stay together, nobody shoots first",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "191": [
+   "RD_ALifeLine_45384f097e683cb3",
+   "Let's take a moment and think about what comes next",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "192": [
+   "RD_ALifeLine_1d331c681b520de5",
+   "We'll see if anybody's actually in charge here",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "193": [
+   "RD_ALifeLine_4a2b05887e97ae80",
+   "Yeah, I'm tired of talking about food instead of finding it",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "194": [
+   "RD_ALifeLine_6a05f7ae42e972a2",
+   "Good, I could eat a horse",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "195": [
+   "RD_ALifeLine_53346d9315945905",
+   "Grab what's useful, leave the junk",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "196": [
+   "RD_ALifeLine_4e03cd8058ebc3f2",
+   "Be quick about it",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "197": [
+   "RD_ALifeLine_19b4d401046aebd7",
+   "Let's not make our next plan on a guess",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "198": [
+   "RD_ALifeLine_046173eb6f08d31c",
+   "Whatever we do next, I'd rather we stick together",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "199": [
+   "RD_ALifeLine_4539762524c90692",
+   "I don't wanna be outside when it gets dark",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "200": [
+   "RD_ALifeLine_6ec1907753c12fda",
+   "Yeah, one with a lock",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "201": [
+   "RD_ALifeLine_21935094103ca398",
+   "Fine, but I'm checking every room first",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "202": [
+   "RD_ALifeLine_5a6b754710dde532",
+   "Check the place before anybody settles down",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "203": [
+   "RD_ALifeLine_2837cfe36e0f3018",
+   "Don't rush just because you want to stop",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "204": [
+   "RD_ALifeLine_1fffb8ec2322bdcf",
+   "We're staying put till morning",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "205": [
+   "RD_ALifeLine_3e34e55c10eabb68",
+   "Somebody take first watch",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "206": [
+   "RD_ALifeLine_70ef7ad50dca7b92",
+   "Let's go see what that was",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "207": [
+   "RD_ALifeLine_17c9bde44d3fe3a0",
+   "Slowly, though",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "208": [
+   "RD_ALifeLine_449596e7204cd2fc",
+   "Could be trouble, could be people, I wanna know",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "209": [
+   "RD_ALifeLine_13df37e93a45f7e1",
+   "Stay behind me, we're just looking",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "210": [
+   "RD_ALifeLine_33b72d536de8d749",
+   "Just looking, nobody touches anything",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "211": [
+   "RD_ALifeLine_757c1c1e52981375",
+   "Keep low and watch the road",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "212": [
+   "RD_ALifeLine_407d774f613cf0f7",
+   "Nobody say a word",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "213": [
+   "RD_ALifeLine_5425126a660adae7",
+   "Nothing we can do about it, let's go",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "214": [
+   "RD_ALifeLine_4593bfa35e8e3a56",
+   "Alright, I've seen enough",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "215": [
+   "RD_ALifeLine_37290da7525875a2",
+   "My feet are killing me, let's sit down a minute",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "216": [
+   "RD_ALifeLine_1e4a027b57db8c24",
+   "Let's find somewhere to take a break",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "217": [
+   "RD_ALifeLine_2b35c006727cb8c3",
+   "Can we stop somewhere, I'm done",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "218": [
+   "RD_ALifeLine_4f1f29284ad13815",
+   "God, yes",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "219": [
+   "RD_ALifeLine_00b50c847eeb18f6",
+   "Finally, I thought you'd never ask",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "220": [
+   "RD_ALifeLine_5db3e95f6b8f2990",
+   "Sit down and shut up for a minute",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "221": [
+   "RD_ALifeLine_21d60e335a3e588c",
+   "Somebody keep a lookout",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "222": [
+   "RD_ALifeLine_36e7348977677cbb",
+   "Okay, break's over",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "223": [
+   "RD_ALifeLine_5b69b17869f3b197",
+   "Up, let's go",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "224": [
+   "RD_ALifeLine_1c12519f0d2dd395",
+   "This isn't working, we try something else",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "225": [
+   "RD_ALifeLine_4114a2a7077cd5d8",
+   "Screw this, not now",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "226": [
+   "RD_ALifeLine_510948cf71b052f1",
+   "Too hot, we'll come back to it",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "227": [
+   "RD_ALifeLine_1d60596432baadbd",
+   "We need to stop and see how everyone's doing first",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "228": [
+   "RD_ALifeLine_2a25824230897dc2",
+   "Hold up, I want a moment before we go any farther",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "229": [
+   "RD_ALifeLine_14dae12e3c0fd7c2",
+   "I'd rather look somewhere we haven't tried",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "230": [
+   "RD_ALifeLine_24736a5c3da72179",
+   "We've given this place enough time",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "231": [
+   "RD_ALifeLine_2f9ac0a1065b1bca",
+   "That plan isn't working. We need another way",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "232": [
+   "RD_ALifeLine_7e307ba16c48d0bb",
+   "We've been at this too long, new plan",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "233": [
+   "RD_ALifeLine_5fb2a00823e06731",
+   "That place belongs to somebody, leave it",
+   [
+    "ALifePlanData.lua",
+    "PLAN",
+    ""
+   ]
+  ],
+  "234": [
+   "RD_ALifeLine_26b16b373015e3dc",
+   "Hey you! Stop right there!",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "235": [
+   "RD_ALifeLine_14bed7673fef069a",
+   "Hands up! Don't you move!",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "236": [
+   "RD_ALifeLine_0f7a838b6e67ff7e",
+   "I said put your hands up!",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "237": [
+   "RD_ALifeLine_6a967c41110fbb58",
+   "Last time! HANDS UP!",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "238": [
+   "RD_ALifeLine_06d7a7e04b0cbb59",
+   "PUT THE WEAPON DOWN!",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "239": [
+   "RD_ALifeLine_532624cb47d03c61",
+   "Shut the hell up!",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "240": [
+   "RD_ALifeLine_0558bb3d13d94bc7",
+   "Where the hell do you think you're going?!",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "241": [
+   "RD_ALifeLine_10bd684914ddca9e",
+   "Yeah, that's ours now",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "242": [
+   "RD_ALifeLine_5db5e2df2262ad97",
+   "Nothing? You're a sorry sight, you know that?",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "243": [
+   "RD_ALifeLine_1e6129be5170b31f",
+   "Don't come after us, go on, get lost",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "244": [
+   "RD_ALifeLine_1712c1d45912de95",
+   "I told you not to follow us!",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "245": [
+   "RD_ALifeLine_68b053fd2e571e46",
+   "You had your chance!",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "246": [
+   "RD_ALifeLine_26f91a7f6538f59c",
+   "Go on home, it's bad out here",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "247": [
+   "RD_ALifeLine_373859770e97cb79",
+   "Nobody's arresting you, just get inside, huh",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "248": [
+   "RD_ALifeLine_356fdb1a7902c40f",
+   "Put that away and get off the street before you get bit",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "249": [
+   "RD_ALifeLine_49360cd95245295c",
+   "Easy, go on home and lock your door",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "250": [
+   "RD_ALifeLine_2bbbcb230a9527aa",
+   "We ain't here for you, so beat it",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "251": [
+   "RD_ALifeLine_23a81a052ac7b752",
+   "Just walk away, nice and easy",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "252": [
+   "RD_ALifeLine_005e0f0939a78e22",
+   "Go on, get out of here!",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "253": [
+   "RD_ALifeLine_027e85b5681c08ec",
+   "Back off slow and we're done",
+   [
+    "ALifeModuleRobbery.lua",
+    "SOYGUN",
+    ""
+   ]
+  ],
+  "254": [
+   "RD_ALifeLine_429224aa277e14c5",
+   "Let's skip names for now.",
+   [
+    "ALifeNames.lua",
+    "SOZ_AD",
+    ""
+   ]
+  ],
+  "255": [
+   "RD_ALifeLine_3f885d3b0d6b383a",
+   "You don't need my name to keep your distance.",
+   [
+    "ALifeNames.lua",
+    "SOZ_AD",
+    ""
+   ]
+  ],
+  "256": [
+   "RD_ALifeLine_5124e08329cd0135",
+   "Names come later. If there's a later.",
+   [
+    "ALifeNames.lua",
+    "SOZ_AD",
+    ""
+   ]
+  ],
+  "257": [
+   "RD_ALifeLine_35bc63a86ea84f8c",
+   "Not yet. Stay right where you are.",
+   [
+    "ALifeNames.lua",
+    "SOZ_AD",
+    ""
+   ]
+  ],
+  "258": [
+   "RD_ALifeLine_18cded0e31202632",
+   "Ask me again when I know what you're about.",
+   [
+    "ALifeNames.lua",
+    "SOZ_AD",
+    ""
+   ]
+  ],
+  "259": [
+   "RD_ALifeLine_41fa3e1e21c954c8",
+   "I just told you that",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "260": [
+   "RD_ALifeLine_7a00e4f0790f0d52",
+   "Already answered that one",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "261": [
+   "RD_ALifeLine_3db46525180444b6",
+   "We did this one already, remember?",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "262": [
+   "RD_ALifeLine_762acefb43a7177b",
+   "Ask me something else, I said my piece",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "263": [
+   "RD_ALifeLine_3161203912a51395",
+   "Are you even listening? Third time now",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "264": [
+   "RD_ALifeLine_712a86ee1cdc5688",
+   "I'm getting tired of saying it twice",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "265": [
+   "RD_ALifeLine_5b82ab36705b6aa5",
+   "Quit asking me the same thing",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "266": [
+   "RD_ALifeLine_4db13b56112d922b",
+   "That's it, I'm done talking",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "267": [
+   "RD_ALifeLine_08277c90594db7bf",
+   "We're finished here, go on",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "268": [
+   "RD_ALifeLine_4dd17f2b2a0ac85e",
+   "I've had enough, leave me be",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "269": [
+   "RD_ALifeLine_4743827239f4d403",
+   "Not talking right now, give it a while",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "270": [
+   "RD_ALifeLine_5abae9171937e979",
+   "I said I was done, come back later",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "271": [
+   "RD_ALifeLine_68fa24df592ed03e",
+   "Go away, I'm not in the mood",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "272": [
+   "RD_ALifeLine_75e2307b119afcc8",
+   "Don't know you well enough for that",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "273": [
+   "RD_ALifeLine_095ebe522f86557b",
+   "That's kinda personal, we just met",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "274": [
+   "RD_ALifeLine_479f665232f058fd",
+   "Ask me again when I know you better",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "275": [
+   "RD_ALifeLine_5dddb21a0674904e",
+   "That's plenty of questions for one go",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "276": [
+   "RD_ALifeLine_37b6972467d18957",
+   "You're alright, you know that?",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "277": [
+   "RD_ALifeLine_7b19c1a96add047c",
+   "Funny, I'm starting to like you",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "278": [
+   "RD_ALifeLine_6e2368c065565d3b",
+   "Careful, I'm watching you",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "279": [
+   "RD_ALifeLine_482551e87c809981",
+   "I'm getting a bad feeling about you",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "280": [
+   "RD_ALifeLine_51723a170e823aec",
+   "Nothing to say to you, go ask somebody else",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "281": [
+   "RD_ALifeLine_5a64fe9e0f78911a",
+   "Ask me when I know you better",
+   [
+    "ALifeTalkSocial.lua",
+    "SOZ_BIKKIN",
+    ""
+   ]
+  ],
+  "282": [
+   "RD_ALifeLine_77c6de8a46e5d7de",
+   "Didn't you just ask one of ours? Word gets around... we're short too, sorry",
+   [
+    "ALifeTalkSupplies.lua",
+    "SOZ_ERZAK",
+    ""
+   ]
+  ],
+  "283": [
+   "RD_ALifeLine_6ccac13869e90bd0",
+   "I heard you, but I can't keep handing stuff out",
+   [
+    "ALifeTalkSupplies.lua",
+    "SOZ_ERZAK",
+    ""
+   ]
+  ],
+  "284": [
+   "RD_ALifeLine_721b52b339e1a56f",
+   "Sorry, nothing to spare, we gotta stretch what we've got",
+   [
+    "ALifeTalkSupplies.lua",
+    "SOZ_ERZAK",
+    ""
+   ]
+  ],
+  "285": [
+   "RD_ALifeLine_04d1482779a3f3a5",
+   "Uhh... fine, take this, it's all I can spare",
+   [
+    "ALifeTalkSupplies.lua",
+    "SOZ_ERZAK",
+    ""
+   ]
+  ],
+  "286": [
+   "RD_ALifeLine_51e5557d15ca5d88",
+   "Where I sleep? Not telling you that",
+   [
+    "ALifeHavens.lua",
+    "SOZ_EV",
+    ""
+   ]
+  ],
+  "287": [
+   "RD_ALifeLine_1dbce88c5c1b995a",
+   "Oh... you again",
+   [
+    "ALifeHavens.lua",
+    "SOZ_EV",
+    ""
+   ]
+  ],
+  "288": [
+   "RD_ALifeLine_018174ca76be82f2",
+   "You're back, huh- hands where I can see 'em",
+   [
+    "ALifeHavens.lua",
+    "SOZ_EV",
+    ""
+   ]
+  ],
+  "289": [
+   "RD_ALifeLine_19ce839c58ff3dbe",
+   "There you are! Been wondering where you got to",
+   [
+    "ALifeHavens.lua",
+    "SOZ_EV",
+    ""
+   ]
+  ],
+  "290": [
+   "RD_ALifeLine_48865dc64083bd43",
+   "Sit down, you look wrecked, c'mon",
+   [
+    "ALifeHavens.lua",
+    "SOZ_EV",
+    ""
+   ]
+  ],
+  "291": [
+   "RD_ALifeLine_59d73cb722f0e47b",
+   "Hey, look who's back",
+   [
+    "ALifeHavens.lua",
+    "SOZ_EV",
+    ""
+   ]
+  ],
+  "292": [
+   "RD_ALifeLine_1e80979e52b63e1f",
+   "Hey, it's you, glad you made it back",
+   [
+    "ALifeHavens.lua",
+    "SOZ_EV",
+    ""
+   ]
+  ],
+  "293": [
+   "RD_ALifeLine_05ada69f70a7aabe",
+   "You found us, huh, good for you",
+   [
+    "ALifeHavens.lua",
+    "SOZ_EV",
+    ""
+   ]
+  ],
+  "294": [
+   "RD_ALifeLine_27106df41a92473e",
+   "Wait, you were a cop, weren't you? You've still got the look",
+   [
+    "ALifeReputationPersonal.lua",
+    "SOZ_ITIBAR",
+    ""
+   ]
+  ],
+  "295": [
+   "RD_ALifeLine_51a4e9f33672d520",
+   "Ranger, right? You walk like you know the woods",
+   [
+    "ALifeReputationPersonal.lua",
+    "SOZ_ITIBAR",
+    ""
+   ]
+  ],
+  "296": [
+   "RD_ALifeLine_30d3b4d71a054116",
+   "Security, right? I'd know that walk anywhere",
+   [
+    "ALifeReputationPersonal.lua",
+    "SOZ_ITIBAR",
+    ""
+   ]
+  ],
+  "297": [
+   "RD_ALifeLine_1e8c60e97c58696d",
+   "You served, didn't you? It's in how you stand",
+   [
+    "ALifeReputationPersonal.lua",
+    "SOZ_ITIBAR",
+    ""
+   ]
+  ],
+  "298": [
+   "RD_ALifeLine_224280b53c35d730",
+   "Fire department, yeah? I remember you from before",
+   [
+    "ALifeReputationPersonal.lua",
+    "SOZ_ITIBAR",
+    ""
+   ]
+  ],
+  "299": [
+   "RD_ALifeLine_34dadbcd0aaac250",
+   "You're a doctor, aren't you? Thank God, we could use you",
+   [
+    "ALifeReputationPersonal.lua",
+    "SOZ_ITIBAR",
+    ""
+   ]
+  ],
+  "300": [
+   "RD_ALifeLine_7dcde87225c5ffc2",
+   "You're a nurse, right? Thank God, we could use you",
+   [
+    "ALifeReputationPersonal.lua",
+    "SOZ_ITIBAR",
+    ""
+   ]
+  ],
+  "301": [
+   "RD_ALifeLine_36c8ec624b3418c1",
+   "Don't I know you? From before all this, I mean",
+   [
+    "ALifeReputationPersonal.lua",
+    "SOZ_ITIBAR",
+    ""
+   ]
+  ],
+  "302": [
+   "RD_ALifeLine_3fc305e84c1894ac",
+   "Can't say I've heard anything about you",
+   [
+    "ALifeReputationPersonal.lua",
+    "SOZ_ITIBAR",
+    ""
+   ]
+  ],
+  "303": [
+   "RD_ALifeLine_4f5169274af757fa",
+   "Haven't heard a thing about you, which around here is usually good",
+   [
+    "ALifeReputationPersonal.lua",
+    "SOZ_ITIBAR",
+    ""
+   ]
+  ],
+  "304": [
+   "RD_ALifeLine_244f3490647649df",
+   "Maybe once I know you a little better",
+   [
+    "ALifeReputationPersonal.lua",
+    "SOZ_ITIBAR",
+    ""
+   ]
+  ],
+  "305": [
+   "RD_ALifeLine_2f5f2bb579ece0cd",
+   "I've heard about you, so back off",
+   [
+    "ALifeReputationPersonal.lua",
+    "SOZ_ITIBAR",
+    ""
+   ]
+  ],
+  "306": [
+   "RD_ALifeLine_22d8f0866f07f2ae",
+   "Don't like strangers, but we're in deep shit here, eh? Stay back and watch my rear",
+   [
+    "ALifeTalk.lua",
+    "SOZ_KONUSMA",
+    ""
+   ]
+  ],
+  "307": [
+   "RD_ALifeLine_0ee6f55f032d25e1",
+   "Don't like you being here, but they don't care who you are - keep off me and watch my back",
+   [
+    "ALifeTalk.lua",
+    "SOZ_KONUSMA",
+    ""
+   ]
+  ],
+  "308": [
+   "RD_ALifeLine_5d7cef10341a5620",
+   "Strangers make me jumpy, the dead make me worse - stay off me, cover my rear",
+   [
+    "ALifeTalk.lua",
+    "SOZ_KONUSMA",
+    ""
+   ]
+  ],
+  "309": [
+   "RD_ALifeLine_2e7cb1ad2a55f66f",
+   "Not the time to argue, eh? You look like you can handle yourself, just watch behind us",
+   [
+    "ALifeTalk.lua",
+    "SOZ_KONUSMA",
+    ""
+   ]
+  ],
+  "310": [
+   "RD_ALifeLine_46c3417f7e1bbd57",
+   "Fine, stick around, just give me room and keep 'em off my back",
+   [
+    "ALifeTalk.lua",
+    "SOZ_KONUSMA",
+    ""
+   ]
+  ],
+  "311": [
+   "RD_ALifeLine_055e9d7c3f437059",
+   "Yeah, ok, see ya out there",
+   [
+    "ALifeTalk.lua",
+    "SOZ_KONUSMA",
+    ""
+   ]
+  ],
+  "312": [
+   "RD_ALifeLine_6e3d0aeb6e7dd92c",
+   "Sure, go ahead, I'm right behind you",
+   [
+    "ALifeTalk.lua",
+    "SOZ_KONUSMA",
+    ""
+   ]
+  ],
+  "313": [
+   "RD_ALifeLine_551871e853e3a64a",
+   "Show me what you're offering first",
+   [
+    "ALifeTalk.lua",
+    "SOZ_KONUSMA",
+    ""
+   ]
+  ],
+  "314": [
+   "RD_ALifeLine_5f51b7f3541ac24d",
+   "Hold up.. asking isn't permission to walk past us. If somebody's blocking the way talk to them first",
+   [
+    "ALifeTalk.lua",
+    "SOZ_KONUSMA",
+    ""
+   ]
+  ],
+  "315": [
+   "RD_ALifeLine_2f825cdd04604851",
+   "I can't give you permission for someone else's checkpoint. If they stop you talk to them before trying to get past",
+   [
+    "ALifeTalk.lua",
+    "SOZ_KONUSMA",
+    ""
+   ]
+  ],
+  "316": [
+   "RD_ALifeLine_293674a030f4d43c",
+   "People remember who shares food or medicine. Who helps them fight the dead. Fair trades too.. but don't expect the whole group to like you just because one person does",
+   [
+    "ALifeTalk.lua",
+    "SOZ_KONUSMA",
+    ""
+   ]
+  ],
+  "317": [
+   "RD_ALifeLine_2c73e0346c4337d4",
+   "Nothing to trade right now. If a trader knocks at your place hear them out and check what they're offering before you agree",
+   [
+    "ALifeTalk.lua",
+    "SOZ_KONUSMA",
+    ""
+   ]
+  ],
+  "318": [
+   "RD_ALifeLine_45bca1d63912ea4e",
+   "Got no place of my own, not anymore",
+   [
+    "ALifeTalk.lua",
+    "SOZ_KONUSMA",
+    ""
+   ]
+  ],
+  "319": [
+   "RD_ALifeLine_7386a9e662ef98c4",
+   "Can't say I've heard a thing about you",
+   [
+    "ALifeTalk.lua",
+    "SOZ_KONUSMA",
+    ""
+   ]
+  ],
+  "320": [
+   "RD_ALifeLine_2758981f062efa90",
+   "This area's closed, go back out the way you came",
+   [
+    "ALifeModuleCareful.lua",
+    "UYARI",
+    ""
+   ]
+  ],
+  "321": [
+   "RD_ALifeLine_614f5f8224b53813",
+   "We're busy here, stay back till it's over",
+   [
+    "ALifeModuleCareful.lua",
+    "UYARI",
+    ""
+   ]
+  ],
+  "322": [
+   "RD_ALifeLine_147c18452c3eb0db",
+   "Last warning, get out of here, NOW",
+   [
+    "ALifeModuleCareful.lua",
+    "UYARI",
+    ""
+   ]
+  ],
+  "323": [
+   "RD_ALifeLine_313815f473f388a1",
+   "Keep your voice down. I don't want trouble finding us",
+   [
+    "ALifeModuleCareful.lua",
+    "UYARI",
+    ""
+   ]
+  ],
+  "324": [
+   "RD_ALifeLine_7e45ed971241b2f2",
+   "We heard you the first time, quit yelling!",
+   [
+    "ALifeModuleCareful.lua",
+    "UYARI",
+    ""
+   ]
+  ],
+  "325": [
+   "RD_ALifeLine_78749bc8161c937f",
+   "Seriously? You'll get us all killed, shut it!",
+   [
+    "ALifeModuleCareful.lua",
+    "UYARI",
+    ""
+   ]
+  ],
+  "326": [
+   "RD_ALifeLine_01c02c9f60c067c1",
+   "Last warning, yell again and we're done being nice",
+   [
+    "ALifeModuleCareful.lua",
+    "UYARI",
+    ""
+   ]
+  ],
+  "327": [
+   "RD_ALifeLine_2a92abfd66e8de76",
+   "That's it- you had your chances!",
+   [
+    "ALifeModuleCareful.lua",
+    "UYARI",
+    ""
+   ]
+  ],
+  "328": [
+   "RD_ALifeLine_55beaeb57fe4502e",
+   "Hey! HEY! Put that down!",
+   [
+    "ALifeOutpostTheft.lua",
+    "UYARI_KARAKOL",
+    ""
+   ]
+  ],
+  "329": [
+   "RD_ALifeLine_69b03e4b675aa200",
+   "Don't aim at me, aim at them!",
+   [
+    "ALifeThreatWatch.lua",
+    "UYARI_NAMLU",
+    ""
+   ]
+  ],
+  "330": [
+   "RD_ALifeLine_157e3a2f13564695",
+   "Not me! Shoot them!",
+   [
+    "ALifeThreatWatch.lua",
+    "UYARI_NAMLU",
+    ""
+   ]
+  ],
+  "331": [
+   "RD_ALifeLine_28071e9b0e6dd50c",
+   "Hey! Point that at the dead, not at me!",
+   [
+    "ALifeThreatWatch.lua",
+    "UYARI_NAMLU",
+    ""
+   ]
+  ],
+  "332": [
+   "RD_ALifeLine_206d856935f6a15c",
+   "Watch your muzzle! They're over there!",
+   [
+    "ALifeThreatWatch.lua",
+    "UYARI_NAMLU",
+    ""
+   ]
+  ],
+  "333": [
+   "RD_ALifeLine_76b179de78316bef",
+   "Lower that weapon... slowly",
+   [
+    "ALifeModuleStances.lua",
+    "UYARI_NOKTA",
+    ""
+   ]
+  ],
+  "334": [
+   "RD_ALifeLine_1e3cb1962ed41dc2",
+   "Back off, give us some room",
+   [
+    "ALifeModuleStances.lua",
+    "UYARI_NOKTA",
+    ""
+   ]
+  ],
+  "335": [
+   "RD_ALifeLine_0813813d448eca9d",
+   "House is taken, turn around and walk",
+   [
+    "ALifeModuleStances.lua",
+    "UYARI_NOKTA",
+    ""
+   ]
+  ],
+  "336": [
+   "RD_ALifeLine_15cd6e7556add06c",
+   "Last chance- we WILL shoot",
+   [
+    "ALifeModuleStances.lua",
+    "UYARI_NOKTA",
+    ""
+   ]
+  ],
+  "337": [
+   "RD_ALifeLine_6f68ce7207194d75",
+   "Alright, hands where we can see 'em",
+   [
+    "ALifeModuleStances.lua",
+    "UYARI_NOKTA",
+    ""
+   ]
+  ],
+  "338": [
+   "RD_ALifeLine_60b1ce1e6d9a1c89",
+   "That's it! Get back!",
+   [
+    "ALifeModuleStances.lua",
+    "UYARI_NOKTA",
+    ""
+   ]
+  ],
+  "339": [
+   "RD_ALifeLine_4d3fd94d216a25fd",
+   "I told you.. Ughh.. I told you..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "340": [
+   "RD_ALifeLine_450311341487d6fd",
+   "Ughh.. my leg..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "341": [
+   "RD_ALifeLine_7a4d4a744261664e",
+   "Somebody.. help me..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "342": [
+   "RD_ALifeLine_10a07a970052619f",
+   "It hurts.. oh God it hurts..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "343": [
+   "RD_ALifeLine_2a68b96e32c7dd13",
+   "Don't leave me here.. please..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "344": [
+   "RD_ALifeLine_1b7fa49d3b6a06fc",
+   "Can't get up.. Ahh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "345": [
+   "RD_ALifeLine_52c9c1f90c3f0067",
+   "Anyone.. anyone out there..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "346": [
+   "RD_ALifeLine_6e6d098020ed211f",
+   "So cold.. Ughh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "347": [
+   "RD_ALifeLine_3ee0eb541e2e7954",
+   "Hold on.. hold on.. Ahh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "348": [
+   "RD_ALifeLine_23efdc4a1463efda",
+   "Please.. help me.. Ughh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "349": [
+   "RD_ALifeLine_0e1a907850e19b7b",
+   "Water.. just a little.. Ahh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "350": [
+   "RD_ALifeLine_03aaab4d2f11c95d",
+   "I can't feel it.. please..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "351": [
+   "RD_ALifeLine_3f66b3166e6f957a",
+   "Thanks.. thanks.. Ughh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "352": [
+   "RD_ALifeLine_669814e5396f3fe4",
+   "Easy.. easy.. my side..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "353": [
+   "RD_ALifeLine_789085487b8c1a99",
+   "Okay.. okay.. I'm up.. Ahh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "354": [
+   "RD_ALifeLine_54e91b596b74067e",
+   "Thank you.. Ughh.. I'll go..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "355": [
+   "RD_ALifeLine_72eaade77ff10df8",
+   "I owe you.. Ahh.. I'm going..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "356": [
+   "RD_ALifeLine_38d037c2004147f5",
+   "Tell them.. Ughh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "357": [
+   "RD_ALifeLine_20d6a0a011c47b37",
+   "Cold.. so cold..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "358": [
+   "RD_ALifeLine_7a268ccb2ed9aa95",
+   "Mom.. Ahh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "359": [
+   "RD_ALifeLine_3a310b401dd190e0",
+   "Easy.. easy.. I'm here, don't move",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "360": [
+   "RD_ALifeLine_3a65deea211fe0b0",
+   "Stay with me! Look at me!",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "361": [
+   "RD_ALifeLine_201ec8f45a24feef",
+   "Quit squirming, let me see it",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "362": [
+   "RD_ALifeLine_0dd18ff51736c585",
+   "I got ya.. hold still",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "363": [
+   "RD_ALifeLine_69432c5c0805e6a8",
+   "Damn it.. how bad is it?",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "364": [
+   "RD_ALifeLine_1abaa25d6d4c0bf4",
+   "Hang on, hang on!",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "365": [
+   "RD_ALifeLine_68c68e9b48469ad6",
+   "Don't you die on me!",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "366": [
+   "RD_ALifeLine_17243a995fad8b64",
+   "Just me.. Ughh.. just me..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "367": [
+   "RD_ALifeLine_6119152e2e41671e",
+   "Nobody.. it's only me.. Ahh.. please..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "368": [
+   "RD_ALifeLine_175ade5e2c7263ce",
+   "Ughh.. I don't.. remember.. please..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "369": [
+   "RD_ALifeLine_5880ab802eb0b7de",
+   "Far.. Ahh.. far from here.. help me..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "370": [
+   "RD_ALifeLine_6c8eef385c91724e",
+   "The dead.. they got me.. Ughh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "371": [
+   "RD_ALifeLine_42dcd2da2bd54dc7",
+   "Zombies.. too many.. Ahh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "372": [
+   "RD_ALifeLine_76d701153d54609f",
+   "Somebody with a gun.. didn't see who.. Ughh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "373": [
+   "RD_ALifeLine_600180503fbfda76",
+   "Shots.. out of nowhere.. Ahh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "374": [
+   "RD_ALifeLine_4b119db76f457da1",
+   "Somebody swung at me.. Ughh.. didn't see..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "375": [
+   "RD_ALifeLine_691221d72433a7b7",
+   "Hit me from behind.. Ahh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "376": [
+   "RD_ALifeLine_1d3be6224519c692",
+   "You.. Ughh.. it was you..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "377": [
+   "RD_ALifeLine_2c5a59db7107ef63",
+   "You did this.. Ahh.. why..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "378": [
+   "RD_ALifeLine_600b6703105db238",
+   "Fire.. it burned.. Ughh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "379": [
+   "RD_ALifeLine_11a3586300f02a93",
+   "The flames.. Ahh.. my skin..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "380": [
+   "RD_ALifeLine_34279fce2cda3eec",
+   "Don't know.. it was so fast.. Ughh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "381": [
+   "RD_ALifeLine_0e164c7545426ad4",
+   "Everything.. went black.. Ahh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "382": [
+   "RD_ALifeLine_357a13363c595bb9",
+   "They're hunting you.. Ughh.. you know that..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "383": [
+   "RD_ALifeLine_38bb85e023c31f54",
+   "Your trail.. they've got your trail.. Ahh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "384": [
+   "RD_ALifeLine_78f46a855f764abf",
+   "My people.. they'll come.. Ughh.. you should go..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "385": [
+   "RD_ALifeLine_08d629505b0c5174",
+   "They'll look for me.. Ahh.. don't be here..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "386": [
+   "RD_ALifeLine_7ba00f20398c888c",
+   "Water.. please.. leave me something.. Ahh..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "387": [
+   "RD_ALifeLine_3785183e1cf523dc",
+   "Just.. leave me.. Ughh.. leave me be..",
+   [
+    "ALifeInjuryRules.lua",
+    "YARALI",
+    ""
+   ]
+  ],
+  "388": [
+   "RD_ALifeLine_0ea6e3ce3115f105",
+   "Someone there. Easy now",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "389": [
+   "RD_ALifeLine_31b1255200aef22f",
+   "Dead ones. Keep your distance",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "390": [
+   "RD_ALifeLine_5f06456e7f9c66df",
+   "Careful with that one. Don't rush closer",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "391": [
+   "RD_ALifeLine_5f2fd399406520a3",
+   "Easy! Keep back!",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "392": [
+   "RD_ALifeLine_5f75705a5c3a89a7",
+   "That's close enough. Give us some room",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "393": [
+   "RD_ALifeLine_50ba38584399b746",
+   "Not now. Keep your distance",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "394": [
+   "RD_ALifeLine_5e3f77276899585f",
+   "Last warning. Back off!",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "395": [
+   "RD_ALifeLine_29b9b89958d03bb2",
+   "That's enough! Stay back!",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "396": [
+   "RD_ALifeLine_2c5e6fbf569ccb31",
+   "We hear you. Come over carefully",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "397": [
+   "RD_ALifeLine_27da3e6f554b62cd",
+   "Keep your voice down, please",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "398": [
+   "RD_ALifeLine_5bc4f7c8311784b2",
+   "We hear you. Stay where you are",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "399": [
+   "RD_ALifeLine_27cef83f434db711",
+   "Keep shouting at us and you'll regret it",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "400": [
+   "RD_ALifeLine_1ab3c0476dd9d770",
+   "Don't point that at me!",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "401": [
+   "RD_ALifeLine_276fb16a55459216",
+   "Stop right there!",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "402": [
+   "RD_ALifeLine_64b9761119ccb68d",
+   "Lower the weapon. Don't make this worse",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "403": [
+   "RD_ALifeLine_5568d5562cd4eb2c",
+   "Back away. We need some room",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "404": [
+   "RD_ALifeLine_2f90fdb21bdc3beb",
+   "Enough! I give up!",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "405": [
+   "RD_ALifeLine_01a7eeab3dd6c751",
+   "Somebody help them!",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "406": [
+   "RD_ALifeLine_39be7de33e2e8aaf",
+   "Are you hurt? Let me see!",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "407": [
+   "RD_ALifeLine_43bbdc0f6fb1b41b",
+   "Keep looking. Don't get careless",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "408": [
+   "RD_ALifeLine_6cb41e57539a5707",
+   "Let's have a look around",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "409": [
+   "RD_ALifeLine_43f6adfa3afd9cc1",
+   "Alright. I hear you",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "410": [
+   "RD_ALifeLine_379f8e3c43f60c1b",
+   "Breathe. One thing at a time",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "411": [
+   "RD_ALifeLine_61e7eddb6a2459dd",
+   "Give me a second!",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "412": [
+   "RD_ALifeLine_0ba59fa11f84bfe3",
+   "I need to get back!",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "413": [
+   "RD_ALifeLine_74ba1c562e5a730b",
+   "Damn it! Give me a moment!",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "414": [
+   "RD_ALifeLine_6800d3f1036ef6c8",
+   "Stand back a little. Give me room",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "415": [
+   "RD_ALifeLine_55e02f9b49a9f2ac",
+   "Don't get careless now",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "416": [
+   "RD_ALifeLine_5c195912639df31d",
+   "Let's see if it's any use",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "417": [
+   "RD_ALifeLine_316f13495485aba0",
+   "That might come in handy",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "418": [
+   "RD_ALifeLine_770753c66434dc88",
+   "Let's check what we can use",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "419": [
+   "RD_ALifeLine_6e7b940b685b20bc",
+   "We ought to keep that for someone who needs it",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "420": [
+   "RD_ALifeLine_0635020801188b27",
+   "Check whether any of that fits",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "421": [
+   "RD_ALifeLine_20de6846164559ca",
+   "I could use a moment to think",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "422": [
+   "RD_ALifeLine_7fce461241a4bd16",
+   "Easy. Don't get careless",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "423": [
+   "RD_ALifeLine_522c3e523af4af81",
+   "Keep your distance. I don't want to take chances",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "424": [
+   "RD_ALifeLine_2de3bc1709f15522",
+   "Stay together. Let's think this through",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "425": [
+   "RD_ALifeLine_1612fbb5603d1034",
+   "Quiet a moment. I want to pay attention",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "426": [
+   "RD_ALifeLine_4c04250f50e9c4ab",
+   "Take it carefully. No sense rushing",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "427": [
+   "RD_ALifeLine_560a39c26497b028",
+   "Let's see what we can use",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "428": [
+   "RD_ALifeLine_546402b73cb1a543",
+   "Don't run off on your own",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "429": [
+   "RD_ALifeLine_1d7326385a32829d",
+   "Give me a moment, would you?",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "430": [
+   "RD_ALifeLine_7752b64b5239fcc8",
+   "I miss having less to worry about",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "431": [
+   "RD_ALifeLine_5b1e772c0a1d6398",
+   "Let's be careful about where we go next",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ],
+  "432": [
+   "RD_ALifeLine_498431ac725fc033",
+   "Let me think a moment",
+   [
+    "ALifeVoiceTextFallback.lua",
+    "YEDEK",
+    ""
+   ]
+  ]
+ }
+}

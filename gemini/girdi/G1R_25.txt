@@ -1,0 +1,361 @@
+# PAKET G1R · parça 25/35 · satır 8451-8802 (352 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar oyunda şu an skill'den önceki eski bir çeviriyle görünüyor; sıfırdan, İngilizceden kur. Her başlığın altındaki 'NEREDE:' oyuncunun bu sözle nasıl karşılaştığını, '#' notu sahneyi anlatır. Önce bunları oku, satırı o anda o yerde duyulacak sözle yaz.
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+##### PASSING_PLAYER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yoldan geçerken oyuncuya laf atıyor, 'sen'.
+8451 | reg=family|tmp=fresh|st=friendly,neutral|day=0,4 | They said stay inside and I did, and now we're out of milk, isn't that stupid
+8452 | reg=family|tmp=fresh|st=friendly,neutral|day=0,4 | My boy won't stop asking when the TV comes back, what do I tell him
+8453 | reg=family|tmp=fresh|st=friendly,neutral|day=0,4 | We got a call from the church, free cots, any truth in that?
+8454 | reg=family|tmp=fresh|st=friendly,neutral|day=0,4 | Don't touch me... sorry I'm sorry just don't
+8455 | reg=family|tmp=fresh|st=friendly,neutral|day=0,4|world=road | Is it safe to go home? Our whole street's gone strange
+8456 | reg=family|tmp=fresh|st=friendly,neutral|sex=f|day=0,4 | Have you seen my husband? Gray work shirt, went to check the barn, then just-
+8457 | reg=family|tmp=fresh|st=friendly,neutral|psex=f|day=0,4 | Ma'am, is your family with you? Please say they're with you
+8458 | reg=family|tmp=fresh|st=friendly,neutral|psex=m|day=0,4 | Hey, mister, we're headed for the church, you want to come? Please?
+8459 | reg=family|tmp=fresh|st=friendly,neutral | Hi there, didn't mean to stare, we don't see many people
+8460 | reg=family|tmp=fresh|st=friendly,neutral | Keep up... don't go waving at every stranger
+8461 | reg=family|tmp=fresh|st=friendly,neutral | You with anybody? We've got room at the table, maybe
+8462 | reg=family|tmp=fresh|st=friendly,neutral | Can't stop, sorry, my son's got a fever
+8463 | reg=family|tmp=fresh|st=friendly,neutral | Nobody's sick in our house, we're just tired, honest
+8464 | reg=family|tmp=fresh|st=friendly,neutral | I'd say come by, but we don't have enough, I'm sorry
+8465 | reg=family|tmp=fresh|st=friendly,neutral | You haven't seen a station wagon with wood on the sides, have you?
+8466 | reg=family|tmp=fresh|st=friendly,neutral | Please tell your friends we're not looking for trouble, just left alone
+8467 | reg=family|tmp=fresh|st=friendly,neutral | We're on the corner with the green shutters if anybody asks
+8468 | reg=family|tmp=fresh|st=friendly,neutral | Hey, you hear anything from West Point? My brother's out there
+8469 | reg=family|tmp=fresh|st=friendly,neutral | My daughter wants to know if you have any candy, ignore her
+8470 | reg=family|tmp=fresh|st=friendly,neutral | Sorry about the noise, the baby doesn't know any better
+8471 | reg=family|tmp=fresh|st=friendly,neutral | Sorry, we're out of everything, so don't bother us for it...
+8472 | reg=family|tmp=fresh|st=friendly,neutral | We pray for everybody that walks by, so, you're in the prayer
+8473 | reg=family|tmp=fresh|st=friendly,neutral | We just want to go home, I don't know what home means now
+8474 | reg=family|tmp=fresh|st=friendly,neutral | Have you seen the Hendersons? They have a blue truck, they were with us
+8475 | reg=family|tmp=fresh|st=friendly,neutral | I miss hearing people play outside... everything's so quiet now
+8476 | reg=family|tmp=fresh|st=friendly,neutral | We haven't heard from anyone in three days, nobody's calling
+8477 | reg=family|tmp=fresh|st=friendly,neutral|hour=6,11 | Morning, don't mind the baby, she's been crying since sunup
+8478 | reg=family|tmp=fresh|st=friendly,neutral|world=road | Our dog's been barking at the road all day, I hope he's not bothering you
+8479 | reg=family|tmp=fresh|st=friendly,neutral|world=building | We keep the porch light off now, so if you hear us, that's why
+8480 | reg=family|tmp=fresh|st=friendly,neutral|mood=fear | Please be a good person, please, I've got children
+8481 | reg=family|st=careful | We're a little jumpy... you understand
+8482 | reg=family|st=careful | Please go the other way, please, we just can't
+8483 | reg=family|st=careful | Not trying to be rude but you're not coming near the house
+8484 | reg=family|st=careful | We don't have anything to spare, we really don't
+8485 | reg=family|st=hostile | Stay away from us!
+8486 | reg=family|st=hostile | Get away from here, we've got a gun!
+8487 | reg=family|st=hostile | I mean it, GO!
+8488 | reg=family|st=hostile|world=building,road | Not this house, not this road, not today
+8489 | role=family_elder|st=friendly,neutral | Lord, look at you out there walking, you must be worn to a frazzle
+8490 | role=family_elder|st=friendly,neutral | Mind the dogs, hon, they're half-wild now
+8491 | role=family_elder|st=friendly,neutral | Is it still Friday? It feels like it's been Friday for a month
+8492 | role=family_elder|st=friendly,neutral | Have you seen my grandson? Blue cap, name's Tyler
+8493 | role=family_elder|st=friendly,neutral | My knees say it's gonna rain, they're never wrong
+8494 | role=family_elder|st=friendly,neutral | I'm too old to run, so hello, whatever happens happens
+8495 | role=family_elder|st=friendly,neutral | You don't have to say anything, just nod, so I know you heard
+8496 | role=family_elder|st=friendly,neutral | When's the TV coming back on? You'd know, you're young
+8497 | role=family_elder|st=friendly,neutral | My papaw used to say folks who walk are folks with somewhere to be
+8498 | role=family_elder|st=friendly,neutral | I'd walk with you but I'd hold you up, honey, mind the ditch
+8499 | role=family_elder|st=friendly,neutral | There's still cornbread, if you're ever hungry, I'm in the yellow house
+8500 | role=family_elder|st=friendly,neutral | I'll manage, go see if somebody else needs you
+8501 | role=family_elder|st=friendly,neutral | I'm old enough to remember the blackout of 'sixty-five, this is different
+8502 | role=family_elder|st=friendly,neutral | Bless your heart, you're thin as a rail, someone feed that child
+8503 | role=family_elder|st=friendly,neutral | Mind your manners, we can be civil about this
+8504 | role=family_elder|st=friendly,neutral|sex=f | My late husband would've waved you in for coffee, God rest him
+8505 | role=family_elder|st=friendly,neutral|sex=f | I've buried two husbands and a dog, I'm not scared of a little trouble
+8506 | role=family_elder|st=friendly,neutral|psex=m | Young man, you look half-starved
+8507 | role=family_elder|st=friendly,neutral|psex=f | Young lady, are you out here by yourself? That's just not right
+8508 | role=family_elder|st=careful,hostile|world=road | Stay on your side of the road, young person
+8509 | role=family_elder|st=careful,hostile | I've got a shotgun and I know how to use it, so
+8510 | role=family_elder|st=careful,hostile | Go on now, my eyes are shot but I can still hear you
+8511 | role=family_elder|st=careful,hostile | I've got a shotgun, and I'm old enough not to care
+8512 | role=family_elder|st=careful,hostile | Keep going, young one, keep going
+8513 | role=family_youth|st=friendly,neutral | Whoa, are you real? Like a real person?
+8514 | role=family_youth|st=friendly,neutral | Hey- you got any cigarettes? Not for me, for my dad
+8515 | role=family_youth|st=friendly,neutral | Is school canceled forever, you think? Please say yes
+8516 | role=family_youth|st=friendly,neutral | Hi, sorry, my mom says not to talk to strangers but you look okay
+8517 | role=family_youth|st=friendly,neutral | This sucks so bad, doesn't it? This whole thing just sucks
+8518 | role=family_youth|st=friendly,neutral | I haven't seen my friends since Friday, have you seen anybody my age
+8519 | role=family_youth|st=friendly,neutral | Whoa, hi, you scared me, I thought you were one of them
+8520 | role=family_youth|st=friendly,neutral | Do you know if the mall's open? Kidding, kidding, I'm kidding
+8521 | role=family_youth|st=friendly,neutral | You seen a girl about my age? Red jacket, kinda mad-looking
+8522 | role=family_youth|st=friendly,neutral | I'm supposed to be at practice, what do I do, who do I call
+8523 | role=family_youth|st=friendly,neutral | My dad says it's the government, my mom says it's God, who's right
+8524 | role=family_youth|st=friendly,neutral | I'm not scared, honest, my hands just do that
+8525 | role=family_youth|st=friendly,neutral | If you see Jenny from Rosewood, tell her I said hey, that's all
+8526 | role=family_youth|st=friendly,neutral | Hey, you got a radio? Like, any radio?
+8527 | role=family_youth|st=friendly,neutral | I'm, like, so bored I could scream, which would be bad
+8528 | role=family_youth|st=friendly,neutral | Do you think there's a mall somewhere that's still open?
+8529 | role=family_youth|st=friendly,neutral | Whoa, nice walk, you look like a hiker, a really tired one
+8530 | role=family_youth|st=friendly,neutral|mood=funny | Anybody got a Pepsi? Even a warm one, I'm begging
+8531 | role=family_youth|st=friendly,neutral|mood=sad | I just want my bed, my dumb little bed
+8532 | role=family_youth|st=friendly,neutral|mood=fear | I'm okay, I keep saying it, but I don't feel it yet
+8533 | role=family_youth|st=careful,hostile | Hey, don't come closer, my dad's got a rifle
+8534 | role=family_youth|st=careful,hostile | I've got a knife, so, just, you know
+8535 | role=family_youth|st=careful,hostile | Back up, seriously
+8536 | role=family_youth|st=careful,hostile | Back up, back up, I'm serious!
+8537 | role=family_youth|st=careful,hostile | My dad's right behind me, no, really
+8538 | role=family_man|st=friendly,neutral | We're just trying to get the family somewhere we can lock up
+8539 | role=family_man|st=friendly,neutral | My wife's got us on a schedule, I just follow it
+8540 | role=family_man|st=friendly,neutral | Don't suppose you've got a map of the county, the real kind
+8541 | role=family_man|st=friendly,neutral | I'm trying to find the school, they said buses, are there buses
+8542 | role=family_man|st=friendly,neutral | It's my kids I worry about, not me, you know how it is
+8543 | role=family_man|st=friendly,neutral | I used to coach Little League, now I coach people across driveways
+8544 | role=family_woman|st=friendly,neutral | Hi, hon, if you're hungry, we've got beans, not much else
+8545 | role=family_woman|st=friendly,neutral | My husband's trying to fix our truck, which is going great
+8546 | role=family_woman|st=friendly,neutral | Tell me you're not thirsty, because we're out of everything to drink
+8547 | role=family_woman|st=friendly,neutral | I've got two babies in there and a hundred things I forgot to pack
+8548 | role=family_woman|st=friendly,neutral | You're not here for the baby formula, are you? We're out
+8549 | role=family_woman|st=friendly,neutral | I made it through nine years of marriage, this should be easy
+8550 | reg=civilian,family,worker,rescue|rep=bad|world=road | Stay on your side of the road, that's all I'm asking
+8551 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=5,10 | Mornin', you're up early, or you never went to bed
+8552 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=5,10 | Morning, if you can call it that
+8553 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=5,10 | Morning. Sleep at all? Me neither
+8554 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=5,10 | Sun's barely up and I've already seen too much
+8555 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=5,10 | Early start, huh? Good, the quiet ones are the lucky ones
+8556 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=5,10 | Morning there, don't mind the bags under my eyes
+8557 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=5,10 | Dew's still on everything, quiet out, I like it
+8558 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=5,10 | Hey, morning, you headed anywhere warm?
+8559 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=5,10 | Mornin', you look like you've been awake since Friday, same here
+8560 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=5,10 | Up with the birds, except the birds are gone, weird
+8561 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=5,10|world=road | Rooster down the road's still crowing, bless him, he doesn't know
+8562 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral|hour=5,10 | I made it through another night, how about that
+8563 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral|hour=5,10 | Morning- sorry- I keep thinking if I say it's normal it'll be normal
+8564 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral|hour=5,10 | Morning, you sleep? Neither did we
+8565 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|hour=5,10 | Another one, morning, same as yesterday
+8566 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|hour=5,10 | Morning, I'd say it's gonna be a good day, but I'm not a liar
+8567 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=11,13 | Cold beans for lunch again, you want any?
+8568 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=11,13 | Anybody got lunch? I'll trade you my last stick of gum
+8569 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=11,13 | Bet you haven't eaten either, nobody has
+8570 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=11,13 | Middle of the day, hope you've got somewhere to sit
+8571 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|hour=11,13 | Midday, good time to move, they're slow in the daylight
+8572 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|hour=11,13 | Lunch hour used to mean a sandwich and the radio
+8573 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=13,17 | Afternoon. Hanging in there?
+8574 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=13,17 | Long afternoon, huh?
+8575 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=13,17 | Another afternoon of nothing happening, I'll take it
+8576 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=13,17 | Couple hours till dark, so I'm moving, you should too
+8577 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=13,17 | Afternoon, you see anything worth seeing?
+8578 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral|hour=13,17 | Hi. Afternoon. Do you know when the Army gets here?
+8579 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral|hour=13,17 | Afternoon, I'm sorry, I'm talking too much, I'm nervous...
+8580 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=17,20 | Evening. Getting late, you got somewhere to be?
+8581 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=17,20 | You've got a couple of hours of light, use 'em
+8582 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=17,20 | Sun's going down, find a place to lock up
+8583 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=17,20 | Evening, you alone? Don't be out here alone when it gets dark
+8584 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=17,20 | Heading in for the night, you should too
+8585 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=17,20 | Hey, evening, it's gonna get ugly out here soon
+8586 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=17,20 | Evening, you're cutting it close, don't you think?
+8587 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral|hour=17,20 | Please tell me you've got a house to go to, it's almost dark
+8588 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral|hour=17,20 | Hi- evening- I don't like the evenings anymore
+8589 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|hour=17,20 | Last light, then it's their time, not ours
+8590 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|hour=17,20 | Evening, I'm done for the day, you should be
+8591 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=21,4 | Why're you walking at night, are you crazy? I'm kidding, I'm doing it too
+8592 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=21,4 | Night out, I should've been in bed hours ago, so should you
+8593 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=21,4 | Careful with that flashlight, I'd rather not advertise where we are
+8594 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=21,4 | Can't sleep either? Join the club
+8595 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=21,4 | Hey, come over, but keep your voice down
+8596 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=21,4 | Talk low, they hear everything at night
+8597 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=21,4 | Who's out there? Oh, thank God, a person
+8598 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=21,4 | Late for walking, ain't it?
+8599 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral|hour=21,4 | Is somebody there? Please be a person, please be a person
+8600 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral|hour=21,4 | Oh my God, you scared me, I'm sorry, I can't see anything
+8601 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=hot | It's so damn hot I'm sweating through my shirt
+8602 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=hot | Water's warm as spit and I'm still drinking it
+8603 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=hot | Trade you a kidney for an ice cube, no joke
+8604 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=hot | Whole county smells like a dumpster in this heat, you notice?
+8605 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=hot | Lord, this heat, my mama would've said the Devil's got the thermostat
+8606 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=hot | Don't wear black, I learned that one the hard way
+8607 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=hot | Hot enough for you? Sorry, I always wanted to say that
+8608 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=hot | My shirt's stuck to me and I'm too tired to care
+8609 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=hot | Can't think in this heat, can you? My head's like cotton
+8610 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral|world=hot | Is it hot or is it just me? Oh God, it's both
+8611 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral|world=hot | I fainted twice since Saturday, it's the heat, I'm fine
+8612 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|world=hot | Hot, sticky, miserable, my kind of weather
+8613 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|world=hot | Heat's making everybody stupid, including me
+8614 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=rain | Wet enough for you?
+8615 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=rain | Rain's the only shower I've had in a week, so, thanks, God
+8616 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=rain | My boots are squishing, everything's squishing
+8617 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=rain | Rain covers the noise, small mercies
+8618 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=rain | Hey, come under here, if you can fit
+8619 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=rain | Don't stand around in it, you'll catch your death
+8620 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=rain | Two idiots in the rain, hi
+8621 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=rain,road | Rain's washing everything down the road, don't ask what
+8622 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral|world=rain | Can't see, can't hear, can't think, I hate the rain
+8623 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral|world=rain | Is it supposed to rain this long? Does anybody know?
+8624 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=cold | It's freezing, my teeth are doing a drum solo
+8625 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=cold | Wish I had a coat, any coat, even Earl's, which was ugly
+8626 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=cold | Cold as a well-digger's heart out here
+8627 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=cold | All I can think about is a fire
+8628 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=cold | Don't let your hands go numb, you'll lose the feeling
+8629 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=cold | My nose is gone, is it still there? Check it for me
+8630 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=wind | Wind's carrying every sound, so keep it low
+8631 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=wind | Hear that wind? Sounds like somebody whistling, don't it
+8632 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=wind | Hold on to everything, it's trying to take it
+8633 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=fog | Can't see ten feet in this stuff, don't walk into me
+8634 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=fog | Hello? Who's there? I can't see you, I just hear you
+8635 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=storm | Storm's coming, you can smell it
+8636 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=storm | Thunder's the only thing I'm not afraid of anymore
+8637 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=snow | Snow. Of course it snows, why wouldn't it
+8638 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=snow | Tracks in the snow, so watch where you step
+8639 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=summer | I always hated summer, this is worse
+8640 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=summer | Summer's half the problem, everything rots faster
+8641 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=summer | Used to be this time of year we'd go swimming
+8642 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=20,23|world=summer | Fireflies still come out, that's something, right?
+8643 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=winter,snow | I haven't been warm since the first frost
+8644 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=spring | Things are growing back, you see that? Everything but us
+8645 | reg=worker|st=friendly,neutral|hour=12,18 | I was supposed to be on shift at noon, guess I'm late
+8646 | reg=worker|st=friendly,neutral|sex=m | Quit smoking in April, started again Friday, don't tell my wife
+8647 | reg=worker|st=friendly,neutral|mood=funny | Anybody need a lift? No? Because I don't have a car
+8648 | reg=worker|st=friendly,neutral|mood=funny | Good news is nobody's gonna ask me for overtime
+8649 | reg=worker|st=friendly,neutral|mood=angry | You need something, or are you just watching me work?
+8650 | reg=worker|st=friendly,neutral|mood=fear | You're not one of them, are you? Sorry, sorry, long day
+8651 | reg=worker|st=friendly,neutral|day=0,4 | You hear they shut the plant? Everybody just walked out
+8652 | reg=worker|st=friendly,neutral|day=0,4 | My shift lead went down at the loading dock and just- he didn't get up
+8653 | reg=worker|st=friendly,neutral|day=0,4 | Somebody called the fire department, nobody came, nobody
+8654 | reg=worker|st=friendly,neutral|day=0,4 | I'm headed home, I live on Elm, you seen how bad it is over there?
+8655 | reg=worker|st=friendly,neutral|day=0,4 | Don't get close to the guys from third shift, they're sick, they're real sick
+8656 | reg=worker|st=friendly,neutral|day=0,4 | Where's the damn National Guard? Aren't they supposed to be here?
+8657 | reg=worker|st=careful | Stay put, okay? Just stay there
+8658 | reg=worker|st=careful | Keep walking! I got a pipe wrench and I'm not afraid of it
+8659 | reg=worker|st=careful | Don't need company, thanks
+8660 | reg=worker|st=careful | Easy, easy, nobody wants trouble, I'm just working
+8661 | reg=worker|st=hostile | Back off, I got a crowbar!
+8662 | reg=worker|st=hostile | Get the hell away from my crew!
+8663 | reg=worker|st=hostile | I don't want to hurt anybody, so don't make me
+8664 | reg=rescue|st=friendly,neutral|mood=warm | Hey, you made it this far, that's good news
+8665 | reg=rescue|st=friendly,neutral|mood=sad | Another one walking alone, God, I wish you'd come inside...
+8666 | reg=rescue|st=friendly,neutral|mood=grim|world=road | Don't look at the ditch, okay? Just keep your eyes on the road
+8667 | reg=rescue|st=friendly,neutral|mood=calm | Quiet side of town today, enjoy it
+8668 | reg=rescue|st=friendly,neutral|mood=funny | Anybody need a bandage? I've got a thousand, ask me for one
+8669 | reg=rescue|st=friendly,neutral|mood=fear | You're not hurt? Please say you're not hurt
+8670 | reg=rescue|st=careful | Stay where you are, please, we can't help everybody
+8671 | reg=rescue|st=careful | We're not taking anybody else, sorry, truly
+8672 | reg=rescue|st=careful | Please, no closer, we've had trouble
+8673 | reg=rescue|st=careful | You'll have to go around, I'm sorry
+8674 | reg=rescue|st=hostile|world=inside | Stay back! I've got people in here!
+8675 | reg=rescue|st=hostile | Not today, go on, please
+8676 | reg=rescue|st=hostile | We don't have anything for you, go away
+8677 | role=rescue_firefighter|st=friendly,neutral | Engine's down the block if you need a hand
+8678 | role=rescue_firefighter|st=friendly,neutral | We lost two of ours on Saturday, that's all I'll say
+8679 | role=rescue_firefighter|st=friendly,neutral | You see a hydrant leaking, let us know
+8680 | role=rescue_firefighter|st=friendly,neutral | I thought I'd seen everything, then I got a call about a dog in a tree
+8681 | role=rescue_firefighter|st=friendly,neutral | House on Hill Street, if it's still burning, don't go near
+8682 | role=rescue_firefighter|st=friendly,neutral | Truck's out of water and I'm out of excuses
+8683 | role=rescue_firefighter|st=friendly,neutral | If you smell gas, keep clear. We're still trying to shut it off
+8684 | role=rescue_firefighter|st=friendly,neutral | Lost the hose, still got a bucket, for what it's worth
+8685 | role=rescue_firefighter|st=friendly,neutral|world=fire | Keep clear of the smoke, it's worse than it looks
+8686 | role=rescue_firefighter|st=friendly,neutral|world=fire | Don't go in anything that's smoldering, okay? Please
+8687 | role=rescue_firefighter|st=friendly,neutral|world=door | Put a brick on the door if you're leaving a place, helps us find it
+8688 | role=rescue_firefighter|st=friendly,neutral|mood=grim|world=fire | You can smell it for blocks, that burnt-up smell
+8689 | role=rescue_firefighter|st=friendly,neutral|mood=funny | If I had a dollar for every call, I'd have no dollars, nobody's paying
+8690 | role=rescue_firefighter|st=friendly,neutral|mood=sad | Used to wave at kids from the truck, now there's nobody to wave at
+8691 | role=rescue_firefighter|st=careful,hostile|world=vehicle | Back away from the truck, please
+8692 | role=rescue_firefighter|st=careful,hostile | Stay clear, we've got hoses everywhere
+8693 | role=rescue_medical|st=friendly,neutral | You hurt? Let me see from here
+8694 | role=rescue_medical|st=friendly,neutral | Fever? Chills? Cough? You'd know, you'd know
+8695 | role=rescue_medical|st=friendly,neutral | Wash that cut, I'm too tired to fix an infection
+8696 | role=rescue_medical|st=friendly,neutral | I've got gauze and a little iodine, if you bleed, holler
+8697 | role=rescue_medical|st=friendly,neutral | Don't share a canteen with anybody who's sick, I'm serious
+8698 | role=rescue_medical|st=friendly,neutral | Wash your hands, I know there's no water, wash 'em anyway
+8699 | role=rescue_medical|st=friendly,neutral | If anybody's bit, don't touch them, don't argue, just get me
+8700 | role=rescue_medical|st=friendly,neutral | You look dehydrated, that's not a request, drink something
+8701 | role=rescue_medical|st=friendly,neutral | We ran out of everything Sunday, so I'm mostly talking
+8702 | role=rescue_medical|st=friendly,neutral | Nobody trained me for this, I did eleven years in a pediatric ward
+8703 | role=rescue_medical|st=friendly,neutral | I've seen a lot of fevers, and I don't like yours, whoever's it is
+8704 | role=rescue_medical|st=friendly,neutral | Nurse here. Anybody running a fever?
+8705 | role=rescue_medical|st=friendly,neutral | Please don't drink from the creek, I'm begging you, boil it
+8706 | role=rescue_medical|st=friendly,neutral|mood=sad | I couldn't help the last three, so, if you're hurt, tell me quick
+8707 | role=rescue_medical|st=friendly,neutral|mood=funny | I'd say take two aspirin and call me in the morning, but, you know
+8708 | role=rescue_medical|st=friendly,neutral|mood=warm | You look good, I mean healthy, it's nice to see
+8709 | role=rescue_medical|st=careful,hostile | Don't come closer if you're sick
+8710 | role=rescue_medical|st=careful,hostile | If you've been bit, stop right there, please
+8711 | role=rescue_medical|st=careful,hostile | We can't treat everyone, so please go
+8712 | role=rescue_clergy|st=friendly,neutral | Peace be with you
+8713 | role=rescue_clergy|st=friendly,neutral | Our doors are open if you need a place to sit
+8714 | role=rescue_clergy|st=friendly,neutral | Hello, don't mind the collar, I'm not going to preach
+8715 | role=rescue_clergy|st=friendly,neutral | I'm praying for everybody who walks by, so that's you, too
+8716 | role=rescue_clergy|st=friendly,neutral | God sees you out there, whether you like it or not
+8717 | role=rescue_clergy|st=friendly,neutral | Bless your heart, you look like you've walked a hundred miles
+8718 | role=rescue_clergy|st=friendly,neutral | Come by the fellowship hall if you want a quiet minute
+8719 | role=rescue_clergy|st=friendly,neutral | Buried six this week, so a hello is nice
+8720 | role=rescue_clergy|st=friendly,neutral | Haven't seen many of the congregation since Sunday
+8721 | role=rescue_clergy|st=friendly,neutral | Lord forgive me, I almost swung a shovel at a man yesterday
+8722 | role=rescue_clergy|st=friendly,neutral | Brother, if you need to talk, or sit, I'm just here
+8723 | role=rescue_clergy|st=friendly,neutral | If you want somebody to pray with, I can stay a minute
+8724 | role=rescue_clergy|st=friendly,neutral | God keep you, whoever you are, whatever you need
+8725 | role=rescue_clergy|st=friendly,neutral | Sorry, can you hear me over there?
+8726 | role=rescue_clergy|st=friendly,neutral|world=road | The Lord watch over you on that road
+8727 | role=rescue_clergy|st=friendly,neutral|psex=f | Sister, you look tired, rest a while, the pews are empty
+8728 | role=rescue_clergy|st=friendly,neutral|psex=m | Brother, you look weary, rest a while
+8729 | role=rescue_clergy|st=friendly,neutral|mood=sad | Haven't heard a hymn in days, so if you can hum one, hum it
+8730 | role=rescue_clergy|st=friendly,neutral|mood=grim | I've said more funeral prayers this week than in my whole life
+8731 | role=rescue_clergy|st=friendly,neutral|mood=funny | Sunday service is still on, attendance is just a little down
+8732 | role=rescue_clergy|st=friendly,neutral|mood=calm | Peace, peace to you, nothing's chasing us today
+8733 | role=rescue_clergy|st=friendly,neutral|mood=angry | God forgive me, I'm furious at everybody
+8734 | role=rescue_clergy|st=careful,hostile | Please, go in peace, we can't take anyone else
+8735 | role=rescue_clergy|st=careful,hostile | Please keep your distance... we don't want trouble
+8736 | role=rescue_clergy|st=careful,hostile | I won't ask your business, just please go on
+8737 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=5,13 | Nine days and I still jump at my own shadow
+8738 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=5,13 | Anybody tell you the Army's gone? Because they're gone
+8739 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=5,13 | I stopped waiting for the news, nobody's talking
+8740 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=5,13 | Week and a half of this, how's that for you
+8741 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=5,13 | Radio's been dead since Monday, so you're the news
+8742 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=5,13 | Still alive, huh? Good, that's two of us
+8743 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=5,13 | I used to be somebody on Friday, now I just walk
+8744 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=5,13 | Don't ask me what day it is, I've got a rock for every one
+8745 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=5,13 | I miss the hum of the fridge, isn't that stupid?
+8746 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=5,13 | Anybody still handing out anything? Anywhere? Rumors count
+8747 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=5,13 | Haven't had a hot bath since the ninth, don't get close
+8748 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=5,13 | I keep setting two cups out, then I put one back
+8749 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=5,13 | I'd kill for a pizza, honest to God, a gas station pizza
+8750 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=5,13 | There's a rumor about a camp near the river, any truth to it?
+8751 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=5,13|world=door | You find a place yet? I'm going door to door, nobody answers
+8752 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=14,29 | Two weeks, you know? Two whole weeks
+8753 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=14,29 | I stopped counting at fourteen, then I started again
+8754 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=14,29 | I'm out of canned food, you found anything that keeps?
+8755 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=14,29 | My boots wore through, I'm walking on cardboard
+8756 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=14,29 | Everybody I knew is either gone or different, you too?
+8757 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=14,29 | Been talking to a dog, don't even know whose he was
+8758 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=14,29 | There's a bunch of us at the school, if you're looking
+8759 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=14,29 | Somebody traded me a tin of tobacco for a pair of socks, I won
+8760 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=14,29 | Don't tell me the Army's coming, I've heard it forty times
+8761 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=14,29 | We lost track of the Fourth of July, what's the fireworks guy up to?
+8762 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=14,29 | It's strange how fast quiet became normal
+8763 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=30,9999 | A month, a whole damn month
+8764 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=30,9999 | We used to say it can't last, and here we are
+8765 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=30,9999 | I remember kids asking when it'd be over... eventually they quit asking
+8766 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=30,9999 | We planted tomatoes in a tire, that's how bad it's gotten
+8767 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=30,9999 | I can't remember the last time I saw a plane
+8768 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=30,9999 | Nobody's coming, we know that now, we just keep walking
+8769 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=30,9999 | My hair's past my shoulders, my mother'd have a fit
+8770 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=30,9999 | My mama's recipes are the only thing I can recite anymore
+8771 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=30,9999 | Still here, still stubborn, hello
+8772 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | Hello? Please tell me you're a person
+8773 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | Who- who's there? Say something, anything
+8774 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | My heart's gonna explode, you scared me half to death!
+8775 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | Please, please be friendly, please
+8776 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | I can't see, I can't hear, is that you? Is that a person?
+8777 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | Don't come closer! Just- just stay there!
+8778 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | Hey! Are you real? Say you're real!
+8779 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | I keep seeing people that aren't there, so, hi, I guess
+8780 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | I thought you were one of them, I thought, never mind
+8781 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | Wait- wait- do you have a gun? Do you?
+8782 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | You've not been bitten, have you? Please tell me now
+8783 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | Oh Jesus, oh Jesus, hi, hello, hi!
+8784 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | Look at my hands, I can't get them to stop shaking
+8785 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | Is it safe? Is it safe over there? Is it?
+8786 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | Please don't shoot, I'm not anything, I'm just walking
+8787 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | Somebody told me to hide, but where? Where do I hide?
+8788 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | I haven't slept, I haven't eaten, I'm not thinking right, hi
+8789 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | Are they behind you? Did anything follow you?
+8790 | reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear | No, wait, hold on, are you with them?
+8791 | reg=civilian,family,worker,rescue|st=friendly,neutral | They waved, go on, wave back
+8792 | reg=civilian,family,worker,rescue|st=friendly,neutral | Well I'll be, thought I was the only one out here
+8793 | reg=civilian,family,worker,rescue|st=friendly,neutral | Lord have mercy, come over, let me look at you
+8794 | reg=civilian,family,worker,rescue|st=friendly,neutral | I'll be damned, company
+8795 | reg=civilian,family,worker,rescue|st=friendly,neutral | My goodness, hello there
+8796 | reg=civilian,family,worker,rescue|st=friendly,neutral | Whoa, hello! Didn't see you!
+8797 | reg=civilian,family,worker,rescue|st=friendly,neutral | Oh! Hi! You startled me
+8798 | reg=civilian,family,worker,rescue|st=friendly,neutral | Hey there, stranger, don't mind us
+8799 | reg=civilian,family,worker,rescue|st=friendly,neutral | Whatever time it is, hello
+8800 | reg=civilian,family,worker,rescue|st=friendly,neutral | Excuse me, coming through, sorry
+8801 | reg=civilian,family,worker,rescue|st=friendly,neutral | Pardon me, which way's the bridge?
+8802 | reg=civilian,family,worker,rescue|st=friendly,neutral | Mind if we cut through here?

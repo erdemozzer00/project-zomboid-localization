@@ -1,0 +1,1587 @@
+{
+  "_paket": "D6c — Sivillerin bulduklarına tepkisi: FOUND_* (mermi, kan, ceset, yiyecek, ilaç, iz, su, silah), CORPSE_FOUND, CONTAINER_SEARCH, LOOT_EMPTY, 515",
+  "_dosya": "RadioData_lua",
+  "satirlar": {
+    "RD_ALifeLine_36d326222b5c1a13": {
+      "tr": "Burada mermi var, iyi bir şey bu, değil mi?"
+    },
+    "RD_ALifeLine_19f4a3e0496952dc": {
+      "tr": "Birkaç fişek buldum, babamın silahına uyar galiba."
+    },
+    "RD_ALifeLine_0f1d7b39550bfe8b": {
+      "tr": "Mermi var, alıyorum."
+    },
+    "RD_ALifeLine_74ed65dd0591efe7": {
+      "tr": "Cephane! Burada cephane var!"
+    },
+    "RD_ALifeLine_7729a1d210338903": {
+      "tr": "Vay be, bunu alırım.",
+      "not": "'Hell, I'll take that' → hafif şaşkın onay; küfür eklenmedi."
+    },
+    "RD_ALifeLine_10cc30d043685848": {
+      "tr": "Mermi, hem de gerçek mermi, ver şunu bana."
+    },
+    "RD_ALifeLine_171be63d1f2c5187": {
+      "tr": "Evet, EVET! Sonunda mermi!"
+    },
+    "RD_ALifeLine_65b4024e1d0e6db3": {
+      "tr": "Ooh, ne güzel manzara, ver bakayım şunu."
+    },
+    "RD_ALifeLine_214922f853572d5c": {
+      "tr": "Birkaç tek tük mermi, olsun, alırım."
+    },
+    "RD_ALifeLine_275aadc5516ba9b3": {
+      "tr": "Cephane, en arkaya sokuşturulmuş, kimse bakmamış."
+    },
+    "RD_ALifeLine_23485e6a323175ae": {
+      "tr": "Hey, buldum, benimkine uyuyor, vallahi uyuyor!",
+      "not": "K35: 'actually' vurgusu 'vallahi' ile."
+    },
+    "RD_ALifeLine_512fea6b76c9c7e4": {
+      "tr": "Mermi çıktı, kim bilirdi, mermi!"
+    },
+    "RD_ALifeLine_0da879f51bb36ead": {
+      "tr": "Cephane. Sanki duam kabul oldu."
+    },
+    "RD_ALifeLine_7f6bfeb7121795ca": {
+      "tr": "Mermiler çekmecede, çorapların altında, klasik."
+    },
+    "RD_ALifeLine_410ed56805ca6ab8": {
+      "tr": "Bir cephane daha. Birini öpesim geldi."
+    },
+    "RD_ALifeLine_398124b95a8cb1e0": {
+      "tr": "Bu beni bir iki gün daha idare eder."
+    },
+    "RD_ALifeLine_5964b3135581b4ba": {
+      "tr": "Bunu kim bıraktıysa, Allah razı olsun, Allah razı olsun.",
+      "not": "'bless them' → Allah razı olsun (K35)."
+    },
+    "RD_ALifeLine_34c3b3755337aa8f": {
+      "tr": "Oh, güzel, bir kereliğine doğru çeşit çıktı."
+    },
+    "RD_ALifeLine_1f45efff4e9cc1e2": {
+      "tr": "Birinin sakladığı yermiş, yokluğunu fark etmez."
+    },
+    "RD_ALifeLine_7f01e9ff4bcec59b": {
+      "tr": "Çok değil ama bir şey, bugünlerde bir şey demek her şey demek."
+    },
+    "RD_ALifeLine_4ee4fcd4102c859d": {
+      "tr": "Mermi, işte bu be, elimde hiçbir şey kalmamıştı.",
+      "not": "'hell yes' → 'işte bu be'; küfür yok."
+    },
+    "RD_ALifeLine_561b40410c66ed57": {
+      "tr": "Dur, dur, bunu bir saymam lazım."
+    },
+    "RD_ALifeLine_203ab99a60858ef7": {
+      "tr": "Ne şanslıyım, ne şanslıyım, taş atmaya başlayacaktım az kalsın."
+    },
+    "RD_ALifeLine_7b4410bc088c890f": {
+      "tr": "Ne olur doğru çap olsun... ne olur, ne olur.",
+      "not": "'right size' → mermi için doğru çap."
+    },
+    "RD_ALifeLine_18dc90367e600183": {
+      "tr": "Mermi! Elimde mermi var, artık bunu yapabilirim."
+    },
+    "RD_ALifeLine_17cdfc3d19bd723c": {
+      "tr": "Çok şükür, çok şükür, çok şükür.",
+      "not": "'thank God' → çok şükür (rehber)."
+    },
+    "RD_ALifeLine_50e74d674381e045": {
+      "tr": "Elimi sürmek istemiyorum ama iyi ki burada."
+    },
+    "RD_ALifeLine_0730eb4c2424c023": {
+      "tr": "Bana doğrultma, doğrultma şunu, ayyy."
+    },
+    "RD_ALifeLine_25270ba663315937": {
+      "tr": "Çok az, yeter mi bu? Hepsine yeter mi?"
+    },
+    "RD_ALifeLine_60c3580f20eff8a0": {
+      "tr": "Ellerim titriyor, sürekli düşürüyorum, pardon, pardon."
+    },
+    "RD_ALifeLine_7a279f051a7eb6ef": {
+      "tr": "Bu, bu doğru çeşit mi? Doğrusunu ben bilmem ki."
+    },
+    "RD_ALifeLine_348e6a4b47e73ff4": {
+      "tr": "Vay canına- mermi! Belki bu işten sağ çıkarız!"
+    },
+    "RD_ALifeLine_18d97252430666a7": {
+      "tr": "Ha! Bunu kim bıraktıysa, çok sağ olsun, çok çok sağ olsun!"
+    },
+    "RD_ALifeLine_221f60b327179b31": {
+      "tr": "Ağlayacağım, cephane buldum diye ağlayacağım, inanabiliyor musun?"
+    },
+    "RD_ALifeLine_47c1f3c20af8e320": {
+      "tr": "Babam hep derdi, yedek kutu olmadan hiçbir yere gitme diye, Allah razı olsun.",
+      "not": "'bless him' → Allah razı olsun (K35); babanın ölü olduğu varsayılmadı ('rahmet' kullanılmadı)."
+    },
+    "RD_ALifeLine_23eb6b355897549c": {
+      "tr": "Bulan alır derler, ben de alıyorum, ha."
+    },
+    "RD_ALifeLine_23c28d7d1dce4f1f": {
+      "tr": "Sayalım, bölüşelim, istifçilik yok."
+    },
+    "RD_ALifeLine_74f5db9f60f9c672": {
+      "tr": "Güzel, artık elimizde seçenek var."
+    },
+    "RD_ALifeLine_4e69bb095334a8f6": {
+      "tr": "Markasına bak, ateş almayan çıkmasın."
+    },
+    "RD_ALifeLine_3c6ffd484448425c": {
+      "tr": "Cephane. Adil bölüşelim."
+    },
+    "RD_ALifeLine_3f26056712906468": {
+      "tr": "Ötekilerle birlikte çantaya, kuru kalsın."
+    },
+    "RD_ALifeLine_71a52ae32609f44e": {
+      "tr": "Pervasızca harcamaya yetmez, dikkatli kullanmaya yeter."
+    },
+    "RD_ALifeLine_0bcd6444322578dc": {
+      "tr": "Dağıtalım, hepsi tek çantada olmasın."
+    },
+    "RD_ALifeLine_6f13403d3c278089": {
+      "tr": "Hey, temmuzda Noel gelmiş, he."
+    },
+    "RD_ALifeLine_49ad72966a21283f": {
+      "tr": "Vay, bir anda ne popüler olmuş kendisi."
+    },
+    "RD_ALifeLine_4531a2e20bb7dd69": {
+      "tr": "Ver, ver, ver, lütfen bile derim."
+    },
+    "RD_ALifeLine_1a8b38eb764635ed": {
+      "tr": "Zavallı biri bunu kullanamadan ölmüş."
+    },
+    "RD_ALifeLine_3fd4fad026874b72": {
+      "tr": "Birinin kullanmasını isterdi herhalde."
+    },
+    "RD_ALifeLine_44b4648f7c977cc6": {
+      "tr": "Bulmayı en çok istediğim şey değildi ama idare eder."
+    },
+    "RD_ALifeLine_574e2e1b1d53f55d": {
+      "tr": "Cephane, bize olur ya da başkasına, ben taşırım."
+    },
+    "RD_ALifeLine_6ebc07d33694a605": {
+      "tr": "Tedavi etmez, karın doyurmaz ama bizi hayatta tutar."
+    },
+    "RD_ALifeLine_65147286631b4af7": {
+      "tr": "Dur bir dakika. Bu hoşuma gitmedi."
+    },
+    "RD_ALifeLine_3ea348d705d3a632": {
+      "tr": "Burada bir şey olmuş, yere bak."
+    },
+    "RD_ALifeLine_77b56a017e6622f8": {
+      "tr": "Basma üstüne, biri yaralanmış."
+    },
+    "RD_ALifeLine_0d21c1442f215a72": {
+      "tr": "Burada biri kanamış. Hem de azıcık değil."
+    },
+    "RD_ALifeLine_38a4a35814126c68": {
+      "tr": "Şuna bak, kan yayılmış, biri sürüklenmiş."
+    },
+    "RD_ALifeLine_61fae08f6a054f48": {
+      "tr": "Taze mi? Yok, kahverengiye dönmüş, bir günlük olabilir."
+    },
+    "RD_ALifeLine_788c2951231e9455": {
+      "tr": "Damlalar şu tarafa gidiyor, görüyor musun?"
+    },
+    "RD_ALifeLine_133fd4a26395a9cc": {
+      "tr": "Burada biri kan kaybından ölmüş, bana sorarsan."
+    },
+    "RD_ALifeLine_522c37b4560285b5": {
+      "tr": "Bir kişi için fazla kan bu, çok fazla."
+    },
+    "RD_ALifeLine_5179101a3c9e1769": {
+      "tr": "İz bu işte, ister takip et ister etme."
+    },
+    "RD_ALifeLine_5162267714aedfca": {
+      "tr": "Yukarıya kadar sıçramış, kim olduysa ayaktaymış."
+    },
+    "RD_ALifeLine_02a92a9f1f235565": {
+      "tr": "Kan, hem de tam kurumamış, bir düşün bakalım."
+    },
+    "RD_ALifeLine_039c727813138dbf": {
+      "tr": "Bu kadar kan kaybından kimse kurtulamaz."
+    },
+    "RD_ALifeLine_7e55cfa4749d3d06": {
+      "tr": "Şuna bak, her yerde, yer yapış yapış."
+    },
+    "RD_ALifeLine_1124a0576f4d2ba7": {
+      "tr": "Kokuyu aldın mı? Demir kokusu, ağzında bozuk para tadı gibi."
+    },
+    "RD_ALifeLine_525bee6c187520af": {
+      "tr": "Biri silmeye çalışmış, yarıda bırakmış."
+    },
+    "RD_ALifeLine_6f7b2a3425ca9371": {
+      "tr": "Kanın içinde bir bot izi var, tek bir tane."
+    },
+    "RD_ALifeLine_0acb1b2d1eb3d87c": {
+      "tr": "Kan... kimin olduğunu düşünmek bile istemiyorum."
+    },
+    "RD_ALifeLine_1b0e350214267fe6": {
+      "tr": "Sürüklenme izleri, görüyor musun, ağır bir şey çekilmiş."
+    },
+    "RD_ALifeLine_5d64154230e39c07": {
+      "tr": "Kan. Ne olduğunu hayal etmek bile istemiyorum."
+    },
+    "RD_ALifeLine_70959133693fe10c": {
+      "tr": "Kapı pervazında kan var, el izi de cabası."
+    },
+    "RD_ALifeLine_729d21c21b9e8afd": {
+      "tr": "Halıda kan, duvarda kan, burada ne olmuş böyle?"
+    },
+    "RD_ALifeLine_725a893519b92bfe": {
+      "tr": "Merdivende kan var, yukarı çıkıyor, aşağı inmiyor."
+    },
+    "RD_ALifeLine_593342d042d523e9": {
+      "tr": "Dur. Bunu bırakan hala yakınlarda olabilir."
+    },
+    "RD_ALifeLine_16549d1608cd670f": {
+      "tr": "Bu kimin? Kimin kanı bu?"
+    },
+    "RD_ALifeLine_17133e215578e244": {
+      "tr": "Hala burada mı? Bunu her kim, her ne yaptıysa hala burada mı?"
+    },
+    "RD_ALifeLine_6480a75a7b1d7a61": {
+      "tr": "Oraya girmiyorum, girmiyorum, GİRMİYORUM."
+    },
+    "RD_ALifeLine_41b5bbe034515b36": {
+      "tr": "İnsan kanı mı bu? Ne olur insan olmadığını söyle."
+    },
+    "RD_ALifeLine_0d320509795286cf": {
+      "tr": "Bakma, bakma, yere bakma."
+    },
+    "RD_ALifeLine_1ac089e950b0c152": {
+      "tr": "Taze, hala ıslak, bunu kim yaptıysa hala yakında!"
+    },
+    "RD_ALifeLine_3cf82a3a68f38404": {
+      "tr": "Gidelim, gidelim, hemen gidelim, ne olur."
+    },
+    "RD_ALifeLine_584d8fac057b2882": {
+      "tr": "İçinde bir ayakkabı var, minicik bir ayakkabı, Allah'ım.",
+      "not": "'oh God' → Allah'ım (K35)."
+    },
+    "RD_ALifeLine_78af32be1a2a1bac": {
+      "tr": "Midem bulanıyor, her, her yerde, tavanda bile."
+    },
+    "RD_ALifeLine_672c8cdc4e7b66a7": {
+      "tr": "Mutfak sanki, sanki bir olay yeri gibi."
+    },
+    "RD_ALifeLine_6cc6a2e44fb44009": {
+      "tr": "Burada biri yaşamış, bak, buzdolabında takvim var."
+    },
+    "RD_ALifeLine_1e0b448c27935092": {
+      "tr": "Aile fotoğrafları, yüzlerin üstünde kan, bu, bu çok acımasızca."
+    },
+    "RD_ALifeLine_237a7b6c0161cf62": {
+      "tr": "Üstünde kan var... dokunma."
+    },
+    "RD_ALifeLine_76685e980d17a0ea": {
+      "tr": "Kan izi var, ileri gitmeden nereye çıktığına bakalım."
+    },
+    "RD_ALifeLine_6e9211fc5e9bb2c7": {
+      "tr": "Kurumuş, bir gün, belki iki günlük, bir şeye geç kalmış değiliz."
+    },
+    "RD_ALifeLine_5ec30e0b2c37aa31": {
+      "tr": "Basma, iz bırakır, izler de onları çeker."
+    },
+    "RD_ALifeLine_49a68f133f50e130": {
+      "tr": "Sürüklenme izi, tek kişi, arkaya doğru; onu her ne götürdüyse orada olabilir."
+    },
+    "RD_ALifeLine_435f844429989e14": {
+      "tr": "Botların için bir bez al, iz bırakma."
+    },
+    "RD_ALifeLine_549f31920d2ea97c": {
+      "tr": "Koyu, neredeyse siyah, eski, burada taze bir şey yok."
+    },
+    "RD_ALifeLine_6c2ed1bb65aa0d77": {
+      "tr": "Eskiden yüzümü buruştururdum, şimdi harita gibi okuyorum."
+    },
+    "RD_ALifeLine_726124061b4344ce": {
+      "tr": "Kan ne olduğunu anlatır, bir de ne olacağını."
+    },
+    "RD_ALifeLine_1f3d56f05822d81c": {
+      "tr": "Artık kimse temizlemiyor, hiç kimse temizlemiyor."
+    },
+    "RD_ALifeLine_091f2d47035f0fc6": {
+      "tr": "Biri zor bir gece geçirmiş, temizlikçi kadın da pek iş bilmiyor."
+    },
+    "RD_ALifeLine_6992c42f0aa793a5": {
+      "tr": "Amcamın verdiği pazar yemeklerini andırıyor."
+    },
+    "RD_ALifeLine_500d05f54b6a041d": {
+      "tr": "Atardamar kanı bu, deseni görüyor musun? Biri çok kan kaybetmiş, hem de çabuk."
+    },
+    "RD_ALifeLine_12e99957374ade52": {
+      "tr": "Kan, turnike, baskı... burada bunları uygulayacak kimse yok."
+    },
+    "RD_ALifeLine_29bedb1244e8fc34": {
+      "tr": "Umarım gitmeden önce bir sargı sarmışlardır, umarım."
+    },
+    "RD_ALifeLine_7e8eb22c31e49b2e": {
+      "tr": "Sıvılardan uzak dur, içinde ne olduğunu bilmiyoruz."
+    },
+    "RD_ALifeLine_6881f07575e996ac": {
+      "tr": "Birikintiye bakılırsa iki litre, belki daha fazla, hoşuma gitmedi."
+    },
+    "RD_ALifeLine_00105b654328fd15": {
+      "tr": "Bu kadar kandan sonra kimse yürüyüp gidemez ama yine de bakacağım."
+    },
+    "RD_ALifeLine_3d12eb353035bc50": {
+      "tr": "Sağ kalan varsa şokta olur, ışıkla dikkatli ol."
+    },
+    "RD_ALifeLine_58479b97588a4358": {
+      "tr": "Karanlıkta kan, yerde yağ gibi simsiyah, tam üstüne bastım."
+    },
+    "RD_ALifeLine_1cff09350126cc92": {
+      "tr": "Karanlıkta kırmızıyı göremiyorum, sadece hissediyorum, yapış yapış."
+    },
+    "RD_ALifeLine_431a75c264adba1b": {
+      "tr": "Ah, hayır, burada biri var, kıpırdamıyor."
+    },
+    "RD_ALifeLine_44cc580c31557283": {
+      "tr": "Bakma, şuna bakma, yürümeye devam et."
+    },
+    "RD_ALifeLine_17b1a6c358b64efb": {
+      "tr": "Bir ceset, birinin annesi, birinin oğlu."
+    },
+    "RD_ALifeLine_595dd0a87cd7e236": {
+      "tr": "Bu haftadan önce hiç ölü insan görmemiştim, hiç."
+    },
+    "RD_ALifeLine_2483f45d100125c4": {
+      "tr": "Burada ceset var, biri yatıyor burada."
+    },
+    "RD_ALifeLine_34b19e9b61fbcbe4": {
+      "tr": "Ceset var, henüz dokunma."
+    },
+    "RD_ALifeLine_000f372b378a9ee6": {
+      "tr": "Hay lanet, ölü biri, gerçek bir ölü, yürümeyen cinsten.",
+      "not": "'Oh hell' → 'Hay lanet', kaynağın hafif sövgüsü kadar."
+    },
+    "RD_ALifeLine_5dd17aa163aa0d6e": {
+      "tr": "Biri kurtulamamış, üstünü örten bile olmamış."
+    },
+    "RD_ALifeLine_2170d9ac3db13c18": {
+      "tr": "Burada ceset var, kokusuna bakılırsa uzun zamandır burada."
+    },
+    "RD_ALifeLine_21ede5e95adaa351": {
+      "tr": "Bak, bakma, bilmem, sadece bir ceset."
+    },
+    "RD_ALifeLine_1b3b15171e25c92c": {
+      "tr": "Bir tane daha, Allah'ım, bir tane daha.",
+      "not": "'God' ünlemi → Allah'ım (K35)."
+    },
+    "RD_ALifeLine_23f2119600f7eadf": {
+      "tr": "Zavallı, gözlerini kapatacak bile kimse olmamış."
+    },
+    "RD_ALifeLine_02ea06035139c728": {
+      "tr": "Ölmüş, ölmüş gitmiş, nefes yok, baktım."
+    },
+    "RD_ALifeLine_5198f6c4738590c4": {
+      "tr": "Kıpırdamıyor, nefes almıyor, uyuyormuş gibi yatıyor."
+    },
+    "RD_ALifeLine_4fcc770025112442": {
+      "tr": "Orada yatıyor, sanki bir anda durmuş gibi."
+    },
+    "RD_ALifeLine_23b55de86fed289c": {
+      "tr": "Kim olduğunu bilmem ama koşuyormuş, nasıl düştüğüne bak."
+    },
+    "RD_ALifeLine_434a4c5c42441995": {
+      "tr": "Taze mi? Hayır, taze değil, sorup durma."
+    },
+    "RD_ALifeLine_4fbd69790d982e69": {
+      "tr": "Biri bir ara üstünü battaniyeyle örtmüş, rüzgar uçurmuş."
+    },
+    "RD_ALifeLine_790f2bde13d02e4f": {
+      "tr": "Oturup pes etmiş gibi, tam burada."
+    },
+    "RD_ALifeLine_39b9d2170fa5c11f": {
+      "tr": "Ceplerine bak, biri ceplerine baksın."
+    },
+    "RD_ALifeLine_15b0769e0227c6e4": {
+      "tr": "Dokunulmamış, kimse eşyalarını karıştırmamış."
+    },
+    "RD_ALifeLine_2f813ab94c5c7742": {
+      "tr": "Çoktan karıştırılmış, biri bizden önce gelmiş."
+    },
+    "RD_ALifeLine_3430d227245200a7": {
+      "tr": "Bu sıcakta iki gün olmuş, belki üç."
+    },
+    "RD_ALifeLine_50936a6a0f65042d": {
+      "tr": "Sinekler başlamış bile, kahretsin, sinekler bile."
+    },
+    "RD_ALifeLine_1ca4cc4e07881ed7": {
+      "tr": "Aman Allah'ım, yerde biri var, bir İNSAN!",
+      "not": "'Oh my God' → Aman Allah'ım (K35)."
+    },
+    "RD_ALifeLine_6bde374274c69ee8": {
+      "tr": "Bu- bu bir- ölmüş mü? ÖLMÜŞ MÜ?"
+    },
+    "RD_ALifeLine_5d489734406b5e46": {
+      "tr": "Bakma, bakma, ben baktım, bakmamalıydım."
+    },
+    "RD_ALifeLine_68dc1a043a24b858": {
+      "tr": "Hiç, hiç kıpırdamıyor, neden hiç kıpırdamıyor?"
+    },
+    "RD_ALifeLine_58d0658c013e230f": {
+      "tr": "Burada duramam, buna yakın duramam, özür dilerim, çok özür dilerim."
+    },
+    "RD_ALifeLine_6cc80d1d16991bd1": {
+      "tr": "Kalkacak mı? Kalkacak mı şimdi? Kalkıyor mu bunlar?"
+    },
+    "RD_ALifeLine_1ba8ca82409d48f0": {
+      "tr": "Biri bir şey yapmalı, yapmalıyız, onları öyle bırakamayız."
+    },
+    "RD_ALifeLine_2eaef55d27dcd235": {
+      "tr": "Basma- ah Allah'ım, elinin üstüne bastım.",
+      "not": "'oh God' → ah Allah'ım (K35)."
+    },
+    "RD_ALifeLine_6d809f387acf71b9": {
+      "tr": "Yarabbi... birinin üstünü örtmesi lazım.",
+      "not": "'Jesus' ünlemi → Yarabbi (K35)."
+    },
+    "RD_ALifeLine_1622d43c56a2898a": {
+      "tr": "Ayakkabılarına bak, en güzel ayakkabılarını giymiş."
+    },
+    "RD_ALifeLine_1cfde28269b512d8": {
+      "tr": "Ne olur ne olmaz, kafasına sık, sık şunu."
+    },
+    "RD_ALifeLine_7f3c1b454a87338c": {
+      "tr": "Birinin annesi olduğunu düşünmeden edemiyorum."
+    },
+    "RD_ALifeLine_54d43aa10d5f920d": {
+      "tr": "Ya ölmediyse, ya sadece, sadece uyuyorsa?"
+    },
+    "RD_ALifeLine_1e13c2a025f62df7": {
+      "tr": "Kusacağım, bana bir saniye ver, bir saniye."
+    },
+    "RD_ALifeLine_0e05565110c7c023": {
+      "tr": "Şuna bak... Allah'ım, bakamıyorum.",
+      "not": "'God' ünlemi → Allah'ım (K35)."
+    },
+    "RD_ALifeLine_26e1cb417f0ceba8": {
+      "tr": "Yüzüğü hala parmağında, birisi onu sevmiş."
+    },
+    "RD_ALifeLine_7f1393fb2b6fdca9": {
+      "tr": "Biri dışarıda onu arıyordur, o ise burada."
+    },
+    "RD_ALifeLine_59a1971377083234": {
+      "tr": "Bu bir kilise elbisesi, kiliseye gidiyormuş, hem de bir cuma günü."
+    },
+    "RD_ALifeLine_00a95db51174dc32": {
+      "tr": "Beslenme çantası hemen şurada, kim beslenme çantasıyla ölür ki?"
+    },
+    "RD_ALifeLine_75013750019c4451": {
+      "tr": "Her kimsen, çok üzgünüm, kimse böyle ölmemeli."
+    },
+    "RD_ALifeLine_0d56295d76fa4c76": {
+      "tr": "Biri üstünü örtsün, lütfen, biri örtsün."
+    },
+    "RD_ALifeLine_4a53d71451e13dfb": {
+      "tr": "Kafası açık mı diye bak, değilse gereğini yap."
+    },
+    "RD_ALifeLine_77b604500e242650": {
+      "tr": "Ceset, göze çarpan yara yok, bırakmadan önce bir bak."
+    },
+    "RD_ALifeLine_708fab46145c5e49": {
+      "tr": "Kolunda ısırık var... nasıl biteceğini biliyorsun."
+    },
+    "RD_ALifeLine_2d3d8dbb51336050": {
+      "tr": "Ölmüş, öleli de epey olmuş, geçelim, oyalanmanın anlamı yok."
+    },
+    "RD_ALifeLine_564c539e50d1642d": {
+      "tr": "Çantasını al, ona artık lazım değil ama önce teşekkür et."
+    },
+    "RD_ALifeLine_2e7cd95a691c0bb6": {
+      "tr": "Botlarına bak, benimkilerden iyi, üzücü değil mi?"
+    },
+    "RD_ALifeLine_21b408e4557254bf": {
+      "tr": "Eldivensiz dokunma, çıplak elle dokunma, asla."
+    },
+    "RD_ALifeLine_22a8ee7747ab53fd": {
+      "tr": "Günleri say, dikkatliymiş, en azından altı gün dayanmış."
+    },
+    "RD_ALifeLine_36d554f352ddb64c": {
+      "tr": "Ölüm sebebi bizi ilgilendirmez, bilmemize gerek yok."
+    },
+    "RD_ALifeLine_7dd868b855e35011": {
+      "tr": "Birinin sofrasında bir boş sandalye daha."
+    },
+    "RD_ALifeLine_6aac54f959947c37": {
+      "tr": "Cesetler artık beni rahatsız etmiyor, beni rahatsız eden de bu."
+    },
+    "RD_ALifeLine_657866303a46fa41": {
+      "tr": "Eskiden ağlardım, şimdi sadece ayakkabılarına bakıyorum."
+    },
+    "RD_ALifeLine_39f571c816512073": {
+      "tr": "Hiç olmazsa sıcaktan şikayet etmiyor, bu da bir şey, he."
+    },
+    "RD_ALifeLine_5e677d7477dfa476": {
+      "tr": "Sırayı atlamanın bir yolu bu herhalde."
+    },
+    "RD_ALifeLine_2f2c0df80d3eb356": {
+      "tr": "Kusura bakma dostum, keşke bir battaniyem olsa."
+    },
+    "RD_ALifeLine_1a46399e2869a01e": {
+      "tr": "Ceset- geri çekil, bakayım, ben bakarım."
+    },
+    "RD_ALifeLine_34c9af6f0be7bb2d": {
+      "tr": "Nabız yok, nefes yok, ölümü tespit ediyorum, saat kaç?"
+    },
+    "RD_ALifeLine_545afc205b301587": {
+      "tr": "Isırık var mı bak, saç derisine de bak, çabuk ol."
+    },
+    "RD_ALifeLine_68798507151bd1ab": {
+      "tr": "Cesedi kımıldatma, ceset hala ısırabilir."
+    },
+    "RD_ALifeLine_7ec1a8bc348f52db": {
+      "tr": "Altmış saniye, hepsi bu, dönüşmesi altmış saniye sürüyor."
+    },
+    "RD_ALifeLine_36ea23fc755fc528": {
+      "tr": "Ölü lekeleri saatler olduğunu söylüyor, bir süredir burada."
+    },
+    "RD_ALifeLine_5cc7b10f13e22b20": {
+      "tr": "Onlara yardım edemem, keşke hala yardım edebilsem."
+    },
+    "RD_ALifeLine_0a2c14f73bbfc09c": {
+      "tr": "Acilde daha kötüsünü gördüm ama bir haftada bu kadarını hiç görmedim."
+    },
+    "RD_ALifeLine_2d8e07b97684d1c7": {
+      "tr": "Kalp masajı yapardım, yapardım, bırakmazdım, Allah şahidim olsun.",
+      "not": "'honest to God' → Allah şahidim olsun (K35, rehber örneği)."
+    },
+    "RD_ALifeLine_420a0e49168186ff": {
+      "tr": "Biri saati yazsın, biri yazsın."
+    },
+    "RD_ALifeLine_5a258b3347bb0172": {
+      "tr": "Rabbim, bu ruhu kabul et, kim olursa olsun, ne yaptıysa yapsın.",
+      "not": "Din adamı: Lord → Rabbim (K35)."
+    },
+    "RD_ALifeLine_270fd70b50c03c1c": {
+      "tr": "Bana bir dakika ver, birkaç söz edeyim, elimden gelen en azı bu."
+    },
+    "RD_ALifeLine_68e4b80616bf2175": {
+      "tr": "Huzur bul dostum, şimdi nerede olursan ol, huzur bul."
+    },
+    "RD_ALifeLine_4d2cedd84990446e": {
+      "tr": "Çok gördüm, hiç kolaylaşmıyor, hiç."
+    },
+    "RD_ALifeLine_434d4f1406f8cc5f": {
+      "tr": "Yüzünü ört, yüzünü ört, biz hep böyle yapardık."
+    },
+    "RD_ALifeLine_5fee0e9d18c25ce6": {
+      "tr": "Karanlıkta bir ceset, az kalsın takılıp düşüyordum, az kalsın."
+    },
+    "RD_ALifeLine_5e8c38a96ac10627": {
+      "tr": "Karanlıkta insan üstlerine basana kadar görmüyor."
+    },
+    "RD_ALifeLine_10aa46e113ebd6b3": {
+      "tr": "Güneş altında bir ceset, bulunabilecek en kötü hal bu."
+    },
+    "RD_ALifeLine_19dc39102c01fa91": {
+      "tr": "Ah, yiyecek, çok şükür.",
+      "not": "'thank God' → çok şükür (rehber)."
+    },
+    "RD_ALifeLine_148c9708212ab34f": {
+      "tr": "Şeftali! Şeftali var!"
+    },
+    "RD_ALifeLine_65318bc261cf7069": {
+      "tr": "Yiyecek. Ne bulursak alırız."
+    },
+    "RD_ALifeLine_6d9d9dfa19df93c9": {
+      "tr": "Yiyecek! Burada yiyecek var!"
+    },
+    "RD_ALifeLine_44a48261439a87a4": {
+      "tr": "Gerçek yiyecek, abur cubur değil, gerçek yiyecek."
+    },
+    "RD_ALifeLine_3c28d1b83fa9d4c1": {
+      "tr": "Biri zula bırakmış, hem de güzelinden."
+    },
+    "RD_ALifeLine_2a317a3a7e74ee15": {
+      "tr": "Piyango çıktı, koca bir raf dolusu."
+    },
+    "RD_ALifeLine_0e47e5b60428d132": {
+      "tr": "Kapalı, kuru, mükemmel."
+    },
+    "RD_ALifeLine_07adeb6f24a8be17": {
+      "tr": "Of, çok şükür. Yiyecek bir şey.",
+      "not": "'thank Christ' → çok şükür; Hristiyan ünlemi Türkçede şükürle karşılandı."
+    },
+    "RD_ALifeLine_22b24382687878d8": {
+      "tr": "Bununla takas yapabiliriz, bunu kullanabiliriz, bununla bir şeyler yapabiliriz."
+    },
+    "RD_ALifeLine_4ef249b4646a3b14": {
+      "tr": "Henüz açma, topla, sonra ayıklarız."
+    },
+    "RD_ALifeLine_7e38384c30ed6e52": {
+      "tr": "Azıyla bile uzun gider, idareli tüket."
+    },
+    "RD_ALifeLine_0fa455d4285cdeaf": {
+      "tr": "Bu bizi en az bir iki gün idare eder."
+    },
+    "RD_ALifeLine_76f57d55505e4125": {
+      "tr": "Konserveler ezik ama etiketler sağlam."
+    },
+    "RD_ALifeLine_11c846206ff8a6b4": {
+      "tr": "Bir çanta getir, iki getir, çok var."
+    },
+    "RD_ALifeLine_2719516f629d3831": {
+      "tr": "Bak şu işe, gerçek yiyecek bu."
+    },
+    "RD_ALifeLine_1ec35caa29bc3c76": {
+      "tr": "Bütün bunlar burada duruyor, nasıl olur da kimse almamış?"
+    },
+    "RD_ALifeLine_1fd003562471c343": {
+      "tr": "Hmm, bozulmamış bile, şanslıyız."
+    },
+    "RD_ALifeLine_192f16e528991242": {
+      "tr": "Hey, şuna bak! Tam bir define bu!"
+    },
+    "RD_ALifeLine_273762bf2242d771": {
+      "tr": "Bak ne buldum, bu akşam karnımız doyacak."
+    },
+    "RD_ALifeLine_19050ec432a5f8b0": {
+      "tr": "Ohh, şükürler olsun, şükürler olsun, şükürler olsun."
+    },
+    "RD_ALifeLine_261b898f095efd1f": {
+      "tr": "Çabuk, çabuk, biri gelmeden al şunu."
+    },
+    "RD_ALifeLine_0d5d8e543e876059": {
+      "tr": "Güvenli mi? Sorun var mı? Kötü kokuyor mu? Kokla, kokla bir."
+    },
+    "RD_ALifeLine_3b6156fb6ad0e196": {
+      "tr": "Ses çıkarma, doldur çantaya."
+    },
+    "RD_ALifeLine_033c0ac66ce7097c": {
+      "tr": "Bunu bırakanı öpebilirim."
+    },
+    "RD_ALifeLine_6f02e42f010d2c75": {
+      "tr": "Annem bunu bulduğum için benimle gurur duyardı, ha, ben hiçbir şey bulamam ki."
+    },
+    "RD_ALifeLine_004f480b3117a04f": {
+      "tr": "Altın bulmak gibi, hatta daha iyi, altının tadı güzel değil ki."
+    },
+    "RD_ALifeLine_674ff8835026941c": {
+      "tr": "Ohhh, mucize gibi, salakça güzel bir mucize."
+    },
+    "RD_ALifeLine_04f673881fc92084": {
+      "tr": "Say, payla, bana söylemeden kimse bir şey yemesin."
+    },
+    "RD_ALifeLine_181bcff21a3a5757": {
+      "tr": "Taşıyabildiğimizi alalım, gerisini işaretle."
+    },
+    "RD_ALifeLine_3cc8fcb218ddae02": {
+      "tr": "Her konserveye bak, şişmişse bozulmuş demek."
+    },
+    "RD_ALifeLine_44fd59b5695aaa32": {
+      "tr": "Sonradan gelenlere de bırak, onların da ihtiyacı olacak."
+    },
+    "RD_ALifeLine_6f4caaed20fb8d74": {
+      "tr": "KFC'nin tavuğu değil ama olsun, alırım.",
+      "not": "'the Colonel's' = Kentucky Fried Chicken (Albay Sanders); Türk oyuncunun tanıdığı ad KFC."
+    },
+    "RD_ALifeLine_71096c8b1868d12a": {
+      "tr": "Ninem bu menüyü görse mezarında ters dönerdi, he.",
+      "not": "Mamaw = ninem (D4 kuralı)."
+    },
+    "RD_ALifeLine_23b0b9167fb3d82b": {
+      "tr": "Çocuklar eskiden bunun için kavga ederdi, şimdi öylece duruyor."
+    },
+    "RD_ALifeLine_5e51f691576f044f": {
+      "tr": "Birinin haftalık alışverişiymiş, dönüp almaya hiç gelmemiş."
+    },
+    "RD_ALifeLine_1f00cba36ee20c58": {
+      "tr": "İyi, bu güçsüz olanlara yarar, götür onlara."
+    },
+    "RD_ALifeLine_7c1fd1b471bb6c92": {
+      "tr": "Bölüştürelim, adil olsun, herkese adil."
+    },
+    "RD_ALifeLine_24591e394caa79d8": {
+      "tr": "Bu yiyeceğe, onu bırakan ellere, bir de bulanlara bereket ver.",
+      "not": "Din adamı: kilise dili (K35)."
+    },
+    "RD_ALifeLine_246dba727fbb523c": {
+      "tr": "İlaç! Ninemin ilacı günlerdir yok."
+    },
+    "RD_ALifeLine_3ff635be0a3e6e44": {
+      "tr": "Tıbbi malzeme. Hiç yoktan iyi."
+    },
+    "RD_ALifeLine_2cf975426e3389f3": {
+      "tr": "Doğru ilaç bu mu? Okuyamıyorum."
+    },
+    "RD_ALifeLine_57aac2a80f0a87b7": {
+      "tr": "İlaç! Burada ilaç var!"
+    },
+    "RD_ALifeLine_43ea371f1abb2492": {
+      "tr": "Hap, sargı bezi, bir şeyler, her şey, bak."
+    },
+    "RD_ALifeLine_7bf01f4254af9fcb": {
+      "tr": "İlk yardım, gerçek bir ilk yardım çantası."
+    },
+    "RD_ALifeLine_5c6bd14b06088462": {
+      "tr": "Bu şu an bir tüfekten daha değerli."
+    },
+    "RD_ALifeLine_0d31e84b48f07dbe": {
+      "tr": "Tıbbi malzeme! Dikkat, düşürme!"
+    },
+    "RD_ALifeLine_254122502aeadde2": {
+      "tr": "Hey, burada koca bir dolap dolusu var."
+    },
+    "RD_ALifeLine_2aa45aec30578d98": {
+      "tr": "Birinin eczanesi, ya da geriye kalanı."
+    },
+    "RD_ALifeLine_1777cbdb73e7fbaa": {
+      "tr": "İlaçlar, kimse dokunmamış, inanılmaz."
+    },
+    "RD_ALifeLine_3f579b0b1cfae3ed": {
+      "tr": "Bu birinin hayatını kurtarabilir, burayı işaretle."
+    },
+    "RD_ALifeLine_0c1d63981c915aba": {
+      "tr": "Etiketlere bak, dikkat, dikkat, yarısını tanımıyorum."
+    },
+    "RD_ALifeLine_635791b630e7c01a": {
+      "tr": "Antiseptik, gazlı bez, bant, evet, evet, EVET!"
+    },
+    "RD_ALifeLine_60cb880d5a764fc5": {
+      "tr": "Ağrı kesici, aleluya, ağrı kesici."
+    },
+    "RD_ALifeLine_5cdce878486d6bf3": {
+      "tr": "Çok değil ama bir saat önceki halimizden çok."
+    },
+    "RD_ALifeLine_277319b750349667": {
+      "tr": "Biri bir şey olur diye stok yapmış, ama gerekmemiş."
+    },
+    "RD_ALifeLine_6d30a62a73a5b4f9": {
+      "tr": "Hepsini al, hiç ağırlığı yok ama her şeye bedel."
+    },
+    "RD_ALifeLine_7165bff57f4db40a": {
+      "tr": "Tıbbi malzeme. Kullanılabilir mi diye bir bakmak lazım."
+    },
+    "RD_ALifeLine_1175e81d7ffbde83": {
+      "tr": "Çabuk kap, başkası da isteyecek."
+    },
+    "RD_ALifeLine_3ac851a129428961": {
+      "tr": "Sonunda, bugün bir şey yolunda gitti."
+    },
+    "RD_ALifeLine_127ed37805bfaf03": {
+      "tr": "Çok şükür, çok şükür, artık ona yardım edebiliriz, değil mi? Edebiliriz, değil mi?",
+      "not": "'thank God' → çok şükür."
+    },
+    "RD_ALifeLine_07a11bc24b29b78d": {
+      "tr": "Bu doğru çeşit mi? Doğrusunu bilmiyorum, bununla ne yapacağım?"
+    },
+    "RD_ALifeLine_1d0224d53d260de5": {
+      "tr": "Dökme, dökme, ellerim, titremeyin artık."
+    },
+    "RD_ALifeLine_2c80fd366386ebd2": {
+      "tr": "Ben hemşire değilim, değilim, sadece korkuyorum."
+    },
+    "RD_ALifeLine_0d0d5dc46d167b84": {
+      "tr": "Yanlış etiketi okuyup da birini öldürürsem, ben buna-"
+    },
+    "RD_ALifeLine_7e628a7b246445e9": {
+      "tr": "Çok şükür. Bu işe yarayabilir."
+    },
+    "RD_ALifeLine_3303206633b01fc0": {
+      "tr": "Artık onu iyileştirebiliriz, gerçekten, belki iyi olur."
+    },
+    "RD_ALifeLine_58ad901f2c99af79": {
+      "tr": "Ohhh, bunu buldum diye rahatlamaktan ağlayacağım."
+    },
+    "RD_ALifeLine_6c61324f38ed995a": {
+      "tr": "Böl, yarısını acil durumlar için sakla, yarısını ihtiyacı olana ver."
+    },
+    "RD_ALifeLine_11849bfa5e72ce7d": {
+      "tr": "Tarihlere bak, iki kere bak, süresi geçmiş olan hiç olmamasından kötü."
+    },
+    "RD_ALifeLine_31d7e9c93d86d1ad": {
+      "tr": "İhtiyacımızdan fazlasını alma, başkasının da ihtiyacı olabilir."
+    },
+    "RD_ALifeLine_3b14bba33187f945": {
+      "tr": "Kuru ve güneşten uzak tut, çantayı işaretle."
+    },
+    "RD_ALifeLine_092f2c393f62098c": {
+      "tr": "Belki birine yarar. Bu da bir şey."
+    },
+    "RD_ALifeLine_7ebbbd034f97193a": {
+      "tr": "Keşke bunu bir hafta önce bulsaydım, keşke salı günü bulsaydım."
+    },
+    "RD_ALifeLine_45d821787b47569d": {
+      "tr": "Eczane! Sonunda tam benlik alışveriş, he."
+    },
+    "RD_ALifeLine_7fcaaab7125ebf80": {
+      "tr": "Doktor emri: şundan iki tane al, sabah beni ara, ha."
+    },
+    "RD_ALifeLine_6a1acf0c11736b6e": {
+      "tr": "Sonunda, elimde işe yarar bir şey."
+    },
+    "RD_ALifeLine_27c30f0c66212880": {
+      "tr": "Gerçek gazlı bez, gerçek serum, ağlayacağım."
+    },
+    "RD_ALifeLine_42bad95f6f11a7d3": {
+      "tr": "Bununla bir şeyler yapabilirim, gerçekten bir şey yapabilirim."
+    },
+    "RD_ALifeLine_48a423141b7811f2": {
+      "tr": "Steril paketler, bu bir armağan, Allah'ın armağanı.",
+      "not": "'a gift from God' → Allah'ın armağanı (K35)."
+    },
+    "RD_ALifeLine_689ca4895ad2da57": {
+      "tr": "Tıbbi malzeme. Belki birine yarar."
+    },
+    "RD_ALifeLine_38d6d13971b5f9db": {
+      "tr": "Önceliğe göre ayırırım, etiketlerim, benden başka kimse dokunmasın."
+    },
+    "RD_ALifeLine_666bfcd32c85040a": {
+      "tr": "Ağır olanlar için sakla, sıyrıklara harcama."
+    },
+    "RD_ALifeLine_7b718be03cc47963": {
+      "tr": "Tekrar hemşire oldum, bir dakikalığına bile olsa."
+    },
+    "RD_ALifeLine_287afe02084d1c42": {
+      "tr": "Şükürler olsun Rabbim, bu küçük lütuf için sana şükürler.",
+      "not": "Din adamı: Lord → Rabbim (K35)."
+    },
+    "RD_ALifeLine_492bec400c5463cb": {
+      "tr": "Ayak izleri, buradan biri geçmiş."
+    },
+    "RD_ALifeLine_04f0e5b84354ce53": {
+      "tr": "Çamura bak, bot izleri."
+    },
+    "RD_ALifeLine_4dee23b968e4ed5b": {
+      "tr": "İz var, izler var, bak."
+    },
+    "RD_ALifeLine_6074ac3b07dd1e3a": {
+      "tr": "Toprakta ayak izleri, şu tarafa gidiyor."
+    },
+    "RD_ALifeLine_2daf684150c6cf05": {
+      "tr": "Buradan biri geçmiş, çok olmamış."
+    },
+    "RD_ALifeLine_374a56436299e90a": {
+      "tr": "Lastik izi, derin, ağır bir araç."
+    },
+    "RD_ALifeLine_616cc2e51bce9e34": {
+      "tr": "Çok iz var, birkaç kişiden fazla."
+    },
+    "RD_ALifeLine_559f98fd2cd26fe2": {
+      "tr": "İzler binaya gidiyor, geri dönen yok."
+    },
+    "RD_ALifeLine_400370b5789bd915": {
+      "tr": "Aceleyle çıkıp gitmişler gibi."
+    },
+    "RD_ALifeLine_23b38b9a780b7d5c": {
+      "tr": "Sürüklenme izi, ağır bir şey ya da yaralı biri."
+    },
+    "RD_ALifeLine_2a024caf4d10ea34": {
+      "tr": "İzler... buradan biri geçmiş."
+    },
+    "RD_ALifeLine_10983b68275b0733": {
+      "tr": "Tek iz, tek kişi, sol ayağından topallıyor."
+    },
+    "RD_ALifeLine_005a1cc70a23ad56": {
+      "tr": "Çamurlu izler, bunlar taze, kurumuşlar ama taze."
+    },
+    "RD_ALifeLine_1fcda05d516e479c": {
+      "tr": "Toynak izi mi? Burada mı? At mı yani? Yok artık.",
+      "not": "'Hell' ünlem → 'Yok artık' (küfür değil)."
+    },
+    "RD_ALifeLine_25af1f91134e6b38": {
+      "tr": "Biri buradan el arabası sürmüş, tekerlek izlerini görüyor musun?"
+    },
+    "RD_ALifeLine_46eca4252a760adf": {
+      "tr": "Sürünme izleri, bir ayak sürükleniyor, kim olduğunu biliyorsun."
+    },
+    "RD_ALifeLine_7ad8a25e340066af": {
+      "tr": "Çimen ezilmiş, birkaç saatlik."
+    },
+    "RD_ALifeLine_0bb3ef9d6fa411de": {
+      "tr": "Bot izleri, askeri taban, bu deseni tanıyorum."
+    },
+    "RD_ALifeLine_286c299e6e8662fd": {
+      "tr": "Çıplak ayak, kim olduğunu bilmem ama çıplak ayakmış."
+    },
+    "RD_ALifeLine_1dc558ad12795ed2": {
+      "tr": "İzler, ah Allah'ım, hala yakınlar mı? Yakında mı?",
+      "not": "'oh God' → ah Allah'ım."
+    },
+    "RD_ALifeLine_276189dc65b80520": {
+      "tr": "Bunlar onlarınki mi? Bu bir, bir ölünün izi mi?"
+    },
+    "RD_ALifeLine_795d86fe0f68be8c": {
+      "tr": "Buraya biri gelmiş, biri bizi izliyor!"
+    },
+    "RD_ALifeLine_298249a938663e69": {
+      "tr": "Hangi yöne gittiler? Hangi yöne?? Söyle hangi yöne!"
+    },
+    "RD_ALifeLine_48b61afa6d65050d": {
+      "tr": "Tam kapıya gidiyor, TAM kapıya!"
+    },
+    "RD_ALifeLine_5c14c70325110421": {
+      "tr": "Buradan biri geçmiş... demek ki dışarıda bizim gibiler daha var."
+    },
+    "RD_ALifeLine_277fe63e76db181d": {
+      "tr": "Şuna bak, başka hayatta kalanlar, başka insanlar, gerçekten."
+    },
+    "RD_ALifeLine_3e7fd9b10de33982": {
+      "tr": "Ayak izleri, kuzeye gidiyor, belki orada bir şey vardır."
+    },
+    "RD_ALifeLine_255944f0302771ae": {
+      "tr": "İki çift iz, biri daha ağır, bir şey taşıyor."
+    },
+    "RD_ALifeLine_2f62009966fc0a34": {
+      "tr": "Bunlar bir günlük, geri dönüp bize gelmezler."
+    },
+    "RD_ALifeLine_7f43b34a3b318c2d": {
+      "tr": "İz. Bundan fazlasını söyleyemem."
+    },
+    "RD_ALifeLine_1b78031726cca1fd": {
+      "tr": "Peşlerine mi düşsek, yoksa uzak mı dursak? Mesele bu."
+    },
+    "RD_ALifeLine_229f5b446cc51cce": {
+      "tr": "Bot, erkek botu, 43 ya da 44 numara, aceleyle yürümüş.",
+      "not": "Ölçü: ABD ayakkabı numarası 10-11 → 43-44 numara."
+    },
+    "RD_ALifeLine_79ab664c0f7d8460": {
+      "tr": "Birden fazla iz var... başka bir şey söylemek zor."
+    },
+    "RD_ALifeLine_3a675a3f06478b57": {
+      "tr": "İzler burada bitiyor, sonra yukarı çıkmışlar, çatılara bak."
+    },
+    "RD_ALifeLine_6c1b72811cb5510e": {
+      "tr": "Bigfoot'a benziyor, tek fark topallıyor."
+    },
+    "RD_ALifeLine_1d9206507382089b": {
+      "tr": "Pek sinsi sayılmaz, değil mi, he."
+    },
+    "RD_ALifeLine_7ab795db68cfcbf3": {
+      "tr": "Kim olduklarını, nereye gittiklerini merak ediyorum."
+    },
+    "RD_ALifeLine_3f35f5533672a073": {
+      "tr": "İzler... biri acele etmiş."
+    },
+    "RD_ALifeLine_2a42e8161914989d": {
+      "tr": "Dışarıda biri yürüyor, tıpkı bizim gibi, tıpkı bizim gibi."
+    },
+    "RD_ALifeLine_526a485372d6dc9b": {
+      "tr": "İzler, adımlar düzensiz, biri yaralı, takip etmeliyiz."
+    },
+    "RD_ALifeLine_1b9d69fc7e78a097": {
+      "tr": "İzlerde kan var, biri yaralı, bakıma ihtiyacı var."
+    },
+    "RD_ALifeLine_429aef783796f8f3": {
+      "tr": "İzler yola çıkıyor, sonra ayrılıyor, anlamanın yolu yok."
+    },
+    "RD_ALifeLine_6e15f7c16fd5a839": {
+      "tr": "Karanlıkta izleri okumak zor, gün ışığı ve iyi bir el feneri lazım."
+    },
+    "RD_ALifeLine_0df416131fa11994": {
+      "tr": "Işık iyi, okuması kolay, şükür ki güneş var."
+    },
+    "RD_ALifeLine_798c783b447a603b": {
+      "tr": "Su! Depoda hala su var!"
+    },
+    "RD_ALifeLine_3909ef8e68721b3e": {
+      "tr": "Su, sonunda. İçmeden önce bir bak."
+    },
+    "RD_ALifeLine_3a867b5201eac4e1": {
+      "tr": "Yağmur fıçısı- dolu, Allah bu eve bereket versin.",
+      "not": "'bless this house' → Allah bereket versin (K35)."
+    },
+    "RD_ALifeLine_235740bd2b937e2a": {
+      "tr": "Su! Temiz mi diye emin olalım."
+    },
+    "RD_ALifeLine_46cde55363f5a50b": {
+      "tr": "Bak, koca bir bidon dolusu."
+    },
+    "RD_ALifeLine_48bd6fdc585e2d12": {
+      "tr": "Temiz mi? Temiz görünüyor, kokla."
+    },
+    "RD_ALifeLine_122c7a1b4eb476f5": {
+      "tr": "İyi, buradan doldurabiliriz."
+    },
+    "RD_ALifeLine_4d56380517ef5ff7": {
+      "tr": "Hala çalışan bir musluk mu? Çalışan bir musluk MU?"
+    },
+    "RD_ALifeLine_55b8d4a36b99f10d": {
+      "tr": "Şişelenmiş, hala mühürlü, bu bir hediye."
+    },
+    "RD_ALifeLine_373d362656a27a49": {
+      "tr": "Arkada bir kuyu var galiba, bir bak."
+    },
+    "RD_ALifeLine_4bee47c27025b5dd": {
+      "tr": "Su. Tatmadan önce bir kontrol et."
+    },
+    "RD_ALifeLine_172d7d7d41e2ade6": {
+      "tr": "Bu altından değerli, söylüyorum sana."
+    },
+    "RD_ALifeLine_4090e6de697f503f": {
+      "tr": "Kaynatabiliriz, kullanabiliriz, taşıyabiliriz."
+    },
+    "RD_ALifeLine_7c45abcd41719a1b": {
+      "tr": "Kapak kapalı kalsın, içine toprak kaçırmam."
+    },
+    "RD_ALifeLine_5d329061216a6bca": {
+      "tr": "Su ha, bak sen. Bir iyi habere ihtiyacım vardı."
+    },
+    "RD_ALifeLine_67fb870818b7c800": {
+      "tr": "Su, sadece su birikintisi değil, gerçek su."
+    },
+    "RD_ALifeLine_2d3e70d705569990": {
+      "tr": "Fıçı fıçı su var, yağmurda, biriktirebiliriz."
+    },
+    "RD_ALifeLine_5dd7efb42c3076b8": {
+      "tr": "Güvenli mi? Ya zehirliyse? Ya hastalık bulaşmışsa?"
+    },
+    "RD_ALifeLine_662cebd42b4305f4": {
+      "tr": "Henüz içme, önce kaynat!"
+    },
+    "RD_ALifeLine_75df313f6ce9c40d": {
+      "tr": "Temiz olsun, Allah'ım, ne olur."
+    },
+    "RD_ALifeLine_227d895353010320": {
+      "tr": "Çok şükür... ağlayabilirim."
+    },
+    "RD_ALifeLine_316e3be303b8f0c7": {
+      "tr": "Bugün gördüğüm en güzel şey bu, bir musluk."
+    },
+    "RD_ALifeLine_4a63f25e4b4632d1": {
+      "tr": "Su. Fırsatı kaçırmayalım."
+    },
+    "RD_ALifeLine_568f076a1a694a85": {
+      "tr": "Kaynat, hep kaynat, istisna yok."
+    },
+    "RD_ALifeLine_2a01ab64693b0c80": {
+      "tr": "Yüzen bir şey var mı bak, bezden süz."
+    },
+    "RD_ALifeLine_6dbb9ecb4d1906f5": {
+      "tr": "Burayı işaretle, geri döneceğiz."
+    },
+    "RD_ALifeLine_17abaf2f2299377e": {
+      "tr": "Hey, akan su, lüks olduğunu kim bilirdi, he."
+    },
+    "RD_ALifeLine_77f411b04e7c2493": {
+      "tr": "Ohio Nehri bundan daha iyi görünüyor ama olsun, alırız."
+    },
+    "RD_ALifeLine_4a942cb66f84d6ca": {
+      "tr": "Temiz su ilaçtır, bunu aklında tut."
+    },
+    "RD_ALifeLine_59ef073c7e618441": {
+      "tr": "Bununla yaraları yıkayabiliriz, sonunda."
+    },
+    "RD_ALifeLine_6d535c8a5fa9e4c4": {
+      "tr": "Suda güneş, ellerde soğuk, güzel bir his."
+    },
+    "RD_ALifeLine_4134532232e1a0b1": {
+      "tr": "Bir silah var. Hakkında pek bir şey bilmem."
+    },
+    "RD_ALifeLine_2e027d17418108e1": {
+      "tr": "Beyzbol sopası! Alıyorum."
+    },
+    "RD_ALifeLine_39325adf50e3ed2f": {
+      "tr": "Bunu kullanmak güvenli mi? Ne yaptığımı bilmiyorum."
+    },
+    "RD_ALifeLine_57c7f03f5ad5fbd4": {
+      "tr": "Silah! Bak, silah!"
+    },
+    "RD_ALifeLine_30f1edcc12c4f4c6": {
+      "tr": "Bu- bu gerçek mi?"
+    },
+    "RD_ALifeLine_25d650e1745c2511": {
+      "tr": "Hop, dur bir dakika, gördün mü şunu? Şurada?"
+    },
+    "RD_ALifeLine_3fd6f72978c8eb1d": {
+      "tr": "Hey, bu iş görür, hem de çok iyi görür."
+    },
+    "RD_ALifeLine_74652c765234aa16": {
+      "tr": "Bu güzelmiş, gerçek, oyuncak değil."
+    },
+    "RD_ALifeLine_05076cc25420f997": {
+      "tr": "Şuna bak, biri iyi bakmış."
+    },
+    "RD_ALifeLine_46ef1ddc049f66c3": {
+      "tr": "Çok şükür, yumruklarımdan bıkmaya başlamıştım."
+    },
+    "RD_ALifeLine_559f6ddd6123914d": {
+      "tr": "Hala iyi durumda, neredeyse hiç kullanılmamış."
+    },
+    "RD_ALifeLine_2e2c489e0eeefd8a": {
+      "tr": "Biri bunu aceleyle bırakıp gitmiş."
+    },
+    "RD_ALifeLine_405c68b16af83cd9": {
+      "tr": "Ağır, sağlam, hoşuma gitti."
+    },
+    "RD_ALifeLine_0f39205b731bf907": {
+      "tr": "Vurmak ya da ateş etmek için bir şey buldum, belki ikisi için de."
+    },
+    "RD_ALifeLine_5bcaa4f4289587e5": {
+      "tr": "Hey, bir silah, GERÇEK bir silah, sonunda."
+    },
+    "RD_ALifeLine_542d91620c62fc26": {
+      "tr": "Oh, bu işe yarar, hem de çok yarar."
+    },
+    "RD_ALifeLine_40a53826533f5b49": {
+      "tr": "Taşıdığımdan iyi, değiştireyim."
+    },
+    "RD_ALifeLine_48695a931ce9baa0": {
+      "tr": "Tozlu ama pas yok, biri iyi bakmış buna."
+    },
+    "RD_ALifeLine_6de206dc68a3304e": {
+      "tr": "Bu artık benim, bulan alır."
+    },
+    "RD_ALifeLine_23fc475d1256dfeb": {
+      "tr": "Bu hafta başıma gelen ilk iyi şey."
+    },
+    "RD_ALifeLine_2d3c86f927f2c895": {
+      "tr": "Mükemmel olmayabilir ama elimdekinden iyi."
+    },
+    "RD_ALifeLine_194cb9a632123c61": {
+      "tr": "Dur, bir bak, öyle hemen kapma."
+    },
+    "RD_ALifeLine_13c0ba7b0894f6a2": {
+      "tr": "Biri bunu düşürmüş ve dönüp almamış, bunu aklında tut."
+    },
+    "RD_ALifeLine_60d8f59655558898": {
+      "tr": "İstemiyorum, istemiyorum ama alacağım, alacağım."
+    },
+    "RD_ALifeLine_0e11ba862be1b28a": {
+      "tr": "Çok ağır, neden bu kadar ağır?"
+    },
+    "RD_ALifeLine_03b8b11263ce5b43": {
+      "tr": "Güvenli mi bu? Güvenli mi? Nereden bileceğim?!"
+    },
+    "RD_ALifeLine_454809f240a4fbb3": {
+      "tr": "Tutarken bile ellerim titriyor, bak şunlara."
+    },
+    "RD_ALifeLine_77cc4d134dfd6932": {
+      "tr": "Bu bir şey, bunu kullanabilirim, ben-"
+    },
+    "RD_ALifeLine_0b29049c190678fe": {
+      "tr": "Bunu bir, bir insana karşı kullanmam gerekirse, bilmem."
+    },
+    "RD_ALifeLine_59c6ec9f2ae28897": {
+      "tr": "Al, al şunu, ben kendime zarar veririm."
+    },
+    "RD_ALifeLine_03d84bda417b4ffb": {
+      "tr": "Aman Allah'ım, artık çaresiz değiliz, şuna bak!",
+      "not": "'Oh my God' → Aman Allah'ım (K35)."
+    },
+    "RD_ALifeLine_0ff5cad9757dbecb": {
+      "tr": "Hayatımın en güzel günü bu, ciddiyim, bu da ne kadar üzücü bir şey."
+    },
+    "RD_ALifeLine_6bc1667f34e9d44e": {
+      "tr": "Belki artık kendimizi gerçekten koruyabiliriz."
+    },
+    "RD_ALifeLine_1fd033da50bc4c90": {
+      "tr": "Bir bak, iki kere bak, temizliği sonra yaparız."
+    },
+    "RD_ALifeLine_480aa3a17effbed9": {
+      "tr": "Benim değil ama taşırım, birinin işine yarayabilir."
+    },
+    "RD_ALifeLine_6686464971accae3": {
+      "tr": "İyi ağırlık, dengeli, beğendim."
+    },
+    "RD_ALifeLine_4c565d79586c80e2": {
+      "tr": "Sallama onu, birini yaralarsın, büyük ihtimalle kendini."
+    },
+    "RD_ALifeLine_6ca19d5a424a6e13": {
+      "tr": "Hiç yoktan iyi, bu devirde bir şey için söyleyebileceğim en iyi söz bu."
+    },
+    "RD_ALifeLine_7cd1cf493270ae92": {
+      "tr": "Ölülere karşı idare eder, yaşayanlara karşı pek emin değilim."
+    },
+    "RD_ALifeLine_01766d50734f7014": {
+      "tr": "Şu halime bak, tam bir kahraman, Allah yardımcımız olsun.",
+      "not": "'God help us' → Allah yardımcımız olsun (K35)."
+    },
+    "RD_ALifeLine_6f96ab205c784b47": {
+      "tr": "Harika, artık tehlikeliyim, Allah hepimize yardım etsin.",
+      "not": "'God help us all' → K35."
+    },
+    "RD_ALifeLine_39f983d578fd049a": {
+      "tr": "Bayan Dobbins'in kanişi beni kovalarken bu nerelerdeydi?"
+    },
+    "RD_ALifeLine_42b50e6c05a4954b": {
+      "tr": "Biri bunu kullanamadan ölmüş, düşünmemeye çalışıyorum."
+    },
+    "RD_ALifeLine_2e3aa036372f6f00": {
+      "tr": "Ne işe yaradığı yüzünden ağır."
+    },
+    "RD_ALifeLine_0063c3fe5e2a4f73": {
+      "tr": "Sevmiyorum ama taşırım, korumaya çalıştığım insanlar için."
+    },
+    "RD_ALifeLine_57797f7e3a939ae6": {
+      "tr": "Bunu nasıl kullanacağını bilen birine ver, ben kendime zarar veririm."
+    },
+    "RD_ALifeLine_5ab958cb7082be8f": {
+      "tr": "Ne olur bunu hiç kullanmak zorunda kalmayayım."
+    },
+    "RD_ALifeLine_01f30d120d6410cb": {
+      "tr": "Alet alettir, ben bir şeyleri kırmayı bilirim, bunu kullanmayı da öğrenirim."
+    },
+    "RD_ALifeLine_122ac4dd1380828c": {
+      "tr": "Beni bağışla, alıyorum, cemaat için, yalnızca cemaat için.",
+      "not": "Din adamı: 'flock' → cemaat."
+    },
+    "RD_ALifeLine_739d8e065a071dd6": {
+      "tr": "Karanlıkta elde soğuk duruyor, iyi geliyor, bir dost gibi."
+    },
+    "RD_ALifeLine_3455444a48cbe912": {
+      "tr": "Ne olur içinde bir şey olsun."
+    },
+    "RD_ALifeLine_225b175b084fc4dd": {
+      "tr": "Bir bakayım- bir saniye."
+    },
+    "RD_ALifeLine_6cf8b5093885bdad": {
+      "tr": "Bu hırsızlık mı? Artık fark etmez."
+    },
+    "RD_ALifeLine_6b3b01da02f28785": {
+      "tr": "Bakalım burada ne var."
+    },
+    "RD_ALifeLine_6c3309b3795460f3": {
+      "tr": "Dikkat, dikkat, bir şey kırma."
+    },
+    "RD_ALifeLine_589b432b151d2482": {
+      "tr": "Çekmeceler, dolaplar, raflar, çabuk olalım."
+    },
+    "RD_ALifeLine_400defdc4fbcd4bd": {
+      "tr": "Arkada bir şey şangırdıyor, dur bir dakika."
+    },
+    "RD_ALifeLine_6c1aa01c29c90fdf": {
+      "tr": "Karıştır, bir şey olmalı."
+    },
+    "RD_ALifeLine_2257444118ffe127": {
+      "tr": "Her paltonun cebine bak."
+    },
+    "RD_ALifeLine_4354651e76609bf7": {
+      "tr": "Altına bak, altına, insanlar bir şeyleri başka şeylerin altına saklar."
+    },
+    "RD_ALifeLine_61d2d3533b8f4a3d": {
+      "tr": "Hey, hey, bunun çift dibi var, hissettin mi?"
+    },
+    "RD_ALifeLine_79dbcd35585a53e8": {
+      "tr": "Belki kutuların arkasındadır, ışığı tut."
+    },
+    "RD_ALifeLine_79bf98cb21af22c4": {
+      "tr": "Hadi be, aç şunu, açılsana, inatçı şey."
+    },
+    "RD_ALifeLine_5b8e92b45c276a60": {
+      "tr": "Kapağı yavaşça sök, yavaş, yavaş, fazla ses çıkmasın."
+    },
+    "RD_ALifeLine_08af10f13bcbe338": {
+      "tr": "Hepsini dışarı çek, arkasında ne var bakalım."
+    },
+    "RD_ALifeLine_7142a6ae1d8500e2": {
+      "tr": "Bu ağır, bu gerçekten ağır."
+    },
+    "RD_ALifeLine_33169215164cd771": {
+      "tr": "Sandıklar, kutular, çantalar, hepsine bak."
+    },
+    "RD_ALifeLine_66f18371305d05be": {
+      "tr": "Acele etme, ellerin sessiz olsun."
+    },
+    "RD_ALifeLine_27a5e6615008a11a": {
+      "tr": "Çabuk, çabuk, uzun kalamayız."
+    },
+    "RD_ALifeLine_1f04624f3f68b25d": {
+      "tr": "Gelen var mı? Kimse bunu duyuyor mu? Gelen var mı?"
+    },
+    "RD_ALifeLine_584df8a6676da088": {
+      "tr": "Bunları açmaktan nefret ediyorum, içinde ne olduğunu bilmemekten nefret ediyorum."
+    },
+    "RD_ALifeLine_53ad0d7e4390969f": {
+      "tr": "Bir şey kıpırdadı, içeride bir şey KIPIRDADI, yok, çorapmış, çorap."
+    },
+    "RD_ALifeLine_17c3065c16005d4e": {
+      "tr": "Yavaş, her şeyi bulduğumuz gibi yerine koy."
+    },
+    "RD_ALifeLine_4a5d2697353f3b2a": {
+      "tr": "Düzenli, yukarıdan aşağıya, soldan sağa."
+    },
+    "RD_ALifeLine_5aaa9cb700b2aa28": {
+      "tr": "Her şey yerine, ya geri dönersek."
+    },
+    "RD_ALifeLine_72cf2c2b57a94b43": {
+      "tr": "İnsanların iç çamaşırını karıştırıyorum, annem beni bunun için büyütmedi."
+    },
+    "RD_ALifeLine_4a04d8da386d636f": {
+      "tr": "Burada güveç bulursam çekip giderim."
+    },
+    "RD_ALifeLine_2961bc93679c5723": {
+      "tr": "İşe yarar bir şey arıyorum, sargı, antiseptik, her şey."
+    },
+    "RD_ALifeLine_5ca8b70033d4a8e3": {
+      "tr": "Cama dikkat, dikkat, buna ben bakarım."
+    },
+    "RD_ALifeLine_7684abc96f4ade1a": {
+      "tr": "Ceset var. Bakamıyorum."
+    },
+    "RD_ALifeLine_7a4f2e21489593c9": {
+      "tr": "Burada bırakıp gitmişler, kimse gömmemiş."
+    },
+    "RD_ALifeLine_2ba08374119beb6f": {
+      "tr": "Allah merhamet etsin, biri üstünü örtmeli.",
+      "not": "'Lord have mercy' → Allah merhamet etsin (K35)."
+    },
+    "RD_ALifeLine_693e271c1ace88fa": {
+      "tr": "Bu bir ceset mi? Evet, ceset bu."
+    },
+    "RD_ALifeLine_78669de0546b2211": {
+      "tr": "Ölü, kesinlikle ölü, öleli bir süre olmuş."
+    },
+    "RD_ALifeLine_4d34f16559b6e334": {
+      "tr": "Burada ceset var, uzak dur."
+    },
+    "RD_ALifeLine_5f2d514015ab00df": {
+      "tr": "Biri hareketsiz yatıyor, fazla hareketsiz."
+    },
+    "RD_ALifeLine_0368e144601e550c": {
+      "tr": "Ceset, kokusu iyice çıkmış, artık ağzımdan nefes alıyorum."
+    },
+    "RD_ALifeLine_69c58ad968fa660a": {
+      "tr": "Dürtme, kurcalama, bırak öyle kalsın."
+    },
+    "RD_ALifeLine_075182ee071be350": {
+      "tr": "Bu ölü bir adam, ya da adamdan kalanı."
+    },
+    "RD_ALifeLine_098308fc0c333644": {
+      "tr": "Nereye bastığına dikkat et, dikkat."
+    },
+    "RD_ALifeLine_33969f710df696b3": {
+      "tr": "Gitmiş, gitmiş, yapacak bir şey kalmamış."
+    },
+    "RD_ALifeLine_31e80b2647a16f5e": {
+      "tr": "Ceset var. Şimdilik mesafeni koru."
+    },
+    "RD_ALifeLine_48c3e4781fc96a28": {
+      "tr": "Teni grileşmiş, bu iyi değil, hiç iyi değil."
+    },
+    "RD_ALifeLine_2fbf1de53a74585b": {
+      "tr": "Ellerine bak, direnmiş."
+    },
+    "RD_ALifeLine_73b8159d0cc9a379": {
+      "tr": "Gözleri açık, keşke olmasaydı."
+    },
+    "RD_ALifeLine_78efebd34c518df8": {
+      "tr": "Ağzı açık, sanki bir şey söyleyecekmiş gibi."
+    },
+    "RD_ALifeLine_2857b24633f8a1c0": {
+      "tr": "Kim olduysa ayakkabılarını bırakmış, tuhaf."
+    },
+    "RD_ALifeLine_6bd74e157eabf418": {
+      "tr": "Hayır, hayır, hayır, ben oraya girmem, sen gir."
+    },
+    "RD_ALifeLine_5b36494d622c6385": {
+      "tr": "Biz de böyle mi olacağız? Bu mu-"
+    },
+    "RD_ALifeLine_66844d667fc4b5ea": {
+      "tr": "Öylece yatıyor, bir, bir torba gibi, çamaşır torbası gibi."
+    },
+    "RD_ALifeLine_3c6cbf911c7e6d07": {
+      "tr": "Allah'ım- KOKU, Allah'ım şu koku.",
+      "not": "'God' ünlemi → Allah'ım (K35)."
+    },
+    "RD_ALifeLine_109a204262876e52": {
+      "tr": "Tehlikede miyiz? Yanlarında olmak bulaşıcı mı?"
+    },
+    "RD_ALifeLine_1729a9c4609b2797": {
+      "tr": "Buna dokunmam, dokunamam, yapamam."
+    },
+    "RD_ALifeLine_327d00606af6e539": {
+      "tr": "Gözümün önünden gitmiyor yüzü, hep de gitmeyecek."
+    },
+    "RD_ALifeLine_57060bb44af6e214": {
+      "tr": "Ölü mü kalıyorlar? Bu ölü mü kalacak? Ölü kalacağını söyle bana."
+    },
+    "RD_ALifeLine_7f17b9353aed8bc3": {
+      "tr": "Birinin kızıymış, ojesine bak."
+    },
+    "RD_ALifeLine_6dd6e7613a7c7e0b": {
+      "tr": "Akşam yemeğinde biri onu bekliyordur, eminim."
+    },
+    "RD_ALifeLine_388d418024affe79": {
+      "tr": "Bu ceketi tanıyorum sanki, yok, yok tanımıyorum, sadece babamınkine benziyor."
+    },
+    "RD_ALifeLine_65409c5c350d9b31": {
+      "tr": "Elimi tut, bir dakikalığına, bir şeyi tutmam lazım."
+    },
+    "RD_ALifeLine_26d18ea2370c6c18": {
+      "tr": "Gördük, yürü, bakıp durma."
+    },
+    "RD_ALifeLine_3be295f8579cc2a8": {
+      "tr": "Ceset, eski, bırak, devam."
+    },
+    "RD_ALifeLine_7f9d03b20256f337": {
+      "tr": "Kimdi bilmem, artık derdi tasası yok."
+    },
+    "RD_ALifeLine_5ed3b3642638c34b": {
+      "tr": "Alınacak bir şey yok, öğrenilecek bir şey yok, gidelim."
+    },
+    "RD_ALifeLine_18a554bf045cc033": {
+      "tr": "Elini sonra yıkarsın, yüzüne dokunma."
+    },
+    "RD_ALifeLine_60f24a1a52878ccb": {
+      "tr": "Gördüklerimi say, yardım edemediklerimi say, aynı sayı."
+    },
+    "RD_ALifeLine_0eeacd8c06f1ef7b": {
+      "tr": "Garip şey, ölülerden korkmaz oldum, ama ölmeyenlerden korkuyorum."
+    },
+    "RD_ALifeLine_359aae2660d8728f": {
+      "tr": "Bu ilçede bir haftadır kimse kimseyi gömmemiş."
+    },
+    "RD_ALifeLine_2cf2d8147b93b17f": {
+      "tr": "Aldırma, sızıp kalmış sadece, he."
+    },
+    "RD_ALifeLine_68f170a86592b37c": {
+      "tr": "Güzel yer, manzara harika, sessiz komşular."
+    },
+    "RD_ALifeLine_0631113e7fa30b86": {
+      "tr": "Ceset, bakardım ama ona yardım edemem, ancak korumaya çalışabilirim."
+    },
+    "RD_ALifeLine_5494f6195b671ac5": {
+      "tr": "Sıvılara basma, çamaşır suyu varsa getir."
+    },
+    "RD_ALifeLine_5a304487062f6306": {
+      "tr": "Ölüm zamanı, tahminimce, iki üç gün önce, yaz sıcağı acımasız."
+    },
+    "RD_ALifeLine_48c0952d2796254b": {
+      "tr": "Dua edelim, çabucak, burada fazla kalmamalıyız."
+    },
+    "RD_ALifeLine_07a7cb653a55815a": {
+      "tr": "Amin, hoşça kal dostum, seni tanımadığım için üzgünüm."
+    },
+    "RD_ALifeLine_77b515206dec0a71": {
+      "tr": "Gecenin ortasında bir ceset, tüylerim diken diken."
+    },
+    "RD_ALifeLine_5b1117c463423ec0": {
+      "tr": "Karanlık ve bir ölü, içeri dönmek istiyorum."
+    },
+    "RD_ALifeLine_552518154a52cfbd": {
+      "tr": "Burada bir şey yok, biri bizden önce gelmiş."
+    },
+    "RD_ALifeLine_4074d17329e53c4e": {
+      "tr": "Hepsi toplanmış, tek konserve bile kalmamış."
+    },
+    "RD_ALifeLine_5c35118f5d5421b3": {
+      "tr": "Boş, hepsi boş."
+    },
+    "RD_ALifeLine_3798ac3f10cf7c39": {
+      "tr": "Hiçbir şey yok, kahretsin.",
+      "not": "'not a damn thing' → hafif küfür, 'kahretsin'."
+    },
+    "RD_ALifeLine_326e4b1161b065a6": {
+      "tr": "Boş, silip süpürülmüş, biri bizi geçmiş."
+    },
+    "RD_ALifeLine_29e1542e7659e194": {
+      "tr": "Zırnık bile yok, sıfır, hiç."
+    },
+    "RD_ALifeLine_7cd407ee0fc95188": {
+      "tr": "Eh, boşuna gelmişiz."
+    },
+    "RD_ALifeLine_4f2bb09d338e358f": {
+      "tr": "Eğri bir çatal bile yok."
+    },
+    "RD_ALifeLine_26b6864927f1acc4": {
+      "tr": "Temizlenmiş, bomboş."
+    },
+    "RD_ALifeLine_2c0218334c09e951": {
+      "tr": "Yok, burada bir şey yok, uğraşma."
+    },
+    "RD_ALifeLine_6b0c556817ec29b1": {
+      "tr": "Hadi ama, BİR ŞEY olmalı, herhangi bir şey."
+    },
+    "RD_ALifeLine_17143cfd7e551d56": {
+      "tr": "Toz ve ölü bir sinek, bitti gitti."
+    },
+    "RD_ALifeLine_4207be1651d892f7": {
+      "tr": "Pamuk tüyü bile kalmamış."
+    },
+    "RD_ALifeLine_2baa2eaf3e897d54": {
+      "tr": "Biri burayı raf astarına kadar boşaltmış."
+    },
+    "RD_ALifeLine_55debfb778d9abbe": {
+      "tr": "Bunca şey boşuna, o kadar sinsi sinsi gelmemiz BOŞUNA."
+    },
+    "RD_ALifeLine_320e20601b5ede22": {
+      "tr": "Of, çok yaklaşmıştık, çok yaklaşmıştık."
+    },
+    "RD_ALifeLine_3bf47d1b508e89ed": {
+      "tr": "Bomboş, oyuk bir diş gibi."
+    },
+    "RD_ALifeLine_2a82ac2215fcb35e": {
+      "tr": "Tamam, bir şey yok, devam."
+    },
+    "RD_ALifeLine_31e94be17be8cb8b": {
+      "tr": "Zavallı bir düğme bile yok."
+    },
+    "RD_ALifeLine_291d579a76ae6997": {
+      "tr": "Buna yirmi dakika boşa gitti, yirmi dakika."
+    },
+    "RD_ALifeLine_14a9b327137ac83b": {
+      "tr": "Hay sıçayım, hay sıçayım, hay sıçayım, hiçbir şey, yine.",
+      "not": "'Shit' → 'Hay sıçayım' (D1 ölçüsü, kaynak küfürlü)."
+    },
+    "RD_ALifeLine_6437bd1247c727c9": {
+      "tr": "Çekmece boş, dolap boş, buzdolabı bile boş."
+    },
+    "RD_ALifeLine_3bc8e1576ab2a539": {
+      "tr": "Yatak odasında yok, banyoda yok, hiçbir yerde yok."
+    },
+    "RD_ALifeLine_528339a9360bc10b": {
+      "tr": "Eşyalar nerede? Eşya olması lazımdı! Nerede eşyalar?!"
+    },
+    "RD_ALifeLine_7354499a219d0722": {
+      "tr": "Hayır, hayır, hayır, buna ihtiyacımız var, bir şeye İHTİYACIMIZ var."
+    },
+    "RD_ALifeLine_238f04f1716e9ea1": {
+      "tr": "Böyle devam edemem, hep eli boş dönmeye devam edemem."
+    },
+    "RD_ALifeLine_4e0aaad958c7f02a": {
+      "tr": "Şimdi ne olacak? Eli boş dönemeyiz, dönemeyiz."
+    },
+    "RD_ALifeLine_6a3090a501dd8932": {
+      "tr": "Biri buradaydı, biri hala BURADA, dolaba bak."
+    },
+    "RD_ALifeLine_1b2f43d262bf5df8": {
+      "tr": "İnsanların sahip olduğu her şey, sevdiği her şey, hepsi gitmiş."
+    },
+    "RD_ALifeLine_167d29e11f44b239": {
+      "tr": "Biri bebek odasını da temizlemiş, kim yapar bunu?"
+    },
+    "RD_ALifeLine_4d3448e064579be8": {
+      "tr": "Fotoğraflar bile yok, fotoğrafları niye alsınlar ki?"
+    },
+    "RD_ALifeLine_627e5de7735eedcf": {
+      "tr": "Boş diye işaretle, buraya dönmeyelim."
+    },
+    "RD_ALifeLine_6ded19461789b948": {
+      "tr": "Sıradaki ev o zaman, beklemenin anlamı yok."
+    },
+    "RD_ALifeLine_00cce6b36a76aa17": {
+      "tr": "Kişisel alma, koskoca ilçe, başka yerler var."
+    },
+    "RD_ALifeLine_63f0a343151c1141": {
+      "tr": "Tamam, boş, bu da bir bilgi."
+    },
+    "RD_ALifeLine_342e36286ca3b82d": {
+      "tr": "Kapıya tebeşirle bir X çiz, sonra gelen ekip boşuna gelmesin."
+    },
+    "RD_ALifeLine_3115fce75563f696": {
+      "tr": "Lanet yağmacılar, bizden önce vuracaklarını bilmem gerekirdi."
+    },
+    "RD_ALifeLine_2d143ad60c0b3b99": {
+      "tr": "Bizden önce kim geldiyse, umarım boğazında kalır."
+    },
+    "RD_ALifeLine_5bebe36e7da6ca4d": {
+      "tr": "Hey, hiç olmazsa ortalık temiz, he."
+    },
+    "RD_ALifeLine_7b55e5c22dc84fae": {
+      "tr": "Gördüğüm en derli toplu ev, içinde hiçbir şey yok."
+    },
+    "RD_ALifeLine_68ac3ee24e37b5e7": {
+      "tr": "Hamamböcekleri bile eşyalarını toplayıp gitmiş."
+    },
+    "RD_ALifeLine_400e27f14cbad351": {
+      "tr": "Burada hiçbir şey yok, sıradaki yere."
+    },
+    "RD_ALifeLine_7c597f1469db9655": {
+      "tr": "İşime yarayacak bir şey yok, hiç yok, çantamdakiler de neredeyse bitti."
+    }
+  }
+}

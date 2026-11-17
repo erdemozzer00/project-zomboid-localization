@@ -1,0 +1,1226 @@
+{
+  "_paket": "B6 — 1.5.0 farkları: Sandbox yeni 402 (helikopter, araba, çatışma, konuşma, yol arkadaşı, performans, nüfus ön ayarı)",
+  "_dosya": "Sandbox",
+  "_surum_farki": true,
+  "satirlar": {
+    "Sandbox_ProjectALife.PresetPopulation": {
+      "tr": "Nüfus"
+    },
+    "Sandbox_ProjectALife.PresetPopulation_tooltip": {
+      "tr": "Dünyada ne kadar NPC, grup ve karakol olacağı: ortaya çıkma sıklıkları, üst sınırlar, karşılaşmalar ve karakollar. Yalnızca varsayılan değerinde duran ayarlar değişir. Tam etki için oyunu yeniden yükle.\nVarsayılan: Kalabalık (3)."
+    },
+    "Sandbox_ProjectALife.PresetPopulation_option1": {
+      "tr": "Seyrek",
+      "not": "Ölçek senin eski PresetWorld düzeltmelerini izliyor (Seyrek / Izdiham): Seyrek, Orta, Kalabalık, Çok kalabalık."
+    },
+    "Sandbox_ProjectALife.PresetPopulation_option2": {
+      "tr": "Orta"
+    },
+    "Sandbox_ProjectALife.PresetPopulation_option3": {
+      "tr": "Kalabalık"
+    },
+    "Sandbox_ProjectALife.PresetPopulation_option4": {
+      "tr": "Çok kalabalık (ağır, kasabilir)"
+    },
+    "Sandbox_ProjectALife.Support_HeliBackupPercent": {
+      "tr": "Helikopterle gelen takviye (yüzde)"
+    },
+    "Sandbox_ProjectALife.Support_HeliBackupPercent_tooltip": {
+      "tr": "Takviye çağıran kolluk, asker ya da seçkin bir grubun, araba yerine timi iple indiren bir helikopter alma sıklığı. 0, yalnızca araba demek.\nVarsayılan: 40."
+    },
+    "Sandbox_ProjectALife.Helicopter_ShootDown": {
+      "tr": "Helikopterler düşürülebilir"
+    },
+    "Sandbox_ProjectALife.Helicopter_ShootDown_tooltip": {
+      "tr": "Açık: oyuncuların ve düşman NPC'lerin mermileri alçaktan uçan helikoptere hasar verir; ağır isabet alan helikopter irtifa kaybedip düşer, yere çakılır, yanar ve geride enkaz bırakır. Kapalı: helikopterlere hasar verilemez.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.Helicopter_Health": {
+      "tr": "Helikopter dayanıklılığı"
+    },
+    "Sandbox_ProjectALife.Helicopter_Health_tooltip": {
+      "tr": "Helikopterin düşmeden önce kaldırabileceği hasar. Bir tüfek mermisi yaklaşık 16-24, bir tabanca mermisi 8 kadar vurur. Yalnızca helikoptere gerçekten değen isabetler sayılır.\nVarsayılan: 120."
+    },
+    "Sandbox_ProjectALife.Helicopter_CrashFire": {
+      "tr": "Düşen helikopterler yanar"
+    },
+    "Sandbox_ProjectALife.Helicopter_CrashFire_tooltip": {
+      "tr": "Düşen helikopter enkazın çevresinde birkaç yangın çıkarır. Kapalı: yangın çıkmaz.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.Helicopter_WreckHours": {
+      "tr": "Helikopter enkazının kalma süresi (oyun saati)"
+    },
+    "Sandbox_ProjectALife.Helicopter_WreckHours_tooltip": {
+      "tr": "120 kare içinde hiç oyuncu kalmadıktan sonra düşen helikopterin dünyada temizlenmeden ne kadar duracağı.\nVarsayılan: 48."
+    },
+    "Sandbox_ProjectALife.Helicopter_CrashSurvivorPercent": {
+      "tr": "Kazadan sağ çıkanlar (yüzde)"
+    },
+    "Sandbox_ProjectALife.Helicopter_CrashSurvivorPercent_tooltip": {
+      "tr": "Düşen helikopterdeki her kişinin yaralı ve düşman olarak sağ çıkma olasılığı. Pilot için üst sınır 20.\nVarsayılan: 35."
+    },
+    "Sandbox_ProjectALife.Helicopter_DamageSmoke": {
+      "tr": "Düşmekte olan helikopter duman bırakır"
+    },
+    "Sandbox_ProjectALife.Helicopter_DamageSmoke_tooltip": {
+      "tr": "Ağır isabet alan helikopter alçalıp düşerken altındaki zemine bir duman izi bırakır.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.Helicopter_CrashExplosion": {
+      "tr": "Düşen helikopterler patlar"
+    },
+    "Sandbox_ProjectALife.Helicopter_CrashExplosion_tooltip": {
+      "tr": "Kaza, enkazda bir patlama ve ateş topuyla biter. Çarpma noktasının 6 kare yakınında bir oyuncu varsa hiçbir şey patlamaz. Kapalı: yalnızca yangınlar.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.Helicopter_ShotReputation": {
+      "tr": "Helikoptere ateş etmenin bedeli olur"
+    },
+    "Sandbox_ProjectALife.Helicopter_ShotReputation_tooltip": {
+      "tr": "Helikoptere ateş eden ve onu düşüren oyuncu, mürettebatı vurmuş gibi helikopterin ait olduğu fraksiyonun gözünden düşer. Kapalı: fraksiyonla aran değişmez.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.Support_HeliRappel": {
+      "tr": "Takviye helikopterleri timi iple indirir"
+    },
+    "Sandbox_ProjectALife.Support_HeliRappel_tooltip": {
+      "tr": "Helikopterle karşılanan takviye çağrısı, temas noktasının yakınında havada duran gerçek bir helikopter gönderir ve tim iple aşağı iner. Kapalı: tim bir süre sonra doğrudan yerde belirir.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.Helicopter_HeightMinM": {
+      "tr": "Helikopterin en alçak uçuş yüksekliği (metre)"
+    },
+    "Sandbox_ProjectALife.Helicopter_HeightMinM_tooltip": {
+      "tr": "Her helikopter en alçak ve en yüksek değer arasında bir yükseklik seçer, daire çizerken birkaç saniyede bir yenisine süzülür. Yakın uçuşlar bunun yaklaşık yarısını kullanır.\nVarsayılan: 36."
+    },
+    "Sandbox_ProjectALife.Helicopter_HeightMaxM": {
+      "tr": "Helikopterin en yüksek uçuş yüksekliği (metre)"
+    },
+    "Sandbox_ProjectALife.Helicopter_HeightMaxM_tooltip": {
+      "tr": "Yükseklik aralığının üst ucu. Hep aynı yükseklikte uçan bir helikopter için bunu en alçak yükseklikle aynı yap. En alçak yükseklikten küçük bir değer ona yükseltilir.\nVarsayılan: 60."
+    },
+    "Sandbox_ProjectALife.Helicopter_ScreenHeightM": {
+      "tr": "Ekranda kalan en yüksek helikopter uçuşu (metre)"
+    },
+    "Sandbox_ProjectALife.Helicopter_ScreenHeightM_tooltip": {
+      "tr": "Helikopterler bu yüksekliğin üstüne hiç çıkmaz, böylece ekranda kalır: izometrik görünümde her kat yükseklik helikopteri 96 piksel yukarı taşır. 0'da yalnızca yükseklik aralığı kullanılır.\nVarsayılan: 18."
+    },
+    "Sandbox_ProjectALife.Helicopter_Escort": {
+      "tr": "Helikopter hareket eden oyuncuya eşlik eder"
+    },
+    "Sandbox_ProjectALife.Helicopter_Escort_tooltip": {
+      "tr": "Oyuncu araç sürerken (ya da koşarken) daire çizen helikopter geride kalmak yerine yanında uçar, oyuncu durunca yine daire çizmeye döner. Kapalı: yalnızca yavaş kayan bir merkezin çevresinde döner.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.Helicopter_EscortSideTiles": {
+      "tr": "Eşlik eden helikopterin yan mesafesi (kare)"
+    },
+    "Sandbox_ProjectALife.Helicopter_EscortSideTiles_tooltip": {
+      "tr": "Eşlik eden helikopterin oyuncunun ne kadar yanında uçacağı.\nVarsayılan: 22."
+    },
+    "Sandbox_ProjectALife.Helicopter_EscortSide": {
+      "tr": "Eşlik eden helikopterin tarafı"
+    },
+    "Sandbox_ProjectALife.Helicopter_EscortSide_tooltip": {
+      "tr": "Gidiş yönüne göre bu tarafta 22 kare yanında ve 6 kare gerisinde eşlik eder. Otomatik daha açık olan tarafı seçer ve sık sık taraf değiştirmez.\nVarsayılan: Sağ (1)."
+    },
+    "Sandbox_ProjectALife.Helicopter_EscortSide_option1": {
+      "tr": "Sağ"
+    },
+    "Sandbox_ProjectALife.Helicopter_EscortSide_option2": {
+      "tr": "Sol"
+    },
+    "Sandbox_ProjectALife.Helicopter_EscortSide_option3": {
+      "tr": "Otomatik"
+    },
+    "Sandbox_ProjectALife.Helicopter_EscortChaseKmh": {
+      "tr": "Helikopterin yetişme hızı payı (km/sa)"
+    },
+    "Sandbox_ProjectALife.Helicopter_EscortChaseKmh_tooltip": {
+      "tr": "Geride kalınca helikopter, uçuş sınırları içinde aracından bu kadar daha hızlı uçabilir. Asla ışınlanmaz.\nVarsayılan: 75."
+    },
+    "Sandbox_ProjectALife.Helicopter_ReplaceVanilla": {
+      "tr": "Oyunun helikopter olayı yerine bizimki gelsin"
+    },
+    "Sandbox_ProjectALife.Helicopter_ReplaceVanilla_tooltip": {
+      "tr": "Oyunun temel Helikopter sandbox ayarıyla belirlenen kendi helikopter olayı, aynı gün ve saatlerde onun yerine bizim Black Hawk'ımızı gönderir. İkisi asla birlikte gelmez. Kapalı: oyunun helikopteri geri gelir.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.Helicopter_FlybyHours": {
+      "tr": "Helikopter geçişi sıklığı (oyun saati)"
+    },
+    "Sandbox_ProjectALife.Helicopter_FlybyHours_tooltip": {
+      "tr": "Bir oyuncunun yakınından rastgele geçen ya da çevresinde dönen helikopterler arasındaki ortalama süre. Karakterin ilk saatlerinde gelmez. 0 geçişleri kapatır.\nVarsayılan: 36."
+    },
+    "Sandbox_ProjectALife.Helicopter_NoiseRadius": {
+      "tr": "Zombi çeken helikopter sesi (kare)"
+    },
+    "Sandbox_ProjectALife.Helicopter_NoiseRadius_tooltip": {
+      "tr": "Uçan bir helikopterin zombilerce ne kadar uzaktan duyulduğu. Alçak uçuş ve havada asılı kalma daha gürültülü, geçip gitmek daha sessiz. 0, zombiler helikopterleri umursamaz demek.\nVarsayılan: 50."
+    },
+    "Sandbox_ProjectALife.Helicopter2_Enabled": {
+      "tr": "Black Hawk helikopter karşılaşmaları"
+    },
+    "Sandbox_ProjectALife.Helicopter2_Enabled_tooltip": {
+      "tr": "Black Hawk helikopterinin ikinci bir helikopter karşılaşması olarak gelmesine izin verir. Kapalı: hiç gelmez.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.Helicopter2_Share": {
+      "tr": "Helikopter indirmelerinde Black Hawk payı (yüzde)"
+    },
+    "Sandbox_ProjectALife.Helicopter2_Share_tooltip": {
+      "tr": "Takviye çağrısındaki helikopter indirmesinin standart helikopter değil de Black Hawk olma olasılığı. Üçten fazla kişilik timler standart helikopteri kullanır.\nVarsayılan: 30."
+    },
+    "Sandbox_ProjectALife.Helicopter2_Gunner": {
+      "tr": "Black Hawk kapı nişancıları"
+    },
+    "Sandbox_ProjectALife.Helicopter2_Gunner_tooltip": {
+      "tr": "Black Hawk'ın kapı nişancıları sana ve yakınındaki zombilere ateş eder, ama yalnızca mürettebat sana düşmansa (arabadan ateş açmadaki kuralla aynı). Kapalı: Black Hawk hiç ateş etmez.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.Helicopter2_GunnerHitPercent": {
+      "tr": "Black Hawk nişancısının isabet olasılığı (yüzde)"
+    },
+    "Sandbox_ProjectALife.Helicopter2_GunnerHitPercent_tooltip": {
+      "tr": "Nişancının bir mermisinin dibinden sana isabet etme olasılığı. Mesafe arttıkça düşer, nişancının menzilinin ucunda bu değerin yüzde 15'ine iner.\nVarsayılan: 8."
+    },
+    "Sandbox_ProjectALife.Helicopter2_GunnerDamagePercent": {
+      "tr": "Black Hawk nişancısının hasarı (yüzde)"
+    },
+    "Sandbox_ProjectALife.Helicopter2_GunnerDamagePercent_tooltip": {
+      "tr": "Nişancının bir isabetinin sana normal bir tüfek yarasının ne kadarı kadar hasar verdiği.\nVarsayılan: 25."
+    },
+    "Sandbox_ProjectALife.Helicopter2_GunnerRangeTiles": {
+      "tr": "Black Hawk nişancısının menzili (kare)"
+    },
+    "Sandbox_ProjectALife.Helicopter2_GunnerRangeTiles_tooltip": {
+      "tr": "Nişancılar yalnızca helikoptere bu kadar yakın hedeflere ateş eder.\nVarsayılan: 40."
+    },
+    "Sandbox_ProjectALife.Helicopter2_GunnerZombies": {
+      "tr": "Black Hawk nişancıları zombileri tarar"
+    },
+    "Sandbox_ProjectALife.Helicopter2_GunnerZombies_tooltip": {
+      "tr": "Bazı atışlar oyuncu yerine oyuncunun yakınındaki zombilere gider. Bu mermilerin bir kısmı zombi öldürür ya da yaralar.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.MoveEvadeVehicles": {
+      "tr": "Yaya NPC'ler hareket eden araçların önünden çekilir"
+    },
+    "Sandbox_ProjectALife.MoveEvadeVehicles_tooltip": {
+      "tr": "Hareket eden bir arabanın yolundaki yaya NPC'ler kenara çekilir, araba çarpmak üzereyken koşar. Park etmiş, uzaklaşan ve yanından geçen arabalar umursanmaz.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CombatFlanking": {
+      "tr": "NPC'ler yandan dolanır"
+    },
+    "Sandbox_ProjectALife.CombatFlanking_tooltip": {
+      "tr": "NPC timleri önden ulaşamadıkları bir hedefin yanına bir üyelerini dolandırır. Kapalı: önden dövüşmeye devam ederler.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CombatSquadPush": {
+      "tr": "NPC timleri birlikte üstüne yürür"
+    },
+    "Sandbox_ProjectALife.CombatSquadPush_tooltip": {
+      "tr": "Timler, siper almak zorunda kalmış ya da şarjör değiştiren bir hedefin üstüne birlikte ilerler. Kapalı: yerlerini korurlar.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CombatSuppression": {
+      "tr": "NPC baskı ateşi"
+    },
+    "Sandbox_ProjectALife.CombatSuppression_tooltip": {
+      "tr": "NPC'ler yaklaşmadan önce hedefi kısa atışlar ve kıl payı ıskalamalarla siperde tutar. Kapalı: yalnızca vurmak için ateş ederler.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.HeliFrequency": {
+      "tr": "Helikopter sıklığı"
+    },
+    "Sandbox_ProjectALife.HeliFrequency_tooltip": {
+      "tr": "A-Life helikopterlerinin ne sıklıkla geldiği: geçişler ve takviye çağrıları. Düşük yarı yarıya, Yüksek iki kat sık. 'A-Life helikopterleri' açık olmalı.\nVarsayılan: Normal (2).",
+      "not": "Seçenek atfı mevcut çeviriyle birebir: 'A-Life helikopterleri'."
+    },
+    "Sandbox_ProjectALife.HeliFrequency_option1": {
+      "tr": "Düşük"
+    },
+    "Sandbox_ProjectALife.HeliFrequency_option2": {
+      "tr": "Normal"
+    },
+    "Sandbox_ProjectALife.HeliFrequency_option3": {
+      "tr": "Yüksek"
+    },
+    "Sandbox_ProjectALife.CarsTrafficFrequency": {
+      "tr": "NPC arabası sıklığı"
+    },
+    "Sandbox_ProjectALife.CarsTrafficFrequency_tooltip": {
+      "tr": "NPC'lerin ne sıklıkla arabayla geldiği: yanından geçerek ateş açma ve yanında durma. Düşük yarı yarıya, Yüksek iki kat sık. 'NPC'ler araç kullanır' açık olmalı.\nVarsayılan: Normal (2).",
+      "not": "Seçenek atfı B4 çevirisiyle birebir: 'NPC'ler araç kullanır'."
+    },
+    "Sandbox_ProjectALife.CarsTrafficFrequency_option1": {
+      "tr": "Düşük"
+    },
+    "Sandbox_ProjectALife.CarsTrafficFrequency_option2": {
+      "tr": "Normal"
+    },
+    "Sandbox_ProjectALife.CarsTrafficFrequency_option3": {
+      "tr": "Yüksek"
+    },
+    "Sandbox_ProjectALife.Js5Enabled": {
+      "tr": "NPC'lerde JS-5 hafif makineli"
+    },
+    "Sandbox_ProjectALife.Js5Enabled_tooltip": {
+      "tr": "Kapalıyken JS-5 hafif makineli tüfek taşıyacak NPC'ler onun yerine M9 tabanca taşır.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.OutpostsKeepOut": {
+      "tr": "Karakollar oyuncu üslerinden uzak durur (kare)"
+    },
+    "Sandbox_ProjectALife.OutpostsKeepOut_tooltip": {
+      "tr": "Yeni karakollar ve tesis türü karşılaşmalar, sahiplenilmiş güvenli evlerden ve oyuncuların kurduğu üslerden en az bu kadar uzakta kurulur. Biri üssüne fazla yakın çıkarsa bunu artır.\nVarsayılan: 45."
+    },
+    "Sandbox_ProjectALife.CluesMaxSearchers": {
+      "tr": "İzler: bir izi en çok kaç kişi arar"
+    },
+    "Sandbox_ProjectALife.CluesMaxSearchers_tooltip": {
+      "tr": "Aynı izi aynı anda kaç hayatta kalanın arayabileceği. Geri kalanlar başka bir iz seçer ya da işine devam eder. Düşük değer bir noktada kalabalık birikmesini önler.\nVarsayılan: 2."
+    },
+    "Sandbox_ProjectALife.CluesMaxInvestigators": {
+      "tr": "İzler: oyuncunun yakınında en çok kaç araştırmacı"
+    },
+    "Sandbox_ProjectALife.CluesMaxInvestigators_tooltip": {
+      "tr": "Bir oyuncunun yaklaşık 25 kare çevresinde aynı anda seslere gidebilecek ya da iz arayabilecek en fazla hayatta kalan sayısı. 0 sınırı kaldırır.\nVarsayılan: 4."
+    },
+    "Sandbox_ProjectALife.CluesZoneCooldown": {
+      "tr": "[Uzman] İzler: aranmış bir izin yeniden hayatta kalan çekmesi için geçen süre (saniye)"
+    },
+    "Sandbox_ProjectALife.CluesZoneCooldown_tooltip": {
+      "tr": "Bir izin araması bittikten sonra bu süre boyunca oraya başka kimse gönderilmez.\nVarsayılan: 90."
+    },
+    "Sandbox_ProjectALife.CluesVehicleFresh": {
+      "tr": "[Uzman] İzler: çalışan motorun iz sayıldığı süre (dakika)"
+    },
+    "Sandbox_ProjectALife.CluesVehicleFresh_tooltip": {
+      "tr": "Çalışır hâlde bırakılan bir araba bu süre boyunca hayatta kalanları çeker, sonra motoru yeniden çalıştırılana kadar taze iz sayılmaz.\nVarsayılan: 5."
+    },
+    "Sandbox_ProjectALife.UITheme": {
+      "tr": "Menü renk teması"
+    },
+    "Sandbox_ProjectALife.UITheme_tooltip": {
+      "tr": "A-Life pencerelerinin renkleri. Siber: grafit paneller, seçili öğe camgöbeği, önemli şeyler kehribar. Klasik camgöbeği: eski, tamamen camgöbeği görünüm. Kehribar: camgöbeği yerine kehribar.\nVarsayılan: Siber.",
+      "not": "cyan → camgöbeği, amber → kehribar."
+    },
+    "Sandbox_ProjectALife.UITheme_option1": {
+      "tr": "Siber (camgöbeği + kehribar)"
+    },
+    "Sandbox_ProjectALife.UITheme_option2": {
+      "tr": "Klasik camgöbeği"
+    },
+    "Sandbox_ProjectALife.UITheme_option3": {
+      "tr": "Kehribar"
+    },
+    "Sandbox_ProjectALife.RecorderEnabled": {
+      "tr": "Manevra kaydedici (yönetici aracı)"
+    },
+    "Sandbox_ProjectALife.RecorderEnabled_tooltip": {
+      "tr": "Manevra kaydediciyi açar: bir tuş, yaptıklarını (hareket, nişan, atış, şarjör değiştirme) geliştirici için bir dosyaya kaydetmeye başlar ve durdurur. Tek oyunculuda ya da sunucuda yöneticiler için. Kapalıyken hiçbir şey çalışmaz. Oyun başlarken etkinleşir.\nVarsayılan: kapalı."
+    },
+    "Sandbox_ProjectALife.RecorderAutoOnAim": {
+      "tr": "Nişan alınca kaydedici başlar"
+    },
+    "Sandbox_ProjectALife.RecorderAutoOnAim_tooltip": {
+      "tr": "Kaydedici açıkken silahını kaldırmak kaydı başlatır, birkaç saniye indirmek durdurur.\nVarsayılan: kapalı."
+    },
+    "Sandbox_ProjectALife.RecorderAutoStopSeconds": {
+      "tr": "Nişan bırakılınca kaydın durması (saniye)"
+    },
+    "Sandbox_ProjectALife.RecorderAutoStopSeconds_tooltip": {
+      "tr": "Nişanla başlayan bir kayıt bitmeden silahı ne kadar indirili tutabileceğin. Tuşla başlattığın kayıtlar sen durdurana kadar sürer.\nVarsayılan: 4."
+    },
+    "Sandbox_ProjectALife.RecorderSampleHz": {
+      "tr": "Kaydedicinin saniyedeki örnek sayısı"
+    },
+    "Sandbox_ProjectALife.RecorderSampleHz_tooltip": {
+      "tr": "Kaydedicinin konumunu ve durumunu ne sıklıkla yazdığı. Fazlası daha akıcı olur, dosyaları da büyütür.\nVarsayılan: 10."
+    },
+    "Sandbox_ProjectALife.RecorderMaxFileKB": {
+      "tr": "Kayıt dosyası boyut sınırı (KB)"
+    },
+    "Sandbox_ProjectALife.RecorderMaxFileKB_tooltip": {
+      "tr": "Dosyası bu boyuta ulaşınca kayıt kendiliğinden durur.\nVarsayılan: 2048."
+    },
+    "Sandbox_ProjectALife.RecorderMaxFiles": {
+      "tr": "Saklanan kayıt dosyası sayısı"
+    },
+    "Sandbox_ProjectALife.RecorderMaxFiles_tooltip": {
+      "tr": "Kaç kaydın saklanacağı. Daha eskileri boşaltılır (oyun dosya silemez); klasörü elle silebilirsin.\nVarsayılan: 40."
+    },
+    "Sandbox_ProjectALife.TalkHoldNpc": {
+      "tr": "Konuşurken NPC'ler durur"
+    },
+    "Sandbox_ProjectALife.TalkHoldNpc_tooltip": {
+      "tr": "Konuştuğun NPC yürümeyi bırakır, sana döner ve konuşma bitince eski işine geri döner. Düşman NPC'ler, dövüşenler ve araç sürenler hiç durdurulmaz.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.TalkGestures": {
+      "tr": "NPC'lerin konuşurken el kol hareketleri"
+    },
+    "Sandbox_ProjectALife.TalkGestures_tooltip": {
+      "tr": "NPC'ler seninle konuşurken sözün havasına uygun küçük el ve beden hareketleri yapar. Dövüşürken ya da nişan alırken hiç yapmazlar.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.RepBarHud": {
+      "tr": "Ekranda itibar çubuğu"
+    },
+    "Sandbox_ProjectALife.RepBarHud_tooltip": {
+      "tr": "İtibarın değiştikten sonra birkaç saniye ekranın üstünde itibar seviyeni ve bir ilerleme çubuğunu gösterir, küçük yeşil yazının yerine bir değişim penceresi koyar. Kapalı: küçük yazı kalır.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.RepHudPosition": {
+      "tr": "İtibar çubuğunun yeri"
+    },
+    "Sandbox_ProjectALife.RepHudPosition_tooltip": {
+      "tr": "İtibar çubuğunun ve değişim penceresinin ekranda nerede görüneceği.\nVarsayılan: Sağ üst (1)."
+    },
+    "Sandbox_ProjectALife.RepHudPosition_option1": {
+      "tr": "Sağ üst"
+    },
+    "Sandbox_ProjectALife.RepHudPosition_option2": {
+      "tr": "Üst orta"
+    },
+    "Sandbox_ProjectALife.RepHudPosition_option3": {
+      "tr": "Sol"
+    },
+    "Sandbox_ProjectALife.RepShowReasons": {
+      "tr": "İtibar penceresinde neden"
+    },
+    "Sandbox_ProjectALife.RepShowReasons_tooltip": {
+      "tr": "Pencere, itibarını neyin değiştirdiğini söyler; örneğin düşman bir hayatta kalanı öldürdün. Kapalı: yalnızca miktar görünür.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.RepPopupSeconds": {
+      "tr": "İtibar çubuğunun süresi (saniye)"
+    },
+    "Sandbox_ProjectALife.RepPopupSeconds_tooltip": {
+      "tr": "Bir değişimden sonra itibar çubuğunun ekranda kaç saniye kalacağı.\nVarsayılan: 5."
+    },
+    "Sandbox_ProjectALife.RobberyStartTiles": {
+      "tr": "Soygunun başladığı mesafe (kare)"
+    },
+    "Sandbox_ProjectALife.RobberyStartTiles_tooltip": {
+      "tr": "Bir ekibin seni soymaya kalkışabilmesi için ne kadar yakın olması gerektiği. Ekip yanına yürür ve içlerinden biri seni görmelidir. Takviye, destek ve helikopter ekipleri hiç soygun yapmaz.\nVarsayılan: 8."
+    },
+    "Sandbox_ProjectALife.FastForwardInterrupt": {
+      "tr": "A-Life olayı başlayınca zamanı yavaşlat"
+    },
+    "Sandbox_ProjectALife.FastForwardInterrupt_tooltip": {
+      "tr": "Bir ziyaretçi kapını çaldığında, bir baskın ya da kaza başladığında, destek geldiğinde ya da bir NPC sana bir şey sorduğunda hızlandırılmış zamanı normal hıza döndürür. Yalnızca tek oyunculuda.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FunnelStarterFadeDay": {
+      "tr": "İlk günlerin hayatta kalanları azalmaya başlar (oyun günü)"
+    },
+    "Sandbox_ProjectALife.FunnelStarterFadeDay_tooltip": {
+      "tr": "İş üniformalı ekipler, yolda kalmış işe gidip gelenler ve yalnız hemşireler ilk günlere aittir. Bu günden sonra giderek daha az ortaya çıkarlar. Dünyada zaten olan NPC'ler kalır.\nVarsayılan: 10."
+    },
+    "Sandbox_ProjectALife.FunnelStarterGoneDay": {
+      "tr": "İlk günlerin hayatta kalanları artık gelmez (oyun günü)"
+    },
+    "Sandbox_ProjectALife.FunnelStarterGoneDay_tooltip": {
+      "tr": "Bu günden sonra ilk günlerin hayatta kalanları ortaya çıkmaz, paylarının bir kısmı deneyimli hayatta kalanlara geçer. Azalma gününden sonraya koy.\nVarsayılan: 30."
+    },
+    "Sandbox_ProjectALife.FunnelVeteranStartDay": {
+      "tr": "Deneyimli hayatta kalanlar gelmeye başlar (oyun günü)"
+    },
+    "Sandbox_ProjectALife.FunnelVeteranStartDay_tooltip": {
+      "tr": "Pişmiş hayatta kalanlar, hazırlıklılar ve kurt kocamışlar bu günden önce ortaya çıkmaz, sonra yavaş yavaş gelir.\nVarsayılan: 10."
+    },
+    "Sandbox_ProjectALife.FunnelVeteranFullDay": {
+      "tr": "Deneyimli hayatta kalanlar tam sayıda (oyun günü)"
+    },
+    "Sandbox_ProjectALife.FunnelVeteranFullDay_tooltip": {
+      "tr": "Deneyimli hayatta kalanların tam ortaya çıkma ağırlığına ulaştığı gün. Başlangıç gününden sonraya koy.\nVarsayılan: 30."
+    },
+    "Sandbox_ProjectALife.FunnelDeclineStartDay": {
+      "tr": "İlk yerel çeteler zayıflamaya başlar (oyun günü)"
+    },
+    "Sandbox_ProjectALife.FunnelDeclineStartDay_tooltip": {
+      "tr": "İlk dönemin yerel çeteleri bu günden sonra daha büyük haydutlara yer kaybetmeye başlar. Seyrelirler ama tamamen yok olmazlar.\nVarsayılan: 150."
+    },
+    "Sandbox_ProjectALife.FunnelDeclineEndDay": {
+      "tr": "İlk yerel çeteler en düşük seviyede (oyun günü)"
+    },
+    "Sandbox_ProjectALife.FunnelDeclineEndDay_tooltip": {
+      "tr": "Zayıflayan çetelerin en düşük ortaya çıkma ağırlığına indiği gün. Başlangıç gününden sonraya koy.\nVarsayılan: 450."
+    },
+    "Sandbox_ProjectALife.FunnelHandoffPercent": {
+      "tr": "Deneyimli gruplara devir (kaybedilen ağırlığın yüzdesi)"
+    },
+    "Sandbox_ProjectALife.FunnelDay0LawBoost": {
+      "tr": "0. gün polis ve asker ağırlığı artışı (yüzde)"
+    },
+    "Sandbox_ProjectALife.FunnelDay0LawBoost_tooltip": {
+      "tr": "0. gün boyunca polis ve askerin seçilme ağırlığını artırır. 50 yarısı kadar daha demek; 0 kapatır. Öteki ortaya çıkma sınırları yine geçerli. 'Fraksiyonlar zamanla değişir' açık olmalı.\nVarsayılan: 50."
+    },
+    "Sandbox_ProjectALife.FunnelHandoffPercent_tooltip": {
+      "tr": "Sönen bir fraksiyonun kaybettiği ortaya çıkma ağırlığının ne kadarının belirlenmiş halefine geçtiği. 0, ağırlık kaybolur; 100, hepsi geçer demek. 'Fraksiyonlar zamanla değişir' açık olmalı.\nVarsayılan: 70.",
+      "not": "'faction timeline option' = FunnelEnabled, mevcut adı 'Fraksiyonlar zamanla değişir'."
+    },
+    "Sandbox_ProjectALife.WarningKosVillain": {
+      "tr": "[Uzman] En kötü itibarda gördüğü yerde saldırı (yüzde)"
+    },
+    "Sandbox_ProjectALife.WarningKosVillain_tooltip": {
+      "tr": "En düşük itibardaki (Gaddar) bir oyuncuya uyarmadan ateş açan düşman ekiplerin oranı. İtibar yükseldikçe oran yavaş yavaş düşer.\nVarsayılan: 90.",
+      "not": "The Villain / The Legend → Gaddar / Efsane (mevcut itibar seviyesi adları)."
+    },
+    "Sandbox_ProjectALife.WarningKosNeutral": {
+      "tr": "[Uzman] Tarafsız itibarda gördüğü yerde saldırı (yüzde)"
+    },
+    "Sandbox_ProjectALife.WarningKosNeutral_tooltip": {
+      "tr": "İtibarı ne iyi ne kötü olan bir oyuncuya uyarmadan ateş açan düşman ekiplerin oranı. Hemen saldırmayan ekipler oyuncuyu teslim olmaya zorlar.\nVarsayılan: 15."
+    },
+    "Sandbox_ProjectALife.WarningKosLegend": {
+      "tr": "[Uzman] En iyi itibarda gördüğü yerde saldırı (yüzde)"
+    },
+    "Sandbox_ProjectALife.WarningKosLegend_tooltip": {
+      "tr": "En yüksek itibardaki (Efsane) bir oyuncuya uyarmadan ateş açan düşman ekiplerin oranı. Baskınlar herkes için tehlikeli kalır.\nVarsayılan: 4."
+    },
+    "Sandbox_ProjectALife.CarPursuit": {
+      "tr": "Ateş açan düşman arabalar peşine düşer"
+    },
+    "Sandbox_ProjectALife.CarPursuit_tooltip": {
+      "tr": "Düşman ekibi sana ateş eden bir araba yanından geçtikten sonra çekip gitmek yerine, seni kaybedene ya da süresi dolana kadar peşini bırakmaz.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CarPursuitRam": {
+      "tr": "Kovalayan arabalar çarpar"
+    },
+    "Sandbox_ProjectALife.CarPursuitRam_tooltip": {
+      "tr": "Kovalayan araba ekibi indirmek için yanında durmak yerine üstüne sürer.\nVarsayılan: kapalı."
+    },
+    "Sandbox_ProjectALife.CarPursuitSeconds": {
+      "tr": "En uzun kovalama (saniye)"
+    },
+    "Sandbox_ProjectALife.CarPursuitSeconds_tooltip": {
+      "tr": "Bir arabanın vazgeçip uzaklaşmadan önce ne kadar kovalayacağı.\nVarsayılan: 60."
+    },
+    "Sandbox_ProjectALife.CarDriverSkill": {
+      "tr": "Sürücülerin becerisi farklı"
+    },
+    "Sandbox_ProjectALife.CarDriverSkill_tooltip": {
+      "tr": "Her sürücünün sabit bir becerisi vardır: kötü sürücüler daha yavaş gider ve virajları yavaş alır, hareket eden arabadaki ekip araba hızlandıkça daha kötü nişan alır. Kapalı: bütün sürücüler aynı derecede iyi sürer.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CarDamageEffects": {
+      "tr": "Kurşunlanan arabalar tepki verir"
+    },
+    "Sandbox_ProjectALife.CarDamageEffects_tooltip": {
+      "tr": "Hasar alan araba yavaşlar, virajları yavaş alır ve vurulunca bir kez yalpalar. Motoru ölünce ya da üç lastiği patlayınca ekip arabadan atlar: düşman ekipler dövüşür, ötekiler kaçar.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CarBlockade": {
+      "tr": "Arabalar kapalı yolla başa çıkar"
+    },
+    "Sandbox_ProjectALife.CarBlockade_tooltip": {
+      "tr": "12 saniye boyunca ilerleyemeyen araba geri çekilip yeni yol çizer, çarpma açıksa hafif bir engele çarpar ya da durur ve ekip yaya devam eder.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CarBlockadeSeconds": {
+      "tr": "Engelde en uzun bekleme (saniye)"
+    },
+    "Sandbox_ProjectALife.CarBlockadeSeconds_tooltip": {
+      "tr": "Önü kapalı bir arabanın çarpmadan (izin varsa) ya da ekip inmeden önce ne kadar geri çekilip yeni yol arayacağı.\nVarsayılan: 45."
+    },
+    "Sandbox_ProjectALife.CarHullCover": {
+      "tr": "Ekip arabanın gövdesine siper alır"
+    },
+    "Sandbox_ProjectALife.CarHullCover_tooltip": {
+      "tr": "Duran arabadan inen ekip, arabanın hemen arkasında senin görüş hattına düşmek yerine arabanın senden uzak tarafına siper alır; önce motor bloğunun, sonra kapıların arkasına.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CarDriveBy": {
+      "tr": "Arabadan geçerken ateş"
+    },
+    "Sandbox_ProjectALife.CarDriveBy_tooltip": {
+      "tr": "Arabayla gelen ekipler oyuncunun yanından geçerken camlardan ateş edebilir.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CarDriveByWeaveTiles": {
+      "tr": "Geçerken ateş açan arabanın yalpalama genişliği (kare)"
+    },
+    "Sandbox_ProjectALife.CarDriveByWeaveTiles_tooltip": {
+      "tr": "Ateş açarak geçen arabanın, yoldan çıkmadan oyuncunun yanından geçerken ne kadar sağa sola kıvrılacağı. 0'da düz gider.\nVarsayılan: 2."
+    },
+    "Sandbox_ProjectALife.CarPullUp": {
+      "tr": "Arabayla yanaşma"
+    },
+    "Sandbox_ProjectALife.CarPullUp_tooltip": {
+      "tr": "Arabayla gelen ekipler oyuncunun yakınında durur, iner ve konuşmadan ya da dövüşmeden önce siper alır.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CarReinforcements": {
+      "tr": "Arabayla takviye"
+    },
+    "Sandbox_ProjectALife.CarReinforcements_tooltip": {
+      "tr": "Bir çatışmaya çağrılan takviye ekipleri arabayla gelebilir.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CarDriveOff": {
+      "tr": "Ekipler arabayla ayrılır"
+    },
+    "Sandbox_ProjectALife.CarDriveOff_tooltip": {
+      "tr": "İşini bitiren ekip geldiği arabayla gidebilir.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CarDriveHere": {
+      "tr": "NPC arabaları için sağ tık Buraya sür",
+      "not": "Drive here → Buraya sür (IG_UI'deki sağ tık seçeneği çevrilirken aynısı kullanılmalı)."
+    },
+    "Sandbox_ProjectALife.CarDriveHere_tooltip": {
+      "tr": "Bir yönetici yere sağ tıklayıp mürettebatlı bir NPC arabasını oraya gönderebilir. Yol kapalıysa ya da noktaya ulaşılamıyorsa araba fren yapıp rölantide bekler.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CarDriveHereGiveUpSeconds": {
+      "tr": "Buraya sür: vazgeçmeden önce bekleme (saniye)"
+    },
+    "Sandbox_ProjectALife.CarDriveHereGiveUpSeconds_tooltip": {
+      "tr": "Buraya sür ile gönderilen arabanın yol bulamadan fren yapıp rölantiye geçmeden önce ne kadar bekleyeceği. Yol varken ilerleyemezse iki kat bekler.\nVarsayılan: 15."
+    },
+    "Sandbox_ProjectALife.CarOfflineTrips": {
+      "tr": "NPC arabaları: ekip ya da araba uzaktayken yolculuk sürer"
+    },
+    "Sandbox_ProjectALife.CarOfflineTrips_tooltip": {
+      "tr": "Ekibi yüklü olmayan, emir verilmiş bir NPC arabası yollar boyunca arka planda yolculuğa devam eder ve bir oyuncu yaklaşınca ekibiyle yeniden oluşturulur. Kapalı: emri reddeder.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CarLifeEnabled": {
+      "tr": "NPC timleri araba kullanır: boş arabaları alır, yakıt doldurur, sürer, kasaba dışında park eder, arabayı bırakır"
+    },
+    "Sandbox_ProjectALife.CarLifeEnabled_tooltip": {
+      "tr": "Terk edilmiş bir araba gören timler kapısını zorlayabilir ya da düz kontak yapabilir, yakıtını kontrol eder, bir hedefe sürer ve durum gerektirince arabayı bırakır. Kapalı: NPC'ler kendiliğinden hiç araba almaz.\nVarsayılan: kapalı."
+    },
+    "Sandbox_ProjectALife.CarBreakInChance": {
+      "tr": "NPC arabaları: kilitli arabaya girme olasılığı (yüzde)"
+    },
+    "Sandbox_ProjectALife.CarBreakInChance_tooltip": {
+      "tr": "Her denemede bir kapıyı zorlama ya da camı kırma için temel olasılık. Becerikli tim üyeleri bunu artırır. Zorlamak sessiz ve yavaş, kırmak gürültülü ve hızlı. 0, kilitli arabalar kilitli kalır demek.\nVarsayılan: 60."
+    },
+    "Sandbox_ProjectALife.CarHotwireChance": {
+      "tr": "NPC arabaları: anahtarsız düz kontak olasılığı (yüzde)"
+    },
+    "Sandbox_ProjectALife.CarHotwireChance_tooltip": {
+      "tr": "Her denemedeki temel olasılık; tamirci, hırsız ve mühendis tim üyeleri artırır. Başarısız deneme kabloları yakabilir. 0, timler yalnızca anahtarı olan arabaları alır demek.\nVarsayılan: 35."
+    },
+    "Sandbox_ProjectALife.CarRefuelEnabled": {
+      "tr": "NPC arabaları: bidondan, pompadan ve başka arabalardan yakıt"
+    },
+    "Sandbox_ProjectALife.CarRefuelEnabled_tooltip": {
+      "tr": "Açık: arabasının yakıtı azalan tim bir bidon, elektriği olan bir pompa ya da yakıtını çekebileceği sahipsiz başka bir araba arar. Kapalı: yakıtı yetmeyen arabadan vazgeçer.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CarDitchBeforeCity": {
+      "tr": "NPC arabaları: kasaba dışında park edip yaya devam"
+    },
+    "Sandbox_ProjectALife.CarDitchBeforeCity_tooltip": {
+      "tr": "Açık: rota bir kasabaya girmeden tim yol kenarına park eder, kasabayı yaya dolaşır ve sonra arabaya döner. Kapalı: arabayla girer.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CarExitRules": {
+      "tr": "NPC arabaları: ekiplerin arabayı bırakma eğilimi (0 hoşgörülü, 1 normal, 2 katı)"
+    },
+    "Sandbox_ProjectALife.CarExitRules_tooltip": {
+      "tr": "Arabayı bırakma kurallarının (kaza, yangın, ölen motor, ateş altında kalma, önde sürü) eşiklerini ve olasılıklarını ölçekler. 0'da ekipler daha uzun süre sürer, 2'de daha erken iner.\nVarsayılan: 1."
+    },
+    "Sandbox_ProjectALife.CarFireFromCar": {
+      "tr": "NPC arabaları: arabadan ateş (0 kapalı, 1 yavaş giderken, 2 hızlıyken de)"
+    },
+    "Sandbox_ProjectALife.CarFireFromCar_tooltip": {
+      "tr": "Yolcular kendi taraflarındaki düşman hedeflere arabadan ateş eder. 1: yalnızca 25 km/sa altında. 2: daha az isabetle saatte 60 km'ye kadar da; sürücü 15 km/sa altında tabancayla ateş edebilir. 0: hiç.\nVarsayılan: 2."
+    },
+    "Sandbox_ProjectALife.CarPassByKmh": {
+      "tr": "NPC arabaları: düşman ekibin yanından geçerken hızı (km/sa)"
+    },
+    "Sandbox_ProjectALife.CarPassByKmh_tooltip": {
+      "tr": "Düşman ekip, yolcuları ateş edebilsin diye sana 25 kare kala bu hıza düşer, sonra yoluna devam eder. Arabadan ateş 1'e ayarlıysa geçiş en fazla 25 km/sa olur.\nVarsayılan: 35."
+    },
+    "Sandbox_ProjectALife.CarDriveStyle": {
+      "tr": "NPC arabaları: sürüş tarzı (Dikkatli, Normal, Hızlı, Gözü kara)"
+    },
+    "Sandbox_ProjectALife.CarDriveStyle_tooltip": {
+      "tr": "NPC arabalarının seyir hızını, viraj hızını ve fren mesafesini ölçekler. Kovalayan ya da kaçan düşman ekipler en az Hızlı, sivil yolcular Dikkatli sürer.\nVarsayılan: Normal (2)."
+    },
+    "Sandbox_ProjectALife.CarDriveStyle_option1": {
+      "tr": "Dikkatli"
+    },
+    "Sandbox_ProjectALife.CarDriveStyle_option2": {
+      "tr": "Normal"
+    },
+    "Sandbox_ProjectALife.CarDriveStyle_option3": {
+      "tr": "Hızlı"
+    },
+    "Sandbox_ProjectALife.CarDriveStyle_option4": {
+      "tr": "Gözü kara"
+    },
+    "Sandbox_ProjectALife.CarEncounterPercent": {
+      "tr": "NPC arabaları: geçerken ateş ve yanaşmaların sıklığı (yüzde)"
+    },
+    "Sandbox_ProjectALife.CarEncounterPercent_tooltip": {
+      "tr": "Düşman arabaların geçerken ateş açmasının ve yolda yanaşmasının ne sıklıkla çıktığı: 100 oyun zamanında yaklaşık iki haftada bir, 300 üç katı, 0 ikisini de kapatır. Araba açma kapama ayarları yine geçerli.\nVarsayılan: 100."
+    },
+    "Sandbox_ProjectALife.CarScriptedDrive": {
+      "tr": "NPC arabaları: tekerlekler döndürmeyince betikle taşı (0 kapalı, 1 otomatik, 2 her zaman)"
+    },
+    "Sandbox_ProjectALife.CarScriptedDrive_tooltip": {
+      "tr": "Sürülen bir NPC arabası yaklaşık 6 saniye kıpırdamazsa rotası boyunca adım adım konum değiştirerek taşınır. 0 hiç, 1 yalnızca takılınca, 2 her zaman.\nVarsayılan: 1."
+    },
+    "Sandbox_ProjectALife.CarCruiseKmh": {
+      "tr": "NPC arabaları: yolda seyir hızı (km/sa)"
+    },
+    "Sandbox_ProjectALife.CarCruiseKmh_tooltip": {
+      "tr": "NPC arabalarının yoldaki en yüksek hızı (gelişler, Buraya sür, devriye). Geçerken ateş ve kovalama hızları etkilenmez. Virajlar ve engeller arabayı yine yavaşlatır.\nVarsayılan: 60."
+    },
+    "Sandbox_ProjectALife.CarAccelBoost": {
+      "tr": "NPC arabaları: hızlanma artışı (yüzde)"
+    },
+    "Sandbox_ProjectALife.CarAccelBoost_tooltip": {
+      "tr": "Sürücünün hızlanırken arabaya verdiği gazı çarpar. Yüksek değer seyir hızına daha çabuk ulaştırır.\nVarsayılan: 150."
+    },
+    "Sandbox_ProjectALife.CarDumpLog": {
+      "tr": "NPC arabaları: araba döküm dosyasını yaz"
+    },
+    "Sandbox_ProjectALife.CarDumpLog_tooltip": {
+      "tr": "Sürülen her NPC arabası için birkaç saniyede bir Lua/alife_cars_dump.txt dosyasına bir satır yazar, takılmaları ve öteki sorunları console.txt içinde [ALIFE-CARS] ANOMALY satırı olarak işaretler. Hiç araba sürülmezken bir yükü yok.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CarDumpLogIntervalS": {
+      "tr": "NPC arabaları: döküm aralığı (saniye)"
+    },
+    "Sandbox_ProjectALife.CarDumpLogIntervalS_tooltip": {
+      "tr": "Sürülen her NPC arabasının ne sıklıkla döküm satırı yazdığı. Durum değişiklikleri hemen yazılır.\nVarsayılan: 2."
+    },
+    "Sandbox_ProjectALife.CombatFocusFire": {
+      "tr": "Timler ateşi tek hedefe toplar"
+    },
+    "Sandbox_ProjectALife.CombatFocusFire_tooltip": {
+      "tr": "Tim üyeleri bir arkadaşlarının az önce gösterdiği hedefe yönelir, böylece ateşleri dağılmak yerine tek düşmana yağar. Timi daha ölümcül yapar.\nVarsayılan: kapalı."
+    },
+    "Sandbox_ProjectALife.CombatRangedZombieStart": {
+      "tr": "Silahlı NPC'ler yaklaşan zombileri vurur"
+    },
+    "Sandbox_ProjectALife.CombatRangedZombieStart_tooltip": {
+      "tr": "Dolu silahı olan, ayakta duran, nöbet tutan ya da yürüyen bir NPC, bu menzil içinde üstüne gelen zombiyi yakın dövüşü beklemeden vurur. Silah disiplini yine geçerli.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CombatKitePersonPercent": {
+      "tr": "[Uzman] Silahlı NPC'nin geri çekilmeden önce birini ne kadar yaklaştırdığı (yüzde)"
+    },
+    "Sandbox_ProjectALife.CombatKitePersonPercent_tooltip": {
+      "tr": "Ateş etmiş silahlı bir NPC, olağan uzak durma mesafesinin bu oranından daha yakındaki birinden geri adım atar. 100 = her atıştan sonra geri çekilen eski alışkanlık; düşük değer = durup ateş eder.\nVarsayılan: 55."
+    },
+    "Sandbox_ProjectALife.CombatRangedZombieTiles": {
+      "tr": "Silahlı NPC'ler gördükleri zombileri vurur (kare)"
+    },
+    "Sandbox_ProjectALife.CombatRangedZombieTiles_tooltip": {
+      "tr": "Dolu silahı olan bir NPC, bu kadar kare içinde gördüğü bir zombinin yanından geçip gitmek yerine ona ateş açar. Silah disiplini yine geçerli. 0 = yalnızca köşeye sıkışınca ya da görevdeyken.\nVarsayılan: 14."
+    },
+    "Sandbox_ProjectALife.RetreatHordeEnabled": {
+      "tr": "Büyük zombi gruplarından geri çekil"
+    },
+    "Sandbox_ProjectALife.RetreatHordeEnabled_tooltip": {
+      "tr": "Açıkken yakında yeterince zombi olunca NPC'ler aşağıdaki sayı ve mesafeye göre geri çekilir. Sağlıklı silahlılar geri çekilmek yerine ateşe devam eder; dövüşemeyecek NPC'ler çatışmadan uzaklaşır.\nVarsayılan: kapalı."
+    },
+    "Sandbox_ProjectALife.RetreatHordeCount": {
+      "tr": "Geri çekilmeden önceki zombi sayısı"
+    },
+    "Sandbox_ProjectALife.RetreatHordeCount_tooltip": {
+      "tr": "Bir NPC'nin geri çekilmesi için aşağıdaki mesafe içinde kaç zombi olması gerektiği.\nVarsayılan: 8."
+    },
+    "Sandbox_ProjectALife.RetreatHordeRadius": {
+      "tr": "Geri çekilme için sayım mesafesi (kare)"
+    },
+    "Sandbox_ProjectALife.RetreatHordeRadius_tooltip": {
+      "tr": "Zombilerin bir NPC'nin çevresinde ne kadar uzağa kadar sayıldığı. Örneğin 30 kare içinde 8 zombi ya da 50 kare içinde 15 zombi.\nVarsayılan: 30."
+    },
+    "Sandbox_ProjectALife.RetreatHordeScope": {
+      "tr": "Kim geri çekilir"
+    },
+    "Sandbox_ProjectALife.RetreatHordeScope_tooltip": {
+      "tr": "Yukarıdaki geri çekilme kuralına hangi NPC'lerin uyacağı.\nVarsayılan: Askerler dışında herkes (2)."
+    },
+    "Sandbox_ProjectALife.RetreatHordeScope_option1": {
+      "tr": "Herkes"
+    },
+    "Sandbox_ProjectALife.RetreatHordeScope_option2": {
+      "tr": "Askerler dışında herkes"
+    },
+    "Sandbox_ProjectALife.ZombieBiteEscapeTest": {
+      "tr": "Kaçılabilen zombi ısırıkları (deneysel)"
+    },
+    "Sandbox_ProjectALife.ZombieBiteEscapeTest_tooltip": {
+      "tr": "NPC'lere gelen ısırıklar saldırı animasyonu tam bitince sonuçlanır; NPC o ana kadar bir kare uzaklaşır ya da zombinin arkasına geçerse kurtulabilir. Kapalı: şimdiki zamanlama kalır.\nVarsayılan: kapalı."
+    },
+    "Sandbox_ProjectALife.CombatFriendlyLine": {
+      "tr": "Arada dost varsa ateş etme"
+    },
+    "Sandbox_ProjectALife.CombatFriendlyLine_tooltip": {
+      "tr": "Atıcı bir tim arkadaşının içinden ateş etmez. Bekler, sonra hattı açık bir yana kayar.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CombatAimCancelsStandoff": {
+      "tr": "Silah doğrultmak soygunu ve talepleri bozar"
+    },
+    "Sandbox_ProjectALife.CombatAimCancelsStandoff_tooltip": {
+      "tr": "Silah, ya da yakından kaldırılmış bir silah, o NPC'nin sana yaptığı şeyi bitirir: soygun, karşı karşıya bekleme, talep, soru. Düşman ekipler dövüşür, korkanlar kaçar, dostlar silahını indirir.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CombatAimRetreatEscalates": {
+      "tr": "Nişan alarak geri çekilmek ekibi sertleştirir"
+    },
+    "Sandbox_ProjectALife.CombatAimRetreatEscalates_tooltip": {
+      "tr": "Seni tutan bir ekibe silah doğrultup geri geri çekilirsen düşman ekipler ateş eder, temkinliler önce uyarı ateşi açar. Geri çekilmek teslim olmak sayılmaz.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CombatAimRetreatHoldSeconds": {
+      "tr": "Geri çekilme sayılmadan önce nişan süresi (saniye)"
+    },
+    "Sandbox_ProjectALife.CombatAimRetreatHoldSeconds_tooltip": {
+      "tr": "Geri çekilmene karşılık verilmeden önce nişangâhın bir ekip üyesinin üstünde ne kadar kalması gerektiği.\nVarsayılan: 1.0."
+    },
+    "Sandbox_ProjectALife.CombatAimRetreatStepSeconds": {
+      "tr": "Uyarı ateşiyle ateş açma arası (saniye)"
+    },
+    "Sandbox_ProjectALife.CombatAimRetreatStepSeconds_tooltip": {
+      "tr": "Temkinli ekip uyarı ateşi açar; sen nişan almaya ve geri çekilmeye devam edersen bu süreden sonra ateş açar.\nVarsayılan: 1.5."
+    },
+    "Sandbox_ProjectALife.CombatAimRetreatTiles": {
+      "tr": "Geri çekilme sayılan mesafe (kare)"
+    },
+    "Sandbox_ProjectALife.CombatAimRetreatTiles_tooltip": {
+      "tr": "Nişan alırken, ekibe en yakın olduğun noktadan ne kadar daha uzaklaşınca geri çekilmiş sayılacağın.\nVarsayılan: 1."
+    },
+    "Sandbox_ProjectALife.CombatQuickReaction": {
+      "tr": "Yakın mesafede hızlı ilk atış"
+    },
+    "Sandbox_ProjectALife.CombatQuickReaction_tooltip": {
+      "tr": "Yakın mesafedeki düşman NPC'ler silahı daha erken kaldırır, daha sık karar verir ve ilk görüşteki duraksamayı atlar. Önce uyaran ekipler yine önce uyarır.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CombatCqbTiles": {
+      "tr": "Hızlı ilk atış için yakın mesafe (kare)"
+    },
+    "Sandbox_ProjectALife.CombatCqbTiles_tooltip": {
+      "tr": "Hızlı ilk atış bu mesafenin içinde geçerli.\nVarsayılan: 8."
+    },
+    "Sandbox_ProjectALife.CombatGroupSingleSpeaker": {
+      "tr": "Her gruptan tek konuşan"
+    },
+    "Sandbox_ProjectALife.CombatGroupSingleSpeaker_tooltip": {
+      "tr": "Bir grup bir kez sorar, uyarır ya da ister. Bir üye konuşur, ötekiler bekler ya da seni gözetler. O üye sertleşince bütün grup dövüşür. Herhangi birine nişan almak talebi bitirir.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CombatGroupVoiceQueueMs": {
+      "tr": "Sana konuşan iki grup arasındaki bekleme (ms)"
+    },
+    "Sandbox_ProjectALife.CombatGroupVoiceQueueMs_tooltip": {
+      "tr": "İkinci bir grup, ilk grup konuştuktan sonra kendi sorusunu açmadan önce bu kadar bekler.\nVarsayılan: 2500."
+    },
+    "Sandbox_ProjectALife.CombatGroupLockTimeoutS": {
+      "tr": "Grup sözcüsü zaman aşımı (saniye)"
+    },
+    "Sandbox_ProjectALife.CombatGroupLockTimeoutS_tooltip": {
+      "tr": "Bir grubun sana karşı aynı kişiyi konuşturduğu en uzun süre. Konuşan ölürse, yere düşerse, kaçarsa ya da seni gözden kaybederse sıra daha erken geçer.\nVarsayılan: 45."
+    },
+    "Sandbox_ProjectALife.CombatHoldAngleAvoid": {
+      "tr": "Ekipler tuttuğun açıya girmez"
+    },
+    "Sandbox_ProjectALife.CombatHoldAngleAvoid_tooltip": {
+      "tr": "Nişanını bir merdiven başında, kapı ağzında ya da koridor ucunda tutarsan düşman ekipler o hatta yürümeyi bırakır ve dışında siper alıp bekler. Gözü karalar yine de arada bir üstüne gelir.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CombatHoldAngleSeconds": {
+      "tr": "Açı tutmuş sayılmak için nişan süresi (saniye)"
+    },
+    "Sandbox_ProjectALife.CombatHoldAngleSeconds_tooltip": {
+      "tr": "Ekiplerin bir noktayı tutulmuş sayması için nişangâhın orada kıpırdamadan ne kadar durması gerektiği.\nVarsayılan: 2.5."
+    },
+    "Sandbox_ProjectALife.CombatKillZoneMemory": {
+      "tr": "Ekibin ölümcül açıyı hatırlama süresi (saniye)"
+    },
+    "Sandbox_ProjectALife.CombatKillZoneMemory_tooltip": {
+      "tr": "Tuttuğun bir açıda adam kaybeden ekip, silahını indirsen bile bu süre boyunca oradan uzak durur.\nVarsayılan: 120."
+    },
+    "Sandbox_ProjectALife.CombatStunDiminish": {
+      "tr": "Darbeler NPC'leri giderek daha az sersemletir"
+    },
+    "Sandbox_ProjectALife.CombatStunDiminish_tooltip": {
+      "tr": "Üst üste darbe alan biri her seferinde daha kısa sendeler, sonra bir süre sonraki darbeleri umursamaz, silah sesinden sonra da eğilir. Kapalı: her darbe eskisi gibi sendeletir.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CombatFaceBeforeSwing": {
+      "tr": "Yakın dövüşte savurmadan önce zombiye dön"
+    },
+    "Sandbox_ProjectALife.CombatFaceBeforeSwing_tooltip": {
+      "tr": "Yakın dövüşen NPC hedefine döner ve yalnızca hedef savuruş açısına girince savurur. 0,6 saniye sonra yine de savurur, böylece hiç donup kalmaz.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CombatSwingAngleDegrees": {
+      "tr": "Yakın dövüş savuruş açısı (derece)"
+    },
+    "Sandbox_ProjectALife.CombatSwingAngleDegrees_tooltip": {
+      "tr": "Yakın dövüşen bir NPC'nin hedefinden ne kadar sapık bakarken yine de savurabileceği. Düşük değer daha katı. 'Yakın dövüşte savurmadan önce zombiye dön' açık olmalı.\nVarsayılan: 35."
+    },
+    "Sandbox_ProjectALife.CombatGrabberFirst": {
+      "tr": "Önce ısıran zombiyle dövüş"
+    },
+    "Sandbox_ProjectALife.CombatGrabberFirst_tooltip": {
+      "tr": "NPC, daha yakındaki ya da yerdeki bir zombi yerine kendisini ısıran ya da tırmalayan zombiyi seçer; böylece başka bir zombi onu kemirirken sürünen birine savurup durmaz.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.OrdersCaptiveReleaseSeconds": {
+      "tr": "Unutulan eller yukarı duruşunun bitmesi (saniye)"
+    },
+    "Sandbox_ProjectALife.OrdersCaptiveReleaseSeconds_tooltip": {
+      "tr": "Teslim olması emredilen NPC, oyuncu uzaklaştıktan ya da onunla ilgilenmeyi bıraktıktan bu kadar sonra ellerini indirir. Hiç sahibi olmayan eller yukarı duruşu da aynı sürede kalkar.\nVarsayılan: 60."
+    },
+    "Sandbox_ProjectALife.CombatShotNoiseGapMs": {
+      "tr": "Atış sesi patlama aralığı (milisaniye)"
+    },
+    "Sandbox_ProjectALife.CombatShotNoiseGapMs_tooltip": {
+      "tr": "NPC ateşi her seri için bir ses çıkarır. Bundan daha sık atışlar yeni ses çıkarmaz, böylece zombiler yürümeye devam eder. Yakındaki atıcılar tek sesi paylaşır.\nVarsayılan: 1500."
+    },
+    "Sandbox_ProjectALife.ZombiesLungeConeDegrees": {
+      "tr": "Zombinin NPC'lere atılma açısı (derece)"
+    },
+    "Sandbox_ProjectALife.ZombiesLungeConeDegrees_tooltip": {
+      "tr": "Zombi bir NPC'ye yalnızca NPC önündeki bu açının içindeyse atılır. Dışındaysa zombi önce dönüp yaklaşır. 180 bu kontrolü kapatır.\nVarsayılan: 75."
+    },
+    "Sandbox_ProjectALife.ZombiesNpcTargetTiles": {
+      "tr": "Zombilerin NPC'leri fark etme mesafesi (kare)"
+    },
+    "Sandbox_ProjectALife.ZombiesNpcTargetTiles_tooltip": {
+      "tr": "Zombi, yalnızca gördüğü bir NPC'yi bu mesafenin içindeyse kovalamaya başlar. Silah sesi ve zaten peşinde olduğu hedef daha uzağa ulaşır. Düşük değer, NPC'lerin daha uzaktan rahat bırakılması demek.\nVarsayılan: 12."
+    },
+    "Sandbox_ProjectALife.ZombiesNpcClearTiles": {
+      "tr": "Zombinin NPC'yi bıraktığı mesafe (kare)"
+    },
+    "Sandbox_ProjectALife.ZombiesNpcClearTiles_tooltip": {
+      "tr": "Bir NPC'yi gözüyle kovalayan zombi, NPC bundan uzaklaşınca kovalamayı bırakır. Silah sesiyle başlayan kovalama bunun yerine silah sesinin menziline uyar.\nVarsayılan: 20."
+    },
+    "Sandbox_ProjectALife.MeleeChargeRun": {
+      "tr": "[Uzman] NPC'ler yakın dövüşte koşarak saldırır"
+    },
+    "Sandbox_ProjectALife.MeleeChargeRun_tooltip": {
+      "tr": "Elinde yakın dövüş silahı olan düşman NPC, insan hedefine ulaşana kadar koşar, nefesi yettikçe uzun mesafelerde depara kalkar. Yaralı bacakla ya da soluk soluğayken hiç koşmaz. Kapalı: temkinli yürüyüş kalır. Varsayılan: açık."
+    },
+    "Sandbox_ProjectALife.ZombieAttackVariants": {
+      "tr": "Zombilerin NPC'lere pençe, atılma ve boğuşma saldırıları"
+    },
+    "Sandbox_ProjectALife.ZombieAttackVariants_tooltip": {
+      "tr": "NPC'ye saldıran zombi mesafeye ve şansa göre pençe, atılma ya da ısırık seçer; NPC pençe ya da atılmadan sonra daha sert sendeler.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.ZombieAttackCars": {
+      "tr": "Zombiler içinde NPC olan arabalara saldırır"
+    },
+    "Sandbox_ProjectALife.ZombieAttackCars_tooltip": {
+      "tr": "İçinde NPC oturan park etmiş ya da yavaş bir arabaya ulaşan zombiler onu tırmalar, camlarını ve kapılarını yıpratır. Saatte 8 km'den hızlı giden arabaya hiç saldırılmaz.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.ZombieCarAttackTiles": {
+      "tr": "[Uzman] Zombilerin arabaya saldırı mesafesi (kare)"
+    },
+    "Sandbox_ProjectALife.ZombieCarAttackTiles_tooltip": {
+      "tr": "İçinde NPC oturan bir arabaya bu kadar yakın zombiler başına toplanmış sayılır ve ekip tepki verebilir. Gövdeye değen zombiler saldırır. Bir arabaya aynı anda en fazla 8 zombi saldırır.\nVarsayılan: 6."
+    },
+    "Sandbox_ProjectALife.ZombieCarDamagePerSecond": {
+      "tr": "[Uzman] Saldıran zombi başına araba hasarı (saniyede puan)"
+    },
+    "Sandbox_ProjectALife.ZombieCarDamagePerSecond_tooltip": {
+      "tr": "Saldıran her zombinin saniyede bir camdan ya da kapıdan düşürdüğü durum puanı. Motora, lastiklere ve depoya hiç dokunulmaz, kapılar 30'da durur. 0, zombiler yalnızca saldırıyor gibi görünür demek.\nVarsayılan: 2."
+    },
+    "Sandbox_ProjectALife.ZombieBiteInterval": {
+      "tr": "[Uzman] Bir zombinin NPC'ye iki vuruşu arası (ms)"
+    },
+    "Sandbox_ProjectALife.ZombieBiteInterval_tooltip": {
+      "tr": "Bir NPC'ye vuran zombi yeniden vurmadan önce bu kadar bekler. Düşük değer daha ölümcül. Varsayılan: 3000, eski değer 4500'dü."
+    },
+    "Sandbox_ProjectALife.ZombiePathPerSecond": {
+      "tr": "Saniyede zombi yol isteği"
+    },
+    "Sandbox_ProjectALife.ZombiePathPerSecond_tooltip": {
+      "tr": "Sürü mantığının oyun motoruna her saniye gönderdiği yeni kovalama yolu isteklerinin üst sınırı. Sürüler oyunu takıltıyorsa bunu düşür.\nVarsayılan: 16."
+    },
+    "Sandbox_ProjectALife.ZombiePathInflight": {
+      "tr": "Bekleyen zombi yol isteği"
+    },
+    "Sandbox_ProjectALife.ZombiePathInflight_tooltip": {
+      "tr": "Cevaplanmamış bir yol isteğini aynı anda bekleyebilecek, uzaktan kovalayan en fazla zombi sayısı. Hedefine yakın kovalamalar hiç bekletilmez.\nVarsayılan: 24."
+    },
+    "Sandbox_ProjectALife.ZombiePathNear": {
+      "tr": "Zombi yolunda yakın mesafe (kare)"
+    },
+    "Sandbox_ProjectALife.ZombiePathNear_tooltip": {
+      "tr": "Hedefine bu kadar yakın bir zombi, hedef değişince her zaman hemen yeni bir yol alır.\nVarsayılan: 6."
+    },
+    "Sandbox_ProjectALife.TalkAskRange": {
+      "tr": "Soru mesafesi (kare)"
+    },
+    "Sandbox_ProjectALife.TalkAskRange_tooltip": {
+      "tr": "Bir NPC'nin sana soru sorabileceği en uzak mesafe (karşı karşıya bekleme, soygun, seslenme). Bundan uzakta soru gösterilmez ve cevaplanamaz.\nVarsayılan: 25."
+    },
+    "Sandbox_ProjectALife.TalkAskSight": {
+      "tr": "Sorular için görüş gerekir"
+    },
+    "Sandbox_ProjectALife.TalkAskSight_tooltip": {
+      "tr": "Bir NPC sana ancak onu görebiliyorsan soru sorar. Kapalı: sorular duvar arkasından da açılabilir.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CompanionsEnabled": {
+      "tr": "Yol arkadaşları"
+    },
+    "Sandbox_ProjectALife.CompanionsEnabled_tooltip": {
+      "tr": "Bazı NPC'ler bir oyuncuya yol arkadaşı olarak katılabilir: peşinden gelir, emir alır, yanında dövüşür. Kapalı: sıradan NPC olarak kalırlar.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CompanionsAutoBoard": {
+      "tr": "Yol arkadaşları aracına kendiliğinden biner"
+    },
+    "Sandbox_ProjectALife.CompanionsAutoBoard_tooltip": {
+      "tr": "Seni takip eden yol arkadaşları oturduğun arabaya yürüyüp boş bir koltuğa geçer, sen inince iner. Bekle ya da Dur emrindeki yol arkadaşları hiç binmez. Kapalı: yalnızca Arabaya bin emri onları oturtur.\nVarsayılan: açık.",
+      "not": "Henüz çevrilmemiş emir etiketleri için seçilen Türkçe (sonraki IG_UI paketleri aynısını kullanmalı): Hold → Dur, Wait → Bekle, Get in the car → Arabaya bin."
+    },
+    "Sandbox_ProjectALife.CompanionsTorchNeedsItem": {
+      "tr": "Yol arkadaşının feneri eşya ister"
+    },
+    "Sandbox_ProjectALife.CompanionsTorchNeedsItem_tooltip": {
+      "tr": "Yol arkadaşı gece ya da karanlık bir binada feneri ancak üstünde pili dolu bir el feneri varsa yakar. Kapalı: feneri olmadan da yakar.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CompanionsTorchHours": {
+      "tr": "Yol arkadaşının fener pili (saat)"
+    },
+    "Sandbox_ProjectALife.CompanionsTorchHours_tooltip": {
+      "tr": "Yol arkadaşının feneri yanarken dolu bir pilin kaç oyun saati dayandığı. 0: pil hiç bitmez.\nVarsayılan: 12."
+    },
+    "Sandbox_ProjectALife.CompanionSheetEnabled": {
+      "tr": "Yol arkadaşı sayfası"
+    },
+    "Sandbox_ProjectALife.CompanionSheetEnabled_tooltip": {
+      "tr": "Oyuncuların yol arkadaşı sayfasını (özellikler, görevler, günlük ve teçhizat) emir çarkından, sağ tık menüsünden, günlükten ve yönetici konsolundan açmasını sağlar. Kapatınca bütün girişler gizlenir.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CompanionSheetInventory": {
+      "tr": "Yol arkadaşının envanterine erişim"
+    },
+    "Sandbox_ProjectALife.CompanionSheetInventory_tooltip": {
+      "tr": "Yol arkadaşının sahibi Teçhizat sekmesinden onun taşıdıklarına bakabilir, eşya alıp verebilir, eşya bırakabilir ve silahını değiştirebilir. Öteki oyuncular yalnızca bakabilir.\nVarsayılan: açık.",
+      "not": "Gear sekmesi → Teçhizat (IG_UI paketinde aynısı)."
+    },
+    "Sandbox_ProjectALife.CompatImmersiveDriving": {
+      "tr": "[Uzman] Immersive Driving uyum yaması"
+    },
+    "Sandbox_ProjectALife.CompatImmersiveDriving_tooltip": {
+      "tr": "Immersive Driving etkinken A-Life uyum yamasını açar. Dünya başlarken bir kez uygulanır; değiştirdikten sonra yeniden başlat. Kapatmak yalnızca bu uyum yamasını kapatır, öteki modu değil."
+    },
+    "Sandbox_ProjectALife.CompatPZTheMutants": {
+      "tr": "[Uzman] The Mutants uyum yaması"
+    },
+    "Sandbox_ProjectALife.CompatPZTheMutants_tooltip": {
+      "tr": "The Mutants etkinken A-Life uyum yamasını açar. Dünya başlarken bir kez uygulanır; değiştirdikten sonra yeniden başlat. Kapatmak yalnızca bu uyum yamasını kapatır, öteki modu değil."
+    },
+    "Sandbox_ProjectALife.PerfTier": {
+      "tr": "Performans seviyesi"
+    },
+    "Sandbox_ProjectALife.PerfTier_tooltip": {
+      "tr": "Otomatik, A-Life bütçesini aşınca arka plan işlerini azaltır, yer açılınca yeniden artırır. Sabitlemek için bir seviye seç. Çatışma ve gördüğün hiçbir şey azaltılmaz.\nVarsayılan: Otomatik (önerilen) (1)."
+    },
+    "Sandbox_ProjectALife.PerfFrameBudget": {
+      "tr": "Performans: A-Life kare bütçesi (ms)"
+    },
+    "Sandbox_ProjectALife.PerfFrameBudget_tooltip": {
+      "tr": "Otomatik seviyeyi düşürmeden önce A-Life'ın her karede kullanabileceği süre. Yüksek değer hızlı bilgisayarda daha çok arka plan işinin sürmesini sağlar.\nVarsayılan: 2."
+    },
+    "Sandbox_ProjectALife.PerfTickBudget": {
+      "tr": "Performans: A-Life tur bütçesi (ms)",
+      "not": "tick → tur (oyun döngüsünün bir adımı)."
+    },
+    "Sandbox_ProjectALife.PerfTickBudget_tooltip": {
+      "tr": "Otomatik seviyeyi düşürmeden önce tek bir A-Life dünya turunun ne kadar sürebileceği. En çok özel sunucuda önemli.\nVarsayılan: 8."
+    },
+    "Sandbox_ProjectALife.PerfDownSeconds": {
+      "tr": "Performans: düşürmeden önce bütçe aşımı (saniye)"
+    },
+    "Sandbox_ProjectALife.PerfDownSeconds_tooltip": {
+      "tr": "Otomatik, seviyeyi bir basamak düşürmeden önce bütçe aşılmış hâlde bu kadar bekler. Art arda ağır kareler gelirse hemen düşürür.\nVarsayılan: 10."
+    },
+    "Sandbox_ProjectALife.PerfUpSeconds": {
+      "tr": "Performans: yükseltmeden önce bütçe altında kalma (saniye)"
+    },
+    "Sandbox_ProjectALife.PerfUpSeconds_tooltip": {
+      "tr": "Otomatik, seviyeyi bir basamak yükseltmeden önce bütçenin epey altında bu kadar bekler. Uzun tutmak seviyenin sürekli inip çıkmasını önler.\nVarsayılan: 30."
+    },
+    "Sandbox_ProjectALife.PerfWarmupSeconds": {
+      "tr": "Performans: dünya yüklendikten sonra bekleme (saniye)"
+    },
+    "Sandbox_ProjectALife.PerfWarmupSeconds_tooltip": {
+      "tr": "Otomatik, yüklemeden sonra bu süre boyunca seviyeye dokunmaz; böylece yükleme takılmaları seviyeyi düşürmez. 0 beklemeyi kapatır.\nVarsayılan: 60."
+    },
+    "Sandbox_ProjectALife.PerfRecoverSeconds": {
+      "tr": "Performans: yeniden yükseltmeden önce bütçe içinde kalma (saniye)"
+    },
+    "Sandbox_ProjectALife.PerfRecoverSeconds_tooltip": {
+      "tr": "Otomatik, uzun donmalar olmadan bu kadar süre bütçe içinde kalınca, bütçenin epey altında olmasa bile seviyeyi bir basamak yükseltir.\nVarsayılan: 180."
+    },
+    "Sandbox_ProjectALife.PerfTier_option1": {
+      "tr": "Otomatik (önerilen)"
+    },
+    "Sandbox_ProjectALife.PerfTier_option2": {
+      "tr": "Çok yüksek"
+    },
+    "Sandbox_ProjectALife.PerfTier_option3": {
+      "tr": "Yüksek"
+    },
+    "Sandbox_ProjectALife.PerfTier_option4": {
+      "tr": "Orta"
+    },
+    "Sandbox_ProjectALife.PerfTier_option5": {
+      "tr": "Düşük"
+    },
+    "Sandbox_ProjectALife.PerfTier_option6": {
+      "tr": "En düşük"
+    },
+    "Sandbox_ProjectALife.FactionsLaw": {
+      "tr": "Polis ve şerif fraksiyonları ortaya çıkar"
+    },
+    "Sandbox_ProjectALife.FactionsLaw_tooltip": {
+      "tr": "Kapalıyken kolluk fraksiyonları (polis, şerif ve kolluk bloğuna ayarlanmış her Oluşturucu fraksiyonu) kendiliğinden ortaya çıkmaz. Dünyada zaten olan NPC'ler kalır.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FactionsMilitary": {
+      "tr": "Ordu ve muhafız fraksiyonları ortaya çıkar"
+    },
+    "Sandbox_ProjectALife.FactionsMilitary_tooltip": {
+      "tr": "Kapalıyken askerî fraksiyonlar (ordu, muhafız, özel kuvvetler) kendiliğinden ortaya çıkmaz. Dünyada zaten olan NPC'ler kalır.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FactionsRescue": {
+      "tr": "İtfaiye ve kurtarma fraksiyonları ortaya çıkar"
+    },
+    "Sandbox_ProjectALife.FactionsRescue_tooltip": {
+      "tr": "Kapalıyken itfaiye ve kurtarma fraksiyonları kendiliğinden ortaya çıkmaz. Dünyada zaten olan NPC'ler kalır.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FactionsTowns": {
+      "tr": "Kasaba ve yerleşimci fraksiyonları ortaya çıkar"
+    },
+    "Sandbox_ProjectALife.FactionsTowns_tooltip": {
+      "tr": "Kapalıyken sivil, aile, işçi ve federasyon fraksiyonları kendiliğinden ortaya çıkmaz. Dünyada zaten olan NPC'ler kalır.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.FactionsOutlaws": {
+      "tr": "Çete, haydut ve cezaevi fraksiyonları ortaya çıkar"
+    },
+    "Sandbox_ProjectALife.FactionsOutlaws_tooltip": {
+      "tr": "Kapalıyken suç, çete, kulüp, haydut ve cezaevi fraksiyonları kendiliğinden ortaya çıkmaz. Dünyada zaten olan NPC'ler kalır. Onlardan gelen baskınlar da durur.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.CombatVehicleKeepOut": {
+      "tr": "Kapalı arabanın çevresinde yakın dövüş mesafesi"
+    },
+    "Sandbox_ProjectALife.CombatVehicleKeepOut_tooltip": {
+      "tr": "İçindekine ulaşılamayan (kapıları kapalı, camları sağlam) bir arabaya yakın dövüşçünün dayanmak yerine ne kadar uzakta durduğu. 0 kapatır. Uzaktan dövüşenler etkilenmez.\nVarsayılan: 3."
+    },
+    "Sandbox_ProjectALife_1Presets": {
+      "tr": "A-Life: UZMAN - Ön ayar değerleri (Zorluk ve Nüfus)",
+      "not": "B5a'daki zorluk açıklamasının atfı bu başlığa göre ('UZMAN ön ayar değerleri sayfası')."
+    },
+    "Sandbox_ProjectALife.PerceptionAlertness": {
+      "tr": "[Uzman] NPC'ler için tetikte olma seviyeleri"
+    },
+    "Sandbox_ProjectALife.PerceptionAlertness_tooltip": {
+      "tr": "NPC'ler sakinlikten şüpheye, tetikte olmaya ve dövüşe geçer, her seviyede bir süre kalıp sonra sakinleşir.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.PerceptionCombatHoldSeconds": {
+      "tr": "[Uzman] Dövüş tetikteliğinin süresi (saniye)"
+    },
+    "Sandbox_ProjectALife.PerceptionCombatHoldSeconds_tooltip": {
+      "tr": "Bir NPC'nin son çatışma belirtisinden sonra ne kadar tam tetikte kaldığı.\nVarsayılan: 12."
+    },
+    "Sandbox_ProjectALife.PerceptionAlertHoldSeconds": {
+      "tr": "[Uzman] Tetikte kalma süresi (saniye)"
+    },
+    "Sandbox_ProjectALife.PerceptionAlertHoldSeconds_tooltip": {
+      "tr": "Bir NPC'nin bir tehdidi görüp gözden kaybettikten sonra ne kadar tetikte kaldığı.\nVarsayılan: 20."
+    },
+    "Sandbox_ProjectALife.PerceptionSuspicionSeconds": {
+      "tr": "[Uzman] Şüphede kalma süresi (saniye)"
+    },
+    "Sandbox_ProjectALife.PerceptionSuspicionSeconds_tooltip": {
+      "tr": "Bir NPC'nin bir sesten ya da bir an gördüğü bir şeyden sonra ne kadar şüpheli kaldığı.\nVarsayılan: 15."
+    },
+    "Sandbox_ProjectALife.PerceptionCalloutTiles": {
+      "tr": "[Uzman] Seslenme mesafesi (kare)"
+    },
+    "Sandbox_ProjectALife.PerceptionCalloutTiles_tooltip": {
+      "tr": "Bir NPC'nin bir tehdit için bağırışının ekip arkadaşlarına ne kadar uzağa ulaştığı. 0 seslenmeleri kapatır.\nVarsayılan: 25."
+    },
+    "Sandbox_ProjectALife.PerceptionCalloutDelayMs": {
+      "tr": "[Uzman] Seslenme gecikmesi (ms)"
+    },
+    "Sandbox_ProjectALife.PerceptionCalloutDelayMs_tooltip": {
+      "tr": "Bir ekip arkadaşının bağırışa ne kadar sürede tepki verdiği.\nVarsayılan: 900."
+    },
+    "Sandbox_ProjectALife.TalkSlowTime": {
+      "tr": "Cevap seçerken zamanı yavaşlat"
+    },
+    "Sandbox_ProjectALife.TalkSlowTime_tooltip": {
+      "tr": "Yalnızca tek oyunculuda. Cevap seçerken oyun yavaş akar, seçince ya da kapatınca yavaşça normale döner.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.TalkSlowFactor": {
+      "tr": "Seçerken yavaşlama hızı"
+    },
+    "Sandbox_ProjectALife.TalkSlowFactor_tooltip": {
+      "tr": "Cevap seçerken oyunun ne hızda aktığı: 1 normal hız, 0.2 beşte biri, 0.05 neredeyse donmuş. Yalnızca zamanı yavaşlatma açıkken kullanılır.\nVarsayılan: 0.2."
+    },
+    "Sandbox_ProjectALife.TalkFade": {
+      "tr": "Konuşma penceresi yavaşça açılıp kapansın"
+    },
+    "Sandbox_ProjectALife.TalkFade_tooltip": {
+      "tr": "Cevaplar ve pencere yavaşça belirip kaybolur, seçilen cevap bir kez parlar. Hareketli yazı kapalıysa bu da kapalı.\nVarsayılan: açık.",
+      "not": "Animated text seçeneği → Hareketli yazı; static text → sabit yazı (IG_UI paketinde aynısı)."
+    },
+    "Sandbox_ProjectALife.TalkCyber": {
+      "tr": "Konuşma listesi: sonucu olan cevaplar önce"
+    },
+    "Sandbox_ProjectALife.TalkCyber_tooltip": {
+      "tr": "Bir sonucu olan cevaplar sarı renkte en üstte görünür, sorulmuş sorular listeden düşer, beceri ya da itibar isteyen cevaplarda küçük bir etiket çıkar.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.TalkKeyF": {
+      "tr": "Biri varken fener tuşuyla konuş"
+    },
+    "Sandbox_ProjectALife.TalkKeyF_tooltip": {
+      "tr": "Görüş alanında konuşacak biri varsa F fener yerine konuşmayı açar; yoksa F fener olarak kalır. Konuşma tuşu her zaman çalışır. Kapalı: yalnızca konuşma tuşu.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.TalkLocked": {
+      "tr": "Kilitli beceri ve itibar cevaplarını göster"
+    },
+    "Sandbox_ProjectALife.TalkLocked_tooltip": {
+      "tr": "Henüz yeterli olmadığın beceri ve itibar cevaplarını, gereklilikleriyle birlikte soluk gösterir.\nVarsayılan: kapalı."
+    },
+    "Sandbox_ProjectALife.EggsEnabled": {
+      "tr": "Sürpriz karşılaşmalar",
+      "not": "Easter egg → sürpriz (oyuncuya açık, sözlükte yok; öneri)."
+    },
+    "Sandbox_ProjectALife.EggsEnabled_tooltip": {
+      "tr": "Arada bir oyuncunun yakınında çıkan, nadir ve zararsız mizahi karşılaşmalar: yolda dans eden biri, trafik konisi toplayan biri, yolunu kaybetmiş bir turist. Üste ya da çatışma sırasında hiç çıkmazlar.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.EggsFrequency": {
+      "tr": "Sürpriz sıklığı (0 kapalı, 1 nadir, 2 normal, 3 sık)"
+    },
+    "Sandbox_ProjectALife.EggsFrequency_tooltip": {
+      "tr": "Oyunun sürpriz için ne sıklıkla zar attığı: 1 yaklaşık 3 saatte bir, 2 her 90 dakikada, 3 her 45 dakikada (oyun zamanı); zar boş da gelebilir. 0 sürprizleri kapatır.\nVarsayılan: 2."
+    },
+    "Sandbox_ProjectALife.EggsAllowMythic": {
+      "tr": "Efsanevi sürprizlere izin ver"
+    },
+    "Sandbox_ProjectALife.EggsAllowMythic_tooltip": {
+      "tr": "Efsanevi sürprizler en nadir olanlardır, bazıları bir dünyada yalnızca bir kez görülebilir. Yalnızca sıradan ve nadir sürprizler kalsın diye bunu kapat.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.EggsDebugHints": {
+      "tr": "Sürpriz hata ayıklama ipucu"
+    },
+    "Sandbox_ProjectALife.EggsDebugHints_tooltip": {
+      "tr": "Bir sürpriz ortaya çıkınca oyuncunun üstünde küçük bir not gösterir, böylece yönetici gidip bakabilir. Başka kimseye söylenmez.\nVarsayılan: kapalı."
+    },
+    "Sandbox_ProjectALife.WheelScale": {
+      "tr": "Emir çarkının boyutu (yüzde)"
+    },
+    "Sandbox_ProjectALife.WheelScale_tooltip": {
+      "tr": "Q'ya basılı tutunca açılan yol arkadaşı emir çarkının normal boyutuna oranı; oyuncuyu daha az kapatsın diye. 70 ile 130 arası.\nVarsayılan: 100."
+    },
+    "Sandbox_ProjectALife.WheelAnimated": {
+      "tr": "Emir çarkı animasyonu"
+    },
+    "Sandbox_ProjectALife.WheelAnimated_tooltip": {
+      "tr": "Emir çarkını saniyenin onda biri kadar sürede belirtip büyüterek açar ve kapatır. A-Life seçeneklerinde sabit yazıyı seçen oyuncularda çark her zaman anında açılır.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.TalkAskGov": {
+      "tr": "NPC'lerin sana soru sorma sıklığını sınırla"
+    },
+    "Sandbox_ProjectALife.TalkAskGov_tooltip": {
+      "tr": "Aynı anda yalnızca bir soru açık olur, farklı kişilerin soruları arasında boşluk kalır, önemsiz sorular kısıtlanır. Tehlike ve soygun soruları her zaman gelir.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.TalkAskGap": {
+      "tr": "Farklı NPC'lerin soruları arasındaki boşluk (saniye)"
+    },
+    "Sandbox_ProjectALife.TalkAskGap_tooltip": {
+      "tr": "Başka bir kişiden ya da ekipten daha önemsiz bir sorunun sana ulaşabilmesi için sondan sonra geçmesi gereken gerçek saniye. Soru sınırı açık olmalı.\nVarsayılan: 60."
+    },
+    "Sandbox_ProjectALife.TalkAskSame": {
+      "tr": "Aynı NPC'nin soruları arasındaki boşluk (saniye)"
+    },
+    "Sandbox_ProjectALife.TalkAskSame_tooltip": {
+      "tr": "Aynı kişinin ya da ekibin son sorusundan sonra sana yeni bir şey sorabilmesi için geçmesi gereken gerçek saniye. Soru sınırı açık olmalı.\nVarsayılan: 180."
+    },
+    "Sandbox_ProjectALife.TalkAskCap": {
+      "tr": "Gerçek saatte selam ve teklif sayısı"
+    },
+    "Sandbox_ProjectALife.TalkAskCap_tooltip": {
+      "tr": "Gerçek saatte sana en fazla bu kadar takas teklifi ve sohbet sorusu gelir; 0 hepsini engeller. Soru sınırı açık olmalı.\nVarsayılan: 4."
+    },
+    "Sandbox_ProjectALife.TalkChecks": {
+      "tr": "Konuşma cevaplarında beceri kontrolü"
+    },
+    "Sandbox_ProjectALife.TalkChecks_tooltip": {
+      "tr": "İnsanları soymak ya da onlara emir vermek Güç ister, zorlu gruplara karşı daha fazlası. Geçemeyeceğin cevap gerekliliğiyle birlikte soluk görünür.\nVarsayılan: açık."
+    },
+    "Sandbox_ProjectALife.TalkCheckStrict": {
+      "tr": "Konuşma kontrollerinin katılığı (yüzde)"
+    },
+    "Sandbox_ProjectALife.TalkCheckStrict_tooltip": {
+      "tr": "Her gruba karşı gereken Gücü ölçekler. 100 standart tablo (askerler 10, siviller yaklaşık 4), 50 yarıya indirir. Üst sınır 10 kalır.\nVarsayılan: 100."
+    }
+  }
+}

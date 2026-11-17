@@ -1,0 +1,319 @@
+# PAKET Y10R · parça 1/1 · satır 1-240 (240 satır)
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# Kurallar: aşağıdaki ARAYÜZ kuralları (sahne/karakter canlandırma yok). Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.
+# ARAYÜZ DOSYASI: Bu satırlar konuşma değil, EKRAN METNİ: düğme, ayar, ipucu, bildirim, etiket. Sahne ya da karakter canlandırma yok; kısa, net ve tutarlı yaz.
+# BİÇİM: Etiketlerde emir ya da isim biçimi kullan ('Kaydet', 'Teçhizat'). 'siz' hitabı yok, '-dır' yok; ipucu ve açıklamada gerekirse 'sen'. Sonda nokta İngilizcedeki gibi: İngilizcede yoksa yazma, varsa koru.
+# KORUNACAKLAR: {yer_tutucu}, %%, %1, \n ve <...> etiketleri ile renk kodları aynen kalır. Kısaltmalar (HP, NPC, GM, MHz…) ve özel adlar (kişi, grup, yer, silah adı) çevrilmez. Sayıları ve birimleri koru.
+# UZUNLUK: Türkçe İngilizceden belirgin uzun olmasın; düğmelerde ve sekme adlarında en fazla yaklaşık 1,3 katı. Sığmıyorsa kısalt, anlamı koru.
+# BÜYÜK HARF: İngilizcede BÜYÜK HARFLİ yazılmış etiket Türkçede de büyük harfli olur (İ/ı kurallarıyla).
+# EKRAN: Her ##### başlığının altındaki 'EKRAN:' notu metnin hangi ekranda ya da panelde göründüğünü söyler; önce onu oku. Etiket sütunu kodda alanın adıdır (ui, tip, label…), çıktıya yazma.
+# TERİMLER (bağlayıcı; yalnız bu dosyada geçenler; sözcük aynı anlamda geçiyorsa bu karşılığı kullan): Gear → Teçhizat; Companion → Yol arkadaşı; Survivor → Hayatta kalan; weapon → Silah; ammo → Mermi; friendly → Dost; they are carrying → Üstünde şunlar var; water → Su; cancel → İptal
+# Girdi biçimi: N | etiket | İngilizce
+
+##### EMİR ÇARKI · YOL ARKADAŞI SAYFASI #####
+# EKRAN: Emir çarkındaki dilim; tıklayınca yol arkadaşı sayfası açılır
+1 | ui | Companion sheet
+
+##### YÖNETİCİ KONSOLU · SEKME #####
+# EKRAN: Yönetici konsolunda yol arkadaşlarını listeleyen sekmenin başlığı
+2 | title | COMPANIONS
+
+##### YOL ARKADAŞI SAYFASI · BOŞ DURUM #####
+# EKRAN: Yol arkadaşı sayfası penceresi; yol arkadaşı yokken ya da henüz seçilmemişken çıkan yönlendirme yazıları
+3 | ui | No companions yet. Right-click a friendly survivor and ask them to come with you.
+4 | ui | Pick a companion on the left.
+
+##### YOL ARKADAŞI ÇUBUĞU #####
+# EKRAN: Yol arkadaşı çubuğunda onay isteyen düğmeye ilk tıklayınca çıkan ipucu
+5 | ui | Click again to confirm
+
+##### YOL ARKADAŞI SAYFASI #####
+# EKRAN: Yol arkadaşı sayfası penceresi: sekmeler (Stats, Tasks, Journal, Gear), beceri ve ruh hâli çubukları, yol arkadaşıyla ilişki, günlük kayıtları · sekme adları, beceri adları, meslek unvanları, ruh hâli ve aciliyet etiketleri
+6 | ui | Stats
+7 | ui | Tasks
+8 | ui | Journal
+9 | ui | Gear
+10 | ui | First aid
+11 | ui | Carpentry
+12 | ui | Music
+13 | ui | Foraging
+14 | ui | Fighter
+15 | ui | Builder
+16 | ui | Cook
+17 | ui | Forager
+18 | ui | Musician
+19 | ui | Companion
+20 | ui | Devoted
+21 | ui | Urgent
+22 | ui | Getting low
+23 | ui | Out of sight
+24 | ui | Waiting
+
+##### YOL ARKADAŞI SAYFASI #####
+# EKRAN: Yol arkadaşı sayfası penceresi: sekmeler (Stats, Tasks, Journal, Gear), beceri ve ruh hâli çubukları, yol arkadaşıyla ilişki, günlük kayıtları · durum çubukları (açlık, susuzluk…), güven, yol arkadaşıyla ilişki
+25 | label | Health
+26 | ui | Hunger
+27 | ui | Thirst
+28 | ui | Stress
+29 | ui | Tiredness
+30 | label | Skills
+31 | line | {count} loaded
+32 | ui | {count} spare
+33 | label | Trust
+34 | text | About to leave
+35 | label | Mood
+36 | text | Thinking about leaving
+37 | ui | Joined today
+38 | ui | {count} days together
+39 | label | With you
+40 | label | You and them
+
+##### YOL ARKADAŞI SAYFASI #####
+# EKRAN: Yol arkadaşı sayfası penceresi: sekmeler (Stats, Tasks, Journal, Gear), beceri ve ruh hâli çubukları, yol arkadaşıyla ilişki, günlük kayıtları · emir etiketleri, mermi ve çanta bilgisi
+41 | text | Guarding a spot
+42 | label | Up next
+43 | label | Room job
+44 | label | Doing now
+45 | ui | Firing
+46 | ui | Items on the ground
+47 | label | Noise
+48 | label | Torch
+49 | label | Style
+50 | label | Standing orders
+51 | text | {count} rounds
+52 | label | In the weapon
+53 | label | Spare ammo
+54 | label | Bag
+55 | label | Items carried
+56 | label | Weight carried
+
+##### YOL ARKADAŞI SAYFASI #####
+# EKRAN: Yol arkadaşı sayfası penceresi: sekmeler (Stats, Tasks, Journal, Gear), beceri ve ruh hâli çubukları, yol arkadaşıyla ilişki, günlük kayıtları · günlük (Journal) kayıtları: yol arkadaşıla yaşananlar
+57 | ui | You helped a stranger
+58 | ui | You shared food
+59 | ui | You shared water
+60 | ui | You patched them up
+61 | ui | You shared ammo
+62 | ui | You played it careful
+63 | ui | You played music
+64 | ui | You killed someone who gave up
+65 | ui | You killed a bystander
+66 | ui | You robbed a friendly
+67 | ui | You left them behind
+68 | ui | Shots landed close by
+69 | ui | You hit them
+70 | ui | You ignored them
+71 | ui | Something happened between you
+72 | ui | Noticed a piano
+73 | ui | Noticed an arcade machine
+74 | ui | Noticed a bathtub
+75 | ui | Noticed something playing music
+76 | ui | Noticed a guitar
+77 | ui | Noticed a television
+78 | ui | Noticed a radio
+79 | ui | Noticed a fireplace
+80 | ui | Noticed something
+81 | ui | Joined you
+82 | ui | Parted ways
+83 | ui | Died
+84 | ui | Now sees you as: {level}
+85 | ui | Wanted a word
+86 | ui | Picked up: {item}
+87 | ui | Picked something up
+88 | ui | Day {day}
+
+##### YOL ARKADAŞI SAYFASI #####
+# EKRAN: Yol arkadaşı sayfası penceresi: sekmeler (Stats, Tasks, Journal, Gear), beceri ve ruh hâli çubukları, yol arkadaşıyla ilişki, günlük kayıtları · düğmeler ve boş durum yazıları
+89 | label | Cancel order
+90 | label | Part ways
+91 | ui | Nothing written down yet
+92 | ui | Nothing to show yet
+
+##### YOL ARKADAŞI SAYFASI · SAYAÇLAR #####
+# EKRAN: Yol arkadaşı sayfasında yol arkadaşıla aranızdaki iyilik ve şikâyet sayaçlarının adı
+93 | ui | Favours
+94 | ui | Complaints
+
+##### YOL ARKADAŞI SAYFASI · TEÇHİZAT #####
+# EKRAN: Yol arkadaşı sayfasının Teçhizat sekmesi: yol arkadaşının taşıdığı eşyalar, ver/al/kuşan/bırak düğmeleri, eşya etiketleri
+95 | ui | What they are carrying
+96 | label | Take
+97 | label | Unequip
+98 | label | Equip
+99 | label | Drop
+100 | tag | In use
+101 | tag | Worn
+102 | ui | Back to their items
+103 | ui | Give an item
+104 | open | Open full inventory
+105 | ui | View only. Only their owner can move items.
+106 | ui | Carrying
+107 | ui | Give from your items
+108 | ui | You have nothing to give
+109 | label | Give
+110 | ui | They are carrying nothing
+111 | ui | {count} more items are not shown
+
+##### YOL ARKADAŞI ENVANTERİ #####
+# EKRAN: Yol arkadaşının envanteriyle işlem yaparken: kategori adları, işlem sonucu ve olmayınca nedenini söyleyen kısa bildirimler
+112 | ui | Food and water
+113 | ui | Tools
+114 | ui | Other
+115 | ui | Inventory access is turned off
+116 | ui | They are not here
+117 | ui | Only their owner can do that
+118 | ui | Stand closer to them
+119 | ui | That item is no longer there
+120 | ui | They are using that weapon. Unequip it first
+121 | ui | They are wearing that
+122 | ui | Too heavy to carry
+123 | ui | One moment
+124 | ui | They will not use that weapon
+125 | ui | That is not a weapon
+126 | ui | That is not possible
+127 | ui | Taken
+128 | ui | Given
+129 | ui | Equipped
+130 | ui | Unequipped. You can take it now
+# TERİMLER (bağlayıcı; yalnız bu dosyada geçenler; sözcük aynı anlamda geçiyorsa bu karşılığı kullan): Hold → Dur; Outpost → Karakol; Squad → Tim; Crew → Ekip; Group → Grup; Encounter → Karşılaşma; Survivor → Hayatta kalan; helicopter → Helikopter; saved → Kaydedildi; camping → kamp yapıyor; criminal → Suçlu; elite → Seçkin; painkillers → Ağrı kesici; patrol → Devriye; patrolling → devriye geziyor; rescue → Kurtarma; search → Arama; water → Su
+# Girdi biçimi: N | etiket | İngilizce
+
+##### KONUŞMA PENCERESİ · YOL ARKADAŞI EMİRLERİ #####
+# EKRAN: Konuşma penceresinde yol arkadaşına verilen emir düğmeleri (text) ve altlarında çıkan sonuç/risk notları (impact, risk)
+131 | impact | They join you and follow your lead
+132 | risk | You can part ways any time
+133 | impact | They fall in behind you
+134 | text | Hold here
+135 | impact | They stay put and watch
+136 | text | Stack up on this door
+137 | impact | They line up beside the nearest door and wait
+138 | risk | Needs a door close by
+
+##### YARALI MENÜSÜ #####
+# EKRAN: Yaralıya müdahale menüsünün seçenekleri (kanamayı durdur, kırığı sar, ağrı kesici ver gibi)
+139 | ui | Stop the bleeding
+140 | ui | Splint the leg
+141 | ui | Give painkillers
+142 | ui | Give water
+143 | ui | Mercy kill
+
+##### TİM HARİTASI · KATMAN #####
+# EKRAN: Dünya haritasında tim katmanının filtre ve etiket düğmeleri; araç ve helikopter durumları
+144 | ui | Parked
+145 | ui | Left behind
+146 | ui | Heli
+147 | ui | Planned
+148 | ui | Fighting
+149 | ui | Routes: on
+150 | ui | Routes: off
+151 | ui | Just got out
+152 | ui | Session only
+153 | ui | Labels: smart
+154 | ui | Labels: all
+155 | ui | Labels: none
+156 | ui | Search squads
+
+##### TİM HARİTASI · SİMGE İPUCU #####
+# EKRAN: Haritada tim simgesinin üstüne gelince çıkan taşıt durumu
+157 | liste Glyphs | In a car
+158 | liste Glyphs | In a helicopter
+
+##### TİM HARİTASI · İPUCU #####
+# EKRAN: Haritada bir tim simgesinin üstüne gelince çıkan ipucu kutusu: grup türü, görevi, anlık eylemi, taşıtı, sıradaki tim bilgisi · grup türü adları ve helikopter durumları (kutunun başlığı)
+159 | liste Tip | of
+160 | family | Family group
+161 | federation | Federation crew
+162 | rescue | Rescue crew
+163 | crime | Criminals
+164 | gang | Gang
+165 | elite | Elite unit
+166 | prison | Prison group
+
+##### TİM HARİTASI · İPUCU #####
+# EKRAN: Haritada bir tim simgesinin üstüne gelince çıkan ipucu kutusu: grup türü, görevi, anlık eylemi, taşıtı, sıradaki tim bilgisi · timin genel görevi/faaliyeti (Attacking, Patrolling, Garrisoned…)
+167 | heli_orbit | Helicopter circling
+168 | heli_pass | Helicopter flying over
+169 | heli_drop | Helicopter dropping a crew
+170 | camp | Camping
+171 | guard | Standing guard
+172 | raid | Raiding
+173 | blockade | Holding a roadblock
+174 | poi_defenders | Defending a site
+175 | outpost | Holding an outpost
+176 | assassination | Hunting a survivor
+177 | assault | Attacking
+178 | rob | Robbing someone
+179 | escort | Escorting
+180 | patrol | Patrolling
+181 | orbit | Circling
+182 | rejoin | Rejoining the group
+183 | forward | Moving forward
+184 | garrisoned | Garrisoned
+185 | idle | Resting
+
+##### TİM HARİTASI · İPUCU #####
+# EKRAN: Haritada bir tim simgesinin üstüne gelince çıkan ipucu kutusu: grup türü, görevi, anlık eylemi, taşıtı, sıradaki tim bilgisi · timin o anki küçük eylemi (küçük harfle, 'şu an …' cümlesinin parçası olarak okunur)
+186 | hold | standing guard
+187 | hold_pressure | holding position
+188 | patrol_rest | resting on patrol
+189 | scan | watching the area
+190 | search_body | searching a body
+191 | collect_supplies | collecting supplies
+192 | search_container | searching a container
+193 | warming | warming up
+194 | deposit_supplies | dropping off supplies
+195 | recover_endurance | catching their breath
+196 | radio_call | on the radio
+197 | avoid_zombies | avoiding zombies
+198 | visit_hold | visiting
+199 | fortify_opening | barricading
+200 | treat_groupmate | treating a wounded friend
+201 | standoff_hold | in a standoff
+202 | rescue_drag | dragging a wounded friend
+203 | panic_freeze | frozen with fear
+204 | idle_sit_ground | sitting
+
+##### TİM HARİTASI · İPUCU #####
+# EKRAN: Haritada bir tim simgesinin üstüne gelince çıkan ipucu kutusu: grup türü, görevi, anlık eylemi, taşıtı, sıradaki tim bilgisi · taşıt, yön ve alt bilgi satırları (Doing, Going to, Danger, Next squad…)
+205 | parked | Car parked nearby
+206 | abandoned | Car left behind
+207 | foot | On foot
+208 | doing | Doing
+209 | group | Group
+210 | going | Going to
+211 | home | From
+212 | debug | Debug
+213 | danger | Danger
+214 | next | Next squad
+215 | out | Squads out
+216 | game | game time
+217 | fight | In a fight
+218 | arrives | arrives in
+219 | encounter | marked encounter
+220 | hint | Right-click for actions
+221 | far | far away
+222 | more | more lines
+223 | under | under a minute
+224 | session | This session only
+225 | saved | Saved with the world
+226 | garrison | Guarding an outpost
+227 | marked | Marked encounter
+228 | outpostSquad | Outpost squad out
+229 | sentOut | squad(s) sent out
+
+##### TİM HARİTASI · İPUCU #####
+# EKRAN: Haritada bir tim simgesinin üstüne gelince çıkan ipucu kutusu: grup türü, görevi, anlık eylemi, taşıtı, sıradaki tim bilgisi · ipucunun son satırları: tim sınırı ve yönetici notları
+230 | squads | squads
+231 | siteIs | Site is
+232 | preset | this site type sends no squads
+233 | sandbox | team limit is 0 in sandbox
+234 | admin | lowered by an admin
+
+##### KISA SÖZCÜKLER (kod içinde geçen; ekranda görünüp görünmediği belirsiz) #####
+# EKRAN: Oyunun kodunda tek başına geçen kısa sözcükler (durum, yön, eşleştirme sözcüğü). Bağlam yok: sözcüğü en yaygın, yalın anlamıyla küçük harfle çevir; kişi adı ve kod gibi duruyorsa aynen bırak
+235 | SÖZCÜK · CompanionRules | people
+236 | SÖZCÜK · CompanionRules | in
+237 | SÖZCÜK · CompanionRules | foraging
+238 | SÖZCÜK · CompanionRules | Arianne
+239 | SÖZCÜK · Companions | Cooking
+240 | SÖZCÜK · Companions | Mechanics

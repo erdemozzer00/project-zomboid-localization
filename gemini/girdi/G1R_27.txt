@@ -1,0 +1,458 @@
+# PAKET G1R · parça 27/35 · satır 9156-9532 (377 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar oyunda şu an skill'den önceki eski bir çeviriyle görünüyor; sıfırdan, İngilizceden kur. Her başlığın altındaki 'NEREDE:' oyuncunun bu sözle nasıl karşılaştığını, '#' notu sahneyi anlatır. Önce bunları oku, satırı o anda o yerde duyulacak sözle yaz.
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+##### PLEAD #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yalvarıyor (öldürme, bırak).
+9156 | tmp=fresh | NO NO NO, PLEASE DON'T SHOOT, I DIDN'T MEAN TO!
+9157 | tmp=fresh | I didn't do anything! I SWEAR I didn't do anything!
+9158 | tmp=fresh | Please, please, I'll do whatever you say, anything
+9159 | tmp=fresh | What did I do? Just tell me what I did!
+9160 | tmp=fresh | Look at me, look at my face, I'm not a threat
+9161 | tmp=fresh|mood=fear | No no- I'll do anything, just don't, please!
+9162 | tmp=seasoned | You don't have to do this, you really don't
+9163 | tmp=seasoned | Whatever you heard about me, it's not true, please
+9164 | tmp=seasoned | I'll leave the county, I'll leave the whole county
+9165 | tmp=fresh,seasoned | I've got food in the bag, take it, take all of it
+9166 | tmp=fresh,seasoned | I'll walk, I'll walk right now and never come back
+9167 | tmp=fresh,seasoned | I'm nobody, I'm NOBODY, I'm not worth a bullet
+9168 | tmp=fresh,seasoned | Don't shoot, there's more of them everywhere, they'll hear!
+9169 | tmp=fresh,seasoned | I surrendered, I already surrendered, please see that
+9170 | reg=civilian,family,worker|tmp=fresh | There's a little girl waiting on me, please, please
+9171 | reg=civilian,family,worker|tmp=fresh | Hands are up! Hands are UP! I'm not doing nothing!
+9172 | reg=civilian,family,worker|tmp=fresh | Can of peaches in the side pocket, take it, I was saving it for nothing anyway
+9173 | reg=civilian,family,worker|tmp=fresh | I dug two graves this week with a garden spade, don't make somebody dig mine
+9174 | reg=civilian,family,worker|tmp=fresh | Whatever you want, whatever it is, say it slow so I hear it right
+9175 | role=rescue_clergy,family_woman|tmp=fresh | Please! I just taught Sunday school, I never hurt a soul!
+9176 | role=rescue_medical | I'm a nurse, I can help you, let me help you instead
+9177 | role=rescue_medical | I'm a paramedic, kill me and the next person who needs stitches dies too
+9178 | role=rescue_medical | I'm a nurse, eight years at the county, you'll want me alive eventually
+9179 | role=worker|tmp=fresh,seasoned|world=vehicle | I fix engines, that's all I do, I fix engines
+9180 | role=family_elder|sex=f | I'm seventy-one years old, let an old woman go home
+9181 | role=family_elder|sex=f | I'm an old woman, what am I going to do to you? Let me be
+9182 | role=family_youth | I'm only nineteen, I haven't done anything to anybody
+9183 | tmp=seasoned,veteran|world=road | One shot and every dead thing on this road comes, think!
+9184 | tmp=seasoned|mood=grim | Take my boots if you want them, just let me walk off
+9185 | role=rescue_clergy|mood=grim | God is watching you right now, he is watching
+9186 | tmp=fresh|hour=20,4|mood=fear | Please, I just want to see morning, that's all, morning
+9187 | reg=civilian,family|tmp=fresh | Please, don't, I have two girls waiting at my sister's in Riverside, please
+9188 | reg=civilian,family|tmp=fresh | I'll turn around and walk away, okay? Please let me
+9189 | reg=civilian,family|tmp=fresh | Take the bag, take the whole bag, just point that somewhere else, please
+9190 | reg=civilian,family|tmp=fresh | I'm nobody, I sold carpet in Louisville, please, I'm nobody
+9191 | reg=civilian,family|tmp=fresh | I'm just trying to get by, please let me go
+9192 | reg=civilian,family|tmp=fresh | I won't tell anybody about you, who would I even tell?
+9193 | reg=civilian,family|tmp=fresh | Please, I'm a nurse, I can be useful to you, just don't
+9194 | reg=civilian,family|tmp=fresh | I'm begging, look at me, I'm on my knees here
+9195 | reg=civilian,family|tmp=fresh | I have to get out of here, please let me leave
+9196 | reg=civilian,family|tmp=fresh | My hands are up- see? Nobody's gotta get hurt, right?!
+9197 | reg=civilian,family|tmp=fresh | There's a case of canned peaches in my car, it's yours, just let me walk
+9198 | reg=civilian,family|tmp=fresh | We're not sick, none of us, look at my arms, please, just look
+9199 | reg=civilian,family|tmp=fresh | I've got sixty dollars, I know it's worth nothing now, it's all I have
+9200 | reg=civilian,family|tmp=fresh | I don't even know how to fire a gun, I'm no threat to you
+9201 | reg=civilian,family|tmp=fresh | I'm diabetic and I can barely walk, I'm just trying to reach the church
+9202 | reg=civilian,family|tmp=fresh | I just want to make it through today, please let me
+9203 | reg=civilian,family|tmp=fresh | Please, God, please, I'll do whatever you want, just put it down
+9204 | reg=civilian,family|tmp=fresh | I'm not with anybody, I'm not with anybody! I'm just trying to live
+9205 | reg=civilian,family|tmp=fresh | I watched those things take the whole Miller family, please don't let a person be what gets me
+9206 | reg=civilian,family|tmp=fresh | I taught second grade at the elementary school, I'm not dangerous, I promise
+9207 | reg=civilian,family|tmp=fresh | I got bit yesterday, I've got maybe a day, let me spend it at home, okay?
+9208 | reg=civilian,family|tmp=fresh | My dog's tied up at home, nobody else is going to untie him, please
+9209 | reg=civilian,family|tmp=fresh | I'll forget your face, I'm already forgetting it
+9210 | reg=civilian,family|tmp=fresh | It's just me and my grandpa left, he can't walk, I have to get back to him
+9211 | reg=civilian,family|tmp=fresh | Please don't leave me dead out here
+9212 | reg=civilian,family|tmp=fresh | Please, I'm only trying to get by, I don't want any trouble!
+9213 | reg=civilian,family|tmp=fresh | Please, my mom's in Rosewood and she doesn't know I'm alive
+9214 | reg=civilian,family|tmp=fresh | Whatever I did, I'm sorry, I don't even know what it was, but I'm sorry
+9215 | reg=civilian,family|tmp=fresh | There's a dozen of them behind me! I'm just running, please let me through!
+9216 | reg=civilian,family|tmp=fresh | My little girl still sleeps with the light on, please, somebody has to turn it on
+9217 | reg=civilian,family|tmp=fresh | It's for my girl over at the Kelso place, please, it's all I got!
+9218 | reg=civilian,family|tmp=fresh | They got my wife Tuesday, my boy Thursday, please, let me walk, if that's alright
+9219 | reg=civilian,family|tmp=fresh | You can have all of it, could I keep the picture? It's the only one
+9220 | reg=civilian,family|tmp=fresh | Don't let it be a person, I came this far, don't let it be a person
+9221 | reg=civilian,family|tmp=fresh | Please, I need to keep going... that's all I'm asking
+9222 | reg=civilian,family|tmp=fresh | I'll walk backwards, see? Backwards, nobody has to do anything
+9223 | reg=civilian,family|tmp=fresh | I'll count to a thousand, out loud, just let me go, okay?
+9224 | reg=civilian,family|tmp=fresh | You were somebody's kid once, I'm somebody's kid, that's all I got
+9225 | reg=civilian,family|tmp=fresh | There's a dog tied at my place, nobody else knows he's there, please
+9226 | reg=civilian,family|tmp=fresh | I'm not brave, I want you to know I'm not gonna be brave about this
+9227 | reg=civilian,family|tmp=fresh | Please, I can't give you anything worth my life
+9228 | reg=civilian,family|tmp=fresh|sex=m|day=0,20 | They got my wife on Friday, there's nothing left on me worth taking, just let me pass, if that's alright
+9229 | reg=civilian,family|tmp=fresh|sex=f | Please don't do this, I can't fight you
+9230 | reg=civilian,family|tmp=fresh|sex=f | My husband's a deputy, he'll... no, no, he won't, please just let me go
+9231 | reg=civilian,family|tmp=fresh|sex=f | Please, I'm pregnant, please
+9232 | reg=civilian,family|tmp=fresh|hour=4,11 | I buried my brother this morning with a garden shovel, I can't do any more today, okay?
+9233 | reg=civilian,family|tmp=fresh|world=road | Don't shoot, I'll go back the way I came, I'll never come down this road again
+9234 | reg=family|tmp=fresh | Don't hurt anybody, please, you can still stop
+9235 | reg=civilian,family|tmp=fresh|world=vehicle | Take the truck keys, it's the green one out front, it runs, please
+9236 | reg=civilian,family|tmp=fresh|sex=m | Keep the stuff, I don't care about the stuff, I just want to see my wife again
+9237 | reg=civilian,family|tmp=fresh|day=1,20 | Let me go, I swear on my mother's grave, I dug it Saturday
+9238 | reg=civilian,family|tmp=seasoned|day=28,400 | I've been out here a month, I've got no fight left in me, let me go
+9239 | role=rescue_clergy | I'm a preacher with a bad back, shooting me would waste a bullet
+9240 | reg=civilian,worker|tmp=fresh,seasoned | Take the bag, take the boots, leave me the water for the walk back
+9241 | reg=civilian,worker|tmp=fresh,seasoned | I'll tell you where there's food, real food, let me be the one who walks off
+9242 | reg=civilian,worker|tmp=fresh,seasoned|world=road | I carried mail thirty years, not one house on this road would want this
+9243 | reg=civilian|tmp=fresh | I've got a house key on me and it don't open anything anymore
+9244 | reg=civilian|tmp=fresh | I'm not with anybody, haven't been with anybody since the sixth
+9245 | reg=family,civilian|tmp=fresh | I don't want a fight, please just listen to me
+9246 | reg=civilian,worker|tmp=fresh | Take the rifle, I got no shells for it, I been carrying it for show
+9247 | reg=civilian,worker|tmp=fresh | I stocked shelves, that's my whole life, start to finish, please
+9248 | role=family_man | Please don't shoot, you can still change your mind
+9249 | reg=civilian,family,worker,rescue|tmp=fresh | Please don't shoot me! I'll do anything, just don't shoot!
+9250 | reg=civilian,family,worker,rescue|tmp=fresh | Don't shoot! Please! I want to live!
+9251 | reg=civilian,family,worker,rescue|tmp=fresh | I got nothing, see?! Hands are empty- please don't!
+9252 | reg=civilian,family,worker,rescue|tmp=fresh | No gun, I have no gun! Just stop shooting at me!
+9253 | reg=civilian,family,worker,rescue|tmp=fresh | I'm begging you, put the gun down, I'll leave
+9254 | reg=civilian,family,worker,rescue|tmp=fresh | Please don't stab me! Please! Take whatever you want!
+9255 | reg=civilian,family,worker,rescue|tmp=fresh | Put the knife away! I'm not going to hurt you!
+9256 | reg=civilian,family,worker,rescue|tmp=fresh | Not the blade! I'll give you anything!
+9257 | reg=civilian,family,worker,rescue|tmp=fresh | Not that bat again! Please, I'll go!
+9258 | reg=civilian,family,worker,rescue|tmp=fresh | Put the bat down! I'll leave, please...
+9259 | reg=civilian,family,worker,rescue|tmp=fresh | Please! I can't take another hit from that pipe!
+9260 | reg=civilian,family,worker,rescue|tmp=fresh | Don't punch me again! Please!
+9261 | reg=civilian,family,worker,rescue|tmp=fresh | Stop punching me! I'll do whatever you ask!
+9262 | reg=civilian,family,worker,rescue|tmp=fresh | Don't run me over! Please! I'm just trying to get through!
+9263 | reg=civilian,family,worker,rescue|tmp=fresh | Please stop swinging at me! I surrender!
+9264 | reg=civilian,family,worker,rescue|tmp=fresh | Don't swing it at me! I'll go, I'll go!
+9265 | reg=civilian,family,worker,rescue|tmp=fresh | Please, please don't hurt me, I've had enough
+9266 | reg=civilian,family,worker,rescue|tmp=fresh | I'll give you anything, just take it and go
+9267 | reg=civilian,family,worker,rescue|tmp=fresh | I'm nobody, I'm nobody important, please
+9268 | reg=civilian,family,worker,rescue|tmp=fresh | I didn't do anything to you! Why are you doing this?
+9269 | reg=civilian,family,worker,rescue|tmp=fresh | That's all I have, that's all I own, please leave me the boots
+9270 | reg=civilian,family,worker,rescue|tmp=fresh | You can have the food, just leave the photos, they're all I've got of her
+9271 | reg=civilian,family,worker,rescue|tmp=fresh | I've been robbed already today, there's nothing left to take
+9272 | reg=civilian,family,worker,rescue|tmp=seasoned | Hold your fire, I'll go, just don't shoot
+9273 | reg=civilian,family,worker,rescue|tmp=seasoned | Take the bag, take everything, just let me go
+9274 | reg=civilian,family,worker,rescue|tmp=seasoned | I'm not fighting you, we're both trying to survive
+9275 | reg=civilian,family,worker,rescue|tmp=seasoned | Take it, I won't follow you, I don't want a fight
+9276 | reg=civilian,family,worker,rescue|tmp=seasoned | I've got people who'll come looking, take the bag and go
+9277 | reg=family | Please! You don't have to shoot!
+9278 | reg=family | Don't cut me! I've got a little girl at home!
+9279 | reg=family | Please don't hurt me! I just want to leave!
+9280 | reg=family | Please don't punch me, my family needs me
+9281 | reg=family | Take whatever you want, just leave me alive
+9282 | reg=civilian,family,worker,rescue|tmp=fresh|world=vehicle | Stop that truck! I'm begging you, I'll get out of the way!
+9283 | reg=civilian,family,worker,rescue | Come on, there's no reason for this... please
+9284 | reg=civilian,family,worker,rescue | My family's waiting, don't do this to them
+
+##### RAID_START #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Baskın başlıyor; ekibe.
+9285 | reg=civilian,family,worker,rescue | Are we really doing this? Okay, okay
+9286 | reg=civilian,family,worker,rescue | We have to get it back, come on
+9287 | reg=civilian,family,worker,rescue | Grab whatever you can swing, we're going
+9288 | reg=civilian,family,worker,rescue | Everybody stay close, please
+9289 | reg=civilian,family,worker,rescue | If we're going, we go now
+
+##### REGROUP #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# 'Toplanın' çağrısı; ekibe.
+9290 | - | Let's get back together!
+9291 | - | Stay where we can find each other!
+9292 | - | Come together, carefully!
+9293 | - | Don't lose the others!
+9294 | - | Let's not get scattered again!
+9295 | - | Don't go off alone now!
+9296 | - | Come on, back with the others!
+9297 | - | Regroup, regroup, everybody over here
+9298 | - | Come on, bunch up, everybody in
+9299 | - | Come in, let me count heads
+9300 | - | Back together, back together, count off
+9301 | - | Over here, over here, c'mon
+9302 | - | Gather round, gather round, quick
+9303 | - | Tighten up, tighten up
+9304 | - | Fall in, nice and close
+9305 | - | Let's get our heads straight, then move
+9306 | - | Check your gear, then the guy next to you
+9307 | - | Wait, who's not here?
+9308 | - | Where did everyone go, I turned around and you were all gone
+9309 | reg=civilian,family,worker,rescue | Everybody together! Let's stay together!
+9310 | reg=civilian,family,worker,rescue | Back here, come back to me- I can't see half of you
+9311 | reg=civilian,family,worker,rescue | Everyone here? Everybody? Count, count, count
+9312 | reg=civilian,family,worker,rescue | Thank God, we're together again, I thought we'd lost you all
+9313 | reg=civilian,family,worker,rescue | Stay close, stay close, let's not split up again
+9314 | reg=civilian,family,worker|tmp=fresh|mood=fear | Don't leave me, don't leave me, wait for me!
+9315 | reg=civilian,family,worker|tmp=fresh|mood=fear | I got separated, I got lost, where is everybody?!
+9316 | reg=civilian,family,worker|tmp=fresh|mood=fear | Oh thank God, there you are, I thought I lost you
+9317 | reg=civilian,family,worker|tmp=fresh|mood=fear | Stay together, stay together, we're not splitting up again, no matter what
+9318 | reg=civilian,family,worker|tmp=fresh|mood=fear | Everybody's here? EVERYBODY? Count again
+9319 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Take five, catch your breath, we'll go over the plan
+9320 | reg=civilian,family,worker|tmp=seasoned|mood=calm | No heroes, no wandering, we stay in pairs
+9321 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Roll call, quick, quiet
+9322 | reg=civilian,family,worker|mood=funny | Lost sheep, come home, come home, ha
+9323 | reg=civilian,family,worker|mood=angry | Where the hell did you go?! I told you to stay with the group!
+9324 | reg=civilian,family,worker|mood=angry | Next time you wander off, I'm tying you to me
+9325 | reg=rescue | Meet back where we started, medical first, everybody else after
+9326 | role=rescue_medical | Everyone checked? Let me look at you before we go
+9327 | role=rescue_clergy | Gather round, let us give thanks, and then we move on
+9328 | role=rescue_firefighter | Company, form up, headcount, now
+9329 | hour=21,4 | Whisper if you're here, I can't see a thing
+9330 | reg=civilian,family,worker,rescue|tmp=fresh | You left me out there!! Never again, you hear me, NEVER!
+
+##### RELOAD #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Şarjör değiştiriyor/silahı dolduruyor; ekibe 'koruyun'.
+9331 | - | Hold on, reloading!
+9332 | - | Reloading, don't leave me yet
+9333 | - | Loading, keep them off me!
+9334 | - | Need rounds in, one second
+9335 | - | Gotta reload, goddammit
+9336 | - | I'm loading it! I'm not done!
+9337 | reg=civilian,family,worker,rescue | How do you-- okay, okay, it's loaded!
+9338 | reg=civilian,family,worker,rescue | Hold on, I have to reload!
+9339 | reg=civilian,family,worker,rescue | Out of bullets! Loading more!
+9340 | reg=civilian,family,worker,rescue | Cover me while I load!
+9341 | reg=civilian,family,worker,rescue|tmp=seasoned | Slapping in more, hold them off
+9342 | role=family_elder | Let me just put some more in, there, there we go
+9343 | role=family_youth | Wait, wait, how do I- oh, there, like Dad showed me
+9344 | role=family_man | Hold them off, I'm loading, I'm loading
+9345 | role=family_man | Give me a second, I'll have this loaded
+9346 | role=family_woman | Wait, I'm loading, I'm loading it, hold on
+9347 | role=family_woman | Let me put more in this... stay back
+9348 | role=civilian_loner | Loaded, back on
+9349 | role=civilian_woman | Give me a moment, I'm reloading
+9350 | role=civilian_woman | Almost, almost, wait, there
+9351 | role=civilian_man | Hold on a sec, my gun's empty
+9352 | role=civilian_man | Quick reload, hang on
+9353 | tmp=fresh | Come on, IN, get IN!
+9354 | tmp=veteran | I'm reloading, don't cross my front
+
+##### REST_END #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Dinlenmeye başlıyor ya da dinlenme bitti.
+9355 | reg=civilian,family,worker,rescue | Okay, we should go
+9356 | reg=civilian,family,worker,rescue | Up, up, let's go, the day's wasting
+9357 | reg=civilian,family,worker,rescue | Time to move, get your stuff, get your boots on
+9358 | reg=civilian,family,worker,rescue | That was nice, but we've got ground to cover
+9359 | reg=civilian,family,worker,rescue | Who's ready? Nobody? Great, let's go anyway
+9360 | - | Alright, break's over
+9361 | - | Up and at 'em, ugh
+9362 | - | Time to get moving again
+9363 | - | Enough rest, back to work
+9364 | - | On your feet
+9365 | - | Break's over, let's go
+9366 | - | Ugh... I'm up
+9367 | - | Better, much better
+9368 | - | Shake it off, we're going
+9369 | - | Back at it
+9370 | reg=civilian,family,worker|tmp=fresh|mood=fear | Already? Do we have to? Already?
+9371 | reg=civilian,family,worker|tmp=seasoned|mood=calm | That helped, I'm good to go
+9372 | reg=civilian,family,worker|mood=funny | Five more minutes, Mama, no? Fine, fine
+9373 | reg=family | Come along... gather up
+
+##### REST_START #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Dinlenmeye başlıyor ya da dinlenme bitti.
+9374 | reg=civilian,family,worker,rescue | Let's sit for a minute, just a minute
+9375 | reg=civilian,family,worker,rescue | Let's sit, just for a minute, my legs are about to give out
+9376 | reg=civilian,family,worker,rescue | Break time, everybody, drink some water, rest your feet
+9377 | reg=civilian,family,worker,rescue | Sit down, sit down, you look like you're about to collapse
+9378 | reg=civilian,family,worker,rescue | We rest here, five minutes, set a lookout
+9379 | - | Let's sit for a bit
+9380 | - | Park it for a minute
+9381 | - | I need to rest, just for a minute
+9382 | - | Five minutes, that's all
+9383 | - | Let me catch my breath
+9384 | - | Oof, my back, my feet, oh
+9385 | - | Break time, break time
+9386 | - | Sitting down, finally
+9387 | - | Gotta rest, gotta rest
+9388 | - | My legs are done, just done
+9389 | - | Stretch out, loosen up
+9390 | - | Just a few minutes, then we go
+9391 | reg=civilian,family,worker|tmp=fresh|mood=fear | We can't rest, we can't, it's not safe, is it safe?
+9392 | reg=civilian,family,worker|tmp=fresh|mood=fear | Keep watching, keep watching, I can't close my eyes
+9393 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Rest, but rest smart, someone keeps watch
+9394 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Boots off, check your feet, then boots on again
+9395 | reg=civilian,family,worker|mood=funny | Break time. Boots off, complain freely
+9396 | reg=civilian,family,worker|mood=funny | Kicking back, ha, that's a joke, sort of
+9397 | reg=rescue | Quick rest, check the wounded
+9398 | hour=21,4 | Rest, but in the dark, keep your guard up
+9399 | reg=family | Come here... sit a little we'll catch our breath
+
+##### RETREAT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Geri çekilme; ekibe.
+9400 | tmp=fresh | Go! GO! Don't look back, just GO!
+9401 | tmp=fresh | Run! Everybody run! Leave it, LEAVE IT!
+9402 | tmp=fresh | We can't-- we can't hold this! Out! Out!
+9403 | tmp=fresh | I'm not staying! I'm NOT staying for this!
+9404 | tmp=seasoned | Back! Get back! Nobody dies here today!
+9405 | tmp=seasoned,veteran | Break off, break off and take the ditch line
+9406 | tmp=veteran | Give ground, slow, don't turn your back
+9407 | reg=family|tmp=seasoned | Go! I'll catch up just GO!
+9408 | reg=worker,outlaw,crime,club | Leave the bags! Bags don't bleed! Move!
+9409 | reg=worker,civilian|tmp=seasoned|world=vehicle | Truck! Get to the truck! I'll hold the gate!
+9410 | reg=law,military,rescue,family|tmp=seasoned|world=road | Somebody grab him! Don't leave him on the road!
+9411 | role=rescue_medical,rescue_firefighter,law_sergeant | I'm not leaving anybody, carry him, CARRY HIM
+9412 | tmp=seasoned|fact=recent_zombie_contact|world=window | Too many, way too many, out the window, go!
+9413 | tmp=fresh,seasoned|fact=recent_zombie_contact | Don't wait for them to reach us! MOVE!
+9414 | tmp=veteran|mood=grim | Noise brought the dead, now we go, NOW
+9415 | tmp=veteran|hour=20,4 | Out, quiet as you can, quiet beats fast right now
+9416 | tmp=seasoned,veteran|hour=19,5 | Dark's on us and we're losing, we leave
+9417 | tmp=veteran|mood=sad | We tried, God knows we tried, everybody out
+9418 | reg=civilian,worker,family|tmp=seasoned|world=road | Back up the road we came, same road, go!
+9419 | tmp=fresh|mood=fear | I'm sorry! I'm sorry, I have to go, I have to GO!
+9420 | - | Back off! It isn't worth dying here!
+9421 | - | Come on, let's get out of this!
+9422 | - | This is going bad, move back!
+9423 | - | Enough! Let's go!
+9424 | - | We don't have to win this one!
+9425 | - | Leave it! Keep yourself alive!
+9426 | - | Get away while you still can!
+9427 | - | I'm not staying for more of this!
+9428 | - | Back, back! Give yourself room!
+9429 | - | This isn't getting better, let's leave!
+9430 | reg=civilian,family,worker,rescue | I'm getting out of here, nobody told me about guns
+9431 | reg=civilian,family,worker,rescue | That knife is too much for me, I'm done
+9432 | reg=civilian,family,worker,rescue | Keep that bat away! I'm leaving!
+9433 | reg=civilian,family,worker,rescue | I'm done! I'm leaving, you can keep your fists to yourself
+9434 | reg=civilian,family,worker,rescue | Get away from this! Don't wait around!
+9435 | reg=civilian,family,worker,rescue | I'm leaving, I'm leaving, don't swing that at me!
+9436 | reg=civilian,family,worker,rescue | I'm leaving! I'm leaving, all right?
+9437 | reg=civilian,family,worker,rescue | Come on, back off! Everyone back off!
+
+##### RETURN_WITH_LOOT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Ganimetle geri döndü.
+9438 | reg=civilian,family,worker,rescue | We found something, we found some food!
+9439 | reg=civilian,family,worker,rescue | Found a little something, don't get excited
+9440 | reg=civilian,family,worker,rescue | We're back, we found a few things
+9441 | - | We're back, and we found some stuff
+9442 | - | We've got something, not much, but something
+9443 | - | Look what we brought, take a look
+9444 | - | Bags are heavy, that's the good news
+9445 | - | Come on, unload, see what we got
+9446 | - | We made it back, we actually made it back
+9447 | - | Got a little of everything, share it out
+9448 | - | Hey, hey, we're home, we got stuff
+9449 | - | Mission accomplished, minus the bruises
+9450 | hour=16,5 | Nobody got bit, and we got stuff, tonight's a win
+9451 | reg=civilian,family,worker|tmp=fresh|mood=warm | We DID it! Look at all of this!
+9452 | reg=civilian,family,worker|tmp=fresh|mood=warm | Everyone's okay, everyone's here, everyone's whole
+9453 | reg=civilian,family,worker|tmp=fresh|mood=warm | Home, we are home, hold on, I need to sit down
+9454 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Count it, log it, put it where it belongs
+9455 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Good haul, not the best, not the worst
+9456 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Dry the wet stuff, eat the fresh stuff, keep the rest
+9457 | reg=civilian,family,worker|mood=funny | Honey, I'm home, and I brought presents, heh
+9458 | reg=civilian,family,worker|mood=funny | Santa's here, and he's late
+9459 | reg=rescue | Medical supplies in the front, everything else behind
+9460 | reg=rescue | We have enough for a few days, let's make it count
+
+##### ROBBERY_DONT_FOLLOW #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bu NPC oyuncuyu soyuyor; doğrudan oyuncuya emir ve tehdit, 'sen'.
+9461 | tmp=fresh | Please stop following us! Please!
+9462 | tmp=fresh | Why are you following us? Go away! We said sorry!
+9463 | tmp=fresh | Don't come any closer! I'll, I'll really hurt you this time!
+9464 | tmp=fresh | Please go back, we don't want to hurt you, please
+9465 | tmp=fresh | Stop following! We already did the bad thing, don't make us do more!
+9466 | tmp=fresh | Go back! GO BACK! Why won't you go back?!
+
+##### ROBBERY_EXECUTE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bu NPC oyuncuyu soyuyor; doğrudan oyuncuya emir ve tehdit, 'sen'.
+9467 | tmp=fresh | Oh God! Oh God, do it!
+9468 | tmp=fresh | Why didn't you listen?! Get 'em, get 'em!
+9469 | tmp=fresh | I'm sorry! I'm so sorry!
+9470 | tmp=fresh | No no no! Do it!
+9471 | tmp=fresh | No, no, I don't want-- do it! DO IT!
+9472 | tmp=fresh | I'm sorry! Oh God! Do it!
+
+##### ROBBERY_MOVE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bu NPC oyuncuyu soyuyor; doğrudan oyuncuya emir ve tehdit, 'sen'.
+9473 | tmp=fresh | Wait! Don't go! Please come back!
+9474 | tmp=fresh | Stop walking! We said stop! Please!
+9475 | tmp=fresh | Where are you going?! You can't just leave! Can you?
+9476 | tmp=fresh | Come back! Don't make me hurt you, I don't want to!
+9477 | tmp=fresh | Wait! Where are you going? Come back, please, please come back!
+9478 | tmp=fresh | Don't walk away! I don't know what to do if you walk away!
+
+##### ROBBERY_NOTHING #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bu NPC oyuncuyu soyuyor; doğrudan oyuncuya emir ve tehdit, 'sen'.
+9479 | tmp=fresh | There's nothing for us, oh, I did all this for nothing, didn't I?
+9480 | tmp=fresh | Nothing, I'm sorry, I'm sorry I did this
+9481 | tmp=fresh | We're not taking anything, okay, okay, go
+9482 | tmp=fresh | Nothing for us, I'm just tired, sorry for scaring you
+9483 | tmp=fresh | Nothing, oh God, I'm leaving with nothing and I did all this
+9484 | tmp=fresh | There's nothing coming with me, I don't-- just go
+
+##### ROBBERY_RELEASE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bu NPC oyuncuyu soyuyor; doğrudan oyuncuya emir ve tehdit, 'sen'.
+9485 | tmp=fresh | You can go now, please don't follow us, okay?
+9486 | tmp=fresh | Go, just go, I'm sorry, please don't come after us
+9487 | tmp=fresh | That's all, you can go, we're not bad people, we're really not
+9488 | tmp=fresh | Just go, please... go, I'm not gonna hurt you, I swear
+9489 | tmp=fresh | You can go, please don't hate me, just go
+9490 | tmp=fresh | Go on... sorry, I'm sorry, just go
+
+##### ROBBERY_SEARCH #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bu NPC oyuncuyu soyuyor; doğrudan oyuncuya emir ve tehdit, 'sen'.
+9491 | tmp=fresh | Okay, um, let's see what you have, please don't move
+9492 | tmp=fresh | I'm just gonna look through your things, is that okay? Don't answer that
+9493 | tmp=fresh | Hold still, please, I'm sorry, I'm really sorry
+9494 | tmp=fresh | Just stand there, I'll be fast, I don't like this either
+9495 | tmp=fresh | Just, just hold still, please, I'm looking, I'm looking
+9496 | tmp=fresh | I don't want to touch your things, God, just stand still, please
+
+##### ROBBERY_SHUT_UP #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bu NPC oyuncuyu soyuyor; doğrudan oyuncuya emir ve tehdit, 'sen'.
+9497 | tmp=fresh | Shh! Please be quiet! They'll hear us!
+9498 | tmp=fresh | Stop yelling! Please! You're scaring me!
+9499 | tmp=fresh | Be quiet! Oh God, be quiet, they come to noise!
+9500 | tmp=fresh | Shut up! Sorry! Just, please, shut up!
+9501 | tmp=fresh | Shh! Shh! Please! They come to noise!
+9502 | tmp=fresh | Be quiet! Be quiet or we'll both be dead, do you understand me?
+
+##### ROBBERY_SPOT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bu NPC oyuncuyu soyuyor; doğrudan oyuncuya emir ve tehdit, 'sen'.
+9503 | tmp=fresh | S-stop! Right there! Don't make me, I'm not kidding!
+9504 | tmp=fresh | Hey you, stop! Please just stop, okay?
+9505 | tmp=fresh | Don't move! I, uh, we're robbing you, sorry, don't move!
+9506 | tmp=fresh | Stop! We don't want trouble, we just need your stuff!
+9507 | tmp=fresh | Hold it! Stay right there! I've never done this, so don't test me!
+9508 | tmp=fresh | Stop, I'm sorry, we have to, I'm sorry, just stop
+9509 | tmp=fresh | Hold up! Hey! We won't hurt you if you stand still!
+
+##### ROBBERY_TAKE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bu NPC oyuncuyu soyuyor; doğrudan oyuncuya emir ve tehdit, 'sen'.
+9510 | tmp=fresh | I'm taking this, I'm sorry, we need it, okay?
+9511 | tmp=fresh | We, we need this, I can't go back without it
+9512 | tmp=fresh | This is ours now, oh God, I can't believe I said that
+9513 | tmp=fresh | I'll take this, you'd do the same if you were desperate
+9514 | tmp=fresh | I'm taking this, I need-- I'm taking it, I'm sorry
+9515 | tmp=fresh | This is coming with me, and then... then we're done
+
+##### ROBBERY_WEAPON_DOWN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bu NPC oyuncuyu soyuyor; doğrudan oyuncuya emir ve tehdit, 'sen'.
+9516 | tmp=fresh | PUT IT DOWN! Please put it down!
+9517 | tmp=fresh | Drop the weapon! I mean it! I'm not bluffing!
+9518 | tmp=fresh | Put that down! I don't want anybody to die today!
+9519 | tmp=fresh | Please, PLEASE put the weapon down! My hands are shaking!
+9520 | tmp=fresh | Put it down! Please! I don't want to find out if I can hurt you!
+9521 | tmp=fresh | Drop it! Drop it! Oh God, I said drop it!
+
+##### ROOM_CLEAR #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oda temiz; ekibe.
+9522 | reg=civilian,family,worker,rescue | Okay, this room's okay
+9523 | reg=civilian,family,worker,rescue | Nothing in here, we're good
+9524 | - | Room's clear
+9525 | - | Nothing in here, next room
+9526 | - | Empty, nobody home
+9527 | - | All clear, move on
+9528 | - | Nobody here, door's clean
+9529 | - | Safe, safe, safe
+9530 | - | Closet's clear, bathroom's clear
+9531 | reg=civilian,family,worker|tmp=fresh|mood=fear | You sure? You checked the closet? The bed? Under the bed?
+9532 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Nothing in here, close the door behind you

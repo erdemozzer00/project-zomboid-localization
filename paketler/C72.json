@@ -1,0 +1,294 @@
+{
+    "_paket": "C72 — 1.5.1 taramasında çevrilmemiş kalan 72 görünür metin (Claude, kullanıcı isteği 2026-11-11): tim haritası, parti görevi, bitiş/görev başlıkları, animasyon adları, durum adları, sığınak mektup başlıkları. Çoğu için oyunda Text.ui yolu yok; çeviri hazır bekler, ek yazılınca görünür.",
+    "_dosya": "IG_UI_lua",
+    "satirlar": {
+        "IGUI_ALifeUI_3eb39f5e5ab75582": {
+            "tr": "A-Life: tim haritası AÇIK (dünya haritasını aç, bir noktanın üstüne gel)",
+            "not": ""
+        },
+        "IGUI_ALifeUI_218887f2118e7618": {
+            "tr": "A-Life: tim haritası kapalı",
+            "not": ""
+        },
+        "IGUI_ALifeUI_6311d98b3c8af167": {
+            "tr": "A-Life: sunucu verisi bekleniyor",
+            "not": ""
+        },
+        "IGUI_ALifeUI_18da433c55686489": {
+            "tr": "Şimdi bir tim gönder",
+            "not": ""
+        },
+        "IGUI_ALifeUI_782af3f16ad6ef22": {
+            "tr": "Sonraki timi 1 saat ertele",
+            "not": ""
+        },
+        "IGUI_ALifeUI_761105155f0706a2": {
+            "tr": "Sonraki timi 24 saat ertele",
+            "not": ""
+        },
+        "IGUI_ALifeUI_06277b2b4f63dcfb": {
+            "tr": "Sonraki timi 7 gün ertele",
+            "not": ""
+        },
+        "IGUI_ALifeUI_37b335965c4df22a": {
+            "tr": "Sonraki timi 30 gün ertele",
+            "not": ""
+        },
+        "IGUI_ALifeUI_18a20c44603d7a88": {
+            "tr": "En fazla tim sayısı +1",
+            "not": ""
+        },
+        "IGUI_ALifeUI_18a20c86603d7b8e": {
+            "tr": "En fazla tim sayısı -1",
+            "not": ""
+        },
+        "IGUI_ALifeUI_6f9c6a5263f76cff": {
+            "tr": "Bu timi sil (",
+            "not": ""
+        },
+        "IGUI_ALifeUI_0da783543a9b05da": {
+            "tr": "Marla",
+            "not": "Kişi adı, aynen kalır."
+        },
+        "IGUI_ALifeUI_2663aa3e4c9d2f03": {
+            "tr": "Haritanda işaretli binayı keşfet, sonra gruba geri dön",
+            "not": ""
+        },
+        "IGUI_ALifeUI_0a140cf121e74878": {
+            "tr": "Bring the group ",
+            "not": "Birleştirmeli parça (sonuna sayı ve nesne eklenir); Türkçede sözcük sırası değişeceği için ek yazılırsa baştan kurulmalı."
+        },
+        "IGUI_ALifeUI_76cd81464fd780ec": {
+            "tr": "nöbet tut",
+            "not": ""
+        },
+        "IGUI_ALifeUI_6617fff37d0d2f78": {
+            "tr": "Bir süre grubun etrafında nöbet tut, yakında kal ve uyanık dur",
+            "not": ""
+        },
+        "IGUI_ALifeUI_67cbf6cf7f57e2d5": {
+            "tr": "sokağı temizle",
+            "not": ""
+        },
+        "IGUI_ALifeUI_2dc062170061850f": {
+            "tr": "Thin out the dead around the group, put down ",
+            "not": "Birleştirmeli parça; ek yazılırsa baştan kurulmalı."
+        },
+        "IGUI_ALifeUI_388a96946c6400bc": {
+            "tr": "ABD Ordusu",
+            "not": ""
+        },
+        "IGUI_ALifeUI_4a3c703412403957": {
+            "tr": "Yüzbaşı Ruiz",
+            "not": ""
+        },
+        "IGUI_ALifeUI_6e6335e707ea625e": {
+            "tr": "data only, no reputation call is wired",
+            "not": "Geliştirici notu; oyuncuya çizilmez."
+        },
+        "IGUI_ALifeUI_3318e2e350ef0651": {
+            "tr": "{name}, benim",
+            "not": ""
+        },
+        "IGUI_ALifeUI_199ac6fd2c5d0d15": {
+            "tr": "{name}, şimdi konuş",
+            "not": ""
+        },
+        "IGUI_ALifeUI_32a5ce073c299ca0": {
+            "tr": "Tamam, ben {name}",
+            "not": ""
+        },
+        "IGUI_ALifeUI_6496fb546a8f70e7": {
+            "tr": "{name}, doğrula",
+            "not": ""
+        },
+        "IGUI_ALifeUI_26019cae0a12b5ac": {
+            "tr": "Louisville hastanesi",
+            "not": ""
+        },
+        "IGUI_ALifeUI_7cd5b9bf48e11ee8": {
+            "tr": "Louisville Genel Hastanesi",
+            "not": ""
+        },
+        "IGUI_ALifeUI_0572aefb7f95e4ab": {
+            "tr": "Oris Kulesi",
+            "not": ""
+        },
+        "IGUI_ALifeUI_1dbbbc567cd4bc84": {
+            "tr": "Valley Station",
+            "not": "Yer adı, aynen kalır."
+        },
+        "IGUI_ALifeUI_1f2937ab591831d6": {
+            "tr": "Riverside",
+            "not": "Yer adı, aynen kalır."
+        },
+        "IGUI_ALifeUI_465b99dd34bdff4e": {
+            "tr": "Brandenburg",
+            "not": "Yer adı, aynen kalır."
+        },
+        "IGUI_ALifeUI_224b9d9051ba791b": {
+            "tr": "Hayatta kalan biriyim, tahliye arıyorum",
+            "not": ""
+        },
+        "IGUI_ALifeUI_4f5b1585291e866c": {
+            "tr": "Azrail'den Korkma",
+            "not": ""
+        },
+        "IGUI_ALifeUI_6c278fb228211792": {
+            "tr": "Oris Kulesi'ne Baskın",
+            "not": ""
+        },
+        "IGUI_ALifeUI_56e26a2613082239": {
+            "tr": "Ordu, {place} çatısına bir helikopter indirecek",
+            "not": ""
+        },
+        "IGUI_ALifeUI_740a091c7404ea5b": {
+            "tr": "Ordu, hayatta kalanları {place} çatısından {time}, {when} kaldıracak. Tek şans",
+            "not": ""
+        },
+        "IGUI_ALifeUI_266a6c3a41804b26": {
+            "tr": "Ordu bir çatıdan hayatta kalanları kaldırıyor. Saati ve yeri öğrenmek için cevap ver",
+            "not": ""
+        },
+        "IGUI_ALifeUI_5f00c8b86117ac26": {
+            "tr": "Dell Tolliver'ın ekibi bir sürü geçerken çantalarını {place} yakınında düşürdü. Earl'ün çantasını geri istiyor.",
+            "not": ""
+        },
+        "IGUI_ALifeUI_429ee663238019ba": {
+            "tr": "Şuraya ulaş: {place}",
+            "not": ""
+        },
+        "IGUI_ALifeUI_28debb2a2bb734d2": {
+            "tr": "Şurayı temizle: {place}",
+            "not": ""
+        },
+        "IGUI_ALifeUI_1037b2534ae7894d": {
+            "tr": "Teslim olma",
+            "not": ""
+        },
+        "IGUI_ALifeUI_7c8e70ba5da27b68": {
+            "tr": "El sallama",
+            "not": ""
+        },
+        "IGUI_ALifeUI_5093c07861a26372": {
+            "tr": "Selam durma",
+            "not": ""
+        },
+        "IGUI_ALifeUI_0e17ee3024dd6fb1": {
+            "tr": "Omuz silkme",
+            "not": ""
+        },
+        "IGUI_ALifeUI_0e17e17a24dca6a3": {
+            "tr": "Bağırma",
+            "not": ""
+        },
+        "IGUI_ALifeUI_0e263bf3357bcc58": {
+            "tr": "Alay etme",
+            "not": ""
+        },
+        "IGUI_ALifeUI_2ddfbdc644961274": {
+            "tr": "Başparmak aşağı",
+            "not": ""
+        },
+        "IGUI_ALifeUI_611582562a4f97b6": {
+            "tr": "Tereddüt",
+            "not": ""
+        },
+        "IGUI_ALifeUI_6f49a2f855c99e20": {
+            "tr": "Ağır nefes alma",
+            "not": ""
+        },
+        "IGUI_ALifeUI_10d47dbe35788f5d": {
+            "tr": "Yorgun gerinme",
+            "not": ""
+        },
+        "IGUI_ALifeUI_0556ec5c2b5cf14a": {
+            "tr": "Kuşatılmış depo",
+            "not": ""
+        },
+        "IGUI_ALifeUI_7e902fc9666bb378": {
+            "tr": "Şerif kontrol noktası",
+            "not": ""
+        },
+        "IGUI_ALifeUI_068254163a1a86d5": {
+            "tr": "Sürünün bastığı çiftlik evi",
+            "not": ""
+        },
+        "IGUI_ALifeUI_6eeb0ed160f1b181": {
+            "tr": "Rehine takası",
+            "not": ""
+        },
+        "IGUI_ALifeUI_41b4ec670515f6d8": {
+            "tr": "Mahsur kalmış klinik",
+            "not": ""
+        },
+        "IGUI_ALifeUI_16f3a633150538f7": {
+            "tr": "Bozulmuş kamyon",
+            "not": ""
+        },
+        "IGUI_ALifeUI_486b513770b1b005": {
+            "tr": "Durumlar: hepsini temizle",
+            "not": ""
+        },
+        "IGUI_ALifeUI_034f797c35abf974": {
+            "tr": "Çevredeki zombileri kaldırır ve etkin durumları unutur, ekipler kalır",
+            "not": ""
+        },
+        "IGUI_ALifeUI_059b44f240478ad2": {
+            "tr": "Durumlar: kayıt durumunu sıfırla",
+            "not": ""
+        },
+        "IGUI_ALifeUI_6f3c4bd46df1a593": {
+            "tr": "Bekleme sürelerini ve kayıt başına bir kez işaretlerini unutur",
+            "not": ""
+        },
+        "IGUI_ALifeUI_781aba116d98df94": {
+            "tr": "Durumlar: sayaçlar",
+            "not": ""
+        },
+        "IGUI_ALifeUI_1f4fae0d0ecea526": {
+            "tr": "Durum sayaçlarını yazdırır",
+            "not": ""
+        },
+        "IGUI_ALifeUI_6b935aee7cc4b650": {
+            "tr": "{faction} tarafından bir not",
+            "not": ""
+        },
+        "IGUI_ALifeUI_47c2aeef45de352e": {
+            "tr": "Bir uyarı",
+            "not": ""
+        },
+        "IGUI_ALifeUI_157a6ed60c9fe8dd": {
+            "tr": "Bunu oku",
+            "not": ""
+        },
+        "IGUI_ALifeUI_0e28609236043925": {
+            "tr": "Şartlar",
+            "not": ""
+        },
+        "IGUI_ALifeUI_77c533014c8cc81e": {
+            "tr": "Yol tarifi",
+            "not": ""
+        },
+        "IGUI_ALifeUI_741a32cd2f101093": {
+            "tr": "Sorun hakkında",
+            "not": ""
+        },
+        "IGUI_ALifeUI_28550d9510a0169c": {
+            "tr": "Kayıp",
+            "not": ""
+        },
+        "IGUI_ALifeUI_45eb7a2c6edc1bd2": {
+            "tr": "Duyuru",
+            "not": ""
+        },
+        "IGUI_ALifeUI_1b3a1ffc08f29744": {
+            "tr": "Bir mektup",
+            "not": ""
+        },
+        "IGUI_ALifeUI_1b3d005b682a2b31": {
+            "tr": "Senin için",
+            "not": ""
+        }
+    }
+}

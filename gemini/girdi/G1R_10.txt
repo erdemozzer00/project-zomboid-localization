@@ -1,0 +1,350 @@
+# PAKET G1R · parça 10/35 · satır 3232-3552 (321 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar oyunda şu an skill'den önceki eski bir çeviriyle görünüyor; sıfırdan, İngilizceden kur. Her başlığın altındaki 'NEREDE:' oyuncunun bu sözle nasıl karşılaştığını, '#' notu sahneyi anlatır. Önce bunları oku, satırı o anda o yerde duyulacak sözle yaz.
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+##### HEARD_VOICE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bir ses duydu (alarm, kapı, ayak sesi, cam, silah, insan sesi); kendine ya da yanındakine.
+3232 | reg=civilian,family,worker,rescue | I heard somebody talking, real people
+3233 | reg=civilian,family,worker,rescue | Voices! Over there! Somebody's alive!
+3234 | - | Voices! I heard voices!
+3235 | - | Someone's talking, shh, listen
+3236 | - | Wait, that was a voice, a real one
+3237 | - | Somebody's out there, I heard them mumble
+3238 | - | Talking, it was talking, it was
+3239 | - | A voice... I can't make out who's talking
+3240 | - | Hold on, hold on, somebody said something, way off
+3241 | - | Arguing, hear that? Two of them, arguing
+3242 | - | Singing? Is somebody actually singing?
+3243 | - | Laughter, there's laughing out there, who's laughing?
+3244 | - | Radio, maybe? Is that a radio? A voice on a radio?
+3245 | - | Cry, a cry for help, that's a cry for help
+3246 | - | Man talking low, real low, trying not to be heard
+3247 | world=wind | Whispering, hear that whispering? That's not the wind
+3248 | reg=civilian,family,worker|tmp=fresh|mood=fear | Oh God, there's people, there's other people
+3249 | reg=civilian,family,worker|tmp=fresh|mood=fear | Is that- is that someone we know? Hello?? HELLO??
+3250 | reg=civilian,family,worker|tmp=fresh|mood=fear | Don't answer, don't answer, we don't know who it is
+3251 | reg=civilian,family,worker|tmp=fresh|mood=fear | Could be help... or could be the worst, I can't tell
+3252 | reg=civilian,family,worker|tmp=fresh|mood=fear | They're talking so calm, why are they so calm?
+3253 | reg=civilian,family,worker|tmp=fresh|mood=fear | My heart can't take another surprise
+3254 | reg=civilian,family,worker|tmp=fresh|mood=fear | Someone's coming, someone's coming, what do we do
+3255 | reg=civilian,family,worker|tmp=fresh|mood=fear | I want to yell back and I'm terrified to
+3256 | reg=civilian,family,worker|tmp=fresh|mood=warm | A voice! Somebody else is ALIVE out there!
+3257 | reg=civilian,family,worker|tmp=fresh|mood=warm | Voices, real voices, I almost cried, I did cry
+3258 | reg=civilian,family,worker|tmp=fresh|mood=warm | Another human being, I can't believe it, another one
+3259 | reg=civilian,family,worker|tmp=fresh|mood=warm | Please be nice, please be a nice person, please
+3260 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Talking means people, people mean trouble or trade
+3261 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Quiet, let's hear what they're saying before we show ourselves
+3262 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Voices carry, so do ours, keep it low
+3263 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Don't wave, don't shout, let them come to us if they will
+3264 | reg=civilian,family,worker|tmp=seasoned|mood=calm | They sound easy, no urgency, probably just a camp
+3265 | reg=civilian,family,worker|mood=sad | Somebody's still talking, that's something
+3266 | reg=civilian,family,worker|mood=sad | That voice sounded like my brother, for a second, only for a second
+3267 | reg=civilian,family,worker|mood=sad | It's been so long since I've heard anyone but us
+3268 | reg=civilian,family,worker|mood=funny | Hey, sounds like a neighborhood barbecue, minus the barbecue
+3269 | reg=civilian,family,worker|mood=funny | Somebody's arguing about a football game, I bet, heh
+3270 | reg=civilian,family,worker|mood=funny | That's the first sane-sounding conversation all week, bless 'em
+3271 | reg=rescue | A voice, could be hurt, keep still, listen for pain
+3272 | reg=rescue | Call to them quietly, they may need help, they may be afraid
+3273 | reg=rescue | If somebody's calling, we answer, carefully, from cover
+3274 | role=rescue_clergy | Voices in the dark, Lord, let it be gentle voices
+3275 | hour=21,4 | A voice in the dark gives me goosebumps every time
+3276 | hour=21,4 | Talking at night, who's up talking at this hour?
+3277 | hour=7,17 | Voices in daylight, they're not hiding, which is either brave or desperate
+
+##### HELPED_BY_PLAYER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu ona yardım etti; oyuncuya teşekkür, 'sen'.
+3278 | reg=civilian,family|tmp=fresh | Thank you! Oh God, thank you, that one almost had me!
+3279 | reg=civilian,family|tmp=fresh | I thought I was dead, I really thought... Thank you
+3280 | reg=civilian,family|tmp=fresh | You saved my life, and I don't even know your name!
+3281 | reg=civilian,family|tmp=fresh | I'm- I'm okay, I'm okay... you got him off me, thank you
+3282 | reg=civilian,family|tmp=fresh | That's twice today somebody's been decent, I'm keeping count
+3283 | reg=civilian,family|tmp=fresh | I was going down, I was already going down, thank you
+3284 | reg=civilian,family|tmp=fresh | Hoo! Okay, okay, my legs are jelly, thanks
+3285 | reg=civilian,family|tmp=fresh | You got it off me, I couldn't-- thank you, thank you
+3286 | reg=civilian,family,worker | Where did you come from? Thank you!
+3287 | reg=civilian,family,worker | You came back for me? Nobody comes back
+3288 | reg=civilian,family,worker | Thanks! Now let's get the heck out of here!
+3289 | reg=civilian,family,worker | Thank you, I'd have been one of them by supper
+3290 | reg=civilian,family,worker | That was Mr. Prewitt from the hardware, thanks for doing it so I didn't
+3291 | reg=civilian,family|tmp=fresh|st=friendly | Whoa! Good timing! Where'd you learn to do that?
+3292 | reg=civilian,family | Good God, that was close! Thank you!
+3293 | role=family_man | Bless you! I still get to see tomorrow because of you!
+3294 | role=family_woman,civilian_woman | Thank you! My girls are waiting on me, you don't know what you just did!
+3295 | role=civilian_man,family_man | I'll tell my wife about you, when I find her
+3296 | role=family_youth | Holy crap! Did you see that? You got it!
+3297 | role=family_elder | Well, I'll be, thank you kindly
+3298 | role=family_elder | Thank you, honey, my heart won't take many more of them
+3299 | reg=civilian,family|tmp=fresh,seasoned | That one was my neighbor, thank you for doing what I couldn't
+3300 | reg=civilian,family,worker,rescue,law|hour=21,4 | Thanks, I couldn't see a thing in this dark
+3301 | reg=civilian,worker,outlaw,club|tmp=seasoned | Nice shot! I owe you one!
+3302 | reg=civilian,worker,rescue,law|tmp=seasoned | Nice swing! Stick with me!
+3303 | reg=civilian,worker|tmp=seasoned | Appreciate it, keep 'em coming
+3304 | reg=civilian,worker|tmp=seasoned | Thank you, never got the name of the last fella who did that either
+3305 | reg=civilian,worker,rescue,family|tmp=seasoned | That was close, thanks for watching my back
+3306 | reg=worker,civilian|tmp=seasoned|day=3,400 | Much obliged, first thing that's gone right all week
+3307 | reg=worker | Good swing! You play ball in school?
+3308 | role=rescue_medical | Thanks, now don't you get hurt, I'm low on gauze
+3309 | role=rescue_clergy | The Lord works through odd hands, thank you
+3310 | role=rescue_firefighter|world=door | Good work! Keep them off the door!
+3311 | role=civilian_loner | Didn't need help, but thanks
+3312 | reg=civilian,worker,family | Oh, hell, thank you, that one had my sleeve
+3313 | reg=civilian,family,rescue | You didn't have to do that, I want you to know that I know that
+3314 | reg=civilian,worker,family|mood=warm | Here, take the water, no, take it, I ain't arguing with you
+3315 | reg=family|hour=16,5 | I'm still here because you helped. That's just a fact
+3316 | reg=civilian,worker|mood=funny | Good Lord, where'd you learn to hit like that? Church league?
+3317 | reg=worker,civilian,outlaw|tmp=seasoned | I owe you, write it down somewhere, I pay what I owe
+3318 | role=rescue_firefighter,worker | Nice work, I'd have needed two swings and a prayer
+3319 | reg=civilian,worker,outlaw|tmp=seasoned|mood=warm | You helped and didn't ask for nothing, twice this whole summer
+3320 | reg=worker,civilian|tmp=seasoned | Well I'll be damned, thank you kindly, whoever you are
+3321 | reg=civilian,worker,rescue|tmp=seasoned | Thanks, don't you get bit being a hero, I ain't burying nobody else today
+3322 | reg=civilian,family,worker,rescue|st=friendly,neutral | Thank you! Oh my God, thank you!
+3323 | reg=civilian,family,worker,rescue|st=friendly,neutral | You saved my life, I won't forget it
+3324 | reg=civilian,family,worker,rescue|st=friendly,neutral | I thought that was it, I thought I was dead
+3325 | reg=civilian,family,worker,rescue|st=friendly,neutral | Thank you- Lord, I thought that was it for me
+3326 | reg=civilian,family,worker,rescue|rep=worst | You... you helped? Why? Oh God, is this a trick? What do you want?
+3327 | reg=civilian,family,worker,rescue|rep=worst | Thank you, I think, I'm so confused, you're supposed to be...
+3328 | reg=civilian,family,worker,rescue|rep=worst | That was... kind of you, I never expected that from you, never
+3329 | reg=civilian,family,worker,rescue|rep=worst | You saved me? You? I... I don't know how to feel about this
+3330 | reg=civilian,family,worker,rescue|rep=worst | Thank you, I guess, but it doesn't change what I know about you
+3331 | reg=civilian,family,worker,rescue|rep=bad | Huh, you helped me, well, don't think it erases the past
+3332 | reg=civilian,family,worker,rescue|rep=bad | Thanks... I guess even a bad person can do something good
+3333 | reg=civilian,family,worker,rescue|rep=bad | I owe you one, don't push it
+3334 | reg=civilian,family,worker,rescue|rep=bad | Huh, maybe you're not all bad, thank you
+3335 | reg=civilian,family,worker,rescue|rep=bad | Thanks, I'll keep that in mind next time somebody says your name
+3336 | reg=civilian,family,worker,rescue|rep=bad | Strange, a villain with a heart, who knew
+3337 | reg=civilian,family,worker,rescue|rep=good | Thank you!! You did it again, you always do, thank you
+3338 | reg=civilian,family,worker,rescue|rep=good | Oh my God, you saved me, again, I can't thank you enough
+3339 | reg=civilian,family,worker,rescue|rep=good | You're a lifesaver, truly, I don't know what we'd do without you
+3340 | reg=civilian,family,worker,rescue|rep=good | You did it again!! You're amazing, truly, thank you
+3341 | reg=civilian,family,worker,rescue|rep=good | God bless you, I'd be dead without you
+3342 | reg=civilian,family,worker,rescue|rep=good | There you are, always showing up at the right time, thank you
+3343 | reg=civilian,family,worker,rescue|rep=best | I knew it, I knew you'd come, they said the Legend always shows up
+3344 | reg=civilian,family,worker,rescue|rep=best | Oh thank you, thank you, I'll tell everyone, EVERYONE
+3345 | reg=civilian,family,worker,rescue|rep=best | It's like they say, the Legend never lets anyone down, thank you
+3346 | reg=civilian,family,worker,rescue|rep=best | You've done more for us than anyone, I don't know how to repay you
+
+##### HIT_BY_PLAYER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu ona vurdu/ateş etti (ilk kez); oyuncuya tepki, 'sen'.
+3347 | reg=civilian,family,worker,rescue|st=friendly,neutral | Ow! Hey! Watch where you're swinging!
+3348 | reg=civilian,family,worker,rescue|st=friendly,neutral | Watch it! I'm not one of them!
+3349 | reg=civilian,family,worker,rescue|st=friendly,neutral | OH YOU ARE SHOOTING AT ME! Stop! STOP!
+3350 | reg=civilian,family,worker,rescue|st=friendly,neutral | You shot me! You actually shot me! Why?!
+3351 | reg=civilian,family,worker,rescue|st=friendly,neutral | What are you doing? Put the gun down! Please!
+3352 | reg=civilian,family,worker,rescue|st=friendly,neutral | Oh God, oh God, I'm bleeding, you shot me
+3353 | reg=civilian,family,worker,rescue|st=friendly,neutral | You stabbed me! Why would you stab me?!
+3354 | reg=civilian,family,worker,rescue|st=friendly,neutral | Ow! That knife, take it away from me!
+3355 | reg=civilian,family,worker,rescue|st=friendly,neutral | You cut me! Why did you cut me?
+3356 | reg=civilian,family,worker,rescue|st=friendly,neutral | Ow! You hit me with a bat? What is wrong with you?
+3357 | reg=civilian,family,worker,rescue|st=friendly,neutral | My head! You hit me in the head with that pipe!
+3358 | reg=civilian,family,worker,rescue|st=friendly,neutral | You bashed my arm! I think it's broken!
+3359 | reg=civilian,family,worker,rescue|st=friendly,neutral | You punched me! Why did you punch me?!
+3360 | reg=civilian,family,worker,rescue|st=friendly,neutral | You hit me with your car! Are you crazy?!
+3361 | reg=civilian,family,worker,rescue|st=friendly,neutral | You almost ran me over! Watch where you're driving!
+3362 | reg=civilian,family,worker,rescue|st=friendly,neutral | Your truck clipped me! My leg, my leg!
+3363 | reg=civilian,family,worker,rescue|st=friendly,neutral | Hey! Watch that swing! Are you trying to kill me?
+3364 | reg=civilian,family,worker,rescue|st=friendly,neutral | Whoa! Why would you swing at me? I didn't do anything!
+3365 | reg=civilian,worker,rescue,law,military|st=friendly,neutral | Whoa! Friendly! Friendly!
+3366 | reg=civilian,worker,law,military,outlaw|st=friendly | What the hell? I'm on your side!
+3367 | reg=civilian,family|tmp=fresh | Ah! Why? Please, I didn't do anything!
+3368 | reg=civilian,family|tmp=fresh | Oh God, you hurt me, please stop, please!
+3369 | reg=civilian,family|tmp=fresh | No, no, I'm alive! I'm a person! Stop!
+3370 | reg=civilian,family|tmp=fresh | Ow! Please, don't do this to me!
+3371 | reg=civilian,family|tmp=fresh | Ow! Please... I lost everybody already, just let me go, okay?
+3372 | reg=civilian,family|tmp=fresh | Stop! I'm not infected, look at me, I'm not!
+3373 | reg=civilian,family|tmp=fresh|st=friendly,neutral | It's okay, it was an accident, right? Right?
+3374 | reg=civilian|tmp=fresh | Ow, my shoulder! What did I ever do to you?
+3375 | reg=civilian|tmp=fresh | Ah! What's gotten into you?
+3376 | reg=civilian|tmp=fresh | Hey! HEY! I said I was friendly, I said it twice!
+3377 | reg=civilian|tmp=fresh | What the hell was that for?
+3378 | reg=civilian|tmp=fresh | Ow! I'm not sick! Look at my eyes, I'm not sick!
+3379 | reg=civilian|tmp=fresh | Don't do it again, please!
+3380 | reg=civilian|tmp=fresh | Please, I was walking away, I was already walking away
+3381 | reg=civilian|tmp=fresh | I dropped the can, I dropped it, can I pick up the can?
+3382 | role=family_woman | Ahh! Please! I don't want to fight!
+3383 | role=family_woman | You hit me with my hands full of laundry, laundry!
+3384 | role=family_youth | Ow! What is wrong with you?!
+3385 | role=family_youth | You can't just hit people! That's not-- you can't do that!
+3386 | role=family_elder | Ow! I'm seventy-one years old, you animal!
+3387 | role=family_elder | Damn you! That how you treat everybody?
+3388 | reg=civilian,worker,rescue,military|tmp=seasoned | Son of a... Watch your fire!
+3389 | reg=civilian,worker,law|tmp=seasoned | Hey! Check your target before you pull!
+3390 | reg=civilian,family,worker|st=careful | I told you to keep back! Now look what you did!
+3391 | role=civilian_loner | Real smart, now I'm hurt and annoyed
+3392 | role=civilian_loner | Well, that's just rude
+3393 | reg=worker | Ah! That's my arm, I need that arm!
+3394 | reg=worker | Ah, hell! You looking for a fight?
+3395 | reg=worker | Hey! I fix things! Fixing things is the whole reason to keep me around!
+3396 | reg=worker | You want to go? I've got a pipe wrench and a bad attitude
+3397 | role=rescue_medical | Ow! I'm the medic, idiot! Who's gonna patch me up now?
+3398 | role=rescue_medical | Ow! I'm the one who stitches people! Me! This hand!
+3399 | role=rescue_medical | That's a laceration, I know, because I'm looking at my own arm
+3400 | role=rescue_clergy | Lord give me patience, stop that!
+3401 | role=rescue_firefighter | Hey! Easy! Fire department!
+3402 | role=rescue_firefighter | You hit a fireman, in Knox County, in July, think that through
+3403 | reg=civilian|tmp=seasoned | Ow, my bad shoulder, you went for the bad one, damn
+3404 | reg=civilian|tmp=seasoned | You hurt me like it was nothing at all
+3405 | reg=family|tmp=fresh | Ah! Get back, get back, leave me alone!
+3406 | reg=family|tmp=fresh | Ow! I haven't done a thing to you!
+3407 | reg=family|tmp=fresh | Ow! You did that on purpose, didn't you?
+3408 | reg=family | What the hell are you doing? Leave me be!
+3409 | reg=family|sex=f | Don't touch me again, I mean that
+3410 | reg=worker|tmp=seasoned | Son of a-- I've took worse off a drill press, don't push it
+3411 | reg=worker|tmp=seasoned | I got enough to put up with. Quit it!
+3412 | reg=rescue | Easy! You're going to get somebody killed!
+3413 | reg=civilian,family|tmp=fresh|st=friendly | Ah! Easy! I'm holding water, look, just water!
+3414 | reg=civilian,worker|st=friendly,neutral | Hey! Wrong one! I'm the one who waved!
+3415 | reg=worker,outlaw,crime|st=neutral | Whoa, whoa! We were talking! We were just talking!
+3416 | reg=family,worker,civilian|st=careful|world=fence | I told you to keep back from the fence, you kept coming
+3417 | reg=family|tmp=fresh|sex=f | What do you want from me? Tell me!
+3418 | - | Why would you do that to me?
+3419 | - | Stop! I'm a person, damn it!
+3420 | - | Hey! You don't get to do that!
+3421 | - | Don't hurt me just because you can!
+3422 | - | Back away from me, right now
+3423 | - | I didn't ask for this!
+3424 | - | Ow! Keep your hands to yourself!
+3425 | - | You could have just talked to me!
+3426 | - | Enough, don't try that again
+3427 | - | Don't make me fight you!
+3428 | - | That hurt, you asshole!
+3429 | - | I felt that! What is wrong with you?
+3430 | reg=civilian,family,worker,rescue|st=neutral,careful,hostile | Stabbing people now? You've lost your mind
+3431 | reg=civilian,family,worker,rescue|st=neutral,careful,hostile | A bat, really? Get away from me!
+3432 | reg=civilian,family,worker,rescue|st=neutral,careful,hostile | You hit me in the face! Get away from me!
+3433 | reg=civilian,family,worker,rescue|rep=worst | I KNEW it, I knew you'd do something, everybody said, everybody said!
+3434 | reg=civilian,family,worker,rescue|rep=worst | Oh God, it's true, all of it, the stories are true!
+3435 | reg=civilian,family,worker,rescue|rep=worst | Please, please, no more, no more, I'll give you everything!
+3436 | reg=civilian,family,worker,rescue|rep=bad | Just like they said you would!! Figures, it figures!
+3437 | reg=civilian,family,worker,rescue|rep=bad | Ow!! You bastard, I knew I couldn't trust you!
+3438 | reg=civilian,family,worker,rescue|rep=bad | Why?! After everything I heard, I should've known!
+3439 | reg=civilian,family,worker,rescue|rep=good | What?! Why?! You're supposed to be the good one!
+3440 | reg=civilian,family,worker,rescue|rep=good | Ow!! What was that for?! I thought you were different!
+3441 | reg=civilian,family,worker,rescue|rep=good | Oh my God, not you, not you, why?!
+3442 | reg=civilian,family,worker,rescue|rep=best | Not the Legend... what did I do?! What did I even DO?!
+
+##### HIT_BY_PLAYER_AGAIN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu ona yine vurdu; daha sert tepki, 'sen'.
+3443 | reg=civilian,family|tmp=fresh | Stop! Please! I'll give you anything, just stop hitting me!
+3444 | reg=civilian,family|tmp=fresh | Why are you doing this? I'm begging you!
+3445 | reg=civilian,family|tmp=fresh | Please- PLEASE, take it, take whatever you want!
+3446 | reg=civilian,family|tmp=fresh | Not again, please, not again!
+3447 | reg=civilian,family|tmp=fresh | I can't take another one, please, please
+3448 | reg=civilian,family|tmp=fresh | That wasn't an accident, oh God, that wasn't an accident
+3449 | reg=civilian,family|tmp=fresh | Please, I'm on the ground, I'm on the ground! Stop!
+3450 | reg=civilian,family|tmp=fresh | You're enjoying this, oh God, you're enjoying this
+3451 | reg=family|tmp=fresh | My family needs me! I'm all they've got!
+3452 | role=family_youth | Mom! MOM! Somebody help me!
+3453 | role=family_youth | Mama said run! Mama said run, so I'm running!
+3454 | role=family_elder | Lord have mercy, you mean it, you really mean it
+3455 | role=family_elder | Two times, I'm eighty-one years old and you hit me two times
+3456 | role=family_elder | Go on then, I buried a husband and two brothers, you don't scare me
+3457 | role=family_elder,family_woman | Now you've done it, get the shotgun, Earl!
+3458 | reg=civilian,worker,rescue|tmp=seasoned | Twice? Twice is not a mistake, back off!
+3459 | reg=civilian,worker,outlaw,crime|tmp=seasoned | Alright, you've made your choice!
+3460 | reg=civilian,worker|tmp=seasoned | Do that one more time and I'll put you down
+3461 | reg=worker,civilian|tmp=seasoned | Again? Oh, you rotten piece of work!
+3462 | reg=civilian,family,worker,law|st=careful | I warned you, I warned you twice!
+3463 | role=civilian_loner | Twice, you're lucky I'm this tired
+3464 | role=civilian_loner | Twice, now I've got to care about you, I hate that
+3465 | reg=worker | Okay, now I'm mad, now I'm real mad!
+3466 | reg=worker | Right, I've had enough of you, come on, then
+3467 | reg=worker | Twice! Hit me again and I'll break your damn arm
+3468 | reg=worker | Fine, wrench it is
+3469 | reg=worker | You hit a man holding a hammer, twice, think on that a second
+3470 | role=rescue_medical | I stitch people up for a living, I know how to do the opposite
+3471 | role=rescue_medical | I've patched men who did less than you, get back off me
+3472 | role=rescue_medical | Hit me again and see who stitches you up next time
+3473 | role=rescue_clergy | I turned the other cheek, I'm fresh out of cheeks!
+3474 | role=rescue_clergy | The Lord's done talking, so am I
+3475 | role=rescue_clergy | I'll pray for you after, get back
+3476 | role=rescue_firefighter | That's it! I'm done being nice!
+3477 | reg=civilian|tmp=fresh | Again?! I didn't do anything! I didn't do ANYTHING!
+3478 | reg=civilian|tmp=fresh | You're going to kill me, you're actually going to kill me
+3479 | reg=civilian|tmp=fresh | Stop! I'll give you the bag, I'll give you my shoes, stop!
+3480 | reg=civilian|tmp=fresh | Oh God, you really mean it, stop- please stop!
+3481 | reg=civilian|tmp=fresh | Why are you smiling? Don't you smile at me!
+3482 | reg=civilian|tmp=fresh | I begged you, I begged, and you did it again
+3483 | reg=civilian|tmp=fresh | I can't run, my knee went out on the fourth, so do what you're doing
+3484 | reg=civilian|tmp=seasoned | I ain't gonna fight you, I'm just gonna stand here and bleed at you
+3485 | reg=civilian|tmp=seasoned | You hit me before and you're doing it again!
+3486 | reg=family | That's twice! Keep away from me!
+3487 | reg=family | Earl! EARL! Get the twelve gauge!
+3488 | reg=family | Twice! I'll remember your face, you hear me?
+3489 | reg=family | You're a grown person doing this, a grown person
+3490 | role=family_man | You're between me and my family, nothing else matters now
+3491 | role=family_woman | I've got a knife in this apron and I've dressed hogs with it
+3492 | reg=worker|tmp=seasoned | You picked the wrong shift to try that on
+3493 | reg=worker|tmp=seasoned|world=building | I've been on a roof in August, you don't frighten me any
+3494 | reg=rescue | That's it, no bandages for your kind, not ever
+3495 | role=rescue_firefighter|world=stairs | I've carried men bigger than you down stairs, come on
+3496 | reg=family,worker,civilian|st=careful | I warned you already, you chose not to listen
+3497 | - | I said stop! Did you hear me?
+3498 | - | You're doing this on purpose!
+3499 | - | Again? You want me dead that badly?
+3500 | - | Get away! I mean it this time!
+3501 | - | I'm not standing here for another one!
+3502 | - | That's enough out of you!
+3503 | - | Stop coming at me!
+3504 | - | I gave you a chance to quit!
+3505 | - | You keep doing it! Why?
+3506 | - | How many times do I have to tell you?
+3507 | - | Not again! Keep away!
+3508 | - | You're really going to keep hurting me?
+3509 | - | I know it wasn't an accident now!
+3510 | reg=civilian,family,worker,rescue|st=friendly,neutral | You shot me again! Why are you doing this?
+3511 | reg=civilian,family,worker,rescue|st=friendly,neutral | Stop shooting at me! Please! I didn't do anything!
+3512 | reg=civilian,family,worker,rescue|st=friendly,neutral | Not again! Another shot! You are trying to kill me!
+3513 | reg=civilian,family,worker,rescue|st=friendly,neutral | You stabbed me AGAIN?! What did I do to you!
+3514 | reg=civilian,family,worker,rescue|st=friendly,neutral | Stop slashing at me! I'll give you whatever you want!
+3515 | reg=civilian,family,worker,rescue|st=friendly,neutral | You hit me again! With the bat! Stop, please!
+3516 | reg=civilian,family,worker,rescue|st=friendly,neutral | Not the pipe again! Please! I'm bleeding!
+3517 | reg=civilian,family,worker,rescue|st=friendly,neutral | Another punch! Please stop, I'll go away!
+3518 | reg=civilian,family,worker,rescue|st=friendly,neutral | Stop hitting me in the face! Why are you doing this?
+3519 | reg=civilian,family,worker,rescue|st=friendly,neutral | Stop swinging at me! Stop!
+3520 | reg=civilian,family,worker,rescue|st=friendly,neutral|world=vehicle | You hit me with that truck again! Stop it!
+3521 | reg=civilian,family,worker,rescue|rep=worst | I knew it!! I knew you'd do this, please, please stop, I'll give you whatever you want!
+3522 | reg=civilian,family,worker,rescue|rep=worst | God no, no more, no more, I can't take it, please!
+3523 | reg=civilian,family,worker,rescue|rep=bad | Again?! What the hell is wrong with you?!
+3524 | reg=civilian,family,worker,rescue|rep=bad | Stop it!! Stop hitting me, you coward!
+3525 | reg=civilian,family,worker,rescue|rep=good | Why?! Why are you doing this?! I thought you were different!
+3526 | reg=civilian,family,worker,rescue|rep=good | Please stop, please, I don't understand, what did I do?
+3527 | reg=civilian,family,worker,rescue|rep=best | Not you, not you, you're supposed to be the good one, please, why?
+
+##### HIT_CONFIRMED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Hedefi vurdu; ekibe kısa rapor.
+3528 | reg=civilian,family,worker,rescue | He's bleeding! He's still coming!
+3529 | reg=civilian,family,worker,rescue | Did I get him? I got him!
+
+##### HOLD_POSITION #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# 'Yerinizi koruyun/mevzide kal' çağrısı; ekibe.
+3530 | reg=civilian,family,worker,rescue | Stay here, don't move
+3531 | reg=civilian,family,worker,rescue | Wait, just wait a second
+3532 | reg=civilian,family,worker,rescue | We stay put, okay?
+3533 | reg=civilian,family,worker,rescue | Don't go anywhere, please
+3534 | reg=civilian,family,worker,rescue|tmp=fresh | Stay here, okay? Stay right here, don't move
+3535 | reg=civilian,family,worker,rescue|tmp=fresh | Don't go anywhere, I'm scared if you leave
+3536 | reg=civilian,family,worker,rescue|tmp=fresh | Stay put, stay put, just wait, wait for it
+3537 | reg=civilian,family,worker,rescue|tmp=fresh | Wait for it... wait, nobody run yet
+3538 | reg=civilian,family,worker,rescue|tmp=fresh | Nobody runs, we stick together here
+3539 | reg=civilian,family,worker,rescue|tmp=fresh | We stay here, right? We stay?
+3540 | reg=civilian,family,worker,rescue|tmp=fresh | Wait, wait, I think we should wait
+3541 | reg=civilian,family,worker,rescue|tmp=seasoned | Hold here, hold here, don't chase it
+3542 | reg=civilian,family,worker,rescue|tmp=seasoned | Stay put, let them come to us
+3543 | reg=civilian,family,worker,rescue|tmp=seasoned | Nobody moves, wait for my word
+3544 | reg=civilian,family,worker,rescue|tmp=seasoned | Stand fast, we've got a good spot
+3545 | reg=civilian,family,worker,rescue|tmp=seasoned | Hold your ground, hold your ground, steady
+3546 | reg=civilian,family,worker,rescue|tmp=seasoned | Wait for it, wait for it, don't waste a shot
+3547 | reg=civilian,family,worker,rescue|tmp=seasoned | We stay, we hold, we wait them out
+3548 | reg=civilian,family,worker,rescue|tmp=seasoned | Don't go out there, they want us to go out there
+3549 | reg=civilian,family,worker,rescue|tmp=seasoned | Stay close, I don't want us stumbling into trouble
+3550 | reg=civilian,family,worker,rescue|mood=calm | We hold here, let them make the first move
+3551 | reg=civilian,family,worker,rescue|mood=calm | Hold position, we're fine where we are
+3552 | reg=civilian,family,worker,rescue|tmp=seasoned|mood=angry | Hold it! HOLD IT! Which part of 'stay put' did you not get?!

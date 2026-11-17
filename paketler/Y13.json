@@ -1,0 +1,480 @@
+{
+  "_paket": "Y13 — 1.5.0 Oluşturucu sabit yazıları (Creator_lua), 156 (çeviri: harici AI; kalite incelemesi yapılmadı)",
+  "_dosya": "Creator_lua",
+  "satirlar": {
+    "IGUI_ALifeUI_7c8b60b95cf22b21": {
+      "tr": "ROL"
+    },
+    "IGUI_ALifeUI_7c8bc3a65d11de88": {
+      "tr": "TAKIMLAR"
+    },
+    "IGUI_ALifeUI_0d637cfd0c4901fe": {
+      "tr": "Ateşli Silah"
+    },
+    "IGUI_ALifeUI_0dbc20e25a0c9672": {
+      "tr": "KAPALI  "
+    },
+    "IGUI_ALifeUI_6e7efcc14d6abd80": {
+      "tr": "ARAMAYI TEMİZLE"
+    },
+    "IGUI_ALifeUI_7a22ba01315b0c2f": {
+      "tr": "TÜMÜNÜ GÖSTER"
+    },
+    "IGUI_ALifeUI_33484d4a7a96d949": {
+      "tr": "silah yok"
+    },
+    "IGUI_ALifeUI_3c3261171fb85e4c": {
+      "tr": "Bu fraksiyonun ekipleri arabayla geldiğinde sürdüğü araba."
+    },
+    "IGUI_ALifeUI_4dd26ecc252d6203": {
+      "tr": "VARIŞ ARACI"
+    },
+    "IGUI_ALifeUI_10edc9ff1c7451c6": {
+      "tr": "Varsayılan araba"
+    },
+    "IGUI_ALifeUI_1c4bcbbe2df97762": {
+      "tr": "Varsayılan, standart varış arabasını korur. Seçilen araç için ikiden büyük bir ekip bunun yerine varsayılan arabayı kullanır."
+    },
+    "IGUI_ALifeUI_032041d5256f16bf": {
+      "tr": "Boya rengi"
+    },
+    "IGUI_ALifeUI_08f9b26c6fc4dde1": {
+      "tr": "Bazı araçlar, örneğin polis arabaları, kendi kaplamalarını korur."
+    },
+    "IGUI_ALifeUI_283c42fc29ecd72e": {
+      "tr": "rastgele boya"
+    },
+    "IGUI_ALifeUI_2fb77dfd722eb765": {
+      "tr": "Yüklü değil: varışlar varsayılan arabayı kullanır."
+    },
+    "IGUI_ALifeUI_0cf7d0f430a99bd9": {
+      "tr": "ONAYLAMAK İÇİN TEKRAR TIKLA"
+    },
+    "IGUI_ALifeUI_4d6b0ebb05e57811": {
+      "tr": "ONAYLA?"
+    },
+    "IGUI_ALifeUI_78353da10246ccfb": {
+      "tr": "ONAYLAMAK İÇİN TIKLA"
+    },
+    "IGUI_ALifeUI_3aa3b4a854964f50": {
+      "tr": "NPC silindi."
+    },
+    "IGUI_ALifeUI_7c8d009d5d58ccdb": {
+      "tr": "GERİ AL"
+    },
+    "IGUI_ALifeUI_62eb17095a226bbc": {
+      "tr": "SIFIRLAMAK İÇİN TEKRAR TIKLA - SUNUCU LİSTESİ DEĞİŞTİRİLİR, OLUŞTURDUĞUN FRAKSİYONLAR KALIR"
+    },
+    "IGUI_ALifeUI_4953b1cc5b28df01": {
+      "tr": "SIFIRLAMAK İÇİN TEKRAR TIKLA - MEVCUT FRAKSİYON DOSYAN .BACKUP.INI KOPYASI OLARAK SAKLANIR"
+    },
+    "IGUI_ALifeUI_32993efd79f0015e": {
+      "tr": "Yerleşik fraksiyonlar varsayılana döner. Kendi oluşturduğun fraksiyonlar kalır. Tek oyunculu fraksiyon dosyası .backup.ini kopyası olarak saklanır. Onaylamak için 3 saniye içinde iki kez tıkla."
+    },
+    "IGUI_ALifeUI_2b454a5b764dfe5b": {
+      "tr": "Onaylamak için 3 saniye içinde iki kez tıkla."
+    },
+    "IGUI_ALifeUI_04fb621548d45304": {
+      "tr": "Arayüz parçası yüklenemedi: "
+    },
+    "IGUI_ALifeUI_2c2343845c8c82af": {
+      "tr": "Seçili fraksiyondaki kişileri düzenle: solda kadro, sağda tam düzenleyici."
+    },
+    "IGUI_ALifeUI_4dff6ad241b46c82": {
+      "tr": "Seçili fraksiyonun kendisini düzenle: kimlik, ilişkiler, oluşum, varsayılan davranış, destek ve gardırop."
+    },
+    "IGUI_ALifeUI_7beb65d833d97d33": {
+      "tr": "Ad, cinsiyet, etiket, sınıf ve oluşturma ağırlığı."
+    },
+    "IGUI_ALifeUI_60e3a55a40858732": {
+      "tr": "Ten, saç, sakal, kıyafet takımları ve kıyafet yuvaları."
+    },
+    "IGUI_ALifeUI_12b2ab3704f1fa8d": {
+      "tr": "Bu NPC için yüz seçenekleri."
+    },
+    "IGUI_ALifeUI_16d4d4140ac4eb1a": {
+      "tr": "Silahlar, eklentiler ve şarjörler."
+    },
+    "IGUI_ALifeUI_31fe9096613f2303": {
+      "tr": "Sağlık, beceriler, hasar, ganimet ve çatışma desteği."
+    },
+    "IGUI_ALifeUI_03f58ba9148d1bdf": {
+      "tr": "Davranış profili, doktrin ve ses."
+    },
+    "IGUI_ALifeUI_6d776dbe2a909192": {
+      "tr": "NPC'ye özel yetenek geçersiz kılmaları. Boş, fraksiyondan devral anlamına gelir."
+    },
+    "IGUI_ALifeUI_731cb5e374da24bc": {
+      "tr": "Bu fraksiyonun oyuncuya ve diğer tüm fraksiyonlara nasıl davrandığı."
+    },
+    "IGUI_ALifeUI_49408c2629faedae": {
+      "tr": "Bu fraksiyonun nerede, ne zaman ve ne sıklıkta göründüğü."
+    },
+    "IGUI_ALifeUI_62cd8e1d5f3e0510": {
+      "tr": "Bu fraksiyonun her üyesi için varsayılan yetenekler."
+    },
+    "IGUI_ALifeUI_79875b7e21fd3cf3": {
+      "tr": "Destek çağrıları: tim büyüklüğü, çağrı sayısı ve müttefik fraksiyonlar."
+    },
+    "IGUI_ALifeUI_2002096560be720b": {
+      "tr": "Tüm fraksiyon için mevsim kıyafetleri."
+    },
+    "IGUI_ALifeUI_0d6d695009fd2be6": {
+      "tr": "Fraksiyon listesine ve üye kadrosuna dön."
+    },
+    "IGUI_ALifeUI_10efa28824763179": {
+      "tr": "Her üyeyi göster."
+    },
+    "IGUI_ALifeUI_438b064201cd4d1c": {
+      "tr": "Ateşli silah taşıyan üyeleri göster."
+    },
+    "IGUI_ALifeUI_0065e4665526e2d1": {
+      "tr": "Yakın dövüş silahı taşıyan üyeleri göster."
+    },
+    "IGUI_ALifeUI_4489de2637330365": {
+      "tr": "Üye listesini daralt."
+    },
+    "IGUI_ALifeUI_775e84047e4b731d": {
+      "tr": "Üye listesini genişlet."
+    },
+    "IGUI_ALifeUI_6b8f419c6d2aa843": {
+      "tr": "Önceki sayfa."
+    },
+    "IGUI_ALifeUI_3dde5eb34e265a0b": {
+      "tr": "Sonraki sayfa."
+    },
+    "IGUI_ALifeUI_1c68d6021a7bfab1": {
+      "tr": "Fraksiyonları gruplamak için klasör oluştur. Bir fraksiyonu dosyalamak için klasörün üstüne sürükle."
+    },
+    "IGUI_ALifeUI_7b366d9235fb51b2": {
+      "tr": "Yeni fraksiyon oluştur."
+    },
+    "IGUI_ALifeUI_623afcca57f822ba": {
+      "tr": "Seçili fraksiyona yeni NPC şablonu ekle."
+    },
+    "IGUI_ALifeUI_33a87cf2502ed332": {
+      "tr": "Seçili fraksiyonun ayarlarını aç."
+    },
+    "IGUI_ALifeUI_5151271f15c57cea": {
+      "tr": "Seçili fraksiyonu tüm NPC şablonlarıyla kopyala."
+    },
+    "IGUI_ALifeUI_61e9d5cd1ea1ec78": {
+      "tr": "Seçili NPC şablonunu kopyala."
+    },
+    "IGUI_ALifeUI_3e254617484c7b3f": {
+      "tr": "Seçili öğeyi sil. Onaylamak için 3 saniye içinde iki kez tıkla."
+    },
+    "IGUI_ALifeUI_6666d43919473b03": {
+      "tr": "Tüm Oluşturucu fraksiyonlarını ve NPC'lerini sunucuya gönder (çok oyunculu yöneticiler)."
+    },
+    "IGUI_ALifeUI_5771f53528cdb51e": {
+      "tr": "Oluşturucuyu kapat. Bekleyen düzenlemeler önce kaydedilir."
+    },
+    "IGUI_ALifeUI_4d309def30f0cc84": {
+      "tr": "Etkin sonraki kıyafet takımını canlı modelde göster."
+    },
+    "IGUI_ALifeUI_7adf999712ae24ba": {
+      "tr": "Seçili kıyafet öğesinin yazıldığı rengi koru."
+    },
+    "IGUI_ALifeUI_64afc27332e8d740": {
+      "tr": "Seçili kıyafet yuvası için herhangi bir renk seç."
+    },
+    "IGUI_ALifeUI_4b6d6c145382d2e4": {
+      "tr": "Silahı ya da mermisi olmayan üyeler. Yalnızca onları göstermek için tıkla."
+    },
+    "IGUI_ALifeUI_7c8490435b52dbdd": {
+      "tr": "BAŞARISIZ"
+    },
+    "IGUI_ALifeUI_4bcc49e73a4dcf7c": {
+      "tr": "TAMAM"
+    },
+    "IGUI_ALifeUI_0df21a4a0e96e675": {
+      "tr": "SIFIRLA"
+    },
+    "IGUI_ALifeUI_527acfaf19a4b603": {
+      "tr": "KALDIRILDI"
+    },
+    "IGUI_ALifeUI_302a94fa5b3acac1": {
+      "tr": "GERİ YÜKLENDİ"
+    },
+    "IGUI_ALifeUI_52558da13d17ba6c": {
+      "tr": "KAYDEDİLMEMİŞ DEĞİŞİKLİKLER  -  OTOMATİK KAYIT BEKLİYOR"
+    },
+    "IGUI_ALifeUI_4008fa8c160cc610": {
+      "tr": "BU EKRAN İÇİN METİN ÇOK BÜYÜK"
+    },
+    "IGUI_ALifeUI_681bdf2e3f23849a": {
+      "tr": "Fraksiyon ve NPC düzenlemelerini şimdi kaydet. Kısayol: Ctrl + S. Düzenlemeler ayrıca otomatik kaydedilir."
+    },
+    "IGUI_ALifeUI_260d5a100be1d75a": {
+      "tr": "FRAKSİYON SEÇİLMEDİ"
+    },
+    "IGUI_ALifeUI_2d187c916f334a57": {
+      "tr": "Soldaki listeden bir fraksiyon seç."
+    },
+    "IGUI_ALifeUI_2ff5e93c109e09c5": {
+      "tr": "BU FRAKSİYONUN HENÜZ ÜYESİ YOK"
+    },
+    "IGUI_ALifeUI_3ff6dedf69ff1c53": {
+      "tr": "İlk NPC şablonunu eklemek için + YENİ ÜYE'ye tıkla."
+    },
+    "IGUI_ALifeUI_3169675721214c85": {
+      "tr": "Her üyenin silahı ve mermisi var."
+    },
+    "IGUI_ALifeUI_64c7dd3603e8613a": {
+      "tr": "EŞLEŞEN ÜYE YOK"
+    },
+    "IGUI_ALifeUI_1ec4b50e76fa6080": {
+      "tr": "BU FİLTREYE UYAN ÜYE YOK"
+    },
+    "IGUI_ALifeUI_61a2bb6f16f18fbf": {
+      "tr": "Her üyeyi görmek için TÜMÜ'nü seç."
+    },
+    "IGUI_ALifeUI_5f409f9311174be5": {
+      "tr": "EŞLEŞEN FRAKSİYON YOK"
+    },
+    "IGUI_ALifeUI_73f08cbb7681b2aa": {
+      "tr": "Her fraksiyonu görmek için arama kutusunu temizle."
+    },
+    "IGUI_ALifeUI_661750446726e935": {
+      "tr": "İlkini oluşturmak için + YENİ FRAKSİYON'a tıkla."
+    },
+    "IGUI_ALifeUI_768d7c456ef2dc57": {
+      "tr": "HENÜZ FRAKSİYON YOK"
+    },
+    "IGUI_ALifeUI_7c8816dc5c245b0e": {
+      "tr": "GÖRÜNÜM"
+    },
+    "IGUI_ALifeUI_7c852ca65b76318a": {
+      "tr": "TEÇHİZAT"
+    },
+    "IGUI_ALifeUI_1f98fb753ff86b41": {
+      "tr": "YETENEKLER"
+    },
+    "IGUI_ALifeUI_0d88396b55ede712": {
+      "tr": "Ad, cinsiyet ve notlar. Etiket, sınıf ve oluşturma ağırlığı katlanmış blokta."
+    },
+    "IGUI_ALifeUI_2ae42dc12331d842": {
+      "tr": "Ten, saç, sakal, kıyafet takımları ve kıyafet yuvaları (GÖRÜNÜM), yüz seçenekleri (YÜZLER)."
+    },
+    "IGUI_ALifeUI_44caa4643ef7fd63": {
+      "tr": "ÇATIŞMA: sağlık, beceriler, hasar ve ganimet. DAVRANIŞ: doktrin ve ses. YETENEKLER: NPC'ye özel geçersiz kılmalar."
+    },
+    "IGUI_ALifeUI_5f15894946bc10f1": {
+      "tr": "KİMLİK, GÖRÜNÜM, TEÇHİZAT ve DAVRANIŞ. GÖRÜNÜM ve DAVRANIŞ'ın ikinci satırı var."
+    },
+    "IGUI_ALifeUI_11e3bdb011ba20b5": {
+      "tr": "Bu bloğu katlamak ya da açmak için tıkla."
+    },
+    "IGUI_ALifeUI_10d05af83011a50f": {
+      "tr": "DAHA AZ SÜTUN"
+    },
+    "IGUI_ALifeUI_554dbd7c21e0ebd9": {
+      "tr": "DAHA ÇOK SÜTUN"
+    },
+    "IGUI_ALifeUI_0a8932cf4253c47c": {
+      "tr": "Üye tablosunda davranışı, mermiyi, kıyafet takımlarını ve oluşturma ağırlığını göster."
+    },
+    "IGUI_ALifeUI_7004e49570031681": {
+      "tr": "Serbest takım, her mevsim: fraksiyon gardırobunun parçası değil"
+    },
+    "IGUI_ALifeUI_351e51f81b966bfa": {
+      "tr": "Eksik takımları ve mevsim etiketlerini oluşturup doldurur. Kendi etiketsiz kıyafeti olan NPC'ler atlanır: kıyafetleri ve etiketleri yazıldığı gibi kalır, oyun onları yine mevsime göre giydirir."
+    },
+    "IGUI_ALifeUI_7ae862dd2b13e37a": {
+      "tr": "NPC düzenleyicisine taşındı: Görünüm sekmesi, KIYAFET TAKIMLARI. A'dan D'ye takımlar fraksiyonun ilkbahar, yaz, sonbahar ve kış kıyafetleridir.",
+      "onayli_uslup_istisnalari": {
+        "dir": "Arayüz açıklaması/ipucu cümlesi, konuşma değil; bilgilendirme tonunda doğal"
+      }
+    },
+    "IGUI_ALifeUI_06848b91691aae09": {
+      "tr": "MEVSİME GÖRE FRAKSİYON GARDIROBU"
+    },
+    "IGUI_ALifeUI_7498eec1043bb624": {
+      "tr": "FRAKSİYON TAKIMINI DÜZENLE"
+    },
+    "IGUI_ALifeUI_1f88f8f87348434a": {
+      "tr": "Seçili takım için fraksiyon gardırobu düzenleyicisini açar. A'dan D'ye takımlar fraksiyonun ilkbahar, yaz, sonbahar ve kış kıyafetleridir.",
+      "onayli_uslup_istisnalari": {
+        "dir": "Arayüz açıklaması/ipucu cümlesi, konuşma değil; bilgilendirme tonunda doğal"
+      }
+    },
+    "IGUI_ALifeUI_2fb7559436430427": {
+      "tr": "Bu fraksiyonun mevsimlik takımlarını gelen gardıroptan yeniler. Önce bir önizleme açılır, kabul edene kadar hiçbir şey değişmez."
+    },
+    "IGUI_ALifeUI_6315344f3a8864af": {
+      "tr": "Fraksiyon listesini modla gelen fraksiyonlarla sınırla."
+    },
+    "IGUI_ALifeUI_29fb47a357354805": {
+      "tr": "NPC Görünümü'ne taşındı."
+    },
+    "IGUI_ALifeUI_1eb81eb97d67ff55": {
+      "tr": "Kuleli, duvarlarla çevrili bir garnizon"
+    },
+    "IGUI_ALifeUI_516f59c96943e2da": {
+      "tr": "Tarlası ve ağılı olan çitle çevrili bir çiftlik"
+    },
+    "IGUI_ALifeUI_3425d0931877f0fa": {
+      "tr": "Tezgahlı, kazıklarla çevrili bir pazar"
+    },
+    "IGUI_ALifeUI_12179f2e1c087b19": {
+      "tr": "Duvarlarla çevrili bir hücre bloğu ve egzersiz avlusu"
+    },
+    "IGUI_ALifeUI_326720d130071ac0": {
+      "tr": "Küçük, çitle çevrili bir dağ evi ve ateş çemberi"
+    },
+    "IGUI_ALifeUI_4d5357c54ee08fe9": {
+      "tr": "Yağmacıların tuttuğu hurda kazık çit"
+    },
+    "IGUI_ALifeUI_5b9f2ac662a33784": {
+      "tr": "Sürü geri çekilmesi"
+    },
+    "IGUI_ALifeUI_103eb0101c9b448c": {
+      "tr": "Bastırma"
+    },
+    "IGUI_ALifeUI_14d8516250b52f9f": {
+      "tr": "Koruma ateşi"
+    },
+    "IGUI_ALifeUI_6591ddb04d863921": {
+      "tr": "Tim ilerleyişi"
+    },
+    "IGUI_ALifeUI_51eec6c528b32d2b": {
+      "tr": "Hedefe yüklenme"
+    },
+    "IGUI_ALifeUI_7f741ff60be0d87e": {
+      "tr": "Dost hattı"
+    },
+    "IGUI_ALifeUI_67c830ab3bbe4dcb": {
+      "tr": "Tıkanmış bir çatışmada bir nişancı yandan açıya koşar, arkadakiler baskıyı sürdürürken o düşmana nişan alır."
+    },
+    "IGUI_ALifeUI_2397c21715234057": {
+      "tr": "Bu NPC'nin yanından vınlayan mermiler onu yere yapıştırır: nişanı bozulur, karşılık vermesi yavaşlar, yatarken kısa seriler atar ve sipere çekilir."
+    },
+    "IGUI_ALifeUI_120e5f9766971e7f": {
+      "tr": "Timdeki herhangi bir tüfek, bir tim arkadaşı sipere ya da yana kayarken istikrarlı koruma ateşi açabilir."
+    },
+    "IGUI_ALifeUI_0589b2ad7a6150b0": {
+      "tr": "Düşman şarjör değiştirir ya da düşerse tim yeniden nişan alır ve ateş ederek bir hat hâlinde ilerler."
+    },
+    "IGUI_ALifeUI_7eea27be4a0b7641": {
+      "tr": "Tim, bir arkadaşının az önce seslendiği hedefi tercih eder; böylece ateş dağılmak yerine tek düşmana gider."
+    },
+    "IGUI_ALifeUI_0c2b6b833ec8c829": {
+      "tr": "Bir tim arkadaşı ateş hattına girince ateşi keser ve yana çekilir."
+    },
+    "IGUI_ALifeUI_0202c2283dc5119c": {
+      "tr": "Örnek: Yağmacılar, Hikaye fraksiyonları"
+    },
+    "IGUI_ALifeUI_508c34bb50532a8e": {
+      "tr": "FRAKSİYONLAR SIFIRLANDI - SİLİNEN NPC'LER GERİ GETİRİLEMEDİ"
+    },
+    "IGUI_ALifeUI_6673c0d227e87154": {
+      "tr": "FRAKSİYONLAR VARSAYILANA SIFIRLANDI - ESKİ DOSYA .BACKUP.INI OLARAK SAKLANDI"
+    },
+    "IGUI_ALifeUI_7c12c5e07965fd6d": {
+      "tr": "kayıt başlatılamadı"
+    },
+    "IGUI_ALifeUI_571e44832757bba9": {
+      "tr": "yazılan dosya düzenlemeyle eşleşmedi"
+    },
+    "IGUI_ALifeUI_16d6e0025003f3ae": {
+      "tr": "yazma sırasında bir hata"
+    },
+    "IGUI_ALifeUI_0836afa5661002fe": {
+      "tr": "yazma sırasında NPC listesi değişti"
+    },
+    "IGUI_ALifeUI_7805341b5664b6cc": {
+      "tr": "silaha göre"
+    },
+    "IGUI_ALifeUI_56f922d417fdf8d0": {
+      "tr": "PROGRAM"
+    },
+    "IGUI_ALifeUI_2f8eb4d41a999a1d": {
+      "tr": "GRUPLAR"
+    },
+    "IGUI_ALifeUI_0f23891c2b3b3a05": {
+      "tr": "temel:"
+    },
+    "IGUI_ALifeUI_022f323a6abdb855": {
+      "tr": "KATMAN ŞURAYA TAŞINDI "
+    },
+    "IGUI_ALifeUI_1996cf246012cac9": {
+      "tr": "A-LIFE OLUŞTURUCU"
+    },
+    "IGUI_ALifeUI_2fc1d1d92db66dd9": {
+      "tr": "1993 / DevBuild UI 2"
+    },
+    "IGUI_ALifeUI_043683621f86f225": {
+      "tr": "Argent Isolation"
+    },
+    "IGUI_ALifeUI_14909587453f4175": {
+      "tr": "Blackglass"
+    },
+    "IGUI_ALifeUI_554257ba0fd271d8": {
+      "tr": "Iron Orchard"
+    },
+    "IGUI_ALifeUI_0dba67f71a751042": {
+      "tr": "yaz yelekleri ve bandanalar"
+    },
+    "IGUI_ALifeUI_1d0d39a6422ad11b": {
+      "tr": "yaz tişörtleri ve şapkalar"
+    },
+    "IGUI_ALifeUI_23d4af5c36b4902a": {
+      "tr": "ilkbahar flanel ve denim"
+    },
+    "IGUI_ALifeUI_32471a313173191d": {
+      "tr": "yaz kamuflaj tişörtleri ve vücut zırhı"
+    },
+    "IGUI_ALifeUI_32bbb00e566cd6c3": {
+      "tr": "ilkbahar kamuflaj ceketleri ve vücut zırhı"
+    },
+    "IGUI_ALifeUI_34799f6d499deb8c": {
+      "tr": "yaz hafif tulumlar ve botlar"
+    },
+    "IGUI_ALifeUI_34fe907139d01926": {
+      "tr": "kış dolgulu ceketler"
+    },
+    "IGUI_ALifeUI_3a20d26c287067be": {
+      "tr": "sonbahar av katmanları ve deri"
+    },
+    "IGUI_ALifeUI_3a388ad431121768": {
+      "tr": "kış tulumları, yün şapkalar ve eldivenler"
+    },
+    "IGUI_ALifeUI_3af9edd47dc25d53": {
+      "tr": "ilkbahar tulumları ve gaz maskeleri"
+    },
+    "IGUI_ALifeUI_404f5e292e2edcd9": {
+      "tr": "ilkbahar üniforma gömlekleri ve kasketler"
+    },
+    "IGUI_ALifeUI_52aa9f6970f67c3f": {
+      "tr": "ilkbahar flanel ve deri"
+    },
+    "IGUI_ALifeUI_52b6709a2fe09346": {
+      "tr": "sonbahar tulumları ve fosforlu yelekler"
+    },
+    "IGUI_ALifeUI_52d95b522c6fcddc": {
+      "tr": "sonbahar iş ceketleri"
+    },
+    "IGUI_ALifeUI_5672c19228a1b0e7": {
+      "tr": "kış dolgulu ceketler ve yün şapkalar"
+    },
+    "IGUI_ALifeUI_5c843366260f6cb9": {
+      "tr": "ilkbahar uyumsuz iş ceketleri ve şapkalar"
+    },
+    "IGUI_ALifeUI_610b703571983401": {
+      "tr": "kış ordu paltoları ve yün şapkalar"
+    },
+    "IGUI_ALifeUI_69151122378e2b9c": {
+      "tr": "sonbahar kamuflaj saha ceketleri"
+    },
+    "IGUI_ALifeUI_795c58f7095b1b17": {
+      "tr": "yaz haki tişörtler, pilot gözlükleri ve boonie şapkaları"
+    },
+    "IGUI_ALifeUI_7ba1c96a7a07df2d": {
+      "tr": "sonbahar deri ceketler"
+    },
+    "IGUI_ALifeUI_7cfd33ee1a833fdd": {
+      "tr": "yaz tişörtleri ve bandanalar"
+    }
+  }
+}

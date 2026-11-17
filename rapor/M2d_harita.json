@@ -1,0 +1,42 @@
+{
+ "_paket": "M2d",
+ "_grup": "agac_eksik_eski",
+ "_dosya": "RadioData_lua",
+ "_noktalama_haric": [],
+ "_baslik": "Önceden haritalanmış, girdisi kalmamış 3 ağaç repliği",
+ "_parcalar": [
+  [
+   1,
+   3
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "RD_ALifeLine_48f4c194339e197a",
+   "Why do you want to know?",
+   [
+    "ALifeTrees_law.lua",
+    "law_where_live_d0",
+    "npc:start; ayrıca crime_outpost_where_camp / ALifeTrees_crime3.lua"
+   ]
+  ],
+  "2": [
+   "RD_ALifeLine_021b331d1abb9c09",
+   "Who wants to know?",
+   [
+    "ALifeTrees_law2.lua",
+    "law_outpost_where_d14",
+    "npc:start"
+   ]
+  ],
+  "3": [
+   "RD_ALifeLine_70c543cd2371a273",
+   "What's in it for me?",
+   [
+    "ALifeTrees_military.lua",
+    "military_d0_task_lost_team; military_d14_recruit; rescue_q_abx_offer",
+    "secenek:pay/what"
+   ]
+  ]
+ }
+}

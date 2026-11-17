@@ -1,0 +1,456 @@
+# PAKET G1R · parça 30/35 · satır 10287-10653 (367 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar oyunda şu an skill'den önceki eski bir çeviriyle görünüyor; sıfırdan, İngilizceden kur. Her başlığın altındaki 'NEREDE:' oyuncunun bu sözle nasıl karşılaştığını, '#' notu sahneyi anlatır. Önce bunları oku, satırı o anda o yerde duyulacak sözle yaz.
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+##### SUPPRESSED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Baskı ateşi altında, başını kaldıramıyor.
+10287 | reg=civilian,family,worker,rescue | Bullets everywhere, I can't get up
+
+##### SUPPRESS_FIRE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Baskı ateşi açıyor; ekibe.
+10288 | reg=civilian,family,worker,rescue | I'll shoot at them, you run!
+10289 | reg=civilian,family,worker,rescue | Go! I'll keep shooting!
+10290 | reg=civilian,family,worker,rescue | Keep them busy! Just keep shooting!
+
+##### SURRENDER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Teslim oluyor.
+10291 | tmp=fresh | Okay! OKAY! You win, look, hands up! Hands are up!
+10292 | tmp=fresh | I give up! I give up, I give UP, please stop!
+10293 | tmp=fresh | Don't shoot, don't shoot-- I'm on my knees, see?
+10294 | tmp=fresh | Please, I have nothing, just let me live, please
+10295 | tmp=fresh,seasoned | I'm done, I'm done fighting, take whatever you want
+10296 | tmp=fresh,seasoned | Hands, look, empty, nothing in them, nothing
+10297 | tmp=fresh,seasoned | I'm getting on the ground, don't-- I'm getting down
+10298 | tmp=fresh,seasoned | Whatever I said before, I take it back, all of it
+10299 | reg=civilian,family,worker|tmp=fresh | I surrender! That's a word, right? I surrender!
+10300 | tmp=seasoned | My weapon's down, it's down, I'm stepping off it
+10301 | tmp=seasoned | Alright, your day, take it, I'm not dying for a house
+10302 | tmp=seasoned,veteran | Enough, ENOUGH, I'm out of this
+10303 | tmp=veteran|mood=grim | You've got me, do what you're going to do
+10304 | role=rescue_medical | I'm a medic, I don't even carry, please
+10305 | reg=civilian,worker|tmp=seasoned|mood=sad | I'm nobody's soldier, I just wanted to eat...
+10306 | reg=worker,civilian|tmp=seasoned|world=vehicle | Take the truck, take the keys, they're in my pocket
+10307 | tmp=fresh|mood=fear | My hands are up, my hands are UP! Please look at them!
+10308 | tmp=fresh|mood=fear | Please, I don't want to be one of them, not like that
+10309 | reg=civilian,family,worker|tmp=seasoned|mood=sad | I have a daughter in Rosewood, that's all I've got left...
+10310 | reg=worker|tmp=seasoned | I quit, whatever this was, I quit it
+10311 | reg=civilian,family,worker|tmp=seasoned,veteran | Take what you want! Just let me walk away!
+10312 | reg=family,civilian|tmp=seasoned | You can have the house, the whole house, we'll walk
+10313 | role=rescue_clergy,family_elder|mood=sad | Lord forgive me, I'm giving up
+10314 | reg=civilian,family,worker,rescue | I give up! Hands up, see? Don't shoot!
+10315 | reg=civilian,family,worker,rescue | I surrender! Gun's down! Please don't shoot!
+10316 | reg=civilian,family,worker,rescue | The knife is down! I'm done! Please!
+10317 | reg=civilian,family,worker,rescue | I'm dropping the bat! Don't hit me!
+10318 | reg=civilian,family,worker,rescue | No more fists! I give up! Don't hit me!
+10319 | reg=civilian,family,worker,rescue | I'm putting it down! Don't swing at me!
+10320 | reg=civilian,family,worker,rescue | You win! I quit, just let me walk
+10321 | reg=civilian,family,worker,rescue | I surrender! Please, take what you want!
+10322 | reg=civilian,family,worker,rescue | Don't hurt me! I'll do anything!
+10323 | reg=civilian,family,worker,rescue | I'm not fighting, see? My hands are up
+10324 | reg=civilian,family,worker,rescue | I'm down on my knees, see? Hands are up too!
+10325 | reg=civilian,family,worker,rescue | Please don't hurt me... I'll do whatever you say
+10326 | reg=civilian,family,worker,rescue|world=vehicle | I'm stopping the vehicle! I give up!
+
+##### TAKING_COVER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Siper alıyor.
+10327 | reg=civilian,family,worker,rescue | Get out of the open if you can!
+10328 | reg=civilian,family,worker,rescue | I'm hiding, I'm hiding, don't look for me
+
+##### TALK_BUSY_COMBAT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu konuşmak istedi ama NPC çatışmada; oyuncuya 'şimdi olmaz'.
+10329 | - | Not now!
+10330 | - | Get clear! We can talk later!
+10331 | - | I can't hear you over this! Move!
+10332 | - | Not a good time for a conversation!
+10333 | - | Ask me when I'm not trying to stay alive!
+10334 | - | I can't listen to you right now!
+10335 | - | This can wait, can't it?
+10336 | - | Let me deal with this first!
+10337 | - | Please, not while this is happening!
+10338 | - | You picked one hell of a time to chat!
+10339 | - | Let me survive this, then ask!
+10340 | - | Can't think about that now!
+10341 | - | Save it until I can hear myself!
+10342 | - | A little busy! You might have noticed!
+10343 | - | You wanna talk NOW?!
+10344 | - | Wait! Just-- WAIT!
+10345 | - | Are you serious? Look around!
+10346 | - | Heard you! Can't answer!
+10347 | - | Later, okay? Fucking later!
+10348 | - | Can you not? I'm trying to stay alive!
+10349 | - | Not ignoring you! Trying not to get killed!
+10350 | - | If this can wait, let it fucking wait!
+10351 | - | Not a word of that went in, ask after!
+10352 | - | I can't do both! Stop asking!
+10353 | - | You've picked a hell of a time!
+10354 | - | Can't look at you, don't come round in front!
+10355 | - | Ask me again after this, I'm gonna forget!
+10356 | - | I heard something, couldn't tell you what!
+10357 | - | Hang on! Hang on, goddammit!
+10358 | - | Not a good time, really not a good time!
+10359 | - | Talk somewhere we aren't getting killed!
+10360 | - | I wanna hear it, I do, but not here!
+10361 | - | Oh, for-- can you just WAIT?!
+10362 | reg=civilian,family|tmp=fresh | Please, get back! I can't watch you too!
+10363 | tmp=fresh | Don't-- don't make me look away!
+10364 | tmp=fresh | I DON'T KNOW! I don't even know what I'm doing!
+10365 | tmp=fresh | What? What do you WANT?!
+10366 | tmp=fresh | After! Please, just let me get through this!
+10367 | tmp=fresh | I can't... I can't catch my breath!
+10368 | tmp=fresh | Stay back! My hands are all-- stay back!
+10369 | tmp=fresh | Sorry! Sorry, I can't listen!
+10370 | tmp=fresh | I need a second! Not a question, a second!
+10371 | tmp=fresh | I've never done this before, okay?!
+10372 | tmp=fresh | Please stop talking, please, I can't--
+10373 | tmp=fresh | Too much! You're giving me too much!
+10374 | tmp=fresh | Can it wait? Tell me it can wait!
+10375 | tmp=fresh | I'm TRYING! Stop yelling at me!
+10376 | tmp=fresh | I can't even hear myself think!
+10377 | tmp=fresh | Ask me again when this stops, I can't think!
+10378 | tmp=fresh | I know you're there! Please don't make me turn around!
+10379 | tmp=fresh | I'm not being rude! I'm fucking terrified!
+10380 | tmp=fresh | Huh?! No, I didn't hear you!
+10381 | tmp=fresh | Don't ask me to make another decision right now!
+10382 | tmp=fresh | Yes! No! I don't fucking know, leave it!
+10383 | tmp=seasoned | Hold that thought, got my hands full
+10384 | tmp=seasoned | Can't turn around, tell me after
+10385 | tmp=seasoned | Busy, very fucking busy
+10386 | tmp=seasoned | Not now, and don't ask again till this is over
+10387 | tmp=seasoned | Get clear first, we can talk there
+10388 | tmp=seasoned | Quiet a second, need to hear
+10389 | tmp=seasoned | Is it urgent? No? Then later
+10390 | tmp=seasoned | Lost you after the first word, save it
+10391 | tmp=seasoned | Catch me after, you can see I'm busy
+10392 | tmp=seasoned | Not having this discussion here
+10393 | tmp=veteran | Right after a fight, keep clear
+10394 | tmp=veteran | Stop talking, stay clear
+10395 | tmp=veteran | I need that space, talk later
+10396 | tmp=veteran | Unless that's a warning, hold it
+10397 | tmp=veteran | Talk when we're clear
+10398 | tmp=veteran | Heard you, hold on
+10399 | tmp=veteran | Give me room, back up
+10400 | tmp=veteran | Can't talk, keep your head down
+10401 | tmp=veteran | Not now, eyes up
+10402 | tmp=veteran | Unless you've got eyes on something, quiet
+10403 | tmp=predator | Do I look available for a fucking interview?
+10404 | tmp=predator | Keep bothering me, see how that ends
+10405 | tmp=predator | Move your ass, talk later
+10406 | tmp=predator | Not dying over your stupid fucking question
+10407 | tmp=predator | Find somebody else to annoy while I'm busy
+10408 | tmp=predator|st=hostile | You're still fucking talking?!
+10409 | st=hostile | Oh, NOW you wanna talk?
+10410 | st=hostile | No, done talking to you
+10411 | st=hostile | I don't care what you came to ask!
+10412 | st=hostile | Save it! I don't believe you!
+10413 | role=rescue_clergy | Dear God, can this wait?
+10414 | role=rescue_clergy | Oh, Lord-- get down! Please get down!
+10415 | reg=rescue | One thing at a time! What is it, are you hurt?
+10416 | reg=rescue | Hang on, one second, I'm coming!
+10417 | role=rescue_medical | If you're hurt, get out of this first! Can't help you here!
+10418 | role=rescue_medical|tmp=seasoned | I can't help yet! Stop pulling my attention!
+10419 | reg=worker,civilian | I worked a fucking cash register! Ask somebody who knows!
+10420 | reg=worker | I can't hear a damn thing, quit shouting and watch my back!
+10421 | reg=worker | Ask someone else! I'm winging it here!
+10422 | reg=family | Please, I need to pay attention!
+10423 | reg=family | I have people to get back to! Let me concentrate!
+10424 | role=family_man,family_woman | I'm a parent, not a fucking soldier! I don't KNOW!
+10425 | role=family_elder | What?! Speak up-- no, never mind, not now!
+10426 | role=family_youth|tmp=fresh | I don't know how to do this! Stop asking me stuff!
+10427 | st=friendly,neutral | I said I'd listen! Just not NOW!
+10428 | reg=civilian,family,worker,rescue|tmp=fresh | Please, not right now, I've got to move!
+10429 | reg=civilian,family,worker,rescue|tmp=seasoned | Later, give me room to get clear
+
+##### TALK_FALLBACK_END #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# NPC anlamaktan vazgeçip konuşmayı kapatıyor; oyuncuya.
+10430 | - | Let's leave it there, I've got to keep an ear out
+10431 | - | We're talking past each other, another time, maybe
+10432 | - | Sorry, I can't help you with that
+10433 | - | I don't have an answer for you
+10434 | reg=civilian,worker,outlaw | Alright, I'm gonna go be somewhere else
+10435 | reg=civilian,worker,outlaw | Nope, I'm out, good luck to you
+10436 | reg=civilian,family,worker | We're done, I've got water to boil
+10437 | reg=civilian,worker,rescue | Forget it, no hard feelings
+10438 | reg=civilian,worker,rescue | You'll find somebody who follows you better than me
+10439 | reg=civilian,worker,family | I'll be over yonder if it comes to you
+10440 | reg=civilian,worker,family | Alright, this ain't going anywhere, take care of yourself
+10441 | reg=civilian,family|tmp=seasoned | That's all the talking I've got in me today
+10442 | reg=civilian,family|tmp=seasoned | I've spent what I had on this, bye now
+10443 | reg=civilian,family|tmp=fresh | I have to go, I'm sorry, I have to go
+10444 | reg=civilian,family|tmp=fresh | I'm going to go stand somewhere quieter
+10445 | reg=civilian,family|tmp=fresh | Sorry, I gotta go, I gotta- sorry
+10446 | reg=civilian,family|tmp=fresh | I can't do this, I'm sorry, bye
+10447 | reg=family|tmp=fresh | I need to find something to eat... take care of yourself
+10448 | role=rescue_clergy | God bless you anyway, come by if you get the words in order
+10449 | reg=worker,rescue | Come find me when you've worked it out
+10450 | reg=civilian,worker|tmp=seasoned | Well, nice standing here with you
+10451 | reg=civilian,worker|tmp=seasoned | I'm gonna quit while we're both still polite
+10452 | role=family_elder | I'm eighty-one, I don't have the afternoon to spend on this
+10453 | role=rescue_medical | If you start bleeding, come back, otherwise, go on
+10454 | reg=civilian,worker,outlaw|tmp=seasoned | Well, that went nowhere, I'm heading out
+10455 | reg=civilian,family,rescue | Whatever it was, I hope you get it
+10456 | reg=worker,civilian,outlaw | We'll call it a draw, watch the ditches on your way
+10457 | reg=worker,civilian | I'm going back to what I was doing, you do the same
+10458 | reg=worker,outlaw,civilian | That's my limit, don't take it personal
+10459 | reg=civilian,worker | Uh huh... sure, whatever that was
+10460 | reg=family,civilian,rescue | I tried, you tried, that's two of us trying
+10461 | reg=worker,civilian|mood=funny | Well, been a pleasure and a confusion
+
+##### TALK_GREET_OPEN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Konuşma penceresi açıldı; NPC'nin ilk sözü, oyuncuya.
+10462 | reg=civilian,family|st=friendly,neutral | Oh, hey, what's up?
+10463 | reg=civilian,family|st=friendly,neutral | Oh hey! Didn't see you there, what's going on?
+10464 | reg=civilian,family|st=friendly,neutral | Hm? Oh, hi, something wrong?
+10465 | reg=civilian,family|st=friendly,neutral | Hey there, you need something?
+10466 | reg=civilian,family|st=friendly,neutral | Oh, hi, sorry, I was miles away, what's up?
+10467 | reg=civilian,family|st=friendly,neutral | Hey, you good? Need something?
+10468 | reg=worker|st=friendly,neutral | Hey, what's up?
+10469 | reg=worker|st=friendly,neutral | Yeah? Make it quick, I've got work to finish
+10470 | reg=worker|st=friendly,neutral | Oh hey, need a hand with something?
+10471 | reg=worker|st=friendly,neutral | Hey, friend, what's on your mind?
+10472 | reg=worker|st=friendly,neutral | Hm? Oh, yeah, go ahead, I'm listening
+10473 | reg=worker|st=friendly,neutral | Hey, what's up? Everything okay out there?
+10474 | reg=rescue|st=friendly,neutral | Oh hey, everything alright? Anybody hurt?
+10475 | reg=rescue|st=friendly,neutral | Hello, what's up? Do you need anything?
+10476 | reg=rescue|st=friendly,neutral | Hey, hold on, I'm listening, what's the matter?
+10477 | reg=rescue|st=friendly,neutral | Hi there, are you okay? What's up?
+10478 | reg=rescue|st=friendly,neutral | Hey, you need me?
+10479 | reg=rescue|st=friendly,neutral | Hey, you look like you've got something on your mind, what's up?
+10480 | reg=civilian,family,worker,rescue|tmp=fresh | Oh! Hi, sorry, hi, you wanted to talk? Okay, okay, I'm listening
+10481 | reg=civilian,family,worker,rescue|tmp=fresh | Huh? Oh... yes, I'm listening
+10482 | reg=civilian,family,worker,rescue|tmp=fresh | You're talking to me, great, great, what do you want to talk about?
+10483 | reg=civilian,family,worker,rescue|tmp=seasoned | Yeah? What's on your mind?
+10484 | reg=civilian,family,worker,rescue|tmp=seasoned | Sure, I've got a minute, what's up?
+10485 | reg=civilian,family,worker,rescue|tmp=seasoned | Go ahead, I'm all ears
+10486 | reg=family | Well hello, honey, pull up a chair, what's got you here
+10487 | reg=civilian,family,worker,rescue|rep=worst | Oh... oh no, it's you, what do you want to talk about? Please, be nice
+10488 | reg=civilian,family,worker,rescue|rep=worst | You want to talk? Okay, okay, I'll talk, just don't hurt me
+10489 | reg=civilian,family,worker,rescue|rep=bad | You want to talk? Alright, talk, but I'm keeping my eyes on you
+10490 | reg=civilian,family,worker,rescue|rep=bad | Go ahead, talk, I'm listening, I'm just not turning my back
+10491 | reg=civilian,family,worker,rescue|rep=good | Talk? Sure I'll talk, anything for you, go ahead
+10492 | reg=civilian,family,worker,rescue|rep=good | Pull up a seat, I'm all ears
+10493 | reg=civilian,family,worker,rescue|rep=best | Anything, anything at all, please, ask me anything
+10494 | reg=civilian,family,worker,rescue|rep=best | Talk to me, I'd love to, you can ask me whatever you want
+
+##### TALK_IGNORE_HOSTILE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Düşman NPC oyuncuyla konuşmayı reddediyor.
+10495 | - | We've got nothing to discuss
+10496 | - | Stay the hell back!
+10497 | reg=civilian,family,worker,rescue | I said leave me alone!
+10498 | reg=civilian,family|tmp=fresh|st=hostile | I don't want to hear it! Just go! GO!
+10499 | reg=civilian,family,worker|st=hostile | Don't you talk at me, not after what your kind did on Tanner Road
+10500 | reg=family,worker|tmp=seasoned|st=hostile | You had your chance to be a neighbor, get off my grass
+10501 | reg=civilian,family,worker|tmp=fresh|st=hostile | No! No talking! Just get away from here!
+
+##### TENSE_SILENCE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Gergin sessizliği bozan kısa söz.
+10502 | tmp=fresh | Haven't heard a dog bark in an hour, I hate it when it gets like this
+10503 | tmp=seasoned | Something's off, don't ask me what, just is
+10504 | tmp=veteran | Hold up, everybody, listen
+10505 | tmp=seasoned,veteran|mood=grim | No birds, there were birds an hour ago
+10506 | tmp=seasoned|fact=recent_human_contact | Somebody's out there, I can feel eyes
+10507 | tmp=veteran|hour=20,4 | Shhh... not a word, I'm listening to something out there
+10508 | tmp=seasoned|mood=fear | My skin's crawling and it's never wrong
+10509 | tmp=seasoned|mood=fear | Whatever it is, it knows where we are
+10510 | tmp=fresh|mood=fear|world=window,road | Every window on this street is looking at me
+10511 | tmp=seasoned,veteran|hour=20,4 | Light stays off, I don't like how quiet it got
+10512 | reg=law,military,rescue|tmp=seasoned | Radio's dead air, been dead air an hour
+10513 | tmp=fresh|mood=fear | I can hear my own heart, that's not good
+10514 | tmp=veteran|mood=grim | They go quiet before they come, you'll learn that
+10515 | reg=civilian,worker,law|tmp=seasoned|world=road | Don't like this street, never did, even before
+10516 | tmp=veteran|fact=recent_human_contact | Somebody was here, cigarette's still warm
+10517 | tmp=veteran|hour=21,4 | Whisper it or don't say it
+10518 | tmp=seasoned|fact=recent_zombie_contact | Something's dead nearby, you smell that?
+10519 | tmp=fresh|mood=fear|world=wind | Please be the wind... just the wind... please
+10520 | tmp=seasoned|mood=grim | I'd rather hear a hundred of them than this
+10521 | reg=civilian,family,worker,rescue | Radio's gone to static again, last time it did that, one of them was in the yard
+10522 | reg=civilian,family,worker,rescue | I don't like how quiet the birds got
+10523 | reg=civilian | It's too quiet, I don't like it
+10524 | reg=family | Everybody hush, listen
+10525 | reg=family | Shh... come here, hold onto my sleeve
+10526 | reg=worker | Quiet, wait
+10527 | reg=worker | Hold still, something's out there
+10528 | reg=rescue | Easy, slow breaths
+10529 | reg=rescue | Be still, be calm
+
+##### THIRSTY #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Susadı.
+10530 | reg=civilian,family,worker,rescue | I need a drink of water, my mouth is dry
+10531 | reg=civilian,family,worker,rescue | So thirsty, anything wet, anything
+
+##### TIRED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yoruldu.
+10532 | reg=civilian,family,worker,rescue | I'm so tired, when did I last sleep?
+10533 | reg=civilian,family,worker,rescue | Eyes are closing on me, I need some rest
+
+##### UNDER_FIRE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Ateş altında; ekibe.
+10534 | reg=civilian,family,worker,rescue|tmp=fresh | Somebody's shooting at me! Somebody is SHOOTING AT ME!
+10535 | reg=civilian,family,worker,rescue|tmp=fresh | Oh God, they're firing at us! Get down!
+10536 | reg=civilian,family,worker,rescue|tmp=fresh | That was a bullet! That was real! Run!
+10537 | reg=civilian,family,worker,rescue|tmp=seasoned | Shots! Heads down, everybody, move, move
+10538 | reg=civilian,family,worker,rescue|tmp=seasoned | They're firing! Keep yourself alive!
+10539 | reg=civilian,family,worker,rescue | Stop shooting! We're not your enemy!
+
+##### VAULT_FAILED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bir engelin/çitin üstünden atlıyor (ya da atlayamadı).
+10540 | reg=civilian,family,worker,rescue | I can't get over it, I can't
+10541 | reg=civilian,family,worker,rescue | Ow, I slipped, I'm okay
+
+##### VAULT_START #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bir engelin/çitin üstünden atlıyor (ya da atlayamadı).
+10542 | reg=civilian,family,worker,rescue | I'll climb it, I can climb it
+
+##### WARMED_UP #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Isındı.
+10543 | - | Alright, thawed out, back to it
+10544 | - | Toes are back, let's go
+10545 | - | Warm enough, can't sit here all day
+10546 | - | That did it, I can feel my face again
+10547 | - | Better, not great, but better
+10548 | - | Hands work again, good enough
+10549 | - | Warm, ready, let's not waste it
+10550 | - | Feeling human, let's keep it that way
+10551 | - | Not shivering anymore, that's progress
+10552 | reg=civilian,family,worker,rescue | Okay, out we go, collar up, head down
+10553 | reg=civilian,family,worker,rescue | Last bit of heat, then I'm out, keep the fire low
+10554 | reg=civilian,family,worker,rescue|tmp=seasoned | That bought me a few hours, let's use them
+
+##### WARMING #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Ateşin başında ısınıyor.
+10555 | - | Oh, that's good, that's real good
+10556 | - | Scoot over, let me at the fire
+10557 | - | Feel that? That's my fingers coming back
+10558 | - | Ahh, hold your hands out, closer
+10559 | - | Pins and needles, means it's working
+10560 | - | Nothing like a fire, nothing at all
+10561 | - | Wood smoke and wet wool, smells like home, almost
+10562 | - | Toes are thawing, it hurts, but it's a good hurt
+10563 | - | Hear that crackle? Best sound in the world
+10564 | - | Warmth, I'd forgotten what it was
+10565 | - | Ahh, there... fingers work again
+10566 | - | Keep your boots away from the flames, melts the soles, ask me how I know
+10567 | - | Gather round, there's heat enough for everybody
+10568 | - | A little closer, everybody, it's warmer when we're bunched up
+10569 | - | Whoever started this fire deserves a medal
+10570 | - | My coat's steaming, smell that? Wet dog and wool
+10571 | reg=civilian,family,worker,rescue | Hot tea and a fire, that's all I'm asking for
+10572 | reg=civilian,family,worker,rescue|tmp=seasoned | Take the edge off, anyhow, take the edge off
+10573 | reg=civilian,family,worker,rescue|tmp=fresh | I could stay here all night, won't, but I could
+10574 | reg=civilian,family,worker,rescue|tmp=fresh | Mama had a woodstove like this, smelled of apples and smoke
+10575 | role=rescue_medical | Warm hands, steady hands, now we're in business
+
+##### WARNING_LOWER_WEAPON #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncuya 'silahını indir' uyarısı, 'sen'.
+10576 | reg=civilian,family,worker,rescue | Put that down! Please!
+10577 | reg=civilian,family,worker,rescue | Don't point that at us!
+10578 | reg=civilian,family,worker,rescue | Lower it! We're just people!
+10579 | reg=civilian,family,worker,rescue | Please put the gun down, please
+10580 | reg=civilian,family,worker,rescue | Hey! Point that somewhere else!
+10581 | reg=civilian,family,worker,rescue | Put it down, nobody wants this
+
+##### WARNING_STOP #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncuya 'dur' uyarısı, 'sen'.
+10582 | reg=civilian,family,worker,rescue | Stop! Please, just stop there!
+10583 | reg=civilian,family,worker,rescue | Don't come closer! I mean it!
+10584 | reg=civilian,family,worker,rescue | Wait! Stay over there, okay?
+10585 | reg=civilian,family,worker,rescue | Hey! That's far enough!
+10586 | reg=civilian,family,worker,rescue | No, no, stay back, please
+10587 | reg=civilian,family,worker,rescue | Whoa- hold it right there, we got nothing you want
+
+##### WARN_BEFORE_ATTACK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Saldırmadan önce son uyarı; oyuncuya.
+10588 | - | Hey! You there! Turn around!
+10589 | - | You! Right there! Don't you move!
+10590 | - | Hey! I see you! Stop where you are!
+10591 | reg=civilian,family,worker,rescue | Get back! Get away from us!
+10592 | reg=civilian,family,worker|tmp=fresh | You come any closer and I swear I'll swing!
+10593 | reg=civilian,family|tmp=fresh | Stay away! I mean it, I'll do it!
+10594 | reg=civilian,family,worker,rescue|tmp=seasoned,veteran | That's far enough! Not one more step!
+
+##### WEAPON_JAM #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Silahı tutukluk yaptı.
+10595 | reg=civilian,family,worker,rescue | It won't shoot! Why won't it shoot?
+10596 | reg=civilian,family,worker,rescue | It's stuck! It's stuck!
+10597 | reg=civilian,family,worker,rescue | It's jammed! It won't fire!
+10598 | reg=civilian,family,worker,rescue | Come on! Come on! Why won't it work?
+10599 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | It won't fire! It WON'T FIRE! Why won't it fire?!
+10600 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | Jammed! It's stuck! It's STUCK! Oh God!
+10601 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | Come ON, come ON, work, WORK, please work!
+10602 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | Click! Nothing! Click! Again! NOTHING!
+10603 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | It's broken, it's broken, it's broken, we're dead
+10604 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | Please- please- not now- not NOW- it jammed!
+10605 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | No, no, no, no, no, no, no, it jammed, it jammed!
+10606 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | Pull, pull, why won't it, why won't it, WHY-
+10607 | reg=civilian,family,worker,rescue|tmp=fresh | It jammed, hold on, hold on
+10608 | reg=civilian,family,worker,rescue|tmp=fresh | Gun's stuck, give me a sec
+10609 | reg=civilian,family,worker,rescue|tmp=fresh | Oh, it won't shoot, what's wrong with it?
+10610 | reg=civilian,family,worker,rescue|tmp=fresh | Something's jammed, I'm trying to clear it
+10611 | reg=civilian,family,worker,rescue|tmp=fresh | It's not firing, ugh, ugh, ugh
+10612 | reg=civilian,family,worker,rescue|tmp=fresh | Stuck, it's stuck, one moment
+10613 | reg=civilian,family,worker,rescue|tmp=fresh | Hang on, I'm fixing it, hang on
+10614 | reg=civilian,family,worker,rescue|tmp=fresh | Dammit, jam, I'm clearing it
+10615 | reg=civilian,family,worker,rescue|tmp=seasoned | Jam, clearing, cover me
+10616 | reg=civilian,family,worker,rescue|tmp=seasoned | Gun's jammed, hold on
+10617 | reg=civilian,family,worker,rescue|tmp=seasoned | Stoppage, give me a second
+10618 | reg=civilian,family,worker,rescue|tmp=seasoned | Round's stuck, hold them off a moment
+10619 | reg=civilian,family,worker,rescue|tmp=seasoned | It jammed, tap and rack, tap and rack
+10620 | reg=civilian,family,worker,rescue|tmp=seasoned | Misfire, clearing it
+10621 | reg=civilian,family,worker,rescue|tmp=seasoned | Jammed, switching to a knife if this keeps up
+10622 | reg=civilian,family,worker,rescue|tmp=seasoned | Damn thing, clear it, clear it
+10623 | reg=civilian,family,worker,rescue|tmp=seasoned | Not now, not now, work with me
+10624 | reg=civilian,family,worker,rescue|tmp=seasoned|mood=angry | Piece of junk, piece of GARBAGE, jammed AGAIN
+10625 | reg=civilian,family,worker,rescue|tmp=seasoned|mood=angry | Of all the times, OF ALL THE TIMES!
+10626 | reg=civilian,family,worker,rescue|tmp=seasoned|mood=angry | Son of a bitch jammed, I knew it, I knew it
+10627 | reg=civilian,family,worker,rescue|mood=calm | It's jammed, let me clear it
+10628 | reg=civilian,family,worker,rescue|mood=calm | It jammed, hold on
+10629 | role=family_elder | Oh, bother, it's stuck, it won't go, what did I do?
+10630 | role=family_elder | This old thing, this old thing, it never worked right
+10631 | role=family_youth | It won't shoot! Dad! It won't SHOOT!
+10632 | role=family_youth | Why isn't it working? WHY ISN'T IT WORKING?
+10633 | role=family_woman | It jammed, it jammed, what do I do?
+10634 | role=family_man | Jam, jam, I'm clearing it, hold them
+10635 | role=rescue_firefighter | Jammed, keep them back, clearing it
+10636 | role=rescue_medical | It's stuck, how do I fix this? Someone, please
+10637 | role=rescue_clergy | Lord, not now, please don't let it jam
+10638 | role=rescue_clergy | It won't fire, oh my God, it won't fire
+10639 | role=worker | Aw, crap, it jammed, give me a sec
+10640 | role=worker | This damn thing never worked right
+10641 | role=civilian_loner | Jammed
+10642 | role=civilian_loner | Stuck, clearing
+10643 | tmp=fresh | It won't-- WHY WON'T IT FIRE?!
+10644 | tmp=fresh | No no no, please, please fucking work!
+10645 | - | The fucking thing's stuck!
+10646 | - | Gun's hung up, give me a second
+10647 | - | Not now, you piece of shit!
+10648 | - | Jammed, back off while I clear it
+10649 | - | Something's stuck! Can't shoot!
+10650 | - | Come ON, don't do this now!
+10651 | tmp=veteran | Jam, clearing it
+
+##### WEAPON_SWITCH #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Silah değiştiriyor.
+10652 | reg=civilian,family,worker,rescue | I'll use this instead, hope it works
+10653 | reg=civilian,family,worker,rescue | Switching, guess I'm swinging it

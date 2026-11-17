@@ -1,0 +1,499 @@
+{
+    "_paket": "U5 — IG_UI: Oluşturucu",
+    "_dosya": "IG_UI",
+    "satirlar": {
+        "IGUI_ALifeUI_0f4c1b134f68d862": {
+            "tr": "kaydedilmemiş",
+            "not": "G \"kirli\": kayıt durumu (dirty = kaydedilmemiş değişiklik)."
+        },
+        "IGUI_ALifeUI_49989c3c70271e4c": {
+            "tr": "Devriye"
+        },
+        "IGUI_ALifeUI_02d5402a7de4403c": {
+            "tr": "Geniş çaplı baskın"
+        },
+        "IGUI_ALifeUI_507686d310cd323a": {
+            "tr": "Yol kazası"
+        },
+        "IGUI_ALifeUI_2f4d009c11404460": {
+            "tr": "Otoyol pususu"
+        },
+        "IGUI_ALifeUI_699afe1769152b84": {
+            "tr": "Çatı nişancıları"
+        },
+        "IGUI_ALifeUI_517977cb24dc20cc": {
+            "tr": "Bozulmuş araba"
+        },
+        "IGUI_ALifeUI_2eef49124a40b9a4": {
+            "tr": "Kamp kuranlar",
+            "not": "G \"Kamp inşaatçıları\" → S6'daki \"kamp kuranlar\"."
+        },
+        "IGUI_ALifeUI_6d6f91e93f16de52": {
+            "tr": "Tahkimli istasyon",
+            "not": "K21: eski \"Tahkim edilmiş üs\". Bu bir karakol türü (polis istasyonu); S5'te \"tahkimli istasyonlar\" denmişti, \"üs\" oyuncunun üssüne ayrıldı."
+        },
+        "IGUI_ALifeUI_425a5caa7697efe8": {
+            "tr": "Savunulan ev"
+        },
+        "IGUI_ALifeUI_7d1cb8146f620487": {
+            "tr": "Tahkimli saha üssü",
+            "not": "K21: \"Tahkim edilmiş\" → \"Tahkimli\" (S5 ile aynı, kısa)."
+        },
+        "IGUI_ALifeUI_5df0260b37a8ec47": {
+            "tr": "Orman kampı"
+        },
+        "IGUI_ALifeUI_5117d41d67f59d33": {
+            "tr": "Saha ilk yardım istasyonu"
+        },
+        "IGUI_ALifeUI_4f68ab055f3f990c": {
+            "tr": "İkmal deposu"
+        },
+        "IGUI_ALifeUI_34ea06d771587c26": {
+            "tr": "Direniş Noktası"
+        },
+        "IGUI_ALifeUI_6fddbd9129adea20": {
+            "tr": "Surlu yerleşke",
+            "not": "K21: eski \"Duvarlarla çevrili yerleşke\" → sözlük (S5): walled compound = surlu yerleşke."
+        },
+        "IGUI_ALifeUI_4858c976360273a3": {
+            "tr": "İtfaiyeci"
+        },
+        "IGUI_ALifeUI_0ca50ac32a279be1": {
+            "tr": "Şu anki kıyafet mevsimi: {season} (burada sıcaklık ölçülmüyor, tarih belirliyor)"
+        },
+        "IGUI_ALifeUI_28c1e0f358d7536f": {
+            "tr": "Şu anki kıyafet mevsimi: {season} ({temp} C, {band} aralığı)"
+        },
+        "IGUI_ALifeUI_05a67f586cb0e8ef": {
+            "tr": "{n} NPC şablonu gizlendi: fraksiyon bulunamadı ({name})",
+            "not": "K21: \"ön ayar\" → \"şablon\" (sözlük: member preset = şablon)."
+        },
+        "IGUI_ALifeUI_1021a6d04307069b": {
+            "tr": "ZİYARETÇİ"
+        },
+        "IGUI_ALifeUI_05eab71c619a9b3f": {
+            "tr": "FRAKSİYON DEĞİŞİKLİĞİ BAŞARISIZ - KAYDEDİLEMEDİ"
+        },
+        "IGUI_ALifeUI_50687e491bcbe6ac": {
+            "tr": "Bu fraksiyon yalnızca ziyaretçi olarak mı gelsin? Açık dünyada artık ortaya çıkmaz.",
+            "not": "Kb: \"istiyor musunuz\" → \"sen\"/sade soru."
+        },
+        "IGUI_ALifeUI_088925c10a7ce4f3": {
+            "tr": "Bu fraksiyon açık dünyaya geri dönsün mü?",
+            "not": "Kb: \"siz\" → sade soru."
+        },
+        "IGUI_ALifeUI_6c54fcf45b60599d": {
+            "tr": "KLASÖRE GÖRE"
+        },
+        "IGUI_ALifeUI_3c9ecf3234521c27": {
+            "tr": "MESLEĞE GÖRE"
+        },
+        "IGUI_ALifeUI_55b25d37653c2aed": {
+            "tr": "FRAKSİYONA GÖRE"
+        },
+        "IGUI_ALifeUI_3d97d1b339e293e6": {
+            "tr": "Klasördeki tüm fraksiyonlara aynı tutumu uygular. Bir fraksiyonun satırını değiştirene kadar o fraksiyonun kendi ayarı yerine bu tutum kullanılır."
+        },
+        "IGUI_ALifeUI_5da644236474158c": {
+            "tr": "Oyunculara yönelik tutumu mesleklerine göre belirler. Karşılaşma seçiminde yine oyuncuya yönelik genel tutum esas alınır."
+        },
+        "IGUI_ALifeUI_21ae7f0337be0717": {
+            "tr": "Her fraksiyona yönelik tutumu belirler. Klasör ayarı uygulanıyorsa klasör adı gösterilir; o fraksiyona özel bir tutum belirlemek için satırı değiştir.",
+            "not": "K7: eski \"değiştirin\" → \"değiştir\"."
+        },
+        "IGUI_ALifeUI_03ebfefe0d486c0a": {
+            "tr": "Klasör ara..."
+        },
+        "IGUI_ALifeUI_59dad67017a2f9a1": {
+            "tr": "Meslek ara..."
+        },
+        "IGUI_ALifeUI_0a880ef719287503": {
+            "tr": "Fraksiyon adı ara..."
+        },
+        "IGUI_ALifeUI_530cde723fd9bfb4": {
+            "tr": "ittifak {bloc}",
+            "not": "K21: \"blok\" → \"ittifak\" (S3'te bloc = fraksiyon ittifakı)."
+        },
+        "IGUI_ALifeUI_5d203c722b24ed21": {
+            "tr": "bilinmeyen fraksiyonlar"
+        },
+        "IGUI_ALifeUI_321ca328743b1886": {
+            "tr": "ortaya çıkma ayarı",
+            "not": "K21: \"oluşturma ayarı\" → sözlük: kendiliğinden belirme = ortaya çıkma."
+        },
+        "IGUI_ALifeUI_5eb43c9623a6cdd0": {
+            "tr": "oyuncuya yönelik tutum"
+        },
+        "IGUI_ALifeUI_64d411554523ee1b": {
+            "tr": "{bloc} +{shift}"
+        },
+        "IGUI_ALifeUI_5707a8035c70d956": {
+            "tr": "{bloc} {shift}"
+        },
+        "IGUI_ALifeUI_2c593c4f64e5d297": {
+            "tr": "Varsayılan ({word} - {why})"
+        },
+        "IGUI_ALifeUI_4f169afa6f54db75": {
+            "tr": "Varsayılan ({word})"
+        },
+        "IGUI_ALifeUI_6ea93e4a69ef8422": {
+            "tr": "İLİŞKİLER"
+        },
+        "IGUI_ALifeUI_63ad0e7a6d1ad524": {
+            "tr": "OYUNCU  -"
+        },
+        "IGUI_ALifeUI_3687a3860e1481d8": {
+            "tr": "DURUMU YENİLE"
+        },
+        "IGUI_ALifeUI_7077ce742bb7ceda": {
+            "tr": "KLASÖR  {name}"
+        },
+        "IGUI_ALifeUI_5e9ab0456a189ffc": {
+            "tr": "KLASÖR AYARI"
+        },
+        "IGUI_ALifeUI_1b108c163cc1affd": {
+            "tr": "ÖZEL AYAR"
+        },
+        "IGUI_ALifeUI_7f5ff8ad130f2a41": {
+            "tr": "Karma ({set}/{count})"
+        },
+        "IGUI_ALifeUI_34b30fde7e23ac77": {
+            "tr": "{count} fraksiyon"
+        },
+        "IGUI_ALifeUI_295935ae02073782": {
+            "tr": "{count} fraksiyon  -  {set} tanesinde özel ayar"
+        },
+        "IGUI_ALifeUI_3da7b59e343a9705": {
+            "tr": "Özel ayar yok"
+        },
+        "IGUI_ALifeUI_7c87fe375c22cc67": {
+            "tr": "ANLIK"
+        },
+        "IGUI_ALifeUI_3818e4aa1159f867": {
+            "tr": "MESLEĞİN ({name})",
+            "not": "K7: eski \"MESLEĞİNİZ\" → \"MESLEĞİN\"."
+        },
+        "IGUI_ALifeUI_1c4520fa3b1628a1": {
+            "tr": "VARSAYILAN"
+        },
+        "IGUI_ALifeUI_5b75f4d117daebf4": {
+            "tr": "VERİ YOK: VARSAYILAN"
+        },
+        "IGUI_ALifeUI_7766b90f09aa554e": {
+            "tr": "OYUNCU  {value}  /  {source}"
+        },
+        "IGUI_ALifeUI_6ed6119671ff798b": {
+            "tr": "Oluşturucu nedir?",
+            "not": "Kb: \"siz\" → \"sen\"; \"Düzenleyici\" → \"Oluşturucu\" (sözlük)."
+        },
+        "IGUI_ALifeUI_09fce87956c45631": {
+            "tr": "Oluşturucu, A-Life NPC'lerini oluşturan her şeyi düzenlediğin yer. Fraksiyonları (grupları) ve üye şablonlarını (bir gruptaki tek tek NPC'leri) burada kurarsın: adları, görünüşleri, silahları, davranışları, ilişkileri ve ne sıklıkla ortaya çıktıkları.",
+            "not": "Kb: \"siz\" → \"sen\"; \"Düzenleyici\" → \"Oluşturucu\" (sözlük)."
+        },
+        "IGUI_ALifeUI_48a101052aacee00": {
+            "tr": "NPC SETTINGS sekmesi çalışma tezgâhın. Solda fraksiyon listesi, ortada seçili fraksiyonun üye şablonları, sağda canlı karakter önizlemeli düzenleme paneli var. FACTION SETTINGS sekmesinde seçili fraksiyonun kuralları durur. Küçük ekranda üç sütun üç sekmeye dönüşür: FACTIONS, MEMBERS ve EDITOR + MODEL.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_060e91a8040336de": {
+            "tr": "Oluşturucu'yu ana menüdeki A-Life kartından, duraklatma menüsündeki A-Life Oluşturucu düğmesinden ya da Ayarlar'da, tuş atamalarında belirlenen tuşla (varsayılan: Insert) açabilirsin. Çok oyunculu sunucuda yalnızca yönetici kullanabilir.",
+            "not": "C1 ileri atıf: duraklatma menüsündeki \"A-Life Creator\" düğmesi U8'de \"A-Life Oluşturucu\" olacak. Options = vanilla \"Ayarlar\"."
+        },
+        "IGUI_ALifeUI_1b30eef45ece4fdc": {
+            "tr": "Her şey, değiştirdikten kısa süre sonra kendiliğinden kaydedilir. Bir ayarın üstüne gelirsen sade dille bir ipucu çıkar. Escape önce bu kılavuzu, sonra Oluşturucu'yu kapatır. Sol üstteki ? YARDIM düğmesi bu kılavuzu istediğin an yeniden açar.",
+            "not": "C1: \"? HELP\" bu pakette \"? YARDIM\" olarak çevrili (çeviri dosyasında var)."
+        },
+        "IGUI_ALifeUI_1ba9979620d14ce9": {
+            "tr": "Fraksiyon kurmak"
+        },
+        "IGUI_ALifeUI_3ed4cfb659d8f3e6": {
+            "tr": "1. FACTION LIST'te + NEW (ya da + NEW FACTION) düğmesine bas. New Faction adında bir fraksiyon oluşur ve ayarları açılır.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_7566b5ef5ff77219": {
+            "tr": "2. IDENTITY sekmesinde bir ad, kategori ve açıklama ver. Unknown faction disposition, ilişki belirlemediğin fraksiyonlara karşı takınılan tutum; Hostile (düşman) olarak başlar.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_6173582113e310c5": {
+            "tr": "3. Oyuncuya, diğer fraksiyonlara ve bütün klasörlere nasıl davrandığını belirlemek için RELATIONS sekmesini aç (bkz. İlişkiler ve tutumlar).",
+            "not": "C1: bölüm başlığı \"İlişkiler ve tutumlar\" bu pakette."
+        },
+        "IGUI_ALifeUI_132545726bbe6df1": {
+            "tr": "4. Kendiliğinden ortaya çıkıp çıkmayacağını, ne sıklıkla, ne zaman ve nerede çıkacağını SPAWNING sekmesinde seç (bkz. Ortaya çıkma kuralları). SUPPORT, timlerinin takviye çağırıp çağırmayacağını ve nasıl çağıracağını belirler.",
+            "not": "Kb \"OLUŞMA\", \"grup\", \"yedek kuvvet\" → etiket İngilizce; squad = tim, backup = takviye (sözlük)."
+        },
+        "IGUI_ALifeUI_22019c7b2f1f3edb": {
+            "tr": "5. ROSTER düğmesiyle tezgâha dön ve üye ekle. Üyesi olmayan fraksiyonun ortaya çıkaracak kimsesi olmaz.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_613538e43b8e972d": {
+            "tr": "Fraksiyon listesinde DUPLICATE FACTION bir fraksiyonu bütün NPC'leriyle kopyalar, DELETE de sorduktan sonra seçili olanı siler. COPY CODE fraksiyonu bir arkadaşına ya da Discord'a yapıştırabileceğin bir paylaşım koduna çevirir; LOAD CODE panondaki koddan fraksiyon ekler. RESET FACTIONS TO DEFAULT yerleşik fraksiyonları ilk hâline döndürür, senin yaptıklarına dokunmaz.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_5749b9785559b601": {
+            "tr": "Üye kurmak"
+        },
+        "IGUI_ALifeUI_2eadefaf4c99a38e": {
+            "tr": "Bir fraksiyon seç, sonra MEMBER PRESETS sütunundaki + NEW MEMBER düğmesine bas. Yeni şablon seçilir ve düzenlemeye hazır olur. Beğendiğin bir üyenin bir çeşidini yapmanın en hızlı yolu DUPLICATE NPC. Düzenleme panelinin üstündeki ok düğmeleri üyeler arasında gezer ve önce kaydeder. Uzun kadrolarda arama kutusu ile ALL, RANGED, MELEE ve ISSUES düğmeleri işini kolaylaştırır.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_717114bb30689778": {
+            "tr": "Düzenleme panelinin yedi sekmesi var: IDENTITY (kimlik), APPEARANCE (görünüş), FACES (yüzler), LOADOUT (teçhizat), COMBAT (çatışma), BEHAVIOR (davranış) ve MODULES (modüller).",
+            "not": "Sekme adları İngilizce bırakıldı, yanına Türkçesi yazıldı (bir kez, okuyan ne olduğunu anlasın)."
+        },
+        "IGUI_ALifeUI_473c4c4608b4af70": {
+            "tr": "IDENTITY kişinin kendisi. Önce Display name ve Gender gelir. NPC name, adın nereden geleceğini seçer: cinsiyete uyan rastgele bir ad (varsayılan), rastgele erkek adı, rastgele kadın adı ya da Set name; Set name bu şablondaki her NPC'ye senin yazdığın adı verir. Rastgele seçeneklerde ortaya çıkan her NPC kendi adını alır ve bu ad dünyada tekrarlanmaz. Set name boş kalırsa rastgele ad kullanılır.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_0bf215f245f91d29": {
+            "tr": "Tag üyenin işini anlatır. Class, üyenin tehdit altında nasıl davranacağını belirler: Civilian en kolay korkan; Worker ve Rescue daha zor korkar; Police, Military ve Criminal soğukkanlı kalır. Same as faction, fraksiyonun sınıfını kullanır.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_1dc7eab00ff1b0a3": {
+            "tr": "Spawn Weight In Group (Common, Uncommon, Rare, Very Rare, Unseen), bu şablonun fraksiyonu içinde ne sıklıkla seçileceğini belirler. Rare ve Very Rare, uzmanların timi doldurmasını önler. Filter tags ve Notes senin kendi düzenin için.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_124f26da2b218f1a": {
+            "tr": "Kıyafetler ve silahlar"
+        },
+        "IGUI_ALifeUI_084ac3af41e772e9": {
+            "tr": "APPEARANCE: ten rengini, saçı ve sakalı seç, sonra A'dan F'ye en fazla altı kıyafet seti kur. Kullanılmasını istediğin her sette Enable this set for spawning'i işaretle; yalnızca işaretli setler seçilir. Bir set bir mevsimle sınırlanabilir (Any season, Spring only, Summer only, Autumn only ya da Winter only). Mevsimi gelince mevsimlik set, her mevsime uygun setlerin yerini alır. Mevsim, NPC giydirilirken ve yaşadığı sürece dışarıdaki sıcaklığa göre belirlenir (4 ile 22 C arasında ilkbaharla sonbaharı yalnızca tarih ayırır).",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_5d45c79d69174599": {
+            "tr": "BODY SLOTS altında bir yuvaya tıklayınca simge kataloğu açılır; önizlemek için bir eşyaya tıkla, tutmak için APPLY'a bas. Yuvaya en fazla dört rastgele seçenek koymak için Enable multiple options'ı aç. Eşyanın kendi rengini koru (NATIVE ITEM COLOR) ya da CUSTOM COLOR seç. PREVIEW VARIATION etkin setler arasında döner.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_51e92452795e4a59": {
+            "tr": "FACES diğer modlardan gelen yüz katmanlarını sunar. Seçenek yalnızca bunları sağlayan mod açıkken çıkar.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_2bd66d18593d26c4": {
+            "tr": "LOADOUT: aynı yolla bir PRIMARY ateşli silah, bir SIDEARM ve bir MELEE / BELT silahı seç; her biri için en fazla dört rastgele seçenek olur. AMMUNITION dökme mermiyle değil, tam şarjörle sayılır. Infinite ammunition şarjör sınırını kaldırır; Drop magazines on death ve olasılığı neyin yağmalanabileceğini belirler. FIREARM ATTACHMENTS dürbünleri, nişangâhları ve diğer parçaları ayarlar.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_388da8c21b1ee1c1": {
+            "tr": "COMBAT sekmesinde Health, Strength, Endurance ve Awareness, oyunculara ve zombilere karşı isabet, verilen ve engellenen hasar, ölümden sonra ne kalacağı (silahın ve zırhın cesette kalma olasılığı ve durumu) bulunur.",
+            "not": "Kb \"düşürme olasılığı ve kondisyonu\" → S6'daki \"cesette kalma\" kalıbı."
+        },
+        "IGUI_ALifeUI_0a6de3715fd4b1e8": {
+            "tr": "Davranış, sınıf ve modüller"
+        },
+        "IGUI_ALifeUI_3c353126289d06dc": {
+            "tr": "BEHAVIOR sekmesi: Behavior profile; öncelikler, çatışma tarzı ve izin verilen yeteneklerden oluşan tam temel paket, altındaki özet de ne yaptığını açıkça yazar. Primary doctrine bir uzman rolü ekler: None, Leader, Gunner, Medic, Sniper, Stealth ya da Ambusher. Combat ready, NPC'nin silahlı ve hazır başlayıp başlamayacağını belirler (Default, Yes, No ya da Mixed).",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_5dca6f2c18422126": {
+            "tr": "Voice profile; uyarılar, çatışma tepkileri ve ölüm sesleri için kullanılan ses paketini seçer. PLAYTEST VOICE seçilen tepkiyi çalar, böylece duyarsın; davranışı değiştirmez.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_3c8878222267fffa": {
+            "tr": "Class (IDENTITY sekmesi), Fear of the dead yeteneğinin kimi etkileyeceğini belirler: Civilian üyeler ve daha zor da olsa Rescue ve Worker üyeler uzaktaki zombilere bulaşmaz, çok fazlası yaklaşınca grupça kaçar; Police, Military ve Criminal üyeler soğukkanlı kalır. Dünya ayarlarındaki korku anahtarı da geçerli.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_5ca26f6171dfa616": {
+            "tr": "MODULES sekmesi (NPC ABILITIES): her yetenek Inherit, On ya da Off olabilir. Inherit fraksiyon ayarını kullanır; On ve Off yalnızca bu NPC'ye uygulanır. Yetenekler ORDERS, DANGER RESPONSE, COMBAT MOVEMENT, SURVIVAL & ROUTINE ve OUTLAW CONDUCT gruplarına ayrılır. RESET ALL TO INHERIT bu NPC'nin özel ayarlarını temizler, APPLY ABILITIES TO FACTION bu NPC'nin yetenek seçimlerini bütün fraksiyona uygular.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_07af5c8f77dd9f95": {
+            "tr": "Herkesin varsayılanını bir kerede ayarlamak için FACTION SETTINGS, BEHAVIOR DEFAULTS'u kullan. NPC'nin kendi ayarı fraksiyon varsayılanından üstündür, dünya (sandbox) anahtarları da en üstte yine geçerli. Örneğin dünyadaki kaçma anahtarı kapalıysa üye kaçamaz.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_5cef0e1109d52f46": {
+            "tr": "İlişkiler ve tutumlar"
+        },
+        "IGUI_ALifeUI_03cc67077500de06": {
+            "tr": "FACTION SETTINGS, RELATIONS bu fraksiyonun diğerlerine nasıl davranacağını belirler. Tutumlar: Allied (müttefik), Friendly (dost), Neutral (tarafsız), Careful (temkinli) ve Hostile (düşman).",
+            "not": "Tutum listesi Oluşturucu'da İngilizce görünüyor; yanına sözlükteki karşılıklar yazıldı."
+        },
+        "IGUI_ALifeUI_624fae1f0f5bd3e1": {
+            "tr": "Üç görünüm var. FRAKSİYONA GÖRE'de diğer her fraksiyon için bir satır bulunur: devralınan tutumu kullanmak için satırı Varsayılan'da bırak ya da kendin belirle. KLASÖRE GÖRE bir klasördeki bütün fraksiyonlara tek tutum verir (bkz. Klasörler ve klasör ayarı). MESLEĞE GÖRE, oyuncuya karşı tutumu oyuncunun mesleğine göre belirler.",
+            "not": "C1: FRAKSİYONA/KLASÖRE/MESLEĞE GÖRE ve Varsayılan çeviri dosyasında var (eski çevirin), Türkçe yazıldı."
+        },
+        "IGUI_ALifeUI_13a0f1536418145f": {
+            "tr": "En üstteki OYUNCU satırı şu an sana karşı tutumu gösterir; DURUMU YENİLE çalışan dünyadan güncel değeri ister.",
+            "not": "C1: Kb \"CANLI DURUMU YENİLE\" → düğmenin onaylı adı \"DURUMU YENİLE\"."
+        },
+        "IGUI_ALifeUI_1faddd9d029f10b6": {
+            "tr": "SPAWNING sekmesindeki Player disposition, fraksiyon seninle karşılaşınca kullanılan tutum. Dost ve tarafsız fraksiyonlar kendiliğinden ortaya çıkabilir. Keşifçiler, pusular ve baskınlar için düşman fraksiyon gerekir.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_49182fd62ba7b7e6": {
+            "tr": "Unknown faction disposition (IDENTITY sekmesi), başka hiçbir yerde anmadığın fraksiyonlar için yedek tutum.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_0cf46b2416143217": {
+            "tr": "Ortaya çıkma kuralları"
+        },
+        "IGUI_ALifeUI_4bdf3e311c250e8b": {
+            "tr": "SPAWNING sekmesi, SPAWN POLICY: fraksiyon dünyada kendiliğinden ortaya çıksın istiyorsan Enable natural spawning'i işaretle. Spawn weight diğer fraksiyonlara görelidir, yüzde değil; sıfır kendiliğinden ortaya çıkmayı kapatır. Karşılaşmaların genel sıklığını sandbox ayarları belirler.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_206a2da135fc1761": {
+            "tr": "Game day, fraksiyonun görünebileceği ilk ve son günü belirler (ilk gün 0. gün; ucu açık kalsın istersen bir tarafı boş bırak). Active hours yeni karşılaşmaların ne zaman başlayabileceğini belirler. Zaten dışarıda olan timler işlerini bitirir.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_58f98cd03b769102": {
+            "tr": "PARTY SIZE ile yalnız hayatta kalanları, grupları ya da ikisini birden, büyüklük aralıkları ve ağırlıklarıyla seçersin.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_22dcf4b10e07e73c": {
+            "tr": "ALLOWED ENCOUNTERS ve yer seçimi (Anywhere, Selected towns, Wilderness only, Roads & highways ya da Specific building types), fraksiyonu hangi olayların ve nerede kullanabileceğini sınırlar. Hiç karşılaşma seçilmezse fraksiyonun kendiliğinden karşılaşması olmaz.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_6e58ca210f466457": {
+            "tr": "Üye şablonundaki Spawn Weight In Group ayrı bir ayar: yalnızca bir fraksiyonun üyeleri arasında seçim yapar.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_206268a2296c3a8f": {
+            "tr": "Klasörler ve klasör ayarı",
+            "not": "C1: \"FOLDER OVERRIDE\" rozeti eski çevirinde \"KLASÖR AYARI\"; Kb \"geçersiz kılması\" yerine o."
+        },
+        "IGUI_ALifeUI_48a524481a39fb53": {
+            "tr": "Klasörler uzun fraksiyon listesini derli toplu tutar. NEW FOLDER'a bas, bir ad yaz ve CREATE'e bas.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_4c173d700f00a36f": {
+            "tr": "Bir fraksiyon kartını bir klasörün üstüne sürükleyip bırakırsan oraya taşınır. Sürüklerken nereye düşeceğini bir etiket gösterir (bir klasör adı ya da MOVE TO UNFILED). Klasör başlığına tıklayınca açılır ya da kapanır. Başlıktaki yukarı ve aşağı düğmeleri klasörü taşır, ... düğmesi FOLDER ACTIONS'ı açar: yeniden adlandırma, COPY NPC FOLDER, SHARE CODE ve DELETE FOLDER.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_07c52c2a47b82cfb": {
+            "tr": "DELETE FOLDER, onay aldıktan sonra klasördeki her fraksiyonu ve bütün NPC'lerini de siler. Dikkatli kullan.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_2e10d23c3611aa1c": {
+            "tr": "Klasör ayarı: RELATIONS, KLASÖRE GÖRE'de bütün bir klasör için tutum seç, içindeki her fraksiyon onu bir anda alır. FRAKSİYONA GÖRE'de bu satırlarda klasör adıyla bir KLASÖR rozeti görünür. İstisna yapmak için yalnızca o satırı değiştir.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_5099087262f64404": {
+            "tr": "Kaydetme"
+        },
+        "IGUI_ALifeUI_3cf442f309026642": {
+            "tr": "Kaydetme otomatik. Düzenleme panelinin altındaki durum yazısı işin nerede olduğunu gösterir: SAVED, UNSAVED - AUTOSAVING, SAVING ya da kırmızı bir hata mesajı.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_1c8e47934af8ece8": {
+            "tr": "SAVE NOW (ya da Ctrl+S) hemen kaydeder. Oluşturucu'yu kapatmak ve başka bir üyeye geçmek de önce kaydeder.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_5a2f708d0e1ea818": {
+            "tr": "Oluşturucu'yu kapatmak ya da üye değiştirmek hiçbir zaman kaydı beklemez: NPC arka planda yazılmaya devam eder ve iş bitene kadar ana menüde Saving NPC... yazar. SAVING - RETRY WHEN SAVED, bitmiş dosyaya ihtiyaç duyan bir işlemin (SAVE NOW, yeni, kopyala, sil, dışa aktar ya da eşitle) düzenlemelerini korumak için bekletildiği anlamına gelir. Hiçbir şey kaybolmaz. Etiket SAVED olana kadar bekle, sonra yeniden yap.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_36114993178ee2b0": {
+            "tr": "Could not save NPC. Your edits are still open. gibi kırmızı bir mesaj, kaydın başarısız olduğunu gösterir. Değişikliklerin ekranda kalır, SAVE NOW'a yeniden bas. Geçersiz bir fraksiyon alanı da sen düzeltene kadar mesajını aynı yerde gösterir.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_75538ef555b86e7b": {
+            "tr": "Oluşturucu çalışan bir oyunun içinden açıldıysa SYNC TO SERVER kataloğunu sunucuya gönderir. Sol alttaki etiket SERVER SYNC COMPLETE yazar ya da neden başarısız olduğunu söyler.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_4c8e403f3ee964da": {
+            "tr": "Oyunda deneme"
+        },
+        "IGUI_ALifeUI_0b762ed42f318d3d": {
+            "tr": "Bir değişikliği denemek için yeni bir NPC oluştur. Zaten var olan NPC'ler oluşturuldukları hâliyle kalır.",
+            "not": "Kb: \"siz\" → \"sen\"; \"Düzenleyici\" → \"Oluşturucu\" (sözlük)."
+        },
+        "IGUI_ALifeUI_5d01f74404b544c3": {
+            "tr": "Ayarlar'da, Project A-Life bölümünde Tanılama'yı aç. Sonra bir oyun yükle (tek oyunculu ya da yönetici olduğun bir sunucu), yere sağ tıkla ve [A-LIFE] Project A-Life menüsünü aç.",
+            "not": "C1 ileri atıf: Diagnostics seçeneği U8'de \"Tanılama\" ile başlayacak (S7 ile aynı)."
+        },
+        "IGUI_ALifeUI_01a1058066219be9": {
+            "tr": "Open spawn panel, NPC seçip oluşturmanı sağlar. Spawn faction squad here üyesi olan fraksiyonları listeler. Spawn encounter here hazır bir karşılaşma yerleştirir, NPC'leri kaldır da çevrendekileri temizler.",
+            "not": "Bu menü öğelerinin çoğu çeviri dosyasında yok → İngilizce bırakıldı; \"Remove NPCs...\" dosyada var, U8'de \"NPC'leri kaldır...\" olacak."
+        },
+        "IGUI_ALifeUI_76b532d538faa5be": {
+            "tr": "Aynı menüde Fraksiyon ve NPC Oluşturucusunu Aç da var; böylece oyundan çıkmadan düzenleyebilir, oluşturabilir ve tekrar bakabilirsin. Çok oyunculuda düzenledikten sonra SYNC TO SERVER'a bas ki sunucu kataloğunu alsın.",
+            "not": "C1: menü öğesinin eski çevirisi \"Fraksiyon ve NPC Oluşturucusunu Aç\"."
+        },
+        "IGUI_ALifeUI_120ce05f1b598f15": {
+            "tr": "Düzenleme panelindeki karakter önizlemesi ve PLAYTEST VOICE için oyun açmana hiç gerek yok.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_7c8cece75d3da7db": {
+            "tr": "İpuçları"
+        },
+        "IGUI_ALifeUI_1e5f49441360fd1a": {
+            "tr": "Adlar: fraksiyonlara kısa ve net adlar ver, ne olduklarını kategori ve açıklamayla anlat. Üyelere anlaşılır bir Display name ve sonra bulabilmen için sağlıkçı, tüfek ya da tüccar gibi Filter tags ver.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_4424a55b0313f355": {
+            "tr": "Ağırlıklar: her yerde Common ile başla, uzmanlar için Uncommon ve Rare kullan. Ağırlıklar görelidir; üç Common üyenin yanındaki bir Rare üye kabaca on altı seferde bir seçilir.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_69fdb55a7bf3fd56": {
+            "tr": "Önce iyi bir üye kur, sonra DUPLICATE NPC ile çoğalt ve yalnızca farklı olanı değiştir.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_5a87b8e732f0533c": {
+            "tr": "Her seferinde tek bir şeyi değiştir ve görmek için yeni bir NPC oluştur.",
+            "not": "Kb: \"siz\" → \"sen\"; \"Düzenleyici\" → \"Oluşturucu\" (sözlük)."
+        },
+        "IGUI_ALifeUI_24272cc505beaef2": {
+            "tr": "Emeğini paylaş: bir fraksiyondaki COPY CODE, herkesin LOAD CODE ile yükleyebileceği bir kod üretir. Klasörlerde de SHARE CODE düğmesi var.",
+            "not": "the editor (sağdaki panel) → \"düzenleme paneli\", Oluşturucu ile karışmasın. Etiketler: Oluşturucu'daki düğme/sekme adları Lua'da sabit, çeviri dosyasında yok → oyunda İngilizce görünüyor. Oyuncu ekranda bulabilsin diye İngilizce bırakıldı (Kb hepsini Türkçeye çevirmişti). Ayrıca Kb: \"Düzenleyici\" → \"Oluşturucu\" (sözlük), \"siz\" → \"sen\"."
+        },
+        "IGUI_ALifeUI_69f61a1a0361c475": {
+            "tr": "Nereden yardım alınır?"
+        },
+        "IGUI_ALifeUI_718dba8e708d8d90": {
+            "tr": "Sorular, hata bildirimleri ve fraksiyon paylaşmak için A-Life Discord'u var. Oluşturucu'nun üstündeki ya da bu pencerenin altındaki A-LIFE DISCORD'UNA KATIL düğmesine bas. Bağlantı: discord.gg/alife (https://discord.gg/alife).",
+            "not": "C1: düğme bu pakette çevrili."
+        },
+        "IGUI_ALifeUI_666b0673394d0d0f": {
+            "tr": "Tarayıcı ya da Steam arayüzü açılamazsa kopyalayabilmen için bağlantıyı gösteren küçük bir kutu çıkar. Bu pencerenin altındaki BAĞLANTIYI KOPYALA bağlantıyı panona kopyalar.",
+            "not": "C1 ileri atıf: \"COPY LINK\" U8'de \"BAĞLANTIYI KOPYALA\" olacak."
+        },
+        "IGUI_ALifeUI_2ba4153a17964c64": {
+            "tr": "Bir sorun bildirirken neyi düzenlediğini söyle; fraksiyonla ilgiliyse paylaşım kodunu da yapıştır.",
+            "not": "Kb: \"siz\" → \"sen\"; \"Düzenleyici\" → \"Oluşturucu\" (sözlük)."
+        },
+        "IGUI_ALifeUI_54a1e76b37f4a71a": {
+            "tr": "Bu kılavuz yalnızca ilk seferde kendiliğinden açıldı. Sol üstteki ? YARDIM düğmesiyle istediğin zaman yeniden açabilirsin.",
+            "not": "Kb: \"siz\" → \"sen\"; \"Düzenleyici\" → \"Oluşturucu\" (sözlük)."
+        },
+        "IGUI_ALifeUI_1d3fcc124171888c": {
+            "tr": "? YARDIM"
+        },
+        "IGUI_ALifeUI_3cb223c607a15c2d": {
+            "tr": "Oluşturucu'nun her bölümü için kısa bir kılavuz.",
+            "not": "Kb: \"siz\" → \"sen\"; \"Düzenleyici\" → \"Oluşturucu\" (sözlük)."
+        },
+        "IGUI_ALifeUI_50ffa6f4233e5af6": {
+            "tr": "A-LIFE DISCORD'UNA KATIL",
+            "not": "Kb \"DISCORD SUNUCUSUNA KATIL\" düğme için uzun."
+        },
+        "IGUI_ALifeUI_268601fd0d9caa0a": {
+            "tr": "DISCORD"
+        },
+        "IGUI_ALifeUI_046468ad637bdfb7": {
+            "tr": "Bağlantı panoya kopyalandı."
+        },
+        "IGUI_ALifeUI_7f8b27bc3d88d2bd": {
+            "tr": "Bağlantıyı elle kopyala: discord.gg/alife",
+            "not": "Kb: \"siz\" → \"sen\"; \"Düzenleyici\" → \"Oluşturucu\" (sözlük)."
+        },
+        "IGUI_ALifeUI_394f6a4601a5b20c": {
+            "tr": "Bu kılavuz yalnızca ilk seferde kendiliğinden açılır."
+        },
+        "IGUI_ALifeUI_5769839c30ef7847": {
+            "tr": "OLUŞTURUCU NASIL KULLANILIR",
+            "not": "Kb: \"siz\" → \"sen\"; \"Düzenleyici\" → \"Oluşturucu\" (sözlük)."
+        },
+        "IGUI_ALifeUI_1fd4a42f79e7f7b9": {
+            "tr": "ÖNCEKİ"
+        },
+        "IGUI_ALifeUI_7c8906465c665c8e": {
+            "tr": "SONRAKİ"
+        },
+        "IGUI_ALifeUI_79e0dee4545ea49e": {
+            "tr": "Bu şablondaki her NPC'nin adı"
+        },
+        "IGUI_ALifeUI_1e69a1127d5e58ed": {
+            "tr": "Profiller yükleniyor: {n}/{m}"
+        },
+        "IGUI_ALifeUI_351a7f41479b3aa3": {
+            "tr": "Profiller yükleniyor"
+        }
+    }
+}

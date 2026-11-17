@@ -1,0 +1,577 @@
+# PAKET Y1R · parça 6/8 · satır 1691-2026 (336 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+# SAHNE: Konuşanlar SUÇ DÜNYASI: yağmacı haydutlar, kanun kaçakları, firari mahkumlar, sokak çeteleri, motosiklet çeteleri, organize suç adamları. Ton: kaba, kısa, tehditkar, alaycı; kendi aralarında laubali. Küfür KAYNAKTAKİ kadar (kaynakta yoksa ekleme). Yöresel ağız ya da internet argosu yok; sokak Türkçesi ölçülü.
+
+
+##### CLOSE_CONTACT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Düşman çok yakında; ekibe kısa uyarı.
+1691 | reg=outlaw,raider,gang,club,crime,prison | It's on me, shit!
+1692 | reg=outlaw,raider,gang,club,crime,prison | Get the fuck back!
+1693 | reg=outlaw,raider,gang,club,crime,prison | Too close, kill it!
+1694 | reg=outlaw,raider,gang,club,crime,prison | Within arm's reach, back up, back up!
+1695 | reg=outlaw,raider,gang,club,crime,prison|tmp=predator | Come closer, come on, that's it
+
+##### COMBAT_ATTACK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# NPC çatışmanın içinde, silahı elinde; karşısındakine geri çekilmesini bağırıyor, yoksa ateş edecek. Kısa, gergin, bağırarak.
+1696 | reg=outlaw,raider,gang,club,crime,prison|wp=gun | Eat this!
+1697 | reg=outlaw,raider,gang,club,crime,prison|wp=gun | You're dead, you hear me?!
+1698 | reg=outlaw,raider,gang,club,crime,prison|wp=gun | Hold still, asshole!
+1699 | reg=outlaw,raider,gang,club,crime,prison|wp=gun | Right between the eyes!
+1700 | reg=outlaw,raider,gang,club,crime,prison|wp=melee | Come here, come here!
+1701 | reg=outlaw,raider,gang,club,crime,prison|wp=melee | I'll cave your head in!
+1702 | reg=outlaw,raider,gang,club,crime,prison|wp=melee | Get over here, you!
+1703 | reg=outlaw,raider,gang,club,crime,prison|wp=melee | Swing and don't stop!
+1704 | reg=outlaw,raider,gang,club,crime,prison|wp=melee | Let's see how tough you are!
+1705 | reg=outlaw,raider,gang,club,crime,prison|wp=none | Get your hands off me!
+1706 | reg=outlaw,raider,gang,club,crime,prison|wp=none | Fuck off!
+1707 | reg=outlaw,raider,gang,club,crime,prison|wp=none | Back off, I swear to God!
+1708 | reg=outlaw,raider,gang,club,crime,prison|wp=none | Let go, you piece of shit!
+
+##### CONTACT_HOSTILE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Düşmanca biri görüldü; ekibe uyarı.
+1709 | reg=outlaw,raider,gang,club,crime,prison|grp=squad|cb=hot | There they are!
+1710 | reg=outlaw,raider,gang,club,crime,prison|grp=squad|cb=hot | Got 'em, over there!
+1711 | reg=outlaw,raider,gang,club,crime,prison|grp=squad|cb=hot | Armed assholes ahead, shoot first
+1712 | reg=outlaw,raider,gang,club,crime,prison|grp=squad|cb=hot | Eyes on them, spread out
+1713 | reg=outlaw,raider,gang,club,crime,prison | Somebody's coming... get ready for trouble!
+
+##### CONTACT_INFECTED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Enfekte/zombi görüldü; ekibe uyarı.
+1714 | reg=outlaw,raider,gang,club,crime,prison|wp=melee|grp=squad | Deadheads, smash them, don't shoot
+1715 | reg=outlaw,raider,gang,club,crime,prison|wp=melee|grp=squad | Keep it quiet, use the bat
+1716 | reg=outlaw,raider,gang,club,crime,prison|wp=melee|grp=squad | Swing for the head, no noise
+1717 | reg=outlaw,raider,gang,club,crime,prison | I see it, one infected, I've got it
+
+##### FALL_BACK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Geri çekilme çağrısı; ekibe.
+1718 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Fuck this, I'm hit, I'm leaving
+1719 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | I'm bleeding, I'm out of here
+1720 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Pull back, I'm bleeding bad
+1721 | reg=outlaw,raider,gang,club,crime,prison|grp=squad | Back off, they're too many!
+1722 | reg=outlaw,raider,gang,club,crime,prison|grp=squad | Pull back, pull back, go!
+1723 | reg=outlaw,raider,gang,club,crime,prison|grp=squad | Get out of here, move it!
+1724 | reg=outlaw,raider,gang,club,crime,prison|grp=squad | Fuck this, back up!
+1725 | reg=outlaw,raider,gang,club,crime,prison|grp=squad | Go, go, fall back, now!
+1726 | reg=outlaw,raider,gang,club,crime,prison|grp=solo | I'm out, I'm getting out of here
+1727 | reg=outlaw,raider,gang,club,crime,prison|grp=solo | Too hot, I'm leaving
+1728 | reg=outlaw,raider,gang,club,crime,prison|grp=solo | Screw this, backing off
+1729 | reg=outlaw,raider,gang,club,crime,prison|grp=solo | Not dying here, I'm out
+1730 | reg=outlaw,raider,gang,club,crime,prison | Back off, back off!
+1731 | reg=outlaw,raider,gang,club,crime,prison | Fuck this, pull back!
+1732 | reg=outlaw,raider,gang,club,crime,prison | Get out of here, move!
+1733 | reg=outlaw,raider,gang,club,crime,prison | Run, you dumbasses!
+1734 | reg=outlaw,raider,gang,club,crime,prison | Too many, back off!
+1735 | reg=outlaw,raider,gang,club,crime,prison | Screw this, we're out!
+1736 | reg=outlaw,raider,gang,club,crime,prison | Fall back, this is bullshit!
+1737 | reg=outlaw,raider,gang,club,crime,prison | Out, get out, now!
+1738 | reg=outlaw,raider,gang,club,crime,prison | Run, fuck the loot, RUN!
+
+##### FLANK_COMPLETE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Kuşatma/yandan dolanma tamam; ekibe.
+1739 | reg=outlaw,raider,gang,club,crime,prison | I'm behind them, now!
+1740 | reg=outlaw,raider,gang,club,crime,prison | Got their back, open up!
+1741 | reg=outlaw,raider,gang,club,crime,prison | I see all of 'em, firing!
+1742 | reg=outlaw,raider,gang,club,crime,prison | I'm in, I can see all of them
+1743 | reg=outlaw,raider,gang,club,crime,prison | Got 'em from the side, now!
+1744 | reg=outlaw,raider,gang,club,crime,prison | I'm right behind them, shoot!
+1745 | reg=outlaw,raider,gang,club,crime,prison | In place, let 'em have it
+
+##### FLANK_START #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yandan dolanmaya başlıyor; ekibe.
+1746 | reg=outlaw,raider,gang,club,crime,prison | Keep them looking at you, I'm going round
+1747 | reg=outlaw,raider,gang,club,crime,prison | I'll hit 'em from the side
+1748 | reg=outlaw,raider,gang,club,crime,prison | Go wide, get behind the bastards
+1749 | reg=outlaw,raider,gang,club,crime,prison | Draw their fire, I'm circling
+
+##### GRABBED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bir zombi onu yakaladı; panik.
+1750 | reg=outlaw,raider,gang,club,crime,prison | It's got me, fucking kill it!
+1751 | reg=outlaw,raider,gang,club,crime,prison | Let go of me, you rotten bastard!
+1752 | reg=outlaw,raider,gang,club,crime,prison | Shit, it's on me, help!
+1753 | reg=outlaw,raider,gang,club,crime,prison | It's got me, help me, damn it!
+1754 | reg=outlaw,raider,gang,club,crime,prison | Let go, you rotten bastard!
+1755 | reg=outlaw,raider,gang,club,crime,prison | Shit, it grabbed me, help!
+1756 | reg=outlaw,raider,gang,club,crime,prison | Somebody kill this thing!
+1757 | reg=outlaw,raider,gang,club,crime,prison | It's on me, do something!
+1758 | reg=outlaw,raider,gang,club,crime,prison | Off me, off me!
+
+##### HIT_CONFIRMED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Hedefi vurdu; ekibe kısa rapor.
+1759 | reg=outlaw,raider,gang,club,crime,prison | How'd that feel, huh?!
+1760 | reg=outlaw,raider,gang,club,crime,prison | Got you, you bastard!
+1761 | reg=outlaw,raider,gang,club,crime,prison | Hit! Hit him again!
+1762 | reg=outlaw,raider,gang,club,crime,prison | Take that, you piece of shit!
+1763 | reg=outlaw,raider,gang,club,crime,prison | He's bleeding! Finish him!
+1764 | reg=outlaw,raider,gang,club,crime,prison | That one stung, didn't it?
+1765 | reg=outlaw,raider,gang,club,crime,prison | That's a hit, bitch!
+1766 | reg=outlaw,raider,gang,club,crime,prison | Fuck yeah, he's hit!
+
+##### HURT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yaralandı, canı yanıyor.
+1767 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Fuck! Again?!
+1768 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Another one! I'm bleeding all over
+1769 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Goddamn it, that's twice
+1770 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | I can't take another, I swear
+1771 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Shit, shit, I'm bleeding bad
+1772 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | They got me again!
+1773 | reg=outlaw,raider,gang,club,crime,prison|wd=ok|grp=squad | Fuck, I'm hit!
+1774 | reg=outlaw,raider,gang,club,crime,prison|wd=ok|grp=squad | They got me! Kill them!
+1775 | reg=outlaw,raider,gang,club,crime,prison|wd=ok|grp=squad | I'm hit, somebody get him!
+1776 | reg=outlaw,raider,gang,club,crime,prison|wd=ok|grp=squad | I'm bleeding, cover me, cover me!
+1777 | reg=outlaw,raider,gang,club,crime,prison|wd=ok|grp=solo | Fuck! That hurt!
+1778 | reg=outlaw,raider,gang,club,crime,prison|wd=ok|grp=solo | Ah, shit, ow!
+1779 | reg=outlaw,raider,gang,club,crime,prison|wd=ok|grp=solo | You'll pay for that!
+
+##### INFECTED_DOWN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bir zombiyi indirdi.
+1780 | reg=outlaw,raider,gang,club,crime,prison | Die, you ugly bastard!
+1781 | reg=outlaw,raider,gang,club,crime,prison | That's one!
+1782 | reg=outlaw,raider,gang,club,crime,prison | Stay dead this time
+1783 | reg=outlaw,raider,gang,club,crime,prison | Next one, come on
+1784 | reg=outlaw,raider,gang,club,crime,prison | Got the bastard!
+1785 | reg=outlaw,raider,gang,club,crime,prison | Down you go, ugly
+1786 | reg=outlaw,raider,gang,club,crime,prison | Stay down this time!
+1787 | reg=outlaw,raider,gang,club,crime,prison | One less rotten bastard
+1788 | reg=outlaw,raider,gang,club,crime,prison | Dropped it, next!
+1789 | reg=outlaw,raider,gang,club,crime,prison | And stay dead, asshole
+1790 | reg=outlaw,raider,gang,club,crime,prison | Sloppy son of a bitch, down
+1791 | reg=outlaw,raider,gang,club,crime,prison | Dead again, nice
+
+##### INJURED_CURSE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yaralı NPC kendisini vurana ya da düşmana öfkeyle tehdit savuruyor, intikam yeminleri. Kesik kesik, acı ve öfkeyle.
+1792 | reg=raider,outlaw,gang,club,crime,prison | My boys are gonna skin you... ahh
+1793 | reg=raider,outlaw,gang,club,crime,prison | You just started a war, pal... ughh
+
+##### INJURED_DESPERATE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# NPC ağır yaralı ama pes etmiyor; son bir çabayla dövüşmeye devam ediyor. Kısa, bağırarak.
+1794 | reg=raider,outlaw,gang,club,crime,prison | Time to go out loud!
+
+##### INJURED_HELPME #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# NPC vurulmuş ya da yaralanmış, yerde; yanındakinden yardım istiyor. Kesik kesik, acı içinde.
+1795 | reg=raider,outlaw,gang,club,crime,prison | Look, I ain't armed... I swear... just help me, man
+1796 | reg=raider,outlaw,gang,club,crime,prison | Don't be a saint, just... be a guy with a bandage
+1797 | reg=raider,outlaw,gang,club,crime,prison | C'mon, c'mon... I'll make it worth your while
+
+##### INJURED_ROBBED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yaralı NPC'yi biri soyuyor; NPC acı içinde, alaycı ya da kırgın bir laf ediyor.
+1798 | reg=raider,outlaw,gang,club,crime,prison | Takes one to know one... ha... ahh
+
+##### INJURED_THANKS #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yaralı NPC'yi biri (çoğu zaman oyuncu) sardı ya da kurtardı; NPC ona teşekkür ediyor. Kesik kesik, minnettar.
+1799 | reg=raider,outlaw,gang,club,crime,prison | Hah... didn't think you had it in you... thanks
+1800 | reg=raider,outlaw,gang,club,crime,prison | You patched me up... I won't shoot you, promise
+
+##### INJURED_YIELD #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yaralı NPC artık dövüşmüyor, teslim oluyor; silahını bıraktığını, işinin bittiğini söylüyor. Kesik kesik, yorgun.
+1801 | reg=raider,outlaw,gang,club,crime,prison | Alright, alright... no more beef... we're square
+# SAHNE: Konuşanlar SUÇ DÜNYASI: yağmacı haydutlar, kanun kaçakları, firari mahkumlar, sokak çeteleri, motosiklet çeteleri, organize suç adamları. Ton: kaba, kısa, tehditkar, alaycı; kendi aralarında laubali. Küfür KAYNAKTAKİ kadar (kaynakta yoksa ekleme). Yöresel ağız ya da internet argosu yok; sokak Türkçesi ölçülü.
+
+##### INJURED_YIELD #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yaralı NPC artık dövüşmüyor, teslim oluyor; silahını bıraktığını, işinin bittiğini söylüyor. Kesik kesik, yorgun.
+1802 | reg=raider,outlaw,gang,club,crime,prison | You win, boss... you win... ugh
+
+##### KILL_CONFIRMED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Düşmanı öldürdü; ekibe rapor.
+1803 | reg=outlaw,raider,gang,club,crime,prison|grp=squad | Got one!
+1804 | reg=outlaw,raider,gang,club,crime,prison|grp=squad | That's one less asshole
+1805 | reg=outlaw,raider,gang,club,crime,prison|grp=squad | He's dead, who's next?
+1806 | reg=outlaw,raider,gang,club,crime,prison | Got him, got the bastard!
+1807 | reg=outlaw,raider,gang,club,crime,prison | Down he goes, hah!
+1808 | reg=outlaw,raider,gang,club,crime,prison | Dead, dead as hell
+1809 | reg=outlaw,raider,gang,club,crime,prison | One less asshole to worry about
+1810 | reg=outlaw,raider,gang,club,crime,prison | That's how it's done
+1811 | reg=outlaw,raider,gang,club,crime,prison | He's cold, keep moving
+1812 | reg=outlaw,raider,gang,club,crime,prison | Stay down, prick
+1813 | reg=outlaw,raider,gang,club,crime,prison | Dropped him, who's next?
+
+##### KNOCKED_DOWN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yere yıkıldı.
+1814 | reg=outlaw,raider,gang,club,crime,prison|cb=hot | Fuck, I'm down!
+1815 | reg=outlaw,raider,gang,club,crime,prison|cb=hot | Get me up, I'm down!
+1816 | reg=outlaw,raider,gang,club,crime,prison|cb=hot | Argh, I'm on my back!
+1817 | reg=outlaw,raider,gang,club,crime,prison | Shit, I'm down!
+1818 | reg=outlaw,raider,gang,club,crime,prison | Fuck, get me up!
+1819 | reg=outlaw,raider,gang,club,crime,prison | Help me up, damn it!
+1820 | reg=outlaw,raider,gang,club,crime,prison | I'm on my ass, cover me!
+1821 | reg=outlaw,raider,gang,club,crime,prison | Get this thing off, I'm down!
+1822 | reg=outlaw,raider,gang,club,crime,prison | Somebody help, I'm down!
+1823 | reg=outlaw,raider,gang,club,crime,prison | I'm down, don't let it get me!
+1824 | reg=outlaw,raider,gang,club,crime,prison | Goddamn it, I'm down, help!
+
+##### LEADER_DOWN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Grubun lideri düştü; şok.
+1825 | reg=outlaw,raider,gang,club,crime,prison | The boss is dead?!
+1826 | reg=outlaw,raider,gang,club,crime,prison | He's down, who's next?
+1827 | reg=outlaw,raider,gang,club,crime,prison | Boss is down, fuck this
+1828 | reg=outlaw,raider,gang,club,crime,prison | They dropped the boss! Kill 'em, KILL 'em!
+1829 | reg=outlaw,raider,gang,club,crime,prison | Holy shit, they got him, they got the BOSS!
+1830 | reg=outlaw,raider,gang,club,crime,prison | Nobody run! Nobody fucking run!
+
+##### LEAVING_COVER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Siperden çıkıyor; ekibe.
+1831 | reg=outlaw,raider,gang,club,crime,prison | I'm going, keep shooting!
+1832 | reg=outlaw,raider,gang,club,crime,prison | Move up, I've got the middle
+1833 | reg=outlaw,raider,gang,club,crime,prison | Fuck it, I'm moving!
+1834 | reg=outlaw,raider,gang,club,crime,prison | I'm moving, watch my back!
+1835 | reg=outlaw,raider,gang,club,crime,prison | Going, going, cover me, asshole!
+1836 | reg=outlaw,raider,gang,club,crime,prison | Here I go, don't screw this up!
+1837 | reg=outlaw,raider,gang,club,crime,prison | Moving up, don't shoot me!
+1838 | reg=outlaw,raider,gang,club,crime,prison | Out I go, keep 'em busy!
+1839 | reg=outlaw,raider,gang,club,crime,prison | I'm going, cover me!
+1840 | reg=outlaw,raider,gang,club,crime,prison | Time to move, hold 'em!
+1841 | reg=outlaw,raider,gang,club,crime,prison | Going in, hold 'em down!
+
+##### LOST_TARGET #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Hedefi gözden kaybetti.
+1842 | reg=outlaw,raider,gang,club,crime,prison | Where'd the bastard go?
+1843 | reg=outlaw,raider,gang,club,crime,prison | He's hiding, find him!
+1844 | reg=outlaw,raider,gang,club,crime,prison | Lost the little shit, spread out
+
+##### LOW_AMMO #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Mermisi azaldı; ekibe.
+1845 | reg=outlaw,raider,gang,club,crime,prison | Almost out, need more bullets
+1846 | reg=outlaw,raider,gang,club,crime,prison | Down to my last few, fuck
+1847 | reg=outlaw,raider,gang,club,crime,prison | Running low, don't waste yours
+
+##### MEDIC_HELP #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Sağlıkçı birine yardım ediyor ya da sağlıkçı çağrılıyor.
+1848 | reg=outlaw,raider,gang,club,crime,prison | Get a fucking medic!
+1849 | reg=outlaw,raider,gang,club,crime,prison | He's bleeding out, help him!
+1850 | reg=outlaw,raider,gang,club,crime,prison | Somebody patch him up, hurry!
+1851 | reg=outlaw,raider,gang,club,crime,prison | Anybody got a bandage, he's pissing blood!
+1852 | reg=outlaw,raider,gang,club,crime,prison | Get a rag on that, he's bleeding!
+1853 | reg=outlaw,raider,gang,club,crime,prison | Patch him up, we need him
+1854 | reg=outlaw,raider,gang,club,crime,prison | Somebody patch him up!
+1855 | reg=outlaw,raider,gang,club,crime,prison | Get the medic, quick!
+1856 | reg=outlaw,raider,gang,club,crime,prison | He's bleeding all over, help!
+1857 | reg=outlaw,raider,gang,club,crime,prison | Anybody got bandages?
+
+##### MELEE_ENGAGE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Göğüs göğüse dövüşe giriyor.
+1858 | reg=outlaw,raider,gang,club,crime,prison|wp=melee | I'm gonna split you open!
+1859 | reg=outlaw,raider,gang,club,crime,prison|wp=melee | Come here and take it!
+1860 | reg=outlaw,raider,gang,club,crime,prison|wp=melee | Right here, right now, come on!
+1861 | reg=outlaw,raider,gang,club,crime,prison|wp=melee | Let's do this up close!
+1862 | reg=outlaw,raider,gang,club,crime,prison|wp=none | I'll beat you with my bare hands!
+1863 | reg=outlaw,raider,gang,club,crime,prison|wp=none | Fists then, come on!
+1864 | reg=outlaw,raider,gang,club,crime,prison|wp=none | Don't need a gun to kill you!
+1865 | reg=outlaw,raider,gang,club,crime,prison|wp=gun | Too close to shoot, I'll club you
+1866 | reg=outlaw,raider,gang,club,crime,prison|wp=gun | Smash his face in with it!
+1867 | reg=outlaw,raider,gang,club,crime,prison|wp=gun | Can't shoot, so I'll bash you
+1868 | reg=outlaw,raider,gang,club,crime,prison|wp=gun | Come here, I'll beat you with it
+1869 | reg=outlaw,raider,gang,club,crime,prison | Come on, you son of a bitch!
+1870 | reg=outlaw,raider,gang,club,crime,prison | Right here, right now!
+1871 | reg=outlaw,raider,gang,club,crime,prison | I'll break your face!
+1872 | reg=outlaw,raider,gang,club,crime,prison | Get over here and fight!
+1873 | reg=outlaw,raider,gang,club,crime,prison | Close enough to kill you!
+1874 | reg=outlaw,raider,gang,club,crime,prison | Let's go, asshole!
+1875 | reg=outlaw,raider,gang,club,crime,prison | Put 'em up, come on!
+1876 | reg=outlaw,raider,gang,club,crime,prison | Want some? Come get it!
+
+##### MEMBER_MISSING #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Ekipten biri kayıp.
+1877 | reg=outlaw,raider,gang,club,crime,prison | Where the hell did he go?!
+1878 | reg=outlaw,raider,gang,club,crime,prison | Anyone seen him? HEY?! Where'd he go?!
+1879 | reg=outlaw,raider,gang,club,crime,prison | Where is he?? Where the fuck did he GO?!
+1880 | reg=outlaw,raider,gang,club,crime,prison | Hey?? HEY?? Don't tell me he ran off
+1881 | reg=outlaw,raider,gang,club,crime,prison | Where the hell is he? Did he run off?
+
+##### MULTIPLE_CONTACTS #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Birden çok düşman/hedef; ekibe uyarı.
+1882 | reg=outlaw,raider,gang,club,crime,prison | Shit, there's a bunch!
+1883 | reg=outlaw,raider,gang,club,crime,prison | Fuck, more of 'em!
+1884 | reg=outlaw,raider,gang,club,crime,prison | Jesus, they're everywhere!
+
+##### ORD_FOLLOW_OK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+1885 | reg=outlaw,raider,gang,club,crime,prison | Fine, move, I'm right behind you
+
+##### OUT_OF_AMMO #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Mermisi bitti; ekibe.
+1886 | reg=outlaw,raider,gang,club,crime,prison|wp=gun|grp=squad | I'm out, give me something!
+1887 | reg=outlaw,raider,gang,club,crime,prison|wp=gun|grp=squad | Empty! Toss me a clip!
+1888 | reg=outlaw,raider,gang,club,crime,prison|wp=gun|grp=squad | No bullets left, fuck!
+1889 | reg=outlaw,raider,gang,club,crime,prison|wp=gun|grp=squad | Click, nothing, I'm dry!
+1890 | reg=outlaw,raider,gang,club,crime,prison|wp=gun|grp=solo | Click, shit, nothing
+1891 | reg=outlaw,raider,gang,club,crime,prison|wp=gun|grp=solo | Out of bullets, you got lucky
+1892 | reg=outlaw,raider,gang,club,crime,prison|wp=gun|grp=solo | Empty, fuck me
+1893 | reg=outlaw,raider,gang,club,crime,prison|tmp=predator | Out of bullets, going hand to hand
+
+##### PANIC #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Panik anı.
+1894 | reg=outlaw,raider,gang,club,crime,prison|day=0,2|mood=fear | Hey! HEY! Don't you dare leave me!
+
+##### PANIC_DAY_GROUP #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Salgının ilk günlerinde panik (zombi görme, silah sesi, saklanma, grup halinde).
+1895 | reg=outlaw,raider,gang,club,crime,prison|day=0,4|mood=fear | One, two, three, four- four? Where's FOUR?!
+1896 | reg=outlaw,raider,gang,club,crime,prison|day=0,4|mood=fear | Get him, somebody get him, he's still in there!
+1897 | reg=outlaw,raider,gang,club,crime,prison|day=0,2|mood=fear | He's gone! Somebody go back!
+1898 | reg=outlaw,raider,gang,club,crime,prison|day=0,4|mood=angry | Nobody's going back for him, MOVE
+
+##### PANIC_DAY_HIDE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Salgının ilk günlerinde panik (zombi görme, silah sesi, saklanma, grup halinde).
+1899 | reg=outlaw,raider,gang,club,crime,prison|day=0,4|mood=fear|world=inside | Hey, hey, in here, in HERE, c'mon!
+
+##### PARTY_JOIN_OK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncunun ekibine katılmayı kabul ediyor.
+1900 | reg=outlaw,raider,gang,club,crime,prison | Heh, welcome aboard... stab us in the back and I'll feed you to the dead
+
+##### PLEAD #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yalvarıyor (öldürme, bırak).
+1901 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Okay okay, I'm hit, enough!
+1902 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Stop, I'm bleeding, stop!
+1903 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | I'm done, I'm done, don't finish me
+
+##### RAID_RETREAT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Baskından geri çekiliyor; ekibe.
+1904 | reg=outlaw,raider,gang,club,crime,prison | Fuck this, we're leaving!
+1905 | reg=outlaw,raider,gang,club,crime,prison | Pull out, they're too many!
+1906 | reg=outlaw,raider,gang,club,crime,prison | Back off, grab what you carry
+1907 | reg=outlaw,raider,gang,club,crime,prison | Go go go, it's not worth it!
+
+##### RAID_START #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Baskın başlıyor; ekibe.
+1908 | reg=outlaw,raider,gang,club,crime,prison | Hit 'em hard, grab it all!
+1909 | reg=outlaw,raider,gang,club,crime,prison | Go go go, nobody leaves!
+1910 | reg=outlaw,raider,gang,club,crime,prison | Take everything that isn't nailed down
+
+##### RELOAD #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Şarjör değiştiriyor/silahı dolduruyor; ekibe 'koruyun'.
+1911 | reg=outlaw,raider,gang,club,crime,prison|grp=squad | Reloading, keep shooting!
+1912 | reg=outlaw,raider,gang,club,crime,prison|grp=squad | Hold on, loading up!
+1913 | reg=outlaw,raider,gang,club,crime,prison|grp=squad | Mag's empty, keep them busy
+1914 | reg=outlaw,raider,gang,club,crime,prison|grp=solo | Hold on, hold on, reloading
+1915 | reg=outlaw,raider,gang,club,crime,prison|grp=solo | Don't move, I'm reloading
+1916 | reg=outlaw,raider,gang,club,crime,prison|grp=solo | Goddamn reload
+1917 | reg=outlaw,raider,gang,club,crime,prison|grp=solo | Loading up, you're not going anywhere
+1918 | reg=outlaw,raider,gang,club,crime,prison|tmp=predator | Loading, loading, back in a second
+
+##### RETREAT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Geri çekilme; ekibe.
+1919 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | I'm hit, I'm out of here!
+1920 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Fuck it, I'm bleeding, run!
+1921 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Run, I'm hit, run!
+
+##### STACK_UP #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Kapı önünde sıraya dizilme (baskın öncesi); ekibe.
+1922 | reg=outlaw,raider,gang,club,crime,prison | Line up on it, shut up
+1923 | reg=outlaw,raider,gang,club,crime,prison | You first, I'm right behind you
+1924 | reg=outlaw,raider,gang,club,crime,prison | Quiet, we kick it on three
+1925 | reg=outlaw,raider,gang,club,crime,prison | Get ready, and nobody shoots me
+1926 | reg=outlaw,raider,gang,club,crime,prison | Line up, shut up, wait for it
+1927 | reg=outlaw,raider,gang,club,crime,prison | Get behind me, idiots
+1928 | reg=outlaw,raider,gang,club,crime,prison | Quiet, stack up, nobody screw this up
+1929 | reg=outlaw,raider,gang,club,crime,prison | Ready? Don't be a pussy
+1930 | reg=outlaw,raider,gang,club,crime,prison | Right behind me, move it
+# SAHNE: Konuşanlar SUÇ DÜNYASI: yağmacı haydutlar, kanun kaçakları, firari mahkumlar, sokak çeteleri, motosiklet çeteleri, organize suç adamları. Ton: kaba, kısa, tehditkar, alaycı; kendi aralarında laubali. Küfür KAYNAKTAKİ kadar (kaynakta yoksa ekleme). Yöresel ağız ya da internet argosu yok; sokak Türkçesi ölçülü.
+
+##### STACK_UP #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Kapı önünde sıraya dizilme (baskın öncesi); ekibe.
+1931 | reg=outlaw,raider,gang,club,crime,prison | Stay close, keep quiet
+1932 | reg=outlaw,raider,gang,club,crime,prison | On three, no talking
+1933 | reg=outlaw,raider,gang,club,crime,prison | Stack up, we kick it in
+
+##### STEADY #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# 'Sakin ol, sabit dur' telkini.
+1934 | reg=outlaw,raider,gang,club,crime,prison | Steady, don't waste bullets
+1935 | reg=outlaw,raider,gang,club,crime,prison | Hold it, you'll hit one of us
+1936 | reg=outlaw,raider,gang,club,crime,prison | Calm down and aim, fools
+1937 | reg=outlaw,raider,gang,club,crime,prison | Take your time and hit something
+1938 | reg=outlaw,raider,gang,club,crime,prison | Steady, you idiots
+1939 | reg=outlaw,raider,gang,club,crime,prison | Easy, don't panic
+1940 | reg=outlaw,raider,gang,club,crime,prison | Hold it together, damn it
+1941 | reg=outlaw,raider,gang,club,crime,prison | Take a breath, asshole
+1942 | reg=outlaw,raider,gang,club,crime,prison | Don't lose it now
+1943 | reg=outlaw,raider,gang,club,crime,prison | Stay cool, stay cool
+1944 | reg=outlaw,raider,gang,club,crime,prison | Settle down, I got this
+
+##### SUPPORT_CALL #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Takviye/destek çağırıyor.
+1945 | reg=raider,outlaw,gang,club,crime,prison | Bring the shotgun! Bring everyone!
+
+##### SUPPRESSED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Baskı ateşi altında, başını kaldıramıyor.
+1946 | reg=outlaw,raider,gang,club,crime,prison | They've got us pinned, fuck!
+1947 | reg=outlaw,raider,gang,club,crime,prison | Can't stick my head up!
+1948 | reg=outlaw,raider,gang,club,crime,prison | Pinned down, somebody do something!
+1949 | reg=outlaw,raider,gang,club,crime,prison | Every time I move, bang, bang!
+1950 | reg=outlaw,raider,gang,club,crime,prison | Can't lift my head, shit!
+1951 | reg=outlaw,raider,gang,club,crime,prison | They won't let up, shoot BACK!
+1952 | reg=outlaw,raider,gang,club,crime,prison | Stuck like rats, fuck this!
+1953 | reg=outlaw,raider,gang,club,crime,prison | Who's got a shot? Anybody?!
+
+##### SUPPRESS_FIRE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Baskı ateşi açıyor; ekibe.
+1954 | reg=outlaw,raider,gang,club,crime,prison | Pour it on, keep them down!
+1955 | reg=outlaw,raider,gang,club,crime,prison | Keep shooting, don't stop!
+1956 | reg=outlaw,raider,gang,club,crime,prison | Light 'em up, keep 'em pinned!
+1957 | reg=outlaw,raider,gang,club,crime,prison | Empty it into them, go!
+1958 | reg=outlaw,raider,gang,club,crime,prison | Burn the mag, I don't care, keep it up!
+1959 | reg=outlaw,raider,gang,club,crime,prison | Keep 'em ducking!
+1960 | reg=outlaw,raider,gang,club,crime,prison | Shoot, shoot, make 'em hide!
+1961 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Keep 'em down, I'm bleeding
+1962 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | I'm hit, keep shooting!
+1963 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Hit, but I'm still firing
+1964 | reg=outlaw,raider,gang,club,crime,prison | Keep 'em pinned, keep firing!
+1965 | reg=outlaw,raider,gang,club,crime,prison | Don't let 'em lift their heads!
+1966 | reg=outlaw,raider,gang,club,crime,prison | Make 'em eat dirt!
+
+##### SURRENDER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Teslim oluyor.
+1967 | reg=outlaw,raider,gang,club,crime,prison|wp=none | I got nothing, don't shoot
+1968 | reg=outlaw,raider,gang,club,crime,prison|wp=none | Unarmed, unarmed, take it easy
+1969 | reg=outlaw,raider,gang,club,crime,prison|wp=none | Hands up, I'm empty
+1970 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Fine, fine, you win, I'm hit
+1971 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | I give up, I'm hit, don't kill me
+1972 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Hands up, I'm bleeding
+1973 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Okay, I'm done, I'm hit
+1974 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Enough, enough, I'm hit
+1975 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Stop, I'm bleeding!
+
+##### TAKING_COVER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Siper alıyor.
+1976 | reg=outlaw,raider,gang,club,crime,prison|grp=squad | Get behind something, idiots!
+1977 | reg=outlaw,raider,gang,club,crime,prison|grp=squad | Down, down, get down!
+1978 | reg=outlaw,raider,gang,club,crime,prison|grp=squad | Find cover, they're shooting!
+1979 | reg=outlaw,raider,gang,club,crime,prison|grp=squad | Behind something solid, go go!
+1980 | reg=outlaw,raider,gang,club,crime,prison|grp=solo | Shit, behind something
+1981 | reg=outlaw,raider,gang,club,crime,prison|grp=solo | Gotta get low
+1982 | reg=outlaw,raider,gang,club,crime,prison|grp=solo | Taking cover, fuck
+1983 | reg=outlaw,raider,gang,club,crime,prison | Duck, you idiots!
+1984 | reg=outlaw,raider,gang,club,crime,prison | Get down, get down, shit!
+1985 | reg=outlaw,raider,gang,club,crime,prison | Behind something, move your ass!
+1986 | reg=outlaw,raider,gang,club,crime,prison | Hit the dirt, now!
+1987 | reg=outlaw,raider,gang,club,crime,prison | Low, stay LOW, dumbass!
+1988 | reg=outlaw,raider,gang,club,crime,prison | Out of my cover, find your own!
+
+##### UNDER_FIRE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Ateş altında; ekibe.
+1989 | reg=outlaw,raider,gang,club,crime,prison|cb=hot | Fuck, they've got guns!
+1990 | reg=outlaw,raider,gang,club,crime,prison|cb=hot | Get down, they're firing!
+1991 | reg=outlaw,raider,gang,club,crime,prison|cb=hot | Return fire, return fire!
+1992 | reg=outlaw,raider,gang,club,crime,prison | Fuck, they're shooting!
+1993 | reg=outlaw,raider,gang,club,crime,prison | Get down, get down, asshole!
+1994 | reg=outlaw,raider,gang,club,crime,prison | Shit, we're taking fire!
+1995 | reg=outlaw,raider,gang,club,crime,prison | Cover, find cover!
+
+##### WARN_BEFORE_ATTACK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Saldırmadan önce son uyarı; oyuncuya.
+1996 | reg=outlaw,raider,gang,club,crime,prison | Turn around and walk, or you're dead
+1997 | reg=outlaw,raider,gang,club,crime,prison | Last chance to run, friend
+1998 | reg=outlaw,raider,gang,club,crime,prison | You got three seconds, then it's over
+1999 | reg=outlaw,raider,gang,club,crime,prison | One more step and you're dead!
+2000 | reg=outlaw,raider,gang,club,crime,prison | Last chance, bitch, back off!
+2001 | reg=outlaw,raider,gang,club,crime,prison | I'm not gonna ask twice!
+
+##### WEAPON_JAM #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Silahı tutukluk yaptı.
+2002 | reg=outlaw,raider,gang,club,crime,prison | Piece of shit jammed!
+2003 | reg=outlaw,raider,gang,club,crime,prison | Fucking gun jammed!
+2004 | reg=outlaw,raider,gang,club,crime,prison | It won't fire, cover me!
+2005 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Fuck, jammed and bleeding
+2006 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Piece of shit won't fire
+2007 | reg=outlaw,raider,gang,club,crime,prison|wd=hurt | Jammed, I'm hit, damn it
+
+##### WEAPON_SWITCH #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Silah değiştiriyor.
+2008 | reg=outlaw,raider,gang,club,crime,prison | Screw this, pulling my other piece
+2009 | reg=outlaw,raider,gang,club,crime,prison | Gonna use something else
+2010 | reg=outlaw,raider,gang,club,crime,prison | Got a backup, hold on
+2011 | reg=outlaw,raider,gang,club,crime,prison | Pistol time
+2012 | reg=outlaw,raider,gang,club,crime,prison | Screw this one, grabbing another
+2013 | reg=outlaw,raider,gang,club,crime,prison | Switching, hold 'em
+2014 | reg=outlaw,raider,gang,club,crime,prison | Time for the other one
+2015 | reg=outlaw,raider,gang,club,crime,prison | Hold on, getting something better
+2016 | reg=outlaw,raider,gang,club,crime,prison | Swapping, don't die yet
+2017 | reg=outlaw,raider,gang,club,crime,prison | Got another, hold on
+2018 | reg=outlaw,raider,gang,club,crime,prison | This one's shit, switching
+2019 | reg=outlaw,raider,gang,club,crime,prison | Changing it up, wait
+
+##### ZOMBIE_CLOSE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Zombi çok yakında; ekibe ya da kendine uyarı.
+2020 | reg=outlaw,raider,gang,club,crime,prison | Back! BACK! There's one on you, ON YOU!
+
+# SAHNE: Konuşanlar HAYDUT: yağmacı çeteler (raider), kanun kaçakları (outlaw), firari mahkumlar (prison). Ton: kaba, açgözlü, tehditkar, yırtıcı; firari mahkumlarda hapishane ağzı. Küfür KAYNAKTAKİ kadar. Oyuncuya 'sen', tepeden ve aşağılayıcı olabilir.
+
+##### PANIC_DAY_GROUP #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Salgının ilk günlerinde panik (zombi görme, silah sesi, saklanma, grup halinde).
+2021 | role=raider,raider_boss|day=0,2|mood=fear | Where the fuck did he go?! HEY!
+2022 | role=raider,raider_boss|day=0,2|mood=fear | Where is he? WHERE IS HE?!
+
+##### PANIC_DAY_ZOMBIE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Salgının ilk günlerinde panik (zombi görme, silah sesi, saklanma, grup halinde).
+2023 | role=raider,raider_boss|day=0,4|mood=funny | Go on, go say hi, go on, hahaha- go on-
+
+##### SHOUT_NEUTRAL #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Uzaktaki birine/oyuncuya bağırıyor (dost, tarafsız, temkinli ya da düşmanca).
+2024 | reg=raider | We hear you, what do you want
+
+##### WARN_BEFORE_ATTACK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Saldırmadan önce son uyarı; oyuncuya.
+2025 | reg=prison | Run all you want, you've got nowhere to go!
+
+# SAHNE: Konuşanlar ÇETE: sokak çeteleri (gang: genç, kendini gösteren, 'homie' tarzı hitaplar → 'kardeşim', 'bizimki' gibi doğal Türkçe), motosiklet çeteleri (club / biker: kaba ama kendi kuralları olan, 'hoss' gibi hitaplar → 'koçum', 'reis'), organize suç (crime: soğukkanlı, kibar görünümlü tehdit, iş adamı ağzı). Küfür KAYNAKTAKİ kadar.
+
+##### MATE_HIT_BY_PLAYER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu arkadaşına vurdu; oyuncuya öfke, 'sen'.
+2026 | reg=crime | That's family to us, you just made this a family matter

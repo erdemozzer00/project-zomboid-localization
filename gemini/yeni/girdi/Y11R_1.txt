@@ -1,0 +1,153 @@
+# PAKET Y11R · parça 1/1 · satır 1-76 (76 satır)
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# Kurallar: aşağıdaki ARAYÜZ kuralları (sahne/karakter canlandırma yok). Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.
+# ARAYÜZ DOSYASI: Bu satırlar konuşma değil, EKRAN METNİ: düğme, ayar, ipucu, bildirim, etiket. Sahne ya da karakter canlandırma yok; kısa, net ve tutarlı yaz.
+# BİÇİM: Etiketlerde emir ya da isim biçimi kullan ('Kaydet', 'Teçhizat'). 'siz' hitabı yok, '-dır' yok; ipucu ve açıklamada gerekirse 'sen'. Sonda nokta İngilizcedeki gibi: İngilizcede yoksa yazma, varsa koru.
+# KORUNACAKLAR: {yer_tutucu}, %%, %1, \n ve <...> etiketleri ile renk kodları aynen kalır. Kısaltmalar (HP, NPC, GM, MHz…) ve özel adlar (kişi, grup, yer, silah adı) çevrilmez. Sayıları ve birimleri koru.
+# UZUNLUK: Türkçe İngilizceden belirgin uzun olmasın; düğmelerde ve sekme adlarında en fazla yaklaşık 1,3 katı. Sığmıyorsa kısalt, anlamı koru.
+# BÜYÜK HARF: İngilizcede BÜYÜK HARFLİ yazılmış etiket Türkçede de büyük harfli olur (İ/ı kurallarıyla).
+# EKRAN: Her ##### başlığının altındaki 'EKRAN:' notu metnin hangi ekranda ya da panelde göründüğünü söyler; önce onu oku. Etiket sütunu kodda alanın adıdır (ui, tip, label…), çıktıya yazma.
+# TERİMLER (bağlayıcı; yalnız bu dosyada geçenler; sözcük aynı anlamda geçiyorsa bu karşılığı kullan): Faction → Fraksiyon; Safehouse → Güvenli ev; Outpost → Karakol; Raid → Baskın; Preset → Ön ayar; Survivor → Hayatta kalan; prisoner → Esir; lookout → Gözcülük; sizing you up → Seni tartıyor; starving → Açlıktan ölüyor
+# Girdi biçimi: N | etiket | İngilizce
+
+##### RADYO · BİLDİRİM #####
+# EKRAN: Oyuncu telsizinden bir çağrıyı duyamadığında ekranda çıkan kısa bildirim ve başlığı (telsiz kapalı, cızırtı, sessiz, güçsüz)
+1 | text | The call is on your radio but it sits in the pack. Take it in your hands to hear it
+2 | text | Your radio is off. Someone could be calling
+3 | text | Voices on the air at {mhz} MHz. Turn your radio on, pick the Field Band preset, keep it in your hands
+4 | text | Faint voices out there somewhere. A walkie talkie or a ham set would catch them
+5 | text | Find a ham or military radio and turn it on
+6 | text | A call is going out on {mhz} MHz. You need a powered radio
+7 | text | Static on your radio. Someone could be calling on {mhz} MHz
+8 | text | Your radio is muted. Someone could be calling
+9 | title | Radio quiet
+
+##### RADYO · KANAL ADI #####
+# EKRAN: Radyo ön ayarının kanal adı
+10 | name | Field Band
+
+##### KARAKOL TELSİZİ #####
+# EKRAN: Karakola ait telsize sağ tıklayınca çıkan menü
+11 | ui | Outpost radio
+
+##### GÜVENLİ EV MENÜSÜ #####
+# EKRAN: Güvenli evin araçlar menüsü ve kapıdaki ziyaretçi menüsü
+12 | ui | Safehouse tools
+13 | ui | At the door
+
+##### TELEFON · SAĞ TIK MENÜSÜ #####
+# EKRAN: Telefona sağ tıklayınca çıkan seçenekler
+14 | ui | Silence phone
+15 | ui | Take phone
+
+##### ESİR BİLDİRİMLERİ #####
+# EKRAN: Esirle ilgili ekranın üstünde çıkan kısa bildirimler ve sağ tık menüsü seçenekleri
+16 | ui | Prisoner taken
+17 | ui | Prisoner fed
+18 | ui | A prisoner is starving
+19 | ui | A prisoner broke loose
+20 | ui | You lost a prisoner
+21 | ui | Their tip led nowhere
+22 | ui | They are marking it, give it a moment
+23 | ui | Feed prisoner
+24 | ui | Take prisoner
+
+##### ESİR · KONUŞMA SATIRI #####
+# EKRAN: Konuşma penceresinde oyuncunun seçtiği satır
+25 | text | Come with me
+
+##### İLAN PANOSU #####
+# EKRAN: Panoya sağ tıklayınca açılan pano: başlıklar (RAID WATCH, REQUESTS, WORD) ve altındaki tek cümlelik haberler; {name} kişi adı, {thing} eşya
+26 | itemName | Notice board
+27 | raidLive | Raid on: {waves} waves left
+28 | raidLiveNoFaction | Raid on, {waves} waves left
+29 | raidScouts | Scouts about: someone is sizing you up
+30 | raidScoutsNoFaction | Scouts about, somebody is being sized up
+31 | raidLast | Last raid hit on day {day}
+32 | raidNone | No raid on record
+33 | taskMan | {name} holds a building
+34 | taskLookout | {name} is on the lookout
+35 | taskOther | {name} has a job going
+36 | lost | {name} lost their {thing}, bring it back
+37 | noWork | No work posted
+38 | noWord | No word on the road
+39 | headRaid | RAID WATCH
+40 | headRequests | REQUESTS
+41 | headWord | WORD
+
+##### İLAN PANOSU · MENÜ #####
+# EKRAN: Panoya sağ tıklayınca çıkan seçenek
+42 | ui | Read the notice board
+
+##### EL YAZISI NOTLAR · BAŞLIKLAR #####
+# EKRAN: Bulunan notun türünü söyleyen etiket ve not okununca çıkan başlık/ilk satır
+43 | stash | Note: a stash
+44 | letter | Note: a letter
+45 | warning | Note: a warning
+46 | journal | Note: a page from a journal
+47 | found | Note read
+48 | stash | Stash {where}
+49 | read | Somebody wrote this down for a reason
+
+##### EL YAZISI NOT · MENÜ #####
+# EKRAN: Notun üstüne sağ tıklayınca çıkan seçenek ve not penceresinin etiketi
+50 | label | NOTE
+51 | ui | Read the note
+
+##### EL YAZISI NOT · EŞYA ADI #####
+# EKRAN: Bulunan notun eşya adı; çantanın adı ({name} çantası)
+52 | label | Handwritten note
+53 | bagName | {name}'s bag
+
+##### SÖYLENTİ · ETİKET #####
+# EKRAN: Söylenti kartının başlığı ve etiketi
+54 | label | RUMOR
+55 | title | Word on the road
+
+##### SÖYLENTİ · ÖZNE #####
+# EKRAN: Söylenti cümlesinin içine giren kısa öznenin adı
+56 | ui | the locals
+
+##### KAYIP EŞYA · ETİKET #####
+# EKRAN: Kayıp eşya isteğinin etiketi ve eşya adı
+57 | thing | dog tags
+58 | itemName | {name}'s {thing}
+59 | label | REQUEST
+
+##### ANIT · ETİKET #####
+# EKRAN: Mezar ve anıt işaretinin etiketi ve künyenin adı
+60 | tagName | {name}'s dog tag
+61 | label | GRAVE
+
+##### KONUM TARİFİ #####
+# EKRAN: Haberlerde bir yerin nerede olduğunu söyleyen kısa kalıplar ({dist} adım, {dir} yön, {town} kasaba)
+62 | ui | right where you stand
+63 | ui | about {dist} steps {dir} of here
+64 | ui | in {town}
+65 | ui | near {town}
+
+##### KARAKOL TÜRLERİ #####
+# EKRAN: Yönetici karakol kurarken seçilen karakol türü adları
+66 | label | Military fort
+67 | label | Survivor farmstead
+68 | label | Trader market yard
+69 | label | Prison yard
+70 | label | Ranger camp
+71 | label | Raider stronghold
+
+##### SÖYLENTİ · İNTİKAM #####
+# EKRAN: Oyuncuyu aradıklarını anlatan söylenti cümlesi
+72 | liste Revenge.notices | Word is {faction} people are asking around about you
+
+##### SOYGUN · SEÇENEK #####
+# EKRAN: Soygun karşılaşmasında oyuncunun seçeneği
+73 | insult | Insult them
+
+##### KONUŞMA · GÖREV YOK #####
+# EKRAN: Konuşmada oyuncuya görev verilemeyince çıkan not
+74 | liste | No tasks right now
+
+##### KISA SÖZCÜKLER (kod içinde geçen; ekranda görünüp görünmediği belirsiz) #####
+# EKRAN: Oyunun kodunda tek başına geçen kısa sözcükler (durum, yön, eşleştirme sözcüğü). Bağlam yok: sözcüğü en yaygın, yalın anlamıyla küçük harfle çevir; kişi adı ve kod gibi duruyorsa aynen bırak
+75 | SÖZCÜK · ActivityService | fleeing
+76 | SÖZCÜK · VisitorInstance | person

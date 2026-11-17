@@ -1,0 +1,404 @@
+# PAKET G1R · parça 1/35 · satır 1-355 (355 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar oyunda şu an skill'den önceki eski bir çeviriyle görünüyor; sıfırdan, İngilizceden kur. Her başlığın altındaki 'NEREDE:' oyuncunun bu sözle nasıl karşılaştığını, '#' notu sahneyi anlatır. Önce bunları oku, satırı o anda o yerde duyulacak sözle yaz.
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+##### AFTER_FIGHT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Çatışma yeni bitti; nefes nefese, kendine ya da yanındakilere söylenen söz.
+1 | tmp=fresh | Is everybody-- is everybody still here? Count off!
+2 | tmp=fresh | Don't touch me yet, sorry, just-- give me a minute
+3 | tmp=fresh | Okay, I'm okay, I think I'm... okay
+4 | tmp=fresh | Hands won't stop shaking, it's over, why won't they stop?
+5 | tmp=fresh | Don't say I did good, please, I just need to breathe
+6 | tmp=fresh | Thought that was it, holy shit, I thought that was IT
+7 | tmp=fresh|mood=fear | I'm shaking! Why am I shaking? It's over!
+8 | tmp=veteran | Check yourselves over, don't ignore a wound
+9 | tmp=veteran | Reload before you sit, every time, reload before you sit
+10 | tmp=seasoned | That was too close, that was way, way too close
+11 | role=rescue_medical|mood=warm | Sit down and drink some water before you do anything else
+12 | tmp=veteran|mood=grim | Anybody bit? Look at me and say it
+13 | tmp=veteran|mood=grim | Noise like that carries, we don't stay here
+14 | tmp=veteran|mood=grim | We're all still breathing, I'll take it
+15 | tmp=seasoned|hour=16,5|mood=grim | I keep seeing his face, I'll see it tonight too
+16 | role=rescue_clergy,family_elder|mood=sad | Say a word over him, somebody say a word
+17 | tmp=seasoned,veteran|hour=16,20 | Get the wounded inside before dark, move it
+18 | - | I need a minute before I talk about that
+19 | - | My hands haven't got the message yet
+20 | - | I keep thinking I should say something
+21 | - | Well, that was a thing I never wanted to do
+22 | - | Don't ask me how I feel just yet
+23 | - | I could do without another one of those
+24 | - | All that noise, and now I can't think
+25 | - | Give me a moment to be a person again
+26 | - | I was scared, still am, a little
+27 | - | I don't want to get used to this
+28 | - | I'm not much for talking right now
+29 | - | That took something out of me
+30 | - | Can we take a breath before the next thing?
+31 | - | I need to stop thinking about the worst bit
+32 | - | Is it over? Is it over? It's over
+33 | - | Holy shit, holy shit, holy SHIT
+34 | - | Breathe... we're okay, we're okay
+35 | - | Everybody alright? Sound off!
+36 | - | I'm shaking, look at my hands, I can't stop
+37 | - | Still alive, still alive, still alive
+38 | - | Whoo! Way too close, jeez
+39 | - | My heart is going to explode, feel it
+40 | - | That's all of them, I think, that's all of them
+41 | - | Quiet, finally quiet
+42 | - | Ha, ha, ha, we did it, we actually did it
+43 | - | I need to sit down, my legs are gone
+44 | - | I need a minute, can't get my breath
+45 | - | Hell of a fight, hell of a fight
+46 | - | Check yourself for bites, everyone, check yourself, now
+47 | - | Adrenaline's wearing off, ow, ow, I think I pulled something
+48 | - | Did anyone get hurt? Anyone? Speak up
+49 | - | Nobody go wandering off, wait a second
+50 | - | Need to sit down, no, I'm fine, just need to sit
+51 | - | Can we be done with this shit for today? Please?
+52 | reg=civilian,family,worker,rescue | Is it over? Is everybody okay?
+53 | reg=civilian,family,worker,rescue | My hands won't stop shaking
+54 | reg=civilian,family,worker,rescue | I think I'm going to be sick
+55 | reg=civilian,family,worker,rescue | Is it over? Is it really over?
+56 | reg=civilian,family,worker,rescue | I'm shaking, look at my hands, they won't stop
+57 | reg=civilian,family,worker,rescue | We made it, we actually made it
+58 | reg=civilian,family,worker,rescue | I need to sit down, just for a minute
+59 | reg=civilian,family,worker,rescue | I never want to do that again, never
+60 | reg=civilian,family,worker,rescue | Is everyone all right? Count off, please
+61 | reg=civilian,family,worker|tmp=fresh|mood=fear | Oh God, oh God, I'm alive, I can't believe I'm alive
+62 | reg=civilian,family,worker|tmp=fresh|mood=fear | Did you see that? Did you see how close it got?!
+63 | reg=civilian,family,worker|tmp=fresh|mood=fear | I thought that was it, I really did
+64 | reg=civilian,family,worker|tmp=fresh|mood=fear | I'm gonna be sick, hold on, hold on
+65 | reg=civilian,family,worker|tmp=fresh|mood=fear | Please nobody be bit, please
+66 | reg=civilian,family,worker|tmp=fresh|mood=fear | I don't want to do that again, I don't, I can't, I won't
+67 | reg=civilian,family,worker|tmp=fresh|mood=fear | I killed it, didn't I? I actually killed it
+68 | reg=civilian,family,worker|tmp=fresh|mood=fear | My ears are ringing, and everything is slow
+69 | reg=civilian,family,worker|tmp=fresh|mood=warm | We're okay, we're all okay, come here, come here
+70 | reg=civilian,family,worker|tmp=fresh|mood=warm | I love you guys, I love you all, that was too close
+71 | reg=civilian,family,worker|tmp=fresh|mood=warm | Thank you, thank you, you saved my life, you did
+72 | reg=civilian,family,worker|tmp=fresh|mood=sad | I knew her, that one, I knew her, I used to work with her
+73 | reg=civilian,family,worker|tmp=fresh|mood=sad | That was somebody's son, wasn't it? Somebody's son
+74 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Check for bites, check everyone, strip down if you have to
+75 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Reload, reposition, drink water, then we move
+76 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Clean the blades, clean the barrels, don't leave blood on the gear
+77 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Noise draws more, we can't stay here, let's move
+78 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Good work, everyone, now breathe, then pack up
+79 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Wash off before you touch your face, all of you
+80 | reg=civilian,family,worker|mood=funny | Well, that was fun, let's never do that again, ha
+81 | reg=civilian,family,worker|mood=funny | My knees are done for the day, ha, hah, ha
+82 | reg=civilian,family,worker|mood=funny | Remind me to buy a bigger can of bug spray, hah
+83 | reg=civilian,family,worker|mood=angry | Son of a bitch, son of a BITCH, come back here, I'm not done
+84 | reg=civilian,family,worker|mood=angry | Damn them, damn every one of them
+85 | reg=rescue | Check the wounded, triage, who's worst first
+86 | reg=rescue | Everyone sit, I'll check you, one by one
+87 | role=rescue_medical | Hands, show me your hands, any scratches? Any bites? Be honest
+88 | role=rescue_medical | Vitals first, nerves second, wounds third, let's go
+89 | role=rescue_clergy | Thank you, Lord, thank you, for sparing us today
+90 | role=rescue_clergy | Rest in peace, all of them, Lord have mercy
+91 | role=rescue_firefighter | Same adrenaline as a bad fire, same shakes after, you get used to it
+92 | hour=21,4 | In the dark, in the dark, that was the worst, I couldn't see anything
+93 | hour=21,4 | Nights like this, I can't tell friend from foe, thank God it's over
+94 | hour=7,17 | In broad daylight, no less, as if nothing mattered
+95 | tmp=seasoned,veteran | Check for cuts, everybody, check
+96 | tmp=seasoned,veteran | Check yourselves. Make sure you're not hurt
+
+##### AIMED_AT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Biri (çoğunlukla oyuncu) ona silah doğrulttu; doğrudan doğrultana tepki, 'sen'.
+97 | reg=civilian,family|tmp=fresh | Don't, don't, I'm gonna stand real still, and you're gonna think about it
+98 | reg=civilian,family|tmp=fresh | It's on my chest, I can see down the middle of it, I can see all the way down
+99 | reg=civilian,family|tmp=fresh | Just tell me where to put my hands, I'll put 'em there
+100 | reg=civilian,family|tmp=fresh | I lost my wife on the ninth, my girl on the tenth, Point that somewhere else, okay?
+101 | reg=civilian,family|tmp=fresh | My daughter's name is June, I just want somebody in this county to know it
+102 | reg=civilian,family|tmp=fresh | I'm not moving, see, I'm not moving- just don't
+103 | reg=civilian,family|tmp=fresh | Please... give me a minute to think
+104 | reg=civilian,family|tmp=fresh | Oh God, okay, hi, hello, I'm friendly, I'm friendly
+105 | reg=civilian,family|tmp=fresh | Please... I just want to get out of here alive
+106 | reg=civilian,family|tmp=fresh | My legs went, I'm going down, I'm not trying anything, my legs just went
+107 | reg=civilian,family|tmp=fresh | I'll turn around, you want me turned around? I'll turn around
+108 | reg=civilian,family|tmp=fresh | If you're gonna do it, don't do it while I'm looking at you, that's all I ask
+109 | reg=civilian,family|tmp=fresh | You want my hands up? Say the words, I'll do anything you say the words for
+110 | reg=civilian|tmp=fresh | Is that loaded? No, don't answer, I don't want to know
+111 | reg=civilian|tmp=fresh | Please, there's nobody left to tell, if you do it
+112 | reg=civilian|tmp=fresh | Whatever you think I did, I didn't, Point it down and I'll say I did
+113 | reg=civilian|tmp=fresh,seasoned | If you're gonna, do it quick, I've watched slow, slow is awful
+114 | reg=civilian,worker|tmp=fresh,seasoned | Easy with that! I don't want an accident
+115 | reg=civilian,worker,family | Don't shoot, the noise could bring more of those things
+116 | reg=civilian,worker,family | Alright, hold on, hold on, let me set this down first
+117 | role=civilian_loner | I was gonna say hello, guess I'll wait
+118 | reg=family | Please, lower it, I don't know what else to say
+119 | reg=family | My boy's seven and he's watching, Point it at the dirt, for him
+120 | reg=family | Take the house, take all of it, just don't do it in the house
+121 | role=family_woman | I'm somebody's mother, I know that don't matter, I'm saying it anyway
+122 | reg=family|tmp=seasoned | Go on, tell me what this is about
+123 | role=family_youth | Is that real? That's real, oh God, that's a real one
+124 | reg=worker|tmp=seasoned | Point that away, or use it, I don't do the middle part
+125 | reg=worker|tmp=seasoned | Careful with that thing, you trying to scare me?
+126 | reg=worker|tmp=seasoned | Twenty-two years around men with guns, not one of 'em ever pointed it
+127 | reg=worker | Put that down. Talk to me like a person
+128 | reg=worker|mood=funny | I've got a wife, two dogs and a bad back, which one you want?
+129 | reg=worker,civilian|tmp=seasoned | Muzzle's on my belly, that's a bad way to go, ask anybody
+130 | reg=worker,outlaw|tmp=seasoned | If you're just showing me the gun, I've seen it, it's a fine gun
+131 | reg=civilian,worker,outlaw|tmp=seasoned | You're shaking, that's the part that worries me, not you, the shaking
+132 | reg=civilian,worker,outlaw|tmp=seasoned | Alright, say what you want, I'm listening real good now
+133 | reg=civilian,worker,outlaw|tmp=seasoned | It goes off by accident, they come, then it don't matter who was right
+134 | reg=civilian,worker,law|tmp=seasoned,veteran | Your finger's on the trigger, put it on the guard, for both of us
+135 | reg=civilian,worker|tmp=seasoned | You're gonna hold that on me all day?
+136 | reg=civilian,worker,crime|tmp=seasoned | You've pointed it, you've made your point, so now what?
+137 | reg=civilian,worker|tmp=seasoned|mood=funny | Well, ain't this a fine way to meet a neighbor, heh
+138 | reg=outlaw,worker|tmp=seasoned | I got nothing worth that bullet, you'd be throwing good brass at a bad man
+139 | role=rescue_medical | Point it down, I have enough to worry about
+140 | role=rescue_medical | You shoot me and the next person with a cut dies too, that's just math
+141 | role=rescue_firefighter | I'm holding a burn kit, you want to shoot a man holding a burn kit?
+142 | reg=rescue | That barrel's touching my coat, back it up a foot and we'll talk
+143 | reg=rescue,law|tmp=seasoned,veteran | Your hand's steady, that tells me more about you than anything you'd say
+144 | reg=civilian,worker,outlaw,law|hour=21,4 | You're pointing that at a man in the dark, nobody wins that one
+145 | reg=civilian,family|tmp=fresh|st=hostile | Shoot then! SHOOT! I'm done being scared of people!
+146 | - | Hey! What's that for?
+147 | - | Finger off the trigger, people sneeze
+148 | - | Wait-- what are you doing?
+149 | - | Hold on... count to five, then decide
+150 | - | You haven't said a word, that worries me more than the barrel
+151 | - | That safety on? Humor me and check
+152 | - | Easy now, I'm somebody's neighbor, same as you
+153 | - | Don't point that at me, I'm listening
+154 | - | Look, we can talk without this
+155 | - | Easy, you don't have to do that
+156 | - | Please, put it down a little
+157 | - | What do you need? Just say it
+158 | - | I can't think with that pointed at me
+159 | - | You're making this worse for both of us
+160 | - | Careful, a mistake here can't be taken back
+161 | - | Quit waving that at me
+162 | - | Let's not find out how this ends
+163 | - | You can ask me without doing that
+164 | reg=civilian,family,worker,rescue | Half a can of peaches and a church key, that's all I carry, take 'em
+165 | reg=civilian,family,worker,rescue | What'd I do? I haven't even been to Rosewood since Sunday
+166 | reg=civilian,family,worker,rescue | I've got a flashlight and a church bulletin, that's the whole arsenal
+167 | reg=civilian,family,worker,rescue | Oh, come on... I coached Little League in Brandenburg
+168 | reg=civilian,family,worker,rescue | My knees are shaking so hard you can probably hear them
+169 | reg=civilian,family,worker,rescue | Tell me what you want, I know where everything in this town is kept
+170 | reg=civilian,family,worker,rescue | One second, I'm showing you both hands, slow
+171 | reg=civilian,family,worker,rescue | My boy's twelve, if he sees this, he never sleeps right again
+172 | reg=civilian,family,worker,rescue | My hands are empty, see? Point it somewhere else
+173 | reg=civilian,family,worker,rescue | That thing is loaded, be careful where you aim it
+174 | reg=civilian,family,worker,rescue|tmp=fresh | Please don't point that at me! I'm not a threat!
+175 | reg=civilian,family,worker,rescue|tmp=fresh | Oh God, oh God, it's pointed right at me!
+176 | reg=civilian,family,worker,rescue|tmp=fresh | Please- no- I don't even have a knife, see?!
+177 | reg=civilian,family,worker,rescue|tmp=fresh | Put it down! Please put it down!
+178 | reg=civilian,family,worker,rescue|tmp=seasoned | You want to lower that before somebody gets hurt?
+179 | reg=civilian,family,worker,rescue|tmp=seasoned | I'm not looking for a fight, lower it
+
+##### ALLY_DOWN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yanındaki arkadaşı vuruldu/yere düştü; şok ya da öfke.
+180 | - | We can't just leave somebody there!
+181 | - | Oh, no, no, no, not this
+182 | - | This can't be happening again
+183 | - | Be careful going near! Please!
+184 | - | One of us is down, don't lose your head
+185 | - | Oh, God, tell me we can help
+186 | reg=civilian,family,worker,rescue | No! No, get up! Please get up!
+187 | reg=civilian,family,worker,rescue | They killed him, they killed him!
+188 | reg=civilian,family,worker,rescue | Somebody help her, she's not moving!
+189 | reg=civilian,family,worker,rescue | Oh God, he's not breathing!
+190 | reg=civilian,family,worker,rescue | No! No, no, no, not him!
+191 | reg=civilian,family,worker,rescue | He's gone, oh God, he's gone
+192 | reg=civilian,family,worker,rescue | I'm so sorry, I'm so sorry
+193 | reg=civilian,family,worker,rescue | Somebody ought to remember what happened here
+194 | reg=civilian,family,worker,rescue|tmp=fresh | OH- oh no, oh NO, no no no no...
+195 | reg=civilian,family,worker,rescue|tmp=fresh | SHIT!! Shit shit shit, he's down, he's DOWN!!
+196 | reg=civilian,family,worker,rescue|tmp=fresh | Get up- GET UP, c'mon, please, don't you do this!!
+197 | reg=civilian,family,worker,rescue|tmp=fresh | Nooo- NOOOO!!
+198 | reg=civilian,family,worker,rescue|tmp=fresh | Oh Jesus... Jesus, oh no, oh NO...
+199 | reg=civilian,family,worker,rescue|tmp=fresh | NOT him!! Anybody but him, God, please!!
+200 | reg=civilian,family,worker,rescue|tmp=fresh | Please, please, PLEASE, no, no, no...
+201 | reg=civilian,family,worker,rescue|tmp=fresh | He's- he's not moving, why isn't he moving?!
+202 | reg=civilian,family,worker,rescue|tmp=fresh | Jesus, Jesus, Jesus Christ, no...
+203 | reg=civilian,family,worker,rescue|tmp=fresh | She was just talking to me a second ago!! SHE WAS-- no...
+204 | reg=civilian,family,worker,rescue|tmp=fresh | Somebody help him!! Somebody HELP HIM!!
+205 | reg=civilian,family,worker,rescue|tmp=fresh | I can't- I can't look- oh God, I can't...
+206 | reg=civilian,family,worker,rescue|tmp=fresh | Come on, come on, come ON, breathe, breathe!
+207 | reg=civilian,family,worker,rescue|tmp=fresh | SHIT... shit... SHIT... shiiiit...
+208 | reg=civilian,family,worker,rescue|tmp=fresh | Nooo... no, this isn't- NO!
+209 | reg=civilian,family,worker,rescue|tmp=fresh | Shiiit... shit... SHIT... shiiiit, get up, get UP, please get up!!
+210 | reg=civilian,family,worker,rescue|tmp=fresh | He's- no- he's not- NO!! NO!! NOOOO!!
+211 | reg=civilian,family,worker,rescue|tmp=fresh | Breathe, breathe, please, please, PLEASE breathe!!
+212 | reg=civilian,family,worker,rescue|tmp=fresh | I can't- I can't- oh God, I can't, I CAN'T, someone help!!
+213 | reg=civilian,family,worker,rescue|tmp=fresh | He's got a little girl, God, he HAS a little girl!!
+214 | reg=civilian,family,worker,rescue|tmp=fresh | OH GOD- OH GOD- OH GOD- he's- he's- Jesus!!
+215 | reg=civilian,family,worker,rescue|tmp=fresh | Hey- HEY!! Wake up!! Wake UP!!
+216 | reg=civilian,family,worker,rescue|tmp=fresh | NO!! No no no no- not him, not him, oh God, oh God...
+217 | reg=civilian,family,worker,rescue|tmp=fresh | He was standing right THERE!! Get up, man, c'mon get UP!
+218 | reg=civilian,family,worker,rescue|tmp=fresh | Shit, shit, SHIT, SHIIIT, no, no, no, please no...
+219 | reg=civilian,family,worker,rescue|tmp=fresh | Nononono, don't die, don't DIE, I need you, please, please...
+220 | reg=civilian,family,worker,rescue|tmp=seasoned | Damn it, damn it, DAMN IT!
+221 | reg=civilian,family,worker,rescue|tmp=seasoned | Fuck- no, no, not him...
+222 | reg=civilian,family,worker,rescue|tmp=seasoned | Aw, hell, no, no, goddamn it...
+223 | reg=civilian,family,worker,rescue|tmp=seasoned | Son of a bitch!! SON of a BITCH!!
+224 | reg=civilian,family,worker,rescue|tmp=seasoned | He's gone, he's gone, Jesus, he's gone...
+225 | reg=civilian,family,worker,rescue|tmp=seasoned | No... not now... not like this...
+226 | reg=civilian,family,worker,rescue|tmp=seasoned | God damn it, I told him to stay close, I TOLD him!
+227 | reg=civilian,family,worker,rescue|tmp=seasoned | Go, go, I've got him, I've got him, just GO!
+228 | reg=civilian,family,worker,rescue|tmp=seasoned | Fuck, fuck, fuck, fuuuuck...
+229 | reg=civilian,family,worker,rescue|tmp=seasoned | No- no- no, not like this, goddamn it, not like THIS!!
+230 | reg=civilian,family,worker,rescue|tmp=seasoned | Aw, hell, aw, hell, aw, hell... hell, hell, hell...
+231 | reg=civilian,family,worker,rescue|tmp=seasoned | Shit... shit... he's gone... he's really gone... shit...
+232 | reg=civilian,family,worker,rescue|tmp=seasoned | Damn you, damn you, you stubborn son of a bitch, I told you to stay down!
+233 | reg=civilian,family,worker,rescue|tmp=seasoned | You don't get to die on me, you hear?! Not now, GODDAMMIT!
+234 | reg=civilian,family,worker,rescue|tmp=seasoned | Damn it, damn it, DAMN it, he was right behind me!
+235 | reg=civilian,family,worker,rescue|tmp=seasoned | Fuck... not him too, aw hell, not him
+236 | reg=civilian,family,worker,rescue|tmp=seasoned | One of us is gone and we're just... walking on? I can't...
+237 | reg=civilian,family,worker,rescue|tmp=seasoned | Son of a bitch, he was a good man, he was a good man...
+238 | reg=civilian,family,worker,rescue|tmp=veteran | Somebody's down
+239 | reg=civilian,family,worker,rescue|tmp=veteran | Aw, hell, no
+240 | reg=civilian,family,worker,rescue|tmp=veteran | Not another one
+241 | reg=civilian,family,worker,rescue|tmp=veteran | NO! Not him, not him too!
+242 | reg=civilian,family,worker,rescue|tmp=veteran | Not again
+243 | reg=civilian,family,worker,rescue|tmp=veteran | Hold on, hold on, I've got you, I've got you
+244 | reg=family | Lord, no, not my boy, not my boy!!
+245 | reg=family | Oh sweet Jesus, no, no, no, no!
+246 | reg=family | Baby, baby, wake up, please wake up!
+247 | reg=family | God, why, WHY?!
+248 | reg=family | Oh Jesus, not my boy, not my boy, please not my boy!!
+249 | reg=family | No, no, no, baby, baby, baby, look at me, look at Mama!
+250 | reg=family | Oh Lord, oh sweet Jesus, not her, not her too!
+
+##### ALLY_FOUND #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Kayıp ya da ayrı düşmüş bir arkadaşını buldu.
+251 | reg=civilian,family,worker,rescue | Oh thank God, thank you, thank you
+252 | reg=civilian,family,worker,rescue | You came back! I didn't think anybody would
+253 | reg=civilian,family,worker,rescue | Thank Christ, someone else, stay with us
+254 | reg=civilian,family,worker,rescue | Please stay, just till they're gone
+255 | reg=civilian,family,worker,rescue|world=door | Over here! Help us hold the door!
+256 | reg=civilian,family,worker,rescue|tmp=fresh | OH- you're alive!! You're ALIVE!!
+257 | reg=civilian,family,worker,rescue|tmp=fresh | Oh thank God, thank God, I thought- I thought-
+258 | reg=civilian,family,worker,rescue|tmp=fresh | Is that you? IS THAT YOU?! Oh my God!
+259 | reg=civilian,family,worker,rescue|tmp=fresh | You're alive!! You're ALIVE!! Oh my God, oh my God!!
+260 | reg=civilian,family,worker,rescue|tmp=fresh | It's you!! It's really you!! I thought- I thought-
+261 | reg=civilian,family,worker,rescue|tmp=seasoned | There you are!! We've been looking everywhere!
+262 | reg=civilian,family,worker,rescue|tmp=seasoned | Thank Christ, we thought you were gone!
+263 | reg=civilian,family,worker,rescue|tmp=seasoned | I'll be damned, you're alive, you stubborn mule!
+
+##### ALLY_HIT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yanındaki arkadaşı yaralandı; ekibe seslenir.
+264 | - | Hey! You hurt? Talk to me!
+265 | - | Hold on! Don't give up on me!
+266 | - | I saw that! Are you all right?
+267 | - | Stay with us! We need you!
+268 | - | Can you hear me? Say something!
+269 | - | Easy! Don't make it worse!
+270 | - | Hang on, just hang on!
+271 | - | Are you hurt? Don't hide it!
+272 | - | Keep talking so I know you're with us!
+273 | - | Ah, shit! We need you alive!
+274 | reg=civilian,family,worker,rescue | Oh God, you're hurt!
+275 | reg=civilian,family,worker,rescue | Press on it! Press hard!
+276 | reg=civilian,family,worker,rescue | Stay with me, okay? Stay with me!
+277 | reg=civilian,family,worker,rescue | He's hit! Somebody help him!
+278 | reg=civilian,family,worker,rescue|tmp=fresh | Oh God, he's hit, he's HIT!
+279 | reg=civilian,family,worker,rescue|tmp=fresh | No, no, don't die, don't die, stay awake!
+280 | reg=civilian,family,worker,rescue|tmp=fresh | Stay with me, look at me!
+281 | reg=civilian,family,worker,rescue|tmp=fresh | Somebody help me keep them awake!
+282 | reg=civilian,family,worker,rescue|tmp=fresh | Hang on, I'm here, I'm HERE!! Don't you let go!!
+283 | reg=civilian,family,worker,rescue|tmp=fresh | Oh God, oh God, press here, press here, harder!!
+284 | reg=civilian,family,worker,rescue|tmp=seasoned | Shit, he's hit, he's hit, pressure, pressure!
+285 | reg=civilian,family,worker,rescue|tmp=seasoned | Hang on, buddy, hang on, I've got you!
+286 | reg=civilian,family,worker,rescue|tmp=seasoned | Shit, he's hit, he's hit, get pressure on it!
+287 | reg=civilian,family,worker,rescue|tmp=seasoned | Hang on, buddy, hang on, you're okay, you're okay
+288 | reg=civilian,family,worker,rescue|tmp=seasoned | Goddamn it, someone's hurt! Can anybody help?
+
+##### ANNOUNCE_ENTRY #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bir yere girerken içeridekilere varlığını duyuruyor.
+289 | reg=civilian,family,worker,rescue | Hello? Is anybody home? We're coming in, we're friendly!
+290 | reg=civilian,family,worker,rescue | Anybody in here? We're just looking for a place to rest, don't shoot!
+291 | reg=civilian,family,worker,rescue | Hello? Hello? Please don't be scared, we're not going to hurt anyone!
+292 | reg=civilian,family,worker,rescue | Hello? Sorry, sorry, it was open, anybody in here?
+293 | reg=civilian,family,worker,rescue | Anyone alive? We're coming in slow, don't panic!
+294 | reg=civilian,family,worker,rescue|tmp=fresh | H-hello?? We're coming in, please don't hurt us!
+295 | reg=civilian,family,worker,rescue|tmp=fresh | Is anybody here?? Please say yes, please say it's safe!
+296 | reg=family | Hello? Is anyone here? We're a family, please, please don't shoot!
+297 | - | Hello? Anybody in here?
+298 | - | Coming in! Anybody home, sing out!
+299 | - | Anyone in here? We ain't looking for trouble
+300 | tmp=fresh | H-hello? Please don't shoot, I'm coming in
+301 | reg=civilian,family|tmp=fresh | Hello? I'm not sick, I promise, anybody here?
+302 | reg=civilian,family | Knock knock, anybody? We just need a place to sit a minute
+303 | reg=worker | Hey, anybody in here? Just checking the place over
+304 | reg=rescue | Fire department! Anybody in here need help?
+
+##### AREA_CLEAR #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bölge temiz; ekibe rapor.
+305 | reg=civilian,family,worker,rescue | I think it's clear, I think we're okay
+306 | reg=civilian,family,worker,rescue | Nothing moving, we can come out
+307 | - | All clear, all clear
+308 | - | It's clear, nothing moving
+309 | - | The place is empty, finally
+310 | - | No more of them, not a one
+311 | - | We cleared it, we actually cleared it
+312 | - | Not a single one left
+313 | - | It's over, it's over, you can come out
+314 | world=road | Quiet street, clean street
+315 | reg=civilian,family,worker|tmp=fresh|mood=fear | Are you sure? Are you really sure?
+316 | reg=civilian,family,worker|tmp=fresh|mood=fear | Check again, please, check one more time
+317 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Clear for now, doesn't mean it stays that way
+318 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Seems clear, c'mon, stick near me
+319 | reg=civilian,family,worker|mood=funny | Open for business, ha, come on in
+
+##### AREA_OVERRUN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bölgeyi zombiler/düşman bastı; geri çekilme telaşı.
+320 | reg=civilian,family,worker,rescue | They're everywhere! We can't hold!
+321 | reg=civilian,family,worker,rescue | It's too many, it's over
+
+##### ASK_AMMO #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yanındakinden mermi istiyor.
+322 | reg=civilian,family,worker,rescue | Does anybody have any extra bullets?
+
+##### ASK_MEDICAL #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yanındakinden tıbbi yardım/sargı istiyor.
+323 | reg=civilian,family,worker,rescue | I need a bandage, please
+
+##### BANTER_INTRO #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Grup içinde laf atma, takılma başlatıyor; arkadaşına.
+324 | reg=civilian,family,worker,rescue | Oh, I've got one, okay, okay, listen
+325 | reg=civilian,family,worker,rescue | You want to hear something funny? I need something funny
+326 | reg=civilian,family,worker,rescue | My uncle used to tell this one
+327 | reg=civilian,family,worker,rescue | Oh, I've got a good one, listen to this
+328 | reg=civilian,family,worker,rescue | Wait till you hear what happened to my cousin Earl
+329 | reg=civilian,family,worker,rescue | Okay, story time, nobody laugh, it's serious
+330 | reg=civilian,family,worker,rescue | You'll love this one, well, I think you'll love it
+331 | - | Hey, you awake?
+332 | - | Hey, can I tell you something?
+333 | - | Psst, hey, come here a sec
+334 | - | So, I was thinking about something
+335 | - | Hey, you ever think about what we'd be doing right now, normally?
+336 | - | Okay, serious question
+337 | - | You still got that candy bar? Just kidding, just kidding
+338 | - | Quick question
+339 | - | Hey, you wanna hear something stupid?
+340 | - | I've been wondering about this for days
+341 | - | Guess what I just remembered
+342 | - | Hey, you ever get a song stuck in your head?
+343 | - | Can I ask you something kind of weird?
+344 | - | Tell me about your hometown
+345 | world=water | Remember that time at the, the lake?
+346 | reg=civilian,family,worker|tmp=fresh|mood=fear | Can we talk? I need to talk, I need to hear someone talk
+347 | reg=civilian,family,worker|tmp=fresh|mood=fear | Hey, are you scared? Be honest, are you scared?
+348 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Hey, got a minute? Nothing urgent
+349 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Pull up a seat, let's pass the time
+350 | reg=civilian,family,worker|mood=funny | Oh, you gotta hear this one
+351 | reg=civilian,family,worker|mood=funny | Settle down, settle down, I've got a story
+352 | reg=civilian,family,worker|mood=warm | Hey, I wanted to say something, I don't say it enough
+353 | hour=21,4 | Can't sleep, you can't sleep either, can you
+354 | hour=21,4 | Hey, you up? Since we're both up, talk to me
+355 | reg=family | Let me tell you what happened when I was just a girl

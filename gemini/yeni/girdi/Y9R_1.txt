@@ -1,0 +1,54 @@
+# PAKET Y9R · parça 1/1 · satır 1-28 (28 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# NPC SÖZLERİ: Etiketi NPC, ESİR, TELSİZ ya da PİLOT olan her satır bir karakterin ağzından konuşma, cümle noktalamasıyla. '·' ile başlayan satırlar bağlam (oyuncunun seçtiği satır ya da zaten çevrilmiş söz): çıktıya yazılmaz.
+# Girdi biçimi: N | etiket | İngilizce
+
+##### BİTİŞ · TELSİZ KARTI #####
+# NEREDE: bitiş görevinde ordu telsizden yayın yapar; ekranın köşesinde 'Ad: metin' biçiminde kısa bir telsiz kartı çıkar. Kartta yayının yalnız İLK cümlesi görünür. Sesli telsiz anonsu gibi, kısa ve resmî
+1 | TELSİZ KARTI (pencere kapandı, kimse çatıda değil) | Extraction window is closed, nobody on the roof
+2 | TELSİZ KARTI (pencere kapandı, kimse çatıda değil) | No contact on the roof, window closed
+3 | TELSİZ KARTI (gün sonu, telsiz kesiliyor) | Comms are going dark, this is the last call from the US military on this band today
+4 | TELSİZ KARTI (ordu aynı kanaldan yeniden arıyor) | This is the US military again
+5 | TELSİZ KARTI (ilk yayın, bitiş görevi başlar) | This is the United States military
+6 | TELSİZ KARTI (oyuncu telsize cevap verince) | Copy that, we hear you survivor
+7 | TELSİZ KARTI (helikopter kaçırılınca) | Extraction window is closed
+
+##### BİTİŞ · HELİKOPTER PİLOTU #####
+# NEREDE: kurtarma helikopterinde pilot oyuncuyla konuşur: söz ekranın altında altyazı (ya da köşede bildirim) olarak çıkar. Pilotun sorusu ve oyuncunun cevabı '·' bağlam; satır pilotun o cevaba karşılığı
+8 | PİLOT (helikopter indi, oyuncuyu çağırır) | Get in, quick
+9 | PİLOT (oyuncu bindi, kalkmadan sorar; cevap şeridinde de görünür) | Are we good to go
+10 | PİLOT (oyuncu 'bekle' deyince) | Take your time, we wait 20 more minutes
+11 | PİLOT (kalkış) | Hold on, taking off
+12 | PİLOT (havalanınca, aşağıdaki yangına bakarak) | Look at it burn
+· PİLOT (soru) | So tell me survivor, do you regret anything
+· OYUNCU | Everyone I couldn't save
+13 | PİLOT (cevaba karşılık) | Yeah, we all keep that list, just don't read it out loud
+· OYUNCU | Not one damn thing
+14 | PİLOT (cevaba karşılık) | Liar or saint, either way you're still breathing
+· OYUNCU | Trusting the wrong people
+15 | PİLOT (cevaba karşılık) | Trust is a bullet with your name on it, you learned that cheap
+· OYUNCU | Staying as long as I did
+16 | PİLOT (cevaba karşılık) | Long enough to learn what it costs, welcome to the club
+17 | PİLOT (oyuncu cevap vermezse) | Fair, silence is an answer too
+· PİLOT (soru) | Anything you're gonna miss down there
+· OYUNCU | The quiet mornings
+18 | PİLOT (cevaba karşılık) | Quiet was the first thing they took, keep the memory
+· OYUNCU | The people I buried
+19 | PİLOT (cevaba karşılık) | They got the easy part, you carry them now
+· OYUNCU | Nothing, let it burn
+20 | PİLOT (cevaba karşılık) | Cold, I like it, cold keeps you alive
+· OYUNCU | A hot meal and a real bed
+21 | PİLOT (cevaba karşılık) | Ha, aim low, I respect it
+22 | PİLOT (oyuncu cevap vermezse) | Yeah, me neither
+· PİLOT (soru) | Last one, was it worth it
+· OYUNCU | Every second
+23 | PİLOT (cevaba karşılık) | Good answer, worst part is I almost believe you
+· OYUNCU | Ask me when we land
+24 | PİLOT (cevaba karşılık) | Smart, nobody knows till they're on the ground
+· OYUNCU | Ask the ones who stayed
+25 | PİLOT (cevaba karşılık) | I would if they could answer
+· OYUNCU | No
+26 | PİLOT (cevaba karşılık) | Honest, at least you're not selling me anything
+27 | PİLOT (oyuncu cevap vermezse) | Sure, keep it
+28 | PİLOT (konuşma biter, varışa yakın) | Hold on, we're almost out

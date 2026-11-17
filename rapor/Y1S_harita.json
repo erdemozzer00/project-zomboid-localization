@@ -1,0 +1,67 @@
+{
+ "_paket": "Y1S",
+ "_grup": "sahne",
+ "_baslik": "",
+ "_parcalar": [
+  [
+   1,
+   6
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "RD_ALifeLine_2c0dbda832375548",
+   "Our cellar has a bar on the inside",
+   [
+    "ALifeDialogue_scenes_meet_3.lua",
+    "fw_l23_t3e_share_the_barn",
+    "r1=civilian,family,worker|r2=civilian,family,worker|r3=law,swat|day=0,12|mood=calm|world=door,stairs,building|out=part"
+   ]
+  ],
+  "2": [
+   "RD_ALifeLine_4bcbd30f2da20f74",
+   "I'm moving down there, bring my supper down",
+   [
+    "ALifeDialogue_scenes_any_17.lua",
+    "s2_c01_second_summer_034",
+    "reg=civilian,family|tmp=seasoned|day=335,400|hour=12,17|mood=grim|world=building"
+   ]
+  ],
+  "3": [
+   "RD_ALifeLine_4270eb8159d62f4c",
+   "Then we go down through the kitchen, now, the wind'll take care of those two, or it won't",
+   [
+    "ALifeDialogue_scenes_any_18.lua",
+    "s2_c04_green_sky_024",
+    "reg=civilian,family|tmp=seasoned|day=260,340|hour=13,21|mood=fear|world=door,building,wind"
+   ]
+  ],
+  "4": [
+   "RD_ALifeLine_71ecb7a508ebb015",
+   "Cellar door",
+   [
+    "ALifeDialogue_scenes_any_19.lua",
+    "s2_routine_lockup_044",
+    "reg=civilian,family|tmp=seasoned|day=15,400|hour=20,23|world=door,window,building"
+   ]
+  ],
+  "5": [
+   "RD_ALifeLine_5cd14b5002bded45",
+   "Lab's on the second floor, I hate that climb",
+   [
+    "ALifeDialogue_scenes_plan_1.lua",
+    "fw_ld5_school_a047",
+    "reg=civilian,family,worker,rescue|day=2,30|mood=calm|world=water"
+   ]
+  ],
+  "6": [
+   "RD_ALifeLine_4c7d8fb32c60d797",
+   "Then it stays an attic, nail it shut",
+   [
+    "ALifeDialogue_scenes_any_25.lua",
+    "s6_c03_attic_ladder_008",
+    "reg=elite|tmp=veteran|mood=grim|world=stairs,building"
+   ]
+  ]
+ }
+}

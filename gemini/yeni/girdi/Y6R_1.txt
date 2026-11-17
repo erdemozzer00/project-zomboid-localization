@@ -1,0 +1,441 @@
+# PAKET Y6R · parça 1/1 · satır 1-219 (219 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# KONUŞMA SATIRLARI VE ALT NOTLARI: Konuşma penceresinde oyuncunun seçtiği satırlar (OYUNCU SEÇENEĞİ: oyuncunun kendi ağzından, birinci tekil, kısa, sonda nokta yok) ve fare üstündeyken satırın altında çıkan kısa notlar (ALT NOT: seçimin sonucu, riski ya da ipucu; kısa açıklama, sonda nokta yok, oyuncuya 'sen' diye değil durumu anlatarak). NPC (soru) satırı karşıdakinin sorduğu soru, cümle noktalamasıyla. '·' ile başlayan satırlar bağlam (NPC'nin o sahnede söyledikleri): çıktıya yazılmaz.
+# Girdi biçimi: N | etiket | İngilizce
+
+##### DURUM · Encircled depot #####
+# NEREDE: oyuncu kuşatılmış, yolu kesmiş ya da işi başından aşkın bir grupla karşılaşır ve konuşma penceresinden bu satırları seçer; alt not seçimin sonucunu/riskini söyler
+· NPC (karşılaşınca) | hands are up, hands are up, don't shoot, we're Tolliver Freight
+· NPC (karşılaşınca) | easy, we're freight not fighters, they've got the whole depot ringed
+1 | OYUNCU SEÇENEĞİ | What happened here
+2 | ALT NOT (sonuç) | They tell you how the ring closed
+· NPC (cevap) | one truck backfired and the whole street turned toward us
+3 | OYUNCU SEÇENEĞİ | I'll thin the ring for you
+4 | ALT NOT (sonuç) | They cover you while you clear it
+5 | ALT NOT (risk) | You fight in the open
+· NPC (cevap) | bless you, we've got your back, shout when it's thin
+6 | OYUNCU SEÇENEĞİ | The ring is gone, what do I get
+7 | ALT NOT (sonuç) | They pay you in freight
+· NPC (cevap) | take it, you earned it, Dell would shake your hand
+8 | OYUNCU SEÇENEĞİ | Hand over the stash
+9 | ALT NOT (sonuç) | You take the freight by force
+10 | ALT NOT (risk) | They turn on you
+· NPC (cevap) | fine, fine, take it, you're no better than the ring
+11 | OYUNCU SEÇENEĞİ | Where's the next drop
+12 | ALT NOT (sonuç) | They share a freight run
+· NPC (cevap) | there's a drop past the water tower, if the road holds
+13 | OYUNCU SEÇENEĞİ | Not my problem
+14 | ALT NOT (sonuç) | They carry on without you
+· NPC (cevap) | didn't think you'd stay, we'll manage
+
+##### DURUM · Sheriff checkpoint #####
+# NEREDE: oyuncu kuşatılmış, yolu kesmiş ya da işi başından aşkın bir grupla karşılaşır ve konuşma penceresinden bu satırları seçer; alt not seçimin sonucunu/riskini söyler
+· NPC (karşılaşınca) | hold up there friend, routine stop, nobody's in trouble
+· NPC (karşılaşınca) | evening, we're only checking folks for bites before they pass
+15 | OYUNCU SEÇENEĞİ | Check me, I'm clean
+16 | ALT NOT (sonuç) | They wave you through
+· NPC (cevap) | all clear, move along, watch the road past the line
+17 | OYUNCU SEÇENEĞİ | What are you checking for
+18 | ALT NOT (sonuç) | They explain the stop
+· NPC (cevap) | bites, mostly, and anyone hauling more than they can explain
+19 | OYUNCU SEÇENEĞİ | What's past the line
+20 | ALT NOT (sonuç) | They warn you about the road ahead
+· NPC (cevap) | bad stretch two miles on, a crew sits on the shoulder, go around
+21 | OYUNCU SEÇENEĞİ | I'm not stopping
+22 | ALT NOT (sonuç) | They let it go this once
+23 | ALT NOT (risk) | They remember your face
+· NPC (cevap) | your call, but we'll know your face next time
+
+##### DURUM · Farmhouse under horde #####
+# NEREDE: oyuncu kuşatılmış, yolu kesmiş ya da işi başından aşkın bir grupla karşılaşır ve konuşma penceresinden bu satırları seçer; alt not seçimin sonucunu/riskini söyler
+· NPC (karşılaşınca) | that's far enough, we've got a horde on the porch and a rifle on you
+· NPC (karşılaşınca) | we're busy, if you're here to help say so quick
+24 | OYUNCU SEÇENEĞİ | What's out there
+25 | ALT NOT (sonuç) | They describe the horde
+· NPC (cevap) | forty of them, maybe more, they came off the road at dusk
+26 | OYUNCU SEÇENEĞİ | I'll help hold the line
+27 | ALT NOT (sonuç) | You fight beside them
+28 | ALT NOT (risk) | The horde is big
+· NPC (cevap) | then get on the left side, keep low and keep moving
+29 | OYUNCU SEÇENEĞİ | It's quiet now
+30 | ALT NOT (sonuç) | They share what the farm gives
+· NPC (cevap) | the pantry's yours for an hour, you've earned it
+31 | OYUNCU SEÇENEĞİ | Take this, you look hungry
+32 | ALT NOT (sonuç) | A kind word buys goodwill
+· NPC (cevap) | well that's decent of you, ma would've liked you
+33 | OYUNCU SEÇENEĞİ | Good luck to you
+34 | ALT NOT (sonuç) | They keep holding without you
+· NPC (cevap) | go careful, they're not done with us
+
+##### DURUM · Hostage swap #####
+# NEREDE: oyuncu kuşatılmış, yolu kesmiş ya da işi başından aşkın bir grupla karşılaşır ve konuşma penceresinden bu satırları seçer; alt not seçimin sonucunu/riskini söyler
+· NPC (karşılaşınca) | walk away or pay up, the farmhand goes either way, your choice
+· NPC (karşılaşınca) | you want him breathing, you bring us something worth the trouble
+35 | OYUNCU SEÇENEĞİ | Take this, let him go
+36 | ALT NOT (sonuç) | They free the hostage for a ransom
+37 | ALT NOT (risk) | You hand over four tins
+· NPC (cevap) | pleasure doing business, he's yours, take him and go
+38 | OYUNCU SEÇENEĞİ | Let him go or this gets loud
+39 | ALT NOT (sonuç) | Calls their bluff
+40 | ALT NOT (risk) | They open fire
+· NPC (cevap) | wrong answer friend, wrong answer
+41 | OYUNCU SEÇENEĞİ | Who is he to you
+42 | ALT NOT (sonuç) | They explain the price
+· NPC (cevap) | he walked onto our road, simple as that, nothing personal
+43 | OYUNCU SEÇENEĞİ | Not my business
+44 | ALT NOT (sonuç) | You walk away from it
+· NPC (cevap) | smart, keep walking
+
+##### DURUM · Pinned clinic #####
+# NEREDE: oyuncu kuşatılmış, yolu kesmiş ya da işi başından aşkın bir grupla karşılaşır ve konuşma penceresinden bu satırları seçer; alt not seçimin sonucunu/riskini söyler
+· NPC (karşılaşınca) | over here, we're out of everything and they're on the door
+· NPC (karşılaşınca) | please, the medic's pinned in here, anything for the wounded
+45 | OYUNCU SEÇENEĞİ | Here, bandages for the wounded
+46 | ALT NOT (sonuç) | They pay you back in medicine
+· NPC (cevap) | oh thank god, take this, it's all we can give
+47 | OYUNCU SEÇENEĞİ | I'll clear the door
+48 | ALT NOT (sonuç) | They hold the windows for you
+· NPC (cevap) | we'll keep the windows, just clear the door
+49 | OYUNCU SEÇENEĞİ | The door is clear
+50 | ALT NOT (sonuç) | They hand over what they can spare
+· NPC (cevap) | it's not much but it's real, take it
+51 | OYUNCU SEÇENEĞİ | How bad is it
+52 | ALT NOT (sonuç) | They tell you what they lack
+· NPC (cevap) | no bandages, no antibiotics, and four on the cots
+53 | OYUNCU SEÇENEĞİ | I can't stay
+54 | ALT NOT (sonuç) | They keep working without you
+· NPC (cevap) | we understand, go safe
+
+##### DURUM · Broken-down truck #####
+# NEREDE: oyuncu kuşatılmış, yolu kesmiş ya da işi başından aşkın bir grupla karşılaşır ve konuşma penceresinden bu satırları seçer; alt not seçimin sonucunu/riskini söyler
+· NPC (karşılaşınca) | hey, hey! got any petrol, she's bone dry
+· NPC (karşılaşınca) | you there! two minutes of your time, our truck's dead
+55 | OYUNCU SEÇENEĞİ | Here, a can of petrol
+56 | ALT NOT (sonuç) | They trade you road food for it
+· NPC (cevap) | you're a lifesaver, here, it's not much but it's honest
+57 | OYUNCU SEÇENEĞİ | I'll watch the road for you
+58 | ALT NOT (sonuç) | You stand guard while they work
+59 | ALT NOT (risk) | It takes an hour
+· NPC (cevap) | that's all we need, an hour and she'll turn over
+60 | OYUNCU SEÇENEĞİ | Is she running yet
+61 | ALT NOT (sonuç) | They thank you in cargo
+· NPC (cevap) | she's running! here, for your trouble
+62 | OYUNCU SEÇENEĞİ | Where were you headed
+63 | ALT NOT (sonuç) | They talk about the road
+· NPC (cevap) | north, with a load that's already late
+64 | OYUNCU SEÇENEĞİ | Sorry, I've got nothing
+65 | ALT NOT (sonuç) | They keep working
+· NPC (cevap) | no worries, we'll flag the next one
+
+##### DURUMA GÖRE SORU #####
+# NEREDE: oyuncu hava, gece, yara ya da karşısındakine göre NPC'ye soru sorar; alt not ne öğreneceğini söyler
+66 | OYUNCU SEÇENEĞİ | Where can I patch myself up around here?
+67 | ALT NOT (sonuç) | They point you to somewhere quiet to rest
+68 | OYUNCU SEÇENEĞİ | You look hurt, do you need a hand?
+69 | ALT NOT (sonuç) | They tell you how bad it really is
+70 | OYUNCU SEÇENEĞİ | Is it safe to be out after dark?
+71 | ALT NOT (sonuç) | They tell you what moves at night
+72 | OYUNCU SEÇENEĞİ | Does somebody keep watch while you rest?
+73 | ALT NOT (sonuç) | Learn how they guard their sleep
+74 | OYUNCU SEÇENEĞİ | Any dry place nearby to wait this out?
+75 | ALT NOT (sonuç) | They name a place to get out of the rain
+76 | OYUNCU SEÇENEĞİ | How are you keeping warm?
+77 | ALT NOT (sonuç) | Free advice on surviving the cold
+78 | OYUNCU SEÇENEĞİ | How do you cope with this heat?
+79 | ALT NOT (sonuç) | Free advice on surviving the heat
+80 | OYUNCU SEÇENEĞİ | What are you carrying?
+81 | ALT NOT (sonuç) | They size you up as they answer
+82 | OYUNCU SEÇENEĞİ | Who's in charge of your group?
+83 | ALT NOT (sonuç) | Learn how the group is run
+84 | OYUNCU SEÇENEĞİ | Can you see anything out there in this fog?
+85 | ALT NOT (sonuç) | They tell you what they have seen
+86 | OYUNCU SEÇENEĞİ | Seen any tracks in the snow?
+87 | ALT NOT (sonuç) | They tell you whose tracks they saw
+88 | OYUNCU SEÇENEĞİ | Think this storm will pass soon?
+89 | ALT NOT (sonuç) | They tell you what the sky is doing
+
+##### ESİR #####
+# NEREDE: oyuncu elindeki esirle konuşur: yedirir, sorgular, bırakır, teslim eder ya da öldürür; alt not sonucu söyler
+90 | OYUNCU SEÇENEĞİ | Eat something, drink up
+91 | ALT NOT (sonuç) | Uses a meal and some water from your pack, once a day
+92 | OYUNCU SEÇENEĞİ | How are you holding up
+93 | ALT NOT (sonuç) | A new thing to say after every fed day
+94 | OYUNCU SEÇENEĞİ | Where do your people sleep
+95 | ALT NOT (sonuç) | A fed, calmer prisoner may tell you and mark it on your map
+96 | ALT NOT (risk) | One try a day, once per prisoner
+97 | OYUNCU SEÇENEĞİ | Talk, or this gets worse
+98 | ALT NOT (sonuç) | Needs strength or a weapon in hand, can break them
+99 | ALT NOT (risk) | Costs trust and your name
+100 | OYUNCU SEÇENEĞİ | Walk away, you're free
+101 | ALT NOT (sonuç) | They leave and go back to being who they were
+102 | OYUNCU SEÇENEĞİ | I'm handing you over
+103 | ALT NOT (sonuç) | Needs soldiers, police or medics close by, your name goes up
+104 | ALT NOT (sonuç) | A calm, well fed prisoner may join your crew
+105 | ALT NOT (risk) | Needs trust
+106 | OYUNCU SEÇENEĞİ | This ends here
+107 | ALT NOT (sonuç) | You kill a prisoner
+108 | ALT NOT (risk) | Everyone who hears it remembers
+
+##### GÖREV · DELL'İN ÇANTALARI (Left Behind) #####
+# NEREDE: Dell Tolliver adamlarının bıraktığı çantaları geri ister; sonra Wade'in adamları oyuncunun yolunu keser. Satırlar oyuncunun Dell'e ve Wade'e söyledikleri; alt not satırın üstüne gelince çıkar
+109 | OYUNCU SEÇENEĞİ | You look like you lost something
+110 | ALT NOT (ipucu) | Ask what happened to him
+111 | OYUNCU SEÇENEĞİ | Why not go back for it yourself?
+112 | ALT NOT (ipucu) | Ask why he won't go himself
+113 | OYUNCU SEÇENEĞİ | What's in it for me?
+114 | ALT NOT (ipucu) | Ask what he can pay
+115 | OYUNCU SEÇENEĞİ | Alright. I'll get your bags back
+116 | ALT NOT (ipucu) | Starts the task Left Behind
+117 | ALT NOT (ipucu) | Turn him down. You can change your mind later
+118 | OYUNCU SEÇENEĞİ | About those bags of yours...
+119 | ALT NOT (ipucu) | Ask about the job again
+120 | OYUNCU SEÇENEĞİ | Where was that place again?
+121 | ALT NOT (ipucu) | He points you to it
+122 | OYUNCU SEÇENEĞİ | Here. Your bag
+123 | ALT NOT (ipucu) | Give Dell his bag and finish the task
+124 | OYUNCU SEÇENEĞİ | Six Mile took it. I'm sorry
+125 | ALT NOT (ipucu) | Tell him what happened
+126 | ALT NOT (ipucu) | Gives the task up
+127 | OYUNCU SEÇENEĞİ | How are you holding up, Dell?
+128 | ALT NOT (ipucu) | Just talk
+129 | OYUNCU SEÇENEĞİ | Alright. Take it. I'm walking
+130 | ALT NOT (ipucu) | Hand the bag over and walk away alive
+131 | OYUNCU SEÇENEĞİ | Dell's whole crew is on the roof, Wade
+132 | ALT NOT (ipucu) | Bluff. Better odds with a gun, armour and a good name
+133 | OYUNCU SEÇENEĞİ | There's enough in here for both of us
+134 | ALT NOT (ipucu) | Give them half of what is in the bag
+135 | OYUNCU SEÇENEĞİ | How'd you even know I'd be here?
+136 | ALT NOT (ipucu) | Ask him
+137 | OYUNCU SEÇENEĞİ | Not a chance, Wade
+138 | ALT NOT (ipucu) | Refuse. They will open fire
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · officer_intro #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | Easy, easy.. this is Captain Ruiz, my operator plays it by the book
+· TELSİZ (ordu) | We lost track of one survivor out there, I need a name, I need to know it's you
+139 | OYUNCU SEÇENEĞİ | Why do you need me
+140 | OYUNCU SEÇENEĞİ | I don't trust you
+##### BİTİŞ · TELSİZ ÇAĞRISI · open_ch #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | Open means open, every survivor and every faction on this band hears us
+· TELSİZ (ordu) | Raiders, soldiers, kids with a handset, all of them
+141 | OYUNCU SEÇENEĞİ | Understood, go on
+142 | OYUNCU SEÇENEĞİ | Then why use it
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · offer #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | Listen carefully {name}
+· TELSİZ (ordu) | Be on the roof of the {place} in Louisville at {time} in {days} days
+· TELSİZ (ordu) | We extract you from there, be on the roof and a helicopter will come
+· TELSİZ (ordu) | Careful, this is an open channel, prepare yourself
+143 | OYUNCU SEÇENEĞİ | I'll be there
+144 | OYUNCU SEÇENEĞİ | Command knows me, I'll be on that roof
+145 | OYUNCU SEÇENEĞİ | I know that tower, I'll be on that roof
+146 | OYUNCU SEÇENEĞİ | I'll think about it
+147 | OYUNCU SEÇENEĞİ | What's in it for me
+148 | OYUNCU SEÇENEĞİ | Fuck you military scum
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · listen #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | I know someone is on the line, the carrier is open
+· TELSİZ (ordu) | Say something, a name is enough
+149 | OYUNCU SEÇENEĞİ | Who is that officer
+150 | OYUNCU SEÇENEĞİ | Click off
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · desperate #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | Because when the comms go, the line closes with 'em
+· TELSİZ (ordu) | I'm not supposed to tell you that
+151 | OYUNCU SEÇENEĞİ | Then I'll be there
+152 | OYUNCU SEÇENEĞİ | That sounds like a trap
+153 | OYUNCU SEÇENEĞİ | Let me think again
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · think #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | {name}, listen to me
+· TELSİZ (ordu) | They're cutting our comms at the end of the day
+· TELSİZ (ordu) | You need to decide now.. please, we need you
+154 | OYUNCU SEÇENEĞİ | All right, I'll be there
+155 | OYUNCU SEÇENEĞİ | Why are you so desperate
+156 | OYUNCU SEÇENEĞİ | Give me until midnight
+157 | OYUNCU SEÇENEĞİ | No, take me off your list
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · defy2 #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | That's ENOUGH
+· TELSİZ (ordu) | This is Captain Ruiz, I'm the one who has to log this
+· TELSİZ (ordu) | Last chance to take it back
+158 | OYUNCU SEÇENEĞİ | Fine, I take it back
+159 | OYUNCU SEÇENEĞİ | Come near me and I'll shoot
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · defy1 #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | Say again, survivor
+· TELSİZ (ordu) | You are on an open channel, everyone is hearing you
+160 | OYUNCU SEÇENEĞİ | You heard me, military scum
+161 | OYUNCU SEÇENEĞİ | Forget it, I was angry
+162 | OYUNCU SEÇENEĞİ | Say it louder, let Knox hear
+163 | OYUNCU SEÇENEĞİ | Send your bird, I'll wait with a rifle
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · why_me #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | Because you're still alive, after all this time
+· TELSİZ (ordu) | We need people who know how to stay that way
+164 | OYUNCU SEÇENEĞİ | Say that again
+165 | OYUNCU SEÇENEĞİ | Still no
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · refuse1 #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | I'll ask once more.. you sure?
+· TELSİZ (ordu) | A seat with your name on it, roof of the {place}, {time}, {days} days
+166 | OYUNCU SEÇENEĞİ | I'm sure, forget me
+167 | OYUNCU SEÇENEĞİ | Why me
+168 | OYUNCU SEÇENEĞİ | Wait, I'll come
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · proof #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | Authentication code is Kestrel Nine
+· TELSİZ (ordu) | That is all you get on an open channel
+169 | OYUNCU SEÇENEĞİ | Not good enough
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · bargain #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | Ruiz here, I'll give it to you straight
+170 | OYUNCU SEÇENEĞİ | Can my people come
+171 | OYUNCU SEÇENEĞİ | What do you offer
+172 | OYUNCU SEÇENEĞİ | What about Knox and the quarantine
+173 | OYUNCU SEÇENEĞİ | Who are you really
+174 | OYUNCU SEÇENEĞİ | All right, I've heard enough
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · b_knox #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | Knox is lost outside the cordon, we hold what we hold
+· TELSİZ (ordu) | The quarantine line doesn't move for anyone, not you, not me
+175 | OYUNCU SEÇENEĞİ | I see
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · b_offer #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | A bed, food, a doctor and a wall that holds
+· TELSİZ (ordu) | A safe zone behind the quarantine line, nobody asks about your past
+176 | OYUNCU SEÇENEĞİ | Go on
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · b_who #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | Captain Ruiz, third relief, I lost my unit in the first month
+· TELSİZ (ordu) | I'm what's left of the people you wanted to hear from
+177 | OYUNCU SEÇENEĞİ | Sorry to hear it
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · trap #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | A trap needs bait
+· TELSİZ (ordu) | You are one hungry survivor, we would not burn a helicopter on that
+178 | OYUNCU SEÇENEĞİ | Fair, I'll be there
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · open #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | Attention survivor on this channel
+· TELSİZ (ordu) | We are looking for one person in the Knox zone
+· TELSİZ (ordu) | State your name, we need to know who we are talking to
+179 | OYUNCU SEÇENEĞİ | Who is asking
+180 | OYUNCU SEÇENEĞİ | Say nothing, listen
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · tower #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | No.. expect company on the way up, that's why I said careful
+· TELSİZ (ordu) | Whoever lives in that tower wasn't invited to our party
+181 | OYUNCU SEÇENEĞİ | I'll clear it myself
+182 | OYUNCU SEÇENEĞİ | Then give me cover from the air
+183 | OYUNCU SEÇENEĞİ | Too hot for me
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · open_why #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | Our long range sets are dead, this is the only band that still carries
+· TELSİZ (ordu) | I don't like it either, trust me
+184 | OYUNCU SEÇENEĞİ | Fine, back to it
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · found #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | {name}
+· TELSİZ (ordu) | Copy that, {name}, you are exactly the one we were looking for
+· TELSİZ (ordu) | Stay on the line
+185 | OYUNCU SEÇENEĞİ | Go ahead, I'm listening
+186 | OYUNCU SEÇENEĞİ | How did you find me
+187 | OYUNCU SEÇENEĞİ | Open channel? Who else hears this
+188 | OYUNCU SEÇENEĞİ | I'm not alone out here
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · comp #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | How many are with you?
+· TELSİZ (ordu) | Seats are tight, I can't promise more than one extra
+189 | OYUNCU SEÇENEĞİ | Then we all stay
+190 | OYUNCU SEÇENEĞİ | Two seats or no deal
+191 | OYUNCU SEÇENEĞİ | I'll come alone then
+192 | OYUNCU SEÇENEĞİ | Ask command, they will find room
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · who #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | Who we are is not your concern
+· TELSİZ (ordu) | Name first, then I answer anything you want
+193 | OYUNCU SEÇENEĞİ | Put your officer on
+194 | OYUNCU SEÇENEĞİ | Prove you are military
+195 | OYUNCU SEÇENEĞİ | Forget it
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · late #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | You get thirty minutes, no more
+· TELSİZ (ordu) | After that the bird lifts and we try again in three days, if there's fuel
+196 | OYUNCU SEÇENEĞİ | Fair enough
+197 | OYUNCU SEÇENEĞİ | Thirty minutes is nothing, give me longer
+198 | OYUNCU SEÇENEĞİ | Then I'm not coming
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · bring #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | Bring what you can carry and nothing that slows you
+· TELSİZ (ordu) | Weapons stay on you, eat and sleep before the day
+199 | OYUNCU SEÇENEĞİ | Got it
+200 | OYUNCU SEÇENEĞİ | Will the tower be clear
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · accept1 #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | Copy, {name}
+· TELSİZ (ordu) | Roof of the {place}, {time}, {days} days from now
+· TELSİZ (ordu) | We hold the bird {minutes} minutes, not one minute more
+201 | OYUNCU SEÇENEĞİ | I'll be ready
+202 | OYUNCU SEÇENEĞİ | What should I bring
+203 | OYUNCU SEÇENEĞİ | And if I'm late
+204 | OYUNCU SEÇENEĞİ | My people come too
+
+##### BİTİŞ · TELSİZ ÇAĞRISI · comp_early #####
+# NEREDE: bitiş görevinde ordu telsizden oyuncuya ulaşır; oyuncu karşılık seçer
+· TELSİZ (ordu) | How many are with you?
+· TELSİZ (ordu) | Seats are tight, let me say the offer first and then we talk numbers
+205 | OYUNCU SEÇENEĞİ | Say it
+
+##### BİTİŞ · HELİKOPTERDE #####
+# NEREDE: kurtarma helikopterinde pilot oyuncuya üç soru sorar; oyuncu dört cevaptan birini seçer
+206 | NPC (soru) | So tell me survivor, do you regret anything
+207 | OYUNCU SEÇENEĞİ | Everyone I couldn't save
+· NPC (cevap) | Yeah, we all keep that list, just don't read it out loud
+208 | OYUNCU SEÇENEĞİ | Not one damn thing
+· NPC (cevap) | Liar or saint, either way you're still breathing
+209 | OYUNCU SEÇENEĞİ | Trusting the wrong people
+· NPC (cevap) | Trust is a bullet with your name on it, you learned that cheap
+210 | OYUNCU SEÇENEĞİ | Staying as long as I did
+· NPC (cevap) | Long enough to learn what it costs, welcome to the club
+211 | NPC (soru) | Anything you're gonna miss down there
+212 | OYUNCU SEÇENEĞİ | The quiet mornings
+· NPC (cevap) | Quiet was the first thing they took, keep the memory
+213 | OYUNCU SEÇENEĞİ | The people I buried
+· NPC (cevap) | They got the easy part, you carry them now
+214 | OYUNCU SEÇENEĞİ | Nothing, let it burn
+· NPC (cevap) | Cold, I like it, cold keeps you alive
+215 | OYUNCU SEÇENEĞİ | A hot meal and a real bed
+· NPC (cevap) | Ha, aim low, I respect it
+216 | NPC (soru) | Last one, was it worth it
+217 | OYUNCU SEÇENEĞİ | Every second
+· NPC (cevap) | Good answer, worst part is I almost believe you
+218 | OYUNCU SEÇENEĞİ | Ask me when we land
+· NPC (cevap) | Smart, nobody knows till they're on the ground
+219 | OYUNCU SEÇENEĞİ | Ask the ones who stayed
+· NPC (cevap) | I would if they could answer

@@ -1,0 +1,45 @@
+{
+  "client_date": "2026-10-24",
+  "backup": "C:\\Users\\Erdem\\Zomboid\\ALifeTR_Font_Backups\\2026-10-24-213435",
+  "source_sha256": "d4d1a14619eb5db47641ff857c336da23fed92be6e015689adc701eb3de36977",
+  "deployed": [
+    {
+      "copy": "local_workshop",
+      "path": "C:\\Users\\Erdem\\Zomboid\\Workshop\\ProjectALife_TR\\Contents\\mods\\ProjectALifeTR\\common\\media\\lua\\client\\ALifeTurkce\\ALifeTR_Konusma.lua",
+      "sha256": "ecd107d1547793d667590182787d0d8f871e483cc54e656c7a3ddf83d2adc046"
+    },
+    {
+      "copy": "installed",
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\108600\\3820910853\\mods\\ProjectALifeTR\\common\\media\\lua\\client\\ALifeTurkce\\ALifeTR_Konusma.lua",
+      "sha256": "ecd107d1547793d667590182787d0d8f871e483cc54e656c7a3ddf83d2adc046"
+    }
+  ],
+  "native_game_render_verified": false,
+  "preservation": {
+    "project_changes": [
+      "araclar/lua/ALifeTR_Konusma.lua",
+      "araclar/test_konusma_font.py",
+      "notlar/ILERLEME.md",
+      "notlar/KARARLAR.md",
+      "rapor/konusma_font_kurulum.json",
+      "rapor/konusma_font_testi.json"
+    ],
+    "main_mod_unchanged_files": 1751,
+    "translator_package_and_sources_unchanged": true,
+    "delivery_and_approved_translations_unchanged": true,
+    "user_preferences_unchanged": true,
+    "local_copy_changes": {
+      "local_workshop": [
+        "ProjectALifeTR/common/media/lua/client/ALifeTurkce/ALifeTR_Konusma.lua"
+      ],
+      "installed": [
+        "ProjectALifeTR/common/media/lua/client/ALifeTurkce/ALifeTR_Konusma.lua"
+      ]
+    }
+  },
+  "installed_copy_checks": {
+    "tests_passed": 15,
+    "delivered_lines_checked": 4896,
+    "native_game_render_verified": false
+  }
+}

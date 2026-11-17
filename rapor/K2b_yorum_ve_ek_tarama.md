@@ -1,0 +1,228 @@
+# K2b — Kullanıcı yorumu ve ek tarama
+
+Kullanıcının açıkça verdiği 35 düzeltme ile tüm onaylı diyaloglarda yapılan kültür/ton taramasının sonuçları aşağıdadır. Tarama 191 eşleşme buldu; 9 satır 35 maddelik kullanıcı listesinde de yer aldığı için ek bölümde 182 yeni satır bulunur.
+
+Kullanıcı ve Codex katkıları `paketler/K2b.json` içinde `kim` alanıyla ayrılır. İngilizce kaynak, sahne bağlamı ve satır gerekçesi için `paketler/K2b.md` dosyasına bak.
+
+## Kullanıcının 35 düzeltmesi
+
+- RD_ALifeLine_1b10b5c9508ebe4b | Evimizde iyiydik... Şimdi buradayız. Ne gerekiyorsa onu yapacağız. | Evimiz güzeldi, ama şimdi buradayız. Burada ne gerekiyorsa onu yapıyoruz.
+- RD_ALifeLine_4ae99ba9151f399b | Ev diyebilmek için önce bir evin olacak. | Ev lafı, evi kalana yakışır.
+- RD_ALifeLine_62f6eac60d7a89cf | Ninemin yorganı eski gömleklerden dikilmişti. Her parçada kimin gömleği var, tek tek bilirdin. | Ninemin yorganı eski gömleklerden dikilmişti. Her parçanın kimin gömleği olduğunu tek tek sayabilirdin.
+- RD_ALifeLine_1f6678204f41d9e3 | Bijon anahtarı mı lazım, kriko mu? Kamyonetin kasasında dolu. Alırsın, ama önce bir sor. | Bijon anahtarı mı lazım, kriko mu? Kamyonetimin kasası dolu. Alırsın ama önce bir sor.
+- RD_ALifeLine_59452c2b02e7d2ae | Bize ateş ediyorlar! Kaçın! Bir şeyin arkasına geçin! | Bize ateş ediyor! Kaçın! Bir şeyin arkasına geçin!
+- RD_ALifeLine_3ccde36077a52445 | Hayır, hayır! Kolum o benim! BIRAK KOLUMU! | Hayır, hayır, dur! O benim kolum! BIRAK KOLUMU!
+- RD_ALifeLine_630b3509564e33ea | Buzdolabının üstü kızımın çizdiği resimlerle doluydu. Mıknatısla tutturmuştuk, yüz tane vardı... | Buzdolabının her yeri kızımın çizdiği resimlerle doluydu. Mıknatısla tutturmuştuk, yüz tane vardı...
+- RD_ALifeLine_1067e26b70abd4d0 | İtfaiyede acılı fasulye yaptığımız akşamlar... Ekip, o saçma şakalar... Lavabo da bulaşıktan geçilmezdi. | İtfaiyede chili akşamları... Ekip, o saçma şakalar... Lavabo da bulaşıktan geçilmezdi.
+- RD_ALifeLine_764afc537dd85541 | Anlıyorum. Her şey düzelecek diyemem. Benden bir fayda istiyorsan başka bir şey sor. | Anlıyorum. Düzelecek diye kandırmayacağım. Bana işe yarar bir şey sor.
+- RD_ALifeLine_79ed427e18cb5f03 | İyi... Bu şartlarda ne kadar iyi olunursa. Ne düşünüyorsun? | İyi sayılırım... Şu günlerde insan ne kadar iyi olabilirse. Sen söyle, aklında ne var?
+- RD_ALifeLine_4fee83ad56b05c0e | Walkman de gitti. Şimdi sessizliği dinliyorum. Çekilecek şey değil. | Walkman'im öldü, şimdi sessizliği dinliyorum. Dayanılacak gibi değil.
+- RD_ALifeLine_18486eef2d328c08 | Oralarda işi gücü kalan var mı? İsterse benimkiyle değişelim. | Oralarda hala işi olan var mı? Benimkiyle değişirim.
+- RD_ALifeLine_328d594628c8b2ef | Aracın yakıtı tükendi, benim de sabrım. Neyse, anlat bakalım. | Aracımızın yakıtı bitti, benim de sabrım. Neyse, anlat bakalım.
+- RD_ALifeLine_380ede7e20690b72 | Ayaklarım alışkanlıktan eve götürüyor... Sonra hatırlıyorum, ev diye bir yer kalmadı. | Ayaklarım alışkanlıktan beni eve götürüyor... Sonra hatırlıyorum, ev diye bir yer kalmadı.
+- RD_ALifeLine_5af25fbf401069cf | Hımm, hımm... Eski bir ilahi. Sözleri aklımda kalmamış pek. | Hımm, hımm... Eski bir ilahi. Sözlerinin hepsini hatırlamıyorum.
+- RD_ALifeLine_4d3e6313133f9fec | Evde su kaçağı vardı, bir türlü tamir etmedim. Şimdi kesin göle döndü. | Evde su kaçağı vardı, hiç tamir ettirmedim. Şimdiye göle dönmüş olmalı.
+- RD_ALifeLine_11a19e9d54a568ff | Dönsem ne olacak? Geriye bir şey kalmadı. Biliyorum, biliyorum... | Dönecek bir şey kalmadı, biliyorum. Biliyorum...
+- RD_ALifeLine_36fc49ee1157080e | Evden çıkarken bahçe fıskiyesini açık unutmuşum. Son yaptığım iş bu, düşünebiliyor musun? | Evden çıkarken bahçe fıskiyesini açık unutmuşum. Evde yaptığım son iş buydu, inanabiliyor musun?
+- RD_ALifeLine_2ccd4ce365b79d57 | Aklım eve gidiyor... Sonra içeride kimin olduğunu düşünüyorum. Daha fazla düşünmek istemiyorum. | Aklım eve gidiyor... Sonra içeride kim var diye düşünüyorum ve orada kesiyorum.
+- RD_ALifeLine_5725f29a4f3e03dc | Ev yandı galiba... Dumanını gördüm yoldan. Yanmış olmalı. | Yandı galiba... Ev yandı, dumanını yoldan gördüm.
+- RD_ALifeLine_1742709144fa799c | Şu bir dakikalığına, sıradan bir pazarmış gibi yapsak... | Bir dakikalığına sıradan bir pazar günüymüş gibi yapsak olur mu?
+- RD_ALifeLine_4aa16ada01560809 | Tamam, bana bir şey ispatlamana gerek yok. Ne lazım? | Tamam, bana gösteriş yapmana gerek yok. Ne lazım?
+- RD_ALifeLine_55f74dee5c107621 | Sevindim. Neyin faydası olduysa ona devam et. | Sevindim. Ne yapıyorsan aynen devam et.
+- RD_ALifeLine_531514d02e5efdee | Pine'daki bir evden bir aile çıkardık. Teşekkür bile edemediler... Ağlayıp durdular. | Pine Sokağı'ndaki bir evden bir aile çıkardık. Teşekkür bile edemediler... Ağlayıp durdular.
+- RD_ALifeLine_7b8a18a7557c77d6 | Bebek arabasını sakın bırakma! Elimizdeki tek puset o! | Bebek arabasını sakın bırakma! Elimizde tek o var!
+- RD_ALifeLine_4deee6df7536f42f | Yatağımda biri yatıyor mudur acaba? İnşallah yatıyordur... Yeter ki biri olsun. | Yatağımda biri yatıyor mudur acaba? Umarım yatıyordur... Yeter ki biri olsun.
+- RD_ALifeLine_16f3afbb77bfad7e | Ah, o kahve makinesi... Allah'ım, ne güzel kahve yapardı. | Ah, o kahve makinesi... Tanrım, ne güzel kahve yapardı.
+- RD_ALifeLine_150f92f01e3a2ec9 | Buralarda olduğunu duydum... Duydum ama doğru çıkmasın diye dua ettim. Allah'ım, sen olamazsın... | Buralarda olduğunu duydum... Duydum ama doğru çıkmasın diye dua ettim. Tanrım, lütfen olmasın.
+- RD_ALifeLine_390492ba1f9b4923 | Allah'ım... Sahiden biri var! Buradasın! Bir tek ben kaldım sanmıştım. | Tanrım... Sahiden biri var! Buradasın! Bir tek ben kaldım sanmıştım.
+- RD_ALifeLine_49323bd47c181c2e | Allah'ım, vurdu onu! VURDU! Tehlikeli demiştim sana! | Tanrım, vurdu onu! VURDU! Tehlikeli demiştim sana!
+- RD_ALifeLine_1d2960224e180cf8 | Geri gidiyorum, geri... Bir şeye çarptım! Allah'ım! | Geri geri gidiyorum... Bir şeye çarptım! Tanrım!
+- RD_ALifeLine_75e0401c15c1b81a | İnsan huzurluyken böyle mi hissederdi? Unutmuşum vallahi. | İnsan huzurluyken böyle mi hissederdi? Gerçekten unutmuşum.
+- RD_ALifeLine_44c238c1332ed0c9 | Nazar değdireceğiz, ağzına alma. Bırak da tadını çıkaralım. | Ağzına alma, uğursuzluk getirirsin. Bırak da tadını çıkaralım.
+- RD_ALifeLine_6e8efae27d671ef9 | Hoş geldin, hoş geldin! Rab'bin dostuna kapım açık. | Hoş geldin, hoş geldin! Rab'bin dostu benim de dostumdur.
+- RD_ALifeLine_12c0a3935281f2b1 | Hassiktir... Yaralı mısın, aç mısın? Yoksa hepsi birden mi? Ne lazımsa söyle, ama bulur muyum bilmem. | Kahretsin... Yaralı mısın, aç mısın? Yoksa hepsi birden mi? Ne lazımsa söyle, ama bulur muyum bilmem.
+
+## Taramada bulunan 182 ek düzeltme
+
+- RD_ALifeLine_5bf95e250dc7aa43 | Gel buraya, bir bakayım sana - Allah'ım ya, hiç uyudun mu sen? | Gel buraya, bir bakayım sana... Tanrım, hiç uyudun mu sen?
+- RD_ALifeLine_111597cc44c3a7ae | Aman Allah'ım, gerçek bir insan. Kendine dikkat et lütfen. | Aman Tanrım, gerçek bir insan. Kendine dikkat et.
+- RD_ALifeLine_320a3d5647bf2d9d | Kaynanamlara sığındık, Allah sabır versin bana... Sakın hava karardıktan sonra kapıyı çalma. Kayınpederim kim olduğuna bakmadan ateş eder! | Kaynanamlara sığındık, Rabbim sabır versin... Sakın hava karardıktan sonra kapıyı çalma. Kayınpederim kim olduğuna bakmadan ateş eder!
+- RD_ALifeLine_1605bb305abe0aa0 | Vallahi soğuk bir bira için kamyonetimi veririm. Hem de o kamyoneti çok severim | Soğuk bir bira için kamyonetimi bile veririm. Hem de ne severim o kamyoneti.
+- RD_ALifeLine_09cff1567979679e | Aman Allah'ım! Bu, hakkında anlatılan kişi! Sakın yüzüne bakmayın | Aman Tanrım! Anlatılan kişi bu! Sakın yüzüne bakma.
+- RD_ALifeLine_368afbd656d7d026 | Allah'ım, hayır, bugün olmaz, bugün olmaz, tek bir sakin gün istemiştim... | Tanrım, hayır! Bugün olmaz, bugün olmaz. Tek istediğim sakin bir gündü...
+- RD_ALifeLine_1e7608f7418859e9 | Yarabbi, bu o, hani şu- Allah'ım, bana bakma | Aman Tanrım, bu o, hani şu- Tanrım, bana bakma!
+- RD_ALifeLine_7c4199602c6ac6a8 | Allah'ım, Allah'ım, sensin, lütfen, ne istiyorsun? | Tanrım, Tanrım... Sensin! Lütfen, ne istiyorsun?
+- RD_ALifeLine_037e99335944f6a7 | Hiçbir şeyim yok, vallahi billahi, hiçbir şey | Hiçbir şeyim yok, yemin ederim, hiçbir şey.
+- RD_ALifeLine_6a725a4838754c2a | Allah yardımcım olsun | Tanrım, yardım et.
+- RD_ALifeLine_12e6824965373b17 | Sen o... o sensin, değil mi? Aman Allah'ım, ağlıyorum, kusura bakma | Sen o... O sensin, değil mi? Aman Tanrım, ağlıyorum, kusura bakma.
+- RD_ALifeLine_17dca77b38f5926d | Aman Allah'ım | Aman Tanrım!
+- RD_ALifeLine_7eaaaaa90b759470 | Aman Allah'ım, bir insan, ben- onlardan biri sandım, selam | Aman Tanrım, bir insan... Ben- onlardan biri sandım. Selam.
+- RD_ALifeLine_24dff3a57b44de89 | Gel şuraya, altına gir, ısırmam, vallahi billahi | Gel buraya, altına gir. Isırmam, söz.
+- RD_ALifeLine_35f1f5b42a9eff6d | Senin maşallahın var, sağlıklı görünüyorsun. Benim hâlim pek iç açıcı değil! | İyi görünüyorsun, ben senin kadar sağlıklı değilim!
+- RD_ALifeLine_609ec0465290a401 | Aman Allah'ım, bir insan | Aman Tanrım, bir insan!
+- RD_ALifeLine_4793585b64361466 | Aman Allah'ım | Aman Tanrım!
+- RD_ALifeLine_1477da3c38f6026e | Allah razı olsun canım, bu harika, gel otur | Sağ ol canım, bu harika. Gel otur.
+- RD_ALifeLine_2b91b20369fed4e3 | O zaman bir dakika insan gibi konuşalım... Allah'ım, ne güzel | Bari bir dakika insan gibi konuşalım... Tanrım, ne güzel.
+- RD_ALifeLine_61e554f62441a55c | Hayır mı? Hay Allah, tahmin etmeliydim | Hayır mı? Kahretsin, tahmin etmeliydim.
+- RD_ALifeLine_5ddfd0cb397e30c4 | Aman Allah'ım, şimdi ne oldu? şimdi ne? | Aman Tanrım, şimdi ne oldu? Şimdi ne?
+- RD_ALifeLine_6ff76e0168701ce1 | Hay Allah, tamam - aç mısın, yaralı mısın, yoksa öbür mesele mi? | Kahretsin, tamam... Aç mısın, yaralı mısın, yoksa öbür mesele mi?
+- RD_ALifeLine_09d999c05a8311df | Allah seni korusun, her kimsen | Rabbim seni korusun, her kimsen.
+- RD_ALifeLine_29c00726114a1c6d | Allah'ım, ne sıcak - bir şeyler içmeyi unutma | Tanrım, hava çok sıcak. Bir şeyler içmeyi unutma.
+- RD_ALifeLine_53a210ac583c8e8f | Hoşça kal, Allah'a emanet ol | Hoşça kal, Tanrı seni korusun.
+- RD_ALifeLine_6c7cee661e706b2d | Hassiktir, ödümü kopardın, onlardan biri sandım | Kahretsin, ödümü kopardın! Onlardan biri sandım.
+- RD_ALifeLine_4c406fe9585597d4 | Allah'a emanet ol, kendine dikkat et | Tanrı korusun, kendine dikkat et.
+- RD_ALifeLine_5968548d15521af3 | Allah'ım, burada olmaz, şimdi olmaz, tek bir sakin gün istemiştim | Tanrım, burada olmaz... Şimdi olmaz. Tek istediğim sakin bir gündü.
+- RD_ALifeLine_40b41a010418d69b | Bu herkesin bahsettiği kişi, Allah yardımcımız olsun | Bahsettikleri kişi bu... Tanrım, yardım et bize.
+- RD_ALifeLine_71d8408d2cdcb77b | Allah senden razı olsun, sen iyi bir insansın | Çok sağ ol, çok sağ ol. İyi bir insansın.
+- RD_ALifeLine_4e46314335f24245 | Allah seni korusun, kahraman | Tanrı seni korusun, kahraman.
+- RD_ALifeLine_7678b7123f628626 | Allah seni korusun, Efsane, senin için dua ediyoruz | Tanrı seni korusun, Efsane. Senin için dua ediyoruz.
+- RD_ALifeLine_4328183d26762f9f | Yarabbi, Main'de neler olduğunu gördün mü? | Aman Tanrım, Main Sokağı'nda neler olduğunu gördün mü?
+- RD_ALifeLine_74e6a5584426b12c | Sanırım kayboldum, Allah'ım, fena kayboldum | Sanırım kayboldum... Tanrım, fena halde kayboldum.
+- RD_ALifeLine_198a6cdd67f3c857 | Aman Allah'ım, orada biri var, biri- bir insan, tamam! | Aman Tanrım, orada biri var! Biri... Bir insan, tamam!
+- RD_ALifeLine_05b2d4a834e2f0a6 | Allah'ım, şu hâline bak, dışarıda yürüyorsun, yorgunluktan bitap düşmüş olmalısın | Tanrım, haline bak... Dışarıda yürüyorsun, yorgunluktan bitmiş olmalısın.
+- RD_ALifeLine_0a86e1bf198739ff | Rahmetli kocam seni kahveye çağırırdı, Allah rahmet eylesin | Rahmetli kocam seni kahveye çağırırdı... Huzur içinde yatsın.
+- RD_ALifeLine_49e1517c43d561e3 | Babam hükümetin işi diyor, annem Allah'ın işi diyor, hangisi haklı | Babam hükümetin işi diyor, annem Tanrı'nın işi. Sence hangisi haklı?
+- RD_ALifeLine_364efe1e683c29bf | Öğlen mi olmuş? Hay Allah, sabah ne ara geçti böyle? | Öğlen olmuş bile mi? Vay canına, sabah ne ara geçti?
+- RD_ALifeLine_778507d93df77643 | Allah'ım, şu sıcak, annem olsa termostat şeytanın elinde derdi | Tanrım, bu sıcak... Annem olsa termostatın şeytanın elinde olduğunu söylerdi.
+- RD_ALifeLine_65e54368263735e0 | Hava mı sıcak, ben mi? Aman Allah'ım, ikisi de | Hava mı sıcak, ben mi? Aman Tanrım, ikisi de.
+- RD_ALifeLine_6f8717c56d80b340 | Bir haftadır aldığım tek duş yağmur, o yüzden, sağ ol Allah'ım | Bir haftadır aldığım tek duş yağmur. Sağ ol Tanrım.
+- RD_ALifeLine_6ea8cf584252d3db | Yalnız yürüyen biri daha, Allah'ım, keşke içeri gelsen... | Yalnız başına yürüyen biri daha... Tanrım, keşke içeri gelsen...
+- RD_ALifeLine_7b70e3c43019fd3f | Allah seni orada görüyor, hoşuna gitse de gitmese de | Tanrı seni dışarıda görüyor, hoşuna gitse de gitmese de.
+- RD_ALifeLine_5c2b484958df3027 | Allah affetsin, dün az kalsın bir adama kürekle vuruyordum | Rabbim beni bağışlasın, dün az kalsın bir adama kürekle vuruyordum.
+- RD_ALifeLine_5f90dff236263ee2 | Allah seni korusun, her kimsen, neye ihtiyacın varsa | Rabbim seni korusun, her kimsen, neye ihtiyacın varsa.
+- RD_ALifeLine_40e571eb1f7956ae | Allah o yolda seni korusun | Rabbim o yolda seni korusun.
+- RD_ALifeLine_1f38728e5e026291 | Allah affetsin, herkese çok öfkeliyim | Rabbim affetsin, herkese çok öfkeliyim.
+- RD_ALifeLine_55a815b61fb51e8c | Bir pizza için adam öldürürüm, vallahi, benzinlik pizzası olsun | Bir pizza olsa da yesek... Benzinlik pizzası bile olur!
+- RD_ALifeLine_0946a26945bab89a | Yarabbi, Yarabbi, selam, merhaba, selam! | Aman Tanrım, aman Tanrım! Selam, merhaba, selam!
+- RD_ALifeLine_663defdd32956ae3 | Allah'ım sen merhamet et. Gel buraya, bir bakayım sana | Tanrım, merhamet et. Gel buraya, bir bakayım sana.
+- RD_ALifeLine_5df13a922b816e9b | Aman Allah'ım, merhaba | Vay canına, merhaba.
+- RD_ALifeLine_0a3e53be0c72670f | Bir saniye, bir saniye! Takmaya çalışıyorum... Allah'ım, girmiyor! Hah, tamam! | Bir saniye, bir saniye! Takmaya çalışıyorum... Hay aksi, girmiyor! Hah, tamam!
+- RD_ALifeLine_43a3179757c57b80 | Affet beni... Silahı dolduruyorum. Allah'ım, ellerime güç ver! | Affet beni... Silahı dolduruyorum, bekle. Rabbim, elim titremesin.
+- RD_ALifeLine_3672762e5bba814f | Boş, boş, aman Allah'ım, BOŞ! | Boş, boş... Tanrım, BOŞ!
+- RD_ALifeLine_2f6448a30278034b | Aman Allah'ım, orada, tam orada, vur, VUR şuna! | Aman Tanrım, orada, tam orada! Vur, VUR şuna!
+- RD_ALifeLine_2dd4525468924d74 | HASSİKTİR! ... SİKTİR.. SİKTİR .. SİKTİRRRRR!!! | Kahretsin! ... Kahretsin... Kahretsin... KAHRETSİN!!!
+- RD_ALifeLine_54c276187415b236 | Aman Allah'ım, şu KOKU, tam suratımda- | Aman Tanrım, şu KOKU... Tam suratımda-
+- RD_ALifeLine_345c51bc481ee6cc | Neredeyse- az kalsın- aman Allah'ım az kalsın kolumu yakalıyordu! | Yakaladı- Az kalsın... Aman Tanrım, kolumdan yakalıyordu!
+- RD_ALifeLine_411284ee713cbc8a | O kadar yakın ki gözlerini görüyorum, Allah'ım, GÖZLERİ- | O kadar yakın ki gözlerini görüyorum... Tanrım, GÖZLERİ-
+- RD_ALifeLine_4f5378db58c7f21c | Bana soluyor- hayır, solumuyor, SOLUMUYOR, Allah'ım | Üstüme soluyor... Hayır, solumuyor, SOLUMUYOR, Tanrım!
+- RD_ALifeLine_2ab144bd4fa6874d | Yarabbi, bir kol boyu ötede, biri yardım- YARDIM- | Aman Tanrım, bir kol boyu yakınımda! Biri yardım et... YARDIM!
+- RD_ALifeLine_20a75a95215de612 | Geri çekil! GERİ ÇEKİL, Allah'ın belası! | Geri çekil! GERİ ÇEKİL, lanet olsun!
+- RD_ALifeLine_581698c8281f8b8b | Aman Allah'ım, çok yakın, çok yakın, yavrum, arkama geç | Aman Tanrım, çok yakın... Çok yakın, yavrum, arkama geç.
+- RD_ALifeLine_116dec0a04e95a70 | Yarabbi, elini üstüme koydu | Tanrım, elini üstüme koydu!
+- RD_ALifeLine_1f6f30002939e1bf | Hassiktir, geri çekil, GERİ, aman Allah'ım | Kahretsin, geri çekil! GERİ! Aman Tanrım!
+- RD_ALifeLine_6eec099d3c281516 | Allah'ım, bizi koru, üstümüze geldi | Rabbim bizi koru, üstümüze geliyor!
+- RD_ALifeLine_638f39e14370bc5f | Aman Allah'ım, aman Allah'ım, aman Allah'ım, tam orada | Aman Tanrım, aman Tanrım, aman Tanrım, tam orada!
+- RD_ALifeLine_73e7354a2ac16809 | Aman Allah'ım, aman Allah'ım, kanıyorum, beni vurdun | Aman Tanrım, aman Tanrım, kanıyorum, beni vurdun!
+- RD_ALifeLine_6dae1b0727d4dcd7 | Aman Allah'ım, canımı yaktın - lütfen dur, lütfen! | Aman Tanrım, canımı yaktın... Lütfen dur, lütfen!
+- RD_ALifeLine_459c5ead00484181 | Allah belanı versin! Herkese böyle mi davranırsın? | Lanet olsun sana! Herkese böyle mi davranırsın?
+- RD_ALifeLine_5a2159c10aef066f | Allah'ım sabır ver - kes şunu! | Rabbim sabır ver... Kes şunu!
+- RD_ALifeLine_11ea8fbf1afb5da0 | Aman Allah'ım, doğruymuş, hepsi, hikâyeler doğruymuş! | Aman Tanrım, doğruymuş... Hepsi, hikayelerin hepsi doğruymuş!
+- RD_ALifeLine_29a9cdcc23df6678 | Aman Allah'ım, sen olamazsın, sen olamazsın, neden?! | Aman Tanrım, sen olamazsın... Sen olamazsın! Neden?!
+- RD_ALifeLine_000637bb200253ff | O kaza değildi, aman Allah'ım, o kaza değildi | Bu kaza değildi... Tanrım, bu kaza değildi.
+- RD_ALifeLine_6c76439e7ab9884d | Bundan zevk alıyorsun, aman Allah'ım, zevk alıyorsun | Bundan zevk alıyorsun... Tanrım, zevk alıyorsun!
+- RD_ALifeLine_5bc286fc1b6763e2 | Allah'ım sen merhamet et, ciddisin, gerçekten ciddisin | Tanrım, merhamet et... Ciddisin, gerçekten ciddisin.
+- RD_ALifeLine_60476efb4e80d369 | Aman Allah'ım, gerçekten ciddisin, dur- lütfen dur! | Aman Tanrım, gerçekten ciddisin... Dur- Lütfen dur!
+- RD_ALifeLine_08792a183c12026f | Allah'ım, yeter, yeter, dayanamıyorum, lütfen! | Tanrım, hayır... Yeter, yeter, dayanamıyorum, lütfen!
+- RD_ALifeLine_6128095d75450a51 | ÜSTÜMÜZE GELİYORLAR! Allah'ım, üstümüze geliyorlar! | ÜSTÜMÜZE GELİYORLAR! Tanrım, üstümüze geliyorlar!
+- RD_ALifeLine_7c75e13f4c31cc23 | Yine mi- Allah'ım, YİNE Mİ! | Yine mi- Tanrım, YİNE Mİ!
+- RD_ALifeLine_64503a410b22af66 | Hay Allah. Hay ALLAH! | Kahretsin! KAHRETSİN!
+- RD_ALifeLine_148f67a255fbb66f | Allah'ım, ölmek istemiyorum! | Tanrım, ölmek istemiyorum!
+- RD_ALifeLine_241d1819157c6eff | ALLAH'IM- Allah'ım... ALLAH'IM.. ALLAH'IM .. ALLAH'IIIIM!!! | TANRIM- Tanrım... TANRIM... TANRIM... TANRIM!!!
+- RD_ALifeLine_7683236a3f306fee | Yarabbi, Meryem Ana, Yarabbi- | İsa, Meryem Ana... İsa-
+- RD_ALifeLine_76378edd11847368 | Yarabbi, Yarabbi, Yarabbi, YARABBİ! | Tanrım, Tanrım, Tanrım, TANRIM!
+- RD_ALifeLine_18a749e95b4d2624 | Allah'ım, ne olur, kiliseye gideceğim, her pazar gideceğim! | Tanrım, ne olur, kiliseye gideceğim. Her pazar gideceğim!
+- RD_ALifeLine_7dfe9d51263249d0 | Allah'ım, Allah'ım, Allah'ım, Al- | Tanrım, Tanrım, Tanrım, Ta-
+- RD_ALifeLine_2abc5f6c0413da5a | Allah'ım, ne olur, içkiyi bırakacağım, yarın bırakacağım, ŞU AN bırakıyorum! | Tanrım, ne olur, içkiyi bırakacağım... Yarın bırakacağım... ŞU AN bırakıyorum!
+- RD_ALifeLine_4bb2d1d03dc1bc6f | Allah'ım, çok yakın, çok yakın, kokusunu alıyorum | Aman Tanrım, çok yakın, çok yakın... Kokusunu alıyorum!
+- RD_ALifeLine_322c3fef20e27b36 | Kusacağım, kusa- Allah'ım- | Kusacağım... Kusa- Tanrım-
+- RD_ALifeLine_00989e95362a452d | Allah'ım, çok YAKINLAR, daha vaktim var sanıyordum! | Tanrım, çok YAKINLAR! Daha vaktim var sanıyordum!
+- RD_ALifeLine_52143a234a8c81d6 | Allah var mı? Yukarıda biri var mı? | Tanrı var mı? Yukarıda biri var mı?
+- RD_ALifeLine_3cbbb62442400b3f | Yarabbi, Yarabbi, affet beni, her şey için affet... | Tanrım, Tanrım, beni affet... Her şey için affet...
+- RD_ALifeLine_4f8c58b93b392830 | Allah'ım, Katie nerede?! | Tanrım, Katie nerede?!
+- RD_ALifeLine_3df4c0a6688a3899 | Vardiyam altıda başlıyor, geç kalamam, kala- Allah'ım! | Vardiyam altıda başlıyor, geç kalamam, kala- Tanrım!
+- RD_ALifeLine_3dec750d3fb28e9d | Yarabbi, kabul et beni, Yarabbi- | Rabbim, kabul et beni, Rabbim-
+- RD_ALifeLine_1e50ade23f6fca53 | Merhamet, Allah'ım, merhamet, merhamet! | Merhamet et, Rabbim! Merhamet... Merhamet!
+- RD_ALifeLine_19a155685e7fa55d | İlaçlarım nerede? Allah'ım, kalbim! | İlaçlarım nerede? Tanrım, kalbim!
+- RD_ALifeLine_529772990b22435f | Hass- hassiktir, HASSİKTİR! | Kah- Kahretsin, KAHRETSİN!
+- RD_ALifeLine_3bd64abf10dd5f1b | Yarabbi, Yarabbi, Yarabbi | Tanrım, Tanrım, Tanrım!
+- RD_ALifeLine_6eec2b3c478af83d | Sakin ol, sakin ol, olamıyorum, Allah'ım, olamıyorum! | Sakin ol... Sakin ol... Olamıyorum, Tanrım, olamıyorum!
+- RD_ALifeLine_79aa176225c2fe98 | Allah affetsin, Allah affetsin, Allah af- | Rabbim affet, Rabbim affet, Rabbim af-
+- RD_ALifeLine_094170c059cd597c | Aman Allah'ım, gerçekmiş, hepsi gerçekmiş! | Aman Tanrım, gerçekmiş, hepsi gerçekmiş!
+- RD_ALifeLine_531fe3b42e3ddf89 | Yarabbi, herkes nereye gitti? Herkes NEREYE gitti? | Tanrım, herkes nereye gitti? Herkes NEREYE gitti?
+- RD_ALifeLine_3e4c004818fe315a | Bir çocuk olmasın.. Allah'ım ne olur çocuk olmasın!! | Bir çocuk olmasın... Tanrım, ne olur çocuk olmasın!
+- RD_ALifeLine_1f5553ec63cd4653 | Bir şey mi patladı?.. Allah'ım o neydi?! | Bir şey mi patladı?.. Tanrım, o neydi?!
+- RD_ALifeLine_4988f9ba65132bb2 | Allah'ım, burada da başladı | Tanrım, burada da başladı.
+- RD_ALifeLine_7f7de87c648aaf87 | Aman Allah'ıııım, aman ALLAH'IM! | Aman Tanrııım! Aman TANRIM!
+- RD_ALifeLine_174674cc1e90d801 | Allah'ım, dışarıda neler oluyor, neler OLUYOR! | Tanrım, dışarıda neler oluyor? Neler OLUYOR!
+- RD_ALifeLine_2d55204c2386b478 | Duydum, duydum.. Allah'ım, titremem geçmiyor | Duydum, duydum... Tanrım, titremem geçmiyor.
+- RD_ALifeLine_0b4ac1e437eb70bb | Allah'ım.. sevdiğim kimse dışarıda olmasın | Rabbim... Sevdiğim kimse dışarıda olmasın.
+- RD_ALifeLine_51e1cc3248b19f5b | Ne olur Allah'ım, uzakta olsun | Ne olur Tanrım, uzakta olsun.
+- RD_ALifeLine_0f0d1dde56acbfe1 | Allah'ım keşke annemin nerede olduğunu bilseydim | Tanrım, keşke annemin nerede olduğunu bilseydim.
+- RD_ALifeLine_5dea788a17cfb73a | Allah'ım, umarım kimsenin annesi bunu duymak zorunda kalmaz | Tanrım, umarım kimsenin annesi bunu duymak zorunda kalmaz.
+- RD_ALifeLine_6fae31d832b6a526 | Yarabbi, silah sesi miydi o? Silah sesiydi, değil mi | Tanrım, silah sesi miydi o? Silah sesiydi, değil mi?
+- RD_ALifeLine_7debbd2303b74745 | Bu yardım anlamına gelebilir mi?.. Allah'ım, bağırsam mı saklansam mı bilmiyorum! | Bu yardım demek olabilir mi?.. Tanrım, bağırsam mı saklansam mı bilmiyorum!
+- RD_ALifeLine_12fb18e617f7d06f | Aman Allah'ım, silah mıydı o? Gerçekten silah mıydı? | Aman Tanrım, silah mıydı o? Gerçekten silah mıydı?
+- RD_ALifeLine_7fb2cde61d23da8b | Bunun için bana ihtiyaç duyulsun istemiyorum.. Allah affetsin, istemiyorum | Kimsenin böyle bir durumda bana muhtaç kalmasını istemiyorum... Tanrım affet, istemiyorum.
+- RD_ALifeLine_6eb502d609cff0c8 | Allah'ım, sakla bizi, Allah'ım, sakla bizi, sakla... | Rabbim, sakla bizi... Rabbim, sakla bizi... Sakla...
+- RD_ALifeLine_174c666b65a3a4eb | Allah'ım, komşunun evine gidiyor, EĞİL! | Aman Tanrım, komşunun evine gidiyor, EĞİL!
+- RD_ALifeLine_5d20acb3006c8d93 | Yarabbi, kilit dayansın... | Rabbim, şu kilit dayansın...
+- RD_ALifeLine_0a71be207365830a | Allah'ım, bunu atlatmamıza yardım et. Her birimizin | Rabbim, hepimize yardım et de bunu atlatalım.
+- RD_ALifeLine_6c6314d94d2b87c4 | Yürüyün, Allah kahretsin, yaklaşıyorlar! | Yürüyün! Kahretsin, yaklaşıyorlar!
+- RD_ALifeLine_7100e38b035a16eb | Sürgüleyin, Allah affetsin, kilise kapısı sürgülüyorum, SÜRGÜLEYİN! | Sürgüyü çekin! Rabbim affetsin, kilise kapısını sürgülüyorum. SÜRGÜLEYİN!
+- RD_ALifeLine_77fb2cc626b71b39 | Amca? Amca, iyi misin? Amca, sen- neden- Allah'ım | Amca? Amca, iyi misin? Amca, sen- neden- Tanrım...
+- RD_ALifeLine_7e084df3052437d0 | Allah'ım, şu çıkardığı ses... kusacağım! | Tanrım, şu çıkardığı ses... Kusacağım!
+- RD_ALifeLine_0c3ecd311b5d43ff | İki tane, yok, üç, Allah'ım arkalarında daha da var... | İki tane, yok, üç... Tanrım, arkalarında daha da var...
+- RD_ALifeLine_3e074a313b5b5e69 | Dokunmasın sana, dokun- Yarabbi, şu HAREKETLERİ- | Dokunmasın sana... Dokun- Tanrım, şu HAREKETLERE-
+- RD_ALifeLine_60c086b374a5723a | Allah affetsin, tek istediğim bunun başkasının derdi olması | Rabbim affetsin, keşke başkasının derdi olsa.
+- RD_ALifeLine_334b555d1a6f833a | Yarabbi Yarabbi Yarabbi, yardım et, dua bilmiyorum, sen yardım et! | Tanrım, Tanrım, Tanrım, yardım et! Dua bilmiyorum, sen yardım et!
+- RD_ALifeLine_32c457375abb3d3c | Allah'ım, bu Whitaker'ların oğlan, futbol pantolonu üstünde | Tanrım, Whitakerların oğlu bu... Üzerinde futbol pantolonu var.
+- RD_ALifeLine_0212e1636ebbc23b | Allah'ım, arkasında bir tane daha var, neden bu kadar çoklar? | Tanrım, arkasında bir tane daha var... Neden bu kadar çoklar?
+- RD_ALifeLine_008ceb497704f554 | Allah'ım, şuracıkta kusacağım | Tanrım, az sonra şuracıkta kusacağım.
+- RD_ALifeLine_03a2a7ef13556842 | Bana öyle bakıyor ki sanki- sanki ben bir- Yarabbi! | Bana öyle bakıyor ki sanki... Sanki ben bir... Tanrım!
+- RD_ALifeLine_03acdb73040e97d7 | Bakmıyorum, bakıyorum, Allah'ım! | Bakmıyorum, bakıyorum... Tanrım!
+- RD_ALifeLine_3730bf6044f1a9e0 | Şu koku, Allah'ım, bu ne KOKUUU | Şu koku... Tanrım, bu ne KOKU böyle!
+- RD_ALifeLine_4ccd180e4b812be3 | Cebinden kilise bülteni sarkıyor, Allah'ım! | Cebinden kilise bülteni sarkıyor... Tanrım!
+- RD_ALifeLine_4bc206562c5f464b | Yarabbi, Kroger'ın oralarda bir sürü var | Aman Tanrım, Kroger'ın orada bir sürü var!
+- RD_ALifeLine_71f212602f69b845 | Aman Allah'ım.. bakamıyorum bakamıyorum ona! | Aman Tanrım... Ona bakamıyorum, bakamıyorum!
+- RD_ALifeLine_3c6186194751fce0 | Allah'ım Allah'ım Allah'ım, gerçek, gerçekten gerçek | Tanrım, Tanrım, Tanrım... Gerçek, gerçekten gerçek!
+- RD_ALifeLine_3ad0aeed71a08a8b | Aman Allah'ım, Tom! TOM! Dışarı çıkma, Tom!! | Aman Tanrım, Tom! TOM! Dışarı çıkma, Tom!!
+- RD_ALifeLine_05c0eeb936c89740 | O çocuğu üç sezon çalıştırdım, Allah'ım, üç sezon! | O çocuğu üç sezon çalıştırdım, Tanrım... Üç sezon!
+- RD_ALifeLine_116e0ba36bfed7c7 | Allah'ım sen merhamet et, Allah'ım o zavallıya merhamet et! | Rabbim merhamet et... O zavallıya da merhamet et!
+- RD_ALifeLine_091aed926fcafb2d | Göklerdeki Allah'ım, bu Frank Mullins, annesini baharda gömmüştük | Göklerdeki Tanrım, bu Frank Mullins... Annesini baharda toprağa vermiştik.
+- RD_ALifeLine_593d7bf54c42aa65 | Merhamet, merhamet, merhamet, Allah'ım! | Merhamet... Merhamet... Merhamet et, Tanrım!
+- RD_ALifeLine_49e69064451d4fe5 | Hassiktir, bu gerçek, gerçekten gerçeeek! | Yok artık, bu gerçek... Gerçekten gerçeeek!
+- RD_ALifeLine_53d53a6e77249d3f | Yarabbi, biri birini arasın, BİRİNİ arasın! | Aman Tanrım, biri birini arasın! BİRİNİ arasın!
+- RD_ALifeLine_364f1d0a133b364c | Hay Allah, Eddie, geri çekil, o süpürgeyle dürtmeyi bırak şunu | Hay aksi, Eddie, geri çekil! Şu süpürgeyle dürtmeyi bırak!
+- RD_ALifeLine_6c9bc4f850e6db43 | Bu herifin derdi ne Allah aşkına? | Bu herifin derdi ne böyle?
+- RD_ALifeLine_4b6a1ed1323c01ff | Bakamıyorum, birinin çocuğu o, Yarabbi | Bakamıyorum... Birinin çocuğu o, Tanrım.
+- RD_ALifeLine_1f223df27bf95ea0 | Göklerdeki Babamız- göklerdeki- Allah'ım yardım et, sözleri bulamıyorum | Göklerdeki Babamız... Göklerdeki... Tanrım, yardım et, sözleri bulamıyorum.
+- RD_ALifeLine_78b7e56d6e6e1b57 | Allah'ım, kurtar bizi bundan | Rabbim, bizi bundan kurtar.
+- RD_ALifeLine_2d7e010340113c8f | Allah'ım, onlardan biri, bana bakıyor | Tanrım, onlardan biri... Bana bakıyor.
+- RD_ALifeLine_1788a2ce7a455024 | Allah'ım, bu adam birinin kocasıydı, şuna bak | Tanrım, bu adam birinin kocasıydı... Şuna bak.
+- RD_ALifeLine_4c553ae67fe6e11f | Ay, Allah'ım, bu koku, yakında, yakınlarda bir tane var | Ay, Tanrım... Bu koku... Yakınlarda bir tane var.
+- RD_ALifeLine_6b04036b7c7c0f3c | Allah'ım- o hasta, HASTA, yüzüne bak!! | Tanrım... O hasta, HASTA! Yüzüne bak!
+- RD_ALifeLine_4d21b7266937d3c8 | Allah'ım bize bakıyor, bakıyor, KAÇ, hadi hadi hadi | Tanrım, bize bakıyor... Bakıyor! KAÇ! Hadi, hadi, hadi!
+- RD_ALifeLine_4db258b561c9b6f6 | Aman Yarabbi, gelmeye devam ediyorlar, durmadan GELİYORLAR | Aman Tanrım, gelmeye devam ediyorlar... Durmadan GELİYORLAR!
+- RD_ALifeLine_08c3aba5587f5773 | O- Yarabbi, o bir insandı, değil mi? Değil mi? | O... Tanrım, o bir insandı, değil mi? Değil mi?
+- RD_ALifeLine_1847a1f30983e5af | Aman Yarabbi, dosdoğru üstüme geliyor, neden ben?! | Aman Tanrım, dosdoğru üstüme geliyor! Neden ben?!
+- RD_ALifeLine_5d7525ab544e5beb | Allah'ım, dışarıda onlardan biri var, zavallı ruhunu Allah korusun | Tanrım, dışarıda onlardan biri var... Rabbim o zavallıya merhamet etsin.
+- RD_ALifeLine_5c1a2062220e025f | Allah'ım, hareket ediyor, oysa etmemesi lazım | Tanrım... Kıpırdıyor, halbuki kıpırdamaması gerek.
+- RD_ALifeLine_7effc3fd53838019 | Olamaz, hayır, Allah'ım, bir tanesini daha seyrettirme bana | Olamaz, hayır... Tanrım, bir tanesini daha izlemek zorunda bırakma beni.
+- RD_ALifeLine_464b72f70a50dbf9 | Siktir- aman Allah'ım, bir tane var, bir tane var! | Kahretsin... Tanrım, bir tane var, bir tane var!
+- RD_ALifeLine_274c608c0d9a6799 | Korkmuyorum, korkmuyorum, ben- ahhh Allah'ım çok korkuyorum | Korkmuyorum, korkmuyorum... Ben- Ahh, Tanrım, çok korkuyorum!
+- RD_ALifeLine_6f38d90d412ff9a3 | Allah'ım, tam orada bir tane var, bize bakıyor | Tanrım, tam orada biri var... Bize bakıyor.
+- RD_ALifeLine_01d35dca3f53f295 | Bir de işe gidip gelmekten şikâyet ederdim, Allah'ım, ne aptalmışım | Bir de işe gidip gelmekten şikayet ederdim... Tanrım, ne aptalmışım.
+- RD_ALifeLine_133248ad356995d2 | Allah'ım.. Allah'ım çok acıyor.. | Tanrım... Tanrım, çok acıyor...
+- RD_ALifeLine_5b039af1428f5b0c | Allah'ım.. yanıyor.. ahh.. yanıyor.. | Tanrım... Yanıyor... Ah... Yanıyor...
+- RD_ALifeLine_71471642317dbc14 | Allah'ım... hayır, bakamıyorum... | Tanrım... Hayır, bakamıyorum...
+- RD_ALifeLine_455c0bf220fc4fd9 | Allah'ım.. bana güç ver.. ahh.. azıcık.. | Rabbim... Bana güç ver... Ah... Birazcık...
+- RD_ALifeLine_37f555cf6e726e80 | DANNY! Allah'ım, Danny, kalk! KALK! | DANNY! Tanrım, Danny, kalk! KALK!
+- RD_ALifeLine_05ddb73a732f7560 | Ray'i vurdular! Allah'ım, Ray! | Ray'i vurdular! Tanrım, Ray!
+- RD_ALifeLine_0a78f7e51cb087d3 | Allah aşkına, dur! Onun kimseye zararı yok! | Ne olur dur! Ona zararı yok!
+- RD_ALifeLine_484b533c0b5c1d1e | Lütfen, Allah aşkına, lütfen, ne istersen yaparım, yeter ki indir onu | Lütfen, Tanrım, ne olur... Ne istersen yaparım, yeter ki indir onu.
+- RD_ALifeLine_27882aec1540421c | Sakin vardiya, nazar değdirme | Vardiya sakin geçiyor, bozma.
+- RD_ALifeLine_31a20a0c70c1a90a | Allah'ım, ne olur bu gece bir şey olmasın. Sessiz sakin geçsin. | Ne olur Tanrım, bu gece de sessiz geçsin. Bir şey olmasın.
+- RD_ALifeLine_6e4a19511aa138d8 | Dı-dı-dı-dı, şarkı kafamdan çıkmıyor, dilime takıldı, Allah Allah | Dı-dı-dı-dı, şarkı aklımdan çıkmıyor, dilime takıldı... Heh.
+- RD_ALifeLine_79a0c8452f034505 | Allah'ım, bu küçük yuvayı da içindeki iyi insanları da koru. | Rabbim bu küçük yuvayı ve içindeki iyi insanları kutsasın.
+- RD_ALifeLine_161871752c51c785 | Şükürler olsun Rabbim. Bir gün daha doğan güneşi gördük. İnşallah batışını da görürüz. | Şükürler olsun Rabbim. Bir gün daha güneşin doğuşunu gördük. Umarım batışını da görürüz.
+- RD_ALifeLine_5a7e46f40fd9e145 | Güneş doğuyor, kuşlar yine ötüyor... Allah'ım, şu güzelliğe bak | Güneş doğuyor, kuşlar yine ötüyor... Tanrım, şu güzelliğe bak.

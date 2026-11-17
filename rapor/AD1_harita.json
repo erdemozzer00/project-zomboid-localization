@@ -1,0 +1,3123 @@
+{
+ "_paket": "AD1",
+ "_grup": "arayuz_b16",
+ "_dosya": "IG_UI_lua",
+ "_plan": "B16",
+ "_noktalama": false,
+ "_bosluk_koru": true,
+ "_baslik": "1.5.1 yönetici ve geliştirici arayüzü (anahtarsız çizilen metinler; çeviri için ek kodu gerekir)",
+ "_parcalar": [
+  [
+   1,
+   138
+  ],
+  [
+   139,
+   270
+  ],
+  [
+   271,
+   396
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "IGUI_ALifeUI_117bb9f63ec66d34",
+   "Open the companion sheet: stats, tasks, journal and gear",
+   [
+    "client/ProjectALife/Companions/ALifeCompanionSheetAdmin.lua:20"
+   ]
+  ],
+  "2": [
+   "IGUI_ALifeUI_5592de8a372e1c08",
+   "The companion sheet lists the survivors travelling with you: health, needs, skills, orders, journal and gear.",
+   [
+    "client/ProjectALife/Companions/ALifeCompanionSheetAdmin.lua:21"
+   ]
+  ],
+  "3": [
+   "IGUI_ALifeUI_480f06714c01df4b",
+   "Saved: default car, ",
+   [
+    "client/ProjectALife/Interface/Creator/ALifeCreatorFactionSupport.lua:118"
+   ]
+  ],
+  "4": [
+   "IGUI_ALifeUI_34524c9c2a7f0ace",
+   "CATALOG ERROR: ",
+   [
+    "client/ProjectALife/Interface/Creator/ALifeCreatorCore.lua:1388"
+   ]
+  ],
+  "5": [
+   "IGUI_ALifeUI_5a6984c437829fe5",
+   " ATTACHED TO THIS WEAPON",
+   [
+    "client/ProjectALife/Interface/Creator/ALifeCreatorCore.lua:2629"
+   ]
+  ],
+  "6": [
+   "IGUI_ALifeUI_53a70c015449e861",
+   "Get in & drive",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:50"
+   ]
+  ],
+  "7": [
+   "IGUI_ALifeUI_1dcbc9a141508e9c",
+   "Stop this car, then let the attached crew get out and walk clear.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:54"
+   ]
+  ],
+  "8": [
+   "IGUI_ALifeUI_770427231f8bfbb0",
+   "Detach crew",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:58"
+   ]
+  ],
+  "9": [
+   "IGUI_ALifeUI_3db2d2c305c64b41",
+   "Remove this car's NPC links after the crew has exited.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:59"
+   ]
+  ],
+  "10": [
+   "IGUI_ALifeUI_6a9985094c5f7f29",
+   "Cancel the requested mode change. Stopping or exiting already begun will finish; driving does not restart automatically.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:73"
+   ]
+  ],
+  "11": [
+   "IGUI_ALifeUI_60bc95de52d3b565",
+   "Enter driver's seat",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:74"
+   ]
+  ],
+  "12": [
+   "IGUI_ALifeUI_7203d0f17ed074f1",
+   "Cancel boarding",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:75"
+   ]
+  ],
+  "13": [
+   "IGUI_ALifeUI_309dd7b5635ba5c9",
+   "Board linked NPC passengers individually. Keep the car stopped; the driver seat stays free for a player.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:90"
+   ]
+  ],
+  "14": [
+   "IGUI_ALifeUI_2d55158d3905a4d7",
+   "Player drives",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:91"
+   ]
+  ],
+  "15": [
+   "IGUI_ALifeUI_2b0ac5645b4191ba",
+   "Drive normally using the game controls. Saved routes are not followed in Player drives mode.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:92"
+   ]
+  ],
+  "16": [
+   "IGUI_ALifeUI_0c1faff60c763db4",
+   "Queue passenger exits at the next stop. This does not brake a player-driven car.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:94"
+   ]
+  ],
+  "17": [
+   "IGUI_ALifeUI_6cb530ad29fe3015",
+   "Cancel NPCs still approaching. Seated passengers stay inside; the car stays under player control.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:96"
+   ]
+  ],
+  "18": [
+   "IGUI_ALifeUI_3adcf351122eaaaf",
+   "Detach all NPCs. Seated passengers wait for a safe stop and walk clear before their links are removed.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:98"
+   ]
+  ],
+  "19": [
+   "IGUI_ALifeUI_7f37bf4e6d502297",
+   "Remove dead crew",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:128"
+   ]
+  ],
+  "20": [
+   "IGUI_ALifeUI_5f2837683ccd7662",
+   "Release confirmed dead crew only. Stand within 40 tiles of the stopped car. Route and living crew are kept.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:130"
+   ]
+  ],
+  "21": [
+   "IGUI_ALifeUI_04b0bf8f1589fef0",
+   "Cancel detach",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:197"
+   ]
+  ],
+  "22": [
+   "IGUI_ALifeUI_3417df9b508cb5cf",
+   "Edit NPC attachments | Car ",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:332"
+   ]
+  ],
+  "23": [
+   "IGUI_ALifeUI_42ab69b01a3a0f9d",
+   "Opens the read-only settings browser with this search.",
+   [
+    "client/ProjectALife/Admin/ALifeAdminConsole.lua:604"
+   ]
+  ],
+  "24": [
+   "IGUI_ALifeUI_55fe556352438492",
+   "Opens the spawn tab with this search in the faction browser.",
+   [
+    "client/ProjectALife/Admin/ALifeAdminConsole.lua:621"
+   ]
+  ],
+  "25": [
+   "IGUI_ALifeUI_1f2cba9b700f700c",
+   "NEW CAR",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabCars.lua:44"
+   ]
+  ],
+  "26": [
+   "IGUI_ALifeUI_24b9e50a14b44382",
+   "Advanced",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabCars.lua:71"
+   ]
+  ],
+  "27": [
+   "IGUI_ALifeUI_5227b2c74e7dac25",
+   "Scan first. Nothing is deleted until you confirm.",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabCleanup.lua:18"
+   ]
+  ],
+  "28": [
+   "IGUI_ALifeUI_0e0c21c8222279d7",
+   "STATE",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabDiagnostics.lua:22"
+   ]
+  ],
+  "29": [
+   "IGUI_ALifeUI_1311223b09733ded",
+   "Module table: ",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabDiagnostics.lua:93"
+   ]
+  ],
+  "30": [
+   "IGUI_ALifeUI_6020a2747061a643",
+   "QUICK SPAWN",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabOverview.lua:30"
+   ]
+  ],
+  "31": [
+   "IGUI_ALifeUI_6437efc25348511f",
+   "QUICK ACTIONS",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabOverview.lua:45"
+   ]
+  ],
+  "32": [
+   "IGUI_ALifeUI_377b2a317ae73d49",
+   "RECENT SPAWNS",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabOverview.lua:46"
+   ]
+  ],
+  "33": [
+   "IGUI_ALifeUI_1e0722b2643fc783",
+   "RAID wave ",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabOverview.lua:150"
+   ]
+  ],
+  "34": [
+   "IGUI_ALifeUI_7d6f9d387956a832",
+   "No raid",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabOverview.lua:151"
+   ]
+  ],
+  "35": [
+   "IGUI_ALifeUI_0f26d69778eef6d1",
+   "NPCs, world, reputation",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabOverview.lua:236"
+   ]
+  ],
+  "36": [
+   "IGUI_ALifeUI_74e64fb7602d2208",
+   "NEAREST NPCS",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabPopulation.lua:22"
+   ]
+  ],
+  "37": [
+   "IGUI_ALifeUI_2935803b39cf9682",
+   "CENSUS",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabPopulation.lua:23"
+   ]
+  ],
+  "38": [
+   "IGUI_ALifeUI_18d84e0a5d143c44",
+   "Make hostile",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabReputation.lua:33"
+   ]
+  ],
+  "39": [
+   "IGUI_ALifeUI_20b07776540108ab",
+   "Make this faction hostile to you. Reversible",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabReputation.lua:34"
+   ]
+  ],
+  "40": [
+   "IGUI_ALifeUI_1ea74f873e397796",
+   "Back to baseline",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabReputation.lua:35"
+   ]
+  ],
+  "41": [
+   "IGUI_ALifeUI_07349ee808680f2d",
+   "Remove the override",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabReputation.lua:36"
+   ]
+  ],
+  "42": [
+   "IGUI_ALifeUI_2476ed3530b09540",
+   "ADJUST",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabReputation.lua:39"
+   ]
+  ],
+  "43": [
+   "IGUI_ALifeUI_569b25f520b48c87",
+   "Every A-Life option with its value, default and preset origin.",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabSettings.lua:254"
+   ]
+  ],
+  "44": [
+   "IGUI_ALifeUI_5f4d023d7a1395af",
+   "Sandbox options browser",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabSettings.lua:254"
+   ]
+  ],
+  "45": [
+   "IGUI_ALifeUI_3427e0b269e7012e",
+   "WORLD STATE",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabWorld.lua:30"
+   ]
+  ],
+  "46": [
+   "IGUI_ALifeUI_62826e2f48499093",
+   "BASE VISIT",
+   [
+    "client/ProjectALife/Admin/ALifeAdminTabWorld.lua:31"
+   ]
+  ],
+  "47": [
+   "IGUI_ALifeUI_63e08132639d3b65",
+   "Pin to the toolbar (up to ",
+   [
+    "client/ProjectALife/Admin/ALifeAdminUI.lua:463"
+   ]
+  ],
+  "48": [
+   "IGUI_ALifeUI_6f683c084eaf2932",
+   "A-Life Admin",
+   [
+    "client/ProjectALife/Admin/ALifeAdminWindow.lua:58"
+   ]
+  ],
+  "49": [
+   "IGUI_ALifeUI_02cb31ca574eb8f4",
+   "Find any control. Click a result to run it.",
+   [
+    "client/ProjectALife/Admin/ALifeAdminWindow.lua:70"
+   ]
+  ],
+  "50": [
+   "IGUI_ALifeUI_565566af03480247",
+   "This tab failed to build: ",
+   [
+    "client/ProjectALife/Admin/ALifeAdminWindow.lua:355"
+   ]
+  ],
+  "51": [
+   "IGUI_ALifeUI_1e2bedb11a8d40b3",
+   "People: NPCs, squads, visitors, raiders",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:35"
+   ]
+  ],
+  "52": [
+   "IGUI_ALifeUI_6649091001cb2a24",
+   "Bases: outposts, camps, scenes, props",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:36"
+   ]
+  ],
+  "53": [
+   "IGUI_ALifeUI_596203b50699bfdb",
+   "Vehicles A-Life placed",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:37"
+   ]
+  ],
+  "54": [
+   "IGUI_ALifeUI_53c1d41731afce2f",
+   "Map markers and contact lists",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:38"
+   ]
+  ],
+  "55": [
+   "IGUI_ALifeUI_2d98fce07ee63084",
+   "A-Life world data (mod data)",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:39"
+   ]
+  ],
+  "56": [
+   "IGUI_ALifeUI_62917fee74250771",
+   "NPC corpses and A-Life issued loot",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:40"
+   ]
+  ],
+  "57": [
+   "IGUI_ALifeUI_05bf1a4b6cd53b6f",
+   "Companions that follow you",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:41"
+   ]
+  ],
+  "58": [
+   "IGUI_ALifeUI_1be59e296406d21f",
+   "Reputation (risky)",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:42"
+   ]
+  ],
+  "59": [
+   "IGUI_ALifeUI_01ee7cf96ccef53d",
+   "Unverified objects (risky)",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:43"
+   ]
+  ],
+  "60": [
+   "IGUI_ALifeUI_4bb3f61c1232745d",
+   "Also objects inside safehouses",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:44"
+   ]
+  ],
+  "61": [
+   "IGUI_ALifeUI_0126163665acc0aa",
+   "Server copy of Creator data (risky)",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:45"
+   ]
+  ],
+  "62": [
+   "IGUI_ALifeUI_058c6d2266e1a742",
+   "Pending",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:49"
+   ]
+  ],
+  "63": [
+   "IGUI_ALifeUI_0e18810f25003b3a",
+   "Sites",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:49"
+   ]
+  ],
+  "64": [
+   "IGUI_ALifeUI_7a264dce13ee37cf",
+   "Skipped",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:49"
+   ]
+  ],
+  "65": [
+   "IGUI_ALifeUI_0bb2af9966b95d84",
+   "Protected",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:50"
+   ]
+  ],
+  "66": [
+   "IGUI_ALifeUI_56289b057be69f89",
+   "Unverified",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:50"
+   ]
+  ],
+  "67": [
+   "IGUI_ALifeUI_6ad31b377c02d08c",
+   "Map markers removed here: ",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:124"
+   ]
+  ],
+  "68": [
+   "IGUI_ALifeUI_5e5fa6ab0b4c0d67",
+   "Open the world map once, then press this again.",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:137"
+   ]
+  ],
+  "69": [
+   "IGUI_ALifeUI_3040b6ba55b433d5",
+   "CLEANUP A-LIFE",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:281"
+   ]
+  ],
+  "70": [
+   "IGUI_ALifeUI_0c9b5dcb30b2dcac",
+   "World: no cleanup started",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:460"
+   ]
+  ],
+  "71": [
+   "IGUI_ALifeUI_3c9c3a453b507694",
+   "World: CLEANUP RUNNING, A-Life spawning is locked",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:461"
+   ]
+  ],
+  "72": [
+   "IGUI_ALifeUI_634a9d82229cd74b",
+   "World: CLEANUP DONE, A-Life is inert in this world",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:462"
+   ]
+  ],
+  "73": [
+   "IGUI_ALifeUI_725c1a85532bd4d8",
+   "What to remove",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:678"
+   ]
+  ],
+  "74": [
+   "IGUI_ALifeUI_1bf61614326c717e",
+   "Spawns refused while locked: ",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:724"
+   ]
+  ],
+  "75": [
+   "IGUI_ALifeUI_2c87083d7c03f911",
+   "Cleanup",
+   [
+    "client/ProjectALife/Admin/ALifeCleanupWindow.lua:747"
+   ]
+  ],
+  "76": [
+   "IGUI_ALifeUI_2a73819377f34fc8",
+   "Staffed outpost: ",
+   [
+    "client/ProjectALife/Admin/ALifeDebugSpawner.lua:504"
+   ]
+  ],
+  "77": [
+   "IGUI_ALifeUI_6dffd5f442453d32",
+   "More advanced spawning: Admin Console > Spawn.",
+   [
+    "client/ProjectALife/Admin/ALifeDebugSpawner.lua:972"
+   ]
+  ],
+  "78": [
+   "IGUI_ALifeUI_33d8ff3f190dd083",
+   "A-Life: spawned ",
+   [
+    "client/ProjectALife/Admin/ALifeDebugSpawner.lua:1488"
+   ]
+  ],
+  "79": [
+   "IGUI_ALifeUI_4852b8e519758b32",
+   " .. tostring(entry.note or ",
+   [
+    "client/ProjectALife/Admin/ALifeGmPlan.lua:145"
+   ]
+  ],
+  "80": [
+   "IGUI_ALifeUI_1bb100da298488db",
+   "Let the server pick the cast.",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerBrowser.lua:99"
+   ]
+  ],
+  "81": [
+   "IGUI_ALifeUI_1dfa691264a69fb9",
+   "Click to fold or unfold this group.",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerBrowser.lua:109"
+   ]
+  ],
+  "82": [
+   "IGUI_ALifeUI_2367d44b3ada25c9",
+   "Forces the safehouse event ",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerBrowser.lua:158"
+   ]
+  ],
+  "83": [
+   "IGUI_ALifeUI_359504c36297b10a",
+   "What to spawn. The list below changes with the type.",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:102"
+   ]
+  ],
+  "84": [
+   "IGUI_ALifeUI_371bc07a17f85904",
+   "Natural spawns: off, switch on",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:417"
+   ]
+  ],
+  "85": [
+   "IGUI_ALifeUI_07a9a3c13b7bfbb7",
+   "Creator: off, switch off too",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:421"
+   ]
+  ],
+  "86": [
+   "IGUI_ALifeUI_09bfe0fb4ddae87b",
+   "Back to Spawn",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:546"
+   ]
+  ],
+  "87": [
+   "IGUI_ALifeUI_65f6bb993dc22ffb",
+   "Return to Spawn. All current selections and advanced settings are kept.",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:547"
+   ]
+  ],
+  "88": [
+   "IGUI_ALifeUI_00ab6e1002e759ca",
+   "Reset to defaults",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:548"
+   ]
+  ],
+  "89": [
+   "IGUI_ALifeUI_16128c52711846f6",
+   "Reset only Advanced settings. Your squad and spawn location are kept. Asks first.",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:549"
+   ]
+  ],
+  "90": [
+   "IGUI_ALifeUI_71f72578408ab898",
+   "Selected roster: ",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:870"
+   ]
+  ],
+  "91": [
+   "IGUI_ALifeUI_5908e6c37ccef226",
+   "Not ready: ",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:928"
+   ]
+  ],
+  "92": [
+   "IGUI_ALifeUI_0bf0ca3e0ef1c62e",
+   "Faction squad, member, roster, encounter, outpost, visitor, raid, support.",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:1255"
+   ]
+  ],
+  "93": [
+   "IGUI_ALifeUI_30c7d80f06e72576",
+   "Spawn type",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:1255"
+   ]
+  ],
+  "94": [
+   "IGUI_ALifeUI_38a5dd107f35375e",
+   "How many NPCs to spawn, 1 to 8.",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:1256"
+   ]
+  ],
+  "95": [
+   "IGUI_ALifeUI_4889d4825c895c7b",
+   "Spawn count",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:1256"
+   ]
+  ],
+  "96": [
+   "IGUI_ALifeUI_5175c10f2a8f7bfd",
+   "Stance toward players",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:1257"
+   ]
+  ],
+  "97": [
+   "IGUI_ALifeUI_59d92aac6de93f71",
+   "Friendly, neutral, careful or hostile.",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:1257"
+   ]
+  ],
+  "98": [
+   "IGUI_ALifeUI_2f4a79720f95300f",
+   "Where to spawn",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:1258"
+   ]
+  ],
+  "99": [
+   "IGUI_ALifeUI_36a02a1c7eed4e54",
+   "Near you, clicked target, coordinates, marker or the encounter rule.",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:1258"
+   ]
+  ],
+  "100": [
+   "IGUI_ALifeUI_5f14241733ef2316",
+   "Spawn dormant",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:1259"
+   ]
+  ],
+  "101": [
+   "IGUI_ALifeUI_75b889a06e47966f",
+   "Create the squad as a map marker without bodies.",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:1259"
+   ]
+  ],
+  "102": [
+   "IGUI_ALifeUI_4bbb8cf532bb3252",
+   "Admin spawn without the natural day-window checks.",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:1260"
+   ]
+  ],
+  "103": [
+   "IGUI_ALifeUI_79e2638051730125",
+   "Ignore funnel and day gating",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:1260"
+   ]
+  ],
+  "104": [
+   "IGUI_ALifeUI_74938e64023bb6ac",
+   "Reproducible roster.",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:1261"
+   ]
+  ],
+  "105": [
+   "IGUI_ALifeUI_628b406c1126071d",
+   "List of batches with per-batch undo.",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:1262"
+   ]
+  ],
+  "106": [
+   "IGUI_ALifeUI_785aa3e03dafdfa2",
+   "Spawn history and undo",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:1262"
+   ]
+  ],
+  "107": [
+   "IGUI_ALifeUI_4c2eaa4227adf7f9",
+   "Saved spawn presets",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:1263"
+   ]
+  ],
+  "108": [
+   "IGUI_ALifeUI_678f066a30c32a28",
+   "Save and load the whole form by name.",
+   [
+    "client/ProjectALife/Admin/ALifeSpawnerPanel.lua:1263"
+   ]
+  ],
+  "109": [
+   "IGUI_ALifeUI_2c93ea6c64be3f5b",
+   "Start settings request finished",
+   [
+    "client/ProjectALife/Admin/ALifeStartApplyClient.lua:17"
+   ]
+  ],
+  "110": [
+   "IGUI_ALifeUI_0a46ef425d716000",
+   " .. spec.stem .. ",
+   [
+    "client/ProjectALife/Builder/ALifeBuildCapture.lua:753"
+   ]
+  ],
+  "111": [
+   "IGUI_ALifeUI_1ce92046296dd518",
+   "A free text note for whoever reads the blueprint.",
+   [
+    "client/ProjectALife/Builder/ALifeBuildSession.lua:26"
+   ]
+  ],
+  "112": [
+   "IGUI_ALifeUI_3b387fa91c31a0cd",
+   "Save failed: ",
+   [
+    "client/ProjectALife/Builder/ALifeBuildSession.lua:521"
+   ]
+  ],
+  "113": [
+   "IGUI_ALifeUI_5b7e37ae52f02182",
+   "Could not open the folder: ",
+   [
+    "client/ProjectALife/Builder/ALifeBuildSession.lua:584"
+   ]
+  ],
+  "114": [
+   "IGUI_ALifeUI_156720fe38a7e23b",
+   "[DEV] A-Life Tools",
+   [
+    "client/ProjectALife/Builder/ALifeBuildTools.lua:5"
+   ]
+  ],
+  "115": [
+   "IGUI_ALifeUI_77f40e8443813d82",
+   "Drag area in world",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:233"
+   ]
+  ],
+  "116": [
+   "IGUI_ALifeUI_160ac3796c67457a",
+   "Pick anchor",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:235"
+   ]
+  ],
+  "117": [
+   "IGUI_ALifeUI_025c54db554e2b16",
+   "Use my floor",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:237"
+   ]
+  ],
+  "118": [
+   "IGUI_ALifeUI_5b61994d610ba8bd",
+   "Place marker",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:243"
+   ]
+  ],
+  "119": [
+   "IGUI_ALifeUI_0559542810ea5deb",
+   "Your markers. Pick one to remove it.",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:255"
+   ]
+  ],
+  "120": [
+   "IGUI_ALifeUI_1c5feef8107722fa",
+   "Remove selected",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:257"
+   ]
+  ],
+  "121": [
+   "IGUI_ALifeUI_41d33bcd0277616d",
+   "Undo last",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:258"
+   ]
+  ],
+  "122": [
+   "IGUI_ALifeUI_6a83a14f21276598",
+   "Clear all",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:259"
+   ]
+  ],
+  "123": [
+   "IGUI_ALifeUI_5f36f4c971d782d5",
+   "Capture area",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:262"
+   ]
+  ],
+  "124": [
+   "IGUI_ALifeUI_69b0b5893b67d945",
+   "Copy to clipboard",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:268"
+   ]
+  ],
+  "125": [
+   "IGUI_ALifeUI_094452a86765845a",
+   "Save to file",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:269"
+   ]
+  ],
+  "126": [
+   "IGUI_ALifeUI_44875594165155e7",
+   "Copy file path",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:271"
+   ]
+  ],
+  "127": [
+   "IGUI_ALifeUI_0729ba2973fbfbaf",
+   "Reset all",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:273"
+   ]
+  ],
+  "128": [
+   "IGUI_ALifeUI_0d321dd0420168d9",
+   "Front",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:380"
+   ]
+  ],
+  "129": [
+   "IGUI_ALifeUI_5f9ef4952e7c6da3",
+   "Floors from",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:383"
+   ]
+  ],
+  "130": [
+   "IGUI_ALifeUI_4297ea8c7d53c264",
+   "Marker",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:395"
+   ]
+  ],
+  "131": [
+   "IGUI_ALifeUI_0d0db2681ee25653",
+   "Draws",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:450"
+   ]
+  ],
+  "132": [
+   "IGUI_ALifeUI_0e1e75942678484f",
+   "Store",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:450"
+   ]
+  ],
+  "133": [
+   "IGUI_ALifeUI_47d63e5a2a030b27",
+   "Remove every marker. Asks you to click twice.",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:537"
+   ]
+  ],
+  "134": [
+   "IGUI_ALifeUI_3b9c247f0a144b04",
+   "Remove every marker. Not now: ",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:539"
+   ]
+  ],
+  "135": [
+   "IGUI_ALifeUI_589caae2094182a0",
+   "A capture is running.",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:542"
+   ]
+  ],
+  "136": [
+   "IGUI_ALifeUI_31dfad8061fa99e5",
+   "A-Life Builder (dev)",
+   [
+    "client/ProjectALife/Builder/ALifeBuildWindow.lua:1103"
+   ]
+  ],
+  "137": [
+   "IGUI_ALifeUI_14fbabe2110baa3b",
+   "Preview this exact target first (step 3).",
+   [
+    "client/ProjectALife/Builder/ALifeStampClient.lua:245"
+   ]
+  ],
+  "138": [
+   "IGUI_ALifeUI_6359cb8905d6b4ef",
+   "Will place ",
+   [
+    "client/ProjectALife/Builder/ALifeStampClient.lua:460"
+   ]
+  ],
+  "139": [
+   "IGUI_ALifeUI_669f100043b075d0",
+   "Refresh list",
+   [
+    "client/ProjectALife/Builder/ALifeStampWindow.lua:105"
+   ]
+  ],
+  "140": [
+   "IGUI_ALifeUI_151a624f0f6284ed",
+   "Load file",
+   [
+    "client/ProjectALife/Builder/ALifeStampWindow.lua:107"
+   ]
+  ],
+  "141": [
+   "IGUI_ALifeUI_3dfd2e872d00a272",
+   "Pick target square",
+   [
+    "client/ProjectALife/Builder/ALifeStampWindow.lua:108"
+   ]
+  ],
+  "142": [
+   "IGUI_ALifeUI_6c978a0a4546b00a",
+   "Use my square",
+   [
+    "client/ProjectALife/Builder/ALifeStampWindow.lua:109"
+   ]
+  ],
+  "143": [
+   "IGUI_ALifeUI_767dd43b682df8b8",
+   "Turn left",
+   [
+    "client/ProjectALife/Builder/ALifeStampWindow.lua:112"
+   ]
+  ],
+  "144": [
+   "IGUI_ALifeUI_46a7236c396207c4",
+   "Turn right",
+   [
+    "client/ProjectALife/Builder/ALifeStampWindow.lua:113"
+   ]
+  ],
+  "145": [
+   "IGUI_ALifeUI_7f5aa3900504aac2",
+   "Place stamp",
+   [
+    "client/ProjectALife/Builder/ALifeStampWindow.lua:121"
+   ]
+  ],
+  "146": [
+   "IGUI_ALifeUI_5f139a036d561777",
+   "Undo last stamp",
+   [
+    "client/ProjectALife/Builder/ALifeStampWindow.lua:122"
+   ]
+  ],
+  "147": [
+   "IGUI_ALifeUI_7c853f075b5d6747",
+   "File",
+   [
+    "client/ProjectALife/Builder/ALifeStampWindow.lua:180"
+   ]
+  ],
+  "148": [
+   "IGUI_ALifeUI_6a94047c50dd0689",
+   "Floors up",
+   [
+    "client/ProjectALife/Builder/ALifeStampWindow.lua:185"
+   ]
+  ],
+  "149": [
+   "IGUI_ALifeUI_7c8d20305d40cd48",
+   "Turn",
+   [
+    "client/ProjectALife/Builder/ALifeStampWindow.lua:187"
+   ]
+  ],
+  "150": [
+   "IGUI_ALifeUI_7345a9f85a14221f",
+   "A-Life Stamp (dev)",
+   [
+    "client/ProjectALife/Builder/ALifeStampWindow.lua:716"
+   ]
+  ],
+  "151": [
+   "IGUI_ALifeUI_01021a4038abd88b",
+   "Stamp a blueprint...",
+   [
+    "client/ProjectALife/Builder/ALifeStampWindow.lua:754"
+   ]
+  ],
+  "152": [
+   "IGUI_ALifeUI_2a2874d57791cb51",
+   "Done editing",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:37"
+   ]
+  ],
+  "153": [
+   "IGUI_ALifeUI_7d051ea26ab227f0",
+   "Mode: destination",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:137"
+   ]
+  ],
+  "154": [
+   "IGUI_ALifeUI_16b6a5085f7aada2",
+   "<TEXT> <RGB:",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:632"
+   ]
+  ],
+  "155": [
+   "IGUI_ALifeUI_0d4998aa5ddbe755",
+   "Center on me",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:826"
+   ]
+  ],
+  "156": [
+   "IGUI_ALifeUI_362638ff034eedc1",
+   "Center on your current position and finish route editing so you can select nearby cars.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:827"
+   ]
+  ],
+  "157": [
+   "IGUI_ALifeUI_367c83510784c7ab",
+   "Center on car",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:828"
+   ]
+  ],
+  "158": [
+   "IGUI_ALifeUI_555155c479b71ec2",
+   "Center on the selected car without changing its route or edit mode.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:833"
+   ]
+  ],
+  "159": [
+   "IGUI_ALifeUI_4d507ad910dcfdca",
+   "Edit route",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:849"
+   ]
+  ],
+  "160": [
+   "IGUI_ALifeUI_3affd8cd18938353",
+   "The red queue border means route editing is active. New map points are always waypoints. Select one below to make it a dismount point.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:854"
+   ]
+  ],
+  "161": [
+   "IGUI_ALifeUI_18790ba70ea7d896",
+   "Route presets",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:855"
+   ]
+  ],
+  "162": [
+   "IGUI_ALifeUI_4476e05e7ead9087",
+   "Save named waypoint routes and load them onto another car. Presets remain after restarting the game.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:856"
+   ]
+  ],
+  "163": [
+   "IGUI_ALifeUI_54e68da81a90ca9f",
+   "When stopped: choose one destination or a queue of checkpoints. While driving: map clicks append waypoints.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:865"
+   ]
+  ],
+  "164": [
+   "IGUI_ALifeUI_4806bd33381206de",
+   "Add my position",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:866"
+   ]
+  ],
+  "165": [
+   "IGUI_ALifeUI_13830c623b05bdb5",
+   "Waypoint",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:883"
+   ]
+  ],
+  "166": [
+   "IGUI_ALifeUI_5822800d61ac10c6",
+   "Dismount point",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:884"
+   ]
+  ],
+  "167": [
+   "IGUI_ALifeUI_4ed8ca82391c31fc",
+   "The selected point is passed through. New points always use this type. Park the car to change an existing point.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:885"
+   ]
+  ],
+  "168": [
+   "IGUI_ALifeUI_6127024d2d86dddd",
+   "At the selected point, brake and let the NPC crew out. This changes only this point. Park the car to change an existing point.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:886"
+   ]
+  ],
+  "169": [
+   "IGUI_ALifeUI_1b79e68e7fc8afce",
+   "Apply X/Y",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:890"
+   ]
+  ],
+  "170": [
+   "IGUI_ALifeUI_501110f35dbc887a",
+   "Delete waypoint",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:900"
+   ]
+  ],
+  "171": [
+   "IGUI_ALifeUI_18d8107d66826e73",
+   "Clear entire route",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:902"
+   ]
+  ],
+  "172": [
+   "IGUI_ALifeUI_78e0a88e7e2ac1d6",
+   "Delete every waypoint. If driving, also stop the car.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:905"
+   ]
+  ],
+  "173": [
+   "IGUI_ALifeUI_47221b0729e351f2",
+   "This car + general",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:925"
+   ]
+  ],
+  "174": [
+   "IGUI_ALifeUI_1dbb715812f90a5a",
+   "Pause live log",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:930"
+   ]
+  ],
+  "175": [
+   "IGUI_ALifeUI_7383b90c167db280",
+   "Overhead messages: ON",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:937"
+   ]
+  ],
+  "176": [
+   "IGUI_ALifeUI_6eec906f558acc36",
+   "Show driving feedback above your character. Turning this off keeps all messages in this log. Lasts for this game session.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:939"
+   ]
+  ],
+  "177": [
+   "IGUI_ALifeUI_6122059e1816aea1",
+   "Resume live log",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPanel.lua:943"
+   ]
+  ],
+  "178": [
+   "IGUI_ALifeUI_375ae7bf5412f1df",
+   "Starts a new bounded capture, replacing the previous in-memory capture. Export the previous one first if you want to keep it.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPerformancePanel.lua:83"
+   ]
+  ],
+  "179": [
+   "IGUI_ALifeUI_1426f1922f93e0fb",
+   "Mode: checkpoints",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPresetPanel.lua:29"
+   ]
+  ],
+  "180": [
+   "IGUI_ALifeUI_21d1c7ef2019d816",
+   "Save as new",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPresetPanel.lua:145"
+   ]
+  ],
+  "181": [
+   "IGUI_ALifeUI_49327516580b21b0",
+   "Save the currently displayed queue as a new named route. Reached waypoints are no longer in this queue.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPresetPanel.lua:155"
+   ]
+  ],
+  "182": [
+   "IGUI_ALifeUI_0c69bd133b48b7ee",
+   "Update saved preset",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPresetPanel.lua:157"
+   ]
+  ],
+  "183": [
+   "IGUI_ALifeUI_436a96ed447efbf0",
+   "Delete preset",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPresetPanel.lua:167"
+   ]
+  ],
+  "184": [
+   "IGUI_ALifeUI_67b9123a5193c1df",
+   "Load onto car",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPresetPanel.lua:174"
+   ]
+  ],
+  "185": [
+   "IGUI_ALifeUI_3ee05d8a140501dc",
+   "Copy to personal",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPresetPanel.lua:185"
+   ]
+  ],
+  "186": [
+   "IGUI_ALifeUI_7e9365f6631bc7ea",
+   "Copy the selected saved route. Enter a name to save the copy under a different name. Existing names are never overwritten.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingPresetPanel.lua:227"
+   ]
+  ],
+  "187": [
+   "IGUI_ALifeUI_1051c66978387184",
+   "Applied to this car. Planner changes may briefly slow it while rebuilding the path.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingTuningPanel.lua:95"
+   ]
+  ],
+  "188": [
+   "IGUI_ALifeUI_71306e701e04b48e",
+   "<TEXT> Car ",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingTuningPanel.lua:126"
+   ]
+  ],
+  "189": [
+   "IGUI_ALifeUI_1bd7dfa40a3759ba",
+   "Defaults loaded into the fields. Press Apply to car to activate them.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingTuningPanel.lua:199"
+   ]
+  ],
+  "190": [
+   "IGUI_ALifeUI_715eb67a3bcd721d",
+   "Load the responsive driving defaults into the fields, then Apply to car.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingTuningPanel.lua:200"
+   ]
+  ],
+  "191": [
+   "IGUI_ALifeUI_64e002cc510ef902",
+   "Preset edits: cornering 2, lookahead 6, return speed 5.4. Press Apply to car to test.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingTuningPanel.lua:204"
+   ]
+  ],
+  "192": [
+   "IGUI_ALifeUI_30d9324d637e879f",
+   "Experimental starting point: adjusts three values, keeping other applied settings.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingTuningPanel.lua:206"
+   ]
+  ],
+  "193": [
+   "IGUI_ALifeUI_5a48d5cf626f8feb",
+   "Copy this car's applied settings and any unapplied edits for feedback.",
+   [
+    "client/ProjectALife/Driving/ALifeDrivingTuningPanel.lua:208"
+   ]
+  ],
+  "194": [
+   "IGUI_ALifeUI_7d9bf59856d29c91",
+   "Choose a squad and encounter, then deploy both with one action.",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:185"
+   ]
+  ],
+  "195": [
+   "IGUI_ALifeUI_49da054540b0d890",
+   "SPAWN ENCOUNTER + SQUAD",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:224"
+   ]
+  ],
+  "196": [
+   "IGUI_ALifeUI_73f69c1633ea1e24",
+   "ADVANCED OPTIONS  >",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:230"
+   ]
+  ],
+  "197": [
+   "IGUI_ALifeUI_0238d4fc4e8bcf9c",
+   "SIMULATE HERE",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:236"
+   ]
+  ],
+  "198": [
+   "IGUI_ALifeUI_494c11572ea9901b",
+   "SIMULATE BY RULE",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:242"
+   ]
+  ],
+  "199": [
+   "IGUI_ALifeUI_508bec0d24ff52b4",
+   "SPAWN FACTION SQUAD",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:248"
+   ]
+  ],
+  "200": [
+   "IGUI_ALifeUI_249e1cfc6860b581",
+   "PERSISTENT: DEFAULT",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:259"
+   ]
+  ],
+  "201": [
+   "IGUI_ALifeUI_1cf7ddc84c17a0ca",
+   "SQUADS ON WORLD MAP",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:272"
+   ]
+  ],
+  "202": [
+   "IGUI_ALifeUI_0242be2b5c4dfccd",
+   "FACTIONS REFUSED: ",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:386"
+   ]
+  ],
+  "203": [
+   "IGUI_ALifeUI_3aee3d8e47d2a78d",
+   "REFRESH REFUSED: ",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:393"
+   ]
+  ],
+  "204": [
+   "IGUI_ALifeUI_348f9ce765514b43",
+   "Pick an encounter first.",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:447"
+   ]
+  ],
+  "205": [
+   "IGUI_ALifeUI_7ebfec513ff9f44c",
+   "No position for this player.",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:463"
+   ]
+  ],
+  "206": [
+   "IGUI_ALifeUI_676e5f1279920e5d",
+   "Simulating here...",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:486"
+   ]
+  ],
+  "207": [
+   "IGUI_ALifeUI_2d1de0044dd7273b",
+   "Placing by the encounter's own rule...",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:494"
+   ]
+  ],
+  "208": [
+   "IGUI_ALifeUI_5e89c4881d96bb8a",
+   "Pick a faction first.",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:502"
+   ]
+  ],
+  "209": [
+   "IGUI_ALifeUI_74975e171b0d86d2",
+   "Requesting black box dump...",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:542"
+   ]
+  ],
+  "210": [
+   "IGUI_ALifeUI_129b18fe13b150cc",
+   "Requesting module QA dump...",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:550"
+   ]
+  ],
+  "211": [
+   "IGUI_ALifeUI_57021b35242964cd",
+   "SCENE + SQUAD, ONE DEPLOY",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:594"
+   ]
+  ],
+  "212": [
+   "IGUI_ALifeUI_31a533da344af856",
+   "Advanced: place / size / persist",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:596"
+   ]
+  ],
+  "213": [
+   "IGUI_ALifeUI_3545f3f1732a2366",
+   "(no report yet)",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:619"
+   ]
+  ],
+  "214": [
+   "IGUI_ALifeUI_2387f0c30a5da75a",
+   "nothing placed yet",
+   [
+    "client/ProjectALife/Interface/ALifeEncounterConsole.lua:640"
+   ]
+  ],
+  "215": [
+   "IGUI_ALifeUI_6749ef4b030cc7bb",
+   "Heaviest per tick (ms): ",
+   [
+    "client/ProjectALife/Interface/ALifeStatusWindow.lua:166"
+   ]
+  ],
+  "216": [
+   "IGUI_ALifeUI_4802d3617a970f37",
+   "Server profiler: ",
+   [
+    "client/ProjectALife/Interface/ALifeStatusWindow.lua:171"
+   ]
+  ],
+  "217": [
+   "IGUI_ALifeUI_35b146a27a994009",
+   "Diagnostics is on here and slows the game",
+   [
+    "client/ProjectALife/Interface/ALifeStatusWindow.lua:175"
+   ]
+  ],
+  "218": [
+   "IGUI_ALifeUI_49b39f9460a5e4a1",
+   "Project A-Life Status",
+   [
+    "client/ProjectALife/Interface/ALifeStatusWindow.lua:352"
+   ]
+  ],
+  "219": [
+   "IGUI_ALifeUI_2cae61a8093d1e90",
+   "Cursor",
+   [
+    "client/ProjectALife/UI2/ALifeUI2QuickSpawn.lua:25"
+   ]
+  ],
+  "220": [
+   "IGUI_ALifeUI_4dacfff354963366",
+   "30 ahead",
+   [
+    "client/ProjectALife/UI2/ALifeUI2QuickSpawn.lua:25"
+   ]
+  ],
+  "221": [
+   "IGUI_ALifeUI_47b9f9f9027c76ae",
+   "Status, quick actions, recent spawns",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:13"
+   ]
+  ],
+  "222": [
+   "IGUI_ALifeUI_0a9d2351094650ee",
+   "Full spawn form",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:14"
+   ]
+  ],
+  "223": [
+   "IGUI_ALifeUI_15f802f078d2fe32",
+   "Raids, support, visits, outposts",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:15"
+   ]
+  ],
+  "224": [
+   "IGUI_ALifeUI_5dbac4c631d04bfe",
+   "Census, reputation, logs, options, tools",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:16"
+   ]
+  ],
+  "225": [
+   "IGUI_ALifeUI_538cde337b0df978",
+   "Census, squads, nearest NPCs",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:17"
+   ]
+  ],
+  "226": [
+   "IGUI_ALifeUI_735b54914730ce25",
+   "Spawn NPC cars, send them, watch them",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:18"
+   ]
+  ],
+  "227": [
+   "IGUI_ALifeUI_580d4ec63e9af9af",
+   "Yours and per faction",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:19"
+   ]
+  ],
+  "228": [
+   "IGUI_ALifeUI_0b279fcb7c1056d7",
+   "Health, bug-report dumps, errors, logs",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:20"
+   ]
+  ],
+  "229": [
+   "IGUI_ALifeUI_775e447f6e649b71",
+   "Every sandbox option, read only",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:21"
+   ]
+  ],
+  "230": [
+   "IGUI_ALifeUI_0f26b1335ab7775a",
+   "Scan and remove leftovers",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:22"
+   ]
+  ],
+  "231": [
+   "IGUI_ALifeUI_5f8ccb7c55717098",
+   "CLEANUP",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:22"
+   ]
+  ],
+  "232": [
+   "IGUI_ALifeUI_3fdda7f62bab6deb",
+   "Test events, spawn stages, base visits, logging",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:23"
+   ]
+  ],
+  "233": [
+   "IGUI_ALifeUI_7c85e5e55b9b26b7",
+   "HOST",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:132"
+   ]
+  ],
+  "234": [
+   "IGUI_ALifeUI_0cbdd4506409ed10",
+   "ADMIN",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:133"
+   ]
+  ],
+  "235": [
+   "IGUI_ALifeUI_1b103b994224000f",
+   "NO ACCESS",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:135"
+   ]
+  ],
+  "236": [
+   "IGUI_ALifeUI_6eaa5a3a32cbe81e",
+   "SWITCHES",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:508"
+   ]
+  ],
+  "237": [
+   "IGUI_ALifeUI_45b210170aaa9c3d",
+   "AMBIENT EVENTS",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:515"
+   ]
+  ],
+  "238": [
+   "IGUI_ALifeUI_0b1d6e9d58b5a3fe",
+   "SPAWN STAGE PREVIEW",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:516"
+   ]
+  ],
+  "239": [
+   "IGUI_ALifeUI_3c4b682301c33eb8",
+   "PICKED-OVER BUILDINGS",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:517"
+   ]
+  ],
+  "240": [
+   "IGUI_ALifeUI_32d0347b7da500f7",
+   "BASE VISITS",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:518"
+   ]
+  ],
+  "241": [
+   "IGUI_ALifeUI_0291e80a35b2a66a",
+   "LOGGING AND TESTS",
+   [
+    "shared/ProjectALife/Admin/ALifeAdminActions.lua:519"
+   ]
+  ],
+  "242": [
+   "IGUI_ALifeUI_60b131017f239ef2",
+   "A squad drawn from one faction's members. The server picks the members unless you fix the roster.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:10"
+   ]
+  ],
+  "243": [
+   "IGUI_ALifeUI_7447db9429b22169",
+   "Faction squad",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:10"
+   ]
+  ],
+  "244": [
+   "IGUI_ALifeUI_50e6dcca56f7f114",
+   "Single member",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:11"
+   ]
+  ],
+  "245": [
+   "IGUI_ALifeUI_662eefef502c2bfa",
+   "One chosen member, copied as many times as the count says.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:11"
+   ]
+  ],
+  "246": [
+   "IGUI_ALifeUI_6dfcffb06c91ecb4",
+   "Custom roster",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:12"
+   ]
+  ],
+  "247": [
+   "IGUI_ALifeUI_75f862dd6fc3471c",
+   "Up to eight chosen members, exactly as listed.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:12"
+   ]
+  ],
+  "248": [
+   "IGUI_ALifeUI_56afbedc51d50f31",
+   "A ready-made encounter such as a patrol, checkpoint or camp, cast from a faction.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:13"
+   ]
+  ],
+  "249": [
+   "IGUI_ALifeUI_18d6f7a653e55395",
+   "Staffed outpost",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:14"
+   ]
+  ],
+  "250": [
+   "IGUI_ALifeUI_375cfe4b4e335ffc",
+   "Builds an outpost preset on the spot and staffs it. The build is sliced over several seconds.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:14"
+   ]
+  ],
+  "251": [
+   "IGUI_ALifeUI_22d575445c31350c",
+   "Forces a base visit or safehouse event for your test base, using the safehouse director.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:15"
+   ]
+  ],
+  "252": [
+   "IGUI_ALifeUI_36f6a2093ade1782",
+   "Base visitor",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:15"
+   ]
+  ],
+  "253": [
+   "IGUI_ALifeUI_146610be385717a2",
+   "Starts a forced full-scale raid with waves against you.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:16"
+   ]
+  ],
+  "254": [
+   "IGUI_ALifeUI_7c8bb1275cf6f0b9",
+   "Raid",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:16"
+   ]
+  ],
+  "255": [
+   "IGUI_ALifeUI_1194eeeb2a5cb56f",
+   "Makes the NPC nearest to you call for reinforcements.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:17"
+   ]
+  ],
+  "256": [
+   "IGUI_ALifeUI_3877fa2e33122d0f",
+   "Support call",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:17"
+   ]
+  ],
+  "257": [
+   "IGUI_ALifeUI_579908bc1374e06e",
+   "Each member keeps the stance its faction gives toward players.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:21"
+   ]
+  ],
+  "258": [
+   "IGUI_ALifeUI_0fcfa22c2365ddf7",
+   "Ally: helps you and does not attack.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:22"
+   ]
+  ],
+  "259": [
+   "IGUI_ALifeUI_1123fbd323fe023e",
+   "Leaves you alone and defends itself.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:23"
+   ]
+  ],
+  "260": [
+   "IGUI_ALifeUI_5d11541901490af7",
+   "Warns first, then shoots if you stay or come closer.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:24"
+   ]
+  ],
+  "261": [
+   "IGUI_ALifeUI_5f9a02f47e7128e5",
+   "Attacks on sight.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:25"
+   ]
+  ],
+  "262": [
+   "IGUI_ALifeUI_0ad6c2db15cdbb43",
+   "Searches nearby containers and collects supplies.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:31"
+   ]
+  ],
+  "263": [
+   "IGUI_ALifeUI_050b2e8e4da18937",
+   "Actively searches the local area for targets.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:32"
+   ]
+  ],
+  "264": [
+   "IGUI_ALifeUI_6c30829d21de58f3",
+   "Tracks the requesting player and keeps re-engaging.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:33"
+   ]
+  ],
+  "265": [
+   "IGUI_ALifeUI_48ad45fe782f072f",
+   "Builds a campsite and lives there.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:35"
+   ]
+  ],
+  "266": [
+   "IGUI_ALifeUI_55da82f11fc92f1d",
+   "Cars across the road with a line of guns behind them.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:36"
+   ]
+  ],
+  "267": [
+   "IGUI_ALifeUI_4840565c2a4f85fa",
+   "At your position, or at a distance and heading from you.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:41"
+   ]
+  ],
+  "268": [
+   "IGUI_ALifeUI_6ab32bb31b15f06b",
+   "Near me",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:41"
+   ]
+  ],
+  "269": [
+   "IGUI_ALifeUI_1d24a19757929501",
+   "At the square you chose with the right-click entry Use as A-Life spawn target.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:42"
+   ]
+  ],
+  "270": [
+   "IGUI_ALifeUI_5ee1019405737b7f",
+   "Clicked target",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:42"
+   ]
+  ],
+  "271": [
+   "IGUI_ALifeUI_4bf46928691b6afa",
+   "At an exact X, Y, Z.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:43"
+   ]
+  ],
+  "272": [
+   "IGUI_ALifeUI_58cc36571dcd5286",
+   "Coordinates",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:43"
+   ]
+  ],
+  "273": [
+   "IGUI_ALifeUI_3765e81c20937ed7",
+   "At a live encounter, squad or outpost marker.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:44"
+   ]
+  ],
+  "274": [
+   "IGUI_ALifeUI_0de6b6004bd53e9a",
+   "Encounter rule",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:45"
+   ]
+  ],
+  "275": [
+   "IGUI_ALifeUI_2a76426a6c1f4493",
+   "Where the encounter's own placement rule puts it, near you.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:45"
+   ]
+  ],
+  "276": [
+   "IGUI_ALifeUI_3046d43d3b46dd11",
+   "Any faction",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:51"
+   ]
+  ],
+  "277": [
+   "IGUI_ALifeUI_6925290d1a540dfe",
+   "A random faction that spawns in the world on its own.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:51"
+   ]
+  ],
+  "278": [
+   "IGUI_ALifeUI_03bd0fce41df4c7f",
+   "A random faction that is on your side.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:52"
+   ]
+  ],
+  "279": [
+   "IGUI_ALifeUI_06413c7e1a4c9d7f",
+   "Any friendly faction",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:52"
+   ]
+  ],
+  "280": [
+   "IGUI_ALifeUI_2786257e50ad6023",
+   "A random faction that leaves you alone.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:53"
+   ]
+  ],
+  "281": [
+   "IGUI_ALifeUI_3977d88a04e9ceae",
+   "Any neutral faction",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:53"
+   ]
+  ],
+  "282": [
+   "IGUI_ALifeUI_0916059c4ac8c610",
+   "A random faction that warns first, then shoots.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:54"
+   ]
+  ],
+  "283": [
+   "IGUI_ALifeUI_5abe61c46da0d93b",
+   "Any careful faction",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:54"
+   ]
+  ],
+  "284": [
+   "IGUI_ALifeUI_12a6c15851709508",
+   "A random faction that attacks on sight.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:55"
+   ]
+  ],
+  "285": [
+   "IGUI_ALifeUI_242d1b3543be8976",
+   "Any hostile faction",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:55"
+   ]
+  ],
+  "286": [
+   "IGUI_ALifeUI_18831a606001f783",
+   "Any law",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:56"
+   ]
+  ],
+  "287": [
+   "IGUI_ALifeUI_73a2ce7d2a0f334d",
+   "A random police, sheriff, trooper or corrections faction.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:56"
+   ]
+  ],
+  "288": [
+   "IGUI_ALifeUI_2afd4260591ced9a",
+   "Any military",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:57"
+   ]
+  ],
+  "289": [
+   "IGUI_ALifeUI_4e6c160f70a29572",
+   "A random army or National Guard faction.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:57"
+   ]
+  ],
+  "290": [
+   "IGUI_ALifeUI_5f279c4367d76bf7",
+   "Any survivor",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:58"
+   ]
+  ],
+  "291": [
+   "IGUI_ALifeUI_5faa96121153ac8c",
+   "A random civilian, family, worker or survivor-federation faction.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:58"
+   ]
+  ],
+  "292": [
+   "IGUI_ALifeUI_5607d8755078c33a",
+   "Any remnant",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:59"
+   ]
+  ],
+  "293": [
+   "IGUI_ALifeUI_630f541e532fffbb",
+   "A random faction of uniformed remnants of the old order.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:59"
+   ]
+  ],
+  "294": [
+   "IGUI_ALifeUI_4a3ff560408ca161",
+   "Ahead of me",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:155"
+   ]
+  ],
+  "295": [
+   "IGUI_ALifeUI_5acb18d13740c992",
+   "Behaviour doctrine",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:176"
+   ]
+  ],
+  "296": [
+   "IGUI_ALifeUI_57f7571b5ce8cb11",
+   "Overrides combat coordination. Individual AI fights independently; Fireteam coordinates attacks and door entry; CQB uses room-clearing tactics. Use profile chooses automatically from surroundings and nearby squadmates. Patrol behaviour and gun discipline stay in effect.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:177"
+   ]
+  ],
+  "297": [
+   "IGUI_ALifeUI_5b13705e4231d0c2",
+   "Specialist role",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:180"
+   ]
+  ],
+  "298": [
+   "IGUI_ALifeUI_2f4665887b1e7ed4",
+   "Gives the first member a specialist role.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:181"
+   ]
+  ],
+  "299": [
+   "IGUI_ALifeUI_403eee20030b4c5a",
+   "Members take no damage. Cheat-like: for testing only.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:185"
+   ]
+  ],
+  "300": [
+   "IGUI_ALifeUI_580915900e329a59",
+   "Position locked",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:186"
+   ]
+  ],
+  "301": [
+   "IGUI_ALifeUI_6d25a3553d4fabd6",
+   "Members stand still and only turn and shoot.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:187"
+   ]
+  ],
+  "302": [
+   "IGUI_ALifeUI_25351dc60d2094dc",
+   "Save squad",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:188"
+   ]
+  ],
+  "303": [
+   "IGUI_ALifeUI_1fa8af584f939259",
+   "Keeps the squad across save and load, within the persistent squad limit.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:189"
+   ]
+  ],
+  "304": [
+   "IGUI_ALifeUI_5fcc904d1e346284",
+   "Facing / line heading",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:191"
+   ]
+  ],
+  "305": [
+   "IGUI_ALifeUI_202e9c3f19ada34f",
+   "The direction a formation, camp or blockade faces.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:192"
+   ]
+  ],
+  "306": [
+   "IGUI_ALifeUI_0cea96e45208e74e",
+   "Unit spacing",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:195"
+   ]
+  ],
+  "307": [
+   "IGUI_ALifeUI_635922444eb0a1f4",
+   "Tiles between members when they appear.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:196"
+   ]
+  ],
+  "308": [
+   "IGUI_ALifeUI_094d67807570a735",
+   "Behaviour radius",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:197"
+   ]
+  ],
+  "309": [
+   "IGUI_ALifeUI_2631c2d82cb2dd9c",
+   "Patrol, guard and camp radius in tiles.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:198"
+   ]
+  ],
+  "310": [
+   "IGUI_ALifeUI_6a844dcb02e9e2a0",
+   "How they arrive",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:199"
+   ]
+  ],
+  "311": [
+   "IGUI_ALifeUI_4c3871cb195f732f",
+   "Foot: appear nearby. Helicopter: delayed arrival. By car: seated crew drives from a loaded road to a clear nearby dismount point.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:200"
+   ]
+  ],
+  "312": [
+   "IGUI_ALifeUI_49caa5af62428f8a",
+   "Arrival animation",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:202"
+   ]
+  ],
+  "313": [
+   "IGUI_ALifeUI_1053eed540a10c15",
+   "The animation preset applied when the body appears.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:203"
+   ]
+  ],
+  "314": [
+   "IGUI_ALifeUI_0cc92b4820b07a27",
+   "Detection range",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:205"
+   ]
+  ],
+  "315": [
+   "IGUI_ALifeUI_440751550e4055d9",
+   "How far members notice targets, in tiles.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:206"
+   ]
+  ],
+  "316": [
+   "IGUI_ALifeUI_3020047441f131fc",
+   "Movement leash",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:207"
+   ]
+  ],
+  "317": [
+   "IGUI_ALifeUI_593bb28236f13f62",
+   "Members return when they wander farther than this from the spawn point.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:208"
+   ]
+  ],
+  "318": [
+   "IGUI_ALifeUI_2877fd3c13aff336",
+   "Exact HP",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:209"
+   ]
+  ],
+  "319": [
+   "IGUI_ALifeUI_3ffddeba61c94e97",
+   "Sets every member's health points.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:210"
+   ]
+  ],
+  "320": [
+   "IGUI_ALifeUI_565d9d7d01f30477",
+   "Damage reduction %",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:211"
+   ]
+  ],
+  "321": [
+   "IGUI_ALifeUI_0c936eca1e2f2997",
+   "Percent of incoming damage ignored.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:212"
+   ]
+  ],
+  "322": [
+   "IGUI_ALifeUI_08306c5625b5c4f8",
+   "Damage output %",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:213"
+   ]
+  ],
+  "323": [
+   "IGUI_ALifeUI_62bfccd53a9fd531",
+   "Percent of the weapon's normal damage dealt.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:214"
+   ]
+  ],
+  "324": [
+   "IGUI_ALifeUI_411889fb5e23461a",
+   "Chance that the carried weapon drops on death.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:216"
+   ]
+  ],
+  "325": [
+   "IGUI_ALifeUI_546ee06f3a8c6e43",
+   "Condition of the dropped weapon.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:218"
+   ]
+  ],
+  "326": [
+   "IGUI_ALifeUI_34f91e6649427810",
+   "Clothing condition",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:219"
+   ]
+  ],
+  "327": [
+   "IGUI_ALifeUI_46402fd46251f020",
+   "Condition of the dropped clothing.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:220"
+   ]
+  ],
+  "328": [
+   "IGUI_ALifeUI_780d230320431b04",
+   "Can call support",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:221"
+   ]
+  ],
+  "329": [
+   "IGUI_ALifeUI_0900870e5e4e76d4",
+   "Allows or forbids the squad to radio for backup.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:222"
+   ]
+  ],
+  "330": [
+   "IGUI_ALifeUI_6738566f79865ad4",
+   "Who may call",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:224"
+   ]
+  ],
+  "331": [
+   "IGUI_ALifeUI_207261997f495403",
+   "Which member may place the call.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:225"
+   ]
+  ],
+  "332": [
+   "IGUI_ALifeUI_116dcb870f48696c",
+   "Allowed support",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:228"
+   ]
+  ],
+  "333": [
+   "IGUI_ALifeUI_6738648e50cc02ea",
+   "Ground reinforcements, a helicopter or both.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:229"
+   ]
+  ],
+  "334": [
+   "IGUI_ALifeUI_343a3e6b45ee025a",
+   "Helicopter support mode for this squad.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:233"
+   ]
+  ],
+  "335": [
+   "IGUI_ALifeUI_3fc545d5323fbb9f",
+   "Support squad size",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:236"
+   ]
+  ],
+  "336": [
+   "IGUI_ALifeUI_7bbaa31634c8efa6",
+   "Members in the reinforcement squad.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:237"
+   ]
+  ],
+  "337": [
+   "IGUI_ALifeUI_2d18769e24bc98f2",
+   "Support calls (max)",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:238"
+   ]
+  ],
+  "338": [
+   "IGUI_ALifeUI_243f0b95036c1382",
+   "How many calls the squad may place.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:239"
+   ]
+  ],
+  "339": [
+   "IGUI_ALifeUI_498436837acb9397",
+   "Support cooldown (h)",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:240"
+   ]
+  ],
+  "340": [
+   "IGUI_ALifeUI_3bd6648d426bc12b",
+   "Game hours between calls.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:241"
+   ]
+  ],
+  "341": [
+   "IGUI_ALifeUI_5517cbd04c511f1d",
+   "Raid waves",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:242"
+   ]
+  ],
+  "342": [
+   "IGUI_ALifeUI_62a876c4306ad35d",
+   "Number of attack waves of a forced raid.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:243"
+   ]
+  ],
+  "343": [
+   "IGUI_ALifeUI_4533168d56ceb067",
+   "Game minutes per wave",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:244"
+   ]
+  ],
+  "344": [
+   "IGUI_ALifeUI_5e8bfac415ad16c2",
+   "Game minutes between raid waves.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:245"
+   ]
+  ],
+  "345": [
+   "IGUI_ALifeUI_7ad7217a7fd29cd5",
+   "Raid helicopter",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:246"
+   ]
+  ],
+  "346": [
+   "IGUI_ALifeUI_193439706ffa56e9",
+   "Whether the raid arrives with a helicopter.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:247"
+   ]
+  ],
+  "347": [
+   "IGUI_ALifeUI_439bcb4a1acd5249",
+   "3 hostile military 30 tiles ahead, roaming.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:665"
+   ]
+  ],
+  "348": [
+   "IGUI_ALifeUI_7b9d002263c2713f",
+   "Test squad of 3",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:665"
+   ]
+  ],
+  "349": [
+   "IGUI_ALifeUI_55544bbd669c6a32",
+   "One friendly medic at your position, patrolling.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:672"
+   ]
+  ],
+  "350": [
+   "IGUI_ALifeUI_6dc822095e04bd4f",
+   "Friendly medic here",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:672"
+   ]
+  ],
+  "351": [
+   "IGUI_ALifeUI_4fe2f6f74ecc1ad6",
+   "Raid now",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:679"
+   ]
+  ],
+  "352": [
+   "IGUI_ALifeUI_5ab774e61cfe8040",
+   "A forced full-scale raid on you.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:679"
+   ]
+  ],
+  "353": [
+   "IGUI_ALifeUI_08a3c4234ee00cbf",
+   "Visitor now",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:685"
+   ]
+  ],
+  "354": [
+   "IGUI_ALifeUI_15af72bc7f56f9fc",
+   "A base visitor at your test base.",
+   [
+    "shared/ProjectALife/Admin/ALifeSpawnPlan.lua:685"
+   ]
+  ],
+  "355": [
+   "IGUI_ALifeUI_672ce171513a6339",
+   "Toll chain",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:175"
+   ]
+  ],
+  "356": [
+   "IGUI_ALifeUI_1a684b8965ca4e44",
+   "Toll gate",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:183"
+   ]
+  ],
+  "357": [
+   "IGUI_ALifeUI_1a67fa8365abaa30",
+   "Toll fort",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:191"
+   ]
+  ],
+  "358": [
+   "IGUI_ALifeUI_273725a160b86ab1",
+   "Raider camp",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:258"
+   ]
+  ],
+  "359": [
+   "IGUI_ALifeUI_3d696f3148d0f6ae",
+   "Raider stronghold camp",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:265"
+   ]
+  ],
+  "360": [
+   "IGUI_ALifeUI_1b32afc75a91c700",
+   "Ambush nest",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:306"
+   ]
+  ],
+  "361": [
+   "IGUI_ALifeUI_1b31a7555a4e3550",
+   "Ambush line",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:313"
+   ]
+  ],
+  "362": [
+   "IGUI_ALifeUI_7d295ce64518d859",
+   "Patrol post",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:339"
+   ]
+  ],
+  "363": [
+   "IGUI_ALifeUI_300a38f15a28e859",
+   "Forward post",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:364"
+   ]
+  ],
+  "364": [
+   "IGUI_ALifeUI_57ed563074c715f9",
+   "Military depot",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:401"
+   ]
+  ],
+  "365": [
+   "IGUI_ALifeUI_4220148f3d271a44",
+   "Road control",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:470"
+   ]
+  ],
+  "366": [
+   "IGUI_ALifeUI_2e7d168b1f74aad3",
+   "Checkpoint control",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:483"
+   ]
+  ],
+  "367": [
+   "IGUI_ALifeUI_06650b2047d1be0d",
+   "Field station",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:501"
+   ]
+  ],
+  "368": [
+   "IGUI_ALifeUI_4e0ea85b26ecaff0",
+   "Farmstead camp",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:555"
+   ]
+  ],
+  "369": [
+   "IGUI_ALifeUI_5eda958067a23088",
+   "Farm compound",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:569"
+   ]
+  ],
+  "370": [
+   "IGUI_ALifeUI_52e50d007e1e4a5c",
+   "Trader stop",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:590"
+   ]
+  ],
+  "371": [
+   "IGUI_ALifeUI_4c63300a25e56c6c",
+   "Trading post",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:621"
+   ]
+  ],
+  "372": [
+   "IGUI_ALifeUI_5f20f0e61a99799b",
+   "Scrapper camp",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:697"
+   ]
+  ],
+  "373": [
+   "IGUI_ALifeUI_333d881a2e961620",
+   "Salvage yard camp",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateData.lua:707"
+   ]
+  ],
+  "374": [
+   "IGUI_ALifeUI_671e22741ae71eab",
+   "Homestead",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2Folk.lua:104"
+   ]
+  ],
+  "375": [
+   "IGUI_ALifeUI_4ce983496918b8f6",
+   "Farm with barn",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2Folk.lua:111"
+   ]
+  ],
+  "376": [
+   "IGUI_ALifeUI_295c92b87f64d5f2",
+   "Market stalls",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2Folk.lua:166"
+   ]
+  ],
+  "377": [
+   "IGUI_ALifeUI_70eecf8626979650",
+   "Market with back store",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2Folk.lua:174"
+   ]
+  ],
+  "378": [
+   "IGUI_ALifeUI_611857695e37f6fd",
+   "Walled base",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2Grand.lua:108"
+   ]
+  ],
+  "379": [
+   "IGUI_ALifeUI_20665ad60391bdca",
+   "Walk-in clinic",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2Grand.lua:180"
+   ]
+  ],
+  "380": [
+   "IGUI_ALifeUI_3fdc22e05b3abae0",
+   "Occupied scrapyard",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2Grand.lua:253"
+   ]
+  ],
+  "381": [
+   "IGUI_ALifeUI_553c181f1876e7a2",
+   "Farm settlement",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2Grand.lua:321"
+   ]
+  ],
+  "382": [
+   "IGUI_ALifeUI_167f09a835481425",
+   "Chain gate",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2Raid.lua:82"
+   ]
+  ],
+  "383": [
+   "IGUI_ALifeUI_418e53f10897e76a",
+   "Chain gate with booth",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2Raid.lua:90"
+   ]
+  ],
+  "384": [
+   "IGUI_ALifeUI_167eb8a235297011",
+   "Chain fort",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2Raid.lua:98"
+   ]
+  ],
+  "385": [
+   "IGUI_ALifeUI_48cea0d42a0c57c3",
+   "Plate-wall camp",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2Raid.lua:157"
+   ]
+  ],
+  "386": [
+   "IGUI_ALifeUI_3a9e0cf67d7ad194",
+   "Plate-wall stronghold",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2Raid.lua:164"
+   ]
+  ],
+  "387": [
+   "IGUI_ALifeUI_081f34553c6992a3",
+   "Crossfire hide",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2Raid.lua:209"
+   ]
+  ],
+  "388": [
+   "IGUI_ALifeUI_082167233cf2ce2d",
+   "Crossfire line",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2Raid.lua:216"
+   ]
+  ],
+  "389": [
+   "IGUI_ALifeUI_19d3b7b0321f906d",
+   "Salvage yard",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2Raid.lua:267"
+   ]
+  ],
+  "390": [
+   "IGUI_ALifeUI_6c1754c078d9de78",
+   "Workshop salvage yard",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2Raid.lua:276"
+   ]
+  ],
+  "391": [
+   "IGUI_ALifeUI_730411724308345e",
+   "Guard-shack post",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2State.lua:50"
+   ]
+  ],
+  "392": [
+   "IGUI_ALifeUI_6905e7d730b9987a",
+   "Walled forward post",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2State.lua:78"
+   ]
+  ],
+  "393": [
+   "IGUI_ALifeUI_335616095bf11f43",
+   "Fenced supply yard",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2State.lua:128"
+   ]
+  ],
+  "394": [
+   "IGUI_ALifeUI_69a33d2d4820d670",
+   "Cruiser roadblock",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2State.lua:204"
+   ]
+  ],
+  "395": [
+   "IGUI_ALifeUI_4956f97a4293a28a",
+   "Checkpoint with cells",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2State.lua:215"
+   ]
+  ],
+  "396": [
+   "IGUI_ALifeUI_7c6d737a33581c0c",
+   "Field precinct",
+   [
+    "shared/ProjectALife/Outposts/ALifeOutpostTemplateV2State.lua:231"
+   ]
+  ]
+ },
+ "_terimler": [
+  [
+   "Gear",
+   "Teçhizat"
+  ],
+  [
+   "Reputation",
+   "İtibar"
+  ],
+  [
+   "Faction",
+   "Fraksiyon"
+  ],
+  [
+   "Safehouse",
+   "Güvenli ev"
+  ],
+  [
+   "Outpost",
+   "Karakol"
+  ],
+  [
+   "Squad",
+   "Tim"
+  ],
+  [
+   "Crew",
+   "Ekip"
+  ],
+  [
+   "Group",
+   "Grup"
+  ],
+  [
+   "Visitor",
+   "Ziyaretçi"
+  ],
+  [
+   "Encounter",
+   "Karşılaşma"
+  ],
+  [
+   "Raid",
+   "Baskın"
+  ],
+  [
+   "Default",
+   "Varsayılan"
+  ],
+  [
+   "Creator",
+   "Oluşturucu"
+  ],
+  [
+   "Companion",
+   "Yol arkadaşı"
+  ],
+  [
+   "Blueprint",
+   "Yapı planı"
+  ],
+  [
+   "Preset",
+   "Ön ayar"
+  ],
+  [
+   "Loot",
+   "Ganimet"
+  ],
+  [
+   "Hostile",
+   "Düşman"
+  ],
+  [
+   "Friendly",
+   "Dost"
+  ],
+  [
+   "Neutral",
+   "Tarafsız"
+  ],
+  [
+   "Survivor",
+   "Hayatta kalan"
+  ],
+  [
+   "tile",
+   "kare"
+  ],
+  [
+   "npcs",
+   "NPC'ler"
+  ],
+  [
+   "cancel",
+   "İptal"
+  ],
+  [
+   "settings",
+   "Ayarlar"
+  ],
+  [
+   "saved",
+   "Kaydedildi"
+  ],
+  [
+   "risky",
+   "Riskli"
+  ],
+  [
+   "roster",
+   "Kadro"
+  ],
+  [
+   "save",
+   "Kaydet"
+  ],
+  [
+   "undo",
+   "Geri al"
+  ],
+  [
+   "base",
+   "temel"
+  ],
+  [
+   "driver",
+   "Şoför"
+  ],
+  [
+   "journal",
+   "Günlük"
+  ],
+  [
+   "note",
+   "Not"
+  ],
+  [
+   "removed",
+   "Kaldırıldı"
+  ],
+  [
+   "running",
+   "Koşma"
+  ],
+  [
+   "search",
+   "Arama"
+  ],
+  [
+   "selected",
+   "Seçili"
+  ],
+  [
+   "spawning",
+   "Ortaya çıkma"
+  ],
+  [
+   "admin console",
+   "Yönetici konsolu"
+  ],
+  [
+   "Diagnostics",
+   "Tanılama"
+  ],
+  [
+   "edit",
+   "Düzenle"
+  ],
+  [
+   "checkpoint",
+   "Kontrol noktası"
+  ],
+  [
+   "delete",
+   "Sil"
+  ],
+  [
+   "cars",
+   "Arabalar"
+  ],
+  [
+   "members",
+   "Üyeler"
+  ],
+  [
+   "status",
+   "Durum"
+  ],
+  [
+   "refresh",
+   "Yenile"
+  ],
+  [
+   "attack",
+   "saldır"
+  ],
+  [
+   "full",
+   "Tam"
+  ],
+  [
+   "nearby",
+   "yakında"
+  ],
+  [
+   "slow",
+   "Yavaş"
+  ],
+  [
+   "active",
+   "Etkin"
+  ],
+  [
+   "ally",
+   "Müttefik"
+  ],
+  [
+   "custom",
+   "Özel"
+  ],
+  [
+   "persistent",
+   "Kalıcı"
+  ],
+  [
+   "character",
+   "Karakter"
+  ],
+  [
+   "defend",
+   "savun"
+  ],
+  [
+   "give",
+   "Ver"
+  ],
+  [
+   "health",
+   "Sağlık"
+  ],
+  [
+   "near",
+   "Yakın"
+  ],
+  [
+   "Profile",
+   "Profil"
+  ],
+  [
+   "Spawn point",
+   "Doğma noktası"
+  ],
+  [
+   "damage",
+   "Hasar"
+  ],
+  [
+   "helicopter",
+   "Helikopter"
+  ],
+  [
+   "weapon",
+   "Silah"
+  ],
+  [
+   "behaviour",
+   "Davranış"
+  ],
+  [
+   "gate",
+   "Kapı"
+  ],
+  [
+   "patrol",
+   "Devriye"
+  ],
+  [
+   "toll",
+   "Haraç"
+  ],
+  [
+   "medic",
+   "Sıhhiyeci"
+  ],
+  [
+   "animation",
+   "Animasyon"
+  ],
+  [
+   "patrolling",
+   "Devriye geziyor"
+  ],
+  [
+   "police",
+   "Polis"
+  ],
+  [
+   "allowed",
+   "izinli"
+  ],
+  [
+   "blockade",
+   "Barikat"
+  ],
+  [
+   "civilian",
+   "Sivil"
+  ],
+  [
+   "combat",
+   "Çatışma"
+  ],
+  [
+   "direction",
+   "Yön"
+  ],
+  [
+   "drop",
+   "Bırak"
+  ],
+  [
+   "fight",
+   "Savaş"
+  ]
+ ]
+}

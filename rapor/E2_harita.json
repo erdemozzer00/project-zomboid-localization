@@ -1,0 +1,1728 @@
+{
+ "_paket": "E2",
+ "_grup": "bosluk_soz",
+ "_dosya": "RadioData_lua",
+ "_baslik": "Eksik sözlerin ikinci turu: oyunun İngilizce doldurduğu değerler (E2)",
+ "_parcalar": [
+  [
+   1,
+   124
+  ],
+  [
+   125,
+   190
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "RD_ALifeLine_2d50c9716e2c1d43",
+   "Heard you dropped {n} of them, good",
+   [
+    "ALifeTalk3React.lua",
+    "local R ",
+    "NPC"
+   ]
+  ],
+  "2": [
+   "RD_ALifeLine_57fb4b2c69c193b3",
+   "Our {kind} is {at}, {where}",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "3": [
+   "RD_ALifeLine_27b0124a6a163a8c",
+   "Got a {kind} {at}, {where}, knock before you come in",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "4": [
+   "RD_ALifeLine_22ba67ed561ac6f5",
+   "I sleep {at}, {where}, don't make me regret saying so",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "5": [
+   "RD_ALifeLine_3fba0b2830a859e9",
+   "Same roof since this started, {at}, {where}",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "6": [
+   "RD_ALifeLine_624cad5a51f55341",
+   "Our {kind} is {at}, {where}, come by if you need a bed",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "7": [
+   "RD_ALifeLine_0e46fc9b54ad042d",
+   "{At}, {where}, we keep the lights low",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "8": [
+   "RD_ALifeLine_7eb082282eb37734",
+   "Set up a {kind} {at}, {where}, bring your own tools",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "9": [
+   "RD_ALifeLine_7e6122d31cbc5f8c",
+   "{where}, {at}, behind the old yard if you're asking",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "10": [
+   "RD_ALifeLine_5481142b2f68cec5",
+   "We bunk {at}, {where}, nothing fancy",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "11": [
+   "RD_ALifeLine_7db1b6704634c052",
+   "Our {kind} is {at}, {where}, there's always a cot for someone hurt",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "12": [
+   "RD_ALifeLine_7f11303a7afe73bc",
+   "We're {at}, {where}, ask for the medic first",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "13": [
+   "RD_ALifeLine_18b4f4b871f63774",
+   "Look {at}, {where}, we keep a light in the window",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "14": [
+   "RD_ALifeLine_25f082b500386277",
+   "I patch people up {at}, {where}, come early if you're bleeding",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "15": [
+   "RD_ALifeLine_0f711e3718b812ca",
+   "My {kind} is {at}, {where}, clean bandages inside",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "16": [
+   "RD_ALifeLine_2a5581d20b56d9ad",
+   "Got a plot and a {kind} {at}, {where}, mind the rows",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "17": [
+   "RD_ALifeLine_7ec07dc57a6ccda3",
+   "I'm out {at}, {where}, follow the smell of the garden",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "18": [
+   "RD_ALifeLine_45a042ee4763a627",
+   "The shop and my cot are {at}, {where}, bring a wrench",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "19": [
+   "RD_ALifeLine_202f6d9f7c307023",
+   "I live over the garage {at}, {where}, listen for the generator",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "20": [
+   "RD_ALifeLine_42e5d91c0f3ecc69",
+   "Built the place myself {at}, {where}, check the walls and tell me what you think",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "21": [
+   "RD_ALifeLine_571c780b30e4efa5",
+   "{At}, {where}, the one with the boarded windows",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "22": [
+   "RD_ALifeLine_47b33dfe1d7e7a16",
+   "We keep a quiet {kind} {at}, {where}, everyone is welcome",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "23": [
+   "RD_ALifeLine_5fbeeff5088a57a9",
+   "Come and sit with us {at}, {where}, the door is open",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "24": [
+   "RD_ALifeLine_54008c19676fa3db",
+   "Station crew sleeps {at}, {where}, look for the red door",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "25": [
+   "RD_ALifeLine_32f529df7f8cffde",
+   "We're {at}, {where}, easy to spot, we kept the truck",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "26": [
+   "RD_ALifeLine_7ab8bb7c50bb96d3",
+   "Post is {at}, {where}, check in at the desk",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "27": [
+   "RD_ALifeLine_17b9764610864229",
+   "We run out of a {kind} {at}, {where}, don't come armed and loud",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "28": [
+   "RD_ALifeLine_06be64f932610929",
+   "Position is {at}, {where}, approach with hands visible",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "29": [
+   "RD_ALifeLine_2c2ec1cd71b7dafe",
+   "{At}, {where}, you didn't get this from me",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "30": [
+   "RD_ALifeLine_1f5c9d4b723fe84b",
+   "You're one of us now, {at}, {where}, there's a bunk if you need it",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "31": [
+   "RD_ALifeLine_1c2c63316bf5bb97",
+   "Come by any time, {at}, {where}, I'll tell them you're good",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "32": [
+   "RD_ALifeLine_2ca2f4684d49b294",
+   "You've earned it, post is {at}, {where}, I'll tell the desk to expect you",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "33": [
+   "RD_ALifeLine_35a65fbf6f19aca3",
+   "Cleared to tell you, {at}, {where}, keep it to yourself",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "34": [
+   "RD_ALifeLine_40a3e9d77a02f19f",
+   "Not many hear this, {at}, {where}, don't bring anyone",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "35": [
+   "RD_ALifeLine_33787a1315a43842",
+   "I set up most days {at}, {where}, bring something worth swapping",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "36": [
+   "RD_ALifeLine_6c91ef394cb60723",
+   "Find my stall {at}, {where}, I'm there till dark",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "37": [
+   "RD_ALifeLine_5236c61943fb48c5",
+   "Told you already, {at}, {where}",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "38": [
+   "RD_ALifeLine_68f591a5664dbd61",
+   "Same place as before, {at}, {where}",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "39": [
+   "RD_ALifeLine_28396a7f75606e4f",
+   "Still {at}, {where}, nothing changed",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "40": [
+   "RD_ALifeLine_65dbad714e2bfa14",
+   "You forgot already, {at}, {where}",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "41": [
+   "RD_ALifeLine_2562e4883a2705c7",
+   "Short memory, huh, {at}, {where}",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "42": [
+   "RD_ALifeLine_32cd8e383e64c6c7",
+   "Write it down this time, {at}, {where}",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "43": [
+   "RD_ALifeLine_7182c4e513453409",
+   "It's {at}, {where}, same as I said",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "44": [
+   "RD_ALifeLine_3a456f617fee2aa5",
+   "Home's a {kind} {at}, {where}, it isn't much",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets  > any ",
+    "NPC"
+   ]
+  ],
+  "45": [
+   "RD_ALifeLine_11a07c1625bcf07a",
+   "We've been holed up {at}, {where}",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets  > any ",
+    "NPC"
+   ]
+  ],
+  "46": [
+   "RD_ALifeLine_76bc931a38412765",
+   "{where}, a {kind} {at}, you'll find it if you look",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets  > any ",
+    "NPC"
+   ]
+  ],
+  "47": [
+   "RD_ALifeLine_678ab7821256bf34",
+   "I trust you, so here it is, {at}, {where}, ask for me by name",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets  > any ",
+    "NPC"
+   ]
+  ],
+  "48": [
+   "RD_ALifeLine_3a5d6e7106865b63",
+   "My door is open to you, {at}, {where}",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets  > any ",
+    "NPC"
+   ]
+  ],
+  "49": [
+   "RD_ALifeLine_5efd588018e8f9fe",
+   "{At}, {where}, look for the table with the tarp over it",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets  > any ",
+    "NPC"
+   ]
+  ],
+  "50": [
+   "RD_ALifeLine_237d8b8c7ea8894d",
+   "My stall moves, but lately it's {at}, {where}",
+   [
+    "ALifeTalk5Home.lua",
+    "local sets  > any ",
+    "NPC"
+   ]
+  ],
+  "51": [
+   "RD_ALifeLine_1cf29225298a4f5a",
+   "{who}, I was a {job} before all this.. now I just try to wake up tomorrow",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "52": [
+   "RD_ALifeLine_748c4fff052e3af9",
+   "Name's {who}, I was a {job} back when that meant something",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "53": [
+   "RD_ALifeLine_1c0e00cf23e3fa74",
+   "I'm {who}, I was a {job}, had a normal life, bills, all of it.. gone",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "54": [
+   "RD_ALifeLine_7606c110255cf220",
+   "{who}, I was a {job}.. feels like somebody else's life now",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "55": [
+   "RD_ALifeLine_1072279262ab1c82",
+   "{who}, I was a {job}, still got the hands for it, just no paycheck",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "56": [
+   "RD_ALifeLine_744342b868cf92b2",
+   "Name's {who}, worked as a {job} right up till it all fell apart",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "57": [
+   "RD_ALifeLine_7d7b8d1a01262239",
+   "{who}, I was a {job}, still am, someone has to be",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "58": [
+   "RD_ALifeLine_2884ee701c76cb1e",
+   "I'm {who}, a {job}, kept people alive for a living and I'm still trying",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "59": [
+   "RD_ALifeLine_2f5135582a661aaa",
+   "{who}, I was a {job}, the badge doesn't mean much now but I still wear it",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "60": [
+   "RD_ALifeLine_1a24119938061963",
+   "Name's {who}, worked as a {job} and I still act like one",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "61": [
+   "RD_ALifeLine_13800c2363e75015",
+   "{who}, I was a {job}, that's all you need",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "62": [
+   "RD_ALifeLine_44d2e1865ae8daba",
+   "Name's {who}, a {job}.. orders stopped coming, I didn't stop",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "63": [
+   "RD_ALifeLine_4f4071441e1938eb",
+   "{who}, was a {job} if you believe that, ha!",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "64": [
+   "RD_ALifeLine_49e2c86e16a33ca8",
+   "They call me {who}.. a {job} once, different rules now",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "65": [
+   "RD_ALifeLine_597387e751fd1aaf",
+   "{who}, why the hell you wanna know?",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "66": [
+   "RD_ALifeLine_6e0a586771a270b4",
+   "{who}, that's all you're getting",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "67": [
+   "RD_ALifeLine_0ea5d77847ce6d70",
+   "{who}, been out here {span}, that's my story",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "68": [
+   "RD_ALifeLine_78fddd0d1e8c00b5",
+   "I'm {who}, not much else to say.. still breathing",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "69": [
+   "RD_ALifeLine_54b356f865b980f0",
+   "{who}, just another one who didn't get bit",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "70": [
+   "RD_ALifeLine_103fc06b3677391e",
+   "{who}, normal person, normal life.. then this",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "71": [
+   "RD_ALifeLine_6521d3db7b6e36a4",
+   "I'm {who}, I had a house, a job, payments.. you know",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "72": [
+   "RD_ALifeLine_30f0b33872a84f84",
+   "{who}, I help where I can, that's all",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "73": [
+   "RD_ALifeLine_2ef19dd75e3b6c5f",
+   "{who}, keeping the peace, what's left of it",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "74": [
+   "RD_ALifeLine_29c4a15d58732e7d",
+   "{who}, that's all I'm saying",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "75": [
+   "RD_ALifeLine_3be87fe45f3a5753",
+   "{who}, now back off",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "76": [
+   "RD_ALifeLine_50c8a28c17b7bae5",
+   "Since it all went to hell.. so {span}, {season}",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "77": [
+   "RD_ALifeLine_2de6a4a749cb35d5",
+   "Since day one, that's {span} now, I stopped counting",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "78": [
+   "RD_ALifeLine_034ba67707d08090",
+   "Out here? {span}, every single one of them, {season}",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "79": [
+   "RD_ALifeLine_6cd0b5c07ddc6698",
+   "God.. {span}, has it really been that long.. {season}",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "80": [
+   "RD_ALifeLine_687d514d320256d0",
+   "Been {span}, give or take, {season}",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "81": [
+   "RD_ALifeLine_128b12b03cf892de",
+   "It's been {span}, every day somebody new needs patching, {season}",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "82": [
+   "RD_ALifeLine_4954d1443b3bcdd9",
+   "Since the first night, so {span}, {season}",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "83": [
+   "RD_ALifeLine_6ffbba2821554819",
+   "Since the first call-up, so {span}, {season}",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "84": [
+   "RD_ALifeLine_6233fb6d7862062f",
+   "Been {span}, and I'm still the one standing, {season}",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "85": [
+   "RD_ALifeLine_1b098e191430e608",
+   "Long enough, like {span}, {season}",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "86": [
+   "RD_ALifeLine_6b2cf80116a685b9",
+   "Stay the hell away from {bad} {badat}.. but {good} {goodat} are alright",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "87": [
+   "RD_ALifeLine_3157f2af09718d64",
+   "Avoid {bad} {badat}, and {good} {goodat}? Them I'd trust",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "88": [
+   "RD_ALifeLine_31b6b1a1127f836b",
+   "We've had trouble with {bad} {badat}.. {good} {goodat} are clean",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "89": [
+   "RD_ALifeLine_3e6a064b2df9135b",
+   "Hostiles, {bad}, {badat}.. friendlies, {good}, {goodat}, both marked",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "90": [
+   "RD_ALifeLine_16f989c71931a4d0",
+   "{bad} {badat}? Assholes! But {good} {goodat} pay their debts",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "91": [
+   "RD_ALifeLine_008180b1659dea41",
+   "There's {bad} {badat}, stay away from there, I mean it",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "92": [
+   "RD_ALifeLine_5b0a40ae194b81b9",
+   "Don't go near {badat}, there's {bad}.. they'll take everything you've got",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "93": [
+   "RD_ALifeLine_429d694f7f480d16",
+   "Hostiles {badat}, {bad}, avoid",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "94": [
+   "RD_ALifeLine_66ec13e73be32fd3",
+   "Even I stay away from {bad} {badat}",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "95": [
+   "RD_ALifeLine_5854810f2face184",
+   "There's {good} {goodat}, they're alright, tell them I sent you",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "96": [
+   "RD_ALifeLine_268704476ed0b02b",
+   "If you need people, {good} {goodat}.. decent folks",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "97": [
+   "RD_ALifeLine_64beae700ed6112d",
+   "There's {good} {goodat}, they don't cause trouble",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "98": [
+   "RD_ALifeLine_1ad93ce05e48908a",
+   "You know {contact}, {contactat}? Yeah, I know of them",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "99": [
+   "RD_ALifeLine_508e5c786deccaf6",
+   "You met {contact}? Lives {contactat}.. huh, small world",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "100": [
+   "RD_ALifeLine_505a3ddc5a84ccdb",
+   "{event}.. that's what I heard anyway",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "101": [
+   "RD_ALifeLine_2b2f25db653005a7",
+   "People are saying {event}",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "102": [
+   "RD_ALifeLine_749a4de95179406d",
+   "Heard {event}, scary stuff",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "103": [
+   "RD_ALifeLine_32edbd22032ea74c",
+   "Word is {event}.. keep your head down",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "104": [
+   "RD_ALifeLine_667f8688292aaddc",
+   "Oh God, haven't you heard.. {event}",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "105": [
+   "RD_ALifeLine_14bb1c340318d317",
+   "Got word {event}",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "106": [
+   "RD_ALifeLine_369ea1731927644d",
+   "Reports say {event}",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "107": [
+   "RD_ALifeLine_0a27c4ca5811b433",
+   "Word going round is {event}",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "108": [
+   "RD_ALifeLine_159da14704645932",
+   "{event}.. ha, better them than me",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "109": [
+   "RD_ALifeLine_208cd1c637412d39",
+   "You know {contact}, right? Lives {contactat}.. heard you two talked",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "110": [
+   "RD_ALifeLine_2b011f556b839593",
+   "{contact}, from {contactat}, mentioned someone like you",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "111": [
+   "RD_ALifeLine_336b6c5174718c93",
+   "{event}.. and there's {bad} {badat}, so watch it",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "112": [
+   "RD_ALifeLine_31cc15d524e72d01",
+   "Around here? {event}, keep your eyes open",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "113": [
+   "RD_ALifeLine_413d6c16281dde11",
+   "{event}.. it's getting worse, not better",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "114": [
+   "RD_ALifeLine_7a7b91534ce8d461",
+   "Situation, {event}, stay alert",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "115": [
+   "RD_ALifeLine_5eb9ce286d9538c8",
+   "{event}.. not my problem",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "116": [
+   "RD_ALifeLine_46d5cc8c43fef58c",
+   "There's {bad} {badat}, don't go poking around",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "117": [
+   "RD_ALifeLine_71eeb1422b342d7b",
+   "Watch it {badat}, people there aren't friendly",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "118": [
+   "RD_ALifeLine_2a6587953d3c40e0",
+   "Main thing? Stay away from {bad} {badat}",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "119": [
+   "RD_ALifeLine_4226b73b4a8d39f4",
+   "Hostiles holed up {badat}, avoid",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "120": [
+   "RD_ALifeLine_42a05bad2ded58a1",
+   "Haven't seen a soul go near {place} {placeat}, could be worth a look",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "121": [
+   "RD_ALifeLine_4f07d7b6232244cb",
+   "Nobody's been in {place} {placeat}, not that I've seen",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "122": [
+   "RD_ALifeLine_76bdc58c7d9db0b4",
+   "Nobody's picked over {place} {placeat} yet, far as I know",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "123": [
+   "RD_ALifeLine_3e13c3eb72a3d2a5",
+   "If you need a safe spot, {good} {goodat} won't turn you away",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "124": [
+   "RD_ALifeLine_1948fbe748d0c5ec",
+   "Safest place I know? {good}, {goodat}",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets ",
+    "NPC"
+   ]
+  ],
+  "125": [
+   "RD_ALifeLine_3c639e966b4f2c9f",
+   "{who}, used to be a {job}.. {span} ago that was my whole life",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets  > any ",
+    "NPC"
+   ]
+  ],
+  "126": [
+   "RD_ALifeLine_3191bff949a4dbcd",
+   "Me? {who}.. a {job} once, now I'm whatever keeps me breathing",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets  > any ",
+    "NPC"
+   ]
+  ],
+  "127": [
+   "RD_ALifeLine_6baf36ea737674ea",
+   "I marked it for you, {bad} {badat}, bad news, and {good} {goodat} won't shoot you on sight",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets  > any ",
+    "NPC"
+   ]
+  ],
+  "128": [
+   "RD_ALifeLine_11ddfc2936fbb3ff",
+   "I marked it, {bad} {badat}.. stay clear",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets  > any ",
+    "NPC"
+   ]
+  ],
+  "129": [
+   "RD_ALifeLine_25ca731e7a23129a",
+   "{good} {goodat}, good people, as far as that goes now",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets  > any ",
+    "NPC"
+   ]
+  ],
+  "130": [
+   "RD_ALifeLine_1de6dca6099365b0",
+   "Try {place} {placeat}, looked untouched last I passed",
+   [
+    "ALifeTalkGeneral.lua",
+    "local sets  > any ",
+    "NPC"
+   ]
+  ],
+  "131": [
+   "RD_ALifeLine_48b1624b62438276",
+   "Yeah, {what}",
+   [
+    "ALifeTalkRowLines.lua",
+    "local Extra ",
+    "NPC"
+   ]
+  ],
+  "132": [
+   "RD_ALifeLine_4f04c0e134ea12a1",
+   "Funny you ask, {what}",
+   [
+    "ALifeTalkRowLines.lua",
+    "local Extra ",
+    "NPC"
+   ]
+  ],
+  "133": [
+   "RD_ALifeLine_71e0ed5b70ea24ce",
+   "Word on the band, {what}",
+   [
+    "ALifeTalkRowLines.lua",
+    "local Extra ",
+    "NPC"
+   ]
+  ],
+  "134": [
+   "RD_ALifeLine_2bfebe9b2dd5710a",
+   "I keep the set on low, {what}",
+   [
+    "ALifeTalkRowLines.lua",
+    "local Extra ",
+    "NPC"
+   ]
+  ],
+  "135": [
+   "RD_ALifeLine_6926f7d46533dfc8",
+   "Just this, {what}, that's all I caught",
+   [
+    "ALifeTalkRowLines.lua",
+    "local Extra ",
+    "NPC"
+   ]
+  ],
+  "136": [
+   "RD_ALifeLine_6ab78052317a33ce",
+   "{what}, that's what's going round",
+   [
+    "ALifeTalkRowLines.lua",
+    "local Extra ",
+    "NPC"
+   ]
+  ],
+  "137": [
+   "RD_ALifeLine_169270943f7e21ac",
+   "Heard it myself, {what}",
+   [
+    "ALifeTalkRowLines.lua",
+    "local Extra ",
+    "NPC"
+   ]
+  ],
+  "138": [
+   "RD_ALifeLine_471c25d347b16de1",
+   "{what}, now get lost",
+   [
+    "ALifeTalkRowLines.lua",
+    "local Extra ",
+    "NPC"
+   ]
+  ],
+  "139": [
+   "RD_ALifeLine_28ceb31662681e0e",
+   "{what}, and that's all you get from me",
+   [
+    "ALifeTalkRowLines.lua",
+    "local Extra ",
+    "NPC"
+   ]
+  ],
+  "140": [
+   "RD_ALifeLine_1bdd742c516f8914",
+   "Alright.. I'm staying {home}. Don't bring company",
+   [
+    "ALifeTrees_engine_samples.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "141": [
+   "RD_ALifeLine_241d69eb2a48b3cb",
+   "Fine. I stay {home}, knock twice",
+   [
+    "ALifeTrees_engine_samples.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "142": [
+   "RD_ALifeLine_378909db5a7f0431",
+   "Couple weeks in, the ones who're left dug in somewhere.. there's {outpost}",
+   [
+    "ALifeTrees_engine_samples.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "143": [
+   "RD_ALifeLine_1627dd731b48203b",
+   "Yeah, people dug in at {outpost}, don't know if they're friendly",
+   [
+    "ALifeTrees_engine_samples.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "144": [
+   "RD_ALifeLine_60b648803dea8b5d",
+   "This {season} is gonna be a bastard",
+   [
+    "ALifeTrees_law.lua",
+    "lines  > idle_chatter ",
+    "NPC"
+   ]
+  ],
+  "145": [
+   "RD_ALifeLine_4e1f45194241dec4",
+   "How are you getting ready for {season}?",
+   [
+    "ALifeTrees_law2.lua",
+    "trees ",
+    "NPC"
+   ]
+  ],
+  "146": [
+   "RD_ALifeLine_4ffb25787d4dd459",
+   "Safe? No. Safer? {outpost}. If they still like you",
+   [
+    "ALifeTrees_law2.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "147": [
+   "RD_ALifeLine_575f651d19740a87",
+   "{season} out here is brutal",
+   [
+    "ALifeTrees_military.lua",
+    "lines  > idle_chatter ",
+    "NPC"
+   ]
+  ],
+  "148": [
+   "RD_ALifeLine_795e5e5845b8d8c4",
+   "{home}. I think. Phones died before I could call",
+   [
+    "ALifeTrees_military.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "149": [
+   "RD_ALifeLine_4699806c3b0692cd",
+   "We've got a post at {outpost}. Fences, guys on watch. Tell them a checkpoint sent you",
+   [
+    "ALifeTrees_military.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "150": [
+   "RD_ALifeLine_2b04a8be57824c4d",
+   "Same here. If you see any of ours, send them to {outpost}. Same goes for yours",
+   [
+    "ALifeTrees_military.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "151": [
+   "RD_ALifeLine_4cdb489e0d9914e5",
+   "There's movement at {outpost}. Lights at night. Could be ours, could be anybody",
+   [
+    "ALifeTrees_military2.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "152": [
+   "RD_ALifeLine_689b1b8a60db589c",
+   "Somebody set up at {outpost}. I need to know who before they know us",
+   [
+    "ALifeTrees_military2.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "153": [
+   "RD_ALifeLine_0df1fb2a7cb89970",
+   "My wife. Near {home}. If she's.. if she's there. If not, leave it on the table",
+   [
+    "ALifeTrees_military2.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "154": [
+   "RD_ALifeLine_6b376f2836300ba9",
+   "There's a group holding {outpost}. Last I heard",
+   [
+    "ALifeTrees_military2.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "155": [
+   "RD_ALifeLine_416ee8987963af6d",
+   "Some of ours dug in at {outpost}",
+   [
+    "ALifeTrees_military2.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "156": [
+   "RD_ALifeLine_3f4870f04298e4d2",
+   "Tell them about {outpost}. That's all I can do",
+   [
+    "ALifeTrees_military2.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "157": [
+   "RD_ALifeLine_49a717364e8b8012",
+   "Raiders set up at {outpost}. I need heads and rifles counted",
+   [
+    "ALifeTrees_military3.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "158": [
+   "RD_ALifeLine_7c720dd105cabb93",
+   "There's a crew at {outpost} that's been watching our trucks. I want to watch them back",
+   [
+    "ALifeTrees_military3.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "159": [
+   "RD_ALifeLine_51a0c23f35aeff12",
+   "Our post at {outpost} needs a message. Radio's not safe, everybody listens",
+   [
+    "ALifeTrees_military3.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "160": [
+   "RD_ALifeLine_46826ae80c6b4711",
+   "Courier work. Take this to {outpost}. Sealed",
+   [
+    "ALifeTrees_military3.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "161": [
+   "RD_ALifeLine_4aa2cc0471397394",
+   "We hold {outpost}. You'd be welcome, mostly",
+   [
+    "ALifeTrees_military3.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "162": [
+   "RD_ALifeLine_0b9e15014bed9a28",
+   "There's our post at {outpost}",
+   [
+    "ALifeTrees_military3.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "163": [
+   "RD_ALifeLine_0cef82915bd1f07e",
+   "Some. There's a group at {outpost}. Ex-Guard. They still share",
+   [
+    "ALifeTrees_military3.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "164": [
+   "RD_ALifeLine_5128018629476d79",
+   "A few. The ones at {outpost} took in kids. That says enough",
+   [
+    "ALifeTrees_military3.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "165": [
+   "RD_ALifeLine_1a194d5a25729299",
+   "Yeah. Ammo to the folks at {outpost}. They're short and I can't walk that far anymore",
+   [
+    "ALifeTrees_military3.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "166": [
+   "RD_ALifeLine_541f41ec37ead188",
+   "Take this box to {outpost}. They need it more than me",
+   [
+    "ALifeTrees_military3.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "167": [
+   "RD_ALifeLine_0b9718c62c3878b9",
+   "This {season} is gonna be rough on the sick ones",
+   [
+    "ALifeTrees_rescue.lua",
+    "lines  > idle_chatter ",
+    "NPC"
+   ]
+  ],
+  "168": [
+   "RD_ALifeLine_2daf0fe3454a0669",
+   "How's the {season} treating everyone?",
+   [
+    "ALifeTrees_rescue2.lua",
+    "trees ",
+    "NPC"
+   ]
+  ],
+  "169": [
+   "RD_ALifeLine_0b90acc77e1df5e6",
+   "Ugh. Ask me about the sick list. That's how the {season}'s treating us",
+   [
+    "ALifeTrees_rescue2.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "170": [
+   "RD_ALifeLine_225e5c69198d5398",
+   "{season} sucks, every one of them now",
+   [
+    "ALifeTrees_social.lua",
+    "lines  > companion_idle ",
+    "NPC"
+   ]
+  ],
+  "171": [
+   "RD_ALifeLine_5387b32d430a37cd",
+   "{season} again, huh, time's weird now",
+   [
+    "ALifeTrees_social.lua",
+    "lines  > idle_chatter ",
+    "NPC"
+   ]
+  ],
+  "172": [
+   "RD_ALifeLine_4b007071209a32b6",
+   "A {profession}, huh.. okay, I can see that, okay",
+   [
+    "ALifeTrees_social.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "173": [
+   "RD_ALifeLine_3fab503a477435f0",
+   "{season}, you know, miserable or beautiful, depending on how many dead are in it",
+   [
+    "ALifeTrees_social.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "174": [
+   "RD_ALifeLine_3341980d126975b0",
+   "There's people at {outpost}, I've seen their smoke, never got close",
+   [
+    "ALifeTrees_social.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "175": [
+   "RD_ALifeLine_1bde1b000c2e2b9c",
+   "I was a {profession}",
+   [
+    "ALifeTrees_social.lua",
+    "trees  > nodes  > start2 ",
+    "NPC"
+   ]
+  ],
+  "176": [
+   "RD_ALifeLine_36e41d6d02437d7a",
+   "{season}? Used to, now it's just a different way to be miserable",
+   [
+    "ALifeTrees_social2.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "177": [
+   "RD_ALifeLine_02a52c2941cc6d11",
+   "{home}? It's alright, walls are good, the smell's.. we'll get used to it",
+   [
+    "ALifeTrees_social2.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "178": [
+   "RD_ALifeLine_1f35ff9b2a6d72f4",
+   "I met people at {outpost}, they're okay, if you're polite",
+   [
+    "ALifeTrees_social2.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "179": [
+   "RD_ALifeLine_55a265725919ffa2",
+   "There's a group at {outpost}, they trade, mostly, I'll show you if you want",
+   [
+    "ALifeTrees_social3.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "180": [
+   "RD_ALifeLine_4a7a343c37fe0763",
+   "Before? Feels like a different life.. I was a {profession}",
+   [
+    "ALifeTrees_social3.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "181": [
+   "RD_ALifeLine_76fae9ff4ec11e20",
+   "Is it {season} already? Time's weird",
+   [
+    "ALifeTrees_survivor.lua",
+    "lines  > idle_chatter ",
+    "NPC"
+   ]
+  ],
+  "182": [
+   "RD_ALifeLine_4476214c36157a74",
+   "Back to {home}. I forgot my cat. I know. I KNOW. But I forgot my cat",
+   [
+    "ALifeTrees_survivor.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "183": [
+   "RD_ALifeLine_50d7638361ec0a1b",
+   "Getting ready? I'm just surviving the day, I can't think about {season}",
+   [
+    "ALifeTrees_survivor.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "184": [
+   "RD_ALifeLine_55be6bb91d3927d5",
+   "I know it's {season}. That's all I need. Days are for people with calendars",
+   [
+    "ALifeTrees_survivor.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "185": [
+   "RD_ALifeLine_093a0f6d40054c4a",
+   "I- okay. It's {home}. Don't bring anyone. Please. Just you, if you ever need anything",
+   [
+    "ALifeTrees_survivor2.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "186": [
+   "RD_ALifeLine_3d091f822518687c",
+   "Look, you seem okay. It's {home}. Knock first. Loud. Then say your name",
+   [
+    "ALifeTrees_survivor2.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "187": [
+   "RD_ALifeLine_4e71c7346bebe294",
+   "Check in. Huh. Nobody's offered that. ..Okay. {home}. You come alone, you come in daylight",
+   [
+    "ALifeTrees_survivor2.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "188": [
+   "RD_ALifeLine_15a4fb730c70731e",
+   "..Okay. I'm trusting you. {home}. Don't make me regret it",
+   [
+    "ALifeTrees_survivor2.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "189": [
+   "RD_ALifeLine_70ac5406502b015d",
+   "{outpost}. That's where everyone goes. You haven't been? Here",
+   [
+    "ALifeTrees_survivor2.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ],
+  "190": [
+   "RD_ALifeLine_0976d94c5cf05916",
+   "It's {season}. That's all I care about. Is it gonna freeze my water or not?",
+   [
+    "ALifeTrees_survivor2.lua",
+    "trees  > nodes ",
+    "NPC"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,205 @@
+# PAKET Y5R · parça 1/1 · satır 1-159 (159 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# ARAYÜZ: Konuşma penceresindeki düğmeler ve altlarındaki kısa notlar. 'OYUNCU SORUSU' oyuncunun kendi ağzından birinci tekil soru/söz (kısa, sonda nokta yok); 'NOT' düğmenin altında küçük yazıyla görünen, ne olacağını anlatan kısa açıklama (sonda nokta yok); 'KOŞUL NOTU' düğmenin açılması için gereken (ör. güven, beceri). Sığması için kısa tut.
+# Girdi biçimi: N | etiket | İngilizce
+
+##### KONUŞMA PENCERESİ SEKME ADLARI #####
+# Konuşma penceresinin üstündeki sekme düğmeleri (yanlarında 'Personal', 'World', 'Tasks'). Tek sözcük, kısa.
+1 | SEKME | Info
+
+##### SORU ZİNCİRİ help #####
+# Oyuncunun konuşma penceresinde seçtiği sorular; her soru bir öncekine cevap gelince açılır.
+2 | OYUNCU SORUSU (düğme) | Can you spare some help?
+3 | NOT (düğmenin altındaki kısa açıklama) | They weigh what they can give
+4 | OYUNCU SORUSU (düğme) | I'm short on food
+5 | NOT (düğmenin altındaki kısa açıklama) | They say what they can spare
+6 | OYUNCU SORUSU (düğme) | I'll pay you back
+7 | NOT (düğmenin altındaki kısa açıklama) | A deal starts to take shape
+8 | OYUNCU SORUSU (düğme) | Shake on it
+9 | NOT (düğmenin altındaki kısa açıklama) | They'll remember the deal
+10 | OYUNCU SORUSU (düğme) | I've helped people around here
+11 | NOT (düğmenin altındaki kısa açıklama) | Your name carries some weight
+12 | OYUNCU SORUSU (düğme) | Then I'll ask for a bigger favour
+13 | NOT (düğmenin altındaki kısa açıklama) | They size up how far they'll go
+14 | OYUNCU SORUSU (düğme) | Forget it, I'll manage
+15 | NOT (düğmenin altındaki kısa açıklama) | You leave the door open
+
+##### SORU ZİNCİRİ trade #####
+# Oyuncunun konuşma penceresinde seçtiği sorular; her soru bir öncekine cevap gelince açılır.
+16 | OYUNCU SORUSU (düğme) | Can we swap some things?
+17 | NOT (düğmenin altındaki kısa açıklama) | They tell you what they're short of
+18 | OYUNCU SORUSU (düğme) | I'll keep an eye out for it
+19 | NOT (düğmenin altındaki kısa açıklama) | They'll remember you offered
+20 | OYUNCU SORUSU (düğme) | What would you pay for it?
+21 | NOT (düğmenin altındaki kısa açıklama) | They name something real
+22 | OYUNCU SORUSU (düğme) | I can fix things
+23 | NOT (düğmenin altındaki kısa açıklama) | Your hands are worth something
+24 | KOŞUL NOTU | Needs mechanics skill
+25 | OYUNCU SORUSU (düğme) | Name a job and a price
+26 | NOT (düğmenin altındaki kısa açıklama) | They put a price on your skill
+27 | OYUNCU SORUSU (düğme) | Never mind, just looking
+28 | NOT (düğmenin altındaki kısa açıklama) | No harm done
+
+##### SORU ZİNCİRİ area #####
+# Oyuncunun konuşma penceresinde seçtiği sorular; her soru bir öncekine cevap gelince açılır.
+29 | OYUNCU SORUSU (düğme) | Tell me about this area
+30 | NOT (düğmenin altındaki kısa açıklama) | They talk about what they know
+31 | OYUNCU SORUSU (düğme) | Where is it dangerous?
+32 | NOT (düğmenin altındaki kısa açıklama) | They point out the bad spots
+33 | OYUNCU SORUSU (düğme) | How do I avoid it?
+34 | NOT (düğmenin altındaki kısa açıklama) | Free advice on staying unseen
+35 | OYUNCU SORUSU (düğme) | Anywhere worth searching?
+36 | NOT (düğmenin altındaki kısa açıklama) | They hint at untouched places
+37 | OYUNCU SORUSU (düğme) | Anyone else been through there?
+38 | NOT (düğmenin altındaki kısa açıklama) | They say who's been around
+39 | OYUNCU SORUSU (düğme) | Where would you sleep around here?
+40 | NOT (düğmenin altındaki kısa açıklama) | They name a quiet corner
+
+##### SORU ZİNCİRİ faction #####
+# Oyuncunun konuşma penceresinde seçtiği sorular; her soru bir öncekine cevap gelince açılır.
+41 | NOT (düğmenin altındaki kısa açıklama) | They tell you how they see themselves
+42 | OYUNCU SORUSU (düğme) | How long have you been together?
+43 | NOT (düğmenin altındaki kısa açıklama) | They tell you how it started
+44 | OYUNCU SORUSU (düğme) | What do you want out here?
+45 | NOT (düğmenin altındaki kısa açıklama) | They tell you what they're after
+46 | OYUNCU SORUSU (düğme) | Who are your enemies?
+47 | NOT (düğmenin altındaki kısa açıklama) | They name who to be careful of
+48 | OYUNCU SORUSU (düğme) | Could I ever run with you?
+49 | NOT (düğmenin altındaki kısa açıklama) | They weigh whether you could join
+50 | OYUNCU SORUSU (düğme) | What would I have to prove?
+51 | NOT (düğmenin altındaki kısa açıklama) | They tell you what counts
+52 | OYUNCU SORUSU (düğme) | How do you keep watch?
+53 | NOT (düğmenin altındaki kısa açıklama) | They tell you how they stay alive
+
+##### SORU ZİNCİRİ threat #####
+# Oyuncunun konuşma penceresinde seçtiği sorular; her soru bir öncekine cevap gelince açılır.
+54 | OYUNCU SORUSU (düğme) | Seen anything dangerous lately?
+55 | NOT (düğmenin altındaki kısa açıklama) | They tell you what's close
+56 | NOT (düğmenin altındaki kısa açıklama) | They tell you what they counted
+57 | NOT (düğmenin altındaki kısa açıklama) | They point you away from trouble
+58 | OYUNCU SORUSU (düğme) | I can deal with it
+59 | NOT (düğmenin altındaki kısa açıklama) | They look at how you carry yourself
+60 | KOŞUL NOTU | Needs aiming skill
+61 | OYUNCU SORUSU (düğme) | Then watch my back
+62 | NOT (düğmenin altındaki kısa açıklama) | They agree to cover you
+63 | NOT (düğmenin altındaki kısa açıklama) | They nod and let it go
+
+##### SORU ZİNCİRİ shelter #####
+# Oyuncunun konuşma penceresinde seçtiği sorular; her soru bir öncekine cevap gelince açılır.
+64 | OYUNCU SORUSU (düğme) | Any chance of a place to rest?
+65 | NOT (düğmenin altındaki kısa açıklama) | They think about where you could stay
+66 | OYUNCU SORUSU (düğme) | Just for tonight
+67 | NOT (düğmenin altındaki kısa açıklama) | They decide whether to trust you
+68 | OYUNCU SORUSU (düğme) | I'll keep watch
+69 | NOT (düğmenin altındaki kısa açıklama) | They like that you're offering
+70 | OYUNCU SORUSU (düğme) | Wake me if anything moves
+71 | NOT (düğmenin altındaki kısa açıklama) | You rest with one ear open
+72 | OYUNCU SORUSU (düğme) | I can pay for it
+73 | NOT (düğmenin altındaki kısa açıklama) | They name a price for the roof
+74 | OYUNCU SORUSU (düğme) | I'll bring it by morning
+75 | NOT (düğmenin altındaki kısa açıklama) | They'll hold you to it
+76 | OYUNCU SORUSU (düğme) | Maybe somewhere nearby then
+77 | NOT (düğmenin altındaki kısa açıklama) | They point somewhere else
+
+##### SORU ZİNCİRİ join #####
+# Oyuncunun konuşma penceresinde seçtiği sorular; her soru bir öncekine cevap gelince açılır.
+78 | OYUNCU SORUSU (düğme) | Could I join your group?
+79 | NOT (düğmenin altındaki kısa açıklama) | They think about whether you fit
+80 | NOT (düğmenin altındaki kısa açıklama) | They tell you what the group lacks
+81 | OYUNCU SORUSU (düğme) | I can do that
+82 | NOT (düğmenin altındaki kısa açıklama) | They test you with a question
+83 | OYUNCU SORUSU (düğme) | I'll bring supplies
+84 | NOT (düğmenin altındaki kısa açıklama) | A gift opens the conversation
+85 | OYUNCU SORUSU (düğme) | How much would be enough?
+86 | NOT (düğmenin altındaki kısa açıklama) | They name what it takes
+87 | OYUNCU SORUSU (düğme) | I'm not ready, just asking
+88 | NOT (düğmenin altındaki kısa açıklama) | You leave it for later
+
+##### SORU ZİNCİRİ calm #####
+# Oyuncunun konuşma penceresinde seçtiği sorular; her soru bir öncekine cevap gelince açılır.
+89 | OYUNCU SORUSU (düğme) | Easy, nobody wants trouble here
+90 | NOT (düğmenin altındaki kısa açıklama) | You try to cool things down
+91 | OYUNCU SORUSU (düğme) | I'm putting my weapon down
+92 | NOT (düğmenin altındaki kısa açıklama) | You show you mean it
+93 | OYUNCU SORUSU (düğme) | Now tell me what's wrong
+94 | NOT (düğmenin altındaki kısa açıklama) | They start to open up
+95 | OYUNCU SORUSU (düğme) | Look around, we're both outnumbered
+96 | NOT (düğmenin altındaki kısa açıklama) | You change how they see the odds
+97 | OYUNCU SORUSU (düğme) | Let's both walk away
+98 | NOT (düğmenin altındaki kısa açıklama) | You offer a way out
+99 | OYUNCU SORUSU (düğme) | I'll walk away, no harm done
+100 | NOT (düğmenin altındaki kısa açıklama) | You back off
+
+##### SORU ZİNCİRİ standoff #####
+# Oyuncunun konuşma penceresinde seçtiği sorular; her soru bir öncekine cevap gelince açılır.
+101 | OYUNCU SORUSU (düğme) | Lower your weapon, we can talk
+102 | NOT (düğmenin altındaki kısa açıklama) | You test how far they'll go
+103 | OYUNCU SORUSU (düğme) | I'll lower mine too
+104 | NOT (düğmenin altındaki kısa açıklama) | You trade trust for trust
+105 | OYUNCU SORUSU (düğme) | Now, who sent you?
+106 | NOT (düğmenin altındaki kısa açıklama) | They start explaining themselves
+107 | OYUNCU SORUSU (düğme) | Last chance, lower it
+108 | NOT (düğmenin altındaki kısa açıklama) | You press them hard
+109 | OYUNCU SORUSU (düğme) | Hand it over
+110 | NOT (düğmenin altındaki kısa açıklama) | They decide how scared they are
+111 | OYUNCU SORUSU (düğme) | Fine, keep it, just stay back
+112 | NOT (düğmenin altındaki kısa açıklama) | You give ground
+
+##### SORU ZİNCİRİ reunion #####
+# Oyuncunun konuşma penceresinde seçtiği sorular; her soru bir öncekine cevap gelince açılır.
+113 | OYUNCU SORUSU (düğme) | Good to see you again
+114 | NOT (düğmenin altındaki kısa açıklama) | They remember you
+115 | NOT (düğmenin altındaki kısa açıklama) | They tell you how the days went
+116 | OYUNCU SORUSU (düğme) | Anything new since?
+117 | NOT (düğmenin altındaki kısa açıklama) | They bring you up to date
+118 | OYUNCU SORUSU (düğme) | Still alive thanks to you
+119 | NOT (düğmenin altındaki kısa açıklama) | A little gratitude goes a long way
+120 | OYUNCU SORUSU (düğme) | I owe you one
+121 | NOT (düğmenin altındaki kısa açıklama) | They file it away for later
+122 | OYUNCU SORUSU (düğme) | Can't stay long
+123 | NOT (düğmenin altındaki kısa açıklama) | You keep it short
+
+##### SORU ZİNCİRİ warn #####
+# Oyuncunun konuşma penceresinde seçtiği sorular; her soru bir öncekine cevap gelince açılır.
+124 | OYUNCU SORUSU (düğme) | Watch yourself out there
+125 | NOT (düğmenin altındaki kısa açıklama) | You pass on a warning
+126 | OYUNCU SORUSU (düğme) | Stay inside after dark
+127 | NOT (düğmenin altındaki kısa açıklama) | They take it seriously
+128 | OYUNCU SORUSU (düğme) | Lock up and keep quiet
+129 | NOT (düğmenin altındaki kısa açıklama) | They agree to be careful
+130 | OYUNCU SORUSU (düğme) | I'll check on you later
+131 | NOT (düğmenin altındaki kısa açıklama) | You offer to come back
+132 | OYUNCU SORUSU (düğme) | Keep a candle low, I'll find you
+133 | NOT (düğmenin altındaki kısa açıklama) | You set a sign between you
+134 | OYUNCU SORUSU (düğme) | Just a heads up
+135 | NOT (düğmenin altındaki kısa açıklama) | You leave it at that
+##### SORU ZİNCİRİ favour #####
+# Oyuncunun konuşma penceresinde seçtiği sorular; her soru bir öncekine cevap gelince açılır.
+136 | OYUNCU SORUSU (düğme) | Can I ask a favour?
+137 | NOT (düğmenin altındaki kısa açıklama) | They hear you out
+138 | OYUNCU SORUSU (düğme) | Keep an eye on my stuff
+139 | NOT (düğmenin altındaki kısa açıklama) | They agree to watch your things
+140 | OYUNCU SORUSU (düğme) | Just until I'm back
+141 | NOT (düğmenin altındaki kısa açıklama) | They set a time limit
+142 | OYUNCU SORUSU (düğme) | Thanks, I owe you
+143 | NOT (düğmenin altındaki kısa açıklama) | They take note of the debt
+144 | OYUNCU SORUSU (düğme) | Vouch for me with your people
+145 | NOT (düğmenin altındaki kısa açıklama) | You ask them to speak for you
+146 | OYUNCU SORUSU (düğme) | I'll make it right
+147 | NOT (düğmenin altındaki kısa açıklama) | They give you the benefit of the doubt
+148 | OYUNCU SORUSU (düğme) | Never mind
+149 | NOT (düğmenin altındaki kısa açıklama) | You drop it
+
+##### ESİR SORGUSU #####
+# Esir alınmış NPC'ye her gün bir yenisi açılan sorular (düğme) ve altlarındaki not.
+150 | OYUNCU SORUSU (1. gün, düğme) | Ask who they are and how they're holding up
+151 | NOT (düğmenin altındaki kısa açıklama) | Their first answer, short and wary
+152 | OYUNCU SORUSU (2. gün, düğme) | Ask what they were doing out here
+153 | NOT (düğmenin altındaki kısa açıklama) | What they were doing out here
+154 | OYUNCU SORUSU (3. gün, düğme) | Ask who they run with
+155 | NOT (düğmenin altındaki kısa açıklama) | Who they run with and who gives orders
+156 | OYUNCU SORUSU (4. gün, düğme) | Ask where their people sleep
+157 | NOT (düğmenin altındaki kısa açıklama) | Where the group sleeps and how it keeps watch
+158 | OYUNCU SORUSU (5. gün, düğme) | Ask what it would take to win them over
+159 | NOT (düğmenin altındaki kısa açıklama) | What they would trade for a way out

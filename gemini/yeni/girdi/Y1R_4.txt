@@ -1,0 +1,530 @@
+# PAKET Y1R · parça 4/8 · satır 1014-1347 (334 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+# SAHNE: Konuşanlar KOLLUK: şerif, şerif yardımcısı, eyalet polisi, cezaevi memuru, memur, SWAT. Ton: kısa, mesafeli, emir kipine yakın; ekip içinde telsiz/polis dili ('anlaşıldı', 'temiz', 'geri çekil'); kendi aralarında yorgun ya da kuru şakalı olabilir. Oyuncuya konuşurken 'sen', resmi ama kaba değil.
+
+
+##### KNOCKED_DOWN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yere yıkıldı.
+1014 | reg=law,swat|cb=hot | Down! I'm down!
+1015 | reg=law,swat|cb=hot | I'm down, cover me!
+1016 | reg=law,swat|cb=hot | Help me up, I'm down!
+1017 | reg=law,swat | Man down, it's me, help!
+1018 | reg=law,swat | Knocked down, need help!
+1019 | reg=law,swat | Down, I'm down, assist!
+1020 | reg=law,swat | On the ground, cover me!
+1021 | reg=law,swat | Can't get up, help!
+1022 | reg=law,swat | I've gone down, cover me!
+1023 | reg=law,swat | Down, help me up!
+
+##### LEADER_DOWN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Grubun lideri düştü; şok.
+1024 | reg=law,swat | Sergeant's down!
+1025 | reg=law,swat | Command is down, I'm taking over
+1026 | reg=law,swat | Lead is down, hold the line
+1027 | reg=law,swat | Lead is down, I'm taking command
+
+##### LEAVING_COVER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Siperden çıkıyor; ekibe.
+1028 | reg=law,swat | Moving up, eyes on the left
+1029 | reg=law,swat | Leaving cover, keep them down
+# SAHNE: Konuşanlar KOLLUK: şerif, şerif yardımcısı, eyalet polisi, cezaevi memuru, memur, SWAT. Ton: kısa, mesafeli, emir kipine yakın; ekip içinde telsiz/polis dili ('anlaşıldı', 'temiz', 'geri çekil'); kendi aralarında yorgun ya da kuru şakalı olabilir. Oyuncuya konuşurken 'sen', resmi ama kaba değil.
+
+##### LEAVING_COVER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Siperden çıkıyor; ekibe.
+1030 | reg=law,swat | Going, hold your lanes
+1031 | reg=law,swat | Up and moving
+1032 | reg=law,swat | Leaving cover, watch my back
+1033 | reg=law,swat | Going now, eyes on me
+1034 | reg=law,swat | Up and moving, cover
+1035 | reg=law,swat | Moving up, stay with me
+1036 | reg=law,swat | Out of cover, going
+1037 | reg=law,swat | Breaking cover, watch left
+1038 | reg=law,swat | Mobile, mobile
+
+##### LOCATION_COMMENT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bulunduğu yer hakkında yorum.
+1039 | reg=law|world=building | Swear I've been called out to a house just like this, twice, same busted mailbox
+
+##### LOST_TARGET #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Hedefi gözden kaybetti.
+1040 | reg=law,swat | Lost visual, scan your sectors
+1041 | reg=law,swat | Suspect lost, watch the corners
+1042 | reg=law,swat | Where'd he go, anybody?
+
+##### LOW_AMMO #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Mermisi azaldı; ekibe.
+1043 | reg=law,swat | Low on rounds
+1044 | reg=law,swat | Ammo's getting thin, watch your shots
+1045 | reg=law,swat | Few rounds left, conserve
+
+##### MEDIC_HELP #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Sağlıkçı birine yardım ediyor ya da sağlıkçı çağrılıyor.
+1046 | reg=law,swat | Medic, we've got a casualty
+1047 | reg=law,swat | Anyone with medical training, now
+1048 | reg=law,swat | Need a medic over here
+1049 | reg=law,swat | Officer down, medic, now!
+1050 | reg=law,swat | Man hit, get the kit over here
+1051 | reg=law,swat | Bleeding bad, who has a trauma kit?
+1052 | reg=law,swat | Medic, we need a medic
+1053 | reg=law,swat | Officer down, need medical
+1054 | reg=law,swat | Get a medic up here
+1055 | reg=law,swat | Wounded here, medic
+
+##### MELEE_ENGAGE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Göğüs göğüse dövüşe giriyor.
+1056 | reg=law,swat|wp=melee | Back away, I'll use this!
+1057 | reg=law,swat|wp=melee | Closing in, hands up!
+1058 | reg=law,swat|wp=melee | Don't test me!
+1059 | reg=law,swat|wp=none | Hands off, back up!
+1060 | reg=law,swat|wp=gun | Too close to fire, going hands on
+1061 | reg=law,swat|wp=gun | Strike and move in
+1062 | reg=law,swat|wp=gun | No room to shoot, closing
+1063 | reg=law,swat|wp=gun | Gun's no good this close, hands on
+1064 | reg=law,swat | Stay back, I'll use force!
+1065 | reg=law,swat | Hands off, step back!
+1066 | reg=law,swat | I'm warning you, back off!
+1067 | reg=law,swat | Stay down, don't make me!
+1068 | reg=law,swat | Close quarters, stay back!
+1069 | reg=law,swat | Step back, now!
+
+##### MULTIPLE_CONTACTS #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Birden çok düşman/hedef; ekibe uyarı.
+1070 | reg=law,swat | Multiple contacts!
+1071 | reg=law,swat | More than one, watch out
+1072 | reg=law,swat | Several of them, spread out
+1073 | reg=law,swat | Contacts, lots of them
+
+##### OUT_OF_AMMO #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Mermisi bitti; ekibe.
+1074 | reg=law,swat|wp=gun|grp=squad | Dry! Switching to sidearm
+1075 | reg=law,swat|wp=gun|grp=squad | Out of ammo, covering with the pistol
+1076 | reg=law,swat|wp=gun|grp=squad | Empty, need a magazine
+1077 | reg=law,swat|wp=gun|grp=squad | I'm dry, cover me
+1078 | reg=law,swat|wp=gun|grp=solo | Dry, falling back
+1079 | reg=law,swat|wp=gun|grp=solo | Out of ammo, I'm moving
+1080 | reg=law,swat|wp=gun|grp=solo | Empty, switching to melee
+
+##### PLEAD #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yalvarıyor (öldürme, bırak).
+1081 | reg=law,swat|wd=hurt | I'm wounded, I'm done
+1082 | reg=law,swat|wd=hurt | I'm down, don't shoot
+1083 | reg=law,swat|wd=hurt | I'm hit, I surrender
+
+##### RAID_RETREAT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Baskından geri çekiliyor; ekibe.
+1084 | reg=law,swat | Pull out, fall back to the rally point
+1085 | reg=law,swat | Abort, everyone out
+1086 | reg=law,swat | Break off, we'll try again
+1087 | reg=law,swat | Withdraw, now
+
+##### RAID_START #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Baskın başlıyor; ekibe.
+1088 | reg=law,swat | Move in, secure the entry
+1089 | reg=law,swat | Teams go, check your sectors
+1090 | reg=law,swat | Go, go, hit them fast
+1091 | reg=law | We're moving in, stay behind me
+
+##### RELOAD #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Şarjör değiştiriyor/silahı dolduruyor; ekibe 'koruyun'.
+1092 | reg=law,swat|grp=squad | Magazine change, hold the line
+1093 | reg=law,swat|grp=squad | Reloading, someone watch my side
+1094 | reg=law,swat|grp=squad | Dropping a mag, cover me
+1095 | reg=law,swat|grp=solo | Reloading
+1096 | reg=law,swat|grp=solo | Magazine change, eyes up
+1097 | reg=law,swat|grp=solo | Reload, stay behind something
+1098 | reg=law,swat|grp=solo | Quick reload
+
+##### RETREAT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Geri çekilme; ekibe.
+1099 | reg=law,swat|wd=hurt | I'm hit, retreating to cover
+1100 | reg=law,swat|wd=hurt | Wounded, withdrawing
+1101 | reg=law,swat|wd=hurt | Hurt bad, falling back to cover
+
+##### STACK_UP #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Kapı önünde sıraya dizilme (baskın öncesi); ekibe.
+1102 | reg=law,swat | Stack up, ready on the door
+1103 | reg=law,swat | On me, quiet, we go on three
+1104 | reg=law,swat | Weapons ready, stack tight
+1105 | reg=law,swat | Door's ours in three, two
+1106 | reg=law,swat | Tight on me, ready to go
+1107 | reg=law,swat | Ready on the door, wait
+1108 | reg=law,swat | Line up, ready
+1109 | reg=law,swat | Quiet, on me, on three
+1110 | reg=law,swat | Take your positions, stack up
+1111 | reg=law,swat | Stay tight, hold for the call
+1112 | reg=law,swat | Stand by, ready to move
+
+##### STEADY #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# 'Sakin ol, sabit dur' telkini.
+1113 | reg=law,swat | Steady, pick your targets
+1114 | reg=law,swat | Hold, hold, wait for the shot
+1115 | reg=law,swat | Steady, nobody fires early
+1116 | reg=law,swat | Control your breathing
+1117 | reg=law,swat | Easy, easy
+1118 | reg=law,swat | Hold your nerve
+1119 | reg=law,swat | Stay calm, stay sharp
+1120 | reg=law,swat | Easy, stay in control
+1121 | reg=law,swat | Hold steady, wait for it
+1122 | reg=law,swat | Slow your breathing
+1123 | reg=law,swat | Stay focused, stay calm
+1124 | reg=law,swat | Keep it steady
+
+##### SUPPORT_CALL #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Takviye/destek çağırıyor.
+1125 | reg=swat | Somebody take the back, cover the rear!
+
+##### SUPPRESSED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Baskı ateşi altında, başını kaldıramıyor.
+1126 | reg=law,swat | Pinned down!
+1127 | reg=law,swat | Can't move, heavy fire
+1128 | reg=law,swat | We're pinned, need cover fire
+1129 | reg=law,swat | Heads down, they have us pinned
+1130 | reg=law,swat | Can't move, keep them off me
+1131 | reg=law,swat | Pinned, need covering fire
+1132 | reg=law,swat | Under heavy fire, can't advance
+1133 | reg=law,swat | They have the lane, hold
+1134 | reg=law,swat | Pinned and can't flank, hold
+
+##### SUPPRESS_FIRE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Baskı ateşi açıyor; ekibe.
+1135 | reg=law,swat | Suppressing, suppressing!
+1136 | reg=law,swat | Covering fire, go go!
+1137 | reg=law,swat | Keep their heads down, move!
+1138 | reg=law,swat | Laying down fire, move now
+1139 | reg=law,swat | Fire for effect, hold them
+1140 | reg=law,swat | Keep up the fire, don't let them move
+1141 | reg=law,swat | Rounds on target, keep them low
+1142 | reg=law,swat|wd=hurt | Suppressing, I'm hit
+1143 | reg=law,swat|wd=hurt | Covering fire, wounded
+1144 | reg=law,swat|wd=hurt | Hit, still laying down fire
+1145 | reg=law,swat | Keep them pinned, keep firing
+1146 | reg=law,swat | Pin them down, steady
+1147 | reg=law,swat | Hold their heads down, keep it up
+
+##### SURRENDER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Teslim oluyor.
+1148 | reg=law,swat|wp=none | I'm unarmed, I give up
+1149 | reg=law,swat|wp=none | No weapon, hands up
+1150 | reg=law,swat|wp=none | Easy, I've got nothing
+1151 | reg=law,swat|wd=hurt | I'm done, I'm hit, hands up
+1152 | reg=law,swat|wd=hurt | I yield, I'm wounded
+1153 | reg=law,swat|wd=hurt | Taking my hands off the weapon
+1154 | reg=law,swat|wd=hurt | I'm hit, I'm done
+1155 | reg=law,swat|wd=hurt | Hands up, I'm wounded
+1156 | reg=law,swat|wd=hurt | Stop, I yield
+
+##### TAKING_COVER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Siper alıyor.
+1157 | reg=law,swat|grp=squad | Taking cover, left side
+1158 | reg=law,swat|grp=squad | Behind something solid, move
+# SAHNE: Konuşanlar KOLLUK: şerif, şerif yardımcısı, eyalet polisi, cezaevi memuru, memur, SWAT. Ton: kısa, mesafeli, emir kipine yakın; ekip içinde telsiz/polis dili ('anlaşıldı', 'temiz', 'geri çekil'); kendi aralarında yorgun ya da kuru şakalı olabilir. Oyuncuya konuşurken 'sen', resmi ama kaba değil.
+
+##### TAKING_COVER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Siper alıyor.
+1159 | reg=law,swat|grp=squad | Cover, cover, get low
+1160 | reg=law,swat|grp=squad | Down and behind something
+1161 | reg=law,swat|grp=solo | Behind this, hold
+1162 | reg=law,swat|grp=solo | Getting low
+1163 | reg=law,swat|grp=squad | Down, down, find cover
+1164 | reg=law,swat|grp=squad | Get low, use the corner
+1165 | reg=law,swat|grp=squad | Cover left, move
+1166 | reg=law,swat|grp=solo | Behind something, now
+1167 | reg=law,swat|grp=solo | Getting low, finding cover
+1168 | reg=law,swat|grp=solo | Cover, cover, I'm moving
+1169 | reg=law,swat | Cover! Get behind something!
+1170 | reg=law,swat | Take cover, take cover
+1171 | reg=law,swat | Low and behind something
+1172 | reg=law,swat | Down, find hard cover
+
+##### UNDER_FIRE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Ateş altında; ekibe.
+1173 | reg=law,swat|cb=hot | Shots fired, shots fired!
+1174 | reg=law,swat|cb=hot | Taking fire, get low!
+1175 | reg=law,swat|cb=hot | Incoming rounds, find cover
+1176 | reg=law,swat|cb=hot | We're taking fire from the front
+1177 | reg=law,swat | Shots fired, take cover!
+1178 | reg=law,swat | Taking fire, get down!
+1179 | reg=law,swat | Under fire, find cover!
+1180 | reg=law,swat | Get low, get low!
+
+##### WARN_BEFORE_ATTACK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Saldırmadan önce son uyarı; oyuncuya.
+1181 | reg=law,swat | Drop the weapon, last warning
+1182 | reg=law,swat | Hands where I can see them, now
+1183 | reg=law,swat | Back off, or I use force
+1184 | reg=law,swat | Final warning, drop it
+1185 | reg=law,swat | Step back or I'll act
+1186 | reg=law,swat | Last warning, back away
+
+##### WEAPON_JAM #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Silahı tutukluk yaptı.
+1187 | reg=law,swat | Malfunction, clearing it
+1188 | reg=law,swat | Jam, give me a second
+1189 | reg=law,swat | Clearing the jam, hold on
+1190 | reg=law,swat|wd=hurt | Jam, I'm hit, covering
+1191 | reg=law,swat|wd=hurt | Stoppage, I'm wounded
+1192 | reg=law,swat|wd=hurt | Jammed, can't clear it
+
+##### WEAPON_SWITCH #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Silah değiştiriyor.
+1193 | reg=law,swat | Switching to my sidearm
+1194 | reg=law,swat | Going to the pistol
+1195 | reg=law,swat | Transition, cover me
+1196 | reg=law,swat | Sidearm up, I'm okay
+1197 | reg=law,swat | Switching, cover me
+1198 | reg=law,swat | Transition, one second
+1199 | reg=law,swat | Going to my backup
+1200 | reg=law,swat | Changing weapons, cover
+1201 | reg=law,swat | Switching over, stand by
+1202 | reg=law,swat | Swapping, hold on
+1203 | reg=law,swat | Transitioning, cover me
+1204 | reg=law,swat | Backup out, I'm good
+
+# SAHNE: Konuşanlar ASKER: Kentucky Ulusal Muhafızları ve ordu kalıntıları, seçkin birlikler, milisler, asker kaçakları, paralı askerler. Ton: kısa, kuru, askerî emir ve rapor dili ('Temas!', 'Mevzini koru!', 'Anlaşıldı.', 'Sektör temiz.'). Rütbe ve askerî terimler Türk askerî diliyle (er, onbaşı, çavuş, teğmen, yüzbaşı; manga, tim, mevzi, siper, sektör). Milis ve asker kaçağı daha gayriresmî ve sert konuşabilir; paralı asker soğuk ve çıkarcı.
+
+##### ADVANCE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Ekip ilerliyor; yanındakilere 'ilerle' der gibi kısa çağrı.
+1205 | reg=military,elite | Advance by bounds
+1206 | reg=military,elite | Push on the contact, go
+1207 | reg=military,elite | Forward, maintain spacing
+1208 | reg=military,elite | Moving on the target, cover left
+1209 | reg=military,elite | Advancing on target
+1210 | reg=military,elite | Pushing forward, maintain interval
+1211 | reg=military,elite | Press the advantage, move
+1212 | reg=military,elite | Moving up, eyes on the flanks
+1213 | reg=military,elite | Closing, closing, hold your spacing
+1214 | reg=military,elite | Advance, advance, keep it tight
+1215 | reg=military,elite | Forward by bounds, go
+1216 | reg=military,elite | Maintaining pressure, moving up
+
+##### AFTER_FIGHT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Çatışma yeni bitti; nefes nefese, kendine ya da yanındakilere söylenen söz.
+1217 | reg=military,elite|wd=hurt|cb=calm | Wounded, need to treat this
+1218 | reg=military,elite|wd=hurt|cb=calm | Medic, I need dressing here
+1219 | reg=military,elite|wd=hurt|cb=calm | Treat the wound before we move
+
+##### AIMED_AT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Biri (çoğunlukla oyuncu) ona silah doğrulttu; doğrudan doğrultana tepki, 'sen'.
+1220 | reg=military,elite|wp=none | Unarmed, lower your weapon
+1221 | reg=military,elite|wp=none | I'm not armed, stand down
+1222 | reg=military,elite|wp=none | No weapon, don't fire
+1223 | reg=military,elite|wp=gun | Lower your weapon!
+1224 | reg=military,elite|wp=gun | You have two seconds, lower it
+1225 | reg=military,elite|wp=gun | Weapon down, now!
+1226 | reg=military,elite|wd=hurt|wp=melee | Wounded, lower your weapon
+1227 | reg=military,elite|wd=hurt|wp=melee | I'm hit, stand down
+1228 | reg=military,elite|wd=hurt|wp=melee | Wounded, don't fire
+
+##### ALLY_DOWN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yanındaki arkadaşı vuruldu/yere düştü; şok ya da öfke.
+1229 | reg=military,elite | Oh no, no, not him, no!
+1230 | reg=military,elite | Jesus Christ, stay with me! Eyes on me, EYES ON ME!
+1231 | reg=military,elite|grp=squad | Casualty, I need a medic
+1232 | reg=military,elite|grp=squad | He's down, pull him back
+1233 | reg=military,elite|grp=squad | Soldier down, cover us
+1234 | reg=military,elite|wd=hurt|grp=solo | Man down, I'm hit as well
+1235 | reg=military,elite|wd=hurt|grp=solo | One down, I'm wounded
+1236 | reg=military,elite|wd=hurt|grp=solo | One down, I can't move
+
+##### ALLY_HIT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yanındaki arkadaşı yaralandı; ekibe seslenir.
+1237 | reg=military,elite|grp=squad | Man hit!
+1238 | reg=military,elite|grp=squad | Soldier down, I'm moving
+1239 | reg=military,elite|grp=squad | Hit! Medic up!
+1240 | reg=military,elite|grp=squad | Friendly hit, cover me
+
+##### AMBUSH_READY #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Pusu kuruldu, ekip bekliyor; fısıltıyla yanındakilere.
+1241 | reg=military,elite | Hold fire, let them close
+1242 | reg=military,elite | Wait for the lead element
+1243 | reg=military,elite | Stay still, weapons ready
+1244 | reg=military,elite | Quiet, wait for the lead man
+1245 | reg=military,elite | Hold, wait for the lead element
+1246 | reg=military,elite | Stand by, stand by
+1247 | reg=military,elite | Remain concealed, await my call
+1248 | reg=military,elite | Quiet, let the lead pass
+1249 | reg=military,elite | Wait for the signal
+1250 | reg=military,elite | Stay low, hold position
+1251 | reg=military,elite | Steady, target approaching
+
+##### AREA_OVERRUN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bölgeyi zombiler/düşman bastı; geri çekilme telaşı.
+1252 | reg=military,elite | Perimeter breached, fall back
+1253 | reg=military,elite | Overrun, displace now
+1254 | reg=military,elite | We can't hold, withdraw by sections
+1255 | reg=military,elite | Line's broken, go to the fallback
+1256 | reg=military,elite | Position overrun, withdraw
+1257 | reg=military,elite | Line compromised, fall back
+1258 | reg=military,elite | We're breached, displace
+1259 | reg=military,elite | Overrun, execute fallback
+1260 | reg=military,elite | Cannot hold, pull out by sections
+1261 | reg=military,elite | Contact all sides, withdraw now
+1262 | reg=military,elite | Sector lost, move to the rally point
+1263 | reg=military,elite | Fall back, we're being overrun
+
+##### BREACH #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Kapıyı kırıp içeri dalma anı; ekibe çağrı.
+1264 | reg=military,elite | Breach, breach!
+1265 | reg=military,elite | Door's down, flow in
+1266 | reg=military,elite | Clear left, clear right
+1267 | reg=military,elite | In, in, in, take the corners
+1268 | reg=military,elite | Door's open, push in
+1269 | reg=military,elite | Breach complete, move
+1270 | reg=military,elite | Weapons up, flow through
+1271 | reg=military,elite | Breaching now!
+1272 | reg=military,elite | Entry point open, go
+1273 | reg=military,elite | Flow in, left and right
+1274 | reg=military,elite | Through the door, clear the room
+1275 | reg=military,elite | Go, go, take your sectors
+1276 | reg=military,elite | Door's open, move in
+1277 | reg=military,elite | Enter and clear, move
+1278 | reg=military,elite | Inside, secure the corners
+
+##### BREACH_FAILED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Kapı kırılamadı.
+1279 | reg=military,elite | Breach failed, regroup
+1280 | reg=military,elite | Door held, alternate entry
+1281 | reg=military,elite | No entry, shift left
+1282 | reg=military,elite | Blocked, find another way in
+1283 | reg=military,elite | Breach unsuccessful
+1284 | reg=military,elite | No entry, try alternate
+1285 | reg=military,elite | Door's reinforced, hold position
+1286 | reg=military,elite | Entry denied, reassess
+# SAHNE: Konuşanlar ASKER: Kentucky Ulusal Muhafızları ve ordu kalıntıları, seçkin birlikler, milisler, asker kaçakları, paralı askerler. Ton: kısa, kuru, askerî emir ve rapor dili ('Temas!', 'Mevzini koru!', 'Anlaşıldı.', 'Sektör temiz.'). Rütbe ve askerî terimler Türk askerî diliyle (er, onbaşı, çavuş, teğmen, yüzbaşı; manga, tim, mevzi, siper, sektör). Milis ve asker kaçağı daha gayriresmî ve sert konuşabilir; paralı asker soğuk ve çıkarcı.
+
+##### BREACH_FAILED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Kapı kırılamadı.
+1287 | reg=military,elite | Breach failed, shift position
+1288 | reg=military,elite | Blocked, find another entry
+1289 | reg=military,elite | It won't go, stand by
+1290 | reg=military,elite | Negative on the breach
+
+##### CAMP_CHATTER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Kampta oturmuş, arkadaşlarıyla gündelik sohbet.
+1291 | reg=military,elite | Somebody keep an eye on the new guy, he's quiet, and quiet worries me
+
+##### CLOSE_CONTACT #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Düşman çok yakında; ekibe kısa uyarı.
+1292 | reg=military,elite | Contact, close, close!
+1293 | reg=military,elite | Right on top of us!
+1294 | reg=military,elite | Too close, engage!
+
+##### COMBAT_ATTACK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# NPC çatışmanın içinde, silahı elinde; karşısındakine geri çekilmesini bağırıyor, yoksa ateş edecek. Kısa, gergin, bağırarak.
+1295 | reg=military,elite|wp=gun | Engaging!
+1296 | reg=military,elite|wp=gun | Firing, stay down!
+1297 | reg=military,elite|wp=gun | Target in the open, engaging
+1298 | reg=military,elite|wp=gun | Contact front, firing!
+1299 | reg=military,elite|wp=gun | Hold there or I fire!
+1300 | reg=military,elite|wp=melee | Close contact!
+1301 | reg=military,elite|wp=melee | Engaging hand to hand!
+1302 | reg=military,elite|wp=melee | Hold your ground!
+1303 | reg=military,elite|wp=melee | Down, stay down!
+1304 | reg=military,elite|wp=none | Release me!
+
+##### CONTACT_HOSTILE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Düşmanca biri görüldü; ekibe uyarı.
+1305 | reg=military,elite|grp=squad|cb=hot | Contact front!
+1306 | reg=military,elite|grp=squad|cb=hot | Hostiles in the open, engage
+1307 | reg=military,elite|grp=squad|cb=hot | Visual, two hostiles
+1308 | reg=military,elite|grp=squad|cb=hot | Enemy contact, weapons free
+
+##### CONTACT_INFECTED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Enfekte/zombi görüldü; ekibe uyarı.
+1309 | reg=military,elite|wp=melee|grp=squad | Infected, melee only
+1310 | reg=military,elite|wp=melee|grp=squad | Silent engagement, no shots
+1311 | reg=military,elite|wp=melee|grp=squad | Knife work, stay quiet
+1312 | reg=military | Stay low, one in the open, let it pass
+1313 | role=soldier_green | I'm not shooting that, somebody else take it
+1314 | role=soldier_green | They never trained us for this, hold your sector
+1315 | role=soldier_nco | Head in the game, it's one infected, take it down
+1316 | role=deserter | I'm not going near that, go around it
+1317 | role=deserter | Dead man walking, one infected, watch it
+1318 | role=militia | Infected ahead, y'all, one of the dead, Lord, look at him
+
+##### FALL_BACK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Geri çekilme çağrısı; ekibe.
+1319 | reg=military,elite|wd=hurt | Wounded, falling back!
+1320 | reg=military,elite|wd=hurt | I'm hit, pulling back
+1321 | reg=military,elite|wd=hurt | Breaking contact, wounded
+1322 | reg=military,elite|grp=squad | Fall back by sections
+1323 | reg=military,elite|grp=squad | Bound back, cover each other
+1324 | reg=military,elite|grp=squad | Break contact, withdraw
+1325 | reg=military,elite|grp=squad | Pull back to the last position
+1326 | reg=military,elite|grp=squad | Retire, retire, covering fire
+1327 | reg=military,elite|grp=solo | Withdrawing, breaking contact
+1328 | reg=military,elite|grp=solo | Falling back to cover
+1329 | reg=military,elite|grp=solo | Pulling back, can't hold
+1330 | reg=military,elite | Fall back to the secondary
+1331 | reg=military,elite | Withdraw, withdraw
+1332 | reg=military,elite | Breaking contact, displacing
+1333 | reg=military,elite | Pull back to the rally point
+1334 | reg=military,elite | Fall back, maintain order
+1335 | reg=military,elite | Retire, retire
+1336 | reg=military,elite | Moving back, covering my sector
+
+##### FLANK_COMPLETE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Kuşatma/yandan dolanma tamam; ekibe.
+1337 | reg=military,elite | Flank in position, engaging
+1338 | reg=military,elite | On the left, clear shot
+1339 | reg=military,elite | Flanking element in place
+1340 | reg=military,elite | Flank set, eyes on target
+1341 | reg=military,elite | In position, ready to engage
+1342 | reg=military,elite | Flanking element ready
+1343 | reg=military,elite | On their side, awaiting the call
+
+##### FLANK_START #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yandan dolanmaya başlıyor; ekibe.
+1344 | reg=military,elite | Flanking right, base of fire hold
+1345 | reg=military,elite | Moving to the flank, keep them fixed
+1346 | reg=military,elite | Going around, maintain fire
+1347 | reg=military,elite | Maneuvering left, hold the front

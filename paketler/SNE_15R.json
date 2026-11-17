@@ -1,0 +1,998 @@
+{
+    "_paket": "SNE_15R — Karma sahneler (yürüyüş, karşılaşma, hikâye, karakol, nöbet ve fraksiyon sohbetleri), 326; parça [15] / 20, bekleyen [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20] (çeviri: harici AI; kalite incelemesi yapılmadı)",
+    "_dosya": "RadioData_lua",
+    "satirlar": {
+        "RD_ALifeLine_64d724f12d777c79": {
+            "tr": "Gözün yukarıda olsun!"
+        },
+        "RD_ALifeLine_3c0ecf852fec4ae0": {
+            "tr": "Yukarıda zaten."
+        },
+        "RD_ALifeLine_2bc8cce44c463bdc": {
+            "tr": "Yukarıda dedim, botlarında değil."
+        },
+        "RD_ALifeLine_35ad5cbf4a131142": {
+            "tr": "Botlarım da ilginç ama..."
+        },
+        "RD_ALifeLine_7de3620d0a9a1f52": {
+            "tr": "Aracın yakıtı son damlada."
+        },
+        "RD_ALifeLine_04bf13f53d953c22": {
+            "tr": "O zaman yürürüz."
+        },
+        "RD_ALifeLine_6b92b27e5b8e6136": {
+            "tr": "Ben yine de sürmek isterdim."
+        },
+        "RD_ALifeLine_7d1356384a111485": {
+            "tr": "Ben yürümekten başka her şeyi isterdim."
+        },
+        "RD_ALifeLine_022499467f42a1b0": {
+            "tr": "Dur, köşeye bir bakayım."
+        },
+        "RD_ALifeLine_1eed1a5f38672f58": {
+            "tr": "Arkandayım."
+        },
+        "RD_ALifeLine_2f562bdf10d561a9": {
+            "tr": "Biliyorum."
+        },
+        "RD_ALifeLine_3fd641e40f8435b7": {
+            "tr": "Hadi o zaman, git."
+        },
+        "RD_ALifeLine_4ca3ddb01505007e": {
+            "tr": "Trafo merkezine ne kadar var?"
+        },
+        "RD_ALifeLine_37903e205e7dba1d": {
+            "tr": "Üç kilometre.",
+            "not": "2 miles -> 3.2 km"
+        },
+        "RD_ALifeLine_079bb78214a009f8": {
+            "tr": "Üç kilometre, ne üç kilometresi! Beş var!",
+            "not": "2 miles -> 3 km, 3 miles -> 4.8 km"
+        },
+        "RD_ALifeLine_314077a2422f408a": {
+            "tr": "Üç küsur kilometre, hem de çok ağır giden bir küsur.",
+            "not": "2 miles -> 3.2 km"
+        },
+        "RD_ALifeLine_2ab3d90329cc245e": {
+            "tr": "Yeni bot, ondan."
+        },
+        "RD_ALifeLine_4e1f1c157f963ed4": {
+            "tr": "Geçen yılın botları onlar."
+        },
+        "RD_ALifeLine_57fde8a068a1dfcf": {
+            "tr": "Botlar eski, ama bu ayaklara yeni."
+        },
+        "RD_ALifeLine_637c7cad033298d0": {
+            "tr": "Namluyu indir."
+        },
+        "RD_ALifeLine_338725866d76b7d4": {
+            "tr": "İnik zaten."
+        },
+        "RD_ALifeLine_20bbcaf37a449b2b": {
+            "tr": "Daha aşağı."
+        },
+        "RD_ALifeLine_430886a813900aa3": {
+            "tr": "Toprağı gösteriyor, daha ne istiyorsun?"
+        },
+        "RD_ALifeLine_74800dfb1a764d79": {
+            "tr": "Bu yolu biliyorum."
+        },
+        "RD_ALifeLine_2dda03886b77256a": {
+            "tr": "Tabii ki biliyorsun."
+        },
+        "RD_ALifeLine_3393b86629613bd0": {
+            "tr": "Şu kesimde her salı ceza yazardım."
+        },
+        "RD_ALifeLine_6d0036ee79bb277c": {
+            "tr": "Amma insafsızmışsın."
+        },
+        "RD_ALifeLine_2c337cfb2c6a9992": {
+            "tr": "Hızlan, gün ışığını kaybediyoruz."
+        },
+        "RD_ALifeLine_0cf7fd8d74d0059d": {
+            "tr": "Işık fena değil."
+        },
+        "RD_ALifeLine_45aa260e08d92664": {
+            "tr": "Bir saate gitmiş olur."
+        },
+        "RD_ALifeLine_57eb967c076741f0": {
+            "tr": "O zaman bir saat sonra daha hızlı yürürüz."
+        },
+        "RD_ALifeLine_643c82dd3e9c5a3e": {
+            "tr": "Anlaşıldı."
+        },
+        "RD_ALifeLine_6f8c42c42ca5930f": {
+            "tr": "Bunu demen gerekmiyor."
+        },
+        "RD_ALifeLine_7630e9cf39fbc875": {
+            "tr": "Telsizin öbür ucunda kimse yok ki."
+        },
+        "RD_ALifeLine_0c27bc1c0c466d13": {
+            "tr": "Yavaşla, Çavuş soluk soluğa kaldı."
+        },
+        "RD_ALifeLine_758e7046556411c1": {
+            "tr": "Soluk soluğa değilim."
+        },
+        "RD_ALifeLine_2ab3d6b33f96460b": {
+            "tr": "Körük gibi ses çıkarıyorsun."
+        },
+        "RD_ALifeLine_6d55e33476503719": {
+            "tr": "O ciğerleri, gürültücüler."
+        },
+        "RD_ALifeLine_44bb66b47dd3b04a": {
+            "tr": "Benim aracın numarası on dörttü."
+        },
+        "RD_ALifeLine_64977611298b1492": {
+            "tr": "Hala tampona bakıp numarayı arıyorum, tampon yok ki..."
+        },
+        "RD_ALifeLine_4cda936a3af52809": {
+            "tr": "Yürü, düzelirsin."
+        },
+        "RD_ALifeLine_1d1bcf073619d337": {
+            "tr": "Arkamıza bak."
+        },
+        "RD_ALifeLine_476ec04a09fcba33": {
+            "tr": "Bir daha bak."
+        },
+        "RD_ALifeLine_3bce7c4b71d92185": {
+            "tr": "Hala temiz."
+        },
+        "RD_ALifeLine_417851467a6e6e72": {
+            "tr": "Bir pompalı, bir de torba konserve mısır... İyi değilsin sen."
+        },
+        "RD_ALifeLine_54911417606794a2": {
+            "tr": "Sen mısırı al, ben pompalıyı alırım."
+        },
+        "RD_ALifeLine_166854551e7d3e26": {
+            "tr": "Islık: bir uzun, bir kısa."
+        },
+        "RD_ALifeLine_4e903e030e8a07e5": {
+            "tr": "Unuttum, sadece ıslık çalmak istedim."
+        },
+        "RD_ALifeLine_65e549fb4d2094cc": {
+            "tr": "Ben de ıslıkla karşılık veririm."
+        },
+        "RD_ALifeLine_54fed155292522c9": {
+            "tr": "Yüzbaşı nerede?"
+        },
+        "RD_ALifeLine_6d5a9b7441e982a1": {
+            "tr": "Önde."
+        },
+        "RD_ALifeLine_17eb7808655b5836": {
+            "tr": "Çok sessiz."
+        },
+        "RD_ALifeLine_592e892445b7c4cc": {
+            "tr": "Lafı idareli harcıyor."
+        },
+        "RD_ALifeLine_799fee1a388a71ec": {
+            "tr": "Aramız açılıyor."
+        },
+        "RD_ALifeLine_5b4d8ee309c9de68": {
+            "tr": "Kapat o zaman."
+        },
+        "RD_ALifeLine_160c1d3f53309663": {
+            "tr": "Kapatamıyorum, sen ağır yürüyorsun."
+        },
+        "RD_ALifeLine_644b3de659b4c79c": {
+            "tr": "Ayaklarımın hızında yürüyorum."
+        },
+        "RD_ALifeLine_5064cf7506b29db3": {
+            "tr": "Kimsede su var mı?"
+        },
+        "RD_ALifeLine_6675c8852ad9b4f7": {
+            "tr": "Matara çeyrek dolu."
+        },
+        "RD_ALifeLine_09d849925bc36201": {
+            "tr": "Çeyreğini alırım."
+        },
+        "RD_ALifeLine_0c6c90fe6e031cd7": {
+            "tr": "Sana bir yudum düşer."
+        },
+        "RD_ALifeLine_49bfbc93520c45bf": {
+            "tr": "Her sabah işe giderken bu yoldan sürerdim."
+        },
+        "RD_ALifeLine_4203bd5b0f23de62": {
+            "tr": "Her gün sabah yedide köpekli adama el sallardım."
+        },
+        "RD_ALifeLine_06cf00fd0f2ce512": {
+            "tr": "Falso veriyorsun."
+        },
+        "RD_ALifeLine_3568b8c32adfe572": {
+            "tr": "Hem de çok kısık sesli bir falso."
+        },
+        "RD_ALifeLine_744f33f660d6767c": {
+            "tr": "Kenarda kal."
+        },
+        "RD_ALifeLine_335b5f1b4e2338d2": {
+            "tr": "Tamam, kenardan gidiyoruz."
+        },
+        "RD_ALifeLine_2860e35a75ff7559": {
+            "tr": "Bir ara Louisville'de yaya devriye attım."
+        },
+        "RD_ALifeLine_1b68c45b4156c074": {
+            "tr": "Ayaklar ağrırdı, herkes de el sallardı."
+        },
+        "RD_ALifeLine_57c0ff264da9f1ef": {
+            "tr": "Şimdi kimse el sallamıyor..."
+        },
+        "RD_ALifeLine_35431ec4601ba828": {
+            "tr": "Oxford ayakkabılar bu iş için yapılmamış."
+        },
+        "RD_ALifeLine_1410f7ba10b2708e": {
+            "tr": "Oxford mu giymiştin?"
+        },
+        "RD_ALifeLine_4880d83748c53386": {
+            "tr": "Mahkeme günüydü."
+        },
+        "RD_ALifeLine_4068256b576a90e8": {
+            "tr": "Mahkeme iptal."
+        },
+        "RD_ALifeLine_3568a21132567864": {
+            "tr": "Cama basma!"
+        },
+        "RD_ALifeLine_6109542d247bbb43": {
+            "tr": "Şurada, kaldırımın kenarında, her yer cam."
+        },
+        "RD_ALifeLine_5ee2837336b805ce": {
+            "tr": "Gördüm, gördüm."
+        },
+        "RD_ALifeLine_49ef7bc731d44e23": {
+            "tr": "Bu yolda yüz ceza kestim."
+        },
+        "RD_ALifeLine_2457b6d1616bd8fa": {
+            "tr": "Çok sevilen biri olmuşsundur."
+        },
+        "RD_ALifeLine_00996c3d0bbf1bf7": {
+            "tr": "Çok nefret edilen bir adamdım, ama keyfim yerindeydi."
+        },
+        "RD_ALifeLine_70afaf757e24259a": {
+            "tr": "Arka yolları bilirim, hepsini. Sor bakalım."
+        },
+        "RD_ALifeLine_2de047a365c25a6a": {
+            "tr": "Sıradaki kasabaya hangi yoldan?"
+        },
+        "RD_ALifeLine_268479db7dcf474e": {
+            "tr": "...Düz, sanırım."
+        },
+        "RD_ALifeLine_53507df04b929377": {
+            "tr": "Düz mü! Hepimiz öleceğiz!"
+        },
+        "RD_ALifeLine_642f68ae7d2a9a25": {
+            "tr": "Siren duyuyor musun?"
+        },
+        "RD_ALifeLine_6ea786907208ee99": {
+            "tr": "Ben hep duyuyorum."
+        },
+        "RD_ALifeLine_38f285cf5f22c751": {
+            "tr": "Ben de, kafamın içinde. Alışkanlık."
+        },
+        "RD_ALifeLine_46e1a5992c079d82": {
+            "tr": "Rozetim nerede?"
+        },
+        "RD_ALifeLine_0f2cfd2959150daa": {
+            "tr": "Göğsünde."
+        },
+        "RD_ALifeLine_5047bc156f5b93f8": {
+            "tr": "Göğsümde olduğunu biliyorum, kontrol ediyorum."
+        },
+        "RD_ALifeLine_2eb137414084be0b": {
+            "tr": "Biliyoruz, on bir kere kontrol ettin."
+        },
+        "RD_ALifeLine_07b3d91d00fc05ac": {
+            "tr": "Yüzbaşı ayakta uyuyor."
+        },
+        "RD_ALifeLine_2a39f0ba0e2a8e5e": {
+            "tr": "Mümkün değil."
+        },
+        "RD_ALifeLine_62e101ba45cce726": {
+            "tr": "Gözleri kapalı, hala yürüyor."
+        },
+        "RD_ALifeLine_7c85c36d15320f75": {
+            "tr": "Bu bir yetenek, ben de isterdim."
+        },
+        "RD_ALifeLine_5a95f047283a9a18": {
+            "tr": "Görevde hiç bu kadar yürümemiştim."
+        },
+        "RD_ALifeLine_6ddf6bac0f82a289": {
+            "tr": "Ben dokuz yıl devriye arabasında gittim."
+        },
+        "RD_ALifeLine_44c00cc5340e41a4": {
+            "tr": "Dizlerim de öyle diyor..."
+        },
+        "RD_ALifeLine_7f90767e7b051d4e": {
+            "tr": "Sence delilleri nereye koymuşlardır?"
+        },
+        "RD_ALifeLine_4132f51e5d4317a1": {
+            "tr": "Ne delili?"
+        },
+        "RD_ALifeLine_5467e2974fc21517": {
+            "tr": "Davalardan kalanlar, dolaplardakiler. Koskoca bir bina dolusu var."
+        },
+        "RD_ALifeLine_26928fb65e82f18d": {
+            "tr": "Şu an kimse bunu düşünmüyor."
+        },
+        "RD_ALifeLine_655e436463871b73": {
+            "tr": "Bir şey görüyor musun?"
+        },
+        "RD_ALifeLine_6674e8a16425484a": {
+            "tr": "Bakmaya devam et."
+        },
+        "RD_ALifeLine_0d40c371717cb14e": {
+            "tr": "Bakıyorum. Hiçbir şeyi çok titiz incelerim."
+        },
+        "RD_ALifeLine_0a51a0cf3798ad7b": {
+            "tr": "Yürümekten öyle bıktım ki, kahretsin!"
+        },
+        "RD_ALifeLine_4ae3cb9c00be1259": {
+            "tr": "Altı buçuk kilometre yürüdük.",
+            "not": "4 miles -> 6.4 km"
+        },
+        "RD_ALifeLine_4b0647165b8c55a3": {
+            "tr": "Eskiden bir donut için altı buçuk kilometre araba sürerdim.",
+            "not": "4 miles -> 6.4 km"
+        },
+        "RD_ALifeLine_481c281a6ed12c15": {
+            "tr": "Şimdi de boş yere altı buçuk kilometre yürüyorsun.",
+            "not": "4 miles -> 6.4 km"
+        },
+        "RD_ALifeLine_11b3bbb27e4288f6": {
+            "tr": "Bu mıntıkada yirmi iki yaşımdayken yaya devriye attım, bisikletli çocuklardan başka kimse yoktu."
+        },
+        "RD_ALifeLine_572b5d3d23ba18b4": {
+            "tr": "Şimdi hiçbir şey yok."
+        },
+        "RD_ALifeLine_312b299f258cfba3": {
+            "tr": "Şimdi ilçenin en sessiz yolu, ve nefret ediyorum."
+        },
+        "RD_ALifeLine_366c0f6d11850cca": {
+            "tr": "Bu sessizlik yalan..."
+        },
+        "RD_ALifeLine_1f8e3d90658bbf1a": {
+            "tr": "Bir posta kutusu daha görürsem vuracağım!"
+        },
+        "RD_ALifeLine_11c7e43a10950e75": {
+            "tr": "Posta kutusu o."
+        },
+        "RD_ALifeLine_111cf25d15531e50": {
+            "tr": "Bizi takip ediyor, hep aynısı."
+        },
+        "RD_ALifeLine_2278cc9f7f5f2100": {
+            "tr": "Silahı yerine koy."
+        },
+        "RD_ALifeLine_69060f3b1aa83159": {
+            "tr": "Arabadan özlediğim tek şey kalorifer."
+        },
+        "RD_ALifeLine_1cd2dbb818ff0b1f": {
+            "tr": "Ocak ayında diyorum, ocakta özlüyorum."
+        },
+        "RD_ALifeLine_30094fc04f7b32e5": {
+            "tr": "Bir lanet çukura daha basarsam..."
+        },
+        "RD_ALifeLine_030ebe0b335d5e97": {
+            "tr": "Nereye bastığına dikkat et!"
+        },
+        "RD_ALifeLine_7916d7772e6994a9": {
+            "tr": "Dikkat ediyorum, çukurlar kamuflaj giymiş."
+        },
+        "RD_ALifeLine_7cdfe4563b2dfcdc": {
+            "tr": "Ayaklarım ağrıyor, belim ağrıyor, yeleğim ağrıyor."
+        },
+        "RD_ALifeLine_40e3c07f26c6c90b": {
+            "tr": "Yelek ağrımaz."
+        },
+        "RD_ALifeLine_455585a61f67f8be": {
+            "tr": "Bu ağrır, bana kan davası güdüyor."
+        },
+        "RD_ALifeLine_3d74dfee1fd3611f": {
+            "tr": "Çıkar da elinde taşı."
+        },
+        "RD_ALifeLine_6e79e3ed617ae2fc": {
+            "tr": "Duydun mu? Araba mıydı o?"
+        },
+        "RD_ALifeLine_7e9076551bb1458c": {
+            "tr": "Gök gürültüsü o, SEN salak!"
+        },
+        "RD_ALifeLine_18a7c2d716be1394": {
+            "tr": "Araba gibi geldi."
+        },
+        "RD_ALifeLine_51640b201d09558b": {
+            "tr": "Her şey araba gibi geliyor."
+        },
+        "RD_ALifeLine_4246255c0b76fa2b": {
+            "tr": "Görevden özlediğim tek şey çakar ve siren."
+        },
+        "RD_ALifeLine_31a3e53f0cc49b2b": {
+            "tr": "Siren mi özlüyorsun?"
+        },
+        "RD_ALifeLine_29420a8c2402abec": {
+            "tr": "Sirenle bir yere gitmeyi özlüyorum, hepsi bu."
+        },
+        "RD_ALifeLine_438f6ac50141698c": {
+            "tr": "Eskiden bu yoldan camlar açık, şarkı söyleyerek giderdim."
+        },
+        "RD_ALifeLine_08f225a138717a41": {
+            "tr": "Sen şarkı söyleyemezsin."
+        },
+        "RD_ALifeLine_5fa3a940009a7e6a": {
+            "tr": "Hayır ama eskiden söylerdim, kimse de kapa çeneni demezdi."
+        },
+        "RD_ALifeLine_7c54716f32df3b8d": {
+            "tr": "Acemi gibi yürüyorsun."
+        },
+        "RD_ALifeLine_24d9410b7705be0c": {
+            "tr": "Acemiyim zaten."
+        },
+        "RD_ALifeLine_0028fdc35acc48c2": {
+            "tr": "Çok yorgun bir acemi gibi yürüyorsun."
+        },
+        "RD_ALifeLine_2ca355c470688e24": {
+            "tr": "Gözün yukarıda, elin silahlardan uzak, burası lanet bir geçit töreni değil!"
+        },
+        "RD_ALifeLine_77887c730065429e": {
+            "tr": "Kimse marş yürümüyor."
+        },
+        "RD_ALifeLine_4aacd6cb3ca62af7": {
+            "tr": "O zaman yürüyeceksen adam gibi yürü!"
+        },
+        "RD_ALifeLine_17e216b34e361295": {
+            "tr": "Bir inek pisliğine daha basarsam ineğe ceza yazacağım!"
+        },
+        "RD_ALifeLine_2e064c660ce9ea51": {
+            "tr": "Kamu alanını kirletmek!"
+        },
+        "RD_ALifeLine_7bb1ea81223bd12b": {
+            "tr": "İri bir ceza olur."
+        },
+        "RD_ALifeLine_157034784f3ae3f9": {
+            "tr": "Eskiden bu yolda arabayla devriye gezerdik, hatırlıyorsun, camlar açık."
+        },
+        "RD_ALifeLine_172fc8367a3896a8": {
+            "tr": "Yürümek zorunda kalana kadar ne kadar uzun olduğunu hiç bilmemişim."
+        },
+        "RD_ALifeLine_29641bce6c32c4eb": {
+            "tr": "Her Noel arifesinde geç vardiyaya kalırdım ki genç arkadaşlar çocuklarıyla olabilsin."
+        },
+        "RD_ALifeLine_226bce33328a61f5": {
+            "tr": "Sakin geçer miydi?"
+        },
+        "RD_ALifeLine_3ea94c53223281b8": {
+            "tr": "Genelde. İnsanlar Noel arifesinde daha nazik olur, sarhoşlar bile."
+        },
+        "RD_ALifeLine_313d69ab6aca74c0": {
+            "tr": "Aklında kalan bir şey var mı?"
+        },
+        "RD_ALifeLine_2597ea64259ac207": {
+            "tr": "Bir kadın penceremden bir tabak kurabiye uzattı, \"bu gece yalnız olan memura\" dedi. Arabada ağladım."
+        },
+        "RD_ALifeLine_446fd3a01f46ed2b": {
+            "tr": "Tabak hala sende mi?"
+        },
+        "RD_ALifeLine_186dc2e97f585b7d": {
+            "tr": "Kayboldu ama kurabiyeleri hatırlıyorum: yulaflı, üzümlü."
+        },
+        "RD_ALifeLine_2792b7221773e0ad": {
+            "tr": "Altı yıl boyunca her gece aynı sevk görevlisini dinledim. Sesi sıcak bir çay gibiydi, yüzünü hiç görmedim."
+        },
+        "RD_ALifeLine_03a14dc01c8e5eb4": {
+            "tr": "Onunla hiç tanıştın mı?"
+        },
+        "RD_ALifeLine_270eccc100f14b87": {
+            "tr": "Bir kez, bir emeklilik partisinde. Düşündüğümden kısaydı, zincirli gözlük takıyordu."
+        },
+        "RD_ALifeLine_2804ae1d5926ae4e": {
+            "tr": "Hayal kırıklığına uğradın mı?"
+        },
+        "RD_ALifeLine_3e8060003aff936f": {
+            "tr": "Hiç değil. O sesiyle hayatımı bir düzine kez kurtardığını söyledim, güldü."
+        },
+        "RD_ALifeLine_5698bed6561d2e77": {
+            "tr": "İyi bir kadına benziyor."
+        },
+        "RD_ALifeLine_438d9e2037a4f98a": {
+            "tr": "Adı Doris'ti. Telsizden sesini duyarım diye umut edip duruyorum."
+        },
+        "RD_ALifeLine_5ea5a480252f16a6": {
+            "tr": "Eski şerifimiz bir keresinde kendini tutukladı, şaka yok."
+        },
+        "RD_ALifeLine_7140974c467c7599": {
+            "tr": "VFW'den eve dönerken dur işaretini geçmiş, dikiz aynasında çakarları görmüş. Kendine ceza yazmış."
+        },
+        "RD_ALifeLine_48b83bc033601578": {
+            "tr": "Ödedi mi?"
+        },
+        "RD_ALifeLine_705a030c1fa6d67c": {
+            "tr": "Ödedi, makbuzu çerçeveletip masasının üstüne astı. Çalıştığım en iyi şerifti."
+        },
+        "RD_ALifeLine_19d7765c48d251e8": {
+            "tr": "Kalp krizi, bütün bunlardan önce. Görmediğine neredeyse seviniyorum."
+        },
+        "RD_ALifeLine_748e447140402c53": {
+            "tr": "İlk gün ilçede kırk memurumuz vardı, akşama dokuz kaldı."
+        },
+        "RD_ALifeLine_14993d9e6ce1fc73": {
+            "tr": "Gerisine ne oldu?"
+        },
+        "RD_ALifeLine_1c07a5712ec0b828": {
+            "tr": "Kimi yerinde durdu, kimi ailesinin yanına gitti. İkisini de suçlayamam."
+        },
+        "RD_ALifeLine_50f32ceb3a629ef1": {
+            "tr": "Sen hangisiydin?"
+        },
+        "RD_ALifeLine_18ae3dd96715829c": {
+            "tr": "Ben kaldım. Görev diye kendimi kandırdım ama doğrusu beni bekleyen kimse yoktu."
+        },
+        "RD_ALifeLine_0fff503c7716e3a3": {
+            "tr": "Üzülme, işime yaradı. Gidecek kimsesi olmayan adam bir sokağı tutabilir."
+        },
+        "RD_ALifeLine_4814a9141ee56e3e": {
+            "tr": "Dört kişi, her Ekim'in ilk haftasında Nolin Gölü'ne balığa giderdik. Telefon yok, çağrı cihazı yok."
+        },
+        "RD_ALifeLine_7d7297db7a05db59": {
+            "tr": "İş yok."
+        },
+        "RD_ALifeLine_0be84061156981ca": {
+            "tr": "Hiçbir şey tutmazdık. Oturup Wildcats'i tartışır, termostan kahve içerdik."
+        },
+        "RD_ALifeLine_516ba71e088b1abb": {
+            "tr": "Güzel bir hayata benziyor."
+        },
+        "RD_ALifeLine_7f213bc325052a1d": {
+            "tr": "Harika bir hayattı, ben o zaman bilmiyordum."
+        },
+        "RD_ALifeLine_3d2922db33c70070": {
+            "tr": "İşin acımasız yanı bu."
+        },
+        "RD_ALifeLine_3ecdd129316af586": {
+            "tr": "Duke adında bir K9 ortağım vardı. Alman çoban köpeği, kırk beş kilo, çavuştan akıllı.",
+            "not": "100 lb -> 45 kg"
+        },
+        "RD_ALifeLine_043dcf6310a7c656": {
+            "tr": "Üçüncü gün gürültüye doğru koştu, geri çağırdım, gelmedi."
+        },
+        "RD_ALifeLine_200e49d8021a36a5": {
+            "tr": "İşini yapıyordu."
+        },
+        "RD_ALifeLine_7a5554f62a0dbfc2": {
+            "tr": "Öyle. Künyesini aldım, tasmayı sakladım. Bazı geceler cebime koyup çevreyi dolaşıyorum."
+        },
+        "RD_ALifeLine_064966a53dd7b362": {
+            "tr": "Elime tutacak bir şey oluyor."
+        },
+        "RD_ALifeLine_3ff72ebe74506aa4": {
+            "tr": "Bir keresinde bir çocuğa rozet çıkartmamı verdim. Bisiklet güvenliği şenliğinde küçük bir oğlandı."
+        },
+        "RD_ALifeLine_1db8b64e560823f9": {
+            "tr": "Ne dedi?"
+        },
+        "RD_ALifeLine_5d12808237ee67a4": {
+            "tr": "Kız kardeşini tutuklayıp tutuklayamayacağımı sordu. \"Bugün olmaz\" dedim, çok üzüldü."
+        },
+        "RD_ALifeLine_7632f60b4cf51939": {
+            "tr": "Kız kardeşler işte."
+        },
+        "RD_ALifeLine_202731b65cb128a4": {
+            "tr": "Yıllar sonra markette gördüm onu, koca adam olmuş, kendisi de şerif yardımcısı. Paltoma bir çıkartma yapıştırdı."
+        },
+        "RD_ALifeLine_4d463b7a4bd4d568": {
+            "tr": "Güzel bir döngü."
+        },
+        "RD_ALifeLine_0a08f66f557b4639": {
+            "tr": "Yorgun olduğumda bunu düşünürüm, beni dik tutar."
+        },
+        "RD_ALifeLine_7c09095f01a6a266": {
+            "tr": "Hiç kapatamadığım bir kayıp vakası vardı. On altı yaşında bir kız, Rosewood'un dışında."
+        },
+        "RD_ALifeLine_5b2ce6842519809b": {
+            "tr": "Hiç bulunamadı mı?"
+        },
+        "RD_ALifeLine_71246f4a5eb43f32": {
+            "tr": "Hiç. Üç yıl boyunca her pazar o arka yollarda araba sürdüm. Çözdüklerimden çok onu düşünüyorum."
+        },
+        "RD_ALifeLine_77c9710c79b92c89": {
+            "tr": "Belki burada bir yerlerdedir.",
+            "onayli_uslup_istisnalari": {
+                "dir": "Doğal konuşma -dır: tahmin (-mıştır, belki ...dır), dilek (umarım ...dır), genel yargı ya da \"demektir\"."
+            }
+        },
+        "RD_ALifeLine_22ae58e77756cb01": {
+            "tr": "Kendime de bunu söylüyorum: hayatta, bir yerlerde, büyümüş, gülüyor."
+        },
+        "RD_ALifeLine_2501b50828384fe4": {
+            "tr": "Mümkün."
+        },
+        "RD_ALifeLine_498797bd3bcb1931": {
+            "tr": "Öyle olmak zorunda, yoksa boşuna sürmüşüm."
+        },
+        "RD_ALifeLine_4565b6e76b8cc4d0": {
+            "tr": "Dört yıl önce dağlardaki bir kulübeyi boşalttık. Bir adam iki rehineyle üç gün içeride kapanmıştı."
+        },
+        "RD_ALifeLine_51081a4c14aa6bba": {
+            "tr": "Kimse ateş etmedi, konuşarak çıkardık. Arabuluculardan biri onun pazar okulu öğretmeniydi."
+        },
+        "RD_ALifeLine_562c54113da6d6a7": {
+            "tr": "İnanılmaz."
+        },
+        "RD_ALifeLine_349b78f13e5cb087": {
+            "tr": "Ağlayarak teslim oldu, önce annesini arayabilir mi diye sordu. Olur dedik."
+        },
+        "RD_ALifeLine_07059f30613b73df": {
+            "tr": "Güzel son."
+        },
+        "RD_ALifeLine_086e22ed105b4135": {
+            "tr": "En iyi türü. En nadiri de... bir tane daha isterdim."
+        },
+        "RD_ALifeLine_678d11b57b21302e": {
+            "tr": "Meslekte ilk haftamda bir sarhoş anahtarlarımı çaldı, beni kendi devriye aracımın arkasına kilitledi."
+        },
+        "RD_ALifeLine_7e27434e5ac03961": {
+            "tr": "İki saat. Bütün vardiya donut dükkanından izleyip bahse girdi."
+        },
+        "RD_ALifeLine_2a2497145976d36b": {
+            "tr": "Berbat."
+        },
+        "RD_ALifeLine_2f86b0ba5790941a": {
+            "tr": "Çavuş sonra bana kahve ısmarladı ve \"Artık bizdensin\" dedi."
+        },
+        "RD_ALifeLine_5a92bd9561bb6d9d": {
+            "tr": "Fena karşılama sayılmaz."
+        },
+        "RD_ALifeLine_5f3a2bc7065a4315": {
+            "tr": "Kalmamın tek sebebi o. Seni seven insanların sana gülmesini unutamazsın."
+        },
+        "RD_ALifeLine_2271c3751abcd4dc": {
+            "tr": "Eğitim tesisimiz Fort Knox yakınlarında eski bir mobilya deposuydu. Kontrplak duvarlar, akan bir çatı."
+        },
+        "RD_ALifeLine_354a48670ec4f7c7": {
+            "tr": "Alışmışsındır."
+        },
+        "RD_ALifeLine_48e2bde7303c9b2d": {
+            "tr": "Güneş doğana kadar giriş tatbikatı yapar, sonra yolun karşısındaki lokantada yemek yerdik."
+        },
+        "RD_ALifeLine_0fe6dd73704fdaab": {
+            "tr": "Hep aynı lokanta mı?"
+        },
+        "RD_ALifeLine_41ebd6fe75e52a44": {
+            "tr": "Aynı garson kadın, aynı turta. Kaç kişi tutukladığımızı sorardı, biz de hep hiç derdik."
+        },
+        "RD_ALifeLine_402a7bb2712050ec": {
+            "tr": "Eğitim olduğu için."
+        },
+        "RD_ALifeLine_2cfc5b2e5c873ac2": {
+            "tr": "Çünkü kimse inanmazdı. Yine de fazladan krem şanti kaydırırdı bize."
+        },
+        "RD_ALifeLine_4115796d311bf69d": {
+            "tr": "Aldığım en kötü çağrı, gece ikide 31W'de bir trafik durdurmasıydı. Pikapta bir adam, limiti saatte altmış dört kilometre aşmış.",
+            "not": "40 mph over -> 64 km/h"
+        },
+        "RD_ALifeLine_2ececfed507ddfb8": {
+            "tr": "Sarhoş muydu?"
+        },
+        "RD_ALifeLine_4cde469421fd2cf7": {
+            "tr": "Ayık, hem de bal gibi. Karısı yan koltukta doğum sancısı çekiyordu. Çakarları yakıp önünden hastaneye gittim."
+        },
+        "RD_ALifeLine_4b9ffef6662a4830": {
+            "tr": "Yedi dakikayla yetiştik, oğluna benim adımı verdi. Hala onlardan kart alıyorum."
+        },
+        "RD_ALifeLine_7396205d58b57727": {
+            "tr": "Güzel bir hikaye."
+        },
+        "RD_ALifeLine_35628f4925e11593": {
+            "tr": "En güzeli o. Böyle gecelerde ona tutunuyorum."
+        },
+        "RD_ALifeLine_0a1c673e349fa595": {
+            "tr": "Eyaletin müdahale ekibi on bir kişi ve dokuzu Louisville'de oturuyor."
+        },
+        "RD_ALifeLine_4dface661adedeb8": {
+            "tr": "Yani elimizde iki kişi var."
+        },
+        "RD_ALifeLine_25a49aeb222aaf16": {
+            "tr": "İki kişi, bir kalkan, bir de Elizabethtown'da bir bagajda duran kapı kırıcı."
+        },
+        "RD_ALifeLine_33f83967760a4dbc": {
+            "tr": "O zaman buna ekip demeyi bırak. Sowders ile Whitt de, ona göre plan yap."
+        },
+        "RD_ALifeLine_19e602a70d16d349": {
+            "tr": "Uzak değil, yürümeye devam."
+        },
+        "RD_ALifeLine_511022a96a3894a2": {
+            "tr": "Bir sonraki molada botunu çıkar, bende su toplamaya karşı bant var."
+        },
+        "RD_ALifeLine_61ef97f03cf93988": {
+            "tr": "Geçit töreninde gibi yürüyorsun."
+        },
+        "RD_ALifeLine_0a45c7170df99c8e": {
+            "tr": "Sen de arkamızda hiçbir şey yokmuş gibi yürüyorsun."
+        },
+        "RD_ALifeLine_3decdde65790f5a4": {
+            "tr": "Kusmamaya çalışıyorum, bir dakika ver."
+        },
+        "RD_ALifeLine_05a4832142de776f": {
+            "tr": "Kimse bu numarayı yemiyor."
+        },
+        "RD_ALifeLine_2ff91e101bdc7280": {
+            "tr": "İkmalden biri ayaklarım farklı numara mı diye sordu."
+        },
+        "RD_ALifeLine_5658166147985591": {
+            "tr": "Farklı mıydı?"
+        },
+        "RD_ALifeLine_5d92063864863112": {
+            "tr": "Botlar farklıydı, dokuz ile on bir. Kalın çorap giy dedi."
+        },
+        "RD_ALifeLine_5e9adcf20833968c": {
+            "tr": "Sadece bir ayağa mı?"
+        },
+        "RD_ALifeLine_028917917bded674": {
+            "tr": "Ben de aynısını sordum, adam penceresini suratıma kapattı."
+        },
+        "RD_ALifeLine_5d011a1b6465291e": {
+            "tr": "Teftiş için sandalyenin ALTINI bile temizledim, kahretsin!"
+        },
+        "RD_ALifeLine_3b86d1077a433bb8": {
+            "tr": "Oturağı sildi, her yer toz içindeydi. Siktiğimin oturağını unutmuşum!"
+        },
+        "RD_ALifeLine_72f7becb1cb45a6e": {
+            "tr": "Ooo, seni bayağı sevmiştir.",
+            "onayli_uslup_istisnalari": {
+                "dir": "Doğal konuşma -dır: tahmin (-mıştır, belki ...dır), dilek (umarım ...dır), genel yargı ya da \"demektir\"."
+            }
+        },
+        "RD_ALifeLine_51709e0731359393": {
+            "tr": "Anneme yolladığım son mektupta hiçbir şey olmuyor yazdım."
+        },
+        "RD_ALifeLine_710a4eec78d9414d": {
+            "tr": "Bütün bunlardan önceydi... Ben sadece... Benden duyduğu son şey bu."
+        },
+        "RD_ALifeLine_4883ae337b46e25e": {
+            "tr": "Bilemezdin, ben de bilmiyordum."
+        },
+        "RD_ALifeLine_3887b57c4309afb6": {
+            "tr": "Silahlar aşağı."
+        },
+        "RD_ALifeLine_7af77fd604a1f1ba": {
+            "tr": "Aşağıda zaten."
+        },
+        "RD_ALifeLine_0ff999c45202d24d": {
+            "tr": "Aşağıda olsun, sarkmasın."
+        },
+        "RD_ALifeLine_1504403940d405dc": {
+            "tr": "Siktiğimin silahı ağır, sarkar tabii."
+        },
+        "RD_ALifeLine_32d9cf0b03cdde3d": {
+            "tr": "Ordu cevabı bu, bir daha sorma."
+        },
+        "RD_ALifeLine_144966e83d1c5f86": {
+            "tr": "Yürürken uyuyakalacak kadar yorgunum, kahretsin."
+        },
+        "RD_ALifeLine_5104676e332b6017": {
+            "tr": "Zaten yürüyorsun."
+        },
+        "RD_ALifeLine_0d83b11732a15daf": {
+            "tr": "Hem yürüyorum hem dalıyorum."
+        },
+        "RD_ALifeLine_41dd3fe51cd5cd08": {
+            "tr": "Gözlerini aç."
+        },
+        "RD_ALifeLine_29e4b81248279943": {
+            "tr": "Çavuş koşar adım diyor."
+        },
+        "RD_ALifeLine_78da292779257420": {
+            "tr": "Bir sonraki köşede."
+        },
+        "RD_ALifeLine_6a725b5e38755050": {
+            "tr": "Allah yardımcımız olsun."
+        },
+        "RD_ALifeLine_62702eb633ce86d3": {
+            "tr": "Bu ne biçim soru?"
+        },
+        "RD_ALifeLine_323ff8e74c6fb83c": {
+            "tr": "Yorgun bir soru."
+        },
+        "RD_ALifeLine_71b2759e4d4709e1": {
+            "tr": "Silahlı olanlar biziz, o da yetiyor."
+        },
+        "RD_ALifeLine_191590a82acdf584": {
+            "tr": "Takip ediliyoruz."
+        },
+        "RD_ALifeLine_480573882529e4b9": {
+            "tr": "Arkamızda bir adam var."
+        },
+        "RD_ALifeLine_07168f4f5b6aa99e": {
+            "tr": "O yeni eleman, hep arkamızda olur."
+        },
+        "RD_ALifeLine_55144f360d42cef5": {
+            "tr": "Seni burada bırakırım ha."
+        },
+        "RD_ALifeLine_6948123c43685b9e": {
+            "tr": "Çantamda delik var."
+        },
+        "RD_ALifeLine_3a1052ea4af5e160": {
+            "tr": "Tamir bandı."
+        },
+        "RD_ALifeLine_2f291b116c5a1fa7": {
+            "tr": "Son tamir bandını botlarıma harcadım."
+        },
+        "RD_ALifeLine_721a921013d4f0ad": {
+            "tr": "O zaman bot bağı kullan."
+        },
+        "RD_ALifeLine_5264d89137f20261": {
+            "tr": "Yürüyüş marşı söylemeye kalkarsan seni vururum."
+        },
+        "RD_ALifeLine_63b29ab609c0d10b": {
+            "tr": "Söylemeyecektim."
+        },
+        "RD_ALifeLine_0c478b2159eed7ee": {
+            "tr": "Dudakların kıpırdıyordu."
+        },
+        "RD_ALifeLine_28ddf3415a78e25e": {
+            "tr": "Öğle yemeğini düşünüyordum."
+        },
+        "RD_ALifeLine_1e3a971b1f2cfb57": {
+            "tr": "Hadi siktir, çabuk ol, geride kalıyoruz!"
+        },
+        "RD_ALifeLine_3f4e9fc75ec7ec4f": {
+            "tr": "Geride kalmıyoruz, yürüyoruz."
+        },
+        "RD_ALifeLine_1127ec584fca72e6": {
+            "tr": "Bok gibi yavaş yürüyoruz."
+        },
+        "RD_ALifeLine_18768bad247794bf": {
+            "tr": "Botlarımı çıkarırsam bir daha giyemem."
+        },
+        "RD_ALifeLine_2f355325079aa11d": {
+            "tr": "Bu riski göze alırım."
+        },
+        "RD_ALifeLine_784e04e7397c135e": {
+            "tr": "Pişman olursun, ayaklarım biyolojik tehlike."
+        },
+        "RD_ALifeLine_0fffa7bd027ab4b8": {
+            "tr": "Yol kenarına bakma."
+        },
+        "RD_ALifeLine_6ab3041d76a45ef8": {
+            "tr": "Baktın, başını çevirdiğini gördüm."
+        },
+        "RD_ALifeLine_140c409c51974ecb": {
+            "tr": "Gözler önde, bu bir emir."
+        },
+        "RD_ALifeLine_0d59b38f3d2ac2fa": {
+            "tr": "Daha kaç kilometre var? Sakın iki kilometre deme."
+        },
+        "RD_ALifeLine_25224c35178f5ae3": {
+            "tr": "İki kilometre."
+        },
+        "RD_ALifeLine_15a075b64ee5a7b6": {
+            "tr": "Deme dedim ya, siktir!"
+        },
+        "RD_ALifeLine_68308bc63b04e97e": {
+            "tr": "Aranı kapat, yirmi metre geridesin! Yavaşlık madalyası mı istiyorsun?"
+        },
+        "RD_ALifeLine_5fa64f764a23eece": {
+            "tr": "Kanayacaksan hızlı kana, ışık gidiyor!"
+        },
+        "RD_ALifeLine_6a9cbe0b79236c61": {
+            "tr": "Yirmi dakikaya mola, sonra durmadan devam."
+        },
+        "RD_ALifeLine_1478625d77cbb906": {
+            "tr": "Nereye kadar devam?"
+        },
+        "RD_ALifeLine_38e1d12d779d2ce2": {
+            "tr": "Harita neresini gösteriyorsa. Senin haritan, sen söyle."
+        },
+        "RD_ALifeLine_3acd2483347b1d48": {
+            "tr": "Bu hafta sonu kardeşimin taşınmasına yardım edecektim."
+        },
+        "RD_ALifeLine_5ee8a7963742a631": {
+            "tr": "Daha iyi bir mazeretin var."
+        },
+        "RD_ALifeLine_79dce871383bbf34": {
+            "tr": "Kardeşimin lanet kanepesini taşımayı yeğlerdim."
+        },
+        "RD_ALifeLine_30c472ca12ae3ae2": {
+            "tr": "Evet, ben de öbür ucundan tutardım."
+        },
+        "RD_ALifeLine_1d4614a73ed82ecc": {
+            "tr": "Sessizleşiyorsun."
+        },
+        "RD_ALifeLine_2fbfdf5712426ae5": {
+            "tr": "Faydalı sözleri saklıyorum."
+        },
+        "RD_ALifeLine_53dffbcd1825479a": {
+            "tr": "Çok kaldı mı?"
+        },
+        "RD_ALifeLine_1e76859948d539a7": {
+            "tr": "Birkaç tane. Benim için harcama."
+        },
+        "RD_ALifeLine_6639348836166644": {
+            "tr": "Cephane, kayıp, teçhizat, başla."
+        },
+        "RD_ALifeLine_7ac997351bbc6ba3": {
+            "tr": "Adam başı iki şarjör, Çavuşum. Kayıp yok, bir matara kaybettik."
+        },
+        "RD_ALifeLine_7c2afc326148202a": {
+            "tr": "Kimin mataraydı?"
+        },
+        "RD_ALifeLine_62dd308f673c0ba6": {
+            "tr": "Benim, hala onlardan birinin üstünde asılı."
+        },
+        "RD_ALifeLine_42d14dda48b2fdcd": {
+            "tr": "Çavuşum, o Muhafız üniforması giymişti."
+        },
+        "RD_ALifeLine_0d54c25b61a3cef4": {
+            "tr": "Gördüm."
+        },
+        "RD_ALifeLine_1c3b52d166aed45b": {
+            "tr": "Omuz arması bizimkiyle aynı."
+        },
+        "RD_ALifeLine_62639a655aed7672": {
+            "tr": "Kovanlarını topla, Er. Tek tek hepsini, yüksek sesle say."
+        },
+        "RD_ALifeLine_611ef18b08fa2773": {
+            "tr": "Stepne de patlak."
+        },
+        "RD_ALifeLine_59e87962620bfa2b": {
+            "tr": "Stepneyi kim kontrol etti?"
+        },
+        "RD_ALifeLine_650a91af42502fd1": {
+            "tr": "Kontrol edildi, kontrol edildiğinde dolu çıktı."
+        },
+        "RD_ALifeLine_4ebc4b9d23941b68": {
+            "tr": "Ne zaman kontrol edildi?"
+        },
+        "RD_ALifeLine_019b2d0f7427b146": {
+            "tr": "Knox'ta, mayısta."
+        },
+        "RD_ALifeLine_61bb5fe96353b6f1": {
+            "tr": "Çavuşum, Çekici bizim kaybettiğimiz ilk araçtı."
+        },
+        "RD_ALifeLine_796085a91f59602f": {
+            "tr": "Biliyorum, bunu söylemek hoşuma gidiyor."
+        },
+        "RD_ALifeLine_572796b91697a30e": {
+            "tr": "Raporlar! Yaralı kim?"
+        },
+        "RD_ALifeLine_6ea896f17f7c30cf": {
+            "tr": "Dilimi ısırdım, fena halde."
+        },
+        "RD_ALifeLine_7a6a471e1b93dafa": {
+            "tr": "Telsiz altımda galiba, telsizin üstüne yatıyorum."
+        },
+        "RD_ALifeLine_458c04b334720feb": {
+            "tr": "Telsizden kalk, Er, telsiz senden daha kırılgan."
+        },
+        "RD_ALifeLine_3d2a69c047e26bdd": {
+            "tr": "Ordu'da on iki yıl, şimdi burada fasulye çapalıyorum."
+        },
+        "RD_ALifeLine_68ad2d4833e2383c": {
+            "tr": "Fasulye çapalayan Ordu, sen sadece bu sıradaki kısmısın."
+        },
+        "RD_ALifeLine_782d32ff187303ca": {
+            "tr": "Çavuş sıraların sağdan hizalı durmasını istiyor, tıpkı bir birlik gibi."
+        },
+        "RD_ALifeLine_4418590a3ba434ab": {
+            "tr": "Fasulye bunlar, sağdan hizanın ne olduğunu bilmezler."
+        },
+        "RD_ALifeLine_6502441d610bde16": {
+            "tr": "Öğret o zaman, elinde şerit metreyle sıradan geliyor."
+        },
+        "RD_ALifeLine_3169fd7827abb90d": {
+            "tr": "Harlow çiftliğindeki ahırda hala geçen yılın burley tütünü asılı."
+        },
+        "RD_ALifeLine_5bc4068b6b8ebf7e": {
+            "tr": "Şu an cephaneden bile değerli."
+        },
+        "RD_ALifeLine_51448c30194a0253": {
+            "tr": "Benden de değerli."
+        },
+        "RD_ALifeLine_67525257544089b1": {
+            "tr": "Çıta pek alçakta, Uzman."
+        },
+        "RD_ALifeLine_0404e58f2460b8be": {
+            "tr": "Şu şenlik ateşini kim yaktı?"
+        },
+        "RD_ALifeLine_1fe46b205e11706d": {
+            "tr": "Yemek ateşi, Çavuşum."
+        },
+        "RD_ALifeLine_5fac345d5d996d7d": {
+            "tr": "Üstünde Indiana'dan bile bütün bir inek pişirirsin. Şu kütüklerin yarısını çek, hemen!"
+        }
+    }
+}

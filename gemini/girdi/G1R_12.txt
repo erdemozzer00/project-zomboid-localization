@@ -1,0 +1,383 @@
+# PAKET G1R · parça 12/35 · satır 3909-4250 (342 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar oyunda şu an skill'den önceki eski bir çeviriyle görünüyor; sıfırdan, İngilizceden kur. Her başlığın altındaki 'NEREDE:' oyuncunun bu sözle nasıl karşılaştığını, '#' notu sahneyi anlatır. Önce bunları oku, satırı o anda o yerde duyulacak sözle yaz.
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+##### IDLE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Boş dururken kendi kendine söylenme.
+3909 | reg=civilian,family,worker,rescue | Hm, quiet, that's good
+3910 | reg=civilian,family,worker,rescue | Just waiting, waiting is the worst part
+3911 | - | Nothing... nothing... more nothing
+3912 | - | I could get bored enough to count cracks
+3913 | - | Anybody else bored out of their mind?
+3914 | - | Ugh, this is the longest watch of my life
+3915 | - | If I have to stand around one more minute-
+3916 | - | Tap, tap, tap, tapping my foot, can't stop
+3917 | - | How many hours left? Don't tell me
+3918 | - | Is it me or did the clock stop?
+3919 | - | I keep reading the same sign over and over
+3920 | - | My butt's gone numb from sitting
+3921 | - | Wake me when something happens, anything
+3922 | - | I'd pay good money for a deck of cards
+3923 | - | Watching nothing happen is its own kind of job
+3924 | - | Hurry up, hurry up, hurry up, someone relieve me
+3925 | - | I've seen this exact bird three times now
+3926 | - | I'm so bored I'm starting to like the quiet
+3927 | - | I counted the clouds, there were eleven, now there's nine
+3928 | - | Yawning again, don't tell the others
+3929 | world=road | Same street, same trash, same shadow
+3930 | reg=civilian,family,worker|tmp=fresh|mood=sad | I keep thinking if I sit here long enough, it'll all be a dream
+3931 | reg=civilian,family,worker|tmp=fresh|mood=sad | My mind goes places when it's quiet, bad places
+3932 | reg=civilian,family,worker|tmp=fresh|mood=sad | This is when it hurts, when nothing's happening
+3933 | reg=civilian,family,worker|tmp=fresh|mood=fear | It's too quiet, too quiet, what are they doing, what's out there
+3934 | reg=civilian,family,worker|tmp=fresh|mood=fear | Every little sound and I think it's them
+3935 | reg=civilian,family,worker|tmp=fresh|mood=fear | I can't relax, I can't, my body won't let me
+3936 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Quiet's good, quiet's what we pay for
+3937 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Don't mind the boredom, boredom means nobody's dying
+3938 | reg=civilian,family,worker|tmp=seasoned|mood=calm | I do crossword puzzles in my head, helps pass the time
+3939 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Quiet day, and I'll take it
+3940 | reg=civilian,family,worker|tmp=seasoned|mood=calm | Still here, still breathing, that's the report
+3941 | reg=civilian,family,worker|tmp=seasoned|mood=funny | Dale's whole shift at the feed store looked like this, heh
+3942 | reg=civilian,family,worker|tmp=seasoned|mood=funny | Haven't been this bored since church camp
+3943 | reg=civilian,family,worker|tmp=seasoned|mood=funny | If I get any more bored, I'll start talking to myself, oh wait, I already am
+3944 | reg=civilian,family,worker|tmp=seasoned|mood=funny | Somebody should invent television, wait, they did, damn
+3945 | reg=civilian,family,worker|mood=warm | At least I'm bored with people I like
+3946 | reg=civilian,family,worker|mood=warm | Nothing better than a boring day among friends
+3947 | reg=rescue | Waiting is the worst part of any job, in any uniform
+3948 | reg=rescue | Quiet shift, I'll take it, God knows I earned it
+3949 | reg=rescue | Keep an eye out, but don't strain, tired eyes see ghosts
+3950 | role=rescue_medical | Slow night in the ER, they used to say you never say that word out loud
+3951 | role=rescue_medical | Checked my kit three times, it's still all there, count it again
+3952 | role=rescue_clergy | A quiet watch is a good chance to pray, so I do
+3953 | role=rescue_clergy | Counting the beads, one by one, it passes the hours
+3954 | role=rescue_firefighter | Station house boredom, now I miss it, can you believe that
+3955 | role=rescue_firefighter|world=vehicle | Wash the truck, check the hose, wait, repeat, those were the days
+3956 | hour=21,4 | Night watch, nothing but crickets and my own thoughts
+3957 | hour=21,4 | Dark and boring is a bad mix, makes the mind wander
+3958 | hour=21,4 | Eyes stinging, head nodding, no, no, wake up
+3959 | hour=21,4 | The stars are the only show, and I've seen it already
+3960 | hour=21,4 | Every shadow's got a face by now, must be the lack of sleep
+3961 | hour=5,8 | Almost morning... come on, sun
+3962 | hour=5,8 | The sky's starting to lighten, one more hour, just one more
+3963 | hour=11,15 | Heat, boredom, and flies, the holy trinity
+3964 | hour=11,15 | Sun's high, I'm drowsy, someone slap me
+3965 | hour=16,20|world=road | Evening's coming, and I'm still staring at the same patch of road
+3966 | hour=16,20 | Light's going soft, long shadows, nothing moving
+
+##### INFECTED_DOWN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bir zombiyi indirdi.
+3967 | reg=civilian,family,worker,rescue | I got one, I got it, is it dead?
+3968 | reg=civilian,family,worker,rescue | Stay down, please, stay down
+
+##### INJURED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yaralı; acı içinde.
+3969 | reg=civilian,family,worker,rescue | I'm bleeding! I'm bleeding!
+3970 | reg=civilian,family,worker,rescue | It hurts, oh God it hurts
+3971 | reg=civilian,family,worker,rescue | My leg-- I can't feel my leg
+3972 | reg=civilian,family,worker,rescue | I'm okay, no, I'm not okay
+
+##### INJURED_BEG #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yerde yaralı yatan NPC, yanından geçen oyuncuya yardım için yalvarıyor; nefesi kesik, sözleri yarım.
+3973 | - | Please... help me... ughh
+3974 | - | Don't.. don't go.. please..
+3975 | - | Water... just a little... ahh
+3976 | - | I can't feel it... please... look at it
+3977 | - | Stay with me.. just a minute..
+3978 | - | Hey... you... please... over here
+3979 | - | Don't walk away... please... ahh
+3980 | - | Whatever you want... just... help me
+3981 | - | Please, I'm begging you... ughh
+3982 | - | You can take it... all of it... just help
+3983 | - | Look at me... please... look
+3984 | - | Wait... wait... don't leave me here
+3985 | - | Please, I won't hurt anybody... ahh
+3986 | - | Just a rag... a bandage... anything... please
+3987 | - | I'll do anything... ughh... anything
+3988 | - | Don't be like the others... please
+3989 | - | You're real... oh thank God... help me
+3990 | - | Ahh... closer... come closer... I can't see
+3991 | - | Please... one bandage... that's all
+3992 | - | I can't hold it shut... ughh... please
+3993 | - | Stay... just stay... it's quiet when you're here
+3994 | - | Don't shoot... please... I'm done... ahh
+3995 | - | Look, I can't even stand... please
+3996 | - | Help me... you can help me... you can
+3997 | - | Somebody sent you... didn't they... please
+3998 | - | Mercy... please... ahh... just mercy
+3999 | - | I don't want to die alone... please
+4000 | - | Don't leave... you're the first face in hours
+4001 | - | Ahh... please... have you got anything?
+4002 | - | I'd... I'd pay... I would... ughh... help
+4003 | - | Pills... anything for the pain... please
+4004 | - | Please... just sit with me a minute
+4005 | - | Ahh... it's only a bandage... please
+4006 | - | Spare me... please... spare me... ughh
+4007 | - | Hey... hey... stranger... help
+4008 | - | Anything... anything you've got... please
+4009 | - | Please... take me with you... ahh
+4010 | - | Don't just watch... please... do something
+4011 | - | You're my last chance... ughh... please
+4012 | - | I'm not armed... I can't even sit up... please
+4013 | - | Ahh... a drop of water... just one... please
+4014 | - | Please... help... I'll never forget it
+4015 | - | You have a kit?... ahh... please... have you?
+4016 | - | I'm no threat... look at me... please
+4017 | - | Please... before they come back... ahh
+4018 | - | Come on... stranger... you're all I've got
+4019 | - | Ughh... kind person... be a kind person
+4020 | - | Don't turn around... please... don't
+4021 | - | Whatever I did... I'm sorry... just help
+4022 | - | Please... my pack... there's food in it... take it... help
+4023 | - | One favor... just one... ahh... please
+4024 | - | Please, I'm hurt, I'm really hurt
+4025 | - | Don't make me ask twice... ahh... please
+4026 | - | Look, whatever you are, I'm hurt... please
+4027 | - | You came back... you came back... please
+4028 | - | Ahh... wrap it... please... just wrap it
+4029 | - | I can still talk... ask me anything... help me
+4030 | - | Please, I don't want to be found by them
+4031 | - | Ughh... stay a bit... only a bit
+4032 | - | Help... you look like you know how... help
+
+##### INJURED_DEATH #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yaralı NPC ölmek üzere; son sözleri, yarım kalır.
+4033 | - | Tell them... ughh... tell them I
+4034 | - | Fading... so tired... ahh
+4035 | - | Mom... ahh... I'm coming
+4036 | - | No... no... not yet... ughh
+4037 | - | It doesn't hurt... anymore... ahh
+4038 | - | Please... tell my... ughh
+4039 | - | I see the light... ahh... so bright
+4040 | - | Sorry... sorry... so sorry
+4041 | - | Ughh... dark... it's so... dark
+4042 | - | Wait... I'm not... ahh... I'm not
+4043 | - | Home... I just wanted... ughh... home
+4044 | - | Hold my hand... ahh... please
+4045 | - | Don't... let them... ughh... take
+4046 | - | Is that... ahh... is that you?
+4047 | - | Ughh... okay... okay... I'm done
+
+##### INJURED_DOWN #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yaralanıp yere düştü.
+4048 | - | Ughh... my leg... my LEG
+4049 | - | Somebody... please... anybody
+4050 | - | Oh God... oh God it hurts
+4051 | - | I can't move it... ahh... I can't
+4052 | - | Don't leave me... please don't leave me here
+4053 | - | Ahh... shaking... why am I shaking
+4054 | - | Hold on... hold on... just hold on
+4055 | - | Mmngh... not like this... not like this
+4056 | - | Hey... HEY! Anybody there?!
+4057 | - | Ughhh... stay awake... stay awake... stay
+4058 | - | My eyes... everything's going gray... ahh
+4059 | - | Can't breathe right... ughh... can't
+4060 | - | Help... help me... somebody
+4061 | - | Ahh-- ow ow ow... don't touch it
+4062 | - | Ngh... just a minute... give me a minute
+4063 | - | I'm still here... ughh... I'm still here
+4064 | - | Please... just a little water
+4065 | - | Hurts... it hurts... it hurts
+4066 | - | Ughh... where did everybody go
+4067 | - | Somebody come back... please
+4068 | - | Can't feel my hand... why can't I feel it
+4069 | - | Ahh... keep still... keep still
+4070 | - | Please... not the dark... not yet
+4071 | - | Ughh... I just want to sleep
+4072 | - | Oh no... oh no no no... ahh
+4073 | - | Easy... easy... breathe... breathe
+4074 | - | Anyone... I'm over here... ughh
+4075 | - | My side... ahh... it's my side
+4076 | - | Don't... don't let them find me... ughh
+4077 | - | Shh... quiet... be quiet... ahh
+4078 | - | Nghh... I can do this... I can do this
+4079 | - | Stupid... so stupid... ughh
+4080 | - | Ahh, I should've stayed put
+4081 | - | Somebody... say something... anything
+4082 | - | Mmm... ugh... everything's spinning
+4083 | - | I can hear it... ahh... I can hear them
+4084 | - | Not yet... not yet... ughh
+4085 | - | Come on... come ON... get up... ahh
+4086 | - | It's wet... ahh... it's all wet
+4087 | - | Hey... is that you?... hello?
+4088 | - | Ughh... tell them I tried
+4089 | - | Please, I don't want to be alone
+4090 | - | Breathe... one... two... ughh... breathe
+4091 | - | My head... it's pounding... ahh
+4092 | - | Numb hands... so numb... ughh
+4093 | - | Somebody, I'm hurt bad
+4094 | - | Ahh... I can't get up... I can't
+4095 | - | Don't go... ughh... don't go
+4096 | - | Ahh-- ngh... okay... okay... it's okay
+4097 | - | Little help... over here... ughh
+4098 | - | God... it burns... ahh... it burns
+4099 | - | Ughhh... why me... why me
+4100 | - | Mom?... is that... ahh... no... no
+4101 | - | Wait... wait for me... ughh
+4102 | - | I'm bleeding... ahh... I think I'm bleeding
+4103 | - | Shouldn't have run... ughh... shouldn't have
+4104 | - | Please... please... please
+4105 | - | Keep talking... somebody keep talking
+4106 | - | Ahh... ahh... okay... okay... still here
+4107 | - | So tired... ughh... so tired
+4108 | - | My ribs... every time I breathe... ahh
+4109 | - | Ngh... just rest a second... just a second
+4110 | - | Anybody got a rag?... ahh... anything
+4111 | - | Ughh... it's quiet... too quiet
+4112 | - | Sorry... sorry... ahh... sorry
+4113 | - | HELP! Somebody HELP ME!
+4114 | - | Ahh... where's my gun... where's my... ughh
+4115 | - | I'm not dying here... ahh... I'm NOT
+4116 | - | Ughh... the ground's so hard
+4117 | - | Please... just don't let them come
+4118 | - | Ahh... one more hour... just one more
+4119 | - | Hurts to talk... ughh... hurts to
+4120 | - | Somebody knows I'm here... right?... ahh
+4121 | - | Is it still bleeding?... ahh... is it?
+4122 | - | Mmph... ugh... okay... okay... just breathe
+4123 | - | Oh God... no, I can't look...
+4124 | - | Ahhh... my back... something's wrong with my back
+4125 | - | Please... pray with me... ughh... somebody
+4126 | - | Keep your eyes open... ughh... open
+4127 | - | Ow... ow... ow... ahh... ow
+4128 | - | I don't want to go... ughh... not yet
+4129 | - | If anyone hears this... ahh... I'm here
+4130 | - | Ngh... one foot... then the other... ahh... can't
+4131 | - | It was just a scratch... ughh... just a
+4132 | - | Oh come ON! Not now! Ahh
+4133 | - | Ughh... I need a medic... anybody
+4134 | - | Look... I'm no use like this... ahh
+4135 | - | Feels like... ughh... like I'm sinking
+4136 | - | Please hurry... please... ahh
+4137 | - | Don't close your eyes... don't... ughh
+4138 | - | Somebody... somebody there?... ahh
+4139 | - | Hey... hey... I'm alive... ughh... still alive
+4140 | - | Ahh... I hear footsteps... is that you?
+4141 | - | Nobody's coming... ughh... nobody's coming
+4142 | - | They'll come... they always come... ahh
+4143 | - | Keep the pressure... ahh... keep it on
+4144 | - | Breathing... breathing... okay... still breathing
+4145 | - | Mmm... Dad... ahh... I'm sorry
+4146 | - | Ughh... help... just... help
+4147 | - | Hold still... hold still... nghh
+4148 | - | Don't... don't look at me like that
+4149 | - | Come on come on come on... ahh... stay with it
+4150 | - | Oh man... oh man... this is bad
+4151 | - | Ahh... just a little further... can't
+4152 | - | Do you hear that?... ughh... is it them?
+4153 | - | I thought I'd be braver... ahh
+4154 | - | Ughh... at least it's quiet... ahh... quiet
+4155 | - | Someone... please... say you see me
+4156 | - | Ngh... one more breath... one more
+4157 | - | Ahh... my fingers... they won't close
+4158 | - | Tell me it's not that bad... ughh... tell me
+4159 | - | I'm sorry... ughh... I'm so sorry
+4160 | - | Ahh... that was close... that was too close
+4161 | - | Mmm... the floor's moving... ahh
+4162 | - | Just... just stay... stay with me... ughh
+4163 | - | Ughh... I need to stand... I need to... ahh
+4164 | reg=civilian,family,worker,rescue | Lord... give me strength... ahh... just a little
+4165 | reg=civilian,family,worker,rescue | My kids... ughh... somebody... my kids
+4166 | reg=civilian,family,worker,rescue | I just wanted to get home... ahh
+4167 | reg=civilian,family,worker,rescue | Please... I'm not a bad person... ughh
+4168 | reg=civilian,family,worker,rescue | Ahh... I've got a family... please
+4169 | reg=civilian,family,worker,rescue | We were almost there... ughh... almost
+4170 | reg=civilian,family,worker,rescue | Don't tell my wife... ahh... don't tell her yet
+4171 | reg=rescue | Shhh... it's okay... it's okay... ughh... it's okay
+4172 | reg=rescue | I know what this is... ahh... I've treated worse
+
+##### INJURED_RESCUED #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yerde yaralı yatan NPC'ye yardım ediliyor; acıyla, nefes nefese konuşuyor.
+4173 | - | Ahh... easy... easy... my side
+4174 | - | Thanks... thanks... ughh... thanks
+4175 | - | Okay... okay... I'm up... ahh
+4176 | - | You came... you actually came
+4177 | - | Slow... slowly... ahh... there
+4178 | - | Ughh... I thought that was it
+4179 | - | Tight... it's tight... no... it's good... it's good
+4180 | - | Mmm... better... a little better
+4181 | - | Don't... don't let go yet... ahh
+4182 | - | Ugh... I can stand... I think I can stand
+4183 | - | I owe you one... ahh... I owe you
+4184 | - | Sorry... sorry... I was heavy... ughh
+4185 | - | That's... okay... that's better... thanks
+4186 | - | Ahh... I'm alive... I'm still alive
+4187 | - | Thought I was done... ughh... thanks
+4188 | - | Easy on the leg... ahh... easy
+4189 | - | Whew... okay... okay... I can breathe
+4190 | - | Took you long enough... ahh... just kidding... thanks
+4191 | - | Ughh... don't tell the others I cried
+4192 | - | Mmph... good hands... you've got good hands
+4193 | - | Okay... give me a second... ahh... just a second
+4194 | - | Thank God... thank God it was you
+4195 | - | Did anyone see?... ughh... never mind... thanks
+4196 | - | My leg... it holds... it holds... ahh
+4197 | - | I'll make it... ughh... I'll make it
+4198 | - | You're a lifesaver... ahh... really
+4199 | - | Ngh... okay... let's go... slowly
+4200 | - | Ahh... I'm sorry... I couldn't get up
+4201 | - | Thanks for not leaving me... ughh
+4202 | - | Is it... is it over?... ahh... is it?
+
+##### INJURED_UP #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yaralı NPC yardımla ayağa kalktı; acı içinde teşekkür edip uzaklaşıyor.
+4203 | - | Thank you... ughh... I'll go
+4204 | - | I owe you... ahh... I'm going
+4205 | - | Okay.. okay.. leaving.. thank you..
+4206 | - | Bless you... ahh... I'll be on my way
+4207 | - | I won't forget this... ughh... I won't
+4208 | - | Thanks... really... ahh... I'll stay out of your way
+4209 | - | Ughh... I can walk... I'll walk... thank you
+4210 | - | You didn't have to... ahh... thank you
+4211 | - | That helps... that really helps... thanks
+4212 | - | Ngh... okay... I'm moving... thank you
+4213 | - | I'll find my own way... ahh... thank you
+4214 | - | Take care... ughh... take care out here
+4215 | - | Good luck... ahh... you'll need it
+4216 | - | Don't follow me... ughh... thanks though
+4217 | - | I'm going... I'm going... ahh... thanks
+4218 | - | Never thought I'd say this... thanks
+4219 | - | Ahh... slow... but I'll get there... thanks
+4220 | - | We're square now... ughh... okay?... thanks
+4221 | - | Hope I don't see you again... in a good way... thanks
+4222 | - | Thanks... ahh... I'll limp it off
+4223 | - | Someone like you... ughh... still exists... thanks
+4224 | - | Okay... okay... just let me... just let me go
+4225 | - | That's more than I'd have done... thank you
+4226 | - | Ahh... I'll remember your face... thanks
+4227 | - | Ughh... off I go... thank you... really
+4228 | - | Thank you... ahh... I'll keep to myself
+4229 | - | Let's call it even... ughh... thanks
+4230 | - | Ngh... one step... another... thanks... goodbye
+4231 | - | I'm all right... ahh... I'm all right... thanks
+4232 | - | You saved me... ughh... I won't forget
+
+##### INVENTORY_FULL #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Çantası doldu, daha fazla taşıyamıyor.
+4233 | reg=civilian,family,worker,rescue | I can't carry any more, my arms hurt
+4234 | reg=civilian,family,worker,rescue | My bag's full, I'll have to leave something
+4235 | - | Can't carry another thing, my pack's full
+4236 | - | I'm overloaded, I'm already overloaded
+4237 | - | No room, no room at all, something has to go
+4238 | - | I'm packed tight, bursting at the seams
+4239 | - | Too heavy, I can't lift one more ounce
+4240 | - | My arms are about to fall off, honest
+4241 | - | There's no space for that, leave it
+4242 | - | Full up, you take it
+4243 | - | My bag's at the limit, somebody help me carry
+4244 | - | Gotta drop something to take that, and I won't
+4245 | - | Not another can, I can't, I can't carry it
+4246 | - | Spine's gonna snap if I add one more thing
+4247 | reg=civilian,family,worker|mood=funny | I'm a mule, I'm just a mule
+4248 | reg=civilian,family,worker|mood=funny | My mama always said my eyes were bigger than my back
+4249 | reg=civilian,family,worker|tmp=fresh|mood=sad | I want to take it all, but I can't, I just can't
+4250 | reg=civilian,family,worker|tmp=fresh|mood=sad | It breaks my heart to leave this behind

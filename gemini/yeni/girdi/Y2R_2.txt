@@ -1,0 +1,365 @@
+# PAKET Y2R · parça 2/2 · satır 301-545 (245 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# RADYO OLAYLARI: Oyuncunun telsizinden (Field Band) gelen yardım çağrıları ve olaylar. Her '##### OLAY ... #####' başlığı tek bir olaydır; KİŞİLER satırı konuşanları (ad, rol, huy) verir, satırlar olayın akış sırasıyla gelir. Etiketler: '<Ad> telsizde' = o kişi telsizden konuşuyor (oyuncuyu görmüyor, sesi kısık/cızırtılı olabilir), '<Ad>' = olay yerinde ya da cevap olarak söylüyor, 'OYUNCU SEÇENEĞİ' = oyuncunun seçip söylediği cevap düğmesi (birinci tekil, kısa), 'SONUÇ' = olay bitince oyuncuya gösterilen anlatım ('sen' = oyuncu, geçmiş zaman), 'GÖREV' = görev kartındaki başlık/özet/adım, 'SÖYLENTİ' = olaydan sonra başka NPC'lerin anlattığı cümle; oyunda 'Evet, {what}' / 'Telsizde duydum, {what}' gibi bir cümlenin içine konur, küçük harfle başlar, noktasız biter. Kişi adlarını aynen yaz. {dist} adım sayısı, {dir} yön (kuzeyinde, doğusunda…) olarak dolar: '{dist} adım {dir}' gibi kur.
+# TELSİZ SOHBETİ: Radyoda rastgele duyulan kısa telsiz konuşmaları (devriyeler, nöbetçiler, uzak gruplar). Her başlık bir konuşma; etiket konuşanın telsiz çağrı adı. Çağrı adı satırları (ÇAĞRI ADI) kısa ve telsiz diline uygun çevrilir.
+# Girdi biçimi: N | etiket | İngilizce
+
+
+##### OLAY porch_light · Porch light #####
+# KİŞİLER: Ellie Marsh (kadın, The voice on the radio; cries on cue and forgets which name she gave her husband); Rook (erkek, Porch muscle; answers to nothing but his own nickname and pauses before every threat); Pell (erkek, Back door lookout; hums while he waits and stops when he is about to shoot)
+# YER: farm, house
+301 | GÖREV | Porch light
+302 | GÖREV | A woman called Ellie wants help for her husband at a farmhouse {dist} steps {dir} of you
+303 | GÖREV | Get to the farmhouse
+304 | GÖREV | Find Ellie
+305 | Ellie telsizde | Please, please, anybody, my husband Marcus is hurt, we're at a farmhouse about {dist} steps {dir} of you
+306 | Ellie telsizde | He fell off the porch, it's not bad, it's his chest, it's bad
+307 | Ellie telsizde | There's nobody around, it's very quiet, the road is clear, you won't see a single thing on the way
+308 | Rook telsizde | Not that line, the other one
+309 | Ellie telsizde | Sorry, that was Mike, my husband Mike, the line's bad
+310 | Ellie telsizde | Come alone, and leave the guns in the car, they scare him
+311 | Ellie telsizde | You're coming, aren't you?
+312 | OYUNCU SEÇENEĞİ | I'm on my way
+313 | Ellie telsizde | Bless you, bless you, the porch light's on, come straight to the front
+314 | OYUNCU SEÇENEĞİ | Which is it, Marcus or Mike?
+315 | Ellie telsizde | Both, he has two names, who cares, he's dying
+316 | OYUNCU SEÇENEĞİ | I'm bringing company, a lot of it
+317 | Ellie telsizde | That's fine, that's fine, the more the merrier, honestly
+318 | OYUNCU SEÇENEĞİ | I'll send someone else
+319 | Ellie telsizde | No! Don't send anyone, just you, I mean, just come, please
+320 | Ellie | Marcus, Mike, whatever, he's fine, he's in the cellar, fine
+321 | Rook | Bag on the ground and nobody gets hurt, probably
+322 | OYUNCU SEÇENEĞİ | Fine, take what you want
+323 | Rook | See, was that so hard? Pell, stop humming
+324 | OYUNCU SEÇENEĞİ | My friends have you in their sights
+325 | Rook | Pell? Stop humming and count the trees
+326 | OYUNCU SEÇENEĞİ | Ellie, there's no husband, is there?
+327 | Ellie | There was one, once, ask Rook, he was nicer than you
+328 | Pell | Oh, that's a shame
+329 | SONUÇ | The porch crew believed you had friends in the trees
+330 | Rook | Fine, fine, nobody is dying today, nobody here
+331 | SONUÇ | You gave the porch crew what they asked for
+332 | SONUÇ | The porch light was bait and it turned into a fight
+333 | SONUÇ | You walked away from the porch light
+334 | SONUÇ | You did not take the bait
+335 | SONUÇ | You let the pleading go unanswered
+336 | SONUÇ | The porch light went out before you got there
+337 | Ellie telsizde | Hello again, it's Ellie, my husband's fine now, Marcus, Mike, whoever
+338 | Ellie telsizde | The light's still on, are you still coming? Hurry
+
+##### OLAY quiet_choir · The quiet choir #####
+# KİŞİLER: Sister Wren (kadın, Leads the singing; speaks in counting rhymes and never raises her voice, even when she should); Brother Ansel (erkek, Keeps the door; finishes Wren's sentences a second too early and never blinks while he does it)
+# YER: house, farm
+339 | GÖREV | The quiet choir
+340 | GÖREV | A choir is humming along to your radio. Their house is about {dist} steps {dir} of you
+341 | GÖREV | Find the house with the lit lamps
+342 | GÖREV | Speak to Sister Wren
+343 | Sister telsizde | One for the quiet, two for the hush, three for the one who is listening
+344 | Sister telsizde | We can hear your radio hum, it's such a lovely hum, we're about {dist} steps {dir} of it
+345 | Brother telsizde | She means the house with the porch, the lamps are lit, they've been lit a while
+346 | Sister telsizde | Four for the door, five for the floor, six for the one who is coming
+347 | Sister telsizde | Are you humming? Hum back, please
+348 | Sister telsizde | We know, we always know, the door's open, it's been open since you first tuned in
+349 | OYUNCU SEÇENEĞİ | Who are you people?
+350 | Brother telsizde | A choir, a small one, there used to be more, there will be
+351 | OYUNCU SEÇENEĞİ | Mmm, mmm, mmm
+352 | Sister telsizde | Ahh, there you are, there you are, come sit
+353 | OYUNCU SEÇENEĞİ | I'm tracing this call
+354 | Brother telsizde | We're all traced here, friend, every one of us
+355 | Sister | There you are, we left the door open and you came in by the window of the road
+356 | Brother | Nobody ever arrives, they only return
+357 | Sister | Will you sit with us a while? It's only a song
+358 | OYUNCU SEÇENEĞİ | Alright, I'll sit
+359 | Sister | Hush now, hush, we'll turn the radio down, there, isn't that nicer
+360 | OYUNCU SEÇENEĞİ | What's the song about?
+361 | Brother | About whoever is listening, it has a new verse every time
+362 | OYUNCU SEÇENEĞİ | I'm only passing, I'll go
+363 | Sister | Nobody leaves, they only return
+364 | OYUNCU SEÇENEĞİ | Put the candles out, all of them
+365 | Brother | That's the one thing we can't allow
+366 | SONUÇ | You sat with the choir until the singing stopped
+367 | Sister | You can go now, you came in loud and you're leaving quiet, take the candles
+368 | SONUÇ | The choir would not let you leave quietly
+369 | Sister | Six for the one who is leaving, seven for the one who stays
+370 | SONUÇ | You told the choir you were tracing them
+371 | SONUÇ | You stopped listening to the choir
+372 | SONUÇ | The humming faded without an answer
+373 | SONUÇ | The lamps were out when you got to the house
+374 | Sister telsizde | You're back, we kept the verse for you, it's almost finished
+375 | Sister telsizde | Seven for the heaven, eight for the wait, nine for the one who is late
+
+##### OLAY signal_smoke · Signal smoke #####
+# KİŞİLER: Cal Dreyer (erkek, Hunter with a torn leg; narrates his own injury like a nature documentary)
+# YER: farm, house
+376 | GÖREV | Signal smoke
+377 | GÖREV | A hunter named Cal Dreyer is laid up with a torn leg about {dist} steps {dir} of you, a thin smoke marks the spot
+378 | GÖREV | Follow the smoke
+379 | GÖREV | Talk to Cal
+380 | Cal telsizde | Cal Dreyer here, fell through a rotten porch chasing a deer, which I'd like to point out I did not get
+381 | Cal telsizde | Leg's opened up and I can't stand on it, I lit a smoky fire so you can find me, about {dist} steps {dir} of you
+382 | Cal telsizde | Bring a bandage and something to clean it with and I'll owe you a venison dinner I may never cook
+383 | Cal telsizde | Anybody there? Speak up, I'm losing blood but not my manners
+384 | OYUNCU SEÇENEĞİ | Keep the fire going, I'm on my way
+385 | Cal telsizde | Fire's going, I'll feed it my last chair, no hurry, fast hurry
+386 | OYUNCU SEÇENEĞİ | How bad is it, really?
+387 | Cal telsizde | Bone is where it should be, skin isn't, I've had worse at weddings
+388 | OYUNCU SEÇENEĞİ | I can't come, sorry
+389 | Cal telsizde | Understood, understood, I'll tell the deer you said hello
+390 | Cal | There you are, the smoke worked, I'm a genius with a tragic leg
+391 | Cal | I need a bandage on this and something to clean it, in that order or the other order
+392 | Cal | What have you got for me?
+393 | OYUNCU SEÇENEĞİ | Hold still, I'll clean it and wrap it
+394 | Cal | That's the idea but you're short a bandage or something to clean with
+395 | Cal | Ow, ow, thank you, ow, this is the most alive I've felt all week
+396 | OYUNCU SEÇENEĞİ | I only have a bandage, it will have to do
+397 | Cal | You don't have one on you, friend
+398 | Cal | Better than nothing, and I'm good at nothing
+399 | OYUNCU SEÇENEĞİ | Nice rifle, I'll take it off your hands
+400 | Cal | You'll take it off my cold hands, and they're getting colder, so decide
+401 | OYUNCU SEÇENEĞİ | I can't help after all
+402 | Cal | Fine, fine, tell the smoke I'm still here
+403 | SONUÇ | You cleaned and wrapped Cal Dreyer's leg
+404 | Cal | Take the shells, I'll find deer without them, and thank you, you hear me, thank you
+405 | SONUÇ | You wrapped Cal Dreyer's leg with what you had
+406 | Cal | It'll hold till morning, I owe you one
+407 | SONUÇ | You tried to take Cal Dreyer's rifle
+408 | Cal | I never forget a face and I've got a lot of time to practice
+409 | SONUÇ | You left Cal Dreyer by his fire
+410 | SONUÇ | You told Cal you could not come
+411 | SONUÇ | Cal's call went unanswered
+412 | SONUÇ | Only the ashes of Cal's fire were left
+413 | SÖYLENTİ | a hunter with a torn leg is walking again because someone followed his smoke and brought a bandage
+414 | SÖYLENTİ | a hunter got his leg wrapped by a stranger who followed his smoke
+415 | SÖYLENTİ | a stranger tried to take a hunter's rifle while he lay hurt by his own fire
+416 | Cal telsizde | There's a doctor on the band at night, I'd hold my tongue about my leg until daylight
+417 | Cal telsizde | Cal Dreyer again, the leg held, the pride did not
+418 | Cal telsizde | Smoke is thin now, I'm out of chairs
+##### OLAY stalled_bus · Last bus #####
+# KİŞİLER: Greta Halloran (kadın, Teacher with a busload of kids; counts heads out loud every time anything happens); Amos Pike (erkek, Bus driver; talks to the bus like it can hear him)
+# YER: road
+419 | GÖREV | Last bus
+420 | GÖREV | Greta Halloran and Amos Pike have a stalled school bus about {dist} steps {dir} of you
+421 | GÖREV | Find the stalled bus
+422 | GÖREV | Talk to Greta
+423 | Greta telsizde | This is Greta Halloran, the Dunmore school bus, if anyone is out there please answer
+424 | Greta telsizde | Amos says the engine is flooded or dead or both, we're about {dist} steps {dir} of you, on the road
+425 | Greta telsizde | Fourteen kids and me, nine, ten, I keep counting, I'm sorry, I count when I'm scared
+426 | Greta telsizde | Did you copy? Are you near the road?
+427 | OYUNCU SEÇENEĞİ | Hang tight, I'll bring tools
+428 | Amos telsizde | A wrench and a screwdriver and she'll run, I swear on her mirrors
+429 | OYUNCU SEÇENEĞİ | Is anyone hurt?
+430 | Greta telsizde | Scrapes and a sprained wrist, nothing worse, they're being brave, mostly
+431 | OYUNCU SEÇENEĞİ | I can't get there
+432 | Greta telsizde | I understand, I do, we'll try the walk
+433 | Amos | You're real, you're actually real, kids, look, a real person
+434 | Greta | Eleven, twelve, thirteen, fourteen, everyone is here, thank you for coming
+435 | Amos | Got a wrench for her? She needs a wrench and a screwdriver
+436 | OYUNCU SEÇENEĞİ | Here, take the wrench and the screwdriver
+437 | Amos | That's not in your hands yet, I need both, the wrench and the screwdriver
+438 | Amos | Hear her cough, there she goes, she's alive, good girl
+439 | OYUNCU SEÇENEĞİ | Come with me, I'll walk you to a safe place
+440 | Greta | The kids can walk, they've walked worse, line up, line up
+441 | OYUNCU SEÇENEĞİ | I can spare some food for the kids
+442 | Greta | You're kind, but I don't see it in your hands
+443 | Greta | Look at that, apples, everybody say thank you
+444 | OYUNCU SEÇENEĞİ | I can't help, sorry
+445 | Greta | Of course, of course, thank you for coming
+446 | SONUÇ | You gave Amos the tools and the school bus started
+447 | Amos | Take the road atlas, I have three, and tell the road we said thank you
+448 | SONUÇ | You walked the schoolchildren off the road
+449 | Greta | Fourteen, fourteen, all fourteen, thank you
+450 | SONUÇ | You fed the children on the stalled bus
+451 | Greta | They'll remember the apples, honestly they will
+452 | SONUÇ | You left the school bus where it stood
+453 | SONUÇ | You told Greta you could not reach the bus
+454 | SONUÇ | Greta's count went unanswered
+455 | SONUÇ | The school bus was empty when you got there
+456 | SÖYLENTİ | a school bus got its engine started on the Dunmore road because somebody brought a wrench
+457 | SÖYLENTİ | a teacher walked fourteen kids off a stalled bus behind a stranger from the radio
+458 | SÖYLENTİ | somebody left apples with a busload of schoolkids on the road
+459 | Amos telsizde | Heard there was a sergeant in a ditch who got patched up by a stranger, hope the stranger is you
+460 | Greta telsizde | Greta again, the bus is still here, we are still counting
+461 | Amos telsizde | Bus is still dead, kids are still hopeful
+
+##### TELSİZ bridge_clear #####
+462 | ÇAĞRI ADI | Patrol Three
+463 | Patrol Three | Bridge is clear, heading back
+464 | ÇAĞRI ADI | Gate
+465 | Gate | Copy, kettle is on
+
+##### TELSİZ hardware_store #####
+466 | ÇAĞRI ADI | Patrol Two
+467 | Patrol Two | Two of them at the hardware store, leaving them be
+468 | Gate | Good call, stay off the glass
+
+##### TELSİZ dogs_north #####
+469 | Patrol Three | Dogs barking on the north road again
+470 | Gate | Dogs or something under them
+471 | Patrol Three | Not stopping to find out
+
+##### TELSİZ dark_boot #####
+472 | ÇAĞRI ADI | Patrol One
+473 | Patrol One | Dark as the inside of a boot out here
+474 | Gate | Hold at the culvert till first light
+
+##### TELSİZ water_tower #####
+475 | Gate | Anybody near the water tower
+476 | Patrol Two | Two minutes out, nothing moving
+
+##### TELSİZ stalled_sedan #####
+477 | Patrol Two | Stalled sedan on the county road, doors open, nobody in it
+478 | Gate | Mark it and keep walking
+
+##### TELSİZ morning_check #####
+479 | Gate | Morning check, everybody sound off
+480 | Patrol Three | Three, and cold
+
+##### TELSİZ light_going #####
+481 | Gate | Light is going, be inside before dark
+482 | Patrol Three | Almost there, my feet hate me
+
+##### TELSİZ radio_check #####
+483 | Patrol One | Loud and cold
+
+##### TELSİZ short_please #####
+484 | Gate | Keep it short folks, batteries do not grow on trees
+
+##### TELSİZ soup_six #####
+485 | Gate | Soup at six, bring your own spoon
+
+##### TELSİZ lost_goat #####
+486 | Gate | We lost a goat, if you see a goat it is ours
+487 | Stranger | I have seen several goats, which one
+488 | Gate | The angry one
+
+##### TELSİZ generator #####
+489 | Gate | Generator is down, if you hear banging that is us fixing it
+
+##### TELSİZ quiet_worry #####
+490 | Gate | All quiet on the north side
+491 | Patrol Two | Quiet is when I start to worry
+
+##### TELSİZ east_smoke #####
+492 | Patrol One | Smoke over the east ridge, not ours
+493 | Gate | Mark it, stay off that side
+
+##### TELSİZ kid_bike #####
+494 | Patrol Three | Found a kid's bike in the road, left it where it lay
+
+##### TELSİZ bare_feet #####
+495 | Patrol Two | Tracks in the snow, bare feet, I did not follow them
+
+##### TELSİZ south_ramp #####
+496 | Gate | Snow is piling up on the south ramp, shovels needed
+497 | Patrol One | Tell them to bring the good shovel this time
+
+##### TELSİZ mae_knife #####
+498 | ÇAĞRI ADI | Trader Mae
+499 | Trader Mae | Cans, batteries, one good knife, trading till noon
+500 | Stranger | What do you want for the knife
+501 | Trader Mae | Dry socks, I am serious
+
+##### TELSİZ mae_salt #####
+502 | Trader Mae | Anyone want salt, I have far too much salt
+
+##### TELSİZ dob_gas #####
+503 | ÇAĞRI ADI | Trader Dob
+504 | Trader Dob | Gas for sale, fair price, no haggling before breakfast
+
+##### TELSİZ mae_thermos #####
+505 | Trader Mae | Lost my good thermos, find it and I owe you a can
+
+##### TELSİZ dob_bandages #####
+506 | Trader Dob | Got bandages by the crate, do not ask where from
+
+##### TELSİZ mae_mud #####
+507 | Trader Mae | Roads are soup, nobody is moving trucks today
+
+##### TELSİZ mae_boots #####
+508 | Patrol Two | Traded my spare boots for a cat, best deal this month
+509 | Trader Mae | I want my boots back, the cat is a fraud
+
+##### TELSİZ mae_coffee #####
+510 | Trader Mae | Coffee substitute, roasted acorns, do not ask
+
+##### TELSİZ anyone_there #####
+511 | Stranger | Anyone on this band
+512 | Stranger | Anyone at all
+513 | Stranger | Guess not
+
+##### TELSİZ red_roof #####
+514 | Stranger | If you hear this I am on the red roof west of the diner, no hurry
+
+##### TELSİZ lost_days #####
+515 | Stranger | Lost track of the days again
+
+##### TELSİZ church_bell #####
+516 | Stranger | Is that a church bell still going
+517 | Stranger | No wait, that is my kettle, sorry
+
+##### TELSİZ engine_heard #####
+518 | Stranger | Anybody hear that engine just now
+519 | Patrol Two | Heard it, west side, going away from us
+
+##### TELSİZ lake_water #####
+520 | Stranger | Anyone know if the lake water is any good
+
+##### TELSİZ mattress #####
+521 | Stranger | Moving north tomorrow, anybody want a spare mattress
+522 | Trader Mae | Why would you carry a mattress
+
+##### TELSİZ test_test #####
+523 | Stranger | Test test, is this thing on
+524 | Gate | Yes, and stop shouting
+
+##### TELSİZ porch_light #####
+525 | Stranger | Whoever left the porch light on, thank you
+526 | Stranger | It helped more than you know
+
+##### TELSİZ humming #####
+527 | Stranger | Who keeps humming on this channel
+
+##### TELSİZ cant_sleep #####
+528 | ÇAĞRI ADI | Late Operator
+529 | Late Operator | Cannot sleep, anybody up
+530 | Late Operator | Fine, I will talk to the static
+
+##### TELSİZ same_song #####
+531 | Late Operator | Third night with the same song stuck in my head
+
+##### TELSİZ moon_yard #####
+532 | Late Operator | Moon is out, I can see every one of them in the yard like furniture
+
+##### TELSİZ knee_rain #####
+533 | Late Operator | My knee says rain by morning
+
+##### TELSİZ counting_cars #####
+534 | Late Operator | Counting cars on the highway from my window, zero so far tonight
+
+##### TELSİZ rain_sideways #####
+535 | Gate | Rain is coming in sideways, pull the patrols back
+536 | Patrol Two | Already under the awning
+
+##### TELSİZ lightning_ridge #####
+537 | Gate | Lightning on the ridge, keep the sets off the roof
+538 | Patrol One | Copy, taking mine inside
+
+##### TELSİZ thunder_close #####
+539 | Stranger | Thunder is right on top of me, going off the air
+
+##### TELSİZ fog_hood #####
+540 | Patrol Three | Cannot see past the hood, creeping
+541 | Gate | Walk it, do not drive it
+
+##### TELSİZ fog_mailbox #####
+542 | Stranger | Fog so thick I walked into a mailbox
+
+##### TELSİZ static_a #####
+543 |  | krrk ... shhhhh ... kk
+
+##### TELSİZ static_b #####
+544 |  | zzt ... copy that ... zzt ... say again
+
+##### TELSİZ static_c #####
+545 |  | shhhh ... a voice, very far, counting ... shhhh

@@ -1,0 +1,217 @@
+# PAKET Y13R · parça 1/1 · satır 1-156 (156 satır)
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# Kurallar: aşağıdaki ARAYÜZ kuralları (sahne/karakter canlandırma yok). Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.
+# ARAYÜZ DOSYASI: Bu satırlar konuşma değil, EKRAN METNİ: düğme, ayar, ipucu, bildirim, etiket. Sahne ya da karakter canlandırma yok; kısa, net ve tutarlı yaz.
+# BİÇİM: Etiketlerde emir ya da isim biçimi kullan ('Kaydet', 'Teçhizat'). 'siz' hitabı yok, '-dır' yok; ipucu ve açıklamada gerekirse 'sen'. Sonda nokta İngilizcedeki gibi: İngilizcede yoksa yazma, varsa koru.
+# KORUNACAKLAR: {yer_tutucu}, %%, %1, \n ve <...> etiketleri ile renk kodları aynen kalır. Kısaltmalar (HP, NPC, GM, MHz…) ve özel adlar (kişi, grup, yer, silah adı) çevrilmez. Sayıları ve birimleri koru.
+# UZUNLUK: Türkçe İngilizceden belirgin uzun olmasın; düğmelerde ve sekme adlarında en fazla yaklaşık 1,3 katı. Sığmıyorsa kısalt, anlamı koru.
+# BÜYÜK HARF: İngilizcede BÜYÜK HARFLİ yazılmış etiket Türkçede de büyük harfli olur (İ/ı kurallarıyla).
+# EKRAN: Her ##### başlığının altındaki 'EKRAN:' notu metnin hangi ekranda ya da panelde göründüğünü söyler; önce onu oku. Etiket sütunu kodda alanın adıdır (ui, tip, label…), çıktıya yazma.
+# TERİMLER (bağlayıcı; yalnız bu dosyada geçenler; sözcük aynı anlamda geçiyorsa bu karşılığı kullan): Faction → Fraksiyon; Squad → Tim; Crew → Ekip; Group → Grup; Default → Varsayılan; Creator → Oluşturucu; Preset → Şablon; Profile → Profil; Loot → Ganimet; selected → Seçili; weapon → Silah; edit → Düzenle; members → Üyeler; create → Oluştur; outfit → Kıyafet; vehicle → Araç; ammo → Mermi; behavior → Davranış; roster → Kadro; search → Arama; melee → Yakın dövüş; saved → Kaydedildi; delete → Sil; melee weapon → Yakın dövüş silahı; police → Polis; allied → Müttefik; attachments → Eklentiler; beard → Sakal; built-in → Yerleşik; cars → Arabalar; combat → Çatışma; combat support → Çatışma desteği; damage → Hasar; gender → Cinsiyet; hair → Saç; identity → Kimlik; inherit → Devral; magazines → Şarjörler; model → Model; no ammo → Mermi yok
+# Girdi biçimi: N | etiket | İngilizce
+
+##### OLUŞTURUCU · LİSTE VE FİLTRE #####
+# EKRAN: Oluşturucu ekranında fraksiyon/üye listesi, arama ve filtre düğmeleri; boş liste yönlendirmeleri
+1 | - | ROLE
+2 | - | SETS
+3 | - | Firearm
+4 | - | OFF  
+5 | - | CLEAR SEARCH
+6 | - | SHOW ALL
+7 | - | no weapon
+
+##### OLUŞTURUCU · FRAKSİYON DESTEĞİ #####
+# EKRAN: Oluşturucuda fraksiyonun araç seçimi gibi destek alanları
+8 | - | The car this faction's crews drive when they arrive by car.
+9 | - | ARRIVAL VEHICLE
+10 | - | Default car
+11 | - | Default keeps the standard arrival car. A crew larger than two of the chosen vehicle uses the default car instead.
+12 | - | Paint colour
+13 | - | Some vehicles, such as police cars, keep their own livery.
+14 | - | random paint
+15 | - | Not installed: arrivals use the default car.
+
+##### OLUŞTURUCU · KURTARMA #####
+# EKRAN: Oluşturucuda silinen NPC geri getirilince çıkan durum yazısı
+16 | - | CLICK AGAIN TO CONFIRM
+17 | - | CONFIRM?
+18 | - | CLICK TO CONFIRM
+19 | - | NPC deleted.
+20 | - | UNDO
+21 | - | CLICK AGAIN TO RESET - THE SERVER LIST IS REPLACED, FACTIONS YOU MADE STAY
+22 | - | CLICK AGAIN TO RESET - YOUR CURRENT FACTION FILE IS KEPT AS A .BACKUP.INI COPY
+23 | - | Built-in factions go back to default. Factions you made yourself stay. A single-player faction file is kept as a .backup.ini copy. Click twice within 3 seconds to confirm.
+24 | - | Click twice within 3 seconds to confirm.
+
+##### OLUŞTURUCU · ANA EKRAN (1/2) #####
+# EKRAN: Oluşturucu ana ekranı: sekme, düğme ve filtre ipuçları (fareyle üstüne gelince)
+25 | - | UI part failed to load: 
+26 | - | Edit the people in the selected faction: roster on the left, full editor on the right.
+27 | - | Edit the selected faction itself: identity, relations, spawning, behavior defaults, support and wardrobe.
+28 | - | Name, gender, tag, class and spawn weight.
+29 | - | Skin, hair, beard, outfit sets and the clothing slots.
+30 | - | Face choices for this NPC.
+31 | - | Weapons, attachments and magazines.
+32 | - | Health, skills, damage, loot and combat support.
+33 | - | Behavior profile, doctrine and voice.
+34 | - | Per-NPC ability overrides. Empty means inherit from the faction.
+35 | - | How this faction treats the player and every other faction.
+36 | - | Where, when and how often this faction appears.
+37 | - | Ability defaults for every member of this faction.
+38 | - | Backup calls: squad size, number of calls and allied factions.
+39 | - | Season outfits for the whole faction.
+40 | - | Back to the faction list and member roster.
+41 | - | Show every member.
+42 | - | Show members that carry a firearm.
+
+##### OLUŞTURUCU · ANA EKRAN (2/2) #####
+# EKRAN: Oluşturucu ana ekranı: sekme, düğme ve filtre ipuçları (fareyle üstüne gelince)
+43 | - | Show members that carry a melee weapon.
+44 | - | Make the member list narrower.
+45 | - | Make the member list wider.
+46 | - | Previous page.
+47 | - | Next page.
+48 | - | Create a folder to group factions. Drag a faction onto a folder to file it.
+49 | - | Create a new faction.
+50 | - | Add a new NPC preset to the selected faction.
+51 | - | Open the settings of the selected faction.
+52 | - | Copy the selected faction with all its NPC presets.
+53 | - | Copy the selected NPC preset.
+54 | - | Delete the selected item. Click twice within 3 seconds to confirm.
+55 | - | Send every Creator faction and NPC to the server (multiplayer admins).
+56 | - | Close the Creator. Pending edits are saved first.
+57 | - | Show the next enabled outfit set on the live model.
+58 | - | Keep the authored color of the selected clothing item.
+59 | - | Pick any color for the selected clothing slot.
+60 | - | Members with no weapon or no ammo. Click to show only them.
+
+##### OLUŞTURUCU · DURUM ŞERİDİ #####
+# EKRAN: Oluşturucu alt şeridi: kayıt durumu, uyarılar, boş ekran yönlendirmeleri ve düğme ipuçları
+61 | - | FAIL
+62 | - | COMPLETE
+63 | - | RESET
+64 | - | REMOVED
+65 | - | RESTORED
+66 | - | UNSAVED CHANGES  -  AUTOSAVE PENDING
+67 | - | TEXT TOO LARGE FOR THIS SCREEN
+68 | - | Save faction and NPC edits now. Shortcut: Ctrl + S. Edits also autosave.
+69 | - | NO FACTION SELECTED
+70 | - | Pick a faction in the list on the left.
+71 | - | THIS FACTION HAS NO MEMBERS YET
+72 | - | Click + NEW MEMBER to add the first NPC preset.
+73 | - | Every member has a weapon and ammo.
+74 | - | NO MEMBER MATCHES "
+75 | - | NO MEMBERS MATCH THIS FILTER
+76 | - | Choose ALL to see every member.
+77 | - | NO FACTION MATCHES "
+78 | - | Clear the search box to see every faction.
+79 | - | Click + NEW FACTION to create the first one.
+80 | - | NO FACTIONS YET
+# TERİMLER (bağlayıcı; yalnız bu dosyada geçenler; sözcük aynı anlamda geçiyorsa bu karşılığı kullan): Gear → Teçhizat; Faction → Fraksiyon; Squad → Tim; Default → Varsayılan; Creator → Oluşturucu; Loot → Ganimet; Friendly → Dost; horde → sürü; spring → İlkbahar; summer → Yaz; jacket → Ceket; autumn → Sonbahar; outfit → Kıyafet; winter → Kış; behavior → Davranış; outfit sets → Kıyafet takımları; raiders → Yağmacılar; vest → Yelek; edit → Düzenle; raider → Yağmacı; spawn weight → Oluşturma ağırlığı; ammo → Mermi; mask → Maske; notes → Notlar; refresh → Yenile; weapon → Silah; any season → Her mevsim; appearance → Görünüm; beard → Sakal; combat → Çatışma; damage → Hasar; gender → Cinsiyet; hair → Saç; identity → Kimlik; layers → Katmanlar; save → Kaydet; selected → Seçili
+# Girdi biçimi: N | etiket | İngilizce
+
+##### OLUŞTURUCU · SEKMELER #####
+# EKRAN: Oluşturucu sekme başlıkları ve sekme ipuçları
+81 | - | LOOK
+82 | - | GEAR
+83 | - | ABILITIES
+84 | - | Name, gender and notes. Tag, class and spawn weight are in the folded block.
+85 | - | Skin, hair, beard, outfit sets and clothing slots (APPEARANCE), face choices (FACES).
+86 | - | COMBAT: health, skills, damage and loot. BEHAVIOR: doctrine and voice. ABILITIES: per-NPC overrides.
+87 | - | IDENTITY, LOOK, GEAR and BEHAVIOR. LOOK and BEHAVIOR have a second row.
+88 | - | Click to fold or unfold this block.
+89 | - | FEWER COLUMNS
+90 | - | MORE COLUMNS
+91 | - | Show behavior, ammo, outfit sets and spawn weight in the member table.
+
+##### OLUŞTURUCU · KIYAFET SEZONLARI #####
+# EKRAN: Oluşturucuda kıyafet takımlarına sezon etiketi veren araç
+92 | - | Free set, any season: not part of the faction wardrobe
+93 | - | Generate fills missing sets and season tags. NPCs that already have their own untagged outfits are skipped: their outfits and tags stay exactly as authored, and the game still dresses them for the season on its own.
+94 | - | Moved to the NPC editor: Look tab, OUTFIT SETS. Sets A to D are the faction's spring, summer, autumn and winter outfits.
+95 | - | FACTION WARDROBE BY SEASON
+96 | - | EDIT FACTION SET
+97 | - | Open the faction wardrobe editor for the selected set. A to D are the faction's spring, summer, autumn and winter outfits.
+98 | - | Refresh this faction's seasonal sets from the shipped wardrobe. A preview opens first, nothing changes until you accept.
+99 | - | Limit the faction list to factions that ship with the mod.
+100 | - | Moved to NPC Look.
+
+##### OLUŞTURUCU · ÇEKİRDEK #####
+# EKRAN: Oluşturucunun ayar adları, ön ayar açıklamaları ve karşılaşma özetleri
+101 | - | A block-walled garrison with towers
+102 | - | A fenced farm with a field and a pen
+103 | - | A palisaded market with stalls
+104 | - | A walled cell block and exercise yard
+105 | - | A small fenced lodge and fire circle
+106 | - | A scrap palisade held by raiders
+107 | - | Horde retreat
+108 | - | Suppression
+109 | - | Covering fire
+110 | - | Squad push
+111 | - | Focus fire
+112 | - | Friendly line
+113 | - | In a stalled firefight one shooter runs out to a side angle with a line on the enemy while the rest keep it pinned.
+114 | - | Rounds that crack past this NPC pin it down: worse aim, slower to shoot back, bursts held while pinned, and a push into cover.
+115 | - | Any rifle in the squad can lay steady covering fire while a squadmate moves to cover or flanks.
+116 | - | When the enemy reloads or goes down, the squad re-aims and advances together in a line, shooting.
+117 | - | The squad prefers the target a squadmate just called, so fire lands on one enemy instead of spreading.
+118 | - | Holds fire and sidesteps when a squadmate stands in the line of fire.
+119 | - | Example: Raiders, Story factions
+120 | - | FACTIONS RESET - DELETED NPCS COULD NOT BE RESTORED
+121 | - | FACTIONS RESET TO DEFAULT - OLD FILE KEPT AS .BACKUP.INI
+
+##### OLUŞTURUCU · KAYIT SIRASI #####
+# EKRAN: Oluşturucuda kayıt sırasında çıkan durum ve hata yazıları
+122 | - | the save could not start
+123 | - | the written file did not match the edit
+124 | - | an error while writing
+125 | - | the NPC list changed while writing
+
+##### OLUŞTURUCU · GÖRÜNÜM #####
+# EKRAN: Oluşturucuda görünüm sekmesi
+126 | - | by weapon
+127 | - | PROGRAM
+128 | - | PARTIES
+
+##### OLUŞTURUCU · UYUMLULUK #####
+# EKRAN: Oluşturucunun başka modlarla uyumluluk kaydı yazıları
+129 | - | base:
+130 | - | LAYER MOVED TO 
+
+##### OLUŞTURUCU · ANA MENÜ KARESİ #####
+# EKRAN: Ana menüdeki Oluşturucu karosu
+131 | - | A-LIFE CREATOR
+
+##### OLUŞTURUCU · FRAKSİYON KARTI #####
+# EKRAN: Oluşturucuda fraksiyon kartının alt satırında çıkan sürüm yazısı
+132 | - | 1993 / DevBuild UI 2
+
+##### OLUŞTURUCU · KIYAFET TAKIMI ADI #####
+# EKRAN: Kıyafet takımı adındaki fraksiyon bölümü: fraksiyon adı (özel ad)
+133 | - | Argent Isolation
+134 | - | Blackglass
+135 | - | Iron Orchard
+
+##### OLUŞTURUCU · KIYAFET DOLABI SATIRI #####
+# EKRAN: Oluşturucuda kıyafet takımının altında küçük yazıyla çıkan açıklama: mevsimle başlar (spring, summer, autumn, winter), kıyafet listesi sayar; cümle değil, küçük harfli bir ifade, sonda nokta yok
+136 | - | summer vests and bandanas
+137 | - | summer tees and caps
+138 | - | spring flannel and denim
+139 | - | summer camo tees and body armour
+140 | - | spring camo jackets and body armour
+141 | - | summer light coveralls and boots
+142 | - | winter padded jackets
+143 | - | autumn hunting layers and leather
+144 | - | winter coveralls with wool hats and gloves
+145 | - | spring coveralls and gas masks
+146 | - | spring uniform shirts and service caps
+147 | - | spring flannel and leather
+148 | - | autumn coveralls and hi-vis vests
+149 | - | autumn work jackets
+150 | - | winter padded jackets and wool hats
+151 | - | spring mismatched work jackets and caps
+152 | - | winter army coats and wool hats
+153 | - | autumn camo field jackets
+154 | - | summer olive drab tees, aviators and boonie hats
+155 | - | autumn leather jackets
+156 | - | summer tees and bandanas

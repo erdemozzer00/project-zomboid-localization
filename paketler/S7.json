@@ -1,0 +1,287 @@
+{
+    "_paket": "S7 — Sandbox: Ses, yönetici, uyumluluk (6Sound, 9Admin, 9Compat)",
+    "_dosya": "Sandbox",
+    "satirlar": {
+        "Sandbox_ProjectALife.Support_SpotlightChance": {
+            "tr": "Helikopter projektörü çağırma olasılığı (yüzde)"
+        },
+        "Sandbox_ProjectALife.Support_SpotlightChance_tooltip": {
+            "tr": "Helikopter desteği isteme yetkisi olan bir NPC'nin projektör çağırma olasılığını belirler. Yalnızca kara desteği çağırabilenler bunu isteyemez.\nVarsayılan: 12.",
+            "not": "Eski: \"-dır\" sonu kaldırıldı."
+        },
+        "Sandbox_ProjectALife.Support_SpotlightSeconds": {
+            "tr": "Projektörlü uçuş süresi (gerçek saniye)"
+        },
+        "Sandbox_ProjectALife.Support_SpotlightSeconds_tooltip": {
+            "tr": "Çağrılan projektörlü uçuşun, helikopter ayrılmadan önce ne kadar süreceğini belirler.\nVarsayılan: 180.",
+            "not": "EN tamamen değişti; eski metin (projektörün oyuncuyu takip etmesi) artık geçerli değil."
+        },
+        "Sandbox_ProjectALife.Support_HelicopterSeconds": {
+            "tr": "Destek helikopteri etki süresi (gerçek saniye)"
+        },
+        "Sandbox_ProjectALife.Support_HelicopterSeconds_tooltip": {
+            "tr": "Destek helikopterinin alçak uçuş efektlerinin ne kadar süreceğini belirler. Kara takviyesinin ne kadar kalacağını belirlemez.\nVarsayılan: 35.",
+            "not": "flyover → \"alçak uçuş\" (S1'deki Raid_Helicopter ile aynı)."
+        },
+        "Sandbox_ProjectALife.Helicopter_Spotlight": {
+            "tr": "Helikopter projektörleri"
+        },
+        "Sandbox_ProjectALife.Helicopter_Spotlight_tooltip": {
+            "tr": "Gece ya da loş havada hareket eden projektörlere izin verir. Dışarıdaki insanları ortaya çıkarabilir; siperler ve binalar insanları gizler. Kapalı: yalnızca projektör kapanır.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.Helicopter_SpotlightSize": {
+            "tr": "Projektör yarıçapı (kare)"
+        },
+        "Sandbox_ProjectALife.Helicopter_SpotlightSize_tooltip": {
+            "tr": "Aydınlanan alanın yarıçapını belirler. Geniş ışık daha çok yer kaplar ve ışığa yakalanmayı kolaylaştırır.\nVarsayılan: 11."
+        },
+        "Sandbox_ProjectALife.Helicopter_SpotlightBrightness": {
+            "tr": "Projektör parlaklığı (yüzde)"
+        },
+        "Sandbox_ProjectALife.Helicopter_SpotlightBrightness_tooltip": {
+            "tr": "Helikopter projektörünün yeri ne kadar güçlü aydınlatacağını belirler.\nVarsayılan: 100."
+        },
+        "Sandbox_ProjectALife.Helicopter_SpotlightGapMinutes": {
+            "tr": "Projektörlü uçuş aralığı (gerçek dakika)"
+        },
+        "Sandbox_ProjectALife.Helicopter_SpotlightGapMinutes_tooltip": {
+            "tr": "Dünyanın herhangi bir yerindeki iki projektörlü uçuş arasındaki en kısa süreyi belirler. Kısa aralık daha çok uçuşa izin verir; Helikopter projektörü çağırma olasılığı yine geçerli.\nVarsayılan: 20.",
+            "not": "C1: \"call chance\" → bu sayfadaki ayar adı."
+        },
+        "Sandbox_ProjectALife.OfflineTickSeconds": {
+            "tr": "Uzaktaki grupların güncelleme aralığı (gerçek saniye)"
+        },
+        "Sandbox_ProjectALife.OfflineTickSeconds_tooltip": {
+            "tr": "Uzaktaki gezgin grupların ne sıklıkla hareket edip karar verdiğini belirler. Aralık uzadıkça güncelleme azalır.\nVarsayılan: 20."
+        },
+        "Sandbox_ProjectALife.OutpostsStreamHold": {
+            "tr": "Yolculuk sonrası karakol inşaatı molası (gerçek saniye)"
+        },
+        "Sandbox_ProjectALife.OutpostsStreamHold_tooltip": {
+            "tr": "Çok oyunculu oyunda oyuncular harita bölümleri arasında geçmeyi bırakana kadar duvar ve yapı işlerini bekletir. En az 5 saniye, yüklenmekte olan oyuncuları korur; oyuna yeni katılanlar için ayrıca 30 saniyelik bekleme var.\nVarsayılan: 5."
+        },
+        "Sandbox_ProjectALife.SimulationRadius": {
+            "tr": "Etkin NPC mesafesi (kare)",
+            "not": "Eski \"Ayrıntılı simülasyon yarıçapı\"; EN değişti."
+        },
+        "Sandbox_ProjectALife.SimulationRadius_tooltip": {
+            "tr": "Kayıtlı NPC'lerin fiziksel karakter olarak belirmesi için bir oyuncuya ne kadar yakın olması gerektiğini belirler. Mesafe büyüdükçe yakındaki daha çok NPC etkin kalır.\nVarsayılan: 90."
+        },
+        "Sandbox_ProjectALife.ShowAdminTools": {
+            "tr": "Sağ tık menüsünde yönetici araçlarını göster"
+        },
+        "Sandbox_ProjectALife.ShowAdminTools_tooltip": {
+            "tr": "Sağ tık menüsündeki yönetici konsolu, NPC oluşturma paneli, karşılaşma listesi, karakol kurucu ve baskın ayarları. Oyuncuların ayrıca Ayarlar'da Tanılama'yı işaretlemesi gerekir. Sağ tık menüsünü sade tutmak istersen kapat; Oluşturucu (Insert tuşu) ve dünya durumu (Home tuşu) kendi tuşlarında ve duraklatma menüsünde kalır. Sunucudaki yöneticiler bundan etkilenmez.\nVarsayılan: açık.",
+            "not": "Eski: \"siz\" → \"sen\". C1 ileri atıf: \"Tanılama\" (U8'deki Diagnostics etiketi), \"dünya durumu\" (U8)."
+        },
+        "Sandbox_ProjectALife.CleanupRespawnAfter": {
+            "tr": "Temizlikten sonra A-Life yeniden NPC oluştursun"
+        },
+        "Sandbox_ProjectALife.CleanupRespawnAfter_tooltip": {
+            "tr": "Bir yönetici CLEANUP A-LIFE (A-Life temizliği) işlemini sonuna kadar çalıştırınca mod o dünyada devre dışı kalır, böylece güvenle kaldırılabilir. Bunu yalnızca temizlenmiş bir dünyada modun yeniden insan ve karakol oluşturmasını istiyorsan aç.\nVarsayılan: kapalı.",
+            "not": "\"CLEANUP A-LIFE\" pencere başlığı Lua'da sabit yazılmış, çeviri dosyasında yok → oyunda İngilizce görünecek. Oyuncu bulabilsin diye İngilizcesi korunup yanına açıklama eklendi."
+        },
+        "Sandbox_ProjectALife.Tracers": {
+            "tr": "NPC mermi izleri"
+        },
+        "Sandbox_ProjectALife.Tracers_tooltip": {
+            "tr": "NPC atışları boyunca görünür bir mermi izi çizer. Kapatmak namlu alevini, silah seslerini ve kovanları değiştirmez.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.MuzzleFlash": {
+            "tr": "NPC namlu alevleri"
+        },
+        "Sandbox_ProjectALife.MuzzleFlash_tooltip": {
+            "tr": "NPC'ler ateş edince silahın boyuna uygun bir namlu alevi ve yakın zemine vuran ışık gösterir. Susturuculu silahlar alev vermez. Silah sesleri ve kovanlar değişmez.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.ShotFxRange": {
+            "tr": "Çok oyunculuda atış efekti mesafesi (kare)"
+        },
+        "Sandbox_ProjectALife.ShotFxRange_tooltip": {
+            "tr": "Çok oyunculu oyunda diğer oyuncuların bir NPC atışının alevini ve izini ne kadar uzaktan görüp sesini ve kovanını ne kadar uzaktan duyabileceğini belirler.\nVarsayılan: 90."
+        },
+        "Sandbox_ProjectALife.DormantTtl": {
+            "tr": "Kimsenin uğramadığı NPC'lerin temizlenme süresi (oyun saati)"
+        },
+        "Sandbox_ProjectALife.DormantTtl_tooltip": {
+            "tr": "Bu süre boyunca kimsenin yaklaşmadığı etkin olmayan NPC'leri kaldırır. Sabitlenmiş NPC'ler ve garnizonlar gibi kalıcı ekiplerin süresi hiç dolmaz. 0'da temizlik kapalı.\nVarsayılan: 8."
+        },
+        "Sandbox_ProjectALife.BiteLoudness": {
+            "tr": "NPC ısırılma ve acı seslerinin düzeyi (yüzde)",
+            "not": "N: küçük düzeltme."
+        },
+        "Sandbox_ProjectALife.BiteLoudness_tooltip": {
+            "tr": "Zombi ısırıklarının, diri diri yenme seslerinin ve NPC acı çığlıklarının ses düzeyini belirler. Sesler mesafeyle azalır ve yalnızca 25 kare içinde duyulur. 0'da tamamen susar.\nVarsayılan: 40.",
+            "not": "N: \"yenilme sesleri\" → \"diri diri yenme sesleri\" (S3'teki düzeltmeyle aynı; \"yenilme\" yenilgi gibi okunuyor) + varsayılan kalıbı."
+        },
+        "Sandbox_ProjectALife.Talk_UIOpacity": {
+            "tr": "Konuşma penceresi ve balonlarının matlığı (yüzde)"
+        },
+        "Sandbox_ProjectALife.Talk_UIOpacity_tooltip": {
+            "tr": "Konuşma penceresinin ve konuşma balonu kutularının ne kadar mat olacağını belirler. Yazılar hep tam net kalır. Değer düştükçe saydamlaşır, 100 klasik görünüm.\nVarsayılan: 100.",
+            "not": "N: \"daha saydamdır\", \"klasik görünümdür\" → \"-dır\"sız (K5) + varsayılan kalıbı."
+        },
+        "Sandbox_ProjectALife.Text_NpcChatLog": {
+            "tr": "Sohbet kutusunda NPC replikleri"
+        },
+        "Sandbox_ProjectALife.Text_NpcChatLog_tooltip": {
+            "tr": "NPC konuşmalarını çok oyunculu oyunda sohbet kutusuna, tek oyunculu oyunda ise küçük bir kayıt paneline kopyalar. Yalnızca kendi ekranında görünür, sıklığı sınırlıdır; adlar yabancı kuralına göre gösterilir, yani tanımadığın kişinin adı çıkmaz.\nVarsayılan: Kapalı (1).",
+            "not": "N: \"siz\" → \"sen\"; \"hız sınırına tabidir\" → \"sıklığı sınırlıdır\"; \"yabancı kuralı\" kısaca açıklandı."
+        },
+        "Sandbox_ProjectALife.Text_NpcChatLog_option1": {
+            "tr": "Kapalı"
+        },
+        "Sandbox_ProjectALife.Text_NpcChatLog_option2": {
+            "tr": "Sana söylenenler",
+            "not": "N: \"Size\" → \"Sana\" (K7)."
+        },
+        "Sandbox_ProjectALife.Text_NpcChatLog_option3": {
+            "tr": "Duyduğun her şey",
+            "not": "N: \"Duyduğunuz\" → \"Duyduğun\" (K7)."
+        },
+        "Sandbox_ProjectALife.HibernateTiles": {
+            "tr": "Uzaktaki grupların uykuya geçme mesafesi (kare)"
+        },
+        "Sandbox_ProjectALife.HibernateTiles_tooltip": {
+            "tr": "Bu mesafenin ötesinde (60-400 kare) gruplar yolculuğu, plan yapmayı ve erzak tüketmeyi bırakır. Üyeler ve ganimet yerinde kalır; yaklaşınca gruplar uyanır ama kaçırdıkları zamanı telafi etmez.\nVarsayılan: 150."
+        },
+        "Sandbox_ProjectALife.LifecycleReloadGuard": {
+            "tr": "Harita yeniden yüklenince NPC koruması"
+        },
+        "Sandbox_ProjectALife.LifecycleReloadGuard_tooltip": {
+            "tr": "Harita yeniden yüklenince NPC'leri geri getirir, gözden uzaktaki artık zombi kopyalarını siler ve geri dönen grupların çevresindeki zombileri temizler. Yolu kapalı gruplar daha uzağa döner. Kapalı: bu koruma kalkar.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.SpawnDespawnMinTiles": {
+            "tr": "NPC kaldırmak için gereken uzaklık (kare)"
+        },
+        "Sandbox_ProjectALife.SpawnDespawnMinTiles_tooltip": {
+            "tr": "NPC'ler ancak bütün oyunculardan en az bu kadar uzakta ve görüş dışındayken etkisizleşebilir ya da kaldırılabilir.\nVarsayılan: 60."
+        },
+        "Sandbox_ProjectALife.HearingEnabled": {
+            "tr": "NPC'lerin duyması"
+        },
+        "Sandbox_ProjectALife.HearingEnabled_tooltip": {
+            "tr": "NPC'lerin dünyadaki seslere tepki vermesini ve yakında koşan ya da ateş eden oyuncuları fark etmesini sağlar.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.HearingRadiusPercent": {
+            "tr": "NPC duyma mesafesi (yüzde)"
+        },
+        "Sandbox_ProjectALife.HearingRadiusPercent_tooltip": {
+            "tr": "NPC'lerin sesleri ne kadar uzaktan duyduğunu ölçekler. 50'de duyma mesafesi yarıya iner. İç mekândaki oyuncu sesleri ve NPC silah sesleri bu mesafenin yarısını kullanır.\nVarsayılan: 100."
+        },
+        "Sandbox_ProjectALife.HearingWallPercent": {
+            "tr": "Duvar arkasından duyma mesafesi (kalan yüzde)"
+        },
+        "Sandbox_ProjectALife.HearingWallPercent_tooltip": {
+            "tr": "Sesin yolunu bir duvar kestiğinde duyma mesafesinin ne kadarının kaldığını belirler. 50'de engellenen ses yarı mesafeden duyulur.\nVarsayılan: 50."
+        },
+        "Sandbox_ProjectALife.HearingFloorPercent": {
+            "tr": "Katlar arası duyma mesafesi (kalan yüzde)"
+        },
+        "Sandbox_ProjectALife.HearingFloorPercent_tooltip": {
+            "tr": "NPC ile ses arasındaki her kat duyma mesafesini azaltır. 50'de bir kat mesafeyi yarıya, iki kat dörtte bire indirir.\nVarsayılan: 50."
+        },
+        "Sandbox_ProjectALife.HearingPeripheralTiles": {
+            "tr": "Arkadan gelen sesi fark etme mesafesi (kare)"
+        },
+        "Sandbox_ProjectALife.HearingPeripheralTiles_tooltip": {
+            "tr": "NPC'lerin aynı katta arkalarında koşan ya da az önce ateş etmiş bir oyuncuyu fark etmesini sağlar. 0'da arkayı fark etme kapalı.\nVarsayılan: 8."
+        },
+        "Sandbox_ProjectALife.HearingAlertSeconds": {
+            "tr": "Ses sonrası tetikte kalma süresi (gerçek saniye)"
+        },
+        "Sandbox_ProjectALife.HearingAlertSeconds_tooltip": {
+            "tr": "Seslerden ve uyarılardan gelen ek dikkatin, NPC normal dikkatine dönmeden önce ne kadar süreceğini belirler.\nVarsayılan: 20."
+        },
+        "Sandbox_ProjectALife.HearingAlertPercent": {
+            "tr": "Ses sonrası dikkat düzeyi (yüzde)"
+        },
+        "Sandbox_ProjectALife.HearingAlertPercent_tooltip": {
+            "tr": "NPC bir ses duyduktan sonraki en düşük dikkat düzeyini belirler. Kesinleşmiş temas ve son uyarılar yine tam dikkat verir.\nVarsayılan: 70."
+        },
+        "Sandbox_ProjectALife.CautionDangerRays": {
+            "tr": "Tehlikeden kaçınma görüş kontrolleri (gerçek saniyede)"
+        },
+        "Sandbox_ProjectALife.CautionDangerRays_tooltip": {
+            "tr": "Tehlikenin etrafından dolanmak için bütün NPC'lerin yaptığı ek görüş kontrollerini sınırlar. Sınır dolunca gruplar bekler. 0'da bu ek kontroller durur; normal algı etkilenmez.\nVarsayılan: 32."
+        },
+        "Sandbox_ProjectALife.CompatJeemResidents": {
+            "tr": "[Uzman] Jeem sakinleri uyum yaması",
+            "not": "adapter → \"uyum yaması\" (oyuncuların bildiği söz; \"bağdaştırıcı\" fazla teknik)."
+        },
+        "Sandbox_ProjectALife.CompatJeemResidents_tooltip": {
+            "tr": "Jeem eklentisi etkinken yaşayan Jeem sakinlerini A-Life uyumluluk API'si üzerinden sakin olarak tanıtır. Kullanılabilir bir aktör kaydı gerekir. Companion Dogs yamasının yerine geçmez. Dünya açılırken uygulanır; değiştirdikten sonra yeniden başlat."
+        },
+        "Sandbox_ProjectALife.CompatPointBlank": {
+            "tr": "[Uzman] Point Blank uyum yaması"
+        },
+        "Sandbox_ProjectALife.CompatPointBlank_tooltip": {
+            "tr": "Point Blank yüklüyse A-Life'ın uyum yamasını açar. Dünya açılırken bir kez uygulanır; değiştirdikten sonra yeniden başlat. Kapatmak yalnızca bu yamayı kapatır, diğer modu değil."
+        },
+        "Sandbox_ProjectALife.CompatWanderingZombies": {
+            "tr": "[Uzman] Wandering Zombies uyum yaması"
+        },
+        "Sandbox_ProjectALife.CompatWanderingZombies_tooltip": {
+            "tr": "Wandering Zombies yüklüyse A-Life'ın uyum yamasını açar. Dünya açılırken bir kez uygulanır; değiştirdikten sonra yeniden başlat. Kapatmak yalnızca bu yamayı kapatır, diğer modu değil."
+        },
+        "Sandbox_ProjectALife.CompatCyesPushDoors": {
+            "tr": "[Uzman] Cye's Push Doors uyum yaması"
+        },
+        "Sandbox_ProjectALife.CompatCyesPushDoors_tooltip": {
+            "tr": "Cye's Push Doors yüklüyse A-Life'ın uyum yamasını açar. Dünya açılırken bir kez uygulanır; değiştirdikten sonra yeniden başlat. Kapatmak yalnızca bu yamayı kapatır, diğer modu değil."
+        },
+        "Sandbox_ProjectALife.CompatMoreTraits": {
+            "tr": "[Uzman] More Traits Definitive uyum yaması"
+        },
+        "Sandbox_ProjectALife.CompatMoreTraits_tooltip": {
+            "tr": "More Traits Definitive yüklüyse A-Life'ın uyum yamasını açar. Dünya açılırken bir kez uygulanır; değiştirdikten sonra yeniden başlat. Kapatmak yalnızca bu yamayı kapatır, diğer modu değil."
+        },
+        "Sandbox_ProjectALife.CompatProjectExile": {
+            "tr": "[Uzman] Project Exile uyum yaması"
+        },
+        "Sandbox_ProjectALife.CompatProjectExile_tooltip": {
+            "tr": "Project Exile yüklüyse A-Life'ın uyum yamasını açar. Dünya açılırken bir kez uygulanır; değiştirdikten sonra yeniden başlat. Kapatmak yalnızca bu yamayı kapatır, diğer modu değil."
+        },
+        "Sandbox_ProjectALife.CompatPixelStrike": {
+            "tr": "[Uzman] Pixel Strike Indicator uyum yaması"
+        },
+        "Sandbox_ProjectALife.CompatPixelStrike_tooltip": {
+            "tr": "Pixel Strike Indicator yüklüyse A-Life'ın uyum yamasını açar. Dünya açılırken bir kez uygulanır; değiştirdikten sonra yeniden başlat. Kapatmak yalnızca bu yamayı kapatır, diğer modu değil."
+        },
+        "Sandbox_ProjectALife.CompatGaelGunStore": {
+            "tr": "[Uzman] GaelGunStore-Firearms uyum yaması"
+        },
+        "Sandbox_ProjectALife.CompatGaelGunStore_tooltip": {
+            "tr": "GaelGunStore-Firearms yüklüyse A-Life'ın uyum yamasını açar. Dünya açılırken bir kez uygulanır; değiştirdikten sonra yeniden başlat. Kapatmak yalnızca bu yamayı kapatır, diğer modu değil."
+        },
+        "Sandbox_ProjectALife.CompatRVInterior": {
+            "tr": "[Uzman] Project RV Interior uyum yaması"
+        },
+        "Sandbox_ProjectALife.CompatRVInterior_tooltip": {
+            "tr": "Project RV Interior yüklüyse A-Life'ın uyum yamasını açar. Dünya açılırken bir kez uygulanır; değiştirdikten sonra yeniden başlat. Kapatmak yalnızca bu yamayı kapatır, diğer modu değil."
+        },
+        "Sandbox_ProjectALife.CompatAdvancedTrajectory": {
+            "tr": "[Uzman] Advanced Trajectory uyum yaması"
+        },
+        "Sandbox_ProjectALife.CompatAdvancedTrajectory_tooltip": {
+            "tr": "Advanced Trajectory yüklüyse A-Life'ın uyum yamasını açar. Dünya açılırken bir kez uygulanır; değiştirdikten sonra yeniden başlat. Kapatmak yalnızca bu yamayı kapatır, diğer modu değil."
+        },
+        "Sandbox_ProjectALife.CompatAutoAll": {
+            "tr": "[Uzman] Auto All uyum yaması"
+        },
+        "Sandbox_ProjectALife.CompatAutoAll_tooltip": {
+            "tr": "Auto All yüklüyse A-Life'ın uyum yamasını açar. Dünya açılırken bir kez uygulanır; değiştirdikten sonra yeniden başlat. Kapatmak yalnızca bu yamayı kapatır, diğer modu değil."
+        },
+        "Sandbox_ProjectALife.CompatCryOfFear": {
+            "tr": "[Uzman] Cry of Fear canavarları uyum yaması"
+        },
+        "Sandbox_ProjectALife.CompatCryOfFear_tooltip": {
+            "tr": "Cry of Fear canavarlarının kendi saldırı animasyonu hiç başlamadığında A-Life insanlarını sıradan zombilerle aynı hızda ısırmasını sağlar. Dünya açılırken bir kez uygulanır; değiştirdikten sonra yeniden başlat. Canavar modu yoksa hiçbir şey yapmaz."
+        },
+        "Sandbox_ProjectALife.CompatNoPocketLoot": {
+            "tr": "[Uzman] A-Life insanlarında cep ganimeti olmasın"
+        },
+        "Sandbox_ProjectALife.CompatNoPocketLoot_tooltip": {
+            "tr": "A-Life insanlarını ortaya çıktıkları anda aranmış sayar; böylece cesetlerinde vanilla zombi cep ganimeti çıkmaz. Kapalı: vanilla ganimet kalır. Zombilere ganimet ekleyen modlarla birlikte kullan.\nVarsayılan: kapalı."
+        }
+    }
+}

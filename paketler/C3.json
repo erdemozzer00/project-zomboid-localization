@@ -1,0 +1,2118 @@
+{
+  "_paket": "C3 — Oluşturucu'da İngilizce kalanlar (açılır listeler, ipuçları, birleşik yazılar)",
+  "_dosya": "Creator_lua",
+  "satirlar": {
+    "IGUI_ALifeUI_7af7763420cc95be": {
+      "tr": "Her giysi yuvasında en fazla dört rastgele seçenek tutar. Kapalıysa her tıklama yuvadakini değiştirir."
+    },
+    "IGUI_ALifeUI_49a3dea16bac3429": {
+      "tr": "Her mevsim: bu takım bütün yıl giyilebilir. Bir mevsim seçersen takım yalnızca o mevsimde çıkar ve o mevsimde her mevsimlik takımların yerine geçer. Mevsim dış sıcaklığa göre belirlenir; NPC giydirilirken ve yaşadığı sürece yeniden bakılır: 4 C ve altı kış, 22 C ve üstü yaz takımı, arası ilkbahar ya da sonbahar (hangisi olduğunu tarih belirler). Yağmur, rüzgâr ve kar bir kademe soğuk sayılır. İklim bilgisi yoksa tarihe bakılır: kış Ara-Şub, ilkbahar Mar-May, yaz Haz-Ağu, sonbahar Eyl-Kas."
+    },
+    "IGUI_ALifeUI_35478dda464f280f": {
+      "tr": "Yalnızca \"Bu takımı oluşturmada kullan\" işaretli kıyafet takımları arasında döner. Her seferinde havuzdan rastgele bir seçim gösterilir."
+    },
+    "IGUI_ALifeUI_1725a8be184dec0e": {
+      "tr": "Giysi seçmek için tıkla. Bu yuvadaki bütün seçimleri kaldırmak için sağ tıkla."
+    },
+    "IGUI_ALifeUI_0b8826f8172f6223": {
+      "tr": "Üst",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_4d5086d811d9b72c": {
+      "tr": "Seçili giysinin kendi rengini korur. Önizleme yenilense de değişmez."
+    },
+    "IGUI_ALifeUI_43215fff5ce39184": {
+      "tr": "Bu rengi olduğu gibi seçili giysi yuvasına uygula."
+    },
+    "IGUI_ALifeUI_6e719c6911991da2": {
+      "tr": "Seçili giysi yuvası için renk seçiciyi aç."
+    },
+    "IGUI_ALifeUI_79bff26d35891735": {
+      "tr": "Aşağıda seçili kıyafet takımının makyajı. Renk kutusu tonun kendisi: oyunda her ruj ve far rengi ayrı bir eşya, yüz boyaları da doku olduğu için ayrıca renk seçilmez. Sakal bir model, makyaj ise ten dokusu; oyun sakalı her zaman makyajın üstüne çizer."
+    },
+    "IGUI_ALifeUI_70aafa6764e2dc3b": {
+      "tr": "Temel davranış paketinin tamamını seçer: öncelikler, çatışma tarzı ve izin verilen yetenekler."
+    },
+    "IGUI_ALifeUI_0ed7f4d438bc2252": {
+      "tr": "Tek bir uzmanlık taktiği atar. NPC'ye özel küçük istisnalar için Modüller sekmesini kullan."
+    },
+    "IGUI_ALifeUI_01275b0901c2ab13": {
+      "tr": "NPC'nin ilk ortaya çıktığında silahlı ve hazır olup olmayacağını belirler. Karma, teçhizat havuzunda ne varsa ona uyar."
+    },
+    "IGUI_ALifeUI_1f6b651937009c65": {
+      "tr": "Uyarılarda, çatışma tepkilerinde ve ölüm seslerinde kullanılan ses paketini seçer."
+    },
+    "IGUI_ALifeUI_6b9114103e075037": {
+      "tr": "Ses önizlemesinde çalınacak tepki türünü seç. Çatışma davranışını değiştirmez."
+    },
+    "IGUI_ALifeUI_199f10f324591737": {
+      "tr": "her mevsimlik takım"
+    },
+    "IGUI_ALifeUI_2ab70f86389a10c2": {
+      "tr": "Can (HP)"
+    },
+    "IGUI_ALifeUI_07f27cd2237ffff5": {
+      "tr": "Güç"
+    },
+    "IGUI_ALifeUI_0dd0fcea189db258": {
+      "tr": "Dayanıklılık"
+    },
+    "IGUI_ALifeUI_1b5d39533ffffa10": {
+      "tr": "Dikkat"
+    },
+    "IGUI_ALifeUI_272801bf3ee1d61d": {
+      "tr": "Nişan"
+    },
+    "IGUI_ALifeUI_24f3c53c279b4e21": {
+      "tr": "Oyunculara isabet (%)"
+    },
+    "IGUI_ALifeUI_38a189484f907c77": {
+      "tr": "Zombilere isabet (%)"
+    },
+    "IGUI_ALifeUI_4b4d1d6d48d38b6e": {
+      "tr": "Çok düşük"
+    },
+    "IGUI_ALifeUI_0b8804f7172d49e2": {
+      "tr": "Düşük"
+    },
+    "IGUI_ALifeUI_5cde2e790cd033e7": {
+      "tr": "Orta"
+    },
+    "IGUI_ALifeUI_7c8657275ba1fff1": {
+      "tr": "Yüksek"
+    },
+    "IGUI_ALifeUI_34ee7e6e43b58e5e": {
+      "tr": "Çok yüksek"
+    },
+    "IGUI_ALifeUI_2763a67b74dfee83": {
+      "tr": "Her zaman"
+    },
+    "IGUI_ALifeUI_49dfd1e7673a37f4": {
+      "tr": "Verdiği silah hasarı (%)"
+    },
+    "IGUI_ALifeUI_6d9015cb57046df6": {
+      "tr": "Engellenen hasar (%)"
+    },
+    "IGUI_ALifeUI_110bc34a010870b0": {
+      "tr": "Silahın hasarını çarpar: %25 = dörtte bir, %100 = normal, %200 = iki kat."
+    },
+    "IGUI_ALifeUI_55c520fb3d88b85d": {
+      "tr": "Gelen hasarı azaltır. %25'te NPC darbenin %75'ini alır. En fazla azaltma: %90."
+    },
+    "IGUI_ALifeUI_360432bc4ce7fa0f": {
+      "tr": "Zırh düşürme olasılığı"
+    },
+    "IGUI_ALifeUI_529eb7f961f421e6": {
+      "tr": "Silah durumu"
+    },
+    "IGUI_ALifeUI_597fa7313d0b3aac": {
+      "tr": "Zırh durumu"
+    },
+    "IGUI_ALifeUI_4682de9b490ffacc": {
+      "tr": "Silahlı çıkma olasılığı değil, ölünce bırakılan ganimet. Silahları Teçhizat sekmesinde seç. Her NPC bu aralıkta kendine sabit bir olasılık alır. Her zaman (%100) verilen silahları bırakır; Kapalı onları siler. Olmayan silahı yaratmaz, şarjör düşmesini de belirlemez."
+    },
+    "IGUI_ALifeUI_3c0161217a47cab3": {
+      "tr": "Yok %0 / Çok düşük %5 / Düşük %20 / Orta %50 / Yüksek %75 / Çok yüksek %90 / Her zaman %100. Önceden girilmiş özel yüzdeler korunur."
+    },
+    "IGUI_ALifeUI_687cb96223aabace": {
+      "tr": "Fraksiyon ayarını kullan"
+    },
+    "IGUI_ALifeUI_316061b874535a7c": {
+      "tr": "Herkes / bu NPC'ye izin ver"
+    },
+    "IGUI_ALifeUI_56f99c9828ab8e67": {
+      "tr": "Telsizci"
+    },
+    "IGUI_ALifeUI_635cab8a0f4bee28": {
+      "tr": "Devre dışı"
+    },
+    "IGUI_ALifeUI_0ccf155920ad0411": {
+      "tr": "Fraksiyonun geliş şeklini kullan"
+    },
+    "IGUI_ALifeUI_3baf6a9d761490e4": {
+      "tr": "Kara aracı"
+    },
+    "IGUI_ALifeUI_400b4e275b5fa369": {
+      "tr": "Kara / helikopter"
+    },
+    "IGUI_ALifeUI_0eb4579603c63aac": {
+      "tr": "Fraksiyon görevini kullan"
+    },
+    "IGUI_ALifeUI_0c52670d71b14682": {
+      "tr": "Helikopter yok"
+    },
+    "IGUI_ALifeUI_04c6a3890c1de594": {
+      "tr": "Tim indirme"
+    },
+    "IGUI_ALifeUI_11261f52474fdef3": {
+      "tr": "Projektör"
+    },
+    "IGUI_ALifeUI_275634156988481b": {
+      "tr": "Fraksiyon + atanan görev, fraksiyonun kuralını korur. Evet, bu üyenin çatışma uzmanlığını değiştirmeden telsizle takviye çağırmasını sağlar. Yöneticinin oluşturma ayarları yine önce gelir."
+    },
+    "IGUI_ALifeUI_560b16350a062caa": {
+      "tr": "Projektör için geliş şekli Helikopter ya da Kara / helikopter olmalı. Karma ayar karadan bir tim ve ışığı getirir; yalnızca Helikopter yalnızca ışığı getirir. Tim indirmeyle birlikte karma ayar her çağrıda iki yoldan birini seçer."
+    },
+    "IGUI_ALifeUI_68d6e24d2505d29d": {
+      "tr": "Varsayılanlar: Fraksiyon ayarları > Takviye"
+    },
+    "IGUI_ALifeUI_1a91001e63379781": {
+      "tr": "Bu NPC takviye isteyemez."
+    },
+    "IGUI_ALifeUI_4989448c79f26178": {
+      "tr": "Tim büyüklüğü ve takviye fraksiyonu fraksiyon ayarlarından gelir."
+    },
+    "IGUI_ALifeUI_53d6259e7a25852e": {
+      "tr": "Yolcu hayatta kalanlar"
+    },
+    "IGUI_ALifeUI_77aa91ee15ef09fc": {
+      "tr": "Yerden yere gider"
+    },
+    "IGUI_ALifeUI_0dc9107b0335f6e3": {
+      "tr": "Açık alanda bir güzergâh"
+    },
+    "IGUI_ALifeUI_4484a77358a06a28": {
+      "tr": "Kasaba devriyesi"
+    },
+    "IGUI_ALifeUI_29a53cc849517c2f": {
+      "tr": "Sokaklar ve mahalleler"
+    },
+    "IGUI_ALifeUI_69f950f2397ff906": {
+      "tr": "Malzeme toplayıcılar"
+    },
+    "IGUI_ALifeUI_245c2bac54a750c3": {
+      "tr": "Erzak arar"
+    },
+    "IGUI_ALifeUI_7b9d8f6e145f9c55": {
+      "tr": "Balıkçı grupları"
+    },
+    "IGUI_ALifeUI_77c42f11352051e3": {
+      "tr": "Su kıyısında oltalar"
+    },
+    "IGUI_ALifeUI_67e2f434182991eb": {
+      "tr": "Avcı grupları"
+    },
+    "IGUI_ALifeUI_3f30428065ecfa91": {
+      "tr": "Orman kenarında avcılar"
+    },
+    "IGUI_ALifeUI_21cb7294189fc9ae": {
+      "tr": "Yiyecek toplayan gruplar"
+    },
+    "IGUI_ALifeUI_5baea4b15ee8dce2": {
+      "tr": "Yerde ne var ne yok toplar"
+    },
+    "IGUI_ALifeUI_617ddbb2276433a2": {
+      "tr": "Odun kampları"
+    },
+    "IGUI_ALifeUI_381a37844bbeaa86": {
+      "tr": "Odun kesip biçer"
+    },
+    "IGUI_ALifeUI_42ecec1d2aaecb55": {
+      "tr": "Erzak sandığı çakar"
+    },
+    "IGUI_ALifeUI_5046146c28ef60bc": {
+      "tr": "Malzeme seferleri"
+    },
+    "IGUI_ALifeUI_3db84c5f5966cc7f": {
+      "tr": "Üsten çıkıp geri döner"
+    },
+    "IGUI_ALifeUI_1646a9ee6b1a155d": {
+      "tr": "Su seferleri"
+    },
+    "IGUI_ALifeUI_43bc8a8d439221c7": {
+      "tr": "En yakın suya şişe taşır"
+    },
+    "IGUI_ALifeUI_0cf2799b0b10998e": {
+      "tr": "Kamplar"
+    },
+    "IGUI_ALifeUI_60f2739748257481": {
+      "tr": "Açık havada hayatta kalan kampları"
+    },
+    "IGUI_ALifeUI_4641e22f15331422": {
+      "tr": "Karakollar ve sakinler"
+    },
+    "IGUI_ALifeUI_7c4feb5a18441370": {
+      "tr": "Üsler ve bina garnizonları"
+    },
+    "IGUI_ALifeUI_667d20f20af2c7ff": {
+      "tr": "Bina muhafızları"
+    },
+    "IGUI_ALifeUI_3edbcc606d86dcf8": {
+      "tr": "Önemli binaları korur"
+    },
+    "IGUI_ALifeUI_4a8c0e7f33fc936f": {
+      "tr": "Yüksek noktaları tutar"
+    },
+    "IGUI_ALifeUI_340f907e0550d83d": {
+      "tr": "Yol barikatı"
+    },
+    "IGUI_ALifeUI_59fb0043673c524f": {
+      "tr": "Bir yol parçasını savunur"
+    },
+    "IGUI_ALifeUI_015517c6546e9a02": {
+      "tr": "Yolda kalmış tamir ekibi"
+    },
+    "IGUI_ALifeUI_6094536b6f81c746": {
+      "tr": "Dünya olaylarıyla tetiklenir"
+    },
+    "IGUI_ALifeUI_1741808f03248569": {
+      "tr": "Araç sürerken tetiklenir"
+    },
+    "IGUI_ALifeUI_5c9bd2735b14f742": {
+      "tr": "Düşman keşifçiler"
+    },
+    "IGUI_ALifeUI_3576448a2a293216": {
+      "tr": "Düşman keşfi"
+    },
+    "IGUI_ALifeUI_05ab4b1e317d9b6e": {
+      "tr": "Suikast"
+    },
+    "IGUI_ALifeUI_457823bb7358fc1b": {
+      "tr": "Bir hedefin peşine düşer"
+    },
+    "IGUI_ALifeUI_689dfac30f15512e": {
+      "tr": "Keşifçi hazırlığı + baskın günü kuralları"
+    },
+    "IGUI_ALifeUI_6b50a96a2a0418ee": {
+      "tr": "Bir ailenin tuttuğu ev"
+    },
+    "IGUI_ALifeUI_4b6f716f73cd274c": {
+      "tr": "Surlu bir yerleşim"
+    },
+    "IGUI_ALifeUI_6b6b0bcf0a47bd3e": {
+      "tr": "Üsse çevrilmiş bir karakol binası"
+    },
+    "IGUI_ALifeUI_11cc9e7525a3445d": {
+      "tr": "Sağlam, garnizonlu bir ev"
+    },
+    "IGUI_ALifeUI_298fce0877d04a92": {
+      "tr": "Açık arazide kurulmuş kamp"
+    },
+    "IGUI_ALifeUI_19f22a0d5ffeed0a": {
+      "tr": "Ağaçların altında bir kamp"
+    },
+    "IGUI_ALifeUI_56d18904079b0147": {
+      "tr": "İnsanları tedavi eden bir yer"
+    },
+    "IGUI_ALifeUI_147419506999250b": {
+      "tr": "Erzak ve onu koruyanlar"
+    },
+    "IGUI_ALifeUI_7855a3b762e170bf": {
+      "tr": "Kontrol noktası"
+    },
+    "IGUI_ALifeUI_564fdc45652f14bf": {
+      "tr": "Köprü ya da yol ablukası"
+    },
+    "IGUI_ALifeUI_46d29f9d3a8d5dbe": {
+      "tr": "Devriye / nöbet"
+    },
+    "IGUI_ALifeUI_1c740dde55f71439": {
+      "tr": "Malzeme toplama / yağma"
+    },
+    "IGUI_ALifeUI_7c8bebb65cfa9728": {
+      "tr": "Gezin"
+    },
+    "IGUI_ALifeUI_7c868b265ba527fe": {
+      "tr": "Avla"
+    },
+    "IGUI_ALifeUI_154b78f65b42ef7c": {
+      "tr": "İnsan avı"
+    },
+    "IGUI_ALifeUI_40091ac835cce9b6": {
+      "tr": "Polis ve cezaevleri"
+    },
+    "IGUI_ALifeUI_7a9ee663287c0e0d": {
+      "tr": "İtfaiye istasyonları"
+    },
+    "IGUI_ALifeUI_6f2b00975afd789e": {
+      "tr": "Hastaneler ve klinikler"
+    },
+    "IGUI_ALifeUI_2c0695011392749e": {
+      "tr": "Depolar"
+    },
+    "IGUI_ALifeUI_0afc73191f7844e0": {
+      "tr": "Silahçılar ve askerî alanlar"
+    },
+    "IGUI_ALifeUI_0b87f222172c3691": {
+      "tr": "Şapka",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_7c84f5dd5b3f46b5": {
+      "tr": "Gözler",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_7c88f4935c4b71d7": {
+      "tr": "Maske",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_7c8491725b390484": {
+      "tr": "Kulaklar",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_0d2897293fb71886": {
+      "tr": "Yüz",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_7c898fe85c6ec366": {
+      "tr": "Boyun",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_0e14e796242d7687": {
+      "tr": "Atkı",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_3b9036fc08c45009": {
+      "tr": "Ceket",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_7c8df5095d813877": {
+      "tr": "Yelek",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_0d4cf6d562d56608": {
+      "tr": "Eller",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_0e65a5806c68f4b9": {
+      "tr": "Bilek",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_0d1c44c54657d007": {
+      "tr": "Parmaklar",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_305195b0502b20eb": {
+      "tr": "İç çamaşırı",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_0dddbced6f4320d3": {
+      "tr": "Pantolon",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_0e1b83ca25c99c55": {
+      "tr": "Çorap",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_0e17df6924dc9e72": {
+      "tr": "Ayakkabı",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_7c82ea585ad213fe": {
+      "tr": "Sırt",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_7c82fc8e5ad324c6": {
+      "tr": "Kemer",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_34f253b9735c4f36": {
+      "tr": "Kılıf",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_456dc1cc628e8b01": {
+      "tr": "Kolye",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_7c89bc7c5c7169ea": {
+      "tr": "Burun",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_542c3d6818912657": {
+      "tr": "Tişört",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_15d3aaba15e97801": {
+      "tr": "Kazak",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_35963cd20df8e233": {
+      "tr": "Boyunluk",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_41d6f2cf1c25444c": {
+      "tr": "Göğüs zırhı",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_230e09de1f3c03ea": {
+      "tr": "Kasık koruması",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_0cd6976769f90793": {
+      "tr": "Önlük",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_7c8cc9f15d3b8bf7": {
+      "tr": "Kuyruk",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_1f89d79f04df89ca": {
+      "tr": "Teçhizat kemeri",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_7c88f3a65c4b6e3c": {
+      "tr": "Erkek"
+    },
+    "IGUI_ALifeUI_32894894623e6363": {
+      "tr": "Kadın"
+    },
+    "IGUI_ALifeUI_529aefd4349cba6f": {
+      "tr": "Otomatik  /  fraksiyon sesi"
+    },
+    "IGUI_ALifeUI_0de62a456ac2824a": {
+      "tr": "Kanun Kaçağı 1"
+    },
+    "IGUI_ALifeUI_0de62a466ac2824b": {
+      "tr": "Kanun Kaçağı 2"
+    },
+    "IGUI_ALifeUI_0de62a476ac2824c": {
+      "tr": "Kanun Kaçağı 3"
+    },
+    "IGUI_ALifeUI_74ddf70a53559713": {
+      "tr": "Tecrübeli Hayatta Kalan 1"
+    },
+    "IGUI_ALifeUI_74ddf70b53559714": {
+      "tr": "Tecrübeli Hayatta Kalan 2"
+    },
+    "IGUI_ALifeUI_74ddf70c53559715": {
+      "tr": "Tecrübeli Hayatta Kalan 3"
+    },
+    "IGUI_ALifeUI_2637cb9d59f012a5": {
+      "tr": "Paramiliter 1"
+    },
+    "IGUI_ALifeUI_2637cb9e59f012a6": {
+      "tr": "Paramiliter 2"
+    },
+    "IGUI_ALifeUI_2637cb9f59f012a7": {
+      "tr": "Paramiliter 3"
+    },
+    "IGUI_ALifeUI_5f9eda6e139fa1f8": {
+      "tr": "Bilim İnsanı 1"
+    },
+    "IGUI_ALifeUI_5f9eda6f139fa1f9": {
+      "tr": "Bilim İnsanı 2"
+    },
+    "IGUI_ALifeUI_5f9eda70139fa1fa": {
+      "tr": "Bilim İnsanı 3"
+    },
+    "IGUI_ALifeUI_0898d12647eb6f51": {
+      "tr": "Anarşist 1"
+    },
+    "IGUI_ALifeUI_0898d12747eb6f52": {
+      "tr": "Anarşist 2"
+    },
+    "IGUI_ALifeUI_0898d12847eb6f53": {
+      "tr": "Anarşist 3"
+    },
+    "IGUI_ALifeUI_4e488d7274e352a3": {
+      "tr": "Asker 1"
+    },
+    "IGUI_ALifeUI_4e488d7374e352a4": {
+      "tr": "Asker 2"
+    },
+    "IGUI_ALifeUI_4e488d7474e352a5": {
+      "tr": "Asker 3"
+    },
+    "IGUI_ALifeUI_4fd948ba6ffe2d2f": {
+      "tr": "Yabancı Hayatta Kalan 1"
+    },
+    "IGUI_ALifeUI_4fd948bb6ffe2d30": {
+      "tr": "Yabancı Hayatta Kalan 2"
+    },
+    "IGUI_ALifeUI_4fd948bc6ffe2d31": {
+      "tr": "Yabancı Hayatta Kalan 3"
+    },
+    "IGUI_ALifeUI_43c72ee13097759f": {
+      "tr": "Paralı Asker 1"
+    },
+    "IGUI_ALifeUI_43c72ee2309775a0": {
+      "tr": "Paralı Asker 2"
+    },
+    "IGUI_ALifeUI_43c72ee3309775a1": {
+      "tr": "Paralı Asker 3"
+    },
+    "IGUI_ALifeUI_43c72ee4309775a2": {
+      "tr": "Paralı Asker 4"
+    },
+    "IGUI_ALifeUI_43c72ee5309775a3": {
+      "tr": "Paralı Asker 5"
+    },
+    "IGUI_ALifeUI_43c72ee6309775a4": {
+      "tr": "Paralı Asker 6"
+    },
+    "IGUI_ALifeUI_43c72ee7309775a5": {
+      "tr": "Paralı Asker 7"
+    },
+    "IGUI_ALifeUI_43c72ee8309775a6": {
+      "tr": "Paralı Asker 8"
+    },
+    "IGUI_ALifeUI_51a1b74b34f533ef": {
+      "tr": "Kolluk - Ekip Başı"
+    },
+    "IGUI_ALifeUI_3f5e805b7d8887d4": {
+      "tr": "Kolluk - Operatör 1"
+    },
+    "IGUI_ALifeUI_3f5e805c7d8887d5": {
+      "tr": "Kolluk - Operatör 2"
+    },
+    "IGUI_ALifeUI_3f5e805d7d8887d6": {
+      "tr": "Kolluk - Operatör 3"
+    },
+    "IGUI_ALifeUI_3f5e805e7d8887d7": {
+      "tr": "Kolluk - Operatör 4"
+    },
+    "IGUI_ALifeUI_5cec88970a19310a": {
+      "tr": "Amerikalı Hayatta Kalan 1"
+    },
+    "IGUI_ALifeUI_5cec88980a19310b": {
+      "tr": "Amerikalı Hayatta Kalan 2"
+    },
+    "IGUI_ALifeUI_5cec88990a19310c": {
+      "tr": "Amerikalı Hayatta Kalan 3"
+    },
+    "IGUI_ALifeUI_54f0294a6615a5ab": {
+      "tr": "Rus Hayatta Kalan 1"
+    },
+    "IGUI_ALifeUI_54f0294b6615a5ac": {
+      "tr": "Rus Hayatta Kalan 2"
+    },
+    "IGUI_ALifeUI_54f0294c6615a5ad": {
+      "tr": "Rus Hayatta Kalan 3"
+    },
+    "IGUI_ALifeUI_161a442e0b7af085": {
+      "tr": "Yabancı Kadın Hayatta Kalan"
+    },
+    "IGUI_ALifeUI_3fcdf6190990e69a": {
+      "tr": "Amerikalı Kadın Hayatta Kalan"
+    },
+    "IGUI_ALifeUI_0e1523952431229c": {
+      "tr": "Keşifçi"
+    },
+    "IGUI_ALifeUI_0d45a05a53f25f79": {
+      "tr": "Muhafız"
+    },
+    "IGUI_ALifeUI_0d4ef364635b3e3b": {
+      "tr": "Ağır Silahlı"
+    },
+    "IGUI_ALifeUI_4081b3b745bd5268": {
+      "tr": "Lider"
+    },
+    "IGUI_ALifeUI_517d42bb456c6617": {
+      "tr": "Keskin Nişancı"
+    },
+    "IGUI_ALifeUI_604d5f874da13892": {
+      "tr": "Leşçi",
+      "not": "K23: Scavenger unvanı Leşçi."
+    },
+    "IGUI_ALifeUI_1efd670c3900586b": {
+      "tr": "Kapı Kırıcı"
+    },
+    "IGUI_ALifeUI_2ec85cd64ee451dd": {
+      "tr": "Şoför"
+    },
+    "IGUI_ALifeUI_63cbf95a072a72e6": {
+      "tr": "İkmal Sorumlusu"
+    },
+    "IGUI_ALifeUI_3855fe407249a5e9": {
+      "tr": "Avcı"
+    },
+    "IGUI_ALifeUI_1ec1b8dc1114c723": {
+      "tr": "Acemi"
+    },
+    "IGUI_ALifeUI_1f0b98b057b029cd": {
+      "tr": "Tecrübeli",
+      "not": "Rütbe/deneyim etiketi (Acemi, Tecrübeli…); U1'deki 'Müdavim' bar bağlamındaydı."
+    },
+    "IGUI_ALifeUI_26a68b6a241c5b76": {
+      "tr": "Devriye / Malzeme toplama"
+    },
+    "IGUI_ALifeUI_44db8e8419052397": {
+      "tr": "Malzeme toplama"
+    },
+    "IGUI_ALifeUI_23e41ed168fd46c1": {
+      "tr": "Saldırı"
+    },
+    "IGUI_ALifeUI_45197206522f0515": {
+      "tr": "Tam Baskın"
+    },
+    "IGUI_ALifeUI_35bbfc237a750913": {
+      "tr": "Karar modülü"
+    },
+    "IGUI_ALifeUI_7eaa8e852f31129c": {
+      "tr": "Algı modülü"
+    },
+    "IGUI_ALifeUI_372c5f3969e17647": {
+      "tr": "Hareket modülü"
+    },
+    "IGUI_ALifeUI_61f8e42f6717b656": {
+      "tr": "Çatışma modülü"
+    },
+    "IGUI_ALifeUI_487b92f45c8d0ec3": {
+      "tr": "Malzeme toplama modülü"
+    },
+    "IGUI_ALifeUI_3b044e003520211e": {
+      "tr": "Ses modülü"
+    },
+    "IGUI_ALifeUI_1651c7a425eea97a": {
+      "tr": "Karşılaşma modülü"
+    },
+    "IGUI_ALifeUI_61b16b652db2a2d5": {
+      "tr": "Baskın modülü"
+    },
+    "IGUI_ALifeUI_64c45d96332520ef": {
+      "tr": "İlişkiler modülü"
+    },
+    "IGUI_ALifeUI_1c0532b912c7af8e": {
+      "tr": "Yönetici modülü"
+    },
+    "IGUI_ALifeUI_275dbdb57368a6d7": {
+      "tr": "Müttefik"
+    },
+    "IGUI_ALifeUI_6b397a0a3f9df5de": {
+      "tr": "Şarjörler"
+    },
+    "IGUI_ALifeUI_1a00949b53ae2826": {
+      "tr": "Varsayılan (Karma)"
+    },
+    "IGUI_ALifeUI_0b883af61730ac35": {
+      "tr": "Evet"
+    },
+    "IGUI_ALifeUI_005974c235eada78": {
+      "tr": "Hayır"
+    },
+    "IGUI_ALifeUI_0dabfefe3baf0156": {
+      "tr": "Karma"
+    },
+    "IGUI_ALifeUI_3600bc1976c3c6ea": {
+      "tr": "Ağır Silahçı"
+    },
+    "IGUI_ALifeUI_0ed410b4235a8101": {
+      "tr": "Gizlilik"
+    },
+    "IGUI_ALifeUI_2c4b9890286af445": {
+      "tr": "Pusucu"
+    },
+    "IGUI_ALifeUI_2670bd5e6ec119c7": {
+      "tr": "Emirlere uy"
+    },
+    "IGUI_ALifeUI_500b16372645ab42": {
+      "tr": "Tutumunu koru"
+    },
+    "IGUI_ALifeUI_0dddbb726f431b22": {
+      "tr": "Panik"
+    },
+    "IGUI_ALifeUI_4df9647f678eb957": {
+      "tr": "Ölülerden korkma"
+    },
+    "IGUI_ALifeUI_339d12dd10e764bf": {
+      "tr": "Silah korkusu"
+    },
+    "IGUI_ALifeUI_6f147fb56925de4a": {
+      "tr": "Geri çekil"
+    },
+    "IGUI_ALifeUI_7c854ae35b5e2ccd": {
+      "tr": "Kaç"
+    },
+    "IGUI_ALifeUI_3835d6ff111332d6": {
+      "tr": "Önce uyar"
+    },
+    "IGUI_ALifeUI_51ee856f2fef7972": {
+      "tr": "Yan adım"
+    },
+    "IGUI_ALifeUI_0e5e62df6aa8ed0c": {
+      "tr": "Zikzak"
+    },
+    "IGUI_ALifeUI_0cfa4bc60cf32db7": {
+      "tr": "Siper"
+    },
+    "IGUI_ALifeUI_3a498fdc5786bbb9": {
+      "tr": "Kapıda sıralanma"
+    },
+    "IGUI_ALifeUI_61fe69bb0c1b4dfc": {
+      "tr": "Oda oda temizleme"
+    },
+    "IGUI_ALifeUI_79c252c552fce2b2": {
+      "tr": "Kuşatma"
+    },
+    "IGUI_ALifeUI_200054dc60e8a483": {
+      "tr": "Yakın dövüş ayak hareketleri"
+    },
+    "IGUI_ALifeUI_2bc496cb2be23842": {
+      "tr": "Yakın dövüş kuşatması"
+    },
+    "IGUI_ALifeUI_0d3920a4525576c6": {
+      "tr": "Baltalı kırıcı"
+    },
+    "IGUI_ALifeUI_75601d862ba47ebb": {
+      "tr": "Gözdağı"
+    },
+    "IGUI_ALifeUI_301b3c6432c58c21": {
+      "tr": "Yakın dövüşte temkin"
+    },
+    "IGUI_ALifeUI_30800f026a96033b": {
+      "tr": "Zombilerden kaçın (Kapalı = savaş)"
+    },
+    "IGUI_ALifeUI_753c693f7d798c92": {
+      "tr": "Zombilere karşı yakın dövüşe geç"
+    },
+    "IGUI_ALifeUI_1cd3ab905e277dbe": {
+      "tr": "Tedavi"
+    },
+    "IGUI_ALifeUI_6136431e678a89b1": {
+      "tr": "Ana üs"
+    },
+    "IGUI_ALifeUI_50d60b60265f1555": {
+      "tr": "Arama"
+    },
+    "IGUI_ALifeUI_41390371673d1000": {
+      "tr": "Araştırma"
+    },
+    "IGUI_ALifeUI_61e9ef8c55c8079c": {
+      "tr": "Boş zaman"
+    },
+    "IGUI_ALifeUI_1f0a02e2574a1451": {
+      "tr": "Toplanma"
+    },
+    "IGUI_ALifeUI_30b0e46e22c6317a": {
+      "tr": "Toplu yürüyüş"
+    },
+    "IGUI_ALifeUI_51a633c969b9a9af": {
+      "tr": "Açılma"
+    },
+    "IGUI_ALifeUI_7d2a4b1e455ad535": {
+      "tr": "Devriye molası"
+    },
+    "IGUI_ALifeUI_3f8b0efe6457ba0c": {
+      "tr": "Grup planı"
+    },
+    "IGUI_ALifeUI_3451fcad398272f4": {
+      "tr": "Oyuncuları soy"
+    },
+    "IGUI_ALifeUI_6e72450a0f0a9077": {
+      "tr": "Alakasız bir iş seçmek yerine liderin o anki emrine uyar."
+    },
+    "IGUI_ALifeUI_2e3b77e47c1d0860": {
+      "tr": "Verilen nöbet, güzergâh, barikat ya da garnizon tutumunu tim değiştirene kadar korur."
+    },
+    "IGUI_ALifeUI_3ecbacb40d928d32": {
+      "tr": "Baş edemeyeceği tehlikeye tepki verir, güvenli bir mesafeye çekilince toparlanır."
+    },
+    "IGUI_ALifeUI_5f7fe49a0ccee5e8": {
+      "tr": "Sivil sınıfındaki üyeler (daha zor da olsa kurtarma ve işçi sınıfındakiler) uzaktaki zombilere bulaşmaz, çok fazlası yaklaşınca grupça kaçar; polis, asker, suçlu, gazi ve pişkin üyeler sakin kalır. Her üyenin sınıfını Kimlik sekmesinde ayarla. Dünya ayarlarındaki korku anahtarı ve korku günleri de geçerli."
+    },
+    "IGUI_ALifeUI_58059b175f7dc553": {
+      "tr": "Silah doğrultan ya da kaldıran bir oyuncudan veya düşmandan geri çekilir, görüş hattını kesen bir sipere kaçar; silah birkaç saniye gözden kaybolunca geri döner. Silahlı üyeler bunu hiç yapmaz; liderler, keskin nişancılar ve pusucular yerini korur. Devral üyenin sınıfına uyar: sivil, işçi ve kurtarmada açık, polis, asker ve suçluda kapalı; Açık bunu bu üye ya da fraksiyon için zorunlu kılar. Dünya ayarlarındaki silah korkusu anahtarı ve olasılığı da geçerli."
+    },
+    "IGUI_ALifeUI_6e3dffc145846af5": {
+      "tr": "Yüzü ve silahı tehdide dönük geri çekilir; çekilirken ateş edebilir."
+    },
+    "IGUI_ALifeUI_0745cd3d04102464": {
+      "tr": "Teması tamamen kesip kaçmasına izin verir. Dünya ayarlarındaki kaçma anahtarı da açık olmalı; fraksiyon ya da NPC ayarı bunu aşamaz."
+    },
+    "IGUI_ALifeUI_355ec6cf331c5e5f": {
+      "tr": "Düşman ekip ilk kurşundan önce bağırıp uyarır ve oyuncuya biraz süre tanır; üsse girmeden kapıyı çalabilir, oyuncuyu birkaç soru ve haraç için durdurabilir. Kapalı, gördüğü yerde vurmak demek: uyarı yok, süre yok, haraç sorusu yok, soygun hiç başlamaz. Açık, bu ekip baskın dışında her zaman uyarır demek. Baskın ekipleri, suikastçılar ve pusucular kapalı gelir; baskınlar, suikastlar ve otoyol pusuları ekibin ayarı ne olursa olsun gördüğü yerde vurur. Sandbox'taki uyarı ayarları kapalı bir ekibe yine de uyarma şansı verir ve her uyarıya süre sınırı koyar."
+    },
+    "IGUI_ALifeUI_4a28cf5958f580d9": {
+      "tr": "Silahı ve dikkati hedefte tutarak yana doğru hareket eder."
+    },
+    "IGUI_ALifeUI_1f38a6dd0f4271af": {
+      "tr": "Ateş altında tek, tahmin edilebilir bir çizgide koşmak yerine yaklaşma yolunu değiştirir."
+    },
+    "IGUI_ALifeUI_4f769d2920637264": {
+      "tr": "Yol ve atış hattı uygunsa yakındaki bir siperi bulup oradan çatışır."
+    },
+    "IGUI_ALifeUI_731ae810153ebd52": {
+      "tr": "Tim üyeleri aynı kapıda sıkışmasın diye girişte sıraya girer."
+    },
+    "IGUI_ALifeUI_4d21d9c24ce5ae5b": {
+      "tr": "Dar iç mekânları kontrollü biçimde oda oda temizler."
+    },
+    "IGUI_ALifeUI_741019221e47daa3": {
+      "tr": "Hedefin dikkati başka bir tim üyesindeyse yan açıya geçer."
+    },
+    "IGUI_ALifeUI_712a2d7f486b6642": {
+      "tr": "Yakın dövüşçüler vuruşlar arasında yüzleri düşmana dönük geri ve yana adım atar, zombi yığılınca çekilip yeniden dalar. Sandbox'taki yakın dövüş ekibi anahtarı gerekir."
+    },
+    "IGUI_ALifeUI_46c16f237be023dc": {
+      "tr": "Yakın dövüş grubunda bir üye çatışırken diğerleri hedefin arka tarafına dolanır. Sandbox'taki yakın dövüş ekibi anahtarı gerekir."
+    },
+    "IGUI_ALifeUI_7344b1c043d69b17": {
+      "tr": "Elinde balta olan dövüşçü kapı ve pencereleri daha hızlı kırar, bir sesi kontrol ederken de bunu yapar. Sandbox'taki yakın dövüş ekibi anahtarı gerekir."
+    },
+    "IGUI_ALifeUI_6b66e37d506f4b7a": {
+      "tr": "Oyuncuya yürüyerek yaklaşır, uzaktan uyarıyı bağırır, sonra vurmak için üstüne gelir. Sandbox'taki yakın dövüş ekibi anahtarı gerekir."
+    },
+    "IGUI_ALifeUI_45b1958b5fe5a375": {
+      "tr": "Birkaç zombi yaklaşınca erkenden çekilir, sonra geri döner. Sandbox'taki yakın dövüş ekibi anahtarı gerekir."
+    },
+    "IGUI_ALifeUI_1023e40f4761c62d": {
+      "tr": "Bu NPC'nin zombilere nasıl davrandığı. Devral olağan temkini korur: yolda kalabalık varsa dolanır ya da bekler, görevdeyken tek zombiye bulaşmaz, saldırana karşılık verir. Açık zombilerden daha çok kaçar: tek bir zombi için bile bekler ya da dolanır, yalnızca saldırıya uğrarsa savaşır. Kapalı gördüğü zombiyle savaşır: yolda bekleme ya da dolanma yok, silah hiç geri tutulmaz."
+    },
+    "IGUI_ALifeUI_55bfba8d5d58545c": {
+      "tr": "Devral ve Açık olağan silah disiplinini korur: silahlı NPC silahını kılıfında bırakıp yakın dövüş silahı kullanabilir, dipçikle itebilir ya da zombinin yanından geçip gidebilir. Kapalı bu NPC'nin zombilere elindeki silahla karşılık vermesini sağlar: ateşi tutmak yok, yakın dövüşe geçmek yok, dibindekini itmek yok. Mermi bitince ve şarjör değiştirirken silah değiştirme sürer."
+    },
+    "IGUI_ALifeUI_7a170c833d2a3022": {
+      "tr": "Güvenli bir arada yaralarını sarar, sonra timin önceki işine döner."
+    },
+    "IGUI_ALifeUI_1cb7d27d500f1d77": {
+      "tr": "Uygun kapları arar, ganimeti ayırır ve tim için işe yarar malzeme taşır."
+    },
+    "IGUI_ALifeUI_56c66c63737d1d0b": {
+      "tr": "Çatışmadan sonra en fazla iki cesedi arar (en fazla biri enfekte). Giysi dışındaki eşyaların en fazla dörtte birini alır, önce silahları. Teçhizat yine geri alınabilir."
+    },
+    "IGUI_ALifeUI_0230e7745ac4cae7": {
+      "tr": "Timin hedefini unutmadan yeni duyulan sesleri, görülenleri ve izleri inceler."
+    },
+    "IGUI_ALifeUI_292173e720572d53": {
+      "tr": "Acil bir iş ya da tehdit yokken inandırıcı sakin zaman uğraşları yapar."
+    },
+    "IGUI_ALifeUI_697ca5d744230829": {
+      "tr": "Kopan üyeleri tim liderinin çevresinde güvenli bir düzene geri toplar."
+    },
+    "IGUI_ALifeUI_6761e10c20f3da7e": {
+      "tr": "Her üyeyi ayrı yoldan göndermek yerine düzen içinde ilerler."
+    },
+    "IGUI_ALifeUI_42c951d863785fac": {
+      "tr": "Tim savunmasız tek bir yığın olmasın diye üyeler arasında mesafe korur."
+    },
+    "IGUI_ALifeUI_6f6483f775d486fb": {
+      "tr": "Devriyelerin dinlenme, oyalanma ve sohbet için birlikte mola vermesini sağlar. Mola zamanları ve ana anahtar Sandbox ayarlarından gelir."
+    },
+    "IGUI_ALifeUI_03c0c8e020453339": {
+      "tr": "Boştaki bir grup kendine bir hedef seçer (bir binayı yağmalamak, telsiz bulmak, erzak toplamak, gece için bir çatı bulmak), aralarında konuşur, oraya yürür ve iş bitene, önü kesilene ya da fazla tehlikeli olana kadar buna bağlı kalır. Sandbox'taki grupların plan yapması anahtarı da geçerli."
+    },
+    "IGUI_ALifeUI_4b2108546bc43f63": {
+      "tr": "Oyuncuyu soyar: silahlar yere, eller yukarı, birkaç değerli eşya alınır, sonra ekip gider. Karşı çıkan vurulur. Devral, fraksiyon türüne göre soyar (yağmacılar neredeyse her zaman, paralı askerler yarı yarıya) ve yalnızca oyuncu tekken. Açık, bu ekip fraksiyonu ne olursa olsun, oyuncunun yanında kim olursa olsun her zaman dener demek."
+    },
+    "IGUI_ALifeUI_276d2ded313f5049": {
+      "tr": "Liderlik ve verilen tutum"
+    },
+    "IGUI_ALifeUI_623385b3743503a4": {
+      "tr": "Uyarılar, kontrollü geri çekilme ve kaçış"
+    },
+    "IGUI_ALifeUI_3f76159b3c675f1c": {
+      "tr": "Siper, mesafe ve ortak manevralar"
+    },
+    "IGUI_ALifeUI_6e1798ca34207f2e": {
+      "tr": "Toparlanma, malzeme toplama ve sakin zaman uğraşları"
+    },
+    "IGUI_ALifeUI_34ed96af22b2a787": {
+      "tr": "Oyunculardan silah zoruyla istenenler"
+    },
+    "IGUI_ALifeUI_7f47508b6473b127": {
+      "tr": "Devral"
+    },
+    "IGUI_ALifeUI_005974e235eadafa": {
+      "tr": "Açık"
+    },
+    "IGUI_ALifeUI_0cabff473df2bce9": {
+      "tr": "Her mevsim"
+    },
+    "IGUI_ALifeUI_3a15988e2d5e5067": {
+      "tr": "Yalnızca ilkbahar"
+    },
+    "IGUI_ALifeUI_1dc1c27048169b85": {
+      "tr": "Yalnızca yaz"
+    },
+    "IGUI_ALifeUI_2c6c355259e88bc1": {
+      "tr": "Yalnızca sonbahar"
+    },
+    "IGUI_ALifeUI_6d26a2cd4898b020": {
+      "tr": "Yalnızca kış"
+    },
+    "IGUI_ALifeUI_2c3ef7331f3dc256": {
+      "tr": "Yaygın"
+    },
+    "IGUI_ALifeUI_704fda524972655b": {
+      "tr": "Az rastlanan"
+    },
+    "IGUI_ALifeUI_7c8bb2515cf6f555": {
+      "tr": "Nadir"
+    },
+    "IGUI_ALifeUI_34f3d998450a83c2": {
+      "tr": "Çok nadir"
+    },
+    "IGUI_ALifeUI_562ce0f83dc92650": {
+      "tr": "Hiç çıkmaz"
+    },
+    "IGUI_ALifeUI_452468d554dd1220": {
+      "tr": "Tüm yüz"
+    },
+    "IGUI_ALifeUI_7c3ff0f84bf31be0": {
+      "tr": "Far"
+    },
+    "IGUI_ALifeUI_7c8889df5c2b3b03": {
+      "tr": "Dudak"
+    },
+    "IGUI_ALifeUI_1a8a892c63b7d2a2": {
+      "tr": "Silahsız"
+    },
+    "IGUI_ALifeUI_6d32b12a0700cbc1": {
+      "tr": "(yok)"
+    },
+    "IGUI_ALifeUI_0d1d4c762fc874a1": {
+      "tr": "Boş"
+    },
+    "IGUI_ALifeUI_240112791702781f": {
+      "tr": "NPC profilini kullan"
+    },
+    "IGUI_ALifeUI_38aa82a51f53f978": {
+      "tr": "Varsayılan olarak açık"
+    },
+    "IGUI_ALifeUI_52806fa03e20d05e": {
+      "tr": "Varsayılan olarak kapalı"
+    },
+    "IGUI_ALifeUI_16dc18590e77aebd": {
+      "tr": "Fraksiyonu kullan"
+    },
+    "IGUI_ALifeUI_7f4d66ad64f0e0af": {
+      "tr": "Bu NPC için açık"
+    },
+    "IGUI_ALifeUI_66527f441663d34b": {
+      "tr": "Bu NPC için kapalı"
+    },
+    "IGUI_ALifeUI_1eeb3b257cedc240": {
+      "tr": "Bu modülü burada geçersiz kılar."
+    },
+    "IGUI_ALifeUI_04df09c43524c811": {
+      "tr": "Oluşturmada kullanılan kıyafet takımı yok"
+    },
+    "IGUI_ALifeUI_31d3863d25a4e33d": {
+      "tr": "Eşya adı ya da türü ara..."
+    },
+    "IGUI_ALifeUI_1dcd237267b68c9e": {
+      "tr": "yalnızca yazı"
+    },
+    "IGUI_ALifeUI_421a49c800a141b3": {
+      "tr": "Yalnızca yazılı kişilik."
+    },
+    "IGUI_ALifeUI_1e87837e67c596c3": {
+      "tr": "Bilinmeyen profil - oyun, gezgin düşmanların yedek sesini kullanacak."
+    },
+    "IGUI_ALifeUI_3dce349e575b0d5d": {
+      "tr": "Yok"
+    },
+    "IGUI_ALifeUI_58cdc960140b415a": {
+      "tr": "Stil adı ara..."
+    },
+    "IGUI_ALifeUI_2a112b5b0cddd86f": {
+      "tr": "Örnek: Yağmacılar, Hikâye fraksiyonları, Deneme grupları..."
+    },
+    "IGUI_ALifeUI_1ae010073a4764ce": {
+      "tr": "Klasörsüz"
+    },
+    "IGUI_ALifeUI_3335c51226fd7f6a": {
+      "tr": "sınırsız"
+    },
+    "IGUI_ALifeUI_7a4516e1055b7e2f": {
+      "tr": "0 ŞARJÖR"
+    },
+    "IGUI_ALifeUI_5231663417782d64": {
+      "tr": "kapasite silaha göre"
+    },
+    "IGUI_ALifeUI_2389d0c15607a218": {
+      "tr": "Birincil"
+    },
+    "IGUI_ALifeUI_0da99a6f3b22a67f": {
+      "tr": "Yakın dövüş"
+    },
+    "IGUI_ALifeUI_46f9fb8e0af06340": {
+      "tr": "Fraksiyon kaydedilemedi. Değişikliklerin hâlâ açık."
+    },
+    "IGUI_ALifeUI_17e7ad0e03f260ea": {
+      "tr": "Kayıt yarım kaldı. Bazı değişiklikler gönderildi; sunucu kontrol ediliyor."
+    },
+    "IGUI_ALifeUI_2ab4aa973d19766d": {
+      "tr": "KOPYALANAMAYACAK KADAR UZUN - KOD ZOMBOID/LUA/ALIFE_FACTION_CODE.TXT DOSYASINA KAYDEDİLDİ"
+    },
+    "IGUI_ALifeUI_09e28e9c0b14dcaf": {
+      "tr": "NPC kaydedilemedi. Değişikliklerin hâlâ açık."
+    },
+    "IGUI_ALifeUI_25ba36d66b47f75d": {
+      "tr": "Birincil ateşli silah"
+    },
+    "IGUI_ALifeUI_434aca3175715810": {
+      "tr": "İkincil ateşli silah"
+    },
+    "IGUI_ALifeUI_4b8080d42dac72a5": {
+      "tr": "Yakın dövüş silahı"
+    },
+    "IGUI_ALifeUI_53a1ddcb76ca75bf": {
+      "tr": "Fraksiyon ara..."
+    },
+    "IGUI_ALifeUI_079ccd0349b1cbd1": {
+      "tr": "Yeni fraksiyon oluştur"
+    },
+    "IGUI_ALifeUI_64386c006a4b6be4": {
+      "tr": "+ YENİ FRAKSİYON"
+    },
+    "IGUI_ALifeUI_11c7bc01789e9336": {
+      "tr": "Bu fraksiyonu bütün NPC'leriyle birlikte tek bir paylaşım kodu olarak kopyalar. Discord'a yapıştır. Yedek olarak Zomboid/Lua/alife_faction_code.txt dosyasına da kaydedilir."
+    },
+    "IGUI_ALifeUI_45e5c21f2ff08845": {
+      "tr": "Bir paylaşım kodu kopyala, sonra tıkla: yeni fraksiyon olarak eklenir. Kopyalanmış kod yoksa Zomboid/Lua/alife_faction_code.txt yüklenir."
+    },
+    "IGUI_ALifeUI_634ed3bf3fedb914": {
+      "tr": "Üye ara..."
+    },
+    "IGUI_ALifeUI_4e542fdf27383e9d": {
+      "tr": "Seçili fraksiyonda yeni üye oluştur."
+    },
+    "IGUI_ALifeUI_08dd4f556d60517c": {
+      "tr": "Önceki üye - önce bekleyen değişiklikleri kaydeder."
+    },
+    "IGUI_ALifeUI_2e5948a968d4b6b2": {
+      "tr": "Sonraki üye - kadroya bakarken fraksiyon ayarları açık kalır."
+    },
+    "IGUI_ALifeUI_7c86cee55bc300eb": {
+      "tr": "Bekleme"
+    },
+    "IGUI_ALifeUI_16ef198e478c3056": {
+      "tr": "Yürüme"
+    },
+    "IGUI_ALifeUI_44d8ec7f09e410eb": {
+      "tr": "Koşma"
+    },
+    "IGUI_ALifeUI_5e9659133b4fbd4c": {
+      "tr": "Depar"
+    },
+    "IGUI_ALifeUI_2394592f2753551d": {
+      "tr": "Çömelme"
+    },
+    "IGUI_ALifeUI_2126a8f015f50bc8": {
+      "tr": "Eller yukarı"
+    },
+    "IGUI_ALifeUI_69a45bd27fa3e118": {
+      "tr": "Fraksiyon ve NPC değişikliklerini şimdi kaydet. Kısayol: Ctrl + S."
+    },
+    "IGUI_ALifeUI_21fdc117478c9bd4": {
+      "tr": "Özel ayar yok"
+    },
+    "IGUI_ALifeUI_5b87427e316422d5": {
+      "tr": "Karar ağacı / kalıcı iş sırası"
+    },
+    "IGUI_ALifeUI_57fdff3c08475ccf": {
+      "tr": "Hedefler, hafıza, duyma ve tehdit puanı"
+    },
+    "IGUI_ALifeUI_35e32ac25c640f0c": {
+      "tr": "Yol bulma, engel aşma, düzen ve toparlanma"
+    },
+    "IGUI_ALifeUI_10a7249b1ad57dcb": {
+      "tr": "Nişan, yakın dövüş, baskı ateşi ve geri çekilme"
+    },
+    "IGUI_ALifeUI_4f919bfc4b814254": {
+      "tr": "Dünyada arama, ayırma ve envanter"
+    },
+    "IGUI_ALifeUI_451b56a305504e48": {
+      "tr": "Konuşma, çatışma nidaları ve ölüm sesleri"
+    },
+    "IGUI_ALifeUI_2a2be973583e3691": {
+      "tr": "Grupların yerleşimi ve karşılaşmanın başlaması"
+    },
+    "IGUI_ALifeUI_53826d0112bc60e2": {
+      "tr": "Baskın dalgaları, hazırlık ve süreklilik"
+    },
+    "IGUI_ALifeUI_768594c670db2586": {
+      "tr": "fraksiyon yok"
+    },
+    "IGUI_ALifeUI_1e3dbee3291ffd9d": {
+      "tr": "NPC seçilmedi"
+    },
+    "IGUI_ALifeUI_3e4b7c7760d82bb5": {
+      "tr": "Hazır fraksiyonlar varsayılana döner. Kendi yaptığın fraksiyonlar kalır."
+    },
+    "IGUI_ALifeUI_612cc9222cd485e4": {
+      "tr": "ÜYELER SIFIRLANDI - ETİKET SİLME KAYDEDİLMEDİ; YENİDEN DENE"
+    },
+    "IGUI_ALifeUI_29f6da0101d6675f": {
+      "tr": "İsteğe bağlı uyumluluk katmanı"
+    },
+    "IGUI_ALifeUI_08d825685acde442": {
+      "tr": "Yüz katmanları"
+    },
+    "IGUI_ALifeUI_082ac2b3004543b5": {
+      "tr": "Uyumlu bir modlu yüz katmanı seç. Oyunun kendi yüz modelinin yerine geçmez."
+    },
+    "IGUI_ALifeUI_4a456c3928623427": {
+      "tr": "Yalnızca ziyaretçi: ziyaretlerde kapında belirir, dünyada hiç çıkmaz"
+    },
+    "IGUI_ALifeUI_019acc431f8f0d91": {
+      "tr": "Yalnızca ziyaretçi olan fraksiyon kendiliğinden ortaya çıkmaz, baskınlara katılmaz, dünyadaki baskıya sayılmaz. Üyeleri yalnızca ziyaretlerde kapına gelir."
+    },
+    "IGUI_ALifeUI_433c91167086284f": {
+      "tr": "NPC ayarları önce gelir; dünya anahtarları yine geçerli."
+    },
+    "IGUI_ALifeUI_2f58fe6e022b8287": {
+      "tr": "Yalnızca ziyaretçi fraksiyonlar kendiliğinden ortaya çıkmaz"
+    },
+    "IGUI_ALifeUI_219c858a41b1edf6": {
+      "tr": "Kendiliğinden ortaya çıksın"
+    },
+    "IGUI_ALifeUI_5aa4dac75498f1b0": {
+      "tr": "Dost ve tarafsız fraksiyonlar kendiliğinden ortaya çıkabilir. Keşifçiler, pusular ve baskınlar için fraksiyon düşman olmalı."
+    },
+    "IGUI_ALifeUI_0d04ba951ca14b18": {
+      "tr": "Gün 0"
+    },
+    "IGUI_ALifeUI_45bd5abe63999e72": {
+      "tr": "Bitiş yok"
+    },
+    "IGUI_ALifeUI_6292dfa32cac0cec": {
+      "tr": "İlk ve son gün dahil; ilk gün 0. Bir ucu açık bırakmak için o kutuyu boş bırak."
+    },
+    "IGUI_ALifeUI_50d12a1d3adb8867": {
+      "tr": "Bütün gün (00:00 - 24:00)"
+    },
+    "IGUI_ALifeUI_7d0ccfac5bebf01a": {
+      "tr": "Şafak (05:00 - 08:00)"
+    },
+    "IGUI_ALifeUI_3627283a44bfe22c": {
+      "tr": "Sabah (08:00 - 12:00)"
+    },
+    "IGUI_ALifeUI_67c8b14a2d42bfc4": {
+      "tr": "Öğle (12:00 - 14:00)"
+    },
+    "IGUI_ALifeUI_35b02e3a7c26dbc8": {
+      "tr": "Öğleden sonra (14:00 - 18:00)"
+    },
+    "IGUI_ALifeUI_6ead9e8217661da9": {
+      "tr": "Akşam (18:00 - 22:00)"
+    },
+    "IGUI_ALifeUI_0cb45d26246b9fc6": {
+      "tr": "Gece (22:00 - 05:00)"
+    },
+    "IGUI_ALifeUI_171e2c6e73e93c90": {
+      "tr": "Gündüz (06:00 - 18:00)"
+    },
+    "IGUI_ALifeUI_2440f65e10b59e57": {
+      "tr": "Gece vakti (18:00 - 06:00)"
+    },
+    "IGUI_ALifeUI_6ce2fda321812377": {
+      "tr": "Yeni karşılaşmaların başlayabileceği saatler. Var olan timler işlerini bitirir; bu saatler bitince ortadan kaybolmaz."
+    },
+    "IGUI_ALifeUI_770adf81439233aa": {
+      "tr": "Yalnız hayatta kalanlar + gruplar"
+    },
+    "IGUI_ALifeUI_4e48bf563f9b4e72": {
+      "tr": "Yalnızca yalnız hayatta kalanlar"
+    },
+    "IGUI_ALifeUI_6ce34f5968ea7640": {
+      "tr": "Yalnızca gruplar"
+    },
+    "IGUI_ALifeUI_66ebf3a85104b1da": {
+      "tr": "Göreli ağırlık. Boş bırakırsan Sandbox varsayılanı kullanılır; sıfır bu grup türünü kapatır."
+    },
+    "IGUI_ALifeUI_047683a660e89c7a": {
+      "tr": "her tür karakol"
+    },
+    "IGUI_ALifeUI_266fb42c5a9ec1f4": {
+      "tr": "Seçili yok - kendiliğinden karşılaşma yok"
+    },
+    "IGUI_ALifeUI_2f0a997d17a27948": {
+      "tr": "Her yerde"
+    },
+    "IGUI_ALifeUI_0f02feac7a6b9fb4": {
+      "tr": "Seçili kasabalar"
+    },
+    "IGUI_ALifeUI_3fbd16f373cc4f6c": {
+      "tr": "Yalnızca kırsal"
+    },
+    "IGUI_ALifeUI_2fd18b2a153e34b0": {
+      "tr": "Yollar ve otoyollar"
+    },
+    "IGUI_ALifeUI_4b1ac8a64d0a4a83": {
+      "tr": "Belirli bina türleri"
+    },
+    "IGUI_ALifeUI_7f4f5c0c7ad3c2c9": {
+      "tr": "Seçili kasabalarla birlikte kırsalı da kat"
+    },
+    "IGUI_ALifeUI_0512f3695591d61b": {
+      "tr": "Bütün kasabalar"
+    },
+    "IGUI_ALifeUI_23a675ff5f194d39": {
+      "tr": "Sonradan eklenenler dahil kayıtlı bütün kasabalar. Aşağıdan tek tek seçmek için işareti kaldır."
+    },
+    "IGUI_ALifeUI_134ecccb470a90ee": {
+      "tr": "Aynı fraksiyon"
+    },
+    "IGUI_ALifeUI_423a6c8c61075fed": {
+      "tr": "Kim çağırır, takviye nasıl gelir, gece bir helikopter de teması arar mı."
+    },
+    "IGUI_ALifeUI_4ee519be70b52069": {
+      "tr": "Takviyeyi kim çağırabilir?"
+    },
+    "IGUI_ALifeUI_18eba8bb20688789": {
+      "tr": "Herkes"
+    },
+    "IGUI_ALifeUI_2be8467b3f6d8d06": {
+      "tr": "Telsizci: yalnızca timin telsizcisi çağırabilir. Herkes: her üye çağırabilir. Devre dışı: fraksiyon çağırmaz. Timin ortak bekleme süresi ve çağrı sınırı peş peşe çağrıyı engeller; NPC ayarları yine geçerli."
+    },
+    "IGUI_ALifeUI_4d88ebd029a7063d": {
+      "tr": "Takviye nasıl gelir?"
+    },
+    "IGUI_ALifeUI_239d66591c3ee8a4": {
+      "tr": "Araçla gelir (ses + tim)"
+    },
+    "IGUI_ALifeUI_2d8da83f566dc0a5": {
+      "tr": "Takviye - iple asker indirir"
+    },
+    "IGUI_ALifeUI_3b84d8557240d273": {
+      "tr": "Projektör - gece / açık alan"
+    },
+    "IGUI_ALifeUI_415045ed66fe8bd9": {
+      "tr": "Helikopter + projektör + asker"
+    },
+    "IGUI_ALifeUI_4ab2b8c663c4ef84": {
+      "tr": "Araç sesi (araç oluşturulmaz)"
+    },
+    "IGUI_ALifeUI_72f6797451f702aa": {
+      "tr": "Otomatik"
+    },
+    "IGUI_ALifeUI_172f4a905b4258a1": {
+      "tr": "Kamyonet"
+    },
+    "IGUI_ALifeUI_0ff7b59e71c7612d": {
+      "tr": "Kamuflajlı kamyonet"
+    },
+    "IGUI_ALifeUI_6a3bf203146f2dfb": {
+      "tr": "Panelvan"
+    },
+    "IGUI_ALifeUI_0812b26729cf0a81": {
+      "tr": "Station wagon"
+    },
+    "IGUI_ALifeUI_0c58f455324fc315": {
+      "tr": "Polis arabası"
+    },
+    "IGUI_ALifeUI_7df0e4082c9e1251": {
+      "tr": "Çağıran timin toplamda yapabileceği en fazla çağrı; sıfır çağrıyı kapatır. Dünyanın çağrı sınırı, bekleme süresi ve etkin NPC bütçesi bu sayıyı düşürebilir. Takviyeler başka takviye çağıramaz."
+    },
+    "IGUI_ALifeUI_16a47c4c78d4d9ea": {
+      "tr": "Bu çağrıda rastgele havuz yerine bu fraksiyon gelir. Başka bir fraksiyon en az bir yönden dost ya da müttefik olmalı; değilse takviye çağıranın kendi fraksiyonundan gelir. Üçüncüden sonraki çağrılar aynı fraksiyonu kullanır."
+    },
+    "IGUI_ALifeUI_63f4c42936444116": {
+      "tr": "Takviye seçeneği eklemek için İlişkiler'de fraksiyonları Dost / Müttefik yap."
+    },
+    "IGUI_ALifeUI_4babcb2c0bcedff2": {
+      "tr": "Varsayılan olarak kapalı; NPC ayarları çağrıya izin verebilir."
+    },
+    "IGUI_ALifeUI_71cd109f4cac2850": {
+      "tr": "Araç sesi + uzaktan gelen tim; telsizle konum beş saniye güncellenir."
+    },
+    "IGUI_ALifeUI_2bf02e171a1f5547": {
+      "tr": "Helikopter görevi yok: takviye karadan gelir."
+    },
+    "IGUI_ALifeUI_0e75a65c003869c1": {
+      "tr": "Kara timi + gece/açık alan projektörü."
+    },
+    "IGUI_ALifeUI_273003f975cc08df": {
+      "tr": "Gece/açık alan projektörü çağıran time haber verir; asker yok."
+    },
+    "IGUI_ALifeUI_19e022d675edd780": {
+      "tr": "Helikopterle asker indirme, gece de aynı açık alandaki hedefe projektör."
+    },
+    "IGUI_ALifeUI_4b959b9b2f77c14d": {
+      "tr": "Kara ya da helikopter timi, her çağrıda biri seçilir."
+    },
+    "IGUI_ALifeUI_6ab0866e4e6e06f9": {
+      "tr": "Helikopterle tim indirme; dünya sınırları yine geçerli."
+    },
+    "IGUI_ALifeUI_495c64060a58123e": {
+      "tr": "Klasörler kaydedilemedi."
+    },
+    "IGUI_ALifeUI_1a99e170348600a8": {
+      "tr": "Rastgele ad (cinsiyete göre)"
+    },
+    "IGUI_ALifeUI_0c9c97f92a981584": {
+      "tr": "Rastgele erkek adı"
+    },
+    "IGUI_ALifeUI_14a1fb31705c070e": {
+      "tr": "Rastgele kadın adı"
+    },
+    "IGUI_ALifeUI_0512898748d38170": {
+      "tr": "Sabit ad"
+    },
+    "IGUI_ALifeUI_66fcf4615c6f4cd6": {
+      "tr": "Fraksiyonla aynı"
+    },
+    "IGUI_ALifeUI_5ae8d7e4463ebad2": {
+      "tr": "İşçi"
+    },
+    "IGUI_ALifeUI_4e8a84112d40591e": {
+      "tr": "Kurtarma"
+    },
+    "IGUI_ALifeUI_157067d372449aaa": {
+      "tr": "Suçlu"
+    },
+    "IGUI_ALifeUI_6d521af221309b88": {
+      "tr": "BU NPC KİM?"
+    },
+    "IGUI_ALifeUI_11dc749247e9bc10": {
+      "tr": "Önce okunur kimlik; iç kimlik kodları geri planda."
+    },
+    "IGUI_ALifeUI_76bcd7ea58767f0a": {
+      "tr": "Etiket üyenin işini anlatır. Sınıf, üyenin tehdit altında nasıl davranacağını belirler. Grupta Çıkma Ağırlığı bu şablonun ne sıklıkla seçileceğini ayarlar."
+    },
+    "IGUI_ALifeUI_256475160a3e51b1": {
+      "tr": "Etiketler süzmeyi kolaylaştırır. Notları yalnızca Oluşturucu'da sen görürsün."
+    },
+    "IGUI_ALifeUI_41e44d3c4965d5b7": {
+      "tr": "Bu üyenin tehdit altında nasıl davrandığı. Siviller ve işçiler korkak olur; askerler, polisler ve suçlular sakin kalır. Fraksiyonla aynı, fraksiyonun sınıfına uyar."
+    },
+    "IGUI_ALifeUI_5453004223863cd9": {
+      "tr": "Bu şablonun kendi fraksiyonunda ne sıklıkla seçileceği. Yaygın normal oran; Nadir ve Çok nadir, uzmanların bir timi doldurmasını önler."
+    },
+    "IGUI_ALifeUI_4c3dca05677d2dd3": {
+      "tr": "dışarıda, tüfek, sıhhiyeci, tüccar"
+    },
+    "IGUI_ALifeUI_0278f0713d74f132": {
+      "tr": "Bu şablondan oluşturulan her NPC'ye dünyada tekrarlanmayan kendi adı verilir. Şablondaki her NPC'ye aynı adı vermek için Sabit ad'ı seç."
+    },
+    "IGUI_ALifeUI_4e35fcdb1011ebb1": {
+      "tr": "Bu özel etiketi fraksiyondan sil. Etiketteki üyeler Keşifçi'ye döner."
+    },
+    "IGUI_ALifeUI_7e0058870e156602": {
+      "tr": "Yeni etiket adı"
+    },
+    "IGUI_ALifeUI_47490dc24dcc4987": {
+      "tr": "Yeni etiket için bir renk seç."
+    },
+    "IGUI_ALifeUI_69ffb6147c565b38": {
+      "tr": "Her silah yuvasında en fazla dört rastgele seçenek tutar. Kapalıysa her tıklama yuvadakini değiştirir."
+    },
+    "IGUI_ALifeUI_2f44f03e7604cedd": {
+      "tr": "Elde taşınan ana silah."
+    },
+    "IGUI_ALifeUI_045b1a2c5f220ff8": {
+      "tr": "Birincil silah işe yaramadığında kullanılan yedek ateşli silah."
+    },
+    "IGUI_ALifeUI_4a2240277b2ee120": {
+      "tr": "Belde ya da sırtta taşınan yakın mesafe yedeği."
+    },
+    "IGUI_ALifeUI_4d34add0426a5c29": {
+      "tr": "Sayılar dolu şarjör, tüp ya da toplar - tek tek mermi değil."
+    },
+    "IGUI_ALifeUI_6f9ac57b3604071f": {
+      "tr": "Sınırsız mermi"
+    },
+    "IGUI_ALifeUI_1ebafbd030a8aaeb": {
+      "tr": "Çatışmada sınırsız şarjör değiştirme. Ölünce bırakılan ganimet yine aşağıda girilen her şarjör için bir kez zarla belirlenir."
+    },
+    "IGUI_ALifeUI_269bae217916381a": {
+      "tr": "Ölünce şarjör bıraksın"
+    },
+    "IGUI_ALifeUI_2ac6b3381e5a416d": {
+      "tr": "Birincil/yan silahın her şarjörü için ayrı bir zar. %20'de üç şarjör üç zar demek, sınırsız mermide bile. Sabit şarjörlü silahlar tek tek mermi bırakır."
+    },
+    "IGUI_ALifeUI_7970be186b104a14": {
+      "tr": "Seçili ateşli silahlar için uyumlu dürbün, nişangâh, kayış, dipçik pedi ve diğer parçaları ayarla."
+    },
+    "IGUI_ALifeUI_3bd9793652b37d87": {
+      "tr": "Bu takım için giysi verisi yok."
+    },
+    "IGUI_ALifeUI_3faa0c347a36011c": {
+      "tr": "Bu kıyafet takımındaki ilk sorun için yerine konacak eşya önerir. Bir öneride UYGULA'ya basana kadar hiçbir şey değişmez."
+    },
+    "IGUI_ALifeUI_4cbb7fdc56cd04be": {
+      "tr": "NPC kaydedilemedi"
+    },
+    "IGUI_ALifeUI_440400a650fc918c": {
+      "tr": "NPC kaydedildi"
+    },
+    "IGUI_ALifeUI_398fc25f054abfd5": {
+      "tr": "NPC kaydediliyor... bitince Oluşturucu açılacak"
+    },
+    "IGUI_ALifeUI_01a8c0202361a759": {
+      "tr": "Hazır sürümden güncelle"
+    },
+    "IGUI_ALifeUI_28d8a1d24517c793": {
+      "tr": "Mevsimlik kıyafet üret"
+    },
+    "IGUI_ALifeUI_390116356838b5a6": {
+      "tr": "Başka bir toplu kayıt hâlâ sürüyor. Bitmesini bekle, sonra yeniden ONAYLA VE KAYDET'e bas."
+    },
+    "IGUI_ALifeUI_4ca586a342faa7c4": {
+      "tr": "NPC kaydı açılışta okunamadığı için hiçbir şey değişmedi. Oluşturucu'yu kapatıp yeniden aç, sonra tekrar önizle."
+    },
+    "IGUI_ALifeUI_5250915e516e1ece": {
+      "tr": "Fraksiyon kaydı açılışta okunamadığı için hiçbir şey değişmedi. Oluşturucu'yu kapatıp yeniden aç, sonra tekrar önizle."
+    },
+    "IGUI_ALifeUI_490eb8564a40a0ac": {
+      "tr": "Planda kimliği olmayan bir NPC var, o yüzden hiçbir şey değişmedi. İptal et ve tekrar önizle."
+    },
+    "IGUI_ALifeUI_2e668e8a60964215": {
+      "tr": "Güvenlik kopyalarının listesi okunamadığı için hiçbir şey değişmedi."
+    },
+    "IGUI_ALifeUI_229c43095e293e5b": {
+      "tr": "Güvenlik kopyasının adı kabul edilmediği için hiçbir şey değişmedi."
+    },
+    "IGUI_ALifeUI_4d7572995381ef81": {
+      "tr": "Güvenlik kopyası için şu anki kayıt dosyası okunamadığından hiçbir şey değişmedi."
+    },
+    "IGUI_ALifeUI_5108e0b832a807f3": {
+      "tr": "Şu anki kaydın güvenlik kopyası yazılamadığı için (disk dolu ya da salt okunur mu?) hiçbir şey değişmedi."
+    },
+    "IGUI_ALifeUI_03fa0c18663b3d56": {
+      "tr": "Şu anki kaydın güvenlik kopyası asılla uyuşmadığı için hiçbir şey değişmedi."
+    },
+    "IGUI_ALifeUI_15a9aff30b9da825": {
+      "tr": "Güvenlik kopyası listesi güncellenemediği için hiçbir şey değişmedi."
+    },
+    "IGUI_ALifeUI_066afba01c1c7fe0": {
+      "tr": "Şu anki kaydın güvenlik kopyası alınamadığı için hiçbir şey değişmedi."
+    },
+    "IGUI_ALifeUI_0947bad315936a7a": {
+      "tr": "AÇIK DEĞİŞİKLİKLER DEĞİŞTİ - kaydı bekle, sonra iptal edip tekrar önizle"
+    },
+    "IGUI_ALifeUI_305e35d0615bead6": {
+      "tr": "VERİ DEĞİŞTİ - iptal edip tekrar önizle"
+    },
+    "IGUI_ALifeUI_31a7f09c425af90b": {
+      "tr": "Toplu mevsimlik değişiklikler yerel Oluşturucu kaydını ister, çok oyunculu bir istemcide çalışmaz."
+    },
+    "IGUI_ALifeUI_1fa9b61f09e8ced2": {
+      "tr": "NPC kaydı güncellemeyi kabul etmediği için hiçbir şey değişmedi. İptal et, biraz bekle ve tekrar önizle."
+    },
+    "IGUI_ALifeUI_582579be53f1a7de": {
+      "tr": "KAYDEDİLİYOR - önce şu anki kaydın güvenlik kopyası, sonra arka planda profiller, sonra fraksiyon varsayılanları"
+    },
+    "IGUI_ALifeUI_39aa30ce706989de": {
+      "tr": "GÖRÜNÜM"
+    },
+    "IGUI_ALifeUI_684b7973481f0ba3": {
+      "tr": "MODÜLLER"
+    },
+    "IGUI_ALifeUI_7c84697d5b36d515": {
+      "tr": "GÖZLER"
+    },
+    "IGUI_ALifeUI_7c8868335c430037": {
+      "tr": "MASKE"
+    },
+    "IGUI_ALifeUI_7c8405125b3092e4": {
+      "tr": "KULAKLAR"
+    },
+    "IGUI_ALifeUI_7c8903885c6651c6": {
+      "tr": "BOYUN"
+    },
+    "IGUI_ALifeUI_0e02cf161fdb5187": {
+      "tr": "ATKI"
+    },
+    "IGUI_ALifeUI_0b8822b8172f51a3": {
+      "tr": "ÜST"
+    },
+    "IGUI_ALifeUI_393b0e5c52bb608a": {
+      "tr": "CEKET"
+    },
+    "IGUI_ALifeUI_74440d1e5d3da14e": {
+      "tr": "Fişeklik",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_4c580e8f6bcf508d": {
+      "tr": "FİŞEKLİK"
+    },
+    "IGUI_ALifeUI_0d3ade555e834108": {
+      "tr": "ELLER"
+    },
+    "IGUI_ALifeUI_0e538d006816cfb9": {
+      "tr": "BİLEK"
+    },
+    "IGUI_ALifeUI_402208041fc5478e": {
+      "tr": "PARMAKLAR"
+    },
+    "IGUI_ALifeUI_3bd522211b4b1961": {
+      "tr": "İÇ ÇAMAŞIRI"
+    },
+    "IGUI_ALifeUI_0dcba46d6af0fbd3": {
+      "tr": "PANTOLON"
+    },
+    "IGUI_ALifeUI_0e096b4a21777755": {
+      "tr": "ÇORAP"
+    },
+    "IGUI_ALifeUI_0e05c6e9208a7972": {
+      "tr": "AYAKKABI"
+    },
+    "IGUI_ALifeUI_511ad28509c12cfe": {
+      "tr": "Sol kol",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_08327aa640b76f7d": {
+      "tr": "SOL KOL"
+    },
+    "IGUI_ALifeUI_33803e864eca5e7a": {
+      "tr": "Sağ kol",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_2f0ac8241c87989c": {
+      "tr": "SAĞ KOL"
+    },
+    "IGUI_ALifeUI_2a1d42c025c6d62e": {
+      "tr": "Sol önkol",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_7701ac3f36ce96c9": {
+      "tr": "SOL ÖNKOL"
+    },
+    "IGUI_ALifeUI_596697d9380b0c15": {
+      "tr": "Sağ önkol",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_4426069817b0b6c0": {
+      "tr": "SAĞ ÖNKOL"
+    },
+    "IGUI_ALifeUI_7478b2147ec5b330": {
+      "tr": "Sol el",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_0e855e231ec9be48": {
+      "tr": "SOL EL"
+    },
+    "IGUI_ALifeUI_238b9e2e527a0ae9": {
+      "tr": "Sağ el",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_10675b6b1a4ec666": {
+      "tr": "SAĞ EL"
+    },
+    "IGUI_ALifeUI_04a7a3d068be4a47": {
+      "tr": "Sol bilek",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_6049d1844acff029": {
+      "tr": "SOL BİLEK"
+    },
+    "IGUI_ALifeUI_161813153e072a9b": {
+      "tr": "Sağ bilek",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_1e6b77cd7fe31724": {
+      "tr": "SAĞ BİLEK"
+    },
+    "IGUI_ALifeUI_747ed76b0040dba6": {
+      "tr": "Sol baldır",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_0e8b837a2044e6ab": {
+      "tr": "SOL BALDIR"
+    },
+    "IGUI_ALifeUI_2391c38553f5334c": {
+      "tr": "Sağ baldır",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_106d80c21bc9eec9": {
+      "tr": "SAĞ BALDIR"
+    },
+    "IGUI_ALifeUI_7315f5f336b25dfd": {
+      "tr": "Sol tozluk",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_42fdda1f65ba3e36": {
+      "tr": "SOL TOZLUK"
+    },
+    "IGUI_ALifeUI_32944ddd5afd25b5": {
+      "tr": "Sağ tozluk",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_455449770e8734bc": {
+      "tr": "SAĞ TOZLUK"
+    },
+    "IGUI_ALifeUI_7c82702e5acab326": {
+      "tr": "KEMER"
+    },
+    "IGUI_ALifeUI_67f816f84cc9c6bd": {
+      "tr": "KILIF"
+    },
+    "IGUI_ALifeUI_7d98443b066d5926": {
+      "tr": "Omuz kılıfı",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_1616808d103c1cc4": {
+      "tr": "OMUZ KILIFI"
+    },
+    "IGUI_ALifeUI_403c0ceb3ba8c0d1": {
+      "tr": "Ayak bileği kılıfı",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_53adbf1d70b0e75d": {
+      "tr": "AYAK BİLEĞİ KILIFI"
+    },
+    "IGUI_ALifeUI_3cc6c77c3f2d4632": {
+      "tr": "Bel çantası (ön)",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_2b7cb6322c02b921": {
+      "tr": "BEL ÇANTASI (ÖN)"
+    },
+    "IGUI_ALifeUI_763216460d9bb210": {
+      "tr": "Bel çantası (arka)",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_6a090dff27d7f36a": {
+      "tr": "BEL ÇANTASI (ARKA)"
+    },
+    "IGUI_ALifeUI_592becd82592b211": {
+      "tr": "KOLYE"
+    },
+    "IGUI_ALifeUI_179409534e09fe9b": {
+      "tr": "Uzun kolye",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_032c5f616366de8a": {
+      "tr": "UZUN KOLYE"
+    },
+    "IGUI_ALifeUI_7c89301c5c68f84a": {
+      "tr": "BURUN"
+    },
+    "IGUI_ALifeUI_3a0e329337d43f7a": {
+      "tr": "Göbek",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_0345b8f227a07e44": {
+      "tr": "GÖBEK"
+    },
+    "IGUI_ALifeUI_747e4fe9001ed39c": {
+      "tr": "Sol yüzük",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_0e8afbf82022dea1": {
+      "tr": "SOL YÜZÜK"
+    },
+    "IGUI_ALifeUI_23913c0353d32b42": {
+      "tr": "Sağ yüzük",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_106cf9401ba7e6bf": {
+      "tr": "SAĞ YÜZÜK"
+    },
+    "IGUI_ALifeUI_3715a7a73dfec49c": {
+      "tr": "Sol orta parmak yüzüğü",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_2c6d964b6d6a0916": {
+      "tr": "SOL ORTA PARMAK YÜZÜĞÜ"
+    },
+    "IGUI_ALifeUI_3c68c5fc7a8ce51c": {
+      "tr": "Sağ orta parmak yüzüğü",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_4e72448408a6cf89": {
+      "tr": "SAĞ ORTA PARMAK YÜZÜĞÜ"
+    },
+    "IGUI_ALifeUI_6cc7a0c063e80a97": {
+      "tr": "İç çamaşırı (üst)",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_0806bc013db87b3d": {
+      "tr": "İÇ ÇAMAŞIRI (ÜST)"
+    },
+    "IGUI_ALifeUI_3994b26e0412f407": {
+      "tr": "İç çamaşırı (alt)",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_0f6497300c6a34fe": {
+      "tr": "İÇ ÇAMAŞIRI (ALT)"
+    },
+    "IGUI_ALifeUI_7436caa81d39c2d1": {
+      "tr": "Termal içlik (üst)",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_59a8556e60688ae7": {
+      "tr": "TERMAL İÇLİK (ÜST)"
+    },
+    "IGUI_ALifeUI_559e7b7d43430b53": {
+      "tr": "Termal içlik (alt)",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_5d87af0316fe7310": {
+      "tr": "TERMAL İÇLİK (ALT)"
+    },
+    "IGUI_ALifeUI_30243b204c883e40": {
+      "tr": "Atlet",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_485ee8386a0f4685": {
+      "tr": "ATLET"
+    },
+    "IGUI_ALifeUI_51d714c8628836d8": {
+      "tr": "TİŞÖRT"
+    },
+    "IGUI_ALifeUI_48d96df96f56ef75": {
+      "tr": "KAZAK"
+    },
+    "IGUI_ALifeUI_1ce7e35449d340ec": {
+      "tr": "Omuzluk",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_3b20d66050e85e47": {
+      "tr": "OMUZLUK"
+    },
+    "IGUI_ALifeUI_3341143257eff2b4": {
+      "tr": "BOYUNLUK"
+    },
+    "IGUI_ALifeUI_74dcb60e7592bbc0": {
+      "tr": "GÖĞÜS ZIRHI"
+    },
+    "IGUI_ALifeUI_36cc34ea62402ae7": {
+      "tr": "KASIK KORUMASI"
+    },
+    "IGUI_ALifeUI_0cc47ee765a6e293": {
+      "tr": "ÖNLÜK"
+    },
+    "IGUI_ALifeUI_7c8c3d915d331a57": {
+      "tr": "KUYRUK"
+    },
+    "IGUI_ALifeUI_48060cd955aa3caa": {
+      "tr": "Tulum",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_52f27c3c537705b6": {
+      "tr": "TULUM"
+    },
+    "IGUI_ALifeUI_480565fc55865935": {
+      "tr": "Cüppe",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_52f1d55f53532241": {
+      "tr": "CÜPPE"
+    },
+    "IGUI_ALifeUI_74471651608d5213": {
+      "tr": "Sol incik zırhı",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_442efa7d0f95325f": {
+      "tr": "SOL İNCİK ZIRHI"
+    },
+    "IGUI_ALifeUI_33c56e3b04d819de": {
+      "tr": "Sağ incik zırhı",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_468569d5386228d2": {
+      "tr": "SAĞ İNCİK ZIRHI"
+    },
+    "IGUI_ALifeUI_747a8d5c7f2ffedc": {
+      "tr": "Sol diz",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_0e87396b1f3409f4": {
+      "tr": "SOL DİZ"
+    },
+    "IGUI_ALifeUI_238d797652e45695": {
+      "tr": "Sağ diz",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_106936b31ab91212": {
+      "tr": "SAĞ DİZ"
+    },
+    "IGUI_ALifeUI_046bdceb32be1916": {
+      "tr": "Sol uyluk",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_600e0a9f14cfbef8": {
+      "tr": "SOL UYLUK"
+    },
+    "IGUI_ALifeUI_15dc4c300806f96a": {
+      "tr": "Sağ uyluk",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_1e2fb0e849e2e5f3": {
+      "tr": "SAĞ UYLUK"
+    },
+    "IGUI_ALifeUI_4c6d9c2220516c1d": {
+      "tr": "Sol omuz",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_35df35755748fc91": {
+      "tr": "SOL OMUZ"
+    },
+    "IGUI_ALifeUI_64e19467793902a8": {
+      "tr": "Sağ omuz",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_278edae16aff5596": {
+      "tr": "SAĞ OMUZ"
+    },
+    "IGUI_ALifeUI_035e82302bf7cf85": {
+      "tr": "Sol dirsek",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_5f00afe40e097567": {
+      "tr": "SOL DİRSEK"
+    },
+    "IGUI_ALifeUI_14cef1750140afd9": {
+      "tr": "Sağ dirsek",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_1d22562d431c9c62": {
+      "tr": "SAĞ DİRSEK"
+    },
+    "IGUI_ALifeUI_528f9ade5e4d013e": {
+      "tr": "TEÇHİZAT KEMERİ"
+    },
+    "IGUI_ALifeUI_534cc4bb67d0decf": {
+      "tr": "Solunum aparatı",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_097a62565b23c125": {
+      "tr": "SOLUNUM APARATI"
+    },
+    "IGUI_ALifeUI_5b2aa494275d38c2": {
+      "tr": "Makyaj: tüm yüz",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_05bfc7234e5253fe": {
+      "tr": "MAKYAJ: TÜM YÜZ"
+    },
+    "IGUI_ALifeUI_6172a6b05ae630c2": {
+      "tr": "Makyaj: gözler",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_561fd601150b0ec0": {
+      "tr": "MAKYAJ: GÖZLER"
+    },
+    "IGUI_ALifeUI_6228895e12e26765": {
+      "tr": "Makyaj: far",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_64c86e136268f334": {
+      "tr": "MAKYAJ: FAR"
+    },
+    "IGUI_ALifeUI_61763ab25bd22510": {
+      "tr": "Makyaj: dudak",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_56236a0315f7030e": {
+      "tr": "MAKYAJ: DUDAK"
+    },
+    "IGUI_ALifeUI_353c45a96c6896dd": {
+      "tr": "Mod yuvası A",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_708326223c89622f": {
+      "tr": "MOD YUVASI A"
+    },
+    "IGUI_ALifeUI_353c45aa6c6896de": {
+      "tr": "Mod yuvası B",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_708326233c896230": {
+      "tr": "MOD YUVASI B"
+    },
+    "IGUI_ALifeUI_353c45ab6c6896df": {
+      "tr": "Mod yuvası C",
+      "not": "Giysi yuvası; ipucunda ve seçici başlığında geçer."
+    },
+    "IGUI_ALifeUI_708326243c896231": {
+      "tr": "MOD YUVASI C"
+    },
+    "IGUI_ALifeUI_2caef245095faf2f": {
+      "tr": "Özel"
+    },
+    "IGUI_ALifeUI_0782671b1072378b": {
+      "tr": "Hazır fraksiyon, değiştirilmiş"
+    },
+    "IGUI_ALifeUI_740a11b6364da116": {
+      "tr": "NPC şablonu"
+    },
+    "IGUI_ALifeUI_719e7be2459ee680": {
+      "tr": "KOD KOPYALANDI"
+    },
+    "IGUI_ALifeUI_3121c1975f15dbac": {
+      "tr": "DISCORD'A YAPIŞTIR"
+    },
+    "IGUI_ALifeUI_2ce910eb779e4fbc": {
+      "tr": "TAM LİSTE CONSOLE.TXT'DE"
+    },
+    "IGUI_ALifeUI_0e5ef51119b6c85f": {
+      "tr": "EKSİK EŞYALAR"
+    },
+    "IGUI_ALifeUI_2457769028a96b16": {
+      "tr": "FRAKSİYON PAKETİ İÇE AKTARILDI"
+    },
+    "IGUI_ALifeUI_7fdff5292839f040": {
+      "tr": "dört ayrı mevsimlik kıyafet"
+    },
+    "IGUI_ALifeUI_12b1ae9e0700ff4c": {
+      "tr": "eksik ya da daha az farklı kıyafet"
+    },
+    "IGUI_ALifeUI_04535b8f67827f75": {
+      "tr": "YALNIZCA ÖNİZLEME"
+    },
+    "IGUI_ALifeUI_1c2e00015e530adc": {
+      "tr": "olaylar yine Sandbox tetikleyicilerine uyar"
+    },
+    "IGUI_ALifeUI_39426fda7d4c6921": {
+      "tr": "birincil ateşli silah"
+    },
+    "IGUI_ALifeUI_59c554db41605744": {
+      "tr": "ikincil ateşli silah"
+    },
+    "IGUI_ALifeUI_16d01ec125b1e94c": {
+      "tr": "yakın dövüş silahı"
+    },
+    "IGUI_ALifeUI_0e5643a67416b627": {
+      "tr": "{x} seçenekleri"
+    },
+    "IGUI_ALifeUI_560142901d7ebee7": {
+      "tr": "{x} için simge kataloğunu aç. En fazla dört seçenek seç."
+    },
+    "IGUI_ALifeUI_634730e472bcdbb4": {
+      "tr": "{x} RENGİ: ÖZEL"
+    },
+    "IGUI_ALifeUI_65ebab0c4a88df9e": {
+      "tr": "{x} RENGİ: EŞYANIN KENDİ RENGİ"
+    },
+    "IGUI_ALifeUI_26c5c3e730940443": {
+      "tr": "{x} makyajı"
+    },
+    "IGUI_ALifeUI_4a6c9a586513ffc7": {
+      "tr": "Her şey listeleniyor ({n}). Amber renkli gruplar mevsim dışı, role uymayan ya da süs eşyaları."
+    },
+    "IGUI_ALifeUI_7c22ffc428adf1f8": {
+      "tr": "{x} (DEVAMI)"
+    },
+    "IGUI_ALifeUI_3923f22e2ffe7ef4": {
+      "tr": "{n} eşya"
+    },
+    "IGUI_ALifeUI_5da2386f0f3afaf2": {
+      "tr": "{n} eşya"
+    },
+    "IGUI_ALifeUI_754bfb8e6a407257": {
+      "tr": "ÇAKIŞIYOR: {x}"
+    },
+    "IGUI_ALifeUI_709e7cf12e1b3b42": {
+      "tr": "Temel can, 0-200. Sıfır standart NPC canını kullanır. NPC canı ayarı ve dünyanın can çarpanı, hazır NPC'lerde olduğu gibi ortaya çıkarken bunu ölçekler; sonucu özette görürsün. Varsayılan: {n} HP. Diğer beceriler 1-10 arası puanlanır."
+    },
+    "IGUI_ALifeUI_2cac7666457684e6": {
+      "tr": "Özel ({x})"
+    },
+    "IGUI_ALifeUI_318426ad05a48e15": {
+      "tr": "{n} ağırlık"
+    },
+    "IGUI_ALifeUI_5b455bf648f480f9": {
+      "tr": "{n} SEÇENEK"
+    },
+    "IGUI_ALifeUI_3c5f7f4d066e9e75": {
+      "tr": "BU SİLAHA TAKILI: {n}"
+    },
+    "IGUI_ALifeUI_5d11fbff02ef50d9": {
+      "tr": "{n} ses"
+    },
+    "IGUI_ALifeUI_3a56cca72e369af1": {
+      "tr": "Fraksiyon ses örneği: {x}"
+    },
+    "IGUI_ALifeUI_511466485d3e7d3d": {
+      "tr": "{n} kayıt + duruma göre yazı. Aşağıdan bir tepkiyi önizle."
+    },
+    "IGUI_ALifeUI_20ea0ab70b824085": {
+      "tr": "SES {x}"
+    },
+    "IGUI_ALifeUI_5156bf837d83cd67": {
+      "tr": "SES YOK {x}"
+    },
+    "IGUI_ALifeUI_143ef96f2e0d24e8": {
+      "tr": "YAZI {x}"
+    },
+    "IGUI_ALifeUI_186a61f847f592ca": {
+      "tr": "Dünya: {n}"
+    },
+    "IGUI_ALifeUI_2aaff8e4749471ab": {
+      "tr": "{x} TEMİZLENDİ"
+    },
+    "IGUI_ALifeUI_69da588574727104": {
+      "tr": "Düzenlemek için tıkla ({x}). Boşaltmak için sağ tıkla."
+    },
+    "IGUI_ALifeUI_4ff4235e7d6d4dad": {
+      "tr": "Yalnız hayatta kalanlar: {x}"
+    },
+    "IGUI_ALifeUI_1c624da402559d56": {
+      "tr": "Gruplar: {n}-{m}"
+    },
+    "IGUI_ALifeUI_50de788158213918": {
+      "tr": "Yalnız {x} / Gruplar {n}-{m}"
+    },
+    "IGUI_ALifeUI_7881116166136a4f": {
+      "tr": "Tek başına sayı (1-{n})"
+    },
+    "IGUI_ALifeUI_3eaff9391e477436": {
+      "tr": "Grup büyüklüğü ({n}-{m})"
+    },
+    "IGUI_ALifeUI_3395a75158755bd2": {
+      "tr": "Fraksiyonun seçilme ağırlığı, 0 ile {n} arası; yüzde değil, diğerlerine göre. Sıfır kendiliğinden ortaya çıkmayı kapatır. Genel karşılaşma sıklığını Sandbox ayarları belirler."
+    },
+    "IGUI_ALifeUI_08b8367f07ecc802": {
+      "tr": "{m} karakol türünden {n} tanesi"
+    },
+    "IGUI_ALifeUI_78f9cc2333c259c6": {
+      "tr": "{n} seçili"
+    },
+    "IGUI_ALifeUI_097cb81216cf8413": {
+      "tr": "{n} ŞARJÖR"
+    },
+    "IGUI_ALifeUI_3913baa72c3097c1": {
+      "tr": "{n} ŞARJÖR"
+    },
+    "IGUI_ALifeUI_39216f902f704dd2": {
+      "tr": "her biri {n}"
+    },
+    "IGUI_ALifeUI_5e66c6514faa33d5": {
+      "tr": "toplam {n}"
+    },
+    "IGUI_ALifeUI_221949f808b2a350": {
+      "tr": "{n} şablon"
+    },
+    "IGUI_ALifeUI_65428973736992fb": {
+      "tr": "{n} şablon"
+    },
+    "IGUI_ALifeUI_5ec0d2dc6d9551fe": {
+      "tr": "{n}, NPC: {m}"
+    },
+    "IGUI_ALifeUI_3e651689602a559e": {
+      "tr": "FRAKSİYON: {n}, NPC: {m}"
+    },
+    "IGUI_ALifeUI_391486532c56d0d7": {
+      "tr": "{n} NPC"
+    },
+    "IGUI_ALifeUI_3c99ea0965136080": {
+      "tr": "{n} BAŞARISIZ"
+    },
+    "IGUI_ALifeUI_45549dee38ccb71e": {
+      "tr": "{n} EŞYA EKSİK"
+    },
+    "IGUI_ALifeUI_6beb007b0ae150bc": {
+      "tr": "FRAKSİYONA UYGULA: {x}"
+    },
+    "IGUI_ALifeUI_368d36ff3082dada": {
+      "tr": "BÜTÜN ÜYELERE UYGULANDI: {x}"
+    },
+    "IGUI_ALifeUI_7ff8bfcc467a123f": {
+      "tr": "TAŞI: {x}"
+    },
+    "IGUI_ALifeUI_6fe08c0b53745f3f": {
+      "tr": "{n} ŞABLON"
+    },
+    "IGUI_ALifeUI_4d23d80c01f59f56": {
+      "tr": "{n} RASTGELE AĞIRLIK"
+    },
+    "IGUI_ALifeUI_172b05ac130464c0": {
+      "tr": "{n}/4 mevsim"
+    },
+    "IGUI_ALifeUI_051235944df0110d": {
+      "tr": "{n} fraksiyon, {m} NPC değişiyor; {k} NPC kendi kıyafetini koruyor; {w} uyarı"
+    },
+    "IGUI_ALifeUI_6234a1bb351892b8": {
+      "tr": "{x}: giysi verisi yok"
+    },
+    "IGUI_ALifeUI_5516abad61805698": {
+      "tr": "KATALOG HATASI: {x}"
+    },
+    "IGUI_ALifeUI_4dcd343350b43428": {
+      "tr": "{x} NPC profilini kullan, kararı her üyenin davranış profiline bırakır. Tek tek NPC ayarları önce gelir."
+    },
+    "IGUI_ALifeUI_19aa9e17232d42fa": {
+      "tr": "{x} Fraksiyonu kullan, fraksiyonun varsayılanına uyar; fraksiyonda ayar yoksa NPC'nin davranış profiline."
+    },
+    "IGUI_ALifeUI_0e77fa243c64b023": {
+      "tr": "{x} Dünya anahtarları ve işin geçerli koşulları her zaman uygulanır."
+    },
+    "IGUI_ALifeUI_249dc585764c607a": {
+      "tr": "{x} Oyunun ve modların bütün simge kataloğunu açmak için tıkla. Bu yuvayı boşaltmak için sağ tıkla."
+    }
+  }
+}

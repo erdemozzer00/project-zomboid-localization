@@ -1,0 +1,1989 @@
+{
+  "_paket": "Y6R",
+  "_grup": "kacan_diyalog",
+  "_dosya": "IG_UI_lua",
+  "_noktalama_haric": [
+    "OYUNCU",
+    "ALT NOT"
+  ],
+  "_baslik": "Y6 yeniden çeviri · eski Türkçe gösterilmez",
+  "_parcalar": [
+    [
+      1,
+      219
+    ]
+  ],
+  "satirlar": {
+    "1": [
+      "IGUI_ALifeUI_5f861f30264ecbc6",
+      "What happened here",
+      [
+        "ALifeSituationsData.lua:81",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "2": [
+      "IGUI_ALifeUI_5149388a47759eec",
+      "They tell you how the ring closed",
+      [
+        "ALifeSituationsData.lua:81",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "3": [
+      "IGUI_ALifeUI_59c2034844256fa8",
+      "I'll thin the ring for you",
+      [
+        "ALifeSituationsData.lua:82",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "4": [
+      "IGUI_ALifeUI_1efba5c02725ce2c",
+      "They cover you while you clear it",
+      [
+        "ALifeSituationsData.lua:82",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "5": [
+      "IGUI_ALifeUI_38066bf57366da6a",
+      "You fight in the open",
+      [
+        "ALifeSituationsData.lua:82",
+        "risk",
+        "ALT NOT (risk)"
+      ]
+    ],
+    "6": [
+      "IGUI_ALifeUI_4a45aa66341ff5a0",
+      "The ring is gone, what do I get",
+      [
+        "ALifeSituationsData.lua:83",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "7": [
+      "IGUI_ALifeUI_384ee29304fb4c52",
+      "They pay you in freight",
+      [
+        "ALifeSituationsData.lua:83",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "8": [
+      "IGUI_ALifeUI_051dab910e8c96d7",
+      "Hand over the stash",
+      [
+        "ALifeSituationsData.lua:85",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "9": [
+      "IGUI_ALifeUI_281cb0ac4ac32e60",
+      "You take the freight by force",
+      [
+        "ALifeSituationsData.lua:85",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "10": [
+      "IGUI_ALifeUI_4975e84e4efe447a",
+      "They turn on you",
+      [
+        "ALifeSituationsData.lua:85",
+        "risk",
+        "ALT NOT (risk)"
+      ]
+    ],
+    "11": [
+      "IGUI_ALifeUI_19fec01501912a50",
+      "Where's the next drop",
+      [
+        "ALifeSituationsData.lua:87",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "12": [
+      "IGUI_ALifeUI_3c8fd1d53be77b83",
+      "They share a freight run",
+      [
+        "ALifeSituationsData.lua:87",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "13": [
+      "IGUI_ALifeUI_32a9c81b35f06662",
+      "Not my problem",
+      [
+        "ALifeSituationsData.lua:89",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "14": [
+      "IGUI_ALifeUI_164d38f56a16bc91",
+      "They carry on without you",
+      [
+        "ALifeSituationsData.lua:89",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "15": [
+      "IGUI_ALifeUI_0e471d850d392875",
+      "Check me, I'm clean",
+      [
+        "ALifeSituationsData.lua:125",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "16": [
+      "IGUI_ALifeUI_0f073e43725fb7cf",
+      "They wave you through",
+      [
+        "ALifeSituationsData.lua:125",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "17": [
+      "IGUI_ALifeUI_70e54aae4f5906f3",
+      "What are you checking for",
+      [
+        "ALifeSituationsData.lua:126",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "18": [
+      "IGUI_ALifeUI_5ecf5eb461e8eaf9",
+      "They explain the stop",
+      [
+        "ALifeSituationsData.lua:126",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "19": [
+      "IGUI_ALifeUI_08a424c315ee79ef",
+      "What's past the line",
+      [
+        "ALifeSituationsData.lua:127",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "20": [
+      "IGUI_ALifeUI_683d5cf17c1768e5",
+      "They warn you about the road ahead",
+      [
+        "ALifeSituationsData.lua:127",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "21": [
+      "IGUI_ALifeUI_33d960de6588d87b",
+      "I'm not stopping",
+      [
+        "ALifeSituationsData.lua:129",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "22": [
+      "IGUI_ALifeUI_6f22416f171d9239",
+      "They let it go this once",
+      [
+        "ALifeSituationsData.lua:129",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "23": [
+      "IGUI_ALifeUI_32fa0e5602784e2a",
+      "They remember your face",
+      [
+        "ALifeSituationsData.lua:129",
+        "risk",
+        "ALT NOT (risk)"
+      ]
+    ],
+    "24": [
+      "IGUI_ALifeUI_1c0e2be94c1a15c2",
+      "What's out there",
+      [
+        "ALifeSituationsData.lua:156",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "25": [
+      "IGUI_ALifeUI_41015933606fc48d",
+      "They describe the horde",
+      [
+        "ALifeSituationsData.lua:156",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "26": [
+      "IGUI_ALifeUI_2e1b10627664caf5",
+      "I'll help hold the line",
+      [
+        "ALifeSituationsData.lua:157",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "27": [
+      "IGUI_ALifeUI_576e31b64e86e9c2",
+      "You fight beside them",
+      [
+        "ALifeSituationsData.lua:157",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "28": [
+      "IGUI_ALifeUI_60db66343ac3003a",
+      "The horde is big",
+      [
+        "ALifeSituationsData.lua:157",
+        "risk",
+        "ALT NOT (risk)"
+      ]
+    ],
+    "29": [
+      "IGUI_ALifeUI_217415cc121c0f62",
+      "It's quiet now",
+      [
+        "ALifeSituationsData.lua:158",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "30": [
+      "IGUI_ALifeUI_0d2e1fb92aae5a1b",
+      "They share what the farm gives",
+      [
+        "ALifeSituationsData.lua:158",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "31": [
+      "IGUI_ALifeUI_7b9778bd249bd089",
+      "Take this, you look hungry",
+      [
+        "ALifeSituationsData.lua:160",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "32": [
+      "IGUI_ALifeUI_0bbf09227b4a6105",
+      "A kind word buys goodwill",
+      [
+        "ALifeSituationsData.lua:160",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "33": [
+      "IGUI_ALifeUI_5ea2c9d64d64c87c",
+      "Good luck to you",
+      [
+        "ALifeSituationsData.lua:162",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "34": [
+      "IGUI_ALifeUI_2bc5d9bf048d644f",
+      "They keep holding without you",
+      [
+        "ALifeSituationsData.lua:162",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "35": [
+      "IGUI_ALifeUI_5ab847fd7d8b8e36",
+      "Take this, let him go",
+      [
+        "ALifeSituationsData.lua:193",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "36": [
+      "IGUI_ALifeUI_301a2ef71f1096f1",
+      "They free the hostage for a ransom",
+      [
+        "ALifeSituationsData.lua:193",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "37": [
+      "IGUI_ALifeUI_5a4d47327ac6ff73",
+      "You hand over four tins",
+      [
+        "ALifeSituationsData.lua:193",
+        "risk",
+        "ALT NOT (risk)"
+      ]
+    ],
+    "38": [
+      "IGUI_ALifeUI_3a983a8d3620c5f8",
+      "Let him go or this gets loud",
+      [
+        "ALifeSituationsData.lua:195",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "39": [
+      "IGUI_ALifeUI_2c1fb614649bc46e",
+      "Calls their bluff",
+      [
+        "ALifeSituationsData.lua:195",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "40": [
+      "IGUI_ALifeUI_1510647156e7d9fe",
+      "They open fire",
+      [
+        "ALifeSituationsData.lua:195",
+        "risk",
+        "ALT NOT (risk)"
+      ]
+    ],
+    "41": [
+      "IGUI_ALifeUI_325d567833a4a209",
+      "Who is he to you",
+      [
+        "ALifeSituationsData.lua:196",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "42": [
+      "IGUI_ALifeUI_3883b8396540ee23",
+      "They explain the price",
+      [
+        "ALifeSituationsData.lua:196",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "43": [
+      "IGUI_ALifeUI_0d0c446f14e0418a",
+      "Not my business",
+      [
+        "ALifeSituationsData.lua:197",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "44": [
+      "IGUI_ALifeUI_5e8ae6cf1a217eb4",
+      "You walk away from it",
+      [
+        "ALifeSituationsData.lua:197",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "45": [
+      "IGUI_ALifeUI_670f19af1104a737",
+      "Here, bandages for the wounded",
+      [
+        "ALifeSituationsData.lua:225",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "46": [
+      "IGUI_ALifeUI_3364607e4b777b43",
+      "They pay you back in medicine",
+      [
+        "ALifeSituationsData.lua:225",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "47": [
+      "IGUI_ALifeUI_2964b3b01868b591",
+      "I'll clear the door",
+      [
+        "ALifeSituationsData.lua:227",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "48": [
+      "IGUI_ALifeUI_5c8faea64f53925f",
+      "They hold the windows for you",
+      [
+        "ALifeSituationsData.lua:227",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "49": [
+      "IGUI_ALifeUI_6c28252143afc921",
+      "The door is clear",
+      [
+        "ALifeSituationsData.lua:228",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "50": [
+      "IGUI_ALifeUI_3cdf49b14ebde150",
+      "They hand over what they can spare",
+      [
+        "ALifeSituationsData.lua:228",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "51": [
+      "IGUI_ALifeUI_2b96f10e68676bbc",
+      "How bad is it",
+      [
+        "ALifeSituationsData.lua:230",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "52": [
+      "IGUI_ALifeUI_2337e11b5f9fdf09",
+      "They tell you what they lack",
+      [
+        "ALifeSituationsData.lua:230",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "53": [
+      "IGUI_ALifeUI_7428ecca280d288b",
+      "I can't stay",
+      [
+        "ALifeSituationsData.lua:231",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "54": [
+      "IGUI_ALifeUI_47a5df5a0d6fdb74",
+      "They keep working without you",
+      [
+        "ALifeSituationsData.lua:231",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "55": [
+      "IGUI_ALifeUI_22e4011d5fcbbc66",
+      "Here, a can of petrol",
+      [
+        "ALifeSituationsData.lua:262",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "56": [
+      "IGUI_ALifeUI_27cfd974088b8640",
+      "They trade you road food for it",
+      [
+        "ALifeSituationsData.lua:262",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "57": [
+      "IGUI_ALifeUI_047196fe3210aa04",
+      "I'll watch the road for you",
+      [
+        "ALifeSituationsData.lua:264",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "58": [
+      "IGUI_ALifeUI_27793f8e7aa9446b",
+      "You stand guard while they work",
+      [
+        "ALifeSituationsData.lua:264",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "59": [
+      "IGUI_ALifeUI_28d1090416d002ee",
+      "It takes an hour",
+      [
+        "ALifeSituationsData.lua:264",
+        "risk",
+        "ALT NOT (risk)"
+      ]
+    ],
+    "60": [
+      "IGUI_ALifeUI_0528c50651b398db",
+      "Is she running yet",
+      [
+        "ALifeSituationsData.lua:265",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "61": [
+      "IGUI_ALifeUI_1bca5074632ae4ae",
+      "They thank you in cargo",
+      [
+        "ALifeSituationsData.lua:265",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "62": [
+      "IGUI_ALifeUI_256165dd5fa828de",
+      "Where were you headed",
+      [
+        "ALifeSituationsData.lua:267",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "63": [
+      "IGUI_ALifeUI_406c7ea024a27e76",
+      "They talk about the road",
+      [
+        "ALifeSituationsData.lua:267",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "64": [
+      "IGUI_ALifeUI_2ae3fe4d6df88e6d",
+      "Sorry, I've got nothing",
+      [
+        "ALifeSituationsData.lua:268",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "65": [
+      "IGUI_ALifeUI_00e17a782caebf58",
+      "They keep working",
+      [
+        "ALifeSituationsData.lua:268",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "66": [
+      "IGUI_ALifeUI_38a943c95f350c86",
+      "Where can I patch myself up around here?",
+      [
+        "ALifeTalkSituation.lua:13",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "67": [
+      "IGUI_ALifeUI_0ecf5fdb147e53d6",
+      "They point you to somewhere quiet to rest",
+      [
+        "ALifeTalkSituation.lua:14",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "68": [
+      "IGUI_ALifeUI_5d4dad734e822d7f",
+      "You look hurt, do you need a hand?",
+      [
+        "ALifeTalkSituation.lua:15",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "69": [
+      "IGUI_ALifeUI_188e4e455bd9297d",
+      "They tell you how bad it really is",
+      [
+        "ALifeTalkSituation.lua:16",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "70": [
+      "IGUI_ALifeUI_396f94193763a03d",
+      "Is it safe to be out after dark?",
+      [
+        "ALifeTalkSituation.lua:17",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "71": [
+      "IGUI_ALifeUI_7d4232825c133eb0",
+      "They tell you what moves at night",
+      [
+        "ALifeTalkSituation.lua:18",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "72": [
+      "IGUI_ALifeUI_7b8b87645f57f160",
+      "Does somebody keep watch while you rest?",
+      [
+        "ALifeTalkSituation.lua:19",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "73": [
+      "IGUI_ALifeUI_77e49adf58277bfc",
+      "Learn how they guard their sleep",
+      [
+        "ALifeTalkSituation.lua:20",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "74": [
+      "IGUI_ALifeUI_73d091d6576c2c79",
+      "Any dry place nearby to wait this out?",
+      [
+        "ALifeTalkSituation.lua:21",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "75": [
+      "IGUI_ALifeUI_116eac23659e422a",
+      "They name a place to get out of the rain",
+      [
+        "ALifeTalkSituation.lua:22",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "76": [
+      "IGUI_ALifeUI_7d063bb815854a76",
+      "How are you keeping warm?",
+      [
+        "ALifeTalkSituation.lua:23",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "77": [
+      "IGUI_ALifeUI_15c0f07b3c9b5f7d",
+      "Free advice on surviving the cold",
+      [
+        "ALifeTalkSituation.lua:24",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "78": [
+      "IGUI_ALifeUI_39ef56cc6fcf3e53",
+      "How do you cope with this heat?",
+      [
+        "ALifeTalkSituation.lua:25",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "79": [
+      "IGUI_ALifeUI_15c3827b3d443f99",
+      "Free advice on surviving the heat",
+      [
+        "ALifeTalkSituation.lua:26",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "80": [
+      "IGUI_ALifeUI_47de320f401fe27b",
+      "What are you carrying?",
+      [
+        "ALifeTalkSituation.lua:27",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "81": [
+      "IGUI_ALifeUI_3412c3295928640e",
+      "They size you up as they answer",
+      [
+        "ALifeTalkSituation.lua:28",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "82": [
+      "IGUI_ALifeUI_6109f9ae0caf9549",
+      "Who's in charge of your group?",
+      [
+        "ALifeTalkSituation.lua:29",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "83": [
+      "IGUI_ALifeUI_14ba17f649bf3cdf",
+      "Learn how the group is run",
+      [
+        "ALifeTalkSituation.lua:30",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "84": [
+      "IGUI_ALifeUI_35a3dc407e46cc9e",
+      "Can you see anything out there in this fog?",
+      [
+        "ALifeTalkSituation.lua:31",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "85": [
+      "IGUI_ALifeUI_2f11b2ec48f496a8",
+      "They tell you what they have seen",
+      [
+        "ALifeTalkSituation.lua:32",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "86": [
+      "IGUI_ALifeUI_0995c1202945845f",
+      "Seen any tracks in the snow?",
+      [
+        "ALifeTalkSituation.lua:33",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "87": [
+      "IGUI_ALifeUI_766e0cdd61b1f27c",
+      "They tell you whose tracks they saw",
+      [
+        "ALifeTalkSituation.lua:34",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "88": [
+      "IGUI_ALifeUI_121dbfbd70c1fb65",
+      "Think this storm will pass soon?",
+      [
+        "ALifeTalkSituation.lua:35",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "89": [
+      "IGUI_ALifeUI_116afa076b614752",
+      "They tell you what the sky is doing",
+      [
+        "ALifeTalkSituation.lua:36",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "90": [
+      "IGUI_ALifeUI_0ac358dd152d7643",
+      "Eat something, drink up",
+      [
+        "ALifeCaptivesData.lua:251",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "91": [
+      "IGUI_ALifeUI_0a9dbf350f64b485",
+      "Uses a meal and some water from your pack, once a day",
+      [
+        "ALifeCaptivesData.lua:252",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "92": [
+      "IGUI_ALifeUI_362e77280c76598a",
+      "How are you holding up",
+      [
+        "ALifeCaptivesData.lua:253",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "93": [
+      "IGUI_ALifeUI_4e50d3f057b6dee7",
+      "A new thing to say after every fed day",
+      [
+        "ALifeCaptivesData.lua:254",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "94": [
+      "IGUI_ALifeUI_50ffa13c707cce33",
+      "Where do your people sleep",
+      [
+        "ALifeCaptivesData.lua:255",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "95": [
+      "IGUI_ALifeUI_7371662b1c77b4cf",
+      "A fed, calmer prisoner may tell you and mark it on your map",
+      [
+        "ALifeCaptivesData.lua:256",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "96": [
+      "IGUI_ALifeUI_062f7be7635b9db5",
+      "One try a day, once per prisoner",
+      [
+        "ALifeCaptivesData.lua:256",
+        "risk",
+        "ALT NOT (risk)"
+      ]
+    ],
+    "97": [
+      "IGUI_ALifeUI_09691071366c0e23",
+      "Talk, or this gets worse",
+      [
+        "ALifeCaptivesData.lua:257",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "98": [
+      "IGUI_ALifeUI_2250134d29ee3b34",
+      "Needs strength or a weapon in hand, can break them",
+      [
+        "ALifeCaptivesData.lua:258",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "99": [
+      "IGUI_ALifeUI_5de4ad9f31b7bb2f",
+      "Costs trust and your name",
+      [
+        "ALifeCaptivesData.lua:258",
+        "risk",
+        "ALT NOT (risk)"
+      ]
+    ],
+    "100": [
+      "IGUI_ALifeUI_7d2ffeca0afddb83",
+      "Walk away, you're free",
+      [
+        "ALifeCaptivesData.lua:259",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "101": [
+      "IGUI_ALifeUI_7edfa0ee1a9ebec3",
+      "They leave and go back to being who they were",
+      [
+        "ALifeCaptivesData.lua:260",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "102": [
+      "IGUI_ALifeUI_48043c5d1093c17e",
+      "I'm handing you over",
+      [
+        "ALifeCaptivesData.lua:261",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "103": [
+      "IGUI_ALifeUI_6257dee724655a14",
+      "Needs soldiers, police or medics close by, your name goes up",
+      [
+        "ALifeCaptivesData.lua:262",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "104": [
+      "IGUI_ALifeUI_013e2d5c2bc7ed6e",
+      "A calm, well fed prisoner may join your crew",
+      [
+        "ALifeCaptivesData.lua:264",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "105": [
+      "IGUI_ALifeUI_4c3379c10c2d1639",
+      "Needs trust",
+      [
+        "ALifeCaptivesData.lua:264",
+        "risk",
+        "ALT NOT (risk)"
+      ]
+    ],
+    "106": [
+      "IGUI_ALifeUI_175d35b30bbc7af8",
+      "This ends here",
+      [
+        "ALifeCaptivesData.lua:265",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "107": [
+      "IGUI_ALifeUI_1d53d4d26c798d03",
+      "You kill a prisoner",
+      [
+        "ALifeCaptivesData.lua:266",
+        "impact",
+        "ALT NOT (sonuç)"
+      ]
+    ],
+    "108": [
+      "IGUI_ALifeUI_713b0ca34bb459e0",
+      "Everyone who hears it remembers",
+      [
+        "ALifeCaptivesData.lua:266",
+        "risk",
+        "ALT NOT (risk)"
+      ]
+    ],
+    "109": [
+      "IGUI_ALifeUI_4e5f0234590a1e5c",
+      "You look like you lost something",
+      [
+        "ALifeMissionDefs.lua:23",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "110": [
+      "IGUI_ALifeUI_50cc1da007ba84c8",
+      "Ask what happened to him",
+      [
+        "ALifeMissionDefs.lua:24",
+        "tip",
+        "ALT NOT (ipucu)"
+      ]
+    ],
+    "111": [
+      "IGUI_ALifeUI_7f413f256028a41c",
+      "Why not go back for it yourself?",
+      [
+        "ALifeMissionDefs.lua:25",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "112": [
+      "IGUI_ALifeUI_5132d79c45dc2958",
+      "Ask why he won't go himself",
+      [
+        "ALifeMissionDefs.lua:26",
+        "tip",
+        "ALT NOT (ipucu)"
+      ]
+    ],
+    "113": [
+      "IGUI_ALifeUI_70c543cd2371a273",
+      "What's in it for me?",
+      [
+        "ALifeMissionDefs.lua:27",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "114": [
+      "IGUI_ALifeUI_63e7c56b2e0a100e",
+      "Ask what he can pay",
+      [
+        "ALifeMissionDefs.lua:28",
+        "tip",
+        "ALT NOT (ipucu)"
+      ]
+    ],
+    "115": [
+      "IGUI_ALifeUI_5b3e4eca034fb27a",
+      "Alright. I'll get your bags back",
+      [
+        "ALifeMissionDefs.lua:29",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "116": [
+      "IGUI_ALifeUI_3854744019e64456",
+      "Starts the task Left Behind",
+      [
+        "ALifeMissionDefs.lua:30",
+        "tip",
+        "ALT NOT (ipucu)"
+      ]
+    ],
+    "117": [
+      "IGUI_ALifeUI_0c0cd67b26c2ab7e",
+      "Turn him down. You can change your mind later",
+      [
+        "ALifeMissionDefs.lua:32",
+        "tip",
+        "ALT NOT (ipucu)"
+      ]
+    ],
+    "118": [
+      "IGUI_ALifeUI_75b4c5320f096543",
+      "About those bags of yours...",
+      [
+        "ALifeMissionDefs.lua:33",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "119": [
+      "IGUI_ALifeUI_1bcd1ea57284ba9e",
+      "Ask about the job again",
+      [
+        "ALifeMissionDefs.lua:34",
+        "tip",
+        "ALT NOT (ipucu)"
+      ]
+    ],
+    "120": [
+      "IGUI_ALifeUI_4fa0d7636ae39969",
+      "Where was that place again?",
+      [
+        "ALifeMissionDefs.lua:35",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "121": [
+      "IGUI_ALifeUI_52baf58e3c6ade2f",
+      "He points you to it",
+      [
+        "ALifeMissionDefs.lua:36",
+        "tip",
+        "ALT NOT (ipucu)"
+      ]
+    ],
+    "122": [
+      "IGUI_ALifeUI_7f77a53e1fe62512",
+      "Here. Your bag",
+      [
+        "ALifeMissionDefs.lua:37",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "123": [
+      "IGUI_ALifeUI_7614a5946f05a0eb",
+      "Give Dell his bag and finish the task",
+      [
+        "ALifeMissionDefs.lua:38",
+        "tip",
+        "ALT NOT (ipucu)"
+      ]
+    ],
+    "124": [
+      "IGUI_ALifeUI_64c890d30dac702f",
+      "Six Mile took it. I'm sorry",
+      [
+        "ALifeMissionDefs.lua:39",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "125": [
+      "IGUI_ALifeUI_511bca620289c48e",
+      "Tell him what happened",
+      [
+        "ALifeMissionDefs.lua:40",
+        "tip",
+        "ALT NOT (ipucu)"
+      ]
+    ],
+    "126": [
+      "IGUI_ALifeUI_05aef045101d038b",
+      "Gives the task up",
+      [
+        "ALifeMissionDefs.lua:42",
+        "tip",
+        "ALT NOT (ipucu)"
+      ]
+    ],
+    "127": [
+      "IGUI_ALifeUI_78a107ed1b6d78a4",
+      "How are you holding up, Dell?",
+      [
+        "ALifeMissionDefs.lua:43",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "128": [
+      "IGUI_ALifeUI_449ed3e53eff4022",
+      "Just talk",
+      [
+        "ALifeMissionDefs.lua:44",
+        "tip",
+        "ALT NOT (ipucu)"
+      ]
+    ],
+    "129": [
+      "IGUI_ALifeUI_4741dff81d48ccff",
+      "Alright. Take it. I'm walking",
+      [
+        "ALifeMissionDefs.lua:45",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "130": [
+      "IGUI_ALifeUI_1e42efeb651e38e9",
+      "Hand the bag over and walk away alive",
+      [
+        "ALifeMissionDefs.lua:46",
+        "tip",
+        "ALT NOT (ipucu)"
+      ]
+    ],
+    "131": [
+      "IGUI_ALifeUI_5a398ef90f7fd721",
+      "Dell's whole crew is on the roof, Wade",
+      [
+        "ALifeMissionDefs.lua:48",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "132": [
+      "IGUI_ALifeUI_3c3154e54a7f0ee0",
+      "Bluff. Better odds with a gun, armour and a good name",
+      [
+        "ALifeMissionDefs.lua:48",
+        "tip",
+        "ALT NOT (ipucu)"
+      ]
+    ],
+    "133": [
+      "IGUI_ALifeUI_634f795074905ffd",
+      "There's enough in here for both of us",
+      [
+        "ALifeMissionDefs.lua:49",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "134": [
+      "IGUI_ALifeUI_503ef4aa0ab48ce3",
+      "Give them half of what is in the bag",
+      [
+        "ALifeMissionDefs.lua:50",
+        "tip",
+        "ALT NOT (ipucu)"
+      ]
+    ],
+    "135": [
+      "IGUI_ALifeUI_7bb28f19374f418b",
+      "How'd you even know I'd be here?",
+      [
+        "ALifeMissionDefs.lua:51",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "136": [
+      "IGUI_ALifeUI_232f7e7153d676c6",
+      "Ask him",
+      [
+        "ALifeMissionDefs.lua:52",
+        "tip",
+        "ALT NOT (ipucu)"
+      ]
+    ],
+    "137": [
+      "IGUI_ALifeUI_01690b984e905fb1",
+      "Not a chance, Wade",
+      [
+        "ALifeMissionDefs.lua:53",
+        "text",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "138": [
+      "IGUI_ALifeUI_79c1c4f037bb446a",
+      "Refuse. They will open fire",
+      [
+        "ALifeMissionDefs.lua:54",
+        "tip",
+        "ALT NOT (ipucu)"
+      ]
+    ],
+    "139": [
+      "IGUI_ALifeUI_31bcd02b4d4c849b",
+      "Why do you need me",
+      [
+        "ALifeEndingCallData.lua:201",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "140": [
+      "IGUI_ALifeUI_1b526ea242867dbc",
+      "I don't trust you",
+      [
+        "ALifeEndingCallData.lua:202",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "141": [
+      "IGUI_ALifeUI_4ab8b87a6dfc4f3b",
+      "Understood, go on",
+      [
+        "ALifeEndingCallData.lua:257",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "142": [
+      "IGUI_ALifeUI_51c172ff578ea1cb",
+      "Then why use it",
+      [
+        "ALifeEndingCallData.lua:258",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "143": [
+      "IGUI_ALifeUI_297f02152092b271",
+      "I'll be there",
+      [
+        "ALifeEndingCallData.lua:294",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "144": [
+      "IGUI_ALifeUI_50e2284e2dec3f71",
+      "Command knows me, I'll be on that roof",
+      [
+        "ALifeEndingCallData.lua:295",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "145": [
+      "IGUI_ALifeUI_3290d94974f3ec7f",
+      "I know that tower, I'll be on that roof",
+      [
+        "ALifeEndingCallData.lua:296",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "146": [
+      "IGUI_ALifeUI_4e7e72313acae719",
+      "I'll think about it",
+      [
+        "ALifeEndingCallData.lua:297",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "147": [
+      "IGUI_ALifeUI_4d1d401b331468c8",
+      "What's in it for me",
+      [
+        "ALifeEndingCallData.lua:298",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "148": [
+      "IGUI_ALifeUI_4e3ca12c0b98c35b",
+      "Fuck you military scum",
+      [
+        "ALifeEndingCallData.lua:165",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "149": [
+      "IGUI_ALifeUI_3fceca07297c0c50",
+      "Who is that officer",
+      [
+        "ALifeEndingCallData.lua:213",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "150": [
+      "IGUI_ALifeUI_229874d37020d449",
+      "Click off",
+      [
+        "ALifeEndingCallData.lua:214",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "151": [
+      "IGUI_ALifeUI_77afff30262a0610",
+      "Then I'll be there",
+      [
+        "ALifeEndingCallData.lua:390",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "152": [
+      "IGUI_ALifeUI_6a95bf3643980cad",
+      "That sounds like a trap",
+      [
+        "ALifeEndingCallData.lua:391",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "153": [
+      "IGUI_ALifeUI_745fdf651ea5358e",
+      "Let me think again",
+      [
+        "ALifeEndingCallData.lua:392",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "154": [
+      "IGUI_ALifeUI_52a2f29f785ad5a3",
+      "All right, I'll be there",
+      [
+        "ALifeEndingCallData.lua:377",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "155": [
+      "IGUI_ALifeUI_4963ab951ebac5d3",
+      "Why are you so desperate",
+      [
+        "ALifeEndingCallData.lua:378",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "156": [
+      "IGUI_ALifeUI_78c81e1926cf4be6",
+      "Give me until midnight",
+      [
+        "ALifeEndingCallData.lua:379",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "157": [
+      "IGUI_ALifeUI_5d9ae57049c8fe25",
+      "No, take me off your list",
+      [
+        "ALifeEndingCallData.lua:380",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "158": [
+      "IGUI_ALifeUI_33e854496aae21a8",
+      "Fine, I take it back",
+      [
+        "ALifeEndingCallData.lua:516",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "159": [
+      "IGUI_ALifeUI_12fc16af7170a925",
+      "Come near me and I'll shoot",
+      [
+        "ALifeEndingCallData.lua:517",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "160": [
+      "IGUI_ALifeUI_4e5d95c40236d54d",
+      "You heard me, military scum",
+      [
+        "ALifeEndingCallData.lua:501",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "161": [
+      "IGUI_ALifeUI_2989c7c87ad2e9c9",
+      "Forget it, I was angry",
+      [
+        "ALifeEndingCallData.lua:502",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "162": [
+      "IGUI_ALifeUI_539397650b1d9871",
+      "Say it louder, let Knox hear",
+      [
+        "ALifeEndingCallData.lua:503",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "163": [
+      "IGUI_ALifeUI_09eee55f46d9c512",
+      "Send your bird, I'll wait with a rifle",
+      [
+        "ALifeEndingCallData.lua:504",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "164": [
+      "IGUI_ALifeUI_1e2ae5052d72c4a1",
+      "Say that again",
+      [
+        "ALifeEndingCallData.lua:490",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "165": [
+      "IGUI_ALifeUI_737073274662136e",
+      "Still no",
+      [
+        "ALifeEndingCallData.lua:403",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "166": [
+      "IGUI_ALifeUI_5ec3b8fd42a6d6f0",
+      "I'm sure, forget me",
+      [
+        "ALifeEndingCallData.lua:475",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "167": [
+      "IGUI_ALifeUI_5a6cc4f44c3b3e2d",
+      "Why me",
+      [
+        "ALifeEndingCallData.lua:476",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "168": [
+      "IGUI_ALifeUI_1c4c1504302c4946",
+      "Wait, I'll come",
+      [
+        "ALifeEndingCallData.lua:477",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "169": [
+      "IGUI_ALifeUI_5fb9f97306995af2",
+      "Not good enough",
+      [
+        "ALifeEndingCallData.lua:190",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "170": [
+      "IGUI_ALifeUI_6c61c3504e3df793",
+      "Can my people come",
+      [
+        "ALifeEndingCallData.lua:415",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "171": [
+      "IGUI_ALifeUI_26c6eded3f219dea",
+      "What do you offer",
+      [
+        "ALifeEndingCallData.lua:416",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "172": [
+      "IGUI_ALifeUI_440af6557a2f51a8",
+      "What about Knox and the quarantine",
+      [
+        "ALifeEndingCallData.lua:417",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "173": [
+      "IGUI_ALifeUI_635831f10ac2e2ba",
+      "Who are you really",
+      [
+        "ALifeEndingCallData.lua:418",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "174": [
+      "IGUI_ALifeUI_79b07344500348dc",
+      "All right, I've heard enough",
+      [
+        "ALifeEndingCallData.lua:419",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "175": [
+      "IGUI_ALifeUI_0d3b800d6baeb7a0",
+      "I see",
+      [
+        "ALifeEndingCallData.lua:442",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "176": [
+      "IGUI_ALifeUI_0d41413a5313870f",
+      "Go on",
+      [
+        "ALifeEndingCallData.lua:246",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "177": [
+      "IGUI_ALifeUI_2c35ef31382504c1",
+      "Sorry to hear it",
+      [
+        "ALifeEndingCallData.lua:452",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "178": [
+      "IGUI_ALifeUI_01589a65339d2399",
+      "Fair, I'll be there",
+      [
+        "ALifeEndingCallData.lua:402",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "179": [
+      "IGUI_ALifeUI_6eb978b4246c9f85",
+      "Who is asking",
+      [
+        "ALifeEndingCallData.lua:164",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "180": [
+      "IGUI_ALifeUI_1f4d833800585e94",
+      "Say nothing, listen",
+      [
+        "ALifeEndingCallData.lua:166",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "181": [
+      "IGUI_ALifeUI_5d610f74734db721",
+      "I'll clear it myself",
+      [
+        "ALifeEndingCallData.lua:334",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "182": [
+      "IGUI_ALifeUI_6781afec03cffd09",
+      "Then give me cover from the air",
+      [
+        "ALifeEndingCallData.lua:335",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "183": [
+      "IGUI_ALifeUI_22d39e413f7a7141",
+      "Too hot for me",
+      [
+        "ALifeEndingCallData.lua:336",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "184": [
+      "IGUI_ALifeUI_151a932026af83f4",
+      "Fine, back to it",
+      [
+        "ALifeEndingCallData.lua:268",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "185": [
+      "IGUI_ALifeUI_28938113765093c3",
+      "Go ahead, I'm listening",
+      [
+        "ALifeEndingCallData.lua:230",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "186": [
+      "IGUI_ALifeUI_7be8dd943aa64d1e",
+      "How did you find me",
+      [
+        "ALifeEndingCallData.lua:231",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "187": [
+      "IGUI_ALifeUI_124991ec52f3bd45",
+      "Open channel? Who else hears this",
+      [
+        "ALifeEndingCallData.lua:232",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "188": [
+      "IGUI_ALifeUI_6bceba123c9567cc",
+      "I'm not alone out here",
+      [
+        "ALifeEndingCallData.lua:233",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "189": [
+      "IGUI_ALifeUI_316eddb97a728c84",
+      "Then we all stay",
+      [
+        "ALifeEndingCallData.lua:358",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "190": [
+      "IGUI_ALifeUI_1c4b529b11d76dcf",
+      "Two seats or no deal",
+      [
+        "ALifeEndingCallData.lua:359",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "191": [
+      "IGUI_ALifeUI_13f19c7c3e4a503e",
+      "I'll come alone then",
+      [
+        "ALifeEndingCallData.lua:360",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "192": [
+      "IGUI_ALifeUI_18c83e5444719aab",
+      "Ask command, they will find room",
+      [
+        "ALifeEndingCallData.lua:361",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "193": [
+      "IGUI_ALifeUI_6a6604f671bb9d3f",
+      "Put your officer on",
+      [
+        "ALifeEndingCallData.lua:177",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "194": [
+      "IGUI_ALifeUI_640948a57292f05e",
+      "Prove you are military",
+      [
+        "ALifeEndingCallData.lua:178",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "195": [
+      "IGUI_ALifeUI_02b440e41601e975",
+      "Forget it",
+      [
+        "ALifeEndingCallData.lua:179",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "196": [
+      "IGUI_ALifeUI_79baa4a01662f5f8",
+      "Fair enough",
+      [
+        "ALifeEndingCallData.lua:346",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "197": [
+      "IGUI_ALifeUI_04f5773833c9d8eb",
+      "Thirty minutes is nothing, give me longer",
+      [
+        "ALifeEndingCallData.lua:347",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "198": [
+      "IGUI_ALifeUI_5ba4015774af2905",
+      "Then I'm not coming",
+      [
+        "ALifeEndingCallData.lua:348",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "199": [
+      "IGUI_ALifeUI_359628110e2ae7f6",
+      "Got it",
+      [
+        "ALifeEndingCallData.lua:323",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "200": [
+      "IGUI_ALifeUI_69263ba92930d77a",
+      "Will the tower be clear",
+      [
+        "ALifeEndingCallData.lua:324",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "201": [
+      "IGUI_ALifeUI_295919327d0f49b1",
+      "I'll be ready",
+      [
+        "ALifeEndingCallData.lua:310",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "202": [
+      "IGUI_ALifeUI_1bb7ac3112d23d42",
+      "What should I bring",
+      [
+        "ALifeEndingCallData.lua:311",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "203": [
+      "IGUI_ALifeUI_2b4af9d23cab49f6",
+      "And if I'm late",
+      [
+        "ALifeEndingCallData.lua:312",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "204": [
+      "IGUI_ALifeUI_15f0e8a439adc4f7",
+      "My people come too",
+      [
+        "ALifeEndingCallData.lua:313",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "205": [
+      "IGUI_ALifeUI_50997674634a0cc2",
+      "Say it",
+      [
+        "ALifeEndingCallData.lua:278",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "206": [
+      "IGUI_ALifeUI_0050ffab2dbe35be",
+      "So tell me survivor, do you regret anything",
+      [
+        "ALifeEndingData.lua:248",
+        "ask",
+        "NPC (soru)"
+      ]
+    ],
+    "207": [
+      "IGUI_ALifeUI_328a0af67f61c318",
+      "Everyone I couldn't save",
+      [
+        "ALifeEndingData.lua:251",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "208": [
+      "IGUI_ALifeUI_6ef507cd322068e9",
+      "Not one damn thing",
+      [
+        "ALifeEndingData.lua:252",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "209": [
+      "IGUI_ALifeUI_173ad21257aed86f",
+      "Trusting the wrong people",
+      [
+        "ALifeEndingData.lua:253",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "210": [
+      "IGUI_ALifeUI_25a9b3a75d9053ba",
+      "Staying as long as I did",
+      [
+        "ALifeEndingData.lua:254",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "211": [
+      "IGUI_ALifeUI_593e814f0be28a88",
+      "Anything you're gonna miss down there",
+      [
+        "ALifeEndingData.lua:260",
+        "ask",
+        "NPC (soru)"
+      ]
+    ],
+    "212": [
+      "IGUI_ALifeUI_7bbeecbe0d971227",
+      "The quiet mornings",
+      [
+        "ALifeEndingData.lua:263",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "213": [
+      "IGUI_ALifeUI_5d3da49a7087a6e5",
+      "The people I buried",
+      [
+        "ALifeEndingData.lua:264",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "214": [
+      "IGUI_ALifeUI_21ef15e70b125b0f",
+      "Nothing, let it burn",
+      [
+        "ALifeEndingData.lua:265",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "215": [
+      "IGUI_ALifeUI_5d54fc411333595a",
+      "A hot meal and a real bed",
+      [
+        "ALifeEndingData.lua:266",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "216": [
+      "IGUI_ALifeUI_6a97deda1bdab164",
+      "Last one, was it worth it",
+      [
+        "ALifeEndingData.lua:272",
+        "ask",
+        "NPC (soru)"
+      ]
+    ],
+    "217": [
+      "IGUI_ALifeUI_4e644fce58f794f2",
+      "Every second",
+      [
+        "ALifeEndingData.lua:275",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "218": [
+      "IGUI_ALifeUI_6cccb2c150544e0b",
+      "Ask me when we land",
+      [
+        "ALifeEndingData.lua:276",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ],
+    "219": [
+      "IGUI_ALifeUI_28c851180926dbbb",
+      "Ask the ones who stayed",
+      [
+        "ALifeEndingData.lua:277",
+        "label",
+        "OYUNCU SEÇENEĞİ"
+      ]
+    ]
+  }
+}

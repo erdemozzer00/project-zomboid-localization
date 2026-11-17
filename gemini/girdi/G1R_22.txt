@@ -1,0 +1,353 @@
+# PAKET G1R · parça 22/35 · satır 7411-7754 (344 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar oyunda şu an skill'den önceki eski bir çeviriyle görünüyor; sıfırdan, İngilizceden kur. Her başlığın altındaki 'NEREDE:' oyuncunun bu sözle nasıl karşılaştığını, '#' notu sahneyi anlatır. Önce bunları oku, satırı o anda o yerde duyulacak sözle yaz.
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+##### PASSING_NPC_GREET #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Yoldan geçerken başka bir NPC'yi ya da grubu selamlıyor; oyuncu kenardan duyar.
+7411 | reg=civilian|tmp=fresh|hour=4,9 | I've been walking since dawn, my feet are killing me
+7412 | reg=civilian|tmp=fresh|world=door | We tried the church, it's locked, they won't open the door
+7413 | reg=civilian|tmp=fresh|sex=f | My husband's still out there, I'm looking for him, have you seen a gray work shirt?
+7414 | reg=civilian|tmp=seasoned|world=road | Road's quiet, so go on through, it's clean
+7415 | reg=civilian|tmp=seasoned | You see anything I should know? No? Good
+7416 | reg=civilian|tmp=seasoned | Found a can of peaches yesterday, felt like Christmas
+7417 | reg=civilian|tmp=seasoned | Didn't see you, you didn't see me, fine by me
+7418 | reg=civilian|tmp=seasoned | Dogs have gotten bold around here, just so you know
+7419 | reg=civilian|tmp=seasoned | I check every house on this side, nothing left, don't waste your time
+7420 | reg=civilian|tmp=seasoned | Don't bother with the gas station, I got there first
+7421 | reg=civilian|tmp=seasoned | Seen the old man in the yellow house? He stopped waving
+7422 | reg=civilian|tmp=seasoned | Any of you handy with a rifle? Just asking
+7423 | reg=civilian|tmp=seasoned | Safe to talk? Okay, then, how's the east side?
+7424 | reg=civilian|tmp=seasoned | You hear anything good? Anything? I'll take a rumor
+7425 | reg=civilian|tmp=seasoned | I've got a place on the hill, it's quiet, if you need to know
+7426 | reg=civilian|tmp=seasoned | Don't trust anybody who's too friendly, present company excepted
+7427 | reg=civilian|tmp=seasoned | I keep a count of the ones I put down, I'm at fourteen, you?
+7428 | reg=civilian|tmp=seasoned | I'd walk around the next block, there's a pack of dogs by the school
+7429 | reg=civilian|tmp=seasoned | Found a stream out back of the lot, it's clean, as far as I can tell
+7430 | reg=civilian|tmp=seasoned | Trade you a pack of batteries for something with caffeine
+7431 | reg=civilian|tmp=seasoned | You'd be amazed what people leave in their glove boxes
+7432 | reg=civilian|tmp=seasoned | There's a church that still takes people in, if you need it
+7433 | reg=civilian|tmp=seasoned | I counted seven bodies on Elm, and I'm not going back
+7434 | reg=civilian|tmp=seasoned | Last guy I talked to wanted my shoes, so, forgive me if I'm tense
+7435 | reg=civilian|tmp=seasoned | Don't wave, they notice waving
+7436 | reg=civilian|tmp=seasoned | You can pass, but shh, I'm trying to hear
+7437 | reg=civilian|tmp=seasoned | You wouldn't happen to have a lighter? I'd trade a can of corn
+7438 | reg=civilian|tmp=seasoned | Lost my map in the creek, so, I'm walking by feel
+7439 | reg=civilian|tmp=seasoned | You carrying much? I used to carry thirty pounds, now it's twelve
+7440 | reg=civilian|tmp=seasoned | I don't talk much, but I'm listening
+7441 | reg=civilian|tmp=seasoned | Trade you a can of green beans for a clean sock
+7442 | reg=civilian|tmp=seasoned | You know how to gut a squirrel? I'm learning, it's not pretty
+7443 | reg=civilian|tmp=seasoned | Don't whistle out here, it carries
+7444 | reg=civilian|tmp=seasoned | If you hear a bell, that's the church, not the dead, probably
+7445 | reg=civilian|tmp=seasoned|world=door | Little place on Pine, door's open, nobody's home, have at it
+7446 | reg=civilian|tmp=seasoned|world=door | Know anywhere I can sleep without a door? It's a long story
+7447 | reg=civilian|day=0,4 | Did you hear? It's on the radio, it's everywhere
+7448 | reg=civilian|day=0,4 | Is it true about the bridge? That they closed the bridge?
+7449 | reg=civilian|day=0,4 | Stay away from Main, it's bad, there's people just- attacking people
+7450 | reg=civilian|day=0,4 | Hey! Are you bit? Is anybody bit? Let me see!
+7451 | reg=civilian|day=0,4 | Where are you headed? We're going to the school, they said buses
+7452 | reg=civilian|day=0,4 | Don't go home, whatever you do, don't go home
+7453 | reg=civilian|day=0,4 | My neighbor tried to eat his wife, I'm not kidding, I saw it
+7454 | reg=civilian|day=0,4 | I called the county office and just got a busy signal
+7455 | reg=civilian|day=0,4 | Have you got any news? Anything? Anything?
+7456 | reg=civilian|day=0,4 | They said it's rabies, but I don't believe it, do you?
+7457 | reg=civilian|day=0,4 | Everybody's running, where is everybody running to?
+7458 | reg=civilian|day=0,4 | They're saying stay inside, but inside isn't safe either
+7459 | reg=civilian|day=0,4 | Did you see the helicopters? The Army's coming, right? Right?
+7460 | reg=civilian|day=0,4 | It's like a movie, but it's not, God, it's not
+7461 | reg=family | Keep up... say hello then we're moving
+7462 | reg=family | Hello, neighbor, everything alright at your house?
+7463 | reg=family | Y'all need anything? We've got extra beans, not much else
+7464 | reg=family | We've got a pot of soup going back home, if you pass by
+7465 | reg=family | Hello... sorry we're a little on edge today
+7466 | reg=family | Hi there, don't mind the baby, she's fussy
+7467 | reg=family | We heard a noise from your house yesterday, you okay?
+7468 | reg=family | We're all fine, thanks, just a little hungry
+7469 | reg=family | Hi, have you seen a station wagon with a dent? My brother's driving it
+7470 | reg=family | Are y'all going to the church? We heard there's food
+7471 | reg=family | Do you need to borrow a hammer? We've got extra
+7472 | reg=family | Papaw says hi, he doesn't say much else anymore
+7473 | reg=family | It's good to see another family, honestly
+7474 | reg=family | It's good to see somebody else... even if you can't stay
+7475 | reg=family | Don't wander off... stay where I can see you
+7476 | reg=family | You folks look tired, sit a while if you want
+7477 | reg=family | We're headed to my mother's, she's in Rosewood, any idea if it's safe?
+7478 | reg=family | Easy... we're all a little jumpy
+7479 | reg=family | How's your mama and them? I was thinking about her the other day
+7480 | reg=family | We've got two spare blankets, if you need
+7481 | reg=family | Did you hear anything about the school? My boy's teacher is there
+7482 | reg=family | You've got a good-looking family, God bless 'em
+7483 | reg=family | Our dog's missing, answers to Biscuit, hasn't been home since Friday
+7484 | reg=family | Sorry for staring, we haven't seen a family in days
+7485 | reg=family | Good to see you... it's been a lonely walk
+7486 | reg=family | We've got a pot of beans going, plenty if you're hungry
+7487 | reg=family | Hi, we're the Parkers, out on Ridge Road
+7488 | reg=family | We were at the church, but it's full, so we're heading to my sister's
+7489 | reg=family | Mind the little one, he runs toward everything
+7490 | reg=family | Any word on the school? My daughter's teacher is there, I think
+7491 | reg=family | Our truck's out of gas, so, we're walking, don't ask
+7492 | reg=family | We're a big family, it's loud, don't mind us
+7493 | reg=family | Anybody seen a boy in a Wildcats shirt? He's ten, he wanders off
+7494 | reg=family | Do you need a place to sleep? We've got a floor, it's not much
+7495 | reg=family | Just wave... slowly let them see your hands
+7496 | reg=family | We heard shots by the water tower, so we're going around
+7497 | reg=family | We brought a wagon, it's slow, but it carries the baby
+7498 | reg=family | That's a nice dog, ours ran off, Friday
+7499 | reg=family | Papaw's tired, so we're resting here, if you don't mind
+7500 | reg=family | We left the house on Tuesday, and it's the saddest thing I've ever done
+7501 | reg=family | I'm glad you aren't alone... looking out for each other matters
+7502 | reg=family | Stay together... we're moving on
+7503 | reg=family | Y'all got room in that wagon? Our baby's tired
+7504 | reg=family | Say hi, sweetie, they're nice, they're not scary
+7505 | reg=family | You're going the same way we are, mind if we follow?
+7506 | reg=family | Do you know a place with a bathroom? Don't laugh, a real one
+7507 | reg=family | Our dog's friendly, he just smells bad, sorry
+7508 | reg=family | Hello everybody... I hope you're holding up
+7509 | reg=family | We'd stop and chat, but the baby needs changing, goodbye
+7510 | reg=family | Good to see folks sticking together, it makes me hopeful
+7511 | reg=family | We're staying at the Lutheran church, if you need a place
+7512 | reg=family | Yes, the red wagon's ours, no, it's not for sale
+7513 | reg=family | We're the Tanners, from out on Hardin Springs Road, did you know the Tanners?
+7514 | reg=family | Do you have any extra shoes? The little one's grown out of everything
+7515 | reg=family | We just had a birthday, can you believe it? Seven years old
+7516 | reg=family | Can you spare a match? We're trying to get a fire going, and it's damp
+7517 | reg=family | I miss Sunday dinners, you know, the whole table full
+7518 | reg=family | Anybody seen a cat? Gray, missing an ear, answers to Pickle
+7519 | reg=family | My son wants to know if you're a soldier, I told him no
+7520 | reg=family | My mother-in-law says hello, she says it's the end times, I say it's Tuesday
+7521 | reg=family | The baby's first word was 'dog', so, that's something good
+7522 | reg=family | Papaw taught the boys to fish, and now it's the only skill that matters
+7523 | reg=family | Are you headed to the Baptist church? We heard there's a kitchen
+7524 | reg=family|world=road | Hi, we're the Whitakers, from down the road, you probably remember us
+7525 | reg=family|mood=warm | Look... somebody else made it out
+7526 | reg=family|mood=sad | Hi, we're just walking, we lost the house...
+7527 | reg=family|mood=fear | Please be friendly... please we've had enough
+7528 | reg=family|mood=funny | I've started giving strangers nicknames... helps me remember who's who
+7529 | reg=family|mood=angry | If you've got a problem with the baby crying, say it now
+7530 | reg=family|st=careful | We're just passing... we don't want trouble
+7531 | reg=family|st=careful | Easy, nobody here's looking for a fight
+7532 | reg=family|st=careful | Just walking through, don't mind us
+7533 | reg=family|st=hostile | We've got nothing for you
+7534 | role=family_elder | Hon, is that your boy? He's gotten so tall
+7535 | role=family_elder | How's your mama? I haven't seen her since the church potluck
+7536 | role=family_elder | Lord, it's good to see a face I know
+7537 | role=family_elder | Mind the dogs, they don't like strangers anymore
+7538 | role=family_elder | I've been telling these young ones to stay close, they don't listen
+7539 | role=family_elder | My knees can't make the hill, so I'll wave from here
+7540 | role=family_elder | Come by for coffee when this is over, if I'm still alive
+7541 | role=family_elder | The Lord look after you and yours, whoever you are
+7542 | role=family_elder | Dear, you walk fine for somebody your age
+7543 | role=family_elder | I've seen a lot of folks pass by, and I've said a prayer for every one
+7544 | role=family_elder | My legs aren't what they were, so, I'll wave from the chair
+7545 | role=family_youth | Hey, you guys from school? No? Sorry
+7546 | role=family_youth | Whoa, hi, do you guys have any cigarettes?
+7547 | role=family_youth | This is so messed up, right? You guys okay?
+7548 | role=family_youth | My little brother's with me, he's seven, he thinks it's a game
+7549 | role=family_youth | Dude, did you see the guy back there? Dude
+7550 | role=family_youth | Hey, you heading to the lake? Kidding, kidding
+7551 | role=family_youth | Hey, you guys wouldn't happen to have a Pepsi, would you? No? Worth a shot
+7552 | role=family_youth | Do you guys know if there's anyone my age out here?
+7553 | role=family_youth | My brother and I are playing 'spot the dead guy', don't tell Mom
+7554 | role=family_man | Excuse us, we're trying to get the family somewhere with a bed
+7555 | role=family_man | I'm Tom, we're staying at the Hendersons', come by if you're low
+7556 | role=family_man|world=road | Any idea if the road's open to Brandenburg?
+7557 | role=family_woman | Hi, I don't mean to bother you, but do you know where the clinic is?
+7558 | role=family_woman | Have you got any formula? I'm sorry to ask, I've got a baby
+7559 | role=family_woman | My husband's right behind me, he's got the wagon
+7560 | reg=civilian,family,worker,rescue|hour=5,10 | Morning, you sleep at all?
+7561 | reg=civilian,family,worker,rescue|hour=5,10 | Mornin', you look half dead, same as me
+7562 | reg=civilian,family,worker,rescue|hour=5,10 | Early start, huh?
+7563 | reg=civilian,family,worker,rescue|hour=5,10 | Morning, got any coffee? No? Same
+7564 | reg=civilian,family,worker,rescue|hour=5,10 | Sun's up, let's get moving
+7565 | reg=civilian,family,worker,rescue|hour=5,10 | Morning, did you hear anything overnight?
+7566 | reg=civilian,family,worker,rescue|hour=5,10 | Hey, morning. How's your mama and them?
+7567 | reg=civilian,family,worker,rescue|hour=5,10 | Morning, you headed to the church? They've got oatmeal
+7568 | reg=civilian,family,worker,rescue|hour=5,10 | Hello, good morning, what's left of it
+7569 | reg=civilian,family,worker,rescue|hour=5,10 | Rise and shine, ha, I never could say that with a straight face
+7570 | reg=civilian,family,worker,rescue|tmp=fresh|hour=5,10 | Morning, we made it through another night, thank God
+7571 | reg=civilian,family,worker,rescue|tmp=fresh|hour=5,10 | Hi, good morning, is it still bad out there?
+7572 | reg=civilian,family,worker,rescue|tmp=seasoned|hour=5,10 | Morning, same as yesterday, I take it?
+7573 | reg=civilian,family,worker,rescue|tmp=seasoned|hour=5,10 | Morning, I'd say have a good one, but you know
+7574 | reg=civilian,family,worker,rescue|hour=11,13 | Hey, noon already? Where's the day go
+7575 | reg=civilian,family,worker,rescue|hour=11,13 | You folks eaten? We've got some crackers
+7576 | reg=civilian,family,worker,rescue|hour=11,13 | Midday, if you're looking for shade, there's a porch up there
+7577 | reg=civilian,family,worker,rescue|hour=11,13 | Lunch? Ha, there's no lunch, there's just crackers
+7578 | reg=civilian,family,worker,rescue|hour=11,13 | Hot sun and no water, that's a day for you, hello
+7579 | reg=civilian,family,worker,rescue|hour=13,17 | Afternoon, you headed home?
+7580 | reg=civilian,family,worker,rescue|hour=13,17 | Long day, huh? Sit down if you can
+7581 | reg=civilian,family,worker,rescue|hour=13,17 | Afternoon, anything new?
+7582 | reg=civilian,family,worker,rescue|hour=13,17 | Afternoon, better find a place before dark
+7583 | reg=civilian,family,worker,rescue|hour=13,17 | Afternoon, you folks need anything? We've got a little
+7584 | reg=civilian,family,worker,rescue|hour=13,17 | Afternoon, don't mind the dogs, they just want company
+7585 | reg=civilian,family,worker,rescue|tmp=fresh|hour=13,17 | Oh, afternoon, hi, I didn't see you there, sorry
+7586 | reg=civilian,family,worker,rescue|hour=17,20 | Evening, you got somewhere to sleep?
+7587 | reg=civilian,family,worker,rescue|hour=17,20 | Getting dark, find a place, we're going in
+7588 | reg=civilian,family,worker,rescue|hour=17,20 | Evening, you look tired, go rest
+7589 | reg=civilian,family,worker,rescue|hour=17,20 | Supper's cold beans again, join us if you want
+7590 | reg=civilian,family,worker,rescue|hour=17,20 | Hey, evening, we're going to the church for the night, you coming?
+7591 | reg=civilian,family,worker,rescue|hour=17,20 | Sun's going down, you don't want to be out here
+7592 | reg=civilian,family,worker,rescue|hour=17,20 | Sun's low, we've got to find a place, any place
+7593 | reg=civilian,family,worker,rescue|hour=17,20 | Dusk is when they get restless, I read that somewhere
+7594 | reg=civilian,family,worker,rescue|hour=17,20|world=road | Evening, folks, careful on the road, it's almost dark
+7595 | reg=civilian,family,worker,rescue|hour=21,4 | Shh, quiet, they hear everything at night
+7596 | reg=civilian,family,worker,rescue|hour=21,4 | Who's there? Oh, it's just you, hi
+7597 | reg=civilian,family,worker,rescue|hour=21,4 | Can't sleep either? Same
+7598 | reg=civilian,family,worker,rescue|hour=21,4 | Keep it low, I can't see anything out here
+7599 | reg=civilian,family,worker,rescue|hour=21,4 | Hey, got a light? Not a flashlight, I mean for a cigarette
+7600 | reg=civilian,family,worker,rescue|hour=21,4 | Moon's bright, so keep to the shadows
+7601 | reg=civilian,family,worker,rescue|hour=21,4 | Don't use a lantern, they see it for miles
+7602 | reg=civilian,family,worker,rescue|hour=21,4 | The stars are out so thick now, with no lights
+7603 | reg=civilian,family,worker,rescue|hour=21,4 | The dark's got a sound if you listen, and not a nice one
+7604 | reg=civilian,family,worker,rescue|tmp=seasoned|hour=21,4 | Late for a stroll, ain't it? Sleep when you can
+7605 | reg=civilian,family,worker,rescue|tmp=seasoned|hour=21,4 | Night's the worst, so, good luck
+7606 | reg=civilian,family,worker,rescue|world=hot | It's so damn hot, I think I'm melting
+7607 | reg=civilian,family,worker,rescue|world=hot | You got any water? Warm's fine, I'm dying
+7608 | reg=civilian,family,worker,rescue|world=hot | My shirt's glued to me, I hate summer
+7609 | reg=civilian,family,worker,rescue|world=hot | Hot enough? Sorry, I always wanted to say that
+7610 | reg=civilian,family,worker,rescue|world=hot | Ninety degrees, and we're walking, God help us
+7611 | reg=civilian,family,worker,rescue|tmp=fresh|world=hot | Is it just me or is it getting hotter? I'm dizzy
+7612 | reg=civilian,family,worker,rescue|world=rain | Rain, again, of course it's raining
+7613 | reg=civilian,family,worker,rescue|world=rain | Come under here, I won't bite
+7614 | reg=civilian,family,worker,rescue|world=rain | My boots are full of water, every step squishes
+7615 | reg=civilian,family,worker,rescue|world=rain | You two look like drowned rats, hello
+7616 | reg=civilian,family,worker,rescue|world=rain | Rain's making my knees ache, how're yours?
+7617 | reg=civilian,family,worker,rescue|world=cold | Cold enough for you? My fingers are dead
+7618 | reg=civilian,family,worker,rescue|world=cold | You got a coat? Any coat?
+7619 | reg=civilian,family,worker,rescue|world=wind | Wind's carrying every smell and sound out here
+7620 | reg=civilian,family,worker,rescue|world=fog | Can't see ten feet in this, watch where you're going
+7621 | reg=civilian,family,worker,rescue|world=fog | You walked out of the fog, hi, scared me
+7622 | reg=civilian,family,worker,rescue|world=storm | Storm's coming, you can smell it, get inside
+7623 | reg=civilian,family,worker,rescue|world=snow | Snow, I didn't expect snow, did you?
+7624 | reg=civilian,family,worker,rescue|world=snow | Don't touch the snow, you'll get a chill, my mama always said
+7625 | reg=civilian,family,worker,rescue|world=summer | Summer was the best time, wasn't it? Look at us now
+7626 | reg=civilian,family,worker,rescue|world=summer | Fireflies are out, that's something, right?
+7627 | reg=civilian,family,worker,rescue|world=autumn | Leaves are turning, pretty, even now
+7628 | reg=civilian,family,worker,rescue|world=winter | Winter's coming, I've got no wood, no coat, nothing
+7629 | reg=worker | Hey, how's the crew?
+7630 | reg=worker | Any of you got a spare wrench? Mine walked off
+7631 | reg=worker | Hey, you find any gas? I'll trade you for it
+7632 | reg=worker | You work at the plant? I thought I knew your face
+7633 | reg=worker | Hell of a week, ain't it? Hell of a week
+7634 | reg=worker | Hey, you guys seen the foreman? Nobody ever told me to go home
+7635 | reg=worker | You guys heading to the lumberyard? They've got nails, I heard
+7636 | reg=worker | Hey there, whatever time it is, I lost track
+7637 | reg=worker | You alive? Good, that's all I needed to know
+7638 | reg=worker | Tell your folks I said hi, if you see them
+7639 | reg=worker | Anybody over there fix trucks? Mine's in the ditch
+7640 | reg=worker | Hey, got a smoke? I'll owe you one
+7641 | reg=worker | You eat yet? I've got cold beans and a fork
+7642 | reg=worker | Careful with that load, the straps are shot
+7643 | reg=worker | Tough luck, huh? You get your pay before it all went to hell?
+7644 | reg=worker | Union rep said something about this, but I wasn't listening
+7645 | reg=worker | You hear the plant whistle? Thought I did, probably nothing
+7646 | reg=worker | Heads up, I saw a few down by the tracks
+7647 | reg=worker | Tell Dale I still have his drill, if he's alive, I mean
+7648 | reg=worker | Hey, watch it with that, you'll take somebody's eye out
+7649 | reg=worker | How long you been walking? I could use a lift, ha
+7650 | reg=worker | Where do you folks find work boots anymore? Seriously
+7651 | reg=worker | Do you know how to hotwire anything? Just curious
+7652 | reg=worker | Hey, you work at the cannery? I thought I recognized you
+7653 | reg=worker | Foreman said he'd pay us in cash, and then he died, so
+7654 | reg=worker | Anybody got a pipe wrench? I've got a leak, a literal one
+7655 | reg=worker | You fix engines? I've got a truck that won't turn over
+7656 | reg=worker | Hey, you got a spare belt? Mine's falling apart
+7657 | reg=worker | Is the plant still burning? Nobody's put it out
+7658 | reg=worker | My hands are raw, my back's out, hello
+7659 | reg=worker | Didn't I work with you? At the sawmill, in March? The tall guy?
+7660 | reg=worker | Anybody seen a guy in blue coveralls? He's my brother-in-law
+7661 | reg=worker | Hey, you hear the whistle? The shift whistle? I'd bet it's still going
+7662 | reg=worker | Hell of a quitting time, huh?
+7663 | reg=worker | Hey, got any rope? A couple of feet will do
+7664 | reg=worker | Did you see the guys at the loading dock? I'm looking for my crew
+7665 | reg=worker | You boys know how to work a chainsaw? I've got one, no gas
+7666 | reg=worker | Tell the foreman I quit, if you ever see him
+7667 | reg=worker | Hey, you've got the look of somebody who knows tools, am I right?
+7668 | reg=worker | Any luck finding work? Didn't think so
+7669 | reg=worker | Smells like a fire at the mill, did you see?
+7670 | reg=worker | Hey, my foot's got a nail in it, you got a clean rag?
+7671 | reg=worker | You still got your CB? Anybody on channel nineteen?
+7672 | reg=worker | I heard there's gas at the Sunoco on 31W, if you're desperate
+7673 | reg=worker | Heard they hired on at the distillery, no more bourbon, though
+7674 | reg=worker | Hey, my buddy Ray's in the next county, if you see him, say hi
+7675 | reg=worker | Don't use the old bridge, the rail's rotted
+7676 | reg=worker | We found a lathe in the shop, you can't eat it, but it's pretty
+7677 | reg=worker | That's a good tool belt, mind if I look? Just curious
+7678 | reg=worker | Anybody need a guy who can fix a refrigerator? Not that they work, but, skills
+7679 | reg=worker | Shit, you startled me, I'm jumpy as a cat
+7680 | reg=worker | Fuck, my back, fuck, I'm too old for this
+7681 | reg=worker | Damn kids ran off with the lunch cooler, I hope they're eating well
+7682 | reg=worker | Hell of a job, but at least nobody's yelling at me
+7683 | reg=worker | Piss poor luck, finding this much nothing
+7684 | reg=worker|mood=funny | I'd say I'm having a good day, but nobody pays me to lie
+7685 | reg=worker|mood=funny | You guys hiring? I'm unemployed and available
+7686 | reg=worker|mood=angry | I hate this, I hate all of this, hi, how are you
+7687 | reg=worker|mood=sad | I lost my whole crew, so, yeah, hi
+7688 | reg=worker|mood=warm | Good to see another working stiff out here
+7689 | reg=worker|mood=grim | Don't look in the ditch, just don't
+7690 | reg=worker|mood=fear | Hey- hey, don't sneak up on me like that, jeez
+7691 | reg=worker|mood=calm | Nice and quiet, I like it
+7692 | reg=worker|day=0,4 | Did you hear the plant closed? Did they tell you to go home too?
+7693 | reg=worker|day=0,4 | My buddy got bit at the loading dock, don't ask me about it
+7694 | reg=worker|day=0,4 | Heard the sirens? They've been going since Friday
+7695 | reg=worker|day=0,4 | Whatever you do, don't go near the guys on third shift
+7696 | reg=worker|day=0,4 | Stay out of the factory, it's bad in there
+7697 | reg=worker|tmp=seasoned | Kept my lunch pail, funny thing to hold onto
+7698 | reg=worker|tmp=seasoned | Another day of this, you'd think I'd be used to it by now
+7699 | reg=worker|tmp=seasoned | Foreman's not coming, is he? I stopped waiting
+7700 | reg=worker|tmp=seasoned | Same shift, different dead guy
+7701 | reg=worker|tmp=seasoned | Never thought I'd miss writing up overtime
+7702 | reg=worker|tmp=seasoned | Anything left in the hardware store? I need a hammer and some nails
+7703 | reg=worker|tmp=seasoned | Whole crew I started with, I'm the last one, don't ask where they are
+7704 | reg=worker|tmp=seasoned | Ran into a guy with a forklift, you'd be amazed what that does
+7705 | reg=worker|tmp=seasoned | I've got a spare pair of work gloves, you look like you need them
+7706 | reg=worker|tmp=seasoned | I fixed the pump at the church, so now I'm the plumber
+7707 | reg=worker|tmp=seasoned | Everyone's got a job now, mine's keeping the lights on, which is funny
+7708 | reg=worker|tmp=seasoned | Nobody tells me what shift it is, so I'm on all of them
+7709 | reg=worker|st=careful | Easy, just passing through
+7710 | reg=worker|st=careful | Hands out in the open, same as mine
+7711 | reg=worker|st=hostile | Stay clear of my crew
+7712 | reg=rescue | Hey, anybody hurt?
+7713 | reg=rescue | You all alright? You need anything?
+7714 | reg=rescue | We've got water at the station, if you're thirsty
+7715 | reg=rescue | Hi, we're from the fire station, don't be alarmed
+7716 | reg=rescue | Mind the glass, we just cleared it
+7717 | reg=rescue | Hello, any of you medical? We could use a hand
+7718 | reg=rescue | We're making rounds, so, don't worry, we're friendly
+7719 | reg=rescue | Are any of you bit? I need to ask everyone, sorry
+7720 | reg=rescue | There's a cot or two free at the station
+7721 | reg=rescue | Hi, we haven't slept, still going
+7722 | reg=rescue | Hi, we're checking houses, have you seen anyone alive in there?
+7723 | reg=rescue | Hey, you carrying bandages? Anything sterile?
+7724 | reg=rescue | If you see anyone hurt, tell us, we'll come, I promise
+7725 | reg=rescue | We lost three of ours yesterday, so, if we seem short
+7726 | reg=rescue | Hey, you look like you could use some water, we've got a little
+7727 | reg=rescue | Hello. Anybody hurt? We've got bandages and water
+7728 | reg=rescue | You okay? You look pale, come sit down for a minute
+7729 | reg=rescue | Need bandages? I've got a few, they're not clean, but they're something
+7730 | reg=rescue | Hi, we're checking on people, is everyone alright over there?
+7731 | reg=rescue | Anybody seen a doctor? We've got a man with a bad cut
+7732 | reg=rescue | Where are you headed? We're looking for survivors, if you know of any
+7733 | reg=rescue | We've got room at the church, if you need it
+7734 | reg=rescue | Hello, I'm sorry to stop you, you wouldn't be a nurse, would you?
+7735 | reg=rescue | We've been to every house on Church Street, nobody's answered at the last three
+7736 | reg=rescue | Please, if you hear anything, tell us, we'll come running
+7737 | reg=rescue | Hello, folks, need medical? We're the volunteers
+7738 | reg=rescue | Please, anybody got a spare blanket? We've got a patient
+7739 | reg=rescue | Hi, we're on our way to the church, the wounded are there
+7740 | reg=rescue | Stay hydrated, folks, I'm saying it to everybody
+7741 | reg=rescue | You folks hurt? Burned? Sick? Just checking
+7742 | reg=rescue | Everybody's welcome at the clinic, no questions
+7743 | reg=rescue|mood=warm | Hey, good to see you, you're the first people today who smiled
+7744 | reg=rescue|mood=sad | Another group on foot, thank God, I thought we were the last...
+7745 | reg=rescue|mood=grim | Don't go in the old mill, we found five there
+7746 | reg=rescue|mood=calm | No rush, nobody's hurt right now, so, hi
+7747 | reg=rescue|mood=funny | Good day for a house call, nobody's home, but still
+7748 | reg=rescue|day=0,4 | Has anyone told you where to go? We don't even know ourselves
+7749 | reg=rescue|day=0,4 | Stay together, don't wander, call us if somebody's hurt
+7750 | reg=rescue|day=0,4 | We're running out of room at the station, but we'll find a spot
+7751 | reg=rescue|st=careful | Please keep your distance, we've got injured people
+7752 | reg=rescue|st=hostile | Move on, please, we can't help you
+7753 | role=rescue_firefighter | Engine's down at the station, if you need us, holler
+7754 | role=rescue_firefighter | Don't light anything, the whole block's dry as paper

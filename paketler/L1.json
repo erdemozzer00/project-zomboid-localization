@@ -1,0 +1,658 @@
+{
+  "_paket": "L1 — Lua arayüz metinleri (Text.ui, JSON'da olmayanlar)",
+  "_dosya": "IG_UI_lua",
+  "satirlar": {
+    "IGUI_ALifeUI_5ec04dba5ddf5e40": {
+      "tr": "{group}, başında {leader} var. Seninle {count} kişi."
+    },
+    "IGUI_ALifeUI_7c87889c5be82aa0": {
+      "tr": "Görev:"
+    },
+    "IGUI_ALifeUI_692cbf276b0d3501": {
+      "tr": "Şu an görev yok. Sor: Ne yapayım?",
+      "not": "Oyuncunun konuşma penceresindeki 'What should I do?' seçeneğine atıf; o seçeneğin TR'si 'Ne yapayım?' ise birebir uyar."
+    },
+    "IGUI_ALifeUI_0dddcdf76f442cfd": {
+      "tr": "Grup",
+      "not": "Sözlük: group/party = grup ('Fishing party' → 'Balıkçı grubu')."
+    },
+    "IGUI_ALifeUI_03bd471546bcb021": {
+      "tr": "Biri"
+    },
+    "IGUI_ALifeUI_5843db7a23fdb4d6": {
+      "tr": "Haritanda işaretli"
+    },
+    "IGUI_ALifeUI_53be2d8161260f8c": {
+      "tr": "Haritanda işaret yok"
+    },
+    "IGUI_ALifeUI_44026cce0dbc3595": {
+      "tr": "Son görülme: {when}"
+    },
+    "IGUI_ALifeUI_5e5985d955c7f631": {
+      "tr": "Dışarıda",
+      "not": "Duyulanlar sekmesinde dışarıdaki olayların başlığı (helikopter, siren…)."
+    },
+    "IGUI_ALifeUI_0e01c1f6125be989": {
+      "tr": "Radyo"
+    },
+    "IGUI_ALifeUI_7c88f4725c4b7154": {
+      "tr": "İşaret"
+    },
+    "IGUI_ALifeUI_4ce9b67645a16c1d": {
+      "tr": "Üssünden haber"
+    },
+    "IGUI_ALifeUI_4d87919616896f0a": {
+      "tr": "Sunucudan ilişki durumun istendi."
+    },
+    "IGUI_ALifeUI_71654f79020d96a0": {
+      "tr": "Dünya haritası şu an açılamıyor."
+    },
+    "IGUI_ALifeUI_6180d4547d6fcd3e": {
+      "tr": "İşaret haritandan kaldırıldı."
+    },
+    "IGUI_ALifeUI_5337dc184d875c68": {
+      "tr": "Önce bir not seç."
+    },
+    "IGUI_ALifeUI_1ef7bf8d45b9be98": {
+      "tr": "Yenile"
+    },
+    "IGUI_ALifeUI_4ba5988f25b2e460": {
+      "tr": "Haritada göster"
+    },
+    "IGUI_ALifeUI_3159693437a74c59": {
+      "tr": "İşareti kaldır"
+    },
+    "IGUI_ALifeUI_4af5d7d92bdd6d01": {
+      "tr": "Okundu say"
+    },
+    "IGUI_ALifeUI_7efdb4b00b088ec6": {
+      "tr": "Hepsini okundu say"
+    },
+    "IGUI_ALifeUI_0e1691a150101135": {
+      "tr": "Saha Telsizi"
+    },
+    "IGUI_ALifeUI_746d5621157ca58a": {
+      "tr": "Saha Telsizi Kaydı"
+    },
+    "IGUI_ALifeUI_0b880c40172dfdd1": {
+      "tr": "KAPALI",
+      "not": "Telsiz ekranı göstergesi."
+    },
+    "IGUI_ALifeUI_0b87d45c172a93db": {
+      "tr": "PİL",
+      "not": "Telsiz ekranı göstergesi (battery)."
+    },
+    "IGUI_ALifeUI_0b882b36172fd7b1": {
+      "tr": "SES",
+      "not": "Telsiz ekranı göstergesi (volume)."
+    },
+    "IGUI_ALifeUI_1003dcac734df61f": {
+      "tr": "takip kapalı",
+      "not": "İtibar ekranında seviye adının yanındaki küçük durum yazısı."
+    },
+    "IGUI_ALifeUI_7b4ee93f0ff6dbe3": {
+      "tr": "sunucu bekleniyor"
+    },
+    "IGUI_ALifeUI_780a78007d5088ad": {
+      "tr": "Seni tartıyor"
+    },
+    "IGUI_ALifeUI_162e6d7b741e20e7": {
+      "tr": "Senden nefret ediyor"
+    },
+    "IGUI_ALifeUI_72b62a8a62e9057e": {
+      "tr": "Sana güveniyor"
+    },
+    "IGUI_ALifeUI_337266e245e87c63": {
+      "tr": "Dost"
+    },
+    "IGUI_ALifeUI_60e8329a0c5bca8c": {
+      "tr": "İlişkiler",
+      "not": "Sekme adı. Sözlükte standing = 'fraksiyonla aran'; sekme için kısa ve doğal olsun diye 'İlişkiler'."
+    },
+    "IGUI_ALifeUI_3aa598e1378af2df": {
+      "tr": "Tanıdıklar",
+      "not": "Evinin yerini sana söyleyen NPC'ler."
+    },
+    "IGUI_ALifeUI_0d4ef2cb635b3c1a": {
+      "tr": "Duyulanlar"
+    },
+    "IGUI_ALifeUI_0dc150d04e097d34": {
+      "tr": "Notlar"
+    },
+    "IGUI_ALifeUI_0159d264248eeffe": {
+      "tr": "Kanun ve polis"
+    },
+    "IGUI_ALifeUI_58a219fa63fb1d7e": {
+      "tr": "Siviller ve işçiler"
+    },
+    "IGUI_ALifeUI_46a5aebf01da01e2": {
+      "tr": "Aileler"
+    },
+    "IGUI_ALifeUI_079f26da1af2fed9": {
+      "tr": "Çeteler ve suçlular"
+    },
+    "IGUI_ALifeUI_15d1b9280a716f88": {
+      "tr": "Yağmacılar",
+      "not": "Sözlük/katalog: Raider = Yağmacı."
+    },
+    "IGUI_ALifeUI_13cb9757120e0ce4": {
+      "tr": "Temkinli",
+      "not": "Tutum etiketi; 'Wary' ile aynı karşılık (Dost / Tarafsız / Temkinli / Düşman)."
+    },
+    "IGUI_ALifeUI_45d6053049df7acf": {
+      "tr": "Dünya haritasını bir kez aç, sonra yeniden dene."
+    },
+    "IGUI_ALifeUI_0715956957bf6d80": {
+      "tr": "O işaret artık haritanda yok."
+    },
+    "IGUI_ALifeUI_55faa8da412dd8d2": {
+      "tr": "Bu oyun sürümü harita işaretlerini düzenleyemiyor."
+    },
+    "IGUI_ALifeUI_104f7b874897caa8": {
+      "tr": "Önce bir tanıdık seç."
+    },
+    "IGUI_ALifeUI_28bab6464d47632f": {
+      "tr": "Olmadı."
+    },
+    "IGUI_ALifeUI_751ae3a428630ada": {
+      "tr": "Henüz bir şey yok. Sunucuya sormak için Yenile'ye bas."
+    },
+    "IGUI_ALifeUI_31db8d9c3ec480d2": {
+      "tr": "İttifaklar seni nasıl görüyor",
+      "not": "bloc = ittifak (mevcut 'bloc {bloc}' → 'ittifak {bloc}' ile aynı)."
+    },
+    "IGUI_ALifeUI_3ff1e02c0ed4ad1f": {
+      "tr": "Sunucunun sana son bildirdiği durum. Yenile'ye basana kadar eskimiş olabilir."
+    },
+    "IGUI_ALifeUI_17df61423418928d": {
+      "tr": "Grubun"
+    },
+    "IGUI_ALifeUI_5d90fb414ecbff5e": {
+      "tr": "Sana nerede yaşadığını söyleyenler"
+    },
+    "IGUI_ALifeUI_6f72e6062b06d25a": {
+      "tr": "Henüz kimse yok. Dost birine sor: Nerede yaşıyorsun?"
+    },
+    "IGUI_ALifeUI_0f7cddfa7e27421e": {
+      "tr": "Yayında duyulanlar"
+    },
+    "IGUI_ALifeUI_4476573c02d9726a": {
+      "tr": "Henüz bir şey yok. Knox County Radio'yu duymak için bir radyoyu o kanala ayarla.",
+      "not": "İstasyon adı özel ad, İngilizce kaldı."
+    },
+    "IGUI_ALifeUI_273902704d0600cd": {
+      "tr": "Üssünden mektuplar, izler ve haberler"
+    },
+    "IGUI_ALifeUI_7cc412127db27597": {
+      "tr": "Henüz bir şey yok. Üssünde bir şey olunca burada not düşer."
+    },
+    "IGUI_ALifeUI_0438a83e0340b28d": {
+      "tr": "Mektupların kendisi envanterindeki eşyalar. Bu liste yalnızca bir şey bırakıldığını haber verir."
+    },
+    "IGUI_ALifeUI_215957bb53076ce5": {
+      "tr": "Tepeden bir helikopter geçti"
+    },
+    "IGUI_ALifeUI_2e097de9754f27b9": {
+      "tr": "Tepede askerî uçak"
+    },
+    "IGUI_ALifeUI_109f127058c3d02c": {
+      "tr": "Uzakta bir araba kazası"
+    },
+    "IGUI_ALifeUI_1acc4def0d75ae30": {
+      "tr": "Uzakta bir siren, bir çığlık ya da bir radyo"
+    },
+    "IGUI_ALifeUI_28b067e21e561171": {
+      "tr": "İlçenin üstünde bir siren"
+    },
+    "IGUI_ALifeUI_794744d6333afa11": {
+      "tr": "Teşekkür mektubu"
+    },
+    "IGUI_ALifeUI_36712d86728c8b83": {
+      "tr": "Uyarı mektubu"
+    },
+    "IGUI_ALifeUI_7df08a166391bd94": {
+      "tr": "Tehdit mektubu"
+    },
+    "IGUI_ALifeUI_07426a70550f4190": {
+      "tr": "Talep mektubu"
+    },
+    "IGUI_ALifeUI_192c3b7956b7558a": {
+      "tr": "Takas teklifi"
+    },
+    "IGUI_ALifeUI_36fea2f732c80d84": {
+      "tr": "Dürüst harita",
+      "not": "Bırakılan, doğru yerleri gösteren harita."
+    },
+    "IGUI_ALifeUI_1ca230ef31b1480b": {
+      "tr": "Özür"
+    },
+    "IGUI_ALifeUI_53fa48282238116a": {
+      "tr": "Kayıp ilanı"
+    },
+    "IGUI_ALifeUI_265489193ce9d71d": {
+      "tr": "Bölge uyarısı"
+    },
+    "IGUI_ALifeUI_0f3c56882902b8df": {
+      "tr": "Son mektup"
+    },
+    "IGUI_ALifeUI_7c85cab15b7fb1df": {
+      "tr": "Hediye"
+    },
+    "IGUI_ALifeUI_6a72e91466adbc3c": {
+      "tr": "Ziyaretçi: dilenci"
+    },
+    "IGUI_ALifeUI_1557ac6f795ecbdd": {
+      "tr": "Ziyaretçi: tüccar"
+    },
+    "IGUI_ALifeUI_266d9848735a0b0d": {
+      "tr": "Ziyaretçi: kolluk, içeride kal (pencere)"
+    },
+    "IGUI_ALifeUI_479af0306d47d367": {
+      "tr": "Ziyaretçi: kolluk, sayım"
+    },
+    "IGUI_ALifeUI_75b7552f2164c58f": {
+      "tr": "Ziyaretçi: bir gece kalmak istiyor"
+    },
+    "IGUI_ALifeUI_042f0b3b2c3ae606": {
+      "tr": "Ziyaretçi: peşine düşülmüş"
+    },
+    "IGUI_ALifeUI_316627343638f90e": {
+      "tr": "Ziyaretçi: pencerede yaralı"
+    },
+    "IGUI_ALifeUI_0d00cc023e782f58": {
+      "tr": "Ziyaretçi: haraççı"
+    },
+    "IGUI_ALifeUI_3d4366c122ba4ddc": {
+      "tr": "Ziyaretçi: komşu"
+    },
+    "IGUI_ALifeUI_0fb24da565dd3d00": {
+      "tr": "Ziyaretçi: eşyalarını geri getiriyor"
+    },
+    "IGUI_ALifeUI_21d278c512aa5b8c": {
+      "tr": "Ziyaretçi: sarhoş (pencere)"
+    },
+    "IGUI_ALifeUI_220a543d6dd93e4c": {
+      "tr": "Ziyaretçi: vaiz"
+    },
+    "IGUI_ALifeUI_6b07246c1e603c18": {
+      "tr": "Ziyaretçi: sahte polis"
+    },
+    "IGUI_ALifeUI_733b054c6f1f8402": {
+      "tr": "Ziyaretçi: devriyedeki sıhhiyeci"
+    },
+    "IGUI_ALifeUI_7a6a6a6e58845a4f": {
+      "tr": "Ziyaretçi: iş getiren ulak (pencere)"
+    },
+    "IGUI_ALifeUI_08f2e329227b4aa4": {
+      "tr": "Ziyaretçi: alet ödünç isteyen komşu"
+    },
+    "IGUI_ALifeUI_1e3c963e0f79c3a8": {
+      "tr": "Ziyaretçi: silah toplayan polis"
+    },
+    "IGUI_ALifeUI_6022a5930bd80d92": {
+      "tr": "Ziyaretçi: yardıma çağırıyor (pencere)"
+    },
+    "IGUI_ALifeUI_5d9958634c1c35d5": {
+      "tr": "Ziyaretçi: zor durumdaki bir aile (grup)"
+    },
+    "IGUI_ALifeUI_1d19ff8d5b09a440": {
+      "tr": "Ziyaretçi: yine gelen misafir"
+    },
+    "IGUI_ALifeUI_582d802b6d0a2149": {
+      "tr": "Ziyaretçi: birkaç gece kalmak istiyor"
+    },
+    "IGUI_ALifeUI_4cf5e00d3c574347": {
+      "tr": "Ziyaretçi: panikle kapı çalıyor, arkasında ölüler"
+    },
+    "IGUI_ALifeUI_0ea4c6d629e784c4": {
+      "tr": "Ziyaretçi: havadan sığınıyor"
+    },
+    "IGUI_ALifeUI_746bcb642318b038": {
+      "tr": "Ziyaretçi: tıbbi yardım lazım"
+    },
+    "IGUI_ALifeUI_5343e5d3144153f8": {
+      "tr": "Uyarı 2: kapının yanına X boyası",
+      "not": "Ladder = uyarı merdiveni (çetenin adım adım tırmanan tehdidi). Kısa olsun diye 'Uyarı N'."
+    },
+    "IGUI_ALifeUI_679853f346262bb9": {
+      "tr": "Uyarı 3: yokken sabotaj"
+    },
+    "IGUI_ALifeUI_5c2375a333480616": {
+      "tr": "Uyarı 4: gece baskını"
+    },
+    "IGUI_ALifeUI_611458ac45a60ca8": {
+      "tr": "Uyarı 4: sürü çekerek baskın"
+    },
+    "IGUI_ALifeUI_2c67112227aa1ebe": {
+      "tr": "Uyarı 4: elektrik keserek baskın"
+    },
+    "IGUI_ALifeUI_6e4b8e230346e133": {
+      "tr": "Uyarı 4: kuşatma"
+    },
+    "IGUI_ALifeUI_249d9dc202b60eca": {
+      "tr": "İz: arabadan yakıt çekilmiş"
+    },
+    "IGUI_ALifeUI_779a5c1c74c72208": {
+      "tr": "İz: bahçe toplanmış"
+    },
+    "IGUI_ALifeUI_21b5b9263faae22a": {
+      "tr": "Gece: pencerede el feneri"
+    },
+    "IGUI_ALifeUI_2ed6aaf75fa53328": {
+      "tr": "İz: kamp izleri"
+    },
+    "IGUI_ALifeUI_35e7749f163983f8": {
+      "tr": "İz: ön kapı açık bırakılmış"
+    },
+    "IGUI_ALifeUI_414e97ed79898c7b": {
+      "tr": "İşaret: tebeşir simgesi"
+    },
+    "IGUI_ALifeUI_6c7b1e502b5a4ad4": {
+      "tr": "İşaret: çentik izleri"
+    },
+    "IGUI_ALifeUI_7cf284c9355f01d7": {
+      "tr": "İşaret: fraksiyon renkleri"
+    },
+    "IGUI_ALifeUI_6dd92e9a343004a9": {
+      "tr": "Gece: kapı çalındı, kimse yok"
+    },
+    "IGUI_ALifeUI_290eb4e06da96cf3": {
+      "tr": "Radyo: evinin adı geçti"
+    },
+    "IGUI_ALifeUI_6fdc0adc20ce2709": {
+      "tr": "Gece: uzaktan silah sesleri"
+    },
+    "IGUI_ALifeUI_726bb74c4e5313bb": {
+      "tr": "Gece: bir köpek havlıyor"
+    },
+    "IGUI_ALifeUI_72bdf7003819dc86": {
+      "tr": "Gece: yakında cam kırıldı"
+    },
+    "IGUI_ALifeUI_2f38cc553c22137c": {
+      "tr": "İşaret: kapının yanında kan"
+    },
+    "IGUI_ALifeUI_4a91686664d2488c": {
+      "tr": "Polis"
+    },
+    "IGUI_ALifeUI_0da978e93b209041": {
+      "tr": "Sıhhiyeci",
+      "not": "Katalogdaki 'Medic' unvanıyla aynı."
+    },
+    "IGUI_ALifeUI_53d71db50c8c4ea8": {
+      "tr": "Asker",
+      "not": "İş geçmişi etiketi (askerî meslek); 'Gazi' dar kalıyor."
+    },
+    "IGUI_ALifeUI_0cfb97b70d549750": {
+      "tr": "Zanaat"
+    },
+    "IGUI_ALifeUI_0dd4ca635ff9ebc5": {
+      "tr": "Emir"
+    },
+    "IGUI_ALifeUI_7c8d05e25d3f37fe": {
+      "tr": "Haraç",
+      "not": "Mevcut 'The Toll' → 'Haraç Çetesi'."
+    },
+    "IGUI_ALifeUI_7c845a6d5b1bf4a9": {
+      "tr": "Görev"
+    },
+    "IGUI_ALifeUI_72dc51755aa24de3": {
+      "tr": "Sığınak",
+      "not": "Sözlük: shelter = sığınak."
+    },
+    "IGUI_ALifeUI_0e2f37f737bdb1c2": {
+      "tr": "Takas"
+    },
+    "IGUI_ALifeUI_1f81989175bb00b3": {
+      "tr": "Hava"
+    },
+    "IGUI_ALifeUI_0e0426f312e845f4": {
+      "tr": "Cevap"
+    },
+    "IGUI_ALifeUI_0cd81d6f6a5e15fd": {
+      "tr": "Soruldu"
+    },
+    "IGUI_ALifeUI_27d158fd3933bd93": {
+      "tr": "Önerilen"
+    },
+    "IGUI_ALifeUI_0e066519137244f8": {
+      "tr": "Riskli"
+    },
+    "IGUI_ALifeUI_0b880c2f172dcad6": {
+      "tr": "Yeni"
+    },
+    "IGUI_ALifeUI_0d95727f290dd217": {
+      "tr": "Sonra"
+    },
+    "IGUI_ALifeUI_3d353b7b37fe0ed6": {
+      "tr": "Ellerini kaldırt."
+    },
+    "IGUI_ALifeUI_56806a0d02d1199f": {
+      "tr": "Silahını yere attır."
+    },
+    "IGUI_ALifeUI_2a12e5d32062c199": {
+      "tr": "Silahı attır, ellerini kaldırt."
+    },
+    "IGUI_ALifeUI_2850575d3b6338de": {
+      "tr": "Üstündeki her şeyi iste."
+    },
+    "IGUI_ALifeUI_531f006659c18aa3": {
+      "tr": "Buradan defolup gitmesini söyle."
+    },
+    "IGUI_ALifeUI_1bfd6e370b639953": {
+      "tr": "Ona ve grubuna bu bölgeyi boşaltmasını söyle."
+    },
+    "IGUI_ALifeUI_1652df99211d3dcc": {
+      "tr": "Arkana düşüp seni izlemesini sağla."
+    },
+    "IGUI_ALifeUI_53e3266220823358": {
+      "tr": "Teslim olan birinin silahlarını al."
+    },
+    "IGUI_ALifeUI_46eb48147d5badee": {
+      "tr": "Teslim olan birinin ceplerini ara."
+    },
+    "IGUI_ALifeUI_048706f606671883": {
+      "tr": "Ellerini indirmesine izin ver."
+    },
+    "IGUI_ALifeUI_075f549a6a2f09f7": {
+      "tr": "Sıyrık",
+      "not": "Panel ilk harfi Lua ile büyütüyor; Türkçe harfle başlayan kelimeler (ı, ç) büyümediği için büyük harfle yazıldı."
+    },
+    "IGUI_ALifeUI_3f6578d04da2209d": {
+      "tr": "Kesik"
+    },
+    "IGUI_ALifeUI_5a88ed613163dce8": {
+      "tr": "Derin yara"
+    },
+    "IGUI_ALifeUI_7c949aab5f1de853": {
+      "tr": "Isırık",
+      "not": "Bkz. 'Sıyrık' notu: 'ı' Lua'da büyümez, bu yüzden doğrudan 'Isırık'."
+    },
+    "IGUI_ALifeUI_6b45f88f1f8539ae": {
+      "tr": "Kurşun yarası",
+      "not": "Mevcut 'Bullet wound' ile aynı."
+    },
+    "IGUI_ALifeUI_74c97eb449fd9444": {
+      "tr": "Morluk"
+    },
+    "IGUI_ALifeUI_4f1873564735dbb5": {
+      "tr": "Kırık"
+    },
+    "IGUI_ALifeUI_7c94cd7e5f210bc2": {
+      "tr": "Yanık"
+    },
+    "IGUI_ALifeUI_7c97d1795feaa417": {
+      "tr": "baş",
+      "not": "Hem başlıkta (ilk harf büyütülür) hem 'Kesik (sol kol)' içinde geçer; küçük harf."
+    },
+    "IGUI_ALifeUI_1070ed3e69120ead": {
+      "tr": "gövde"
+    },
+    "IGUI_ALifeUI_7c9d6214714dc3a7": {
+      "tr": "sol kol"
+    },
+    "IGUI_ALifeUI_3304219026e1c4fc": {
+      "tr": "sağ kol"
+    },
+    "IGUI_ALifeUI_7c9d8f2c71509e5d": {
+      "tr": "sol bacak"
+    },
+    "IGUI_ALifeUI_33044ea826e49fb2": {
+      "tr": "sağ bacak"
+    },
+    "IGUI_ALifeUI_59a38ce13b0a366f": {
+      "tr": "kanıyor",
+      "not": "'Kesik (sol kol), kanıyor' gibi listenin içinde."
+    },
+    "IGUI_ALifeUI_1fcd96e73d078bfb": {
+      "tr": "sargılı"
+    },
+    "IGUI_ALifeUI_4e8dcbfe29b770de": {
+      "tr": "atelli"
+    },
+    "IGUI_ALifeUI_6fb1234803c00379": {
+      "tr": "Sana kin tutuyor"
+    },
+    "IGUI_ALifeUI_48d43ad4158c6c8c": {
+      "tr": "Sana güvenmiyor"
+    },
+    "IGUI_ALifeUI_5b1b4de524a83b0b": {
+      "tr": "Seni tanımıyor"
+    },
+    "IGUI_ALifeUI_1562c093730208f1": {
+      "tr": "Senden hoşlanıyor"
+    },
+    "IGUI_ALifeUI_7cd0774c54303d70": {
+      "tr": "Senin için ateşe atlar"
+    },
+    "IGUI_ALifeUI_4f8e68ec737a68de": {
+      "tr": "Onunla yiyeceğini ya da suyunu paylaştın."
+    },
+    "IGUI_ALifeUI_7f9e02985cbd0d35": {
+      "tr": "Birinin yarasını sardın."
+    },
+    "IGUI_ALifeUI_218115a36f79d2a9": {
+      "tr": "Onunla omuz omuza savaştın."
+    },
+    "IGUI_ALifeUI_750ce97b26887575": {
+      "tr": "Bir can kurtardın."
+    },
+    "IGUI_ALifeUI_6c64a612181ea390": {
+      "tr": "Dürüst alışveriş yaptın."
+    },
+    "IGUI_ALifeUI_21d08272544b6c72": {
+      "tr": "Sözünü tuttun."
+    },
+    "IGUI_ALifeUI_41f0835f3428b808": {
+      "tr": "Kapıda ona iyi davrandın."
+    },
+    "IGUI_ALifeUI_785fd2482f238a17": {
+      "tr": "Onunla aynı yolu yürüdün."
+    },
+    "IGUI_ALifeUI_128cc48559d374e2": {
+      "tr": "Onu tehdit ettin ama işe yaramadı."
+    },
+    "IGUI_ALifeUI_47e587f816755bd9": {
+      "tr": "Ona kaba davrandın."
+    },
+    "IGUI_ALifeUI_3c7d22756dc8e5f8": {
+      "tr": "Ondan bir şeyler aldın."
+    },
+    "IGUI_ALifeUI_553e490b64b7e9d6": {
+      "tr": "Onlardan birine vurdun."
+    },
+    "IGUI_ALifeUI_3ba8a17b74bc6ebb": {
+      "tr": "Onlardan birini öldürdün."
+    },
+    "IGUI_ALifeUI_5b191577792d65b0": {
+      "tr": "Bir anlaşmayı bozdun."
+    },
+    "IGUI_ALifeUI_74bc12b0757b1eba": {
+      "tr": "Grup için üstüne düşeni yaptın."
+    },
+    "IGUI_ALifeUI_083a999f4e8ddbb8": {
+      "tr": "Bir işte grubu yüzüstü bıraktın."
+    },
+    "IGUI_ALifeUI_4d68ac8064f14166": {
+      "tr": "Zor anda onu yalnız bıraktın."
+    },
+    "IGUI_ALifeUI_5a396c3f1d4728ec": {
+      "tr": "Şimdilik yabancısın; duyduklarına göre yargılıyor."
+    },
+    "IGUI_ALifeUI_77f61fad38646481": {
+      "tr": "Sana bir şey anlatmam."
+    },
+    "IGUI_ALifeUI_7284137e4d340055": {
+      "tr": "O kadar tanımıyorum seni."
+    },
+    "IGUI_ALifeUI_37cf337e62c44164": {
+      "tr": "Daha değil. Sana biraz daha güvenince sor."
+    },
+    "IGUI_ALifeUI_4c5b6c6b6c26b0b1": {
+      "tr": "Adını duyan herkes kapısını kilitliyor. Çoğu seninle dövüşmektense ödemeyi yeğler, kimse sana sırtını dönmez."
+    },
+    "IGUI_ALifeUI_28a073bd3ec5743e": {
+      "tr": "Zalim",
+      "not": "En kötü itibar seviyesi. 'Kötü Adam' oyun dilinde kaba duruyor."
+    },
+    "IGUI_ALifeUI_62e5ed65306577c2": {
+      "tr": "İstediğini zorla almanla tanınıyorsun. Yaklaşınca yolcular saklanıyor, kanun adamları seni uzaktan izliyor."
+    },
+    "IGUI_ALifeUI_4e3ca88165b2b29f": {
+      "tr": "Yağmacı",
+      "not": "Katalogdaki 'Raider' unvanıyla aynı."
+    },
+    "IGUI_ALifeUI_6954ac5d664604e3": {
+      "tr": "Soygunlarının lafı yayıldı. İnsanlar sen istemeden eşyalarını uzatıyor, kanun da hesabını tutuyor."
+    },
+    "IGUI_ALifeUI_6747ed6973aa0487": {
+      "tr": "Gözü Dönmüş"
+    },
+    "IGUI_ALifeUI_717647d12673eba3": {
+      "tr": "Unutulmayacak sınırları aştın. Dürüst insanlar uzak duruyor ama sert takımlar seni dinler."
+    },
+    "IGUI_ALifeUI_48ad426653b376bb": {
+      "tr": "Kanun Kaçağı"
+    },
+    "IGUI_ALifeUI_3fd30005085e3803": {
+      "tr": "Zaten düşmüş olanlardan alıyorsun. Kimse sana henüz düşman demiyor ama çeteler sana selam vermeye başladı."
+    },
+    "IGUI_ALifeUI_78a12c573a66c664": {
+      "tr": "Akbaba",
+      "not": "Düşene vuran fırsatçı; Türkçede de bu anlamda kullanılıyor."
+    },
+    "IGUI_ALifeUI_21df7720521bb0e5": {
+      "tr": "Burada kimsenin senin hakkında anlatacak bir hikâyesi yok. İnsanlar seni nasıl bulursa öyle kabul ediyor."
+    },
+    "IGUI_ALifeUI_65622aac7d78d7de": {
+      "tr": "Birden çok kez el uzattın. Kanun ve siviller seni daha çabuk dinliyor, yardım istemeye gelen de çoğalıyor."
+    },
+    "IGUI_ALifeUI_37334c6a59289959": {
+      "tr": "Yardımsever"
+    },
+    "IGUI_ALifeUI_28c8a6b2240a4201": {
+      "tr": "İnsanlar, belayla aralarına girdiğin günü anlatıyor. Tüccarlar daha adil fiyat istiyor, ihtiyacı olan kapını biliyor."
+    },
+    "IGUI_ALifeUI_0bb2b0f166b962b0": {
+      "tr": "Koruyucu"
+    },
+    "IGUI_ALifeUI_7dc645461fe6ad18": {
+      "tr": "Kanun, aileler ve siviller sözüne güveniyor, yabancılar işini sormadan el sallıyor. Çeteler ise senin gibi birinin evini kolay av sanıyor."
+    },
+    "IGUI_ALifeUI_72df6d055b6d3e99": {
+      "tr": "Şerif",
+      "not": "Katalogdaki 'Sheriff' unvanıyla aynı."
+    },
+    "IGUI_ALifeUI_654887cc6d7e44a3": {
+      "tr": "Yaptıklarının hikâyesi senden hızlı yol alıyor. Çoğu kapı sana açılıyor."
+    },
+    "IGUI_ALifeUI_7c8647955ba0f975": {
+      "tr": "Kahraman"
+    },
+    "IGUI_ALifeUI_620dc07a2044482c": {
+      "tr": "Seni hiç görmemiş hayatta kalanlar bile adını biliyor ve hakkında iyi şeyler söylüyor."
+    },
+    "IGUI_ALifeUI_4e758e4353dae2be": {
+      "tr": "Efsane"
+    }
+  }
+}

@@ -1,0 +1,2473 @@
+{
+  "_paket": "Y7R",
+  "_grup": "liste_soz",
+  "_dosya": "RadioData_lua",
+  "_baslik": "Y7 yeniden çeviri · eski Türkçe gösterilmez",
+  "_parcalar": [
+    [
+      1,
+      264
+    ]
+  ],
+  "satirlar": {
+    "1": [
+      "RD_ALifeLine_5e875fac37f0d956",
+      "Hands are up, hands are up, don't shoot, we're Tolliver Freight",
+      [
+        "ALifeSituationsData.lua",
+        "tolliver_depot",
+        "Encircled depot",
+        "enter"
+      ]
+    ],
+    "2": [
+      "RD_ALifeLine_28609bc2332f1386",
+      "Easy, we're freight not fighters, they've got the whole depot ringed",
+      [
+        "ALifeSituationsData.lua",
+        "tolliver_depot",
+        "Encircled depot",
+        "enter"
+      ]
+    ],
+    "3": [
+      "RD_ALifeLine_3889c1f5070c4028",
+      "One truck backfired and the whole street turned toward us",
+      [
+        "ALifeSituationsData.lua",
+        "tolliver_depot",
+        "Encircled depot",
+        "ASK"
+      ]
+    ],
+    "4": [
+      "RD_ALifeLine_1ba1628c49804016",
+      "We came back for the last load and the road closed behind us",
+      [
+        "ALifeSituationsData.lua",
+        "tolliver_depot",
+        "Encircled depot",
+        "ASK"
+      ]
+    ],
+    "5": [
+      "RD_ALifeLine_3c2ae003013561a2",
+      "Bless you, we've got your back, shout when it's thin",
+      [
+        "ALifeSituationsData.lua",
+        "tolliver_depot",
+        "Encircled depot",
+        "HELP"
+      ]
+    ],
+    "6": [
+      "RD_ALifeLine_6cf542847ed6209d",
+      "Do that and there's freight in it for you",
+      [
+        "ALifeSituationsData.lua",
+        "tolliver_depot",
+        "Encircled depot",
+        "HELP"
+      ]
+    ],
+    "7": [
+      "RD_ALifeLine_625e7b21294caffb",
+      "Still counting them out there, keep going",
+      [
+        "ALifeSituationsData.lua",
+        "tolliver_depot",
+        "Encircled depot",
+        "HELP.again"
+      ]
+    ],
+    "8": [
+      "RD_ALifeLine_1e7784a15dfff096",
+      "Take it, you earned it, Dell would shake your hand",
+      [
+        "ALifeSituationsData.lua",
+        "tolliver_depot",
+        "Encircled depot",
+        "PAYOUT"
+      ]
+    ],
+    "9": [
+      "RD_ALifeLine_6f019cc018133b00",
+      "Ring's still closed, we owe you nothing yet",
+      [
+        "ALifeSituationsData.lua",
+        "tolliver_depot",
+        "Encircled depot",
+        "PAYOUT.none"
+      ]
+    ],
+    "10": [
+      "RD_ALifeLine_3561ed6c0ae38d4a",
+      "Fine, fine, take it, you're no better than the ring",
+      [
+        "ALifeSituationsData.lua",
+        "tolliver_depot",
+        "Encircled depot",
+        "STASH"
+      ]
+    ],
+    "11": [
+      "RD_ALifeLine_5e5f9d2870e4bdfd",
+      "There's a drop past the water tower, if the road holds",
+      [
+        "ALifeSituationsData.lua",
+        "tolliver_depot",
+        "Encircled depot",
+        "ROUTE"
+      ]
+    ],
+    "12": [
+      "RD_ALifeLine_21f5c6e15a85c640",
+      "Didn't think you'd stay, we'll manage",
+      [
+        "ALifeSituationsData.lua",
+        "tolliver_depot",
+        "Encircled depot",
+        "LEAVE"
+      ]
+    ],
+    "13": [
+      "RD_ALifeLine_0cad94d2420af013",
+      "Hold up there friend, routine stop, nobody's in trouble",
+      [
+        "ALifeSituationsData.lua",
+        "sheriff_checkpoint",
+        "Sheriff checkpoint",
+        "enter"
+      ]
+    ],
+    "14": [
+      "RD_ALifeLine_5d1113652eff5c1b",
+      "Evening, we're only checking folks for bites before they pass",
+      [
+        "ALifeSituationsData.lua",
+        "sheriff_checkpoint",
+        "Sheriff checkpoint",
+        "enter"
+      ]
+    ],
+    "15": [
+      "RD_ALifeLine_3f6c7bfe6c6b80a2",
+      "All clear, move along, watch the road past the line",
+      [
+        "ALifeSituationsData.lua",
+        "sheriff_checkpoint",
+        "Sheriff checkpoint",
+        "CHECK"
+      ]
+    ],
+    "16": [
+      "RD_ALifeLine_2f383fe433acf505",
+      "Bites, mostly, and anyone hauling more than they can explain",
+      [
+        "ALifeSituationsData.lua",
+        "sheriff_checkpoint",
+        "Sheriff checkpoint",
+        "ASK"
+      ]
+    ],
+    "17": [
+      "RD_ALifeLine_0426d0de24b7a6a7",
+      "Bad stretch two miles on, a crew sits on the shoulder, go around",
+      [
+        "ALifeSituationsData.lua",
+        "sheriff_checkpoint",
+        "Sheriff checkpoint",
+        "ROAD"
+      ]
+    ],
+    "18": [
+      "RD_ALifeLine_1ef4dd661a3de321",
+      "Your call, but we'll know your face next time",
+      [
+        "ALifeSituationsData.lua",
+        "sheriff_checkpoint",
+        "Sheriff checkpoint",
+        "RUSH"
+      ]
+    ],
+    "19": [
+      "RD_ALifeLine_5b0641b1529cbbe6",
+      "That's far enough, we've got a horde on the porch and a rifle on you",
+      [
+        "ALifeSituationsData.lua",
+        "skaggs_farmhouse",
+        "Farmhouse under horde",
+        "enter"
+      ]
+    ],
+    "20": [
+      "RD_ALifeLine_59db40b61de8caff",
+      "We're busy, if you're here to help say so quick",
+      [
+        "ALifeSituationsData.lua",
+        "skaggs_farmhouse",
+        "Farmhouse under horde",
+        "enter"
+      ]
+    ],
+    "21": [
+      "RD_ALifeLine_3f8f38291d20afd0",
+      "Forty of them, maybe more, they came off the road at dusk",
+      [
+        "ALifeSituationsData.lua",
+        "skaggs_farmhouse",
+        "Farmhouse under horde",
+        "ASK"
+      ]
+    ],
+    "22": [
+      "RD_ALifeLine_48303fd31e55aee0",
+      "Then get on the left side, keep low and keep moving",
+      [
+        "ALifeSituationsData.lua",
+        "skaggs_farmhouse",
+        "Farmhouse under horde",
+        "HELP"
+      ]
+    ],
+    "23": [
+      "RD_ALifeLine_50aeb0a16f3c7c2b",
+      "Left side, they keep coming round the barn",
+      [
+        "ALifeSituationsData.lua",
+        "skaggs_farmhouse",
+        "Farmhouse under horde",
+        "HELP.again"
+      ]
+    ],
+    "24": [
+      "RD_ALifeLine_1571ba9d7c6ca1ca",
+      "The pantry's yours for an hour, you've earned it",
+      [
+        "ALifeSituationsData.lua",
+        "skaggs_farmhouse",
+        "Farmhouse under horde",
+        "PAYOUT"
+      ]
+    ],
+    "25": [
+      "RD_ALifeLine_1f2d1bb23e7dacad",
+      "Not yet, they're still at the fence",
+      [
+        "ALifeSituationsData.lua",
+        "skaggs_farmhouse",
+        "Farmhouse under horde",
+        "PAYOUT.none"
+      ]
+    ],
+    "26": [
+      "RD_ALifeLine_14c57a7d46f935b3",
+      "Well that's decent of you, ma would've liked you",
+      [
+        "ALifeSituationsData.lua",
+        "skaggs_farmhouse",
+        "Farmhouse under horde",
+        "FOOD"
+      ]
+    ],
+    "27": [
+      "RD_ALifeLine_56b9b08949a3cef6",
+      "You've got nothing on you, but thanks for the thought",
+      [
+        "ALifeSituationsData.lua",
+        "skaggs_farmhouse",
+        "Farmhouse under horde",
+        "FOOD.none"
+      ]
+    ],
+    "28": [
+      "RD_ALifeLine_0836599e32f3af22",
+      "Go careful, they're not done with us",
+      [
+        "ALifeSituationsData.lua",
+        "skaggs_farmhouse",
+        "Farmhouse under horde",
+        "LEAVE"
+      ]
+    ],
+    "29": [
+      "RD_ALifeLine_57c0f839200dc5f3",
+      "Walk away or pay up, the farmhand goes either way, your choice",
+      [
+        "ALifeSituationsData.lua",
+        "dixie_hostage",
+        "Hostage swap",
+        "enter"
+      ]
+    ],
+    "30": [
+      "RD_ALifeLine_06478e93631aa7d7",
+      "You want him breathing, you bring us something worth the trouble",
+      [
+        "ALifeSituationsData.lua",
+        "dixie_hostage",
+        "Hostage swap",
+        "enter"
+      ]
+    ],
+    "31": [
+      "RD_ALifeLine_5af14a326443e1af",
+      "Pleasure doing business, he's yours, take him and go",
+      [
+        "ALifeSituationsData.lua",
+        "dixie_hostage",
+        "Hostage swap",
+        "PAY"
+      ]
+    ],
+    "32": [
+      "RD_ALifeLine_349c821b3be80cae",
+      "That's not enough, don't waste our time",
+      [
+        "ALifeSituationsData.lua",
+        "dixie_hostage",
+        "Hostage swap",
+        "PAY.none"
+      ]
+    ],
+    "33": [
+      "RD_ALifeLine_414cb5803bb78bb9",
+      "Wrong answer friend, wrong answer",
+      [
+        "ALifeSituationsData.lua",
+        "dixie_hostage",
+        "Hostage swap",
+        "FIGHT"
+      ]
+    ],
+    "34": [
+      "RD_ALifeLine_2283bfe57881a24a",
+      "He walked onto our road, simple as that, nothing personal",
+      [
+        "ALifeSituationsData.lua",
+        "dixie_hostage",
+        "Hostage swap",
+        "ASK"
+      ]
+    ],
+    "35": [
+      "RD_ALifeLine_1dece1a025b33557",
+      "Smart, keep walking",
+      [
+        "ALifeSituationsData.lua",
+        "dixie_hostage",
+        "Hostage swap",
+        "LEAVE"
+      ]
+    ],
+    "36": [
+      "RD_ALifeLine_0f29e1fa00d0ccd4",
+      "Over here, we're out of everything and they're on the door",
+      [
+        "ALifeSituationsData.lua",
+        "clinic_pinned",
+        "Pinned clinic",
+        "enter"
+      ]
+    ],
+    "37": [
+      "RD_ALifeLine_576707ec1e17b653",
+      "Please, the medic's pinned in here, anything for the wounded",
+      [
+        "ALifeSituationsData.lua",
+        "clinic_pinned",
+        "Pinned clinic",
+        "enter"
+      ]
+    ],
+    "38": [
+      "RD_ALifeLine_376822941130ca94",
+      "Oh thank god, take this, it's all we can give",
+      [
+        "ALifeSituationsData.lua",
+        "clinic_pinned",
+        "Pinned clinic",
+        "SUPPLY"
+      ]
+    ],
+    "39": [
+      "RD_ALifeLine_4d2611284d95f872",
+      "You've got nothing for us, but thank you for stopping",
+      [
+        "ALifeSituationsData.lua",
+        "clinic_pinned",
+        "Pinned clinic",
+        "SUPPLY.none"
+      ]
+    ],
+    "40": [
+      "RD_ALifeLine_2dabb5ca42dd7aea",
+      "We'll keep the windows, just clear the door",
+      [
+        "ALifeSituationsData.lua",
+        "clinic_pinned",
+        "Pinned clinic",
+        "HELP"
+      ]
+    ],
+    "41": [
+      "RD_ALifeLine_3b3045104d484207",
+      "Still two or three on the step, keep going",
+      [
+        "ALifeSituationsData.lua",
+        "clinic_pinned",
+        "Pinned clinic",
+        "HELP.again"
+      ]
+    ],
+    "42": [
+      "RD_ALifeLine_4f083395381aa353",
+      "It's not much but it's real, take it",
+      [
+        "ALifeSituationsData.lua",
+        "clinic_pinned",
+        "Pinned clinic",
+        "PAYOUT"
+      ]
+    ],
+    "43": [
+      "RD_ALifeLine_28bf3426376e42c3",
+      "Not yet, they're still on the step",
+      [
+        "ALifeSituationsData.lua",
+        "clinic_pinned",
+        "Pinned clinic",
+        "PAYOUT.none"
+      ]
+    ],
+    "44": [
+      "RD_ALifeLine_19d483a84c2633be",
+      "No bandages, no antibiotics, and four on the cots",
+      [
+        "ALifeSituationsData.lua",
+        "clinic_pinned",
+        "Pinned clinic",
+        "ASK"
+      ]
+    ],
+    "45": [
+      "RD_ALifeLine_4a1e1eba0572739f",
+      "We understand, go safe",
+      [
+        "ALifeSituationsData.lua",
+        "clinic_pinned",
+        "Pinned clinic",
+        "LEAVE"
+      ]
+    ],
+    "46": [
+      "RD_ALifeLine_121b8a9a608eefc4",
+      "Hey, hey! got any petrol, she's bone dry",
+      [
+        "ALifeSituationsData.lua",
+        "truckstop_breakdown",
+        "Broken-down truck",
+        "enter"
+      ]
+    ],
+    "47": [
+      "RD_ALifeLine_65d6f2af06b7bacf",
+      "You there! two minutes of your time, our truck's dead",
+      [
+        "ALifeSituationsData.lua",
+        "truckstop_breakdown",
+        "Broken-down truck",
+        "enter"
+      ]
+    ],
+    "48": [
+      "RD_ALifeLine_0a8d662107b746ac",
+      "You're a lifesaver, here, it's not much but it's honest",
+      [
+        "ALifeSituationsData.lua",
+        "truckstop_breakdown",
+        "Broken-down truck",
+        "FUEL"
+      ]
+    ],
+    "49": [
+      "RD_ALifeLine_3277a2de30f51992",
+      "No can on you? shame, worth asking",
+      [
+        "ALifeSituationsData.lua",
+        "truckstop_breakdown",
+        "Broken-down truck",
+        "FUEL.none"
+      ]
+    ],
+    "50": [
+      "RD_ALifeLine_12db786e48151838",
+      "That's all we need, an hour and she'll turn over",
+      [
+        "ALifeSituationsData.lua",
+        "truckstop_breakdown",
+        "Broken-down truck",
+        "GUARD"
+      ]
+    ],
+    "51": [
+      "RD_ALifeLine_5b790e28256839c5",
+      "Give us a bit longer, almost there",
+      [
+        "ALifeSituationsData.lua",
+        "truckstop_breakdown",
+        "Broken-down truck",
+        "GUARD.again"
+      ]
+    ],
+    "52": [
+      "RD_ALifeLine_246688e964c55878",
+      "She's running! here, for your trouble",
+      [
+        "ALifeSituationsData.lua",
+        "truckstop_breakdown",
+        "Broken-down truck",
+        "PAYOUT"
+      ]
+    ],
+    "53": [
+      "RD_ALifeLine_196d8cba7f9d56e0",
+      "Not yet, she's still coughing",
+      [
+        "ALifeSituationsData.lua",
+        "truckstop_breakdown",
+        "Broken-down truck",
+        "PAYOUT.none"
+      ]
+    ],
+    "54": [
+      "RD_ALifeLine_4fa0f41f5104842d",
+      "North, with a load that's already late",
+      [
+        "ALifeSituationsData.lua",
+        "truckstop_breakdown",
+        "Broken-down truck",
+        "ASK"
+      ]
+    ],
+    "55": [
+      "RD_ALifeLine_143917457b85af81",
+      "No worries, we'll flag the next one",
+      [
+        "ALifeSituationsData.lua",
+        "truckstop_breakdown",
+        "Broken-down truck",
+        "LEAVE"
+      ]
+    ],
+    "56": [
+      "RD_ALifeLine_16898a687e134973",
+      "I already ate today",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.again",
+        "civ"
+      ]
+    ],
+    "57": [
+      "RD_ALifeLine_2b8c45400728ffd9",
+      "Not hungry yet, thanks",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.again",
+        "civ"
+      ]
+    ],
+    "58": [
+      "RD_ALifeLine_6450806c53facb76",
+      "I was fed already",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.again",
+        "law"
+      ]
+    ],
+    "59": [
+      "RD_ALifeLine_2e048d787d2c67ff",
+      "Already fed",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.again",
+        "mil"
+      ]
+    ],
+    "60": [
+      "RD_ALifeLine_0b71b51a061669c9",
+      "Negative, I ate",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.again",
+        "mil"
+      ]
+    ],
+    "61": [
+      "RD_ALifeLine_2c9275f947a84d4e",
+      "You fed me, remember",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.again",
+        "out"
+      ]
+    ],
+    "62": [
+      "RD_ALifeLine_612936fa4445b0b9",
+      "I'm good for now",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.again",
+        "out"
+      ]
+    ],
+    "63": [
+      "RD_ALifeLine_295efbc357b29117",
+      "I ate, back off",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.again",
+        "raid"
+      ]
+    ],
+    "64": [
+      "RD_ALifeLine_27b4b785751c4d95",
+      "I ate already",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.again",
+        "any"
+      ]
+    ],
+    "65": [
+      "RD_ALifeLine_68585c6d48fab819",
+      "You've got nothing for me?",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.no",
+        "civ"
+      ]
+    ],
+    "66": [
+      "RD_ALifeLine_269434312f526742",
+      "I'll wait",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.no",
+        "law"
+      ]
+    ],
+    "67": [
+      "RD_ALifeLine_360c409b3a346ead",
+      "No ration, no water?",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.no",
+        "mil"
+      ]
+    ],
+    "68": [
+      "RD_ALifeLine_268c36632d538724",
+      "I'll hold",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.no",
+        "mil"
+      ]
+    ],
+    "69": [
+      "RD_ALifeLine_6be6559c2c50b7a4",
+      "Empty hands, that's cold",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.no",
+        "out"
+      ]
+    ],
+    "70": [
+      "RD_ALifeLine_16723e2103bf5d5d",
+      "Come back with something",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.no",
+        "out"
+      ]
+    ],
+    "71": [
+      "RD_ALifeLine_39427c8219a9d0d5",
+      "Nothing? Figures",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.no",
+        "raid"
+      ]
+    ],
+    "72": [
+      "RD_ALifeLine_23f2477002a0f32a",
+      "Starve me then",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.no",
+        "raid"
+      ]
+    ],
+    "73": [
+      "RD_ALifeLine_13165a2b6a50f9c0",
+      "You have nothing?",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.no",
+        "any"
+      ]
+    ],
+    "74": [
+      "RD_ALifeLine_57a0366e36136ee3",
+      "God, I needed that",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.ok",
+        "civ"
+      ]
+    ],
+    "75": [
+      "RD_ALifeLine_3edc0b807d904daf",
+      "Fine, I'll eat",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.ok",
+        "law"
+      ]
+    ],
+    "76": [
+      "RD_ALifeLine_7607370c57d762d1",
+      "Received",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.ok",
+        "mil"
+      ]
+    ],
+    "77": [
+      "RD_ALifeLine_211fc56831189cbd",
+      "Huh, you feed all your prisoners",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.ok",
+        "out"
+      ]
+    ],
+    "78": [
+      "RD_ALifeLine_28a293d84319b504",
+      "Alright, I'll eat your bread",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.ok",
+        "out"
+      ]
+    ],
+    "79": [
+      "RD_ALifeLine_04ad170f7b4d5466",
+      "Don't think this makes us friends",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.ok",
+        "raid"
+      ]
+    ],
+    "80": [
+      "RD_ALifeLine_21bcbd63224e8548",
+      "I was starving",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FEED.ok",
+        "any"
+      ]
+    ],
+    "81": [
+      "RD_ALifeLine_6d374ad1205a63a0",
+      "Just let me go",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t0",
+        "civ"
+      ]
+    ],
+    "82": [
+      "RD_ALifeLine_129534eb7d93de1f",
+      "I have nothing to say",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t0",
+        "law"
+      ]
+    ],
+    "83": [
+      "RD_ALifeLine_2a46d4b2451f1867",
+      "Ask my lawyer",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t0",
+        "law"
+      ]
+    ],
+    "84": [
+      "RD_ALifeLine_2da4363115ce9aad",
+      "I'm not talking",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t0",
+        "mil"
+      ]
+    ],
+    "85": [
+      "RD_ALifeLine_5282bf1c37eb33a9",
+      "Name and number, that's all",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t0",
+        "mil"
+      ]
+    ],
+    "86": [
+      "RD_ALifeLine_01e8c9f32b580a02",
+      "You don't scare me",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t0",
+        "out"
+      ]
+    ],
+    "87": [
+      "RD_ALifeLine_5ef5ea363499da65",
+      "Not saying a word",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t0",
+        "raid"
+      ]
+    ],
+    "88": [
+      "RD_ALifeLine_17abfe2f3b1e9fd7",
+      "My name's not worth much now, but I'm still here",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t1",
+        "civ"
+      ]
+    ],
+    "89": [
+      "RD_ALifeLine_7766b6737b4923ca",
+      "I just wanted to get home",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t1",
+        "civ"
+      ]
+    ],
+    "90": [
+      "RD_ALifeLine_0a4f56c146f71773",
+      "Don't write anything down",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t1",
+        "law"
+      ]
+    ],
+    "91": [
+      "RD_ALifeLine_18d596aa1f0b96e6",
+      "You want a statement, you won't get one",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t1",
+        "law"
+      ]
+    ],
+    "92": [
+      "RD_ALifeLine_2af56bd1497c5bf8",
+      "I'm keeping to my orders",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t1",
+        "mil"
+      ]
+    ],
+    "93": [
+      "RD_ALifeLine_5ae072345439c32b",
+      "Nothing you can use",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t1",
+        "mil"
+      ]
+    ],
+    "94": [
+      "RD_ALifeLine_44685f5044fdef68",
+      "Fine, you're not what I expected",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t1",
+        "out"
+      ]
+    ],
+    "95": [
+      "RD_ALifeLine_4e77c92523efdc4e",
+      "Food helps the mood a bit",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t1",
+        "out"
+      ]
+    ],
+    "96": [
+      "RD_ALifeLine_3ba6bec14bec66e0",
+      "Don't get comfortable",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t1",
+        "raid"
+      ]
+    ],
+    "97": [
+      "RD_ALifeLine_674e746a33111a2a",
+      "You feed me, I'll listen, that's all",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t1",
+        "raid"
+      ]
+    ],
+    "98": [
+      "RD_ALifeLine_0f9ee8f74075aa1c",
+      "Thanks for the food",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t1",
+        "any"
+      ]
+    ],
+    "99": [
+      "RD_ALifeLine_7c3d63d972157768",
+      "I'll listen, that's all",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t1",
+        "any"
+      ]
+    ],
+    "100": [
+      "RD_ALifeLine_0b6788f55e57e682",
+      "We were moving south, then they took the road",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t2",
+        "civ"
+      ]
+    ],
+    "101": [
+      "RD_ALifeLine_2028905100f0fe43",
+      "My family's out there somewhere",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t2",
+        "civ"
+      ]
+    ],
+    "102": [
+      "RD_ALifeLine_742436ff2a682f98",
+      "I was on patrol, they hit us from the trees",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t2",
+        "law"
+      ]
+    ],
+    "103": [
+      "RD_ALifeLine_3cff8478572ec985",
+      "I lost my partner today",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t2",
+        "law"
+      ]
+    ],
+    "104": [
+      "RD_ALifeLine_6b03da5b2f4a143b",
+      "We got split, my squad's gone",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t2",
+        "mil"
+      ]
+    ],
+    "105": [
+      "RD_ALifeLine_150b1fea585d969c",
+      "Command left us out here",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t2",
+        "mil"
+      ]
+    ],
+    "106": [
+      "RD_ALifeLine_4c10da181d0e18c1",
+      "It started as a favour, then it was a job",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t2",
+        "out"
+      ]
+    ],
+    "107": [
+      "RD_ALifeLine_20ed440317883e0a",
+      "Nobody forgives a debt around here",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t2",
+        "out"
+      ]
+    ],
+    "108": [
+      "RD_ALifeLine_65834c4100eb2160",
+      "We took what we could, that's it",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t2",
+        "raid"
+      ]
+    ],
+    "109": [
+      "RD_ALifeLine_6a6e7d057bd406ff",
+      "Nobody asked me if I wanted this",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t2",
+        "raid"
+      ]
+    ],
+    "110": [
+      "RD_ALifeLine_12311bee1394d03a",
+      "I was just trying to eat",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t2",
+        "any"
+      ]
+    ],
+    "111": [
+      "RD_ALifeLine_455e0ac078d86cf5",
+      "It went bad fast",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t2",
+        "any"
+      ]
+    ],
+    "112": [
+      "RD_ALifeLine_78dfcb614694579f",
+      "The ones in charge don't care who gets hurt",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t3",
+        "civ"
+      ]
+    ],
+    "113": [
+      "RD_ALifeLine_003f28f539fc46d2",
+      "I don't sleep anymore",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t3",
+        "civ"
+      ]
+    ],
+    "114": [
+      "RD_ALifeLine_251727682471630d",
+      "My chief doesn't know I'm alive",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t3",
+        "law"
+      ]
+    ],
+    "115": [
+      "RD_ALifeLine_3a27c8e457986a20",
+      "We were short on everything",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t3",
+        "law"
+      ]
+    ],
+    "116": [
+      "RD_ALifeLine_42f89c40712bec5c",
+      "Orders kept changing, nobody told us why",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t3",
+        "mil"
+      ]
+    ],
+    "117": [
+      "RD_ALifeLine_430a8765363355d0",
+      "We ran out of ammo twice",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t3",
+        "mil"
+      ]
+    ],
+    "118": [
+      "RD_ALifeLine_372954664b12c804",
+      "The boss takes the best and leaves the rest",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t3",
+        "out"
+      ]
+    ],
+    "119": [
+      "RD_ALifeLine_7294447e39a08e89",
+      "I wanted out for months",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t3",
+        "out"
+      ]
+    ],
+    "120": [
+      "RD_ALifeLine_67b5fbe10fc1e8d0",
+      "The boss would skin me for this",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t3",
+        "raid"
+      ]
+    ],
+    "121": [
+      "RD_ALifeLine_6f79bfad3c735daf",
+      "I'm not scared of you, I'm scared of them",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t3",
+        "raid"
+      ]
+    ],
+    "122": [
+      "RD_ALifeLine_2af47e9e7ddca32b",
+      "They never told me the plan",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t3",
+        "any"
+      ]
+    ],
+    "123": [
+      "RD_ALifeLine_6f4e989e0410a6f8",
+      "You could've killed me and you fed me, why",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t4",
+        "civ"
+      ]
+    ],
+    "124": [
+      "RD_ALifeLine_0f13197878b69759",
+      "I owe you, I know that",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t4",
+        "civ"
+      ]
+    ],
+    "125": [
+      "RD_ALifeLine_591eeb881afbd5d0",
+      "You're fair, I'll give you that",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t4",
+        "law"
+      ]
+    ],
+    "126": [
+      "RD_ALifeLine_332a8fb95d60e6aa",
+      "Maybe you're not the problem",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t4",
+        "law"
+      ]
+    ],
+    "127": [
+      "RD_ALifeLine_6b07004b529ad206",
+      "You treated me by the book, I respect that",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t4",
+        "mil"
+      ]
+    ],
+    "128": [
+      "RD_ALifeLine_0550884a41edc72b",
+      "I might consider talking",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t4",
+        "mil"
+      ]
+    ],
+    "129": [
+      "RD_ALifeLine_3e5dc8646048ac79",
+      "You've got a funny way of running a jail",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t4",
+        "out"
+      ]
+    ],
+    "130": [
+      "RD_ALifeLine_0908a1744d7a8d80",
+      "I'm starting to think you're alright",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t4",
+        "out"
+      ]
+    ],
+    "131": [
+      "RD_ALifeLine_560c71b551f7df96",
+      "Nobody's ever done that for me",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t4",
+        "raid"
+      ]
+    ],
+    "132": [
+      "RD_ALifeLine_73d236dd29bb12d3",
+      "Don't tell them I said this",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t4",
+        "raid"
+      ]
+    ],
+    "133": [
+      "RD_ALifeLine_08c842024dd5954d",
+      "You kept your word",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t4",
+        "any"
+      ]
+    ],
+    "134": [
+      "RD_ALifeLine_7f1099081624e1e1",
+      "I might know things",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t4",
+        "any"
+      ]
+    ],
+    "135": [
+      "RD_ALifeLine_060821c01267d988",
+      "Ask me anything, I'll answer",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t5",
+        "civ"
+      ]
+    ],
+    "136": [
+      "RD_ALifeLine_5c4bb3541ef8f36e",
+      "I'd rather fight for you than run",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t5",
+        "civ"
+      ]
+    ],
+    "137": [
+      "RD_ALifeLine_54b88d766d15767d",
+      "I'll cooperate, you've earned it",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t5",
+        "law"
+      ]
+    ],
+    "138": [
+      "RD_ALifeLine_479cb2ec5c3ec8d4",
+      "If you let me go I won't forget it",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t5",
+        "law"
+      ]
+    ],
+    "139": [
+      "RD_ALifeLine_0d9506a4223a0da4",
+      "I'm ready to talk, say what you need",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t5",
+        "mil"
+      ]
+    ],
+    "140": [
+      "RD_ALifeLine_10a7ba1f7dce5a29",
+      "I'd follow a leader like you",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t5",
+        "mil"
+      ]
+    ],
+    "141": [
+      "RD_ALifeLine_2b44e7a85d4ed6a6",
+      "Alright, you won me over, ask",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t5",
+        "out"
+      ]
+    ],
+    "142": [
+      "RD_ALifeLine_2214bd620b0f7416",
+      "I'd go with you if you asked",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t5",
+        "out"
+      ]
+    ],
+    "143": [
+      "RD_ALifeLine_5dfcf3cc501be75f",
+      "You win, ask what you want",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t5",
+        "raid"
+      ]
+    ],
+    "144": [
+      "RD_ALifeLine_5db1b85f17f643e4",
+      "I'd ride with you",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t5",
+        "raid"
+      ]
+    ],
+    "145": [
+      "RD_ALifeLine_4ca72f101387e4c0",
+      "Ask me anything",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t5",
+        "any"
+      ]
+    ],
+    "146": [
+      "RD_ALifeLine_74bdd046649830d3",
+      "I'd stick with you",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_CHAT.t5",
+        "any"
+      ]
+    ],
+    "147": [
+      "RD_ALifeLine_6e2333f86e482c55",
+      "I don't trust you enough for that",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.cold",
+        "civ"
+      ]
+    ],
+    "148": [
+      "RD_ALifeLine_4cf46a1e74743333",
+      "You haven't earned that",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.cold",
+        "out"
+      ]
+    ],
+    "149": [
+      "RD_ALifeLine_0fca3d4c3af3c4d1",
+      "I told you already",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.done",
+        "civ"
+      ]
+    ],
+    "150": [
+      "RD_ALifeLine_074f6a537c12e733",
+      "That's all I know",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.done",
+        "civ"
+      ]
+    ],
+    "151": [
+      "RD_ALifeLine_6ff764c14dd3603e",
+      "Already said it",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.done",
+        "law"
+      ]
+    ],
+    "152": [
+      "RD_ALifeLine_1a534d172c200fd7",
+      "That's all of it",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.done",
+        "law"
+      ]
+    ],
+    "153": [
+      "RD_ALifeLine_47d369535aecf304",
+      "Already reported",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.done",
+        "mil"
+      ]
+    ],
+    "154": [
+      "RD_ALifeLine_24df79c22f46eb3f",
+      "No further",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.done",
+        "mil"
+      ]
+    ],
+    "155": [
+      "RD_ALifeLine_1ccd003b040595ee",
+      "I already gave you that",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.done",
+        "out"
+      ]
+    ],
+    "156": [
+      "RD_ALifeLine_4c854fc266324f76",
+      "That's all I've got",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.done",
+        "out"
+      ]
+    ],
+    "157": [
+      "RD_ALifeLine_14f51028721424a1",
+      "Told you once",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.done",
+        "raid"
+      ]
+    ],
+    "158": [
+      "RD_ALifeLine_427dccd078abab92",
+      "I told you",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.done",
+        "any"
+      ]
+    ],
+    "159": [
+      "RD_ALifeLine_0a11a19a51cf1caa",
+      "That's all",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.done",
+        "any"
+      ]
+    ],
+    "160": [
+      "RD_ALifeLine_5511396869849dfc",
+      "There's a place they keep, I'll show you where",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.hit",
+        "civ"
+      ]
+    ],
+    "161": [
+      "RD_ALifeLine_0b5bfc1e445334c4",
+      "I'll tell you, just keep me safe",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.hit",
+        "civ"
+      ]
+    ],
+    "162": [
+      "RD_ALifeLine_5f3d0668042f80ae",
+      "Fine, there's a post I know, I'll point it out",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.hit",
+        "law"
+      ]
+    ],
+    "163": [
+      "RD_ALifeLine_771d1e994a56df66",
+      "Here, I'll mark it, don't make me regret it",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.hit",
+        "law"
+      ]
+    ],
+    "164": [
+      "RD_ALifeLine_70394a4406fecac3",
+      "Coordinates, then we're done",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.hit",
+        "mil"
+      ]
+    ],
+    "165": [
+      "RD_ALifeLine_0e4614d20fb5ca0e",
+      "Sector's yours, check your map",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.hit",
+        "mil"
+      ]
+    ],
+    "166": [
+      "RD_ALifeLine_4931bd51679382b7",
+      "Alright, they hole up out there, look at your map",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.hit",
+        "out"
+      ]
+    ],
+    "167": [
+      "RD_ALifeLine_7deec19013afef8d",
+      "I'll show you, then we're even",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.hit",
+        "out"
+      ]
+    ],
+    "168": [
+      "RD_ALifeLine_5bee057554c476f1",
+      "Out there, I marked it, now stay off me",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.hit",
+        "raid"
+      ]
+    ],
+    "169": [
+      "RD_ALifeLine_7cb9f73e4981b363",
+      "They sleep out there, you won't like it",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.hit",
+        "raid"
+      ]
+    ],
+    "170": [
+      "RD_ALifeLine_346a87ee28425ced",
+      "I'll show you where",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.hit",
+        "any"
+      ]
+    ],
+    "171": [
+      "RD_ALifeLine_4c16f9fe50dc6ab6",
+      "It's marked, don't ask twice",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.hit",
+        "any"
+      ]
+    ],
+    "172": [
+      "RD_ALifeLine_5a891b78660de21d",
+      "I don't know, honestly",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.miss",
+        "civ"
+      ]
+    ],
+    "173": [
+      "RD_ALifeLine_2ed32b463a46e106",
+      "I'd tell you if I knew",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.miss",
+        "civ"
+      ]
+    ],
+    "174": [
+      "RD_ALifeLine_3417fb362f466cd4",
+      "I can't, not yet",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.miss",
+        "law"
+      ]
+    ],
+    "175": [
+      "RD_ALifeLine_2865d32b78fd971b",
+      "Ask me later",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.miss",
+        "law"
+      ]
+    ],
+    "176": [
+      "RD_ALifeLine_4976ac1c6174a0fc",
+      "Not in my clearance",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.miss",
+        "mil"
+      ]
+    ],
+    "177": [
+      "RD_ALifeLine_181f5a716c12f853",
+      "Not yet, pal",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.miss",
+        "out"
+      ]
+    ],
+    "178": [
+      "RD_ALifeLine_3af81b7e59b1e97b",
+      "Never heard of it",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.miss",
+        "raid"
+      ]
+    ],
+    "179": [
+      "RD_ALifeLine_2b70cf6f25510de1",
+      "Try someone else",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.miss",
+        "raid"
+      ]
+    ],
+    "180": [
+      "RD_ALifeLine_2dbf00002d4b0e2b",
+      "We never had a place, we moved around",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.none",
+        "civ"
+      ]
+    ],
+    "181": [
+      "RD_ALifeLine_3d91d9897eb4c811",
+      "There's nowhere to show you",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.none",
+        "civ"
+      ]
+    ],
+    "182": [
+      "RD_ALifeLine_713e26b578557ca4",
+      "No post, we're on the road",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.none",
+        "law"
+      ]
+    ],
+    "183": [
+      "RD_ALifeLine_7e7bda287715970c",
+      "Nothing to mark",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.none",
+        "law"
+      ]
+    ],
+    "184": [
+      "RD_ALifeLine_368eb2b4111ccd97",
+      "No fixed position",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.none",
+        "mil"
+      ]
+    ],
+    "185": [
+      "RD_ALifeLine_170125341b64df2a",
+      "Nothing to give you",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.none",
+        "mil"
+      ]
+    ],
+    "186": [
+      "RD_ALifeLine_6ce14afb1a32841c",
+      "No camp, just a few roads",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.none",
+        "out"
+      ]
+    ],
+    "187": [
+      "RD_ALifeLine_7e7f41de77e53c70",
+      "Nothing to show",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.none",
+        "out"
+      ]
+    ],
+    "188": [
+      "RD_ALifeLine_5e44569d2553a6c2",
+      "We don't stay put",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.none",
+        "raid"
+      ]
+    ],
+    "189": [
+      "RD_ALifeLine_11b01520698ccfde",
+      "There's nowhere",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_INTEL.none",
+        "any"
+      ]
+    ],
+    "190": [
+      "RD_ALifeLine_5f8ed59656fdf687",
+      "Okay okay, stop, I'll show you",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FORCE.hit",
+        "civ"
+      ]
+    ],
+    "191": [
+      "RD_ALifeLine_372f0f4e4f51d5f1",
+      "Please, don't, I'll tell you",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FORCE.hit",
+        "civ"
+      ]
+    ],
+    "192": [
+      "RD_ALifeLine_171af44b00161aae",
+      "Fine, I'll tell you, put that down",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FORCE.hit",
+        "law"
+      ]
+    ],
+    "193": [
+      "RD_ALifeLine_4784262a753ba26f",
+      "You didn't hear this from me",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FORCE.hit",
+        "law"
+      ]
+    ],
+    "194": [
+      "RD_ALifeLine_7622a5fa70d6aa78",
+      "Alright, you've got your answer",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FORCE.hit",
+        "mil"
+      ]
+    ],
+    "195": [
+      "RD_ALifeLine_39c6c1784e63a398",
+      "I'll give you the position",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FORCE.hit",
+        "mil"
+      ]
+    ],
+    "196": [
+      "RD_ALifeLine_520ffd6326de254a",
+      "Alright, you win, look at your map",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FORCE.hit",
+        "out"
+      ]
+    ],
+    "197": [
+      "RD_ALifeLine_33745c620cb343fa",
+      "Easy, easy, I'll tell you",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FORCE.hit",
+        "out"
+      ]
+    ],
+    "198": [
+      "RD_ALifeLine_24b807bc6d80d5fb",
+      "Damn it, fine, it's marked",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FORCE.hit",
+        "raid"
+      ]
+    ],
+    "199": [
+      "RD_ALifeLine_057b39324366f397",
+      "Fine, you got it",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FORCE.hit",
+        "raid"
+      ]
+    ],
+    "200": [
+      "RD_ALifeLine_0e11651d5205ae46",
+      "Stop, I'll show you",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FORCE.hit",
+        "any"
+      ]
+    ],
+    "201": [
+      "RD_ALifeLine_3ff0cf8e072e89f5",
+      "I can't, I really don't know",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FORCE.miss",
+        "civ"
+      ]
+    ],
+    "202": [
+      "RD_ALifeLine_4af6664c0afd6802",
+      "Do what you want, I don't know",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FORCE.miss",
+        "civ"
+      ]
+    ],
+    "203": [
+      "RD_ALifeLine_38052a9633c6db29",
+      "I'm not saying anything",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FORCE.miss",
+        "law"
+      ]
+    ],
+    "204": [
+      "RD_ALifeLine_44492fd523f5032b",
+      "Go ahead, I don't scare easy",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FORCE.miss",
+        "out"
+      ]
+    ],
+    "205": [
+      "RD_ALifeLine_486414fb60a15f18",
+      "You hit like my mother",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FORCE.miss",
+        "out"
+      ]
+    ],
+    "206": [
+      "RD_ALifeLine_2f1a344d37b7011f",
+      "Do it, I'll still say nothing",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_FORCE.miss",
+        "raid"
+      ]
+    ],
+    "207": [
+      "RD_ALifeLine_501f89b21a3da26c",
+      "Thank you, I won't forget this",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_RELEASE.ok",
+        "civ"
+      ]
+    ],
+    "208": [
+      "RD_ALifeLine_5e00c54963661609",
+      "I'll go quietly",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_RELEASE.ok",
+        "civ"
+      ]
+    ],
+    "209": [
+      "RD_ALifeLine_631bcd460c5d6d59",
+      "Understood, I'll leave",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_RELEASE.ok",
+        "law"
+      ]
+    ],
+    "210": [
+      "RD_ALifeLine_32ff08425b0de3ec",
+      "I won't be back",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_RELEASE.ok",
+        "law"
+      ]
+    ],
+    "211": [
+      "RD_ALifeLine_727995b06f45993c",
+      "Copy, leaving",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_RELEASE.ok",
+        "mil"
+      ]
+    ],
+    "212": [
+      "RD_ALifeLine_67915a656b7cf81f",
+      "You're letting me walk, huh",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_RELEASE.ok",
+        "out"
+      ]
+    ],
+    "213": [
+      "RD_ALifeLine_3e0588dc4c777add",
+      "I owe you one",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_RELEASE.ok",
+        "out"
+      ]
+    ],
+    "214": [
+      "RD_ALifeLine_6c7c189229513587",
+      "Don't expect me to like you for it",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_RELEASE.ok",
+        "raid"
+      ]
+    ],
+    "215": [
+      "RD_ALifeLine_158dc9b476659936",
+      "I'm gone",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_RELEASE.ok",
+        "raid"
+      ]
+    ],
+    "216": [
+      "RD_ALifeLine_063b86005737b712",
+      "Please, not them",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_HAND.ok",
+        "civ"
+      ]
+    ],
+    "217": [
+      "RD_ALifeLine_23d6781a7373bf01",
+      "I'll do what they say",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_HAND.ok",
+        "civ"
+      ]
+    ],
+    "218": [
+      "RD_ALifeLine_65510e7e7c461ce4",
+      "I'll answer for it",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_HAND.ok",
+        "law"
+      ]
+    ],
+    "219": [
+      "RD_ALifeLine_7aca6dae46eef1e3",
+      "Taken into custody, noted",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_HAND.ok",
+        "mil"
+      ]
+    ],
+    "220": [
+      "RD_ALifeLine_3f8461ad658bab10",
+      "I'll answer to them",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_HAND.ok",
+        "mil"
+      ]
+    ],
+    "221": [
+      "RD_ALifeLine_3c07fa411ec6fca6",
+      "Rotten deal, but fine",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_HAND.ok",
+        "out"
+      ]
+    ],
+    "222": [
+      "RD_ALifeLine_5ea52add37a8ffcc",
+      "Whatever, it's over",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_HAND.ok",
+        "out"
+      ]
+    ],
+    "223": [
+      "RD_ALifeLine_07bfd55e614f1d45",
+      "Don't do this",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_HAND.ok",
+        "raid"
+      ]
+    ],
+    "224": [
+      "RD_ALifeLine_550c5a08545a9240",
+      "Please no",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_HAND.ok",
+        "any"
+      ]
+    ],
+    "225": [
+      "RD_ALifeLine_4908242353bdd2ae",
+      "I can't switch sides",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_JOIN.no",
+        "law"
+      ]
+    ],
+    "226": [
+      "RD_ALifeLine_5f583e6c17c488ba",
+      "I'll stick with you, you've been fair",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_JOIN.ok",
+        "civ"
+      ]
+    ],
+    "227": [
+      "RD_ALifeLine_3e34ec4d523c3a4c",
+      "I'll follow you, you've been straight",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_JOIN.ok",
+        "law"
+      ]
+    ],
+    "228": [
+      "RD_ALifeLine_77d177cc62a240c7",
+      "I'll follow orders, yours now",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_JOIN.ok",
+        "mil"
+      ]
+    ],
+    "229": [
+      "RD_ALifeLine_10df468b44665bd0",
+      "I'm with you, don't make me regret it",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_JOIN.ok",
+        "raid"
+      ]
+    ],
+    "230": [
+      "RD_ALifeLine_1f6a246c0e49fc9b",
+      "No, please",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_KILL.ok",
+        "civ"
+      ]
+    ],
+    "231": [
+      "RD_ALifeLine_571a7fde160805f7",
+      "Don't do it",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_KILL.ok",
+        "civ"
+      ]
+    ],
+    "232": [
+      "RD_ALifeLine_5b40368d5fb6b4f5",
+      "Do it then",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_KILL.ok",
+        "law"
+      ]
+    ],
+    "233": [
+      "RD_ALifeLine_57740920089e159d",
+      "Get it over with",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_KILL.ok",
+        "mil"
+      ]
+    ],
+    "234": [
+      "RD_ALifeLine_0d0af6f71e6a6110",
+      "Do it",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_KILL.ok",
+        "out"
+      ]
+    ],
+    "235": [
+      "RD_ALifeLine_7735fc780be1b72c",
+      "Do it, coward",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_KILL.ok",
+        "raid"
+      ]
+    ],
+    "236": [
+      "RD_ALifeLine_41a75a753d7b72aa",
+      "Pull the trigger",
+      [
+        "ALifeCaptivesData.lua",
+        "CAP_KILL.ok",
+        "raid"
+      ]
+    ],
+    "237": [
+      "RD_ALifeLine_6e0f481f73f177a7",
+      "Attention survivor on this channel, We are looking for one person in the Knox zone, State your name, we need to know who we are talking to",
+      [
+        "ALifeEndingCallData.lua",
+        "open",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "238": [
+      "RD_ALifeLine_3779dda26859d706",
+      "This is the US military again, The offer is still open, state your name",
+      [
+        "ALifeEndingCallData.lua",
+        "open",
+        "alt1",
+        "birleşik"
+      ]
+    ],
+    "239": [
+      "RD_ALifeLine_4165a8ca3bdfd990",
+      "Who we are is not your concern, Name first, then I answer anything you want",
+      [
+        "ALifeEndingCallData.lua",
+        "who",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "240": [
+      "RD_ALifeLine_702be8b50220d209",
+      "Say again, survivor, You are on an open channel, everyone is hearing you",
+      [
+        "ALifeEndingCallData.lua",
+        "defy1",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "241": [
+      "RD_ALifeLine_502033d7311ef948",
+      "I know someone is on the line, the carrier is open, Say something, a name is enough",
+      [
+        "ALifeEndingCallData.lua",
+        "listen",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "242": [
+      "RD_ALifeLine_5b874cba7e715d2b",
+      "Your trail's easy to read.. long run, still breathing",
+      [
+        "ALifeEndingCallData.lua",
+        "how",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "243": [
+      "RD_ALifeLine_3c0c9dd813724bdf",
+      "Word travels, people on the road talk about you, mostly good",
+      [
+        "ALifeEndingCallData.lua",
+        "how",
+        "alt1",
+        "birleşik"
+      ]
+    ],
+    "244": [
+      "RD_ALifeLine_2089643f08bd9eb1",
+      "Your name came up in files we do not like, do not read into it",
+      [
+        "ALifeEndingCallData.lua",
+        "how",
+        "alt2",
+        "birleşik"
+      ]
+    ],
+    "245": [
+      "RD_ALifeLine_50c6a5eb7061e525",
+      "Open means open, every survivor and every faction on this band hears us, Raiders, soldiers, kids with a handset, all of them",
+      [
+        "ALifeEndingCallData.lua",
+        "open_ch",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "246": [
+      "RD_ALifeLine_4eceace35509349f",
+      "How many are with you?, Seats are tight, let me say the offer first and then we talk numbers",
+      [
+        "ALifeEndingCallData.lua",
+        "comp_early",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "247": [
+      "RD_ALifeLine_0e7e5df7584572a4",
+      "Easy, easy.. this is Captain Ruiz, my operator plays it by the book, We lost track of one survivor out there, I need a name, I need to know it's you",
+      [
+        "ALifeEndingCallData.lua",
+        "officer_intro",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "248": [
+      "RD_ALifeLine_1b7f31c845b8576e",
+      "Authentication code is Kestrel Nine, That is all you get on an open channel",
+      [
+        "ALifeEndingCallData.lua",
+        "proof",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "249": [
+      "RD_ALifeLine_4390d3aa4fae23d4",
+      "That's ENOUGH, This is Captain Ruiz, I'm the one who has to log this, Last chance to take it back",
+      [
+        "ALifeEndingCallData.lua",
+        "defy2",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "250": [
+      "RD_ALifeLine_4a636aeb56248ddd",
+      "Ruiz here, I'll give it to you straight",
+      [
+        "ALifeEndingCallData.lua",
+        "bargain",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "251": [
+      "RD_ALifeLine_709ca0557780c932",
+      "Our long range sets are dead, this is the only band that still carries, I don't like it either, trust me",
+      [
+        "ALifeEndingCallData.lua",
+        "open_why",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "252": [
+      "RD_ALifeLine_70a4c71a53af2680",
+      "Bring what you can carry and nothing that slows you, Weapons stay on you, eat and sleep before the day",
+      [
+        "ALifeEndingCallData.lua",
+        "bring",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "253": [
+      "RD_ALifeLine_688e40d654caf64b",
+      "You get thirty minutes, no more, After that the bird lifts and we try again in three days, if there's fuel",
+      [
+        "ALifeEndingCallData.lua",
+        "late",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "254": [
+      "RD_ALifeLine_5b8be1e44e46ad2d",
+      "How many are with you?, Seats are tight, I can't promise more than one extra",
+      [
+        "ALifeEndingCallData.lua",
+        "comp",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "255": [
+      "RD_ALifeLine_5a2b065132ebc95e",
+      "Because when the comms go, the line closes with 'em, I'm not supposed to tell you that",
+      [
+        "ALifeEndingCallData.lua",
+        "desperate",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "256": [
+      "RD_ALifeLine_1ef26d8f7f0f0d9c",
+      "I'll ask once more.. you sure?, A seat with your name on it, roof of the Oris Tower, 14:00, 3 days",
+      [
+        "ALifeEndingCallData.lua",
+        "refuse1",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "257": [
+      "RD_ALifeLine_3eb4f1dd05049aac",
+      "A bed, food, a doctor and a wall that holds, A safe zone behind the quarantine line, nobody asks about your past",
+      [
+        "ALifeEndingCallData.lua",
+        "b_offer",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "258": [
+      "RD_ALifeLine_54b7c0a660780127",
+      "A place to hide and a clean slate, I leave your file where it is",
+      [
+        "ALifeEndingCallData.lua",
+        "b_offer",
+        "alt1",
+        "birleşik"
+      ]
+    ],
+    "259": [
+      "RD_ALifeLine_2ea6595317bfba99",
+      "Knox is lost outside the cordon, we hold what we hold, The quarantine line doesn't move for anyone, not you, not me",
+      [
+        "ALifeEndingCallData.lua",
+        "b_knox",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "260": [
+      "RD_ALifeLine_6941223e7ca498ea",
+      "Captain Ruiz, third relief, I lost my unit in the first month, I'm what's left of the people you wanted to hear from",
+      [
+        "ALifeEndingCallData.lua",
+        "b_who",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "261": [
+      "RD_ALifeLine_7b5f83950e95d444",
+      "No.. expect company on the way up, that's why I said careful, Whoever lives in that tower wasn't invited to our party",
+      [
+        "ALifeEndingCallData.lua",
+        "tower",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "262": [
+      "RD_ALifeLine_79ee97a91af31a64",
+      "A trap needs bait, You are one hungry survivor, we would not burn a helicopter on that",
+      [
+        "ALifeEndingCallData.lua",
+        "trap",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "263": [
+      "RD_ALifeLine_7df46e4841f64427",
+      "Because you're still alive, after all this time, We need people who know how to stay that way",
+      [
+        "ALifeEndingCallData.lua",
+        "why_me",
+        "lines",
+        "birleşik"
+      ]
+    ],
+    "264": [
+      "RD_ALifeLine_33dd691821161e31",
+      "Because people follow you, we want that on our side of the line",
+      [
+        "ALifeEndingCallData.lua",
+        "why_me",
+        "alt1",
+        "birleşik"
+      ]
+    ]
+  }
+}

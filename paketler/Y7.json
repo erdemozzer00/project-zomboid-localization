@@ -1,0 +1,799 @@
+{
+  "_paket": "Y7 — 1.5.0 tablo içi listelerdeki NPC sözleri (durum, esir, telsiz çağrısı), 264 (çeviri: harici AI; kalite incelemesi yapılmadı)",
+  "_dosya": "RadioData_lua",
+  "satirlar": {
+    "RD_ALifeLine_5e875fac37f0d956": {
+      "tr": "Ellerimiz havada! Ellerimiz havada! Ateş etmeyin, biz Tolliver Nakliyat'ız!"
+    },
+    "RD_ALifeLine_28609bc2332f1386": {
+      "tr": "Sakin olun, biz nakliyeciyiz, savaşçı değil. Depoyu çepeçevre sarmışlar."
+    },
+    "RD_ALifeLine_3889c1f5070c4028": {
+      "tr": "Bir kamyonun egzozu patladı, bütün sokak bize döndü."
+    },
+    "RD_ALifeLine_1ba1628c49804016": {
+      "tr": "Son yükü almak için geri geldik, yol da arkamızdan kapandı."
+    },
+    "RD_ALifeLine_3c2ae003013561a2": {
+      "tr": "Allah senden razı olsun! Arkandayız, çember zayıflayınca seslen."
+    },
+    "RD_ALifeLine_6cf542847ed6209d": {
+      "tr": "Bunu yaparsan sana da yükten pay düşer."
+    },
+    "RD_ALifeLine_625e7b21294caffb": {
+      "tr": "Dışarıdakilerin sayısı hâlâ çok, devam et."
+    },
+    "RD_ALifeLine_1e7784a15dfff096": {
+      "tr": "Al, bunu hak ettin. Dell olsa elini sıkardı."
+    },
+    "RD_ALifeLine_6f019cc018133b00": {
+      "tr": "Kuşatma hâlâ sürüyor, sana henüz bir şey borçlu değiliz."
+    },
+    "RD_ALifeLine_3561ed6c0ae38d4a": {
+      "tr": "Peki, peki, al. Sen de etrafımızı saranlardan farksızsın."
+    },
+    "RD_ALifeLine_5e5f9d2870e4bdfd": {
+      "tr": "Su kulesinin ilerisinde bir teslimat noktası var, yol açık kalırsa."
+    },
+    "RD_ALifeLine_21f5c6e15a85c640": {
+      "tr": "Kalacağını sanmıyordum, biz hallederiz."
+    },
+    "RD_ALifeLine_0cad94d2420af013": {
+      "tr": "Dur bakalım dostum, rutin kontrol. Kimsenin başı belada değil."
+    },
+    "RD_ALifeLine_5d1113652eff5c1b": {
+      "tr": "İyi akşamlar. Geçmeden önce herkesi ısırık izi var mı diye kontrol ediyoruz."
+    },
+    "RD_ALifeLine_3f6c7bfe6c6b80a2": {
+      "tr": "Temizsin, geçebilirsin. Hattın ötesindeki yola dikkat et."
+    },
+    "RD_ALifeLine_2f383fe433acf505": {
+      "tr": "Çoğunlukla ısırık izlerine bakıyoruz; bir de taşıdığı yükü açıklayamayanlara."
+    },
+    "RD_ALifeLine_0426d0de24b7a6a7": {
+      "tr": "İleride 3,2 kilometrelik tehlikeli bir kesim var. Yol kenarında bir ekip bekliyor, etrafından dola.",
+      "not": "2 mil = 3,2 km"
+    },
+    "RD_ALifeLine_1ef4dd661a3de321": {
+      "tr": "Sen bilirsin ama bir dahaki sefere yüzünü tanırız."
+    },
+    "RD_ALifeLine_5b0641b1529cbbe6": {
+      "tr": "Buradan öteye gelme. Verandada bir sürü aylak var, tüfeğim de sana doğrultulmuş."
+    },
+    "RD_ALifeLine_59db40b61de8caff": {
+      "tr": "İşimiz başımızdan aşkın. Yardıma geldiysen çabuk söyle."
+    },
+    "RD_ALifeLine_3f8f38291d20afd0": {
+      "tr": "Kırk kadardılar, belki daha fazla. Alacakaranlıkta yoldan geldiler."
+    },
+    "RD_ALifeLine_48303fd31e55aee0": {
+      "tr": "Öyleyse sol tarafa geç, eğil ve hareket etmeyi sürdür."
+    },
+    "RD_ALifeLine_50aeb0a16f3c7c2b": {
+      "tr": "Sol tarafa! Ahırın etrafından dolanıp duruyorlar."
+    },
+    "RD_ALifeLine_1571ba9d7c6ca1ca": {
+      "tr": "Bir saatliğine kiler senin, bunu hak ettin."
+    },
+    "RD_ALifeLine_1f2d1bb23e7dacad": {
+      "tr": "Henüz olmaz, hâlâ çitin dibindeler."
+    },
+    "RD_ALifeLine_14c57a7d46f935b3": {
+      "tr": "Valla, çok ince davrandın. Annem seni severdi."
+    },
+    "RD_ALifeLine_56b9b08949a3cef6": {
+      "tr": "Yanında hiçbir şey yok ama yine de düşünmen yeter."
+    },
+    "RD_ALifeLine_0836599e32f3af22": {
+      "tr": "Dikkatli ol, bizimle işleri henüz bitmedi."
+    },
+    "RD_ALifeLine_57c0f839200dc5f3": {
+      "tr": "Ya çekip git ya da bedelini öde. Çiftlik işçisinin akıbeti sana bağlı, seçim senin."
+    },
+    "RD_ALifeLine_06478e93631aa7d7": {
+      "tr": "Onu sağ istiyorsan, zahmete değecek bir şey getir."
+    },
+    "RD_ALifeLine_5af14a326443e1af": {
+      "tr": "Seninle iş yapmak güzeldi. Artık senin, al ve git."
+    },
+    "RD_ALifeLine_349c821b3be80cae": {
+      "tr": "Bu yetmez, vaktimizi boşa harcama."
+    },
+    "RD_ALifeLine_414cb5803bb78bb9": {
+      "tr": "Yanlış cevap dostum, hem de çok yanlış."
+    },
+    "RD_ALifeLine_2283bfe57881a24a": {
+      "tr": "Bizim yolumuza çıktı, hepsi bu. Kişisel bir mesele değil."
+    },
+    "RD_ALifeLine_1dece1a025b33557": {
+      "tr": "Akıllıca, yürümeye devam et."
+    },
+    "RD_ALifeLine_0f29e1fa00d0ccd4": {
+      "tr": "Buradayız! Her şeyimiz tükendi, kapıya dayandılar."
+    },
+    "RD_ALifeLine_576707ec1e17b653": {
+      "tr": "Ne olur, sağlık görevlisi burada mahsur kaldı. Yaralılar için bir şeyin var mı?"
+    },
+    "RD_ALifeLine_376822941130ca94": {
+      "tr": "Tanrı'ya şükür! Al bunu, verebileceğimiz tek şey bu."
+    },
+    "RD_ALifeLine_4d2611284d95f872": {
+      "tr": "Bize verecek bir şeyin yok ama yine de durduğun için sağ ol."
+    },
+    "RD_ALifeLine_2dabb5ca42dd7aea": {
+      "tr": "Pencereleri biz tutarız, sen kapıyı temizle."
+    },
+    "RD_ALifeLine_3b3045104d484207": {
+      "tr": "Eşikte hâlâ iki üç aylak var, devam et."
+    },
+    "RD_ALifeLine_4f083395381aa353": {
+      "tr": "Pek bir şey değil ama elle tutulur, al."
+    },
+    "RD_ALifeLine_28bf3426376e42c3": {
+      "tr": "Daha değil, hâlâ kapı eşiğindeler."
+    },
+    "RD_ALifeLine_19d483a84c2633be": {
+      "tr": "Sargı bezimiz yok, antibiyotiğimiz yok; yataklarda da dört yaralı var."
+    },
+    "RD_ALifeLine_4a1e1eba0572739f": {
+      "tr": "Anlıyoruz, dikkatli ol."
+    },
+    "RD_ALifeLine_121b8a9a608eefc4": {
+      "tr": "Hey, hey! Benzinin var mı? Depo kupkuru."
+    },
+    "RD_ALifeLine_65d6f2af06b7bacf": {
+      "tr": "Hey, sen! İki dakikanı ayır, kamyonumuz bozuldu."
+    },
+    "RD_ALifeLine_0a8d662107b746ac": {
+      "tr": "Hayatımızı kurtardın! Al, çok değil ama helalinden."
+    },
+    "RD_ALifeLine_3277a2de30f51992": {
+      "tr": "Yanında bidon yok mu? Tüh, yine de sormaya değerdi."
+    },
+    "RD_ALifeLine_12db786e48151838": {
+      "tr": "İhtiyacımız olan tek şey bu. Bir saate kalmaz motoru çalıştırırız."
+    },
+    "RD_ALifeLine_5b790e28256839c5": {
+      "tr": "Biraz daha zaman ver, neredeyse bitirdik."
+    },
+    "RD_ALifeLine_246688e964c55878": {
+      "tr": "Çalıştı! Al, zahmetine karşılık."
+    },
+    "RD_ALifeLine_196d8cba7f9d56e0": {
+      "tr": "Daha değil, motor hâlâ tekliyor."
+    },
+    "RD_ALifeLine_4fa0f41f5104842d": {
+      "tr": "Kuzeye gidiyorduk, zaten gecikmiş bir yükümüz var."
+    },
+    "RD_ALifeLine_143917457b85af81": {
+      "tr": "Sorun değil, bir sonrakini durdururuz."
+    },
+    "RD_ALifeLine_16898a687e134973": {
+      "tr": "Bugün zaten yemek yedim."
+    },
+    "RD_ALifeLine_2b8c45400728ffd9": {
+      "tr": "Henüz acıkmadım, sağ ol."
+    },
+    "RD_ALifeLine_6450806c53facb76": {
+      "tr": "Bana zaten yemek verdiler."
+    },
+    "RD_ALifeLine_2e048d787d2c67ff": {
+      "tr": "Zaten yemek yedim."
+    },
+    "RD_ALifeLine_0b71b51a061669c9": {
+      "tr": "Olumsuz, yemek yedim."
+    },
+    "RD_ALifeLine_2c9275f947a84d4e": {
+      "tr": "Beni sen doyurdun, unuttun mu?"
+    },
+    "RD_ALifeLine_612936fa4445b0b9": {
+      "tr": "Şimdilik iyiyim."
+    },
+    "RD_ALifeLine_295efbc357b29117": {
+      "tr": "Yemek yedim, başımdan çekil."
+    },
+    "RD_ALifeLine_27b4b785751c4d95": {
+      "tr": "Zaten yemek yedim."
+    },
+    "RD_ALifeLine_68585c6d48fab819": {
+      "tr": "Bana verecek hiçbir şeyin yok mu?"
+    },
+    "RD_ALifeLine_269434312f526742": {
+      "tr": "Beklerim."
+    },
+    "RD_ALifeLine_360c409b3a346ead": {
+      "tr": "Erzak da mı yok, su da mı?"
+    },
+    "RD_ALifeLine_268c36632d538724": {
+      "tr": "Dayanırım."
+    },
+    "RD_ALifeLine_6be6559c2c50b7a4": {
+      "tr": "Elin boş mu geldin? Vay insafsız."
+    },
+    "RD_ALifeLine_16723e2103bf5d5d": {
+      "tr": "Bir şeyler bulup öyle gel."
+    },
+    "RD_ALifeLine_39427c8219a9d0d5": {
+      "tr": "Hiçbir şey mi? Şaşırmadım."
+    },
+    "RD_ALifeLine_23f2477002a0f32a": {
+      "tr": "Öyleyse açlıktan öleyim bari."
+    },
+    "RD_ALifeLine_13165a2b6a50f9c0": {
+      "tr": "Hiçbir şeyin yok mu?"
+    },
+    "RD_ALifeLine_57a0366e36136ee3": {
+      "tr": "Tanrım, buna çok ihtiyacım vardı."
+    },
+    "RD_ALifeLine_3edc0b807d904daf": {
+      "tr": "Pekâlâ, yiyeceğim."
+    },
+    "RD_ALifeLine_7607370c57d762d1": {
+      "tr": "Alındı."
+    },
+    "RD_ALifeLine_211fc56831189cbd": {
+      "tr": "Hah, bütün esirlerini böyle mi besliyorsun?"
+    },
+    "RD_ALifeLine_28a293d84319b504": {
+      "tr": "Pekâlâ, ekmeğini yiyeyim bari."
+    },
+    "RD_ALifeLine_04ad170f7b4d5466": {
+      "tr": "Sakın bu iyiliğin bizi dost yaptığını sanma."
+    },
+    "RD_ALifeLine_21bcbd63224e8548": {
+      "tr": "Açlıktan ölüyordum."
+    },
+    "RD_ALifeLine_6d374ad1205a63a0": {
+      "tr": "Bırak da gideyim."
+    },
+    "RD_ALifeLine_129534eb7d93de1f": {
+      "tr": "Söyleyecek bir şeyim yok."
+    },
+    "RD_ALifeLine_2a46d4b2451f1867": {
+      "tr": "Avukatıma sor."
+    },
+    "RD_ALifeLine_2da4363115ce9aad": {
+      "tr": "Konuşmayacağım."
+    },
+    "RD_ALifeLine_5282bf1c37eb33a9": {
+      "tr": "Adım ve sicil numaram, hepsi bu."
+    },
+    "RD_ALifeLine_01e8c9f32b580a02": {
+      "tr": "Beni korkutamazsın."
+    },
+    "RD_ALifeLine_5ef5ea363499da65": {
+      "tr": "Tek kelime etmeyeceğim."
+    },
+    "RD_ALifeLine_17abfe2f3b1e9fd7": {
+      "tr": "Artık adımın pek kıymeti yok ama hâlâ buradayım."
+    },
+    "RD_ALifeLine_7766b6737b4923ca": {
+      "tr": "Tek istediğim eve dönmekti."
+    },
+    "RD_ALifeLine_0a4f56c146f71773": {
+      "tr": "Hiçbir şey not etme."
+    },
+    "RD_ALifeLine_18d596aa1f0b96e6": {
+      "tr": "İfade istiyorsan alamayacaksın."
+    },
+    "RD_ALifeLine_2af56bd1497c5bf8": {
+      "tr": "Emirlerime uyuyorum."
+    },
+    "RD_ALifeLine_5ae072345439c32b": {
+      "tr": "İşine yarayacak hiçbir şey yok."
+    },
+    "RD_ALifeLine_44685f5044fdef68": {
+      "tr": "Pekâlâ, hiç de beklediğim gibi biri değilmişsin."
+    },
+    "RD_ALifeLine_4e77c92523efdc4e": {
+      "tr": "Yemek insanın moralini biraz düzeltiyor."
+    },
+    "RD_ALifeLine_3ba6bec14bec66e0": {
+      "tr": "Sakın rahatına bakma."
+    },
+    "RD_ALifeLine_674e746a33111a2a": {
+      "tr": "Beni doyurursan dinlerim, hepsi bu."
+    },
+    "RD_ALifeLine_0f9ee8f74075aa1c": {
+      "tr": "Yemek için sağ ol."
+    },
+    "RD_ALifeLine_7c3d63d972157768": {
+      "tr": "Dinlerim, hepsi bu."
+    },
+    "RD_ALifeLine_0b6788f55e57e682": {
+      "tr": "Güneye doğru ilerliyorduk, sonra yolu kestiler."
+    },
+    "RD_ALifeLine_2028905100f0fe43": {
+      "tr": "Ailem oralarda bir yerde."
+    },
+    "RD_ALifeLine_742436ff2a682f98": {
+      "tr": "Devriyedeydim, ağaçların arasından saldırdılar."
+    },
+    "RD_ALifeLine_3cff8478572ec985": {
+      "tr": "Bugün ekip arkadaşımı kaybettim."
+    },
+    "RD_ALifeLine_6b03da5b2f4a143b": {
+      "tr": "Birbirimizden koptuk, mangamdan kimse kalmadı."
+    },
+    "RD_ALifeLine_150b1fea585d969c": {
+      "tr": "Komuta bizi burada kaderimize terk etti."
+    },
+    "RD_ALifeLine_4c10da181d0e18c1": {
+      "tr": "Önce bir iyilikti, sonra işe dönüştü."
+    },
+    "RD_ALifeLine_20ed440317883e0a": {
+      "tr": "Buralarda kimse borcunu bağışlamaz."
+    },
+    "RD_ALifeLine_65834c4100eb2160": {
+      "tr": "Elimize ne geçtiyse aldık, hepsi bu."
+    },
+    "RD_ALifeLine_6a6e7d057bd406ff": {
+      "tr": "Bunu isteyip istemediğimi kimse sormadı."
+    },
+    "RD_ALifeLine_12311bee1394d03a": {
+      "tr": "Tek derdim karnımı doyurmaktı."
+    },
+    "RD_ALifeLine_455e0ac078d86cf5": {
+      "tr": "Her şey bir anda sarpa sardı."
+    },
+    "RD_ALifeLine_78dfcb614694579f": {
+      "tr": "Başımızdakiler kimin canının yandığını umursamıyor."
+    },
+    "RD_ALifeLine_003f28f539fc46d2": {
+      "tr": "Artık uyuyamıyorum."
+    },
+    "RD_ALifeLine_251727682471630d": {
+      "tr": "Amirim hayatta olduğumu bilmiyor."
+    },
+    "RD_ALifeLine_3a27c8e457986a20": {
+      "tr": "Her şeyimiz eksikti."
+    },
+    "RD_ALifeLine_42f89c40712bec5c": {
+      "tr": "Emirler durmadan değişiyordu, kimse nedenini söylemiyordu."
+    },
+    "RD_ALifeLine_430a8765363355d0": {
+      "tr": "İki kez cephanemiz tükendi."
+    },
+    "RD_ALifeLine_372954664b12c804": {
+      "tr": "Patron en iyisini kendine alır, geriye kalanı bize bırakır."
+    },
+    "RD_ALifeLine_7294447e39a08e89": {
+      "tr": "Aylardır buradan kurtulmak istiyordum."
+    },
+    "RD_ALifeLine_67b5fbe10fc1e8d0": {
+      "tr": "Patron bunu öğrenirse derimi yüzer."
+    },
+    "RD_ALifeLine_6f79bfad3c735daf": {
+      "tr": "Senden korkmuyorum, onlardan korkuyorum."
+    },
+    "RD_ALifeLine_2af47e9e7ddca32b": {
+      "tr": "Planı bana hiç anlatmadılar."
+    },
+    "RD_ALifeLine_6f4e989e0410a6f8": {
+      "tr": "Beni öldürebilirdin ama bana yemek verdin. Neden?"
+    },
+    "RD_ALifeLine_0f13197878b69759": {
+      "tr": "Sana borçluyum, farkındayım."
+    },
+    "RD_ALifeLine_591eeb881afbd5d0": {
+      "tr": "Hakkını yemeyeyim, adil davranıyorsun."
+    },
+    "RD_ALifeLine_332a8fb95d60e6aa": {
+      "tr": "Belki de sorun sen değilsindir."
+    },
+    "RD_ALifeLine_6b07004b529ad206": {
+      "tr": "Bana kurallara uygun davrandın, saygı duyarım."
+    },
+    "RD_ALifeLine_0550884a41edc72b": {
+      "tr": "Belki konuşmayı düşünebilirim."
+    },
+    "RD_ALifeLine_3e5dc8646048ac79": {
+      "tr": "Hapishane işletme tarzın bir tuhaf."
+    },
+    "RD_ALifeLine_0908a1744d7a8d80": {
+      "tr": "Giderek fena biri olmadığını düşünmeye başladım."
+    },
+    "RD_ALifeLine_560c71b551f7df96": {
+      "tr": "Bunu benim için daha önce kimse yapmamıştı."
+    },
+    "RD_ALifeLine_73d236dd29bb12d3": {
+      "tr": "Bunu söylediğimi onlara söyleme."
+    },
+    "RD_ALifeLine_08c842024dd5954d": {
+      "tr": "Sözünü tuttun."
+    },
+    "RD_ALifeLine_7f1099081624e1e1": {
+      "tr": "Bazı şeyler biliyor olabilirim."
+    },
+    "RD_ALifeLine_060821c01267d988": {
+      "tr": "Ne istersen sor, cevaplarım."
+    },
+    "RD_ALifeLine_5c4bb3541ef8f36e": {
+      "tr": "Kaçmaktansa senin için savaşmayı yeğlerim."
+    },
+    "RD_ALifeLine_54b88d766d15767d": {
+      "tr": "İş birliği yapacağım, bunu hak ettin."
+    },
+    "RD_ALifeLine_479cb2ec5c3ec8d4": {
+      "tr": "Beni bırakırsan bunu unutmam."
+    },
+    "RD_ALifeLine_0d9506a4223a0da4": {
+      "tr": "Konuşmaya hazırım, ne bilmek istiyorsan sor."
+    },
+    "RD_ALifeLine_10a7ba1f7dce5a29": {
+      "tr": "Senin gibi bir liderin peşinden giderdim."
+    },
+    "RD_ALifeLine_2b44e7a85d4ed6a6": {
+      "tr": "Peki, beni ikna ettin. Sor bakalım."
+    },
+    "RD_ALifeLine_2214bd620b0f7416": {
+      "tr": "İsteseydin seninle gelirdim."
+    },
+    "RD_ALifeLine_5dfcf3cc501be75f": {
+      "tr": "Pes ediyorum, ne istiyorsan sor."
+    },
+    "RD_ALifeLine_5db1b85f17f643e4": {
+      "tr": "Seninle gelirim."
+    },
+    "RD_ALifeLine_4ca72f101387e4c0": {
+      "tr": "Ne istersen sor."
+    },
+    "RD_ALifeLine_74bdd046649830d3": {
+      "tr": "Yanında kalırdım."
+    },
+    "RD_ALifeLine_6e2333f86e482c55": {
+      "tr": "Sana bunu söyleyecek kadar güvenmiyorum."
+    },
+    "RD_ALifeLine_4cf46a1e74743333": {
+      "tr": "Bunu hak etmedin."
+    },
+    "RD_ALifeLine_0fca3d4c3af3c4d1": {
+      "tr": "Sana zaten söyledim."
+    },
+    "RD_ALifeLine_074f6a537c12e733": {
+      "tr": "Bildiğim başka bir şey yok."
+    },
+    "RD_ALifeLine_6ff764c14dd3603e": {
+      "tr": "Onu zaten söyledim."
+    },
+    "RD_ALifeLine_1a534d172c200fd7": {
+      "tr": "Hepsi bu kadar."
+    },
+    "RD_ALifeLine_47d369535aecf304": {
+      "tr": "Raporumu zaten verdim."
+    },
+    "RD_ALifeLine_24df79c22f46eb3f": {
+      "tr": "Başka bir şey yok."
+    },
+    "RD_ALifeLine_1ccd003b040595ee": {
+      "tr": "Bunu sana zaten verdim."
+    },
+    "RD_ALifeLine_4c854fc266324f76": {
+      "tr": "Elimde bundan fazlası yok."
+    },
+    "RD_ALifeLine_14f51028721424a1": {
+      "tr": "Bir kere söyledim ya."
+    },
+    "RD_ALifeLine_427dccd078abab92": {
+      "tr": "Sana söyledim."
+    },
+    "RD_ALifeLine_0a11a19a51cf1caa": {
+      "tr": "Hepsi bu."
+    },
+    "RD_ALifeLine_5511396869849dfc": {
+      "tr": "Onların kaldığı bir yer var, sana yerini gösteririm."
+    },
+    "RD_ALifeLine_0b5bfc1e445334c4": {
+      "tr": "Sana söylerim, yeter ki beni güvende tut."
+    },
+    "RD_ALifeLine_5f3d0668042f80ae": {
+      "tr": "Peki, bildiğim bir karakol var, yerini gösteririm."
+    },
+    "RD_ALifeLine_771d1e994a56df66": {
+      "tr": "Al, haritada işaretleyeyim. Sonra pişman etmeye kalkma."
+    },
+    "RD_ALifeLine_70394a4406fecac3": {
+      "tr": "Koordinatları vereyim, sonra işimiz bitsin."
+    },
+    "RD_ALifeLine_0e4614d20fb5ca0e": {
+      "tr": "Bölge senin, haritana bak."
+    },
+    "RD_ALifeLine_4931bd51679382b7": {
+      "tr": "Peki, dışarıda bir yerde saklanıyorlar. Haritana bak."
+    },
+    "RD_ALifeLine_7deec19013afef8d": {
+      "tr": "Sana gösteririm, böylece ödeşmiş oluruz."
+    },
+    "RD_ALifeLine_5bee057554c476f1": {
+      "tr": "Şurada, işaretledim. Artık benden uzak dur."
+    },
+    "RD_ALifeLine_7cb9f73e4981b363": {
+      "tr": "Orada yatıp kalkıyorlar, ama hoşuna gitmeyecek."
+    },
+    "RD_ALifeLine_346a87ee28425ced": {
+      "tr": "Nerede olduklarını göstereyim."
+    },
+    "RD_ALifeLine_4c16f9fe50dc6ab6": {
+      "tr": "İşaretledim, bir daha sorma."
+    },
+    "RD_ALifeLine_5a891b78660de21d": {
+      "tr": "Gerçekten bilmiyorum."
+    },
+    "RD_ALifeLine_2ed32b463a46e106": {
+      "tr": "Bilseydim söylerdim."
+    },
+    "RD_ALifeLine_3417fb362f466cd4": {
+      "tr": "Yapamam, henüz değil."
+    },
+    "RD_ALifeLine_2865d32b78fd971b": {
+      "tr": "Daha sonra sor."
+    },
+    "RD_ALifeLine_4976ac1c6174a0fc": {
+      "tr": "Bu bilgiye erişim yetkim yok."
+    },
+    "RD_ALifeLine_181f5a716c12f853": {
+      "tr": "Henüz değil, dostum."
+    },
+    "RD_ALifeLine_3af81b7e59b1e97b": {
+      "tr": "Öyle bir yer duymadım."
+    },
+    "RD_ALifeLine_2b70cf6f25510de1": {
+      "tr": "Başkasına sor."
+    },
+    "RD_ALifeLine_2dbf00002d4b0e2b": {
+      "tr": "Hiçbir yerde kalmadık, sürekli dolaştık."
+    },
+    "RD_ALifeLine_3d91d9897eb4c811": {
+      "tr": "Sana gösterebileceğim bir yer yok."
+    },
+    "RD_ALifeLine_713e26b578557ca4": {
+      "tr": "Sabit karakolumuz yok, sürekli yoldayız."
+    },
+    "RD_ALifeLine_7e7bda287715970c": {
+      "tr": "İşaretleyecek bir şey yok."
+    },
+    "RD_ALifeLine_368eb2b4111ccd97": {
+      "tr": "Sabit bir mevzimiz yok."
+    },
+    "RD_ALifeLine_170125341b64df2a": {
+      "tr": "Sana verecek bir şey yok."
+    },
+    "RD_ALifeLine_6ce14afb1a32841c": {
+      "tr": "Kampımız yok, birkaç yol arasında dolanıp duruyoruz."
+    },
+    "RD_ALifeLine_7e7f41de77e53c70": {
+      "tr": "Gösterecek bir şey yok."
+    },
+    "RD_ALifeLine_5e44569d2553a6c2": {
+      "tr": "Bir yerde uzun süre kalmayız."
+    },
+    "RD_ALifeLine_11b01520698ccfde": {
+      "tr": "Hiçbir yer yok."
+    },
+    "RD_ALifeLine_5f8ed59656fdf687": {
+      "tr": "Tamam, tamam, dur. Sana gösteririm."
+    },
+    "RD_ALifeLine_372f0f4e4f51d5f1": {
+      "tr": "Lütfen, yapma. Söyleyeceğim."
+    },
+    "RD_ALifeLine_171af44b00161aae": {
+      "tr": "Peki, söyleyeceğim. Şunu indir."
+    },
+    "RD_ALifeLine_4784262a753ba26f": {
+      "tr": "Bunu benden duymadın."
+    },
+    "RD_ALifeLine_7622a5fa70d6aa78": {
+      "tr": "Peki, istediğin cevabı aldın."
+    },
+    "RD_ALifeLine_39c6c1784e63a398": {
+      "tr": "Konumu vereceğim."
+    },
+    "RD_ALifeLine_520ffd6326de254a": {
+      "tr": "Peki, sen kazandın. Haritana bak."
+    },
+    "RD_ALifeLine_33745c620cb343fa": {
+      "tr": "Sakin ol, sakin. Söyleyeceğim."
+    },
+    "RD_ALifeLine_24b807bc6d80d5fb": {
+      "tr": "Lanet olsun, peki! Haritada işaretli."
+    },
+    "RD_ALifeLine_057b39324366f397": {
+      "tr": "Peki, tamam, söylüyorum."
+    },
+    "RD_ALifeLine_0e11651d5205ae46": {
+      "tr": "Dur, sana göstereceğim."
+    },
+    "RD_ALifeLine_3ff0cf8e072e89f5": {
+      "tr": "Yapamam, gerçekten bilmiyorum."
+    },
+    "RD_ALifeLine_4af6664c0afd6802": {
+      "tr": "Ne yaparsan yap, bilmiyorum."
+    },
+    "RD_ALifeLine_38052a9633c6db29": {
+      "tr": "Hiçbir şey söylemeyeceğim."
+    },
+    "RD_ALifeLine_44492fd523f5032b": {
+      "tr": "Hadi, yapacağını yap. Kolay kolay korkmam."
+    },
+    "RD_ALifeLine_486414fb60a15f18": {
+      "tr": "Annem gibi vuruyorsun."
+    },
+    "RD_ALifeLine_2f1a344d37b7011f": {
+      "tr": "Yap bakalım, yine de ağzımı açmam."
+    },
+    "RD_ALifeLine_501f89b21a3da26c": {
+      "tr": "Teşekkür ederim, bunu unutmayacağım."
+    },
+    "RD_ALifeLine_5e00c54963661609": {
+      "tr": "Sessizce giderim."
+    },
+    "RD_ALifeLine_631bcd460c5d6d59": {
+      "tr": "Anlaşıldı, gidiyorum."
+    },
+    "RD_ALifeLine_32ff08425b0de3ec": {
+      "tr": "Bir daha dönmeyeceğim."
+    },
+    "RD_ALifeLine_727995b06f45993c": {
+      "tr": "Anlaşıldı, ayrılıyorum."
+    },
+    "RD_ALifeLine_67915a656b7cf81f": {
+      "tr": "Yani gitmeme izin veriyorsun, öyle mi?"
+    },
+    "RD_ALifeLine_3e0588dc4c777add": {
+      "tr": "Sana bir iyilik borçlandım."
+    },
+    "RD_ALifeLine_6c7c189229513587": {
+      "tr": "Bunun için senden hoşlanmamı bekleme."
+    },
+    "RD_ALifeLine_158dc9b476659936": {
+      "tr": "Ben gidiyorum."
+    },
+    "RD_ALifeLine_063b86005737b712": {
+      "tr": "Ne olur, onlara teslim etme beni."
+    },
+    "RD_ALifeLine_23d6781a7373bf01": {
+      "tr": "Ne derlerse yaparım."
+    },
+    "RD_ALifeLine_65510e7e7c461ce4": {
+      "tr": "Bunun hesabını vereceğim."
+    },
+    "RD_ALifeLine_7aca6dae46eef1e3": {
+      "tr": "Gözaltına alındım, kayda geçti."
+    },
+    "RD_ALifeLine_3f8461ad658bab10": {
+      "tr": "Onlara hesap vereceğim."
+    },
+    "RD_ALifeLine_3c07fa411ec6fca6": {
+      "tr": "Berbat bir anlaşma ama peki."
+    },
+    "RD_ALifeLine_5ea52add37a8ffcc": {
+      "tr": "Her neyse, artık bitti."
+    },
+    "RD_ALifeLine_07bfd55e614f1d45": {
+      "tr": "Bunu yapma."
+    },
+    "RD_ALifeLine_550c5a08545a9240": {
+      "tr": "Lütfen, hayır."
+    },
+    "RD_ALifeLine_4908242353bdd2ae": {
+      "tr": "Taraf değiştiremem."
+    },
+    "RD_ALifeLine_5f583e6c17c488ba": {
+      "tr": "Seninle gelirim, bana adil davrandın."
+    },
+    "RD_ALifeLine_3e34ec4d523c3a4c": {
+      "tr": "Seninle gelirim, bana karşı dürüst davrandın."
+    },
+    "RD_ALifeLine_77d177cc62a240c7": {
+      "tr": "Emirlerine uyacağım, artık senin emrindeyim."
+    },
+    "RD_ALifeLine_10df468b44665bd0": {
+      "tr": "Seninleyim, pişman etme beni."
+    },
+    "RD_ALifeLine_1f6a246c0e49fc9b": {
+      "tr": "Hayır, ne olur."
+    },
+    "RD_ALifeLine_571a7fde160805f7": {
+      "tr": "Sakın yapma."
+    },
+    "RD_ALifeLine_5b40368d5fb6b4f5": {
+      "tr": "Öyleyse yap."
+    },
+    "RD_ALifeLine_57740920089e159d": {
+      "tr": "Bitir şu işi."
+    },
+    "RD_ALifeLine_0d0af6f71e6a6110": {
+      "tr": "Yap."
+    },
+    "RD_ALifeLine_7735fc780be1b72c": {
+      "tr": "Yap hadi, korkak."
+    },
+    "RD_ALifeLine_41a75a753d7b72aa": {
+      "tr": "Tetiği çek."
+    },
+    "RD_ALifeLine_6e0f481f73f177a7": {
+      "tr": "Bu kanaldaki hayatta kalanın dikkatine, Knox bölgesinde bir kişiyi arıyoruz, adını söyle, kiminle konuştuğumuzu bilmemiz gerekiyor."
+    },
+    "RD_ALifeLine_3779dda26859d706": {
+      "tr": "ABD ordusu tekrar hatta, teklifimiz hâlâ geçerli, adını söyle."
+    },
+    "RD_ALifeLine_4165a8ca3bdfd990": {
+      "tr": "Kim olduğumuz seni ilgilendirmez, önce adını söyle, sonra sorduğun her şeyi yanıtlarım."
+    },
+    "RD_ALifeLine_702be8b50220d209": {
+      "tr": "Bir daha söyle, hayatta kalan, açık kanaldasın, herkes seni duyuyor."
+    },
+    "RD_ALifeLine_502033d7311ef948": {
+      "tr": "Hatta birinin olduğunu biliyorum, hat açık, bir şey söyle, adını söylemen yeter."
+    },
+    "RD_ALifeLine_5b874cba7e715d2b": {
+      "tr": "İzini sürmek kolay... Uzun zamandır yoldasın, hâlâ hayattasın."
+    },
+    "RD_ALifeLine_3c0c9dd813724bdf": {
+      "tr": "Adın dilden dile dolaşıyor, yoldakiler senden söz ediyor, çoğunlukla da iyi şeyler."
+    },
+    "RD_ALifeLine_2089643f08bd9eb1": {
+      "tr": "Adın hoşumuza gitmeyen dosyalarda geçti, bundan bir anlam çıkarma."
+    },
+    "RD_ALifeLine_50c6a5eb7061e525": {
+      "tr": "Açık kanal demek açık kanal demektir, bu frekanstaki her hayatta kalan ve her grup bizi duyuyor, yağmacılar, askerler, elinde telsiz olan çocuklar, hepsi."
+    },
+    "RD_ALifeLine_4eceace35509349f": {
+      "tr": "Yanında kaç kişi var?, Yerimiz kısıtlı, önce teklifi anlatayım, sonra sayıyı konuşuruz."
+    },
+    "RD_ALifeLine_0e7e5df7584572a4": {
+      "tr": "Sakin ol, sakin... Ben Yüzbaşı Ruiz, telsiz operatörüm kurallara harfiyen uyuyor, dışarıdaki bir hayatta kalanın izini kaybettik, bir isme ihtiyacım var, konuştuğum kişinin sen olduğunu bilmeliyim."
+    },
+    "RD_ALifeLine_1b7f31c845b8576e": {
+      "tr": "Doğrulama kodu Kestrel Nine, açık kanalda alacağın bilgi bu kadar."
+    },
+    "RD_ALifeLine_4390d3aa4fae23d4": {
+      "tr": "YETER ARTIK, Ben Yüzbaşı Ruiz, bunu kayda geçirmek zorunda olan benim, sözünü geri alman için son şansın."
+    },
+    "RD_ALifeLine_4a636aeb56248ddd": {
+      "tr": "Ruiz konuşuyor, lafı dolandırmadan anlatacağım."
+    },
+    "RD_ALifeLine_709ca0557780c932": {
+      "tr": "Uzun menzilli telsizlerimiz devre dışı, hâlâ çalışan tek frekans bu, benim de hoşuma gitmiyor, inan bana."
+    },
+    "RD_ALifeLine_70a4c71a53af2680": {
+      "tr": "Yanına taşıyabildiğin kadarını al, seni yavaşlatacak hiçbir şey alma, silahların üzerinde kalsın, gün başlamadan önce yiyip uyu."
+    },
+    "RD_ALifeLine_688e40d654caf64b": {
+      "tr": "Otuz dakikan var, fazlası yok, sonra helikopter havalanır ve yakıtımız kalırsa üç gün sonra yeniden deneriz."
+    },
+    "RD_ALifeLine_5b8be1e44e46ad2d": {
+      "tr": "Yanında kaç kişi var?, Yerimiz kısıtlı, bir kişiden fazlasına yer ayarlayabileceğime söz veremem."
+    },
+    "RD_ALifeLine_5a2b065132ebc95e": {
+      "tr": "Çünkü telsiz bağlantısı kesildiğinde hat da onlarla birlikte kapanacak, bunu sana söylememem gerekiyordu."
+    },
+    "RD_ALifeLine_1ef26d8f7f0f0d9c": {
+      "tr": "Bir kez daha soracağım... Emin misin?, Adına ayrılmış bir koltuk var, Oris Kulesi'nin çatısı, saat 14.00, üç gün sonra."
+    },
+    "RD_ALifeLine_3eb4f1dd05049aac": {
+      "tr": "Bir yatak, yemek, bir doktor ve sağlam bir duvar, karantina hattının gerisinde güvenli bir bölge, kimse geçmişini sorgulamayacak."
+    },
+    "RD_ALifeLine_54b7c0a660780127": {
+      "tr": "Saklanacak bir yer ve temiz bir sayfa, dosyanı olduğu gibi bırakacağım."
+    },
+    "RD_ALifeLine_2ea6595317bfba99": {
+      "tr": "Knox kordonun dışında kaldı, elimizdeki mevzileri koruyoruz, karantina hattı kimse için değişmez, ne senin için ne benim için."
+    },
+    "RD_ALifeLine_6941223e7ca498ea": {
+      "tr": "Ben Yüzbaşı Ruiz, Üçüncü Takviye Birliği'ndenim, ilk ayda birliğimi kaybettim, duymak istediğin insanlardan geriye kalan tek kişi benim."
+    },
+    "RD_ALifeLine_7b5f83950e95d444": {
+      "tr": "Hayır... Yukarı çıkarken başkalarıyla karşılaşacaksın, o yüzden dikkatli ol dedim, o kulede yaşayanlar bizim davetlimiz değil."
+    },
+    "RD_ALifeLine_79ee97a91af31a64": {
+      "tr": "Tuzak için yem gerekir, sen de açlıktan bitap düşmüş bir hayatta kalansın, bunun için bir helikopteri harcamayız."
+    },
+    "RD_ALifeLine_7df46e4841f64427": {
+      "tr": "Çünkü bunca zamandan sonra hâlâ hayattasın, hayatta kalmayı bilen insanlara ihtiyacımız var."
+    },
+    "RD_ALifeLine_33dd691821161e31": {
+      "tr": "Çünkü insanlar senin peşinden geliyor, bu desteğin hattın bizim tarafında olmasını istiyoruz."
+    }
+  }
+}

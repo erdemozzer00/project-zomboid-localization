@@ -1,0 +1,413 @@
+# PAKET G1R · parça 20/35 · satır 6720-7067 (348 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar oyunda şu an skill'den önceki eski bir çeviriyle görünüyor; sıfırdan, İngilizceden kur. Her başlığın altındaki 'NEREDE:' oyuncunun bu sözle nasıl karşılaştığını, '#' notu sahneyi anlatır. Önce bunları oku, satırı o anda o yerde duyulacak sözle yaz.
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+##### PARTY_JOIN_NO_OPINION #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncunun ekibine katılmayı reddediyor (gerekçesi olay adında: güven yok, tehlike, lider izin vermez, yer yok, başka yerde işi var).
+6720 | reg=civilian,family,worker,rescue | I don't know you well enough yet, ask me again after we've talked a little
+6721 | reg=civilian,family,worker,rescue | Not yet, I've got people to look out for, and I only just met you
+6722 | reg=civilian,family,worker,rescue | Maybe later, give it a few days and let me see how you carry yourself
+6723 | reg=civilian,family,worker,rescue | I don't know you yet, give me a day or two, okay? I'm not trying to be rude
+6724 | reg=civilian,family,worker,rescue | Hey, I want to say yes, I do, I just... I need to see how you act first
+6725 | reg=civilian,family,worker,rescue | Not yet, not yet, I'm sorry, ask me again in a bit, once we've talked more
+6726 | reg=civilian,family,worker,rescue | I'd love to but I've been wrong about people before, bad wrong, you understand?
+6727 | reg=civilian,family,worker,rescue | Let me get a good look at you first, then we'll see
+6728 | reg=civilian,family,worker,rescue | We only just met, give it a while... don't take it personal, I mean
+6729 | reg=civilian,family,worker,rescue | I can't say yes to someone I know nothing about, you get that, right?
+6730 | reg=civilian,family,worker,rescue | Maybe later, hang around, show me who you are
+6731 | reg=civilian,family,worker,rescue | I just met you ten minutes ago, how do I know you won't steal my shoes?
+6732 | reg=civilian,family,worker,rescue | Not yet, I'd like to see how you handle yourself, no offense
+6733 | reg=civilian,family,worker,rescue | I've got people depending on me, I can't risk a stranger, yet
+6734 | reg=civilian,family,worker,rescue | Ask me tomorrow, once you've proven you're not a lunatic
+6735 | reg=civilian,family,worker,rescue | Come back in a couple days, show me what you're made of
+6736 | reg=civilian,family,worker,rescue | I want to say yes, I really do, but my gut says wait
+6737 | reg=civilian,family,worker,rescue | I don't know you well enough to put your name next to mine
+6738 | reg=civilian,family,worker,rescue | I know nothing about you, give me a couple of days, and I'll tell you if I trust you
+6739 | reg=civilian,family,worker,rescue | No offense, but you could be anyone, you could be a murderer
+6740 | reg=civilian,family,worker,rescue | I'd love to say yes, but I need to watch you first
+6741 | reg=civilian,family,worker,rescue|tmp=fresh | Oh, um, I don't know you yet, can you give it a day or two? I'm sorry, I'm just careful
+6742 | reg=civilian,family,worker,rescue|tmp=fresh | I want to say yes, I really do, but I need to know you first
+6743 | reg=civilian,family,worker,rescue|tmp=fresh | Maybe later, maybe, once we've talked more, is that okay?
+6744 | reg=civilian,family,worker,rescue|tmp=fresh | I'm sorry, I'm sorry, I'm just not sure, can you give me time?
+6745 | reg=civilian,family,worker,rescue|tmp=seasoned | We just met, hang around a few days, then we'll talk
+6746 | reg=civilian,family,worker,rescue|tmp=seasoned | I don't take people I haven't watched, and I haven't watched you
+6747 | reg=civilian,family,worker,rescue|tmp=seasoned | Not yet, kid, earn it
+6748 | reg=civilian,family,worker,rescue|tmp=veteran | Not yet
+6749 | reg=family | Give it time, dear, we'll see
+6750 | reg=family | Child, we've only just met, sit and talk with us a while first
+
+##### PARTY_JOIN_NO_ROOM #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncunun ekibine katılmayı reddediyor (gerekçesi olay adında: güven yok, tehlike, lider izin vermez, yer yok, başka yerde işi var).
+6751 | reg=civilian,family,worker,rescue | We're packed already, any more and we can't feed everyone
+6752 | reg=civilian,family,worker,rescue | There's no room, we have too many mouths as it is
+6753 | reg=civilian,family,worker,rescue | I wish I could, but there isn't enough food or floor for one more
+6754 | reg=civilian,family,worker,rescue | We're packed tight as it is, I'm so sorry, there's no room, we can't feed another mouth
+6755 | reg=civilian,family,worker,rescue | I wish I could say yes, honestly I do, but we're full up, not an inch to spare
+6756 | reg=civilian,family,worker,rescue | I'd take you in a heartbeat if we had the beds, we don't, I'm sorry
+6757 | reg=civilian,family,worker,rescue | We're full, there's no more room, believe me, I hate saying that
+6758 | reg=civilian,family,worker,rescue | There's no space, we've barely got enough food as it is, I'm sorry, I really am
+6759 | reg=civilian,family,worker,rescue | Not right now, we're maxed out, ask again if someone leaves
+6760 | reg=civilian,family,worker,rescue | Aw hell, I hate this, we can't take anyone else, we're bursting at the seams
+6761 | reg=civilian,family,worker,rescue | We're crammed like pickles in a jar, there's no space, I'm so sorry
+6762 | reg=civilian,family,worker,rescue | Every bed is taken, every blanket, every spoon, I'm sorry
+6763 | reg=civilian,family,worker,rescue | I wish I could, we've barely got enough air as it is
+6764 | reg=civilian,family,worker,rescue | There's no more room in the lifeboat, sorry
+6765 | reg=civilian,family,worker,rescue | We'd gladly take you if we had the food, we don't
+6766 | reg=civilian,family,worker,rescue|tmp=fresh | I'm so sorry, we're completely full, I wish I could squeeze you in, I really do
+6767 | reg=civilian,family,worker,rescue|tmp=fresh | There's just no space, we're stacked like sardines, I'm so sorry
+6768 | reg=civilian,family,worker,rescue|tmp=fresh | I'd take you in a heartbeat, but we're packed in as it is
+6769 | reg=civilian,family,worker,rescue|tmp=seasoned | No room, no food, no beds, ask another group
+6770 | reg=civilian,family,worker,rescue|tmp=seasoned | We're at capacity, sorry
+6771 | reg=family | We're bursting, dear, bless you for asking
+6772 | reg=family|world=building | We're packed to the rafters, dear, perhaps the next group
+
+##### PARTY_JOIN_NO_TRUST #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncunun ekibine katılmayı reddediyor (gerekçesi olay adında: güven yok, tehlike, lider izin vermez, yer yok, başka yerde işi var).
+6773 | reg=civilian,family,worker,rescue | No, after what I've heard about you? No
+6774 | reg=civilian,family,worker,rescue | Sorry, I can't, folks around here don't trust you, and neither do I
+6775 | reg=civilian,family,worker,rescue | I don't think so, something about you worries me
+6776 | reg=civilian,family,worker,rescue | I don't think so, people talk, and what they say about you scares me
+6777 | reg=civilian,family,worker,rescue | Please don't be offended, but no, I can't have you around us
+6778 | reg=civilian,family,worker,rescue | No way, after what I heard, no way, I'm sorry, goodbye
+6779 | reg=civilian,family,worker,rescue | Oh God, no, I know who you are, please just go
+6780 | reg=civilian,family,worker,rescue | I'd say yes if I hadn't heard what you did, but I did, so no
+6781 | reg=civilian,family,worker,rescue | You're not coming near us, I mean it, go find somewhere else
+6782 | reg=civilian,family,worker,rescue | That's a no, and please don't make me say it twice
+6783 | reg=civilian,family,worker,rescue | I've heard things about you, bad things, and I'm sorry, I can't
+6784 | reg=civilian,family,worker,rescue | No, no, I know your face from the stories, please just go
+6785 | reg=civilian,family,worker,rescue | My gut says no, and my gut's been right every single time
+6786 | reg=civilian,family,worker,rescue | I can't put everyone at risk... please understand
+6787 | reg=civilian,family,worker,rescue | After what you did to that family? Absolutely not
+6788 | reg=civilian,family,worker,rescue | You may be a decent person underneath, but I can't take the chance
+6789 | reg=civilian,family,worker,rescue | Everyone says you're dangerous, I can't ignore everyone
+6790 | reg=civilian,family,worker,rescue | There's a story going around about you, and it's not a nice one
+6791 | reg=civilian,family,worker,rescue | I wish I could trust you, I really do, but I can't
+6792 | reg=civilian,family,worker,rescue | I don't trust you around us... can't you understand that?
+6793 | reg=civilian,family,worker,rescue | Not after what happened at the last place, no
+6794 | reg=civilian,family,worker,rescue|rep=good | I want to trust you, I do, but I've got too many people counting on me, I'm sorry
+6795 | reg=civilian,family,worker,rescue|tmp=fresh | Please don't be mad, but I'm scared of you, and I can't join with someone I'm scared of
+6796 | reg=family | I'm sorry, dear, but the Lord tells me no, and I've learned to listen
+6797 | reg=civilian,family,worker,rescue|rep=worst | No!! No no no, I know who you are, I know exactly who you are, GO AWAY
+6798 | reg=civilian,family,worker,rescue|rep=worst | Not you, anybody but you, please go, please
+6799 | reg=civilian,family,worker,rescue|rep=bad | I've heard what you did, and no, I won't have it near my family
+6800 | reg=civilian,family,worker,rescue|rep=bad | Your reputation says it all, the answer's no
+6801 | reg=civilian,family,worker,rescue|rep=bad | Sorry, but I can't trust someone who's done what you've done
+
+##### PARTY_JOIN_OK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncunun ekibine katılmayı kabul ediyor.
+6802 | reg=civilian,family,worker,rescue | Come on, then, fair warning, we move when the light is good
+6803 | reg=civilian,family,worker,rescue | Welcome aboard, don't wander off and don't get us killed
+6804 | reg=civilian,family,worker,rescue | Yeah, come on, we could use somebody else, God knows we could, welcome
+6805 | reg=civilian,family,worker,rescue | Oh thank God, another living person... c'mon, stick with us
+6806 | reg=civilian,family,worker,rescue | You're in, and I'm not just saying that, I mean it, we're glad you're here
+6807 | reg=civilian,family,worker,rescue | Sure you can, we got a spare blanket and half a can of peaches
+6808 | reg=civilian,family,worker,rescue | Fine by me, but what we find gets split, no hoarding
+6809 | reg=civilian,family,worker,rescue | Hell yes, the more the merrier, we've been talking to ourselves for days
+6810 | reg=civilian,family,worker,rescue | Sure thing, sit with us, tell us where you've been, I'm dying to hear a new voice
+6811 | reg=civilian,family,worker,rescue | Okay, you're with us, don't wander off, don't be a hero, just be here
+6812 | reg=civilian,family,worker,rescue | You're staying? Good, good... I mean it, I feel better already
+6813 | reg=civilian,family,worker,rescue | Yes! Yes, of course, welcome to the... whatever we are, the group, welcome
+6814 | reg=civilian,family,worker,rescue | Honestly? We're short on hands, and you've got two, welcome
+6815 | reg=civilian,family,worker,rescue | You look honest, and I've been wrong before, but I'll take the chance
+6816 | reg=civilian,family,worker,rescue | Can you shoot? No? Can you carry? Yes? Great, you're in
+6817 | reg=civilian,family,worker,rescue | Come on, we've got a spare mattress, well, half a mattress
+6818 | reg=civilian,family,worker,rescue | You know what? Yes, yes, I need somebody to talk to besides Gary
+6819 | reg=civilian,family,worker,rescue | We're headed to a safer spot, you can tag along, but keep up
+6820 | reg=civilian,family,worker,rescue | Stick with us, and if it goes bad, split left, we'll find you
+6821 | reg=civilian,family,worker,rescue | Welcome to the group, we're nobody special, but we're alive
+6822 | reg=civilian,family,worker,rescue | I like you, don't ask me why, I just do, you're in
+6823 | reg=civilian,family,worker,rescue | I'll vouch for you to the others, don't make me look stupid
+6824 | reg=civilian,family,worker,rescue | Sure, as long as you're okay with canned corn for every meal
+6825 | reg=civilian,family,worker,rescue | Fine, you're in, but you're taking the worst watch
+6826 | reg=civilian,family,worker,rescue | You're hired, as it were, no pay, great benefits, mostly death
+6827 | reg=civilian,family,worker,rescue | Please, please stay, we've been so alone, please stay
+6828 | reg=civilian,family,worker,rescue | Come on in, we've got room, and we've got hearts, kind of
+6829 | reg=civilian,family,worker,rescue | Hell, why not? We were running out of people to complain to
+6830 | reg=civilian,family,worker,rescue | You're quiet, I like quiet, welcome
+6831 | reg=civilian,family,worker,rescue | I won't lie, I was hoping you'd ask, welcome home
+6832 | reg=civilian,family,worker,rescue | You're hired, as the group's official worrier
+6833 | reg=civilian,family,worker,rescue|tmp=fresh | YES!! Oh my God, yes, come on, come with us!
+6834 | reg=civilian,family,worker,rescue|tmp=fresh | Oh my God, really? Okay, okay, welcome, welcome, I'm so happy, I'm gonna cry
+6835 | reg=civilian,family,worker,rescue|tmp=fresh | Stick close, I'll introduce you... they're nice, mostly
+6836 | reg=civilian,family,worker,rescue|tmp=fresh | You're in, you're in, don't make me regret it, and don't leave, okay?
+6837 | reg=civilian,family,worker,rescue|tmp=fresh | Finally, someone who doesn't want to rob us, welcome aboard
+6838 | reg=civilian,family,worker,rescue|tmp=fresh | Yes!! Yes yes yes, please, stay, I don't want to be the youngest anymore
+6839 | reg=civilian,family,worker,rescue|tmp=fresh | Thank goodness, I was hoping you'd say that
+6840 | reg=civilian,family,worker,rescue|tmp=fresh | Seriously? You'd join us? We're not very good at this
+6841 | reg=civilian,family,worker,rescue|tmp=fresh | Yes, YES, stay, please... I'm so tired of crying by myself
+6842 | reg=civilian,family,worker,rescue|tmp=seasoned | You're in, but you pull your weight, nobody rides free
+6843 | reg=civilian,family,worker,rescue|tmp=seasoned | C'mon, and mind your mouth around the others
+6844 | reg=civilian,family,worker,rescue|tmp=seasoned | We need the hands, so quit talking and grab a bag
+6845 | reg=civilian,family,worker,rescue|tmp=seasoned | Welcome, I guess, don't make me regret it
+6846 | reg=civilian,family,worker,rescue|tmp=seasoned | You're in, you're in, but if you steal my socks I'll kill you
+6847 | reg=civilian,family,worker,rescue|tmp=veteran | You're in, follow my lead
+6848 | reg=civilian,family,worker,rescue|tmp=veteran | Welcome, stay sharp
+6849 | reg=family | Oh honey, of course you can, we'd love the company
+6850 | reg=family | There's always room for one more at our table
+6851 | reg=family | You'll need a bowl and a spoon, we've got extras, welcome home, dear
+6852 | reg=family | Our door's open, our table's set, there's always one more chair
+6853 | reg=civilian,family,worker,rescue|world=road | Deal... you watch my back I'll watch the road
+6854 | reg=family|world=road | You can't sleep in the road, come in, we'll fatten you up
+
+##### PARTY_KICK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bu NPC oyuncunun ekibinde ya da ekibe girmek istiyor; oyuncuya konuşuyor, 'sen'.
+6855 | reg=civilian,family,worker,rescue | I don't trust you any more, go on, leave us be
+6856 | reg=civilian,family,worker,rescue | That's it, I'm sorry, but you're done, you can't stay with us, please go
+6857 | reg=civilian,family,worker,rescue | I can't have you around anymore, not after that, leave, please, just leave
+6858 | reg=civilian,family,worker,rescue | No more, I'm sorry, we're not doing this, we can't trust you, go
+6859 | reg=civilian,family,worker,rescue | You're out, and I mean it, get away from us before somebody gets hurt
+6860 | reg=civilian,family,worker,rescue | Please go, I don't want to do this but I will, go on, go
+6861 | reg=civilian,family,worker,rescue | That's it, pack up and go, you've worn out your welcome
+6862 | reg=civilian,family,worker,rescue | I'm sorry, but I can't keep covering for you, please leave
+6863 | reg=civilian,family,worker,rescue | You almost got us killed, and I can't forgive that
+6864 | reg=civilian,family,worker,rescue | We trusted you, and you ruined it, go on, go
+6865 | reg=civilian,family,worker,rescue | You crossed the line, and I can't forgive that, go
+6866 | reg=civilian,family,worker,rescue | You made your choice, now live with it, out
+6867 | reg=civilian,family,worker,rescue | I don't care where you go, as long as it's away from us
+6868 | reg=civilian,family,worker,rescue|tmp=fresh | I'm so sorry, I'm so, so sorry, but you can't stay with us, please go
+6869 | reg=civilian,family,worker,rescue|tmp=fresh | Please leave, please, I can't do this, you're scaring us
+6870 | reg=civilian,family,worker,rescue|tmp=fresh | I'm so sorry, I don't want to do this, but you have to go
+6871 | reg=civilian,family,worker,rescue|tmp=seasoned | That's enough, you're out, pack your stuff and go
+6872 | reg=civilian,family,worker,rescue|tmp=seasoned | You blew it, I'm sorry, but you blew it
+6873 | reg=family | Go, child, go, I'm sorry, go
+6874 | reg=family | Go, child, before somebody gets hurt
+
+##### PARTY_LAG #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bu NPC oyuncunun ekibinde ya da ekibe girmek istiyor; oyuncuya konuşuyor, 'sen'.
+6875 | reg=civilian,family,worker,rescue | Over here! Stay closer, please
+6876 | reg=civilian,family,worker,rescue | You're falling behind, stay where we can see you
+6877 | reg=civilian,family,worker,rescue | Come ON, come on, keep up!
+6878 | reg=civilian,family,worker,rescue | HEY!! Pick it up, you're gonna get us killed!
+6879 | reg=civilian,family,worker,rescue | Hurry, hurry, we can't wait!
+6880 | reg=civilian,family,worker,rescue | Where are you?! Keep UP!
+6881 | reg=civilian,family,worker,rescue | Don't fall behind, please, don't fall behind!
+6882 | reg=civilian,family,worker,rescue | Wait- wait- someone's lagging!
+6883 | reg=civilian,family,worker,rescue | Hurry up, hurry up, you're too far back!
+6884 | reg=civilian,family,worker,rescue | Hey! Hey, keep up, we're not waiting forever, come ON!
+6885 | reg=civilian,family,worker,rescue | Where are you?! Hurry up, you're falling behind!
+6886 | reg=civilian,family,worker,rescue | We can't stop here, move it, move it!
+6887 | reg=civilian,family,worker,rescue | Come on, come on, I don't want to leave you out here alone!
+6888 | reg=civilian,family,worker,rescue | Wait for you? No, no, you wait for US, keep up!
+6889 | reg=civilian,family,worker,rescue | Somebody go back for them, they're slow, God, hurry up
+6890 | reg=civilian,family,worker,rescue | Catch up!! They'll hear us if we shout, so hurry!
+6891 | reg=civilian,family,worker,rescue | Come on, come on, we can't wait, we can't wait!
+6892 | reg=civilian,family,worker,rescue | Where are you? Hurry up, we're leaving without you!
+6893 | reg=civilian,family,worker,rescue | Don't dawdle, there's no time!
+6894 | reg=civilian,family,worker,rescue | Hey!! Catch up!! Please!!
+6895 | reg=civilian,family,worker,rescue | Faster, faster, they'll find us if we're slow
+6896 | reg=civilian,family,worker,rescue | Why are you so far back? Close it up!
+6897 | reg=civilian,family,worker,rescue | Hurry, hurry, we're exposed here!
+6898 | reg=civilian,family,worker,rescue|tmp=fresh | Hurry up!! Please hurry, I don't like being this far from you!
+6899 | reg=civilian,family,worker,rescue|tmp=fresh | Wait- wait- someone's far behind, someone's not keeping up!
+6900 | reg=civilian,family,worker,rescue|tmp=fresh | Please don't be left behind, please hurry
+6901 | reg=civilian,family,worker,rescue|tmp=seasoned | Move your feet, move your feet, we're not stopping for you
+6902 | reg=civilian,family,worker,rescue|tmp=seasoned | Let's go, let's go, quit dragging
+
+##### PARTY_LEAVE_OK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bu NPC oyuncunun ekibinde ya da ekibe girmek istiyor; oyuncuya konuşuyor, 'sen'.
+6903 | reg=civilian,family,worker,rescue | Go safe, if you ever need us, you know where we camp
+6904 | reg=civilian,family,worker,rescue | Aw, hell, I'll miss having you around, go careful, alright
+6905 | reg=civilian,family,worker,rescue | Go on, then... and if it all goes to hell, you know where we are
+6906 | reg=civilian,family,worker,rescue | Yeah, go on, we'll manage, we'll be right here if you come back
+6907 | reg=civilian,family,worker,rescue | You're LEAVING?! Ah, damn it... fine, go, just don't die on me
+6908 | reg=civilian,family,worker,rescue | Go on, then, and if things go bad, you know where we are
+6909 | reg=civilian,family,worker,rescue | Damn, we'll miss you, we really will, take some water with you at least
+6910 | reg=civilian,family,worker,rescue | Go with God then... I'll pray for you, I will
+6911 | reg=civilian,family,worker,rescue | It was nice having you, really, come back if you can
+6912 | reg=civilian,family,worker,rescue | I'll miss your terrible jokes, I will
+6913 | reg=civilian,family,worker,rescue | Take care, and don't forget us, we won't forget you
+6914 | reg=civilian,family,worker,rescue | Fine, we'll make do, we always have
+6915 | reg=civilian,family,worker,rescue | Just promise me you'll write, wait, there's no mail, never mind
+6916 | reg=civilian,family,worker,rescue | Safe travels, and if you see my brother, tell him I'm alive
+6917 | reg=civilian,family,worker,rescue | It's been good knowing you, really, take care, take care
+6918 | reg=civilian,family,worker,rescue | I'll light a candle for you, I'm not even religious, but I will
+6919 | reg=civilian,family,worker,rescue | Come back and tell us stories, if you can
+6920 | reg=civilian,family,worker,rescue | Go on, we'll manage, we always do, somehow
+6921 | reg=civilian,family,worker,rescue|world=road | Take what you need for the road, I hope we cross paths again
+6922 | reg=civilian,family,worker,rescue|world=road | Safe travels, hope you make it where you're going
+6923 | reg=civilian,family,worker,rescue|tmp=fresh | I'll miss you, you know that? Go careful, please
+6924 | reg=civilian,family,worker,rescue|tmp=fresh | You're leaving?! Already? Okay, okay, go, go, be safe, be so safe
+6925 | reg=civilian,family,worker,rescue|tmp=fresh | Bye, bye, take a canteen, take something, please take something
+6926 | reg=civilian,family,worker,rescue|tmp=fresh | I'm gonna cry... bye, go, go before I lose it
+6927 | reg=civilian,family,worker,rescue|tmp=fresh | I'm gonna miss you so much, don't forget us, please
+6928 | reg=civilian,family,worker,rescue|tmp=seasoned | Safe travels, don't let it get to you out there
+6929 | reg=civilian,family,worker,rescue|tmp=seasoned | Go on, then, we'll be here if you change your mind
+6930 | reg=civilian,family,worker,rescue|tmp=seasoned | Take care, and say hi to the dead for me, ha, I'm kidding, mostly
+6931 | reg=family | Go with God, and come back to us, you hear?
+6932 | reg=family|world=road | Go on, child, and may your road be easy
+
+##### PARTY_LEFT_BEHIND #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Bu NPC oyuncunun ekibinde ya da ekibe girmek istiyor; oyuncuya konuşuyor, 'sen'.
+6933 | reg=civilian,family,worker,rescue | We waited as long as we could, we're moving on without you
+6934 | reg=civilian,family,worker,rescue | I hope you're alive out there, we have to go
+6935 | reg=civilian,family,worker,rescue | We can't wait any longer, I'm sorry, we're moving on, I hope you find us
+6936 | reg=civilian,family,worker,rescue | They're gone, I'm sorry, we couldn't wait, we just couldn't
+6937 | reg=civilian,family,worker,rescue | We tried, we really tried, but we have to go, I hope you're alright
+6938 | reg=civilian,family,worker,rescue | Gone... they didn't keep up, God, I hate this, but we have to move
+6939 | reg=civilian,family,worker,rescue | We waited as long as we could, I'm so sorry, we had to go
+6940 | reg=civilian,family,worker,rescue | They're not coming, are they? I hate this, I hate it
+6941 | reg=civilian,family,worker,rescue | We can't keep waiting, it's too dangerous, move on
+6942 | reg=civilian,family,worker,rescue | We're sorry, we really are, but we can't risk everyone for one
+6943 | reg=civilian,family,worker,rescue | We'll remember you, I promise, we'll remember you
+6944 | reg=civilian,family,worker,rescue|tmp=fresh | We can't wait for them, we CAN'T, God forgive me, we gotta go
+6945 | reg=civilian,family,worker,rescue|tmp=fresh | They're not keeping up, oh God... we're gonna have to leave 'em
+6946 | reg=civilian,family,worker,rescue|tmp=fresh | God, we left 'em back there... I feel sick about it
+6947 | reg=civilian,family,worker,rescue|tmp=seasoned | That's it, we're done waiting, move out
+6948 | reg=civilian,family,worker,rescue|tmp=seasoned | We gave them every chance, let's go
+
+##### PARTY_STORY_BUSY #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bir hikaye/anı anlatmasını istedi; cevap.
+6949 | - | Hang on, we're already in the middle of one
+6950 | - | Shh, let him finish
+6951 | - | One at a time, friend
+6952 | reg=civilian,family,worker,rescue | Shh, someone's already telling one, listen
+6953 | reg=civilian,family,worker,rescue | Hold on, let them finish, then you can have your turn
+6954 | reg=civilian,family,worker,rescue | Quiet, quiet, we're in the middle of a story
+6955 | reg=civilian,family,worker,rescue | Shh, shh, let him finish
+6956 | reg=civilian,family,worker,rescue | Hold on, I'm in the middle of one
+6957 | reg=civilian,family,worker,rescue | Wait your turn
+6958 | reg=civilian,family,worker,rescue | Hold on, let him finish, we're in the best part
+
+##### PARTY_STORY_DANGER #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bir hikaye/anı anlatmasını istedi; cevap.
+6959 | reg=civilian,family,worker,rescue | Not with them this close, maybe when it's quiet
+6960 | reg=civilian,family,worker,rescue | I can't think of anything with that out there
+6961 | reg=civilian,family,worker,rescue | Are you kidding? Look around
+6962 | reg=civilian,family,worker,rescue | Are you kidding?! With those things out there? Not now, not now
+6963 | reg=civilian,family,worker,rescue | We can't, not with them so close, shh, quiet
+6964 | reg=civilian,family,worker,rescue | Later, when it's safe, okay? Shh
+6965 | reg=civilian,family,worker,rescue | Not now, they're too close, shh
+6966 | reg=civilian,family,worker,rescue | Later, when we're safe, please
+6967 | reg=civilian,family,worker,rescue | No stories while they're out there
+6968 | reg=civilian,family,worker,rescue | Not now, not with those things around, be quiet
+6969 | reg=civilian,family,worker,rescue|tmp=fresh | Not with them so close!! Shh!
+6970 | reg=civilian,family,worker,rescue|tmp=seasoned | Not now, too risky
+
+##### PARTY_STORY_NO #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bir hikaye/anı anlatmasını istedi; cevap.
+6971 | reg=civilian,family,worker,rescue | I'm not much for stories right now
+6972 | reg=civilian,family,worker,rescue | Maybe later, my head's elsewhere
+6973 | reg=civilian,family,worker,rescue | Not at the moment, I'm sorry
+6974 | reg=civilian,family,worker,rescue | I can't, my head's somewhere else, you tell one
+6975 | reg=civilian,family,worker,rescue | No, no, I'm too tired, ask me later
+6976 | reg=civilian,family,worker,rescue | Not now, I'd just start crying, and nobody wants that
+6977 | reg=civilian,family,worker,rescue | I can't, my head's too full of other things
+6978 | reg=civilian,family,worker,rescue | Sorry, I'm not in the mood, ask me in the morning
+6979 | reg=civilian,family,worker,rescue | I can't, sorry, I'd tear up
+6980 | reg=civilian,family,worker,rescue|hour=16,5 | Not tonight, I'm sorry, I don't have it in me, maybe tomorrow
+6981 | reg=civilian,family,worker,rescue|hour=16,5 | Not tonight, I'm too tired, someone else
+6982 | reg=civilian,family,worker,rescue|hour=16,5 | Not tonight, my heart's not in it
+6983 | reg=civilian,family,worker,rescue|tmp=fresh|hour=16,5 | I can't tonight, I just can't, I'm sorry
+6984 | reg=civilian,family,worker,rescue|tmp=fresh|hour=16,5 | I'd cry, I know I'd cry, not tonight
+6985 | reg=civilian,family,worker,rescue|tmp=fresh | Not now, maybe tomorrow
+6986 | reg=civilian,family,worker,rescue|tmp=seasoned | Not in the mood
+6987 | reg=family|hour=16,5 | Not tonight, dear
+
+##### PARTY_STORY_YES #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bir hikaye/anı anlatmasını istedi; cevap.
+6988 | reg=civilian,family,worker,rescue | My dad hid twenty bucks in his boot. Mom found it in the wash, then charged him for supper
+6989 | reg=civilian,family,worker,rescue | Oh, all right, I could use a story myself
+6990 | reg=civilian,family,worker,rescue | Gather around, then, I know a few
+6991 | reg=civilian,family,worker,rescue | Got one, it's kind of sad though... you'll like it anyway
+6992 | reg=civilian,family,worker,rescue | Gather round, this one's about my uncle, you'll like it
+6993 | reg=civilian,family,worker,rescue | I'll tell one, it's the only way to stop thinking about, well, everything
+6994 | reg=civilian,family,worker,rescue | Alright, you asked for it, settle in
+6995 | reg=civilian,family,worker,rescue | Why not? It's been too quiet around here anyway
+6996 | reg=civilian,family,worker,rescue | Sure, I have one, it's long and it's mostly true
+6997 | reg=civilian,family,worker,rescue | You asked for it, no interruptions
+6998 | reg=civilian,family,worker,rescue | I'll tell it, but it's a sad one, you've been warned
+6999 | reg=civilian,family,worker,rescue | Alright, listen up, this one's a little funny, a little sad
+7000 | reg=civilian,family,worker,rescue | Sure, I'll tell you one, it's about my first love, God help me
+7001 | reg=civilian,family,worker,rescue | I've got one, it's silly, so don't laugh, okay, laugh a little
+7002 | reg=civilian,family,worker,rescue | Let me think, yes, got one, it's about a duck, don't ask
+7003 | reg=civilian,family,worker,rescue|tmp=fresh | Oh, I've got one, it's a good one, okay, okay, settle in
+7004 | reg=civilian,family,worker,rescue|tmp=fresh | But don't laugh at me, I'm not a good storyteller
+7005 | reg=civilian,family,worker,rescue|tmp=fresh | I'm not great at this, but I'll try, bear with me
+7006 | reg=civilian,family,worker,rescue|tmp=seasoned | Why not, nothing else to do
+7007 | reg=civilian,family,worker,rescue|tmp=seasoned | Gather round, this one's true
+7008 | reg=family | Come sit with me... I've got a story
+7009 | reg=family | Come closer, loves, I've got a good one
+
+##### PARTY_TASK_CLEAR #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncunun verdiği görev (yiyecek/su/ilaç bul, keşif, nöbet vb.) hakkında oyuncuya.
+7010 | reg=civilian,family,worker,rescue|world=road | Those things keep wandering up the street, could you thin them out? Six should do
+7011 | reg=civilian,family,worker,rescue | Would you deal with some of the dead nearby? We'll feel safer
+7012 | reg=civilian,family,worker,rescue | I hate asking, but we need some of them put down, six, maybe
+7013 | reg=civilian,family,worker,rescue | There are some of them lurking near us, could you put them down? I can't do it, I just can't
+7014 | reg=civilian,family,worker,rescue | Please, those things near the camp, would you take care of them? I'm too scared
+7015 | reg=civilian,family,worker,rescue | They keep creeping closer, could you deal with them? I'll owe you big
+7016 | reg=civilian,family,worker,rescue | Get rid of the ones near us, please, I can't sleep with them shuffling out there
+7017 | reg=civilian,family,worker,rescue | Those things keep creeping closer, could you take care of them? I can't
+7018 | reg=civilian,family,worker,rescue | Please, put the nearby dead ones down, I can't sleep with them around
+7019 | reg=civilian,family,worker,rescue | Clear the area for us, will you? Quietly, if possible
+7020 | reg=civilian,family,worker,rescue | Please clear the area, those things are too close
+7021 | reg=civilian,family,worker,rescue | I can't sleep with them nearby, would you handle it?
+7022 | reg=civilian,family,worker,rescue|tmp=fresh | Please, could you get rid of the ones near us? I can't sleep with them shuffling around
+7023 | reg=civilian,family,worker,rescue|tmp=fresh | I know it's a lot to ask, but could you deal with them? I'm too scared
+7024 | reg=civilian,family,worker,rescue|tmp=seasoned | Clear the dead ones near us, quietly
+
+##### PARTY_TASK_DONE #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncunun verdiği görev (yiyecek/su/ilaç bul, keşif, nöbet vb.) hakkında oyuncuya.
+7025 | reg=civilian,family,worker,rescue | That's exactly what we needed, thank you
+7026 | reg=civilian,family,worker,rescue | Good work, you've earned a place with us
+7027 | reg=civilian,family,worker,rescue | You did it?! Oh thank God, thank you, thank you, I don't know what we'd do without you
+7028 | reg=civilian,family,worker,rescue | That's wonderful, really, wonderful, you're a lifesaver, truly
+7029 | reg=civilian,family,worker,rescue | Look at you, coming through for us, I knew it, I knew you would
+7030 | reg=civilian,family,worker,rescue | Damn, that's more than I expected, thanks, honestly, thank you
+7031 | reg=civilian,family,worker,rescue | You did good, you did really good, sit down, rest, you've earned it
+7032 | reg=civilian,family,worker,rescue | Oh, you saved my bacon, thank you
+7033 | reg=civilian,family,worker,rescue | You're amazing, you know that? You're absolutely amazing
+7034 | reg=civilian,family,worker,rescue | That's just what we needed, you're a lifesaver
+7035 | reg=civilian,family,worker,rescue | You did it!! I didn't think you would, hell, I'm happy
+7036 | reg=civilian,family,worker,rescue | Thanks, truly, we're lucky to have you
+7037 | reg=civilian,family,worker,rescue | Thank you, thank you, thank you, I can breathe again
+7038 | reg=civilian,family,worker,rescue | Look at you, you're a miracle, a real miracle
+7039 | reg=civilian,family,worker,rescue | You're amazing, truly, we couldn't have done it without you
+7040 | reg=civilian,family,worker,rescue | Hell yes!! You did it!! Come here, come here, give me a hug
+7041 | reg=civilian,family,worker,rescue|tmp=fresh | You did it?! You really did it! Oh thank God, thank you, THANK you!
+7042 | reg=civilian,family,worker,rescue|tmp=fresh | That's amazing, I can't believe it, you came through, you actually came through
+7043 | reg=civilian,family,worker,rescue|tmp=fresh | Oh my God, you did it!! You did it!! I could kiss you
+7044 | reg=civilian,family,worker,rescue|tmp=seasoned | Good work, appreciate it, you earned your supper
+7045 | reg=civilian,family,worker,rescue|tmp=seasoned | Damn, you did it, thanks, I owe you
+7046 | reg=family | Oh child, what would we have done without you
+7047 | reg=family | Bless you, child, bless you, the Lord keeps good people
+7048 | reg=civilian,family,worker,rescue|hour=16,5 | You came through, I knew you would, I'll sleep tonight
+
+##### PARTY_TASK_FAIL #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncunun verdiği görev (yiyecek/su/ilaç bul, keşif, nöbet vb.) hakkında oyuncuya.
+7049 | reg=civilian,family,worker,rescue | That didn't work out, did it? It's all right, just be careful next time
+7050 | reg=civilian,family,worker,rescue | I wish you'd made it, we'll have to do it ourselves
+7051 | reg=civilian,family,worker,rescue | Oh no, it's okay, it's okay, don't beat yourself up, we'll figure it out
+7052 | reg=civilian,family,worker,rescue | We were counting on that, but... it's alright, it'll be alright, somehow
+7053 | reg=civilian,family,worker,rescue | That's a shame, I'd hoped... never mind, we'll manage
+7054 | reg=civilian,family,worker,rescue | Damn it, no, it's not your fault, don't look at me like that, it's not
+7055 | reg=civilian,family,worker,rescue | You couldn't do it, huh? Okay, okay, deep breath, we'll try something else
+7056 | reg=civilian,family,worker,rescue | It's okay, it's okay, we'll figure out another way
+7057 | reg=civilian,family,worker,rescue | Damn, we needed that, but it's not your fault
+7058 | reg=civilian,family,worker,rescue | Don't beat yourself up, tomorrow's another chance
+7059 | reg=civilian,family,worker,rescue | I wish it had worked, but I'm not mad, I'm just sad
+7060 | reg=civilian,family,worker,rescue | No, no, don't blame yourself, it's okay, we'll figure it out
+7061 | reg=civilian,family,worker,rescue | We tried, that's what counts, we tried
+7062 | reg=civilian,family,worker,rescue | Don't cry, please, it's alright, it's alright
+7063 | reg=civilian,family,worker,rescue|tmp=fresh | Oh no, it's okay, it's not your fault, we'll try something else
+7064 | reg=civilian,family,worker,rescue|tmp=fresh | It didn't work? That's alright, that's alright, we'll find another way
+7065 | reg=civilian,family,worker,rescue|tmp=fresh | Oh no, oh no, it's alright, please don't cry, it's alright
+7066 | reg=civilian,family,worker,rescue|tmp=seasoned | Damn, that's too bad, we needed that
+7067 | reg=civilian,family,worker,rescue|tmp=seasoned | It happens, don't beat yourself up

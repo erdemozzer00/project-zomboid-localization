@@ -1,0 +1,13 @@
+{
+ "_baslik": "Konuşma cevapları: oyuncunun konuşma penceresinden seçtiği konuya NPC'nin cevabı (selam, veda, teşekkür, takip et/bekle/gel/git, kapı, katılma, teklif, tehdit, iltifat, özür…)",
+ "_genel": "Olay adı OYUNCUNUN konuşma menüsünden seçtiği konu/eylem (GREETING = oyuncu selam verdi, FAREWELL = vedalaştı, THANKS = teşekkür etti, FOLLOW = 'beni takip et' dedi, WAIT = 'bekle', COME = 'gel', GO = 'git', STOP = 'dur', INSULT = hakaret etti, THREATEN = tehdit etti, COMPLIMENT = iltifat etti, SORRY = özür diledi, DEMAND = bir şey talep etti, HANDS = 'ellerini kaldır', WHO = 'sen kimsin', HOW = 'nasılsın'…); satır NPC'nin buna cevabı. Bütün rollerden NPC'ler (sivil, aile, kolluk, asker, haydut, çete…); kim konuştuğu reg/role etiketinde, oyuncuya tutumu st etiketinde. NPC DOĞRUDAN OYUNCUYA konuşuyor: tekil 'sen'. Sesi role ve tutuma göre kur (sivil ürkek ya da sıcak, asker/polis kısa ve mesafeli, haydut kaba).",
+ "WXQ_*": "Oyuncu 'hava nasıl' diye sordu; olayın sonu şu anki havayı gösterir (RAIN yağmur, HOT sıcak, SNOW kar, STORM fırtına, COLD soğuk, CLEAR açık, FOG sis).",
+ "COLDQ_*": "Oyuncu 'üşüyor musun' diye sordu; olayın sonu NPC'nin durumunu gösterir (SICK hasta, FREEZING donuyor, CHILLED üşümeye başladı, WELL_COLD hava soğuk ama giyinik, WELL_MILD hava ılık).",
+ "NPC_OPEN": "Oyuncu konuşma penceresini açtı; NPC'nin ilk karşılaması.",
+ "NPC_ANSWER_*": "Az önce NPC oyuncuya bir şey sormuştu (nasıl idare ediyorsun, nereye gidiyorsun, yol temiz mi); olayın sonu oyuncunun cevabını gösterir, satır NPC'nin buna tepkisi (PRIVATE = oyuncu söylemek istemedi, DEAD = yolda ölüler var, UNKNOWN = bilmiyor).",
+ "PLAYER_*": "Oyuncu kendi durumunu söyledi: PLAYER_BITTEN = ısırıldım, PLAYER_HURT = yaralıyım, PLAYER_SAD = üzgünüm, PLAYER_SCARED = korkuyorum, PLAYER_TIRED_HUNGRY = yorgun/açım. Satır NPC'nin tepkisi.",
+ "TELL_STORY": "Oyuncu 'bir şey anlat' dedi; NPC kendi hayatından kısa bir anı anlatıyor.",
+ "TELL_JOKE": "Oyuncu 'bir fıkra/şaka anlat' dedi; NPC şaka yapıyor. Esprinin işini Türkçede gören söz bul, birebir çevirme.",
+ "TELL_NAME": "Oyuncu adını söyledi; NPC'nin tepkisi.",
+ "SMALL_TALK": "Oyuncu laf arası sohbet açtı; NPC gündelik, eski günlere dair bir şey söylüyor."
+}

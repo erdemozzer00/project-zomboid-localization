@@ -1,0 +1,35 @@
+{
+  "_paket": "KS1 — kısa sözcük denetimi: harita ipucu / yoldaş sayfası sözcükleri (IG_UI)",
+  "_dosya": "IG_UI",
+  "_surum_farki": true,
+  "satirlar": {
+    "IGUI_ALifeUI_14834b90263b8507": {
+      "tr": "kişi",
+      "not": "'people': harita ipucu başlığı 'Ad - {n} person/people, durum' (ALifeSquadMapTooltip.lua:206); 'insanlar' '5 insanlar' çıkıyordu, Türkçede sayıdan sonra tekil: '5 kişi'. CompanionRules'taki 'people' yalnız mantık anahtarı, ekranda görünmez."
+    },
+    "IGUI_ALifeUI_0059783c35eae848": {
+      "tr": "kalan süre",
+      "not": "'in': 'Sıradaki tim' satırı, 'in ~2 h (game time)' (SquadMapTooltip.lua:238); 'içinde ~2 sa' sıra olarak bozuktu, 'arrives in' = 'varışına kalan' ile aynı kalıpta: 'kalan süre ~2 sa (oyun saati)'."
+    },
+    "IGUI_ALifeUI_005978fa35eaeb52": {
+      "tr": "/",
+      "not": "'of': 'Görevdeki timler' satırı, '{çıkan} of {sınır}' (SquadMapTooltip.lua:241); 'ait' '2 ait 4' çıkıyordu → '2 / 4'."
+    },
+    "IGUI_ALifeUI_3440dcbf1f6fb3ff": {
+      "tr": "Yemek pişirme",
+      "not": "'Cooking': yoldaş sayfasında beceri etiketi ve konuşma düğmesi etiketi; kardeşleri (Marangozluk, Yakın dövüş, Müzik) büyük harfle başlıyor, 'yemek pişirme' küçük harfliydi."
+    },
+    "IGUI_ALifeUI_76ea3b03763ed0be": {
+      "tr": "Mekanik",
+      "not": "'Mechanics': yoldaş sayfasında beceri etiketi; büyük harfle başlamalı (Marangozluk, Müzik gibi)."
+    },
+    "IGUI_ALifeUI_0fa5ea463808917d": {
+      "tr": "yiyecek arıyor",
+      "not": "'foraging' (küçük harf): harita ipucunda faaliyet fiili ('Yapılan: …'), kardeşleri fiil çekimli (kaçıyor, avlanıyor); 'yiyecek arama' isimdi. Beceri etiketi 'Foraging' ayrı anahtar (Toplayıcılık)."
+    },
+    "IGUI_ALifeUI_0fd1544c2d532e03": {
+      "tr": "yakında",
+      "not": "'nearby': harita ipucu başlığında 'Ad - 3 kişi, nearby' durumu (SquadMapTooltip.lua:207); çevirisi hiç yoktu (ILERLEME'de 'görünmez' sayılmıştı, görünür). 'far away' = 'çok uzakta' karşılığı."
+    }
+  }
+}

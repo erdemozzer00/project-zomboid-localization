@@ -1,0 +1,1232 @@
+{
+ "_paket": "Y12",
+ "_grup": "arayuz_b12a",
+ "_dosya": "IG_UI",
+ "_plan": "B12a",
+ "_noktalama": false,
+ "_bosluk_koru": true,
+ "_baslik": "1.5.0 Oluşturucu ekranı ve ayar ipuçları (IG_UI)",
+ "_parcalar": [
+  [
+   1,
+   117
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "IGUI_ALifeUI_211b8073209fae9f",
+   "Clear the search or press NEW",
+   [
+    "ALifeCreatorDense.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "2": [
+   "IGUI_ALifeUI_30c46556150d71f3",
+   "Press NEW to make the first one",
+   [
+    "ALifeCreatorDense.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "3": [
+   "IGUI_ALifeUI_0a2d9b82406fb227",
+   "Pick one on the left or press NEW",
+   [
+    "ALifeCreatorDense.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "4": [
+   "IGUI_ALifeUI_24fe9c574817bc21",
+   "No faction selected",
+   [
+    "ALifeCreatorDense.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "5": [
+   "IGUI_ALifeUI_2c29fb5e66d92b84",
+   "Every member has a weapon and ammo",
+   [
+    "ALifeCreatorDense.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "6": [
+   "IGUI_ALifeUI_49f3a1a7036454ff",
+   "Clear the filter to see everyone",
+   [
+    "ALifeCreatorDense.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "7": [
+   "IGUI_ALifeUI_6a473fb21588849f",
+   "No members match",
+   [
+    "ALifeCreatorDense.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "8": [
+   "IGUI_ALifeUI_0df3b2ca73fc8a91",
+   "Add the first one",
+   [
+    "ALifeCreatorDense.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "9": [
+   "IGUI_ALifeUI_52da3ade288d9dce",
+   "No members in this faction yet",
+   [
+    "ALifeCreatorDense.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "10": [
+   "IGUI_ALifeUI_7be8a99a08c1aed3",
+   "No faction selected: pick one or press NEW",
+   [
+    "ALifeCreatorDense.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "11": [
+   "IGUI_ALifeUI_38eee6ba23ff90d9",
+   "Ctrl+S saves now",
+   [
+    "ALifeCreatorDense.lua",
+    "hint",
+    "hint"
+   ]
+  ],
+  "12": [
+   "IGUI_ALifeUI_0ba934982ca0ae67",
+   "Both sit on the same body spot, one hides the other",
+   [
+    "ALifeCreatorWardrobeCard.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "13": [
+   "IGUI_ALifeUI_72704be05166c7b0",
+   "They would clip through each other",
+   [
+    "ALifeCreatorWardrobeCard.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "14": [
+   "IGUI_ALifeUI_5bc313bd5d0f02c9",
+   "Not in the clothing guide, no season or role rating",
+   [
+    "ALifeCreatorWardrobeCard.lua",
+    "note",
+    "note"
+   ]
+  ],
+  "15": [
+   "IGUI_ALifeUI_59eb8b3d507f4ff3",
+   "Warmth",
+   [
+    "ALifeCreatorWardrobeCard.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "16": [
+   "IGUI_ALifeUI_0ca3b92134b2af5f",
+   "Role fit",
+   [
+    "ALifeCreatorWardrobeCard.lua",
+    "role",
+    "role"
+   ]
+  ],
+  "17": [
+   "IGUI_ALifeUI_0b4ab0f21afe88f7",
+   "Collides with {name}",
+   [
+    "ALifeCreatorWardrobeCard.lua",
+    "head",
+    "head"
+   ]
+  ],
+  "18": [
+   "IGUI_ALifeUI_6e3744844361b122",
+   "{slot} slot",
+   [
+    "ALifeCreatorWardrobeCard.lua",
+    "slot",
+    "slot"
+   ]
+  ],
+  "19": [
+   "IGUI_ALifeUI_492d13fd782b75e3",
+   "COLLIDES",
+   [
+    "ALifeCreatorWardrobeCard.lua",
+    "label",
+    "label"
+   ]
+  ],
+  "20": [
+   "IGUI_ALifeUI_6ef2993878829c88",
+   "Default car ({car})",
+   [
+    "ALifeCreatorFactionSupport.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "21": [
+   "IGUI_ALifeUI_4ef79ff52ff5467b",
+   "{name} - {seats} seats",
+   [
+    "ALifeCreatorFactionSupport.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "22": [
+   "IGUI_ALifeUI_18e59112623e5bf0",
+   "{car} (not installed)",
+   [
+    "ALifeCreatorFactionSupport.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "23": [
+   "IGUI_ALifeUI_765bb6887d72e232",
+   "MUSIC: MUTED",
+   [
+    "ALifeCreatorQuiet.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "24": [
+   "IGUI_ALifeUI_189c9809246c7bc3",
+   "MUSIC: ON",
+   [
+    "ALifeCreatorQuiet.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "25": [
+   "IGUI_ALifeUI_7f86303b583184a1",
+   "Menu music is muted while the Creator is open. Click to hear it again",
+   [
+    "ALifeCreatorQuiet.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "26": [
+   "IGUI_ALifeUI_4321ec32136dc8b2",
+   "NPC RESTORED",
+   [
+    "ALifeCreatorUxSafety.lua",
+    "ui",
+    "ui"
+   ]
+  ],
+  "27": [
+   "IGUI_ALifeUI_2e5a1a0d036ccf94",
+   "A-Life Diagnostics was left on, so it was switched off. Turn it on again in Options > Project A-Life",
+   [
+    "ALifeMenuPrefs.lua",
+    "?",
+    "-"
+   ]
+  ],
+  "28": [
+   "IGUI_ALifeUI_7e05a7420418a009",
+   "A-Life Diagnostics switched itself off after 30 minutes. Turn it on again in Options > Project A-Life",
+   [
+    "ALifeMenuPrefs.lua",
+    "?",
+    "-"
+   ]
+  ],
+  "29": [
+   "IGUI_ALifeUI_70f097470aa3f675",
+   "Right-click an A-Life NPC to edit it.",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "30": [
+   "IGUI_ALifeUI_7c89327b5c693351",
+   "NPCs",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "31": [
+   "IGUI_ALifeUI_085ab11b526cfe93",
+   "Diagnostics is off - tick it in Options",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "32": [
+   "IGUI_ALifeUI_06d858143e94ec0f",
+   "Turn it on under A-Life > Diagnostics or in Options > Project A-Life. It slows the game, so leave it off unless you are testing.",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "33": [
+   "IGUI_ALifeUI_5e1f839609680798",
+   "Tolliver Freight",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "34": [
+   "IGUI_ALifeUI_408b3f23055691b9",
+   "Six Mile Boys",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "35": [
+   "IGUI_ALifeUI_75349dc719809bb6",
+   "Dell Tolliver - Freight Boss",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "36": [
+   "IGUI_ALifeUI_54252ee2209b3d81",
+   "Wade Pruitt - Six Mile Boss",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "37": [
+   "IGUI_ALifeUI_50f5cfa14bb79b7b",
+   "Curtis - Six Mile Gunman",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "38": [
+   "IGUI_ALifeUI_539aae920385034f",
+   "Lyle - Six Mile Lookout",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "39": [
+   "IGUI_ALifeUI_42e5aa855cb639a4",
+   "Ronnie - Six Mile Gunman",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "40": [
+   "IGUI_ALifeUI_64376ba44e7cbd92",
+   "Tolliver Freight - Driver",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "41": [
+   "IGUI_ALifeUI_76a5b78f74dedd5a",
+   "Tolliver Freight - Loader",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "42": [
+   "IGUI_ALifeUI_7fa3d2d80acc4681",
+   "A Black Hawk that hovers near you, lowers its ladder and puts its squad on the ground to attack, then flies on. Used for backup calls in place of the helicopter some of the time; weight 0.",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "43": [
+   "IGUI_ALifeUI_0b88032b172d7542",
+   "MAX",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "44": [
+   "IGUI_ALifeUI_27f590f72f19dc15",
+   "Optional",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "45": [
+   "IGUI_ALifeUI_17a0d13f4fe85b41",
+   "Up: LEVEL {level} at {score}, {left} to go",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "46": [
+   "IGUI_ALifeUI_19b39e572c5bcb55",
+   "Down: LEVEL {level} at {score}, {left} to go",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "47": [
+   "IGUI_ALifeUI_0c6a37ec6859b88c",
+   "NPC damage {value}%%",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "48": [
+   "IGUI_ALifeUI_32de927129dd3e0c",
+   "NPC health {value}%%",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "49": [
+   "IGUI_ALifeUI_3afb9dd222ef0765",
+   "Jobs on offer: {percent}%% of people",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "50": [
+   "IGUI_ALifeUI_67c1e28263a800db",
+   "{name}, {faction}",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "51": [
+   "IGUI_ALifeUI_4bc6f7f77c4b70ed",
+   "{faction} moved through {place} twice this week",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "52": [
+   "IGUI_ALifeUI_6e0b9f627c57e724",
+   "Folks say a {faction} man went down {where}. Nobody saw who",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "53": [
+   "IGUI_ALifeUI_5d2edc57711ac2f1",
+   "{faction} lost somebody {where} this week. A stranger did it, they say",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "54": [
+   "IGUI_ALifeUI_4b44b1284e1f9ef9",
+   "Somebody put a {faction} runner in the ground {where}. Keep your head down around them",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "55": [
+   "IGUI_ALifeUI_4bd497d220769676",
+   "A {faction} crew hit a house {where}. Took everything",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "56": [
+   "IGUI_ALifeUI_4ece85ce1cf9e297",
+   "Heard shooting {where}, that was {faction}",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "57": [
+   "IGUI_ALifeUI_3c077e9c23d1a331",
+   "{faction} are organized now. Raids, not scavenging",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "58": [
+   "IGUI_ALifeUI_15607a21314f7aa9",
+   "Raid on: {faction}, {waves} waves left",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "59": [
+   "IGUI_ALifeUI_38cbf1aa6250638a",
+   "Scouts about: {faction} are sizing someone up",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "60": [
+   "IGUI_ALifeUI_4fa694130c6fd6a4",
+   "NPC damage {damage}%%, up to {hostile} hostile NPCs, survivor pool {census}",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "61": [
+   "IGUI_ALifeHint_tier_veryLight",
+   "Very light",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "62": [
+   "IGUI_ALifeHint_tier_standard",
+   "Standard",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "63": [
+   "IGUI_ALifeHint_tier_boss",
+   "Boss level",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "64": [
+   "IGUI_ALifeHint_tierLine_veryLight",
+   "Drops almost at once, a hit or two",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "65": [
+   "IGUI_ALifeHint_tierLine_light",
+   "Softer than most NPCs",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "66": [
+   "IGUI_ALifeHint_tierLine_standard",
+   "A normal NPC, the default",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "67": [
+   "IGUI_ALifeHint_tierLine_tough",
+   "Takes a beating, a notch above normal",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "68": [
+   "IGUI_ALifeHint_tierLine_tank",
+   "Hard to put down, expect a long fight",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "69": [
+   "IGUI_ALifeHint_tierLine_boss",
+   "Boss level, soaks up a lot of lead",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "70": [
+   "IGUI_ALifeHint_hpValue",
+   "{hp} HP",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "71": [
+   "IGUI_ALifeHint_hpHits",
+   "Rifle: about {rifle} body hits. Pistol: about {pistol}",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "72": [
+   "IGUI_ALifeHint_hpWorld",
+   "In game after world scaling: about {hp} HP",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "73": [
+   "IGUI_ALifeHint_hpCompanion",
+   "Hired as a companion it gets {mult} times this",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "74": [
+   "IGUI_ALifeHint_healthHP",
+   "Base HP, 0 to 200. 0 uses the default of {hp}. The world health setting and the NPC class scale it on spawn",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "75": [
+   "IGUI_ALifeHint_strength",
+   "Strength, 1 to 10. Harder melee hits and heavier shoves",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "76": [
+   "IGUI_ALifeHint_endurance",
+   "Endurance, 1 to 10. Fights and runs longer before getting winded",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "77": [
+   "IGUI_ALifeHint_awareness",
+   "Awareness, 1 to 10. Notices zombies, players and noise sooner",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "78": [
+   "IGUI_ALifeHint_aiming",
+   "Aiming, 1 to 10. Tighter groups and fewer missed shots",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "79": [
+   "IGUI_ALifeHint_aimPlayerPercent",
+   "Accuracy against players. 100 is normal, 50 misses a lot, 200 rarely misses. The world aim difficulty stacks on top",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "80": [
+   "IGUI_ALifeHint_aimZombiePercent",
+   "Accuracy against zombies. 100 is normal, lower wastes more ammo",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "81": [
+   "IGUI_ALifeHint_damageOutput",
+   "Weapon damage dealt. 100 is normal, 50 is half, 200 is double",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "82": [
+   "IGUI_ALifeHint_damageReduction",
+   "Incoming damage blocked. At 25 it takes 75 percent of each hit. The cap is 90",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "83": [
+   "IGUI_ALifeHint_dropWeaponChance",
+   "Chance its weapon drops on death. Not a spawn chance, pick weapons in Gear. Always keeps issued weapons, Off removes them",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "84": [
+   "IGUI_ALifeHint_dropArmorChance",
+   "Chance worn armor drops on death. None 0, Very Low 5, Low 20, Moderate 50, High 75, Very High 90, Always 100",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "85": [
+   "IGUI_ALifeHint_dropWeaponCondition",
+   "Condition of the dropped weapon out of 10. Higher is closer to new",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "86": [
+   "IGUI_ALifeHint_armorCondition",
+   "Condition of the dropped armor out of 10. Higher is closer to new",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "87": [
+   "IGUI_ALifeHint_supportPolicy",
+   "Who may call backup. Use faction setting follows the faction, Disabled means this NPC never calls",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "88": [
+   "IGUI_ALifeHint_supportType",
+   "How called backup arrives: ground vehicle, helicopter, or either",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "89": [
+   "IGUI_ALifeHint_supportHeli",
+   "Helicopter role for backup. Squad insertion drops a crew, Spotlight lights the target",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "90": [
+   "IGUI_ALifeHint_profileName",
+   "Name shown for this preset. Spawned NPCs roll their own names unless NPC name is Set name",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "91": [
+   "IGUI_ALifeHint_profileGender",
+   "Decides the body model and the random name pool",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "92": [
+   "IGUI_ALifeHint_profileNameMode",
+   "Random names never repeat in the world. Set name gives every NPC of this preset the same name",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "93": [
+   "IGUI_ALifeHint_profileFixedName",
+   "The name every NPC of this preset gets. Only used with Set name",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "94": [
+   "IGUI_ALifeHint_profileRole",
+   "Job tag for this member. It shows in the roster and in the filters",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "95": [
+   "IGUI_ALifeHint_profileNpcClass",
+   "How this member acts under threat. Civilians and workers panic, soldiers, police and criminals hold steady. Same as faction follows the faction class",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "96": [
+   "IGUI_ALifeHint_profileSpawnWeight",
+   "How often this preset is picked inside its faction. Common is normal, Rare keeps specialists from filling a squad",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "97": [
+   "IGUI_ALifeHint_profileTags",
+   "Search tags for the roster filter, separated by commas",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "98": [
+   "IGUI_ALifeHint_profileNotes",
+   "Private note for you, never shown in game",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "99": [
+   "IGUI_ALifeHint_profileBehaviorProfile",
+   "The whole baseline behavior package: priorities, fighting style and allowed abilities",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "100": [
+   "IGUI_ALifeHint_profilePrimaryBehavior",
+   "One specialist doctrine for this NPC. Use Abilities for smaller exceptions",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "101": [
+   "IGUI_ALifeHint_profileCombatReady",
+   "Whether it spawns armed and ready. Mixed follows the loadout pool",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "102": [
+   "IGUI_ALifeHint_profileVoice",
+   "Voice pack for warnings, combat shouts and death sounds",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "103": [
+   "IGUI_ALifeHint_profileVoiceEvent",
+   "Reaction the voice preview plays. It does not change behavior",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "104": [
+   "IGUI_ALifeHint_infiniteAmmo",
+   "Unlimited combat reloads. Death loot still rolls once per authored magazine",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "105": [
+   "IGUI_ALifeHint_dropAmmo",
+   "Spare ammo can drop with the body when this NPC dies",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "106": [
+   "IGUI_ALifeHint_primaryMagazines",
+   "Spare magazines for the main weapon",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "107": [
+   "IGUI_ALifeHint_secondaryMagazines",
+   "Spare magazines for the sidearm",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "108": [
+   "IGUI_ALifeHint_magazineDropChance",
+   "One roll per magazine for what drops on death. Three magazines at 20 percent means three rolls",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "109": [
+   "IGUI_ALifeHint_factionEnabled",
+   "Lets this faction show up on its own in the world. Off keeps it for admin spawns and visits",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "110": [
+   "IGUI_ALifeHint_factionVisitorOnly",
+   "Never spawns on its own, joins raids or counts toward world pressure. Members only walk up to your door on visits",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "111": [
+   "IGUI_ALifeHint_factionPlayerRelation",
+   "Friendly and neutral factions can appear naturally. Scouts, ambushes and raids need a hostile faction",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "112": [
+   "IGUI_ALifeHint_factionChance",
+   "Relative weight against other factions, not a percentage. Zero stops natural spawning. Sandbox settings set the overall rate",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "113": [
+   "IGUI_ALifeHint_factionDays",
+   "First and last game day, both included. Day 0 is the first. Leave one blank to keep that end open",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "114": [
+   "IGUI_ALifeHint_factionHours",
+   "When new encounters may begin. Squads already out finish their task, they do not vanish at the end of the window",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "115": [
+   "IGUI_ALifeHint_factionPartyMode",
+   "Lone survivors, groups, or both. The size ranges below apply per type",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "116": [
+   "IGUI_ALifeHint_factionPartyWeight",
+   "Relative weight of this party type. Blank uses the sandbox default, zero turns the type off",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ],
+  "117": [
+   "IGUI_ALifeHint_factionAllTowns",
+   "Every registered town, including ones added later. Untick to pick towns one by one",
+   [
+    "?.lua",
+    "?",
+    "veri"
+   ]
+  ]
+ },
+ "_terimler": [
+  [
+   "Gear",
+   "Teçhizat"
+  ],
+  [
+   "Faction",
+   "Fraksiyon"
+  ],
+  [
+   "Squad",
+   "Tim"
+  ],
+  [
+   "Crew",
+   "Ekip"
+  ],
+  [
+   "Group",
+   "Grup"
+  ],
+  [
+   "Encounter",
+   "Karşılaşma"
+  ],
+  [
+   "Raid",
+   "Baskın"
+  ],
+  [
+   "Diagnostics",
+   "Tanılama"
+  ],
+  [
+   "Default",
+   "Varsayılan"
+  ],
+  [
+   "Creator",
+   "Oluşturucu"
+  ],
+  [
+   "Companion",
+   "Yol arkadaşı"
+  ],
+  [
+   "Preset",
+   "Şablon"
+  ],
+  [
+   "Loot",
+   "Ganimet"
+  ],
+  [
+   "Hostile",
+   "Düşman"
+  ],
+  [
+   "Friendly",
+   "Dost"
+  ],
+  [
+   "Neutral",
+   "Tarafsız"
+  ],
+  [
+   "Survivor",
+   "Hayatta kalan"
+  ],
+  [
+   "weapon",
+   "Silah"
+  ],
+  [
+   "damage",
+   "Hasar"
+  ],
+  [
+   "ammo",
+   "Mermi"
+  ],
+  [
+   "helicopter",
+   "Helikopter"
+  ],
+  [
+   "magazines",
+   "Şarjörler"
+  ],
+  [
+   "members",
+   "Üyeler"
+  ],
+  [
+   "set name",
+   "Sabit ad"
+  ],
+  [
+   "armor",
+   "Zırh"
+  ],
+  [
+   "behavior",
+   "Davranış"
+  ],
+  [
+   "combat",
+   "Çatışma"
+  ],
+  [
+   "roster",
+   "Kadro"
+  ],
+  [
+   "search",
+   "Arama"
+  ],
+  [
+   "selected",
+   "Seçili"
+  ],
+  [
+   "weapons",
+   "Silahlar"
+  ],
+  [
+   "melee",
+   "Yakın dövüş"
+  ],
+  [
+   "aiming",
+   "Nişan"
+  ],
+  [
+   "civilians",
+   "Siviller"
+  ],
+  [
+   "lookout",
+   "Gözcülük"
+  ],
+  [
+   "party",
+   "Grup"
+  ],
+  [
+   "police",
+   "Polis"
+  ],
+  [
+   "strength",
+   "Güç"
+  ],
+  [
+   "very high",
+   "Çok yüksek"
+  ],
+  [
+   "workers",
+   "İşçiler"
+  ]
+ ]
+}

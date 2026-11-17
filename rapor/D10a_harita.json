@@ -1,0 +1,652 @@
+{
+ "_paket": "D10a",
+ "_grup": "d10a",
+ "_baslik": "Geç savaş fraksiyonlarının barks'ı (Iron Orchard, Argent Isolation, Blackglass)",
+ "_parcalar": [
+  [
+   1,
+   71
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "RD_ALifeLine_3560bbf34aaeda5b",
+   "Ah! That's my good hand!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "2": [
+   "RD_ALifeLine_7e6160f33bace8ad",
+   "Ow! You broke the skin!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "3": [
+   "RD_ALifeLine_0d2cf489404fddc9",
+   "That hurts worse than the hunger!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "4": [
+   "RD_ALifeLine_2f202446469dbb9b",
+   "My leg won't take my weight!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "5": [
+   "RD_ALifeLine_4425d91b3d11ea7c",
+   "I can feel blood in my boot!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "6": [
+   "RD_ALifeLine_03adb0590813efad",
+   "Damn it! I can't grip anything!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "7": [
+   "RD_ALifeLine_5dc983ac1c524d83",
+   "Ah! Check my suit when this stops!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "8": [
+   "RD_ALifeLine_419785be199dc2f2",
+   "It went through! I felt it!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "9": [
+   "RD_ALifeLine_32aefe3f4b60a772",
+   "My shoulder's burning under this thing!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "10": [
+   "RD_ALifeLine_287572d452898434",
+   "Don't pull the fabric, it hurts!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "11": [
+   "RD_ALifeLine_4317648b16dcdc23",
+   "I need a clean bandage!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "12": [
+   "RD_ALifeLine_31708c8b3299613d",
+   "I can't tell how bad it is through the suit!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "13": [
+   "RD_ALifeLine_4399ebea61bcf762",
+   "Ah! Give me a second to breathe!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "14": [
+   "RD_ALifeLine_361674996efc8bc1",
+   "I'm hurt, not finished!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "15": [
+   "RD_ALifeLine_3cfa17770d3be68a",
+   "My hand's shaking!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "16": [
+   "RD_ALifeLine_78f700827e278b8c",
+   "I felt that in my ribs!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "17": [
+   "RD_ALifeLine_4427e73f398dc07e",
+   "Wait! I can't straighten my knee!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "18": [
+   "RD_ALifeLine_7a354ae54e13d9ae",
+   "That's blood, that's mine!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "HURT",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "19": [
+   "RD_ALifeLine_1a408ea87b890484",
+   "Leave the bags! I want to live!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "20": [
+   "RD_ALifeLine_17f8b52443b945c5",
+   "We can't eat loot if we're dead!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "21": [
+   "RD_ALifeLine_5e668caf18e0cc47",
+   "I'm getting out, come with me!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "22": [
+   "RD_ALifeLine_2c95314d1eb0f968",
+   "Forget what we came for!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "23": [
+   "RD_ALifeLine_07be8a1b694cab6e",
+   "This wasn't worth a single can!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "24": [
+   "RD_ALifeLine_341ec55a44affaff",
+   "I'm not dying for somebody else's food!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "25": [
+   "RD_ALifeLine_71b067a37c20e923",
+   "I need room to breathe in this mask!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "26": [
+   "RD_ALifeLine_3e34cbc247e641e6",
+   "We're leaving, take the medical bag!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "27": [
+   "RD_ALifeLine_49276b4a316437e3",
+   "We can replace supplies, not people!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "28": [
+   "RD_ALifeLine_3c1622a814c65a32",
+   "Don't stop to mend the suit!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "29": [
+   "RD_ALifeLine_7702f0970c1a2a6b",
+   "I've had enough, I'm coming with you!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "30": [
+   "RD_ALifeLine_1734f3ab57e44a7b",
+   "We need a chance to rest!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "31": [
+   "RD_ALifeLine_4b02bdaf7e480b6b",
+   "We're still alive, let's keep it that way!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "32": [
+   "RD_ALifeLine_0ec3b0fd3d1261ab",
+   "Come on, nobody gets left for a bag!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "33": [
+   "RD_ALifeLine_61c3bae14544fdb6",
+   "Leave it, we have enough to carry!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "34": [
+   "RD_ALifeLine_405076ec1a1b277a",
+   "I'm done gambling with our lives!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "35": [
+   "RD_ALifeLine_67aee7c151e4a18a",
+   "Keep moving, we'll argue afterward!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "36": [
+   "RD_ALifeLine_01022bb001c8180f",
+   "We can't afford another funeral!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "RETREAT",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "37": [
+   "RD_ALifeLine_7fd4853c3a489c30",
+   "You got food in that bag?",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SPOT_STRANGER",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "38": [
+   "RD_ALifeLine_07ccc2014d75e040",
+   "Don't make me ask twice!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SPOT_STRANGER",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "39": [
+   "RD_ALifeLine_132c2cf27187608c",
+   "Keep your hands where I can see them!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SPOT_STRANGER",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "40": [
+   "RD_ALifeLine_4617e0e51ddb962a",
+   "We don't share with strangers!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SPOT_STRANGER",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "41": [
+   "RD_ALifeLine_22e8710806481721",
+   "That's far enough, I don't know you!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SPOT_STRANGER",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "42": [
+   "RD_ALifeLine_274b60392db20ffe",
+   "You picked a bad crowd to bother!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SPOT_STRANGER",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "43": [
+   "RD_ALifeLine_1a3db6f429e04128",
+   "Don't touch my suit!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SPOT_STRANGER",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "44": [
+   "RD_ALifeLine_7f1ba4a94b02c34e",
+   "Stay away from our supplies!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SPOT_STRANGER",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "45": [
+   "RD_ALifeLine_222a425f1fab5fbd",
+   "I don't know where you've been!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SPOT_STRANGER",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "46": [
+   "RD_ALifeLine_1cf92fb827c60951",
+   "Show me your hands, slowly!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SPOT_STRANGER",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "47": [
+   "RD_ALifeLine_64dbe03572303916",
+   "We aren't taking anyone with us!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SPOT_STRANGER",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "48": [
+   "RD_ALifeLine_0c04432c2d79d002",
+   "No closer, I mean it!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SPOT_STRANGER",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "49": [
+   "RD_ALifeLine_2f2f1ad14c5f3843",
+   "Don't reach for anything!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SPOT_STRANGER",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "50": [
+   "RD_ALifeLine_59712f4c44e6c580",
+   "We didn't invite company!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SPOT_STRANGER",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "51": [
+   "RD_ALifeLine_11855a150f1b4393",
+   "I'd think carefully before moving!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SPOT_STRANGER",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "52": [
+   "RD_ALifeLine_34efe1b21af357f0",
+   "Say what you want and stay still!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SPOT_STRANGER",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "53": [
+   "RD_ALifeLine_4081c29d764722eb",
+   "I'm watching your hands!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SPOT_STRANGER",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "54": [
+   "RD_ALifeLine_3a6d32df0a799932",
+   "It's Orchard, we need some help!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "55": [
+   "RD_ALifeLine_115241bd7f653133",
+   "Answer me, this isn't about food!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "56": [
+   "RD_ALifeLine_17feca662ddad6f3",
+   "I wouldn't call if we could manage!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "57": [
+   "RD_ALifeLine_004cd392783865be",
+   "Please tell me somebody kept their radio!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "58": [
+   "RD_ALifeLine_0302df773dff9533",
+   "We need more than this handful of shells!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "59": [
+   "RD_ALifeLine_709c904950418165",
+   "We're in trouble, don't ignore us!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_iron_orchard"
+   ]
+  ],
+  "60": [
+   "RD_ALifeLine_14462bf86f848fde",
+   "Argent calling, we need help staying alive!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "61": [
+   "RD_ALifeLine_72a5873f1c8900cf",
+   "Can anybody from Argent hear me?",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "62": [
+   "RD_ALifeLine_77b92a8b1b43b33c",
+   "Bring bandages if you can come!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "63": [
+   "RD_ALifeLine_5f60e47e05f9acff",
+   "We're asking for people, not more promises!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "64": [
+   "RD_ALifeLine_42e8776a62253de9",
+   "Please answer, we can't keep doing this alone!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "65": [
+   "RD_ALifeLine_333b1b6b04f56e0b",
+   "I need to hear a familiar voice!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_argent_isolation"
+   ]
+  ],
+  "66": [
+   "RD_ALifeLine_6586c2664bb8153f",
+   "Blackglass needs help, can you hear us?",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "67": [
+   "RD_ALifeLine_56f93ffb366668e7",
+   "I'm calling for everyone still with us!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "68": [
+   "RD_ALifeLine_05ee4c38774a736a",
+   "Bring what you can, we need you!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "69": [
+   "RD_ALifeLine_21721b3420d3dc77",
+   "Don't let the radio go quiet now!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "70": [
+   "RD_ALifeLine_1c647bdb37a7afb4",
+   "We need another pair of hands!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_blackglass"
+   ]
+  ],
+  "71": [
+   "RD_ALifeLine_05abf35e76a87222",
+   "If you can help, please answer!",
+   [
+    "ALifeDialogue_war_late_barks_misc_1.lua",
+    "SUPPORT_CALL",
+    "faction=alife_blackglass"
+   ]
+  ]
+ }
+}

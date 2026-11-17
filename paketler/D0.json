@@ -1,0 +1,375 @@
+{
+  "_paket": "D0 — Konuşma penceresi açılışı (NPC_OPEN, siviller) + konuşma eki",
+  "_dosya": "RadioData_lua",
+  "satirlar": {
+    "RD_ALifeLine_130811910a5383e9": {
+      "tr": "Ah- hey, hey, iyi misin? Yaralı mısın? Hayalet görmüş gibisin"
+    },
+    "RD_ALifeLine_6fcb097009d4101c": {
+      "tr": "Selam, selam, iyi misin? Isırılmadın, değil mi? Yaralı değilsin?"
+    },
+    "RD_ALifeLine_2709c8d32a71dce4": {
+      "tr": "Hey, ben- merhaba, yardım edebilir miyim? Bir şey mi lazım? Kayboldun mu?"
+    },
+    "RD_ALifeLine_400c060a5bd7c1fa": {
+      "tr": "Selam! Kusura bakma, seni görünce dedim ki... belki konuşacak birini istersin?"
+    },
+    "RD_ALifeLine_255f41e726ab5bb2": {
+      "tr": "M-merhaba -- yalnız mısın? İyi misin? Kusura bakma, sadece endişelendim"
+    },
+    "RD_ALifeLine_36abd4fb2c751e67": {
+      "tr": "Hey, sen, nasıl dayanıyorsun? Pek iyi görünmüyorsun"
+    },
+    "RD_ALifeLine_6fa963ef69923247": {
+      "tr": "Merhaba... her şey yolunda mı? Bir şeye ihtiyacın var mı?"
+    },
+    "RD_ALifeLine_18dbe74a0a13e258": {
+      "tr": "Selam dostum, iyi misin? Biraz soluklanman lazım gibi"
+    },
+    "RD_ALifeLine_79a324c109e11cae": {
+      "tr": "Hey... hey, gel buraya, bir dakika otur, bitmiş görünüyorsun"
+    },
+    "RD_ALifeLine_275350081d08f23e": {
+      "tr": "İyi misin? Su lazım mı? Sargı? Biraz nefes?"
+    },
+    "RD_ALifeLine_3710cf84629c582a": {
+      "tr": "Hey, sen! Seni göreceğimi umuyordum, nasılsın? Gerçekten?"
+    },
+    "RD_ALifeLine_6334306e59fcb637": {
+      "tr": "Aa, sensin! Çok sevindim, gel, otur, her şeyi anlat"
+    },
+    "RD_ALifeLine_012e248a37a8b118": {
+      "tr": "Merhaba dostum, dünya sana nasıl davranıyor?"
+    },
+    "RD_ALifeLine_259aca805dfc067b": {
+      "tr": "Sen, dur, ne istiyorsun?"
+    },
+    "RD_ALifeLine_37e027f343f54694": {
+      "tr": "Derdini söyle, çabuk ol"
+    },
+    "RD_ALifeLine_37108b323e736aa2": {
+      "tr": "Hey, sen, evet, sen, burada ne arıyorsun?"
+    },
+    "RD_ALifeLine_275517d44ae5ec40": {
+      "tr": "Ne istiyorsun?"
+    },
+    "RD_ALifeLine_7c8f99f75de82113": {
+      "tr": "Evet?"
+    },
+    "RD_ALifeLine_34fa2e8474e9867e": {
+      "tr": "Söyleyecek bir şeyin varsa söyle"
+    },
+    "RD_ALifeLine_2787bd074ca1791f": {
+      "tr": "Bir şey mi lazım?"
+    },
+    "RD_ALifeLine_7efe277415ddcc1f": {
+      "tr": "Dinliyorum"
+    },
+    "RD_ALifeLine_7c8cca535d3b8d7f": {
+      "tr": "Konuş"
+    },
+    "RD_ALifeLine_50b14fdc6057e7ea": {
+      "tr": "ve sakın \"hiç\" deme"
+    },
+    "RD_ALifeLine_49ec48cc53bce16e": {
+      "tr": "Hey, hey, saat geç oldu, dışarıda olmamalısın, iyi misin?"
+    },
+    "RD_ALifeLine_16fda1c735466503": {
+      "tr": "Şşş... selam, iyi misin? Bu saatte ne işin var ayakta?"
+    },
+    "RD_ALifeLine_4457dd1716fe5725": {
+      "tr": "Merhaba, yaralı mısın? Bir bakayım, ısırık var mı? Çizik? Ateş?"
+    },
+    "RD_ALifeLine_309710bf725a78f9": {
+      "tr": "Gel, dinlen, yemek yedin mi? Aç görünüyorsun, yorgun da"
+    },
+    "RD_ALifeLine_4441b46314260e68": {
+      "tr": "Kendini tanıt, dost musun, değil misin?"
+    },
+    "RD_ALifeLine_6fc55fb2530c36de": {
+      "tr": "Hey, iyi misin? Yardım lazım mı? Hortum lazım mı? Şaka şaka, iyi misin?"
+    },
+    "RD_ALifeLine_451baa0d3b12be28": {
+      "tr": "Hey, sen! Bir dakika dur, nasıl olduğunu merak ettim"
+    },
+    "RD_ALifeLine_6ba79d546ceb4309": {
+      "tr": "Aa, sensin! Çok sevindim, gel, konuşalım, nasılsın?"
+    },
+    "RD_ALifeLine_56a296e758365cdb": {
+      "tr": "İşte buradasın! Bir şey lazım mı? Su? Sargı? Biraz nefes?"
+    },
+    "RD_ALifeLine_6191d0240c32bafa": {
+      "tr": "Yine merhaba, nasıl dayanıyorsun? Gerçekten?"
+    },
+    "RD_ALifeLine_634b2f936c34afdf": {
+      "tr": "Hey yabancı, yani dostum demek istedim, gün nasıl geçiyor?"
+    },
+    "RD_ALifeLine_48003a945376c6ed": {
+      "tr": "Bir saniye buraya gel, sana teşekkür etmek istiyordum"
+    },
+    "RD_ALifeLine_259dd7be70579e9b": {
+      "tr": "Selam, selam, yaralı mısın? Aç mısın? Söyle, utanma"
+    },
+    "RD_ALifeLine_25fa697b465ed069": {
+      "tr": "Oh iyi, yaşıyorsun, yürüyorsun, konuşuyorsun, içim rahatladı"
+    },
+    "RD_ALifeLine_659bcf5c2535521e": {
+      "tr": "Hey, bir dakikan var mı? Dost bir sese ihtiyacım var"
+    },
+    "RD_ALifeLine_48a1b23b26c0dde3": {
+      "tr": "Selam, zayıflamışsın, bugün bir şey yedin mi?"
+    },
+    "RD_ALifeLine_4dc260841c380ab8": {
+      "tr": "Dostum! Seni görmek güzel, her şeyi anlat"
+    },
+    "RD_ALifeLine_7881e0d35b534172": {
+      "tr": "Merhaba, seni ayakta görmek güzel, gerçekten nasılsın?"
+    },
+    "RD_ALifeLine_22fcfd0a03cc2374": {
+      "tr": "Hey, sen, her şey yolunda mı? Seni merak ediyorum, gerçekten"
+    },
+    "RD_ALifeLine_4cc9fab1576ab05d": {
+      "tr": "Sana denk gelmeyi umuyordum -- nasılsın?"
+    },
+    "RD_ALifeLine_7ae546b63e23a970": {
+      "tr": "Selam, şunu söylemek istedim, senin gibiler yüzünden devam ediyorum"
+    },
+    "RD_ALifeLine_2c71730103859f83": {
+      "tr": "Hey, sen! Üşüyor musun? Aç mısın? Korkuyor musun? Konuş benimle"
+    },
+    "RD_ALifeLine_15d7bd822cfbf259": {
+      "tr": "Merhaba, sana her zaman kapım açık, biliyorsun, ne var ne yok?"
+    },
+    "RD_ALifeLine_11dc70f6709a72e7": {
+      "tr": "Oh çok şükür, yalnızlıktan sıkılmıştım, nasılsın?"
+    },
+    "RD_ALifeLine_7adc391f1c5808a0": {
+      "tr": "Hey, sana yer ayırdım, hadi, otur"
+    },
+    "RD_ALifeLine_0a228559448971c9": {
+      "tr": "Selam dostum, aklında bir şey var mı? Vaktim var"
+    },
+    "RD_ALifeLine_2fc5701512745328": {
+      "tr": "Hey, anlatacak bir hikâyen var gibi, dinlemeye vaktim var"
+    },
+    "RD_ALifeLine_7fb201e7602dc0ad": {
+      "tr": "Gelsene, bir süredir konuşmadık, işler nasıl?"
+    },
+    "RD_ALifeLine_6127165c2b1b7ac7": {
+      "tr": "Merhaba! Dünya bugün sana nasıl davranıyor?"
+    },
+    "RD_ALifeLine_3adfca607ec6fbbe": {
+      "tr": "Hey, pek iyi görünmüyorsun, otur, neye ihtiyacın var?"
+    },
+    "RD_ALifeLine_5ed0bc3278c6a676": {
+      "tr": "Aa, sensin, bugün başıma gelen en güzel şey bu"
+    },
+    "RD_ALifeLine_2559ae4432baa12a": {
+      "tr": "Hey, iyi misin? Bana anlatabilirsin, iyi bir dinleyiciyimdir"
+    },
+    "RD_ALifeLine_40841e48728458c3": {
+      "tr": "Selam, nasıl dayanıyorsun, gerçekten?"
+    },
+    "RD_ALifeLine_509f6d746ec86d5f": {
+      "tr": "Çek bir sandalye, anlat bakalım, senin tarafta neler oluyor"
+    },
+    "RD_ALifeLine_2429ef7c274d0fa0": {
+      "tr": "Hey, bu sabah aklıma geldin, iyi misin?"
+    },
+    "RD_ALifeLine_77059ac6357c634c": {
+      "tr": "Ne istiyorsun YİNE?"
+    },
+    "RD_ALifeLine_384b3e140eadc6fa": {
+      "tr": "Yine sen, ne var?"
+    },
+    "RD_ALifeLine_5773e90f072f16db": {
+      "tr": "Çabuk ol, sana ayıracak vaktim yok!"
+    },
+    "RD_ALifeLine_01d1a6d14c534d38": {
+      "tr": "Ne olursa olsun, ilgilenmiyorum"
+    },
+    "RD_ALifeLine_3b5e06e07a3fbb80": {
+      "tr": "Beni tedirgin ediyorsun, derdini söyle"
+    },
+    "RD_ALifeLine_6563b4bc26ad7f70": {
+      "tr": "Kısa kes, ellerin de görebileceğim yerde dursun!"
+    },
+    "RD_ALifeLine_39f667775b28029c": {
+      "tr": "Neden etrafımda dolanıyorsun? Ya bir şey söyle ya git"
+    },
+    "RD_ALifeLine_1e3dee322930c21b": {
+      "tr": "Gözüm üstünde, sakın bir şey deneme!"
+    },
+    "RD_ALifeLine_64041fb316e55a02": {
+      "tr": "Evet? Ne? Çabuk ol!"
+    },
+    "RD_ALifeLine_51600ff95a1fdc46": {
+      "tr": "Bana bakışından hoşlanmadım"
+    },
+    "RD_ALifeLine_45fd8eaf0d5cbe1b": {
+      "tr": "Yine ne var?"
+    },
+    "RD_ALifeLine_0320142247feb03b": {
+      "tr": "Ya söyle ya da defol!"
+    },
+    "RD_ALifeLine_33b7ec0c07ca3df5": {
+      "tr": "Daha fazla yaklaşma, ne diyeceksen oradan de"
+    },
+    "RD_ALifeLine_537038525d18f00f": {
+      "tr": "Meşgulüm, çabuk ol"
+    },
+    "RD_ALifeLine_172125172fd30dbb": {
+      "tr": "Arkadaş istememiştim ama işte buradasın"
+    },
+    "RD_ALifeLine_4cf234484ca759c0": {
+      "tr": "Ne var? Benden ne istiyorsun?"
+    },
+    "RD_ALifeLine_1b5426c9734fb721": {
+      "tr": "Ah harika, sensin, ne lazım?"
+    },
+    "RD_ALifeLine_563048014b368812": {
+      "tr": "Sana verecek bir şeyim yok, boşuna sorma"
+    },
+    "RD_ALifeLine_544a2d3233b0db3e": {
+      "tr": "Otuz saniyen var, başla"
+    },
+    "RD_ALifeLine_39e12ab25506dec6": {
+      "tr": "Bak, seni DİNLERİM ama hoşlanmak zorunda değilim"
+    },
+    "RD_ALifeLine_141588b735c650e2": {
+      "tr": "Derdini söyle, sonra gözüme görünme"
+    },
+    "RD_ALifeLine_2aeef4f86f70a4c3": {
+      "tr": "Dinliyorum, aklım başka şey dese de"
+    },
+    "RD_ALifeLine_0127105e50d49e3a": {
+      "tr": "Ne satıyorsan, almıyorum"
+    },
+    "RD_ALifeLine_4fd250a35283ab9a": {
+      "tr": "Ne istiyorsun? Çabuk -- fikrimi değiştirmeden"
+    },
+    "RD_ALifeLine_2370a17127b7986c": {
+      "tr": "Konuş, ama SAKIN numara yapma"
+    },
+    "RD_ALifeLine_33cc983f25c06c30": {
+      "tr": "Dinliyorum, maalesef"
+    },
+    "RD_ALifeLine_4e577a2b6c499831": {
+      "tr": "Kısa keselim -- olur mu?"
+    },
+    "RD_ALifeLine_7193fc5873747bb3": {
+      "tr": "Seninle sadece mecbur olduğum için konuşuyorum"
+    },
+    "RD_ALifeLine_6ca42d3c242072ff": {
+      "tr": "Ne? Ne var?"
+    },
+    "RD_ALifeLine_7e064a500a7ab38c": {
+      "tr": "Vaktimi boşa harcama"
+    },
+    "RD_ALifeLine_3985d6e604be8c05": {
+      "tr": "Söyle ve git"
+    },
+    "RD_ALifeLine_5d14256524b5b0fa": {
+      "tr": "Hiç istemem ama söyle bakalım, ne var?!"
+    },
+    "RD_ALifeLine_3bb73291260cd5dd": {
+      "tr": "Aa! Selam! Merhaba! Evet? Benimle mi konuşuyorsun? Pardon, ne oldu?"
+    },
+    "RD_ALifeLine_05b984a8002d743c": {
+      "tr": "Evet komşu? Canını sıkan bir şey mi var?"
+    },
+    "RD_ALifeLine_43d179301a1225e2": {
+      "tr": "Söyle komşu, can kulağıyla dinliyorum"
+    },
+    "RD_ALifeLine_75b8ca891a2edf29": {
+      "tr": "Merhaba dostum, seni buralara hangi rüzgâr attı?"
+    },
+    "RD_ALifeLine_7b9d32412ad9cd19": {
+      "tr": "Hey... yabancı, konuşmak için durdun - bu iyiye işaret, değil mi? İyi misin?"
+    },
+    "RD_ALifeLine_1802a1490ec01a8c": {
+      "tr": "Aa, bir insan, kusura bakma, ben-- neyse - iyi misin?"
+    },
+    "RD_ALifeLine_3e75464774f0b84b": {
+      "tr": "Beni bıçaklamaya kalkmadın, fena başlamadık yani - dayanabiliyor musun?"
+    },
+    "RD_ALifeLine_7530e0af7fe5592d": {
+      "tr": "Sakin ol, bela aramıyorum - orada iyi misin?"
+    },
+    "RD_ALifeLine_3215611735ac6be8": {
+      "tr": "Biraz mesafeli dur, konuşuruz - iyi misin?"
+    },
+    "RD_ALifeLine_7f02c2ed4abef0ee": {
+      "tr": "Ee-- selam, birinin sesini duydum sandım - iyi misin?"
+    },
+    "RD_ALifeLine_7b31515c5e1d4969": {
+      "tr": "Konuşmaya mı geldin? Tamam, normal bir sohbete ihtiyacım vardı - iyi misin?"
+    },
+    "RD_ALifeLine_467385aa4865f330": {
+      "tr": "Salıdan beri bana el sallayan ilk kişisin - iyi misin?"
+    },
+    "RD_ALifeLine_378e6c8c2a381598": {
+      "tr": "Kaçma, ben-- pardon - pardon - idare edebiliyor musun?"
+    },
+    "RD_ALifeLine_1ad8bf930075ce33": {
+      "tr": "Dur bir dakika, kâğıt gibi bembeyazsın - bugün su içtin mi?"
+    },
+    "RD_ALifeLine_1d991f6671f99eb6": {
+      "tr": "Tünaydın, ne bağış topluyorum ne vaaz veriyorum - iyi misin?"
+    },
+    "RD_ALifeLine_52f7efbb65ed99e0": {
+      "tr": "Hey, gel garajda otur, içerisi daha serin - bir yerin yaralı mı?"
+    },
+    "RD_ALifeLine_5bf95e250dc7aa43": {
+      "tr": "Gel buraya, bir bakayım sana - Allah'ım, hiç uyudun mu sen?"
+    },
+    "RD_ALifeLine_6a27e74e6e1157dd": {
+      "tr": "Köşeden geldiğini duydum, laf sokmuyorum - bir şey mi lazım?"
+    },
+    "RD_ALifeLine_58c86e2f21fc3b1f": {
+      "tr": "Pek kimseyle konuşmam, alışkanlığım kalmadı - başın dertte mi?"
+    },
+    "RD_ALifeLine_1c3a688c0b4bd295": {
+      "tr": "Buralı mısın? Yüzleri unutmam, seninkini hatırlamıyorum"
+    },
+    "RD_ALifeLine_60eb9ef7331b85f9": {
+      "tr": "Orada dur - eyalet polisi - yaralı mısın?"
+    },
+    "RD_ALifeLine_4a24c8884b5d9074": {
+      "tr": "Bir saniye orada dur - silahlı mısın?"
+    },
+    "RD_ALifeLine_32d71e6a1a136c01": {
+      "tr": "Dur - bu yolda üniformalı birini gördün mü?"
+    },
+    "RD_ALifeLine_1eb79fc512fbaf51": {
+      "tr": "Hey! Hey, ee-- pardon - Ulusal Muhafız'dan değilsin, değil mi?"
+    },
+    "RD_ALifeLine_7c36873634278747": {
+      "tr": "Olduğun yerde kal - yalnız mısın?"
+    },
+    "RD_ALifeLine_20b2cc8137d17a90": {
+      "tr": "Dur - bir yerinden ısırıldın mı?"
+    },
+    "RD_ALifeLine_205c7a0e0303c2f7": {
+      "tr": "Hey, sesini alçalt, buradan yeşil bir kamyon geçtiğini gördün mü?"
+    },
+    "RD_ALifeLine_7e0c96a44973c114": {
+      "tr": "Bu kadar yeter - kapıyı mı arıyorsun?"
+    },
+    "RD_ALifeLine_610fc4135a18a5bc": {
+      "tr": "Vay, hiç duymadım seni - hep böyle sessiz mi yürürsün?"
+    },
+    "RD_ALifeLine_70673e4e6748561b": {
+      "tr": "Önemli olanı sorayım - bu hafta derin hiç yarıldı mı?"
+    },
+    "RD_ALifeLine_3d9321a9447e01b4": {
+      "tr": "Bak sen, bir şey isteyen birinin bakışı var sende - yanılıyor muyum?"
+    },
+    "RD_ALifeLine_2ad037c059c41ce0": {
+      "tr": "Hey, konuşmaya başlamadan önce, takaslık bir şeyin var mı?"
+    },
+    "RD_ALifeLine_387fabc53b179c53": {
+      "tr": "Dur, bir kere soruyorum ve yalan söylersen anlarım - burada tek başına mısın?"
+    }
+  }
+}

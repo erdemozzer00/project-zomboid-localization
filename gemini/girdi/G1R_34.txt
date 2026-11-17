@@ -1,0 +1,341 @@
+# PAKET G1R · parça 34/35 · satır 11680-12007 (328 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar oyunda şu an skill'den önceki eski bir çeviriyle görünüyor; sıfırdan, İngilizceden kur. Her başlığın altındaki 'NEREDE:' oyuncunun bu sözle nasıl karşılaştığını, '#' notu sahneyi anlatır. Önce bunları oku, satırı o anda o yerde duyulacak sözle yaz.
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+##### GREETING #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Oyuncu konuşmayı açıp selam verdi; NPC'nin selama cevabı. Tutum etiketi cevabın sıcak mı soğuk mu olacağını belirler.
+11680 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Hey you, come give me a hand, I mean come say hi, hi, hello
+11681 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Hi there, nice to see you, I mean that, truly nice
+11682 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | You're one of the good ones, I tell everybody that, hello
+11683 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Hey, friend, you look like you've had a day, come on, tell me!!
+11684 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | It's you! the one everybody talks about, hi, I'm glad to finally say it
+11685 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Well, hello! I've got a seat with your name on it
+11686 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | There you are, I was starting to think you'd forgotten about us
+11687 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Hey, hey, you're safe, that's the best news I've had all day
+11688 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Hello, my dear, my friend, my lifesaver, come here
+11689 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Ah, there's a face I trust, hello, hello!
+11690 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Evening, morning, whatever, it's you, so it's a good one
+11691 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Hi, hi, come on over, no need to be shy, we like you here
+11692 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | You made it, I'm so relieved, hello, hello
+11693 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Hey! hey, good to see you, you're a good egg, you know that
+11694 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Oh... It's you
+11695 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Well, well, LOOK what the cat dragged in!
+11696 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | I heard you were around, I was hoping I was wrong
+11697 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Keep your distance, I know who you are
+11698 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Hello... Don't expect me to be nice
+11699 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | You've got a nerve showing your face around here
+11700 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Not you AGAIN!!
+11701 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Ugh, great, you're HERE!
+11702 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | I know your reputation, and I don't like it
+11703 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Stop right there, I've heard about you
+11704 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Oh, look, it's the one everybody warns each other about
+11705 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Hello, and goodbye, if you're smart
+11706 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Hmph... I don't talk to people like you
+11707 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Keep walking, nothing for you here
+11708 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | What are you doing here? who let you in
+11709 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | I remember what you did, don't think I forgot
+11710 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Hi... Now go
+11711 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Stay BACK, I'm watching you
+11712 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | You? Really? Now? Here? Unbelievable!!
+11713 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | I don't want any trouble, so don't cause any!
+11714 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | There's the one I've been hearing about, charming, I'm sure
+11715 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Yeah, yeah, hello, whatever, say what you want
+11716 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | I'm not saying hello to you
+11717 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | You should be careful what you do around me!!
+11718 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Oh God, it's you, great
+11719 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Let's be clear, I don't like you, and I don't trust you
+11720 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | You AGAIN? Haven't you done enough!
+11721 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst | Hello, stranger, hello, devil, whichever you are
+11722 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=recent_zombie_contact | Shh- shh, hi, hi, quiet, there's some close, I just saw
+11723 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=recent_zombie_contact | Hey- no- don't shout, they're right over there, keep it down
+11724 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=recent_zombie_contact | Oh thank God, a person, a LIVE person, get down, get low
+11725 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=recent_zombie_contact | Hi, hi, don't move too fast, something's out there, I heard it
+11726 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=recent_zombie_contact | Hello, hello, whisper, please, whisper, they're near
+11727 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=recent_zombie_contact | Hi! Quick, get over here, behind me, behind me
+11728 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=recent_zombie_contact | Oh- you scared me- they're out there, okay? they're close
+11729 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=recent_zombie_contact | Hello, hello, forget the pleasantries, we've got company
+11730 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=recent_zombie_contact | Hey, shush, they just went by, I'm still shaking
+11731 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=recent_zombie_contact | Hi, sorry, can't chat long, I've got eyes on something
+11732 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=recent_human_contact | Hi, hi, you're not the only one, I just saw somebody else
+11733 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=recent_human_contact | Hi- shh, there's people around, I don't know who they are
+11734 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=recent_human_contact | Hey, did you see them, too? the others, over there?
+11735 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=recent_human_contact | Hi, nice to see you, I'm a little jumpy, there've been strangers about...
+11736 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=recent_human_contact | Hello, stay close, we're not alone out here
+11737 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=player_armed | Whoa- hey, easy with that, I'm friendly, I'm friendly
+11738 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=player_armed | Hi, hi, I see what you're carrying, I'm no threat, I promise
+11739 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=player_armed | Hello, uh, that looks heavy, I'm glad it's on my side, is it on my side?
+11740 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=player_armed | Hey, point that somewhere else, please, hi, I'm not looking for trouble
+11741 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=player_armed | Hi there, I'm not armed, as you can see, well, you can see
+11742 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=player_armed | Hello, nice to meet you, don't mind me eyeing your gear
+11743 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=player_armed | Hey, friend, hello, I assume you know how to use that
+11744 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=player_armed | Oh, hi, you're well equipped, good, I feel safer, a little
+11745 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=player_armed | Hello, stranger, hello, I notice you're prepared, that's reassuring, mostly
+11746 | reg=civilian,family,worker,rescue|st=friendly,neutral|day=0,99999|fact=player_armed | Hi... sorry, I'm staring, it's the hardware
+11747 | role=civilian_loner|st=careful | Stop there!
+11748 | role=civilian_loner|st=careful | Mm
+11749 | role=family_elder|st=friendly,neutral|world=fence | Well, look at you
+11750 | role=family_youth|st=careful | Hey, stay back, okay?
+11751 | role=worker|st=friendly,neutral | Yeah, hi
+11752 | role=worker|st=friendly,neutral | Hey there, friend
+11753 | role=worker|st=friendly,neutral | Hey there, took a break from the line, long story, you need anything?
+11754 | role=worker|st=friendly,neutral | Howdy, what brings you to the plant? Or what's left of it
+11755 | role=worker|st=careful | Yeah?
+11756 | role=worker|st=careful | Hold it right there
+11757 | role=family_man,family_woman|st=careful | That's far enough!
+11758 | role=rescue_clergy|st=careful | God keep you at a distance, for now
+11759 | role=rescue_firefighter|st=careful | Hold it
+11760 | reg=civilian,family,worker,rescue|st=careful|hour=6,11 | Morning, and before you ask, no, I don't have coffee, and no, I don't trust you
+11761 | reg=civilian,family,worker,rescue|st=careful|hour=6,11 | Who goes there this early? Say your name, then keep your distance
+11762 | reg=civilian,family,worker,rescue|st=careful|hour=21,4 | Who's there?! Hands where I can see 'em, and keep walking!
+11763 | reg=civilian,family,worker,rescue|st=careful|hour=21,4 | It's the middle of the night, you shouldn't be here, I'm warning you
+11764 | reg=civilian,family,worker,rescue|st=careful|hour=19,22 | Evening, and that's all the welcome you get, state your business
+11765 | reg=civilian,family,worker,rescue|st=careful|hour=13,18 | Afternoon, I'm watching you, so don't try anything
+11766 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly | Hi!! Oh my God, hi, a real person, a living, talking person, hi!
+11767 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly | Hey, hey, hello, I'm so glad you're- I mean, hello, sorry, I'm a mess
+11768 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly | Hello! Hi! You look okay, you look normal, are you normal? Sorry, hi
+11769 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly | Oh, hey, hi, hi there, I was just about to give up talking to myself
+11770 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly | Hello, hello, God, it's good to hear my own language
+11771 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly | Hi, you, hi, I'm- I don't even know what to say after hi, hi
+11772 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly | Hey you, good to see a face that isn't trying to bite me
+11773 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly | Hello, there, stranger, you made it this far, that says something
+11774 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly | Hi, hi, you scared me, but a good scared, hi!
+11775 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly | Hello! Do I know you? I feel like I know you, hello
+11776 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly | Hi there, I'm Dottie, I mean, I'm nobody, hello
+11777 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly | Hey! A real conversation, finally, hi, how are you?
+11778 | reg=civilian,family,worker,rescue|tmp=fresh|st=neutral | Hi... um... hello, I guess, are you friendly? You look friendly
+11779 | reg=civilian,family,worker,rescue|tmp=fresh|st=neutral | H-hello? Can I help you? I mean, can you help me? I mean, hello
+11780 | reg=civilian,family,worker,rescue|tmp=fresh|st=neutral | Uh, hi, I didn't see you there, sorry, hello
+11781 | reg=civilian,family,worker,rescue|tmp=fresh|st=neutral | Hi... hi, don't take this wrong, but I'm gonna stay over here
+11782 | reg=civilian,family,worker,rescue|tmp=fresh|st=careful | Who are you?! Don't come any closer!
+11783 | reg=civilian,family,worker,rescue|tmp=fresh|st=careful | Hello, hello, that's close enough, that's close enough!
+11784 | reg=civilian,family,worker,rescue|tmp=fresh|st=careful | Stop right there, what do you want?! I'm armed, I mean it, I'm armed
+11785 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly | Well, hey there, you look like you've had a day, same as the rest of us
+11786 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly | Hey, friend, good to see you in one piece
+11787 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly | Hello, hello, take a load off, you look like you could use it
+11788 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly | Hey, you made it, or you're lost, either way, hello
+11789 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly | Hi there, pull up a crate, tell me something good
+11790 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly | Howdy, stranger, the coffee's cold but the welcome's warm
+11791 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly | Well, hello, stranger, you're a sight for tired eyes
+11792 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly | Hey there, friend, you walk quiet, I like that
+11793 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly | Hello, hello, sit awhile, rest your feet
+11794 | reg=civilian,family,worker,rescue|tmp=seasoned|st=neutral | Hello, keep it short, I'm busy
+11795 | reg=civilian,family,worker,rescue|tmp=seasoned|st=neutral | Mm, hello, I'm listening
+11796 | reg=civilian,family,worker,rescue|tmp=seasoned|st=neutral | Yeah? Hi, who are you
+11797 | reg=civilian,family,worker,rescue|tmp=seasoned|st=neutral | Hi, can I help you with something?
+11798 | reg=civilian,family,worker,rescue|tmp=seasoned|st=careful | Hands where I can see 'em, and stay back
+11799 | reg=civilian,family,worker,rescue|tmp=seasoned|st=careful | You're not from around here, are you? Say your piece
+11800 | reg=civilian,family,worker,rescue|tmp=seasoned|st=careful | Well? What is it, I haven't got all day
+11801 | reg=family|st=friendly | Hello, dear, come in, come in, you must be exhausted
+11802 | reg=family|st=friendly | Hello there, sweetheart, you hungry? You look hungry
+11803 | reg=family|st=friendly | Hi, honey, hi, welcome, it's good to see a kind face
+11804 | reg=family|st=friendly | Welcome, dear, sit, rest, eat something
+11805 | reg=family|st=neutral | Hello, can I help you with something, dear?
+11806 | reg=family|st=neutral | Good day, may I ask what you're doing around here
+11807 | reg=family|st=neutral | Hello, dear, something I can do for you?
+11808 | reg=family|st=careful | Please keep your distance, I have children nearby
+11809 | tmp=veteran|st=friendly | Hello
+11810 | reg=civilian,family,worker,rescue|st=hostile | Don't you say hello to me, I know what you are, get away from my family!
+11811 | reg=civilian,family,worker,rescue|st=hostile | Keep walking, I'm warning you, keep WALKING
+11812 | reg=civilian,family,worker,rescue|st=hostile | Hello? HELLO? You're kidding, right? Get lost!
+11813 | reg=civilian,family,worker,rescue|st=hostile | Don't hi me, I got a shotgun and a bad week, you gonna keep walking?
+11814 | reg=civilian,family,worker,rescue|st=hostile | Hello yourself, this was private property before, and it still is
+11815 | reg=civilian,family,worker,rescue|st=neutral,careful,hostile|rep=worst | Oh God... no no no- it's YOU... take whatever you want, just go!
+11816 | reg=civilian,family,worker,rescue|st=neutral,careful,hostile|rep=worst | It's YOU, I know your face, everybody's been saying... please don't hurt anybody here
+11817 | reg=civilian,family,worker,rescue|st=neutral,careful,hostile|rep=worst | D-don't come closer, I know what you do to people, I KNOW... please-
+11818 | reg=civilian,family,worker,rescue|st=neutral,careful,hostile|rep=worst | They said you were close, I didn't think you'd walk right up, oh Lord, oh Lord...
+11819 | reg=civilian,family,worker,rescue|st=neutral,careful,hostile|rep=worst | Stay back!! I- no, I don't even mean it, just don't, please
+11820 | reg=civilian,family,worker,rescue|st=neutral,careful,hostile|rep=worst | They said you don't even stop to talk anymore, so why are you... why are you talking to me?!
+11821 | reg=civilian,family,worker,rescue|st=neutral,careful,hostile|rep=worst | Lord have mercy, Lord have mercy... hello, I guess? hello
+11822 | reg=civilian,family,worker,rescue|st=neutral,careful,hostile|rep=worst | My hands are empty, see? EMPTY, whatever they say I've got I already gave away
+11823 | reg=civilian,family,worker,rescue|st=neutral,careful,hostile|rep=worst | Nobody told me you'd be this near, I'd have hidden the kids, shit, shit, shit...
+11824 | reg=civilian,family,worker,rescue|st=neutral,careful,hostile|rep=worst | You're the one on everybody's lips, hi, hi... please say you're just passing through
+11825 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad | Well, well, look who it is, I've heard the stories, I'm not saying I believe them all
+11826 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad | You're the one they talk about, keep your hands where I can see 'em, alright?
+11827 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad | Mm, I know who you are, talk if you want, don't reach for anything
+11828 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad | Oh- hi, hi, I know your reputation so let's keep this short and polite, okay?
+11829 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad | I'll talk to you, doesn't mean I like you, doesn't mean I trust you either
+11830 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad | Heard about you, everybody has, hope it was exaggerated... was it exaggerated?
+11831 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad | You've got a name around here and it ain't a nice one, say your piece
+11832 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad | Easy now, I'm just a person standing here, got nothing worth the trouble
+11833 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad | Word travels, and word says don't turn my back on you, so I won't
+11834 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad | Hello yourself, but careful, some folks round here remember what you took
+11835 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad | Yeah yeah, I know who you are, try not to prove 'em right, huh
+11836 | reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad|world=road | Hello... I'd say good to see you but I heard what you did to those folks on the road
+11837 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good | Hey!! Hey, it's you, folks have been talking about what you did, good to finally meet you
+11838 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good | Oh thank God, a friendly face! A famous one too, hi!
+11839 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good | I heard what you did for those people, damn, that was good of you, come on over
+11840 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good | Well, well, you're the one I keep hearing about, said you'd lend a hand to anybody, welcome
+11841 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good | You're- yeah, you're THEM, the helper, hi! sorry, I'm rambling, I do that when I'm nervous
+11842 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good | Hi there, I'm so glad it's you walking up and not somebody else, honest to God
+11843 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good | You're good people, I can tell, and everybody says it too, how's your day been?
+11844 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good | Hey. It's good having you to talk to
+11845 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good | Oh, it's you, come on, say something, I could use some decent company
+11846 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=best | Oh my God, oh my- you're THE... you're the one, everybody's heard of you, HI
+11847 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=best | Honored, truly, folks tell your story like they're in church
+11848 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=best | I- hi, I don't know what to say, I've heard your name in three different towns
+11849 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=best | No kidding, it's really you?! My little girl won't believe me, hi!!
+11850 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=best | You walk up like it's nothing and everybody else is scared of their own shadow, hi...
+11851 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=best | Please, sit, stay, anything, we don't get visitors like you, we don't get visitors at all
+11852 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=best|world=road | Well I'll be, a real legend standing right on my road!
+11853 | role=family_man,family_woman|st=friendly,neutral|world=road | Good to see a friendly face, come on over, don't stand in the road
+11854 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=6,11 | Mornin'... God, I'm not awake yet, is it even morning? yeah, morning, hi
+11855 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=6,11 | Morning!! You made it through the night, that's a win, a real win, hello
+11856 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=6,11 | Hey, early bird, I haven't slept, so for me it's still last night, hello anyway
+11857 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=6,11 | Good morning, if there's such a thing anymore... hi
+11858 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=6,11 | Mornin', you see anything weird on the way over? never mind, hi, I'm rambling
+11859 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=6,11 | Oh, hey, it's you, you're up early, did you even sleep? I didn't
+11860 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=6,11 | Ugh, morning, I'd kill for a cup of coffee, anything hot, hi
+11861 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=6,11 | Morning, friend, you look like you need breakfast, I wish I had some
+11862 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=6,11 | Well, hello, another day, another... whatever this is, hi
+11863 | reg=civilian,family,worker,rescue|st=careful,neutral|hour=6,11 | Morning, keep your distance, please, I'm not awake enough for surprises
+11864 | reg=civilian,family,worker,rescue|st=careful,neutral|hour=6,11 | Hello, it's early, I'm tired, and I don't know you, so, that's all I've got
+11865 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=11,14 | Hey there, hot out, huh? Hello, hello
+11866 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=11,14 | Afternoon... well, almost, I lose track, hi
+11867 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=11,14 | Hi, did you eat? I forget to eat, isn't that crazy? hi
+11868 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=11,14 | Hello, hello, you caught me in the middle of a thought, never mind, hi
+11869 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=11,14 | Well, howdy, the middle of the day, the safest time, hi
+11870 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=11,14 | Stranger, got any water on you? sorry, hi first, water second
+11871 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=13,18 | Afternoon, we've still got a few hours of light, hello
+11872 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=13,18 | Hey, hey, how's your day going so far? mine's terrible, hi
+11873 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=13,18 | Hi there, it's getting late, you got somewhere to sleep tonight?
+11874 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=13,18 | Afternoon, eyes open, more of them come out once it starts getting dark
+11875 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=13,18 | Hello, another day nearly over, hello
+11876 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=13,18 | Hey, look at you, still alive, hi, still alive, ha
+11877 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=19,22 | Evening... hope you've got a plan for tonight, I don't, hi
+11878 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=19,22 | Hello, it's almost dark, you shouldn't be wandering, come sit a minute
+11879 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=19,22 | Hi, hi, I'm glad you showed up before dark, I hate the dark now
+11880 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=19,22 | Evening, friend, you hungry? we've got a little something
+11881 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=19,22 | Good evening, God, it's getting dark so fast, isn't it?
+11882 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=19,22|world=building | Hey, it's late, you need a roof tonight? I might know a place
+11883 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=21,4 | Shh- hi, keep it quiet, please; nights make me nervous
+11884 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=21,4 | Oh God, you scared me, hi, what are you doing out here in the dark
+11885 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=21,4 | Hello, it's the middle of the night, you shouldn't be out, hi
+11886 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=21,4 | Hey, shh, quiet, it's night, we whisper at night, hi
+11887 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=21,4 | Hi... can't sleep either? yeah, me neither, hi
+11888 | reg=civilian,family,worker,rescue|st=friendly,neutral|hour=21,4 | Hello in the dark, that's a first, hi
+11889 | reg=civilian,family,worker,rescue|st=careful,neutral|hour=21,4 | Who's there?! Say something, quick, who is it!
+11890 | reg=family|st=friendly,neutral|hour=6,11 | Good morning, dear, did you sleep alright? we've got a little tea
+11891 | reg=family|st=friendly,neutral|hour=6,11 | Morning, sweetheart, you hungry? sit, sit, there's a biscuit or two
+11892 | reg=family|st=friendly,neutral|hour=6,11 | Good morning to you, come in out of the cold, hi
+11893 | reg=family|st=friendly,neutral|hour=19,22 | Evening, dear, supper's almost ready, will you join us?
+11894 | reg=family|st=friendly,neutral|hour=19,22 | Good evening, you look tired, come sit, we can spare a plate
+11895 | reg=family|st=friendly,neutral|hour=21,4 | Hush now, hush, the little ones are asleep, hello, hello
+11896 | tmp=veteran|st=friendly,neutral|hour=21,4 | Night, keep it quiet
+11897 | tmp=veteran|st=friendly,neutral|hour=6,11 | Morning, brief me
+11898 | reg=civilian,family|tmp=fresh|st=friendly,neutral | Oh! Hi, hi, God, you scared me, you're not sick, are you?
+11899 | reg=civilian,family|tmp=fresh|st=friendly | Hello! Oh, thank goodness, a real person, I haven't talked to anybody in days
+11900 | role=family_woman|st=friendly,neutral | Hi, sweetie, you look like you haven't slept, nobody has, I guess
+11901 | role=family_man|st=friendly,neutral|hour=4,11 | Hi there, I'd say good morning, but I lost track of the hours when the clocks quit
+11902 | reg=civilian,family,worker|tmp=seasoned,veteran|st=friendly,neutral|hour=5,11 | Mornin', coffee's gone, but the hello is still free
+11903 | reg=civilian,family,worker|tmp=seasoned,veteran|st=friendly,neutral|hour=12,17 | Afternoon, keep your voice low, they hear better than you'd think
+11904 | reg=civilian,family,worker|tmp=seasoned,veteran|st=friendly,neutral|hour=18,23|world=fence,road | Evening, don't stand in the road like that, come on over by the fence
+11905 | reg=civilian,family,worker|tmp=seasoned,veteran|st=friendly,neutral | Howdy, you're the first face today that wasn't trying to eat mine
+11906 | role=militia,civilian_loner|st=friendly,neutral | Hey, you walked up like a person, so I'll talk to you like one
+11907 | reg=worker|st=friendly,neutral|hour=4,9|world=vehicle | Hey there, don't mind the grease, I been under a truck since sunup
+11908 | reg=civilian,family|tmp=fresh|st=careful | Hello? Stay right there, please, that's close enough to say hello
+11909 | reg=civilian,family|tmp=fresh|st=careful | H-hi, I have a knife, it's a small knife, but I have it
+11910 | reg=civilian,family|tmp=fresh|st=friendly|day=0,5 | Hi! Sorry, I'm waving like an idiot, you're the first person since Friday who didn't run
+11911 | role=civilian_woman|st=friendly,neutral | Hello there, mind the glass, the whole storefront came down on Saturday
+11912 | reg=civilian,family,worker|tmp=seasoned,veteran|st=friendly,neutral|hour=0,4 | Little late to be out walking, isn't it? Hello anyway, but quietly
+11913 | role=family_elder|st=friendly|hour=5,11 | Good morning, pull up a bucket, the chairs all went into the barricade
+11914 | reg=worker|st=neutral | Hey, how you doing, you got the look of somebody who's walked a long way
+11915 | role=rescue_clergy|st=friendly | Hello, friend, you're welcome here, mind the steps, the third one's rotten
+
+##### HOW_ARE_YOU #####
+# NEREDE: Konuşma penceresinde. Oyuncu NPC'nin yanına gidip konuşmayı açtı ve listeden bu konuyu seçti; bu, NPC'nin oyuncuya yüz yüze cevabı, 'sen'. Oyuncu satırı rahatça okur, sonra başka bir konu seçer.
+# Oyuncu 'nasılsın' diye sordu; NPC'nin cevabı.
+11916 | role=civilian_woman|st=friendly,neutral,careful | I caught myself thinking about laundry, just for a second, that was nice, actually
+11917 | role=civilian_loner|st=friendly,neutral,careful | Not feeling talkative, nothing you've done, I just... not today
+11918 | role=worker|st=friendly,neutral,careful | You ever wake up sore before you've even moved? That
+11919 | role=rescue_medical|st=friendly,neutral,careful | I'm tired, if I sound short with you, that's why
+11920 | reg=civilian,family,worker,rescue|st=friendly,neutral | I haven't slept much, I'm okay, I guess
+11921 | reg=family|st=friendly,neutral | Tired, we all are, but the kids are safe, so I'm fine
+11922 | reg=family|st=friendly,neutral | Oh, I'm hanging in there, dear, and you?
+11923 | reg=family|st=friendly,neutral | My old bones ache, but I'm alive, so I can't complain much
+11924 | reg=worker|st=friendly,neutral | Back hurts, hands are raw, better than a lot of folks
+11925 | st=friendly,neutral | Still able to complain, apparently, could be worse
+11926 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | Terrible, I don't know what to do with myself
+11927 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | I was going to say okay, no, I'm not, I'm trying, but I'm not
+11928 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | Scared, tired, hungry, the usual, you?
+11929 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | How am I?! HOW AM I?! I'm- I'm- ...sorry... I'm fine... no, I'm not... I'm terrible
+11930 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | Shit, I don't know
+11931 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | Scared as hell, and trying not to show it, and failing
+11932 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | I'm- I'm... ha... ha ha... you know what? I'm alive... I'M ALIVE
+11933 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | Honestly? Terrible, but nobody asks anymore, so, thanks
+11934 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | I'm okay, I'm okay, I keep saying it, I'm okay, I just... didn't sleep
+11935 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | Scared, mostly, and hungry, you?
+11936 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | I'm hanging in there, barely, I think, I don't even know
+11937 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral | Oh, I'm fine, I'm- no, no I'm not, I'm not fine, but I'm alive
+11938 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Same as yesterday, just a little more tired, a little less hopeful
+11939 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Fine, I guess, as fine as anybody gets, you?
+11940 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Making do... you know how it is
+11941 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Alive and kicking, mostly alive, mostly kicking
+11942 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Tired... but upright, I'll call that a win
+11943 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Pissed off and tired
+11944 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Tired as hell
+11945 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Eh
+11946 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Alive, which is more than most can say, you?
+11947 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Tired, mostly, always tired, how are you holding up?
+11948 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Eh, I've been better, I've been worse, I'm still standing
+11949 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Surviving, you know how it is
+11950 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral | Rough, but it's rough for everyone, so I don't complain
+11951 | reg=civilian,family,worker,rescue|st=friendly | Better now that I've seen a friendly face, how about you?
+11952 | reg=civilian,family,worker,rescue|st=friendly | Good, actually, good, I'm just glad to see someone
+11953 | reg=civilian,family,worker,rescue|st=friendly | Tired, scared, hungry, and weirdly hopeful, you?
+11954 | reg=civilian,family,worker,rescue|st=friendly | Not great, not terrible, somewhere in the swamp in the middle
+11955 | reg=civilian,family,worker,rescue|st=friendly | I'm hanging on by a thread, but it's a strong thread
+11956 | reg=civilian,family,worker,rescue|st=friendly | Oh, you know, other than the end of the world, I'm fine
+11957 | reg=civilian,family,worker,rescue|st=friendly | Better now that I'm talking to someone, honestly
+11958 | reg=civilian,family,worker,rescue|st=friendly | Ask me after I've eaten something, I'll lie better
+11959 | reg=civilian,family,worker,rescue|st=friendly | Alive, and that's enough for today
+11960 | reg=civilian,family,worker,rescue|st=careful | Fine, now what do you want
+11961 | reg=civilian,family,worker,rescue|st=careful | I'll live, that's all you need to know
+11962 | reg=civilian,family,worker,rescue|st=careful | Why d'you wanna know
+11963 | reg=civilian,family,worker,rescue|st=careful | I'm alive
+11964 | reg=civilian,family,worker,rescue|st=careful | Don't ask me that
+11965 | reg=civilian,family,worker,rescue|st=careful | Fine, thank you
+11966 | reg=civilian,family,worker,rescue|st=careful | I'm fine, now go away
+11967 | reg=civilian,family,worker,rescue|st=careful | Why? What do you want
+11968 | reg=civilian,family,worker,rescue|st=careful | I'm alright, I'm alright, don't ask me more
+11969 | reg=civilian,family,worker,rescue|st=careful | Surviving, you?
+11970 | role=rescue_medical|st=friendly,neutral | Tired, but steady, how are YOU? any fever? any chills?
+11971 | role=rescue_medical|st=friendly,neutral | Tired, achy, caffeinated, but standing, how about you? any fever? any pain?
+11972 | role=rescue_medical|st=friendly,neutral | I'm functioning, which is the most I can say, how are you, really?
+11973 | role=rescue_medical|st=friendly,neutral | I've set four bones since Monday with paint stirrers and duct tape, so, you know, functional
+11974 | role=rescue_clergy|st=friendly,neutral | Blessed... tired, but blessed, and you?
+11975 | role=rescue_clergy|st=friendly,neutral | Blessed, burdened, and weary
+11976 | role=rescue_clergy|st=friendly,neutral | Standing
+11977 | role=rescue_clergy|st=friendly,neutral | Weary, but I can listen if you need to talk
+11978 | role=rescue_firefighter|st=friendly,neutral | Still standing, you?
+11979 | role=rescue_firefighter|st=friendly,neutral | Tired, but upright
+11980 | role=rescue_firefighter|st=friendly,neutral | Haven't slept in three days, still got my boots on, you?
+11981 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral|mood=fear | I'm- I'm okay, I'm okay, I'm- no, I'm not okay, I'm terrified, is that allowed?
+11982 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral|mood=fear | I'm scared, I keep trying to settle down, but I can't stop shaking
+11983 | reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral|mood=fear | Don't ask me, it makes me think about it, and thinking about it is worse
+11984 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|mood=grim | Surviving, which is different from living, but I'll take it
+11985 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|mood=grim | Numb, mostly, which beats the alternative
+11986 | reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|mood=grim | Still here, still breathing, still annoyed, so, normal
+11987 | reg=civilian,family,worker,rescue|st=friendly,neutral|mood=sad | I miss her... I miss her so much... other than that, I'm fine
+11988 | reg=civilian,family,worker,rescue|st=friendly,neutral|mood=sad | Some days are okay, and some days I sit on the floor and can't move
+11989 | reg=civilian,family,worker,rescue|st=friendly,neutral|mood=sad | Empty... that's how I feel... like someone scooped me out with a spoon
+11990 | reg=civilian,family,worker,rescue|st=friendly,neutral|mood=angry | How am I? I'm furious, I'm exhausted, I'm hungry, and I'm tired of this crap
+11991 | reg=civilian,family,worker,rescue|st=friendly,neutral|mood=angry | Terrible! just terrible! and don't ask me again, you'll regret it
+11992 | reg=civilian,family,worker,rescue|st=friendly|mood=warm | Better with you here, if you've got a little time to talk
+11993 | reg=civilian,family,worker,rescue|st=friendly|mood=warm | Better than yesterday, worse than tomorrow, but okay, with company like yours
+11994 | reg=civilian,family,worker,rescue|st=friendly,neutral|mood=funny | Never better, never worse, never sure, hahaha
+11995 | reg=civilian,family,worker,rescue|st=friendly,neutral|mood=funny | Dead inside, but still moving, so, the usual
+11996 | reg=civilian,family,worker,rescue|st=careful|mood=fear | Fine, now go!
+11997 | reg=civilian,family,worker,rescue|st=careful|mood=fear | I'm fine... and I'd like to remain that way!!
+11998 | role=rescue_medical|st=careful | I'm fine, thank you, now step back
+11999 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Better now that you're here, honestly, much better
+12000 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Hanging in there, how about you?
+12001 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Tired, but happy to see you, how about you?
+12002 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Not bad, not bad at all, and you? you look well
+12003 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Good, good, I'm good, thanks to people like you
+12004 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Surviving, with a smile, how about you?
+12005 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | I've had better days, but this one just got better
+12006 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Taking it one hour at a time, and you?
+12007 | reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best | Alive, thankful, a bit sore, and you?

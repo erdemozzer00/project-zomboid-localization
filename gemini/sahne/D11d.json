@@ -1,0 +1,14 @@
+{
+ "_baslik": "Konuşma cevapları (çeşitli): silahı bırak, pazarlık, rüşvet, yalvarma, teslim ol, sakin ol, flört, gülme, küfürle dertleşme, evet/hayır/belki, hava ve mevsim soruları",
+ "_genel": "Olay adı OYUNCUNUN konuşma menüsünden seçtiği şey; satır NPC'nin buna cevabı. DROP_WEAPON = oyuncu 'silahını bırak' dedi, LOWER_WEAPON = 'silahını indir', DONT_SHOOT = 'ateş etme', I_AM_FRIENDLY = 'dostum', CALM_DOWN = 'sakin ol', NEGOTIATE = 'konuşalım', BRIBE = rüşvet teklif etti, BEG = yalvardı/diz çöktü, SURRENDER = teslim oldu, GIVE_BACK = 'aldığını geri ver', ENCOURAGE = moral verdi, FLIRT = flört etti, LAUGH = güldü, REPEAT = 'ne dedin, tekrar et', SWEAR_VENT = küfrederek dert yandı, OK_ACK = 'tamam' dedi, YES/NO/MAYBE = oyuncu ortada soru yokken 'evet/hayır/belki' dedi, HOME_NONE / HOME_REFUSE = oyuncu 'nerede kalıyorsun' diye sordu, STAY_NIGHT = 'burada kalabilir miyim' dedi. Bütün rollerden NPC'ler (sivil, aile, kolluk, asker, haydut, çete…); kim konuştuğu reg/role etiketinde, oyuncuya tutumu st etiketinde. NPC DOĞRUDAN OYUNCUYA konuşuyor: tekil 'sen'. Sesi role ve tutuma göre kur (sivil ürkek ya da sıcak, asker/polis kısa ve mesafeli, haydut kaba).",
+ "WARMQ_*": "Oyuncu 'nasıl ısınırım' diye sordu (COLD hava soğuk, MILD ılık).",
+ "GOTQ_*": "Oyuncu 'nezle/soğuk algınlığı oldun mu' diye sordu; olayın sonu NPC'nin durumu (SICK hasta, CHILLED üşüyor, WELL iyi).",
+ "REMQ_*": "Oyuncu 'soğuk algınlığına ne iyi gelir' diye sordu (SICK = NPC'nin kendisi hasta, WELL = değil).",
+ "HEATQ": "Oyuncu sıcağı sordu / sıcaktan yakındı.",
+ "FIREQ_*": "Oyuncu 'yakınlarda ateş/ısınacak yer var mı' diye sordu (NEAR = var, NONE = bilmiyor).",
+ "SEAQ_*": "Oyuncu 'bu mevsimi sever misin / mevsim nasıl' diye sordu; olayın sonu mevsim (SPRING ilkbahar, SUMMER yaz, AUTUMN sonbahar, WINTER kış).",
+ "WINQ_*": "Oyuncu 'kış nasıl geçecek / kışa hazır mısın' diye sordu; olayın sonu şu anki mevsim.",
+ "SNOWQ_*": "Oyuncu kar hakkında sordu (FALLING kar yağıyor, GROUND yerde kar var).",
+ "HARQ_*": "Oyuncu 'bu mevsimde ne yetişir / hasat ne' diye sordu; olayın sonu mevsim.",
+ "SURRENDER": "Oyuncu 'teslim oluyorum' dedi; NPC teslimi kabul ediyor ya da emir veriyor."
+}

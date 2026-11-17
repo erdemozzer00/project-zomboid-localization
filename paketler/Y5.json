@@ -1,0 +1,498 @@
+{
+  "_paket": "Y5 — 1.5.0 konuşma ağaçları (arayüz), 159 (çeviri: harici AI; kalite incelemesi yapılmadı)",
+  "_dosya": "IG_UI_lua",
+  "satirlar": {
+    "IGUI_ALifeUI_7c86f8b35bc59c3d": {
+      "tr": "Bilgi"
+    },
+    "IGUI_ALifeUI_73e34b1d6551ab17": {
+      "tr": "Bana biraz yardım edebilir misin?"
+    },
+    "IGUI_ALifeUI_184c27864b70c4bb": {
+      "tr": "Ne kadar yardım edebileceklerini tartıyorlar"
+    },
+    "IGUI_ALifeUI_57e525e25c584a9f": {
+      "tr": "Yiyeceğim az kaldı"
+    },
+    "IGUI_ALifeUI_4e40a4d111897f54": {
+      "tr": "Neyi gözden çıkarabileceklerini söylüyorlar"
+    },
+    "IGUI_ALifeUI_0576077307af77fa": {
+      "tr": "Sana geri öderim"
+    },
+    "IGUI_ALifeUI_1b53f7e43aeee24b": {
+      "tr": "Bir anlaşmanın temeli atılıyor"
+    },
+    "IGUI_ALifeUI_6127b9425be43df5": {
+      "tr": "El sıkışalım"
+    },
+    "IGUI_ALifeUI_721c6d104050997f": {
+      "tr": "Anlaşmayı unutmayacaklar"
+    },
+    "IGUI_ALifeUI_69c7a38656c8ec78": {
+      "tr": "Buradaki insanlara yardım ettim"
+    },
+    "IGUI_ALifeUI_41ab9891065d03ce": {
+      "tr": "Burada adımın biraz itibarı var"
+    },
+    "IGUI_ALifeUI_0555770a1c8a2ea0": {
+      "tr": "Öyleyse daha büyük bir iyilik isteyeceğim"
+    },
+    "IGUI_ALifeUI_2503f5bb09f09c0f": {
+      "tr": "Ne kadar ileri gideceklerini tartıyorlar"
+    },
+    "IGUI_ALifeUI_29cca89e462a8a47": {
+      "tr": "Boş ver, kendim hallederim"
+    },
+    "IGUI_ALifeUI_45d46c7c59b5b012": {
+      "tr": "Kapıyı aralık bırakıyorsun"
+    },
+    "IGUI_ALifeUI_660bc7a72efc1cc8": {
+      "tr": "Bir şeyler takas edebilir miyiz?"
+    },
+    "IGUI_ALifeUI_48c48a2612d95fd2": {
+      "tr": "Neye ihtiyaç duyduklarını söylüyorlar"
+    },
+    "IGUI_ALifeUI_13e9e4cc1387465d": {
+      "tr": "Bulabilir miyim diye etrafa bakarım"
+    },
+    "IGUI_ALifeUI_18f25f2162f95695": {
+      "tr": "Teklifini akıllarında tutacaklar"
+    },
+    "IGUI_ALifeUI_71ca41004d44d398": {
+      "tr": "Buna ne ödersin?"
+    },
+    "IGUI_ALifeUI_5c4328a77291ceb9": {
+      "tr": "Somut bir şey söylüyorlar"
+    },
+    "IGUI_ALifeUI_64ad03ed7e725581": {
+      "tr": "Tamir işlerinden anlarım"
+    },
+    "IGUI_ALifeUI_42118aae6e7986fa": {
+      "tr": "Elinden iş geliyor"
+    },
+    "IGUI_ALifeUI_2aac5a7a43d29240": {
+      "tr": "Mekanik becerisi gerekiyor"
+    },
+    "IGUI_ALifeUI_7e706c67056bad55": {
+      "tr": "Bir iş söyle, ücretini de"
+    },
+    "IGUI_ALifeUI_19ae06a27bf57b46": {
+      "tr": "Becerine bir değer biçiyorlar"
+    },
+    "IGUI_ALifeUI_4d586af31cfc10e6": {
+      "tr": "Boş ver, sadece bakınıyordum"
+    },
+    "IGUI_ALifeUI_390dac3a1b22fa00": {
+      "tr": "Sorun yok"
+    },
+    "IGUI_ALifeUI_6a81b81b30593064": {
+      "tr": "Bu bölgeyi bana anlatır mısın?"
+    },
+    "IGUI_ALifeUI_3e4afc4b79709bf5": {
+      "tr": "Bildiklerini anlatıyorlar"
+    },
+    "IGUI_ALifeUI_757ea5856c7e0542": {
+      "tr": "Neresi tehlikeli?"
+    },
+    "IGUI_ALifeUI_5ceb826513dba04e": {
+      "tr": "Tehlikeli yerleri gösteriyorlar"
+    },
+    "IGUI_ALifeUI_2a5b20156d1c70f2": {
+      "tr": "Tehlikeden nasıl kaçınırım?"
+    },
+    "IGUI_ALifeUI_788530fc147588b1": {
+      "tr": "Görünmeden dolaşmanın püf noktalarını bedavaya anlatıyorlar"
+    },
+    "IGUI_ALifeUI_07354d996bb5e25a": {
+      "tr": "Aramaya değer bir yer var mı?"
+    },
+    "IGUI_ALifeUI_4cdff71c23e215b2": {
+      "tr": "El değmemiş yerlerin ipucunu veriyorlar"
+    },
+    "IGUI_ALifeUI_2e3457c22df6801e": {
+      "tr": "Oradan başka geçen oldu mu?"
+    },
+    "IGUI_ALifeUI_66e0ef75060a16f6": {
+      "tr": "Kimlerin oralardan geçtiğini söylüyorlar"
+    },
+    "IGUI_ALifeUI_01e13b40645891b3": {
+      "tr": "Buralarda nerede kalırdın?"
+    },
+    "IGUI_ALifeUI_44df72dd09c0ae7b": {
+      "tr": "Sessiz sakin bir yer söylüyorlar"
+    },
+    "IGUI_ALifeUI_44797df445b6a7c2": {
+      "tr": "Kendilerini nasıl gördüklerini anlatıyorlar"
+    },
+    "IGUI_ALifeUI_49e41dce439bf029": {
+      "tr": "Ne zamandır birliktesiniz?",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Sözü edilen \"you\" tek oyuncu değil, karşıdaki grup/kurum/çete ya da onu temsil eden NPC (ekip, istasyon, ev halkı, birlik): çoğul/kurum hitabı, tekil siz-saygı değil"
+      }
+    },
+    "IGUI_ALifeUI_07f6bb1c2cb5fe8d": {
+      "tr": "Nasıl başladığını anlatıyorlar"
+    },
+    "IGUI_ALifeUI_3a0b4da8193064cd": {
+      "tr": "Burada ne istiyorsunuz?",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Sözü edilen \"you\" tek oyuncu değil, karşıdaki grup/kurum/çete ya da onu temsil eden NPC (ekip, istasyon, ev halkı, birlik): çoğul/kurum hitabı, tekil siz-saygı değil"
+      }
+    },
+    "IGUI_ALifeUI_20445d4a6fcef702": {
+      "tr": "Ne peşinde olduklarını anlatıyorlar"
+    },
+    "IGUI_ALifeUI_33c7b0ee7a14ef75": {
+      "tr": "Düşmanlarınız kim?",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Sözü edilen \"you\" tek oyuncu değil, karşıdaki grup/kurum/çete ya da onu temsil eden NPC (ekip, istasyon, ev halkı, birlik): çoğul/kurum hitabı, tekil siz-saygı değil"
+      }
+    },
+    "IGUI_ALifeUI_0212836419465b56": {
+      "tr": "Kimlere dikkat etmen gerektiğini söylüyorlar"
+    },
+    "IGUI_ALifeUI_130f7a650fbc61c3": {
+      "tr": "Bir gün sizinle birlikte hareket edebilir miyim?"
+    },
+    "IGUI_ALifeUI_68c11d6b4866c62b": {
+      "tr": "Sana katılıp katılamayacağını tartıyorlar"
+    },
+    "IGUI_ALifeUI_392ae1a32c4614bd": {
+      "tr": "Neyi kanıtlamam gerekiyor?"
+    },
+    "IGUI_ALifeUI_6704af5e320f54dc": {
+      "tr": "Neyin önemli olduğunu söylüyorlar"
+    },
+    "IGUI_ALifeUI_1976dfb516db6656": {
+      "tr": "Nasıl nöbet tutuyorsunuz?",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Sözü edilen \"you\" tek oyuncu değil, karşıdaki grup/kurum/çete ya da onu temsil eden NPC (ekip, istasyon, ev halkı, birlik): çoğul/kurum hitabı, tekil siz-saygı değil"
+      }
+    },
+    "IGUI_ALifeUI_17498c4e49530bb6": {
+      "tr": "Hayatta kalmak için neler yaptıklarını anlatıyorlar"
+    },
+    "IGUI_ALifeUI_200d25eb47802a14": {
+      "tr": "Son zamanlarda tehlikeli bir şey gördün mü?"
+    },
+    "IGUI_ALifeUI_537cc99f55369512": {
+      "tr": "Yakınlardaki tehlikeleri söylüyorlar"
+    },
+    "IGUI_ALifeUI_546ca4ec40658afc": {
+      "tr": "Saydıkları şeyleri söylüyorlar"
+    },
+    "IGUI_ALifeUI_3341503956b0ac83": {
+      "tr": "Tehlikeden uzak durman için doğru yönü gösteriyorlar"
+    },
+    "IGUI_ALifeUI_7f1d8a4d1c26068c": {
+      "tr": "Ben hallederim"
+    },
+    "IGUI_ALifeUI_5f7a4c1031ffc02d": {
+      "tr": "Duruşunu tartıyorlar"
+    },
+    "IGUI_ALifeUI_7fee3cf617c6c35d": {
+      "tr": "Nişan alma becerisi gerekiyor"
+    },
+    "IGUI_ALifeUI_071d004a4a4b41d2": {
+      "tr": "O zaman arkamı kolla"
+    },
+    "IGUI_ALifeUI_1e6ed7a82b5b59d2": {
+      "tr": "Sana arka çıkmayı kabul ediyorlar"
+    },
+    "IGUI_ALifeUI_5af5d9a115223f4d": {
+      "tr": "Başlarını sallayıp konuyu kapatıyorlar"
+    },
+    "IGUI_ALifeUI_14b5d4794f4e83fc": {
+      "tr": "Dinlenebileceğim bir yer var mı?"
+    },
+    "IGUI_ALifeUI_3a8112441ac7e245": {
+      "tr": "Nerede kalabileceğini düşünüyorlar"
+    },
+    "IGUI_ALifeUI_6eeb87791222badf": {
+      "tr": "Sadece bu gece"
+    },
+    "IGUI_ALifeUI_722fa0016e2ebaae": {
+      "tr": "Sana güvenip güvenemeyeceklerine karar veriyorlar"
+    },
+    "IGUI_ALifeUI_7cc8a7f41159cf89": {
+      "tr": "Ben nöbet tutarım"
+    },
+    "IGUI_ALifeUI_57dae39026b68866": {
+      "tr": "Bu teklifi yapman hoşlarına gidiyor"
+    },
+    "IGUI_ALifeUI_078cbecb41677194": {
+      "tr": "Bir kıpırtı olursa beni uyandır"
+    },
+    "IGUI_ALifeUI_1723cb103bda6c27": {
+      "tr": "Bir kulağın seste, dinleniyorsun"
+    },
+    "IGUI_ALifeUI_35524a7c4d45fb3c": {
+      "tr": "Parasını verebilirim"
+    },
+    "IGUI_ALifeUI_4388447d50fb996c": {
+      "tr": "Sana kalacak yerin fiyatını söylüyorlar"
+    },
+    "IGUI_ALifeUI_7fb84e99445c95f6": {
+      "tr": "Sabaha kadar getiririm"
+    },
+    "IGUI_ALifeUI_2de864d1691f13f0": {
+      "tr": "Sözünü yerine getirmeni bekleyecekler"
+    },
+    "IGUI_ALifeUI_231df1cd205aa554": {
+      "tr": "Öyleyse yakınlarda başka bir yer?"
+    },
+    "IGUI_ALifeUI_4a4f5f0f52c2a4aa": {
+      "tr": "Seni başka bir yere yönlendiriyorlar"
+    },
+    "IGUI_ALifeUI_659cef0e3cbc29d0": {
+      "tr": "Grubunuza katılabilir miyim?"
+    },
+    "IGUI_ALifeUI_5cb91d774ab458bd": {
+      "tr": "Sana uyup uymadığını düşünüyorlar"
+    },
+    "IGUI_ALifeUI_78c6ba4377ece95d": {
+      "tr": "Grupta neyin eksik olduğunu söylüyorlar"
+    },
+    "IGUI_ALifeUI_663f9a5c5a308dd2": {
+      "tr": "Onu yapabilirim"
+    },
+    "IGUI_ALifeUI_1634f42b735fa588": {
+      "tr": "Seni bir soruyla sınıyorlar"
+    },
+    "IGUI_ALifeUI_677092d5083fb829": {
+      "tr": "Erzak getiririm"
+    },
+    "IGUI_ALifeUI_249e65060765c9fe": {
+      "tr": "Bir armağan konuşmanın önünü açıyor"
+    },
+    "IGUI_ALifeUI_4637bd2f6a461311": {
+      "tr": "Ne kadar getirmem yeter?"
+    },
+    "IGUI_ALifeUI_1097a6c63f6abf2f": {
+      "tr": "Ne gerektiğini söylüyorlar"
+    },
+    "IGUI_ALifeUI_4dc173ac06aad152": {
+      "tr": "Henüz hazır değilim, sadece soruyorum"
+    },
+    "IGUI_ALifeUI_44c479ba45d75638": {
+      "tr": "Bunu sonraya bırakıyorsun"
+    },
+    "IGUI_ALifeUI_0cca68430d4468c7": {
+      "tr": "Sakin ol, kimse burada olay çıkarmak istemiyor"
+    },
+    "IGUI_ALifeUI_5b6876e03a9e3eaf": {
+      "tr": "Ortamı yatıştırmaya çalışıyorsun"
+    },
+    "IGUI_ALifeUI_0103e6270e68644e": {
+      "tr": "Silahımı yere bırakıyorum"
+    },
+    "IGUI_ALifeUI_441ad96230380f8f": {
+      "tr": "Ciddi olduğunu gösteriyorsun"
+    },
+    "IGUI_ALifeUI_3773c0e07426c1f8": {
+      "tr": "Şimdi anlat, sorun ne?"
+    },
+    "IGUI_ALifeUI_7d08f5183ed115c0": {
+      "tr": "İçlerini dökmeye başlıyorlar"
+    },
+    "IGUI_ALifeUI_19c596bd3653cc14": {
+      "tr": "Etrafına bak, ikimiz de sayıca azız"
+    },
+    "IGUI_ALifeUI_32c3278b155a468c": {
+      "tr": "Güç dengesini farklı görmelerini sağlıyorsun"
+    },
+    "IGUI_ALifeUI_15ece8410adf381f": {
+      "tr": "İkimiz de çekip gidelim"
+    },
+    "IGUI_ALifeUI_56728e4d2deb74c9": {
+      "tr": "Onlara bir çıkış yolu sunuyorsun"
+    },
+    "IGUI_ALifeUI_683dcd20606139ac": {
+      "tr": "Ben gidiyorum, sorun çıkmasın"
+    },
+    "IGUI_ALifeUI_3506daad29ebef64": {
+      "tr": "Geri çekiliyorsun"
+    },
+    "IGUI_ALifeUI_7812494331579894": {
+      "tr": "Silahını indir, konuşalım"
+    },
+    "IGUI_ALifeUI_755f76637d8d417a": {
+      "tr": "Ne kadar ileri gideceklerini yokluyorsun"
+    },
+    "IGUI_ALifeUI_7d9e91036a164c22": {
+      "tr": "Ben de silahımı indireceğim"
+    },
+    "IGUI_ALifeUI_4c4d7ed1602b96b9": {
+      "tr": "Karşılıklı güven gösteriyorsun"
+    },
+    "IGUI_ALifeUI_12474d5844c76889": {
+      "tr": "Peki, seni kim gönderdi?"
+    },
+    "IGUI_ALifeUI_3c5d20c05bdf88a6": {
+      "tr": "Kendilerini açıklamaya başlıyorlar"
+    },
+    "IGUI_ALifeUI_3fe393e60181c32a": {
+      "tr": "Son şansın, silahını indir"
+    },
+    "IGUI_ALifeUI_56e382b0394ea0d6": {
+      "tr": "Üstlerine gidiyorsun"
+    },
+    "IGUI_ALifeUI_077ba91672a1073f": {
+      "tr": "Silahı ver"
+    },
+    "IGUI_ALifeUI_796290d33a07dfa2": {
+      "tr": "Ne kadar korktuklarına karar veriyorlar"
+    },
+    "IGUI_ALifeUI_035ea9b7346a84cc": {
+      "tr": "Peki, sende kalsın, yeter ki uzak dur"
+    },
+    "IGUI_ALifeUI_1c7538a817e840cf": {
+      "tr": "Geri adım atıyorsun"
+    },
+    "IGUI_ALifeUI_51aa3cdf42410f7c": {
+      "tr": "Seni yeniden görmek güzel"
+    },
+    "IGUI_ALifeUI_2822b98a7c76ef51": {
+      "tr": "Seni hatırlıyorlar"
+    },
+    "IGUI_ALifeUI_6e2bb1a245f91e24": {
+      "tr": "Günlerin nasıl geçtiğini anlatıyorlar"
+    },
+    "IGUI_ALifeUI_318e3bf619f2c90c": {
+      "tr": "O zamandan beri yeni bir şey var mı?"
+    },
+    "IGUI_ALifeUI_1695fa06342ec454": {
+      "tr": "Seni son gelişmelerden haberdar ediyorlar"
+    },
+    "IGUI_ALifeUI_28165fd477da1555": {
+      "tr": "Sayende hâlâ hayattayım"
+    },
+    "IGUI_ALifeUI_7825236d6a223954": {
+      "tr": "Biraz minnet göstermek çok işe yarıyor"
+    },
+    "IGUI_ALifeUI_3e0588dc4c777add": {
+      "tr": "Sana bir iyilik borçluyum"
+    },
+    "IGUI_ALifeUI_3ffe4ae11feab1ad": {
+      "tr": "Bunu bir kenara not ediyorlar"
+    },
+    "IGUI_ALifeUI_2023cf482f9f0954": {
+      "tr": "Fazla kalamam"
+    },
+    "IGUI_ALifeUI_4684aab27fd8f3ad": {
+      "tr": "Konuşmayı kısa kesiyorsun"
+    },
+    "IGUI_ALifeUI_4331afd10f65f14a": {
+      "tr": "Dışarıda gözünü dört aç"
+    },
+    "IGUI_ALifeUI_605f612901a037b6": {
+      "tr": "Bir uyarıda bulunuyorsun"
+    },
+    "IGUI_ALifeUI_3199e36a4d3a6f75": {
+      "tr": "Hava karardıktan sonra dışarı çıkma"
+    },
+    "IGUI_ALifeUI_3622c6697eb5ac1b": {
+      "tr": "Söylediklerini ciddiye alıyorlar"
+    },
+    "IGUI_ALifeUI_0767692d6096fe0e": {
+      "tr": "Kapıları kilitle ve sessiz ol"
+    },
+    "IGUI_ALifeUI_416968ef75871951": {
+      "tr": "Dikkatli olmaya söz veriyorlar"
+    },
+    "IGUI_ALifeUI_5219e5f17d3261d7": {
+      "tr": "Sonra gelip hâlinize bakacağım"
+    },
+    "IGUI_ALifeUI_27823db06d18559e": {
+      "tr": "Geri döneceğini söylüyorsun"
+    },
+    "IGUI_ALifeUI_3243b01100ac121e": {
+      "tr": "Mumun ışığını kısık tut, seni bulurum"
+    },
+    "IGUI_ALifeUI_3b690da7550b8b31": {
+      "tr": "Aranızda bir işaret belirliyorsun"
+    },
+    "IGUI_ALifeUI_12965d7d31205d82": {
+      "tr": "Sadece haber vereyim dedim"
+    },
+    "IGUI_ALifeUI_75f1385f7c347bfe": {
+      "tr": "Konuyu burada bırakıyorsun"
+    },
+    "IGUI_ALifeUI_3d7f49c42875bbed": {
+      "tr": "Bir iyilik isteyebilir miyim?"
+    },
+    "IGUI_ALifeUI_5ca111aa0528171a": {
+      "tr": "Seni dinlerler"
+    },
+    "IGUI_ALifeUI_7e5f6e8421d26a19": {
+      "tr": "Eşyalarıma göz kulak olur musun?"
+    },
+    "IGUI_ALifeUI_2af69bcd08ac45da": {
+      "tr": "Eşyalarına göz kulak olmayı kabul ederler"
+    },
+    "IGUI_ALifeUI_3aed785a76921ec5": {
+      "tr": "Ben dönene kadar"
+    },
+    "IGUI_ALifeUI_67497cf765beef72": {
+      "tr": "Ne kadar süreyle olacağını belirlerler"
+    },
+    "IGUI_ALifeUI_11b3446a18d1bae6": {
+      "tr": "Sağ ol, bunu sana borçluyum"
+    },
+    "IGUI_ALifeUI_4344a72c0df658e6": {
+      "tr": "Borcunu not ederler"
+    },
+    "IGUI_ALifeUI_72cac8df5f65e678": {
+      "tr": "Grubuna benim için kefil olur musun?"
+    },
+    "IGUI_ALifeUI_3f5b27ff2cfd7000": {
+      "tr": "Onlardan benim için kefil olmalarını istersin"
+    },
+    "IGUI_ALifeUI_31dad465278b2bc4": {
+      "tr": "Bunu telafi edeceğim"
+    },
+    "IGUI_ALifeUI_4d45264d669f582b": {
+      "tr": "Sana bir şans tanırlar"
+    },
+    "IGUI_ALifeUI_1c571f225dda8598": {
+      "tr": "Vazgeçtim"
+    },
+    "IGUI_ALifeUI_729f0e48670c47c7": {
+      "tr": "Konuyu kapatırsın"
+    },
+    "IGUI_ALifeUI_7f524002198f822b": {
+      "tr": "Kimsin, nasıl gidiyor?"
+    },
+    "IGUI_ALifeUI_122579494438ecc9": {
+      "tr": "İlk yanıtları kısa ve temkinlidir",
+      "onayli_uslup_istisnalari": {
+        "dir": "Arayüz açıklaması/ipucu cümlesi, konuşma değil; bilgilendirme tonunda doğal"
+      }
+    },
+    "IGUI_ALifeUI_00daa2c05f718f85": {
+      "tr": "Burada ne yaptığını sorayım"
+    },
+    "IGUI_ALifeUI_6c34899d006d6607": {
+      "tr": "Burada ne yaptığını anlatır"
+    },
+    "IGUI_ALifeUI_522553ec7f528697": {
+      "tr": "Kimlerle takıldığını sorayım"
+    },
+    "IGUI_ALifeUI_103e0b092537c434": {
+      "tr": "Kimlerle takıldığını ve kimin emir verdiğini anlatır"
+    },
+    "IGUI_ALifeUI_1b409e41698a9ddc": {
+      "tr": "İnsanlarının nerede kaldığını sorayım"
+    },
+    "IGUI_ALifeUI_16e39caf0941e66f": {
+      "tr": "Grubun nerede kaldığını ve nasıl nöbet tuttuğunu anlatır"
+    },
+    "IGUI_ALifeUI_32f1ad42736d5a59": {
+      "tr": "Onları kazanmak için ne gerektiğini sorayım"
+    },
+    "IGUI_ALifeUI_756ce37f2a7a0327": {
+      "tr": "Kurtulmak için ne vermeye razı olduklarını söyler"
+    }
+  }
+}

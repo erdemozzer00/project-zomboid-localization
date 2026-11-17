@@ -1,0 +1,438 @@
+{
+    "_paket": "S6 — Sandbox: Dünya (5World)",
+    "_dosya": "Sandbox",
+    "satirlar": {
+        "Sandbox_ProjectALife.Scavenge_BuildingRadius": {
+            "tr": "Malzeme toplarken bina arama yarıçapı (kare)"
+        },
+        "Sandbox_ProjectALife.Scavenge_BuildingRadius_tooltip": {
+            "tr": "Malzeme toplayanların bina ararken ne kadar uzağa bakacağını belirler. Yüksek değer aramayı genişletir ama bina bulmak için yapılan hesabı da artırır.\nVarsayılan: 27.",
+            "not": "Eski metin \"-dır\"lı ve eksikti; yeni EN'e göre yeniden yazıldı."
+        },
+        "Sandbox_ProjectALife.Scavenge_CarryLimit": {
+            "tr": "Dönmeden önce toplanacak eşya sayısı"
+        },
+        "Sandbox_ProjectALife.Scavenge_CarryLimit_tooltip": {
+            "tr": "Malzeme toplayanlar bu kadar eşya topladıktan sonra kamplarına ya da üs depolarına döner. Örneğin 4 yazarsan dört eşya toplayınca eve dönerler.\nVarsayılan: 8."
+        },
+        "Sandbox_ProjectALife.Scavenge_ReturnAfterBuildings": {
+            "tr": "Dönmeden önce aranacak bina sayısı"
+        },
+        "Sandbox_ProjectALife.Scavenge_ReturnAfterBuildings_tooltip": {
+            "tr": "Malzeme toplayanlar bu kadar bina aradıktan sonra topladıklarını eve götürür. Örneğin 3, dönmeden önce üç bina aramalarına izin verir.\nVarsayılan: 2."
+        },
+        "Sandbox_ProjectALife.NpcNight": {
+            "tr": "NPC'lerin gece görüşü"
+        },
+        "Sandbox_ProjectALife.NpcNight_tooltip": {
+            "tr": "El fenerleri: NPC'ler karanlıkta 12 kare, fenerlerinin ışığı sana ulaşınca 20 kare uzağı görür. Gece görüşü: NPC'ler gece görebilir ama gece görüş gözlüğünü onlara kendin vermen gerekir.\nVarsayılan: El fenerleri (1).",
+            "not": "Eski: \"siz\" → \"sen\"."
+        },
+        "Sandbox_ProjectALife.NpcNight_option1": {
+            "tr": "El fenerleri"
+        },
+        "Sandbox_ProjectALife.NpcNight_option2": {
+            "tr": "Gece görüşü"
+        },
+        "Sandbox_ProjectALife.OfflineRevenge": {
+            "tr": "İntikam için geri dönen gruplar",
+            "not": "Eski \"Ekipler intikam alır\"; EN değişti (Returning survivor grudges)."
+        },
+        "Sandbox_ProjectALife.OfflineRevenge_tooltip": {
+            "tr": "Senin yüzünden üye kaybedip kaçmayı başaran gruplar, iki üç oyun günü sonra yanlarına takviye alıp intikam için geri dönebilir.\nVarsayılan: açık.",
+            "not": "Eski: \"siz\" → \"sen\"."
+        },
+        "Sandbox_ProjectALife.Scavenging": {
+            "tr": "Düşmanların malzeme toplaması",
+            "not": "Eski \"Malzeme toplamaya izin ver\"; EN artık \"Hostile scavenging\" (ayar adı, emir değil)."
+        },
+        "Sandbox_ProjectALife.Scavenging_tooltip": {
+            "tr": "Düşman yağmacıların yakındaki malzemeleri almasına izin verir.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.Investigate": {
+            "tr": "Gürültü ve hareketlerin araştırılması"
+        },
+        "Sandbox_ProjectALife.Investigate_tooltip": {
+            "tr": "Düşman NPC'ler fark ettikleri silah seslerine, bağırışlara ve başka hareket belirtilerine doğru yürüyebilir.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.CloseDoors": {
+            "tr": "NPC gruplarının açtığı kapıları kapatması"
+        },
+        "Sandbox_ProjectALife.CloseDoors_tooltip": {
+            "tr": "Çatışma dışında grubun son üyesi, grubun açtığı kapıları kapatır. Oyuncuların açtığı kapılara ve içinde biri duran kapı aralıklarına dokunulmaz; hiçbir kilit değişmez.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.WeaponDrops": {
+            "tr": "Cesette silah kalması",
+            "not": "İleri atıf: S1'deki DropsWeaponChance tooltip'i bu adı anıyor."
+        },
+        "Sandbox_ProjectALife.WeaponDrops_tooltip": {
+            "tr": "Uygun NPC'lerin ateşli silahları ve yakın dövüş silahları yağmalanmak üzere cesetlerinde kalabilir. Cesette silah kalma olasılığı ayarı yine geçerli.\nVarsayılan: açık.",
+            "not": "C1: \"weapon drop chance\" → onaylı ayar adı \"Cesette silah kalma olasılığı\"."
+        },
+        "Sandbox_ProjectALife.DropsWeaponCondition": {
+            "tr": "Cesette kalan silahın durumu",
+            "not": "K21: eski \"Cesetten alınan silahın durumu\" → \"Cesette kalan\"; WeaponDrops ve DropsWeaponChance adlarıyla aynı kalıp."
+        },
+        "Sandbox_ProjectALife.DropsWeaponCondition_tooltip": {
+            "tr": "Cesette kalan silahın durumunu belirler, NPC'nin dövüş gücünü değil. NPC profiline göre seçeneği her profilin kendi değerini ve oyunun başındaki yıpranma eğrisini korur; Bozuk silahın kullanılmadan önce onarılması gerekir.\nVarsayılan: NPC profiline göre (1).",
+            "not": "EN kısaldı; eski uzun metin yeni EN'e göre yeniden yazıldı. \"Bozuk\" seçenek adına atıf (C1)."
+        },
+        "Sandbox_ProjectALife.DropsWeaponCondition_option1": {
+            "tr": "NPC profiline göre"
+        },
+        "Sandbox_ProjectALife.DropsWeaponCondition_option2": {
+            "tr": "Bozuk (0/10)"
+        },
+        "Sandbox_ProjectALife.DropsWeaponCondition_option3": {
+            "tr": "Hurda, ancak bir iki atış yapar (1/10)"
+        },
+        "Sandbox_ProjectALife.DropsWeaponCondition_option4": {
+            "tr": "Çok kötü, birkaç atış yapar (2/10)"
+        },
+        "Sandbox_ProjectALife.DropsWeaponCondition_option5": {
+            "tr": "Kötü (3/10)"
+        },
+        "Sandbox_ProjectALife.DropsWeaponCondition_option6": {
+            "tr": "Yıpranmış (4/10)"
+        },
+        "Sandbox_ProjectALife.DropsWeaponCondition_option7": {
+            "tr": "Kullanılmış, yarı yarıya yıpranmış (5/10)"
+        },
+        "Sandbox_ProjectALife.DropsWeaponCondition_option8": {
+            "tr": "İş görür (6/10)"
+        },
+        "Sandbox_ProjectALife.DropsWeaponCondition_option9": {
+            "tr": "İyi (7/10)"
+        },
+        "Sandbox_ProjectALife.DropsWeaponCondition_option10": {
+            "tr": "Çok iyi (8/10)"
+        },
+        "Sandbox_ProjectALife.DropsWeaponCondition_option11": {
+            "tr": "Neredeyse yeni (9/10)"
+        },
+        "Sandbox_ProjectALife.DropsWeaponCondition_option12": {
+            "tr": "Yepyeni (10/10)"
+        },
+        "Sandbox_ProjectALife.Clues": {
+            "tr": "Hayatta kalan izlerinin araştırılması",
+            "not": "Eski \"Oyuncunun bıraktığı izleri araştır\"; EN değişti."
+        },
+        "Sandbox_ProjectALife.Clues_tooltip": {
+            "tr": "NPC'ler çatışmada değilken, yakında hayatta kalanlar olduğunu gösteren izlerin (barikat, çalışan jeneratör gibi) bulunduğu yerleri araştırır.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.CluesVehicles": {
+            "tr": "Araç izleri"
+        },
+        "Sandbox_ProjectALife.CluesVehicles_tooltip": {
+            "tr": "Motoru çalışan ya da düz kontak yapılmış araçlar, NPC'leri çevrelerini aramaya çeker.\nVarsayılan: açık.",
+            "not": "\"Düz kontak\" vanilla terimi."
+        },
+        "Sandbox_ProjectALife.CluesBarricades": {
+            "tr": "Barikat izleri"
+        },
+        "Sandbox_ProjectALife.CluesBarricades_tooltip": {
+            "tr": "Kapı ve pencerelere çakılmış tahtalar, NPC'lere binada birilerinin yaşadığını ve araştırmaya değer olduğunu düşündürür.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.CluesPlayerBuilt": {
+            "tr": "Oyuncu yapısı izleri"
+        },
+        "Sandbox_ProjectALife.CluesPlayerBuilt_tooltip": {
+            "tr": "Oyuncuların yaptığı duvarlar, büyük kapılar ve çitler, NPC'lere orada birilerinin yaşadığını ve araştırmaya değer olduğunu düşündürür.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.CluesPower": {
+            "tr": "Jeneratör izleri"
+        },
+        "Sandbox_ProjectALife.CluesPower_tooltip": {
+            "tr": "Çalışan bir jeneratör, NPC'lere yakınlarda birinin yaşadığını açıkça belli eder ve onları araştırmaya çeker.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.CluesWeight": {
+            "tr": "İzlere duyarlılık (normalin katı)"
+        },
+        "Sandbox_ProjectALife.CluesWeight_tooltip": {
+            "tr": "NPC'lerin hayatta kalan izlerini ne kadar kolay araştırdığını ölçekler. Yüksek değerlerde zayıf izler bile aramaya yeter; düşük değerlerde daha güçlü kanıt gerekir.\nVarsayılan: 1.0."
+        },
+        "Sandbox_ProjectALife.PatrolRestEnabled": {
+            "tr": "Devriye ve keşifçi molaları"
+        },
+        "Sandbox_ProjectALife.PatrolRestEnabled_tooltip": {
+            "tr": "Devriyeler ve keşifçiler birkaç saatte bir ve çatışmalardan sonra yol kenarında mola verir; oturup sigara yakar, bir şeyler içer, laflar, sonra rotalarına döner.\nVarsayılan: açık.",
+            "not": "Hafif ağız: \"laflar\"."
+        },
+        "Sandbox_ProjectALife.PatrolRestMinMinutes": {
+            "tr": "En kısa devriye molası (oyun dakikası)"
+        },
+        "Sandbox_ProjectALife.PatrolRestMinMinutes_tooltip": {
+            "tr": "Bir devriye molasının en kısa süresini belirler. Örneğin 30, her molanın en az yarım oyun saati sürmesi demek.\nVarsayılan: 20."
+        },
+        "Sandbox_ProjectALife.PatrolRestMaxMinutes": {
+            "tr": "En uzun devriye molası (oyun dakikası)"
+        },
+        "Sandbox_ProjectALife.PatrolRestMaxMinutes_tooltip": {
+            "tr": "Bir devriye molasının en uzun süresini belirler. Örneğin 60, her molayı bir oyun saatiyle sınırlar.\nVarsayılan: 45."
+        },
+        "Sandbox_ProjectALife.PatrolRestEveryHours": {
+            "tr": "Planlı devriye molası aralığı (oyun saati)"
+        },
+        "Sandbox_ProjectALife.PatrolRestEveryHours_tooltip": {
+            "tr": "Bir grubun planlı molaları arasındaki olağan süreyi belirler; süre biraz oynayabilir. Çatışma sonrası mola bu düzenden ayrı.\nVarsayılan: 3.0."
+        },
+        "Sandbox_ProjectALife.BodyLootEnabled": {
+            "tr": "NPC'lerin ceset araması"
+        },
+        "Sandbox_ProjectALife.BodyLootEnabled_tooltip": {
+            "tr": "Çatışmalardan sonra oyuncuların yakınındaki NPC'ler, 15 kare içinde tehlike yoksa cesetleri yağmalayıp erzak ve işe yarar teçhizatı alır. Oyuncuların ve eskiden oyuncuya yoldaşlık etmiş NPC'lerin cesetlerine dokunmazlar.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.BodyLootPerMinute": {
+            "tr": "Grup başına ceset araması (gerçek dakikada)"
+        },
+        "Sandbox_ProjectALife.BodyLootPerMinute_tooltip": {
+            "tr": "Bir grubun her gerçek dakikada kaç ceset arayabileceğini sınırlar. Örneğin 2, bir dakikada ikiden fazla ceset aramasını engeller.\nVarsayılan: 3."
+        },
+        "Sandbox_ProjectALife.RadioKnoxCounty": {
+            "tr": "Knox County hayatta kalanlar radyosu"
+        },
+        "Sandbox_ProjectALife.RadioKnoxCounty_tooltip": {
+            "tr": "Hayatta kalanların işlettiği bir istasyon ekler: telsiz dinlemeleri, askerî konuşmalar, dinleyici bağlantıları, hikâyeler, şakalar ve dünyanda olup bitenlere dair söylentiler.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.RadioKnoxFrequency": {
+            "tr": "Knox County radyosunun frekansı (kHz)"
+        },
+        "Sandbox_ProjectALife.RadioKnoxFrequency_tooltip": {
+            "tr": "Kullanılmayan bir frekans seç; 100000, 100 MHz demek. Başka kanalların yerine asla geçmez. Değiştirdikten sonra sunucuyu yeniden başlat, sonra bir radyo açıp eşleşen ön ayarı ekle.\nVarsayılan: 99600.",
+            "not": "Radio preset → \"ön ayar\" (vanilla radyo arayüzü: \"Ön Ayar Ekle\")."
+        },
+        "Sandbox_ProjectALife.LootRareDropPercent": {
+            "tr": "Cesette nadir zırh kalma olasılığı (yüzde)"
+        },
+        "Sandbox_ProjectALife.LootRareDropPercent_tooltip": {
+            "tr": "Nadir zırh yalnızca askerî ve özel müdahale ekiplerinin cesetlerinde, kirli ve yüzde 10-40 sağlamlıkta kalabilir. 0'da bu zırhlar hiç kalmaz. Balyozlar ve üretim parçaları asla kalmaz.\nVarsayılan: 5."
+        },
+        "Sandbox_ProjectALife.LootAllowRareFromProfiles": {
+            "tr": "Oluşturucu profillerinde nadir eşyalar"
+        },
+        "Sandbox_ProjectALife.LootAllowRareFromProfiles_tooltip": {
+            "tr": "Açık: Oluşturucu profilleri seçilen nadir teçhizatı korur. Kapalı: özel balyozlar, üretimlik silah başları ve ağır zırhlar, NPC ortaya çıkarken sıradan teçhizatla değiştirilir.\nVarsayılan: kapalı."
+        },
+        "Sandbox_ProjectALife.ColdEnabled": {
+            "tr": "NPC'lerin üşümesi ve hastalanması"
+        },
+        "Sandbox_ProjectALife.ColdEnabled_tooltip": {
+            "tr": "Hava ve kıyafetler NPC'lerin ısısını etkiler. Uzun süre üşüyen NPC'ler öksürür, nişanları bozulur, yavaş yürür ve daha çabuk yorulur. İç mekânda ya da ateş başında ısınırlar.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.ColdSeekWarmth": {
+            "tr": "Üşüyen NPC'lerin ısınacak yer araması"
+        },
+        "Sandbox_ProjectALife.ColdSeekWarmth_tooltip": {
+            "tr": "Emri olmayan ve tehlikede olmayan üşümüş NPC'ler bir ateş ya da ısıtılmış bina arar, çantalarındaki daha kalın kıyafetleri giyer. Gruplar liderlerinin peşinden ateşe gider.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.IdleCampWarmHands": {
+            "tr": "Kamp ateşinde el ısıtma"
+        },
+        "Sandbox_ProjectALife.IdleCampWarmHands_tooltip": {
+            "tr": "Soğuk havada yanan bir kamp ateşinin başında oturan NPC'ler arada bir ellerini ateşe tutar. Hava sıcaksa ya da ateş yoksa sadece otururlar.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.IdleFishingAnim": {
+            "tr": "NPC olta animasyonları"
+        },
+        "Sandbox_ProjectALife.IdleFishingAnim_tooltip": {
+            "tr": "Kıyıda balık tutanlar 20-60 saniyede bir oltayı atar, bekler ve çeker. Kapalı: olta animasyonu olmadan balık tutmaya devam ederler.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.IdleBenchSeat": {
+            "tr": "Kamp ateşinde banka oturma"
+        },
+        "Sandbox_ProjectALife.IdleBenchSeat_tooltip": {
+            "tr": "Yakınında boş bir dış mekân bankı olan kampçılar yere değil banka oturur. Kapalı: hep yere otururlar.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.PickedOverEnabled": {
+            "tr": "Önceden aranmış binalar"
+        },
+        "Sandbox_ProjectALife.PickedOverEnabled_tooltip": {
+            "tr": "Oyuncuların henüz girmediği ama başkalarının çoktan aradığı binalarda daha az değerli eşya ve yağma izleri olabilir. Oyuncuların girdiği binalara, oyuncu üslerine, güvenli evlere ve karakollara asla dokunmaz.\nVarsayılan: açık.",
+            "not": "N: \"sığınakları veya üsleri\" → \"güvenli evlere ve karakollara\" (sözlük: safehouse, outpost); \"Varsayılan olarak açıktır\" → \"Varsayılan: açık.\" (K5)."
+        },
+        "Sandbox_ProjectALife.PickedOverStrength": {
+            "tr": "Önceden aranmış bina oranı (normalin yüzdesi)",
+            "not": "N: \"normal değerin yüzdesi\" → \"normalin yüzdesi\" (önceki paketlerle aynı kalıp)."
+        },
+        "Sandbox_ProjectALife.PickedOverStrength_tooltip": {
+            "tr": "Bir binanın önceden aranmış olma olasılığını ölçekler. 100 olağan olasılığı korur, 300 üç katına çıkarır, 0 kapatır.\nVarsayılan: 100.",
+            "not": "N: \"Varsayılan 100'dür\" → \"Varsayılan: 100.\" (K5)."
+        },
+        "Sandbox_ProjectALife.PickedOverBaseline": {
+            "tr": "Girilmemiş binaların aranmış olma taban oranı (yüzde)",
+            "not": "N: \"Ziyaret edilmemiş\" → \"Girilmemiş\" (kısaltma; ziyaretçi kavramıyla karışmasın)."
+        },
+        "Sandbox_ProjectALife.PickedOverBaseline_tooltip": {
+            "tr": "Bina türü ve oran ölçeklemesinden önceki temel olasılığı belirler. Yakınlarda yapılan malzeme toplama, bu ayarlamalardan önce olasılığa en fazla 60 yüzde puanı ekler.\nVarsayılan: 5.",
+            "not": "N: küçük sadeleştirme + \"Varsayılan 5'tir\" → \"Varsayılan: 5.\""
+        },
+        "Sandbox_ProjectALife.PickedOverVisuals": {
+            "tr": "Önceki malzeme toplamadan kalan görünür izler"
+        },
+        "Sandbox_ProjectALife.PickedOverVisuals_tooltip": {
+            "tr": "Önceden aranmış binalarda açık kapılar, kırık pencereler ve kan izleri görülebilir. Bu izler yalnızca bütün oyuncular en az 40 kare uzaktayken yerleştirilir.\nVarsayılan: açık.",
+            "not": "N: yalnızca varsayılan kalıbı."
+        },
+        "Sandbox_ProjectALife.PickedOverZombieCorpses": {
+            "tr": "Aranmış binalarda zombi cesetleri"
+        },
+        "Sandbox_ProjectALife.PickedOverZombieCorpses_tooltip": {
+            "tr": "Önceden aranmış binalarda bir iki ölü zombi bulunabilir.\nVarsayılan: açık.",
+            "not": "N: yalnızca varsayılan kalıbı."
+        },
+        "Sandbox_ProjectALife.PickedOverFactionCorpses": {
+            "tr": "Aranmış binalarda toplayıcı cesetleri"
+        },
+        "Sandbox_ProjectALife.PickedOverFactionCorpses_tooltip": {
+            "tr": "Bir binada nadiren, bölgeyi arayan grubun ölü bir üyesi bulunabilir; üstünde o grubun kıyafetleri ve teçhizatı olur.\nVarsayılan: açık.",
+            "not": "N: cümle sadeleştirildi + varsayılan kalıbı."
+        },
+        "Sandbox_ProjectALife.WarDeadEnabled": {
+            "tr": "Uzaktaki NPC çatışmalarından kalan cesetler"
+        },
+        "Sandbox_ProjectALife.WarDeadEnabled_tooltip": {
+            "tr": "Oyunculardan uzaktaki çatışmalarda ölen NPC'ler, çatışma yerinde giyimli cesetler bırakır. Cesetler oyuncular 40-110 kare uzaktayken yerleştirilir ve 14 oyun günü sonra unutulur.\nVarsayılan: açık.",
+            "not": "N: \"silinir\" → \"unutulur\" (EN \"forgotten\": mod artık takip etmiyor, ceset silinmeyebilir)."
+        },
+        "Sandbox_ProjectALife.OfflineLootPercent": {
+            "tr": "Uzakta malzeme toplamada kalan ganimet (yüzde)"
+        },
+        "Sandbox_ProjectALife.OfflineLootPercent_tooltip": {
+            "tr": "Oyunculardan uzakta malzeme toplayan gruplar, her evin ganimet değerinin bu kadarını alır. Bunu bir üste saklar, yersiz yurtsuzlarsa yanlarında taşırlar. 0 bu kazancı kapatır.\nVarsayılan: 25.",
+            "not": "N: \"evsizlerse\" → \"yersiz yurtsuzlarsa\" (hafif ağız), varsayılan kalıbı."
+        },
+        "Sandbox_ProjectALife.ActivitiesEnabled": {
+            "tr": "NPC'lerin işlerine devam etmesi"
+        },
+        "Sandbox_ProjectALife.ActivitiesEnabled_tooltip": {
+            "tr": "Ekipler bir karşılaşmadan sonra başka işe geçebilir; örneğin arabayı tamir edip onunla malzeme toplamaya çıkar. Uzaktaki gruplar erzak durumuna göre plan yapar. Kapalı: ekipler eski davranışlarını sürdürür.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.ActivitiesSwitchChance": {
+            "tr": "Başka işe geçen karşılaşmalar (yüzde)"
+        },
+        "Sandbox_ProjectALife.ActivitiesSwitchChance_tooltip": {
+            "tr": "Biten karşılaşmaların kaçında ekibin başka bir işe geçeceğini belirler. Kalanlar yerinde bekler ve eskisi gibi sonra ayrılır; yüksek değerler yollara daha çok ekip çıkarır.\nVarsayılan: 70."
+        },
+        "Sandbox_ProjectALife.ActivitiesNeedsDrainPercent": {
+            "tr": "NPC erzak tüketimi (normalin yüzdesi)"
+        },
+        "Sandbox_ProjectALife.ActivitiesNeedsDrainPercent_tooltip": {
+            "tr": "Grupların ne kadar çabuk acıkıp susadığını ölçekler. Yüksek değerler daha çok erzak seferi ve seninle daha çok karşılaşma ihtimali demek.\nVarsayılan: 100."
+        },
+        "Sandbox_ProjectALife.ActivitiesAdoptCap": {
+            "tr": "İşine devam eden karşılaşma grubu sınırı (grup)"
+        },
+        "Sandbox_ProjectALife.ActivitiesAdoptCap_tooltip": {
+            "tr": "Sen uzaktayken yola devam eden karşılaşma ekiplerinin sayısını sınırlar; bu ekipler Uzaktaki gezgin grup sınırına dahil. Fazlası sen yakındayken devam edebilir, sonra eskisi gibi dünyadan çıkar.\nVarsayılan: 6.",
+            "not": "C1: \"distant-group limit\" → onaylı ayar adı \"Uzaktaki gezgin grup sınırı\"."
+        },
+        "Sandbox_ProjectALife.ActivitiesFixedCarDrivable": {
+            "tr": "Tamir edilen karşılaşma arabalarının sürülebilmesi"
+        },
+        "Sandbox_ProjectALife.ActivitiesFixedCarDrivable_tooltip": {
+            "tr": "Açık: tamir edilen arabaların motoru, aküsü, kaputu ve biraz yakıtı olur, bagajdaki ganimet de yerinde kalır. Kapalı: araba hurda kalır ama ekibin zulası olarak durur.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.ActivitiesFixedCarFuelPercent": {
+            "tr": "Tamir edilen karşılaşma arabasının yakıtı (depo yüzdesi)"
+        },
+        "Sandbox_ProjectALife.ActivitiesFixedCarFuelPercent_tooltip": {
+            "tr": "Tamir edilen arabanın deposunun ne kadar dolu olacağını belirler. Örneğin 25, çeyrek depo demek.\nVarsayılan: 15."
+        },
+        "Sandbox_ProjectALife.ActivitiesHunting": {
+            "tr": "NPC'lerin avlanması"
+        },
+        "Sandbox_ProjectALife.ActivitiesHunting_tooltip": {
+            "tr": "Silahlı NPC ekiplerinin avlanmasına izin verir. Yalnızca arka planda: sadece oyunculardan uzakta avlanırlar, yakındaki hayvanlar sana kalır.\nVarsayılan: Arka planda ve yakındaki av hayvanları (3).",
+            "not": "offline → \"arka planda\" (S2'deki WorldMode seçeneğiyle aynı)."
+        },
+        "Sandbox_ProjectALife.ActivitiesHunting_option1": {
+            "tr": "Kapalı"
+        },
+        "Sandbox_ProjectALife.ActivitiesHunting_option2": {
+            "tr": "Yalnızca arka planda"
+        },
+        "Sandbox_ProjectALife.ActivitiesHunting_option3": {
+            "tr": "Arka planda ve yakındaki av hayvanları"
+        },
+        "Sandbox_ProjectALife.ActivitiesSwitchHours": {
+            "tr": "Arabayı bırakmadan önce bekleme (oyun saati)"
+        },
+        "Sandbox_ProjectALife.ActivitiesSwitchHours_tooltip": {
+            "tr": "Bozuk ya da kaza yapmış bir arabanın başında bu kadar takılı kalan ekip, arabayı bırakıp malzeme toplamaya gidebilir; ama yalnızca yakında oyuncu yoksa.\nVarsayılan: 10."
+        },
+        "Sandbox_ProjectALife.ActivitiesSwitchClearTiles": {
+            "tr": "Arabayı bırakmak için oyuncu uzaklığı (kare)"
+        },
+        "Sandbox_ProjectALife.ActivitiesSwitchClearTiles_tooltip": {
+            "tr": "Herhangi bir oyuncu bu mesafeden yakındayken ekip arabasını bırakamaz. Örneğin 80, sen 80 kare içindeyken ekibi arabanın başında tutar.\nVarsayılan: 60."
+        },
+        "Sandbox_ProjectALife.ActivitiesPartyWeight": {
+            "tr": "İş başındaki ekiplerle karşılaşma sıklığı (normalin yüzdesi)"
+        },
+        "Sandbox_ProjectALife.ActivitiesPartyWeight_tooltip": {
+            "tr": "Balıkçılar, avcılar, doğadan yiyecek toplayanlar, oduncular, kamp kuranlar, malzeme toplayanlar ve su taşıyanlarla karşılaşmaları ölçekler. 100 olağan sıklığı korur; 0 bu karşılaşmaları kapatır.\nVarsayılan: 100."
+        },
+        "Sandbox_ProjectALife.ActivitiesHuntYieldPercent": {
+            "tr": "NPC avından çıkan yiyecek (normalin yüzdesi)"
+        },
+        "Sandbox_ProjectALife.ActivitiesHuntYieldPercent_tooltip": {
+            "tr": "NPC avlarından elde edilen yiyeceği ölçekler. 100 olağan miktarı korur; 0 hiç yiyecek vermez, 200 iki katını verir.\nVarsayılan: 100."
+        },
+        "Sandbox_ProjectALife.ActivitiesFishing": {
+            "tr": "NPC'lerin balık tutması"
+        },
+        "Sandbox_ProjectALife.ActivitiesFishing_tooltip": {
+            "tr": "NPC ekiplerinin su kenarında balık tutmasına izin verir; oyunculara kalan balık azalmaz.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.ActivitiesFishingMinutes": {
+            "tr": "Ortalama NPC balık tutma süresi (oyun dakikası)"
+        },
+        "Sandbox_ProjectALife.ActivitiesFishingMinutes_tooltip": {
+            "tr": "Her seferi bu sürenin yüzde 60-140'ı kadar sürer. Bir oyuncu, düşman ya da zombi onları fark ederse, silah sesi duyulursa ya da darbe alırlarsa balıkçılar işi bırakır.\nVarsayılan: 65."
+        },
+        "Sandbox_ProjectALife.ActivitiesFishYieldPercent": {
+            "tr": "NPC balık verimi (normalin yüzdesi)"
+        },
+        "Sandbox_ProjectALife.ActivitiesFishYieldPercent_tooltip": {
+            "tr": "NPC ekiplerinin tuttuğu balığı ölçekler. 100 olağan avı korur; 0 hiç balık vermez, 200 iki katını verir.\nVarsayılan: 100."
+        },
+        "Sandbox_ProjectALife.ActivitiesForaging": {
+            "tr": "NPC'lerin doğadan yiyecek toplaması",
+            "not": "forage → \"doğadan yiyecek toplama\". Vanilla \"Araştırma\" diyor ama bu sayfada \"araştırma\" investigate için kullanılıyor; karışmasın diye. U1'deki \"Yiyecek Toplayıcısı\" unvanıyla uyumlu."
+        },
+        "Sandbox_ProjectALife.ActivitiesForaging_tooltip": {
+            "tr": "Yiyecek toplayan ekipler kamp zulalarına mevsimine göre yaban meyvesi, ot, fındık-ceviz ve mantar getirir. Oyuncuların doğada bulabileceği şeyler azalmaz.\nVarsayılan: açık."
+        },
+        "Sandbox_ProjectALife.ActivitiesForageYieldPercent": {
+            "tr": "NPC'lerin doğadan topladığı yiyecek (normalin yüzdesi)"
+        },
+        "Sandbox_ProjectALife.ActivitiesForageYieldPercent_tooltip": {
+            "tr": "Her ekibin bir oyun gününde doğadan topladığı yiyeceği ölçekler. 100 altı, 200 on iki eşya verir; 0 hiç vermez.\nVarsayılan: 100."
+        },
+        "Sandbox_ProjectALife.PlansEnabled": {
+            "tr": "Grup hedefleri ve planları"
+        },
+        "Sandbox_ProjectALife.PlansEnabled_tooltip": {
+            "tr": "Serbest gruplar erzak ya da sığınak gibi hedefler seçer, bunu aralarında konuşur ve iş bitene, önleri kesilene, yaralanana ya da tehdit altına girene kadar peşinden gider. Kapalı: gruplar yine dolaşıp boş durur.\nVarsayılan: açık.",
+            "not": "shelter → \"sığınak\" (sözlük)."
+        },
+        "Sandbox_ProjectALife.PlansRadius": {
+            "tr": "Grup planı arama yarıçapı (kare)"
+        },
+        "Sandbox_ProjectALife.PlansRadius_tooltip": {
+            "tr": "Grubun planı için ne kadar uzaktaki binalara bakacağını belirler. Yakın binalar tercih edilir; 80, aramayı 80 kareyle sınırlar.\nVarsayılan: 100."
+        },
+        "Sandbox_ProjectALife.PlansLifespanHours": {
+            "tr": "Grup planı süre sınırı (oyun saati)"
+        },
+        "Sandbox_ProjectALife.PlansLifespanHours_tooltip": {
+            "tr": "Grubun bir planı bırakıp yenisini seçmeden önce ona ne kadar bağlı kalacağını belirler. Sığınak planları sabaha kadar sürer.\nVarsayılan: 6."
+        },
+        "Sandbox_ProjectALife.PlansTalk": {
+            "tr": "Grupların planı sesli konuşması"
+        },
+        "Sandbox_ProjectALife.PlansTalk_tooltip": {
+            "tr": "Gruplar yola çıkmadan önce planı konuşur, varınca ya da vazgeçince de bir şey söyler. Kapalı: planları yine uygularlar ama sessizce.\nVarsayılan: açık."
+        }
+    }
+}

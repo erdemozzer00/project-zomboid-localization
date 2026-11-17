@@ -1,0 +1,354 @@
+# PAKET G1R · parça 16/35 · satır 5294-5626 (333 satır)
+# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.
+# YENİDEN ÇEVİRİ: Bu satırlar oyunda şu an skill'den önceki eski bir çeviriyle görünüyor; sıfırdan, İngilizceden kur. Her başlığın altındaki 'NEREDE:' oyuncunun bu sözle nasıl karşılaştığını, '#' notu sahneyi anlatır. Önce bunları oku, satırı o anda o yerde duyulacak sözle yaz.
+# SAHNE: Bunlar oyuncunun en çok gördüğü sözler: selamlaşma, yoldan geçerken atılan laf, panik, çatışma, konuşma penceresindeki cevaplar. Aynı olayın altındaki satırlar farklı karakterlerin ağzından; her satırın etiketine bak (rol, tutum, deneyim, ruh hali), ses ona göre değişir.
+# Girdi biçimi: N | koşul etiketleri | İngilizce
+
+##### ORD_ROB_OK #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+5294 | reg=civilian,family,worker,rescue|tmp=fresh | Take it, take it, it's all yours, please just don't hurt me
+5295 | reg=civilian,family,worker,rescue|tmp=fresh | Everything, take everything, I don't care anymore
+5296 | reg=civilian,family,worker,rescue|tmp=fresh | That's all I have, honest, it's all I have
+5297 | reg=civilian,family,worker,rescue|tmp=fresh | Everything, take everything, just let me go, please, let me go!
+5298 | reg=civilian,family,worker,rescue|tmp=fresh | That's all I have, all of it, I'm sorry, it's not much
+5299 | reg=civilian,family,worker,rescue|tmp=seasoned | There, take it, you've got your loot, now go
+5300 | reg=civilian,family,worker,rescue|tmp=seasoned | Fine, pick it clean, vulture
+5301 | reg=civilian,family,worker,rescue|tmp=seasoned | That's everything, you got it, now go on
+5302 | reg=civilian,family,worker,rescue|tmp=seasoned | Fine, take it, you thief, you low-down thief
+5303 | reg=family | God forgive you, take it, take it all
+5304 | reg=civilian,family,worker,rescue | Take it! Take what you want, just don't hurt us!
+5305 | reg=civilian,family,worker,rescue | Please, it's everything I've got, take it and go
+5306 | reg=civilian,family,worker,rescue | Here! Here, take it, just let us live
+5307 | reg=civilian,family,worker,rescue | I'm giving it to you, please, don't shoot
+
+##### ORD_ZOMBIE_CANCEL #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Oyuncu bu NPC'ye bir emir verdi (eller yukarı, takip et, git, çantayı bırak vb.); NPC'nin oyuncuya cevabı, 'sen'.
+5308 | reg=civilian,family,worker,rescue|tmp=fresh | SHIT!! DEADS!! DEADS!!
+5309 | reg=civilian,family,worker,rescue|tmp=fresh | OH- oh God, behind you, BEHIND YOU!!
+5310 | reg=civilian,family,worker,rescue|tmp=fresh | RUN!! There's one!! RUN!!
+5311 | reg=civilian,family,worker,rescue|tmp=fresh | No no no no, they're here, THEY'RE HERE!!
+5312 | reg=civilian,family,worker,rescue|tmp=fresh | SHIT!! Deads!! Behind you, behind YOU!!
+5313 | reg=civilian,family,worker,rescue|tmp=fresh | Oh God!! Oh God, oh God, they're coming, they're coming!!
+5314 | reg=civilian,family,worker,rescue|tmp=fresh | SHIT- shit shit shit, I- hands down, hands DOWN, run!!
+5315 | reg=civilian,family,worker,rescue|tmp=fresh | Aaah!! There's one!! There's one right there!!
+5316 | reg=civilian,family,worker,rescue|tmp=fresh | No no no no- dead, dead one, DEAD ONE!!
+5317 | reg=civilian,family,worker,rescue|tmp=seasoned | Shit! Deads! Look out!
+5318 | reg=civilian,family,worker,rescue|tmp=seasoned | Damn it, damn it, one's coming!
+5319 | reg=civilian,family,worker,rescue|tmp=seasoned | Son of a bitch, behind you!
+5320 | reg=civilian,family,worker,rescue|tmp=seasoned | Shit! Deads! Look out! Look OUT!
+5321 | reg=civilian,family,worker,rescue|tmp=seasoned | Damn it, damn it, one of them, right there!
+5322 | reg=family | Lord have mercy, they're here, they're HERE!
+5323 | reg=civilian,family,worker,rescue | Shit- deads behind you!
+5324 | reg=civilian,family,worker,rescue | Oh God, they're here! They're right here!
+5325 | reg=civilian,family,worker,rescue | Zombies! Zombies, run!
+5326 | reg=civilian,family,worker,rescue | Forget the hands, they're coming! GO, GO!
+
+##### OUT_OF_AMMO #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Mermisi bitti; ekibe.
+5327 | - | Empty... of course it's empty
+5328 | - | No ammo! Don't count on my gun!
+5329 | - | That's it for this gun!
+5330 | - | Dry, this is bad
+5331 | - | No more shots from me!
+5332 | - | I'm done shooting until I find more!
+5333 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | It's empty, it's empty, oh God, it's EMPTY!
+5334 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | Nothing- nothing- there's nothing left in it, nothing!
+5335 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | No bullets, I've got no bullets, what the hell do I DO?!
+5336 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | Dry! Dry! I'm dry! Somebody help me!
+5337 | reg=civilian,family,worker,rescue|tmp=fresh|mood=fear | I burned through every one, why'd I shoot so much?!
+5338 | reg=civilian,family,worker,rescue|tmp=fresh | I'm dry, I'm out!
+5339 | reg=civilian,family,worker,rescue|tmp=fresh | Empty! Does anybody have any rounds?
+5340 | reg=civilian,family,worker,rescue|tmp=fresh | No more bullets, I've got nothing left
+5341 | reg=civilian,family,worker,rescue|tmp=fresh | Out of rounds, going to have to use something else
+5342 | reg=civilian,family,worker,rescue|tmp=fresh | Aw no, nothing left, that was my last one
+5343 | reg=civilian,family,worker,rescue|tmp=fresh | It's empty, what now? What do I use now?
+5344 | reg=civilian,family,worker,rescue|tmp=fresh | Got no ammo, so I can't help much, sorry, sorry
+5345 | reg=civilian,family,worker,rescue|tmp=seasoned | Out of ammo, fall back to what you've got
+5346 | reg=civilian,family,worker,rescue|tmp=seasoned | Dry, I'm dry, anyone spare a few rounds?
+5347 | reg=civilian,family,worker,rescue|tmp=seasoned | Empty, switching to something else
+5348 | reg=civilian,family,worker,rescue|tmp=seasoned | That's the last of it, last round gone
+5349 | reg=civilian,family,worker,rescue|tmp=seasoned | Click, no more, time to improvise
+5350 | reg=civilian,family,worker,rescue|tmp=seasoned | I'm out. Give me a moment to figure this out
+5351 | reg=civilian,family,worker,rescue|tmp=seasoned | Nothing left in this gun, I need some room
+5352 | reg=civilian,family,worker,rescue|tmp=seasoned | Told you we needed more, now look
+5353 | reg=civilian,family,worker,rescue|tmp=seasoned | Out, I'm out, someone take over
+5354 | reg=civilian,family,worker,rescue|tmp=seasoned | Empty gun and a long walk, great
+5355 | reg=civilian,family,worker,rescue|tmp=seasoned|mood=angry | Out of ammo, NOW?! Of course, of COURSE
+5356 | reg=civilian,family,worker,rescue|tmp=seasoned|mood=angry | God damn it, I just filled it, how is it empty?!
+5357 | reg=civilian,family,worker,rescue|tmp=seasoned|mood=angry | Empty! Empty again! This is a joke, right?
+5358 | reg=civilian,family,worker,rescue|tmp=seasoned|mood=grim | Last round gone... and nobody left to ask for more
+5359 | reg=civilian,family,worker,rescue|tmp=seasoned|mood=grim | Empty... figures
+5360 | reg=civilian,family,worker,rescue|mood=calm | Dry here, I'll step back and let you cover
+
+##### PANIC #####
+# NEREDE: Dünyada, NPC'nin başının üstünde birkaç saniye görünen yazı. Oyuncu yanından geçerken, yakınında dolaşırken ya da olay anında görür; kimse cevap vermez, söylenip geçilen kısa söz. Bir bakışta okunacak, ağızdan çıktığı gibi olmalı.
+# Panik anı.
+5361 | tmp=fresh | THEY'RE ON US! Oh God they're on us!
+5362 | tmp=fresh | Where do I go?! Somebody tell me where to GO!
+5363 | tmp=fresh | Don't leave me! Please don't leave me here!
+5364 | tmp=fresh | Which way? WHICH WAY?!
+5365 | tmp=fresh | Get off me! GET OFF ME!
+5366 | tmp=fresh | Who's shooting?! WHO IS SHOOTING?!
+5367 | tmp=fresh|mood=fear | I can't do this... I can't-- I can't do this again!
+5368 | tmp=fresh|mood=fear | I'm hit-- no, I'm not, I'm not! Okay, okay
+5369 | tmp=fresh|mood=fear | My legs won't move, why won't my legs move?!
+5370 | tmp=seasoned|world=road | Off the road! Everybody off the road!
+5371 | reg=civilian,family,worker,rescue|tmp=fresh | Somebody DO something! Anybody!
+5372 | reg=civilian,family,worker,rescue|tmp=fresh | Oh no, oh no, oh no, oh no!
+5373 | reg=civilian,family,worker,rescue|tmp=fresh | Run! Everybody run!
+5374 | reg=civilian,family,worker,rescue|tmp=fresh | I can't breathe! I can't breathe!
+5375 | reg=civilian,family,worker,rescue|tmp=fresh | Please, please, please, please!
+5376 | tmp=fresh,seasoned|mood=fear | Not again- oh God, NOT AGAIN!
+5377 | reg=family,civilian,worker|tmp=seasoned|world=door | Doors! Get the doors! GET THE DOORS!
+5378 | reg=family|tmp=fresh|sex=m | Mary! MARY! Where are you?!
+5379 | reg=family|tmp=seasoned | Get back! Everybody BACK!
+5380 | tmp=seasoned|mood=fear | Breathe, breathe, you've done this before, breathe
+5381 | role=rescue_clergy,family_elder | Lord Jesus be with us, be with us NOW
+5382 | tmp=veteran | Close up, damn it! Who's wandering off?
+5383 | tmp=fresh,seasoned|hour=20,4 | They came out of the dark! They came out of the DARK!
+5384 | tmp=seasoned,veteran|hour=20,4 | Lights! Kill the lights! Kill them!
+5385 | - | I can't think! I can't think!
+5386 | - | Oh, please, not now!
+5387 | - | Somebody tell me what to do!
+5388 | - | I want this to stop!
+5389 | - | No, no, I wasn't ready for this!
+5390 | - | I don't know what I'm doing!
+5391 | - | Why can't I calm down?
+5392 | - | Oh hell... oh HELL!
+5393 | - | Slow down! Everything, just slow down!
+5394 | - | Don't leave me with this!
+5395 | - | I can't get my head straight!
+5396 | - | I'm trying! I'm trying, all right?
+5397 | - | God, I don't want to die!
+5398 | reg=civilian,family,worker,rescue | Gunfire! Gunfire! Get down, get down!
+5399 | reg=civilian,family,worker,rescue | Somebody's shooting! Run! RUN!
+5400 | reg=civilian,family,worker,rescue | Get away! I don't want to die here!
+5401 | reg=civilian,family,worker,rescue | Shots! That was a shot! Where's it coming from?
+5402 | reg=civilian,family,worker,rescue | Get away from me with that blade!
+5403 | reg=civilian,family,worker,rescue | Don't swing that pipe at me!
+5404 | reg=civilian,family,worker,rescue | Get out! Everybody get out!
+5405 | reg=civilian,family,worker,rescue | Don't let it catch me!
+5406 | reg=civilian,family,worker,rescue|world=vehicle | Stop that truck! Get out of the way! Get out of the way!
+5407 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | OH GOD- oh god... GOD... GOD ... GOOOOD!!!
+5408 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | NO- no... NO ... NOOOOO!!!
+5409 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | It's got me, it's got me, somebody pull it OFF!
+5410 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Let go! Let go of me, let GO!
+5411 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Please, please, PLEASE, I'll do anything!
+5412 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Help! HELP! I'm right here!
+5413 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Not me, not ME!
+5414 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | I don't wanna die like this!
+5415 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Mama! MAMA!
+5416 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | They're everywhere! They're EVERYWHERE!
+5417 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | I can't breathe- I can't- I CAN'T-
+5418 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | It won't let go, why won't it let go!
+5419 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | It's too strong, it's too strong, I can't-
+5420 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Back- BACK- stay BACK!
+5421 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | No no no, not like this!
+5422 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | I don't wanna turn, please don't let me turn!
+5423 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | My hands, my hands won't- why won't my hands-
+5424 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Shiiiit... shit... SHIT SHIT SHIT!!
+5425 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | AAAAHHHH- ah- ah- get AWAY!
+5426 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Oh Jesus, Mary and Joseph, oh Jesus-
+5427 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Make it go away!
+5428 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Daaaad!! DAD!!
+5429 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | I'm too young for this, I'm TOO YOUNG!
+5430 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Wh- what do I do? What do I DO?!
+5431 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | My leg- my leg's stuck- it's STUCK-
+5432 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Get it OFF!
+5433 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Ahhh! Ahh! AHHHHH!
+5434 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Jesus, Jesus, Jesus, JESUS!
+5435 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Somebody HELP! Please! Anybody!
+5436 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | HEEEELP!!
+5437 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Leave me alone! Leave me ALONE!
+5438 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Please don't, please don't, PLEASE!
+5439 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | God, please, I'll go to church, I'll go every Sunday!
+5440 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Dear God, dear God, dear God, dear-
+5441 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Shut up, shut up, shut UP, I can't hear myself!
+5442 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Nope! NOPE! Nopenopenope!
+5443 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Mommy! Mommy, Mommy, MOMMY!
+5444 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Why won't it stop?!
+5445 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Whoa, whoa, whoa, WHOA, back off!
+5446 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Mercy! Mercy! Have MERCY!
+5447 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Aaaah! Ah, ah, nonono, GO AWAY!!
+5448 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | AAAAAHHHH!!! AAAAH!!
+5449 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Run, run, run, I'm running, I AM running!
+5450 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Oh no oh no oh no, the garage is open!
+5451 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Is this my fault? Did I do this?
+5452 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | God, please, I'll quit drinking, I'll quit tomorrow, I'll quit RIGHT NOW!
+5453 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Hhhhh... hhhh... can't... can't...
+5454 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | My glasses! I lost my glasses! I can't SEE!
+5455 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Don't, don't, I'm NOT one of them!
+5456 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Aunt Rose! No no no, aunt Rose!
+5457 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Ohhhh no, ohhh no, ohhhh no, ohhh NO
+5458 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Wait, I know you, we went to school together, don't, DON'T!
+5459 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Shoo! Shoo! Go on, git! GIT!
+5460 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Stop yelling, you're making them come!
+5461 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Help! Help me! Helllp meeee!
+5462 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Please... take what you want just leave us alone!
+5463 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | No! No! Nooo! Nooooo!!
+5464 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Run! Run, Ellie, run, run, RUN!
+5465 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Mmmph- mmm- nnnngh- GET OFF!
+5466 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear | Hold on, hold on, I'm coming, I'm COMING, don't go!
+5467 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Get away from me, get AWAY, I'm warning you!
+5468 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | It's right on top of me, it's right on top of me!
+5469 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Oh God, it's so close, it's so close, I can smell it
+5470 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I'm cornered, there's nowhere to- there's nowhere!
+5471 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Please don't leave me, please, I'm begging you!
+5472 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I'm all alone, I'm all by myself, where did everybody go?!
+5473 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Hhhh- hhh- I can't- I can't catch my breath-
+5474 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Wait, WAIT, don't go, don't leave me, wait!
+5475 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I'm not ready, please, give me a minute!
+5476 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Oh no, they're all around us!
+5477 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | This can't be happening!
+5478 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Go away, GO AWAY!
+5479 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Somebody shut it up, shut it UP!
+5480 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Stop, stop, stop, please stop!
+5481 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Why me? Why ME?!
+5482 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Run! Run! Why aren't I running?!
+5483 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Where's the door? Where's the DOOR, I can't find it!
+5484 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Please, please, I have kids, please!
+5485 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I'll be good, I'll be so good, please
+5486 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Oh God, I can't see, I can't see anything!
+5487 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I'm sorry, I'm sorry, I'm sorry, I didn't mean to-
+5488 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | It's looking at me! It's looking right at me!
+5489 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | They found us!
+5490 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | No, wait, wait, I know you, I KNOW you!
+5491 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I can't do this, not anymore, I'm done!
+5492 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Where do I go? There's no- where do I GO?
+5493 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I can't feel my legs, why can't I feel my legs!
+5494 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Oh, no no no, there's more, there's MORE!
+5495 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | It's coming, it's coming, it's COMING!
+5496 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I knew it, I knew we shouldn't have stopped!
+5497 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Run, run, RUN, why aren't you running?!
+5498 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Wait for me, don't go without me!
+5499 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Nobody told me, nobody ever told me it would be like this!
+5500 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I want to go HOME, I want my own bed!
+5501 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I'm gonna throw up, I'm gonna- oh God-
+5502 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I can't think, somebody tell me what to do!
+5503 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Backing up, I'm backing up, I'm backing up, I'm-
+5504 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Is this it? Is this how it ends? In a PARKING LOT?
+5505 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | It's got my coat, it's got my COAT, I'm taking it off!
+5506 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Stay back or- or- I don't know, just stay BACK!
+5507 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Pull me up! Pull me UP!
+5508 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I can hear them, I can hear them behind me!
+5509 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Please, I'll give you anything, I'll give you my keys!
+5510 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Nononono, I'm not doing this, I'm out!
+5511 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Come back, don't leave me!
+5512 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Oh no, there's another one!
+5513 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I can't, I just can't, I'm sorry, I'm so sorry...
+5514 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | This is a nightmare, wake up, wake up!
+5515 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Please let somebody come, please, please, please...
+5516 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Oh God, they're so CLOSE, I thought I had more time!
+5517 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | What was that? Don't leave me here!
+5518 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I can't run any more, I can't, my side!
+5519 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Hold on to me, don't let go of me, don't!
+5520 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | No, no, no, not here, we were so close!
+5521 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Get me out of this sweater, I can't breathe in it!
+5522 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I'm gonna be strong, I'm gonna be- I'm crying
+5523 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Not today, not now, I've got a baby coming in three weeks!
+5524 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | My shoe! It took my shoe! Leave the shoe, run!
+5525 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Is there a God? Is anyone up there?
+5526 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I only wanted to see my sister, that's all I wanted
+5527 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | It's just smoke, it's just smoke, why can't I see the sun?
+5528 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I don't know how to do this, nobody showed me!
+5529 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Please let it be over, let it be a bad dream, let me wake up...
+5530 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I'm going to be sick- sorry- I'm going to be-
+5531 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I can't, I just can't, tell my mother I tried!
+5532 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | It's not fair, we didn't do anything, we didn't DO anything!
+5533 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I thought you were my friend, I thought you were-
+5534 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | It's so loud in my head, I can't hear anything but my own heart
+5535 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Oh, Jesus, Jesus, forgive me, forgive me for everything...
+5536 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Don't look at me, don't look at me, please
+5537 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | I've got to get home, I've got to get home, they'll be worried
+5538 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Please let somebody be alive, please, anybody, anybody alive?
+5539 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Where's my purse? Where's my- forget the purse, GO!
+5540 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | Oh Lord, I can't go on, I can't go on one more step!
+5541 | reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear | The phone's dead, I can't call anyone!
+5542 | role=family_man|day=0,2|mood=fear | Get away from my family!
+5543 | role=family_man|day=0,2|mood=fear | You're not touching me! Don't come near me!
+5544 | role=family_man|day=0,2|mood=fear | Dammit, dammit, dammit, I told them we should've left!
+5545 | role=family_man|day=0,4|mood=fear | Stay behind me, BEHIND me!
+5546 | role=family_man|day=0,4|mood=fear | I've got a mortgage, I've got two little girls!
+5547 | role=family_woman|day=0,2|mood=fear | Not my baby! Not my BABY!
+5548 | role=family_woman|day=0,2|mood=fear | Tom! Tom, help me! TOM!
+5549 | role=family_woman|day=0,2|mood=fear | Somebody help! Please SOMEBODY!
+5550 | role=family_woman|day=0,2|mood=fear | Don't touch her! Don't you TOUCH her!
+5551 | role=family_woman|day=0,4|mood=fear | Run, sweetheart, run, don't look back, Mommy's right behind you!
+5552 | role=family_woman|day=0,4|mood=fear | My shift starts at six, I can't be late, I can't- oh God!
+5553 | role=family_elder|day=0,2|mood=fear | Lord Jesus, receive me, Lord-
+5554 | role=family_elder|day=0,2|mood=fear | Mercy, Lord, mercy, mercy!
+5555 | role=family_elder|day=0,2|mood=fear | Don't you touch me! Don't you DARE!
+5556 | role=family_elder|day=0,4|mood=fear | I'm too old for this, go on without me, go on!
+5557 | role=family_elder|day=0,4|mood=fear | My legs, my old legs, they won't carry me!
+5558 | role=family_elder|day=0,4|mood=fear | Y'all run, I'll hold them off, I'm eighty years old, what do I care!
+5559 | role=family_elder|day=0,4|mood=fear | Where's my pills? Oh Lord, my heart!
+5560 | role=family_youth|day=0,2|mood=fear | Mom! MOM!
+5561 | role=family_youth|day=0,2|mood=fear | Holy- holy shit, HOLY SHIT!
+5562 | role=family_youth|day=0,2|mood=fear | Dude, help, HELP!
+5563 | role=family_youth|day=0,2|mood=fear | Get it away, get it AWAY from me!
+5564 | role=family_youth|day=0,4|mood=fear | I didn't even get to- I'm only eighteen, I'm only EIGHTEEN!
+5565 | role=family_youth|day=0,4|mood=fear | This isn't real, this isn't real, this isn't REAL!
+5566 | role=family_youth|day=0,4|mood=fear | I'm gonna pass out right here!
+5567 | role=civilian_man|day=0,2|mood=fear | Hey! HEY! Someone help me!
+5568 | role=civilian_man|day=0,2|mood=fear | I've got a wife! I've got a wife and two kids!
+5569 | role=civilian_man|day=0,2|mood=fear | Get back! Back! BACK! I'm not kidding!
+5570 | role=civilian_man|day=0,4|mood=fear | Oh Jesus, oh Jesus, oh Jesus
+5571 | role=civilian_man|day=0,4|mood=fear | Wait, wait, I can pay you, I can pay, whatever you want!
+5572 | role=civilian_man|day=0,4|mood=fear | I'm an insurance man, I don't do this!
+5573 | role=civilian_woman|day=0,2|mood=fear | Please, please, I don't want to die!
+5574 | role=civilian_woman|day=0,2|mood=fear | Don't touch me!
+5575 | role=civilian_woman|day=0,2|mood=fear | Stop it, stop it, STOP!
+5576 | role=civilian_woman|day=0,4|mood=fear | I can't, oh please, oh please, oh please
+5577 | role=civilian_woman|day=0,4|mood=fear | Somebody, anyone, I don't care who, HELP!
+5578 | role=civilian_woman|day=0,4|mood=fear | I just came to get milk!
+5579 | role=civilian_loner|day=0,2 | Aw hell, aw hell, not like this
+5580 | role=civilian_loner|day=0,4|mood=angry | Get the hell BACK!
+5581 | role=civilian_loner|day=0,4|mood=grim | Damn it, I knew I should've stayed put
+5582 | role=civilian_loner|day=0,4|mood=grim | Well, this is a hell of a way to find out
+5583 | role=civilian_loner|day=0,4|mood=fear | Easy, easy, nobody's gonna do anything stupid, right? Right?
+5584 | role=civilian_loner|day=0,4 | Sumbitch, sumbitch, there's no end of them
+5585 | role=worker|day=0,2|mood=angry | Son of a bitch, get off me!
+5586 | role=worker|day=0,2|mood=angry | Get the hell off me!
+5587 | role=worker|day=0,2|mood=fear | Ronnie! Ronnie, help me! RONNIE!
+5588 | role=worker|day=0,4|mood=fear | Aw no, aw hell no, not on the clock!
+5589 | role=worker|day=0,4|mood=fear | Boss! Boss, I quit! I QUIT! Get me out of here!
+5590 | role=worker|day=0,4|mood=angry | I got four years till my pension, FOUR YEARS!
+5591 | role=rescue_firefighter|day=0,2|mood=fear | I'm pinned, I'm pinned, somebody get me out!
+5592 | role=rescue_firefighter|day=0,2|mood=fear | Get the civilians out, forget me, GO!
+5593 | role=rescue_firefighter|day=0,4|mood=fear | Pull back! PULL BACK!
+5594 | role=rescue_firefighter|day=0,4|mood=fear | Mayday, mayday, anyone, anyone, I need help!
+5595 | role=rescue_firefighter|day=0,4|mood=grim | Twenty years and I never once ran from anything
+5596 | role=rescue_medical|day=0,2|mood=fear | Get it off, I'm a nurse, I'm a NURSE!
+5597 | role=rescue_medical|day=0,2|mood=fear | Don't let it touch the skin!
+5598 | role=rescue_medical|day=0,4|mood=fear | Stay calm, stay calm, I can't, oh God, I can't!
+5599 | role=rescue_medical|day=0,4|mood=fear | I took an oath, I didn't take THIS oath!
+5600 | role=rescue_medical|day=0,4|mood=fear | Take over, I can't do this one!
+5601 | role=rescue_clergy|day=0,2|mood=fear | Lord... don't let this happen please!
+5602 | role=rescue_clergy|day=0,2|mood=fear | God forgive me, God forgive me, God forgive-
+5603 | role=rescue_clergy|day=0,2|mood=fear | Get away from my congregation! Get AWAY!
+5604 | role=rescue_clergy|day=0,4|mood=fear | Deliver us from evil, deliver us, deliver us-
+5605 | role=rescue_clergy|day=0,4|mood=fear | Father, why? Why? WHY?!
+5606 | role=rescue_clergy|day=0,4|mood=fear | I preached about this, I preached about this, I never thought-
+5607 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Hold the line! Hold it! I can't hold it!
+5608 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | One at a time! One at a time, please, one at a time!
+5609 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Over here, over here, I need a hand, over HERE!
+5610 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Down, down, I'm down, help me up!
+5611 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Please, I'm still me, look at me, I'm not one of them!
+5612 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Not today, please, not today
+5613 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | I can't get my arm free, I can't get my arm out!
+5614 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Where's the nearest- where's anywhere? Where's ANYWHERE?
+5615 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | They're closing in, we're not gonna make it, we're not!
+5616 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Careful, careful, stay close, they're too close!
+5617 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | I can hear my own heartbeat, I can hear it in my ears!
+5618 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | Stay with me! Don't you give up on me!
+5619 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear | I don't know how to fight, I never learned how to fight!
+5620 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Damn it, I've got no room to move, I've got no room!
+5621 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Hang on, I'm coming, hang ON!
+5622 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4 | Find a way out, there's got to be a gap somewhere
+5623 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=angry | Come on, come ON, you son of a bitch, come on!
+5624 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=grim | So that's it, that's how it ends
+5625 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,2|mood=fear | Oh my God, it's real, it's all real!
+5626 | reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,2|mood=fear | Too many, there's too many, there's way too many!

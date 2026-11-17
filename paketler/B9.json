@@ -1,0 +1,1131 @@
+{
+  "_paket": "B9 — 1.5.0 IG_UI: konuşma penceresi ipuçları (etki/risk), tanıdıklar, esir kartı ve görev panosu",
+  "_dosya": "IG_UI",
+  "_surum_farki": true,
+  "satirlar": {
+    "IGUI_ALifeUI_18e7012a577976d0": {
+      "tr": "1-{n} cevap   Orta tık ya da Esc kapat",
+      "grup": "?",
+      "not": "Lua'da dize olarak yok (JSON'da var). MMB = Orta tık, RMB = Sağ tık."
+    },
+    "IGUI_ALifeUI_76979e0f5401d1cb": {
+      "tr": "1-{n} cevap   Orta tık, {key} ya da Esc kapat",
+      "grup": "?"
+    },
+    "IGUI_ALifeUI_77555c0157644f7d": {
+      "tr": "Yakındaki biriyle konuş",
+      "grup": "ALifeTalkMenu"
+    },
+    "IGUI_ALifeUI_029b0eb1484dd62f": {
+      "tr": "{key} ya da 1-{n} cevap   tekerlek seç   Sağ tık kapat",
+      "grup": "?"
+    },
+    "IGUI_ALifeUI_50dbdc4a27d50395": {
+      "tr": "Seç",
+      "grup": "ALifeUI2Talk"
+    },
+    "IGUI_ALifeUI_0b881d2c172ed6f3": {
+      "tr": "İtibar",
+      "grup": "ALifeUI2TalkStyle"
+    },
+    "IGUI_ALifeUI_47e6f72059bffd13": {
+      "tr": "Konuşacak kimse yok",
+      "grup": "ALifeUI2TalkUx"
+    },
+    "IGUI_ALifeUI_4c8bf0910613a6e7": {
+      "tr": "{up} yukarı  {down} aşağı",
+      "grup": "?"
+    },
+    "IGUI_ALifeUI_54c0e540366a3686": {
+      "tr": "Siviller",
+      "grup": "ALifeFollowBData",
+      "not": "Paylaşılan anahtar: FollowBData blok adı, RepView ve SquadMapTooltip (B10) de kullanır."
+    },
+    "IGUI_ALifeUI_3803d4ee72199f2e": {
+      "tr": "İşçiler",
+      "grup": "ALifeFollowBData",
+      "not": "Paylaşılan anahtar: FollowBData blok adı ve SquadMapTooltip (B10)."
+    },
+    "IGUI_ALifeUI_0b8890891735eaf0": {
+      "tr": "dk",
+      "grup": "ALifeTalkChecks",
+      "not": "Dakika kısaltması: SquadMapTooltip Text.ui(\"min\"); B8'deki \"sa\" ile aynı."
+    },
+    "IGUI_ALifeUI_7c8ccb3a5d3b9114": {
+      "tr": "Görev",
+      "grup": "ALifeMissionDefs"
+    },
+    "IGUI_ALifeUI_37e8f6be288dd44f": {
+      "tr": "[İsteğe bağlı]",
+      "grup": "ALifeUI2Missions"
+    },
+    "IGUI_ALifeUI_3a27c88e71d69404": {
+      "tr": "Kötü şöhret",
+      "grup": "ALifeUI2TalkStyle"
+    },
+    "IGUI_ALifeUI_0d8cae93309a35c0": {
+      "tr": "Fitness",
+      "grup": "ALifeTalkChecks",
+      "not": "Vanilla PZ Türkçesi IGUI_perks_Fitness = \"Fitness\"."
+    },
+    "IGUI_ALifeUI_42ddf03342fec5e2": {
+      "tr": "Tehdit",
+      "grup": "ALifeTalkChecks"
+    },
+    "IGUI_ALifeUI_5fab151e27606288": {
+      "tr": "Gereken {stat}: {need}, sende {have}",
+      "grup": "ALifeTalkChecks"
+    },
+    "IGUI_ALifeUI_1e1397916efc9ac6": {
+      "tr": "HEDEF GÜNCELLENDİ",
+      "grup": "ALifeUI2Tracker",
+      "not": "Kodda string.upper ile basılıyor; İ/Ü doğru çıksın diye büyük harfle yazıldı."
+    },
+    "IGUI_ALifeUI_0d3adeb75147b140": {
+      "tr": "Çeteler",
+      "grup": "ALifeFollowBData"
+    },
+    "IGUI_ALifeUI_2578433f5686786f": {
+      "tr": "Dostsa gerçek bir baskına karşı seni uyarabilir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_44e11d3870c9b57f": {
+      "tr": "Aranızda yakınlık olmalı",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_7477bb382fae83ed": {
+      "tr": "Haritanda gerçek bir çete yatağını işaretler",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_3f306eb6529ddb1e": {
+      "tr": "Yalnızca güvendiği kişilere söyler",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_7443084370ba2a56": {
+      "tr": "Bedava öğüt, sana ısınır",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_361bf289706f0821": {
+      "tr": "Isırılanlara ne yaptığını anlatır",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_69dba6b820293c75": {
+      "tr": "Sana güveniyorsa gerçek bir çete yatağını işaretler",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_14c669156954de39": {
+      "tr": "Neleri kontrol ettiğini söyler",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_61185797692447a3": {
+      "tr": "Eski askere çabuk saygı duyulur",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_0f842d6933c52cb5": {
+      "tr": "Güvendiği bir tanıdıksan gerçek bilgi verir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_720346ae0902c03e": {
+      "tr": "Güvenini kazanmış olmalısın",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_41b011bd575d73c8": {
+      "tr": "Rahat sohbet, aran biraz düzelir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_225e5df926402f4a": {
+      "tr": "Yiyecek verebilir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_038025aa17df4c75": {
+      "tr": "Üstündekileri gözüyle tartar",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_39afd0237f3e9dbc": {
+      "tr": "Yollar konusunda seni uyarır",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_0df4dbcd1a9345a8": {
+      "tr": "Yumuşar, aran düzelir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_0ccc402e3eaf1509": {
+      "tr": "Sert tiplerin saygısını kazanırsın",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_6b1dfa8c409f7abf": {
+      "tr": "Dörtte biri yalanı sezer, sana düşman olur",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_27eb5f645a3526fe": {
+      "tr": "Rozet bu gerginliği bitirebilir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_5a5c8bae06044877": {
+      "tr": "Yarısı yemez, sana düşman olur",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_123d9d9848e624b8": {
+      "tr": "Çantanda rozet olmalı",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_15c194c46faaf0ec": {
+      "tr": "İki dakika peşinden gelir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_3d06a9b434e02854": {
+      "tr": "Sana güvenmesi gerekir",
+      "grup": "ALifeTaskTalk"
+    },
+    "IGUI_ALifeUI_4a641306694c71a2": {
+      "tr": "Beş dakika yerini korur",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_5e57f8e078d2e79b": {
+      "tr": "Seni tanıması gerekir",
+      "grup": "ALifeCars2Talk"
+    },
+    "IGUI_ALifeUI_0064f37d6f6ff487": {
+      "tr": "Üç saat bir pencerede nöbet tutar",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_521393394f72b741": {
+      "tr": "Bölgeden ayrılır",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_303cbee63d31fe33": {
+      "tr": "Yabancılar bunu kötü karşılayabilir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_62d025d4347817d1": {
+      "tr": "Dostsa malzeme verebilir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_738f485b3dd42d64": {
+      "tr": "Çok sık istersen aran bozulur",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_0904cb3c58310c7e": {
+      "tr": "Şu anki emrini iptal eder",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_445e8ac0072fe838": {
+      "tr": "Dostsa yiyecek verebilir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_3143eb6a39f7b2cf": {
+      "tr": "Yabancılar hayır der",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_515bebec560e025c": {
+      "tr": "Dostsa su verebilir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_7f5a70b531a704e0": {
+      "tr": "Dostsa tıbbi malzeme verebilir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_42d01c7e7ea31384": {
+      "tr": "Seni gruplarına alabilir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_06e3341746b857a2": {
+      "tr": "Aran kötüyse cevap hayır",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_652b14c2274a5e6c": {
+      "tr": "Bir süre seninle yürür",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_1aabc4e94e0f34ba": {
+      "tr": "Evini haritanda işaretler",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_3bb95d155f21059a": {
+      "tr": "Yalnızca sana güveniyorsa",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_0ec8bbeb3d816afa": {
+      "tr": "Hakkında ne duyduğunu söyler",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_3eac4c552cb73a8d": {
+      "tr": "Geçiş bedelini öğren",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_4009f4940ba4e8a4": {
+      "tr": "Kontrol noktasından nasıl geçeceğini öğren",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_1add61f632217b4a": {
+      "tr": "Güvenini nasıl kazanacağını öğren",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_37cd606115eb54cd": {
+      "tr": "Duyduklarını anlatır",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_52afc34851373457": {
+      "tr": "Buralardaki belalara karşı seni uyarır",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_416184d75205b8cf": {
+      "tr": "Malzemenin nerede olabileceğine dair ipucu verir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_627efc1d107a0a40": {
+      "tr": "Adını öğren",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_3387602c2461c15a": {
+      "tr": "Kimlerle takıldığını öğren",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_1251aa7b765c344e": {
+      "tr": "Neyi koruduğunu öğren",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_2cc2fa9f147cf628": {
+      "tr": "İnsanların nereye sığındığını öğren",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_366f3fc62e89631e": {
+      "tr": "Ordu hakkında ne bildiğini öğren",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_3671f1882f342094": {
+      "tr": "Fort Knox hakkında ne bildiğini öğren",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_2ffb5d4d5a516e72": {
+      "tr": "Havadan sudan sohbet, biraz rahatlar",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_7688ba841867e748": {
+      "tr": "Hayatta kalmış birinden bedava öğüt",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_416741966dcd4660": {
+      "tr": "Neler yaşadığını öğren",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_2d6c14715bcd6f1a": {
+      "tr": "Nereye gittiğini öğren",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_23d305c87a1acf6e": {
+      "tr": "Havadan sudan sohbet, keyfi yerine gelir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_17462c4618bb96cc": {
+      "tr": "Rozetin seni dinletir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_271622b038deb286": {
+      "tr": "Eğitimin seni dinletir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_34a19e105bcecb5a": {
+      "tr": "Askerliğin seni dinletir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_0a34b7c41c6127bb": {
+      "tr": "Becerilerin seni dinletir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_0a1a0e7c2f274a61": {
+      "tr": "Ellerini kaldırtır",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_442f9d4a72dbe8cf": {
+      "tr": "Silahlı olanlar karşılık verebilir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_161ce9de7e2dd7cd": {
+      "tr": "Silahını bıraktırır",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_32e7ad6561c35c60": {
+      "tr": "Hemen gitmesini sağlar",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_63580cf9229a20c7": {
+      "tr": "Üstündekileri sana verdirir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_73ecfd6a66754dd8": {
+      "tr": "Aranı bozar, kavga çıkabilir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_31aa2a0b789ca722": {
+      "tr": "Elinde mal varsa takas yapar",
+      "grup": "?"
+    },
+    "IGUI_ALifeUI_12e0c7ad6bb4c28a": {
+      "tr": "Topraklarından geçip geçemeyeceğini öğren",
+      "grup": "?"
+    },
+    "IGUI_ALifeUI_1a4251993ebe2382": {
+      "tr": "Gerçek bir tehlikeyi gösterir",
+      "grup": "?"
+    },
+    "IGUI_ALifeUI_070a553e0379a6bd": {
+      "tr": "Yakıtı alır, sana ısınır",
+      "grup": "ALifeCars2Talk"
+    },
+    "IGUI_ALifeUI_5d096a970eef5d2d": {
+      "tr": "Bidonundaki yakıtı kullanır",
+      "grup": "ALifeCars2Talk"
+    },
+    "IGUI_ALifeUI_663d005d7c3199e5": {
+      "tr": "Arabanın deposunu boşaltır",
+      "grup": "ALifeCars2Talk"
+    },
+    "IGUI_ALifeUI_143ccf925c93f826": {
+      "tr": "Hayır cevabını alır",
+      "grup": "ALifeCars2Talk"
+    },
+    "IGUI_ALifeUI_549e44f86dc78601": {
+      "tr": "Aranı bozar",
+      "grup": "ALifeCars2Talk"
+    },
+    "IGUI_ALifeUI_462fffa2188e0832": {
+      "tr": "Bitmiş aküyü canlandırır",
+      "grup": "ALifeCars2Talk"
+    },
+    "IGUI_ALifeUI_2343008362ef89bb": {
+      "tr": "Araban yakında olmalı",
+      "grup": "ALifeCars2Talk"
+    },
+    "IGUI_ALifeUI_1021c5da1c42f065": {
+      "tr": "Motor hasarının bir kısmını onarır",
+      "grup": "ALifeCars2Talk"
+    },
+    "IGUI_ALifeUI_1aa8660b305906e1": {
+      "tr": "Arabana kadar peşinden gelir",
+      "grup": "ALifeCars2Talk"
+    },
+    "IGUI_ALifeUI_246c6be7218c2074": {
+      "tr": "Sen yakıt koyarsın, o malzemeyle öder",
+      "grup": "ALifeCars2Talk"
+    },
+    "IGUI_ALifeUI_791ba41d17fd556c": {
+      "tr": "Aranı biraz düzelten havadan sudan sohbet",
+      "grup": "ALifeCars2Talk"
+    },
+    "IGUI_ALifeUI_64f6ed9e2ca84529": {
+      "tr": "Nöbet",
+      "grup": "ALifeTaskTalk"
+    },
+    "IGUI_ALifeUI_626f4ce34b8beafe": {
+      "tr": "Bir süre nöbet tut",
+      "grup": "ALifeTaskTalk"
+    },
+    "IGUI_ALifeUI_690d1a0779bee86c": {
+      "tr": "Gözcülük",
+      "grup": "ALifeTaskTalk"
+    },
+    "IGUI_ALifeUI_139fa15b192f220f": {
+      "tr": "Bir süre yüksekten gözcülük yap",
+      "grup": "ALifeTaskTalk"
+    },
+    "IGUI_ALifeUI_75f807f817be98cd": {
+      "tr": "Nöbet tamam",
+      "grup": "ALifeTaskTalk"
+    },
+    "IGUI_ALifeUI_328417847c15cfb8": {
+      "tr": "İşi verene haber ver",
+      "grup": "ALifeTaskTalk"
+    },
+    "IGUI_ALifeUI_5b0c1cbc350a1387": {
+      "tr": "İş elden gitti",
+      "grup": "ALifeTaskTalk"
+    },
+    "IGUI_ALifeUI_512a51287112854c": {
+      "tr": "Zamanında yetişemedin",
+      "grup": "ALifeTaskTalk"
+    },
+    "IGUI_ALifeUI_3b77f1301e487a34": {
+      "tr": "Görev tamamlandı",
+      "grup": "ALifeTaskTalk"
+    },
+    "IGUI_ALifeUI_39f812643eae9f86": {
+      "tr": "Ödeme: pencerede birkaç saat nöbet",
+      "grup": "ALifeTaskTalk"
+    },
+    "IGUI_ALifeUI_2428a82349ea038d": {
+      "tr": "Ödeme: üst kattan gözcülük",
+      "grup": "ALifeTaskTalk"
+    },
+    "IGUI_ALifeUI_041b39a43c81514b": {
+      "tr": "Buralarda adının iyi olması gerekir",
+      "grup": "ALifeTaskTalk"
+    },
+    "IGUI_ALifeUI_259c3d7e0986928e": {
+      "tr": "Seni ücretli bir işe yönlendirir",
+      "grup": "ALifeTaskTalk"
+    },
+    "IGUI_ALifeUI_67fc154167bc2b16": {
+      "tr": "Söz verilen ödemeyi al",
+      "grup": "ALifeTaskBoardRows"
+    },
+    "IGUI_ALifeUI_291d5318703478a9": {
+      "tr": "Teklifin süresi dolmadan yap",
+      "grup": "ALifeFollowBData"
+    },
+    "IGUI_ALifeUI_529c5d3a20428aeb": {
+      "tr": "Bütün ekip üç saat binada nöbet tutar",
+      "grup": "ALifeTaskTalk"
+    },
+    "IGUI_ALifeUI_50cbcd7a0cc65ea9": {
+      "tr": "Telsizde tanıştığın kişilerden haber verir",
+      "grup": "ALifeRadioTalk"
+    },
+    "IGUI_ALifeUI_209d1d8453762cd6": {
+      "tr": "Havadan sudan sohbet, o kadar",
+      "grup": "ALifeRadioTalk"
+    },
+    "IGUI_ALifeUI_65c5b3ce5896f1b3": {
+      "tr": "kuzeydoğu",
+      "grup": "ALifeMissionDefs",
+      "not": "MissionDefs.compass / NoveltyCore yön sözcüğü, {dir} kalıplarına girer; \"north\" = \"kuzey\" ile aynı biçim."
+    },
+    "IGUI_ALifeUI_3ec1ae6e6935072c": {
+      "tr": "güneydoğu",
+      "grup": "ALifeMissionDefs"
+    },
+    "IGUI_ALifeUI_3ecb9e446b9f8836": {
+      "tr": "güneybatı",
+      "grup": "ALifeMissionDefs"
+    },
+    "IGUI_ALifeUI_65cfa3a45b0172bd": {
+      "tr": "kuzeybatı",
+      "grup": "ALifeMissionDefs"
+    },
+    "IGUI_ALifeUI_3d6a0ac32d40c941": {
+      "tr": "Teklif ettiği işi başlatır",
+      "grup": "ALifeFollowBData"
+    },
+    "IGUI_ALifeUI_3a81fd530601dafa": {
+      "tr": "Boş verip yoluna devam eder",
+      "grup": "ALifeFollowBData"
+    },
+    "IGUI_ALifeUI_295c503327050078": {
+      "tr": "Bir süre tekrar sormaz",
+      "grup": "ALifeFollowBData"
+    },
+    "IGUI_ALifeUI_05230f7f6db80ffd": {
+      "tr": "Biri seninle konuşmak istiyor",
+      "grup": "ALifeFollowBData"
+    },
+    "IGUI_ALifeUI_08fecdb77a81ff4b": {
+      "tr": "Bir komşunun sana bir işi var",
+      "grup": "ALifeFollowBData"
+    },
+    "IGUI_ALifeUI_1111efd34d4e7ba9": {
+      "tr": "Eşyalarından birini seninkilerden biriyle takas eder",
+      "grup": "ALifeFollowBData"
+    },
+    "IGUI_ALifeUI_5a9094d807715219": {
+      "tr": "Seni ne kadar iyi tanırsa takas o kadar adil olur",
+      "grup": "ALifeFollowBData"
+    },
+    "IGUI_ALifeUI_2352fa85573b5c44": {
+      "tr": "Özel kuvvetler",
+      "grup": "ALifeFollowBData"
+    },
+    "IGUI_ALifeUI_331c25b1189d2cf5": {
+      "tr": "Kurtarma ekipleri",
+      "grup": "ALifeFollowBData"
+    },
+    "IGUI_ALifeUI_2eacb7170dcffc8f": {
+      "tr": "Suç örgütleri",
+      "grup": "ALifeFollowBData"
+    },
+    "IGUI_ALifeUI_747f5a560330ec1e": {
+      "tr": "Motorcu kulüpleri",
+      "grup": "ALifeFollowBData"
+    },
+    "IGUI_ALifeUI_50ba12a0304c43aa": {
+      "tr": "Birlikler",
+      "grup": "ALifeFollowBData"
+    },
+    "IGUI_ALifeUI_5f453fb67de8a705": {
+      "tr": "Mahkumlar",
+      "grup": "ALifeFollowBData"
+    },
+    "IGUI_ALifeUI_3141a1e429d76e91": {
+      "tr": "Dışarıda yaptıklarını fark eder",
+      "grup": "ALifeTalk3React"
+    },
+    "IGUI_ALifeUI_426ac1c81d8b43b1": {
+      "tr": "Yaralı olduğunu görüp tepki verir",
+      "grup": "ALifeTalk3React"
+    },
+    "IGUI_ALifeUI_30b1bc5f09929360": {
+      "tr": "Seni işe yarar biri olarak görür",
+      "grup": "ALifeTalk3React"
+    },
+    "IGUI_ALifeUI_63468e836e4a1cef": {
+      "tr": "Karanlık üstüne rahat sohbet",
+      "grup": "ALifeTalk3React"
+    },
+    "IGUI_ALifeUI_7f672a355521df56": {
+      "tr": "Dostsa aranın ne durumda olduğunu söyler",
+      "grup": "ALifeTalk3React"
+    },
+    "IGUI_ALifeUI_4ed3c8270826ba18": {
+      "tr": "Aranızda gerçek bir yakınlık olmalı",
+      "grup": "ALifeTalk3React"
+    },
+    "IGUI_ALifeUI_0d4691d73f866d3d": {
+      "tr": "Tanıdık eklendi",
+      "grup": "ALifeTalk5Home"
+    },
+    "IGUI_ALifeUI_18bb2aa95203e01c": {
+      "tr": "Tanıdık güncellendi",
+      "grup": "ALifeTalk5Home"
+    },
+    "IGUI_ALifeUI_76d1223f6bb6f1bc": {
+      "tr": "Tanıdık olarak kaydeder, evini işaretler",
+      "grup": "ALifeTalk5Home"
+    },
+    "IGUI_ALifeUI_6ed6232f501fb8c0": {
+      "tr": "Yeni tanış",
+      "grup": "ALifeUI2Contacts"
+    },
+    "IGUI_ALifeUI_0d8a67f4193cc6aa": {
+      "tr": "Tanıdık",
+      "grup": "ALifeUI2Contacts"
+    },
+    "IGUI_ALifeUI_584f832a7c4c1c9e": {
+      "tr": "Güvenilir",
+      "grup": "ALifeUI2Contacts"
+    },
+    "IGUI_ALifeUI_7c828df95ab2ac6f": {
+      "tr": "Müttefik",
+      "grup": "ALifeUI2Contacts"
+    },
+    "IGUI_ALifeUI_38729ba3718b9b75": {
+      "tr": "Son görülme",
+      "grup": "ALifeUI2Contacts"
+    },
+    "IGUI_ALifeUI_3811df7f2daaf14a": {
+      "tr": "Haritaya işaretlendi",
+      "grup": "ALifeUI2Contacts"
+    },
+    "IGUI_ALifeUI_77d2b0ee7d52814f": {
+      "tr": "Önce haritayı aç",
+      "grup": "ALifeUI2Contacts"
+    },
+    "IGUI_ALifeUI_5bee177e0fef34a7": {
+      "tr": "İşaretlenecek yer yok",
+      "grup": "ALifeUI2Contacts"
+    },
+    "IGUI_ALifeUI_22b942267c5f533e": {
+      "tr": "Neyle uğraştığını anlatır",
+      "grup": "ALifeTalk6"
+    },
+    "IGUI_ALifeUI_3ddcf332266757de": {
+      "tr": "Elinde ne olduğunu ya da ne istediğini söyler",
+      "grup": "ALifeTalk6"
+    },
+    "IGUI_ALifeUI_49492b4e185cf292": {
+      "tr": "Yakında kimlerin yaşadığını anlatır",
+      "grup": "ALifeTalk6"
+    },
+    "IGUI_ALifeUI_0cde1d9963c38e46": {
+      "tr": "Oraya giden yolu tarif eder",
+      "grup": "ALifeTalk6"
+    },
+    "IGUI_ALifeUI_1fc74dd31a702c1d": {
+      "tr": "Uğrarsan hoş karşılanıp karşılanmayacağını söyler",
+      "grup": "ALifeTalk6"
+    },
+    "IGUI_ALifeUI_05c628f25e32fd58": {
+      "tr": "Yalnızca tanıdıklarına söyler",
+      "grup": "ALifeTalk6"
+    },
+    "IGUI_ALifeUI_4c56fea849294e09": {
+      "tr": "Hareket halinde bir çete varsa adını verir",
+      "grup": "ALifeTalk6"
+    },
+    "IGUI_ALifeUI_3c134e1467e27ee5": {
+      "tr": "Neye ihtiyacı olduğunu söyler",
+      "grup": "ALifeTalk6"
+    },
+    "IGUI_ALifeUI_7af560a0647b3889": {
+      "tr": "Neye takas edeceğini söyler",
+      "grup": "ALifeTalk6"
+    },
+    "IGUI_ALifeUI_3281278b2c8a8a77": {
+      "tr": "Seni başka tüccarlara yönlendirir",
+      "grup": "ALifeTalk6"
+    },
+    "IGUI_ALifeUI_7eaf6a485ec3b421": {
+      "tr": "Kimi araman gerektiğini söyler",
+      "grup": "ALifeTalk6"
+    },
+    "IGUI_ALifeUI_65d9aa4609ef9a56": {
+      "tr": "Hangi tiplerden uzak durman gerektiğini söyler",
+      "grup": "ALifeTalk6"
+    },
+    "IGUI_ALifeUI_29bf2ce0004ce718": {
+      "tr": "Bir evi temizle",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_52d3d0364e922120": {
+      "tr": "Grubun kullanabilmesi için bir evi ölülerden temizle",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_21d5e06b074de9bb": {
+      "tr": "Ödeme: bir binayı ölülerden temizlemek",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_2ec56a7c11cec292": {
+      "tr": "Sonraki kasabaya refakat et",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_45eae0275006b398": {
+      "tr": "Bir yolcuyla birlikte yolu son işarete kadar yürü",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_627d2a1e43d5a80a": {
+      "tr": "Ödeme: birini oraya sağ salim ulaştırmak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_2933172a6b254fe6": {
+      "tr": "İlaç getir",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_275550c21c6730a4": {
+      "tr": "Hasta biri için antibiyotik ve sargı bezi getir",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_65175d8224c6e529": {
+      "tr": "Ödeme: hap ve sargı bezi getirmek",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_30dc43805c78f491": {
+      "tr": "Su getir",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_7415176058b8801b": {
+      "tr": "Susuz kalmış bir kampa temiz içme suyu taşı",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_7180431152359767": {
+      "tr": "Ödeme: temiz su şişeleri",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_4945df0e614b75c6": {
+      "tr": "Jeneratörü onar",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_7447f3a51009d68c": {
+      "tr": "Jeneratörü çalıştırmak için kablo ve tornavida bul",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_65f1adf93bf1b2da": {
+      "tr": "Ödeme: onarım parçası taşımak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_65a15d4179a4e1f2": {
+      "tr": "Kayıp sandığı bul",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_0015b0ed2f9cfe89": {
+      "tr": "Yolda kaybolan bir sandığı geri getir",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_78e632d73d7cf8c4": {
+      "tr": "Ödeme: kayıp yükü geri getirmek",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_626ad7cf52ce3d37": {
+      "tr": "Bir yolu keşfet",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_2c1f5674416e0d27": {
+      "tr": "Yola çık ve yolda neler olduğunu bildir",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_31e835022b47a7b6": {
+      "tr": "Ödeme: ileride ne olduğunu bildirmek",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_1aafaf6d1c2b9ff5": {
+      "tr": "Mesaj götür",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_6e729a0d0a7eb42d": {
+      "tr": "Yazılı bir mesajı başka bir kampa götür",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_68f9d8b40e155d25": {
+      "tr": "Ödeme: birine haber götürmek",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_7455e1f77b55c002": {
+      "tr": "Çit için tahta taşı",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_62a9ffd61f734ee9": {
+      "tr": "Bir çiti yamamak için tahta ve çivi getir",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_12f48efb1970fcb6": {
+      "tr": "Ödeme: tahta ve çivi taşımak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_1ab110f51fcb3764": {
+      "tr": "Yiyecek için avlan",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_67cedfb621e55a61": {
+      "tr": "Konserveyle yaşayan bir kampa taze et getir",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_69345f910d08896c": {
+      "tr": "Ödeme: taze et",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_5c9de97b22dfb0ae": {
+      "tr": "Kayıp birini bul",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_54482ed6189b1cc9": {
+      "tr": "Bilinen son izi takip et ve kanıt getir",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_6fdb13d024e0904e": {
+      "tr": "Ödeme: geri dönmeyen birini bulmak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_14db00105cf90cf8": {
+      "tr": "Kapıyı koru",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_273ea19d2275e98d": {
+      "tr": "Ne gelirse gelsin kapıyı tut",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_571dc64b1b8cf946": {
+      "tr": "Ödeme: nöbet boyunca kapıyı tutmak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_5885b9046b43d7c7": {
+      "tr": "Yığını yak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_21312c79106dd012": {
+      "tr": "Yığının üstüne tahta diz ve ateşe ver",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_5c0809f04a65a73f": {
+      "tr": "Ödeme: bir ceset yığınını temizlemek",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_66a8d1cf25d5ed85": {
+      "tr": "Araba aküsü sök",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_1dfd272b5e26f1e1": {
+      "tr": "Çalışan bir araba aküsü bul",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_76e60f4541bfdc13": {
+      "tr": "Ödeme: çalışan bir araba aküsü",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_28f35cfa33e643f4": {
+      "tr": "Tıbbi yardım götür",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_56f5326670096752": {
+      "tr": "Yaralı birine sargı götür ve yarasını sar",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_27d3ba1d3be6e011": {
+      "tr": "Ödeme: tıbbi yardım götürmek",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_014598c83a65f0b2": {
+      "tr": "Çalınanı geri al",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_76a2084237bfc6c1": {
+      "tr": "Gruba baskın yapan çeteden malları geri al",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_6927b89e1c637cdb": {
+      "tr": "Ödeme: çalınan malları geri almak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_027ddd675ee42b66": {
+      "tr": "Takas seferi",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_75cda9407bd8aac6": {
+      "tr": "Başka bir kampa bir sandık götür, karşılığında bir şey getir",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_7629adfc2cbfe096": {
+      "tr": "Ödeme: iki kamp arasında takas taşımak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_4d6e0eea5b6895be": {
+      "tr": "Dolaşan ölüleri avla",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_2e5f77235a858c0c": {
+      "tr": "Yolda durmadan ortaya çıkan ölü grubunun izini sür",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_6eb30598110d7921": {
+      "tr": "Ödeme: dolaşan bir ölü grubunu avlamak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_08264fc761175f7d": {
+      "tr": "İşaret ateşini yak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_322ef59c3487130f": {
+      "tr": "Yükseğe bir ışık çıkar ve işaret ateşi yak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_6e5f5460741f14fd": {
+      "tr": "Ödeme: işaret ateşi yakmak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_60709ebd5ea5f45f": {
+      "tr": "Elektriği geri getir",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_243282ad124533d3": {
+      "tr": "Elektriği kesik bir sigorta kutusuna kablo ve tornavida götür",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_125c1f6d1f2ee06d": {
+      "tr": "Ödeme: kesik bir hattı onarmak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_4e0636aa359c5ef6": {
+      "tr": "Telsiz parçası bul",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_684fde3b04272f7f": {
+      "tr": "Bir telsizi yeniden konuşturmak için elektronik parça bul",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_4e0c9be159b72c1b": {
+      "tr": "Ödeme: elektronik parça bulmak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_082136af6da72f0c": {
+      "tr": "Mahsur kalan birini kurtar",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_22a5a1d92a70509b": {
+      "tr": "Ölülerle dolu bir binada mahsur kalan bir hayatta kalanı çıkar",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_2a776671538de954": {
+      "tr": "Ödeme: bir hayatta kalanı sağ çıkarmak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_77e4f80b02748d19": {
+      "tr": "Hasadı koru",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_410dc8495ef72252": {
+      "tr": "Son sıra toplanana kadar ekinlere göz kulak ol",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_63e67d9b59ef9944": {
+      "tr": "Ödeme: gün boyu bir bahçeye göz kulak olmak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_5718b4e60e35afe3": {
+      "tr": "Bir bağlantıyla buluş",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_5c1e5b8d2ada405f": {
+      "tr": "Sakin bir yerde bir bağlantıya not teslim et",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_4ef638cb7973485e": {
+      "tr": "Ödeme: bağlantının beklediği yere gitmek",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_377dc4ed5edca529": {
+      "tr": "Alarmı sustur",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_0ea4f57836c34572": {
+      "tr": "Ölüleri üstüne çeken bir alarmı kapat",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_4f4d55b55da5f320": {
+      "tr": "Ödeme: gürültülü bir alarmı kapatmak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_35c34d962fcf8049": {
+      "tr": "Bir komşuyu yokla",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_690a5d3a00ca6060": {
+      "tr": "Bir kapıyı çal ve ne bulduğunu bildir",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_11dd6c0716640572": {
+      "tr": "Ödeme: bir komşunun sağ olup olmadığına bakmak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_2ce50bef1102f176": {
+      "tr": "Temiz bez bul",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_47924b596d362ff7": {
+      "tr": "Sargı için çarşaf ve paçavra getir",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_644953b020d6b5f3": {
+      "tr": "Ödeme: çarşaf ve paçavra getirmek",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_730dcb225cb5e127": {
+      "tr": "Bir sürüyü uzaklaştır",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_0df4b0224be8f7d1": {
+      "tr": "Yoldan uzakta gürültü yap ve sıvış",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_7273af3e1a2ecb35": {
+      "tr": "Ödeme: bir sürüyü gürültüyle uzağa çekmek",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_1dd5f1555935c3f6": {
+      "tr": "Telsiz aktarma noktası kur",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_79ae54f27cf84895": {
+      "tr": "Uyarı sonraki kampa ulaşsın diye yüksek bir yere telsiz kur",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_3d5873bb46215df7": {
+      "tr": "Ödeme: telsiz bağlantısı kurmak",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_4ce91edd1be4e7ac": {
+      "tr": "Eski gözetleme yerini yokla",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_512fd96851642091": {
+      "tr": "Sesi kesilen gözetleme yerine tırman ve yukarıda kim olduğunu bildir",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_3c8126606d168395": {
+      "tr": "Ödeme: yukarı tırmanıp bildirmek",
+      "grup": "ALifeTaskBoardData"
+    },
+    "IGUI_ALifeUI_223140de5303d8e4": {
+      "tr": "Daha güvenli, daha düzenli ödeme",
+      "grup": "ALifeTaskBoardText"
+    },
+    "IGUI_ALifeUI_7838ddf1711d7116": {
+      "tr": "Daha riskli, daha iyi ödeme ve daha çok minnet",
+      "grup": "ALifeTaskBoardText"
+    },
+    "IGUI_ALifeUI_278a749e2bfd10bb": {
+      "tr": "Hemen biter, daha az ödeme, daha çok minnet",
+      "grup": "ALifeTaskBoardText"
+    },
+    "IGUI_ALifeUI_490a3f5155236241": {
+      "tr": "Başka birini bulur",
+      "grup": "ALifeTaskBoardText"
+    },
+    "IGUI_ALifeUI_5a6b250960bea96c": {
+      "tr": "İşin ne durumda olduğunu sor",
+      "grup": "ALifeTaskBoardText"
+    },
+    "IGUI_ALifeUI_57afce0a6ad9cd93": {
+      "tr": "İşi bırakırsın, biraz güven kaybedersin",
+      "grup": "ALifeTaskBoardText"
+    },
+    "IGUI_ALifeUI_214f29bf300bc29e": {
+      "tr": "Yiyecek lazım",
+      "grup": "ALifeUI2CaptiveCard"
+    },
+    "IGUI_ALifeUI_1538161871196742": {
+      "tr": "Esir",
+      "grup": "ALifeUI2CaptiveCard"
+    },
+    "IGUI_ALifeUI_3c3ad9905fffdfc2": {
+      "tr": "ESİRLER",
+      "grup": "ALifeUI2CaptiveCard",
+      "not": "Kodda string.upper ile basılıyor (esir kartı başlığı); büyük harfle yazıldı."
+    },
+    "IGUI_ALifeUI_7a4ab0591805548e": {
+      "tr": "Biraz yiyecek ya da ilaç verebilir",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_241788c15b22f701": {
+      "tr": "Çok sık istersen bıkar",
+      "grup": "ALifeFactionTalkData"
+    },
+    "IGUI_ALifeUI_77a291e66e5737f3": {
+      "tr": "Kim olduğu ve önceden ne iş yaptığı",
+      "grup": "ALifeTalkGeneral"
+    },
+    "IGUI_ALifeUI_3b9c30693a49049c": {
+      "tr": "Yabancılar kısa keser",
+      "grup": "ALifeTalkGeneral"
+    },
+    "IGUI_ALifeUI_7d2e181079cb0bad": {
+      "tr": "Yakındaki gerçek gruplar, sana güveniyorsa işaretli",
+      "grup": "ALifeTalkGeneral"
+    },
+    "IGUI_ALifeUI_2efbf2132fe53df4": {
+      "tr": "Temkinliler seni yanlış yönlendirebilir",
+      "grup": "ALifeTalkGeneral"
+    },
+    "IGUI_ALifeUI_23f7790635bd3f1a": {
+      "tr": "Ne zamandır dayandığı, nasıl idare ettiği",
+      "grup": "ALifeTalkGeneral"
+    },
+    "IGUI_ALifeUI_39ecbdea6767dbb6": {
+      "tr": "Duyduğu baskınlar, helikopterler, silah sesleri",
+      "grup": "ALifeTalkGeneral"
+    },
+    "IGUI_ALifeUI_0219487932730bfd": {
+      "tr": "Yabancılar sana ancak kırıntı verir",
+      "grup": "ALifeTalkGeneral"
+    },
+    "IGUI_ALifeUI_209457e43ffb7384": {
+      "tr": "Yakındaki tehlikeler ve son olanlar",
+      "grup": "ALifeTalkGeneral"
+    },
+    "IGUI_ALifeUI_5824931653fd7408": {
+      "tr": "Son zamanlarda kimsenin girmediği yerler",
+      "grup": "ALifeTalkGeneral"
+    },
+    "IGUI_ALifeUI_1c2b16967ef0d7d8": {
+      "tr": "Bahçe kapında bekliyor, yanına çık",
+      "grup": "ALifeTalkMenu"
+    },
+    "IGUI_ALifeUI_15ca02b6575a51b5": {
+      "tr": "Çitinde ulaşabileceği bir kapı yok",
+      "grup": "ALifeTalkMenu"
+    },
+    "IGUI_ALifeUI_5e72e4896ca75f69": {
+      "tr": "Getir, söz verilen ödemeyi al",
+      "grup": "ALifeTaskBoardText"
+    },
+    "IGUI_ALifeUI_6c2eb0b85d06fab0": {
+      "tr": "Ne kadar ödeyeceğini söyler",
+      "grup": "ALifeTaskBoardText"
+    }
+  }
+}

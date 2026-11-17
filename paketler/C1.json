@@ -1,0 +1,1155 @@
+{
+  "_paket": "C1 — Oluşturucu sabit yazıları (Lua eki, K27)",
+  "_dosya": "Creator_lua",
+  "satirlar": {
+    "IGUI_ALifeUI_20abdfac0cebd444": {
+      "tr": "VARYASYONU ÖNİZLE"
+    },
+    "IGUI_ALifeUI_4298fcf143133d8b": {
+      "tr": "ÖZGÜN",
+      "not": "Eşyanın kendi rengi."
+    },
+    "IGUI_ALifeUI_56dafc45585eee34": {
+      "tr": "KARAKTER GÖRÜNÜMÜ"
+    },
+    "IGUI_ALifeUI_12a77ad81aaffc0b": {
+      "tr": "Ten rengi"
+    },
+    "IGUI_ALifeUI_7c86356b5b9fe8b9": {
+      "tr": "Saç"
+    },
+    "IGUI_ALifeUI_43242a5469e54d65": {
+      "tr": "Kel / saçsız"
+    },
+    "IGUI_ALifeUI_0ce25fc57a08f621": {
+      "tr": "Sakal"
+    },
+    "IGUI_ALifeUI_50c0e8787401d745": {
+      "tr": "Sinekkaydı"
+    },
+    "IGUI_ALifeUI_772e856d32888d77": {
+      "tr": "KIYAFET TAKIMLARI"
+    },
+    "IGUI_ALifeUI_6ccd50db0d1adaf8": {
+      "tr": "VÜCUT YUVALARI"
+    },
+    "IGUI_ALifeUI_7e5a9a401a8103b0": {
+      "tr": "ÜST RENGİ: EŞYANIN KENDİ RENGİ"
+    },
+    "IGUI_ALifeUI_7c89bbd75c71675b": {
+      "tr": "Yok"
+    },
+    "IGUI_ALifeUI_2d3400964c3f512c": {
+      "tr": "Bu takımı oluşturmada kullan"
+    },
+    "IGUI_ALifeUI_686ae56d1a44d1b2": {
+      "tr": "SAÇ SEÇ"
+    },
+    "IGUI_ALifeUI_755d0fe1086c2886": {
+      "tr": "SAKAL SEÇ"
+    },
+    "IGUI_ALifeUI_2a59c9a55356bfb0": {
+      "tr": "ÖZEL"
+    },
+    "IGUI_ALifeUI_11bac86a1bed8d04": {
+      "tr": "EŞYANIN KENDİ RENGİ"
+    },
+    "IGUI_ALifeUI_491bea3658b794b4": {
+      "tr": "ÖZEL RENK"
+    },
+    "IGUI_ALifeUI_296c44cb6e99f9d8": {
+      "tr": "SEÇ"
+    },
+    "IGUI_ALifeUI_465801451da8f92e": {
+      "tr": "KIYAFET"
+    },
+    "IGUI_ALifeUI_0cc5826865ea2ea0": {
+      "tr": "ZIRH"
+    },
+    "IGUI_ALifeUI_3df1581a4cb519de": {
+      "tr": "KATMANLAR"
+    },
+    "IGUI_ALifeUI_2f3ae6817f2a3c9a": {
+      "tr": "EKSTRALAR"
+    },
+    "IGUI_ALifeUI_403ed3cd465929b3": {
+      "tr": "MAKYAJ"
+    },
+    "IGUI_ALifeUI_0b87d17e172a566b": {
+      "tr": "TÜMÜ"
+    },
+    "IGUI_ALifeUI_6c9d451a29029dbe": {
+      "tr": "SESİ DENE"
+    },
+    "IGUI_ALifeUI_5cdd17dc602a2328": {
+      "tr": "DAVRANIŞ VE SES"
+    },
+    "IGUI_ALifeUI_0df3417c33d96be4": {
+      "tr": "Davranış profili"
+    },
+    "IGUI_ALifeUI_30760f0d7f5b14e3": {
+      "tr": "Temel taktik",
+      "not": "doctrine = NPC'nin savaş anlayışı."
+    },
+    "IGUI_ALifeUI_77aa0e003ec8bd0a": {
+      "tr": "Çatışmaya hazır"
+    },
+    "IGUI_ALifeUI_1eea68511ac33724": {
+      "tr": "Tam olarak ne yaptığını görmek için bir davranış profili seç."
+    },
+    "IGUI_ALifeUI_14cb8a5c17b738ab": {
+      "tr": "SES PROFİLİ"
+    },
+    "IGUI_ALifeUI_23f2ae4e3e6bddf6": {
+      "tr": "Profil"
+    },
+    "IGUI_ALifeUI_713e86fa3f294ff9": {
+      "tr": "Tepki"
+    },
+    "IGUI_ALifeUI_4d02959b28db5714": {
+      "tr": "Dinlemek için bir ses ve tepki seç."
+    },
+    "IGUI_ALifeUI_4cdcbeb30accdbb3": {
+      "tr": "BU GÖRÜNÜMDE EŞLEŞME YOK - TÜMÜNÜ GÖSTER BULUR: ",
+      "not": "Ön ek; sonuna sayı/isim ekleniyor."
+    },
+    "IGUI_ALifeUI_291cdc19343dc469": {
+      "tr": "Bütün eşyaları göster"
+    },
+    "IGUI_ALifeUI_0b8836b617309bb5": {
+      "tr": "EVET"
+    },
+    "IGUI_ALifeUI_732a95490d9db868": {
+      "tr": "Silah düşürme olasılığı"
+    },
+    "IGUI_ALifeUI_7b853d89662e5bbd": {
+      "tr": "Çağırma izni"
+    },
+    "IGUI_ALifeUI_1fbb3bb46afa9ec7": {
+      "tr": "Ulaşım",
+      "not": "Takviyenin nasıl geldiği (yaya/araç/helikopter)."
+    },
+    "IGUI_ALifeUI_688584060d32969b": {
+      "tr": "Helikopter görevi"
+    },
+    "IGUI_ALifeUI_45d72476457d9977": {
+      "tr": "DAYANIKLILIK VE BECERİLER"
+    },
+    "IGUI_ALifeUI_2b416c096ef5fe7f": {
+      "tr": "HASAR"
+    },
+    "IGUI_ALifeUI_7c8816e55c245b17": {
+      "tr": "GANİMET",
+      "not": "Sözlük: loot = ganimet."
+    },
+    "IGUI_ALifeUI_531569c36229fad7": {
+      "tr": "ÇATIŞMA DESTEĞİ"
+    },
+    "IGUI_ALifeUI_255337d004209a61": {
+      "tr": "UYGULA "
+    },
+    "IGUI_ALifeUI_576707f221306e2e": {
+      "tr": "UYUMLU"
+    },
+    "IGUI_ALifeUI_0cfe3b5e7f2697fd": {
+      "tr": "MOD / GÜVENSİZ"
+    },
+    "IGUI_ALifeUI_6a0a20b8399ff022": {
+      "tr": "HEPSİNİ KALDIR"
+    },
+    "IGUI_ALifeUI_28ecd81073948464": {
+      "tr": "İPTAL"
+    },
+    "IGUI_ALifeUI_0cc4760d65a65b03": {
+      "tr": "UYGULA"
+    },
+    "IGUI_ALifeUI_237ba62617d2ce7a": {
+      "tr": "EKLENTİLER",
+      "not": "Silah eklentileri (dürbün, susturucu…)."
+    },
+    "IGUI_ALifeUI_7c83b3ad5b11edad": {
+      "tr": "TAMAM"
+    },
+    "IGUI_ALifeUI_4d81cb4e74a824b6": {
+      "tr": "KLASÖRÜ SİL"
+    },
+    "IGUI_ALifeUI_764884901296f134": {
+      "tr": "NPC KLASÖRÜNÜ KOPYALA"
+    },
+    "IGUI_ALifeUI_75314a2b121826b2": {
+      "tr": "PAYLAŞIM KODU"
+    },
+    "IGUI_ALifeUI_0b1bff5c5d09991b": {
+      "tr": "+ YENİ"
+    },
+    "IGUI_ALifeUI_4dd9b065781c1bd7": {
+      "tr": "+ YENİ ÜYE"
+    },
+    "IGUI_ALifeUI_2b89545d350b9d06": {
+      "tr": "SİL"
+    },
+    "IGUI_ALifeUI_0d9cdbb83825714c": {
+      "tr": "MODEL"
+    },
+    "IGUI_ALifeUI_6e59abc6651eb32f": {
+      "tr": "ŞİMDİ KAYDET"
+    },
+    "IGUI_ALifeUI_4cea96c926c4f465": {
+      "tr": "KADRO"
+    },
+    "IGUI_ALifeUI_37b0065c4cdcf18c": {
+      "tr": "KARAKTER"
+    },
+    "IGUI_ALifeUI_21b82d700389bb88": {
+      "tr": "SUNUCUYA GÖNDER"
+    },
+    "IGUI_ALifeUI_421a4cae6e9529c8": {
+      "tr": "FRAKSİYONLARI SIFIRLA",
+      "not": "Kısa tutuldu (düğme genişliği)."
+    },
+    "IGUI_ALifeUI_1742015712bac5ca": {
+      "tr": "SİLAH EKLENTİLERİ"
+    },
+    "IGUI_ALifeUI_5cc793f33e8f7aa9": {
+      "tr": "Önce birincil ya da ikincil bir ateşli silah seç."
+    },
+    "IGUI_ALifeUI_70ee79d951a70873": {
+      "tr": "Silah seçimi"
+    },
+    "IGUI_ALifeUI_05505bae5cf90b1d": {
+      "tr": "SAYFA 1 / 1"
+    },
+    "IGUI_ALifeUI_7388bf5349a84170": {
+      "tr": "0 TAKILI"
+    },
+    "IGUI_ALifeUI_673da12a7c5caf99": {
+      "tr": "Yalnızca bu silaha takılabilen parçalar."
+    },
+    "IGUI_ALifeUI_3566db932caf3d6a": {
+      "tr": "Her seçeneğin şansı eşit. Yok, bu yuvayı boş bırakır."
+    },
+    "IGUI_ALifeUI_231cd6852c881a20": {
+      "tr": "ETKİN SEÇİMLER"
+    },
+    "IGUI_ALifeUI_2414b44a228cd716": {
+      "tr": "SEÇİLİ 0 / 4"
+    },
+    "IGUI_ALifeUI_703224c54c527b98": {
+      "tr": "Oyunun Build 42 stilleri ve yüklü modların stilleri. Uygulamak için bir baş seç."
+    },
+    "IGUI_ALifeUI_6b890e723291a7bf": {
+      "tr": "HAZIR RENKLER"
+    },
+    "IGUI_ALifeUI_7c6ffffe3fb7bb20": {
+      "tr": "Klasör adı"
+    },
+    "IGUI_ALifeUI_2ca0f64d305bbad4": {
+      "tr": "FRAKSİYON LİSTESİ"
+    },
+    "IGUI_ALifeUI_2a9a63c8089533b2": {
+      "tr": "ÜYE ŞABLONLARI   0",
+      "not": "Sözlük: member preset = şablon."
+    },
+    "IGUI_ALifeUI_750caee97fc2f306": {
+      "tr": "BİR FRAKSİYON SEÇ"
+    },
+    "IGUI_ALifeUI_5154a0193dfe641a": {
+      "tr": "NPC ŞABLONU YOK"
+    },
+    "IGUI_ALifeUI_6733b76c1d4ebe3f": {
+      "tr": "Fraksiyon / NPC şablonu"
+    },
+    "IGUI_ALifeUI_0d4e421b707290e4": {
+      "tr": "Kimlik: -"
+    },
+    "IGUI_ALifeUI_73cba1bf07df8765": {
+      "tr": "ÜYE SEÇİLMEDİ"
+    },
+    "IGUI_ALifeUI_3e3064e73816508a": {
+      "tr": "Kadrodan bir şablon seç ya da bu fraksiyona yeni bir üye oluştur."
+    },
+    "IGUI_ALifeUI_0e14267a23ee5465": {
+      "tr": "Kaydedildi"
+    },
+    "IGUI_ALifeUI_2a060938756b4aa1": {
+      "tr": "FRAKSİYON AYARLARI"
+    },
+    "IGUI_ALifeUI_52bd37ec17a38c97": {
+      "tr": "DIŞ MODÜL GEÇERSİZ KILMALARI"
+    },
+    "IGUI_ALifeUI_767654f32034b591": {
+      "tr": "Temel yapay zekâ etkin kalır. Yüklü bir özel modül kimliğini yalnızca ayrı bir modül sağlıyorsa ata."
+    },
+    "IGUI_ALifeUI_455587f66e0d7d65": {
+      "tr": "DEĞİŞİKLİKLER KENDİLİĞİNDEN KAYDEDİLİR"
+    },
+    "IGUI_ALifeUI_1eb9803f6c480007": {
+      "tr": "KARŞILAŞMA KATALOĞU"
+    },
+    "IGUI_ALifeUI_19f2337b7cddf1b4": {
+      "tr": "Oyunda uygulanan kurallar: olasılık, tim büyüklüğü, yer, zaman, yerleşim, sahne ve yapay zekâ profili."
+    },
+    "IGUI_ALifeUI_46f0afba7cf46bdf": {
+      "tr": "KATALOG YÜKLENİYOR"
+    },
+    "IGUI_ALifeUI_790564e053de9f95": {
+      "tr": "YUVA BOŞ"
+    },
+    "IGUI_ALifeUI_4142431a3d938076": {
+      "tr": "TAŞINIYOR"
+    },
+    "IGUI_ALifeUI_0f99d9791b0e1470": {
+      "tr": "Bir fraksiyon seç"
+    },
+    "IGUI_ALifeUI_65166e6f5aa923e8": {
+      "tr": "DEVRALINAN MODÜLLER"
+    },
+    "IGUI_ALifeUI_0eb25eeb6eca6ab5": {
+      "tr": "VARSAYILAN PROGRAM"
+    },
+    "IGUI_ALifeUI_2f79a4f1196ce456": {
+      "tr": "KENDİLİĞİNDEN GRUPLAR"
+    },
+    "IGUI_ALifeUI_37c6e1e64bd36f93": {
+      "tr": "CANLI KARAKTER"
+    },
+    "IGUI_ALifeUI_34735ccd4c049bfd": {
+      "tr": "ANİMASYON"
+    },
+    "IGUI_ALifeUI_62850aa4096d1886": {
+      "tr": "SİSTEMLER VE MODÜLLER"
+    },
+    "IGUI_ALifeUI_583cd40245da495c": {
+      "tr": "Yerleşik sistemler ve isteğe bağlı eklentiler - anlık durum raporu değildir"
+    },
+    "IGUI_ALifeUI_23ced8824b867f14": {
+      "tr": "YERLEŞİK"
+    },
+    "IGUI_ALifeUI_0e0acf4521c0c400": {
+      "tr": "TİM",
+      "not": "Sözlük: squad = tim."
+    },
+    "IGUI_ALifeUI_7c8dfff95d9bd65d": {
+      "tr": "NE ZAMAN"
+    },
+    "IGUI_ALifeUI_0e4e000266bebaf5": {
+      "tr": "NEREDE"
+    },
+    "IGUI_ALifeUI_18e349c36799e91a": {
+      "tr": "YERLEŞİM VE YAPAY ZEKÂ"
+    },
+    "IGUI_ALifeUI_6826e6d8593d5d9f": {
+      "tr": "PROJECT A-LIFE OLUŞTURUCU"
+    },
+    "IGUI_ALifeUI_59ea09366a7a9937": {
+      "tr": "Bu klasörü yukarı taşı"
+    },
+    "IGUI_ALifeUI_7c87eac55225be67": {
+      "tr": "Bu klasörü aşağı taşı"
+    },
+    "IGUI_ALifeUI_0e88f7d915d5a5e8": {
+      "tr": "Klasör işlemleri: yeniden adlandır, kopyala ya da sil"
+    },
+    "IGUI_ALifeUI_4e876cf82c75ac6b": {
+      "tr": "Kaldır"
+    },
+    "IGUI_ALifeUI_152a18a040cf98a1": {
+      "tr": "Kadın bedeni için yok"
+    },
+    "IGUI_ALifeUI_32755f212931eeca": {
+      "tr": "Oyun günü"
+    },
+    "IGUI_ALifeUI_002bc38039bf926a": {
+      "tr": "Tek başına sayı"
+    },
+    "IGUI_ALifeUI_3f8caa8e64bde684": {
+      "tr": "Grup büyüklüğü"
+    },
+    "IGUI_ALifeUI_3880e40d3539262a": {
+      "tr": "Takviye büyüklüğü"
+    },
+    "IGUI_ALifeUI_4777406f224d12fc": {
+      "tr": "Takviye çağrısı"
+    },
+    "IGUI_ALifeUI_07afe8f44f79bc1c": {
+      "tr": "Oluşturma ağırlığı"
+    },
+    "IGUI_ALifeUI_432da7ee50a41094": {
+      "tr": "Tekil ağırlık"
+    },
+    "IGUI_ALifeUI_5e648c9763997f4a": {
+      "tr": "Grup ağırlığı"
+    },
+    "IGUI_ALifeUI_62782930174b6f61": {
+      "tr": "Birden çok seçeneğe izin ver"
+    },
+    "IGUI_ALifeUI_2c17674976519605": {
+      "tr": "Project A-Life Oluşturucu"
+    },
+    "IGUI_ALifeUI_0dcb84846aef1eb4": {
+      "tr": "SAYFA "
+    },
+    "IGUI_ALifeUI_645c9eef4bf941d5": {
+      "tr": "DOĞRULANMAMIŞ MOD PARÇALARI HATA VEREBİLİR YA DA ÇÖKERTEBİLİR - RİSK SENİN."
+    },
+    "IGUI_ALifeUI_6b4c8ff175dc6c74": {
+      "tr": "SEÇİLİ "
+    },
+    "IGUI_ALifeUI_6120c5e12cd68596": {
+      "tr": "Ses incelemesi için NPC sesi kapalı. Yazılı konuşma açık kalır."
+    },
+    "IGUI_ALifeUI_4466b0b44a4d3503": {
+      "tr": "Bu tepki için replik yok."
+    },
+    "IGUI_ALifeUI_330b05df7e64471a": {
+      "tr": "Fraksiyon: "
+    },
+    "IGUI_ALifeUI_00e7ee0e77ad3554": {
+      "tr": "DAVRANIŞ  /  "
+    },
+    "IGUI_ALifeUI_3bdbec5503079b61": {
+      "tr": "TEÇHİZAT  /  "
+    },
+    "IGUI_ALifeUI_4be534f97da1ae84": {
+      "tr": "DEĞERLER  /  CAN "
+    },
+    "IGUI_ALifeUI_6768b015397d2631": {
+      "tr": "ETKİN: "
+    },
+    "IGUI_ALifeUI_022a246e3241482f": {
+      "tr": "KLASÖR DEĞİŞMEDİ - KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_0a8c08450ad4ae69": {
+      "tr": "KISMİ KOPYA - FRAKSİYONLAR EKLENDİ, NPC KAYDI BAŞARISIZ"
+    },
+    "IGUI_ALifeUI_6966609b3b0f95ea": {
+      "tr": "KISMİ KOPYA - NPC'LER EKLENDİ, KLASÖR KAYDI BAŞARISIZ"
+    },
+    "IGUI_ALifeUI_43a569c03b472bb5": {
+      "tr": "KLASÖR KOPYALANDI - FRAKSİYON: "
+    },
+    "IGUI_ALifeUI_1796070417878f21": {
+      "tr": "SORUNLAR  "
+    },
+    "IGUI_ALifeUI_2fd6220c783fac4b": {
+      "tr": "ÜYE ŞABLONLARI   "
+    },
+    "IGUI_ALifeUI_140dc96f39de1594": {
+      "tr": "Bir üye seç ya da oluştur"
+    },
+    "IGUI_ALifeUI_7c86400e5bba85f0": {
+      "tr": "Kimlik: "
+    },
+    "IGUI_ALifeUI_00245156530f19c4": {
+      "tr": "KOPYALANAMADI - FRAKSİYON KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_1c6c22dc50bed52a": {
+      "tr": "KISMİ KOPYA - FRAKSİYON EKLENDİ, NPC KAYDI BAŞARISIZ"
+    },
+    "IGUI_ALifeUI_4fa882402f4f7b19": {
+      "tr": "YENİ FRAKSİYON OLUŞMADI - KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_6f846efc1a5ebc00": {
+      "tr": "FRAKSİYON SİLİNEMEDİ - KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_1c0ab83865c91c60": {
+      "tr": "FRAKSİYON VE NPC ŞABLONLARI KALDIRILDI"
+    },
+    "IGUI_ALifeUI_5e479bc5486f790f": {
+      "tr": "DIŞA AKTARMAK İÇİN BİR FRAKSİYON SEÇ"
+    },
+    "IGUI_ALifeUI_7145393d7f43b6bc": {
+      "tr": "DIŞA AKTARILAMADI: "
+    },
+    "IGUI_ALifeUI_60f5293c55b7eea5": {
+      "tr": "PAYLAŞILAMADI - KLASÖRDE FRAKSİYON YOK"
+    },
+    "IGUI_ALifeUI_168ad712222b1825": {
+      "tr": "KLASÖR KODU KOPYALANDI - FRAKSİYON: "
+    },
+    "IGUI_ALifeUI_7ed6787c7f64b5a4": {
+      "tr": "KOPYALAMAK İÇİN ÇOK UZUN - KLASÖR KODU ZOMBOID/LUA/ALIFE_FACTION_CODE.TXT DOSYASINA KAYDEDİLDİ"
+    },
+    "IGUI_ALifeUI_3cd04f3d4f597af2": {
+      "tr": "PAYLAŞILAMADI: KOD KOPYALANAMADI YA DA KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_3ff801283af054ee": {
+      "tr": "KOPYALANMIŞ KOD YOK  -  ÖNCE BİR PAYLAŞIM KODU KOPYALA"
+    },
+    "IGUI_ALifeUI_03822a71405ec2fc": {
+      "tr": "İÇE AKTARILAMADI: "
+    },
+    "IGUI_ALifeUI_023b94a44d0467bd": {
+      "tr": "İÇE AKTARMA İPTAL EDİLDİ"
+    },
+    "IGUI_ALifeUI_6000c54029194b78": {
+      "tr": "EKSİK EŞYALAR - "
+    },
+    "IGUI_ALifeUI_06a8eaf44b046713": {
+      "tr": "İÇE AKTARILAMADI: FRAKSİYON KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_2847c08247f03d84": {
+      "tr": "KISMİ İÇE AKTARMA: FRAKSİYON EKLENDİ, NPC'LER EKLENEMEDİ"
+    },
+    "IGUI_ALifeUI_19fb62784d8cf7fe": {
+      "tr": "FRAKSİYON PAKETİ İÇE AKTARILDI - "
+    },
+    "IGUI_ALifeUI_02d50ead312a78ad": {
+      "tr": "KLASÖR İÇE AKTARILDI - FRAKSİYON: "
+    },
+    "IGUI_ALifeUI_767eefa75d752070": {
+      "tr": "KLASÖR SİLİNDİ - SİLİNEN FRAKSİYON: "
+    },
+    "IGUI_ALifeUI_6c2c2faa2da6c031": {
+      "tr": "KLASÖR SİLİNEMEDİ - KAYDEDİLEMEDİ ("
+    },
+    "IGUI_ALifeUI_3c3eabe5078b7045": {
+      "tr": "NPC KOPYALANAMADI - KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_1b68387802e9c38b": {
+      "tr": "YENİ NPC OLUŞMADI - KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_249971ff71c71aed": {
+      "tr": "NPC SİLİNEMEDİ - KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_2043d19d4ca44874": {
+      "tr": "SIFIRLANAMADI - VARSAYILAN FRAKSİYONLAR YÜKLENMEDİ"
+    },
+    "IGUI_ALifeUI_3f5708b61e8eea8f": {
+      "tr": "SUNUCUYA GÖNDERİLEMEDİ: "
+    },
+    "IGUI_ALifeUI_663bb633229563af": {
+      "tr": "OLUŞTURUCU SUNUCUYA GÖNDERİLİYOR..."
+    },
+    "IGUI_ALifeUI_1b4e33a0269948dd": {
+      "tr": "BU BİLGİSAYARA KAYDEDİLDİ -- DÜNYA BAŞLATINCA YA DA SUNUCU AÇINCA GEÇERLİ"
+    },
+    "IGUI_ALifeUI_4618ee9966dabe09": {
+      "tr": "EMİRLER"
+    },
+    "IGUI_ALifeUI_4f73501c473addc0": {
+      "tr": "TEHLİKEYE TEPKİ"
+    },
+    "IGUI_ALifeUI_6b90cdab5487cd4b": {
+      "tr": "ÇATIŞMADA HAREKET"
+    },
+    "IGUI_ALifeUI_433fe2cd4e43d082": {
+      "tr": "HAYATTA KALMA VE GÜNLÜK DÜZEN"
+    },
+    "IGUI_ALifeUI_3e60d66527247b71": {
+      "tr": "KANUNSUZ DAVRANIŞ"
+    },
+    "IGUI_ALifeUI_43d5c6983264aca6": {
+      "tr": "FRAKSİYONLAR"
+    },
+    "IGUI_ALifeUI_519038651061e3af": {
+      "tr": "ÜYELER"
+    },
+    "IGUI_ALifeUI_372d952244007807": {
+      "tr": "DÜZENLEME + MODEL",
+      "not": "K: Creator = Oluşturucu; editor pane = düzenleme paneli."
+    },
+    "IGUI_ALifeUI_4bea4a7b30561047": {
+      "tr": "MENZİLLİ"
+    },
+    "IGUI_ALifeUI_0d9781ef36d0817f": {
+      "tr": "YAKIN DÖVÜŞ"
+    },
+    "IGUI_ALifeUI_38348f6615555db5": {
+      "tr": "SORUNLAR"
+    },
+    "IGUI_ALifeUI_73cda96846ea0ab3": {
+      "tr": "KİMLİK"
+    },
+    "IGUI_ALifeUI_4165c2f31be53880": {
+      "tr": "ORTAYA ÇIKMA",
+      "not": "Sözlük: dünyada kendiliğinden belirme = ortaya çıkma."
+    },
+    "IGUI_ALifeUI_2218ac192f78f6f9": {
+      "tr": "VARSAYILAN DAVRANIŞ"
+    },
+    "IGUI_ALifeUI_44fe505b3b666f15": {
+      "tr": "TAKVİYE"
+    },
+    "IGUI_ALifeUI_25b5fa552fea8ef7": {
+      "tr": "MEVSİME GÖRE GARDIROP"
+    },
+    "IGUI_ALifeUI_31b58ecf05e25a40": {
+      "tr": "NPC AYARLARI"
+    },
+    "IGUI_ALifeUI_2a1b829e1cc8671f": {
+      "tr": "OLUŞTUR"
+    },
+    "IGUI_ALifeUI_0b8807ef172dba56": {
+      "tr": "YENİ"
+    },
+    "IGUI_ALifeUI_7c8bb2d65d10d35c": {
+      "tr": "KAYDET"
+    },
+    "IGUI_ALifeUI_6731ca2266a3f32d": {
+      "tr": "ONAYLA"
+    },
+    "IGUI_ALifeUI_7c8d68a95d78c6d7": {
+      "tr": "YELEK"
+    },
+    "IGUI_ALifeUI_7c825df85ac9a25e": {
+      "tr": "SIRT"
+    },
+    "IGUI_ALifeUI_0b87ede2172c2611": {
+      "tr": "ŞAPKA"
+    },
+    "IGUI_ALifeUI_2820ff031d11499c": {
+      "tr": "TABANCA"
+    },
+    "IGUI_ALifeUI_5882158406bb148a": {
+      "tr": "YAKIN DÖVÜŞ / KEMER"
+    },
+    "IGUI_ALifeUI_461ecefb68cd6966": {
+      "tr": "İZİNLİ"
+    },
+    "IGUI_ALifeUI_5d4b5056256fd7f9": {
+      "tr": "SEÇİLMEDİ"
+    },
+    "IGUI_ALifeUI_64a4d903582a279f": {
+      "tr": "BENZER MODEL"
+    },
+    "IGUI_ALifeUI_2f7a9d0a001f235e": {
+      "tr": "ELDE"
+    },
+    "IGUI_ALifeUI_568f94002f75199f": {
+      "tr": "BİRİNCİL"
+    },
+    "IGUI_ALifeUI_28c639af3b98c1a9": {
+      "tr": "BENZER"
+    },
+    "IGUI_ALifeUI_590fac162acef96c": {
+      "tr": "ÖNİZLEMEK İÇİN BİR KIYAFET TAKIMI AÇ"
+    },
+    "IGUI_ALifeUI_7c8bb8c05d114f2e": {
+      "tr": "SCBA",
+      "not": "Solunum cihazı; kısaltma olduğu gibi."
+    },
+    "IGUI_ALifeUI_01157e736378054e": {
+      "tr": "TAKILI - ÇIKARMAK İÇİN TIKLA"
+    },
+    "IGUI_ALifeUI_4ca733e36aa2a666": {
+      "tr": "DOĞRULANMAMIŞ MOD PARÇASI"
+    },
+    "IGUI_ALifeUI_6e166d674c64ac32": {
+      "tr": "EŞYA SEÇ"
+    },
+    "IGUI_ALifeUI_246a1dc62076c40b": {
+      "tr": "ETKİN"
+    },
+    "IGUI_ALifeUI_32b38a810346b8f3": {
+      "tr": "SİMGE YOK"
+    },
+    "IGUI_ALifeUI_7f763c8c4d1fccfd": {
+      "tr": "SAKAL OLUŞTURUCU"
+    },
+    "IGUI_ALifeUI_5a44c9533f2c7fdd": {
+      "tr": "SAÇ OLUŞTURUCU"
+    },
+    "IGUI_ALifeUI_3cec952473700c81": {
+      "tr": "OYUNUN VARSAYILANI: YOK"
+    },
+    "IGUI_ALifeUI_5834973f263fec03": {
+      "tr": "KLASÖR İŞLEMLERİ"
+    },
+    "IGUI_ALifeUI_286f5024211af547": {
+      "tr": "KLASÖR OLUŞTUR"
+    },
+    "IGUI_ALifeUI_4c329402768b5b6e": {
+      "tr": "YENİDEN ADLANDIR"
+    },
+    "IGUI_ALifeUI_2a0a48ea7f86d299": {
+      "tr": "KISMİ KOPYA - BAZI FRAKSİYONLAR GÖNDERİLDİ, SUNUCU KONTROL EDİLİYOR"
+    },
+    "IGUI_ALifeUI_553a7aa019b104fa": {
+      "tr": "KLASÖR KOPYALANAMADI - KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_778b6cba78dcdf42": {
+      "tr": "SINIRSIZ"
+    },
+    "IGUI_ALifeUI_4d904c6b3d254a29": {
+      "tr": "SİLAHSIZ"
+    },
+    "IGUI_ALifeUI_32af51c20236e970": {
+      "tr": "MERMİ YOK"
+    },
+    "IGUI_ALifeUI_0e020dfa1f9c2f65": {
+      "tr": "KAYDEDİLDİ"
+    },
+    "IGUI_ALifeUI_45e831cd52cf1abb": {
+      "tr": "DIŞA AKTARILAMADI: KOD KOPYALANAMADI YA DA KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_4e43dfd22ced5498": {
+      "tr": "KAYDEDİLİYOR"
+    },
+    "IGUI_ALifeUI_347fcbfc5da54a68": {
+      "tr": "KAYDEDİLİYOR - BİTİNCE YENİDEN DENE"
+    },
+    "IGUI_ALifeUI_46b21af2238eedc7": {
+      "tr": "KAYDEDİLMEDİ  -  OTOMATİK KAYDEDİLİYOR"
+    },
+    "IGUI_ALifeUI_692405511ab12eed": {
+      "tr": "FRAKSİYONLAR VARSAYILANA DÖNDÜ"
+    },
+    "IGUI_ALifeUI_037b426c0bc7a5c8": {
+      "tr": "SIFIRLANAMADI - KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_29951f2900830643": {
+      "tr": "UYGULAMA YARIM KALDI - SUNUCU KONTROL EDİLİYOR"
+    },
+    "IGUI_ALifeUI_4b2e853d42a11c06": {
+      "tr": "UYGULANAMADI - DÜZENLEMELER HÂLÂ AÇIK"
+    },
+    "IGUI_ALifeUI_4dfa4c1149700b54": {
+      "tr": "YENİ KLASÖR"
+    },
+    "IGUI_ALifeUI_5fbf6ddf67f16ef8": {
+      "tr": "AYARLARI AÇ"
+    },
+    "IGUI_ALifeUI_3e2546b946f0826e": {
+      "tr": "KODU KOPYALA"
+    },
+    "IGUI_ALifeUI_22df723b0bd3ed1c": {
+      "tr": "KOD YÜKLE"
+    },
+    "IGUI_ALifeUI_75b62bb227ed02fc": {
+      "tr": "FRAKSİYONU ÇOĞALT"
+    },
+    "IGUI_ALifeUI_40883fc20cd3ccf7": {
+      "tr": "ÜYE"
+    },
+    "IGUI_ALifeUI_511066e44402a7c0": {
+      "tr": "DAVRANIŞ"
+    },
+    "IGUI_ALifeUI_57d57e545e66d912": {
+      "tr": "SİLAH"
+    },
+    "IGUI_ALifeUI_0b88296e172fd08d": {
+      "tr": "ÇEŞ",
+      "not": "Sütun başlığı: varyasyon sayısı (kısaltma)."
+    },
+    "IGUI_ALifeUI_7c8205f15aaa7e51": {
+      "tr": "MERMİ"
+    },
+    "IGUI_ALifeUI_4f905d2e77a4640e": {
+      "tr": "DURUM"
+    },
+    "IGUI_ALifeUI_0ba91a4645127a93": {
+      "tr": "TEÇHİZAT SORUNU YOK"
+    },
+    "IGUI_ALifeUI_2bc97acf6a40bf1e": {
+      "tr": "BU GÖRÜNÜME UYAN ÜYE YOK"
+    },
+    "IGUI_ALifeUI_5754c0b26ac159dd": {
+      "tr": "NPC'Yİ ÇOĞALT"
+    },
+    "IGUI_ALifeUI_06f8401f432a27f3": {
+      "tr": "ATANMADI"
+    },
+    "IGUI_ALifeUI_4084311f72cc302a": {
+      "tr": "NPC BEYNİ"
+    },
+    "IGUI_ALifeUI_3cbea64e354838cb": {
+      "tr": "ALGI"
+    },
+    "IGUI_ALifeUI_1a9687407e77460d": {
+      "tr": "HAREKET"
+    },
+    "IGUI_ALifeUI_29e99e006931ea50": {
+      "tr": "ÇATIŞMA"
+    },
+    "IGUI_ALifeUI_65ee7bda2add2352": {
+      "tr": "MALZEME TOPLAMA",
+      "not": "Sözlük: scavenge = malzeme toplama."
+    },
+    "IGUI_ALifeUI_0e3fcd3d56222858": {
+      "tr": "SES"
+    },
+    "IGUI_ALifeUI_3e98dd1800593ab7": {
+      "tr": "KARŞILAŞMA"
+    },
+    "IGUI_ALifeUI_52f19ab7534f7b57": {
+      "tr": "TAM BASKIN"
+    },
+    "IGUI_ALifeUI_6e10b1f5769ccb24": {
+      "tr": "GEÇERSİZ KILMA VAR"
+    },
+    "IGUI_ALifeUI_771ad69652501525": {
+      "tr": "KAPALI"
+    },
+    "IGUI_ALifeUI_7ed50bae799246ff": {
+      "tr": "HATA AYIKLAMA AYARIYLA FİLTRELENDİ"
+    },
+    "IGUI_ALifeUI_3eec25bd16d12132": {
+      "tr": "HER ZAMAN"
+    },
+    "IGUI_ALifeUI_42c8c4895aa6a045": {
+      "tr": "HER YERDE"
+    },
+    "IGUI_ALifeUI_7c8b47775cf099f3": {
+      "tr": "HALKA",
+      "not": "Yerleşim: oyuncunun çevresinde halka biçiminde."
+    },
+    "IGUI_ALifeUI_15ed4d5023362a86": {
+      "tr": "KALICI"
+    },
+    "IGUI_ALifeUI_7b1ea58714291bcd": {
+      "tr": "OLAĞAN YAŞAM DÖNGÜSÜ"
+    },
+    "IGUI_ALifeUI_7a4b963b40b9aad4": {
+      "tr": "BİR KLASÖRE BIRAK"
+    },
+    "IGUI_ALifeUI_77e63e853706734e": {
+      "tr": "KLASÖRSÜZLERE TAŞI"
+    },
+    "IGUI_ALifeUI_064e45d1040f62d3": {
+      "tr": "KLASÖR SIRASINI DEĞİŞTİR"
+    },
+    "IGUI_ALifeUI_39e1bf5d4e581588": {
+      "tr": "SUNUCUYA GÖNDERİLDİ"
+    },
+    "IGUI_ALifeUI_2aed0f584047fa47": {
+      "tr": "ANA MENÜ"
+    },
+    "IGUI_ALifeUI_4879101700786c31": {
+      "tr": "ETİKET SİLİNEMEDİ - YENİDEN DENE"
+    },
+    "IGUI_ALifeUI_0d167ea93b64f386": {
+      "tr": "YÜZLER"
+    },
+    "IGUI_ALifeUI_620e425b74775655": {
+      "tr": "Uyumlu katmanlar yalnızca kaynak modları açıkken burada görünür."
+    },
+    "IGUI_ALifeUI_264d87a91f6d2720": {
+      "tr": "MOD YÜZ KATMANLARI"
+    },
+    "IGUI_ALifeUI_18153a114317e3ab": {
+      "tr": "YÜZ KATMANI"
+    },
+    "IGUI_ALifeUI_3a6be3ec5adec09a": {
+      "tr": "ORTAYA ÇIKMAYI AYARLA"
+    },
+    "IGUI_ALifeUI_40e73a155066626e": {
+      "tr": "TAKVİYEYİ AYARLA"
+    },
+    "IGUI_ALifeUI_7f157b096ea5f905": {
+      "tr": "FRAKSİYON KİMLİĞİ"
+    },
+    "IGUI_ALifeUI_5cb95900663a3013": {
+      "tr": "Fraksiyon adı"
+    },
+    "IGUI_ALifeUI_11e947983459f284": {
+      "tr": "Kategori"
+    },
+    "IGUI_ALifeUI_65baeb2f58cf9581": {
+      "tr": "Açıklama"
+    },
+    "IGUI_ALifeUI_5eaabf002c01fee4": {
+      "tr": "Bilinmeyen fraksiyona tutum"
+    },
+    "IGUI_ALifeUI_42a3d96872f37d54": {
+      "tr": "HER NPC'NİN PROFİL VARSAYILANINI KULLAN"
+    },
+    "IGUI_ALifeUI_5d5abb5074b99e4d": {
+      "tr": "Fast Food Aşçısı",
+      "not": "Meslek adları vanilla Türkçesiyle aynı."
+    },
+    "IGUI_ALifeUI_7579b6e303f6e53f": {
+      "tr": "Hırsız"
+    },
+    "IGUI_ALifeUI_4ea1c9010c12971e": {
+      "tr": "Marangoz"
+    },
+    "IGUI_ALifeUI_7c8394bd5af637d9": {
+      "tr": "Aşçı"
+    },
+    "IGUI_ALifeUI_3e2d20c267857c9f": {
+      "tr": "İnşaat İşçisi"
+    },
+    "IGUI_ALifeUI_2e8ec1d5196cdc54": {
+      "tr": "Doktor"
+    },
+    "IGUI_ALifeUI_570b5ec04d0fe966": {
+      "tr": "Elektrikçi"
+    },
+    "IGUI_ALifeUI_351b0396525f6b72": {
+      "tr": "Mühendis"
+    },
+    "IGUI_ALifeUI_3243d6a71cb62f0a": {
+      "tr": "Çiftçi"
+    },
+    "IGUI_ALifeUI_22debdc4063ed4a6": {
+      "tr": "Balıkçı"
+    },
+    "IGUI_ALifeUI_5cd07c7968cec8ea": {
+      "tr": "Fitness Eğitmeni"
+    },
+    "IGUI_ALifeUI_0e405abc593a64e7": {
+      "tr": "Oduncu"
+    },
+    "IGUI_ALifeUI_58efd33a34b05b74": {
+      "tr": "Araba Tamircisi"
+    },
+    "IGUI_ALifeUI_5a307acd15e5f4b4": {
+      "tr": "Metal İşçisi"
+    },
+    "IGUI_ALifeUI_0dc494544ed6cfe0": {
+      "tr": "Hemşire"
+    },
+    "IGUI_ALifeUI_251bbf2317337635": {
+      "tr": "Park Korucusu"
+    },
+    "IGUI_ALifeUI_4536021001b157d7": {
+      "tr": "Polis Memuru"
+    },
+    "IGUI_ALifeUI_162bb261621473f5": {
+      "tr": "Besici"
+    },
+    "IGUI_ALifeUI_50a7e0b45a6ef2c1": {
+      "tr": "Tamirci"
+    },
+    "IGUI_ALifeUI_00cf9de910738df3": {
+      "tr": "Güvenlik Görevlisi"
+    },
+    "IGUI_ALifeUI_156a6a12180833c2": {
+      "tr": "Dökümcü"
+    },
+    "IGUI_ALifeUI_52e71d155cbd6997": {
+      "tr": "Terzi"
+    },
+    "IGUI_ALifeUI_092c888a6ca92f56": {
+      "tr": "İşsiz"
+    },
+    "IGUI_ALifeUI_78e85ca6485a3a23": {
+      "tr": "Oyuncuya tutum"
+    },
+    "IGUI_ALifeUI_7bdb341d3db23dc6": {
+      "tr": "Etkin saatler"
+    },
+    "IGUI_ALifeUI_2d99e0f65df88ed9": {
+      "tr": "Yerleşim mesafesini A-Life yönetir."
+    },
+    "IGUI_ALifeUI_64ff89e04de2becc": {
+      "tr": "ORTAYA ÇIKMA KURALI"
+    },
+    "IGUI_ALifeUI_32acea4f75993873": {
+      "tr": "GRUP BÜYÜKLÜĞÜ"
+    },
+    "IGUI_ALifeUI_6d1316bc1158ae7a": {
+      "tr": "İZİNLİ KARŞILAŞMALAR"
+    },
+    "IGUI_ALifeUI_68f3f10a19e32bde": {
+      "tr": "GEZGİN"
+    },
+    "IGUI_ALifeUI_1b066f8f1d94186e": {
+      "tr": "SAKİNLER"
+    },
+    "IGUI_ALifeUI_7c892f775c68f5bb": {
+      "tr": "YOK"
+    },
+    "IGUI_ALifeUI_483c3fda2ec95934": {
+      "tr": "KURAL"
+    },
+    "IGUI_ALifeUI_11b4807b2da90bf8": {
+      "tr": "KARŞILAŞMALAR"
+    },
+    "IGUI_ALifeUI_01be341a16a0c459": {
+      "tr": "YER"
+    },
+    "IGUI_ALifeUI_56eaa41e69ca4116": {
+      "tr": "Çağrı başına NPC (1-8)"
+    },
+    "IGUI_ALifeUI_39a70e7b0759d700": {
+      "tr": "Tim başına çağrı (0-10)"
+    },
+    "IGUI_ALifeUI_0cf274830b105426": {
+      "tr": "Çağrı "
+    },
+    "IGUI_ALifeUI_483e1de075a0a22e": {
+      "tr": "TAKVİYE VARSAYILANLARI"
+    },
+    "IGUI_ALifeUI_73ace373438f2471": {
+      "tr": "TAKVİYE FRAKSİYONLARI"
+    },
+    "IGUI_ALifeUI_32caf2d879f045ea": {
+      "tr": "ETİKET EKLE"
+    },
+    "IGUI_ALifeUI_146bc1f92d506c0e": {
+      "tr": "Fraksiyon: -"
+    },
+    "IGUI_ALifeUI_3abc8e5669999ba0": {
+      "tr": "Görünen ad"
+    },
+    "IGUI_ALifeUI_34df097f5de5c35a": {
+      "tr": "Cinsiyet"
+    },
+    "IGUI_ALifeUI_0b882521172f5af0": {
+      "tr": "Etiket"
+    },
+    "IGUI_ALifeUI_0cf84f1d0c86cc54": {
+      "tr": "Sınıf"
+    },
+    "IGUI_ALifeUI_3f4811fb7cd8bf41": {
+      "tr": "Grupta Çıkma Ağırlığı"
+    },
+    "IGUI_ALifeUI_284f378c579d32e4": {
+      "tr": "Etiket süz"
+    },
+    "IGUI_ALifeUI_24f59e0b7b100af8": {
+      "tr": "NPC adı"
+    },
+    "IGUI_ALifeUI_1f3627101efd12e5": {
+      "tr": "ETİKET, SINIF VE ORTAYA ÇIKMA"
+    },
+    "IGUI_ALifeUI_2af3be6d479dc975": {
+      "tr": "KEŞİF VE YÖNETİCİ NOTLARI"
+    },
+    "IGUI_ALifeUI_41e5cfcd2b025775": {
+      "tr": "ETİKET ADI: 1-48 KARAKTER"
+    },
+    "IGUI_ALifeUI_1b11af925c7c4822": {
+      "tr": "TEÇHİZAT"
+    },
+    "IGUI_ALifeUI_74260ef250d02475": {
+      "tr": "Birincil şarjör"
+    },
+    "IGUI_ALifeUI_7da528d7602dbe7f": {
+      "tr": "Tabanca şarjörü"
+    },
+    "IGUI_ALifeUI_1346a82e69afa44e": {
+      "tr": "Şarjör düşürme olasılığı (%)"
+    },
+    "IGUI_ALifeUI_04cdae812a3d6840": {
+      "tr": "MÜHİMMAT"
+    },
+    "IGUI_ALifeUI_046b9d7f38c1bbbc": {
+      "tr": "ATEŞLİ SİLAH EKLENTİLERİ"
+    },
+    "IGUI_ALifeUI_08b0f3bb0a8adb61": {
+      "tr": "HEPSİNİ DEVRALA DÖNDÜR"
+    },
+    "IGUI_ALifeUI_5fa0d1c6341b57c7": {
+      "tr": "YETENEKLERİ FRAKSİYONA UYGULA"
+    },
+    "IGUI_ALifeUI_117b39b202105829": {
+      "tr": "NPC YETENEKLERİ"
+    },
+    "IGUI_ALifeUI_02c8761102cb5c65": {
+      "tr": "Açık bir açıklama için imleci bir ayarın ya da bilgi simgesinin üstüne getir."
+    },
+    "IGUI_ALifeUI_40806b166817615b": {
+      "tr": "DEVRAL = FRAKSİYON AYARI | AÇIK/KAPALI = YALNIZCA BU NPC"
+    },
+    "IGUI_ALifeUI_5c0fc2e00aa160bb": {
+      "tr": "ÇÖZÜM ÖNER"
+    },
+    "IGUI_ALifeUI_564c41be6a750c5a": {
+      "tr": "ÖNİZLE"
+    },
+    "IGUI_ALifeUI_379396517e146bb0": {
+      "tr": "KIYAFET İÇİN ÖNERİLEN ÇÖZÜM "
+    },
+    "IGUI_ALifeUI_52e8b6f64fd0d943": {
+      "tr": "UYGULA'ya basana kadar hiçbir şey değişmez. ÖNİZLE karakterin üstünde gösterir.",
+      "not": "Düğme adlarına atıf, düğmelerin TR'siyle aynı."
+    },
+    "IGUI_ALifeUI_1fb119d807143e14": {
+      "tr": "Bu sorun için otomatik öneri yok. Yuva seçiciyi (TÜMÜNÜ GÖSTER) kullanıp elle seç."
+    },
+    "IGUI_ALifeUI_4c324458766cbcec": {
+      "tr": "KALDIR"
+    },
+    "IGUI_ALifeUI_52af1a794de16f63": {
+      "tr": "DEĞİŞTİR"
+    },
+    "IGUI_ALifeUI_0b87d06e172a524b": {
+      "tr": "EKLE"
+    },
+    "IGUI_ALifeUI_72679b580bff913b": {
+      "tr": "ONAYLA VE KAYDET"
+    },
+    "IGUI_ALifeUI_1ce958f01465c8bf": {
+      "tr": "Yalnızca listelenen eksik gardırop alanları doldurulur. Kendi etiketsiz kıyafetleri olan NPC'ler atlanır:"
+    },
+    "IGUI_ALifeUI_196f822478960dcf": {
+      "tr": "kıyafetleri ve mevsim etiketleri yazıldığı gibi kalır, oyun yine de onları mevsime göre giydirir."
+    },
+    "IGUI_ALifeUI_3f1f78c6701e5dfd": {
+      "tr": "Planlanıyor "
+    },
+    "IGUI_ALifeUI_40f128955f2611cd": {
+      "tr": "PLANLAMA İPTAL EDİLDİ - HİÇBİR ŞEY DEĞİŞMEDİ"
+    },
+    "IGUI_ALifeUI_046f0b923871d8bb": {
+      "tr": "PLANLAMA BAŞARISIZ - HİÇBİR ŞEY DEĞİŞMEDİ"
+    },
+    "IGUI_ALifeUI_2c15c3bb012bd069": {
+      "tr": "TOPLU GARDIROP: YEREL OLUŞTURUCU KAYDINI ÇOK OYUNCULU DIŞINDA AÇ"
+    },
+    "IGUI_ALifeUI_505b09f826c95382": {
+      "tr": "SÜREN KAYIT YA DA PLANI BEKLE, SONRA YENİDEN ÖNİZLE"
+    },
+    "IGUI_ALifeUI_37fc6d537b09a474": {
+      "tr": "ÖNCE AÇIK DÜZENLEMELERİ KAYDET, SONRA YENİDEN ÖNİZLE"
+    },
+    "IGUI_ALifeUI_3b12d61c4703bc87": {
+      "tr": "KAYIT BAŞARISIZ YA DA YARIM"
+    },
+    "IGUI_ALifeUI_4859f01a5d869a17": {
+      "tr": "MEVSİMLİK GARDIROP KAYDEDİLDİ"
+    },
+    "IGUI_ALifeUI_11f0f9d457486290": {
+      "tr": "GARDIROBU KAYDET"
+    },
+    "IGUI_ALifeUI_7c8410ad5b315765": {
+      "tr": "DÜZENLE"
+    },
+    "IGUI_ALifeUI_7893353002f0cc06": {
+      "tr": "BU FRAKSİYONU ÜRET"
+    },
+    "IGUI_ALifeUI_3f8a66c21f11fff1": {
+      "tr": "TÜM FRAKSİYONLARI ÜRET"
+    },
+    "IGUI_ALifeUI_1a2c7b4c2428d09f": {
+      "tr": "HAZIR SÜRÜMDEN GÜNCELLE",
+      "not": "shipped = modla gelen hazır fraksiyonlar."
+    },
+    "IGUI_ALifeUI_25fe1b046ec3a1ee": {
+      "tr": "YALNIZCA HAZIR OLANLAR"
+    },
+    "IGUI_ALifeUI_48708e0e0b0fb331": {
+      "tr": "FRAKSİYON GARDIROBU - "
+    },
+    "IGUI_ALifeUI_45b0458a2aa99974": {
+      "tr": "0/4 mevsim - eksik"
+    },
+    "IGUI_ALifeUI_2355d3d53355048b": {
+      "tr": "Fraksiyon varsayılanları; üyelerin açık mevsimlik kıyafetleri önce gelir."
+    },
+    "IGUI_ALifeUI_223d9b030b41131b": {
+      "tr": "Üret, eksik takımları ve mevsim etiketlerini doldurur. Kendi etiketsiz kıyafetleri olan NPC'ler atlanır:"
+    },
+    "IGUI_ALifeUI_336e01b36d5237d3": {
+      "tr": "kıyafetleri ve etiketleri yazıldığı gibi kalır, oyun yine de onları kendiliğinden mevsime göre giydirir."
+    },
+    "IGUI_ALifeUI_51a6467d69babc7d": {
+      "tr": "İlkbahar"
+    },
+    "IGUI_ALifeUI_51fe130340d4cfb2": {
+      "tr": "Yaz"
+    },
+    "IGUI_ALifeUI_280531641279a53c": {
+      "tr": "Sonbahar"
+    },
+    "IGUI_ALifeUI_5a7a39a35c6599be": {
+      "tr": "Kış"
+    },
+    "IGUI_ALifeUI_78e3fbc508699ff2": {
+      "tr": "TÜM FRAKSİYONLARI GÖSTER"
+    }
+  }
+}

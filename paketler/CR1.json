@@ -1,0 +1,897 @@
+{
+  "_paket": "CR1 — Oluşturucu cümleleri, baştan çeviri (K57), 297 (çeviri: harici AI; kalite incelemesi yapılmadı)",
+  "_dosya": "Creator_lua",
+  "satirlar": {
+    "IGUI_ALifeUI_3db84c5f5966cc7f": {
+      "tr": "Üsten çıkış ve geri dönüş"
+    },
+    "IGUI_ALifeUI_6b6b0bcf0a47bd3e": {
+      "tr": "Üsse çevrilmiş bir istasyon"
+    },
+    "IGUI_ALifeUI_298fce0877d04a92": {
+      "tr": "Açık arazide kurulmuş bir kamp"
+    },
+    "IGUI_ALifeUI_516f59c96943e2da": {
+      "tr": "Tarlası ve ağılı olan çitli bir çiftlik"
+    },
+    "IGUI_ALifeUI_12179f2e1c087b19": {
+      "tr": "Duvarla çevrili hücre bloğu ve havalandırma avlusu"
+    },
+    "IGUI_ALifeUI_326720d130071ac0": {
+      "tr": "Çitle çevrili küçük bir kulübe ve ateş çemberi"
+    },
+    "IGUI_ALifeUI_4d5357c54ee08fe9": {
+      "tr": "Yağmacıların elindeki hurda tahkimat"
+    },
+    "IGUI_ALifeUI_30800f026a96033b": {
+      "tr": "Zombilerden uzak dur (Kapalı = dövüş)"
+    },
+    "IGUI_ALifeUI_6e72450a0f0a9077": {
+      "tr": "Liderin o anki emrine uyar; kafasına göre alakasız bir işe girişmez."
+    },
+    "IGUI_ALifeUI_2e3b77e47c1d0860": {
+      "tr": "Tim değiştirene kadar verilen görevde kalır: nöbet, güzergah, barikat ya da garnizon."
+    },
+    "IGUI_ALifeUI_3ecbacb40d928d32": {
+      "tr": "Baş edemeyeceği tehlikeye tepki verir, güvenli mesafeye çekilince toparlanır."
+    },
+    "IGUI_ALifeUI_5f7fe49a0ccee5e8": {
+      "tr": "Sivil sınıfındaki üyeler (daha zor korksalar da kurtarma ve işçi sınıfındakiler de) uzaktaki zombilere bulaşmaz, çok fazlası yaklaşınca topluca kaçar; polis, asker ve suçlu üyeler ile tecrübeliler ve pişkinler soğukkanlı kalır. Her üyenin sınıfını Kimlik sayfasından ayarla. Dünya ayarlarındaki Korku anahtarı ve Korku günleri de geçerli."
+    },
+    "IGUI_ALifeUI_58059b175f7dc553": {
+      "tr": "Ateşli silah doğrultan ya da kaldıran oyuncudan veya düşmandan geri çekilip kaçar, görüş hattını kesen bir sipere sığınır; silah birkaç saniye gözden kaybolunca geri döner. Silahlı üyeler bunu hiç kullanmaz; liderler, keskin nişancılar ve pusucular da yerinden kıpırdamaz. Devral, üyenin sınıfına bakar: sivil, işçi ve kurtarmada açık; polis, asker ve suçluda kapalı. Açık, bu üyede ya da fraksiyonda zorla çalıştırır. Dünya ayarlarındaki Silah korkusu anahtarı ve olasılığı da geçerli."
+    },
+    "IGUI_ALifeUI_6e3dffc145846af5": {
+      "tr": "Yüzü ve namlusu tehdide dönük geri çekilir; çekilirken ateş etmeyi sürdürebilir."
+    },
+    "IGUI_ALifeUI_0745cd3d04102464": {
+      "tr": "Teması tamamen kesip kaçmasına izin verir. Dünya ayarlarındaki Kaç anahtarı da açık olmalı; fraksiyon ya da NPC ayarı bunu aşamaz."
+    },
+    "IGUI_ALifeUI_355ec6cf331c5e5f": {
+      "tr": "Düşman ekip ilk kurşundan önce bağırarak uyarır ve oyuncuya kısa bir süre tanır; üsse girmeden kapıyı çalabilir, oyuncuyu durdurup birkaç soru sorabilir ve haraç isteyebilir. Kapalı, gördüğü yerde vurur demek: uyarı yok, süre yok, haraç sorusu yok, soygun da hiç başlamaz. Açık'ta bu ekip her zaman uyarır, baskın hariç. Baskın ekipleri, suikastçılar ve pusucular Kapalı gelir; baskın, suikast ve yol pususunda ekibin ayarı ne olursa olsun gördüğü yerde vurulur. Sandbox'taki Uyarı ayarları, Kapalı bir ekibe yine de uyarma şansı verir ve her uyarıya süre sınırı koyar."
+    },
+    "IGUI_ALifeUI_4a28cf5958f580d9": {
+      "tr": "Silahını ve gözünü hedeften ayırmadan yana kayar."
+    },
+    "IGUI_ALifeUI_1f38a6dd0f4271af": {
+      "tr": "Ateş altında dümdüz koşup kolay hedef olmaz; yaklaşırken yolunu değiştirir."
+    },
+    "IGUI_ALifeUI_4f769d2920637264": {
+      "tr": "Yakında siper arar; yol açıksa ve atış hattı uygunsa oradan çatışır."
+    },
+    "IGUI_ALifeUI_731ae810153ebd52": {
+      "tr": "Tim aynı kapıya yığılmasın diye girişte sıraya girer."
+    },
+    "IGUI_ALifeUI_4d21d9c24ce5ae5b": {
+      "tr": "Dar iç mekanları oda oda, kontrollü biçimde temizler."
+    },
+    "IGUI_ALifeUI_741019221e47daa3": {
+      "tr": "Hedefi başka bir tim üyesi oyalıyorsa yandan açı alır."
+    },
+    "IGUI_ALifeUI_712a2d7f486b6642": {
+      "tr": "Yakın dövüşçüler iki vuruş arasında yüzünü düşmandan ayırmadan geriye ve yana adım atar; zombiler üstüne yığılınca çekilir, sonra yeniden girer. Sandbox'taki Yakın dövüş ekibi anahtarı açık olmalı."
+    },
+    "IGUI_ALifeUI_46c16f237be023dc": {
+      "tr": "Yakın dövüş grubunda bir üye hedefe girişir, ötekiler dolanıp hedefin öbür yanına geçer. Sandbox'taki Yakın dövüş ekibi anahtarı açık olmalı."
+    },
+    "IGUI_ALifeUI_7344b1c043d69b17": {
+      "tr": "Elinde balta olan dövüşçü kapı ve pencereleri daha hızlı kırar; bir sesi kontrol etmeye giderken de bunu yapar. Sandbox'taki Yakın dövüş ekibi anahtarı açık olmalı."
+    },
+    "IGUI_ALifeUI_6b66e37d506f4b7a": {
+      "tr": "Oyuncuya yürüyerek yaklaşır, uzaktan uyarısını bağırır, sonra dibine girip vurur. Sandbox'taki Yakın dövüş ekibi anahtarı açık olmalı."
+    },
+    "IGUI_ALifeUI_45b1958b5fe5a375": {
+      "tr": "Birkaç zombi yaklaşınca erkenden çekilir, sonra geri döner. Sandbox'taki Yakın dövüş ekibi anahtarı açık olmalı."
+    },
+    "IGUI_ALifeUI_1023e40f4761c62d": {
+      "tr": "Bu NPC'nin zombilere tavrı. Devral standart temkini korur: yolunda kalabalık varsa dolanır ya da bekler, görevdeyken zombiye bulaşmaz, saldırırsa dövüşür. Açık'ta zombilerden daha çok sakınır: tek zombi için bile bekler ya da dolanır, yalnızca saldırıya uğrarsa dövüşür. Kapalı'da zombiyle gördüğü yerde dövüşür: yolda bekleme ve dolanma yok, ateş etmekten de hiç çekinmez."
+    },
+    "IGUI_ALifeUI_55bfba8d5d58545c": {
+      "tr": "Devral ve Açık standart silah disiplinini korur: ateşli silah kullanan NPC silahını çıkarmayıp yakın dövüş silahı kullanabilir, dipçikle itebilir ya da zombinin yanından geçip gidebilir. Kapalı'da bu NPC zombilere elindeki silahla saldırır: ateşi kesmek yok, yakın dövüşe geçmek yok, dip dibe itmek yok. Mermi bitince ve şarjör değiştirirken silah değiştirmesi aynen kalır."
+    },
+    "IGUI_ALifeUI_7a170c833d2a3022": {
+      "tr": "Ortalık sakinleşince yaralarını sarar, sonra timdeki önceki görevine döner."
+    },
+    "IGUI_ALifeUI_1cb7d27d500f1d77": {
+      "tr": "Uygun kapları arar, ganimeti ayırır ve işe yarar malzemeyi tim için taşır."
+    },
+    "IGUI_ALifeUI_56c66c63737d1d0b": {
+      "tr": "Çatışmadan sonra en fazla iki cesedi arar (en fazla biri enfekte). Giysi dışındaki eşyaların en çok dörtte birini alır, önceliği silahlara verir. Teçhizat sonradan geri alınabilir."
+    },
+    "IGUI_ALifeUI_0230e7745ac4cae7": {
+      "tr": "Timin hedefini unutmadan yeni duyduğu sesleri, gördüklerini ve ipuçlarını araştırır."
+    },
+    "IGUI_ALifeUI_292173e720572d53": {
+      "tr": "Acil bir görev ya da tehdit yokken sakin zamana yakışan, inandırıcı işlerle oyalanır."
+    },
+    "IGUI_ALifeUI_697ca5d744230829": {
+      "tr": "Tek başına kalan üyeleri tim liderinin çevresinde güvenli düzene geri toplar."
+    },
+    "IGUI_ALifeUI_6761e10c20f3da7e": {
+      "tr": "Herkes kendi yolundan gitmez; tim düzen halinde yol alır."
+    },
+    "IGUI_ALifeUI_42c951d863785fac": {
+      "tr": "Tim tek bir kolay hedef olmasın diye üyeler arasında mesafe bırakır."
+    },
+    "IGUI_ALifeUI_6f6483f775d486fb": {
+      "tr": "Devriyeler birlikte mola verir: dinlenir, oyalanır, sohbet eder. Mola zamanlaması ve ana anahtar sandbox ayarlarından gelir."
+    },
+    "IGUI_ALifeUI_03c0c8e020453339": {
+      "tr": "Serbest bir grup kendine hedef seçer (bir binayı yağmalamak, telsiz bulmak, erzak toplamak, geceyi geçirecek bir dam bulmak), aralarında konuşur, oraya yürür ve iş bitene, yol kapanana ya da fazla tehlikeli olana kadar hedeften şaşmaz. Sandbox'taki Gruplar plan yapar anahtarı da geçerli."
+    },
+    "IGUI_ALifeUI_4b2108546bc43f63": {
+      "tr": "Oyuncuyu soyar: silahlar yere, eller yukarı, birkaç değerli eşya alınır, sonra ekip çekip gider. Karşı koyan vurulur. Devral'da soygun ekibin tavrına göre olur (yağmacılar neredeyse her zaman, paralı askerler aşağı yukarı iki seferde bir) ve yalnızca oyuncu tek başınaysa. Açık'ta bu ekip, fraksiyonu ne olursa olsun ve oyuncunun yanında kim bulunursa bulunsun her seferinde dener."
+    },
+    "IGUI_ALifeUI_67c830ab3bbe4dcb": {
+      "tr": "Çatışma tıkanınca bir nişancı düşmanı görebileceği bir yan açıya koşar, kalanlar düşmanı baskı altında tutar."
+    },
+    "IGUI_ALifeUI_2397c21715234057": {
+      "tr": "Yanından vızıldayan mermiler bu NPC'yi sindirir: nişanı bozulur, geç karşılık verir, sinmişken seri atış yapmaz ve sipere yönelir."
+    },
+    "IGUI_ALifeUI_120e5f9766971e7f": {
+      "tr": "Bir tim arkadaşı sipere geçerken ya da yandan dolanırken timdeki her tüfek kesintisiz koruma ateşi açabilir."
+    },
+    "IGUI_ALifeUI_0589b2ad7a6150b0": {
+      "tr": "Düşman şarjör değiştirirken ya da yere düşünce tim yeniden nişan alır ve ateş ederek hat halinde birlikte ilerler."
+    },
+    "IGUI_ALifeUI_7eea27be4a0b7641": {
+      "tr": "Tim, bir arkadaşının az önce bildirdiği hedefe yönelir; ateş dağılmaz, tek düşmana toplanır."
+    },
+    "IGUI_ALifeUI_0c2b6b833ec8c829": {
+      "tr": "Atış hattında tim arkadaşı varsa ateşi keser ve yana kayar."
+    },
+    "IGUI_ALifeUI_34ed96af22b2a787": {
+      "tr": "Silah zoruyla oyunculardan istenenler"
+    },
+    "IGUI_ALifeUI_1eeb3b257cedc240": {
+      "tr": "Bu modülün ayarını geçerli kapsamda ezer."
+    },
+    "IGUI_ALifeUI_590fac162acef96c": {
+      "tr": "ÖNİZLEMEK İÇİN BİR KIYAFET TAKIMINI ETKİNLEŞTİR"
+    },
+    "IGUI_ALifeUI_04df09c43524c811": {
+      "tr": "Ortaya çıkma için hiçbir kıyafet takımı etkin değil"
+    },
+    "IGUI_ALifeUI_5cc793f33e8f7aa9": {
+      "tr": "Önce birincil ya da ikincil ateşli silah seç."
+    },
+    "IGUI_ALifeUI_645c9eef4bf941d5": {
+      "tr": "DOĞRULANMAMIŞ MOD PARÇALARI HATA VEREBİLİR YA DA OYUNU ÇÖKERTEBİLİR - RİSK SENDE."
+    },
+    "IGUI_ALifeUI_673da12a7c5caf99": {
+      "tr": "Yalnızca montaj listesinde bu silah geçen parçalar."
+    },
+    "IGUI_ALifeUI_3566db932caf3d6a": {
+      "tr": "Her seçeneğin şansı eşit. Yok, bu yuvayı boş bırakır."
+    },
+    "IGUI_ALifeUI_31d3863d25a4e33d": {
+      "tr": "Eşya adı ya da türü ara..."
+    },
+    "IGUI_ALifeUI_421a49c800a141b3": {
+      "tr": "Yalnızca yazılı kişilik."
+    },
+    "IGUI_ALifeUI_1e87837e67c596c3": {
+      "tr": "Bilinmeyen profil - oyun, yedek olarak gezgin düşman profilini kullanacak."
+    },
+    "IGUI_ALifeUI_6120c5e12cd68596": {
+      "tr": "Ses incelemesi için NPC sesleri kapatıldı. Yazılı diyaloglar açık kalıyor."
+    },
+    "IGUI_ALifeUI_4466b0b44a4d3503": {
+      "tr": "Bu tepki için replik yok."
+    },
+    "IGUI_ALifeUI_703224c54c527b98": {
+      "tr": "Build 42'nin kendi stilleri ve yüklü modların stilleri. Uygulamak için bir kafa seç."
+    },
+    "IGUI_ALifeUI_58cdc960140b415a": {
+      "tr": "Stil adı ara..."
+    },
+    "IGUI_ALifeUI_022a246e3241482f": {
+      "tr": "KLASÖR DEĞİŞTİRİLEMEDİ - KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_2a112b5b0cddd86f": {
+      "tr": "Örnek: Yağmacılar, Hikaye fraksiyonları, Deneme grupları..."
+    },
+    "IGUI_ALifeUI_2a0a48ea7f86d299": {
+      "tr": "KOPYA YARIM KALDI - BAZI FRAKSİYONLAR GÖNDERİLDİ, SUNUCU DENETLENİYOR"
+    },
+    "IGUI_ALifeUI_553a7aa019b104fa": {
+      "tr": "KLASÖR KOPYALANAMADI - KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_0a8c08450ad4ae69": {
+      "tr": "KOPYA YARIM KALDI - FRAKSİYONLAR EKLENDİ, NPC KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_6966609b3b0f95ea": {
+      "tr": "KOPYA YARIM KALDI - NPC'LER EKLENDİ, KLASÖR KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_0e88f7d915d5a5e8": {
+      "tr": "Klasör işlemleri: yeniden adlandır, kopyala ya da sil"
+    },
+    "IGUI_ALifeUI_46f9fb8e0af06340": {
+      "tr": "Fraksiyon kaydedilemedi. Değişikliklerin hala açık."
+    },
+    "IGUI_ALifeUI_17e7ad0e03f260ea": {
+      "tr": "Kayıt yarım kaldı. Bazı değişiklikler gönderildi; sunucu denetleniyor."
+    },
+    "IGUI_ALifeUI_00245156530f19c4": {
+      "tr": "KOPYALANAMADI - FRAKSİYON KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_1c6c22dc50bed52a": {
+      "tr": "KOPYA YARIM KALDI - FRAKSİYON EKLENDİ, NPC KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_4fa882402f4f7b19": {
+      "tr": "YENİ FRAKSİYON OLUŞTURULAMADI - KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_6f846efc1a5ebc00": {
+      "tr": "FRAKSİYON SİLİNEMEDİ - KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_1c0ab83865c91c60": {
+      "tr": "FRAKSİYON VE NPC ŞABLONLARI KALDIRILDI"
+    },
+    "IGUI_ALifeUI_2ab4aa973d19766d": {
+      "tr": "KOPYALANAMAYACAK KADAR UZUN - KOD ZOMBOID/LUA/ALIFE_FACTION_CODE.TXT DOSYASINA KAYDEDİLDİ"
+    },
+    "IGUI_ALifeUI_45e831cd52cf1abb": {
+      "tr": "DIŞA AKTARILAMADI: KOD NE KOPYALANABİLDİ NE KAYDEDİLEBİLDİ"
+    },
+    "IGUI_ALifeUI_60f5293c55b7eea5": {
+      "tr": "PAYLAŞILAMADI - KLASÖRDE FRAKSİYON YOK"
+    },
+    "IGUI_ALifeUI_7ed6787c7f64b5a4": {
+      "tr": "KOPYALANAMAYACAK KADAR UZUN - KLASÖR KODU ZOMBOID/LUA/ALIFE_FACTION_CODE.TXT DOSYASINA KAYDEDİLDİ"
+    },
+    "IGUI_ALifeUI_3cd04f3d4f597af2": {
+      "tr": "PAYLAŞILAMADI: KOD NE KOPYALANABİLDİ NE KAYDEDİLEBİLDİ"
+    },
+    "IGUI_ALifeUI_3ff801283af054ee": {
+      "tr": "KOPYALANMIŞ KOD YOK  -  ÖNCE BİR PAYLAŞIM KODU KOPYALA"
+    },
+    "IGUI_ALifeUI_06a8eaf44b046713": {
+      "tr": "İÇE AKTARILAMADI: FRAKSİYON KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_2847c08247f03d84": {
+      "tr": "İÇE AKTARMA YARIM KALDI: FRAKSİYON EKLENDİ, NPC'LER EKLENEMEDİ"
+    },
+    "IGUI_ALifeUI_6c2c2faa2da6c031": {
+      "tr": "KLASÖR SİLİNEMEDİ - KAYDEDİLEMEDİ ("
+    },
+    "IGUI_ALifeUI_09e28e9c0b14dcaf": {
+      "tr": "NPC kaydedilemedi. Değişikliklerin hala açık."
+    },
+    "IGUI_ALifeUI_3c3eabe5078b7045": {
+      "tr": "NPC KOPYALANAMADI - KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_1b68387802e9c38b": {
+      "tr": "YENİ NPC OLUŞTURULAMADI - KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_249971ff71c71aed": {
+      "tr": "NPC SİLİNEMEDİ - KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_508c34bb50532a8e": {
+      "tr": "FRAKSİYONLAR SIFIRLANDI - SİLİNEN NPC'LER GERİ YÜKLENEMEDİ"
+    },
+    "IGUI_ALifeUI_6673c0d227e87154": {
+      "tr": "FRAKSİYONLAR VARSAYILANA DÖNDÜ - ESKİ DOSYA .BACKUP.INI OLARAK SAKLANDI"
+    },
+    "IGUI_ALifeUI_2043d19d4ca44874": {
+      "tr": "SIFIRLANAMADI - VARSAYILAN FRAKSİYONLAR YÜKLENEMEDİ"
+    },
+    "IGUI_ALifeUI_037b426c0bc7a5c8": {
+      "tr": "SIFIRLANAMADI - KAYDEDİLEMEDİ"
+    },
+    "IGUI_ALifeUI_663bb633229563af": {
+      "tr": "OLUŞTURUCU SUNUCUYLA EŞİTLENİYOR..."
+    },
+    "IGUI_ALifeUI_1b4e33a0269948dd": {
+      "tr": "YEREL OLARAK KAYDEDİLDİ -- DÜNYA BAŞLATINCA YA DA SUNUCU KURUNCA UYGULANIR"
+    },
+    "IGUI_ALifeUI_4b2e853d42a11c06": {
+      "tr": "UYGULANAMADI - DEĞİŞİKLİKLER HALA AÇIK"
+    },
+    "IGUI_ALifeUI_53a1ddcb76ca75bf": {
+      "tr": "Fraksiyon ara..."
+    },
+    "IGUI_ALifeUI_11c7bc01789e9336": {
+      "tr": "Bu fraksiyonu bütün NPC'leriyle birlikte tek bir paylaşım kodu olarak kopyalar. Discord'a yapıştır. Yedek olarak Zomboid/Lua/alife_faction_code.txt dosyasına da kaydedilir."
+    },
+    "IGUI_ALifeUI_45e5c21f2ff08845": {
+      "tr": "Bir paylaşım kodu kopyalayıp tıkla: yeni fraksiyon olarak eklenir. Kopyalanmış kod yoksa Zomboid/Lua/alife_faction_code.txt dosyasını yükler."
+    },
+    "IGUI_ALifeUI_634ed3bf3fedb914": {
+      "tr": "Üye ara..."
+    },
+    "IGUI_ALifeUI_4e542fdf27383e9d": {
+      "tr": "Seçili fraksiyonda yeni bir üye oluştur."
+    },
+    "IGUI_ALifeUI_08dd4f556d60517c": {
+      "tr": "Önceki üye - önce bekleyen değişiklikleri kaydeder."
+    },
+    "IGUI_ALifeUI_2e5948a968d4b6b2": {
+      "tr": "Sonraki üye - kadroya göz atarken fraksiyon ayarları açık kalır."
+    },
+    "IGUI_ALifeUI_69a45bd27fa3e118": {
+      "tr": "Fraksiyon ve NPC değişikliklerini hemen kaydet. Kısayol: Ctrl + S."
+    },
+    "IGUI_ALifeUI_767654f32034b591": {
+      "tr": "Çekirdek yapay zeka etkin kalır. Yüklü bir özel modül kimliğini yalnızca ayrı bir modül bunu sağlıyorsa ata."
+    },
+    "IGUI_ALifeUI_583cd40245da495c": {
+      "tr": "Yerleşik sistemler ve isteğe bağlı entegrasyonlar - canlı durum raporu değil"
+    },
+    "IGUI_ALifeUI_5b87427e316422d5": {
+      "tr": "Karar ağacı / kalıcı görev kuyruğu"
+    },
+    "IGUI_ALifeUI_57fdff3c08475ccf": {
+      "tr": "Hedefler, hafıza, işitme ve tehdit puanlaması"
+    },
+    "IGUI_ALifeUI_451b56a305504e48": {
+      "tr": "Konuşma, çatışma bağırışları ve ölüm sesleri"
+    },
+    "IGUI_ALifeUI_19f2337b7cddf1b4": {
+      "tr": "Oyunda geçerli olan kesin kurallar: olasılık, tim büyüklüğü, yer, zaman, yerleşim, sahne ve yapay zeka profili."
+    },
+    "IGUI_ALifeUI_3e4b7c7760d82bb5": {
+      "tr": "Yerleşik fraksiyonlar varsayılana döner. Kendi yaptığın fraksiyonlar kalır."
+    },
+    "IGUI_ALifeUI_612cc9222cd485e4": {
+      "tr": "ÜYELER SIFIRLANDI - ETİKET SİLME KAYDEDİLMEDİ; YENİDEN DENE"
+    },
+    "IGUI_ALifeUI_2c2343845c8c82af": {
+      "tr": "Seçili fraksiyonun insanlarını düzenle: solda kadro, sağda tam düzenleyici."
+    },
+    "IGUI_ALifeUI_4dff6ad241b46c82": {
+      "tr": "Seçili fraksiyonun kendisini düzenle: kimlik, ilişkiler, ortaya çıkma, varsayılan davranış, takviye ve gardırop."
+    },
+    "IGUI_ALifeUI_7beb65d833d97d33": {
+      "tr": "Ad, cinsiyet, etiket, sınıf ve oluşturma ağırlığı."
+    },
+    "IGUI_ALifeUI_60e3a55a40858732": {
+      "tr": "Ten, saç, sakal, kıyafet takımları ve giysi yuvaları."
+    },
+    "IGUI_ALifeUI_12b2ab3704f1fa8d": {
+      "tr": "Bu NPC'nin yüz seçenekleri."
+    },
+    "IGUI_ALifeUI_16d4d4140ac4eb1a": {
+      "tr": "Silahlar, eklentiler ve şarjörler."
+    },
+    "IGUI_ALifeUI_31fe9096613f2303": {
+      "tr": "Sağlık, beceriler, hasar, ganimet ve çatışma desteği."
+    },
+    "IGUI_ALifeUI_03f58ba9148d1bdf": {
+      "tr": "Davranış profili, doktrin ve ses."
+    },
+    "IGUI_ALifeUI_6d776dbe2a909192": {
+      "tr": "Bu NPC'ye özel yetenek ayarları. Boş bırakılan, fraksiyondan devralınır."
+    },
+    "IGUI_ALifeUI_731cb5e374da24bc": {
+      "tr": "Bu fraksiyonun oyuncuya ve öteki bütün fraksiyonlara tavrı."
+    },
+    "IGUI_ALifeUI_49408c2629faedae": {
+      "tr": "Bu fraksiyon nerede, ne zaman ve ne sıklıkla ortaya çıkar."
+    },
+    "IGUI_ALifeUI_62cd8e1d5f3e0510": {
+      "tr": "Bu fraksiyonun bütün üyeleri için varsayılan yetenekler."
+    },
+    "IGUI_ALifeUI_79875b7e21fd3cf3": {
+      "tr": "Takviye çağrıları: tim büyüklüğü, çağrı sayısı ve müttefik fraksiyonlar."
+    },
+    "IGUI_ALifeUI_2002096560be720b": {
+      "tr": "Bütün fraksiyon için mevsimlik kıyafetler."
+    },
+    "IGUI_ALifeUI_0d6d695009fd2be6": {
+      "tr": "Fraksiyon listesine ve üye kadrosuna dön."
+    },
+    "IGUI_ALifeUI_10efa28824763179": {
+      "tr": "Bütün üyeleri göster."
+    },
+    "IGUI_ALifeUI_438b064201cd4d1c": {
+      "tr": "Ateşli silah taşıyan üyeleri göster."
+    },
+    "IGUI_ALifeUI_0065e4665526e2d1": {
+      "tr": "Yakın dövüş silahı taşıyan üyeleri göster."
+    },
+    "IGUI_ALifeUI_4489de2637330365": {
+      "tr": "Üye listesini daralt."
+    },
+    "IGUI_ALifeUI_775e84047e4b731d": {
+      "tr": "Üye listesini genişlet."
+    },
+    "IGUI_ALifeUI_6b8f419c6d2aa843": {
+      "tr": "Önceki sayfa."
+    },
+    "IGUI_ALifeUI_3dde5eb34e265a0b": {
+      "tr": "Sonraki sayfa."
+    },
+    "IGUI_ALifeUI_1c68d6021a7bfab1": {
+      "tr": "Fraksiyonları gruplamak için klasör oluştur. Bir fraksiyonu klasöre koymak için üstüne sürükle."
+    },
+    "IGUI_ALifeUI_7b366d9235fb51b2": {
+      "tr": "Yeni bir fraksiyon oluştur."
+    },
+    "IGUI_ALifeUI_623afcca57f822ba": {
+      "tr": "Seçili fraksiyona yeni bir NPC şablonu ekle."
+    },
+    "IGUI_ALifeUI_33a87cf2502ed332": {
+      "tr": "Seçili fraksiyonun ayarlarını aç."
+    },
+    "IGUI_ALifeUI_5151271f15c57cea": {
+      "tr": "Seçili fraksiyonu bütün NPC şablonlarıyla birlikte kopyala."
+    },
+    "IGUI_ALifeUI_61e9d5cd1ea1ec78": {
+      "tr": "Seçili NPC şablonunu kopyala."
+    },
+    "IGUI_ALifeUI_3e254617484c7b3f": {
+      "tr": "Seçili öğeyi sil. Onaylamak için 3 saniye içinde iki kez tıkla."
+    },
+    "IGUI_ALifeUI_6666d43919473b03": {
+      "tr": "Oluşturucu'daki bütün fraksiyonları ve NPC'leri sunucuya gönder (çok oyunculu yöneticiler için)."
+    },
+    "IGUI_ALifeUI_5771f53528cdb51e": {
+      "tr": "Oluşturucu'yu kapat. Bekleyen değişiklikler önce kaydedilir."
+    },
+    "IGUI_ALifeUI_4d309def30f0cc84": {
+      "tr": "Sıradaki etkin kıyafet takımını canlı modelde göster."
+    },
+    "IGUI_ALifeUI_7adf999712ae24ba": {
+      "tr": "Seçili giysinin özgün rengini koru."
+    },
+    "IGUI_ALifeUI_64afc27332e8d740": {
+      "tr": "Seçili giysi yuvası için istediğin rengi seç."
+    },
+    "IGUI_ALifeUI_4b6d6c145382d2e4": {
+      "tr": "Silahı ya da mermisi olmayan üyeler. Yalnızca onları göstermek için tıkla."
+    },
+    "IGUI_ALifeUI_40f128955f2611cd": {
+      "tr": "PLANLAMA İPTAL EDİLDİ - HİÇBİR ŞEY DEĞİŞMEDİ"
+    },
+    "IGUI_ALifeUI_046f0b923871d8bb": {
+      "tr": "PLANLANAMADI - HİÇBİR ŞEY DEĞİŞMEDİ"
+    },
+    "IGUI_ALifeUI_2c15c3bb012bd069": {
+      "tr": "TOPLU GARDIROP: YEREL OLUŞTURUCU DEPOSUNU ÇOK OYUNCULU OYUN DIŞINDA AÇ"
+    },
+    "IGUI_ALifeUI_505b09f826c95382": {
+      "tr": "SÜREN KAYDIN YA DA PLANIN BİTMESİNİ BEKLE, SONRA YENİDEN ÖNİZLE"
+    },
+    "IGUI_ALifeUI_37fc6d537b09a474": {
+      "tr": "ÖNCE AÇIK DEĞİŞİKLİKLERİ KAYDET, SONRA YENİDEN ÖNİZLE"
+    },
+    "IGUI_ALifeUI_1ce958f01465c8bf": {
+      "tr": "Yalnızca listedeki eksik gardırop alanları doldurulur. Kendi etiketsiz kıyafeti olan NPC'ler atlanır:"
+    },
+    "IGUI_ALifeUI_196f822478960dcf": {
+      "tr": "kıyafetleri ve mevsim etiketleri hazırlandığı gibi kalır, oyun onları yine de mevsime göre giydirir."
+    },
+    "IGUI_ALifeUI_390116356838b5a6": {
+      "tr": "Başka bir toplu kayıt hala sürüyor. Bitmesini bekle, sonra yeniden ONAYLA VE KAYDET'e bas."
+    },
+    "IGUI_ALifeUI_4ca586a342faa7c4": {
+      "tr": "NPC deposu açılışta okunamadı, o yüzden hiçbir şey değişmedi. Oluşturucu'yu kapatıp yeniden aç, sonra tekrar önizle."
+    },
+    "IGUI_ALifeUI_5250915e516e1ece": {
+      "tr": "Fraksiyon deposu açılışta okunamadı, o yüzden hiçbir şey değişmedi. Oluşturucu'yu kapatıp yeniden aç, sonra tekrar önizle."
+    },
+    "IGUI_ALifeUI_490eb8564a40a0ac": {
+      "tr": "Planda kimliği olmayan bir NPC var, o yüzden hiçbir şey değişmedi. İptal edip yeniden önizle."
+    },
+    "IGUI_ALifeUI_2e668e8a60964215": {
+      "tr": "Güvenlik kopyalarının listesi okunamadı, o yüzden hiçbir şey değişmedi."
+    },
+    "IGUI_ALifeUI_229c43095e293e5b": {
+      "tr": "Güvenlik kopyasının adı kabul edilmedi, o yüzden hiçbir şey değişmedi."
+    },
+    "IGUI_ALifeUI_4d7572995381ef81": {
+      "tr": "Güvenlik kopyası için mevcut depo dosyası okunamadı, o yüzden hiçbir şey değişmedi."
+    },
+    "IGUI_ALifeUI_5108e0b832a807f3": {
+      "tr": "Mevcut deponun güvenlik kopyası yazılamadı (disk dolu ya da salt okunur mu?), o yüzden hiçbir şey değişmedi."
+    },
+    "IGUI_ALifeUI_03fa0c18663b3d56": {
+      "tr": "Mevcut deponun güvenlik kopyası aslıyla uyuşmadı, o yüzden hiçbir şey değişmedi."
+    },
+    "IGUI_ALifeUI_15a9aff30b9da825": {
+      "tr": "Güvenlik kopyası listesi güncellenemedi, o yüzden hiçbir şey değişmedi."
+    },
+    "IGUI_ALifeUI_066afba01c1c7fe0": {
+      "tr": "Mevcut deponun güvenlik kopyası alınamadı, o yüzden hiçbir şey değişmedi."
+    },
+    "IGUI_ALifeUI_0947bad315936a7a": {
+      "tr": "AÇIK DEĞİŞİKLİKLER DEĞİŞTİ - kaydın bitmesini bekle, sonra iptal edip yeniden önizle"
+    },
+    "IGUI_ALifeUI_305e35d0615bead6": {
+      "tr": "VERİ DEĞİŞTİ - iptal edip yeniden önizle"
+    },
+    "IGUI_ALifeUI_31a7f09c425af90b": {
+      "tr": "Toplu mevsim değişiklikleri için yerel Oluşturucu deposu gerekir; etkin bir çok oyunculu istemcide yapılamaz."
+    },
+    "IGUI_ALifeUI_1fa9b61f09e8ced2": {
+      "tr": "NPC deposu güncellemeyi reddetti, o yüzden hiçbir şey değişmedi. İptal et, biraz bekle ve yeniden önizle."
+    },
+    "IGUI_ALifeUI_582579be53f1a7de": {
+      "tr": "KAYDEDİLİYOR - önce mevcut deponun güvenlik kopyası, sonra arka planda tek bir profil işlemi, en son fraksiyon varsayılanları"
+    },
+    "IGUI_ALifeUI_423a6c8c61075fed": {
+      "tr": "Takviyeyi kim çağırır, nasıl gelir, gece helikopteri temas noktasını da tarar mı."
+    },
+    "IGUI_ALifeUI_4ee519be70b52069": {
+      "tr": "Takviyeyi kim çağırabilir?"
+    },
+    "IGUI_ALifeUI_2be8467b3f6d8d06": {
+      "tr": "Telsizci: yalnızca timin telsizcisi çağırabilir. Herkes: her üye çağırabilir. Devre dışı: fraksiyon hiç çağırmaz. Timin ortak bekleme süresi ve çağrı sınırı art arda çağrıyı önler; NPC'ye özel ayarlar yine geçerli."
+    },
+    "IGUI_ALifeUI_4d88ebd029a7063d": {
+      "tr": "Takviye nasıl gelir?"
+    },
+    "IGUI_ALifeUI_4ab2b8c663c4ef84": {
+      "tr": "Araç yanaşma sesi (araç oluşturulmaz)"
+    },
+    "IGUI_ALifeUI_7df0e4082c9e1251": {
+      "tr": "Çağıran timin toplam çağrı hakkı; sıfır, çağrıyı kapatır. Dünyanın çağrı sınırı, bekleme süresi ve etkin NPC bütçesi bu sayıyı düşürebilir. Takviyeler yeniden takviye çağıramaz."
+    },
+    "IGUI_ALifeUI_16a47c4c78d4d9ea": {
+      "tr": "Bu çağrıda rastgele havuz değil, bu fraksiyon gelir. Başka bir fraksiyonun gelebilmesi için en az bir yönde dost ya da müttefik olması gerekir; yoksa takviye çağıranın kendi fraksiyonundan gelir. Üçüncüden sonraki çağrılar aynı fraksiyonu kullanır."
+    },
+    "IGUI_ALifeUI_63f4c42936444116": {
+      "tr": "Takviye seçeneği eklemek için İlişkiler'de fraksiyonları Dost / Müttefik yap."
+    },
+    "IGUI_ALifeUI_3c3261171fb85e4c": {
+      "tr": "Bu fraksiyonun ekipleri arabayla gelirken kullandığı araba."
+    },
+    "IGUI_ALifeUI_4babcb2c0bcedff2": {
+      "tr": "Varsayılan olarak devre dışı; NPC'ye özel ayarlar çağrıya izin verebilir."
+    },
+    "IGUI_ALifeUI_71cd109f4cac2850": {
+      "tr": "Araba sesi + uzakta bir tim; telsizden beş saniye boyunca konum bildirilir."
+    },
+    "IGUI_ALifeUI_1c4bcbbe2df97762": {
+      "tr": "Varsayılan, standart geliş arabasını korur. Seçilen araçtan iki tanesine sığmayan ekip varsayılan arabayla gelir."
+    },
+    "IGUI_ALifeUI_2bf02e171a1f5547": {
+      "tr": "Helikopter görevi yok: takviye karadan gelir."
+    },
+    "IGUI_ALifeUI_0e75a65c003869c1": {
+      "tr": "Kara timi + gece/açık alan projektörü."
+    },
+    "IGUI_ALifeUI_273003f975cc08df": {
+      "tr": "Gece/açık alan projektörü çağıran time bilgi verir; asker indirmez."
+    },
+    "IGUI_ALifeUI_19e022d675edd780": {
+      "tr": "Helikopterle tim indirme, üstüne gece açık alanda tespit edilen aynı hedefe projektör."
+    },
+    "IGUI_ALifeUI_4b959b9b2f77c14d": {
+      "tr": "Kara ya da helikopter timi; her çağrıda ayrı seçilir."
+    },
+    "IGUI_ALifeUI_6ab0866e4e6e06f9": {
+      "tr": "Helikopterle tim indirme; dünya sınırları yine geçerli."
+    },
+    "IGUI_ALifeUI_08f9b26c6fc4dde1": {
+      "tr": "Polis arabası gibi bazı araçlar kendi boyasını korur."
+    },
+    "IGUI_ALifeUI_2fb77dfd722eb765": {
+      "tr": "Yüklü değil: gelenler varsayılan arabayı kullanır."
+    },
+    "IGUI_ALifeUI_051235944df0110d": {
+      "tr": "{n} fraksiyon, {m} NPC değişiyor; {k} NPC kendi kıyafetini koruyor; {w} uyarı"
+    },
+    "IGUI_ALifeUI_0e77fa243c64b023": {
+      "tr": "{x} Dünya anahtarları ve geçerli görev koşulları her zaman uygulanır."
+    },
+    "IGUI_ALifeUI_19aa9e17232d42fa": {
+      "tr": "{x} Fraksiyonu kullan, önce fraksiyonun varsayılanına bakar; fraksiyonda özel ayar yoksa NPC'nin davranış profiline uyar."
+    },
+    "IGUI_ALifeUI_249dc585764c607a": {
+      "tr": "{x} Oyunun ve modların bütün simge kataloğunu açmak için tıkla. Bu yuvayı temizlemek için sağ tıkla."
+    },
+    "IGUI_ALifeUI_3395a75158755bd2": {
+      "tr": "Fraksiyonun seçilme ağırlığı; 0 ile {n} arası göreli bir değer, yüzde değil. Sıfır, doğal ortaya çıkmayı kapatır. Karşılaşmaların genel sıklığını sandbox ayarları belirler."
+    },
+    "IGUI_ALifeUI_4a6c9a586513ffc7": {
+      "tr": "Her şey listede ({n}). Kehribar renkli gruplar mevsim dışı, rol dışı ya da eğlencelik."
+    },
+    "IGUI_ALifeUI_4dcd343350b43428": {
+      "tr": "{x} NPC profilini kullan, seçimi her üyenin davranış profiline bırakır. NPC'ye özel ayarlar önce gelir."
+    },
+    "IGUI_ALifeUI_511466485d3e7d3d": {
+      "tr": "{n} ses kaydı + duruma göre yazı. Aşağıdan bir tepkiyi önizle."
+    },
+    "IGUI_ALifeUI_560142901d7ebee7": {
+      "tr": "{x} için simge kataloğunu aç. En fazla dört ortaya çıkma seçeneği seç."
+    },
+    "IGUI_ALifeUI_69da588574727104": {
+      "tr": "Düzenlemek için tıkla: {x}. Temizlemek için sağ tıkla."
+    },
+    "IGUI_ALifeUI_709e7cf12e1b3b42": {
+      "tr": "Temel HP, 0-200. Sıfır, standart NPC HP'sini kullanır. NPC sağlık seçeneği ve dünyanın sağlık çarpanı bunu, hazır NPC'lerde olduğu gibi ortaya çıkarken ölçekler; özet sonucu gösterir. Varsayılan: {n} HP. Öteki beceriler 1-10 arası puanlanır."
+    },
+    "IGUI_ALifeUI_11dc749247e9bc10": {
+      "tr": "Önce okunaklı kimlik bilgileri; iç kimlikler arka planda kalır."
+    },
+    "IGUI_ALifeUI_6d521af221309b88": {
+      "tr": "BU NPC KİM?"
+    },
+    "IGUI_ALifeUI_76bcd7ea58767f0a": {
+      "tr": "Etiket üyenin işini anlatır. Sınıf, üyenin tehdit altında nasıl davranacağını belirler. Grup İçi Oluşturma Ağırlığı bu şablonun ne sıklıkla seçileceğini ayarlar."
+    },
+    "IGUI_ALifeUI_256475160a3e51b1": {
+      "tr": "Etiketler filtrelemeyi kolaylaştırır. Notlar, yalnızca senin gördüğün oluşturucu bilgisi."
+    },
+    "IGUI_ALifeUI_41e44d3c4965d5b7": {
+      "tr": "Üyenin tehdit altındaki davranışı. Siviller ve işçiler ürkek; askerler, polisler ve suçlular soğukkanlı kalır. Fraksiyonla aynı, fraksiyonun sınıfına uyar."
+    },
+    "IGUI_ALifeUI_5453004223863cd9": {
+      "tr": "Bu şablonun fraksiyon içinde ne sıklıkla seçildiği. Yaygın, normal oran; Nadir ve Çok nadir, uzmanların timi doldurmasını önler."
+    },
+    "IGUI_ALifeUI_0278f0713d74f132": {
+      "tr": "Bu şablondan çıkan her NPC kendi adını alır; aynı ad dünyada ikinci kez kullanılmaz. Bu şablonun bütün NPC'lerine aynı adı vermek için Sabit ad'ı seç."
+    },
+    "IGUI_ALifeUI_41e5cfcd2b025775": {
+      "tr": "ETİKET ADI: 1 İLE 48 KARAKTER ARASI"
+    },
+    "IGUI_ALifeUI_4e35fcdb1011ebb1": {
+      "tr": "Bu özel etiketi bu fraksiyondan sil. Üyeleri Keşifçi'ye döner."
+    },
+    "IGUI_ALifeUI_47490dc24dcc4987": {
+      "tr": "Yeni etiket için renk seç."
+    },
+    "IGUI_ALifeUI_4008fa8c160cc610": {
+      "tr": "YAZI BU EKRAN İÇİN FAZLA BÜYÜK"
+    },
+    "IGUI_ALifeUI_681bdf2e3f23849a": {
+      "tr": "Fraksiyon ve NPC değişikliklerini hemen kaydet. Kısayol: Ctrl + S. Değişiklikler ayrıca otomatik kaydedilir."
+    },
+    "IGUI_ALifeUI_2d187c916f334a57": {
+      "tr": "Soldaki listeden bir fraksiyon seç."
+    },
+    "IGUI_ALifeUI_2ff5e93c109e09c5": {
+      "tr": "BU FRAKSİYONUN HENÜZ ÜYESİ YOK"
+    },
+    "IGUI_ALifeUI_3ff6dedf69ff1c53": {
+      "tr": "İlk NPC şablonunu eklemek için + YENİ ÜYE'ye tıkla."
+    },
+    "IGUI_ALifeUI_3169675721214c85": {
+      "tr": "Her üyenin silahı ve mermisi var."
+    },
+    "IGUI_ALifeUI_61a2bb6f16f18fbf": {
+      "tr": "Bütün üyeleri görmek için TÜMÜ'nü seç."
+    },
+    "IGUI_ALifeUI_73f08cbb7681b2aa": {
+      "tr": "Bütün fraksiyonları görmek için arama kutusunu temizle."
+    },
+    "IGUI_ALifeUI_661750446726e935": {
+      "tr": "İlkini oluşturmak için + YENİ FRAKSİYON'a tıkla."
+    },
+    "IGUI_ALifeUI_7af7763420cc95be": {
+      "tr": "Her giysi yuvasında, ortaya çıkarken rastgele seçilecek en fazla dört seçenek tut. Kapalı: sonraki tıklama yuvadakinin yerine geçer."
+    },
+    "IGUI_ALifeUI_49a3dea16bac3429": {
+      "tr": "Her mevsim: bu takım bütün yıl çıkabilir. Belirli bir mevsim: yalnızca o mevsimde çıkar ve o mevsimde her mevsim takımlarının yerini alır. Mevsimi dışarının sıcaklığı belirler; NPC giydirilirken ve yaşadığı sürece yeniden ölçülür: 4 C ve altında kış takımı, 22 C ve üstünde yaz takımı, ikisinin arasında ilkbahar ya da sonbahar (hangisi olacağını yalnızca tarih seçer). Yağmur, rüzgar ve kar bir kademe daha soğuk sayılır. İklim ölçümü yoksa tarih karar verir: kış Ara-Şub, ilkbahar Mar-May, yaz Haz-Ağu, sonbahar Eyl-Kas."
+    },
+    "IGUI_ALifeUI_35478dda464f280f": {
+      "tr": "Yalnızca Bu takımı ortaya çıkma için etkinleştir seçeneği işaretli kıyafet takımları arasında dolaşır. Her seferinde havuzdan rastgele bir seçim gösterilir."
+    },
+    "IGUI_ALifeUI_1725a8be184dec0e": {
+      "tr": "Giysi seçmek için tıkla. Bu yuvadaki bütün seçenekleri kaldırmak için sağ tıkla."
+    },
+    "IGUI_ALifeUI_4d5086d811d9b72c": {
+      "tr": "Seçili giysinin özgün rengini koru. Önizleme yenilense de renk değişmez."
+    },
+    "IGUI_ALifeUI_43215fff5ce39184": {
+      "tr": "Tam olarak bu rengi seçili giysi yuvasına uygula."
+    },
+    "IGUI_ALifeUI_6e719c6911991da2": {
+      "tr": "Seçili giysi yuvası için tam renk seçiciyi aç."
+    },
+    "IGUI_ALifeUI_79bff26d35891735": {
+      "tr": "Aşağıda seçili kıyafet takımının makyajı. Renk kutusu tonun kendisi: oyunda her ruj ve far rengi ayrı bir eşya, yüz boyaları da doku olarak geliyor; yani ayarlanacak bir renk tonu yok. Sakal bir model, makyaj ise ten dokusu: oyun sakalı her zaman makyajın üstüne çizer."
+    },
+    "IGUI_ALifeUI_110bc34a010870b0": {
+      "tr": "Silahın hasarını çarpar: %25 = dörtte bir, %100 = normal, %200 = iki katı."
+    },
+    "IGUI_ALifeUI_55c520fb3d88b85d": {
+      "tr": "Alınan hasarı azaltır. %25'te NPC darbenin %75'ini yer. En yüksek azaltma: %90."
+    },
+    "IGUI_ALifeUI_4682de9b490ffacc": {
+      "tr": "Öldükten sonra bırakacağı ganimet; silahlı ortaya çıkma olasılığı değil. Silahları Teçhizat'tan seç. Her NPC'ye aralık içinde sabit bir olasılık düşer. Her zaman (%100) seçildiğinde verilen silahlar cesette kalır; Kapalı'da kaldırılır. Eksik silahı yaratmaz, şarjör düşürmeyi de denetlemez."
+    },
+    "IGUI_ALifeUI_3c0161217a47cab3": {
+      "tr": "Yok %0 / Çok düşük %5 / Düşük %20 / Orta %50 / Yüksek %75 / Çok yüksek %90 / Her zaman %100. Mevcut özel yüzdeler korunur."
+    },
+    "IGUI_ALifeUI_275634156988481b": {
+      "tr": "Fraksiyonu kullan + atanan rol, fraksiyonun kuralını korur. Evet, bu üyeye çatışma uzmanlığını değiştirmeden telsizle çağrı yeteneği verir. Yöneticinin oluşturma ayarları yine önce gelir."
+    },
+    "IGUI_ALifeUI_560b16350a062caa": {
+      "tr": "Projektör için ulaşım Helikopter ya da Kara / helikopter olmalı. Birleşik ayar hem kara timini hem ışığı getirir; tek başına Helikopter yalnızca ışığı getirir. Tim indirme'de birleşik ayar her çağrıda iki ulaşımdan birini seçer."
+    },
+    "IGUI_ALifeUI_1a91001e63379781": {
+      "tr": "Bu NPC takviye isteyemez."
+    },
+    "IGUI_ALifeUI_4989448c79f26178": {
+      "tr": "Tim büyüklüğü ve takviye fraksiyonu, fraksiyon ayarlarından gelir."
+    },
+    "IGUI_ALifeUI_2f58fe6e022b8287": {
+      "tr": "Yalnızca ziyaretçi olan fraksiyonlar kendiliğinden asla ortaya çıkmaz"
+    },
+    "IGUI_ALifeUI_5aa4dac75498f1b0": {
+      "tr": "Dost ve tarafsız fraksiyonlar doğal olarak ortaya çıkabilir. Keşifçiler, pusular ve baskınlar için düşman bir fraksiyon gerekir."
+    },
+    "IGUI_ALifeUI_6292dfa32cac0cec": {
+      "tr": "İlk ve son gün aralığa dahil; Gün 0 ilk gün. Bir ucu açık bırakmak için o alanı boş bırak."
+    },
+    "IGUI_ALifeUI_6ce2fda321812377": {
+      "tr": "Yeni karşılaşmaların başlayabileceği zaman aralığı. Mevcut timler görevini bitirir; aralık sona erince ortadan kaybolmaz."
+    },
+    "IGUI_ALifeUI_66ebf3a85104b1da": {
+      "tr": "Göreli ağırlık. Boş bırakılırsa sandbox varsayılanları kullanılır; sıfır bu grup türünü kapatır."
+    },
+    "IGUI_ALifeUI_2d99e0f65df88ed9": {
+      "tr": "Yerleşim mesafesini A-Life yönetir."
+    },
+    "IGUI_ALifeUI_266fb42c5a9ec1f4": {
+      "tr": "Hiçbiri seçilmedi - doğal karşılaşma yok"
+    },
+    "IGUI_ALifeUI_23a675ff5f194d39": {
+      "tr": "Sonradan eklenenler dahil, kayıtlı bütün kasabalar. Aşağıdan tek tek seçmek için işareti kaldır."
+    },
+    "IGUI_ALifeUI_69ffb6147c565b38": {
+      "tr": "Her silah yuvasında, ortaya çıkarken rastgele seçilecek en fazla dört seçenek tut. Kapalı: sonraki tıklama yuvadakinin yerine geçer."
+    },
+    "IGUI_ALifeUI_2f44f03e7604cedd": {
+      "tr": "Elde taşınan ana silah."
+    },
+    "IGUI_ALifeUI_045b1a2c5f220ff8": {
+      "tr": "Birincil silah işe yaramadığında kullanılan yedek ateşli silah."
+    },
+    "IGUI_ALifeUI_4a2240277b2ee120": {
+      "tr": "Yakın mesafe için yedek; kemerde ya da sırtta taşınır."
+    },
+    "IGUI_ALifeUI_4d34add0426a5c29": {
+      "tr": "Sayılar tam şarjör, tüp ya da top sayısı - tek tek mermi değil."
+    },
+    "IGUI_ALifeUI_1ebafbd030a8aaeb": {
+      "tr": "Çatışmada sınırsız şarjör değiştirir. Ölüm ganimeti için yine aşağıda tanımlı her şarjöre bir kez zar atılır."
+    },
+    "IGUI_ALifeUI_2ac6b3381e5a416d": {
+      "tr": "Her birincil silah/tabanca şarjörü için ayrı bir zar. %20'de üç şarjör, mermi sınırsız olsa bile üç zar demek. Sabit şarjörlü silahlar tek tek mermi düşürür."
+    },
+    "IGUI_ALifeUI_7970be186b104a14": {
+      "tr": "Seçili ateşli silahlar için uyumlu dürbün, nişangah, askı, dipçik pedi ve öteki parçaları ayarla."
+    },
+    "IGUI_ALifeUI_70aafa6764e2dc3b": {
+      "tr": "Temel davranış paketinin tamamını seçer: öncelikler, çatışma tarzı ve izin verilen yetenekler."
+    },
+    "IGUI_ALifeUI_0ed7f4d438bc2252": {
+      "tr": "Tek bir uzmanlık doktrini atar. NPC'ye özel küçük istisnalar için Modüller'i kullan."
+    },
+    "IGUI_ALifeUI_01275b0901c2ab13": {
+      "tr": "NPC'nin ilk ortaya çıktığında silahlı ve hazır olup olmayacağını belirler. Karma, hazırlanan teçhizat havuzuna uyar."
+    },
+    "IGUI_ALifeUI_1eea68511ac33724": {
+      "tr": "Tam olarak ne yaptığını görmek için bir davranış profili seç."
+    },
+    "IGUI_ALifeUI_1f6b651937009c65": {
+      "tr": "Uyarılarda, çatışma tepkilerinde ve ölüm seslerinde kullanılan ses paketini seçer."
+    },
+    "IGUI_ALifeUI_6b9114103e075037": {
+      "tr": "Ses önizlemesini oynat'ın kullanacağı tepki kategorisini seç. Çatışma davranışını değiştirmez."
+    },
+    "IGUI_ALifeUI_4d02959b28db5714": {
+      "tr": "Önizlemek için bir ses ve tepki seç."
+    },
+    "IGUI_ALifeUI_7004e49570031681": {
+      "tr": "Serbest takım, her mevsim: fraksiyon gardırobuna dahil değil"
+    },
+    "IGUI_ALifeUI_351e51f81b966bfa": {
+      "tr": "Üret, eksik takımları ve mevsim etiketlerini doldurur. Kendi etiketsiz kıyafeti olan NPC'ler atlanır: kıyafetleri ve etiketleri hazırlandığı gibi kalır, oyun onları mevsime göre yine kendisi giydirir."
+    },
+    "IGUI_ALifeUI_7ae862dd2b13e37a": {
+      "tr": "NPC düzenleyicisine taşındı: Görünüm sekmesi, KIYAFET TAKIMLARI. A-D takımları fraksiyonun ilkbahar, yaz, sonbahar ve kış kıyafetleri."
+    },
+    "IGUI_ALifeUI_1f88f8f87348434a": {
+      "tr": "Seçili takım için fraksiyon gardırobu düzenleyicisini aç. A-D, fraksiyonun ilkbahar, yaz, sonbahar ve kış kıyafetleri."
+    },
+    "IGUI_ALifeUI_2fb7559436430427": {
+      "tr": "Bu fraksiyonun mevsim takımlarını modla gelen gardıroptan yenile. Önce önizleme açılır; sen onaylamadan hiçbir şey değişmez."
+    },
+    "IGUI_ALifeUI_6315344f3a8864af": {
+      "tr": "Fraksiyon listesinde yalnızca modla gelen fraksiyonları göster."
+    },
+    "IGUI_ALifeUI_29fb47a357354805": {
+      "tr": "NPC Görünüm sekmesine taşındı."
+    },
+    "IGUI_ALifeUI_4d6b0ebb05e57811": {
+      "tr": "ONAYLIYOR MUSUN?"
+    },
+    "IGUI_ALifeUI_3aa3b4a854964f50": {
+      "tr": "NPC silindi."
+    },
+    "IGUI_ALifeUI_62eb17095a226bbc": {
+      "tr": "SIFIRLAMAK İÇİN YENİDEN TIKLA - SUNUCUDAKİ LİSTE YENİLENİR, KENDİ YAPTIĞIN FRAKSİYONLAR KALIR"
+    },
+    "IGUI_ALifeUI_4953b1cc5b28df01": {
+      "tr": "SIFIRLAMAK İÇİN YENİDEN TIKLA - ŞİMDİKİ FRAKSİYON DOSYAN .BACKUP.INI KOPYASI OLARAK SAKLANIR"
+    },
+    "IGUI_ALifeUI_32993efd79f0015e": {
+      "tr": "Yerleşik fraksiyonlar varsayılana döner. Kendi yaptığın fraksiyonlar kalır. Tek oyunculu fraksiyon dosyası .backup.ini kopyası olarak saklanır. Onaylamak için 3 saniye içinde iki kez tıkla."
+    },
+    "IGUI_ALifeUI_2b454a5b764dfe5b": {
+      "tr": "Onaylamak için 3 saniye içinde iki kez tıkla."
+    },
+    "IGUI_ALifeUI_0d88396b55ede712": {
+      "tr": "Ad, cinsiyet ve notlar. Etiket, sınıf ve oluşturma ağırlığı katlanmış bölümde."
+    },
+    "IGUI_ALifeUI_2ae42dc12331d842": {
+      "tr": "Ten, saç, sakal, kıyafet takımları ve giysi yuvaları (GÖRÜNÜM), yüz seçenekleri (YÜZLER)."
+    },
+    "IGUI_ALifeUI_44caa4643ef7fd63": {
+      "tr": "ÇATIŞMA: sağlık, beceriler, hasar ve ganimet. DAVRANIŞ: doktrin ve ses. YETENEKLER: NPC'ye özel ayarlar."
+    },
+    "IGUI_ALifeUI_5f15894946bc10f1": {
+      "tr": "KİMLİK, GÖRÜNÜM, TEÇHİZAT ve DAVRANIŞ. GÖRÜNÜM ve DAVRANIŞ'ın ikinci bir satırı var."
+    },
+    "IGUI_ALifeUI_11e3bdb011ba20b5": {
+      "tr": "Bu bölümü katlamak ya da açmak için tıkla."
+    },
+    "IGUI_ALifeUI_0a8932cf4253c47c": {
+      "tr": "Üye tablosunda davranışı, mermiyi, kıyafet takımlarını ve oluşturma ağırlığını göster."
+    },
+    "IGUI_ALifeUI_3bd9793652b37d87": {
+      "tr": "Bu takım için giysi verisi yok."
+    },
+    "IGUI_ALifeUI_3faa0c347a36011c": {
+      "tr": "Bu kıyafet takımındaki ilk sorun için değişiklik önerir. Bir öneride UYGULA'ya basana kadar hiçbir şey değişmez."
+    },
+    "IGUI_ALifeUI_52e8b6f64fd0d943": {
+      "tr": "UYGULA'ya basana kadar hiçbir şey değişmez. ÖNİZLE, karakterin üstünde gösterir."
+    },
+    "IGUI_ALifeUI_1fb119d807143e14": {
+      "tr": "Bu sorun için otomatik öneri yok. Yuva seçicisini (TÜMÜNÜ GÖSTER) kullanıp elle seç."
+    },
+    "IGUI_ALifeUI_68fe30553c0ea6f9": {
+      "tr": "NPC kaydediliyor..."
+    },
+    "IGUI_ALifeUI_571e44832757bba9": {
+      "tr": "yazılan dosya değişiklikle uyuşmadı"
+    },
+    "IGUI_ALifeUI_0836afa5661002fe": {
+      "tr": "yazarken NPC listesi değişti"
+    },
+    "IGUI_ALifeUI_398fc25f054abfd5": {
+      "tr": "NPC kaydediliyor... bitince Oluşturucu açılır"
+    },
+    "IGUI_ALifeUI_2355d3d53355048b": {
+      "tr": "Fraksiyon varsayılanları; üyelerin etkin mevsim kıyafetleri önce gelir."
+    },
+    "IGUI_ALifeUI_223d9b030b41131b": {
+      "tr": "Üret, eksik takımları ve mevsim etiketlerini doldurur. Kendi etiketsiz kıyafeti olan NPC'ler atlanır:"
+    },
+    "IGUI_ALifeUI_336e01b36d5237d3": {
+      "tr": "kıyafetleri ve etiketleri hazırlandığı gibi kalır, oyun onları mevsime göre yine kendisi giydirir."
+    },
+    "IGUI_ALifeUI_620e425b74775655": {
+      "tr": "Uyumlu katmanlar yalnızca kaynak modları etkinken burada görünür."
+    },
+    "IGUI_ALifeUI_082ac2b3004543b5": {
+      "tr": "Modla gelen uyumlu bir yüz katmanı seç. Oyunun kendi yüz modelinin yerini almaz."
+    },
+    "IGUI_ALifeUI_4a456c3928623427": {
+      "tr": "Yalnızca ziyaretçi: ziyaretlerde kapına gelir, açık dünyada hiç görünmez"
+    },
+    "IGUI_ALifeUI_019acc431f8f0d91": {
+      "tr": "Yalnızca ziyaretçi olan fraksiyon kendiliğinden ortaya çıkmaz, baskınlara katılmaz, dünya baskısına da sayılmaz. Üyeleri yalnızca ziyaretlerde kapına kadar gelir."
+    },
+    "IGUI_ALifeUI_02c8761102cb5c65": {
+      "tr": "Sade bir açıklama için ayarın ya da bilgi simgesinin üstüne gel."
+    },
+    "IGUI_ALifeUI_40806b166817615b": {
+      "tr": "DEVRAL = FRAKSİYON AYARINI KULLAN | AÇIK/KAPALI = YALNIZCA BU NPC"
+    },
+    "IGUI_ALifeUI_4cdcbeb30accdbb3": {
+      "tr": "BU GÖRÜNÜMDE EŞLEŞME YOK - TÜMÜNÜ GÖSTER İLE BULUNAN: "
+    },
+    "IGUI_ALifeUI_433c91167086284f": {
+      "tr": "NPC'ye özel ayarlar önce gelir; dünya anahtarları yine geçerli."
+    },
+    "IGUI_ALifeUI_495c64060a58123e": {
+      "tr": "Klasörler kaydedilemedi."
+    }
+  }
+}

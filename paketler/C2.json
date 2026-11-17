@@ -1,0 +1,148 @@
+{
+  "_paket": "C2 — Yardım metinlerindeki Oluşturucu etiket atıfları (Türkçe etiketlere göre)",
+  "_dosya": "IG_UI",
+  "satirlar": {
+    "IGUI_ALifeUI_48a101052aacee00": {
+      "tr": "NPC AYARLARI sekmesi çalışma tezgâhın. Solda fraksiyon listesi, ortada seçili fraksiyonun üye şablonları, sağda canlı karakter önizlemeli düzenleme paneli var. FRAKSİYON AYARLARI sekmesinde seçili fraksiyonun kuralları durur. Küçük ekranda üç sütun üç sekmeye dönüşür: FRAKSİYONLAR, ÜYELER ve DÜZENLEME + MODEL."
+    },
+    "IGUI_ALifeUI_3ed4cfb659d8f3e6": {
+      "tr": "1. FRAKSİYON LİSTESİ'nde + YENİ (ya da + YENİ FRAKSİYON) düğmesine bas. New Faction adında bir fraksiyon oluşur ve ayarları açılır.",
+      "not": "\"New Faction\" yeni fraksiyonun kayda yazılan varsayılan adı; ad kutusunda İngilizce görünür (yazılabilir alan, kapsam dışı), bu yüzden İngilizce kaldı."
+    },
+    "IGUI_ALifeUI_7566b5ef5ff77219": {
+      "tr": "2. KİMLİK sekmesinde bir ad, kategori ve açıklama ver. Bilinmeyen fraksiyona tutum, ilişki belirlemediğin fraksiyonlara karşı takınılan tutum; Düşman olarak başlar."
+    },
+    "IGUI_ALifeUI_132545726bbe6df1": {
+      "tr": "4. Kendiliğinden ortaya çıkıp çıkmayacağını, ne sıklıkla, ne zaman ve nerede çıkacağını ORTAYA ÇIKMA sekmesinde seç (bkz. Ortaya çıkma kuralları). TAKVİYE, timlerinin takviye çağırıp çağırmayacağını ve nasıl çağıracağını belirler."
+    },
+    "IGUI_ALifeUI_22019c7b2f1f3edb": {
+      "tr": "5. KADRO düğmesiyle tezgâha dön ve üye ekle. Üyesi olmayan fraksiyonun ortaya çıkaracak kimsesi olmaz."
+    },
+    "IGUI_ALifeUI_613538e43b8e972d": {
+      "tr": "Fraksiyon listesinde FRAKSİYONU ÇOĞALT bir fraksiyonu bütün NPC'leriyle kopyalar, SİL de sorduktan sonra seçili olanı siler. KODU KOPYALA fraksiyonu bir arkadaşına ya da Discord'a yapıştırabileceğin bir paylaşım koduna çevirir; KOD YÜKLE panondaki koddan fraksiyon ekler. FRAKSİYONLARI SIFIRLA yerleşik fraksiyonları ilk hâline döndürür, senin yaptıklarına dokunmaz."
+    },
+    "IGUI_ALifeUI_2eadefaf4c99a38e": {
+      "tr": "Bir fraksiyon seç, sonra ÜYE ŞABLONLARI sütunundaki + YENİ ÜYE düğmesine bas. Yeni şablon seçilir ve düzenlemeye hazır olur. Beğendiğin bir üyenin bir çeşidini yapmanın en hızlı yolu NPC'Yİ ÇOĞALT. Düzenleme panelinin üstündeki ok düğmeleri üyeler arasında gezer ve önce kaydeder. Uzun kadrolarda arama kutusu ile TÜMÜ, MENZİLLİ, YAKIN DÖVÜŞ ve SORUNLAR düğmeleri işini kolaylaştırır."
+    },
+    "IGUI_ALifeUI_717114bb30689778": {
+      "tr": "Düzenleme panelinin yedi sekmesi var: KİMLİK, GÖRÜNÜM, YÜZLER, TEÇHİZAT, ÇATIŞMA, DAVRANIŞ ve MODÜLLER.",
+      "not": "Parantez içindeki Türkçe açıklamalar kalktı; sekmeler artık Türkçe."
+    },
+    "IGUI_ALifeUI_473c4c4608b4af70": {
+      "tr": "KİMLİK kişinin kendisi. Önce Görünen ad ve Cinsiyet gelir. NPC adı, adın nereden geleceğini seçer: cinsiyete uyan rastgele bir ad (varsayılan), rastgele erkek adı, rastgele kadın adı ya da Sabit ad; Sabit ad bu şablondaki her NPC'ye senin yazdığın adı verir. Rastgele seçeneklerde ortaya çıkan her NPC kendi adını alır ve bu ad dünyada tekrarlanmaz. Sabit ad boş kalırsa rastgele ad kullanılır."
+    },
+    "IGUI_ALifeUI_0bf215f245f91d29": {
+      "tr": "Etiket üyenin işini anlatır. Sınıf, üyenin tehdit altında nasıl davranacağını belirler: Sivil en kolay korkan; İşçi ve Kurtarma daha zor korkar; Polis, Askerî ve Suçlu soğukkanlı kalır. Fraksiyonla aynı, fraksiyonun sınıfını kullanır."
+    },
+    "IGUI_ALifeUI_1dc7eab00ff1b0a3": {
+      "tr": "Grupta Çıkma Ağırlığı (Yaygın, Az rastlanan, Nadir, Çok nadir, Hiç çıkmaz), bu şablonun fraksiyonu içinde ne sıklıkla seçileceğini belirler. Nadir ve Çok nadir, uzmanların timi doldurmasını önler. Etiket süz ve Notlar senin kendi düzenin için."
+    },
+    "IGUI_ALifeUI_084ac3af41e772e9": {
+      "tr": "GÖRÜNÜM: ten rengini, saçı ve sakalı seç, sonra A'dan F'ye en fazla altı kıyafet takımı kur. Kullanılmasını istediğin her takımda Bu takımı oluşturmada kullan kutusunu işaretle; yalnızca işaretli takımlar seçilir. Bir takım bir mevsimle sınırlanabilir (Her mevsim, Yalnızca ilkbahar, Yalnızca yaz, Yalnızca sonbahar ya da Yalnızca kış). Mevsimi gelince mevsimlik takım, her mevsime uygun takımların yerini alır. Mevsim, NPC giydirilirken ve yaşadığı sürece dışarıdaki sıcaklığa göre belirlenir (4 ile 22 C arasında ilkbaharla sonbaharı yalnızca tarih ayırır).",
+      "not": "\"set\" → \"takım\": ekrandaki adlar KIYAFET TAKIMLARI ve \"Bu takımı…\"."
+    },
+    "IGUI_ALifeUI_5d45c79d69174599": {
+      "tr": "VÜCUT YUVALARI altında bir yuvaya tıklayınca simge kataloğu açılır; önizlemek için bir eşyaya tıkla, tutmak için UYGULA düğmesine bas. Yuvaya en fazla dört rastgele seçenek koymak için Birden çok seçeneğe izin ver'i aç. Eşyanın kendi rengini koru (EŞYANIN KENDİ RENGİ) ya da ÖZEL RENK seç. VARYASYONU ÖNİZLE etkin takımlar arasında döner."
+    },
+    "IGUI_ALifeUI_51e92452795e4a59": {
+      "tr": "YÜZLER diğer modlardan gelen yüz katmanlarını sunar. Seçenek yalnızca bunları sağlayan mod açıkken çıkar."
+    },
+    "IGUI_ALifeUI_2bd66d18593d26c4": {
+      "tr": "TEÇHİZAT: aynı yolla bir BİRİNCİL ateşli silah, bir TABANCA ve bir YAKIN DÖVÜŞ / KEMER silahı seç; her biri için en fazla dört rastgele seçenek olur. MÜHİMMAT dökme mermiyle değil, tam şarjörle sayılır. Sınırsız mermi şarjör sınırını kaldırır; Ölünce şarjör bıraksın ve olasılığı neyin yağmalanabileceğini belirler. ATEŞLİ SİLAH EKLENTİLERİ dürbünleri, nişangâhları ve diğer parçaları ayarlar."
+    },
+    "IGUI_ALifeUI_388da8c21b1ee1c1": {
+      "tr": "ÇATIŞMA sekmesinde Can, Güç, Dayanıklılık ve Dikkat, oyunculara ve zombilere karşı isabet, verilen ve engellenen hasar, ölümden sonra ne kalacağı (silahın ve zırhın cesette kalma olasılığı ve durumu) bulunur.",
+      "not": "Health: ekranda \"Can (HP)\"."
+    },
+    "IGUI_ALifeUI_3c353126289d06dc": {
+      "tr": "DAVRANIŞ sekmesi: Davranış profili; öncelikler, çatışma tarzı ve izin verilen yeteneklerden oluşan tam temel paket, altındaki özet de ne yaptığını açıkça yazar. Temel taktik bir uzman rolü ekler: Yok, Lider, Ağır Silahçı, Sıhhiyeci, Keskin Nişancı, Gizlilik ya da Pusucu. Çatışmaya hazır, NPC'nin silahlı ve hazır başlayıp başlamayacağını belirler (Varsayılan (Karma), Evet, Hayır ya da Karma).",
+      "not": "Seçenekler ekrandaki gibi; \"Default\" ekranda \"Default (Mixed)\" → \"Varsayılan (Karma)\"."
+    },
+    "IGUI_ALifeUI_5dca6f2c18422126": {
+      "tr": "Ses profili; uyarılar, çatışma tepkileri ve ölüm sesleri için kullanılan ses paketini seçer. SESİ DENE seçilen tepkiyi çalar, böylece duyarsın; davranışı değiştirmez.",
+      "not": "Etiket ekranda SES PROFİLİ."
+    },
+    "IGUI_ALifeUI_3c8878222267fffa": {
+      "tr": "Sınıf (KİMLİK sekmesi), Ölülerden korkma yeteneğinin kimi etkileyeceğini belirler: Sivil üyeler ve daha zor da olsa Kurtarma ve İşçi üyeler uzaktaki zombilere bulaşmaz, çok fazlası yaklaşınca grupça kaçar; Polis, Askerî ve Suçlu üyeler soğukkanlı kalır. Dünya ayarlarındaki korku anahtarı da geçerli."
+    },
+    "IGUI_ALifeUI_5ca26f6171dfa616": {
+      "tr": "MODÜLLER sekmesi (NPC YETENEKLERİ): her yetenek Devral, Açık ya da Kapalı olabilir. Devral fraksiyon ayarını kullanır; Açık ve Kapalı yalnızca bu NPC'ye uygulanır. Yetenekler EMİRLER, TEHLİKEYE TEPKİ, ÇATIŞMADA HAREKET, HAYATTA KALMA VE GÜNLÜK DÜZEN ve KANUNSUZ DAVRANIŞ gruplarına ayrılır. HEPSİNİ DEVRALA DÖNDÜR bu NPC'nin özel ayarlarını temizler, YETENEKLERİ FRAKSİYONA UYGULA bu NPC'nin yetenek seçimlerini bütün fraksiyona uygular."
+    },
+    "IGUI_ALifeUI_07af5c8f77dd9f95": {
+      "tr": "Herkesin varsayılanını bir kerede ayarlamak için FRAKSİYON AYARLARI > VARSAYILAN DAVRANIŞ'ı kullan. NPC'nin kendi ayarı fraksiyon varsayılanından üstündür, dünya (sandbox) anahtarları da en üstte yine geçerli. Örneğin dünyadaki kaçma anahtarı kapalıysa üye kaçamaz.",
+      "not": "EN'deki virgül bir yol (sekme, bölüm); \">\" ile yazıldı, vanilla \"Ayarlar > Project A-Life\" gibi."
+    },
+    "IGUI_ALifeUI_03cc67077500de06": {
+      "tr": "FRAKSİYON AYARLARI > İLİŞKİLER bu fraksiyonun diğerlerine nasıl davranacağını belirler. Tutumlar: Müttefik, Dost, Tarafsız, Temkinli ve Düşman."
+    },
+    "IGUI_ALifeUI_1faddd9d029f10b6": {
+      "tr": "ORTAYA ÇIKMA sekmesindeki Oyuncuya tutum, fraksiyon seninle karşılaşınca kullanılan tutum. Dost ve tarafsız fraksiyonlar kendiliğinden ortaya çıkabilir. Keşifçiler, pusular ve baskınlar için düşman fraksiyon gerekir."
+    },
+    "IGUI_ALifeUI_49182fd62ba7b7e6": {
+      "tr": "Bilinmeyen fraksiyona tutum (KİMLİK sekmesi), başka hiçbir yerde anmadığın fraksiyonlar için yedek tutum."
+    },
+    "IGUI_ALifeUI_4bdf3e311c250e8b": {
+      "tr": "ORTAYA ÇIKMA sekmesi > ORTAYA ÇIKMA KURALI: fraksiyon dünyada kendiliğinden ortaya çıksın istiyorsan Kendiliğinden ortaya çıksın kutusunu işaretle. Oluşturma ağırlığı diğer fraksiyonlara görelidir, yüzde değil; sıfır kendiliğinden ortaya çıkmayı kapatır. Karşılaşmaların genel sıklığını sandbox ayarları belirler."
+    },
+    "IGUI_ALifeUI_206a2da135fc1761": {
+      "tr": "Oyun günü, fraksiyonun görünebileceği ilk ve son günü belirler (ilk gün 0. gün; ucu açık kalsın istersen bir tarafı boş bırak). Etkin saatler yeni karşılaşmaların ne zaman başlayabileceğini belirler. Zaten dışarıda olan timler işlerini bitirir."
+    },
+    "IGUI_ALifeUI_58f98cd03b769102": {
+      "tr": "GRUP BÜYÜKLÜĞÜ ile yalnız hayatta kalanları, grupları ya da ikisini birden, büyüklük aralıkları ve ağırlıklarıyla seçersin."
+    },
+    "IGUI_ALifeUI_22dcf4b10e07e73c": {
+      "tr": "İZİNLİ KARŞILAŞMALAR ve yer seçimi (Her yerde, Seçili kasabalar, Yalnızca kırsal, Yollar ve otoyollar ya da Belirli bina türleri), fraksiyonu hangi olayların ve nerede kullanabileceğini sınırlar. Hiç karşılaşma seçilmezse fraksiyonun kendiliğinden karşılaşması olmaz."
+    },
+    "IGUI_ALifeUI_6e58ca210f466457": {
+      "tr": "Üye şablonundaki Grupta Çıkma Ağırlığı ayrı bir ayar: yalnızca bir fraksiyonun üyeleri arasında seçim yapar."
+    },
+    "IGUI_ALifeUI_48a524481a39fb53": {
+      "tr": "Klasörler uzun fraksiyon listesini derli toplu tutar. YENİ KLASÖR düğmesine bas, bir ad yaz ve OLUŞTUR'a bas."
+    },
+    "IGUI_ALifeUI_4c173d700f00a36f": {
+      "tr": "Bir fraksiyon kartını bir klasörün üstüne sürükleyip bırakırsan oraya taşınır. Sürüklerken nereye düşeceğini bir etiket gösterir (bir klasör adı ya da KLASÖRSÜZLERE TAŞI). Klasör başlığına tıklayınca açılır ya da kapanır. Başlıktaki yukarı ve aşağı düğmeleri klasörü taşır, ... düğmesi KLASÖR İŞLEMLERİ'ni açar: YENİDEN ADLANDIR, NPC KLASÖRÜNÜ KOPYALA, PAYLAŞIM KODU ve KLASÖRÜ SİL.",
+      "not": "EN'de küçük harfli \"rename\" de bir düğme (RENAME), ötekilerle aynı yazıldı."
+    },
+    "IGUI_ALifeUI_07c52c2a47b82cfb": {
+      "tr": "KLASÖRÜ SİL, onay aldıktan sonra klasördeki her fraksiyonu ve bütün NPC'lerini de siler. Dikkatli kullan."
+    },
+    "IGUI_ALifeUI_3cf442f309026642": {
+      "tr": "Kaydetme otomatik. Düzenleme panelinin altındaki durum yazısı işin nerede olduğunu gösterir: KAYDEDİLDİ, KAYDEDİLMEDİ - OTOMATİK KAYDEDİLİYOR, KAYDEDİLİYOR ya da kırmızı bir hata mesajı."
+    },
+    "IGUI_ALifeUI_1c8e47934af8ece8": {
+      "tr": "ŞİMDİ KAYDET (ya da Ctrl+S) hemen kaydeder. Oluşturucu'yu kapatmak ve başka bir üyeye geçmek de önce kaydeder."
+    },
+    "IGUI_ALifeUI_5a2f708d0e1ea818": {
+      "tr": "Oluşturucu'yu kapatmak ya da üye değiştirmek hiçbir zaman kaydı beklemez: NPC arka planda yazılmaya devam eder ve iş bitene kadar ana menüde NPC kaydediliyor... yazar. KAYDEDİLİYOR - BİTİNCE YENİDEN DENE, bitmiş dosyaya ihtiyaç duyan bir işlemin (ŞİMDİ KAYDET, yeni, kopyala, sil, dışa aktar ya da eşitle) düzenlemelerini korumak için bekletildiği anlamına gelir. Hiçbir şey kaybolmaz. Etiket KAYDEDİLDİ olana kadar bekle, sonra yeniden yap."
+    },
+    "IGUI_ALifeUI_36114993178ee2b0": {
+      "tr": "NPC kaydedilemedi. Değişikliklerin hâlâ açık. gibi kırmızı bir mesaj, kaydın başarısız olduğunu gösterir. Değişikliklerin ekranda kalır, ŞİMDİ KAYDET'e yeniden bas. Geçersiz bir fraksiyon alanı da sen düzeltene kadar mesajını aynı yerde gösterir."
+    },
+    "IGUI_ALifeUI_75538ef555b86e7b": {
+      "tr": "Oluşturucu çalışan bir oyunun içinden açıldıysa SUNUCUYA GÖNDER kataloğunu sunucuya gönderir. Sol alttaki etiket SUNUCUYA GÖNDERİLDİ yazar ya da neden başarısız olduğunu söyler."
+    },
+    "IGUI_ALifeUI_76b532d538faa5be": {
+      "tr": "Aynı menüde Fraksiyon ve NPC Oluşturucusunu Aç da var; böylece oyundan çıkmadan düzenleyebilir, oluşturabilir ve tekrar bakabilirsin. Çok oyunculuda düzenledikten sonra SUNUCUYA GÖNDER düğmesine bas ki sunucu kataloğunu alsın."
+    },
+    "IGUI_ALifeUI_120ce05f1b598f15": {
+      "tr": "Düzenleme panelindeki karakter önizlemesi ve SESİ DENE için oyun açmana hiç gerek yok."
+    },
+    "IGUI_ALifeUI_1e5f49441360fd1a": {
+      "tr": "Adlar: fraksiyonlara kısa ve net adlar ver, ne olduklarını kategori ve açıklamayla anlat. Üyelere anlaşılır bir Görünen ad ve sonra bulabilmen için sağlıkçı, tüfek ya da tüccar gibi etiketler ver (Etiket süz alanı).",
+      "not": "\"Filter tags\" burada alanın kendisi; cümle içinde \"Etiket süz ver\" bozuk duracağı için alan adı parantezde."
+    },
+    "IGUI_ALifeUI_4424a55b0313f355": {
+      "tr": "Ağırlıklar: her yerde Yaygın ile başla, uzmanlar için Az rastlanan ve Nadir kullan. Ağırlıklar görelidir; üç Yaygın üyenin yanındaki bir Nadir üye kabaca on altı seferde bir seçilir."
+    },
+    "IGUI_ALifeUI_69fdb55a7bf3fd56": {
+      "tr": "Önce iyi bir üye kur, sonra NPC'Yİ ÇOĞALT ile çoğalt ve yalnızca farklı olanı değiştir."
+    },
+    "IGUI_ALifeUI_24272cc505beaef2": {
+      "tr": "Emeğini paylaş: bir fraksiyondaki KODU KOPYALA, herkesin KOD YÜKLE ile yükleyebileceği bir kod üretir. Klasörlerde de PAYLAŞIM KODU düğmesi var."
+    },
+    "IGUI_ALifeUI_1cdcd4610edb872f": {
+      "tr": "Varsayılan olarak açık. Oluşturucu'nun kıyafet seçicileri, takımın mevsimine ve üyenin rolüne uyan eşyaları önce listeler; tuhaf, koruyucu ve dönemine uymayan eşyaları işaretler, seçmeden önce çakışmalara karşı uyarır ve her kıyafet takımı ÇÖZÜM ÖNER düğmeli bir sağlık rozeti gösterir. Seçicideki Bütün eşyaları göster kutusu her şeyi listeler. Düz alfabetik listelere dönmek için kapat.",
+      "not": "Tarayıcının kaçırdığı satır (Ayarlar'daki ipucu). Seçicideki kutunun ekrandaki adı \"Show all items\" → \"Bütün eşyaları göster\". Öneri: Oluşturucu'daki iki mesajda SHOW ALL \"TÜMÜNÜ GÖSTER\" olarak çevrilmiş; kutuyla aynı olsun diye ileride \"BÜTÜN EŞYALARI GÖSTER\" yapılabilir."
+    }
+  }
+}

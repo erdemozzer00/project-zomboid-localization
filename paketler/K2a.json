@@ -1,0 +1,2439 @@
+{
+  "_paket": "K2a — Codex: mevcut diyaloglarda 400 doğallaştırma",
+  "_dosya": "RadioData_lua",
+  "_duzeltme": true,
+  "_hazirlayan": "Codex",
+  "_kapsam": "Kullanıcının önceden çevirdiği 603 diyalog düzeltmesi hariç, onaylı mevcut diyaloglardan 400 satır. Yeni çeviriler ve D5a kapsam dışıdır.",
+  "_talimat": "2026-10-24: mevcut çeviride kendi düzeltmelerim dışında diyaloglar kısmında 400 satır değiştir; içlerinden en iyi 20 satırı göster, diğerlerine ben manuel bakacağım.",
+  "_yedek": "C:\\Users\\Erdem\\Zomboid\\ALifeTR_Codex_Review_Backups\\2026-10-24-171358",
+  "_taslak_karmalari": {
+    "batch01.json": "075e8900b4d33a12e89d5e501badab7e47d23aba9f8e62561d821e137ae5e119",
+    "batch02.json": "4885d365398027e74a8649813cabb5e7cc8f93c6ed8d1e84c3bd0571626a5964",
+    "batch03.json": "f79161b01affa9ac5e5db2171fcc972f9858f593f7012ca3f3b597c3300458d1",
+    "batch04.json": "042771f5657fe299fa1f1aa2a6b74971d67ac44166c68c12de548b86faad8fe8",
+    "batch05.json": "80caa7f7224c139c2a379bc88301e2e209624b17ede92a1ab88216a8037adfc3",
+    "batch06.json": "1d3a935fcddeaeb4926226d7362407c94a055651f5d1b9bda7e50425df8f4945",
+    "batch07.json": "198cdbb29f4b6a382e72be20987ed037588eec1afb0dcd61b0f7044690efaabc",
+    "batch08.json": "e7cfdce8b0c0af2521ef109615032e934d728ca30588a026d556c72a9173a65f"
+  },
+  "satirlar": {
+    "RD_ALifeLine_13a6ecae77d6386c": {
+      "tr": "Evin anahtarı hala cebimde. Açacağı bir kapı kalmadı artık.",
+      "kim": "Codex",
+      "not": "Eve bağlılık anahtar üzerinden anlatılıyor; cansız nesneye açıklama eklenmiyor.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=seasoned|mood=calm"
+    },
+    "RD_ALifeLine_0dc7430a04696e9f": {
+      "tr": "O gün evden bile çıkmayacaktım. Alt tarafı süt almaya gitmiştim...",
+      "kim": "Codex",
+      "not": "Küçük bir iş için çıkıp dönememenin pişmanlığı konuşma ritmine taşındı.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_1eab9e1f7d8a4f68": {
+      "tr": "Babamla bir kere olsun doğru dürüst konuşmadım. Artık çok geç.",
+      "kim": "Codex",
+      "not": "Dinlemeye değer sözü kalıbı, kaçırılmış konuşmanın pişmanlığına çevrildi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · tmp=seasoned|mood=sad"
+    },
+    "RD_ALifeLine_2ccd4ce365b79d57": {
+      "tr": "Aklım eve gidiyor... Sonra içeride kimin olduğunu düşünüyorum. Daha fazla düşünmek istemiyorum.",
+      "kim": "Codex",
+      "not": "Düşünceyi kesme davranışı Türkçede anlaşılır hale geldi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=seasoned|mood=sad"
+    },
+    "RD_ALifeLine_09b890a25eb1cbb0": {
+      "tr": "Arkadaki akçaağaca bir salıncak asmıştık. Şimdi de sallanıyordur herhalde...",
+      "kim": "Codex",
+      "not": "Bahse girerim kalıbı yerine hüzünlü bir tahmin kullanıldı.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_32d333d76f888f2b": {
+      "tr": "Bazen bahçemiz geliyor aklıma. Fasulyeler, domatesler... Her yer yemyeşildi.",
+      "kim": "Codex",
+      "not": "Liste halinde kalan anı, sakince hatırlanan bir görüntüye dönüştü.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=seasoned|mood=calm"
+    },
+    "RD_ALifeLine_636d8d5325b69b45": {
+      "tr": "Yemek saati... Koca ilçede bir yerden yemek kokusu gelmiyor. İşte o zaman anlıyorum.",
+      "kim": "Codex",
+      "not": "Hiçbir şey kokmuyor ifadesinin yemek vaktindeki yokluk anlamı açıldı.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · hour=17,20"
+    },
+    "RD_ALifeLine_1290b74e44216ffc": {
+      "tr": "Yastığımı istiyorum... Kendi yastığımı. Başka bir şey istemiyorum.",
+      "kim": "Codex",
+      "not": "Tek nesneye tutunma duygusu korunup son tekrar Türkçe kuruldu.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_40c5c3a249ebe53b": {
+      "tr": "Yanıma bir fotoğraf bile almadım. Bir tane olsun alsaydım ya...",
+      "kim": "Codex",
+      "not": "Evden kaçarken fotoğraf almamanın pişmanlığı netleştirildi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=seasoned|mood=sad"
+    },
+    "RD_ALifeLine_36fc49ee1157080e": {
+      "tr": "Evden çıkarken bahçe fıskiyesini açık unutmuşum. Son yaptığım iş bu, düşünebiliyor musun?",
+      "kim": "Codex",
+      "not": "Unutmayı yapılan bir iş gibi anlatan yapı çözüldü.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_3c230d2f1a2ab174": {
+      "tr": "Elim telefona gidiyor, annemi arayacağım... Telefon yok ki. Annem de...",
+      "kim": "Codex",
+      "not": "Alışkanlık ve kayıp, açıklama eklemeden yarım kalan cümlede buluşuyor.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_40fa657f3154667a": {
+      "tr": "Sıcak bir duş için sağ kolumu veririm... Yok, o lazım. Sol kol olsun.",
+      "kim": "Codex",
+      "not": "Kaynağın kendi şakasına Türkçe zamanlama verildi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|mood=funny"
+    },
+    "RD_ALifeLine_4d3e6313133f9fec": {
+      "tr": "Evde su kaçağı vardı, bir türlü tamir etmedim. Şimdi kesin göle döndü.",
+      "kim": "Codex",
+      "not": "Kaçağı zamanında onarmamasının sonucunu abartılı ama konuşulur bir dille verir.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=worker,family|mood=funny|world=water"
+    },
+    "RD_ALifeLine_11a19e9d54a568ff": {
+      "tr": "Dönsem ne olacak? Geriye bir şey kalmadı. Biliyorum, biliyorum...",
+      "kim": "Codex",
+      "not": "Kabullenmeye çalışan kişinin kendine tekrarı korundu.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=seasoned|mood=grim"
+    },
+    "RD_ALifeLine_3cf59bd861f944fb": {
+      "tr": "Çim biçmekten nefret ederdim. Şimdi olsa iki kere biçerim, gıkım çıkmaz.",
+      "kim": "Codex",
+      "not": "Eski angaryayı özleme ironisi gündelik bir ifadeyle verildi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|mood=funny"
+    },
+    "RD_ALifeLine_5091d5806b2c2e7f": {
+      "tr": "Çiçeklerim kurumuştur artık. Bir su bile vermedim... Veda bile etmedim.",
+      "kim": "Codex",
+      "not": "Küçük bakım alışkanlığının kaybı, hüzünlü duraklarla korundu.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · role=rescue_medical"
+    },
+    "RD_ALifeLine_6caf04364691ccac": {
+      "tr": "Ev konusunu açma. Konuşsak ne değişecek?",
+      "kim": "Codex",
+      "not": "Konuyu kapatan sert tavır, resmi fayda anlatımından kurtarıldı.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=seasoned|mood=grim"
+    },
+    "RD_ALifeLine_7845266b7f06e668": {
+      "tr": "Karım havuz istiyordu. Ben de kim uğraşacak onunla diyordum... Şimdi düştüğüm hale bak.",
+      "kim": "Codex",
+      "not": "Eski rahatlığa dönük ironi, konuşma içinde kuruldu.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|mood=funny"
+    },
+    "RD_ALifeLine_7fa3e51424f24a71": {
+      "tr": "O kilisenin çanını hep ben çalardım. Şimdi birileri çalıyor mudur acaba?",
+      "kim": "Codex",
+      "not": "Din adamının eski görevini anışı doğal bir soruya bağlandı.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · role=rescue_clergy"
+    },
+    "RD_ALifeLine_1b10b5c9508ebe4b": {
+      "tr": "Evimizde iyiydik... Şimdi buradayız. Ne gerekiyorsa onu yapacağız.",
+      "kim": "Codex",
+      "not": "Deneyimli karakterin bugüne dönme tavrı anlaşılır hale geldi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=seasoned|mood=calm"
+    },
+    "RD_ALifeLine_1b62cb1d07d4ff64": {
+      "tr": "Kanepe eski karıma kaldı. Şimdi diyorum da keşke biraz diretseydim.",
+      "kim": "Codex",
+      "not": "Kanepe tekrarının yerine boşanma sonrası küçük pişmanlığın ritmi kuruldu.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|mood=funny"
+    },
+    "RD_ALifeLine_2c13a015625edaf3": {
+      "tr": "Eve bir dönebilsem... İçeride hala bizim kokumuz vardır.",
+      "kim": "Codex",
+      "not": "Kokuya bağlı ev özlemi Türkçe söz dizimiyle verildi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua"
+    },
+    "RD_ALifeLine_4deee6df7536f42f": {
+      "tr": "Yatağımda biri yatıyor mudur acaba? İnşallah yatıyordur... Yeter ki biri olsun.",
+      "kim": "Codex",
+      "not": "Yatağının başkasına kalmasına duyulan umut korundu.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_62a5cb1a0ca4f235": {
+      "tr": "Yaşlı Henley Hanım her pazar muzlu kek getirirdi. O keki nasıl özledim...",
+      "kim": "Codex",
+      "not": "Özel isim ve pazar alışkanlığı korunup özlem konuşma diline taşındı.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · role=rescue_clergy"
+    },
+    "RD_ALifeLine_630b3509564e33ea": {
+      "tr": "Buzdolabının üstü kızımın çizdiği resimlerle doluydu. Mıknatısla tutturmuştuk, yüz tane vardı...",
+      "kim": "Codex",
+      "not": "Resimler ve mıknatıslar korunurken kaynakta yüz olan sayı düzeltildi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=seasoned|mood=sad"
+    },
+    "RD_ALifeLine_6cde90716cafd478": {
+      "tr": "Bahçede salıncaklar vardı. Çocuklarım başından ayrılmazdı... Şimdi de sallanıyorlar mıdır acaba?",
+      "kim": "Codex",
+      "not": "Çocukların salıncağı sevmesi gündelik bir ifadeyle anlatıldı.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker,rescue"
+    },
+    "RD_ALifeLine_711f9a74090ec640": {
+      "tr": "Walkman'im şifonyerin üstünde kaldı. Kasetini bile içinden çıkarmamıştım.",
+      "kim": "Codex",
+      "not": "Döneme ait eşya korunup yarım bırakılmış günlük hayat hissettirildi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_741c30132220fc98": {
+      "tr": "Mutfaktaki sarı ışık her yeri sıcacık gösterirdi... O ışığı özledim.",
+      "kim": "Codex",
+      "not": "Sarı ışık tekrarını azaltırken anının sıcaklığı korundu.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_075232b8525bea43": {
+      "tr": "Köpeğim hala bahçede bağlı... Yok, değil. Biliyorum... Biliyorum.",
+      "kim": "Codex",
+      "not": "Kayıp konusunda kendini düzeltme korunuyor; köpeğin akıbeti uydurulmuyor.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_096f1dee00fcf194": {
+      "tr": "Gazoz kapaklarını bir kahve kutusuna doldururdum. Yatağımın altında dururdu.",
+      "kim": "Codex",
+      "not": "Eşya listesinden, anlatılan bir çocukluk alışkanlığına geçildi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_132e4cc53cc276cc": {
+      "tr": "Kuru temizlemecinin üstünde küçücük bir dairem vardı. Pencereye bir çiçek koymuştum...",
+      "kim": "Codex",
+      "not": "Sağlıkçının ev anısı, yer ve çiçek ayrıntılarıyla konuşulur hale getirildi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · role=rescue_medical"
+    },
+    "RD_ALifeLine_4892dfd84a58f2eb": {
+      "tr": "Kapıyı kilitleyip kaçtım. Eve bir veda bile etmedim.",
+      "kim": "Codex",
+      "not": "Kaçış önceye alındı; sonradan gelen pişmanlık kısa tutuldu.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_4ae99ba9151f399b": {
+      "tr": "Ev diyebilmek için önce bir evin olacak.",
+      "kim": "Codex",
+      "not": "Evi kalmayan kişinin sert cümlesi Türkçede yeniden kuruldu.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=seasoned|mood=grim"
+    },
+    "RD_ALifeLine_501b366c40b1bbb2": {
+      "tr": "Babam balık tutmayı evin arkasındaki derede öğretmişti. İlk yayın balığımı orada tutmuştum.",
+      "kim": "Codex",
+      "not": "Eksik isim cümlesi, yer ve balık türü korunarak tamamlandı.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=warm"
+    },
+    "RD_ALifeLine_50e87a5547f3d923": {
+      "tr": "Bizim köpek Biscuit, kamyonun sesini yarım mil öteden duyardı. Bir kere de şaşmazdı.",
+      "kim": "Codex",
+      "not": "Köpeğin adı ve mesafe korunup her seferinde ifadesi doğallaştırıldı.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_5ab2ff337c659174": {
+      "tr": "Verandadaki salıncak hala gıcırdıyor mudur? Annem yağlayacağım demişti. Bir türlü yağlamadı.",
+      "kim": "Codex",
+      "not": "Geçmişte kalan küçük iş, hatırlayan kişinin sesiyle verildi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_5f95fb39775cf052": {
+      "tr": "Ah... Sokağımızdan geçen dondurmacının arabası... O sesi nasıl özledim.",
+      "kim": "Codex",
+      "not": "Ses anısı, yapay uzatılmış ünlem yerine duraklarla taşındı.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_60b0f6642b9cbcd2": {
+      "tr": "Salı günleri kilisede sıralar bomboş olurdu. Oturur, sessizliği dinlerdim...",
+      "kim": "Codex",
+      "not": "Din adamının mekan ve gün ayrıntıları konuşma cümlesine dönüştü.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · role=rescue_clergy"
+    },
+    "RD_ALifeLine_70aa07a010149124": {
+      "tr": "Keşke babam yine maç izleyip televizyona bağırsa. Bir kez daha duysam yeter...",
+      "kim": "Codex",
+      "not": "Her şeyimi verirdim kalıbı, aynı özlemi taşıyan gündelik bir dileğe çevrildi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_79d88c9650c0e0a9": {
+      "tr": "Sofradaki kavgalara bile razıyım. Herkes bağırsın çağırsın... Yeter ki seslerini duyayım.",
+      "kim": "Codex",
+      "not": "Özlenen şeyin kavga değil insanların sesi olduğu belirginleştirildi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_0c94147e31eb4c4f": {
+      "tr": "Kocamın bir koltuğu vardı... Kimse oturmazdı oraya. Kimse.",
+      "kim": "Codex",
+      "not": "Tekrar, kaybın ağırlığını taşıyan kısa bir son söze dönüştü.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=seasoned|mood=sad"
+    },
+    "RD_ALifeLine_1067e26b70abd4d0": {
+      "tr": "İtfaiyede acılı fasulye yaptığımız akşamlar... Ekip, o saçma şakalar... Lavabo da bulaşıktan geçilmezdi.",
+      "kim": "Codex",
+      "not": "Guys çocuklar olarak çevrilmedi; itfaiye ekibinin ortak anısı kuruldu.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · role=rescue_firefighter"
+    },
+    "RD_ALifeLine_16f9cb417faf963d": {
+      "tr": "Bazen aklıma geliyor. Ama fazla dalıp gitmemeye çalışıyorum.",
+      "kim": "Codex",
+      "not": "Anının içinde kalmak kalıbı doğal bir düşünme davranışına çevrildi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=seasoned|mood=calm"
+    },
+    "RD_ALifeLine_19843906545c51f9": {
+      "tr": "Eskiden ev der geçerdim. Meğer YUVAMMIŞ.",
+      "kim": "Codex",
+      "not": "House ve home ayrımı ev ve yuva üzerinden taşındı.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua"
+    },
+    "RD_ALifeLine_227340e46f494fa9": {
+      "tr": "Verandayı Noel ışıklarıyla süslemiştik. Kardeşim merdivenden düşmüştü... Hahaha!",
+      "kim": "Codex",
+      "not": "Noel anısının neşesi ve kaynakta bulunan gülüş korundu.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=warm"
+    },
+    "RD_ALifeLine_2ba5b9fb54e9f90e": {
+      "tr": "İtfaiyeyi özledim... Kayma direğini, bizim ekibi. Bizim çocukları...",
+      "kim": "Codex",
+      "not": "İtfaiyeye ait direk ve arkadaşlarına duyulan yakınlık netleştirildi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · role=rescue_firefighter"
+    },
+    "RD_ALifeLine_2ec882524ad77348": {
+      "tr": "Cuma akşamı maçlarında bütün kasaba tribüne doluşurdu. O ışıklar, o bando...",
+      "kim": "Codex",
+      "not": "Kasaba maçının anısı, isim dizisinden sözlü anlatıma dönüştü.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=warm"
+    },
+    "RD_ALifeLine_380ede7e20690b72": {
+      "tr": "Ayaklarım alışkanlıktan eve götürüyor... Sonra hatırlıyorum, ev diye bir yer kalmadı.",
+      "kim": "Codex",
+      "not": "Alışkanlıkla kaybın fark edilmesi arasındaki kırılma öne çıkarıldı.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_454b39af2406e22b": {
+      "tr": "Salondan televizyon sesi geliyor kulağıma... Hala duyuyorum. Sen de duymuyor musun?",
+      "kim": "Codex",
+      "not": "Sesi duymaya devam etme ve karşısındakinden doğrulama arama korundu.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_46399fc361ed5a94": {
+      "tr": "Kardeşimin ranzası öylece duruyor. Alt yatak bomboş...",
+      "kim": "Codex",
+      "not": "Ranzanın alt yatağı, yanlış anlaşılabilen alt kat ifadesinden ayrıldı.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_47e78d4c42fdc24b": {
+      "tr": "Evde söylenip durduğum şeyler vardı ya... Onları bile özlüyorum.",
+      "kim": "Codex",
+      "not": "Şikayet etmek fiili, anıyı anlatan gündelik söylenmeye dönüştü.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_5725f29a4f3e03dc": {
+      "tr": "Ev yandı galiba... Dumanını gördüm yoldan. Yanmış olmalı.",
+      "kim": "Codex",
+      "not": "Evin akıbeti kesinleştirilmeden kişinin tahmini korundu.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=seasoned|mood=grim"
+    },
+    "RD_ALifeLine_62f6eac60d7a89cf": {
+      "tr": "Ninemin yorganı eski gömleklerden dikilmişti. Her parçada kimin gömleği var, tek tek bilirdin.",
+      "kim": "Codex",
+      "not": "Parçaları saymak yerine sahiplerini tanıma anlamı geri getirildi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=warm"
+    },
+    "RD_ALifeLine_6e530beb004863db": {
+      "tr": "Annemin yaptığı o berbat köfte var ya... Şimdi önüme koy, üç tabak yerim.",
+      "kim": "Codex",
+      "not": "Kötü yemekle duyulan özlemin ironisi Türkçe ritimle kuruldu.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|mood=funny"
+    },
+    "RD_ALifeLine_1052a07e2afa3b6b": {
+      "tr": "La-Z-Boy koltuğum burnumda tütüyor. Akrabalarımın çoğunu bu kadar özlemedim.",
+      "kim": "Codex",
+      "not": "Kaybolmuş marka ayrıntısı geri getirildi; şaka son cümleye bırakıldı.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|mood=funny"
+    },
+    "RD_ALifeLine_1641533040621406": {
+      "tr": "Böyle bir yer görünce aklım yine anneme gidiyor.",
+      "kim": "Codex",
+      "not": "Annemi hatırlıyorum bilgisi konuşma dilindeki aklım gidiyor biçimine taşındı.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · tmp=seasoned|mood=grim"
+    },
+    "RD_ALifeLine_16a3ff133b7f7e95": {
+      "tr": "Keşke biraz daha sarılsaydım ona... Herkese. Biraz daha.",
+      "kim": "Codex",
+      "not": "Pişmanlığın tekrarları kesik konuşma olarak korundu.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_16f3afbb77bfad7e": {
+      "tr": "Ah, o kahve makinesi... Allah'ım, ne güzel kahve yapardı.",
+      "kim": "Codex",
+      "not": "Makineyi nesnel değerlendiren ifade, kahvesini özleyen kişinin sözüne dönüştü.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=rescue"
+    },
+    "RD_ALifeLine_213eebe14eae5535": {
+      "tr": "Evde çamaşır sabunuyla domuz pastırması kokusu birbirine karışırdı. BİZİM evin kokusuydu o.",
+      "kim": "Codex",
+      "not": "Evin kokusu somut ayrıntılarla korunup yapay benzetme çözüldü.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · reg=civilian,family,worker|tmp=fresh|mood=sad"
+    },
+    "RD_ALifeLine_4ce293aa1517f844": {
+      "tr": "Uykum gelmiyor... Gözümün önünde eski odamın tavanı var. O parlayan yıldızlar...",
+      "kim": "Codex",
+      "not": "Gerçekte başka yerdeyken eski odayı zihninde görme anlaşılır hale geldi.",
+      "baglam": "HOME_MEMORY · ALifeDialogue_barks_home_1.lua · hour=21,4"
+    },
+    "RD_ALifeLine_116473485fabc3e4": {
+      "tr": "Şuraya oturacağım, on saniye hiçbir şey düşünmeyeceğim. Bak gör.",
+      "kim": "Codex",
+      "not": "Watch me ifadesi gösterişli izleme emri yerine gündelik iddiaya çevrildi.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker,rescue"
+    },
+    "RD_ALifeLine_34598f3d3312b6de": {
+      "tr": "Güneş çıktı... Dertler yerinde duruyor ama içi açılıyor insanın.",
+      "kim": "Codex",
+      "not": "Güneşin sorunları çözmeden iyi gelmesi konuşma diline taşındı.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · hour=9,16|mood=warm"
+    },
+    "RD_ALifeLine_630985691484ecdc": {
+      "tr": "Çıt yok... Sessizlik insanın kulağında bu kadar çınlar mı?",
+      "kim": "Codex",
+      "not": "Hiçliğin gürültüsü, Türkçede duyulabilir bir sessizlik imgesine çevrildi.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · tmp=seasoned|mood=grim"
+    },
+    "RD_ALifeLine_5af25fbf401069cf": {
+      "tr": "Hımm, hımm... Eski bir ilahi. Sözleri aklımda kalmamış pek.",
+      "kim": "Codex",
+      "not": "Mırıldanmayı açıklayan anlatıcı cümlesi, konuşan kişinin kendi sözüne dönüştü.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker|tmp=seasoned|mood=calm"
+    },
+    "RD_ALifeLine_34ac64ba17be16bd": {
+      "tr": "İki sokak ötede biri ocakta tencere unutmuş, ev kül olmuş. Millet, ocakları kontrol etmeyi unutmayın.",
+      "kim": "Codex",
+      "not": "Gerçek gruba yapılan güvenlik uyarısı korundu.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker,rescue|world=building,road"
+    },
+    "RD_ALifeLine_6628dd94233d1f78": {
+      "tr": "Ne ısırmaya çalışan var ne peşime düşen. Belki şimdi rahatça bir şey yerim.",
+      "kim": "Codex",
+      "not": "Tehditlerin kesilmesiyle yemek yiyebilme arasındaki ilişki doğallaştırıldı.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker,rescue"
+    },
+    "RD_ALifeLine_7a291f9411e5dabe": {
+      "tr": "Hiç ses yok... Çıt bile çıkmıyor. Sessizlik böyle bir şeydi, değil mi?",
+      "kim": "Codex",
+      "not": "Sessizliği unutmanın şaşkınlığı, karşısındakine yönelen doğal soruya taşındı.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker,rescue"
+    },
+    "RD_ALifeLine_1742709144fa799c": {
+      "tr": "Şu bir dakikalığına, sıradan bir pazarmış gibi yapsak...",
+      "kim": "Codex",
+      "not": "Normal hayatı kısa süreliğine taklit etme isteği yumuşak bir ricaya çevrildi.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · role=family_youth,family_woman|mood=sad"
+    },
+    "RD_ALifeLine_2510fe5f01c6151a": {
+      "tr": "Rabbim, şu bir saatlik huzur için sana şükürler olsun. Şu bir saat için...",
+      "kim": "Codex",
+      "not": "Duanın yalnızca şimdiki saate tutunması tekrarında korundu.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · role=rescue_clergy|mood=warm"
+    },
+    "RD_ALifeLine_6924d10c479ed900": {
+      "tr": "Otur da bacakların biraz dinlensin. Sonra iyi ki oturmuşum dersin.",
+      "kim": "Codex",
+      "not": "Bacakların teşekkür etmesi kalıbının rahatlama amacı Türkçede kuruldu.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · tmp=veteran|mood=warm"
+    },
+    "RD_ALifeLine_7943962104e6c6ea": {
+      "tr": "Al nefesini... Ver... Şu an peşimizde bir şey yok.",
+      "kim": "Codex",
+      "not": "Nefes talimatı, sakinleştiren kişinin konuşma ritmine uyarlandı.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua"
+    },
+    "RD_ALifeLine_660c1fe56536652f": {
+      "tr": "Bütün günün ardından ilk kez ortalık duruldu. İçim rahat değil ama... Buna da razıyım.",
+      "kim": "Codex",
+      "not": "Sessizliğe güvenmeden dinlenme fırsatını kabul etme korundu.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · tmp=seasoned"
+    },
+    "RD_ALifeLine_515fd9505e2c788b": {
+      "tr": "Bu duayı annemden öğrendim. Yatmadan önce okurduk... Hala okuyorum.",
+      "kim": "Codex",
+      "not": "Duayla gelen aile alışkanlığı konuşulur biçime taşındı.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker|mood=warm"
+    },
+    "RD_ALifeLine_616e1dab75ab99bf": {
+      "tr": "Koca ilçe nefesini tutmuş gibi... Ben de öyle.",
+      "kim": "Codex",
+      "not": "Toplu bekleyiş benzetmesi kısa ve doğal kuruldu.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · tmp=seasoned|mood=grim"
+    },
+    "RD_ALifeLine_09956828143ebb58": {
+      "tr": "Şu bulut rosto gibi duruyor, yemin ederim. Sakın benzemiyor deme!",
+      "kim": "Codex",
+      "not": "Açlığın doğurduğu şaka korunup yemek adı rosto olarak düzeltildi.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · st=friendly,neutral"
+    },
+    "RD_ALifeLine_4c71624e4a7f450c": {
+      "tr": "Ninem, insan verandasında huzurla oturabiliyorsa güzel bir hayat yaşamıştır, derdi.",
+      "kim": "Codex",
+      "not": "Yaşlı karakterin aktardığı söz, anlaşılır bir Türkçe öğüde çevrildi.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · role=family_elder|mood=warm|world=building"
+    },
+    "RD_ALifeLine_4ceb8d7076a97ba4": {
+      "tr": "Rabbim, ne olur onları koru. Hepsini... Yalvarıyorum sana.",
+      "kim": "Codex",
+      "not": "Dua içindeki yalvarma, Türkçede doğal sözcük sırasına getirildi.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · role=rescue_clergy"
+    },
+    "RD_ALifeLine_6063dbc7051debc0": {
+      "tr": "Tanrım, sesimizi duyuyorsan yardım et. Burada sana ihtiyacımız var.",
+      "kim": "Codex",
+      "not": "Din adamının yardım çağrısı, soyut ihtiyaç anlatımından çıkarıldı.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · role=rescue_clergy"
+    },
+    "RD_ALifeLine_03ab4e4538055ce0": {
+      "tr": "La la la... Neydi bu? Şu eski reklamlardan birinin müziği...",
+      "kim": "Codex",
+      "not": "Şarkıyı hatırlamaya çalışma yarım cümlelerle verildi.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker|mood=funny"
+    },
+    "RD_ALifeLine_093bd3363bf4e461": {
+      "tr": "Böyle bir an yakaladın mı kıymetini bil. Sakın boşa harcama.",
+      "kim": "Codex",
+      "not": "Dakikaya tutunmak mecazının anı değerlendirme anlamı taşındı.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · tmp=veteran|mood=warm"
+    },
+    "RD_ALifeLine_24b8d5b92a11b4a3": {
+      "tr": "Rabbim, bu sessizliği bize verdiğin için şükürler olsun. Şu an için...",
+      "kim": "Codex",
+      "not": "Şükür cümlesi konuşan din adamının duası olarak yeniden kuruldu.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · role=rescue_clergy"
+    },
+    "RD_ALifeLine_26a8365c5fbd18fd": {
+      "tr": "Bahçe kapısının menteşesini onardım. Ufacık bir iş ama... İyi geldi be.",
+      "kim": "Codex",
+      "not": "Küçük bir işi bitirmenin verdiği rahatlık işçi sesine taşındı.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=worker,family|mood=warm"
+    },
+    "RD_ALifeLine_3a7efa2a720c9782": {
+      "tr": "Onlar için de dua ediyorum. Dışarıdakiler için bile... Evet, onlar için de.",
+      "kim": "Codex",
+      "not": "Duanın dışarıdakileri de kapsamasındaki tereddüt ve kararlılık korundu.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · role=rescue_clergy"
+    },
+    "RD_ALifeLine_74e35ecc7fd7ac11": {
+      "tr": "Dinle, duyuyor musun? Kimse bizi öldürmeye çalışmayınca ortalık böyle oluyor işte.",
+      "kim": "Codex",
+      "not": "Yokluğun sesi şeklindeki yapay yapı, kaynağın kuru mizahını koruyarak çözüldü.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker,rescue"
+    },
+    "RD_ALifeLine_42648f3d310e9e08": {
+      "tr": "Bir kuş ötüyor... Bildiğin kuş. Hala ötüyor...",
+      "kim": "Codex",
+      "not": "Kuşun hala ötmesine duyulan şaşkınlık gündelik ifadeyle verildi.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker|tmp=fresh|mood=warm"
+    },
+    "RD_ALifeLine_43acfd6012348dd0": {
+      "tr": "Böyle anlarda dışarısını unutacak gibi oluyorum... Neredeyse.",
+      "kim": "Codex",
+      "not": "Tehlikeyi bir anlığına unutabilme, son kelimedeki çekinceyle korundu.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker,rescue"
+    },
+    "RD_ALifeLine_4644514240f5e4b5": {
+      "tr": "Çıt çıkmıyor... Ne zamandır böyle bir sessizlik duymamıştım.",
+      "kim": "Codex",
+      "not": "Sessizliği unutma düşüncesi doğal bir zaman duygusuyla verildi.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua"
+    },
+    "RD_ALifeLine_5376133b44497281": {
+      "tr": "Kaybettiğimiz arkadaşlar için biraz sessiz kalalım. Bütün ekip için...",
+      "kim": "Codex",
+      "not": "İtfaiye ekibi askeri bölük olarak çevrilmedi.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · role=rescue_firefighter"
+    },
+    "RD_ALifeLine_669762a21150b3be": {
+      "tr": "Gökyüzüne baksana... Her şeye rağmen masmavi.",
+      "kim": "Codex",
+      "not": "Gökyüzünün değişmemesine duyulan şaşkınlık, tekrarı taşımadan korundu.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker|tmp=fresh|mood=warm"
+    },
+    "RD_ALifeLine_7404b567707f06bb": {
+      "tr": "Bir dakikalığına her şey yolundaymış gibi davranalım. Bir dakika olsun...",
+      "kim": "Codex",
+      "not": "Geçici teselli isteği, son ricadaki vurguya taşındı.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker,rescue"
+    },
+    "RD_ALifeLine_7a9ca8a1117a8d05": {
+      "tr": "Fırsatını buldun mu ellerini yıka. Bari bu alışkanlıktan vazgeçmeyelim.",
+      "kim": "Codex",
+      "not": "Sağlıkçının alışkanlığı sürdürme öğüdü doğal konuşmaya çevrildi.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · role=rescue_medical|mood=warm"
+    },
+    "RD_ALifeLine_02323c195c55c8dd": {
+      "tr": "Hımm, hımm... Dedem söylerdi bunu. Nehir kıyısında...",
+      "kim": "Codex",
+      "not": "Şarkı ve anı, açıklama listesi yerine mırıldanan kişinin sözü oldu.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker|tmp=seasoned|mood=calm|world=water"
+    },
+    "RD_ALifeLine_1f16676b0c491ea3": {
+      "tr": "Şu bir dakikanın tadını çıkaralım. Bir dakikacık...",
+      "kim": "Codex",
+      "not": "Kısa bir molaya duyulan ihtiyaç, küçültme ve durakla verildi.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua"
+    },
+    "RD_ALifeLine_23421f405dfcf4f8": {
+      "tr": "Duy duamı... Ne olur duy. Çok yorulduk artık.",
+      "kim": "Codex",
+      "not": "Duanın yakarışı, çeviri kokan lütfen tekrarından arındırıldı.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · role=rescue_clergy"
+    },
+    "RD_ALifeLine_44c238c1332ed0c9": {
+      "tr": "Nazar değdireceğiz, ağzına alma. Bırak da tadını çıkaralım.",
+      "kim": "Codex",
+      "not": "Uyarı ile huzuru sürdürme isteği tek konuşma ritminde birleştirildi.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker,rescue|tmp=seasoned"
+    },
+    "RD_ALifeLine_6e7a68ab3bca22b9": {
+      "tr": "Tanrı bu gece yanımızda olsun. Kaybettiklerimizin de yanında...",
+      "kim": "Codex",
+      "not": "Din adamının duasında yaşayanlarla kaybettikleri arasındaki bağ korundu.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · role=rescue_clergy|hour=16,5"
+    },
+    "RD_ALifeLine_75e0401c15c1b81a": {
+      "tr": "İnsan huzurluyken böyle mi hissederdi? Unutmuşum vallahi.",
+      "kim": "Codex",
+      "not": "Honestly sözcüğü, uygun yerde gündelik bir samimiyet ifadesine çevrildi.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker,rescue"
+    },
+    "RD_ALifeLine_7f9ade241fb8ac5d": {
+      "tr": "Otur şöyle, biraz dinlen. Bu molayı hak ettik.",
+      "kim": "Codex",
+      "not": "Take a load off gerçek yük bırakma emri olarak çevrilmedi.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua"
+    },
+    "RD_ALifeLine_4250610c6aaf7d21": {
+      "tr": "Altı ay oldu. Gelen giden yok... Artık kendi başımızın çaresine bakacağız.",
+      "kim": "Codex",
+      "not": "Plan artık biziz kalıbının dışarıdan yardım gelmeyeceği anlamı açıldı.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · tmp=veteran|day=150,9999|mood=grim"
+    },
+    "RD_ALifeLine_61da5e501e955900": {
+      "tr": "Dım dı dım... Sonrası yok, unuttum gitti.",
+      "kim": "Codex",
+      "not": "Şarkının devamını unutma, kendi kendine söylenen doğal bir cümle oldu.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker|mood=funny"
+    },
+    "RD_ALifeLine_68a5437b79270666": {
+      "tr": "Şu an iyiyiz... En azından şu an.",
+      "kim": "Codex",
+      "not": "Geçici güven duygusunu konuşma ritmiyle verir.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua"
+    },
+    "RD_ALifeLine_17e5a828196da039": {
+      "tr": "Ortalık ne kadar sakin... En son ne zaman böyleydi, hatırlamıyorum.",
+      "kim": "Codex",
+      "not": "Huzuru soyut bir sıfat yerine karakterin gözlemiyle aktarır.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker,rescue"
+    },
+    "RD_ALifeLine_23e961b866174d4b": {
+      "tr": "İyi misin? Söyle, içinde tutma. İyi gelir.",
+      "kim": "Codex",
+      "not": "Sesli söyleme çağrısını doğal bir konuşmaya dönüştürür.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · mood=warm"
+    },
+    "RD_ALifeLine_396e3d081b38ee01": {
+      "tr": "Yatsam bir hafta kalkmam... Hatta on yıl.",
+      "kim": "Codex",
+      "not": "Yorgunluğa bağlı abartıyı Türkçe konuşma ritmiyle korur.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=civilian,family,worker,rescue"
+    },
+    "RD_ALifeLine_3cf7a0ad5d455f70": {
+      "tr": "Yıldızlar hiç değişmemiş... Hiç değilse onlar.",
+      "kim": "Codex",
+      "not": "Gece sahnesindeki küçük teselliyi kısa tutar.",
+      "baglam": "SAFE_MOMENT · ALifeDialogue_barks_safe_1.lua · reg=family|hour=20,5"
+    },
+    "RD_ALifeLine_4963afad228710bb": {
+      "tr": "Bunu duymak iyi geldi. Şu aralar böyle bir laf duymak o kadar zor ki.",
+      "kim": "Codex",
+      "not": "Karşıdakinin iyi olduğunu duymanın yarattığı rahatlamayı korur.",
+      "baglam": "NPC_OPEN · ALifeDialogue_yes_misc_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_3bb73291260cd5dd": {
+      "tr": "Aa! Selam! Merhaba! Efendim? Bana mı dedin? Pardon, ne vardı?",
+      "kim": "Codex",
+      "not": "Acemi askerin heyecanlı ve dağınık girişini korur.",
+      "baglam": "NPC_OPEN · ALifeDialogue_replies_npc_1.lua · role=soldier_green|st=neutral,careful"
+    },
+    "RD_ALifeLine_764afc537dd85541": {
+      "tr": "Anlıyorum. Her şey düzelecek diyemem. Benden bir fayda istiyorsan başka bir şey sor.",
+      "kim": "Codex",
+      "not": "Boş teselli vermeyen mesafeli tavrı konuşma diline taşır.",
+      "baglam": "NPC_OPEN · ALifeDialogue_no_misc_1.lua"
+    },
+    "RD_ALifeLine_12c0a3935281f2b1": {
+      "tr": "Hassiktir... Yaralı mısın, aç mısın? Yoksa hepsi birden mi? Ne lazımsa söyle, ama bulur muyum bilmem.",
+      "kim": "Codex",
+      "not": "İhtiyaç sorgusunu ve yardım konusundaki belirsizliği korur.",
+      "baglam": "NPC_OPEN · ALifeDialogue_no_misc_1.lua"
+    },
+    "RD_ALifeLine_4aa16ada01560809": {
+      "tr": "Tamam, bana bir şey ispatlamana gerek yok. Ne lazım?",
+      "kim": "Codex",
+      "not": "Perform for me ifadesini yapay rol yapma kalıbından çıkarır.",
+      "baglam": "NPC_OPEN · ALifeDialogue_no_misc_1.lua"
+    },
+    "RD_ALifeLine_0a814a877bef14ca": {
+      "tr": "Sahiden iyi misin? İçim biraz rahatladı şimdi.",
+      "kim": "Codex",
+      "not": "İyi haber karşısındaki rahatlamayı kısa ve doğal aktarır.",
+      "baglam": "NPC_OPEN · ALifeDialogue_yes_misc_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_1eb79fc512fbaf51": {
+      "tr": "Hey! Hey, şey... Pardon. Ulusal Muhafızlardan mısın sen?",
+      "kim": "Codex",
+      "not": "Acemi askerin çekingen sorusunu Türkçe soru düzenine taşır.",
+      "baglam": "NPC_OPEN · ALifeDialogue_replies_npc_1.lua · role=soldier_green|tmp=fresh|st=neutral"
+    },
+    "RD_ALifeLine_205c7a0e0303c2f7": {
+      "tr": "Şş, alçak sesle. Buralardan yeşil bir kamyon geçti mi, gördün mü?",
+      "kim": "Codex",
+      "not": "Asker kaçağının sessizlik isteğini ve araç sorusunu korur.",
+      "baglam": "NPC_OPEN · ALifeDialogue_replies_npc_1.lua · role=deserter|st=careful|world=vehicle"
+    },
+    "RD_ALifeLine_31cc527b7e22697d": {
+      "tr": "Belli, sesinden anlıyorum. Bir soluklan. Ben bir yere gitmiyorum daha.",
+      "kim": "Codex",
+      "not": "Kısa süreli yanında kalma güvencesini doğal söyler.",
+      "baglam": "NPC_OPEN · ALifeDialogue_no_misc_1.lua"
+    },
+    "RD_ALifeLine_32d71e6a1a136c01": {
+      "tr": "Bir dur. Bu yoldan geçen üniformalı biri gördün mü?",
+      "kim": "Codex",
+      "not": "Astsubayın doğrudan bilgi isteyen sesini korur.",
+      "baglam": "NPC_OPEN · ALifeDialogue_replies_npc_1.lua · role=soldier_nco|tmp=veteran|st=neutral|world=road"
+    },
+    "RD_ALifeLine_3e75464774f0b84b": {
+      "tr": "Daha bıçak çekmedin bana. Başlangıç için fena sayılmaz. Nasıl, idare ediyor musun?",
+      "kim": "Codex",
+      "not": "Deneyimli karakterin kuru mizahını ve hal hatır sorusunu korur.",
+      "baglam": "NPC_OPEN · ALifeDialogue_replies_npc_1.lua · tmp=seasoned,veteran|st=friendly,neutral"
+    },
+    "RD_ALifeLine_4fd250a35283ab9a": {
+      "tr": "Ne istiyorsan çabuk söyle. Fikrim değişmeden.",
+      "kim": "Codex",
+      "not": "Kötü şöhretli oyuncuya karşı sabırsızlığı kısa tutar.",
+      "baglam": "NPC_OPEN · ALifeDialogue_replies_npc_1.lua · reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+    },
+    "RD_ALifeLine_511c3dea3e78893e": {
+      "tr": "Anlat, dinliyorum. Acelem yok.",
+      "kim": "Codex",
+      "not": "Dünya kadar zaman kalıbını gündelik Türkçeye çevirir.",
+      "baglam": "NPC_OPEN · ALifeDialogue_no_misc_1.lua · reg=civilian,family,worker,rescue|st=friendly"
+    },
+    "RD_ALifeLine_5a1a0bc07216019b": {
+      "tr": "İyi, böyle devam et. Bir şey mi soracaktın?",
+      "kim": "Codex",
+      "not": "Yanıtın devamlılık isteğini ve soruya geçişini korur.",
+      "baglam": "NPC_OPEN · ALifeDialogue_yes_misc_1.lua"
+    },
+    "RD_ALifeLine_7f2d7bb12246617d": {
+      "tr": "İyi... İyi. Herkese bir sorayım dedim, nasıllar diye. Bana da iyi geliyor!",
+      "kim": "Codex",
+      "not": "Heyecanlı karakterin kendini açıklarken duraksamasını korur.",
+      "baglam": "NPC_OPEN · ALifeDialogue_yes_misc_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_08b723ec07254102": {
+      "tr": "Sevindim. Şu aralar iyi bir haber duymaya hasret kaldık!",
+      "kim": "Codex",
+      "not": "Kaynağın iyi habere duyduğu özlemi doğal ifade eder.",
+      "baglam": "NPC_OPEN · ALifeDialogue_yes_misc_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_25205ea70d6f85e4": {
+      "tr": "Biraz konuşabiliriz. Ama kulağın dışarıda olsun.",
+      "kim": "Codex",
+      "not": "Konuşurken çevreyi dinleme uyarısını kısa tutar.",
+      "baglam": "NPC_OPEN · ALifeDialogue_yes_misc_1.lua"
+    },
+    "RD_ALifeLine_53c54b3c20fee3bb": {
+      "tr": "Ben de iyi sayılmam. Zor ayakta duruyorum. Oturalım mı?",
+      "kim": "Codex",
+      "not": "Ortak sıkıntıyı ve birlikte oturma teklifini doğal bağlar.",
+      "baglam": "NPC_OPEN · ALifeDialogue_no_misc_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_5568280c7b8d2428": {
+      "tr": "Yapma ya... Üzüldüm. Ne oldu? Anlat, dinlerim. Vaktim bol.",
+      "kim": "Codex",
+      "not": "Dostça ilgiyi yapay ünlem dizisinden çıkarır.",
+      "baglam": "NPC_OPEN · ALifeDialogue_no_misc_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_55f74dee5c107621": {
+      "tr": "Sevindim. Neyin faydası olduysa ona devam et.",
+      "kim": "Codex",
+      "not": "Her ne yapıyorsan ifadesinin amaçladığı desteği netleştirir.",
+      "baglam": "NPC_OPEN · ALifeDialogue_yes_misc_1.lua · reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral"
+    },
+    "RD_ALifeLine_5e90351e241a21d6": {
+      "tr": "Anlıyorum... İstersen anlat. İstemezsen de üstelemem.",
+      "kim": "Codex",
+      "not": "Karşıdakine konuşmama alanı bırakan tavrı korur.",
+      "baglam": "NPC_OPEN · ALifeDialogue_no_misc_1.lua"
+    },
+    "RD_ALifeLine_753be0f4676ddc95": {
+      "tr": "Of, bilmez miyim... Gel buraya. Yok, sen kalkma, ben yanına oturayım.",
+      "kim": "Codex",
+      "not": "Dostça telaşı ve karar değişikliğini doğal ritimle verir.",
+      "baglam": "NPC_OPEN · ALifeDialogue_no_misc_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_79ed427e18cb5f03": {
+      "tr": "İyi... Bu şartlarda ne kadar iyi olunursa. Ne düşünüyorsun?",
+      "kim": "Codex",
+      "not": "Şartlara bağlı iyilik halini kısa bir öz düzeltmeyle aktarır.",
+      "baglam": "NPC_OPEN · ALifeDialogue_yes_misc_1.lua"
+    },
+    "RD_ALifeLine_378e6c8c2a381598": {
+      "tr": "Dur, kaçma! Ben... Pardon, kusura bakma. İyi misin, idare ediyor musun?",
+      "kim": "Codex",
+      "not": "Yeni sivilin karşıdakini ürkütme telaşını korur.",
+      "baglam": "NPC_OPEN · ALifeDialogue_replies_npc_1.lua · reg=civilian|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_44b255e84895f38c": {
+      "tr": "Benden iyi durumdasın o zaman. Ben zor dayanıyorum... Ama senin iyi olmana sevindim.",
+      "kim": "Codex",
+      "not": "Kıyaslamayı yarış çağrışımından çıkarır; içten desteği korur.",
+      "baglam": "NPC_OPEN · ALifeDialogue_yes_misc_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_67587b7e4d6ec665": {
+      "tr": "İki kocamı, bir de kızımı toprağa verdim. Bundan sonra neyden korkayım?",
+      "kim": "Codex",
+      "not": "Yaşlı kadının kayıplarını ve korkusuz tavrını doğal söyler.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_2.lua · role=family_elder|st=friendly,neutral|sex=f"
+    },
+    "RD_ALifeLine_5011f1233c64365f": {
+      "tr": "Birini kaybetmiş gibisin. Başın sağ olsun. Kim olduğunu anlatmak zorunda değilsin.",
+      "kim": "Codex",
+      "not": "Din adamının sakin, baskı kurmayan tesellisini korur.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_3.lua · role=rescue_clergy|st=friendly,neutral"
+    },
+    "RD_ALifeLine_5ce2e345388a6146": {
+      "tr": "Doğu tarafına gitme. Bir ev yanıyor, söndüren yok. Rüzgar dönerse yangın caddenin karşısına geçer.",
+      "kim": "Codex",
+      "not": "İtfaiyecinin konum ve yangın tehlikesi bilgisini açık tutar.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_1.lua · role=rescue_firefighter|world=fire,road,wind"
+    },
+    "RD_ALifeLine_531514d02e5efdee": {
+      "tr": "Pine'daki bir evden bir aile çıkardık. Teşekkür bile edemediler... Ağlayıp durdular.",
+      "kim": "Codex",
+      "not": "Kurtarılan ailenin halini suçlayıcı çağrışım olmadan aktarır.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_3.lua · role=rescue_firefighter|st=friendly,neutral"
+    },
+    "RD_ALifeLine_5ea80cfb5fbaec47": {
+      "tr": "Korkma benden. Alt tarafı elinde pompalı olan bir ihtiyarım.",
+      "kim": "Codex",
+      "not": "Yaşlı kadının silahıyla kurduğu kuru mizahı korur.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_2.lua · role=family_elder|st=friendly,neutral|sex=f"
+    },
+    "RD_ALifeLine_220a651353426020": {
+      "tr": "Eskiden sabah kahvesini içerken kocam hava durumu sunucusuyla atışırdı. Şimdi sabah olunca kim sağ kalmış diye bakıyorum.",
+      "kim": "Codex",
+      "not": "Sabah rutiniyle hayatta kalma kontrolü arasındaki farkı doğal anlatır.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_3.lua · reg=civilian,family,worker,rescue|st=friendly,neutral|sex=f|hour=5,10"
+    },
+    "RD_ALifeLine_031d71f466ab4ec0": {
+      "tr": "Nereye gideceğim, bilmiyorum. Bana yol gösterecek kim var, onu da bilmiyorum. Yürüyüp duruyorum işte.",
+      "kim": "Codex",
+      "not": "Belirsizlik ve amaçsız hareket duygusunu konuşma ritmiyle taşır.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_3.lua · reg=civilian,family,worker,rescue|st=friendly,neutral"
+    },
+    "RD_ALifeLine_0b10a399371dbf39": {
+      "tr": "İki gündür hangi kovada su bulsam içiyorum, susuzluğum geçmiyor. Sende içecek bir şey varsa...",
+      "kim": "Codex",
+      "not": "Sıcak havadaki susuzluğu ve yarım kalan isteği korur.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_3.lua · reg=civilian,family,worker,rescue|st=friendly,neutral|world=hot"
+    },
+    "RD_ALifeLine_14b1acbc7b2f0450": {
+      "tr": "Annem yan odada. Daha bir şey bilmiyor. Bilmesin istiyorum.",
+      "kim": "Codex",
+      "not": "Aile üyesinin durumu saklama isteğini kısa ve doğal söyler.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_1.lua · reg=family|st=friendly,neutral"
+    },
+    "RD_ALifeLine_4fb56fef17864cb7": {
+      "tr": "Pepper diye bir köpeğimiz vardı. Kediden büyük ne görse havlardı. Şimdi sana havlasa dünyalar benim olur.",
+      "kim": "Codex",
+      "not": "Kol verme deyimini özlemi taşıyan yerleşik Türkçe ifadeye çevirir.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_3.lua · reg=civilian,family,worker,rescue|st=friendly,neutral"
+    },
+    "RD_ALifeLine_19f8e60021e22ee0": {
+      "tr": "Kime sorsam seninle ilgili bir şey anlatıyor. Bütün haftadır hangisine inanacağımı düşünüyorum.",
+      "kim": "Codex",
+      "not": "Oyuncunun şöhretine dair güvensizliği doğal anlatır.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_1.lua · reg=civilian,family,worker,rescue|rep=worst"
+    },
+    "RD_ALifeLine_7fbb53453b523cde": {
+      "tr": "Bizim ufaklık senin iyi biri olup olmadığını soruyor. İyi birine benziyor, dedim.",
+      "kim": "Codex",
+      "not": "Aile dilini doğal kurar; kaynakta olmayan cinsiyet eklemez.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_2.lua · reg=family|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_0e90a2bb62845323": {
+      "tr": "Kim var orada?! Yaklaşma! Konuş, bir şey söyle de insan olduğunu bileyim!",
+      "kim": "Codex",
+      "not": "Korkmuş karakterin canlı birinden yanıt alma ihtiyacını korur.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=careful"
+    },
+    "RD_ALifeLine_213770f07ea24ad2": {
+      "tr": "Kardeşim, hata etmiş olsan da bağışlanma var. Ama önce dilemen gerek.",
+      "kim": "Codex",
+      "not": "Din adamının bağışlanma çağrısını açık, kısa Türkçeyle verir.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_3.lua · role=rescue_clergy|st=friendly,neutral|psex=m"
+    },
+    "RD_ALifeLine_328d594628c8b2ef": {
+      "tr": "Aracın yakıtı tükendi, benim de sabrım. Neyse, anlat bakalım.",
+      "kim": "Codex",
+      "not": "İtfaiyecinin paralel tükenmişlik şakasını ve dinleme kararını korur.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_3.lua · role=rescue_firefighter|st=friendly,neutral"
+    },
+    "RD_ALifeLine_38e12c7036c21cdf": {
+      "tr": "Sana yalan söyleyecek değilim. Kasabada durum kötü, bunun süslenecek yanı yok.",
+      "kim": "Codex",
+      "not": "Kurtarma görevlisinin dürüst ve sert haber verme tavrını korur.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_3.lua · reg=rescue|st=friendly,neutral|mood=grim"
+    },
+    "RD_ALifeLine_3f429c7c658dbb46": {
+      "tr": "Avlanmayı bilir misin? Balık tutmayı? Hiç mi? Öyleyse aç kalırsın sen.",
+      "kim": "Codex",
+      "not": "Yalnız yaşayan karakterin beceri sorgusunu Türkçe konuşma düzenine taşır.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_2.lua · role=civilian_loner|st=friendly,neutral"
+    },
+    "RD_ALifeLine_5e11f6fd0bd06d51": {
+      "tr": "Adımın önemi yok. Ailemi buradan çıkarmaya çalışıyorum, asıl mesele bu.",
+      "kim": "Codex",
+      "not": "Aile babasının adını önemsiz görüp ailesini kurtarmaya odaklanmasını doğal söyler.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_2.lua · role=family_man|st=friendly,neutral"
+    },
+    "RD_ALifeLine_5f5f43060142ee34": {
+      "tr": "Seni tedavi ederken bir de kendimi savunamam. Lütfen beni ikisinden birini seçmeye zorlama.",
+      "kim": "Codex",
+      "not": "Sağlık görevlisinin tehdit altındaki sınırını açık tutar.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_3.lua · role=rescue_medical|st=careful,hostile"
+    },
+    "RD_ALifeLine_7683af430d6735d8": {
+      "tr": "Senin için dua edebilir miyim? İstemiyorsan da sorun değil.",
+      "kim": "Codex",
+      "not": "Dua için rızayı ve reddetme serbestisini doğal bir teklifte toplar.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_3.lua · role=rescue_clergy|st=friendly,neutral"
+    },
+    "RD_ALifeLine_00de44c83089412d": {
+      "tr": "Şimdi arkadaşlarımla gölde olacaktım. Başka bir şey yoktu aklımda, bütün planımız buydu.",
+      "kim": "Codex",
+      "not": "Gencin yarım kalan basit planına verdiği önemi korur.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_2.lua · role=family_youth|st=friendly,neutral"
+    },
+    "RD_ALifeLine_0a1896ac29848acf": {
+      "tr": "Acilde gece nöbetlerine çıkardım. Daha kötüsünü görmem sanıyordum.",
+      "kim": "Codex",
+      "not": "Sağlık görevlisinin eski deneyiminin yetersiz kalışını doğal anlatır.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_3.lua · role=rescue_medical|st=friendly,neutral"
+    },
+    "RD_ALifeLine_0a809c2d76f7e44b": {
+      "tr": "İyi akşamlar evladım. Ağzına bir lokma koydun mu bugün? Bir deri bir kemik kalmışsın.",
+      "kim": "Codex",
+      "not": "Yaşlı karakterin yemek ve zayıflık kaygısını yerleşik Türkçeyle verir.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_1.lua · role=family_elder|hour=17,22"
+    },
+    "RD_ALifeLine_0eb9fcb271426f05": {
+      "tr": "Patron, altı üstü grip, diyordu. Suratı kireç gibiydi. Şimdi o da yok.",
+      "kim": "Codex",
+      "not": "İlk günlerdeki inkarı ve belirsiz kaybı korur.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_2.lua · reg=civilian|tmp=fresh|st=friendly,neutral|day=0,4"
+    },
+    "RD_ALifeLine_150f92f01e3a2ec9": {
+      "tr": "Buralarda olduğunu duydum... Duydum ama doğru çıkmasın diye dua ettim. Allah'ım, sen olamazsın...",
+      "kim": "Codex",
+      "not": "Kötü şöhretli oyuncuyu tanımanın yarattığı korkuyu korur.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_1.lua · reg=civilian,family,worker,rescue|rep=worst"
+    },
+    "RD_ALifeLine_2195e0b0391a0e51": {
+      "tr": "Eskiden iki adım atsan biri annen nasıl diye sorardı. Şimdi biri sorsa ne vermezdim.",
+      "kim": "Codex",
+      "not": "Kasaba yakınlığının kaybını para verme kalıbı olmadan aktarır.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_3.lua · reg=civilian,family,worker,rescue|st=friendly,neutral"
+    },
+    "RD_ALifeLine_3f2192ca189518f2": {
+      "tr": "Neler oluyor, sen biliyor musun? Bana kimse bir şey anlatmıyor.",
+      "kim": "Codex",
+      "not": "İlk günlerde yanıt arayan sivilin sorusunu doğal söyler.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_2.lua · reg=civilian|tmp=fresh|st=friendly,neutral|day=0,4"
+    },
+    "RD_ALifeLine_54769ffb253f140d": {
+      "tr": "Malzemem azaldı ama kesiğin varsa bir bakayım.",
+      "kim": "Codex",
+      "not": "Tıbbi yardımın kapsamını kesikle sınırlı tutar.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_3.lua · role=rescue_medical|st=friendly,neutral"
+    },
+    "RD_ALifeLine_54fe54e7605a2ea9": {
+      "tr": "Kocama göre senden uzak durmalıymışız. Bence sadece yolunu kaybetmişsin. Selam.",
+      "kim": "Codex",
+      "not": "Eşler arasındaki görüş farkını ve kadının dostça yaklaşımını korur.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_3.lua · reg=family|st=friendly,neutral|sex=f"
+    },
+    "RD_ALifeLine_5af8467f45007e31": {
+      "tr": "Edebini unutma evladım. Ortalık karıştı diye görgüyü de bir kenara atmayalım.",
+      "kim": "Codex",
+      "not": "Yaşlı karakterin toplumsal kuralları koruma isteğini doğal sesle verir.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_2.lua · role=family_elder|st=friendly,neutral"
+    },
+    "RD_ALifeLine_61fa52a46e6d2adc": {
+      "tr": "İyi günler. Gün yarılandı, ben daha bir iş beceremedim.",
+      "kim": "Codex",
+      "not": "Sonuç alamama yakınmasını yapay gösterecek şey kalıbından çıkarır.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_2.lua · reg=civilian,family,worker,rescue|st=friendly,neutral|hour=13,17"
+    },
+    "RD_ALifeLine_78073a877ab2fcdc": {
+      "tr": "Bir şey soracağım... Isırıldın mı? Yanında ısırılan var mı? Sormam lazım, çocuklarım var.",
+      "kim": "Codex",
+      "not": "Ebeveynin zorunlu güvenlik sorusunu kaygılı ritimle korur.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_2.lua · reg=family|tmp=fresh|st=friendly,neutral|day=0,4"
+    },
+    "RD_ALifeLine_7bb71c484c682e10": {
+      "tr": "Pompalım var, kaybedecek bir şeyim de yok. Ona göre davran.",
+      "kim": "Codex",
+      "not": "Adımına dikkat et deyimini gerçek tehdit anlamıyla aktarır.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_2.lua · role=family_elder|st=careful,hostile"
+    },
+    "RD_ALifeLine_105b48604d0207b2": {
+      "tr": "Dixie Highway'e çıkmadan gidebileceğimiz bir yol biliyor musun?",
+      "kim": "Codex",
+      "not": "Yolun etrafından dolaşma isteğini yanlış yön çağrışımı olmadan verir.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_2.lua · role=family_man|st=friendly,neutral"
+    },
+    "RD_ALifeLine_1f6678204f41d9e3": {
+      "tr": "Bijon anahtarı mı lazım, kriko mu? Kamyonetin kasasında dolu. Alırsın, ama önce bir sor.",
+      "kim": "Codex",
+      "not": "İşçinin paylaşım teklifini ve izin şartını konuşma dilinde korur.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_1.lua · reg=worker|st=friendly|world=vehicle"
+    },
+    "RD_ALifeLine_223cda337a126967": {
+      "tr": "Selam. Bu hafta karşıma çıkıp da beni ısırmaya ya da soymaya kalkmayan ilk kişisin. Bozma bari.",
+      "kim": "Codex",
+      "not": "Deneyimli sivilin temkinli mizahını Türkçe bitirişle korur.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_1.lua · reg=civilian,worker|tmp=seasoned|st=friendly"
+    },
+    "RD_ALifeLine_2607bcb14f8e0d38": {
+      "tr": "Komşum da onlardan biri oldu. Evine doğru bakmaya bile dayanamıyorum.",
+      "kim": "Codex",
+      "not": "Bakıştan kaçınmanın duygusal nedenini doğal ifade eder.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_3.lua · reg=civilian,family,worker,rescue|st=friendly,neutral"
+    },
+    "RD_ALifeLine_390492ba1f9b4923": {
+      "tr": "Allah'ım... Sahiden biri var! Buradasın! Bir tek ben kaldım sanmıştım.",
+      "kim": "Codex",
+      "not": "İnsanla karşılaşmanın şaşkınlığını yapay gerçeksin ifadesinden çıkarır.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_2.lua · reg=civilian|tmp=fresh|st=friendly,neutral|day=0,4"
+    },
+    "RD_ALifeLine_4b0b04fe203dfad8": {
+      "tr": "Fabrikada olanları gördün mü? Adamlar yığılıp kalıyordu. Sonra kalktılar ama... O eski halleri yoktu.",
+      "kim": "Codex",
+      "not": "İlk günlerdeki dönüşümü bilgi eklemeden ürkek gözlemle aktarır.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_3.lua · reg=worker|st=friendly,neutral|day=0,4"
+    },
+    "RD_ALifeLine_67057d9f4aec1a82": {
+      "tr": "Kayınbiraderimin çiftliği var. Oraya bir varabilsek kurtuluruz... Umarım.",
+      "kim": "Codex",
+      "not": "Akrabalık ilişkisini doğru terimle kısaltır; umudu kesinleştirmez.",
+      "baglam": "GREET_PLAYER · ALifeDialogue_barks_greet_2.lua · reg=family|tmp=fresh|st=friendly,neutral|sex=f"
+    },
+    "RD_ALifeLine_42b739f3078aec19": {
+      "tr": "Umarım susamamışsındır. İçecek namına bir şey kalmadı.",
+      "kim": "Codex",
+      "not": "Aile kadınının mahcup kaynak sıkıntısını doğal söyler.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_4.lua · role=family_woman|st=friendly,neutral"
+    },
+    "RD_ALifeLine_367833f56e33b7f8": {
+      "tr": "Bende bir şey yok, isteme olur mu? Bir daha yok demeye içim elvermez.",
+      "kim": "Codex",
+      "not": "Yardım edememenin ağırlığını yerleşik Türkçeyle korur.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_3.lua · reg=civilian,family|tmp=fresh"
+    },
+    "RD_ALifeLine_4c23c58343df6bdd": {
+      "tr": "Bizden artan bir şey yok. Olsa verirdik.",
+      "kim": "Codex",
+      "not": "Temkinli ailenin elindekinin ancak kendilerine yettiğini açıklar.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_4.lua · reg=family|st=careful"
+    },
+    "RD_ALifeLine_19ae1c8d2d9d60c2": {
+      "tr": "Bende almaya değecek bir şey yok. Sağ ol, yine de bir baktın.",
+      "kim": "Codex",
+      "not": "Yalnız karakterin üstünün süzülmesine verdiği alaycı yanıtı korur.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_4.lua · role=civilian_loner|st=friendly,neutral"
+    },
+    "RD_ALifeLine_223d44600f26c908": {
+      "tr": "Şu küçücük, dandik yatağımda olsam yeter.",
+      "kim": "Codex",
+      "not": "Üzgün gencin sıradan yatağına duyduğu özlemi doğal söyler.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_4.lua · role=family_youth|st=friendly,neutral|mood=sad"
+    },
+    "RD_ALifeLine_239ff8021fd912db": {
+      "tr": "Eve dönsek yeter diyoruz. Ama artık ev diye nereye döneceğiz, bilmiyorum.",
+      "kim": "Codex",
+      "not": "Ailenin ev isteğini kayıp güven duygusuyla bağlar.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_4.lua · reg=family|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_2d03e72d512c94e4": {
+      "tr": "Neyin peşindesin, sormayacağım. Lütfen geç git.",
+      "kim": "Codex",
+      "not": "Din adamının temkinli uzaklaştırma isteğini kısa tutar.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_5.lua · role=rescue_clergy|st=careful,hostile"
+    },
+    "RD_ALifeLine_2e26cf8d3388b735": {
+      "tr": "Ateş etme, lütfen! Benden zarar gelmez, geçip gidiyorum!",
+      "kim": "Codex",
+      "not": "Ben bir şey değilim ifadesini tehdit olmadığını söyleme niyetiyle düzeltir.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_5.lua · reg=civilian,family|tmp=fresh|st=friendly,neutral|mood=fear"
+    },
+    "RD_ALifeLine_692dfdcb0b2101d0": {
+      "tr": "Yürümeye devam et canım. Bir kere tam bir saat kıpırdamadan durdum, ne olduğunu anlamadan üstüme çullandılar.",
+      "kim": "Codex",
+      "not": "Deneyimli karakterin yolda oyalanmama uyarısını ve başından geçen olayı doğal aktarır.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_3.lua · reg=civilian,worker,rescue|tmp=seasoned"
+    },
+    "RD_ALifeLine_0eb23ff145655608": {
+      "tr": "Cumadan beri arkadaşlarımdan iz yok. Benim yaşlarımda kimseye rastladın mı?",
+      "kim": "Codex",
+      "not": "Gencin arayışını doğal ifade eder; cuma bilgisini korur.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_4.lua · role=family_youth|st=friendly,neutral"
+    },
+    "RD_ALifeLine_2b9ec7ca06ba88ad": {
+      "tr": "Ay, ödümü kopardın! Kusura bakma, göz gözü görmüyor.",
+      "kim": "Codex",
+      "not": "Gece karanlığındaki korkuyu kısa, yerleşik ifadeyle verir.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_4.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral|hour=21,4"
+    },
+    "RD_ALifeLine_44eec6617bc78402": {
+      "tr": "Kaynanama göre dünyanın sonu Rab'bin takdiri. Bana sorarsan ortalık fena halde karıştı.",
+      "kim": "Codex",
+      "not": "Kayınvalideyle görüş farkını korur; Hristiyan hitabını muhafaza eder.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_3.lua · reg=family|st=friendly,neutral"
+    },
+    "RD_ALifeLine_4714358964581943": {
+      "tr": "Konuşmana gerek yok. Duyduysan başınla bir işaret et yeter.",
+      "kim": "Codex",
+      "not": "Yaşlı karakterin yanıt beklentisini doğal hareket anlatımıyla verir.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_4.lua · role=family_elder|st=friendly,neutral"
+    },
+    "RD_ALifeLine_55469e6e473bb599": {
+      "tr": "Arkadaşlarına da söyle lütfen. Biz kimseye bulaşmayız, yeter ki bizi rahat bıraksınlar.",
+      "kim": "Codex",
+      "not": "Ailenin çatışmadan uzak durma isteğini doğal bağlar.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_4.lua · reg=family|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_6e69108d5d5daf44": {
+      "tr": "Ortalık sessiz diye güvenli sanıyorum... Artık farkı anlayamıyorum.",
+      "kim": "Codex",
+      "not": "Yeni sivilin sessizlik ile güvenliği ayırt edememesini konuşma dilinde verir.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_4.lua · reg=civilian|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_7931583938b2c1c2": {
+      "tr": "Bir şey soracağım... Geriye bir biz mi kaldık? Başka kimse yok mu?",
+      "kim": "Codex",
+      "not": "Yalnız kalma korkusunu işlevli soru tekrarıyla aktarır.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_4.lua · reg=civilian|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_18486eef2d328c08": {
+      "tr": "Oralarda işi gücü kalan var mı? İsterse benimkiyle değişelim.",
+      "kim": "Codex",
+      "not": "İşçinin çalışma hayatına dair kısa şakasını doğal söyler.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_3.lua · reg=worker|st=friendly,neutral"
+    },
+    "RD_ALifeLine_21ae68d516ef5ca1": {
+      "tr": "Sende şöyle doğru düzgün bir ilçe haritası var mı?",
+      "kim": "Codex",
+      "not": "Gerçek olanından ifadesinin yapaylığını giderir; harita talebini korur.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_4.lua · role=family_man|st=friendly,neutral"
+    },
+    "RD_ALifeLine_41ddc2fd3a4f9116": {
+      "tr": "Zamanla anlıyorsun. Hangisi hızlı, hangisinin sadece sesi çıkıyor...",
+      "kim": "Codex",
+      "not": "Deneyimin getirdiği ayrımı tehditleri küçümsemeden aktarır.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_5.lua · reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral|day=5,9999"
+    },
+    "RD_ALifeLine_4fee83ad56b05c0e": {
+      "tr": "Walkman de gitti. Şimdi sessizliği dinliyorum. Çekilecek şey değil.",
+      "kim": "Codex",
+      "not": "Kaynağın belirtmediği pil arızasını çıkarır; dönem eşyasını korur.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_4.lua · role=family_youth|st=friendly,neutral"
+    },
+    "RD_ALifeLine_5daf159a79ae9a0a": {
+      "tr": "Sargı bezi isteyen? Bin tane var, çekinmeyin söyleyin!",
+      "kim": "Codex",
+      "not": "Neşeli kurtarma görevlisinin topluluğa seslenmesini korur.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_5.lua · reg=rescue|st=friendly,neutral|mood=funny"
+    },
+    "RD_ALifeLine_6e8efae27d671ef9": {
+      "tr": "Hoş geldin, hoş geldin! Rab'bin dostuna kapım açık.",
+      "kim": "Codex",
+      "not": "Din adamının sıcak karşılamasını Türkçede yaşayan bir ifadeyle verir.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_5.lua · role=rescue_clergy|st=friendly,neutral|mood=warm"
+    },
+    "RD_ALifeLine_7e4d8b4351973c11": {
+      "tr": "Sirenleri duyduk, sonra ses seda kesildi... Bu sessizlik ne demek?",
+      "kim": "Codex",
+      "not": "Ailenin sirenlerden sonra gelen sessizliğin anlamını sorgulamasını doğal söyler.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_4.lua · reg=family|tmp=fresh|st=friendly,neutral|day=0,4"
+    },
+    "RD_ALifeLine_025007e439f80ad6": {
+      "tr": "Selam canım. Açsan fasulye var. Başka da pek bir şeyimiz yok.",
+      "kim": "Codex",
+      "not": "Sınırlı yemeği paylaşan aile kadınının sesini doğal tutar.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_4.lua · role=family_woman|st=friendly,neutral"
+    },
+    "RD_ALifeLine_10c4ec7e05358c17": {
+      "tr": "Yaklaşma lütfen! Yemin ederim bir şeyim yok!",
+      "kim": "Codex",
+      "not": "Temkinli sivilin korkulu yeminini kısa tutar.",
+      "baglam": "PASSING_PLAYER · ALifeDialogue_barks_passing_4.lua · reg=civilian|tmp=fresh|st=careful"
+    },
+    "RD_ALifeLine_19caee5b72f8c14a": {
+      "tr": "Yok... Yani, evet... Yok yok, ben bir şey dememiş olayım!",
+      "kim": "Codex",
+      "not": "Dağınık karar değişikliğini Türkçe duraksamalarla korur.",
+      "baglam": "GENERIC · ALifeDialogue_no_misc_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_384788de78a2cf8c": {
+      "tr": "Evet... Tamam... Pardon. Bir şey için de olsa birinden evet duymaya ihtiyacım varmış.",
+      "kim": "Codex",
+      "not": "Birinin olumlu yanıtını duymaya duyduğu ihtiyacı doğal söyler.",
+      "baglam": "GENERIC · ALifeDialogue_yes_misc_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_4bfc7cd8044aa7bf": {
+      "tr": "Ben... Evet dersin diye umutlanmıştım.",
+      "kim": "Codex",
+      "not": "Reddedilme hayal kırıklığını dolgu sözcükleri olmadan aktarır.",
+      "baglam": "GENERIC · ALifeDialogue_no_misc_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_31aafee963b18555": {
+      "tr": "T-tamam, şey... Sorun yok. Alınmadım, sadece... Neyse, boş ver.",
+      "kim": "Codex",
+      "not": "Kekelemeyi ve bastırılan kırgınlığı korur.",
+      "baglam": "GENERIC · ALifeDialogue_no_misc_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_5cb8bb0c75dc0197": {
+      "tr": "Evet mi? Ciddi misin? Oh be! Kendimi hayır cevabına hazırlamıştım.",
+      "kim": "Codex",
+      "not": "Beklenmedik kabul karşısındaki rahatlamayı doğal aktarır.",
+      "baglam": "GENERIC · ALifeDialogue_yes_misc_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_7084f1a2243f1aac": {
+      "tr": "Öyle mi? Ciddi misin? Tamam... Oh, içime su serptin.",
+      "kim": "Codex",
+      "not": "Olumlu yanıtla gelen belirgin rahatlamayı doğal deyimle verir.",
+      "baglam": "GENERIC · ALifeDialogue_yes_misc_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_7d79af0747581f16": {
+      "tr": "Oh! Başka bir şey diyeceksin sandım. İyi, iyi.",
+      "kim": "Codex",
+      "not": "Yanıtı beklerken yaşanan endişeyi ve rahatlamayı korur.",
+      "baglam": "GENERIC · ALifeDialogue_yes_misc_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_0e01488e339d3012": {
+      "tr": "Tamam... Tamam, içim rahatladı. Sahiden rahatladım.",
+      "kim": "Codex",
+      "not": "Rahatlama tekrarını korur; cümleyi doğal Türkçe kurar.",
+      "baglam": "GENERIC · ALifeDialogue_yes_misc_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_1f4740b77931847f": {
+      "tr": "Kızmadım, merak etme. Biraz içim burkuldu, o kadar.",
+      "kim": "Codex",
+      "not": "Dostça yanıttaki kırgınlığı öfkeye dönüştürmez.",
+      "baglam": "GENERIC · ALifeDialogue_no_misc_1.lua · reg=civilian,family,worker,rescue|st=friendly"
+    },
+    "RD_ALifeLine_28ce8a81316f73b0": {
+      "tr": "Vay, sonunda bir evet! Elime yazayım da unutmayayım.",
+      "kim": "Codex",
+      "not": "Kabul karşısındaki küçük şakayı Türkçe ritme taşır.",
+      "baglam": "GENERIC · ALifeDialogue_yes_misc_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|st=friendly,neutral"
+    },
+    "RD_ALifeLine_0fb9d96251960b34": {
+      "tr": "Lütfen... Bir sabahı göreyim. Tek istediğim bu. Sabah olsun...",
+      "kim": "Codex",
+      "not": "Gece korkusundaki yaşama isteğini işlevli tekrarla verir.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · tmp=fresh|hour=20,4|mood=fear"
+    },
+    "RD_ALifeLine_49b4bc31765cf393": {
+      "tr": "Cuma günü karımı aldılar elimden. Bende almaya değecek bir şey kalmadı. Bıraksan geçsem... Olur mu?",
+      "kim": "Codex",
+      "not": "Cuma ve eş kaybını korur; yalvarışı doğal kurar.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian,family|tmp=fresh|sex=m|day=0,20"
+    },
+    "RD_ALifeLine_00d5961f44a5d6ba": {
+      "tr": "O şeylerin Miller ailesini gözümün önünde yok ettiğini gördüm... Bari sonum bir insanın elinden olmasın. Ne olur.",
+      "kim": "Codex",
+      "not": "Zombi saldırısında bir ailenin öldürülmesini ve insan eliyle ölmek istememe çağrısını korur.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian,family|tmp=fresh"
+    },
+    "RD_ALifeLine_504e029f7c97c346": {
+      "tr": "Cebimde evin anahtarı var... Açacağı bir kapı bile kalmadı artık.",
+      "kim": "Codex",
+      "not": "İşe yaramayan ev anahtarının taşıdığı kaybı doğal anlatır.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian|tmp=fresh"
+    },
+    "RD_ALifeLine_18f464eb5ce50e5c": {
+      "tr": "Ne varsa al... Şu fotoğraf kalsa olur mu? Başka yok bende.",
+      "kim": "Codex",
+      "not": "Tek fotoğrafı saklama isteğini kısa bir yalvarışa dönüştürür.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian,family|tmp=fresh"
+    },
+    "RD_ALifeLine_2ba3c0c15ca7111e": {
+      "tr": "Bir bugünü de sağ çıkarayım... Bırak gideyim, lütfen.",
+      "kim": "Codex",
+      "not": "Bugünü atlatma isteğini tehdit altındaki sahneye uygun söyler.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian,family|tmp=fresh"
+    },
+    "RD_ALifeLine_4b30b4c12f077f5d": {
+      "tr": "Bu hafta bahçe küreğiyle iki mezar kazdım. Ne olur, bir başkası da benim mezarımı kazmasın.",
+      "kim": "Codex",
+      "not": "Mezar sayısını ve sıradan aleti korur; tehdidin sonucunu doğal bağlar.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian,family,worker|tmp=fresh"
+    },
+    "RD_ALifeLine_7ad2b085519bb09e": {
+      "tr": "Ben sana ne yaptım?! Niye yapıyorsun bunu?!",
+      "kim": "Codex",
+      "not": "Masumiyet savunmasını korkulu, doğrudan soruya çevirir.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian,family,worker,rescue|tmp=fresh"
+    },
+    "RD_ALifeLine_1bd32c08596f1f48": {
+      "tr": "Ne istiyorsan söyle... Ama yavaş söyle, yanlış anlamayayım.",
+      "kim": "Codex",
+      "not": "Panik içindeki doğru duyma ihtiyacını doğal aktarır.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian,family,worker|tmp=fresh"
+    },
+    "RD_ALifeLine_207502d6595842e1": {
+      "tr": "Hiçbirimiz hasta değiliz! Bak, kollarıma bak! Ne olur, bir bak!",
+      "kim": "Codex",
+      "not": "Israrın işlevini korur; hastalık kontrolünü ek bilgi olmadan aktarır.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian,family|tmp=fresh"
+    },
+    "RD_ALifeLine_2922999b14990a84": {
+      "tr": "Ne yaptıysam affet. Bilmiyorum ki ne yaptım... Ama özür dilerim.",
+      "kim": "Codex",
+      "not": "Korkuyla özür dileyen karakterin belirsizliğini korur.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian,family|tmp=fresh"
+    },
+    "RD_ALifeLine_295a500b3368c975": {
+      "tr": "Bir şey yapmadım! YEMİN EDERİM, bir şey yapmadım!",
+      "kim": "Codex",
+      "not": "İnkardaki vurguya doğal konuşma sırası verir.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · tmp=fresh"
+    },
+    "RD_ALifeLine_31c58dc869ff520d": {
+      "tr": "Yemekleri al, ama fotoğrafları bırak. Ondan bana bir onlar kaldı.",
+      "kim": "Codex",
+      "not": "Kaybedilen kişinin kimliğini uydurmadan son hatıra isteğini korur.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian,family,worker,rescue|tmp=fresh"
+    },
+    "RD_ALifeLine_4ee842b447e3f4d0": {
+      "tr": "Al kamyonun anahtarını! Öndeki yeşil kamyon, çalışıyor! Yeter ki... Lütfen!",
+      "kim": "Codex",
+      "not": "Araç rengi, konumu ve çalışır oluşunu panik ritminde korur.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian,family|tmp=fresh|world=vehicle"
+    },
+    "RD_ALifeLine_5036075760b4d4c6": {
+      "tr": "Lütfen! Pazar okulunda ders veriyordum ben! Bir karıncayı bile incitmedim!",
+      "kim": "Codex",
+      "not": "Dini okul bilgisini korur; masumiyet ifadesini yerleşik deyimle verir.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · role=rescue_clergy,family_woman|tmp=fresh"
+    },
+    "RD_ALifeLine_7202fa8b01d3143b": {
+      "tr": "Kaldırdım ellerimi! Bak, HAVADA! Bir şey yaptığım yok!",
+      "kim": "Codex",
+      "not": "Teslimiyet işaretini sahnede söylenebilecek kısa cümlelere çevirir.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian,family,worker|tmp=fresh"
+    },
+    "RD_ALifeLine_05b7e99f581914d4": {
+      "tr": "İhtiyar bir kadınım ben, ne zararım dokunur sana? Bırak yakamı.",
+      "kim": "Codex",
+      "not": "Yaşlı kadının karşı çıkışını doğal söyler.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · role=family_elder|sex=f"
+    },
+    "RD_ALifeLine_21f00e7b7fc7891e": {
+      "tr": "Canımı yakma... Bırak gideyim, lütfen!",
+      "kim": "Codex",
+      "not": "Ailenin kaçma isteğini daha kısa, yalvaran bir söyleyişle verir.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=family"
+    },
+    "RD_ALifeLine_3e413feb2df7dbfa": {
+      "tr": "Buna mecbur değilsin. Bak, değilsin.",
+      "kim": "Codex",
+      "not": "Deneyimli karakterin saldırganı vazgeçirme çabasını kısa tutar.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · tmp=seasoned"
+    },
+    "RD_ALifeLine_46a4757521db76c4": {
+      "tr": "Peşimde bir düzine var! Onlardan kaçıyorum, yol ver ne olur!",
+      "kim": "Codex",
+      "not": "Takipçilerin sayısını ve geçiş isteğini korur.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian,family|tmp=fresh"
+    },
+    "RD_ALifeLine_56eac07b238baa2e": {
+      "tr": "Bende canıma değecek ne var ki? Lütfen...",
+      "kim": "Codex",
+      "not": "Eşyaları için öldürülmeye değmeyeceğini doğal yalvarışla aktarır.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian,family|tmp=fresh"
+    },
+    "RD_ALifeLine_6a9b23d33bc5eaf0": {
+      "tr": "Evde bağlı bir köpek var. Orada olduğunu kimse bilmiyor, bir ben... Lütfen.",
+      "kim": "Codex",
+      "not": "Hayvanın yalnız kalma riskini kaynakta olmayan sonuç eklemeden hissettirir.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian,family|tmp=fresh"
+    },
+    "RD_ALifeLine_6dd559341337b045": {
+      "tr": "Şeker hastasıyım, zor adım atıyorum. Kiliseye varayım yeter.",
+      "kim": "Codex",
+      "not": "Sağlık durumunu ve gidilen yeri korur.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian,family|tmp=fresh"
+    },
+    "RD_ALifeLine_776037cc25ae0d4d": {
+      "tr": "Bak, ellerim boş! Bir şeyim yok! Ne olur, yapma!",
+      "kim": "Codex",
+      "not": "Boş elleri göstererek yalvaran karakterin ritmini korur.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · reg=civilian,family,worker,rescue|tmp=fresh"
+    },
+    "RD_ALifeLine_34c4e24e32f8f05d": {
+      "tr": "Sağlıkçıyım ben! Beni öldürürsen, dikiş atacağım sıradaki kişi de ölür!",
+      "kim": "Codex",
+      "not": "Sağlık görevlisinin mesleğini ve kendisi ölürse bir sonraki yaralının da öleceği uyarısını korur.",
+      "baglam": "PLEAD · ALifeDialogue_barks_misc_7.lua · role=rescue_medical"
+    },
+    "RD_ALifeLine_39c24cd550e6b4ec": {
+      "tr": "Gitme... Ne olur, yanımda kal... Ahh...",
+      "kim": "Codex",
+      "not": "Yaralı karakterin yalnız bırakılmama isteğini doğal söyler.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_593913986d9c3444": {
+      "tr": "Eve dönecektim ben... Ahh... Tek istediğim buydu...",
+      "kim": "Codex",
+      "not": "Yaralının yarım kalan eve dönüş isteğini korur.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua · reg=civilian,family,worker,rescue"
+    },
+    "RD_ALifeLine_4f5e71d63fcb7217": {
+      "tr": "Ahh... Uyusam... Bir uyuyabilsem...",
+      "kim": "Codex",
+      "not": "Uyku isteğini yaralının kesik nefesine uygun verir.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_6cc5c70e65b60316": {
+      "tr": "Bir parça bez var mı?.. Ahh... Ne olursa...",
+      "kim": "Codex",
+      "not": "Acil malzeme isteğini yapay herhangi bir şey ifadesinden çıkarır.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_66771a6f02db002b": {
+      "tr": "Ne olduğunu biliyorum... Ahh... Daha beterlerini de tedavi ettim.",
+      "kim": "Codex",
+      "not": "Kurtarma görevlisinin daha ağır vakalarla başa çıktığına tutunmasını doğal aktarır.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua · reg=rescue"
+    },
+    "RD_ALifeLine_0243749f2cc7e849": {
+      "tr": "Ahh... Sırtım... Sırtımda bir terslik var...",
+      "kim": "Codex",
+      "not": "Sırtta yabancı cisim varmış gibi duran anlamı düzeltir.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_0d1a61e93ffffbc5": {
+      "tr": "Bir çizikti alt tarafı... Ahh... Bir çizik...",
+      "kim": "Codex",
+      "not": "Önemsiz sanılan yaranın kötüleşmesine duyulan şaşkınlığı korur.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_44f7718c0383983b": {
+      "tr": "Ahh... Nerede silahım?.. Silahım... Ahh...",
+      "kim": "Codex",
+      "not": "Silahını arayan yaralının yarım kalan sözünü doğal sıralar.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_58cd92475e76ed48": {
+      "tr": "Ahh... Bir saat daha dayansam... Bir saat daha...",
+      "kim": "Codex",
+      "not": "Yaralının zaman kazanma isteğini konuşma dilinde verir.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_7ea087eb383478bf": {
+      "tr": "Kaburgalarım... Ahh... Nefes aldıkça batıyor...",
+      "kim": "Codex",
+      "not": "Nefesle artan acıyı doğal Türkçeyle aktarır; yeni teşhis eklemez.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_2b3bfa7e08a67d04": {
+      "tr": "Sanki... Ahh... Dibe batıyorum...",
+      "kim": "Codex",
+      "not": "Yaralının batma hissini korur.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_3b7cffec3404cc1c": {
+      "tr": "Ih... Ahh... Tamam... Tamam... Nefes al, nefes...",
+      "kim": "Codex",
+      "not": "Kendini sakinleştiren yaralının işlevli tekrarını korur.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_3d66bc0a1de2f73e": {
+      "tr": "Biri... Benimle dua etsin... Ahh... Lütfen...",
+      "kim": "Codex",
+      "not": "Çevredeki herhangi birine yönelen dua isteğini doğal kurar.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_239cf6cc758750a8": {
+      "tr": "Ellerimi... Hiç hissetmiyorum... Ahh...",
+      "kim": "Codex",
+      "not": "Uyuşmanın şiddetini kısa, kesik ifadeyle verir.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_65e575cd2c04eabc": {
+      "tr": "Hadi, hadi... Ahh... Bırakma kendini, hadi...",
+      "kim": "Codex",
+      "not": "Stay with it ifadesini yaralının direnme çabasıyla karşılar.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_0eea790a1426c459": {
+      "tr": "Ahh... Biri... Yardım etsin...",
+      "kim": "Codex",
+      "not": "Yardım çağrısını dolgu sözcüğü olmadan kesik nefesle verir.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_171ae53122472638": {
+      "tr": "Karıma haber vermeyin... Ahh... Daha değil...",
+      "kim": "Codex",
+      "not": "Eşine haberin geciktirilmesi isteğini doğal aktarır.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua · reg=civilian,family,worker,rescue"
+    },
+    "RD_ALifeLine_20cb58a41fc6dade": {
+      "tr": "Ahh... Üstesinden gelirim... Gelirim...",
+      "kim": "Codex",
+      "not": "Yaralının kendine güven verme çabasını korur.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_2f2b769d0b5ce2df": {
+      "tr": "Ahh... Duyuyorum... Onları duyuyorum...",
+      "kim": "Codex",
+      "not": "Yaralının duyduğu kişilerin kim olduğunu açıklamadan korkusunu korur.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_5470c0a73b3288e0": {
+      "tr": "Ahh... Kalkmam gerek... Ayağa... Ahh...",
+      "kim": "Codex",
+      "not": "Ayağa kalkma isteğini yarım kalan sözle verir.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_690b1cdb5d9879bd": {
+      "tr": "Biri... Bir şey söylesin... Ne olursa...",
+      "kim": "Codex",
+      "not": "Yaralının çevresinden bir ses duymak istediğini doğal söyler.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_6b722d5f5657f129": {
+      "tr": "O kadar kötü değil... Değil mi? Ahh... Lütfen, değil de...",
+      "kim": "Codex",
+      "not": "Yaralı karakterin korkuyla güvence aramasını ve tekrarı korur.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_7c6faa0a0eeaf926": {
+      "tr": "Elimi hissedemiyorum... Neden hissetmiyorum?",
+      "kim": "Codex",
+      "not": "Uyuşmayı yalın bir korku sorusuyla aktarır.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_0235db2d1ce35578": {
+      "tr": "Gitme... Ne olur, beni burada bırakma...",
+      "kim": "Codex",
+      "not": "Yaralının yalnız kalma korkusunu kesik nefesle verir.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_0a6347c25e52b056": {
+      "tr": "Sen de duydun mu?.. Ahh... Onlar mı?",
+      "kim": "Codex",
+      "not": "Gelen sesin kaynağını soran belirsizliği korur.",
+      "baglam": "INJURED_DOWN · ALifeDialogue_barks_injured_1.lua"
+    },
+    "RD_ALifeLine_49323bd47c181c2e": {
+      "tr": "Allah'ım, vurdu onu! VURDU! Tehlikeli demiştim sana!",
+      "kim": "Codex",
+      "not": "Saldırganın birine vurduğunu ve tanığın korkusunu canlı aktarır.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · reg=civilian,family,worker,rescue|rep=worst"
+    },
+    "RD_ALifeLine_3e4cda1e0b86d662": {
+      "tr": "Dur! Onu rahat bırak! Bir şey yapmadı ki!",
+      "kim": "Codex",
+      "not": "Mağduru savunan sivilin öfkesini kısa ve doğal verir.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · reg=civilian,family|tmp=fresh"
+    },
+    "RD_ALifeLine_15979e3c48fffad4": {
+      "tr": "Tamam, tutuyorum seni... Bana bak, ona değil.",
+      "kim": "Codex",
+      "not": "Sağlık görevlisinin yaralıyı sakinleştirme ve dikkatini yöneltme çabasını korur.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · role=rescue_medical|mood=warm"
+    },
+    "RD_ALifeLine_27008ba300d9e3cd": {
+      "tr": "O bizdendi, seni orospu çocuğu— Bizden biriydi!",
+      "kim": "Codex",
+      "not": "Deneyimli karakterin yarıda kesilen küfrünü ve kaybın vurgusunu korur.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · tmp=seasoned|mood=angry"
+    },
+    "RD_ALifeLine_5247f73a396d2190": {
+      "tr": "Bir çocuğu vardı onun! Biliyor musun? Bir çocuğu vardı!",
+      "kim": "Codex",
+      "not": "Kurbanın ailesini öfkeyle hatırlayan tekrarını korur.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · tmp=seasoned|mood=angry"
+    },
+    "RD_ALifeLine_020b90e63f9ea55a": {
+      "tr": "Benimle kal... Duyuyor musun? Benimle KAL!",
+      "kim": "Codex",
+      "not": "Yaralıyı hayatta tutmaya çalışan arkadaşın acil çağrısını verir.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · tmp=seasoned"
+    },
+    "RD_ALifeLine_192fd6495c3079af": {
+      "tr": "Oğluma ateş ettin. Bunun telafisi yok.",
+      "kim": "Codex",
+      "not": "Aile babasının yapılan saldırıya karşı kesin tavrını doğal kurar.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · role=family_man,family_woman"
+    },
+    "RD_ALifeLine_5b9c2d8033644ebb": {
+      "tr": "Hey! O benim ekip arkadaşım! Geri çekil!",
+      "kim": "Codex",
+      "not": "İtfaiyeci ya da polisin çalışma arkadaşını koruma çağrısını doğru terimle verir.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · role=rescue_firefighter,law_officer"
+    },
+    "RD_ALifeLine_6f6cc2c27a2c8b39": {
+      "tr": "Ona bir daha dokunma! Yarayı göreyim, çekil!",
+      "kim": "Codex",
+      "not": "Sağlık görevlisinin saldırganı durdurup yaraya bakma isteğini ayırır.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · role=rescue_medical"
+    },
+    "RD_ALifeLine_4bc6e38f6d71fe9d": {
+      "tr": "Danny'ye ateş etti! Danny'ye! Biri bir şey yapsın!",
+      "kim": "Codex",
+      "not": "Silah atışını isabet varsaymadan bildirir.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · reg=civilian,family,worker,rescue|st=friendly,neutral,careful,hostile"
+    },
+    "RD_ALifeLine_7ae95208654007b4": {
+      "tr": "Hey, hey... Yapma! Burada olmaz... Şu lanet kaldırımın üstünde hiç olmaz!",
+      "kim": "Codex",
+      "not": "Deneyimli karakterin yere düşmüş arkadaşına duyduğu endişeyi doğal söyler.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · tmp=seasoned|mood=grim|world=road"
+    },
+    "RD_ALifeLine_2ed3ce7c3096864e": {
+      "tr": "Torunumu rahat bırak! Yoksa yemin ederim—",
+      "kim": "Codex",
+      "not": "Yaşlı karakterin tehdit cümlesini yarım bırakarak bitirir.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · role=family_elder"
+    },
+    "RD_ALifeLine_369aa35f03a640f7": {
+      "tr": "Kıpırdamıyor... Hey, hey! Kıpırdamıyor!",
+      "kim": "Codex",
+      "not": "Şaşkınlık içindeki tekrarı ve hareketsizliği korur.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · tmp=fresh|mood=fear"
+    },
+    "RD_ALifeLine_59452c2b02e7d2ae": {
+      "tr": "Bize ateş ediyorlar! Kaçın! Bir şeyin arkasına geçin!",
+      "kim": "Codex",
+      "not": "Grup uyarısında saldırı ve korunma talimatını açık verir.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · reg=civilian,family,worker,rescue|st=friendly,neutral,careful,hostile"
+    },
+    "RD_ALifeLine_7a270f264003d4e0": {
+      "tr": "Tanrım, Wanda'yı vurdular! Wanda, bana bak... Bana bak!",
+      "kim": "Codex",
+      "not": "Yaralıya yönelen telaşı ve ismi korur.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · reg=civilian,family|tmp=fresh"
+    },
+    "RD_ALifeLine_00073157630b4091": {
+      "tr": "Yarasına bastırın! İki elinizle! Ağırlığınızı verin!",
+      "kim": "Codex",
+      "not": "İlk yardım komutlarını anlaşılır ve uygulanabilir söyler.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · role=rescue_medical,rescue_firefighter"
+    },
+    "RD_ALifeLine_0e44e2ea28fb1508": {
+      "tr": "Bizden biri o! Onlara dokunma!",
+      "kim": "Codex",
+      "not": "Aile babasının grubundan birini savunma çağrısını doğal kurar.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · role=family_man"
+    },
+    "RD_ALifeLine_2bc7093f202c2e87": {
+      "tr": "Hepimize bulaşmak mı istiyorsun?",
+      "kim": "Codex",
+      "not": "Tehditteki meydan okumayı Türkçe konuşma kalıbıyla verir.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua"
+    },
+    "RD_ALifeLine_6759caee5f269b02": {
+      "tr": "Seksen mil birlikte yol aldık... Seksen mil...",
+      "kim": "Codex",
+      "not": "Deneyimli karakterin ortak yolculuğu hatırlayan yaslı tekrarını korur.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · tmp=veteran|mood=sad"
+    },
+    "RD_ALifeLine_01823f7322378792": {
+      "tr": "Yine yapıyor! YİNE! Biri durdursun onu!",
+      "kim": "Codex",
+      "not": "Daha önce tekrarlanan saldırıya tanık olan kişinin paniğini korur.",
+      "baglam": "MATE_HIT_BY_PLAYER · ALifeDialogue_barks_mate_1.lua · reg=civilian,family,worker,rescue|rep=worst"
+    },
+    "RD_ALifeLine_699f528d24650452": {
+      "tr": "Biri sarhoş olduğunu söylesin... Lütfen, sadece sarhoş olsun...",
+      "kim": "Codex",
+      "not": "Yeni sivillerin durumu inkar eden korkulu umudunu korur.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|mood=fear"
+    },
+    "RD_ALifeLine_5fb659ae238b9446": {
+      "tr": "Dokunma ona! Yanına yaklaşmasına izin verme. Artık ona yapabileceğim bir şey yok.",
+      "kim": "Codex",
+      "not": "Sağlık görevlisinin enfekte kişiye yardım edemediğini ve yaklaşma tehlikesini açık söyler.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · role=rescue_medical"
+    },
+    "RD_ALifeLine_0eac7450546ff0b7": {
+      "tr": "Yolun ilerisinde bir hasta var. Ona yardım edemeyiz.",
+      "kim": "Codex",
+      "not": "Sağlık görevlisinin hastaya yardım edilemeyeceği kararını kısa ve doğal verir.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · role=rescue_medical"
+    },
+    "RD_ALifeLine_1bd9e6f5602978cf": {
+      "tr": "O... Onlardan biri mi? Yaralı gibi değil... Bir tuhaflık var onda.",
+      "kim": "Codex",
+      "not": "Korkmuş sivilin gördüğünü anlamlandıramamasını korur.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · reg=civilian,family,worker,rescue|tmp=fresh"
+    },
+    "RD_ALifeLine_5de0abd418659895": {
+      "tr": "Ona bakma... Gözünü çevir. Sadece... Yavaşça geri çekil...",
+      "kim": "Codex",
+      "not": "Korkudan tekrarlanan geri çekilme talimatını doğal söyler.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|mood=fear"
+    },
+    "RD_ALifeLine_125f75ff2bbf71ce": {
+      "tr": "Dur, ateş etme! Bir tane sadece. Bütün mahalleyi başımıza toplamak istemiyorum.",
+      "kim": "Codex",
+      "not": "Deneyimli karakterin tek tehditle sessizce baş etme isteğini doğal aktarır.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · reg=civilian,family,worker,rescue|tmp=seasoned"
+    },
+    "RD_ALifeLine_2bfec6a2193e7fbf": {
+      "tr": "Ben bu şeylere yetişemem. Siz devam edin, nerede durayım söyleyin.",
+      "kim": "Codex",
+      "not": "Yaşlı karakterin yavaşlığını ve gruptan yön bulma isteğini korur.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · role=family_elder",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta grupça sesleniş var; buradaki çoğul hitap bilinçli."
+      }
+    },
+    "RD_ALifeLine_53fed23477404c3b": {
+      "tr": "İleride bir ölü var. Şimdilik sorun çıkarmaz.",
+      "kim": "Codex",
+      "not": "Sakin karakterin tehdidi düşük görmesini kısa biçimde aktarır.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · reg=civilian,family,worker,rescue|mood=calm"
+    },
+    "RD_ALifeLine_262e6a8d7e2daf1e": {
+      "tr": "Dışarıda bir tane var. Bekleyelim mi, yoksa ben mi halledeyim?",
+      "kim": "Codex",
+      "not": "İşçinin saldırı kararını gruba sorup üstlenme teklifini korur.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · role=worker"
+    },
+    "RD_ALifeLine_3aa18bbe063fa488": {
+      "tr": "Birini görüyorum! Orada! Ne yapacağız? Ne YAPACAĞIZ?!",
+      "kim": "Codex",
+      "not": "Korkulu karakterin görme ve yardım çağrısını doğal ritimle verir.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|mood=fear"
+    },
+    "RD_ALifeLine_47228b2926175ef6": {
+      "tr": "Şu... Şu Bay Hadley mi? Hayır, olamaz... O! Gerçekten o! Aman Tanrım—",
+      "kim": "Codex",
+      "not": "Tanıdık kişiyi seçişini ve dehşeti korur; adını değiştirmez.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|mood=fear"
+    },
+    "RD_ALifeLine_49be09d660517684": {
+      "tr": "Bu kalp durması değil... Bambaşka bir şey.",
+      "kim": "Codex",
+      "not": "Sağlık görevlisinin tıbbi terimi doğru kullanmasını sağlar.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · role=rescue_medical"
+    },
+    "RD_ALifeLine_4e52bb35683c5886": {
+      "tr": "Bağırma... Bağırma... Bağırma. Sessiz ol, yeter.",
+      "kim": "Codex",
+      "not": "Korkudan tekrarlanan emri korur.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · role=civilian_woman"
+    },
+    "RD_ALifeLine_5db09cb72115a061": {
+      "tr": "Solda bir zombi var... Yok, yanlış kelime. Onlardan biri, solda.",
+      "kim": "Codex",
+      "not": "Karakterin zombi sözcüğünü kendi düzeltmesini ve yön bilgisini korur.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · reg=civilian,family,worker,rescue|mood=calm"
+    },
+    "RD_ALifeLine_5ebca1f14e31c680": {
+      "tr": "Birini daha indireceğiz... Sonra bir tane daha... Sonra bir tane daha...",
+      "kim": "Codex",
+      "not": "Deneyimli karakterin bitmeyen tehdit hissini tekrarlarla taşır.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · reg=civilian,family,worker,rescue|tmp=seasoned|mood=grim"
+    },
+    "RD_ALifeLine_6dce2bc63cbfbc7e": {
+      "tr": "O ifadeyi daha önce bir yüzde görmüştüm... Ama o yüz canlıydı.",
+      "kim": "Codex",
+      "not": "Yaşlı kadının daha önce gördüğü ifadeyi ve canlı yüze dair anısını doğru aktarır.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · role=family_elder"
+    },
+    "RD_ALifeLine_00bb938e13eed762": {
+      "tr": "Gördüm. İkinci kez bakmama gerek yok. Onlardan biri, hadi gidelim.",
+      "kim": "Codex",
+      "not": "İşçinin gördüğü tehdidi tanımasını ve ayrılma çağrısını kısa tutar.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · role=worker"
+    },
+    "RD_ALifeLine_01c3b05f5edebbcc": {
+      "tr": "Dışarıda biri var! Ben hallederim, siz yolumdan çekilin!",
+      "kim": "Codex",
+      "not": "İşçinin tehdidi üstlenip grubu uzak tutma emrini açık verir.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · role=worker",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta grupça sesleniş var; buradaki çoğul hitap bilinçli."
+      }
+    },
+    "RD_ALifeLine_044429765c5dd3de": {
+      "tr": "Hala nasıl yürüyor? Yarısı... Hayır, bakma ona.",
+      "kim": "Codex",
+      "not": "Korkmuş karakterin gördüğü yarayı söyleyemeden bakmamaya çalışmasını korur.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|mood=fear"
+    },
+    "RD_ALifeLine_0f3be7e51c37d936": {
+      "tr": "Tanrım, affet beni... Bakamıyorum, bakamıyorum. Cemaatimdendi...",
+      "kim": "Codex",
+      "not": "Din adamının tanıdığı ölü için duyduğu suçluluk ve yasını korur.",
+      "baglam": "CONTACT_INFECTED · ALifeDialogue_barks_contact_1.lua · role=rescue_clergy"
+    },
+    "RD_ALifeLine_4b913d341b5f122c": {
+      "tr": "Bu haksızlık! Biz bir şey yapmadık... Hiçbir şey YAPMADIK!",
+      "kim": "Codex",
+      "not": "Yeni sivillerin kendini savunma ve haksızlık tepkisini korur.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_71d6ba3552fc721a": {
+      "tr": "Daha... Daha on sekiz yaşındayım ben! Daha ON SEKİZ!",
+      "kim": "Codex",
+      "not": "Gencin yarıda kestiği sözden yaşına dönen paniğini doğal verir.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · role=family_youth|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_1f7520a06d3fef12": {
+      "tr": "Yirmi yıldır... Bir kez bile kaçmadım.",
+      "kim": "Codex",
+      "not": "İtfaiyecinin geçmişiyle şimdiki korkusu arasındaki çatışmayı korur.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · role=rescue_firefighter|day=0,4|mood=grim"
+    },
+    "RD_ALifeLine_7402f4b0609f389b": {
+      "tr": "Kafam öyle uğulduyor ki kendi kalp atışım dışında hiçbir şey duyamıyorum.",
+      "kim": "Codex",
+      "not": "Panikteki iç gürültüyü Türkçede doğal bir ses ifadesiyle aktarır.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_74b94d0000d227e5": {
+      "tr": "Tanrım, göremiyorum! Hiçbir şey seçemiyorum!",
+      "kim": "Codex",
+      "not": "Panik içindeki görme güçlüğünü gündelik ve doğal söyler.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_23cf128f53c7f47b": {
+      "tr": "Ne olur, bana bak! Ben değişmedim, onlardan biri değilim!",
+      "kim": "Codex",
+      "not": "Paniğe kapılan kişinin insan olduğunu kanıtlama çabasını doğal söyler.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_6fb50b7f65521046": {
+      "tr": "Sadece duman... Sadece duman... Güneşi neden göremiyorum?",
+      "kim": "Codex",
+      "not": "Kendine tekrar ederek güven verme ve görüş kaybı korkusunu korur.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_352b234b5e27af78": {
+      "tr": "Kız kardeşimi göreyim istemiştim sadece... Tek istediğim buydu.",
+      "kim": "Codex",
+      "not": "Ayrılık korkusunu ve kız kardeşine duyduğu özlemi doğal verir.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_0763473b4692e07b": {
+      "tr": "Ne olur artık bitsin... Kötü bir rüya olsun, uyanayım...",
+      "kim": "Codex",
+      "not": "Korkmuş karakterin gerçek olmadığını umma isteğini korur.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_315a48e469d2b4ae": {
+      "tr": "EVE gitmek istiyorum! Kendi yatağımda yatmak istiyorum!",
+      "kim": "Codex",
+      "not": "Ev ve yatağa duyulan özlemi vurgulu konuşma dilinde verir.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_39b4a9752fb00c6e": {
+      "tr": "Yaklaşma, yoksa... Yoksa... Bilmiyorum, işte! GERİ DUR!",
+      "kim": "Codex",
+      "not": "Panikle tehdidi sürdüremeyen karakterin kekelemesini korur.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_3ccde36077a52445": {
+      "tr": "Hayır, hayır! Kolum o benim! BIRAK KOLUMU!",
+      "kim": "Codex",
+      "not": "Saldırganın tuttuğu kolunu kurtarmaya çalışan kişinin vurgusunu korur.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear"
+    },
+    "RD_ALifeLine_1d2960224e180cf8": {
+      "tr": "Geri gidiyorum, geri... Bir şeye çarptım! Allah'ım!",
+      "kim": "Codex",
+      "not": "Geri geri hareket eden kişinin çarpışma anındaki korkusunu korur.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_348996c60bf445e0": {
+      "tr": "Sakin ol... Sakin. Kimse saçma bir şey yapmayacak, değil mi? Değil mi?",
+      "kim": "Codex",
+      "not": "Yalnız yaşayan karakterin karşıdakini yatıştırırken kendini de ikna etmesini korur.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · role=civilian_loner|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_3bafe5f011304854": {
+      "tr": "Ne olur, ne istiyorsan al. Yeter ki bizi rahat bırak!",
+      "kim": "Codex",
+      "not": "Paniğe kapılan kişinin eşyalarını vererek ailesini koruma çabasını doğal söyler.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear"
+    },
+    "RD_ALifeLine_67cbb7c666aa98ac": {
+      "tr": "Siz kaçın! Onları ben oyalarım. Seksen yaşındayım, başıma ne gelebilir ki!",
+      "kim": "Codex",
+      "not": "Yaşlı karakterin korkuya meydan okuyan mizahını korur.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · role=family_elder|day=0,4|mood=fear",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta grupça sesleniş var; buradaki çoğul hitap bilinçli."
+      }
+    },
+    "RD_ALifeLine_05658a1e64a9ca9a": {
+      "tr": "Tanrım... Devam edemem artık. Bir adım daha atacak halim yok!",
+      "kim": "Codex",
+      "not": "Yorgunluğa bağlı fiziksel sınırı doğal bir ifadeyle verir.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_0e9feb0d18fcd100": {
+      "tr": "Eve gitmeliyim... Eve gitmeliyim... Merak ederler şimdi.",
+      "kim": "Codex",
+      "not": "Tekrarlanan eve dönüş kaygısını ve geride bıraktığı kişileri korur.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_128d3dd0075a861e": {
+      "tr": "Sırayla! Ne olur, sırayla! Tek tek gelin!",
+      "kim": "Codex",
+      "not": "Paniğe rağmen kalabalığı düzenlemeye çalışan karakterin çağrısını korur.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_2ec576c7011d481d": {
+      "tr": "Ben sigortacıyım! Bunlar benim işim değil!",
+      "kim": "Codex",
+      "not": "Sigortacının krizde ne yapacağını bilememesini kısa söyler.",
+      "baglam": "PANIC · ALifeDialogue_barks_panic_1.lua · role=civilian_man|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_08044e3100951076": {
+      "tr": "Biri bir şey olmadığını söylesin... Söyleyemeyeceklerini biliyorum ama yine de söylesinler!",
+      "kim": "Codex",
+      "not": "Kaynağın mantıksız olduğunun farkında olsa da güvence istemesini korur.",
+      "baglam": "PANIC_DAY_GUNFIRE · ALifeDialogue_barks_panic_3.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear"
+    },
+    "RD_ALifeLine_129fc2004867f756": {
+      "tr": "Bir anlam vermeye çalışıyorum... Ama hiçbir şey yerine oturmuyor.",
+      "kim": "Codex",
+      "not": "Panikteki anlama çabasını Türkçede doğal bir ifadeyle verir.",
+      "baglam": "PANIC_DAY_GUNFIRE · ALifeDialogue_barks_panic_3.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_299b9763781609a7": {
+      "tr": "Ne olduğunu öğrenmek zorunda kalmadan bitsin, ne olur...",
+      "kim": "Codex",
+      "not": "Korkunun kaynağını bilmemeyi isteme duygusunu korur.",
+      "baglam": "PANIC_DAY_GUNFIRE · ALifeDialogue_barks_panic_3.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_1a695945744821d2": {
+      "tr": "Kulaklarım çınlıyor... Yoksa bu... Hayır, benden geliyor! Sadece benden!",
+      "kim": "Codex",
+      "not": "Silah sesinden sonra kendi kulağındaki çınlamayı fark etme anını korur.",
+      "baglam": "PANIC_DAY_GUNFIRE · ALifeDialogue_barks_panic_3.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_5d763b813505edd0": {
+      "tr": "Ses duysam hemen bir şeyi tamir etmem gerekiyormuş gibi geliyor... Of be.",
+      "kim": "Codex",
+      "not": "İşçinin alışkanlıkla işe koyulma dürtüsünü konuşma dilinde verir.",
+      "baglam": "PANIC_DAY_GUNFIRE · ALifeDialogue_barks_panic_3.lua · role=worker|day=0,4|mood=angry"
+    },
+    "RD_ALifeLine_6b5f96606b709ca9": {
+      "tr": "Benimle o şeyin arasında bir şey olsun... Ne olursa olsun!",
+      "kim": "Codex",
+      "not": "Korkmuş karakterin kendisiyle tehdit arasına siper istemesini korur.",
+      "baglam": "PANIC_DAY_GUNFIRE · ALifeDialogue_barks_panic_3.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear"
+    },
+    "RD_ALifeLine_2a8cc09058010bad": {
+      "tr": "Kulaklarımı kapatmak istiyorum... Ya bir şeyi duyamazsam?!",
+      "kim": "Codex",
+      "not": "Kadının korunma isteği ile çevreyi dinleme korkusu arasındaki çatışmayı korur.",
+      "baglam": "PANIC_DAY_GUNFIRE · ALifeDialogue_barks_panic_3.lua · role=family_woman|day=0,2|mood=fear"
+    },
+    "RD_ALifeLine_79f4f15d7efa48b8": {
+      "tr": "Burada, dışarıda olmak istemiyorum... Evde olmak istiyorum. Eve dönmek istiyorum.",
+      "kim": "Codex",
+      "not": "Evden uzakta olma korkusunu ve işlevli tekrarı korur.",
+      "baglam": "PANIC_DAY_GUNFIRE · ALifeDialogue_barks_panic_3.lua · role=civilian_woman|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_3a7bdb7048e8c15c": {
+      "tr": "Ne olur kimse yaralanmasın... Ses başka bir şey olmasın, sadece GÜRÜLTÜ olsun!",
+      "kim": "Codex",
+      "not": "Silah sesinin gerçek bir saldırı anlamına gelmemesini umma isteğini korur.",
+      "baglam": "PANIC_DAY_GUNFIRE · ALifeDialogue_barks_panic_3.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear"
+    },
+    "RD_ALifeLine_762bdccc668ff019": {
+      "tr": "Nereye gideceğim? Hiç bilmiyorum... Bilen var mı, nereye gitsem?",
+      "kim": "Codex",
+      "not": "Panik içindeki yön arayışını kısa sorularla verir.",
+      "baglam": "PANIC_DAY_GUNFIRE · ALifeDialogue_barks_panic_3.lua · role=civilian_man|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_104ca6340c402458": {
+      "tr": "Birinin ne olduğunu bilmesi lazım... BİRİ bilmek zorunda!",
+      "kim": "Codex",
+      "not": "Yanıt bulma arzusundaki vurguyu Türkçe söz dizimine taşır.",
+      "baglam": "PANIC_DAY_GUNFIRE · ALifeDialogue_barks_panic_3.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_290759c85d31229a": {
+      "tr": "Hiçbir şeyi sayamıyorum... Nefesimi bile düzene sokamıyorum.",
+      "kim": "Codex",
+      "not": "Panik nedeniyle basit işlere odaklanamamasını doğal ifade eder.",
+      "baglam": "PANIC_DAY_GUNFIRE · ALifeDialogue_barks_panic_3.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_339879f638db639c": {
+      "tr": "Hangi taraf güvenli? Ne olur, hangi yoldan gideceğimi söyle!",
+      "kim": "Codex",
+      "not": "Korkmuş kadının yönünü bulmak için somut yardım istemesini doğal kurar.",
+      "baglam": "PANIC_DAY_GUNFIRE · ALifeDialogue_barks_panic_3.lua · role=civilian_woman|day=0,2|mood=fear"
+    },
+    "RD_ALifeLine_43c5f4c50c7b5197": {
+      "tr": "Her ne olursa olsun, gidip bakmayacağız! Bizi ilgilendirmez.",
+      "kim": "Codex",
+      "not": "Kendini tehlikeden uzak tutmaya çalışan karakterin sert kararını korur.",
+      "baglam": "PANIC_DAY_GUNFIRE · ALifeDialogue_barks_panic_3.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_55a7e90c66fcc59e": {
+      "tr": "Benim kadar korkan başka kimse yok mu?.. Ne olur, ses verin...",
+      "kim": "Codex",
+      "not": "Korkusunu paylaşacak bir yanıt arayan kişinin yalnızlığını doğal verir.",
+      "baglam": "PANIC_DAY_GUNFIRE · ALifeDialogue_barks_panic_3.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_430d59b721d1304f": {
+      "tr": "Veranda ışığını söndür, öyle kalsın. Evde olduğumuzu kimse anlamasın.",
+      "kim": "Codex",
+      "not": "Saklanırken ışığı kapalı tutma talimatını açık söyler.",
+      "baglam": "PANIC_DAY_HIDE · ALifeDialogue_barks_panic_4.lua · reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear|world=building"
+    },
+    "RD_ALifeLine_716d061b00411f7d": {
+      "tr": "Aynen. Ses yok, soğuk ne bulursak yiyoruz, ışığı bile yakmıyoruz.",
+      "kim": "Codex",
+      "not": "Saklanma planını sessiz kalma, soğuk yemek ve ışık yakmama biçiminde doğal söyler.",
+      "baglam": "PANIC_DAY_HIDE · ALifeDialogue_barks_panic_4.lua · reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4"
+    },
+    "RD_ALifeLine_3c055f410e138e4d": {
+      "tr": "Fort Knox... Bizi üsse alırlar. Almak zorundalar.",
+      "kim": "Codex",
+      "not": "Sivillerin askeri üsse sığınma umudunu ve yer adını korur.",
+      "baglam": "PANIC_DAY_HIDE · ALifeDialogue_barks_panic_4.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_493aad70483951ca": {
+      "tr": "Geri çekil! Ne olur, hiçbir şey seni kapmasın!",
+      "kim": "Codex",
+      "not": "Acil geri durma uyarısını tehdidin saldırma ihtimaliyle bağlar.",
+      "baglam": "PANIC_DAY_HIDE · ALifeDialogue_barks_panic_4.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear"
+    },
+    "RD_ALifeLine_4a0fcb99083f0dfc": {
+      "tr": "Sıradan bir günmüş gibi içeri gir. Koşma, yürü sadece.",
+      "kim": "Codex",
+      "not": "Paniği gizleyip binaya sakince girme talimatını korur.",
+      "baglam": "PANIC_DAY_HIDE · ALifeDialogue_barks_panic_4.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_1706d72c39f51d45": {
+      "tr": "Kilitledin mi? Kilitlemedin, değil mi? Geri git... Hayır, sakın geri dönme!",
+      "kim": "Codex",
+      "not": "Korkan kişinin kendi kararını anında değiştiren tekrarını doğal verir.",
+      "baglam": "PANIC_DAY_HIDE · ALifeDialogue_barks_panic_4.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_721b4b2c7f47e35d": {
+      "tr": "İçeri girerken sırayla sayın. Herkesi saymak istiyorum.",
+      "kim": "Codex",
+      "not": "İtfaiyecinin grupta kimlerin olduğunu kontrol etme emrini doğru aktarır.",
+      "baglam": "PANIC_DAY_HIDE · ALifeDialogue_barks_panic_4.lua · role=rescue_firefighter|day=0,4"
+    },
+    "RD_ALifeLine_282c2b1622f7b115": {
+      "tr": "Ben iyiyim, iyiyim... Siz gidin saklanın, hadi. Ben de bir yer bulurum...",
+      "kim": "Codex",
+      "not": "Yaşlı aile büyüğünün başkalarını gönderdikten sonra kendine yer arayışını korur.",
+      "baglam": "PANIC_DAY_HIDE · ALifeDialogue_barks_panic_4.lua · role=family_elder|day=0,2|mood=fear",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta grupça sesleniş var; buradaki çoğul hitap bilinçli."
+      }
+    },
+    "RD_ALifeLine_386340bc421d5b4e": {
+      "tr": "Büyük binaya gitmeyelim. Pencere çok. Küçük olana gidelim.",
+      "kim": "Codex",
+      "not": "Yalnız yaşayan kişinin pencerelerden duyduğu kaygıyı doğal ve yönlendirici söyler.",
+      "baglam": "PANIC_DAY_HIDE · ALifeDialogue_barks_panic_4.lua · role=civilian_loner|day=0,4|world=window"
+    },
+    "RD_ALifeLine_46d01471449fec09": {
+      "tr": "Onları dışarıda tutmak için ne kullanabiliriz?",
+      "kim": "Codex",
+      "not": "Aile babasının evi savunmak için araç arayışını korur.",
+      "baglam": "PANIC_DAY_HIDE · ALifeDialogue_barks_panic_4.lua · role=family_man|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_5f5e9ba007689953": {
+      "tr": "Belki polis yardım eder... Artık bilmiyorum.",
+      "kim": "Codex",
+      "not": "Sığınağa kaçmaya çalışan kişinin son umudunu ve kararsızlığını korur.",
+      "baglam": "PANIC_DAY_HIDE · ALifeDialogue_barks_panic_4.lua · reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4"
+    },
+    "RD_ALifeLine_004a32be3bd52aa6": {
+      "tr": "Şu ev değil... Bu da değil... ŞU ev! Bunun bir... Hadi!",
+      "kim": "Codex",
+      "not": "Korku içindeki ev seçimini ve yarım kalan tarifi korur.",
+      "baglam": "PANIC_DAY_HIDE · ALifeDialogue_barks_panic_4.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_140d74d37998a493": {
+      "tr": "Burada daha fazla yer yok! Alamam, özür dilerim... Çok özür dilerim!",
+      "kim": "Codex",
+      "not": "İçeride sığınacak yer kalmadığını panikle ve suçlulukla söyler.",
+      "baglam": "PANIC_DAY_HIDE · ALifeDialogue_barks_panic_4.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear|world=inside"
+    },
+    "RD_ALifeLine_240338473ce1c59b": {
+      "tr": "Yatağın altına gir canım. Ben söyleyene kadar çıkma... Ben söyleyene kadar.",
+      "kim": "Codex",
+      "not": "Anne ya da bakıcının çocuğa verdiği gizlenme talimatını korur.",
+      "baglam": "PANIC_DAY_HIDE · ALifeDialogue_barks_panic_4.lua · role=family_woman|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_2d7d054833989b60": {
+      "tr": "Buraya sağlam bir kilit takın dedim! DEDİM onlara!",
+      "kim": "Codex",
+      "not": "İşçinin geçmişte uyardığı kişilere duyduğu öfkeyi doğal vurguya taşır.",
+      "baglam": "PANIC_DAY_HIDE · ALifeDialogue_barks_panic_4.lua · role=worker|day=0,4|mood=angry"
+    },
+    "RD_ALifeLine_1d39cbfc1496b6c4": {
+      "tr": "O yetişemiyor... Bekleyemeyiz. Ama beklemeliyiz... Lanet olsun!",
+      "kim": "Codex",
+      "not": "Grubu bırakma ile hızla kaçma arasındaki çatışmayı korur.",
+      "baglam": "PANIC_DAY_GROUP · ALifeDialogue_barks_panic_2.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_1efdaf0362b66f39": {
+      "tr": "Peşimden gelin! Sanırım nereye gideceğimizi biliyorum... Galiba biliyorum.",
+      "kim": "Codex",
+      "not": "Adamın yön göstermeye çalışırken emin olamamasını doğal tekrarlarla verir.",
+      "baglam": "PANIC_DAY_GROUP · ALifeDialogue_barks_panic_2.lua · role=civilian_man|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_5150625f49a9c20c": {
+      "tr": "Hepinizi görebileceğim yerde durun. Her birinizi.",
+      "kim": "Codex",
+      "not": "Kadının grubu gözünün önünde tutma isteğini açık söyler.",
+      "baglam": "PANIC_DAY_GROUP · ALifeDialogue_barks_panic_2.lua · role=family_woman|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_1b9df0323301c346": {
+      "tr": "Tek tek adınızı söyleyin! Burada olduğunuzu duyayım!",
+      "kim": "Codex",
+      "not": "Kalabalığı yoklama çağrısını Türkçede doğal ve işlevli kurar.",
+      "baglam": "PANIC_DAY_GROUP · ALifeDialogue_barks_panic_2.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_023752221110aae5": {
+      "tr": "Her neyse, onun için geri dönme sakın! Geri dönme!",
+      "kim": "Codex",
+      "not": "Grup üyesinin bir eşyayı ya da kişiyi almak için geri gitmesini engelleme çağrısını korur.",
+      "baglam": "PANIC_DAY_GROUP · ALifeDialogue_barks_panic_2.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear"
+    },
+    "RD_ALifeLine_25c332641fddffa7": {
+      "tr": "Oğlanlar babanızın yanından ayrılmayın! Kızlar, siz de benimle kalın!",
+      "kim": "Codex",
+      "not": "Ebeveynin çocukları iki gruba ayıran acil talimatını doğal verir.",
+      "baglam": "PANIC_DAY_GROUP · ALifeDialogue_barks_panic_2.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta grupça sesleniş var; buradaki çoğul hitap bilinçli."
+      }
+    },
+    "RD_ALifeLine_33cd10fc3f452b8d": {
+      "tr": "Peki, git hadi, madem istiyorsun. Ama sonra kendi başınasın.",
+      "kim": "Codex",
+      "not": "Öfkeli karakterin desteğini çekeceği uyarısını kısa söyler.",
+      "baglam": "PANIC_DAY_GROUP · ALifeDialogue_barks_panic_2.lua · reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=angry"
+    },
+    "RD_ALifeLine_383a4a89087c97d3": {
+      "tr": "Ne olursa olsun durmayın, yürüyün!",
+      "kim": "Codex",
+      "not": "Panikteki kaçış emrini açık verir.",
+      "baglam": "PANIC_DAY_GROUP · ALifeDialogue_barks_panic_2.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear"
+    },
+    "RD_ALifeLine_3e803cab1da60900": {
+      "tr": "Herkesin elinden tutamam ki, iki elim var sadece!",
+      "kim": "Codex",
+      "not": "Çocukları korumaya çalışan kişinin çaresizliğini doğal anlatır.",
+      "baglam": "PANIC_DAY_GROUP · ALifeDialogue_barks_panic_2.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_44a02f08152217da": {
+      "tr": "Onlara bakma, bana bak. Sırtımı izle, sadece sırtımı.",
+      "kim": "Codex",
+      "not": "Gruba öndeki kişiyi takip etme talimatını doğru aktarır.",
+      "baglam": "PANIC_DAY_GROUP · ALifeDialogue_barks_panic_2.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_544acca92965dc19": {
+      "tr": "Neredesiniz? Ses verin! Sizi göremiyoruz!",
+      "kim": "Codex",
+      "not": "Kalabalık içinde birbirini kaybeden grubun çağrısını netleştirir.",
+      "baglam": "PANIC_DAY_GROUP · ALifeDialogue_barks_panic_2.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta grupça sesleniş var; buradaki çoğul hitap bilinçli."
+      }
+    },
+    "RD_ALifeLine_09aa152824331a16": {
+      "tr": "Bilmiyorum, önümde kim varsa onu takip ediyorum sadece.",
+      "kim": "Codex",
+      "not": "Takip ettiği yönü bilmeyen karakterin sözünü doğal kurar.",
+      "baglam": "PANIC_DAY_GROUP · ALifeDialogue_barks_panic_2.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_2a35ad251be52d77": {
+      "tr": "Annemin ilaçlarını al. İhtiyacımız olan tek şey onlar.",
+      "kim": "Codex",
+      "not": "Aile üyesinin ilaçları toplama talimatını ve önceliğini korur.",
+      "baglam": "PANIC_DAY_GROUP · ALifeDialogue_barks_panic_2.lua · reg=family|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_4e365a78270cc111": {
+      "tr": "Ellerinizi ceplerinizde tutun. Hiçbir şeye dokunmayın, çıt çıkmasın.",
+      "kim": "Codex",
+      "not": "Saklanma talimatlarını açık ve Türkçe söyler.",
+      "baglam": "PANIC_DAY_GROUP · ALifeDialogue_barks_panic_2.lua · reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4"
+    },
+    "RD_ALifeLine_7b8a18a7557c77d6": {
+      "tr": "Bebek arabasını sakın bırakma! Elimizdeki tek puset o!",
+      "kim": "Codex",
+      "not": "Çocuk arabasını koruma çağrısındaki vurguyu ve nesneyi korur.",
+      "baglam": "PANIC_DAY_GROUP · ALifeDialogue_barks_panic_2.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_5528005c6af3d023": {
+      "tr": "Adımı biliyor, adımı söyledi— Hayır... Söylemedi hiçbir şey!",
+      "kim": "Codex",
+      "not": "Paniğe kapılmış kişinin zombiye ses yükleyip kendini düzeltmesini korur.",
+      "baglam": "PANIC_DAY_ZOMBIE · ALifeDialogue_barks_panic_5.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear"
+    },
+    "RD_ALifeLine_70205b183fddedce": {
+      "tr": "Ne istiyor bu? Hiçbir şey istemiyor ki... NE İSTİYOR?!",
+      "kim": "Codex",
+      "not": "Zombinin niyetini anlamlandıramayan kişinin tekrarı ve çelişkisini korur.",
+      "baglam": "PANIC_DAY_ZOMBIE · ALifeDialogue_barks_panic_5.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4"
+    },
+    "RD_ALifeLine_2c39df3860437d0c": {
+      "tr": "Evin giriş yolundan buraya gelirse bir şey yapmak zorunda kalacağım... Ama hiç istemiyorum.",
+      "kim": "Codex",
+      "not": "Aile babasının kendi mülkünde karşılık vermek istemeyişini korur.",
+      "baglam": "PANIC_DAY_ZOMBIE · ALifeDialogue_barks_panic_5.lua · role=family_man|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_685ed2a857c88c03": {
+      "tr": "Gözlerini gördün mü? İçleri bomboş... Tamamen bomboş.",
+      "kim": "Codex",
+      "not": "Sağlık görevlisinin gözlerdeki ifadesizliğe duyduğu dehşeti doğal aktarır.",
+      "baglam": "PANIC_DAY_ZOMBIE · ALifeDialogue_barks_panic_5.lua · role=rescue_medical|day=0,2|mood=fear"
+    },
+    "RD_ALifeLine_698ae4af627b59e5": {
+      "tr": "Bu benim arazimde! Benim ARAZİMDE! Şimdi ne yapacağım ben bununla?!",
+      "kim": "Codex",
+      "not": "Ev sahibi erkeğin mülküne giren tehdide öfkesini ve çaresizliğini korur.",
+      "baglam": "PANIC_DAY_ZOMBIE · ALifeDialogue_barks_panic_5.lua · role=family_man|day=0,2|mood=fear"
+    },
+    "RD_ALifeLine_04ec4bf8448632b7": {
+      "tr": "Bahsettikleri buymuş... Radyoda anlatmak istedikleri buymuş.",
+      "kim": "Codex",
+      "not": "Radyodan gelen uyarıyla gördüğü zombi arasındaki bağlantıyı kurar.",
+      "baglam": "PANIC_DAY_ZOMBIE · ALifeDialogue_barks_panic_5.lua · reg=civilian,family,worker,rescue|tmp=fresh,seasoned|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_100a18301d9bae94": {
+      "tr": "Beni mi takip ediyor? Sanırım özellikle beni seçti!",
+      "kim": "Codex",
+      "not": "Yeni sivilin kendisini hedef sanan korkusunu korur.",
+      "baglam": "PANIC_DAY_ZOMBIE · ALifeDialogue_barks_panic_5.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_1983a5732cf195b0": {
+      "tr": "Bu... Bahsettikleri hastalık bu mu? Olan bu mu yani?",
+      "kim": "Codex",
+      "not": "Yeni sivilin hastalığı tanımaya çalışan kekelemesini korur.",
+      "baglam": "PANIC_DAY_ZOMBIE · ALifeDialogue_barks_panic_5.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+    },
+    "RD_ALifeLine_6b5443e505f224c7": {
+      "tr": "Dünden beri ölü o adam, iddiaya girerim. E, neden ayakta duruyor?",
+      "kim": "Codex",
+      "not": "Yalnız yaşayan kişinin gördüğü ölü adamı ve ayakta durmasını sorgulamasını doğal kurar.",
+      "baglam": "PANIC_DAY_ZOMBIE · ALifeDialogue_barks_panic_5.lua · role=civilian_loner|day=0,4|mood=grim"
+    },
+    "RD_ALifeLine_30a48eeb79e273a1": {
+      "tr": "Benim... 12 kalibrelik nerede? NEREDE?!",
+      "kim": "Codex",
+      "not": "Aile babasının aradığı tüfeği panik içinde hatırlamasını korur.",
+      "baglam": "PANIC_DAY_ZOMBIE · ALifeDialogue_barks_panic_5.lua · role=family_man|day=0,2|mood=fear"
+    },
+    "RD_ALifeLine_3c9e0c835e86f92c": {
+      "tr": "Dokunma ona! Yaklaştırma! Artık yapacak bir şey yok!",
+      "kim": "Codex",
+      "not": "Sağlık görevlisinin yaklaşmayı önleme ve yardım edememe çağrısını korur.",
+      "baglam": "PANIC_DAY_ZOMBIE · ALifeDialogue_barks_panic_5.lua · role=rescue_medical|day=0,4"
+    },
+    "RD_ALifeLine_5e8a4693328113c6": {
+      "tr": "Düşün kafam, DÜŞÜN! Böyle bir şey karşısında ne yapılır?",
+      "kim": "Codex",
+      "not": "Panikteki kendi kendine konuşmayı Türkçe hitapla ve doğal ritimle verir.",
+      "baglam": "PANIC_DAY_ZOMBIE · ALifeDialogue_barks_panic_5.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,2|mood=fear"
+    },
+    "RD_ALifeLine_72b90cf25bf11fff": {
+      "tr": "Filmlerdeki gibi, değil mi? Öyle olduğunu söyle! Filmlerde sonunda hep birileri kazanır...",
+      "kim": "Codex",
+      "not": "Gencin filmlerden medet uman inancını doğal tekrarlarla korur.",
+      "baglam": "PANIC_DAY_ZOMBIE · ALifeDialogue_barks_panic_5.lua · role=family_youth|day=0,4"
+    },
+    "RD_ALifeLine_7e4b99596845970d": {
+      "tr": "Yaralı sanmıştım... Sahiden sadece yaralılar sanmıştım.",
+      "kim": "Codex",
+      "not": "Yanlış anladığını fark eden kişinin suçluluk ve korkusunu korur.",
+      "baglam": "PANIC_DAY_ZOMBIE · ALifeDialogue_barks_panic_5.lua · reg=civilian,family,worker,rescue|tmp=fresh|day=0,4"
+    },
+    "RD_ALifeLine_019447926c791b1e": {
+      "tr": "Ondan nefret etme... O da birinin evladıydı. Sen yine de yaklaşma.",
+      "kim": "Codex",
+      "not": "Din adamının merhamet çağrısını güvenlik uyarısıyla dengeler.",
+      "baglam": "PANIC_DAY_ZOMBIE · ALifeDialogue_barks_panic_5.lua · role=rescue_clergy|day=0,4"
+    },
+    "RD_ALifeLine_2a1d61d409eed52d": {
+      "tr": "Dur, dur... Ben bunu nasıl... Ha, işte! Babam böyle göstermişti.",
+      "kim": "Codex",
+      "not": "Gencin silahı yeniden doldururken babasından öğrendiğini hatırlamasını korur.",
+      "baglam": "RELOAD · ALifeDialogue_barks_reload_1.lua · role=family_youth"
+    },
+    "RD_ALifeLine_4a5e38a87952bce0": {
+      "tr": "Biraz daha koyayım... Heh, oldu galiba.",
+      "kim": "Codex",
+      "not": "Yaşlı karakterin mermi doldururkenki sakin, temkinli sesini verir.",
+      "baglam": "RELOAD · ALifeDialogue_barks_reload_1.lua · role=family_elder"
+    },
+    "RD_ALifeLine_07359a1565c1a561": {
+      "tr": "Şuna biraz daha mermi koyayım... Uzak dur.",
+      "kim": "Codex",
+      "not": "Kadının silahına mermi doldurduğunu ve mesafe istediğini açıklar.",
+      "baglam": "RELOAD · ALifeDialogue_barks_reload_1.lua · role=family_woman"
+    },
+    "RD_ALifeLine_464c1b4824a81e0a": {
+      "tr": "Bekle, dolduruyorum! Dolduruyorum, dur biraz!",
+      "kim": "Codex",
+      "not": "Yeniden doldurma sırasında beklenmesini isteyen kadının tekrarını korur.",
+      "baglam": "RELOAD · ALifeDialogue_barks_reload_1.lua · role=family_woman"
+    },
+    "RD_ALifeLine_6eac8d5d05a73b46": {
+      "tr": "Bir saniye ver. Şunu doldurup hazır edeceğim.",
+      "kim": "Codex",
+      "not": "Silahı doldurup kullanıma hazırlama eylemini doğal aktarır.",
+      "baglam": "RELOAD · ALifeDialogue_barks_reload_1.lua · role=family_man"
+    },
+    "RD_ALifeLine_57b0cf1f0c2d27b9": {
+      "tr": "Hiç... Hiç... İçinde hiçbir şey kalmadı! Mermi yok!",
+      "kim": "Codex",
+      "not": "Boş silahı fark eden karakterin panik dolu tekrarını ve durumu korur.",
+      "baglam": "OUT_OF_AMMO · ALifeDialogue_barks_misc_6.lua · reg=civilian,family,worker,rescue|tmp=fresh|mood=fear"
+    },
+    "RD_ALifeLine_7a0fe30455c74644": {
+      "tr": "Mermi kalmadı. Bende hiç kalmadı.",
+      "kim": "Codex",
+      "not": "Cephanesi tükenen yeni sivilin kısa bildirimini doğal söyler.",
+      "baglam": "OUT_OF_AMMO · ALifeDialogue_barks_misc_6.lua · reg=civilian,family,worker,rescue|tmp=fresh"
+    },
+    "RD_ALifeLine_46c3dc656b8092d1": {
+      "tr": "Mermi yok! Hiç mermim kalmadı! Şimdi ne halt edeceğim?!",
+      "kim": "Codex",
+      "not": "Korkulu karakterin cephanesi bitince verdiği tepkiyi konuşma dilinde korur.",
+      "baglam": "OUT_OF_AMMO · ALifeDialogue_barks_misc_6.lua · reg=civilian,family,worker,rescue|tmp=fresh|mood=fear"
+    },
+    "RD_ALifeLine_06de244b23bf7b7e": {
+      "tr": "Mermim bitti. Başka bir şey kullanmam gerekecek.",
+      "kim": "Codex",
+      "not": "Ateşli silah cephanesi bitince farklı silaha geçme niyetini korur.",
+      "baglam": "OUT_OF_AMMO · ALifeDialogue_barks_misc_6.lua · reg=civilian,family,worker,rescue|tmp=fresh"
+    },
+    "RD_ALifeLine_6c91e64b57f68934": {
+      "tr": "Lanet olsun, daha yeni doldurmuştum! Nasıl boşaldı bu?!",
+      "kim": "Codex",
+      "not": "Deneyimli karakterin yeni doldurduğu şarjörün boş çıkmasına öfkesini korur.",
+      "baglam": "OUT_OF_AMMO · ALifeDialogue_barks_misc_6.lua · reg=civilian,family,worker,rescue|tmp=seasoned|mood=angry"
+    },
+    "RD_ALifeLine_47e526ee209663d1": {
+      "tr": "Bir adım daha atarsan kafanı ezerim, duydun mu?!",
+      "kim": "Codex",
+      "not": "Yaklaşan zombiye yöneltilen tehdidi sert ve doğal söyler.",
+      "baglam": "ZOMBIE_CLOSE · ALifeDialogue_barks_zombie_1.lua · reg=civilian,family,worker,rescue|tmp=seasoned|mood=angry"
+    },
+    "RD_ALifeLine_1c81c4306d7bc350": {
+      "tr": "Mecbur kalırsam seni öldüresiye döverim! Hadi, GEL ÜSTÜME!",
+      "kim": "Codex",
+      "not": "Aile babasının zombiyi üzerine çekip saldırma tehdidini korur.",
+      "baglam": "ZOMBIE_CLOSE · ALifeDialogue_barks_zombie_1.lua · role=family_man"
+    },
+    "RD_ALifeLine_228f34c528b366dc": {
+      "tr": "Kokusu burnuma geliyor... Birimizin sonu gelecek, belli.",
+      "kim": "Codex",
+      "not": "Deneyimli karakterin ölümün yaklaştığına dair karanlık gözlemini doğal söyler.",
+      "baglam": "ZOMBIE_CLOSE · ALifeDialogue_barks_zombie_1.lua · reg=civilian,family,worker,rescue|tmp=seasoned|mood=grim"
+    },
+    "RD_ALifeLine_525b43b16fb90d7c": {
+      "tr": "Hareket edemiyorum... Bacaklarım tutmuyor... Hadi bacaklar, HADİ!",
+      "kim": "Codex",
+      "not": "Korkudan donan karakterin kendini harekete geçirme çabasını korur.",
+      "baglam": "ZOMBIE_CLOSE · ALifeDialogue_barks_zombie_1.lua · reg=civilian,family,worker,rescue|tmp=fresh|mood=fear"
+    },
+    "RD_ALifeLine_74a1d8d641f59334": {
+      "tr": "Öyle dikilip durma! Dibimizde! Bir şey YAP!",
+      "kim": "Codex",
+      "not": "Yeni sivilin yakındaki zombiye karşı acil yardım çağrısını korur.",
+      "baglam": "ZOMBIE_CLOSE · ALifeDialogue_barks_zombie_1.lua · reg=civilian,family,worker,rescue|tmp=fresh"
+    },
+    "RD_ALifeLine_5c50731611badb18": {
+      "tr": "Ah! Sağlık görevlisi benim, salak! Şimdi beni kim tedavi edecek?!",
+      "kim": "Codex",
+      "not": "Yaralı sağlık görevlisinin mesleğiyle yaptığı öfkeli şakayı doğal aktarır.",
+      "baglam": "HIT_BY_PLAYER · ALifeDialogue_barks_hit_1.lua · role=rescue_medical"
+    },
+    "RD_ALifeLine_4b643c1320fcfbfe": {
+      "tr": "Ah! Dikiş atan benim! Ben! Şu elimle!",
+      "kim": "Codex",
+      "not": "Sağlık görevlisinin yaralanınca kendi işini hatırlamasını ve elini vurgulamasını korur.",
+      "baglam": "HIT_BY_PLAYER · ALifeDialogue_barks_hit_1.lua · role=rescue_medical"
+    },
+    "RD_ALifeLine_61af520e2a5c8774": {
+      "tr": "Umurunda bile olmadan canımı yaktın.",
+      "kim": "Codex",
+      "not": "Deneyimli sivilin saldırganın kayıtsızlığına duyduğu öfkeyi doğal verir.",
+      "baglam": "HIT_BY_PLAYER · ALifeDialogue_barks_hit_1.lua · reg=civilian|tmp=seasoned"
+    },
+    "RD_ALifeLine_77a2ef8c051d751e": {
+      "tr": "Knox County'de bir itfaiyeciye vurdun. Hem de temmuzda... Bir düşün bakalım.",
+      "kim": "Codex",
+      "not": "İtfaiyecinin yerini ve ayını korur; Temmuz sıcağında yapılanı düşündürür.",
+      "baglam": "HIT_BY_PLAYER · ALifeDialogue_barks_hit_1.lua · role=rescue_firefighter"
+    },
+    "RD_ALifeLine_7a7e0b5e7ba0b55f": {
+      "tr": "Kapışmak mı istiyorsun? Boru anahtarı elimde, bir de tepem atık.",
+      "kim": "Codex",
+      "not": "İşçinin aletini ve ters mizacını yerleşik Türkçe ifadeyle birleştirir.",
+      "baglam": "HIT_BY_PLAYER · ALifeDialogue_barks_hit_1.lua · reg=worker"
+    },
+    "RD_ALifeLine_242155901d0e9bf8": {
+      "tr": "Ailemle arama girdin. Artık başka hiçbir şey umurumda değil.",
+      "kim": "Codex",
+      "not": "Aile babasının saldırgana karşı tüm öncelikleri bırakan tavrını korur.",
+      "baglam": "HIT_BY_PLAYER_AGAIN · ALifeDialogue_barks_hit_1.lua · role=family_man"
+    },
+    "RD_ALifeLine_63934e7125d90b66": {
+      "tr": "Ben Wanda'yım... Adım Wanda... Bu sana bir şey ifade ediyor mu?",
+      "kim": "Codex",
+      "not": "Wanda'nın kendini insan olarak hatırlatma çabasını doğal soruya çevirir.",
+      "baglam": "HIT_BY_PLAYER_AGAIN · ALifeDialogue_barks_hit_1.lua · reg=civilian|tmp=fresh|sex=f"
+    },
+    "RD_ALifeLine_0f4293df46cb056f": {
+      "tr": "İkinci kez oldu... Şimdi bir de seni mi umursayacağım? Bundan nefret ediyorum.",
+      "kim": "Codex",
+      "not": "Yalnız yaşayan kişinin saldırgana yönelik ters ve öfkeli kaygısını korur.",
+      "baglam": "HIT_BY_PLAYER_AGAIN · ALifeDialogue_barks_hit_1.lua · role=civilian_loner"
+    },
+    "RD_ALifeLine_69bac50379d93dfb": {
+      "tr": "Elinde çekiç olan adama iki kere vurdun. Bir düşün bakalım.",
+      "kim": "Codex",
+      "not": "İşçinin elindeki alet ve iki saldırı uyarısını açık söyler.",
+      "baglam": "HIT_BY_PLAYER_AGAIN · ALifeDialogue_barks_hit_1.lua · reg=worker"
+    },
+    "RD_ALifeLine_308154e00fe9eec5": {
+      "tr": "Yine mi?! Ben bir şey yapmadım! HİÇBİR ŞEY yapmadım!",
+      "kim": "Codex",
+      "not": "Tekrar vurulmaya karşı sivillerin kendini savunma vurgusunu korur.",
+      "baglam": "HIT_BY_PLAYER_AGAIN · ALifeDialogue_barks_hit_1.lua · reg=civilian|tmp=fresh"
+    }
+  }
+}

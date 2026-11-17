@@ -1,0 +1,120 @@
+# PAKET Y15R · parça 1/1 · satır 1-87 (87 satır)
+# YENİDEN ÇEVİRİ: Bu satırlar daha önce çevrilip oyuna alınmıştı. Eski Türkçe karşılıklar girdide yok; her numarayı İngilizce kaynak ve sahne/ekran bağlamından sıfırdan kur.
+# Kurallar: aşağıdaki ARAYÜZ kuralları (sahne/karakter canlandırma yok). Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.
+# ARAYÜZ DOSYASI: Bu satırlar konuşma değil, EKRAN METNİ: düğme, ayar, ipucu, bildirim, etiket. Sahne ya da karakter canlandırma yok; kısa, net ve tutarlı yaz.
+# BİÇİM: Etiketlerde emir ya da isim biçimi kullan ('Kaydet', 'Teçhizat'). 'siz' hitabı yok, '-dır' yok; ipucu ve açıklamada gerekirse 'sen'. Sonda nokta İngilizcedeki gibi: İngilizcede yoksa yazma, varsa koru.
+# KORUNACAKLAR: {yer_tutucu}, %%, %1, \n ve <...> etiketleri ile renk kodları aynen kalır. Kısaltmalar (HP, NPC, GM, MHz…) ve özel adlar (kişi, grup, yer, silah adı) çevrilmez. Sayıları ve birimleri koru.
+# UZUNLUK: Türkçe İngilizceden belirgin uzun olmasın; düğmelerde ve sekme adlarında en fazla yaklaşık 1,3 katı. Sığmıyorsa kısalt, anlamı koru.
+# BÜYÜK HARF: İngilizcede BÜYÜK HARFLİ yazılmış etiket Türkçede de büyük harfli olur (İ/ı kurallarıyla).
+# EKRAN: Her ##### başlığının altındaki 'EKRAN:' notu metnin hangi ekranda ya da panelde göründüğünü söyler; önce onu oku. Etiket sütunu kodda alanın adıdır (ui, tip, label…), çıktıya yazma.
+# TERİMLER (bağlayıcı; yalnız bu dosyada geçenler; sözcük aynı anlamda geçiyorsa bu karşılığı kullan): Default → Varsayılan; tile → kare; cinematic → Sinematik; animation → Animasyon; new game → Yeni oyun; risky → Riskli
+# Girdi biçimi: N | etiket | İngilizce
+
+##### GÜNLÜK · AYARLAR (1/3) #####
+# EKRAN: Günlük > Ayarlar ekranı: konuşma penceresi, altyazı, görev izleyici, ok, jenerik hızı ve yayıncı modu satırları; satırın adı, değerlerinin adı (Old cinematic, Bottom right…) ve fareyle çıkan ipucu
+# NOT: 'Right', 'Left', 'Auto', 'Strong' gibi kısa sözcükler oyunda başka yerlerde de aynı çeviriyle çıkar; hepsine uyan, tek başına anlaşılır karşılık seç
+1 | label | Credits speed
+2 | tip | How fast the credits roll after the ending
+3 | label | Talk window
+4 | names | Old cinematic
+5 | names | Server default
+6 | tip | Server default follows the sandbox option (New unless the host changed it). Old cinematic: the previous window with numbered answers
+7 | names | Animated
+8 | names | Static
+9 | tip | Typed out, or all at once
+10 | label | Talk panel
+11 | names | Right
+12 | tip | Where it sits on the screen
+13 | names | Centre
+14 | names | Left
+15 | label | Talk animation
+16 | tip | How long the selection fill and the opening take
+17 | names | Fast
+18 | names | Slow
+19 | label | Timed answer bar
+20 | tip | Shows how long a timed question stays open
+21 | label | Panel width
+22 | names | Narrow
+23 | tip | Narrow covers less of the view
+
+##### GÜNLÜK · AYARLAR (2/3) #####
+# EKRAN: Günlük > Ayarlar ekranı: konuşma penceresi, altyazı, görev izleyici, ok, jenerik hızı ve yayıncı modu satırları; satırın adı, değerlerinin adı (Old cinematic, Bottom right…) ve fareyle çıkan ipucu
+24 | label | Talk prompts
+25 | tip | Near: only within 4 tiles
+26 | names | Near
+27 | label | Close when hurt
+28 | tip | Leave the talk when you are hit
+29 | label | Subtitle band
+30 | names | Light
+31 | names | Strong
+32 | tip | Dark band behind subtitles
+33 | label | Talk subtitles in 3D
+34 | tip | Needs Viewpoint
+35 | label | Shout subtitles in 3D
+36 | label | Risky replies
+37 | names | One press
+38 | tip | Hold or tap twice to confirm
+39 | names | Hold
+40 | label | Motion
+41 | names | Reduced
+42 | tip | Reduced: no shake, pulse or slide
+43 | names | Full
+44 | label | Task tracker
+45 | tip | The task you track, in a screen corner
+46 | label | Popups
+
+##### GÜNLÜK · AYARLAR (3/3) #####
+# EKRAN: Günlük > Ayarlar ekranı: konuşma penceresi, altyazı, görev izleyici, ok, jenerik hızı ve yayıncı modu satırları; satırın adı, değerlerinin adı (Old cinematic, Bottom right…) ve fareyle çıkan ipucu
+47 | names | Important
+48 | tip | Left side. Off still shows danger. Log tab keeps all
+49 | label | Popups at once
+50 | tip | More wait in line
+51 | label | Tracker size
+52 | tip | Auto: full after a change, then one line
+53 | names | One line
+54 | names | Auto
+55 | label | Intro cards
+56 | tip | Three hints at the start
+57 | names | Always
+58 | names | Once
+59 | tip | On: music that may be copyrighted is skipped. Sounds and voices stay
+60 | label | Streamer question
+61 | names | Answered
+62 | names | Ask again
+63 | tip | Ask again: the bubble asks on the next new game
+64 | tip | Points at the task you track, with the distance
+65 | label | Tracker place
+66 | names | Top right
+67 | names | Bottom right
+68 | tip | Corner the task tracker sits in
+
+##### GÜNLÜK · AYAR GRUPLARI #####
+# EKRAN: Aynı ekranın grup başlıkları (Text and motion, Subtitles, Tasks and popups, Intro)
+69 | label | Text and motion
+70 | label | Subtitles
+71 | label | Tasks and popups
+72 | label | Intro
+
+##### GÜNLÜK · GÖREV AŞAMALARI (Left Behind) #####
+# EKRAN: Dell'in çanta görevinin günlükteki aşama başlığı ve alt açıklaması
+73 | detail | Kill the dead inside
+74 | detail | A brown duffel with a name on the strap
+75 | text | Find Earl's bag
+76 | detail | Comply, talk, fight or run
+77 | text | Get out alive
+78 | text | Bring the bag to Dell
+79 | detail | Talk to Dell and hand it over
+
+##### KONUŞMA · GÖREV ETİKETİ #####
+# EKRAN: Aynı görevin konuşma satırlarındaki küçük etiket (Reward, Comply, Fight)
+80 | label | Reward
+81 | label | Hand over
+82 | label | Abandon
+83 | label | Comply
+84 | label | Fight
+
+##### EMİR ÇARKI · ALT MENÜLER #####
+# EKRAN: Grup emir çarkının alt menüleri
+85 | label | Tactics
+86 | label | Items
+87 | label | Rooms
