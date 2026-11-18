@@ -1,0 +1,934 @@
+{
+    "_paket": "Y3R — Y3 yeniden çeviri · eski Türkçe gösterilmez, 303 (çeviri: harici AI; kalite incelemesi yapılmadı)",
+    "_dosya": "IG_UI",
+    "satirlar": {
+        "IGUI_ALifeUI_6d82db010c912cc2": {
+            "tr": "Evi temizledim."
+        },
+        "IGUI_ALifeUI_1e2631d82b0504b2": {
+            "tr": "Temizlenecek ev var mı?"
+        },
+        "IGUI_ALifeUI_67658d0e11ce40c1": {
+            "tr": "Geldik, burası. Artık güvendesin."
+        },
+        "IGUI_ALifeUI_6eff59b5410b0800": {
+            "tr": "Öbür kasabaya götürülecek biri var mı?"
+        },
+        "IGUI_ALifeUI_53183f5327675639": {
+            "tr": "İlaçları getirdim."
+        },
+        "IGUI_ALifeUI_1582e592624cf0d5": {
+            "tr": "İlacı azalan var mı?"
+        },
+        "IGUI_ALifeUI_158310da18d7f3ed": {
+            "tr": "Al, suyu getirdim."
+        },
+        "IGUI_ALifeUI_038effa67935291e": {
+            "tr": "Su taşıyacak adam lazım mı?"
+        },
+        "IGUI_ALifeUI_596e9ca930bc93d1": {
+            "tr": "Parçalar bende."
+        },
+        "IGUI_ALifeUI_6a00ada37d52e4af": {
+            "tr": "Jeneratörle başın dertte mi?"
+        },
+        "IGUI_ALifeUI_117b005a33a27899": {
+            "tr": "Sandığını buldum."
+        },
+        "IGUI_ALifeUI_23f383ce29117db0": {
+            "tr": "Geri getirilecek bir şey var mı?"
+        },
+        "IGUI_ALifeUI_5f8ebbd4189796e3": {
+            "tr": "Yolu kolaçan ettim."
+        },
+        "IGUI_ALifeUI_4767b51142dc9238": {
+            "tr": "Keşfe çıkılacak yol var mı?"
+        },
+        "IGUI_ALifeUI_7ea1cf3c76831177": {
+            "tr": "Yerine ulaştırdım."
+        },
+        "IGUI_ALifeUI_7becc90a502fe275": {
+            "tr": "Götürülecek mesaj var mı?"
+        },
+        "IGUI_ALifeUI_3258e0f25fb7872d": {
+            "tr": "Tahtaları getirdim."
+        },
+        "IGUI_ALifeUI_2c8a67da36755234": {
+            "tr": "Taşınacak yapı malzemesi var mı?"
+        },
+        "IGUI_ALifeUI_5bea7def3d88005b": {
+            "tr": "Eti getirdim."
+        },
+        "IGUI_ALifeUI_464e99b0761d0565": {
+            "tr": "Yiyecek lazım mı? Getiririm."
+        },
+        "IGUI_ALifeUI_08f96b71658e0193": {
+            "tr": "Buldum onları."
+        },
+        "IGUI_ALifeUI_33249bed3871b719": {
+            "tr": "Kaybolan var mı?"
+        },
+        "IGUI_ALifeUI_6830156a0cc9698c": {
+            "tr": "Gece bitti, sabahı gördük."
+        },
+        "IGUI_ALifeUI_5997365b7ec60007": {
+            "tr": "Bu gece kapıda nöbet tutacak biri lazım mı?"
+        },
+        "IGUI_ALifeUI_346d36370da28764": {
+            "tr": "Yaktım, bitti."
+        },
+        "IGUI_ALifeUI_53a43eb925f3d6b2": {
+            "tr": "Yakılacak bir şey var mı?"
+        },
+        "IGUI_ALifeUI_72b1546948ebb546": {
+            "tr": "Pil bende.",
+            "not": "battery = pil aldım; akü kastediliyorsa 27-28 değişmeli"
+        },
+        "IGUI_ALifeUI_391ae88522dada77": {
+            "tr": "Bir şeye pil lazım mı?"
+        },
+        "IGUI_ALifeUI_7105e7eb104a7c1f": {
+            "tr": "Yardım getirdim."
+        },
+        "IGUI_ALifeUI_7de6a0160bae5a87": {
+            "tr": "Burada ağır yaralı var mı?"
+        },
+        "IGUI_ALifeUI_06b8acae6f410f1d": {
+            "tr": "Eşyalarını geri aldım."
+        },
+        "IGUI_ALifeUI_61b13245475d1e3d": {
+            "tr": "Elinden bir şey mi aldılar?"
+        },
+        "IGUI_ALifeUI_1b710f705154e17c": {
+            "tr": "Takas tamam."
+        },
+        "IGUI_ALifeUI_120fdf25067c75d7": {
+            "tr": "Kamplar arasında taşınacak mal var mı?"
+        },
+        "IGUI_ALifeUI_7202775b227d03ef": {
+            "tr": "Güruh dağıldı, gitti."
+        },
+        "IGUI_ALifeUI_5bcc083b5c5e15ba": {
+            "tr": "Buralarda dolanan ölü güruhu mu var?"
+        },
+        "IGUI_ALifeUI_6e162e6731d3a118": {
+            "tr": "İşareti yaktım."
+        },
+        "IGUI_ALifeUI_369c9f8c296c7f74": {
+            "tr": "İşaret mi yakılacak?"
+        },
+        "IGUI_ALifeUI_72fb994d6ce5e4a5": {
+            "tr": "Elektrik geldi."
+        },
+        "IGUI_ALifeUI_2708d1fc170f1cb7": {
+            "tr": "Elektrikler kesik mi burada?"
+        },
+        "IGUI_ALifeUI_00d9bd55268000ff": {
+            "tr": "Parçaları buldum."
+        },
+        "IGUI_ALifeUI_722cbb9f57c7f0c9": {
+            "tr": "Parça bekleyen bozuk bir şey var mı?"
+        },
+        "IGUI_ALifeUI_4dbdd3d423b00c68": {
+            "tr": "Çıkardım, sağ salim."
+        },
+        "IGUI_ALifeUI_35f0d952664cfcb4": {
+            "tr": "Bir yerde mahsur kalan var mı?"
+        },
+        "IGUI_ALifeUI_3dd2841e0a5ad8ec": {
+            "tr": "Hasat güvende."
+        },
+        "IGUI_ALifeUI_1e37321d36394c73": {
+            "tr": "Başında beklenecek ekin var mı?"
+        },
+        "IGUI_ALifeUI_1be818136c7442a9": {
+            "tr": "Buluşmaya gittim, görüştük."
+        },
+        "IGUI_ALifeUI_3b111f4f33fac9c0": {
+            "tr": "Buluşma ayarlamamı isteyen var mı?"
+        },
+        "IGUI_ALifeUI_7a46c95008f4f823": {
+            "tr": "Gürültü kesildi."
+        },
+        "IGUI_ALifeUI_7a83aa993847fa3e": {
+            "tr": "Yakınlarda gürültü yapan bir şey mi var?"
+        },
+        "IGUI_ALifeUI_1a96e9e109994e57": {
+            "tr": "Gidip yokladım onları."
+        },
+        "IGUI_ALifeUI_38e950712aa158d8": {
+            "tr": "Haber alamadığın biri var mı?"
+        },
+        "IGUI_ALifeUI_588959794e02de11": {
+            "tr": "Bezler hazır."
+        },
+        "IGUI_ALifeUI_667b95902d254788": {
+            "tr": "Pansuman için temiz bez lazım mı?"
+        },
+        "IGUI_ALifeUI_7c4b058312763c59": {
+            "tr": "Sürüden eser kalmadı."
+        },
+        "IGUI_ALifeUI_79a39f295c4d2488": {
+            "tr": "Yolu kesen sürü mü var?"
+        },
+        "IGUI_ALifeUI_0e970b3e2751fe24": {
+            "tr": "Uyarıyı ilettim."
+        },
+        "IGUI_ALifeUI_6d3dab2d1296e8d8": {
+            "tr": "Öbür kampın bilmesi gereken bir şey var mı?"
+        },
+        "IGUI_ALifeUI_2c21db51772040c0": {
+            "tr": "Gözetleme yerine baktım."
+        },
+        "IGUI_ALifeUI_12efa3783ecc4043": {
+            "tr": "Eski gözetleme yerinde hala nöbet tutan var mı?"
+        },
+        "IGUI_ALifeUI_23c520717325aad2": {
+            "tr": "Acele etmem, temkinli giderim."
+        },
+        "IGUI_ALifeUI_7b810e3c6c2be048": {
+            "tr": "Dalarım içeri, işi bitiririm."
+        },
+        "IGUI_ALifeUI_274f346a5dbe7e0a": {
+            "tr": "Üstümde olanı veririm."
+        },
+        "IGUI_ALifeUI_5551637d68e8c264": {
+            "tr": "Bir bakınayım, ne bulursam getiririm."
+        },
+        "IGUI_ALifeUI_7db38ce4350635ae": {
+            "tr": "Şu an üstümde var biraz."
+        },
+        "IGUI_ALifeUI_2c6de4094789de8a": {
+            "tr": "O iş için mi? Sağlam malın olduğu yere giderim."
+        },
+        "IGUI_ALifeUI_5e02404f7047339e": {
+            "tr": "Kusura bakma, elimden bir şey gelmez."
+        },
+        "IGUI_ALifeUI_1ece67424b969cbd": {
+            "tr": "Şu senin işi konuşalım."
+        },
+        "IGUI_ALifeUI_04fe1c026254edc3": {
+            "tr": "Nöbet tutulacak bina var mı?"
+        },
+        "IGUI_ALifeUI_37ab227a3cb27f9f": {
+            "tr": "Yukarıdan gözcülük edecek biri lazım mı?"
+        },
+        "IGUI_ALifeUI_606fe5177be61a04": {
+            "tr": "Başka iş var mı ortalıkta?"
+        },
+        "IGUI_ALifeUI_33ca41fc52fde32a": {
+            "tr": "İş tamam, yerimden kıpırdamadım."
+        },
+        "IGUI_ALifeUI_4138a0f25bcfea51": {
+            "tr": "Herkes bir pencere tutsun, gözünüz dışarıda olsun.",
+            "not": "gerçek çoğul",
+            "onayli_uslup_istisnalari": {
+                "hitap": "Kullanıcı bu Fable paketindeki çoğul uyarılarını kasıtlı kabul etti; Türkçe metin aynen korundu."
+            }
+        },
+        "IGUI_ALifeUI_6fa1c3481a3e32b3": {
+            "tr": "Baskına hazırlanan var mı, duydun mu?"
+        },
+        "IGUI_ALifeUI_0de382100df273b5": {
+            "tr": "Belalı ekipler nerede geceliyor, biliyor musun?"
+        },
+        "IGUI_ALifeUI_2859cb9931d9a35b": {
+            "tr": "Ağır kanama nasıl durdurulur?"
+        },
+        "IGUI_ALifeUI_0af1a7d93b5c58cd": {
+            "tr": "Sizde ısırılanlara ne yapılıyor?"
+        },
+        "IGUI_ALifeUI_738663605a9d5b87": {
+            "tr": "Buralarda dolaşan tehlikeli biri var mı?"
+        },
+        "IGUI_ALifeUI_419154aa38293022": {
+            "tr": "Buralarda dolaşmak için belge lazım mı?"
+        },
+        "IGUI_ALifeUI_0ea6694952b4f554": {
+            "tr": "Hangi birliktensin?"
+        },
+        "IGUI_ALifeUI_7f23b4001bec2e88": {
+            "tr": "Dışarıda neler oluyor, haber var mı?"
+        },
+        "IGUI_ALifeUI_3cba37265c791589": {
+            "tr": "Ekinler nasıl, dayanıyor mu?"
+        },
+        "IGUI_ALifeUI_6eea058276ca82d5": {
+            "tr": "Takaslık yiyeceğin var mı?"
+        },
+        "IGUI_ALifeUI_6df2445b15d4839c": {
+            "tr": "Arabadan, benzinden anlar mısın?"
+        },
+        "IGUI_ALifeUI_3bcc85f1302bdc63": {
+            "tr": "Fazladan aletin var mı, verebileceğin?"
+        },
+        "IGUI_ALifeUI_5bb797673aaf8577": {
+            "tr": "Ekip bastırsa bir evi nasıl savunurdun?"
+        },
+        "IGUI_ALifeUI_18788ceb1a6556c9": {
+            "tr": "Yaklaşmamam gereken kaza ya da yangın yeri var mı?"
+        },
+        "IGUI_ALifeUI_1eb89edb405c5b40": {
+            "tr": "Kaybettiklerimizin ardından iki söz söyler misin?"
+        },
+        "IGUI_ALifeUI_69a699e218c2d1b6": {
+            "tr": "Polisim ben, şu rozete bak."
+        },
+        "IGUI_ALifeUI_7c38fa94529453f0": {
+            "tr": "Peşimden gel."
+        },
+        "IGUI_ALifeUI_4127fc9724652cd0": {
+            "tr": "Burada bekle, gözünü dört aç."
+        },
+        "IGUI_ALifeUI_169cb34b058466aa": {
+            "tr": "Benim için şu binaya göz kulak ol."
+        },
+        "IGUI_ALifeUI_7d07577a01bf3e4d": {
+            "tr": "Yoluna devam et, burada işimiz bitti."
+        },
+        "IGUI_ALifeUI_7976cc7266d3fdf3": {
+            "tr": "Biraz erzak ayırabilir misin?"
+        },
+        "IGUI_ALifeUI_7947629f3b47d095": {
+            "tr": "Geri çekil, bundan sonrasını ben hallederim."
+        },
+        "IGUI_ALifeUI_22dfa8596c529942": {
+            "tr": "Verebileceğin bir şey var mı?"
+        },
+        "IGUI_ALifeUI_7ea4af3e03583084": {
+            "tr": "Sen buralarda ne iş yaparsın?"
+        },
+        "IGUI_ALifeUI_0a9551101c220e37": {
+            "tr": "Takas edecek bir şeyin var mı?"
+        },
+        "IGUI_ALifeUI_7db200543c9b55c2": {
+            "tr": "Buralarda başka kimler var?"
+        },
+        "IGUI_ALifeUI_0a47a06a083fa397": {
+            "tr": "Orayı nasıl bulurum?"
+        },
+        "IGUI_ALifeUI_16658c207319576f": {
+            "tr": "Bir ara uğrasam olur mu?"
+        },
+        "IGUI_ALifeUI_22bb4b1c29f80b20": {
+            "tr": "Tam neresi?"
+        },
+        "IGUI_ALifeUI_2fab50b60c16cd47": {
+            "tr": "Arkasında kim var?"
+        },
+        "IGUI_ALifeUI_6ff7bd6174c134ae": {
+            "tr": "Bir yardımım dokunur mu?"
+        },
+        "IGUI_ALifeUI_1b121bca4e40be27": {
+            "tr": "Yolun buraya nasıl düştü?"
+        },
+        "IGUI_ALifeUI_42352ef050aaf20a": {
+            "tr": "Buralarda başka kim takas yapıyor?"
+        },
+        "IGUI_ALifeUI_257f25253b0cb112": {
+            "tr": "Güvenilecek, iyi niyetli biri var mı?"
+        },
+        "IGUI_ALifeUI_2d2018ec67480852": {
+            "tr": "Uzak durmam gereken biri var mı?"
+        },
+        "IGUI_ALifeUI_4405a7856a7ccb36": {
+            "tr": "Değdi mi?"
+        },
+        "IGUI_ALifeUI_6a57c61f0b8ff99a": {
+            "tr": "Eee, senin hikayen ne?"
+        },
+        "IGUI_ALifeUI_4e46b76e31321499": {
+            "tr": "Sen kimsin, necisin?"
+        },
+        "IGUI_ALifeUI_66e41da70d85d329": {
+            "tr": "Nasıl oldu da buralara düştün?"
+        },
+        "IGUI_ALifeUI_1db1572d4f075916": {
+            "tr": "Buralarda kim belalı, kim sağlam?"
+        },
+        "IGUI_ALifeUI_08fe820b131007f3": {
+            "tr": "Buralarda kime güvenebilirim?"
+        },
+        "IGUI_ALifeUI_1e101a262259d47c": {
+            "tr": "Kimden uzak durayım?"
+        },
+        "IGUI_ALifeUI_125baae206a78072": {
+            "tr": "Ne zamandır buralardasın?"
+        },
+        "IGUI_ALifeUI_39961d7d5b6f3b6e": {
+            "tr": "Uzun zamandır mı tek başınasın?"
+        },
+        "IGUI_ALifeUI_62a7ab7c47d32868": {
+            "tr": "Bu belada ne zamandır ayaktasın?"
+        },
+        "IGUI_ALifeUI_0f04a37a69b535e6": {
+            "tr": "Kulağına bir şey çalındı mı?"
+        },
+        "IGUI_ALifeUI_44feccdf4c0ba6f1": {
+            "tr": "Ortalıkta ne dolaşıyor? Laf, dedikodu, ne olursa."
+        },
+        "IGUI_ALifeUI_724193c3591e0bc6": {
+            "tr": "Millet ne konuşuyor?"
+        },
+        "IGUI_ALifeUI_784783c20a82e89a": {
+            "tr": "Keşke söz dinleseydim."
+        },
+        "IGUI_ALifeHint_tier_tough": {
+            "tr": "Zormuş.",
+            "not": "bağlam belirsiz; \"Tough luck\" anlamındaysa \"Kendin ettin.\" olmalı"
+        },
+        "IGUI_ALifeUI_31aaec4258159029": {
+            "tr": "Bu iyiliğini unutmam."
+        },
+        "IGUI_ALifeUI_1589b7f142198fb2": {
+            "tr": "Silahlıyız, arkamızda başkaları da var. Yürü git."
+        },
+        "IGUI_ALifeUI_7610df211b5ac579": {
+            "tr": "Kusura bakma, sana yardım edemem. Gitmen lazım."
+        },
+        "IGUI_ALifeUI_3b72404e0278d6e6": {
+            "tr": "İnsan yüzü görmek iyi geldi."
+        },
+        "IGUI_ALifeUI_0b11668d5270280b": {
+            "tr": "Buralarda birine rastlayacağımı hiç sanmazdım."
+        },
+        "IGUI_ALifeUI_283765ae6fddd628": {
+            "tr": "Dur, sakin ol. Yaralı mısın?"
+        },
+        "IGUI_ALifeUI_5c539bf20515eb92": {
+            "tr": "Bir nefes al, şimdilik geçti."
+        },
+        "IGUI_ALifeUI_465ca3193ba8977c": {
+            "tr": "Kendine iyi bak, yine görüşürüz."
+        },
+        "IGUI_ALifeUI_51c909f407a1bcd7": {
+            "tr": "Anlatacak hikayen var mı? Kafam biraz dağılsın."
+        },
+        "IGUI_ALifeUI_32b1ea653f3a9a63": {
+            "tr": "Sağ ol ama orada dur, daha yaklaşma."
+        },
+        "IGUI_ALifeUI_7cee5dba5d2b0bf7": {
+            "tr": "Ayırabileceğin ilaç var mı?"
+        },
+        "IGUI_ALifeUI_57730ea95596925f": {
+            "tr": "Yok, şimdi olmaz."
+        },
+        "IGUI_ALifeUI_41d26d9d13674ac9": {
+            "tr": "Hiç kimse, yolum buradan geçiyordu."
+        },
+        "IGUI_ALifeUI_29fa2201320f18d5": {
+            "tr": "Tek başımayım."
+        },
+        "IGUI_ALifeUI_5bddd692284ed8b7": {
+            "tr": "Yalnız değilim, ötekiler yakında."
+        },
+        "IGUI_ALifeUI_02e2f5651b067f49": {
+            "tr": "Pek bir şey yok. Biraz yiyecek, azıcık su."
+        },
+        "IGUI_ALifeUI_68fe5ed1700cff08": {
+            "tr": "Tamam, silahı indirdim."
+        },
+        "IGUI_ALifeUI_7ea07f673aea1c67": {
+            "tr": "Ne lazımsa al, olay çıkmasın."
+        },
+        "IGUI_ALifeUI_6df9533600afd4a3": {
+            "tr": "Gidiyorum, aramızda bir mesele yok."
+        },
+        "IGUI_ALifeUI_2f188bc30d24feaf": {
+            "tr": "Hayır. Yok öyle şey."
+        },
+        "IGUI_ALifeUI_4d10f41242ac50ed": {
+            "tr": "Arkadaşına söyle, gözümün önünden ayrılmasın."
+        },
+        "IGUI_ALifeUI_771b39797275858c": {
+            "tr": "Bir çift el daha işine yarardı."
+        },
+        "IGUI_ALifeUI_3ff117b0265d0324": {
+            "tr": "Gelirken yolda birkaçını temizledim."
+        },
+        "IGUI_ALifeUI_703ed0126a409623": {
+            "tr": "Bugün canım çıktı, pek halim yok."
+        },
+        "IGUI_ALifeUI_1682aca922e1f2c6": {
+            "tr": "İlk yardımdan biraz anlarım."
+        },
+        "IGUI_ALifeUI_783efb4a0e6ba587": {
+            "tr": "Dışarıda gezilecek saat değil bu."
+        },
+        "IGUI_ALifeUI_07f8571172b29e74": {
+            "tr": "Peki siz benim için ne diyorsunuz?",
+            "not": "gerçek çoğul",
+            "onayli_uslup_istisnalari": {
+                "hitap": "Kullanıcı bu Fable paketindeki çoğul uyarılarını kasıtlı kabul etti; Türkçe metin aynen korundu."
+            }
+        },
+        "IGUI_ALifeUI_15e969376e4115cd": {
+            "tr": "Al şu bidonumu, depoyu doldur."
+        },
+        "IGUI_ALifeUI_426a4a9a5dc4ed7a": {
+            "tr": "Benim depodan hortumla çek."
+        },
+        "IGUI_ALifeUI_007949c5443f553d": {
+            "tr": "Yardım edemem, verecek fazlam yok."
+        },
+        "IGUI_ALifeUI_64f286976678ff0e": {
+            "tr": "Aç kaputu, aküye takviye yapayım."
+        },
+        "IGUI_ALifeUI_160cde5b41e053db": {
+            "tr": "Şu motora bir bakayım."
+        },
+        "IGUI_ALifeUI_327bce183e96880c": {
+            "tr": "Atla, seni de götüreyim."
+        },
+        "IGUI_ALifeUI_178cf6761e9cf6e1": {
+            "tr": "Yakıta karşılık erzak. Anlaştık mı?"
+        },
+        "IGUI_ALifeUI_0acf10c8618bbeb4": {
+            "tr": "Ne tarafa gidiyorsun? Yolu bilirim."
+        },
+        "IGUI_ALifeUI_565d954873c853ed": {
+            "tr": "Polisim. İşte rozetim."
+        },
+        "IGUI_ALifeUI_7c723596075633f8": {
+            "tr": "Ben de içeride yattım."
+        },
+        "IGUI_ALifeUI_45247a7e18137606": {
+            "tr": "Ben polisim."
+        },
+        "IGUI_ALifeUI_115983e615c5bbcd": {
+            "tr": "Ben sana yardım ederim."
+        },
+        "IGUI_ALifeUI_0134fe9e106a46af": {
+            "tr": "Buyur, benimkilerden al biraz."
+        },
+        "IGUI_ALifeUI_7a73889440e3dcc8": {
+            "tr": "Son günlerde telsizde bir şey duydun mu?"
+        },
+        "IGUI_ALifeUI_1a0ea7c077c73899": {
+            "tr": "İlk yardım bilirim, yaralı varsa sarayım."
+        },
+        "IGUI_ALifeUI_67117eda0e69d727": {
+            "tr": "Dur bir bakayım, ben bundan beterlerini diktim."
+        },
+        "IGUI_ALifeUI_4d28480854d7f4a3": {
+            "tr": "Yemek yapmayı bilirim. Azıcık malzeme ver, hakkını vereyim."
+        },
+        "IGUI_ALifeUI_31abce2074f33f90": {
+            "tr": "Attığımı vururum. Bela neredeyse göster."
+        },
+        "IGUI_ALifeUI_6a065ec34b54b159": {
+            "tr": "Buralarda yaptıklarımdan sonra beni içeri alırsın artık."
+        },
+        "IGUI_ALifeUI_58e3414508882b49": {
+            "tr": "Kime istersen sor, burada herkes ne yaptığımı bilir."
+        },
+        "IGUI_ALifeUI_16b310311f9f6110": {
+            "tr": "Buralarda beni tanımayan yoktur, kime sorsan söyler. Bırak geçeyim."
+        },
+        "IGUI_ALifeUI_0aa843b03517189d": {
+            "tr": "Alışverişte dürüsttür derler benim için. Hadi, hakça takas yapalım."
+        },
+        "IGUI_ALifeUI_1690b89c30224b6a": {
+            "tr": "Adımı biliyorsun, benden geçiş parası istenmez."
+        },
+        "IGUI_ALifeUI_166344af348921a3": {
+            "tr": "Birbirimize hep açık olduk. Yolun nereye, söyle."
+        },
+        "IGUI_ALifeUI_347836d2503b63df": {
+            "tr": "Ağır yük taşırım. Büyük zulayı göster bana."
+        },
+        "IGUI_ALifeUI_49377a9c68961732": {
+            "tr": "Geçiyordum sadece."
+        },
+        "IGUI_ALifeUI_33155cce598d9d9f": {
+            "tr": "Yalnız değilim."
+        },
+        "IGUI_ALifeUI_0edf1e903d4a8149": {
+            "tr": "Üstümde pek bir şey yok."
+        },
+        "IGUI_ALifeUI_2bfbdce5097fddec": {
+            "tr": "Silah indi."
+        },
+        "IGUI_ALifeUI_5c9a38a33a4ee3c9": {
+            "tr": "Lazım olanı al."
+        },
+        "IGUI_ALifeUI_7811409721b2f762": {
+            "tr": "Arkadaşına sahip ol."
+        },
+        "IGUI_ALifeUI_7bc59122330688a9": {
+            "tr": "Sana bir yardımcı lazım."
+        },
+        "IGUI_ALifeUI_6876b2e87ce52bec": {
+            "tr": "Değdi mi, dedim. Her saniyesine, dedin."
+        },
+        "IGUI_ALifeUI_380b9bde2ed00811": {
+            "tr": "Değdi mi, dedim. Yere inince sor, dedin."
+        },
+        "IGUI_ALifeUI_5d590b7468862974": {
+            "tr": "Değdi mi, dedim. Kalanlara sor, dedin."
+        },
+        "IGUI_ALifeUI_6b14129f3d51cb4c": {
+            "tr": "Değdi mi, dedim. Hayır, dedin."
+        },
+        "IGUI_ALifeUI_4a45816a1d885fd0": {
+            "tr": "Yine yağmur. Hiç değilse kokuyu alıp götürüyor."
+        },
+        "IGUI_ALifeUI_22b8d0647b07a70a": {
+            "tr": "Çabuk, bir yere sığın! Islanmaya değmez."
+        },
+        "IGUI_ALifeUI_7ffff2bf1270e75e": {
+            "tr": "Çatıdaki tıpırtıyı duyuyor musun? Özlemişim bu sesi."
+        },
+        "IGUI_ALifeUI_7f77417d336c64b4": {
+            "tr": "Çorap ıslak, tüfek ıslak, keyif desen o da sırılsıklam."
+        },
+        "IGUI_ALifeUI_1b1cc9ef18c39159": {
+            "tr": "Oluklar akıyor, kap bir kova gel."
+        },
+        "IGUI_ALifeUI_7e1eb2af14b5cc2b": {
+            "tr": "Yağmur sesimizi örtüyor. Onlarınkini de ama."
+        },
+        "IGUI_ALifeUI_5061ae650c5af34b": {
+            "tr": "Bu gök gürültüsünde ne ses yapsan duyulmaz. Yola çıkmak için tam gecesi."
+        },
+        "IGUI_ALifeUI_3d727d6d762bb55a": {
+            "tr": "Yıldırım koca bir şeye düştü. Gördün sen de."
+        },
+        "IGUI_ALifeUI_162a9ec12090cb55": {
+            "tr": "Bu havada kimse dışarı çıkmıyor."
+        },
+        "IGUI_ALifeUI_056b92b844d6da10": {
+            "tr": "Böyle fırtınada ölüler bile yerinden kalkmaz."
+        },
+        "IGUI_ALifeUI_6b2a6409754fe373": {
+            "tr": "Göz gözü görmüyor. İyi tarafı, onlar da bizi görmüyor."
+        },
+        "IGUI_ALifeUI_5460707a09a7f398": {
+            "tr": "Durma, konuş. Orada olduğunu bileyim."
+        },
+        "IGUI_ALifeUI_07ea8d14046be26e": {
+            "tr": "Sevmem şu sisi. Her karaltı insan gibi görünüyor."
+        },
+        "IGUI_ALifeUI_69752b5425ac58c1": {
+            "tr": "Kar yağmış. Her yer iz içinde, bizimkiler de belli."
+        },
+        "IGUI_ALifeUI_3440e6393b988a56": {
+            "tr": "Aman, üstüne kuru bir şey geçir, mosmor olmuşsun."
+        },
+        "IGUI_ALifeUI_2ae4e95d706649b3": {
+            "tr": "İlk kar düştü, kimse yerinden pek kıpırdamıyor."
+        },
+        "IGUI_ALifeUI_0ef40f8805d2569a": {
+            "tr": "Cehennem gibi sıcak, bir şeyler iç."
+        },
+        "IGUI_ALifeUI_0cb506aa66c5e185": {
+            "tr": "Daha şimdiden terden gömleğim sırtıma yapıştı."
+        },
+        "IGUI_ALifeUI_3f5a8c60116dc19b": {
+            "tr": "Bu sıcakta cesetler çabuk kokar. Rüzgarı arkana al."
+        },
+        "IGUI_ALifeUI_5299bda43d0324c3": {
+            "tr": "Bu soğukta parmaklarım tutmuyor."
+        },
+        "IGUI_ALifeUI_66a50af22f772965": {
+            "tr": "Bu sabah bütün camlar buz tutmuş."
+        },
+        "IGUI_ALifeUI_3aedcc691c27a28f": {
+            "tr": "Bu ayaz paltonun neresi delikse bulur, girer."
+        },
+        "IGUI_ALifeUI_0df5ddec29ce5864": {
+            "tr": "Birazdan hava kararır. Ateşi kısık tut."
+        },
+        "IGUI_ALifeUI_27aa59861e72a717": {
+            "tr": "Gece nöbeti. Göz kırpmak yok."
+        },
+        "IGUI_ALifeUI_2b8483823daca999": {
+            "tr": "Bu gece ortalık sakin. Fazla mı sakin ne?"
+        },
+        "IGUI_ALifeUI_6a3090d23d355d26": {
+            "tr": "Çok şükür, bir sabahı daha gördük."
+        },
+        "IGUI_ALifeUI_4c9a63077bba7e35": {
+            "tr": "Güneş doğuyor. Bir günü daha atlattık."
+        },
+        "IGUI_ALifeUI_27b204766891afb7": {
+            "tr": "Şimdi bir kahve olsa fena olmazdı hani."
+        },
+        "IGUI_ALifeUI_5f99227a4eab8660": {
+            "tr": "O ekipten biri {where} öldürülmüş diyorlar... Kimin yaptığını gören yok."
+        },
+        "IGUI_ALifeUI_03dfab484f2e881c": {
+            "tr": "Onlar bu hafta {where} bir adamlarını kaybetmiş. Yabancının biri yapmış diyorlar."
+        },
+        "IGUI_ALifeUI_680ea51b6b41233d": {
+            "tr": "Biri onların ulaklarından birini {where} toprağa sermiş. Yanlarında fazla göze batma."
+        },
+        "IGUI_ALifeUI_077f2ef310b0cbdd": {
+            "tr": "Bizden biri {where} yere serildi. Bir şey gördüysen söylemenin tam sırası."
+        },
+        "IGUI_ALifeUI_100825b64fa3b579": {
+            "tr": "Bir adamımız {where} öldürüldü. Sessiz iş, ansızın olmuş. Yabancının biri diyorlar."
+        },
+        "IGUI_ALifeUI_66a0ecd306ee95a0": {
+            "tr": "Bir ekip {where} bir evi basmış, ne var ne yok HEPSİNİ götürmüşler!"
+        },
+        "IGUI_ALifeUI_454d470f133e5cd7": {
+            "tr": "Silah sesi geldi {where}... Onlardı, adım gibi eminim."
+        },
+        "IGUI_ALifeUI_1d28d4f575d7822f": {
+            "tr": "Onlar artık örgütlü. Eskisi gibi ıvır zıvır toplamıyorlar, düpedüz baskın yapıyorlar."
+        },
+        "IGUI_ALifeUI_04aee1ed74074ad9": {
+            "tr": "Biri ölmüş bir adamın künyesini {where} evine götürmüş. Hala böyle insanlar var demek."
+        },
+        "IGUI_ALifeUI_445596cb16d8516f": {
+            "tr": "{name} eşyalarını kaybetmişti ya, yabancının biri {where} geri getirmiş. İyi insanlar da var demek."
+        },
+        "IGUI_ALifeUI_3344558626a8a121": {
+            "tr": "Benim {thing} kayıp, {where} düşürdüm. Onsuz gözüme uyku girmiyor."
+        },
+        "IGUI_ALifeUI_26359bf10f67be75": {
+            "tr": "Ayakların tutuyor gibi senin. Benim {thing} {where} düştü, kaldı. Benim için kıymeti büyük."
+        },
+        "IGUI_ALifeUI_538eacab29f58bc8": {
+            "tr": "Benim {thing} dışarıda, {where} duruyor. Bul getir, sana borçlanayım."
+        },
+        "IGUI_ALifeUI_29535e2401fb6256": {
+            "tr": "Bu işte, ta kendisi! Allah razı olsun."
+        },
+        "IGUI_ALifeUI_31d9900471eced62": {
+            "tr": "Bulmuşsun! Ben artık gitti sanıyordum."
+        },
+        "IGUI_ALifeUI_5df18a675ced9e3f": {
+            "tr": "Kayıp eşya",
+            "not": "başlık gibi duruyor, noktasız bıraktım"
+        },
+        "IGUI_ALifeUI_38ee51dc76d90927": {
+            "tr": "Sahibi {name}, kayıp eşya {thing}: {where}"
+        },
+        "IGUI_ALifeUI_1ed53f2f25ae838b": {
+            "tr": "Teslim edildi",
+            "not": "başlık gibi duruyor, noktasız bıraktım"
+        },
+        "IGUI_ALifeUI_38b6366e1e69145a": {
+            "tr": "{thing} sahibine döndü: {name}"
+        },
+        "IGUI_ALifeUI_759e10e4707dc3e2": {
+            "tr": "{faction} içinden biri arabaya atlamış, senin peşinde."
+        },
+        "IGUI_ALifeUI_3845773703a74707": {
+            "tr": "{faction} tarafından tek bir adam yola çıkmış, arabayla seni arıyor."
+        },
+        "IGUI_ALifeUI_7f362c900a5f6f7e": {
+            "tr": "{faction} kamyonetlere doluşmuş. Senin için geliyorlar diyorlar."
+        },
+        "IGUI_ALifeUI_07fffc9c2c8dc442": {
+            "tr": "Duyduğuma göre {faction} arabalarla yola çıkmış, seni arıyor."
+        },
+        "IGUI_ALifeUI_78e0e46916a66869": {
+            "tr": "Yolda tek motor sesi var. {faction} tarafından bir adam, yakında."
+        },
+        "IGUI_ALifeUI_3dfdece0140521b3": {
+            "tr": "Motor sesleri, birden fazla. Büyük ihtimalle {faction}."
+        },
+        "IGUI_ALifeUI_7d4e850027b6b738": {
+            "tr": "Yolda arabalar var, {faction} geliyor. Yakındalar."
+        },
+        "IGUI_ALifeUI_7ec4611169c2ff5f": {
+            "tr": "Biri etrafta seni soruşturuyor. {faction} içinden, tek başına bir adam."
+        },
+        "IGUI_ALifeUI_358e423b3a20d04b": {
+            "tr": "Adını bilen biri var: {faction} içinden, tek başına bir adam."
+        },
+        "IGUI_ALifeUI_65b7e50f6afd0905": {
+            "tr": "{faction} yaptığını unutmadı."
+        },
+        "IGUI_ALifeUI_6185b7ee6849c1a0": {
+            "tr": "{faction} seni bulsunlar diye adam yollamış, öyle duydum."
+        },
+        "IGUI_ALifeUI_57084d3217a209b0": {
+            "tr": "Yaklaştı. {faction} içinden tek adam, gözünü dört aç."
+        },
+        "IGUI_ALifeUI_539b96d87dbeb8c1": {
+            "tr": "{faction} içinden o yalnız adam neredeyse ensende."
+        },
+        "IGUI_ALifeUI_5cfb11ce2a3d28cb": {
+            "tr": "{faction} yakında, yollara dikkat et."
+        },
+        "IGUI_ALifeUI_14df7dff51476129": {
+            "tr": "Gözcüler haber verdi: {faction} gelmek üzere."
+        },
+        "IGUI_ALifeUI_44721c1d77bd07f6": {
+            "tr": "Yoldan motor sesi geliyor. {faction} olabilir."
+        },
+        "IGUI_ALifeUI_353de3b801ab383a": {
+            "tr": "{place} görüş alanımda. Sana {dist} adım, yön {dir}. Ağır git."
+        },
+        "IGUI_ALifeUI_11a4c58f679c1791": {
+            "tr": "Geldin sayılır. {place} sana {dist} adım, yön {dir}. Eğil, görünme."
+        },
+        "IGUI_ALifeUI_783740ec341259b3": {
+            "tr": "{place} tarafında hareket var, ayaklanmışlar. Kendini kolla."
+        },
+        "IGUI_ALifeUI_058252cd6c39b68d": {
+            "tr": "Bunu okuyorsan ben kurtulamadım demektir.",
+            "onayli_uslup_istisnalari": {
+                "dir": "Kullanıcı bu Fable paketindeki üslup uyarısını kabul etti; Türkçe metin aynen korundu."
+            }
+        },
+        "IGUI_ALifeUI_098e598f5a23d20b": {
+            "tr": "Eşyalarımı {where} bıraktım."
+        },
+        "IGUI_ALifeUI_56e3f1e4587ddb30": {
+            "tr": "Al, kullan. Birinin işine yarasın bari."
+        },
+        "IGUI_ALifeUI_302b88812bd157b0": {
+            "tr": "İçinde pek bir şey yok ama temiz. Artık senin."
+        },
+        "IGUI_ALifeUI_61ede4c935a09e00": {
+            "tr": "Çantamı {where} sakladım."
+        },
+        "IGUI_ALifeUI_48650880490dc932": {
+            "tr": "Dönüp alacaktım."
+        },
+        "IGUI_ALifeUI_70799ab754341d5e": {
+            "tr": "Çanta {where} duruyor."
+        },
+        "IGUI_ALifeUI_2701aa420a79a27a": {
+            "tr": "Benim yerime de bir lokma ye."
+        },
+        "IGUI_ALifeUI_4788333e644b4248": {
+            "tr": "Fasulye, sargı bezi, taşıyabildiğim ne varsa."
+        },
+        "IGUI_ALifeUI_7125b34777d606d2": {
+            "tr": "Bunu bulan kişiye: {where}."
+        },
+        "IGUI_ALifeUI_1678b16e74c889a7": {
+            "tr": "Hala buralardalar, {place} tarafında."
+        },
+        "IGUI_ALifeUI_3f0743926b584c6b": {
+            "tr": "Hava karardıktan sonra yola güvenme."
+        },
+        "IGUI_ALifeUI_593d9ae760d07e7d": {
+            "tr": "Bu haftaya kadar bir ekiple beraberdim."
+        },
+        "IGUI_ALifeUI_06dbea63576d7b26": {
+            "tr": "{place} civarından uzak dur."
+        },
+        "IGUI_ALifeUI_286022f57c2293c4": {
+            "tr": "Fazla baktım, fark ettiler."
+        },
+        "IGUI_ALifeUI_618d04842af0b171": {
+            "tr": "{place} civarında ne duyarsan duy, sakın cevap verme."
+        },
+        "IGUI_ALifeUI_040cb42075f8f677": {
+            "tr": "{place} tarafına üç kişi gittik, bir kişi döndü."
+        },
+        "IGUI_ALifeUI_20aa56e01e2a2e8c": {
+            "tr": "O dönen bendim. Benim de fazla vaktim kalmadı."
+        },
+        "IGUI_ALifeUI_1658f7c10856b635": {
+            "tr": "Grubu dağıtma, bir arada tut."
+        },
+        "IGUI_ALifeUI_2443ed146002d730": {
+            "tr": "Telsiz için beni affet."
+        },
+        "IGUI_ALifeUI_77ba49fb00cb8d68": {
+            "tr": "{friend}, bunu bulursan..."
+        },
+        "IGUI_ALifeUI_6e79227526adc79e": {
+            "tr": "{place} konusunda haklıymışsın."
+        },
+        "IGUI_ALifeUI_3f30982747c1b7c5": {
+            "tr": "{friend} için."
+        },
+        "IGUI_ALifeUI_6eba245362decb1f": {
+            "tr": "Onlara söyle, kapıyı ben tuttum."
+        },
+        "IGUI_ALifeUI_7b52df4d76839268": {
+            "tr": "Geceleri yola çıkma."
+        },
+        "IGUI_ALifeUI_0e6ac33c2140930d": {
+            "tr": "Bu hafta bir ekip {place} tarafından iki kere geçti."
+        },
+        "IGUI_ALifeUI_24da93a1674204b0": {
+            "tr": "Telsize artık cevap veren yok."
+        },
+        "IGUI_ALifeUI_0835f83232bf2ed0": {
+            "tr": "Konserve sayıyorum, gün sayıyorum."
+        },
+        "IGUI_ALifeUI_109f10fc2e14674e": {
+            "tr": "Gün {day}, hala buradayım."
+        },
+        "IGUI_ALifeUI_25b28817391c6f1e": {
+            "tr": "{place} tarafı sessiz. Fazla sessiz."
+        },
+        "IGUI_ALifeUI_404b45fe5de3bc5b": {
+            "tr": "Biz buradaydık. İmza, {name}."
+        },
+        "IGUI_ALifeUI_425c6a646f0dfa1f": {
+            "tr": "Biri bilsin diye yazdım bunu."
+        },
+        "IGUI_ALifeUI_6d5dc5ea2452f927": {
+            "tr": "Ölüler aldı. Gün {day}."
+        },
+        "IGUI_ALifeUI_03cb540556d532a2": {
+            "tr": "Toprak kazınıp düzlenmiş. Gün {day}."
+        },
+        "IGUI_ALifeUI_6143f55c1475ffc1": {
+            "tr": "Gün {day}. Ölüler daha önce yetişti."
+        },
+        "IGUI_ALifeUI_59de21593ac9230b": {
+            "tr": "Kurşunla gitti, gün {day}. Kimse bundan fazlasını gömmedi."
+        },
+        "IGUI_ALifeUI_7e6387b92bd73ef7": {
+            "tr": "Bunu bir insan yaptı. Gün {day}."
+        },
+        "IGUI_ALifeUI_7323882910d55b0d": {
+            "tr": "Burada düştü. Gün {day}."
+        },
+        "IGUI_ALifeUI_72285fdc164192a1": {
+            "tr": "Gün {day}. Bir künye, bir mum."
+        },
+        "IGUI_ALifeUI_26ad4036320bdf8c": {
+            "tr": "Bunu {friend} bıraktı."
+        },
+        "IGUI_ALifeUI_54e257ed3d31a53b": {
+            "tr": "Başında iki söz edecek kimse kalmadı."
+        },
+        "IGUI_ALifeUI_2b215ad252ee67e9": {
+            "tr": "Hayır, hayır, olamaz!"
+        },
+        "IGUI_ALifeUI_0332ce4b30db754c": {
+            "tr": "O olamaz."
+        },
+        "IGUI_ALifeUI_13a86cec4cd39c1d": {
+            "tr": "Gitme, benimle kal."
+        },
+        "IGUI_ALifeUI_445636a6219ba77f": {
+            "tr": "Allah kahretsin, böyle olmayacaktı!"
+        },
+        "IGUI_ALifeUI_6b5f6c426954ffb6": {
+            "tr": "Şunun şurasında ne kalmıştı."
+        },
+        "IGUI_ALifeUI_6af762db2dd2f17d": {
+            "tr": "Künyeyi ben taşırım."
+        },
+        "IGUI_ALifeUI_0bd27f4414a3499d": {
+            "tr": "Bu işin arkasında kim var?"
+        },
+        "IGUI_ALifeUI_0c5ef3a4317b9eb9": {
+            "tr": "Polisim. Bak, rozetim burada."
+        },
+        "IGUI_ALifeUI_2d5a8e577828b2e5": {
+            "tr": "Siz beni nasıl görüyorsunuz?",
+            "not": "gerçek çoğul",
+            "onayli_uslup_istisnalari": {
+                "hitap": "Kullanıcı bu Fable paketindeki çoğul uyarılarını kasıtlı kabul etti; Türkçe metin aynen korundu."
+            }
+        },
+        "IGUI_ALifeUI_33a9b4fc7f28ed1c": {
+            "tr": "Bu haftaya kadar {faction} ile beraberdim."
+        }
+    }
+}

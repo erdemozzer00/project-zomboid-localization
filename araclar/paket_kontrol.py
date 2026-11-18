@@ -109,6 +109,8 @@ def kontrol(kod, paket, yeni, eskiEN, eskiTR, cev, baglam):
             tur = 'Eski çevirin'
         elif k in eskiEN:
             tur = 'Claude (EN değişmiş)'
+        elif 'çeviri: harici AI' in paket.get('_paket', ''):
+            tur = 'Fable (harici çeviri)'
         else:
             tur = 'Claude (yeni)'
         if r.get('kim'):  # K paketleri: düzeltmeyi kim yaptı
@@ -179,7 +181,12 @@ def kontrol(kod, paket, yeni, eskiEN, eskiTR, cev, baglam):
             md.append(f'- **Gönderdiğin TR:** {r["kullanici_tr"]!r}')
         md.append(f'- **TR:** {tr!r}')
         for tur, gerekce in istisna.items():
-            etiket = 'Kullanıcı onaylı üslup' if paket.get('_duzeltme') else 'Gerekçeli üslup istisnası (Claude)'
+            if paket.get('_duzeltme'):
+                etiket = 'Kullanıcı onaylı üslup'
+            elif 'çeviri: harici AI' in paket.get('_paket', ''):
+                etiket = 'Kullanıcı onaylı Fable istisnası'
+            else:
+                etiket = 'Gerekçeli üslup istisnası (Claude)'
             md.append(f'- *{etiket} ({tur}): {gerekce}*')
         if r.get('not'):
             md.append(f"- *Not: {r['not']}*")

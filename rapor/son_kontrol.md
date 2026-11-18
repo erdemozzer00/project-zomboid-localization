@@ -23,6 +23,7 @@ Sonuç: temiz
   - IGUI_ALifeUI_5e1f839609680798: Tolliver Freight
   - IGUI_ALifeUI_408b3f23055691b9: Six Mile Boys
   - IGUI_ALifeUI_20d9e3923dee0673: Arianne
+  - IGUI_ALifeUI_7c8646c95ba0f65d: Heli
   - IGUI_ALifeUI_0d8cae93309a35c0: Fitness
   - IGUI_ALifeUI_476c72587b19582d: Nell Brannock
   - IGUI_ALifeUI_59d4c0444ac8e38e: Cass Brannock
@@ -42,7 +43,6 @@ Sonuç: temiz
   - IGUI_ALifeUI_3e632e643f2ce132: Cal Dreyer
   - IGUI_ALifeUI_20e6c2cc43849c66: Ines Moreau
   - IGUI_ALifeUI_67c1e28263a800db: {name}, {faction}
-  - IGUI_ALifeUI_17aa56e153799504: Field Band
   - IGUI_ALifeUI_7567089b3b52eaf5: GM: plan ({n})
   - IGUI_VehicleNameALifeHeli: Huey
   - IGUI_VehicleNameALifeBlackHawk: Black Hawk

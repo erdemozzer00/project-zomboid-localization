@@ -1,0 +1,334 @@
+1 | Şu an elimde fazlası yok. Kapına tüccar gelirse bir dinle, ama teklifine iyice bakmadan evet deme.
+2 | Güzel yermiş burası. Sen hangi odada yatıyorsun, yukarıda mı, aşağıda mı?
+3 | Tamam... anladım. Haklısın, ben olsam ben de açmazdım.
+4 | Darılmak yok. Yerinde olsam ben de benden korkardım.
+5 | Pil var, iğne iplik var, aspirin var, birkaç da konserve. Neyin eksik, söyle.
+6 | Nüfus sayımı yapıyoruz, uzun sürmez. Burada kimler oturuyor, hasta var mı, onu bildirin. ## not: gerçek çoğul
+7 | Şerif ofisinden geliyoruz, kısa bir sayım yapıyoruz. Burada kaç kişi yaşıyor, söyle.
+8 | Herkesi tek tek dolaşıyoruz. Hasta ya da kayıp varsa söyleyin. ## not: gerçek çoğul
+9 | Nüfus sayımı sadece, korkacak bir şey yok. İçeride kaç kişi var, onu bilmem lazım.
+10 | Isırık da soruyoruz. İçeride ısırılan varsa söyle.
+11 | Ordu. Sakinleri sayıyoruz. İçerideki kişi sayısını bildir.
+12 | {name} vuruldu! Yetişin! ## not: gerçek çoğul
+13 | Allah'ım! {name}, kalk hadi, kalk!
+14 | {name}, bırakma kendini! Bak bana!
+15 | {name} vuruldu! Koruyun, {name} yerde! ## not: gerçek çoğul
+16 | Memur vuruldu! {name} yerde!
+17 | {name} yaralı, sağlıkçı çağırın! ## not: gerçek çoğul
+18 | {name} vuruldu! Yaralı var!
+19 | Yaralı var! {name} düştü, koruma ateşi!
+20 | {name} vuruldu, sıhhiye lazım!
+21 | {name} yere serildi! Gebertin hepsini! ## not: gerçek çoğul
+22 | Siktir, {name} vuruldu! {name}!
+23 | Vurdular lan! {name} yerde, ödetin bunu! ## not: gerçek çoğul
+24 | {name}, vurulmuşsun! Dayan!
+25 | {name}, kalkma! Yanındayım!
+26 | Vurdular! {name} yaralı, imdat!
+27 | {name} vuruldu, koruma verin! ## not: gerçek çoğul
+28 | {name}, vuruldun mu? Cevap ver!
+29 | {name} kurşun yedi, koruyun! ## not: gerçek çoğul
+30 | {name} yaralı! Sıhhiye!
+31 | {name} yaralandı, koruma ateşi!
+32 | {name}, durum bildir! Vuruldun mu?
+33 | {name} vuruldu! Verin karşılığını! ## not: gerçek çoğul
+34 | Hay anasını, {name} vuruldu!
+35 | {name}, ayakta mısın hala?
+36 | {name} vuruldu! Kim yönetecek bizi?
+37 | Allah'ım, {name} yerde! Ne yapacağız şimdi?
+38 | {name} vuruldu! Komuta bende!
+39 | Amir düştü, {name}! Ekibi ben devralıyorum.
+40 | {name} vuruldu! Komutayı devralıyorum!
+41 | Lider düştü, {name} yerde. Tim bende.
+42 | {name} yere serildi! Bu işin başında kim var şimdi?
+43 | Siktir, {name} öldü! Patron benim artık!
+44 | {name}! Allah'ım... {name}, kalk! KALK!
+45 | {name} vuruldu! Biri vurdu, {name} yaralı!
+46 | O {name}! {name}, iyi misin? {name}!
+47 | {name} ile tek kelime konuşmadın bile, gidip vurdun!
+48 | Vurdu! Allah'ım, {name} vuruldu! {name}!
+49 | Bırak, {name} hasta değil! Yalvarırım dokunma!
+50 | Yetişin! Saldırıyor, {name} zor durumda! ## not: gerçek çoğul
+51 | Neden {name}? Sana yardım etmek isteyen oydu!
+52 | Yaralı var! Şu herif vurdu, {name} yerde!
+53 | Sen vurdun, {name} yerde! Herkes ateş açsın!
+54 | O {name}, bizden biri! Derdin ne senin?
+55 | {name} vuruldu! {name} yerde! {name} için koruma verin! ## not: gerçek çoğul
+56 | {name} isabet aldı! {name} için koruma ateşi!
+57 | Yaralı var! {name} vuruldu!
+58 | {name} vuruldu! Ne yapacağım ben? Ne yapacağım şimdi?!
+59 | {name} vuruldu. Ateş edeni indirin. ## not: gerçek çoğul
+60 | Vurdular lan! {name} yerde! Gebertin! ## not: gerçek çoğul
+61 | Hayır lan, {name} olmaz! Bittin sen!
+62 | Vurdu lan! {name} yerde! Bir ben döverim, {name} başkasından dayak yemez!
+63 | {name} vuruldu! Tarayın şunu! ## not: gerçek çoğul
+64 | {name} vuruldu! Kardeşler, çullanın üstüne! ## not: gerçek çoğul
+65 | Hay anasını, {name} vuruldu! Kollayın, {name} yerde! ## not: gerçek çoğul
+66 | {name} vuruldu. İşimize zarar bu. Halledin. ## not: gerçek çoğul
+67 | Vurdun! {name} karıncayı bile incitmezdi!
+68 | {name} vuruldu! Biri çıkarsın, {name} orada kalmasın!
+69 | {name} vuruldu! Beyler! ## not: gerçek çoğul
+70 | Devirdi lan! {name} düştü, {name} yerde!
+71 | {name} vuruldu! Bizden birini vurdu! Biri bir şey yapsın!
+72 | Bıçakladı! {name} bıçaklandı, yetişin! ## not: gerçek çoğul
+73 | Sopayla girişti! {name} dayak yiyor, durdurun! ## not: gerçek çoğul
+74 | {name} yumruk yedi! Biri tutsun şunu!
+75 | Arabayla ezdi! {name} ezildi, yardım çağırın! ## not: gerçek çoğul
+76 | {name} darbe aldı! Savurup vurdu, durdurun şunu! ## not: gerçek çoğul
+77 | Vurdu lan! {name} kurşunu yedi! Gebertin o şerefsizi! ## not: gerçek çoğul
+78 | {name} bıçaklandı! Deşin şunu! ## not: gerçek çoğul
+79 | {name} sopa yedi! Aynısından verin şuna! ## not: gerçek çoğul
+80 | {name} yumruğu yedi! Kırın ellerini! ## not: gerçek çoğul
+81 | El kaldırdığı kişi {name}. Büyük hata.
+82 | {name} arabanın altında kaldı! Gebertin şoförü! ## not: gerçek çoğul
+83 | {name} vuruldu! Yakalayın şunu! ## not: gerçek çoğul
+84 | Ne fark eder ki?
+85 | Votka var. Hakikisinden, sizin o zıkkımlardan değil. Fiyatı da hakikisi gibi. Hala istiyor musun?
+86 | Maymuncuk, şim, matkap, çekiç... Girmenin bir sürü yolu var. Üstünde ne var, ona bakar.
+87 | Yok, kendime ancak yetiyor.
+88 | İlaç mı? Keşke... Yarım şişe aspirine kaldım.
+89 | Yok, kusura bakma. Ben de arayıp duruyorum.
+90 | Yok, hiç yok. Yağmalanmamış bir eczane bulursan bana da haber ver.
+91 | Tim çantasında travma sargısıyla atel var. Göster bakayım, neren yaralı?
+92 | Sana ne bundan?
+93 | Dolaşıyordum, bizimkilere bir baktım. O kadar.
+94 | Gerçeğim. Hiç havamda da değilim, yaklaşma.
+95 | Alet mi? Çekiç var, tornavida var, biraz da koli bandı. Ne lazım, söyle.
+96 | Alet bedava değil, {g:birader|bacım}. Göster bakalım neyin var.
+97 | Klozetin arkasındaki depoya bak. Temizdir, vallahi.
+98 | Termosifonların içi su dolu olur, vanasını açabilirsen tabii.
+99 | Verecek suyum yok. Ama ne bulursan kaynat, hem de iki kere.
+100 | Ha şöyle, {g:birader|bacım}. Ha şöyle!
+101 | Neyse ne, {g:birader|abla}. Yaşa sen kendi dünyanda.
+102 | İkimiz de razıysak birbirimize bakabiliriz, {g:beyefendi|hanımefendi}. Dikkatlice. Olur mu?
+103 | Ne var, {g:birader|bacım}? Dökül bakalım.
+104 | Merhaba, şey... iyi misin? Isırılmadın, değil mi?
+105 | Ne diyeceksen çabuk de.
+106 | Şşt... Selam. İyi misin? Bu saatte ayakta ne işin var?
+107 | Ooo, halin hal değil. Otur şöyle, ne lazımsa söyle.
+108 | Tedirgin ediyorsun beni. Ne istiyorsun?
+109 | Kısa keselim, olur mu?
+110 | Buyur komşu? Derdin neymiş, anlat.
+111 | Bir selam ver, yeter... Başka birinin sesini duymak istedim sadece.
+112 | El sıkışmam, kusura bakma. Kimse sıkışmıyor artık.
+113 | Tokalaşmayı bıraktım ama... merhaba.
+114 | Tamirciydim ben. Ama umutla çalışan bir şeyi getirme, onu yapamam.
+115 | Bir haftadır kimsenin ağzından adımı duymadım... Tuhaf, değil mi?
+116 | Buyur? Bir şey mi lazımdı?
+117 | Hı? Aa... merhaba.
+118 | Selam... İyisin, değil mi?
+119 | Dur, dur! Benden zarar gelmez.
+120 | Vay! Canlı kanlı insan!
+121 | Pardon, bir şey mi dedin?
+122 | Affedersin, tanışıyor muyuz?
+123 | Kusura bakma, fark etmedim seni.
+124 | Allah'ım, ödümü kopardın! Hiç ses etmeden gelmişsin.
+125 | Aa! Şey... selam.
+126 | Hı? Ha, selam. Kusura bakma, dalmışım.
+127 | Canavar... Öyle diyorum artık. Daha iyi bir ad aramaktan vazgeçtim.
+128 | İyi, sağ olasın.
+129 | Daha fazla söze gerek yok. İyi.
+130 | Oldu o zaman, haydi kımıldayalım.
+131 | Anlaşıldı. Söylenecek söz kalmadı.
+132 | Sen öyle düşün, ben böyle. Kalsın öyle.
+133 | Eh, zaten pek umudum yoktu.
+134 | Haklısın, saygı duyarım.
+135 | Peki, sonra teklif etmedi deme ama.
+136 | Tamam, bir daha lafını etmem.
+137 | Anladım, üstelemiyorum.
+138 | Bu hale mi geldin sen? Ha?!
+139 | Benim bir adım var, ben İNSANIM! Hiç mi bir şey ifade etmiyor bu sana?!
+140 | Durmak nedir bilmiyorsun sen, ha?!
+141 | Mermi bitti! Tek tane kalmadı!
+142 | Tık... tık... Eyvah.
+143 | Silah beş para etmez artık, başka bir şey lazım!
+144 | Namluya sürecek bir şey kalmadı!
+145 | Kurşun bitti... Şimdi ne olacak?!
+146 | BİTTİ mermim! Biri şarjör versin!
+147 | Tık tık, bomboş! Mermi lazım bana!
+148 | Boşaldı, kurşunum kalmadı. Beni koruyun. ## not: gerçek çoğul
+149 | Silah boş. Bana hemen mermi lazım.
+150 | Sen bize bakma, evlere göz atıyoruz sadece.
+151 | Dolduruyorum, bir saniye!
+152 | Hadi be ellerim... HADİ, doldur şunu!
+153 | Şarjör değiştiriyorum, sen gözünü ayırma!
+154 | Uğraşıyorum, dur! Silah boşaldı!
+155 | Dolduruyorum! Bir adım geri çekil, yer aç!
+156 | Şarjör bitti! Bir saniye ver!
+157 | Dolduruyorum... Hadi, gir artık, gir!
+158 | Doldurmam lazım, az müsaade et. Kolla beni.
+159 | Dolduruyorum, sabret. Sakin... sakin.
+160 | Dayanın, dolduruyorum. Yaklaştırmayın şunları bana. ## not: gerçek çoğul
+161 | Burnumuzun dibinde! Kaç, KAÇ!
+162 | Hayır hayır, gelme! Daha yaklaşma!
+163 | Allah'ım, ne olur bitsin artık bu!
+164 | İmdat! Kimse yok mu, İMDAT!
+165 | Cevap verin! Biri cevap versin! KİMSE YOK MU?! ## not: gerçek çoğul
+166 | Kaç, beni bekleme! KAÇ!
+167 | Omzuma tutun, sakın bırakma!
+168 | Aman Allah'ım, nereye gitti?!
+169 | NEREDESİN?! Nereye kayboldun?!
+170 | Buraya! BURAYA gel, hemen!
+171 | Dur, DUR! Bırakma bizi!
+172 | Hayır, HAYIR! Ayrılma, dön aramıza!
+173 | Tut onu! Tut, geride kalıyor!
+174 | Dur! Ötekileri bekle!
+175 | Elini tut, sakın ha bırakma!
+176 | Yavaş! YAVAŞLAYIN, yetişemiyor! Biri alsın onu! ## not: gerçek çoğul
+177 | Sen! Öndesin, başı sen çek.
+178 | Sen en sondasın, arkayı da sen kolla...
+179 | Ağır yürüyenler sende, önünden ayırma!
+180 | Su nerede? Su kimdeydi?!
+181 | Yok, gitmiş! Gören oldu mu gittiğini?!
+182 | Sen onun yanında kal, duydun mu? Dibinden ayrılma.
+183 | Canım, tut elimi, yanındayım.
+184 | Hayır, onu BIRAKMIYORUZ! Kolunu omzuna at!
+185 | Yemin ediyorum bak- GEL BURAYA!
+186 | Onu bekle, ağır geliyor! BEKLE dedim!
+187 | Kardeşin nerede? NEREDE?!
+188 | Hey?! HEY! Bir şey söyle, ses ver, ne olursa!
+189 | İkisini birden taşıyamam! Onu sen al, bu bende!
+190 | Biri saysın bizi, herkesi saysın! Benim kafam almıyor şu an!
+191 | Şu ikisini al, ortada tut.
+192 | Bana bir şey olursa başlarına sen geçeceksin, anladın mı?!
+193 | Bir, iki, üç... dört? DÖRDÜNCÜ nerede?!
+194 | Nerede o? NEREDE kaldı?!
+195 | Siz ikiniz, birbirinizden ayrılmayın. Kimse tek kalmasın. ## not: gerçek çoğul
+196 | Papaz nerede? Papazı gören var mı?
+197 | Öbür elinden sen tut! Çabuk, ÇABUK!
+198 | Koş, KOŞ! Bana bakma!
+199 | Yukarı! Yukarı çık, kapıyı da arkandan kapat!
+200 | Eğil! İçeri gir, HADİ!
+201 | Tüfeği... yok yok, boş ver, gir içeri!
+202 | Hey? HEY! Konuşsana, bir şey de- yalvarırım!!
+203 | Uzak dur şu- HEY! Bir adım daha atma!
+204 | Dur, o- ayakkabısı niye yok bunun? Niye öyle yürüyor?
+205 | Gel buraya, yanına gitme! GİTME!
+206 | Arkadan! Arkadan çık, HEMEN!
+207 | Kıpırdama! Orada kal, kim gelirse gelsin kapıyı açma!
+208 | Biri ne yapacağımı söylesin! Hep biri bilirdi ne yapılacağını...
+209 | Hay Allah, çekil geri! Dürtüp durma şunu!
+210 | Kardeşim, duyuyor musun beni? Benim, papazın. Kardeşim?
+211 | Kızım, benim, papazın. Dur, yalvarırım dur.
+212 | Ölüler! Sopayı kullanın, ateş etmek yok! ## not: gerçek çoğul
+213 | Sessiz olun, silah patlatmayın! ## not: gerçek çoğul
+214 | Ateş etme, sopayla vur! Yoksa daha çoğu gelir.
+215 | Eyvah... Yine mi bir tane?
+216 | Ölü var... Dikkat, aman dikkat.
+217 | Bir tane var... Tamam, sakin. Düşün.
+218 | Bu sağ kalanlardan değil. Hazırlan.
+219 | Dikkat, o şey üstümüze geliyor!
+220 | Bir ölü daha... Ayağını denk al.
+221 | Şşt... Ses yok. Bunu hallederiz.
+222 | Onlardan biri orada. Sakın yaklaştırma.
+223 | Boşuna dil dökme, içi boşalmış onun.
+224 | Onlardan biri... Sakin ol. SAKİN.
+225 | Önce etrafa bak. Bunlar tek gezmez.
+226 | Tenine bak... Evet, onlardan.
+227 | O ellere sakın yakalanma.
+228 | Gördüm. Sen solumu kolla.
+229 | Yavaş... Bekle, gelsin... Bekle.
+230 | Ağır aksak yürür ama ısırdı mı ısırır.
+231 | Gözün onda olsun, kulağın da ötekilerde.
+232 | Hay anasını, onlardan biri! Bastığın yere bak.
+233 | Sus! Ölülerden biri orada, öylece dikilmiş duruyor.
+234 | Allah'ım, şunun haline bak... Onlardan. Geri çekil.
+235 | Onlardan mı bu? Bir tuhaflık var halinde. Kıpırdama.
+236 | Ölü, hiç kımıldamıyor. Gözün üstünde olsun, sen de oynama.
+237 | Ateş etme, tek başına zaten. Silah sesi ötekileri çeker.
+238 | Önde enfekte! Üstümüze üstümüze geliyor, Allah'ım!
+239 | Enfekte! ENFEKTE! Biri baksın, şuracıkta duruyor!
+240 | Yarısı yok, hala yürüyor! Bakma, yürü!
+241 | Sarhoş değil o, onlardan! Geri çekil!
+242 | İndirilecek bir tane daha. Bunların sonu gelmez.
+243 | Solda bir enfekte var, dikkat.
+244 | Ölülerden biri evlatlar. Yavaş yavaş geri çekilin. ## not: gerçek çoğul
+245 | İleride onlardan biri var, uzak dur evladım.
+246 | Önde enfekte var. Ben bundan kaçamam, kolla beni.
+247 | Önde enfekte var. Arkamda kal, ben tutarım onu.
+248 | Arkamdan ayrılma evladım, ileride bir enfekte var.
+249 | Bir tane geliyor. Sakin ol, arayı açık tut.
+250 | İleride enfekte var. Onun için yapacak bir şey kalmamış, geri çekil.
+251 | Sana dokunmasına izin verme. Mesafeni koru.
+252 | Bir tane daha salınıp geliyor. Ben hallederim.
+253 | Önde bir tane var, o bende. Sen uzak dur.
+254 | Şef, ileride onlardan biri var.
+255 | Enfekte dosdoğru bize geliyor, hadi yürü!
+256 | Yarabbi, vurdu onu- Hey, HEY! Bana bak, bak bana!
+257 | Bizden biri o, be ahmak! Öyle insanlar ölüleri beş kuruş almadan gömer!
+258 | Bizden birine vurdun, orospu çocuğu.
+259 | Kendine düşman edindin şimdi!
+260 | Sırada kim var, ha? KİM var sırada?!
+261 | Gördük onu! HEPİMİZ gördük!
+262 | Yaralıyım ben, yeter artık!
+263 | Kan kaybediyorum... Tamam, teslim oluyorum!
+264 | Yapma! Yaram var zaten!
+265 | Canım yanıyor, ne olur dur!
+266 | Kanıyorum, Allah aşkına!
+267 | Etme, zaten yaralıyım!
+268 | Vuruldum, karşı koyamam!
+269 | Bir kere de korkmamak ne tuhafmış.
+270 | Beş dakikalığına ayakkabıları çıkardım, ayıplama.
+271 | Ben seni tanıyor muyum? Eskiden, hani... Yok mu? İyi, peki.
+272 | Hala eski yerinde misin? Günlerdir orada ışık yandığını görmedim.
+273 | Yolun yukarısında kimse kalmamış, kapı çalıp yorulma.
+274 | Kasabadaki o lokantada yedin mi hiç? İlçenin en iyi turtası oradadır.
+275 | Günaydın... Ya da günün hangi vaktiyse artık.
+276 | Bak hele, kim hala ayaktaymış!
+277 | Oh, çok şükür, dönebilmişsin.
+278 | Kasabanın öbür ucunda hala elektriği olan varmış, öyle duydum.
+279 | Doğu tarafında kuyusu iyi bir çiftlik var. Yolun düşerse benim gönderdiğimi söyle.
+280 | Biri cam kırıyor... Dikkatli ol.
+281 | Vah zavallı... Kimdi ki acaba?
+282 | Mermi... Duam kabul oldu sanki.
+283 | Hey! Acıkan var mı? ŞUNA bakın! ## not: gerçek çoğul
+284 | İlaç... Kimse ağzına atmadan tarihlerine bir bakılsın.
+285 | Su... İçmeden önce bir kontrol et.
+286 | Sargı lazım bana, çok acıyor.
+287 | Allah'ım, kanamam durmadı hala.
+288 | Biri yarama bir baksın.
+289 | Bir iki metre geri çekil, öyle konuşalım. Olur mu? ## not: a few feet -> bir iki metre
+290 | Korkacak şeyim az ya, bir sen eksiktin.
+291 | Duydum, tamam... İndir şunu.
+292 | Sakin kalmaya çalışıyorum, sen de yardımcı ol biraz.
+293 | Yapma, yalvarırım! Benim daha işim bitmedi, BİTMEDİ!
+294 | Kalbim küt küt atıyor... Bir saniye ver.
+295 | Silahım yok, vurma!
+296 | Üstümde hiçbir şey yok, ateş etme!
+297 | Ellerim havada, bak! Silahsızım!
+298 | Tamam, sakin... Bırakıyorum yere.
+299 | Ateş etme, kullanmayacağım bunu!
+300 | Peki, peki, indiriyorum.
+301 | Ne olur yapma, yaralıyım!
+302 | Yaralıyım ben, çek şu silahı üstümden.
+303 | Gözünü seveyim, dövüşecek halim yok.
+304 | Biri vuruldu! YERDE biri!
+305 | Koş yanına! Dikkat et ama, DİKKAT!
+306 | Onu çekerken sen de vurulma sakın!
+307 | Yanına varmamız lazım, hadi!
+308 | Ulaşabilen var mı ona?!
+309 | Kolla beni, gidip alıyorum onu!
+310 | Dur... dur, bir düşün. Açığa fırlama.
+311 | Gitme! Burada kal, BENİMLE kal!
+312 | Ay- AY- yok, olamaz, hayır hayır HAYIR- o olmaz, O OLMAZ!!
+313 | Hay anasını... Hey, hey, hadi be kardeşim.
+314 | Dayan, dayan! Duyuyor musun beni?!
+315 | Siktir, siktir, SİKTİR! Konuş benimle!! Bir şey de!!
+316 | Hey?? HEY?? Ses ver bana!!
+317 | Allah kahretsin, hayır.
+318 | Olamaz! Yere düştü!
+319 | Kalk, ne olur kalk!
+320 | Allah'ım, indirdiler onu!
+321 | Hiç kıpırdamıyor!
+322 | Biri düştü. Ben de vuruldum.
+323 | Birimizi indirdiler, ben de yaralıyım.
+324 | Yerde kaldı, elimden bir şey gelmiyor.
+325 | Kahramanlık taslama! Yaran ne kadar kötü?!
+326 | Nerenden vuruldun?!
+327 | Vurulmuşsun! Yat yere, YAT!
+328 | Biri yardım etsin, vuruldu!
+329 | Dayan! Gözünü kapama!
+330 | Allah'ım, yaralanmış! Yardım eden yok mu, İMDAT!
+331 | Vuruldu! Vuruldu diyorum!
+332 | Vuruldu, yaralı!
+333 | İyi misin?! Bir şey söylesene!
+334 | Dayan, geliyorum!
