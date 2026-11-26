@@ -1,0 +1,38 @@
+# AL_GOREV_IZ · Görev günlüğü ve NPC görüşü
+# Çıktı dosyası AL_GOREV_IZ_1.txt. TXT’ye 1–20 arasındaki her numarayı bir kez, aynı sırada N | Türkçe biçiminde yaz. Başlıklar, numarasız bağlam, kod bloğu çitleri ve “Son numara” satırı TXT’nin dışında kalır.
+# Project A-Life, Project Zomboid Build 42. Oyun 1993 yılında Kentucky’de geçiyor.
+# Girdi biçimi N | etiket | İngilizce. Etiket, satırın ekrandaki işlevini veya bağlı olduğu seçeneği gösterir. Numarasız açıklamalar bağlamdır.
+# Numaralı metinlerde yer tutucu, kaçış dizisi veya çalışma anında eklenecek sözcük yok.
+# Journal = Günlük, LOG = KAYIT, Settings = Ayarlar, Opinion = Görüş. Fraksiyon, itibar ve görüş oyunda ayrı kavramlar.
+# Dell Tolliver ve Earl kişi adları. Six Mile Boys grubunun onaylı adı Six Mile Boys. Görev adı Left Behind için Geride Kalanlar kullanılıyor.
+
+##### Geride Kalanlar · günlük ve kısa bildirim #####
+# Dell Tolliver, oyuncudan Earl’ün çantasını geri getirmesini ister. “Kayıt” oyuncunun yaptığı işi geçmiş zamanda özetleyen günlük satırıdır. “Bildirim” o anda ekrana gelen kısa hedef veya sonuçtur.
+# 1 kabul kaydıdır. Çanta Dell’e ulaşırsa 2 görünür. Oyuncu çantayı Wade’in grubu Six Mile Boys’a verirse 3 günlüğe girer, 4 bildirim olarak çıkar. Oyuncu kaybı Dell’e bildirince 5 günlüğe girer, 6 işin kapandığını bildirir.
+· Oyuncu seçeneklerinin onaylı metni (yalnız bağlam) — kabulde “Peki. Çantalarını alıp getiririm”, başarılı teslimde “Buyur. Çantan”, kaybı bildirirken “Çantayı Six Mile aldı. Kusura bakma”.
+1 | kayıt · kabul | Took the job from Dell Tolliver
+2 | kayıt · başarılı teslim | Handed Earl's bag to Dell
+3 | kayıt · çanta Wade’in grubuna verildi | Gave the bag to the Six Mile Boys
+4 | bildirim · kaybı Dell’e bildir | The bag is gone. Tell Dell
+5 | kayıt · kayıp Dell’e bildirildi | Told Dell the bag is gone
+6 | bildirim · kayıp dalı kapandı | Task over
+
+##### Günlük · Ayarlar #####
+# İmleç bir ayar satırına özgü ipucu göstermiyorsa panelin altında bu kısa kullanım ipucu çıkar. Ayar değerini tıklayarak değiştiren oyuncuya seslenir.
+7 | ipucu | Click to change
+
+##### Konuşma penceresi · NPC’nin oyuncu hakkındaki görüşü #####
+# Sinematik konuşma penceresinde oyuncu Görüş alanının üzerinde durduğunda NPC’nin görüşünü etkileyen bir nedeni görür. Her satır ayrı bir olayı anlatır. “You” oyuncu, “they” etkileşim kurduğu NPC veya bağlama göre onun grubudur. Arayüz bu kısa açıklamaları oyuncuya gösterir.
+8 | NPC oyuncuyu Dell’in işine yönlendirdi | They pointed you at work
+9 | görev yerine getirildi | You did the job
+10 | iş bırakıldı veya süresi doldu | You let the job slip
+11 | telsizden duyulanlar üzerine sohbet | Small talk about the radio
+12 | NPC’nin sevdiği bir konuda soru | You asked something they like talking about
+13 | üniforma ve ortak meslek üzerine konuşma | You share a uniform
+14 | NPC yaklaşan baskını haber verdi | They trusted you with a warning
+15 | NPC bir ekibin bulunduğu yere dair bilgi verdi | They shared a real tip
+16 | NPC verilen emri reddetti | You gave them an order they did not like
+17 | polis rozeti gösterildi | You showed a badge
+18 | oyuncu polis olduğunu öne sürdü | You claimed to be police
+19 | oyuncu hapis yattığını söyledi | You claimed you did time
+20 | yardım isteyen tarafa yardım edildi | You helped them out

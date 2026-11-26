@@ -1,0 +1,471 @@
+{
+  "_paket": "AL_EK_UI",
+  "_grup": "ek_arayuz",
+  "_dosya": "IG_UI_lua",
+  "_baslik": "Ek ekran metinleri",
+  "_noktalama": false,
+  "_satir_sonu": true,
+  "_parcalar": [
+    [
+      1,
+      25
+    ],
+    [
+      26,
+      43
+    ]
+  ],
+  "_teknik": {
+    "sunum_uyarlamasi_satirlari": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "kalip_satirlari": [
+      5,
+      8,
+      16,
+      17,
+      24,
+      28,
+      31,
+      32,
+      33,
+      37,
+      38,
+      39,
+      40,
+      41,
+      43
+    ]
+  },
+  "satirlar": {
+    "1": [
+      "IGUI_ALifeUI_5e4f2a0c04e4af12",
+      "You already have a job from them",
+      [
+        "server/ProjectALife/Talk/ALifeTreeServer.lua:800",
+        "aynı NPC'den açık görev varken",
+        "ARAYÜZ"
+      ]
+    ],
+    "2": [
+      "IGUI_ALifeUI_66008e8464aedd58",
+      "You have too many jobs going",
+      [
+        "server/ProjectALife/Talk/ALifeTreeServer.lua:805",
+        "oyuncu açık görev sınırına ulaştı",
+        "ARAYÜZ"
+      ]
+    ],
+    "3": [
+      "IGUI_ALifeUI_4877f74458efff40",
+      "There's nothing left to kill around here",
+      [
+        "server/ProjectALife/Talk/ALifeTreeServer.lua:813",
+        "görev için çevrede hedef zombi yok",
+        "ARAYÜZ"
+      ]
+    ],
+    "4": [
+      "IGUI_ALifeUI_0493d6fd7cd3c257",
+      "They couldn't point you anywhere real",
+      [
+        "server/ProjectALife/Talk/ALifeTreeServer.lua:813",
+        "NPC görev için geçerli bir yer gösteremedi",
+        "ARAYÜZ"
+      ]
+    ],
+    "5": [
+      "IGUI_ALifeUI_2a07d3ad4a7db8ad",
+      "New task: {task}",
+      [
+        "server/ProjectALife/Talk/ALifeTreeServer.lua:832",
+        "yeni ağaç görevi bildirimi",
+        "ARAYÜZ"
+      ]
+    ],
+    "6": [
+      "IGUI_ALifeUI_46f99ad05bfb9783",
+      "You don't have it all on you",
+      [
+        "server/ProjectALife/Talk/ALifeTreeServer.lua:870",
+        "teslim edilecek eşya eksik",
+        "ARAYÜZ"
+      ]
+    ],
+    "7": [
+      "IGUI_ALifeUI_28cf193b6b51288c",
+      "They have nothing more to give today",
+      [
+        "server/ProjectALife/Talk/ALifeTreeServer.lua:876",
+        "NPC günlük ücretsiz ödülünü vermiş",
+        "ARAYÜZ"
+      ]
+    ],
+    "8": [
+      "IGUI_ALifeUI_54b45e6f7e8c260e",
+      "Gave {count}x {item}",
+      [
+        "server/ProjectALife/Talk/ALifeTreeServer.lua:547",
+        "oyuncunun verdiği eşya",
+        "ARAYÜZ"
+      ]
+    ],
+    "9": [
+      "IGUI_ALifeUI_112459145c5cfded",
+      "They didn't say where they stay",
+      [
+        "server/ProjectALife/Talk/ALifeTreeServer.lua:486",
+        "NPC nerede kaldığını söylemedi",
+        "ARAYÜZ"
+      ]
+    ],
+    "10": [
+      "IGUI_ALifeUI_197af22624c0e4a2",
+      "Saved to contacts",
+      [
+        "server/ProjectALife/Talk/ALifeTreeServer.lua:496",
+        "NPC kişi listesine kaydedildi",
+        "ARAYÜZ"
+      ]
+    ],
+    "11": [
+      "IGUI_ALifeUI_3f7e744d15458f6a",
+      "Saved to contacts, outpost marked on the map",
+      [
+        "server/ProjectALife/Talk/ALifeTreeServer.lua:503",
+        "kişi kaydı ve karakol harita işareti",
+        "ARAYÜZ"
+      ]
+    ],
+    "12": [
+      "IGUI_ALifeUI_302e81bc34fc7032",
+      "Outpost marked on the map",
+      [
+        "server/ProjectALife/Talk/ALifeTreeServer.lua:843",
+        "karakol harita işareti",
+        "ARAYÜZ"
+      ]
+    ],
+    "13": [
+      "IGUI_ALifeUI_2d8fab4639367026",
+      "A rumour marked on the map",
+      [
+        "server/ProjectALife/Talk/ALifeTreeServer.lua:850",
+        "söylenti harita işareti",
+        "ARAYÜZ"
+      ]
+    ],
+    "14": [
+      "IGUI_ALifeUI_0019315a0539487d",
+      "They joined you",
+      [
+        "server/ProjectALife/Talk/ALifeTreeServer.lua:619",
+        "NPC oyuncuya katıldı",
+        "ARAYÜZ"
+      ]
+    ],
+    "15": [
+      "IGUI_ALifeUI_151d39a165d07f67",
+      "They left your crew",
+      [
+        "server/ProjectALife/Talk/ALifeTreeServer.lua:626",
+        "NPC oyuncunun ekibinden ayrıldı",
+        "ARAYÜZ"
+      ]
+    ],
+    "16": [
+      "IGUI_ALifeUI_6675baa4576bae24",
+      "Task: {title}",
+      [
+        "server/ProjectALife/Talk/ALifeTreeServer.lua:817",
+        "ilk görev hedefinin harita etiketi",
+        "ARAYÜZ"
+      ]
+    ],
+    "17": [
+      "IGUI_ALifeUI_5004ce9736cd6e9d",
+      "Task: Report to {who}",
+      [
+        "server/ProjectALife/Talk/ALifeTreeServer.lua:1253",
+        "görev tamamlanınca dönülecek kişinin harita etiketi",
+        "ARAYÜZ"
+      ]
+    ],
+    "18": [
+      "IGUI_ALifeUI_5f09863b6c4901af",
+      "Last seen here",
+      [
+        "client/ProjectALife/UI2/ALifeUI2GiverMap.lua:41",
+        "görevi verenin son görüldüğü harita konumu",
+        "ARAYÜZ"
+      ]
+    ],
+    "19": [
+      "IGUI_ALifeUI_0df2089f0e960a48",
+      "REP 1",
+      [
+        "shared/ProjectALife/Phones/ALifePhonesData.lua:298",
+        "cep/ofis telefonu itibar rozeti",
+        "ARAYÜZ"
+      ]
+    ],
+    "20": [
+      "IGUI_ALifeUI_042a58e0750452a6",
+      "FIRST AID 2",
+      [
+        "shared/ProjectALife/Phones/ALifePhonesData.lua:507",
+        "cep/ofis telefonu İlk Yardım seviye 2",
+        "ARAYÜZ"
+      ]
+    ],
+    "21": [
+      "IGUI_ALifeUI_042a58e1750452a7",
+      "FIRST AID 3",
+      [
+        "shared/ProjectALife/Phones/ALifePhonesData.lua:344",
+        "cep/ofis telefonu İlk Yardım seviye 3",
+        "ARAYÜZ"
+      ]
+    ],
+    "22": [
+      "IGUI_ALifeUI_54fd7d1b1b0049da",
+      "MECHANICS 2",
+      [
+        "shared/ProjectALife/Phones/ALifePhonesData.lua:394",
+        "cep/ofis telefonu Tamircilik seviye 2",
+        "ARAYÜZ"
+      ]
+    ],
+    "23": [
+      "IGUI_ALifeUI_54fd7d1c1b0049db",
+      "MECHANICS 3",
+      [
+        "shared/ProjectALife/Phones/ALifePhonesData.lua:460",
+        "cep/ofis telefonu Tamircilik seviye 3",
+        "ARAYÜZ"
+      ]
+    ],
+    "24": [
+      "IGUI_ALifeUI_0eb0245460d84b0b",
+      "(not showing now)",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Pos.lua:508",
+        "arayüz öğesini taşıma ekranındaki sonek",
+        "ARAYÜZ"
+      ]
+    ],
+    "25": [
+      "IGUI_ALifeUI_7333022a3e78dce2",
+      "Knox County Radio",
+      [
+        "client/ProjectALife/Talk/ALifeKnoxRadioPreset.lua:5",
+        "telsiz cihazının kanal ön ayarı",
+        "ARAYÜZ"
+      ]
+    ],
+    "26": [
+      "IGUI_ALifeUI_1c41717922404288",
+      "Delete this NPC?",
+      [
+        "client/ProjectALife/Interface/Creator/ALifeCreatorCore.lua:5807",
+        "tek NPC profili silme onayı",
+        "ARAYÜZ"
+      ]
+    ],
+    "27": [
+      "IGUI_ALifeUI_4706353057d731fd",
+      "Delete this faction and all its NPC presets?",
+      [
+        "client/ProjectALife/Interface/Creator/ALifeCreatorCore.lua:5807",
+        "fraksiyon ve NPC şablonlarını silme onayı",
+        "ARAYÜZ"
+      ]
+    ],
+    "28": [
+      "IGUI_ALifeUI_15a7ef157a7d4e4f",
+      "Delete folder '{name}' and everything in it?\n{count} factions and all their NPCs will be deleted.",
+      [
+        "client/ProjectALife/Interface/Creator/ALifeCreatorCore.lua:4274",
+        "klasör silme onayı",
+        "ARAYÜZ"
+      ]
+    ],
+    "29": [
+      "IGUI_ALifeUI_2e382979251df5be",
+      "Are you sure?\nBuilt-in factions go back to default and deleted ones come back.\nFactions you made yourself stay.",
+      [
+        "client/ProjectALife/Interface/Creator/ALifeCreatorCore.lua:5868",
+        "yerleşik fraksiyonları varsayılanlara döndürme onayı",
+        "ARAYÜZ"
+      ]
+    ],
+    "30": [
+      "IGUI_ALifeUI_4914608c4e62f4fd",
+      "enter a value.",
+      [
+        "client/ProjectALife/Interface/Creator/ALifeCreatorCore.lua:5010",
+        "zorunlu sayı alanı boş",
+        "ARAYÜZ"
+      ]
+    ],
+    "31": [
+      "IGUI_ALifeUI_09e83490779e5d01",
+      "use whole numbers from {min}.",
+      [
+        "client/ProjectALife/Interface/Creator/ALifeCreatorCore.lua:5016",
+        "alt sınır ve tam sayı şartı",
+        "ARAYÜZ"
+      ]
+    ],
+    "32": [
+      "IGUI_ALifeUI_5f1440ce0cb7bd7f",
+      "use whole numbers {min} to {max}.",
+      [
+        "client/ProjectALife/Interface/Creator/ALifeCreatorCore.lua:5016",
+        "aralık ve tam sayı şartı",
+        "ARAYÜZ"
+      ]
+    ],
+    "33": [
+      "IGUI_ALifeUI_193298696188bbdb",
+      "use {min} to {max}.",
+      [
+        "client/ProjectALife/Interface/Creator/ALifeCreatorCore.lua:5016",
+        "ondalığa izin veren sayı aralığı",
+        "ARAYÜZ"
+      ]
+    ],
+    "34": [
+      "IGUI_ALifeUI_5f7aea0f668a97ba",
+      "maximum must be at least the minimum.",
+      [
+        "client/ProjectALife/Interface/Creator/ALifeCreatorCore.lua:5024",
+        "üst sınır alt sınırdan küçük",
+        "ARAYÜZ"
+      ]
+    ],
+    "35": [
+      "IGUI_ALifeUI_40ef202503c30f7a",
+      "This code uses items your game does not have.",
+      [
+        "shared/ProjectALife/Records/ALifeFactionShare.lua:151",
+        "eksik içeriğin açıklaması",
+        "ARAYÜZ"
+      ]
+    ],
+    "36": [
+      "IGUI_ALifeUI_6869b3da77ea38ec",
+      "NPCs will spawn without them.",
+      [
+        "shared/ProjectALife/Records/ALifeFactionShare.lua:152",
+        "eksik eşyalar olmadan ortaya çıkma açıklaması",
+        "ARAYÜZ"
+      ]
+    ],
+    "37": [
+      "IGUI_ALifeUI_4f03afaf4d9dc9c5",
+      "Mod: {name} ({count} items)",
+      [
+        "shared/ProjectALife/Records/ALifeFactionShare.lua:158",
+        "Workshop kimliği olmayan eksik mod",
+        "ARAYÜZ"
+      ]
+    ],
+    "38": [
+      "IGUI_ALifeUI_57e618732fcf1957",
+      "Mod: {name} - Workshop {id} ({count} items)",
+      [
+        "shared/ProjectALife/Records/ALifeFactionShare.lua:156",
+        "Workshop kimliği olan eksik mod",
+        "ARAYÜZ"
+      ]
+    ],
+    "39": [
+      "IGUI_ALifeUI_1461ea557d381f5e",
+      "+ {count} more mods",
+      [
+        "shared/ProjectALife/Records/ALifeFactionShare.lua:163",
+        "listeye sığmayan ek mod sayısı",
+        "ARAYÜZ"
+      ]
+    ],
+    "40": [
+      "IGUI_ALifeUI_5245265578226f98",
+      "Unknown items: {items}",
+      [
+        "shared/ProjectALife/Records/ALifeFactionShare.lua:169",
+        "adı tanınmayan eşya listesi",
+        "ARAYÜZ"
+      ]
+    ],
+    "41": [
+      "IGUI_ALifeUI_1b22dbc2712021d8",
+      "Unknown items: {items} + {count} more",
+      [
+        "shared/ProjectALife/Records/ALifeFactionShare.lua:169",
+        "liste ve listeye sığmayan eşya sayısı",
+        "ARAYÜZ"
+      ]
+    ],
+    "42": [
+      "IGUI_ALifeUI_02d956c8384c3f01",
+      "Import it anyway?",
+      [
+        "shared/ProjectALife/Records/ALifeFactionShare.lua:173",
+        "eksiklere rağmen içe aktarma onayı",
+        "ARAYÜZ"
+      ]
+    ],
+    "43": [
+      "IGUI_ALifeUI_2da866a33cde06a4",
+      "MISSING ITEMS - {count} - FULL LIST IN CONSOLE.TXT",
+      [
+        "client/ProjectALife/Interface/Creator/ALifeCreatorCore.lua:5357",
+        "eksik içerik bulununca Oluşturucu durum etiketi",
+        "ARAYÜZ"
+      ]
+    ]
+  }
+}

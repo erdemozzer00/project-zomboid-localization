@@ -1,0 +1,162 @@
+# Project A-Life 1.5.2 · Genel görev NPC replikleri · 1/4 · Erzak, sağlık ve kayıp kişiler
+# Bu dosyada 1–69 arası numaralar çevrilecek. Çıktıyı aynı sıralamayla, her satırda N | Türkçe biçiminde ver.
+# Yalnız numaralı İngilizce replikleri çevir. Başlıkları, oyuncu sorularını ve mevcut Türkçe karşılıkları çıktıya alma.
+# Her replik görevi veren NPC'nin Konuş sekmesinde tek bir oyuncuya hitabı. Oyuncuya “sen” de. Replikte NPC bir grup adına konuşuyorsa “biz” anlamını koru.
+# Bir aşamadaki replikler birbirinin alternatifi. Her satırı tek başına doğal duyulacak şekilde yaz. Kolluk ve askerî varyantların tonunu koru.
+# {name} oyun içi kişi adı. {where} yer türü, varsa kasaba tarifi, yaklaşık mesafe ve yönü birlikte taşıyabilen bir yer öbeği.
+# Yer tutucuları yazımı ve adediyle aynen koru, Türkçe sözdizimine göre yerlerini değiştirebilirsin. Değişken kişi ve yer adlarına ek gerektirmeyecek bir yapı kur.
+# Terimler · camp = kamp, horde = sürü, radio (iki yönlü haberleşme) = telsiz, raider = yağmacı, outpost = karakol.
+
+##### İçme suyu #####
+# Kuyusu kuruyan kampa güvenli içme suyu getirilmesi isteniyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Need water carried in?
+# Teklif · NPC işi ilk kez anlatıyor
+1 | The well's dry and the pump is shot, I need clean bottles
+2 | Anything wet and safe, I'll take it
+# Kabul · Oyuncu görevi üstlenmiş
+3 | Boil it first if it's not sealed, I'm begging you
+# Ret · Oyuncu teklifi geri çevirmiş
+# Mevcut karşılık (bağlam) · Sorun değil, suyu idareli kullanırız.
+# Takip · Oyuncu açık işin durumunu soruyor
+4 | Still dry here, how's the search
+5 | Three days of rationing now
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+6 | You're a lifesaver
+7 | That will do, we owe you
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+8 | We got by without it, but not well
+
+##### Pansuman için temiz bez #####
+# Sargı bezi azalan kamp, pansuman hazırlamak için temiz çarşaf veya bez istiyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Need clean cloth for dressings?
+# Teklif · NPC işi ilk kez anlatıyor
+9 | We're out of bandages, any clean sheets will do, we'll cut them up
+# Mevcut karşılık (bağlam) · Bana bez getir. Ne kadar temiz olursa o kadar iyi.
+# Kabul · Oyuncu görevi üstlenmiş
+10 | Boil what you can, wash what you can't
+# Ret · Oyuncu teklifi geri çevirmiş
+11 | We'll use what we have
+# Takip · Oyuncu açık işin durumunu soruyor
+12 | We're down to the last strip, hurry
+13 | How much cloth
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+14 | That's what we needed, thank you
+15 | You may have saved several, truly
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+16 | We used our shirts, don't worry
+
+##### İlaç ve sargı bezi #####
+# Hasta için antibiyotik ve sargı bezi isteniyor. Bir teklif varyantında görevi veren kişi ateşi çıkan oğlundan söz ediyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Anyone short on medicine?
+# Teklif · NPC işi ilk kez anlatıyor
+17 | My boy has a fever, I need antibiotics and clean dressings, try the pharmacy near {where}
+18 | We're out of bandages and the pills ran dry, anything clean will do
+# Kabul · Oyuncu görevi üstlenmiş
+19 | Hurry, please, I'll wait right here
+# Ret · Oyuncu teklifi geri çevirmiş
+20 | Then I'll try someone else, thank you anyway
+# Takip · Oyuncu açık işin durumunu soruyor
+21 | Did you find anything yet? Time matters
+22 | Please, he's getting worse
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+# Mevcut karşılık (bağlam) · Tam da bize lazım olan buydu. Sağ ol.
+23 | You may have saved a life today
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+24 | It's too late for it now
+25 | We managed without, no thanks to anyone
+
+##### Taze et #####
+# Konserveyle geçinen kamp için taze et isteniyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Need food brought in?
+# Teklif · NPC işi ilk kez anlatıyor
+26 | We've had beans for a week, bring us meat and I'll make it worth your while
+27 | Rabbit, deer, anything that isn't from a can
+# Kabul · Oyuncu görevi üstlenmiş
+28 | Skin it where you shot it, carry it clean
+# Ret · Oyuncu teklifi geri çevirmiş
+29 | We'll make the beans last
+# Takip · Oyuncu açık işin durumunu soruyor
+30 | Empty bellies here, any luck
+31 | Got anything yet
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+32 | Now that's a meal, thank you
+# Mevcut karşılık (bağlam) · Bu akşam çocukların karnı doyacak.
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+33 | We ate the last can, too late for it
+
+##### Yaralıya tıbbi yardım #####
+# Oyuncudan ağır yaralıya tıbbi malzeme ulaştırıp yardım etmesi isteniyor. {name} yaralının adı.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Anyone badly hurt here?
+# Teklif · NPC işi ilk kez anlatıyor
+34 | Someone near {where} is bleeding out, bring dressings and disinfectant, I can't leave my post
+35 | {name} needs real treatment, get bandages to them
+# Kabul · Oyuncu görevi üstlenmiş
+36 | Please be quick, they don't have long
+# Ret · Oyuncu teklifi geri çevirmiş
+37 | Then I'll keep pressing the wound
+# Takip · Oyuncu açık işin durumunu soruyor
+38 | They're weaker, please hurry
+39 | Did the dressings arrive
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+40 | You've done a great thing, thank you
+41 | They're stable now, bless you
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+42 | It's over, we don't need help anymore
+
+##### Kayıp kişiyi arama #####
+# Oyuncudan kayıp kişiyi son görüldüğü yerden başlayarak araması ve öğrendiğini bildirmesi isteniyor. {name} kayıp kişinin adı.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Is anyone missing?
+# Teklif · NPC işi ilk kez anlatıyor
+43 | {name} went out two days ago and hasn't returned, last seen near {where}
+44 | Please find {name}, they were heading toward {where}
+# Kabul · Oyuncu görevi üstlenmiş
+45 | Thank you, whatever you find, tell me
+# Ret · Oyuncu teklifi geri çevirmiş
+46 | I understand, I'll keep hoping
+# Takip · Oyuncu açık işin durumunu soruyor
+47 | Any sign of {name}
+48 | Did you find anything
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+49 | Thank God, thank you
+50 | At least now I know, thank you for telling me
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+51 | It's too late for hope now
+52 | We found them ourselves, don't trouble
+
+##### Mahsur kalan kişiyi kurtarma #####
+# Zombilerin çevrelediği evde mahsur kalan kişiyi canlı çıkarmak gerekiyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Is anyone trapped somewhere?
+# Teklif · NPC işi ilk kez anlatıyor
+53 | Someone is pinned in a house near {where}, the dead are all around it, get them out
+54 | We heard knocking from a house near {where}, there's a survivor in there
+# Kabul · Oyuncu görevi üstlenmiş
+55 | Clear a way first, they can barely move
+# Ret · Oyuncu teklifi geri çevirmiş
+56 | Then they're on their own, God help them
+# Takip · Oyuncu açık işin durumunu soruyor
+57 | Still no word, are they alive
+58 | Hurry, we heard them again
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+59 | You got them out, I owe you everything
+60 | They're alive, thank you
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+61 | We went in too late, it's over
+
+##### Komşudan haber alma #####
+# Görevi veren kişi, günlerdir görünmeyen ailenin kapısını çalıp durumunu bildirmesini oyuncudan istiyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Anyone you haven't heard from?
+# Teklif · NPC işi ilk kez anlatıyor
+62 | The family near {where} hasn't come out in days, I'm afraid to look myself
+63 | Can you knock on the house near {where} and tell me what you see
+# Kabul · Oyuncu görevi üstlenmiş
+64 | Be gentle, and tell me the truth
+# Ret · Oyuncu teklifi geri çevirmiş
+65 | I'll go myself, then
+# Takip · Oyuncu açık işin durumunu soruyor
+66 | Anything? Please don't keep me waiting
+67 | Did you reach the house
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+68 | Thank you, even bad news is better than none
+# Mevcut karşılık (bağlam) · Güvende olmalarına sevindim
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+69 | I found out another way, don't worry

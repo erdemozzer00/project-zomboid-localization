@@ -1,0 +1,12 @@
+# Project A-Life 1.5.2 · Güvenli ev kapısındaki değişkenli NPC replikleri
+# Yalnız numaralı İngilizce satırları çevir. Çıktı biçimi N | Türkçe. Numaraları ve sırayı koru.
+# {…} yer tutucularının adını ve yazımını aynen koru. Türkçe cümle sırasına göre yerlerini değiştirebilirsin.
+# Yeni metinlerde şapkalı harf kullanma.
+
+##### Güvenli ev kapısı · ziyaretçinin yanındakiler #####
+# Oyuncu, kapıdaki ziyaretçiye yalnız gelip gelmediğini soruyor. Yanında başkaları olan ziyaretçi kendi grubundan söz ederek cevap veriyor. {count} ziyaretçi dahil grup üyesi sayısı ve en az 2.
+1 | There's {count} of us here, we're together
+
+##### Güvenli ev kapısı · polis sayımı #####
+# Polis kapıda evdekilerin ve ısırık vakalarının durumunu soruyor. Oyuncu bilinen bir ısırık olmadığını ya da birinin ısırıldığını bildiriyor. Polis bu iki cevaba da aynı replikle karşılık veriyor. {count} evdeki sakin sayısı. “Stay inside” evdeki sakinleri kapsıyor.
+2 | Noted. {count} residents home, and your report about bites. Stay inside. We're moving on.

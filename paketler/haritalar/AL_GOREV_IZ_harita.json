@@ -1,0 +1,195 @@
+{
+  "_paket": "AL_GOREV_IZ",
+  "_grup": "lua_tarama_152",
+  "_dosya": "IG_UI_lua",
+  "_baslik": "Görev günlüğü ve NPC görüşü",
+  "_noktalama": false,
+  "_parcalar": [
+    [
+      1,
+      20
+    ]
+  ],
+  "satirlar": {
+    "1": [
+      "IGUI_ALifeUI_2a5247404d3db1d7",
+      "Took the job from Dell Tolliver",
+      [
+        "server/ProjectALife/Missions/ALifeMissionService.lua:588",
+        "Geride Kalanlar · günlük ve kısa bildirim",
+        "kayıt · kabul"
+      ]
+    ],
+    "2": [
+      "IGUI_ALifeUI_2f6afe78784432b0",
+      "Handed Earl's bag to Dell",
+      [
+        "server/ProjectALife/Missions/ALifeMissionService.lua:638",
+        "Geride Kalanlar · günlük ve kısa bildirim",
+        "kayıt · başarılı teslim"
+      ]
+    ],
+    "3": [
+      "IGUI_ALifeUI_3e7c1e07653c8d27",
+      "Gave the bag to the Six Mile Boys",
+      [
+        "server/ProjectALife/Missions/ALifeMissionService.lua:468",
+        "Geride Kalanlar · günlük ve kısa bildirim",
+        "kayıt · çanta Wade’in grubuna verildi"
+      ]
+    ],
+    "4": [
+      "IGUI_ALifeUI_76d39e717027d77e",
+      "The bag is gone. Tell Dell",
+      [
+        "server/ProjectALife/Missions/ALifeMissionService.lua:469",
+        "Geride Kalanlar · günlük ve kısa bildirim",
+        "bildirim · kaybı Dell’e bildir"
+      ]
+    ],
+    "5": [
+      "IGUI_ALifeUI_19897a9e64696f51",
+      "Told Dell the bag is gone",
+      [
+        "server/ProjectALife/Missions/ALifeMissionService.lua:647",
+        "Geride Kalanlar · günlük ve kısa bildirim",
+        "kayıt · kayıp Dell’e bildirildi"
+      ]
+    ],
+    "6": [
+      "IGUI_ALifeUI_4755e14a4fd11bac",
+      "Task over",
+      [
+        "server/ProjectALife/Missions/ALifeMissionService.lua:649",
+        "Geride Kalanlar · günlük ve kısa bildirim",
+        "bildirim · kayıp dalı kapandı"
+      ]
+    ],
+    "7": [
+      "IGUI_ALifeUI_15ff8d231f05096a",
+      "Click to change",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Missions.lua:495",
+        "Günlük · Ayarlar",
+        "ipucu"
+      ]
+    ],
+    "8": [
+      "IGUI_ALifeUI_750a96da62356b93",
+      "They pointed you at work",
+      [
+        "server/ProjectALife/Missions/ALifeTaskTalkServer.lua:195",
+        "Konuşma penceresi · NPC’nin oyuncu hakkındaki görüşü",
+        "NPC oyuncuyu Dell’in işine yönlendirdi"
+      ]
+    ],
+    "9": [
+      "IGUI_ALifeUI_711a460060908ecf",
+      "You did the job",
+      [
+        "server/ProjectALife/Missions/ALifeTaskTalkServer.lua:226",
+        "Konuşma penceresi · NPC’nin oyuncu hakkındaki görüşü",
+        "görev yerine getirildi"
+      ]
+    ],
+    "10": [
+      "IGUI_ALifeUI_0c93dc81338b1543",
+      "You let the job slip",
+      [
+        "server/ProjectALife/Missions/ALifeTaskGiverWatch.lua:79",
+        "Konuşma penceresi · NPC’nin oyuncu hakkındaki görüşü",
+        "iş bırakıldı veya süresi doldu"
+      ]
+    ],
+    "11": [
+      "IGUI_ALifeUI_5e78c64b3421d233",
+      "Small talk about the radio",
+      [
+        "server/ProjectALife/Radio/ALifeRadioTalkServer.lua:39",
+        "Konuşma penceresi · NPC’nin oyuncu hakkındaki görüşü",
+        "telsizden duyulanlar üzerine sohbet"
+      ]
+    ],
+    "12": [
+      "IGUI_ALifeUI_01a0fb432e7390ec",
+      "You asked something they like talking about",
+      [
+        "server/ProjectALife/Talk/ALifeFactionTalkServer.lua:166",
+        "Konuşma penceresi · NPC’nin oyuncu hakkındaki görüşü",
+        "NPC’nin sevdiği bir konuda soru"
+      ]
+    ],
+    "13": [
+      "IGUI_ALifeUI_5625176008a100b9",
+      "You share a uniform",
+      [
+        "server/ProjectALife/Talk/ALifeFactionTalkServer.lua:173",
+        "Konuşma penceresi · NPC’nin oyuncu hakkındaki görüşü",
+        "üniforma ve ortak meslek üzerine konuşma"
+      ]
+    ],
+    "14": [
+      "IGUI_ALifeUI_709c96904cb0f0e8",
+      "They trusted you with a warning",
+      [
+        "server/ProjectALife/Talk/ALifeFactionTalkServer.lua:181",
+        "Konuşma penceresi · NPC’nin oyuncu hakkındaki görüşü",
+        "NPC yaklaşan baskını haber verdi"
+      ]
+    ],
+    "15": [
+      "IGUI_ALifeUI_5d7954d401badd14",
+      "They shared a real tip",
+      [
+        "server/ProjectALife/Talk/ALifeFactionTalkServer.lua:198",
+        "Konuşma penceresi · NPC’nin oyuncu hakkındaki görüşü",
+        "NPC bir ekibin bulunduğu yere dair bilgi verdi"
+      ]
+    ],
+    "16": [
+      "IGUI_ALifeUI_3d1b87db3b96445d",
+      "You gave them an order they did not like",
+      [
+        "server/ProjectALife/Talk/ALifeFactionTalkServer.lua:223",
+        "Konuşma penceresi · NPC’nin oyuncu hakkındaki görüşü",
+        "NPC verilen emri reddetti"
+      ]
+    ],
+    "17": [
+      "IGUI_ALifeUI_594288b55da87375",
+      "You showed a badge",
+      [
+        "server/ProjectALife/Decisions/ALifeFactionEncounters.lua:150",
+        "Konuşma penceresi · NPC’nin oyuncu hakkındaki görüşü",
+        "polis rozeti gösterildi"
+      ]
+    ],
+    "18": [
+      "IGUI_ALifeUI_194671143a918cfe",
+      "You claimed to be police",
+      [
+        "server/ProjectALife/Decisions/ALifeFactionEncounters.lua:151",
+        "Konuşma penceresi · NPC’nin oyuncu hakkındaki görüşü",
+        "oyuncu polis olduğunu öne sürdü"
+      ]
+    ],
+    "19": [
+      "IGUI_ALifeUI_4a1db9b1571eef77",
+      "You claimed you did time",
+      [
+        "server/ProjectALife/Decisions/ALifeFactionEncounters.lua:151",
+        "Konuşma penceresi · NPC’nin oyuncu hakkındaki görüşü",
+        "oyuncu hapis yattığını söyledi"
+      ]
+    ],
+    "20": [
+      "IGUI_ALifeUI_0f940cf754dad2d8",
+      "You helped them out",
+      [
+        "server/ProjectALife/Decisions/ALifeFactionEncounters.lua:166",
+        "Konuşma penceresi · NPC’nin oyuncu hakkındaki görüşü",
+        "yardım isteyen tarafa yardım edildi"
+      ]
+    ]
+  }
+}

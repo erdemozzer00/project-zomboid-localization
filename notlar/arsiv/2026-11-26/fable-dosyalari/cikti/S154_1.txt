@@ -1,0 +1,5 @@
+1 | Yollardaki NPC aracı sayısını belirler. Ortam trafiğini, yanından geçen ve yanına yanaşan araçları kapsar. Düşük, tam trafiğin yaklaşık yüzde 15’i, Normal yaklaşık yüzde 40’ı, Yüksek ise tamamıdır. Kapalı, ortamdaki tüm NPC araç trafiğini durdurur (baskın, polis müdahalesi ve senaryolu araçların kendi ayarları var). NPC araçlarını etkinleştir ayarı açık olmalı.\nVarsayılan: Normal (2).
+2 | Kare başına zombi düşünme adımı
+3 | Bir karede kaç zombinin A-Life düşünme adımını çalıştırabileceğini sınırlar. Diğerleri bir veya iki kare bekler. En fazla Zombi düşünme bekleme sınırı ayarında belirtilen süre kadar beklerler. Isıran, saldıran veya birinin hemen yanında duran zombiler her zaman düşünme adımını çalıştırır. NPC’lerin yakınındaki sürüler oyunu taktırıyorsa bu değeri düşür. 0, sınırı kaldırır.
+4 | Zombi düşünme bekleme sınırı (ms)
+5 | Kare başına adım sınırı dolduğunda bir zombinin düşünme adımı için en fazla ne kadar bekleyeceğini belirler. 200 ms’lik gecikme pek hissedilmez. Çok büyük sürülerde bu ayarı 600 ms, kare başına zombi düşünme adımını 4 yaparsan en yüksek kare hızını elde edersin. 1000 ms civarında zombiler daha seyrek ısırmaya başlar.

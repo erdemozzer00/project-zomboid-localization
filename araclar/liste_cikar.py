@@ -1,6 +1,6 @@
 """Tablo içi liste değerlerindeki NPC sözlerini (kacan_tara.py'nin görmediği `lines = { "…" }`) modun kendi Lua'sıyla okur.
 
-Rapor: rapor/kacan_listeler_1.5.0.md. Girdiler: python -X utf8 araclar/harici_paket.py hazirla-liste-soz Y7 --yeni
+Rapor: rapor/kacan_listeler_1.5.0.md. Girdiler: python -X utf8 araclar/harici_paket.py hazirla-liste-soz Y7
 (durum/esir/çağrı sorusu) ve hazirla-bitis-soz Y9 --yeni (telsiz kartı + pilot)
 
 Gösterim yolları (kod okuması, 2026-11-09, mod 1.5.0):
@@ -157,7 +157,7 @@ def cikar():
 def bilinen():
     """Çeviri yolunda olan RD_ALifeLine_ anahtarları: kaynak/RadioData_lua.json + bekleyen haritalar (Y7 hariç)."""
     k = set(json.loads((KOK / "kaynak" / "RadioData_lua.json").read_text(encoding="utf-8")))
-    for f in (KOK / "rapor").glob("*_harita.json"):
+    for f in (KOK / "paketler/haritalar").glob("*_harita.json"):
         if f.name == "Y7_harita.json":
             continue
         for v in json.loads(f.read_text(encoding="utf-8")).get("satirlar", {}).values():

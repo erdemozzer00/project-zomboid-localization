@@ -7,7 +7,7 @@ keys=set()
 for f in ['kaynak/RadioData_lua.json','kaynak/IG_UI_lua.json','kaynak/Creator_lua.json','kaynak/en/IG_UI.json','kaynak/en/UI.json','kaynak/en/Sandbox.json','kaynak/en/ItemName.json']:
     try: keys|=set(json.load(open(f,encoding='utf-8')).keys())
     except Exception as e: print('yok',f)
-for f in glob.glob('rapor/*_harita.json'):
+for f in glob.glob('paketler/haritalar/*_harita.json'):
     try:
         x=json.load(open(f,encoding='utf-8'))
         for v in x['satirlar'].values(): keys.add(v[0])

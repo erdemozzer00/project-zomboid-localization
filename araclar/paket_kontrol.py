@@ -45,6 +45,10 @@ def load(p):
 
 def main(kod):
     paket = json.loads((KOK / 'paketler' / f'{kod}.json').read_text(encoding='utf-8'))
+    return paketi_denetle(kod, paket)
+
+
+def paketi_denetle(kod, paket):
     dosya = paket['_dosya']
     if paket.get('_duzeltme'):  # K paketleri (araclar/duzeltme_al.py): "eski" = şu anki onaylı çeviri
         yeni = load(KOK / ('kaynak' if dosya.endswith('_lua') else 'kaynak/en') / f'{dosya}.json')
@@ -68,25 +72,18 @@ def main(kod):
         return kontrol(kod, paket, yeni, {}, {}, {}, {})
     eskiEN = load(KOK / f'{dosya}-updated.json')
     eskiTR = load(KOK / f'{dosya}-updated-translated.json')
-    cev = {}
-    for d in ((KOK / 'çevirmenler').iterdir() if (KOK / 'çevirmenler').exists() else ()):  # çevirmen dönemi bitti (2026-11-13)
-        for f in d.iterdir():
-            if f.name == "NOTLAR.txt": continue
-            for k, v in load(f).items():
-                cev[k] = (d.name, v)
     baglam = json.loads((KOK / 'rapor' / 'baglam.json').read_text(encoding='utf-8'))[dosya]
     if paket.get('_surum_farki'):  # B paketleri: "eski" = yapımcının önceki JSON'u + bizim onaylı çevirimiz
         eskiEN = load(KOK / 'yeni jsonlar' / f'{dosya}.json')
         eskiTR = load(KOK / 'onayli' / f'{dosya}.json')
-        cev = {}
-    return kontrol(kod, paket, yeni, eskiEN, eskiTR, cev, baglam)
+    return kontrol(kod, paket, yeni, eskiEN, eskiTR, {}, baglam)
 
 
 def kontrol(kod, paket, yeni, eskiEN, eskiTR, cev, baglam):
 
     hatalar, stil_uyarilari, md = [], [], [f"# {paket['_paket']}\n"]
     sayac = Counter()
-    harita_yolu = KOK / 'rapor' / f'{kod}_harita.json'
+    harita_yolu = KOK / 'paketler/haritalar' / f'{kod}_harita.json'
     harita = json.loads(harita_yolu.read_text(encoding='utf-8')) if harita_yolu.exists() else {}
     diyalog_paketi = paket.get('_dosya') == 'RadioData_lua'
     noktalama_eksik = []
@@ -186,7 +183,7 @@ def kontrol(kod, paket, yeni, eskiEN, eskiTR, cev, baglam):
             elif 'çeviri: harici AI' in paket.get('_paket', ''):
                 etiket = 'Kullanıcı onaylı Fable istisnası'
             else:
-                etiket = 'Gerekçeli üslup istisnası (Claude)'
+                etiket = f"Gerekçeli üslup istisnası ({r.get('kim', 'Claude')})"
             md.append(f'- *{etiket} ({tur}): {gerekce}*')
         if r.get('not'):
             md.append(f"- *Not: {r['not']}*")
@@ -236,7 +233,8 @@ def kontrol(kod, paket, yeni, eskiEN, eskiTR, cev, baglam):
         print(f'TERİM UYARILARI ({len(terim_uyarilari)}, hata değil):', *terim_uyarilari, sep='\n  ')
     if stil_uyarilari:
         print('DİYALOG/ÜSLUP TARAMASI (uyarı; otomatik hata değil):', *stil_uyarilari, sep='\n  ')
+    return not hatalar
 
 
 if __name__ == '__main__':
-    main(sys.argv[1])
+    sys.exit(0 if main(sys.argv[1]) else 1)

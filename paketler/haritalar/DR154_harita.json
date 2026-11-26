@@ -1,0 +1,305 @@
+{
+  "_paket": "DR154",
+  "_grup": "surus_1_5_4",
+  "_dosya": "IG_UI_lua",
+  "_baslik": "1.5.4 yönetici sürüş paneli",
+  "_parcalar": [
+    [
+      1,
+      32
+    ]
+  ],
+  "_noktalama_haric": [
+    "Düğme"
+  ],
+  "satirlar": {
+    "1": [
+      "IGUI_ALifeUI_6e88bb714805c9f7",
+      "NPC drives / riders",
+      [
+        "shared/ProjectALife/Driving/ALifeDrivingCarMode.lua:3",
+        "Yönetici sürüş paneli",
+        "Düğme"
+      ]
+    ],
+    "2": [
+      "IGUI_ALifeUI_24f661ac7b35bf99",
+      "NPC only",
+      [
+        "shared/ProjectALife/Driving/ALifeDrivingCarMode.lua:3",
+        "Yönetici sürüş paneli",
+        "Düğme"
+      ]
+    ],
+    "3": [
+      "IGUI_ALifeUI_2a75bd9441ae05c7",
+      "Attack mode",
+      [
+        "shared/ProjectALife/Driving/ALifeDrivingCarMode.lua:3",
+        "Yönetici sürüş paneli",
+        "Düğme"
+      ]
+    ],
+    "4": [
+      "IGUI_ALifeUI_06a8b9f46de0949d",
+      "Repair car HP",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingPanel.lua:791",
+        "Yönetici sürüş paneli",
+        "Düğme"
+      ]
+    ],
+    "5": [
+      "IGUI_ALifeUI_62626ab13f24fe98",
+      "Cancel mode change",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingPanel.lua:787",
+        "Yönetici sürüş paneli",
+        "Düğme"
+      ]
+    ],
+    "6": [
+      "IGUI_ALifeUI_56df6e73590cea6d",
+      "Ride as passenger",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:88",
+        "Yönetici sürüş paneli",
+        "Düğme"
+      ]
+    ],
+    "7": [
+      "IGUI_ALifeUI_095d3a0941d9e727",
+      "Start drive",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:55",
+        "Yönetici sürüş paneli",
+        "Düğme"
+      ]
+    ],
+    "8": [
+      "IGUI_ALifeUI_1999242a5844e8ec",
+      "Done & drive",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:55",
+        "Yönetici sürüş paneli",
+        "Düğme"
+      ]
+    ],
+    "9": [
+      "IGUI_ALifeUI_7c8c02cd5d15c97d",
+      "STOP",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:89",
+        "Yönetici sürüş paneli",
+        "Düğme"
+      ]
+    ],
+    "10": [
+      "IGUI_ALifeUI_586f838110e8ec08",
+      "Get in car",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingPanel.lua:774",
+        "Yönetici sürüş paneli",
+        "Düğme"
+      ]
+    ],
+    "11": [
+      "IGUI_ALifeUI_0b4ab17f6d3b0eef",
+      "Get out of car",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingPanel.lua:777",
+        "Yönetici sürüş paneli",
+        "Düğme"
+      ]
+    ],
+    "12": [
+      "IGUI_ALifeUI_44cd601e46a8131c",
+      "Edit NPC attachments",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingPanel.lua:773",
+        "Yönetici sürüş paneli",
+        "Düğme"
+      ]
+    ],
+    "13": [
+      "IGUI_ALifeUI_32b7ee236abb0a1d",
+      "Attack mode starts automatically when a seated NPC passenger engages a player through normal hostility or retaliation. Requires an NPC driver and at least one hostile or retaliating passenger; player-occupied cars cannot auto-attack. Armed engaging passengers can fire. Switching mode resumes the saved route; STOP keeps the car parked.",
+      [
+        "shared/ProjectALife/Driving/ALifeCarAttack.lua:2",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "14": [
+      "IGUI_ALifeUI_50a808791b4ae2b6",
+      "Reserve the driver seat for a player; all linked NPCs ride as passengers. A driver-mode change waits for a safe stop and crew exit.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:74",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "15": [
+      "IGUI_ALifeUI_547456417f3480a3",
+      "NPC driver; players may use unreserved passenger seats. Driver-mode changes keep the route and wait for a safe stop.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:75",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "16": [
+      "IGUI_ALifeUI_50bb149008d8a547",
+      "NPC driver; block new player boarding. Players already inside can stay or leave.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:76",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "17": [
+      "IGUI_ALifeUI_51dfcc186210f5b1",
+      "Cancel Attack mode and stop the car. Crew stays seated.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:80",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "18": [
+      "IGUI_ALifeUI_2e8a02c46f79af52",
+      "Chasing a player. Saved waypoints resume when the threat clears or Attack mode is switched off.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:83",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "19": [
+      "IGUI_ALifeUI_510780672a725fb6",
+      "Stop this car and hold automatic attacks. Seated crew stays inside until Start drive or Attack mode is selected.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:61",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "20": [
+      "IGUI_ALifeUI_37c1d9d47d251b37",
+      "Debug repair: stop the car, then restore its shared HP and engine. Does not restart the car or reboard the crew.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:23",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "21": [
+      "IGUI_ALifeUI_4d4cf85f0d7ad4a9",
+      "Cancel boarding and the queued drive for this car.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:61",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "22": [
+      "IGUI_ALifeUI_2b4e06c74fdd895f",
+      "Attached NPCs walk to their assigned seats, then wait inside.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:44",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "23": [
+      "IGUI_ALifeUI_038ac9ea2dfef0ef",
+      "Select a loaded car dot first.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:29",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "24": [
+      "IGUI_ALifeUI_7216e5d5459170ba",
+      "Review links or detach one NPC. The car stops before they get out. Park to add passengers.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:29",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "25": [
+      "IGUI_ALifeUI_00e06fd43b5530f8",
+      "Park the car before editing NPC attachments.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:30",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "26": [
+      "IGUI_ALifeUI_3bd19c3e3185f6c3",
+      "Edit this car's driver and passengers, or detach all NPCs.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:30",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "27": [
+      "IGUI_ALifeUI_7f8c2d8f41c7fd19",
+      "Boarding, then driving. Press STOP to cancel.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:48",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "28": [
+      "IGUI_ALifeUI_74a71b4839e55534",
+      "Wait for this car's current command to finish.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:49",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "29": [
+      "IGUI_ALifeUI_7168215a442f80d4",
+      "This car is already driving.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:50",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "30": [
+      "IGUI_ALifeUI_14190d2b53d8e1fb",
+      "Finish editing, bring all attached crew aboard, then drive this route. STOP cancels both steps.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:56",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "31": [
+      "IGUI_ALifeUI_78c692b95472c6ab",
+      "Finish editing and start the engine in one click.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:57",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ],
+    "32": [
+      "IGUI_ALifeUI_502261ea23ab6961",
+      "Start the engine and follow this car's route.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingCrewPicker.lua:57",
+        "Yönetici sürüş paneli",
+        "İpucu"
+      ]
+    ]
+  }
+}

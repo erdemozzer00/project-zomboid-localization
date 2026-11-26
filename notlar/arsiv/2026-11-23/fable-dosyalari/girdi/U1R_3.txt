@@ -1,0 +1,209 @@
+# U1R · 3/14 · Askeri birlikler, karakollar ve seferberlik
+# Çıktı dosyası: U1R_3.txt. Dosyaya yalnız N | Türkçe satırlarını yaz. 189–328 arasındaki her numarayı aynı sırada bir kez kullan.
+# Başlıklar ve numarasız notlar bağlamdır. Çevrilecek metin her numaralı satırın son sütunundadır.
+# DÜNYA VE EKRAN: Project Zomboid, 1993 Kentucky’si. Bunlar Oluşturucu’da ve katalogda NPC üye şablonunu tanıtan kısa ekran etiketleridir.
+# BİÇİM: “Ad ve unvan” satırında kişi adını ve boşluklu “ - ” ayracını koru. Unvanı kısa bir Türkçe ad öbeği olarak yaz. “Şablon adı” tek parça bir etikettir. İçinde bir ad ve rütbe varsa kişinin adını koruyup rütbeyi Türkçeleştir. Yer ve kişi adlarını, numaraları ve model kodlarını koru. Sona nokta koyma.
+# BAĞLAM: Her başlık bir fraksiyondur. İngilizce grup açıklaması oyunun kataloğundan alınmıştır. Açıklamadaki olaylar çevrilecek ada eklenmez. “Ortak etiket” notu bir sonraki satırın aynı metinle kullanıldığı diğer grupları sayar. Bu satıra hepsine uyan tek karşılık yaz.
+# TERİM BAĞLAMI: MP askeri polisi, NCO astsubayı belirtir. Engineer görevini birliğe göre oku. Armor birlik adında zırhlı birlik anlamındadır.
+# SABİT KARŞILIKLAR: Squad Leader → Manga Komutanı
+
+##### Kentucky Guard - 149th Armored Bde #####
+# Katalog açıklaması: What is left of a Kentucky Army National Guard detachment of the 149th Armored Brigade. They hold their range, work in lanes, and treat a firefight as a job rather than a fight.
+189 | Şablon adı | Guard Rifleman
+190 | Şablon adı | Guard Marksman
+191 | Şablon adı | Guard Corpsman
+192 | Şablon adı | Guard Sergeant
+193 | Şablon adı | Guard Automatic Rifleman
+194 | Şablon adı | Guard Bridge Marksman
+
+##### 101st Airborne - Knox Cordon Detachment #####
+# Katalog açıklaması: The Army's line round the Exclusion Zone, drawn by the 101st Airborne Division (Air Assault) out of Fort Campbell, still standing where the order left it. Masks on, plates in, ammunition that does not run out: they hold the bridge, and nothing crosses it twice.
+195 | Şablon adı | Cordon Rifleman
+196 | Şablon adı | Cordon Automatic Rifleman
+197 | Şablon adı | Cordon Marksman
+198 | Şablon adı | Cordon Sergeant
+
+##### US Army Armor School Cadre - Fort Knox #####
+# Katalog açıklaması: US Army Armor Center cadre off Fort Knox, the Armor School instructors and crews, working the 31W corridor in the first week with a helicopter still on call.
+199 | Ad ve unvan | Calvin - Team Leader
+# Ortak etiket · Şu gruplarda da kullanılır: 2nd Bn 123rd Armor - Rifle Detail
+200 | Ad ve unvan | Paul - Rifleman
+201 | Ad ve unvan | Scott - Rifleman
+202 | Ad ve unvan | Jesse - Marksman
+203 | Ad ve unvan | Ada - Medic
+204 | Ad ve unvan | Travis - Rifleman
+205 | Ad ve unvan | Clyde - Staff Sergeant
+206 | Ad ve unvan | Boyd - Armor Crewman
+207 | Ad ve unvan | Nina - Supply Clerk
+208 | Ad ve unvan | Evan - Mechanic
+
+##### Fort Knox Military Police Company #####
+# Katalog açıklaması: Fort Knox military police on the roads into the installation: checkpoints, curfew, and a patience that is running out.
+209 | Ad ve unvan | Henry - Desk Sergeant
+210 | Ad ve unvan | Adam - Military Policeman
+211 | Ad ve unvan | Earl - Military Policeman
+212 | Ad ve unvan | Denise - Military Policeman
+213 | Ad ve unvan | Roy - Military Policeman
+214 | Ad ve unvan | Otis - Gate Sentry
+215 | Ad ve unvan | Ellen - Patrol MP
+216 | Ad ve unvan | Marcus - Investigator
+217 | Ad ve unvan | Tammy - Desk Clerk
+
+##### 149th Armored Brigade - Engineers #####
+# Katalog açıklaması: A Kentucky Guard engineer platoon of the 149th Armored Brigade, called up for the bridge works and the road blocks. Tools, trucks, and one rifle in three.
+218 | Ad ve unvan | Andre - Platoon Sergeant
+219 | Ad ve unvan | Curtis - Engineer
+220 | Ad ve unvan | Vernon - Engineer
+221 | Ad ve unvan | Helen - Engineer
+222 | Ad ve unvan | Carla - Engineer
+223 | Ad ve unvan | Daniel - Combat Engineer
+224 | Ad ve unvan | Ray - Equipment Operator
+225 | Ad ve unvan | Darlene - Surveyor
+226 | Ad ve unvan | Wade - Demolitions Specialist
+
+##### 2nd Bn 123rd Armor - Rifle Detail #####
+# Katalog açıklaması: A Kentucky Army National Guard rifle detail of 2nd Battalion, 123rd Armor -- your neighbours with a drill weekend -- holding a cordon it was told to hold.
+227 | Ad ve unvan | Travis - Squad Leader
+# Ortak etiket · Şu gruplarda da kullanılır: County Road Militia
+228 | Ad ve unvan | Clyde - Rifleman
+# Ortak etiket · Şu gruplarda da kullanılır: County Road Militia
+229 | Ad ve unvan | Boyd - Rifleman
+# Ortak etiket · Şu gruplarda da kullanılır: County Road Militia
+230 | Ad ve unvan | Gus - Rifleman
+231 | Ad ve unvan | Evan - Grenadier
+# Ortak etiket · Şu gruplarda da kullanılır: County Road Militia
+232 | Ad ve unvan | Calvin - Rifleman
+233 | Ad ve unvan | Scott - Radio Operator
+234 | Ad ve unvan | Jesse - Scout
+235 | Ad ve unvan | Monica - Corpsman
+236 | Ad ve unvan | Vernon - Gunner
+
+##### United States Mint Police - Vault Detail #####
+# Katalog açıklaması: United States Mint Police from the depository. Another service, another uniform, a much smaller number; they answer to nobody here.
+# Oyundaki fraksiyon adı (bağlam): ABD Darphane Polisi - Kasa Görev Ekibi
+237 | Ad ve unvan | Otis - Inspector
+# Ortak etiket · Şu gruplarda da kullanılır: Riverside Police
+238 | Ad ve unvan | Terrence - Officer
+# Ortak etiket · Şu gruplarda da kullanılır: Riverside Police
+239 | Ad ve unvan | Marcus - Officer
+240 | Ad ve unvan | Thomas - Officer
+241 | Ad ve unvan | Leon - Officer
+242 | Ad ve unvan | Sheila - Officer
+243 | Ad ve unvan | Adam - Armorer
+244 | Ad ve unvan | Claire - Control Room Officer
+245 | Ad ve unvan | Lonnie - Senior Inspector
+246 | Ad ve unvan | Roy - Night Officer
+
+##### The Left-Behind #####
+# Katalog açıklaması: The Left-Behind: soldiers who stopped taking orders and kept the rifles. They are not looking for a fight, and they win the ones they get.
+# Oyundaki fraksiyon adı (bağlam): Geride Kalanlar
+247 | Ad ve unvan | Daniel - Corporal
+248 | Ad ve unvan | Ray - Private
+249 | Ad ve unvan | Frank - Private
+250 | Ad ve unvan | Yvonne - Private
+251 | Ad ve unvan | Luis - Private
+252 | Ad ve unvan | Andre - Private
+253 | Ad ve unvan | Curtis - Specialist
+254 | Ad ve unvan | Vernon - Cook
+# Ortak etiket · Şu gruplarda da kullanılır: First Family - Stranded Contacts
+255 | Ad ve unvan | Maria - Driver
+256 | Ad ve unvan | Lyle - Medic
+
+##### Kentucky Guard Remnants - 149th Armored Bde #####
+# Katalog açıklaması: Kentucky Guard remnants: a 149th Armored Brigade platoon that stopped taking orders and kept the field depot.
+257 | Ad ve unvan | Daniel - Squad Leader
+258 | Ad ve unvan | Ray - Rifleman
+259 | Ad ve unvan | Frank - Rifleman
+260 | Ad ve unvan | Carla - Rifleman
+261 | Ad ve unvan | Luis - Rifleman
+262 | Ad ve unvan | Andre - Radio Operator
+263 | Ad ve unvan | Curtis - Scout
+264 | Ad ve unvan | Yvonne - Corpsman
+265 | Ad ve unvan | Darnell - Gunner
+
+##### 149th Armored Bde - Engineer Holdouts #####
+# Katalog açıklaması: Engineer holdouts: 149th Armored Brigade Guard engineers who kept the workshop and the generator, and trade repairs for food.
+266 | Ad ve unvan | Calvin - Platoon Sergeant
+267 | Ad ve unvan | Paul - Engineer
+268 | Ad ve unvan | Scott - Engineer
+269 | Ad ve unvan | Beth - Engineer
+270 | Ad ve unvan | Dwight - Engineer
+271 | Ad ve unvan | Travis - Combat Engineer
+272 | Ad ve unvan | Clyde - Equipment Operator
+273 | Ad ve unvan | Ruth - Surveyor
+274 | Ad ve unvan | Gus - Demolitions Specialist
+
+##### 1st Armor Training Brigade Remnants #####
+# Katalog açıklaması: Training remnants: a 1st Armor Training Brigade platoon cut off on the range roads, half-trained and led by one sergeant.
+275 | Ad ve unvan | Henry - Drill Sergeant
+276 | Ad ve unvan | Adam - Trainee
+277 | Ad ve unvan | Earl - Trainee
+278 | Ad ve unvan | Patsy - Trainee
+279 | Ad ve unvan | Roy - Trainee
+280 | Ad ve unvan | Otis - Trainee
+281 | Ad ve unvan | Terrence - Cadet
+282 | Ad ve unvan | Grace - Trainee
+283 | Ad ve unvan | Thomas - Range Safety NCO
+284 | Ad ve unvan | Leon - Supply Trainee
+
+##### 149th Armored Bde - Transport Detail #####
+# Katalog açıklaması: Guard transport detail of the 149th Armored Brigade: truck drivers with a convoy that went nowhere, guarding what is on the trucks.
+285 | Ad ve unvan | Travis - Convoy Commander
+286 | Ad ve unvan | Clyde - Driver
+287 | Ad ve unvan | Boyd - Driver
+288 | Ad ve unvan | Monica - Driver
+289 | Ad ve unvan | Calvin - Driver
+290 | Ad ve unvan | Paul - Convoy Driver
+# Ortak etiket · Şu gruplarda da kullanılır: Knox First Responders
+291 | Ad ve unvan | Bonnie - Dispatcher
+292 | Ad ve unvan | Dwight - Escort
+
+##### Ireland Army Hospital - Medical Detail #####
+# Katalog açıklaması: Army medical detail: a field aid station out of Ireland Army Community Hospital at Fort Knox, treating soldiers first and everybody eventually.
+293 | Ad ve unvan | Otis - Medical Officer
+294 | Ad ve unvan | Terrence - Medic
+# Ortak etiket · Şu gruplarda da kullanılır: Rolling Fork Settlement
+295 | Ad ve unvan | Grace - Medic
+296 | Ad ve unvan | Joan - Medic
+297 | Ad ve unvan | Henry - Orderly
+298 | Ad ve unvan | Patsy - Combat Medic
+299 | Ad ve unvan | Earl - Hospital Corpsman
+300 | Ad ve unvan | Denise - Ward Clerk
+301 | Ad ve unvan | Roy - Ambulance Driver
+
+##### 5th SFG (Airborne) - Isolated Detachment #####
+# Katalog açıklaması: U.S. Army Special Forces, an isolated A-team of the 5th Special Forces Group (Airborne) from Fort Campbell, on one late mission that has nothing to do with the county. Aim of ten; do not.
+302 | Ad ve unvan | Daniel - Team Leader
+303 | Ad ve unvan | Ray - Weapons Sergeant
+304 | Ad ve unvan | Frank - Medical Sergeant
+305 | Ad ve unvan | Wade - Sniper
+306 | Ad ve unvan | Luis - Communications Sergeant
+307 | Ad ve unvan | Andre - Engineer Sergeant
+308 | Ad ve unvan | Curtis - Intelligence Sergeant
+309 | Ad ve unvan | Vernon - Operations Sergeant
+
+##### Delta Force - Isolated Team #####
+# Katalog açıklaması: Delta Force, an isolated team long after anyone expected one. Nobody knows what they are here for. Aim of ten.
+# Oyundaki fraksiyon adı (bağlam): Delta Force - İzole Tim
+310 | Ad ve unvan | Calvin - Troop Leader
+311 | Ad ve unvan | Paul - Assaulter
+312 | Ad ve unvan | Scott - Assaulter
+313 | Ad ve unvan | Jesse - Sniper
+314 | Ad ve unvan | Dwight - Assaulter
+315 | Ad ve unvan | Travis - Assaulter
+316 | Ad ve unvan | Clyde - Breacher
+317 | Ad ve unvan | Boyd - Signaller
+318 | Ad ve unvan | Gus - Medic
+
+##### 100th Division (IT) Reservists - Fort Knox #####
+# Katalog açıklaması: Fort Knox Reservists: weekend soldiers of the 100th Division (Institutional Training) who reported to a post that was already gone. Worn fatigues under civilian coats, a few rifles, and orders nobody left alive can confirm.
+319 | Ad ve unvan | Henry - Reserve Captain
+320 | Ad ve unvan | Adam - Reservist
+321 | Ad ve unvan | Earl - Reservist
+322 | Ad ve unvan | Lonnie - Reservist
+323 | Ad ve unvan | Sheila - Reservist
+324 | Ad ve unvan | Otis - Reservist
+325 | Ad ve unvan | Terrence - Staff Sergeant
+326 | Ad ve unvan | Marcus - Armor Crewman
+327 | Ad ve unvan | Ellen - Supply Clerk
+328 | Ad ve unvan | Leon - Mechanic

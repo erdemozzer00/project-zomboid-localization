@@ -1,0 +1,22 @@
+# Project Zomboid Build 42, Project A-Life 1.5.4.
+# /oyun-yerellestirme-tr skill'ine göre çevir. Yalnız numaralı satırları, sırasıyla N | Türkçe biçiminde döndür.
+# Başlıklar, açıklamalar ve etiketler bağlamdır. Her çeviriyi tek fiziksel satıra yaz.
+# Çıktı dosyası: UI154_1.txt
+# Sabit terimler: Creator → Oluşturucu, faction → fraksiyon.
+# Düğme ipucu fareyle üzerine gelince, durum mesajı panelin durum alanında görünür. Onay penceresi dört metni alt alta gösterir.
+# Yer tutucu yok. .backup.ini uzantısını aynen koru. Tamamı büyük harfle yazılmış durum mesajlarında Türkçe büyük harf kullan.
+
+##### Oluşturucu · fraksiyonları varsayılana döndürme #####
+Sıfırlama yerleşik fraksiyonları ve klasörleri geri getirir. Oyuncunun oluşturduklarına dokunmaz.
+1, fraksiyon sıfırlandıktan sonra klasör düzeni kaydedilemezse gösterilir. 2–5 tek bir Evet/Hayır penceresinde sırayla görünür. Satır sonlarını oyun ekler.
+6 temel düğme ipucudur. 7 gelişmiş düğme davranışında onun yerini alan ayrıntılı ipucudur.
+8 ve 9 aynı adımın iki ayrı sürümüdür. Gelişmiş düğme davranışında ilk tıklamadan sonra gösterilir. 8 çok oyunculuda, 9 tek oyunculuda görünür.
+1 | Durum mesajı | FACTIONS RESET - FOLDER RESTORE FAILED, COULD NOT SAVE
+2 | Onay sorusu | Are you sure?
+3 | Onay açıklaması | Built-in factions go back to default and deleted ones come back.
+4 | Onay açıklaması | Built-in folders come back and built-in factions move back into them.
+5 | Onay açıklaması | Factions and folders you made yourself stay as they are.
+6 | Düğme ipucu | Built-in factions and folders go back to default. Factions and folders you made yourself stay.
+7 | Düğme ipucu | Built-in factions go back to default and deleted ones come back. Built-in folders come back and built-in factions move back into them. Factions and folders you made yourself stay as they are. A single-player faction file is kept as a .backup.ini copy. Click twice within 3 seconds to confirm.
+8 | Durum mesajı | CLICK AGAIN TO RESET BUILT-IN FACTIONS AND FOLDERS - THE SERVER LIST IS REPLACED
+9 | Durum mesajı | CLICK AGAIN TO RESET BUILT-IN FACTIONS AND FOLDERS - A .BACKUP.INI COPY IS KEPT

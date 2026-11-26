@@ -1,0 +1,170 @@
+# Project A-Life 1.5.2 · Genel görev NPC replikleri · 3/4 · Yol, keşif ve savunma
+# Bu dosyada 144–221 arası numaralar çevrilecek. Çıktıyı aynı sıralamayla, her satırda N | Türkçe biçiminde ver.
+# Yalnız numaralı İngilizce replikleri çevir. Başlıkları, oyuncu sorularını ve mevcut Türkçe karşılıkları çıktıya alma.
+# Her replik görevi veren NPC'nin Konuş sekmesinde tek bir oyuncuya hitabı. Oyuncuya “sen” de. Replikte NPC bir grup adına konuşuyorsa “biz” anlamını koru.
+# Bir aşamadaki replikler birbirinin alternatifi. Her satırı tek başına doğal duyulacak şekilde yaz. Kolluk ve askerî varyantların tonunu koru.
+# {name} oyun içi kişi adı. {where} yer türü, varsa kasaba tarifi, yaklaşık mesafe ve yönü birlikte taşıyabilen bir yer öbeği.
+# Yer tutucuları yazımı ve adediyle aynen koru, Türkçe sözdizimine göre yerlerini değiştirebilirsin. Değişken kişi ve yer adlarına ek gerektirmeyecek bir yapı kur.
+# Terimler · camp = kamp, horde = sürü, radio (iki yönlü haberleşme) = telsiz, raider = yağmacı, outpost = karakol.
+
+##### Evi temizleme #####
+# Grup bir evi kullanabilmek için içindeki zombilerin temizlenmesini istiyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Got a house that needs clearing?
+# Teklif · NPC işi ilk kez anlatıyor
+144 | There's a house near {where} full of them, I can't use the road till it's empty
+145 | The dead moved into a place we need, can you clear it
+# Teklif · NPC işi ilk kez anlatıyor · KOLLUK VARYANTI
+146 | Dispatch wants that house near {where} cleared before dark
+# Kabul · Oyuncu görevi üstlenmiş
+147 | Good, go in quiet, there are more than you think
+# Ret · Oyuncu teklifi geri çevirmiş
+148 | Understood, then it stays dead for now
+# Takip · Oyuncu açık işin durumunu soruyor
+149 | Still not done? The house won't empty itself
+150 | Anything moving in there yet
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+151 | Thank you, we can finally sleep over there
+152 | Clean, then, here's what I promised
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+153 | Too late, they crowded back in
+154 | They've spread out again, the job is gone
+
+##### Yolu keşfetme #####
+# Oyuncudan yoldaki araç enkazlarını ve grupları gözleyip gördüklerini bildirmesi isteniyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Need a road scouted?
+# Teklif · NPC işi ilk kez anlatıyor
+155 | I need eyes on the road toward {where}, are there wrecks, are there crews
+156 | Tell me what's between here and {where}
+# Teklif · NPC işi ilk kez anlatıyor · KOLLUK VARYANTI
+157 | Patrol is short, can you walk the road toward {where} for us
+# Kabul · Oyuncu görevi üstlenmiş
+158 | Stay low, report what you see, no heroics
+# Ret · Oyuncu teklifi geri çevirmiş
+159 | Understood, we'll send someone else
+# Takip · Oyuncu açık işin durumunu soruyor
+160 | Nothing yet? Don't walk into it blind
+161 | What's on the road
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+162 | Good intel, that's what we needed
+163 | That saves us a bad trip
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+164 | We sent someone else, your report is stale
+
+##### Yoldaki zombi grubunu temizleme #####
+# Yolda dolaşan küçük zombi grubu kampı bulmadan ortadan kaldırılmalı. Buradaki pack zombileri anlatıyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Is a pack of the dead hanging around?
+# Teklif · NPC işi ilk kez anlatıyor
+165 | A pack keeps drifting along the road near {where}, hunt it down before it finds us
+166 | They're moving as one, tight, near {where}, end it
+# Kabul · Oyuncu görevi üstlenmiş
+167 | Pick your ground and make it count, don't let them circle you
+# Ret · Oyuncu teklifi geri çevirmiş
+168 | Alright, we'll keep the road closed
+# Takip · Oyuncu açık işin durumunu soruyor
+169 | They're still out there, we heard them last night
+170 | Is the road safe yet
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+171 | That's a relief, thank you
+172 | Now we can finally move
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+173 | They found the camp first, you're late
+
+##### Sürüyü yoldan uzaklaştırma #####
+# Oyuncudan yoldaki zombi sürüsünün dikkatini gürültüyle başka yere çekip güvenle sıyrılması isteniyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Is a horde in the way?
+# Teklif · NPC işi ilk kez anlatıyor
+174 | A big group is camped on the road near {where}, draw them off with noise
+175 | If you can pull them away from the road, we can slip past
+# Kabul · Oyuncu görevi üstlenmiş
+176 | Make your noise, then run, don't fight, and don't lead them back
+# Ret · Oyuncu teklifi geri çevirmiş
+177 | Alright, we'll find another way around
+# Takip · Oyuncu açık işin durumunu soruyor
+178 | They haven't moved yet, we're pinned
+179 | Did the noise work
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+180 | Brilliant, they bought it, thank you
+181 | That's a weight off, take this
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+182 | They stayed put, we gave up
+
+##### Kapı nöbeti #####
+# Oyuncu kapıda nöbet tutacak. Askerî varyantta bu bir nöbet mevzisi ve vardiya.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Need someone on the gate tonight?
+# Teklif · NPC işi ilk kez anlatıyor
+183 | I'm two men short, can you hold the gate through the watch
+184 | Somebody needs to stay awake at the gate, it's a long one
+# Teklif · NPC işi ilk kez anlatıyor · ASKERÎ VARYANT
+185 | Post two is vacant, your shift starts now
+# Kabul · Oyuncu görevi üstlenmiş
+186 | Good, don't open for anyone you don't know
+# Ret · Oyuncu teklifi geri çevirmiş
+187 | Then we'll double up and sleep less
+# Takip · Oyuncu açık işin durumunu soruyor
+188 | Stay sharp, the quiet hours are the worst
+189 | Eyes on the road
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+190 | Quiet night, thank you
+191 | You earned this
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+192 | You left your post, don't come back
+
+##### Hasadı koruma #####
+# Oyuncu son ürün sırası toplanana kadar tarlayı kargalardan ve hırsızlardan koruyacak.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Got crops that need watching?
+# Teklif · NPC işi ilk kez anlatıyor
+193 | The crows and the thieves are both at the tomatoes, stand guard near {where}
+194 | Watch the field until the last row is in
+# Kabul · Oyuncu görevi üstlenmiş
+195 | Scare them off, don't waste ammo on crows
+# Ret · Oyuncu teklifi geri çevirmiş
+196 | I'll hire a kid then
+# Takip · Oyuncu açık işin durumunu soruyor
+197 | Something's in the beans, go look
+198 | Is the field quiet
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+199 | Every plant is accounted for, thank you
+200 | That's a good haul, here's your share
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+201 | Half of it is gone, I blame the timing
+
+##### Yolcuya eşlik etme #####
+# Görevi veren yolcu, gidilecek yere tek başına varamayacağını düşünüyor ve oyuncudan kendisine yolda eşlik etmesini istiyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Anyone need walking to the next town?
+# Teklif · NPC işi ilk kez anlatıyor
+202 | I have to get to {where}, and I'm not making it alone
+203 | Will you walk me to {where}? I'll pay what I can
+# Kabul · Oyuncu görevi üstlenmiş
+204 | Thank God, stay close and keep your head down
+# Ret · Oyuncu teklifi geri çevirmiş
+205 | I understand, nobody wants to walk that road
+# Takip · Oyuncu açık işin durumunu soruyor
+206 | We're not there yet, keep moving
+207 | Don't leave me out here
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+208 | I can't thank you enough, take this
+209 | You kept your word, that's rare
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+210 | You left me behind, I won't forget it
+211 | I made it myself, no thanks to you
+
+##### Eski gözetleme noktası #####
+# Sesi kesilen kuleye veya gözetleme noktasına çıkıp ne olduğunu bildirmek gerekiyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Is an old lookout still manned?
+# Teklif · NPC işi ilk kez anlatıyor
+212 | The lookout near {where} went silent, climb up and tell me why
+213 | I haven't heard from the tower in a day, go see
+# Teklif · NPC işi ilk kez anlatıyor · ASKERÎ VARYANT
+214 | Observation post near {where} is silent, verify and report
+# Kabul · Oyuncu görevi üstlenmiş
+215 | Careful, we don't know who's up there now
+# Ret · Oyuncu teklifi geri çevirmiş
+216 | Alright, I'll send someone sturdier
+# Takip · Oyuncu açık işin durumunu soruyor
+217 | No word from the tower yet
+218 | What's up there
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+219 | So that's what happened, thank you
+220 | Good to know, we'll cover it
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+221 | We sent someone else already

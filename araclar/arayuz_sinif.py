@@ -1,7 +1,7 @@
 """1.5.0 IG_UI'nin hâlâ çevirisiz metinlerini Lua kullanım yoluna göre üç sınıfa ayırır (2026-11-09).
 
 Kullanım: python -X utf8 araclar/arayuz_sinif.py
-Girdi : rapor/arayuz_1.5.0_IG_UI.json (tür "yeni"), rapor/Y*_harita.json (Y3 hariç; bunlardaki anahtarlar zaten pakette)
+Girdi : rapor/arayuz_1.5.0_IG_UI.json (tür "yeni"), paketler/haritalar/Y*_harita.json (Y3 hariç; bunlardaki anahtarlar zaten pakette)
         ve modun Lua kaynağı (lua_cikar.MOD).
 Çıktı : rapor/arayuz_siniflar_1.5.0.json {anahtar: {en, sinif, alt, konu, dosya, satir, alan, neden}}
         rapor/arayuz_siniflar_1.5.0.md (sayılar). `harici_paket.py hazirla-arayuz-diyalog Y3` a sınıfını bu dosyadan okur.
@@ -139,7 +139,7 @@ def main():
     jr = json.loads((KOK / "rapor" / "arayuz_1.5.0_IG_UI.json").read_text(encoding="utf-8"))
     yeni = {k: v for k, v in jr.items() if v["tur"] == "yeni"}
     kapsanan = set()
-    for f in (KOK / "rapor").glob("Y*_harita.json"):
+    for f in (KOK / "paketler/haritalar").glob("Y*_harita.json"):
         if f.name.startswith("Y3_"):
             continue
         for v in json.loads(f.read_text(encoding="utf-8"))["satirlar"].values():

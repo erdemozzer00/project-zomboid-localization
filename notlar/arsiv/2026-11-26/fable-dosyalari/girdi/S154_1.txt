@@ -1,0 +1,20 @@
+# Project Zomboid Build 42, Project A-Life 1.5.4.
+# /oyun-yerellestirme-tr skill'ine göre çevir. Yalnız numaralı satırları, sırasıyla N | Türkçe biçiminde döndür.
+# Başlıklar, açıklamalar ve etiketler bağlamdır. Her çeviriyi tek fiziksel satıra yaz.
+# Çıktı dosyası: S154_1.txt
+# Ayar adı menü etiketidir. İpucu, ayarın yanında açılan açıklamadır. Kısa etiketleri noktasız yaz.
+# Düşük, Normal, Yüksek ve Kapalı mevcut seçenek adlarıdır. [Expert] karşılığı [Uzman].
+# Yer tutucu yok. Trafik ipucundaki literal \n dizisini aynen koru. Yeni satıra dönüştürme. Yüzdeleri kaynakta olduğu gibi yazıyla belirt. ms birimini koru.
+
+##### A-Life: BURADAN BAŞLA · NPC araç trafiği #####
+Ayar, ortamdaki NPC araç trafiğini ve oyuncunun yanından geçen veya yanına yanaşan araçları etkiler. Baskın, polis müdahalesi ve senaryolu araçların ayrı ayarları var.
+Sabit ayar adı: Enable NPC vehicles → NPC araçlarını etkinleştir. Düşük yaklaşık yüzde 15, Normal yaklaşık yüzde 40, Yüksek tam trafik. Varsayılan seçenek Normal (2).
+1 | İpucu | How many NPC cars are on the roads: ambient traffic, drive-bys and pull-ups. Low is about 15 percent of full traffic, Normal about 40 percent and High is full traffic. Off stops all ambient NPC car traffic (raid, police response and scripted cars follow their own switches). Enable NPC vehicles must be on.\nDefault Normal (2).
+
+##### A-Life: UZMAN - Ses, helikopterler ve performans #####
+İki ayar, zombilerin A-Life davranış güncellemesini düzenler. Düşünme adımı burada yapay zekanın tek davranış güncellemesidir. Kare, görüntü karesidir.
+2 ve 3 bir ayarın adı ve ipucu. 4 ve 5 ikinci ayarın adı ve ipucu. 3'teki bekleme sınırı atfı için 4'te seçtiğin Türkçe etiketi kullan. 5'teki kare başına 4 adım, 2'deki ayarın örnek değeridir. Kodda varsayılanlar kare başına 16 adım ve 200 ms. 5'teki 1000 sayısı bekleme süresidir ve milisaniye cinsindendir.
+2 | Ayar adı | Zombie think steps per frame
+3 | İpucu | Cap on how many zombies run their A-Life think step in one frame. The rest wait a frame or two, at most the time set in Zombie think wait limit. Zombies biting, attacking or right next to someone always think. Lower it if hordes near NPCs make the game stutter. 0 turns the cap off.
+4 | Ayar adı | Zombie think wait limit (ms)
+5 | İpucu | Longest a zombie waits for its think step when the per-frame cap is full. 200 is barely noticeable. With very large hordes, 600 together with 4 think steps per frame gives the most frames; around 1000 zombies start to bite less often.

@@ -1,0 +1,16 @@
+# Project A-Life 1.5.2 — konuşma ağacı görev bildirimleri
+# KAPSAM: 8 treeNote bildirim satırı/kalıbı.
+# BAĞLAM: Konuşma ağacındaki görev işlemi, eşya teslim/alımı veya Charm sonucu tamamlanınca oyuncuya çıkan kısa bildirim.
+# Varsa {item}, {count}, {task}, {who} gibi yer tutucuları aynen koru. [Charm] iki sonuç bildirimindeki mekanik/sonuç etiketidir.
+# TEKNİK: Bu bildirim yolu Text.ui kullanmıyor; kaynak konumu manifestte ayrı işaretlidir.
+
+##### KONUŞMA AĞACI BİLDİRİMLERİ #####
+# EKRAN: Konuşma ağacındaki görev işlemi, eşya teslim/alımı veya Charm sonucu tamamlanınca oyuncuya çıkan kısa bildirim.
+1 | [GÖREV BİLDİRİMİ] | Received {count}x {item}
+2 | [GÖREV BİLDİRİMİ] | Found: {item}
+3 | [GÖREV BİLDİRİMİ] | Delivered
+4 | [GÖREV BİLDİRİMİ] | Task failed: {task}
+5 | [GÖREV BİLDİRİMİ] | Task done: go back to {who}
+6 | [GÖREV BİLDİRİMİ] | The one who asked is gone, their people settled up
+7 | [GÖREV BİLDİRİMİ] | [Charm] Failed
+8 | [GÖREV BİLDİRİMİ] | [Charm] Success

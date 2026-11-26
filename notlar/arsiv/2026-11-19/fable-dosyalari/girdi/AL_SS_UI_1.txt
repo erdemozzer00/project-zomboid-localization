@@ -1,0 +1,94 @@
+# Project A-Life 1.5.2 · Oluşturucu ve Dünya Durumu
+# Kodların anlamı bağlam satırlarında açıklanır. Çıktı yalnızca N | Türkçe, sıra ve numaralar aynı.
+# Her {yer tutucuyu} adı ve sayısıyla koru. Oyuncuya gösterilen sayıları ve sabit yüzde işaretlerini koru.
+# Seçenekler ve rozetler dar alanda, Dünya Durumu satırları kaydırılabilir panelde. Yeni metinde şapkalı harf kullanma.
+
+##### Oluşturucu · Ganimet · silah düşürme olasılığı #####
+# NPC öldüğünde ekipmanını bırakma ihtimali. Her seçenekte parantez, sayı, aralık ve tek % işaretini koru. Etiketleri kısa tut.
+1 | Off (0%)
+2 | Very low (0-10%)
+3 | Low (10-20%)
+4 | Moderate (20-30%)
+5 | High (30-50%)
+6 | Very high (50-70%)
+7 | Almost always (70-99%)
+8 | Always (100%)
+
+##### Oluşturucu · Ganimet · eşya kondisyonu #####
+# Aynı seçenekler silah ve zırh için kullanılır. Derece sırasını ve (n/10) gösterimini aynen koru. Düşük kondisyonu silah ya da mühimmat özelinde anlatma. 10/10 en iyi kondisyon.
+9 | Broken (0/10)
+10 | Scrap, a shot or two (1/10)
+11 | Very poor, a few shots (2/10)
+12 | Poor (3/10)
+13 | Worn (4/10)
+14 | Used, half gone (5/10)
+15 | Serviceable (6/10)
+16 | Good (7/10)
+17 | Very good (8/10)
+18 | Near new (9/10)
+19 | Issue fresh (10/10)
+
+##### Oluşturucu · Klasör ipucu #####
+# {folder}, Türkçesi kurulu klasör adı veya oyuncunun yazdığı ad. Tıklama listedeki klasörü açar ya da daraltır.
+20 | {folder}. Click to fold or unfold.
+
+##### Oluşturucu · Görünüm · sakal #####
+# Çene hattı boyunca uzanan ince şerit sakal stili. Kısa model adı. Oyunun Türkçe arayüzü bu adı Chinstrap olarak bırakıyor.
+21 | Chinstrap
+
+##### Oluşturucu · Görünüm · mevsim sekmesi #####
+# Bu tek kelime A–F takım sekmelerinde harfin yanında görünür. Takımın mevsim kısıtı yoktur. Tam açılır listedeki Her mevsim ile aynı anlamı taşır. Harf ve +/− işareti oyun tarafından eklenir.
+22 | Any
+
+##### Oluşturucu · Görünüm · kıyafet uygunluk rozeti #####
+# Kompakt rozet. A–F harfini yazıma katma, oyun başına ekler. {season} hazır mevsim adı (İlkbahar, Yaz, Sonbahar, Kış ya da Her mevsim). Yer tutucuya ek bitiştirme, ünlü uyumu değişir. {count} tespit edilen sorun sayısı. Uygun, boş ve sorunlu durumlar birbirinden ayrı.
+23 | EMPTY SET
+24 | VALID FOR {season}
+25 | {count} ISSUE FOR {season}
+26 | {count} ISSUES FOR {season}
+
+##### Dünya Durumu · NPC etkinliği #####
+# Kontrol paneli sayaçları. Actors kayda alınan NPC sayısı, Physical shells dünyada fiilen oluşturulmuş NPC bedenleri. Dormant simülasyonda kayıtlı ama sahada etkin olmayan NPC. Watchdog takılan işlemleri kendi kendine toparlayan denetleyici. Kısa etiket kullan.
+27 | Actors: {count}
+28 | Active / spawning: {active} / {spawning}
+29 | Dormant / dead: {dormant} / {dead}
+30 | Physical shells: {count}
+31 | Running actions: {count}
+32 | Pending spawns: {count}
+33 | Watchdog recoveries: {count}
+
+##### Dünya Durumu · Timler ve karşılaşmalar #####
+# Offline timler, sunucu çevrimdışı anlamında değil, oyuncunun yakınında fiilen görünmeden arka planda simüle edilen timler. Far cleaner uzaktaki timleri yönetir, stowed arka plana alınan NPC ve grup sayısıdır. {profile} harita profili, {state} Açık/Kapalı, {reason} ret sebebi. Roll karşılaşma oluşturma denemesidir.
+34 | Offline squads on the map: {count}
+35 | Offline founded / refused: {founded} / {refused}
+36 | Offline founded / refused: {founded} / {refused} ({reason})
+37 | Far cleaner: {profile} map, {state}, stowed {groups} groups / {people} NPCs
+38 | Encounter rolls / spawned: {rolls} / {spawned}
+
+##### Dünya Durumu · Simülasyon #####
+# Runtime, A-Life simülasyonunun çalışma durumu. Pacing, dünyanın yeni ekip ve karşılaşma üretme temposu. Ret, oluşturma girişiminin reddedilmesi. Proof car, yol üzerinde araçlı ekip oluşturmayı doğrulayan test. h burada oyun saatidir. {state} ekrana hazırlanan durum, {reason} ret gerekçesi.
+39 | Runtime: {state}
+40 | Pacing: {crews} new crews, {refusals} refusals
+41 | Last pacing refusal: {reason} (last delay {hours}h)
+42 | Proof car: {state}
+43 | disabled
+44 | starting
+45 | running
+46 | waiting for first tick
+47 | waiting
+
+##### Dünya Durumu · Nüfus #####
+# NPC nüfus sayımı. {alive} dünyada bulunan canlı NPC, {living} nüfus havuzunda yaşayan toplam, {total} dünya oluşturulurken belirlenen havuz. {setting} yeni ayardaki sayı, sadece yeni dünyaları etkiler. {factions} adların ve canlı/öldürülen/gelen sayılarının önceden hazırlanmış listesi. census_exhausted, yeni NPC üretmek için kullanılabilir nüfus payının tükendiği ret nedeni. Türkçede iç kimliği gösterme.
+48 | World census: {alive} in the world, {living} living of {total}, killed {killed}, arrivals {arrivals}
+49 | World census: {alive} in the world, {living} living of {total} (this world's pool was fixed at {total} when it began; the setting now says {setting} and applies to new worlds), killed {killed}, arrivals {arrivals}
+50 | Census by faction (alive/killed/arrived): {factions}
+51 | census_exhausted
+
+##### Dünya Durumu · Sistem sağlığı ve performans #####
+# Teknik panel etiketleri. Tick, simülasyonun bir işlem döngüsü. ms milisaniye. Overrun döngünün zaman bütçesini aşması. Protected areas NPC oluşturmanın engellendiği bölgelerin sayısı. Sayılar ve son/azami gibi ayırımlar korunmalı.
+52 | Health: OK
+53 | Health: {errors} error(s)
+54 | Runtime faults / overruns: {faults} / {overruns}
+55 | Protected areas: {count}
+56 | Tick ms (last / max): {last} / {max}
+57 | Tick count / budget: {count} / {budget}

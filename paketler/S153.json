@@ -1,0 +1,78 @@
+{
+  "_paket": "S153 — Project A-Life 1.5.3 Sandbox ayarları, 18 satır (Erdem'in açık isteğiyle Codex çevirisi)",
+  "_dosya": "Sandbox",
+  "satirlar": {
+    "Sandbox_ProjectALife.PerfMode": {
+      "tr": "Performans modu",
+      "kim": "Codex"
+    },
+    "Sandbox_ProjectALife.PerfMode_tooltip": {
+      "tr": "Düşük donanımlı bilgisayarlar için tek ayar. Hafif, tüm özellikleri koruyarak arka plan yükünü azaltır. NPC arabaları azalır, daha seyrek ortaya çıkar. Yaşayan NPC sayısı 24’e ulaştığında yeni gezgin ekipler ortaya çıkmaz. En fazla 6 karakol olur ve yeni karakol çıkıp çıkmayacağı en az 40 dakika arayla belirlenir. Ortam sohbetleri azalır. Telefon çalma sıklığı Düşük, performans düzeyi Orta veya daha düşük olur. Performans seçeneğinde arabalar daha da azalır. Yaşayan NPC sayısı 16’ya ulaştığında yeni gezgin ekipler ortaya çıkmaz. En fazla 4 karakol olur ve yeni karakol çıkıp çıkmayacağı en az 60 dakika arayla belirlenir. Aynı anda tek ortam sohbeti olur. Performans düzeyi, sabitlediğin değerin önüne geçerek Düşük veya daha alt bir düzeye iner. Bu mod değerlerini yalnızca düşürür ve kayıtlı ayarlarına dokunmaz. Kapalı’yı seçince oyun yine kendi ayarlarınla çalışır. Oyun açıkken de değiştirilebilir.\nVarsayılan: Kapalı (1).",
+      "kim": "Codex"
+    },
+    "Sandbox_ProjectALife.PerfMode_option1": {
+      "tr": "Kapalı",
+      "kim": "Codex"
+    },
+    "Sandbox_ProjectALife.PerfMode_option2": {
+      "tr": "Hafif",
+      "kim": "Codex"
+    },
+    "Sandbox_ProjectALife.PerfMode_option3": {
+      "tr": "Performans",
+      "kim": "Codex"
+    },
+    "Sandbox_ProjectALife.CarsSpawnFrequency": {
+      "tr": "NPC arabalarının ortaya çıkma oranı (yüzde)",
+      "kim": "Codex"
+    },
+    "Sandbox_ProjectALife.CarsSpawnFrequency_tooltip": {
+      "tr": "NPC arabalarının ne sıklıkla ortaya çıkacağını belirler. Yol trafiğini, gezgin ekiplerin arabalarını, haritada dolaşan arabaları ve arabalı karşılaşmaları kapsar. NPC araba sıklığı ayarına ek olarak uygulanır. 100 normal oranı korur, 50 yarıya indirir, 0 ortaya çıkmalarını durdurur.\nVarsayılan: 100.",
+      "kim": "Codex"
+    },
+    "Sandbox_ProjectALife.CarsMaxVirtual": {
+      "tr": "Uzak NPC arabası sınırı",
+      "kim": "Codex"
+    },
+    "Sandbox_ProjectALife.CarsMaxVirtual_tooltip": {
+      "tr": "Tüm oyunculardan uzakta, ekipleri yüklenmeden yollarda dolaşan NPC arabalarının üst sınırı. Sıklık ayarları araba sayısını bu sınır içinde değiştirir. 0 olursa bu arabalar olmaz.\nVarsayılan: 30.",
+      "kim": "Codex"
+    },
+    "Sandbox_ProjectALife.CarsMaxReal": {
+      "tr": "Yakındaki NPC arabası sınırı",
+      "kim": "Codex"
+    },
+    "Sandbox_ProjectALife.CarsMaxReal_tooltip": {
+      "tr": "Oyuncuların yakınında aynı anda bulunabilecek ekipli ortam NPC arabalarının üst sınırı. Sıklık ayarları araba sayısını bu sınır içinde değiştirir. 0 olursa bu arabalar olmaz. Baskınlar ve polis çağrıları bu sınıra dahil değil.\nVarsayılan: 12.",
+      "kim": "Codex"
+    },
+    "Sandbox_ProjectALife.CombatNpcHearTiles": {
+      "tr": "Zombilerin NPC’leri duyma mesafesi (kare)",
+      "kim": "Codex"
+    },
+    "Sandbox_ProjectALife.CombatNpcHearTiles_tooltip": {
+      "tr": "Bir zombi bu mesafe içinde hareket eden veya az önce ateş eden NPC’yi görmese de fark eder (adil hedefleme). Mesafeyi düşürürsen görüş alanı dışındaki NPC’lere daha az zombi yönelir.\nVarsayılan: 10.",
+      "kim": "Codex"
+    },
+    "Sandbox_ProjectALife.ZombieFarPullPerBeat": {
+      "tr": "Silah sesi kontrolü başına uzak zombi sınırı",
+      "kim": "Codex"
+    },
+    "Sandbox_ProjectALife.ZombieFarPullPerBeat_tooltip": {
+      "tr": "NPC’lerin silah sesi etkisini sürdürürken menzil dışındaki uzak zombiler sesi 0,4 saniyede bir yeniden kontrol eder. Bu ayar her 0,4 saniyede bunu yapan zombi sayısını sınırlar. Geri kalanlar saniyede bir kontrol eder. Sesin menzil sınırına 10 kare veya daha yakın zombiler bekletilmez. Yeni ya da daha yüksek bir silah sesi, bekletilen zombilerin de zamanında yeniden kontrol etmesini sağlar. 0 sınırı kaldırır.\nVarsayılan: 8.",
+      "kim": "Codex"
+    },
+    "Sandbox_ProjectALife.Raid_Helicopter_tooltip": {
+      "tr": "Baskın ve destek gelişleri, gece projektörleri ve üstten geçişler dahil bütün A-Life helikopterlerini açar. Ayar kapalıysa bu helikopterlerin hiçbiri uçmaz. Ne sıklıkla geldiklerini BURADAN BAŞLA sayfasındaki Helikopter sıklığı ayarı belirler.\nVarsayılan: açık.",
+      "kim": "Codex"
+    },
+    "Sandbox_ProjectALife.Helicopter_FlybyHours_tooltip": {
+      "tr": "Oyuncunun yakınından geçen ya da tepesinde dönen helikopterler arasındaki ortalama süre. Helikopterler rastgele gelir. Karakterin ilk saatlerinde olmaz. BURADAN BAŞLA sayfasındaki Helikopter sıklığı ayarında Düşük bu süreyi iki katına çıkarır, Yüksek yarıya indirir. 0 üstten geçişleri kapatır.\nVarsayılan: 36.",
+      "kim": "Codex"
+    },
+    "Sandbox_ProjectALife.TalkSlowTime_tooltip": {
+      "tr": "Yalnızca tek oyunculu oyunda geçerli. Cevap seçerken oyun yavaşlar. Cevabı seçince ya da pencereyi kapatınca oyun yavaşça normale döner.\nVarsayılan: kapalı.",
+      "kim": "Codex"
+    }
+  }
+}

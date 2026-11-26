@@ -1,0 +1,18 @@
+1 | Performans modu
+2 | Yavaş bilgisayarlar için tek ayar. Hafif, bütün özellikleri korur ve arka plandaki işi azaltır: daha az NPC arabası ve araba çıkışı, yaşayan NPC sayısı 24'e ulaşınca yeni gezgin ekip oluşmaz, en fazla 6 karakol olur ve yeni karakol denemesi en az 40 dakikada bir yapılır, ortam sohbeti azalır, telefon sıklığı Düşük, performans seviyesi en fazla Orta olur. Performans daha da ileri gider: araba sayısı daha da azalır, ekipler 16 NPC'de durur, en fazla 4 karakol olur, deneme en az 60 dakikada bir yapılır, aynı anda tek sohbet olur ve performans seviyesi en fazla Düşük olur. Bu, sabitlenmiş seviyeyi de geçersiz kılar. Yalnızca değerlerini düşürür, asla yükseltmez ve kayıtlı ayarlarının üzerine yazmaz: Kapalı seçeneğine dönünce her şey senin ayarladığın gibi olur. Süren oyunda da çalışır\nVarsayılan Kapalı (1)
+3 | Kapalı
+4 | Hafif
+5 | Performans
+6 | NPC araba ortaya çıkma oranı (yüzde)
+7 | Ortam NPC arabalarının ne sıklıkla ortaya çıkacağını belirler: yol trafiği, yolcular, harita arabaları ve araba karşılaşmaları. NPC araba sıklığı ayarının üzerine uygulanır. 100 normal oranı korur, 50 yarıya indirir, 0 tamamen durdurur\nVarsayılan 100.
+8 | Haritada dolaşan NPC araba sınırı
+9 | Bütün oyunculardan uzak yollarda, ekipleri yüklenmeden dolaşan NPC arabalarının üst sınırı. Oran ayarları sayıyı ölçekler, bu ayar sınırlar. 0 girilirse hiç araba olmaz\nVarsayılan 30.
+10 | Oyuncuların yakınındaki NPC araba sınırı
+11 | Oyuncuların yakınında aynı anda bulunabilecek ekipli ortam NPC arabalarının üst sınırı. Oran ayarları sayıyı ölçekler, bu ayar sınırlar. 0 girilirse hiç araba olmaz. Baskın ve polis çağrısı araçları sayılmaz\nVarsayılan 12.
+12 | Zombilerin NPC'leri duyma mesafesi (kare)
+13 | Zombi, hareket eden ya da az önce ateş eden bir NPC bu kadar kare içindeyse onu göremese bile fark eder (adil hedefleme). Değer düştükçe görüş dışındaki NPC'lere yönelen zombi sayısı azalır\nVarsayılan 10
+14 | Her aralıkta silah sesini yoklayan uzak zombi
+15 | NPC silah sesi sürerken, sesin erişim alanı dışındaki uzak zombiler sesi 0,4 saniyede bir yeniden kontrol eder. Bu ayar, her 0,4 saniyede bunu yapacak zombi sayısını sınırlar; geri kalanlar saniyede bir kontrol eder. Erişim sınırına 10 kareden yakın zombiler hiç bekletilmez. Yeni ya da daha yüksek bir atış olunca bekletilenler de zamanında yeniden kontrol eder. 0 sınırı kaldırır\nVarsayılan 8
+16 | Bütün A-Life helikopterlerini açar: baskın ve destek gelişleri, gece projektörleri ve üstten geçişler. Kapalıyken bu helikopterlerin hiçbiri uçmaz. Ne sıklıkla geleceklerini BURADAN BAŞLA sayfasındaki Helikopter sıklığı ayarı belirler.\nVarsayılan açık.
+17 | Oyuncunun yakınından rastgele geçen ya da çevresinde dönen helikopterler arasındaki ortalama süre. Karakterin ilk saatlerinde helikopter gelmez. BURADAN BAŞLA sayfasındaki Helikopter sıklığı bu süreyi ölçekler: Düşük iki katına çıkarır, Yüksek yarıya indirir. 0 üstten geçişleri kapatır.\nVarsayılan 36.
+18 | Yalnızca tek oyunculu. Cevap seçerken oyun yavaşlar, seçince ya da pencereyi kapatınca yavaş yavaş normale döner.\nVarsayılan kapalı.

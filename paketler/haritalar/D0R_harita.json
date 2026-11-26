@@ -1,0 +1,417 @@
+{
+  "_paket": "D0R",
+  "_grup": "npc_open",
+  "_dosya": "RadioData_lua",
+  "_baslik": "D0 NPC açılışları",
+  "_parcalar": [
+    [
+      1,
+      9
+    ],
+    [
+      10,
+      18
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      28,
+      35
+    ],
+    [
+      36,
+      43
+    ]
+  ],
+  "satirlar": {
+    "1": [
+      "RD_ALifeLine_6fa963ef69923247",
+      "Hello there... everything okay? you need anything?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:149",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|tmp=seasoned|st=friendly,neutral"
+      ]
+    ],
+    "2": [
+      "RD_ALifeLine_275517d44ae5ec40",
+      "What do you want?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:151",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful"
+      ]
+    ],
+    "3": [
+      "RD_ALifeLine_7c8f99f75de82113",
+      "Yes?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:151",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful"
+      ]
+    ],
+    "4": [
+      "RD_ALifeLine_2787bd074ca1791f",
+      "You need something?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:151",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful"
+      ]
+    ],
+    "5": [
+      "RD_ALifeLine_7efe277415ddcc1f",
+      "I'm listening",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:151",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful"
+      ]
+    ],
+    "6": [
+      "RD_ALifeLine_6ba79d546ceb4309",
+      "Oh, it's you! I'm so glad, come, talk to me, how are you?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:157",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best"
+      ]
+    ],
+    "7": [
+      "RD_ALifeLine_521dcf6e25792118",
+      "Hello there, you're always welcome, you know that, what's up",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:157",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=friendly,neutral|rep=good,best"
+      ]
+    ],
+    "8": [
+      "RD_ALifeLine_77059aa8357c632e",
+      "What do you want NOW!",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "9": [
+      "RD_ALifeLine_5ecbfa1d755d2c71",
+      "You, again, what is it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "10": [
+      "RD_ALifeLine_5773e90f072f16db",
+      "Make it fast, I don't have time for you!",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "11": [
+      "RD_ALifeLine_01d1a6d14c534d38",
+      "Whatever it is, I'm not interested",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "12": [
+      "RD_ALifeLine_1e3dee322930c21b",
+      "I'm watching you, so don't try anything!",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "13": [
+      "RD_ALifeLine_51600ff95a1fdc46",
+      "I don't like how you're looking at me",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "14": [
+      "RD_ALifeLine_767c0c125327caaf",
+      "What now",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "15": [
+      "RD_ALifeLine_0320142247feb03b",
+      "Spit it out, or get lost!",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "16": [
+      "RD_ALifeLine_33b7ec0c07ca3df5",
+      "Don't come any closer, say what you have to say from there",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "17": [
+      "RD_ALifeLine_537038525d18f00f",
+      "I'm busy, so make it quick",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "18": [
+      "RD_ALifeLine_172125172fd30dbb",
+      "I didn't ask for company, but here you are",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "19": [
+      "RD_ALifeLine_15b9c38447e9d3b2",
+      "What is it? what do you want from me",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "20": [
+      "RD_ALifeLine_04b4f9694d180f08",
+      "Oh great, it's you, what do you need",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "21": [
+      "RD_ALifeLine_0127105e50d49e3a",
+      "Whatever you're selling, I'm not buying",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "22": [
+      "RD_ALifeLine_3ef6e4ff61777a97",
+      "What do you want? quick, before I change my mind",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "23": [
+      "RD_ALifeLine_33cc983f25c06c30",
+      "You have my attention, unfortunately",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "24": [
+      "RD_ALifeLine_7193fc5873747bb3",
+      "I'm only talking to you because I have to",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "25": [
+      "RD_ALifeLine_7e064a500a7ab38c",
+      "Don't waste my time",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "26": [
+      "RD_ALifeLine_3985d6e604be8c05",
+      "Say it and go",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "27": [
+      "RD_ALifeLine_5d14256524b5b0fa",
+      "I'd rather not, but go ahead, what is it?!",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:159",
+        "NPC_OPEN",
+        "reg=civilian,family,worker,rescue|st=careful,neutral|rep=bad,worst"
+      ]
+    ],
+    "28": [
+      "RD_ALifeLine_1153208e45aa1cf3",
+      "Oh! Hi! Hello! Yes? Are you talking to me? Sorry, what's up",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:182",
+        "NPC_OPEN",
+        "role=soldier_green|st=neutral,careful"
+      ]
+    ],
+    "29": [
+      "RD_ALifeLine_43d179301a1225e2",
+      "Go ahead, neighbor, I'm all ears",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:183",
+        "NPC_OPEN",
+        "role=militia|st=neutral,careful"
+      ]
+    ],
+    "30": [
+      "RD_ALifeLine_16f615a5070a20f7",
+      "Well, hello there, friend, what brings you by",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:184",
+        "NPC_OPEN",
+        "role=militia|st=friendly"
+      ]
+    ],
+    "31": [
+      "RD_ALifeLine_2c8a784363909291",
+      "Oh, a person, sorry, I was-- never mind, you alright?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:186",
+        "NPC_OPEN",
+        "tmp=fresh|st=friendly,neutral"
+      ]
+    ],
+    "32": [
+      "RD_ALifeLine_261140ed4f78dba9",
+      "You haven't tried to stab me, so we're off to a decent start, holding up?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:187",
+        "NPC_OPEN",
+        "tmp=seasoned,veteran|st=friendly,neutral"
+      ]
+    ],
+    "33": [
+      "RD_ALifeLine_1f2327ac4435f0b7",
+      "Easy, I'm not looking for trouble, you okay over there?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:188",
+        "NPC_OPEN",
+        "st=careful"
+      ]
+    ],
+    "34": [
+      "RD_ALifeLine_7326307f69b975df",
+      "Keep a little distance and we can talk, you alright?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:188",
+        "NPC_OPEN",
+        "st=careful"
+      ]
+    ],
+    "35": [
+      "RD_ALifeLine_08cc6d4d6bb886f1",
+      "Uh-- hi, I thought I heard somebody, you okay?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:192",
+        "NPC_OPEN",
+        "reg=family,civilian|st=friendly,neutral"
+      ]
+    ],
+    "36": [
+      "RD_ALifeLine_40ef46794b3d7734",
+      "Don't run off, I'm not-- sorry, sorry, are you holding up okay?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:197",
+        "NPC_OPEN",
+        "reg=civilian|tmp=fresh|st=friendly,neutral"
+      ]
+    ],
+    "37": [
+      "RD_ALifeLine_5e31a15e025c7407",
+      "Hold up there, state police, are you hurt?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:210",
+        "NPC_OPEN",
+        "role=law_trooper|st=careful,neutral"
+      ]
+    ],
+    "38": [
+      "RD_ALifeLine_118672317e449915",
+      "Hold up, have you seen anybody in uniform on this road?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:212",
+        "NPC_OPEN",
+        "role=soldier_nco|tmp=veteran|st=neutral|world=road"
+      ]
+    ],
+    "39": [
+      "RD_ALifeLine_21be07126135720f",
+      "Hey! Hey, uh-- sorry, you're not with the Guard, are you?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:213",
+        "NPC_OPEN",
+        "role=soldier_green|tmp=fresh|st=neutral"
+      ]
+    ],
+    "40": [
+      "RD_ALifeLine_21cbb3392b8efbca",
+      "Stay right where you are, are you alone?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:214",
+        "NPC_OPEN",
+        "role=elite_operator|tmp=veteran|st=careful"
+      ]
+    ],
+    "41": [
+      "RD_ALifeLine_2c1f10607fec338a",
+      "Hold, are you bit anywhere?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:215",
+        "NPC_OPEN",
+        "role=elite_delta|tmp=veteran|st=careful"
+      ]
+    ],
+    "42": [
+      "RD_ALifeLine_205c7a0e0303c2f7",
+      "Hey, keep it down, you seen a green truck come through here?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:216",
+        "NPC_OPEN",
+        "role=deserter|st=careful|world=vehicle"
+      ]
+    ],
+    "43": [
+      "RD_ALifeLine_38ef285c61eef377",
+      "That's far enough, you looking for the gate?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:217",
+        "NPC_OPEN",
+        "role=militia|st=careful"
+      ]
+    ]
+  }
+}

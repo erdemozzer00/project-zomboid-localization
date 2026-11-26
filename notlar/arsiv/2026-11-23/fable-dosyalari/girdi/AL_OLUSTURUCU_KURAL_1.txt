@@ -1,0 +1,38 @@
+# AL_OLUSTURUCU_KURAL · Oluşturucu · NPC ve fraksiyon davranış kuralları
+# Çıktı dosyası AL_OLUSTURUCU_KURAL_1.txt. TXT’ye 1–20 arasındaki her numarayı bir kez, aynı sırada N | Türkçe biçiminde yaz. Başlıklar, numarasız bağlam, kod bloğu çitleri ve “Son numara” satırı TXT’nin dışında kalır.
+# Project A-Life, Project Zomboid Build 42. Oyun 1993 yılında Kentucky’de geçiyor.
+# Girdi biçimi N | etiket | İngilizce. Etiket, satırın ekrandaki işlevini veya bağlı olduğu seçeneği gösterir. Numarasız açıklamalar bağlamdır.
+# Numaralı metinlerde yer tutucu, kaçış dizisi veya çalışma anında eklenecek sözcük yok.
+# Oluşturucu, oyuncunun NPC’ler ve fraksiyonlar için davranış seçtiği düzenleyicidir. Yazılar davranış seçeneklerinin fare ipucunda görünür. Her satırı tek başına okunabilen bir kural olarak yaz.
+# Etiketteki Türkçe ad, arayüzde kullanılan onaylı davranış adıdır. Metin başka bir ayara atıf yapıyorsa o ayarın adını kullan. Fraksiyon = faction, tim = squad, Açık = On, Kapalı = Off.
+# Withdraw = Geri çekil, Warn first = Önce uyar, Avoid zombies (Off = fight them) = Zombilerden uzak dur (Kapalı = dövüş).
+
+##### İpucu başlığı #####
+# Bu kısa başlık ana açıklamadan sonra gelir. Ardından seçili davranışın kuralları aynı ipucunda sıralanır. Büyük harf ve sondaki iki noktayı koru.
+1 | ipucu içi başlık | RULES:
+
+##### Korku, panik ve çatışma #####
+# Aynı ayara ait açıklamalar tek ipucunda kaynak sırasıyla yan yana görülebilir. Etiket, o ipucunun hangi ayara ait olduğunu söyler.
+# 3’teki “roll”, 0-3. günlerde hangi timlerde korkunun etkin olacağını belirleyen rastgele seçimdir. Her tim için sonuç sabittir. 5 ve 7 kendi ayarlarının ipuçlarında görünür; “same” o tim için korkuda kullanılan aynı sonucu anlatır. Kaynaktaki gün aralığı ve yüzde yalnız 3’te yazılır.
+2 | Ölülerden korkma | Military factions do not use fear.
+3 | Ölülerden korkma | During days 0-3, fear is enabled for 30 percent of squads, with one stable roll per squad.
+4 | Silah korkusu | Military factions do not flee from raised guns or shots.
+5 | Silah korkusu | Gun fear uses the same early squad roll as fear.
+6 | Panik | Military factions do not use panic.
+7 | Panik | Panic uses the same early squad roll as fear.
+8 | Zombilere karşı yakın dövüşe geç | Military factions keep using their guns against zombies.
+9 | Zombilere karşı yakın dövüşe geç | Disabled by Avoid zombies = Off: that NPC fights on sight with the weapon it holds.
+10 | Yakın dövüşte temkin | Needs Withdraw: it only lowers the crowd size at which Withdraw backs off.
+11 | Gözdağı | Needs Warn first: the shout from range is the warning itself.
+12 | Kaç | Faction members flee only when their record says On.
+
+##### Grup halinde hareket ve günlük davranış #####
+# Her açıklama etiketteki ayarın ipucuna aittir. Post, NPC’nin tutması gereken mevzidir. Stack, bir kapının yanında sıraya dizilen timdir. Plan ve dinlenme kararlarını oyun NPC grubu için verir.
+13 | Toplu yürüyüş | Needs a group with a leader: a lone NPC or a pair without a leader never marches.
+14 | Toplanma | Needs a group with a leader: members close up on the leader.
+15 | Kapıda sıralanma | Driven by the stack lead: the squad leader, or the first member of a group without one.
+16 | Yakın dövüş kuşatması | Needs a group: one member engages and the others circle round the target.
+17 | Açılma | Needs a group; members on a stance post are left alone.
+18 | Grup planı | A free group stops to discuss and rest after each plan, and holds a shelter plan until dawn.
+19 | Tutumunu koru | Holds the assigned post until the squad changes it; garrison and blockade posts never time out.
+20 | Boş zaman | Eat, drink, smoke and night shelter beats hold the NPC still; Off also stops warming at a fire.

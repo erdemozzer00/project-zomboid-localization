@@ -1,0 +1,897 @@
+{
+  "_paket": "TB_ASAMA",
+  "_grup": "asama_arayuz",
+  "_dosya": "IG_UI_lua",
+  "_baslik": "Genel görev günlüğü",
+  "_noktalama": false,
+  "_satir_sonu": true,
+  "_parcalar": [
+    [
+      1,
+      61
+    ],
+    [
+      62,
+      92
+    ]
+  ],
+  "_teknik": {
+    "kalip_satirlari": [
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      72,
+      73,
+      74,
+      85,
+      86
+    ],
+    "sunum_uyarlamasi_satirlari": [
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92
+    ]
+  },
+  "satirlar": {
+    "1": [
+      "IGUI_ALifeUI_370fb409306baa5d",
+      "Walk to the first marker",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:123",
+        "escort_walk/soft/1 · escort_walk/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "2": [
+      "IGUI_ALifeUI_4a3f03211b111c2b",
+      "Rest at the marker",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:124",
+        "escort_walk/soft/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "3": [
+      "IGUI_ALifeUI_25fe1d9a0fde1873",
+      "Bring them to the far marker",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:123",
+        "escort_walk/soft/3 · escort_walk/hard/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "4": [
+      "IGUI_ALifeUI_6ef040012173955d",
+      "Find antibiotics",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:132",
+        "fetch_medicine/soft/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "5": [
+      "IGUI_ALifeUI_1730ff627e9b9fba",
+      "Find bandages",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:132",
+        "fetch_medicine/soft/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "6": [
+      "IGUI_ALifeUI_08aa608e1a21a8e4",
+      "Find three litres of clean water (any container)",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:139",
+        "bring_water/soft/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "7": [
+      "IGUI_ALifeUI_190dd9584a33dc9f",
+      "Find electric wire",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:148",
+        "fix_generator/soft/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "8": [
+      "IGUI_ALifeUI_50aac0b46e7a906b",
+      "Find a screwdriver",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:148",
+        "fix_generator/soft/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "9": [
+      "IGUI_ALifeUI_5b961584668edefb",
+      "Reach the wreck",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:157",
+        "recover_crate/soft/1 · recover_crate/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "10": [
+      "IGUI_ALifeUI_621de10f0fb518b2",
+      "Walk out to the first marker",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:166",
+        "scout_road/soft/1 · scout_road/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "11": [
+      "IGUI_ALifeUI_7cd6e6bf4315fa69",
+      "Watch the road from cover",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:167",
+        "scout_road/soft/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "12": [
+      "IGUI_ALifeUI_28f93759177b07ea",
+      "Look at the far end",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:166",
+        "scout_road/hard/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "13": [
+      "IGUI_ALifeUI_6cbcbb8a60252767",
+      "Stop at the safe marker",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:175",
+        "deliver_message/soft/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "14": [
+      "IGUI_ALifeUI_42ff92916b709ffa",
+      "Hand the note over at the far marker",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:173",
+        "deliver_message/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "15": [
+      "IGUI_ALifeUI_7b7b0d1019a3ff4c",
+      "Find six planks",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:182",
+        "haul_planks/soft/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "16": [
+      "IGUI_ALifeUI_7a7fb2994fd0107c",
+      "Find a box of nails",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:182",
+        "haul_planks/soft/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "17": [
+      "IGUI_ALifeUI_70887bfe670d0862",
+      "Bring back three pieces of fresh meat",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:191",
+        "hunt_food/soft/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "18": [
+      "IGUI_ALifeUI_67a5bc74437519d0",
+      "Check where they were last seen",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:200",
+        "find_missing/soft/1 · find_missing/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "19": [
+      "IGUI_ALifeUI_49b43fd64036a0e7",
+      "Search the next site",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:203",
+        "find_missing/soft/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "20": [
+      "IGUI_ALifeUI_070e284361e2468f",
+      "Search the far site",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:201",
+        "find_missing/hard/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "21": [
+      "IGUI_ALifeUI_26fec957500ba49a",
+      "Get to the gate",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:209",
+        "guard_gate/soft/1 · guard_gate/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "22": [
+      "IGUI_ALifeUI_521869ea4fda228e",
+      "Keep watch at the gate",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:210",
+        "guard_gate/soft/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "23": [
+      "IGUI_ALifeUI_5383d990290a7718",
+      "Hold the gate",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:209",
+        "guard_gate/hard/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "24": [
+      "IGUI_ALifeUI_67e93ea27849dc42",
+      "Find something to light it with",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:216",
+        "burn_pile/soft/1 · burn_pile/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "25": [
+      "IGUI_ALifeUI_085dddb5191f9171",
+      "Find four planks",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:216",
+        "burn_pile/soft/2 · burn_pile/hard/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "26": [
+      "IGUI_ALifeUI_165466f86e2e7c74",
+      "Stack the planks and light the pile",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:217",
+        "burn_pile/soft/3 · burn_pile/hard/4",
+        "ARAYÜZ"
+      ]
+    ],
+    "27": [
+      "IGUI_ALifeUI_2703d9c05142733d",
+      "Get to the pile",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:219",
+        "burn_pile/hard/3",
+        "ARAYÜZ"
+      ]
+    ],
+    "28": [
+      "IGUI_ALifeUI_6d0099861b95c476",
+      "Find a car battery",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:225",
+        "salvage_battery/soft/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "29": [
+      "IGUI_ALifeUI_53d42af54d78b381",
+      "Gather dressings and disinfectant",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:232",
+        "medical_aid/soft/1 · medical_aid/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "30": [
+      "IGUI_ALifeUI_72ff9bb70260e1f7",
+      "Get through to the wounded",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:235",
+        "medical_aid/hard/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "31": [
+      "IGUI_ALifeUI_7b6ad14c62b0384f",
+      "Treat the wounded",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:235",
+        "medical_aid/hard/3",
+        "ARAYÜZ"
+      ]
+    ],
+    "32": [
+      "IGUI_ALifeUI_5b4ebd4b209b9cf6",
+      "Reach the stash",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:243",
+        "get_back_stolen/soft/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "33": [
+      "IGUI_ALifeUI_0a3402e7611fe285",
+      "Reach the thieves' hideout",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:241",
+        "get_back_stolen/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "34": [
+      "IGUI_ALifeUI_43e845a35d55d1ce",
+      "Hand the crate over at the far marker",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:252",
+        "trade_run/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "35": [
+      "IGUI_ALifeUI_1c0b33834238374e",
+      "Thin the pack out",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:260",
+        "hunt_pack/soft/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "36": [
+      "IGUI_ALifeUI_23d7f5ec490480e6",
+      "Put down the whole pack",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:259",
+        "hunt_pack/hard/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "37": [
+      "IGUI_ALifeUI_76313e2f7db2672b",
+      "Climb to the signal point",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:266",
+        "light_beacon/soft/1 · light_beacon/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "38": [
+      "IGUI_ALifeUI_3019dbbd5be7fdf3",
+      "Light the signal",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:266",
+        "light_beacon/soft/2 · light_beacon/hard/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "39": [
+      "IGUI_ALifeUI_45fd206a4a9d2c14",
+      "Keep the signal lit",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:266",
+        "light_beacon/soft/3 · light_beacon/hard/3",
+        "ARAYÜZ"
+      ]
+    ],
+    "40": [
+      "IGUI_ALifeUI_0ef790bf6c382a0e",
+      "Find a wire and a screwdriver",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:275",
+        "restore_power/soft/1 · restore_power/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "41": [
+      "IGUI_ALifeUI_6359bdf24196f26f",
+      "Get to the breaker box",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:278",
+        "restore_power/hard/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "42": [
+      "IGUI_ALifeUI_08b79ba008f13794",
+      "Splice the line",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:278",
+        "restore_power/hard/3",
+        "ARAYÜZ"
+      ]
+    ],
+    "43": [
+      "IGUI_ALifeUI_0780f7932ec89478",
+      "Find electronics scrap",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:284",
+        "find_radio_part/soft/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "44": [
+      "IGUI_ALifeUI_6141844b49728aef",
+      "Find two batteries",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:284",
+        "find_radio_part/soft/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "45": [
+      "IGUI_ALifeUI_0d915b091a785f5c",
+      "Open a way to the survivor",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:294",
+        "rescue_trapped/soft/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "46": [
+      "IGUI_ALifeUI_22d3a0ed39712206",
+      "Get the survivor out",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:293",
+        "rescue_trapped/soft/3 · rescue_trapped/hard/3",
+        "ARAYÜZ"
+      ]
+    ],
+    "47": [
+      "IGUI_ALifeUI_2409f1be6208a553",
+      "Clear the way to the survivor",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:293",
+        "rescue_trapped/hard/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "48": [
+      "IGUI_ALifeUI_3523c57e6cf119a4",
+      "Watch the crops",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:300",
+        "guard_harvest/soft/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "49": [
+      "IGUI_ALifeUI_4675b8960b878f07",
+      "Defend the crops",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:301",
+        "guard_harvest/hard/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "50": [
+      "IGUI_ALifeUI_7ce677002bfd11e6",
+      "Go to the waiting spot",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:308",
+        "meet_contact/soft/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "51": [
+      "IGUI_ALifeUI_64c0ec105c78bbcf",
+      "Wait for the contact",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:308",
+        "meet_contact/soft/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "52": [
+      "IGUI_ALifeUI_2e215bf908483f42",
+      "Hand the note to the contact",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:307",
+        "meet_contact/soft/3 · meet_contact/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "53": [
+      "IGUI_ALifeUI_21eca144009ff033",
+      "Find a screwdriver or a hammer",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:316",
+        "silence_alarm/soft/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "54": [
+      "IGUI_ALifeUI_5a04a11563925db5",
+      "Reach the alarm",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:315",
+        "silence_alarm/soft/2 · silence_alarm/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "55": [
+      "IGUI_ALifeUI_511a082b768b3043",
+      "Bring five sheets or rags",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:329",
+        "find_cloth/soft/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "56": [
+      "IGUI_ALifeUI_17dcc98a2dff3238",
+      "Get to the noise point",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:336",
+        "lure_horde/soft/1 · lure_horde/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "57": [
+      "IGUI_ALifeUI_65c3d1f22b0370a3",
+      "Make noise",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:336",
+        "lure_horde/soft/2 · lure_horde/hard/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "58": [
+      "IGUI_ALifeUI_179856f46fc4f687",
+      "Get clear and come back",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:336",
+        "lure_horde/soft/3 · lure_horde/hard/3",
+        "ARAYÜZ"
+      ]
+    ],
+    "59": [
+      "IGUI_ALifeUI_3168eb4a5cc61208",
+      "Climb to the relay point",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:343",
+        "relay_radio/soft/1 · relay_radio/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "60": [
+      "IGUI_ALifeUI_42e062ab79fb7e57",
+      "Keep the radio on and send the warning",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:343",
+        "relay_radio/soft/2 · relay_radio/hard/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "61": [
+      "IGUI_ALifeUI_0a98c6063e3f1e0f",
+      "Climb to the lookout",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:352",
+        "check_lookout/soft/1 · check_lookout/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "62": [
+      "IGUI_ALifeUI_229ae7570a149a08",
+      "Thin out the {place}",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:117",
+        "clear_house/soft/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "63": [
+      "IGUI_ALifeUI_66a561cd16cd3094",
+      "Hand the note over at the {place}",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:175",
+        "deliver_message/soft/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "64": [
+      "IGUI_ALifeUI_3c543cf27c2ca572",
+      "Treat the wounded at the {place}",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:233",
+        "medical_aid/soft/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "65": [
+      "IGUI_ALifeUI_6ea0c5be1c334335",
+      "Hand the crate over at the {place}",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:250",
+        "trade_run/soft/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "66": [
+      "IGUI_ALifeUI_44bb4d7d6aad71b6",
+      "Track the pack to the {place}",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:259",
+        "hunt_pack/soft/1 · hunt_pack/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "67": [
+      "IGUI_ALifeUI_115e68592f4e011e",
+      "Splice the line at the {place}",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:276",
+        "restore_power/soft/2",
+        "ARAYÜZ"
+      ]
+    ],
+    "68": [
+      "IGUI_ALifeUI_0e8100ac5fb5c6cd",
+      "Check the {place}",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:322",
+        "check_neighbor/soft/1 · check_neighbor/hard/1",
+        "ARAYÜZ"
+      ]
+    ],
+    "69": [
+      "IGUI_ALifeUI_38c8924d73e980e2",
+      "Keep them in your pack",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardRules.lua:435",
+        "fetch aşamasının ayrıntısı",
+        "ARAYÜZ"
+      ]
+    ],
+    "70": [
+      "IGUI_ALifeUI_79a3935e24c79467",
+      "Bring them to the spot",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardRules.lua:436",
+        "use aşamasının ayrıntısı",
+        "ARAYÜZ"
+      ]
+    ],
+    "71": [
+      "IGUI_ALifeUI_3173b3961eefe16d",
+      "Kill what is there",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardRules.lua:437",
+        "clear aşamasının ayrıntısı",
+        "ARAYÜZ"
+      ]
+    ],
+    "72": [
+      "IGUI_ALifeUI_296e180214df70d8",
+      "About {n} minutes left on site",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardRules.lua:433",
+        "hold aşamasında kalan zaman",
+        "ARAYÜZ"
+      ]
+    ],
+    "73": [
+      "IGUI_ALifeUI_0ce3ea381fa6b092",
+      "About {dist} meters {dir}",
+      [
+        "server/ProjectALife/Missions/ALifeTaskBoard.lua:756",
+        "aktif aşama ayrıntısının mesafe satırı",
+        "ARAYÜZ"
+      ]
+    ],
+    "74": [
+      "IGUI_ALifeUI_1f6636f31f3f804b",
+      "Task complete, {unlock} unlocked",
+      [
+        "server/ProjectALife/Missions/ALifeTaskBoard.lua:591",
+        "başarı bildirimi ve günlük geçmişi",
+        "ARAYÜZ"
+      ]
+    ],
+    "75": [
+      "IGUI_ALifeUI_50e1375e799b3439",
+      "Road intel",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:59",
+        "görev kazanımı · road_intel",
+        "ARAYÜZ"
+      ]
+    ],
+    "76": [
+      "IGUI_ALifeUI_3b2d243e1879e1d3",
+      "Search party",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:59",
+        "görev kazanımı · search_party",
+        "ARAYÜZ"
+      ]
+    ],
+    "77": [
+      "IGUI_ALifeUI_52e317917db269ef",
+      "Trader pass",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:59",
+        "görev kazanımı · trader_pass",
+        "ARAYÜZ"
+      ]
+    ],
+    "78": [
+      "IGUI_ALifeUI_6ad8daa825369a9e",
+      "Radio link",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:59",
+        "görev kazanımı · radio_link",
+        "ARAYÜZ"
+      ]
+    ],
+    "79": [
+      "IGUI_ALifeUI_1c6e493917ff334a",
+      "Gate watch",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:60",
+        "görev kazanımı · gate_watch",
+        "ARAYÜZ"
+      ]
+    ],
+    "80": [
+      "IGUI_ALifeUI_1d8517390f1ee128",
+      "Power back",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:60",
+        "görev kazanımı · grid_fixed",
+        "ARAYÜZ"
+      ]
+    ],
+    "81": [
+      "IGUI_ALifeUI_3e6c492364eacb0e",
+      "Cleared house",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:60",
+        "görev kazanımı · house_cleared",
+        "ARAYÜZ"
+      ]
+    ],
+    "82": [
+      "IGUI_ALifeUI_021678e53b2fcc07",
+      "Convoy trust",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:60",
+        "görev kazanımı · convoy_trust",
+        "ARAYÜZ"
+      ]
+    ],
+    "83": [
+      "IGUI_ALifeUI_1019309b3d746f5f",
+      "Field notes",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:61",
+        "görev kazanımı · field_notes",
+        "ARAYÜZ"
+      ]
+    ],
+    "84": [
+      "IGUI_ALifeUI_313b597545a0754d",
+      "Medic's debt",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:61",
+        "görev kazanımı · medic_debt",
+        "ARAYÜZ"
+      ]
+    ],
+    "85": [
+      "IGUI_ALifeUI_5f310fab7c2d11a4",
+      "the {place}, about {dist} meters {dir}",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardRules.lua:405",
+        "genel görev konuşmasında {where} yer öbeği",
+        "ARAYÜZ"
+      ]
+    ],
+    "86": [
+      "IGUI_ALifeUI_6e0f8c3063684dfb",
+      "the {place} {townphrase}, about {dist} meters {dir}",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardRules.lua:408",
+        "dünya haritası kapalıyken genel görev konuşmasında {where}",
+        "ARAYÜZ"
+      ]
+    ],
+    "87": [
+      "IGUI_ALifeUI_298df72a68f90a36",
+      "out there",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardRules.lua:398",
+        "görev konumu bilinmediğinde {where} için geri dönüş",
+        "ARAYÜZ"
+      ]
+    ],
+    "88": [
+      "IGUI_ALifeUI_7f3de09108c0f16d",
+      "garage",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:26",
+        "genel görev garage yer türü",
+        "ARAYÜZ"
+      ]
+    ],
+    "89": [
+      "IGUI_ALifeUI_33e255014ecdf8a2",
+      "far marker",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:33",
+        "genel görev far marker yer türü",
+        "ARAYÜZ"
+      ]
+    ],
+    "90": [
+      "IGUI_ALifeUI_62e4a8763f6b921d",
+      "next spot",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:34",
+        "genel görev next spot yer türü",
+        "ARAYÜZ"
+      ]
+    ],
+    "91": [
+      "IGUI_ALifeUI_7c9e0a4d6166e25d",
+      "spot",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:31",
+        "genel görev spot yer türü",
+        "ARAYÜZ"
+      ]
+    ],
+    "92": [
+      "IGUI_ALifeUI_7c9c616d60ffb88f",
+      "post",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardData.lua:29",
+        "genel görev post yer türü",
+        "ARAYÜZ"
+      ]
+    ]
+  }
+}

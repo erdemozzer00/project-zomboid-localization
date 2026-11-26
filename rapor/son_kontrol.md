@@ -4,17 +4,20 @@ Sonuç: temiz
 
 ## IG_UI.json
 
-- Anahtar: EN 5351 · TR 5347 · çevrilmemiş (İngilizce görünür, sorun sayılmaz) 0 · fazla (çıkarıldı) 0 · Lua'dan ek 3155
+- Anahtar: EN 5360 · TR 5356 · çevrilmemiş (İngilizce görünür, sorun sayılmaz) 0 · fazla (çıkarıldı) 0 · Lua'dan ek 4110
 - Biçim (sıra, BOM yok, LF): tamam
 - Sorun: 0
 - Çıkarılan anahtarlar: yok
-- EN ile aynı kalanlar (45, özel ad/kısaltma olmalı):
+- EN ile aynı kalanlar (48, özel ad/kısaltma olmalı):
   - IGUI_ALifeUI_33e717824e1e5277: [A-LIFE] Project A-Life
   - IGUI_ALifeUI_030adc053ed64d3e: Project A-Life
   - IGUI_ALifeUI_70f25d21644d3acc: Tackett Hollow
   - IGUI_ALifeUI_08fded904bb97593: Outlaws MC
   - IGUI_ALifeUI_0b082e5206f0d17a: Grim Reapers MC
   - IGUI_ALifeUI_14493bbf62e3b054: Undertakers MC
+  - IGUI_ALifeUI_126bd9597747be28: TEST Revolver
+  - IGUI_ALifeUI_73f662cf7fc03285: Terrence - DJ
+  - IGUI_ALifeUI_25db4c085f9a9911: Thomas - DJ
   - IGUI_ALifeUI_64d411554523ee1b: {bloc} +{shift}
   - IGUI_ALifeUI_5707a8035c70d956: {bloc} {shift}
   - IGUI_ALifeUI_22d829f81d3f1574: A-Life
@@ -57,7 +60,7 @@ Sonuç: temiz
 
 ## Sandbox.json
 
-- Anahtar: EN 1676 · TR 1676 · çevrilmemiş (İngilizce görünür, sorun sayılmaz) 0 · fazla (çıkarıldı) 0 · Lua'dan ek 0
+- Anahtar: EN 1693 · TR 1693 · çevrilmemiş (İngilizce görünür, sorun sayılmaz) 0 · fazla (çıkarıldı) 0 · Lua'dan ek 0
 - Biçim (sıra, BOM yok, LF): tamam
 - Sorun: 0
 - Çıkarılan anahtarlar: yok
@@ -96,9 +99,9 @@ Sonuç: temiz
 
 ## RadioData.json (NPC diyalogları)
 
-- Satır: 114469 (kaynakta 114469)
+- Satır: 115294 (kaynakta 115294)
 - Yer tutucu değeri (K46): 253
 - Sorun: 0
-- Şablon varyantı: 1202 cinsiyetli şablon → 2403 ek satır (m/f); rastgele yer tutuculu (konuşma eki şablonla eşler, K46): 1452
+- Şablon varyantı: 1202 cinsiyetli şablon → 2403 ek satır (m/f); rastgele yer tutuculu (konuşma eki şablonla eşler, K46): 1503
 - Varyant çakışması: 0
 

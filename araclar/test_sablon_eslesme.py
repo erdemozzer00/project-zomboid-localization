@@ -55,20 +55,20 @@ BEKLENEN_AD = {
 # 1.5.0 Y1 ile gelen {name}/{faction} şablonları bu düz satırların doldurulmuş hâlini de karşılıyor;
 # düz satırların kendi çevirisi var ve oyunda doğrudan anahtar önce kazanır (aşağıdaki son assert bunu sınar).
 KENDI_CEVIRISI_KAZANIR = {
-    "RD_ALifeLine_7210a3c323538383": "Peki, kaldırıyorum.",
-    "RD_ALifeLine_37f555cf6e726e80": "DANNY! Allah'ım, Danny, kalk! KALK!",
-    "RD_ALifeLine_019e5be12225fd34": "Danny vuruldu! Biri Danny'yi vurdu!",
-    "RD_ALifeLine_05ddb73a732f7560": "Ray'i vurdular! Allah'ım, Ray!",
-    "RD_ALifeLine_087df99c23d72807": "Danny'ye sopayla girişti! Biri tutsun onu!",
-    "RD_ALifeLine_1015a20e105bfcf3": "Danny'yi yumrukladı! Biri araya girsin!",
-    "RD_ALifeLine_7631e03215f17b71": "Danny'yi ezdi! Biri yardım çağırsın!",
-    "RD_ALifeLine_7e5896ff5d4e817c": "Danny'ye salladı! Biri mani olsun!",
-    "RD_ALifeLine_5e90a5c86d8fbad8": "Hassiktir, Bobby'ye mi vurdun? Öldün lan sen!",
-    "RD_ALifeLine_10146c5872a4633c": "İlçe taktik timiyiz. Şimdilik bu insanların yanına atandık.",
-    "RD_ALifeLine_41a18f663d9691f5": "Eskiden ordudaydım, şimdi bu adamlarlayım. Sicil numaramı da sormuyorlar.",
+    "RD_ALifeLine_7210a3c323538383",
+    "RD_ALifeLine_37f555cf6e726e80",
+    "RD_ALifeLine_019e5be12225fd34",
+    "RD_ALifeLine_05ddb73a732f7560",
+    "RD_ALifeLine_087df99c23d72807",
+    "RD_ALifeLine_1015a20e105bfcf3",
+    "RD_ALifeLine_7631e03215f17b71",
+    "RD_ALifeLine_7e5896ff5d4e817c",
+    "RD_ALifeLine_5e90a5c86d8fbad8",
+    "RD_ALifeLine_10146c5872a4633c",
+    "RD_ALifeLine_41a18f663d9691f5",
     # E1: kendi çevirisi olan düz satırlar; "It's {weekday}" ve "What do you know about {…}?" şablonları doldurulmuş hâllerini de karşılıyor
-    "RD_ALifeLine_37947cab053c0959": "Perşembe.",
-    "RD_ALifeLine_1dfbcbc6748d55ad": "Buralardaki öbür gruplar hakkında ne biliyorsun?",
+    "RD_ALifeLine_37947cab053c0959",
+    "RD_ALifeLine_1dfbcbc6748d55ad",
 }
 
 
@@ -143,8 +143,9 @@ class SablonEslesmeTesti(unittest.TestCase):
                 yanlis.append((k, en, sonuc))
         self.lua.Text.flush()
         self.assertEqual(yanlis[:5], [])
-        for k, tr in KENDI_CEVIRISI_KAZANIR.items():
-            self.assertEqual(self.oyun.cevir(sv.capitalize(EN[k])), tr)
+        for k in sorted(KENDI_CEVIRISI_KAZANIR):
+            with self.subTest(anahtar=k):
+                self.assertEqual(self.oyun.cevir(sv.capitalize(EN[k])), ONAYLI[k])
 
     def test_cevirisi_olmayan_sablon_ingilizce_kalir(self):
         en = "Somebody in {town} still owes me {count} dollars, tell {name} I said hi"

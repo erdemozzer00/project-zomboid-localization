@@ -1,4 +1,4 @@
-"""Ziyaretçi/kapı sistemi (K46) Gemini girdileri için sahne notları: gemini/sahne/Z1.json ve Z2.json.
+"""Ziyaretçi/kapı sistemi (K46) dış çeviri girdileri için sahne notları: araclar/sahne/Z1.json ve Z2.json.
 
 Kullanım: python -X utf8 araclar/ziyaretci_not.py
 Her düğüm (vp_1006.VQ_HOUSE_BATH, vp_1006.react.gave_food…) için: konuşan ziyaretçi (cinsiyet, yaş, tip, tarif,
@@ -87,7 +87,7 @@ def main():
         z2[k + ".desc"] = kisi_notu(kv)
         z2[k + ".facts"] = kisi_notu(kv)
     for ad, veri in (("Z1", z1), ("Z2", z2)):
-        (KOK / "gemini" / "sahne" / f"{ad}.json").write_text(json.dumps(veri, ensure_ascii=False, indent=1) + "\n",
+        (KOK / "araclar" / "sahne" / f"{ad}.json").write_text(json.dumps(veri, ensure_ascii=False, indent=1) + "\n",
                                                             encoding="utf-8", newline="\n")
         print(ad, len(veri) - 2, "not")
 

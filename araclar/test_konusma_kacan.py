@@ -153,7 +153,7 @@ class AnahtarTesti(unittest.TestCase):
         self.assertEqual(eksik, [])
 
     def test_y6_haritasi_kacan_diyalog(self):
-        harita = KOK / "rapor" / "Y6_harita.json"
+        harita = KOK / "paketler/haritalar" / "Y6_harita.json"
         if not harita.exists():
             self.skipTest("Y6 haritası yok")
         h = json.loads(harita.read_text(encoding="utf-8"))

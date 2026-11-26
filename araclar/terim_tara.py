@@ -1,4 +1,4 @@
-"""Bir terimin her kaynakta (kullanıcı, çevirmenler, vanilla PZ) nasıl çevrildiğini listeler.
+"""Bir terimin onaylı yamada, eski kullanıcı çevirisinde ve vanilla PZ'de nasıl çevrildiğini listeler.
 
 Kullanim: python araclar/terim_tara.py <ingilizce_regex> [en_fazla_ornek]
 Ornek:    python araclar/terim_tara.py "\\bspawn" 8
@@ -18,19 +18,24 @@ def pairs(p):
 
 
 def kaynaklar():
-    yeni = {}
-    for a in ['IG_UI', 'Sandbox']:
-        yeni.update(pairs(KOK / 'yeni jsonlar' / f'{a}.json'))
+    out = {}
+    for tr in sorted((KOK / 'onayli').glob('*.json')):
+        en_kok = KOK / 'kaynak' if tr.stem.endswith('_lua') else KOK / 'kaynak' / 'en'
+        en = en_kok / tr.name
+        if en.is_file():
+            out[f'onaylı {tr.stem}'] = (pairs(en), pairs(tr))
+
     eski = {}
     kul = {}
     for a in ['IG_UI', 'Sandbox']:
-        eski.update(pairs(KOK / f'{a}-updated.json'))
-        kul.update(pairs(KOK / f'{a}-updated-translated.json'))
-    out = {'kullanıcı': (eski, kul)}
-    for d in sorted((KOK / 'çevirmenler').iterdir()):
-        for f in d.iterdir():
-            if f.name == "NOTLAR.txt": continue
-            out[d.name] = (yeni, pairs(f))
+        en = KOK / f'{a}-updated.json'
+        tr = KOK / f'{a}-updated-translated.json'
+        if en.is_file() and tr.is_file():
+            eski.update(pairs(en))
+            kul.update(pairs(tr))
+    if eski:
+        out['eski kullanıcı çevirisi'] = (eski, kul)
+
     ven, vtr = {}, {}
     for f in (VAN / 'EN').glob('*.json'):
         try:

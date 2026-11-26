@@ -1,0 +1,258 @@
+{
+  "_paket": "AD153",
+  "_grup": "yonetici_ad1_tamamlama",
+  "_dosya": "IG_UI_lua",
+  "_baslik": "AD153 yönetici ve geliştirici arayüzü şablonları",
+  "_parcalar": [
+    [
+      1,
+      27
+    ]
+  ],
+  "_noktalama": false,
+  "satirlar": {
+    "1": [
+      "IGUI_ALifeUI_16155bc873034186",
+      "Pin to the toolbar (up to {limit}). Click again to unpin.",
+      [
+        "client/ProjectALife/Admin/ALifeAdminUI.lua:478",
+        "Yönetici araç çubuğu",
+        "Yıldız düğmesinin ipucu. {limit}, aynı anda sabitlenebilecek yönetici eylemi sayısı."
+      ]
+    ],
+    "2": [
+      "IGUI_ALifeUI_2e971a4852dd16a3",
+      "Forces the safehouse event {event} for your test base.",
+      [
+        "client/ProjectALife/Admin/ALifeSpawnerBrowser.lua:170",
+        "Güvenli ev etkinliği",
+        "{event}, listede seçilen etkinliğin kodu. Yer tutucuya ek getirme."
+      ]
+    ],
+    "3": [
+      "IGUI_ALifeUI_47373b1b2852bff3",
+      "A-Life: spawned {active} of {requested}",
+      [
+        "client/ProjectALife/Admin/ALifeDebugSpawner.lua:1589",
+        "Klasik NPC oluşturma bildirimi",
+        "{requested} istenen NPC sayısı, {active} oluşturulup etkin olan NPC sayısı. Oyun gerekirse bildirimin sonuna parantez içinde bir gerekçe ekler."
+      ]
+    ],
+    "4": [
+      "IGUI_ALifeUI_26eee31b54de8e11",
+      "Save failed: {reason} You can still use Copy to clipboard.",
+      [
+        "client/ProjectALife/Builder/ALifeBuildSession.lua:521",
+        "Yapı planı kaydı ve klasör",
+        "{reason}, oyun tarafından sağlanan dosya hatası cümlesi. Panoya kopyala, Kurucu düğmesinin onaylı adı."
+      ]
+    ],
+    "5": [
+      "IGUI_ALifeUI_2fd5423749f8a64a",
+      "Could not open the folder: {reason}",
+      [
+        "client/ProjectALife/Builder/ALifeBuildSession.lua:584",
+        "Yapı planı kaydı ve klasör",
+        "{reason}, Windows klasörünü açamama nedenini belirten hazır cümle."
+      ]
+    ],
+    "6": [
+      "IGUI_ALifeUI_1f972ee165f41b7d",
+      "Could not open the folder: {reason} It is {path}",
+      [
+        "client/ProjectALife/Builder/ALifeBuildSession.lua:585",
+        "Yapı planı kaydı ve klasör",
+        "{reason}, klasörü açamama nedeni. {path}, Zomboid Lua klasörünün dosya sistemi yolu. Yola bir nokta veya ek getirme."
+      ]
+    ],
+    "7": [
+      "IGUI_ALifeUI_052c520f43179d4c",
+      "This game build cannot write files.",
+      [
+        "shared/ProjectALife/Builder/ALifeBuildFormat.lua:15",
+        "Dosya ve klasör hata nedenleri",
+        "Bu oyun sürümünde dosyaya yazma işlevi bulunmuyor."
+      ]
+    ],
+    "8": [
+      "IGUI_ALifeUI_3075227a0df1fd5a",
+      "The game could not create the file.",
+      [
+        "shared/ProjectALife/Builder/ALifeBuildFormat.lua:16",
+        "Dosya ve klasör hata nedenleri",
+        "Yazılacak dosya açılamadı veya oluşturulamadı."
+      ]
+    ],
+    "9": [
+      "IGUI_ALifeUI_03adaec07400a658",
+      "The game could not finish writing the file.",
+      [
+        "shared/ProjectALife/Builder/ALifeBuildFormat.lua:17",
+        "Dosya ve klasör hata nedenleri",
+        "Dosyanın yazımı tamamlanmadan işlem başarısız oldu."
+      ]
+    ],
+    "10": [
+      "IGUI_ALifeUI_51769eec3d9c0fad",
+      "The game did not tell where its folder is.",
+      [
+        "shared/ProjectALife/Builder/ALifeBuildFormat.lua:20",
+        "Dosya ve klasör hata nedenleri",
+        "Oyun dosya yolu bilgisini veremedi."
+      ]
+    ],
+    "11": [
+      "IGUI_ALifeUI_206024b623148592",
+      "This computer cannot open the folder from the game.",
+      [
+        "shared/ProjectALife/Builder/ALifeBuildFormat.lua:21",
+        "Dosya ve klasör hata nedenleri",
+        "Oyun klasör açma işlevine erişemiyor veya işletim sistemi bunu desteklemiyor."
+      ]
+    ],
+    "12": [
+      "IGUI_ALifeUI_3c68745a732f384f",
+      "The folder could not be opened.",
+      [
+        "shared/ProjectALife/Builder/ALifeBuildFormat.lua:22",
+        "Dosya ve klasör hata nedenleri",
+        "Klasörü açma girişimi başarısız oldu."
+      ]
+    ],
+    "13": [
+      "IGUI_ALifeUI_716114ac44dac650",
+      "Will place {place}, already there {same}, skipped {skip}.",
+      [
+        "client/ProjectALife/Builder/ALifeStampClient.lua:460",
+        "Damga önizleme sonucu",
+        "{place} yerleştirilecek, {same} zaten hedefte bulunan, {skip} atlanan nesne sayısı. Üçü de tam sayı."
+      ]
+    ],
+    "14": [
+      "IGUI_ALifeUI_7c334e1b030b8859",
+      "Removes {removed} old objects.",
+      [
+        "client/ProjectALife/Builder/ALifeStampClient.lua:462",
+        "Damga önizleme sonucu",
+        "{removed}, damga uygulanırsa kaldırılacak eski nesne sayısı. Sıfırdan büyükse gösterilir."
+      ]
+    ],
+    "15": [
+      "IGUI_ALifeUI_4e80a9cd2ad72916",
+      "Ready.",
+      [
+        "client/ProjectALife/Builder/ALifeStampClient.lua:429",
+        "Damga önizleme sonucu",
+        "Sunucu önizlemeyi onayladığında bildirim sayacının önünde görünür."
+      ]
+    ],
+    "16": [
+      "IGUI_ALifeUI_1d253f3e356fd0f5",
+      "Nothing to place here.",
+      [
+        "client/ProjectALife/Builder/ALifeStampClient.lua:471",
+        "Damga önizleme sonucu",
+        "Önizlemede bu hedefe hiçbir nesne yerleştirilmeyeceği anlaşılınca görünür."
+      ]
+    ],
+    "17": [
+      "IGUI_ALifeUI_11bf89b46b613ea6",
+      "Car {vehicle}",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingTuningPanel.lua:126",
+        "Sürüş penceresi ve ayar durumu",
+        "{vehicle}, seçili arabanın kimliği. Araba seçilmediyse ayrı çevrilen “not selected” metni gelir. Oyun <TEXT> etiketini dışarıdan ekler."
+      ]
+    ],
+    "18": [
+      "IGUI_ALifeUI_4b66f9342b04365b",
+      "not selected",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingTuningPanel.lua:126",
+        "Sürüş penceresi ve ayar durumu",
+        "Araba kimliği yerine geçen kısa durum metni."
+      ]
+    ],
+    "19": [
+      "IGUI_ALifeUI_3b81d7df5606b766",
+      "Select a car on the Map tab first.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingTuningPanel.lua:127",
+        "Sürüş penceresi ve ayar durumu",
+        "Sürüş ayarlarını açtığında araç seçili değil. Harita sekmesi aşağıdaki ayrı satıra bağlı."
+      ]
+    ],
+    "20": [
+      "IGUI_ALifeUI_5a692a6a52229aad",
+      "Waiting for host confirmation.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingTuningPanel.lua:127",
+        "Sürüş penceresi ve ayar durumu",
+        "Araca uygulanacak ayar isteğinin sonucu bekleniyor."
+      ]
+    ],
+    "21": [
+      "IGUI_ALifeUI_4d7fb8587000bbd9",
+      "Unapplied edits. Press Apply to car to use them.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingTuningPanel.lua:128",
+        "Sürüş penceresi ve ayar durumu",
+        "Arabaya uygula düğmesi bu grupta ayrı çevriliyor. Aracın kayıtlı ayarı henüz değişmedi."
+      ]
+    ],
+    "22": [
+      "IGUI_ALifeUI_5acc64340da24171",
+      "Showing applied settings.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingTuningPanel.lua:128",
+        "Sürüş penceresi ve ayar durumu",
+        "Ekrandaki değerler seçili araca uygulanmış."
+      ]
+    ],
+    "23": [
+      "IGUI_ALifeUI_0c8e02f659e8ac9e",
+      "Per-car settings last for this game session. Motion applies live; planner changes rebuild the path.",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingTuningPanel.lua:129",
+        "Sürüş penceresi ve ayar durumu",
+        "Sürüş ayarları ekranındaki varsayılan açıklama. Planner, arabanın rotasını hesaplayan sistem."
+      ]
+    ],
+    "24": [
+      "IGUI_ALifeUI_58ff244975a6e260",
+      "Apply to car",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingTuningPanel.lua:196",
+        "Sürüş penceresi ve ayar durumu",
+        "Seçili arabaya sürüş ayarlarını uygulayan düğme."
+      ]
+    ],
+    "25": [
+      "IGUI_ALifeUI_0b880763172d85ba",
+      "Map",
+      [
+        "client/ProjectALife/Driving/ALifeDrivingPanel.lua:794",
+        "Sürüş haritası sekmesi",
+        "Araba ve güzergah seçmek için açılan Harita sekmesinin etiketi."
+      ]
+    ],
+    "26": [
+      "IGUI_ALifeUI_03db379963cdd21d",
+      "Build it for real. Click twice to confirm.",
+      [
+        "client/ProjectALife/Builder/ALifeStampWindow.lua:280",
+        "Damga düğmesinin ipucu",
+        "Damgayı uygulayan düğmenin ipucunun ilk kısmı. İlk tıklama onay ister, ikinci tıklama işlemi başlatır."
+      ]
+    ],
+    "27": [
+      "IGUI_ALifeUI_10127263228da415",
+      "Not now: {reason}",
+      [
+        "client/ProjectALife/Builder/ALifeBuildWindow.lua:491",
+        "Damga düğmesinin ipucu",
+        "{reason}, Damga düğmesinin eylemi neden yapamadığına dair hazır açıklama. Örneğin hedef kare henüz önizlenmemiş olabilir."
+      ]
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+# Project A-Life 1.5.2 — görev sonuçları ve dinamik metin kalıpları
+# KAPSAM: 7 sabit görev sonucu/bildirim metni ve 6 sayı/kişi içeren kalıp.
+# BAĞLAM: Görev günlüğü, görev panosu, görev ipucu veya görev başarısızlık/sonuç bildirimi.
+# Varsa {task}, {who}, {n}, {have}, {need} gibi oyun yer tutucularını aynen koru; kalıp değerleri oyunda sonradan eklenir.
+
+##### SABİT GÖREV BİLDİRİMLERİ #####
+# EKRAN: Görev günlüğü, görev panosu, görev ipucu veya görev başarısızlık/sonuç bildirimi.
+1 | [GÖREV BİLDİRİMİ] | The one who asked is gone
+2 | [GÖREV BİLDİRİMİ] | You gave the job up
+3 | [GÖREV BİLDİRİMİ] | The cargo is gone
+4 | [GÖREV BİLDİRİMİ] | The job is no longer on offer
+5 | [GÖREV BİLDİRİMİ] | They don't trust you with it anymore
+6 | [GÖREV BİLDİRİMİ] | You did not make it
+7 | [GÖREV BİLDİRİMİ] | The job failed
+
+##### SAYI VE KİŞİ BİLGİLİ GÖREV KALIPLARI #####
+# EKRAN: Görev panosunda sayaç, süre veya kişi adıyla doldurulan dinamik satırlar.
+8 | [GÖREV KALIBI] | Expires in about {n} hours
+9 | [GÖREV KALIBI] | Talk to {who}
+10 | [GÖREV KALIBI] | For someone you met
+11 | [GÖREV KALIBI] | For {who}
+12 | [GÖREV KALIBI] | Handed in {have} of {need}
+13 | [GÖREV KALIBI] | Handed in {have} of {need} L of water

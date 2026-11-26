@@ -1,0 +1,222 @@
+{
+  "_paket": "UI153",
+  "_grup": "arayuz_1_5_3",
+  "_dosya": "IG_UI_lua",
+  "_baslik": "Project A-Life 1.5.3 oyuncu ve tanılama arayüzü",
+  "_parcalar": [
+    [
+      1,
+      23
+    ]
+  ],
+  "_noktalama": false,
+  "satirlar": {
+    "1": [
+      "IGUI_ALifeUI_2fd3dd1f518303d4",
+      "Waiting for a reply",
+      [
+        "client/ProjectALife/Talk/ALifeTalkMenu.lua:660",
+        "Konuşma penceresinin durum satırı",
+        "Sunucudan cevap bekleniyor."
+      ]
+    ],
+    "2": [
+      "IGUI_ALifeUI_5bc696c650a4d3ed",
+      "This conversation is over",
+      [
+        "client/ProjectALife/Talk/ALifeTalkMenu.lua:660",
+        "Konuşma penceresinin durum satırı",
+        "Oturum kesilmiş veya kapanmış."
+      ]
+    ],
+    "3": [
+      "IGUI_ALifeUI_127f1b4b1c90f25d",
+      "Pick an item from the list first",
+      [
+        "client/ProjectALife/Talk/ALifeTalkMenu.lua:660",
+        "Konuşma penceresinin durum satırı",
+        "Hediye vermek için eşya seçilmemiş."
+      ]
+    ],
+    "4": [
+      "IGUI_ALifeUI_141a5b4878e69b9f",
+      "That deal is off, ask for a new one",
+      [
+        "client/ProjectALife/Talk/ALifeTalkMenu.lua:661",
+        "Konuşma penceresinin durum satırı",
+        "Takas teklifi artık geçerli değil."
+      ]
+    ],
+    "5": [
+      "IGUI_ALifeUI_3b9ab61a4c8a3366",
+      "Not available right now",
+      [
+        "client/ProjectALife/Talk/ALifeTalkMenu.lua:661",
+        "Konuşma penceresinin durum satırı",
+        "Kilitli seçenekte özel ipucu yoksa gösterilen metin."
+      ]
+    ],
+    "6": [
+      "IGUI_ALifeUI_448b404653bb76ab",
+      "Nothing to say here",
+      [
+        "client/ProjectALife/Talk/ALifeTalkMenu.lua:661",
+        "Konuşma penceresinin durum satırı",
+        "İşlenmeyen tıklamanın genel geri dönüşü."
+      ]
+    ],
+    "7": [
+      "IGUI_ALifeUI_3607c0bd75d81e17",
+      "Tap again",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Talk.lua:71",
+        "Tuş ve cevap ipuçları",
+        "Riskli cevabı fareyle onaylamak için ikinci tıklama."
+      ]
+    ],
+    "8": [
+      "IGUI_ALifeUI_61052e5321ea2356",
+      "A again",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Talk.lua:71",
+        "Tuş ve cevap ipuçları",
+        "A, oyun kumandasındaki tuşun adı. Riskli cevabı onaylamak için ikinci basış."
+      ]
+    ],
+    "9": [
+      "IGUI_ALifeUI_2a8ffcca26d8efbb",
+      "They asked",
+      [
+        "client/ProjectALife/UI2/ALifeUI2Talk.lua:72",
+        "Tuş ve cevap ipuçları",
+        "NPC bir soru sormuş ve oyuncunun cevabı bekleniyor."
+      ]
+    ],
+    "10": [
+      "IGUI_ALifeUI_17d86c23449b253f",
+      "Press the talk key to start the conversation",
+      [
+        "client/ProjectALife/Talk/ALifeTalkPrompt.lua:381",
+        "NPC ile konuşma tuşu",
+        "Viewpoint birinci veya üçüncü şahıs görünümünde, oyuncunun baktığı uygun NPC için ipucu."
+      ]
+    ],
+    "11": [
+      "IGUI_ALifeUI_4ad5eba16694eeff",
+      "Lower your weapon to talk",
+      [
+        "client/ProjectALife/UI2/ALifeUI2TalkUx.lua:691",
+        "Silah kaldırılmışken konuşma",
+        "Oyuncu silahını doğrultmuşken normal konuşma yolu açılamıyorsa çıkar."
+      ]
+    ],
+    "12": [
+      "IGUI_ALifeUI_1d3890f22c4d0574",
+      "Open blackbox file path",
+      [
+        "client/ProjectALife/Interface/ALifePauseMenu.lua:127",
+        "Duraklatma menüsü ve kara kutu",
+        "Dosyayı içeren klasörü masaüstünde açar. Klasör açılmazsa dosyanın tam yolu panoya alınabilir."
+      ]
+    ],
+    "13": [
+      "IGUI_ALifeUI_350a083369cd7f95",
+      "Diagnostics ON",
+      [
+        "client/ProjectALife/Interface/ALifePauseMenu.lua:150",
+        "Duraklatma menüsü ve kara kutu",
+        "Tanılama şu anda açık."
+      ]
+    ],
+    "14": [
+      "IGUI_ALifeUI_564b0dde24284d71",
+      "Diagnostics OFF",
+      [
+        "client/ProjectALife/Interface/ALifePauseMenu.lua:150",
+        "Duraklatma menüsü ve kara kutu",
+        "Tanılama şu anda kapalı."
+      ]
+    ],
+    "15": [
+      "IGUI_ALifeUI_11f381d970388328",
+      "Blackbox dump needs Diagnostics ON",
+      [
+        "client/ProjectALife/Interface/ALifePauseMenu.lua:242",
+        "Duraklatma menüsü ve kara kutu",
+        "Tanılama kapalıyken döküm istenirse çıkar."
+      ]
+    ],
+    "16": [
+      "IGUI_ALifeUI_2518a80053d0317e",
+      "Blackbox file: {path}",
+      [
+        "client/ProjectALife/Interface/ALifePauseMenu.lua:267",
+        "Duraklatma menüsü ve kara kutu",
+        "{path}, oyuncunun bilgisayarındaki kara kutu dosyasının tam yolu."
+      ]
+    ],
+    "17": [
+      "IGUI_ALifeUI_3465bb2c2d931374",
+      "Could not open the folder. Path copied: {path}",
+      [
+        "client/ProjectALife/Interface/ALifePauseMenu.lua:269",
+        "Duraklatma menüsü ve kara kutu",
+        "{path}, panoya kopyalanan tam dosya yolu."
+      ]
+    ],
+    "18": [
+      "IGUI_ALifeUI_545e02d940b582de",
+      "Server copy: {where}",
+      [
+        "client/ProjectALife/Interface/ALifePauseMenu.lua:273",
+        "Duraklatma menüsü ve kara kutu",
+        "{where}, Tools.whereText tarafından doldurulur. Uzak sunucuda Lua/ klasörünü, dosya adını ve dosyanın sunucu sahibinde olduğunu belirten hazır açıklama."
+      ]
+    ],
+    "19": [
+      "IGUI_ALifeUI_767caeb16d58d139",
+      "WARNING: THIS TANKS PERFORMANCE WHILE IT IS ON. Leave it off unless you are testing. It needs debug mode, or admin rights on a server. Shows the A-Life admin tools in the right-click menu: dumps, spawner, map layers and the Creator. Bug reports do not need it: use A-Life > Report a bug.",
+      [
+        "client/ProjectALife/Interface/ALifeMenuPrefs.lua:1069",
+        "A-Life ayarlarında tanılama",
+        "Yerleşik açıklama Tanılama kutusuna ait. 1.5.3 kodu bazı dökümleri ayrı ESC paneline taşır."
+      ]
+    ],
+    "20": [
+      "IGUI_ALifeUI_1d8342275b164ee3",
+      "Off by default. Records NPC activity for testing. Needs Diagnostics and slows the game while on. Costs nothing while off.",
+      [
+        "client/ProjectALife/Interface/ALifeMenuPrefs.lua:1073",
+        "A-Life ayarlarında tanılama",
+        "NPC etkinlik kaydı (kara kutu) seçeneğinin ipucu."
+      ]
+    ],
+    "21": [
+      "IGUI_ALifeUI_17b9671622876343",
+      "Diagnostics also turns on the A-Life right-click menu. It is greyed in game without debug mode, or on a server where you are not an admin.",
+      [
+        "client/ProjectALife/Interface/ALifeMenuPrefs.lua:1078",
+        "A-Life ayarlarında tanılama",
+        "Tanılama bölümünün altındaki erişim açıklaması."
+      ]
+    ],
+    "22": [
+      "IGUI_ALifeUI_665e78e11dea7567",
+      "Turn these on only to test. For a bug report, turn on Show A-Life in the right-click menu and use A-Life > Report a bug.",
+      [
+        "client/ProjectALife/Interface/ALifeMenuPrefs.lua:1080",
+        "A-Life ayarlarında tanılama",
+        "Tanılama seçeneklerinin altındaki yardım satırı."
+      ]
+    ],
+    "23": [
+      "IGUI_ALifeUI_1d3ce10147e9b0a7",
+      "How many NPCs one SPAWN makes. The server keeps it inside its group cap and the hostile ceiling. Remembered for next time.",
+      [
+        "client/ProjectALife/Admin/ALifeDebugSpawner.lua:466",
+        "Klasik NPC oluşturma penceresi",
+        "Bir işlemde oluşturulan NPC sayısı. Değer, seçim değişince kaydediliyor."
+      ]
+    ]
+  }
+}

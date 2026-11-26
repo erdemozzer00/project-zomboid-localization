@@ -1,0 +1,163 @@
+# Project A-Life 1.5.2 · Genel görev NPC replikleri · 2/4 · Malzeme ve altyapı
+# Bu dosyada 70–143 arası numaralar çevrilecek. Çıktıyı aynı sıralamayla, her satırda N | Türkçe biçiminde ver.
+# Yalnız numaralı İngilizce replikleri çevir. Başlıkları, oyuncu sorularını ve mevcut Türkçe karşılıkları çıktıya alma.
+# Her replik görevi veren NPC'nin Konuş sekmesinde tek bir oyuncuya hitabı. Oyuncuya “sen” de. Replikte NPC bir grup adına konuşuyorsa “biz” anlamını koru.
+# Bir aşamadaki replikler birbirinin alternatifi. Her satırı tek başına doğal duyulacak şekilde yaz. Kolluk ve askerî varyantların tonunu koru.
+# {name} oyun içi kişi adı. {where} yer türü, varsa kasaba tarifi, yaklaşık mesafe ve yönü birlikte taşıyabilen bir yer öbeği.
+# Yer tutucuları yazımı ve adediyle aynen koru, Türkçe sözdizimine göre yerlerini değiştirebilirsin. Değişken kişi ve yer adlarına ek gerektirmeyecek bir yapı kur.
+# Terimler · camp = kamp, horde = sürü, radio (iki yönlü haberleşme) = telsiz, raider = yağmacı, outpost = karakol.
+
+##### Jeneratör onarımı #####
+# Aksayan jeneratör için elektrik kablosu ve tornavida gibi onarım malzemeleri gerekiyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Is a generator giving you trouble?
+# Teklif · NPC işi ilk kez anlatıyor
+70 | The generator's coughing, I need wire and a screwdriver or the lights go out
+71 | No power, no radio, no anything, the generator needs parts
+# Teklif · NPC işi ilk kez anlatıyor · ASKERÎ VARYANT
+72 | Generator's at ten percent, a repair kit is overdue
+# Kabul · Oyuncu görevi üstlenmiş
+73 | Try the garages first, the house ones are picked clean
+# Ret · Oyuncu teklifi geri çevirmiş
+74 | We'll sit in the dark then
+# Takip · Oyuncu açık işin durumunu soruyor
+75 | It's flickering, hurry
+76 | Any luck with the parts
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+77 | That'll keep us running a while
+78 | Light again, thank you
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+79 | It died last night, too late
+
+##### Elektrik hattı onarımı #####
+# Oyuncudan elektrik panosunun bulunduğu yere kablo ve tornavida götürüp enerjiyi geri getirmesi isteniyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Is the power out here?
+# Teklif · NPC işi ilk kez anlatıyor
+80 | The breaker panel near {where} is burnt out, a spliced wire will bring the lights back
+81 | There's a dead line near {where}, bring a wire and a screwdriver
+# Kabul · Oyuncu görevi üstlenmiş
+82 | Careful, the wires may be live, wear gloves if you have any
+# Ret · Oyuncu teklifi geri çevirmiş
+83 | We'll stay dark
+# Takip · Oyuncu açık işin durumunu soruyor
+84 | Still dark, any luck
+85 | Found the wire
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+86 | There it is, bright as day, thank you
+87 | That's one less thing to worry about
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+88 | The line's dead for good, it's too late
+
+##### Akü #####
+# Oyuncudan çalışır bir araç aküsü bulması isteniyor. Bir teklifte amaç çalışmayan kamyonu yeniden yürütmek.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Need a battery for something?
+# Teklif · NPC işi ilk kez anlatıyor
+89 | The truck won't turn over, bring me a good battery and I'll get it moving
+90 | A battery is all I need to get the line going
+# Kabul · Oyuncu görevi üstlenmiş
+91 | Check it before you carry it, dead ones are everywhere
+# Ret · Oyuncu teklifi geri çevirmiş
+92 | Then the truck sits
+# Takip · Oyuncu açık işin durumunu soruyor
+93 | Still no battery? The engine's cold
+94 | Found one yet
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+95 | That'll do it, thank you
+96 | It's still got a charge, nice work
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+97 | We got one from somewhere else, don't worry
+
+##### Telsiz parçaları #####
+# Bağlantısı kesilen kampın telsizi için elektronik hurda ve pil gerekiyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Anything broken that needs a part?
+# Teklif · NPC işi ilk kez anlatıyor
+98 | The radio needs parts, find electronics scrap and batteries and bring what you can
+99 | We've lost contact, bring scrap and a few batteries
+# Kabul · Oyuncu görevi üstlenmiş
+100 | Don't come back without most of it
+# Ret · Oyuncu teklifi geri çevirmiş
+101 | Then we stay deaf
+# Takip · Oyuncu açık işin durumunu soruyor
+102 | No parts yet? We're blind without the radio
+103 | Anything from the electronics
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+104 | That's it, now we can listen again
+105 | You've saved our link, thank you
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+106 | We've given up on that radio
+
+##### Çit onarımı için tahta #####
+# Çitte açılan boşluğu kapatmak için tahta ve çivi taşınması isteniyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Need building material hauled?
+# Teklif · NPC işi ilk kez anlatıyor
+107 | The fence has a hole, bring me planks and nails and we'll patch it
+108 | Six planks and a box of nails will hold the line
+# Kabul · Oyuncu görevi üstlenmiş
+109 | Pile it by the gate, I'll take it from there
+# Ret · Oyuncu teklifi geri çevirmiş
+110 | Alright, we'll patch it with scrap
+# Takip · Oyuncu açık işin durumunu soruyor
+111 | The gap's still open, I can't sleep
+112 | How's the wood coming
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+113 | That seals it, thank you
+114 | Good wood, solid work
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+115 | They got through before you came back
+
+##### Ceset yığını #####
+# Görevi veren kişi, ceset yığınının tahta ve ateşle ortadan kaldırılmasını istiyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Anything that needs burning?
+# Teklif · NPC işi ilk kez anlatıyor
+116 | There's a pile near {where}, the smell is drawing them, we need it burned
+117 | The bodies have to go before they spread something worse
+# Kabul · Oyuncu görevi üstlenmiş
+118 | You need planks and something to light it, stay upwind
+# Ret · Oyuncu teklifi geri çevirmiş
+119 | Understood, I won't ask again
+# Takip · Oyuncu açık işin durumunu soruyor
+120 | It's still there, I can smell it from here
+121 | Planks and a light, that's all it takes
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+122 | That's cleaner, thank you
+123 | Good, no more flies
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+124 | They've turned into a bigger problem now
+
+##### Alarmı susturma #####
+# Alarmın sesi zombileri çekiyor. Görev, alarmı bulunduğu yerde susturmak.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Is something making noise nearby?
+# Teklif · NPC işi ilk kez anlatıyor
+125 | An alarm has been wailing near {where} for an hour, it'll bring every dead one in the county
+126 | Shut that siren near {where} down before it pulls a crowd
+# Kabul · Oyuncu görevi üstlenmiş
+127 | Smash it or cut the power, anything, just stop it
+# Ret · Oyuncu teklifi geri çevirmiş
+128 | Then we run and hope
+# Takip · Oyuncu açık işin durumunu soruyor
+129 | Still wailing, hear it
+130 | It's drawing more by the minute
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+131 | Blessed quiet, thank you
+132 | They'll drift off now, good work
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+133 | It drew a crowd, too late
+
+##### Kayıp sandığı geri alma #####
+# Yolda yitirilen malzeme sandığının geri getirilmesi isteniyor. Tekliflerden biri yoldan çıkan kamyonu anıyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Anything need recovering?
+# Teklif · NPC işi ilk kez anlatıyor
+134 | A truck went off the road near {where}, the crate in the back is ours
+135 | We dropped supplies in a panic, they're by {where}
+# Kabul · Oyuncu görevi üstlenmiş
+136 | Careful, others will have noticed it too
+# Ret · Oyuncu teklifi geri çevirmiş
+137 | Fair enough, it's probably gone anyway
+# Takip · Oyuncu açık işin durumunu soruyor
+138 | Still out there? Someone else will take it
+139 | Any sign of the wreck
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+140 | That's the one, thank you
+141 | Everything's here, you're honest
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+142 | Somebody beat you to it
+143 | Too late, it was stripped

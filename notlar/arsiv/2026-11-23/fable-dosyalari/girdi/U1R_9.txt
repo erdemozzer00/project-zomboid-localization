@@ -1,0 +1,138 @@
+# U1R · 9/14 · Motosiklet kulüpleri ve suç ağları
+# Çıktı dosyası: U1R_9.txt. Dosyaya yalnız N | Türkçe satırlarını yaz. 828–910 arasındaki her numarayı aynı sırada bir kez kullan.
+# Başlıklar ve numarasız notlar bağlamdır. Çevrilecek metin her numaralı satırın son sütunundadır.
+# DÜNYA VE EKRAN: Project Zomboid, 1993 Kentucky’si. Bunlar Oluşturucu’da ve katalogda NPC üye şablonunu tanıtan kısa ekran etiketleridir.
+# BİÇİM: “Ad ve unvan” satırında kişi adını ve boşluklu “ - ” ayracını koru. Unvanı kısa bir Türkçe ad öbeği olarak yaz. “Şablon adı” tek parça bir etikettir. İçinde bir ad ve rütbe varsa kişinin adını koruyup rütbeyi Türkçeleştir. Yer ve kişi adlarını, numaraları ve model kodlarını koru. Sona nokta koyma.
+# BAĞLAM: Her başlık bir fraksiyondur. İngilizce grup açıklaması oyunun kataloğundan alınmıştır. Açıklamadaki olaylar çevrilecek ada eklenmez. “Ortak etiket” notu bir sonraki satırın aynı metinle kullanıldığı diğer grupları sayar. Bu satıra hepsine uyan tek karşılık yaz.
+# TERİM BAĞLAMI: MC motosiklet kulübüdür. Prospect ve Hang-Around üyeliğin farklı aşamalarıdır. Old Lady kulüp argosunda üyenin eşini veya birlikte olduğu kişiyi anlatır. Made Man, mafyada örgüte resmen kabul edilen üyedir.
+# SABİT KARŞILIKLAR: Hang-Around → Yamak
+
+##### Outlaws MC #####
+# Katalog açıklaması: Outlaws MC: the Louisville chapter, a clubhouse, and a road they mean to own. Patrols, tolls and fuel runs -- the club has influence, and it wants more.
+# Oyundaki fraksiyon adı (bağlam): Outlaws MC
+828 | Ad ve unvan | Otis - President
+829 | Ad ve unvan | Terrence - Sergeant-at-Arms
+830 | Ad ve unvan | Marcus - Enforcer
+831 | Ad ve unvan | Thomas - Road Captain
+832 | Ad ve unvan | Leon - Prospect
+833 | Ad ve unvan | Henry - Road Captain
+834 | Ad ve unvan | Joan - Old Lady
+835 | Ad ve unvan | Earl - Hang-Around
+836 | Ad ve unvan | Lonnie - Veteran Biker
+
+##### Grim Reapers MC #####
+# Katalog açıklaması: Grim Reapers MC: the other Louisville club, a separate clubhouse and an old war with the Outlaws that did not end with the world.
+# Oyundaki fraksiyon adı (bağlam): Grim Reapers MC
+837 | Ad ve unvan | Darlene - Prospect
+838 | Ad ve unvan | Yvonne - Old Lady
+
+##### Undertakers MC #####
+# Katalog açıklaması: Undertakers MC: riders from out of the region, come to see what the Outlaws are holding, and friendly to them.
+# Oyundaki fraksiyon adı (bağlam): Undertakers MC
+839 | Ad ve unvan | Calvin - President
+840 | Ad ve unvan | Paul - Sergeant-at-Arms
+841 | Ad ve unvan | Scott - Enforcer
+842 | Ad ve unvan | Jesse - Road Captain
+843 | Ad ve unvan | Dwight - Prospect
+844 | Ad ve unvan | Travis - Road Captain
+845 | Ad ve unvan | Ada - Prospect
+846 | Ad ve unvan | Ruth - Old Lady
+847 | Ad ve unvan | Gus - Hang-Around
+848 | Ad ve unvan | Evan - Veteran Biker
+849 | Ad ve unvan | Frank - Mechanic
+
+##### Dixie Mafia - County Contacts #####
+# Katalog açıklaması: Dixie Mafia contacts: the highway network of thieves and fences from prison days, working the motels on 31W.
+# Oyundaki fraksiyon adı (bağlam): Dixie Mafyası - İlçe Bağlantıları
+850 | Ad ve unvan | Henry - Made Man
+851 | Ad ve unvan | Adam - Associate
+852 | Ad ve unvan | Earl - Associate
+853 | Ad ve unvan | Lonnie - Driver
+# Ortak etiket · Şu gruplarda da kullanılır: Vice Lords - Stranded Crew
+854 | Ad ve unvan | Roy - Driver
+855 | Ad ve unvan | Denise - Bookkeeper
+856 | Ad ve unvan | Terrence - Enforcer
+857 | Ad ve unvan | Marcus - Old Associate
+858 | Ad ve unvan | Thomas - Bagman
+
+##### Cornbread Mafia - Remaining Contacts #####
+# Katalog açıklaması: Cornbread Mafia remnants: growers from the syndicate years who still know where the patches are and still do not talk.
+# Oyundaki fraksiyon adı (bağlam): Cornbread Mafyası - Kalan Bağlantılar
+859 | Ad ve unvan | Helen - Grower
+860 | Ad ve unvan | Ray - Lookout
+861 | Ad ve unvan | Maria - Trimmer
+# Ortak etiket · Şu gruplarda da kullanılır: False Checkpoint Crew
+862 | Ad ve unvan | Wade - Old Hand
+863 | Ad ve unvan | Luis - Hauler
+
+##### Chicago Outfit - Stranded Contacts #####
+# Katalog açıklaması: Chicago Outfit contacts stranded in a Louisville motel, with a car, a briefcase and a phone that does not ring.
+# Oyundaki fraksiyon adı (bağlam): Chicago Outfit - Mahsur Kalan Bağlantılar
+864 | Ad ve unvan | Travis - Made Man
+865 | Ad ve unvan | Clyde - Associate
+866 | Ad ve unvan | Boyd - Associate
+867 | Ad ve unvan | Gus - Driver
+# Ortak etiket · Şu gruplarda da kullanılır: Bloods - Victory Park Crew · 149th Armored Bde - Transport Detail
+868 | Ad ve unvan | Evan - Driver
+869 | Ad ve unvan | Nina - Bookkeeper
+870 | Ad ve unvan | Paul - Enforcer
+871 | Ad ve unvan | Scott - Old Associate
+872 | Ad ve unvan | Jesse - Bagman
+
+##### Vice Lords - Stranded Crew #####
+# Katalog açıklaması: Vice Lords crew stranded in Louisville: one block, held hard, with I-65 closed behind them.
+# Oyundaki fraksiyon adı (bağlam): Vice Lords - Mahsur Kalan Tayfa
+873 | Ad ve unvan | Otis - Shot Caller
+874 | Ad ve unvan | Terrence - Soldier
+875 | Ad ve unvan | Marcus - Soldier
+876 | Ad ve unvan | Thomas - Soldier
+877 | Ad ve unvan | Joan - Lookout
+878 | Ad ve unvan | Henry - Soldier
+879 | Ad ve unvan | Adam - Lookout
+880 | Ad ve unvan | Sheila - Runner
+881 | Ad ve unvan | Lonnie - Veteran
+
+##### Gangster Disciples - Stranded Crew #####
+# Katalog açıklaması: Gangster Disciples crew stranded in Louisville, holding a block of their own and watching the Vice Lords' block.
+# Oyundaki fraksiyon adı (bağlam): Gangster Disciples - Mahsur Kalan Tayfa
+882 | Ad ve unvan | Daniel - Shot Caller
+883 | Ad ve unvan | Ray - Soldier
+884 | Ad ve unvan | Frank - Soldier
+885 | Ad ve unvan | Wade - Soldier
+886 | Ad ve unvan | Darlene - Lookout
+887 | Ad ve unvan | Andre - Soldier
+888 | Ad ve unvan | Curtis - Lookout
+889 | Ad ve unvan | Angela - Runner
+890 | Ad ve unvan | Darnell - Veteran
+891 | Ad ve unvan | Lyle - Driver
+
+##### Bloods - Victory Park Crew #####
+# Katalog açıklaması: Bloods -- the Victory Park crew. Red on every cap, a set of streets, and a war across the park that outlasted the city.
+# Oyundaki fraksiyon adı (bağlam): Bloods - Victory Park Tayfası
+892 | Ad ve unvan | Ada - Lookout
+893 | Ad ve unvan | Clyde - Lookout
+894 | Ad ve unvan | Diane - Runner
+895 | Ad ve unvan | Gus - Veteran
+
+##### Crips - Victory Park Crew #####
+# Katalog açıklaması: Crips -- the Victory Park crew. Blue on every cap, the other half of the park, the other half of the war.
+# Oyundaki fraksiyon adı (bağlam): Crips - Victory Park Tayfası
+896 | Ad ve unvan | Henry - Shot Caller
+897 | Ad ve unvan | Adam - Soldier
+898 | Ad ve unvan | Earl - Soldier
+899 | Ad ve unvan | Lonnie - Soldier
+900 | Ad ve unvan | Otis - Soldier
+901 | Ad ve unvan | Terrence - Lookout
+902 | Ad ve unvan | Joan - Runner
+903 | Ad ve unvan | Thomas - Veteran
+
+##### First Family - Stranded Contacts #####
+# Katalog açıklaması: First Family contacts: made men who drove down from the north and cannot drive back. Suits, sidearms, and a plan.
+# Oyundaki fraksiyon adı (bağlam): First Family - Mahsur Kalan Bağlantılar
+904 | Ad ve unvan | Andre - Made Man
+905 | Ad ve unvan | Curtis - Associate
+906 | Ad ve unvan | Vernon - Associate
+907 | Ad ve unvan | Lyle - Associate
+908 | Ad ve unvan | Renee - Bookkeeper
+909 | Ad ve unvan | Wade - Old Associate
+910 | Ad ve unvan | Luis - Bagman

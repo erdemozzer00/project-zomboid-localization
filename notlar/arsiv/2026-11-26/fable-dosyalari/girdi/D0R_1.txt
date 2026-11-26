@@ -1,0 +1,26 @@
+# D0R · NPC konuşma açılışları · Parça 1/5 · Project A-Life 1.5.3, Project Zomboid Build 42
+# Çıktı dosyası D0R_1.txt. Yalnız N | Türkçe biçiminde 9 satır yaz. 1–9 numaralarını aynı sırada ve birer kez kullan.
+# Kentucky, 1993. NPC AÇILIŞ, konuşma penceresi açılırken NPC’nin karşısındaki oyuncuya söylediği ilk sözdür. Tekil “sen” hitabını kullan.
+# Oyun NPC’nin rolüne, tutumuna ve diğer koşullara uyan açılışlardan birini seçer. Satırlar sırayla söylenmez. Başlık ve # notları çevrilmez.
+# Numaralı satırlarda yer tutucu, %% veya \n yok. Büyük harfle vurgulanan sözcüğün işlevini Türkçede koru.
+
+##### Konuşma açılışı #####
+# NPC grubu: sivil veya aile veya işçi veya kurtarma ekibi · karakter profili: tecrübeli · oyuncuya tutumu: dost veya tarafsız.
+1 | NPC AÇILIŞ | Hello there... everything okay? you need anything?
+
+##### Konuşma açılışı #####
+# NPC grubu: sivil veya aile veya işçi veya kurtarma ekibi · oyuncuya tutumu: temkinli.
+2 | NPC AÇILIŞ | What do you want?
+3 | NPC AÇILIŞ | Yes?
+4 | NPC AÇILIŞ | You need something?
+5 | NPC AÇILIŞ | I'm listening
+
+##### Konuşma açılışı #####
+# NPC grubu: sivil veya aile veya işçi veya kurtarma ekibi · oyuncuya tutumu: dost veya tarafsız · oyuncunun NPC gözündeki itibarı: iyi veya en iyi.
+6 | NPC AÇILIŞ | Oh, it's you! I'm so glad, come, talk to me, how are you?
+7 | NPC AÇILIŞ | Hello there, you're always welcome, you know that, what's up
+
+##### Konuşma açılışı #####
+# NPC grubu: sivil veya aile veya işçi veya kurtarma ekibi · oyuncuya tutumu: temkinli veya tarafsız · oyuncunun NPC gözündeki itibarı: kötü veya en kötü.
+8 | NPC AÇILIŞ | What do you want NOW!
+9 | NPC AÇILIŞ | You, again, what is it

@@ -121,6 +121,9 @@ TURLU = {"time", "weekday", "date", "day", "name", "street", "town", "destinatio
          "at", "At", "badat", "goodat", "contactat", "placeat", "bad", "good", "season", "span", "home", "outpost",
          "kind", "nearTown", "place"}
 
+# The door caption hook validates numeric counts and requires at least two visitors in the group reply.
+KAPI_SABLONLARI = {"RD_ALifeLine_5359b13d505dae1c", "RD_ALifeLine_4697c88d71172cab"}
+
 
 def rastgele_sablonlar(kaynak, onayli):
     """Rastgele dolan yer tutuculu, çevirisi onaylı şablonlar → konuşma ekinin SABLONLAR listesi (K46).
@@ -132,7 +135,11 @@ def rastgele_sablonlar(kaynak, onayli):
     cikti = []
     for k, tr in onayli.items():
         en = kaynak.get(k)
-        if en is None or "{" not in en or V.search(en):
+        if en is None or "{" not in en or V.search(en) or k in KAPI_SABLONLARI:
+            continue
+        # MissionRules fills Dell's directions. The L152 handler validates
+        # those three values and preserves the optional tail.
+        if set(YT.findall(en)) == {"place", "dist", "dir"}:
             continue
         hal = []
         for female in (False, True):

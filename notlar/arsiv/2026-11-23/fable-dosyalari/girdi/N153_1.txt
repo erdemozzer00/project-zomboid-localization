@@ -1,0 +1,224 @@
+# N153 · NPC soruları ve cevapları · parça 1/5
+# Çıktı dosyası N153_1.txt. Yalnız N | Türkçe biçiminde 100 satır yaz. 1–100 numaralarını aynı sırayla ve bir kez kullan.
+# Project Zomboid Build 42 · Project A-Life 1.5.3 · 1993 Kentucky. NPC ve oyuncu salgın sonrasında yüz yüze konuşuyor. NPC güvenli bir anda oyuncuya soru soruyor. Tekil hitapta sen kullan. Dost, Tarafsız ve Temkinli, NPC’nin oyuncuya karşı tutumudur. Temkinli NPC karşısındakini tartar. Kaynakta verilmedikçe NPC’ye meslek, yaş, cinsiyet veya özel kimlik ekleme.
+# Önce NPC SORU havuzundan koşula uyan bir ifade seçilir. Sonra oyuncuya üç cevap dalı (B1, B2, B3) gösterilir. Her dalda, üç ifade seçeneğinden o tura denk gelen biri görünür. Oyuncunun seçtiği dal, kendisine bağlı NPC TEPKİ havuzuna gider. NPC uygun tepkilerden yalnız birini söyler. Aynı havuzdaki satırlar alternatiflerdir. “1.5.3 ek varyantı” etkin özellik bayrağına bağlı alternatifi belirtir.
+# OYUNCU ekrandaki kısa cevap seçeneğidir. NPC SORU ve NPC TEPKİ konuşulan repliktir. Numarasız · satırları dal açıklaması, mevcut çeviri veya örnek bağlamdır. Çevirme ve çıktıya alma.
+# Sözlük: survivor → hayatta kalan, group → grup, squad → tim, crew → ekip, supplies → erzak veya bağlama göre malzeme, outpost → karakol. Kişinin niyetini ve tutumunu koru. Türkçe doğal konuşma ritmini kullan. Duraksama ve kesilmeleri anlamına göre koru.
+# Numaralı satırlarda yer tutucu, \n ve %% yok. Her numaranın Türkçesi tek satırda kalır.
+
+##### Selamlaşmada nasılsın sorusu #####
+# NPC selamlaşırken oyuncunun nasıl olduğunu sorar. Bu sahnede iki dal vardır. O oyun turunda olumlu ve olumsuz dalların her biri için beş ifadeden biri gösterilir. Verilen cevap ilgili eski NPC tepki havuzunu açar.
+· NPC SORU (mevcut örnek) | Hey, you! I was hoping I'd see you, how are you doing? really? → Aa, kimler gelmiş! İyi ki karşılaştık. Nasıl gidiyor? Samimi soruyorum bak, iyi misin?
+· B1 · İyi sayılırım
+1 | OYUNCU · B1 | Yeah, I'm doing alright
+2 | OYUNCU · B1 | I'm okay, I'm okay
+3 | OYUNCU · B1 | Getting by, yeah
+4 | OYUNCU · B1 | Better than most days
+5 | OYUNCU · B1 | I'm fine, honest
+· NPC TEPKİ · B1 (mevcut örnek) | O-oh... good, good, that's a relief, you scared me, you looked so pale → O-oh... iyi, iyi. İçim rahatladı. Korkuttun beni, yüzün kireç gibiydi.
+· B2 · İyi değilim
+6 | OYUNCU · B2 | No.. not really
+7 | OYUNCU · B2 | Honestly? Not great
+8 | OYUNCU · B2 | Not good, no
+9 | OYUNCU · B2 | I've been better..
+10 | OYUNCU · B2 | Rough, really rough
+· NPC TEPKİ · B2 (mevcut örnek) | Oh no, oh no, what's wrong? tell me, tell me quick → Eyvah, eyvah! Neyin var? Söyle, çabuk söyle!
+# Selamlaşma ve aşağıdaki Nasıl dayanıyorsun? konusu ayrı soru ve cevap havuzlarını kullanır.
+
+##### Nasıl dayanıyorsun? #####
+# NPC oyuncunun salgınla nasıl baş ettiğini soruyor.
+11 | NPC SORU · Dost · 1.5.3 ek varyantı | You doing okay? Like, actually okay?
+12 | NPC SORU · Dost · 1.5.3 ek varyantı | Hey.. how's your head these days, with everything?
+13 | NPC SORU · Tarafsız · 1.5.3 ek varyantı | You keeping it together?
+14 | NPC SORU · Tarafsız · 1.5.3 ek varyantı | How are you, honestly? Not the polite answer
+15 | NPC SORU · Temkinli · 1.5.3 ek varyantı | You okay? I'm not prying, just checking
+16 | NPC SORU · Temkinli · 1.5.3 ek varyantı | Things getting to you yet?
+· NPC SORU · Dost (mevcut çeviri) | Hey... how are you holding up? → Selam... Nasılsın, dayanabiliyor musun?
+· NPC SORU · Dost (mevcut çeviri) | You getting any sleep, or just lying there listening? → Uyuyabiliyor musun bari? Yoksa yatıp sesleri mi dinliyorsun?
+· NPC SORU · Dost (mevcut çeviri) | Been a rough few days, huh? You doing alright? → Zor günler geçirdik, değil mi? Sen iyisin ya?
+· NPC SORU · Dost (mevcut çeviri) | How've you been? Really, not just the usual answer → Nasılsın? Ama sahiden soruyorum, "iyiyim" deyip geçme.
+· NPC SORU · Dost (mevcut çeviri) | You look tired, you holding together? → Yorgun görünüyorsun. Toparlayabiliyor musun kendini?
+· NPC SORU · Dost (mevcut çeviri) | Glad you're still here... how are you doing? → İyi ki hala buradasın... Nasıl gidiyor?
+· NPC SORU · Tarafsız (mevcut çeviri) | How are you doing with all this? → Bütün bu olanlarla nasıl başa çıkıyorsun?
+· NPC SORU · Tarafsız (mevcut çeviri) | You holding up out here? → Buralarda idare edebiliyor musun?
+· NPC SORU · Tarafsız (mevcut çeviri) | You alright? It's been a hell of a week → İyi misin? Ne haftaydı ama.
+· NPC SORU · Tarafsız (mevcut çeviri) | Can I ask how you're getting through this? → Sormamda sakınca yoksa, sen bu işi nasıl atlatıyorsun?
+· NPC SORU · Tarafsız (mevcut çeviri) | How've things been for you? → Senin durumlar nasıl?
+· NPC SORU · Tarafsız (mevcut çeviri) | You managing, or barely hanging on like me? → İdare ediyor musun, yoksa sen de benim gibi zor mu tutunuyorsun?
+· NPC SORU · Temkinli (mevcut çeviri) | You alright? Don't need your whole life story → İyi misin? Hayat hikayeni anlatma, kısa kes.
+· NPC SORU · Temkinli (mevcut çeviri) | Look, I'm just asking... you holding up? → Öylesine soruyorum... Dayanıyor musun?
+· NPC SORU · Temkinli (mevcut çeviri) | You doing okay out here? → Buralarda halin nasıl, iyi misin?
+· NPC SORU · Temkinli (mevcut çeviri) | This shit getting to you too? → Bu bok püsür seni de yıpratıyor mu?
+· NPC SORU · Temkinli (mevcut çeviri) | You managing? You don't have to answer → İdare ediyor musun? İstemezsen cevap verme.
+· NPC SORU · Temkinli (mevcut çeviri) | How are you coping? I'm not asking for anything → Nasıl dayanıyorsun? Senden bir şey istediğim yok, merak etme.
+· B1 · İdare ediyorum
+· OYUNCU · B1 (mevcut çeviri) | I'm holding up, thanks for asking → İdare ediyorum, sorduğun için sağ ol
+17 | OYUNCU · B1 | Getting by.. most days
+18 | OYUNCU · B1 | Okay, all things considered
+19 | NPC TEPKİ · B1 · Dost · 1.5.3 ek varyantı | That's a relief, honest, I needed to hear that from someone
+20 | NPC TEPKİ · B1 · Dost · 1.5.3 ek varyantı | Hang onto whatever's keeping you going
+21 | NPC TEPKİ · B1 · Tarafsız · 1.5.3 ek varyantı | More than most can say right now
+22 | NPC TEPKİ · B1 · Tarafsız · 1.5.3 ek varyantı | Glad to hear it, keep at it
+23 | NPC TEPKİ · B1 · Temkinli · 1.5.3 ek varyantı | Fair enough, that's all I wanted to know
+24 | NPC TEPKİ · B1 · Temkinli · 1.5.3 ek varyantı | Holding up is plenty, these days
+· NPC TEPKİ · B1 · Dost (mevcut çeviri) | Good, I'm glad you've got something keeping you going → İyi bari. Seni ayakta tutan bir şeyin olmasına sevindim.
+· NPC TEPKİ · B1 · Tarafsız (mevcut çeviri) | Alright, glad to hear it → Peki, sevindim.
+· NPC TEPKİ · B1 · Temkinli (mevcut çeviri) | Okay, that's good → Tamam, iyiymiş.
+· B2 · Pek iyi değilim
+· OYUNCU · B2 (mevcut çeviri) | Not great, to be honest → Açıkçası pek iyi değilim
+25 | OYUNCU · B2 | Honestly? Pretty rough
+26 | OYUNCU · B2 | Not good.. not good at all
+27 | NPC TEPKİ · B2 · Dost · 1.5.3 ek varyantı | Me neither.. you're not the only one, okay
+28 | NPC TEPKİ · B2 · Dost · 1.5.3 ek varyantı | Shit, I'm sorry.. sit a minute if you need to
+29 | NPC TEPKİ · B2 · Tarafsız · 1.5.3 ek varyantı | I hear you, nobody's doing great
+30 | NPC TEPKİ · B2 · Tarafsız · 1.5.3 ek varyantı | Damn.. well, you're still standing, that counts
+31 | NPC TEPKİ · B2 · Temkinli · 1.5.3 ek varyantı | Rough for all of us, I guess
+32 | NPC TEPKİ · B2 · Temkinli · 1.5.3 ek varyantı | Can't say I'm surprised
+· NPC TEPKİ · B2 · Dost (mevcut çeviri) | I'm sorry... I wish I had something better to tell you → Çok üzüldüm... Keşke içini rahatlatacak bir şey diyebilsem.
+· NPC TEPKİ · B2 · Tarafsız (mevcut çeviri) | I'm sorry, it's been hard on everyone → Kötü olmuş... Herkes için zor geçti bu günler.
+· NPC TEPKİ · B2 · Temkinli (mevcut çeviri) | I'm sorry to hear that, I won't push → Geçmiş olsun. Daha fazla deşmeyeyim.
+· B3 · Anlatmak istemiyorum
+· OYUNCU · B3 (mevcut çeviri) | I'd rather not get into it → O konuya girmesek iyi olur
+33 | OYUNCU · B3 | Let's not go there
+34 | OYUNCU · B3 | Ask me another time
+35 | NPC TEPKİ · B3 · Dost · 1.5.3 ek varyantı | Forget I asked, no pressure
+36 | NPC TEPKİ · B3 · Dost · 1.5.3 ek varyantı | That's fine, really, whenever you want
+37 | NPC TEPKİ · B3 · Tarafsız · 1.5.3 ek varyantı | Fair, I get that
+38 | NPC TEPKİ · B3 · Tarafsız · 1.5.3 ek varyantı | Dropping it, no problem
+39 | NPC TEPKİ · B3 · Temkinli · 1.5.3 ek varyantı | Suit yourself, I'm done asking
+40 | NPC TEPKİ · B3 · Temkinli · 1.5.3 ek varyantı | Keep it then, I've got my own stuff
+· NPC TEPKİ · B3 · Dost (mevcut çeviri) | Sure, you don't owe me an explanation → Tabii, bana hesap verecek değilsin.
+· NPC TEPKİ · B3 · Tarafsız (mevcut çeviri) | Alright, we can leave it there → Peki, konuyu kapatalım.
+· NPC TEPKİ · B3 · Temkinli (mevcut çeviri) | Fine, your business → İyi, sen bilirsin.
+
+##### Nereye gidiyorsun? #####
+# NPC oyuncunun karşılaşmadan sonra nereye gideceğini soruyor.
+41 | NPC SORU · Dost · 1.5.3 ek varyantı | So where to after this? Somewhere safe, I hope
+42 | NPC SORU · Dost · 1.5.3 ek varyantı | You off somewhere, or just wandering?
+43 | NPC SORU · Tarafsız · 1.5.3 ek varyantı | Where you headed after this?
+44 | NPC SORU · Tarafsız · 1.5.3 ek varyantı | Got somewhere to be?
+45 | NPC SORU · Temkinli · 1.5.3 ek varyantı | Where to next? I'd rather not cross paths by accident
+46 | NPC SORU · Temkinli · 1.5.3 ek varyantı | So what's next for you, after here?
+· NPC SORU · Dost (mevcut çeviri) | Where are you headed next? → Bundan sonra nereye gidiyorsun?
+· NPC SORU · Dost (mevcut çeviri) | Heading back somewhere, or still looking? → Döneceğin bir yer var mı, yoksa hala arıyor musun?
+· NPC SORU · Dost (mevcut çeviri) | What's your next stop? → Sıradaki durağın neresi?
+· NPC SORU · Dost (mevcut çeviri) | You got somewhere to go after this? → Buradan sonra gidecek bir yerin var mı?
+· NPC SORU · Dost (mevcut çeviri) | Going home, or looking for supplies? → Eve mi dönüyorsun, erzak peşinde misin?
+· NPC SORU · Dost (mevcut çeviri) | Where you off to? No need to tell me the address → Yolculuk nereye? Adres vermene gerek yok.
+· NPC SORU · Tarafsız (mevcut çeviri) | Where are you going from here? → Buradan nereye gideceksin?
+· NPC SORU · Tarafsız (mevcut çeviri) | You heading back, or going farther out? → Geri mi dönüyorsun, daha uzağa mı?
+· NPC SORU · Tarafsız (mevcut çeviri) | Where are you headed? Roughly, I mean → Ne tarafa gidiyorsun? Aşağı yukarı yani.
+· NPC SORU · Tarafsız (mevcut çeviri) | You staying around here? → Buralarda mı kalacaksın?
+· NPC SORU · Tarafsız (mevcut çeviri) | Got a destination, or just moving? → Gideceğin bir yer var mı, yoksa öylesine mi yürüyorsun?
+· NPC SORU · Tarafsız (mevcut çeviri) | What's bringing you down this way? → Hangi rüzgar attı seni buralara?
+· NPC SORU · Temkinli (mevcut çeviri) | Where you headed? Just checking we're not in each other's way → Ne yöne gidiyorsun? Birbirimizin ayağına dolanmayalım diye soruyorum.
+· NPC SORU · Temkinli (mevcut çeviri) | You going farther out? → Daha ileriye mi gidiyorsun?
+· NPC SORU · Temkinli (mevcut çeviri) | You staying here, or moving on? → Burada mı kalıyorsun, yoluna mı devam ediyorsun?
+· NPC SORU · Temkinli (mevcut çeviri) | Where are you off to? Keep it vague if you want → Nereye böyle? İstersen yuvarlak bir cevap ver, olur.
+· NPC SORU · Temkinli (mevcut çeviri) | Which way are you going? → Hangi tarafa gidiyorsun?
+· NPC SORU · Temkinli (mevcut çeviri) | Are you headed home? Don't tell me where it is → Eve mi gidiyorsun? Neresi olduğunu söyleme.
+· B1 · Kaldığım yere dönüyorum
+· OYUNCU · B1 (mevcut çeviri) | Back to where I'm staying → Kaldığım yere dönüyorum
+47 | OYUNCU · B1 | Heading back to my place
+48 | OYUNCU · B1 | Back where I sleep
+49 | NPC TEPKİ · B1 · Dost · 1.5.3 ek varyantı | Get some rest when you're there, alright
+50 | NPC TEPKİ · B1 · Dost · 1.5.3 ek varyantı | Glad you've got somewhere, seriously
+51 | NPC TEPKİ · B1 · Tarafsız · 1.5.3 ek varyantı | Watch yourself getting there
+52 | NPC TEPKİ · B1 · Tarafsız · 1.5.3 ek varyantı | Makes sense, safe trip
+53 | NPC TEPKİ · B1 · Temkinli · 1.5.3 ek varyantı | Don't need to know where it is, keep it
+54 | NPC TEPKİ · B1 · Temkinli · 1.5.3 ek varyantı | I won't follow, don't worry
+· NPC TEPKİ · B1 · Dost (mevcut çeviri) | Hope you get back in one piece → İnşallah sağ salim varırsın evine.
+· NPC TEPKİ · B1 · Tarafsız (mevcut çeviri) | Alright, take care on your way back → Tamam, dönerken dikkat et kendine.
+· NPC TEPKİ · B1 · Temkinli (mevcut çeviri) | Okay, I won't ask where → Tamam, neresi diye sormayacağım.
+· B2 · Erzak arıyorum
+· OYUNCU · B2 (mevcut çeviri) | Looking for supplies → Malzeme arıyorum
+55 | OYUNCU · B2 | Wherever there's food left
+56 | OYUNCU · B2 | Out scrounging, same as always
+57 | NPC TEPKİ · B2 · Dost · 1.5.3 ek varyantı | Hope you find something good, honestly
+58 | NPC TEPKİ · B2 · Dost · 1.5.3 ek varyantı | Be careful picking through stuff, places get nasty
+59 | NPC TEPKİ · B2 · Tarafsız · 1.5.3 ek varyantı | Everybody's picking the same bones
+60 | NPC TEPKİ · B2 · Tarafsız · 1.5.3 ek varyantı | Good luck, it's slim pickings lately
+61 | NPC TEPKİ · B2 · Temkinli · 1.5.3 ek varyantı | Just don't pick my spots clean
+62 | NPC TEPKİ · B2 · Temkinli · 1.5.3 ek varyantı | Go on then, I won't keep you
+· NPC TEPKİ · B2 · Dost (mevcut çeviri) | Good luck, hope there's something left for you → Kolay gelsin, inşallah sana da bir şeyler kalmıştır.
+· NPC TEPKİ · B2 · Tarafsız (mevcut çeviri) | Yeah, there's never enough, is there? → Öyle, ne bulsan yetmiyor, değil mi?
+· NPC TEPKİ · B2 · Temkinli (mevcut çeviri) | Fine, don't let me keep you → İyi, seni tutmayayım o zaman.
+· B3 · Nereye gittiğimi söylemem
+· OYUNCU · B3 (mevcut çeviri) | I'd rather keep that to myself → Orası bende kalsın
+63 | OYUNCU · B3 | Somewhere, that's all you get
+64 | OYUNCU · B3 | Wherever I end up, really
+65 | NPC TEPKİ · B3 · Dost · 1.5.3 ek varyantı | No, that's smart, actually
+66 | NPC TEPKİ · B3 · Dost · 1.5.3 ek varyantı | Fair, I'd do the same
+67 | NPC TEPKİ · B3 · Tarafsız · 1.5.3 ek varyantı | Keep it close then, that's fair
+68 | NPC TEPKİ · B3 · Tarafsız · 1.5.3 ek varyantı | No problem, it was just small talk
+69 | NPC TEPKİ · B3 · Temkinli · 1.5.3 ek varyantı | Noted, I won't ask twice
+70 | NPC TEPKİ · B3 · Temkinli · 1.5.3 ek varyantı | Smart, less I know, the better
+· NPC TEPKİ · B3 · Dost (mevcut çeviri) | That's alright, I didn't mean to pry → Olsun, niyetim işine burnumu sokmak değildi.
+· NPC TEPKİ · B3 · Tarafsız (mevcut çeviri) | Fair enough, you don't know me → Haklısın, beni tanımıyorsun sonuçta.
+· NPC TEPKİ · B3 · Temkinli (mevcut çeviri) | Fine, keep it to yourself → İyi, kendine sakla.
+
+##### Geldiğin yol nasıldı? #####
+# NPC oyuncunun geldiği yolda tehlike görüp görmediğini soruyor. Yoldaki ölülerden söz eden cevap zombi tehdidini anlatıyor.
+71 | NPC SORU · Dost · 1.5.3 ek varyantı | Anything bad back the way you came?
+72 | NPC SORU · Dost · 1.5.3 ek varyantı | Rough trip getting here? You can tell me
+73 | NPC SORU · Tarafsız · 1.5.3 ek varyantı | Anything happening back where you were?
+74 | NPC SORU · Tarafsız · 1.5.3 ek varyantı | How bad is it out there, where you've been?
+75 | NPC SORU · Temkinli · 1.5.3 ek varyantı | Anything nasty back your way? I'd rather hear it now
+76 | NPC SORU · Temkinli · 1.5.3 ek varyantı | What did you see coming in? Don't sugarcoat it
+· NPC SORU · Dost (mevcut çeviri) | See anything on your way here I should know about? → Gelirken bir şeye rastladın mı? Varsa ben de bileyim.
+· NPC SORU · Dost (mevcut çeviri) | How was the way here? Anything bad? → Yolun nasıl geçti? Ters bir şey var mıydı?
+· NPC SORU · Dost (mevcut çeviri) | Any trouble behind you? I'd rather hear it from you → Geldiğin tarafta bela var mı? Varsa senin ağzından duyayım.
+· NPC SORU · Dost (mevcut çeviri) | What did you run into out there? → Neler çıktı karşına oralarda?
+· NPC SORU · Dost (mevcut çeviri) | Anything I should keep away from if I go that way? → O yöne gidecek olsam nelerden uzak durayım?
+· NPC SORU · Dost (mevcut çeviri) | Getting here go alright, or did you have to run? → Rahat gelebildin mi, yoksa kaça kaça mı geldin?
+· NPC SORU · Tarafsız (mevcut çeviri) | Anything happening out there? → Dışarıda durum ne, bir şey var mı?
+· NPC SORU · Tarafsız (mevcut çeviri) | You see much trouble on your way here? → Yolda çok belaya denk geldin mi?
+· NPC SORU · Tarafsız (mevcut çeviri) | Anything I should watch for if I go that way? → O tarafa gidersem neye dikkat edeyim?
+· NPC SORU · Tarafsız (mevcut çeviri) | What's it like back where you came from? → Senin geldiğin taraflar ne alemde?
+· NPC SORU · Tarafsız (mevcut çeviri) | Did you pass anything dangerous? → Yolunun üstünde tehlikeli bir şey var mıydı?
+· NPC SORU · Tarafsız (mevcut çeviri) | How's it looking where you came from? → Oralar nasıl, geldiğin yerde vaziyet ne?
+· NPC SORU · Temkinli (mevcut çeviri) | Anything following you here? → Peşine takılan bir şey var mı?
+· NPC SORU · Temkinli (mevcut çeviri) | You bring any trouble with you? → Başıma bela getirmedin, değil mi?
+· NPC SORU · Temkinli (mevcut çeviri) | What's behind you? Anything I need to worry about? → Arkanda ne var? Dert etmem gereken bir şey mi?
+· NPC SORU · Temkinli (mevcut çeviri) | It clear where you came from? → Geldiğin yer temiz mi?
+· NPC SORU · Temkinli (mevcut çeviri) | You see anything bad on the way here? → Buraya gelirken gözüne kötü bir şey çarptı mı?
+· NPC SORU · Temkinli (mevcut çeviri) | Any trouble out there? I'm asking about where you came from, not your business → Oralarda sıkıntı var mı? Ne iş çevirdiğini sormuyorum, geldiğin yeri soruyorum.
+· B1 · Belirgin tehlike görmedim
+· OYUNCU · B1 (mevcut çeviri) | Nothing worth mentioning where I've been → Geldiğim yerlerde anlatmaya değer bir şey yok
+77 | OYUNCU · B1 | Quiet, mostly, nothing big
+78 | OYUNCU · B1 | Pretty clear, as far as I saw
+79 | NPC TEPKİ · B1 · Dost · 1.5.3 ek varyantı | Oh thank God, finally some good news
+80 | NPC TEPKİ · B1 · Dost · 1.5.3 ek varyantı | I'll take quiet, I'll take it gladly
+81 | NPC TEPKİ · B1 · Tarafsız · 1.5.3 ek varyantı | Quiet's good, quiet's rare
+82 | NPC TEPKİ · B1 · Tarafsız · 1.5.3 ek varyantı | Worth knowing, thanks
+83 | NPC TEPKİ · B1 · Temkinli · 1.5.3 ek varyantı | Quiet doesn't last, but okay
+84 | NPC TEPKİ · B1 · Temkinli · 1.5.3 ek varyantı | We'll see, I'll check anyway
+· NPC TEPKİ · B1 · Dost (mevcut çeviri) | Thanks, I'll still keep my eyes open → Sağ ol. Ben yine de gözümü dört açarım.
+· NPC TEPKİ · B1 · Tarafsız (mevcut çeviri) | Alright, thanks for telling me → Tamam, haber verdiğin iyi oldu, sağ ol.
+· NPC TEPKİ · B1 · Temkinli (mevcut çeviri) | Okay, I'll look for myself too → Tamam, ben yine de kendi gözümle bir bakarım.
+· B2 · Yolda ölüler var
+· OYUNCU · B2 (mevcut çeviri) | I've seen dead people on the road, be careful → Yolda ölüler gördüm, dikkatli ol
+85 | OYUNCU · B2 | Plenty of the dead, watch yourself
+86 | OYUNCU · B2 | It's crawling with them back there
+87 | NPC TEPKİ · B2 · Dost · 1.5.3 ek varyantı | Shit.. okay, okay, I'll stay away from that way
+88 | NPC TEPKİ · B2 · Dost · 1.5.3 ek varyantı | God.. thanks for telling me, really
+89 | NPC TEPKİ · B2 · Tarafsız · 1.5.3 ek varyantı | Damn, I'll keep my eyes open
+90 | NPC TEPKİ · B2 · Tarafsız · 1.5.3 ek varyantı | Figures, they're everywhere now
+91 | NPC TEPKİ · B2 · Temkinli · 1.5.3 ek varyantı | Noted, I'll go wide around it
+92 | NPC TEPKİ · B2 · Temkinli · 1.5.3 ek varyantı | Then I'm not going back that way
+· NPC TEPKİ · B2 · Dost (mevcut çeviri) | Shit... thanks for the warning → Hassiktir... Uyardığın iyi oldu, sağ ol.
+· NPC TEPKİ · B2 · Tarafsız (mevcut çeviri) | Alright, I'll be careful → Tamam, dikkat ederim.
+· NPC TEPKİ · B2 · Temkinli (mevcut çeviri) | Good to know, I'll watch for them → Öğrendiğim iyi oldu. Tetikte olurum.
+· B3 · Fazla dolaşmadım, bilmiyorum
+· OYUNCU · B3 (mevcut çeviri) | I haven't been far, I can't tell you much → Pek uzağa gitmedim, sana fazla bir şey söyleyemem
+93 | OYUNCU · B3 | Couldn't tell you, I kept my head down
+94 | OYUNCU · B3 | No idea, I haven't looked around much
+95 | NPC TEPKİ · B3 · Dost · 1.5.3 ek varyantı | That's okay, keeping your head down is smart
+96 | NPC TEPKİ · B3 · Dost · 1.5.3 ek varyantı | No worries, honest beats a guess
+97 | NPC TEPKİ · B3 · Tarafsız · 1.5.3 ek varyantı | Worth asking anyway
+98 | NPC TEPKİ · B3 · Tarafsız · 1.5.3 ek varyantı | I'll find out myself then
+99 | NPC TEPKİ · B3 · Temkinli · 1.5.3 ek varyantı | Guess I'll go slow and find out
+100 | NPC TEPKİ · B3 · Temkinli · 1.5.3 ek varyantı | Then I'll assume the worst
+· NPC TEPKİ · B3 · Dost (mevcut çeviri) | That's alright, better than making something up → Olsun, kafadan atmandan iyidir.
+· NPC TEPKİ · B3 · Tarafsız (mevcut çeviri) | Fair enough, thanks anyway → Ne yapalım, yine de sağ ol.
+· NPC TEPKİ · B3 · Temkinli (mevcut çeviri) | Fine, I won't count on it being clear → İyi. Yol temizdir diye güvenmem o zaman.

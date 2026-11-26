@@ -1,0 +1,101 @@
+# Project A-Life 1.5.2 · Genel görev günlüğü · 2/2 · Değişkenli aşamalar, ilerleme ve yer tarifleri
+# Yalnız 62–92 numaralı İngilizce satırları çevir. Sıra aynı kalsın. Çıktı biçimi N | Türkçe.
+# Başlıklar ve numarasız açıklamalar bağlam. Görev aşamaları kısa eylem etiketi, bildirim ve durumlar ise kısa arayüz metni.
+# {…} yer tutucularını ve varsa yazılı \n satır ayrımlarını aynen koru. Değişken kişi, eşya ve yer adlarına doğrudan ek getirmeyecek bir yapı kullan.
+# Türkçe cümle sırasına göre yer tutucuların yerini değiştirebilirsin. Tamamı büyük harfli etiketlerin büyük harf biçimini koru.
+# Terimler · faction = fraksiyon, preset = şablon, outpost = karakol, camp = kamp, crew = ekip.
+
+##### Bir evi temizle #####
+# Görevin İngilizce özeti (bağlam) · Empty a house of the dead so the group can use it
+# temkinli yol aşama 2. {place} bu aşamada house yer türünü alır.
+62 | Thin out the {place}
+
+##### Mesaj götür #####
+# Görevin İngilizce özeti (bağlam) · Carry a written message to another camp
+# temkinli yol aşama 2. {place} bu aşamada next spot yer türünü alır.
+63 | Hand the note over at the {place}
+
+##### Tıbbi yardım götür #####
+# Görevin İngilizce özeti (bağlam) · Carry dressings to a wounded person and treat them
+# temkinli yol aşama 2. {place} bu aşamada marker yer türünü alır.
+64 | Treat the wounded at the {place}
+
+##### Takas seferi #####
+# Görevin İngilizce özeti (bağlam) · Carry a crate to another camp and bring something back
+# temkinli yol aşama 1. {place} bu aşamada marker yer türünü alır.
+65 | Hand the crate over at the {place}
+
+##### Dolaşan ölüleri avla #####
+# Görevin İngilizce özeti (bağlam) · Track down the pack that keeps turning up on the road
+# temkinli yol aşama 1, riskli yol aşama 1. {place} bu aşamada marker yer türünü alır.
+66 | Track the pack to the {place}
+
+##### Elektriği geri getir #####
+# Görevin İngilizce özeti (bağlam) · Take wire and a screwdriver to a dead breaker box
+# temkinli yol aşama 2. {place} bu aşamada marker yer türünü alır.
+67 | Splice the line at the {place}
+
+##### Bir komşuyu yokla #####
+# Görevin İngilizce özeti (bağlam) · Knock on a door and report what you find
+# temkinli yol aşama 1, riskli yol aşama 1. {place} bu aşamada house yer türünü alır.
+68 | Check the {place}
+
+##### Aktif aşamanın ayrıntısı #####
+# Günlük ve görev kartındaki kısa talimat veya durum. Bunları NPC konuşması gibi yazma.
+# Oyuncu topladığı eşyaları çantasında tutacak.
+69 | Keep them in your pack
+# Oyuncu gereken eşyaları işaretli noktaya götürecek.
+70 | Bring them to the spot
+# Bölgedeki zombileri öldürme talimatı.
+71 | Kill what is there
+# {n} bölgede kalınacak yaklaşık dakika sayısı.
+72 | About {n} minutes left on site
+# {dist} metre cinsinden sayı. {dir} oyuncuya göre pusula yönü. Bu parça tek başına durabilir veya arkasına kısa bir cümle gelebilir.
+73 | About {dist} meters {dir}
+
+##### Görev tamamlandığında kazandırılan olanak #####
+# Görev tamamlanınca gelecekteki görevleri etkileyen kısa kazanım adları. Bunları görev talimatı biçimine sokma.
+# {unlock} kazanımın o anda gösterilen kısa adı. Değişebilen ada doğrudan ek getirme.
+74 | Task complete, {unlock} unlocked
+
+##### Kazanım adları #####
+# Bir önceki bildirimin {unlock} alanında kullanılan kısa adlar.
+# Kazandıran görev · Bir yolu keşfet.
+75 | Road intel
+# Kazandıran görev · Kayıp birini bul.
+76 | Search party
+# Kazandıran görev · Takas seferi.
+77 | Trader pass
+# Kazandıran görev · Telsiz parçası bul.
+78 | Radio link
+# Kazandıran görev · Kapıyı koru.
+79 | Gate watch
+# Kazandıran görev · Jeneratörü onar, Elektriği geri getir.
+80 | Power back
+# Kazandıran görev · Bir evi temizle.
+81 | Cleared house
+# Kazandıran görev · Sonraki kasabaya refakat et, Kayıp sandığı bul.
+82 | Convoy trust
+# Kazandıran görev · Bir bağlantıyla buluş.
+83 | Field notes
+# Kazandıran görev · İlaç getir, Tıbbi yardım götür.
+84 | Medic's debt
+
+##### Görev yer tarifleri #####
+# Oyuncuya dinamik görev konumu anlatılıyor. Numaralı yer türleri etiket veya öbek parçası olarak kullanılır. Hazır yer türleri (bağlam) · house = ev, warehouse = depo, store = mağaza, clothing store = kıyafet mağazası, electronics store = elektronik mağazası, farm = çiftlik, pharmacy = eczane, marker = işaret.
+# {place} yer türü, {dist} mesafe, {dir} pusula yönü. Bu öbek {where} alanına girer. Başka bir cümleye eklenebileceği için sonuna nokta koyma.
+85 | the {place}, about {dist} meters {dir}
+# {townphrase}, {place} için kasabayla ilişkiyi bildirir, örneğin kasabanın içinde veya yakınında. Bu öbek de başka bir cümlenin içinde kullanılabilir.
+86 | the {place} {townphrase}, about {dist} meters {dir}
+# Belirli yer veya mesafe verilemediğinde kullanılan kısa belirsiz konum.
+87 | out there
+# Araç bakım veya onarım yeri.
+88 | garage
+# Oyuncuya gösterilen daha uzaktaki hedef işareti.
+89 | far marker
+# Önceki duraktan sonraki hedef nokta.
+90 | next spot
+# Yakın veya türü belirsiz görev noktası.
+91 | spot
+# Görevi verenin bulunduğu mevzi. Kapı nöbeti ve dönüş aşamalarında kullanılabilir.
+92 | post

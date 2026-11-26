@@ -1,0 +1,186 @@
+# U1R · 12/14 · Yerleşimler, birlikler ve bölge ağları
+# Çıktı dosyası: U1R_12.txt. Dosyaya yalnız N | Türkçe satırlarını yaz. 1105–1208 arasındaki her numarayı aynı sırada bir kez kullan.
+# Başlıklar ve numarasız notlar bağlamdır. Çevrilecek metin her numaralı satırın son sütunundadır.
+# DÜNYA VE EKRAN: Project Zomboid, 1993 Kentucky’si. Bunlar Oluşturucu’da ve katalogda NPC üye şablonunu tanıtan kısa ekran etiketleridir.
+# BİÇİM: “Ad ve unvan” satırında kişi adını ve boşluklu “ - ” ayracını koru. Unvanı kısa bir Türkçe ad öbeği olarak yaz. “Şablon adı” tek parça bir etikettir. İçinde bir ad ve rütbe varsa kişinin adını koruyup rütbeyi Türkçeleştir. Yer ve kişi adlarını, numaraları ve model kodlarını koru. Sona nokta koyma.
+# BAĞLAM: Her başlık bir fraksiyondur. İngilizce grup açıklaması oyunun kataloğundan alınmıştır. Açıklamadaki olaylar çevrilecek ada eklenmez. “Ortak etiket” notu bir sonraki satırın aynı metinle kullanıldığı diğer grupları sayar. Bu satıra hepsine uyan tek karşılık yaz.
+# TERİM BAĞLAMI: Watch sözcüğü yerleşim nöbetiyle ilgilidir. Riverside ve Knox gibi yer adlarını koru. TEST ile başlayan şablonlarda TEST önekini ve model adlarını aynen yaz. 1H tek elle kullanımı belirtir.
+# SABİT KARŞILIKLAR: Scavenger → Leşçi (haydut fraksiyonundaki NPC unvanı) · Hired Hand → Çiftlik İşçisi
+
+##### Riverside Survivors #####
+# Katalog açıklaması: Neighbours who armed themselves. Not soldiers: they scavenge, they stay together, and they break when it turns bad.
+# Oyundaki fraksiyon adı (bağlam): Riverside'daki Sağ Kalanlar
+# TEST etiketleri yönetici/Oluşturucu kataloğunda yer alan deneme şablonlarıdır.
+1105 | Şablon adı | Drifter Scout
+1106 | Şablon adı | TEST Unarmed
+1107 | Şablon adı | TEST Revolver
+1108 | Şablon adı | TEST Long Gun
+1109 | Şablon adı | TEST M1911 Handgun
+1110 | Şablon adı | TEST Spear
+1111 | Şablon adı | TEST Knife 1H
+1112 | Şablon adı | TEST Two-Handed
+1113 | Şablon adı | TEST M16 Rifle
+1114 | Şablon adı | Riverside Hunter
+1115 | Şablon adı | Riverside Scrapper
+1116 | Şablon adı | Riverside Nurse
+1117 | Şablon adı | Riverside Elder
+
+##### Truck Stop Commune #####
+# Katalog açıklaması: Truck Stop Commune: drivers who were passing through and stayed. Diesel, CB radio, and a lot of guns behind the counter.
+# Oyundaki fraksiyon adı (bağlam): Kamyoncu Durağı Komünü
+1118 | Ad ve unvan | Otis - Owner
+# Ortak etiket · Şu gruplarda da kullanılır: Schoolhouse
+1119 | Ad ve unvan | Marcus - Driver
+1120 | Ad ve unvan | Sheila - Waitress
+# Ortak etiket · Şu gruplarda da kullanılır: Crips - Victory Park Crew
+1121 | Ad ve unvan | Leon - Driver
+1122 | Ad ve unvan | Henry - Driver
+1123 | Ad ve unvan | Grace - Driver
+1124 | Ad ve unvan | Earl - Cook
+1125 | Ad ve unvan | Joan - Cashier
+1126 | Ad ve unvan | Roy - Old Trucker
+1127 | Ad ve unvan | Boyd - Lot Boy
+
+##### County Gun Club #####
+# Katalog açıklaması: County Gun Club: people who owned rifles before it was necessary, and know how to use them.
+# Oyundaki fraksiyon adı (bağlam): İlçe Atıcılık Kulübü
+1128 | Ad ve unvan | Daniel - Range Officer
+1129 | Ad ve unvan | Ray - Member
+1130 | Ad ve unvan | Frank - Member
+1131 | Ad ve unvan | Angela - Member
+1132 | Ad ve unvan | Luis - Member
+1133 | Ad ve unvan | Carla - Member
+1134 | Ad ve unvan | Curtis - Trapper
+# Ortak etiket · Şu gruplarda da kullanılır: Bone Raiders
+1135 | Ad ve unvan | Vernon - Scout
+1136 | Ad ve unvan | Darlene - Guide
+1137 | Ad ve unvan | Lyle - Tracker
+
+##### The Prepared #####
+# Katalog açıklaması: The Prepared: a family that built the cellar for exactly this, and does not want company.
+# Oyundaki fraksiyon adı (bağlam): Hazırlıkçılar
+1138 | Ad ve unvan | Calvin - Prepper
+1139 | Ad ve unvan | Ruth - Prepper
+1140 | Ad ve unvan | Scott - Prepper
+1141 | Ad ve unvan | Diane - Prepper
+1142 | Ad ve unvan | Dwight - Prepper
+1143 | Ad ve unvan | Bonnie - Guide
+
+##### Schoolhouse #####
+# Katalog açıklaması: Schoolhouse: teachers who kept the building and whoever came to it. Friendly, organised, and out of food.
+# Oyundaki fraksiyon adı (bağlam): Okul Binası
+1144 | Ad ve unvan | Henry - Principal
+1145 | Ad ve unvan | Grace - Teacher
+1146 | Ad ve unvan | Earl - Teacher
+1147 | Ad ve unvan | Lonnie - Coach
+1148 | Ad ve unvan | Tammy - Teacher
+1149 | Ad ve unvan | Otis - Logistics Volunteer
+1150 | Ad ve unvan | Sheila - Nurse Volunteer
+1151 | Ad ve unvan | Claire - Social Worker
+
+##### Stockyard Co-op #####
+# Katalog açıklaması: Stockyard Co-op: cattlemen who pooled the herds and the feed. Nobody eats for free.
+# Oyundaki fraksiyon adı (bağlam): Hayvan Pazarı Kooperatifi
+1152 | Ad ve unvan | Andre - Auctioneer
+1153 | Ad ve unvan | Curtis - Hand
+1154 | Ad ve unvan | Vernon - Hand
+1155 | Ad ve unvan | Darlene - Hand
+1156 | Ad ve unvan | Lyle - Hand
+1157 | Ad ve unvan | Daniel - Hired Hand
+1158 | Ad ve unvan | Angela - Daughter
+1159 | Ad ve unvan | Frank - Old Uncle
+1160 | Ad ve unvan | Wade - Cousin
+
+##### Rivermen #####
+# Katalog açıklaması: Rivermen: towboat and barge crews off the Ohio, working the wharfs for whatever floats.
+# Oyundaki fraksiyon adı (bağlam): Nehir Tayfası
+1161 | Ad ve unvan | Evan - Deckhand
+
+##### Salt River Ferrymen #####
+# Katalog açıklaması: Salt River Ferrymen: a johnboat crew moving people over the river for fuel or tinned food. They hold the landing, and they wave you off before they let you near the water.
+1162 | Ad ve unvan | Andre - Ferryman
+1163 | Ad ve unvan | Curtis - Deckhand
+1164 | Ad ve unvan | Yvonne - Deckhand
+1165 | Ad ve unvan | Darnell - Boat Hand
+1166 | Ad ve unvan | Lyle - Deckhand
+1167 | Ad ve unvan | Daniel - Net Hand
+1168 | Ad ve unvan | Carla - Cook
+1169 | Ad ve unvan | Frank - Old Skipper
+1170 | Ad ve unvan | Wade - Deck Boy
+
+##### Knox Commonwealth #####
+# Katalog açıklaması: Neighbours, farmers and former responders sharing a council and a watch. They ask to see your hands, not your badge.
+# Ortak etiket · Şu gruplarda da kullanılır: Ridge Militia League · Valley Caravan League · Ekron Farm Co-op · Mount Hope Fellowship · Foundry Works Collective · Hollow Compact · Redline Reavers · The Tithe · Night Shift · Iron Choir
+1171 | Ad ve unvan | Ed - Watch Captain
+# Ortak etiket · Şu gruplarda da kullanılır: Ridge Militia League · Valley Caravan League · Ekron Farm Co-op · Riverside Ferry Union · Mount Hope Fellowship · Foundry Works Collective · Hollow Compact · Clinic Circle · Redline Reavers · The Tithe · Night Shift · Iron Choir
+1172 | Ad ve unvan | Mara - Watch Member
+# Ortak etiket · Şu gruplarda da kullanılır: Ridge Militia League · Valley Caravan League · Ekron Farm Co-op · Riverside Ferry Union · Mount Hope Fellowship · Foundry Works Collective · Hollow Compact · Clinic Circle · Redline Reavers · The Tithe · Night Shift · Iron Choir
+1173 | Ad ve unvan | Roy - Gate Guard
+# Ortak etiket · Şu gruplarda da kullanılır: Ridge Militia League · Valley Caravan League · Ekron Farm Co-op · Riverside Ferry Union · Foundry Works Collective · Hollow Compact
+1174 | Ad ve unvan | June - Trader
+# Ortak etiket · Şu gruplarda da kullanılır: Ridge Militia League · Ekron Farm Co-op · Riverside Ferry Union · Mount Hope Fellowship · Clinic Circle · Redline Reavers · The Tithe · Night Shift · Iron Choir
+1175 | Ad ve unvan | Cal - Runner
+# Ortak etiket · Şu gruplarda da kullanılır: Ridge Militia League · Ekron Farm Co-op
+1176 | Ad ve unvan | Beth - Farmer
+# Ortak etiket · Şu gruplarda da kullanılır: Ridge Militia League · Ekron Farm Co-op · Riverside Ferry Union · Mount Hope Fellowship · Foundry Works Collective · Hollow Compact · Clinic Circle · Redline Reavers · The Tithe · Night Shift · Iron Choir
+1177 | Ad ve unvan | Russ - Mechanic
+# Ortak etiket · Şu gruplarda da kullanılır: Ridge Militia League · Valley Caravan League · Ekron Farm Co-op · Riverside Ferry Union · Mount Hope Fellowship · Foundry Works Collective · Hollow Compact · Clinic Circle · Redline Reavers · The Tithe · Night Shift · Iron Choir
+1178 | Ad ve unvan | Nora - Carer
+# Ortak etiket · Şu gruplarda da kullanılır: Ridge Militia League · Valley Caravan League · Ekron Farm Co-op · Mount Hope Fellowship · Foundry Works Collective · Hollow Compact · Clinic Circle · Redline Reavers · The Tithe · Night Shift · Iron Choir
+1179 | Ad ve unvan | Walt - Hunter
+# Ortak etiket · Şu gruplarda da kullanılır: Ridge Militia League · Valley Caravan League · Ekron Farm Co-op · Riverside Ferry Union · Mount Hope Fellowship · Foundry Works Collective · Hollow Compact · Clinic Circle · Redline Reavers · The Tithe · Night Shift · Iron Choir
+1180 | Ad ve unvan | Ruth - Watch Marksman
+# Ortak etiket · Şu gruplarda da kullanılır: Ridge Militia League · Valley Caravan League · Ekron Farm Co-op · Riverside Ferry Union · Mount Hope Fellowship · Foundry Works Collective · Hollow Compact · Clinic Circle
+1181 | Ad ve unvan | Lou - Elder
+# Ortak etiket · Şu gruplarda da kullanılır: Ridge Militia League · Valley Caravan League · Ekron Farm Co-op · Hollow Compact · Redline Reavers · The Tithe · Night Shift · Iron Choir
+1182 | Ad ve unvan | Dee - Carpenter
+1183 | Ad ve unvan | Frank - Former Police Officer
+1184 | Ad ve unvan | Jess - Former Firefighter
+1185 | Ad ve unvan | Hal - Former EMT
+1186 | Ad ve unvan | Anne - Former Guardsman
+
+##### Valley Caravan League #####
+# Katalog açıklaması: Drivers, traders and guards carrying supplies between settlements. Their markets need a clear road and somebody watching it.
+1187 | Ad ve unvan | Cal - Outrider
+1188 | Ad ve unvan | Beth - Driver
+1189 | Ad ve unvan | Russ - Caravan Mechanic
+
+##### Riverside Ferry Union #####
+# Katalog açıklaması: Dock hands and river families keeping their landing supplied. They trade fish and repairs, and watch the bank after dark.
+1190 | Ad ve unvan | Ed - Dock Boss
+1191 | Ad ve unvan | Beth - Boat Hand
+1192 | Ad ve unvan | Walt - Bank Fisher
+1193 | Ad ve unvan | Dee - Boat Repairer
+
+##### Mount Hope Fellowship #####
+# Katalog açıklaması: A kitchen, a schoolroom and a gate watch run by families who took each other in. Help is welcome; trouble stays outside.
+1194 | Ad ve unvan | June - Cook
+1195 | Ad ve unvan | Beth - Kitchen Gardener
+1196 | Ad ve unvan | Dee - Preacher
+
+##### Foundry Works Collective #####
+# Katalog açıklaması: Mechanics and metalworkers keeping a salvage yard running. They will repair what they can if you bring something worth trading.
+1197 | Ad ve unvan | Cal - Salvage Runner
+1198 | Ad ve unvan | Beth - Welder
+1199 | Ad ve unvan | Dee - Plate Maker
+
+##### Hollow Compact #####
+# Katalog açıklaması: Hollow families sharing hunting ground and stores. They prefer an agreed meeting place to strangers walking into camp.
+1200 | Ad ve unvan | Cal - Hollow Scout
+1201 | Ad ve unvan | Beth - Forager
+
+##### Clinic Circle #####
+# Katalog açıklaması: Carers and volunteers running small clinics with whatever they can find. A guarded door buys the patients some peace.
+1202 | Ad ve unvan | Ed - Clinic Watch Captain
+1203 | Ad ve unvan | June - Supply Clerk
+1204 | Ad ve unvan | Beth - Carer
+1205 | Ad ve unvan | Dee - Clinic Hand
+
+##### Redline Reavers #####
+# Katalog açıklaması: A highway crew living off stolen fuel and other people's convoys. If they block the road, it is not a rescue.
+# Ortak etiket · Şu gruplarda da kullanılır: The Tithe · Night Shift · Iron Choir
+1206 | Ad ve unvan | June - Collector
+# Ortak etiket · Şu gruplarda da kullanılır: The Tithe · Night Shift · Iron Choir
+1207 | Ad ve unvan | Beth - Scavenger
+# Ortak etiket · Şu gruplarda da kullanılır: The Tithe · Night Shift · Iron Choir
+1208 | Ad ve unvan | Lou - Lookout

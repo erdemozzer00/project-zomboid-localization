@@ -1,0 +1,40 @@
+# Project Zomboid Build 42 · Project A-Life 1.5.4
+# Çıktı DR154_1.txt. Yalnız numaralı satırları N | Türkçe biçiminde döndür.
+# NPC, ekip, araç, rota ve şoför terimlerini kullan. Get in & drive → Bin ve sür. Player drives → Oyuncu sürer.
+# Yer tutucu ve kaçış dizisi yok. STOP, Start drive ve Attack mode atıfları paket içindeki düğmelerle eşleşir.
+
+##### Yönetici sürüş paneli · araç kumandaları #####
+Yönetici bir aracı seçer, ekibi bindirir ve kayıtlı rotada sürüş başlatır. Mod düğmeleri şoförün ve yolcuların kim olabileceğini belirler.
+1–12 düğme adlarıdır. 13–32 fareyle üzerine gelince görülen, farklı panel durumlarına ait ipuçlarıdır. İpuçları sırayla gösterilmez.
+1 | Düğme | NPC drives / riders
+2 | Düğme | NPC only
+3 | Düğme | Attack mode
+4 | Düğme | Repair car HP
+5 | Düğme | Cancel mode change
+6 | Düğme | Ride as passenger
+7 | Düğme | Start drive
+8 | Düğme | Done & drive
+9 | Düğme | STOP
+10 | Düğme | Get in car
+11 | Düğme | Get out of car
+12 | Düğme | Edit NPC attachments
+13 | İpucu | Attack mode starts automatically when a seated NPC passenger engages a player through normal hostility or retaliation. Requires an NPC driver and at least one hostile or retaliating passenger; player-occupied cars cannot auto-attack. Armed engaging passengers can fire. Switching mode resumes the saved route; STOP keeps the car parked.
+14 | İpucu | Reserve the driver seat for a player; all linked NPCs ride as passengers. A driver-mode change waits for a safe stop and crew exit.
+15 | İpucu | NPC driver; players may use unreserved passenger seats. Driver-mode changes keep the route and wait for a safe stop.
+16 | İpucu | NPC driver; block new player boarding. Players already inside can stay or leave.
+17 | İpucu | Cancel Attack mode and stop the car. Crew stays seated.
+18 | İpucu | Chasing a player. Saved waypoints resume when the threat clears or Attack mode is switched off.
+19 | İpucu | Stop this car and hold automatic attacks. Seated crew stays inside until Start drive or Attack mode is selected.
+20 | İpucu | Debug repair: stop the car, then restore its shared HP and engine. Does not restart the car or reboard the crew.
+21 | İpucu | Cancel boarding and the queued drive for this car.
+22 | İpucu | Attached NPCs walk to their assigned seats, then wait inside.
+23 | İpucu | Select a loaded car dot first.
+24 | İpucu | Review links or detach one NPC. The car stops before they get out. Park to add passengers.
+25 | İpucu | Park the car before editing NPC attachments.
+26 | İpucu | Edit this car's driver and passengers, or detach all NPCs.
+27 | İpucu | Boarding, then driving. Press STOP to cancel.
+28 | İpucu | Wait for this car's current command to finish.
+29 | İpucu | This car is already driving.
+30 | İpucu | Finish editing, bring all attached crew aboard, then drive this route. STOP cancels both steps.
+31 | İpucu | Finish editing and start the engine in one click.
+32 | İpucu | Start the engine and follow this car's route.

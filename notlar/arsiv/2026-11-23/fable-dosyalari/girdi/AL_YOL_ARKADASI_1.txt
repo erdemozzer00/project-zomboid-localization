@@ -1,0 +1,57 @@
+# AL_YOL_ARKADASI · Yol arkadaşı komutları ve katılma koşulları
+# Çıktı dosyası AL_YOL_ARKADASI_1.txt. TXT’ye 1–33 arasındaki her numarayı bir kez, aynı sırada N | Türkçe biçiminde yaz. Başlıklar, numarasız bağlam, kod bloğu çitleri ve “Son numara” satırı TXT’nin dışında kalır.
+# Project A-Life, Project Zomboid Build 42. Oyun 1993 yılında Kentucky’de geçiyor.
+# Girdi biçimi N | etiket | İngilizce. Etiket, satırın ekrandaki işlevini veya bağlı olduğu seçeneği gösterir. Numarasız açıklamalar bağlamdır.
+# Numaralı metinlerde yer tutucu, kaçış dizisi veya çalışma anında eklenecek sözcük yok.
+# Companions = Yol arkadaşları, Talk = Konuş, Come with me = Benimle gel, reputation = itibar. “Komut” dairesel menüde veya sağ tık menüsünde oyuncunun seçtiği kısa etikettir. Her birini tek başına görünen bir seçim olarak yaz.
+
+##### Hareket ve konum #####
+# Oyuncu yanındaki yol arkadaşına kısa bir emir verir. Her satır ayrı bir seçimdir. “There” oyuncunun işaretlediği konumdur. Cover me, oyuncu hareket ederken arkasını kollama emridir.
+1 | komut | Wait here
+2 | komut | Go there
+3 | komut | Cover me
+4 | komut | Watch there
+5 | komut | Take cover
+6 | komut | Fall back
+
+##### Çatışma ve sessiz hareket #####
+# 7–11 yol arkadaşının silah kullanma tercihleridir. “Guns” ateşli silahları anlatır. 10 ve 11 hangi hedef türüne karşı kullanılacaklarını belirtir. 12 ateş açma iznidir. 13 oyuncunun işaretlediği hedefe yönelik komuttur. 14 ve 15 sessiz hareketi açıp kapatan iki ayrı seçimdir.
+7 | komut | Melee only
+8 | komut | Guns when needed
+9 | komut | Use guns
+10 | komut | Guns on people
+11 | komut | Guns on infected
+12 | komut | Fire at will
+13 | komut | Attack that
+14 | komut | Stay quiet
+15 | komut | Move normally
+
+##### Eşya toplama, ışık ve tedavi #####
+# 16–18 eşya toplama ayarının üç ayrı seçeneğidir. Oyuncu bunlardan birini seçer. 19 ve 20 yol arkadaşının ışığını açıp kapatır. 21’de yol arkadaşı kendisini, 22’de oyuncuyu tedavi eder.
+16 | komut | Pick up items
+17 | komut | Pick up and use
+18 | komut | Leave items
+19 | komut | Light on
+20 | komut | Light off
+21 | komut | Patch yourself up
+22 | komut | Patch me up
+
+##### Kapı, bina ve araç #####
+# “Stack” kapının yanında girişe hazır dizilmek, “clear” içerideki tehdidi temizlemektir. Sıraya dizilme ve içeri girip temizleme menüde ayrı seçeneklerdir. Araç emri binme seçeneği mevcutken görünür.
+23 | komut | Stack on that door
+24 | komut | Stack and clear
+25 | komut | Clear that building
+26 | komut | Breach that door
+27 | komut | Get in the car
+
+##### Yol arkadaşlığına başlama ve ayrılma #####
+# Sağ tık menüsünde uygun NPC’yi çağırma ve mevcut yol arkadaşıyla ayrılma ayrı eylemlerdir. İtibar yetersizse ipucu veya bildirim görünür. Oyunun ekleyebileceği itibar bilgisini satıra yazma.
+28 | menü · çağır | Companion: come with me
+29 | menü · ayrıl | Companion: part ways
+30 | ipucu · gerekli itibar | Needs more reputation
+
+##### Konuş sekmesi · katılma seçeneği kilitli #####
+# Oyun koşula göre tek neden seçer ve “Benimle gel” etiketinin yanında köşeli ayraç içinde gösterir. 31’de güveni yetersiz olan, çağrılan NPC’dir. 32’de aynı NPC oyuncuya düşmandır. 33’te oyuncu yol arkadaşı sınırına ulaşmıştır. Oyun bu son nedene örneğin 5/5 sayacını ekleyebilir. Çıktıya yalnız nedeni yaz.
+31 | katılmak için yeterli güven yok | not enough trust
+32 | NPC düşman tutumunda | not while they're hostile
+33 | yol arkadaşı sınırına ulaşıldı | party full

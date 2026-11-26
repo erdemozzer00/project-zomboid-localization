@@ -1,36 +1,16 @@
 # Project A-Life — Türkçe diyalog yerelleştirme rehberi
 
-Bu rehber Project A-Life diyaloglarını doğal, yaşayan Türkçeyle yazmak içindir. Türk oyuncunun duyacağı bir replik gibi yaz; İngilizce cümle düzenini Türkçeye taşımaya çalışma. Kaynağın anlamını ve sahnedeki bilgileri koru.
+Bu yerel rehber, İngilizce girdi için hangi sahne bilgisinin gerekli olduğunu ve Erdem'in istediği rötuşlarda korunacak Türkçe üslubu tarif eder. Çeviri ayrı ortamda Fable'da yapılır. Bir repliğin bağlamı gerekirken o bilgiyi doğrudan TXT'ye yaz.
 
-## Her satırdan önce zorunlu süreç (K36)
+## Girdide sahne bağlamı
 
-Diyalog çevirirken bu adımlar atlanmaz. Kullanıcı bunu defalarca söyledi: **birebir çeviri yapma; kendini o cümleyi bir sahnede söylüyormuş gibi düşün ve Türkçeyi yerelleştir. "Hiçbir Türk böyle konuşmaz" diyorsan o çeviriyi düzelt.**
+Kaynakta konuşanın kim olduğunu, kime seslendiğini ve repliğin nerede duyulduğunu doğrula. Oyuncu bir NPC konuşmasını kenardan duyuyorsa bunu TXT'de belirt. Konuşma ağacında seçeneği ve ona bağlı cevabı birlikte göster. Rolü, ruh halini, ilişkileri ve koşulları yalnızca kaynak desteklediği ölçüde ekle.
 
-1. **Kim, kime, neden söylüyor?** Bağlam başlığını, olay adını (ör. PASSING_NPC_GREET) ve koşulları oku. Dinleyen kim? Bazı olaylarda NPC başka bir NPC'ye ya da gruba konuşur, oyuncu yalnızca kenardan duyar; bazılarında doğrudan oyuncuya. Hitap (sen/siz, tekil/çoğul) buradan çıkar. Emin değilsen oyun kaynağındaki çağrı yerine bak.
-2. **Sahneyi canlandır.** O karakter, o ruh halinde, o hava ve saatte, o niyetle bunu söylese bir Türk ne derdi? Önce o cümleyi kur, sonra kaynakla karşılaştır.
-3. **Kalıbı değil işi çevir.** İngilizce deyim ve kalıbın yaptığı iş neyse (alay, rahatlatma, geri çekilme, şaka, uyarı) Türkçede o işi gören sözü bul: "forget it" → "boş ver / neyse", "take a load off" → "otur, dinlen", "I'd marry anyone with a percolator" → "demliği olanla evlenirim". Kelime sırasını ve "A, B, C" virgül zincirini İngilizce'den taşıma.
-4. **Sesli oku, Türk testi.** Cümle konuşulur mu, kulağa çeviri gibi geliyor mu? "Düz yüzle", "tutunulacak komik bir şey", "unut gitsin", "hoş geldi" (yanlış kuruluş) gibi kalıplar bu testte kalır. Kontrol aracının geçmesi doğruluk kanıtı değildir.
-5. **Araç Türkçeyi yönlendirmez.** Kontrol aracı bir uyarı verdi diye doğru çoğul hitabı tekile çevirme ya da cümleyi bozma. Gerçek çoğulsa çoğul yaz ve satıra `onayli_uslup_istisnalari` ile gerekçe ekle; araç yanlış uyarıyorsa aracı düzelt.
-6. **Parça parça yaz.** Yaklaşık 100 satırlık bölümlerle ilerle, her bölümü yazdıktan sonra bu 4 adıma göre yeniden oku. Yüzlerce satırı tek seferde yazma.
-7. **Kaynak bilgisi korunur.** İsim, yer, sayı, nesne, eylem aynı kalır; yeni olay, ilişki ya da ayrıntı eklenmez. Ölçü birimleri (feet, lb, °F) Türk oyuncuya göre çevrilir ve satır notunda belirtilir.
+## Rötuşta anlam ve doğallık
 
-Birebir ve sahneli çeviri örnekleri (D6a, kullanıcının 20. satır itirazı sonrası):
-
-| Kaynak | Birebir (yanlış) | Sahneli (doğru yön) |
-|---|---|---|
-| You hear that earlier? Never mind, nothing, forget it | Az önce duydun mu? Boş ver, bir şey değil, unut gitsin | Az önce bir ses duydun mu? Yok yok, boş ver... bir şey değildir. |
-| Hot enough? Sorry, I always wanted to say that | Yeterince sıcak mı? Kusura bakma, hep bunu demek istemiştim | Sıcak bastırdı değil mi? Pardon, bunu söylemek için can atıyordum. |
-| Rise and shine, ha, I never could say that with a straight face | Uyan da parla, ha, bunu hiç düz yüzle söyleyemedim | Hadi kalk, gün aydı! Hıh, bunu hiç gülmeden diyemedim. |
-| Hell of a quitting time, huh? | Paydos saati de ne saatmiş, ha? | Paydos da ne paydosmuş, ha? |
-| Same shift, different dead guy | Aynı vardiya, farklı ölü | Vardiya aynı, ölü başka. |
-
-## Sahneyi kur, sonra yaz
-
-Her repliği önce bir sahne olarak düşün. Kaynağın ne söylediğini ve ne istediğini belirle. Bağlam dosyasındaki rolü, ruh halini, oyuncuyla ilişkisini, zamanı ve çevre koşullarını oku. Karakteri bu sahnede hayal et. Sonra onun ağzından Türkçe yaz ve repliği sesli okunuyormuş gibi yeniden kontrol et.
-
-**Kaynak anlamı → karakter ve ruh hali → bağlamla sınırlı sahne → doğal Türkçe → son kontrol.**
-
-Sahneyi hayal etmek, kaynağa yeni olay, geçmiş, ilişki veya ayrıntı eklemek değildir. Adları, yerleri, tarihleri, nesneleri ve eylemleri koru. Bir deyim tonu taşıyabilir; kaynak bilgisini değiştiremez.
+- Repliğin yaptığı işi koru. Örneğin konuşan konuyu kapatıyorsa “forget it” yerine sahnesine göre “boş ver” veya “neyse” doğal duyulur. Cümleyi karakterin ağzından sesli okunuyormuş gibi dinle.
+- İsim, yer, sayı, nesne, eylem ve oyundaki ilişki kaynağa sadık kalır. Ölçü birimi yerelleştirilecekse dosya içindeki kuralı açık yaz.
+- Gerçek grup hitabını koru. Denetim aracı doğru çoğulu işaretlerse `onayli_uslup_istisnalari` kaydına gerekçeyi ekle.
 
 ## Replikte ses ve ritim
 
@@ -47,7 +27,7 @@ Sahneyi hayal etmek, kaynağa yeni olay, geçmiş, ilişki veya ayrıntı ekleme
 
 Karakterler 1993 Kentucky'sinde yaşayan Hristiyan Amerikalılardır, ama oyuncu Türkçe duyar. Kullanıcı kararı: Türkçede doğal duyulan, dine özgü kalıplar **serbesttir ve tercih edilir**. “Allah'ım”, “Aman Allah'ım”, “Yarabbi”, “inşallah”, “vallahi”, “Allah'a emanet ol”, “Allah razı olsun”, “Allah korusun” gibi sözleri kaynak ve sahne istediğinde kullan. “Tanrım” de olur; zorunlu değil, yasak da değil. Din adamı (papaz) konuşuyorsa “Rabbim / Rab” ve kilise dili (Göklerdeki Babamız, Selam sana Meryem, Mezmur) korunur. Her “God” sözcüğü otomatik aynı karşılığa çevrilmez; ünlemse ünlem, duaysa dua, deyimse Türkçede aynı işi gören söz seçilir.
 
-Küfrün ve argonun gücünü kaynağa göre ayarla; karakteri kaynaktan daha kaba yapma. Kullanıcının kendi düzeltmelerindeki seçimler (ör. “Tanrım”, “Kahretsin”, “uğursuzluk getirirsin”) aynen kalır.
+Küfrün ve argonun gücünü kaynağa göre ayarla. A-Life repliklerinde karakterin sesine uyuyorsa Fable panik anında küfrü bir kademe ağırlaştırabilir. Kullanıcının kendi düzeltmelerindeki seçimler (ör. “Tanrım”, “Kahretsin”, “uğursuzluk getirirsin”) aynen kalır.
 
 | Kaynak | Uygun Türkçe örneği | Neden |
 |---|---|---|
@@ -78,6 +58,4 @@ Bu örnekler birer kalıp değildir. Bir repliğin amacı, sahnesi ve karakteri 
 
 “You look terrible.” için de karaktere ve ana göre “Üzerinden tır geçmiş gibisin.” denebilir. Deyim, yüzün kötü göründüğü bilgisini korur ve Türkçede doğal duyulur.
 
-## Kapsam ve kayıt
-
-Kullanıcının yaptığı 603 diyalog düzeltmesi kendi seçtiği metin olarak kalır. K2a paketi bunlara dokunmadan, daha önce çevrilmiş 400 başka diyalog satırını Codex imzasıyla kaydeder. Paket bu 400 değişikliği ve gerekçelerini gösterir; kullanıcı ayrıca en iyi 20 örneği inceler. Bu örnekler kalan satırlar için otomatik onay sayılmaz.
+Erdem'in daha önce onayladığı Türkçe kendi seçtiği biçimde korunur. Rötuşları Erdem'in belirttiği satırlara ve kapsama uygula.

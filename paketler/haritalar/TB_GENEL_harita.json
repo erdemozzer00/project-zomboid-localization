@@ -1,0 +1,2728 @@
+{
+  "_paket": "TB_GENEL",
+  "_grup": "genel_gorev_npc",
+  "_dosya": "RadioData_lua",
+  "_baslik": "Genel görev NPC konuşmaları",
+  "_parcalar": [
+    [
+      1,
+      69
+    ],
+    [
+      70,
+      143
+    ],
+    [
+      144,
+      221
+    ],
+    [
+      222,
+      289
+    ]
+  ],
+  "_teknik": {
+    "kalip_satirlari": [
+      17,
+      34,
+      35,
+      43,
+      44,
+      47,
+      53,
+      54,
+      62,
+      63,
+      80,
+      81,
+      116,
+      125,
+      126,
+      134,
+      135,
+      144,
+      146,
+      155,
+      156,
+      157,
+      165,
+      166,
+      174,
+      193,
+      202,
+      203,
+      212,
+      214,
+      222,
+      223,
+      231,
+      232,
+      240,
+      249,
+      251,
+      259,
+      268,
+      269
+    ],
+    "birlesen_teklif_satirlari": [
+      34,
+      35,
+      43,
+      44,
+      53,
+      54,
+      62,
+      63,
+      80,
+      81,
+      116,
+      117,
+      125,
+      126,
+      134,
+      135,
+      144,
+      145,
+      146,
+      155,
+      156,
+      157,
+      165,
+      166,
+      174,
+      175,
+      183,
+      184,
+      185,
+      193,
+      194,
+      202,
+      203,
+      212,
+      213,
+      214,
+      222,
+      223,
+      231,
+      232,
+      240,
+      241,
+      249,
+      250,
+      251,
+      259,
+      260,
+      268,
+      269
+    ],
+    "yaklasim_sorusu_satirlari": [
+      277,
+      278,
+      279,
+      280
+    ]
+  },
+  "satirlar": {
+    "1": [
+      "RD_ALifeLine_49817e6068188904",
+      "The well's dry and the pump is shot, I need clean bottles",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:55",
+        "TB_BRING_WATER.pitch/any",
+        "NPC"
+      ]
+    ],
+    "2": [
+      "RD_ALifeLine_348640d02701aedd",
+      "Anything wet and safe, I'll take it",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:55",
+        "TB_BRING_WATER.pitch/any",
+        "NPC"
+      ]
+    ],
+    "3": [
+      "RD_ALifeLine_348130b933cdf6bf",
+      "Boil it first if it's not sealed, I'm begging you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:56",
+        "TB_BRING_WATER.yes/any",
+        "NPC"
+      ]
+    ],
+    "4": [
+      "RD_ALifeLine_698774d06b0cf442",
+      "Still dry here, how's the search",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:58",
+        "TB_BRING_WATER.nudge/any",
+        "NPC"
+      ]
+    ],
+    "5": [
+      "RD_ALifeLine_7c37767d7d55dbcb",
+      "Three days of rationing now",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:58",
+        "TB_BRING_WATER.nudge/any",
+        "NPC"
+      ]
+    ],
+    "6": [
+      "RD_ALifeLine_2f8d89d42a4d6bb8",
+      "You're a lifesaver",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:59",
+        "TB_BRING_WATER.done/any",
+        "NPC"
+      ]
+    ],
+    "7": [
+      "RD_ALifeLine_1055685471d871ac",
+      "That will do, we owe you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:59",
+        "TB_BRING_WATER.done/any",
+        "NPC"
+      ]
+    ],
+    "8": [
+      "RD_ALifeLine_51b270fc16eb5537",
+      "We got by without it, but not well",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:60",
+        "TB_BRING_WATER.lapse/any",
+        "NPC"
+      ]
+    ],
+    "9": [
+      "RD_ALifeLine_6c79b5c96d983ee8",
+      "We're out of bandages, any clean sheets will do, we'll cut them up",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:243",
+        "TB_FIND_CLOTH.pitch/any",
+        "NPC"
+      ]
+    ],
+    "10": [
+      "RD_ALifeLine_0fe685650387cc59",
+      "Boil what you can, wash what you can't",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:244",
+        "TB_FIND_CLOTH.yes/any",
+        "NPC"
+      ]
+    ],
+    "11": [
+      "RD_ALifeLine_7d9963f709218e9d",
+      "We'll use what we have",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:245",
+        "TB_FIND_CLOTH.no/any",
+        "NPC"
+      ]
+    ],
+    "12": [
+      "RD_ALifeLine_44dab0db47afdd82",
+      "We're down to the last strip, hurry",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:246",
+        "TB_FIND_CLOTH.nudge/any",
+        "NPC"
+      ]
+    ],
+    "13": [
+      "RD_ALifeLine_7384e164168ad565",
+      "How much cloth",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:246",
+        "TB_FIND_CLOTH.nudge/any",
+        "NPC"
+      ]
+    ],
+    "14": [
+      "RD_ALifeLine_059ee6887312e508",
+      "That's what we needed, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:247",
+        "TB_FIND_CLOTH.done/any",
+        "NPC"
+      ]
+    ],
+    "15": [
+      "RD_ALifeLine_5a34175f097df281",
+      "You may have saved several, truly",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:247",
+        "TB_FIND_CLOTH.done/any",
+        "NPC"
+      ]
+    ],
+    "16": [
+      "RD_ALifeLine_7057a8dc5f289fc7",
+      "We used our shirts, don't worry",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:248",
+        "TB_FIND_CLOTH.lapse/any",
+        "NPC"
+      ]
+    ],
+    "17": [
+      "RD_ALifeLine_3479bb3d62b275cb",
+      "My boy has a fever, I need antibiotics and clean dressings, try the pharmacy near {where}",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:47",
+        "TB_FETCH_MEDICINE.pitch/any",
+        "NPC"
+      ]
+    ],
+    "18": [
+      "RD_ALifeLine_79b30ee70e36e191",
+      "We're out of bandages and the pills ran dry, anything clean will do",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:47",
+        "TB_FETCH_MEDICINE.pitch/any",
+        "NPC"
+      ]
+    ],
+    "19": [
+      "RD_ALifeLine_2c84d15148072f05",
+      "Hurry, please, I'll wait right here",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:48",
+        "TB_FETCH_MEDICINE.yes/any",
+        "NPC"
+      ]
+    ],
+    "20": [
+      "RD_ALifeLine_26a540a24b4992ec",
+      "Then I'll try someone else, thank you anyway",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:49",
+        "TB_FETCH_MEDICINE.no/any",
+        "NPC"
+      ]
+    ],
+    "21": [
+      "RD_ALifeLine_40aef04b4976e225",
+      "Did you find anything yet? Time matters",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:50",
+        "TB_FETCH_MEDICINE.nudge/any",
+        "NPC"
+      ]
+    ],
+    "22": [
+      "RD_ALifeLine_75142a5e7cc72217",
+      "Please, he's getting worse",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:50",
+        "TB_FETCH_MEDICINE.nudge/any",
+        "NPC"
+      ]
+    ],
+    "23": [
+      "RD_ALifeLine_456fb0ec7556acba",
+      "You may have saved a life today",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:51",
+        "TB_FETCH_MEDICINE.done/any",
+        "NPC"
+      ]
+    ],
+    "24": [
+      "RD_ALifeLine_6631ce71510d4d1f",
+      "It's too late for it now",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:52",
+        "TB_FETCH_MEDICINE.lapse/any",
+        "NPC"
+      ]
+    ],
+    "25": [
+      "RD_ALifeLine_216b80866d821a83",
+      "We managed without, no thanks to anyone",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:52",
+        "TB_FETCH_MEDICINE.lapse/any",
+        "NPC"
+      ]
+    ],
+    "26": [
+      "RD_ALifeLine_37f985e911698e02",
+      "We've had beans for a week, bring us meat and I'll make it worth your while",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:105",
+        "TB_HUNT_FOOD.pitch/any",
+        "NPC"
+      ]
+    ],
+    "27": [
+      "RD_ALifeLine_7fd6f95c5836f6de",
+      "Rabbit, deer, anything that isn't from a can",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:105",
+        "TB_HUNT_FOOD.pitch/any",
+        "NPC"
+      ]
+    ],
+    "28": [
+      "RD_ALifeLine_25fef48528c6f0c1",
+      "Skin it where you shot it, carry it clean",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:106",
+        "TB_HUNT_FOOD.yes/any",
+        "NPC"
+      ]
+    ],
+    "29": [
+      "RD_ALifeLine_66c053e4085c58b5",
+      "We'll make the beans last",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:107",
+        "TB_HUNT_FOOD.no/any",
+        "NPC"
+      ]
+    ],
+    "30": [
+      "RD_ALifeLine_312872a71a3c87ee",
+      "Empty bellies here, any luck",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:108",
+        "TB_HUNT_FOOD.nudge/any",
+        "NPC"
+      ]
+    ],
+    "31": [
+      "RD_ALifeLine_3c553c556ec28d57",
+      "Got anything yet",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:108",
+        "TB_HUNT_FOOD.nudge/any",
+        "NPC"
+      ]
+    ],
+    "32": [
+      "RD_ALifeLine_1e1dc36754528ffe",
+      "Now that's a meal, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:109",
+        "TB_HUNT_FOOD.done/any",
+        "NPC"
+      ]
+    ],
+    "33": [
+      "RD_ALifeLine_03c8e32c2d632682",
+      "We ate the last can, too late for it",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:110",
+        "TB_HUNT_FOOD.lapse/any",
+        "NPC"
+      ]
+    ],
+    "34": [
+      "RD_ALifeLine_50b14d9878580b1f",
+      "Someone near {where} is bleeding out, bring dressings and disinfectant, I can't leave my post",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:146",
+        "TB_MEDICAL_AID.pitch/any",
+        "NPC"
+      ]
+    ],
+    "35": [
+      "RD_ALifeLine_79efcc0e21430c43",
+      "{name} needs real treatment, get bandages to them",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:146",
+        "TB_MEDICAL_AID.pitch/any",
+        "NPC"
+      ]
+    ],
+    "36": [
+      "RD_ALifeLine_36b5f47e32611133",
+      "Please be quick, they don't have long",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:147",
+        "TB_MEDICAL_AID.yes/any",
+        "NPC"
+      ]
+    ],
+    "37": [
+      "RD_ALifeLine_372d949f36078ddb",
+      "Then I'll keep pressing the wound",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:148",
+        "TB_MEDICAL_AID.no/any",
+        "NPC"
+      ]
+    ],
+    "38": [
+      "RD_ALifeLine_762ace7709453604",
+      "They're weaker, please hurry",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:149",
+        "TB_MEDICAL_AID.nudge/any",
+        "NPC"
+      ]
+    ],
+    "39": [
+      "RD_ALifeLine_0ca14b813e047181",
+      "Did the dressings arrive",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:149",
+        "TB_MEDICAL_AID.nudge/any",
+        "NPC"
+      ]
+    ],
+    "40": [
+      "RD_ALifeLine_03746a4534956fec",
+      "You've done a great thing, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:150",
+        "TB_MEDICAL_AID.done/any",
+        "NPC"
+      ]
+    ],
+    "41": [
+      "RD_ALifeLine_587b2f692d36fc15",
+      "They're stable now, bless you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:150",
+        "TB_MEDICAL_AID.done/any",
+        "NPC"
+      ]
+    ],
+    "42": [
+      "RD_ALifeLine_35b2b4fc2de92eb9",
+      "It's over, we don't need help anymore",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:151",
+        "TB_MEDICAL_AID.lapse/any",
+        "NPC"
+      ]
+    ],
+    "43": [
+      "RD_ALifeLine_0a1c47860f16d8e4",
+      "{name} went out two days ago and hasn't returned, last seen near {where}",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:113",
+        "TB_FIND_MISSING.pitch/any",
+        "NPC"
+      ]
+    ],
+    "44": [
+      "RD_ALifeLine_0a6695ac586d9dd2",
+      "Please find {name}, they were heading toward {where}",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:113",
+        "TB_FIND_MISSING.pitch/any",
+        "NPC"
+      ]
+    ],
+    "45": [
+      "RD_ALifeLine_040e84ec21dc3299",
+      "Thank you, whatever you find, tell me",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:114",
+        "TB_FIND_MISSING.yes/any",
+        "NPC"
+      ]
+    ],
+    "46": [
+      "RD_ALifeLine_508625770aeeabd5",
+      "I understand, I'll keep hoping",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:115",
+        "TB_FIND_MISSING.no/any",
+        "NPC"
+      ]
+    ],
+    "47": [
+      "RD_ALifeLine_5cf83dbe1ffa95cb",
+      "Any sign of {name}",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:116",
+        "TB_FIND_MISSING.nudge/any",
+        "NPC"
+      ]
+    ],
+    "48": [
+      "RD_ALifeLine_3f8073ca55c575fe",
+      "Did you find anything",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:116",
+        "TB_FIND_MISSING.nudge/any",
+        "NPC"
+      ]
+    ],
+    "49": [
+      "RD_ALifeLine_2bfcbbc93adcd777",
+      "Thank God, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:117",
+        "TB_FIND_MISSING.done/any",
+        "NPC"
+      ]
+    ],
+    "50": [
+      "RD_ALifeLine_32bde64b6ce710f3",
+      "At least now I know, thank you for telling me",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:117",
+        "TB_FIND_MISSING.done/any",
+        "NPC"
+      ]
+    ],
+    "51": [
+      "RD_ALifeLine_068899b0462ee44e",
+      "It's too late for hope now",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:118",
+        "TB_FIND_MISSING.lapse/any",
+        "NPC"
+      ]
+    ],
+    "52": [
+      "RD_ALifeLine_4bcbd2153efb081f",
+      "We found them ourselves, don't trouble",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:118",
+        "TB_FIND_MISSING.lapse/any",
+        "NPC"
+      ]
+    ],
+    "53": [
+      "RD_ALifeLine_57bf681934a7e905",
+      "Someone is pinned in a house near {where}, the dead are all around it, get them out",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:203",
+        "TB_RESCUE_TRAPPED.pitch/any",
+        "NPC"
+      ]
+    ],
+    "54": [
+      "RD_ALifeLine_7842923a363a21ad",
+      "We heard knocking from a house near {where}, there's a survivor in there",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:203",
+        "TB_RESCUE_TRAPPED.pitch/any",
+        "NPC"
+      ]
+    ],
+    "55": [
+      "RD_ALifeLine_6a87239a18d7e647",
+      "Clear a way first, they can barely move",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:204",
+        "TB_RESCUE_TRAPPED.yes/any",
+        "NPC"
+      ]
+    ],
+    "56": [
+      "RD_ALifeLine_6df4d9915e885a6f",
+      "Then they're on their own, God help them",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:205",
+        "TB_RESCUE_TRAPPED.no/any",
+        "NPC"
+      ]
+    ],
+    "57": [
+      "RD_ALifeLine_2273f74852f90b5d",
+      "Still no word, are they alive",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:206",
+        "TB_RESCUE_TRAPPED.nudge/any",
+        "NPC"
+      ]
+    ],
+    "58": [
+      "RD_ALifeLine_500b8fe667b040bc",
+      "Hurry, we heard them again",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:206",
+        "TB_RESCUE_TRAPPED.nudge/any",
+        "NPC"
+      ]
+    ],
+    "59": [
+      "RD_ALifeLine_377532e654c894e3",
+      "You got them out, I owe you everything",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:207",
+        "TB_RESCUE_TRAPPED.done/any",
+        "NPC"
+      ]
+    ],
+    "60": [
+      "RD_ALifeLine_78aa8c4d34b27faa",
+      "They're alive, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:207",
+        "TB_RESCUE_TRAPPED.done/any",
+        "NPC"
+      ]
+    ],
+    "61": [
+      "RD_ALifeLine_210c54093ba99bed",
+      "We went in too late, it's over",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:208",
+        "TB_RESCUE_TRAPPED.lapse/any",
+        "NPC"
+      ]
+    ],
+    "62": [
+      "RD_ALifeLine_4366717f159e48e6",
+      "The family near {where} hasn't come out in days, I'm afraid to look myself",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:235",
+        "TB_CHECK_NEIGHBOR.pitch/any",
+        "NPC"
+      ]
+    ],
+    "63": [
+      "RD_ALifeLine_299edde55aa10fdf",
+      "Can you knock on the house near {where} and tell me what you see",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:235",
+        "TB_CHECK_NEIGHBOR.pitch/any",
+        "NPC"
+      ]
+    ],
+    "64": [
+      "RD_ALifeLine_1e996b997ab6bebe",
+      "Be gentle, and tell me the truth",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:236",
+        "TB_CHECK_NEIGHBOR.yes/any",
+        "NPC"
+      ]
+    ],
+    "65": [
+      "RD_ALifeLine_65df90242885569f",
+      "I'll go myself, then",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:237",
+        "TB_CHECK_NEIGHBOR.no/any",
+        "NPC"
+      ]
+    ],
+    "66": [
+      "RD_ALifeLine_1e61ceed2a4623a9",
+      "Anything? Please don't keep me waiting",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:238",
+        "TB_CHECK_NEIGHBOR.nudge/any",
+        "NPC"
+      ]
+    ],
+    "67": [
+      "RD_ALifeLine_67478184101536de",
+      "Did you reach the house",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:238",
+        "TB_CHECK_NEIGHBOR.nudge/any",
+        "NPC"
+      ]
+    ],
+    "68": [
+      "RD_ALifeLine_3dd4f01847592eaf",
+      "Thank you, even bad news is better than none",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:239",
+        "TB_CHECK_NEIGHBOR.done/any",
+        "NPC"
+      ]
+    ],
+    "69": [
+      "RD_ALifeLine_1d5d5f9620a17638",
+      "I found out another way, don't worry",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:240",
+        "TB_CHECK_NEIGHBOR.lapse/any",
+        "NPC"
+      ]
+    ],
+    "70": [
+      "RD_ALifeLine_130d709a657c789b",
+      "The generator's coughing, I need wire and a screwdriver or the lights go out",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:63",
+        "TB_FIX_GENERATOR.pitch/any",
+        "NPC"
+      ]
+    ],
+    "71": [
+      "RD_ALifeLine_791c5d6a6299a79a",
+      "No power, no radio, no anything, the generator needs parts",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:63",
+        "TB_FIX_GENERATOR.pitch/any",
+        "NPC"
+      ]
+    ],
+    "72": [
+      "RD_ALifeLine_5a447ea153131f99",
+      "Generator's at ten percent, a repair kit is overdue",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:64",
+        "TB_FIX_GENERATOR.pitch/mil",
+        "NPC"
+      ]
+    ],
+    "73": [
+      "RD_ALifeLine_398298f27b20acb4",
+      "Try the garages first, the house ones are picked clean",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:65",
+        "TB_FIX_GENERATOR.yes/any",
+        "NPC"
+      ]
+    ],
+    "74": [
+      "RD_ALifeLine_12b986e937accd7b",
+      "We'll sit in the dark then",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:66",
+        "TB_FIX_GENERATOR.no/any",
+        "NPC"
+      ]
+    ],
+    "75": [
+      "RD_ALifeLine_302d18b75d32ac81",
+      "It's flickering, hurry",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:67",
+        "TB_FIX_GENERATOR.nudge/any",
+        "NPC"
+      ]
+    ],
+    "76": [
+      "RD_ALifeLine_4ee2980f17527078",
+      "Any luck with the parts",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:67",
+        "TB_FIX_GENERATOR.nudge/any",
+        "NPC"
+      ]
+    ],
+    "77": [
+      "RD_ALifeLine_26f6817516617640",
+      "That'll keep us running a while",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:68",
+        "TB_FIX_GENERATOR.done/any",
+        "NPC"
+      ]
+    ],
+    "78": [
+      "RD_ALifeLine_72b1e55b3ecc9a21",
+      "Light again, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:68",
+        "TB_FIX_GENERATOR.done/any",
+        "NPC"
+      ]
+    ],
+    "79": [
+      "RD_ALifeLine_71375b903328b1a6",
+      "It died last night, too late",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:69",
+        "TB_FIX_GENERATOR.lapse/any",
+        "NPC"
+      ]
+    ],
+    "80": [
+      "RD_ALifeLine_57b7603003cc9983",
+      "The breaker panel near {where} is burnt out, a spliced wire will bring the lights back",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:187",
+        "TB_RESTORE_POWER.pitch/any",
+        "NPC"
+      ]
+    ],
+    "81": [
+      "RD_ALifeLine_6b974a6b27e4f0ae",
+      "There's a dead line near {where}, bring a wire and a screwdriver",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:187",
+        "TB_RESTORE_POWER.pitch/any",
+        "NPC"
+      ]
+    ],
+    "82": [
+      "RD_ALifeLine_1fc111a4016d440e",
+      "Careful, the wires may be live, wear gloves if you have any",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:188",
+        "TB_RESTORE_POWER.yes/any",
+        "NPC"
+      ]
+    ],
+    "83": [
+      "RD_ALifeLine_4503ae5d320d879f",
+      "We'll stay dark",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:189",
+        "TB_RESTORE_POWER.no/any",
+        "NPC"
+      ]
+    ],
+    "84": [
+      "RD_ALifeLine_69c99bdd2b239d24",
+      "Still dark, any luck",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:190",
+        "TB_RESTORE_POWER.nudge/any",
+        "NPC"
+      ]
+    ],
+    "85": [
+      "RD_ALifeLine_496d365e6bbc594d",
+      "Found the wire",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:190",
+        "TB_RESTORE_POWER.nudge/any",
+        "NPC"
+      ]
+    ],
+    "86": [
+      "RD_ALifeLine_627271aa0c11b015",
+      "There it is, bright as day, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:191",
+        "TB_RESTORE_POWER.done/any",
+        "NPC"
+      ]
+    ],
+    "87": [
+      "RD_ALifeLine_1ce69ca47072b223",
+      "That's one less thing to worry about",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:191",
+        "TB_RESTORE_POWER.done/any",
+        "NPC"
+      ]
+    ],
+    "88": [
+      "RD_ALifeLine_0b1aa05303ef4a7a",
+      "The line's dead for good, it's too late",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:192",
+        "TB_RESTORE_POWER.lapse/any",
+        "NPC"
+      ]
+    ],
+    "89": [
+      "RD_ALifeLine_1c36773b0708f8ec",
+      "The truck won't turn over, bring me a good battery and I'll get it moving",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:138",
+        "TB_SALVAGE_BATTERY.pitch/any",
+        "NPC"
+      ]
+    ],
+    "90": [
+      "RD_ALifeLine_38e6adc127f883a3",
+      "A battery is all I need to get the line going",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:138",
+        "TB_SALVAGE_BATTERY.pitch/any",
+        "NPC"
+      ]
+    ],
+    "91": [
+      "RD_ALifeLine_497e45714fd62a34",
+      "Check it before you carry it, dead ones are everywhere",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:139",
+        "TB_SALVAGE_BATTERY.yes/any",
+        "NPC"
+      ]
+    ],
+    "92": [
+      "RD_ALifeLine_537145007d250dd4",
+      "Then the truck sits",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:140",
+        "TB_SALVAGE_BATTERY.no/any",
+        "NPC"
+      ]
+    ],
+    "93": [
+      "RD_ALifeLine_34ff04332dd3e6b1",
+      "Still no battery? The engine's cold",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:141",
+        "TB_SALVAGE_BATTERY.nudge/any",
+        "NPC"
+      ]
+    ],
+    "94": [
+      "RD_ALifeLine_5145e4e66d147532",
+      "Found one yet",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:141",
+        "TB_SALVAGE_BATTERY.nudge/any",
+        "NPC"
+      ]
+    ],
+    "95": [
+      "RD_ALifeLine_0bb7aa3408dd39cd",
+      "That'll do it, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:142",
+        "TB_SALVAGE_BATTERY.done/any",
+        "NPC"
+      ]
+    ],
+    "96": [
+      "RD_ALifeLine_6e7ac67a31649b96",
+      "It's still got a charge, nice work",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:142",
+        "TB_SALVAGE_BATTERY.done/any",
+        "NPC"
+      ]
+    ],
+    "97": [
+      "RD_ALifeLine_2bb1ed8f1c07b265",
+      "We got one from somewhere else, don't worry",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:143",
+        "TB_SALVAGE_BATTERY.lapse/any",
+        "NPC"
+      ]
+    ],
+    "98": [
+      "RD_ALifeLine_1bb32ebe382848eb",
+      "The radio needs parts, find electronics scrap and batteries and bring what you can",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:195",
+        "TB_FIND_RADIO_PART.pitch/any",
+        "NPC"
+      ]
+    ],
+    "99": [
+      "RD_ALifeLine_62337fbb41b76fda",
+      "We've lost contact, bring scrap and a few batteries",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:195",
+        "TB_FIND_RADIO_PART.pitch/any",
+        "NPC"
+      ]
+    ],
+    "100": [
+      "RD_ALifeLine_50df3fc206cd6209",
+      "Don't come back without most of it",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:196",
+        "TB_FIND_RADIO_PART.yes/any",
+        "NPC"
+      ]
+    ],
+    "101": [
+      "RD_ALifeLine_6d0d36c25b49ad7f",
+      "Then we stay deaf",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:197",
+        "TB_FIND_RADIO_PART.no/any",
+        "NPC"
+      ]
+    ],
+    "102": [
+      "RD_ALifeLine_24e4f7d129eae02c",
+      "No parts yet? We're blind without the radio",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:198",
+        "TB_FIND_RADIO_PART.nudge/any",
+        "NPC"
+      ]
+    ],
+    "103": [
+      "RD_ALifeLine_3e7818b85435027b",
+      "Anything from the electronics",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:198",
+        "TB_FIND_RADIO_PART.nudge/any",
+        "NPC"
+      ]
+    ],
+    "104": [
+      "RD_ALifeLine_705312f24789d98f",
+      "That's it, now we can listen again",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:199",
+        "TB_FIND_RADIO_PART.done/any",
+        "NPC"
+      ]
+    ],
+    "105": [
+      "RD_ALifeLine_19af51a04c5c5ac9",
+      "You've saved our link, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:199",
+        "TB_FIND_RADIO_PART.done/any",
+        "NPC"
+      ]
+    ],
+    "106": [
+      "RD_ALifeLine_490bf2053ed58d21",
+      "We've given up on that radio",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:200",
+        "TB_FIND_RADIO_PART.lapse/any",
+        "NPC"
+      ]
+    ],
+    "107": [
+      "RD_ALifeLine_25899d6e451b4e6b",
+      "The fence has a hole, bring me planks and nails and we'll patch it",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:97",
+        "TB_HAUL_PLANKS.pitch/any",
+        "NPC"
+      ]
+    ],
+    "108": [
+      "RD_ALifeLine_4c40b5a9733587f3",
+      "Six planks and a box of nails will hold the line",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:97",
+        "TB_HAUL_PLANKS.pitch/any",
+        "NPC"
+      ]
+    ],
+    "109": [
+      "RD_ALifeLine_7f737dc9446ee58f",
+      "Pile it by the gate, I'll take it from there",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:98",
+        "TB_HAUL_PLANKS.yes/any",
+        "NPC"
+      ]
+    ],
+    "110": [
+      "RD_ALifeLine_39c56dd341e2500a",
+      "Alright, we'll patch it with scrap",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:99",
+        "TB_HAUL_PLANKS.no/any",
+        "NPC"
+      ]
+    ],
+    "111": [
+      "RD_ALifeLine_4558098740d22692",
+      "The gap's still open, I can't sleep",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:100",
+        "TB_HAUL_PLANKS.nudge/any",
+        "NPC"
+      ]
+    ],
+    "112": [
+      "RD_ALifeLine_3d994b8775805d38",
+      "How's the wood coming",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:100",
+        "TB_HAUL_PLANKS.nudge/any",
+        "NPC"
+      ]
+    ],
+    "113": [
+      "RD_ALifeLine_2fb9c7037daba0fc",
+      "That seals it, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:101",
+        "TB_HAUL_PLANKS.done/any",
+        "NPC"
+      ]
+    ],
+    "114": [
+      "RD_ALifeLine_699135cf53c797a3",
+      "Good wood, solid work",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:101",
+        "TB_HAUL_PLANKS.done/any",
+        "NPC"
+      ]
+    ],
+    "115": [
+      "RD_ALifeLine_1b1f6ca82b49183d",
+      "They got through before you came back",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:102",
+        "TB_HAUL_PLANKS.lapse/any",
+        "NPC"
+      ]
+    ],
+    "116": [
+      "RD_ALifeLine_5f05994234859a16",
+      "There's a pile near {where}, the smell is drawing them, we need it burned",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:130",
+        "TB_BURN_PILE.pitch/any",
+        "NPC"
+      ]
+    ],
+    "117": [
+      "RD_ALifeLine_7b5444935f3b84f9",
+      "The bodies have to go before they spread something worse",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:130",
+        "TB_BURN_PILE.pitch/any",
+        "NPC"
+      ]
+    ],
+    "118": [
+      "RD_ALifeLine_2ae1db1616390322",
+      "You need planks and something to light it, stay upwind",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:131",
+        "TB_BURN_PILE.yes/any",
+        "NPC"
+      ]
+    ],
+    "119": [
+      "RD_ALifeLine_270a0f88138b8be4",
+      "Understood, I won't ask again",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:132",
+        "TB_BURN_PILE.no/any",
+        "NPC"
+      ]
+    ],
+    "120": [
+      "RD_ALifeLine_555c768440149c1f",
+      "It's still there, I can smell it from here",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:133",
+        "TB_BURN_PILE.nudge/any",
+        "NPC"
+      ]
+    ],
+    "121": [
+      "RD_ALifeLine_70f0e29719312a47",
+      "Planks and a light, that's all it takes",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:133",
+        "TB_BURN_PILE.nudge/any",
+        "NPC"
+      ]
+    ],
+    "122": [
+      "RD_ALifeLine_65ed48fd1efe10f9",
+      "That's cleaner, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:134",
+        "TB_BURN_PILE.done/any",
+        "NPC"
+      ]
+    ],
+    "123": [
+      "RD_ALifeLine_06f139b429cc6cdb",
+      "Good, no more flies",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:134",
+        "TB_BURN_PILE.done/any",
+        "NPC"
+      ]
+    ],
+    "124": [
+      "RD_ALifeLine_4eef6b1e5bfb51f8",
+      "They've turned into a bigger problem now",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:135",
+        "TB_BURN_PILE.lapse/any",
+        "NPC"
+      ]
+    ],
+    "125": [
+      "RD_ALifeLine_4a15d8fe01f6d46d",
+      "An alarm has been wailing near {where} for an hour, it'll bring every dead one in the county",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:227",
+        "TB_SILENCE_ALARM.pitch/any",
+        "NPC"
+      ]
+    ],
+    "126": [
+      "RD_ALifeLine_104961d15137ab9b",
+      "Shut that siren near {where} down before it pulls a crowd",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:227",
+        "TB_SILENCE_ALARM.pitch/any",
+        "NPC"
+      ]
+    ],
+    "127": [
+      "RD_ALifeLine_6f8b26536db612e3",
+      "Smash it or cut the power, anything, just stop it",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:228",
+        "TB_SILENCE_ALARM.yes/any",
+        "NPC"
+      ]
+    ],
+    "128": [
+      "RD_ALifeLine_0bddf49a64f63e2e",
+      "Then we run and hope",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:229",
+        "TB_SILENCE_ALARM.no/any",
+        "NPC"
+      ]
+    ],
+    "129": [
+      "RD_ALifeLine_0bb89430092dc51d",
+      "Still wailing, hear it",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:230",
+        "TB_SILENCE_ALARM.nudge/any",
+        "NPC"
+      ]
+    ],
+    "130": [
+      "RD_ALifeLine_6b3f0c785a5ba30e",
+      "It's drawing more by the minute",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:230",
+        "TB_SILENCE_ALARM.nudge/any",
+        "NPC"
+      ]
+    ],
+    "131": [
+      "RD_ALifeLine_24f6534179c0a36e",
+      "Blessed quiet, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:231",
+        "TB_SILENCE_ALARM.done/any",
+        "NPC"
+      ]
+    ],
+    "132": [
+      "RD_ALifeLine_10987a4165020c17",
+      "They'll drift off now, good work",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:231",
+        "TB_SILENCE_ALARM.done/any",
+        "NPC"
+      ]
+    ],
+    "133": [
+      "RD_ALifeLine_796ae6b5165afa8f",
+      "It drew a crowd, too late",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:232",
+        "TB_SILENCE_ALARM.lapse/any",
+        "NPC"
+      ]
+    ],
+    "134": [
+      "RD_ALifeLine_5d8bc7ab7e4e8a06",
+      "A truck went off the road near {where}, the crate in the back is ours",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:72",
+        "TB_RECOVER_CRATE.pitch/any",
+        "NPC"
+      ]
+    ],
+    "135": [
+      "RD_ALifeLine_5dd3549b19e009f3",
+      "We dropped supplies in a panic, they're by {where}",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:72",
+        "TB_RECOVER_CRATE.pitch/any",
+        "NPC"
+      ]
+    ],
+    "136": [
+      "RD_ALifeLine_36c0b8ae57a7ab51",
+      "Careful, others will have noticed it too",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:73",
+        "TB_RECOVER_CRATE.yes/any",
+        "NPC"
+      ]
+    ],
+    "137": [
+      "RD_ALifeLine_4bc7ff167a8a4fee",
+      "Fair enough, it's probably gone anyway",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:74",
+        "TB_RECOVER_CRATE.no/any",
+        "NPC"
+      ]
+    ],
+    "138": [
+      "RD_ALifeLine_5e12440e478673f5",
+      "Still out there? Someone else will take it",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:75",
+        "TB_RECOVER_CRATE.nudge/any",
+        "NPC"
+      ]
+    ],
+    "139": [
+      "RD_ALifeLine_446eb29949dc298b",
+      "Any sign of the wreck",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:75",
+        "TB_RECOVER_CRATE.nudge/any",
+        "NPC"
+      ]
+    ],
+    "140": [
+      "RD_ALifeLine_4cd5a2be4be0e028",
+      "That's the one, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:76",
+        "TB_RECOVER_CRATE.done/any",
+        "NPC"
+      ]
+    ],
+    "141": [
+      "RD_ALifeLine_6407e0f16f71baf9",
+      "Everything's here, you're honest",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:76",
+        "TB_RECOVER_CRATE.done/any",
+        "NPC"
+      ]
+    ],
+    "142": [
+      "RD_ALifeLine_748cce8f2dac2ae2",
+      "Somebody beat you to it",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:77",
+        "TB_RECOVER_CRATE.lapse/any",
+        "NPC"
+      ]
+    ],
+    "143": [
+      "RD_ALifeLine_649f279c71cf941a",
+      "Too late, it was stripped",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:77",
+        "TB_RECOVER_CRATE.lapse/any",
+        "NPC"
+      ]
+    ],
+    "144": [
+      "RD_ALifeLine_08d46153377af800",
+      "There's a house near {where} full of them, I can't use the road till it's empty",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:30",
+        "TB_CLEAR_HOUSE.pitch/any",
+        "NPC"
+      ]
+    ],
+    "145": [
+      "RD_ALifeLine_59678a7e71dbba49",
+      "The dead moved into a place we need, can you clear it",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:30",
+        "TB_CLEAR_HOUSE.pitch/any",
+        "NPC"
+      ]
+    ],
+    "146": [
+      "RD_ALifeLine_4271e370687aeb84",
+      "Dispatch wants that house near {where} cleared before dark",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:31",
+        "TB_CLEAR_HOUSE.pitch/law",
+        "NPC"
+      ]
+    ],
+    "147": [
+      "RD_ALifeLine_450029c079c7507f",
+      "Good, go in quiet, there are more than you think",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:32",
+        "TB_CLEAR_HOUSE.yes/any",
+        "NPC"
+      ]
+    ],
+    "148": [
+      "RD_ALifeLine_2275d4f83a9ed21a",
+      "Understood, then it stays dead for now",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:33",
+        "TB_CLEAR_HOUSE.no/any",
+        "NPC"
+      ]
+    ],
+    "149": [
+      "RD_ALifeLine_481e3fe56c225ef2",
+      "Still not done? The house won't empty itself",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:34",
+        "TB_CLEAR_HOUSE.nudge/any",
+        "NPC"
+      ]
+    ],
+    "150": [
+      "RD_ALifeLine_4264aacb5c09ff23",
+      "Anything moving in there yet",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:34",
+        "TB_CLEAR_HOUSE.nudge/any",
+        "NPC"
+      ]
+    ],
+    "151": [
+      "RD_ALifeLine_23b3de103633bca3",
+      "Thank you, we can finally sleep over there",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:35",
+        "TB_CLEAR_HOUSE.done/any",
+        "NPC"
+      ]
+    ],
+    "152": [
+      "RD_ALifeLine_2f72edc5704b0bd2",
+      "Clean, then, here's what I promised",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:35",
+        "TB_CLEAR_HOUSE.done/any",
+        "NPC"
+      ]
+    ],
+    "153": [
+      "RD_ALifeLine_3f6ba99f58f30c8e",
+      "Too late, they crowded back in",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:36",
+        "TB_CLEAR_HOUSE.lapse/any",
+        "NPC"
+      ]
+    ],
+    "154": [
+      "RD_ALifeLine_7ea095ac7b8d5356",
+      "They've spread out again, the job is gone",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:36",
+        "TB_CLEAR_HOUSE.lapse/any",
+        "NPC"
+      ]
+    ],
+    "155": [
+      "RD_ALifeLine_678b93a305a9a947",
+      "I need eyes on the road toward {where}, are there wrecks, are there crews",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:80",
+        "TB_SCOUT_ROAD.pitch/any",
+        "NPC"
+      ]
+    ],
+    "156": [
+      "RD_ALifeLine_64846e28714909d3",
+      "Tell me what's between here and {where}",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:80",
+        "TB_SCOUT_ROAD.pitch/any",
+        "NPC"
+      ]
+    ],
+    "157": [
+      "RD_ALifeLine_2ce5a9d544264acf",
+      "Patrol is short, can you walk the road toward {where} for us",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:81",
+        "TB_SCOUT_ROAD.pitch/law",
+        "NPC"
+      ]
+    ],
+    "158": [
+      "RD_ALifeLine_7e67791068f3fd0d",
+      "Stay low, report what you see, no heroics",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:82",
+        "TB_SCOUT_ROAD.yes/any",
+        "NPC"
+      ]
+    ],
+    "159": [
+      "RD_ALifeLine_5236d1b53a446e13",
+      "Understood, we'll send someone else",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:83",
+        "TB_SCOUT_ROAD.no/any",
+        "NPC"
+      ]
+    ],
+    "160": [
+      "RD_ALifeLine_13fc740c1704de2d",
+      "Nothing yet? Don't walk into it blind",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:84",
+        "TB_SCOUT_ROAD.nudge/any",
+        "NPC"
+      ]
+    ],
+    "161": [
+      "RD_ALifeLine_6125c30e493c7e03",
+      "What's on the road",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:84",
+        "TB_SCOUT_ROAD.nudge/any",
+        "NPC"
+      ]
+    ],
+    "162": [
+      "RD_ALifeLine_0b64abd24358806d",
+      "Good intel, that's what we needed",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:85",
+        "TB_SCOUT_ROAD.done/any",
+        "NPC"
+      ]
+    ],
+    "163": [
+      "RD_ALifeLine_257596ad6be35d21",
+      "That saves us a bad trip",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:85",
+        "TB_SCOUT_ROAD.done/any",
+        "NPC"
+      ]
+    ],
+    "164": [
+      "RD_ALifeLine_449454dd6f52aa55",
+      "We sent someone else, your report is stale",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:86",
+        "TB_SCOUT_ROAD.lapse/any",
+        "NPC"
+      ]
+    ],
+    "165": [
+      "RD_ALifeLine_49322fe23ebaf024",
+      "A pack keeps drifting along the road near {where}, hunt it down before it finds us",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:171",
+        "TB_HUNT_PACK.pitch/any",
+        "NPC"
+      ]
+    ],
+    "166": [
+      "RD_ALifeLine_7145f55255d64d1a",
+      "They're moving as one, tight, near {where}, end it",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:171",
+        "TB_HUNT_PACK.pitch/any",
+        "NPC"
+      ]
+    ],
+    "167": [
+      "RD_ALifeLine_5f3bf5f302d394aa",
+      "Pick your ground and make it count, don't let them circle you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:172",
+        "TB_HUNT_PACK.yes/any",
+        "NPC"
+      ]
+    ],
+    "168": [
+      "RD_ALifeLine_49e04cdf0aac48a6",
+      "Alright, we'll keep the road closed",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:173",
+        "TB_HUNT_PACK.no/any",
+        "NPC"
+      ]
+    ],
+    "169": [
+      "RD_ALifeLine_580834c236d4114e",
+      "They're still out there, we heard them last night",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:174",
+        "TB_HUNT_PACK.nudge/any",
+        "NPC"
+      ]
+    ],
+    "170": [
+      "RD_ALifeLine_37fba7536637f721",
+      "Is the road safe yet",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:174",
+        "TB_HUNT_PACK.nudge/any",
+        "NPC"
+      ]
+    ],
+    "171": [
+      "RD_ALifeLine_673ca11f1ce49ee0",
+      "That's a relief, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:175",
+        "TB_HUNT_PACK.done/any",
+        "NPC"
+      ]
+    ],
+    "172": [
+      "RD_ALifeLine_35aab81d1582325d",
+      "Now we can finally move",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:175",
+        "TB_HUNT_PACK.done/any",
+        "NPC"
+      ]
+    ],
+    "173": [
+      "RD_ALifeLine_4a3727507e98d014",
+      "They found the camp first, you're late",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:176",
+        "TB_HUNT_PACK.lapse/any",
+        "NPC"
+      ]
+    ],
+    "174": [
+      "RD_ALifeLine_54a1a8b463b451e2",
+      "A big group is camped on the road near {where}, draw them off with noise",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:251",
+        "TB_LURE_HORDE.pitch/any",
+        "NPC"
+      ]
+    ],
+    "175": [
+      "RD_ALifeLine_1ebc1a5f45bc24ac",
+      "If you can pull them away from the road, we can slip past",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:251",
+        "TB_LURE_HORDE.pitch/any",
+        "NPC"
+      ]
+    ],
+    "176": [
+      "RD_ALifeLine_381c462c1daf7c97",
+      "Make your noise, then run, don't fight, and don't lead them back",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:252",
+        "TB_LURE_HORDE.yes/any",
+        "NPC"
+      ]
+    ],
+    "177": [
+      "RD_ALifeLine_314ef9de5a566834",
+      "Alright, we'll find another way around",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:253",
+        "TB_LURE_HORDE.no/any",
+        "NPC"
+      ]
+    ],
+    "178": [
+      "RD_ALifeLine_6667b4ee4212500e",
+      "They haven't moved yet, we're pinned",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:254",
+        "TB_LURE_HORDE.nudge/any",
+        "NPC"
+      ]
+    ],
+    "179": [
+      "RD_ALifeLine_3f70bbd405e4218b",
+      "Did the noise work",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:254",
+        "TB_LURE_HORDE.nudge/any",
+        "NPC"
+      ]
+    ],
+    "180": [
+      "RD_ALifeLine_2314d620574cf724",
+      "Brilliant, they bought it, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:255",
+        "TB_LURE_HORDE.done/any",
+        "NPC"
+      ]
+    ],
+    "181": [
+      "RD_ALifeLine_22d13e2042a8149e",
+      "That's a weight off, take this",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:255",
+        "TB_LURE_HORDE.done/any",
+        "NPC"
+      ]
+    ],
+    "182": [
+      "RD_ALifeLine_4bab9c1f47cfbb3c",
+      "They stayed put, we gave up",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:256",
+        "TB_LURE_HORDE.lapse/any",
+        "NPC"
+      ]
+    ],
+    "183": [
+      "RD_ALifeLine_402c111f78e58353",
+      "I'm two men short, can you hold the gate through the watch",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:121",
+        "TB_GUARD_GATE.pitch/any",
+        "NPC"
+      ]
+    ],
+    "184": [
+      "RD_ALifeLine_0be0991c0788aa7c",
+      "Somebody needs to stay awake at the gate, it's a long one",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:121",
+        "TB_GUARD_GATE.pitch/any",
+        "NPC"
+      ]
+    ],
+    "185": [
+      "RD_ALifeLine_36157b64611e2cd5",
+      "Post two is vacant, your shift starts now",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:122",
+        "TB_GUARD_GATE.pitch/mil",
+        "NPC"
+      ]
+    ],
+    "186": [
+      "RD_ALifeLine_29cd674764b32d3e",
+      "Good, don't open for anyone you don't know",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:123",
+        "TB_GUARD_GATE.yes/any",
+        "NPC"
+      ]
+    ],
+    "187": [
+      "RD_ALifeLine_79eb94a0283631d1",
+      "Then we'll double up and sleep less",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:124",
+        "TB_GUARD_GATE.no/any",
+        "NPC"
+      ]
+    ],
+    "188": [
+      "RD_ALifeLine_0f06ead1736bfb52",
+      "Stay sharp, the quiet hours are the worst",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:125",
+        "TB_GUARD_GATE.nudge/any",
+        "NPC"
+      ]
+    ],
+    "189": [
+      "RD_ALifeLine_5fc905df66de4397",
+      "Eyes on the road",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:125",
+        "TB_GUARD_GATE.nudge/any",
+        "NPC"
+      ]
+    ],
+    "190": [
+      "RD_ALifeLine_4dd3e396639e8bbd",
+      "Quiet night, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:126",
+        "TB_GUARD_GATE.done/any",
+        "NPC"
+      ]
+    ],
+    "191": [
+      "RD_ALifeLine_20571f3b1b0c7937",
+      "You earned this",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:126",
+        "TB_GUARD_GATE.done/any",
+        "NPC"
+      ]
+    ],
+    "192": [
+      "RD_ALifeLine_46f7375f0e531196",
+      "You left your post, don't come back",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:127",
+        "TB_GUARD_GATE.lapse/any",
+        "NPC"
+      ]
+    ],
+    "193": [
+      "RD_ALifeLine_5c3e47b346c70453",
+      "The crows and the thieves are both at the tomatoes, stand guard near {where}",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:211",
+        "TB_GUARD_HARVEST.pitch/any",
+        "NPC"
+      ]
+    ],
+    "194": [
+      "RD_ALifeLine_1cc4e6093ea07133",
+      "Watch the field until the last row is in",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:211",
+        "TB_GUARD_HARVEST.pitch/any",
+        "NPC"
+      ]
+    ],
+    "195": [
+      "RD_ALifeLine_7641f70b6e80482b",
+      "Scare them off, don't waste ammo on crows",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:212",
+        "TB_GUARD_HARVEST.yes/any",
+        "NPC"
+      ]
+    ],
+    "196": [
+      "RD_ALifeLine_608eaa96436cb2ae",
+      "I'll hire a kid then",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:213",
+        "TB_GUARD_HARVEST.no/any",
+        "NPC"
+      ]
+    ],
+    "197": [
+      "RD_ALifeLine_3caccca04656934b",
+      "Something's in the beans, go look",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:214",
+        "TB_GUARD_HARVEST.nudge/any",
+        "NPC"
+      ]
+    ],
+    "198": [
+      "RD_ALifeLine_7d913067255daa38",
+      "Is the field quiet",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:214",
+        "TB_GUARD_HARVEST.nudge/any",
+        "NPC"
+      ]
+    ],
+    "199": [
+      "RD_ALifeLine_71c1ea4e74bfd7e5",
+      "Every plant is accounted for, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:215",
+        "TB_GUARD_HARVEST.done/any",
+        "NPC"
+      ]
+    ],
+    "200": [
+      "RD_ALifeLine_6640242d0167e5f8",
+      "That's a good haul, here's your share",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:215",
+        "TB_GUARD_HARVEST.done/any",
+        "NPC"
+      ]
+    ],
+    "201": [
+      "RD_ALifeLine_564b42007aac7e98",
+      "Half of it is gone, I blame the timing",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:216",
+        "TB_GUARD_HARVEST.lapse/any",
+        "NPC"
+      ]
+    ],
+    "202": [
+      "RD_ALifeLine_2c18f92d2f2a4cd5",
+      "I have to get to {where}, and I'm not making it alone",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:39",
+        "TB_ESCORT_WALK.pitch/any",
+        "NPC"
+      ]
+    ],
+    "203": [
+      "RD_ALifeLine_144bedbd3210238e",
+      "Will you walk me to {where}? I'll pay what I can",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:39",
+        "TB_ESCORT_WALK.pitch/any",
+        "NPC"
+      ]
+    ],
+    "204": [
+      "RD_ALifeLine_7c97fdf17e3bfb5e",
+      "Thank God, stay close and keep your head down",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:40",
+        "TB_ESCORT_WALK.yes/any",
+        "NPC"
+      ]
+    ],
+    "205": [
+      "RD_ALifeLine_569cafd531fb7942",
+      "I understand, nobody wants to walk that road",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:41",
+        "TB_ESCORT_WALK.no/any",
+        "NPC"
+      ]
+    ],
+    "206": [
+      "RD_ALifeLine_5a7c6f320f130ee7",
+      "We're not there yet, keep moving",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:42",
+        "TB_ESCORT_WALK.nudge/any",
+        "NPC"
+      ]
+    ],
+    "207": [
+      "RD_ALifeLine_16d0e28a00b1ac31",
+      "Don't leave me out here",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:42",
+        "TB_ESCORT_WALK.nudge/any",
+        "NPC"
+      ]
+    ],
+    "208": [
+      "RD_ALifeLine_1b66f2a7287af756",
+      "I can't thank you enough, take this",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:43",
+        "TB_ESCORT_WALK.done/any",
+        "NPC"
+      ]
+    ],
+    "209": [
+      "RD_ALifeLine_66beeea24112c11c",
+      "You kept your word, that's rare",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:43",
+        "TB_ESCORT_WALK.done/any",
+        "NPC"
+      ]
+    ],
+    "210": [
+      "RD_ALifeLine_77d1873c368f8703",
+      "You left me behind, I won't forget it",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:44",
+        "TB_ESCORT_WALK.lapse/any",
+        "NPC"
+      ]
+    ],
+    "211": [
+      "RD_ALifeLine_6424f5f5307ba632",
+      "I made it myself, no thanks to you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:44",
+        "TB_ESCORT_WALK.lapse/any",
+        "NPC"
+      ]
+    ],
+    "212": [
+      "RD_ALifeLine_725fe9e757841e5a",
+      "The lookout near {where} went silent, climb up and tell me why",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:267",
+        "TB_CHECK_LOOKOUT.pitch/any",
+        "NPC"
+      ]
+    ],
+    "213": [
+      "RD_ALifeLine_3ea9e64e37b5d2ab",
+      "I haven't heard from the tower in a day, go see",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:267",
+        "TB_CHECK_LOOKOUT.pitch/any",
+        "NPC"
+      ]
+    ],
+    "214": [
+      "RD_ALifeLine_331350f65b9c9e3c",
+      "Observation post near {where} is silent, verify and report",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:268",
+        "TB_CHECK_LOOKOUT.pitch/mil",
+        "NPC"
+      ]
+    ],
+    "215": [
+      "RD_ALifeLine_207d03b3612437a4",
+      "Careful, we don't know who's up there now",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:269",
+        "TB_CHECK_LOOKOUT.yes/any",
+        "NPC"
+      ]
+    ],
+    "216": [
+      "RD_ALifeLine_72d2609036456ef4",
+      "Alright, I'll send someone sturdier",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:270",
+        "TB_CHECK_LOOKOUT.no/any",
+        "NPC"
+      ]
+    ],
+    "217": [
+      "RD_ALifeLine_1ec70b313a1bfda2",
+      "No word from the tower yet",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:271",
+        "TB_CHECK_LOOKOUT.nudge/any",
+        "NPC"
+      ]
+    ],
+    "218": [
+      "RD_ALifeLine_24afd5920dbd1139",
+      "What's up there",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:271",
+        "TB_CHECK_LOOKOUT.nudge/any",
+        "NPC"
+      ]
+    ],
+    "219": [
+      "RD_ALifeLine_158a60a468fc1d7c",
+      "So that's what happened, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:272",
+        "TB_CHECK_LOOKOUT.done/any",
+        "NPC"
+      ]
+    ],
+    "220": [
+      "RD_ALifeLine_5756af2d44ed1f36",
+      "Good to know, we'll cover it",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:272",
+        "TB_CHECK_LOOKOUT.done/any",
+        "NPC"
+      ]
+    ],
+    "221": [
+      "RD_ALifeLine_02ea4d4d6d4bd007",
+      "We sent someone else already",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:273",
+        "TB_CHECK_LOOKOUT.lapse/any",
+        "NPC"
+      ]
+    ],
+    "222": [
+      "RD_ALifeLine_7b1777bb1fbd3ce5",
+      "My people are at {where}, take this note and tell them we're alive",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:89",
+        "TB_DELIVER_MESSAGE.pitch/any",
+        "NPC"
+      ]
+    ],
+    "223": [
+      "RD_ALifeLine_532b533a05a07572",
+      "Carry this to the camp at {where}, they'll know what it means",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:89",
+        "TB_DELIVER_MESSAGE.pitch/any",
+        "NPC"
+      ]
+    ],
+    "224": [
+      "RD_ALifeLine_2d78f9c435b00cd7",
+      "Say it exactly as I told you, and keep the note dry",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:90",
+        "TB_DELIVER_MESSAGE.yes/any",
+        "NPC"
+      ]
+    ],
+    "225": [
+      "RD_ALifeLine_6c79334a3b2d2d7e",
+      "Then it stays unsent",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:91",
+        "TB_DELIVER_MESSAGE.no/any",
+        "NPC"
+      ]
+    ],
+    "226": [
+      "RD_ALifeLine_3344adbb5aaad8e5",
+      "Have you delivered it yet? People are waiting",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:92",
+        "TB_DELIVER_MESSAGE.nudge/any",
+        "NPC"
+      ]
+    ],
+    "227": [
+      "RD_ALifeLine_28025f5b46ca8b67",
+      "Don't lose that note",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:92",
+        "TB_DELIVER_MESSAGE.nudge/any",
+        "NPC"
+      ]
+    ],
+    "228": [
+      "RD_ALifeLine_581e58e2179f5a32",
+      "Thank you, that lifts a weight",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:93",
+        "TB_DELIVER_MESSAGE.done/any",
+        "NPC"
+      ]
+    ],
+    "229": [
+      "RD_ALifeLine_6345f87205d66fce",
+      "They'll act on it now, good work",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:93",
+        "TB_DELIVER_MESSAGE.done/any",
+        "NPC"
+      ]
+    ],
+    "230": [
+      "RD_ALifeLine_16d3ee16670f39c7",
+      "They've moved on, the word is useless",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:94",
+        "TB_DELIVER_MESSAGE.lapse/any",
+        "NPC"
+      ]
+    ],
+    "231": [
+      "RD_ALifeLine_5ba8c5b6181b9ea2",
+      "Take this note to my contact near {where}, no questions, hand it over in person",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:219",
+        "TB_MEET_CONTACT.pitch/any",
+        "NPC"
+      ]
+    ],
+    "232": [
+      "RD_ALifeLine_4e374f92680775ac",
+      "Meet my contact out by {where}, give him this and say nothing",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:219",
+        "TB_MEET_CONTACT.pitch/any",
+        "NPC"
+      ]
+    ],
+    "233": [
+      "RD_ALifeLine_429b6e5d6f946e32",
+      "Don't be late, and don't look nervous",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:220",
+        "TB_MEET_CONTACT.yes/any",
+        "NPC"
+      ]
+    ],
+    "234": [
+      "RD_ALifeLine_2235ae254ea484aa",
+      "Then I'll send someone I trust less",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:221",
+        "TB_MEET_CONTACT.no/any",
+        "NPC"
+      ]
+    ],
+    "235": [
+      "RD_ALifeLine_1e0bd6285a355e26",
+      "He's waiting, you're late",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:222",
+        "TB_MEET_CONTACT.nudge/any",
+        "NPC"
+      ]
+    ],
+    "236": [
+      "RD_ALifeLine_4903c1a87a26d0ab",
+      "Keep that note out of sight",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:222",
+        "TB_MEET_CONTACT.nudge/any",
+        "NPC"
+      ]
+    ],
+    "237": [
+      "RD_ALifeLine_55dafe1904a45790",
+      "Good, he gave me the nod",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:223",
+        "TB_MEET_CONTACT.done/any",
+        "NPC"
+      ]
+    ],
+    "238": [
+      "RD_ALifeLine_3835d29d30af7eb1",
+      "That's one thing off my back",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:223",
+        "TB_MEET_CONTACT.done/any",
+        "NPC"
+      ]
+    ],
+    "239": [
+      "RD_ALifeLine_348e57e33468adc0",
+      "He left, you cost us a deal",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:224",
+        "TB_MEET_CONTACT.lapse/any",
+        "NPC"
+      ]
+    ],
+    "240": [
+      "RD_ALifeLine_24fc7a914b9b45d4",
+      "Take this crate to {where}, they'll hand you something in return, bring it back",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:163",
+        "TB_TRADE_RUN.pitch/any",
+        "NPC"
+      ]
+    ],
+    "241": [
+      "RD_ALifeLine_111a2ef0724877d3",
+      "I need a trader who won't skim, will you carry it",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:163",
+        "TB_TRADE_RUN.pitch/any",
+        "NPC"
+      ]
+    ],
+    "242": [
+      "RD_ALifeLine_6f20ae4936fb638f",
+      "Count it when you hand it over, count it when you get it back",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:164",
+        "TB_TRADE_RUN.yes/any",
+        "NPC"
+      ]
+    ],
+    "243": [
+      "RD_ALifeLine_15ef302764bc2352",
+      "I'll find another mule",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:165",
+        "TB_TRADE_RUN.no/any",
+        "NPC"
+      ]
+    ],
+    "244": [
+      "RD_ALifeLine_1b29c3b062c9feb4",
+      "The crate's not going to deliver itself",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:166",
+        "TB_TRADE_RUN.nudge/any",
+        "NPC"
+      ]
+    ],
+    "245": [
+      "RD_ALifeLine_770407aa34ce498e",
+      "Did they pay you in full",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:166",
+        "TB_TRADE_RUN.nudge/any",
+        "NPC"
+      ]
+    ],
+    "246": [
+      "RD_ALifeLine_7fb5bfa1118f5a58",
+      "Fair exchange, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:167",
+        "TB_TRADE_RUN.done/any",
+        "NPC"
+      ]
+    ],
+    "247": [
+      "RD_ALifeLine_2313e88f703de849",
+      "You didn't skim, I noticed",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:167",
+        "TB_TRADE_RUN.done/any",
+        "NPC"
+      ]
+    ],
+    "248": [
+      "RD_ALifeLine_57e33f1739112813",
+      "They won't deal with me now, thanks to you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:168",
+        "TB_TRADE_RUN.lapse/any",
+        "NPC"
+      ]
+    ],
+    "249": [
+      "RD_ALifeLine_0cc17791591d5fcb",
+      "A crew took our food stores, they're holed up near {where}",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:154",
+        "TB_GET_BACK_STOLEN.pitch/any",
+        "NPC"
+      ]
+    ],
+    "250": [
+      "RD_ALifeLine_058c92e918dc9441",
+      "They stole our tools, bring them back and I'll owe you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:154",
+        "TB_GET_BACK_STOLEN.pitch/any",
+        "NPC"
+      ]
+    ],
+    "251": [
+      "RD_ALifeLine_4ce48a2556911800",
+      "Recover the stolen goods near {where} and bring them back intact",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:155",
+        "TB_GET_BACK_STOLEN.pitch/law",
+        "NPC"
+      ]
+    ],
+    "252": [
+      "RD_ALifeLine_0b016e2851a5531c",
+      "Watch yourself, they don't give up what they take",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:156",
+        "TB_GET_BACK_STOLEN.yes/any",
+        "NPC"
+      ]
+    ],
+    "253": [
+      "RD_ALifeLine_62b1048f629b34be",
+      "I wouldn't blame you for saying no",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:157",
+        "TB_GET_BACK_STOLEN.no/any",
+        "NPC"
+      ]
+    ],
+    "254": [
+      "RD_ALifeLine_1c735b664030ccb4",
+      "Don't get killed over a box of cans",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:158",
+        "TB_GET_BACK_STOLEN.nudge/any",
+        "NPC"
+      ]
+    ],
+    "255": [
+      "RD_ALifeLine_20062a182deae9f4",
+      "Any sign of our things",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:158",
+        "TB_GET_BACK_STOLEN.nudge/any",
+        "NPC"
+      ]
+    ],
+    "256": [
+      "RD_ALifeLine_715ec1f7775bd993",
+      "I never thought I'd see them again, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:159",
+        "TB_GET_BACK_STOLEN.done/any",
+        "NPC"
+      ]
+    ],
+    "257": [
+      "RD_ALifeLine_2ea8703e5cb0bb06",
+      "That's all of it, I'm in your debt",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:159",
+        "TB_GET_BACK_STOLEN.done/any",
+        "NPC"
+      ]
+    ],
+    "258": [
+      "RD_ALifeLine_05f7106517ec0ea2",
+      "They moved it, the trail's cold",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:160",
+        "TB_GET_BACK_STOLEN.lapse/any",
+        "NPC"
+      ]
+    ],
+    "259": [
+      "RD_ALifeLine_78dd23bd2080230a",
+      "Climb to the high point near {where} and set a signal fire, we need a light for the others",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:179",
+        "TB_LIGHT_BEACON.pitch/any",
+        "NPC"
+      ]
+    ],
+    "260": [
+      "RD_ALifeLine_7b985dfb3a4abeb3",
+      "We need a light up high so the others know where to come",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:179",
+        "TB_LIGHT_BEACON.pitch/any",
+        "NPC"
+      ]
+    ],
+    "261": [
+      "RD_ALifeLine_358b262d100e0fcd",
+      "Take the matches, get up there quick and get down quicker",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:180",
+        "TB_LIGHT_BEACON.yes/any",
+        "NPC"
+      ]
+    ],
+    "262": [
+      "RD_ALifeLine_6a1b13494a7c7eab",
+      "We'll find another way to signal",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:181",
+        "TB_LIGHT_BEACON.no/any",
+        "NPC"
+      ]
+    ],
+    "263": [
+      "RD_ALifeLine_5fbe50b87ee85968",
+      "It's getting dark, is the light up",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:182",
+        "TB_LIGHT_BEACON.nudge/any",
+        "NPC"
+      ]
+    ],
+    "264": [
+      "RD_ALifeLine_7b01459e67e9aee6",
+      "Keep it burning",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:182",
+        "TB_LIGHT_BEACON.nudge/any",
+        "NPC"
+      ]
+    ],
+    "265": [
+      "RD_ALifeLine_152268890ddff30f",
+      "They'll see it, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:183",
+        "TB_LIGHT_BEACON.done/any",
+        "NPC"
+      ]
+    ],
+    "266": [
+      "RD_ALifeLine_5b1d56e26f00252b",
+      "Perfect, now we wait",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:183",
+        "TB_LIGHT_BEACON.done/any",
+        "NPC"
+      ]
+    ],
+    "267": [
+      "RD_ALifeLine_3c9b144210f990b9",
+      "No signal came, we lost them",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:184",
+        "TB_LIGHT_BEACON.lapse/any",
+        "NPC"
+      ]
+    ],
+    "268": [
+      "RD_ALifeLine_6b7025da13f8c10b",
+      "A crew is heading for the next camp and they have no idea, take this radio to the high ground near {where} and send the warning",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:259",
+        "TB_RELAY_RADIO.pitch/any",
+        "NPC"
+      ]
+    ],
+    "269": [
+      "RD_ALifeLine_6e22fb840b520da6",
+      "Set this radio up near {where}, there are raiders on the road and the next camp must hear it",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:259",
+        "TB_RELAY_RADIO.pitch/any",
+        "NPC"
+      ]
+    ],
+    "270": [
+      "RD_ALifeLine_3d7b5b9370e41073",
+      "Run, don't walk, we've no time",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:260",
+        "TB_RELAY_RADIO.yes/any",
+        "NPC"
+      ]
+    ],
+    "271": [
+      "RD_ALifeLine_719fcaeb702d100d",
+      "Understood, may the road be kind to them",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:261",
+        "TB_RELAY_RADIO.no/any",
+        "NPC"
+      ]
+    ],
+    "272": [
+      "RD_ALifeLine_7a8c042a3372d4fd",
+      "Have they been warned yet? Every hour counts",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:262",
+        "TB_RELAY_RADIO.nudge/any",
+        "NPC"
+      ]
+    ],
+    "273": [
+      "RD_ALifeLine_0147b57968d1925f",
+      "Is the radio on",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:262",
+        "TB_RELAY_RADIO.nudge/any",
+        "NPC"
+      ]
+    ],
+    "274": [
+      "RD_ALifeLine_21d8728e462db78a",
+      "Good, they'll be ready, thank you",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:263",
+        "TB_RELAY_RADIO.done/any",
+        "NPC"
+      ]
+    ],
+    "275": [
+      "RD_ALifeLine_40f5c15f0670c8a5",
+      "You may have saved that whole camp",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:263",
+        "TB_RELAY_RADIO.done/any",
+        "NPC"
+      ]
+    ],
+    "276": [
+      "RD_ALifeLine_06fe3ccb7cb39c7a",
+      "They were hit before the warning went out",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:264",
+        "TB_RELAY_RADIO.lapse/any",
+        "NPC"
+      ]
+    ],
+    "277": [
+      "RD_ALifeLine_2c92fadc7e739aeb",
+      "So how do you want to play it?",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:285",
+        "TB_GEN.how/any",
+        "NPC"
+      ]
+    ],
+    "278": [
+      "RD_ALifeLine_4bde28f01ed1b5bf",
+      "How you gonna handle it, quiet or loud?",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:285",
+        "TB_GEN.how/any",
+        "NPC"
+      ]
+    ],
+    "279": [
+      "RD_ALifeLine_5364a53570e9f731",
+      "Your call how, just get it done",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:285",
+        "TB_GEN.how/any",
+        "NPC"
+      ]
+    ],
+    "280": [
+      "RD_ALifeLine_5bf154a16cee392b",
+      "You going in careful, or all at once?",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:286",
+        "TB_GEN.how/any",
+        "NPC"
+      ]
+    ],
+    "281": [
+      "RD_ALifeLine_6c698a07664dfea2",
+      "I'll pay fair.. and more if you're brave enough to go where it's still stocked",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:287",
+        "TB_GEN.worth/any",
+        "NPC"
+      ]
+    ],
+    "282": [
+      "RD_ALifeLine_0ce3686a70a456f1",
+      "Whatever I can spare, and a little extra if you take the risky way",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:288",
+        "TB_GEN.worth/any",
+        "NPC"
+      ]
+    ],
+    "283": [
+      "RD_ALifeLine_234375fe2aaccff6",
+      "Fair pay, promise.. how you get it is your business, the fast way's the dangerous one",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:288",
+        "TB_GEN.worth/any",
+        "NPC"
+      ]
+    ],
+    "284": [
+      "RD_ALifeLine_4331a6e028c2e9ba",
+      "That'll do, you had it on you all along",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:283",
+        "TB_GEN.own/any",
+        "NPC"
+      ]
+    ],
+    "285": [
+      "RD_ALifeLine_7978ee3a2813b6c0",
+      "Straight from your pack, no questions",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:283",
+        "TB_GEN.own/any",
+        "NPC"
+      ]
+    ],
+    "286": [
+      "RD_ALifeLine_619f6e844a4409e2",
+      "You're missing something, I don't see it all",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:280",
+        "TB_GEN.missing/any",
+        "NPC"
+      ]
+    ],
+    "287": [
+      "RD_ALifeLine_2cef1d5c39943e2a",
+      "Not everything's here, check your pack",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:280",
+        "TB_GEN.missing/any",
+        "NPC"
+      ]
+    ],
+    "288": [
+      "RD_ALifeLine_42a1375554e033fd",
+      "That offer's gone cold, ask me again",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:281",
+        "TB_GEN.stale/any",
+        "NPC"
+      ]
+    ],
+    "289": [
+      "RD_ALifeLine_2b6ed34625d61d8e",
+      "Too slow, I found somebody else",
+      [
+        "shared/ProjectALife/Missions/ALifeTaskBoardText.lua:281",
+        "TB_GEN.stale/any",
+        "NPC"
+      ]
+    ]
+  }
+}

@@ -9,7 +9,7 @@ oyunda bulunamaz. Kurulu moddan bütün diyalog satırları (diyalog_cikar grupl
 kaynakta artık bulunmayan her eski satır, metni yalnızca noktalama/boşluk/büyük harf farkıyla aynı olan yeni
 satır(lar)a eşlenir. Cümle içindeki soru ve ünlem işaretleri eşlemede korunur, sondaki yok sayılır.
 Yazılanlar (--uygula): kaynak/RadioData_lua.json, kaynak/RadioData_lua_baglam.json, onayli/RadioData_lua.json
-(eski anahtarın yerine yenisi, sıra korunur), rapor/G1_harita.json ve rapor/G1_anahtarlar.json.
+(eski anahtarın yerine yenisi, sıra korunur), paketler/haritalar/G1_harita.json ve rapor/G1_anahtarlar.json.
 Eşleşmeyen eski satırlar (mod kaldırmış) yerinde kalır. Teslim/Workshop için sonra: son_kontrol → workshop_kur.
 """
 import json
@@ -117,7 +117,7 @@ def main(etiket, uygula):
 
     # G1 (sürmekte olan yeniden çeviri turu): harita ve anahtar listesi yeni anahtarlarla. Numara ve girdi dosyaları değişmez;
     # bir eski satır birden çok yeni anahtara gidiyorsa haritada ilki kalır, öteki onayla'da tasima eşlemesiyle eklenir.
-    hy, ay = KOK / "rapor" / "G1_harita.json", KOK / "rapor" / "G1_anahtarlar.json"
+    hy, ay = KOK / "paketler/haritalar" / "G1_harita.json", KOK / "rapor" / "G1_anahtarlar.json"
     if hy.exists():
         harita, anahtarlar = oku(hy), oku(ay)
         degisen = Counter()

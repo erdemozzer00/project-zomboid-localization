@@ -1,0 +1,181 @@
+{
+  "_paket": "S153R",
+  "_grup": "sandbox_1_5_3",
+  "_dosya": "Sandbox",
+  "_baslik": "Project A-Life 1.5.3 Sandbox ayarları",
+  "_parcalar": [
+    [
+      1,
+      18
+    ]
+  ],
+  "_satir_sonu": true,
+  "_noktalama_haric": [
+    "Ayar adı",
+    "Seçenek"
+  ],
+  "satirlar": {
+    "1": [
+      "Sandbox_ProjectALife.PerfMode",
+      "Performance mode",
+      [
+        "42.20/media/sandbox-options.txt:25",
+        "Performans modu",
+        "Ayar adı"
+      ]
+    ],
+    "2": [
+      "Sandbox_ProjectALife.PerfMode_tooltip",
+      "One switch for a slower PC. Lighter keeps every feature and trims the background work: fewer NPC cars and car spawns, new travelling crews stop at 24 living NPCs, at most 6 outposts with a roll every 40 minutes or more, less ambient chatter, phones at Low and a performance level of at least Medium. Performance goes further: fewer cars still, crews stop at 16 NPCs, 4 outposts, a roll every 60 minutes or more, one chatter at a time and a performance level of at least Low, which also wins over a pinned level. It only lowers your values, never raises them, and never writes your saved options: back on Off everything reads as you set it. Works in a running game\nDefault Off (1)",
+      [
+        "42.20/media/sandbox-options.txt:25",
+        "Performans modu",
+        "İpucu"
+      ]
+    ],
+    "3": [
+      "Sandbox_ProjectALife.PerfMode_option1",
+      "Off",
+      [
+        "42.20/media/sandbox-options.txt:25",
+        "Performans modu",
+        "Seçenek 1"
+      ]
+    ],
+    "4": [
+      "Sandbox_ProjectALife.PerfMode_option2",
+      "Lighter",
+      [
+        "42.20/media/sandbox-options.txt:25",
+        "Performans modu",
+        "Seçenek 2"
+      ]
+    ],
+    "5": [
+      "Sandbox_ProjectALife.PerfMode_option3",
+      "Performance",
+      [
+        "42.20/media/sandbox-options.txt:25",
+        "Performans modu",
+        "Seçenek 3"
+      ]
+    ],
+    "6": [
+      "Sandbox_ProjectALife.CarsSpawnFrequency",
+      "NPC car spawn rate (percent)",
+      [
+        "42.20/media/sandbox-options.txt:535",
+        "NPC arabalarının ortaya çıkması ve sınırlar",
+        "Ayar adı"
+      ]
+    ],
+    "7": [
+      "Sandbox_ProjectALife.CarsSpawnFrequency_tooltip",
+      "How often ambient NPC cars appear: road traffic, travelers, map cars and car encounters. Works on top of NPC car frequency. 100 keeps the normal rate, 50 halves it, 0 stops them\nDefault 100.",
+      [
+        "42.20/media/sandbox-options.txt:535",
+        "NPC arabalarının ortaya çıkması ve sınırlar",
+        "İpucu"
+      ]
+    ],
+    "8": [
+      "Sandbox_ProjectALife.CarsMaxVirtual",
+      "Most NPC cars driving the map",
+      [
+        "42.20/media/sandbox-options.txt:541",
+        "NPC arabalarının ortaya çıkması ve sınırlar",
+        "Ayar adı"
+      ]
+    ],
+    "9": [
+      "Sandbox_ProjectALife.CarsMaxVirtual_tooltip",
+      "Upper limit for NPC cars that drive the roads far from every player, without crews loaded. The rate settings scale the count, this caps it. 0 means none\nDefault 30.",
+      [
+        "42.20/media/sandbox-options.txt:541",
+        "NPC arabalarının ortaya çıkması ve sınırlar",
+        "İpucu"
+      ]
+    ],
+    "10": [
+      "Sandbox_ProjectALife.CarsMaxReal",
+      "Most NPC cars near players",
+      [
+        "42.20/media/sandbox-options.txt:547",
+        "NPC arabalarının ortaya çıkması ve sınırlar",
+        "Ayar adı"
+      ]
+    ],
+    "11": [
+      "Sandbox_ProjectALife.CarsMaxReal_tooltip",
+      "Upper limit for ambient NPC cars with crews near the players at once. The rate settings scale the count, this caps it. 0 means none. Raids and police calls are not counted\nDefault 12.",
+      [
+        "42.20/media/sandbox-options.txt:547",
+        "NPC arabalarının ortaya çıkması ve sınırlar",
+        "İpucu"
+      ]
+    ],
+    "12": [
+      "Sandbox_ProjectALife.CombatNpcHearTiles",
+      "Zombies hear NPCs within (tiles)",
+      [
+        "42.20/media/sandbox-options.txt:1525",
+        "Zombilerin NPC’leri duyması",
+        "Ayar adı"
+      ]
+    ],
+    "13": [
+      "Sandbox_ProjectALife.CombatNpcHearTiles_tooltip",
+      "A zombie notices an NPC that is moving or has just fired within this many tiles even when it cannot see the NPC (fair targeting). Lower values mean fewer zombies turn to NPCs out of sight\nDefault 10",
+      [
+        "42.20/media/sandbox-options.txt:1525",
+        "Zombilerin NPC’leri duyması",
+        "İpucu"
+      ]
+    ],
+    "14": [
+      "Sandbox_ProjectALife.ZombieFarPullPerBeat",
+      "Far zombies rechecking gunfire per beat",
+      [
+        "42.20/media/sandbox-options.txt:2986",
+        "Uzak zombilerin silah sesini yeniden kontrol etmesi",
+        "Ayar adı"
+      ]
+    ],
+    "15": [
+      "Sandbox_ProjectALife.ZombieFarPullPerBeat_tooltip",
+      "While NPC gunfire is live, far zombies outside its reach recheck it every 0.4 s. This caps how many of them do that per 0.4 s; the rest recheck once a second. Zombies within 10 tiles of the reach are never held, and a new or louder shot rechecks the held ones on time. 0 means no cap\nDefault 8",
+      [
+        "42.20/media/sandbox-options.txt:2986",
+        "Uzak zombilerin silah sesini yeniden kontrol etmesi",
+        "İpucu"
+      ]
+    ],
+    "16": [
+      "Sandbox_ProjectALife.Raid_Helicopter_tooltip",
+      "Allows all A-Life helicopters: raid and backup arrivals, night searchlights and flyovers. Off: none of these helicopters fly. How often they come is set by Helicopter frequency on the START HERE page.\nDefault on.",
+      [
+        "42.20/media/sandbox-options.txt:185",
+        "A-Life helikopterleri ve üstten geçiş sıklığı",
+        "İpucu"
+      ]
+    ],
+    "17": [
+      "Sandbox_ProjectALife.Helicopter_FlybyHours_tooltip",
+      "Average time between helicopters that fly past or circle near a player, at random. Not during the first hours of a character. Helicopter frequency on the START HERE page scales this time: Low doubles it, High halves it. 0 turns flybys off.\nDefault 36.",
+      [
+        "42.20/media/sandbox-options.txt:203",
+        "A-Life helikopterleri ve üstten geçiş sıklığı",
+        "İpucu"
+      ]
+    ],
+    "18": [
+      "Sandbox_ProjectALife.TalkSlowTime_tooltip",
+      "Single player only. While you pick a reply the game runs slowly, then eases back when you choose or close.\nDefault off.",
+      [
+        "42.20/media/sandbox-options.txt:2343",
+        "Cevap seçerken zamanı yavaşlat",
+        "İpucu"
+      ]
+    ]
+  }
+}

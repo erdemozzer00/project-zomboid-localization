@@ -6,6 +6,7 @@ Kullanım: python araclar/son_kontrol.py
 import json
 import re
 import sys
+from tempfile import NamedTemporaryFile
 from collections import Counter
 from pathlib import Path
 
@@ -31,10 +32,12 @@ YASAK = {
 ISTISNA = {}
 for _p in (KOK / "paketler").glob("*.json"):
     try:
-        for _k, _r in json.loads(_p.read_text(encoding="utf-8")).get("satirlar", {}).items():
+        _paket = json.loads(_p.read_text(encoding="utf-8"))
+        for _k, _r in _paket.get("satirlar", {}).items():
             _i = _r.get("onayli_uslup_istisnalari") if isinstance(_r, dict) else None
-            if isinstance(_i, dict):
-                ISTISNA.setdefault(_k, set()).update(t for t, g in _i.items() if isinstance(g, str) and g.strip())
+            if isinstance(_i, dict) and isinstance(_r.get("tr"), str):
+                kayit = (_paket.get("_dosya"), _k, _r["tr"])
+                ISTISNA.setdefault(kayit, set()).update(t for t, g in _i.items() if isinstance(g, str) and g.strip())
     except (ValueError, AttributeError):
         pass
 
@@ -59,11 +62,12 @@ for ad in ("IG_UI", "Sandbox", "UI", "ItemName"):  # UI: K22; ItemName: K46, mod
         if Counter(YT.findall(e)) != Counter(YT.findall(t)):
             sorunlar.append(f"{k}: yer tutucu farkı EN={sorted(YT.findall(e))} TR={sorted(YT.findall(t))}")
         t_siz = re.sub(r"\b[A-Z][A-Z0-9]+\b", "", t)
-        if SIZ.search(t_siz) and "hitap" not in ISTISNA.get(k, ()):
+        izinler = ISTISNA.get((ad, k, t), ())
+        if SIZ.search(t_siz) and "hitap" not in izinler:
             sorunlar.append(f'{k}: "siz"? → {SIZ.search(t_siz).group(0)}')
         for s in t.split("\n"):
             s = s.strip()
-            if DIR.search(s) and not EMIR.search(s) and s not in ("Nadir", "Çok nadir") and "dir" not in ISTISNA.get(k, ()):
+            if DIR.search(s) and not EMIR.search(s) and s not in ("Nadir", "Çok nadir") and "dir" not in izinler:
                 sorunlar.append(f'{k}: "-dır"? → {s[-30:]}')
         for pat, neden in YASAK.items():
             if re.search(pat, t):
@@ -131,7 +135,7 @@ if rd_tr_yol.exists():
             rd_sorun.append(f"{k}: bozuk {{g:a|b}}")
     cikti = {k: rd_tr[k] for k in rd_en if k in rd_tr}
     # Yalnızca cinsiyetli hitap içeren şablonlar oyunda iki İngilizce metne dönüşür; her birine çözülmüş Türkçe eşlenir
-    # (satır başına tek düzenlenebilir kayıt: kaynakta ve çevirmen sitesinde yalnızca şablon durur)
+    # Satır başına tek düzenlenebilir kayıt: kaynak ve onaylı veride şablon durur.
     varyant, atlanan, sablon = turet(rd_en, rd_tr, cikti)
     cikti.update(dict(sorted(varyant.items())))
     # K46: rastgele yer tutucu değerlerinin Türkçesi (konuşma ekinin şablon eşlemesi kullanır)
@@ -140,7 +144,17 @@ if rd_tr_yol.exists():
     ek_deger.update({"RD_ALifeTR_Kalip_" + ad: tr for ad, tr in degerler["kalip"].items()})
     cikti.update(ek_deger)
     hedef = KOK / "teslim" / "RadioData.json"
-    hedef.write_bytes((json.dumps(cikti, ensure_ascii=False, indent=4) + "\n").encode("utf-8"))
+    metin = (json.dumps(cikti, ensure_ascii=False, indent=4) + "\n").encode("utf-8")
+    # Keep the previous dictionary available until the new one has been written in full.
+    gecici_yol = None
+    try:
+        with NamedTemporaryFile(dir=hedef.parent, prefix="RadioData-", suffix=".tmp", delete=False) as gecici:
+            gecici_yol = Path(gecici.name)
+            gecici.write(metin)
+        gecici_yol.replace(hedef)
+    finally:
+        if gecici_yol is not None:
+            gecici_yol.unlink(missing_ok=True)
     json.loads(hedef.read_bytes().decode("utf-8"))
     genel_sorun += len(rd_sorun)
     satirlar += ["## RadioData.json (NPC diyalogları)", "",

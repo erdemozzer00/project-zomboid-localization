@@ -1,0 +1,153 @@
+# U1R · 14/14 · Kapı ziyaretçileri
+# Çıktı dosyası: U1R_14.txt. Dosyaya yalnız N | Türkçe satırlarını yaz. 1292–1401 arasındaki her numarayı aynı sırada bir kez kullan.
+# Başlıklar ve numarasız notlar bağlamdır. Çevrilecek metin her numaralı satırın son sütunundadır.
+# DÜNYA VE EKRAN: Project Zomboid, 1993 Kentucky’si. Bunlar Oluşturucu’da ve katalogda NPC üye şablonunu tanıtan kısa ekran etiketleridir.
+# BİÇİM: “Ad ve unvan” satırında kişi adını ve boşluklu “ - ” ayracını koru. Unvanı kısa bir Türkçe ad öbeği olarak yaz. “Şablon adı” tek parça bir etikettir. İçinde bir ad ve rütbe varsa kişinin adını koruyup rütbeyi Türkçeleştir. Yer ve kişi adlarını, numaraları ve model kodlarını koru. Sona nokta koyma.
+# BAĞLAM: Her başlık bir fraksiyondur. İngilizce grup açıklaması oyunun kataloğundan alınmıştır. Açıklamadaki olaylar çevrilecek ada eklenmez. “Ortak etiket” notu bir sonraki satırın aynı metinle kullanıldığı diğer grupları sayar. Bu satıra hepsine uyan tek karşılık yaz.
+# TERİM BAĞLAMI: Başlık kapıya gelen ziyaretçinin grubunu verir. Her numaralı satır bir ziyaretçi şablonunun adıdır. Former, retired, off duty ve laid off mesleğin farklı durumlarını belirtir.
+
+##### Neighbours #####
+# Katalog açıklaması: People from the streets around you who knock because the lights went out or the radio went quiet. They only ever walk up to your door.
+1292 | Ad ve unvan | Dale - Next-door Neighbour
+1293 | Ad ve unvan | Carol - Neighbour
+1294 | Ad ve unvan | Walt - Retired Neighbour
+1295 | Ad ve unvan | June - Widow Down the Street
+1296 | Ad ve unvan | Ray - Garage Neighbour
+1297 | Ad ve unvan | Denise - Night Shift Neighbour
+1298 | Ad ve unvan | Hank - Block Watch Captain
+1299 | Ad ve unvan | Lorraine - Corner House Neighbour
+1300 | Ad ve unvan | Tom - Trailer Park Neighbour
+1301 | Ad ve unvan | Gloria - Landlady
+
+##### Drifters #####
+# Katalog açıklaması: Hitchhikers, walkers and people with a bag and no destination. They turn up at a door once and move on.
+1302 | Ad ve unvan | Jesse - Hitchhiker
+1303 | Ad ve unvan | Rosa - Road Walker
+1304 | Ad ve unvan | Wendell - Wandering Preacher
+1305 | Ad ve unvan | Sheila - Lost Tourist
+1306 | Ad ve unvan | Lonnie - Day Labourer
+1307 | Ad ve unvan | Tran - Backpacker
+1308 | Ad ve unvan | Maxine - Itinerant Seamstress
+1309 | Ad ve unvan | Floyd - Travelling Salesman
+1310 | Ad ve unvan | Ada - Runaway Wife
+
+##### Family Folk #####
+# Katalog açıklaması: Parents, grandparents, aunts and uncles from the farms and houses nearby, come to ask after your household.
+1311 | Ad ve unvan | Howard - Father
+1312 | Ad ve unvan | Brenda - Mother
+1313 | Ad ve unvan | Earl - Grandfather
+1314 | Ad ve unvan | Opal - Grandmother
+1315 | Ad ve unvan | Gary - Uncle
+1316 | Ad ve unvan | Peggy - Aunt
+1317 | Ad ve unvan | Marcus - Young Father
+1318 | Ad ve unvan | Keisha - Young Mother
+1319 | Ad ve unvan | Rodney - Hog Farmer
+1320 | Ad ve unvan | Loretta - Farm Wife
+
+##### Laid-off Workers #####
+# Katalog açıklaması: Plant hands and drivers who lost the job before the world did. They know the roads and carry nothing worth taking.
+1321 | Ad ve unvan | Darrell - Laid-off Assembly Worker
+1322 | Ad ve unvan | Wanda - Appliance Plant Packer
+1323 | Ad ve unvan | Clyde - Long-haul Trucker
+1324 | Ad ve unvan | Virgil - Coal Miner
+1325 | Ad ve unvan | Tonya - Laid-off Cashier
+1326 | Ad ve unvan | Leroy - Mill Hand
+1327 | Ad ve unvan | Vicki - Short-order Cook
+1328 | Ad ve unvan | Kenny - Warehouse Loader
+1329 | Ad ve unvan | Cecil - Idle Machinist
+
+##### Churchfolk #####
+# Katalog açıklaması: Pastors, deacons, choir women and congregation members making rounds to see who is left.
+1330 | Ad ve unvan | Reverend Amos - Baptist Preacher
+1331 | Ad ve unvan | Mabel - Church Lady
+1332 | Ad ve unvan | Isaiah - Deacon
+1333 | Ad ve unvan | Esther - Choir Director
+1334 | Ad ve unvan | Jacob - Mennonite Neighbour
+1335 | Ad ve unvan | Hannah - Mennonite Wife
+1336 | Ad ve unvan | Calvin - Youth Pastor
+1337 | Ad ve unvan | Naomi - Missionary Volunteer
+1338 | Ad ve unvan | Orville - Church Janitor
+
+##### Medical Folk #####
+# Katalog açıklaması: Aides, nurses and the odd country doctor who walk the roads with a bag, offering what little they have.
+1339 | Ad ve unvan | Dr. Whitaker - Rural Doctor
+1340 | Ad ve unvan | Tammy - Nurse Aide
+1341 | Ad ve unvan | Latoya - ER Nurse
+1342 | Ad ve unvan | Terry - Paramedic Off Duty
+1343 | Ad ve unvan | Dorothy - Retired Nurse
+1344 | Ad ve unvan | Norman - Pharmacist
+1345 | Ad ve unvan | Lena - Home Health Aide
+1346 | Ad ve unvan | Milo - Large-animal Vet
+1347 | Ad ve unvan | Yolanda - Hospital Cleaner
+
+##### Tradespeople #####
+# Katalog açıklaması: Carpenters, linemen, painters and the barber. People whose hands are good for something, calling to trade a favour.
+1348 | Ad ve unvan | Lester - Carpenter
+1349 | Ad ve unvan | Pete - Lineman
+1350 | Ad ve unvan | Stanley - House Painter
+1351 | Ad ve unvan | Glenn - Barber
+1352 | Ad ve unvan | Rita - Seamstress
+1353 | Ad ve unvan | Dwight - Plumber
+1354 | Ad ve unvan | Miguel - Roofer
+1355 | Ad ve unvan | Sue - Mail Carrier
+1356 | Ad ve unvan | Fred - Hardware Clerk
+
+##### Elders #####
+# Katalog açıklaması: Old couples, widowers and retired teachers who stayed put and come out slowly, mostly to talk.
+1357 | Ad ve unvan | Harlan - Retired Teacher
+1358 | Ad ve unvan | Irene - Retired Librarian
+1359 | Ad ve unvan | Elmer - Widower
+1360 | Ad ve unvan | Pearl - Farm Widow
+1361 | Ad ve unvan | Otis - Old Fisherman
+1362 | Ad ve unvan | Ruth - Sunday School Teacher
+1363 | Ad ve unvan | Ivan - Korean War Veteran
+1364 | Ad ve unvan | Edna - Retired Seamstress
+1365 | Ad ve unvan | Vernon - Retired Mechanic
+
+##### Young Adults #####
+# Katalog açıklaması: College kids sent home, grocery clerks and musicians in their twenties. Adults every one, a little too curious for their own good.
+1366 | Ad ve unvan | Eddie - College Student
+1367 | Ad ve unvan | Crystal - Grocery Bagger
+1368 | Ad ve unvan | Andre - Bar Musician
+1369 | Ad ve unvan | Dawn - Waitress
+1370 | Ad ve unvan | Nate - Volunteer Firefighter
+1371 | Ad ve unvan | Maria - Student Nurse
+1372 | Ad ve unvan | Travis - Gas Station Clerk
+1373 | Ad ve unvan | Mai - Shop Clerk
+1374 | Ad ve unvan | Jimmy - Drifting Drummer
+
+##### Ex-Service #####
+# Katalog açıklaması: Vietnam and Gulf veterans, a guardsman and a deputy, all out of uniform. They are civilians who remember what a checkpoint is.
+1375 | Ad ve unvan | Roy - Vietnam Veteran
+1376 | Ad ve unvan | Melvin - Vietnam Medic
+1377 | Ad ve unvan | Greg - Guardsman Off Duty
+1378 | Ad ve unvan | Keith - Deputy Off Duty
+1379 | Ad ve unvan | Reggie - Gulf War Veteran
+1380 | Ad ve unvan | Frank - Navy Cook, Retired
+1381 | Ad ve unvan | Norma - Army Nurse, Retired
+1382 | Ad ve unvan | Hal - Prison Guard, Laid Off
+1383 | Ad ve unvan | Dennis - Marine Reservist
+
+##### Rough but Harmless #####
+# Katalog açıklaması: Gentle bikers, tattooed drifters and hard-living regulars who look worse than they are. Nothing in their hands.
+1384 | Ad ve unvan | Big Lou - Gentle Biker
+1385 | Ad ve unvan | Rhonda - Bar Regular
+1386 | Ad ve unvan | Skeeter - Pool Hall Hustler
+1387 | Ad ve unvan | Dusty - Reformed Ex-con
+1388 | Ad ve unvan | Patty - Biker's Wife
+1389 | Ad ve unvan | Ned - Roadhouse Cook
+1390 | Ad ve unvan | Tina - Tattooed Drifter
+1391 | Ad ve unvan | Rufus - Scrap Hauler
+1392 | Ad ve unvan | Cooter - Moonshine Regular
+
+##### Outsiders #####
+# Katalog açıklaması: People who were not from here: shop families, farm labourers, tourists, and the ones with a theory about everything.
+1393 | Ad ve unvan | Lan - Shop Owner
+1394 | Ad ve unvan | Binh - Shop Owner's Son
+1395 | Ad ve unvan | Hector - Farm Labourer
+1396 | Ad ve unvan | Elena - Cannery Worker
+1397 | Ad ve unvan | Gus - Conspiracy Talker
+1398 | Ad ve unvan | Karen - Lost Tourist
+1399 | Ad ve unvan | Warren - Doomsday Prepper
+1400 | Ad ve unvan | Priya - Motel Clerk
+1401 | Ad ve unvan | Sam - Hippie Wanderer

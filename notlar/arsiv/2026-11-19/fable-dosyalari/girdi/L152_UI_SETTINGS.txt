@@ -1,0 +1,35 @@
+# Project A-Life 1.5.2 — A-Life ayarları ve arayüz yerleşimi
+# KAPSAM: 19 ekran metni; ayar adı/açıklaması, panel adı veya konuşma görünümü tercihi.
+# TERİMLER: reputation → itibar. NPC kısaltması aynen kalır.
+# TEKNİK: Bu metinler kaynakta alan/değer olarak bulunuyor. Her satırın ekrandaki çağrı yolu, manifestteki dosya ve satırla doğrulanmalı.
+
+##### KAN VE HELİKOPTER MÜZİĞİ #####
+# EKRAN: Ayar ekranındaki kan ve helikopter müziği tercihleri.
+1 | [ARAYÜZ METNİ] | Gore level
+2 | [ARAYÜZ METNİ] | How much blood an NPC loses when it dies. It can only lower what the server allows. Kept for you on this computer
+3 | [ARAYÜZ METNİ] | Off: helicopters never play music for you, only the rotor. Kept on this computer
+
+##### RENK VE GÜNLÜK DÜZENİ #####
+# EKRAN: A-Life arayüz renkleri ve günlükte ekran düzeni ayarları.
+4 | [ARAYÜZ METNİ] | Screen layout
+5 | [ARAYÜZ METNİ] | UI colours
+6 | [ARAYÜZ METNİ] | Neutral: grey windows like the talk window. Blue: the older cyan look. Kept on this computer
+
+##### PANEL YERLEŞİMİ #####
+# EKRAN: A-Life pencere ve öğelerini taşıma ekranındaki panel adları ve açıklamalar.
+7 | [ARAYÜZ METNİ] | Popups and task cards
+8 | [ARAYÜZ METNİ] | Talk strip
+9 | [ARAYÜZ METNİ] | Reputation banner
+10 | [ARAYÜZ METNİ] | Performance box
+11 | [ARAYÜZ METNİ] | Captive card
+12 | [ARAYÜZ METNİ] | NPC chat log
+13 | [ARAYÜZ METNİ] | Talk prompt
+14 | [ARAYÜZ METNİ] | Move UI elements
+15 | [ARAYÜZ METNİ] | Closes this window, then drag the subtitles, popups, intro cards, talk strip and other A-Life elements where you want them. Windows can always be dragged by their title bar and remember their place
+16 | [ARAYÜZ METNİ] | Puts every moved A-Life window and element back to its default place
+
+##### KONUŞMA GÖRÜNÜMÜ #####
+# EKRAN: Yeni/Klasik konuşma şeridi tercihleri ve açıklamaları.
+17 | [ARAYÜZ METNİ] | New is the minimal talk strip. Classic is the older window with numbered answers. Server default follows the sandbox option. Kept for you on this computer, applies the next talk
+18 | [ARAYÜZ METNİ] | Interface style
+19 | [ARAYÜZ METNİ] | Classic brings back the older talk window with numbered answers. Takes effect the next time you open a talk

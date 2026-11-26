@@ -1,0 +1,178 @@
+# N153 · NPC soruları ve cevapları · parça 4/5
+# Çıktı dosyası N153_4.txt. Yalnız N | Türkçe biçiminde 151 satır yaz. 300–450 numaralarını aynı sırayla ve bir kez kullan.
+# Project Zomboid Build 42 · Project A-Life 1.5.3 · 1993 Kentucky. NPC ve oyuncu salgın sonrasında yüz yüze konuşuyor. NPC güvenli bir anda oyuncuya soru soruyor. Tekil hitapta sen kullan. Dost, Tarafsız ve Temkinli, NPC’nin oyuncuya karşı tutumudur. Temkinli NPC karşısındakini tartar. Kaynakta verilmedikçe NPC’ye meslek, yaş, cinsiyet veya özel kimlik ekleme.
+# Önce NPC SORU havuzundan koşula uyan bir ifade seçilir. Sonra oyuncuya üç cevap dalı (B1, B2, B3) gösterilir. Her dalda, üç ifade seçeneğinden o tura denk gelen biri görünür. Oyuncunun seçtiği dal, kendisine bağlı NPC TEPKİ havuzuna gider. NPC uygun tepkilerden yalnız birini söyler. Aynı havuzdaki satırlar alternatiflerdir. “1.5.3 ek varyantı” etkin özellik bayrağına bağlı alternatifi belirtir.
+# OYUNCU ekrandaki kısa cevap seçeneğidir. NPC SORU ve NPC TEPKİ konuşulan repliktir. Numarasız · satırları dal açıklaması, mevcut çeviri veya örnek bağlamdır. Çevirme ve çıktıya alma.
+# Sözlük: survivor → hayatta kalan, group → grup, squad → tim, crew → ekip, supplies → erzak veya bağlama göre malzeme, outpost → karakol. Kişinin niyetini ve tutumunu koru. Türkçe doğal konuşma ritmini kullan. Duraksama ve kesilmeleri anlamına göre koru.
+# Numaralı satırlarda yer tutucu, \n ve %% yok. Her numaranın Türkçesi tek satırda kalır.
+
+##### Nerelisin? #####
+# NPC oyuncunun salgın öncesinde nereli olduğunu soruyor. İkinci dal dönülemeyecek kadar kaybedilmiş bir yeri anlatıyor.
+300 | NPC SORU · Dost | So where are you from? Originally, I mean
+301 | NPC SORU · Dost | Where's home for you? Was, I mean..
+302 | NPC SORU · Dost | You from around here, or passing through?
+303 | NPC SORU · Dost | I have to ask, where are you from? You remind me of someone
+304 | NPC SORU · Dost | Where'd you grow up, if you don't mind me asking?
+· NPC SORU · Tarafsız (mevcut çeviri) | Where you from? → Neredensin sen?
+305 | NPC SORU · Tarafsız | You local, or from somewhere else?
+306 | NPC SORU · Tarafsız | Where were you living, before?
+307 | NPC SORU · Tarafsız | You from around these parts?
+308 | NPC SORU · Tarafsız | Where'd you start out from?
+309 | NPC SORU · Temkinli | Where are you from? Just so I know who I'm talking to
+310 | NPC SORU · Temkinli | You local? I don't recognize you
+311 | NPC SORU · Temkinli | Where'd you come from, exactly?
+312 | NPC SORU · Temkinli | You from here, or did you wander in from somewhere?
+313 | NPC SORU · Temkinli | What part are you from? Short answer's fine
+· B1 · Buralıyım
+314 | OYUNCU · B1 | Not far, I'm from around here
+315 | OYUNCU · B1 | Close by, I know this area
+316 | OYUNCU · B1 | Local, more or less
+317 | NPC TEPKİ · B1 · Dost | Oh good, so you know your way around, that helps
+318 | NPC TEPKİ · B1 · Dost | A local! God, I've been lost half the time
+319 | NPC TEPKİ · B1 · Dost | That's nice, having somewhere familiar, even now
+320 | NPC TEPKİ · B1 · Tarafsız | Huh, so you know the area then
+321 | NPC TEPKİ · B1 · Tarafsız | Makes sense, I figured you weren't new here
+322 | NPC TEPKİ · B1 · Tarafsız | Handy, knowing the place
+323 | NPC TEPKİ · B1 · Temkinli | So you're not just passing through
+324 | NPC TEPKİ · B1 · Temkinli | You'd know the hiding spots better than me
+325 | NPC TEPKİ · B1 · Temkinli | Local, huh.. noted
+· B2 · Geldiğim yer artık yok
+326 | OYUNCU · B2 | Somewhere that's gone now
+327 | OYUNCU · B2 | Doesn't exist anymore, not really
+328 | OYUNCU · B2 | A place I can't go back to
+329 | NPC TEPKİ · B2 · Dost | Oh no, I'm sorry, I- I shouldn't have asked
+330 | NPC TEPKİ · B2 · Dost | Mine too.. mine too
+331 | NPC TEPKİ · B2 · Dost | Damn, that's.. yeah, I get it
+332 | NPC TEPKİ · B2 · Tarafsız | There's a lot of that going around
+333 | NPC TEPKİ · B2 · Tarafsız | Same for most of us, I think
+334 | NPC TEPKİ · B2 · Tarafsız | Sorry, didn't mean to dig
+335 | NPC TEPKİ · B2 · Temkinli | Can't go back to mine either
+336 | NPC TEPKİ · B2 · Temkinli | I won't press on it
+337 | NPC TEPKİ · B2 · Temkinli | Then we're both from nowhere now
+· B3 · Nereli olduğumu söylemem
+338 | OYUNCU · B3 | Doesn't matter where I'm from
+339 | OYUNCU · B3 | Here and there, let's leave it
+340 | OYUNCU · B3 | I'd rather not say
+341 | NPC TEPKİ · B3 · Dost | Fair enough, doesn't really matter now anyway
+342 | NPC TEPKİ · B3 · Dost | No problem, I was just curious
+343 | NPC TEPKİ · B3 · Dost | Sure, sure, forget it
+344 | NPC TEPKİ · B3 · Tarafsız | Keep it, then
+345 | NPC TEPKİ · B3 · Tarafsız | Doesn't change much, fair
+346 | NPC TEPKİ · B3 · Tarafsız | No harm asking
+347 | NPC TEPKİ · B3 · Temkinli | I'll keep guessing then
+348 | NPC TEPKİ · B3 · Temkinli | Play it close, I get it
+349 | NPC TEPKİ · B3 · Temkinli | You keep yours, I keep mine
+
+##### Başka hayatta kalan gördün mü? #####
+# NPC oyuncuya başka canlı insanlarla karşılaşıp karşılaşmadığını soruyor.
+350 | NPC SORU · Dost | Have you run into anyone else? Anyone alive, I mean
+351 | NPC SORU · Dost | Seen any other people out there? Good ones?
+352 | NPC SORU · Dost | Are there others?! Please, PLEASE tell me we're not the only ones left
+353 | NPC SORU · Dost | You meet anybody decent lately?
+354 | NPC SORU · Dost | You've seen other living people, right? Please say yes
+355 | NPC SORU · Tarafsız | You seen other survivors?
+356 | NPC SORU · Tarafsız | Run into many people?
+357 | NPC SORU · Tarafsız | Seen anybody else around?
+358 | NPC SORU · Tarafsız | Anybody still kicking, where you've been?
+359 | NPC SORU · Tarafsız | You come across anyone alive?
+360 | NPC SORU · Temkinli | You seen anyone else? I need to know who's around
+361 | NPC SORU · Temkinli | Run into anyone else on your way here?
+362 | NPC SORU · Temkinli | Anybody else around here? People, I mean
+363 | NPC SORU · Temkinli | You running into other people? Groups?
+364 | NPC SORU · Temkinli | Seen any living people, or just them?
+· B1 · Birkaç kişiye rastladım
+365 | OYUNCU · B1 | A few, they kept to themselves
+366 | OYUNCU · B1 | Some, nobody I really talked to
+367 | OYUNCU · B1 | Yeah, a couple, from a distance
+368 | NPC TEPKİ · B1 · Dost | Really.. oh God, that's good, we're not the only ones
+369 | NPC TEPKİ · B1 · Dost | People still out there.. that helps more than you'd think
+370 | NPC TEPKİ · B1 · Dost | That's.. that's honestly good news
+371 | NPC TEPKİ · B1 · Tarafsız | Means it's not just us, then
+372 | NPC TEPKİ · B1 · Tarafsız | Keeping their distance, smart
+373 | NPC TEPKİ · B1 · Tarafsız | So there's others around
+374 | NPC TEPKİ · B1 · Temkinli | I'll keep an eye out then
+375 | NPC TEPKİ · B1 · Temkinli | Others, huh.. hope they stay that way
+376 | NPC TEPKİ · B1 · Temkinli | Then I'll be careful who I wave at
+· B2 · Canlı kimseyi görmedim
+377 | OYUNCU · B2 | Nobody living, just the dead
+378 | OYUNCU · B2 | Not a soul, it's been empty
+379 | OYUNCU · B2 | No, you're the first in a while
+380 | NPC TEPKİ · B2 · Dost | God.. that's lonely, I'm glad we ran into each other then
+381 | NPC TEPKİ · B2 · Dost | It's so empty out there, it scares me
+382 | NPC TEPKİ · B2 · Dost | You and me, then.. that's something
+383 | NPC TEPKİ · B2 · Tarafsız | Dead quiet for me too
+384 | NPC TEPKİ · B2 · Tarafsız | Same, it's like everyone just vanished
+385 | NPC TEPKİ · B2 · Tarafsız | That's grim.. figures though
+386 | NPC TEPKİ · B2 · Temkinli | That's either good or really bad
+387 | NPC TEPKİ · B2 · Temkinli | Then it's just us here
+388 | NPC TEPKİ · B2 · Temkinli | Empty's better than a crowd, I guess
+· B3 · Kimleri gördüğümü söylemem
+389 | OYUNCU · B3 | I'd rather not say who I've seen
+390 | OYUNCU · B3 | Nobody I'd point you to
+391 | OYUNCU · B3 | That's not mine to tell
+392 | NPC TEPKİ · B3 · Dost | No, that's fair, you're protecting them
+393 | NPC TEPKİ · B3 · Dost | I get it, you're looking out for people
+394 | NPC TEPKİ · B3 · Dost | That's decent of you, honestly
+395 | NPC TEPKİ · B3 · Tarafsız | Wouldn't want strangers asking about me either
+396 | NPC TEPKİ · B3 · Tarafsız | I won't push on it
+397 | NPC TEPKİ · B3 · Tarafsız | Can't fault that
+398 | NPC TEPKİ · B3 · Temkinli | So there IS someone
+399 | NPC TEPKİ · B3 · Temkinli | Keep your secrets then
+400 | NPC TEPKİ · B3 · Temkinli | Noted, I won't ask who
+
+##### Salgından önce ne iş yapıyordun? #####
+# NPC oyuncunun salgın öncesi mesleğini ve günlük hayatını merak ediyor.
+401 | NPC SORU · Dost | What did you do before all this? For work, I mean
+402 | NPC SORU · Dost | Who were you before? Like, what was your job?
+403 | NPC SORU · Dost | I keep wondering what everyone did before.. what about you?
+404 | NPC SORU · Dost | Before this mess, what was your life like?
+405 | NPC SORU · Dost | What kept you busy, back before all this?
+406 | NPC SORU · Tarafsız | What'd you do before?
+· NPC SORU · Tarafsız (mevcut çeviri) | What was your line of work? → Mesleğin neydi?
+407 | NPC SORU · Tarafsız | You have a job before all this?
+408 | NPC SORU · Tarafsız | What did you used to do?
+409 | NPC SORU · Tarafsız | Before everything, what were you?
+410 | NPC SORU · Temkinli | What'd you work at? Anything that's useful now?
+411 | NPC SORU · Temkinli | What was your job? Just so I know what you're good for
+412 | NPC SORU · Temkinli | So what were you, back then? Office, trade, what?
+413 | NPC SORU · Temkinli | Your old job, what was it? Short version
+414 | NPC SORU · Temkinli | You work before this? Doing what?
+· B1 · Sıradan bir işim ve düzenim vardı
+415 | OYUNCU · B1 | Just worked, paid bills, the usual
+416 | OYUNCU · B1 | Regular job, nothing special
+417 | OYUNCU · B1 | Normal stuff, a job, a routine
+418 | NPC TEPKİ · B1 · Dost | God, I miss boring, I'd kill for a boring day now
+419 | NPC TEPKİ · B1 · Dost | Normal sounds so nice right now..
+420 | NPC TEPKİ · B1 · Dost | Same, punch in, punch out.. feels like a dream now
+421 | NPC TEPKİ · B1 · Tarafsız | Same as most of us
+422 | NPC TEPKİ · B1 · Tarafsız | Boring's underrated, I'm telling you
+423 | NPC TEPKİ · B1 · Tarafsız | Feels like a hundred years ago, all that
+424 | NPC TEPKİ · B1 · Temkinli | Regular folk then
+425 | NPC TEPKİ · B1 · Temkinli | Nothing special, got it
+426 | NPC TEPKİ · B1 · Temkinli | That tells me enough
+· B2 · Eskisinin artık önemi yok
+427 | OYUNCU · B2 | None of it matters now
+428 | OYUNCU · B2 | Doesn't count for much anymore
+429 | OYUNCU · B2 | Feels like someone else's life
+430 | NPC TEPKİ · B2 · Dost | I know that feeling, like it happened to somebody else
+431 | NPC TEPKİ · B2 · Dost | I get it, I really do.. it still counts to me though
+432 | NPC TEPKİ · B2 · Dost | Maybe.. but you made it this far
+433 | NPC TEPKİ · B2 · Tarafsız | I stopped thinking about mine too
+434 | NPC TEPKİ · B2 · Tarafsız | Fair, the old stuff doesn't buy much now
+435 | NPC TEPKİ · B2 · Tarafsız | My old life feels like a movie I saw once
+436 | NPC TEPKİ · B2 · Temkinli | True enough, I guess
+437 | NPC TEPKİ · B2 · Temkinli | Doesn't matter to me either, long as you pull your weight
+438 | NPC TEPKİ · B2 · Temkinli | Nobody's checking resumes out here
+· B3 · Geçmişi açmak istemiyorum
+439 | OYUNCU · B3 | I'd rather leave that behind
+440 | OYUNCU · B3 | Let's not dig that up
+441 | OYUNCU · B3 | That's nobody's business now
+442 | NPC TEPKİ · B3 · Dost | A fresh start, I get that
+443 | NPC TEPKİ · B3 · Dost | That's alright, you don't owe me any of it
+444 | NPC TEPKİ · B3 · Dost | Forget the past, I'm trying to
+445 | NPC TEPKİ · B3 · Tarafsız | Past is past
+446 | NPC TEPKİ · B3 · Tarafsız | Leave it buried, then
+447 | NPC TEPKİ · B3 · Tarafsız | Plenty of us want that, fair
+448 | NPC TEPKİ · B3 · Temkinli | That usually means something
+449 | NPC TEPKİ · B3 · Temkinli | I'll judge you by now then
+450 | NPC TEPKİ · B3 · Temkinli | Funny, that's what I'd say if I'd done something

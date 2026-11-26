@@ -1,0 +1,121 @@
+# N153 · NPC soruları ve cevapları · parça 2/5
+# Çıktı dosyası N153_2.txt. Yalnız N | Türkçe biçiminde 101 satır yaz. 101–201 numaralarını aynı sırayla ve bir kez kullan.
+# Project Zomboid Build 42 · Project A-Life 1.5.3 · 1993 Kentucky. NPC ve oyuncu salgın sonrasında yüz yüze konuşuyor. NPC güvenli bir anda oyuncuya soru soruyor. Tekil hitapta sen kullan. Dost, Tarafsız ve Temkinli, NPC’nin oyuncuya karşı tutumudur. Temkinli NPC karşısındakini tartar. Kaynakta verilmedikçe NPC’ye meslek, yaş, cinsiyet veya özel kimlik ekleme.
+# Önce NPC SORU havuzundan koşula uyan bir ifade seçilir. Sonra oyuncuya üç cevap dalı (B1, B2, B3) gösterilir. Her dalda, üç ifade seçeneğinden o tura denk gelen biri görünür. Oyuncunun seçtiği dal, kendisine bağlı NPC TEPKİ havuzuna gider. NPC uygun tepkilerden yalnız birini söyler. Aynı havuzdaki satırlar alternatiflerdir. “1.5.3 ek varyantı” etkin özellik bayrağına bağlı alternatifi belirtir.
+# OYUNCU ekrandaki kısa cevap seçeneğidir. NPC SORU ve NPC TEPKİ konuşulan repliktir. Numarasız · satırları dal açıklaması, mevcut çeviri veya örnek bağlamdır. Çevirme ve çıktıya alma.
+# Sözlük: survivor → hayatta kalan, group → grup, squad → tim, crew → ekip, supplies → erzak veya bağlama göre malzeme, outpost → karakol. Kişinin niyetini ve tutumunu koru. Türkçe doğal konuşma ritmini kullan. Duraksama ve kesilmeleri anlamına göre koru.
+# Numaralı satırlarda yer tutucu, \n ve %% yok. Her numaranın Türkçesi tek satırda kalır.
+
+##### Uyuyabiliyor musun? #####
+# NPC oyuncunun yeterince uyuyup uyumadığını merak ediyor.
+101 | NPC SORU · Dost | You getting any sleep? Honestly?
+102 | NPC SORU · Dost | Hey, are you sleeping at all? Be honest with me
+103 | NPC SORU · Dost | You managing to sleep, with all this going on?
+104 | NPC SORU · Dost | I can't sleep for shit lately, what about you? You getting any?
+105 | NPC SORU · Dost | You get any rest? Even a couple hours, anything?
+106 | NPC SORU · Tarafsız | You sleeping alright out here?
+107 | NPC SORU · Tarafsız | You getting any rest? Seems nobody does anymore
+108 | NPC SORU · Tarafsız | You sleeping much? Mine's shot to hell
+109 | NPC SORU · Tarafsız | You manage to sleep much?
+110 | NPC SORU · Tarafsız | You rest at all, or just keep moving?
+111 | NPC SORU · Temkinli | Any sleep lately, or are you running on nothing?
+112 | NPC SORU · Temkinli | You getting rest? I need to know you're sharp
+113 | NPC SORU · Temkinli | You sleeping at all? Tell me the truth
+114 | NPC SORU · Temkinli | You get proper rest, or just catnaps?
+115 | NPC SORU · Temkinli | You get any sleep, or are you wired?
+· B1 · Yetecek kadar uyuyorum
+116 | OYUNCU · B1 | Some, enough to keep going
+117 | OYUNCU · B1 | A few hours, it's enough
+118 | OYUNCU · B1 | More than you'd think, actually
+119 | NPC TEPKİ · B1 · Dost | Lucky, I'm almost jealous, honestly
+120 | NPC TEPKİ · B1 · Dost | Hang onto that, a lot of folks can't manage it
+121 | NPC TEPKİ · B1 · Dost | Good.. sleep's the first thing to go, so that's something
+122 | NPC TEPKİ · B1 · Tarafsız | More than I get, that's for sure
+123 | NPC TEPKİ · B1 · Tarafsız | That keeps your head clear, at least
+124 | NPC TEPKİ · B1 · Tarafsız | Wish I could say the same
+125 | NPC TEPKİ · B1 · Temkinli | Then you're sharper than most of us
+126 | NPC TEPKİ · B1 · Temkinli | Keep it up then, you'll need it
+127 | NPC TEPKİ · B1 · Temkinli | Must be nice
+· B2 · Zor uyuyorum
+128 | OYUNCU · B2 | Barely, I keep waking up
+129 | OYUNCU · B2 | Hardly at all, honestly
+130 | OYUNCU · B2 | Not much, my head won't shut up
+131 | NPC TEPKİ · B2 · Dost | Me too.. every little noise and I'm up again
+132 | NPC TEPKİ · B2 · Dost | I know, I know.. just lying there counting breaths
+133 | NPC TEPKİ · B2 · Dost | That's rough.. try and grab a few minutes when it's quiet
+134 | NPC TEPKİ · B2 · Tarafsız | Nobody sleeps right anymore
+135 | NPC TEPKİ · B2 · Tarafsız | Same here, it's like your body forgot how
+136 | NPC TEPKİ · B2 · Tarafsız | That'll catch up with you, careful
+137 | NPC TEPKİ · B2 · Temkinli | Don't fall asleep on your feet around me
+138 | NPC TEPKİ · B2 · Temkinli | Join the club
+· NPC TEPKİ · B2 · Temkinli (mevcut çeviri) | Sit down before you fall down → Otur, yoksa kendiliğinden oturacaksın.
+· B3 · Uykumu dert etme
+139 | OYUNCU · B3 | Don't worry about my sleep
+140 | OYUNCU · B3 | It's fine, don't fuss over me
+141 | OYUNCU · B3 | I manage, leave it there
+142 | NPC TEPKİ · B3 · Dost | Sorry, sorry, didn't mean to mother you
+143 | NPC TEPKİ · B3 · Dost | Fair enough, I'll stop fussing
+144 | NPC TEPKİ · B3 · Dost | Alright, alright, I'll quit hovering
+145 | NPC TEPKİ · B3 · Tarafsız | I'll leave you be
+146 | NPC TEPKİ · B3 · Tarafsız | That's fair, I won't poke
+147 | NPC TEPKİ · B3 · Tarafsız | Got it, moving on
+148 | NPC TEPKİ · B3 · Temkinli | Not my problem then
+149 | NPC TEPKİ · B3 · Temkinli | I'll drop it
+150 | NPC TEPKİ · B3 · Temkinli | Your call, I won't push it
+
+##### Yeterince yemek bulabiliyor musun? #####
+# NPC oyuncunun salgında yiyecek bulup bulamadığını soruyor.
+151 | NPC SORU · Dost | Hey, you getting enough food? Be honest
+152 | NPC SORU · Dost | You eating? I mean actually eating, not just picking at stuff
+153 | NPC SORU · Dost | Are you finding enough to eat out there?
+154 | NPC SORU · Dost | You eating enough? Real food, I mean
+155 | NPC SORU · Dost | Have you been eating, lately? Properly?
+156 | NPC SORU · Tarafsız | You eating alright?
+157 | NPC SORU · Tarafsız | Finding enough food these days?
+158 | NPC SORU · Tarafsız | You managing for food?
+159 | NPC SORU · Tarafsız | Food holding out for you?
+160 | NPC SORU · Tarafsız | You get enough to eat, or is it tight?
+161 | NPC SORU · Temkinli | You got enough food? Tell me now, not later
+162 | NPC SORU · Temkinli | Food lasting you, or not?
+163 | NPC SORU · Temkinli | You okay for food? I don't need details
+164 | NPC SORU · Temkinli | You getting enough to eat? Straight answer
+165 | NPC SORU · Temkinli | Food okay on your end?
+· B1 · Yetecek kadar buluyorum
+166 | OYUNCU · B1 | Enough, I'm getting by
+167 | OYUNCU · B1 | I eat when I can, it's alright
+168 | OYUNCU · B1 | I've found enough so far
+169 | NPC TEPKİ · B1 · Dost | Oh, good, you had me worried for a second
+170 | NPC TEPKİ · B1 · Dost | Don't skip meals if you can help it, okay
+171 | NPC TEPKİ · B1 · Dost | Really glad to hear that
+172 | NPC TEPKİ · B1 · Tarafsız | Food's the hard part, so that's something
+173 | NPC TEPKİ · B1 · Tarafsız | You're doing better than most, then
+174 | NPC TEPKİ · B1 · Tarafsız | Glad somebody's eating
+175 | NPC TEPKİ · B1 · Temkinli | Then you're not after mine
+176 | NPC TEPKİ · B1 · Temkinli | Means I can stop watching my pack, at least
+177 | NPC TEPKİ · B1 · Temkinli | Lucky you, honestly
+· B2 · Yiyeceğim çok az
+178 | OYUNCU · B2 | Not really, it's been lean
+179 | OYUNCU · B2 | Not enough, no
+180 | OYUNCU · B2 | Barely, I'm rationing hard
+181 | NPC TEPKİ · B2 · Dost | Shit, I wish I had more, I really do..
+182 | NPC TEPKİ · B2 · Dost | Hang in there, something'll turn up
+183 | NPC TEPKİ · B2 · Dost | Eat something every day, even a little, okay
+184 | NPC TEPKİ · B2 · Tarafsız | Same, my stomach won't shut up
+185 | NPC TEPKİ · B2 · Tarafsız | Ration slow, that's all you can do
+186 | NPC TEPKİ · B2 · Tarafsız | I've been scraping the bottom too
+187 | NPC TEPKİ · B2 · Temkinli | Tough break, I can't spare any
+188 | NPC TEPKİ · B2 · Temkinli | Don't look at my pack like that
+189 | NPC TEPKİ · B2 · Temkinli | Stretch what you've got
+· B3 · Yemek konusuna girmeyelim
+190 | OYUNCU · B3 | I'm managing, don't worry about it
+191 | OYUNCU · B3 | That's my problem, not yours
+192 | OYUNCU · B3 | Let's not talk food
+193 | NPC TEPKİ · B3 · Dost | Okay.. just don't starve on me, alright
+194 | NPC TEPKİ · B3 · Dost | I'll stop asking, promise
+195 | NPC TEPKİ · B3 · Dost | Sorry, I worry too much
+196 | NPC TEPKİ · B3 · Tarafsız | Not my place
+197 | NPC TEPKİ · B3 · Tarafsız | I won't bring it up again
+198 | NPC TEPKİ · B3 · Tarafsız | Fair, food talk just makes it worse anyway
+199 | NPC TEPKİ · B3 · Temkinli | Wasn't offering anyway
+200 | NPC TEPKİ · B3 · Temkinli | No more food talk, got it
+201 | NPC TEPKİ · B3 · Temkinli | Won't lose sleep over it

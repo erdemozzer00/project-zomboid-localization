@@ -1,0 +1,155 @@
+# U1R · 5/14 · İşçiler, hizmetler ve nakliye
+# Çıktı dosyası: U1R_5.txt. Dosyaya yalnız N | Türkçe satırlarını yaz. 416–509 arasındaki her numarayı aynı sırada bir kez kullan.
+# Başlıklar ve numarasız notlar bağlamdır. Çevrilecek metin her numaralı satırın son sütunundadır.
+# DÜNYA VE EKRAN: Project Zomboid, 1993 Kentucky’si. Bunlar Oluşturucu’da ve katalogda NPC üye şablonunu tanıtan kısa ekran etiketleridir.
+# BİÇİM: “Ad ve unvan” satırında kişi adını ve boşluklu “ - ” ayracını koru. Unvanı kısa bir Türkçe ad öbeği olarak yaz. “Şablon adı” tek parça bir etikettir. İçinde bir ad ve rütbe varsa kişinin adını koruyup rütbeyi Türkçeleştir. Yer ve kişi adlarını, numaraları ve model kodlarını koru. Sona nokta koyma.
+# BAĞLAM: Her başlık bir fraksiyondur. İngilizce grup açıklaması oyunun kataloğundan alınmıştır. Açıklamadaki olaylar çevrilecek ada eklenmez. “Ortak etiket” notu bir sonraki satırın aynı metinle kullanıldığı diğer grupları sayar. Bu satıra hepsine uyan tek karşılık yaz.
+# TERİM BAĞLAMI: Picker depoda sipariş toplar. Carrier posta hizmetinde gönderi dağıtır. Edger kereste fabrikasındaki kenar kesme işinde çalışır.
+
+##### Kettle Works Crew #####
+# Katalog açıklaması: A large salvage gang out of the works yard. Numbers instead of discipline: they arrive together and they swarm.
+# Oyundaki fraksiyon adı (bağlam): Kettle Works Tayfası
+416 | Şablon adı | Kettle Works Breaker
+417 | Şablon adı | Kettle Works Hauler
+418 | Şablon adı | Kettle Works Shooter
+419 | Şablon adı | Kettle Works Foreman
+
+##### Utility Survivors #####
+# Katalog açıklaması: Utility survivors: a co-op crew holding a workshop, trading generator work for anything that burns.
+# Oyundaki fraksiyon adı (bağlam): Altyapı İşçilerinden Kalanlar
+# Ortak etiket · Şu gruplarda da kullanılır: Rickhouse Hands
+420 | Ad ve unvan | Henry - Foreman
+# Ortak etiket · Şu gruplarda da kullanılır: Rickhouse Hands
+421 | Ad ve unvan | Adam - Worker
+# Ortak etiket · Şu gruplarda da kullanılır: Waterworks Staff
+422 | Ad ve unvan | Sheila - Worker
+# Ortak etiket · Şu gruplarda da kullanılır: Rickhouse Hands
+423 | Ad ve unvan | Lonnie - Runner
+# Ortak etiket · Şu gruplarda da kullanılır: Rickhouse Hands
+424 | Ad ve unvan | Roy - Runner
+425 | Ad ve unvan | Otis - Crew Chief
+426 | Ad ve unvan | Terrence - Apprentice
+427 | Ad ve unvan | Joan - Dispatcher
+428 | Ad ve unvan | Thomas - Equipment Operator
+
+##### Highway Maintenance Crew #####
+# Katalog açıklaması: The state highway crew, dump trucks and salt shed, still clearing wrecks in the first days.
+# Oyundaki fraksiyon adı (bağlam): Karayolları Bakım Ekibi
+429 | Ad ve unvan | Andre - Foreman
+430 | Ad ve unvan | Curtis - Worker
+431 | Ad ve unvan | Angela - Worker
+432 | Ad ve unvan | Darnell - Runner
+433 | Ad ve unvan | Carla - Worker
+434 | Ad ve unvan | Daniel - Worker
+435 | Ad ve unvan | Ray - Crew Chief
+436 | Ad ve unvan | Frank - Apprentice
+437 | Ad ve unvan | Yvonne - Dispatcher
+438 | Ad ve unvan | Luis - Equipment Operator
+
+##### Telephone Crew #####
+# Katalog açıklaması: A two-man telephone crew at a switching point, waiting for a dial tone that is not coming.
+# Oyundaki fraksiyon adı (bağlam): Telefon Hattı Ekibi
+439 | Ad ve unvan | Travis - Lineman
+440 | Ad ve unvan | Clyde - Lineman
+441 | Ad ve unvan | Boyd - Lineman
+442 | Ad ve unvan | Gus - Lineman
+443 | Ad ve unvan | Evan - Lineman
+444 | Ad ve unvan | Loretta - Lineman
+445 | Ad ve unvan | Paul - Lineman
+
+##### Waterworks Staff #####
+# Katalog açıklaması: Waterworks staff keeping the pumps going as long as the diesel lasts.
+# Oyundaki fraksiyon adı (bağlam): Su İdaresi Çalışanları
+446 | Ad ve unvan | Otis - Foreman
+447 | Ad ve unvan | Terrence - Worker
+# Ortak etiket · Şu gruplarda da kullanılır: Rickhouse Hands
+448 | Ad ve unvan | Joan - Worker
+449 | Ad ve unvan | Thomas - Runner
+450 | Ad ve unvan | Leon - Runner
+451 | Ad ve unvan | Adam - Crew Chief
+452 | Ad ve unvan | Earl - Apprentice
+453 | Ad ve unvan | Grace - Dispatcher
+454 | Ad ve unvan | Roy - Equipment Operator
+
+##### Sanitation Crew #####
+# Katalog açıklaması: A sanitation crew that kept the truck and the yard. They know every back alley in town.
+# Oyundaki fraksiyon adı (bağlam): Temizlik İşleri Ekibi
+455 | Ad ve unvan | Darlene - Worker
+456 | Ad ve unvan | Andre - Crew Chief
+457 | Ad ve unvan | Curtis - Apprentice
+458 | Ad ve unvan | Carla - Dispatcher
+459 | Ad ve unvan | Darnell - Equipment Operator
+
+##### Rail Maintenance Survivors #####
+# Katalog açıklaması: Rail maintenance survivors along the CSX line: a siding, a hi-rail truck, and miles of track nobody else walks.
+# Oyundaki fraksiyon adı (bağlam): Sağ Kalan Demiryolu Bakımcıları
+460 | Ad ve unvan | Calvin - Foreman
+461 | Ad ve unvan | Paul - Worker
+462 | Ad ve unvan | Ada - Worker
+463 | Ad ve unvan | Jesse - Runner
+464 | Ad ve unvan | Dwight - Worker
+465 | Ad ve unvan | Travis - Crew Chief
+466 | Ad ve unvan | Clyde - Apprentice
+467 | Ad ve unvan | Beth - Dispatcher
+468 | Ad ve unvan | Gus - Equipment Operator
+
+##### Rickhouse Hands #####
+# Katalog açıklaması: Rickhouse hands: distillery workers holding a warehouse worth a fortune in barrels, and they know it.
+# Oyundaki fraksiyon adı (bağlam): Burbon Deposu İşçileri
+469 | Ad ve unvan | Claire - Worker
+470 | Ad ve unvan | Terrence - Crew Chief
+471 | Ad ve unvan | Marcus - Apprentice
+# Ortak etiket · Şu gruplarda da kullanılır: Sawmill Hands
+472 | Ad ve unvan | Sheila - Dispatcher
+473 | Ad ve unvan | Leon - Equipment Operator
+
+##### Warehouse Night Shift #####
+# Katalog açıklaması: Warehouse night shift: the crew that was on the floor when it happened and never went home. Awake all night.
+# Oyundaki fraksiyon adı (bağlam): Depo Gece Vardiyası
+474 | Ad ve unvan | Andre - Shift Lead
+# Ortak etiket · Şu gruplarda da kullanılır: Roadside Pickers
+475 | Ad ve unvan | Curtis - Picker
+476 | Ad ve unvan | Carla - Picker
+477 | Ad ve unvan | Darnell - Forklift Driver
+478 | Ad ve unvan | Lyle - Forklift Driver
+479 | Ad ve unvan | Daniel - Forklift Driver
+480 | Ad ve unvan | Yvonne - Picker
+481 | Ad ve unvan | Frank - Night Supervisor
+482 | Ad ve unvan | Wade - Loader
+
+##### Postal Holdouts #####
+# Katalog açıklaması: Postal holdouts: carriers who know every house on the route and which ones are still answering.
+# Oyundaki fraksiyon adı (bağlam): Direnen Postacılar
+483 | Ad ve unvan | Otis - Postmaster
+484 | Ad ve unvan | Terrence - Carrier
+485 | Ad ve unvan | Patsy - Carrier
+486 | Ad ve unvan | Sheila - Carrier
+487 | Ad ve unvan | Leon - Carrier
+488 | Ad ve unvan | Henry - Mail Sorter
+489 | Ad ve unvan | Grace - Route Carrier
+490 | Ad ve unvan | Earl - Retired Carrier
+491 | Ad ve unvan | Lonnie - Part-Time Clerk
+
+##### Louisville Transit Strike Crew #####
+# Katalog açıklaması: Louisville Transit Strike Crew: bus drivers and shop mechanics who walked out the week before and now drive one bus south together. They carry wrenches and union cards, and they want a road, not a fight.
+492 | Ad ve unvan | Calvin - Depot Steward
+493 | Ad ve unvan | Paul - Bus Driver
+494 | Ad ve unvan | Nina - Bus Driver
+495 | Ad ve unvan | Jesse - Mechanic
+496 | Ad ve unvan | Dwight - Picket
+497 | Ad ve unvan | Travis - Picket
+498 | Ad ve unvan | Clyde - Crew Chief
+499 | Ad ve unvan | Boyd - Apprentice
+500 | Ad ve unvan | Monica - Dispatcher
+501 | Ad ve unvan | Evan - Equipment Operator
+
+##### Sawmill Hands #####
+# Katalog açıklaması: Sawmill Hands: a logging crew off the Muldraugh cut, felling axes and bats, boots planted. They work in pairs, circle what they cannot take head on, and give a stranger one loud chance to turn round.
+502 | Ad ve unvan | Otis - Mill Foreman
+503 | Ad ve unvan | Terrence - Sawyer
+504 | Ad ve unvan | Grace - Log Hand
+505 | Ad ve unvan | Thomas - Edger
+506 | Ad ve unvan | Leon - Sawyer
+507 | Ad ve unvan | Henry - Crew Chief
+508 | Ad ve unvan | Adam - Apprentice
+509 | Ad ve unvan | Lonnie - Equipment Operator

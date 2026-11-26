@@ -1,0 +1,121 @@
+# N153 · NPC soruları ve cevapları · parça 3/5
+# Çıktı dosyası N153_3.txt. Yalnız N | Türkçe biçiminde 98 satır yaz. 202–299 numaralarını aynı sırayla ve bir kez kullan.
+# Project Zomboid Build 42 · Project A-Life 1.5.3 · 1993 Kentucky. NPC ve oyuncu salgın sonrasında yüz yüze konuşuyor. NPC güvenli bir anda oyuncuya soru soruyor. Tekil hitapta sen kullan. Dost, Tarafsız ve Temkinli, NPC’nin oyuncuya karşı tutumudur. Temkinli NPC karşısındakini tartar. Kaynakta verilmedikçe NPC’ye meslek, yaş, cinsiyet veya özel kimlik ekleme.
+# Önce NPC SORU havuzundan koşula uyan bir ifade seçilir. Sonra oyuncuya üç cevap dalı (B1, B2, B3) gösterilir. Her dalda, üç ifade seçeneğinden o tura denk gelen biri görünür. Oyuncunun seçtiği dal, kendisine bağlı NPC TEPKİ havuzuna gider. NPC uygun tepkilerden yalnız birini söyler. Aynı havuzdaki satırlar alternatiflerdir. “1.5.3 ek varyantı” etkin özellik bayrağına bağlı alternatifi belirtir.
+# OYUNCU ekrandaki kısa cevap seçeneğidir. NPC SORU ve NPC TEPKİ konuşulan repliktir. Numarasız · satırları dal açıklaması, mevcut çeviri veya örnek bağlamdır. Çevirme ve çıktıya alma.
+# Sözlük: survivor → hayatta kalan, group → grup, squad → tim, crew → ekip, supplies → erzak veya bağlama göre malzeme, outpost → karakol. Kişinin niyetini ve tutumunu koru. Türkçe doğal konuşma ritmini kullan. Duraksama ve kesilmeleri anlamına göre koru.
+# Numaralı satırlarda yer tutucu, \n ve %% yok. Her numaranın Türkçesi tek satırda kalır.
+
+##### Yaran var mı? #####
+# NPC oyuncunun yaralanıp yaralanmadığını soruyor. İkinci dal küçük sıyrık ve morluklardan söz ediyor.
+202 | NPC SORU · Dost | You hurt anywhere? You can tell me
+203 | NPC SORU · Dost | Are you hurt at all? Anything bleeding?
+204 | NPC SORU · Dost | Hey, you in one piece? Nothing broken?
+205 | NPC SORU · Dost | Any injuries? Cuts, sprains, anything?
+206 | NPC SORU · Dost | You're not hurt, are you? T-tell me you're not hurt
+207 | NPC SORU · Tarafsız | You hurt at all? Even a little?
+208 | NPC SORU · Tarafsız | Anything hurting you right now?
+209 | NPC SORU · Tarafsız | You in one piece, mostly?
+210 | NPC SORU · Tarafsız | You banged up at all?
+211 | NPC SORU · Tarafsız | Anything wrong with you? Hurt, I mean
+212 | NPC SORU · Temkinli | You hurt? I need to know before you get any closer
+213 | NPC SORU · Temkinli | Any wounds on you? Don't hide it
+214 | NPC SORU · Temkinli | Are you hurt? Don't lie about that one
+215 | NPC SORU · Temkinli | You injured? Yes or no
+216 | NPC SORU · Temkinli | You pick up any injuries on the way?
+· B1 · Yaram yok
+217 | OYUNCU · B1 | I'm okay, nothing's hurt
+218 | OYUNCU · B1 | Not a scratch, I've been lucky
+219 | OYUNCU · B1 | All in one piece, honestly
+220 | NPC TEPKİ · B1 · Dost | Thank God, GOOD
+221 | NPC TEPKİ · B1 · Dost | Keep it that way, okay
+222 | NPC TEPKİ · B1 · Dost | Phew.. you had me nervous
+· NPC TEPKİ · B1 · Tarafsız (mevcut çeviri) | Lucky you → Ne şanslısın.
+223 | NPC TEPKİ · B1 · Tarafsız | One less worry, then
+224 | NPC TEPKİ · B1 · Tarafsız | That's rare these days
+225 | NPC TEPKİ · B1 · Temkinli | Makes this easier
+226 | NPC TEPKİ · B1 · Temkinli | I'll take your word for it
+227 | NPC TEPKİ · B1 · Temkinli | Just making sure
+· B2 · Hafif yaralarım var
+228 | OYUNCU · B2 | A few scrapes, nothing serious
+229 | OYUNCU · B2 | Cuts and bruises, I'll live
+230 | OYUNCU · B2 | Banged up, nothing bad
+231 | NPC TEPKİ · B2 · Dost | Ouch.. take care of those, alright
+232 | NPC TEPKİ · B2 · Dost | Take it easy then, don't push it
+233 | NPC TEPKİ · B2 · Dost | That heals, just watch it doesn't go bad
+234 | NPC TEPKİ · B2 · Tarafsız | Patch it up when you can
+· NPC TEPKİ · B2 · Tarafsız (mevcut çeviri) | Could be worse → Daha kötü olabilirdi.
+235 | NPC TEPKİ · B2 · Tarafsız | Everyone's banged up a little
+236 | NPC TEPKİ · B2 · Temkinli | As long as that's all it is
+237 | NPC TEPKİ · B2 · Temkinli | Nothing serious, huh.. alright
+238 | NPC TEPKİ · B2 · Temkinli | Keep an eye on it
+· B3 · Kendi başımın çaresine bakarım
+239 | OYUNCU · B3 | I can look after myself
+240 | OYUNCU · B3 | That's for me to worry about
+241 | OYUNCU · B3 | I'm handling it, leave it
+242 | NPC TEPKİ · B3 · Dost | Just don't hide something serious from me
+243 | NPC TEPKİ · B3 · Dost | If you need help, say so
+244 | NPC TEPKİ · B3 · Dost | Fine, fine, you're the boss of you
+245 | NPC TEPKİ · B3 · Tarafsız | I'll leave it
+246 | NPC TEPKİ · B3 · Tarafsız | Just don't keel over on me
+247 | NPC TEPKİ · B3 · Tarafsız | Fair, I'm no doctor anyway
+248 | NPC TEPKİ · B3 · Temkinli | Keep your distance a bit, okay
+249 | NPC TEPKİ · B3 · Temkinli | That's not a no
+250 | NPC TEPKİ · B3 · Temkinli | I'm watching you, just so you know
+
+##### Kendini koruyabilecek durumda mısın? #####
+# NPC oyuncunun kendini savunacak bir şeyi olup olmadığını yokluyor.
+251 | NPC SORU · Dost | You got something to protect yourself with?
+252 | NPC SORU · Dost | Is there anything on you to keep them off? Really, I mean it
+253 | NPC SORU · Dost | You carrying anything for protection? I worry, that's all
+254 | NPC SORU · Dost | Please tell me you've got SOME way to fight back
+255 | NPC SORU · Dost | If they rush you, have you got anything? Anything at all?
+256 | NPC SORU · Tarafsız | You armed at all?
+257 | NPC SORU · Tarafsız | You carrying anything?
+258 | NPC SORU · Tarafsız | What've you got, if something comes at you?
+259 | NPC SORU · Tarafsız | You got anything solid on you, just in case?
+260 | NPC SORU · Tarafsız | What are you carrying for protection?
+261 | NPC SORU · Temkinli | You armed? I'm asking so nobody gets surprised
+262 | NPC SORU · Temkinli | Tell me what you're carrying, I'd like to know now
+263 | NPC SORU · Temkinli | You got anything on you? Just tell me
+264 | NPC SORU · Temkinli | How well armed are you? Honestly
+265 | NPC SORU · Temkinli | You packing anything? Don't make me find out
+· B1 · Kendimi koruyacak kadar donanımlıyım
+266 | OYUNCU · B1 | Enough to look after myself
+267 | OYUNCU · B1 | I can handle myself, don't worry
+268 | OYUNCU · B1 | I've got what I need
+269 | NPC TEPKİ · B1 · Dost | Good, I worry about people walking around with nothing
+270 | NPC TEPKİ · B1 · Dost | That makes me feel better, honestly
+271 | NPC TEPKİ · B1 · Dost | Thank God, I was scared you had nothing
+272 | NPC TEPKİ · B1 · Tarafsız | You'll need it
+· NPC TEPKİ · B1 · Tarafsız (mevcut çeviri) | Smart → Akıllıca.
+273 | NPC TEPKİ · B1 · Tarafsız | It gets ugly fast, so that's good
+· NPC TEPKİ · B1 · Temkinli (mevcut çeviri) | I'll remember that → Bunu unutmam, haberin olsun.
+274 | NPC TEPKİ · B1 · Temkinli | Then I'll keep my hands where you can see them
+275 | NPC TEPKİ · B1 · Temkinli | We'll both behave, then
+· B2 · Kendimi koruyacak pek bir şeyim yok
+276 | OYUNCU · B2 | Not nearly enough, honestly
+277 | OYUNCU · B2 | Hardly anything, if I'm honest
+278 | OYUNCU · B2 | Not much, I just stay quiet
+279 | NPC TEPKİ · B2 · Dost | Oh, that scares me, please find something soon
+280 | NPC TEPKİ · B2 · Dost | Be careful, okay, REALLY careful
+281 | NPC TEPKİ · B2 · Dost | Then stay quiet and stay away from crowds
+282 | NPC TEPKİ · B2 · Tarafsız | Risky, with things how they are
+283 | NPC TEPKİ · B2 · Tarafsız | Pick your fights carefully
+284 | NPC TEPKİ · B2 · Tarafsız | Avoid trouble, then
+285 | NPC TEPKİ · B2 · Temkinli | Then you're no threat to me
+286 | NPC TEPKİ · B2 · Temkinli | Stay careful, you'll need to
+287 | NPC TEPKİ · B2 · Temkinli | That's good for me, bad for you
+· B3 · Neyim olduğunu söylemem
+288 | OYUNCU · B3 | That stays with me
+289 | OYUNCU · B3 | Wouldn't tell you if I did
+290 | OYUNCU · B3 | Not saying, sorry
+291 | NPC TEPKİ · B3 · Dost | Ha, fair, I wouldn't tell me either
+292 | NPC TEPKİ · B3 · Dost | Smart, I'd keep it quiet too
+293 | NPC TEPKİ · B3 · Dost | I was just worried for you, that's all
+294 | NPC TEPKİ · B3 · Tarafsız | Fair, can't blame you there
+295 | NPC TEPKİ · B3 · Tarafsız | Didn't need the details
+296 | NPC TEPKİ · B3 · Tarafsız | Keep it quiet then, fine
+297 | NPC TEPKİ · B3 · Temkinli | Smart.. and a little worrying
+298 | NPC TEPKİ · B3 · Temkinli | I'll take that as a yes
+299 | NPC TEPKİ · B3 · Temkinli | So we're both careful

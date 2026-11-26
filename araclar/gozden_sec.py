@@ -1,8 +1,8 @@
 """Gemini öncesi diyalogları gözden geçirme için seçer (K47). rapor/G1_anahtarlar.json yazar.
 
 Kullanım: python -X utf8 araclar/gozden_sec.py
-Alınmaz: kullanıcının kendi metinleri (K1d, K2b kullanıcı satırları, K3'ün geri getirdiği K1 düzeltmeleri, D6m),
-onayli/ değişmez. (Çevirmen sitesi 2026-11-13'te kaldırıldı.)
+Alınmaz: kullanıcının kendi metinleri (K1d, K2b kullanıcı satırları, K3'ün geri getirdiği K1 düzeltmeleri, D6m).
+onayli/ değişmez.
 """
 import json
 import sys
@@ -46,8 +46,6 @@ def main():
     kullanici = {k for k, ad in son.items() if ad in ("K1d", "D6m")}
     kullanici |= {k for k, r in k2b.items() if r.get("kim") == "Kullanıcı"}
     kullanici |= {k for k, r in paket("K3").items() if k in k1 and r["tr"] == k1[k]["tr"]}
-    site, okundu = set(), set()  # çevirmen sitesi kapandı (2026-11-13)
-
     def kaynagi(k):
         if son[k] == "K2a":
             return "Codex (K2a)"
@@ -59,10 +57,6 @@ def main():
             atlanan["kaynakta yok"] += 1
         elif k in kullanici:
             atlanan["kullanicinin kendi metni"] += 1
-        elif k in site:
-            atlanan["sitede bekleyen duzeltme"] += 1
-        elif k in okundu:
-            atlanan["okundu isaretli"] += 1
         else:
             secili[k] = kaynagi(k)
     (KOK / "rapor" / "G1_anahtarlar.json").write_text(json.dumps(secili, ensure_ascii=False, indent=0) + "\n", encoding="utf-8", newline="\n")

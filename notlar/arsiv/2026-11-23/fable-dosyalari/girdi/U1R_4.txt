@@ -1,0 +1,144 @@
+# U1R · 4/14 · Sağlık, acil yardım, yayın ve altyapı
+# Çıktı dosyası: U1R_4.txt. Dosyaya yalnız N | Türkçe satırlarını yaz. 329–415 arasındaki her numarayı aynı sırada bir kez kullan.
+# Başlıklar ve numarasız notlar bağlamdır. Çevrilecek metin her numaralı satırın son sütunundadır.
+# DÜNYA VE EKRAN: Project Zomboid, 1993 Kentucky’si. Bunlar Oluşturucu’da ve katalogda NPC üye şablonunu tanıtan kısa ekran etiketleridir.
+# BİÇİM: “Ad ve unvan” satırında kişi adını ve boşluklu “ - ” ayracını koru. Unvanı kısa bir Türkçe ad öbeği olarak yaz. “Şablon adı” tek parça bir etikettir. İçinde bir ad ve rütbe varsa kişinin adını koruyup rütbeyi Türkçeleştir. Yer ve kişi adlarını, numaraları ve model kodlarını koru. Sona nokta koyma.
+# BAĞLAM: Her başlık bir fraksiyondur. İngilizce grup açıklaması oyunun kataloğundan alınmıştır. Açıklamadaki olaylar çevrilecek ada eklenmez. “Ortak etiket” notu bir sonraki satırın aynı metinle kullanıldığı diğer grupları sayar. Bu satıra hepsine uyan tek karşılık yaz.
+# TERİM BAĞLAMI: EMT acil tıp teknisyenidir. Engineer itfaiyede araç ve pompa göreviyle, radyo istasyonunda yayın tekniğiyle ilgilidir. Resident hastanede eğitimini sürdüren hekimdir.
+
+##### Station 14 Crew #####
+# Katalog açıklaması: A fire crew that never stood down. Axes and one shotgun between them, they move as one body and they carry their wounded out.
+# Oyundaki fraksiyon adı (bağlam): 14. İtfaiye İstasyonu Ekibi
+329 | Şablon adı | Firefighter (Axe)
+330 | Şablon adı | Station Paramedic
+331 | Şablon adı | Station Captain
+
+##### Volunteer Fire #####
+# Katalog açıklaması: The volunteer fire department, pagers on every belt, still answering calls in the first days because nobody told them to stop.
+# Oyundaki fraksiyon adı (bağlam): Gönüllü İtfaiye
+332 | Ad ve unvan | Calvin - Fire Officer
+# Ortak etiket · Şu gruplarda da kullanılır: Knox First Responders
+333 | Ad ve unvan | Paul - Firefighter
+# Ortak etiket · Şu gruplarda da kullanılır: American Red Cross - Relief Column
+334 | Ad ve unvan | Scott - Driver
+335 | Ad ve unvan | Ruth - Volunteer
+336 | Ad ve unvan | Monica - Volunteer
+337 | Ad ve unvan | Travis - Engineer
+338 | Ad ve unvan | Clyde - Probationary Firefighter
+339 | Ad ve unvan | Boyd - Lieutenant
+340 | Ad ve unvan | Loretta - Dispatcher
+
+##### County EMS #####
+# Katalog açıklaması: A county ambulance crew working the highway wrecks until the fuel and the will run out.
+# Oyundaki fraksiyon adı (bağlam): İlçe Acil Sağlık
+341 | Ad ve unvan | Henry - Paramedic
+342 | Ad ve unvan | Denise - EMT
+343 | Ad ve unvan | Claire - EMT
+344 | Ad ve unvan | Lonnie - EMT
+345 | Ad ve unvan | Ellen - Dispatcher
+346 | Ad ve unvan | Otis - Senior Paramedic
+347 | Ad ve unvan | Terrence - Trainee EMT
+
+##### Hospital Staff #####
+# Katalog açıklaması: Hospital staff holding a ward in Louisville: scrubs, tired eyes, and the only people who still know what to do with a wound.
+# Oyundaki fraksiyon adı (bağlam): Hastane Çalışanları
+348 | Ad ve unvan | Andre - Doctor
+349 | Ad ve unvan | Helen - Nurse
+350 | Ad ve unvan | Carla - Nurse
+351 | Ad ve unvan | Darnell - Orderly
+352 | Ad ve unvan | Renee - Nurse
+353 | Ad ve unvan | Daniel - Surgeon
+354 | Ad ve unvan | Yvonne - Resident
+355 | Ad ve unvan | Laura - Night Nurse
+356 | Ad ve unvan | Wade - Paramedic
+
+##### American Red Cross - Relief Column #####
+# Katalog açıklaması: A relief column that made it into the county: cots, water and a coordinator with a clipboard, asking where the shelter is.
+# Oyundaki fraksiyon adı (bağlam): Amerikan Kızılhaçı - Yardım Konvoyu
+357 | Ad ve unvan | Travis - Coordinator
+358 | Ad ve unvan | Nina - Volunteer
+359 | Ad ve unvan | Boyd - Volunteer
+360 | Ad ve unvan | Loretta - Volunteer
+361 | Ad ve unvan | Bonnie - Volunteer
+362 | Ad ve unvan | Calvin - Logistics Volunteer
+363 | Ad ve unvan | Ruth - Nurse Volunteer
+364 | Ad ve unvan | Diane - Social Worker
+
+##### The Station #####
+# Katalog açıklaması: The Station: three people, a transmitter and a generator, still on the air for whoever is listening.
+# Oyundaki fraksiyon adı (bağlam): Radyo İstasyonu
+365 | Ad ve unvan | Otis - Station Manager
+366 | Ad ve unvan | Terrence - DJ
+367 | Ad ve unvan | Patsy - Engineer
+368 | Ad ve unvan | Thomas - DJ
+369 | Ad ve unvan | Leon - Technician
+370 | Ad ve unvan | Claire - News Reader
+371 | Ad ve unvan | Adam - Producer
+372 | Ad ve unvan | Earl - Intern
+
+##### Line Crew #####
+# Katalog açıklaması: A utility line crew caught out on a service road with the bucket truck, trying to get home.
+# Oyundaki fraksiyon adı (bağlam): Hat Bakım Ekibi
+# Ortak etiket · Şu gruplarda da kullanılır: Sanitation Crew
+373 | Ad ve unvan | Daniel - Foreman
+# Ortak etiket · Şu gruplarda da kullanılır: Sanitation Crew
+374 | Ad ve unvan | Ray - Worker
+# Ortak etiket · Şu gruplarda da kullanılır: Sanitation Crew
+375 | Ad ve unvan | Laura - Worker
+# Ortak etiket · Şu gruplarda da kullanılır: Sanitation Crew
+376 | Ad ve unvan | Wade - Runner
+377 | Ad ve unvan | Luis - Worker
+378 | Ad ve unvan | Andre - Worker
+379 | Ad ve unvan | Curtis - Crew Chief
+380 | Ad ve unvan | Vernon - Apprentice
+# Ortak etiket · Şu gruplarda da kullanılır: Slaughter Fire Hall
+381 | Ad ve unvan | Darlene - Dispatcher
+382 | Ad ve unvan | Lyle - Equipment Operator
+
+##### Off-Duty Paramedics #####
+# Katalog açıklaması: Off-duty paramedics holding a house and a kit bag, still going out when they hear a crash.
+# Oyundaki fraksiyon adı (bağlam): Görev Dışı Paramedikler
+383 | Ad ve unvan | Daniel - Paramedic
+384 | Ad ve unvan | Carla - Paramedic
+385 | Ad ve unvan | Frank - EMT
+386 | Ad ve unvan | Wade - EMT
+387 | Ad ve unvan | Darlene - EMT
+388 | Ad ve unvan | Andre - Surgeon
+389 | Ad ve unvan | Laura - Resident
+390 | Ad ve unvan | Angela - Night Nurse
+391 | Ad ve unvan | Darnell - Paramedic
+
+##### Ward Survivors #####
+# Katalog açıklaması: Ward survivors: the patients and one nurse who were on the floor the hospital lost, and kept the ward.
+# Oyundaki fraksiyon adı (bağlam): Hastane Servisinden Sağ Kalanlar
+392 | Ad ve unvan | Calvin - Doctor
+393 | Ad ve unvan | Beth - Nurse
+394 | Ad ve unvan | Loretta - Nurse
+395 | Ad ve unvan | Jesse - Orderly
+396 | Ad ve unvan | Dwight - Orderly
+397 | Ad ve unvan | Travis - Surgeon
+398 | Ad ve unvan | Monica - Resident
+399 | Ad ve unvan | Diane - Night Nurse
+400 | Ad ve unvan | Gus - Paramedic
+
+##### Pharmacy Survivors #####
+# Katalog açıklaması: Pharmacy survivors: the pharmacist, a technician and the stock room, which everyone in the county wants.
+# Oyundaki fraksiyon adı (bağlam): Eczanedeki Sağ Kalanlar
+401 | Ad ve unvan | Travis - Pharmacist
+402 | Ad ve unvan | Nina - Technician
+403 | Ad ve unvan | Boyd - Cashier
+404 | Ad ve unvan | Loretta - Technician
+405 | Ad ve unvan | Evan - Technician
+406 | Ad ve unvan | Ada - Pharmacy Assistant
+407 | Ad ve unvan | Paul - Delivery Driver
+408 | Ad ve unvan | Scott - Stock Clerk
+
+##### Knox First Responders #####
+# Katalog açıklaması: Knox First Responders: deputies, firefighters and paramedics who stopped waiting for a dispatcher and started working together. A badge or a helmet on each of them; the rest is whatever still fits.
+409 | Ad ve unvan | Travis - Shift Captain
+410 | Ad ve unvan | Boyd - Firefighter
+411 | Ad ve unvan | Ada - Paramedic
+412 | Ad ve unvan | Evan - Deputy
+413 | Ad ve unvan | Calvin - EMT
+414 | Ad ve unvan | Beth - Paramedic
+415 | Ad ve unvan | Dwight - Firefighter

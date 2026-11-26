@@ -1,0 +1,212 @@
+# Project A-Life 1.5.2 · Genel görev günlüğü · 1/2 · 61 sabit aşama etiketi
+# Yalnız 1–61 numaralı İngilizce satırları çevir. Sıra aynı kalsın. Çıktı biçimi N | Türkçe.
+# Başlıklar ve numarasız açıklamalar bağlam. Görev aşamaları kısa eylem etiketi, bildirim ve durumlar ise kısa arayüz metni.
+# {…} yer tutucularını ve varsa yazılı \n satır ayrımlarını aynen koru. Değişken kişi, eşya ve yer adlarına doğrudan ek getirmeyecek bir yapı kullan.
+# Türkçe cümle sırasına göre yer tutucuların yerini değiştirebilirsin. Tamamı büyük harfli etiketlerin büyük harf biçimini koru.
+# Terimler · faction = fraksiyon, preset = şablon, outpost = karakol, camp = kamp, crew = ekip.
+
+##### Sonraki kasabaya refakat et #####
+# Görevin İngilizce özeti (bağlam) · Walk the road with a traveller until the far marker
+# temkinli yol aşama 1, riskli yol aşama 1.
+1 | Walk to the first marker
+# temkinli yol aşama 2.
+2 | Rest at the marker
+# temkinli yol aşama 3, riskli yol aşama 2.
+3 | Bring them to the far marker
+
+##### İlaç getir #####
+# Görevin İngilizce özeti (bağlam) · Bring antibiotics and bandages for a sick patient
+# temkinli yol aşama 1.
+4 | Find antibiotics
+# temkinli yol aşama 2.
+5 | Find bandages
+
+##### Su getir #####
+# Görevin İngilizce özeti (bağlam) · Carry clean drinking water back to a dry camp
+# temkinli yol aşama 1.
+6 | Find three litres of clean water (any container)
+
+##### Jeneratörü onar #####
+# Görevin İngilizce özeti (bağlam) · Find wire and a screwdriver to get a generator running
+# temkinli yol aşama 1.
+7 | Find electric wire
+# temkinli yol aşama 2.
+8 | Find a screwdriver
+
+##### Kayıp sandığı bul #####
+# Görevin İngilizce özeti (bağlam) · Bring back a crate lost on the road
+# temkinli yol aşama 1, riskli yol aşama 1.
+9 | Reach the wreck
+
+##### Bir yolu keşfet #####
+# Görevin İngilizce özeti (bağlam) · Walk out and report what is on the road
+# temkinli yol aşama 1, riskli yol aşama 1.
+10 | Walk out to the first marker
+# temkinli yol aşama 2.
+11 | Watch the road from cover
+# riskli yol aşama 2.
+12 | Look at the far end
+
+##### Mesaj götür #####
+# Görevin İngilizce özeti (bağlam) · Carry a written message to another camp
+# temkinli yol aşama 1.
+13 | Stop at the safe marker
+# riskli yol aşama 1.
+14 | Hand the note over at the far marker
+
+##### Çit için tahta taşı #####
+# Görevin İngilizce özeti (bağlam) · Bring planks and nails to patch a fence
+# temkinli yol aşama 1.
+15 | Find six planks
+# temkinli yol aşama 2.
+16 | Find a box of nails
+
+##### Yiyecek için avlan #####
+# Görevin İngilizce özeti (bağlam) · Bring fresh meat to a camp that lives on cans
+# temkinli yol aşama 1.
+17 | Bring back three pieces of fresh meat
+
+##### Kayıp birini bul #####
+# Görevin İngilizce özeti (bağlam) · Follow the last known trail and bring back proof
+# temkinli yol aşama 1, riskli yol aşama 1.
+18 | Check where they were last seen
+# temkinli yol aşama 2.
+19 | Search the next site
+# riskli yol aşama 2.
+20 | Search the far site
+
+##### Kapıyı koru #####
+# Görevin İngilizce özeti (bağlam) · Hold the gate against whatever comes
+# temkinli yol aşama 1, riskli yol aşama 1.
+21 | Get to the gate
+# temkinli yol aşama 2.
+22 | Keep watch at the gate
+# riskli yol aşama 2.
+23 | Hold the gate
+
+##### Yığını yak #####
+# Görevin İngilizce özeti (bağlam) · Stack planks on the pile and light it
+# temkinli yol aşama 1, riskli yol aşama 1.
+24 | Find something to light it with
+# temkinli yol aşama 2, riskli yol aşama 2.
+25 | Find four planks
+# temkinli yol aşama 3, riskli yol aşama 4.
+26 | Stack the planks and light the pile
+# riskli yol aşama 3.
+27 | Get to the pile
+
+##### Araba aküsü sök #####
+# Görevin İngilizce özeti (bağlam) · Find a working car battery
+# temkinli yol aşama 1.
+28 | Find a car battery
+
+##### Tıbbi yardım götür #####
+# Görevin İngilizce özeti (bağlam) · Carry dressings to a wounded person and treat them
+# temkinli yol aşama 1, riskli yol aşama 1.
+29 | Gather dressings and disinfectant
+# riskli yol aşama 2.
+30 | Get through to the wounded
+# riskli yol aşama 3.
+31 | Treat the wounded
+
+##### Çalınanı geri al #####
+# Görevin İngilizce özeti (bağlam) · Take back goods from the crew that raided the group
+# temkinli yol aşama 1.
+32 | Reach the stash
+# riskli yol aşama 1.
+33 | Reach the thieves' hideout
+
+##### Takas seferi #####
+# Görevin İngilizce özeti (bağlam) · Carry a crate to another camp and bring something back
+# riskli yol aşama 1.
+34 | Hand the crate over at the far marker
+
+##### Dolaşan ölüleri avla #####
+# Görevin İngilizce özeti (bağlam) · Track down the pack that keeps turning up on the road
+# temkinli yol aşama 2.
+35 | Thin the pack out
+# riskli yol aşama 2.
+36 | Put down the whole pack
+
+##### İşaret ateşini yak #####
+# Görevin İngilizce özeti (bağlam) · Carry a light up high and set a signal fire
+# temkinli yol aşama 1, riskli yol aşama 1.
+37 | Climb to the signal point
+# temkinli yol aşama 2, riskli yol aşama 2.
+38 | Light the signal
+# temkinli yol aşama 3, riskli yol aşama 3.
+39 | Keep the signal lit
+
+##### Elektriği geri getir #####
+# Görevin İngilizce özeti (bağlam) · Take wire and a screwdriver to a dead breaker box
+# temkinli yol aşama 1, riskli yol aşama 1.
+40 | Find a wire and a screwdriver
+# riskli yol aşama 2.
+41 | Get to the breaker box
+# riskli yol aşama 3.
+42 | Splice the line
+
+##### Telsiz parçası bul #####
+# Görevin İngilizce özeti (bağlam) · Find electronics to get a radio talking again
+# temkinli yol aşama 1.
+43 | Find electronics scrap
+# temkinli yol aşama 2.
+44 | Find two batteries
+
+##### Mahsur kalan birini kurtar #####
+# Görevin İngilizce özeti (bağlam) · Get a pinned survivor out of a building full of the dead
+# temkinli yol aşama 2.
+45 | Open a way to the survivor
+# temkinli yol aşama 3, riskli yol aşama 3.
+46 | Get the survivor out
+# riskli yol aşama 2.
+47 | Clear the way to the survivor
+
+##### Hasadı koru #####
+# Görevin İngilizce özeti (bağlam) · Watch the crops until the last row is in
+# temkinli yol aşama 2.
+48 | Watch the crops
+# riskli yol aşama 2.
+49 | Defend the crops
+
+##### Bir bağlantıyla buluş #####
+# Görevin İngilizce özeti (bağlam) · Hand a note to a contact at a quiet spot
+# temkinli yol aşama 1.
+50 | Go to the waiting spot
+# temkinli yol aşama 2.
+51 | Wait for the contact
+# temkinli yol aşama 3, riskli yol aşama 1.
+52 | Hand the note to the contact
+
+##### Alarmı sustur #####
+# Görevin İngilizce özeti (bağlam) · Shut off an alarm that is pulling the dead in
+# temkinli yol aşama 1.
+53 | Find a screwdriver or a hammer
+# temkinli yol aşama 2, riskli yol aşama 1.
+54 | Reach the alarm
+
+##### Temiz bez bul #####
+# Görevin İngilizce özeti (bağlam) · Bring sheets and rags for dressings
+# temkinli yol aşama 1.
+55 | Bring five sheets or rags
+
+##### Bir sürüyü uzaklaştır #####
+# Görevin İngilizce özeti (bağlam) · Make noise far from the road and slip away
+# temkinli yol aşama 1, riskli yol aşama 1.
+56 | Get to the noise point
+# temkinli yol aşama 2, riskli yol aşama 2.
+57 | Make noise
+# temkinli yol aşama 3, riskli yol aşama 3.
+58 | Get clear and come back
+
+##### Telsiz aktarma noktası kur #####
+# Görevin İngilizce özeti (bağlam) · Set a radio up on high ground so a warning reaches the next camp
+# temkinli yol aşama 1, riskli yol aşama 1.
+59 | Climb to the relay point
+# temkinli yol aşama 2, riskli yol aşama 2.
+60 | Keep the radio on and send the warning
+
+##### Eski gözetleme yerini yokla #####
+# Görevin İngilizce özeti (bağlam) · Climb to a silent lookout and report who is up there
+# temkinli yol aşama 1, riskli yol aşama 1.
+61 | Climb to the lookout

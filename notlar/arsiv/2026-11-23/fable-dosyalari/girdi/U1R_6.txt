@@ -1,0 +1,236 @@
+# U1R · 6/14 · Çiftlikler ve aile işletmeleri
+# Çıktı dosyası: U1R_6.txt. Dosyaya yalnız N | Türkçe satırlarını yaz. 510–637 arasındaki her numarayı aynı sırada bir kez kullan.
+# Başlıklar ve numarasız notlar bağlamdır. Çevrilecek metin her numaralı satırın son sütunundadır.
+# DÜNYA VE EKRAN: Project Zomboid, 1993 Kentucky’si. Bunlar Oluşturucu’da ve katalogda NPC üye şablonunu tanıtan kısa ekran etiketleridir.
+# BİÇİM: “Ad ve unvan” satırında kişi adını ve boşluklu “ - ” ayracını koru. Unvanı kısa bir Türkçe ad öbeği olarak yaz. “Şablon adı” tek parça bir etikettir. İçinde bir ad ve rütbe varsa kişinin adını koruyup rütbeyi Türkçeleştir. Yer ve kişi adlarını, numaraları ve model kodlarını koru. Sona nokta koyma.
+# BAĞLAM: Her başlık bir fraksiyondur. İngilizce grup açıklaması oyunun kataloğundan alınmıştır. Açıklamadaki olaylar çevrilecek ada eklenmez. “Ortak etiket” notu bir sonraki satırın aynı metinle kullanıldığı diğer grupları sayar. Bu satıra hepsine uyan tek karşılık yaz.
+# TERİM BAĞLAMI: Hand çalışma görevini, Kin akrabalığı anlatır. Still kaçak içki imbiğidir. Runner için taşıdığı şey ve kimin adına çalıştığı önemlidir.
+# SABİT KARŞILIKLAR: Hired Hand → Çiftlik İşçisi · Camp Boss → Kamp Reisi · Kid Brother → Küçük Kardeş
+
+##### Vittitoe Barns #####
+# Katalog açıklaması: Vittitoe Barns: six hundred acres of burley east of Muldraugh, four brothers, a granary and an armoury. They feed people who work.
+# Oyundaki fraksiyon adı (bağlam): Vittitoe Ambarları
+510 | Ad ve unvan | Calvin - Patriarch
+511 | Ad ve unvan | Paul - Son
+512 | Ad ve unvan | Scott - Hand
+513 | Ad ve unvan | Diane - Kin
+514 | Ad ve unvan | Nina - Kin
+515 | Ad ve unvan | Beth - Kin
+516 | Ad ve unvan | Clyde - Hired Hand
+517 | Ad ve unvan | Bonnie - Daughter
+518 | Ad ve unvan | Gus - Old Uncle
+519 | Ad ve unvan | Evan - Cousin
+
+##### Renfro Road #####
+# Katalog açıklaması: Renfro Road: thirty years of running liquor into a dry county. The road is theirs now, and they charge to use it.
+# Oyundaki fraksiyon adı (bağlam): Renfro Yolu
+520 | Ad ve unvan | Henry - Boss
+521 | Ad ve unvan | Adam - Runner
+522 | Ad ve unvan | Earl - Runner
+# Ortak etiket · Şu gruplarda da kullanılır: Pruitt Family
+523 | Ad ve unvan | Joan - Cousin
+524 | Ad ve unvan | Tammy - Cousin
+525 | Ad ve unvan | Otis - Still Hand
+526 | Ad ve unvan | Sheila - Bookkeeper
+527 | Ad ve unvan | Marcus - Old Runner
+528 | Ad ve unvan | Thomas - Driver
+
+##### Tackett Hollow #####
+# Katalog açıklaması: Tackett Hollow: marijuana in the corn, one federal case, nobody talked. Same ground, same silence, more guns.
+# Oyundaki fraksiyon adı (bağlam): Tackett Hollow
+# Ortak etiket · Şu gruplarda da kullanılır: The Cornfield Men · Cornbread Mafia - Remaining Contacts
+529 | Ad ve unvan | Andre - Grower
+# Ortak etiket · Şu gruplarda da kullanılır: The Cornfield Men · Cornbread Mafia - Remaining Contacts
+530 | Ad ve unvan | Curtis - Grower
+# Ortak etiket · Şu gruplarda da kullanılır: The Cornfield Men · Cornbread Mafia - Remaining Contacts
+531 | Ad ve unvan | Vernon - Grower
+# Ortak etiket · Şu gruplarda da kullanılır: The Cornfield Men · Cornbread Mafia - Remaining Contacts
+532 | Ad ve unvan | Darnell - Grower
+# Ortak etiket · Şu gruplarda da kullanılır: The Cornfield Men · Cornbread Mafia - Remaining Contacts
+533 | Ad ve unvan | Lyle - Grower
+# Ortak etiket · Şu gruplarda da kullanılır: The Cornfield Men
+534 | Ad ve unvan | Daniel - Lookout
+535 | Ad ve unvan | Angela - Trimmer
+# Ortak etiket · Şu gruplarda da kullanılır: The Cornfield Men
+536 | Ad ve unvan | Frank - Old Hand
+# Ortak etiket · Şu gruplarda da kullanılır: The Cornfield Men
+537 | Ad ve unvan | Wade - Hauler
+
+##### Bledsoe Landing #####
+# Katalog açıklaması: Bledsoe Landing: barge deckhands and gravel dredgers at the West Point ramp. They move people and goods on the water, for a price.
+# Oyundaki fraksiyon adı (bağlam): Bledsoe İskelesi
+# Ortak etiket · Şu gruplarda da kullanılır: Rivermen
+538 | Ad ve unvan | Travis - Skipper
+# Ortak etiket · Şu gruplarda da kullanılır: Rivermen
+539 | Ad ve unvan | Clyde - Deckhand
+# Ortak etiket · Şu gruplarda da kullanılır: Rivermen
+540 | Ad ve unvan | Bonnie - Deckhand
+# Ortak etiket · Şu gruplarda da kullanılır: Rivermen
+541 | Ad ve unvan | Gus - Deckhand
+542 | Ad ve unvan | Ruth - Deckhand
+# Ortak etiket · Şu gruplarda da kullanılır: Rivermen
+543 | Ad ve unvan | Calvin - Net Hand
+# Ortak etiket · Şu gruplarda da kullanılır: Rivermen
+544 | Ad ve unvan | Diane - Cook
+# Ortak etiket · Şu gruplarda da kullanılır: Rivermen
+545 | Ad ve unvan | Scott - Old Skipper
+# Ortak etiket · Şu gruplarda da kullanılır: Rivermen
+546 | Ad ve unvan | Jesse - Deck Boy
+
+##### Prather Congregation #####
+# Katalog açıklaması: Prather Congregation: a West Point church that took people in and asks what you believe. They will feed you; they will not arm you.
+# Oyundaki fraksiyon adı (bağlam): Prather Cemaati
+547 | Ad ve unvan | Otis - Pastor
+548 | Ad ve unvan | Terrence - Deacon
+549 | Ad ve unvan | Denise - Congregant
+550 | Ad ve unvan | Claire - Congregant
+551 | Ad ve unvan | Grace - Congregant
+552 | Ad ve unvan | Henry - Elder
+553 | Ad ve unvan | Joan - Choir Member
+554 | Ad ve unvan | Tammy - Deaconess
+555 | Ad ve unvan | Lonnie - Youth Minister
+
+##### Coyle Pawn #####
+# Katalog açıklaması: Coyle Pawn: bought what soldiers sold. The county's fence and gun market; they sell to anyone with something to trade.
+# Oyundaki fraksiyon adı (bağlam): Coyle Rehinci Dükkânı
+556 | Ad ve unvan | Daniel - Owner
+557 | Ad ve unvan | Ray - Clerk
+558 | Ad ve unvan | Frank - Nephew
+559 | Ad ve unvan | Carla - Clerk
+560 | Ad ve unvan | Maria - Clerk
+561 | Ad ve unvan | Andre - Appraiser
+562 | Ad ve unvan | Darlene - Counter Clerk
+563 | Ad ve unvan | Vernon - Runner
+564 | Ad ve unvan | Darnell - Night Guard
+
+##### Ledford Camp #####
+# Katalog açıklaması: Ledford Camp: a deer camp and a cockfighting pit in the knobs. Hunters who moved to a new animal, and sporting about it.
+# Oyundaki fraksiyon adı (bağlam): Ledford Kampı
+565 | Ad ve unvan | Calvin - Camp Boss
+566 | Ad ve unvan | Paul - Hunter
+567 | Ad ve unvan | Scott - Hunter
+568 | Ad ve unvan | Beth - Hunter
+569 | Ad ve unvan | Loretta - Hunter
+# Ortak etiket · Şu gruplarda da kullanılır: The Prepared · Otter Creek Trappers
+570 | Ad ve unvan | Travis - Trapper
+# Ortak etiket · Şu gruplarda da kullanılır: The Prepared · Cinder Crew
+571 | Ad ve unvan | Clyde - Scout
+572 | Ad ve unvan | Ruth - Guide
+# Ortak etiket · Şu gruplarda da kullanılır: The Prepared
+573 | Ad ve unvan | Gus - Tracker
+
+##### Kessinger Dairy #####
+# Katalog açıklaması: Kessinger Dairy: a big family that walled the milking parlour and took in the cousins. Exhausted, careful, dangerous when pushed.
+# Oyundaki fraksiyon adı (bağlam): Kessinger Mandırası
+574 | Ad ve unvan | Henry - Patriarch
+# Ortak etiket · Şu gruplarda da kullanılır: Whitaker Elevator
+575 | Ad ve unvan | Adam - Son
+576 | Ad ve unvan | Earl - Hand
+577 | Ad ve unvan | Patsy - Kin
+578 | Ad ve unvan | Sheila - Kin
+579 | Ad ve unvan | Otis - Son
+580 | Ad ve unvan | Terrence - Kin
+581 | Ad ve unvan | Marcus - Hired Hand
+582 | Ad ve unvan | Ellen - Daughter
+583 | Ad ve unvan | Leon - Old Uncle
+# Ortak etiket · Şu gruplarda da kullanılır: Freeman Porch · Walker Duplex · Diner Survivors · Hornback House
+584 | Ad ve unvan | Scott - Cousin
+
+##### Slaughter Fire Hall #####
+# Katalog açıklaması: Slaughter Fire Hall: the chief and two generations of volunteers. They kept the pumper running and put out fires for payment in fuel.
+# Oyundaki fraksiyon adı (bağlam): Slaughter İtfaiye Binası
+585 | Ad ve unvan | Andre - Chief
+586 | Ad ve unvan | Curtis - Volunteer
+587 | Ad ve unvan | Yvonne - Volunteer
+# Ortak etiket · Şu gruplarda da kullanılır: First Family - Stranded Contacts
+588 | Ad ve unvan | Darnell - Driver
+589 | Ad ve unvan | Angela - Volunteer
+590 | Ad ve unvan | Helen - Driver
+591 | Ad ve unvan | Ray - Engineer
+592 | Ad ve unvan | Frank - Probationary Firefighter
+593 | Ad ve unvan | Wade - Lieutenant
+
+##### Napier Row #####
+# Katalog açıklaması: Napier Row: laid off in the drawdown, took the trailer row and the ground it sits on. A chip on every shoulder.
+# Oyundaki fraksiyon adı (bağlam): Napier Karavan Yerleşimi
+# Ortak etiket · Şu gruplarda da kullanılır: Ortiz Kitchen · Lawson Cousins
+594 | Ad ve unvan | Travis - Head of the House
+# Ortak etiket · Şu gruplarda da kullanılır: Lawson Cousins
+595 | Ad ve unvan | Ada - Spouse
+# Ortak etiket · Şu gruplarda da kullanılır: Whitaker Elevator · Ortiz Kitchen · Lawson Cousins · Turner Homestead
+596 | Ad ve unvan | Boyd - Cousin
+# Ortak etiket · Şu gruplarda da kullanılır: Ortiz Kitchen · Lawson Cousins
+597 | Ad ve unvan | Gus - Kid Brother
+# Ortak etiket · Şu gruplarda da kullanılır: Walker Duplex
+598 | Ad ve unvan | Diane - Spouse
+# Ortak etiket · Şu gruplarda da kullanılır: Ortiz Kitchen · Lawson Cousins
+599 | Ad ve unvan | Calvin - Spouse
+# Ortak etiket · Şu gruplarda da kullanılır: Ortiz Kitchen · Lawson Cousins
+600 | Ad ve unvan | Paul - Uncle
+# Ortak etiket · Şu gruplarda da kullanılır: Lawson Cousins
+601 | Ad ve unvan | Loretta - Aunt
+# Ortak etiket · Şu gruplarda da kullanılır: Ortiz Kitchen · Lawson Cousins
+602 | Ad ve unvan | Jesse - Neighbour
+# Ortak etiket · Şu gruplarda da kullanılır: Lawson Cousins
+603 | Ad ve unvan | Laura - In-Law
+
+##### Whitaker Elevator #####
+# Katalog açıklaması: Whitaker Elevator: bought and dried the county's corn. They own the food and the scales, and they will starve you out.
+# Oyundaki fraksiyon adı (bağlam): Whitaker Silosu
+# Ortak etiket · Şu gruplarda da kullanılır: Turner Homestead
+604 | Ad ve unvan | Otis - Patriarch
+# Ortak etiket · Şu gruplarda da kullanılır: Turner Homestead
+605 | Ad ve unvan | Terrence - Son
+# Ortak etiket · Şu gruplarda da kullanılır: Turner Homestead
+606 | Ad ve unvan | Marcus - Hand
+# Ortak etiket · Şu gruplarda da kullanılır: Turner Homestead
+607 | Ad ve unvan | Ellen - Kin
+# Ortak etiket · Şu gruplarda da kullanılır: Turner Homestead
+608 | Ad ve unvan | Joan - Kin
+609 | Ad ve unvan | Henry - Son
+# Ortak etiket · Şu gruplarda da kullanılır: Turner Homestead
+610 | Ad ve unvan | Earl - Hired Hand
+# Ortak etiket · Şu gruplarda da kullanılır: Hensley Orchard · Turner Homestead
+611 | Ad ve unvan | Denise - Daughter
+# Ortak etiket · Şu gruplarda da kullanılır: Turner Homestead
+612 | Ad ve unvan | Roy - Old Uncle
+
+##### Dabney Practice #####
+# Katalog açıklaması: Dabney Practice: a vet and a boarding barn turned holdout. Medicine at a price nobody likes, from the only doctor left in the county.
+# Oyundaki fraksiyon adı (bağlam): Dabney Veteriner Kliniği
+613 | Ad ve unvan | Daniel - Veterinarian
+614 | Ad ve unvan | Carla - Assistant
+615 | Ad ve unvan | Frank - Stable Hand
+616 | Ad ve unvan | Wade - Stable Hand
+617 | Ad ve unvan | Luis - Assistant
+618 | Ad ve unvan | Yvonne - Vet Technician
+619 | Ad ve unvan | Curtis - Kennel Hand
+620 | Ad ve unvan | Vernon - Old Veterinarian
+621 | Ad ve unvan | Darnell - Farm Call Driver
+
+##### Crume Scrap #####
+# Katalog açıklaması: Crume Scrap: crushed cars on 31W, now cutting steel plate for anyone with fuel. They armour the trucks, and themselves.
+# Oyundaki fraksiyon adı (bağlam): Crume Hurdalığı
+622 | Ad ve unvan | Calvin - Owner
+623 | Ad ve unvan | Paul - Mechanic
+# Ortak etiket · Şu gruplarda da kullanılır: 149th Armored Bde - Transport Detail
+624 | Ad ve unvan | Scott - Mechanic
+625 | Ad ve unvan | Bonnie - Apprentice
+626 | Ad ve unvan | Ada - Apprentice
+627 | Ad ve unvan | Travis - Welder
+628 | Ad ve unvan | Monica - Parts Counter
+629 | Ad ve unvan | Boyd - Old Mechanic
+630 | Ad ve unvan | Gus - Tow Driver
+
+##### Hobbs Brothers #####
+# Katalog açıklaması: The Hobbs brothers: small-time thieves with no home, following other people's fights and taking what is left.
+# Oyundaki fraksiyon adı (bağlam): Hobbs Kardeşler
+631 | Ad ve unvan | Henry - Older Brother
+632 | Ad ve unvan | Adam - Younger Brother
+633 | Ad ve unvan | Earl - Younger Brother
+634 | Ad ve unvan | Lonnie - Cousin
+# Ortak etiket · Şu gruplarda da kullanılır: Crips - Victory Park Crew
+635 | Ad ve unvan | Claire - Lookout
+636 | Ad ve unvan | Otis - Fence
+# Ortak etiket · Şu gruplarda da kullanılır: Truck Stop Commune
+637 | Ad ve unvan | Terrence - Driver

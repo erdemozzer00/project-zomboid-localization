@@ -1,0 +1,196 @@
+# U1R · 7/14 · Haneler, akrabalar ve komşu aileler
+# Çıktı dosyası: U1R_7.txt. Dosyaya yalnız N | Türkçe satırlarını yaz. 638–735 arasındaki her numarayı aynı sırada bir kez kullan.
+# Başlıklar ve numarasız notlar bağlamdır. Çevrilecek metin her numaralı satırın son sütunundadır.
+# DÜNYA VE EKRAN: Project Zomboid, 1993 Kentucky’si. Bunlar Oluşturucu’da ve katalogda NPC üye şablonunu tanıtan kısa ekran etiketleridir.
+# BİÇİM: “Ad ve unvan” satırında kişi adını ve boşluklu “ - ” ayracını koru. Unvanı kısa bir Türkçe ad öbeği olarak yaz. “Şablon adı” tek parça bir etikettir. İçinde bir ad ve rütbe varsa kişinin adını koruyup rütbeyi Türkçeleştir. Yer ve kişi adlarını, numaraları ve model kodlarını koru. Sona nokta koyma.
+# BAĞLAM: Her başlık bir fraksiyondur. İngilizce grup açıklaması oyunun kataloğundan alınmıştır. Açıklamadaki olaylar çevrilecek ada eklenmez. “Ortak etiket” notu bir sonraki satırın aynı metinle kullanıldığı diğer grupları sayar. Bu satıra hepsine uyan tek karşılık yaz.
+# TERİM BAĞLAMI: Kin genel akrabalığı, In-Law evlilik yoluyla akrabalığı belirtir. Kaynakta akrabalığın hangi taraftan olduğu belirtilmiyorsa etiketi o anlamda daraltma.
+# SABİT KARŞILIKLAR: Hired Hand → Çiftlik İşçisi · Kid Brother → Küçük Kardeş
+
+##### Bell Household #####
+# Katalog açıklaması: The Bell household, Riverside: a family in its own house with the doors barred and the shotgun by the stairs.
+# Oyundaki fraksiyon adı (bağlam): Bell Ailesi
+# Ortak etiket · Şu gruplarda da kullanılır: Trailer Neighbours
+638 | Ad ve unvan | Daniel - Head of the House
+# Ortak etiket · Şu gruplarda da kullanılır: Trailer Neighbours
+639 | Ad ve unvan | Yvonne - Spouse
+# Ortak etiket · Şu gruplarda da kullanılır: Trailer Neighbours
+640 | Ad ve unvan | Frank - Cousin
+# Ortak etiket · Şu gruplarda da kullanılır: Trailer Neighbours
+641 | Ad ve unvan | Wade - Kid Brother
+642 | Ad ve unvan | Luis - Kid Brother
+643 | Ad ve unvan | Andre - Uncle
+644 | Ad ve unvan | Maria - Aunt
+645 | Ad ve unvan | Vernon - Neighbour
+# Ortak etiket · Şu gruplarda da kullanılır: Ortiz Kitchen
+646 | Ad ve unvan | Darlene - In-Law
+
+##### Freeman Porch #####
+# Katalog açıklaması: Freeman Porch: a Louisville row house, three generations, and a porch nobody steps onto uninvited.
+# Oyundaki fraksiyon adı (bağlam): Freeman Verandası
+# Ortak etiket · Şu gruplarda da kullanılır: Walker Duplex · Diner Survivors · Hornback House
+647 | Ad ve unvan | Calvin - Head of the House
+# Ortak etiket · Şu gruplarda da kullanılır: Ortiz Kitchen · Diner Survivors · Hornback House
+648 | Ad ve unvan | Ruth - Spouse
+# Ortak etiket · Şu gruplarda da kullanılır: Walker Duplex · Diner Survivors · Hornback House
+649 | Ad ve unvan | Jesse - Kid Brother
+650 | Ad ve unvan | Nina - Spouse
+651 | Ad ve unvan | Beth - Cousin
+# Ortak etiket · Şu gruplarda da kullanılır: Walker Duplex · Hornback House
+652 | Ad ve unvan | Clyde - Uncle
+# Ortak etiket · Şu gruplarda da kullanılır: Hornback House
+653 | Ad ve unvan | Bonnie - Aunt
+# Ortak etiket · Şu gruplarda da kullanılır: Walker Duplex · Hornback House
+654 | Ad ve unvan | Gus - Neighbour
+# Ortak etiket · Şu gruplarda da kullanılır: Hornback House
+655 | Ad ve unvan | Angela - In-Law
+
+##### Hensley Orchard #####
+# Katalog açıklaması: Hensley Orchard on the Fallas Lake edge: apples, a cider press, and a family that will trade fruit for ammunition.
+# Oyundaki fraksiyon adı (bağlam): Hensley Meyve Bahçesi
+656 | Ad ve unvan | Henry - Orchard Owner
+657 | Ad ve unvan | Adam - Picker
+658 | Ad ve unvan | Ellen - Picker
+659 | Ad ve unvan | Lonnie - Nephew
+660 | Ad ve unvan | Roy - Picker
+661 | Ad ve unvan | Otis - Picker
+662 | Ad ve unvan | Terrence - Hired Hand
+663 | Ad ve unvan | Thomas - Old Uncle
+664 | Ad ve unvan | Leon - Cousin
+
+##### Mercer Auto #####
+# Katalog açıklaması: Mercer Auto: a Muldraugh garage family that keeps the shop, fixes what rolls in, and sleeps upstairs.
+# Oyundaki fraksiyon adı (bağlam): Mercer Oto Tamir
+# Ortak etiket · Şu gruplarda da kullanılır: Sutter Hardware
+665 | Ad ve unvan | Andre - Owner
+666 | Ad ve unvan | Curtis - Mechanic
+667 | Ad ve unvan | Vernon - Mechanic
+668 | Ad ve unvan | Darlene - Apprentice
+669 | Ad ve unvan | Lyle - Mechanic
+670 | Ad ve unvan | Laura - Mechanic
+671 | Ad ve unvan | Ray - Welder
+672 | Ad ve unvan | Helen - Parts Counter
+673 | Ad ve unvan | Wade - Old Mechanic
+674 | Ad ve unvan | Luis - Tow Driver
+
+##### Ortiz Kitchen #####
+# Katalog açıklaması: Ortiz Kitchen: a Louisville restaurant family living over the shop, feeding the block from what is left in the walk-in.
+# Oyundaki fraksiyon adı (bağlam): Ortiz Mutfağı
+675 | Ad ve unvan | Loretta - Spouse
+676 | Ad ve unvan | Nina - Aunt
+
+##### Nguyen Tailors #####
+# Katalog açıklaması: Nguyen Tailors: a small Louisville shop, a family behind the shutters, and a very good eye for who is at the door.
+# Oyundaki fraksiyon adı (bağlam): Nguyen Terzihanesi
+# Ortak etiket · Şu gruplarda da kullanılır: Mattingly House
+677 | Ad ve unvan | Otis - Head of the House
+# Ortak etiket · Şu gruplarda da kullanılır: Price Motor Court
+678 | Ad ve unvan | Sheila - Spouse
+# Ortak etiket · Şu gruplarda da kullanılır: Mattingly House · Skaggs Farm
+679 | Ad ve unvan | Marcus - Cousin
+# Ortak etiket · Şu gruplarda da kullanılır: Mattingly House
+680 | Ad ve unvan | Thomas - Kid Brother
+# Ortak etiket · Şu gruplarda da kullanılır: Mattingly House
+681 | Ad ve unvan | Leon - Kid Brother
+682 | Ad ve unvan | Henry - Kid Brother
+683 | Ad ve unvan | Adam - Uncle
+684 | Ad ve unvan | Tammy - Aunt
+685 | Ad ve unvan | Lonnie - Neighbour
+686 | Ad ve unvan | Ada - In-Law
+
+##### Bauer Dairy #####
+# Katalog açıklaması: Bauer Dairy near Ekron: German farm stock, a herd to keep alive and a fence line they walk twice a day.
+# Oyundaki fraksiyon adı (bağlam): Bauer Mandırası
+# Ortak etiket · Şu gruplarda da kullanılır: Skaggs Farm
+687 | Ad ve unvan | Daniel - Patriarch
+# Ortak etiket · Şu gruplarda da kullanılır: Skaggs Farm
+688 | Ad ve unvan | Ray - Son
+# Ortak etiket · Şu gruplarda da kullanılır: Skaggs Farm
+689 | Ad ve unvan | Frank - Hand
+# Ortak etiket · Şu gruplarda da kullanılır: Skaggs Farm
+690 | Ad ve unvan | Carla - Kin
+691 | Ad ve unvan | Maria - Kin
+692 | Ad ve unvan | Andre - Son
+693 | Ad ve unvan | Curtis - Hired Hand
+# Ortak etiket · Şu gruplarda da kullanılır: Sutter Hardware
+694 | Ad ve unvan | Yvonne - Daughter
+695 | Ad ve unvan | Darnell - Old Uncle
+696 | Ad ve unvan | Lyle - Cousin
+
+##### Walker Duplex #####
+# Katalog açıklaması: The Walker duplex, West Point: two families who knocked the wall through and share one door.
+# Oyundaki fraksiyon adı (bağlam): Walker İkiz Evleri
+# Ortak etiket · Şu gruplarda da kullanılır: Diner Survivors
+697 | Ad ve unvan | Dwight - Cousin
+698 | Ad ve unvan | Bonnie - Cousin
+699 | Ad ve unvan | Ruth - Aunt
+700 | Ad ve unvan | Carla - In-Law
+
+##### Price Motor Court #####
+# Katalog açıklaması: Price Motor Court: the family that ran the roadside motel and still rents rooms, for the right trade.
+# Oyundaki fraksiyon adı (bağlam): Price Moteli
+701 | Ad ve unvan | Henry - Head of the House
+702 | Ad ve unvan | Joan - Spouse
+703 | Ad ve unvan | Earl - Cousin
+704 | Ad ve unvan | Lonnie - Kid Brother
+705 | Ad ve unvan | Otis - Uncle
+# Ortak etiket · Şu gruplarda da kullanılır: Pruitt Family
+706 | Ad ve unvan | Claire - Aunt
+# Ortak etiket · Şu gruplarda da kullanılır: Apartment Watch
+707 | Ad ve unvan | Marcus - Neighbour
+708 | Ad ve unvan | Ellen - In-Law
+
+##### Sutter Hardware #####
+# Katalog açıklaması: Sutter Hardware, Rosewood: nails, chain, tools and a family that sleeps in the stock room with a shotgun.
+# Oyundaki fraksiyon adı (bağlam): Sutter Hırdavat
+709 | Ad ve unvan | Curtis - Son
+710 | Ad ve unvan | Darnell - Clerk
+711 | Ad ve unvan | Lyle - Son
+712 | Ad ve unvan | Helen - Hardware Clerk
+713 | Ad ve unvan | Ray - Stock Boy
+714 | Ad ve unvan | Frank - Old Customer
+715 | Ad ve unvan | Wade - Delivery Driver
+
+##### Lawson Cousins #####
+# Katalog açıklaması: The Lawson cousins in a March Ridge house: four of them, related by marriage and by what they did to keep it.
+# Oyundaki fraksiyon adı (bağlam): Lawson Kuzenleri
+716 | Ad ve unvan | Evan - Kid Brother
+
+##### Turner Homestead #####
+# Katalog açıklaması: Turner Homestead outside Brandenburg: a smallholding, a well, and a family that has never needed the town.
+# Oyundaki fraksiyon adı (bağlam): Turner Çiftliği
+717 | Ad ve unvan | Tammy - Kin
+718 | Ad ve unvan | Adam - Kin
+
+##### Mattingly House #####
+# Katalog açıklaması: Three generations of Mattinglys in one house in Irvington. The downstairs windows are boarded and somebody is always awake.
+# Oyundaki fraksiyon adı (bağlam): Mattingly Evi
+719 | Ad ve unvan | Tammy - Spouse
+
+##### Skaggs Farm #####
+# Katalog açıklaması: A tobacco farm outside Echo Creek with a smokehouse full of hams. The Skaggs family keeps count of everybody who comes up the lane.
+# Oyundaki fraksiyon adı (bağlam): Skaggs Çiftliği
+720 | Ad ve unvan | Angela - Kin
+721 | Ad ve unvan | Helen - Kin
+722 | Ad ve unvan | Curtis - Kin
+723 | Ad ve unvan | Vernon - Hired Hand
+724 | Ad ve unvan | Darlene - Daughter
+725 | Ad ve unvan | Lyle - Old Uncle
+
+##### Hornback House #####
+# Katalog açıklaması: A Valley Station family laid off from the plant in the spring. They have been living off the canned goods in the basement since.
+# Oyundaki fraksiyon adı (bağlam): Hornback Evi
+726 | Ad ve unvan | Dwight - Kid Brother
+727 | Ad ve unvan | Travis - Kid Brother
+
+##### Pruitt Family #####
+# Katalog açıklaması: The Pruitts left Louisville in the station wagon on the second day and have lived out of it since. They are low on gas and have nowhere to go.
+# Oyundaki fraksiyon adı (bağlam): Pruitt Ailesi
+728 | Ad ve unvan | Henry - Father
+729 | Ad ve unvan | Grace - Mother
+730 | Ad ve unvan | Earl - Grandpa
+731 | Ad ve unvan | Roy - Grandpa
+732 | Ad ve unvan | Otis - Cousin
+733 | Ad ve unvan | Sheila - Grandma
+734 | Ad ve unvan | Marcus - Uncle
+735 | Ad ve unvan | Leon - Nephew

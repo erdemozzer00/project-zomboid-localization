@@ -5,7 +5,7 @@ norm=lambda s: re.sub(r"[^a-z0-9{}]","",s.lower())
 known=set()
 for f in ['kaynak/RadioData_lua.json','kaynak/IG_UI_lua.json','kaynak/Creator_lua.json','kaynak/en/IG_UI.json','kaynak/en/UI.json','kaynak/en/Sandbox.json']:
     known|={norm(v) for v in json.load(open(f,encoding='utf-8')).values() if isinstance(v,str)}
-for f in glob.glob('rapor/*_harita.json'):
+for f in glob.glob('paketler/haritalar/*_harita.json'):
     try:
         for v in json.load(open(f,encoding='utf-8'))['satirlar'].values(): known.add(norm(v[1]))
     except: pass

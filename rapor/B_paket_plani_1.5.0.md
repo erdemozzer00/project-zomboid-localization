@@ -48,7 +48,7 @@ Paket `_dosya: IG_UI_lua` olmalı: paket hazırlanırken anahtarlar (`kaynak/IG_
 
 ## Y adları: B10–B14 Gemini'de (2026-11-09, K53, kullanıcı kararı; sebep Claude limiti)
 
-B10–B14 Claude yerine Gemini'de çevrilir; her plan paketi kendi Y adını alır. RaidText gözcü cümleleri ve bitiş anlatısı diyalog sayılıp Y8'e ayrıldı. Girdi `gemini/yeni/girdi/`, harita `rapor/<Y>_harita.json`, istem PROMPTLAR 10. (Y8 için 9. + Y8 ek cümlesi).
+B10–B14 Claude yerine Gemini'de çevrilir; her plan paketi kendi Y adını alır. RaidText gözcü cümleleri ve bitiş anlatısı diyalog sayılıp Y8'e ayrıldı. O tarihteki girdi yolu `gemini/yeni/girdi/`, harita `paketler/haritalar/<Y>_harita.json`, istem PROMPTLAR 10. (Y8 için 9. + Y8 ek cümlesi).
 
 | Y | Plan | Konu | Satır | Dosya | `_dosya` | Komut |
 |---|---|---|---:|---:|---|---|

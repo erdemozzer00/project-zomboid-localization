@@ -318,7 +318,11 @@ local function sablonCevir(text, s)
                     local tr = bak(text, e.k)
                     if tr ~= nil then
                         local kadin = e.s == "f"
-                        tr = string.gsub(tr, "{g:([^{}|]*)|([^{}|]*)}", function(a, b2) if kadin then return b2 end return a end)
+                        tr = string.gsub(tr, "{g:([^{}|]*|[^{}|]*)}", function(bicimler)
+                            local ayrac = string.find(bicimler, "|", 1, true)
+                            if kadin then return string.sub(bicimler, ayrac + 1) end
+                            return string.sub(bicimler, 1, ayrac - 1)
+                        end)
                         local degerler = {}
                         for j = 1, #e.a do
                             local dg = deger(text, e.a[j], yakalanan[j])
@@ -340,6 +344,15 @@ local function cevir(s)
     if text == nil or type(text.lookup) ~= "function" or type(text.lineKey) ~= "function" then return s end
     local t = text.lookup(text.lineKey(s))
     if type(t) == "string" and t ~= "" then return t end
+    local l152 = ALifeTurkce_L152
+    if l152 ~= nil then
+        if type(l152.doorSpeech) == "function" then
+            t = l152.doorSpeech(s)
+            if t ~= nil then return t end
+        end
+        t = l152.missionSpeech(s)
+        if t ~= nil then return t end
+    end
     if type(text.hash) == "function" and #SABLONLAR > 0 then
         t = sablonCevir(text, s)
         if t ~= nil then return t end
@@ -501,18 +514,193 @@ local function kurZiyaretci()
     return true
 end
 
--- Konuşma ağaçları (1.5.0): oyuncunun soru (prompt) ve seçenek düğmeleri sunucudan İngilizce gelir ve
--- UI2TalkTrees.promptRows/runRows'tan çeviri yolu olmadan çizilir (visitor = true). NPC sözü zaten caption'dan geçer.
--- Yalnız satır metni konuşma anahtarıyla (RD_ALifeLine_ + hash, E.clean'lenmiş metin) çevrilir; "[Charm] " öneki
--- İngilizce kalır (mod seçilen satırı yankılarken onu söküyor). Aynı İngilizce bir NPC sözü olarak da çevrildiyse
--- Türkçesindeki tek sondaki nokta, düğmede modun E.clean'i gibi düşürülür. Şablon eşlemesi yapılmaz.
-local function dugmeCevir(s)
+-- A-Life 1.5.2 ağaç verisi: düğme kalıpları ağaç kimliğine bağlıdır. NPC altyazılarında ağaç kimliği
+-- gelmez, bu yüzden yalnız doğrulanan cümle kalıpları ve motorun birleştirdiği satır dizileri eşleştirilir.
+local AGAC_DUGMELER = {
+    crime_d14_whose_town = { "Who runs {town}" },
+    law_census_d0 = { "Put me down. {playerName}" },
+    law_courthouse_ledger_d14 = { "Me. {playerName}" },
+    law_groups_d14 = { "What do you know about {faction}?" },
+    law_name_any = { "Nice to meet you, {name}", "I'm {playerName}" },
+    law_season_d30 = { "How are you getting ready for {season}?" },
+    military_any_checkpoint_hands = { "Day {day}. Okay? Day {day}", "Day {day}. I think", "A house near {town}. Alone, with the door nailed" },
+    military_any_info_dead_convoy = { "I found dead soldiers in a truck near {nearTown}" },
+    military_d0_info_panic_town = { "People in {town} are losing it" },
+    military_d0_trade_tip = { "Where the dead are thickest around {town}" },
+    military_d14_info_raid_farm = { "Raiders hit a farm near {town}" },
+    military_d30_info_horde = { "There's a horde moving through {nearTown}" },
+    military_d30_raid_heard = { "The one on the settlement near {town}" },
+    military_d60_raid_report = { "Raiders are gathering near {town}" },
+    military_d60_real_name = { "Nice to meet you, {name}" },
+    military_d7_info_heli_down = { "Near {nearTown}. Big smoke" },
+    military_d7_info_survivors = { "There are survivors holed up in {town}" },
+    military_d7_order_share = { "People in {town} are starving. Share your food" },
+    rescue_order_come_with = { "There's people near {town} who need a medic. Come help" },
+    rescue_season_talk = { "How's the {season} treating everyone?" },
+    social_any_headed = { "Watch out near {town}" },
+    social_vis_house_before = { "I was a {profession}" },
+    social_vis_kos_test = { "I was a {profession}" },
+    surv_d30_season = { "How are you getting ready for {season}?" },
+    surv_d60_date = { "It's around day {day}" },
+    surv_d7_news = { "Anything new around {town}?" },
+    surv_joke_name = { "Nice to meet you, {name}", "I'm {playerName}" },
+}
+
+local AGAC_SOZLERI = {
+    { "Maybe. You any good at sneaking? There's a house up the street. Old guy had a gun cabinet. Dead things in the yard now", { "Maybe. You any good at sneaking?", "There's a house up the street. Old guy had a gun cabinet. Dead things in the yard now" } }, -- crime_d0_quick_job_window:start
+    { "Hell yeah! Big houses up on the hill, man, wine cellars, generators. Rich folks stocked up. Bunkers, guns, all that prepper shit", { "Hell yeah! Big houses up on the hill, man, wine cellars, generators", "Rich folks stocked up. Bunkers, guns, all that prepper shit" } }, -- crime_d0_rob_the_rich:start
+    { "I AM tough. ..is it that obvious?", { "I AM tough", "..is it that obvious?" } }, -- crime_d0_scared_tough:start
+    { "Dead keep piling up by our wall. Somebody's gotta thin the herd. My boys are tired. You go kill some dead by the marked spot, I'll pay", { "Dead keep piling up by our wall. Somebody's gotta thin the herd", "My boys are tired. You go kill some dead by the marked spot, I'll pay" } }, -- crime_d14_kill_zeds_turf:start
+    { "Why, you planning a visit? We got a place. Walls, beds, a guy who cooks okay", { "Why, you planning a visit?", "We got a place. Walls, beds, a guy who cooks okay" } }, -- crime_d14_outpost_invite:start
+    { "Look at the jacket, genius. Bones on the back. We're what came after the crews. Bigger teeth", { "Look at the jacket, genius. Bones on the back", "We're what came after the crews. Bigger teeth" } }, -- crime_d30_bone_raiders_meet:start
+    { "They do. Boss says you got a head on your shoulders. Wants you closer. You've done right by us. There's a place for you, if you want it", { "They do. Boss says you got a head on your shoulders. Wants you closer", "You've done right by us. There's a place for you, if you want it" } }, -- crime_d30_promote_offer:start
+    { "Why? You looking to sell or you looking to rob? Ha. That's the question everybody's asking and nobody's answering", { "Why? You looking to sell or you looking to rob?", "Ha. That's the question everybody's asking and nobody's answering" } }, -- crime_d7_ammo_count:start
+    { "Prospects run errands. Want to be a prospect for a day? Club needs gas. Club always needs gas. Bring some and we'll remember you", { "Prospects run errands. Want to be a prospect for a day?", "Club needs gas. Club always needs gas. Bring some and we'll remember you" } }, -- crime_d7_biker_prospect_job:start
+    { "Not anymore. Three crews merged last night. Big party. Somebody got stabbed. We're getting bigger every day. Small crews join or get eaten", { "Not anymore. Three crews merged last night. Big party. Somebody got stabbed", "We're getting bigger every day. Small crews join or get eaten" } }, -- crime_d7_crews_merging:start
+    { "You I believe. Two cans, and you do pay me back, {playerName}" }, -- law_ask_food_d0:two
+    { "{playerName}. Got it. If somebody comes asking, I'll know you were alive today" }, -- law_census_d0:named
+    { "{playerName}. I'll remember. I'm good with names, it was the job" }, -- law_name_any:me
+    { "*Smiles* yeah. Nice to meet you too, {playerName}" }, -- military_d60_real_name:nice
+    { "Set's dying. If command calls and we're dead air, that's it. We're forgotten. I need batteries. If the set dies we can't even hear the static", { "Set's dying. If command calls and we're dead air, that's it. We're forgotten", "I need batteries. If the set dies we can't even hear the static" } }, -- military_d7_task_batteries:start
+    { "Then lower the {weapon}. Talking doesn't need a {weapon}" }, -- rescue_anti_kos_lower:start
+    { "Real help.. *laughs* I AM the real help. That's the joke. Dispatch keeps saying hold position. Hold it where? The position's on fire", { "Real help.. *laughs* I AM the real help. That's the joke", "Dispatch keeps saying hold position. Hold it where? The position's on fire" } }, -- rescue_ems_dispatch_d0:start
+    { "Inmates, guards, whoever. Behind that door they're all just patients. There's a locked wing and two of us and a doctor who hasn't left the building since Tuesday", { "Inmates, guards, whoever. Behind that door they're all just patients", "There's a locked wing and two of us and a doctor who hasn't left the building since Tuesday" } }, -- rescue_med_infirmary_d0:start
+    { "Here. Bandages, wipes, painkillers, the good drawer like I promised. Thank you, {playerName}" }, -- rescue_q_abx_turnin:base
+    { "Cots, water purification tabs, blankets and a satellite phone nobody answers. Three trucks. One's broken, one's for the cots, one's mostly paperwork. Sorry. That's honest", { "Cots, water purification tabs, blankets and a satellite phone nobody answers", "Three trucks. One's broken, one's for the cots, one's mostly paperwork. Sorry. That's honest" } }, -- rescue_relief_redcross_tent_d0:start
+    { "Safe? Nowhere's safe. Safer, maybe. *Thinks* There's people. Decent ones, last I heard. That's as close to safe as it gets", { "Safe? Nowhere's safe. Safer, maybe", "*Thinks* There's people. Decent ones, last I heard. That's as close to safe as it gets" } }, -- rescue_safe_places:start
+    { "{faction}, yeah, why" }, -- social_any_group:start
+    { "{playerName}.. nice to meet you, I guess, weird times to meet people" }, -- social_any_name:me
+    { "Before? Feels like a different life.. I was a {profession}" }, -- social_any_profession:start
+    { "They drove past yesterday, didn't even slow down. Didn't even look at us. I heard helicopters. Nobody came. Nobody's coming, are they?", { "They drove past yesterday, didn't even slow down. Didn't even look at us", "I heard helicopters. Nobody came. Nobody's coming, are they?" } }, -- surv_d0_news:army
+    { "I don't KNOW, okay?! The TV just says stay inside and then it's the same loop again. People are biting people, that's what's going on. Biting! In {town}! My neighbour was standing in his yard for an hour. Just standing. Then he went for the mailman", { "I don't KNOW, okay?! The TV just says stay inside and then it's the same loop again", "People are biting people, that's what's going on. Biting! In {town}!", "My neighbour was standing in his yard for an hour. Just standing. Then he went for the mailman" } }, -- surv_d0_news:start
+    { "People are forming groups. Good ones, bad ones. You can tell by how they greet you. Power flickered last night. Lights everywhere for one second and then black. I almost cried. Some crew took over the hardware store. They shoot at anyone who gets close", { "People are forming groups. Good ones, bad ones. You can tell by how they greet you", "Power flickered last night. Lights everywhere for one second and then black. I almost cried", "Some crew took over the hardware store. They shoot at anyone who gets close" } }, -- surv_d14_news:start
+    { "Groups are setting up proper camps now. Walls, guards, rules. Like little towns. The dead are thinning in the open. They gather in buildings now. Big buildings scare me. Saw a guy trading cigarettes for ammo. Cigarettes are money now. Who'd have thought", { "Groups are setting up proper camps now. Walls, guards, rules. Like little towns", "The dead are thinning in the open. They gather in buildings now. Big buildings scare me", "Saw a guy trading cigarettes for ammo. Cigarettes are money now. Who'd have thought" } }, -- surv_d30_news:start
+    { "Found him in a car. Windows cracked. He was so thirsty. Now he won't leave my side. This is Buster. He barks at them and then hides behind me. Brave boy. Bravest coward I know", { "Found him in a car. Windows cracked. He was so thirsty. Now he won't leave my side", "This is Buster. He barks at them and then hides behind me. Brave boy. Bravest coward I know" } }, -- surv_hope_dog:start
+    { "The big store. Don't. There's like a hundred in there. I counted from the roof and then stopped. A pack of them moves through every couple days. Like a wave. Hide when you hear them", { "The big store. Don't. There's like a hundred in there. I counted from the roof and then stopped", "A pack of them moves through every couple days. Like a wave. Hide when you hear them" } }, -- surv_info_danger:start
+    { "Some are good, some'll smile and take everything you have. The smile is the tell. There's a lot of people with guns and opinions. Avoid the ones who wear matching stuff", { "Some are good, some'll smile and take everything you have. The smile is the tell", "There's a lot of people with guns and opinions. Avoid the ones who wear matching stuff" } }, -- surv_info_groups:start
+    { "Routine. Same time, same places. Surprises kill you. Not caring too much. About stuff, I mean. Stuff can be found. People can't", { "Routine. Same time, same places. Surprises kill you", "Not caring too much. About stuff, I mean. Stuff can be found. People can't" } }, -- surv_info_tips_d60:start
+    { "{playerName}. Okay. I'll remember that. I don't remember much anymore but I'll remember that" }, -- surv_joke_name:me
+    { "Twenty-two years. The dead can't stop us, they're just one more thing to argue about. She's my wife. I'm hers. We're a team. She's the brains, I'm the bait", { "Twenty-two years. The dead can't stop us, they're just one more thing to argue about", "She's my wife. I'm hers. We're a team. She's the brains, I'm the bait" } }, -- surv_married_pair:start
+    { "Stopped calling myself that. I amputated a guy's finger with garden shears last week. Busy. Everyone gets hurt. Nobody pays. Just like the old job actually", { "Stopped calling myself that. I amputated a guy's finger with garden shears last week", "Busy. Everyone gets hurt. Nobody pays. Just like the old job actually" } }, -- surv_nurse_d14:start
+    { "Cars are full of stuff. People packed to run and never made it. Sad. Useful. Both. Suitcases, coolers, a guitar once. You'd be amazed what people tried to save", { "Cars are full of stuff. People packed to run and never made it. Sad. Useful. Both", "Suitcases, coolers, a guitar once. You'd be amazed what people tried to save" } }, -- surv_pickers:start
+    { "Most of us. Neighbours. We grabbed what we could and stuck together. We're just people from {town}. Teachers, a dentist, a guy who sold insurance. Real fighting force", { "Most of us. Neighbours. We grabbed what we could and stuck together", "We're just people from {town}. Teachers, a dentist, a guy who sold insurance. Real fighting force" } }, -- surv_riverside_d0:start
+    { "Holding together. Barely. Votes on everything. We argued an hour about who washes the pots. We lost two on a supply run. We don't talk about it. We just set the table for less", { "Holding together. Barely. Votes on everything. We argued an hour about who washes the pots", "We lost two on a supply run. We don't talk about it. We just set the table for less" } }, -- surv_riverside_d14:start
+}
+
+local function agacDeseni(en)
+    local desen, adlar, bas = { "^" }, {}, 1
+    for ilk, ad, son in string.gmatch(en, "()({%a+})()") do
+        desen[#desen + 1] = kacis(string.sub(en, bas, ilk - 1))
+        ad = string.sub(ad, 2, -2)
+        adlar[#adlar + 1] = ad
+        desen[#desen + 1] = ad == "day" and "(%d+)" or "(.+)"
+        bas = son
+    end
+    desen[#desen + 1] = kacis(string.sub(en, bas)) .. "$"
+    return table.concat(desen), adlar
+end
+
+local function agacDegerleri(s, desen, adlar)
+    local yakalanan = { string.match(s, desen) }
+    if #yakalanan == 0 then return nil end
+    local degerler = {}
+    for i, ad in ipairs(adlar) do
+        local v = yakalanan[i]
+        if degerler[ad] ~= nil and degerler[ad] ~= v then return nil end
+        if (ad == "season" or ad == "town" or ad == "nearTown") and not gecerli(ad, v) then return nil end
+        degerler[ad] = v
+    end
+    return degerler
+end
+
+local function agacDoldur(s, degerler)
+    return (string.gsub(s, "{(%a+)}", function(ad) return degerler[ad] end))
+end
+
+local function agacBuyut(s)
+    return (string.gsub(s, "%a", string.upper, 1))
+end
+
+local function agacSatiri(text, en, degerler, npc)
+    local tr = bak(text, text.lineKey(en))
+    if tr == nil and npc then tr = bak(text, text.lineKey(agacBuyut(en))) end
+    if tr == nil then return nil end
+    local sonuc = string.gsub(tr, "{(%a+)}", function(ad)
+        local v = degerler[ad]
+        if v == nil or ad == "playerName" or ad == "name" or ad == "weapon" then return v end
+        return deger(text, ad, v)
+    end)
+    if string.find(sonuc, "{%a+}") ~= nil then return nil end
+    return sonuc
+end
+
+local function agacParcalari(text, parcalar, degerler)
+    local sonuc = {}
+    for i, en in ipairs(parcalar) do
+        local tr = agacSatiri(text, en, degerler, true)
+        if tr == nil then
+            local soz = agacBuyut(agacDoldur(en, degerler))
+            tr = cevir(soz)
+            if tr == soz or string.find(tr, "{%a+}") ~= nil then return nil end
+        end
+        if i < #parcalar and string.find(tr, "[%w]$") ~= nil then tr = tr .. "." end
+        sonuc[#sonuc + 1] = tr
+    end
+    return table.concat(sonuc, " ")
+end
+
+local AGAC_NPC_TAM, AGAC_NPC_DESEN = {}, {}
+for _, satir in ipairs(AGAC_SOZLERI) do
+    local en = satir[1]
+    local desen, adlar = agacDeseni(en)
+    if #adlar == 0 then
+        AGAC_NPC_TAM[en] = satir[2]
+    else
+        -- Speech.render, başta sabit yazı olduğunda ilk harfi büyütür.
+        local sabit = string.match(en, "^[^{]*")
+        desen, adlar = agacDeseni(agacBuyut(sabit) .. string.sub(en, #sabit + 1))
+        AGAC_NPC_DESEN[#AGAC_NPC_DESEN + 1] = { desen, adlar, satir }
+    end
+end
+
+local function agacAltyazi(s)
+    local text = ProjectALife.Text
+    local parcalar = AGAC_NPC_TAM[s]
+    if parcalar ~= nil then return agacParcalari(text, parcalar, {}) end
+    for _, kalip in ipairs(AGAC_NPC_DESEN) do
+        local degerler = agacDegerleri(s, kalip[1], kalip[2])
+        if degerler ~= nil then
+            local satir = kalip[3]
+            if satir[2] ~= nil then return agacParcalari(text, satir[2], degerler) end
+            local sonuc = agacSatiri(text, satir[1], degerler, true)
+            if sonuc ~= nil then
+                if string.find(satir[1], "^{faction}") then
+                    sonuc = string.gsub(sonuc, "^%l", string.upper)
+                end
+                return sonuc
+            end
+        end
+    end
+end
+
+-- [Charm] önekini oyun seçilen satırı yankılarken söker. Sözlükte hem önekli hem öneksiz kayıtlar var.
+local function dugmeCevir(s, agac)
     if Ek.kapali or type(s) ~= "string" or s == "" or not turkce() then return s end
     local onek, govde = string.match(s, "^(%[Charm%] )(.*)$")
     if govde == nil then onek, govde = "", s end
     local ok, t = pcall(function()
         local text = ProjectALife.Text
-        return text.lookup(text.lineKey(govde))
+        local tr = bak(text, text.lineKey(govde))
+        if tr == nil and onek ~= "" then tr = bak(text, text.lineKey(s)) end
+        if tr ~= nil then return tr end
+        for _, en in ipairs(AGAC_DUGMELER[agac] or {}) do
+            local desen, adlar = agacDeseni(en)
+            local degerler = agacDegerleri(govde, desen, adlar)
+            if degerler ~= nil then
+                tr = agacSatiri(text, en, degerler, false)
+                if tr ~= nil then return tr end
+            end
+        end
     end)
     if not ok then kapat(t) return s end
     if type(t) ~= "string" or t == "" then return s end
@@ -520,10 +708,12 @@ local function dugmeCevir(s)
     return onek .. t
 end
 
-local function satirlariCevir(satirlar, ...)
+local function satirlariCevir(agac, satirlar, ...)
     if type(satirlar) == "table" then
         for _, satir in ipairs(satirlar) do
-            if type(satir) == "table" and type(satir.text) == "string" then satir.text = dugmeCevir(satir.text) end
+            if type(satir) == "table" and type(satir.text) == "string" then
+                satir.text = dugmeCevir(satir.text, satir.treePrompt or agac)
+            end
         end
     end
     return satirlar, ...
@@ -537,7 +727,11 @@ local function kurAgac()
     for _, ad in ipairs({ "promptRows", "runRows" }) do
         if type(agac[ad]) == "function" then
             local asil = agac[ad]
-            agac[ad] = function(...) return satirlariCevir(asil(...)) end
+            agac[ad] = function(win, ...)
+                local run = type(win) == "table" and win.treeRun or nil
+                local tree = type(run) == "table" and run.tree or nil
+                return satirlariCevir(tree, asil(win, ...))
+            end
         end
     end
     return true
@@ -563,6 +757,22 @@ end
 local function kurIpucu()
     local konusma = ProjectALife and ProjectALife.UI2Talk
     if type(konusma) ~= "table" or type(konusma.statusText) ~= "function" then return false end
+    if type(konusma.clickNote) == "function" and not konusma.ALifeTurkceTiklamaBildirimi then
+        local tiklamaBildirimi = konusma.clickNote
+        konusma.clickNote = function(win, ...)
+            local sonuc = tiklamaBildirimi(win, ...)
+            local notMetni = type(win) == "table" and type(win.clickNote) == "table" and win.clickNote.text
+            if type(sonuc) == "table" and type(notMetni) == "string" and turkce()
+                    and sonuc.text == string.upper(notMetni) then
+                local kopya = {}
+                for k, v in pairs(sonuc) do kopya[k] = v end
+                kopya.text = notMetni
+                return kopya
+            end
+            return sonuc
+        end
+        konusma.ALifeTurkceTiklamaBildirimi = true
+    end
     if konusma.ALifeTurkceIpucu then return true end
     konusma.ALifeTurkceIpucu = true
     local asil = konusma.statusText
@@ -669,7 +879,9 @@ local function kur()
             if Ek.kapali or type(s) ~= "string" or s == "" or not turkce() then return s end
             local ok, t = pcall(cevir, s)
             if not ok then kapat(t) return s end
-            return t
+            if t ~= s then return t end
+            local agacOk, agacTr = pcall(agacAltyazi, s)
+            return agacOk and agacTr or s
         end
     end
     return basUstuHazir and doLinesHazir and bildirimHazir and ziyaretciHazir and sayLineHazir

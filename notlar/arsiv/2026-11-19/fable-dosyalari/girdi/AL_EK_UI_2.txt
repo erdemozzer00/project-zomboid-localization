@@ -1,0 +1,34 @@
+# Project A-Life 1.5.2 · Ek ekran metinleri · 2/2 · Oluşturucu onay ve doğrulama metinleri
+# Yalnız 26–43 numaralı İngilizce satırları çevir. Sıra aynı kalsın. Çıktı biçimi N | Türkçe.
+# Başlıklar ve numarasız açıklamalar bağlam. Görev aşamaları kısa eylem etiketi, bildirim ve durumlar ise kısa arayüz metni.
+# {…} yer tutucularını ve varsa yazılı \n satır ayrımlarını aynen koru. Değişken kişi, eşya ve yer adlarına doğrudan ek getirmeyecek bir yapı kullan.
+# Türkçe cümle sırasına göre yer tutucuların yerini değiştirebilirsin. Tamamı büyük harfli etiketlerin büyük harf biçimini koru.
+# Terimler · faction = fraksiyon, preset = şablon, outpost = karakol, camp = kamp, crew = ekip.
+
+##### Oluşturucu onay pencereleri #####
+# Oyuncudan bir işlemi onaylamasını isteyen metinler. faction = fraksiyon, preset = şablon. Yazılı satır sonlarını koru.
+26 | Delete this NPC?
+27 | Delete this faction and all its NPC presets?
+# {name} klasör adı. {count} silinecek fraksiyon sayısı.
+28 | Delete folder '{name}' and everything in it?\n{count} factions and all their NPCs will be deleted.
+29 | Are you sure?\nBuilt-in factions go back to default and deleted ones come back.\nFactions you made yourself stay.
+
+##### Oluşturucu sayı uyarıları #####
+# Fraksiyon ayarlarını kaydederken alan adından sonra gösterilen kısa hata gövdeleri. {min} ve {max} sayısal sınırlar.
+30 | enter a value.
+31 | use whole numbers from {min}.
+32 | use whole numbers {min} to {max}.
+33 | use {min} to {max}.
+34 | maximum must be at least the minimum.
+
+##### Paylaşım kodunda eksik içerik #####
+# Başka bir fraksiyonun paylaşım kodu içe aktarılırken eksik modları ve eşyaları gösteren pencere. Yer tutuculardaki ad, eşya listesi ve Workshop kimliği aynen gelecek.
+35 | This code uses items your game does not have.
+36 | NPCs will spawn without them.
+37 | Mod: {name} ({count} items)
+38 | Mod: {name} - Workshop {id} ({count} items)
+39 | + {count} more mods
+40 | Unknown items: {items}
+41 | Unknown items: {items} + {count} more
+42 | Import it anyway?
+43 | MISSING ITEMS - {count} - FULL LIST IN CONSOLE.TXT

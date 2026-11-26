@@ -1,0 +1,43 @@
+{
+  "_paket": "AL_MENU_RD",
+  "_grup": "ana_menu_lua_derin_tarama",
+  "_dosya": "RadioData_lua",
+  "_baslik": "Güvenli ev kapısındaki değişkenli NPC replikleri",
+  "_noktalama": true,
+  "_parcalar": [
+    [
+      1,
+      2
+    ]
+  ],
+  "_teknik": {
+    "sunum_uyarlamasi_satirlari": [
+      1,
+      2
+    ],
+    "kalip_satirlari": [
+      1,
+      2
+    ]
+  },
+  "satirlar": {
+    "1": [
+      "RD_ALifeLine_5359b13d505dae1c",
+      "There's {count} of us here, we're together",
+      [
+        "server/ProjectALife/World/ALifeSafehouseVisit.lua:1819",
+        "Güvenli ev kapısı · ziyaretçinin yanındakiler",
+        "DOOR_COMPANY"
+      ]
+    ],
+    "2": [
+      "RD_ALifeLine_4697c88d71172cab",
+      "Noted. {count} residents home, and your report about bites. Stay inside. We're moving on.",
+      [
+        "server/ProjectALife/World/ALifeSafehouseVisit.lua:1318",
+        "Güvenli ev kapısı · polis sayımı",
+        "DOOR_CENSUS_CLEAR / DOOR_CENSUS_BITTEN"
+      ]
+    ]
+  }
+}

@@ -7,6 +7,7 @@ yankısı öneki söker; NPC sözü TreeServer.say ile aynı render + caption yo
 aynı İngilizce düğmede noktasız; panel modülü yokken ek sessiz, sonradan yüklenince OnGameStart'ta bağlanır; dil Türkçe
 değilse hiçbir şey değişmez. Oyun içi çizimi doğrulamaz.
 """
+import json
 import sys
 import unittest
 from pathlib import Path
@@ -91,6 +92,57 @@ class Oyun:
 
 
 class AgacEkiTesti(unittest.TestCase):
+    def test_degiskenli_soru_dort_mevsimde_yalniz_kendi_agacinda_cevrilir(self):
+        o = Oyun()
+        E, C = o.g.ProjectALife.TreeEngine, o.g.ProjectALife.UI2TalkTrees
+        agac = o.g.ProjectALife.TreeRegistry.byId.rescue_season_talk
+        tr = json.loads((KOK / "teslim/RadioData.json").read_text(encoding="utf-8"))
+        o.cevir(agac.prompt, tr[o.g.ProjectALife.Text.lineKey(agac.prompt)])
+        for en_mevsim, tr_mevsim in (("spring", "ilkbahar"), ("summer", "yaz"),
+                                      ("autumn", "sonbahar"), ("winter", "kış")):
+            with self.subTest(mevsim=en_mevsim):
+                anahtar = "RD_ALifeTR_Deger_" + o.g.ProjectALife.Text.hash(en_mevsim)
+                o.g.CEVIRILER[anahtar] = tr[anahtar]
+                en = E.clean(E.fill(agac.prompt, o.lua.table_from({"season": en_mevsim})))
+                satir = o.lua.table_from({"id": agac.id, "text": en})
+                win = o.lua.table_from({"treeOffer": o.lua.table_from({"World": o.lua.table_from([satir])})})
+                self.assertEqual(C.promptRows(win, "World")[1].text, f"Herkes {tr_mevsim} ile nasıl başa çıkıyor?")
+                self.assertEqual(satir.text, en)
+                satir.id = "diger_agac"
+                self.assertEqual(C.promptRows(win, "World")[1].text, en)
+
+    def test_charm_sozlukte_onekliyse_de_cevrilir(self):
+        o = Oyun()
+        C = o.g.ProjectALife.UI2TalkTrees
+        en = "[Charm] Four, it's a good hammer"
+        o.cevir(en, "Dört olsun, sağlam çekiç bu")
+        satir = o.lua.table_from({"i": 2, "text": en, "locked": True})
+        win = o.lua.table_from({"treeRun": o.lua.table_from({"topic": "Trade", "choices": o.lua.table_from([satir])})})
+        row = C.runRows(win)[1]
+        self.assertEqual(row.text, "[Charm] Dört olsun, sağlam çekiç bu")
+        self.assertEqual(row.treeChoice, 2)
+        self.assertTrue(row.locked)
+
+    def test_birlesen_npc_parcalari_tam_ceviri_varsa_kullanilir(self):
+        o = Oyun()
+        P = o.g.ProjectALife
+        t = P.TreeRegistry.byId.crime_d0_scared_tough
+        node = t.nodes.start
+        en, _ = P.TreeEngine.joinLines(node._npc, o.lua.table())
+        o.cevir(node._npc[1], "Sertim.")
+        self.assertEqual(P.AudioPolicy.caption(en), en)
+        o.cevir(node._npc[2], "O kadar belli mi?")
+        P.Text.flush()
+        self.assertEqual(P.AudioPolicy.caption(en), "Sertim. O kadar belli mi?")
+
+    def test_oyuncu_adi_oldugu_gibi_korunur(self):
+        o = Oyun()
+        P = o.g.ProjectALife
+        en = "{playerName}. Got it. If somebody comes asking, I'll know you were alive today"
+        o.cevir(en, "{playerName}. Tamam. Biri seni sorarsa bugün hayatta olduğunu bilirim.")
+        dolu = P.TreeEngine.fill(en, o.lua.table_from({"playerName": "Deniz Efe"}))
+        self.assertEqual(P.AudioPolicy.caption(dolu), "Deniz Efe. Tamam. Biri seni sorarsa bugün hayatta olduğunu bilirim.")
+
     def test_soru_dugmesi_cevrilir(self):
         o = Oyun()
         E, C = o.g.ProjectALife.TreeEngine, o.g.ProjectALife.UI2TalkTrees
@@ -189,10 +241,9 @@ class AgacEkiTesti(unittest.TestCase):
         """Gemini girdisindeki anahtar, ekin düğmede baktığı anahtarla aynı (soru ve seçenek)."""
         o = Oyun()
         E = o.g.ProjectALife.TreeEngine
-        harita = KOK / "rapor" / "Y4_harita.json"
+        harita = KOK / "paketler/haritalar" / "Y4_harita.json"
         if not harita.exists():
             self.skipTest("Y4 haritası yok")
-        import json
         satirlar = json.loads(harita.read_text(encoding="utf-8"))["satirlar"]
         dugmeler = [v for v in satirlar.values() if v[2][2].startswith(("soru", "secenek"))][:200]
         self.assertTrue(dugmeler)

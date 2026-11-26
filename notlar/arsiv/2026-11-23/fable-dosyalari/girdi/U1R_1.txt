@@ -1,0 +1,158 @@
+# U1R · 1/14 · Kolluk, şeriflik ve adliye
+# Çıktı dosyası: U1R_1.txt. Dosyaya yalnız N | Türkçe satırlarını yaz. 1–92 arasındaki her numarayı aynı sırada bir kez kullan.
+# Başlıklar ve numarasız notlar bağlamdır. Çevrilecek metin her numaralı satırın son sütunundadır.
+# DÜNYA VE EKRAN: Project Zomboid, 1993 Kentucky’si. Bunlar Oluşturucu’da ve katalogda NPC üye şablonunu tanıtan kısa ekran etiketleridir.
+# BİÇİM: “Ad ve unvan” satırında kişi adını ve boşluklu “ - ” ayracını koru. Unvanı kısa bir Türkçe ad öbeği olarak yaz. “Şablon adı” tek parça bir etikettir. İçinde bir ad ve rütbe varsa kişinin adını koruyup rütbeyi Türkçeleştir. Yer ve kişi adlarını, numaraları ve model kodlarını koru. Sona nokta koyma.
+# BAĞLAM: Her başlık bir fraksiyondur. İngilizce grup açıklaması oyunun kataloğundan alınmıştır. Açıklamadaki olaylar çevrilecek ada eklenmez. “Ortak etiket” notu bir sonraki satırın aynı metinle kullanıldığı diğer grupları sayar. Bu satıra hepsine uyan tek karşılık yaz.
+# TERİM BAĞLAMI: Buradaki Trooper, Kentucky eyalet polisinde görevli kişidir. Deputy, şerif teşkilatında şerif yardımcısıdır. Game Warden av ve yaban hayatı denetiminde görev yapar.
+
+##### Knox County Deputies #####
+# Katalog açıklaması: Deputies still running the county by their own reading of it. Shotguns at the door, sidearms behind, and an officer who calls the shots.
+# Oyundaki fraksiyon adı (bağlam): Knox Şerif Yardımcıları
+1 | Şablon adı | County Deputy
+2 | Şablon adı | Deputy (Shotgun)
+3 | Şablon adı | Deputy Rowe
+4 | Şablon adı | County Sergeant
+
+##### Post 4 Troopers #####
+# Katalog açıklaması: Post 4 troopers still working US-31W in the first week: roadblocks, missing-person sweeps, a radio that still answers.
+# Oyundaki fraksiyon adı (bağlam): 4. Bölge Eyalet Polisleri
+# Ortak etiket · Şu gruplarda da kullanılır: West Point Police
+5 | Ad ve unvan | Daniel - Sergeant
+6 | Ad ve unvan | Ray - Trooper
+7 | Ad ve unvan | Frank - Trooper
+8 | Ad ve unvan | Carla - Trooper
+9 | Ad ve unvan | Luis - Trooper
+10 | Ad ve unvan | Renee - Trooper
+11 | Ad ve unvan | Curtis - Corporal
+12 | Ad ve unvan | Yvonne - Trooper First Class
+13 | Ad ve unvan | Darnell - Cadet Trooper
+14 | Ad ve unvan | Lyle - Veteran Trooper
+
+##### County Sheriff #####
+# Katalog açıklaması: The county sheriff and what is left of his deputies, holding the courthouse road and the town squares while the county still means something.
+# Oyundaki fraksiyon adı (bağlam): İlçe Şerifliği
+15 | Ad ve unvan | Calvin - Sheriff
+16 | Ad ve unvan | Paul - Deputy
+# Ortak etiket · Şu gruplarda da kullanılır: Knox First Responders
+17 | Ad ve unvan | Scott - Deputy
+18 | Ad ve unvan | Beth - Deputy
+19 | Ad ve unvan | Dwight - Deputy
+20 | Ad ve unvan | Bonnie - Deputy
+21 | Ad ve unvan | Clyde - Chief Deputy
+22 | Ad ve unvan | Boyd - Reserve Deputy
+23 | Ad ve unvan | Monica - Court Bailiff
+24 | Ad ve unvan | Evan - Jailer
+
+##### Muldraugh Police #####
+# Katalog açıklaması: Muldraugh's chief and his two cruisers. Small-town police: they know everybody, and they are not ready for this.
+# Oyundaki fraksiyon adı (bağlam): Muldraugh Polisi
+# Ortak etiket · Şu gruplarda da kullanılır: Jefferson County Police
+25 | Ad ve unvan | Henry - Sergeant
+# Ortak etiket · Şu gruplarda da kullanılır: Jefferson County Police
+26 | Ad ve unvan | Adam - Officer
+# Ortak etiket · Şu gruplarda da kullanılır: Jefferson County Police
+27 | Ad ve unvan | Earl - Officer
+# Ortak etiket · Şu gruplarda da kullanılır: Riverside Police
+28 | Ad ve unvan | Patsy - Officer
+# Ortak etiket · Şu gruplarda da kullanılır: Jefferson County Police
+29 | Ad ve unvan | Roy - Officer
+30 | Ad ve unvan | Otis - Detective
+31 | Ad ve unvan | Claire - Patrol Officer
+32 | Ad ve unvan | Marcus - Traffic Officer
+33 | Ad ve unvan | Thomas - Rookie Officer
+
+##### Jail Detail #####
+# Katalog açıklaması: The jail detail from the courthouse basement, keeping the lockup and the block around it while the trusties still answer to them.
+# Oyundaki fraksiyon adı (bağlam): Tutukevi Görev Ekibi
+# Ortak etiket · Şu gruplarda da kullanılır: Corrections Remnants
+34 | Ad ve unvan | Andre - Shift Officer
+# Ortak etiket · Şu gruplarda da kullanılır: Corrections Remnants
+35 | Ad ve unvan | Curtis - Corrections Officer
+# Ortak etiket · Şu gruplarda da kullanılır: Corrections Remnants
+36 | Ad ve unvan | Vernon - Corrections Officer
+37 | Ad ve unvan | Laura - Corrections Officer
+# Ortak etiket · Şu gruplarda da kullanılır: Corrections Remnants
+38 | Ad ve unvan | Lyle - Corrections Officer
+39 | Ad ve unvan | Helen - Corrections Officer
+40 | Ad ve unvan | Ray - Tower Officer
+41 | Ad ve unvan | Frank - Transport Officer
+42 | Ad ve unvan | Renee - Booking Officer
+43 | Ad ve unvan | Luis - Rookie Officer
+
+##### Conservation Officers #####
+# Katalog açıklaması: Fish and Wildlife officers on the rivers and in the knobs, the only law in the back country and used to being alone.
+# Oyundaki fraksiyon adı (bağlam): Doğa Koruma Görevlileri
+44 | Ad ve unvan | Travis - Senior Officer
+# Ortak etiket · Şu gruplarda da kullanılır: Rosewood Police · Knox First Responders
+45 | Ad ve unvan | Clyde - Officer
+# Ortak etiket · Şu gruplarda da kullanılır: Louisville Division of Police
+46 | Ad ve unvan | Ruth - Officer
+47 | Ad ve unvan | Monica - Officer
+# Ortak etiket · Şu gruplarda da kullanılır: Louisville Division of Police
+48 | Ad ve unvan | Diane - Officer
+49 | Ad ve unvan | Calvin - Wildlife Officer
+50 | Ad ve unvan | Paul - Game Warden
+51 | Ad ve unvan | Loretta - Trail Ranger
+52 | Ad ve unvan | Jesse - Seasonal Ranger
+
+##### Courthouse Holdouts #####
+# Katalog açıklaması: The clerks and one deputy who never left the courthouse. They keep records nobody will read and a door nobody gets through.
+# Oyundaki fraksiyon adı (bağlam): Adliyede Kalanlar
+53 | Ad ve unvan | Otis - County Clerk
+# Ortak etiket · Şu gruplarda da kullanılır: County Law Remnants
+54 | Ad ve unvan | Terrence - Deputy
+55 | Ad ve unvan | Grace - Clerk
+56 | Ad ve unvan | Thomas - Clerk
+57 | Ad ve unvan | Leon - Clerk
+58 | Ad ve unvan | Tammy - Clerk
+59 | Ad ve unvan | Adam - Bailiff
+60 | Ad ve unvan | Sheila - Court Reporter
+61 | Ad ve unvan | Lonnie - Retired Judge
+62 | Ad ve unvan | Roy - Records Clerk
+
+##### Work Crew Runaways #####
+# Katalog açıklaması: A roadside work crew that walked off when the officer stopped coming back. Boilersuits under stolen jackets, moving at night.
+# Oyundaki fraksiyon adı (bağlam): Yol Ekibi Firarileri
+63 | Ad ve unvan | Daniel - Runaway
+64 | Ad ve unvan | Ray - Runaway
+65 | Ad ve unvan | Frank - Runaway
+66 | Ad ve unvan | Wade - Runaway
+67 | Ad ve unvan | Luis - Runaway
+68 | Ad ve unvan | Yvonne - Runaway
+69 | Ad ve unvan | Curtis - Runaway
+70 | Ad ve unvan | Vernon - Runaway
+
+##### Trooper Remnants #####
+# Katalog açıklaması: Trooper remnants: a post that never got relieved. Grey shirts under civilian coats, still stopping cars on 31W.
+# Oyundaki fraksiyon adı (bağlam): Eyalet Polislerinden Kalanlar
+71 | Ad ve unvan | Clyde - Trooper
+72 | Ad ve unvan | Bonnie - Trooper
+73 | Ad ve unvan | Ada - Trooper
+74 | Ad ve unvan | Evan - Corporal
+75 | Ad ve unvan | Monica - Trooper First Class
+76 | Ad ve unvan | Paul - Cadet Trooper
+77 | Ad ve unvan | Scott - Veteran Trooper
+
+##### County Law Remnants #####
+# Katalog açıklaması: County law remnants: deputies running their own county out of a house, the badge still on the belt.
+# Oyundaki fraksiyon adı (bağlam): Şeriflikten Kalanlar
+78 | Ad ve unvan | Otis - Sheriff
+79 | Ad ve unvan | Marcus - Deputy
+80 | Ad ve unvan | Claire - Deputy
+81 | Ad ve unvan | Grace - Deputy
+82 | Ad ve unvan | Henry - Chief Deputy
+83 | Ad ve unvan | Adam - Reserve Deputy
+84 | Ad ve unvan | Tammy - Court Bailiff
+85 | Ad ve unvan | Lonnie - Jailer
+
+##### Conservation Remnants #####
+# Katalog açıklaması: Conservation remnants: two officers living out of a forest camp, keeping the woods the way they always did.
+# Oyundaki fraksiyon adı (bağlam): Doğa Koruma Görevlilerinden Kalanlar
+86 | Ad ve unvan | Andre - Senior Officer
+87 | Ad ve unvan | Curtis - Officer
+88 | Ad ve unvan | Darnell - Officer
+89 | Ad ve unvan | Lyle - Wildlife Officer
+90 | Ad ve unvan | Daniel - Game Warden
+91 | Ad ve unvan | Carla - Trail Ranger
+92 | Ad ve unvan | Frank - Seasonal Ranger

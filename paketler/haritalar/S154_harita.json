@@ -1,0 +1,63 @@
+{
+  "_paket": "S154",
+  "_grup": "Sandbox_1_5_4",
+  "_dosya": "Sandbox",
+  "_baslik": "Project A-Life 1.5.4 Sandbox ayarları",
+  "_parcalar": [
+    [
+      1,
+      5
+    ]
+  ],
+  "_satir_sonu": true,
+  "_noktalama_haric": [
+    "Ayar adı"
+  ],
+  "satirlar": {
+    "1": [
+      "Sandbox_ProjectALife.CarsTrafficFrequency_tooltip",
+      "How many NPC cars are on the roads: ambient traffic, drive-bys and pull-ups. Low is about 15 percent of full traffic, Normal about 40 percent and High is full traffic. Off stops all ambient NPC car traffic (raid, police response and scripted cars follow their own switches). Enable NPC vehicles must be on.\nDefault Normal (2).",
+      [
+        "42.20/media/sandbox-options.txt:77",
+        "",
+        "İpucu"
+      ]
+    ],
+    "2": [
+      "Sandbox_ProjectALife.ZombieThinkCap",
+      "Zombie think steps per frame",
+      [
+        "42.20/media/sandbox-options.txt:2980",
+        "",
+        "Ayar adı"
+      ]
+    ],
+    "3": [
+      "Sandbox_ProjectALife.ZombieThinkCap_tooltip",
+      "Cap on how many zombies run their A-Life think step in one frame. The rest wait a frame or two, at most the time set in Zombie think wait limit. Zombies biting, attacking or right next to someone always think. Lower it if hordes near NPCs make the game stutter. 0 turns the cap off.",
+      [
+        "42.20/media/sandbox-options.txt:2980",
+        "",
+        "İpucu"
+      ]
+    ],
+    "4": [
+      "Sandbox_ProjectALife.ZombieThinkCapLate",
+      "Zombie think wait limit (ms)",
+      [
+        "42.20/media/sandbox-options.txt:2986",
+        "",
+        "Ayar adı"
+      ]
+    ],
+    "5": [
+      "Sandbox_ProjectALife.ZombieThinkCapLate_tooltip",
+      "Longest a zombie waits for its think step when the per-frame cap is full. 200 is barely noticeable. With very large hordes, 600 together with 4 think steps per frame gives the most frames; around 1000 zombies start to bite less often.",
+      [
+        "42.20/media/sandbox-options.txt:2986",
+        "",
+        "İpucu"
+      ]
+    ]
+  }
+}

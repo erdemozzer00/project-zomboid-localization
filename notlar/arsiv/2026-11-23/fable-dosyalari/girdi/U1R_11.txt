@@ -1,0 +1,180 @@
+# U1R · 11/14 · Çiftler, küçük topluluklar ve yerleşimler
+# Çıktı dosyası: U1R_11.txt. Dosyaya yalnız N | Türkçe satırlarını yaz. 997–1104 arasındaki her numarayı aynı sırada bir kez kullan.
+# Başlıklar ve numarasız notlar bağlamdır. Çevrilecek metin her numaralı satırın son sütunundadır.
+# DÜNYA VE EKRAN: Project Zomboid, 1993 Kentucky’si. Bunlar Oluşturucu’da ve katalogda NPC üye şablonunu tanıtan kısa ekran etiketleridir.
+# BİÇİM: “Ad ve unvan” satırında kişi adını ve boşluklu “ - ” ayracını koru. Unvanı kısa bir Türkçe ad öbeği olarak yaz. “Şablon adı” tek parça bir etikettir. İçinde bir ad ve rütbe varsa kişinin adını koruyup rütbeyi Türkçeleştir. Yer ve kişi adlarını, numaraları ve model kodlarını koru. Sona nokta koyma.
+# BAĞLAM: Her başlık bir fraksiyondur. İngilizce grup açıklaması oyunun kataloğundan alınmıştır. Açıklamadaki olaylar çevrilecek ada eklenmez. “Ortak etiket” notu bir sonraki satırın aynı metinle kullanıldığı diğer grupları sayar. Bu satıra hepsine uyan tek karşılık yaz.
+# TERİM BAĞLAMI: Partner etiketinin ilişkisi her çiftin başlığının altında verilir. Aynı fraksiyonda listelenen adlar ayrı üye şablonlarıdır.
+# SABİT KARŞILIKLAR: Traveller → Yolcu
+
+##### Married Survivors #####
+# Katalog açıklaması: A married couple who left the house together and have not been apart since.
+# Oyundaki fraksiyon adı (bağlam): Evli Çift
+# Bu grupta Partner → Eş.
+997 | Ad ve unvan | Daniel - Husband
+998 | Ad ve unvan | Renee - Wife
+999 | Ad ve unvan | Darlene - Wife
+1000 | Ad ve unvan | Yvonne - Wife
+1001 | Ad ve unvan | Luis - Partner
+1002 | Ad ve unvan | Angela - Partner
+1003 | Ad ve unvan | Curtis - Partner
+1004 | Ad ve unvan | Vernon - Partner
+
+##### Adult Siblings #####
+# Katalog açıklaması: Adult siblings working the neighbourhood house by house, arguing the whole way.
+# Oyundaki fraksiyon adı (bağlam): Yetişkin Kardeşler
+# Bu grupta Partner → Kardeş.
+1005 | Ad ve unvan | Calvin - Brother
+1006 | Ad ve unvan | Bonnie - Sister
+1007 | Ad ve unvan | Ada - Sister
+1008 | Ad ve unvan | Ruth - Sister
+1009 | Ad ve unvan | Dwight - Partner
+1010 | Ad ve unvan | Diane - Partner
+1011 | Ad ve unvan | Clyde - Partner
+1012 | Ad ve unvan | Boyd - Partner
+
+##### Co-Workers #####
+# Katalog açıklaması: Two co-workers who were on shift together and are still on shift, in a way.
+# Oyundaki fraksiyon adı (bağlam): İş Arkadaşları
+# Bu grupta Partner → İş Arkadaşı.
+1013 | Ad ve unvan | Henry - Co-Worker
+1014 | Ad ve unvan | Denise - Co-Worker
+1015 | Ad ve unvan | Claire - Co-Worker
+1016 | Ad ve unvan | Lonnie - Co-Worker
+1017 | Ad ve unvan | Roy - Partner
+1018 | Ad ve unvan | Joan - Partner
+1019 | Ad ve unvan | Terrence - Partner
+1020 | Ad ve unvan | Marcus - Partner
+
+##### Fishing Partners #####
+# Katalog açıklaması: Fishing partners at a cabin on the bank, living off the river and a deer rifle.
+# Oyundaki fraksiyon adı (bağlam): Balıkçı Dostlar
+# Bu grupta Partner → Balık Arkadaşı.
+1021 | Ad ve unvan | Andre - Angler
+1022 | Ad ve unvan | Curtis - Angler
+1023 | Ad ve unvan | Vernon - Angler
+1024 | Ad ve unvan | Darnell - Partner
+1025 | Ad ve unvan | Renee - Partner
+1026 | Ad ve unvan | Daniel - Partner
+1027 | Ad ve unvan | Ray - Partner
+
+##### Motel Travellers #####
+# Katalog açıklaması: Two travellers from a motel room on 31W, out of state, out of gas and out of ideas.
+# Oyundaki fraksiyon adı (bağlam): Moteldeki Yolcular
+# Bu grupta Partner → Yol Arkadaşı.
+1028 | Ad ve unvan | Travis - Traveller
+1029 | Ad ve unvan | Nina - Traveller
+1030 | Ad ve unvan | Beth - Traveller
+1031 | Ad ve unvan | Gus - Partner
+1032 | Ad ve unvan | Bonnie - Partner
+1033 | Ad ve unvan | Calvin - Partner
+1034 | Ad ve unvan | Paul - Partner
+
+##### Apartment Watch #####
+# Katalog açıklaması: Apartment watch: one Louisville block that organised, floor by floor, with a rota on the stairwell door.
+# Oyundaki fraksiyon adı (bağlam): Apartman Nöbetçileri
+1035 | Ad ve unvan | Otis - Floor Captain
+1036 | Ad ve unvan | Tammy - Neighbour
+1037 | Ad ve unvan | Thomas - Neighbour
+1038 | Ad ve unvan | Leon - Neighbour
+# Ortak etiket · Şu gruplarda da kullanılır: Mattingly House
+1039 | Ad ve unvan | Henry - Uncle
+# Ortak etiket · Şu gruplarda da kullanılır: Mattingly House
+1040 | Ad ve unvan | Grace - Aunt
+# Ortak etiket · Şu gruplarda da kullanılır: Mattingly House
+1041 | Ad ve unvan | Earl - Neighbour
+# Ortak etiket · Şu gruplarda da kullanılır: Mattingly House
+1042 | Ad ve unvan | Joan - In-Law
+
+##### Trailer Neighbours #####
+# Katalog açıklaması: Trailer neighbours at the other end of the Muldraugh park: not Napiers, and they want that understood.
+# Oyundaki fraksiyon adı (bağlam): Karavan Parkı Komşuları
+1043 | Ad ve unvan | Luis - Cousin
+1044 | Ad ve unvan | Carla - Cousin
+1045 | Ad ve unvan | Curtis - Uncle
+1046 | Ad ve unvan | Renee - Aunt
+1047 | Ad ve unvan | Darnell - Neighbour
+1048 | Ad ve unvan | Sheila - In-Law
+
+##### Diner Survivors #####
+# Katalog açıklaması: Diner survivors: the cook, the waitress and the regulars who were there when it started, still there.
+# Oyundaki fraksiyon adı (bağlam): Lokanta Ahalisi
+1049 | Ad ve unvan | Travis - Cook
+1050 | Ad ve unvan | Loretta - Waitress
+1051 | Ad ve unvan | Boyd - Regular
+1052 | Ad ve unvan | Gus - Dishwasher
+
+##### Church Volunteers #####
+# Katalog açıklaması: Church volunteers running a shelter in a church that is not Prather's, and glad of the difference.
+# Oyundaki fraksiyon adı (bağlam): Kilise Gönüllüleri
+1053 | Ad ve unvan | Henry - Volunteer Lead
+1054 | Ad ve unvan | Grace - Volunteer
+1055 | Ad ve unvan | Earl - Volunteer
+1056 | Ad ve unvan | Joan - Volunteer
+1057 | Ad ve unvan | Tammy - Volunteer
+# Ortak etiket · Şu gruplarda da kullanılır: Rolling Fork Settlement
+1058 | Ad ve unvan | Otis - Elder
+1059 | Ad ve unvan | Sheila - Choir Member
+1060 | Ad ve unvan | Denise - Deaconess
+1061 | Ad ve unvan | Thomas - Youth Minister
+
+##### Refugee Walkers #####
+# Katalog açıklaması: Refugee walkers: a column out of Louisville coming down 31W on foot, carrying everything, going anywhere.
+# Oyundaki fraksiyon adı (bağlam): Yaya Sığınmacılar
+1062 | Ad ve unvan | Andre - Walker
+1063 | Ad ve unvan | Maria - Walker
+1064 | Ad ve unvan | Vernon - Walker
+1065 | Ad ve unvan | Darlene - Walker
+1066 | Ad ve unvan | Yvonne - Walker
+1067 | Ad ve unvan | Daniel - Walker
+1068 | Ad ve unvan | Ray - Walker
+1069 | Ad ve unvan | Helen - Walker
+1070 | Ad ve unvan | Wade - Walker
+1071 | Ad ve unvan | Luis - Walker
+
+##### Office Workers #####
+# Katalog açıklaması: Office staff who walked out of the building on the first morning in their good shoes and name tags. Nobody has told them where to go.
+# Oyundaki fraksiyon adı (bağlam): Ofis Çalışanları
+1072 | Ad ve unvan | Henry - Office Worker
+1073 | Ad ve unvan | Patsy - Office Worker
+1074 | Ad ve unvan | Sheila - Secretary
+1075 | Ad ve unvan | Lonnie - Accountant
+1076 | Ad ve unvan | Roy - Accountant
+1077 | Ad ve unvan | Otis - Stranger
+1078 | Ad ve unvan | Ellen - Stranger
+1079 | Ad ve unvan | Marcus - Stranger
+1080 | Ad ve unvan | Thomas - Stranger
+
+##### Otter Creek Trappers #####
+# Katalog açıklaması: Two trappers who run their lines along Otter Creek and sell the hides. They know the woods and do not care for company.
+# Oyundaki fraksiyon adı (bağlam): Otter Creek Kapancıları
+1081 | Ad ve unvan | Clyde - Trapper
+1082 | Ad ve unvan | Boyd - Trapper
+1083 | Ad ve unvan | Loretta - Trapper
+1084 | Ad ve unvan | Evan - Trapper
+1085 | Ad ve unvan | Ada - Trapper
+1086 | Ad ve unvan | Paul - Trapper
+1087 | Ad ve unvan | Scott - Trapper
+
+##### Rolling Fork Settlement #####
+# Katalog açıklaması: Rolling Fork Settlement: families, strays and two veterans who pooled what they had behind one fence. They grow, trade and take in people who work, and they want to see your hands first.
+1088 | Ad ve unvan | Terrence - Gate Watch
+1089 | Ad ve unvan | Denise - Settler
+1090 | Ad ve unvan | Thomas - Settler
+1091 | Ad ve unvan | Henry - Forager
+1092 | Ad ve unvan | Adam - Veteran
+1093 | Ad ve unvan | Earl - Settler
+1094 | Ad ve unvan | Patsy - Settler
+1095 | Ad ve unvan | Roy - Gardener
+1096 | Ad ve unvan | Ruth - Teacher
+1097 | Ad ve unvan | Gus - Carpenter
+1098 | Ad ve unvan | Marcus - Scout
+
+##### Long Road Survivors #####
+# Katalog açıklaması: Long Road Survivors: people still on the move a month in, in tarp, hide and patched denim, carrying what they could make. Most of them only want to pass.
+1099 | Ad ve unvan | Daniel - Wanderer
+1100 | Ad ve unvan | Angela - Wanderer
+1101 | Ad ve unvan | Frank - Wanderer
+1102 | Ad ve unvan | Carla - Wanderer
+1103 | Ad ve unvan | Maria - Wanderer
+1104 | Ad ve unvan | Andre - Wanderer

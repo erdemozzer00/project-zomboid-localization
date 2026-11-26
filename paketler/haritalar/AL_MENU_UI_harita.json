@@ -1,0 +1,137 @@
+{
+  "_paket": "AL_MENU_UI",
+  "_grup": "ana_menu_lua_derin_tarama",
+  "_dosya": "IG_UI_lua",
+  "_baslik": "Ana menü, Dünya durumu, Oluşturucu ve güvenli ev arayüzü",
+  "_noktalama": false,
+  "_parcalar": [
+    [
+      1,
+      11
+    ]
+  ],
+  "_teknik": {
+    "sunum_uyarlamasi_satirlari": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "kalip_satirlari": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      9,
+      10
+    ]
+  },
+  "satirlar": {
+    "1": [
+      "IGUI_ALifeUI_0c999e3722da3d6a",
+      "Waiting for server status...",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:183",
+        "Dünya durumu",
+        "status"
+      ]
+    ],
+    "2": [
+      "IGUI_ALifeUI_22cb12e9750d343f",
+      "SAVE FAILED: {reason}",
+      [
+        "client/ProjectALife/Interface/Creator/ALifeCreatorSaveQueue.lua:154",
+        "Oluşturucu kayıt durumu",
+        "save"
+      ]
+    ],
+    "3": [
+      "IGUI_ALifeUI_38294d555fb4d0e1",
+      "{season} set, {role}: {shown} shown, {hidden} hidden. SHOW ALL lists every item.",
+      [
+        "client/ProjectALife/Interface/Creator/ALifeCreatorClothingView.lua:118",
+        "Oluşturucu kıyafet kataloğu",
+        "clothing"
+      ]
+    ],
+    "4": [
+      "IGUI_ALifeUI_2bd75e235cfa126d",
+      "{item} collides with {other} ({slot} slot).",
+      [
+        "shared/ProjectALife/Records/ALifeClothingHealth.lua:186",
+        "Oluşturucu kıyafet çakışması",
+        "clothing_collision"
+      ]
+    ],
+    "5": [
+      "IGUI_ALifeUI_49cc230078928606",
+      "Both use the same body location.",
+      [
+        "shared/ProjectALife/Records/ALifeClothingHealth.lua:188",
+        "Oluşturucu kıyafet çakışması",
+        "clothing_collision"
+      ]
+    ],
+    "6": [
+      "IGUI_ALifeUI_06e9b8272756ec2d",
+      "It also collides with {items}.",
+      [
+        "shared/ProjectALife/Records/ALifeClothingHealth.lua:197",
+        "Oluşturucu kıyafet çakışması",
+        "clothing_collision"
+      ]
+    ],
+    "7": [
+      "IGUI_ALifeUI_126cf90b5d860dd0",
+      "Compatible alternative: {item}.",
+      [
+        "shared/ProjectALife/Records/ALifeClothingHealth.lua:200",
+        "Oluşturucu kıyafet çakışması",
+        "clothing_collision"
+      ]
+    ],
+    "8": [
+      "IGUI_ALifeUI_45e0e2927cd5dcd1",
+      "Pick it anyway?",
+      [
+        "client/ProjectALife/Interface/Creator/ALifeCreatorClothingView.lua:391",
+        "Oluşturucu kıyafet çakışması",
+        "clothing_collision"
+      ]
+    ],
+    "9": [
+      "IGUI_ALifeUI_71e55ef10178b8a0",
+      "Your {item} is back by the door.",
+      [
+        "server/ProjectALife/World/ALifeSafehouseDirector.lua:2346",
+        "Güvenli ev bildirimleri",
+        "loan"
+      ]
+    ],
+    "10": [
+      "IGUI_ALifeUI_5d25686a71ff311a",
+      "There is no sign of your {item}. The neighbour never brought it back.",
+      [
+        "server/ProjectALife/World/ALifeSafehouseDirector.lua:2348",
+        "Güvenli ev bildirimleri",
+        "loan"
+      ]
+    ],
+    "11": [
+      "IGUI_ALifeUI_19484934212445ac",
+      "They have nothing to say to that right now, try the Talk menu",
+      [
+        "server/ProjectALife/Talk/ALifeTalk.lua:876",
+        "Yazılı NPC konuşması bildirimi",
+        "talk_notice"
+      ]
+    ]
+  }
+}

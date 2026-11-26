@@ -1,13 +1,13 @@
-"""Diyalog paketlerini Claude Code dışında (Gemini vb.) çevirtmek için girdi dosyası hazırlar ve dönen çeviriyi pakete çevirir.
+"""Ayrı çeviri ortamı için İngilizce TXT hazırlar ve dönen Türkçe TXT'yi pakete çevirir.
 
 Kullanım:
   python araclar/harici_paket.py hazirla D6n d6n [--parca 300]
       diyalog_cikar.py'deki <grup>'un henüz kaynakta ve başka bir bekleyen haritada olmayan satırlarını numaralar.
-      Çıktı: gemini/girdi/<PAKET>_<i>.txt (çevirmene verilecek) ve rapor/<PAKET>_harita.json (numara → anahtar).
-      Sahne notu: gemini/sahne/<PAKET>.json {"_baslik", "_genel", "OLAY": "açıklama"}; olay notu yoksa
-      gemini/sahne/_olaylar.json'dan (önce tam ad, sonra "ÖNEK_*") alınır. Kaynağa dokunmaz.
-  python araclar/harici_paket.py al D6n [gemini/cikti/D6n_1_TR.txt ...]
-      Dosya verilmezse gemini/cikti/<PAKET>_*_TR.txt dosyalarının hepsini okur. "N | Türkçe [## not: ...]" satırları.
+      Çıktı: fable/girdi/<PAKET>_<i>.txt (çevirmene verilecek) ve paketler/haritalar/<PAKET>_harita.json (numara → anahtar).
+      Sahne notu: araclar/sahne/<PAKET>.json {"_baslik", "_genel", "OLAY": "açıklama"}; olay notu yoksa
+      araclar/sahne/_olaylar.json'dan (önce tam ad, sonra "ÖNEK_*") alınır. Kaynağa dokunmaz.
+  python araclar/harici_paket.py al D6n [fable/cikti/D6n_1_TR.txt ...]
+      Dosya verilmezse fable/cikti/<PAKET>_*_TR.txt dosyalarının hepsini okur. "N | Türkçe [## not: ...]" satırları.
       Tamamlanmış parçalar pakete girer; parça numaraları eksik, sırasız, yinelenmiş, yanlış aralıkta ya da yabancıysa durur.
       Hiç satırı gelmemiş parçalar bekler; sonra tekrar çalıştırınca paket onlarla birlikte yeniden kurulur.
       Satırlarının yarısından azı noktalamayla biten dosya alınmaz (skill uygulanmamış: birebir çeviri); --zorla ile alınır.
@@ -18,53 +18,52 @@ Kullanım:
   python araclar/harici_paket.py hazirla-sahne SNA [--parca 300]
       Sahneleri (araclar/sahne_cikar.py) SAHNE_PAKETLERI'ndeki konulara göre ayırır. Her sahne bir blok: numaralı satırlar
       "N | K1 | metin", çevrilmeyecek ya da çevrilmiş satırlar "· K2 | metin" bağlam satırı. Sahne parçalar arasında bölünmez.
-      Çıktı yine gemini/girdi/<PAKET>_<i>.txt ve rapor/<PAKET>_harita.json; `al` değişmeden çalışır.
+      Çıktı yine fable/girdi/<PAKET>_<i>.txt ve paketler/haritalar/<PAKET>_harita.json; `al` değişmeden çalışır.
   python araclar/harici_paket.py hazirla-liste G1 rapor/G1_anahtarlar.json [--dosya 100] [--mevcut]
-      Zaten çevrilmiş satırları Gemini'ye yeniden çevirtmek için (K47; liste: araclar/gozden_sec.py). Tam --dosya parçaya böler,
+      Zaten çevrilmiş satırları Fable'a yeniden çevirtmek için (K47; liste: araclar/gozden_sec.py). Tam --dosya parçaya böler,
       her olay başlığına "NEREDE:" (oyuncunun satırla karşılaşma biçimi, dosya türünden) ve olay notunu yazar
-      (evet/hayır satırlarında D11a/D11b, sonra gemini/sahne/<PAKET>.json, sonra _olaylar.json). --mevcut: eski Türkçeyi de gösterir.
-  python araclar/harici_paket.py hazirla-yeni Y1 [--satir 127] --yeni
+      (evet/hayır satırlarında D11a/D11b, sonra araclar/sahne/<PAKET>.json, sonra _olaylar.json). --mevcut: eski Türkçeyi de gösterir.
+  python araclar/harici_paket.py hazirla-yeni Y1 [--satir 127]
       Mod güncellemesiyle gelen, kaynakta ve bekleyen haritalarda olmayan BÜTÜN grup satırlarını (diyalog_cikar.GRUPLAR)
       tek pakette toplar; grup, NEREDE ve olaya göre sıralar, dosya başına ≈--satir satır. Her başlıkta NEREDE + olay notu
-      (önce grubun kendi gemini/sahne/<GRUP>.json'u, sonra _olaylar.json); grup değişince o grubun SAHNE notu.
-  --yeni: girdi/çıktı klasörü gemini/yeni/girdi ve gemini/yeni/cikti olur (bütün komutlarda; mod güncellemesiyle gelen
-      yeni satırlar için). Verilmezse gemini/girdi ve gemini/cikti (eski çevirilerin G turları).
-      Sahnelerdeki yeni satırlar: hazirla-sahne <SAHNE_PAKETLERI'nde olmayan ad, ör. Y1S> --yeni (bütün konular).
+      (önce grubun kendi araclar/sahne/<GRUP>.json'u, sonra _olaylar.json); grup değişince o grubun SAHNE notu.
+  Yeni ve yeniden çevrilen paketler aynı girdi ve çıktı dizinlerini kullanır.
+      Yeni sahneler için hazirla-sahne komutuna SAHNE_PAKETLERI dışında bir paket adı ver (ör. Y1S).
   python araclar/harici_paket.py hazirla-itibar
   python araclar/harici_paket.py hazirla-creator
       Oluşturucu cümleleri baştan çeviri için (CR1; etiketler bağlayıcı terim, ortak anahtar ve fraksiyon verisi hariç).
       İtibar ekranının bütün metinleri baştan çeviri için (K57): IG_UI anahtarları IT1, IG_UI_lua anahtarları IT2.
-  python araclar/harici_paket.py hazirla-radyo Y2 --yeni [--parca 150]
+  python araclar/harici_paket.py hazirla-radyo Y2 [--parca 150]
       1.5.0 radyo olayları (Radio/Data/ALifeRadioEvent_*) ve telsiz sohbetleri (ALifeRadioChatter): IG_UI.json'da olup
       çevirisi olmayan metinler (rapor/arayuz_1.5.0_IG_UI.json, tür "yeni"). Her olay bir blok: kişiler, yer, satırlar dosya
       sırasıyla ve etiketli (kim konuşuyor, oyuncu seçeneği, sonuç yazısı, söylenti). Kişi adları girdiye konmaz (aynen kalır).
       Harita "_dosya": "IG_UI" taşır: `al` paketi IG_UI'ye yazar, RadioData kaynağına eklemez (onaylamadan önce kaynak/en 1.5.0 olmalı).
-  python araclar/harici_paket.py hazirla-agac Y4 diyalog --yeni [--satir 128]
-  python araclar/harici_paket.py hazirla-agac Y5 arayuz --yeni
+  python araclar/harici_paket.py hazirla-agac Y4 diyalog [--satir 128]
+  python araclar/harici_paket.py hazirla-agac Y5 arayuz
       1.5.0 konuşma ağaçları (araclar/agac_cikar.py, modun kendi Lua'sıyla). diyalog: NPC sözü, oyuncu sorusu/seçeneği, bark
       havuzları, TT_* ve esir cevapları (RadioData_lua); arayuz: sekme adları, TT_* düğme/not, esir sorusu (_dosya IG_UI_lua).
       Ağaç/havuz bölünmez; kaynakta, bekleyen haritada, tekrar ya da yer tutuculu satırlar "·" bağlam satırı olur.
       `al` haritadaki _noktalama_haric (satır yer[2] öneki) satırlarını noktalama oranına katmaz; _noktalama: false denetimi kapatır;
       _dosya "_lua" ile bitiyorsa anahtarlar kaynak/<dosya>.json'a eklenir.
-  python araclar/harici_paket.py hazirla-arayuz-diyalog Y3 --yeni [--satir 128]
+  python araclar/harici_paket.py hazirla-arayuz-diyalog Y3 [--satir 128]
       1.5.0 IG_UI'de hâlâ çevirisiz olup diyalog niteliğinde olan metinler (araclar/arayuz_sinif.py'nin a sınıfı, rapor/arayuz_siniflar_1.5.0.json):
       oyuncunun söylediği satırlar (görev sorusu/raporu, konuşma seçenekleri, kapı cevapları), NPC'nin tek tek sözleri (hava/ruh hâli,
       söylenti, kayıp eşya, gözcü) ve yazılı notlar (anıt, el yazısı). Konuya göre bloklanır, blok parçalar arasında bölünmez.
       Harita "_dosya": "IG_UI" taşır (Y2 gibi); `al` paketi IG_UI'ye yazar, kaynağa dokunmaz. Önce `python -X utf8 araclar/arayuz_sinif.py`.
-  python araclar/harici_paket.py hazirla-kacan Y6 --yeni [--satir 128]
+  python araclar/harici_paket.py hazirla-kacan Y6 [--satir 128]
       1.5.0 kaçan metinlerin diyalog grubu (araclar/kacan_cikar.py -> kaynak/IG_UI_kacan.json, tür "diyalog"): durum/esir/görev
       konuşma satırları ve alt notları (impact/risk/tip), bitiş telsiz çağrısı ve helikopter sorularının cevapları. Durum ve çağrı
       düğümü başına blok; NPC'nin o sahnedeki sözleri "·" bağlam. Anahtar IGUI_ALifeUI_ (Text.ui); harita "_dosya": "IG_UI_lua":
       `al` anahtarları kaynak/IG_UI_lua.json'a ekler (Y5 gibi). Önce `python -X utf8 araclar/kacan_cikar.py`.
-  python araclar/harici_paket.py hazirla-liste-soz Y7 --yeni [--satir 128]
+  python araclar/harici_paket.py hazirla-liste-soz Y7 [--satir 128]
       Tablo içi listelerdeki NPC sözleri (araclar/liste_cikar.py, rapor/kacan_listeler_1.5.0.md): durumların giriş/cevap
       sözleri, esirlerin cevapları ve bitiş telsiz çağrısının cevap şeridi sorusu (düğüm sözleri ", " ile birleşik). Anahtar
       RD_ALifeLine_ + hash(oyunda gösterilen metin: Speech.render + caption; çağrıda Call.fill + birleştirme); harita _dosya
       "RadioData_lua". Kaynakta/bekleyen haritada olan ya da tekrar eden satır "·" bağlam. Yolu olmayan bitiş sözleri alınmaz.
-  python araclar/harici_paket.py hazirla-bitis-soz Y9 --yeni
+  python araclar/harici_paket.py hazirla-bitis-soz Y9
       Bitişin telsiz kartı (yayının ilk satırı) ve helikopter pilotunun sözleri; konuşma ekinin kurKart/kurPilot sarmasıyla
       görünür (rapor/kacan_listeler_1.5.0.md §4). Anahtar RD_ALifeLine_, harita _dosya "RadioData_lua".
-Kurallar dosyası (Gemini skill): gemini/alife-ceviri/SKILL.md
+Çeviri skill'i kullanıcının ayrı ortamındadır. Girdiye gereken bağlamı ve özel kuralları TXT içinde ver.
 """
 import json
 import re
@@ -76,9 +75,9 @@ sys.path.insert(0, str(KOK / "araclar"))
 import diyalog_cikar  # noqa: E402
 from lua_cikar import h  # noqa: E402
 
-GIRDI, CIKTI, SAHNE = KOK / "gemini" / "girdi", KOK / "gemini" / "cikti", KOK / "gemini" / "sahne"
-if "--yeni" in sys.argv:  # mod güncellemesiyle gelen yeni satırlar ayrı klasörde (2026-11-09, kullanıcı)
-    GIRDI, CIKTI = KOK / "gemini" / "yeni" / "girdi", KOK / "gemini" / "yeni" / "cikti"
+FABLE = KOK / "fable"
+GIRDI, CIKTI = FABLE / "girdi", FABLE / "cikti"
+SAHNE = KOK / "araclar" / "sahne"
 KAYNAK, BAGLAM = KOK / "kaynak" / "RadioData_lua.json", KOK / "kaynak" / "RadioData_lua_baglam.json"
 
 
@@ -93,7 +92,7 @@ def yaz(p, veri, girinti=4):
 def bekleyen(haric):
     """Başka paketlerin haritalarındaki (henüz kaynağa alınmamış) anahtarlar: aynı satır iki pakete girmesin."""
     out = set()
-    for f in (KOK / "rapor").glob("*_harita.json"):
+    for f in (KOK / "paketler/haritalar").glob("*_harita.json"):
         if f.name != f"{haric}_harita.json":
             out |= {v[0] for v in oku(f)["satirlar"].values()}
     return out
@@ -133,7 +132,7 @@ def hazirla(paket, grup, parca=300):
         eski.unlink()
     for p, (bas, son) in enumerate(aralik, 1):
         cikti = [f"# PAKET {paket} · parça {p}/{parcalar} · satır {bas}-{son} ({son - bas + 1} satır)",
-                 "# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama."]
+                 "# Project A-Life, 1993 Kentucky’si. Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama."]
         if sahne.get("_genel"):
             cikti.append("# SAHNE: " + sahne["_genel"])
         cikti.append("# Girdi biçimi: N | koşul etiketleri | İngilizce")
@@ -148,8 +147,8 @@ def hazirla(paket, grup, parca=300):
                     cikti.append("# " + notu)
             cikti.append(f"{i} | {yer[2] or '-'} | {en}")
         (GIRDI / f"{paket}_{p}.txt").write_text("\n".join(cikti) + "\n", encoding="utf-8", newline="\n")
-    yaz(KOK / "rapor" / f"{paket}_harita.json", harita, 1)
-    print(f"{paket}: {toplam} satır, {parcalar} parça -> {GIRDI.relative_to(KOK).as_posix()}/{paket}_1..{parcalar}.txt; harita rapor/{paket}_harita.json")
+    yaz(KOK / "paketler/haritalar" / f"{paket}_harita.json", harita, 1)
+    print(f"{paket}: {toplam} satır, {parcalar} parça -> {GIRDI.relative_to(KOK).as_posix()}/{paket}_1..{parcalar}.txt; harita paketler/haritalar/{paket}_harita.json")
 
 
 SAHNE_PAKETLERI = {  # paket -> konular; None = diğer bütün konular
@@ -213,7 +212,7 @@ def hazirla_sahne(paket, parca=300):
         son = ilk + sum(b[2] for b in blk) - 1
         aralik.append([ilk, son])
         cikti = [f"# PAKET {paket} · parça {p}/{len(parcalar)} · satır {ilk}-{son} ({son - ilk + 1} satır, {len(blk)} sahne)",
-                 "# Kurallar: A-Life çeviri kuralları (skill). Çıktı: yalnızca numaralı satırlar, her biri 'N | Türkçe' (K1/K2 etiketini yazma), "
+                 "# Project A-Life, 1993 Kentucky’si. Çıktı: yalnızca numaralı satırlar, her biri 'N | Türkçe' (K1/K2 etiketini yazma), "
                  "numaralar aynen, hiçbirini atlama.",
                  SAHNE_ACIKLAMA]
         if notlar.get("_genel"):
@@ -222,7 +221,7 @@ def hazirla_sahne(paket, parca=300):
             cikti += ["", f"##### SAHNE {x['id']} · {x['konu']} · {x['kisi']} kişi · {x['kosul'] or '-'} #####"] + satir
         (GIRDI / f"{paket}_{p}.txt").write_text(chr(10).join(cikti) + chr(10), encoding="utf-8", newline=chr(10))
         ilk = son + 1
-    yaz(KOK / "rapor" / f"{paket}_harita.json", {"_paket": paket, "_grup": "sahne", "_baslik": notlar.get("_baslik", ""),
+    yaz(KOK / "paketler/haritalar" / f"{paket}_harita.json", {"_paket": paket, "_grup": "sahne", "_baslik": notlar.get("_baslik", ""),
         "_parcalar": aralik, "satirlar": satirlar}, 1)
     print(f"{paket}: {len(satirlar)} satır, {len(bloklar)} sahne, {len(parcalar)} parça -> {GIRDI.relative_to(KOK).as_posix()}/{paket}_1..{len(parcalar)}.txt")
 
@@ -280,7 +279,7 @@ def hazirla_liste(paket, anahtar_dosya, dosya_sayisi=100, mevcut=False):
     notsuz, yersiz = set(), set()
     for p, (bas, son) in enumerate(aralik, 1):
         cikti = [f"# PAKET {paket} · parça {p}/{dosya_sayisi} · satır {bas}-{son} ({son - bas + 1} satır)",
-                 "# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.",
+                 "# Project A-Life, 1993 Kentucky’si. Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.",
                  YENIDEN_ACIKLAMA]
         if mevcut:
             cikti.append(MEVCUT_ACIKLAMA)
@@ -308,7 +307,7 @@ def hazirla_liste(paket, anahtar_dosya, dosya_sayisi=100, mevcut=False):
             if mevcut:
                 cikti.append(f"MEVCUT: {onayli[k]}")
         (GIRDI / f"{paket}_{p}.txt").write_text("\n".join(cikti) + "\n", encoding="utf-8", newline="\n")
-    yaz(KOK / "rapor" / f"{paket}_harita.json", harita, 1)
+    yaz(KOK / "paketler/haritalar" / f"{paket}_harita.json", harita, 1)
     print(f"{paket}: {toplam} satır, {dosya_sayisi} parça -> {GIRDI.relative_to(KOK).as_posix()}/{paket}_1..{dosya_sayisi}.txt; "
           f"notsuz olay: {sorted(notsuz) or 'yok'}; yeri bilinmeyen dosya: {sorted(yersiz) or 'yok'}")
 
@@ -413,10 +412,10 @@ def hazirla_radyo(paket, parca=150):
                 govde.append(f"{no} | {etiket} | {en}")
         aralik.append([ilk, no])
         cikti = [f"# PAKET {paket} · parça {p}/{len(parcalar)} · satır {ilk}-{no} ({no - ilk + 1} satır)",
-                 "# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.",
+                 "# Project A-Life, 1993 Kentucky’si. Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.",
                  YENI_ACIKLAMA, RADYO_ACIKLAMA, TELSIZ_ACIKLAMA, "# Girdi biçimi: N | etiket | İngilizce"] + govde
         (GIRDI / f"{paket}_{p}.txt").write_text("\n".join(cikti) + "\n", encoding="utf-8", newline="\n")
-    yaz(KOK / "rapor" / f"{paket}_harita.json", {"_paket": paket, "_grup": "radyo", "_dosya": "IG_UI",
+    yaz(KOK / "paketler/haritalar" / f"{paket}_harita.json", {"_paket": paket, "_grup": "radyo", "_dosya": "IG_UI",
         "_baslik": "1.5.0 radyo olayları ve telsiz sohbeti", "_parcalar": aralik, "satirlar": harita}, 1)
     print(f"{paket}: {no} satır, {len(bloklar)} blok, {len(parcalar)} parça -> {GIRDI.relative_to(KOK).as_posix()}/{paket}_1..{len(parcalar)}.txt")
 
@@ -472,7 +471,7 @@ def hazirla_yeni(paket, satir_basina=127):
     notsuz, yersiz = set(), set()
     for p, (bas, son) in enumerate(aralik, 1):
         cikti = [f"# PAKET {paket} · parça {p}/{dosya_sayisi} · satır {bas}-{son} ({son - bas + 1} satır)",
-                 "# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.",
+                 "# Project A-Life, 1993 Kentucky’si. Çıktı: her satır 'N | Türkçe', numaralar aynen, hiçbirini atlama.",
                  YENI_ACIKLAMA, "# Girdi biçimi: N | koşul etiketleri | İngilizce"]
         grup, baslik = None, None
         for i in range(bas, son + 1):
@@ -497,7 +496,7 @@ def hazirla_yeni(paket, satir_basina=127):
                     notsuz.add(yer[1])
             cikti.append(f"{i} | {kisa_kosul(yer[2]) or '-'} | {en}")
         (GIRDI / f"{paket}_{p}.txt").write_text("\n".join(cikti) + "\n", encoding="utf-8", newline="\n")
-    yaz(KOK / "rapor" / f"{paket}_harita.json", harita, 1)
+    yaz(KOK / "paketler/haritalar" / f"{paket}_harita.json", harita, 1)
     print(f"{paket}: {toplam} satır, {dosya_sayisi} parça -> {GIRDI.relative_to(KOK).as_posix()}/{paket}_1..{dosya_sayisi}.txt; "
           f"notsuz olay: {sorted(notsuz) or 'yok'}; yeri bilinmeyen dosya: {sorted(yersiz) or 'yok'}")
 
@@ -576,11 +575,11 @@ def _bloklari_yaz(paket, bloklar, parca, aciklama, ek_harita, yeni=True, kuralla
                     govde.append(f"{no} | {etiket} | {en.replace(chr(10), chr(92) + 'n')}")  # gerçek satır sonu girdide '\n' yazılır (Sandbox ipuçları)
         aralik.append([ilk, no])
         cikti = [f"# PAKET {paket} · parça {p}/{len(parcalar)} · satır {ilk}-{no} ({no - ilk + 1} satır)",
-                 kurallar or "# Kurallar: A-Life çeviri kuralları (skill). Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama."]
+                 kurallar or "# Project A-Life, 1993 Kentucky’si. Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama."]
         cikti += [YENI_ACIKLAMA] if yeni else []
         cikti += (aciklama(ens) if callable(aciklama) else aciklama) + ["# Girdi biçimi: N | etiket | İngilizce"] + govde
         (GIRDI / f"{paket}_{p}.txt").write_text("\n".join(cikti) + "\n", encoding="utf-8", newline="\n")
-    yaz(KOK / "rapor" / f"{paket}_harita.json", {"_paket": paket, **ek_harita, "_parcalar": aralik, "satirlar": harita}, 1)
+    yaz(KOK / "paketler/haritalar" / f"{paket}_harita.json", {"_paket": paket, **ek_harita, "_parcalar": aralik, "satirlar": harita}, 1)
     return no, len(parcalar)
 
 
@@ -851,7 +850,7 @@ def hazirla_liste_soz(paket, parca=128):
                               {"_grup": "liste_soz", "_dosya": "RadioData_lua",
                                "_baslik": "1.5.0 tablo içi listelerdeki NPC sözleri (durum, esir, telsiz çağrısı)"})
     print(f"{paket}: {no} satır, {len(bloklar)} blok, {dosya} parça -> {GIRDI.relative_to(KOK).as_posix()}/{paket}_1..{dosya}.txt "
-          f"(RadioData_lua); harita rapor/{paket}_harita.json")
+          f"(RadioData_lua); harita paketler/haritalar/{paket}_harita.json")
 
 
 
@@ -946,7 +945,7 @@ def hazirla_bitis_soz(paket, parca=128):
                               {"_grup": "bitis_soz", "_dosya": "RadioData_lua",
                                "_baslik": "1.5.0 bitiş: telsiz kartı ve helikopter pilotunun sözleri"})
     print(f"{paket}: {no} satır, {len(bloklar)} blok, {dosya} parça -> {GIRDI.relative_to(KOK).as_posix()}/{paket}_1..{dosya}.txt "
-          f"(RadioData_lua); harita rapor/{paket}_harita.json")
+          f"(RadioData_lua); harita paketler/haritalar/{paket}_harita.json")
 
 # --- Y8 ve Y10-Y15: arayüz ve baskın/bitiş girdileri (K53: B10-B14 Gemini'de; rapor/B_paket_plani_1.5.0.md) ---
 ARAYUZ_PLAN = {  # plan adı -> (hedef dosya, başlık)
@@ -1108,7 +1107,7 @@ def hazirla_itibar(paket_ui="IT1", paket_lua="IT2"):
         no, parca = _bloklari_yaz(paket, bloklar[paket], 400, aciklama,
                                   {"_grup": "arayuz_itibar", "_dosya": dosya, "_noktalama": False, "_bosluk_koru": True,
                                    "_baslik": "İtibar ekranı, baştan çeviri (K57)"}, yeni=False,
-                                  kurallar="# Kurallar: alife-ceviri skill'i, ARAYÜZ bölümü. Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.")
+                                  kurallar="# Ekran metni. Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.")
         print(f"{paket}: {no} satır, {len(bloklar[paket])} blok, {parca} parça ({dosya})")
 
 
@@ -1157,7 +1156,7 @@ def hazirla_creator(paket="CR1"):
     no, parca = _bloklari_yaz(paket, bloklar, 150, aciklama,
                               {"_grup": "arayuz_creator", "_dosya": "Creator_lua", "_noktalama": False, "_bosluk_koru": True,
                                "_baslik": "Oluşturucu cümleleri, baştan çeviri (K57)"}, yeni=False,
-                              kurallar="# Kurallar: alife-ceviri skill'i, ARAYÜZ bölümü. Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.")
+                              kurallar="# Ekran metni. Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.")
     print(f"{paket}: {no} satır, {len(bloklar)} blok, {parca} parça (Creator_lua)")
 
 
@@ -1388,7 +1387,7 @@ def hazirla_arayuz(paket, plan_adi, parca=150):
           "_baslik": baslik}
     no, dosya = _bloklari_yaz(paket, bloklar, -(-toplam // dosya_sayisi), aciklama, ek, yeni=False,
                               kurallar="# Kurallar: aşağıdaki ARAYÜZ kuralları (sahne/karakter canlandırma yok). Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.")
-    yol = KOK / "rapor" / f"{paket}_harita.json"
+    yol = KOK / "paketler/haritalar" / f"{paket}_harita.json"
     h = oku(yol)
     h["_terimler"] = [[e, t] for e, t in terimler.items()]
     yaz(yol, h, 1)
@@ -1508,7 +1507,7 @@ def hazirla_sandbox(paket="SB1", parca=150):
     toplam, dosya = _bloklari_yaz(paket, bloklar, parca, aciklama,
                                   {"_grup": "arayuz_sandbox", "_dosya": "Sandbox", "_noktalama": False, "_bosluk_koru": True,
                                    "_satir_sonu": True, "_baslik": "Ayar ekranı (Sandbox), baştan çeviri (K57)"}, yeni=False,
-                                  kurallar="# Kurallar: alife-ceviri skill'i, ARAYÜZ bölümü. Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.")
+                                  kurallar="# Ekran metni. Çıktı: her satır 'N | Türkçe' (etiketi yazma), numaralar aynen, hiçbirini atlama.")
     print(f"{paket}: {toplam} satır, {len(bloklar)} blok, {dosya} parça (Sandbox); kendi çevirin (bağlam, çevrilmez): {len(kendi)}; "
           f"kalan/diğer: {len(kalan)}; sayfa: {len(sayfalar)}; toplam anahtar {len(en)}")
 
@@ -1521,7 +1520,7 @@ def noktalama_orani(metinler):
 
 
 def al(paket, dosyalar, zorla=False, ad=None, claude=False):
-    harita = oku(KOK / "rapor" / f"{paket}_harita.json")
+    harita = oku(KOK / "paketler/haritalar" / f"{paket}_harita.json")
     beklenen = harita["satirlar"]
     aralik = harita.get("_parcalar") or [[1, len(beklenen)]]
     if not dosyalar:
@@ -1573,7 +1572,7 @@ def al(paket, dosyalar, zorla=False, ad=None, claude=False):
             gelen[n] = metin
     if supheli:
         print(f"{paket}: ALINMADI, skill uygulanmamış görünüyor (satır sonu noktalaması düşük; iyi çıktılarda ~%100): "
-              f"{', '.join(supheli)}. Yeni sohbet açıp güncel alife-ceviri yönergesiyle yeniden çevirt; yine de almak için --zorla.")
+              f"{', '.join(supheli)}. Yeni sohbet açıp oyun-yerellestirme-tr skill’i ve aynı girdiyle yeniden çevirt; yine de almak için --zorla.")
     tamam, bekliyor, yarim = [], [], []
     for p, (bas, son) in enumerate(aralik, 1):
         nums = [str(i) for i in range(bas, son + 1)]

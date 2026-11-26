@@ -12,7 +12,7 @@ Anahtar = "IGUI_ALifeUI_" + Text.hash(en) (ALifeText.lua, ctx yok). Buradaki met
   - Konuşma ekiyle (araclar/lua/ALifeTR_Konusma.lua): görev satırı ipucu (Talk2.statusText, "tip" alanı) ve bitiş
     sorusu (UI2Answer.clean, "ask" alanı).
 Süslü yer tutuculu ({place}, {name}…) metin alınmaz: sunucu doldurup gönderdiği için anahtar tutmaz.
-Mod EN IG_UI'de, kaynak/IG_UI_lua'da ya da bekleyen bir haritada (rapor/*_harita.json) anahtarı olan metin alınmaz.
+Mod EN IG_UI'de, kaynak/IG_UI_lua'da ya da bekleyen bir haritada (paketler/haritalar/*_harita.json) anahtarı olan metin alınmaz.
 Kaynağa ve mod dosyalarına yazmaz; yalnız kaynak/IG_UI_kacan*.json'u üretir.
 """
 import json
@@ -97,7 +97,7 @@ def bilinen():
     kendi = set(json.loads(onceki.read_text(encoding="utf-8"))) if onceki.exists() else set()
     s = set(json.loads((KOK / "kaynak" / "en" / "IG_UI.json").read_text(encoding="utf-8")))
     s |= set(json.loads((KOK / "kaynak" / "IG_UI_lua.json").read_text(encoding="utf-8"))) - kendi
-    for f in (KOK / "rapor").glob("*_harita.json"):
+    for f in (KOK / "paketler/haritalar").glob("*_harita.json"):
         if f.name != "Y6_harita.json":
             s |= {v[0] for v in json.loads(f.read_text(encoding="utf-8"))["satirlar"].values()}
     return s

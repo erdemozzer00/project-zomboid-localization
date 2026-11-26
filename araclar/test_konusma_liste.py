@@ -172,7 +172,7 @@ class Harita(unittest.TestCase):
         self.harita("Y9", ("kart", "pilot"))
 
     def harita(self, ad, turler):
-        yol = KOK / "rapor" / f"{ad}_harita.json"
+        yol = KOK / "paketler/haritalar" / f"{ad}_harita.json"
         if not yol.exists():
             self.skipTest(f"{ad} haritası yok")
         harita = json.loads(yol.read_text(encoding="utf-8"))

@@ -1,0 +1,47 @@
+# S1R · Sandbox ayar seçenekleri
+# Çıktı dosyası: S1R_1.txt. Dosyaya yalnız N | Türkçe satırlarını yaz. 1–23 arasındaki her numarayı aynı sırada bir kez kullan.
+# Başlıklar ve numarasız notlar bağlamdır. Çevrilecek metin her numaralı satırın son sütunundadır.
+# EKRAN: Project Zomboid Build 42, Project A-Life, 1993 Kentucky’si. Her başlık Sandbox ayarlarında bir açılır listedir. “Seçenek” satırı listede tek başına görünür. Kısa yaz ve aynı listedeki dereceleri birbirinden ayırt edilebilir tut.
+# BİÇİM: Sona nokta ekleme. Silah düşürme oranlarında %% ekranda bir yüzde işareti gösterir. Kaynakta geçtiği her satırda iki yüzde karakterini bitişik olarak bir kez kullan. Türkçe sırada sayının veya sayı aralığının başına koy. Rakamları, kısa çizgiyi ve parantezleri koru.
+# Onaylı ipucunda doğrudan anılan seçenek adını o ipucuyla birebir eşleştir. Numarasız verilen komşu seçenekler de aynı listede görünür.
+
+##### Gece hareketli hayatta kalanlar #####
+# Ekran: Sandbox → A-Life: UZMAN - Dünya ve etkinlikler → Gece hareketli hayatta kalanlar
+# Oyundaki onaylı ipucu: Kaç grubun gece de yolculuğa ve çalışmaya devam ettiğini belirler. Risk yok seçilirse herkes sığınağa çekilir; Risk alanlar seçilirse çoğu grup hareketli kalır. Varsayılan: Orta olasılık (3).
+· Komşu seçenek | No risks → Risk yok
+1 | Seçenek | Low chance
+2 | Seçenek | Moderate chance
+3 | Seçenek | High chance
+· Komşu seçenek | Risk takers → Risk alanlar
+
+##### Uzak dünya olayları #####
+# Ekran: Sandbox → A-Life: UZMAN - Dünya ve etkinlikler → Uzak dünya olayları
+# Oyundaki onaylı ipucu: Uzaktan gelen silah seslerini, helikopterleri ve öteki arka plan olaylarını değiştirir. Düşük, olay sınırlarını yarıya indirir, aralarındaki bekleme süresini ikiye katlar. Varsayılan: Normal (2).
+4 | Seçenek | Low
+5 | Seçenek | Normal
+6 | Seçenek | High
+7 | Seçenek | Very High
+8 | Seçenek | Abundant
+
+##### NPC silah düşürme şansı #####
+# Ekran: Sandbox → A-Life: Silahlar → NPC silah düşürme şansı
+# Oyundaki onaylı ipucu: NPC profiline göre, her NPC'nin kendi şansını NPC ganimet yüzdesiyle çarpar. Başka bir seçenek bütün silahlar için tek bir şans belirler ve o yüzdeyi yok sayar; NPC silah düşürme açık olmalı. Varsayılan: NPC profiline göre (1).
+9 | Seçenek | Per NPC profile
+10 | Seçenek | Off (0%%)
+11 | Seçenek | Very low (0-10%%)
+12 | Seçenek | Low (10-20%%)
+13 | Seçenek | Moderate (20-30%%)
+14 | Seçenek | High (30-50%%)
+15 | Seçenek | Very high (50-70%%)
+16 | Seçenek | Almost always (70-99%%)
+17 | Seçenek | Always (100%%)
+
+##### NPC'lerin oyunculara karşı atış isabeti #####
+# Ekran: Sandbox → A-Life: UZMAN - Ön ayar değerleri (Zorluk ve Nüfus) → NPC'lerin oyunculara karşı atış isabeti
+# Oyundaki onaylı ipucu: Yüksek seçenekler NPC'lerin oyunculara ateşini daha isabetli yapar. Orta'da kendi nişan becerileri geçerli kalır; zombilere karşı isabet bundan ayrı. Varsayılan: Orta (3).
+18 | Seçenek | Very Easy
+19 | Seçenek | Easy
+20 | Seçenek | Medium
+21 | Seçenek | Hard
+22 | Seçenek | Very Hard
+23 | Seçenek | Hardcore

@@ -1,0 +1,72 @@
+# UI153 · Project A-Life 1.5.3 · Arayüz ve yönetici metinleri
+# Çıktı dosyası UI153_1.txt. Yalnız N | Türkçe satırlarını 1–23 sırasıyla bir kez yaz.
+# Project Zomboid Build 42’de NPC konuşması, A-Life duraklatma paneli ve A-Life ayarları. Numaralı metinler ekranda oyuncuya veya yöneticiye hitap eder. Tekil hitapta sen kullan.
+# Ekran notları bağlamdır. Metinleri kısa tut. Tanılama, Kara kutu dökümü, Oluşturucu, Hata bildir ve A-Life’ı sağ tık menüsünde göster mevcut onaylı adlardır.
+# {path} ve {where} adları ve süslü parantezleriyle aynen kalır. Bunlara ek getirme. Satıra özel anlamları ilgili bölümde yazıyor. %% veya satır sonu kodu yok.
+
+##### Konuşma penceresinin durum satırı #####
+# Tıklamanın işlenmediği durumlarda kısa uyarı. Eski pencerede konuşma dökümünde de görünebilir.
+# Sunucudan cevap bekleniyor.
+1 | Arayüz | Waiting for a reply
+# Oturum kesilmiş veya kapanmış.
+2 | Arayüz | This conversation is over
+# Hediye vermek için eşya seçilmemiş.
+3 | Arayüz | Pick an item from the list first
+# Takas teklifi artık geçerli değil.
+4 | Arayüz | That deal is off, ask for a new one
+# Kilitli seçenekte özel ipucu yoksa gösterilen metin.
+5 | Arayüz | Not available right now
+# İşlenmeyen tıklamanın genel geri dönüşü.
+6 | Arayüz | Nothing to say here
+
+##### Tuş ve cevap ipuçları #####
+# Yeni konuşma penceresinde durum metni oyun tarafından büyük harfle yazılır. Türkçe İ/ı için çıktı doğrudan büyük harfle verildi.
+# Riskli cevabı fareyle onaylamak için ikinci tıklama.
+7 | Arayüz | Tap again
+# A, oyun kumandasındaki tuşun adı. Riskli cevabı onaylamak için ikinci basış.
+8 | Arayüz | A again
+# NPC bir soru sormuş ve oyuncunun cevabı bekleniyor.
+9 | Arayüz | They asked
+
+##### NPC ile konuşma tuşu #####
+# Dünyada NPC ile konuşmaya başlarken çıkan kısa ipuçları.
+# Viewpoint birinci veya üçüncü şahıs görünümünde, oyuncunun baktığı uygun NPC için ipucu.
+10 | Arayüz | Press the talk key to start the conversation
+
+##### Silah kaldırılmışken konuşma #####
+# Konuşma tuşuna basıldığında silah yüzünden konuşma açılamazsa gösterilen bildirim.
+# Oyuncu silahını doğrultmuşken normal konuşma yolu açılamıyorsa çıkar.
+11 | Arayüz | Lower your weapon to talk
+
+##### Duraklatma menüsü ve kara kutu #####
+# ESC ile açılan A-Life panelinde tanılama bölümü. Tek oyunculuda debug modu, çok oyunculuda yönetici erişimi gerekir. Kara kutu dökümü ve Tanılama onaylı adlardır.
+# Dosyayı içeren klasörü masaüstünde açar. Klasör açılmazsa dosyanın tam yolu panoya alınabilir.
+12 | Arayüz | Open blackbox file path
+# Tanılama şu anda açık.
+13 | Arayüz | Diagnostics ON
+# Tanılama şu anda kapalı.
+14 | Arayüz | Diagnostics OFF
+# Tanılama kapalıyken döküm istenirse çıkar.
+15 | Arayüz | Blackbox dump needs Diagnostics ON
+# {path}, oyuncunun bilgisayarındaki kara kutu dosyasının tam yolu.
+16 | Arayüz | Blackbox file: {path}
+# {path}, panoya kopyalanan tam dosya yolu.
+17 | Arayüz | Could not open the folder. Path copied: {path}
+# {where}, Tools.whereText tarafından doldurulur. Uzak sunucuda Lua/ klasörünü, dosya adını ve dosyanın sunucu sahibinde olduğunu belirten hazır açıklama.
+18 | Arayüz | Server copy: {where}
+
+##### A-Life ayarlarında tanılama #####
+# A-Life ayar sayfasındaki açıklamalar. Onaylı adlar Tanılama, Oluşturucu, Hata bildir ve A-Life’ı sağ tık menüsünde göster.
+# Yerleşik açıklama Tanılama kutusuna ait. 1.5.3 kodu bazı dökümleri ayrı ESC paneline taşır.
+19 | Arayüz | WARNING: THIS TANKS PERFORMANCE WHILE IT IS ON. Leave it off unless you are testing. It needs debug mode, or admin rights on a server. Shows the A-Life admin tools in the right-click menu: dumps, spawner, map layers and the Creator. Bug reports do not need it: use A-Life > Report a bug.
+# NPC etkinlik kaydı (kara kutu) seçeneğinin ipucu.
+20 | Arayüz | Off by default. Records NPC activity for testing. Needs Diagnostics and slows the game while on. Costs nothing while off.
+# Tanılama bölümünün altındaki erişim açıklaması.
+21 | Arayüz | Diagnostics also turns on the A-Life right-click menu. It is greyed in game without debug mode, or on a server where you are not an admin.
+# Tanılama seçeneklerinin altındaki yardım satırı.
+22 | Arayüz | Turn these on only to test. For a bug report, turn on Show A-Life in the right-click menu and use A-Life > Report a bug.
+
+##### Klasik NPC oluşturma penceresi #####
+# A-Life yönetici araçlarının klasik oluşturma penceresindeki grup büyüklüğü seçeneği.
+# Bir işlemde oluşturulan NPC sayısı. Değer, seçim değişince kaydediliyor.
+23 | Arayüz | How many NPCs one SPAWN makes. The server keeps it inside its group cap and the hostile ceiling. Remembered for next time.

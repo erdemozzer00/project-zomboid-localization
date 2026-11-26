@@ -1,0 +1,154 @@
+# U1R · 2/14 · Polis birimleri, cezaevleri ve mahkumlar
+# Çıktı dosyası: U1R_2.txt. Dosyaya yalnız N | Türkçe satırlarını yaz. 93–188 arasındaki her numarayı aynı sırada bir kez kullan.
+# Başlıklar ve numarasız notlar bağlamdır. Çevrilecek metin her numaralı satırın son sütunundadır.
+# DÜNYA VE EKRAN: Project Zomboid, 1993 Kentucky’si. Bunlar Oluşturucu’da ve katalogda NPC üye şablonunu tanıtan kısa ekran etiketleridir.
+# BİÇİM: “Ad ve unvan” satırında kişi adını ve boşluklu “ - ” ayracını koru. Unvanı kısa bir Türkçe ad öbeği olarak yaz. “Şablon adı” tek parça bir etikettir. İçinde bir ad ve rütbe varsa kişinin adını koruyup rütbeyi Türkçeleştir. Yer ve kişi adlarını, numaraları ve model kodlarını koru. Sona nokta koyma.
+# BAĞLAM: Her başlık bir fraksiyondur. İngilizce grup açıklaması oyunun kataloğundan alınmıştır. Açıklamadaki olaylar çevrilecek ada eklenmez. “Ortak etiket” notu bir sonraki satırın aynı metinle kullanıldığı diğer grupları sayar. Bu satıra hepsine uyan tek karşılık yaz.
+# TERİM BAĞLAMI: Polis teşkilatındaki Officer ile cezaevindeki Corrections Officer farklı görevlerdir. Trusty, cezaevinde sorumluluk verilen mahkumdur.
+
+##### Rosewood Police #####
+# Katalog açıklaması: Rosewood Police: the station by the prison road, three officers and the town.
+# Oyundaki fraksiyon adı (bağlam): Rosewood Polisi
+# Ortak etiket · Şu gruplarda da kullanılır: Trooper Remnants
+93 | Ad ve unvan | Travis - Sergeant
+94 | Ad ve unvan | Boyd - Officer
+95 | Ad ve unvan | Nina - Officer
+96 | Ad ve unvan | Evan - Officer
+97 | Ad ve unvan | Loretta - Officer
+98 | Ad ve unvan | Paul - Detective
+99 | Ad ve unvan | Ada - Patrol Officer
+100 | Ad ve unvan | Jesse - Traffic Officer
+101 | Ad ve unvan | Dwight - Rookie Officer
+
+##### Riverside Police #####
+# Katalog açıklaması: Riverside Police: a chief and two officers on the river road.
+# Oyundaki fraksiyon adı (bağlam): Riverside Polisi
+102 | Ad ve unvan | Otis - Sergeant
+103 | Ad ve unvan | Tammy - Officer
+104 | Ad ve unvan | Henry - Detective
+105 | Ad ve unvan | Denise - Patrol Officer
+106 | Ad ve unvan | Earl - Traffic Officer
+107 | Ad ve unvan | Lonnie - Rookie Officer
+
+##### West Point Police #####
+# Katalog açıklaması: West Point Police: the station on the Dixie Highway, holding the town and the river bank.
+# Oyundaki fraksiyon adı (bağlam): West Point Polisi
+108 | Ad ve unvan | Ray - Officer
+109 | Ad ve unvan | Frank - Officer
+# Ortak etiket · Şu gruplarda da kullanılır: Conservation Remnants
+110 | Ad ve unvan | Yvonne - Officer
+111 | Ad ve unvan | Luis - Officer
+112 | Ad ve unvan | Andre - Detective
+113 | Ad ve unvan | Helen - Patrol Officer
+114 | Ad ve unvan | Vernon - Traffic Officer
+115 | Ad ve unvan | Darnell - Rookie Officer
+
+##### Louisville Division of Police #####
+# Katalog açıklaması: Louisville Division of Police: city police inside the city line, and not on speaking terms with the county force.
+# Oyundaki fraksiyon adı (bağlam): Louisville Polis Departmanı
+116 | Ad ve unvan | Calvin - Sergeant
+117 | Ad ve unvan | Paul - Officer
+118 | Ad ve unvan | Scott - Officer
+119 | Ad ve unvan | Dwight - Officer
+120 | Ad ve unvan | Clyde - Detective
+121 | Ad ve unvan | Beth - Patrol Officer
+122 | Ad ve unvan | Gus - Traffic Officer
+123 | Ad ve unvan | Evan - Rookie Officer
+
+##### Jefferson County Police #####
+# Katalog açıklaması: Jefferson County Police: the county force outside the city line, and not on speaking terms with the city one.
+# Oyundaki fraksiyon adı (bağlam): Jefferson İlçe Polisi
+124 | Ad ve unvan | Grace - Officer
+125 | Ad ve unvan | Joan - Officer
+126 | Ad ve unvan | Terrence - Detective
+127 | Ad ve unvan | Patsy - Patrol Officer
+128 | Ad ve unvan | Thomas - Traffic Officer
+129 | Ad ve unvan | Leon - Rookie Officer
+
+##### KSP Special Response Team #####
+# Katalog açıklaması: KSP Special Response Team: the state police tactical unit, sent in once and never called back.
+# Oyundaki fraksiyon adı (bağlam): KSP Özel Müdahale Timi
+130 | Ad ve unvan | Andre - Team Leader
+131 | Ad ve unvan | Curtis - Operator
+132 | Ad ve unvan | Vernon - Breacher
+133 | Ad ve unvan | Darnell - Marksman
+134 | Ad ve unvan | Lyle - Operator
+135 | Ad ve unvan | Daniel - Entry Specialist
+136 | Ad ve unvan | Yvonne - Team Medic
+137 | Ad ve unvan | Frank - Negotiator
+138 | Ad ve unvan | Wade - Driver
+
+##### Rosewood Corrections #####
+# Katalog açıklaması: Rosewood Corrections: the prison staff who kept the gate, the walls and whoever was inside them.
+# Oyundaki fraksiyon adı (bağlam): Rosewood Cezaevi
+139 | Ad ve unvan | Travis - Shift Officer
+140 | Ad ve unvan | Clyde - Corrections Officer
+141 | Ad ve unvan | Boyd - Corrections Officer
+142 | Ad ve unvan | Loretta - Corrections Officer
+143 | Ad ve unvan | Evan - Corrections Officer
+144 | Ad ve unvan | Calvin - Tower Officer
+145 | Ad ve unvan | Paul - Transport Officer
+146 | Ad ve unvan | Monica - Booking Officer
+147 | Ad ve unvan | Jesse - Rookie Officer
+
+##### Prison Infirmary Staff #####
+# Katalog açıklaması: Prison infirmary staff: two nurses and a doctor behind a locked wing, still treating whoever comes to the door.
+# Oyundaki fraksiyon adı (bağlam): Cezaevi Revir Görevlileri
+148 | Ad ve unvan | Otis - Doctor
+149 | Ad ve unvan | Tammy - Nurse
+150 | Ad ve unvan | Patsy - Nurse
+# Ortak etiket · Şu gruplarda da kullanılır: Ireland Army Hospital - Medical Detail
+151 | Ad ve unvan | Thomas - Orderly
+152 | Ad ve unvan | Leon - Orderly
+153 | Ad ve unvan | Claire - Orderly
+154 | Ad ve unvan | Adam - Surgeon
+155 | Ad ve unvan | Ellen - Resident
+156 | Ad ve unvan | Joan - Night Nurse
+157 | Ad ve unvan | Roy - Paramedic
+
+##### Prison Shelter Group #####
+# Katalog açıklaması: Prison shelter group: inmates who barred a cell block and want nothing but to be left alone in it.
+# Oyundaki fraksiyon adı (bağlam): Cezaevi Sığınak Grubu
+158 | Ad ve unvan | Daniel - Old Timer
+159 | Ad ve unvan | Ray - Prisoner
+160 | Ad ve unvan | Frank - Kitchen Worker
+161 | Ad ve unvan | Wade - Prisoner
+162 | Ad ve unvan | Luis - Prisoner
+163 | Ad ve unvan | Carla - Prisoner
+164 | Ad ve unvan | Curtis - Trusty
+165 | Ad ve unvan | Vernon - Prisoner
+166 | Ad ve unvan | Darlene - Laundry Worker
+167 | Ad ve unvan | Lyle - Prisoner
+
+##### Prison Yard Predators #####
+# Katalog açıklaması: Prison yard predators: the men the walls were for. Magazines taped over the chest, shivs, and the guards' shotgun.
+# Oyundaki fraksiyon adı (bağlam): Avlu Sırtlanları
+168 | Ad ve unvan | Calvin - Yard Boss
+169 | Ad ve unvan | Paul - Predator
+170 | Ad ve unvan | Scott - Predator
+171 | Ad ve unvan | Jesse - Predator
+172 | Ad ve unvan | Dwight - Predator
+173 | Ad ve unvan | Travis - Enforcer
+174 | Ad ve unvan | Clyde - Snitch
+175 | Ad ve unvan | Boyd - Veteran Inmate
+176 | Ad ve unvan | Gus - Lookout
+
+##### Prison Escape Pair #####
+# Katalog açıklaması: A prison escape pair on the road to the woods, in stolen jackets over prison khaki.
+# Oyundaki fraksiyon adı (bağlam): Firari Mahkûm İkilisi
+177 | Ad ve unvan | Henry - Escapee
+178 | Ad ve unvan | Adam - Escapee
+179 | Ad ve unvan | Earl - Escapee
+180 | Ad ve unvan | Lonnie - Escapee
+181 | Ad ve unvan | Tammy - Escapee
+182 | Ad ve unvan | Otis - Escapee
+183 | Ad ve unvan | Terrence - Escapee
+
+##### Corrections Remnants #####
+# Katalog açıklaması: Corrections remnants: guards who held a wing after the state stopped paying, then a house after the wing fell.
+# Oyundaki fraksiyon adı (bağlam): Gardiyanlardan Kalanlar
+184 | Ad ve unvan | Darlene - Corrections Officer
+185 | Ad ve unvan | Daniel - Tower Officer
+186 | Ad ve unvan | Ray - Transport Officer
+187 | Ad ve unvan | Helen - Booking Officer
+188 | Ad ve unvan | Wade - Rookie Officer

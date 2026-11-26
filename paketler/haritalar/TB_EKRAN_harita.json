@@ -1,0 +1,19 @@
+{
+  "_paket": "TB_EKRAN",
+  "_grup": "genel_gorev_npc",
+  "_dosya": "RadioData_lua",
+  "_baslik": "Ekran görüntülerindeki iki genel görev repliği",
+  "_parcalar": [[1, 2]],
+  "satirlar": {
+    "1": [
+      "RD_ALifeLine_3eea49c114c68909",
+      "Bring me cloth, the cleaner the better",
+      ["shared/ProjectALife/Missions/ALifeTaskBoardText.lua:243", "find_cloth.pitch", "NPC"]
+    ],
+    "2": [
+      "RD_ALifeLine_21c8289d75fa3bc7",
+      "No problem, we'll ration",
+      ["shared/ProjectALife/Missions/ALifeTaskBoardText.lua:57", "bring_water.no", "NPC"]
+    ]
+  }
+}

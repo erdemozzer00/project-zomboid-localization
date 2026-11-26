@@ -1,0 +1,52 @@
+# S153 · Project A-Life 1.5.3 Sandbox ayarları
+# Çıktı dosyası S153_1.txt. Yalnız N | Türkçe biçiminde 18 satır yaz. 1–18 arasındaki her numarayı sırayla ve bir kez kullan.
+# Project Zomboid Build 42’de Project A-Life’ın Sandbox ayarları. Mod, 1993 Kentucky’sinde NPC’leri, karakolları ve arka plan olaylarını yönetiyor. Buradaki metinler ayar ekranında oyuncuya hitap ediyor. Başlıklar, # notları ve · satırları çevrilmeyecek bağlamdır.
+# Ayar adı = satır etiketi. Seçenek = açılır listede tek başına görünen değer. Her ikisi de kısa ve son noktasız olsun. İpucu = ayarın açıklaması. İpucunun andığı seçenek adlarını ekrandaki karşılıklarla birebir eşleştir.
+# Onaylı terimler: tile → kare; outpost → karakol; crew → ekip; raid → baskın; searchlight → projektör; default → varsayılan. Gezgin ekipler, oyuncunun grubundan bağımsız NPC ekipleridir.
+# Bu pakette dinamik yer tutucu ve %% dizisi yok. Her ipucunda görülen \n, açıklamayla varsayılan değer arasındaki tek satır sonudur. Çıktıda \n yazımını aynen koru ve numaralı satırı fiziksel olarak bölme. Sayısal değerler ve seçenek numaraları kaynakla aynı kalsın.
+
+##### Performans modu #####
+# Ekran: Sandbox → A-Life: BURADAN BAŞLA. Tek ayarın üç seçeneği var. İpucundaki üç seçeneğin adları 3–5. satırların çevirileriyle birebir eşleşsin.
+# 2. satır: Telefon çalma sıklığı ayarındaki Low karşılığı Düşük. Medium ve Low burada ayrıca performans seviyelerini belirtir (Orta ve Düşük). Tasarruf yönünde kademe uygulanır. Pinned level, ayarı sabitleyen kullanıcının seçtiği seviyedir.
+# 2. satır: Roll, yeni karakol oluşturmak için yapılan olasılık denemesi. 40 ve 60 dakika iki deneme arasındaki asgari beklemeyi, 24 ve 16 ise yeni gezgin ekiplerin oluşturulmasını durduran yaşayan NPC sınırını anlatır. Varsayılan, 3. satırdaki seçenek (1).
+1 | Ayar adı | Performance mode
+2 | İpucu | One switch for a slower PC. Lighter keeps every feature and trims the background work: fewer NPC cars and car spawns, new travelling crews stop at 24 living NPCs, at most 6 outposts with a roll every 40 minutes or more, less ambient chatter, phones at Low and a performance level of at least Medium. Performance goes further: fewer cars still, crews stop at 16 NPCs, 4 outposts, a roll every 60 minutes or more, one chatter at a time and a performance level of at least Low, which also wins over a pinned level. It only lowers your values, never raises them, and never writes your saved options: back on Off everything reads as you set it. Works in a running game\nDefault Off (1)
+3 | Seçenek 1 | Off
+4 | Seçenek 2 | Lighter
+5 | Seçenek 3 | Performance
+
+##### NPC arabalarının ortaya çıkması ve sınırlar #####
+# Ekran: Sandbox → A-Life: Arabalar ve Araçlar. 6–7 ortaya çıkma oranı, 8–9 oyunculardan uzaktaki araç sınırı, 10–11 yakındaki ekipli araba sınırı.
+· Onaylı komşu ayar | NPC car frequency → NPC araba sıklığı
+# 7. satır: Oran, yukarıdaki ayarın üzerine uygulanır. 100 normal oran, 50 yarısı, 0 kapalı. Varsayılan 100.
+# 9. satır: Tüm oyunculardan uzak yollarda simüle edilen araçların ekipleri oyun dünyasına yüklenmez. Varsayılan sınır 30.
+# 11. satır: Oyuncuların yakınında bulunan ve NPC ekibi yüklü ortam arabalarının aynı andaki sınırı. Baskın ve polis çağrısı araçları bu sınıra dahil değil. Varsayılan 12.
+6 | Ayar adı | NPC car spawn rate (percent)
+7 | İpucu | How often ambient NPC cars appear: road traffic, travelers, map cars and car encounters. Works on top of NPC car frequency. 100 keeps the normal rate, 50 halves it, 0 stops them\nDefault 100.
+8 | Ayar adı | Most NPC cars driving the map
+9 | İpucu | Upper limit for NPC cars that drive the roads far from every player, without crews loaded. The rate settings scale the count, this caps it. 0 means none\nDefault 30.
+10 | Ayar adı | Most NPC cars near players
+11 | İpucu | Upper limit for ambient NPC cars with crews near the players at once. The rate settings scale the count, this caps it. 0 means none. Raids and police calls are not counted\nDefault 12.
+
+##### Zombilerin NPC’leri duyması #####
+# Ekran: Sandbox → A-Life: UZMAN - Tehlike, baskın ve yaralanma. Ölçülen mesafe, görüş hattı kesikken hareket eden ya da az önce ateş eden NPC ile zombi arasındadır. Varsayılan 10 kare.
+12 | Ayar adı | Zombies hear NPCs within (tiles)
+13 | İpucu | A zombie notices an NPC that is moving or has just fired within this many tiles even when it cannot see the NPC (fair targeting). Lower values mean fewer zombies turn to NPCs out of sight\nDefault 10
+
+##### Uzak zombilerin silah sesini yeniden kontrol etmesi #####
+# Ekran: Sandbox → A-Life: UZMAN - Ses, helikopterler ve performans. 0,4 saniyelik her kontrol aralığında sesi yeniden değerlendirecek uzak zombi sayısı sınırlanır. Öbürleri saniyede bir kontrol eder. 10 kare, sesin erişim sınırına olan uzaklık. 0 sınırı kaldırır. Varsayılan 8.
+14 | Ayar adı | Far zombies rechecking gunfire per beat
+15 | İpucu | While NPC gunfire is live, far zombies outside its reach recheck it every 0.4 s. This caps how many of them do that per 0.4 s; the rest recheck once a second. Zombies within 10 tiles of the reach are never held, and a new or louder shot rechecks the held ones on time. 0 means no cap\nDefault 8
+
+##### A-Life helikopterleri ve üstten geçiş sıklığı #####
+# Ekran: Sandbox → A-Life: Hava Araçları. İki mevcut ayarın açıklamasına BURADAN BAŞLA sayfasındaki Helikopter sıklığı ayarına atıf eklendi.
+· Onaylı ayarlar | A-Life helikopterleri · Helikopter üstten geçiş aralığı (oyun saati)
+· Onaylı atıflar | START HERE → BURADAN BAŞLA · Helicopter frequency → Helikopter sıklığı · Low → Düşük · High → Yüksek
+# 16. satırın varsayılanı açık. 17. satırda Düşük geçişler arasındaki süreyi iki katına çıkarır, Yüksek yarıya indirir. Varsayılan 36 oyun saati. 0 üstten geçişleri kapatır.
+16 | İpucu | Allows all A-Life helicopters: raid and backup arrivals, night searchlights and flyovers. Off: none of these helicopters fly. How often they come is set by Helicopter frequency on the START HERE page.\nDefault on.
+17 | İpucu | Average time between helicopters that fly past or circle near a player, at random. Not during the first hours of a character. Helicopter frequency on the START HERE page scales this time: Low doubles it, High halves it. 0 turns flybys off.\nDefault 36.
+
+##### Cevap seçerken zamanı yavaşlat #####
+# Ekran: Sandbox → A-Life: UZMAN - Ziyaretçiler ve yol arkadaşları. Ayarın onaylı adı başlıkta. Resmî açıklamadaki varsayılan artık kapalı.
+# 1.5.3 kodu, etkin bir özellik bayrağıyla yavaşlamayı devre dışı bırakıyor. Bu kaynak farkı inceleme için kaydedildi. Çeviride numaralı resmî açıklamayı esas al.
+18 | İpucu | Single player only. While you pick a reply the game runs slowly, then eases back when you choose or close.\nDefault off.

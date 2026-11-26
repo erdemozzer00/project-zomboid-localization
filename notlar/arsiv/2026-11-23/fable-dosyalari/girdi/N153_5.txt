@@ -1,0 +1,178 @@
+# N153 · NPC soruları ve cevapları · parça 5/5
+# Çıktı dosyası N153_5.txt. Yalnız N | Türkçe biçiminde 150 satır yaz. 451–600 numaralarını aynı sırayla ve bir kez kullan.
+# Project Zomboid Build 42 · Project A-Life 1.5.3 · 1993 Kentucky. NPC ve oyuncu salgın sonrasında yüz yüze konuşuyor. NPC güvenli bir anda oyuncuya soru soruyor. Tekil hitapta sen kullan. Dost, Tarafsız ve Temkinli, NPC’nin oyuncuya karşı tutumudur. Temkinli NPC karşısındakini tartar. Kaynakta verilmedikçe NPC’ye meslek, yaş, cinsiyet veya özel kimlik ekleme.
+# Önce NPC SORU havuzundan koşula uyan bir ifade seçilir. Sonra oyuncuya üç cevap dalı (B1, B2, B3) gösterilir. Her dalda, üç ifade seçeneğinden o tura denk gelen biri görünür. Oyuncunun seçtiği dal, kendisine bağlı NPC TEPKİ havuzuna gider. NPC uygun tepkilerden yalnız birini söyler. Aynı havuzdaki satırlar alternatiflerdir. “1.5.3 ek varyantı” etkin özellik bayrağına bağlı alternatifi belirtir.
+# OYUNCU ekrandaki kısa cevap seçeneğidir. NPC SORU ve NPC TEPKİ konuşulan repliktir. Numarasız · satırları dal açıklaması, mevcut çeviri veya örnek bağlamdır. Çevirme ve çıktıya alma.
+# Sözlük: survivor → hayatta kalan, group → grup, squad → tim, crew → ekip, supplies → erzak veya bağlama göre malzeme, outpost → karakol. Kişinin niyetini ve tutumunu koru. Türkçe doğal konuşma ritmini kullan. Duraksama ve kesilmeleri anlamına göre koru.
+# Numaralı satırlarda yer tutucu, \n ve %% yok. Her numaranın Türkçesi tek satırda kalır.
+
+##### Yalnız mısın? #####
+# NPC oyuncunun tek başına mı yoksa bir grupla mı hayatta kaldığını soruyor.
+451 | NPC SORU · Dost | You out here alone, or do you have people?
+452 | NPC SORU · Dost | Do you have anyone with you? Anyone waiting on you?
+453 | NPC SORU · Dost | You got people? I hope you're not doing this alone
+454 | NPC SORU · Dost | Is it just you, or is there a group somewhere?
+455 | NPC SORU · Dost | You have folks looking out for you?
+456 | NPC SORU · Tarafsız | You on your own?
+457 | NPC SORU · Tarafsız | You travel alone, or with others?
+458 | NPC SORU · Tarafsız | Got a group, or just you?
+459 | NPC SORU · Tarafsız | Anybody with you?
+460 | NPC SORU · Tarafsız | You by yourself out here?
+461 | NPC SORU · Temkinli | You alone? Don't LIE to me
+462 | NPC SORU · Temkinli | Anyone else with you? I'd rather know now
+463 | NPC SORU · Temkinli | Who else is with you, if anyone?
+464 | NPC SORU · Temkinli | You got friends nearby?! Watching us right now?
+465 | NPC SORU · Temkinli | Somebody waiting for you back there? Or is it just you?
+· B1 · Yanımda birkaç kişi var
+466 | OYUNCU · B1 | I've got a few people
+467 | OYUNCU · B1 | There's others, I'm not alone
+468 | OYUNCU · B1 | A small group of us
+469 | NPC TEPKİ · B1 · Dost | Oh that's good, nobody should be alone in this
+470 | NPC TEPKİ · B1 · Dost | That's great, really, hold onto them
+471 | NPC TEPKİ · B1 · Dost | Lucky them, having you
+472 | NPC TEPKİ · B1 · Tarafsız | Numbers help
+473 | NPC TEPKİ · B1 · Tarafsız | Smart, safer that way
+474 | NPC TEPKİ · B1 · Tarafsız | Glad you've got backup
+· NPC TEPKİ · B1 · Temkinli (mevcut çeviri) | I'll keep that in mind → Aklımda tutarım
+475 | NPC TEPKİ · B1 · Temkinli | Good to know there's more of you
+476 | NPC TEPKİ · B1 · Temkinli | Then I'll mind my manners
+· B2 · Tek başımayım
+477 | OYUNCU · B2 | Just me, nobody else
+478 | OYUNCU · B2 | On my own, for a while now
+479 | OYUNCU · B2 | Alone.. it's just me now
+480 | NPC TEPKİ · B2 · Dost | Oh.. that's hard, I'm sorry, you shouldn't have to
+481 | NPC TEPKİ · B2 · Dost | Alone.. damn, you're tougher than me
+482 | NPC TEPKİ · B2 · Dost | Well, you're not alone right now at least
+483 | NPC TEPKİ · B2 · Tarafsız | Rough, alone out here
+484 | NPC TEPKİ · B2 · Tarafsız | Takes guts, being on your own
+485 | NPC TEPKİ · B2 · Tarafsız | Watch your back then, nobody else will
+486 | NPC TEPKİ · B2 · Temkinli | Just you then
+487 | NPC TEPKİ · B2 · Temkinli | On your own, huh
+488 | NPC TEPKİ · B2 · Temkinli | That's.. good to know
+· B3 · Bunu söylemem
+489 | OYUNCU · B3 | That's not something I share
+490 | OYUNCU · B3 | Wouldn't you like to know
+491 | OYUNCU · B3 | Better if I keep that quiet
+492 | NPC TEPKİ · B3 · Dost | Ha, fair, careful is good
+493 | NPC TEPKİ · B3 · Dost | Smart, you don't know me yet
+494 | NPC TEPKİ · B3 · Dost | That's fine, I'd be careful too
+495 | NPC TEPKİ · B3 · Tarafsız | Sensible, I get it
+496 | NPC TEPKİ · B3 · Tarafsız | Keep your cards close, then
+497 | NPC TEPKİ · B3 · Tarafsız | I get why
+498 | NPC TEPKİ · B3 · Temkinli | Cagey, huh
+499 | NPC TEPKİ · B3 · Temkinli | Means there's more of you, I bet
+500 | NPC TEPKİ · B3 · Temkinli | I'd say the same, in your shoes
+
+##### Ne zamandır hayatta kalmaya çalışıyorsun? #####
+# NPC oyuncunun salgında ne zamandır hayatta kaldığını soruyor.
+501 | NPC SORU · Dost | How long have you been surviving out here?
+502 | NPC SORU · Dost | The running, the hiding, all of it.. how long for you?
+503 | NPC SORU · Dost | How long's it been for you? Out here, I mean
+504 | NPC SORU · Dost | You seem like you know what you're doing, how long you been at it?
+505 | NPC SORU · Dost | Have you been out here a long time? You don't have to count
+506 | NPC SORU · Tarafsız | How long you been out here?
+507 | NPC SORU · Tarafsız | You been surviving long?
+508 | NPC SORU · Tarafsız | Been out here a while?
+509 | NPC SORU · Tarafsız | You been on the move long?
+510 | NPC SORU · Tarafsız | How many days you been out here, you think?
+511 | NPC SORU · Temkinli | Long time out here, or not? Be straight with me
+512 | NPC SORU · Temkinli | How far in are you? Days, weeks?
+513 | NPC SORU · Temkinli | You been out here long, or are you new to this?
+514 | NPC SORU · Temkinli | Been at this long?
+515 | NPC SORU · Temkinli | This mess, how long you been in it?
+· B1 · İlk günden beri
+516 | OYUNCU · B1 | Since the very first day
+517 | OYUNCU · B1 | From the start, pretty much
+518 | OYUNCU · B1 | Since it all began
+519 | NPC TEPKİ · B1 · Dost | All this time and you're still here, that's something
+520 | NPC TEPKİ · B1 · Dost | God, then you've seen all of it, I'm sorry
+521 | NPC TEPKİ · B1 · Dost | Me too, it feels like forever
+522 | NPC TEPKİ · B1 · Tarafsız | Long haul then, like me
+523 | NPC TEPKİ · B1 · Tarafsız | You've lasted, that says plenty
+524 | NPC TEPKİ · B1 · Tarafsız | From day one, huh
+525 | NPC TEPKİ · B1 · Temkinli | Then you know how it works by now
+526 | NPC TEPKİ · B1 · Temkinli | You're no beginner, then
+527 | NPC TEPKİ · B1 · Temkinli | So you're not new to this
+· B2 · Saymayı bırakacak kadar uzun süredir
+528 | OYUNCU · B2 | Too long, I've lost count
+529 | OYUNCU · B2 | Feels like years, honestly
+530 | OYUNCU · B2 | Long enough to stop counting
+531 | NPC TEPKİ · B2 · Dost | It all runs together, doesn't it
+532 | NPC TEPKİ · B2 · Dost | I stopped counting too, it hurts less
+533 | NPC TEPKİ · B2 · Dost | God, same, I couldn't tell you what day it is
+534 | NPC TEPKİ · B2 · Tarafsız | Lost track a while back myself
+535 | NPC TEPKİ · B2 · Tarafsız | Days don't mean much now
+536 | NPC TEPKİ · B2 · Tarafsız | That's a long time to stay alive
+537 | NPC TEPKİ · B2 · Temkinli | Long enough to know better, then
+538 | NPC TEPKİ · B2 · Temkinli | You've seen a lot, I bet
+539 | NPC TEPKİ · B2 · Temkinli | Picked up a thing or two, I'd guess
+· B3 · Süreyi konuşmak istemiyorum
+540 | OYUNCU · B3 | Doesn't matter how long
+541 | OYUNCU · B3 | Let's not count it
+542 | OYUNCU · B3 | Ask me something else
+543 | NPC TEPKİ · B3 · Dost | Sorry, it's a heavy one
+544 | NPC TEPKİ · B3 · Dost | Fair, I don't like counting either
+545 | NPC TEPKİ · B3 · Dost | Something else then, sure
+546 | NPC TEPKİ · B3 · Tarafsız | Doesn't matter much anyway
+· NPC TEPKİ · B3 · Tarafsız (mevcut çeviri) | Forget it then → Boş ver öyleyse.
+547 | NPC TEPKİ · B3 · Tarafsız | Skip it, fine
+548 | NPC TEPKİ · B3 · Temkinli | Not counting either, huh
+549 | NPC TEPKİ · B3 · Temkinli | I'll stop asking
+550 | NPC TEPKİ · B3 · Temkinli | Whatever, doesn't matter to me
+
+##### Ailen var mı? #####
+# NPC salgında oyuncunun ailesinden kimsenin kalıp kalmadığını soruyor.
+551 | NPC SORU · Dost | Do you have family? Out there somewhere?
+552 | NPC SORU · Dost | You got anybody? Family, I mean
+553 | NPC SORU · Dost | Is there someone you're trying to get back to?
+554 | NPC SORU · Dost | Anybody waiting on you somewhere? Family?
+555 | NPC SORU · Dost | You have people of your own? A partner, parents, anyone?
+556 | NPC SORU · Tarafsız | You got family out there?
+557 | NPC SORU · Tarafsız | Any family left?
+558 | NPC SORU · Tarafsız | Anyone you're looking for?
+559 | NPC SORU · Tarafsız | Still got family?
+560 | NPC SORU · Tarafsız | Family? Anyone?
+561 | NPC SORU · Temkinli | You have family? Just asking, nothing more
+562 | NPC SORU · Temkinli | Got family somewhere? Don't have to say where
+563 | NPC SORU · Temkinli | Anybody out there that matters to you?
+564 | NPC SORU · Temkinli | You got family to get back to, or not?
+565 | NPC SORU · Temkinli | You got kin out there?
+· B1 · Var, umarım güvendedirler
+566 | OYUNCU · B1 | Yes, and I hope they're safe
+567 | OYUNCU · B1 | Yeah, out there somewhere, I hope
+568 | OYUNCU · B1 | Someone, yeah, I'm still looking
+569 | NPC TEPKİ · B1 · Dost | I hope so too, really, I hope they're okay
+570 | NPC TEPKİ · B1 · Dost | Hang onto that, okay.. don't let go of it
+571 | NPC TEPKİ · B1 · Dost | God, I hope you find them, I mean it
+572 | NPC TEPKİ · B1 · Tarafsız | Hope you get back to them
+573 | NPC TEPKİ · B1 · Tarafsız | Then keep going, they might be waiting
+574 | NPC TEPKİ · B1 · Tarafsız | That's something to keep moving for
+575 | NPC TEPKİ · B1 · Temkinli | Hope it works out for you
+576 | NPC TEPKİ · B1 · Temkinli | Don't let me hold you up
+577 | NPC TEPKİ · B1 · Temkinli | Maybe they're out there, who knows
+· B2 · Ailemi kaybettim
+578 | OYUNCU · B2 | Not anymore
+579 | OYUNCU · B2 | No, I lost them
+580 | OYUNCU · B2 | Nobody left, no
+581 | NPC TEPKİ · B2 · Dost | Oh no, oh no, I'm so sorry, I- I didn't know
+582 | NPC TEPKİ · B2 · Dost | God, I'm sorry, that's.. that's awful
+583 | NPC TEPKİ · B2 · Dost | I'm sorry, really, nobody should carry that alone
+584 | NPC TEPKİ · B2 · Tarafsız | Damn, I'm sorry..
+585 | NPC TEPKİ · B2 · Tarafsız | A lot of us lost people
+586 | NPC TEPKİ · B2 · Tarafsız | I lost mine too
+587 | NPC TEPKİ · B2 · Temkinli | Sorry to hear it
+· NPC TEPKİ · B2 · Temkinli (mevcut çeviri) | That's hard → Zor iş.
+588 | NPC TEPKİ · B2 · Temkinli | Me too, so I won't ask more
+· B3 · Ailem hakkında konuşmam
+589 | OYUNCU · B3 | I don't talk about family
+590 | OYUNCU · B3 | Please, not that one
+591 | OYUNCU · B3 | Let's leave them out of it
+592 | NPC TEPKİ · B3 · Dost | I'm sorry, I won't ask again
+593 | NPC TEPKİ · B3 · Dost | Of course, of course, I'm sorry
+594 | NPC TEPKİ · B3 · Dost | That's okay, I get it, really
+595 | NPC TEPKİ · B3 · Tarafsız | Sorry I brought it up
+596 | NPC TEPKİ · B3 · Tarafsız | Understood, I'll leave it
+597 | NPC TEPKİ · B3 · Tarafsız | I'll stop there
+598 | NPC TEPKİ · B3 · Temkinli | I won't touch it
+599 | NPC TEPKİ · B3 · Temkinli | Off limits then
+600 | NPC TEPKİ · B3 · Temkinli | Dropping it

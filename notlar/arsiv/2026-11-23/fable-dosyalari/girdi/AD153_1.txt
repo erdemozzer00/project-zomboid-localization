@@ -1,0 +1,79 @@
+# AD153 · Project A-Life 1.5.3 · Yönetici ve geliştirici arayüzü
+# Çıktı dosyası AD153_1.txt. Yalnız N | Türkçe satırlarını 1–27 sırasıyla bir kez yaz.
+# Project Zomboid Build 42. Yerleşik yönetici konsolu, klasik NPC oluşturma, Kurucu, Damga ve sürüş pencereleri.
+# Başlık ve notlar bağlamdır. Numaralı satırlar buton, ipucu veya sonuç metnidir. Düğmelerde kısa yaz, tekil hitapta sen kullan.
+# Onaylı karşılıklar: safehouse → güvenli ev, base → üs, spawn (yönetici eylemi) → oluştur, Copy to clipboard → Panoya kopyala.
+# Süslü parantezli yer tutucular aynı ad ve adette kalır. Değişkene ek getirme. {path} dosya sistemi yoludur, {event} etkinlik kodudur. Satıra özgü değerler yanında açıklanmıştır. Bu pakette satır sonu kodu ve %% dizisi yok.
+
+##### Yönetici araç çubuğu #####
+# Yıldız düğmesinin ipucu. {limit}, aynı anda sabitlenebilecek yönetici eylemi sayısı.
+1 | Arayüz | Pin to the toolbar (up to {limit}). Click again to unpin.
+
+##### Güvenli ev etkinliği #####
+# {event}, listede seçilen etkinliğin kodu. Yer tutucuya ek getirme.
+2 | Arayüz | Forces the safehouse event {event} for your test base.
+
+##### Klasik NPC oluşturma bildirimi #####
+# {requested} istenen NPC sayısı, {active} oluşturulup etkin olan NPC sayısı. Oyun gerekirse bildirimin sonuna parantez içinde bir gerekçe ekler.
+3 | Arayüz | A-Life: spawned {active} of {requested}
+
+##### Yapı planı kaydı ve klasör #####
+# {reason}, oyun tarafından sağlanan dosya hatası cümlesi. Panoya kopyala, Kurucu düğmesinin onaylı adı.
+4 | Arayüz | Save failed: {reason} You can still use Copy to clipboard.
+# {reason}, Windows klasörünü açamama nedenini belirten hazır cümle.
+5 | Arayüz | Could not open the folder: {reason}
+# {reason}, klasörü açamama nedeni. {path}, Zomboid Lua klasörünün dosya sistemi yolu. Yola bir nokta veya ek getirme.
+6 | Arayüz | Could not open the folder: {reason} It is {path}
+
+##### Dosya ve klasör hata nedenleri #####
+# Bu oyun sürümünde dosyaya yazma işlevi bulunmuyor.
+7 | Arayüz | This game build cannot write files.
+# Yazılacak dosya açılamadı veya oluşturulamadı.
+8 | Arayüz | The game could not create the file.
+# Dosyanın yazımı tamamlanmadan işlem başarısız oldu.
+9 | Arayüz | The game could not finish writing the file.
+# Oyun dosya yolu bilgisini veremedi.
+10 | Arayüz | The game did not tell where its folder is.
+# Oyun klasör açma işlevine erişemiyor veya işletim sistemi bunu desteklemiyor.
+11 | Arayüz | This computer cannot open the folder from the game.
+# Klasörü açma girişimi başarısız oldu.
+12 | Arayüz | The folder could not be opened.
+
+##### Damga önizleme sonucu #####
+# {place} yerleştirilecek, {same} zaten hedefte bulunan, {skip} atlanan nesne sayısı. Üçü de tam sayı.
+13 | Arayüz | Will place {place}, already there {same}, skipped {skip}.
+# {removed}, damga uygulanırsa kaldırılacak eski nesne sayısı. Sıfırdan büyükse gösterilir.
+14 | Arayüz | Removes {removed} old objects.
+# Sunucu önizlemeyi onayladığında bildirim sayacının önünde görünür.
+15 | Arayüz | Ready.
+# Önizlemede bu hedefe hiçbir nesne yerleştirilmeyeceği anlaşılınca görünür.
+16 | Arayüz | Nothing to place here.
+
+##### Sürüş penceresi ve ayar durumu #####
+# {vehicle}, seçili arabanın kimliği. Araba seçilmediyse ayrı çevrilen “not selected” metni gelir. Oyun <TEXT> etiketini dışarıdan ekler.
+17 | Arayüz | Car {vehicle}
+# Araba kimliği yerine geçen kısa durum metni.
+18 | Arayüz | not selected
+# Sürüş ayarlarını açtığında araç seçili değil. Harita sekmesi aşağıdaki ayrı satıra bağlı.
+19 | Arayüz | Select a car on the Map tab first.
+# Araca uygulanacak ayar isteğinin sonucu bekleniyor.
+20 | Arayüz | Waiting for host confirmation.
+# Arabaya uygula düğmesi bu grupta ayrı çevriliyor. Aracın kayıtlı ayarı henüz değişmedi.
+21 | Arayüz | Unapplied edits. Press Apply to car to use them.
+# Ekrandaki değerler seçili araca uygulanmış.
+22 | Arayüz | Showing applied settings.
+# Sürüş ayarları ekranındaki varsayılan açıklama. Planner, arabanın rotasını hesaplayan sistem.
+23 | Arayüz | Per-car settings last for this game session. Motion applies live; planner changes rebuild the path.
+# Seçili arabaya sürüş ayarlarını uygulayan düğme.
+24 | Arayüz | Apply to car
+
+##### Sürüş haritası sekmesi #####
+# Araba ve güzergah seçmek için açılan Harita sekmesinin etiketi.
+25 | Arayüz | Map
+
+##### Damga düğmesinin ipucu #####
+# Gerçek yerleştirme eylemini ve düğmeyi kilitleyen koşulu açıklayan iki parça. İkinci parça yalnız işlem yapılamazken görünür.
+# Damgayı uygulayan düğmenin ipucunun ilk kısmı. İlk tıklama onay ister, ikinci tıklama işlemi başlatır.
+26 | Arayüz | Build it for real. Click twice to confirm.
+# {reason}, Damga düğmesinin eylemi neden yapamadığına dair hazır açıklama. Örneğin hedef kare henüz önizlenmemiş olabilir.
+27 | Arayüz | Not now: {reason}

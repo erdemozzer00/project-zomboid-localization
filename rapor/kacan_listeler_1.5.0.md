@@ -9,7 +9,7 @@ Kullanıcının kuralı: "güvenliyse ve çalışacağına inanıyorsan eke al, 
 - **Alındı:** telsiz kartı (`RadioClient.card`, ek `kurKart`) ve pilotun altyazısı/bildirimi (`EndingClient.say`, ek `kurPilot`). İkisi de istemcide, sunucudan gelen tablonun kopyasını çizer.
 - **Bırakıldı:** sunucudaki telsiz yayını (`EndingWorld.air` → Java `RadioLine`) ve pilot gövdesinin baş üstü yazısı (`World.crewSay` → `body:Say`). İkisi de sunucuda metni oyun nesnesine yazar. Barındırılan çok oyunculu oyunda o metin başka oyunculara gider; "ağa Türkçe yazmaz" ölçütü sağlanamıyor.
 
-**Y9** (28 satır, `gemini/yeni/girdi/Y9_1.txt`, harita `rapor/Y9_harita.json`): kartta görünen 7 ilk satır ve pilotun 21 sözü. Yayının geri kalan 143 satırı oyunda yalnız radyo yayınında geçer; Türkçe görünmeyeceği için alınmadı (K46).
+**Y9** (28 satır, `gemini/yeni/girdi/Y9_1.txt`, harita `paketler/haritalar/Y9_harita.json`): kartta görünen 7 ilk satır ve pilotun 21 sözü. Yayının geri kalan 143 satırı oyunda yalnız radyo yayınında geçer; Türkçe görünmeyeceği için alınmadı (K46).
 
 ## 1. Özet
 
@@ -26,7 +26,7 @@ Kullanıcının kuralı: "güvenliyse ve çalışacağına inanıyorsan eke al, 
 
 Y9 toplamı: **28 satır**, 2 blok (telsiz kartı, helikopter pilotu), `_dosya: RadioData_lua`. Komut: `python -X utf8 araclar/harici_paket.py hazirla-bitis-soz Y9 --yeni`.
 
-Y7 toplamı: **264 satır**, 37 blok, 3 dosya (`gemini/yeni/girdi/Y7_1..3.txt`, harita `rapor/Y7_harita.json`, `_dosya: RadioData_lua`).
+Y7 toplamı: **264 satır**, 37 blok, 3 dosya (`gemini/yeni/girdi/Y7_1..3.txt`, harita `paketler/haritalar/Y7_harita.json`, `_dosya: RadioData_lua`).
 
 ## 2. Yollar (kod okuması, mod 1.5.0)
 

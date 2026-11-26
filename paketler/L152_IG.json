@@ -1,0 +1,1963 @@
+{
+  "_paket": "L152_IG — Telefon, görev, konuşma ağacı ve arayüz, 479 (çeviri: harici AI; kalite incelemesi yapılmadı)",
+  "_dosya": "IG_UI_lua",
+  "satirlar": {
+    "IGUI_ALifeUI_4ecd8e0456ada495": {
+      "tr": "Anne Baba (Florida)",
+      "baglam": "L152_PHONE_01.txt #1 · UI2Answer ask.name"
+    },
+    "IGUI_ALifeUI_44cb97b17af7d981": {
+      "tr": "{lost}, iyi misin yavrum?",
+      "baglam": "L152_PHONE_01.txt #2 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_460e7df468aef474": {
+      "tr": "Sabahtan beri arıyorum, niye açmıyorsun telefonu? Başına bir şey gelmedi ya?",
+      "baglam": "L152_PHONE_01.txt #3 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6450104628fa3189": {
+      "tr": "Ben {you}... {lost}... öldü. Salgın var, her yerde insanlar canavara dönmüş, haberlere hiç bakmadın mı?!",
+      "baglam": "L152_PHONE_01.txt #4 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6929b11f7a4da80a": {
+      "tr": "{lost} öldü. Ben öldürdüm.",
+      "baglam": "L152_PHONE_01.txt #5 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_42637dc35d20a657": {
+      "tr": "Alo, ben {you}. Bu telefonu buldum, sen nereden arıyorsun?",
+      "baglam": "L152_PHONE_01.txt #6 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_28fd3ab97916f0f7": {
+      "tr": "Hayır... Yok yok, olamaz! Deme bana bunu!",
+      "baglam": "L152_PHONE_01.txt #7 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_35af78f517446708": {
+      "tr": "Hemen {lost} gelsin telefona! Lafımı ikiletme!",
+      "baglam": "L152_PHONE_01.txt #8 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_2c40166a76982020": {
+      "tr": "Veremem. {He} artık yok... Başın sağ olsun.",
+      "baglam": "L152_PHONE_01.txt #9 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1528c0cf647b36b2": {
+      "tr": "İkiniz de güvenli bir yerde misiniz? Burada neler işe yarıyor, anlatayım.",
+      "not": "gerçek çoğul",
+      "baglam": "L152_PHONE_01.txt #10 · alan / P.line -> Text.ui",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta konuşan iki kişiye, aileye veya gruba sesleniyor."
+      }
+    },
+    "IGUI_ALifeUI_1c7d10a5578ee4a8": {
+      "tr": "Yapamayacağım ben bunu. Kapatıyorum.",
+      "baglam": "L152_PHONE_01.txt #11 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4e0f5d936dd485f7": {
+      "tr": "Sen ne dedin bana demin?",
+      "baglam": "L152_PHONE_01.txt #12 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_34490ff1354fd4c4": {
+      "tr": "Ne dedin sen?!",
+      "baglam": "L152_PHONE_01.txt #13 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_709bddcf0fe2d7ab": {
+      "tr": "{He} dönüşmüştü, başka çarem yoktu. Bağışla.",
+      "baglam": "L152_PHONE_01.txt #14 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_77ed16ca2dcca831": {
+      "tr": "Neyse, boş ver. Yanlış numara.",
+      "baglam": "L152_PHONE_01.txt #15 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_175d23f40ec7aff1": {
+      "tr": "Doğru duydun. Yine olsa yine yaparım.",
+      "baglam": "L152_PHONE_01.txt #16 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_66a497e847a60f6c": {
+      "tr": "Florida'dayız, annesiyle babasıyız biz. Allah aşkına söyle, {lost} sağ salim, değil mi?",
+      "baglam": "L152_PHONE_01.txt #17 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_330088d769f5d75f": {
+      "tr": "İyi iyi, {he} telefonu burada bırakmış, o kadar. Hepimiz güvendeyiz.",
+      "baglam": "L152_PHONE_01.txt #18 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_727bf3e82ce577fd": {
+      "tr": "{He} öldü. Canavara dönüştü. Haberleri izlemiyor musun sen?",
+      "baglam": "L152_PHONE_01.txt #19 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_49be86fa29531577": {
+      "tr": "Aman Yarabbi... A-ama... Knox'taki salgın... Herkes iyi mi?! İyi mi herkes? Ortalıkta o kadar çok söylenti dolaşıyor ki.",
+      "baglam": "L152_PHONE_01.txt #20 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_679448377e76505d": {
+      "tr": "Evet, salgın var. İnsanlar canavara dönüşüyor...",
+      "baglam": "L152_PHONE_01.txt #21 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_582342fb07f49a90": {
+      "tr": "Allah yukarıda, dünya da yerli yerinde.",
+      "baglam": "L152_PHONE_01.txt #22 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0bf7a04831584202": {
+      "tr": "Sen... sen ne yaptın? Ray! Ray, koş öbür telefonu aç!",
+      "baglam": "L152_PHONE_01.txt #23 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5eba438b1da270d6": {
+      "tr": "Bir daha söyle hele! Söyle de göreyim!",
+      "baglam": "L152_PHONE_01.txt #24 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_37dc78503c8de2c6": {
+      "tr": "Salgın yüzünden. {He} dönüşünce mecbur kaldım.",
+      "baglam": "L152_PHONE_01.txt #25 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4820396f68a30ec0": {
+      "tr": "Affet beni.",
+      "baglam": "L152_PHONE_01.txt #26 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5a17c8070649c0ff": {
+      "tr": "Haberlerde kuzeyde birkaç vaka var dediler, başka bir şey demediler ki.",
+      "baglam": "L152_PHONE_01.txt #27 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0b2c83175e16e30a": {
+      "tr": "Yalan söylüyorum de, ne olur!",
+      "baglam": "L152_PHONE_01.txt #28 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_43bdb056220c3017": {
+      "tr": "Keşke yalan olsaydı. Her yere yayıldı, sakın dışarı çıkma.",
+      "baglam": "L152_PHONE_01.txt #29 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6e5b89bd2a283773": {
+      "tr": "Neredesin sen? Oralarda yollar açık mı?",
+      "baglam": "L152_PHONE_01.txt #30 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5f5329007ffbc1cc": {
+      "tr": "Kusura bakma, kapatmam lazım.",
+      "baglam": "L152_PHONE_01.txt #31 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_14fce09f49a42809": {
+      "tr": "Aman Allah'ım... Louisville'de çekilen o görüntüdeki gibi mi?",
+      "baglam": "L152_PHONE_01.txt #32 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_166cdbb000291886": {
+      "tr": "Elimizde bilemedin iki haftalık konserve var, bir de Ray'in av tüfeği.",
+      "baglam": "L152_PHONE_01.txt #33 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6caabe64202e6609": {
+      "tr": "Evden çıkmayın, kapıyı kimseye açmayın. Bu hattı da meşgul etmeyin.",
+      "not": "gerçek çoğul",
+      "baglam": "L152_PHONE_01.txt #34 · alan / P.line -> Text.ui",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta konuşan iki kişiye, aileye veya gruba sesleniyor."
+      }
+    },
+    "IGUI_ALifeUI_6872335b50edac5c": {
+      "tr": "Küveti doldurun, suya çamaşır suyu katın. İlaçlarınızı da toplayıp bir kenara koyun.",
+      "not": "gerçek çoğul",
+      "baglam": "L152_PHONE_01.txt #35 · alan / P.line -> Text.ui",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta konuşan iki kişiye, aileye veya gruba sesleniyor."
+      }
+    },
+    "IGUI_ALifeUI_7a92a7625ae4a229": {
+      "tr": "Söylentilere kulak asmayın. Sesinizi çıkarmayın, ortalıkta görünmeyin.",
+      "not": "gerçek çoğul",
+      "baglam": "L152_PHONE_01.txt #36 · alan / P.line -> Text.ui",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta konuşan iki kişiye, aileye veya gruba sesleniyor."
+      }
+    },
+    "IGUI_ALifeUI_17318cd75ffbbf18": {
+      "tr": "Dönüştü derken... O şeylerden biri mi oldu?",
+      "baglam": "L152_PHONE_01.txt #37 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_57777251130b85db": {
+      "tr": "Allah'ım, Allah'ım... Ray, aç şu telefonu, aç!",
+      "baglam": "L152_PHONE_01.txt #38 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_141ab38075d86684": {
+      "tr": "{He} acı çekmedi. Her şey bir anda olup bitti.",
+      "baglam": "L152_PHONE_01.txt #39 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0e3f542a1657bdf6": {
+      "tr": "Evden çıkma. Isırılan kim olursa olsun kapıyı açma.",
+      "baglam": "L152_PHONE_01.txt #40 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1a29e10832edd7f8": {
+      "tr": "Panama City'de ikimiz yalnızız. Şehirden çıkan yolların hepsi kilitlenmiş.",
+      "baglam": "L152_PHONE_01.txt #41 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_361443a7458b2bed": {
+      "tr": "Ne yapacağız biz şimdi?",
+      "baglam": "L152_PHONE_01.txt #42 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_64cf35e0637027aa": {
+      "tr": "Yerinizden kıpırdamayın. Kapıları kilitleyin, gece ışık yakmayın.",
+      "not": "gerçek çoğul",
+      "baglam": "L152_PHONE_01.txt #43 · alan / P.line -> Text.ui",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta konuşan iki kişiye, aileye veya gruba sesleniyor."
+      }
+    },
+    "IGUI_ALifeUI_7cdd68c53da79e3f": {
+      "tr": "İç kesimlere gidin, büyük şehirlerden uzak durun.",
+      "not": "gerçek çoğul",
+      "baglam": "L152_PHONE_01.txt #44 · alan / P.line -> Text.ui",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta konuşan iki kişiye, aileye veya gruba sesleniyor."
+      }
+    },
+    "IGUI_ALifeUI_6881d863748adcd5": {
+      "tr": "Buradan elimden bir şey gelmez, kusura bakma.",
+      "baglam": "L152_PHONE_01.txt #45 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_094cf1315b3cd067": {
+      "tr": "Orada telefonlar ne zamandır çalışıyor?",
+      "baglam": "L152_PHONE_01.txt #46 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_082175752060079b": {
+      "tr": "Salıdan beri bir var bir yok. Rüzgar çıkınca hat kesiliyor.",
+      "baglam": "L152_PHONE_01.txt #47 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3041cad616039fd2": {
+      "tr": "Yakınlarda başka kimse var mı?",
+      "baglam": "L152_PHONE_01.txt #48 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4cd981607411c031": {
+      "tr": "Karşıdaki Henderson'lar çekip gitti, kilisenin minibüsü de bir daha dönmedi.",
+      "baglam": "L152_PHONE_01.txt #49 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3407b4353cbd6e47": {
+      "tr": "Hattın öbür ucunda bir anne ağlıyor.",
+      "baglam": "L152_PHONE_01.txt #50 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_17104c8c02a024a2": {
+      "tr": "O zaman... Ben şuraya bir oturayım.",
+      "baglam": "L152_PHONE_01.txt #51 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_24c478f234df222d": {
+      "tr": "Kimsin bilmiyorum ama bana söylediğin için sağ ol.",
+      "baglam": "L152_PHONE_01.txt #52 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_407635d83d73ab71": {
+      "tr": "Onlar bağırıp dururken telefonu kapattın.",
+      "baglam": "L152_PHONE_01.txt #53 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0b9633f546d881e2": {
+      "tr": "Uzun bir sessizlik oluyor, sonra hat kesiliyor.",
+      "baglam": "L152_PHONE_01.txt #55 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0b877caf17254d48": {
+      "tr": "...",
+      "baglam": "L152_PHONE_01.txt #56 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_49f74ae35afc8c4c": {
+      "tr": "Yerlerinden kıpırdamayacaklar.",
+      "baglam": "L152_PHONE_01.txt #57 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1c09c84b38325205": {
+      "tr": "Peki... Peki, evden çıkmayız. Sen ne dediysen onu yaparız.",
+      "baglam": "L152_PHONE_01.txt #58 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_09d999c05a8311df": {
+      "tr": "Her kimsen, Allah senden razı olsun.",
+      "baglam": "L152_PHONE_01.txt #59 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_69bb88be3556dc60": {
+      "tr": "Şehirden ayrılacaklar.",
+      "baglam": "L152_PHONE_01.txt #60 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_2414a1c676451ecf": {
+      "tr": "İç kesimlere... Ray, kamyoneti çıkar, kardeşinin oraya çıkıyoruz!",
+      "baglam": "L152_PHONE_01.txt #61 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7dc78a7f4c95f942": {
+      "tr": "Sakin kalıyorlar.",
+      "baglam": "L152_PHONE_01.txt #62 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_2dfdbe537b2a5471": {
+      "tr": "Sesimizi çıkarmaz, göze batmayız. Açık konuştuğun için sağ ol.",
+      "baglam": "L152_PHONE_01.txt #63 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_16278ea12aab5db3": {
+      "tr": "Telefon kapanıyor.",
+      "baglam": "L152_PHONE_01.txt #64 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_340da6cf2dfe9a4a": {
+      "tr": "Doug (şef, California)",
+      "baglam": "L152_PHONE_02.txt #1 · UI2Answer ask.name"
+    },
+    "IGUI_ALifeUI_2ae4e9da52396906": {
+      "tr": "{lost}? Ben Doug, dağıtım merkezinden.",
+      "baglam": "L152_PHONE_02.txt #2 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_263b0e28630f190c": {
+      "tr": "İki vardiyadır ortada yoksun, personel de dönüp dolaşıp seni bana soruyor.",
+      "baglam": "L152_PHONE_02.txt #3 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_21e3ecad66b68a7a": {
+      "tr": "{lost} işe gelemez. {He} öldü, ölüler de kalkmış ortalıkta dolaşıyor.",
+      "baglam": "L152_PHONE_02.txt #4 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3e50a4c31073f537": {
+      "tr": "Alo, bu telefonu ben buldum. Nereden arıyorsun?",
+      "baglam": "L152_PHONE_02.txt #5 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7fb4f2097289a3d4": {
+      "tr": "Personele de ki çok uzun bir molaya çıktım.",
+      "baglam": "L152_PHONE_02.txt #6 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4942767169554bc6": {
+      "tr": "Bırak şimdi, {lost} daha önce de böyle huysuzluk etmişti. Dalga geçme benimle.",
+      "baglam": "L152_PHONE_02.txt #7 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_54de551c46c5b986": {
+      "tr": "Şaka mı bu? Kimsin sen?",
+      "baglam": "L152_PHONE_02.txt #8 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3903667240d7f931": {
+      "tr": "Şaka değil. Kimse işe gelmeyecek, kapıları kilitle.",
+      "baglam": "L152_PHONE_02.txt #9 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_25bb3fc045f7926d": {
+      "tr": "Yayın hala geliyorsa haberleri aç.",
+      "baglam": "L152_PHONE_02.txt #10 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_761937d50d5c1dcc": {
+      "tr": "Fresno'dayım, 99. Karayolu'nun hemen yanındaki dağıtım merkezinde.",
+      "baglam": "L152_PHONE_02.txt #11 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1cc0e3f72fc71f47": {
+      "tr": "Dinlenme odasında kırk kişi kilitli kaldık, müdür de Muhafızlar gelene kadar kimseyi dışarı salmıyor.",
+      "baglam": "L152_PHONE_02.txt #12 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6be6310550ed9f59": {
+      "tr": "Muhafızları bekleme. Kamyonları alın, şehirden çıkın.",
+      "not": "gerçek çoğul",
+      "baglam": "L152_PHONE_02.txt #13 · alan / P.line -> Text.ui",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta konuşan iki kişiye, aileye veya gruba sesleniyor."
+      }
+    },
+    "IGUI_ALifeUI_0b0cdd6d12655cbe": {
+      "tr": "Kapılar kilitli kalsın. Kim gelirse gelsin yükleme rampasını açma.",
+      "baglam": "L152_PHONE_02.txt #14 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6f2f4c80395fb1c7": {
+      "tr": "{lost} artık dönmeyecek. Başın sağ olsun.",
+      "baglam": "L152_PHONE_02.txt #15 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6aa33068317d9985": {
+      "tr": "Müdür ne diyor bu haberlere?",
+      "baglam": "L152_PHONE_02.txt #16 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5ecf7dc86156bd5e": {
+      "tr": "Gripmiş, genel merkezin planı varmış, her zamanki gibi beşte kartımızı basıp çıkacakmışız.",
+      "baglam": "L152_PHONE_02.txt #17 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_25921be713fb9449": {
+      "tr": "Sahada kaç kamyon var?",
+      "baglam": "L152_PHONE_02.txt #18 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_421d34af00f10004": {
+      "tr": "Yirmi otuz tane. Cuma seferleri yüzünden yarısının deposu ağzına kadar dolu.",
+      "baglam": "L152_PHONE_02.txt #19 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_727d89ff4882a083": {
+      "tr": "Ha. Ha. Çok güldüm. {lost} telefonunu kime kaptırdı?",
+      "baglam": "L152_PHONE_02.txt #20 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_529f87f21eaada3a": {
+      "tr": "Bütün Vadi'de millet hastayım diye arayıp işe gelmiyor, anlatsam inanmazsın.",
+      "baglam": "L152_PHONE_02.txt #21 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_73ae1dcd0e334d70": {
+      "tr": "Hasta falan değil onlar, ısırıyorlar. Sakın yanlarına yaklaşma.",
+      "baglam": "L152_PHONE_02.txt #22 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_44bc48b43ff368a4": {
+      "tr": "Öyle, ortalıkta salgın var.",
+      "baglam": "L152_PHONE_02.txt #23 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_054df23c033fb41a": {
+      "tr": "Nereden arıyorsun?",
+      "baglam": "L152_PHONE_02.txt #24 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_089652d51af78f4e": {
+      "tr": "Peki, dinlenme odasındaki televizyonda ben de bir şeyler gördüm...",
+      "baglam": "L152_PHONE_02.txt #25 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3e05d03d407963ec": {
+      "tr": "Bir saat önce otoparkta adamın biri güvenlik görevlisini ısırdı. O bağırış çağırış ondanmış demek.",
+      "baglam": "L152_PHONE_02.txt #26 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3af603766bd6c0f1": {
+      "tr": "Isırılanlara kimseyi yaklaştırma. Hiç kimseyi.",
+      "baglam": "L152_PHONE_02.txt #27 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_60c6201b7e6868f1": {
+      "tr": "Çıkın oradan. Kamyonları alın.",
+      "not": "gerçek çoğul",
+      "baglam": "L152_PHONE_02.txt #28 · alan / P.line -> Text.ui",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta konuşan iki kişiye, aileye veya gruba sesleniyor."
+      }
+    },
+    "IGUI_ALifeUI_5103e6780d4a609a": {
+      "tr": "Kapatmam lazım.",
+      "baglam": "L152_PHONE_02.txt #29 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7ed0756911f3ea7d": {
+      "tr": "Depoya barikat kuruyorlar.",
+      "baglam": "L152_PHONE_02.txt #30 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_63c09fd21f804585": {
+      "tr": "Tamam... Tamam, rampa kapılarına barikat kurduruyorum.",
+      "baglam": "L152_PHONE_02.txt #31 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_434cbbdc55533699": {
+      "tr": "Şaka çıkarsa hakkında tutanak tutarım, haberin olsun.",
+      "baglam": "L152_PHONE_02.txt #32 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1208ae390eceafea": {
+      "tr": "Fresno'dan bir konvoy yola çıkıyor.",
+      "baglam": "L152_PHONE_02.txt #33 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4b8abfd75aabd418": {
+      "tr": "Kamyonlar. Doğru ya. Koca saha kamyon dolu.",
+      "baglam": "L152_PHONE_02.txt #34 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0d1fce1f0e91bce0": {
+      "tr": "Sağ ol, her kimsen.",
+      "baglam": "L152_PHONE_02.txt #35 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5a33ac554c035d1a": {
+      "tr": "Doug seni hasta yazıyor.",
+      "baglam": "L152_PHONE_02.txt #36 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5827dcfe6f938e69": {
+      "tr": "Tabii. Hastasın. Hasta diye yazıyorum seni.",
+      "baglam": "L152_PHONE_02.txt #37 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1819b2f5573062e6": {
+      "tr": "Tanımadığın birinin yüzüne kapattın.",
+      "baglam": "L152_PHONE_02.txt #38 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_410b55605e53e06c": {
+      "tr": "Dee (kız kardeşi, Mississippi)",
+      "baglam": "L152_PHONE_03.txt #1 · UI2Answer ask.name"
+    },
+    "IGUI_ALifeUI_262bbaeb385d2f3f": {
+      "tr": "{lost}! Nihayet açtın! Nerelerdesin sen?",
+      "baglam": "L152_PHONE_03.txt #2 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5362bd770a46af30": {
+      "tr": "Annem sabah altıdan beri ocak başında. Pazar günü geliyorsunuz değil mi, yoksa her şey yattı mı?",
+      "not": "gerçek çoğul",
+      "baglam": "L152_PHONE_03.txt #3 · P.line -> Text.ui",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta konuşan iki kişiye, aileye veya gruba sesleniyor."
+      }
+    },
+    "IGUI_ALifeUI_4adfea4320ffdfb8": {
+      "tr": "{lost} gelmiyor. Ne pazar günü ne başka zaman. {He} öldü. Başın sağ olsun.",
+      "baglam": "L152_PHONE_03.txt #4 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7d7464af7090badb": {
+      "tr": "Ben {you}. Bu telefonu buldum. Kiminle görüşüyorum?",
+      "baglam": "L152_PHONE_03.txt #5 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_051a5e6d3f4c8a41": {
+      "tr": "Pazar iptal. Evden adımını atma, kiliseye de gitme.",
+      "baglam": "L152_PHONE_03.txt #6 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4cbd8d126cd5aabd": {
+      "tr": "Ben Dee, {his} kız kardeşiyim. Tupelo'dan arıyorum.",
+      "baglam": "L152_PHONE_03.txt #7 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0cd67a0e387f5798": {
+      "tr": "Sende ne arıyor {his} telefonu? Yoksa {he} yaralandı mı?",
+      "baglam": "L152_PHONE_03.txt #8 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_12d221e374ccc96f": {
+      "tr": "{He} iyi. Telefonunu düşürmüş, o kadar.",
+      "baglam": "L152_PHONE_03.txt #9 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6c7406ad09e5bd76": {
+      "tr": "{He} öldü Dee. Allah sabır versin.",
+      "baglam": "L152_PHONE_03.txt #10 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_280781cb305b5f83": {
+      "tr": "{him} bulduğumda telefon üstündeydi, aldım. {He} o yaratıklardan biri olmuştu.",
+      "baglam": "L152_PHONE_03.txt #11 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_57c04de159f12f72": {
+      "tr": "Çok şükür Yarabbi, çok şükür!",
+      "baglam": "L152_PHONE_03.txt #12 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_10334cb73fdd0429": {
+      "tr": "Jackson'daki hastanede bir hastalık çıkmış diyorlar, doğru mu?",
+      "baglam": "L152_PHONE_03.txt #13 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_416c79f01c7ad872": {
+      "tr": "Doğru. Evde kal, kapıları da açma.",
+      "baglam": "L152_PHONE_03.txt #14 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_494df8364bcae249": {
+      "tr": "Yok canım, grip işte, gelir geçer.",
+      "baglam": "L152_PHONE_03.txt #15 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_18850caf15b4b277": {
+      "tr": "Annenin yanına git, birbirinizden ayrılmayın.",
+      "baglam": "L152_PHONE_03.txt #16 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_727c966f4e09c2d8": {
+      "tr": "Hayır... Yok, deme öyle!",
+      "baglam": "L152_PHONE_03.txt #17 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5f20048b52f13d99": {
+      "tr": "Yoksa o hasta insanlardan biri mi yaptı? Değil de, ne olur!",
+      "baglam": "L152_PHONE_03.txt #18 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4705f4795285b8fa": {
+      "tr": "Hastalık yüzünden oldu. {He} hiçbir şey hissetmedi.",
+      "baglam": "L152_PHONE_03.txt #19 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_06233f222abfa8ec": {
+      "tr": "{him} arka tarafa gömdüm. İstersen yerini tarif ederim.",
+      "baglam": "L152_PHONE_03.txt #20 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_02786c3e1adbe353": {
+      "tr": "Kusura bakma, konuşamayacağım.",
+      "baglam": "L152_PHONE_03.txt #21 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_61ee4e0b0978d06a": {
+      "tr": "Yanında kimse var mı?",
+      "baglam": "L152_PHONE_03.txt #22 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_53b4729a093f7ddd": {
+      "tr": "Bir annem var, bir de Roy amcam. O da öğleden beri koltukta uyuyor zaten.",
+      "baglam": "L152_PHONE_03.txt #23 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_097f51c84a9ac1a6": {
+      "tr": "Ne demek kiliseye gitme? İçtin mi sen?",
+      "baglam": "L152_PHONE_03.txt #24 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1e52499b390755e8": {
+      "tr": "Annem derini yüzecek senin, {lost}.",
+      "baglam": "L152_PHONE_03.txt #25 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_01b3d4505cfe9b4e": {
+      "tr": "Ben {lost} değilim. {He} öldü. Yalnız o da değil, ölen çok.",
+      "baglam": "L152_PHONE_03.txt #26 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_79169fb82a09bd10": {
+      "tr": "Kapıları sürgüle. Çok ciddiyim.",
+      "baglam": "L152_PHONE_03.txt #27 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_36272b6535b9befd": {
+      "tr": "Anneme söyle, onu çok seviyorum.",
+      "baglam": "L152_PHONE_03.txt #28 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7baa551b15535d46": {
+      "tr": "Hani şu... televizyonda gösterdiklerinden mi?",
+      "baglam": "L152_PHONE_03.txt #29 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3baee2400f3fd81a": {
+      "tr": "Eee, sen ne yaptın? {him} öldürdün mü yoksa?",
+      "baglam": "L152_PHONE_03.txt #30 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5da112c6678b0ffe": {
+      "tr": "Evet. Bir anda olup bitti. Hakkını helal et.",
+      "baglam": "L152_PHONE_03.txt #31 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_18129fda42b2aeed": {
+      "tr": "Başka çarem yoktu.",
+      "baglam": "L152_PHONE_03.txt #32 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_76db877974911d44": {
+      "tr": "Dışarı çıkma Dee.",
+      "baglam": "L152_PHONE_03.txt #33 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0c93f0f339320fdc": {
+      "tr": "Evden çıkmayacaklar.",
+      "baglam": "L152_PHONE_03.txt #34 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0816084163982e51": {
+      "tr": "Tamam. Peki, gidip anneme haber vereyim. Veranda kapısını da çivileriz.",
+      "baglam": "L152_PHONE_03.txt #35 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5b5b25a378cbda85": {
+      "tr": "Her kimsen, Allah seni korusun.",
+      "baglam": "L152_PHONE_03.txt #36 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_78a9391b67dbb89f": {
+      "tr": "Gerçeği kadar acıtmayan bir söylenti yayılıyor.",
+      "baglam": "L152_PHONE_03.txt #37 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0c05724079b46ce7": {
+      "tr": "Grip demek. Peki. Kilisedekilere de alt tarafı gripmiş derim.",
+      "baglam": "L152_PHONE_03.txt #38 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_2e9273c65ccc2304": {
+      "tr": "Bir aile bir arada kalıyor.",
+      "baglam": "L152_PHONE_03.txt #39 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1020960a7d7e1801": {
+      "tr": "Olur, gidip yanında oturayım. Siz de kendinize iyi bakın.",
+      "not": "gerçek çoğul",
+      "baglam": "L152_PHONE_03.txt #40 · P.line -> Text.ui",
+      "onayli_uslup_istisnalari": {
+        "hitap": "Kaynakta konuşan iki kişiye, aileye veya gruba sesleniyor."
+      }
+    },
+    "IGUI_ALifeUI_036bde6e503e5d0d": {
+      "tr": "Onlara gerçeği söyledin.",
+      "baglam": "L152_PHONE_03.txt #41 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_45ac0db217f9802e": {
+      "tr": "Kapatıyorum şimdi. Gidip anneme söylemem lazım.",
+      "baglam": "L152_PHONE_03.txt #42 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_03e28e052b5fa34d": {
+      "tr": "Yalan söylemedin bana. Sağ ol.",
+      "baglam": "L152_PHONE_03.txt #43 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_74c2c2fd071ef4c1": {
+      "tr": "Hat sessizleşiyor, sonra kesiliyor.",
+      "baglam": "L152_PHONE_03.txt #44 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_28d7fb7c62e41693": {
+      "tr": "Bu gece rahat uyursun inşallah.",
+      "baglam": "L152_PHONE_03.txt #45 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3eb952025225f243": {
+      "tr": "Görüşmeyi sonlandırdın.",
+      "baglam": "L152_PHONE_03.txt #46 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_335fed957be7c730": {
+      "tr": "Jolene (en yakın arkadaş, California)",
+      "baglam": "L152_PHONE_04.txt #1 · UI2Answer ask.name"
+    },
+    "IGUI_ALifeUI_142325f937583976": {
+      "tr": "{lost}!! Sonunda! Üç gündür ne arıyorsun ne soruyorsun, sağ mısın sen ya?!",
+      "baglam": "L152_PHONE_04.txt #2 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_18ea80b919ecea4d": {
+      "tr": "Sacramento'da ortalık tımarhaneye döndü. Fulton'daki Safeway tamtakır, ben de çatıdayım; altımda bahçe sandalyesi, elimde bir paket Doritos.",
+      "baglam": "L152_PHONE_04.txt #3 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_2685ebdb7949479d": {
+      "tr": "{lost} artık yok Jo. {He} kurtulamadı.",
+      "baglam": "L152_PHONE_04.txt #4 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_50a88a120ec33f56": {
+      "tr": "Ben {lost} değilim, bu telefonu buldum. Kiminle konuşuyorum?",
+      "baglam": "L152_PHONE_04.txt #5 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7e220d5c1c88263e": {
+      "tr": "Doritos mu? Sahiden çatıda mısın sen?",
+      "baglam": "L152_PHONE_04.txt #6 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1c83fb4301df3d6f": {
+      "tr": "Jolene ben! {lost} altıncı sınıftan beri en yakın arkadaşım. {his} telefonu SENDE ne arıyor?",
+      "baglam": "L152_PHONE_04.txt #7 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_2b48ec257fe26843": {
+      "tr": "Yanında mı {he}? Hemen {him} telefona ver!",
+      "baglam": "L152_PHONE_04.txt #8 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3409e7ba79100332": {
+      "tr": "{He} öldü Jolene. Başın sağ olsun.",
+      "baglam": "L152_PHONE_04.txt #9 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_211e101500e558db": {
+      "tr": "{He} telefonu bırakıp gitti. {He} iyiydi, en son gördüğümde.",
+      "baglam": "L152_PHONE_04.txt #10 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0edc7f422df08e92": {
+      "tr": "Önce sen anlat, neler gördün?",
+      "baglam": "L152_PHONE_04.txt #11 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3691b46f79d176eb": {
+      "tr": "Nehrin üstü duman içinde. Bir helikopter gitti, geri dönmedi. İki ev ötedeki adam da verandasında çiğ çiğ tavuk göğsü yiyordu.",
+      "baglam": "L152_PHONE_04.txt #12 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0e754e9f021fa3de": {
+      "tr": "Tabii ki! Komşuların köpeği bir tek buraya çıkamıyor.",
+      "baglam": "L152_PHONE_04.txt #13 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4c29d4763a0c2aa2": {
+      "tr": "Sen neredesin? Yanında kimse var mı?",
+      "baglam": "L152_PHONE_04.txt #14 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_2428dc9c0f812098": {
+      "tr": "Buradakiler beni tanır, bana güvenir. Bir yolunu bul, yanımıza gel.",
+      "baglam": "L152_PHONE_04.txt #15 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_032fa1662477a419": {
+      "tr": "Sakın inme oradan. Cipsi idareli ye, gözün sokakta olsun.",
+      "baglam": "L152_PHONE_04.txt #16 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1ff0074d1846a8b8": {
+      "tr": "Hangi komşunun köpeği?",
+      "baglam": "L152_PHONE_04.txt #17 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_46ccf59237d1552d": {
+      "tr": "Biscuit! Hani şu corgi. Corgiliği falan kalmadı artık, Biscuit başlı başına BELA!",
+      "baglam": "L152_PHONE_04.txt #18 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5712f27361932641": {
+      "tr": "Kapatmam lazım.",
+      "baglam": "L152_PHONE_04.txt #19 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3cdedd481fb1af47": {
+      "tr": "Olamaz. Yok, yok, hayır! Marttaki Warriors maçına biletimiz var bizim.",
+      "baglam": "L152_PHONE_04.txt #20 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_481efac5504022d5": {
+      "tr": "Bir anda oldu de. Ne olur, öyle de.",
+      "baglam": "L152_PHONE_04.txt #21 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_72fc667428a3678d": {
+      "tr": "Bir anda oldu, {he} hiçbir şey hissetmedi.",
+      "baglam": "L152_PHONE_04.txt #22 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4daf970f5b5bb833": {
+      "tr": "Sana yalan söylemeyeceğim. Öyle bir anda olmadı.",
+      "baglam": "L152_PHONE_04.txt #23 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1071f6dd50a4617e": {
+      "tr": "Şimdi bunu konuşamam.",
+      "baglam": "L152_PHONE_04.txt #24 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_71251fba43e56317": {
+      "tr": "Bir dost usul usul yasını tutuyor.",
+      "baglam": "L152_PHONE_04.txt #25 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_27cdc66f0b68376e": {
+      "tr": "Tamam... Tamam. Nehre inip suya karşı avazım çıktığı kadar bağıracağım.",
+      "baglam": "L152_PHONE_04.txt #26 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_297bcd453fffe00d": {
+      "tr": "İncitmeden söylediğin için sağ ol.",
+      "baglam": "L152_PHONE_04.txt #27 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_44d90985539fa4d0": {
+      "tr": "Ona acı gerçeği söyledin.",
+      "baglam": "L152_PHONE_04.txt #28 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4c69c203517b367a": {
+      "tr": "Evet. İçime doğmuştu zaten.",
+      "baglam": "L152_PHONE_04.txt #29 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_621212e050de5853": {
+      "tr": "Yalan söylemediğin için sağ ol. Senden başka herkes söylüyor.",
+      "baglam": "L152_PHONE_04.txt #30 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4c4c6e1a000db0e1": {
+      "tr": "Bir yalan, hattı sıcak tutar.",
+      "baglam": "L152_PHONE_04.txt #31 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_45abaf041dc48e03": {
+      "tr": "{lost} beni arasın, söyle ona. Ciddiyim bak, telefonum hep açık olacak.",
+      "baglam": "L152_PHONE_04.txt #32 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_235334e3139b968f": {
+      "tr": "Çatısında kalıyor.",
+      "baglam": "L152_PHONE_04.txt #33 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5373965e796efc5c": {
+      "tr": "Cips idareli yenecek, anlaşıldı tamam! Biscuit'i de gözden kaçırmam.",
+      "baglam": "L152_PHONE_04.txt #34 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_40c13c5e68dc7f07": {
+      "tr": "Bir dost sana doğru yola çıkıyor.",
+      "baglam": "L152_PHONE_04.txt #35 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_41fb82fd4e99d5d3": {
+      "tr": "Gerçekten yapar mısın bunu? Tamam, yeri söyle, ben bir yolunu bulurum.",
+      "baglam": "L152_PHONE_04.txt #36 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_23b634f4760a0c7f": {
+      "tr": "Bir dostun yüzüne telefonu kapattın.",
+      "baglam": "L152_PHONE_04.txt #37 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7a4a00ea2ce5d798": {
+      "tr": "Papaz Earl (Mississippi)",
+      "baglam": "L152_PHONE_05.txt #1 · UI2Answer ask.name"
+    },
+    "IGUI_ALifeUI_65f808b7669d3a6d": {
+      "tr": "{lost}, ben Papaz Earl, Gulfport First Baptist'ten arıyorum. Rabbime şükür, hat çalışıyor.",
+      "baglam": "L152_PHONE_05.txt #2 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_328dee2c080d20c2": {
+      "tr": "{He} kilise minibüsünün anahtarlarını taşıyordu, cemaat salonunda da kırk canımız var.",
+      "baglam": "L152_PHONE_05.txt #3 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_71b1697e5a265762": {
+      "tr": "Ben {you}. {lost} öldü, Papaz Efendi.",
+      "baglam": "L152_PHONE_05.txt #4 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4699dfc177183817": {
+      "tr": "Kırk kişinin o salonda ne işi var? Ne oldu?",
+      "baglam": "L152_PHONE_05.txt #5 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_50b7143661d73a77": {
+      "tr": "Kilisenin minibüsü şu an nerede?",
+      "baglam": "L152_PHONE_05.txt #6 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_197f61791b27d463": {
+      "tr": "Rabbim rahmet eylesin. On bir yıl, her pazar çanı {he} çaldı.",
+      "baglam": "L152_PHONE_05.txt #7 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5a67413b74ee280f": {
+      "tr": "Evladım, {he} huzur içinde mi gitti?",
+      "baglam": "L152_PHONE_05.txt #8 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_470a5e25671674d7": {
+      "tr": "{He} çabucak gitti. {He} ne olduğunu anlamadı bile.",
+      "baglam": "L152_PHONE_05.txt #9 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7ac99f6041b9012e": {
+      "tr": "{He} dönüştü. {him} öldürmek zorunda kaldım.",
+      "baglam": "L152_PHONE_05.txt #10 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_221ab3d520e14f26": {
+      "tr": "Papaz Efendi, anlat, o salonda neler oluyor?",
+      "baglam": "L152_PHONE_05.txt #11 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_48bc22f201417ca1": {
+      "tr": "Loretta kardeşimiz kapıda bir adama yardım ederken ön kolundan ısırıldı, ateşler içinde yanıyor.",
+      "baglam": "L152_PHONE_05.txt #12 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_719758f4523abfd2": {
+      "tr": "Cemaat üstüne el koyup dua etmek istiyor. Doğrusu hangisi, bilemiyorum.",
+      "baglam": "L152_PHONE_05.txt #13 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_533caa24139b1a53": {
+      "tr": "Dirseğin üstüne turnike bağla, kolu kes. Hemen! Başka kurtuluşu yok.",
+      "baglam": "L152_PHONE_05.txt #14 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4f1fb2cf5704e40f": {
+      "tr": "Onu usulca ötekilerden ayır, yanında da hep biri otursun.",
+      "baglam": "L152_PHONE_05.txt #15 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_192c09641feedc59": {
+      "tr": "Bırak dua etsinler, sen de bir elini kapıdan çekme.",
+      "baglam": "L152_PHONE_05.txt #16 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_33ed527205ef0edf": {
+      "tr": "Kaç kişi ısırıldı?",
+      "baglam": "L152_PHONE_05.txt #17 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6546dfc0586151b9": {
+      "tr": "Bir tek o. Ama Dubois çocuklarından ikisi arkadan çıktı, hala dönmediler.",
+      "baglam": "L152_PHONE_05.txt #18 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_68fdee6f2c95cc01": {
+      "tr": "Papaz Efendi, kapatmam lazım.",
+      "baglam": "L152_PHONE_05.txt #19 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_797ba3261894bd22": {
+      "tr": "Salonun arkasında park halinde. Deposu dolu, gel gör ki aramızda düz vites kullanabilen yok.",
+      "baglam": "L152_PHONE_05.txt #20 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7c3bf1c736014f65": {
+      "tr": "Diyakozlar, Ulusal Muhafızlar gelene kadar bekleyelim diyor.",
+      "baglam": "L152_PHONE_05.txt #21 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4b5358d96c262a03": {
+      "tr": "Muhafızları bekleme. Minibüsü doldur, kuzeye sür.",
+      "baglam": "L152_PHONE_05.txt #22 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_35d3520a24d98ca6": {
+      "tr": "İçeride kal. Yola çıkan minibüs kalabalığı peşine takar.",
+      "baglam": "L152_PHONE_05.txt #23 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_471ebef80c479acd": {
+      "tr": "İçerideki insanları anlat.",
+      "baglam": "L152_PHONE_05.txt #24 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_37ba4a4c5f9f8f17": {
+      "tr": "Bir kilise çanını çalıyor.",
+      "baglam": "L152_PHONE_05.txt #25 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_151d956c65e1745b": {
+      "tr": "Bu merhametin için Rabbim senden razı olsun.",
+      "baglam": "L152_PHONE_05.txt #26 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3198e6e276376c38": {
+      "tr": "Pazar günü çanı {him} için çalacağız.",
+      "baglam": "L152_PHONE_05.txt #27 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_317bb2550dad56f5": {
+      "tr": "Bir papaza acı gerçeği söyledin.",
+      "baglam": "L152_PHONE_05.txt #28 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_746e2cf72bdffcf7": {
+      "tr": "Rabbim görüyor bu dünyada nelere mecbur kaldığımızı.",
+      "baglam": "L152_PHONE_05.txt #29 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4c48fdab3fd33ad3": {
+      "tr": "Senin için de dua edeceğim.",
+      "baglam": "L152_PHONE_05.txt #30 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_229ff45710555925": {
+      "tr": "Verdiğin akıl bir canı kurtarabilir.",
+      "baglam": "L152_PHONE_05.txt #31 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_19c2d0286975f9b5": {
+      "tr": "Rabbim... Peki. Hollis, barakadaki testereyi getir. Tut elini.",
+      "baglam": "L152_PHONE_05.txt #32 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_266453180f5bcf77": {
+      "tr": "Rabbim seni korusun, her kimsen.",
+      "baglam": "L152_PHONE_05.txt #33 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_01ca44ae3ec27542": {
+      "tr": "Onu ötekilerden ayrı tutuyorlar.",
+      "baglam": "L152_PHONE_05.txt #34 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_426f31b77194be78": {
+      "tr": "Koro odası kilitleniyor. Başında da biz bekleriz.",
+      "baglam": "L152_PHONE_05.txt #35 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5fd2ad60328cee9c": {
+      "tr": "Bir kilise dua ediyor ve tetikte bekliyor.",
+      "baglam": "L152_PHONE_05.txt #36 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_14d1bcea07052df1": {
+      "tr": "Dua da edeceğiz, gözümüz de kapıda olacak. Hepimiz sana minnettarız.",
+      "baglam": "L152_PHONE_05.txt #37 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_574a72c20e341cbb": {
+      "tr": "Bir kilise minibüsü kuzeye doğru yola çıkıyor.",
+      "baglam": "L152_PHONE_05.txt #38 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_19a9bd3873d5bbae": {
+      "tr": "Kuzey demek. Biri Hollis'i bulsun, vaktiyle okul otobüsü sürmüştü.",
+      "baglam": "L152_PHONE_05.txt #39 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_650c60352a9d7ca2": {
+      "tr": "Kapıların ardında kalıyorlar.",
+      "baglam": "L152_PHONE_05.txt #40 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0b0e88ec30701f88": {
+      "tr": "Kapıların ardından çıkmayacağız inşallah.",
+      "baglam": "L152_PHONE_05.txt #41 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_39dbe6752026e6f8": {
+      "tr": "Bir papazın yüzüne telefonu kapattın.",
+      "baglam": "L152_PHONE_05.txt #42 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3720ae6b6548d4cc": {
+      "tr": "Bay Pruitt (ev sahibi, Florida)",
+      "baglam": "L152_PHONE_06.txt #1 · UI2Answer ask.name"
+    },
+    "IGUI_ALifeUI_0392de00337a2731": {
+      "tr": "{lost}? Walt Pruitt ben, Palm Gardens'taki ev sahibin.",
+      "baglam": "L152_PHONE_06.txt #2 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_70ae1df65da99d72": {
+      "tr": "4B'den gelen koku için bu üçüncü şikayet. Kira da ayın birinde ödenecekti, hala ortada yok.",
+      "baglam": "L152_PHONE_06.txt #3 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3dd643ee68aeec3f": {
+      "tr": "{lost} öldü Bay Pruitt. Kira o yüzden gecikti.",
+      "baglam": "L152_PHONE_06.txt #4 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_2065249d4b572c96": {
+      "tr": "Ben {lost} değilim. Neredesin sen?",
+      "baglam": "L152_PHONE_06.txt #5 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_66bb5c03333a8144": {
+      "tr": "Depozitodan düş.",
+      "baglam": "L152_PHONE_06.txt #6 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6b8b34c4077543fd": {
+      "tr": "Depozitodanmış! O paranın yeri çoktan belli, önceki kiracı tavanda delik bıraktı.",
+      "baglam": "L152_PHONE_06.txt #7 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_31cd5f4f4236a0b9": {
+      "tr": "Şaka mı yapıyorum sanıyorsun? Neler oluyor orada?",
+      "baglam": "L152_PHONE_06.txt #8 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_538d2d000404d335": {
+      "tr": "Ölüler yürüyor Bay Pruitt. Çık o ofisten.",
+      "baglam": "L152_PHONE_06.txt #9 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7a3fcf1e18d6fdbf": {
+      "tr": "Tamam, çeki postaya veririm.",
+      "baglam": "L152_PHONE_06.txt #10 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_37b0ea4b5b354cfe": {
+      "tr": "Binada başka kimler oturuyor?",
+      "baglam": "L152_PHONE_06.txt #11 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4ef4836a148157ef": {
+      "tr": "2A'da Gonzalez ailesi, 3C'de donanma emeklisi adam, bir de gece yarısı bongo çalan bir herif var.",
+      "baglam": "L152_PHONE_06.txt #12 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3963722568f0540a": {
+      "tr": "Semoran'ın oradaki Palm Gardens'ta, yönetim ofisindeyim. Ana anahtarlar bende, bir de golf arabası var.",
+      "baglam": "L152_PHONE_06.txt #13 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_43f409262feca45c": {
+      "tr": "Elektrik bir gidip bir geliyor, havuz pompası da can çekişen kaz gibi ötüyor.",
+      "baglam": "L152_PHONE_06.txt #14 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_79b821e17fd04b12": {
+      "tr": "Ana anahtarları al, ailelere bir bak.",
+      "baglam": "L152_PHONE_06.txt #15 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1b16b4d517f0eca3": {
+      "tr": "Golf arabasının aküsünü sök, ofisin ışıklarına ve bir radyoya bağla.",
+      "baglam": "L152_PHONE_06.txt #16 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6209b8fc27972427": {
+      "tr": "Ofisten çıkma, kapıyı kilitle.",
+      "baglam": "L152_PHONE_06.txt #17 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_65a2329105c45413": {
+      "tr": "Havuz pompası ne yapıyor ki?",
+      "baglam": "L152_PHONE_06.txt #18 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_09a6dd697ac783b9": {
+      "tr": "Önce inliyor, sonra güm diye bir ses, ardından çıt yok. Sonra yine inlemeye başlıyor.",
+      "baglam": "L152_PHONE_06.txt #19 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_79aac1c67b8fb354": {
+      "tr": "Kapatmam lazım.",
+      "baglam": "L152_PHONE_06.txt #20 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_50c29e5625659943": {
+      "tr": "Öldü mü... Nasıl öldü?",
+      "baglam": "L152_PHONE_06.txt #21 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3d6ce5e35cca6b3b": {
+      "tr": "Yine şu grip meselesi deme sakın...",
+      "baglam": "L152_PHONE_06.txt #22 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_437022f73c6fae19": {
+      "tr": "Evet, o grip meselesi. Hem de çok daha beteri.",
+      "baglam": "L152_PHONE_06.txt #23 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0b9748e42eb56f09": {
+      "tr": "Kira silindi, unut gitsin.",
+      "baglam": "L152_PHONE_06.txt #24 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_582808bd783543de": {
+      "tr": "Kusura bakma Bay Pruitt.",
+      "baglam": "L152_PHONE_06.txt #25 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4e6ad5664711b6f2": {
+      "tr": "Ölüler... yürüyor mu? Saçmalama.",
+      "baglam": "L152_PHONE_06.txt #26 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1cb10d333189b341": {
+      "tr": "Dur bir saniye, ofisin kapısında biri var... Kim o? KİM O?!",
+      "baglam": "L152_PHONE_06.txt #27 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1fbbcfed1804450b": {
+      "tr": "Sakın açma! Kilitle, masanın altına gir.",
+      "baglam": "L152_PHONE_06.txt #28 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_55b1b27c2e1a4629": {
+      "tr": "Arkadan çık, golf arabasına atla.",
+      "baglam": "L152_PHONE_06.txt #29 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_50a991f36e91e58c": {
+      "tr": "Aç, kiracılardan biri olabilir.",
+      "baglam": "L152_PHONE_06.txt #30 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_590ea3e713e81460": {
+      "tr": "Ev sahibi dediğin takviminden şaşmaz.",
+      "baglam": "L152_PHONE_06.txt #31 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6cb0ec335d87e4cf": {
+      "tr": "Çek mi, iyi. Postane kapalı ama olsun, buna da razıyım.",
+      "baglam": "L152_PHONE_06.txt #32 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_732ae169511f37e3": {
+      "tr": "Kiracılara bakmaya gidiyor.",
+      "baglam": "L152_PHONE_06.txt #33 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0af6fc7173cd15cc": {
+      "tr": "Anahtarlar, tabii... Önce 2A'ya gideyim, ufaklıklar var orada.",
+      "baglam": "L152_PHONE_06.txt #34 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5c6e6c7105197b51": {
+      "tr": "Ofise elektrik geliyor.",
+      "baglam": "L152_PHONE_06.txt #35 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_067526316ac722be": {
+      "tr": "Işıklara akü ha... Kimsen kimsin, kafan çalışıyor senin.",
+      "baglam": "L152_PHONE_06.txt #36 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_29971395351ad266": {
+      "tr": "Ofisi kilitliyor.",
+      "baglam": "L152_PHONE_06.txt #37 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_51a8397334e5da8c": {
+      "tr": "Kilitledim... Tamam, oldu.",
+      "baglam": "L152_PHONE_06.txt #38 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6e4acc9178ab95b9": {
+      "tr": "Masasının altına saklanıyor.",
+      "baglam": "L152_PHONE_06.txt #39 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_53b531d36cebb8d1": {
+      "tr": "Masanın altına, tamam, giriyorum... Sakın kapatma telefonu.",
+      "baglam": "L152_PHONE_06.txt #40 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7c88f71f72d79993": {
+      "tr": "Golf arabasıyla kaçıyor.",
+      "baglam": "L152_PHONE_06.txt #41 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7d31cb374329ed8a": {
+      "tr": "Golf arabası! Tabii ya! Sıkı tutun!",
+      "baglam": "L152_PHONE_06.txt #42 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5f033e0805ccba89": {
+      "tr": "Hat çığlıklarla doluyor.",
+      "baglam": "L152_PHONE_06.txt #43 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_303015086d8b4dd5": {
+      "tr": "Bu... Bay Ortega? Ortega, sen niye öyle... AAAH!",
+      "baglam": "L152_PHONE_06.txt #44 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_772b780a439454ea": {
+      "tr": "Kira nihayet silindi.",
+      "baglam": "L152_PHONE_06.txt #45 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6f858dad630f6b41": {
+      "tr": "Silindi ha. Peki. Bugün duyduğum ilk güzel söz bu.",
+      "baglam": "L152_PHONE_06.txt #46 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5a81eedf6d48a080": {
+      "tr": "Bir ev sahibinden özür diledin.",
+      "baglam": "L152_PHONE_06.txt #47 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_629b0fc86dfd646d": {
+      "tr": "Ev sahibinin suratına telefonu kapattın.",
+      "baglam": "L152_PHONE_06.txt #48 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5292da71682acb9b": {
+      "tr": "Hector (tedarikçi, California)",
+      "baglam": "L152_PHONE_07.txt #1 · UI2Answer ask.name"
+    },
+    "IGUI_ALifeUI_64b26689245328dc": {
+      "tr": "Kern Valley Supply'dan arıyorum, ben Hector. Senin bir palet filtreyi taşıyan kamyon Grapevine'da yolda kaldı.",
+      "baglam": "L152_PHONE_07.txt #2 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_681851ab3b5dac3a": {
+      "tr": "Şoförün dediğine göre gösterge paneli Noel ağacına dönmüş, üstüne üstüne de bir şey yürüyormuş. Ben kiminle konuşuyorum bu arada?",
+      "baglam": "L152_PHONE_07.txt #3 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6881618960cafd81": {
+      "tr": "Ben {you}. Şoför iyi mi?",
+      "baglam": "L152_PHONE_07.txt #4 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4cd7825d2323afc1": {
+      "tr": "Bu ofisin başında kimse kalmadı artık, Hector.",
+      "baglam": "L152_PHONE_07.txt #5 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_230abbca6703cf7f": {
+      "tr": "Filtre mi? Olur, hesabıma yaz.",
+      "baglam": "L152_PHONE_07.txt #6 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_2aea54914fe42f21": {
+      "tr": "Senin hesap doksan günü geçti be kardeşim. Neyse, hadi olsun.",
+      "baglam": "L152_PHONE_07.txt #7 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_16c45de13549b390": {
+      "tr": "Gelelim benim şoföre. Yolda adam var diye bağırıp duruyor bana.",
+      "baglam": "L152_PHONE_07.txt #8 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_09a81809634d01d3": {
+      "tr": "Şoför ne diyor?",
+      "baglam": "L152_PHONE_07.txt #9 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0e79bde23b65fd47": {
+      "tr": "Boş ver filtreleri, söyle kamyonu bıraksın.",
+      "baglam": "L152_PHONE_07.txt #10 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3c3c2e5b4716dadf": {
+      "tr": "Neyse ne, sonra ararsın.",
+      "baglam": "L152_PHONE_07.txt #11 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_75c508791f151b9a": {
+      "tr": "Kalmadı mı? Nereye gitti herkes, ben daha salı günü Dana'yla konuştum!",
+      "baglam": "L152_PHONE_07.txt #12 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5861fd511cbdadce": {
+      "tr": "Bak, bana teslimatı imzalayacak biri lazım, o kadar.",
+      "baglam": "L152_PHONE_07.txt #13 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6d0790953fe750e6": {
+      "tr": "İmza atacak kimse yok. Teslimat senin en son derdin olsun.",
+      "baglam": "L152_PHONE_07.txt #14 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_132ae7930951bd1c": {
+      "tr": "Tamam, gönder, ben imzalarım.",
+      "baglam": "L152_PHONE_07.txt #15 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_579786193b5f27b7": {
+      "tr": "Dana öldü, Hector.",
+      "baglam": "L152_PHONE_07.txt #16 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7c156f4702636473": {
+      "tr": "Tomas yirmi iki yıllık şoför. Kamyon marş basmıyormuş, bir tık sesi gelmiş, o kadar.",
+      "baglam": "L152_PHONE_07.txt #17 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_705e21db0f92fea9": {
+      "tr": "Yoldaki şey hızlı gelmiyor ama durduğu da yok.",
+      "baglam": "L152_PHONE_07.txt #18 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_68ed3a2833e502e3": {
+      "tr": "Önce akü kablosuna baksın, sonra anahtarla marş motoruna hafifçe vursun. Tık edip marş basmama arızası bu.",
+      "baglam": "L152_PHONE_07.txt #19 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_39763e8414375b2d": {
+      "tr": "Söyle, kamyonu bırakıp yürüsün. Hem de hızlı hızlı.",
+      "baglam": "L152_PHONE_07.txt #20 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0dd551242a36cef4": {
+      "tr": "Söyle, kapıları kilitleyip sinsin, öylece beklesin.",
+      "baglam": "L152_PHONE_07.txt #21 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3dfaa15828a49c02": {
+      "tr": "Yoldaki şey neye benziyor?",
+      "baglam": "L152_PHONE_07.txt #22 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3a022dab3d18b4f0": {
+      "tr": "Tomas diyor ki üstünde fosforlu yelek varmış, gözünü de hiç kırpmıyormuş... Yok, kırpıyor mu ne, o da çıkaramıyor.",
+      "baglam": "L152_PHONE_07.txt #23 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0339719175e9887b": {
+      "tr": "Bir şoför kamyonunu terk ediyor.",
+      "baglam": "L152_PHONE_07.txt #24 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_309f2449258c0655": {
+      "tr": "Tomas! Bırak kamyonu! BIRAK diyorum!",
+      "baglam": "L152_PHONE_07.txt #25 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_766ee4f165ef5661": {
+      "tr": "Bir şoför kabinine saklanıyor.",
+      "baglam": "L152_PHONE_07.txt #26 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_319fab0d5a821624": {
+      "tr": "Kilitledi, sindi, sesini kesti. Tamam diyor, tamam.",
+      "baglam": "L152_PHONE_07.txt #27 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6be39f12072b8f8f": {
+      "tr": "Bir kamyon çalışıp uzaklaşıyor.",
+      "baglam": "L152_PHONE_07.txt #28 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_657d2651057eefa2": {
+      "tr": "Marş motoruna vuruyor... Bastı! Marş bastı!!",
+      "baglam": "L152_PHONE_07.txt #29 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0328ac5d05aec1fe": {
+      "tr": "Bir palet filtre için imza attın.",
+      "baglam": "L152_PHONE_07.txt #30 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6769cf0d1d6b71fc": {
+      "tr": "Ha! Güzel, Tomas'a söylerim, senin rampaya bırakır. Sağ kalırsa tabii.",
+      "baglam": "L152_PHONE_07.txt #31 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3c97837255847ce9": {
+      "tr": "Bir ismin daha üstü çizildi.",
+      "baglam": "L152_PHONE_07.txt #32 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5028f71018a3169a": {
+      "tr": "Dana... Ah, vah vah.",
+      "baglam": "L152_PHONE_07.txt #33 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_64edb58e5ee5406b": {
+      "tr": "Ben... Ben seni sonra ararım.",
+      "baglam": "L152_PHONE_07.txt #34 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6177fdc31be4ada4": {
+      "tr": "Bir tedarikçinin yüzüne telefonu kapattın.",
+      "baglam": "L152_PHONE_07.txt #35 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_79ffe3820fa054d5": {
+      "tr": "Denise (klinik, Mississippi)",
+      "baglam": "L152_PHONE_08.txt #1 · UI2Answer ask.name"
+    },
+    "IGUI_ALifeUI_2c5001762a95d413": {
+      "tr": "Delta Family Clinic, ben Denise. Whitfield'ların oğlunun tahlil sonuçları için arıyorum.",
+      "baglam": "L152_PHONE_08.txt #2 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5d09329b128b15d5": {
+      "tr": "Doktor Ames orada mı? Elektrikler kesildiğinden beri bu numarayı çevirip duruyorum.",
+      "baglam": "L152_PHONE_08.txt #3 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5b98320d1fad4e9c": {
+      "tr": "Ben {you}. Burada Ames diye biri yok.",
+      "baglam": "L152_PHONE_08.txt #4 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_2923c1a97a1d2f60": {
+      "tr": "Doktor Ames geri gelmeyecek, Denise.",
+      "baglam": "L152_PHONE_08.txt #5 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_43fb852b1097405e": {
+      "tr": "Whitfield'ların oğlundan bahset bana.",
+      "baglam": "L152_PHONE_08.txt #6 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6442bfc710d70b58": {
+      "tr": "Kiminle görüşüyorum? Belki senin bir yardımın dokunur o zaman. Bekleme odasında portatif yataklarda altı kişi yatıyor, jeneratör de tekleyip duruyor.",
+      "baglam": "L152_PHONE_08.txt #7 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_15ea0f554d59370f": {
+      "tr": "Durumları nasıl, ağır mı?",
+      "baglam": "L152_PHONE_08.txt #8 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_46a61b31284db719": {
+      "tr": "Elimden bir şey gelmez, çok uzaktayım.",
+      "baglam": "L152_PHONE_08.txt #9 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_2e319f680162f611": {
+      "tr": "Sakin ol. Hattan ayrılmıyorum.",
+      "baglam": "L152_PHONE_08.txt #10 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0950356f4fc2b7b3": {
+      "tr": "Olamaz... Öğlen buradaydı daha, tavuk salatalı sandviç yiyordu.",
+      "baglam": "L152_PHONE_08.txt #11 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_12b7c81f2de08ef4": {
+      "tr": "Ben hemşire yardımcısıyım, doktor değilim ki! Ne yapacağım şimdi ben?",
+      "baglam": "L152_PHONE_08.txt #12 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_04ef89e07a402401": {
+      "tr": "Artık doktor sensin, Denise. Elinde ne var, onu söyle.",
+      "baglam": "L152_PHONE_08.txt #13 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_20089d181f4a5156": {
+      "tr": "Kliniği kilitle, yanındakileri de alıp kasabadan çık.",
+      "baglam": "L152_PHONE_08.txt #14 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6ae326053920c3a9": {
+      "tr": "Sen dayan, ben yardım bulmaya bakacağım.",
+      "baglam": "L152_PHONE_08.txt #15 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7c9887c2003bceaf": {
+      "tr": "Tyrell Whitfield, dokuz yaşında. Beta mikrobu kapmış, ateşi de var. Annesi dün gece getirdi.",
+      "baglam": "L152_PHONE_08.txt #16 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5abbda027daf071c": {
+      "tr": "Annesi ısırılmış. Kendi söylemiyor ama elini hep havlunun altında tutuyor.",
+      "baglam": "L152_PHONE_08.txt #17 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_66f8b88c07a5c985": {
+      "tr": "Isırığı yıka, nabzıyla ateşini takip et, saati de kadının bileğine yaz.",
+      "baglam": "L152_PHONE_08.txt #18 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_363f01c3798a4b32": {
+      "tr": "Annesini güzellikle ayır, çocuk hemşirelerin yanında kalsın.",
+      "baglam": "L152_PHONE_08.txt #19 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_32f28d201aae2692": {
+      "tr": "Gerçeği söyle ona, bilmek hakkı.",
+      "baglam": "L152_PHONE_08.txt #20 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7716ce031682ae94": {
+      "tr": "Çocuğun durumu nasıl şu an?",
+      "baglam": "L152_PHONE_08.txt #21 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_21a00a4c0f019114": {
+      "tr": "Üç numaralı yatakta uyuyor, yanında pelüş timsahı. Ateşi düşüyor, çok şükür.",
+      "baglam": "L152_PHONE_08.txt #22 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_742929b5282a820e": {
+      "tr": "Şimdi konuşamam.",
+      "baglam": "L152_PHONE_08.txt #23 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_06986d41433a4ad8": {
+      "tr": "Altı yatak var. İkisi ateşli, birinin göğsü ağrıyor, bir hanım da durmadan kedisini soruyor.",
+      "baglam": "L152_PHONE_08.txt #24 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7f8d4b552b2601e9": {
+      "tr": "Elimde ilaç dolabının anahtarı var, bir de dokuz şişe amoksisilin.",
+      "baglam": "L152_PHONE_08.txt #25 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1537e654743b74bc": {
+      "tr": "Hasta olanları ayrı tut, ellerini yıka, Ulusal Muhafızları bekle.",
+      "baglam": "L152_PHONE_08.txt #26 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3f283a670ab7c0d9": {
+      "tr": "Ateşlilerle ısırılanları arka odaya al, kalanlar ön kapının yanında dursun. Önce yürüyebilenler.",
+      "baglam": "L152_PHONE_08.txt #27 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_75f63e203b086d36": {
+      "tr": "Antibiyotikleri al, hava kararmadan çık oradan.",
+      "baglam": "L152_PHONE_08.txt #28 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_43f78064556c0e49": {
+      "tr": "Şu hanımla kedisini anlatsana biraz.",
+      "baglam": "L152_PHONE_08.txt #29 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_65d33b675db7f1b7": {
+      "tr": "Odessa Hanım o, kedisinin adı da Pickles. Fırtına çıkacağını Pickles önceden bilirmiş, öyle diyor.",
+      "baglam": "L152_PHONE_08.txt #30 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4c69bcbd0442eab2": {
+      "tr": "Klinik hastalarını ayırıyor.",
+      "baglam": "L152_PHONE_08.txt #31 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_307bc2e0725c6a10": {
+      "tr": "Ayrı tutayım, evet. Arka koridora alırım onları. Sağ ol.",
+      "baglam": "L152_PHONE_08.txt #32 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7bf1b59a10c40b6b": {
+      "tr": "Bir klinik düzene giriyor.",
+      "baglam": "L152_PHONE_08.txt #33 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0d4ce88049e47a54": {
+      "tr": "Triyaj, eğitim gününde öğrettikleri gibi. Arka oda, ön kapı. Allah razı olsun.",
+      "baglam": "L152_PHONE_08.txt #34 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_529622e42fb4bdc8": {
+      "tr": "Bir hemşire antibiyotikleri alıp gidiyor.",
+      "baglam": "L152_PHONE_08.txt #35 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4103c9f33dcf09c8": {
+      "tr": "Hapları al, çık git. Tamam. Tamam, bunu yapabilirim.",
+      "baglam": "L152_PHONE_08.txt #36 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_671612965709af51": {
+      "tr": "Bir anne gece boyunca gözetim altında tutuluyor.",
+      "baglam": "L152_PHONE_08.txt #37 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3022ee8b7df5bb0c": {
+      "tr": "Saat bileğine, tamam, tamam. Hemen yazıyorum.",
+      "baglam": "L152_PHONE_08.txt #38 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5ab566346fe087f0": {
+      "tr": "Bir anne gerçeği öğreniyor.",
+      "baglam": "L152_PHONE_08.txt #39 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_528dce4f2da285b6": {
+      "tr": "Haklısın... Haklısın. Alıştıra alıştıra söylerim.",
+      "baglam": "L152_PHONE_08.txt #40 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_28714cff7456174e": {
+      "tr": "Bir hemşirenin yüzüne telefonu kapattın.",
+      "baglam": "L152_PHONE_08.txt #41 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_78c7b877220d2391": {
+      "tr": "Marty (iş arkadaşı, Florida)",
+      "baglam": "L152_PHONE_09.txt #1 · UI2Answer ask.name"
+    },
+    "IGUI_ALifeUI_045afa6b7f933bed": {
+      "tr": "Alo, ben muhasebeden Marty. Dördüncü kattaki malzeme deposundayım, senden başka arayacak kimse gelmedi aklıma.",
+      "baglam": "L152_PHONE_09.txt #2 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_673cc84517d9f313": {
+      "tr": "Herkes gitmiş, bir Allah'ın kulu kalmamış! Tuvaletteydim, haber veren de olmadı.",
+      "baglam": "L152_PHONE_09.txt #3 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6a7c500750869e41": {
+      "tr": "Marty, binada bir sen mi kaldın?",
+      "baglam": "L152_PHONE_09.txt #4 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_06b5f1724e2836f0": {
+      "tr": "Niye fısıldıyorsun?",
+      "baglam": "L152_PHONE_09.txt #5 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_267a2edf78f2682f": {
+      "tr": "Hemen merdivenden inip çık oradan.",
+      "baglam": "L152_PHONE_09.txt #6 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_154b740b23b53a02": {
+      "tr": "Öyle galiba. Otomat hala vızıldıyor, buna da şükür.",
+      "baglam": "L152_PHONE_09.txt #7 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_65250ada7a93707c": {
+      "tr": "Koridorda sürüne sürüne giden bir şey var. Dönüp dolaşıp fotokopi makinesine çarpıyor.",
+      "baglam": "L152_PHONE_09.txt #8 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1d871aaa2fca0454": {
+      "tr": "Depoda kal, çıt çıkarma. Geçip gidene kadar bekle.",
+      "baglam": "L152_PHONE_09.txt #9 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5f01b1ee67ee7d08": {
+      "tr": "Tampa taraflarında güvenli yeri olan tanıdıklarım var. Adresini söyle.",
+      "baglam": "L152_PHONE_09.txt #10 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4ebdfa6e32716847": {
+      "tr": "Koridora bir şey fırlatıp merdivenlere koş.",
+      "baglam": "L152_PHONE_09.txt #11 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_264a6f163390c7f2": {
+      "tr": "Raflarda ne var orada?",
+      "baglam": "L152_PHONE_09.txt #12 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_12dbe5de5228cf02": {
+      "tr": "Toner, yazıcı kağıdı, bir de Bayan Dahl'ın emeklilik pastasından artan bir kutu. Bitiren olmamış.",
+      "baglam": "L152_PHONE_09.txt #13 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1eb19a3a7dd5028d": {
+      "tr": "Beni duyuyor da ondan.",
+      "baglam": "L152_PHONE_09.txt #14 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_023628e974d7f175": {
+      "tr": "Boynundaki askılı kart Carol'ın. Vallahi billahi Carol'ınki!",
+      "baglam": "L152_PHONE_09.txt #15 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6be063eb0b1df5a3": {
+      "tr": "Marty, derin bir nefes al. Ne görüyorsan olduğu gibi anlat.",
+      "baglam": "L152_PHONE_09.txt #16 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6a9b1ff7474c55ca": {
+      "tr": "Carol yok artık, Marty.",
+      "baglam": "L152_PHONE_09.txt #17 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_687d632a33c17a3a": {
+      "tr": "Tek kelime etmeden telefonu kapat.",
+      "baglam": "L152_PHONE_09.txt #18 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_67b6eb7037fea334": {
+      "tr": "İş arkadaşın depoda saklanıyor.",
+      "baglam": "L152_PHONE_09.txt #19 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_678f100432a661ba": {
+      "tr": "Çıt yok, tamam. Karıma öbür telefondan mesaj yazarım.",
+      "baglam": "L152_PHONE_09.txt #20 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_07d20d187e7ea17c": {
+      "tr": "Marty buluşma noktası belirliyor.",
+      "baglam": "L152_PHONE_09.txt #21 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_394986355825aff9": {
+      "tr": "Bayshore ofis kulesi, dördüncü kat. Yangın kapısında bekleyeceğim. Yalvarırım.",
+      "baglam": "L152_PHONE_09.txt #22 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_599945243c9cc310": {
+      "tr": "Zımba koridor boyunca uçuyor.",
+      "baglam": "L152_PHONE_09.txt #23 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_70bddaa1141e7348": {
+      "tr": "Zımba! Elimde zımba var! Bana dua et.",
+      "baglam": "L152_PHONE_09.txt #24 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4ce4cf7515aa122a": {
+      "tr": "Marty gerçekle yüzleşiyor.",
+      "baglam": "L152_PHONE_09.txt #25 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6834aec125bd5076": {
+      "tr": "Biliyorum... Biliyorum da birinin yüzüme söylemesi lazımdı.",
+      "baglam": "L152_PHONE_09.txt #26 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6a915974397d6b25": {
+      "tr": "Marty kaçmayı göze alıyor.",
+      "baglam": "L152_PHONE_09.txt #27 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3ad22efe5af01e2a": {
+      "tr": "Merdiven. Tamam. Şu... şeyin yanından geçeceğim. Hadi bakalım, hadi.",
+      "baglam": "L152_PHONE_09.txt #28 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_54eb43e132bfc3da": {
+      "tr": "Marty'nin yüzüne kapattın.",
+      "baglam": "L152_PHONE_09.txt #29 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_00976b7f784a6755": {
+      "tr": "Bay Ledbetter (müşteri, Florida)",
+      "baglam": "L152_PHONE_10.txt #1 · UI2Answer ask.name"
+    },
+    "IGUI_ALifeUI_4015635e492665ed": {
+      "tr": "Alo, iyi günler. Ledbetter ben, Pensacola'dan arıyorum. Teknem Second Wind için dört-dört-bir numaralı bir hasar dosyası vardı, onun için.",
+      "baglam": "L152_PHONE_10.txt #2 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0157e4985e1bb268": {
+      "tr": "Tekne on bir gündür iskelede, arayan soran yok. Tam on bir gün!",
+      "baglam": "L152_PHONE_10.txt #3 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1ae8e12d687da02c": {
+      "tr": "Ben {you}. Bay Ledbetter, büro kapandı, bir daha da açılmayacak.",
+      "baglam": "L152_PHONE_10.txt #4 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_137ce4c65558e8a9": {
+      "tr": "Tekneye ne oldu peki?",
+      "baglam": "L152_PHONE_10.txt #5 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_2652730357589580": {
+      "tr": "Seni hatta bekleteceğim.",
+      "baglam": "L152_PHONE_10.txt #6 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_20b576ce33524f22": {
+      "tr": "Yok yok, sakın bekletme beni! Obama döneminden beri bu şirketin hattında bekliyorum zaten!",
+      "baglam": "L152_PHONE_10.txt #7 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_472fad9860bde5f8": {
+      "tr": "Alo? Alo? Bir şarkı çalıyor...",
+      "baglam": "L152_PHONE_10.txt #8 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_730aac500128c2d5": {
+      "tr": "Peki, buradayım. Anlat bakalım, tekneye ne oldu?",
+      "baglam": "L152_PHONE_10.txt #9 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_74a35d722417369c": {
+      "tr": "Bekleme müziğinden başka çalışan bir şey kalmadı. Keyfini çıkar.",
+      "baglam": "L152_PHONE_10.txt #10 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5776435b128eebbd": {
+      "tr": "Bay Ledbetter, acil bir durum var. Hemen iskeleden uzaklaş!",
+      "baglam": "L152_PHONE_10.txt #11 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3b0db9790d0f93d6": {
+      "tr": "10 metrelik bir Catalina. Fırtınada dalgalar kabarınca su aldı. Evin hali daha beter olduğu için teknede yaşıyorum.",
+      "not": "34 feet -> 10 m",
+      "baglam": "L152_PHONE_10.txt #12 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_6af3ca401ed61c32": {
+      "tr": "Geceleri bir şey gövdeye vurup duruyor. Güm, güm... Sanki içeri girmek istiyor.",
+      "baglam": "L152_PHONE_10.txt #13 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_15ee870c06c21083": {
+      "tr": "Buradakiler bana kefil olur, seni de aramıza alırız. Gel bul bizi.",
+      "baglam": "L152_PHONE_10.txt #14 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_3834cc1c168c2fb0": {
+      "tr": "Merdiveni yukarı çek, halatları çöz, körfeze açılıp demir at.",
+      "baglam": "L152_PHONE_10.txt #15 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5b116b5803bfd2be": {
+      "tr": "Vuruşlara ses etme. Sakın lamba da yakma.",
+      "baglam": "L152_PHONE_10.txt #16 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_756ebfd71d04b917": {
+      "tr": "Ne zamandır vuruyor bu?",
+      "baglam": "L152_PHONE_10.txt #17 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_5520943c526bcad8": {
+      "tr": "Üç gecedir. Hep saat iki sularında başlıyor, martılar ötmeye başlayınca da kesiliyor.",
+      "baglam": "L152_PHONE_10.txt #18 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_66a9565c19958f9b": {
+      "tr": "Kapandı... temelli mi kapandı? Olur mu öyle şey! Kırk yıl prim ödedim ben!",
+      "baglam": "L152_PHONE_10.txt #19 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_10ba924146ed4158": {
+      "tr": "Orada kimse yok mu? Bir müdür? Bir insan evladı?",
+      "baglam": "L152_PHONE_10.txt #20 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_20de230620a26152": {
+      "tr": "Burada kalan son insan evladı benim. Kusura bakma.",
+      "baglam": "L152_PHONE_10.txt #21 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_48b4baeb45e528aa": {
+      "tr": "Bay Ledbetter, dosyan onaylandı. Hem de tam tazminat.",
+      "baglam": "L152_PHONE_10.txt #22 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_0919467a34369cc0": {
+      "tr": "Tekneden in, yüksek bir yere çık.",
+      "baglam": "L152_PHONE_10.txt #23 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_79b56dcc16adfce5": {
+      "tr": "Bir adam bekleme müziğinin keyfini çıkarıyor.",
+      "baglam": "L152_PHONE_10.txt #24 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4cebbe981b941cb7": {
+      "tr": "Yahu... bu şarkı aslında bayağı güzelmiş.",
+      "baglam": "L152_PHONE_10.txt #25 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_7707ba0d74b29bd7": {
+      "tr": "Bir denizci senin insanlarının yanına doğru yola çıkıyor.",
+      "baglam": "L152_PHONE_10.txt #26 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_2d58dcc433448cba": {
+      "tr": "Benim gibi bir ihtiyara kefil mi olacaksın? Allah razı olsun. Olta takımlarımı da getiririm.",
+      "baglam": "L152_PHONE_10.txt #27 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_2aad5bc7573ffc3e": {
+      "tr": "Körfeze açılıp demir atıyor.",
+      "baglam": "L152_PHONE_10.txt #28 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_536ffe950f552ce7": {
+      "tr": "Açığa demir atmak, olur, yaparım onu. '04'te de yapmıştım.",
+      "baglam": "L152_PHONE_10.txt #29 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_4fe95e8e2df2b152": {
+      "tr": "Karanlıkta oturuyor.",
+      "baglam": "L152_PHONE_10.txt #30 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_44a65f7977e85f30": {
+      "tr": "Karanlık, sessizlik, anladım. Sağ ol evladım.",
+      "baglam": "L152_PHONE_10.txt #31 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_262977d82fce5705": {
+      "tr": "Eski bir müşterinin derdine kulak veriliyor.",
+      "baglam": "L152_PHONE_10.txt #32 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_527410b93fb64502": {
+      "tr": "Öyleyse özrünü kabul ediyorum. On bir gündür kimseden bu kadarını bile görmedim.",
+      "baglam": "L152_PHONE_10.txt #33 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_236b58f30054f182": {
+      "tr": "Ölüm sessizliğindeki bir büroda bir dosya onaylanıyor.",
+      "baglam": "L152_PHONE_10.txt #34 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_41867faf1454ee5b": {
+      "tr": "Onaylandı! Hem de tamamı! Vay be, inanamıyorum... Second Wind, duydun mu?",
+      "baglam": "L152_PHONE_10.txt #35 · P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_1c4a281b1a2ae04e": {
+      "tr": "Bir müşterinin yüzüne telefonu kapattın.",
+      "baglam": "L152_PHONE_10.txt #36 · alan / P.line -> Text.ui"
+    },
+    "IGUI_ALifeUI_251566aa4d999148": {
+      "tr": "PUSU",
+      "baglam": "L152_TASK_UI.txt #1 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_04cd60e05a2d86b3": {
+      "tr": "YENİ GÖREV",
+      "baglam": "L152_TASK_UI.txt #2 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_4d5c485218b41bd2": {
+      "tr": "GÖREV TAMAMLANDI",
+      "baglam": "L152_TASK_UI.txt #3 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_77bb1457596a1797": {
+      "tr": "GÖREV BAŞARISIZ",
+      "baglam": "L152_TASK_UI.txt #4 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_14644da13b51ff80": {
+      "tr": "GÖREV GÜNCELLENDİ",
+      "baglam": "L152_TASK_UI.txt #5 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_3090b7056dd7f3b3": {
+      "tr": "Vazgeçildi",
+      "baglam": "L152_TASK_UI.txt #6 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_26bf4666567fb377": {
+      "tr": "Aktif",
+      "baglam": "L152_TASK_UI.txt #7 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_380e1edb7749a86c": {
+      "tr": "Tamamlandı",
+      "baglam": "L152_TASK_UI.txt #8 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_323ee2ef1b813180": {
+      "tr": "Başarısız",
+      "baglam": "L152_TASK_UI.txt #9 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_7afce4b00779b5a9": {
+      "tr": "Geri dönüp bilgi ver",
+      "baglam": "L152_TASK_UI.txt #10 · alan / M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_5316a1c6391f0428": {
+      "tr": "Geride Kalanlar",
+      "baglam": "L152_TASK_UI.txt #11 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_5f8bd5fb5c090212": {
+      "tr": "Dell'in dediğine göre {dir} yönünde yaklaşık {dist} metre",
+      "baglam": "L152_TASK_UI.txt #12 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_0ce689f67afe4bf0": {
+      "tr": "Blöf yap",
+      "baglam": "L152_TASK_UI.txt #13 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_2aebe13a0fca7795": {
+      "tr": "İçeride kalan: {n}",
+      "baglam": "L152_TASK_UI.txt #14 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_052db5620ff93d56": {
+      "tr": "Çevrendeki Six Mile Boys üyeleri: {n}",
+      "baglam": "L152_TASK_UI.txt #15 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_46055c1d1ca21513": {
+      "tr": "Dell'e olanları anlat",
+      "baglam": "L152_TASK_UI.txt #16 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_4e8911a62cdc933f": {
+      "tr": "Rapor ver",
+      "baglam": "L152_TASK_UI.txt #17 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_7c8c3eda5d331f74": {
+      "tr": "GÖREV",
+      "baglam": "L152_TASK_UI.txt #18 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_30d08fc423e87ee9": {
+      "tr": "Bitti",
+      "baglam": "L152_TASK_UI.txt #20 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_25f4beda20be712b": {
+      "tr": "İşi verenle konuş",
+      "baglam": "L152_TASK_UI.txt #21 · M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_6b73e93003b3956f": {
+      "tr": "Görevi isteyen artık yok",
+      "baglam": "L152_TASK_OUTCOMES.txt #1 · alan / event.text -> M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_0e7b063b68a04f44": {
+      "tr": "Görevden vazgeçtin",
+      "baglam": "L152_TASK_OUTCOMES.txt #2 · event.text -> M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_6002de660bbe6e80": {
+      "tr": "Yük gitti",
+      "baglam": "L152_TASK_OUTCOMES.txt #3 · event.text -> M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_22b369c215d56b70": {
+      "tr": "Bu görev artık alınamıyor",
+      "baglam": "L152_TASK_OUTCOMES.txt #4 · event.text -> M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_01167a5649753c94": {
+      "tr": "Görevi artık sana emanet etmiyorlar",
+      "baglam": "L152_TASK_OUTCOMES.txt #5 · event.text -> M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_772816ef68ef5064": {
+      "tr": "Başaramadın",
+      "baglam": "L152_TASK_OUTCOMES.txt #6 · event.text -> M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_2617ce922f3e7b93": {
+      "tr": "Görev başarısız oldu",
+      "baglam": "L152_TASK_OUTCOMES.txt #7 · event.text -> M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_4229e4ce110f2ab0": {
+      "tr": "Süresi yaklaşık {n} saat sonra doluyor",
+      "baglam": "L152_TASK_OUTCOMES.txt #8 · task log -> M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_365e8087394f9d7c": {
+      "tr": "{who} ile konuş",
+      "baglam": "L152_TASK_OUTCOMES.txt #9 · task detail -> M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_5196914f66a7cc7d": {
+      "tr": "Tanıştığın biri için",
+      "baglam": "L152_TASK_OUTCOMES.txt #10 · mission summary fallback -> M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_54f6779057b6b68b": {
+      "tr": "{who} için",
+      "baglam": "L152_TASK_OUTCOMES.txt #11 · mission summary -> M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_5477f7785788f8fa": {
+      "tr": "Teslim edilen: {have}/{need}",
+      "baglam": "L152_TASK_OUTCOMES.txt #12 · event.text -> M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_688b692c7c485d31": {
+      "tr": "Teslim edilen su: {have}/{need} litre",
+      "baglam": "L152_TASK_OUTCOMES.txt #13 · event.text -> M.text -> Text.ui"
+    },
+    "IGUI_ALifeUI_62b3fdb369900ddb": {
+      "tr": "Alındı: {count}x {item}",
+      "baglam": "L152_TASK_TREE_NOTES.txt #1 · treeNote -> C.note -> Notice.line/HaloTextHelper"
+    },
+    "IGUI_ALifeUI_56d569d751829150": {
+      "tr": "Bulundu: {item}",
+      "baglam": "L152_TASK_TREE_NOTES.txt #2 · treeNote -> C.note -> Notice.line/HaloTextHelper"
+    },
+    "IGUI_ALifeUI_277934900e8bd12b": {
+      "tr": "Teslim edildi",
+      "baglam": "L152_TASK_TREE_NOTES.txt #3 · treeNote -> C.note -> Notice.line/HaloTextHelper"
+    },
+    "IGUI_ALifeUI_66bbdd4000c82e8e": {
+      "tr": "Görev başarısız oldu: {task}",
+      "baglam": "L152_TASK_TREE_NOTES.txt #4 · treeNote -> C.note -> Notice.line/HaloTextHelper"
+    },
+    "IGUI_ALifeUI_4f0fd48124ba0e28": {
+      "tr": "Görev tamamlandı: {who} ile tekrar görüş",
+      "baglam": "L152_TASK_TREE_NOTES.txt #5 · treeNote -> C.note -> Notice.line/HaloTextHelper"
+    },
+    "IGUI_ALifeUI_178d036863963f62": {
+      "tr": "İşi veren artık yok, ödemeyi ekibi yaptı",
+      "baglam": "L152_TASK_TREE_NOTES.txt #6 · treeNote -> C.note -> Notice.line/HaloTextHelper"
+    },
+    "IGUI_ALifeUI_7a0b3ade18ec7eee": {
+      "tr": "[Charm] Başarısız",
+      "baglam": "L152_TASK_TREE_NOTES.txt #7 · treeNote -> C.note -> Notice.line/HaloTextHelper"
+    },
+    "IGUI_ALifeUI_525d591929eec5b8": {
+      "tr": "[Charm] Başarılı",
+      "baglam": "L152_TASK_TREE_NOTES.txt #8 · treeNote -> C.note -> Notice.line/HaloTextHelper"
+    },
+    "IGUI_ALifeUI_475db47e671e428c": {
+      "tr": "Tahliye bölgesi",
+      "baglam": "L152_UI_MAP.txt #1 · alan"
+    },
+    "IGUI_ALifeUI_666ad95711b7d0d4": {
+      "tr": "Telsiz işareti",
+      "baglam": "L152_UI_MAP.txt #2 · alan"
+    },
+    "IGUI_ALifeUI_57a833fc787d1325": {
+      "tr": "İşaretli konum",
+      "baglam": "L152_UI_MAP.txt #3 · alan"
+    },
+    "IGUI_ALifeUI_1ec297d143658cd2": {
+      "tr": "Burada görev var",
+      "baglam": "L152_UI_MAP.txt #4 · alan"
+    },
+    "IGUI_ALifeUI_21f41def473986df": {
+      "tr": "Kan efekti düzeyi",
+      "baglam": "L152_UI_SETTINGS.txt #1 · alan"
+    },
+    "IGUI_ALifeUI_4f719f2578044494": {
+      "tr": "Bir NPC öldüğünde ne kadar kan çıkacağını belirler. Sunucunun izin verdiği miktarı yalnızca azaltabilir. Bu ayar bu bilgisayarda saklanır.",
+      "baglam": "L152_UI_SETTINGS.txt #2 · alan"
+    },
+    "IGUI_ALifeUI_014cc05b7400e3b3": {
+      "tr": "Kapalı: Helikopterlerden müzik duyulmaz, yalnızca pervane sesi gelir. Bu tercih bu bilgisayarda saklanır.",
+      "baglam": "L152_UI_SETTINGS.txt #3 · alan"
+    },
+    "IGUI_ALifeUI_4ca317be6cab9b59": {
+      "tr": "Ekran düzeni",
+      "baglam": "L152_UI_SETTINGS.txt #4 · alan"
+    },
+    "IGUI_ALifeUI_0155d7465fd47d8a": {
+      "tr": "Arayüz renkleri",
+      "baglam": "L152_UI_SETTINGS.txt #5 · alan"
+    },
+    "IGUI_ALifeUI_5366d5e366685e57": {
+      "tr": "Nötr: Konuşma penceresindeki gibi gri pencereler. Mavi: Eski camgöbeği görünümü. Bu tercih bu bilgisayarda saklanır.",
+      "baglam": "L152_UI_SETTINGS.txt #6 · alan"
+    },
+    "IGUI_ALifeUI_373ebf213b4071d0": {
+      "tr": "Açılır bildirimler ve görev kartları",
+      "baglam": "L152_UI_SETTINGS.txt #7 · alan"
+    },
+    "IGUI_ALifeUI_3c8cb7c057bce638": {
+      "tr": "Konuşma şeridi",
+      "baglam": "L152_UI_SETTINGS.txt #8 · alan"
+    },
+    "IGUI_ALifeUI_12958e1a2705c57a": {
+      "tr": "İtibar bildirimi",
+      "baglam": "L152_UI_SETTINGS.txt #9 · alan"
+    },
+    "IGUI_ALifeUI_457a88d01a987b0e": {
+      "tr": "Performans kutusu",
+      "baglam": "L152_UI_SETTINGS.txt #10 · alan"
+    },
+    "IGUI_ALifeUI_000abe7727ef49bd": {
+      "tr": "Tutsak kartı",
+      "baglam": "L152_UI_SETTINGS.txt #11 · alan"
+    },
+    "IGUI_ALifeUI_1c895633284fd3f3": {
+      "tr": "NPC konuşma geçmişi",
+      "baglam": "L152_UI_SETTINGS.txt #12 · alan"
+    },
+    "IGUI_ALifeUI_46fe713f4f9ba60d": {
+      "tr": "Konuşma uyarısı",
+      "baglam": "L152_UI_SETTINGS.txt #13 · alan"
+    },
+    "IGUI_ALifeUI_1ca8db3a6f193756": {
+      "tr": "Arayüz öğelerini taşı",
+      "baglam": "L152_UI_SETTINGS.txt #14 · alan"
+    },
+    "IGUI_ALifeUI_5444cf3441f1374b": {
+      "tr": "Bu pencere kapanır. Ardından altyazıları, açılır bildirimleri, tanıtım kartlarını, konuşma şeridini ve diğer A-Life öğelerini istediğin yere sürükleyebilirsin. Pencereleri başlık çubuklarından her zaman taşıyabilirsin. Konumları kaydedilir.",
+      "baglam": "L152_UI_SETTINGS.txt #15 · alan"
+    },
+    "IGUI_ALifeUI_10de33bb35a3dd8a": {
+      "tr": "Taşınmış tüm A-Life pencerelerini ve öğelerini varsayılan konumlarına geri getirir.",
+      "baglam": "L152_UI_SETTINGS.txt #16 · alan"
+    },
+    "IGUI_ALifeUI_7b0164b720bdd249": {
+      "tr": "Yeni: Sade konuşma şeridi. Klasik: Numaralı yanıtların bulunduğu eski konuşma penceresi. Sunucu varsayılanı: Sandbox ayarını kullanır. Bu tercih bu bilgisayarda saklanır ve bir sonraki konuşmada geçerli olur.",
+      "baglam": "L152_UI_SETTINGS.txt #17 · alan"
+    },
+    "IGUI_ALifeUI_56ffe3bf05728ae7": {
+      "tr": "Arayüz görünümü",
+      "baglam": "L152_UI_SETTINGS.txt #18 · alan"
+    },
+    "IGUI_ALifeUI_19b813ae2f1c4805": {
+      "tr": "Klasik görünüm, numaralı yanıtların bulunduğu eski konuşma penceresini geri getirir. Bir sonraki konuşmayı açtığında geçerli olur.",
+      "baglam": "L152_UI_SETTINGS.txt #19 · alan"
+    }
+  }
+}

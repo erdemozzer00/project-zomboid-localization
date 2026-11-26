@@ -1,0 +1,145 @@
+# Project A-Life 1.5.2 · Genel görev NPC replikleri · 4/4 · Haberleşme, takas ve ortak görev yanıtları
+# Bu dosyada 222–289 arası numaralar çevrilecek. Çıktıyı aynı sıralamayla, her satırda N | Türkçe biçiminde ver.
+# Yalnız numaralı İngilizce replikleri çevir. Başlıkları, oyuncu sorularını ve mevcut Türkçe karşılıkları çıktıya alma.
+# Her replik görevi veren NPC'nin Konuş sekmesinde tek bir oyuncuya hitabı. Oyuncuya “sen” de. Replikte NPC bir grup adına konuşuyorsa “biz” anlamını koru.
+# Bir aşamadaki replikler birbirinin alternatifi. Her satırı tek başına doğal duyulacak şekilde yaz. Kolluk ve askerî varyantların tonunu koru.
+# {name} oyun içi kişi adı. {where} yer türü, varsa kasaba tarifi, yaklaşık mesafe ve yönü birlikte taşıyabilen bir yer öbeği.
+# Yer tutucuları yazımı ve adediyle aynen koru, Türkçe sözdizimine göre yerlerini değiştirebilirsin. Değişken kişi ve yer adlarına ek gerektirmeyecek bir yapı kur.
+# Terimler · camp = kamp, horde = sürü, radio (iki yönlü haberleşme) = telsiz, raider = yağmacı, outpost = karakol.
+
+##### Başka kampa haber götürme #####
+# Oyuncudan yazılı bir mesajı başka kampa ulaştırması isteniyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Got a message to send?
+# Teklif · NPC işi ilk kez anlatıyor
+222 | My people are at {where}, take this note and tell them we're alive
+223 | Carry this to the camp at {where}, they'll know what it means
+# Kabul · Oyuncu görevi üstlenmiş
+224 | Say it exactly as I told you, and keep the note dry
+# Ret · Oyuncu teklifi geri çevirmiş
+225 | Then it stays unsent
+# Takip · Oyuncu açık işin durumunu soruyor
+226 | Have you delivered it yet? People are waiting
+227 | Don't lose that note
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+228 | Thank you, that lifts a weight
+229 | They'll act on it now, good work
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+230 | They've moved on, the word is useless
+
+##### Buluşmada not teslimi #####
+# Oyuncu notu tenha bir yerde bekleyen bağlantıya elden verecek.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Anyone need a meeting arranged?
+# Teklif · NPC işi ilk kez anlatıyor
+231 | Take this note to my contact near {where}, no questions, hand it over in person
+232 | Meet my contact out by {where}, give him this and say nothing
+# Kabul · Oyuncu görevi üstlenmiş
+233 | Don't be late, and don't look nervous
+# Ret · Oyuncu teklifi geri çevirmiş
+234 | Then I'll send someone I trust less
+# Takip · Oyuncu açık işin durumunu soruyor
+235 | He's waiting, you're late
+236 | Keep that note out of sight
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+237 | Good, he gave me the nod
+238 | That's one thing off my back
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+239 | He left, you cost us a deal
+
+##### Kamplar arası takas #####
+# Oyuncu sandığı diğer kampa götürecek ve karşılığında verilen malı geri getirecek.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Got goods to move between camps?
+# Teklif · NPC işi ilk kez anlatıyor
+240 | Take this crate to {where}, they'll hand you something in return, bring it back
+241 | I need a trader who won't skim, will you carry it
+# Kabul · Oyuncu görevi üstlenmiş
+242 | Count it when you hand it over, count it when you get it back
+# Ret · Oyuncu teklifi geri çevirmiş
+243 | I'll find another mule
+# Takip · Oyuncu açık işin durumunu soruyor
+244 | The crate's not going to deliver itself
+245 | Did they pay you in full
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+246 | Fair exchange, thank you
+247 | You didn't skim, I noticed
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+248 | They won't deal with me now, thanks to you
+
+##### Çalınan eşyaları geri alma #####
+# Bir ekip yiyecek veya alet çalmış. Görevi veren kişi çalınanların geri getirilmesini istiyor.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Did someone take something from you?
+# Teklif · NPC işi ilk kez anlatıyor
+249 | A crew took our food stores, they're holed up near {where}
+250 | They stole our tools, bring them back and I'll owe you
+# Teklif · NPC işi ilk kez anlatıyor · KOLLUK VARYANTI
+251 | Recover the stolen goods near {where} and bring them back intact
+# Kabul · Oyuncu görevi üstlenmiş
+252 | Watch yourself, they don't give up what they take
+# Ret · Oyuncu teklifi geri çevirmiş
+253 | I wouldn't blame you for saying no
+# Takip · Oyuncu açık işin durumunu soruyor
+254 | Don't get killed over a box of cans
+255 | Any sign of our things
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+256 | I never thought I'd see them again, thank you
+257 | That's all of it, I'm in your debt
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+258 | They moved it, the trail's cold
+
+##### İşaret ateşi #####
+# Oyuncu yüksek bir yerde işaret ateşi yakacak. Amaç başkalarının nereye geleceklerini görmesi.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Need a signal lit?
+# Teklif · NPC işi ilk kez anlatıyor
+259 | Climb to the high point near {where} and set a signal fire, we need a light for the others
+260 | We need a light up high so the others know where to come
+# Kabul · Oyuncu görevi üstlenmiş
+261 | Take the matches, get up there quick and get down quicker
+# Ret · Oyuncu teklifi geri çevirmiş
+262 | We'll find another way to signal
+# Takip · Oyuncu açık işin durumunu soruyor
+263 | It's getting dark, is the light up
+264 | Keep it burning
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+265 | They'll see it, thank you
+266 | Perfect, now we wait
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+267 | No signal came, we lost them
+
+##### Telsizle uyarı iletme #####
+# Oyuncu telsizi yüksek bir yere kurup yoldaki yağmacılar konusunda diğer kampı uyaracak.
+# Oyuncunun konuşmayı açan sorusu (bağlam) · Anything the next camp should hear?
+# Teklif · NPC işi ilk kez anlatıyor
+268 | A crew is heading for the next camp and they have no idea, take this radio to the high ground near {where} and send the warning
+269 | Set this radio up near {where}, there are raiders on the road and the next camp must hear it
+# Kabul · Oyuncu görevi üstlenmiş
+270 | Run, don't walk, we've no time
+# Ret · Oyuncu teklifi geri çevirmiş
+271 | Understood, may the road be kind to them
+# Takip · Oyuncu açık işin durumunu soruyor
+272 | Have they been warned yet? Every hour counts
+273 | Is the radio on
+# Teslim · Oyuncu işi tamamlayıp sonucunu bildiriyor
+274 | Good, they'll be ready, thank you
+275 | You may have saved that whole camp
+# Vazgeçme · Oyuncu üstlendiği işi bırakıyor
+276 | They were hit before the warning went out
+
+##### Birçok görevde kullanılan ortak yanıtlar #####
+# Konuşan görev veren NPC. Replikler çeşitli görevlerde kullanılabilir. Göreve özgü kişi, yer veya eşya adı ekleme.
+# Yaklaşım · NPC, iş teklifinin hemen ardından oyuncunun işi nasıl ele alacağını soruyor. Cümle teklifin arkasına eklenebiliyor.
+277 | So how do you want to play it?
+278 | How you gonna handle it, quiet or loud?
+279 | Your call how, just get it done
+280 | You going in careful, or all at once?
+# Karşılık · Oyuncu ödülü sorunca NPC ne verebileceğini ve daha riskli yolun karşılığını söylüyor.
+281 | I'll pay fair.. and more if you're brave enough to go where it's still stocked
+282 | Whatever I can spare, and a little extra if you take the risky way
+283 | Fair pay, promise.. how you get it is your business, the fast way's the dangerous one
+# Çantadan teslim · Oyuncu gereken eşyayı zaten yanında taşıyor ve hemen veriyor.
+284 | That'll do, you had it on you all along
+285 | Straight from your pack, no questions
+# Eksik teslim · Gereken eşyanın tamamı teslim edilmemiş veya işin şartı tamamlanmamış.
+286 | You're missing something, I don't see it all
+287 | Not everything's here, check your pack
+# Geçersiz teklif · Oyuncu artık geçerli olmayan teklif üzerinden karşılık sormaya veya işi kabul etmeye çalışıyor.
+288 | That offer's gone cold, ask me again
+289 | Too slow, I found somebody else

@@ -3,14 +3,11 @@
 Kullanım: python araclar/workshop_kur.py
 Hedef: C:\\Users\\Erdem\\Zomboid\\Workshop\\ProjectALife_TR
 teslim/ klasöründeki çeviri dosyaları her çalıştırmada yeniden kopyalanır.
-Görseller yalnızca yoksa üretilir (sonradan kendi görselini koyarsan ezilmez).
+Workshop açıklaması güncellenir; mevcut preview.png korunur ve oyun içi poster onunla eşitlenir. Yeni görsel üretilmez.
 """
 import json
-import math
 import re
 import shutil
-import struct
-import zlib
 from pathlib import Path
 
 KOK = Path(__file__).resolve().parent.parent
@@ -19,84 +16,49 @@ MOD = HEDEF / "Contents" / "mods" / "ProjectALifeTR"
 SURUM = MOD / "42"
 TR = MOD / "common" / "media" / "lua" / "shared" / "Translate" / "TR"
 
-MOD_INFO = """name=Project A-Life - Türkçe Çeviri
+MOD_ADI = "Project A-Life - Türkçe Çeviri"
+MOD_YAZARLARI = "Ozzer, Nalbarlkarl"
+MOD_ACIKLAMASI = "Project A-Life [ALIFE NPCS] için Türkçe çeviri. Orijinal mod gerekir. İki mod da etkin olmalı; oyun dilin Türkçe olunca çeviri kendiliğinden devreye girer. Çok oyunculuda çevirinin görünmesi için sunucunun mod listesine bu çeviri modunu da ekle. Baş çevirmen: Ozzer. Yardımcı çevirmen: Nalbarlkarl."
+ATOLYE_ID = "3833513956"
+ATOLYE_ETIKETLERI = "Build 42;Language/Translation;Literature;Military;Multiplayer"
+
+MOD_INFO = f"""name={MOD_ADI}
 id=ProjectALifeNPCs_TR
 require=\\ProjectALifeNPCs
-author=Erdem, gladium, kebab, Nalbarkar
-modversion=1.4.5-tr2
+author={MOD_YAZARLARI}
+modversion=2.00
 versionMin=42.21.0
 poster=poster.png
-icon=icon.png
-description=Project A-Life [ALIFE NPCS] için Türkçe çeviri. Orijinal mod gerekir. Oyun dili Türkçe olunca kendiliğinden devreye girer.
+icon=poster.png
+description={MOD_ACIKLAMASI}
 """
 
 ACIKLAMA_TR = [
-    '[h1]Project A-Life - Türkçe Çeviri[/h1]',
-    '[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3803984183]Project A-Life [ALIFE NPCS][/url] modunun Türkçe çevirisi.',
-    '',
-    "[b]Modun yapımcısı Vice'ın onayıyla hazırlanan tek Türkçe çeviri budur.[/b] Diğer Türkçe çeviri modları yapımcı onaylı değildir, onlara itibar etme. Birlikte kurarsan da aynı yazıları birbirinin üstüne yazar, oyunda karışıklık çıkar.",
-    '',
-    '[h2]Nasıl kullanılır?[/h2]',
-    '[list]',
-    '[*]Orijinal moda ve bu moda abone ol.',
-    '[*]Mods menüsünde ikisini de etkinleştir.',
-    '[*]Oyun dilin Türkçe olsun, gerisi kendiliğinden gelir.',
-    '[/list]',
-    '',
-    '[h2]Neler Türkçe?[/h2]',
-    "Bütün sandbox ayarları, konuşma penceresi, kapı ve ziyaretçiler, yaralanma ve itibar ekranları, menüler, fraksiyon adları, NPC unvanları, Oluşturucu ve NPC'lerin sık söylediği laflar (selamlaşma, yoldan geçerken laf, kısa tepkiler).",
-    '',
-    '[h2]Bilinen sınırlar[/h2]',
-    "Bazı yazılar şimdilik İngilizce: NPC diyaloglarının bir kısmı, radyo yayınları ve Oluşturucu'daki birkaç onay penceresi. Oyun deneyimini bozmaz; çeviri güncellemelerle tamamlanacak.",
-    '',
-    '[h2]Çok oyunculu[/h2]',
-    'Sunucuda çevirinin görünmesi için çeviri modunu da sunucunun mod listesine ekle.',
-    '',
-    '[h2]Emeği geçenler[/h2]',
-    'Çeviri ve düzenleme: Erdem · Çevirmenler: gladium, kebab, Nalbarkar',
-    "Modu yapan ve çeviriye izin veren Vice'a teşekkürler.",
-    '',
-    '--------------------',
-    'Workshop ID: 3833513956',
-    'Mod ID: ProjectALifeNPCs_TR',
+    MOD_ACIKLAMASI,
 ]
 
 
-def png(yol, boyut):
-    """Kırmızı zemin üstünde ay yıldız (geçici görsel; Pillow gerekmez)."""
-    w = h = boyut
-    cx, cy = w * 0.40, h * 0.5
-    r1, r2 = w * 0.24, w * 0.19
-    ox = w * 0.06
-    sx, sy, sr = w * 0.69, h * 0.5, w * 0.09
-    yildiz = [(sx + sr * math.cos(math.radians(-90 + 72 * i)),
-               sy + sr * math.sin(math.radians(-90 + 72 * i))) for i in range(5)]
-    sira = [yildiz[i * 2 % 5] for i in range(5)]
+def workshop_metaverisi_yaz(ws):
+    """Başlık/açıklamayı güncel tut; atölye kimliği, etiket ve görünürlüğü koru."""
+    mevcut = {}
+    if ws.exists():
+        for satir in ws.read_text(encoding="utf-8").splitlines():
+            if "=" in satir:
+                anahtar, deger = satir.split("=", 1)
+                if anahtar != "description":
+                    mevcut[anahtar] = deger
 
-    def yildizda(x, y):
-        # sarılma sayısı (nonzero) kuralı: yıldızın ortası da dolu
-        sayi = 0
-        for i in range(5):
-            x1, y1 = sira[i]
-            x2, y2 = sira[(i + 1) % 5]
-            if (y1 > y) != (y2 > y) and x < (x2 - x1) * (y - y1) / (y2 - y1) + x1:
-                sayi += 1 if y2 > y1 else -1
-        return sayi != 0
-
-    satirlar = bytearray()
-    for y in range(h):
-        satirlar.append(0)
-        for x in range(w):
-            ay = (x - cx) ** 2 + (y - cy) ** 2 <= r1 ** 2 and (x - cx - ox) ** 2 + (y - cy) ** 2 > r2 ** 2
-            beyaz = ay or yildizda(x + 0.5, y + 0.5)
-            satirlar += bytes((255, 255, 255) if beyaz else (227, 10, 23))
-    veri = zlib.compress(bytes(satirlar), 9)
-
-    def parca(tip, icerik):
-        return struct.pack(">I", len(icerik)) + tip + icerik + struct.pack(">I", zlib.crc32(tip + icerik) & 0xFFFFFFFF)
-
-    yol.write_bytes(b"\x89PNG\r\n\x1a\n" + parca(b"IHDR", struct.pack(">IIBBBBB", w, h, 8, 2, 0, 0, 0))
-                    + parca(b"IDAT", veri) + parca(b"IEND", b""))
+    satirlar = [
+        f"version={mevcut.get('version', '1')}",
+        f"id={mevcut.get('id', ATOLYE_ID)}",
+        f"title={MOD_ADI}",
+    ]
+    satirlar.extend(f"description={metin}" for metin in ACIKLAMA_TR)
+    satirlar.extend([
+        f"tags={mevcut.get('tags', ATOLYE_ETIKETLERI)}",
+        f"visibility={mevcut.get('visibility', 'public')}",
+    ])
+    ws.write_text("\n".join(satirlar) + "\n", encoding="utf-8", newline="\n")
 
 
 ASCII = str.maketrans({**dict(zip("şŞğĞıİçÇöÖüÜâÂ", "sSgGiIcCoOuUaA")), "…": "...", "→": "->", "—": "-"})
@@ -132,14 +94,21 @@ def lua_ek():
     """
     hedef = MOD / "common" / "media" / "lua" / "client" / "ALifeTurkce"
     hedef.mkdir(parents=True, exist_ok=True)
-    for ad, onay in (("ALifeTR_Creator.lua", "Creator_lua.json"), ("ALifeTR_Konusma.lua", "RadioData_lua.json"), ("ALifeTR_Bilgi.lua", "Bilgi_UI.json")):
+    ekler = (
+        ("ALifeTR_Creator.lua", "Creator_lua.json"),
+        ("ALifeTR_Konusma.lua", "RadioData_lua.json"),
+        ("ALifeTR_Bilgi.lua", "Bilgi_UI.json"),
+        ("ALifeTR_L152.lua", "IG_UI_lua.json"),
+        ("ALifeTR_AD1.lua", "IG_UI_lua.json"),
+    )
+    for ad, onay in ekler:
         if not (KOK / "onayli" / onay).exists():
             continue
         (hedef / ad).write_text(ek_metni(ad), encoding="ascii", newline="\n")
 
 
 def bilgi_metni():
-    """K55: ana menü bilgi kutusunun metni (onayli/Bilgi_UI.json) yalnızca mod klasöründeki UI.json'a eklenir.
+    """Ana menü bilgi kutusunun metni (onayli/Bilgi_UI.json) yalnızca mod klasöründeki UI.json'a eklenir.
 
     teslim/UI.json (yapımcıya giden, EN anahtarlarıyla birebir dosya) değişmez.
     """
@@ -155,6 +124,70 @@ def bilgi_metni():
 def ek_metni(ad):
     """araclar/lua/<ad> → yer tutucuları doldurulmuş, ASCII Lua metni (testler de bunu çalıştırır)."""
     metin = (KOK / "araclar" / "lua" / ad).read_text(encoding="utf-8")
+    if "__AD1_METINLERI__" in metin:
+        ad1 = json.loads((KOK / "paketler/haritalar/AD1_harita.json").read_text(encoding="utf-8"))["satirlar"]
+        driving154 = json.loads((KOK / "paketler/haritalar/DR154_harita.json").read_text(encoding="utf-8"))["satirlar"]
+        gruplar = {
+            "driving": range(6, 22),
+            "tabs": [1, 2, 43, 44, *range(221, 233)],
+            "search": [23, 24, *range(92, 109)],
+            "spawn": range(83, 90),
+            "choices": range(242, 295),
+            "advanced": range(295, 347),
+            "cleanup": [*range(51, 67), *range(69, 73)],
+            "adminLabels": [25, 28, 31, 32, 36, 37, 42, 45, 46, *range(236, 242)],
+            "adminButtons": [26, 30, 38, 39, 40, 41],
+            "adminWindow": [48, 49, 50, 109, 233, 234, 235],
+            "adminWorld": [29, 33, 34, 35],
+            "spawnDetails": [80, 81, 90, 91, *range(105, 109)],
+            "cleanupDetails": [27, 67, 68, 73, 74],
+            "build": [*range(115, 137), *range(139, 151)],
+            "status": [215, 216, 217],
+            "drivingRoute": [152, 153, *range(155, 178), 179],
+            "routePresets": range(180, 187),
+            "drivingPerformance": [178],
+            "drivingTuning": [187, *range(189, 194)],
+            "outpostNames": range(355, 397),
+            "classicDetails": [76, 77],
+            "classicEncounter": range(194, 215),
+            "builderDetails": [111, 137],
+            "crewTitle": [22],
+        }
+        tablolar = []
+        for grup, numaralar in gruplar.items():
+            satirlar = []
+            for numara in numaralar:
+                anahtar, en, _ = ad1[str(numara)]
+                satirlar.append(f"        [{json.dumps(en)}] = {json.dumps(anahtar)},")
+            if grup == "driving":
+                for anahtar, en, _ in driving154.values():
+                    satirlar.append(f"        [{json.dumps(en)}] = {json.dumps(anahtar)},")
+            tablolar.append(f"    {grup} = {{\n" + "\n".join(satirlar) + "\n    },")
+        metin = metin.replace("__AD1_METINLERI__", "{\n" + "\n".join(tablolar) + "\n}")
+    if "__GOREV_METINLERI__" in metin:
+        def satirlar(paket, grup):
+            rapor = json.loads((KOK / "paketler/haritalar" / f"{paket}_harita.json").read_text(encoding="utf-8"))
+            return [rapor["satirlar"][str(no)][1] for no in rapor["_teknik"][grup]]
+
+        ek = json.loads((KOK / "paketler/haritalar/AL_EK_UI_harita.json").read_text(encoding="utf-8"))["satirlar"]
+
+        def ek_araligi(bas, son):
+            return [ek[str(no)][1] for no in range(bas, son + 1)]
+
+        gruplar = {
+            "speech": satirlar("TB_GENEL", "kalip_satirlari"),
+            "pitch": satirlar("TB_GENEL", "birlesen_teklif_satirlari"),
+            "how": satirlar("TB_GENEL", "yaklasim_sorusu_satirlari"),
+            "stage": satirlar("TB_ASAMA", "kalip_satirlari") + ["Get to the {place}", "Clear the {place}"],
+            "tree": ek_araligi(1, 15),
+            "modal": ek_araligi(26, 29),
+            "number": ek_araligi(30, 34),
+            "share": ek_araligi(35, 42),
+        }
+        metin = metin.replace("__GOREV_METINLERI__", "{\n" + "\n".join(
+            f"    {grup} = {{ " + ", ".join(json.dumps(en) for en in metinler) + " },"
+            for grup, metinler in gruplar.items()
+        ) + "\n}")
     if "__ONEKLER__" in metin:
         onekler = json.loads((KOK / "kaynak" / "Creator_onek.json").read_text(encoding="utf-8"))
         lua_dizi = "{\n" + "".join("    " + json.dumps(o, ensure_ascii=True) + ",\n" for o in onekler) + "}"
@@ -184,15 +217,24 @@ def main():
         shutil.copyfile(kaynak, TR / ad)
     bilgi_metni()
     lua_ek()
-    for yol, boyut in ((HEDEF / "preview.png", 256), (SURUM / "poster.png", 512), (SURUM / "icon.png", 64)):
-        if not yol.exists():
-            png(yol, boyut)
+    # Vanilla map symbols persist the translation key across language changes.
+    from lua_cikar import h
+    name = "Extraction zone"
+    fallback = TR.parent / "EN" / "IG_UI.json"
+    fallback.parent.mkdir(parents=True, exist_ok=True)
+    fallback.write_text(json.dumps({"IGUI_ALifeUI_" + h("alifetr.map.tip|" + name): name}, indent=4) + "\n",
+                        encoding="utf-8", newline="\n")
+    preview = HEDEF / "preview.png"
+    poster = SURUM / "poster.png"
+    if not preview.is_file():
+        raise FileNotFoundError(f"Mevcut Workshop bannerı bulunamadı; yeni görsel oluşturulmadı: {preview}")
+    shutil.copyfile(preview, poster)
+    # Eski bağımsız simge dosyasını kaldır; mod.info küçük simge olarak poster.png'yi kullanır.
+    icon = SURUM / "icon.png"
+    if icon.exists():
+        icon.unlink()
     ws = HEDEF / "workshop.txt"
-    if not ws.exists():  # yükleyici id ekleyince ezilmesin
-        satir = ["version=1", "title=Project A-Life - Türkçe Çeviri"]
-        satir += [f"description={s}" for s in ACIKLAMA_TR]
-        satir += ["tags=", "visibility=public"]
-        ws.write_text("\n".join(satir) + "\n", encoding="utf-8", newline="\n")
+    workshop_metaverisi_yaz(ws)
     for p in sorted(HEDEF.rglob("*")):
         if p.is_file():
             print(p.relative_to(HEDEF.parent), p.stat().st_size)

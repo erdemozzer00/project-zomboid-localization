@@ -1,19 +1,20 @@
 """Onaylanan paketi onayli/<dosya>.json'a işler (anahtar sırası yeni EN ile aynı).
 
 Kullanim: python araclar/onayla.py S1
-Önce paket_kontrol.py temiz olmalı; değilse işlemez.
+Aktarılacak satırları yeniden denetler. Hata varsa onaylı dosyaya yazmaz.
 """
-import json, subprocess, sys
+import json, sys
 from pathlib import Path
+
+from paket_kontrol import paketi_denetle
 
 KOK = Path(__file__).resolve().parent.parent
 
 
 def main(kod):
-    md = (KOK / 'paketler' / f'{kod}.md').read_text(encoding='utf-8')
-    if 'Otomatik kontrol: temiz' not in md:
-        sys.exit(f'{kod}: otomatik kontrol temiz değil, önce paket_kontrol.py çalıştır.')
     paket = json.loads((KOK / 'paketler' / f'{kod}.json').read_text(encoding='utf-8'))
+    if not paketi_denetle(kod, paket):
+        sys.exit(f'{kod}: güncel paket kontrolden geçmedi. Ayrıntılar paketler/{kod}.md dosyasında.')
     dosya = paket['_dosya']
     kaynak = KOK / ('kaynak' if dosya.endswith('_lua') else 'kaynak/en')  # _lua: araclar/lua_cikar.py
     yeni = json.loads((kaynak / f'{dosya}.json').read_text(encoding='utf-8'))

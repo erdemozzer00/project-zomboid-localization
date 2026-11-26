@@ -10,7 +10,7 @@ Yöntem: modun bütün Lua dizeleri (lua_dize) alınır; ekran çağrısı bağl
 Aday = İngilizce görünümlü (harf, en az 2 sözcük ya da büyük harfle başlayan 4+ harfli tek sözcük), Text.ui/forPlayer/show/msg/radio
 çağrısının İÇİNDE DEĞİL (oradakilerin anahtarı lua_cikar.py ile zaten kapsanır) ve bilinen kümelerde olmayan dize.
 Bilinen kümeler (normalize: küçük harf, harf/rakam/{} dışı çıkar): modun EN IG_UI/Sandbox/UI/ItemName JSON'u, kaynak/IG_UI_lua.json,
-kaynak/Creator_lua.json, kaynak/RadioData_lua.json, rapor/*_harita.json (bekleyen paketler: Y1-Y5, G1…), Creator_kalip.json kalıpları.
+kaynak/Creator_lua.json, kaynak/RadioData_lua.json, paketler/haritalar/*_harita.json (bekleyen paketler: Y1-Y5, G1…), Creator_kalip.json kalıpları.
 """
 import bisect
 import json
@@ -89,7 +89,7 @@ def bilinen():
     for ad in ("IG_UI_lua", "Creator_lua", "RadioData_lua", "Creator_onek"):
         ekle(json.loads((KOK / "kaynak" / f"{ad}.json").read_text(encoding="utf-8")))
     ekle(json.loads((KOK / "kaynak" / "Creator_kalip.json").read_text(encoding="utf-8")))
-    for f in (KOK / "rapor").glob("*_harita.json"):
+    for f in (KOK / "paketler/haritalar").glob("*_harita.json"):
         d = json.loads(f.read_text(encoding="utf-8"))
         for v in d.get("satirlar", {}).values():
             if isinstance(v, list) and len(v) > 1 and isinstance(v[1], str):

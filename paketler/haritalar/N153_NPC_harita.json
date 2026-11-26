@@ -1,0 +1,5319 @@
+{
+  "_paket": "N153_NPC",
+  "_grup": "npc_sorulari_1_5_3",
+  "_dosya": "RadioData_lua",
+  "_baslik": "1.5.3 NPC soruları ve tepkileri",
+  "_parcalar": [
+    [
+      1,
+      482
+    ]
+  ],
+  "_noktalama": true,
+  "_orijinal_numaralar": {
+    "1": 11,
+    "2": 12,
+    "3": 13,
+    "4": 14,
+    "5": 15,
+    "6": 16,
+    "7": 19,
+    "8": 20,
+    "9": 21,
+    "10": 22,
+    "11": 23,
+    "12": 24,
+    "13": 27,
+    "14": 28,
+    "15": 29,
+    "16": 30,
+    "17": 31,
+    "18": 32,
+    "19": 35,
+    "20": 36,
+    "21": 37,
+    "22": 38,
+    "23": 39,
+    "24": 40,
+    "25": 41,
+    "26": 42,
+    "27": 43,
+    "28": 44,
+    "29": 45,
+    "30": 46,
+    "31": 49,
+    "32": 50,
+    "33": 51,
+    "34": 52,
+    "35": 53,
+    "36": 54,
+    "37": 57,
+    "38": 58,
+    "39": 59,
+    "40": 60,
+    "41": 61,
+    "42": 62,
+    "43": 65,
+    "44": 66,
+    "45": 67,
+    "46": 68,
+    "47": 69,
+    "48": 70,
+    "49": 71,
+    "50": 72,
+    "51": 73,
+    "52": 74,
+    "53": 75,
+    "54": 76,
+    "55": 79,
+    "56": 80,
+    "57": 81,
+    "58": 82,
+    "59": 83,
+    "60": 84,
+    "61": 87,
+    "62": 88,
+    "63": 89,
+    "64": 90,
+    "65": 91,
+    "66": 92,
+    "67": 95,
+    "68": 96,
+    "69": 97,
+    "70": 98,
+    "71": 99,
+    "72": 100,
+    "73": 101,
+    "74": 102,
+    "75": 103,
+    "76": 104,
+    "77": 105,
+    "78": 106,
+    "79": 107,
+    "80": 108,
+    "81": 109,
+    "82": 110,
+    "83": 111,
+    "84": 112,
+    "85": 113,
+    "86": 114,
+    "87": 115,
+    "88": 119,
+    "89": 120,
+    "90": 121,
+    "91": 122,
+    "92": 123,
+    "93": 124,
+    "94": 125,
+    "95": 126,
+    "96": 127,
+    "97": 131,
+    "98": 132,
+    "99": 133,
+    "100": 134,
+    "101": 135,
+    "102": 136,
+    "103": 137,
+    "104": 138,
+    "105": 142,
+    "106": 143,
+    "107": 144,
+    "108": 145,
+    "109": 146,
+    "110": 147,
+    "111": 148,
+    "112": 149,
+    "113": 150,
+    "114": 151,
+    "115": 152,
+    "116": 153,
+    "117": 154,
+    "118": 155,
+    "119": 156,
+    "120": 157,
+    "121": 158,
+    "122": 159,
+    "123": 160,
+    "124": 161,
+    "125": 162,
+    "126": 163,
+    "127": 164,
+    "128": 165,
+    "129": 169,
+    "130": 170,
+    "131": 171,
+    "132": 172,
+    "133": 173,
+    "134": 174,
+    "135": 175,
+    "136": 176,
+    "137": 177,
+    "138": 181,
+    "139": 182,
+    "140": 183,
+    "141": 184,
+    "142": 185,
+    "143": 186,
+    "144": 187,
+    "145": 188,
+    "146": 189,
+    "147": 193,
+    "148": 194,
+    "149": 195,
+    "150": 196,
+    "151": 197,
+    "152": 198,
+    "153": 199,
+    "154": 200,
+    "155": 201,
+    "156": 202,
+    "157": 203,
+    "158": 204,
+    "159": 205,
+    "160": 206,
+    "161": 207,
+    "162": 208,
+    "163": 209,
+    "164": 210,
+    "165": 211,
+    "166": 212,
+    "167": 213,
+    "168": 214,
+    "169": 215,
+    "170": 216,
+    "171": 220,
+    "172": 221,
+    "173": 222,
+    "174": 223,
+    "175": 224,
+    "176": 225,
+    "177": 226,
+    "178": 227,
+    "179": 231,
+    "180": 232,
+    "181": 233,
+    "182": 234,
+    "183": 235,
+    "184": 236,
+    "185": 237,
+    "186": 238,
+    "187": 242,
+    "188": 243,
+    "189": 244,
+    "190": 245,
+    "191": 246,
+    "192": 247,
+    "193": 248,
+    "194": 249,
+    "195": 250,
+    "196": 251,
+    "197": 252,
+    "198": 253,
+    "199": 254,
+    "200": 255,
+    "201": 256,
+    "202": 257,
+    "203": 258,
+    "204": 259,
+    "205": 260,
+    "206": 261,
+    "207": 262,
+    "208": 263,
+    "209": 264,
+    "210": 265,
+    "211": 269,
+    "212": 270,
+    "213": 271,
+    "214": 272,
+    "215": 273,
+    "216": 274,
+    "217": 275,
+    "218": 279,
+    "219": 280,
+    "220": 281,
+    "221": 282,
+    "222": 283,
+    "223": 284,
+    "224": 285,
+    "225": 286,
+    "226": 287,
+    "227": 291,
+    "228": 292,
+    "229": 293,
+    "230": 294,
+    "231": 295,
+    "232": 296,
+    "233": 297,
+    "234": 298,
+    "235": 299,
+    "236": 300,
+    "237": 301,
+    "238": 302,
+    "239": 303,
+    "240": 304,
+    "241": 305,
+    "242": 306,
+    "243": 307,
+    "244": 308,
+    "245": 309,
+    "246": 310,
+    "247": 311,
+    "248": 312,
+    "249": 313,
+    "250": 317,
+    "251": 318,
+    "252": 319,
+    "253": 320,
+    "254": 321,
+    "255": 322,
+    "256": 323,
+    "257": 324,
+    "258": 325,
+    "259": 329,
+    "260": 330,
+    "261": 331,
+    "262": 332,
+    "263": 333,
+    "264": 334,
+    "265": 335,
+    "266": 336,
+    "267": 337,
+    "268": 341,
+    "269": 342,
+    "270": 343,
+    "271": 344,
+    "272": 345,
+    "273": 346,
+    "274": 347,
+    "275": 348,
+    "276": 349,
+    "277": 350,
+    "278": 351,
+    "279": 352,
+    "280": 353,
+    "281": 354,
+    "282": 355,
+    "283": 356,
+    "284": 357,
+    "285": 358,
+    "286": 359,
+    "287": 360,
+    "288": 361,
+    "289": 362,
+    "290": 363,
+    "291": 364,
+    "292": 368,
+    "293": 369,
+    "294": 370,
+    "295": 371,
+    "296": 372,
+    "297": 373,
+    "298": 374,
+    "299": 375,
+    "300": 376,
+    "301": 380,
+    "302": 381,
+    "303": 382,
+    "304": 383,
+    "305": 384,
+    "306": 385,
+    "307": 386,
+    "308": 387,
+    "309": 388,
+    "310": 392,
+    "311": 393,
+    "312": 394,
+    "313": 395,
+    "314": 396,
+    "315": 397,
+    "316": 398,
+    "317": 399,
+    "318": 400,
+    "319": 401,
+    "320": 402,
+    "321": 403,
+    "322": 404,
+    "323": 405,
+    "324": 406,
+    "325": 407,
+    "326": 408,
+    "327": 409,
+    "328": 410,
+    "329": 411,
+    "330": 412,
+    "331": 413,
+    "332": 414,
+    "333": 418,
+    "334": 419,
+    "335": 420,
+    "336": 421,
+    "337": 422,
+    "338": 423,
+    "339": 424,
+    "340": 425,
+    "341": 426,
+    "342": 430,
+    "343": 431,
+    "344": 432,
+    "345": 433,
+    "346": 434,
+    "347": 435,
+    "348": 436,
+    "349": 437,
+    "350": 438,
+    "351": 442,
+    "352": 443,
+    "353": 444,
+    "354": 445,
+    "355": 446,
+    "356": 447,
+    "357": 448,
+    "358": 449,
+    "359": 450,
+    "360": 451,
+    "361": 452,
+    "362": 453,
+    "363": 454,
+    "364": 455,
+    "365": 456,
+    "366": 457,
+    "367": 458,
+    "368": 459,
+    "369": 460,
+    "370": 461,
+    "371": 462,
+    "372": 463,
+    "373": 464,
+    "374": 465,
+    "375": 469,
+    "376": 470,
+    "377": 471,
+    "378": 472,
+    "379": 473,
+    "380": 474,
+    "381": 475,
+    "382": 476,
+    "383": 480,
+    "384": 481,
+    "385": 482,
+    "386": 483,
+    "387": 484,
+    "388": 485,
+    "389": 486,
+    "390": 487,
+    "391": 488,
+    "392": 492,
+    "393": 493,
+    "394": 494,
+    "395": 495,
+    "396": 496,
+    "397": 497,
+    "398": 498,
+    "399": 499,
+    "400": 500,
+    "401": 501,
+    "402": 502,
+    "403": 503,
+    "404": 504,
+    "405": 505,
+    "406": 506,
+    "407": 507,
+    "408": 508,
+    "409": 509,
+    "410": 510,
+    "411": 511,
+    "412": 512,
+    "413": 513,
+    "414": 514,
+    "415": 515,
+    "416": 519,
+    "417": 520,
+    "418": 521,
+    "419": 522,
+    "420": 523,
+    "421": 524,
+    "422": 525,
+    "423": 526,
+    "424": 527,
+    "425": 531,
+    "426": 532,
+    "427": 533,
+    "428": 534,
+    "429": 535,
+    "430": 536,
+    "431": 537,
+    "432": 538,
+    "433": 539,
+    "434": 543,
+    "435": 544,
+    "436": 545,
+    "437": 546,
+    "438": 547,
+    "439": 548,
+    "440": 549,
+    "441": 550,
+    "442": 551,
+    "443": 552,
+    "444": 553,
+    "445": 554,
+    "446": 555,
+    "447": 556,
+    "448": 557,
+    "449": 558,
+    "450": 559,
+    "451": 560,
+    "452": 561,
+    "453": 562,
+    "454": 563,
+    "455": 564,
+    "456": 565,
+    "457": 569,
+    "458": 570,
+    "459": 571,
+    "460": 572,
+    "461": 573,
+    "462": 574,
+    "463": 575,
+    "464": 576,
+    "465": 577,
+    "466": 581,
+    "467": 582,
+    "468": 583,
+    "469": 584,
+    "470": 585,
+    "471": 586,
+    "472": 587,
+    "473": 588,
+    "474": 592,
+    "475": 593,
+    "476": 594,
+    "477": 595,
+    "478": 596,
+    "479": 597,
+    "480": 598,
+    "481": 599,
+    "482": 600
+  },
+  "satirlar": {
+    "1": [
+      "RD_ALifeLine_37b90f607dfed2c3",
+      "You doing okay? Like, actually okay?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:142",
+        "NPC_ASKS_COPING",
+        "NPC SORU · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "2": [
+      "RD_ALifeLine_5b5948995f1d033d",
+      "Hey.. how's your head these days, with everything?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:142",
+        "NPC_ASKS_COPING",
+        "NPC SORU · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "3": [
+      "RD_ALifeLine_0c640d635173c527",
+      "You keeping it together?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:143",
+        "NPC_ASKS_COPING",
+        "NPC SORU · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "4": [
+      "RD_ALifeLine_084a752b76dda703",
+      "How are you, honestly? Not the polite answer",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:143",
+        "NPC_ASKS_COPING",
+        "NPC SORU · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "5": [
+      "RD_ALifeLine_02fb7e9b696aa051",
+      "You okay? I'm not prying, just checking",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:144",
+        "NPC_ASKS_COPING",
+        "NPC SORU · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "6": [
+      "RD_ALifeLine_68a52257008d92ae",
+      "Things getting to you yet?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:144",
+        "NPC_ASKS_COPING",
+        "NPC SORU · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "7": [
+      "RD_ALifeLine_40e12eed34c40143",
+      "That's a relief, honest, I needed to hear that from someone",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:28",
+        "NPC_ANSWER_COPING_GOOD",
+        "NPC TEPKİ · B1 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "8": [
+      "RD_ALifeLine_18344a5b701b85b1",
+      "Hang onto whatever's keeping you going",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:28",
+        "NPC_ANSWER_COPING_GOOD",
+        "NPC TEPKİ · B1 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "9": [
+      "RD_ALifeLine_45bac0ef146e6149",
+      "More than most can say right now",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:29",
+        "NPC_ANSWER_COPING_GOOD",
+        "NPC TEPKİ · B1 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "10": [
+      "RD_ALifeLine_305a1eee717cb244",
+      "Glad to hear it, keep at it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:29",
+        "NPC_ANSWER_COPING_GOOD",
+        "NPC TEPKİ · B1 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "11": [
+      "RD_ALifeLine_5a9c56f97a58bfe7",
+      "Fair enough, that's all I wanted to know",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:30",
+        "NPC_ANSWER_COPING_GOOD",
+        "NPC TEPKİ · B1 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "12": [
+      "RD_ALifeLine_6e06b6216b51d200",
+      "Holding up is plenty, these days",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:30",
+        "NPC_ANSWER_COPING_GOOD",
+        "NPC TEPKİ · B1 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "13": [
+      "RD_ALifeLine_7e3ecfb923b6f41d",
+      "Me neither.. you're not the only one, okay",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:22",
+        "NPC_ANSWER_COPING_BAD",
+        "NPC TEPKİ · B2 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "14": [
+      "RD_ALifeLine_5f97403f003693d9",
+      "Shit, I'm sorry.. sit a minute if you need to",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:22",
+        "NPC_ANSWER_COPING_BAD",
+        "NPC TEPKİ · B2 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "15": [
+      "RD_ALifeLine_56687b1f0f6d532d",
+      "I hear you, nobody's doing great",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:23",
+        "NPC_ANSWER_COPING_BAD",
+        "NPC TEPKİ · B2 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "16": [
+      "RD_ALifeLine_7a123136597e6467",
+      "Damn.. well, you're still standing, that counts",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:23",
+        "NPC_ANSWER_COPING_BAD",
+        "NPC TEPKİ · B2 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "17": [
+      "RD_ALifeLine_2b6ee60777dd6bb8",
+      "Rough for all of us, I guess",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:24",
+        "NPC_ANSWER_COPING_BAD",
+        "NPC TEPKİ · B2 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "18": [
+      "RD_ALifeLine_6641451f56feaadc",
+      "Can't say I'm surprised",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:24",
+        "NPC_ANSWER_COPING_BAD",
+        "NPC TEPKİ · B2 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "19": [
+      "RD_ALifeLine_599fe9ed6e808094",
+      "Forget I asked, no pressure",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:34",
+        "NPC_ANSWER_COPING_PRIVATE",
+        "NPC TEPKİ · B3 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "20": [
+      "RD_ALifeLine_78195ea9444818e9",
+      "That's fine, really, whenever you want",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:34",
+        "NPC_ANSWER_COPING_PRIVATE",
+        "NPC TEPKİ · B3 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "21": [
+      "RD_ALifeLine_1bbdf0e272ce9dd1",
+      "Fair, I get that",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:35",
+        "NPC_ANSWER_COPING_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "22": [
+      "RD_ALifeLine_75b6d0281c8d6c71",
+      "Dropping it, no problem",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:35",
+        "NPC_ANSWER_COPING_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "23": [
+      "RD_ALifeLine_2c1b28726eb893a7",
+      "Suit yourself, I'm done asking",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:36",
+        "NPC_ANSWER_COPING_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "24": [
+      "RD_ALifeLine_6db39f6470c41762",
+      "Keep it then, I've got my own stuff",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:36",
+        "NPC_ANSWER_COPING_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "25": [
+      "RD_ALifeLine_339d2515406b10c4",
+      "So where to after this? Somewhere safe, I hope",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:148",
+        "NPC_ASKS_DESTINATION",
+        "NPC SORU · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "26": [
+      "RD_ALifeLine_4388a5ec2b7b08cb",
+      "You off somewhere, or just wandering?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:148",
+        "NPC_ASKS_DESTINATION",
+        "NPC SORU · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "27": [
+      "RD_ALifeLine_24a8cd7447db220d",
+      "Where you headed after this?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:149",
+        "NPC_ASKS_DESTINATION",
+        "NPC SORU · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "28": [
+      "RD_ALifeLine_5603b3496e783412",
+      "Got somewhere to be?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:149",
+        "NPC_ASKS_DESTINATION",
+        "NPC SORU · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "29": [
+      "RD_ALifeLine_41dfab37366da18d",
+      "Where to next? I'd rather not cross paths by accident",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:150",
+        "NPC_ASKS_DESTINATION",
+        "NPC SORU · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "30": [
+      "RD_ALifeLine_663b7a101cb9cb9f",
+      "So what's next for you, after here?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:150",
+        "NPC_ASKS_DESTINATION",
+        "NPC SORU · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "31": [
+      "RD_ALifeLine_62e4f04f586cef6f",
+      "Get some rest when you're there, alright",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:40",
+        "NPC_ANSWER_DESTINATION_HOME",
+        "NPC TEPKİ · B1 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "32": [
+      "RD_ALifeLine_0e56ebd372da9ae0",
+      "Glad you've got somewhere, seriously",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:40",
+        "NPC_ANSWER_DESTINATION_HOME",
+        "NPC TEPKİ · B1 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "33": [
+      "RD_ALifeLine_06050ccc6fe6cee8",
+      "Watch yourself getting there",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:41",
+        "NPC_ANSWER_DESTINATION_HOME",
+        "NPC TEPKİ · B1 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "34": [
+      "RD_ALifeLine_6e063bb209314caa",
+      "Makes sense, safe trip",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:41",
+        "NPC_ANSWER_DESTINATION_HOME",
+        "NPC TEPKİ · B1 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "35": [
+      "RD_ALifeLine_399fefdf66a425b4",
+      "Don't need to know where it is, keep it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:42",
+        "NPC_ANSWER_DESTINATION_HOME",
+        "NPC TEPKİ · B1 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "36": [
+      "RD_ALifeLine_585e7a1a553f43e0",
+      "I won't follow, don't worry",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:42",
+        "NPC_ANSWER_DESTINATION_HOME",
+        "NPC TEPKİ · B1 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "37": [
+      "RD_ALifeLine_44358f552499a14d",
+      "Hope you find something good, honestly",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:52",
+        "NPC_ANSWER_DESTINATION_SUPPLIES",
+        "NPC TEPKİ · B2 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "38": [
+      "RD_ALifeLine_6c46bb835943f1e2",
+      "Be careful picking through stuff, places get nasty",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:52",
+        "NPC_ANSWER_DESTINATION_SUPPLIES",
+        "NPC TEPKİ · B2 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "39": [
+      "RD_ALifeLine_71b6c8857973b597",
+      "Everybody's picking the same bones",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:53",
+        "NPC_ANSWER_DESTINATION_SUPPLIES",
+        "NPC TEPKİ · B2 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "40": [
+      "RD_ALifeLine_1547ad3a35eaf92c",
+      "Good luck, it's slim pickings lately",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:53",
+        "NPC_ANSWER_DESTINATION_SUPPLIES",
+        "NPC TEPKİ · B2 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "41": [
+      "RD_ALifeLine_24e5e13c4227c836",
+      "Just don't pick my spots clean",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:54",
+        "NPC_ANSWER_DESTINATION_SUPPLIES",
+        "NPC TEPKİ · B2 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "42": [
+      "RD_ALifeLine_0a728162053747fd",
+      "Go on then, I won't keep you",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:54",
+        "NPC_ANSWER_DESTINATION_SUPPLIES",
+        "NPC TEPKİ · B2 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "43": [
+      "RD_ALifeLine_6724c44f0bbf2625",
+      "No, that's smart, actually",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:46",
+        "NPC_ANSWER_DESTINATION_PRIVATE",
+        "NPC TEPKİ · B3 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "44": [
+      "RD_ALifeLine_764100c35d890640",
+      "Fair, I'd do the same",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:46",
+        "NPC_ANSWER_DESTINATION_PRIVATE",
+        "NPC TEPKİ · B3 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "45": [
+      "RD_ALifeLine_68708cc450d1320f",
+      "Keep it close then, that's fair",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:47",
+        "NPC_ANSWER_DESTINATION_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "46": [
+      "RD_ALifeLine_7cb69a2c300bb069",
+      "No problem, it was just small talk",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:47",
+        "NPC_ANSWER_DESTINATION_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "47": [
+      "RD_ALifeLine_6ee262846f8ac092",
+      "Noted, I won't ask twice",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:48",
+        "NPC_ANSWER_DESTINATION_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "48": [
+      "RD_ALifeLine_4174164c6f1110d0",
+      "Smart, less I know, the better",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:48",
+        "NPC_ANSWER_DESTINATION_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "49": [
+      "RD_ALifeLine_06aa880c23ff474d",
+      "Anything bad back the way you came?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:169",
+        "NPC_ASKS_ROAD",
+        "NPC SORU · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "50": [
+      "RD_ALifeLine_1eb0d92062c678c0",
+      "Rough trip getting here? You can tell me",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:169",
+        "NPC_ASKS_ROAD",
+        "NPC SORU · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "51": [
+      "RD_ALifeLine_5291add6091ea045",
+      "Anything happening back where you were?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:170",
+        "NPC_ASKS_ROAD",
+        "NPC SORU · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "52": [
+      "RD_ALifeLine_64c3835403fd1203",
+      "How bad is it out there, where you've been?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:170",
+        "NPC_ASKS_ROAD",
+        "NPC SORU · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "53": [
+      "RD_ALifeLine_6a14b3d23d1f4e8e",
+      "Anything nasty back your way? I'd rather hear it now",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:171",
+        "NPC_ASKS_ROAD",
+        "NPC SORU · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "54": [
+      "RD_ALifeLine_59b221ac52e34c36",
+      "What did you see coming in? Don't sugarcoat it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:171",
+        "NPC_ASKS_ROAD",
+        "NPC SORU · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "55": [
+      "RD_ALifeLine_580760a362e72706",
+      "Oh thank God, finally some good news",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:103",
+        "NPC_ANSWER_ROAD_CLEAR",
+        "NPC TEPKİ · B1 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "56": [
+      "RD_ALifeLine_546185fe4878898e",
+      "I'll take quiet, I'll take it gladly",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:103",
+        "NPC_ANSWER_ROAD_CLEAR",
+        "NPC TEPKİ · B1 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "57": [
+      "RD_ALifeLine_6c2708b2432d3791",
+      "Quiet's good, quiet's rare",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:104",
+        "NPC_ANSWER_ROAD_CLEAR",
+        "NPC TEPKİ · B1 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "58": [
+      "RD_ALifeLine_685f6e337c2c2d32",
+      "Worth knowing, thanks",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:104",
+        "NPC_ANSWER_ROAD_CLEAR",
+        "NPC TEPKİ · B1 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "59": [
+      "RD_ALifeLine_5f9649cf6758d0f2",
+      "Quiet doesn't last, but okay",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:105",
+        "NPC_ANSWER_ROAD_CLEAR",
+        "NPC TEPKİ · B1 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "60": [
+      "RD_ALifeLine_041205002bff9a20",
+      "We'll see, I'll check anyway",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:105",
+        "NPC_ANSWER_ROAD_CLEAR",
+        "NPC TEPKİ · B1 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "61": [
+      "RD_ALifeLine_3354eb3f30799652",
+      "Shit.. okay, okay, I'll stay away from that way",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:109",
+        "NPC_ANSWER_ROAD_DEAD",
+        "NPC TEPKİ · B2 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "62": [
+      "RD_ALifeLine_11335112396bfa3e",
+      "God.. thanks for telling me, really",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:109",
+        "NPC_ANSWER_ROAD_DEAD",
+        "NPC TEPKİ · B2 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "63": [
+      "RD_ALifeLine_411ea00a7ef93951",
+      "Damn, I'll keep my eyes open",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:110",
+        "NPC_ANSWER_ROAD_DEAD",
+        "NPC TEPKİ · B2 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "64": [
+      "RD_ALifeLine_74cb76a458987144",
+      "Figures, they're everywhere now",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:110",
+        "NPC_ANSWER_ROAD_DEAD",
+        "NPC TEPKİ · B2 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "65": [
+      "RD_ALifeLine_1ae9b585741460de",
+      "Noted, I'll go wide around it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:111",
+        "NPC_ANSWER_ROAD_DEAD",
+        "NPC TEPKİ · B2 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "66": [
+      "RD_ALifeLine_6235d1766ff7e1e0",
+      "Then I'm not going back that way",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:111",
+        "NPC_ANSWER_ROAD_DEAD",
+        "NPC TEPKİ · B2 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "67": [
+      "RD_ALifeLine_647f802639414da4",
+      "That's okay, keeping your head down is smart",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:115",
+        "NPC_ANSWER_ROAD_UNKNOWN",
+        "NPC TEPKİ · B3 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "68": [
+      "RD_ALifeLine_6d549a981b1bf84d",
+      "No worries, honest beats a guess",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:115",
+        "NPC_ANSWER_ROAD_UNKNOWN",
+        "NPC TEPKİ · B3 · Dost · 1.5.3 ek varyantı",
+        "st=friendly|fact=npcask_more"
+      ]
+    ],
+    "69": [
+      "RD_ALifeLine_22007ed31243a97c",
+      "Worth asking anyway",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:116",
+        "NPC_ANSWER_ROAD_UNKNOWN",
+        "NPC TEPKİ · B3 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "70": [
+      "RD_ALifeLine_726fe18b6336b39f",
+      "I'll find out myself then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:116",
+        "NPC_ANSWER_ROAD_UNKNOWN",
+        "NPC TEPKİ · B3 · Tarafsız · 1.5.3 ek varyantı",
+        "st=neutral|fact=npcask_more"
+      ]
+    ],
+    "71": [
+      "RD_ALifeLine_060b956533f3068d",
+      "Guess I'll go slow and find out",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:117",
+        "NPC_ANSWER_ROAD_UNKNOWN",
+        "NPC TEPKİ · B3 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "72": [
+      "RD_ALifeLine_2884076d3c041d94",
+      "Then I'll assume the worst",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:117",
+        "NPC_ANSWER_ROAD_UNKNOWN",
+        "NPC TEPKİ · B3 · Temkinli · 1.5.3 ek varyantı",
+        "st=careful|fact=npcask_more"
+      ]
+    ],
+    "73": [
+      "RD_ALifeLine_00e0e4cd6b5624cb",
+      "You getting any sleep? Honestly?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:175",
+        "NPC_ASKS_SLEEP",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "74": [
+      "RD_ALifeLine_2d139cad765532e1",
+      "Hey, are you sleeping at all? Be honest with me",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:175",
+        "NPC_ASKS_SLEEP",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "75": [
+      "RD_ALifeLine_35170c4a366bed3a",
+      "You managing to sleep, with all this going on?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:175",
+        "NPC_ASKS_SLEEP",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "76": [
+      "RD_ALifeLine_375f689b37181241",
+      "I can't sleep for shit lately, what about you? You getting any?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:175",
+        "NPC_ASKS_SLEEP",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "77": [
+      "RD_ALifeLine_0d66369b42839ebf",
+      "You get any rest? Even a couple hours, anything?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:175",
+        "NPC_ASKS_SLEEP",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "78": [
+      "RD_ALifeLine_1d10c924110e5dc3",
+      "You sleeping alright out here?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:176",
+        "NPC_ASKS_SLEEP",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "79": [
+      "RD_ALifeLine_49107b36021bf63a",
+      "You getting any rest? Seems nobody does anymore",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:176",
+        "NPC_ASKS_SLEEP",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "80": [
+      "RD_ALifeLine_22ad9f33038a3b95",
+      "You sleeping much? Mine's shot to hell",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:176",
+        "NPC_ASKS_SLEEP",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "81": [
+      "RD_ALifeLine_703e93ac5b29290d",
+      "You manage to sleep much?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:176",
+        "NPC_ASKS_SLEEP",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "82": [
+      "RD_ALifeLine_7142b13f2553c68b",
+      "You rest at all, or just keep moving?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:176",
+        "NPC_ASKS_SLEEP",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "83": [
+      "RD_ALifeLine_351c1da543214707",
+      "Any sleep lately, or are you running on nothing?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:177",
+        "NPC_ASKS_SLEEP",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "84": [
+      "RD_ALifeLine_00b8b81a3418e2d4",
+      "You getting rest? I need to know you're sharp",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:177",
+        "NPC_ASKS_SLEEP",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "85": [
+      "RD_ALifeLine_3f4d564245e9ef4c",
+      "You sleeping at all? Tell me the truth",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:177",
+        "NPC_ASKS_SLEEP",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "86": [
+      "RD_ALifeLine_14a72cd3378082f4",
+      "You get proper rest, or just catnaps?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:177",
+        "NPC_ASKS_SLEEP",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "87": [
+      "RD_ALifeLine_4ef98346762340ea",
+      "You get any sleep, or are you wired?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:177",
+        "NPC_ASKS_SLEEP",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "88": [
+      "RD_ALifeLine_55d3884554112c73",
+      "Lucky, I'm almost jealous, honestly",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:124",
+        "NPC_ANSWER_SLEEP_GOOD",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "89": [
+      "RD_ALifeLine_605e771f30ce1064",
+      "Hang onto that, a lot of folks can't manage it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:124",
+        "NPC_ANSWER_SLEEP_GOOD",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "90": [
+      "RD_ALifeLine_37f82b9c38bce5d8",
+      "Good.. sleep's the first thing to go, so that's something",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:124",
+        "NPC_ANSWER_SLEEP_GOOD",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "91": [
+      "RD_ALifeLine_13caa4892039098f",
+      "More than I get, that's for sure",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:125",
+        "NPC_ANSWER_SLEEP_GOOD",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "92": [
+      "RD_ALifeLine_7fbe00ce66034d50",
+      "That keeps your head clear, at least",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:125",
+        "NPC_ANSWER_SLEEP_GOOD",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "93": [
+      "RD_ALifeLine_725da95246ebc9cd",
+      "Wish I could say the same",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:125",
+        "NPC_ANSWER_SLEEP_GOOD",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "94": [
+      "RD_ALifeLine_4b3937cd107cb92e",
+      "Then you're sharper than most of us",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:126",
+        "NPC_ANSWER_SLEEP_GOOD",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "95": [
+      "RD_ALifeLine_5feeb0120016efba",
+      "Keep it up then, you'll need it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:126",
+        "NPC_ANSWER_SLEEP_GOOD",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "96": [
+      "RD_ALifeLine_0d7fcf644fc1c72f",
+      "Must be nice",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:126",
+        "NPC_ANSWER_SLEEP_GOOD",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "97": [
+      "RD_ALifeLine_0d17f0692bf4e7a7",
+      "Me too.. every little noise and I'm up again",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:121",
+        "NPC_ANSWER_SLEEP_BAD",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "98": [
+      "RD_ALifeLine_2f956451720db1b2",
+      "I know, I know.. just lying there counting breaths",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:121",
+        "NPC_ANSWER_SLEEP_BAD",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "99": [
+      "RD_ALifeLine_42350e382570a188",
+      "That's rough.. try and grab a few minutes when it's quiet",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:121",
+        "NPC_ANSWER_SLEEP_BAD",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "100": [
+      "RD_ALifeLine_65669bff52595e8a",
+      "Nobody sleeps right anymore",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:122",
+        "NPC_ANSWER_SLEEP_BAD",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "101": [
+      "RD_ALifeLine_3bbe292b716daa09",
+      "Same here, it's like your body forgot how",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:122",
+        "NPC_ANSWER_SLEEP_BAD",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "102": [
+      "RD_ALifeLine_13e01bf764c1b059",
+      "That'll catch up with you, careful",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:122",
+        "NPC_ANSWER_SLEEP_BAD",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "103": [
+      "RD_ALifeLine_45f237255a9d9255",
+      "Don't fall asleep on your feet around me",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:123",
+        "NPC_ANSWER_SLEEP_BAD",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "104": [
+      "RD_ALifeLine_670c3ea5240f1245",
+      "Join the club",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:123",
+        "NPC_ANSWER_SLEEP_BAD",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "105": [
+      "RD_ALifeLine_77728a5835dcf258",
+      "Sorry, sorry, didn't mean to mother you",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:127",
+        "NPC_ANSWER_SLEEP_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "106": [
+      "RD_ALifeLine_78a766bd28c54342",
+      "Fair enough, I'll stop fussing",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:127",
+        "NPC_ANSWER_SLEEP_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "107": [
+      "RD_ALifeLine_3e3430744e22c913",
+      "Alright, alright, I'll quit hovering",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:127",
+        "NPC_ANSWER_SLEEP_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "108": [
+      "RD_ALifeLine_6b09e38b68b6e54b",
+      "I'll leave you be",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:128",
+        "NPC_ANSWER_SLEEP_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "109": [
+      "RD_ALifeLine_78422a9d2911c0bf",
+      "That's fair, I won't poke",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:128",
+        "NPC_ANSWER_SLEEP_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "110": [
+      "RD_ALifeLine_309ea9fc64dfae7d",
+      "Got it, moving on",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:128",
+        "NPC_ANSWER_SLEEP_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "111": [
+      "RD_ALifeLine_0e72e0de3625b87e",
+      "Not my problem then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:129",
+        "NPC_ANSWER_SLEEP_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "112": [
+      "RD_ALifeLine_1c32e4d25af48c48",
+      "I'll drop it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:129",
+        "NPC_ANSWER_SLEEP_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "113": [
+      "RD_ALifeLine_764b45bd6f56dfbf",
+      "Your call, I won't push it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:129",
+        "NPC_ANSWER_SLEEP_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "114": [
+      "RD_ALifeLine_5a89813823512cfc",
+      "Hey, you getting enough food? Be honest",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:154",
+        "NPC_ASKS_EATING",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "115": [
+      "RD_ALifeLine_5228e9e008b5d236",
+      "You eating? I mean actually eating, not just picking at stuff",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:154",
+        "NPC_ASKS_EATING",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "116": [
+      "RD_ALifeLine_2586e7600be2b8c1",
+      "Are you finding enough to eat out there?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:154",
+        "NPC_ASKS_EATING",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "117": [
+      "RD_ALifeLine_2af36e852bd0cbbf",
+      "You eating enough? Real food, I mean",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:154",
+        "NPC_ASKS_EATING",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "118": [
+      "RD_ALifeLine_6f650ffc676380d2",
+      "Have you been eating, lately? Properly?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:154",
+        "NPC_ASKS_EATING",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "119": [
+      "RD_ALifeLine_24dd7f98138b7dfd",
+      "You eating alright?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:155",
+        "NPC_ASKS_EATING",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "120": [
+      "RD_ALifeLine_596de9f322679243",
+      "Finding enough food these days?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:155",
+        "NPC_ASKS_EATING",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "121": [
+      "RD_ALifeLine_4aa5bbd074b72ae2",
+      "You managing for food?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:155",
+        "NPC_ASKS_EATING",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "122": [
+      "RD_ALifeLine_383b9af675371519",
+      "Food holding out for you?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:155",
+        "NPC_ASKS_EATING",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "123": [
+      "RD_ALifeLine_2b69eca336d24835",
+      "You get enough to eat, or is it tight?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:155",
+        "NPC_ASKS_EATING",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "124": [
+      "RD_ALifeLine_038469d55b48132e",
+      "You got enough food? Tell me now, not later",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:156",
+        "NPC_ASKS_EATING",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "125": [
+      "RD_ALifeLine_400bdee635bf531b",
+      "Food lasting you, or not?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:156",
+        "NPC_ASKS_EATING",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "126": [
+      "RD_ALifeLine_722de9b60c59b327",
+      "You okay for food? I don't need details",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:156",
+        "NPC_ASKS_EATING",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "127": [
+      "RD_ALifeLine_690c535d36d1b869",
+      "You getting enough to eat? Straight answer",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:156",
+        "NPC_ASKS_EATING",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "128": [
+      "RD_ALifeLine_426051b16c052d35",
+      "Food okay on your end?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:156",
+        "NPC_ASKS_EATING",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "129": [
+      "RD_ALifeLine_2eb8ab0365087551",
+      "Oh, good, you had me worried for a second",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:61",
+        "NPC_ANSWER_EATING_OKAY",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "130": [
+      "RD_ALifeLine_2e64073815d9fbaf",
+      "Don't skip meals if you can help it, okay",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:61",
+        "NPC_ANSWER_EATING_OKAY",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "131": [
+      "RD_ALifeLine_4716918d66b48307",
+      "Really glad to hear that",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:61",
+        "NPC_ANSWER_EATING_OKAY",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "132": [
+      "RD_ALifeLine_42efae52608b192d",
+      "Food's the hard part, so that's something",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:62",
+        "NPC_ANSWER_EATING_OKAY",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "133": [
+      "RD_ALifeLine_51fbf8b807eb333e",
+      "You're doing better than most, then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:62",
+        "NPC_ANSWER_EATING_OKAY",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "134": [
+      "RD_ALifeLine_4e8fa2d212b43a9f",
+      "Glad somebody's eating",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:62",
+        "NPC_ANSWER_EATING_OKAY",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "135": [
+      "RD_ALifeLine_2016f2e90604a386",
+      "Then you're not after mine",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:63",
+        "NPC_ANSWER_EATING_OKAY",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "136": [
+      "RD_ALifeLine_469c30f800e97600",
+      "Means I can stop watching my pack, at least",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:63",
+        "NPC_ANSWER_EATING_OKAY",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "137": [
+      "RD_ALifeLine_041ca39843773e03",
+      "Lucky you, honestly",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:63",
+        "NPC_ANSWER_EATING_OKAY",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "138": [
+      "RD_ALifeLine_04a71dda202774ca",
+      "Shit, I wish I had more, I really do..",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:58",
+        "NPC_ANSWER_EATING_LEAN",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "139": [
+      "RD_ALifeLine_162fb3027dd8c73b",
+      "Hang in there, something'll turn up",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:58",
+        "NPC_ANSWER_EATING_LEAN",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "140": [
+      "RD_ALifeLine_792167fe51472c75",
+      "Eat something every day, even a little, okay",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:58",
+        "NPC_ANSWER_EATING_LEAN",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "141": [
+      "RD_ALifeLine_6022b0c30c00b277",
+      "Same, my stomach won't shut up",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:59",
+        "NPC_ANSWER_EATING_LEAN",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "142": [
+      "RD_ALifeLine_5159876e45a77c93",
+      "Ration slow, that's all you can do",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:59",
+        "NPC_ANSWER_EATING_LEAN",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "143": [
+      "RD_ALifeLine_4cf7b98271bfcc23",
+      "I've been scraping the bottom too",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:59",
+        "NPC_ANSWER_EATING_LEAN",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "144": [
+      "RD_ALifeLine_3a50475671e0ed39",
+      "Tough break, I can't spare any",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:60",
+        "NPC_ANSWER_EATING_LEAN",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "145": [
+      "RD_ALifeLine_60ed0cd309ab6618",
+      "Don't look at my pack like that",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:60",
+        "NPC_ANSWER_EATING_LEAN",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "146": [
+      "RD_ALifeLine_093dc1c91719e04e",
+      "Stretch what you've got",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:60",
+        "NPC_ANSWER_EATING_LEAN",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "147": [
+      "RD_ALifeLine_0f6654dd028ab533",
+      "Okay.. just don't starve on me, alright",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:64",
+        "NPC_ANSWER_EATING_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "148": [
+      "RD_ALifeLine_606e22cd2b556b6c",
+      "I'll stop asking, promise",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:64",
+        "NPC_ANSWER_EATING_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "149": [
+      "RD_ALifeLine_6ade470579209004",
+      "Sorry, I worry too much",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:64",
+        "NPC_ANSWER_EATING_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "150": [
+      "RD_ALifeLine_499cb8bd19859329",
+      "Not my place",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:65",
+        "NPC_ANSWER_EATING_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "151": [
+      "RD_ALifeLine_433ad1a055287be0",
+      "I won't bring it up again",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:65",
+        "NPC_ANSWER_EATING_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "152": [
+      "RD_ALifeLine_0c4e93414260402d",
+      "Fair, food talk just makes it worse anyway",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:65",
+        "NPC_ANSWER_EATING_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "153": [
+      "RD_ALifeLine_6408277404633d66",
+      "Wasn't offering anyway",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:66",
+        "NPC_ANSWER_EATING_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "154": [
+      "RD_ALifeLine_247dfb0c160c00fa",
+      "No more food talk, got it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:66",
+        "NPC_ANSWER_EATING_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "155": [
+      "RD_ALifeLine_7ca9e512542ec626",
+      "Won't lose sleep over it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:66",
+        "NPC_ANSWER_EATING_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "156": [
+      "RD_ALifeLine_04c8083237fbd424",
+      "You hurt anywhere? You can tell me",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:160",
+        "NPC_ASKS_HURT",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "157": [
+      "RD_ALifeLine_035bafe3468a3a1b",
+      "Are you hurt at all? Anything bleeding?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:160",
+        "NPC_ASKS_HURT",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "158": [
+      "RD_ALifeLine_795931647a7b1598",
+      "Hey, you in one piece? Nothing broken?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:160",
+        "NPC_ASKS_HURT",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "159": [
+      "RD_ALifeLine_4a8dab161ec06b80",
+      "Any injuries? Cuts, sprains, anything?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:160",
+        "NPC_ASKS_HURT",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "160": [
+      "RD_ALifeLine_6b532bb441a144e1",
+      "You're not hurt, are you? T-tell me you're not hurt",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:160",
+        "NPC_ASKS_HURT",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "161": [
+      "RD_ALifeLine_3722ff031564350f",
+      "You hurt at all? Even a little?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:161",
+        "NPC_ASKS_HURT",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "162": [
+      "RD_ALifeLine_0e3a32522a4e8750",
+      "Anything hurting you right now?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:161",
+        "NPC_ASKS_HURT",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "163": [
+      "RD_ALifeLine_18f458211ed65144",
+      "You in one piece, mostly?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:161",
+        "NPC_ASKS_HURT",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "164": [
+      "RD_ALifeLine_33a798f42af982a8",
+      "You banged up at all?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:161",
+        "NPC_ASKS_HURT",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "165": [
+      "RD_ALifeLine_39e7525b1dfe3f49",
+      "Anything wrong with you? Hurt, I mean",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:161",
+        "NPC_ASKS_HURT",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "166": [
+      "RD_ALifeLine_14c75175501ea496",
+      "You hurt? I need to know before you get any closer",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:162",
+        "NPC_ASKS_HURT",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "167": [
+      "RD_ALifeLine_50fde9c74c95b936",
+      "Any wounds on you? Don't hide it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:162",
+        "NPC_ASKS_HURT",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "168": [
+      "RD_ALifeLine_48fa6aca186ef889",
+      "Are you hurt? Don't lie about that one",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:162",
+        "NPC_ASKS_HURT",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "169": [
+      "RD_ALifeLine_2d3daa843fe80a55",
+      "You injured? Yes or no",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:162",
+        "NPC_ASKS_HURT",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "170": [
+      "RD_ALifeLine_4653e46a380388e3",
+      "You pick up any injuries on the way?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:162",
+        "NPC_ASKS_HURT",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "171": [
+      "RD_ALifeLine_146304b812f716f4",
+      "Thank God, GOOD",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:76",
+        "NPC_ANSWER_HURT_FINE",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "172": [
+      "RD_ALifeLine_36a2cfad00ed8bc9",
+      "Keep it that way, okay",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:76",
+        "NPC_ANSWER_HURT_FINE",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "173": [
+      "RD_ALifeLine_351deb6d48c34f00",
+      "Phew.. you had me nervous",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:76",
+        "NPC_ANSWER_HURT_FINE",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "174": [
+      "RD_ALifeLine_7ee194f20e32a5c4",
+      "One less worry, then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:77",
+        "NPC_ANSWER_HURT_FINE",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "175": [
+      "RD_ALifeLine_3a6a75f644d9477b",
+      "That's rare these days",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:77",
+        "NPC_ANSWER_HURT_FINE",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "176": [
+      "RD_ALifeLine_534dab5918b28238",
+      "Makes this easier",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:78",
+        "NPC_ANSWER_HURT_FINE",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "177": [
+      "RD_ALifeLine_75af68146eacbe24",
+      "I'll take your word for it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:78",
+        "NPC_ANSWER_HURT_FINE",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "178": [
+      "RD_ALifeLine_25823c9b22413236",
+      "Just making sure",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:78",
+        "NPC_ANSWER_HURT_FINE",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "179": [
+      "RD_ALifeLine_2882de372d8b14dc",
+      "Ouch.. take care of those, alright",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:82",
+        "NPC_ANSWER_HURT_SCRAPES",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "180": [
+      "RD_ALifeLine_406b440060f275c1",
+      "Take it easy then, don't push it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:82",
+        "NPC_ANSWER_HURT_SCRAPES",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "181": [
+      "RD_ALifeLine_7239843764446451",
+      "That heals, just watch it doesn't go bad",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:82",
+        "NPC_ANSWER_HURT_SCRAPES",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "182": [
+      "RD_ALifeLine_198fc90b400239a3",
+      "Patch it up when you can",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:83",
+        "NPC_ANSWER_HURT_SCRAPES",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "183": [
+      "RD_ALifeLine_16c772285b686a3a",
+      "Everyone's banged up a little",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:83",
+        "NPC_ANSWER_HURT_SCRAPES",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "184": [
+      "RD_ALifeLine_400f9a9c29673976",
+      "As long as that's all it is",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:84",
+        "NPC_ANSWER_HURT_SCRAPES",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "185": [
+      "RD_ALifeLine_1b413fc931a43438",
+      "Nothing serious, huh.. alright",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:84",
+        "NPC_ANSWER_HURT_SCRAPES",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "186": [
+      "RD_ALifeLine_7d68613f63764177",
+      "Keep an eye on it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:84",
+        "NPC_ANSWER_HURT_SCRAPES",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "187": [
+      "RD_ALifeLine_3f3ff3053dcfbf35",
+      "Just don't hide something serious from me",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:79",
+        "NPC_ANSWER_HURT_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "188": [
+      "RD_ALifeLine_29e547980d485ea5",
+      "If you need help, say so",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:79",
+        "NPC_ANSWER_HURT_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "189": [
+      "RD_ALifeLine_268cc633088b87f0",
+      "Fine, fine, you're the boss of you",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:79",
+        "NPC_ANSWER_HURT_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "190": [
+      "RD_ALifeLine_7bd209c74d43edb5",
+      "I'll leave it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:80",
+        "NPC_ANSWER_HURT_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "191": [
+      "RD_ALifeLine_716df6b239f18f1b",
+      "Just don't keel over on me",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:80",
+        "NPC_ANSWER_HURT_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "192": [
+      "RD_ALifeLine_766ffcc1725ffa94",
+      "Fair, I'm no doctor anyway",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:80",
+        "NPC_ANSWER_HURT_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "193": [
+      "RD_ALifeLine_491d2caf2eabcf8a",
+      "Keep your distance a bit, okay",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:81",
+        "NPC_ANSWER_HURT_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "194": [
+      "RD_ALifeLine_6e104ea145069d72",
+      "That's not a no",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:81",
+        "NPC_ANSWER_HURT_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "195": [
+      "RD_ALifeLine_003e0c3a150871e6",
+      "I'm watching you, just so you know",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:81",
+        "NPC_ANSWER_HURT_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "196": [
+      "RD_ALifeLine_7798b6b21b7de9bd",
+      "You got something to protect yourself with?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:166",
+        "NPC_ASKS_PROTECTION",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "197": [
+      "RD_ALifeLine_71d20329441549da",
+      "Is there anything on you to keep them off? Really, I mean it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:166",
+        "NPC_ASKS_PROTECTION",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "198": [
+      "RD_ALifeLine_020a6cb6729d5938",
+      "You carrying anything for protection? I worry, that's all",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:166",
+        "NPC_ASKS_PROTECTION",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "199": [
+      "RD_ALifeLine_21a3ccac214bcbe9",
+      "Please tell me you've got SOME way to fight back",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:166",
+        "NPC_ASKS_PROTECTION",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "200": [
+      "RD_ALifeLine_18dd7ea07df6f44c",
+      "If they rush you, have you got anything? Anything at all?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:166",
+        "NPC_ASKS_PROTECTION",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "201": [
+      "RD_ALifeLine_0502c74b10d575bc",
+      "You armed at all?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:167",
+        "NPC_ASKS_PROTECTION",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "202": [
+      "RD_ALifeLine_3eb46bf817256bc7",
+      "You carrying anything?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:167",
+        "NPC_ASKS_PROTECTION",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "203": [
+      "RD_ALifeLine_30ebe37c62428970",
+      "What've you got, if something comes at you?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:167",
+        "NPC_ASKS_PROTECTION",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "204": [
+      "RD_ALifeLine_0bd84aba095ea176",
+      "You got anything solid on you, just in case?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:167",
+        "NPC_ASKS_PROTECTION",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "205": [
+      "RD_ALifeLine_7f3d7ac668843894",
+      "What are you carrying for protection?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:167",
+        "NPC_ASKS_PROTECTION",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "206": [
+      "RD_ALifeLine_1abd18de3623c543",
+      "You armed? I'm asking so nobody gets surprised",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:168",
+        "NPC_ASKS_PROTECTION",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "207": [
+      "RD_ALifeLine_5e9431b020af6106",
+      "Tell me what you're carrying, I'd like to know now",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:168",
+        "NPC_ASKS_PROTECTION",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "208": [
+      "RD_ALifeLine_42a91d451f09da3b",
+      "You got anything on you? Just tell me",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:168",
+        "NPC_ASKS_PROTECTION",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "209": [
+      "RD_ALifeLine_7b9379914df36759",
+      "How well armed are you? Honestly",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:168",
+        "NPC_ASKS_PROTECTION",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "210": [
+      "RD_ALifeLine_5da3e9842338c4b3",
+      "You packing anything? Don't make me find out",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:168",
+        "NPC_ASKS_PROTECTION",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "211": [
+      "RD_ALifeLine_23ab02c73a50e307",
+      "Good, I worry about people walking around with nothing",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:94",
+        "NPC_ANSWER_PROTECTION_ENOUGH",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "212": [
+      "RD_ALifeLine_1ab0f6ea3fdae350",
+      "That makes me feel better, honestly",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:94",
+        "NPC_ANSWER_PROTECTION_ENOUGH",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "213": [
+      "RD_ALifeLine_5ea33a3442b01dd2",
+      "Thank God, I was scared you had nothing",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:94",
+        "NPC_ANSWER_PROTECTION_ENOUGH",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "214": [
+      "RD_ALifeLine_13b410a5037ff94d",
+      "You'll need it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:95",
+        "NPC_ANSWER_PROTECTION_ENOUGH",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "215": [
+      "RD_ALifeLine_420e7696650bd27a",
+      "It gets ugly fast, so that's good",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:95",
+        "NPC_ANSWER_PROTECTION_ENOUGH",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "216": [
+      "RD_ALifeLine_6d8cb7f240bd1d89",
+      "Then I'll keep my hands where you can see them",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:96",
+        "NPC_ANSWER_PROTECTION_ENOUGH",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "217": [
+      "RD_ALifeLine_27429b8914a26d5f",
+      "We'll both behave, then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:96",
+        "NPC_ANSWER_PROTECTION_ENOUGH",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "218": [
+      "RD_ALifeLine_05cd9a017486c966",
+      "Oh, that scares me, please find something soon",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:97",
+        "NPC_ANSWER_PROTECTION_LITTLE",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "219": [
+      "RD_ALifeLine_1aa232f5295f88a7",
+      "Be careful, okay, REALLY careful",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:97",
+        "NPC_ANSWER_PROTECTION_LITTLE",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "220": [
+      "RD_ALifeLine_293d7ffb3e360d0d",
+      "Then stay quiet and stay away from crowds",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:97",
+        "NPC_ANSWER_PROTECTION_LITTLE",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "221": [
+      "RD_ALifeLine_750127b93e2f4d65",
+      "Risky, with things how they are",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:98",
+        "NPC_ANSWER_PROTECTION_LITTLE",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "222": [
+      "RD_ALifeLine_602ceaf156efc8d5",
+      "Pick your fights carefully",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:98",
+        "NPC_ANSWER_PROTECTION_LITTLE",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "223": [
+      "RD_ALifeLine_31cac5693e95944e",
+      "Avoid trouble, then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:98",
+        "NPC_ANSWER_PROTECTION_LITTLE",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "224": [
+      "RD_ALifeLine_59506efb4bcddf22",
+      "Then you're no threat to me",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:99",
+        "NPC_ANSWER_PROTECTION_LITTLE",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "225": [
+      "RD_ALifeLine_29b1f6ec37102e5a",
+      "Stay careful, you'll need to",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:99",
+        "NPC_ANSWER_PROTECTION_LITTLE",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "226": [
+      "RD_ALifeLine_665f6e544868c6f8",
+      "That's good for me, bad for you",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:99",
+        "NPC_ANSWER_PROTECTION_LITTLE",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "227": [
+      "RD_ALifeLine_4df221d1375077bc",
+      "Ha, fair, I wouldn't tell me either",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:100",
+        "NPC_ANSWER_PROTECTION_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "228": [
+      "RD_ALifeLine_29a061f1188acd24",
+      "Smart, I'd keep it quiet too",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:100",
+        "NPC_ANSWER_PROTECTION_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "229": [
+      "RD_ALifeLine_043a82976e12cb21",
+      "I was just worried for you, that's all",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:100",
+        "NPC_ANSWER_PROTECTION_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "230": [
+      "RD_ALifeLine_79a3b3137393bc30",
+      "Fair, can't blame you there",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:101",
+        "NPC_ANSWER_PROTECTION_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "231": [
+      "RD_ALifeLine_7cdc258742ba71b9",
+      "Didn't need the details",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:101",
+        "NPC_ANSWER_PROTECTION_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "232": [
+      "RD_ALifeLine_3de618442cd83dc9",
+      "Keep it quiet then, fine",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:101",
+        "NPC_ANSWER_PROTECTION_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "233": [
+      "RD_ALifeLine_36236cca7f6e7d06",
+      "Smart.. and a little worrying",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:102",
+        "NPC_ANSWER_PROTECTION_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "234": [
+      "RD_ALifeLine_58b03fe41d0261fe",
+      "I'll take that as a yes",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:102",
+        "NPC_ANSWER_PROTECTION_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "235": [
+      "RD_ALifeLine_7389c83109dac5a4",
+      "So we're both careful",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:102",
+        "NPC_ANSWER_PROTECTION_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "236": [
+      "RD_ALifeLine_2286bd4948f23fdd",
+      "So where are you from? Originally, I mean",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:163",
+        "NPC_ASKS_ORIGIN",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "237": [
+      "RD_ALifeLine_794d07ab437ef514",
+      "Where's home for you? Was, I mean..",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:163",
+        "NPC_ASKS_ORIGIN",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "238": [
+      "RD_ALifeLine_4a0d19a6745358d6",
+      "You from around here, or passing through?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:163",
+        "NPC_ASKS_ORIGIN",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "239": [
+      "RD_ALifeLine_3f01527a1550774f",
+      "I have to ask, where are you from? You remind me of someone",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:163",
+        "NPC_ASKS_ORIGIN",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "240": [
+      "RD_ALifeLine_502b757f09b2fca9",
+      "Where'd you grow up, if you don't mind me asking?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:163",
+        "NPC_ASKS_ORIGIN",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "241": [
+      "RD_ALifeLine_69be50dd47ff6f96",
+      "You local, or from somewhere else?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:164",
+        "NPC_ASKS_ORIGIN",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "242": [
+      "RD_ALifeLine_34afe4bf5b31022e",
+      "Where were you living, before?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:164",
+        "NPC_ASKS_ORIGIN",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "243": [
+      "RD_ALifeLine_00a6330b4a47fd1c",
+      "You from around these parts?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:164",
+        "NPC_ASKS_ORIGIN",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "244": [
+      "RD_ALifeLine_35f36fa35b11b437",
+      "Where'd you start out from?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:164",
+        "NPC_ASKS_ORIGIN",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "245": [
+      "RD_ALifeLine_16cb485b289e6515",
+      "Where are you from? Just so I know who I'm talking to",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:165",
+        "NPC_ASKS_ORIGIN",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "246": [
+      "RD_ALifeLine_213862952c0546ac",
+      "You local? I don't recognize you",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:165",
+        "NPC_ASKS_ORIGIN",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "247": [
+      "RD_ALifeLine_74199cda05b01ddc",
+      "Where'd you come from, exactly?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:165",
+        "NPC_ASKS_ORIGIN",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "248": [
+      "RD_ALifeLine_090243d5796639ab",
+      "You from here, or did you wander in from somewhere?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:165",
+        "NPC_ASKS_ORIGIN",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "249": [
+      "RD_ALifeLine_40fcea374acd4e0e",
+      "What part are you from? Short answer's fine",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:165",
+        "NPC_ASKS_ORIGIN",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "250": [
+      "RD_ALifeLine_4375c1f178f4ca12",
+      "Oh good, so you know your way around, that helps",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:88",
+        "NPC_ANSWER_ORIGIN_NEAR",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "251": [
+      "RD_ALifeLine_221be77729e5e31d",
+      "A local! God, I've been lost half the time",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:88",
+        "NPC_ANSWER_ORIGIN_NEAR",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "252": [
+      "RD_ALifeLine_7d8692987de9fb23",
+      "That's nice, having somewhere familiar, even now",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:88",
+        "NPC_ANSWER_ORIGIN_NEAR",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "253": [
+      "RD_ALifeLine_7eb389476eceeaa2",
+      "Huh, so you know the area then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:89",
+        "NPC_ANSWER_ORIGIN_NEAR",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "254": [
+      "RD_ALifeLine_331fcd6465d0d77c",
+      "Makes sense, I figured you weren't new here",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:89",
+        "NPC_ANSWER_ORIGIN_NEAR",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "255": [
+      "RD_ALifeLine_77a07df158f2fe38",
+      "Handy, knowing the place",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:89",
+        "NPC_ANSWER_ORIGIN_NEAR",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "256": [
+      "RD_ALifeLine_75f9b19f263f6dfc",
+      "So you're not just passing through",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:90",
+        "NPC_ANSWER_ORIGIN_NEAR",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "257": [
+      "RD_ALifeLine_438ae5d6634fd854",
+      "You'd know the hiding spots better than me",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:90",
+        "NPC_ANSWER_ORIGIN_NEAR",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "258": [
+      "RD_ALifeLine_46e99e97274316dd",
+      "Local, huh.. noted",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:90",
+        "NPC_ANSWER_ORIGIN_NEAR",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "259": [
+      "RD_ALifeLine_5d81011a45ef04c0",
+      "Oh no, I'm sorry, I- I shouldn't have asked",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:85",
+        "NPC_ANSWER_ORIGIN_GONE",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "260": [
+      "RD_ALifeLine_7855aeb90bccde3e",
+      "Mine too.. mine too",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:85",
+        "NPC_ANSWER_ORIGIN_GONE",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "261": [
+      "RD_ALifeLine_08f3d73c384b03e0",
+      "Damn, that's.. yeah, I get it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:85",
+        "NPC_ANSWER_ORIGIN_GONE",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "262": [
+      "RD_ALifeLine_54f9226f6b35407c",
+      "There's a lot of that going around",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:86",
+        "NPC_ANSWER_ORIGIN_GONE",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "263": [
+      "RD_ALifeLine_2d1fbd3623f0ab81",
+      "Same for most of us, I think",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:86",
+        "NPC_ANSWER_ORIGIN_GONE",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "264": [
+      "RD_ALifeLine_57eb138a5c4e6e8c",
+      "Sorry, didn't mean to dig",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:86",
+        "NPC_ANSWER_ORIGIN_GONE",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "265": [
+      "RD_ALifeLine_11f7a63278cd7731",
+      "Can't go back to mine either",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:87",
+        "NPC_ANSWER_ORIGIN_GONE",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "266": [
+      "RD_ALifeLine_13eab2e42c3585d7",
+      "I won't press on it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:87",
+        "NPC_ANSWER_ORIGIN_GONE",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "267": [
+      "RD_ALifeLine_3ce2ade369cc1c76",
+      "Then we're both from nowhere now",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:87",
+        "NPC_ANSWER_ORIGIN_GONE",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "268": [
+      "RD_ALifeLine_08c8ed1f55feb6b8",
+      "Fair enough, doesn't really matter now anyway",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:91",
+        "NPC_ANSWER_ORIGIN_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "269": [
+      "RD_ALifeLine_1a2565b07bc7b284",
+      "No problem, I was just curious",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:91",
+        "NPC_ANSWER_ORIGIN_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "270": [
+      "RD_ALifeLine_4f5e46337e870fda",
+      "Sure, sure, forget it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:91",
+        "NPC_ANSWER_ORIGIN_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "271": [
+      "RD_ALifeLine_4f9ecca668aa558d",
+      "Keep it, then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:92",
+        "NPC_ANSWER_ORIGIN_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "272": [
+      "RD_ALifeLine_488ef31d0aeadf98",
+      "Doesn't change much, fair",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:92",
+        "NPC_ANSWER_ORIGIN_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "273": [
+      "RD_ALifeLine_2c7107366eee26ef",
+      "No harm asking",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:92",
+        "NPC_ANSWER_ORIGIN_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "274": [
+      "RD_ALifeLine_25fb622262cb4907",
+      "I'll keep guessing then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:93",
+        "NPC_ANSWER_ORIGIN_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "275": [
+      "RD_ALifeLine_3146985642b3eb05",
+      "Play it close, I get it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:93",
+        "NPC_ANSWER_ORIGIN_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "276": [
+      "RD_ALifeLine_3f2442d97cd2b662",
+      "You keep yours, I keep mine",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:93",
+        "NPC_ANSWER_ORIGIN_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "277": [
+      "RD_ALifeLine_199f2acb51f00d9a",
+      "Have you run into anyone else? Anyone alive, I mean",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:178",
+        "NPC_ASKS_SURVIVORS",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "278": [
+      "RD_ALifeLine_2555cd49202e3b22",
+      "Seen any other people out there? Good ones?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:178",
+        "NPC_ASKS_SURVIVORS",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "279": [
+      "RD_ALifeLine_31ca1b26107aad9e",
+      "Are there others?! Please, PLEASE tell me we're not the only ones left",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:178",
+        "NPC_ASKS_SURVIVORS",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "280": [
+      "RD_ALifeLine_036d5f6f7aa57723",
+      "You meet anybody decent lately?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:178",
+        "NPC_ASKS_SURVIVORS",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "281": [
+      "RD_ALifeLine_7d88870f3926fb73",
+      "You've seen other living people, right? Please say yes",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:178",
+        "NPC_ASKS_SURVIVORS",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "282": [
+      "RD_ALifeLine_389aff2e2779f499",
+      "You seen other survivors?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:179",
+        "NPC_ASKS_SURVIVORS",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "283": [
+      "RD_ALifeLine_478f17de04a4f1e5",
+      "Run into many people?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:179",
+        "NPC_ASKS_SURVIVORS",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "284": [
+      "RD_ALifeLine_675cd69f662d526e",
+      "Seen anybody else around?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:179",
+        "NPC_ASKS_SURVIVORS",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "285": [
+      "RD_ALifeLine_2a5a467f68ab5498",
+      "Anybody still kicking, where you've been?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:179",
+        "NPC_ASKS_SURVIVORS",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "286": [
+      "RD_ALifeLine_696cb78808f29221",
+      "You come across anyone alive?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:179",
+        "NPC_ASKS_SURVIVORS",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "287": [
+      "RD_ALifeLine_7b4a00270f871e21",
+      "You seen anyone else? I need to know who's around",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:180",
+        "NPC_ASKS_SURVIVORS",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "288": [
+      "RD_ALifeLine_10788bda253da8ec",
+      "Run into anyone else on your way here?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:180",
+        "NPC_ASKS_SURVIVORS",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "289": [
+      "RD_ALifeLine_2d308b2d2763ffae",
+      "Anybody else around here? People, I mean",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:180",
+        "NPC_ASKS_SURVIVORS",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "290": [
+      "RD_ALifeLine_39b8649136866e14",
+      "You running into other people? Groups?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:180",
+        "NPC_ASKS_SURVIVORS",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "291": [
+      "RD_ALifeLine_033b1446728db540",
+      "Seen any living people, or just them?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:180",
+        "NPC_ASKS_SURVIVORS",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "292": [
+      "RD_ALifeLine_3dda871b4eaab225",
+      "Really.. oh God, that's good, we're not the only ones",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:136",
+        "NPC_ANSWER_SURVIVORS_SOME",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "293": [
+      "RD_ALifeLine_5d10d6df6cf20c55",
+      "People still out there.. that helps more than you'd think",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:136",
+        "NPC_ANSWER_SURVIVORS_SOME",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "294": [
+      "RD_ALifeLine_136f6ab44b37a387",
+      "That's.. that's honestly good news",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:136",
+        "NPC_ANSWER_SURVIVORS_SOME",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "295": [
+      "RD_ALifeLine_7fe32c1640990986",
+      "Means it's not just us, then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:137",
+        "NPC_ANSWER_SURVIVORS_SOME",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "296": [
+      "RD_ALifeLine_6f987d0b5e4f0697",
+      "Keeping their distance, smart",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:137",
+        "NPC_ANSWER_SURVIVORS_SOME",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "297": [
+      "RD_ALifeLine_2ef31cc4271226a6",
+      "So there's others around",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:137",
+        "NPC_ANSWER_SURVIVORS_SOME",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "298": [
+      "RD_ALifeLine_28d5769c1576caaf",
+      "I'll keep an eye out then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:138",
+        "NPC_ANSWER_SURVIVORS_SOME",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "299": [
+      "RD_ALifeLine_487e4d4d6a9a349f",
+      "Others, huh.. hope they stay that way",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:138",
+        "NPC_ANSWER_SURVIVORS_SOME",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "300": [
+      "RD_ALifeLine_020174351e029b7c",
+      "Then I'll be careful who I wave at",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:138",
+        "NPC_ANSWER_SURVIVORS_SOME",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "301": [
+      "RD_ALifeLine_55d032ac20e6022f",
+      "God.. that's lonely, I'm glad we ran into each other then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:130",
+        "NPC_ANSWER_SURVIVORS_NONE",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "302": [
+      "RD_ALifeLine_71e02caa5004fa49",
+      "It's so empty out there, it scares me",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:130",
+        "NPC_ANSWER_SURVIVORS_NONE",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "303": [
+      "RD_ALifeLine_08cf9c5b5b8feb51",
+      "You and me, then.. that's something",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:130",
+        "NPC_ANSWER_SURVIVORS_NONE",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "304": [
+      "RD_ALifeLine_4f6809360d5f7d9a",
+      "Dead quiet for me too",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:131",
+        "NPC_ANSWER_SURVIVORS_NONE",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "305": [
+      "RD_ALifeLine_3186b3e36a7361c6",
+      "Same, it's like everyone just vanished",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:131",
+        "NPC_ANSWER_SURVIVORS_NONE",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "306": [
+      "RD_ALifeLine_0eeac9c972640e3c",
+      "That's grim.. figures though",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:131",
+        "NPC_ANSWER_SURVIVORS_NONE",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "307": [
+      "RD_ALifeLine_2ca6af8a66bb100e",
+      "That's either good or really bad",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:132",
+        "NPC_ANSWER_SURVIVORS_NONE",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "308": [
+      "RD_ALifeLine_3485fed645bd16ef",
+      "Then it's just us here",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:132",
+        "NPC_ANSWER_SURVIVORS_NONE",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "309": [
+      "RD_ALifeLine_1985c65e1ff9b7ac",
+      "Empty's better than a crowd, I guess",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:132",
+        "NPC_ANSWER_SURVIVORS_NONE",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "310": [
+      "RD_ALifeLine_02d365f125a870f3",
+      "No, that's fair, you're protecting them",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:133",
+        "NPC_ANSWER_SURVIVORS_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "311": [
+      "RD_ALifeLine_30c20efd3870d8b6",
+      "I get it, you're looking out for people",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:133",
+        "NPC_ANSWER_SURVIVORS_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "312": [
+      "RD_ALifeLine_5135ec661fa39482",
+      "That's decent of you, honestly",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:133",
+        "NPC_ANSWER_SURVIVORS_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "313": [
+      "RD_ALifeLine_2c37420b469f848d",
+      "Wouldn't want strangers asking about me either",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:134",
+        "NPC_ANSWER_SURVIVORS_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "314": [
+      "RD_ALifeLine_1bf7bffa49510666",
+      "I won't push on it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:134",
+        "NPC_ANSWER_SURVIVORS_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "315": [
+      "RD_ALifeLine_15d7bc5b17bbbc79",
+      "Can't fault that",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:134",
+        "NPC_ANSWER_SURVIVORS_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "316": [
+      "RD_ALifeLine_056bd8c40652e907",
+      "So there IS someone",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:135",
+        "NPC_ANSWER_SURVIVORS_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "317": [
+      "RD_ALifeLine_2ad4e56d4208c1ad",
+      "Keep your secrets then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:135",
+        "NPC_ANSWER_SURVIVORS_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "318": [
+      "RD_ALifeLine_14337f4b0a82eb58",
+      "Noted, I won't ask who",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:135",
+        "NPC_ANSWER_SURVIVORS_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "319": [
+      "RD_ALifeLine_5126ef982c2803ae",
+      "What did you do before all this? For work, I mean",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:136",
+        "NPC_ASKS_BEFORE",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "320": [
+      "RD_ALifeLine_3255a5fe7993668e",
+      "Who were you before? Like, what was your job?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:136",
+        "NPC_ASKS_BEFORE",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "321": [
+      "RD_ALifeLine_58f4daa17350ed28",
+      "I keep wondering what everyone did before.. what about you?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:136",
+        "NPC_ASKS_BEFORE",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "322": [
+      "RD_ALifeLine_5ec17538585413c0",
+      "Before this mess, what was your life like?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:136",
+        "NPC_ASKS_BEFORE",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "323": [
+      "RD_ALifeLine_459154dc56ad8fb7",
+      "What kept you busy, back before all this?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:136",
+        "NPC_ASKS_BEFORE",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "324": [
+      "RD_ALifeLine_5af2639c5f632396",
+      "What'd you do before?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:137",
+        "NPC_ASKS_BEFORE",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "325": [
+      "RD_ALifeLine_4dd7399a6041a9f8",
+      "You have a job before all this?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:137",
+        "NPC_ASKS_BEFORE",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "326": [
+      "RD_ALifeLine_70833c4d54049192",
+      "What did you used to do?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:137",
+        "NPC_ASKS_BEFORE",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "327": [
+      "RD_ALifeLine_50716ef27f345c6e",
+      "Before everything, what were you?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:137",
+        "NPC_ASKS_BEFORE",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "328": [
+      "RD_ALifeLine_7c6462f71c0d90e6",
+      "What'd you work at? Anything that's useful now?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:138",
+        "NPC_ASKS_BEFORE",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "329": [
+      "RD_ALifeLine_60c61a8d17a28ea6",
+      "What was your job? Just so I know what you're good for",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:138",
+        "NPC_ASKS_BEFORE",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "330": [
+      "RD_ALifeLine_24408f1e1a64c769",
+      "So what were you, back then? Office, trade, what?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:138",
+        "NPC_ASKS_BEFORE",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "331": [
+      "RD_ALifeLine_617f1fab562a5640",
+      "Your old job, what was it? Short version",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:138",
+        "NPC_ASKS_BEFORE",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "332": [
+      "RD_ALifeLine_632cbb89475b6d57",
+      "You work before this? Doing what?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:138",
+        "NPC_ASKS_BEFORE",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "333": [
+      "RD_ALifeLine_77c217d5177a3256",
+      "God, I miss boring, I'd kill for a boring day now",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:10",
+        "NPC_ANSWER_BEFORE_WORK",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "334": [
+      "RD_ALifeLine_58ba50832defe61a",
+      "Normal sounds so nice right now..",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:10",
+        "NPC_ANSWER_BEFORE_WORK",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "335": [
+      "RD_ALifeLine_45c4596c61c09ef1",
+      "Same, punch in, punch out.. feels like a dream now",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:10",
+        "NPC_ANSWER_BEFORE_WORK",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "336": [
+      "RD_ALifeLine_70699c70698aca8d",
+      "Same as most of us",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:11",
+        "NPC_ANSWER_BEFORE_WORK",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "337": [
+      "RD_ALifeLine_1ed643ac52c8408d",
+      "Boring's underrated, I'm telling you",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:11",
+        "NPC_ANSWER_BEFORE_WORK",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "338": [
+      "RD_ALifeLine_5ab8a3552ac05a87",
+      "Feels like a hundred years ago, all that",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:11",
+        "NPC_ANSWER_BEFORE_WORK",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "339": [
+      "RD_ALifeLine_1c70f7a146251021",
+      "Regular folk then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:12",
+        "NPC_ANSWER_BEFORE_WORK",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "340": [
+      "RD_ALifeLine_203fe8715c63bb35",
+      "Nothing special, got it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:12",
+        "NPC_ANSWER_BEFORE_WORK",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "341": [
+      "RD_ALifeLine_79dabbb6598b6a2b",
+      "That tells me enough",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:12",
+        "NPC_ANSWER_BEFORE_WORK",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "342": [
+      "RD_ALifeLine_3d46e6601685a359",
+      "I know that feeling, like it happened to somebody else",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:4",
+        "NPC_ANSWER_BEFORE_NOTHING",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "343": [
+      "RD_ALifeLine_0907968d27534150",
+      "I get it, I really do.. it still counts to me though",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:4",
+        "NPC_ANSWER_BEFORE_NOTHING",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "344": [
+      "RD_ALifeLine_4bd2202b2f0d934b",
+      "Maybe.. but you made it this far",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:4",
+        "NPC_ANSWER_BEFORE_NOTHING",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "345": [
+      "RD_ALifeLine_7d9e3b383ce865fb",
+      "I stopped thinking about mine too",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:5",
+        "NPC_ANSWER_BEFORE_NOTHING",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "346": [
+      "RD_ALifeLine_344a66b235058fec",
+      "Fair, the old stuff doesn't buy much now",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:5",
+        "NPC_ANSWER_BEFORE_NOTHING",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "347": [
+      "RD_ALifeLine_67e0c0210cceae40",
+      "My old life feels like a movie I saw once",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:5",
+        "NPC_ANSWER_BEFORE_NOTHING",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "348": [
+      "RD_ALifeLine_5b970f5b4474c7e1",
+      "True enough, I guess",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:6",
+        "NPC_ANSWER_BEFORE_NOTHING",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "349": [
+      "RD_ALifeLine_1aa762e019aadd10",
+      "Doesn't matter to me either, long as you pull your weight",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:6",
+        "NPC_ANSWER_BEFORE_NOTHING",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "350": [
+      "RD_ALifeLine_7d00607a7b00f02b",
+      "Nobody's checking resumes out here",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:6",
+        "NPC_ANSWER_BEFORE_NOTHING",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "351": [
+      "RD_ALifeLine_754e04075f1f4452",
+      "A fresh start, I get that",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:7",
+        "NPC_ANSWER_BEFORE_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "352": [
+      "RD_ALifeLine_5097cd6b03b211af",
+      "That's alright, you don't owe me any of it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:7",
+        "NPC_ANSWER_BEFORE_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "353": [
+      "RD_ALifeLine_04d5a06d18f856f7",
+      "Forget the past, I'm trying to",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:7",
+        "NPC_ANSWER_BEFORE_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "354": [
+      "RD_ALifeLine_73f8518b2b7d8a6a",
+      "Past is past",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:8",
+        "NPC_ANSWER_BEFORE_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "355": [
+      "RD_ALifeLine_453c539c110434a3",
+      "Leave it buried, then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:8",
+        "NPC_ANSWER_BEFORE_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "356": [
+      "RD_ALifeLine_26b013cb3f881867",
+      "Plenty of us want that, fair",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:8",
+        "NPC_ANSWER_BEFORE_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "357": [
+      "RD_ALifeLine_5db95a2333d7c773",
+      "That usually means something",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:9",
+        "NPC_ANSWER_BEFORE_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "358": [
+      "RD_ALifeLine_236730e233f13049",
+      "I'll judge you by now then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:9",
+        "NPC_ANSWER_BEFORE_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "359": [
+      "RD_ALifeLine_6a386be421b9dce1",
+      "Funny, that's what I'd say if I'd done something",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:9",
+        "NPC_ANSWER_BEFORE_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "360": [
+      "RD_ALifeLine_11ae76e51346748c",
+      "You out here alone, or do you have people?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:139",
+        "NPC_ASKS_COMPANY",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "361": [
+      "RD_ALifeLine_0518e7fe48b9059f",
+      "Do you have anyone with you? Anyone waiting on you?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:139",
+        "NPC_ASKS_COMPANY",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "362": [
+      "RD_ALifeLine_268291da3c2a7216",
+      "You got people? I hope you're not doing this alone",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:139",
+        "NPC_ASKS_COMPANY",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "363": [
+      "RD_ALifeLine_62a0a2a908da844f",
+      "Is it just you, or is there a group somewhere?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:139",
+        "NPC_ASKS_COMPANY",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "364": [
+      "RD_ALifeLine_154a7efd4be30bb0",
+      "You have folks looking out for you?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:139",
+        "NPC_ASKS_COMPANY",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "365": [
+      "RD_ALifeLine_2f6d6ad07dccc3e5",
+      "You on your own?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:140",
+        "NPC_ASKS_COMPANY",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "366": [
+      "RD_ALifeLine_63094af05eed3ab3",
+      "You travel alone, or with others?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:140",
+        "NPC_ASKS_COMPANY",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "367": [
+      "RD_ALifeLine_507494c978d7f5b1",
+      "Got a group, or just you?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:140",
+        "NPC_ASKS_COMPANY",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "368": [
+      "RD_ALifeLine_5a95e89b4a54f56e",
+      "Anybody with you?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:140",
+        "NPC_ASKS_COMPANY",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "369": [
+      "RD_ALifeLine_710b03382b7c9d95",
+      "You by yourself out here?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:140",
+        "NPC_ASKS_COMPANY",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "370": [
+      "RD_ALifeLine_5b2a417336d99703",
+      "You alone? Don't LIE to me",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:141",
+        "NPC_ASKS_COMPANY",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "371": [
+      "RD_ALifeLine_3da4b47b34e03a10",
+      "Anyone else with you? I'd rather know now",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:141",
+        "NPC_ASKS_COMPANY",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "372": [
+      "RD_ALifeLine_202b06ff1f6397d4",
+      "Who else is with you, if anyone?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:141",
+        "NPC_ASKS_COMPANY",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "373": [
+      "RD_ALifeLine_07897ce14f78711d",
+      "You got friends nearby?! Watching us right now?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:141",
+        "NPC_ASKS_COMPANY",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "374": [
+      "RD_ALifeLine_741ee24e25ba8fac",
+      "Somebody waiting for you back there? Or is it just you?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:141",
+        "NPC_ASKS_COMPANY",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "375": [
+      "RD_ALifeLine_0ce8062d749b5700",
+      "Oh that's good, nobody should be alone in this",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:16",
+        "NPC_ANSWER_COMPANY_PEOPLE",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "376": [
+      "RD_ALifeLine_0ef95f5b3ab92d52",
+      "That's great, really, hold onto them",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:16",
+        "NPC_ANSWER_COMPANY_PEOPLE",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "377": [
+      "RD_ALifeLine_393c260f20986e5f",
+      "Lucky them, having you",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:16",
+        "NPC_ANSWER_COMPANY_PEOPLE",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "378": [
+      "RD_ALifeLine_14dfdbb7364f61b5",
+      "Numbers help",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:17",
+        "NPC_ANSWER_COMPANY_PEOPLE",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "379": [
+      "RD_ALifeLine_57cb2f2552ca747a",
+      "Smart, safer that way",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:17",
+        "NPC_ANSWER_COMPANY_PEOPLE",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "380": [
+      "RD_ALifeLine_3bd87f2d66ce1ce8",
+      "Glad you've got backup",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:17",
+        "NPC_ANSWER_COMPANY_PEOPLE",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "381": [
+      "RD_ALifeLine_7971ae6179ea845a",
+      "Good to know there's more of you",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:18",
+        "NPC_ANSWER_COMPANY_PEOPLE",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "382": [
+      "RD_ALifeLine_37c858653b71400b",
+      "Then I'll mind my manners",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:18",
+        "NPC_ANSWER_COMPANY_PEOPLE",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "383": [
+      "RD_ALifeLine_6fb9861128fa93b7",
+      "Oh.. that's hard, I'm sorry, you shouldn't have to",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:13",
+        "NPC_ANSWER_COMPANY_ALONE",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "384": [
+      "RD_ALifeLine_3753e0fa232a6c5e",
+      "Alone.. damn, you're tougher than me",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:13",
+        "NPC_ANSWER_COMPANY_ALONE",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "385": [
+      "RD_ALifeLine_6f7e10ff085743fd",
+      "Well, you're not alone right now at least",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:13",
+        "NPC_ANSWER_COMPANY_ALONE",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "386": [
+      "RD_ALifeLine_5cc18c097472d4b4",
+      "Rough, alone out here",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:14",
+        "NPC_ANSWER_COMPANY_ALONE",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "387": [
+      "RD_ALifeLine_109a4b204258e325",
+      "Takes guts, being on your own",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:14",
+        "NPC_ANSWER_COMPANY_ALONE",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "388": [
+      "RD_ALifeLine_269915f472e0d9d8",
+      "Watch your back then, nobody else will",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:14",
+        "NPC_ANSWER_COMPANY_ALONE",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "389": [
+      "RD_ALifeLine_40f510e91a8d5ae7",
+      "Just you then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:15",
+        "NPC_ANSWER_COMPANY_ALONE",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "390": [
+      "RD_ALifeLine_000b4ff338df1276",
+      "On your own, huh",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:15",
+        "NPC_ANSWER_COMPANY_ALONE",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "391": [
+      "RD_ALifeLine_5a1aafb91ff3ac81",
+      "That's.. good to know",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:15",
+        "NPC_ANSWER_COMPANY_ALONE",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "392": [
+      "RD_ALifeLine_42bbc2153b4e0717",
+      "Ha, fair, careful is good",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:19",
+        "NPC_ANSWER_COMPANY_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "393": [
+      "RD_ALifeLine_7eacdf797f8d5197",
+      "Smart, you don't know me yet",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:19",
+        "NPC_ANSWER_COMPANY_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "394": [
+      "RD_ALifeLine_7edfcafa1d98bba7",
+      "That's fine, I'd be careful too",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:19",
+        "NPC_ANSWER_COMPANY_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "395": [
+      "RD_ALifeLine_5e985ac478bdce71",
+      "Sensible, I get it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:20",
+        "NPC_ANSWER_COMPANY_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "396": [
+      "RD_ALifeLine_4f6760e958dcdddb",
+      "Keep your cards close, then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:20",
+        "NPC_ANSWER_COMPANY_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "397": [
+      "RD_ALifeLine_2550c82737d7250a",
+      "I get why",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:20",
+        "NPC_ANSWER_COMPANY_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "398": [
+      "RD_ALifeLine_5714ff6a592503d0",
+      "Cagey, huh",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:21",
+        "NPC_ANSWER_COMPANY_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "399": [
+      "RD_ALifeLine_219a1d9430b020fd",
+      "Means there's more of you, I bet",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:21",
+        "NPC_ANSWER_COMPANY_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "400": [
+      "RD_ALifeLine_59af658e0195a71b",
+      "I'd say the same, in your shoes",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:21",
+        "NPC_ANSWER_COMPANY_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "401": [
+      "RD_ALifeLine_208d97425aaac2d8",
+      "How long have you been surviving out here?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:181",
+        "NPC_ASKS_TIME",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "402": [
+      "RD_ALifeLine_22676dea20cde0c9",
+      "The running, the hiding, all of it.. how long for you?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:181",
+        "NPC_ASKS_TIME",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "403": [
+      "RD_ALifeLine_0a85e5953b1db62d",
+      "How long's it been for you? Out here, I mean",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:181",
+        "NPC_ASKS_TIME",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "404": [
+      "RD_ALifeLine_49cb366d43a02824",
+      "You seem like you know what you're doing, how long you been at it?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:181",
+        "NPC_ASKS_TIME",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "405": [
+      "RD_ALifeLine_592ee4b13902c717",
+      "Have you been out here a long time? You don't have to count",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:181",
+        "NPC_ASKS_TIME",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "406": [
+      "RD_ALifeLine_125baae206a78072",
+      "How long you been out here?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:182",
+        "NPC_ASKS_TIME",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "407": [
+      "RD_ALifeLine_027b27bb5a1addbf",
+      "You been surviving long?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:182",
+        "NPC_ASKS_TIME",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "408": [
+      "RD_ALifeLine_2b88ed2d54c21107",
+      "Been out here a while?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:182",
+        "NPC_ASKS_TIME",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "409": [
+      "RD_ALifeLine_00aee9a31965b183",
+      "You been on the move long?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:182",
+        "NPC_ASKS_TIME",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "410": [
+      "RD_ALifeLine_541ebf7b67694053",
+      "How many days you been out here, you think?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:182",
+        "NPC_ASKS_TIME",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "411": [
+      "RD_ALifeLine_64dc17c44a845673",
+      "Long time out here, or not? Be straight with me",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:183",
+        "NPC_ASKS_TIME",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "412": [
+      "RD_ALifeLine_57e147663250e44c",
+      "How far in are you? Days, weeks?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:183",
+        "NPC_ASKS_TIME",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "413": [
+      "RD_ALifeLine_44b688d96b126b85",
+      "You been out here long, or are you new to this?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:183",
+        "NPC_ASKS_TIME",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "414": [
+      "RD_ALifeLine_6d0214b0706e912e",
+      "Been at this long?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:183",
+        "NPC_ASKS_TIME",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "415": [
+      "RD_ALifeLine_141fc042581f415a",
+      "This mess, how long you been in it?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:183",
+        "NPC_ASKS_TIME",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "416": [
+      "RD_ALifeLine_5d69ff661fec0552",
+      "All this time and you're still here, that's something",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:145",
+        "NPC_ANSWER_TIME_START",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "417": [
+      "RD_ALifeLine_77bfb34d1545ee6f",
+      "God, then you've seen all of it, I'm sorry",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:145",
+        "NPC_ANSWER_TIME_START",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "418": [
+      "RD_ALifeLine_0a2e92cb1366f7ef",
+      "Me too, it feels like forever",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:145",
+        "NPC_ANSWER_TIME_START",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "419": [
+      "RD_ALifeLine_5249d0544067b98e",
+      "Long haul then, like me",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:146",
+        "NPC_ANSWER_TIME_START",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "420": [
+      "RD_ALifeLine_6089ac4046d42295",
+      "You've lasted, that says plenty",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:146",
+        "NPC_ANSWER_TIME_START",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "421": [
+      "RD_ALifeLine_7e64e18439b4fa5b",
+      "From day one, huh",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:146",
+        "NPC_ANSWER_TIME_START",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "422": [
+      "RD_ALifeLine_7d1e3b9216c25858",
+      "Then you know how it works by now",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:147",
+        "NPC_ANSWER_TIME_START",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "423": [
+      "RD_ALifeLine_3bf5f59f4fe1eb10",
+      "You're no beginner, then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:147",
+        "NPC_ANSWER_TIME_START",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "424": [
+      "RD_ALifeLine_1d42455051567c73",
+      "So you're not new to this",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:147",
+        "NPC_ANSWER_TIME_START",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "425": [
+      "RD_ALifeLine_5728621c1126f52e",
+      "It all runs together, doesn't it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:139",
+        "NPC_ANSWER_TIME_LONG",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "426": [
+      "RD_ALifeLine_50836cd06149dc85",
+      "I stopped counting too, it hurts less",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:139",
+        "NPC_ANSWER_TIME_LONG",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "427": [
+      "RD_ALifeLine_35c2028e7b90ff82",
+      "God, same, I couldn't tell you what day it is",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:139",
+        "NPC_ANSWER_TIME_LONG",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "428": [
+      "RD_ALifeLine_452b9beb6f11bb77",
+      "Lost track a while back myself",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:140",
+        "NPC_ANSWER_TIME_LONG",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "429": [
+      "RD_ALifeLine_6785bcf048173c9c",
+      "Days don't mean much now",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:140",
+        "NPC_ANSWER_TIME_LONG",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "430": [
+      "RD_ALifeLine_438670d30c1d6818",
+      "That's a long time to stay alive",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:140",
+        "NPC_ANSWER_TIME_LONG",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "431": [
+      "RD_ALifeLine_157be92f6a489e34",
+      "Long enough to know better, then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:141",
+        "NPC_ANSWER_TIME_LONG",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "432": [
+      "RD_ALifeLine_1361248a474798b0",
+      "You've seen a lot, I bet",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:141",
+        "NPC_ANSWER_TIME_LONG",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "433": [
+      "RD_ALifeLine_025319305c387966",
+      "Picked up a thing or two, I'd guess",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:141",
+        "NPC_ANSWER_TIME_LONG",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "434": [
+      "RD_ALifeLine_5669cbd43e0ea378",
+      "Sorry, it's a heavy one",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:142",
+        "NPC_ANSWER_TIME_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "435": [
+      "RD_ALifeLine_11b8a86f2abee862",
+      "Fair, I don't like counting either",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:142",
+        "NPC_ANSWER_TIME_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "436": [
+      "RD_ALifeLine_1a5bd3db3f0082f4",
+      "Something else then, sure",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:142",
+        "NPC_ANSWER_TIME_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "437": [
+      "RD_ALifeLine_3ffbf58967be0e24",
+      "Doesn't matter much anyway",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:143",
+        "NPC_ANSWER_TIME_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "438": [
+      "RD_ALifeLine_00a545ee352d3a99",
+      "Skip it, fine",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:143",
+        "NPC_ANSWER_TIME_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "439": [
+      "RD_ALifeLine_456b7f3742978c6a",
+      "Not counting either, huh",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:144",
+        "NPC_ANSWER_TIME_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "440": [
+      "RD_ALifeLine_5889bd6c38e75f0c",
+      "I'll stop asking",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:144",
+        "NPC_ANSWER_TIME_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "441": [
+      "RD_ALifeLine_0db5636961ff43e5",
+      "Whatever, doesn't matter to me",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:144",
+        "NPC_ANSWER_TIME_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "442": [
+      "RD_ALifeLine_2275602a18814ef9",
+      "Do you have family? Out there somewhere?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:157",
+        "NPC_ASKS_FAMILY",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "443": [
+      "RD_ALifeLine_236193fb360fa032",
+      "You got anybody? Family, I mean",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:157",
+        "NPC_ASKS_FAMILY",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "444": [
+      "RD_ALifeLine_1917c1bc19e6fceb",
+      "Is there someone you're trying to get back to?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:157",
+        "NPC_ASKS_FAMILY",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "445": [
+      "RD_ALifeLine_3f37acbe3cba5277",
+      "Anybody waiting on you somewhere? Family?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:157",
+        "NPC_ASKS_FAMILY",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "446": [
+      "RD_ALifeLine_027f6eb74db9840b",
+      "You have people of your own? A partner, parents, anyone?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:157",
+        "NPC_ASKS_FAMILY",
+        "NPC SORU · Dost",
+        "st=friendly"
+      ]
+    ],
+    "447": [
+      "RD_ALifeLine_7256fc68002d0279",
+      "You got family out there?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:158",
+        "NPC_ASKS_FAMILY",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "448": [
+      "RD_ALifeLine_2060338625d7915a",
+      "Any family left?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:158",
+        "NPC_ASKS_FAMILY",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "449": [
+      "RD_ALifeLine_3869be356e63be71",
+      "Anyone you're looking for?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:158",
+        "NPC_ASKS_FAMILY",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "450": [
+      "RD_ALifeLine_0bcef89261dc9324",
+      "Still got family?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:158",
+        "NPC_ASKS_FAMILY",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "451": [
+      "RD_ALifeLine_2aaa37cd19766f8c",
+      "Family? Anyone?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:158",
+        "NPC_ASKS_FAMILY",
+        "NPC SORU · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "452": [
+      "RD_ALifeLine_20f1cce910e4b07a",
+      "You have family? Just asking, nothing more",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:159",
+        "NPC_ASKS_FAMILY",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "453": [
+      "RD_ALifeLine_15b301fd56c03e27",
+      "Got family somewhere? Don't have to say where",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:159",
+        "NPC_ASKS_FAMILY",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "454": [
+      "RD_ALifeLine_14663d7572d4dd33",
+      "Anybody out there that matters to you?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:159",
+        "NPC_ASKS_FAMILY",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "455": [
+      "RD_ALifeLine_19897593428b062a",
+      "You got family to get back to, or not?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:159",
+        "NPC_ASKS_FAMILY",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "456": [
+      "RD_ALifeLine_42679cca18ae0afa",
+      "You got kin out there?",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_barks_misc_6.lua:159",
+        "NPC_ASKS_FAMILY",
+        "NPC SORU · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "457": [
+      "RD_ALifeLine_708366ae44521363",
+      "I hope so too, really, I hope they're okay",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:70",
+        "NPC_ANSWER_FAMILY_HOPE",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "458": [
+      "RD_ALifeLine_141ff574434a9524",
+      "Hang onto that, okay.. don't let go of it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:70",
+        "NPC_ANSWER_FAMILY_HOPE",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "459": [
+      "RD_ALifeLine_2eb260042d7950af",
+      "God, I hope you find them, I mean it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:70",
+        "NPC_ANSWER_FAMILY_HOPE",
+        "NPC TEPKİ · B1 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "460": [
+      "RD_ALifeLine_12d9fea52d6fa4db",
+      "Hope you get back to them",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:71",
+        "NPC_ANSWER_FAMILY_HOPE",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "461": [
+      "RD_ALifeLine_26a745fb1edc9b64",
+      "Then keep going, they might be waiting",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:71",
+        "NPC_ANSWER_FAMILY_HOPE",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "462": [
+      "RD_ALifeLine_58ceddc52a3d800a",
+      "That's something to keep moving for",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:71",
+        "NPC_ANSWER_FAMILY_HOPE",
+        "NPC TEPKİ · B1 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "463": [
+      "RD_ALifeLine_509cc6eb725d2cab",
+      "Hope it works out for you",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:72",
+        "NPC_ANSWER_FAMILY_HOPE",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "464": [
+      "RD_ALifeLine_2bf5f8b94e652fef",
+      "Don't let me hold you up",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:72",
+        "NPC_ANSWER_FAMILY_HOPE",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "465": [
+      "RD_ALifeLine_6a60fe2f6ffbe382",
+      "Maybe they're out there, who knows",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:72",
+        "NPC_ANSWER_FAMILY_HOPE",
+        "NPC TEPKİ · B1 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "466": [
+      "RD_ALifeLine_36f9f7a0510f1338",
+      "Oh no, oh no, I'm so sorry, I- I didn't know",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:67",
+        "NPC_ANSWER_FAMILY_GONE",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "467": [
+      "RD_ALifeLine_5ef74c4348ebe60f",
+      "God, I'm sorry, that's.. that's awful",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:67",
+        "NPC_ANSWER_FAMILY_GONE",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "468": [
+      "RD_ALifeLine_2b9edfd612a9c4bf",
+      "I'm sorry, really, nobody should carry that alone",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:67",
+        "NPC_ANSWER_FAMILY_GONE",
+        "NPC TEPKİ · B2 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "469": [
+      "RD_ALifeLine_4d771d647a7b9dd2",
+      "Damn, I'm sorry..",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:68",
+        "NPC_ANSWER_FAMILY_GONE",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "470": [
+      "RD_ALifeLine_603cb8b55debf14d",
+      "A lot of us lost people",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:68",
+        "NPC_ANSWER_FAMILY_GONE",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "471": [
+      "RD_ALifeLine_2a86d5a72238316f",
+      "I lost mine too",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:68",
+        "NPC_ANSWER_FAMILY_GONE",
+        "NPC TEPKİ · B2 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "472": [
+      "RD_ALifeLine_2c35ef31382504c1",
+      "Sorry to hear it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:69",
+        "NPC_ANSWER_FAMILY_GONE",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "473": [
+      "RD_ALifeLine_0ad89eb6239baf0f",
+      "Me too, so I won't ask more",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:69",
+        "NPC_ANSWER_FAMILY_GONE",
+        "NPC TEPKİ · B2 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "474": [
+      "RD_ALifeLine_6305962c4253befc",
+      "I'm sorry, I won't ask again",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:73",
+        "NPC_ANSWER_FAMILY_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "475": [
+      "RD_ALifeLine_61000572741f0cb1",
+      "Of course, of course, I'm sorry",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:73",
+        "NPC_ANSWER_FAMILY_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "476": [
+      "RD_ALifeLine_7c94cdbf7b01cf52",
+      "That's okay, I get it, really",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:73",
+        "NPC_ANSWER_FAMILY_PRIVATE",
+        "NPC TEPKİ · B3 · Dost",
+        "st=friendly"
+      ]
+    ],
+    "477": [
+      "RD_ALifeLine_6fc7df2223234219",
+      "Sorry I brought it up",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:74",
+        "NPC_ANSWER_FAMILY_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "478": [
+      "RD_ALifeLine_41cc12541c8e8722",
+      "Understood, I'll leave it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:74",
+        "NPC_ANSWER_FAMILY_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "479": [
+      "RD_ALifeLine_2aca3a9d0cf5ea04",
+      "I'll stop there",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:74",
+        "NPC_ANSWER_FAMILY_PRIVATE",
+        "NPC TEPKİ · B3 · Tarafsız",
+        "st=neutral"
+      ]
+    ],
+    "480": [
+      "RD_ALifeLine_77a2b92327e6b42d",
+      "I won't touch it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:75",
+        "NPC_ANSWER_FAMILY_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "481": [
+      "RD_ALifeLine_5b07a5a075f99760",
+      "Off limits then",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:75",
+        "NPC_ANSWER_FAMILY_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ],
+    "482": [
+      "RD_ALifeLine_2d8d92cd4927538c",
+      "Dropping it",
+      [
+        "shared/ProjectALife/Talk/Data/ALifeDialogue_replies_npc_1.lua:75",
+        "NPC_ANSWER_FAMILY_PRIVATE",
+        "NPC TEPKİ · B3 · Temkinli",
+        "st=careful"
+      ]
+    ]
+  }
+}

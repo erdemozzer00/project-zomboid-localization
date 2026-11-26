@@ -1,0 +1,157 @@
+# U1R · 10/14 · Yalnız hayatta kalanlar ve yolcular
+# Çıktı dosyası: U1R_10.txt. Dosyaya yalnız N | Türkçe satırlarını yaz. 911–996 arasındaki her numarayı aynı sırada bir kez kullan.
+# Başlıklar ve numarasız notlar bağlamdır. Çevrilecek metin her numaralı satırın son sütunundadır.
+# DÜNYA VE EKRAN: Project Zomboid, 1993 Kentucky’si. Bunlar Oluşturucu’da ve katalogda NPC üye şablonunu tanıtan kısa ekran etiketleridir.
+# BİÇİM: “Ad ve unvan” satırında kişi adını ve boşluklu “ - ” ayracını koru. Unvanı kısa bir Türkçe ad öbeği olarak yaz. “Şablon adı” tek parça bir etikettir. İçinde bir ad ve rütbe varsa kişinin adını koruyup rütbeyi Türkçeleştir. Yer ve kişi adlarını, numaraları ve model kodlarını koru. Sona nokta koyma.
+# BAĞLAM: Her başlık bir fraksiyondur. İngilizce grup açıklaması oyunun kataloğundan alınmıştır. Açıklamadaki olaylar çevrilecek ada eklenmez. “Ortak etiket” notu bir sonraki satırın aynı metinle kullanıldığı diğer grupları sayar. Bu satıra hepsine uyan tek karşılık yaz.
+# TERİM BAĞLAMI: Bir fraksiyon tek başına kalmış birini tarif edebilir. Altındaki adlar ayrı üye şablonlarıdır. Açıklamadaki olayı her ada ekleme.
+# SABİT KARŞILIKLAR: Survivor → Hayatta Kalan · Hired Hand → Çiftlik İşçisi
+
+##### Stranded Commuter #####
+# Katalog açıklaması: A stranded commuter in a suit, still carrying the briefcase, walking home from a car that will not start.
+# Oyundaki fraksiyon adı (bağlam): Yolda Kalan Yolcu
+# Ortak etiket · Şu gruplarda da kullanılır: Old Veteran
+911 | Ad ve unvan | Daniel - Survivor
+912 | Ad ve unvan | Carla - Survivor
+913 | Ad ve unvan | Frank - Survivor
+# Ortak etiket · Şu gruplarda da kullanılır: Hitchhiker
+914 | Ad ve unvan | Wade - Survivor
+915 | Ad ve unvan | Luis - Survivor
+# Ortak etiket · Şu gruplarda da kullanılır: Old Veteran · Long Road Survivors
+916 | Ad ve unvan | Yvonne - Survivor
+# Ortak etiket · Şu gruplarda da kullanılır: Long Road Survivors
+917 | Ad ve unvan | Curtis - Survivor
+918 | Ad ve unvan | Angela - Survivor
+
+##### Lost Hiker #####
+# Katalog açıklaması: A lost hiker on the trails who has not seen a road in days and does not know what happened to the towns.
+# Oyundaki fraksiyon adı (bağlam): Kaybolmuş Doğa Yürüyüşçüsü
+# Ortak etiket · Şu gruplarda da kullanılır: Stranded Courier
+919 | Ad ve unvan | Calvin - Survivor
+# Ortak etiket · Şu gruplarda da kullanılır: Stranded Courier
+920 | Ad ve unvan | Beth - Survivor
+921 | Ad ve unvan | Loretta - Survivor
+# Ortak etiket · Şu gruplarda da kullanılır: Hired Hand
+922 | Ad ve unvan | Jesse - Survivor
+923 | Ad ve unvan | Ada - Survivor
+# Ortak etiket · Şu gruplarda da kullanılır: Stranded Courier · Hired Hand
+924 | Ad ve unvan | Travis - Survivor
+# Ortak etiket · Şu gruplarda da kullanılır: Stranded Courier · Hired Hand
+925 | Ad ve unvan | Monica - Survivor
+
+##### Night-Shift Nurse #####
+# Katalog açıklaması: A night-shift nurse who walked off the ward with her kit and has been walking since.
+# Oyundaki fraksiyon adı (bağlam): Gece Vardiyası Hemşiresi
+926 | Ad ve unvan | Tammy - Night-Shift Nurse
+927 | Ad ve unvan | Patsy - Night-Shift Nurse
+928 | Ad ve unvan | Sheila - Night-Shift Nurse
+929 | Ad ve unvan | Denise - Night-Shift Nurse
+930 | Ad ve unvan | Roy - Night-Shift Orderly
+931 | Ad ve unvan | Grace - Night-Shift Aide
+
+##### Retired Neighbour #####
+# Katalog açıklaması: A retired neighbour who is not leaving the house, thank you, and has the revolver from the bedside drawer.
+# Oyundaki fraksiyon adı (bağlam): Emekli Komşu
+932 | Ad ve unvan | Andre - Retired Neighbour
+933 | Ad ve unvan | Laura - Retired Neighbour
+934 | Ad ve unvan | Angela - Retired Neighbour
+935 | Ad ve unvan | Helen - Retired Neighbour
+936 | Ad ve unvan | Lyle - Survivor
+937 | Ad ve unvan | Maria - Survivor
+938 | Ad ve unvan | Ray - Survivor
+939 | Ad ve unvan | Darlene - Survivor
+
+##### Stranded Courier #####
+# Katalog açıklaması: A stranded courier with a satchel of somebody else's mail and a bicycle helmet, working the roads.
+# Oyundaki fraksiyon adı (bağlam): Mahsur Kalan Kurye
+940 | Ad ve unvan | Boyd - Survivor
+941 | Ad ve unvan | Gus - Survivor
+942 | Ad ve unvan | Bonnie - Survivor
+
+##### Roadside Mechanic #####
+# Katalog açıklaması: A roadside mechanic under somebody's bonnet, with a toolbox and no intention of leaving the car.
+# Oyundaki fraksiyon adı (bağlam): Yol Kenarı Tamircisi
+943 | Ad ve unvan | Otis - Roadside Mechanic
+944 | Ad ve unvan | Terrence - Roadside Mechanic
+945 | Ad ve unvan | Marcus - Roadside Mechanic
+946 | Ad ve unvan | Tammy - Roadside Mechanic
+947 | Ad ve unvan | Leon - Survivor
+948 | Ad ve unvan | Sheila - Survivor
+949 | Ad ve unvan | Adam - Survivor
+# Ortak etiket · Şu gruplarda da kullanılır: Long Road Survivors
+950 | Ad ve unvan | Claire - Survivor
+
+##### Lost Tourist #####
+# Katalog açıklaması: A tourist from out of state who pulled off 31W to see Fort Knox and got lost when the rental car broke down.
+# Oyundaki fraksiyon adı (bağlam): Kaybolmuş Turist
+951 | Ad ve unvan | Andre - Tourist
+952 | Ad ve unvan | Laura - Tourist
+953 | Ad ve unvan | Vernon - Tourist
+954 | Ad ve unvan | Helen - Tourist
+955 | Ad ve unvan | Lyle - Stranger
+956 | Ad ve unvan | Maria - Stranger
+957 | Ad ve unvan | Ray - Stranger
+958 | Ad ve unvan | Frank - Stranger
+
+##### Teen Looking for Parents #####
+# Katalog açıklaması: A teenager going house to house looking for Mom and Dad and calling for them at every door.
+# Oyundaki fraksiyon adı (bağlam): Anne Babasını Arayan Genç
+959 | Ad ve unvan | Travis - Teenager
+960 | Ad ve unvan | Monica - Teenager
+961 | Ad ve unvan | Boyd - Teenager
+962 | Ad ve unvan | Gus - Teenager
+963 | Ad ve unvan | Evan - Stranger
+964 | Ad ve unvan | Loretta - Stranger
+965 | Ad ve unvan | Paul - Stranger
+966 | Ad ve unvan | Scott - Stranger
+
+##### Stuck Trucker #####
+# Katalog açıklaması: A long-haul driver whose rig went off the interstate ramp. Still waiting for a tow and calling dispatch on the CB.
+# Oyundaki fraksiyon adı (bağlam): Yolda Kalan Kamyoncu
+967 | Ad ve unvan | Otis - Trucker
+968 | Ad ve unvan | Terrence - Trucker
+969 | Ad ve unvan | Marcus - Trucker
+970 | Ad ve unvan | Tammy - Trucker
+971 | Ad ve unvan | Leon - Stranger
+972 | Ad ve unvan | Sheila - Stranger
+973 | Ad ve unvan | Adam - Stranger
+974 | Ad ve unvan | Earl - Stranger
+
+##### Hitchhiker #####
+# Katalog açıklaması: A hitchhiker on the shoulder of 31W holding a cardboard sign that says NASHVILLE. Rides have been slow.
+# Oyundaki fraksiyon adı (bağlam): Otostopçu
+975 | Ad ve unvan | Daniel - Hitchhiker
+976 | Ad ve unvan | Renee - Hitchhiker
+977 | Ad ve unvan | Frank - Hitchhiker
+978 | Ad ve unvan | Laura - Survivor
+979 | Ad ve unvan | Andre - Survivor
+980 | Ad ve unvan | Helen - Survivor
+
+##### Hired Hand #####
+# Katalog açıklaması: A hired hand who stayed on after the family that owns the farm drove off. Still feeding the stock and waiting to get paid.
+# Oyundaki fraksiyon adı (bağlam): Çiftlik İşçisi
+981 | Ad ve unvan | Calvin - Hired Hand
+982 | Ad ve unvan | Bonnie - Hired Hand
+983 | Ad ve unvan | Ada - Hired Hand
+984 | Ad ve unvan | Nina - Survivor
+
+##### College Student #####
+# Katalog açıklaması: A college kid walking home from Louisville to the family place in the county, sleeping in barns and living on vending machine snacks.
+# Oyundaki fraksiyon adı (bağlam): Üniversite Öğrencisi
+985 | Ad ve unvan | Henry - College Student
+986 | Ad ve unvan | Denise - College Student
+987 | Ad ve unvan | Earl - College Student
+988 | Ad ve unvan | Lonnie - Survivor
+989 | Ad ve unvan | Ellen - Survivor
+990 | Ad ve unvan | Otis - Survivor
+991 | Ad ve unvan | Tammy - Survivor
+
+##### Old Veteran #####
+# Katalog açıklaması: A Vietnam vet who lives alone at the end of a gravel road and has no use for visitors.
+# Oyundaki fraksiyon adı (bağlam): Yaşlı Gazi
+992 | Ad ve unvan | Andre - Veteran
+993 | Ad ve unvan | Curtis - Veteran
+994 | Ad ve unvan | Vernon - Veteran
+# Ortak etiket · Şu gruplarda da kullanılır: Long Road Survivors
+995 | Ad ve unvan | Darnell - Survivor
+996 | Ad ve unvan | Renee - Survivor

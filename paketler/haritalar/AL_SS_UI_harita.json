@@ -1,0 +1,528 @@
+{
+  "_paket": "AL_SS_UI",
+  "_grup": "ekran_goruntuleri_olusturucu_durum",
+  "_dosya": "IG_UI_lua",
+  "_baslik": "Ekran görüntüleri · Oluşturucu ve Dünya Durumu",
+  "_noktalama": false,
+  "_parcalar": [
+    [
+      1,
+      57
+    ]
+  ],
+  "satirlar": {
+    "1": [
+      "IGUI_ALifeUI_0035fd2c53dfe0fa",
+      "Off (0%)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:61",
+        "Oluşturucu · Ganimet · silah düşürme olasılığı",
+        "ss_ui"
+      ]
+    ],
+    "2": [
+      "IGUI_ALifeUI_4d271f670031d9db",
+      "Very low (0-10%)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:61",
+        "Oluşturucu · Ganimet · silah düşürme olasılığı",
+        "ss_ui"
+      ]
+    ],
+    "3": [
+      "IGUI_ALifeUI_3d5e6cbc63dd040e",
+      "Low (10-20%)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:61",
+        "Oluşturucu · Ganimet · silah düşürme olasılığı",
+        "ss_ui"
+      ]
+    ],
+    "4": [
+      "IGUI_ALifeUI_1394fa5e666e0dec",
+      "Moderate (20-30%)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:61",
+        "Oluşturucu · Ganimet · silah düşürme olasılığı",
+        "ss_ui"
+      ]
+    ],
+    "5": [
+      "IGUI_ALifeUI_0c5e50e609279e32",
+      "High (30-50%)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:61",
+        "Oluşturucu · Ganimet · silah düşürme olasılığı",
+        "ss_ui"
+      ]
+    ],
+    "6": [
+      "IGUI_ALifeUI_3a9a8cbe32da4853",
+      "Very high (50-70%)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:61",
+        "Oluşturucu · Ganimet · silah düşürme olasılığı",
+        "ss_ui"
+      ]
+    ],
+    "7": [
+      "IGUI_ALifeUI_6f3e0f3e04cf3f7b",
+      "Almost always (70-99%)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:61",
+        "Oluşturucu · Ganimet · silah düşürme olasılığı",
+        "ss_ui"
+      ]
+    ],
+    "8": [
+      "IGUI_ALifeUI_5b8ba5314c34eb90",
+      "Always (100%)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:61",
+        "Oluşturucu · Ganimet · silah düşürme olasılığı",
+        "ss_ui"
+      ]
+    ],
+    "9": [
+      "IGUI_ALifeUI_4d701c7f25ea183f",
+      "Broken (0/10)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:5",
+        "Oluşturucu · Ganimet · eşya kondisyonu",
+        "ss_ui"
+      ]
+    ],
+    "10": [
+      "IGUI_ALifeUI_748e45aa1dcf4e0d",
+      "Scrap, a shot or two (1/10)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:5",
+        "Oluşturucu · Ganimet · eşya kondisyonu",
+        "ss_ui"
+      ]
+    ],
+    "11": [
+      "IGUI_ALifeUI_393bf64a1634e176",
+      "Very poor, a few shots (2/10)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:5",
+        "Oluşturucu · Ganimet · eşya kondisyonu",
+        "ss_ui"
+      ]
+    ],
+    "12": [
+      "IGUI_ALifeUI_10af3a905600a612",
+      "Poor (3/10)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:5",
+        "Oluşturucu · Ganimet · eşya kondisyonu",
+        "ss_ui"
+      ]
+    ],
+    "13": [
+      "IGUI_ALifeUI_63047c2f680e48b5",
+      "Worn (4/10)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:5",
+        "Oluşturucu · Ganimet · eşya kondisyonu",
+        "ss_ui"
+      ]
+    ],
+    "14": [
+      "IGUI_ALifeUI_1a7ecefd031d395b",
+      "Used, half gone (5/10)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:5",
+        "Oluşturucu · Ganimet · eşya kondisyonu",
+        "ss_ui"
+      ]
+    ],
+    "15": [
+      "IGUI_ALifeUI_58964f5f4755fa34",
+      "Serviceable (6/10)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:5",
+        "Oluşturucu · Ganimet · eşya kondisyonu",
+        "ss_ui"
+      ]
+    ],
+    "16": [
+      "IGUI_ALifeUI_74b9a691261a212d",
+      "Good (7/10)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:5",
+        "Oluşturucu · Ganimet · eşya kondisyonu",
+        "ss_ui"
+      ]
+    ],
+    "17": [
+      "IGUI_ALifeUI_5604ef6b2b20ed8e",
+      "Very good (8/10)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:5",
+        "Oluşturucu · Ganimet · eşya kondisyonu",
+        "ss_ui"
+      ]
+    ],
+    "18": [
+      "IGUI_ALifeUI_15e1d58a7af072a1",
+      "Near new (9/10)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:5",
+        "Oluşturucu · Ganimet · eşya kondisyonu",
+        "ss_ui"
+      ]
+    ],
+    "19": [
+      "IGUI_ALifeUI_30275834531a4575",
+      "Issue fresh (10/10)",
+      [
+        "shared/ProjectALife/Records/ALifeDropPolicy.lua:5",
+        "Oluşturucu · Ganimet · eşya kondisyonu",
+        "ss_ui"
+      ]
+    ],
+    "20": [
+      "IGUI_ALifeUI_2979f9a75d64cd9f",
+      "{folder}. Click to fold or unfold.",
+      [
+        "client/ProjectALife/Interface/Creator/ALifeCreatorUxStatus.lua:297",
+        "Oluşturucu · Klasör ipucu",
+        "ss_ui"
+      ]
+    ],
+    "21": [
+      "IGUI_ALifeUI_0bf8bfef77838b21",
+      "Chinstrap",
+      [
+        "client/ProjectALife/Interface/Creator/ALifeCreatorCore.lua:3782",
+        "Oluşturucu · Görünüm · sakal",
+        "ss_ui"
+      ]
+    ],
+    "22": [
+      "IGUI_ALifeUI_2f230aa4162ebf28",
+      "Any",
+      [
+        "client/ProjectALife/Interface/Creator/ALifeCreatorWardrobe.lua:26",
+        "Oluşturucu · Görünüm · mevsim sekmesi",
+        "ss_ui"
+      ]
+    ],
+    "23": [
+      "IGUI_ALifeUI_46e50d745f57063c",
+      "EMPTY SET",
+      [
+        "shared/ProjectALife/Records/ALifeClothingHealth.lua:542",
+        "Oluşturucu · Görünüm · kıyafet uygunluk rozeti",
+        "ss_ui"
+      ]
+    ],
+    "24": [
+      "IGUI_ALifeUI_58855efe0d256432",
+      "VALID FOR {season}",
+      [
+        "shared/ProjectALife/Records/ALifeClothingHealth.lua:542",
+        "Oluşturucu · Görünüm · kıyafet uygunluk rozeti",
+        "ss_ui"
+      ]
+    ],
+    "25": [
+      "IGUI_ALifeUI_7dfe93374ac4c7ed",
+      "{count} ISSUE FOR {season}",
+      [
+        "shared/ProjectALife/Records/ALifeClothingHealth.lua:542",
+        "Oluşturucu · Görünüm · kıyafet uygunluk rozeti",
+        "ss_ui"
+      ]
+    ],
+    "26": [
+      "IGUI_ALifeUI_682d41366a1c5a08",
+      "{count} ISSUES FOR {season}",
+      [
+        "shared/ProjectALife/Records/ALifeClothingHealth.lua:542",
+        "Oluşturucu · Görünüm · kıyafet uygunluk rozeti",
+        "ss_ui"
+      ]
+    ],
+    "27": [
+      "IGUI_ALifeUI_7352c98c7f00e092",
+      "Actors: {count}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:198",
+        "Dünya Durumu · NPC etkinliği",
+        "ss_ui"
+      ]
+    ],
+    "28": [
+      "IGUI_ALifeUI_56ba62851a200239",
+      "Active / spawning: {active} / {spawning}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:198",
+        "Dünya Durumu · NPC etkinliği",
+        "ss_ui"
+      ]
+    ],
+    "29": [
+      "IGUI_ALifeUI_445e908f10a7d6f9",
+      "Dormant / dead: {dormant} / {dead}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:198",
+        "Dünya Durumu · NPC etkinliği",
+        "ss_ui"
+      ]
+    ],
+    "30": [
+      "IGUI_ALifeUI_278b1f2f36576a16",
+      "Physical shells: {count}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:198",
+        "Dünya Durumu · NPC etkinliği",
+        "ss_ui"
+      ]
+    ],
+    "31": [
+      "IGUI_ALifeUI_4026b22236ed9854",
+      "Running actions: {count}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:198",
+        "Dünya Durumu · NPC etkinliği",
+        "ss_ui"
+      ]
+    ],
+    "32": [
+      "IGUI_ALifeUI_05cc754e7378653a",
+      "Pending spawns: {count}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:198",
+        "Dünya Durumu · NPC etkinliği",
+        "ss_ui"
+      ]
+    ],
+    "33": [
+      "IGUI_ALifeUI_21213d6e5612fc25",
+      "Watchdog recoveries: {count}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:198",
+        "Dünya Durumu · NPC etkinliği",
+        "ss_ui"
+      ]
+    ],
+    "34": [
+      "IGUI_ALifeUI_0120780f46bdaaa1",
+      "Offline squads on the map: {count}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:209",
+        "Dünya Durumu · Timler ve karşılaşmalar",
+        "ss_ui"
+      ]
+    ],
+    "35": [
+      "IGUI_ALifeUI_7267c9bb6b217678",
+      "Offline founded / refused: {founded} / {refused}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:209",
+        "Dünya Durumu · Timler ve karşılaşmalar",
+        "ss_ui"
+      ]
+    ],
+    "36": [
+      "IGUI_ALifeUI_787c9598492cc4e1",
+      "Offline founded / refused: {founded} / {refused} ({reason})",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:209",
+        "Dünya Durumu · Timler ve karşılaşmalar",
+        "ss_ui"
+      ]
+    ],
+    "37": [
+      "IGUI_ALifeUI_30f23c9f47b3ee63",
+      "Far cleaner: {profile} map, {state}, stowed {groups} groups / {people} NPCs",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:209",
+        "Dünya Durumu · Timler ve karşılaşmalar",
+        "ss_ui"
+      ]
+    ],
+    "38": [
+      "IGUI_ALifeUI_69867af70a4f761c",
+      "Encounter rolls / spawned: {rolls} / {spawned}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:209",
+        "Dünya Durumu · Timler ve karşılaşmalar",
+        "ss_ui"
+      ]
+    ],
+    "39": [
+      "IGUI_ALifeUI_13fd445c127c6e19",
+      "Runtime: {state}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:218",
+        "Dünya Durumu · Simülasyon",
+        "ss_ui"
+      ]
+    ],
+    "40": [
+      "IGUI_ALifeUI_460a8be42a2ad930",
+      "Pacing: {crews} new crews, {refusals} refusals",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:218",
+        "Dünya Durumu · Simülasyon",
+        "ss_ui"
+      ]
+    ],
+    "41": [
+      "IGUI_ALifeUI_0a23e468394bf9a5",
+      "Last pacing refusal: {reason} (last delay {hours}h)",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:218",
+        "Dünya Durumu · Simülasyon",
+        "ss_ui"
+      ]
+    ],
+    "42": [
+      "IGUI_ALifeUI_4d7db865592256e4",
+      "Proof car: {state}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:218",
+        "Dünya Durumu · Simülasyon",
+        "ss_ui"
+      ]
+    ],
+    "43": [
+      "IGUI_ALifeUI_40ea05c641c0c2b8",
+      "disabled",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:218",
+        "Dünya Durumu · Simülasyon",
+        "ss_ui"
+      ]
+    ],
+    "44": [
+      "IGUI_ALifeUI_3ec6b4ea072c5223",
+      "starting",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:218",
+        "Dünya Durumu · Simülasyon",
+        "ss_ui"
+      ]
+    ],
+    "45": [
+      "IGUI_ALifeUI_05be2d4b7aa47818",
+      "running",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:218",
+        "Dünya Durumu · Simülasyon",
+        "ss_ui"
+      ]
+    ],
+    "46": [
+      "IGUI_ALifeUI_33fa76774b09a90f",
+      "waiting for first tick",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:218",
+        "Dünya Durumu · Simülasyon",
+        "ss_ui"
+      ]
+    ],
+    "47": [
+      "IGUI_ALifeUI_57a3003f04d82f16",
+      "waiting",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:218",
+        "Dünya Durumu · Simülasyon",
+        "ss_ui"
+      ]
+    ],
+    "48": [
+      "IGUI_ALifeUI_021083fd2e01e628",
+      "World census: {alive} in the world, {living} living of {total}, killed {killed}, arrivals {arrivals}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:224",
+        "Dünya Durumu · Nüfus",
+        "ss_ui"
+      ]
+    ],
+    "49": [
+      "IGUI_ALifeUI_2fd90517413bd010",
+      "World census: {alive} in the world, {living} living of {total} (this world's pool was fixed at {total} when it began; the setting now says {setting} and applies to new worlds), killed {killed}, arrivals {arrivals}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:224",
+        "Dünya Durumu · Nüfus",
+        "ss_ui"
+      ]
+    ],
+    "50": [
+      "IGUI_ALifeUI_303e416b096e7cd7",
+      "Census by faction (alive/killed/arrived): {factions}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:224",
+        "Dünya Durumu · Nüfus",
+        "ss_ui"
+      ]
+    ],
+    "51": [
+      "IGUI_ALifeUI_41200e0479f9556d",
+      "census_exhausted",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:224",
+        "Dünya Durumu · Nüfus",
+        "ss_ui"
+      ]
+    ],
+    "52": [
+      "IGUI_ALifeUI_472af29f7734a023",
+      "Health: OK",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:233",
+        "Dünya Durumu · Sistem sağlığı ve performans",
+        "ss_ui"
+      ]
+    ],
+    "53": [
+      "IGUI_ALifeUI_692130d53cfa4df4",
+      "Health: {errors} error(s)",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:233",
+        "Dünya Durumu · Sistem sağlığı ve performans",
+        "ss_ui"
+      ]
+    ],
+    "54": [
+      "IGUI_ALifeUI_12ad3c6c7c3504cf",
+      "Runtime faults / overruns: {faults} / {overruns}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:233",
+        "Dünya Durumu · Sistem sağlığı ve performans",
+        "ss_ui"
+      ]
+    ],
+    "55": [
+      "IGUI_ALifeUI_1ab087c70c8c18c8",
+      "Protected areas: {count}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:233",
+        "Dünya Durumu · Sistem sağlığı ve performans",
+        "ss_ui"
+      ]
+    ],
+    "56": [
+      "IGUI_ALifeUI_33b9cffa2e1b4c67",
+      "Tick ms (last / max): {last} / {max}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:233",
+        "Dünya Durumu · Sistem sağlığı ve performans",
+        "ss_ui"
+      ]
+    ],
+    "57": [
+      "IGUI_ALifeUI_666c42e360c0c555",
+      "Tick count / budget: {count} / {budget}",
+      [
+        "client/ProjectALife/Interface/ALifeStatusWindow.lua:233",
+        "Dünya Durumu · Sistem sağlığı ve performans",
+        "ss_ui"
+      ]
+    ]
+  }
+}

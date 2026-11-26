@@ -1,0 +1,33 @@
+# Project A-Life 1.5.2 · Ana menü, Dünya durumu, Oluşturucu ve güvenli ev arayüzü
+# Yalnız numaralı İngilizce satırları çevir. Çıktı biçimi N | Türkçe. Numaraları ve sırayı koru.
+# {…} yer tutucularının adını ve yazımını aynen koru. Türkçe cümle sırasına göre yerlerini değiştirebilirsin.
+# Yeni metinlerde şapkalı harf kullanma.
+
+##### Dünya durumu #####
+# Oyunda Esc → A-Life paneli → Dünya durumu. Pencere açıldığında henüz durum bilgisi gelmediyse gösterilen geçici satır.
+1 | Waiting for server status...
+
+##### Oluşturucu kayıt durumu #####
+# Bir NPC şablonu arka planda kaydedilemediğinde Oluşturucu içinde gösterilen kısa durum etiketi. {reason}, nedenin kullanıcıya gösterilen karşılığını taşır. Etiketin sabit bölümünü büyük harfle yaz.
+2 | SAVE FAILED: {reason}
+
+##### Oluşturucu kıyafet kataloğu #####
+# Görünüm bölümünde kıyafet seçerken mevsime ve NPC rolüne göre süzülen kataloğun üstündeki özet. {season} mevsim adı veya “Her mevsim”; {role} kıyafet rolü; {shown} görünen, {hidden} gizli eşya sayısı. Bu ekrandaki Show all items kutusunun adı Bütün eşyaları göster.
+3 | {season} set, {role}: {shown} shown, {hidden} hidden. SHOW ALL lists every item.
+
+##### Oluşturucu kıyafet çakışması #####
+# Görünüm → kıyafet kataloğunda mevcut bir seçimle çakışan eşyayı seçince açılan onay penceresi. {item} yeni seçim, {other} ilk çakışan eşya, {slot} onun kıyafet yuvası. {items} ek çakışan eşyaların virgüllü listesi. 7. satırdaki {item} önerilen uyumlu alternatif. Eşya ve yuva adlarına doğrudan ek bağlama. 4 ana durum, 5–7 koşullu açıklamalar ve 8 son onay sorusu.
+4 | {item} collides with {other} ({slot} slot).
+5 | Both use the same body location.
+6 | It also collides with {items}.
+7 | Compatible alternative: {item}.
+8 | Pick it anyway?
+
+##### Güvenli ev bildirimleri #####
+# NPC komşuya alet ödünç verdikten iki oyun günü sonra kapıda çıkan sistem bildirimi. Oyuncuya tekil hitap et. {item} ödünç verilen eşyanın adı. Türkçe ek gerektirmeyen konuma yerleştir.
+9 | Your {item} is back by the door.
+10 | There is no sign of your {item}. The neighbour never brought it back.
+
+##### Yazılı NPC konuşması bildirimi #####
+# Oyuncu yakındaki bir ziyaretçiye yazarak seslenir. Ziyaretçi cevap veremez ve durum için daha özel bir bildirim yoksa sistem bu metni gösterir. Talk, oyundaki Konuş menüsü. Oyuncuya tekil hitap et.
+11 | They have nothing to say to that right now, try the Talk menu

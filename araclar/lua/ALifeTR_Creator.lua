@@ -86,6 +86,11 @@ local function bul(s, derinlik)
     if t ~= s or derinlik > 4 then return t end
     t = kalip(s, derinlik)
     if t ~= s then return t end
+    local boya = string.match(s, "^Saved: default car, (.+)%.$")
+    if boya ~= nil then
+        local onek = sor("Saved: default car, ")
+        if onek ~= "Saved: default car, " then return onek .. sor(boya) .. "." end
+    end
     for i = 1, #ONEKLER do
         local onek = ONEKLER[i]
         if #s > #onek and string.sub(s, 1, #onek) == onek then
@@ -151,16 +156,61 @@ end
 -- açılır liste seçenekleri (açılan liste UIManager'da, pencerenin çocuğu değil), bölüm kartının başlık ve
 -- açıklaması (çizilmeden önce kırpılır), arama kutusu ipucu. Bunlar yerinde çevrilir; mod bu yazıları
 -- yalnızca gösterir, seçenekler veriyle (getOptionData) okunur. Mod alanı yeniden yazarsa yeniden çevrilir.
-local function yerinde(tablo, alan)
+-- Only Creator tooltips contain these rule blocks. Read the same ordered notes as the
+-- card builder, including opt-in notes; keep the underlying module and combo data raw.
+local function kuralIpucu(s, bas, son)
+    local creator, rules = ProjectALife.CreatorScreen, ProjectALife.ModuleRules
+    if not rules or type(rules.notes) ~= "function" then return cevir(s) end
+    local tam = sor(s)
+    if tam ~= s then return tam end
+    local govde, kalan = string.sub(s, 1, bas - 1), string.sub(s, son + 1)
+    for _, spec in ipairs(creator.memberModules or {}) do
+        local notlar = rules.notes(spec[2])
+        local blok = table.concat(notlar, " ")
+        if blok ~= "" and string.sub(kalan, 1, #blok) == blok then
+            local ek = string.sub(kalan, #blok + 1)
+            if ek == "" or string.sub(ek, 1, 5) == " Use " then
+                -- A disabled combo repeats its rule in a warning before the base help.
+                local uyari, yardim = string.match(govde, "^(Disabled.-) | (.*)$")
+                local cevrilen = {}
+                for i, notMetni in ipairs(notlar) do
+                    cevrilen[i] = sor(notMetni)
+                    if uyari and string.sub(uyari, -(#notMetni + 1)) == " " .. notMetni then
+                        uyari = string.sub(uyari, 1, #uyari - #notMetni) .. cevrilen[i]
+                    end
+                end
+                local metin = cevir(yardim or govde) .. " " .. sor("RULES:") .. " " .. table.concat(cevrilen, " ")
+                if ek ~= "" then metin = cevir(metin .. ek) end
+                return uyari and (uyari .. " | " .. metin) or metin
+            end
+        end
+    end
+    return cevir(s)
+end
+
+local function ipucuCevir(s)
+    local bas, son = string.find(s, " RULES: ", 1, true)
+    if bas then
+        local ok, metin = pcall(kuralIpucu, s, bas, son)
+        if ok then return metin end
+    end
+    return cevir(s)
+end
+
+local function yerinde(tablo, alan, cevirici)
     local s = tablo[alan]
     if type(s) ~= "string" or s == "" or s == tablo["ALifeTR_" .. alan] then return end
-    local t = cevir(s)
+    local t = (cevirici or cevir)(s)
     tablo[alan] = t
     tablo["ALifeTR_" .. alan] = t
 end
 
 local function alanlar(oge)
-    if type(oge.tooltip) == "table" then yerinde(oge.tooltip, "defaultTooltip") else yerinde(oge, "tooltip") end
+    if type(oge.tooltip) == "table" then
+        yerinde(oge.tooltip, "defaultTooltip", ipucuCevir)
+    else
+        yerinde(oge, "tooltip", ipucuCevir)
+    end
     yerinde(oge, "sectionTitle")
     yerinde(oge, "sectionSummary")
     if type(oge.options) == "table" and type(oge.addOptionWithData) == "function" then
@@ -210,12 +260,107 @@ local function pencere(w)
     end
 end
 
+local function sarKiyafetKatalogu(asil)
+    return function(window, kind, slot, combo, title, ...)
+        local onceki = window.itemPicker
+        asil(window, kind, slot, combo, title, ...)
+        local katalog = window.itemPicker
+        if Ek.kapali or not turkce() or kind ~= "clothing" or slot ~= "Back"
+                or title ~= "Back choices" or katalog == nil or katalog == onceki then return end
+        local kalip, yuva = sor("{x} choices"), sor("BACK")
+        if kalip == "{x} choices" or yuva == "BACK" then return end
+        for _, oge in pairs(katalog.children or {}) do
+            if oge.name == "BACK CHOICES" and type(oge.setNameWithoutMoving) == "function" then
+                oge:setNameWithoutMoving(ProjectALife.Text.fill(kalip, { x = yuva }))
+                return
+            end
+        end
+    end
+end
+
+local function sigdirUtf8(text, font, room)
+    if genislik(font, text) <= room then return text end
+    local index = #text
+    while index > 0 do
+        local byte = string.byte(text, index)
+        if byte < 128 or byte >= 192 then
+            local clipped = string.sub(text, 1, index - 1) .. "..."
+            if genislik(font, clipped) <= room then return clipped end
+        end
+        index = index - 1
+    end
+    return ""
+end
+
+local function kiyafetRozetiniBagla(Creator)
+    local badge = Creator.outfitHealth
+    if type(badge) ~= "table" or badge.ALifeTurkceRozet or type(badge.install) ~= "function" then return end
+    local install = badge.install
+    badge.install = function(window, page, ...)
+        local previous = window.healthBadge
+        install(window, page, ...)
+        local control, fix = window.healthBadge, window.healthFixButton
+        if not turkce() or Ek.kapali or previous == control or control == nil or fix == nil then return end
+        local caption, px = sor("OUTFIT SETS"), Creator.px
+        for _, label in pairs(page.children or {}) do
+            if label.name == caption and type(label.setName) == "function" then
+                local gap = px(8)
+                local right = fix.x - gap
+                local room = math.max(0, right - label.x - gap - px(60))
+                local title = sigdirUtf8(caption, label.font, room)
+                label:setName(title)
+                local x = math.min(right, math.max(control.x, label.x + genislik(label.font, title) + gap))
+                control:setX(x)
+                control:setWidth(math.max(0, right - x))
+                return
+            end
+        end
+    end
+    badge.ALifeTurkceRozet = true
+end
+
 local function kur()
     local Creator = ProjectALife and ProjectALife.CreatorScreen
     if type(Creator) ~= "table" or Creator.ALifeTurkceKurulu or type(Creator.open) ~= "function" then return end
     Creator.ALifeTurkceKurulu = true
+    -- refreshModuleRuleHints rewrites the combo tooltip immediately on a state change.
+    local asilIpucu = Creator.addTooltip
+    if type(asilIpucu) == "function" then
+        Creator.addTooltip = function(control, text, ...)
+            if not Ek.kapali and type(control) == "table" and control.ruleTip and type(text) == "string"
+                    and string.find(text, " RULES: ", 1, true) and turkce() then
+                local ok, metin = pcall(ipucuCevir, text)
+                if ok then text = metin end
+            end
+            return asilIpucu(control, text, ...)
+        end
+    end
+    local asilEtiket = Creator.addLabel
+    if type(asilEtiket) == "function" then
+        Creator.addLabel = function(panel, x, y, label, ...)
+            if not Ek.kapali and turkce() and (label == "Eyeshadow" or label == "OUTFIT SETS") then
+                label = sor(label)
+            end
+            return asilEtiket(panel, x, y, label, ...)
+        end
+    end
+    if type(Creator.openItemPicker) == "function" then
+        Creator.openItemPicker = sarKiyafetKatalogu(Creator.openItemPicker)
+    end
+    local asilEsyaAdi = Creator.shortItemName
+    if type(asilEsyaAdi) == "function" then
+        Creator.shortItemName = function(fullType)
+            if not Ek.kapali and turkce() and type(fullType) == "string" and fullType:match("^[%w_]+%.[%w_]+$")
+                    and type(getItemNameFromFullType) == "function" then
+                local ok, name = pcall(getItemNameFromFullType, fullType)
+                if ok and type(name) == "string" and name ~= "" and name ~= fullType then return name end
+            end
+            return asilEsyaAdi(fullType)
+        end
+    end
     local asilAc = Creator.open
     Creator.open = function(...)
+        kiyafetRozetiniBagla(Creator)
         local sonuc = { asilAc(...) }
         if not Ek.kapali and turkce() then
             local ok, hata = pcall(pencere, Creator.window)
@@ -227,12 +372,17 @@ local function kur()
     -- kırpılmış İngilizce bulunamaz, o yüzden kırpmadan önce çevrilir.
     local asilSigdir = Creator.fitText
     if type(asilSigdir) == "function" then
-        Creator.fitText = function(s, ...)
+        Creator.fitText = function(s, font, room, ...)
             if not Ek.kapali and type(s) == "string" and turkce() then
                 local ok, t = pcall(cevir, s)
-                if ok then s = t else kapat(t) end
+                if ok then
+                    s = t
+                    if type(room) == "number" and string.find(s, "[\128-\255]") then
+                        return sigdirUtf8(s, font, room)
+                    end
+                else kapat(t) end
             end
-            return asilSigdir(s, ...)
+            return asilSigdir(s, font, room, ...)
         end
     end
     -- Ana menüdeki Project A-Life kartının alt yazısı ("Factions & NPC settings"):
@@ -249,5 +399,56 @@ local function kur()
     end
 end
 
+local menuTitle = "A-LIFE CREATOR"
+local function kartBasligi(s)
+    if s == menuTitle and not Ek.kapali and turkce() then return sor(s) end
+    return s
+end
+
+local function kartiSigdir(chrome, font, title, room)
+    if chrome.boldWidth(font, title, 0) <= room then return title end
+    local index = #title
+    while index > 0 do
+        local b = string.byte(title, index)
+        if b < 128 or b >= 192 then
+            local partial = string.sub(title, 1, index - 1) .. ".."
+            if chrome.boldWidth(font, partial, 0) <= room then return partial end
+        end
+        index = index - 1
+    end
+    return ""
+end
+
+local function kartiKur()
+    local creator = ProjectALife and ProjectALife.CreatorScreen
+    local tile, chrome = creator and creator.menuTile, ProjectALife and ProjectALife.UI2Chrome
+    if tile ~= nil and not tile.ALifeTurkceBaslik
+            and type(tile.title) == "function" and type(tile.titleWidth) == "function" then
+        local title, width = tile.title, tile.titleWidth
+        -- The tracked renderer measures and draws byte by byte, which splits Turkish characters.
+        tile.title = function(self, s, x, y, font, color, track, ...)
+            local tr = kartBasligi(s)
+            return title(self, tr, x, y, font, color, tr ~= s and 0 or track, ...)
+        end
+        tile.titleWidth = function(s, font, track, ...)
+            local tr = kartBasligi(s)
+            return width(tr, font, tr ~= s and 0 or track, ...)
+        end
+        tile.ALifeTurkceBaslik = true
+    end
+    if chrome ~= nil and not chrome.ALifeTurkceKartSigdirma and type(chrome.capsFit) == "function"
+            and type(chrome.boldWidth) == "function" then
+        local fit = chrome.capsFit
+        chrome.capsFit = function(font, s, track, room, ...)
+            local tr = kartBasligi(s)
+            if tr ~= s and type(room) == "number" then return kartiSigdir(chrome, font, tr, room) end
+            return fit(font, s, track, room, ...)
+        end
+        chrome.ALifeTurkceKartSigdirma = true
+    end
+end
+
 local ok, hata = pcall(kur)
 if not ok then kapat(hata) end
+kartiKur()
+if type(Events) == "table" and Events.OnGameBoot ~= nil then Events.OnGameBoot.Add(kartiKur) end

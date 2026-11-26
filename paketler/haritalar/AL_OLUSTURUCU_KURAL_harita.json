@@ -1,0 +1,195 @@
+{
+  "_paket": "AL_OLUSTURUCU_KURAL",
+  "_grup": "lua_tarama_152",
+  "_dosya": "IG_UI_lua",
+  "_baslik": "Oluşturucu · NPC ve fraksiyon davranış kuralları",
+  "_noktalama": false,
+  "_parcalar": [
+    [
+      1,
+      20
+    ]
+  ],
+  "satirlar": {
+    "1": [
+      "IGUI_ALifeUI_4d53150f0f2334ac",
+      "RULES:",
+      [
+        "client/ProjectALife/Interface/Creator/ALifeCreatorModuleRules.lua:13",
+        "İpucu başlığı",
+        "ipucu içi başlık"
+      ]
+    ],
+    "2": [
+      "IGUI_ALifeUI_4206e67a5eaec144",
+      "Military factions do not use fear.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:6",
+        "Korku, panik ve çatışma",
+        "Ölülerden korkma"
+      ]
+    ],
+    "3": [
+      "IGUI_ALifeUI_3febba8148c8e9e5",
+      "During days 0-3, fear is enabled for 30 percent of squads, with one stable roll per squad.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:14",
+        "Korku, panik ve çatışma",
+        "Ölülerden korkma"
+      ]
+    ],
+    "4": [
+      "IGUI_ALifeUI_4202339215a0696d",
+      "Military factions do not flee from raised guns or shots.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:8",
+        "Korku, panik ve çatışma",
+        "Silah korkusu"
+      ]
+    ],
+    "5": [
+      "IGUI_ALifeUI_6e6dda0242e55748",
+      "Gun fear uses the same early squad roll as fear.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:16",
+        "Korku, panik ve çatışma",
+        "Silah korkusu"
+      ]
+    ],
+    "6": [
+      "IGUI_ALifeUI_19f5ebb8021cc45d",
+      "Military factions do not use panic.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:10",
+        "Korku, panik ve çatışma",
+        "Panik"
+      ]
+    ],
+    "7": [
+      "IGUI_ALifeUI_5904e42b246b822a",
+      "Panic uses the same early squad roll as fear.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:18",
+        "Korku, panik ve çatışma",
+        "Panik"
+      ]
+    ],
+    "8": [
+      "IGUI_ALifeUI_6d95efce5a82b08a",
+      "Military factions keep using their guns against zombies.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:12",
+        "Korku, panik ve çatışma",
+        "Zombilere karşı yakın dövüşe geç"
+      ]
+    ],
+    "9": [
+      "IGUI_ALifeUI_11b2b093629829e5",
+      "Disabled by Avoid zombies = Off: that NPC fights on sight with the weapon it holds.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:46",
+        "Korku, panik ve çatışma",
+        "Zombilere karşı yakın dövüşe geç"
+      ]
+    ],
+    "10": [
+      "IGUI_ALifeUI_2c5b8f7a10feaf85",
+      "Needs Withdraw: it only lowers the crowd size at which Withdraw backs off.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:37",
+        "Korku, panik ve çatışma",
+        "Yakın dövüşte temkin"
+      ]
+    ],
+    "11": [
+      "IGUI_ALifeUI_3ca075fa37cf2f90",
+      "Needs Warn first: the shout from range is the warning itself.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:41",
+        "Korku, panik ve çatışma",
+        "Gözdağı"
+      ]
+    ],
+    "12": [
+      "IGUI_ALifeUI_09a4a7ec2653b8d4",
+      "Faction members flee only when their record says On.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:55",
+        "Korku, panik ve çatışma",
+        "Kaç"
+      ]
+    ],
+    "13": [
+      "IGUI_ALifeUI_19abd84c019902bf",
+      "Needs a group with a leader: a lone NPC or a pair without a leader never marches.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:59",
+        "Grup halinde hareket ve günlük davranış",
+        "Toplu yürüyüş"
+      ]
+    ],
+    "14": [
+      "IGUI_ALifeUI_41c1b99525a07ed9",
+      "Needs a group with a leader: members close up on the leader.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:63",
+        "Grup halinde hareket ve günlük davranış",
+        "Toplanma"
+      ]
+    ],
+    "15": [
+      "IGUI_ALifeUI_1cfc68aa7c3d9dc3",
+      "Driven by the stack lead: the squad leader, or the first member of a group without one.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:67",
+        "Grup halinde hareket ve günlük davranış",
+        "Kapıda sıralanma"
+      ]
+    ],
+    "16": [
+      "IGUI_ALifeUI_3854a9444b2e4b38",
+      "Needs a group: one member engages and the others circle round the target.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:71",
+        "Grup halinde hareket ve günlük davranış",
+        "Yakın dövüş kuşatması"
+      ]
+    ],
+    "17": [
+      "IGUI_ALifeUI_5b002d893afde0ea",
+      "Needs a group; members on a stance post are left alone.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:75",
+        "Grup halinde hareket ve günlük davranış",
+        "Açılma"
+      ]
+    ],
+    "18": [
+      "IGUI_ALifeUI_016196b57e87fc4d",
+      "A free group stops to discuss and rest after each plan, and holds a shelter plan until dawn.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:79",
+        "Grup halinde hareket ve günlük davranış",
+        "Grup planı"
+      ]
+    ],
+    "19": [
+      "IGUI_ALifeUI_1ed0a41308786542",
+      "Holds the assigned post until the squad changes it; garrison and blockade posts never time out.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:83",
+        "Grup halinde hareket ve günlük davranış",
+        "Tutumunu koru"
+      ]
+    ],
+    "20": [
+      "IGUI_ALifeUI_5b92e73e0f0ce5aa",
+      "Eat, drink, smoke and night shelter beats hold the NPC still; Off also stops warming at a fire.",
+      [
+        "shared/ProjectALife/Behaviours/ALifeModuleRules.lua:87",
+        "Grup halinde hareket ve günlük davranış",
+        "Boş zaman"
+      ]
+    ]
+  }
+}

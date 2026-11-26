@@ -1,0 +1,49 @@
+# Project A-Life 1.5.2 · Ek ekran metinleri · 1/2 · Konuşma ağacı, harita, telefon ve arayüz
+# Yalnız 1–25 numaralı İngilizce satırları çevir. Sıra aynı kalsın. Çıktı biçimi N | Türkçe.
+# Başlıklar ve numarasız açıklamalar bağlam. Görev aşamaları kısa eylem etiketi, bildirim ve durumlar ise kısa arayüz metni.
+# {…} yer tutucularını ve varsa yazılı \n satır ayrımlarını aynen koru. Değişken kişi, eşya ve yer adlarına doğrudan ek getirmeyecek bir yapı kullan.
+# Türkçe cümle sırasına göre yer tutucuların yerini değiştirebilirsin. Tamamı büyük harfli etiketlerin büyük harf biçimini koru.
+# Terimler · faction = fraksiyon, preset = şablon, outpost = karakol, camp = kamp, crew = ekip.
+
+##### Konuşma ağacı bildirimleri #####
+# Bunlar A-Life'ın oyuncuya gösterdiği kısa durum notları. outpost = karakol, crew = ekip.
+1 | You already have a job from them
+2 | You have too many jobs going
+3 | There's nothing left to kill around here
+4 | They couldn't point you anywhere real
+# {task} görev adı ve bazen görev sayacı.
+5 | New task: {task}
+6 | You don't have it all on you
+7 | They have nothing more to give today
+# {count} eşya adedi. {item} oyunun eşya adı. Eşyayı veren NPC değil, oyuncu.
+8 | Gave {count}x {item}
+9 | They didn't say where they stay
+10 | Saved to contacts
+11 | Saved to contacts, outpost marked on the map
+12 | Outpost marked on the map
+13 | A rumour marked on the map
+14 | They joined you
+15 | They left your crew
+
+##### Görev harita işaretleri #####
+# Harita üzerinde görünen kısa etiket ve durum metinleri.
+# {title} görev adı. Görev harita işareti üzerine basılan kısa etiket.
+16 | Task: {title}
+# {who} görevi veren kişi. Etiket haritada kısa durmalı.
+17 | Task: Report to {who}
+18 | Last seen here
+
+##### Telefon seçenek rozetleri #####
+# Telefon seçeneğinin başında görünen kısa koşul rozetleri. Sayıyı ve büyük harfleri koru. Oyundaki karşılıklar Reputation = İtibar, First Aid = İlk Yardım, Mechanics = Tamircilik.
+19 | REP 1
+20 | FIRST AID 2
+21 | FIRST AID 3
+22 | MECHANICS 2
+23 | MECHANICS 3
+
+##### Diğer arayüz #####
+# Her satırın kullanım yeri kendi üstündeki notta.
+# Arayüz düzenleme ekranında şu anda görünmeyen bir öğenin adından sonra eklenen parantez içi durum. Parantezleri koru.
+24 | (not showing now)
+# FM cihazının kayıtlı kanal listesindeki istasyon adı. Knox County özel adını koru.
+25 | Knox County Radio
