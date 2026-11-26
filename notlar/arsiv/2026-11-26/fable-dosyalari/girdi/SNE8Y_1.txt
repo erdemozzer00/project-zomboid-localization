@@ -1,0 +1,228 @@
+# SNE8Y · Parça 1/3 · 115 replik
+# Çıktıyı SNE8Y_1.txt adıyla kaydet. Yalnızca N | Türkçe satırlarını yaz. 1–115 numaralarını sırayla ve birer kez kullan.
+# Project Zomboid Build 42 · Project A-Life 1.5.4 · 1993 Kentucky, salgın sonrası. Oyuncu yakındaki NPC’lerin kendi aralarındaki kısa ortam sohbetine tanık olur.
+# Her başlık ayrı bir sahnedir. Altındaki sözler sırayla söylenir. K1/K2/K3 o sahnedeki NPC’leri gösterir. · ile başlayan İngilizce replikleri bağlam olarak oku ve çıktıya alma.
+# Konu etiketleri story anı veya hikaye, walk yürüyüş, meet karşılaşma, crash_talk kaza sonrası, breakdown_talk araç arızası, after_fight çatışma sonrası, rest dinlenme, night_watch gece nöbeti, scavenge malzeme toplama, outpost_* karakol sahneleri, any gündelik sohbet anlamına gelir.
+# Koşullarda reg genel profil (civilian sivil, family aile, worker işçi, rescue kurtarma), role daha dar profil, r1/r2 ilgili konuşmacının rolü (law kolluk, swat özel harekat, military asker, elite seçkin asker), tmp deneyim (fresh acemi, seasoned tecrübeli, veteran kıdemli), st tutum, mood ruh hali, day/hour gün ve saat aralığı, world ortam, out karşılaşma sonucudur. Virgülle ayrılan profil ve roller olası seçeneklerdir.
+# Doğal Türkçe konuşma ritmini kullan. Kimliği ve yakınlığı kaynak desteklediği ölçüde yansıt. Tek kişiye sen de. Grup hitabında çoğulu koru. Olayı, sayıları, güvenlik durumunu ve kimin ne yaptığını koru.
+# Sabit karşılıklar ilgili bağlamda outpost → karakol, safehouse → güvenli ev, shelter → sığınak, squad → tim, group → grup, crew → ekip, faction → fraksiyon, zed → zombi.
+# Numaralı repliklerde yer tutucu, yüzde biçim kodu, biçim etiketi veya kaçış dizisi yok. Her repliğin Türkçesini tek satıra yaz.
+
+##### fw_ld4_topics_b_0042 · crash_talk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|world=trees
+1 | K1 | Was that a tree or a person?
+2 | K2 | A tree, I think
+3 | K1 | You think?
+4 | K2 | It didn't scream, so tree
+
+##### fw_ld4_topics_b_0043 · crash_talk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+5 | K1 | I told you to watch the road!
+6 | K2 | I WAS watching the road!
+7 | K1 | Then who was watching the deer?
+8 | K2 | ...nobody, apparently
+
+##### fw_ld4_topics_b_0044 · breakdown_talk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+9 | K1 | It's making that noise again
+10 | K2 | The clicking?
+11 | K1 | The grinding
+12 | K2 | Is it smoking?
+13 | K1 | A little, a lot, okay, definitely smoking
+
+##### fw_ld4_topics_b_0045 · breakdown_talk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+14 | K1 | Anyone know about engines?
+15 | K2 | I know how to turn one on
+16 | K1 | That's not helpful
+17 | K2 | It's all I've got, I'm a florist
+
+##### fw_ld6_walk_civ_1_0001 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+18 | K1 | Keep up
+19 | K2 | I AM keeping up
+20 | K1 | You're ten feet back
+21 | K2 | You've got longer legs
+
+##### fw_ld6_walk_civ_1_0002 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+22 | K1 | Slow down, I've got a blister
+23 | K2 | We can't stop here
+24 | K1 | Then slow down without stopping
+25 | K3 | I'll slow down for the both of you, I'm dying
+
+##### fw_ld6_walk_civ_1_0003 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+26 | K1 | Come on, come on, you're dragging
+27 | K2 | I'm carrying forty pounds
+28 | K1 | I'm carrying forty-one
+
+##### fw_ld6_walk_civ_1_0004 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|mood=angry
+29 | K1 | Why are we walking so fast?
+30 | K2 | Because I want to be there
+· K1 | Where?
+31 | K2 | Anywhere that isn't here
+
+##### fw_ld6_walk_civ_1_0005 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+· K1 | Wait up
+32 | K2 | We're not waiting
+· K1 | Please
+33 | K2 | ...fine, thirty seconds
+
+##### fw_ld6_walk_civ_1_0006 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+34 | K1 | You're lagging
+35 | K2 | I'm walking
+36 | K1 | You're walking like you're being punished
+37 | K3 | That one is being punished, it's called a pack
+
+##### fw_ld6_walk_civ_1_0007 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+38 | K1 | Close it up, don't spread out
+39 | K2 | We're not spread out
+40 | K3 | We're a little spread out
+41 | K2 | Fine, closer
+
+##### fw_ld6_walk_civ_1_0008 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+42 | K1 | Who's setting this pace?
+· K2 | Me
+43 | K1 | Set a different one, that's a pace for people with two good knees
+
+##### fw_ld6_walk_civ_1_0009 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+44 | K1 | You walk like a duck
+45 | K2 | I walk like a person with feet
+46 | K1 | A duck is a person with feet
+47 | K2 | That's the worst thing you've ever said
+
+##### fw_ld6_walk_civ_1_0010 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|mood=funny
+48 | K1 | Left foot, right foot, left foot, right foot
+49 | K2 | Stop narrating
+50 | K1 | I need to, or I forget I'm walking
+
+##### fw_ld6_walk_civ_1_0011 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+51 | K1 | Hold up, my pack shifted
+52 | K2 | Hurry, we're falling behind
+53 | K1 | Behind who?
+54 | K2 | Behind us, we're the only ones
+
+##### fw_ld6_walk_civ_1_0012 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+55 | K1 | You're stepping on my heel
+56 | K2 | Then walk faster
+57 | K1 | I'm walking fast
+58 | K3 | Both of you, walk like adults
+
+##### fw_ld6_walk_civ_1_0013 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|mood=funny
+59 | K1 | Why are you running
+60 | K2 | I'm not running
+61 | K1 | You're doing the fast walk, the walk where your arms go
+62 | K3 | It's the I-have-to-pee walk
+
+##### fw_ld6_walk_civ_1_0014 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+63 | K1 | Slow down for the old man
+64 | K2 | I'm not old
+65 | K1 | You're sixty-three, that's old
+66 | K2 | I'm sixty-three and I can still beat you to the corner
+
+##### fw_ld6_walk_civ_1_0015 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+67 | K1 | How much farther?
+68 | K2 | Not far
+69 | K1 | That's what you said an hour ago
+70 | K2 | I know what I said, I was being optimistic
+
+##### fw_ld6_walk_civ_1_0016 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+71 | K1 | Are we close?
+72 | K2 | Closer
+73 | K1 | Closer than what?
+74 | K3 | Closer than before, shut up and walk
+
+##### fw_ld6_walk_civ_1_0017 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|mood=funny
+75 | K1 | Are we there yet?
+· K2 | Don't start
+76 | K1 | I'm just asking
+77 | K2 | You're a grown person
+
+##### fw_ld6_walk_civ_1_0018 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+· K1 | Which way?
+· K2 | Left
+78 | K1 | You said left last time
+79 | K2 | And it was left, wasn't it
+
+##### fw_ld6_walk_civ_1_0019 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+80 | K1 | Which way, left or right?
+81 | K2 | Right, I'm right-handed, it's the only direction I trust
+82 | K3 | I'm left-handed, so we're going left
+
+##### fw_ld6_walk_civ_1_0020 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+83 | K1 | I know a shortcut
+84 | K2 | Your shortcuts take an hour
+85 | K1 | This one's different
+86 | K3 | They're all different, that's why they take an hour
+
+##### fw_ld6_walk_civ_1_0021 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|mood=funny|world=building
+87 | K1 | Did we pass that mailbox already?
+88 | K2 | We passed a mailbox
+89 | K1 | It's the same mailbox, it's got a dent on the side
+90 | K3 | Everybody's mailbox has a dent
+
+##### fw_ld6_walk_civ_1_0022 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+91 | K1 | Cut through the field?
+92 | K2 | It's all grass up to my waist
+93 | K1 | I'll go first
+94 | K3 | If there's anything in there, you're finding it first
+
+##### fw_ld6_walk_civ_1_0023 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+95 | K1 | Past the next bend
+96 | K2 | You said that three bends ago
+97 | K1 | This is the next one
+98 | K2 | There's always a next one
+
+##### fw_ld6_walk_civ_1_0024 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+99 | K1 | Where are we even going?
+100 | K2 | You're asking now?
+101 | K1 | I'm asking now
+102 | K2 | ...west
+
+##### fw_ld6_walk_civ_1_0025 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+103 | K1 | Is it left or right at the sign?
+104 | K2 | It's left
+105 | K3 | It's right
+106 | K2 | Fine, somebody flip a coin
+
+##### fw_ld6_walk_civ_1_0026 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|world=road
+107 | K1 | We've been on this road forever
+108 | K2 | It's been an hour
+109 | K1 | It's been a forever hour
+
+##### fw_ld6_walk_civ_1_0027 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+110 | K1 | I thought it was closer
+111 | K2 | Past the church. It's right there
+112 | K1 | That's what you said about the last church
+113 | K3 | This is Kentucky, you can't just say 'the church'
+
+##### fw_ld6_walk_civ_1_0028 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+· K1 | My feet are killing me
+114 | K2 | Boots off at the next stop
+115 | K1 | If I take them off I'm never getting them back on

@@ -1,0 +1,184 @@
+# SNE6Y · Parça 3/3 · 100 replik
+# Çıktıyı SNE6Y_3.txt adıyla kaydet. Yalnızca N | Türkçe satırlarını yaz. 231–330 numaralarını sırayla ve birer kez kullan.
+# Project Zomboid Build 42 · Project A-Life 1.5.4 · 1993 Kentucky, salgın sonrası. Oyuncu yakındaki NPC’lerin kendi aralarındaki kısa ortam sohbetine tanık olur.
+# Her başlık ayrı bir sahnedir. Altındaki sözler sırayla söylenir. K1/K2/K3 o sahnedeki NPC’leri gösterir. · ile başlayan İngilizce replikleri bağlam olarak oku ve çıktıya alma.
+# Konu etiketleri story anı veya hikaye, walk yürüyüş, meet karşılaşma, crash_talk kaza sonrası, breakdown_talk araç arızası, after_fight çatışma sonrası, rest dinlenme, night_watch gece nöbeti, scavenge malzeme toplama, outpost_* karakol sahneleri, any gündelik sohbet anlamına gelir.
+# Koşullarda reg genel profil (civilian sivil, family aile, worker işçi, rescue kurtarma), role daha dar profil, r1/r2 ilgili konuşmacının rolü (law kolluk, swat özel harekat, military asker, elite seçkin asker), tmp deneyim (fresh acemi, seasoned tecrübeli, veteran kıdemli), st tutum, mood ruh hali, day/hour gün ve saat aralığı, world ortam, out karşılaşma sonucudur. Virgülle ayrılan profil ve roller olası seçeneklerdir.
+# Doğal Türkçe konuşma ritmini kullan. Kimliği ve yakınlığı kaynak desteklediği ölçüde yansıt. Tek kişiye sen de. Grup hitabında çoğulu koru. Olayı, sayıları, güvenlik durumunu ve kimin ne yaptığını koru.
+# Sabit karşılıklar ilgili bağlamda outpost → karakol, safehouse → güvenli ev, shelter → sığınak, squad → tim, group → grup, crew → ekip, faction → fraksiyon, zed → zombi.
+# Numaralı repliklerde yer tutucu, yüzde biçim kodu, biçim etiketi veya kaçış dizisi yok. Her repliğin Türkçesini tek satıra yaz.
+
+##### fw_ld4_story_a_0005 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+231 | K1 | My grandmother could kill and clean a chicken in under four minutes
+232 | K2 | No way
+233 | K1 | She timed herself with the kitchen clock, she bet the neighbors, took their money too
+234 | K2 | A real shark
+235 | K1 | In an apron, with a hymnal in her pocket
+
+##### fw_ld4_story_a_0006 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+236 | K1 | I was gonna propose on the Fourth of July
+· K2 | Oh no
+237 | K1 | I had the ring, I had the speech, I had a reservation at the Kentucky Fried Chicken
+238 | K2 | Oh no, no
+239 | K1 | Don't laugh, it was her favorite place, and now I've got a ring and no one to give it to
+
+##### fw_ld4_story_a_0007 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+240 | K1 | Whenever my brother and I fought, Mama made us hold hands for ten minutes
+241 | K2 | Sounds like a good punishment
+242 | K1 | It was worse than a whipping, he had sweaty palms
+· K2 | Did it work?
+243 | K1 | Eventually we just started to like each other, can you believe that?
+
+##### fw_ld4_story_a_0008 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+244 | K1 | In school I was the kid who always forgot his lunch
+245 | K2 | Poor you
+246 | K1 | Mrs. Alvarez, the lunch lady, always slipped me a sandwich, never asked questions
+247 | K2 | Good woman
+248 | K1 | I looked for her, when this started, I never found her, but I carry a sandwich now, in case I find someone like me
+
+##### fw_ld4_story_a_0009 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+249 | K1 | First job I had was bagging groceries at the Winn-Dixie
+250 | K2 | How was that?
+251 | K1 | Terrible, until a lady tipped me a quarter every week, just because I carried her bags to the car
+252 | K2 | Sweet
+253 | K1 | I saved those quarters for a year, bought my mother a music box for Christmas
+
+##### fw_ld4_story_a_0010 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+254 | K1 | My uncle swore he saw a UFO over Fort Knox
+255 | K2 | Of course he did
+256 | K1 | He drew a map on a napkin, I still have it
+· K2 | Where's it now?
+257 | K1 | In my back pocket, I figure if the world's gone crazy, maybe he was right all along
+
+##### fw_ld4_story_a_0011 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+258 | K1 | You know what my husband said to me, the last time I saw him?
+· K2 | What?
+259 | K1 | 'Don't forget the milk'
+· K2 | Oh, honey
+260 | K1 | I forgot, I FORGOT the milk, I've been thinking about that damn milk ever since
+
+##### fw_ld4_story_a_0012 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+261 | K1 | My daughter used to line up her stuffed animals and give them a spelling test
+· K2 | Aw
+262 | K1 | Mr. Bear failed every time, she'd give him extra homework
+263 | K2 | Where's she now?
+264 | K1 | Last time I saw her, asleep with all of them, I keep trying to hold that picture still
+
+##### fw_ld4_story_a_0013 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|tmp=seasoned
+265 | K1 | After the first week I stopped counting days
+· K2 | Why?
+266 | K1 | Because counting meant there'd be a last one
+267 | K2 | ...I understand that
+268 | K1 | Then you understand why I never ask what day it is
+
+##### fw_ld4_story_a_0014 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|tmp=seasoned
+269 | K1 | When this started I wanted to be a hero
+· K2 | And now?
+270 | K1 | Now I want to be alive at the end of the day
+271 | K2 | That's a hero, in my book
+272 | K1 | That's a coward in mine, but thanks
+
+##### fw_ld4_story_b_0001 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+273 | K1 | You ever hear about the time my uncle Earl tried to jump the creek on a riding mower?
+274 | K2 | A riding mower?
+275 | K1 | He'd had four beers and a bet, forty dollars, my aunt Dot was screaming from the porch
+· K2 | Did he make it?
+276 | K1 | He made it halfway, the mower made it all the way, he didn't
+· K2 | Oh no
+277 | K1 | He walked home soaked, holding the wheel, and Dot charged him ten dollars for the light she broke throwing a shoe
+
+##### fw_ld4_story_b_0002 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+278 | K1 | My first kiss was behind the Dairy Queen in Elizabethtown, 1979
+279 | K2 | Who was the lucky girl?
+280 | K1 | Peggy Lou Marcum, she tasted like cherry dip
+· K2 | And?
+281 | K1 | And her dad caught us, chased me three blocks with a garden hoe
+282 | K2 | Did he catch you?
+283 | K1 | Never, I was fast back then, I could outrun a hoe and a sunset
+284 | K2 | What happened to Peggy Lou?
+285 | K1 | She married a dentist, sent me a Christmas card every year, I hope she's alive
+
+##### fw_ld4_story_b_0003 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+286 | K1 | I want to tell you about my daughter Beth's first day of school
+· K2 | Go ahead
+287 | K1 | She cried at the bus stop, I cried in the car, we both cried at the gate
+288 | K2 | Aww
+289 | K1 | The teacher said 'it gets easier,' I said 'for who?'
+290 | K2 | And did it?
+291 | K1 | She waved at me through the window all the way down the road, and I waved until my arm fell off
+292 | K2 | That's beautiful
+293 | K1 | I'd wave till my arm fell off again, if she were here
+
+##### fw_ld4_story_b_0004 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+294 | K1 | The worst job I ever had was cleaning the chicken coop at Carter's farm
+· K2 | How bad?
+295 | K1 | I wore three pairs of gloves and a bandana, I still smelled like a sunburned henhouse for a week
+296 | K2 | Did you quit?
+297 | K1 | I quit after a rooster attacked me, and I'm not ashamed
+298 | K2 | Smart rooster
+299 | K1 | Smart? He bit through my boot, and I think he laughed
+
+##### fw_ld4_story_b_0005 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+300 | K1 | Back when I worked at the Kroger, we had a regular named Mr. Pettigrew
+301 | K2 | The regular
+302 | K1 | He bought a single banana every morning at 7:05, counted his change in pennies
+· K2 | Every day?
+303 | K1 | For fourteen years, one day he didn't come, and the whole store went quiet
+304 | K2 | ...what happened?
+305 | K1 | He was in the hospital, I took him a banana, he cried, I cried, the manager cried, it was a mess
+306 | K2 | I'd have cried too
+
+##### fw_ld4_story_b_0006 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+307 | K1 | Mama's rule at the dinner table was no elbows and no politics
+· K2 | How'd that go?
+308 | K1 | Dad broke both every Thanksgiving, then Mama would pass him the potatoes
+309 | K2 | To shut him up
+310 | K1 | Not at all, to give him something to chew on besides his opinions
+311 | K2 | Smart woman
+312 | K1 | She really was, she'd have survived this better than any of us
+
+##### fw_ld4_story_b_0007 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+313 | K1 | So I'm in the bathtub, summer of 1991, and my sister bursts in holding a snake
+· K2 | A real one?
+314 | K1 | A garter snake, she thought it was funny, I screamed so loud the neighbor called the cops
+315 | K2 | Did they come?
+316 | K1 | Two deputies, in my driveway, in the middle of the night, I'm in a towel, my sister is crying laughing
+317 | K2 | And the snake?
+318 | K1 | Bit the sergeant, I'm not kidding, he never lived it down
+
+##### fw_ld4_story_b_0008 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+319 | K1 | One time I got lost in the Mammoth Cave tour
+· K2 | Seriously?
+320 | K1 | I wandered off to look at a bat, and then the group was gone, and the lights went out
+· K2 | Oh no
+321 | K1 | Forty minutes, in the pitch dark, singing 'Amazing Grace' to keep from screaming
+322 | K2 | Did they find you?
+323 | K1 | A park ranger named Dwight, he said 'sir, you're about fifty feet from the exit', I thanked him and cried
+
+##### fw_ld4_story_b_0009 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+324 | K1 | Grandpa had a mule named Beauregard
+325 | K2 | Beauregard?
+326 | K1 | Meanest animal in Kentucky, hated everybody except Grandpa, and he only tolerated him
+327 | K2 | How so?
+328 | K1 | He bit the mailman, kicked the preacher, and once ate Grandma's Sunday hat
+329 | K2 | And Grandpa loved him?
+330 | K1 | More than us, I think, when Beauregard died Grandpa dug the grave himself, said the nicest words I ever heard him say

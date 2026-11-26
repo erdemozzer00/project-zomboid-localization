@@ -1,0 +1,209 @@
+# SNE7Y · Parça 3/3 · 101 replik
+# Çıktıyı SNE7Y_3.txt adıyla kaydet. Yalnızca N | Türkçe satırlarını yaz. 229–329 numaralarını sırayla ve birer kez kullan.
+# Project Zomboid Build 42 · Project A-Life 1.5.4 · 1993 Kentucky, salgın sonrası. Oyuncu yakındaki NPC’lerin kendi aralarındaki kısa ortam sohbetine tanık olur.
+# Her başlık ayrı bir sahnedir. Altındaki sözler sırayla söylenir. K1/K2/K3 o sahnedeki NPC’leri gösterir. · ile başlayan İngilizce replikleri bağlam olarak oku ve çıktıya alma.
+# Konu etiketleri story anı veya hikaye, walk yürüyüş, meet karşılaşma, crash_talk kaza sonrası, breakdown_talk araç arızası, after_fight çatışma sonrası, rest dinlenme, night_watch gece nöbeti, scavenge malzeme toplama, outpost_* karakol sahneleri, any gündelik sohbet anlamına gelir.
+# Koşullarda reg genel profil (civilian sivil, family aile, worker işçi, rescue kurtarma), role daha dar profil, r1/r2 ilgili konuşmacının rolü (law kolluk, swat özel harekat, military asker, elite seçkin asker), tmp deneyim (fresh acemi, seasoned tecrübeli, veteran kıdemli), st tutum, mood ruh hali, day/hour gün ve saat aralığı, world ortam, out karşılaşma sonucudur. Virgülle ayrılan profil ve roller olası seçeneklerdir.
+# Doğal Türkçe konuşma ritmini kullan. Kimliği ve yakınlığı kaynak desteklediği ölçüde yansıt. Tek kişiye sen de. Grup hitabında çoğulu koru. Olayı, sayıları, güvenlik durumunu ve kimin ne yaptığını koru.
+# Sabit karşılıklar ilgili bağlamda outpost → karakol, safehouse → güvenli ev, shelter → sığınak, squad → tim, group → grup, crew → ekip, faction → fraksiyon, zed → zombi.
+# Numaralı repliklerde yer tutucu, yüzde biçim kodu, biçim etiketi veya kaçış dizisi yok. Her repliğin Türkçesini tek satıra yaz.
+
+##### fw_ld4_topics_b_0004 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|hour=21,4
+229 | K1 | See any stars?
+230 | K2 | A few, between the clouds
+· K1 | Make a wish
+231 | K2 | I wish for a cheeseburger
+232 | K1 | That's the same wish as last night
+233 | K2 | And I'll wish it again tomorrow
+
+##### fw_ld4_topics_b_0005 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|hour=21,4
+234 | K1 | Shhh, listen
+· K2 | What?
+235 | K1 | Footsteps, slow, dragging
+· K2 | How many?
+236 | K1 | One, I think, just one
+237 | K2 | Get the bat, get the bat, no noise
+
+##### fw_ld4_topics_b_0006 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|hour=21,4
+238 | K1 | Your turn
+· K2 | Already?
+239 | K1 | I've been up for four hours
+240 | K2 | Sorry, I fell asleep, I'm sorry, I'm sorry
+241 | K1 | Just take the watch, it's fine
+
+##### fw_ld4_topics_b_0007 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|hour=21,4
+242 | K1 | Look at the moon
+243 | K2 | It's beautiful
+244 | K1 | It's the same moon, you know, as before
+245 | K2 | That's the only thing that hasn't changed
+
+##### fw_ld4_topics_b_0008 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|hour=21,4
+246 | K1 | Think they know we're here?
+· K2 | Who?
+247 | K1 | Anyone, anything
+248 | K2 | If they did, we'd be dead already
+249 | K1 | Comforting, thanks
+
+##### fw_ld4_topics_b_0009 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|hour=21,4
+250 | K1 | I hate the dark
+251 | K2 | Everyone hates the dark
+252 | K1 | It used to be fine, I slept with the lights off
+253 | K2 | Now every shadow has teeth, I know
+
+##### fw_ld4_topics_b_0010 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|hour=21,4
+254 | K1 | Did you eat?
+· K2 | Not yet
+255 | K1 | Wish I had something to split with you
+· K2 | I'm okay
+256 | K1 | Don't pretend it doesn't matter. Being hungry makes everything harder
+
+##### fw_ld4_topics_b_0016 · outpost_guard · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+257 | K1 | What would you do if a woman carrying a baby asked to come in?
+258 | K2 | Ask whether either of them was hurt, without crowding her
+259 | K1 | Hard to show you much with both arms full
+260 | K2 | Then ask how she wants to handle it, you don't just grab somebody's baby
+261 | K1 | I'd be scared of dropping her
+262 | K2 | That's something you say before you offer to hold her
+
+##### fw_ld4_topics_b_0017 · outpost_guard · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|hour=16,5
+263 | K1 | How many of us on the wall tonight?
+· K2 | Four
+264 | K1 | That's not enough
+265 | K2 | It's what we've got
+266 | K1 | Then we pray they're lazy tonight
+
+##### fw_ld4_topics_b_0018 · outpost_guard · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+267 | K1 | Somebody's coming up the road
+· K2 | How many?
+268 | K1 | Three, walking slow
+· K2 | Armed?
+269 | K1 | Not that I can see
+270 | K2 | Fire a shot into the air, see how they react
+
+##### fw_ld4_topics_b_0019 · outpost_guard · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+271 | K1 | Nobody opens that gate unless I say so, got it?
+· K2 | Okay
+272 | K1 | Rule number two, don't make me repeat rule number one
+· K2 | Got it
+
+##### fw_ld4_topics_b_0020 · outpost_guard · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+273 | K1 | I hate guard duty
+· K2 | Why?
+274 | K1 | It's all waiting and no payoff
+275 | K2 | Waiting IS the payoff, nothing happened, that's a win
+
+##### fw_ld4_topics_b_0024 · outpost_fire · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+276 | K1 | Pass the marshmallows
+277 | K2 | We don't have marshmallows
+278 | K1 | I know, I'm pretending
+279 | K2 | Then pass me the pretend graham crackers
+
+##### fw_ld4_topics_b_0025 · outpost_fire · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+280 | K1 | Tell us a ghost story
+281 | K2 | We're living in one
+282 | K1 | A different one
+283 | K2 | Okay, once there was a kid who never said goodnight to his mother, and the house remembered
+
+##### fw_ld4_topics_b_0026 · outpost_fire · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+284 | K1 | Don't stare at the fire
+· K2 | Why?
+285 | K1 | You'll ruin your night vision
+286 | K2 | What night vision? I can't even see my own hand
+· K1 | Exactly
+
+##### fw_ld4_topics_b_0027 · outpost_fire · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+287 | K1 | It's nice to be warm
+· K2 | Yeah
+288 | K1 | For a second I forgot to be afraid
+289 | K2 | Don't remind me, now I remember
+
+##### fw_ld4_topics_b_0028 · outpost_fire · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+290 | K1 | Anyone know a song?
+291 | K2 | I know one
+292 | K1 | Sing it
+293 | K2 | I only know the chorus
+294 | K1 | Then sing the chorus ten times
+
+##### fw_ld4_topics_b_0029 · outpost_fire · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+295 | K1 | My grandfather used to sit by the fire and whittle
+296 | K2 | What did he make?
+297 | K1 | Whistles, mostly
+298 | K2 | Did they work?
+299 | K1 | Terribly, but we loved them
+
+##### fw_ld4_topics_b_0032 · outpost_farm · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+300 | K1 | The tomatoes are coming in
+301 | K2 | Green?
+302 | K1 | Red, red as lipstick, look at them
+303 | K2 | Don't pick them yet
+304 | K1 | I know, I'm just admiring
+
+##### fw_ld4_topics_b_0033 · outpost_farm · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+305 | K1 | Something's eating the beans
+306 | K2 | Deer?
+307 | K1 | Rabbits
+308 | K2 | Put up a scarecrow
+309 | K1 | We did, they ate the scarecrow's hat
+
+##### fw_ld4_topics_b_0034 · outpost_farm · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+310 | K1 | How many rows have we got?
+· K2 | Six
+· K1 | That's not enough
+311 | K2 | It's what we can water
+
+##### fw_ld4_topics_b_0035 · outpost_farm · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+312 | K1 | My hands are blistered
+· K2 | Mine too
+313 | K1 | I never thought I'd miss an office job
+314 | K2 | I never thought I'd love dirt
+
+##### fw_ld4_topics_b_0037 · outpost_medic · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+· K1 | Hold this
+· K2 | What is it?
+315 | K1 | His arm
+316 | K2 | His whole arm?
+317 | K1 | His whole arm, hold it still while I wrap it
+
+##### fw_ld4_topics_b_0038 · outpost_medic · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+318 | K1 | Are you the doctor?
+319 | K2 | I'm the closest thing
+320 | K1 | What were you before?
+321 | K2 | A pharmacy tech, but I read a lot
+
+##### fw_ld4_topics_b_0039 · outpost_medic · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+322 | K1 | How's the fever?
+323 | K2 | Dropping
+324 | K1 | Thank God
+325 | K2 | Don't thank Him yet, it could spike again
+
+##### fw_ld4_topics_b_0041 · crash_talk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+326 | K1 | Everybody out, out, OUT!
+327 | K2 | My leg, my leg's stuck
+328 | K1 | Pull, pull, I've got you
+329 | K2 | Out- I'm out! Oh my God

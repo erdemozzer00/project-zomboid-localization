@@ -1,0 +1,221 @@
+# SNE6Y · Parça 2/3 · 115 replik
+# Çıktıyı SNE6Y_2.txt adıyla kaydet. Yalnızca N | Türkçe satırlarını yaz. 116–230 numaralarını sırayla ve birer kez kullan.
+# Project Zomboid Build 42 · Project A-Life 1.5.4 · 1993 Kentucky, salgın sonrası. Oyuncu yakındaki NPC’lerin kendi aralarındaki kısa ortam sohbetine tanık olur.
+# Her başlık ayrı bir sahnedir. Altındaki sözler sırayla söylenir. K1/K2/K3 o sahnedeki NPC’leri gösterir. · ile başlayan İngilizce replikleri bağlam olarak oku ve çıktıya alma.
+# Konu etiketleri story anı veya hikaye, walk yürüyüş, meet karşılaşma, crash_talk kaza sonrası, breakdown_talk araç arızası, after_fight çatışma sonrası, rest dinlenme, night_watch gece nöbeti, scavenge malzeme toplama, outpost_* karakol sahneleri, any gündelik sohbet anlamına gelir.
+# Koşullarda reg genel profil (civilian sivil, family aile, worker işçi, rescue kurtarma), role daha dar profil, r1/r2 ilgili konuşmacının rolü (law kolluk, swat özel harekat, military asker, elite seçkin asker), tmp deneyim (fresh acemi, seasoned tecrübeli, veteran kıdemli), st tutum, mood ruh hali, day/hour gün ve saat aralığı, world ortam, out karşılaşma sonucudur. Virgülle ayrılan profil ve roller olası seçeneklerdir.
+# Doğal Türkçe konuşma ritmini kullan. Kimliği ve yakınlığı kaynak desteklediği ölçüde yansıt. Tek kişiye sen de. Grup hitabında çoğulu koru. Olayı, sayıları, güvenlik durumunu ve kimin ne yaptığını koru.
+# Sabit karşılıklar ilgili bağlamda outpost → karakol, safehouse → güvenli ev, shelter → sığınak, squad → tim, group → grup, crew → ekip, faction → fraksiyon, zed → zombi.
+# Numaralı repliklerde yer tutucu, yüzde biçim kodu, biçim etiketi veya kaçış dizisi yok. Her repliğin Türkçesini tek satıra yaz.
+
+##### s10_watch_count_start_over_017 · night_watch · 1 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=fresh|hour=0,5|mood=fear
+116 | K1 | Five hundred and one, five hundred and two
+117 | K1 | Eyes open, pinch your arm, five hundred and, and what was it?
+118 | K1 | Start over, one, nobody gets in on my count
+
+##### s10_watch_screech_owl_001 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=fresh|hour=21,5|mood=fear
+· K1 | What was that?
+119 | K2 | Owl
+120 | K1 | No owl sounds like that
+121 | K2 | Screech owl, granddaddy used to do that call under our window to scare us
+122 | K1 | Well, it's still working
+
+##### s12_bell_cedar_grove_eleven_001 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=seasoned|hour=23,4|mood=fear
+123 | K1 | Bell at Cedar Grove went last night, eleven times
+124 | K2 | Somebody calling folks in
+125 | K1 | Eleven, though, nobody rings eleven, and there's nobody in that church, I been in that church
+
+##### s12_mut2_porch_no_moths_023 · night_watch · 1 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=seasoned|hour=21,2|mood=grim
+126 | K1 | Hour that bulb's been on and not a moth on it
+127 | K1 | Every July of my life that thing's been a ball of bugs by nine
+
+##### s12_mut_dog_wont_look_020 · night_watch · 1 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=seasoned|hour=21,2|mood=fear|world=trees
+128 | K1 | Look at the trees, Buck, go on, look at 'em
+129 | K1 | Fine, then, we won't look at the trees
+
+##### s12_tracks_bugs_on_the_porch_044 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=seasoned|hour=21,3|mood=grim|world=building
+130 | K1 | The porch light's been on an hour and there ain't a moth on it
+· K2 | Hm
+131 | K1 | Hm is right, every July of my life that bulb's been a ball of bugs by nine o'clock
+
+##### s12_tracks_dog_gone_quiet_023 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=seasoned|hour=22,4|mood=fear
+132 | K1 | Sadie's under the truck and she won't come out for meat
+133 | K2 | Storm coming, maybe
+134 | K1 | Sky's clear as a bell, she's been under there since about eleven and she ain't made a sound
+
+##### s12_tracks_no_crickets_009 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=seasoned|hour=21,3|mood=fear|world=summer
+135 | K1 | Sat out here ten minutes before it got through to me
+· K2 | What
+136 | K1 | No crickets, summer, in Kentucky, not one
+
+##### s12_wave_fence_at_night_045 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=seasoned|hour=23,4|mood=grim
+137 | K1 | I remember nine people asking to come through the wire one night.. two were kids
+· K2 | What did you do?
+138 | K1 | Stood there doing arithmetic about beans while they looked at me.. I still hate remembering that
+
+##### s12_wave_waves_at_night_023 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=seasoned|hour=22,4|mood=fear
+139 | K1 | Something out past the wire waved at me, at two in the morning, in the dark
+140 | K2 | You waved back?
+141 | K1 | I did, God help me, I did, before I thought about it, it waved again
+
+##### s10_guard_bell_rope_044 · outpost_guard · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,rescue|tmp=seasoned,veteran|day=10,300|mood=grim
+142 | K1 | Bell rings once, everybody inside, twice, everybody to the wall
+143 | K2 | And if it keeps on ringing?
+144 | K1 | Then whoever's on the rope can't stop pulling, you go to the wall and find out why
+
+##### s10_after_axe_stranger_022 · after_fight · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker|mood=warm|world=fence,road
+145 | K1 | Who was that fella? The one with the axe?
+146 | K2 | Never laid eyes on him before
+147 | K1 | Came over the fence, cleared the whole yard, and just walked on up the road
+148 | K2 | Didn't stop for water or nothing, I hollered after him
+
+##### s10_after_just_tell_her_six_014 · after_fight · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker|tmp=seasoned|day=10,300|mood=sad
+149 | K1 | Six, out by the pump house
+150 | K2 | Any we knew?
+151 | K1 | One, the Arnett girl's husband, still had his ring on
+152 | K2 | You taking it to her?
+153 | K1 | Not today, today I'm just gonna tell her six
+
+##### s10_break_let_it_sleep_036 · breakdown_talk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker|mood=fear|world=vehicle
+154 | K1 | Don't move, four of 'em walking past the hood
+155 | K2 | Do they see us?
+156 | K1 | If they did, they'd be on the glass
+157 | K2 | My leg's asleep
+158 | K1 | Let it sleep, everybody in this car be as quiet as that leg
+
+##### s10_crash_ground_on_ceiling_021 · crash_talk · 1 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker|tmp=fresh|mood=fear
+159 | K1 | Seatbelt, undo the seatbelt, where's the button?
+160 | K1 | Why is the ground up on the ceiling?
+161 | K1 | Okay, crawl out the side window, you're okay, you're, you're okay
+
+##### s10_farm_hog_diversion_008 · outpost_farm · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker|day=15,300|mood=funny|world=road
+162 | K1 | Hog's through the fence!
+163 | K2 | Which way'd he go?
+164 | K1 | Straight down the road at that bunch by the church
+165 | K3 | Let him go, best diversion we ever had, and he's working for free
+166 | K2 | That was two hundred pounds of Christmas
+167 | K3 | Then say a nice word for him at Christmas
+
+##### s10_farm_old_seed_corn_012 · outpost_farm · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker|tmp=seasoned|day=20,200|mood=funny
+168 | K1 | Seed corn out of the co-op is two years old, says so right on the sack
+169 | K2 | Will it come up?
+170 | K1 | Half of it, maybe, so we plant it twice as thick
+171 | K3 | That's your answer for everything, twice as thick
+172 | K1 | Worked on my gravy, worked on my marriage, near enough
+
+##### s10_farm_squash_wilts_with_me_014 · outpost_farm · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker|tmp=seasoned|day=20,120|hour=10,18|mood=grim
+173 | K1 | Garden gets two buckets a day, people get the rest
+174 | K2 | The squash is wilting
+175 | K1 | So am I, the squash can wilt right along with me
+
+##### s10_fire_ferris_wheel_story_001 · outpost_fire · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker|day=10,300|hour=19,1|mood=warm
+176 | K1 | Your turn for a story
+177 | K2 | I told one Tuesday
+178 | K1 | You told the carnival one, that's the only story you own
+179 | K2 | Then I'll tell it with a different ending
+180 | K3 | Does the Ferris wheel still stop at the top?
+181 | K2 | It always stops at the top, always has, that's the story
+
+##### s10_mech_tractor_crank_043 · outpost_mechanic · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker|tmp=seasoned|day=15,300|mood=calm
+182 | K1 | That tractor's older than the two of us put together
+183 | K2 | That's why it runs, no wires you can't see, nothing fancy to fail
+184 | K3 | It failed twice this week
+185 | K2 | And I fixed it twice with a coat hanger, try that on a new one
+
+##### s10_medic_greener_than_him_044 · outpost_medic · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker|tmp=fresh|mood=funny
+186 | K1 | I think I'm gonna faint
+187 | K2 | Not on the patient, floor, head between your knees
+188 | K1 | He's looking at me
+189 | K2 | He's looking at you 'cause you're greener than he is
+
+##### s10_rest_good_minute_043 · rest · 1 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker|tmp=fresh|mood=calm
+190 | K1 | Just sit a minute, nobody's chasing you right now
+191 | K1 | Right now, right this minute, nobody
+192 | K1 | Okay, that was a good minute, up you get
+
+##### s10_rest_pew_counts_037 · rest · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker|tmp=seasoned|mood=warm
+193 | K1 | Softest pew I ever sat in, and I'm too tired to pray
+194 | K2 | Sitting counts
+195 | K1 | Counts? Says who?
+196 | K2 | My mamaw, she slept through forty years of sermons and swore she heard every word
+
+##### s10_rest_shoes_off_023 · rest · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker|tmp=fresh,seasoned|mood=funny
+197 | K1 | If I take my shoes off, they're never going back on
+198 | K2 | Then leave 'em on
+199 | K1 | Too late, oh, oh my Lord, that's the best thing that's happened since July
+
+##### s10_scav_all_the_pieces_042 · scavenge · 1 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker|mood=warm
+200 | K1 | Can opener, candles, box of tampons for trade
+201 | K1 | A board game, why'd I take a board game?
+202 | K1 | Because it's got all its pieces, that's why
+
+##### s10_watch_decided_rain_013 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker|tmp=seasoned|hour=21,5|mood=grim|world=rain
+203 | K1 | Rain's coming in sideways
+204 | K2 | Good, they don't like the rain
+205 | K1 | Who told you a thing like that?
+206 | K2 | Nobody, I decided it, so I could keep standing out here
+
+##### s10_watch_ridge_lamp_021 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker|day=10,300|hour=21,2|mood=warm
+207 | K1 | That lamp's on over on the ridge again
+208 | K2 | Every night about ten
+209 | K1 | Should we signal 'em?
+210 | K2 | Not yet, it's just nice knowing somebody else is up
+
+##### fw_ld4_story_a_0001 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+211 | K1 | My dad had a '78 Ford pickup, the color of dried mustard
+212 | K2 | Lord, I know the kind
+213 | K1 | He drove it to every one of my games, windows down, radio too loud
+214 | K2 | Embarrassing?
+215 | K1 | So embarrassing, I'd duck in the seat, and now I'd give my right arm to be embarrassed by that radio
+
+##### fw_ld4_story_a_0002 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+216 | K1 | First time I got drunk was on my cousin's wedding day, on blackberry wine
+217 | K2 | How old were you?
+218 | K1 | Fourteen, I danced with the preacher
+219 | K2 | The PREACHER?
+220 | K1 | Twice, I thought he was my uncle, he took it real well
+
+##### fw_ld4_story_a_0003 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+221 | K1 | There was a dog at my gas station, Pete, he waited every morning for a hot dog
+222 | K2 | Did he get one?
+223 | K1 | Every single day, for six years, the owner said 'Pete gets a dog'
+224 | K2 | Where's Pete now?
+225 | K1 | I don't know, I left in a hurry, I hope somebody's feeding him
+
+##### fw_ld4_story_a_0004 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+226 | K1 | I drove a school bus in Elizabethtown for eleven years
+227 | K2 | Wow, kids?
+228 | K1 | Forty-two, every morning, singing the same dumb songs
+229 | K2 | Do you miss it?
+230 | K1 | I miss the noise, I never thought I'd say that, God, I miss the noise

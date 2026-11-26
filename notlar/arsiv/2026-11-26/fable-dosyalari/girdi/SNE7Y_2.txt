@@ -1,0 +1,222 @@
+# SNE7Y · Parça 2/3 · 113 replik
+# Çıktıyı SNE7Y_2.txt adıyla kaydet. Yalnızca N | Türkçe satırlarını yaz. 116–228 numaralarını sırayla ve birer kez kullan.
+# Project Zomboid Build 42 · Project A-Life 1.5.4 · 1993 Kentucky, salgın sonrası. Oyuncu yakındaki NPC’lerin kendi aralarındaki kısa ortam sohbetine tanık olur.
+# Her başlık ayrı bir sahnedir. Altındaki sözler sırayla söylenir. K1/K2/K3 o sahnedeki NPC’leri gösterir. · ile başlayan İngilizce replikleri bağlam olarak oku ve çıktıya alma.
+# Konu etiketleri story anı veya hikaye, walk yürüyüş, meet karşılaşma, crash_talk kaza sonrası, breakdown_talk araç arızası, after_fight çatışma sonrası, rest dinlenme, night_watch gece nöbeti, scavenge malzeme toplama, outpost_* karakol sahneleri, any gündelik sohbet anlamına gelir.
+# Koşullarda reg genel profil (civilian sivil, family aile, worker işçi, rescue kurtarma), role daha dar profil, r1/r2 ilgili konuşmacının rolü (law kolluk, swat özel harekat, military asker, elite seçkin asker), tmp deneyim (fresh acemi, seasoned tecrübeli, veteran kıdemli), st tutum, mood ruh hali, day/hour gün ve saat aralığı, world ortam, out karşılaşma sonucudur. Virgülle ayrılan profil ve roller olası seçeneklerdir.
+# Doğal Türkçe konuşma ritmini kullan. Kimliği ve yakınlığı kaynak desteklediği ölçüde yansıt. Tek kişiye sen de. Grup hitabında çoğulu koru. Olayı, sayıları, güvenlik durumunu ve kimin ne yaptığını koru.
+# Sabit karşılıklar ilgili bağlamda outpost → karakol, safehouse → güvenli ev, shelter → sığınak, squad → tim, group → grup, crew → ekip, faction → fraksiyon, zed → zombi.
+# Numaralı repliklerde yer tutucu, yüzde biçim kodu, biçim etiketi veya kaçış dizisi yok. Her repliğin Türkçesini tek satıra yaz.
+
+##### fw_ld4_topics_a_0002 · after_fight · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+116 | K1 | Is everyone alright?
+117 | K2 | I think so, I'm bleeding, but it's not mine
+118 | K1 | Whose is it?
+119 | K2 | Don't ask, please don't ask
+120 | K1 | ...okay, I won't, sit with me
+
+##### fw_ld4_topics_a_0003 · after_fight · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+121 | K1 | I killed it
+· K2 | You did
+122 | K1 | It had a face, it had a FACE, it looked like Mr. Willis
+123 | K2 | It wasn't Mr. Willis anymore, you know that
+124 | K1 | Tell me again
+125 | K2 | It wasn't him, it wasn't him, it wasn't him
+
+##### fw_ld4_topics_a_0004 · after_fight · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+126 | K1 | Anybody bit?
+· K2 | No
+127 | K1 | Show me your arms
+128 | K2 | Why do you-
+129 | K1 | SHOW ME YOUR ARMS
+130 | K2 | Jeez- here, see? Nothing there, relax
+
+##### fw_ld4_topics_a_0005 · after_fight · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+131 | K1 | We did it
+· K2 | We did it [Aynı replik sahnede tekrar söylenir.]
+132 | K1 | We did it!!
+133 | K2 | Don't cheer, they might hear
+134 | K1 | Sorry- I'm cheering quietly, yay... quietly
+
+##### fw_ld4_topics_a_0006 · after_fight · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+135 | K1 | I can't stop laughing
+136 | K2 | It's the adrenaline
+137 | K1 | I know, but it's not even funny
+138 | K2 | I know, it's not, but you're alive, let it out
+139 | K1 | Hahaha... ha... oh God, I'm crying now
+
+##### fw_ld4_topics_a_0007 · after_fight · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+140 | K1 | My leg's shaking so hard I can't stand
+141 | K2 | Sit, sit, I've got you
+142 | K1 | I thought that was it, I really thought that was it
+143 | K2 | It wasn't, it wasn't, drink some water
+
+##### fw_ld4_topics_a_0008 · after_fight · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+144 | K1 | You were incredible
+145 | K2 | I was terrified
+146 | K1 | You didn't look terrified
+147 | K2 | I was, I was trying not to throw up
+
+##### fw_ld4_topics_a_0009 · after_fight · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+· K1 | I froze
+· K2 | We all do
+148 | K1 | I could've gotten you killed
+149 | K2 | But you didn't, and we're both still here, so stop
+150 | K1 | Thank you for not hating me
+
+##### fw_ld4_topics_a_0010 · after_fight · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+151 | K1 | Where's Danny?
+· K2 | Look at me
+152 | K1 | Where's DANNY?
+153 | K2 | He didn't make it, I'm sorry, I'm so sorry
+154 | K1 | No- no, I just saw him, he was right there!
+
+##### fw_ld4_topics_a_0023 · rest · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+155 | K1 | I could sleep standing up
+156 | K2 | You have been
+157 | K1 | I have?
+158 | K2 | For about ten minutes, you snored
+· K1 | Sorry
+159 | K2 | Don't be, it was the first quiet I've had all day
+
+##### fw_ld4_topics_a_0024 · rest · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+160 | K1 | Don't let me sleep long
+· K2 | How long?
+· K1 | Twenty minutes
+161 | K2 | Done, I'll wake you
+162 | K1 | You won't forget?
+163 | K2 | I won't forget
+
+##### fw_ld4_topics_a_0025 · rest · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+164 | K1 | My feet are bleeding
+165 | K2 | Take off your socks
+166 | K1 | I can't, they're stuck
+167 | K2 | Pour water on them
+168 | K1 | ...ow, ow, ow, God, that hurts, but thanks
+
+##### fw_ld4_topics_a_0026 · rest · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+· K1 | This is nice
+· K2 | What?
+169 | K1 | Just sitting
+170 | K2 | Yeah, we should do it more often
+171 | K1 | We should have done it before all this
+
+##### fw_ld4_topics_a_0027 · rest · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+172 | K1 | Tell me something good
+173 | K2 | I don't have anything
+174 | K1 | Make something up
+175 | K2 | Okay, there's a huge feast waiting for us at the next stop, turkey, mashed potatoes
+176 | K1 | ...stop, I'm drooling
+
+##### fw_ld4_topics_a_0028 · rest · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+177 | K1 | Can I lean on you?
+· K2 | Sure
+· K1 | Thanks
+178 | K2 | You're heavy
+179 | K1 | I'm skinny
+180 | K2 | You're heavy with worry
+
+##### fw_ld4_topics_a_0035 · scavenge · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|world=building
+181 | K1 | When a house looks picked clean I never know where to check next
+182 | K2 | I'd look in a bedroom closet
+· K1 | Why?
+183 | K2 | That's where I used to hide candy.. batteries money
+184 | K1 | How would you know that?
+185 | K2 | Because I did it.. I'd check before saying there's nothing left
+
+##### fw_ld4_topics_a_0036 · scavenge · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+186 | K1 | I feel bad
+· K2 | About what?
+187 | K1 | Taking someone's stuff
+188 | K2 | They're not coming back
+189 | K1 | I know, I know, but it feels like stealing from a grave
+190 | K2 | It is, in a way, but the living need it more
+
+##### fw_ld4_topics_a_0037 · scavenge · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|hour=16,5
+191 | K1 | Found a can of peaches
+· K2 | Where?
+192 | K1 | Behind the flour, way in the back
+193 | K2 | Shake it, is it full?
+194 | K1 | Full, and the date's okay, we're eating tonight
+
+##### fw_ld4_topics_a_0038 · scavenge · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+195 | K1 | Look at this, a photo album
+· K2 | Leave it
+196 | K1 | I can't, they look so happy
+197 | K2 | Take one picture then, and put it in your pocket
+198 | K1 | ...okay, just one
+
+##### fw_ld4_topics_a_0039 · scavenge · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|world=building
+199 | K1 | Last medicine cabinet I searched was empty
+200 | K2 | Did you check under the sink?
+201 | K1 | Nothing but bleach
+202 | K2 | I hope you didn't mistake that for medicine
+
+##### fw_ld4_topics_a_0040 · scavenge · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+· K1 | I found a diary
+· K2 | Don't read it
+203 | K1 | One page. That's all I read
+· K2 | It's not ours
+204 | K1 | Last page, she wrote 'I'm scared' and... that's the last page
+205 | K2 | Put it back, easy, now
+
+##### fw_ld4_topics_a_0041 · scavenge · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+206 | K1 | Whoa, a jar of pickles
+· K2 | Real ones?
+207 | K1 | Dill, still sealed
+208 | K2 | Marry me
+
+##### fw_ld4_topics_a_0042 · scavenge · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+209 | K1 | Everything smells like dust
+210 | K2 | And mold
+211 | K1 | And something worse
+212 | K2 | Let's grab what we can and get out
+
+##### fw_ld4_topics_b_0001 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|hour=21,4|world=trees
+213 | K1 | Shh- you hear something?
+· K2 | Hear what?
+214 | K1 | Something moved out there, by the tree line
+215 | K2 | A deer, probably
+216 | K1 | Deer don't walk on two legs
+217 | K2 | ...wake the others, quietly
+
+##### fw_ld4_topics_b_0002 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|hour=21,4
+218 | K1 | I can't keep my eyes open
+219 | K2 | Stand up, walk around
+220 | K1 | I tried, my legs fell asleep
+221 | K2 | Pinch yourself
+222 | K1 | I did, I pinched, I'm still sleepy
+223 | K2 | Then talk, talk to me, tell me about your day
+
+##### fw_ld4_topics_b_0003 · night_watch · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|hour=21,4
+224 | K1 | What's the time?
+225 | K2 | Past midnight
+226 | K1 | Is it? It feels like four
+227 | K2 | It always feels like four on watch
+228 | K1 | I hate this part

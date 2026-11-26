@@ -1,0 +1,210 @@
+# SNE6Y · Parça 1/3 · 115 replik
+# Çıktıyı SNE6Y_1.txt adıyla kaydet. Yalnızca N | Türkçe satırlarını yaz. 1–115 numaralarını sırayla ve birer kez kullan.
+# Project Zomboid Build 42 · Project A-Life 1.5.4 · 1993 Kentucky, salgın sonrası. Oyuncu yakındaki NPC’lerin kendi aralarındaki kısa ortam sohbetine tanık olur.
+# Her başlık ayrı bir sahnedir. Altındaki sözler sırayla söylenir. K1/K2/K3 o sahnedeki NPC’leri gösterir. · ile başlayan İngilizce replikleri bağlam olarak oku ve çıktıya alma.
+# Konu etiketleri story anı veya hikaye, walk yürüyüş, meet karşılaşma, crash_talk kaza sonrası, breakdown_talk araç arızası, after_fight çatışma sonrası, rest dinlenme, night_watch gece nöbeti, scavenge malzeme toplama, outpost_* karakol sahneleri, any gündelik sohbet anlamına gelir.
+# Koşullarda reg genel profil (civilian sivil, family aile, worker işçi, rescue kurtarma), role daha dar profil, r1/r2 ilgili konuşmacının rolü (law kolluk, swat özel harekat, military asker, elite seçkin asker), tmp deneyim (fresh acemi, seasoned tecrübeli, veteran kıdemli), st tutum, mood ruh hali, day/hour gün ve saat aralığı, world ortam, out karşılaşma sonucudur. Virgülle ayrılan profil ve roller olası seçeneklerdir.
+# Doğal Türkçe konuşma ritmini kullan. Kimliği ve yakınlığı kaynak desteklediği ölçüde yansıt. Tek kişiye sen de. Grup hitabında çoğulu koru. Olayı, sayıları, güvenlik durumunu ve kimin ne yaptığını koru.
+# Sabit karşılıklar ilgili bağlamda outpost → karakol, safehouse → güvenli ev, shelter → sığınak, squad → tim, group → grup, crew → ekip, faction → fraksiyon, zed → zombi.
+# Numaralı repliklerde yer tutucu, yüzde biçim kodu, biçim etiketi veya kaçış dizisi yok. Her repliğin Türkçesini tek satıra yaz.
+
+##### fw_l23_lm_where_do_you_sleep · meet · 2 konuşmacı #####
+# Oyun koşulları r1=law,swat|r2=military,elite|day=0,14|mood=calm|world=stairs,building|out=part
+1 | K1 | Where are your men bunking?
+2 | K2 | School gym, it's got two exits and walls
+3 | K1 | We've got the courthouse, stone basement, one stairwell
+4 | K2 | Sounds defensible, keep it that way
+
+##### fw_l23_lm_whiskey · meet · 2 konuşmacı #####
+# Oyun koşulları r1=law,swat|r2=military,elite|day=0,14|mood=funny|out=part
+5 | K1 | One of your privates offered one of my deputies a bottle of Jim Beam
+6 | K2 | Which private?
+7 | K1 | Kid with the red hair
+8 | K2 | I'll speak to him, thank you for the report
+
+##### fw_l23_lm_who_has_the_bridge · meet · 2 konuşmacı #####
+# Oyun koşulları r1=law,swat|r2=military,elite|day=0,10|mood=calm|out=stay2
+9 | K1 | Who's holding the bridge on 31W? I've got civilians asking
+10 | K2 | Second platoon, nothing crosses without a pass from the lieutenant
+11 | K1 | Do they know that?
+12 | K2 | They will, tell them not to try it at night
+
+##### fw_l23_lm_who_shoots_first · meet · 2 konuşmacı #####
+# Oyun koşulları r1=law,swat|r2=military,elite|day=0,8|mood=angry|out=part
+13 | K1 | We need an understanding about warnings before somebody gets shot
+14 | K2 | We shout, we fire one over their heads, then we shoot
+15 | K1 | My men have been told to shout, nothing else
+16 | K2 | Then we tell our people about each other, before a patrol crosses wrong
+
+##### exp_civ_calendar · lost_routine · 2 konuşmacı #####
+# Oyun koşulları reg=civilian|st=friendly,neutral,careful
+17 | K1 | July was a beach, on my kitchen calendar, I mean
+18 | K2 | You were gonna go somewhere?
+19 | K1 | Nah, bank gave me the calendar, I wasn't going anywhere
+20 | K2 | We had the puppies one, never changed it after March
+
+##### exp_civ_lost_subject · awkward_chat · 2 konuşmacı #####
+# Oyun koşulları reg=civilian|st=friendly,neutral,careful
+21 | K1 | Uhhh--... So? Where was I?
+22 | K2 | Your neighbor, the mower thing
+23 | K1 | OHHH, YEAH
+24 | K1 | Six in the goddamn morning, every Saturday
+25 | K2 | I'd take that noise back
+26 | K1 | Yeah, yeah, so would I
+
+##### exp_civ_wallpaper · old_home · 2 konuşmacı #####
+# Oyun koşulları reg=civilian|st=friendly,neutral,careful|world=building
+27 | K1 | Whole damn weekend scraping wallpaper, those little yellow flowers, remember those?
+28 | K2 | At your old place? Yeah
+29 | K1 | Same stuff underneath, I mean EXACTLY the same fucking paper
+30 | K2 | Oh, I'd have left it, put a couch in front of it
+
+##### ordinary_first_watch · fear · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=fresh|st=neutral,friendly
+31 | K1 | Do you ever stop jumping at things?
+32 | K2 | I stopped apologizing for it
+33 | K1 | That's not what I asked
+34 | K2 | It's the best answer I've got
+
+##### ordinary_not_brave · fear · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=fresh|st=neutral,friendly
+35 | K1 | You look like you're handling this better
+36 | K2 | I'm just quiet when I'm frightened
+37 | K1 | Wish I was
+38 | K2 | Don't, sometimes I need to hear somebody else say it
+
+##### s10_after_driving_teacher_001 · after_fight · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=fresh|day=1,60|mood=sad
+39 | K1 | My hands won't quit shaking
+40 | K2 | Sit on 'em a minute
+41 | K1 | That was Mr. Ogden, he taught me driver's ed, made me parallel park nine times
+42 | K2 | He was gone before you ever swung, sit on your hands
+
+##### s10_after_me_and_bobby_021 · after_fight · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=fresh|mood=angry|world=door
+43 | K1 | You ran
+44 | K2 | I went for help
+45 | K1 | There's no help! There was me and Bobby and a screen door!
+46 | K3 | Stop, both of you stop, Bobby's fine, everybody's still here
+
+##### s10_break_five_miles_walking_041 · breakdown_talk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=fresh|hour=15,20|mood=fear
+· K1 | How far to {town}?
+47 | K2 | Sign said six miles, that was a while back
+48 | K1 | So five
+49 | K2 | Five miles, carrying the water, with the sun going down behind us
+50 | K3 | Then we start now, and we talk while we walk, about anything but that
+
+##### s10_break_june_noise_023 · breakdown_talk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|mood=funny
+51 | K1 | It's making the noise
+52 | K2 | Which noise?
+53 | K1 | The one I told you about in June, the one you said was nothing
+54 | K2 | Well, now it's something
+
+##### s10_crash_instead_of_driving_012 · crash_talk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=fresh|mood=angry
+55 | K1 | You were looking at the map!
+56 | K2 | You told me to look at the map!
+57 | K1 | While I drove! Not instead of me driving!
+58 | K3 | Both of you hush, there's blood on the seat, whose is it?
+59 | K2 | Mine, I think it's mine
+
+##### s10_crash_walts_glasses_001 · crash_talk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=fresh,seasoned|mood=fear
+60 | K1 | Is everybody okay? Somebody say something
+61 | K2 | My glasses, where'd my glasses go?
+62 | K3 | They're on your face, Walt
+63 | K2 | Well, then they're cracked
+64 | K1 | We hit a deer, that was a deer, right?
+65 | K3 | Deer don't wear sneakers
+
+##### s10_farm_blight_humming_007 · outpost_farm · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=seasoned|day=30,150|mood=sad
+66 | K1 | Blight on the tomatoes, black spots all up the bottom leaves
+67 | K2 | Pull the bad leaves and burn 'em, don't put 'em on the compost
+68 | K1 | That's what Ellen always did, pulled the leaves and hummed the whole time
+69 | K2 | Then hum
+
+##### s10_farm_church_lawn_corn_015 · outpost_farm · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family|day=25,150|mood=funny
+70 | K1 | Deacon Hardy would've had a stroke, seeing corn on the church lawn
+71 | K2 | Deacon Hardy had a stroke over a basketball hoop in the parking lot
+72 | K3 | Well, the Lord hasn't said a word against it, corn's knee-high
+73 | K1 | The Lord never had to mow that lawn
+
+##### s10_farm_fifty_days_011 · outpost_farm · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=fresh,seasoned|day=25,60|mood=calm|world=snow
+74 | K1 | It's August, is it too late for beans?
+75 | K2 | Bush beans take fifty days, we'll squeak in before frost
+76 | K1 | And if we don't?
+77 | K2 | Then we'll have a real nice-looking row of plants to look at in October
+
+##### s10_farm_leons_string_line_005 · outpost_farm · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=seasoned|day=20,300|mood=sad
+78 | K1 | Whose string line is this, running out past the corn?
+79 | K2 | Leon's, he was laying out a new fence row
+80 | K1 | He's got a stake in every eight feet
+81 | K2 | Then that's where the posts go, every eight feet, the way he had it
+
+##### s10_fire_homecoming_bonfire_010 · outpost_fire · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|role=family_youth,civilian_woman,civilian_man|tmp=fresh|hour=19,1|mood=sad
+82 | K1 | Last bonfire I sat at was homecoming, Tyler Mason tried to kiss me behind the bleachers
+83 | K2 | Did he get to?
+84 | K1 | He tried, I let him try, heh, he was so bad at it, he kept, he
+85 | K1 | Anyway, pass me that stick
+
+##### s10_guard_blue_rag_039 · outpost_guard · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|day=15,300|mood=funny
+86 | K1 | Red rag on the wall means come in, white rag means all clear in the field
+87 | K2 | What's the blue rag mean?
+88 | K1 | Blue rag is Martha's good dish towel, and she wants it back by supper
+
+##### s10_guard_deer_stand_sentence_031 · outpost_guard · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=fresh,seasoned|hour=11,17|mood=funny|world=rain,hot
+89 | K1 | Swap me out, I can't see straight, it's so hot
+90 | K2 | You've been up there forty minutes
+91 | K1 | Forty minutes in a tin deer stand in this heat, that's time served right there
+92 | K2 | Come down and dunk your head in the rain barrel, the green one, not the drinking one
+
+##### s10_mech_air_cleaner_026 · outpost_mechanic · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=fresh|day=5,120|mood=funny
+93 | K1 | Manual says remove the air cleaner assembly, what's an air cleaner assembly?
+94 | K2 | The big round lid
+95 | K1 | On top?
+96 | K2 | Honey, it's the only thing on top
+
+##### s10_medic_pickle_bucket_024 · outpost_medic · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=fresh|day=3,120|mood=funny
+97 | K1 | Book says elevate the limb above the heart
+98 | K2 | His whole leg?
+99 | K1 | Prop it on the pickle bucket
+100 | K3 | It says heart, it doesn't say pickle bucket
+101 | K1 | The bucket's higher than his heart, I measured with a spoon
+
+##### s10_patrol_short_prayer_015 · patrol_departure · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family|day=5,300|mood=warm
+102 | K1 | Before we go, heads down, this'll be quick
+103 | K2 | Pastor, the light's going
+104 | K1 | Lord, bring back every one we send out, amen, that quick enough for you?
+105 | K3 | That's the shortest one you ever did
+106 | K1 | I'm saving the long ones for when we're all back at this table
+
+##### s10_rest_other_side_of_steps_033 · rest · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=fresh,seasoned|mood=sad
+107 | K1 | Sit down here a minute
+108 | K2 | There's a tricycle in the yard
+109 | K1 | I see it, sit on the other side of the steps, then, where you can't
+
+##### s10_scav_aisle_four_040 · scavenge · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=fresh|mood=fear
+110 | K1 | Grab and go, canned goods aisle only
+111 | K2 | There's something at the end of aisle four
+112 | K1 | Then we don't need a thing out of aisle four
+
+##### s10_scav_will_pay_back_023 · scavenge · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family|tmp=fresh|day=1,40|mood=funny
+113 | K1 | Think I should leave a note
+· K2 | Saying what?
+114 | K1 | Took two cans of soup and the aspirin, sorry, will pay you back
+115 | K2 | Put your phone number on it while you're at it

@@ -1,0 +1,2974 @@
+{
+ "_paket": "SNE8Y",
+ "_grup": "sahne",
+ "_dosya": "RadioData_lua",
+ "_baslik": "SNE_8 NPC sahneleri yeniden çeviri",
+ "_parcalar": [
+  [
+   1,
+   115
+  ],
+  [
+   116,
+   227
+  ],
+  [
+   228,
+   328
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "RD_ALifeLine_1754365068f5f685",
+   "Was that a tree or a person?",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "fw_ld4_topics_b_0042",
+    "reg=civilian,family,worker,rescue|world=trees"
+   ]
+  ],
+  "2": [
+   "RD_ALifeLine_33bc7d0a66c892b4",
+   "A tree, I think",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "fw_ld4_topics_b_0042",
+    "reg=civilian,family,worker,rescue|world=trees"
+   ]
+  ],
+  "3": [
+   "RD_ALifeLine_33b663706a6c9990",
+   "You think?",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "fw_ld4_topics_b_0042",
+    "reg=civilian,family,worker,rescue|world=trees"
+   ]
+  ],
+  "4": [
+   "RD_ALifeLine_0e78d6923ba8a5e2",
+   "It didn't scream, so tree",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "fw_ld4_topics_b_0042",
+    "reg=civilian,family,worker,rescue|world=trees"
+   ]
+  ],
+  "5": [
+   "RD_ALifeLine_0f6473f57d65b6e7",
+   "I told you to watch the road!",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "fw_ld4_topics_b_0043",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "6": [
+   "RD_ALifeLine_206d711e7b30b4cb",
+   "I WAS watching the road!",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "fw_ld4_topics_b_0043",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "7": [
+   "RD_ALifeLine_4b1dd2b86dc72287",
+   "Then who was watching the deer?",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "fw_ld4_topics_b_0043",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "8": [
+   "RD_ALifeLine_1be510227821b5a6",
+   "...nobody, apparently",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "fw_ld4_topics_b_0043",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "9": [
+   "RD_ALifeLine_2858eaa221778cc4",
+   "It's making that noise again",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "fw_ld4_topics_b_0044",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "10": [
+   "RD_ALifeLine_066b94261bdd7699",
+   "The clicking?",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "fw_ld4_topics_b_0044",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "11": [
+   "RD_ALifeLine_1b008f211dfec764",
+   "The grinding",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "fw_ld4_topics_b_0044",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "12": [
+   "RD_ALifeLine_77b5739c12902180",
+   "Is it smoking?",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "fw_ld4_topics_b_0044",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "13": [
+   "RD_ALifeLine_71f0400c30ee32ac",
+   "A little, a lot, okay, definitely smoking",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "fw_ld4_topics_b_0044",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "14": [
+   "RD_ALifeLine_1236d9341839111a",
+   "Anyone know about engines?",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "fw_ld4_topics_b_0045",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "15": [
+   "RD_ALifeLine_5ce9ff7277cfb174",
+   "I know how to turn one on",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "fw_ld4_topics_b_0045",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "16": [
+   "RD_ALifeLine_5ad8092d4b91a4f2",
+   "That's not helpful",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "fw_ld4_topics_b_0045",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "17": [
+   "RD_ALifeLine_5b3fe8ec37e1fcbf",
+   "It's all I've got, I'm a florist",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "fw_ld4_topics_b_0045",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "18": [
+   "RD_ALifeLine_040bbfc442ee5315",
+   "Keep up",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0001",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "19": [
+   "RD_ALifeLine_0d6a683224ab6f2a",
+   "I AM keeping up",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0001",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "20": [
+   "RD_ALifeLine_035b4a2825fe1652",
+   "You're ten feet back",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0001",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "21": [
+   "RD_ALifeLine_1d78312421bb511b",
+   "You've got longer legs",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0001",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "22": [
+   "RD_ALifeLine_5780472a10598c32",
+   "Slow down, I've got a blister",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0002",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "23": [
+   "RD_ALifeLine_6de2ad85599396fc",
+   "We can't stop here",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0002",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "24": [
+   "RD_ALifeLine_416367167af14fd5",
+   "Then slow down without stopping",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0002",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "25": [
+   "RD_ALifeLine_4d5c3a773e4bbb75",
+   "I'll slow down for the both of you, I'm dying",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0002",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "26": [
+   "RD_ALifeLine_67363d166fcd4d4e",
+   "Come on, come on, you're dragging",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0003",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "27": [
+   "RD_ALifeLine_33b788640207b500",
+   "I'm carrying forty pounds",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0003",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "28": [
+   "RD_ALifeLine_5c27a6511b4ccb41",
+   "I'm carrying forty-one",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0003",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "29": [
+   "RD_ALifeLine_61a6a24520f285b9",
+   "Why are we walking so fast?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0004",
+    "reg=civilian,family,worker,rescue|mood=angry"
+   ]
+  ],
+  "30": [
+   "RD_ALifeLine_45756b2314e68100",
+   "Because I want to be there",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0004",
+    "reg=civilian,family,worker,rescue|mood=angry"
+   ]
+  ],
+  "31": [
+   "RD_ALifeLine_7216dead5301c698",
+   "Anywhere that isn't here",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0004",
+    "reg=civilian,family,worker,rescue|mood=angry"
+   ]
+  ],
+  "32": [
+   "RD_ALifeLine_4c4cefb529db3f88",
+   "We're not waiting",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0005",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "33": [
+   "RD_ALifeLine_10d6994b701e6d8c",
+   "...fine, thirty seconds",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0005",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "34": [
+   "RD_ALifeLine_596c3a4244d53d7e",
+   "You're lagging",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0006",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "35": [
+   "RD_ALifeLine_63e46ea401e66ffa",
+   "I'm walking",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0006",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "36": [
+   "RD_ALifeLine_44deec620c30d3f1",
+   "You're walking like you're being punished",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0006",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "37": [
+   "RD_ALifeLine_66d0176b2e37d134",
+   "That one is being punished, it's called a pack",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0006",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "38": [
+   "RD_ALifeLine_243767a034f62267",
+   "Close it up, don't spread out",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0007",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "39": [
+   "RD_ALifeLine_7780fe7f7d126a4b",
+   "We're not spread out",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0007",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "40": [
+   "RD_ALifeLine_7784a6ae153cd033",
+   "We're a little spread out",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0007",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "41": [
+   "RD_ALifeLine_3ff20b54646a2ec0",
+   "Fine, closer",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0007",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "42": [
+   "RD_ALifeLine_38ad722f060765c0",
+   "Who's setting this pace?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0008",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "43": [
+   "RD_ALifeLine_571b25a43d9ca2bf",
+   "Set a different one, that's a pace for people with two good knees",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0008",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "44": [
+   "RD_ALifeLine_70cdf1ee1c36db62",
+   "You walk like a duck",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0009",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "45": [
+   "RD_ALifeLine_268d400a159fa337",
+   "I walk like a person with feet",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0009",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "46": [
+   "RD_ALifeLine_499ab3f700604049",
+   "A duck is a person with feet",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0009",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "47": [
+   "RD_ALifeLine_1af6cf110b8814b5",
+   "That's the worst thing you've ever said",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0009",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "48": [
+   "RD_ALifeLine_0260ad81724d59c4",
+   "Left foot, right foot, left foot, right foot",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0010",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "49": [
+   "RD_ALifeLine_3752711e24a0e42c",
+   "Stop narrating",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0010",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "50": [
+   "RD_ALifeLine_30bfdb4d56776cd7",
+   "I need to, or I forget I'm walking",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0010",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "51": [
+   "RD_ALifeLine_1cb4467a412e08c5",
+   "Hold up, my pack shifted",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0011",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "52": [
+   "RD_ALifeLine_6bb104897c373405",
+   "Hurry, we're falling behind",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0011",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "53": [
+   "RD_ALifeLine_1de4fd9905929982",
+   "Behind who?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0011",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "54": [
+   "RD_ALifeLine_01874c2d0d9dc9ac",
+   "Behind us, we're the only ones",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0011",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "55": [
+   "RD_ALifeLine_74a496662770245d",
+   "You're stepping on my heel",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0012",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "56": [
+   "RD_ALifeLine_0d1723cd29db69e6",
+   "Then walk faster",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0012",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "57": [
+   "RD_ALifeLine_0cb5e6f3004bc4e6",
+   "I'm walking fast",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0012",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "58": [
+   "RD_ALifeLine_0aa32d6d124e0563",
+   "Both of you, walk like adults",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0012",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "59": [
+   "RD_ALifeLine_0ba38f186e2f9152",
+   "Why are you running",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0013",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "60": [
+   "RD_ALifeLine_427cbf6776405ab6",
+   "I'm not running",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0013",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "61": [
+   "RD_ALifeLine_716aed2a46f64d6d",
+   "You're doing the fast walk, the walk where your arms go",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0013",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "62": [
+   "RD_ALifeLine_6b24813744717966",
+   "It's the I-have-to-pee walk",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0013",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "63": [
+   "RD_ALifeLine_658ffb79505fe0a1",
+   "Slow down for the old man",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0014",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "64": [
+   "RD_ALifeLine_502841826b378b9c",
+   "I'm not old",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0014",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "65": [
+   "RD_ALifeLine_6d627b616cedb566",
+   "You're sixty-three, that's old",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0014",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "66": [
+   "RD_ALifeLine_79268d4679d22f37",
+   "I'm sixty-three and I can still beat you to the corner",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0014",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "67": [
+   "RD_ALifeLine_6da2ae9a564c21a4",
+   "How much farther?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0015",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "68": [
+   "RD_ALifeLine_0332c4c630daeb27",
+   "Not far",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0015",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "69": [
+   "RD_ALifeLine_537229706372d160",
+   "That's what you said an hour ago",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0015",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "70": [
+   "RD_ALifeLine_525808e81defb8f5",
+   "I know what I said, I was being optimistic",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0015",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "71": [
+   "RD_ALifeLine_5afad04d07134a91",
+   "Are we close?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0016",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "72": [
+   "RD_ALifeLine_2c09deb26adac7a2",
+   "Closer",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0016",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "73": [
+   "RD_ALifeLine_452ef0812b686784",
+   "Closer than what?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0016",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "74": [
+   "RD_ALifeLine_13185245440dc972",
+   "Closer than before, shut up and walk",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0016",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "75": [
+   "RD_ALifeLine_6aaf0c5a1f44f2dd",
+   "Are we there yet?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0017",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "76": [
+   "RD_ALifeLine_7fc7638e716e856c",
+   "I'm just asking",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0017",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "77": [
+   "RD_ALifeLine_3f33ddb950ff6b57",
+   "You're a grown person",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0017",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "78": [
+   "RD_ALifeLine_2ba73cf94e4271af",
+   "You said left last time",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0018",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "79": [
+   "RD_ALifeLine_4f8b2cc85f245eb2",
+   "And it was left, wasn't it",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0018",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "80": [
+   "RD_ALifeLine_52293be752139da3",
+   "Which way, left or right?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0019",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "81": [
+   "RD_ALifeLine_5a7d8b6d3c14fdc7",
+   "Right, I'm right-handed, it's the only direction I trust",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0019",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "82": [
+   "RD_ALifeLine_289468605e164b97",
+   "I'm left-handed, so we're going left",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0019",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "83": [
+   "RD_ALifeLine_18ce4b833ecad901",
+   "I know a shortcut",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0020",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "84": [
+   "RD_ALifeLine_1844daa624a7771e",
+   "Your shortcuts take an hour",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0020",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "85": [
+   "RD_ALifeLine_66a2e5f36c771732",
+   "This one's different",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0020",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "86": [
+   "RD_ALifeLine_5316ebb42d8f480c",
+   "They're all different, that's why they take an hour",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0020",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "87": [
+   "RD_ALifeLine_5ef1a663557f3c4b",
+   "Did we pass that mailbox already?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0021",
+    "reg=civilian,family,worker,rescue|mood=funny|world=building"
+   ]
+  ],
+  "88": [
+   "RD_ALifeLine_1d1d496d7012a688",
+   "We passed a mailbox",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0021",
+    "reg=civilian,family,worker,rescue|mood=funny|world=building"
+   ]
+  ],
+  "89": [
+   "RD_ALifeLine_416ce36e20c5268b",
+   "It's the same mailbox, it's got a dent on the side",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0021",
+    "reg=civilian,family,worker,rescue|mood=funny|world=building"
+   ]
+  ],
+  "90": [
+   "RD_ALifeLine_20945f1c530d98ea",
+   "Everybody's mailbox has a dent",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0021",
+    "reg=civilian,family,worker,rescue|mood=funny|world=building"
+   ]
+  ],
+  "91": [
+   "RD_ALifeLine_3bb6002436c02293",
+   "Cut through the field?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0022",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "92": [
+   "RD_ALifeLine_0ba38a78675eb018",
+   "It's all grass up to my waist",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0022",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "93": [
+   "RD_ALifeLine_4791f73d10b4fff1",
+   "I'll go first",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0022",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "94": [
+   "RD_ALifeLine_476c26ee7e3938f0",
+   "If there's anything in there, you're finding it first",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0022",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "95": [
+   "RD_ALifeLine_7e70212111af32c1",
+   "Past the next bend",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0023",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "96": [
+   "RD_ALifeLine_3071746569db328a",
+   "You said that three bends ago",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0023",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "97": [
+   "RD_ALifeLine_2d9719e22c0de99b",
+   "This is the next one",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0023",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "98": [
+   "RD_ALifeLine_7248bd78013ca1fd",
+   "There's always a next one",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0023",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "99": [
+   "RD_ALifeLine_268144554e9a8b2c",
+   "Where are we even going?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0024",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "100": [
+   "RD_ALifeLine_713ecdbe19648b14",
+   "You're asking now?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0024",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "101": [
+   "RD_ALifeLine_22b034a437a2e499",
+   "I'm asking now",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0024",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "102": [
+   "RD_ALifeLine_47774f547878b365",
+   "...west",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0024",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "103": [
+   "RD_ALifeLine_3aadd96a78de6290",
+   "Is it left or right at the sign?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0025",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "104": [
+   "RD_ALifeLine_073d06855ea2303f",
+   "It's left",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0025",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "105": [
+   "RD_ALifeLine_6f4c9ed956da711b",
+   "It's right",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0025",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "106": [
+   "RD_ALifeLine_0f48e66b1f75e495",
+   "Fine, somebody flip a coin",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0025",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "107": [
+   "RD_ALifeLine_30c0c732553ac48b",
+   "We've been on this road forever",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0026",
+    "reg=civilian,family,worker,rescue|world=road"
+   ]
+  ],
+  "108": [
+   "RD_ALifeLine_67a956f86f86605e",
+   "It's been an hour",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0026",
+    "reg=civilian,family,worker,rescue|world=road"
+   ]
+  ],
+  "109": [
+   "RD_ALifeLine_17546db7171c9897",
+   "It's been a forever hour",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0026",
+    "reg=civilian,family,worker,rescue|world=road"
+   ]
+  ],
+  "110": [
+   "RD_ALifeLine_439c4f0146a7f8b7",
+   "I thought it was closer",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0027",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "111": [
+   "RD_ALifeLine_3eabd9796194dfe0",
+   "Past the church. It's right there",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0027",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "112": [
+   "RD_ALifeLine_467651cb366eba34",
+   "That's what you said about the last church",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0027",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "113": [
+   "RD_ALifeLine_0c1d196a5015a513",
+   "This is Kentucky, you can't just say 'the church'",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0027",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "114": [
+   "RD_ALifeLine_30681e49664792d7",
+   "Boots off at the next stop",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0028",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "115": [
+   "RD_ALifeLine_69371230123c209d",
+   "If I take them off I'm never getting them back on",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0028",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "116": [
+   "RD_ALifeLine_54e11dd0207e1dcb",
+   "My back's gone",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0029",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "117": [
+   "RD_ALifeLine_3426bde06739986b",
+   "Your back's been gone since breakfast",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0029",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "118": [
+   "RD_ALifeLine_3c854b8e2e61c9d6",
+   "It's gone further",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0029",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "119": [
+   "RD_ALifeLine_4a7bd20f73a800f2",
+   "Mine went with the pack, it's not coming back",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0029",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "120": [
+   "RD_ALifeLine_41f52f5029902afc",
+   "I need a break",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0030",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "121": [
+   "RD_ALifeLine_41c07a8405c4b5d4",
+   "We just had a break",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0030",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "122": [
+   "RD_ALifeLine_0ef2d4d564e08804",
+   "That was ten minutes ago",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0030",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "123": [
+   "RD_ALifeLine_4518be9e2dd741ce",
+   "Ten minutes ago is a long time, I admit",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0030",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "124": [
+   "RD_ALifeLine_6480fde07d69a45e",
+   "I'm so thirsty my tongue's a sock",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0031",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "125": [
+   "RD_ALifeLine_4281e2673aab89ae",
+   "Here, don't swallow it all",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0031",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "126": [
+   "RD_ALifeLine_073a74235df94e9b",
+   "It's gone",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0031",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "127": [
+   "RD_ALifeLine_379883481e2016f1",
+   "Of course it's gone",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0031",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "128": [
+   "RD_ALifeLine_37494500658838e2",
+   "Now, I've been holding it for an hour",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0033",
+    "reg=civilian,family,worker,rescue|world=trees"
+   ]
+  ],
+  "129": [
+   "RD_ALifeLine_154edffa51951f45",
+   "Behind that tree, hurry up",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0033",
+    "reg=civilian,family,worker,rescue|world=trees"
+   ]
+  ],
+  "130": [
+   "RD_ALifeLine_757f190e70b39543",
+   "Knee's doing the thing",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0034",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "131": [
+   "RD_ALifeLine_2e7325941aed6de6",
+   "The clicking thing, a little click every step",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0034",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "132": [
+   "RD_ALifeLine_39112868069ee06d",
+   "Stop, I can hear it now",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0034",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "133": [
+   "RD_ALifeLine_635a36b413e0e74f",
+   "It's so hot I can see the heat",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0035",
+    "reg=civilian,family,worker,rescue|world=road,hot"
+   ]
+  ],
+  "134": [
+   "RD_ALifeLine_0d2de77047f94afd",
+   "You can't see heat",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0035",
+    "reg=civilian,family,worker,rescue|world=road,hot"
+   ]
+  ],
+  "135": [
+   "RD_ALifeLine_7b219ba243aba61d",
+   "There, over the road, it's moving",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0035",
+    "reg=civilian,family,worker,rescue|world=road,hot"
+   ]
+  ],
+  "136": [
+   "RD_ALifeLine_0083ca1d7d39779f",
+   "That's a mirage, that's real",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0035",
+    "reg=civilian,family,worker,rescue|world=road,hot"
+   ]
+  ],
+  "137": [
+   "RD_ALifeLine_6638833e678a4f1e",
+   "Is that a blister or a bug bite?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0036",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "138": [
+   "RD_ALifeLine_35b295951b17a442",
+   "Back of my heel, I can't see it",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0036",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "139": [
+   "RD_ALifeLine_741b143129e95095",
+   "It's a blister, you've got a real one",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0036",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "140": [
+   "RD_ALifeLine_3855c8a772464522",
+   "Hungry",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0037",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "141": [
+   "RD_ALifeLine_030c1409114d10d6",
+   "You're always hungry",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0037",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "142": [
+   "RD_ALifeLine_202e44581e68fb7e",
+   "I'm always hungry because I'm always walking",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0037",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "143": [
+   "RD_ALifeLine_7afd916926d8ffbb",
+   "That's a fair point",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0037",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "144": [
+   "RD_ALifeLine_002ea1cf1790bcf9",
+   "You got any gum?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0038",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "145": [
+   "RD_ALifeLine_427c025b0de07d8b",
+   "Half a stick",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0038",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "146": [
+   "RD_ALifeLine_47c2527e1ed71b00",
+   "I'll take the half",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0038",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "147": [
+   "RD_ALifeLine_5227d9f4084f3412",
+   "Don't chew it all, it's the last half",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0038",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "148": [
+   "RD_ALifeLine_0d3fa70f138b9c66",
+   "I need a little shade, a minute",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0039",
+    "reg=civilian,family,worker,rescue|world=trees"
+   ]
+  ],
+  "149": [
+   "RD_ALifeLine_3701e5f407bf4c31",
+   "The next tree",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0039",
+    "reg=civilian,family,worker,rescue|world=trees"
+   ]
+  ],
+  "150": [
+   "RD_ALifeLine_2add9cd14dd0e960",
+   "The next tree's a long way",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0039",
+    "reg=civilian,family,worker,rescue|world=trees"
+   ]
+  ],
+  "151": [
+   "RD_ALifeLine_18dec898021c3bb8",
+   "The tree after that is a longer way",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0039",
+    "reg=civilian,family,worker,rescue|world=trees"
+   ]
+  ],
+  "152": [
+   "RD_ALifeLine_243cec644136f091",
+   "...never mind, my ears are ringing",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0040",
+    "reg=civilian,family,worker,rescue|mood=fear"
+   ]
+  ],
+  "153": [
+   "RD_ALifeLine_4cd2f88c1e29890e",
+   "Something's behind us, I heard a step",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0041",
+    "reg=civilian,family,worker,rescue|mood=fear"
+   ]
+  ],
+  "154": [
+   "RD_ALifeLine_08d8e11f6c3ac6b9",
+   "It's you, you're stepping",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0041",
+    "reg=civilian,family,worker,rescue|mood=fear"
+   ]
+  ],
+  "155": [
+   "RD_ALifeLine_462049d775d12802",
+   "My stomach, I haven't eaten since yesterday",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0042",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "156": [
+   "RD_ALifeLine_173e0d4c1f30903a",
+   "That was your STOMACH?!",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0042",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "157": [
+   "RD_ALifeLine_196adb2840002833",
+   "It's a very loud stomach",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0042",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "158": [
+   "RD_ALifeLine_38b536a74b14f1d2",
+   "Did you hear a car?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0043",
+    "reg=civilian,family,worker,rescue|mood=fear"
+   ]
+  ],
+  "159": [
+   "RD_ALifeLine_0905665c40373269",
+   "Far off, I think",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0043",
+    "reg=civilian,family,worker,rescue|mood=fear"
+   ]
+  ],
+  "160": [
+   "RD_ALifeLine_2ea4e5b0411065e7",
+   "There's no cars, you're hearing your blood",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0043",
+    "reg=civilian,family,worker,rescue|mood=fear"
+   ]
+  ],
+  "161": [
+   "RD_ALifeLine_4cd03ead3bac4099",
+   "Somebody's whistling",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0044",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "162": [
+   "RD_ALifeLine_66eebef1503d1b5b",
+   "It's the wind in the pipe",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0044",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "163": [
+   "RD_ALifeLine_1621bed0313fd8ea",
+   "It's very tuneful wind",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0044",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "164": [
+   "RD_ALifeLine_0f8bc0a25b8e4a80",
+   "Don't tell me that",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0044",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "165": [
+   "RD_ALifeLine_76d998bf38c56bca",
+   "It's just me, don't shoot",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0045",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "166": [
+   "RD_ALifeLine_6d0915bf12ae339a",
+   "Where the hell did you come from?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0045",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "167": [
+   "RD_ALifeLine_3b409ce768f5c5eb",
+   "I stopped to tie my shoe",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0045",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "168": [
+   "RD_ALifeLine_68a1eb7c2535fd5a",
+   "Say something next time",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0045",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "169": [
+   "RD_ALifeLine_5dc8b93861e0ca67",
+   "Shh, listen",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0046",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "170": [
+   "RD_ALifeLine_54d6b0510a9ac4ea",
+   "That's a dog",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0046",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "171": [
+   "RD_ALifeLine_75567e422c584207",
+   "A dog's a good sign",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0046",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "172": [
+   "RD_ALifeLine_6d9ca17f1673a46c",
+   "I could swear somebody was following us",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0047",
+    "reg=civilian,family,worker,rescue|mood=fear"
+   ]
+  ],
+  "173": [
+   "RD_ALifeLine_3e8451bf53e0ebad",
+   "I don't know, it felt like it",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0047",
+    "reg=civilian,family,worker,rescue|mood=fear"
+   ]
+  ],
+  "174": [
+   "RD_ALifeLine_0246abd84f9b4e6e",
+   "Everything feels like that now",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0047",
+    "reg=civilian,family,worker,rescue|mood=fear"
+   ]
+  ],
+  "175": [
+   "RD_ALifeLine_0712f802473cf865",
+   "That thunder?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0048",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "176": [
+   "RD_ALifeLine_2e80dd5d05bb2e39",
+   "It's a truck, a long way off",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0048",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "177": [
+   "RD_ALifeLine_31ea08e3563ca5d2",
+   "There's no trucks",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0048",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "178": [
+   "RD_ALifeLine_190677bf7b22bc06",
+   "Then it's thunder, and it's a long way off",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0048",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "179": [
+   "RD_ALifeLine_08ea24d7494e1c33",
+   "You're not fine, lean",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0055",
+    "reg=civilian,family,worker,rescue|mood=warm"
+   ]
+  ],
+  "180": [
+   "RD_ALifeLine_1d875dbd5ad3f2d4",
+   "...okay, a little",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0055",
+    "reg=civilian,family,worker,rescue|mood=warm"
+   ]
+  ],
+  "181": [
+   "RD_ALifeLine_6d40f4562c341d42",
+   "That's where I learned to drive",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0056",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "182": [
+   "RD_ALifeLine_1924ef783c2d1df8",
+   "Out here?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0056",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "183": [
+   "RD_ALifeLine_359b31ea5f04fccf",
+   "Wrecked a mailbox, right there, the Hendersons'",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0056",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "184": [
+   "RD_ALifeLine_6f9623604dd43d18",
+   "This used to be a Dairy Queen",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0057",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "185": [
+   "RD_ALifeLine_4ee33c41313eaa2c",
+   "I know, I got a dip cone here every Friday",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0057",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "186": [
+   "RD_ALifeLine_7b815abd1ca530ca",
+   "The sign's still up, look, the letters",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0057",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "187": [
+   "RD_ALifeLine_2644e4fd254c61c1",
+   "I played ball on that field",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0058",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "188": [
+   "RD_ALifeLine_55dad8727590fc47",
+   "Left field, I was bad, I picked dandelions",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0058",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "189": [
+   "RD_ALifeLine_4b9979d8353b6e6b",
+   "I played second, I picked my nose",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0058",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "190": [
+   "RD_ALifeLine_75289d894c246573",
+   "My cousin goes to that church",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0059",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "191": [
+   "RD_ALifeLine_7a76e80d4466c0f9",
+   "The one with the red doors?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0059",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "192": [
+   "RD_ALifeLine_33cc6381329d72c7",
+   "Went, I guess, I don't know what he does now",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0059",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "193": [
+   "RD_ALifeLine_2132382e6f76653f",
+   "That's the elementary school",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0060",
+    "reg=civilian,family,worker,rescue|mood=warm"
+   ]
+  ],
+  "194": [
+   "RD_ALifeLine_00315fec7c4f38c1",
+   "I went there",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0060",
+    "reg=civilian,family,worker,rescue|mood=warm"
+   ]
+  ],
+  "195": [
+   "RD_ALifeLine_5dbc04201cd87b0d",
+   "Mrs. Kessler, third grade, she was a monster",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0060",
+    "reg=civilian,family,worker,rescue|mood=warm"
+   ]
+  ],
+  "196": [
+   "RD_ALifeLine_5247df076ef3e54e",
+   "She was my mother's teacher too",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0060",
+    "reg=civilian,family,worker,rescue|mood=warm"
+   ]
+  ],
+  "197": [
+   "RD_ALifeLine_4b95b5ee341f0556",
+   "I biked this road a hundred times",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0061",
+    "reg=civilian,family,worker,rescue|world=road"
+   ]
+  ],
+  "198": [
+   "RD_ALifeLine_696dc3c93a59e03f",
+   "You and your bike",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0061",
+    "reg=civilian,family,worker,rescue|world=road"
+   ]
+  ],
+  "199": [
+   "RD_ALifeLine_341f3b374bb020a6",
+   "Sixty-two inches of freedom, that was me",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0061",
+    "reg=civilian,family,worker,rescue|world=road"
+   ]
+  ],
+  "200": [
+   "RD_ALifeLine_11e68ef607bbac8f",
+   "My aunt lives just past that hill",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0062",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "201": [
+   "RD_ALifeLine_77f2698f3cec6eb1",
+   "Think she's there?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0062",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "202": [
+   "RD_ALifeLine_5188887634be6621",
+   "I don't know, I haven't had the nerve to think about it",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0062",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "203": [
+   "RD_ALifeLine_06a1c4200de665ac",
+   "They had a farm stand right there, sweet corn",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0063",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "204": [
+   "RD_ALifeLine_77ba2fb33c04b579",
+   "Yeah, a dollar a dozen",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0063",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "205": [
+   "RD_ALifeLine_7e01abc613304fbe",
+   "I bought a dozen and ate them all in the car, no butter",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0063",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "206": [
+   "RD_ALifeLine_47b35b261bd7524d",
+   "Stop, I'm gonna cry",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0063",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "207": [
+   "RD_ALifeLine_4e7791c44056a23f",
+   "This is the long way, right?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0064",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "208": [
+   "RD_ALifeLine_1818bb8067e73553",
+   "It's the way I know",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0064",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "209": [
+   "RD_ALifeLine_6269aabf11550fb0",
+   "It's the long way",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0064",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "210": [
+   "RD_ALifeLine_25533b141f67c74a",
+   "That's the high school",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0065",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "211": [
+   "RD_ALifeLine_17e9391b2bd96604",
+   "Where you got your name carved in the desk",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0065",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "212": [
+   "RD_ALifeLine_1387bdb80d58ed35",
+   "Mr. Collins' desk, third row, still there probably",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0065",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "213": [
+   "RD_ALifeLine_4909ef1f0789809c",
+   "I'd go back and carve it deeper",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0065",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "214": [
+   "RD_ALifeLine_54b00a0220ae2f04",
+   "Single file",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0066",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "215": [
+   "RD_ALifeLine_7c5ba30b2b81f941",
+   "It's a wide path",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0066",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "216": [
+   "RD_ALifeLine_15691c36361bb34b",
+   "Stay on the grass, it's quieter than gravel",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0067",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "217": [
+   "RD_ALifeLine_51e85a5a28468778",
+   "My feet are hurting",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0067",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "218": [
+   "RD_ALifeLine_3200a61400c83f44",
+   "Quieter, not softer",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0067",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "219": [
+   "RD_ALifeLine_3618d6586e224465",
+   "Walk on the edge, the grass is softer",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0067",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "220": [
+   "RD_ALifeLine_5869aaed60f7576f",
+   "Get in the shade",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0068",
+    "reg=civilian,family,worker,rescue|mood=calm"
+   ]
+  ],
+  "221": [
+   "RD_ALifeLine_7c631ad641d6eb26",
+   "You're beet red",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0068",
+    "reg=civilian,family,worker,rescue|mood=calm"
+   ]
+  ],
+  "222": [
+   "RD_ALifeLine_62994ec23b27fcdd",
+   "That's my natural color",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0068",
+    "reg=civilian,family,worker,rescue|mood=calm"
+   ]
+  ],
+  "223": [
+   "RD_ALifeLine_5d55e34e46df28c4",
+   "No talking for a bit, I need to listen",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0069",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "224": [
+   "RD_ALifeLine_464603a662c44031",
+   "Listen for what",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0069",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "225": [
+   "RD_ALifeLine_3d791cfa4db52804",
+   "I'll let you know",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0069",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "226": [
+   "RD_ALifeLine_4c524a51426dcd1f",
+   "Stay behind me",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0070",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "227": [
+   "RD_ALifeLine_575821e94d132ecb",
+   "Because I said, that's reason enough right now",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0070",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "228": [
+   "RD_ALifeLine_6924a55314ccace6",
+   "Don't touch that",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0071",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "229": [
+   "RD_ALifeLine_13789ade15c9ad5d",
+   "It's just a fence",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0071",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "230": [
+   "RD_ALifeLine_2c69d32f39fd69d2",
+   "It's a rusty fence, you'll need a tetanus shot",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0071",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "231": [
+   "RD_ALifeLine_4209bf0c1d30f702",
+   "Where, exactly, am I getting a shot",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0071",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "232": [
+   "RD_ALifeLine_0b883af31730ac32",
+   "Yep",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0072",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "233": [
+   "RD_ALifeLine_6d15540868df8155",
+   "Almost, Dale's tying his shoe",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0072",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "234": [
+   "RD_ALifeLine_7962e06d1b853356",
+   "Then we're not everybody",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0072",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "235": [
+   "RD_ALifeLine_51ee334337d85285",
+   "Your pack's open",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0073",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "236": [
+   "RD_ALifeLine_2aa1924668def0e5",
+   "Something's falling out, a can, no, two cans",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0073",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "237": [
+   "RD_ALifeLine_1aa7ca43164b5d0c",
+   "Pick them up, quick",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0073",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "238": [
+   "RD_ALifeLine_70ece453701a1866",
+   "You dropped something, it's shiny",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0074",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "239": [
+   "RD_ALifeLine_3728e6bf4b1b2275",
+   "My lighter!",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0074",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "240": [
+   "RD_ALifeLine_045b29ec0f0bddc9",
+   "Good eyes",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0074",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "241": [
+   "RD_ALifeLine_0ee7d1a40541aa01",
+   "That's a brown shoe and a black shoe",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0075",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "242": [
+   "RD_ALifeLine_4681838f64239de3",
+   "They're both dark",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0075",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "243": [
+   "RD_ALifeLine_15f72c6a0ad0e0d5",
+   "I wondered when somebody would say",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0075",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "244": [
+   "RD_ALifeLine_0c69a29351d6d360",
+   "Door's open on that house",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0076",
+    "reg=civilian,family,worker,rescue|world=door"
+   ]
+  ],
+  "245": [
+   "RD_ALifeLine_655cca7c3d065407",
+   "It's been open",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0076",
+    "reg=civilian,family,worker,rescue|world=door"
+   ]
+  ],
+  "246": [
+   "RD_ALifeLine_714207f049322eab",
+   "I know, I'm just looking",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0076",
+    "reg=civilian,family,worker,rescue|world=door"
+   ]
+  ],
+  "247": [
+   "RD_ALifeLine_5f41eae23996504e",
+   "Don't look, it's rude",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0076",
+    "reg=civilian,family,worker,rescue|world=door"
+   ]
+  ],
+  "248": [
+   "RD_ALifeLine_6371bd83235c2bc1",
+   "Somebody's been through here",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0077",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "249": [
+   "RD_ALifeLine_0f001a8a7235936e",
+   "The grass is pressed down",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0077",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "250": [
+   "RD_ALifeLine_6672b59300ee66cd",
+   "That could be a deer",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0077",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "251": [
+   "RD_ALifeLine_4d9ee1b456ea1518",
+   "Dog's following us",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0078",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "252": [
+   "RD_ALifeLine_56fdb945666183ba",
+   "Just a dog",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0078",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "253": [
+   "RD_ALifeLine_4bfceb71767270af",
+   "It's been following us for a mile",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0078",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "254": [
+   "RD_ALifeLine_062738c05a959e6f",
+   "Then it's our dog now",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0078",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "255": [
+   "RD_ALifeLine_5fe6b2dc127e9cb3",
+   "There's clothes in the road",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0079",
+    "reg=civilian,family,worker,rescue|world=road"
+   ]
+  ],
+  "256": [
+   "RD_ALifeLine_6f29725435d26f31",
+   "It's a shirt, a plain blue shirt",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0079",
+    "reg=civilian,family,worker,rescue|world=road"
+   ]
+  ],
+  "257": [
+   "RD_ALifeLine_3ca128223ca59861",
+   "Just a shirt, keep walking",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0079",
+    "reg=civilian,family,worker,rescue|world=road"
+   ]
+  ],
+  "258": [
+   "RD_ALifeLine_2cf0b423079bd2cf",
+   "Smoke ahead, over the trees, a thin line",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0080",
+    "reg=civilian,family,worker,rescue|world=trees"
+   ]
+  ],
+  "259": [
+   "RD_ALifeLine_42f51e566c88734f",
+   "Could be somebody cooking",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0080",
+    "reg=civilian,family,worker,rescue|world=trees"
+   ]
+  ],
+  "260": [
+   "RD_ALifeLine_4a6977000c10adf5",
+   "Could be",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0080",
+    "reg=civilian,family,worker,rescue|world=trees"
+   ]
+  ],
+  "261": [
+   "RD_ALifeLine_7602e48727fcbc6e",
+   "Car in the ditch, nobody in it that I can see",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0081",
+    "reg=civilian,family,worker,rescue|world=vehicle"
+   ]
+  ],
+  "262": [
+   "RD_ALifeLine_09a03eb945d991bd",
+   "Check it",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0081",
+    "reg=civilian,family,worker,rescue|world=vehicle"
+   ]
+  ],
+  "263": [
+   "RD_ALifeLine_4061b6f407250fa7",
+   "You check it",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0081",
+    "reg=civilian,family,worker,rescue|world=vehicle"
+   ]
+  ],
+  "264": [
+   "RD_ALifeLine_4dea5fcb160e2e61",
+   "Crows are loud today",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0082",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "265": [
+   "RD_ALifeLine_247204035d5bee7f",
+   "They're always loud",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0082",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "266": [
+   "RD_ALifeLine_509def5d352d5a4d",
+   "It's like they know something",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0082",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "267": [
+   "RD_ALifeLine_6b0c7c5d7146c6a2",
+   "They know there's something to eat",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0082",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "268": [
+   "RD_ALifeLine_643c6b696fb33a5e",
+   "That's a good house, big porch",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0083",
+    "reg=civilian,family,worker,rescue|world=building"
+   ]
+  ],
+  "269": [
+   "RD_ALifeLine_2e1f20a71327e723",
+   "It's a house",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0083",
+    "reg=civilian,family,worker,rescue|world=building"
+   ]
+  ],
+  "270": [
+   "RD_ALifeLine_3b288ff60dfee3db",
+   "I'd live there",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0083",
+    "reg=civilian,family,worker,rescue|world=building"
+   ]
+  ],
+  "271": [
+   "RD_ALifeLine_67e25b8a4daff2df",
+   "You're living in a house with a big porch right now, you're just walking past it",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0083",
+    "reg=civilian,family,worker,rescue|world=building"
+   ]
+  ],
+  "272": [
+   "RD_ALifeLine_685817430fc77f1b",
+   "Honeysuckle",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0084",
+    "reg=civilian,family,worker,rescue|day=6,12|mood=calm"
+   ]
+  ],
+  "273": [
+   "RD_ALifeLine_073e2fd95ee7d601",
+   "It's nice",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0084",
+    "reg=civilian,family,worker,rescue|day=6,12|mood=calm"
+   ]
+  ],
+  "274": [
+   "RD_ALifeLine_0867fcb73dc64c4e",
+   "First nice thing in a week, don't tell anybody",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0084",
+    "reg=civilian,family,worker,rescue|day=6,12|mood=calm"
+   ]
+  ],
+  "275": [
+   "RD_ALifeLine_159ac1607b230f49",
+   "A baby shoe in the road",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0085",
+    "reg=civilian,family,worker,rescue|mood=sad|world=road"
+   ]
+  ],
+  "276": [
+   "RD_ALifeLine_282d34fc0419c2be",
+   "It's so small",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0085",
+    "reg=civilian,family,worker,rescue|mood=sad|world=road"
+   ]
+  ],
+  "277": [
+   "RD_ALifeLine_1ce138a5053454da",
+   "I know, leave it...",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0085",
+    "reg=civilian,family,worker,rescue|mood=sad|world=road"
+   ]
+  ],
+  "278": [
+   "RD_ALifeLine_4c39a33f5e2caae2",
+   "There's a bike by the fence, still got the training wheels",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0086",
+    "reg=civilian,family,worker,rescue|day=1,13|mood=sad|world=fence"
+   ]
+  ],
+  "279": [
+   "RD_ALifeLine_2a0e07b32bb999dd",
+   "I wasn't gonna touch it",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0086",
+    "reg=civilian,family,worker,rescue|day=1,13|mood=sad|world=fence"
+   ]
+  ],
+  "280": [
+   "RD_ALifeLine_450e6164515d9896",
+   "Somebody's kid was riding that Friday",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0086",
+    "reg=civilian,family,worker,rescue|day=1,13|mood=sad|world=fence"
+   ]
+  ],
+  "281": [
+   "RD_ALifeLine_5ae88e0152f28a31",
+   "Somebody's laundry's still on the line",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0087",
+    "reg=civilian,family,worker,rescue|day=6,12|mood=funny"
+   ]
+  ],
+  "282": [
+   "RD_ALifeLine_1f3fc8a13191bbf9",
+   "It's dry",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0087",
+    "reg=civilian,family,worker,rescue|day=6,12|mood=funny"
+   ]
+  ],
+  "283": [
+   "RD_ALifeLine_4699712c2480dcc0",
+   "It's been dry for a week",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0087",
+    "reg=civilian,family,worker,rescue|day=6,12|mood=funny"
+   ]
+  ],
+  "284": [
+   "RD_ALifeLine_346b433306bc64f1",
+   "Leave it, it's not ours",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0087",
+    "reg=civilian,family,worker,rescue|day=6,12|mood=funny"
+   ]
+  ],
+  "285": [
+   "RD_ALifeLine_2824a99b71ab7ca7",
+   "Lemonade stand, look, little hand-painted sign, ten cents",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0088",
+    "reg=civilian,family,worker,rescue|mood=calm"
+   ]
+  ],
+  "286": [
+   "RD_ALifeLine_6ab3461f493cf748",
+   "I know, I just wanted to look at it",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0088",
+    "reg=civilian,family,worker,rescue|mood=calm"
+   ]
+  ],
+  "287": [
+   "RD_ALifeLine_4f9bc00f6d5f2556",
+   "How much water left?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0089",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "288": [
+   "RD_ALifeLine_474258976ca3bfa0",
+   "Half a canteen, split every which way",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0089",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "289": [
+   "RD_ALifeLine_06db7618185d0683",
+   "Then make it last",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0089",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "290": [
+   "RD_ALifeLine_0f7977d041ece0b3",
+   "Ever find an old granola bar in a jacket?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0090",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "291": [
+   "RD_ALifeLine_6008a21f55596162",
+   "Last winter old",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0090",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "292": [
+   "RD_ALifeLine_132482901a420f8b",
+   "I used to eat those without looking, I'd be more careful now",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0090",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "293": [
+   "RD_ALifeLine_243d33db7da53a98",
+   "I'm-- I'm so tired I could lie down right here",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0091",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "294": [
+   "RD_ALifeLine_7fedf7be1ebfc3ad",
+   "Don't, you'll never get up...",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0091",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "295": [
+   "RD_ALifeLine_108028120aa6403d",
+   "Do you ever think about stopping?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0092",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "296": [
+   "RD_ALifeLine_08f18f8a40af8d13",
+   "Stopping what",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0092",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "297": [
+   "RD_ALifeLine_35fb3c7d5350d27b",
+   "All of it, just sitting down in the road",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0092",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "298": [
+   "RD_ALifeLine_5611c34c793c8147",
+   "Every five minutes, but I keep going",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0092",
+    "reg=civilian,family,worker,rescue|mood=sad"
+   ]
+  ],
+  "299": [
+   "RD_ALifeLine_54e6c5c150d9b062",
+   "I'm scared, you can tell, can't you?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0093",
+    "reg=civilian,family,worker,rescue|mood=fear"
+   ]
+  ],
+  "300": [
+   "RD_ALifeLine_1a1b9bd01d303391",
+   "I know you are",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0093",
+    "reg=civilian,family,worker,rescue|mood=fear"
+   ]
+  ],
+  "301": [
+   "RD_ALifeLine_089114a77d2da935",
+   "Does it ever go away?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0093",
+    "reg=civilian,family,worker,rescue|mood=fear"
+   ]
+  ],
+  "302": [
+   "RD_ALifeLine_0030d28d6349480e",
+   "Not gone, some of the time you don't notice it so much",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0093",
+    "reg=civilian,family,worker,rescue|mood=fear"
+   ]
+  ],
+  "303": [
+   "RD_ALifeLine_1e09fc797922ede1",
+   "I know it a little bit",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0094",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "304": [
+   "RD_ALifeLine_1c6e616339696085",
+   "A little bit's something",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0094",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "305": [
+   "RD_ALifeLine_50c5d52a7fd8442c",
+   "Don't think about it",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0095",
+    "reg=civilian,family,worker,rescue|mood=calm"
+   ]
+  ],
+  "306": [
+   "RD_ALifeLine_037e12781d00c233",
+   "That, whatever that is, you're thinking about it",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0095",
+    "reg=civilian,family,worker,rescue|mood=calm"
+   ]
+  ],
+  "307": [
+   "RD_ALifeLine_34dc4cc6624ae7d4",
+   "How do you know",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0095",
+    "reg=civilian,family,worker,rescue|mood=calm"
+   ]
+  ],
+  "308": [
+   "RD_ALifeLine_4efd501b155d4cd5",
+   "Who's up front?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0096",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "309": [
+   "RD_ALifeLine_0d3b909b6bafc1c6",
+   "I was",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0096",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "310": [
+   "RD_ALifeLine_3dd1b92129f751bb",
+   "You said you'd lead for a while, it's been three hours",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0096",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "311": [
+   "RD_ALifeLine_11c2fdbb78a212c7",
+   "That one's very comfortable in front",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0096",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "312": [
+   "RD_ALifeLine_098c21891f2cf543",
+   "I'll take point",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0097",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "313": [
+   "RD_ALifeLine_6af813956a8dbc13",
+   "No, but someone has to, and it's me",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0097",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "314": [
+   "RD_ALifeLine_51ee24e519dfb662",
+   "Don't go too far ahead",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0097",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "315": [
+   "RD_ALifeLine_330bf0f135021289",
+   "I'm not leading, I get us lost",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0098",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "316": [
+   "RD_ALifeLine_7a47b7a50a33c48e",
+   "You lead us fine",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0098",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "317": [
+   "RD_ALifeLine_0a60a51b4df76016",
+   "I lead us in circles",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0098",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "318": [
+   "RD_ALifeLine_55c74f313b13ffab",
+   "Circles are fine, they're round",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0098",
+    "reg=civilian,family,worker,rescue|mood=funny"
+   ]
+  ],
+  "319": [
+   "RD_ALifeLine_52202ffc6368da17",
+   "Switch",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0099",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "320": [
+   "RD_ALifeLine_4a0ac22f63012617",
+   "My turn in front, you've got the easy part",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0099",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "321": [
+   "RD_ALifeLine_76efac3b7194f78f",
+   "There's no easy part",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0099",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "322": [
+   "RD_ALifeLine_51ec55fc3114965e",
+   "It's almost noon",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0100",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "323": [
+   "RD_ALifeLine_13d6c6cb33d5c52a",
+   "My stomach",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0100",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "324": [
+   "RD_ALifeLine_0b494f86749d4930",
+   "Reliable",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0100",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "325": [
+   "RD_ALifeLine_15e1b88460bfbd11",
+   "How long till dark?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0101",
+    "reg=civilian,family,worker,rescue|hour=16,22"
+   ]
+  ],
+  "326": [
+   "RD_ALifeLine_40b403e27541baa4",
+   "Two hours, maybe less",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0101",
+    "reg=civilian,family,worker,rescue|hour=16,22"
+   ]
+  ],
+  "327": [
+   "RD_ALifeLine_5f746a1a2cb42a7e",
+   "Where are we sleeping?",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0101",
+    "reg=civilian,family,worker,rescue|hour=16,22"
+   ]
+  ],
+  "328": [
+   "RD_ALifeLine_54df391678fb5ca3",
+   "Wherever we are in two hours",
+   [
+    "ALifeDialogue_scenes_walk_1.lua",
+    "fw_ld6_walk_civ_1_0101",
+    "reg=civilian,family,worker,rescue|hour=16,22"
+   ]
+  ]
+ }
+}

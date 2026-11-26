@@ -1,0 +1,2992 @@
+{
+ "_paket": "SNE6Y",
+ "_grup": "sahne",
+ "_dosya": "RadioData_lua",
+ "_baslik": "SNE_6 NPC sahneleri yeniden çeviri",
+ "_parcalar": [
+  [
+   1,
+   115
+  ],
+  [
+   116,
+   230
+  ],
+  [
+   231,
+   330
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "RD_ALifeLine_51bba2373b79a359",
+   "Where are your men bunking?",
+   [
+    "ALifeDialogue_scenes_meet_2.lua",
+    "fw_l23_lm_where_do_you_sleep",
+    "r1=law,swat|r2=military,elite|day=0,14|mood=calm|world=stairs,building|out=part"
+   ]
+  ],
+  "2": [
+   "RD_ALifeLine_17780d4f2b41fb75",
+   "School gym, it's got two exits and walls",
+   [
+    "ALifeDialogue_scenes_meet_2.lua",
+    "fw_l23_lm_where_do_you_sleep",
+    "r1=law,swat|r2=military,elite|day=0,14|mood=calm|world=stairs,building|out=part"
+   ]
+  ],
+  "3": [
+   "RD_ALifeLine_270555e1595baeb1",
+   "We've got the courthouse, stone basement, one stairwell",
+   [
+    "ALifeDialogue_scenes_meet_2.lua",
+    "fw_l23_lm_where_do_you_sleep",
+    "r1=law,swat|r2=military,elite|day=0,14|mood=calm|world=stairs,building|out=part"
+   ]
+  ],
+  "4": [
+   "RD_ALifeLine_0d0bb54d5c3fb4ac",
+   "Sounds defensible, keep it that way",
+   [
+    "ALifeDialogue_scenes_meet_2.lua",
+    "fw_l23_lm_where_do_you_sleep",
+    "r1=law,swat|r2=military,elite|day=0,14|mood=calm|world=stairs,building|out=part"
+   ]
+  ],
+  "5": [
+   "RD_ALifeLine_5be3d4884025d901",
+   "One of your privates offered one of my deputies a bottle of Jim Beam",
+   [
+    "ALifeDialogue_scenes_meet_2.lua",
+    "fw_l23_lm_whiskey",
+    "r1=law,swat|r2=military,elite|day=0,14|mood=funny|out=part"
+   ]
+  ],
+  "6": [
+   "RD_ALifeLine_142198a63615f637",
+   "Which private?",
+   [
+    "ALifeDialogue_scenes_meet_2.lua",
+    "fw_l23_lm_whiskey",
+    "r1=law,swat|r2=military,elite|day=0,14|mood=funny|out=part"
+   ]
+  ],
+  "7": [
+   "RD_ALifeLine_64b6d98903f6a8a8",
+   "Kid with the red hair",
+   [
+    "ALifeDialogue_scenes_meet_2.lua",
+    "fw_l23_lm_whiskey",
+    "r1=law,swat|r2=military,elite|day=0,14|mood=funny|out=part"
+   ]
+  ],
+  "8": [
+   "RD_ALifeLine_4b2685ca64d52458",
+   "I'll speak to him, thank you for the report",
+   [
+    "ALifeDialogue_scenes_meet_2.lua",
+    "fw_l23_lm_whiskey",
+    "r1=law,swat|r2=military,elite|day=0,14|mood=funny|out=part"
+   ]
+  ],
+  "9": [
+   "RD_ALifeLine_6ca810d2115a8ffb",
+   "Who's holding the bridge on 31W? I've got civilians asking",
+   [
+    "ALifeDialogue_scenes_meet_2.lua",
+    "fw_l23_lm_who_has_the_bridge",
+    "r1=law,swat|r2=military,elite|day=0,10|mood=calm|out=stay2"
+   ]
+  ],
+  "10": [
+   "RD_ALifeLine_618bdef20fef3a9e",
+   "Second platoon, nothing crosses without a pass from the lieutenant",
+   [
+    "ALifeDialogue_scenes_meet_2.lua",
+    "fw_l23_lm_who_has_the_bridge",
+    "r1=law,swat|r2=military,elite|day=0,10|mood=calm|out=stay2"
+   ]
+  ],
+  "11": [
+   "RD_ALifeLine_41f901664c5dc6bd",
+   "Do they know that?",
+   [
+    "ALifeDialogue_scenes_meet_2.lua",
+    "fw_l23_lm_who_has_the_bridge",
+    "r1=law,swat|r2=military,elite|day=0,10|mood=calm|out=stay2"
+   ]
+  ],
+  "12": [
+   "RD_ALifeLine_280b91993fd1ca71",
+   "They will, tell them not to try it at night",
+   [
+    "ALifeDialogue_scenes_meet_2.lua",
+    "fw_l23_lm_who_has_the_bridge",
+    "r1=law,swat|r2=military,elite|day=0,10|mood=calm|out=stay2"
+   ]
+  ],
+  "13": [
+   "RD_ALifeLine_49764111098dec62",
+   "We need an understanding about warnings before somebody gets shot",
+   [
+    "ALifeDialogue_scenes_meet_2.lua",
+    "fw_l23_lm_who_shoots_first",
+    "r1=law,swat|r2=military,elite|day=0,8|mood=angry|out=part"
+   ]
+  ],
+  "14": [
+   "RD_ALifeLine_4a14e4de6ada874e",
+   "We shout, we fire one over their heads, then we shoot",
+   [
+    "ALifeDialogue_scenes_meet_2.lua",
+    "fw_l23_lm_who_shoots_first",
+    "r1=law,swat|r2=military,elite|day=0,8|mood=angry|out=part"
+   ]
+  ],
+  "15": [
+   "RD_ALifeLine_7c1aef6d2476f9c9",
+   "My men have been told to shout, nothing else",
+   [
+    "ALifeDialogue_scenes_meet_2.lua",
+    "fw_l23_lm_who_shoots_first",
+    "r1=law,swat|r2=military,elite|day=0,8|mood=angry|out=part"
+   ]
+  ],
+  "16": [
+   "RD_ALifeLine_5336538c241c07d6",
+   "Then we tell our people about each other, before a patrol crosses wrong",
+   [
+    "ALifeDialogue_scenes_meet_2.lua",
+    "fw_l23_lm_who_shoots_first",
+    "r1=law,swat|r2=military,elite|day=0,8|mood=angry|out=part"
+   ]
+  ],
+  "17": [
+   "RD_ALifeLine_45548e243335ac5b",
+   "July was a beach, on my kitchen calendar, I mean",
+   [
+    "ALifeDialogue_scenes_misc_4.lua",
+    "exp_civ_calendar",
+    "reg=civilian|st=friendly,neutral,careful"
+   ]
+  ],
+  "18": [
+   "RD_ALifeLine_166ebb1a306b97d6",
+   "You were gonna go somewhere?",
+   [
+    "ALifeDialogue_scenes_misc_4.lua",
+    "exp_civ_calendar",
+    "reg=civilian|st=friendly,neutral,careful"
+   ]
+  ],
+  "19": [
+   "RD_ALifeLine_345e04825f9cc359",
+   "Nah, bank gave me the calendar, I wasn't going anywhere",
+   [
+    "ALifeDialogue_scenes_misc_4.lua",
+    "exp_civ_calendar",
+    "reg=civilian|st=friendly,neutral,careful"
+   ]
+  ],
+  "20": [
+   "RD_ALifeLine_1bb84ebd2eca8d0f",
+   "We had the puppies one, never changed it after March",
+   [
+    "ALifeDialogue_scenes_misc_4.lua",
+    "exp_civ_calendar",
+    "reg=civilian|st=friendly,neutral,careful"
+   ]
+  ],
+  "21": [
+   "RD_ALifeLine_2cbbe1ef4556a8a8",
+   "Uhhh--... So? Where was I?",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "exp_civ_lost_subject",
+    "reg=civilian|st=friendly,neutral,careful"
+   ]
+  ],
+  "22": [
+   "RD_ALifeLine_01e687505354d99f",
+   "Your neighbor, the mower thing",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "exp_civ_lost_subject",
+    "reg=civilian|st=friendly,neutral,careful"
+   ]
+  ],
+  "23": [
+   "RD_ALifeLine_1ec714cc4e6ebf7f",
+   "OHHH, YEAH",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "exp_civ_lost_subject",
+    "reg=civilian|st=friendly,neutral,careful"
+   ]
+  ],
+  "24": [
+   "RD_ALifeLine_2b0dd46640a80542",
+   "Six in the goddamn morning, every Saturday",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "exp_civ_lost_subject",
+    "reg=civilian|st=friendly,neutral,careful"
+   ]
+  ],
+  "25": [
+   "RD_ALifeLine_2f30f7a8442ba62e",
+   "I'd take that noise back",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "exp_civ_lost_subject",
+    "reg=civilian|st=friendly,neutral,careful"
+   ]
+  ],
+  "26": [
+   "RD_ALifeLine_5dbd518d34f7b781",
+   "Yeah, yeah, so would I",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "exp_civ_lost_subject",
+    "reg=civilian|st=friendly,neutral,careful"
+   ]
+  ],
+  "27": [
+   "RD_ALifeLine_350414041df0fa69",
+   "Whole damn weekend scraping wallpaper, those little yellow flowers, remember those?",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "exp_civ_wallpaper",
+    "reg=civilian|st=friendly,neutral,careful|world=building"
+   ]
+  ],
+  "28": [
+   "RD_ALifeLine_2e2d9cf25df65172",
+   "At your old place? Yeah",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "exp_civ_wallpaper",
+    "reg=civilian|st=friendly,neutral,careful|world=building"
+   ]
+  ],
+  "29": [
+   "RD_ALifeLine_3c602b5242ad78b6",
+   "Same stuff underneath, I mean EXACTLY the same fucking paper",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "exp_civ_wallpaper",
+    "reg=civilian|st=friendly,neutral,careful|world=building"
+   ]
+  ],
+  "30": [
+   "RD_ALifeLine_2b2f04b64dd0374e",
+   "Oh, I'd have left it, put a couch in front of it",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "exp_civ_wallpaper",
+    "reg=civilian|st=friendly,neutral,careful|world=building"
+   ]
+  ],
+  "31": [
+   "RD_ALifeLine_50d64883499959d1",
+   "Do you ever stop jumping at things?",
+   [
+    "ALifeDialogue_scenes_misc_3.lua",
+    "ordinary_first_watch",
+    "reg=civilian,family|tmp=fresh|st=neutral,friendly"
+   ]
+  ],
+  "32": [
+   "RD_ALifeLine_4bde6c3e3f77fcdd",
+   "I stopped apologizing for it",
+   [
+    "ALifeDialogue_scenes_misc_3.lua",
+    "ordinary_first_watch",
+    "reg=civilian,family|tmp=fresh|st=neutral,friendly"
+   ]
+  ],
+  "33": [
+   "RD_ALifeLine_74b5177f13cfd103",
+   "That's not what I asked",
+   [
+    "ALifeDialogue_scenes_misc_3.lua",
+    "ordinary_first_watch",
+    "reg=civilian,family|tmp=fresh|st=neutral,friendly"
+   ]
+  ],
+  "34": [
+   "RD_ALifeLine_73374da275290c6e",
+   "It's the best answer I've got",
+   [
+    "ALifeDialogue_scenes_misc_3.lua",
+    "ordinary_first_watch",
+    "reg=civilian,family|tmp=fresh|st=neutral,friendly"
+   ]
+  ],
+  "35": [
+   "RD_ALifeLine_742d62c2114c3675",
+   "You look like you're handling this better",
+   [
+    "ALifeDialogue_scenes_misc_3.lua",
+    "ordinary_not_brave",
+    "reg=civilian,family|tmp=fresh|st=neutral,friendly"
+   ]
+  ],
+  "36": [
+   "RD_ALifeLine_77379aea5f069eb4",
+   "I'm just quiet when I'm frightened",
+   [
+    "ALifeDialogue_scenes_misc_3.lua",
+    "ordinary_not_brave",
+    "reg=civilian,family|tmp=fresh|st=neutral,friendly"
+   ]
+  ],
+  "37": [
+   "RD_ALifeLine_784920957c3b0879",
+   "Wish I was",
+   [
+    "ALifeDialogue_scenes_misc_3.lua",
+    "ordinary_not_brave",
+    "reg=civilian,family|tmp=fresh|st=neutral,friendly"
+   ]
+  ],
+  "38": [
+   "RD_ALifeLine_2041fb4346443491",
+   "Don't, sometimes I need to hear somebody else say it",
+   [
+    "ALifeDialogue_scenes_misc_3.lua",
+    "ordinary_not_brave",
+    "reg=civilian,family|tmp=fresh|st=neutral,friendly"
+   ]
+  ],
+  "39": [
+   "RD_ALifeLine_208ed12562bb1827",
+   "My hands won't quit shaking",
+   [
+    "ALifeDialogue_scenes_misc_1.lua",
+    "s10_after_driving_teacher_001",
+    "reg=civilian,family|tmp=fresh|day=1,60|mood=sad"
+   ]
+  ],
+  "40": [
+   "RD_ALifeLine_29e7d06450225595",
+   "Sit on 'em a minute",
+   [
+    "ALifeDialogue_scenes_misc_1.lua",
+    "s10_after_driving_teacher_001",
+    "reg=civilian,family|tmp=fresh|day=1,60|mood=sad"
+   ]
+  ],
+  "41": [
+   "RD_ALifeLine_29ea2b3f7f50cf6b",
+   "That was Mr. Ogden, he taught me driver's ed, made me parallel park nine times",
+   [
+    "ALifeDialogue_scenes_misc_1.lua",
+    "s10_after_driving_teacher_001",
+    "reg=civilian,family|tmp=fresh|day=1,60|mood=sad"
+   ]
+  ],
+  "42": [
+   "RD_ALifeLine_407c103c4d7e2b6b",
+   "He was gone before you ever swung, sit on your hands",
+   [
+    "ALifeDialogue_scenes_misc_1.lua",
+    "s10_after_driving_teacher_001",
+    "reg=civilian,family|tmp=fresh|day=1,60|mood=sad"
+   ]
+  ],
+  "43": [
+   "RD_ALifeLine_5205aca0061ff993",
+   "You ran",
+   [
+    "ALifeDialogue_scenes_misc_1.lua",
+    "s10_after_me_and_bobby_021",
+    "reg=civilian,family|tmp=fresh|mood=angry|world=door"
+   ]
+  ],
+  "44": [
+   "RD_ALifeLine_5af304882f6ca953",
+   "I went for help",
+   [
+    "ALifeDialogue_scenes_misc_1.lua",
+    "s10_after_me_and_bobby_021",
+    "reg=civilian,family|tmp=fresh|mood=angry|world=door"
+   ]
+  ],
+  "45": [
+   "RD_ALifeLine_73c7f2027856968a",
+   "There's no help! There was me and Bobby and a screen door!",
+   [
+    "ALifeDialogue_scenes_misc_1.lua",
+    "s10_after_me_and_bobby_021",
+    "reg=civilian,family|tmp=fresh|mood=angry|world=door"
+   ]
+  ],
+  "46": [
+   "RD_ALifeLine_09a500b339f2cbf2",
+   "Stop, both of you stop, Bobby's fine, everybody's still here",
+   [
+    "ALifeDialogue_scenes_misc_1.lua",
+    "s10_after_me_and_bobby_021",
+    "reg=civilian,family|tmp=fresh|mood=angry|world=door"
+   ]
+  ],
+  "47": [
+   "RD_ALifeLine_602c34207332f8c7",
+   "Sign said six miles, that was a while back",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_break_five_miles_walking_041",
+    "reg=civilian,family|tmp=fresh|hour=15,20|mood=fear"
+   ]
+  ],
+  "48": [
+   "RD_ALifeLine_7e4c5c2a7f3d9870",
+   "So five",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_break_five_miles_walking_041",
+    "reg=civilian,family|tmp=fresh|hour=15,20|mood=fear"
+   ]
+  ],
+  "49": [
+   "RD_ALifeLine_2ae4978b58c2da96",
+   "Five miles, carrying the water, with the sun going down behind us",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_break_five_miles_walking_041",
+    "reg=civilian,family|tmp=fresh|hour=15,20|mood=fear"
+   ]
+  ],
+  "50": [
+   "RD_ALifeLine_1217e45666008936",
+   "Then we start now, and we talk while we walk, about anything but that",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_break_five_miles_walking_041",
+    "reg=civilian,family|tmp=fresh|hour=15,20|mood=fear"
+   ]
+  ],
+  "51": [
+   "RD_ALifeLine_6fc63d4919ac29a4",
+   "It's making the noise",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_break_june_noise_023",
+    "reg=civilian,family|mood=funny"
+   ]
+  ],
+  "52": [
+   "RD_ALifeLine_0ea70483013ae25b",
+   "Which noise?",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_break_june_noise_023",
+    "reg=civilian,family|mood=funny"
+   ]
+  ],
+  "53": [
+   "RD_ALifeLine_512e8b7b5f047a38",
+   "The one I told you about in June, the one you said was nothing",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_break_june_noise_023",
+    "reg=civilian,family|mood=funny"
+   ]
+  ],
+  "54": [
+   "RD_ALifeLine_3f1f0bf726c165b5",
+   "Well, now it's something",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_break_june_noise_023",
+    "reg=civilian,family|mood=funny"
+   ]
+  ],
+  "55": [
+   "RD_ALifeLine_29846e2602099e08",
+   "You were looking at the map!",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_crash_instead_of_driving_012",
+    "reg=civilian,family|tmp=fresh|mood=angry"
+   ]
+  ],
+  "56": [
+   "RD_ALifeLine_51d829323057df11",
+   "You told me to look at the map!",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_crash_instead_of_driving_012",
+    "reg=civilian,family|tmp=fresh|mood=angry"
+   ]
+  ],
+  "57": [
+   "RD_ALifeLine_558467472026dda8",
+   "While I drove! Not instead of me driving!",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_crash_instead_of_driving_012",
+    "reg=civilian,family|tmp=fresh|mood=angry"
+   ]
+  ],
+  "58": [
+   "RD_ALifeLine_56bb6f0768e64970",
+   "Both of you hush, there's blood on the seat, whose is it?",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_crash_instead_of_driving_012",
+    "reg=civilian,family|tmp=fresh|mood=angry"
+   ]
+  ],
+  "59": [
+   "RD_ALifeLine_6356021128b1dd9d",
+   "Mine, I think it's mine",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_crash_instead_of_driving_012",
+    "reg=civilian,family|tmp=fresh|mood=angry"
+   ]
+  ],
+  "60": [
+   "RD_ALifeLine_46c10ee525bd4d12",
+   "Is everybody okay? Somebody say something",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_crash_walts_glasses_001",
+    "reg=civilian,family|tmp=fresh,seasoned|mood=fear"
+   ]
+  ],
+  "61": [
+   "RD_ALifeLine_6733fc88278cc68c",
+   "My glasses, where'd my glasses go?",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_crash_walts_glasses_001",
+    "reg=civilian,family|tmp=fresh,seasoned|mood=fear"
+   ]
+  ],
+  "62": [
+   "RD_ALifeLine_3d82b9e812513307",
+   "They're on your face, Walt",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_crash_walts_glasses_001",
+    "reg=civilian,family|tmp=fresh,seasoned|mood=fear"
+   ]
+  ],
+  "63": [
+   "RD_ALifeLine_6b378cad44acecd3",
+   "Well, then they're cracked",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_crash_walts_glasses_001",
+    "reg=civilian,family|tmp=fresh,seasoned|mood=fear"
+   ]
+  ],
+  "64": [
+   "RD_ALifeLine_0ffb195b182c96d8",
+   "We hit a deer, that was a deer, right?",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_crash_walts_glasses_001",
+    "reg=civilian,family|tmp=fresh,seasoned|mood=fear"
+   ]
+  ],
+  "65": [
+   "RD_ALifeLine_5167d91207cb5dda",
+   "Deer don't wear sneakers",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_crash_walts_glasses_001",
+    "reg=civilian,family|tmp=fresh,seasoned|mood=fear"
+   ]
+  ],
+  "66": [
+   "RD_ALifeLine_1ded7f283a57f74a",
+   "Blight on the tomatoes, black spots all up the bottom leaves",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_blight_humming_007",
+    "reg=civilian,family|tmp=seasoned|day=30,150|mood=sad"
+   ]
+  ],
+  "67": [
+   "RD_ALifeLine_366c40742e850dda",
+   "Pull the bad leaves and burn 'em, don't put 'em on the compost",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_blight_humming_007",
+    "reg=civilian,family|tmp=seasoned|day=30,150|mood=sad"
+   ]
+  ],
+  "68": [
+   "RD_ALifeLine_60680c337b41f215",
+   "That's what Ellen always did, pulled the leaves and hummed the whole time",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_blight_humming_007",
+    "reg=civilian,family|tmp=seasoned|day=30,150|mood=sad"
+   ]
+  ],
+  "69": [
+   "RD_ALifeLine_3a9e83e870a7c44a",
+   "Then hum",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_blight_humming_007",
+    "reg=civilian,family|tmp=seasoned|day=30,150|mood=sad"
+   ]
+  ],
+  "70": [
+   "RD_ALifeLine_78acae7b056797b9",
+   "Deacon Hardy would've had a stroke, seeing corn on the church lawn",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_church_lawn_corn_015",
+    "reg=civilian,family|day=25,150|mood=funny"
+   ]
+  ],
+  "71": [
+   "RD_ALifeLine_12e0590c3b5553e5",
+   "Deacon Hardy had a stroke over a basketball hoop in the parking lot",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_church_lawn_corn_015",
+    "reg=civilian,family|day=25,150|mood=funny"
+   ]
+  ],
+  "72": [
+   "RD_ALifeLine_21fe88f80afc417d",
+   "Well, the Lord hasn't said a word against it, corn's knee-high",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_church_lawn_corn_015",
+    "reg=civilian,family|day=25,150|mood=funny"
+   ]
+  ],
+  "73": [
+   "RD_ALifeLine_7e32a86e4deeed76",
+   "The Lord never had to mow that lawn",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_church_lawn_corn_015",
+    "reg=civilian,family|day=25,150|mood=funny"
+   ]
+  ],
+  "74": [
+   "RD_ALifeLine_48d2bbac6241d38a",
+   "It's August, is it too late for beans?",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_fifty_days_011",
+    "reg=civilian,family|tmp=fresh,seasoned|day=25,60|mood=calm|world=snow"
+   ]
+  ],
+  "75": [
+   "RD_ALifeLine_0c49dd2538279ea0",
+   "Bush beans take fifty days, we'll squeak in before frost",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_fifty_days_011",
+    "reg=civilian,family|tmp=fresh,seasoned|day=25,60|mood=calm|world=snow"
+   ]
+  ],
+  "76": [
+   "RD_ALifeLine_328f34e070846c1c",
+   "And if we don't?",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_fifty_days_011",
+    "reg=civilian,family|tmp=fresh,seasoned|day=25,60|mood=calm|world=snow"
+   ]
+  ],
+  "77": [
+   "RD_ALifeLine_3c8cb0477ebcc7e7",
+   "Then we'll have a real nice-looking row of plants to look at in October",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_fifty_days_011",
+    "reg=civilian,family|tmp=fresh,seasoned|day=25,60|mood=calm|world=snow"
+   ]
+  ],
+  "78": [
+   "RD_ALifeLine_44410b7a4a594c9a",
+   "Whose string line is this, running out past the corn?",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_leons_string_line_005",
+    "reg=civilian,family|tmp=seasoned|day=20,300|mood=sad"
+   ]
+  ],
+  "79": [
+   "RD_ALifeLine_7dc4dbf75241651e",
+   "Leon's, he was laying out a new fence row",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_leons_string_line_005",
+    "reg=civilian,family|tmp=seasoned|day=20,300|mood=sad"
+   ]
+  ],
+  "80": [
+   "RD_ALifeLine_1c1cc4d07fc6dc6a",
+   "He's got a stake in every eight feet",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_leons_string_line_005",
+    "reg=civilian,family|tmp=seasoned|day=20,300|mood=sad"
+   ]
+  ],
+  "81": [
+   "RD_ALifeLine_614f8969240d984a",
+   "Then that's where the posts go, every eight feet, the way he had it",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_leons_string_line_005",
+    "reg=civilian,family|tmp=seasoned|day=20,300|mood=sad"
+   ]
+  ],
+  "82": [
+   "RD_ALifeLine_53439dc060f5f848",
+   "Last bonfire I sat at was homecoming, Tyler Mason tried to kiss me behind the bleachers",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_fire_homecoming_bonfire_010",
+    "reg=civilian,family|role=family_youth,civilian_woman,civilian_man|tmp=fresh|hour=19,1|mood=sad"
+   ]
+  ],
+  "83": [
+   "RD_ALifeLine_1ce66f176f61f920",
+   "Did he get to?",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_fire_homecoming_bonfire_010",
+    "reg=civilian,family|role=family_youth,civilian_woman,civilian_man|tmp=fresh|hour=19,1|mood=sad"
+   ]
+  ],
+  "84": [
+   "RD_ALifeLine_4aa955e04cbb7373",
+   "He tried, I let him try, heh, he was so bad at it, he kept, he",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_fire_homecoming_bonfire_010",
+    "reg=civilian,family|role=family_youth,civilian_woman,civilian_man|tmp=fresh|hour=19,1|mood=sad"
+   ]
+  ],
+  "85": [
+   "RD_ALifeLine_5b9ce84358478c0f",
+   "Anyway, pass me that stick",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_fire_homecoming_bonfire_010",
+    "reg=civilian,family|role=family_youth,civilian_woman,civilian_man|tmp=fresh|hour=19,1|mood=sad"
+   ]
+  ],
+  "86": [
+   "RD_ALifeLine_5228caa34ec39571",
+   "Red rag on the wall means come in, white rag means all clear in the field",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_guard_blue_rag_039",
+    "reg=civilian,family|day=15,300|mood=funny"
+   ]
+  ],
+  "87": [
+   "RD_ALifeLine_63bed6900565021c",
+   "What's the blue rag mean?",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_guard_blue_rag_039",
+    "reg=civilian,family|day=15,300|mood=funny"
+   ]
+  ],
+  "88": [
+   "RD_ALifeLine_3142edfa26af8e65",
+   "Blue rag is Martha's good dish towel, and she wants it back by supper",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_guard_blue_rag_039",
+    "reg=civilian,family|day=15,300|mood=funny"
+   ]
+  ],
+  "89": [
+   "RD_ALifeLine_58cde67324da6bff",
+   "Swap me out, I can't see straight, it's so hot",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_guard_deer_stand_sentence_031",
+    "reg=civilian,family|tmp=fresh,seasoned|hour=11,17|mood=funny|world=rain,hot"
+   ]
+  ],
+  "90": [
+   "RD_ALifeLine_349c51781dc9ea91",
+   "You've been up there forty minutes",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_guard_deer_stand_sentence_031",
+    "reg=civilian,family|tmp=fresh,seasoned|hour=11,17|mood=funny|world=rain,hot"
+   ]
+  ],
+  "91": [
+   "RD_ALifeLine_1e52b15a26edd9c5",
+   "Forty minutes in a tin deer stand in this heat, that's time served right there",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_guard_deer_stand_sentence_031",
+    "reg=civilian,family|tmp=fresh,seasoned|hour=11,17|mood=funny|world=rain,hot"
+   ]
+  ],
+  "92": [
+   "RD_ALifeLine_455a574b662aae31",
+   "Come down and dunk your head in the rain barrel, the green one, not the drinking one",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_guard_deer_stand_sentence_031",
+    "reg=civilian,family|tmp=fresh,seasoned|hour=11,17|mood=funny|world=rain,hot"
+   ]
+  ],
+  "93": [
+   "RD_ALifeLine_56759a7b5229629e",
+   "Manual says remove the air cleaner assembly, what's an air cleaner assembly?",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_mech_air_cleaner_026",
+    "reg=civilian,family|tmp=fresh|day=5,120|mood=funny"
+   ]
+  ],
+  "94": [
+   "RD_ALifeLine_7532280e1ebcce21",
+   "The big round lid",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_mech_air_cleaner_026",
+    "reg=civilian,family|tmp=fresh|day=5,120|mood=funny"
+   ]
+  ],
+  "95": [
+   "RD_ALifeLine_4816066b32cdef1c",
+   "On top?",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_mech_air_cleaner_026",
+    "reg=civilian,family|tmp=fresh|day=5,120|mood=funny"
+   ]
+  ],
+  "96": [
+   "RD_ALifeLine_4ef9059d598cdc22",
+   "Honey, it's the only thing on top",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_mech_air_cleaner_026",
+    "reg=civilian,family|tmp=fresh|day=5,120|mood=funny"
+   ]
+  ],
+  "97": [
+   "RD_ALifeLine_66a23b8c404e85d9",
+   "Book says elevate the limb above the heart",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_medic_pickle_bucket_024",
+    "reg=civilian,family|tmp=fresh|day=3,120|mood=funny"
+   ]
+  ],
+  "98": [
+   "RD_ALifeLine_596fb176401fd724",
+   "His whole leg?",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_medic_pickle_bucket_024",
+    "reg=civilian,family|tmp=fresh|day=3,120|mood=funny"
+   ]
+  ],
+  "99": [
+   "RD_ALifeLine_6257b323035aabb0",
+   "Prop it on the pickle bucket",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_medic_pickle_bucket_024",
+    "reg=civilian,family|tmp=fresh|day=3,120|mood=funny"
+   ]
+  ],
+  "100": [
+   "RD_ALifeLine_5fad795e77ff5eb5",
+   "It says heart, it doesn't say pickle bucket",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_medic_pickle_bucket_024",
+    "reg=civilian,family|tmp=fresh|day=3,120|mood=funny"
+   ]
+  ],
+  "101": [
+   "RD_ALifeLine_1f48f64f1b307bad",
+   "The bucket's higher than his heart, I measured with a spoon",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_medic_pickle_bucket_024",
+    "reg=civilian,family|tmp=fresh|day=3,120|mood=funny"
+   ]
+  ],
+  "102": [
+   "RD_ALifeLine_2a517079635027ab",
+   "Before we go, heads down, this'll be quick",
+   [
+    "ALifeDialogue_scenes_misc_7.lua",
+    "s10_patrol_short_prayer_015",
+    "reg=civilian,family|day=5,300|mood=warm"
+   ]
+  ],
+  "103": [
+   "RD_ALifeLine_6d321e360611083a",
+   "Pastor, the light's going",
+   [
+    "ALifeDialogue_scenes_misc_7.lua",
+    "s10_patrol_short_prayer_015",
+    "reg=civilian,family|day=5,300|mood=warm"
+   ]
+  ],
+  "104": [
+   "RD_ALifeLine_6e7e43046ae6a96e",
+   "Lord, bring back every one we send out, amen, that quick enough for you?",
+   [
+    "ALifeDialogue_scenes_misc_7.lua",
+    "s10_patrol_short_prayer_015",
+    "reg=civilian,family|day=5,300|mood=warm"
+   ]
+  ],
+  "105": [
+   "RD_ALifeLine_4056b0020c11c4ef",
+   "That's the shortest one you ever did",
+   [
+    "ALifeDialogue_scenes_misc_7.lua",
+    "s10_patrol_short_prayer_015",
+    "reg=civilian,family|day=5,300|mood=warm"
+   ]
+  ],
+  "106": [
+   "RD_ALifeLine_270b7d3b2df4d2d0",
+   "I'm saving the long ones for when we're all back at this table",
+   [
+    "ALifeDialogue_scenes_misc_7.lua",
+    "s10_patrol_short_prayer_015",
+    "reg=civilian,family|day=5,300|mood=warm"
+   ]
+  ],
+  "107": [
+   "RD_ALifeLine_5ffa66c27add498c",
+   "Sit down here a minute",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_rest_other_side_of_steps_033",
+    "reg=civilian,family|tmp=fresh,seasoned|mood=sad"
+   ]
+  ],
+  "108": [
+   "RD_ALifeLine_45f06b191edccc42",
+   "There's a tricycle in the yard",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_rest_other_side_of_steps_033",
+    "reg=civilian,family|tmp=fresh,seasoned|mood=sad"
+   ]
+  ],
+  "109": [
+   "RD_ALifeLine_32b04a9c6b2b6863",
+   "I see it, sit on the other side of the steps, then, where you can't",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_rest_other_side_of_steps_033",
+    "reg=civilian,family|tmp=fresh,seasoned|mood=sad"
+   ]
+  ],
+  "110": [
+   "RD_ALifeLine_0c8641e109b4cc0d",
+   "Grab and go, canned goods aisle only",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_scav_aisle_four_040",
+    "reg=civilian,family|tmp=fresh|mood=fear"
+   ]
+  ],
+  "111": [
+   "RD_ALifeLine_04a91edf1cd3e236",
+   "There's something at the end of aisle four",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_scav_aisle_four_040",
+    "reg=civilian,family|tmp=fresh|mood=fear"
+   ]
+  ],
+  "112": [
+   "RD_ALifeLine_4f246f8d44591dd4",
+   "Then we don't need a thing out of aisle four",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_scav_aisle_four_040",
+    "reg=civilian,family|tmp=fresh|mood=fear"
+   ]
+  ],
+  "113": [
+   "RD_ALifeLine_0cd18cf61a91828e",
+   "Think I should leave a note",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_scav_will_pay_back_023",
+    "reg=civilian,family|tmp=fresh|day=1,40|mood=funny"
+   ]
+  ],
+  "114": [
+   "RD_ALifeLine_098925af2aca4986",
+   "Took two cans of soup and the aspirin, sorry, will pay you back",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_scav_will_pay_back_023",
+    "reg=civilian,family|tmp=fresh|day=1,40|mood=funny"
+   ]
+  ],
+  "115": [
+   "RD_ALifeLine_3c01404d345d868a",
+   "Put your phone number on it while you're at it",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_scav_will_pay_back_023",
+    "reg=civilian,family|tmp=fresh|day=1,40|mood=funny"
+   ]
+  ],
+  "116": [
+   "RD_ALifeLine_6d5ff09c3763076d",
+   "Five hundred and one, five hundred and two",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_watch_count_start_over_017",
+    "reg=civilian,family|tmp=fresh|hour=0,5|mood=fear"
+   ]
+  ],
+  "117": [
+   "RD_ALifeLine_0fe6c1b862543dc4",
+   "Eyes open, pinch your arm, five hundred and, and what was it?",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_watch_count_start_over_017",
+    "reg=civilian,family|tmp=fresh|hour=0,5|mood=fear"
+   ]
+  ],
+  "118": [
+   "RD_ALifeLine_6878ef071891f188",
+   "Start over, one, nobody gets in on my count",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_watch_count_start_over_017",
+    "reg=civilian,family|tmp=fresh|hour=0,5|mood=fear"
+   ]
+  ],
+  "119": [
+   "RD_ALifeLine_0b8812b7172e170a",
+   "Owl",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_watch_screech_owl_001",
+    "reg=civilian,family|tmp=fresh|hour=21,5|mood=fear"
+   ]
+  ],
+  "120": [
+   "RD_ALifeLine_2f052aef3f2e4abc",
+   "No owl sounds like that",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_watch_screech_owl_001",
+    "reg=civilian,family|tmp=fresh|hour=21,5|mood=fear"
+   ]
+  ],
+  "121": [
+   "RD_ALifeLine_45a2380a78f26051",
+   "Screech owl, granddaddy used to do that call under our window to scare us",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_watch_screech_owl_001",
+    "reg=civilian,family|tmp=fresh|hour=21,5|mood=fear"
+   ]
+  ],
+  "122": [
+   "RD_ALifeLine_0643cb5547a6e08e",
+   "Well, it's still working",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_watch_screech_owl_001",
+    "reg=civilian,family|tmp=fresh|hour=21,5|mood=fear"
+   ]
+  ],
+  "123": [
+   "RD_ALifeLine_62f60c40287454db",
+   "Bell at Cedar Grove went last night, eleven times",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_bell_cedar_grove_eleven_001",
+    "reg=civilian,family|tmp=seasoned|hour=23,4|mood=fear"
+   ]
+  ],
+  "124": [
+   "RD_ALifeLine_59b0de802d85756b",
+   "Somebody calling folks in",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_bell_cedar_grove_eleven_001",
+    "reg=civilian,family|tmp=seasoned|hour=23,4|mood=fear"
+   ]
+  ],
+  "125": [
+   "RD_ALifeLine_10f4210d44594cc0",
+   "Eleven, though, nobody rings eleven, and there's nobody in that church, I been in that church",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_bell_cedar_grove_eleven_001",
+    "reg=civilian,family|tmp=seasoned|hour=23,4|mood=fear"
+   ]
+  ],
+  "126": [
+   "RD_ALifeLine_619019304294bc3b",
+   "Hour that bulb's been on and not a moth on it",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_mut2_porch_no_moths_023",
+    "reg=civilian,family|tmp=seasoned|hour=21,2|mood=grim"
+   ]
+  ],
+  "127": [
+   "RD_ALifeLine_083102006168188e",
+   "Every July of my life that thing's been a ball of bugs by nine",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_mut2_porch_no_moths_023",
+    "reg=civilian,family|tmp=seasoned|hour=21,2|mood=grim"
+   ]
+  ],
+  "128": [
+   "RD_ALifeLine_59a47a6f0d70a616",
+   "Look at the trees, Buck, go on, look at 'em",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_mut_dog_wont_look_020",
+    "reg=civilian,family|tmp=seasoned|hour=21,2|mood=fear|world=trees"
+   ]
+  ],
+  "129": [
+   "RD_ALifeLine_7b80464a66cdca4c",
+   "Fine, then, we won't look at the trees",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_mut_dog_wont_look_020",
+    "reg=civilian,family|tmp=seasoned|hour=21,2|mood=fear|world=trees"
+   ]
+  ],
+  "130": [
+   "RD_ALifeLine_19d92fe010ac1e1b",
+   "The porch light's been on an hour and there ain't a moth on it",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_tracks_bugs_on_the_porch_044",
+    "reg=civilian,family|tmp=seasoned|hour=21,3|mood=grim|world=building"
+   ]
+  ],
+  "131": [
+   "RD_ALifeLine_44afc47036fa3b4e",
+   "Hm is right, every July of my life that bulb's been a ball of bugs by nine o'clock",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_tracks_bugs_on_the_porch_044",
+    "reg=civilian,family|tmp=seasoned|hour=21,3|mood=grim|world=building"
+   ]
+  ],
+  "132": [
+   "RD_ALifeLine_4543600d7d39aad5",
+   "Sadie's under the truck and she won't come out for meat",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_tracks_dog_gone_quiet_023",
+    "reg=civilian,family|tmp=seasoned|hour=22,4|mood=fear"
+   ]
+  ],
+  "133": [
+   "RD_ALifeLine_1b5df3e102fe9e8e",
+   "Storm coming, maybe",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_tracks_dog_gone_quiet_023",
+    "reg=civilian,family|tmp=seasoned|hour=22,4|mood=fear"
+   ]
+  ],
+  "134": [
+   "RD_ALifeLine_2e0f20e049d1393f",
+   "Sky's clear as a bell, she's been under there since about eleven and she ain't made a sound",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_tracks_dog_gone_quiet_023",
+    "reg=civilian,family|tmp=seasoned|hour=22,4|mood=fear"
+   ]
+  ],
+  "135": [
+   "RD_ALifeLine_3fac76435ffc6c8f",
+   "Sat out here ten minutes before it got through to me",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_tracks_no_crickets_009",
+    "reg=civilian,family|tmp=seasoned|hour=21,3|mood=fear|world=summer"
+   ]
+  ],
+  "136": [
+   "RD_ALifeLine_7c548c011d8dc045",
+   "No crickets, summer, in Kentucky, not one",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_tracks_no_crickets_009",
+    "reg=civilian,family|tmp=seasoned|hour=21,3|mood=fear|world=summer"
+   ]
+  ],
+  "137": [
+   "RD_ALifeLine_03b96fbe5939110f",
+   "I remember nine people asking to come through the wire one night.. two were kids",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_wave_fence_at_night_045",
+    "reg=civilian,family|tmp=seasoned|hour=23,4|mood=grim"
+   ]
+  ],
+  "138": [
+   "RD_ALifeLine_1fa53bf009b698bd",
+   "Stood there doing arithmetic about beans while they looked at me.. I still hate remembering that",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_wave_fence_at_night_045",
+    "reg=civilian,family|tmp=seasoned|hour=23,4|mood=grim"
+   ]
+  ],
+  "139": [
+   "RD_ALifeLine_7cfc03e62a2e9348",
+   "Something out past the wire waved at me, at two in the morning, in the dark",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_wave_waves_at_night_023",
+    "reg=civilian,family|tmp=seasoned|hour=22,4|mood=fear"
+   ]
+  ],
+  "140": [
+   "RD_ALifeLine_1e47db6d54041bc0",
+   "You waved back?",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_wave_waves_at_night_023",
+    "reg=civilian,family|tmp=seasoned|hour=22,4|mood=fear"
+   ]
+  ],
+  "141": [
+   "RD_ALifeLine_4e002ad0707ea280",
+   "I did, God help me, I did, before I thought about it, it waved again",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s12_wave_waves_at_night_023",
+    "reg=civilian,family|tmp=seasoned|hour=22,4|mood=fear"
+   ]
+  ],
+  "142": [
+   "RD_ALifeLine_16012fcf6dd2496e",
+   "Bell rings once, everybody inside, twice, everybody to the wall",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_guard_bell_rope_044",
+    "reg=civilian,family,rescue|tmp=seasoned,veteran|day=10,300|mood=grim"
+   ]
+  ],
+  "143": [
+   "RD_ALifeLine_6c4c06d948a036cf",
+   "And if it keeps on ringing?",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_guard_bell_rope_044",
+    "reg=civilian,family,rescue|tmp=seasoned,veteran|day=10,300|mood=grim"
+   ]
+  ],
+  "144": [
+   "RD_ALifeLine_2ce6909945b8ce59",
+   "Then whoever's on the rope can't stop pulling, you go to the wall and find out why",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_guard_bell_rope_044",
+    "reg=civilian,family,rescue|tmp=seasoned,veteran|day=10,300|mood=grim"
+   ]
+  ],
+  "145": [
+   "RD_ALifeLine_6d0d227c3b3bca34",
+   "Who was that fella? The one with the axe?",
+   [
+    "ALifeDialogue_scenes_misc_1.lua",
+    "s10_after_axe_stranger_022",
+    "reg=civilian,family,worker|mood=warm|world=fence,road"
+   ]
+  ],
+  "146": [
+   "RD_ALifeLine_5ca2038f1451a886",
+   "Never laid eyes on him before",
+   [
+    "ALifeDialogue_scenes_misc_1.lua",
+    "s10_after_axe_stranger_022",
+    "reg=civilian,family,worker|mood=warm|world=fence,road"
+   ]
+  ],
+  "147": [
+   "RD_ALifeLine_6e8ea09c6d368dc1",
+   "Came over the fence, cleared the whole yard, and just walked on up the road",
+   [
+    "ALifeDialogue_scenes_misc_1.lua",
+    "s10_after_axe_stranger_022",
+    "reg=civilian,family,worker|mood=warm|world=fence,road"
+   ]
+  ],
+  "148": [
+   "RD_ALifeLine_45050d6244a467d4",
+   "Didn't stop for water or nothing, I hollered after him",
+   [
+    "ALifeDialogue_scenes_misc_1.lua",
+    "s10_after_axe_stranger_022",
+    "reg=civilian,family,worker|mood=warm|world=fence,road"
+   ]
+  ],
+  "149": [
+   "RD_ALifeLine_53b27a0b7a937a9e",
+   "Six, out by the pump house",
+   [
+    "ALifeDialogue_scenes_misc_1.lua",
+    "s10_after_just_tell_her_six_014",
+    "reg=civilian,family,worker|tmp=seasoned|day=10,300|mood=sad"
+   ]
+  ],
+  "150": [
+   "RD_ALifeLine_007f89482acef026",
+   "Any we knew?",
+   [
+    "ALifeDialogue_scenes_misc_1.lua",
+    "s10_after_just_tell_her_six_014",
+    "reg=civilian,family,worker|tmp=seasoned|day=10,300|mood=sad"
+   ]
+  ],
+  "151": [
+   "RD_ALifeLine_05c648857a8452c6",
+   "One, the Arnett girl's husband, still had his ring on",
+   [
+    "ALifeDialogue_scenes_misc_1.lua",
+    "s10_after_just_tell_her_six_014",
+    "reg=civilian,family,worker|tmp=seasoned|day=10,300|mood=sad"
+   ]
+  ],
+  "152": [
+   "RD_ALifeLine_12b8935f59d832d3",
+   "You taking it to her?",
+   [
+    "ALifeDialogue_scenes_misc_1.lua",
+    "s10_after_just_tell_her_six_014",
+    "reg=civilian,family,worker|tmp=seasoned|day=10,300|mood=sad"
+   ]
+  ],
+  "153": [
+   "RD_ALifeLine_5eedea8e4eee52e2",
+   "Not today, today I'm just gonna tell her six",
+   [
+    "ALifeDialogue_scenes_misc_1.lua",
+    "s10_after_just_tell_her_six_014",
+    "reg=civilian,family,worker|tmp=seasoned|day=10,300|mood=sad"
+   ]
+  ],
+  "154": [
+   "RD_ALifeLine_180ef63414ac34a3",
+   "Don't move, four of 'em walking past the hood",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_break_let_it_sleep_036",
+    "reg=civilian,family,worker|mood=fear|world=vehicle"
+   ]
+  ],
+  "155": [
+   "RD_ALifeLine_202dadf223120a14",
+   "Do they see us?",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_break_let_it_sleep_036",
+    "reg=civilian,family,worker|mood=fear|world=vehicle"
+   ]
+  ],
+  "156": [
+   "RD_ALifeLine_51e8d77c471a2b68",
+   "If they did, they'd be on the glass",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_break_let_it_sleep_036",
+    "reg=civilian,family,worker|mood=fear|world=vehicle"
+   ]
+  ],
+  "157": [
+   "RD_ALifeLine_64292bcf27d0340a",
+   "My leg's asleep",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_break_let_it_sleep_036",
+    "reg=civilian,family,worker|mood=fear|world=vehicle"
+   ]
+  ],
+  "158": [
+   "RD_ALifeLine_7b9114ad37d8de45",
+   "Let it sleep, everybody in this car be as quiet as that leg",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_break_let_it_sleep_036",
+    "reg=civilian,family,worker|mood=fear|world=vehicle"
+   ]
+  ],
+  "159": [
+   "RD_ALifeLine_33ebc6bd76838879",
+   "Seatbelt, undo the seatbelt, where's the button?",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_crash_ground_on_ceiling_021",
+    "reg=civilian,family,worker|tmp=fresh|mood=fear"
+   ]
+  ],
+  "160": [
+   "RD_ALifeLine_7d1f2dca6d3fe3e7",
+   "Why is the ground up on the ceiling?",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_crash_ground_on_ceiling_021",
+    "reg=civilian,family,worker|tmp=fresh|mood=fear"
+   ]
+  ],
+  "161": [
+   "RD_ALifeLine_25cb8a7434cbc001",
+   "Okay, crawl out the side window, you're okay, you're, you're okay",
+   [
+    "ALifeDialogue_scenes_misc_2.lua",
+    "s10_crash_ground_on_ceiling_021",
+    "reg=civilian,family,worker|tmp=fresh|mood=fear"
+   ]
+  ],
+  "162": [
+   "RD_ALifeLine_5c0fc57c4b908668",
+   "Hog's through the fence!",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_hog_diversion_008",
+    "reg=civilian,family,worker|day=15,300|mood=funny|world=road"
+   ]
+  ],
+  "163": [
+   "RD_ALifeLine_663761545cd41be9",
+   "Which way'd he go?",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_hog_diversion_008",
+    "reg=civilian,family,worker|day=15,300|mood=funny|world=road"
+   ]
+  ],
+  "164": [
+   "RD_ALifeLine_72bc20883028fe82",
+   "Straight down the road at that bunch by the church",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_hog_diversion_008",
+    "reg=civilian,family,worker|day=15,300|mood=funny|world=road"
+   ]
+  ],
+  "165": [
+   "RD_ALifeLine_03d4153b1428886d",
+   "Let him go, best diversion we ever had, and he's working for free",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_hog_diversion_008",
+    "reg=civilian,family,worker|day=15,300|mood=funny|world=road"
+   ]
+  ],
+  "166": [
+   "RD_ALifeLine_79a0ba7f1b1fe3b9",
+   "That was two hundred pounds of Christmas",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_hog_diversion_008",
+    "reg=civilian,family,worker|day=15,300|mood=funny|world=road"
+   ]
+  ],
+  "167": [
+   "RD_ALifeLine_2ad2db6f3cc95ee0",
+   "Then say a nice word for him at Christmas",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_hog_diversion_008",
+    "reg=civilian,family,worker|day=15,300|mood=funny|world=road"
+   ]
+  ],
+  "168": [
+   "RD_ALifeLine_6bd92cf34cd3d4db",
+   "Seed corn out of the co-op is two years old, says so right on the sack",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_old_seed_corn_012",
+    "reg=civilian,family,worker|tmp=seasoned|day=20,200|mood=funny"
+   ]
+  ],
+  "169": [
+   "RD_ALifeLine_4f166b846d27d65f",
+   "Will it come up?",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_old_seed_corn_012",
+    "reg=civilian,family,worker|tmp=seasoned|day=20,200|mood=funny"
+   ]
+  ],
+  "170": [
+   "RD_ALifeLine_4a42b113014aeaeb",
+   "Half of it, maybe, so we plant it twice as thick",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_old_seed_corn_012",
+    "reg=civilian,family,worker|tmp=seasoned|day=20,200|mood=funny"
+   ]
+  ],
+  "171": [
+   "RD_ALifeLine_3e3296496ae3e644",
+   "That's your answer for everything, twice as thick",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_old_seed_corn_012",
+    "reg=civilian,family,worker|tmp=seasoned|day=20,200|mood=funny"
+   ]
+  ],
+  "172": [
+   "RD_ALifeLine_3121ad8f405161c1",
+   "Worked on my gravy, worked on my marriage, near enough",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_old_seed_corn_012",
+    "reg=civilian,family,worker|tmp=seasoned|day=20,200|mood=funny"
+   ]
+  ],
+  "173": [
+   "RD_ALifeLine_60b06ef1332d966f",
+   "Garden gets two buckets a day, people get the rest",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_squash_wilts_with_me_014",
+    "reg=civilian,family,worker|tmp=seasoned|day=20,120|hour=10,18|mood=grim"
+   ]
+  ],
+  "174": [
+   "RD_ALifeLine_1f7237fe6af2906f",
+   "The squash is wilting",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_squash_wilts_with_me_014",
+    "reg=civilian,family,worker|tmp=seasoned|day=20,120|hour=10,18|mood=grim"
+   ]
+  ],
+  "175": [
+   "RD_ALifeLine_127ee2680e87b285",
+   "So am I, the squash can wilt right along with me",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_farm_squash_wilts_with_me_014",
+    "reg=civilian,family,worker|tmp=seasoned|day=20,120|hour=10,18|mood=grim"
+   ]
+  ],
+  "176": [
+   "RD_ALifeLine_5d47fcdc295acf00",
+   "Your turn for a story",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_fire_ferris_wheel_story_001",
+    "reg=civilian,family,worker|day=10,300|hour=19,1|mood=warm"
+   ]
+  ],
+  "177": [
+   "RD_ALifeLine_395209e901dd860f",
+   "I told one Tuesday",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_fire_ferris_wheel_story_001",
+    "reg=civilian,family,worker|day=10,300|hour=19,1|mood=warm"
+   ]
+  ],
+  "178": [
+   "RD_ALifeLine_6337e5ee7c58fb04",
+   "You told the carnival one, that's the only story you own",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_fire_ferris_wheel_story_001",
+    "reg=civilian,family,worker|day=10,300|hour=19,1|mood=warm"
+   ]
+  ],
+  "179": [
+   "RD_ALifeLine_5281cb6d11c37209",
+   "Then I'll tell it with a different ending",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_fire_ferris_wheel_story_001",
+    "reg=civilian,family,worker|day=10,300|hour=19,1|mood=warm"
+   ]
+  ],
+  "180": [
+   "RD_ALifeLine_468ddc61293094ae",
+   "Does the Ferris wheel still stop at the top?",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_fire_ferris_wheel_story_001",
+    "reg=civilian,family,worker|day=10,300|hour=19,1|mood=warm"
+   ]
+  ],
+  "181": [
+   "RD_ALifeLine_5e0593a57cc9def4",
+   "It always stops at the top, always has, that's the story",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_fire_ferris_wheel_story_001",
+    "reg=civilian,family,worker|day=10,300|hour=19,1|mood=warm"
+   ]
+  ],
+  "182": [
+   "RD_ALifeLine_29f512ca72b023a9",
+   "That tractor's older than the two of us put together",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_mech_tractor_crank_043",
+    "reg=civilian,family,worker|tmp=seasoned|day=15,300|mood=calm"
+   ]
+  ],
+  "183": [
+   "RD_ALifeLine_29a828dc0f6a8504",
+   "That's why it runs, no wires you can't see, nothing fancy to fail",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_mech_tractor_crank_043",
+    "reg=civilian,family,worker|tmp=seasoned|day=15,300|mood=calm"
+   ]
+  ],
+  "184": [
+   "RD_ALifeLine_08fd4d2b0a489b03",
+   "It failed twice this week",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_mech_tractor_crank_043",
+    "reg=civilian,family,worker|tmp=seasoned|day=15,300|mood=calm"
+   ]
+  ],
+  "185": [
+   "RD_ALifeLine_184fd019347ebc8a",
+   "And I fixed it twice with a coat hanger, try that on a new one",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_mech_tractor_crank_043",
+    "reg=civilian,family,worker|tmp=seasoned|day=15,300|mood=calm"
+   ]
+  ],
+  "186": [
+   "RD_ALifeLine_4a75794370184e5b",
+   "I think I'm gonna faint",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_medic_greener_than_him_044",
+    "reg=civilian,family,worker|tmp=fresh|mood=funny"
+   ]
+  ],
+  "187": [
+   "RD_ALifeLine_26552628635b032c",
+   "Not on the patient, floor, head between your knees",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_medic_greener_than_him_044",
+    "reg=civilian,family,worker|tmp=fresh|mood=funny"
+   ]
+  ],
+  "188": [
+   "RD_ALifeLine_60b54ee077040959",
+   "He's looking at me",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_medic_greener_than_him_044",
+    "reg=civilian,family,worker|tmp=fresh|mood=funny"
+   ]
+  ],
+  "189": [
+   "RD_ALifeLine_2644dae57e6e4a70",
+   "He's looking at you 'cause you're greener than he is",
+   [
+    "ALifeDialogue_scenes_misc_6.lua",
+    "s10_medic_greener_than_him_044",
+    "reg=civilian,family,worker|tmp=fresh|mood=funny"
+   ]
+  ],
+  "190": [
+   "RD_ALifeLine_3232c17f2c207aaa",
+   "Just sit a minute, nobody's chasing you right now",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_rest_good_minute_043",
+    "reg=civilian,family,worker|tmp=fresh|mood=calm"
+   ]
+  ],
+  "191": [
+   "RD_ALifeLine_4e2d3d4303a1f456",
+   "Right now, right this minute, nobody",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_rest_good_minute_043",
+    "reg=civilian,family,worker|tmp=fresh|mood=calm"
+   ]
+  ],
+  "192": [
+   "RD_ALifeLine_0675573b35924dd1",
+   "Okay, that was a good minute, up you get",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_rest_good_minute_043",
+    "reg=civilian,family,worker|tmp=fresh|mood=calm"
+   ]
+  ],
+  "193": [
+   "RD_ALifeLine_4f6d01204acf3628",
+   "Softest pew I ever sat in, and I'm too tired to pray",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_rest_pew_counts_037",
+    "reg=civilian,family,worker|tmp=seasoned|mood=warm"
+   ]
+  ],
+  "194": [
+   "RD_ALifeLine_48e5ac1733c189af",
+   "Sitting counts",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_rest_pew_counts_037",
+    "reg=civilian,family,worker|tmp=seasoned|mood=warm"
+   ]
+  ],
+  "195": [
+   "RD_ALifeLine_75f5f89f79ab2f73",
+   "Counts? Says who?",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_rest_pew_counts_037",
+    "reg=civilian,family,worker|tmp=seasoned|mood=warm"
+   ]
+  ],
+  "196": [
+   "RD_ALifeLine_6491fc823eed0a91",
+   "My mamaw, she slept through forty years of sermons and swore she heard every word",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_rest_pew_counts_037",
+    "reg=civilian,family,worker|tmp=seasoned|mood=warm"
+   ]
+  ],
+  "197": [
+   "RD_ALifeLine_3fc1306a01b02e42",
+   "If I take my shoes off, they're never going back on",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_rest_shoes_off_023",
+    "reg=civilian,family,worker|tmp=fresh,seasoned|mood=funny"
+   ]
+  ],
+  "198": [
+   "RD_ALifeLine_099bf763169682c5",
+   "Then leave 'em on",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_rest_shoes_off_023",
+    "reg=civilian,family,worker|tmp=fresh,seasoned|mood=funny"
+   ]
+  ],
+  "199": [
+   "RD_ALifeLine_64219d6a28887f9f",
+   "Too late, oh, oh my Lord, that's the best thing that's happened since July",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_rest_shoes_off_023",
+    "reg=civilian,family,worker|tmp=fresh,seasoned|mood=funny"
+   ]
+  ],
+  "200": [
+   "RD_ALifeLine_5a8d614a7e773cb8",
+   "Can opener, candles, box of tampons for trade",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_scav_all_the_pieces_042",
+    "reg=civilian,family,worker|mood=warm"
+   ]
+  ],
+  "201": [
+   "RD_ALifeLine_04a316cc51d11b4d",
+   "A board game, why'd I take a board game?",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_scav_all_the_pieces_042",
+    "reg=civilian,family,worker|mood=warm"
+   ]
+  ],
+  "202": [
+   "RD_ALifeLine_378e198b0a220de7",
+   "Because it's got all its pieces, that's why",
+   [
+    "ALifeDialogue_scenes_misc_8.lua",
+    "s10_scav_all_the_pieces_042",
+    "reg=civilian,family,worker|mood=warm"
+   ]
+  ],
+  "203": [
+   "RD_ALifeLine_3207eb915f763de4",
+   "Rain's coming in sideways",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_watch_decided_rain_013",
+    "reg=civilian,family,worker|tmp=seasoned|hour=21,5|mood=grim|world=rain"
+   ]
+  ],
+  "204": [
+   "RD_ALifeLine_1f0f768e1eb2f3d8",
+   "Good, they don't like the rain",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_watch_decided_rain_013",
+    "reg=civilian,family,worker|tmp=seasoned|hour=21,5|mood=grim|world=rain"
+   ]
+  ],
+  "205": [
+   "RD_ALifeLine_11984a7d429aab2b",
+   "Who told you a thing like that?",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_watch_decided_rain_013",
+    "reg=civilian,family,worker|tmp=seasoned|hour=21,5|mood=grim|world=rain"
+   ]
+  ],
+  "206": [
+   "RD_ALifeLine_035b8d417f27b679",
+   "Nobody, I decided it, so I could keep standing out here",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_watch_decided_rain_013",
+    "reg=civilian,family,worker|tmp=seasoned|hour=21,5|mood=grim|world=rain"
+   ]
+  ],
+  "207": [
+   "RD_ALifeLine_3a4e5f850ff29a1c",
+   "That lamp's on over on the ridge again",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_watch_ridge_lamp_021",
+    "reg=civilian,family,worker|day=10,300|hour=21,2|mood=warm"
+   ]
+  ],
+  "208": [
+   "RD_ALifeLine_6b9706ad01792e7f",
+   "Every night about ten",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_watch_ridge_lamp_021",
+    "reg=civilian,family,worker|day=10,300|hour=21,2|mood=warm"
+   ]
+  ],
+  "209": [
+   "RD_ALifeLine_4add5adb5cb59b81",
+   "Should we signal 'em?",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_watch_ridge_lamp_021",
+    "reg=civilian,family,worker|day=10,300|hour=21,2|mood=warm"
+   ]
+  ],
+  "210": [
+   "RD_ALifeLine_63840c8813bc663b",
+   "Not yet, it's just nice knowing somebody else is up",
+   [
+    "ALifeDialogue_scenes_misc_5.lua",
+    "s10_watch_ridge_lamp_021",
+    "reg=civilian,family,worker|day=10,300|hour=21,2|mood=warm"
+   ]
+  ],
+  "211": [
+   "RD_ALifeLine_2b4c402a7343bcad",
+   "My dad had a '78 Ford pickup, the color of dried mustard",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0001",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "212": [
+   "RD_ALifeLine_13c4e37d3456b95b",
+   "Lord, I know the kind",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0001",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "213": [
+   "RD_ALifeLine_62602581405ccc99",
+   "He drove it to every one of my games, windows down, radio too loud",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0001",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "214": [
+   "RD_ALifeLine_36ad206b443b6506",
+   "Embarrassing?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0001",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "215": [
+   "RD_ALifeLine_008962db50a1bf43",
+   "So embarrassing, I'd duck in the seat, and now I'd give my right arm to be embarrassed by that radio",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0001",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "216": [
+   "RD_ALifeLine_5657a01f2ba45115",
+   "First time I got drunk was on my cousin's wedding day, on blackberry wine",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0002",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "217": [
+   "RD_ALifeLine_288d6417028d36ba",
+   "How old were you?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0002",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "218": [
+   "RD_ALifeLine_586955cc56cb6983",
+   "Fourteen, I danced with the preacher",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0002",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "219": [
+   "RD_ALifeLine_3d18d1361dc3d5ff",
+   "The PREACHER?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0002",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "220": [
+   "RD_ALifeLine_6729d8000b256c45",
+   "Twice, I thought he was my uncle, he took it real well",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0002",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "221": [
+   "RD_ALifeLine_1011b8c824c74ddc",
+   "There was a dog at my gas station, Pete, he waited every morning for a hot dog",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0003",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "222": [
+   "RD_ALifeLine_39b194fd7e76d064",
+   "Did he get one?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0003",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "223": [
+   "RD_ALifeLine_2c764d9c0e289dd0",
+   "Every single day, for six years, the owner said 'Pete gets a dog'",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0003",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "224": [
+   "RD_ALifeLine_642cbbf7157ebc66",
+   "Where's Pete now?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0003",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "225": [
+   "RD_ALifeLine_6e8ccf2c29646ed4",
+   "I don't know, I left in a hurry, I hope somebody's feeding him",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0003",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "226": [
+   "RD_ALifeLine_035fad0372429be7",
+   "I drove a school bus in Elizabethtown for eleven years",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0004",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "227": [
+   "RD_ALifeLine_5c23e67e089c37a7",
+   "Wow, kids?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0004",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "228": [
+   "RD_ALifeLine_32c25ed132a57340",
+   "Forty-two, every morning, singing the same dumb songs",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0004",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "229": [
+   "RD_ALifeLine_32dd77b0374d482a",
+   "Do you miss it?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0004",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "230": [
+   "RD_ALifeLine_5cb1110e66cb153c",
+   "I miss the noise, I never thought I'd say that, God, I miss the noise",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0004",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "231": [
+   "RD_ALifeLine_71cb67be5274b3c9",
+   "My grandmother could kill and clean a chicken in under four minutes",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0005",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "232": [
+   "RD_ALifeLine_45bda5b8639e4e82",
+   "No way",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0005",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "233": [
+   "RD_ALifeLine_5c3822d07e2757b9",
+   "She timed herself with the kitchen clock, she bet the neighbors, took their money too",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0005",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "234": [
+   "RD_ALifeLine_71eb1cb4690f607f",
+   "A real shark",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0005",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "235": [
+   "RD_ALifeLine_5a8676bc6dca78cb",
+   "In an apron, with a hymnal in her pocket",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0005",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "236": [
+   "RD_ALifeLine_39284d851ef1f2ab",
+   "I was gonna propose on the Fourth of July",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0006",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "237": [
+   "RD_ALifeLine_368fef3570d3e837",
+   "I had the ring, I had the speech, I had a reservation at the Kentucky Fried Chicken",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0006",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "238": [
+   "RD_ALifeLine_0e019f07721a9d79",
+   "Oh no, no",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0006",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "239": [
+   "RD_ALifeLine_45e6b5f90ed5dead",
+   "Don't laugh, it was her favorite place, and now I've got a ring and no one to give it to",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0006",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "240": [
+   "RD_ALifeLine_4bbd4872049a613f",
+   "Whenever my brother and I fought, Mama made us hold hands for ten minutes",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0007",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "241": [
+   "RD_ALifeLine_19686fb145bdf689",
+   "Sounds like a good punishment",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0007",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "242": [
+   "RD_ALifeLine_0883b69f176d8600",
+   "It was worse than a whipping, he had sweaty palms",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0007",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "243": [
+   "RD_ALifeLine_0fa235a1621a4891",
+   "Eventually we just started to like each other, can you believe that?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0007",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "244": [
+   "RD_ALifeLine_27bdeefa76e68d9c",
+   "In school I was the kid who always forgot his lunch",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0008",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "245": [
+   "RD_ALifeLine_3c0b19411bf891cf",
+   "Poor you",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0008",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "246": [
+   "RD_ALifeLine_0b4979817bb9954b",
+   "Mrs. Alvarez, the lunch lady, always slipped me a sandwich, never asked questions",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0008",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "247": [
+   "RD_ALifeLine_1100c4d96db45842",
+   "Good woman",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0008",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "248": [
+   "RD_ALifeLine_2d32095e0c01c229",
+   "I looked for her, when this started, I never found her, but I carry a sandwich now, in case I find someone like me",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0008",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "249": [
+   "RD_ALifeLine_3c37cbef4da10bd9",
+   "First job I had was bagging groceries at the Winn-Dixie",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0009",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "250": [
+   "RD_ALifeLine_3d38164b0d7fda06",
+   "How was that?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0009",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "251": [
+   "RD_ALifeLine_0f50fe3978ac5d70",
+   "Terrible, until a lady tipped me a quarter every week, just because I carried her bags to the car",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0009",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "252": [
+   "RD_ALifeLine_0e1fee8f26dc8c2e",
+   "Sweet",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0009",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "253": [
+   "RD_ALifeLine_3997e1c438407be2",
+   "I saved those quarters for a year, bought my mother a music box for Christmas",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0009",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "254": [
+   "RD_ALifeLine_4870465f14b54620",
+   "My uncle swore he saw a UFO over Fort Knox",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0010",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "255": [
+   "RD_ALifeLine_054fe1767cd2f945",
+   "Of course he did",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0010",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "256": [
+   "RD_ALifeLine_362e23ed617066e7",
+   "He drew a map on a napkin, I still have it",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0010",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "257": [
+   "RD_ALifeLine_3d8ffa02344a8b8d",
+   "In my back pocket, I figure if the world's gone crazy, maybe he was right all along",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0010",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "258": [
+   "RD_ALifeLine_40d792006a3503de",
+   "You know what my husband said to me, the last time I saw him?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0011",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "259": [
+   "RD_ALifeLine_3595b606159e9c5b",
+   "'Don't forget the milk'",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0011",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "260": [
+   "RD_ALifeLine_31f93ba41b2adb82",
+   "I forgot, I FORGOT the milk, I've been thinking about that damn milk ever since",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0011",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "261": [
+   "RD_ALifeLine_17e9618f6e16cc71",
+   "My daughter used to line up her stuffed animals and give them a spelling test",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0012",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "262": [
+   "RD_ALifeLine_6881dc1a63dee93d",
+   "Mr. Bear failed every time, she'd give him extra homework",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0012",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "263": [
+   "RD_ALifeLine_0782cea35834e6c2",
+   "Where's she now?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0012",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "264": [
+   "RD_ALifeLine_44c2042f39e7135e",
+   "Last time I saw her, asleep with all of them, I keep trying to hold that picture still",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0012",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "265": [
+   "RD_ALifeLine_44ad1aac26e1e679",
+   "After the first week I stopped counting days",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0013",
+    "reg=civilian,family,worker,rescue|tmp=seasoned"
+   ]
+  ],
+  "266": [
+   "RD_ALifeLine_67d113833529f808",
+   "Because counting meant there'd be a last one",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0013",
+    "reg=civilian,family,worker,rescue|tmp=seasoned"
+   ]
+  ],
+  "267": [
+   "RD_ALifeLine_4cfad747128b48fc",
+   "...I understand that",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0013",
+    "reg=civilian,family,worker,rescue|tmp=seasoned"
+   ]
+  ],
+  "268": [
+   "RD_ALifeLine_222ac9302166c687",
+   "Then you understand why I never ask what day it is",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0013",
+    "reg=civilian,family,worker,rescue|tmp=seasoned"
+   ]
+  ],
+  "269": [
+   "RD_ALifeLine_7b8d1edc7b967877",
+   "When this started I wanted to be a hero",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0014",
+    "reg=civilian,family,worker,rescue|tmp=seasoned"
+   ]
+  ],
+  "270": [
+   "RD_ALifeLine_2172506a06b034bd",
+   "Now I want to be alive at the end of the day",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0014",
+    "reg=civilian,family,worker,rescue|tmp=seasoned"
+   ]
+  ],
+  "271": [
+   "RD_ALifeLine_59b4eb3367102659",
+   "That's a hero, in my book",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0014",
+    "reg=civilian,family,worker,rescue|tmp=seasoned"
+   ]
+  ],
+  "272": [
+   "RD_ALifeLine_00c613266cd5c0e3",
+   "That's a coward in mine, but thanks",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_a_0014",
+    "reg=civilian,family,worker,rescue|tmp=seasoned"
+   ]
+  ],
+  "273": [
+   "RD_ALifeLine_704576833b4026ce",
+   "You ever hear about the time my uncle Earl tried to jump the creek on a riding mower?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0001",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "274": [
+   "RD_ALifeLine_6b8ce8da346cd8a6",
+   "A riding mower?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0001",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "275": [
+   "RD_ALifeLine_4f8311083b1103cc",
+   "He'd had four beers and a bet, forty dollars, my aunt Dot was screaming from the porch",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0001",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "276": [
+   "RD_ALifeLine_420035055162e0a2",
+   "He made it halfway, the mower made it all the way, he didn't",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0001",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "277": [
+   "RD_ALifeLine_5adacf02561543d2",
+   "He walked home soaked, holding the wheel, and Dot charged him ten dollars for the light she broke throwing a shoe",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0001",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "278": [
+   "RD_ALifeLine_297d112d2aa63a85",
+   "My first kiss was behind the Dairy Queen in Elizabethtown, 1979",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0002",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "279": [
+   "RD_ALifeLine_1bc4451c53d92c86",
+   "Who was the lucky girl?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0002",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "280": [
+   "RD_ALifeLine_612bd2ed5ae01416",
+   "Peggy Lou Marcum, she tasted like cherry dip",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0002",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "281": [
+   "RD_ALifeLine_5b6ac6623a5704cd",
+   "And her dad caught us, chased me three blocks with a garden hoe",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0002",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "282": [
+   "RD_ALifeLine_19ff8bc21578b23d",
+   "Did he catch you?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0002",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "283": [
+   "RD_ALifeLine_350705ca2758ae0d",
+   "Never, I was fast back then, I could outrun a hoe and a sunset",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0002",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "284": [
+   "RD_ALifeLine_760be34433842281",
+   "What happened to Peggy Lou?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0002",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "285": [
+   "RD_ALifeLine_62c16acf6d0d3084",
+   "She married a dentist, sent me a Christmas card every year, I hope she's alive",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0002",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "286": [
+   "RD_ALifeLine_72cab2094eb257d8",
+   "I want to tell you about my daughter Beth's first day of school",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0003",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "287": [
+   "RD_ALifeLine_15676c8f2c7e19cb",
+   "She cried at the bus stop, I cried in the car, we both cried at the gate",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0003",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "288": [
+   "RD_ALifeLine_0b87d734172a6c97",
+   "Aww",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0003",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "289": [
+   "RD_ALifeLine_1a306bfe65d42031",
+   "The teacher said 'it gets easier,' I said 'for who?'",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0003",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "290": [
+   "RD_ALifeLine_1aaa2e1765666a3c",
+   "And did it?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0003",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "291": [
+   "RD_ALifeLine_749d0c0e0f186db9",
+   "She waved at me through the window all the way down the road, and I waved until my arm fell off",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0003",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "292": [
+   "RD_ALifeLine_10e61a0c442b6243",
+   "That's beautiful",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0003",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "293": [
+   "RD_ALifeLine_3d40bcc129dc7941",
+   "I'd wave till my arm fell off again, if she were here",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0003",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "294": [
+   "RD_ALifeLine_3d210a0861194b0a",
+   "The worst job I ever had was cleaning the chicken coop at Carter's farm",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0004",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "295": [
+   "RD_ALifeLine_3bd4dbc22b0db983",
+   "I wore three pairs of gloves and a bandana, I still smelled like a sunburned henhouse for a week",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0004",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "296": [
+   "RD_ALifeLine_2018844d77941c4b",
+   "Did you quit?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0004",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "297": [
+   "RD_ALifeLine_5781c6217966f8c2",
+   "I quit after a rooster attacked me, and I'm not ashamed",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0004",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "298": [
+   "RD_ALifeLine_243589e9061a5e54",
+   "Smart rooster",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0004",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "299": [
+   "RD_ALifeLine_4d681cac06c4e135",
+   "Smart? He bit through my boot, and I think he laughed",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0004",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "300": [
+   "RD_ALifeLine_5769c4da58d7506c",
+   "Back when I worked at the Kroger, we had a regular named Mr. Pettigrew",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0005",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "301": [
+   "RD_ALifeLine_0a5519113dc36fa8",
+   "The regular",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0005",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "302": [
+   "RD_ALifeLine_060f378b2738c3b8",
+   "He bought a single banana every morning at 7:05, counted his change in pennies",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0005",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "303": [
+   "RD_ALifeLine_4a12c235659eb967",
+   "For fourteen years, one day he didn't come, and the whole store went quiet",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0005",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "304": [
+   "RD_ALifeLine_4aa83bb8253985f1",
+   "...what happened?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0005",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "305": [
+   "RD_ALifeLine_0736f9c423a820c7",
+   "He was in the hospital, I took him a banana, he cried, I cried, the manager cried, it was a mess",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0005",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "306": [
+   "RD_ALifeLine_17233f5c7cf6c2d0",
+   "I'd have cried too",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0005",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "307": [
+   "RD_ALifeLine_06d0a1f8640f6333",
+   "Mama's rule at the dinner table was no elbows and no politics",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0006",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "308": [
+   "RD_ALifeLine_2ffa4141675b1294",
+   "Dad broke both every Thanksgiving, then Mama would pass him the potatoes",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0006",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "309": [
+   "RD_ALifeLine_18a2cb185299cd21",
+   "To shut him up",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0006",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "310": [
+   "RD_ALifeLine_35c17bf47b8e3628",
+   "Not at all, to give him something to chew on besides his opinions",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0006",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "311": [
+   "RD_ALifeLine_6e672df56ea45cc9",
+   "Smart woman",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0006",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "312": [
+   "RD_ALifeLine_2e9bd96d751777f5",
+   "She really was, she'd have survived this better than any of us",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0006",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "313": [
+   "RD_ALifeLine_7ad9af8d36b03344",
+   "So I'm in the bathtub, summer of 1991, and my sister bursts in holding a snake",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0007",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "314": [
+   "RD_ALifeLine_035ed505118a6bcd",
+   "A garter snake, she thought it was funny, I screamed so loud the neighbor called the cops",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0007",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "315": [
+   "RD_ALifeLine_2038d6e51e22be62",
+   "Did they come?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0007",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "316": [
+   "RD_ALifeLine_4c8856002c4e3f41",
+   "Two deputies, in my driveway, in the middle of the night, I'm in a towel, my sister is crying laughing",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0007",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "317": [
+   "RD_ALifeLine_7b1f5ebf2802c37a",
+   "And the snake?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0007",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "318": [
+   "RD_ALifeLine_1c856021268fba88",
+   "Bit the sergeant, I'm not kidding, he never lived it down",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0007",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "319": [
+   "RD_ALifeLine_4abeaca45a98d7d8",
+   "One time I got lost in the Mammoth Cave tour",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0008",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "320": [
+   "RD_ALifeLine_6ef181b563e9ce10",
+   "I wandered off to look at a bat, and then the group was gone, and the lights went out",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0008",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "321": [
+   "RD_ALifeLine_70f6ecc718adb5d3",
+   "Forty minutes, in the pitch dark, singing 'Amazing Grace' to keep from screaming",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0008",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "322": [
+   "RD_ALifeLine_498b0a5e1820f89d",
+   "Did they find you?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0008",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "323": [
+   "RD_ALifeLine_487ab3d45acede53",
+   "A park ranger named Dwight, he said 'sir, you're about fifty feet from the exit', I thanked him and cried",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0008",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "324": [
+   "RD_ALifeLine_04b1e8495b19c06f",
+   "Grandpa had a mule named Beauregard",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0009",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "325": [
+   "RD_ALifeLine_3ccad05b5c944912",
+   "Beauregard?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0009",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "326": [
+   "RD_ALifeLine_03df1eaa681c9b59",
+   "Meanest animal in Kentucky, hated everybody except Grandpa, and he only tolerated him",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0009",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "327": [
+   "RD_ALifeLine_358bdaa72953bd78",
+   "How so?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0009",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "328": [
+   "RD_ALifeLine_26ae4cd124524dbb",
+   "He bit the mailman, kicked the preacher, and once ate Grandma's Sunday hat",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0009",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "329": [
+   "RD_ALifeLine_481667a61e9bab0e",
+   "And Grandpa loved him?",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0009",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ],
+  "330": [
+   "RD_ALifeLine_692b81f1351fba3b",
+   "More than us, I think, when Beauregard died Grandpa dug the grave himself, said the nicest words I ever heard him say",
+   [
+    "ALifeDialogue_scenes_story_1.lua",
+    "fw_ld4_story_b_0009",
+    "reg=civilian,family,worker,rescue"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,220 @@
+# SNE8Y · Parça 3/3 · 101 replik
+# Çıktıyı SNE8Y_3.txt adıyla kaydet. Yalnızca N | Türkçe satırlarını yaz. 228–328 numaralarını sırayla ve birer kez kullan.
+# Project Zomboid Build 42 · Project A-Life 1.5.4 · 1993 Kentucky, salgın sonrası. Oyuncu yakındaki NPC’lerin kendi aralarındaki kısa ortam sohbetine tanık olur.
+# Her başlık ayrı bir sahnedir. Altındaki sözler sırayla söylenir. K1/K2/K3 o sahnedeki NPC’leri gösterir. · ile başlayan İngilizce replikleri bağlam olarak oku ve çıktıya alma.
+# Konu etiketleri story anı veya hikaye, walk yürüyüş, meet karşılaşma, crash_talk kaza sonrası, breakdown_talk araç arızası, after_fight çatışma sonrası, rest dinlenme, night_watch gece nöbeti, scavenge malzeme toplama, outpost_* karakol sahneleri, any gündelik sohbet anlamına gelir.
+# Koşullarda reg genel profil (civilian sivil, family aile, worker işçi, rescue kurtarma), role daha dar profil, r1/r2 ilgili konuşmacının rolü (law kolluk, swat özel harekat, military asker, elite seçkin asker), tmp deneyim (fresh acemi, seasoned tecrübeli, veteran kıdemli), st tutum, mood ruh hali, day/hour gün ve saat aralığı, world ortam, out karşılaşma sonucudur. Virgülle ayrılan profil ve roller olası seçeneklerdir.
+# Doğal Türkçe konuşma ritmini kullan. Kimliği ve yakınlığı kaynak desteklediği ölçüde yansıt. Tek kişiye sen de. Grup hitabında çoğulu koru. Olayı, sayıları, güvenlik durumunu ve kimin ne yaptığını koru.
+# Sabit karşılıklar ilgili bağlamda outpost → karakol, safehouse → güvenli ev, shelter → sığınak, squad → tim, group → grup, crew → ekip, faction → fraksiyon, zed → zombi.
+# Numaralı repliklerde yer tutucu, yüzde biçim kodu, biçim etiketi veya kaçış dizisi yok. Her repliğin Türkçesini tek satıra yaz.
+
+##### fw_ld6_walk_civ_1_0071 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+228 | K1 | Don't touch that
+229 | K2 | It's just a fence
+230 | K1 | It's a rusty fence, you'll need a tetanus shot
+231 | K3 | Where, exactly, am I getting a shot
+
+##### fw_ld6_walk_civ_1_0072 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+· K1 | Everybody here?
+232 | K2 | Yep
+233 | K3 | Almost, Dale's tying his shoe
+234 | K1 | Then we're not everybody
+
+##### fw_ld6_walk_civ_1_0073 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+235 | K1 | Your pack's open
+· K2 | Is it?
+236 | K1 | Something's falling out, a can, no, two cans
+237 | K2 | Pick them up, quick
+
+##### fw_ld6_walk_civ_1_0074 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+238 | K1 | You dropped something, it's shiny
+239 | K2 | My lighter!
+240 | K3 | Good eyes
+
+##### fw_ld6_walk_civ_1_0075 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|mood=funny
+241 | K1 | That's a brown shoe and a black shoe
+242 | K2 | They're both dark
+243 | K3 | I wondered when somebody would say
+
+##### fw_ld6_walk_civ_1_0076 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|world=door
+244 | K1 | Door's open on that house
+245 | K2 | It's been open
+246 | K1 | I know, I'm just looking
+247 | K3 | Don't look, it's rude
+
+##### fw_ld6_walk_civ_1_0077 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+248 | K1 | Somebody's been through here
+· K2 | How can you tell?
+249 | K1 | The grass is pressed down
+250 | K2 | That could be a deer
+
+##### fw_ld6_walk_civ_1_0078 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|mood=funny
+251 | K1 | Dog's following us
+252 | K2 | Just a dog
+253 | K1 | It's been following us for a mile
+254 | K3 | Then it's our dog now
+
+##### fw_ld6_walk_civ_1_0079 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|world=road
+255 | K1 | There's clothes in the road
+· K2 | Don't look
+256 | K1 | It's a shirt, a plain blue shirt
+257 | K2 | Just a shirt, keep walking
+
+##### fw_ld6_walk_civ_1_0080 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|world=trees
+258 | K1 | Smoke ahead, over the trees, a thin line
+259 | K2 | Could be somebody cooking
+260 | K1 | Could be
+
+##### fw_ld6_walk_civ_1_0081 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|world=vehicle
+261 | K1 | Car in the ditch, nobody in it that I can see
+262 | K2 | Check it
+263 | K3 | You check it
+
+##### fw_ld6_walk_civ_1_0082 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+264 | K1 | Crows are loud today
+265 | K2 | They're always loud
+266 | K1 | It's like they know something
+267 | K2 | They know there's something to eat
+
+##### fw_ld6_walk_civ_1_0083 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|world=building
+268 | K1 | That's a good house, big porch
+269 | K2 | It's a house
+270 | K1 | I'd live there
+271 | K3 | You're living in a house with a big porch right now, you're just walking past it
+
+##### fw_ld6_walk_civ_1_0084 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|day=6,12|mood=calm
+· K1 | What's that smell?
+272 | K2 | Honeysuckle
+273 | K1 | It's nice
+274 | K2 | First nice thing in a week, don't tell anybody
+
+##### fw_ld6_walk_civ_1_0085 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|mood=sad|world=road
+275 | K1 | A baby shoe in the road
+· K2 | Leave it
+276 | K1 | It's so small
+277 | K2 | I know, leave it...
+
+##### fw_ld6_walk_civ_1_0086 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|day=1,13|mood=sad|world=fence
+278 | K1 | There's a bike by the fence, still got the training wheels
+· K2 | Don't look
+279 | K1 | I wasn't gonna touch it
+280 | K3 | Somebody's kid was riding that Friday
+
+##### fw_ld6_walk_civ_1_0087 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|day=6,12|mood=funny
+281 | K1 | Somebody's laundry's still on the line
+282 | K2 | It's dry
+283 | K1 | It's been dry for a week
+284 | K2 | Leave it, it's not ours
+
+##### fw_ld6_walk_civ_1_0088 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|mood=calm
+285 | K1 | Lemonade stand, look, little hand-painted sign, ten cents
+· K2 | It's empty
+286 | K1 | I know, I just wanted to look at it
+
+##### fw_ld6_walk_civ_1_0089 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+287 | K1 | How much water left?
+288 | K2 | Half a canteen, split every which way
+289 | K3 | Then make it last
+
+##### fw_ld6_walk_civ_1_0090 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+290 | K1 | Ever find an old granola bar in a jacket?
+· K2 | How old?
+291 | K1 | Last winter old
+292 | K2 | I used to eat those without looking, I'd be more careful now
+
+##### fw_ld6_walk_civ_1_0091 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|mood=sad
+· K1 | I'm tired
+· K2 | I know
+293 | K1 | I'm-- I'm so tired I could lie down right here
+294 | K2 | Don't, you'll never get up...
+
+##### fw_ld6_walk_civ_1_0092 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|mood=sad
+295 | K1 | Do you ever think about stopping?
+296 | K2 | Stopping what
+297 | K1 | All of it, just sitting down in the road
+298 | K2 | Every five minutes, but I keep going
+
+##### fw_ld6_walk_civ_1_0093 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|mood=fear
+299 | K1 | I'm scared, you can tell, can't you?
+300 | K2 | I know you are
+301 | K1 | Does it ever go away?
+302 | K2 | Not gone, some of the time you don't notice it so much
+
+##### fw_ld6_walk_civ_1_0094 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+· K1 | We're gonna be fine
+· K2 | You don't know that
+303 | K1 | I know it a little bit
+304 | K2 | A little bit's something
+
+##### fw_ld6_walk_civ_1_0095 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|mood=calm
+305 | K1 | Don't think about it
+· K2 | About what
+306 | K1 | That, whatever that is, you're thinking about it
+307 | K3 | How do you know
+
+##### fw_ld6_walk_civ_1_0096 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+308 | K1 | Who's up front?
+309 | K2 | I was
+310 | K1 | You said you'd lead for a while, it's been three hours
+311 | K3 | That one's very comfortable in front
+
+##### fw_ld6_walk_civ_1_0097 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+312 | K1 | I'll take point
+· K2 | You sure?
+313 | K1 | No, but someone has to, and it's me
+314 | K2 | Don't go too far ahead
+
+##### fw_ld6_walk_civ_1_0098 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|mood=funny
+315 | K1 | I'm not leading, I get us lost
+316 | K2 | You lead us fine
+317 | K1 | I lead us in circles
+318 | K2 | Circles are fine, they're round
+
+##### fw_ld6_walk_civ_1_0099 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+319 | K1 | Switch
+· K2 | Now?
+320 | K1 | My turn in front, you've got the easy part
+321 | K2 | There's no easy part
+
+##### fw_ld6_walk_civ_1_0100 · walk · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+322 | K1 | It's almost noon
+· K2 | How can you tell?
+323 | K1 | My stomach
+324 | K2 | Reliable
+
+##### fw_ld6_walk_civ_1_0101 · walk · 3 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|hour=16,22
+325 | K1 | How long till dark?
+326 | K2 | Two hours, maybe less
+327 | K1 | Where are we sleeping?
+328 | K3 | Wherever we are in two hours

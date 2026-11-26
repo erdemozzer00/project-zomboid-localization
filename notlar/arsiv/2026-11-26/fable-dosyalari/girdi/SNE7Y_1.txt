@@ -1,0 +1,203 @@
+# SNE7Y · Parça 1/3 · 115 replik
+# Çıktıyı SNE7Y_1.txt adıyla kaydet. Yalnızca N | Türkçe satırlarını yaz. 1–115 numaralarını sırayla ve birer kez kullan.
+# Project Zomboid Build 42 · Project A-Life 1.5.4 · 1993 Kentucky, salgın sonrası. Oyuncu yakındaki NPC’lerin kendi aralarındaki kısa ortam sohbetine tanık olur.
+# Her başlık ayrı bir sahnedir. Altındaki sözler sırayla söylenir. K1/K2/K3 o sahnedeki NPC’leri gösterir. · ile başlayan İngilizce replikleri bağlam olarak oku ve çıktıya alma.
+# Konu etiketleri story anı veya hikaye, walk yürüyüş, meet karşılaşma, crash_talk kaza sonrası, breakdown_talk araç arızası, after_fight çatışma sonrası, rest dinlenme, night_watch gece nöbeti, scavenge malzeme toplama, outpost_* karakol sahneleri, any gündelik sohbet anlamına gelir.
+# Koşullarda reg genel profil (civilian sivil, family aile, worker işçi, rescue kurtarma), role daha dar profil, r1/r2 ilgili konuşmacının rolü (law kolluk, swat özel harekat, military asker, elite seçkin asker), tmp deneyim (fresh acemi, seasoned tecrübeli, veteran kıdemli), st tutum, mood ruh hali, day/hour gün ve saat aralığı, world ortam, out karşılaşma sonucudur. Virgülle ayrılan profil ve roller olası seçeneklerdir.
+# Doğal Türkçe konuşma ritmini kullan. Kimliği ve yakınlığı kaynak desteklediği ölçüde yansıt. Tek kişiye sen de. Grup hitabında çoğulu koru. Olayı, sayıları, güvenlik durumunu ve kimin ne yaptığını koru.
+# Sabit karşılıklar ilgili bağlamda outpost → karakol, safehouse → güvenli ev, shelter → sığınak, squad → tim, group → grup, crew → ekip, faction → fraksiyon, zed → zombi.
+# Numaralı repliklerde yer tutucu, yüzde biçim kodu, biçim etiketi veya kaçış dizisi yok. Her repliğin Türkçesini tek satıra yaz.
+
+##### fw_ld4_story_b_0010 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+1 | K1 | When I was little we played a game called 'frog or princess'
+2 | K2 | How do you play?
+3 | K1 | You close your eyes and your cousin puts something in your hand
+4 | K2 | And you guess?
+5 | K1 | Cold and slimy, frog, warm and soft, princess, I was usually wrong
+· K2 | Ha
+6 | K1 | Last time I got a dead mouse, I'm still not over it
+
+##### fw_ld4_story_b_0011 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|tmp=seasoned
+7 | K1 | The day it started, I was stuck on I-65 for six hours
+8 | K2 | The traffic?
+9 | K1 | It wasn't traffic, the cars just stopped, everyone got out and looked at each other
+10 | K2 | Did anyone say anything?
+11 | K1 | A lady in a purple dress said 'I think we should walk,' and we all just did
+12 | K2 | Just like that?
+13 | K1 | Just like that, a thousand people, walking, nobody knew where, nobody said a word
+
+##### fw_ld4_story_b_0012 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|tmp=seasoned
+14 | K1 | I found a baby once
+· K2 | What?
+15 | K1 | In a diner, behind the counter, in a box of napkins, three days old, crying
+16 | K2 | Where was the mother?
+17 | K1 | I never found out, I carried that little thing for two days until I found a woman with milk
+18 | K2 | What happened to the baby?
+19 | K1 | She took it, I never saw either again, I hope they're alive, I really hope they are
+
+##### fw_ld4_story_b_0013 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|tmp=seasoned
+20 | K1 | You know what scared me worse than all of it?
+· K2 | What?
+21 | K1 | Not the monsters, not the guns, but the silence on the third night
+· K2 | Why?
+22 | K1 | Because that was the night I realized the phones weren't going to ring
+23 | K2 | Nobody coming?
+24 | K1 | Nobody, and I sat in my kitchen and listened to the refrigerator die, a long slow hum, then nothing
+
+##### fw_ld4_story_c_0001 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+25 | K1 | I'll tell you how I met my wife
+· K2 | Go on
+26 | K1 | I was changing a flat on the shoulder of Dixie Highway, sweating like a pig
+27 | K2 | Romantic
+28 | K1 | She pulled over in a green Buick, said 'you're doing it backwards'
+29 | K2 | Was she right?
+30 | K1 | She was right, she changed it in six minutes, I asked for her number, she said 'you owe me a pie'
+31 | K2 | Did you bake it?
+32 | K1 | I bought one from Kroger, she knew, married me anyway
+
+##### fw_ld4_story_c_0002 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+33 | K1 | When I was ten I ran away from home
+· K2 | Where to?
+34 | K1 | The end of our street, I sat on a stump, ate a peanut butter sandwich
+· K2 | How long?
+35 | K1 | Forty minutes, then Mama came out in her robe and said 'dinner's ready'
+36 | K2 | And you went back?
+37 | K1 | With the crust still in my teeth, she never mentioned it again, and I never ran away again
+
+##### fw_ld4_story_c_0003 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+38 | K1 | My Granny made quilts, each one told a story
+39 | K2 | What was yours?
+40 | K1 | Mine had a rooster on one square, a boat on another, and a tiny red heart in the corner
+41 | K2 | What did it mean?
+42 | K1 | She said 'a rooster wakes you up, a boat takes you far, and the heart brings you home'
+· K2 | That's beautiful
+43 | K1 | It's under a pile of rubble now, I hope the heart is still red
+
+##### fw_ld4_story_c_0004 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+44 | K1 | I used to have a pickup with a dent in the door
+· K2 | What kind?
+45 | K1 | A '72 Chevy, blue, with a dent the exact size of my father's head
+46 | K2 | Your father's head?
+47 | K1 | He backed into a post, got out, smacked the door, and left a head-shaped dent
+48 | K2 | He still alive?
+49 | K1 | I like to think so, I like to think he's smacking doors somewhere
+
+##### fw_ld4_story_c_0005 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+50 | K1 | My sister taught me to ride a bike
+· K2 | How old were you?
+51 | K1 | Eight, she ran behind me, holding the seat, then she let go
+52 | K2 | And you fell?
+53 | K1 | I didn't even know she let go, I just kept pedaling, straight into the mailbox
+· K2 | Ha
+54 | K1 | She laughed so hard she cried, and I did too, and we've been best friends since
+
+##### fw_ld4_story_c_0006 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+55 | K1 | I was a lifeguard one summer
+56 | K2 | At the lake?
+57 | K1 | Barkley Lake, in '86, I saved exactly one person, a boy who was playing dead
+58 | K2 | Playing dead?
+59 | K1 | Floating face down, for fun, I dove in, hauled him out, he was giggling
+60 | K2 | Did you yell at him?
+61 | K1 | I bought him a snow cone, and I told his mother, who yelled more than me
+
+##### fw_ld4_story_c_0007 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+62 | K1 | Back in school I had a crush on a teacher
+· K2 | Who?
+63 | K1 | Miss Delaney, history, she wore flowery dresses and smelled like lavender
+64 | K2 | Did she know?
+65 | K1 | I wrote her a poem, left it on her desk, she gave me an A and a very kind talking-to
+66 | K2 | What did the poem say?
+67 | K1 | 'Roses are red, history is long, you're pretty as a rose, and I'm probably wrong'
+
+##### fw_ld4_story_c_0008 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+68 | K1 | One Christmas, my uncle dressed as Santa
+69 | K2 | Good for the kids
+70 | K1 | He was drunk, he fell off the roof, landed in a snowbank, and said 'ho ho ho' like nothing happened
+71 | K2 | Was he hurt?
+72 | K1 | Only his dignity, my aunt took photos, they're on the fridge to this day
+
+##### fw_ld4_story_c_0009 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+73 | K1 | I was in a car accident once, a bad one
+· K2 | When?
+74 | K1 | Seventh grade, black ice on the ridge road, we spun twice and hit a fence
+75 | K2 | Were you hurt?
+76 | K1 | Cuts and bruises, but I remember the quiet afterward, the snow falling on the windshield
+77 | K2 | Peaceful?
+78 | K1 | Strangely, like the world pressed pause, I think about that quiet a lot now
+
+##### fw_ld4_story_c_0010 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+79 | K1 | I had a pet turtle named Hank
+80 | K2 | Hank the turtle
+81 | K1 | He lived for 22 years, outlived two dogs and a cat
+82 | K2 | So what became of him?
+83 | K1 | He died the week I got my first job, I buried him in a Tupperware under the maple tree
+84 | K2 | That's lovely
+85 | K1 | I didn't cry until I got the paycheck, I don't know why
+
+##### fw_ld4_story_c_0011 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+86 | K1 | The best Thanksgiving I ever had was a bad one
+· K2 | How bad?
+87 | K1 | The turkey was raw in the middle, the power went out, the dog ate the pie
+88 | K2 | Sounds awful
+89 | K1 | We ordered pizza, played cards by candlelight, laughed until our ribs hurt
+90 | K2 | That's the good kind of bad
+
+##### fw_ld4_story_c_0012 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+91 | K1 | When I was 19 I hitchhiked to Nashville
+· K2 | With what?
+92 | K1 | A guitar I couldn't play and eleven dollars
+· K2 | And?
+93 | K1 | A trucker named Big Earl picked me up, bought me breakfast, gave me his number
+94 | K2 | Did you call?
+95 | K1 | Every Christmas, until last year, I hope he's okay
+
+##### fw_ld4_story_c_0013 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+96 | K1 | Winter of '78 we were snowed in for nine days
+97 | K2 | Nine?
+98 | K1 | Dad hauled in firewood, Mom made soup from boiled shoelaces, we told every story we knew
+99 | K2 | Sounds miserable
+100 | K1 | It was the best week of my childhood, don't ask me to explain
+
+##### fw_ld4_story_c_0014 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|tmp=seasoned
+101 | K1 | I want to tell you something
+· K2 | Go ahead
+102 | K1 | The first dead one I saw was a customer at my diner
+103 | K2 | Regular?
+104 | K1 | Every morning, black coffee, no sugar, I handed him his cup out of habit
+105 | K2 | Habit?
+106 | K1 | It wasn't him anymore, but I handed him the cup anyway, and I'm sorry, I'm still sorry
+
+##### fw_ld4_story_c_0015 · story · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue|tmp=seasoned
+107 | K1 | You know why I keep a hat on?
+· K2 | Why?
+108 | K1 | Because my wife knitted it, and it's the last thing she ever made
+· K2 | I'm sorry
+109 | K1 | Don't be, it itches like hell, and I'd never take it off
+
+##### fw_ld4_topics_a_0001 · after_fight · 2 konuşmacı #####
+# Oyun koşulları reg=civilian,family,worker,rescue
+110 | K1 | Shit- shit shit shit, did you see that?
+111 | K2 | I saw it, I saw it, breathe
+112 | K1 | It was RIGHT there, it was right on top of me
+113 | K2 | I know, I know, you're okay, look at me, you're okay
+114 | K1 | I'm- I'm not okay, my hands, look at my hands
+115 | K2 | Sit down, put your head between your knees
