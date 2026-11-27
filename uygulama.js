@@ -68,11 +68,32 @@ function profilCiz(){kok.innerHTML='<div class="giris"><div class="cam"><img cla
   $('form',kok).onsubmit=async ev=>{ev.preventDefault();const ad=ev.target.ad.value.trim();if(!ad)return;try{if(UZAK)await db('profiller',{method:'POST',body:JSON.stringify([{id:S.oturum.u.id,ad:ad}])});else LS.set('cm_yerel_profil',{id:'yerel',ad:ad});await basla()}catch(x){$('.hata',kok).textContent=x.message}}}
 /* ---------- kabuk ---------- */
 function kabuk(aktif,ic){
-  kok.innerHTML='<nav class="nav cam"><img class="logo" src="logo.png" alt=""><b>A-Life Lokalizasyon</b><div class="nav-sekmeler"><a href="#/" class="'+(aktif==='ana'?'acik':'')+'">Sahneler</a><a href="#/havuz" class="'+(aktif==='havuz'?'acik':'')+'">Havuz'+(S.oneriler.length?' · '+nf(S.oneriler.length):'')+'</a><a href="#/kapsam" class="'+(aktif==='kapsam'?'acik':'')+'">Kapsam</a></div><span class="bos"></span>'+(UZAK?'':'<span class="yerel">yerel mod</span>')+'<span class="surum">'+e(S.kat.surum)+'</span><button class="ben" id="ben">'+av(S.profil.id)+e(S.profil.ad)+'</button></nav>'+ic;
-  $('#ben').onclick=ev=>{ev.stopPropagation();let m=$('.menu');if(m){m.remove();return}m=document.createElement('div');m.className='menu cam';m.innerHTML='<strong>'+e(S.profil.ad)+'</strong><small>'+e(UZAK?S.oturum.u.email:'Bu tarayıcıda saklanan profil')+'</small><div>'+nf(S.oneriler.filter(o=>o.yazar===S.profil.id).length)+' önerin var</div><button class="btn kucuk" style="margin-top:12px">'+(UZAK?'Çıkış yap':'Profili sıfırla')+'</button>';$('.nav').appendChild(m);m.onclick=x=>x.stopPropagation();$('button',m).onclick=()=>cikis();document.addEventListener('click',()=>m.remove(),{once:true})}}
+  kok.innerHTML='<nav class="nav cam"><img class="logo" src="logo.png" alt=""><b>A-Life Lokalizasyon</b><div class="nav-sekmeler"><a href="#/" class="'+(aktif==='ana'?'acik':'')+'">Sahneler</a><a href="#/havuz" class="'+(aktif==='havuz'?'acik':'')+'">Havuz'+(S.oneriler.length?' · '+nf(S.oneriler.length):'')+'</a><a href="#/kapsam" class="'+(aktif==='kapsam'?'acik':'')+'">Kapsam</a></div><span class="bos"></span>'+(UZAK?'':'<span class="yerel">yerel mod</span>')+'<span class="surum">'+e(S.kat.surum)+'</span><a class="ben" id="ben" href="#/profil"'+(aktif==='profil'?' aria-current="page"':'')+'>'+av(S.profil.id)+'<span>'+e(S.profil.ad)+'</span></a></nav>'+ic;
+}
+async function profilSayfasi(){
+  if(UZAK){
+    try{await havuzYukle()}
+    catch(err){if(location.hash==='#/profil')kabuk('profil','<main class="sayfa"><p role="alert">'+e(err.message)+'</p><button class="btn" id="profil-cikis">Çıkış yap</button></main>');const cik=$('#profil-cikis');if(cik)cik.onclick=cikis;return}
+    if(location.hash!=='#/profil')return;
+  }
+  const benim=S.oneriler.filter(o=>o.yazar===S.profil.id).reverse();
+  const hedefler=new Map();
+  for(const o of benim)hedefler.set(o.hedef,(hedefler.get(o.hedef)||0)+1);
+  const satirlar=new Set(benim.map(o=>JSON.stringify([o.hedef,o.anahtar])));
+  const dagilim=[...hedefler].sort((a,b)=>b[1]-a[1]).map(([ad,sayi])=>
+    '<li><span>'+e(ad)+'</span><strong>'+nf(sayi)+'</strong><meter min="0" max="'+benim.length+'" value="'+sayi+'" aria-label="'+e(ad)+' önerileri"></meter></li>').join('');
+  const son=benim.slice(0,8).map(o=>'<li><div><span>'+e(o.hedef)+'</span><time datetime="'+e(o.olusturma)+'">'+new Date(o.olusturma).toLocaleDateString('tr-TR')+'</time></div><p>'+e(o.onerilen_tr)+'</p></li>').join('');
+  kabuk('profil','<main class="sayfa profil-sayfa"><header class="profil-kimlik">'+av(S.profil.id)+'<div><h1>'+e(S.profil.ad)+'</h1>'+(UZAK?'<p>'+e(S.oturum.u.email)+'</p>':'')+'</div><button class="btn" id="profil-cikis">'+(UZAK?'Çıkış yap':'Profili sıfırla')+'</button></header>'+
+    '<dl class="profil-sayilar"><div><dt>Öneri</dt><dd>'+nf(benim.length)+'</dd></div><div><dt>Öneri verilen satır</dt><dd>'+nf(satirlar.size)+'</dd></div><div><dt>Katkı verilen dosya</dt><dd>'+nf(hedefler.size)+'</dd></div></dl>'+
+    '<div class="profil-icerik"><section><h2>Son önerilerin</h2>'+(son?'<ul class="profil-oneriler">'+son+'</ul><a class="profil-tum" href="#/havuz" id="profil-tum">Tüm önerilerini gör</a>':'<p class="bos-not">Henüz öneri göndermedin.</p><a class="profil-tum" href="#/">Sahneleri aç</a>')+'</section>'+
+    '<section><h2>Dosyalara göre katkı</h2>'+(dagilim?'<ul class="profil-dagilim">'+dagilim+'</ul>':'<p class="bos-not">Öneri gönderdikçe burada görünür.</p>')+'</section></div></main>');
+  $('#profil-cikis').onclick=cikis;
+  const tum=$('#profil-tum');
+  if(tum)tum.onclick=()=>{HF=S.profil.id};
+}
 function yon(){const h=location.hash.replace(/^#\/?/,'').split('/');window.scrollTo(0,0);
   if(h[0]==='g'&&h[1])return calisma(h[1],parseInt(h[2]||'0',10)||0,h[3]?decodeURIComponent(h[3]):null);
-  W=null;if(h[0]==='havuz'){if(UZAK)return havuzYukle().then(()=>{if(location.hash==='#/havuz')havuz()}).catch(x=>toast(x.message));return havuz()}if(h[0]==='kapsam')return kapsam();ana()}
+  W=null;if(h[0]==='profil')return profilSayfasi();if(h[0]==='havuz'){if(UZAK)return havuzYukle().then(()=>{if(location.hash==='#/havuz')havuz()}).catch(x=>toast(x.message));return havuz()}if(h[0]==='kapsam')return kapsam();ana()}
 function guvenBar(d,t){const p=k=>((d[k]||0)/t*100).toFixed(2);return '<div class="guven" title="Bağlam güveni"><i class="l2" style="width:'+p('2')+'%"></i><i class="l1" style="width:'+p('1')+'%"></i><i class="l0" style="width:'+p('0')+'%"></i></div>'}
 function ana(){const son=LS.get('cm_son',null);
   let ic='<main class="sayfa"><h1 class="selam">Merhaba, <span>'+e(S.profil.ad)+'</span></h1>';

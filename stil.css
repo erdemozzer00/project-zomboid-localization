@@ -152,3 +152,30 @@ table{width:100%;border-collapse:collapse;font-size:14.5px}th,td{text-align:righ
   .nav .ben{max-width:32%;overflow:hidden;white-space:nowrap;padding-right:7px}
   .nav .ben .av{flex-shrink:0}
 }
+
+.nav .ben{display:flex;padding:5px 12px 5px 5px}
+.nav .ben[aria-current]{background:#ebe7ff;color:#4531a1}
+.nav .ben span:last-child{overflow:hidden;text-overflow:ellipsis}
+.profil-sayfa{max-width:960px}
+.profil-kimlik{display:flex;align-items:center;gap:16px;padding:20px 0 28px}
+.profil-kimlik>.av{flex:none;width:58px;height:58px;font-size:21px;border-radius:18px}
+.profil-kimlik>div{min-width:0;flex:1}
+.profil-kimlik h1{margin:0;font-size:clamp(24px,5vw,42px);line-height:1.1;letter-spacing:-.035em;overflow-wrap:anywhere}
+.profil-kimlik p{margin:5px 0 0;color:var(--ink2);overflow-wrap:anywhere}
+.profil-kimlik button{flex:none}
+.profil-sayilar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin:0 0 36px;border:1px solid #33313e;border-radius:16px;background:#17161d}
+.profil-sayilar div{padding:14px clamp(8px,3vw,24px);display:flex;flex-direction:column-reverse}
+.profil-sayilar div+div{border-left:1px solid #33313e}
+.profil-sayilar dt{color:var(--ink2);font-size:13px}
+.profil-sayilar dd{margin:0;font-size:clamp(24px,5vw,38px);font-weight:650;font-variant-numeric:tabular-nums;color:#ded5ff}
+.profil-icerik{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:24px}
+.profil-icerik section{padding:18px;border:1px solid #33313e;border-radius:16px;background:#17161d;align-self:start}
+.profil-icerik h2{font-size:17px;margin:0 0 12px}
+.profil-icerik ul{padding:0;margin:0;list-style:none}
+.profil-oneriler li,.profil-dagilim li{padding:10px 0;border-bottom:1px solid #33313e;overflow-wrap:anywhere}
+.profil-oneriler li div,.profil-dagilim li{display:flex;justify-content:space-between;gap:6px 10px;flex-wrap:wrap;color:var(--ink2);font-size:12px}
+.profil-oneriler p{margin:5px 0 0;white-space:pre-wrap}
+.profil-dagilim meter{width:100%;height:10px;accent-color:#baabff}
+.profil-dagilim meter::-webkit-meter-optimum-value{background:#baabff}
+.profil-tum{display:inline-block;margin-top:12px;color:#c7baff}
+@media(max-width:640px){.profil-icerik{grid-template-columns:1fr}.profil-kimlik{gap:10px;flex-wrap:wrap}}
