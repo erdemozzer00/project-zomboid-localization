@@ -26,7 +26,7 @@ async function basla(){
   else{S.profil=LS.get('cm_yerel_profil',null);if(!S.profil)return profilCiz();S.profiller={yerel:S.profil};S.oneriler=LS.get('cm_yerel_oneriler',[])}
   window.onhashchange=yon;yon()}
 function girisCiz(hata) {
-  kok.innerHTML = '<div class="giris"><div class="cam"><div class="logo"></div><h1>Çeviri Masası</h1><p>Project A-Life Türkçe yaması</p><button class="btn koyu">Google ile devam et</button><div class="hata" role="alert"></div></div></div>';
+  kok.innerHTML = '<div class="giris"><div class="cam"><img class="logo" src="logo.png" alt=""><h1>A-Life Lokalizasyon</h1><p>Project A-Life Türkçe yaması</p><button class="btn koyu">Google ile devam et</button><div class="hata" role="alert"></div></div></div>';
   $('.hata', kok).textContent = hata || '';
   $('button', kok).onclick = async function () {
     this.disabled = true;
@@ -63,12 +63,12 @@ async function oturumuBaslat() {
   }
   return basla();
 }
-function profilCiz(){kok.innerHTML='<div class="giris"><div class="cam"><div class="logo"></div><h1>Seni nasıl analım?</h1><p>'+(UZAK?'Önerilerinin yanında bu ad görünecek.':'Yerel mod: Supabase ayarı girilmemiş. Öneriler yalnızca bu tarayıcıda saklanır.')+'</p><form><input class="alan" name="ad" placeholder="Adın" maxlength="40" required><div class="hata"></div><button class="btn koyu">Devam et</button></form></div></div>';
+function profilCiz(){kok.innerHTML='<div class="giris"><div class="cam"><img class="logo" src="logo.png" alt=""><h1>Seni nasıl analım?</h1><p>'+(UZAK?'Önerilerinin yanında bu ad görünecek.':'Yerel mod: Supabase ayarı girilmemiş. Öneriler yalnızca bu tarayıcıda saklanır.')+'</p><form><input class="alan" name="ad" placeholder="Adın" maxlength="40" required><div class="hata"></div><button class="btn koyu">Devam et</button></form></div></div>';
   $('input',kok).focus();
   $('form',kok).onsubmit=async ev=>{ev.preventDefault();const ad=ev.target.ad.value.trim();if(!ad)return;try{if(UZAK)await db('profiller',{method:'POST',body:JSON.stringify([{id:S.oturum.u.id,ad:ad}])});else LS.set('cm_yerel_profil',{id:'yerel',ad:ad});await basla()}catch(x){$('.hata',kok).textContent=x.message}}}
 /* ---------- kabuk ---------- */
 function kabuk(aktif,ic){
-  kok.innerHTML='<nav class="nav cam"><div class="logo"></div><b>Çeviri Masası</b><a href="#/" class="'+(aktif==='ana'?'acik':'')+'">Sahneler</a><a href="#/havuz" class="'+(aktif==='havuz'?'acik':'')+'">Havuz'+(S.oneriler.length?' · '+nf(S.oneriler.length):'')+'</a><a href="#/kapsam" class="'+(aktif==='kapsam'?'acik':'')+'">Kapsam</a><span class="bos"></span>'+(UZAK?'':'<span class="yerel">yerel mod</span>')+'<span class="surum">'+e(S.kat.surum)+'</span><button class="ben" id="ben">'+av(S.profil.id)+e(S.profil.ad)+'</button></nav>'+ic;
+  kok.innerHTML='<nav class="nav cam"><img class="logo" src="logo.png" alt=""><b>A-Life Lokalizasyon</b><a href="#/" class="'+(aktif==='ana'?'acik':'')+'">Sahneler</a><a href="#/havuz" class="'+(aktif==='havuz'?'acik':'')+'">Havuz'+(S.oneriler.length?' · '+nf(S.oneriler.length):'')+'</a><a href="#/kapsam" class="'+(aktif==='kapsam'?'acik':'')+'">Kapsam</a><span class="bos"></span>'+(UZAK?'':'<span class="yerel">yerel mod</span>')+'<span class="surum">'+e(S.kat.surum)+'</span><button class="ben" id="ben">'+av(S.profil.id)+e(S.profil.ad)+'</button></nav>'+ic;
   $('#ben').onclick=ev=>{ev.stopPropagation();let m=$('.menu');if(m){m.remove();return}m=document.createElement('div');m.className='menu cam';m.innerHTML='<strong>'+e(S.profil.ad)+'</strong><small>'+e(UZAK?S.oturum.u.email:'Bu tarayıcıda saklanan profil')+'</small><div>'+nf(S.oneriler.filter(o=>o.yazar===S.profil.id).length)+' önerin var</div><button class="btn kucuk" style="margin-top:12px">'+(UZAK?'Çıkış yap':'Profili sıfırla')+'</button>';$('.nav').appendChild(m);m.onclick=x=>x.stopPropagation();$('button',m).onclick=()=>cikis();document.addEventListener('click',()=>m.remove(),{once:true})}}
 function yon(){const h=location.hash.replace(/^#\/?/,'').split('/');window.scrollTo(0,0);
   if(h[0]==='g'&&h[1])return calisma(h[1],parseInt(h[2]||'0',10)||0,h[3]?decodeURIComponent(h[3]):null);

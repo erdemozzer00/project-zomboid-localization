@@ -31,12 +31,11 @@ button{cursor:pointer;border:0;background:none}
 .giris form{display:grid;gap:10px}.giris .btn{height:46px;margin-top:6px}
 .giris .gec{margin-top:18px;font-size:13.5px;color:var(--ink2);text-align:center}.giris .gec button{color:var(--vurgu);font-weight:600}
 .hata{color:var(--kirmizi);font-size:13.5px;min-height:18px}
-.logo{width:44px;height:44px;border-radius:14px;background:conic-gradient(from 210deg,#5e5ce6,#ff8f6b,#3ecf9a,#5e5ce6);box-shadow:0 8px 22px -8px #5e5ce6;position:relative}
-.logo:after{content:"";position:absolute;inset:9px;border-radius:8px;background:var(--cam2);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.logo{display:block;width:64px;height:64px;border-radius:14px;object-fit:contain;flex:none}
 @keyframes gel{from{opacity:0;transform:translateY(14px) scale(.985)}}
 /* üst çubuk */
 .nav{position:sticky;top:14px;z-index:20;margin:14px auto 0;width:min(1320px,calc(100% - 28px));height:56px;border-radius:999px;display:flex;align-items:center;gap:6px;padding:0 8px 0 14px}
-.nav .logo{width:28px;height:28px;border-radius:9px}.nav .logo:after{inset:6px;border-radius:5px}
+.nav .logo{width:28px;height:28px;border-radius:9px}
 .nav b{font-weight:650;letter-spacing:-.02em;margin:0 14px 0 6px;font-size:16px}
 .nav a{color:var(--ink2);text-decoration:none;padding:8px 14px;border-radius:999px;font-weight:540;font-size:14px;transition:background .2s,color .2s}
 .nav a:hover{color:var(--ink)}.nav a.acik{background:var(--cam2);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.08)}
