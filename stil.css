@@ -44,7 +44,8 @@ button{cursor:pointer;border:0;background:none}
 .av{width:30px;height:30px;border-radius:50%;display:inline-grid;place-items:center;color:#fff;font-size:12px;font-weight:700;flex:none}
 .av.kucuk{width:20px;height:20px;font-size:10px}
 .ben{display:flex;align-items:center;gap:9px;padding:5px 14px 5px 5px;border-radius:999px;background:var(--cam2);font-weight:560;font-size:14px;position:relative}
-.menu{position:absolute;right:0;top:66px;width:250px;padding:16px;text-align:left;font-weight:400;animation:gel .25s}
+.menu{position:absolute;right:0;top:66px;width:250px;padding:16px;text-align:left;font-weight:400;background:#fff;border-color:var(--cizgi)}
+@media (prefers-color-scheme:dark){.menu{background:#202129}}
 .menu small{display:block;color:var(--ink3);margin:2px 0 12px;word-break:break-all}
 .sayfa{width:min(1320px,calc(100% - 28px));margin:0 auto;padding:34px 0 80px;animation:gel .45s cubic-bezier(.2,.8,.2,1)}
 /* ana ekran */
