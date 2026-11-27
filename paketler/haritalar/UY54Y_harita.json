@@ -1,0 +1,500 @@
+{
+ "_paket": "UY54Y",
+ "_grup": "yeniden",
+ "_dosya": "RadioData_lua",
+ "_baslik": "Zombi temas uyarıları ve oyuncu selamları",
+ "_parcalar": [
+  [
+   1,
+   54
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "RD_ALifeLine_2447b5626aa733a9",
+   "Infected ahead, deal with it quietly",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "2": [
+   "RD_ALifeLine_178a91860d155083",
+   "Got an infected, one, straight ahead",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "3": [
+   "RD_ALifeLine_6a1a169e565eba57",
+   "Dispatch, I've got a 10-96 walking right at me, over",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "4": [
+   "RD_ALifeLine_623bf86252567271",
+   "Infected, let's not make any noise yet",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "5": [
+   "RD_ALifeLine_611381ca0c963246",
+   "Hell, there goes another one",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "6": [
+   "RD_ALifeLine_4d324d706caeba26",
+   "One of the dead, no point talking to it",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "7": [
+   "RD_ALifeLine_69656f5a2f0a9fc0",
+   "I see one of the dead, don't let it get close",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "8": [
+   "RD_ALifeLine_494cd3cb34c776fd",
+   "One of them, hold your positions, I'll look at him",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "9": [
+   "RD_ALifeLine_06af76f20ce7af71",
+   "Sheriff's office, STOP- no, no, he won't stop, he never stops",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "10": [
+   "RD_ALifeLine_26086c187f62b33a",
+   "Easy, easy, I see him, let him come to us",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "11": [
+   "RD_ALifeLine_3635c06c303588e3",
+   "One infected, deputies fall back and let him come",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "12": [
+   "RD_ALifeLine_34d7bf236bb62d01",
+   "Watch that one, he's quick... no, slow, never mind",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "13": [
+   "RD_ALifeLine_3be71d2c5a54dfdc",
+   "Don't fight them unless he closes, we don't need the noise",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "14": [
+   "RD_ALifeLine_7466ff2a6f79670d",
+   "Damn it, I hate when they stand there swaying like that",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "15": [
+   "RD_ALifeLine_071647c5342b4ed3",
+   "One coming from the east, someone call it in, over",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "16": [
+   "RD_ALifeLine_7f9edfd07274cb11",
+   "That one's dead, no question, hold your fire until we need it",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "17": [
+   "RD_ALifeLine_73a926631ae3caa3",
+   "Dead one, don't let it grab you",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "18": [
+   "RD_ALifeLine_10f81c83594af72c",
+   "I see it, I see it, hold on, I need a clear shot",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=law"
+   ]
+  ],
+  "19": [
+   "RD_ALifeLine_691916c62ec44ba5",
+   "I see one of the dead, stay back from it",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=swat"
+   ]
+  ],
+  "20": [
+   "RD_ALifeLine_7812a6a173e8a7ad",
+   "Target ahead, dead, moving, hold fire",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=swat"
+   ]
+  ],
+  "21": [
+   "RD_ALifeLine_2ff73faf26099d39",
+   "Mover at the end of the line, single",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=swat"
+   ]
+  ],
+  "22": [
+   "RD_ALifeLine_1e40f0bf0a3877da",
+   "Infected spotted, one, awaiting call",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=swat"
+   ]
+  ],
+  "23": [
+   "RD_ALifeLine_6e07c15c0492cbf3",
+   "Watch out, one body, slow",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=swat"
+   ]
+  ],
+  "24": [
+   "RD_ALifeLine_1f80763f2463ff18",
+   "I see one of the dead, stay careful",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=swat"
+   ]
+  ],
+  "25": [
+   "RD_ALifeLine_5b357a81376000eb",
+   "It's one of the dead, what do we do?",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=swat"
+   ]
+  ],
+  "26": [
+   "RD_ALifeLine_0622365f609c62d4",
+   "Visual on one, hold, hold, hold",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=swat"
+   ]
+  ],
+  "27": [
+   "RD_ALifeLine_4c42ad643e5a3448",
+   "One of them... keep quiet don't draw more in",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=swat"
+   ]
+  ],
+  "28": [
+   "RD_ALifeLine_796c125e6b9e5cda",
+   "Infected in the open, I have a shot",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=swat"
+   ]
+  ],
+  "29": [
+   "RD_ALifeLine_4b94728d3f358a34",
+   "I've got one at three o'clock, closing slowly",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=swat"
+   ]
+  ],
+  "30": [
+   "RD_ALifeLine_79f7339856a4266a",
+   "One of them! Don't lose your head!",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=swat"
+   ]
+  ],
+  "31": [
+   "RD_ALifeLine_4bd6ffd974a4f827",
+   "One of the dead out there, keep watching it",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=military"
+   ]
+  ],
+  "32": [
+   "RD_ALifeLine_15ed4c04528dbd50",
+   "One of the infected. Should we leave it alone?",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=military"
+   ]
+  ],
+  "33": [
+   "RD_ALifeLine_1b7473cd588f014a",
+   "One hostile, bearing zero-two-zero, moving toward us",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=military"
+   ]
+  ],
+  "34": [
+   "RD_ALifeLine_3898274d63da4450",
+   "Sergeant, I've got an infected on the left",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=military"
+   ]
+  ],
+  "35": [
+   "RD_ALifeLine_6332a3b075f869be",
+   "Visual, one dead, sir, shambling, closing",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=military"
+   ]
+  ],
+  "36": [
+   "RD_ALifeLine_68ddb8836c7f072e",
+   "One of the dead, wait a moment",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=military"
+   ]
+  ],
+  "37": [
+   "RD_ALifeLine_686bc208103fa070",
+   "Hold fire! One infected, no more than that",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=military"
+   ]
+  ],
+  "38": [
+   "RD_ALifeLine_1177314b790f1fa1",
+   "One of the dead... no, no, I'm not saying that, one infected",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=military"
+   ]
+  ],
+  "39": [
+   "RD_ALifeLine_46cbeeed0a6561f0",
+   "Dead ones, front, hold the line",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=military"
+   ]
+  ],
+  "40": [
+   "RD_ALifeLine_34fe1e5754b79821",
+   "Infected sighted, small arms only, don't waste the heavy stuff",
+   [
+    "ALifeDialogue_barks_contact_1.lua",
+    "CONTACT_INFECTED",
+    "reg=military"
+   ]
+  ],
+  "41": [
+   "RD_ALifeLine_4ea8cd2a7f2d3ff5",
+   "Oh! You scared me half to death, I thought you were one of them, sorry, I'm jumpy",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=civilian,family|tmp=fresh"
+   ]
+  ],
+  "42": [
+   "RD_ALifeLine_48537a5764658a2e",
+   "You're not bit, are you? No? Okay, good, stay away from the church, there's a bunch of them inside",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=civilian,family|tmp=fresh"
+   ]
+  ],
+  "43": [
+   "RD_ALifeLine_19b0555f600e1526",
+   "I can't stop long, don't let one of those things get close, okay?",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=civilian,family|tmp=fresh"
+   ]
+  ],
+  "44": [
+   "RD_ALifeLine_1c01e2e3245d58ab",
+   "Is it true they're shooting people at the roadblock? No, don't tell me, I don't want to know",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=civilian,family|tmp=fresh"
+   ]
+  ],
+  "45": [
+   "RD_ALifeLine_35d266ea210a2b20",
+   "Oh thank God, you talk, the last three people I saw didn't, please be careful",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=civilian,family|tmp=fresh"
+   ]
+  ],
+  "46": [
+   "RD_ALifeLine_552be5cb7a34052d",
+   "You're real, right? Say something else, okay, okay, good",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=civilian,family|tmp=fresh"
+   ]
+  ],
+  "47": [
+   "RD_ALifeLine_7de9e25a6e4d79b2",
+   "I had a whole speech ready for the first person I met, can't remember a word of it",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=civilian,family|tmp=fresh"
+   ]
+  ],
+  "48": [
+   "RD_ALifeLine_2df9540f6d4bc91c",
+   "Please tell me the Army's finally coming, no? Alright, stay safe, I've got to get home",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=civilian,family|tmp=fresh|day=0,14"
+   ]
+  ],
+  "49": [
+   "RD_ALifeLine_175205e21e32bd4a",
+   "Good Lord, a real person, take care out there",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=civilian,family|tmp=fresh|st=friendly,neutral"
+   ]
+  ],
+  "50": [
+   "RD_ALifeLine_468a64c702628a9c",
+   "I lost my husband Friday, sorry, I don't know why I told you that, mind the dogs up the road, okay?",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=civilian,family|tmp=fresh|sex=f|day=0,10|world=road"
+   ]
+  ],
+  "51": [
+   "RD_ALifeLine_4a19d82956998529",
+   "Hi there, just you? Me too, I keep talking to myself, so it's nice to have somebody answer",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=civilian,family|tmp=fresh|st=friendly"
+   ]
+  ],
+  "52": [
+   "RD_ALifeLine_5c1d14ee1cc367c1",
+   "We're holed up with my in-laws, God help me, don't knock after dark, my father-in-law shoots first",
+   [
+    "ALifeDialogue_barks_greet_1.lua",
+    "GREET_PLAYER",
+    "reg=family|tmp=fresh|hour=16,5"
+   ]
+  ],
+  "53": [
+   "RD_ALifeLine_2acff9ba36a7bc05",
+   "Hello... just a wave no need to come closer",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=family|st=friendly,neutral"
+   ]
+  ],
+  "54": [
+   "RD_ALifeLine_5a6e75aa5e9f9e14",
+   "Hey, it's you, I've been hearing good things",
+   [
+    "ALifeDialogue_barks_passing_3.lua",
+    "PASSING_PLAYER",
+    "reg=civilian,family,worker,rescue|rep=good"
+   ]
+  ]
+ }
+}
