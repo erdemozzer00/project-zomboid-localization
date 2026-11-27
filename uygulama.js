@@ -72,7 +72,7 @@ function kabuk(aktif,ic){
   $('#ben').onclick=ev=>{ev.stopPropagation();let m=$('.menu');if(m){m.remove();return}m=document.createElement('div');m.className='menu cam';m.innerHTML='<strong>'+e(S.profil.ad)+'</strong><small>'+e(UZAK?S.oturum.u.email:'Bu tarayıcıda saklanan profil')+'</small><div>'+nf(S.oneriler.filter(o=>o.yazar===S.profil.id).length)+' önerin var</div><button class="btn kucuk" style="margin-top:12px">'+(UZAK?'Çıkış yap':'Profili sıfırla')+'</button>';$('.nav').appendChild(m);m.onclick=x=>x.stopPropagation();$('button',m).onclick=()=>cikis();document.addEventListener('click',()=>m.remove(),{once:true})}}
 function yon(){const h=location.hash.replace(/^#\/?/,'').split('/');window.scrollTo(0,0);
   if(h[0]==='g'&&h[1])return calisma(h[1],parseInt(h[2]||'0',10)||0,h[3]?decodeURIComponent(h[3]):null);
-  W=null;if(h[0]==='havuz')return havuz();if(h[0]==='kapsam')return kapsam();ana()}
+  W=null;if(h[0]==='havuz'){if(UZAK)return havuzYukle().then(()=>{if(location.hash==='#/havuz')havuz()}).catch(x=>toast(x.message));return havuz()}if(h[0]==='kapsam')return kapsam();ana()}
 function guvenBar(d,t){const p=k=>((d[k]||0)/t*100).toFixed(2);return '<div class="guven" title="Bağlam güveni"><i class="l2" style="width:'+p('2')+'%"></i><i class="l1" style="width:'+p('1')+'%"></i><i class="l0" style="width:'+p('0')+'%"></i></div>'}
 function ana(){const son=LS.get('cm_son',null);
   let ic='<main class="sayfa"><div class="selam">Merhaba, '+e(S.profil.ad)+'</div><h1 class="dev">Bugün hangi <em>sahneye</em> bakıyoruz?</h1><p class="alt-yazi">Bir bölüm seç, sahneyi aç, Türkçeyi yerinde düzelt. Onaylı çeviri değişmez; önerin havuza düşer.</p>';
@@ -113,7 +113,8 @@ function satirCiz(odakKey){const ixs=gorunen(),out=[];let onceki=-1;
   ixs.slice(0,W.goster).forEach(ix=>{const r=W.r[ix],c=W.c[r[3]];
     if(r[3]!==onceki&&W.c.length>1){onceki=r[3];const kp=kosulParca(c[1]);out.push('<div class="kosul">'+(kp.length?kp.map(k=>'<span class="chip">'+(k[0]?e(k[0])+': ':'')+'<b>'+e(k[1])+'</b></span>').join(''):'<span class="chip">koşul etiketi yok</span>')+(W.g.tur==='npc'&&c[0]?'<span class="chip">'+e(c[0])+'</span>':'')+'</div>')}
     const t=W.taslak[W.g.hedef+'|'+r[0]],os=onerilerOf(r[0]);
-    out.push('<div class="satir'+(t!=null&&t!==r[2]?' degisti':'')+'" data-ix="'+ix+'"><div class="izler">'+[...new Set(os.map(o=>o.yazar))].map(y=>av(y,1)).join('')+'</div><div class="en'+(r[1]==null?' yok':'')+'">'+(r[1]==null?'İngilizce kaynağı yok':e(r[1]))+'</div><textarea rows="1" spellcheck="false" aria-label="Türkçe">'+e(t!=null?t:r[2])+'</textarea><div class="alt"><input class="alan" placeholder="Gerekçe (isteğe bağlı)" maxlength="300"><button class="btn koyu" data-is="kaydet">Öneriyi kaydet</button><button class="btn" data-is="geri">Geri al</button><div class="uyari"></div></div></div>')});
+    const own=os.filter(o=>o.yazar===S.profil.id && o.gorulen_tr===r[2]).at(-1);
+    out.push('<div class="satir'+(t!=null&&t!==r[2]?' degisti':'')+'" data-ix="'+ix+'"><div class="izler">'+[...new Set(os.map(o=>o.yazar))].map(y=>av(y,1)).join('')+'</div><div class="en'+(r[1]==null?' yok':'')+'">'+(r[1]==null?'İngilizce kaynağı yok':e(r[1]))+'</div><textarea rows="1" spellcheck="false" aria-label="Türkçe">'+e(t ?? own?.onerilen_tr ?? r[2])+'</textarea><small class="kayit-durumu" role="status">'+(own?'Havuzda kayıtlı önerin':'')+'</small><div class="alt"><input class="alan" placeholder="Gerekçe (isteğe bağlı)" maxlength="300"><button class="btn koyu" data-is="kaydet">Öneriyi kaydet</button><button class="btn" data-is="geri">Geri al</button><div class="uyari"></div></div></div>')});
   if(ixs.length>W.goster)out.push('<button class="btn daha" id="daha">'+nf(ixs.length-W.goster)+' satır daha göster</button>');if(!ixs.length)out.push('<p class="bos-not" style="padding:30px 20px">Eşleşen satır yok.</p>');
   const kap=$('#satirlar');kap.innerHTML=out.join('');$$('textarea',kap).forEach(boy);
   const d=$('#daha');if(d)d.onclick=()=>{W.goster+=120;const k=W.odak!=null?W.r[W.odak][0]:null;satirCiz(k)};
@@ -139,15 +140,17 @@ function bagCiz(ix){const r=W.r[ix],c=W.c[r[3]],g=W.g,dy=duzeyYazi(g,c),kp=kosul
   $('#bag').innerHTML=h}
 function geriAl(ix){const s=$('.satir[data-ix="'+ix+'"]'),r=W.r[ix],t=$('textarea',s);t.value=r[2];delete W.taslak[W.g.hedef+'|'+r[0]];LS.set('cm_taslak',W.taslak);s.classList.remove('degisti');boy(t);uyar(s,r);t.focus()}
 async function kaydet(ix){const s=$('.satir[data-ix="'+ix+'"]'),r=W.r[ix],c=W.c[r[3]],val=$('textarea',s).value,ger=$('.alt input',s).value.trim();
-  if(val===r[2]){if(!komsu(s,1))toast('Değişiklik yok');return}
+  const onceki=onerilerOf(r[0]).filter(o=>o.yazar===S.profil.id && o.gorulen_tr===r[2]).at(-1);
+  if(val===(onceki?.onerilen_tr ?? r[2]) && !ger){toast(onceki?'Bu önerin zaten havuzda':'Öneri için Türkçeyi düzenle veya gerekçe yaz');return}
   if(!val.trim()){toast('Boş öneri kaydedilmez');return}
-  const kayit={hedef:W.g.hedef,anahtar:r[0],katalog_surumu:S.kat.surum,en:r[1],gorulen_tr:r[2],onerilen_tr:val,gerekce:ger||null,baglam:{grup:W.gid,sahne:W.sh[0],kaynak:c[0]||null,kosul:c[1]||null,baglam_duzeyi:c[3]}};
-  const b=$('[data-is=kaydet]',s);b.disabled=true;
+  const kayit={yazar:S.profil.id,hedef:W.g.hedef,anahtar:r[0],katalog_surumu:S.kat.surum,en:r[1],gorulen_tr:r[2],onerilen_tr:val,gerekce:ger||null,baglam:{grup:W.gid,sahne:W.sh[0],kaynak:c[0]||null,kosul:c[1]||null,baglam_duzeyi:c[3]}};
+  const b=$('[data-is=kaydet]',s);if(b.disabled)return; b.disabled=true;
   try{let tam;if(UZAK){tam=(await db('oneriler',{method:'POST',body:JSON.stringify([kayit])}))[0]}else{tam=Object.assign({id:uuid(),olusturma:new Date().toISOString(),yazar:S.profil.id},kayit)}
     S.oneriler.push(tam);if(!UZAK)LS.set('cm_yerel_oneriler',S.oneriler);
     delete W.taslak[W.g.hedef+'|'+r[0]];LS.set('cm_taslak',W.taslak);s.classList.add('tamam');$('.izler',s).innerHTML=[...new Set(onerilerOf(r[0]).map(o=>o.yazar))].map(y=>av(y,1)).join('');
+    if(!s.isConnected)return; $('.kayit-durumu',s).textContent='Havuzda kayıtlı önerin'; $('.alt input',s).value='';
     const nl=$('.nav a[href="#/havuz"]');if(nl)nl.textContent='Havuz · '+nf(S.oneriler.length);toast('Öneri havuza eklendi');W.odak=null;if(!komsu(s,1))odakla(ix)}
-  catch(x){toast('Kaydedilemedi: '+x.message)}b.disabled=false}
+  catch(x){$('.uyari',s).textContent='Kaydedilemedi: '+x.message;toast('Öneri kaydedilemedi')}b.disabled=false}
 /* ---------- havuz ---------- */
 function cakisma(){const m={};S.oneriler.forEach(o=>{const k=o.hedef+'|'+o.anahtar;m[k]=(m[k]||0)+1});return m}
 function disaAktar(){const ck=cakisma();return{bicim:'ceviri-masasi/oneriler@2',indirme:new Date().toISOString(),sitedeki_katalog_surumu:S.kat.surum,ozet:{oneri:S.oneriler.length,satir:Object.keys(ck).length,birden_fazla_oneri_alan_satir:Object.values(ck).filter(n=>n>1).length},oneriler:S.oneriler.map(o=>({id:o.id,hedef:o.hedef,anahtar:o.anahtar,katalog_surumu:o.katalog_surumu,en:o.en,gorulen_tr:o.gorulen_tr,onerilen_tr:o.onerilen_tr,gerekce:o.gerekce||null,yazar:{id:o.yazar,ad:adi(o.yazar)},olusturma:o.olusturma,ayni_satira_oneri_sayisi:ck[o.hedef+'|'+o.anahtar],baglam:o.baglam||null}))}}
