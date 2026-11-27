@@ -1,0 +1,2794 @@
+{
+ "_paket": "SND3Y",
+ "_grup": "sahne",
+ "_dosya": "RadioData_lua",
+ "_baslik": "SND_3 NPC sahneleri yeniden çeviri",
+ "_parcalar": [
+  [
+   1,
+   113
+  ],
+  [
+   114,
+   228
+  ],
+  [
+   229,
+   308
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "RD_ALifeLine_552d8bef51a14fad",
+   "There's glass all over the road",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0007",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=cars,road"
+   ]
+  ],
+  "2": [
+   "RD_ALifeLine_5986c36816ef747f",
+   "From the cars, from the stores, everybody broke everything, look at it",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0007",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=cars,road"
+   ]
+  ],
+  "3": [
+   "RD_ALifeLine_69a2d16f270fe055",
+   "Then be careful, shoes, check your shoes, one cut and you're slow",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0007",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=cars,road"
+   ]
+  ],
+  "4": [
+   "RD_ALifeLine_7127d0634dada412",
+   "Is the alley clear?",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0008",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=road"
+   ]
+  ],
+  "5": [
+   "RD_ALifeLine_66bc26cf43da1137",
+   "You THINK?",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0008",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=road"
+   ]
+  ],
+  "6": [
+   "RD_ALifeLine_67217e34192687fd",
+   "I can't see around the dumpster, you go look, I'll wait here, I'll hold your bag",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0008",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=road"
+   ]
+  ],
+  "7": [
+   "RD_ALifeLine_475534602fc8154d",
+   "I keep thinking of the cars people left behind",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0009",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=sad|world=road"
+   ]
+  ],
+  "8": [
+   "RD_ALifeLine_047b713a4e67eadb",
+   "And the child seats.. lunchboxes",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0009",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=sad|world=road"
+   ]
+  ],
+  "9": [
+   "RD_ALifeLine_381885466974c92d",
+   "I try not to think about the lunchboxes",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0009",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=sad|world=road"
+   ]
+  ],
+  "10": [
+   "RD_ALifeLine_7428ee8f280d2fac",
+   "I can't stop",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0009",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=sad|world=road"
+   ]
+  ],
+  "11": [
+   "RD_ALifeLine_4d6318353116a46c",
+   "Get in the car! GET IN THE CAR!",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0010",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=vehicle"
+   ]
+  ],
+  "12": [
+   "RD_ALifeLine_3cb5d5432e59aec6",
+   "I'm in, I'm in, GO!",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0010",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=vehicle"
+   ]
+  ],
+  "13": [
+   "RD_ALifeLine_724db9844c9f8559",
+   "It won't start, why won't it start?!",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0010",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=vehicle"
+   ]
+  ],
+  "14": [
+   "RD_ALifeLine_31acc4e363253b70",
+   "Try again, try again, try again, TURN IT!",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0010",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=vehicle"
+   ]
+  ],
+  "15": [
+   "RD_ALifeLine_5979235378a9acfd",
+   "We're out of gas",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0011",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "16": [
+   "RD_ALifeLine_5267b17654de19dd",
+   "We can't be out of gas",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0011",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "17": [
+   "RD_ALifeLine_034442b263d7ec21",
+   "The needle's been on E for ten miles, I kept saying it'd make it",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0011",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "18": [
+   "RD_ALifeLine_343259a423e9e79b",
+   "Then we're walking, grab what you can, we're walking from here",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0011",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "19": [
+   "RD_ALifeLine_0a9b91de6b11b594",
+   "Who's got the keys? WHO HAS THE KEYS?",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0012",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+   ]
+  ],
+  "20": [
+   "RD_ALifeLine_39edf16b6eccb0fc",
+   "I thought you had them",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0012",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+   ]
+  ],
+  "21": [
+   "RD_ALifeLine_5d56445e3fe58e2c",
+   "I gave them to YOU!",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0012",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+   ]
+  ],
+  "22": [
+   "RD_ALifeLine_0079e7e14cbad918",
+   "They're in the ignition, they're in the- they've been in the ignition the whole time",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0012",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear"
+   ]
+  ],
+  "23": [
+   "RD_ALifeLine_07daa0f27a80346d",
+   "I keep picturing hiding under a truck",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0013",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=vehicle"
+   ]
+  ],
+  "24": [
+   "RD_ALifeLine_4a9a20ff6a208238",
+   "What if there wasn't room?",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0013",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=vehicle"
+   ]
+  ],
+  "25": [
+   "RD_ALifeLine_0a3eb78940f6ef49",
+   "I know. Panic keeps telling me hide before I even see a place",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0013",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=vehicle"
+   ]
+  ],
+  "26": [
+   "RD_ALifeLine_2853b54233a8856d",
+   "Somebody's horn is stuck, it's been going for twenty minutes",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0014",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=angry"
+   ]
+  ],
+  "27": [
+   "RD_ALifeLine_0ee0940b2fae3fd2",
+   "It's bringing them all in",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0014",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=angry"
+   ]
+  ],
+  "28": [
+   "RD_ALifeLine_083d6cc22e3415ea",
+   "Then somebody go smash it!",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0014",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=angry"
+   ]
+  ],
+  "29": [
+   "RD_ALifeLine_5bcc86d11991864a",
+   "You go smash it, go ahead, be my guest",
+   [
+    "ALifeDialogue_scenes_panic_days_4.lua",
+    "fw_ld7_pwa_0014",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=angry"
+   ]
+  ],
+  "30": [
+   "RD_ALifeLine_2ebf95464e273169",
+   "That car alarm's been going for an hour, I can't stand it",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0015",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim|world=vehicle"
+   ]
+  ],
+  "31": [
+   "RD_ALifeLine_48f1766f46fe28f9",
+   "It'll stop when the battery dies",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0015",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim|world=vehicle"
+   ]
+  ],
+  "32": [
+   "RD_ALifeLine_463de32c20624355",
+   "It's drawing them like flies!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0015",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim|world=vehicle"
+   ]
+  ],
+  "33": [
+   "RD_ALifeLine_04508080081b9fa0",
+   "Then let's go the other way, away from the alarm, it's all we can do",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0015",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim|world=vehicle"
+   ]
+  ],
+  "34": [
+   "RD_ALifeLine_7b86c6d45fe50126",
+   "Every car on the highway's empty, doors open, keys still in them",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0016",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=sad|world=vehicle,door,road"
+   ]
+  ],
+  "35": [
+   "RD_ALifeLine_71717a2a1efb4e40",
+   "Where did everybody go?",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0016",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=sad|world=vehicle,door,road"
+   ]
+  ],
+  "36": [
+   "RD_ALifeLine_7657cacf6d6e3cb8",
+   "I don't know, they just got out and walked off",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0016",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=sad|world=vehicle,door,road"
+   ]
+  ],
+  "37": [
+   "RD_ALifeLine_4112171d16fb9b95",
+   "Or got pulled off, I don't want to think about it",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0016",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=sad|world=vehicle,door,road"
+   ]
+  ],
+  "38": [
+   "RD_ALifeLine_49538bd519e51860",
+   "Check the trunks, there's gotta be something",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0017",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim|world=vehicle,cars"
+   ]
+  ],
+  "39": [
+   "RD_ALifeLine_68fd02ac6b02d8b5",
+   "Water, a spare jacket, a tire iron, anything",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0017",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim|world=vehicle,cars"
+   ]
+  ],
+  "40": [
+   "RD_ALifeLine_499a7a230e5b1989",
+   "Okay, but quick, quick, I don't like being out here with all these empty cars",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0017",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim|world=vehicle,cars"
+   ]
+  ],
+  "41": [
+   "RD_ALifeLine_51f7a74e088f779b",
+   "Somebody's knocking, don't open it",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0018",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "42": [
+   "RD_ALifeLine_6702cf9f29b59849",
+   "What if it's a neighbor?",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0018",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "43": [
+   "RD_ALifeLine_7b68d90518767023",
+   "What if it isn't?! DON'T OPEN IT!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0018",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "44": [
+   "RD_ALifeLine_75fdd4af40df8943",
+   "Who is it? Say your name! Say your NAME!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0018",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "45": [
+   "RD_ALifeLine_3cc348776dd9b077",
+   "Lock the door, LOCK IT!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0019",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=door"
+   ]
+  ],
+  "46": [
+   "RD_ALifeLine_5522c9c82ebd4416",
+   "It is locked!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0019",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=door"
+   ]
+  ],
+  "47": [
+   "RD_ALifeLine_3a72eed5544a6940",
+   "Put something against it, the chair, the table, anything!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0019",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=door"
+   ]
+  ],
+  "48": [
+   "RD_ALifeLine_1f3d4a703767e8c7",
+   "It's moving, the whole door's moving, oh God, oh God",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0019",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=door"
+   ]
+  ],
+  "49": [
+   "RD_ALifeLine_0c27140e2a0d810e",
+   "Check the back door, did anybody check the back door?",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0020",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=door"
+   ]
+  ],
+  "50": [
+   "RD_ALifeLine_0451903d0915d66e",
+   "I thought YOU did!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0020",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=door"
+   ]
+  ],
+  "51": [
+   "RD_ALifeLine_0040f3ed0b8630b2",
+   "Go, go, go, both of you, now, if it's open we're- GO!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0020",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=door"
+   ]
+  ],
+  "52": [
+   "RD_ALifeLine_16e745a7794959bf",
+   "Stay away from the window",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0021",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=window"
+   ]
+  ],
+  "53": [
+   "RD_ALifeLine_396f09be4c19ddff",
+   "I just want to look",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0021",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=window"
+   ]
+  ],
+  "54": [
+   "RD_ALifeLine_32239ff84b930994",
+   "Don't look, don't even stand near it, they see movement",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0021",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=window"
+   ]
+  ],
+  "55": [
+   "RD_ALifeLine_3149ca290f353e2e",
+   "Okay, okay, I'm crawling, I'm crawling to the other room",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0021",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=window"
+   ]
+  ],
+  "56": [
+   "RD_ALifeLine_3e17c699652015c5",
+   "There's a face at the window, there's a face at the WINDOW!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0022",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=window"
+   ]
+  ],
+  "57": [
+   "RD_ALifeLine_5f8ee6b16736b386",
+   "Right there, right there, he's pressing his- he's just standing there, looking at me!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0022",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=window"
+   ]
+  ],
+  "58": [
+   "RD_ALifeLine_6915b6ba49ac3325",
+   "Get away from the glass, get away, get AWAY",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0022",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=window"
+   ]
+  ],
+  "59": [
+   "RD_ALifeLine_458303d963b6c824",
+   "Could we cover that window? I'd feel less exposed",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0023",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim|world=window"
+   ]
+  ],
+  "60": [
+   "RD_ALifeLine_059d249500df6b99",
+   "We don't have a blanket",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0023",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim|world=window"
+   ]
+  ],
+  "61": [
+   "RD_ALifeLine_214e95e946fe2448",
+   "Glass just broke, something broke glass in the back!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0024",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "62": [
+   "RD_ALifeLine_51e942bc70289e4f",
+   "Was it a bird?",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0024",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "63": [
+   "RD_ALifeLine_73937e4b37b42fd4",
+   "Birds don't break glass at three miles an hour, something's inside!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0024",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "64": [
+   "RD_ALifeLine_6cbdc6e800bb4896",
+   "Stay together, stay behind me, get the poker, get anything",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0024",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "65": [
+   "RD_ALifeLine_470fb78d6fdd6ef1",
+   "Don't look out the window, don't look",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0025",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=window"
+   ]
+  ],
+  "66": [
+   "RD_ALifeLine_6bfa2ac848e1cbbd",
+   "Why? What's there?",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0025",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=window"
+   ]
+  ],
+  "67": [
+   "RD_ALifeLine_210e7bbf17fec491",
+   "Just don't, I'm serious, don't look",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0025",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=window"
+   ]
+  ],
+  "68": [
+   "RD_ALifeLine_7a9e0567260bccb4",
+   "Now I HAVE to look",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0025",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=window"
+   ]
+  ],
+  "69": [
+   "RD_ALifeLine_6fb8b7f1787a2484",
+   "Upstairs, go upstairs, everybody upstairs",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0026",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=stairs,building"
+   ]
+  ],
+  "70": [
+   "RD_ALifeLine_5dc89a9f3ec78a73",
+   "They can climb stairs, can't they?",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0026",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=stairs,building"
+   ]
+  ],
+  "71": [
+   "RD_ALifeLine_47eecdad5ef4950e",
+   "Don't ask me that, I don't want to know, go go go",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0026",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=stairs,building"
+   ]
+  ],
+  "72": [
+   "RD_ALifeLine_4bb0af47149175df",
+   "Barricade the top, push the dresser, push it",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0026",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=stairs,building"
+   ]
+  ],
+  "73": [
+   "RD_ALifeLine_16ea4242577e8b79",
+   "I once tried to hide in a closet. Kept waving everybody in",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0027",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=inside"
+   ]
+  ],
+  "74": [
+   "RD_ALifeLine_6d66689078095370",
+   "Room for how many?",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0027",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=inside"
+   ]
+  ],
+  "75": [
+   "RD_ALifeLine_0e8b703a5af17009",
+   "I keep worrying our voices will carry outside",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0028",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=building"
+   ]
+  ],
+  "76": [
+   "RD_ALifeLine_58f8d0c81f0c159d",
+   "Then take a breath. You're scaring me more than the talking",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0028",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=building"
+   ]
+  ],
+  "77": [
+   "RD_ALifeLine_537ef0c87cce0eb0",
+   "Just talk low, normal, like we're watching TV. I miss that",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0028",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=building"
+   ]
+  ],
+  "78": [
+   "RD_ALifeLine_668f5b5811a0948b",
+   "It's too quiet in this house, listen to it",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0029",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=sad|world=building"
+   ]
+  ],
+  "79": [
+   "RD_ALifeLine_09462c321097e94d",
+   "I'll turn on the radio",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0029",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=sad|world=building"
+   ]
+  ],
+  "80": [
+   "RD_ALifeLine_2ea72d0112badbba",
+   "No, no radio, there's nothing on the radio",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0029",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=sad|world=building"
+   ]
+  ],
+  "81": [
+   "RD_ALifeLine_7b67ba572ffc483c",
+   "Then hum something, I don't care, just fill it up",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0029",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=sad|world=building"
+   ]
+  ],
+  "82": [
+   "RD_ALifeLine_4d824c452014a49d",
+   "Check every room, check the kitchen, check the closets",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0030",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=building"
+   ]
+  ],
+  "83": [
+   "RD_ALifeLine_1ef20ede32cff456",
+   "Because I heard something, I know I heard something",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0030",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=building"
+   ]
+  ],
+  "84": [
+   "RD_ALifeLine_792c615641f14416",
+   "I'll start with the bedrooms, you take the hall, keep talking to me",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0030",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=building"
+   ]
+  ],
+  "85": [
+   "RD_ALifeLine_0fd91d1a14f0ad09",
+   "Do they climb stairs? Does anybody know?",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0031",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=stairs,building"
+   ]
+  ],
+  "86": [
+   "RD_ALifeLine_2138dcc40b817333",
+   "I saw one on the porch steps",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0031",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=stairs,building"
+   ]
+  ],
+  "87": [
+   "RD_ALifeLine_6fb8ea46710715c8",
+   "Steps aren't stairs!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0031",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=stairs,building"
+   ]
+  ],
+  "88": [
+   "RD_ALifeLine_744438c440f95fb1",
+   "They're all the same to somebody who's trying to eat you, I'd barricade it",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0031",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=stairs,building"
+   ]
+  ],
+  "89": [
+   "RD_ALifeLine_6971d8a1011bfe40",
+   "The fence won't hold, it's just chain-link, it's already bending",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0032",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=fence"
+   ]
+  ],
+  "90": [
+   "RD_ALifeLine_5ca010932968ebe2",
+   "We've got the other one, the back one",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0032",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=fence"
+   ]
+  ],
+  "91": [
+   "RD_ALifeLine_0a33c9be16039f81",
+   "How long before they find the back one?",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0032",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=fence"
+   ]
+  ],
+  "92": [
+   "RD_ALifeLine_0d18fb4a5c799c28",
+   "Stop, stop, I can't, I can't do that math",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0032",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=fence"
+   ]
+  ],
+  "93": [
+   "RD_ALifeLine_4118df41143d8a98",
+   "Climb the fence, CLIMB, GO GO GO!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0033",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=fence"
+   ]
+  ],
+  "94": [
+   "RD_ALifeLine_555b75f904d36bd5",
+   "I can't, I've got the baby, I can't climb!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0033",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=fence"
+   ]
+  ],
+  "95": [
+   "RD_ALifeLine_0f0c6dc75030171e",
+   "Hand her to me, hand her up, I've got her, I've got her!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0033",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=fence"
+   ]
+  ],
+  "96": [
+   "RD_ALifeLine_68be4108372b9258",
+   "Don't drop her, DON'T DROP HER",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0033",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=fence"
+   ]
+  ],
+  "97": [
+   "RD_ALifeLine_5a9cde3c2aff6992",
+   "They're at the fence, they're all at the fence, there's like twelve of them",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0034",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=fence"
+   ]
+  ],
+  "98": [
+   "RD_ALifeLine_4ff4040f6c423da7",
+   "Are they getting through?",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0034",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=fence"
+   ]
+  ],
+  "99": [
+   "RD_ALifeLine_40e347977d6cbbf5",
+   "They're just pushing, they're all pushing, I think it's gonna go",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0034",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=fence"
+   ]
+  ],
+  "100": [
+   "RD_ALifeLine_244947c436c46f98",
+   "Then we go NOW, out the back, don't wait to see",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0034",
+    "reg=civilian,family,worker,rescue|tmp=fresh|day=0,4|mood=fear|world=fence"
+   ]
+  ],
+  "101": [
+   "RD_ALifeLine_414e2b4740c670de",
+   "Something moved in the trees",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0035",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=trees"
+   ]
+  ],
+  "102": [
+   "RD_ALifeLine_21fa036b3c430d1f",
+   "A deer",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0035",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=trees"
+   ]
+  ],
+  "103": [
+   "RD_ALifeLine_47b07a2b4fb19af7",
+   "It stood up, it stood up like a man",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0035",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=trees"
+   ]
+  ],
+  "104": [
+   "RD_ALifeLine_235d92c34bf827fa",
+   "Stop, stop talking, back away slowly, back away",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0035",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=trees"
+   ]
+  ],
+  "105": [
+   "RD_ALifeLine_60e96119646936ce",
+   "We should cut through the woods, stay off the road",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0036",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=trees,road"
+   ]
+  ],
+  "106": [
+   "RD_ALifeLine_6f19d8c76c6840d1",
+   "Are you crazy? You can't see anything in the woods!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0036",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=trees,road"
+   ]
+  ],
+  "107": [
+   "RD_ALifeLine_74469c273136a9b6",
+   "I don't know! I just want to get out of the open!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0036",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=trees,road"
+   ]
+  ],
+  "108": [
+   "RD_ALifeLine_0d16088f635618e0",
+   "A man just walked out of the tree line, he's carrying something",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0037",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=trees"
+   ]
+  ],
+  "109": [
+   "RD_ALifeLine_7e09d225240115da",
+   "Don't know, it's big, it's wrapped in a sheet, he's coming this way",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0037",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=trees"
+   ]
+  ],
+  "110": [
+   "RD_ALifeLine_3f2b943c549d5796",
+   "Don't let him close, tell him to stop, tell him to STOP",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0037",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=trees"
+   ]
+  ],
+  "111": [
+   "RD_ALifeLine_67b30a6b7d2e8c53",
+   "The woods are quiet, no birds",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0038",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim|world=trees"
+   ]
+  ],
+  "112": [
+   "RD_ALifeLine_158ca91b6208c71e",
+   "Where'd the birds go? Why are the birds gone?",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0038",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim|world=trees"
+   ]
+  ],
+  "113": [
+   "RD_ALifeLine_2b0bdaad59e71f00",
+   "They left, everything with sense left, we're the idiots still standing here",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0038",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim|world=trees"
+   ]
+  ],
+  "114": [
+   "RD_ALifeLine_02776c1b0f7e9435",
+   "The river's the only way out, maybe",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0039",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim|world=water"
+   ]
+  ],
+  "115": [
+   "RD_ALifeLine_64917cea2d87b031",
+   "Boats are gone",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0039",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim|world=water"
+   ]
+  ],
+  "116": [
+   "RD_ALifeLine_75ad06fc40a15ffe",
+   "Raft, then, or tubes, or anything that floats",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0039",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim|world=water"
+   ]
+  ],
+  "117": [
+   "RD_ALifeLine_7ee0c218718aac25",
+   "Then we'll have to build something, how fast can you tie a knot?",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0039",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim|world=water"
+   ]
+  ],
+  "118": [
+   "RD_ALifeLine_3a9bd8ce7cdefeb1",
+   "Don't drink from the creek",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0040",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=water"
+   ]
+  ],
+  "119": [
+   "RD_ALifeLine_234c0d1f42aee7c9",
+   "I'm so thirsty",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0040",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=water"
+   ]
+  ],
+  "120": [
+   "RD_ALifeLine_79c847e407766a11",
+   "I saw something floating in it, upstream, don't ask, just don't drink it",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0040",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=water"
+   ]
+  ],
+  "121": [
+   "RD_ALifeLine_13b7236130fcaedd",
+   "Then what do I drink? What do I drink?",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0040",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=water"
+   ]
+  ],
+  "122": [
+   "RD_ALifeLine_64e40773423c2ddd",
+   "The fire's spreading to the next house, look",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0041",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=sad"
+   ]
+  ],
+  "123": [
+   "RD_ALifeLine_359801f636c701fb",
+   "Nobody's coming to put it out",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0041",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=sad"
+   ]
+  ],
+  "124": [
+   "RD_ALifeLine_137ed81a0c1f78cb",
+   "Should we try to?",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0041",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=sad"
+   ]
+  ],
+  "125": [
+   "RD_ALifeLine_7f89fb2b582e24b3",
+   "With what? A bucket? It's a whole row, it's gone, it's already gone",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0041",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=sad"
+   ]
+  ],
+  "126": [
+   "RD_ALifeLine_584ea39c28879b57",
+   "I worried about what might gather near it",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0042",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=fire"
+   ]
+  ],
+  "127": [
+   "RD_ALifeLine_7b377afd6048ef4b",
+   "I'm scared anything we do will bring them! I can't stop thinking about it!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0042",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=fire"
+   ]
+  ],
+  "128": [
+   "RD_ALifeLine_099c57e13ca48d3a",
+   "Then let's look for a way away from the smoke without rushing blind",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0042",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=fire"
+   ]
+  ],
+  "129": [
+   "RD_ALifeLine_340db8443a374fbe",
+   "I don't know what it hides",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0043",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=calm|world=rain"
+   ]
+  ],
+  "130": [
+   "RD_ALifeLine_7addce0436e45733",
+   "So we keep watching the way back?",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0043",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=calm|world=rain"
+   ]
+  ],
+  "131": [
+   "RD_ALifeLine_6469fefd711b75bc",
+   "We're soaked, we're all soaked through, my teeth won't stop chattering",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0044",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=rain"
+   ]
+  ],
+  "132": [
+   "RD_ALifeLine_236befc426d53f50",
+   "Get inside somewhere, anywhere",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0044",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=rain"
+   ]
+  ],
+  "133": [
+   "RD_ALifeLine_203946356f0cff88",
+   "There's nowhere, every place is full of them or full of people with guns!",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0044",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=rain"
+   ]
+  ],
+  "134": [
+   "RD_ALifeLine_7d2c9144454936cf",
+   "Then we keep walking, we walk until we find something, keep moving, keep your blood moving",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0044",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=rain"
+   ]
+  ],
+  "135": [
+   "RD_ALifeLine_6c6000c9329fa1f7",
+   "If we use a generator, I'm going to worry about who hears it",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0045",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=generator"
+   ]
+  ],
+  "136": [
+   "RD_ALifeLine_7409f382462e4f9b",
+   "And I'd worry about food spoiling without one",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0045",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=generator"
+   ]
+  ],
+  "137": [
+   "RD_ALifeLine_042389ca79b5a776",
+   "I know. Wanting it quiet doesn't switch it off or solve the food problem",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0045",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=generator"
+   ]
+  ],
+  "138": [
+   "RD_ALifeLine_487dabfa52747294",
+   "We'd have to check what we actually had before arguing about running it. God, I miss quiet",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0045",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=fear|world=generator"
+   ]
+  ],
+  "139": [
+   "RD_ALifeLine_71ddc8d660b56d62",
+   "Would climbing a shed help us look ahead?",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0046",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim"
+   ]
+  ],
+  "140": [
+   "RD_ALifeLine_5bac7f6f0ffcc142",
+   "And then what, jump?",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0046",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim"
+   ]
+  ],
+  "141": [
+   "RD_ALifeLine_59c36ef0531fba74",
+   "Then we'd need to check it could hold us and a way down before anybody climbs",
+   [
+    "ALifeDialogue_scenes_panic_days_5.lua",
+    "fw_ld7_pwa_0046",
+    "reg=civilian,family,worker,rescue|day=0,4|mood=grim"
+   ]
+  ],
+  "142": [
+   "RD_ALifeLine_5435a8d479752977",
+   "I remember a woman asking me to help. Said there were three in her yard",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0002",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|tmp=fresh|day=0,4|mood=fear"
+   ]
+  ],
+  "143": [
+   "RD_ALifeLine_08eff723781df5f6",
+   "Did she tell you which house?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0002",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|tmp=fresh|day=0,4|mood=fear"
+   ]
+  ],
+  "144": [
+   "RD_ALifeLine_5da5941460ed6d3e",
+   "I wouldn't promise help I didn't have. Saying sorry can feel like saying nothing",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0002",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|tmp=fresh|day=0,4|mood=fear"
+   ]
+  ],
+  "145": [
+   "RD_ALifeLine_7ffe99f04b0b3c51",
+   "Is the sheriff coming? Somebody said the sheriff was coming",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0005",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=fear"
+   ]
+  ],
+  "146": [
+   "RD_ALifeLine_1b01408d6242b9a8",
+   "The sheriff went to Louisville and didn't come back",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0005",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=fear"
+   ]
+  ],
+  "147": [
+   "RD_ALifeLine_4f30f4ac663b8623",
+   "Did he call?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0005",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=fear"
+   ]
+  ],
+  "148": [
+   "RD_ALifeLine_1a839b5d01d11230",
+   "Nobody's called, nobody calls anymore",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0005",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=fear"
+   ]
+  ],
+  "149": [
+   "RD_ALifeLine_4f87b27a3c5cee1d",
+   "Is it true the Army's coming? My neighbor said the Army's coming",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0009",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=angry"
+   ]
+  ],
+  "150": [
+   "RD_ALifeLine_678366493ea4d74a",
+   "Ask me tomorrow, I'll know less than I do now",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0009",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=angry"
+   ]
+  ],
+  "151": [
+   "RD_ALifeLine_3e559ff173fb2f3d",
+   "Don't joke about it!",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0009",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=angry"
+   ]
+  ],
+  "152": [
+   "RD_ALifeLine_21cc1a4313282067",
+   "I'm not joking, I stopped being able to joke around lunchtime",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0009",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=angry"
+   ]
+  ],
+  "153": [
+   "RD_ALifeLine_175697e82d93642c",
+   "Is the bridge open? We're trying to get across to Indiana",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0013",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "154": [
+   "RD_ALifeLine_09d62c931adb4659",
+   "Just no?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0013",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "155": [
+   "RD_ALifeLine_09e460e372b7346c",
+   "There's a National Guard line across it and a lot of people sitting in front of it, that's all I know",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0013",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "156": [
+   "RD_ALifeLine_73a95d8f2f469499",
+   "What number do we call? Is there a number?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0017",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=grim"
+   ]
+  ],
+  "157": [
+   "RD_ALifeLine_74bdfe88299188ce",
+   "There was a number, it's 911, I'm the 911 now",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0017",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=grim"
+   ]
+  ],
+  "158": [
+   "RD_ALifeLine_100e05ca6288d7ad",
+   "But who's gonna answer if you're out here?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0017",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=grim"
+   ]
+  ],
+  "159": [
+   "RD_ALifeLine_54dc6f025bd3b8ef",
+   "Nobody, ma'am, nobody's gonna answer, that's the problem with being the 911",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0017",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=grim"
+   ]
+  ],
+  "160": [
+   "RD_ALifeLine_1d860e3f6785954b",
+   "The radio on your shoulder, what did it say? It just made noise, what did they say?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0019",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=fear"
+   ]
+  ],
+  "161": [
+   "RD_ALifeLine_4e79af9d053c3d88",
+   "They said stand by",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0019",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=fear"
+   ]
+  ],
+  "162": [
+   "RD_ALifeLine_011657002300cc2a",
+   "They said stand by, that's the entire message, it's been the entire message all day",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0019",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=fear"
+   ]
+  ],
+  "163": [
+   "RD_ALifeLine_02c60a6228468438",
+   "Have you seen my mother? She's seventy-four, she's got a blue coat, she walks with a cane",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0024",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "164": [
+   "RD_ALifeLine_465b7fc92db1c5aa",
+   "Her house on Elm, she wouldn't answer the phone, I couldn't get through, nobody can get through",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0024",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "165": [
+   "RD_ALifeLine_4db6f9952917665f",
+   "I'll look if I go past, I can't promise, I'm sorry, I can't promise a thing",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0024",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "166": [
+   "RD_ALifeLine_593c26c42e0536c7",
+   "You left us! Yesterday you drove right past and you didn't stop!",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0029",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=angry"
+   ]
+  ],
+  "167": [
+   "RD_ALifeLine_77c7e9e23ca3e2c8",
+   "I had a man in the back seat, I couldn't, I wanted to",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0029",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=angry"
+   ]
+  ],
+  "168": [
+   "RD_ALifeLine_780e360c18ecce52",
+   "We banged on your hood! We BANGED on it!",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0029",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=angry"
+   ]
+  ],
+  "169": [
+   "RD_ALifeLine_1a9640a974ba6d09",
+   "I heard you, I heard every bit of it, I'll hear it a while",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0029",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=angry"
+   ]
+  ],
+  "170": [
+   "RD_ALifeLine_14b3f1753da6e975",
+   "Somebody's looting the hardware store and you're just standing here?!",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0032",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=angry"
+   ]
+  ],
+  "171": [
+   "RD_ALifeLine_48a998d44a3fe8cf",
+   "There's a hundred of them in there and one of me",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0032",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=angry"
+   ]
+  ],
+  "172": [
+   "RD_ALifeLine_6ee87da96ed5563a",
+   "So we just let them?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0032",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=angry"
+   ]
+  ],
+  "173": [
+   "RD_ALifeLine_1d538e0e7cd67147",
+   "You want to walk in there and tell them no, go ahead, I'll cover you from here",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0032",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=angry"
+   ]
+  ],
+  "174": [
+   "RD_ALifeLine_7328d44952c9d8e0",
+   "My boy's fourteen, red jacket, about this tall, he was riding his bike when the sirens started",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0036",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "175": [
+   "RD_ALifeLine_72743e8a4cddfa5d",
+   "Cody, Cody Sipes, please, if you see him, tell him to go home",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0036",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "176": [
+   "RD_ALifeLine_1780c61d1fa36576",
+   "Cody Sipes, red jacket, I'll tell every person I meet",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0036",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "177": [
+   "RD_ALifeLine_33a883b82e17b16b",
+   "You look dead on your feet, Officer, can I get you some water?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0040",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=calm"
+   ]
+  ],
+  "178": [
+   "RD_ALifeLine_2b608a116f17cd20",
+   "...I'd take that, thank you",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0040",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=calm"
+   ]
+  ],
+  "179": [
+   "RD_ALifeLine_52429ed77d390ff5",
+   "Sit down a second, nobody's gonna bite",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0040",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=calm"
+   ]
+  ],
+  "180": [
+   "RD_ALifeLine_768e4ddb26b9e8bd",
+   "Careful what you say about that, ma'am, I don't have a sense of humor left",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0040",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=calm"
+   ]
+  ],
+  "181": [
+   "RD_ALifeLine_0f232e3422851ed5",
+   "Does anybody know what this IS?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0042",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "182": [
+   "RD_ALifeLine_46a78b080ab861f0",
+   "A guy at the state lab on the phone said maybe a chemical, maybe a disease, and then the line went dead",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0042",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "183": [
+   "RD_ALifeLine_21fbeeff3cae3089",
+   "A guy?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0042",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "184": [
+   "RD_ALifeLine_22f453eb69c2f1e9",
+   "A guy, I never got his name, I've been thinking about him all day, he sounded like he was crying",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0042",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "185": [
+   "RD_ALifeLine_0ce3605a036751e5",
+   "My husband's a deputy too, have you seen him? Hollis, Hollis Gaines, tall, red hair",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0046",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "186": [
+   "RD_ALifeLine_74429682323805be",
+   "Hollis was on the north end the last I heard",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0046",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "187": [
+   "RD_ALifeLine_3bd4ef73187479a0",
+   "Before the radio quit, I'm sorry, that's the last I've got",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0046",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "188": [
+   "RD_ALifeLine_49301b584d476c6d",
+   "Had he said anything?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0050",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=fear"
+   ]
+  ],
+  "189": [
+   "RD_ALifeLine_61b18aaf5d9be840",
+   "Kept turning his head, like he was listening to something",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0050",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=fear"
+   ]
+  ],
+  "190": [
+   "RD_ALifeLine_71a0e6e305433ddf",
+   "Just tell me where the safest place is, even if it's a lie",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0053",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=fear"
+   ]
+  ],
+  "191": [
+   "RD_ALifeLine_7167d8d7670a7647",
+   "The Methodist church, they've got good locks and a priest with a shotgun",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0053",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=fear"
+   ]
+  ],
+  "192": [
+   "RD_ALifeLine_53bdd2e11e5246fc",
+   "It's a pastor, not a priest",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0053",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=fear"
+   ]
+  ],
+  "193": [
+   "RD_ALifeLine_10ff8ebf2610181e",
+   "Ma'am, I'm in no position to ask for credentials",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0053",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=fear"
+   ]
+  ],
+  "194": [
+   "RD_ALifeLine_006ead405185dc8f",
+   "Do you have any idea how long this lasts?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0058",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "195": [
+   "RD_ALifeLine_045bcc3b730fc39b",
+   "You mean the sirens, the quiet, or the whole thing?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0058",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "196": [
+   "RD_ALifeLine_5f206d5e135af450",
+   "The whole thing!",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0058",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "197": [
+   "RD_ALifeLine_6fcc96307ebbd373",
+   "Longer than I can plan for, which is why I've quit planning past lunch",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0058",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "198": [
+   "RD_ALifeLine_0592bf9962268f18",
+   "Is it in the air? Is it the air? Tell me if it's the air!",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0060",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|tmp=fresh|day=0,4|mood=fear"
+   ]
+  ],
+  "199": [
+   "RD_ALifeLine_58b179534137b6fc",
+   "Should I wear something? A rag, a towel, something over my face?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0060",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|tmp=fresh|day=0,4|mood=fear"
+   ]
+  ],
+  "200": [
+   "RD_ALifeLine_0352694348f03b0f",
+   "Tie something on if it makes you feel better, I've got a bandana, here",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0060",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|tmp=fresh|day=0,4|mood=fear"
+   ]
+  ],
+  "201": [
+   "RD_ALifeLine_68f278b53d48e26d",
+   "I keep remembering a bitten man they tied up in a garage",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0062",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "202": [
+   "RD_ALifeLine_15bd41c8436cb608",
+   "Was he conscious?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0062",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "203": [
+   "RD_ALifeLine_4d9992db4a5b6e1c",
+   "My mother's in the brick house at the end of Ash, she's eighty, she can't walk without help",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0065",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "204": [
+   "RD_ALifeLine_369594e2249b93da",
+   "Say it again, slower",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0065",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "205": [
+   "RD_ALifeLine_4a9acfab12eaf92d",
+   "Ash Lane, the brick one, there's a ramp, she's got a ramp",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0065",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "206": [
+   "RD_ALifeLine_7223028d686bb9c4",
+   "Ash, brick, ramp, okay, got it written on my hand, I'll go if I can",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0065",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "207": [
+   "RD_ALifeLine_27f0b5c534f24582",
+   "Can we light a fire? We're freezing and- well, it's July, we're just scared",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0067",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "208": [
+   "RD_ALifeLine_7616d3d01aa78564",
+   "Don't, smoke brings them in",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0067",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "209": [
+   "RD_ALifeLine_712e4b470d82736c",
+   "Because that's how the Pruitt place went, I watched it happen",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0067",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "210": [
+   "RD_ALifeLine_2c12c24419acdab9",
+   "I won't loot, I won't take anything, I promise, I PROMISE",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0071",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=fear"
+   ]
+  ],
+  "211": [
+   "RD_ALifeLine_112e28276705c9bb",
+   "Nobody's accusing you",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0071",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=fear"
+   ]
+  ],
+  "212": [
+   "RD_ALifeLine_18f9b47e632a5833",
+   "I'm scared of needing food for my kids and having nothing to offer for it",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0071",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=fear"
+   ]
+  ],
+  "213": [
+   "RD_ALifeLine_12b21ba84a4bda81",
+   "You stayed, you could've gone and you stayed",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0074",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "214": [
+   "RD_ALifeLine_6225ce324fef77b1",
+   "I'm not staying, I just can't think of where else to go",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0074",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "215": [
+   "RD_ALifeLine_3483036335b0033b",
+   "That's more honest than anything I've heard today",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0074",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "216": [
+   "RD_ALifeLine_08c609685464e147",
+   "It's the only thing I've got left to give you",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0074",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "217": [
+   "RD_ALifeLine_2cba44be64e45fdc",
+   "Why did you shoot that man? He was just standing there!",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0077",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=fear"
+   ]
+  ],
+  "218": [
+   "RD_ALifeLine_11883ed72840b3c9",
+   "He wasn't standing, ma'am, he was coming",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0077",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=fear"
+   ]
+  ],
+  "219": [
+   "RD_ALifeLine_0f052d6d1bf23fa8",
+   "He had his hands out, he was-",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0077",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=fear"
+   ]
+  ],
+  "220": [
+   "RD_ALifeLine_73f12ed804d72ffd",
+   "Hands out is how they come, I hate it as much as you do",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0077",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=fear"
+   ]
+  ],
+  "221": [
+   "RD_ALifeLine_41404c206c50858c",
+   "I made a sandwich, it's bologna, it's all I had",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0080",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=calm"
+   ]
+  ],
+  "222": [
+   "RD_ALifeLine_56b209db791255e0",
+   "I haven't eaten since yesterday",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0080",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=calm"
+   ]
+  ],
+  "223": [
+   "RD_ALifeLine_15ddcd5533dd264e",
+   "Then eat the whole thing, I'll make another one",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0080",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=calm"
+   ]
+  ],
+  "224": [
+   "RD_ALifeLine_0c88295e6b048b52",
+   "You're a good person, I'd ask your name but I'd forget it",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0080",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=calm"
+   ]
+  ],
+  "225": [
+   "RD_ALifeLine_01bf134e34163ec2",
+   "Do I need a mask? A bandana? Anything?",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0083",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|tmp=fresh|day=0,4|mood=fear"
+   ]
+  ],
+  "226": [
+   "RD_ALifeLine_7882ff8c3a9b07dc",
+   "Wear whatever makes you feel better",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0083",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|tmp=fresh|day=0,4|mood=fear"
+   ]
+  ],
+  "227": [
+   "RD_ALifeLine_3f1c6c0c7e9f948b",
+   "That's not an answer, that's what you say to a kid",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0083",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|tmp=fresh|day=0,4|mood=fear"
+   ]
+  ],
+  "228": [
+   "RD_ALifeLine_47a10f9b01671e8f",
+   "I know, I know, I'm sorry, I'm out of better ones",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0083",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|tmp=fresh|day=0,4|mood=fear"
+   ]
+  ],
+  "229": [
+   "RD_ALifeLine_6ce06d8c7b73dbf0",
+   "How do you do it? How do you keep going?",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0086",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "230": [
+   "RD_ALifeLine_5553f20412a23420",
+   "I walk to the next block, then I walk to the next one",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0086",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "231": [
+   "RD_ALifeLine_0ddad6085a557cfc",
+   "That's all I've got, I can't see past the next block, so I don't try",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0086",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "232": [
+   "RD_ALifeLine_6d9d7e064a946530",
+   "You left the interstate wide open, you left the whole thing open!",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0090",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=angry"
+   ]
+  ],
+  "233": [
+   "RD_ALifeLine_63fce0781d5a2e9c",
+   "There's nothing to close it with, there's three of us",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0090",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=angry"
+   ]
+  ],
+  "234": [
+   "RD_ALifeLine_27f2942a49bb76a9",
+   "Then close it with your bodies!",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0090",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=angry"
+   ]
+  ],
+  "235": [
+   "RD_ALifeLine_074979b3777b5cb5",
+   "And then who'd be left to tell you how the day went?",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0090",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=angry"
+   ]
+  ],
+  "236": [
+   "RD_ALifeLine_43f48d0523c937fa",
+   "What's that on the radio? That sound, like static but with a voice in it?",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0093",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=fear"
+   ]
+  ],
+  "237": [
+   "RD_ALifeLine_41e2b80b139ccc6e",
+   "That's the Army's channel, they're talking, but it's all code",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0093",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=fear"
+   ]
+  ],
+  "238": [
+   "RD_ALifeLine_1ce5e4144dbeb559",
+   "Can you understand any of it?",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0093",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=fear"
+   ]
+  ],
+  "239": [
+   "RD_ALifeLine_1d87115e32c9563d",
+   "One word, \"contain,\" and then a lot of nothing",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0093",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=fear"
+   ]
+  ],
+  "240": [
+   "RD_ALifeLine_75ee59e1664b436b",
+   "I just want to go home",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0097",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=sad"
+   ]
+  ],
+  "241": [
+   "RD_ALifeLine_5d34b08c43463c60",
+   "Muldraugh, the blue house, it's got a swing set",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0097",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=sad"
+   ]
+  ],
+  "242": [
+   "RD_ALifeLine_3854e0d756081a0c",
+   "Then I'll get you as far as I can, ma'am, that's two blocks from where I'm going anyway",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0097",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|x1=f|day=0,4|mood=sad"
+   ]
+  ],
+  "243": [
+   "RD_ALifeLine_3611c50b57f05988",
+   "They said the president was gonna speak, did he?",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0099",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "244": [
+   "RD_ALifeLine_7f41054a6bd34bab",
+   "If he did, I missed it",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0099",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "245": [
+   "RD_ALifeLine_165882b13fd0f367",
+   "What if he doesn't?",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0099",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "246": [
+   "RD_ALifeLine_6d4cd3a73e516f56",
+   "Then it's up to us, whoever that is",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0099",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=grim"
+   ]
+  ],
+  "247": [
+   "RD_ALifeLine_7a9b47782b9984d3",
+   "Could you say a prayer? You're a public servant, you're allowed",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0103",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "248": [
+   "RD_ALifeLine_5aed0d6e1c5f2238",
+   "I'm not that kind of public servant",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0103",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "249": [
+   "RD_ALifeLine_6a906d2077741d04",
+   "...Lord, look after these folks, and look after us too, that's all I've got, amen",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0103",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=law|day=0,4|mood=sad"
+   ]
+  ],
+  "250": [
+   "RD_ALifeLine_458c48ee15481f8c",
+   "He's the one who left us at the bridge!",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0105",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=civilian,family,worker,rescue|r3=law|day=0,4|mood=angry"
+   ]
+  ],
+  "251": [
+   "RD_ALifeLine_150897243bb86dff",
+   "I left you because the Guard was shooting, I'd do it again, I'm sorry",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0105",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=civilian,family,worker,rescue|r3=law|day=0,4|mood=angry"
+   ]
+  ],
+  "252": [
+   "RD_ALifeLine_761d232d3fa884bb",
+   "Sorry doesn't bring back Sandra!",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0105",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=civilian,family,worker,rescue|r3=law|day=0,4|mood=angry"
+   ]
+  ],
+  "253": [
+   "RD_ALifeLine_3af0af9331bf1b4d",
+   "I know it doesn't, and I'll carry that, I'm not asking you to forgive me",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_pla_0105",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=civilian,family,worker,rescue|r3=law|day=0,4|mood=angry"
+   ]
+  ],
+  "254": [
+   "RD_ALifeLine_5180fce25cba56d2",
+   "Is the bridge safe to cross?",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_plc_0016",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=civilian,family,worker,rescue|r3=law|day=0,4|mood=fear"
+   ]
+  ],
+  "255": [
+   "RD_ALifeLine_626d25d903311d52",
+   "I don't know who's there now",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_plc_0016",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=civilian,family,worker,rescue|r3=law|day=0,4|mood=fear"
+   ]
+  ],
+  "256": [
+   "RD_ALifeLine_78a4be6e18367f10",
+   "What do we say?",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_plc_0016",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=civilian,family,worker,rescue|r3=law|day=0,4|mood=fear"
+   ]
+  ],
+  "257": [
+   "RD_ALifeLine_6e2bb0700860fa41",
+   "Tell them the truth. Being nervous isn't something you have to apologize for",
+   [
+    "ALifeDialogue_scenes_panic_days_3.lua",
+    "fw_ld7_plc_0016",
+    "reg=civilian,family,worker,rescue,law|r1=civilian,family,worker,rescue|r2=civilian,family,worker,rescue|r3=law|day=0,4|mood=fear"
+   ]
+  ],
+  "258": [
+   "RD_ALifeLine_09a17ced63043205",
+   "Goddamn infection spreading everywhere, deputies, maybe you know where we should go?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0001",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "259": [
+   "RD_ALifeLine_4a3684e013c50ab6",
+   "Wish I did, I'm getting the same hiss on the radio that you are",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0001",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "260": [
+   "RD_ALifeLine_7656fea8329a65d2",
+   "Then what are you even FOR?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0001",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "261": [
+   "RD_ALifeLine_7bec524119f624e6",
+   "Right now I'm for standing here so you've got somebody to yell at",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0001",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "262": [
+   "RD_ALifeLine_3a3b38dd5fee8fa7",
+   "Why isn't anybody DOING something? You're the police!",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0003",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "263": [
+   "RD_ALifeLine_49e1f1891a03edb9",
+   "I've been doing something since four in the morning, I just can't tell you what it's done",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0003",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "264": [
+   "RD_ALifeLine_794c53826db70b91",
+   "That's not an answer!",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0003",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "265": [
+   "RD_ALifeLine_610535b608db8c67",
+   "It's the only one I've got, and I've been saving it all day",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0003",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "266": [
+   "RD_ALifeLine_0ddb05f256875f28",
+   "Folks, get inside, everybody inside, now",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0004",
+    "reg=civilian,family,worker,rescue,law,swat|r1=law,swat|r2=civilian,family,worker,rescue|day=0,4|mood=grim"
+   ]
+  ],
+  "267": [
+   "RD_ALifeLine_35ccfcd7327bee45",
+   "We ARE inside, we've been inside for two days",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0004",
+    "reg=civilian,family,worker,rescue,law,swat|r1=law,swat|r2=civilian,family,worker,rescue|day=0,4|mood=grim"
+   ]
+  ],
+  "268": [
+   "RD_ALifeLine_4aa46d9f27c90d3a",
+   "Then stay inside, don't open it for anybody, you hear me, not even me",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0004",
+    "reg=civilian,family,worker,rescue,law,swat|r1=law,swat|r2=civilian,family,worker,rescue|day=0,4|mood=grim"
+   ]
+  ],
+  "269": [
+   "RD_ALifeLine_466d559844ee1050",
+   "What does that mean, not even you?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0004",
+    "reg=civilian,family,worker,rescue,law,swat|r1=law,swat|r2=civilian,family,worker,rescue|day=0,4|mood=grim"
+   ]
+  ],
+  "270": [
+   "RD_ALifeLine_6c4bb24d2be87dcf",
+   "Are they dead? Are those things dead? You shot one, I saw you",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0006",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|x1=f|day=0,4|mood=sad"
+   ]
+  ],
+  "271": [
+   "RD_ALifeLine_58044b2965165db6",
+   "I put four in his chest and he kept coming, so I honestly don't know what dead means anymore",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0006",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|x1=f|day=0,4|mood=sad"
+   ]
+  ],
+  "272": [
+   "RD_ALifeLine_149712190bbb7c66",
+   "Head, ma'am, it's the only thing I've seen work, and I wish I'd never found that out",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0006",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|x1=f|day=0,4|mood=sad"
+   ]
+  ],
+  "273": [
+   "RD_ALifeLine_746c7e5f73438b89",
+   "I once begged a cop to look at my bitten husband in our van",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0007",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|tmp=fresh|day=0,4|mood=fear"
+   ]
+  ],
+  "274": [
+   "RD_ALifeLine_5a65a7575e31c4a3",
+   "What did he tell you?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0007",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|tmp=fresh|day=0,4|mood=fear"
+   ]
+  ],
+  "275": [
+   "RD_ALifeLine_4ae3f6cd693bb21a",
+   "I kept saying he must have a first aid kit. Like saying it would fix everything",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0007",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|tmp=fresh|day=0,4|mood=fear"
+   ]
+  ],
+  "276": [
+   "RD_ALifeLine_0e1f40e219a72381",
+   "Anybody here bitten? Anybody scratched? Don't lie to me, I'm not gonna shoot you, I just need to know",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0008",
+    "reg=civilian,family,worker,rescue,law,swat|r1=law,swat|r2=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "277": [
+   "RD_ALifeLine_04fff1f70bb0a5be",
+   "No, nobody, we've been inside",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0008",
+    "reg=civilian,family,worker,rescue,law,swat|r1=law,swat|r2=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "278": [
+   "RD_ALifeLine_68ad15687d0e1000",
+   "Roll up your sleeves, all of you, slow",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0008",
+    "reg=civilian,family,worker,rescue,law,swat|r1=law,swat|r2=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "279": [
+   "RD_ALifeLine_6d9c2d0d3ac7a215",
+   "Nobody's hurt, see? SEE?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0008",
+    "reg=civilian,family,worker,rescue,law,swat|r1=law,swat|r2=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "280": [
+   "RD_ALifeLine_7bdc804a1c358fba",
+   "Where do we sleep? Where's anybody sleeping?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0010",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "281": [
+   "RD_ALifeLine_78c8aae40df189b7",
+   "The Baptist church on the corner's got room, some of the deputies' families are there",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0010",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "282": [
+   "RD_ALifeLine_6e62a68d02629fc1",
+   "Is it safe?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0010",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "283": [
+   "RD_ALifeLine_2538e4d64b68ab25",
+   "It's got four walls and some men with guns, that's about as safe as it gets right now",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0010",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "284": [
+   "RD_ALifeLine_49b7166771e49f2f",
+   "Ever have somebody beg you for a ride for their children?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0011",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=sad"
+   ]
+  ],
+  "285": [
+   "RD_ALifeLine_3e31e39804fa8bd8",
+   "They tell you how little the kids are, how quiet they'll be",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0011",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=sad"
+   ]
+  ],
+  "286": [
+   "RD_ALifeLine_0c64c9dd3c892622",
+   "If I found a gun, would I have to hand it over?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0012",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "287": [
+   "RD_ALifeLine_50ae1c2707190519",
+   "I'd want you to learn to handle it safely before carrying it",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0012",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "288": [
+   "RD_ALifeLine_7b42ee4151652990",
+   "I never shot anything but cans",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0012",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "289": [
+   "RD_ALifeLine_3139d8b77ac93b0d",
+   "Then don't pretend otherwise. That's a better start than showing off",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0012",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=grim"
+   ]
+  ],
+  "290": [
+   "RD_ALifeLine_0be5cf8f158dcfb4",
+   "I need you to show me the neighbor",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0014",
+    "reg=civilian,family,worker,rescue,law,swat|r1=law,swat|r2=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "291": [
+   "RD_ALifeLine_11584e9b09627874",
+   "I'm not going back there, I'm NOT, he's one of them now",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0014",
+    "reg=civilian,family,worker,rescue,law,swat|r1=law,swat|r2=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "292": [
+   "RD_ALifeLine_72fbef1e1f8f60b5",
+   "Then just point, I'll go",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0014",
+    "reg=civilian,family,worker,rescue,law,swat|r1=law,swat|r2=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "293": [
+   "RD_ALifeLine_342c84993e0edca4",
+   "Third one on the left, the one with the red shutters, don't go in without- just don't, please",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0014",
+    "reg=civilian,family,worker,rescue,law,swat|r1=law,swat|r2=civilian,family,worker,rescue|day=0,4|mood=fear"
+   ]
+  ],
+  "294": [
+   "RD_ALifeLine_42cadb8e724ac134",
+   "Somebody said the police are leaving town",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0015",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "295": [
+   "RD_ALifeLine_7a075f3d7010ece1",
+   "But you could, couldn't you? You could just go?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0015",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "296": [
+   "RD_ALifeLine_002b3f5f093398a0",
+   "I could, and I've thought about it twice today, so I wouldn't ask me that again",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0015",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "297": [
+   "RD_ALifeLine_098c438007a33fc0",
+   "Deputy, are you scared?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0016",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "298": [
+   "RD_ALifeLine_64831f47750c28fb",
+   "Terrified, I wet myself an hour ago and nobody's the wiser",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0016",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "299": [
+   "RD_ALifeLine_68f4499f3ef0392a",
+   "...why would you tell me that?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0016",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "300": [
+   "RD_ALifeLine_2d09143472432b4a",
+   "Because you looked like you needed company",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0016",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=fear"
+   ]
+  ],
+  "301": [
+   "RD_ALifeLine_5792e8d017d81159",
+   "I was a medic in the Guard, I can help, I can do something",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0018",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=calm"
+   ]
+  ],
+  "302": [
+   "RD_ALifeLine_5450d0bd7797ebd3",
+   "You any good?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0018",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=calm"
+   ]
+  ],
+  "303": [
+   "RD_ALifeLine_17bd61441ae51f64",
+   "Eight years, two tours of nothing, I'm real good",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0018",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=calm"
+   ]
+  ],
+  "304": [
+   "RD_ALifeLine_41c5814c343c8c31",
+   "Then come with me, I've got a man bleeding behind the pharmacy",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0018",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=calm"
+   ]
+  ],
+  "305": [
+   "RD_ALifeLine_613465d23bfb0db7",
+   "Is there a curfew? Somebody put a flyer on a pole, it says curfew",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0020",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "306": [
+   "RD_ALifeLine_0d75fd357e1ce575",
+   "Not from my office, I haven't seen it",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0020",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "307": [
+   "RD_ALifeLine_2064fa3b7e6f998b",
+   "Then who put it up?",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0020",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=angry"
+   ]
+  ],
+  "308": [
+   "RD_ALifeLine_385ee62b2ac214c8",
+   "Whoever's still giving orders, I'd stay in, it's not worth finding out",
+   [
+    "ALifeDialogue_scenes_panic_days_2.lua",
+    "fw_ld7_pla_0020",
+    "reg=civilian,family,worker,rescue,law,swat|r1=civilian,family,worker,rescue|r2=law,swat|day=0,4|mood=angry"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,36 @@
+name: Publish translation catalog
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'onayli/**'
+      - 'kaynak/**'
+      - 'araclar/sahne/**'
+      - 'paketler/haritalar/**'
+      - 'ceviri-masasi/**'
+      - '.github/workflows/publish-pages.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: github-pages
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+      - name: Build approved translation catalog
+        run: python3 ceviri-masasi/arac/katalog_uret.py --repo . --cikti ceviri-masasi/site/veri
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: ceviri-masasi/site
+      - uses: actions/deploy-pages@v4
+        id: deployment

@@ -1,0 +1,3942 @@
+{
+ "_paket": "SB559R",
+ "_grup": "arayuz_sandbox",
+ "_dosya": "Sandbox",
+ "_noktalama": false,
+ "_bosluk_koru": true,
+ "_satir_sonu": true,
+ "_baslik": "Yapımcı Sandbox listesi · 559 yeniden çeviri",
+ "_parcalar": [
+  [
+   1,
+   139
+  ],
+  [
+   140,
+   278
+  ],
+  [
+   279,
+   417
+  ],
+  [
+   418,
+   559
+  ]
+ ],
+ "satirlar": {
+  "1": [
+   "Sandbox_ProjectALife.PresetPopulation",
+   "Population",
+   [
+    "Sandbox_ProjectALife.PresetPopulation"
+   ]
+  ],
+  "2": [
+   "Sandbox_ProjectALife.PresetPopulation_tooltip",
+   "How many NPCs, groups and outposts the world holds: spawn rates, caps, encounters and outposts. Only default-valued options change. Reload for full effect.\nDefault High (3).",
+   [
+    "Sandbox_ProjectALife.PresetPopulation_tooltip"
+   ]
+  ],
+  "3": [
+   "Sandbox_ProjectALife.PresetPopulation_option1",
+   "Low",
+   [
+    "Sandbox_ProjectALife.PresetPopulation_option1"
+   ]
+  ],
+  "4": [
+   "Sandbox_ProjectALife.PresetPopulation_option2",
+   "Medium",
+   [
+    "Sandbox_ProjectALife.PresetPopulation_option2"
+   ]
+  ],
+  "5": [
+   "Sandbox_ProjectALife.PresetPopulation_option3",
+   "High",
+   [
+    "Sandbox_ProjectALife.PresetPopulation_option3"
+   ]
+  ],
+  "6": [
+   "Sandbox_ProjectALife.PresetPopulation_option4",
+   "Very high (heavy, may lag)",
+   [
+    "Sandbox_ProjectALife.PresetPopulation_option4"
+   ]
+  ],
+  "7": [
+   "Sandbox_ProjectALife.Support_HeliBackupPercent",
+   "Backup calls answered by helicopter (percent)",
+   [
+    "Sandbox_ProjectALife.Support_HeliBackupPercent"
+   ]
+  ],
+  "8": [
+   "Sandbox_ProjectALife.Support_HeliBackupPercent_tooltip",
+   "How often a law, military or elite group that calls for backup gets a helicopter that rappels the squad in, instead of a car. 0 means cars only.\nDefault 40.",
+   [
+    "Sandbox_ProjectALife.Support_HeliBackupPercent_tooltip"
+   ]
+  ],
+  "9": [
+   "Sandbox_ProjectALife.Helicopter_ShootDown",
+   "Helicopters can be shot down",
+   [
+    "Sandbox_ProjectALife.Helicopter_ShootDown"
+   ]
+  ],
+  "10": [
+   "Sandbox_ProjectALife.Helicopter_ShootDown_tooltip",
+   "On: bullets from players and from hostile NPCs wound a low-flying helicopter; a badly hit one loses height and falls, crashes, burns and leaves a wreck. Off: helicopters cannot be hurt.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.Helicopter_ShootDown_tooltip"
+   ]
+  ],
+  "11": [
+   "Sandbox_ProjectALife.Helicopter_Health",
+   "Helicopter toughness",
+   [
+    "Sandbox_ProjectALife.Helicopter_Health"
+   ]
+  ],
+  "12": [
+   "Sandbox_ProjectALife.Helicopter_Health_tooltip",
+   "How much damage a helicopter takes before it is shot down. A rifle round does about 16 to 24 points; a pistol round about 8. Hits only count when they find the helicopter.\nDefault 120.",
+   [
+    "Sandbox_ProjectALife.Helicopter_Health_tooltip"
+   ]
+  ],
+  "13": [
+   "Sandbox_ProjectALife.Helicopter_CrashFire",
+   "Crashed helicopters burn",
+   [
+    "Sandbox_ProjectALife.Helicopter_CrashFire"
+   ]
+  ],
+  "14": [
+   "Sandbox_ProjectALife.Helicopter_CrashFire_tooltip",
+   "A crashed helicopter sets a few fires around the wreck. Off: no fire.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.Helicopter_CrashFire_tooltip"
+   ]
+  ],
+  "15": [
+   "Sandbox_ProjectALife.Helicopter_WreckHours",
+   "Helicopter wreck stays (game hours)",
+   [
+    "Sandbox_ProjectALife.Helicopter_WreckHours"
+   ]
+  ],
+  "16": [
+   "Sandbox_ProjectALife.Helicopter_WreckHours_tooltip",
+   "How long a crashed helicopter stays in the world before it is cleared, once no player is within 120 tiles.\nDefault 48.",
+   [
+    "Sandbox_ProjectALife.Helicopter_WreckHours_tooltip"
+   ]
+  ],
+  "17": [
+   "Sandbox_ProjectALife.Helicopter_CrashSurvivorPercent",
+   "Crash survivors (percent)",
+   [
+    "Sandbox_ProjectALife.Helicopter_CrashSurvivorPercent"
+   ]
+  ],
+  "18": [
+   "Sandbox_ProjectALife.Helicopter_CrashSurvivorPercent_tooltip",
+   "Chance that each person aboard a crashing helicopter survives, hurt and hostile. The pilot is capped at 20.\nDefault 35.",
+   [
+    "Sandbox_ProjectALife.Helicopter_CrashSurvivorPercent_tooltip"
+   ]
+  ],
+  "19": [
+   "Sandbox_ProjectALife.Helicopter_DamageSmoke",
+   "Failing helicopters leave smoke",
+   [
+    "Sandbox_ProjectALife.Helicopter_DamageSmoke"
+   ]
+  ],
+  "20": [
+   "Sandbox_ProjectALife.Helicopter_DamageSmoke_tooltip",
+   "A badly hit helicopter leaves a trail of smoke on the ground beneath it as it sinks and falls.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.Helicopter_DamageSmoke_tooltip"
+   ]
+  ],
+  "21": [
+   "Sandbox_ProjectALife.Helicopter_CrashExplosion",
+   "Crashed helicopters explode",
+   [
+    "Sandbox_ProjectALife.Helicopter_CrashExplosion"
+   ]
+  ],
+  "22": [
+   "Sandbox_ProjectALife.Helicopter_CrashExplosion_tooltip",
+   "A crash ends in an explosion and a fireball at the wreck. Nothing explodes when a player stands within 6 tiles of the impact. Off: only the fires.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.Helicopter_CrashExplosion_tooltip"
+   ]
+  ],
+  "23": [
+   "Sandbox_ProjectALife.Helicopter_ShotReputation",
+   "Shooting a helicopter has consequences",
+   [
+    "Sandbox_ProjectALife.Helicopter_ShotReputation"
+   ]
+  ],
+  "24": [
+   "Sandbox_ProjectALife.Helicopter_ShotReputation_tooltip",
+   "Firing at a helicopter and shooting it down is held against the shooter by the faction it belongs to, as if the crew had been shot. Off: no standing changes.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.Helicopter_ShotReputation_tooltip"
+   ]
+  ],
+  "25": [
+   "Sandbox_ProjectALife.Support_HeliRappel",
+   "Backup helicopters rappel their squad",
+   [
+    "Sandbox_ProjectALife.Support_HeliRappel"
+   ]
+  ],
+  "26": [
+   "Sandbox_ProjectALife.Support_HeliRappel_tooltip",
+   "A backup call answered by helicopter sends a real one that hovers near the contact and rappels the squad down. Off: the squad appears on the ground after a delay.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.Support_HeliRappel_tooltip"
+   ]
+  ],
+  "27": [
+   "Sandbox_ProjectALife.Helicopter_HeightMinM",
+   "Helicopter lowest flight height (metres)",
+   [
+    "Sandbox_ProjectALife.Helicopter_HeightMinM"
+   ]
+  ],
+  "28": [
+   "Sandbox_ProjectALife.Helicopter_HeightMinM_tooltip",
+   "Each helicopter picks a height between the lowest and the highest value and drifts to a new one every few seconds while circling. Close flights use about half.\nDefault 36.",
+   [
+    "Sandbox_ProjectALife.Helicopter_HeightMinM_tooltip"
+   ]
+  ],
+  "29": [
+   "Sandbox_ProjectALife.Helicopter_HeightMaxM",
+   "Helicopter highest flight height (metres)",
+   [
+    "Sandbox_ProjectALife.Helicopter_HeightMaxM"
+   ]
+  ],
+  "30": [
+   "Sandbox_ProjectALife.Helicopter_HeightMaxM_tooltip",
+   "Upper end of the height range. Set it equal to the lowest height for a helicopter that always flies at one height. A value below the lowest height is raised to it.\nDefault 60.",
+   [
+    "Sandbox_ProjectALife.Helicopter_HeightMaxM_tooltip"
+   ]
+  ],
+  "31": [
+   "Sandbox_ProjectALife.Helicopter_ScreenHeightM",
+   "Helicopter highest flight height that stays on screen (metres)",
+   [
+    "Sandbox_ProjectALife.Helicopter_ScreenHeightM"
+   ]
+  ],
+  "32": [
+   "Sandbox_ProjectALife.Helicopter_ScreenHeightM_tooltip",
+   "Helicopters never fly above this height, so they stay on screen: in the isometric view each floor of height moves one 96 pixels up. 0 uses the height range alone.\nDefault 18.",
+   [
+    "Sandbox_ProjectALife.Helicopter_ScreenHeightM_tooltip"
+   ]
+  ],
+  "33": [
+   "Sandbox_ProjectALife.Helicopter_Escort",
+   "Helicopter escorts a moving player",
+   [
+    "Sandbox_ProjectALife.Helicopter_Escort"
+   ]
+  ],
+  "34": [
+   "Sandbox_ProjectALife.Helicopter_Escort_tooltip",
+   "While the player drives (or runs), a circling helicopter flies beside the player instead of staying behind, then returns to circling when the player stops. Off: it only circles a slowly moving centre.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.Helicopter_Escort_tooltip"
+   ]
+  ],
+  "35": [
+   "Sandbox_ProjectALife.Helicopter_EscortSideTiles",
+   "Helicopter escort side distance (tiles)",
+   [
+    "Sandbox_ProjectALife.Helicopter_EscortSideTiles"
+   ]
+  ],
+  "36": [
+   "Sandbox_ProjectALife.Helicopter_EscortSideTiles_tooltip",
+   "How far to the side of the player the escorting helicopter flies.\nDefault 22.",
+   [
+    "Sandbox_ProjectALife.Helicopter_EscortSideTiles_tooltip"
+   ]
+  ],
+  "37": [
+   "Sandbox_ProjectALife.Helicopter_EscortSide",
+   "Helicopter escort side",
+   [
+    "Sandbox_ProjectALife.Helicopter_EscortSide"
+   ]
+  ],
+  "38": [
+   "Sandbox_ProjectALife.Helicopter_EscortSide_tooltip",
+   "Escorts 22 tiles to this side and 6 tiles behind your direction of travel. Auto chooses the more open side and avoids rapid switching.\nDefault Right (1).",
+   [
+    "Sandbox_ProjectALife.Helicopter_EscortSide_tooltip"
+   ]
+  ],
+  "39": [
+   "Sandbox_ProjectALife.Helicopter_EscortSide_option1",
+   "Right",
+   [
+    "Sandbox_ProjectALife.Helicopter_EscortSide_option1"
+   ]
+  ],
+  "40": [
+   "Sandbox_ProjectALife.Helicopter_EscortSide_option2",
+   "Left",
+   [
+    "Sandbox_ProjectALife.Helicopter_EscortSide_option2"
+   ]
+  ],
+  "41": [
+   "Sandbox_ProjectALife.Helicopter_EscortSide_option3",
+   "Auto",
+   [
+    "Sandbox_ProjectALife.Helicopter_EscortSide_option3"
+   ]
+  ],
+  "42": [
+   "Sandbox_ProjectALife.Helicopter_EscortChaseKmh",
+   "Helicopter catch-up speed margin (km/h)",
+   [
+    "Sandbox_ProjectALife.Helicopter_EscortChaseKmh"
+   ]
+  ],
+  "43": [
+   "Sandbox_ProjectALife.Helicopter_EscortChaseKmh_tooltip",
+   "When behind, the helicopter can fly this much faster than your vehicle, within its flight limits. It never teleports.\nDefault 75.",
+   [
+    "Sandbox_ProjectALife.Helicopter_EscortChaseKmh_tooltip"
+   ]
+  ],
+  "44": [
+   "Sandbox_ProjectALife.Helicopter_ReplaceVanilla",
+   "Replace the game's helicopter event with ours",
+   [
+    "Sandbox_ProjectALife.Helicopter_ReplaceVanilla"
+   ]
+  ],
+  "45": [
+   "Sandbox_ProjectALife.Helicopter_ReplaceVanilla_tooltip",
+   "The game's own helicopter event, set in the base Helicopter sandbox option, sends our Black Hawk instead on the same days and hours. Never both at once. Off: the game's helicopter returns.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.Helicopter_ReplaceVanilla_tooltip"
+   ]
+  ],
+  "46": [
+   "Sandbox_ProjectALife.Helicopter_FlybyHours",
+   "Helicopter flyby every (game hours)",
+   [
+    "Sandbox_ProjectALife.Helicopter_FlybyHours"
+   ]
+  ],
+  "47": [
+   "Sandbox_ProjectALife.Helicopter_FlybyHours_tooltip",
+   "Average time between helicopters that fly past or circle near a player, at random. Not during the first hours of a character. 0 turns flybys off.\nDefault 36.",
+   [
+    "Sandbox_ProjectALife.Helicopter_FlybyHours_tooltip"
+   ]
+  ],
+  "48": [
+   "Sandbox_ProjectALife.Helicopter_NoiseRadius",
+   "Helicopter noise that draws zombies (tiles)",
+   [
+    "Sandbox_ProjectALife.Helicopter_NoiseRadius"
+   ]
+  ],
+  "49": [
+   "Sandbox_ProjectALife.Helicopter_NoiseRadius_tooltip",
+   "How far a flying helicopter is heard by zombies. Lower flight and hovering are louder, passing is quieter. 0 means zombies ignore helicopters.\nDefault 50.",
+   [
+    "Sandbox_ProjectALife.Helicopter_NoiseRadius_tooltip"
+   ]
+  ],
+  "50": [
+   "Sandbox_ProjectALife.Helicopter2_Enabled",
+   "Black Hawk helicopter encounters",
+   [
+    "Sandbox_ProjectALife.Helicopter2_Enabled"
+   ]
+  ],
+  "51": [
+   "Sandbox_ProjectALife.Helicopter2_Enabled_tooltip",
+   "Allows the Black Hawk helicopter to appear as a second helicopter encounter. Off: it never appears.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.Helicopter2_Enabled_tooltip"
+   ]
+  ],
+  "52": [
+   "Sandbox_ProjectALife.Helicopter2_Share",
+   "Black Hawk share of helicopter drops (percent)",
+   [
+    "Sandbox_ProjectALife.Helicopter2_Share"
+   ]
+  ],
+  "53": [
+   "Sandbox_ProjectALife.Helicopter2_Share_tooltip",
+   "Chance that a helicopter drop on a backup call is the Black Hawk, not the standard helicopter. Squads over three riders use the standard one.\nDefault 30.",
+   [
+    "Sandbox_ProjectALife.Helicopter2_Share_tooltip"
+   ]
+  ],
+  "54": [
+   "Sandbox_ProjectALife.Helicopter2_Gunner",
+   "Black Hawk door gunners",
+   [
+    "Sandbox_ProjectALife.Helicopter2_Gunner"
+   ]
+  ],
+  "55": [
+   "Sandbox_ProjectALife.Helicopter2_Gunner_tooltip",
+   "The Black Hawk's door gunners fire at you and at zombies near you, but only when the crew is hostile to you (same rule as a drive-by). Off: the Black Hawk never shoots.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.Helicopter2_Gunner_tooltip"
+   ]
+  ],
+  "56": [
+   "Sandbox_ProjectALife.Helicopter2_GunnerHitPercent",
+   "Black Hawk gunner hit chance (percent)",
+   [
+    "Sandbox_ProjectALife.Helicopter2_GunnerHitPercent"
+   ]
+  ],
+  "57": [
+   "Sandbox_ProjectALife.Helicopter2_GunnerHitPercent_tooltip",
+   "Chance that one gunner round hits you at point blank. It falls off with distance, down to 15 percent of this value at the gunner's range.\nDefault 8.",
+   [
+    "Sandbox_ProjectALife.Helicopter2_GunnerHitPercent_tooltip"
+   ]
+  ],
+  "58": [
+   "Sandbox_ProjectALife.Helicopter2_GunnerDamagePercent",
+   "Black Hawk gunner damage (percent)",
+   [
+    "Sandbox_ProjectALife.Helicopter2_GunnerDamagePercent"
+   ]
+  ],
+  "59": [
+   "Sandbox_ProjectALife.Helicopter2_GunnerDamagePercent_tooltip",
+   "How much of a normal rifle wound a gunner hit does to you.\nDefault 25.",
+   [
+    "Sandbox_ProjectALife.Helicopter2_GunnerDamagePercent_tooltip"
+   ]
+  ],
+  "60": [
+   "Sandbox_ProjectALife.Helicopter2_GunnerRangeTiles",
+   "Black Hawk gunner range (tiles)",
+   [
+    "Sandbox_ProjectALife.Helicopter2_GunnerRangeTiles"
+   ]
+  ],
+  "61": [
+   "Sandbox_ProjectALife.Helicopter2_GunnerRangeTiles_tooltip",
+   "Gunners only fire at targets this close to the helicopter.\nDefault 40.",
+   [
+    "Sandbox_ProjectALife.Helicopter2_GunnerRangeTiles_tooltip"
+   ]
+  ],
+  "62": [
+   "Sandbox_ProjectALife.Helicopter2_GunnerZombies",
+   "Black Hawk gunners spray zombies",
+   [
+    "Sandbox_ProjectALife.Helicopter2_GunnerZombies"
+   ]
+  ],
+  "63": [
+   "Sandbox_ProjectALife.Helicopter2_GunnerZombies_tooltip",
+   "Some bursts go at zombies near the player instead of at the player. Some of those rounds kill or hurt a zombie.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.Helicopter2_GunnerZombies_tooltip"
+   ]
+  ],
+  "64": [
+   "Sandbox_ProjectALife.MoveEvadeVehicles",
+   "NPCs on foot step out of the way of moving vehicles",
+   [
+    "Sandbox_ProjectALife.MoveEvadeVehicles"
+   ]
+  ],
+  "65": [
+   "Sandbox_ProjectALife.MoveEvadeVehicles_tooltip",
+   "NPCs on foot in the path of a moving car sidestep out of it and run when it is about to hit. Parked, receding and passing cars are ignored.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.MoveEvadeVehicles_tooltip"
+   ]
+  ],
+  "66": [
+   "Sandbox_ProjectALife.CombatFlanking",
+   "NPC flanking",
+   [
+    "Sandbox_ProjectALife.CombatFlanking"
+   ]
+  ],
+  "67": [
+   "Sandbox_ProjectALife.CombatFlanking_tooltip",
+   "NPC squads send a member round the side of a target they cannot reach head on. Off: they keep fighting from the front.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CombatFlanking_tooltip"
+   ]
+  ],
+  "68": [
+   "Sandbox_ProjectALife.CombatSquadPush",
+   "NPC squad push",
+   [
+    "Sandbox_ProjectALife.CombatSquadPush"
+   ]
+  ],
+  "69": [
+   "Sandbox_ProjectALife.CombatSquadPush_tooltip",
+   "Squads advance together on a target that is pinned down or reloading. Off: they hold their positions.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CombatSquadPush_tooltip"
+   ]
+  ],
+  "70": [
+   "Sandbox_ProjectALife.CombatSuppression",
+   "NPC suppressing fire",
+   [
+    "Sandbox_ProjectALife.CombatSuppression"
+   ]
+  ],
+  "71": [
+   "Sandbox_ProjectALife.CombatSuppression_tooltip",
+   "NPCs pin a target down with bursts and near misses before closing in. Off: they only shoot to hit.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CombatSuppression_tooltip"
+   ]
+  ],
+  "72": [
+   "Sandbox_ProjectALife.QuickSpawnGroupSize",
+   "Quick spawn group size",
+   [
+    "Sandbox_ProjectALife.QuickSpawnGroupSize"
+   ]
+  ],
+  "73": [
+   "Sandbox_ProjectALife.QuickSpawnGroupSize_tooltip",
+   "How many NPCs the admin quick spawn makes when you spawn a faction. The leader comes first. A faction that needs more members keeps its own minimum.\nDefault 5.",
+   [
+    "Sandbox_ProjectALife.QuickSpawnGroupSize_tooltip"
+   ]
+  ],
+  "74": [
+   "Sandbox_ProjectALife.HeliFrequency",
+   "Helicopter frequency",
+   [
+    "Sandbox_ProjectALife.HeliFrequency"
+   ]
+  ],
+  "75": [
+   "Sandbox_ProjectALife.HeliFrequency_tooltip",
+   "How often A-Life helicopters show up: flybys, backup, searchlights. They get rarer as the days pass. Low is half as often, High is twice as often, Off stops every A-Life helicopter and its sounds. A-Life helicopters must be on.\nDefault Normal (2).",
+   [
+    "Sandbox_ProjectALife.HeliFrequency_tooltip"
+   ]
+  ],
+  "76": [
+   "Sandbox_ProjectALife.HeliFrequency_option1",
+   "Low",
+   [
+    "Sandbox_ProjectALife.HeliFrequency_option1"
+   ]
+  ],
+  "77": [
+   "Sandbox_ProjectALife.HeliFrequency_option2",
+   "Normal",
+   [
+    "Sandbox_ProjectALife.HeliFrequency_option2"
+   ]
+  ],
+  "78": [
+   "Sandbox_ProjectALife.HeliFrequency_option3",
+   "High",
+   [
+    "Sandbox_ProjectALife.HeliFrequency_option3"
+   ]
+  ],
+  "79": [
+   "Sandbox_ProjectALife.HeliFrequency_option4",
+   "Off",
+   [
+    "Sandbox_ProjectALife.HeliFrequency_option4"
+   ]
+  ],
+  "80": [
+   "Sandbox_ProjectALife.HeliHostile",
+   "Hostile and raid helicopters",
+   [
+    "Sandbox_ProjectALife.HeliHostile"
+   ]
+  ],
+  "81": [
+   "Sandbox_ProjectALife.HeliHostile_tooltip",
+   "Lets helicopters turn hostile and circle to attack, and lets full-scale raids bring a helicopter (raid gunship, helicopter drop). Off: no helicopter ever attacks and raids arrive on foot or by car.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.HeliHostile_tooltip"
+   ]
+  ],
+  "82": [
+   "Sandbox_ProjectALife.HeliOrbitMax",
+   "Helicopter circling limit (minutes)",
+   [
+    "Sandbox_ProjectALife.HeliOrbitMax"
+   ]
+  ],
+  "83": [
+   "Sandbox_ProjectALife.HeliOrbitMax_tooltip",
+   "A helicopter that circles you or your base flies away after this many minutes, and no new one circles the same place for six game hours. 0 means no limit.\nDefault 8.",
+   [
+    "Sandbox_ProjectALife.HeliOrbitMax_tooltip"
+   ]
+  ],
+  "84": [
+   "Sandbox_ProjectALife.HeliAttract",
+   "Helicopter noise attracts zombies",
+   [
+    "Sandbox_ProjectALife.HeliAttract"
+   ]
+  ],
+  "85": [
+   "Sandbox_ProjectALife.HeliAttract_tooltip",
+   "On: helicopter rotors, arrivals and searchlights make noise that pulls zombies in. Off: they stay audible to you but do not draw zombies.\nDefault off.",
+   [
+    "Sandbox_ProjectALife.HeliAttract_tooltip"
+   ]
+  ],
+  "86": [
+   "Sandbox_ProjectALife.HeliMusic",
+   "Helicopter music",
+   [
+    "Sandbox_ProjectALife.HeliMusic"
+   ]
+  ],
+  "87": [
+   "Sandbox_ProjectALife.HeliMusic_tooltip",
+   "Some helicopter flybys play a music track. Off: no helicopter ever plays music, only the rotor. Each player can also turn it off for themselves in the journal Settings, Helicopter music. The track weights are on the A-Life: Aircraft page.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.HeliMusic_tooltip"
+   ]
+  ],
+  "88": [
+   "Sandbox_ProjectALife.HeliMusicNone",
+   "Helicopter flyby: no-music weight",
+   [
+    "Sandbox_ProjectALife.HeliMusicNone"
+   ]
+  ],
+  "89": [
+   "Sandbox_ProjectALife.HeliMusicNone_tooltip",
+   "Relative chance that a flyby plays no music. Chances are the weights divided by their sum, so they need not add up to 100. All zero: no music. Needs Helicopter flyby music on.\nDefault 50.",
+   [
+    "Sandbox_ProjectALife.HeliMusicNone_tooltip"
+   ]
+  ],
+  "90": [
+   "Sandbox_ProjectALife.HeliMusicS1",
+   "Helicopter flyby: music track 1 weight",
+   [
+    "Sandbox_ProjectALife.HeliMusicS1"
+   ]
+  ],
+  "91": [
+   "Sandbox_ProjectALife.HeliMusicS1_tooltip",
+   "Relative chance of flyby music track 1. Chances are the weights divided by their sum. 0 never plays it.\nDefault 25.",
+   [
+    "Sandbox_ProjectALife.HeliMusicS1_tooltip"
+   ]
+  ],
+  "92": [
+   "Sandbox_ProjectALife.HeliMusicS2",
+   "Helicopter flyby: music track 2 weight",
+   [
+    "Sandbox_ProjectALife.HeliMusicS2"
+   ]
+  ],
+  "93": [
+   "Sandbox_ProjectALife.HeliMusicS2_tooltip",
+   "Relative chance of flyby music track 2. Chances are the weights divided by their sum. 0 never plays it.\nDefault 25.",
+   [
+    "Sandbox_ProjectALife.HeliMusicS2_tooltip"
+   ]
+  ],
+  "94": [
+   "Sandbox_ProjectALife.HeliMusicS3",
+   "Helicopter flyby: music track 3 weight",
+   [
+    "Sandbox_ProjectALife.HeliMusicS3"
+   ]
+  ],
+  "95": [
+   "Sandbox_ProjectALife.HeliMusicS3_tooltip",
+   "Relative chance of flyby music track 3. Chances are the weights divided by their sum. 0 never plays it.\nDefault 25.",
+   [
+    "Sandbox_ProjectALife.HeliMusicS3_tooltip"
+   ]
+  ],
+  "96": [
+   "Sandbox_ProjectALife.HeliMusicS4",
+   "Helicopter flyby: music track 4 weight",
+   [
+    "Sandbox_ProjectALife.HeliMusicS4"
+   ]
+  ],
+  "97": [
+   "Sandbox_ProjectALife.HeliMusicS4_tooltip",
+   "Relative chance of flyby music track 4 (Bad to the Bone). Chances are the weights divided by their sum. 0 never plays it.\nDefault 25.",
+   [
+    "Sandbox_ProjectALife.HeliMusicS4_tooltip"
+   ]
+  ],
+  "98": [
+   "Sandbox_ProjectALife.HeliMusicS5",
+   "Helicopter flyby: music track 5 weight",
+   [
+    "Sandbox_ProjectALife.HeliMusicS5"
+   ]
+  ],
+  "99": [
+   "Sandbox_ProjectALife.HeliMusicS5_tooltip",
+   "Relative chance of flyby music track 5 (California Dreamin'). Chances are the weights divided by their sum. 0 never plays it.\nDefault 25.",
+   [
+    "Sandbox_ProjectALife.HeliMusicS5_tooltip"
+   ]
+  ],
+  "100": [
+   "Sandbox_ProjectALife.HeliMusicS6",
+   "Helicopter flyby: music track 6 weight",
+   [
+    "Sandbox_ProjectALife.HeliMusicS6"
+   ]
+  ],
+  "101": [
+   "Sandbox_ProjectALife.HeliMusicS6_tooltip",
+   "Relative chance of flyby music track 6 (Mother). Chances are the weights divided by their sum. 0 never plays it.\nDefault 25.",
+   [
+    "Sandbox_ProjectALife.HeliMusicS6_tooltip"
+   ]
+  ],
+  "102": [
+   "Sandbox_ProjectALife.CarsTrafficFrequency",
+   "NPC car frequency",
+   [
+    "Sandbox_ProjectALife.CarsTrafficFrequency"
+   ]
+  ],
+  "103": [
+   "Sandbox_ProjectALife.CarsTrafficFrequency_tooltip",
+   "How many NPC cars are on the roads: ambient traffic, drive-bys and pull-ups. Low is about 40 percent, High is 1.5 times, Off stops all ambient NPC car traffic (raid, police response and scripted cars follow their own switches). Enable NPC vehicles must be on.\nDefault Normal (2).",
+   [
+    "Sandbox_ProjectALife.CarsTrafficFrequency_tooltip"
+   ]
+  ],
+  "104": [
+   "Sandbox_ProjectALife.CarsTrafficFrequency_option1",
+   "Low",
+   [
+    "Sandbox_ProjectALife.CarsTrafficFrequency_option1"
+   ]
+  ],
+  "105": [
+   "Sandbox_ProjectALife.CarsTrafficFrequency_option2",
+   "Normal",
+   [
+    "Sandbox_ProjectALife.CarsTrafficFrequency_option2"
+   ]
+  ],
+  "106": [
+   "Sandbox_ProjectALife.CarsTrafficFrequency_option3",
+   "High",
+   [
+    "Sandbox_ProjectALife.CarsTrafficFrequency_option3"
+   ]
+  ],
+  "107": [
+   "Sandbox_ProjectALife.CarsTrafficFrequency_option4",
+   "Off",
+   [
+    "Sandbox_ProjectALife.CarsTrafficFrequency_option4"
+   ]
+  ],
+  "108": [
+   "Sandbox_ProjectALife.Js5Enabled",
+   "Enable JS-5 SMG on NPCs",
+   [
+    "Sandbox_ProjectALife.Js5Enabled"
+   ]
+  ],
+  "109": [
+   "Sandbox_ProjectALife.Js5Enabled_tooltip",
+   "NPCs that would carry the JS-5 submachine gun carry an M9 pistol instead when this is off.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.Js5Enabled_tooltip"
+   ]
+  ],
+  "110": [
+   "Sandbox_ProjectALife.M60Enabled",
+   "Enable M60 machine gun on NPCs",
+   [
+    "Sandbox_ProjectALife.M60Enabled"
+   ]
+  ],
+  "111": [
+   "Sandbox_ProjectALife.M60Enabled_tooltip",
+   "Juggernauts, tower gunners and Creator presets that would carry the M60 machine gun carry an M16 assault rifle instead when this is off.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.M60Enabled_tooltip"
+   ]
+  ],
+  "112": [
+   "Sandbox_ProjectALife.RealMisses",
+   "Missed shots look like misses",
+   [
+    "Sandbox_ProjectALife.RealMisses"
+   ]
+  ],
+  "113": [
+   "Sandbox_ProjectALife.RealMisses_tooltip",
+   "A shot that fails its to-hit roll is a plain miss: no blood, no reaction, no knock-down. Sets the vanilla Firearms Use Damage Chance to Disabled at world start; off restores the old value.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.RealMisses_tooltip"
+   ]
+  ],
+  "114": [
+   "Sandbox_ProjectALife.ZombieHitFloor",
+   "Minimum hit chance against zombies (percent)",
+   [
+    "Sandbox_ProjectALife.ZombieHitFloor"
+   ]
+  ],
+  "115": [
+   "Sandbox_ProjectALife.ZombieHitFloor_tooltip",
+   "At least this share of your aimed shots at zombies deal damage, however low the engine hit chance falls (night, full auto, long range). 0 is vanilla.\nDefault 50.",
+   [
+    "Sandbox_ProjectALife.ZombieHitFloor_tooltip"
+   ]
+  ],
+  "116": [
+   "Sandbox_ProjectALife.ZombieMinBulletDamage",
+   "Minimum damage of a bullet hit on a zombie",
+   [
+    "Sandbox_ProjectALife.ZombieMinBulletDamage"
+   ]
+  ],
+  "117": [
+   "Sandbox_ProjectALife.ZombieMinBulletDamage_tooltip",
+   "A bullet that hits a zombie takes at least this much of its health, so arm and leg hits count too (a zombie has 0.5 to 3.8 health). 0 is vanilla.\nDefault 0.15",
+   [
+    "Sandbox_ProjectALife.ZombieMinBulletDamage_tooltip"
+   ]
+  ],
+  "118": [
+   "Sandbox_ProjectALife.OutpostsKeepOut",
+   "Keep outposts away from player bases (tiles)",
+   [
+    "Sandbox_ProjectALife.OutpostsKeepOut"
+   ]
+  ],
+  "119": [
+   "Sandbox_ProjectALife.OutpostsKeepOut_tooltip",
+   "New outposts and installation-type encounters stay at least this far from claimed safehouses and player-built bases. Raise it if one appears too close to your base.\nDefault 45.",
+   [
+    "Sandbox_ProjectALife.OutpostsKeepOut_tooltip"
+   ]
+  ],
+  "120": [
+   "Sandbox_ProjectALife.BulletPenetration_option1",
+   "Off",
+   [
+    "Sandbox_ProjectALife.BulletPenetration_option1"
+   ]
+  ],
+  "121": [
+   "Sandbox_ProjectALife.BulletPenetration_option2",
+   "Rifles and shotguns (default)",
+   [
+    "Sandbox_ProjectALife.BulletPenetration_option2"
+   ]
+  ],
+  "122": [
+   "Sandbox_ProjectALife.BulletPenetration_option3",
+   "All firearms",
+   [
+    "Sandbox_ProjectALife.BulletPenetration_option3"
+   ]
+  ],
+  "123": [
+   "Sandbox_ProjectALife.CluesMaxSearchers",
+   "Clues: most searchers per trace",
+   [
+    "Sandbox_ProjectALife.CluesMaxSearchers"
+   ]
+  ],
+  "124": [
+   "Sandbox_ProjectALife.CluesMaxSearchers_tooltip",
+   "How many survivors may search the same trace at once. The rest pick another trace or carry on. Lower stops crowds gathering at one spot.\nDefault 2.",
+   [
+    "Sandbox_ProjectALife.CluesMaxSearchers_tooltip"
+   ]
+  ],
+  "125": [
+   "Sandbox_ProjectALife.CluesMaxInvestigators",
+   "Clues: most investigators near the player",
+   [
+    "Sandbox_ProjectALife.CluesMaxInvestigators"
+   ]
+  ],
+  "126": [
+   "Sandbox_ProjectALife.CluesMaxInvestigators_tooltip",
+   "Most survivors within about 25 tiles of a player that may answer sounds or search traces at once. 0 turns the limit off.\nDefault 4.",
+   [
+    "Sandbox_ProjectALife.CluesMaxInvestigators_tooltip"
+   ]
+  ],
+  "127": [
+   "Sandbox_ProjectALife.CluesZoneCooldown",
+   "[Expert] Clues: seconds before a searched trace draws survivors again",
+   [
+    "Sandbox_ProjectALife.CluesZoneCooldown"
+   ]
+  ],
+  "128": [
+   "Sandbox_ProjectALife.CluesZoneCooldown_tooltip",
+   "After one search of a trace finishes, nobody else is sent to it for this long.\nDefault 90.",
+   [
+    "Sandbox_ProjectALife.CluesZoneCooldown_tooltip"
+   ]
+  ],
+  "129": [
+   "Sandbox_ProjectALife.CluesVehicleFresh",
+   "[Expert] Clues: minutes a running engine stays a trace",
+   [
+    "Sandbox_ProjectALife.CluesVehicleFresh"
+   ]
+  ],
+  "130": [
+   "Sandbox_ProjectALife.CluesVehicleFresh_tooltip",
+   "A car left running draws survivors for this long, then stops counting as a fresh trace until its engine is restarted.\nDefault 5.",
+   [
+    "Sandbox_ProjectALife.CluesVehicleFresh_tooltip"
+   ]
+  ],
+  "131": [
+   "Sandbox_ProjectALife.UITheme",
+   "Menu colour theme",
+   [
+    "Sandbox_ProjectALife.UITheme"
+   ]
+  ],
+  "132": [
+   "Sandbox_ProjectALife.UITheme_tooltip",
+   "Colours of the A-Life windows. Cyber: graphite panels, cyan for the selected item, amber for what matters. Classic cyan: the old all-cyan look. Amber: amber instead of cyan.\nDefault Cyber.",
+   [
+    "Sandbox_ProjectALife.UITheme_tooltip"
+   ]
+  ],
+  "133": [
+   "Sandbox_ProjectALife.UITheme_option1",
+   "Cyber (cyan + amber)",
+   [
+    "Sandbox_ProjectALife.UITheme_option1"
+   ]
+  ],
+  "134": [
+   "Sandbox_ProjectALife.UITheme_option2",
+   "Classic cyan",
+   [
+    "Sandbox_ProjectALife.UITheme_option2"
+   ]
+  ],
+  "135": [
+   "Sandbox_ProjectALife.UITheme_option3",
+   "Amber",
+   [
+    "Sandbox_ProjectALife.UITheme_option3"
+   ]
+  ],
+  "136": [
+   "Sandbox_ProjectALife.RecorderEnabled",
+   "Maneuver recorder (admin tool)",
+   [
+    "Sandbox_ProjectALife.RecorderEnabled"
+   ]
+  ],
+  "137": [
+   "Sandbox_ProjectALife.RecorderEnabled_tooltip",
+   "Turns on the maneuver recorder: a key starts and stops a recording of what you do (moves, aim, shots, reloads) into a file for the developer. Single player, or admins on a server. Off means nothing runs. Takes effect when the game starts.\nDefault off.",
+   [
+    "Sandbox_ProjectALife.RecorderEnabled_tooltip"
+   ]
+  ],
+  "138": [
+   "Sandbox_ProjectALife.RecorderAutoOnAim",
+   "Recorder starts when you aim",
+   [
+    "Sandbox_ProjectALife.RecorderAutoOnAim"
+   ]
+  ],
+  "139": [
+   "Sandbox_ProjectALife.RecorderAutoOnAim_tooltip",
+   "With the recorder on, raising a weapon starts a recording and lowering it for a few seconds stops it.\nDefault off.",
+   [
+    "Sandbox_ProjectALife.RecorderAutoOnAim_tooltip"
+   ]
+  ],
+  "140": [
+   "Sandbox_ProjectALife.RecorderAutoStopSeconds",
+   "Recorder stops after not aiming (seconds)",
+   [
+    "Sandbox_ProjectALife.RecorderAutoStopSeconds"
+   ]
+  ],
+  "141": [
+   "Sandbox_ProjectALife.RecorderAutoStopSeconds_tooltip",
+   "How long you can keep the weapon lowered before an aim-started recording ends. Recordings you start by key run until you stop them.\nDefault 4.",
+   [
+    "Sandbox_ProjectALife.RecorderAutoStopSeconds_tooltip"
+   ]
+  ],
+  "142": [
+   "Sandbox_ProjectALife.RecorderSampleHz",
+   "Recorder samples per second",
+   [
+    "Sandbox_ProjectALife.RecorderSampleHz"
+   ]
+  ],
+  "143": [
+   "Sandbox_ProjectALife.RecorderSampleHz_tooltip",
+   "How often the recorder writes your position and state. More is smoother and makes bigger files.\nDefault 10.",
+   [
+    "Sandbox_ProjectALife.RecorderSampleHz_tooltip"
+   ]
+  ],
+  "144": [
+   "Sandbox_ProjectALife.RecorderMaxFileKB",
+   "Recorder file size limit (KB)",
+   [
+    "Sandbox_ProjectALife.RecorderMaxFileKB"
+   ]
+  ],
+  "145": [
+   "Sandbox_ProjectALife.RecorderMaxFileKB_tooltip",
+   "A recording stops by itself when its file reaches this size.\nDefault 2048.",
+   [
+    "Sandbox_ProjectALife.RecorderMaxFileKB_tooltip"
+   ]
+  ],
+  "146": [
+   "Sandbox_ProjectALife.RecorderMaxFiles",
+   "Recorder files kept",
+   [
+    "Sandbox_ProjectALife.RecorderMaxFiles"
+   ]
+  ],
+  "147": [
+   "Sandbox_ProjectALife.RecorderMaxFiles_tooltip",
+   "How many recordings are kept. Older ones are emptied (the game cannot delete files); you can delete the folder by hand.\nDefault 40.",
+   [
+    "Sandbox_ProjectALife.RecorderMaxFiles_tooltip"
+   ]
+  ],
+  "148": [
+   "Sandbox_ProjectALife.ServerDiagnostics",
+   "Server diagnostics",
+   [
+    "Sandbox_ProjectALife.ServerDiagnostics"
+   ]
+  ],
+  "149": [
+   "Sandbox_ProjectALife.ServerDiagnostics_tooltip",
+   "Dedicated and hosted servers only. When on, the server runs the blackbox, combat trace, car dump and report history all the time and prints its full A-Life console log. When off, they stay quiet and chatty console lines are capped, and an admin who starts the recorder gets 30 minutes of them. Single player and clients are not affected.\nDefault off",
+   [
+    "Sandbox_ProjectALife.ServerDiagnostics_tooltip"
+   ]
+  ],
+  "150": [
+   "Sandbox_ProjectALife.TalkHoldNpc",
+   "NPCs stand still while you talk",
+   [
+    "Sandbox_ProjectALife.TalkHoldNpc"
+   ]
+  ],
+  "151": [
+   "Sandbox_ProjectALife.TalkHoldNpc_tooltip",
+   "An NPC you talk to stops walking, turns to face you and picks its old task back up when the talk ends. Hostile NPCs, fighters and drivers are never held.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.TalkHoldNpc_tooltip"
+   ]
+  ],
+  "152": [
+   "Sandbox_ProjectALife.TalkGestures",
+   "NPC talking gestures",
+   [
+    "Sandbox_ProjectALife.TalkGestures"
+   ]
+  ],
+  "153": [
+   "Sandbox_ProjectALife.TalkGestures_tooltip",
+   "NPCs add small hand and body gestures while they speak to you, matched to the mood of the line. They never gesture while fighting or aiming.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.TalkGestures_tooltip"
+   ]
+  ],
+  "154": [
+   "Sandbox_ProjectALife.RepBarHud",
+   "Reputation bar on screen",
+   [
+    "Sandbox_ProjectALife.RepBarHud"
+   ]
+  ],
+  "155": [
+   "Sandbox_ProjectALife.RepBarHud_tooltip",
+   "Shows your reputation level and a progress bar at the top of the screen for a few seconds after it changes, and replaces the small green text with a change popup. Off keeps the small text.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.RepBarHud_tooltip"
+   ]
+  ],
+  "156": [
+   "Sandbox_ProjectALife.RepHudPosition",
+   "Reputation bar position",
+   [
+    "Sandbox_ProjectALife.RepHudPosition"
+   ]
+  ],
+  "157": [
+   "Sandbox_ProjectALife.RepHudPosition_tooltip",
+   "Where the reputation bar and its change popup appear on the screen.\nDefault Top right (1).",
+   [
+    "Sandbox_ProjectALife.RepHudPosition_tooltip"
+   ]
+  ],
+  "158": [
+   "Sandbox_ProjectALife.RepHudPosition_option1",
+   "Top right",
+   [
+    "Sandbox_ProjectALife.RepHudPosition_option1"
+   ]
+  ],
+  "159": [
+   "Sandbox_ProjectALife.RepHudPosition_option2",
+   "Top centre",
+   [
+    "Sandbox_ProjectALife.RepHudPosition_option2"
+   ]
+  ],
+  "160": [
+   "Sandbox_ProjectALife.RepHudPosition_option3",
+   "Left",
+   [
+    "Sandbox_ProjectALife.RepHudPosition_option3"
+   ]
+  ],
+  "161": [
+   "Sandbox_ProjectALife.RepShowReasons",
+   "Reason in the reputation popup",
+   [
+    "Sandbox_ProjectALife.RepShowReasons"
+   ]
+  ],
+  "162": [
+   "Sandbox_ProjectALife.RepShowReasons_tooltip",
+   "The popup names what changed your reputation, such as killed a hostile survivor. Off shows only the amount.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.RepShowReasons_tooltip"
+   ]
+  ],
+  "163": [
+   "Sandbox_ProjectALife.RepPopupSeconds",
+   "Reputation bar seconds",
+   [
+    "Sandbox_ProjectALife.RepPopupSeconds"
+   ]
+  ],
+  "164": [
+   "Sandbox_ProjectALife.RepPopupSeconds_tooltip",
+   "How many seconds the reputation bar stays on screen after a change.\nDefault 5.",
+   [
+    "Sandbox_ProjectALife.RepPopupSeconds_tooltip"
+   ]
+  ],
+  "165": [
+   "Sandbox_ProjectALife.RobberyStartTiles",
+   "Hold-up start distance (tiles)",
+   [
+    "Sandbox_ProjectALife.RobberyStartTiles"
+   ]
+  ],
+  "166": [
+   "Sandbox_ProjectALife.RobberyStartTiles_tooltip",
+   "How close a crew must be before it can hold you up. The crew walks up to you and one of them must see you. Backup, support and helicopter crews never rob.\nDefault 8.",
+   [
+    "Sandbox_ProjectALife.RobberyStartTiles_tooltip"
+   ]
+  ],
+  "167": [
+   "Sandbox_ProjectALife.FastForwardInterrupt",
+   "Slow down when an A-Life event starts",
+   [
+    "Sandbox_ProjectALife.FastForwardInterrupt"
+   ]
+  ],
+  "168": [
+   "Sandbox_ProjectALife.FastForwardInterrupt_tooltip",
+   "Returns fast-forward to normal speed when a visitor knocks, a raid or a crash starts, support arrives or an NPC asks you something. Single player only.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FastForwardInterrupt_tooltip"
+   ]
+  ],
+  "169": [
+   "Sandbox_ProjectALife.FunnelStarterFadeDay",
+   "Starter survivors start thinning out (game day)",
+   [
+    "Sandbox_ProjectALife.FunnelStarterFadeDay"
+   ]
+  ],
+  "170": [
+   "Sandbox_ProjectALife.FunnelStarterFadeDay_tooltip",
+   "Job-uniform crews, stranded commuters and lone nurses belong to the first days. From this day they spawn less and less. NPCs already in the world stay.\nDefault 10.",
+   [
+    "Sandbox_ProjectALife.FunnelStarterFadeDay_tooltip"
+   ]
+  ],
+  "171": [
+   "Sandbox_ProjectALife.FunnelStarterGoneDay",
+   "Starter survivors stop appearing (game day)",
+   [
+    "Sandbox_ProjectALife.FunnelStarterGoneDay"
+   ]
+  ],
+  "172": [
+   "Sandbox_ProjectALife.FunnelStarterGoneDay_tooltip",
+   "From this day starter survivors no longer spawn and part of their share goes to experienced survivors. Keep it after the thinning-out day.\nDefault 30.",
+   [
+    "Sandbox_ProjectALife.FunnelStarterGoneDay_tooltip"
+   ]
+  ],
+  "173": [
+   "Sandbox_ProjectALife.FunnelVeteranStartDay",
+   "Experienced survivors start appearing (game day)",
+   [
+    "Sandbox_ProjectALife.FunnelVeteranStartDay"
+   ]
+  ],
+  "174": [
+   "Sandbox_ProjectALife.FunnelVeteranStartDay_tooltip",
+   "Hardened survivors, preppers and old hands do not spawn before this day and phase in after it.\nDefault 10.",
+   [
+    "Sandbox_ProjectALife.FunnelVeteranStartDay_tooltip"
+   ]
+  ],
+  "175": [
+   "Sandbox_ProjectALife.FunnelVeteranFullDay",
+   "Experienced survivors fully present (game day)",
+   [
+    "Sandbox_ProjectALife.FunnelVeteranFullDay"
+   ]
+  ],
+  "176": [
+   "Sandbox_ProjectALife.FunnelVeteranFullDay_tooltip",
+   "The day experienced survivors reach their full spawn weight. Keep it after the start day.\nDefault 30.",
+   [
+    "Sandbox_ProjectALife.FunnelVeteranFullDay_tooltip"
+   ]
+  ],
+  "177": [
+   "Sandbox_ProjectALife.FunnelDeclineStartDay",
+   "First local gangs start declining (game day)",
+   [
+    "Sandbox_ProjectALife.FunnelDeclineStartDay"
+   ]
+  ],
+  "178": [
+   "Sandbox_ProjectALife.FunnelDeclineStartDay_tooltip",
+   "Early local gangs begin to lose ground to larger raiders from this day. They thin out but never vanish completely.\nDefault 150.",
+   [
+    "Sandbox_ProjectALife.FunnelDeclineStartDay_tooltip"
+   ]
+  ],
+  "179": [
+   "Sandbox_ProjectALife.FunnelDeclineEndDay",
+   "First local gangs reach their low point (game day)",
+   [
+    "Sandbox_ProjectALife.FunnelDeclineEndDay"
+   ]
+  ],
+  "180": [
+   "Sandbox_ProjectALife.FunnelDeclineEndDay_tooltip",
+   "The day declining gangs reach their lowest spawn weight. Keep it after the start day.\nDefault 450.",
+   [
+    "Sandbox_ProjectALife.FunnelDeclineEndDay_tooltip"
+   ]
+  ],
+  "181": [
+   "Sandbox_ProjectALife.FunnelHandoffPercent",
+   "Handoff to experienced groups (percent of lost weight)",
+   [
+    "Sandbox_ProjectALife.FunnelHandoffPercent"
+   ]
+  ],
+  "182": [
+   "Sandbox_ProjectALife.FunnelHandoffPercent_tooltip",
+   "How much of the spawn weight a fading faction loses is passed to its named successor. 0 means the weight is simply lost, 100 passes all of it. Needs the faction timeline option on.\nDefault 70.",
+   [
+    "Sandbox_ProjectALife.FunnelHandoffPercent_tooltip"
+   ]
+  ],
+  "183": [
+   "Sandbox_ProjectALife.FunnelDay0LawBoost",
+   "Day-0 police and military weight boost (percent)",
+   [
+    "Sandbox_ProjectALife.FunnelDay0LawBoost"
+   ]
+  ],
+  "184": [
+   "Sandbox_ProjectALife.FunnelDay0LawBoost_tooltip",
+   "During day 0, adds selection weight for police and military. 50 means half again; 0 disables it. Other spawn limits still apply. Requires the faction timeline option.\nDefault 50.",
+   [
+    "Sandbox_ProjectALife.FunnelDay0LawBoost_tooltip"
+   ]
+  ],
+  "185": [
+   "Sandbox_ProjectALife.WarningKosVillain",
+   "[Expert] Attack on sight at the worst reputation (percent)",
+   [
+    "Sandbox_ProjectALife.WarningKosVillain"
+   ]
+  ],
+  "186": [
+   "Sandbox_ProjectALife.WarningKosVillain_tooltip",
+   "Share of hostile crews that open fire with no warning on a player at the lowest reputation (The Villain). The share falls smoothly as reputation rises.\nDefault 90.",
+   [
+    "Sandbox_ProjectALife.WarningKosVillain_tooltip"
+   ]
+  ],
+  "187": [
+   "Sandbox_ProjectALife.WarningKosNeutral",
+   "[Expert] Attack on sight at neutral reputation (percent)",
+   [
+    "Sandbox_ProjectALife.WarningKosNeutral"
+   ]
+  ],
+  "188": [
+   "Sandbox_ProjectALife.WarningKosNeutral_tooltip",
+   "Share of hostile crews that open fire with no warning on a player with no reputation either way. Crews that do not attack at once try to make the player surrender.\nDefault 15.",
+   [
+    "Sandbox_ProjectALife.WarningKosNeutral_tooltip"
+   ]
+  ],
+  "189": [
+   "Sandbox_ProjectALife.WarningKosLegend",
+   "[Expert] Attack on sight at the best reputation (percent)",
+   [
+    "Sandbox_ProjectALife.WarningKosLegend"
+   ]
+  ],
+  "190": [
+   "Sandbox_ProjectALife.WarningKosLegend_tooltip",
+   "Share of hostile crews that open fire with no warning on a player at the highest reputation (The Legend). Raids stay dangerous for everyone.\nDefault 4.",
+   [
+    "Sandbox_ProjectALife.WarningKosLegend_tooltip"
+   ]
+  ],
+  "191": [
+   "Sandbox_ProjectALife.CarPursuit",
+   "Hostile drive-by cars give chase",
+   [
+    "Sandbox_ProjectALife.CarPursuit"
+   ]
+  ],
+  "192": [
+   "Sandbox_ProjectALife.CarPursuit_tooltip",
+   "A car whose hostile crew fires on you keeps after you once it has passed, instead of driving away, until it loses you or runs out of time.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CarPursuit_tooltip"
+   ]
+  ],
+  "193": [
+   "Sandbox_ProjectALife.CarPursuitRam",
+   "Chasing cars ram",
+   [
+    "Sandbox_ProjectALife.CarPursuitRam"
+   ]
+  ],
+  "194": [
+   "Sandbox_ProjectALife.CarPursuitRam_tooltip",
+   "A chasing car drives through you instead of stopping beside you to let the crew out.\nDefault off.",
+   [
+    "Sandbox_ProjectALife.CarPursuitRam_tooltip"
+   ]
+  ],
+  "195": [
+   "Sandbox_ProjectALife.CarPursuitSeconds",
+   "Longest chase (seconds)",
+   [
+    "Sandbox_ProjectALife.CarPursuitSeconds"
+   ]
+  ],
+  "196": [
+   "Sandbox_ProjectALife.CarPursuitSeconds_tooltip",
+   "How long a car keeps chasing before it gives up and drives off.\nDefault 60.",
+   [
+    "Sandbox_ProjectALife.CarPursuitSeconds_tooltip"
+   ]
+  ],
+  "197": [
+   "Sandbox_ProjectALife.CarDriverSkill",
+   "Drivers differ in skill",
+   [
+    "Sandbox_ProjectALife.CarDriverSkill"
+   ]
+  ],
+  "198": [
+   "Sandbox_ProjectALife.CarDriverSkill_tooltip",
+   "Each driver has a fixed skill: poor ones drive slower and take bends gently, and crews in a moving car aim worse the faster it goes. Off: all drivers are equally good.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CarDriverSkill_tooltip"
+   ]
+  ],
+  "199": [
+   "Sandbox_ProjectALife.CarDamageEffects",
+   "Shot-up cars react",
+   [
+    "Sandbox_ProjectALife.CarDamageEffects"
+   ]
+  ],
+  "200": [
+   "Sandbox_ProjectALife.CarDamageEffects_tooltip",
+   "A damaged car slows down, corners gently and swerves once when hit. With a dead engine or three flat tires the crew bails out: hostile crews fight, the rest flee.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CarDamageEffects_tooltip"
+   ]
+  ],
+  "201": [
+   "Sandbox_ProjectALife.CarBlockade",
+   "Cars deal with blocked roads",
+   [
+    "Sandbox_ProjectALife.CarBlockade"
+   ]
+  ],
+  "202": [
+   "Sandbox_ProjectALife.CarBlockade_tooltip",
+   "A car that makes no progress for 12 seconds backs up and replans, rams a light obstacle if ramming is on, or stops and the crew goes on foot.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CarBlockade_tooltip"
+   ]
+  ],
+  "203": [
+   "Sandbox_ProjectALife.CarBlockadeSeconds",
+   "Longest wait at a blockade (seconds)",
+   [
+    "Sandbox_ProjectALife.CarBlockadeSeconds"
+   ]
+  ],
+  "204": [
+   "Sandbox_ProjectALife.CarBlockadeSeconds_tooltip",
+   "How long a blocked car keeps backing up and replanning before it rams (if allowed) or the crew gets out.\nDefault 45.",
+   [
+    "Sandbox_ProjectALife.CarBlockadeSeconds_tooltip"
+   ]
+  ],
+  "205": [
+   "Sandbox_ProjectALife.CarHullCover",
+   "Crew covers behind the car body",
+   [
+    "Sandbox_ProjectALife.CarHullCover"
+   ]
+  ],
+  "206": [
+   "Sandbox_ProjectALife.CarHullCover_tooltip",
+   "A crew that gets out of a stopped car takes cover on the side of the car away from you, behind the engine block first, then the doors, instead of just behind the car on your line.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CarHullCover_tooltip"
+   ]
+  ],
+  "207": [
+   "Sandbox_ProjectALife.CarDriveBy",
+   "Car drive-by passes",
+   [
+    "Sandbox_ProjectALife.CarDriveBy"
+   ]
+  ],
+  "208": [
+   "Sandbox_ProjectALife.CarDriveBy_tooltip",
+   "Crews that arrive by car may drive past the player and shoot from the windows.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CarDriveBy_tooltip"
+   ]
+  ],
+  "209": [
+   "Sandbox_ProjectALife.CarDriveByWeaveTiles",
+   "Drive-by swerve width (tiles)",
+   [
+    "Sandbox_ProjectALife.CarDriveByWeaveTiles"
+   ]
+  ],
+  "210": [
+   "Sandbox_ProjectALife.CarDriveByWeaveTiles_tooltip",
+   "How far a drive-by car swerves from side to side while it passes the player, kept on the road. 0 drives straight.\nDefault 2.",
+   [
+    "Sandbox_ProjectALife.CarDriveByWeaveTiles_tooltip"
+   ]
+  ],
+  "211": [
+   "Sandbox_ProjectALife.CarPullUp",
+   "Car pull-ups",
+   [
+    "Sandbox_ProjectALife.CarPullUp"
+   ]
+  ],
+  "212": [
+   "Sandbox_ProjectALife.CarPullUp_tooltip",
+   "Crews that arrive by car stop near the player, step out and take cover before they talk or fight.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CarPullUp_tooltip"
+   ]
+  ],
+  "213": [
+   "Sandbox_ProjectALife.CarReinforcements",
+   "Reinforcements by car",
+   [
+    "Sandbox_ProjectALife.CarReinforcements"
+   ]
+  ],
+  "214": [
+   "Sandbox_ProjectALife.CarReinforcements_tooltip",
+   "Backup crews called into a fight may come in a car.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CarReinforcements_tooltip"
+   ]
+  ],
+  "215": [
+   "Sandbox_ProjectALife.CarDriveOff",
+   "Crews leave by car",
+   [
+    "Sandbox_ProjectALife.CarDriveOff"
+   ]
+  ],
+  "216": [
+   "Sandbox_ProjectALife.CarDriveOff_tooltip",
+   "A crew that finishes its business may leave in the car it came in.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CarDriveOff_tooltip"
+   ]
+  ],
+  "217": [
+   "Sandbox_ProjectALife.CarDriveHere",
+   "Right-click Drive here for NPC cars",
+   [
+    "Sandbox_ProjectALife.CarDriveHere"
+   ]
+  ],
+  "218": [
+   "Sandbox_ProjectALife.CarDriveHere_tooltip",
+   "An admin can right-click the ground and send a crewed NPC car there. The car brakes and idles when the way is blocked or the spot cannot be reached.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CarDriveHere_tooltip"
+   ]
+  ],
+  "219": [
+   "Sandbox_ProjectALife.CarDriveHereGiveUpSeconds",
+   "Drive here: wait before giving up (seconds)",
+   [
+    "Sandbox_ProjectALife.CarDriveHereGiveUpSeconds"
+   ]
+  ],
+  "220": [
+   "Sandbox_ProjectALife.CarDriveHereGiveUpSeconds_tooltip",
+   "How long a car sent with Drive here waits without a route before it brakes and idles. With a route but no progress it waits twice as long.\nDefault 15.",
+   [
+    "Sandbox_ProjectALife.CarDriveHereGiveUpSeconds_tooltip"
+   ]
+  ],
+  "221": [
+   "Sandbox_ProjectALife.CarOfflineTrips",
+   "NPC cars: keep travelling when the crew or the car is far away",
+   [
+    "Sandbox_ProjectALife.CarOfflineTrips"
+   ]
+  ],
+  "222": [
+   "Sandbox_ProjectALife.CarOfflineTrips_tooltip",
+   "A commanded NPC car whose crew is not loaded continues as an offline trip along the roads and is recreated with its crew when a player comes close. Off refuses the order.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CarOfflineTrips_tooltip"
+   ]
+  ],
+  "223": [
+   "Sandbox_ProjectALife.CarLifeEnabled",
+   "NPC squads use cars: take unoccupied cars, refuel, drive, park outside towns and bail out",
+   [
+    "Sandbox_ProjectALife.CarLifeEnabled"
+   ]
+  ],
+  "224": [
+   "Sandbox_ProjectALife.CarLifeEnabled_tooltip",
+   "Squads that notice an abandoned car may break in or hot-wire it, check fuel, drive to a destination and leave it when the situation says so. Off: NPCs never take cars on their own.\nDefault off.",
+   [
+    "Sandbox_ProjectALife.CarLifeEnabled_tooltip"
+   ]
+  ],
+  "225": [
+   "Sandbox_ProjectALife.CarBreakInChance",
+   "NPC cars: chance to break into a locked car (percent)",
+   [
+    "Sandbox_ProjectALife.CarBreakInChance"
+   ]
+  ],
+  "226": [
+   "Sandbox_ProjectALife.CarBreakInChance_tooltip",
+   "Base chance per attempt to force a door or smash a window. Skilled squad members raise it. Forcing is quiet and slow, smashing is loud and fast. 0 means locked cars stay locked.\nDefault 60.",
+   [
+    "Sandbox_ProjectALife.CarBreakInChance_tooltip"
+   ]
+  ],
+  "227": [
+   "Sandbox_ProjectALife.CarHotwireChance",
+   "NPC cars: chance to hot-wire a car without keys (percent)",
+   [
+    "Sandbox_ProjectALife.CarHotwireChance"
+   ]
+  ],
+  "228": [
+   "Sandbox_ProjectALife.CarHotwireChance_tooltip",
+   "Base chance per attempt, raised by mechanic, burglar and engineer squad members. A failed attempt can burn out the wiring. 0 means squads only take cars they have keys for.\nDefault 35.",
+   [
+    "Sandbox_ProjectALife.CarHotwireChance_tooltip"
+   ]
+  ],
+  "229": [
+   "Sandbox_ProjectALife.CarRefuelEnabled",
+   "NPC cars: refuel from cans, pumps and other cars",
+   [
+    "Sandbox_ProjectALife.CarRefuelEnabled"
+   ]
+  ],
+  "230": [
+   "Sandbox_ProjectALife.CarRefuelEnabled_tooltip",
+   "On: a squad whose car is low on fuel looks for a can, a powered pump or another unowned car to siphon. Off: it gives up on a car that is short of fuel.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CarRefuelEnabled_tooltip"
+   ]
+  ],
+  "231": [
+   "Sandbox_ProjectALife.CarArrivalDoorsOpenWhenEmpty",
+   "Arrival cars: unlock doors once the crew is out",
+   [
+    "Sandbox_ProjectALife.CarArrivalDoorsOpenWhenEmpty"
+   ]
+  ],
+  "232": [
+   "Sandbox_ProjectALife.CarArrivalDoorsOpenWhenEmpty_tooltip",
+   "Cars that A-Life crews arrive in stay locked while their crew is alive and nearby. On: the doors unlock once nobody sits in the car, so you can take it.\nDefault off.",
+   [
+    "Sandbox_ProjectALife.CarArrivalDoorsOpenWhenEmpty_tooltip"
+   ]
+  ],
+  "233": [
+   "Sandbox_ProjectALife.CarDitchBeforeCity",
+   "NPC cars: park outside towns and go on foot",
+   [
+    "Sandbox_ProjectALife.CarDitchBeforeCity"
+   ]
+  ],
+  "234": [
+   "Sandbox_ProjectALife.CarDitchBeforeCity_tooltip",
+   "On: before a route enters a town the squad parks at the roadside, works the town on foot and returns to the car later. Off: it drives in.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CarDitchBeforeCity_tooltip"
+   ]
+  ],
+  "235": [
+   "Sandbox_ProjectALife.CarExitRules",
+   "NPC cars: how readily crews bail out (0 lenient, 1 normal, 2 strict)",
+   [
+    "Sandbox_ProjectALife.CarExitRules"
+   ]
+  ],
+  "236": [
+   "Sandbox_ProjectALife.CarExitRules_tooltip",
+   "Scales the thresholds and chances of the exit rules (crash, fire, dead engine, gunfire, horde ahead). 0 keeps crews driving longer, 2 makes them leave sooner.\nDefault 1.",
+   [
+    "Sandbox_ProjectALife.CarExitRules_tooltip"
+   ]
+  ],
+  "237": [
+   "Sandbox_ProjectALife.CarFireFromCar",
+   "NPC cars: shooting from a car (0 off, 1 slow cars, 2 also at speed)",
+   [
+    "Sandbox_ProjectALife.CarFireFromCar"
+   ]
+  ],
+  "238": [
+   "Sandbox_ProjectALife.CarFireFromCar_tooltip",
+   "Passengers shoot from the car at hostile targets on their side. 1: only under 25 km/h. 2: also up to 60 km/h, less accurate; the driver may fire a pistol under 15 km/h. 0: never.\nDefault 2.",
+   [
+    "Sandbox_ProjectALife.CarFireFromCar_tooltip"
+   ]
+  ],
+  "239": [
+   "Sandbox_ProjectALife.CarPassByKmh",
+   "NPC cars: speed of a hostile crew while it drives past you (km/h)",
+   [
+    "Sandbox_ProjectALife.CarPassByKmh"
+   ]
+  ],
+  "240": [
+   "Sandbox_ProjectALife.CarPassByKmh_tooltip",
+   "A hostile crew slows to this speed within 25 tiles of you so its passengers can shoot, then drives on. With shooting set to 1 the pass is at most 25.\nDefault 35.",
+   [
+    "Sandbox_ProjectALife.CarPassByKmh_tooltip"
+   ]
+  ],
+  "241": [
+   "Sandbox_ProjectALife.CarDriveStyle",
+   "NPC cars: driving style (Careful, Normal, Fast, Reckless)",
+   [
+    "Sandbox_ProjectALife.CarDriveStyle"
+   ]
+  ],
+  "242": [
+   "Sandbox_ProjectALife.CarDriveStyle_tooltip",
+   "Scales cruise speed, bend speed and braking distance of NPC cars. Hostile crews that chase or flee drive at least Fast, civilian travellers Careful.\nDefault Normal (2).",
+   [
+    "Sandbox_ProjectALife.CarDriveStyle_tooltip"
+   ]
+  ],
+  "243": [
+   "Sandbox_ProjectALife.CarDriveStyle_option1",
+   "Careful",
+   [
+    "Sandbox_ProjectALife.CarDriveStyle_option1"
+   ]
+  ],
+  "244": [
+   "Sandbox_ProjectALife.CarDriveStyle_option2",
+   "Normal",
+   [
+    "Sandbox_ProjectALife.CarDriveStyle_option2"
+   ]
+  ],
+  "245": [
+   "Sandbox_ProjectALife.CarDriveStyle_option3",
+   "Fast",
+   [
+    "Sandbox_ProjectALife.CarDriveStyle_option3"
+   ]
+  ],
+  "246": [
+   "Sandbox_ProjectALife.CarDriveStyle_option4",
+   "Reckless",
+   [
+    "Sandbox_ProjectALife.CarDriveStyle_option4"
+   ]
+  ],
+  "247": [
+   "Sandbox_ProjectALife.CarEncounterPercent",
+   "NPC cars: how often drive-bys and pull-ups are picked (percent)",
+   [
+    "Sandbox_ProjectALife.CarEncounterPercent"
+   ]
+  ],
+  "248": [
+   "Sandbox_ProjectALife.CarEncounterPercent_tooltip",
+   "How often hostile drive-bys and road pull-ups come up: 100 is about one every two weeks of game time, 300 triples it, 0 turns both off. The car switches still apply.\nDefault 100.",
+   [
+    "Sandbox_ProjectALife.CarEncounterPercent_tooltip"
+   ]
+  ],
+  "249": [
+   "Sandbox_ProjectALife.CarScriptedDrive",
+   "NPC cars: move by script when the wheels will not (0 off, 1 auto, 2 always)",
+   [
+    "Sandbox_ProjectALife.CarScriptedDrive"
+   ]
+  ],
+  "250": [
+   "Sandbox_ProjectALife.CarScriptedDrive_tooltip",
+   "A driven NPC car that has not moved after about 6 seconds is moved along its route in position steps. 0 never, 1 only when stuck, 2 always.\nDefault 1.",
+   [
+    "Sandbox_ProjectALife.CarScriptedDrive_tooltip"
+   ]
+  ],
+  "251": [
+   "Sandbox_ProjectALife.CarCruiseKmh",
+   "NPC cars: cruise speed on roads (km/h)",
+   [
+    "Sandbox_ProjectALife.CarCruiseKmh"
+   ]
+  ],
+  "252": [
+   "Sandbox_ProjectALife.CarCruiseKmh_tooltip",
+   "Top speed of NPC cars on roads (arrivals, drive here, patrol). Drive-by and chase speeds are not affected. Corners and obstacles still slow the car.\nDefault 60.",
+   [
+    "Sandbox_ProjectALife.CarCruiseKmh_tooltip"
+   ]
+  ],
+  "253": [
+   "Sandbox_ProjectALife.CarAccelBoost",
+   "NPC cars: acceleration boost (percent)",
+   [
+    "Sandbox_ProjectALife.CarAccelBoost"
+   ]
+  ],
+  "254": [
+   "Sandbox_ProjectALife.CarAccelBoost_tooltip",
+   "Multiplies the push the driver gives the car when it speeds up. Higher reaches cruise speed sooner.\nDefault 150.",
+   [
+    "Sandbox_ProjectALife.CarAccelBoost_tooltip"
+   ]
+  ],
+  "255": [
+   "Sandbox_ProjectALife.CarDumpLog",
+   "NPC cars: write the car dump file",
+   [
+    "Sandbox_ProjectALife.CarDumpLog"
+   ]
+  ],
+  "256": [
+   "Sandbox_ProjectALife.CarDumpLog_tooltip",
+   "Writes one line per driven NPC car every few seconds to Lua/alife_cars_dump.txt and flags stalls and other problems as [ALIFE-CARS] ANOMALY lines in console.txt. Costs nothing while no car drives.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CarDumpLog_tooltip"
+   ]
+  ],
+  "257": [
+   "Sandbox_ProjectALife.CarDumpLogIntervalS",
+   "NPC cars: dump interval (seconds)",
+   [
+    "Sandbox_ProjectALife.CarDumpLogIntervalS"
+   ]
+  ],
+  "258": [
+   "Sandbox_ProjectALife.CarDumpLogIntervalS_tooltip",
+   "How often each driven NPC car writes a dump line. State changes are written at once.\nDefault 2.",
+   [
+    "Sandbox_ProjectALife.CarDumpLogIntervalS_tooltip"
+   ]
+  ],
+  "259": [
+   "Sandbox_ProjectALife.CombatFocusFire",
+   "Squads focus fire",
+   [
+    "Sandbox_ProjectALife.CombatFocusFire"
+   ]
+  ],
+  "260": [
+   "Sandbox_ProjectALife.CombatFocusFire_tooltip",
+   "Members of a squad lean toward the target a squadmate just called, so their fire lands on one enemy instead of spreading. Raises squad lethality.\nDefault off.",
+   [
+    "Sandbox_ProjectALife.CombatFocusFire_tooltip"
+   ]
+  ],
+  "261": [
+   "Sandbox_ProjectALife.CombatRangedZombieStart",
+   "Armed NPCs shoot zombies that are closing in",
+   [
+    "Sandbox_ProjectALife.CombatRangedZombieStart"
+   ]
+  ],
+  "262": [
+   "Sandbox_ProjectALife.CombatRangedZombieStart_tooltip",
+   "An NPC with a loaded gun, standing, guarding or walking, shoots a zombie coming at it inside this range instead of waiting for melee. Gun discipline still applies.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CombatRangedZombieStart_tooltip"
+   ]
+  ],
+  "263": [
+   "Sandbox_ProjectALife.CombatKitePersonPercent",
+   "[Expert] How close a gunman lets a person get before backing away (percent)",
+   [
+    "Sandbox_ProjectALife.CombatKitePersonPercent"
+   ]
+  ],
+  "264": [
+   "Sandbox_ProjectALife.CombatKitePersonPercent_tooltip",
+   "A gunman who has fired steps back from a person nearer than this share of the usual keep-away distance. 100 = the old habit of backing away after every shot, lower = stands and shoots.\nDefault 55.",
+   [
+    "Sandbox_ProjectALife.CombatKitePersonPercent_tooltip"
+   ]
+  ],
+  "265": [
+   "Sandbox_ProjectALife.CombatRangedZombieTiles",
+   "Armed NPCs shoot zombies in view (tiles)",
+   [
+    "Sandbox_ProjectALife.CombatRangedZombieTiles"
+   ]
+  ],
+  "266": [
+   "Sandbox_ProjectALife.CombatRangedZombieTiles_tooltip",
+   "An NPC with a loaded gun opens fire on a zombie it sees within this many tiles instead of walking past it. Gun discipline still applies. 0 = only when cornered or on a mission.\nDefault 14.",
+   [
+    "Sandbox_ProjectALife.CombatRangedZombieTiles_tooltip"
+   ]
+  ],
+  "267": [
+   "Sandbox_ProjectALife.RetreatHordeEnabled",
+   "Retreat from large groups of zombies",
+   [
+    "Sandbox_ProjectALife.RetreatHordeEnabled"
+   ]
+  ],
+  "268": [
+   "Sandbox_ProjectALife.RetreatHordeEnabled_tooltip",
+   "When on, NPCs pull back once enough zombies are close by, using the count and distance below. Healthy gun users keep firing instead of pulling back; NPCs unable to fight disengage.\nDefault off.",
+   [
+    "Sandbox_ProjectALife.RetreatHordeEnabled_tooltip"
+   ]
+  ],
+  "269": [
+   "Sandbox_ProjectALife.RetreatHordeCount",
+   "Zombies before retreating",
+   [
+    "Sandbox_ProjectALife.RetreatHordeCount"
+   ]
+  ],
+  "270": [
+   "Sandbox_ProjectALife.RetreatHordeCount_tooltip",
+   "How many zombies need to be within the distance below before an NPC retreats.\nDefault 8.",
+   [
+    "Sandbox_ProjectALife.RetreatHordeCount_tooltip"
+   ]
+  ],
+  "271": [
+   "Sandbox_ProjectALife.RetreatHordeRadius",
+   "Retreat counting distance (tiles)",
+   [
+    "Sandbox_ProjectALife.RetreatHordeRadius"
+   ]
+  ],
+  "272": [
+   "Sandbox_ProjectALife.RetreatHordeRadius_tooltip",
+   "How far around an NPC zombies are counted. For example 8 zombies within 30 tiles, or 15 within 50.\nDefault 30.",
+   [
+    "Sandbox_ProjectALife.RetreatHordeRadius_tooltip"
+   ]
+  ],
+  "273": [
+   "Sandbox_ProjectALife.RetreatHordeScope",
+   "Who retreats",
+   [
+    "Sandbox_ProjectALife.RetreatHordeScope"
+   ]
+  ],
+  "274": [
+   "Sandbox_ProjectALife.RetreatHordeScope_tooltip",
+   "Which NPCs follow the retreat rule above.\nDefault Everyone except military (2).",
+   [
+    "Sandbox_ProjectALife.RetreatHordeScope_tooltip"
+   ]
+  ],
+  "275": [
+   "Sandbox_ProjectALife.RetreatHordeScope_option1",
+   "Everyone",
+   [
+    "Sandbox_ProjectALife.RetreatHordeScope_option1"
+   ]
+  ],
+  "276": [
+   "Sandbox_ProjectALife.RetreatHordeScope_option2",
+   "Everyone except military",
+   [
+    "Sandbox_ProjectALife.RetreatHordeScope_option2"
+   ]
+  ],
+  "277": [
+   "Sandbox_ProjectALife.ZombieBiteEscapeTest",
+   "Escapable zombie bites (experimental)",
+   [
+    "Sandbox_ProjectALife.ZombieBiteEscapeTest"
+   ]
+  ],
+  "278": [
+   "Sandbox_ProjectALife.ZombieBiteEscapeTest_tooltip",
+   "NPC bites resolve after the full attack animation; an NPC can escape by moving a tile off or behind the zombie first. Off keeps the current timing.\nDefault off.",
+   [
+    "Sandbox_ProjectALife.ZombieBiteEscapeTest_tooltip"
+   ]
+  ],
+  "279": [
+   "Sandbox_ProjectALife.CombatFriendlyLine",
+   "Hold fire for friends in the way",
+   [
+    "Sandbox_ProjectALife.CombatFriendlyLine"
+   ]
+  ],
+  "280": [
+   "Sandbox_ProjectALife.CombatFriendlyLine_tooltip",
+   "A shooter does not fire through a squadmate. It holds, then steps to a side lane with a clear line.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CombatFriendlyLine_tooltip"
+   ]
+  ],
+  "281": [
+   "Sandbox_ProjectALife.CombatAimCancelsStandoff",
+   "Aiming a weapon cancels hold-ups and demands",
+   [
+    "Sandbox_ProjectALife.CombatAimCancelsStandoff"
+   ]
+  ],
+  "282": [
+   "Sandbox_ProjectALife.CombatAimCancelsStandoff_tooltip",
+   "A gun, or a weapon raised at close range, ends what that NPC was doing to you: hold-up, standoff, demand, question. Hostile crews fight, scared people run, friends lower their weapon.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CombatAimCancelsStandoff_tooltip"
+   ]
+  ],
+  "283": [
+   "Sandbox_ProjectALife.CombatAimRetreatEscalates",
+   "Aiming while backing away makes a crew escalate",
+   [
+    "Sandbox_ProjectALife.CombatAimRetreatEscalates"
+   ]
+  ],
+  "284": [
+   "Sandbox_ProjectALife.CombatAimRetreatEscalates_tooltip",
+   "Keep a gun on a crew that holds you at bay and back away: hostile crews fire, careful ones fire a warning shot first. Backing away is not giving in.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CombatAimRetreatEscalates_tooltip"
+   ]
+  ],
+  "285": [
+   "Sandbox_ProjectALife.CombatAimRetreatHoldSeconds",
+   "Seconds of aiming before a retreat counts",
+   [
+    "Sandbox_ProjectALife.CombatAimRetreatHoldSeconds"
+   ]
+  ],
+  "286": [
+   "Sandbox_ProjectALife.CombatAimRetreatHoldSeconds_tooltip",
+   "How long the crosshair must stay on a crew member before backing away is answered.\nDefault 1.0.",
+   [
+    "Sandbox_ProjectALife.CombatAimRetreatHoldSeconds_tooltip"
+   ]
+  ],
+  "287": [
+   "Sandbox_ProjectALife.CombatAimRetreatStepSeconds",
+   "Seconds between warning shot and fire",
+   [
+    "Sandbox_ProjectALife.CombatAimRetreatStepSeconds"
+   ]
+  ],
+  "288": [
+   "Sandbox_ProjectALife.CombatAimRetreatStepSeconds_tooltip",
+   "A careful crew fires a warning shot, then opens fire after this long if you keep aiming and backing away.\nDefault 1.5.",
+   [
+    "Sandbox_ProjectALife.CombatAimRetreatStepSeconds_tooltip"
+   ]
+  ],
+  "289": [
+   "Sandbox_ProjectALife.CombatAimRetreatTiles",
+   "Tiles of backing away that count as a retreat",
+   [
+    "Sandbox_ProjectALife.CombatAimRetreatTiles"
+   ]
+  ],
+  "290": [
+   "Sandbox_ProjectALife.CombatAimRetreatTiles_tooltip",
+   "How much farther from the crew than your nearest point you must get, while aiming, before it counts as backing away.\nDefault 1.",
+   [
+    "Sandbox_ProjectALife.CombatAimRetreatTiles_tooltip"
+   ]
+  ],
+  "291": [
+   "Sandbox_ProjectALife.CombatQuickReaction",
+   "Fast first shot at close range",
+   [
+    "Sandbox_ProjectALife.CombatQuickReaction"
+   ]
+  ],
+  "292": [
+   "Sandbox_ProjectALife.CombatQuickReaction_tooltip",
+   "Hostile NPCs in close quarters raise the weapon sooner, think more often and skip the first-sight freeze. Warn-first crews still warn first.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CombatQuickReaction_tooltip"
+   ]
+  ],
+  "293": [
+   "Sandbox_ProjectALife.CombatCqbTiles",
+   "Close-quarters range for the fast first shot (tiles)",
+   [
+    "Sandbox_ProjectALife.CombatCqbTiles"
+   ]
+  ],
+  "294": [
+   "Sandbox_ProjectALife.CombatCqbTiles_tooltip",
+   "Inside this distance the fast first shot applies.\nDefault 8.",
+   [
+    "Sandbox_ProjectALife.CombatCqbTiles_tooltip"
+   ]
+  ],
+  "295": [
+   "Sandbox_ProjectALife.CombatGroupSingleSpeaker",
+   "One speaker per group",
+   [
+    "Sandbox_ProjectALife.CombatGroupSingleSpeaker"
+   ]
+  ],
+  "296": [
+   "Sandbox_ProjectALife.CombatGroupSingleSpeaker_tooltip",
+   "A group asks, warns or demands once. One member speaks; the others hold or cover you. When that member escalates, the whole group fights. Aiming at any of them ends the demand.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CombatGroupSingleSpeaker_tooltip"
+   ]
+  ],
+  "297": [
+   "Sandbox_ProjectALife.CombatGroupVoiceQueueMs",
+   "Pause between two groups talking to you (ms)",
+   [
+    "Sandbox_ProjectALife.CombatGroupVoiceQueueMs"
+   ]
+  ],
+  "298": [
+   "Sandbox_ProjectALife.CombatGroupVoiceQueueMs_tooltip",
+   "A second group waits this long after the first group spoke before it opens its own question.\nDefault 2500.",
+   [
+    "Sandbox_ProjectALife.CombatGroupVoiceQueueMs_tooltip"
+   ]
+  ],
+  "299": [
+   "Sandbox_ProjectALife.CombatGroupLockTimeoutS",
+   "Group speaker timeout (seconds)",
+   [
+    "Sandbox_ProjectALife.CombatGroupLockTimeoutS"
+   ]
+  ],
+  "300": [
+   "Sandbox_ProjectALife.CombatGroupLockTimeoutS_tooltip",
+   "Longest a group keeps one speaker on you. The role passes sooner when the speaker dies, goes down, runs or loses sight of you.\nDefault 45.",
+   [
+    "Sandbox_ProjectALife.CombatGroupLockTimeoutS_tooltip"
+   ]
+  ],
+  "301": [
+   "Sandbox_ProjectALife.CombatHoldAngleAvoid",
+   "Crews keep out of an angle you hold",
+   [
+    "Sandbox_ProjectALife.CombatHoldAngleAvoid"
+   ]
+  ],
+  "302": [
+   "Sandbox_ProjectALife.CombatHoldAngleAvoid_tooltip",
+   "Hold your aim on a stair top, doorway or corridor end and hostile crews stop walking into that line and wait outside it behind cover. Reckless ones still push now and then.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CombatHoldAngleAvoid_tooltip"
+   ]
+  ],
+  "303": [
+   "Sandbox_ProjectALife.CombatHoldAngleSeconds",
+   "Seconds of aiming that count as holding an angle",
+   [
+    "Sandbox_ProjectALife.CombatHoldAngleSeconds"
+   ]
+  ],
+  "304": [
+   "Sandbox_ProjectALife.CombatHoldAngleSeconds_tooltip",
+   "How long you must stand still with the crosshair on one point before crews treat it as held.\nDefault 2.5.",
+   [
+    "Sandbox_ProjectALife.CombatHoldAngleSeconds_tooltip"
+   ]
+  ],
+  "305": [
+   "Sandbox_ProjectALife.CombatKillZoneMemory",
+   "How long a crew remembers a deadly angle (seconds)",
+   [
+    "Sandbox_ProjectALife.CombatKillZoneMemory"
+   ]
+  ],
+  "306": [
+   "Sandbox_ProjectALife.CombatKillZoneMemory_tooltip",
+   "A crew that loses someone in an angle you hold keeps away from it for this long, even after you lower the weapon.\nDefault 120.",
+   [
+    "Sandbox_ProjectALife.CombatKillZoneMemory_tooltip"
+   ]
+  ],
+  "307": [
+   "Sandbox_ProjectALife.CombatStunDiminish",
+   "Hits stagger NPCs less and less",
+   [
+    "Sandbox_ProjectALife.CombatStunDiminish"
+   ]
+  ],
+  "308": [
+   "Sandbox_ProjectALife.CombatStunDiminish_tooltip",
+   "A person who keeps getting hit is staggered for a shorter time each time, then shrugs off the next hits for a moment, and ducks low after a gunshot. Off: every hit staggers like before.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CombatStunDiminish_tooltip"
+   ]
+  ],
+  "309": [
+   "Sandbox_ProjectALife.CombatFaceBeforeSwing",
+   "Turn toward a zombie before a melee swing",
+   [
+    "Sandbox_ProjectALife.CombatFaceBeforeSwing"
+   ]
+  ],
+  "310": [
+   "Sandbox_ProjectALife.CombatFaceBeforeSwing_tooltip",
+   "A melee NPC turns to face its target and swings only when the target is inside the swing angle. After 0.6 seconds it swings anyway, so it never freezes.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CombatFaceBeforeSwing_tooltip"
+   ]
+  ],
+  "311": [
+   "Sandbox_ProjectALife.CombatSwingAngleDegrees",
+   "Melee swing angle (degrees)",
+   [
+    "Sandbox_ProjectALife.CombatSwingAngleDegrees"
+   ]
+  ],
+  "312": [
+   "Sandbox_ProjectALife.CombatSwingAngleDegrees_tooltip",
+   "How far off its target a melee NPC may be facing and still swing. Lower is stricter. Needs the turn-before-swing option on.\nDefault 35.",
+   [
+    "Sandbox_ProjectALife.CombatSwingAngleDegrees_tooltip"
+   ]
+  ],
+  "313": [
+   "Sandbox_ProjectALife.CombatGrabberFirst",
+   "Fight the zombie that is biting first",
+   [
+    "Sandbox_ProjectALife.CombatGrabberFirst"
+   ]
+  ],
+  "314": [
+   "Sandbox_ProjectALife.CombatGrabberFirst_tooltip",
+   "An NPC prefers the zombie that is biting or clawing it over a nearer or lower one, so it does not keep swinging at a crawler while another zombie chews on it.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CombatGrabberFirst_tooltip"
+   ]
+  ],
+  "315": [
+   "Sandbox_ProjectALife.OrdersCaptiveReleaseSeconds",
+   "Seconds before a forgotten hands-up pose ends",
+   [
+    "Sandbox_ProjectALife.OrdersCaptiveReleaseSeconds"
+   ]
+  ],
+  "316": [
+   "Sandbox_ProjectALife.OrdersCaptiveReleaseSeconds_tooltip",
+   "An NPC ordered to surrender lowers its hands this long after the player walked off or stopped paying attention. A hands-up pose with no owner at all is cleared after the same time.\nDefault 60.",
+   [
+    "Sandbox_ProjectALife.OrdersCaptiveReleaseSeconds_tooltip"
+   ]
+  ],
+  "317": [
+   "Sandbox_ProjectALife.CombatShotNoiseGapMs",
+   "Shot noise burst gap (milliseconds)",
+   [
+    "Sandbox_ProjectALife.CombatShotNoiseGapMs"
+   ]
+  ],
+  "318": [
+   "Sandbox_ProjectALife.CombatShotNoiseGapMs_tooltip",
+   "NPC gunfire makes one noise per burst. Shots closer together than this make no new noise, so zombies keep walking. Nearby shooters share one noise.\nDefault 1500.",
+   [
+    "Sandbox_ProjectALife.CombatShotNoiseGapMs_tooltip"
+   ]
+  ],
+  "319": [
+   "Sandbox_ProjectALife.ZombiesLungeConeDegrees",
+   "Zombie lunge cone at NPCs (degrees)",
+   [
+    "Sandbox_ProjectALife.ZombiesLungeConeDegrees"
+   ]
+  ],
+  "320": [
+   "Sandbox_ProjectALife.ZombiesLungeConeDegrees_tooltip",
+   "A zombie lunges at an NPC only when the NPC is inside this angle in front of it. Outside it the zombie turns and walks closer first. 180 turns the check off.\nDefault 75.",
+   [
+    "Sandbox_ProjectALife.ZombiesLungeConeDegrees_tooltip"
+   ]
+  ],
+  "321": [
+   "Sandbox_ProjectALife.ZombiesNpcTargetTiles",
+   "Zombie notice range for NPCs (tiles)",
+   [
+    "Sandbox_ProjectALife.ZombiesNpcTargetTiles"
+   ]
+  ],
+  "322": [
+   "Sandbox_ProjectALife.ZombiesNpcTargetTiles_tooltip",
+   "A zombie starts hunting an NPC it merely sees only inside this distance. Gunfire and a target it already has still reach further. Lower means NPCs are left alone from farther away.\nDefault 12.",
+   [
+    "Sandbox_ProjectALife.ZombiesNpcTargetTiles_tooltip"
+   ]
+  ],
+  "323": [
+   "Sandbox_ProjectALife.ZombiesNpcClearTiles",
+   "Zombie gives up on an NPC beyond (tiles)",
+   [
+    "Sandbox_ProjectALife.ZombiesNpcClearTiles"
+   ]
+  ],
+  "324": [
+   "Sandbox_ProjectALife.ZombiesNpcClearTiles_tooltip",
+   "A zombie hunting an NPC by sight drops the chase once the NPC is farther than this. A chase drawn by gunfire follows the gunfire range instead.\nDefault 20.",
+   [
+    "Sandbox_ProjectALife.ZombiesNpcClearTiles_tooltip"
+   ]
+  ],
+  "325": [
+   "Sandbox_ProjectALife.MeleeChargeRun",
+   "[Expert] NPC melee charge run",
+   [
+    "Sandbox_ProjectALife.MeleeChargeRun"
+   ]
+  ],
+  "326": [
+   "Sandbox_ProjectALife.MeleeChargeRun_tooltip",
+   "A hostile NPC holding a melee weapon runs at its human target until it is in reach, and sprints over longer gaps while it has the breath. It never runs on a wounded leg or when winded. Off keeps the guarded walk. Default on.",
+   [
+    "Sandbox_ProjectALife.MeleeChargeRun_tooltip"
+   ]
+  ],
+  "327": [
+   "Sandbox_ProjectALife.ZombieAttackVariants",
+   "Zombie swipe, lunge and grapple attacks on NPCs",
+   [
+    "Sandbox_ProjectALife.ZombieAttackVariants"
+   ]
+  ],
+  "328": [
+   "Sandbox_ProjectALife.ZombieAttackVariants_tooltip",
+   "A zombie hitting an NPC picks a swipe, a lunge or a bite by distance and chance, and the NPC staggers harder after a swipe or lunge.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.ZombieAttackVariants_tooltip"
+   ]
+  ],
+  "329": [
+   "Sandbox_ProjectALife.ZombieAttackCars",
+   "Zombies attack cars that carry NPCs",
+   [
+    "Sandbox_ProjectALife.ZombieAttackCars"
+   ]
+  ],
+  "330": [
+   "Sandbox_ProjectALife.ZombieAttackCars_tooltip",
+   "Zombies that reach a parked or slow car with a seated NPC claw at it and wear down its windows and doors. A car faster than 8 km/h is never attacked.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.ZombieAttackCars_tooltip"
+   ]
+  ],
+  "331": [
+   "Sandbox_ProjectALife.ZombieCarAttackTiles",
+   "[Expert] Zombie car attack range (tiles)",
+   [
+    "Sandbox_ProjectALife.ZombieCarAttackTiles"
+   ]
+  ],
+  "332": [
+   "Sandbox_ProjectALife.ZombieCarAttackTiles_tooltip",
+   "Zombies this close to a car with a seated NPC count as gathered at it, and the crew can react. Zombies touching the hull attack. At most 8 attack one car at a time.\nDefault 6.",
+   [
+    "Sandbox_ProjectALife.ZombieCarAttackTiles_tooltip"
+   ]
+  ],
+  "333": [
+   "Sandbox_ProjectALife.ZombieCarDamagePerSecond",
+   "[Expert] Car damage per attacking zombie (points per second)",
+   [
+    "Sandbox_ProjectALife.ZombieCarDamagePerSecond"
+   ]
+  ],
+  "334": [
+   "Sandbox_ProjectALife.ZombieCarDamagePerSecond_tooltip",
+   "Condition points taken from a window or door per second by each attacking zombie. Engine, tires and fuel tank are never touched and doors stop at 30. 0 means the zombies only pose.\nDefault 2.",
+   [
+    "Sandbox_ProjectALife.ZombieCarDamagePerSecond_tooltip"
+   ]
+  ],
+  "335": [
+   "Sandbox_ProjectALife.ZombieBiteInterval",
+   "[Expert] Time between hits of one zombie on an NPC (ms)",
+   [
+    "Sandbox_ProjectALife.ZombieBiteInterval"
+   ]
+  ],
+  "336": [
+   "Sandbox_ProjectALife.ZombieBiteInterval_tooltip",
+   "A zombie that has hit an NPC waits this long before it can hit again. Lower is deadlier. 3000 default, 4500 was the old value.",
+   [
+    "Sandbox_ProjectALife.ZombieBiteInterval_tooltip"
+   ]
+  ],
+  "337": [
+   "Sandbox_ProjectALife.ZombiePathPerSecond",
+   "Zombie path requests per second",
+   [
+    "Sandbox_ProjectALife.ZombiePathPerSecond"
+   ]
+  ],
+  "338": [
+   "Sandbox_ProjectALife.ZombiePathPerSecond_tooltip",
+   "Cap on new chase path requests the horde logic sends to the engine each second. Lower it if hordes make the game stall.\nDefault 16.",
+   [
+    "Sandbox_ProjectALife.ZombiePathPerSecond_tooltip"
+   ]
+  ],
+  "339": [
+   "Sandbox_ProjectALife.ZombiePathInflight",
+   "Zombie path requests in flight",
+   [
+    "Sandbox_ProjectALife.ZombiePathInflight"
+   ]
+  ],
+  "340": [
+   "Sandbox_ProjectALife.ZombiePathInflight_tooltip",
+   "Most far-away chasing zombies allowed to wait on an unanswered path request at once. Chases close to their target are never held.\nDefault 24.",
+   [
+    "Sandbox_ProjectALife.ZombiePathInflight_tooltip"
+   ]
+  ],
+  "341": [
+   "Sandbox_ProjectALife.ZombiePathNear",
+   "Zombie path near range (tiles)",
+   [
+    "Sandbox_ProjectALife.ZombiePathNear"
+   ]
+  ],
+  "342": [
+   "Sandbox_ProjectALife.ZombiePathNear_tooltip",
+   "A zombie this close to its target always gets a fresh path at once when the target changes.\nDefault 6.",
+   [
+    "Sandbox_ProjectALife.ZombiePathNear_tooltip"
+   ]
+  ],
+  "343": [
+   "Sandbox_ProjectALife.TalkAskRange",
+   "Question range (tiles)",
+   [
+    "Sandbox_ProjectALife.TalkAskRange"
+   ]
+  ],
+  "344": [
+   "Sandbox_ProjectALife.TalkAskRange_tooltip",
+   "How far away an NPC can be when it puts a question to you (a standoff, a robbery, a call-out). Farther than this the question is not shown and cannot be answered.\nDefault 25.",
+   [
+    "Sandbox_ProjectALife.TalkAskRange_tooltip"
+   ]
+  ],
+  "345": [
+   "Sandbox_ProjectALife.TalkAskSight",
+   "Questions need line of sight",
+   [
+    "Sandbox_ProjectALife.TalkAskSight"
+   ]
+  ],
+  "346": [
+   "Sandbox_ProjectALife.TalkAskSight_tooltip",
+   "An NPC only puts a question to you when you can see it. Off lets questions open from behind walls.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.TalkAskSight_tooltip"
+   ]
+  ],
+  "347": [
+   "Sandbox_ProjectALife.CompanionsEnabled",
+   "Companions",
+   [
+    "Sandbox_ProjectALife.CompanionsEnabled"
+   ]
+  ],
+  "348": [
+   "Sandbox_ProjectALife.CompanionsEnabled_tooltip",
+   "Some NPCs can join a player as companions: they follow, take orders and fight next to you. Off: they stay ordinary NPCs.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CompanionsEnabled_tooltip"
+   ]
+  ],
+  "349": [
+   "Sandbox_ProjectALife.CompanionsAutoBoard",
+   "Companions auto-board your vehicle",
+   [
+    "Sandbox_ProjectALife.CompanionsAutoBoard"
+   ]
+  ],
+  "350": [
+   "Sandbox_ProjectALife.CompanionsAutoBoard_tooltip",
+   "Following companions walk to the car you sit in and take a free seat, and get out when you do. Companions on hold or wait never board. Off: only the Get in the car order seats them.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CompanionsAutoBoard_tooltip"
+   ]
+  ],
+  "351": [
+   "Sandbox_ProjectALife.CompanionsTorchNeedsItem",
+   "Companion torch needs an item",
+   [
+    "Sandbox_ProjectALife.CompanionsTorchNeedsItem"
+   ]
+  ],
+  "352": [
+   "Sandbox_ProjectALife.CompanionsTorchNeedsItem_tooltip",
+   "A companion lights a torch at night or in a dark building only when she carries a charged hand torch. Off: she lights one without owning it.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CompanionsTorchNeedsItem_tooltip"
+   ]
+  ],
+  "353": [
+   "Sandbox_ProjectALife.CompanionsTorchHours",
+   "Companion torch battery (hours)",
+   [
+    "Sandbox_ProjectALife.CompanionsTorchHours"
+   ]
+  ],
+  "354": [
+   "Sandbox_ProjectALife.CompanionsTorchHours_tooltip",
+   "Game hours a full battery lasts while a companion's torch is lit. 0: the battery never drains.\nDefault 12.",
+   [
+    "Sandbox_ProjectALife.CompanionsTorchHours_tooltip"
+   ]
+  ],
+  "355": [
+   "Sandbox_ProjectALife.CompanionSheetEnabled",
+   "Companion sheet",
+   [
+    "Sandbox_ProjectALife.CompanionSheetEnabled"
+   ]
+  ],
+  "356": [
+   "Sandbox_ProjectALife.CompanionSheetEnabled_tooltip",
+   "Lets players open the companion sheet (stats, tasks, journal and gear) from the order wheel, the right-click menu, the journal and the admin console. Turn off to hide every entry point.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CompanionSheetEnabled_tooltip"
+   ]
+  ],
+  "357": [
+   "Sandbox_ProjectALife.CompanionSheetInventory",
+   "Companion inventory access",
+   [
+    "Sandbox_ProjectALife.CompanionSheetInventory"
+   ]
+  ],
+  "358": [
+   "Sandbox_ProjectALife.CompanionSheetInventory_tooltip",
+   "The owner of a companion can look at what they carry, take or hand over items, drop items and change their weapon from the Gear tab. Other players can only look.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CompanionSheetInventory_tooltip"
+   ]
+  ],
+  "359": [
+   "Sandbox_ProjectALife.CompatImmersiveDriving",
+   "[Expert] Immersive Driving adapter",
+   [
+    "Sandbox_ProjectALife.CompatImmersiveDriving"
+   ]
+  ],
+  "360": [
+   "Sandbox_ProjectALife.CompatImmersiveDriving_tooltip",
+   "Enable the A-Life compatibility adapter when Immersive Driving is active. Applied once at world startup; restart after changing this. Turning it off disables only this adapter, not the other mod.",
+   [
+    "Sandbox_ProjectALife.CompatImmersiveDriving_tooltip"
+   ]
+  ],
+  "361": [
+   "Sandbox_ProjectALife.CompatPZTheMutants",
+   "[Expert] The Mutants adapter",
+   [
+    "Sandbox_ProjectALife.CompatPZTheMutants"
+   ]
+  ],
+  "362": [
+   "Sandbox_ProjectALife.CompatPZTheMutants_tooltip",
+   "Enable the A-Life compatibility adapter when The Mutants is active. Applied once at world startup; restart after changing this. Turning it off disables only this adapter, not the other mod.",
+   [
+    "Sandbox_ProjectALife.CompatPZTheMutants_tooltip"
+   ]
+  ],
+  "363": [
+   "Sandbox_ProjectALife.CompatCompanionDogs",
+   "[Expert] Companion Dogs adapter",
+   [
+    "Sandbox_ProjectALife.CompatCompanionDogs"
+   ]
+  ],
+  "364": [
+   "Sandbox_ProjectALife.CompatCompanionDogs_tooltip",
+   "Enable the A-Life compatibility adapter when Companion Dogs is active: companion dogs fight only the NPCs the dog options below allow, and NPCs can fight back. Applied once at world startup; restart after changing this. Turning it off disables only this adapter, not the other mod. It stands down by itself while the separate compatibility patch is enabled.",
+   [
+    "Sandbox_ProjectALife.CompatCompanionDogs_tooltip"
+   ]
+  ],
+  "365": [
+   "Sandbox_ProjectALife.CompatDogsTarget",
+   "[Expert] Companion dogs attack NPCs",
+   [
+    "Sandbox_ProjectALife.CompatDogsTarget"
+   ]
+  ],
+  "366": [
+   "Sandbox_ProjectALife.CompatDogsTarget_tooltip",
+   "Which A-Life NPCs a companion dog may attack, by their stance towards its owner. The owner's own people, NPCs that surrendered and injured NPCs are never attacked.\nDefault Hostile only (1).",
+   [
+    "Sandbox_ProjectALife.CompatDogsTarget_tooltip"
+   ]
+  ],
+  "367": [
+   "Sandbox_ProjectALife.CompatDogsTarget_option1",
+   "Hostile only",
+   [
+    "Sandbox_ProjectALife.CompatDogsTarget_option1"
+   ]
+  ],
+  "368": [
+   "Sandbox_ProjectALife.CompatDogsTarget_option2",
+   "Hostile and careful",
+   [
+    "Sandbox_ProjectALife.CompatDogsTarget_option2"
+   ]
+  ],
+  "369": [
+   "Sandbox_ProjectALife.CompatDogsTarget_option3",
+   "All but friendly",
+   [
+    "Sandbox_ProjectALife.CompatDogsTarget_option3"
+   ]
+  ],
+  "370": [
+   "Sandbox_ProjectALife.CompatDogsTarget_option4",
+   "Everyone",
+   [
+    "Sandbox_ProjectALife.CompatDogsTarget_option4"
+   ]
+  ],
+  "371": [
+   "Sandbox_ProjectALife.CompatDogsTarget_option5",
+   "Never",
+   [
+    "Sandbox_ProjectALife.CompatDogsTarget_option5"
+   ]
+  ],
+  "372": [
+   "Sandbox_ProjectALife.CompatDogsCanDieByNPC",
+   "[Expert] NPCs can kill companion dogs",
+   [
+    "Sandbox_ProjectALife.CompatDogsCanDieByNPC"
+   ]
+  ],
+  "373": [
+   "Sandbox_ProjectALife.CompatDogsCanDieByNPC_tooltip",
+   "Off: an NPC's hits stop at the health threshold below, and NPCs leave a dog alone once it is there or panicking. On: no floor, and the dog can die from NPC hits.\nDefault off.",
+   [
+    "Sandbox_ProjectALife.CompatDogsCanDieByNPC_tooltip"
+   ]
+  ],
+  "374": [
+   "Sandbox_ProjectALife.CompatDogsHealthThreshold",
+   "[Expert] Companion dog health threshold",
+   [
+    "Sandbox_ProjectALife.CompatDogsHealthThreshold"
+   ]
+  ],
+  "375": [
+   "Sandbox_ProjectALife.CompatDogsHealthThreshold_tooltip",
+   "Fraction of a dog's maximum health where NPC hits stop (while NPCs cannot kill dogs) and the dog takes the status below.\nDefault 0.1.",
+   [
+    "Sandbox_ProjectALife.CompatDogsHealthThreshold_tooltip"
+   ]
+  ],
+  "376": [
+   "Sandbox_ProjectALife.CompatDogsThresholdStatus",
+   "[Expert] Companion dog status at the threshold",
+   [
+    "Sandbox_ProjectALife.CompatDogsThresholdStatus"
+   ]
+  ],
+  "377": [
+   "Sandbox_ProjectALife.CompatDogsThresholdStatus_tooltip",
+   "What a dog hit down to the health threshold by an NPC becomes. A breed that can never panic is always made terrified.\nDefault Panicking (1).",
+   [
+    "Sandbox_ProjectALife.CompatDogsThresholdStatus_tooltip"
+   ]
+  ],
+  "378": [
+   "Sandbox_ProjectALife.CompatDogsThresholdStatus_option1",
+   "Panicking",
+   [
+    "Sandbox_ProjectALife.CompatDogsThresholdStatus_option1"
+   ]
+  ],
+  "379": [
+   "Sandbox_ProjectALife.CompatDogsThresholdStatus_option2",
+   "Terrified",
+   [
+    "Sandbox_ProjectALife.CompatDogsThresholdStatus_option2"
+   ]
+  ],
+  "380": [
+   "Sandbox_ProjectALife.CompatDogsNpcDamageMult",
+   "[Expert] Companion dog bite damage on NPCs",
+   [
+    "Sandbox_ProjectALife.CompatDogsNpcDamageMult"
+   ]
+  ],
+  "381": [
+   "Sandbox_ProjectALife.CompatDogsNpcDamageMult_tooltip",
+   "Multiplier on the damage a companion dog's bite does to an A-Life NPC (scaled to the NPC's own health pool).\nDefault 1.0.",
+   [
+    "Sandbox_ProjectALife.CompatDogsNpcDamageMult_tooltip"
+   ]
+  ],
+  "382": [
+   "Sandbox_ProjectALife.CompatDogsNpcDefenseMult",
+   "[Expert] Companion dog defense against NPCs",
+   [
+    "Sandbox_ProjectALife.CompatDogsNpcDefenseMult"
+   ]
+  ],
+  "383": [
+   "Sandbox_ProjectALife.CompatDogsNpcDefenseMult_tooltip",
+   "Divides the damage an A-Life NPC's hit does to a companion dog. Higher means the dog takes less.\nDefault 1.0.",
+   [
+    "Sandbox_ProjectALife.CompatDogsNpcDefenseMult_tooltip"
+   ]
+  ],
+  "384": [
+   "Sandbox_ProjectALife.CompatDogsAlertHumans",
+   "[Expert] Companion dogs alert on NPCs",
+   [
+    "Sandbox_ProjectALife.CompatDogsAlertHumans"
+   ]
+  ],
+  "385": [
+   "Sandbox_ProjectALife.CompatDogsAlertHumans_tooltip",
+   "On: a dog's sentinel alert can include A-Life NPCs, by its scent skill (levels below). Off: the alert covers zombies only. The owner's own people never raise it.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CompatDogsAlertHumans_tooltip"
+   ]
+  ],
+  "386": [
+   "Sandbox_ProjectALife.CompatDogsSenseLevel",
+   "[Expert] Companion dog scent level to sense NPCs",
+   [
+    "Sandbox_ProjectALife.CompatDogsSenseLevel"
+   ]
+  ],
+  "387": [
+   "Sandbox_ProjectALife.CompatDogsSenseLevel_tooltip",
+   "Scent skill a dog needs before A-Life NPCs raise its sentinel alert at all. With dog skills off in Companion Dogs every dog counts as fully skilled.\nDefault 2.",
+   [
+    "Sandbox_ProjectALife.CompatDogsSenseLevel_tooltip"
+   ]
+  ],
+  "388": [
+   "Sandbox_ProjectALife.CompatDogsStanceLevel",
+   "[Expert] Companion dog scent level to tell hostile NPCs",
+   [
+    "Sandbox_ProjectALife.CompatDogsStanceLevel"
+   ]
+  ],
+  "389": [
+   "Sandbox_ProjectALife.CompatDogsStanceLevel_tooltip",
+   "Scent skill at which a dog alerts only on NPCs hostile to its owner and ignores the rest. Never below the sense level.\nDefault 8.",
+   [
+    "Sandbox_ProjectALife.CompatDogsStanceLevel_tooltip"
+   ]
+  ],
+  "390": [
+   "Sandbox_ProjectALife.PerfTier",
+   "Performance level",
+   [
+    "Sandbox_ProjectALife.PerfTier"
+   ]
+  ],
+  "391": [
+   "Sandbox_ProjectALife.PerfTier_tooltip",
+   "Auto lowers background work when A-Life costs more than its budget and raises it again when there is room. Pick a level to pin it. Combat and anything you can see is never reduced.\nDefault Auto (recommended) (1).",
+   [
+    "Sandbox_ProjectALife.PerfTier_tooltip"
+   ]
+  ],
+  "392": [
+   "Sandbox_ProjectALife.PerfTier_option1",
+   "Auto (recommended)",
+   [
+    "Sandbox_ProjectALife.PerfTier_option1"
+   ]
+  ],
+  "393": [
+   "Sandbox_ProjectALife.PerfTier_option2",
+   "Ultra",
+   [
+    "Sandbox_ProjectALife.PerfTier_option2"
+   ]
+  ],
+  "394": [
+   "Sandbox_ProjectALife.PerfTier_option3",
+   "High",
+   [
+    "Sandbox_ProjectALife.PerfTier_option3"
+   ]
+  ],
+  "395": [
+   "Sandbox_ProjectALife.PerfTier_option4",
+   "Medium",
+   [
+    "Sandbox_ProjectALife.PerfTier_option4"
+   ]
+  ],
+  "396": [
+   "Sandbox_ProjectALife.PerfTier_option5",
+   "Low",
+   [
+    "Sandbox_ProjectALife.PerfTier_option5"
+   ]
+  ],
+  "397": [
+   "Sandbox_ProjectALife.PerfTier_option6",
+   "Minimal",
+   [
+    "Sandbox_ProjectALife.PerfTier_option6"
+   ]
+  ],
+  "398": [
+   "Sandbox_ProjectALife.PerfFrameBudget",
+   "Performance: A-Life frame budget (ms)",
+   [
+    "Sandbox_ProjectALife.PerfFrameBudget"
+   ]
+  ],
+  "399": [
+   "Sandbox_ProjectALife.PerfFrameBudget_tooltip",
+   "How much game-frame time A-Life may use per frame before Auto steps the level down. Higher keeps more background work running on a fast PC.\nDefault 2.",
+   [
+    "Sandbox_ProjectALife.PerfFrameBudget_tooltip"
+   ]
+  ],
+  "400": [
+   "Sandbox_ProjectALife.PerfTickBudget",
+   "Performance: A-Life tick budget (ms)",
+   [
+    "Sandbox_ProjectALife.PerfTickBudget"
+   ]
+  ],
+  "401": [
+   "Sandbox_ProjectALife.PerfTickBudget_tooltip",
+   "How long one A-Life world tick may take before Auto steps the level down. Matters most on a dedicated server.\nDefault 8.",
+   [
+    "Sandbox_ProjectALife.PerfTickBudget_tooltip"
+   ]
+  ],
+  "402": [
+   "Sandbox_ProjectALife.PerfDownSeconds",
+   "Performance: seconds over budget before stepping down",
+   [
+    "Sandbox_ProjectALife.PerfDownSeconds"
+   ]
+  ],
+  "403": [
+   "Sandbox_ProjectALife.PerfDownSeconds_tooltip",
+   "Auto waits this long over budget before it lowers the level one step. A burst of heavy frames lowers it at once.\nDefault 10.",
+   [
+    "Sandbox_ProjectALife.PerfDownSeconds_tooltip"
+   ]
+  ],
+  "404": [
+   "Sandbox_ProjectALife.PerfUpSeconds",
+   "Performance: seconds under budget before stepping up",
+   [
+    "Sandbox_ProjectALife.PerfUpSeconds"
+   ]
+  ],
+  "405": [
+   "Sandbox_ProjectALife.PerfUpSeconds_tooltip",
+   "Auto waits this long well under budget before it raises the level one step. Longer avoids flip-flopping.\nDefault 30.",
+   [
+    "Sandbox_ProjectALife.PerfUpSeconds_tooltip"
+   ]
+  ],
+  "406": [
+   "Sandbox_ProjectALife.PerfWarmupSeconds",
+   "Performance: seconds to wait after the world loads",
+   [
+    "Sandbox_ProjectALife.PerfWarmupSeconds"
+   ]
+  ],
+  "407": [
+   "Sandbox_ProjectALife.PerfWarmupSeconds_tooltip",
+   "Auto leaves the level alone for this long after loading, so loading hitches do not lower it. 0 turns the wait off.\nDefault 60.",
+   [
+    "Sandbox_ProjectALife.PerfWarmupSeconds_tooltip"
+   ]
+  ],
+  "408": [
+   "Sandbox_ProjectALife.PerfRecoverSeconds",
+   "Performance: seconds within budget before stepping back up",
+   [
+    "Sandbox_ProjectALife.PerfRecoverSeconds"
+   ]
+  ],
+  "409": [
+   "Sandbox_ProjectALife.PerfRecoverSeconds_tooltip",
+   "Auto raises the level one step after this long inside the budget with no long freezes, even when it is not well under it.\nDefault 180.",
+   [
+    "Sandbox_ProjectALife.PerfRecoverSeconds_tooltip"
+   ]
+  ],
+  "410": [
+   "Sandbox_ProjectALife.FactionsLaw",
+   "Police and sheriff factions spawn",
+   [
+    "Sandbox_ProjectALife.FactionsLaw"
+   ]
+  ],
+  "411": [
+   "Sandbox_ProjectALife.FactionsLaw_tooltip",
+   "Off stops the law factions (police, sheriff, and any Creator faction set to the law bloc) from spawning on their own. NPCs already in the world stay.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FactionsLaw_tooltip"
+   ]
+  ],
+  "412": [
+   "Sandbox_ProjectALife.FactionsMilitary",
+   "Army and guard factions spawn",
+   [
+    "Sandbox_ProjectALife.FactionsMilitary"
+   ]
+  ],
+  "413": [
+   "Sandbox_ProjectALife.FactionsMilitary_tooltip",
+   "Off stops the military factions (army, guard, special forces) from spawning on their own. NPCs already in the world stay.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FactionsMilitary_tooltip"
+   ]
+  ],
+  "414": [
+   "Sandbox_ProjectALife.FactionsRescue",
+   "Fire and rescue factions spawn",
+   [
+    "Sandbox_ProjectALife.FactionsRescue"
+   ]
+  ],
+  "415": [
+   "Sandbox_ProjectALife.FactionsRescue_tooltip",
+   "Off stops the fire and rescue factions from spawning on their own. NPCs already in the world stay.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FactionsRescue_tooltip"
+   ]
+  ],
+  "416": [
+   "Sandbox_ProjectALife.FactionsTowns",
+   "Town and settler factions spawn",
+   [
+    "Sandbox_ProjectALife.FactionsTowns"
+   ]
+  ],
+  "417": [
+   "Sandbox_ProjectALife.FactionsTowns_tooltip",
+   "Off stops the civilian, family, worker and federation factions from spawning on their own. NPCs already in the world stay.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FactionsTowns_tooltip"
+   ]
+  ],
+  "418": [
+   "Sandbox_ProjectALife.FactionsOutlaws",
+   "Gang, raider and prison factions spawn",
+   [
+    "Sandbox_ProjectALife.FactionsOutlaws"
+   ]
+  ],
+  "419": [
+   "Sandbox_ProjectALife.FactionsOutlaws_tooltip",
+   "Off stops the crime, gang, club, raider and prison factions from spawning on their own. NPCs already in the world stay. Raids from them stop too.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FactionsOutlaws_tooltip"
+   ]
+  ],
+  "420": [
+   "Sandbox_ProjectALife.CombatVehicleKeepOut",
+   "Melee keep-out around a closed car",
+   [
+    "Sandbox_ProjectALife.CombatVehicleKeepOut"
+   ]
+  ],
+  "421": [
+   "Sandbox_ProjectALife.CombatVehicleKeepOut_tooltip",
+   "How far a melee fighter stands from a car whose rider cannot be reached (doors shut, windows whole) instead of pressing against it. 0 switches it off. Ranged fighters are not affected.\nDefault 3.",
+   [
+    "Sandbox_ProjectALife.CombatVehicleKeepOut_tooltip"
+   ]
+  ],
+  "422": [
+   "Sandbox_ProjectALife.FeatureNpcCars",
+   "NPCs driving cars",
+   [
+    "Sandbox_ProjectALife.FeatureNpcCars"
+   ]
+  ],
+  "423": [
+   "Sandbox_ProjectALife.FeatureNpcCars_tooltip",
+   "Master switch for every NPC vehicle system: NPC cars, virtual traffic, car arrivals, car encounters, car actions and car offline simulation. Off: no NPC ever drives and no NPC car spawns.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FeatureNpcCars_tooltip"
+   ]
+  ],
+  "424": [
+   "Sandbox_ProjectALife.FeatureDriveBys",
+   "Drive-bys",
+   [
+    "Sandbox_ProjectALife.FeatureDriveBys"
+   ]
+  ],
+  "425": [
+   "Sandbox_ProjectALife.FeatureDriveBys_tooltip",
+   "Off: NPC cars never carry out drive-by shootings or ambushes.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FeatureDriveBys_tooltip"
+   ]
+  ],
+  "426": [
+   "Sandbox_ProjectALife.FeaturePoliceResponse",
+   "Police response",
+   [
+    "Sandbox_ProjectALife.FeaturePoliceResponse"
+   ]
+  ],
+  "427": [
+   "Sandbox_ProjectALife.FeaturePoliceResponse_tooltip",
+   "Off: police cars and officers never answer crimes, gunfire or alarms.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FeaturePoliceResponse_tooltip"
+   ]
+  ],
+  "428": [
+   "Sandbox_ProjectALife.FeatureSpecialWeapons",
+   "Special weapons",
+   [
+    "Sandbox_ProjectALife.FeatureSpecialWeapons"
+   ]
+  ],
+  "429": [
+   "Sandbox_ProjectALife.FeatureSpecialWeapons_tooltip",
+   "Off: NPCs never get the heavy machine gun or the JS-5 SMG. They use ordinary weapons instead.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FeatureSpecialWeapons_tooltip"
+   ]
+  ],
+  "430": [
+   "Sandbox_ProjectALife.FeatureReputation",
+   "Reputation",
+   [
+    "Sandbox_ProjectALife.FeatureReputation"
+   ]
+  ],
+  "431": [
+   "Sandbox_ProjectALife.FeatureReputation_tooltip",
+   "Off: reputation is not tracked: no gains, losses, bar or toasts, NPCs use their faction default and reputation-gated talk is open. Stored reputation is kept.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FeatureReputation_tooltip"
+   ]
+  ],
+  "432": [
+   "Sandbox_ProjectALife.FeatureOutpostFastBuild",
+   "Fast outpost building",
+   [
+    "Sandbox_ProjectALife.FeatureOutpostFastBuild"
+   ]
+  ],
+  "433": [
+   "Sandbox_ProjectALife.FeatureOutpostFastBuild_tooltip",
+   "On: sites on loaded ground are built in a short burst over a few ticks, fixed checkpoints first, and a waiting site builds the moment its ground loads. Off: one build budget per round.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FeatureOutpostFastBuild_tooltip"
+   ]
+  ],
+  "434": [
+   "Sandbox_ProjectALife.FeatureOutpostCrewAccess",
+   "Outpost crews keep a way out",
+   [
+    "Sandbox_ProjectALife.FeatureOutpostCrewAccess"
+   ]
+  ],
+  "435": [
+   "Sandbox_ProjectALife.FeatureOutpostCrewAccess_tooltip",
+   "On: outposts leave the crew a walkway, the last open door is never boarded, barricades go up last, and a crew stuck behind its own barricade for 90 seconds tears it down. Off: old placement.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FeatureOutpostCrewAccess_tooltip"
+   ]
+  ],
+  "436": [
+   "Sandbox_ProjectALife.FeatureCustomAnimations",
+   "Custom animations",
+   [
+    "Sandbox_ProjectALife.FeatureCustomAnimations"
+   ]
+  ],
+  "437": [
+   "Sandbox_ProjectALife.FeatureCustomAnimations_tooltip",
+   "On: NPCs use the A-Life animation sets (military and police gaits and holds, crouch, kneel and prone poses, custom death, hit and rappel clips). Off: NPCs use only the vanilla animations; movement, combat and death keep working. Reload the save after changing it.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FeatureCustomAnimations_tooltip"
+   ]
+  ],
+  "438": [
+   "Sandbox_ProjectALife.FeatureJuggernauts",
+   "Juggernauts",
+   [
+    "Sandbox_ProjectALife.FeatureJuggernauts"
+   ]
+  ],
+  "439": [
+   "Sandbox_ProjectALife.FeatureJuggernauts_tooltip",
+   "Off: no heavily armoured juggernaut NPC is ever created, in raids or anywhere else.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FeatureJuggernauts_tooltip"
+   ]
+  ],
+  "440": [
+   "Sandbox_ProjectALife.FeatureEndings",
+   "Endings and Oris tower",
+   [
+    "Sandbox_ProjectALife.FeatureEndings"
+   ]
+  ],
+  "441": [
+   "Sandbox_ProjectALife.FeatureEndings_tooltip",
+   "Off: the 365-day ending, its cinematic and the Oris tower war never start. Nothing ticks.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FeatureEndings_tooltip"
+   ]
+  ],
+  "442": [
+   "Sandbox_ProjectALife.FeatureRadio",
+   "Radio and field band",
+   [
+    "Sandbox_ProjectALife.FeatureRadio"
+   ]
+  ],
+  "443": [
+   "Sandbox_ProjectALife.FeatureRadio_tooltip",
+   "Off: A-Life adds no radio broadcasts, field band chatter or numbers station.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FeatureRadio_tooltip"
+   ]
+  ],
+  "444": [
+   "Sandbox_ProjectALife.FeatureVisitors",
+   "Visitors and traders",
+   [
+    "Sandbox_ProjectALife.FeatureVisitors"
+   ]
+  ],
+  "445": [
+   "Sandbox_ProjectALife.FeatureVisitors_tooltip",
+   "Off: no visitor or trader ever comes to a player base and visitor events do not run.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FeatureVisitors_tooltip"
+   ]
+  ],
+  "446": [
+   "Sandbox_ProjectALife.FeatureQuests",
+   "Quests, tasks and missions",
+   [
+    "Sandbox_ProjectALife.FeatureQuests"
+   ]
+  ],
+  "447": [
+   "Sandbox_ProjectALife.FeatureQuests_tooltip",
+   "Off: NPCs offer no tasks, missions or quests, including Left Behind. No task board and no markers.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FeatureQuests_tooltip"
+   ]
+  ],
+  "448": [
+   "Sandbox_ProjectALife.FeatureSpeechBubbles",
+   "Speech bubbles",
+   [
+    "Sandbox_ProjectALife.FeatureSpeechBubbles"
+   ]
+  ],
+  "449": [
+   "Sandbox_ProjectALife.FeatureSpeechBubbles_tooltip",
+   "Off: NPCs show no speech bubbles above their heads. Dialogue windows are unaffected.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.FeatureSpeechBubbles_tooltip"
+   ]
+  ],
+  "450": [
+   "Sandbox_ProjectALife.FeatureNpcTrampleCrops",
+   "NPCs trample crops",
+   [
+    "Sandbox_ProjectALife.FeatureNpcTrampleCrops"
+   ]
+  ],
+  "451": [
+   "Sandbox_ProjectALife.FeatureNpcTrampleCrops_tooltip",
+   "On: A-Life NPCs can destroy crops they walk over, like vanilla zombies. Off: crops are never destroyed by NPCs alone.\nDefault off.",
+   [
+    "Sandbox_ProjectALife.FeatureNpcTrampleCrops_tooltip"
+   ]
+  ],
+  "452": [
+   "Sandbox_ProjectALife.LoadoutsGunMode",
+   "NPC firearm source",
+   [
+    "Sandbox_ProjectALife.LoadoutsGunMode"
+   ]
+  ],
+  "453": [
+   "Sandbox_ProjectALife.LoadoutsGunMode_tooltip",
+   "Faction roster keeps each faction's own guns. Fixed percent lets the next option decide how many built-in NPCs carry a gun. Creator profiles are unchanged.\nDefault Faction roster (1).",
+   [
+    "Sandbox_ProjectALife.LoadoutsGunMode_tooltip"
+   ]
+  ],
+  "454": [
+   "Sandbox_ProjectALife.LoadoutsGunMode_option1",
+   "Faction roster (default)",
+   [
+    "Sandbox_ProjectALife.LoadoutsGunMode_option1"
+   ]
+  ],
+  "455": [
+   "Sandbox_ProjectALife.LoadoutsGunMode_option2",
+   "Fixed percent of NPCs carry a gun",
+   [
+    "Sandbox_ProjectALife.LoadoutsGunMode_option2"
+   ]
+  ],
+  "456": [
+   "Sandbox_ProjectALife.LoadoutsGunPercent",
+   "NPCs carrying a gun (percent)",
+   [
+    "Sandbox_ProjectALife.LoadoutsGunPercent"
+   ]
+  ],
+  "457": [
+   "Sandbox_ProjectALife.LoadoutsGunPercent_tooltip",
+   "Used only with Fixed percent: 10 means one built-in NPC in ten carries a gun, 100 means all do, even ones their faction leaves unarmed. Stays the same after a reload.\nDefault 100.",
+   [
+    "Sandbox_ProjectALife.LoadoutsGunPercent_tooltip"
+   ]
+  ],
+  "458": [
+   "Sandbox_ProjectALife.CompatGunsmith93",
+   "[Expert] Gunsmith: The 1993 Arsenal support",
+   [
+    "Sandbox_ProjectALife.CompatGunsmith93"
+   ]
+  ],
+  "459": [
+   "Sandbox_ProjectALife.CompatGunsmith93_tooltip",
+   "With Gunsmith: The 1993 Arsenal active, a share of NPC guns become its 1993 firearms in low, mid and high tiers by faction category, with parts fitted at spawn. Off: the mod is ignored and NPCs keep vanilla guns. Does nothing when the mod is not loaded.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.CompatGunsmith93_tooltip"
+   ]
+  ],
+  "460": [
+   "Sandbox_ProjectALife.CompatGunsmith93HighDay",
+   "[Expert] Gunsmith high tier from day",
+   [
+    "Sandbox_ProjectALife.CompatGunsmith93HighDay"
+   ]
+  ],
+  "461": [
+   "Sandbox_ProjectALife.CompatGunsmith93HighDay_tooltip",
+   "World day from which NPCs may carry the high tier 1993 guns (assault rifles, battle rifles, the Desert Eagle). Before it, high tier rolls fall back to mid tier.\nDefault 90.",
+   [
+    "Sandbox_ProjectALife.CompatGunsmith93HighDay_tooltip"
+   ]
+  ],
+  "462": [
+   "Sandbox_ProjectALife.PerceptionAlertness",
+   "[Expert] Alert levels for NPCs",
+   [
+    "Sandbox_ProjectALife.PerceptionAlertness"
+   ]
+  ],
+  "463": [
+   "Sandbox_ProjectALife.PerceptionAlertness_tooltip",
+   "NPCs go from calm to suspicious to alert to fighting, and hold each level for a while before calming down.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.PerceptionAlertness_tooltip"
+   ]
+  ],
+  "464": [
+   "Sandbox_ProjectALife.PerceptionCombatHoldSeconds",
+   "[Expert] Fighting alert hold (seconds)",
+   [
+    "Sandbox_ProjectALife.PerceptionCombatHoldSeconds"
+   ]
+  ],
+  "465": [
+   "Sandbox_ProjectALife.PerceptionCombatHoldSeconds_tooltip",
+   "How long an NPC stays at full alert after the last sign of a fight.\nDefault 12.",
+   [
+    "Sandbox_ProjectALife.PerceptionCombatHoldSeconds_tooltip"
+   ]
+  ],
+  "466": [
+   "Sandbox_ProjectALife.PerceptionAlertHoldSeconds",
+   "[Expert] Alert hold (seconds)",
+   [
+    "Sandbox_ProjectALife.PerceptionAlertHoldSeconds"
+   ]
+  ],
+  "467": [
+   "Sandbox_ProjectALife.PerceptionAlertHoldSeconds_tooltip",
+   "How long an NPC stays alert after it spotted a threat and lost sight of it.\nDefault 20.",
+   [
+    "Sandbox_ProjectALife.PerceptionAlertHoldSeconds_tooltip"
+   ]
+  ],
+  "468": [
+   "Sandbox_ProjectALife.PerceptionSuspicionSeconds",
+   "[Expert] Suspicion hold (seconds)",
+   [
+    "Sandbox_ProjectALife.PerceptionSuspicionSeconds"
+   ]
+  ],
+  "469": [
+   "Sandbox_ProjectALife.PerceptionSuspicionSeconds_tooltip",
+   "How long an NPC stays suspicious after a noise or a glimpse.\nDefault 15.",
+   [
+    "Sandbox_ProjectALife.PerceptionSuspicionSeconds_tooltip"
+   ]
+  ],
+  "470": [
+   "Sandbox_ProjectALife.PerceptionCalloutTiles",
+   "[Expert] Callout distance (tiles)",
+   [
+    "Sandbox_ProjectALife.PerceptionCalloutTiles"
+   ]
+  ],
+  "471": [
+   "Sandbox_ProjectALife.PerceptionCalloutTiles_tooltip",
+   "How far an NPC's shout about a threat reaches crewmates. 0 turns callouts off.\nDefault 25.",
+   [
+    "Sandbox_ProjectALife.PerceptionCalloutTiles_tooltip"
+   ]
+  ],
+  "472": [
+   "Sandbox_ProjectALife.PerceptionCalloutDelayMs",
+   "[Expert] Callout delay (ms)",
+   [
+    "Sandbox_ProjectALife.PerceptionCalloutDelayMs"
+   ]
+  ],
+  "473": [
+   "Sandbox_ProjectALife.PerceptionCalloutDelayMs_tooltip",
+   "How long a crewmate takes to react to a shout.\nDefault 900.",
+   [
+    "Sandbox_ProjectALife.PerceptionCalloutDelayMs_tooltip"
+   ]
+  ],
+  "474": [
+   "Sandbox_ProjectALife.TalkSlowTime",
+   "Slow time while choosing a reply",
+   [
+    "Sandbox_ProjectALife.TalkSlowTime"
+   ]
+  ],
+  "475": [
+   "Sandbox_ProjectALife.TalkSlowTime_tooltip",
+   "Single player only. While you pick a reply the game runs slowly, then eases back when you choose or close.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.TalkSlowTime_tooltip"
+   ]
+  ],
+  "476": [
+   "Sandbox_ProjectALife.TalkSlowFactor",
+   "Slow-down speed while choosing",
+   [
+    "Sandbox_ProjectALife.TalkSlowFactor"
+   ]
+  ],
+  "477": [
+   "Sandbox_ProjectALife.TalkSlowFactor_tooltip",
+   "How fast the game runs while you choose a reply: 1 is normal speed, 0.2 is one fifth, 0.05 is almost frozen. Only used when slowing time is on.\nDefault 0.2.",
+   [
+    "Sandbox_ProjectALife.TalkSlowFactor_tooltip"
+   ]
+  ],
+  "478": [
+   "Sandbox_ProjectALife.TalkFade",
+   "Fade the talk window in and out",
+   [
+    "Sandbox_ProjectALife.TalkFade"
+   ]
+  ],
+  "479": [
+   "Sandbox_ProjectALife.TalkFade_tooltip",
+   "Replies and the window fade in and out, the chosen reply flashes. Off when Animated text is off.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.TalkFade_tooltip"
+   ]
+  ],
+  "480": [
+   "Sandbox_ProjectALife.TalkCyber",
+   "Talk list style: impact replies first",
+   [
+    "Sandbox_ProjectALife.TalkCyber"
+   ]
+  ],
+  "481": [
+   "Sandbox_ProjectALife.TalkCyber_tooltip",
+   "Replies that have a consequence show in yellow at the top, asked questions drop out of the list, and skill or reputation replies show a small tag.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.TalkCyber_tooltip"
+   ]
+  ],
+  "482": [
+   "Sandbox_ProjectALife.TalkKeyF",
+   "Talk with the flashlight key when someone is there",
+   [
+    "Sandbox_ProjectALife.TalkKeyF"
+   ]
+  ],
+  "483": [
+   "Sandbox_ProjectALife.TalkKeyF_tooltip",
+   "With someone to talk to in sight, F opens the conversation instead of the flashlight; otherwise F stays the flashlight. The talk key always works. Off: talk key only.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.TalkKeyF_tooltip"
+   ]
+  ],
+  "484": [
+   "Sandbox_ProjectALife.TalkWindowStyle",
+   "Talk window style",
+   [
+    "Sandbox_ProjectALife.TalkWindowStyle"
+   ]
+  ],
+  "485": [
+   "Sandbox_ProjectALife.TalkWindowStyle_tooltip",
+   "Which conversation window players get. New is the side panel; Old cinematic is the earlier window with numbered answers. A player's Journal setting still wins unless you pick a forced value.\nDefault New (1).",
+   [
+    "Sandbox_ProjectALife.TalkWindowStyle_tooltip"
+   ]
+  ],
+  "486": [
+   "Sandbox_ProjectALife.TalkWindowStyle_option1",
+   "New",
+   [
+    "Sandbox_ProjectALife.TalkWindowStyle_option1"
+   ]
+  ],
+  "487": [
+   "Sandbox_ProjectALife.TalkWindowStyle_option2",
+   "Old cinematic",
+   [
+    "Sandbox_ProjectALife.TalkWindowStyle_option2"
+   ]
+  ],
+  "488": [
+   "Sandbox_ProjectALife.TalkWindowStyle_option3",
+   "New (forced)",
+   [
+    "Sandbox_ProjectALife.TalkWindowStyle_option3"
+   ]
+  ],
+  "489": [
+   "Sandbox_ProjectALife.TalkWindowStyle_option4",
+   "Old cinematic (forced)",
+   [
+    "Sandbox_ProjectALife.TalkWindowStyle_option4"
+   ]
+  ],
+  "490": [
+   "Sandbox_ProjectALife.TalkLocked",
+   "Show locked skill and reputation replies",
+   [
+    "Sandbox_ProjectALife.TalkLocked"
+   ]
+  ],
+  "491": [
+   "Sandbox_ProjectALife.TalkLocked_tooltip",
+   "Shows the skill and reputation replies you do not qualify for yet, greyed out with their requirement.\nDefault off.",
+   [
+    "Sandbox_ProjectALife.TalkLocked_tooltip"
+   ]
+  ],
+  "492": [
+   "Sandbox_ProjectALife.EggsEnabled",
+   "Easter egg encounters",
+   [
+    "Sandbox_ProjectALife.EggsEnabled"
+   ]
+  ],
+  "493": [
+   "Sandbox_ProjectALife.EggsEnabled_tooltip",
+   "Rare harmless meme encounters that appear once in a while near a player: a dancer on the road, a cone collector, a lost tourist. They never appear in a base or during a fight.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.EggsEnabled_tooltip"
+   ]
+  ],
+  "494": [
+   "Sandbox_ProjectALife.EggsFrequency",
+   "Easter egg frequency (0 off, 1 rare, 2 normal, 3 often)",
+   [
+    "Sandbox_ProjectALife.EggsFrequency"
+   ]
+  ],
+  "495": [
+   "Sandbox_ProjectALife.EggsFrequency_tooltip",
+   "How often the game rolls for an egg: 1 about every 3 hours, 2 every 90 minutes, 3 every 45 minutes (game time), and a roll can find nothing. 0 turns eggs off.\nDefault 2.",
+   [
+    "Sandbox_ProjectALife.EggsFrequency_tooltip"
+   ]
+  ],
+  "496": [
+   "Sandbox_ProjectALife.EggsAllowMythic",
+   "Allow mythic easter eggs",
+   [
+    "Sandbox_ProjectALife.EggsAllowMythic"
+   ]
+  ],
+  "497": [
+   "Sandbox_ProjectALife.EggsAllowMythic_tooltip",
+   "Mythic eggs are the very rare ones and some of them can only be seen once per world. Turn this off to keep only the common and rare eggs.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.EggsAllowMythic_tooltip"
+   ]
+  ],
+  "498": [
+   "Sandbox_ProjectALife.EggsDebugHints",
+   "Easter egg debug hint",
+   [
+    "Sandbox_ProjectALife.EggsDebugHints"
+   ]
+  ],
+  "499": [
+   "Sandbox_ProjectALife.EggsDebugHints_tooltip",
+   "Shows a small note above the player when an egg spawns, so an admin can go and look. Everyone else is not told.\nDefault off.",
+   [
+    "Sandbox_ProjectALife.EggsDebugHints_tooltip"
+   ]
+  ],
+  "500": [
+   "Sandbox_ProjectALife.WheelScale",
+   "Order wheel size (percent)",
+   [
+    "Sandbox_ProjectALife.WheelScale"
+   ]
+  ],
+  "501": [
+   "Sandbox_ProjectALife.WheelScale_tooltip",
+   "Size of the hold-Q companion order wheel as a share of its normal size, so it covers less of the player. 70 to 130.\nDefault 100.",
+   [
+    "Sandbox_ProjectALife.WheelScale_tooltip"
+   ]
+  ],
+  "502": [
+   "Sandbox_ProjectALife.WheelAnimated",
+   "Order wheel animation",
+   [
+    "Sandbox_ProjectALife.WheelAnimated"
+   ]
+  ],
+  "503": [
+   "Sandbox_ProjectALife.WheelAnimated_tooltip",
+   "Fades and scales the order wheel in and out for about a tenth of a second. Players who chose static text in the A-Life options always get an instant wheel.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.WheelAnimated_tooltip"
+   ]
+  ],
+  "504": [
+   "Sandbox_ProjectALife.TalkAskGov",
+   "Limit how often NPCs ask you questions",
+   [
+    "Sandbox_ProjectALife.TalkAskGov"
+   ]
+  ],
+  "505": [
+   "Sandbox_ProjectALife.TalkAskGov_tooltip",
+   "Only one question is open at a time, questions from different people keep a gap, and low-value ones are rationed. Danger and robbery questions always get through.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.TalkAskGov_tooltip"
+   ]
+  ],
+  "506": [
+   "Sandbox_ProjectALife.TalkAskGap",
+   "Gap between questions from different NPCs (seconds)",
+   [
+    "Sandbox_ProjectALife.TalkAskGap"
+   ]
+  ],
+  "507": [
+   "Sandbox_ProjectALife.TalkAskGap_tooltip",
+   "Real seconds before a lesser question from another person or crew may reach you after the last one. Needs the question limit on.\nDefault 60.",
+   [
+    "Sandbox_ProjectALife.TalkAskGap_tooltip"
+   ]
+  ],
+  "508": [
+   "Sandbox_ProjectALife.TalkAskSame",
+   "Gap between questions from the same NPC (seconds)",
+   [
+    "Sandbox_ProjectALife.TalkAskSame"
+   ]
+  ],
+  "509": [
+   "Sandbox_ProjectALife.TalkAskSame_tooltip",
+   "Real seconds before the same person or crew may ask you something new after their last question. Needs the question limit on.\nDefault 180.",
+   [
+    "Sandbox_ProjectALife.TalkAskSame_tooltip"
+   ]
+  ],
+  "510": [
+   "Sandbox_ProjectALife.TalkAskCap",
+   "Greetings and offers per real hour",
+   [
+    "Sandbox_ProjectALife.TalkAskCap"
+   ]
+  ],
+  "511": [
+   "Sandbox_ProjectALife.TalkAskCap_tooltip",
+   "At most this many trade offers and small-talk questions reach you per real hour; 0 blocks them. Needs the question limit on.\nDefault 4.",
+   [
+    "Sandbox_ProjectALife.TalkAskCap_tooltip"
+   ]
+  ],
+  "512": [
+   "Sandbox_ProjectALife.TalkChecks",
+   "Skill checks on talk replies",
+   [
+    "Sandbox_ProjectALife.TalkChecks"
+   ]
+  ],
+  "513": [
+   "Sandbox_ProjectALife.TalkChecks_tooltip",
+   "Robbing or ordering people about needs Strength, more for harder groups. A reply you cannot pass shows greyed with its requirement.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.TalkChecks_tooltip"
+   ]
+  ],
+  "514": [
+   "Sandbox_ProjectALife.TalkCheckStrict",
+   "Strictness of talk checks (percent)",
+   [
+    "Sandbox_ProjectALife.TalkCheckStrict"
+   ]
+  ],
+  "515": [
+   "Sandbox_ProjectALife.TalkCheckStrict_tooltip",
+   "Scales the Strength needed against each group. 100 is the standard table (military 10, civilians about 4), 50 halves it. The cap stays 10.\nDefault 100.",
+   [
+    "Sandbox_ProjectALife.TalkCheckStrict_tooltip"
+   ]
+  ],
+  "516": [
+   "Sandbox_ProjectALife.MetaSoundEnabled",
+   "Ambient meta sounds",
+   [
+    "Sandbox_ProjectALife.MetaSoundEnabled"
+   ]
+  ],
+  "517": [
+   "Sandbox_ProjectALife.MetaSoundEnabled_tooltip",
+   "Master switch for the ambient world sounds: phones, alarms, TV and radio noise, police chatter, distant gunfire and screams, bells and sirens, ocean and forest, the numbers station. Off silences all of them.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.MetaSoundEnabled_tooltip"
+   ]
+  ],
+  "518": [
+   "Sandbox_ProjectALife.MetaSoundPhones",
+   "Phones and beeping",
+   [
+    "Sandbox_ProjectALife.MetaSoundPhones"
+   ]
+  ],
+  "519": [
+   "Sandbox_ProjectALife.MetaSoundPhones_tooltip",
+   "House phones, the phones of the dead, and alarm beeps. A dead body's phone also stops drawing zombies when this is off.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.MetaSoundPhones_tooltip"
+   ]
+  ],
+  "520": [
+   "Sandbox_ProjectALife.MetaSoundTvRadio",
+   "TV and radio noise",
+   [
+    "Sandbox_ProjectALife.MetaSoundTvRadio"
+   ]
+  ],
+  "521": [
+   "Sandbox_ProjectALife.MetaSoundTvRadio_tooltip",
+   "Emergency broadcast tones, radio backup calls and the radio cutting out.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.MetaSoundTvRadio_tooltip"
+   ]
+  ],
+  "522": [
+   "Sandbox_ProjectALife.MetaSoundPolice",
+   "Police radio chatter",
+   [
+    "Sandbox_ProjectALife.MetaSoundPolice"
+   ]
+  ],
+  "523": [
+   "Sandbox_ProjectALife.MetaSoundPolice_tooltip",
+   "Dispatch chatter from police cars near you.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.MetaSoundPolice_tooltip"
+   ]
+  ],
+  "524": [
+   "Sandbox_ProjectALife.MetaSoundGunfire",
+   "Distant gunfire and screams",
+   [
+    "Sandbox_ProjectALife.MetaSoundGunfire"
+   ]
+  ],
+  "525": [
+   "Sandbox_ProjectALife.MetaSoundGunfire_tooltip",
+   "Far-off shootouts, artillery, explosions, screams and cries for help.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.MetaSoundGunfire_tooltip"
+   ]
+  ],
+  "526": [
+   "Sandbox_ProjectALife.MetaSoundBells",
+   "Bells and sirens",
+   [
+    "Sandbox_ProjectALife.MetaSoundBells"
+   ]
+  ],
+  "527": [
+   "Sandbox_ProjectALife.MetaSoundBells_tooltip",
+   "Church bells, police and service sirens, air raid sirens.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.MetaSoundBells_tooltip"
+   ]
+  ],
+  "528": [
+   "Sandbox_ProjectALife.MetaSoundNature",
+   "Nature ambience",
+   [
+    "Sandbox_ProjectALife.MetaSoundNature"
+   ]
+  ],
+  "529": [
+   "Sandbox_ProjectALife.MetaSoundNature_tooltip",
+   "Ocean waves near open water and wind in the forest.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.MetaSoundNature_tooltip"
+   ]
+  ],
+  "530": [
+   "Sandbox_ProjectALife.MetaSoundNumbers",
+   "Numbers station",
+   [
+    "Sandbox_ProjectALife.MetaSoundNumbers"
+   ]
+  ],
+  "531": [
+   "Sandbox_ProjectALife.MetaSoundNumbers_tooltip",
+   "The numbers station and its gong on radios and TVs.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.MetaSoundNumbers_tooltip"
+   ]
+  ],
+  "532": [
+   "Sandbox_ProjectALife.MetaSoundVolume",
+   "Meta sound volume (percent)",
+   [
+    "Sandbox_ProjectALife.MetaSoundVolume"
+   ]
+  ],
+  "533": [
+   "Sandbox_ProjectALife.MetaSoundVolume_tooltip",
+   "Scales every ambient meta sound above. 0 silences them.\nDefault 100.",
+   [
+    "Sandbox_ProjectALife.MetaSoundVolume_tooltip"
+   ]
+  ],
+  "534": [
+   "Sandbox_ProjectALife.PhonesEnabled",
+   "Phones",
+   [
+    "Sandbox_ProjectALife.PhonesEnabled"
+   ]
+  ],
+  "535": [
+   "Sandbox_ProjectALife.PhonesEnabled_tooltip",
+   "Turns every ringing phone off or on: house phones, the phones of the dead and the Cell Phone item that can ring in your bag.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.PhonesEnabled_tooltip"
+   ]
+  ],
+  "536": [
+   "Sandbox_ProjectALife.PhonesFrequency",
+   "Phone ring frequency",
+   [
+    "Sandbox_ProjectALife.PhonesFrequency"
+   ]
+  ],
+  "537": [
+   "Sandbox_ProjectALife.PhonesFrequency_tooltip",
+   "How often phones ring in a game week, house phones and carried Cell Phones together. Low: about 3 a week. Medium: 5. High: 7, the old rate.\nDefault Low (1).",
+   [
+    "Sandbox_ProjectALife.PhonesFrequency_tooltip"
+   ]
+  ],
+  "538": [
+   "Sandbox_ProjectALife.PhonesFrequency_option1",
+   "Low",
+   [
+    "Sandbox_ProjectALife.PhonesFrequency_option1"
+   ]
+  ],
+  "539": [
+   "Sandbox_ProjectALife.PhonesFrequency_option2",
+   "Medium",
+   [
+    "Sandbox_ProjectALife.PhonesFrequency_option2"
+   ]
+  ],
+  "540": [
+   "Sandbox_ProjectALife.PhonesFrequency_option3",
+   "High",
+   [
+    "Sandbox_ProjectALife.PhonesFrequency_option3"
+   ]
+  ],
+  "541": [
+   "Sandbox_ProjectALife.PhonesRarity",
+   "Cell Phone rarity",
+   [
+    "Sandbox_ProjectALife.PhonesRarity"
+   ]
+  ],
+  "542": [
+   "Sandbox_ProjectALife.PhonesRarity_tooltip",
+   "How often a plain zombie body carries a Cell Phone that can ring and be answered. Never an A-Life survivor. Low: about 1 body in 330. Medium: 1 in 100. High: 1 in 33.\nDefault Low (1).",
+   [
+    "Sandbox_ProjectALife.PhonesRarity_tooltip"
+   ]
+  ],
+  "543": [
+   "Sandbox_ProjectALife.PhonesRarity_option1",
+   "Low",
+   [
+    "Sandbox_ProjectALife.PhonesRarity_option1"
+   ]
+  ],
+  "544": [
+   "Sandbox_ProjectALife.PhonesRarity_option2",
+   "Medium",
+   [
+    "Sandbox_ProjectALife.PhonesRarity_option2"
+   ]
+  ],
+  "545": [
+   "Sandbox_ProjectALife.PhonesRarity_option3",
+   "High",
+   [
+    "Sandbox_ProjectALife.PhonesRarity_option3"
+   ]
+  ],
+  "546": [
+   "Sandbox_ProjectALife.PhonesReplySeconds",
+   "Phone call reply time (seconds)",
+   [
+    "Sandbox_ProjectALife.PhonesReplySeconds"
+   ]
+  ],
+  "547": [
+   "Sandbox_ProjectALife.PhonesReplySeconds_tooltip",
+   "How long you have to pick a reply in a phone call before the caller hangs up. The timer restarts on every new line. A missed call does not ring again.\nDefault 15.",
+   [
+    "Sandbox_ProjectALife.PhonesReplySeconds_tooltip"
+   ]
+  ],
+  "548": [
+   "Sandbox_ProjectALife.CarsSpawnDistance",
+   "NPC car spawn distance (tiles)",
+   [
+    "Sandbox_ProjectALife.CarsSpawnDistance"
+   ]
+  ],
+  "549": [
+   "Sandbox_ProjectALife.CarsSpawnDistance_tooltip",
+   "Ambient NPC cars (travelers, start traffic, cars that become real when you near them) never appear closer than this to a player. Raid, pull-up, drive-by and police cars may come closer but never inside your view, and walls do not hide them.\nDefault 70.",
+   [
+    "Sandbox_ProjectALife.CarsSpawnDistance_tooltip"
+   ]
+  ],
+  "550": [
+   "Sandbox_ProjectALife.CarsBaseKeepOut",
+   "Car keep-out around bases (tiles)",
+   [
+    "Sandbox_ProjectALife.CarsBaseKeepOut"
+   ]
+  ],
+  "551": [
+   "Sandbox_ProjectALife.CarsBaseKeepOut_tooltip",
+   "NPC cars never spawn or appear this close to a player base edge, and arriving crews stop and get out before it. 0 keeps them out of the base itself only.\nDefault 40.",
+   [
+    "Sandbox_ProjectALife.CarsBaseKeepOut_tooltip"
+   ]
+  ],
+  "552": [
+   "Sandbox_ProjectALife.NpcLadders",
+   "NPCs climb ladders",
+   [
+    "Sandbox_ProjectALife.NpcLadders"
+   ]
+  ],
+  "553": [
+   "Sandbox_ProjectALife.NpcLadders_tooltip",
+   "NPCs climb ladders (game 42.22 and later) to reach a target on another floor when there is no stairs route. Does nothing without ladders.\nDefault on.",
+   [
+    "Sandbox_ProjectALife.NpcLadders_tooltip"
+   ]
+  ],
+  "554": [
+   "Sandbox_ProjectALife_1Presets",
+   "A-Life: EXPERT - Preset values (Difficulty and Population)",
+   [
+    "Sandbox_ProjectALife_1Presets"
+   ]
+  ],
+  "555": [
+   "Sandbox_ProjectALife_6Ambient",
+   "A-Life: Ambient sounds",
+   [
+    "Sandbox_ProjectALife_6Ambient"
+   ]
+  ],
+  "556": [
+   "Sandbox_ProjectALife_0Switches",
+   "A-Life: Features",
+   [
+    "Sandbox_ProjectALife_0Switches"
+   ]
+  ],
+  "557": [
+   "Sandbox_ProjectALife_2Aircraft",
+   "A-Life: Aircraft",
+   [
+    "Sandbox_ProjectALife_2Aircraft"
+   ]
+  ],
+  "558": [
+   "Sandbox_ProjectALife_2Cars",
+   "A-Life: Cars & Vehicles",
+   [
+    "Sandbox_ProjectALife_2Cars"
+   ]
+  ],
+  "559": [
+   "Sandbox_ProjectALife_2Weapons",
+   "A-Life: Weapons",
+   [
+    "Sandbox_ProjectALife_2Weapons"
+   ]
+  ]
+ }
+}
