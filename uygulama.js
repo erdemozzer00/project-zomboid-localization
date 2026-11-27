@@ -77,7 +77,7 @@ function guvenBar(d,t){const p=k=>((d[k]||0)/t*100).toFixed(2);return '<div clas
 function ana(){const son=LS.get('cm_son',null);
   let ic='<main class="sayfa"><div class="selam">Merhaba, '+e(S.profil.ad)+'</div><h1 class="dev">Bugün hangi <em>sahneye</em> bakıyoruz?</h1><p class="alt-yazi">Bir bölüm seç, sahneyi aç, Türkçeyi yerinde düzelt. Onaylı çeviri değişmez; önerin havuza düşer.</p>';
   if(son)ic+='<a class="devam cam" href="#/g/'+e(son.g)+'/'+son.i+'"><div><span>Kaldığın yer</span><br><strong>'+e(son.ad)+'</strong> · '+e(son.b)+'</div><span class="btn koyu kucuk" style="display:inline-grid;place-items:center">Devam et</span></a>';
-  S.kat.bolumler.forEach(b=>{ic+='<div class="bolum-ad">'+e(b.ad)+'</div><div class="izgara">'+b.gruplar.map(g=>'<a class="kart cam" href="#/g/'+g.id+'/0"><div class="sayi">'+nf(g.satir)+'<small>satır</small></div><h3>'+e(g.ad)+'</h3><p>'+e(g.aciklama)+'</p>'+guvenBar(g.duzey,g.satir)+'</a>').join('')+'</div>'});
+  S.kat.bolumler.forEach(b=>{ic+='<div class="bolum-ad">'+e(b.ad)+'</div><div class="izgara">'+b.gruplar.map(g=>'<a class="kart cam" href="#/g/'+g.id+'/0"><div class="kart-baslik"><h3>'+e(g.ad)+'</h3><span class="kart-ok" aria-hidden="true"></span></div><p>'+e(g.aciklama)+'</p><div class="kart-alt"><span class="sayi">'+nf(g.satir)+' <small>satır</small></span>'+guvenBar(g.duzey,g.satir)+'</div></a>').join('')+'</div>'});
   ic+='<div class="lejant"><span><i class="nokta2"></i>Bağlam kaynakta kayıtlı</span><span><i class="nokta1"></i>Dolaylı (ortak ya da başka paketin notu, paket başlığı, anahtar öneki)</span><span><i class="nokta0"></i>Bağlam kaydı yok</span></div></main>';
   kabuk('ana',ic)}
 /* ---------- veri ---------- */
