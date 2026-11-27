@@ -105,7 +105,7 @@ async function calisma(gid,i,odakKey){
   $('#sara').oninput=ev=>{W.sara=ev.target.value;listeCiz()};$('#ara').oninput=ev=>{W.ara=ev.target.value;W.goster=60;satirCiz()};
   listeCiz();if(odakKey){const ix=p.r.findIndex(r=>r[0]===odakKey);if(ix>=W.goster)W.goster=ix+20}satirCiz(odakKey)}
 function listeCiz(){const q=W.sara.toLocaleLowerCase('tr-TR'),out=[];let n=0,top=0;
-  W.g.sahneler.forEach((s,i)=>{if(q&&s[0].toLocaleLowerCase('tr-TR').indexOf(q)<0)return;top++;if(n<250||i===W.i){n++;out.push('<a href="#/g/'+W.gid+'/'+i+'" class="'+(i===W.i?'acik':'')+'"><i class="nokta'+s[4]+'"></i><span>'+e(s[0])+'</span><em>'+nf(s[1])+'</em></a>')}});
+  W.g.sahneler.forEach((s,i)=>{if(q&&s[0].toLocaleLowerCase('tr-TR').indexOf(q)<0)return;top++;if(n<250||i===W.i){n++;out.push('<a href="#/g/'+W.gid+'/'+i+'" class="'+(i===W.i?'acik" aria-current="page':'')+'"><i class="nokta'+s[4]+'"></i><span>'+e(s[0])+'</span><em>'+nf(s[1])+'</em></a>')}});
   if(top>n)out.push('<div class="not">'+nf(top-n)+' sahne daha var. Daraltmak için yukarıdan ara.</div>');if(!top)out.push('<div class="not">Eşleşen sahne yok.</div>');
   const l=$('#liste');l.innerHTML=out.join('');const a=$('a.acik',l);if(a)a.scrollIntoView({block:'nearest'})}
 function gorunen(){const q=W.ara.toLocaleLowerCase('tr-TR');return W.r.map((r,ix)=>ix).filter(ix=>!q||((W.r[ix][1]||'')+' '+W.r[ix][2]).toLocaleLowerCase('tr-TR').indexOf(q)>=0)}
