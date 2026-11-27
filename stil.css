@@ -1,16 +1,10 @@
 :root{--ink:#111217;--ink2:#4b4e5a;--ink3:#8a8d99;--cam:rgba(255,255,255,.58);--cam2:rgba(255,255,255,.82);--kenar:rgba(255,255,255,.75);--cizgi:rgba(20,22,40,.08);--zemin:#eef0f6;--vurgu:#5e5ce6;--yesil:#1f9d63;--amber:#c57a09;--gri:#9a9daa;--kirmizi:#d93a3a;--golge:0 1px 0 rgba(255,255,255,.9) inset,0 24px 60px -28px rgba(40,44,90,.35),0 2px 8px -2px rgba(40,44,90,.08);--r:26px;
 --f:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Inter","Segoe UI",system-ui,sans-serif;--m:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
-@media (prefers-color-scheme:dark){:root{--ink:#f3f4f8;--ink2:#b6b9c6;--ink3:#7d8090;--cam:rgba(34,36,48,.55);--cam2:rgba(48,50,66,.78);--kenar:rgba(255,255,255,.1);--cizgi:rgba(255,255,255,.09);--zemin:#0c0d13;--vurgu:#8f8dff;--golge:0 1px 0 rgba(255,255,255,.07) inset,0 24px 60px -24px rgba(0,0,0,.7)}}
+:root{--ink:#f3f4f8;--ink2:#b6b9c6;--ink3:#9b9eaf;--cam:rgba(34,36,48,.55);--cam2:rgba(48,50,66,.78);--kenar:rgba(255,255,255,.1);--cizgi:rgba(255,255,255,.09);--zemin:#000;--vurgu:#a8a3ff;--golge:0 1px 0 rgba(255,255,255,.07) inset,0 24px 60px -24px rgba(0,0,0,.7)}
 *{box-sizing:border-box}html,body{margin:0;height:100%}
 body{font-family:var(--f);color:var(--ink);background:var(--zemin);-webkit-font-smoothing:antialiased;font-size:15px;line-height:1.45;letter-spacing:-.006em}
-.aurora{position:fixed;inset:0;overflow:hidden;z-index:0;pointer-events:none}
-.aurora i{position:absolute;border-radius:50%;filter:blur(90px);opacity:.75;animation:suz 26s ease-in-out infinite alternate}
-.aurora i:nth-child(1){width:52vw;height:52vw;left:-12vw;top:-18vw;background:#c9d4ff}
-.aurora i:nth-child(2){width:44vw;height:44vw;right:-10vw;top:6vh;background:#ffd9c7;animation-duration:32s;animation-delay:-8s}
-.aurora i:nth-child(3){width:48vw;height:48vw;left:28vw;bottom:-26vw;background:#d6f3e6;animation-duration:38s;animation-delay:-15s}
-@media (prefers-color-scheme:dark){.aurora i{opacity:.33}.aurora i:nth-child(1){background:#3b3fae}.aurora i:nth-child(2){background:#8a3d2a}.aurora i:nth-child(3){background:#17604a}}
-@keyframes suz{to{transform:translate3d(6vw,5vh,0) scale(1.12)}}
-@media (prefers-reduced-motion:reduce){.aurora i{animation:none}*{transition:none!important;animation:none!important}}
+.aurora{display:none}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 #kok{position:relative;z-index:1;min-height:100%}
 .cam{background:var(--cam);-webkit-backdrop-filter:blur(30px) saturate(180%);backdrop-filter:blur(30px) saturate(180%);border:1px solid var(--kenar);box-shadow:var(--golge);border-radius:var(--r)}
 button,input,textarea{font:inherit;color:inherit;letter-spacing:inherit}
@@ -35,6 +29,8 @@ button{cursor:pointer;border:0;background:none}
 @keyframes gel{from{opacity:0;transform:translateY(14px) scale(.985)}}
 /* üst çubuk */
 .nav{position:sticky;top:14px;z-index:20;margin:14px auto 0;width:min(1320px,calc(100% - 28px));height:56px;border-radius:999px;display:flex;align-items:center;gap:6px;padding:0 8px 0 14px}
+.nav.cam{--ink:#181723;--ink2:#464255;--ink3:#625d72;--cam2:#efedfa;--cizgi:#e2dfec;--kenar:#e2dfec;--vurgu:#5446b4;background:#fff;color:var(--ink)}
+.nav a.acik{--cam2:#ebe7ff;--ink:#4531a1}
 .nav .logo{width:28px;height:28px;border-radius:9px}
 .nav b{font-weight:650;letter-spacing:-.02em;margin:0 14px 0 6px;font-size:16px}
 .nav a{color:var(--ink2);text-decoration:none;padding:8px 14px;border-radius:999px;font-weight:540;font-size:14px;transition:background .2s,color .2s}
@@ -44,7 +40,7 @@ button{cursor:pointer;border:0;background:none}
 .av.kucuk{width:20px;height:20px;font-size:10px}
 .ben{display:flex;align-items:center;gap:9px;padding:5px 14px 5px 5px;border-radius:999px;background:var(--cam2);font-weight:560;font-size:14px;position:relative}
 .menu{position:absolute;right:0;top:66px;width:250px;padding:16px;text-align:left;font-weight:400;background:#fff;border-color:var(--cizgi)}
-@media (prefers-color-scheme:dark){.menu{background:#202129}}
+
 .menu small{display:block;color:var(--ink3);margin:2px 0 12px;word-break:break-all}
 .sayfa{width:min(1320px,calc(100% - 28px));margin:0 auto;padding:34px 0 80px;animation:gel .45s cubic-bezier(.2,.8,.2,1)}
 /* ana ekran */
