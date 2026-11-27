@@ -118,13 +118,22 @@ function satirCiz(odakKey){const ixs=gorunen(),out=[];let onceki=-1;
   if(ixs.length>W.goster)out.push('<button class="btn daha" id="daha">'+nf(ixs.length-W.goster)+' satır daha göster</button>');if(!ixs.length)out.push('<p class="bos-not" style="padding:30px 20px">Eşleşen satır yok.</p>');
   const kap=$('#satirlar');kap.innerHTML=out.join('');$$('textarea',kap).forEach(boy);
   const d=$('#daha');if(d)d.onclick=()=>{W.goster+=120;const k=W.odak!=null?W.r[W.odak][0]:null;satirCiz(k)};
-  kap.onfocusin=ev=>{const s=ev.target.closest('.satir');if(s)odakla(+s.dataset.ix)};
+  kap.onpointerdown=ev=>{
+    if(ev.pointerType!=='mouse'||ev.button!==0||ev.target.closest('input,button,textarea'))return;
+    const row=ev.target.closest('.satir');
+    if(row){ev.preventDefault();$('textarea',row).focus({preventScroll:true})}
+  };
+  kap.addEventListener('focusin',satiraOdaklan);
   kap.onclick=ev=>{const s=ev.target.closest('.satir');if(!s)return;const is=ev.target.dataset&&ev.target.dataset.is;if(is==='kaydet')kaydet(+s.dataset.ix);else if(is==='geri')geriAl(+s.dataset.ix);else if(!ev.target.closest('.alt')&&ev.target.tagName!=='TEXTAREA')$('textarea',s).focus()};
   kap.oninput=ev=>{if(ev.target.tagName!=='TEXTAREA')return;boy(ev.target);const s=ev.target.closest('.satir'),r=W.r[+s.dataset.ix],k=W.g.hedef+'|'+r[0];if(ev.target.value===r[2])delete W.taslak[k];else W.taslak[k]=ev.target.value;LS.set('cm_taslak',W.taslak);s.classList.toggle('degisti',ev.target.value!==r[2]);uyar(s,r)};
   kap.onkeydown=ev=>{const s=ev.target.closest('.satir');if(!s)return;if((ev.ctrlKey||ev.metaKey)&&ev.key==='Enter'){ev.preventDefault();kaydet(+s.dataset.ix)}else if(ev.altKey&&(ev.key==='ArrowDown'||ev.key==='ArrowUp')){ev.preventDefault();komsu(s,ev.key==='ArrowDown'?1:-1)}};
   let hedef=odakKey?$$('.satir',kap).find(s=>W.r[+s.dataset.ix][0]===odakKey):null;hedef=hedef||$('.satir',kap);
   if(hedef){odakla(+hedef.dataset.ix);if(odakKey){$('textarea',hedef).focus({preventScroll:true});hedef.scrollIntoView({block:'center'})}}else $('#bag').innerHTML='<p class="bos-not">Satır seçilmedi.</p>'}
 function boy(t){t.style.height='auto';t.style.height=t.scrollHeight+'px'}
+function satiraOdaklan(ev){
+  const row=ev.target.closest('.satir');
+  if(row)odakla(Number(row.dataset.ix));
+}
 function uyar(s,r){const f=ytFark(r[1]!=null?r[1]:r[2],$('textarea',s).value);$('.uyari',s).textContent=f.length?'Yer tutucu farkı: '+f.join('  ')+' (İngilizcedeki sayıyla uyuşmuyor)':''}
 function komsu(s,yon){let n=s;do{n=yon>0?n.nextElementSibling:n.previousElementSibling}while(n&&!n.classList.contains('satir'));if(n){$('textarea',n).focus({preventScroll:true});n.scrollIntoView({block:'center',behavior:'smooth'})}return !!n}
 function odakla(ix){if(W.odak===ix&&$('.satir.odak'))return;W.odak=ix;$$('.satir.odak').forEach(x=>x.classList.remove('odak'));const s=$('.satir[data-ix="'+ix+'"]');if(s){s.classList.add('odak');boy($('textarea',s));uyar(s,W.r[ix])}bagCiz(ix)}
